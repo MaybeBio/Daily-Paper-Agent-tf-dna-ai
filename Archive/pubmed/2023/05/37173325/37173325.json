@@ -1,0 +1,561 @@
+{
+  "identity": {
+    "pmid": "37173325",
+    "doi": "10.1038/s41598-023-33954-x",
+    "title": "Consensus clustering methodology to improve molecular stratification of non-small cell lung cancer."
+  },
+  "content": {
+    "abstract": "Recent advances in machine learning research, combined with the reduced sequencing costs enabled by modern next-generation sequencing, paved the way to the implementation of precision medicine through routine multi-omics molecular profiling of tumours. Thus, there is an emerging need of reliable models exploiting such data to retrieve clinically useful information. Here, we introduce an original consensus clustering approach, overcoming the intrinsic instability of common clustering methods based on molecular data. This approach is applied to the case of non-small cell lung cancer (NSCLC), integrating data of an ongoing clinical study (PROMOLE) with those made available by The Cancer Genome Atlas, to define a molecular-based stratification of the patients beyond, but still preserving, histological subtyping. The resulting subgroups are biologically characterized by well-defined mutational and gene-expression profiles and are significantly related to disease-free survival (DFS). Interestingly, it was observed that (1) cluster B, characterized by a short DFS, is enriched in KEAP1 and SKP2 mutations, that makes it an ideal candidate for further studies with inhibitors, and (2) over- and under-representation of inflammation and immune systems pathways in squamous-cell carcinomas subgroups could be potentially exploited to stratify patients treated with immunotherapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/pathology",
+      "*Lung Neoplasms/pathology",
+      "Kelch-Like ECH-Associated Protein 1",
+      "Consensus",
+      "NF-E2-Related Factor 2",
+      "Cluster Analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Manganaro, L",
+        "Bianco, S",
+        "Bironzo, P",
+        "Cipollini, F",
+        "Colombi, D",
+        "Cora, D",
+        "Corti, G",
+        "Doronzo, G",
+        "Errico, L",
+        "Falco, P",
+        "Gandolfi, L",
+        "Guerrera, F",
+        "Monica, V",
+        "Novello, S",
+        "Papotti, M",
+        "Parab, S",
+        "Pittaro, A",
+        "Primo, L",
+        "Righi, L",
+        "Sabbatini, G",
+        "Sandri, A",
+        "Vattakunnel, S",
+        "Bussolino, F",
+        "Scagliotti, G V"
+      ],
+      "short_names": [
+        "Manganaro L",
+        "Bianco S",
+        "Bironzo P",
+        "Cipollini F",
+        "Colombi D",
+        "Cora D",
+        "Corti G",
+        "Doronzo G",
+        "Errico L",
+        "Falco P",
+        "Gandolfi L",
+        "Guerrera F",
+        "Monica V",
+        "Novello S",
+        "Papotti M",
+        "Parab S",
+        "Pittaro A",
+        "Primo L",
+        "Righi L",
+        "Sabbatini G",
+        "Sandri A",
+        "Vattakunnel S",
+        "Bussolino F",
+        "Scagliotti GV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "aizoOn Technology Consulting S.R.L, Torino, Italy.",
+        "aizoOn Technology Consulting S.R.L, Torino, Italy.",
+        "Medical Oncology Division at San Luigi Hospital, Department of Oncology, University of Torino, Orbassano (TO), Italy.",
+        "aizoOn Technology Consulting S.R.L, Torino, Italy.",
+        "aizoOn Technology Consulting S.R.L, Torino, Italy.",
+        "Department of Translational Medicine, Piemonte Orientale University, Novara, Italy.",
+        "Center for Translational Research on Autoimmune and Allergic Diseases-CAAD, Novara, Italy.",
+        "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+        "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy.",
+        "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+        "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy.",
+        "Division of Thoracic Surgery at AOU San Luigi, Department of Oncology, University of Torino, Orbassano (TO), Italy.",
+        "aizoOn Technology Consulting S.R.L, Torino, Italy.",
+        "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+        "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy.",
+        "Division of Thoracic Surgery at AOU Citta della Salute e della Scienza, Department of Surgical Sciences, University of Torino, Torino, Italy.",
+        "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+        "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy.",
+        "Medical Oncology Division at San Luigi Hospital, Department of Oncology, University of Torino, Orbassano (TO), Italy.",
+        "Pathology Division at AOU Citta della Salute e della Scienza, Department of Oncology, University of Torino, Torino, Italy.",
+        "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+        "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy.",
+        "Pathology Division at AOU Citta della Salute e della Scienza, Department of Oncology, University of Torino, Torino, Italy.",
+        "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+        "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy.",
+        "Pathology Division at AOU San Luigi, Department of Oncology, University of Torino, Orbassano (TO), Italy.",
+        "aizoOn Technology Consulting S.R.L, Torino, Italy.",
+        "Division of Thoracic Surgery at AOU San Luigi, Department of Oncology, University of Torino, Orbassano (TO), Italy.",
+        "aizoOn Technology Consulting S.R.L, Torino, Italy.",
+        "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+        "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy.",
+        "Medical Oncology Division at San Luigi Hospital, Department of Oncology, University of Torino, Orbassano (TO), Italy. giorgio.scagliotti@unito.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Manganaro, L",
+        "short_name": "Manganaro L",
+        "identifiers": [],
+        "affiliations": [
+          "aizoOn Technology Consulting S.R.L, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Bianco, S",
+        "short_name": "Bianco S",
+        "identifiers": [],
+        "affiliations": [
+          "aizoOn Technology Consulting S.R.L, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Bironzo, P",
+        "short_name": "Bironzo P",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology Division at San Luigi Hospital, Department of Oncology, University of Torino, Orbassano (TO), Italy."
+        ]
+      },
+      {
+        "full_name": "Cipollini, F",
+        "short_name": "Cipollini F",
+        "identifiers": [],
+        "affiliations": [
+          "aizoOn Technology Consulting S.R.L, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Colombi, D",
+        "short_name": "Colombi D",
+        "identifiers": [],
+        "affiliations": [
+          "aizoOn Technology Consulting S.R.L, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Corà, D",
+        "short_name": "Corà D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Medicine, Piemonte Orientale University, Novara, Italy.",
+          "Center for Translational Research on Autoimmune and Allergic Diseases-CAAD, Novara, Italy."
+        ]
+      },
+      {
+        "full_name": "Corti, G",
+        "short_name": "Corti G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+          "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy."
+        ]
+      },
+      {
+        "full_name": "Doronzo, G",
+        "short_name": "Doronzo G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+          "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy."
+        ]
+      },
+      {
+        "full_name": "Errico, L",
+        "short_name": "Errico L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Thoracic Surgery at AOU San Luigi, Department of Oncology, University of Torino, Orbassano (TO), Italy."
+        ]
+      },
+      {
+        "full_name": "Falco, P",
+        "short_name": "Falco P",
+        "identifiers": [],
+        "affiliations": [
+          "aizoOn Technology Consulting S.R.L, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Gandolfi, L",
+        "short_name": "Gandolfi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+          "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy."
+        ]
+      },
+      {
+        "full_name": "Guerrera, F",
+        "short_name": "Guerrera F",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Thoracic Surgery at AOU Città della Salute e della Scienza, Department of Surgical Sciences, University of Torino, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Monica, V",
+        "short_name": "Monica V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+          "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy."
+        ]
+      },
+      {
+        "full_name": "Novello, S",
+        "short_name": "Novello S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology Division at San Luigi Hospital, Department of Oncology, University of Torino, Orbassano (TO), Italy."
+        ]
+      },
+      {
+        "full_name": "Papotti, M",
+        "short_name": "Papotti M",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology Division at AOU Città della Salute e della Scienza, Department of Oncology, University of Torino, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Parab, S",
+        "short_name": "Parab S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+          "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy."
+        ]
+      },
+      {
+        "full_name": "Pittaro, A",
+        "short_name": "Pittaro A",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology Division at AOU Città della Salute e della Scienza, Department of Oncology, University of Torino, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Primo, L",
+        "short_name": "Primo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+          "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy."
+        ]
+      },
+      {
+        "full_name": "Righi, L",
+        "short_name": "Righi L",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology Division at AOU San Luigi, Department of Oncology, University of Torino, Orbassano (TO), Italy."
+        ]
+      },
+      {
+        "full_name": "Sabbatini, G",
+        "short_name": "Sabbatini G",
+        "identifiers": [],
+        "affiliations": [
+          "aizoOn Technology Consulting S.R.L, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Sandri, A",
+        "short_name": "Sandri A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Thoracic Surgery at AOU San Luigi, Department of Oncology, University of Torino, Orbassano (TO), Italy."
+        ]
+      },
+      {
+        "full_name": "Vattakunnel, S",
+        "short_name": "Vattakunnel S",
+        "identifiers": [],
+        "affiliations": [
+          "aizoOn Technology Consulting S.R.L, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Bussolino, F",
+        "short_name": "Bussolino F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, University of Torino, 10060, Candiolo, Italy.",
+          "Candiolo Cancer Institute-IRCCS-FPO, 10060, Candiolo, Italy."
+        ]
+      },
+      {
+        "full_name": "Scagliotti, G V",
+        "short_name": "Scagliotti GV",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology Division at San Luigi Hospital, Department of Oncology, University of Torino, Orbassano (TO), Italy. giorgio.scagliotti@unito.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 May 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/13 15:12",
+    "fetched_at": "2026-09-29 00:14:05"
+  },
+  "links": {
+    "cites": [
+      "42358820",
+      "42174479",
+      "42169010",
+      "42106638",
+      "41808183",
+      "41712875",
+      "41657442",
+      "41551979",
+      "40457149",
+      "40426913",
+      "38841440",
+      "38279352",
+      "37941025"
+    ],
+    "refs": [
+      "35697558",
+      "35577307",
+      "35022204",
+      "34985916",
+      "34843570",
+      "34559549",
+      "34229612",
+      "34158350",
+      "33562741",
+      "33273537",
+      "33125148",
+      "32657401",
+      "32396674",
+      "32393329",
+      "31922567",
+      "31501851",
+      "31357501",
+      "31344359",
+      "30981604",
+      "30972100",
+      "30906311",
+      "30824826",
+      "30275546",
+      "30193109",
+      "30039492",
+      "29933539",
+      "29925568",
+      "29209073",
+      "28636851",
+      "28541380",
+      "28341226",
+      "28187284",
+      "28176922",
+      "28140453",
+      "27863400",
+      "27498386",
+      "27312411",
+      "27261908",
+      "26482610",
+      "26408300",
+      "26377073",
+      "25941815",
+      "25691825",
+      "25501392",
+      "24464287",
+      "24037242",
+      "23770567",
+      "23745156",
+      "23431203",
+      "23104886",
+      "22886302",
+      "21816040",
+      "21546393",
+      "21376230",
+      "20514026",
+      "20213688",
+      "19759197",
+      "17202451",
+      "16260700",
+      "16199517",
+      "15117797",
+      "14651757",
+      "12445336",
+      "12036904",
+      "10802651",
+      "5234703"
+    ],
+    "similar": [
+      "37173325",
+      "31323387",
+      "29615460",
+      "20534738",
+      "34450259",
+      "35190375",
+      "32866624",
+      "35753125",
+      "31548347",
+      "27601007",
+      "32434476",
+      "33323404",
+      "33640623",
+      "30411339",
+      "35705448",
+      "22684020",
+      "36709038",
+      "35351670",
+      "35727053",
+      "31319993",
+      "17020408",
+      "22249257",
+      "26922479",
+      "34952628",
+      "26078391",
+      "31879171",
+      "36526124",
+      "36453575",
+      "35394121",
+      "34844602",
+      "36394791",
+      "36493734",
+      "25739673",
+      "32272498",
+      "31828882",
+      "35511432",
+      "33307193",
+      "34601169",
+      "35598205",
+      "35747993",
+      "34994595",
+      "34500370",
+      "32361034",
+      "32139332",
+      "31471895",
+      "35200543",
+      "34954641",
+      "35534896",
+      "31986371",
+      "31695040",
+      "31290993",
+      "35287068",
+      "36602799",
+      "31692283",
+      "26409771",
+      "31455821",
+      "36321557",
+      "33537171",
+      "27663899",
+      "31416841",
+      "34293517",
+      "32576270",
+      "29306329",
+      "36100256",
+      "34673143",
+      "31040157",
+      "23824739",
+      "33246647",
+      "23075683",
+      "29535211",
+      "31299995",
+      "35157996",
+      "15307143",
+      "34617407",
+      "30902917",
+      "35883650",
+      "32855269",
+      "29474635",
+      "35997519",
+      "34169426",
+      "24828662",
+      "29526543"
+    ],
+    "review": [
+      "37173325",
+      "26922479",
+      "36394791",
+      "33307193",
+      "35200543",
+      "31290993"
+    ],
+    "pmc": [
+      "10182023"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://hdl.handle.net/2318/1903634",
+        "provider": "University of Turin Instituional Repository AperTO - Free full text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full Text from"
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-33954-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37173325/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37173325",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1267",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

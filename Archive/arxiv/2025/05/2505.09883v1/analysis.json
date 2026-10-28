@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2505.09883v1",
+  "title": "DeepPlantCRE: A Transformer-CNN Hybrid Framework for Plant Gene Expression Modeling and Cross-Species Generalization",
+  "authors": "Yingjun Wu; Jingyun Huang; Liang Ming; Pengcheng Deng; Maojun Wang; Zeyu Zhang",
+  "journal": "",
+  "published_date": "2025-05-15",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出Transformer-CNN混合框架DeepPlantCRE预测植物基因表达并提取顺式调控元件，通过可解释性分析验证所得基序与已知TF结合位点一致，虽非直接建模TF-DNA三维互作，但方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "The investigation of plant transcriptional regulation constitutes a fundamental basis for crop breeding, where cis-regulatory elements (CREs), as the key factor determining gene expression, have become the focus of crop genetic improvement research. Deep learning techniques, leveraging their exceptional capacity for high-dimensional feature extraction and nonlinear regulatory relationship modeling, have been extensively employed in this field. However, current methodologies present notable limitations: single CNN-based architectures struggle to capture long-range regulatory interactions, while existing CNN-Transformer hybrid models demonstrate proneness to overfitting and inadequate generalization in cross-species prediction contexts. To address these challenges, this study proposes DeepPlantCRE, a deep-learning framework for plant gene expression prediction and CRE Extraction. The model employs a Transformer-CNN hybrid architecture that achieves enhanced Accuracy, AUC-ROC, and F1-score metrics over existing baselines (DeepCRE and PhytoExpr), with improved generalization performance and overfitting inhibiting. Cross-species validation experiments conducted on gene expression datasets from \\textit{Gossypium}, \\textit{Arabidopsis thaliana}, \\textit{Solanum lycopersicum}, \\textit{Sorghum bicolor}, and \\textit{Arabidopsis thaliana} reveal that the model achieves peak prediction accuracy of 92.3\\%, particularly excelling in complex genomic data analysis. Furthermore, interpretability investigations using DeepLIFT and Transcription Factor Motif Discovery from the importance scores algorithm (TF-MoDISco) demonstrate that the derived motifs from our model exhibit high concordance with known transcription factor binding sites (TFBSs) such as MYR2, TSO1 in JASPAR plant database, substantiating the potential of biological interpretability and practical agricultural application of DeepPlantCRE.",
+  "abstract_zh": "植物转录调控的研究构成了作物育种的基础，其中顺式调控元件（cis-regulatory elements, CREs）作为决定基因表达的关键因素，已成为作物遗传改良研究的焦点。深度学习技术凭借其在高维特征提取和非线性调控关系建模方面的卓越能力，已被广泛应用于该领域。然而，现有方法存在显著局限性：基于单一CNN的架构难以捕捉长距离调控相互作用，而现有的CNN-Transformer混合模型在跨物种预测情境中表现出易过拟合和泛化能力不足的问题。为解决这些挑战，本研究提出了DeepPlantCRE，一种用于植物基因表达预测和CRE提取的深度学习框架。该模型采用Transformer-CNN混合架构，在现有基线（DeepCRE和PhytoExpr）上实现了更高的准确率、AUC-ROC和F1-score指标，并具有改进的泛化性能和过拟合抑制能力。在来自\\textit{棉花（Gossypium）}、\\textit{拟南芥（Arabidopsis thaliana）}、\\textit{番茄（Solanum lycopersicum）}、\\textit{高粱（Sorghum bicolor）}和\\textit{拟南芥（Arabidopsis thaliana）}的基因表达数据集上进行的跨物种验证实验表明，该模型达到了92.3\\%的峰值预测准确率，尤其在复杂基因组数据分析中表现优异。此外，使用DeepLIFT和基于重要性评分的转录因子基序发现算法（TF-MoDISco）进行的可解释性研究表明，从我们的模型中导出的基序与JASPAR植物数据库中已知的转录因子结合位点（TFBSs）如MYR2、TSO1高度一致，证实了DeepPlantCRE在生物可解释性和实际农业应用方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2505.09883v1",
+  "source_url": "https://arxiv.org/abs/2505.09883v1",
+  "paper_page_path": "papers/arxiv/2505.09883v1/index.html"
+}

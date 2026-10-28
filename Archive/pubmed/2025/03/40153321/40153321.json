@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "40153321",
+    "doi": "10.55563/clinexprheumatol/x6am51",
+    "title": "Identification and validation of fibroblast-related biomarkers in rheumatoid arthritis by bulk RNA-seq and single-cell RNA-seq analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Rheumatoid arthritis (RA) is an autoimmune disorder characterised by chronic inflammation of the synovium, resulting in joint destruction, disability, and a shortened lifespan. Fibroblasts play a crucial role in the progression of RA, therefore, the identification of fibroblast-related biomarkers may provide novel insights for therapeutic intervention. METHODS: We employed single cell analysis to identify distinct cellular subtypes. Following the identification of fibroblast cells, we conducted high-dimensional weighted gene co-expression network analysis to isolate modules closely associated with these fibroblasts. We then extracted differentially expressed genes between RA and normal samples from the training set, which comprised GSE55235 and GSE55457. Protein-protein interaction network was used to prioritise the top 40 fibroblast-related differential expression genes. Then three machine learning methods - least absolute shrinkage and selection operator, support vector machine recursive feature elimination, and random forest - were utilised to identify fibroblast-related biomarkers that are highly correlated with RA. After validating these findings using an external dataset (GSE77298), we developed a diagnostic model based on the identified biomarkers. Finally, we performed western blot analyses to confirm the expression levels of these biomarkers. RESULTS: Two fibroblast-related biomarkers, AIM2 and PSMB9, were successfully identified and validated, demonstrating a strong association with RA. The nomogram developed from these biomarkers exhibited excellent performance in diagnosing and predicting patient outcomes. CONCLUSIONS: This study not only identified and rigorously validated two fibroblast-related biomarkers for RA, but also provided valuable insights into the early diagnosis of the disease and the formulation of patient management strategies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Arthritis, Rheumatoid/genetics/diagnosis/metabolism/pathology",
+      "*Fibroblasts/metabolism/pathology",
+      "*Single-Cell Analysis",
+      "*RNA-Seq",
+      "Biomarkers/metabolism",
+      "Protein Interaction Maps",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Reproducibility of Results",
+      "Gene Expression Profiling",
+      "Machine Learning",
+      "Predictive Value of Tests",
+      "Databases, Genetic",
+      "Gene Regulatory Networks",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Ying Kai",
+        "Zhou, Lei",
+        "Chang, Gang",
+        "Wang, Rui Qiang"
+      ],
+      "short_names": [
+        "Wu YK",
+        "Zhou L",
+        "Chang G",
+        "Wang RQ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Orthopaedics Department, First Peoples Hospital of Ning Yang, Tai An, Shandong, China.",
+        "Hand Surgery, The Second Affiliated Hospital of Shandong First Medical University, Tai An, Shandong, China.",
+        "Spinal Surgery Department, The Fourth People's Hospital of Jinan, Ji Nan, Shandong, China. changgang1015@163.com.",
+        "Trauma Orthopaedics Department, The Second Affiliated Hospital of Shandong First Medical University, Tai An, Shandong, China. wykkbs@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Ying Kai",
+        "short_name": "Wu YK",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopaedics Department, First Peoples Hospital of Ning Yang, Tai An, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Lei",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Hand Surgery, The Second Affiliated Hospital of Shandong First Medical University, Tai An, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Gang",
+        "short_name": "Chang G",
+        "identifiers": [],
+        "affiliations": [
+          "Spinal Surgery Department, The Fourth People's Hospital of Jinan, Ji Nan, Shandong, China. changgang1015@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Rui Qiang",
+        "short_name": "Wang RQ",
+        "identifiers": [],
+        "affiliations": [
+          "Trauma Orthopaedics Department, The Second Affiliated Hospital of Shandong First Medical University, Tai An, Shandong, China. wykkbs@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and experimental rheumatology"
+    ],
+    "journal_abbrev": [
+      "Clin Exp Rheumatol"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/28 18:25",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "41832502",
+      "41607310",
+      "40596265",
+      "40547599"
+    ],
+    "refs": [],
+    "similar": [
+      "40153321",
+      "39923303",
+      "41116042",
+      "38711508",
+      "39067546",
+      "41021591",
+      "38962008",
+      "39509434",
+      "36068607",
+      "39139563",
+      "36238290",
+      "38656728",
+      "30483789",
+      "38771826",
+      "41131607",
+      "41031145",
+      "39466354",
+      "39845946",
+      "40500570",
+      "40849565",
+      "40671345",
+      "40974094",
+      "41488645",
+      "41291841",
+      "40636121",
+      "11056662",
+      "41316541",
+      "39170142",
+      "41481752",
+      "39014455",
+      "40914702",
+      "34113405",
+      "34767108",
+      "33407587",
+      "40238799",
+      "34195267",
+      "38484666",
+      "39953769",
+      "39723749",
+      "39396400",
+      "40462241",
+      "35003389",
+      "38910570",
+      "41088461",
+      "36273177",
+      "39433011",
+      "36045515",
+      "40503237",
+      "40296690",
+      "32802866",
+      "40362233",
+      "40475761",
+      "37492576",
+      "39534605",
+      "41212891",
+      "40592131",
+      "36224010",
+      "39699225",
+      "36969166",
+      "33430905",
+      "38573982",
+      "39647286",
+      "40287984",
+      "40618698",
+      "36717858",
+      "39221753",
+      "39421742",
+      "40596265",
+      "40024421",
+      "37965330",
+      "41105461",
+      "41146237",
+      "40550064",
+      "40328901",
+      "37779906",
+      "40681713",
+      "40742465",
+      "39537231",
+      "38977339",
+      "32650679",
+      "41066424",
+      "39735547",
+      "35572839",
+      "41432483",
+      "39033778",
+      "28440025",
+      "39326197",
+      "34224029",
+      "32945465",
+      "39762897",
+      "37166429",
+      "40644421",
+      "38767974",
+      "38385005",
+      "41209768",
+      "41361221",
+      "40901831",
+      "30916045",
+      "39736250",
+      "40234753"
+    ],
+    "review": [
+      "40153321"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://www.clinexprheumatol.org/pubmed/find-pii.asp?pii=40153321",
+        "provider": "Clinical and Experimental Rheumatology",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

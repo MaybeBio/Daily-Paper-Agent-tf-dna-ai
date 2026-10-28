@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "40460061",
+    "doi": "10.1021/acssynbio.4c00894",
+    "title": "Context-Aware Biosensor Design Through Biology-Guided Machine Learning and Dynamical Modeling."
+  },
+  "content": {
+    "abstract": "Addressing the challenge of achieving a global circular bioeconomy requires efficient and robust bio-based processes operating at different scales. These processes should also be competitive replacements for the production of chemicals currently obtained from fossil resources, as well as for the production of new-to-nature compounds. To that end, genetic circuits can be used to control cellular behavior and are instrumental in developing efficient cell factories. Whole-cell biosensors harbor circuits that can be based on allosteric transcription factors (TFs) to detect and elicit a response depending on the target molecule concentrations. By modifying regulatory elements and testing various genetic components, the responsive behavior of genetic biosensors can be finely tuned and engineered. While previous models have described and characterized the behavior of naringenin biosensors, additional data and resources are required to predict their dynamic response and performance in different contexts, such as under various gene expression regulatory elements, media, carbon sources, or media supplements. Tuning these conditions is pivotal in optimizing biosensor design for applications operating in varying conditions, such as fermentation processes. In this study, we assembled a library of FdeR biosensors, characterized their performance under different conditions, and developed a mechanistic model to describe their dynamic behavior under reference conditions, which guided a machine learning-based predictive model that accounts for context-dependent dynamic parameters. Such a Design-Build-Test-Learn (DBTL) pipeline allowed us to determine optimal condition combinations for the desired biosensor specifications, both for automated screening and dynamic regulation. The findings of this work contribute to a deeper understanding of whole-cell biosensors and their potential for precise measurement, screening, and dynamic regulation of engineered production pathways for valuable molecules.",
+    "keywords": [
+      "biosensor",
+      "context dependence",
+      "dynamical modeling",
+      "genetic circuit",
+      "scientific machine learning",
+      "synthetic biology"
+    ],
+    "mesh_terms": [
+      "*Biosensing Techniques/methods",
+      "*Machine Learning",
+      "Transcription Factors/metabolism/genetics",
+      "Synthetic Biology/methods",
+      "Escherichia coli/metabolism/genetics",
+      "Gene Regulatory Networks",
+      "Flavanones/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tellechea-Luzardo, Jonathan",
+        "Martin Lazaro, Hector",
+        "Fernandez Perez, Christian",
+        "Henriques, David",
+        "Otero-Muras, Irene",
+        "Carbonell, Pablo"
+      ],
+      "short_names": [
+        "Tellechea-Luzardo J",
+        "Martin Lazaro H",
+        "Fernandez Perez C",
+        "Henriques D",
+        "Otero-Muras I",
+        "Carbonell P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2198-4558",
+        "ORCID: 0000-0003-0747-0841",
+        "ORCID: 0009-0008-1804-7356",
+        "ORCID: 0000-0002-9477-292X",
+        "ORCID: 0000-0003-2895-997X",
+        "ORCID: 0000-0002-0993-5625"
+      ],
+      "affiliations": [
+        "Institute of Industrial Control Systems and Computing (AI2), Universitat Politecnica de Valencia (UPV), Valencia 46022, Spain.",
+        "Institute of Industrial Control Systems and Computing (AI2), Universitat Politecnica de Valencia (UPV), Valencia 46022, Spain.",
+        "Institute for Integrative Systems Biology I2SysBio, Universitat de Valencia-CSIC, Catedratico Agustin Escardino Benlloch 9, Paterna, Valencia 36208, Spain.",
+        "IIM-CSIC, Eduardo Cabello 6, Vigo 36208, Spain.",
+        "Institute for Integrative Systems Biology I2SysBio, Universitat de Valencia-CSIC, Catedratico Agustin Escardino Benlloch 9, Paterna, Valencia 36208, Spain.",
+        "Institute of Industrial Control Systems and Computing (AI2), Universitat Politecnica de Valencia (UPV), Valencia 46022, Spain.",
+        "Institute for Integrative Systems Biology I2SysBio, Universitat de Valencia-CSIC, Catedratico Agustin Escardino Benlloch 9, Paterna, Valencia 36208, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tellechea-Luzardo, Jonathan",
+        "short_name": "Tellechea-Luzardo J",
+        "identifiers": [
+          "0000-0003-2198-4558"
+        ],
+        "affiliations": [
+          "Institute of Industrial Control Systems and Computing (AI2), Universitat Politècnica de València (UPV), València 46022, Spain."
+        ]
+      },
+      {
+        "full_name": "Martin Lazaro, Hector",
+        "short_name": "Martin Lazaro H",
+        "identifiers": [
+          "0000-0003-0747-0841"
+        ],
+        "affiliations": [
+          "Institute of Industrial Control Systems and Computing (AI2), Universitat Politècnica de València (UPV), València 46022, Spain."
+        ]
+      },
+      {
+        "full_name": "Fernandez Perez, Christian",
+        "short_name": "Fernandez Perez C",
+        "identifiers": [
+          "0009-0008-1804-7356"
+        ],
+        "affiliations": [
+          "Institute for Integrative Systems Biology I2SysBio, Universitat de Valencia-CSIC, Catedratico Agustin Escardino Benlloch 9, Paterna, Valencia 36208, Spain."
+        ]
+      },
+      {
+        "full_name": "Henriques, David",
+        "short_name": "Henriques D",
+        "identifiers": [
+          "0000-0002-9477-292X"
+        ],
+        "affiliations": [
+          "IIM-CSIC, Eduardo Cabello 6, Vigo 36208, Spain."
+        ]
+      },
+      {
+        "full_name": "Otero-Muras, Irene",
+        "short_name": "Otero-Muras I",
+        "identifiers": [
+          "0000-0003-2895-997X"
+        ],
+        "affiliations": [
+          "Institute for Integrative Systems Biology I2SysBio, Universitat de Valencia-CSIC, Catedratico Agustin Escardino Benlloch 9, Paterna, Valencia 36208, Spain."
+        ]
+      },
+      {
+        "full_name": "Carbonell, Pablo",
+        "short_name": "Carbonell P",
+        "identifiers": [
+          "0000-0002-0993-5625"
+        ],
+        "affiliations": [
+          "Institute of Industrial Control Systems and Computing (AI2), Universitat Politècnica de València (UPV), València 46022, Spain.",
+          "Institute for Integrative Systems Biology I2SysBio, Universitat de Valencia-CSIC, Catedratico Agustin Escardino Benlloch 9, Paterna, Valencia 36208, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2025 Jun 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/03 18:29",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "41494508",
+      "40843963"
+    ],
+    "refs": [
+      "36814719",
+      "35921946",
+      "35799063",
+      "35561342",
+      "35158314",
+      "35012773",
+      "33973468",
+      "33441561",
+      "33195815",
+      "33022109",
+      "32023410",
+      "31433622",
+      "31269324",
+      "30634637",
+      "30271948",
+      "29733444",
+      "29688705",
+      "28918244",
+      "28703749",
+      "27642864",
+      "26741806",
+      "26323217",
+      "24988485",
+      "24885957",
+      "24188962",
+      "23669743",
+      "18985154"
+    ],
+    "similar": [
+      "40460061",
+      "35700119",
+      "29688705",
+      "38875315",
+      "38634809",
+      "29733444",
+      "41655136",
+      "33899477",
+      "32886884",
+      "40843963",
+      "41430049",
+      "35346204",
+      "39124917",
+      "40776718",
+      "41512477",
+      "40977514",
+      "34968029",
+      "40315428",
+      "40277535",
+      "28763198",
+      "41345436",
+      "40277392",
+      "31433622",
+      "41478986",
+      "33555859",
+      "41655251",
+      "35089702",
+      "37175695",
+      "26056948",
+      "39874719",
+      "41870091",
+      "41205601",
+      "40170310",
+      "26521244",
+      "40532756",
+      "41182995",
+      "36502964",
+      "29251347",
+      "36814719",
+      "31429541",
+      "27744683",
+      "31072100",
+      "32976557",
+      "40090258",
+      "23912807",
+      "28543037",
+      "37185503",
+      "28031353",
+      "40745425",
+      "39264040",
+      "24131345",
+      "41397952",
+      "30563319",
+      "37931911",
+      "30658983",
+      "37327078",
+      "35316041",
+      "34139166",
+      "29380150",
+      "35872379",
+      "37053505",
+      "30563328",
+      "35339074",
+      "32629420",
+      "38508427",
+      "37449325",
+      "27170323",
+      "34551261",
+      "39392681",
+      "37198736",
+      "41023501",
+      "36178800",
+      "31552424",
+      "38468096",
+      "35594503",
+      "41763221",
+      "39193902",
+      "38662439",
+      "33837017",
+      "30150540",
+      "40863014",
+      "34061505",
+      "38944415",
+      "30696431",
+      "29126571",
+      "32023410",
+      "39373325",
+      "35922625",
+      "35200325",
+      "40170311",
+      "31778177",
+      "37916512",
+      "29168381",
+      "29532902",
+      "38752334",
+      "33646758",
+      "30788470",
+      "41631420",
+      "36472954",
+      "26968941"
+    ],
+    "review": [
+      "40460061",
+      "33899477",
+      "40843963",
+      "39124917",
+      "40277535",
+      "41655251",
+      "37175695",
+      "26056948",
+      "39874719",
+      "40170310",
+      "26521244",
+      "36502964",
+      "36814719",
+      "37185503",
+      "34139166",
+      "35872379",
+      "38508427",
+      "37449325",
+      "39392681",
+      "38662439",
+      "30150540",
+      "29126571",
+      "35200325",
+      "40170311",
+      "31778177"
+    ],
+    "pmc": [
+      "12186671"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40460061/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://riunet.upv.es/handle/10251/223335",
+        "provider": "RiuNet Universitat Politecnica de Valencia",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://pubs.acs.org/asbcd6/article-lookup/doi/10.1021/acssynbio.4c00894",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.30.502114",
+  "title": "DBP2Vec: Predicting DNA-binding proteins directly using pre-trained protein language model",
+  "doi": "10.1101/2022.07.30.502114",
+  "abstract": "DNA-binding proteins (DBPs) play a crucial role in numbers of biological processes and have received wide attention in recent years. Meanwhile, the rapid development of sequencing technologies lead to the explosive growth of new protein sequences, it is highly desired to develop a fast and accurate method for DNA-binding proteins prediction. Experimental methods such as chromatin immunoprecipitation on microarray (ChIP-chip) and X-ray crystallography are highly accurate but expensive and time-consuming. To address this issue, many computational methods have been proposed, they usually exploit multiple information about protein sequence, e.g., sequence composition information, physicochemical properties, evolutionary information, structural information, etc. Despite the effectiveness of these approaches, they heavily depend on prior biological knowledge and undergo a very complex process of feature extraction. In view of these shortcomings, here, we present a novel method, named DBP2Vec, to predict DNA-binding proteins directly from pre-trained protein language model (e.g., ESM-1b) which effectively encode biological properties without any prior knowledge by virtue of deep representation learning (e.g., BERT) on large protein sequences databases (e.g., UniParc). Tests on two DBPs benchmark datasets (e.g., PDB296, UniSwiss-Tst) demonstrate that our proposed method significantly outperforms existing state-of-the-art methods. The source code and the datasets used in the paper are publicly available at: https://github.com/hgcwei/DBP2Vec .",
+  "authors": [
+    "Chao Wei",
+    "Zhiwei Ye",
+    "Panru Wang",
+    "Wuyang Lan"
+  ],
+  "published_date": "2022-08-02",
+  "updated_date": "2022-08-04T19:40:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.30.502114",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.30.502114.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            16
+          ]
+        ],
+        "date-time": "2026-06-16T07:17:09Z",
+        "timestamp": 1781594229255,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  DNA-binding proteins (DBPs) play a crucial role in numbers of biological processes and have received wide attention in recent years. Meanwhile, the rapid development of sequencing technologies lead to the explosive growth of new protein sequences, it is highly desired to develop a fast and accurate method for DNA-binding proteins prediction. Experimental methods such as chromatin immunoprecipitation on microarray (ChIP-chip) and X-ray crystallography are highly accurate but expensive and time-consuming. To address this issue, many computational methods have been proposed, they usually exploit multiple information about protein sequence, e.g., sequence composition information, physicochemical properties, evolutionary information, structural information, etc. Despite the effectiveness of these approaches, they heavily depend on prior biological knowledge and undergo a very complex process of feature extraction. In view of these shortcomings, here, we present a novel method, named DBP2Vec, to predict DNA-binding proteins directly from pre-trained protein language model (e.g., ESM-1b) which effectively encode biological properties without any prior knowledge by virtue of deep representation learning (e.g., BERT) on large protein sequences databases (e.g., UniParc). Tests on two DBPs benchmark datasets (e.g., PDB296, UniSwiss-Tst) demonstrate that our proposed method significantly outperforms existing state-of-the-art methods. The source code and the datasets used in the paper are publicly available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/hgcwei/DBP2Vec\">https://github.com/hgcwei/DBP2Vec</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2022.07.30.502114",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            4
+          ]
+        ],
+        "date-time": "2022-08-04T19:40:14Z",
+        "timestamp": 1659642014000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "DBP2Vec: Predicting DNA-binding proteins directly using pre-trained protein language model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Chao",
+          "family": "Wei",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhiwei",
+          "family": "Ye",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Panru",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wuyang",
+          "family": "Lan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq061"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.34.040204.144537"
+        },
+        {
+          "issue": "17",
+          "key": "2022082123303484000_2022.07.30.502114v1.3",
+          "first-page": "4985",
+          "article-title": "Overexpression of DNA-binding protein B gene product in breast cancer as detected by in vitro-generated combinatorial human immunoglobulin libraries",
+          "volume": "62",
+          "year": "2002",
+          "journal-title": "Cancer research"
+        },
+        {
+          "issue": "4",
+          "key": "2022082123303484000_2022.07.30.502114v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "211",
+          "DOI": "10.1038/nrneurol.2010.18",
+          "article-title": "TAR DNA-binding protein 43 in neurodegenerative disease",
+          "volume": "6",
+          "year": "2010",
+          "journal-title": "Nature Reviews Neurology"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ygeno.2003.11.004"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.185.14.4066-4073.2003"
+        },
+        {
+          "issue": "6",
+          "key": "2022082123303484000_2022.07.30.502114v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "2551",
+          "DOI": "10.1007/s00216-010-4096-7",
+          "article-title": "Analysis of DNA–protein interactions: from nitrocellulose filter binding assays to microarray studies",
+          "volume": "398",
+          "year": "2010",
+          "journal-title": "Analytical and bioanalytical chemistry"
+        },
+        {
+          "issue": "7",
+          "key": "2022082123303484000_2022.07.30.502114v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003711",
+          "DOI": "10.1371/journal.pcbi.1003711",
+          "article-title": "Enhanced regulatory sequence prediction using gapped k-mer features",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt646"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/oxfordjournals.jbchem.a135454"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jtbi.2010.12.024"
+        },
+        {
+          "issue": "11",
+          "key": "2022082123303484000_2022.07.30.502114v1.12",
+          "first-page": "770",
+          "article-title": "DNA secondary structures: stability and function of G-quadruplex structures",
+          "volume": "13",
+          "year": "2011",
+          "journal-title": "Nature Reviews Genetics"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1467"
+        },
+        {
+          "issue": "6",
+          "key": "2022082123303484000_2022.07.30.502114v1.14",
+          "first-page": "552",
+          "article-title": "iPGK-PseAAC: identify lysine phosphoglycerylation sites in proteins by incorporating four different tiers of amino acid pairwise coupling information into the general PseAAC",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Medicinal Chemistry"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "62",
+          "DOI": "10.1016/j.jtbi.2018.02.008",
+          "article-title": "Using Chou’s general PseAAC to analyze the evolutionary relationship of receptor associated proteins (RAP) with various folding patterns of protein domains",
+          "volume": "445",
+          "year": "2018",
+          "journal-title": "Journal of theoretical biology"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.jtbi.2019.02.007",
+          "article-title": "SPrenylC-PseAAC: A sequence-based model developed via Chou’s 5-steps rule and general PseAAC for identifying S-prenylation sites in proteins",
+          "volume": "468",
+          "year": "2019",
+          "journal-title": "Journal of theoretical biology"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0024756"
+        },
+        {
+          "issue": "1-2",
+          "key": "2022082123303484000_2022.07.30.502114v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "127",
+          "DOI": "10.1016/S1570-9639(03)00112-2",
+          "article-title": "Support vector machines for predicting rRNA-, RNA-, and DNA-binding proteins from amino acid sequence",
+          "volume": "1648",
+          "year": "2003",
+          "journal-title": "Biochimica et Biophysica Acta (BBA)-Proteins and Proteomics"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1016/j.jtbi.2018.05.006",
+          "article-title": "DPP-PseAAC: a DNA-binding protein prediction model using Chou’s general PseAAC",
+          "volume": "452",
+          "year": "2018",
+          "journal-title": "Journal of theoretical biology"
+        },
+        {
+          "issue": "1",
+          "key": "2022082123303484000_2022.07.30.502114v1.20",
+          "first-page": "65",
+          "article-title": "Moment-based prediction of DNA-binding proteins",
+          "volume": "341",
+          "year": "2018",
+          "journal-title": "Journal of molecular biology"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq019"
+        },
+        {
+          "issue": "11",
+          "key": "2022082123303484000_2022.07.30.502114v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1844",
+          "DOI": "10.1093/bioinformatics/bty912",
+          "article-title": "Set of approaches based on 3D structure and position specific-scoring matrix for predicting DNA-binding proteins",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0844-1"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-017-06929-y"
+        },
+        {
+          "issue": "1",
+          "key": "2022082123303484000_2022.07.30.502114v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "8",
+          "DOI": "10.1002/minf.201400025",
+          "article-title": "PseDNA-Pro: DNA-binding protein identification by combining Chou’s PseAAC and physicochemical distance transformation",
+          "volume": "34",
+          "year": "2015",
+          "journal-title": "Molecular Informatics"
+        },
+        {
+          "issue": "4",
+          "key": "2022082123303484000_2022.07.30.502114v1.26",
+          "first-page": "1419",
+          "article-title": "TargetDBP: accurate DNA-binding protein prediction via sequence-based multi-view feature learning",
+          "volume": "17",
+          "year": "2019",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2022082123303484000_2022.07.30.502114v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "505",
+          "DOI": "10.1021/acs.jcim.0c00735",
+          "article-title": "TargetDBP+: enhancing the performance of identifying DNA-binding proteins via weighted convolutional features",
+          "volume": "61",
+          "year": "2021",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu352"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "106921",
+          "DOI": "10.1016/j.asoc.2020.106921",
+          "article-title": "StackPDB: predicting DNA-binding proteins based on XGB-RFE feature optimization and stacked ensemble classifier",
+          "volume": "99",
+          "year": "2021",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.31",
+          "first-page": "5998",
+          "article-title": "Attention is all you need",
+          "volume": "30",
+          "year": "2021",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao R. , Bhattacharya N. et al. (2019) Evaluating protein transfer learning with TAPE. Advances in neural information processing systems, 32.",
+          "DOI": "10.1101/676825"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar A. , Heinzinger M. et al. (2021) ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing. IEEE Transactions on Pattern Analysis and Machine Intelligence, 1–1.",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ross B. C. (2014) Mutual information between discrete and continuous data sets. PloS one, 9 (2), 1–1.",
+          "DOI": "10.1371/journal.pone.0087357"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1214"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Boutet E. , Lieberherr D. et al. (2016) UniProtKB/Swiss-Prot, the manually annotated section of the UniProt KnowledgeBase: how to use the entry view. In Plant Bioinformatics, Humana Press, New York, NY., 23–54.",
+          "DOI": "10.1007/978-1-4939-3167-5_2"
+        },
+        {
+          "issue": "2",
+          "key": "2022082123303484000_2022.07.30.502114v1.39",
+          "first-page": "398",
+          "article-title": "Cross-domain sentiment classification using sentiment sensitive embeddings",
+          "volume": "28",
+          "year": "2015",
+          "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "216",
+          "DOI": "10.1016/j.ins.2018.09.001",
+          "article-title": "An analysis of hierarchical text classification using word embeddings",
+          "volume": "471",
+          "year": "2019",
+          "journal-title": "Information Sciences"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kuriyan J , Konforti B , Wemmer D. (2012) The molecules of life: Physical and chemical principles. WW Norton and Company.",
+          "DOI": "10.1201/9780429258787"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0141287"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Asgari E , Poerner N , McHardy A C , et al. (2019) DeepPrime2Sec: deep learning for protein secondary structure prediction from the primary sequences. bioRxiv, 705426.",
+          "DOI": "10.1101/705426"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1016/j.neucom.2018.04.036",
+          "article-title": "Learning distributed representations of RNA sequences and its application for predicting RNA-protein binding sites with a convolutional neural network",
+          "volume": "305",
+          "year": "2018",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "3",
+          "key": "2022082123303484000_2022.07.30.502114v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/1961189.1961199",
+          "article-title": "LIBSVM: a library for support vector machines",
+          "volume": "2",
+          "year": "2011",
+          "journal-title": "ACM transactions on intelligent systems and technology"
+        },
+        {
+          "key": "2022082123303484000_2022.07.30.502114v1.46",
+          "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.07.30.502114",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:26:22Z",
+        "timestamp": 1768447582000
+      },
+      "score": 175.18637,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.07.30.502114"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            2
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.1101/2022.07.30.502114",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

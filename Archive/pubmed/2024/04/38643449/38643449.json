@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "38643449",
+    "doi": "10.1007/s00210-024-03100-z",
+    "title": "Kurarinone, a flavonoid from Radix Sophorae Flavescentis, inhibits RANKL-induced osteoclastogenesis in mouse bone marrow-derived monocyte/macrophages."
+  },
+  "content": {
+    "abstract": "Inflammation-induced osteoclast proliferation is a crucial contributor to impaired bone metabolism. Kurarinone (KR), a flavonoid extracted from the Radix Sophorae Flavescentis, exhibits notable anti-inflammatory properties. Nevertheless, the precise influence of KR on osteoclast formation remains unclear. This study's objective was to assess the impact of KR on osteoclast activity in vitro and unravel its underlying mechanism. Initially, a target network for KR-osteoclastogenesis-osteoporosis was constructed using network pharmacology. Subsequently, the intersecting targets were identified through the Venny platform and a PPI network was created using Cytoscape 3.9.1. Key targets within the network were identified employing topological algorithms. GO enrichment and KEGG pathway analysis were then performed on these targets to explore their specific functions and pathways. Additionally, molecular docking of potential core targets of KR was conducted, and the results were validated through cell experiments. A total of 83 target genes overlapped between KR and osteoclastogenesis-osteoporosis targets. Enrichment analysis revealed their role in inflammatory response, protein tyrosine kinase activity, osteoclast differentiation, and MAPK and NF-kappaB signaling pathways. PPI analysis and molecular docking demonstrate that key targets MAPK14 and MAPK8 exhibit more stable binding with KR compared to other proteins. In vitro experiments demonstrate that KR effectively inhibits osteoclast differentiation and bone resorption without cellular toxicity. It suppresses key osteoclast genes (NFATc1, c-Fos, TRAP, MMP9, Ctsk, Atp6v2), hinders IkappaB-alpha degradation, and inhibits ERK and JNK phosphorylation, while not affecting p38 phosphorylation. The results indicate that KR may inhibit osteoclast maturation and bone resorption by blocking NF-kappaB and MAPK signaling pathways, suggesting its potential as a natural therapeutic agent for osteoporosis.",
+    "keywords": [
+      "Kurarinone",
+      "Molecular docking",
+      "Network pharmacology",
+      "Osteoclast differentiation",
+      "Osteoporosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*RANK Ligand/metabolism",
+      "*Molecular Docking Simulation",
+      "*Flavonoids/pharmacology/isolation & purification",
+      "*Osteogenesis/drug effects",
+      "Mice",
+      "*Osteoclasts/drug effects/metabolism",
+      "*Macrophages/drug effects/metabolism",
+      "Sophora/chemistry",
+      "Mice, Inbred C57BL",
+      "Monocytes/drug effects/metabolism",
+      "Signal Transduction/drug effects",
+      "Cell Differentiation/drug effects",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Long, Ling",
+        "Luo, Hao",
+        "Wang, Yi",
+        "Gu, Jiaxiang",
+        "Xiong, Jiachao",
+        "Tang, Xiaokai",
+        "Lv, Hao",
+        "Zhou, Faxin",
+        "Cao, Kai",
+        "Lin, Sijian"
+      ],
+      "short_names": [
+        "Long L",
+        "Luo H",
+        "Wang Y",
+        "Gu J",
+        "Xiong J",
+        "Tang X",
+        "Lv H",
+        "Zhou F",
+        "Cao K",
+        "Lin S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Jiujiang Hospital of Traditional Chinese Medicine, Jiujiang, 332000, Jiangxi, China.",
+        "Jiujiang Hospital of Traditional Chinese Medicine, Jiujiang, 332000, Jiangxi, China.",
+        "Jiujiang Hospital of Traditional Chinese Medicine, Jiujiang, 332000, Jiangxi, China.",
+        "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China.",
+        "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China.",
+        "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China.",
+        "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China.",
+        "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China.",
+        "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China. caokai@ncu.edu.cn.",
+        "Rehabilitation Medicine Department, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, Jiangxi, China. doreenlin330@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Long, Ling",
+        "short_name": "Long L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiujiang Hospital of Traditional Chinese Medicine, Jiujiang, 332000, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Hao",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Jiujiang Hospital of Traditional Chinese Medicine, Jiujiang, 332000, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiujiang Hospital of Traditional Chinese Medicine, Jiujiang, 332000, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Jiaxiang",
+        "short_name": "Gu J",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Jiachao",
+        "short_name": "Xiong J",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Xiaokai",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Hao",
+        "short_name": "Lv H",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Faxin",
+        "short_name": "Zhou F",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Kai",
+        "short_name": "Cao K",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330209, Jiangxi, China. caokai@ncu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Sijian",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Medicine Department, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, Jiangxi, China. doreenlin330@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Naunyn-Schmiedeberg's archives of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Naunyn Schmiedebergs Arch Pharmacol"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/21 12:42",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42558368",
+      "42305270",
+      "42291408",
+      "42032981"
+    ],
+    "refs": [
+      "37475866",
+      "36924863",
+      "35863614",
+      "35279261",
+      "35217618",
+      "34823766",
+      "33859201",
+      "33516447",
+      "33333244",
+      "33126167",
+      "32708317",
+      "32218116",
+      "32064872",
+      "31603626",
+      "31091133",
+      "29691303",
+      "29621030",
+      "29339529",
+      "28530641",
+      "28333443",
+      "27177391",
+      "27064822",
+      "26879404",
+      "26350171",
+      "26208433",
+      "25957414",
+      "25489571",
+      "25451770",
+      "24845381",
+      "24792161",
+      "22571169",
+      "21450337",
+      "21377852",
+      "20522970",
+      "20519123",
+      "18981580",
+      "18760372",
+      "18705650",
+      "18083930",
+      "16267136",
+      "12897775",
+      "12479813",
+      "12058324"
+    ],
+    "similar": [
+      "38643449",
+      "28335757",
+      "29698379",
+      "22337253",
+      "24492722",
+      "22985747",
+      "33126167",
+      "33933570",
+      "28106828",
+      "31323222",
+      "20814972",
+      "27447722",
+      "33974944",
+      "24125472",
+      "35605290",
+      "29061958",
+      "32604472",
+      "33939240",
+      "27735865",
+      "28263804",
+      "28452958",
+      "34047464",
+      "31976330",
+      "25617149",
+      "30579598",
+      "32222639",
+      "38553189",
+      "25708053",
+      "27871781",
+      "28771720",
+      "36210855",
+      "33307512",
+      "22484180",
+      "35708050",
+      "23791609",
+      "23000100",
+      "30466615",
+      "14672351",
+      "27807651",
+      "30392907",
+      "25032991",
+      "30637734",
+      "34729812",
+      "30105896",
+      "30471112",
+      "24324641",
+      "33199235",
+      "38579642",
+      "29750835",
+      "34062884",
+      "38554947",
+      "29721581",
+      "32550895",
+      "24845381",
+      "32185887",
+      "25134536",
+      "26481551",
+      "26271279",
+      "32510335",
+      "30146787",
+      "32054921",
+      "31846839",
+      "30668419",
+      "33669069",
+      "30562759",
+      "35887169",
+      "39399421",
+      "29121799",
+      "25421321",
+      "20112358",
+      "28736799",
+      "15765185",
+      "19828731",
+      "29342179",
+      "22387094",
+      "15128775",
+      "35149133",
+      "31050917",
+      "29797602",
+      "39150492",
+      "32298753",
+      "27234130",
+      "30001863",
+      "26432605",
+      "33444724",
+      "28650106",
+      "39209096",
+      "28674855",
+      "23572233",
+      "24491533",
+      "26923730",
+      "28708287",
+      "34052656",
+      "30807230",
+      "23293355",
+      "31328430",
+      "27288918",
+      "32971123",
+      "25334060",
+      "36649902"
+    ],
+    "review": [
+      "38643449"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00210-024-03100-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

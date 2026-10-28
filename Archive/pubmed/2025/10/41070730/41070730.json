@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "41070730",
+    "doi": "10.1111/pbi.70362",
+    "title": "Metabolomic and Single-Cell Transcriptomic Analyses Shed Light on Secondary Metabolite Profiling and Potential Developmental Dynamics of Glandular Trichomes in Artemisia argyi."
+  },
+  "content": {
+    "abstract": "Plant glandular trichomes (GTs) are characterised by their ability to synthesise and store abundant secondary metabolites of significant biological importance. The medicinal plant Artemisia argyi exhibits a dense covering of GTs, yet the precise metabolic compositions and the developmental molecular dynamics of A. argyi GTs remain insufficiently characterised. Using liquid chromatography-mass spectrometry (LC-MS) and gas chromatography-mass spectrometry (GC-MS), we identified 969 differentially accumulated metabolites (DAMs) between GTs and non-glandular trichomes (NGTs) of A. argyi. GTs were significantly enriched in diverse metabolites, including terpenoids, flavonoids and fatty acyls, among which sesquiterpenoids were the most abundant terpenoid subclass in DAMs. To elucidate the molecular basis of GT secondary metabolite biosynthesis and development, we generated a single-cell transcriptomic atlas of A. argyi leaves, annotating cell populations of mesophyll cells (MCs), epidermal cells (ECs), vascular cells (VCs), stomatal guard cells (GCs) and GTs. Pseudotime trajectory analysis uncovered the continuous developmental trajectory of GTs and identified several candidate transcription factors (TFs) potentially involved in GT development. Leveraging the single-cell atlas, we constructed cell-type-specific co-expression networks for sesquiterpene biosynthesis genes. Within the GT-specific expression module, we identified beta-caryophyllene synthase AarTPS77, while the EC-specific AarTPS52 was found to function as beta-farnesene synthase. Furthermore, we functionally characterised AarTPS95 and AarTPS96, which catalyse the formation of germacrene A and 12 additional sesquiterpenoids. These findings provide insights into the molecular basis of trichome development and secondary metabolite accumulation in A. argyi, laying the foundation for improving the quality of medicinal materials.",
+    "keywords": [
+      "Artemisia argyi",
+      "glandular trichome",
+      "metabolome",
+      "sesquiterpene synthase",
+      "single-cell transcriptome"
+    ],
+    "mesh_terms": [
+      "*Artemisia/metabolism/genetics/growth & development",
+      "*Trichomes/metabolism/genetics/growth & development",
+      "Plant Leaves/metabolism/genetics",
+      "Gene Expression Profiling",
+      "Terpenes/metabolism",
+      "Single-Cell Analysis",
+      "Metabolomics",
+      "*Transcriptome",
+      "Secondary Metabolism/genetics",
+      "Flavonoids/metabolism",
+      "Gene Expression Regulation, Plant",
+      "Metabolome",
+      "Gas Chromatography-Mass Spectrometry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Shuting",
+        "Chen, Hongyu",
+        "Sun, Sijie",
+        "Guo, Miaoxian",
+        "Sun, Chao",
+        "Chen, Shilin",
+        "Luo, Hongmei"
+      ],
+      "short_names": [
+        "Dong S",
+        "Chen H",
+        "Sun S",
+        "Guo M",
+        "Sun C",
+        "Chen S",
+        "Luo H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9271-6425",
+        "ORCID: 0000-0002-3403-7659"
+      ],
+      "affiliations": [
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Daodi Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "State Key Laboratory of Pharmaceutical Biotechnology, School of Life Sciences, Nanjing University, Nanjing, Jiangsu, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Daodi Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Innovative Institute of Chinese Medicine and Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Daodi Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Shuting",
+        "short_name": "Dong S",
+        "identifiers": [
+          "0000-0001-9271-6425"
+        ],
+        "affiliations": [
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Daodi Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hongyu",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+          "State Key Laboratory of Pharmaceutical Biotechnology, School of Life Sciences, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Sijie",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Miaoxian",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Chao",
+        "short_name": "Sun C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Daodi Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shilin",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Innovative Institute of Chinese Medicine and Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Hongmei",
+        "short_name": "Luo H",
+        "identifiers": [
+          "0000-0002-3403-7659"
+        ],
+        "affiliations": [
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Daodi Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Plant Biotechnol J"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/10 17:31",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39485326",
+      "39223898",
+      "39222778",
+      "38783601",
+      "37849250",
+      "37740491",
+      "37638765",
+      "37188960",
+      "37180395",
+      "37165193",
+      "37099480",
+      "36772793",
+      "36597358",
+      "36522449",
+      "36379955",
+      "36304478",
+      "35810348",
+      "35689517",
+      "35568110",
+      "35562888",
+      "35426954",
+      "35412154",
+      "35111184",
+      "35075650",
+      "34718712",
+      "34687312",
+      "34246739",
+      "34062119",
+      "34037757",
+      "33955487",
+      "33823130",
+      "33822225",
+      "33730513",
+      "33165526",
+      "33152518",
+      "32522044",
+      "31983619",
+      "31651036",
+      "31375807",
+      "31004836",
+      "30954475",
+      "30917859",
+      "30518626",
+      "30468448",
+      "29377155",
+      "28940606",
+      "28724619",
+      "27659595",
+      "25644758",
+      "25371430",
+      "25363766",
+      "24658644",
+      "24359620",
+      "24227677",
+      "23517125",
+      "23451776",
+      "22996257",
+      "22979959",
+      "22409484",
+      "22223809",
+      "22157085",
+      "21620424",
+      "21540433",
+      "20705186",
+      "19580670",
+      "18820083",
+      "18775972",
+      "18650403",
+      "15815622",
+      "15260221",
+      "14657409",
+      "12566586",
+      "12226526",
+      "10562427"
+    ],
+    "similar": [
+      "41070730",
+      "35412154",
+      "38880338",
+      "40598861",
+      "35568110",
+      "42589492",
+      "41977456",
+      "37099480",
+      "31965448",
+      "41849781",
+      "40086795",
+      "42104246",
+      "31651036",
+      "41028755",
+      "31905722",
+      "39538149",
+      "39307777",
+      "38332528",
+      "34668550",
+      "38872084",
+      "41249895",
+      "36144681",
+      "32860161",
+      "29643397",
+      "34396751",
+      "41621002",
+      "38114108",
+      "34144672",
+      "41388237",
+      "41383933",
+      "41528559",
+      "40019562",
+      "32079100",
+      "39252954",
+      "40341569",
+      "37239820",
+      "39105262",
+      "36737916",
+      "37180395",
+      "26642998",
+      "40251470",
+      "40835905",
+      "35968082",
+      "39223898",
+      "26406988",
+      "39806251",
+      "37254042",
+      "37475064",
+      "40527046",
+      "19818120",
+      "39377134",
+      "32604977",
+      "38072959",
+      "24269871",
+      "42218373",
+      "40332284",
+      "39960613",
+      "35585490",
+      "26572682",
+      "35111184",
+      "35178948",
+      "25515194",
+      "34239538",
+      "37291504",
+      "41046800",
+      "39707195",
+      "30518626",
+      "31272034",
+      "40700821",
+      "41652695",
+      "31504880",
+      "38665054",
+      "39849697",
+      "42346346",
+      "40935926",
+      "40598113",
+      "41817042",
+      "26845634",
+      "41353475",
+      "32079236",
+      "41328015",
+      "42303908",
+      "39543501",
+      "41023632",
+      "42452210",
+      "40468204",
+      "30459319",
+      "42030805",
+      "37047408",
+      "30943892",
+      "40654123",
+      "26305373",
+      "39543476",
+      "25870149",
+      "32852206",
+      "40344466",
+      "37231648",
+      "27515313",
+      "24331423",
+      "40381969"
+    ],
+    "review": [
+      "41070730",
+      "31651036"
+    ],
+    "pmc": [
+      "12946448"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41070730/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.70362",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-290",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

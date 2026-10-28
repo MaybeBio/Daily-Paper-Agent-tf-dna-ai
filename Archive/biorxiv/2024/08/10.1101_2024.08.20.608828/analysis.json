@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.20.608828",
+  "title": "CryptoBench: Cryptic protein-ligand binding sites dataset and benchmark",
+  "authors": "Vít Škrhák; Marian Novotný; Christos P. Feidakis; Radoslav Krivák; David Hoksza",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-21",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建了隐蔽蛋白-配体结合位点数据集CryptoBench并评估序列与结构预测方法，虽非TF-DNA体系，但结合位点预测与结构建模方法可迁移至蛋白质-DNA互作研究。",
+  "abstract": "Structure-based methods for detecting protein-ligand binding sites play a crucial role in various domains, from fundamental research to biomedical applications. However, current prediction methodologies often rely on holo (ligand-bound) protein conformations for training and evaluation, overlooking the significance of the apo (ligand-free) states. This oversight is particularly problematic in the case of cryptic binding sites (CBSs) where holo-based assessment yields unrealistic performance expectations. To advance the development in this domain, we introduce CryptoBench, a benchmark dataset tailored for training and evaluating novel CBS prediction methodologies. CryptoBench is constructed upon a large collection of apo-holo protein pairs, grouped by UniProtID, clustered by sequence identity, and filtered to contain only structures with substantial structural change in the binding site. CryptoBench comprises 1,107 structures with predefined cross-validation splits, making it the most extensive CBS dataset to date. To establish a performance baseline, we measured the predictive power of sequence- and structure-based CBS residue prediction methods using the benchmark. We selected PocketMiner as the state-of-the-art representative of the structure-based methods for CBS detection, and P2Rank, a widely-used structure-based method for general binding site prediction that is not specifically tailored for cryptic sites. For sequence-based approaches, we trained a neural network to classify binding residues using protein language model embeddings. Our sequence-based approach outperformed PocketMiner and P2Rank across key metrics, including AUC, AUPRC, MCC, and F1 scores. These results provide baseline benchmark results for future CBS and potentially also non-CBS prediction endeavors, leveraging CryptoBench as the foundational platform for further advancements in the field.",
+  "abstract_zh": "基于结构的方法在检测蛋白质-配体结合位点方面发挥着关键作用，涵盖从基础研究到生物医学应用的多个领域。然而，当前的预测方法通常依赖全息（配体结合）蛋白质构象进行训练和评估，忽视了脱辅基（无配体）状态的重要性。这一疏忽在隐式结合位点（CBSs）的情况下尤为问题，因为基于全息状态的评估会产生不切实际的性能预期。为了推动该领域的发展，我们引入了CryptoBench，这是一个专为训练和评估新型CBS预测方法而设计的基准数据集。CryptoBench基于大量脱辅基-全息蛋白质对构建，按UniProtID分组，按序列同一性聚类，并筛选出仅包含结合位点具有显著结构变化的结构。CryptoBench包含1,107个结构，并预设了交叉验证分割，使其成为迄今为止最全面的CBS数据集。为了建立性能基线，我们使用该基准测量了基于序列和基于结构的CBS残基预测方法的预测能力。我们选择了PocketMiner作为基于结构的CBS检测方法的最新代表，以及P2Rank，一种广泛使用的基于结构的通用结合位点预测方法，并非专门针对隐式位点。对于基于序列的方法，我们训练了一个神经网络，利用蛋白质语言模型嵌入来分类结合残基。我们的基于序列方法在关键指标上优于PocketMiner和P2Rank，包括AUC、AUPRC、MCC和F1分数。这些结果为未来的CBS及可能的非CBS预测工作提供了基线基准结果，利用CryptoBench作为该领域进一步发展的基础平台。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.20.608828",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.20.608828",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.20.608828/index.html"
+}

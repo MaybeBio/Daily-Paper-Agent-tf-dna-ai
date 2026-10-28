@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.23.521837",
+  "title": "HydRA: Deep-learning models for predicting RNA-binding capacity from protein interaction association context and protein sequence",
+  "authors": "Wenhao Jin; Kristopher W. Brannan; Katannya Kapeli; Samuel S. Park; Hui Qing Tan; Maya L. Gosztyla; Mayuresh Mujumdar; Joshua Ahdout; Bryce Henroid; Katherine Rothamel; Joy S. Xiang; Limsoon Wong; Gene W. Yeo",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-23",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测RNA结合蛋白能力，对象为RNA-蛋白互作而非DNA-蛋白互作，方法可借鉴但与本课题TF-DNA核心体系关联较弱。",
+  "abstract": "RNA-binding proteins (RBPs) control RNA metabolism to orchestrate gene expression, and dysfunctional RBPs underlie many human diseases. Proteome-wide discovery efforts predict thousands of novel RBPs, many of which lack canonical RNA-binding domains. Here, we present a hybrid ensemble RBP classifier (HydRA) that leverages information from both intermolecular protein interactions and internal protein sequence patterns to predict RNA-binding capacity with unparalleled specificity and sensitivity using support vector machine, convolutional neural networks and transformer-based protein language models. HydRA enables Occlusion Mapping to robustly detect known RNA-binding domains and to predict hundreds of uncharacterized RNA-binding domains. Enhanced CLIP validation for a diverse collection of RBP candidates reveals genome-wide targets and confirms RNA-binding activity for HydRA-predicted domains. The HydRA computational framework accelerates construction of a comprehensive RBP catalogue and expands the set of known RNA-binding protein domains. Highlights HydRA combines protein-protein interaction and amino acid sequence information to predict RNA binding activity for 1,487 candidate genes. HydRA predicts RNA binding with higher specificity and sensitivity than current approaches, notably for RBPs without well-defined RNA-binding domains. Occlusion Mapping with HydRA enables RNA-binding domain discovery. Enhanced CLIP confirms HydRA RBP predictions with RNA-binding domain resolution.",
+  "abstract_zh": "RNA结合蛋白（RBPs）通过调控RNA代谢来协调基因表达，而功能异常的RBPs是许多人类疾病的根源。全蛋白质组范围的发现工作预测了数千种新型RBPs，其中许多缺乏经典的RNA结合结构域。在此，我们提出了一种混合集成RBP分类器（HydRA），它利用分子间蛋白质相互作用和内部蛋白质序列模式的信息，通过支持向量机、卷积神经网络和基于Transformer的蛋白质语言模型，以无与伦比的特异性和敏感性预测RNA结合能力。HydRA支持遮挡映射，能够稳健地检测已知的RNA结合结构域，并预测数百个未表征的RNA结合结构域。针对多样化RBP候选集合的增强CLIP验证揭示了全基因组靶标，并确认了HydRA预测结构域的RNA结合活性。HydRA计算框架加速了全面RBP目录的构建，并扩展了已知RNA结合蛋白结构域的集合。亮点：HydRA结合蛋白质-蛋白质相互作用和氨基酸序列信息，预测1,487个候选基因的RNA结合活性。HydRA预测RNA结合的特异性和敏感性高于现有方法，尤其对于缺乏明确RNA结合结构域的RBPs。利用HydRA进行遮挡映射可实现RNA结合结构域的发现。增强CLIP以RNA结合结构域分辨率确认了HydRA的RBP预测。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.23.521837",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.23.521837",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.23.521837/index.html"
+}

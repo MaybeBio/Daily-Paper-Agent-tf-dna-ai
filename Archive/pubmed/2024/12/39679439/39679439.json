@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "39679439",
+    "doi": "10.1093/bib/bbae639",
+    "title": "A self-attention-driven deep learning framework for inference of transcriptional gene regulatory networks."
+  },
+  "content": {
+    "abstract": "The interactions between transcription factors (TFs) and the target genes could provide a basis for constructing gene regulatory networks (GRNs) for mechanistic understanding of various biological complex processes. From gene expression data, particularly single-cell transcriptomic data containing rich cell-to-cell variations, it is highly desirable to infer TF-gene interactions (TGIs) using deep learning technologies. Numerous models or software including deep learning-based algorithms have been designed to identify transcriptional regulatory relationships between TFs and the downstream genes. However, these methods do not significantly improve predictions of TGIs due to some limitations regarding constructing underlying interactive structures linking regulatory components. In this study, we introduce a deep learning framework, DeepTGI, that encodes gene expression profiles from single-cell and/or bulk transcriptomic data and predicts TGIs with high accuracy. Our approach could fuse the features extracted from Auto-encoder with self-attention mechanism and other networks and could transform multihead attention modules to define representative features. By comparing it with other models or methods, DeepTGI exhibits its superiority to identify more potential TGIs and to reconstruct the GRNs and, therefore, could provide broader perspectives for discovery of more biological meaningful TGIs and for understanding transcriptional gene regulatory mechanisms.",
+    "keywords": [
+      "deep learning",
+      "gene regulatory networks",
+      "self-attention mechanism",
+      "single-cell transcriptomic data",
+      "transcription factor-gene interaction"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Gene Regulatory Networks",
+      "*Transcription Factors/metabolism/genetics",
+      "Humans",
+      "Algorithms",
+      "Computational Biology/methods",
+      "Gene Expression Profiling/methods",
+      "Gene Expression Regulation",
+      "Transcriptome",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yong",
+        "Zhong, Le",
+        "Yan, Bin",
+        "Chen, Zhuobin",
+        "Yu, Yanjia",
+        "Yu, Dan",
+        "Qin, Jing",
+        "Wang, Junwen"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Zhong L",
+        "Yan B",
+        "Chen Z",
+        "Yu Y",
+        "Yu D",
+        "Qin J",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8327-8846",
+        "ORCID: 0000-0002-4432-4707"
+      ],
+      "affiliations": [
+        "College of Electronic Information, Guangxi Minzu University, 188 East University Road, Nanning, Guangxi, 530006, China.",
+        "College of Electronic Information, Guangxi Minzu University, 188 East University Road, Nanning, Guangxi, 530006, China.",
+        "Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Hong Kong SAR, China.",
+        "School of Pharmaceutical Sciences (Shenzhen), Shenzhen Campus of Sun Yat-sen University, 66 Gongchang Road, Shenzhen, Guangdong, 518107, China.",
+        "College of Electronic Information, Guangxi Minzu University, 188 East University Road, Nanning, Guangxi, 530006, China.",
+        "Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Hong Kong SAR, China.",
+        "School of Pharmaceutical Sciences (Shenzhen), Shenzhen Campus of Sun Yat-sen University, 66 Gongchang Road, Shenzhen, Guangdong, 518107, China.",
+        "Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Hong Kong SAR, China.",
+        "Department of Quantitative Health Sciences, Center for Individualized Medicine, and Mayo Clinic Comprehensive Cancer Center, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ, 85259, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic Information, Guangxi Minzu University, 188 East University Road, Nanning, Guangxi, 530006, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Le",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic Information, Guangxi Minzu University, 188 East University Road, Nanning, Guangxi, 530006, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Bin",
+        "short_name": "Yan B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhuobin",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences (Shenzhen), Shenzhen Campus of Sun Yat-sen University, 66 Gongchang Road, Shenzhen, Guangdong, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yanjia",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic Information, Guangxi Minzu University, 188 East University Road, Nanning, Guangxi, 530006, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Dan",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Jing",
+        "short_name": "Qin J",
+        "identifiers": [
+          "0000-0002-8327-8846"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences (Shenzhen), Shenzhen Campus of Sun Yat-sen University, 66 Gongchang Road, Shenzhen, Guangdong, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junwen",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-4432-4707"
+        ],
+        "affiliations": [
+          "Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Hong Kong SAR, China.",
+          "Department of Quantitative Health Sciences, Center for Individualized Medicine, and Mayo Clinic Comprehensive Cancer Center, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ, 85259, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Nov 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/16 12:28",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [
+      "41750695",
+      "41346834"
+    ],
+    "refs": [
+      "39376034",
+      "38217125",
+      "36050362",
+      "35062026",
+      "35058621",
+      "32606380",
+      "32363401",
+      "32174324",
+      "31907445",
+      "31822622",
+      "30971806",
+      "30953525",
+      "30772174",
+      "28991892",
+      "28957658",
+      "27474269",
+      "26688802",
+      "25916854",
+      "21586587",
+      "20927193",
+      "20861029",
+      "19114008",
+      "16723010",
+      "15405679"
+    ],
+    "similar": [
+      "39679439",
+      "38980373",
+      "38950180",
+      "41288963",
+      "30547796",
+      "35062026",
+      "41518505",
+      "39417321",
+      "41300707",
+      "39062480",
+      "40037709",
+      "40251476",
+      "23497388",
+      "37365273",
+      "40708222",
+      "22849367",
+      "18426580",
+      "33170214",
+      "41518508",
+      "16131521",
+      "22456606",
+      "41554051",
+      "38810116",
+      "38879931",
+      "41317402",
+      "38342857",
+      "37788349",
+      "37085776",
+      "25707768",
+      "41782896",
+      "36070863",
+      "38653489",
+      "24228871",
+      "28254369",
+      "30547400",
+      "25281301",
+      "32606380",
+      "37004161",
+      "32054475",
+      "41493424",
+      "41043336",
+      "34962260",
+      "20525821",
+      "41498638",
+      "29051499",
+      "40633682",
+      "41643219",
+      "40098114",
+      "40408160",
+      "27876826",
+      "41628222",
+      "39934680",
+      "41093852",
+      "31701125",
+      "34014778",
+      "41503157",
+      "24968068",
+      "24565025",
+      "28544882",
+      "18586698",
+      "35050715",
+      "22216865",
+      "32207875",
+      "39589130",
+      "33876191",
+      "21496241",
+      "33054712",
+      "32181581",
+      "41544912",
+      "34251621",
+      "21367870",
+      "30547406",
+      "33834216",
+      "34864886",
+      "29219084",
+      "29769331",
+      "37889053",
+      "41267133",
+      "20422009",
+      "40062616",
+      "40341143",
+      "34986805",
+      "21857910",
+      "40216929",
+      "39082647",
+      "36307979",
+      "39207727",
+      "39939367",
+      "39161769",
+      "40983951",
+      "17319944",
+      "22547434",
+      "39605181",
+      "40750847",
+      "31527870",
+      "32174324",
+      "41662352",
+      "36585783",
+      "28827319",
+      "41677026"
+    ],
+    "review": [
+      "39679439",
+      "37365273",
+      "30547406",
+      "39207727"
+    ],
+    "pmc": [
+      "11647272"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39679439.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39679439/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae639",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

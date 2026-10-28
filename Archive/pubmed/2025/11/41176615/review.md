@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors compare intrinsic dynamics of PAS domains across multiple bHLH-PAS transcription factor complexes using all-atom elastic network model (ENM) normal mode analysis and molecular dynamics simulations. They decompose dynamics into self-coupled and directly coupled motions, report that self-coupled motions are more conserved than sequence or structure, that directly coupled motions capture partner-specific influence, that clustering separates CLOCK:BMAL1-type from HIF:ARNT-type complexes, that ENM and MD fluctuation profiles correspond, that PAS-B domains are less flexible than PAS-A domains, and that high directly coupled flexibility localizes to interface-propitious regions in class I PAS-B domains.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation parameters, statistical analyses, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative analysis of PAS domain dynamics in bHLH-PAS transcription factor complexes, with a methodological framework that combines ENM-based normal mode analysis and molecular dynamics simulations. The central claims, however, are stated without quantitative support in the abstract, and several assertions require careful scrutiny regarding their biological interpretation and statistical robustness. The work may appeal to a specialized audience in computational biophysics and structural biology, but the current evidence base is insufficient to fully evaluate the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying bHLH-PAS transcription factors, circadian clock biology, hypoxia signaling, and structural dynamics of multidomain proteins. Computational biophysicists interested in ENM-based approaches and domain-domain coupling analysis would also find the methodological framework relevant.
+- **Major strengths** The comparative design across multiple bHLH-PAS complexes is a useful approach to address context-dependent dynamics. The decomposition into self-coupled and directly coupled motions is conceptually appealing and could provide mechanistic insight beyond static structures. The validation of ENM results against MD simulations, including for AlphaFold3-modeled complexes, is a practical contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "self-coupled motions are more conserved across PAS domains than structure or sequence alone"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that self-coupled motions are more conserved than structure or sequence is stated without any quantitative metric, statistical test, or comparison baseline. It is unclear how conservation was measured, what alignment or scoring scheme was used, and whether the difference is significant.
+  - **Why it matters** This is a central claim of the paper. Without a defined conservation metric and appropriate statistical comparison, the assertion cannot be evaluated or reproduced.
+  - **Resolution test** Provide a clear definition of the conservation score for dynamics, sequence, and structure, and show a statistical comparison with confidence intervals or significance tests across the set of PAS domains analyzed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "hierarchical clustering of the overall covariance-based similarity scores revealed distinct grouping of CLOCK:BMAL1-type and HIF:ARNT-type complexes, which were not captured by sequence or structural comparisons"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The clustering result is presented as a key finding, but no details are given on the similarity metric, clustering algorithm, number of complexes included, or how the grouping was validated. The claim that sequence and structural comparisons did not capture this grouping requires a direct comparison with appropriate controls.
+  - **Why it matters** The biological relevance of the clustering depends on its robustness and on the adequacy of the sequence and structural baselines. Without these details, the claim is not assessable.
+  - **Resolution test** Show the clustering dendrogram or heatmap, specify the similarity metric and clustering method, and provide a quantitative comparison of clustering results from dynamics, sequence, and structure using the same set of complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Root mean-square fluctuation profiles derived from both molecular dynamics and the all-atom ENM normal mode analysis-based approaches showed strong correspondence, validating the utility of ENMs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states strong correspondence but does not report correlation coefficients, error estimates, or the number of systems compared. The validation claim is central to the utility of the ENM approach, especially for AlphaFold3-modeled complexes, and requires quantitative support.
+  - **Why it matters** Without quantitative correspondence metrics, the reader cannot judge whether the agreement is sufficient to support the conclusions drawn from ENM-based analyses.
+  - **Resolution test** Report Pearson or Spearman correlation coefficients with confidence intervals for RMSF profiles across all complexes, and specify the MD simulation lengths and convergence criteria.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Regions with high directly coupled flexibility were generally localized regions with high interface propensity in class I PAS-B domains, suggesting a higher level of coupled dynamics between PAS-B domains"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The link between directly coupled flexibility and interface propensity is suggestive but the abstract does not clarify whether this is a statistically enriched relationship or a qualitative observation. The phrase "generally localized" is vague and the biological interpretation is underdeveloped.
+  - **Why it matters** This claim connects dynamics to function, which is a potentially important contribution. However, without a statistical enrichment analysis or a clear definition of interface propensity, the claim remains anecdotal.
+  - **Resolution test** Provide a statistical test comparing directly coupled flexibility at interface versus non-interface residues, and specify how interface propensity was defined and computed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The terms "self-coupled" and "directly coupled" motions are introduced without a brief intuitive explanation, which may confuse readers unfamiliar with the projection-based approach.
+  - **Required correction** Add one sentence in the abstract defining these terms in plain language, for example, self-coupled as internal domain motions and directly coupled as partner-influenced motions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model validation statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions validation of ENM results for AlphaFold3-modeled complexes but does not specify how many complexes were modeled this way or whether experimental structures were available for comparison.
+  - **Required correction** Clarify the number of AlphaFold3-modeled complexes and whether any experimental structures were used as references in the validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Functional implications
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final sentence claims "offering new insights into the functional diversification of bHLH-PAS TFs" but the abstract does not specify what these insights are beyond the clustering and flexibility observations.
+  - **Required correction** State explicitly one or two concrete functional implications derived from the dynamics analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the central claims of conservation, clustering, and validation are not quantitatively supported in the provided material. R1-M4 is non-blocking but requires statistical support for the interface propensity claim.
+- **Assessment against Nature-style criteria** Originality: The comparative dynamics approach across multiple bHLH-PAS complexes and the decomposition into self-coupled and directly coupled motions is a novel angle, though the underlying methods are established. Scientific importance: The topic is relevant to understanding functional diversification of a key transcription factor family, but the significance of the findings is not yet established from the abstract alone. Interdisciplinary readership: The work is likely to appeal primarily to computational biophysicists and structural biologists; broader interest would depend on clear functional implications. Technical soundness: Cannot be fully assessed from the abstract; the lack of quantitative metrics for key claims is a concern. Readability for nonspecialists: The abstract is reasonably clear but would benefit from brief definitions of the coupling terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework and interesting observations, but the central claims require quantitative support and methodological detail that are not visible in the supplied material. A revised version with full methods, statistical analyses, and figures could change this assessment.
+
+## Risk / unsupported claims
+- The claim that self-coupled motions are more conserved than sequence or structure is unsupported without a defined conservation metric and statistical comparison.
+- The clustering result separating CLOCK:BMAL1-type and HIF:ARNT-type complexes is unsupported without details on the similarity metric, clustering method, and comparison to sequence and structural baselines.
+- The claim of strong correspondence between ENM and MD RMSF profiles is unsupported without correlation coefficients or other quantitative measures.
+- The relationship between directly coupled flexibility and interface propensity is unsupported without a statistical enrichment analysis.
+- The general statement that PAS-B domains are less flexible than PAS-A domains is stated without quantitative support or variability estimates.
+- The validation of ENM approaches for AlphaFold3-modeled complexes is not assessable without specifying the number of such complexes and the nature of the validation.

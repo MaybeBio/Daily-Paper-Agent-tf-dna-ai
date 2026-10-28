@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34142534",
+  "title": "[Consensus ensemble neural network multitarget model of RAGE inhibitory activity of chemical compounds].",
+  "authors": "Vassiliev, P M; Spasov, A A; Kochetkov, A N; Perfilev, M A; Koroleva, A R",
+  "journal": "Biomeditsinskaia khimiia",
+  "published_date": "2021-06-19",
+  "window": {
+    "start": "2021-06-14",
+    "end": "2021-06-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究构建RAGE抑制剂活性的共识集成神经网络多靶点模型，基于分子对接与神经网络预测化合物对信号通路靶蛋白的亲和力，不涉及蛋白质-DNA互作或TF-DNA结合体系，与本课题无关。",
+  "abstract": "RAGE signal transduction via the RAGE-NF-kappaB signaling pathway is one of the mechanisms of inflammatory reactions that cause severe complications in diabetes mellitus. RAGE inhibitors are promising pharmacological compounds that require the development of new predictive models. Based on the methodology of artificial neural networks, consensus ensemble neural network multitarget model has been constructed. This model describes the dependence of the level of the RAGE inhibitory activity on the affinity of compounds for 34 target proteins of the RAGE-NF-kappaB signal pathway. For this purpose an expanded database of valid three-dimensional models of target proteins of the RAGE-NF-kappaB signal chain was created on the basis of a previously created database of three-dimensional models of relevant biotargets. Ensemble molecular docking of known RAGE inhibitors from a verified database into the sites of added models of target proteins was performed, and the minimum docking energies for each compound in relation to each target were determined. An extended training set for neural network modeling was formed. Using seven variants of sampling by the method of artificial multilayer perceptron neural networks, three ensembles of classification decision rules were constructed to predict three level of the RAGE-inhibitory activity based on the calculated affinity of compounds for significant target proteins of the RAGE-NF-kappaB signaling pathway. Using a simple consensus of the second level, the predictive ability of the created model was assessed and its high accuracy and statistical significance were shown. The resultant consensus ensemble neural network multitarget model has been used for virtual screening of new derivatives of different chemical classes. The most promising substances have been synthesized and sent for experimental studies.",
+  "abstract_zh": "通过RAGE-NF-kappaB信号通路的RAGE信号转导是导致糖尿病严重并发症的炎症反应机制之一。RAGE抑制剂作为有前景的药理化合物，亟需开发新的预测模型。基于人工神经网络方法论，构建了共识集成神经网络多靶点模型。该模型描述了RAGE抑制活性水平与化合物对RAGE-NF-kappaB信号通路中34个靶蛋白亲和力之间的依赖关系。为此，在先前创建的相关生物靶点三维模型数据库基础上，扩展建立了RAGE-NF-kappaB信号链靶蛋白有效三维模型的数据库。对来自验证数据库的已知RAGE抑制剂进行了集成分子对接，将其对接至新增靶蛋白模型的位点，并确定了每个化合物相对于每个靶标的最小对接能量。形成了用于神经网络建模的扩展训练集。通过人工多层感知器神经网络方法的七种采样变体，构建了三个分类决策规则集成，以基于计算出的化合物对RAGE-NF-kappaB信号通路重要靶蛋白的亲和力预测RAGE抑制活性的三个水平。利用第二层简单共识，评估了所建模型的预测能力，并展示了其高准确性和统计显著性。所得共识集成神经网络多靶点模型已用于不同化学类别新衍生物的虚拟筛选。最有前景的物质已被合成并送交实验研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34142534/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34142534/",
+  "paper_page_path": "papers/pubmed/34142534/index.html"
+}

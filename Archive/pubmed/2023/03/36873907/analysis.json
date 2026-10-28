@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36873907",
+  "title": "Deep learning for detecting and elucidating human T-cell leukemia virus type 1 integration in the human genome.",
+  "authors": "Xu, Haodong; Jia, Johnathan; Jeong, Hyun-Hwan; Zhao, Zhongming",
+  "journal": "Patterns (New York, N.Y.)",
+  "published_date": "2023-03-07",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习预测HTLV-1病毒整合位点并识别相关转录因子基序，虽涉及蛋白-DNA互作但非TF-DNA结合机制建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Human T-cell leukemia virus type 1 (HTLV-1), a retrovirus, is the causative agent for adult T cell leukemia/lymphoma and many other human diseases. Accurate and high throughput detection of HTLV-1 virus integration sites (VISs) across the host genomes plays a crucial role in the prevention and treatment of HTLV-1-associated diseases. Here, we developed DeepHTLV, the first deep learning framework for VIS prediction de novo from genome sequence, motif discovery, and cis-regulatory factor identification. We demonstrated the high accuracy of DeepHTLV with more efficient and interpretive feature representations. Decoding the informative features captured by DeepHTLV resulted in eight representative clusters with consensus motifs for potential HTLV-1 integration. Furthermore, DeepHTLV revealed interesting cis-regulatory elements in regulation of VISs that have significant association with the detected motifs. Literature evidence demonstrated nearly half (34) of the predicted transcription factors enriched with VISs were involved in HTLV-1-associated diseases. DeepHTLV is freely available at https://github.com/bsml320/DeepHTLV.",
+  "abstract_zh": "人类T细胞白血病病毒1型（HTLV-1），一种逆转录病毒，是成人T细胞白血病/淋巴瘤及多种其他人类疾病的致病因子。对宿主基因组中HTLV-1病毒整合位点（VISs）进行准确且高通量的检测，在HTLV-1相关疾病的预防和治疗中起着关键作用。在此，我们开发了DeepHTLV，这是首个从基因组序列、基序发现和顺式调控因子识别中进行de novo VIS预测的深度学习框架。我们通过更高效且可解释的特征表示证明了DeepHTLV的高准确性。解码DeepHTLV捕获的信息性特征，产生了八个具有共识基序的代表性聚类，用于潜在的HTLV-1整合。此外，DeepHTLV揭示了在VISs调控中与检测到的基序显著相关的有趣顺式调控元件。文献证据表明，预测的富集于VISs的转录因子中近一半（34个）与HTLV-1相关疾病有关。DeepHTLV可在https://github.com/bsml320/DeepHTLV免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36873907/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36873907/",
+  "paper_page_path": "papers/pubmed/36873907/index.html"
+}

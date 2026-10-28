@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full text, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that CRABP2, previously known as a retinoic acid transporter, also binds specifically to cyclin D3. They propose that the CRABP2 cyclin D3 binding site overlaps with a proposed nuclear localization sequence, both located within a helix-loop-helix motif that forms a lid over the retinoic acid binding pocket. Mutations in this region that block cyclin D3 and retinoic acid binding induce an alternative lid conformation occupying the retinoic acid binding pocket. Structural and functional analyses of CRABP2 and cyclin D3 mutants, combined with AlphaFold models of a ternary CDK4/6-cyclin D3-CRABP2 complex, support identification of an alpha-helical protein binding site on the cyclin D3 C-terminal cyclin box fold.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, structural data (e.g., crystallography or cryo-EM statistics), AlphaFold model details, mutagenesis validation data, binding assay protocols, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that links a retinoic acid transport protein to cell cycle regulation through a specific interaction with cyclin D3. The proposed overlap between the cyclin D3 binding site and a nuclear localization sequence within a structural motif is conceptually appealing. However, the abstract alone provides insufficient evidence to evaluate the rigor of the structural and functional claims. The reliance on AlphaFold models for a ternary complex, without experimental validation of that complex, is a notable concern. The work could be of interest to structural biologists and cell cycle researchers, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying protein-protein interactions and conformational dynamics, cancer researchers interested in CDK4/6-cyclin D3 regulation and retinoid signaling, and cell cycle biologists examining non-canonical functions of lipid binding proteins. The potential link between retinoic acid transport and cyclin D3 function could have implications for understanding cross-talk between differentiation signals and cell cycle progression.
+- **Major strengths** The identification of a new binding partner for CRABP2 is a clear and testable claim. The proposed structural overlap between a binding site and a nuclear localization sequence within a single motif is an elegant hypothesis. The use of both experimental mutagenesis and AlphaFold modeling suggests a multi-pronged approach.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "structural and functional analysis of CRABP2 and cyclin D3 mutants combined with AlphaFold models of the ternary CDK4/6-cyclin D3-CRABP2 complex supports the identification of an alpha-helical protein binding site on the cyclin D3 C-terminal cyclin box fold."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that AlphaFold models of a ternary complex support the identification of a binding site, but no experimental validation of the ternary complex is described. AlphaFold predictions are computational and can be inaccurate, especially for multi-protein complexes and for interfaces involving conformational changes. The abstract does not indicate whether the AlphaFold models were validated by mutagenesis, cross-linking, or any biophysical method in the context of the ternary complex.
+  - **Why it matters** The central structural claim, the location of the cyclin D3 binding site, rests on a computational model. Without experimental confirmation of the ternary complex architecture, the proposed binding site remains speculative. This is critical because the authors use this model to define the functional interface.
+  - **Resolution test** Provide experimental evidence for the ternary complex, such as co-immunoprecipitation or size exclusion chromatography with all three proteins, or mutagenesis of the predicted interface residues that disrupts complex formation in a binding assay. Alternatively, present a high-resolution structure of the complex.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "mutations within this sequence that block both cyclin D3 and retinoic acid binding promote formation of a CRABP2 structure in which the retinoic acid binding pocket is occupied by an alternative lid conformation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract describes a conformational change in CRABP2 induced by mutations, but no structural data are presented in the abstract to support this claim. It is unclear whether this alternative conformation was observed by X-ray crystallography, NMR, or another method. The abstract does not specify which mutations were made, how binding was measured, or how the conformational change was detected.
+  - **Why it matters** The claim of an alternative lid conformation is a specific structural statement that requires direct evidence. If this is based on a single crystal structure or a limited set of mutants, the generality of the conclusion is uncertain. The relationship between loss of retinoic acid binding and the conformational change is also not clarified.
+  - **Resolution test** Present structural data (e.g., crystal structures of the mutant) showing the alternative lid conformation, and provide binding data for both cyclin D3 and retinoic acid for the same mutants. Clarify whether the conformational change is a cause or consequence of loss of binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors imply that CRABP2's interaction with cyclin D3 is functionally significant by linking it to the protein's nuclear localization and retinoic acid transport function.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any functional data showing that the CRABP2-cyclin D3 interaction has a biological consequence, such as effects on CDK4/6 activity, cell cycle progression, or retinoic acid-dependent transcription. The overlap of the binding site with a nuclear localization sequence is noted, but no experiments are described that test the functional relevance of this overlap.
+  - **Why it matters** Without functional data, the significance of the interaction is unclear. The abstract suggests a potential link between retinoic acid signaling and cell cycle control, but this remains speculative. The work would be substantially strengthened by showing that disrupting the CRABP2-cyclin D3 interaction affects a cellular process.
+  - **Resolution test** Provide cellular or in vitro functional assays, such as effects of CRABP2 mutants on CDK4/6 kinase activity, cyclin D3-dependent cell cycle progression, or retinoic acid-responsive gene expression.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "helix-loop-helix motif" and "C-terminal cyclin box fold" without brief explanation. Nonspecialists may struggle to understand the structural context.
+  - **Required correction** Add a brief parenthetical explanation of these structural terms or provide a simplified description of the domain architecture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Mutagenesis description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "mutations within this sequence" block binding, but does not specify the number or nature of the mutations. It is unclear whether these are point mutations, deletions, or alanine scans.
+  - **Required correction** Specify the type and number of mutations in the abstract or refer to a figure or table that details them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** AlphaFold model validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions AlphaFold models but does not indicate the confidence of the models or whether they were validated against experimental data.
+  - **Required correction** Include a statement about model confidence (e.g., pLDDT scores) or experimental validation in the abstract or refer to supplementary information.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation for the ternary complex and binding site), R1-M2 (lack of structural evidence for the alternative lid conformation)
+- **Assessment against Nature-style criteria** 
+  - Originality: The finding that CRABP2 binds cyclin D3 is novel and potentially original, as it links a retinoic acid binding protein to cell cycle regulation. However, the abstract does not establish whether this interaction has been previously suggested or is entirely new.
+  - Scientific importance: The potential link between retinoic acid signaling and CDK4/6-cyclin D3 function is of interest, but the abstract does not provide functional evidence to demonstrate importance. The work is more likely to be of interest to a specialized audience in structural biology and cell cycle research.
+  - Interdisciplinary readership: The topic bridges structural biology, cell signaling, and cancer biology, which could attract a broad readership. However, the abstract is written in a way that may be more accessible to structural biologists than to nonspecialists.
+  - Technical soundness: The abstract describes a combination of binding assays, mutagenesis, and AlphaFold modeling, but the lack of experimental validation for the ternary complex and the conformational change claim are significant gaps. The technical soundness cannot be fully assessed without the full methods and data.
+  - Readability for nonspecialists: The abstract is concise but uses specialized terminology without explanation. It is readable for experts but may be challenging for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks sufficient experimental detail to support the central structural claims. The work could become publishable if the authors provide experimental validation of the ternary complex, structural evidence for the alternative lid conformation, and functional data demonstrating the biological significance of the CRABP2-cyclin D3 interaction.
+
+## Risk / unsupported claims
+- The claim that AlphaFold models of the ternary complex support identification of the cyclin D3 binding site is unsupported without experimental validation of the complex.
+- The claim of an alternative lid conformation in CRABP2 mutants is unsupported without structural data.
+- The functional significance of the CRABP2-cyclin D3 interaction is not established, as no cellular or in vivo experiments are described.
+- The specificity of CRABP2 for cyclin D3 over other cyclins is asserted but not demonstrated in the abstract.

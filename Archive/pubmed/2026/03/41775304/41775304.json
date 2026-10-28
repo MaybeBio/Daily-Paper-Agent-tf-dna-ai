@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "41775304",
+    "doi": "10.1016/j.biortech.2026.134319",
+    "title": "Continuous directed evolution of isoflavone synthase to mitigate feedback inhibition: combine use of a novel developed bacteria-based biosensor and high-throughput droplet sorting."
+  },
+  "content": {
+    "abstract": "Genistein, a bioactive isoflavone with therapeutic potential in treating oxidative stress, cardiovascular diseases, and cancer, faces production limitations during microbial biosynthesis due to product feedback inhibition of isoflavone synthase (IFS). To overcome this bottleneck, a biosensor-assisted continuous directed evolution platform was developed. Specifically, a genistein-specific biosensor was engineered using the Bradyrhizobium japonicum transcription factor FrrA, capable of distinguishing genistein from its precursor, (2S)-naringenin. The biosensor was systematically optimized to eliminate background fluorescence at inhibitory genistein concentrations while maintaining strong responses to elevated product levels, enabling precise detection during high-throughput screening. By coupling this biosensor with droplet microfluidic sorting, a high-quality mutant library of Trifolium pratense IFS (TpIFS) generated through deaminase-T7 RNA polymerase fusion-mediated continuous evolution, was screened. This approach successfully identified TpIFS(M6), a feedback-resistant mutant exhibiting a 6.6-fold increase in the product inhibition constant and a 3.8-fold reduced binding affinity for genistein. Consequently, the genistein yield obtained with TpIFS(M6) was 3.1 times that of the wild-type. Molecular dynamics simulations revealed that mutations I187R and F303A prevented inhibitor-induced conformational displacement of the catalytic I-helix. This work establishes a generalizable high-throughput screening strategy to mitigate enzyme feedback inhibition, facilitating the robust biosynthesis of plant-derived natural products.",
+    "keywords": [
+      "Droplet Microfluidics",
+      "Genistein",
+      "Isoflavone biosynthesis",
+      "Protein Engineering",
+      "T7RNAP-GDE1"
+    ],
+    "mesh_terms": [
+      "Genistein/metabolism",
+      "*Directed Molecular Evolution/methods",
+      "*Biosensing Techniques/methods",
+      "Trifolium/enzymology",
+      "*High-Throughput Screening Assays/methods",
+      "*Bradyrhizobium/enzymology/metabolism",
+      "*Feedback, Physiological",
+      "*Mixed Function Oxygenases/metabolism/genetics",
+      "Mutation",
+      "Flavanones/metabolism",
+      "Oxygenases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Zhe",
+        "Zhao, Danshan",
+        "Baghdady, Ghada Said",
+        "Wang, Jiyuan",
+        "Dai, Yiqiang",
+        "Xu, Weimin",
+        "Wang, Daoying",
+        "Wang, Yuetong",
+        "Xia, Xiudong"
+      ],
+      "short_names": [
+        "Wang Z",
+        "Zhao D",
+        "Baghdady GS",
+        "Wang J",
+        "Dai Y",
+        "Xu W",
+        "Wang D",
+        "Wang Y",
+        "Xia X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China; Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base, Ministry of Science and Technology, Nanjing 210014, China.",
+        "State Key Laboratory of Microbial Technology, School of Food Science and Pharmaceutical Engineering, Nanjing Normal University, Nanjing 210046, China.",
+        "Agricultural Microbiology Department, Faculty of Agriculture, Benha University, Benha 13736, Egypt.",
+        "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China.",
+        "School of Pharmacy, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China; Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base, Ministry of Science and Technology, Nanjing 210014, China.",
+        "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China; Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base, Ministry of Science and Technology, Nanjing 210014, China.",
+        "State Key Laboratory of Microbial Technology, School of Food Science and Pharmaceutical Engineering, Nanjing Normal University, Nanjing 210046, China. Electronic address: wangyt@nnu.edu.cn.",
+        "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China; Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base, Ministry of Science and Technology, Nanjing 210014, China. Electronic address: 86084056@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Zhe",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China; Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base, Ministry of Science and Technology, Nanjing 210014, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Danshan",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, School of Food Science and Pharmaceutical Engineering, Nanjing Normal University, Nanjing 210046, China."
+        ]
+      },
+      {
+        "full_name": "Baghdady, Ghada Said",
+        "short_name": "Baghdady GS",
+        "identifiers": [],
+        "affiliations": [
+          "Agricultural Microbiology Department, Faculty of Agriculture, Benha University, Benha 13736, Egypt."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiyuan",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Yiqiang",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Weimin",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China; Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base, Ministry of Science and Technology, Nanjing 210014, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Daoying",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China; Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base, Ministry of Science and Technology, Nanjing 210014, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuetong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, School of Food Science and Pharmaceutical Engineering, Nanjing Normal University, Nanjing 210046, China. Electronic address: wangyt@nnu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xia, Xiudong",
+        "short_name": "Xia X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agro-Product Processing, Jiangsu Academy of Agricultural Sciences, Nanjing 210014, China; Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base, Ministry of Science and Technology, Nanjing 210014, China. Electronic address: 86084056@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioresource technology"
+    ],
+    "journal_abbrev": [
+      "Bioresour Technol"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/04 01:17",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41775304",
+      "38662928",
+      "41115549",
+      "39708492",
+      "41485247",
+      "41033575",
+      "39419146",
+      "20075627",
+      "40090258",
+      "33389047",
+      "41650555",
+      "12384577",
+      "17029902",
+      "39927766",
+      "38171222",
+      "32980986",
+      "42343815",
+      "40490982",
+      "36327560",
+      "40568920",
+      "38254175",
+      "12872984",
+      "32455903",
+      "37198736",
+      "35921946",
+      "28559484",
+      "34677942",
+      "39629249",
+      "40810646",
+      "41962432",
+      "30033354",
+      "21883557",
+      "38642492",
+      "17018035",
+      "36913884",
+      "31433062",
+      "41758383",
+      "28723577",
+      "36779413",
+      "37750409",
+      "34081459",
+      "24733162",
+      "27557723",
+      "22915577",
+      "40875908",
+      "21409550",
+      "28143479",
+      "40940240",
+      "40511932",
+      "37449325",
+      "41739956",
+      "41292480",
+      "33663495",
+      "31268296",
+      "37019845",
+      "41756727",
+      "35259275",
+      "11027726",
+      "31120731",
+      "36658306",
+      "42121024",
+      "16690627",
+      "23077277",
+      "39087463",
+      "33753520",
+      "22554528",
+      "42105045",
+      "41832765",
+      "34475218",
+      "26345862",
+      "40029004",
+      "40791178",
+      "36848587",
+      "38594681",
+      "38441872",
+      "41183760",
+      "41705391",
+      "28121425",
+      "27821774",
+      "40398130",
+      "37851522",
+      "38634289",
+      "31738524",
+      "29181567",
+      "40145755",
+      "37421473",
+      "29413955",
+      "33847992",
+      "33502841",
+      "27542390",
+      "39522280",
+      "33809788",
+      "39203623",
+      "33212940",
+      "35266713",
+      "42140064",
+      "42405165",
+      "38796416",
+      "31446059",
+      "27369765"
+    ],
+    "review": [
+      "41775304",
+      "38171222",
+      "40568920",
+      "34677942",
+      "31433062",
+      "28723577",
+      "37449325",
+      "33663495",
+      "42105045",
+      "40398130",
+      "29181567",
+      "29413955"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960-8524(26)00400-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

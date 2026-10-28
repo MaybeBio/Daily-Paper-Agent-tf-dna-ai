@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "38679255",
+    "doi": "10.1016/j.ijbiomac.2024.131840",
+    "title": "Investigation of the MDM2-binding potential of de novo designed peptides using enhanced sampling simulations."
+  },
+  "content": {
+    "abstract": "The tumor suppressor p53 plays a crucial role in cellular responses to various stresses, regulating key processes such as apoptosis, senescence, and DNA repair. Dysfunctional p53, prevalent in approximately 50 % of human cancers, contributes to tumor development and resistance to treatment. This study employed deep learning-based protein design and structure prediction methods to identify novel high-affinity peptide binders (Pep1 and Pep2) targeting MDM2, with the aim of disrupting its interaction with p53. Extensive all-atom molecular dynamics simulations highlighted the stability of the designed peptide in complex with the target, supported by several structural analyses, including RMSD, RMSF, Rg, SASA, PCA, and free energy landscapes. Using the steered molecular dynamics and umbrella sampling simulations, we elucidate the dissociation dynamics of p53, Pep1, and Pep2 from MDM2. Notable differences in interaction profiles were observed, emphasizing the distinct dissociation patterns of each peptide. In conclusion, the results of our umbrella sampling simulations suggest Pep1 as a higher-affinity MDM2 binder compared to p53 and Pep2, positioning it as a potential inhibitor of the MDM2-p53 interaction. Using state-of-the-art protein design tools and advanced MD simulations, this study provides a comprehensive framework for rational in silico design of peptide binders with therapeutic implications in disrupting MDM2-p53 interactions for anticancer interventions.",
+    "keywords": [
+      "Enhanced sampling simulation",
+      "MDM2",
+      "Peptide binder",
+      "Protein design",
+      "p53"
+    ],
+    "mesh_terms": [
+      "*Proto-Oncogene Proteins c-mdm2/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Peptides/chemistry/metabolism",
+      "*Protein Binding",
+      "*Tumor Suppressor Protein p53/metabolism/chemistry",
+      "Humans",
+      "Thermodynamics",
+      "Drug Design"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Durojaye, Olanrewaju Ayodeji",
+        "Yekeen, Abeeb Abiodun",
+        "Idris, Mukhtar Oluwaseun",
+        "Okoro, Nkwachukwu Oziamara",
+        "Odiba, Arome Solomon",
+        "Nwanguma, Bennett Chima"
+      ],
+      "short_names": [
+        "Durojaye OA",
+        "Yekeen AA",
+        "Idris MO",
+        "Okoro NO",
+        "Odiba AS",
+        "Nwanguma BC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MOE Key Laboratory of Membraneless Organelle and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, Anhui 230027, China; School of Life Sciences, University of Science and Technology of China, Hefei, Anhui 230027, China; Department of Chemical Sciences, Coal City University, Emene, Enugu State, Nigeria. Electronic address: lanredurojaye@mail.ustc.edu.cn.",
+        "Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75390, United States; Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX 75390, United States.",
+        "Biochemistry and Biophysics Department, Oregon State University, Corvallis, United States.",
+        "Department of Pharmaceutical and Medicinal Chemistry, Faculty of Pharmaceutical Sciences, University of Nigeria, Nsukka 410001, Nigeria.",
+        "Department of Molecular Genetics and Biotechnology, University of Nigeria, Nsukka, Enugu State 410001, Nigeria; Department of Biochemistry, Faculty of Biological Sciences, University of Nigeria, Nsukka, Enugu State 410001, Nigeria. Electronic address: arome.odiba@unn.edu.ng.",
+        "Department of Molecular Genetics and Biotechnology, University of Nigeria, Nsukka, Enugu State 410001, Nigeria; Department of Biochemistry, Faculty of Biological Sciences, University of Nigeria, Nsukka, Enugu State 410001, Nigeria. Electronic address: bennett.nwanguma@unn.edu.ng."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Durojaye, Olanrewaju Ayodeji",
+        "short_name": "Durojaye OA",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Membraneless Organelle and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, Anhui 230027, China; School of Life Sciences, University of Science and Technology of China, Hefei, Anhui 230027, China; Department of Chemical Sciences, Coal City University, Emene, Enugu State, Nigeria. Electronic address: lanredurojaye@mail.ustc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yekeen, Abeeb Abiodun",
+        "short_name": "Yekeen AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75390, United States; Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX 75390, United States."
+        ]
+      },
+      {
+        "full_name": "Idris, Mukhtar Oluwaseun",
+        "short_name": "Idris MO",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Biophysics Department, Oregon State University, Corvallis, United States."
+        ]
+      },
+      {
+        "full_name": "Okoro, Nkwachukwu Oziamara",
+        "short_name": "Okoro NO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Medicinal Chemistry, Faculty of Pharmaceutical Sciences, University of Nigeria, Nsukka 410001, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Odiba, Arome Solomon",
+        "short_name": "Odiba AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics and Biotechnology, University of Nigeria, Nsukka, Enugu State 410001, Nigeria; Department of Biochemistry, Faculty of Biological Sciences, University of Nigeria, Nsukka, Enugu State 410001, Nigeria. Electronic address: arome.odiba@unn.edu.ng."
+        ]
+      },
+      {
+        "full_name": "Nwanguma, Bennett Chima",
+        "short_name": "Nwanguma BC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics and Biotechnology, University of Nigeria, Nsukka, Enugu State 410001, Nigeria; Department of Biochemistry, Faculty of Biological Sciences, University of Nigeria, Nsukka, Enugu State 410001, Nigeria. Electronic address: bennett.nwanguma@unn.edu.ng."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/29 01:01",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42515682",
+      "42353625",
+      "41238601",
+      "41195069",
+      "40853597",
+      "40694144",
+      "39755936",
+      "39446246"
+    ],
+    "refs": [],
+    "similar": [
+      "38679255",
+      "19255450",
+      "26701330",
+      "29142290",
+      "26032728",
+      "31282659",
+      "33401765",
+      "19713735",
+      "24211465",
+      "28871352",
+      "39064955",
+      "27905468",
+      "32353067",
+      "25584963",
+      "19910468",
+      "24264557",
+      "18800837",
+      "21088491",
+      "32001262",
+      "25808617",
+      "31795143",
+      "26138282",
+      "38991490",
+      "31473433",
+      "21904608",
+      "30679555",
+      "24418072",
+      "19305137",
+      "33988074",
+      "24342622",
+      "16817233",
+      "24491548",
+      "22148351",
+      "22408446",
+      "21764342",
+      "23324352",
+      "22815859",
+      "32651397",
+      "25840370",
+      "17957142",
+      "26676832",
+      "28425639",
+      "24830845",
+      "25115702",
+      "20190571",
+      "31781989",
+      "25377899",
+      "22617389",
+      "30645121",
+      "32390036",
+      "32448094",
+      "18256546",
+      "21423613",
+      "21528875",
+      "17002294",
+      "22807444",
+      "35536362",
+      "18435534",
+      "12381304",
+      "16474402",
+      "31089613",
+      "35775962",
+      "17302414",
+      "37086514",
+      "33533253",
+      "27907876",
+      "33905247",
+      "33140956",
+      "28834715",
+      "26046940",
+      "17875722",
+      "18826207",
+      "24858256",
+      "29696695",
+      "36758667",
+      "23609977",
+      "30513790",
+      "25275651",
+      "18673221",
+      "21425995",
+      "19958516",
+      "38916177",
+      "16402859",
+      "32497081",
+      "21191186",
+      "35702782",
+      "27532687",
+      "28042965",
+      "31971801",
+      "20226197",
+      "21391910",
+      "26863418",
+      "28669344",
+      "26992014",
+      "19323449",
+      "34794098",
+      "35228542",
+      "20660730",
+      "28000315",
+      "29877036",
+      "22507962",
+      "25739118",
+      "21088494",
+      "39002136",
+      "31847417",
+      "38958133",
+      "38078851",
+      "39269272",
+      "32576815",
+      "38766067",
+      "39333310",
+      "30540922",
+      "39283177",
+      "39135886",
+      "39264222",
+      "39266056",
+      "38383543",
+      "37312849",
+      "37377636"
+    ],
+    "review": [
+      "38679255",
+      "26676832",
+      "18673221",
+      "21425995",
+      "21391910"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)02645-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

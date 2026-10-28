@@ -1,0 +1,284 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.01.635574",
+  "title": "Genome-wide identification and characterization of QTLs for transcriptional noise in human midbrain cells",
+  "doi": "10.1101/2025.02.01.635574",
+  "abstract": "<h4>Summary</h4> Not only the abundance of gene expression but also its cell-to-cell variation, referred to as “transcriptional noise”, is known to have certain biological significance. However, the mechanistic basis of transcriptional noise, particularly how it is regulated by genetic variants, remains elusive. In this study, we analyzed single-cell RNA sequencing (scRNA- seq) data of human induced pluripotent stem cell (iPSC)-derived midbrain cells (795,661 cells in 17 conditions) from 155 individuals with their genotypes to perform genome-wide mapping of quantitative trait loci for transcriptional noise (tnQTLs). Our analyses controlling for confounding factors such as gene expression abundance identified a total of 101,024 significant tnQTL-gene pairs. A comparison with QTLs for expression levels (i.e. eQTLs) detected by an equivalent pipeline revealed that the majority (81%) of tnQTLs were also identified as eQTLs, while no significant eQTL effects were observed in the others, and a small portion (7%) of eQTLs were with significant tnQTL effects. The tnQTLs and eQTLs showed distinctive patterns of sharing across cellular conditions, where tnQTL effects were often more condition-specific than those of eQTLs. In particular, tnQTLs without significant eQTL effects (termed tn>eQTLs) were dramatically altered by rotenone-induced oxidative stress. The tn>eQTLs also exhibited unique patterns of enrichment in various functional genomic elements, such as being frequently observed in promoters of non-QTL target genes. In the analysis using summary statistics from genome-wide association studies (GWAS) for various human complex traits, we found nominally significant enrichment of heritability for schizophrenia in tn>eQTLs. Possible contributions of tn>eQTLs to schizophrenia risk were supported by the enrichment of association signals in their target genes. We also identified genes whose transcriptional noise was implicated to be causally associated with a trait by a Mendelian randomization analysis, including HLA genes and YWHAE associated with multiple autoimmune/psychiatric disorders. To further explore the role of transcriptional noise dysregulation in disease, we analyzed scRNA-seq data from human schizophrenia and mouse model brains. Genes exhibiting differential transcriptional noise between cases and controls, i.e. differentially noisy genes (DNGs), were particularly abundant in the superficial and deep layer excitatory neurons, where association signals in schizophrenia GWAS were also enriched in their DNGs. Overall, our comprehensive mapping of tnQTLs provides a resource for a new class of regulatory genetic variants, deepens our understanding of the mechanistic basis of how genetic variants regulate transcriptional noise, and highlights the roles of tnQTLs and transcriptional noise dysregulation in human complex traits.",
+  "authors": [
+    "Hirose N",
+    "Mizuno S",
+    "Niwa Y",
+    "Hara T",
+    "Yamamoto H",
+    "Koyama E",
+    "Ueda J",
+    "Tsuboi T",
+    "Takata A"
+  ],
+  "published_date": "2025-02-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.01.635574",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.01.635574.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR975412",
+    "raw_record": {
+      "id": "PPR975412",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR975412"
+        ]
+      },
+      "doi": "10.1101/2025.02.01.635574",
+      "title": "Genome-wide identification and characterization of QTLs for transcriptional noise in human midbrain cells",
+      "authorString": "Hirose N, Mizuno S, Niwa Y, Hara T, Yamamoto H, Koyama E, Ueda J, Tsuboi T, Takata A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hirose N",
+            "lastName": "Hirose",
+            "firstName": "Naoki",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3358-0916"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Molecular Pathology of Psychiatric Disorders, , , ,"
+                },
+                {
+                  "affiliation": "The Institute of Experimental Animal Sciences, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mizuno S",
+            "lastName": "Mizuno",
+            "firstName": "Shota",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Molecular Pathology of Psychiatric Disorders, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Niwa Y",
+            "lastName": "Niwa",
+            "firstName": "Yuki",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Molecular Pathology of Psychiatric Disorders, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biological Sciences, Graduate School of Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hara T",
+            "lastName": "Hara",
+            "firstName": "Tomonori",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Molecular Pathology of Psychiatric Disorders, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yamamoto H",
+            "lastName": "Yamamoto",
+            "firstName": "Hirona",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Molecular Pathology of Psychiatric Disorders, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koyama E",
+            "lastName": "Koyama",
+            "firstName": "Emiko",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Molecular Pathology of Psychiatric Disorders, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ueda J",
+            "lastName": "Ueda",
+            "firstName": "Junko",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Molecular Pathology of Psychiatric Disorders, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsuboi T",
+            "lastName": "Tsuboi",
+            "firstName": "Takashi",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, Graduate School of Science, , ,"
+                },
+                {
+                  "affiliation": "Department of Life Sciences, Graduate School of Arts and Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Takata A",
+            "lastName": "Takata",
+            "firstName": "Atsushi",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0928-4586"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Molecular Pathology of Psychiatric Disorders, , , ,"
+                },
+                {
+                  "affiliation": "Department of Life Sciences, Graduate School of Arts and Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0928-4586"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3358-0916"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Summary</h4>  Not only the abundance of gene expression but also its cell-to-cell variation, referred to as “transcriptional noise”, is known to have certain biological significance. However, the mechanistic basis of transcriptional noise, particularly how it is regulated by genetic variants, remains elusive. In this study, we analyzed single-cell RNA sequencing (scRNA- seq) data of human induced pluripotent stem cell (iPSC)-derived midbrain cells (795,661 cells in 17 conditions) from 155 individuals with their genotypes to perform genome-wide mapping of quantitative trait loci for transcriptional noise (tnQTLs). Our analyses controlling for confounding factors such as gene expression abundance identified a total of 101,024 significant tnQTL-gene pairs. A comparison with QTLs for expression levels (i.e. eQTLs) detected by an equivalent pipeline revealed that the majority (81%) of tnQTLs were also identified as eQTLs, while no significant eQTL effects were observed in the others, and a small portion (7%) of eQTLs were with significant tnQTL effects. The tnQTLs and eQTLs showed distinctive patterns of sharing across cellular conditions, where tnQTL effects were often more condition-specific than those of eQTLs. In particular, tnQTLs without significant eQTL effects (termed tn>eQTLs) were dramatically altered by rotenone-induced oxidative stress. The tn>eQTLs also exhibited unique patterns of enrichment in various functional genomic elements, such as being frequently observed in promoters of non-QTL target genes. In the analysis using summary statistics from genome-wide association studies (GWAS) for various human complex traits, we found nominally significant enrichment of heritability for schizophrenia in tn>eQTLs. Possible contributions of tn>eQTLs to schizophrenia risk were supported by the enrichment of association signals in their target genes. We also identified genes whose transcriptional noise was implicated to be causally associated with a trait by a Mendelian randomization analysis, including  HLA genes and  YWHAE associated with multiple autoimmune/psychiatric disorders. To further explore the role of transcriptional noise dysregulation in disease, we analyzed scRNA-seq data from human schizophrenia and mouse model brains. Genes exhibiting differential transcriptional noise between cases and controls, i.e. differentially noisy genes (DNGs), were particularly abundant in the superficial and deep layer excitatory neurons, where association signals in schizophrenia GWAS were also enriched in their DNGs. Overall, our comprehensive mapping of tnQTLs provides a resource for a new class of regulatory genetic variants, deepens our understanding of the mechanistic basis of how genetic variants regulate transcriptional noise, and highlights the roles of tnQTLs and transcriptional noise dysregulation in human complex traits.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.01.635574"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR975412"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR975412&type=FILE&fileName=EMS203169-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41903140",
+            "reference": "Cell reports. 2026 Mar;45(4):117151",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203169",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "gen",
+          "refsnp",
+          "go",
+          "hipsci"
+        ]
+      },
+      "dateOfCreation": "2025-02-08",
+      "firstPublicationDate": "2025-02-06",
+      "firstIndexDate": "2025-02-08",
+      "fullTextReceivedDate": "2025-02-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

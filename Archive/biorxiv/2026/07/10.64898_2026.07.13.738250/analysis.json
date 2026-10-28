@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.13.738250",
+  "title": "Frozen Protein Foundation-Model Embeddings Improve Antibody–Antigen Binding Affinity Prediction",
+  "authors": "Roger Wang; Kevin Jin; Lurong Pan",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-14",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用蛋白质基础模型嵌入预测抗体-抗原结合亲和力，虽非TF-DNA体系，但蛋白-蛋白互作建模方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "We investigate whether representations from AINN-P1—a protein foundation model trained autoregressively on tens of millions of natural protein sequences—transfer to the task of ranking antibody–antigen pairs by binding affinity. Casting affinity maturation as a learning-to-rank problem over the change in binding free energy (ΔΔG), we compare a task-specific sequence model trained end-to-end from scratch against lightweight downstream heads built on top of frozen AINN-P1 embeddings, all evaluated under an identical five-fold cross-validation protocol. A regularized linear probe on the frozen embeddings already surpasses the from-scratch baseline, and an optimized lightweight head raises the mean Spearman rank correlation from 0.42 to 0.53—a relative improvement of approximately 28%— while training in seconds and without any fine-tuning of the foundation model. Because a linear probe alone exceeds the fully trained end-to-end baseline, the gain is attributable to representation quality rather than to added downstream-model capacity. These results position frozen foundation-model embeddings as a strong, data-efficient default for affinity ranking in antibody engineering and establish a conservative lower bound that task-adaptive fine-tuning is expected to exceed.",
+  "abstract_zh": "我们探究了来自AINN-P1——一个在数千万天然蛋白质序列上自回归训练的蛋白质基础模型——的表征是否能迁移到按结合亲和力对抗体-抗原对进行排序的任务上。将亲和力成熟过程视为一个关于结合自由能变化（ΔΔG）的学习排序问题，我们比较了一个从零开始端到端训练的任务特定序列模型与基于冻结的AINN-P1嵌入构建的轻量级下游头，所有模型均在相同的五折交叉验证协议下进行评估。冻结嵌入上的正则化线性探针已超越从零开始的基线，而优化的轻量级头将平均Spearman秩相关系数从0.42提升至0.53——相对改进约28%——且训练时间仅需数秒，无需对基础模型进行任何微调。由于仅线性探针就超过了完全训练的端到端基线，这一增益归因于表征质量而非下游模型容量的增加。这些结果将冻结的基础模型嵌入定位为抗体工程中亲和力排序的强有力且数据高效的默认选择，并确立了一个保守的下限，预期任务自适应微调将超越此下限。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738250",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738250",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.13.738250/index.html"
+}

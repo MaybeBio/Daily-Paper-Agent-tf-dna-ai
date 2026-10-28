@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "41504784",
+    "doi": "10.1007/s00404-025-08282-2",
+    "title": "Integrated bioinformatic identification and translational validation of key biomarkers and therapeutic candidates for preeclampsia-related acute kidney injury."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study aimed to identify and validate key biomarkers for PE-AKI and to explore potential therapeutic candidates through an integrated bioinformatic and experimental approach. METHODS: Data was obtained from transcriptome sequencing of 12 mouse tissue samples and 8 human cell samples. Differential expression analysis identified differentially expressed genes (DEGs) in mouse and human PE kidney injury. The intersection of DEGs was used to identify candidate genes. Key genes were further identified through protein-protein interaction (PPI) networks, followed by subcellular localization, functional enrichment, molecular regulatory network construction, drug prediction, and molecular docking. The expression of key genes was validated in LPS-induced PE mouse models and blood samples from PE and PE-AKI patients. RESULTS: IL-6, CXCL2, and CEBPB were identified as key genes. They were significantly upregulated in both experimental and clinical PE-AKI samples and were co-enriched in pivotal inflammatory pathways, including interferon-gamma/alpha response and TNF-alpha signaling via NF-kappaB. Immune infiltration analysis revealed significant alterations in 28 immune cell types in the PE-AKI model. A comprehensive molecular regulatory network, encompassing 35 transcription factors and 93 miRNAs, was constructed. Drug prediction and molecular docking identified deptropine and clotrimazole as high-affinity candidates capable of stably binding all three key genes. Clinically, CXCL2 and CEBPB demonstrated promising diagnostic value for PE-AKI, with AUCs of 0.770 and 0.790, respectively. CONCLUSION: IL-6, CXCL2, and CEBPB are identified as key mediators in PE-AKI. Among them, CXCL2 and CEBPB show particular promise as diagnostic biomarkers, a finding that warrants further validation in larger, multi-center cohorts to confirm their utility in stratifying disease severity.",
+    "keywords": [
+      "Acute kidney injury",
+      "Drug forecasting",
+      "Key genes",
+      "Preeclampsia"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Female",
+      "*Pre-Eclampsia/genetics",
+      "Biomarkers/blood/metabolism",
+      "Mice",
+      "Computational Biology/methods",
+      "*Acute Kidney Injury/genetics/etiology/drug therapy/blood",
+      "Interleukin-6/genetics/blood/metabolism",
+      "Pregnancy",
+      "Chemokine CXCL2/genetics/blood/metabolism",
+      "*CCAAT-Enhancer-Binding Protein-beta/genetics/metabolism/blood",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps",
+      "Disease Models, Animal",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Lina",
+        "Yan, Dong",
+        "Liu, Xiaohui",
+        "Chen, De",
+        "Liu, Xiaoling",
+        "Liu, Jian"
+      ],
+      "short_names": [
+        "Gao L",
+        "Yan D",
+        "Liu X",
+        "Chen D",
+        "Liu X",
+        "Liu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Fist Clinical Medical College, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The Second Obstetrics Department, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, Gansu Province, China.",
+        "The Second Obstetrics Department, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, Gansu Province, China.",
+        "Department of Intensive Care Unit, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, 730070, Gansu Province, China.",
+        "The Second Obstetrics Department, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, Gansu Province, China.",
+        "The Fist Clinical Medical College, Lanzhou University, Lanzhou, Gansu Province, China. medecinliujian@163.com.",
+        "Department of Intensive Care Unit, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, 730070, Gansu Province, China. medecinliujian@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Lina",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "The Fist Clinical Medical College, Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Dong",
+        "short_name": "Yan D",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Obstetrics Department, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaohui",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Obstetrics Department, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, De",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, 730070, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoling",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Obstetrics Department, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jian",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "The Fist Clinical Medical College, Lanzhou University, Lanzhou, Gansu Province, China. medecinliujian@163.com.",
+          "Department of Intensive Care Unit, Gansu Provincial Maternity and Child Health Hospital, Gansu Provincial General Hospital, Lan Zhou, 730070, Gansu Province, China. medecinliujian@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of gynecology and obstetrics"
+    ],
+    "journal_abbrev": [
+      "Arch Gynecol Obstet"
+    ],
+    "pub_date": "2026 Jan 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/08 17:53",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40528724",
+      "40407883",
+      "40371556",
+      "40371539",
+      "40371393",
+      "40370095",
+      "40369966",
+      "40364991",
+      "40346122",
+      "40332152",
+      "40327838",
+      "40252014",
+      "40092380",
+      "40027241",
+      "40000243",
+      "39917788",
+      "39799734",
+      "39779547",
+      "39721677",
+      "39558378",
+      "39540369",
+      "39485559",
+      "39162984",
+      "39057626",
+      "38757700",
+      "38672468",
+      "38519239",
+      "38476473",
+      "38445373",
+      "38424624",
+      "38395517",
+      "38178862",
+      "38044094",
+      "37688412",
+      "37336075",
+      "37166973",
+      "36812928",
+      "36713458",
+      "36466876",
+      "36389792",
+      "35751589",
+      "35366257",
+      "35126369",
+      "34948347",
+      "34636837",
+      "34557778",
+      "34484241",
+      "34359685",
+      "34278794",
+      "34222462",
+      "34215679",
+      "34202695",
+      "33790866",
+      "33655325",
+      "33236768",
+      "32960513",
+      "32793382",
+      "32719464",
+      "32392191",
+      "32375429",
+      "31960380",
+      "31836544",
+      "31415805",
+      "31054183",
+      "29371787",
+      "29313598",
+      "28558034",
+      "27208407",
+      "26675569",
+      "26091000",
+      "24863842",
+      "24484194",
+      "21149340",
+      "20576136",
+      "16207631"
+    ],
+    "similar": [
+      "41504784",
+      "41044520",
+      "40754871",
+      "40374866",
+      "42172251",
+      "41325315",
+      "40406126",
+      "41316541",
+      "39675129",
+      "37776011",
+      "42278407",
+      "41186507",
+      "39356055",
+      "40634559",
+      "41858783",
+      "41808326",
+      "40970657",
+      "41214111",
+      "35658960",
+      "32497025",
+      "40374840",
+      "41299729",
+      "34218797",
+      "40347801",
+      "38815767",
+      "40068024",
+      "41703488",
+      "41107920",
+      "42274933",
+      "39661223",
+      "37525915",
+      "39600181",
+      "41190071",
+      "38259479",
+      "39544937",
+      "41479901",
+      "41350331",
+      "40532551",
+      "40016711",
+      "36258174",
+      "40155864",
+      "41310008",
+      "39423109",
+      "40552285",
+      "33863396",
+      "42421348",
+      "35880174",
+      "37576963",
+      "41034826",
+      "41619156",
+      "40595246",
+      "41130090",
+      "39069636",
+      "41562054",
+      "41052072",
+      "41303615",
+      "39176085",
+      "39351239",
+      "38010448",
+      "41120603",
+      "31416885",
+      "41534252",
+      "42030320",
+      "40592741",
+      "41300749",
+      "37063876",
+      "41863100",
+      "33640831",
+      "39815029",
+      "40901831",
+      "39853851",
+      "39967661",
+      "41533020",
+      "37026010",
+      "40767016",
+      "42015036",
+      "40628511",
+      "42059276",
+      "41747788",
+      "39934690",
+      "42123445",
+      "40151199",
+      "36291136",
+      "38718074",
+      "40091022",
+      "42024670",
+      "41354822",
+      "42107160",
+      "36125921",
+      "40119934",
+      "39351221",
+      "40532306",
+      "38863714",
+      "40340571",
+      "27724849",
+      "38296680",
+      "40355485",
+      "41288681",
+      "37498421",
+      "39139563"
+    ],
+    "review": [
+      "41504784",
+      "38296680"
+    ],
+    "pmc": [
+      "12783195"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41504784/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00404-025-08282-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

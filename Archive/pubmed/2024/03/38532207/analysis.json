@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38532207",
+  "title": "Development of a screening system of gene sets for estimating the time of early skeletal muscle injury based on second-generation sequencing technology.",
+  "authors": "Shen, Junyi; Sun, Hao; Zhou, Shidong; Wang, Liangliang; Dong, Chaoxiu; Ren, Kang; Du, Qiuxiang; Cao, Jie; Wang, Yingyuan; Sun, Junhong",
+  "journal": "International journal of legal medicine",
+  "published_date": "2024-03-27",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究基于二代测序和机器学习筛选转录因子基因集用于骨骼肌损伤时间推断，虽涉及TF但无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联弱。",
+  "abstract": "The present study is aimed to address the challenge of wound age estimation in forensic science by identifying reliable genetic markers using low-cost and high-precision second-generation sequencing technology. A total of 54 Sprague-Dawley rats were randomly assigned to a control group or injury groups, with injury groups being further divided into time points (4 h, 8 h, 12 h, 16 h, 20 h, 24 h, 28 h, and 32 h after injury, n = 6) to establish rat skeletal muscle contusion models. Gene expression data were obtained using second-generation sequencing technology, and differential gene expression analysis, weighted gene co-expression network analysis (WGCNA) and time-dependent expression trend analysis were performed. A total of six sets of biomarkers were obtained: differentially expressed genes at adjacent time points (127 genes), co-expressed genes most associated with wound age (213 genes), hub genes exhibiting time-dependent expression (264 genes), and sets of transcription factors (TF) corresponding to the above sets of genes (74, 87, and 99 genes, respectively). Then, random forest (RF), support vector machine (SVM) and multilayer perceptron (MLP), were constructed for wound age estimation from the above gene sets. The results estimated by transcription factors were all superior to the corresponding hub genes, with the transcription factor group of WGCNA performed the best, with average accuracy rates of 96% for three models' internal testing, and 91.7% for the highest external validation. This study demonstrates the advantages of the indicator screening system based on second-generation sequencing technology and transcription factor level for wound age estimation.",
+  "abstract_zh": "本研究旨在通过使用低成本、高精度的第二代测序技术识别可靠的遗传标记，以解决法医学中伤口年龄评估的挑战。共54只Sprague-Dawley大鼠被随机分配到对照组或损伤组，其中损伤组进一步按时间点划分（损伤后4小时、8小时、12小时、16小时、20小时、24小时、28小时和32小时，每组n = 6），以建立大鼠骨骼肌挫伤模型。使用第二代测序技术获取基因表达数据，并进行差异基因表达分析、加权基因共表达网络分析（WGCNA）和时间依赖性表达趋势分析。共获得六组生物标志物：相邻时间点的差异表达基因（127个基因）、与伤口年龄最相关的共表达基因（213个基因）、表现出时间依赖性表达的核心基因（264个基因），以及对应于上述基因组的转录因子（TF）集合（分别为74、87和99个基因）。随后，基于上述基因集构建了随机森林（RF）、支持向量机（SVM）和多层感知器（MLP）用于伤口年龄评估。由转录因子估计的结果均优于相应的核心基因，其中WGCNA的转录因子组表现最佳，三个模型的内部测试平均准确率为96%，最高外部验证准确率为91.7%。本研究展示了基于第二代测序技术和转录因子水平的指标筛选系统在伤口年龄评估中的优势。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38532207/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38532207/",
+  "paper_page_path": "papers/pubmed/38532207/index.html"
+}

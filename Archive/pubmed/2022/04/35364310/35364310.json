@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "35364310",
+    "doi": "10.1016/j.compbiomed.2022.105448",
+    "title": "Investigation on the mechanism of 2,3,4',5-Tetrahydroxystilbene 2-o-D-glucoside in the treatment of inflammation based on network pharmacology."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Inflammation is the pathogenesis of various chronic diseases plaguing clinic for years.Fallopia multiflora (Thunb.) is a traditional Chinese herbal medicine with a long history of application in detoxification and anti-inflammation. 2,3,4',5-Tetrahydroxystilbene 2-o-D-glucoside (TSG) is a main active compound of F. multiflora. However, the mechanism of TSG in the treatment of inflammation remains unknown. METHODS: Network pharmacology and molecular docking were employed to explore the mechanism of anti-inflammatory effect of TSG. Potential targets of TSG and inflammation were obtained from Swiss Target Prediction, Pharm Mapper, and GeneCards database. Protein-protein interaction (PPI) networks, GO and KEGG pathway enrichment analysis were performed to elucidate the interaction of targets. Moreover, the anti-inflammatory effect of TSG was validated by in vitro experiments using flow cytometry, RT-qPCR, Western blot, and immunocytochemistry assays. RESULTS: PPI network and gene enrichment analysis showed that TSG may exert a protein kinase binding activity, and IKBKB, MAPK1, NFKBIA, and RELA were predicted as the targets of anti-inflammation. Verified by molecular docking and Western blot, TSG may target NF-kappaB and ERK2 related signals to alleviate inflammatory damage. Furthermore, TSG effectively downregulated the expression of inflammatory cytokine, the nuclear translocation of NF-kappaB p65, and the production of reactive oxygen species (ROS). CONCLUSION: TSG possesses significant anti-inflammatory effect. TSG may display a protein kinase binding activity and target NF-kappaB and ERK2 related signals to treat the inflammation. This work may enlighten the potential application of TSG in anti-inflammation and indicate network pharmacology was an effective tool for the further study of TCM.",
+    "keywords": [
+      "2,3,4',5-Tetrahydroxystilbene 2-o-D-glucoside",
+      "Inflammation",
+      "LPS",
+      "Molecular docking",
+      "NF-kappaB/ERK2",
+      "Network pharmacology",
+      "RAW264.7cells"
+    ],
+    "mesh_terms": [
+      "Anti-Inflammatory Agents/pharmacology/therapeutic use",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Glucosides/pharmacology/therapeutic use",
+      "Humans",
+      "Inflammation/drug therapy",
+      "Molecular Docking Simulation",
+      "*NF-kappa B/metabolism",
+      "Network Pharmacology",
+      "Protein Kinases/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Ling",
+        "Wang, Bixu",
+        "Sun, Tong",
+        "Zhou, Fangmei",
+        "Zhu, Bingqi",
+        "Li, Chang",
+        "Wan, Haitong",
+        "Ding, Zhishan"
+      ],
+      "short_names": [
+        "Sun L",
+        "Wang B",
+        "Sun T",
+        "Zhou F",
+        "Zhu B",
+        "Li C",
+        "Wan H",
+        "Ding Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: Lingsunrise@163.com.",
+        "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: wbxmust@163.com.",
+        "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: 1310239694@qq.com.",
+        "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: zfm1213@163.com.",
+        "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: bingqizhu@163.com.",
+        "Institute of Cardio-cerebrovascular Disease, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: 20171043@zcmu.edu.cn.",
+        "Institute of Cardio-cerebrovascular Disease, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: whtong@126.com.",
+        "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: dzszjtcm@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Ling",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: Lingsunrise@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Bixu",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: wbxmust@163.com."
+        ]
+      },
+      {
+        "full_name": "Sun, Tong",
+        "short_name": "Sun T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: 1310239694@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Fangmei",
+        "short_name": "Zhou F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: zfm1213@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Bingqi",
+        "short_name": "Zhu B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: bingqizhu@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Chang",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cardio-cerebrovascular Disease, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: 20171043@zcmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wan, Haitong",
+        "short_name": "Wan H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cardio-cerebrovascular Disease, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: whtong@126.com."
+        ]
+      },
+      {
+        "full_name": "Ding, Zhishan",
+        "short_name": "Ding Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, People's Republic of China. Electronic address: dzszjtcm@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/02 06:00",
+    "fetched_at": "2026-09-28 06:47:29"
+  },
+  "links": {
+    "cites": [
+      "40507891",
+      "40101029",
+      "38989153",
+      "38931205",
+      "38321211"
+    ],
+    "refs": [],
+    "similar": [
+      "35364310",
+      "38030026",
+      "33441867",
+      "36471963",
+      "39041167",
+      "24144353",
+      "35473352",
+      "34808299",
+      "36099655",
+      "19272442",
+      "32505843",
+      "38107658",
+      "38972211",
+      "33761623",
+      "32513151",
+      "36624435",
+      "34234411",
+      "36872242",
+      "35609387",
+      "36924863",
+      "32387861",
+      "35343164",
+      "32957876",
+      "38579646",
+      "36242028",
+      "35622496",
+      "35342751",
+      "24349614",
+      "32928080",
+      "35069206",
+      "35178962",
+      "30647760",
+      "31790703",
+      "37434431",
+      "33998855",
+      "28473878",
+      "34308863",
+      "34951221",
+      "37390239",
+      "35543243",
+      "34707348",
+      "26027823",
+      "34873575",
+      "26075030",
+      "30466993",
+      "35097126",
+      "33243703",
+      "33634308",
+      "33496115",
+      "38522318",
+      "33963245",
+      "34872267",
+      "27275773",
+      "35178959",
+      "31927046",
+      "34994139",
+      "31986418",
+      "35430443",
+      "32353422",
+      "32315738",
+      "31606534",
+      "35221674",
+      "35648450",
+      "34746302",
+      "35964821",
+      "29804119",
+      "34349502",
+      "34593896",
+      "28545778",
+      "34159207",
+      "35101570",
+      "35937393",
+      "30545126",
+      "32393298",
+      "34185887",
+      "27776426",
+      "34737112",
+      "34939529",
+      "34994141",
+      "34997010",
+      "34728319",
+      "37027372",
+      "33974900",
+      "35285206",
+      "22732725",
+      "34412733",
+      "33727796",
+      "33550145",
+      "35255879",
+      "31954258",
+      "34908920",
+      "35351575",
+      "35779819",
+      "31760157",
+      "33358854",
+      "26477638",
+      "34087397",
+      "32325181",
+      "33849106",
+      "35367781",
+      "30802715",
+      "35069454",
+      "32337957",
+      "33082858",
+      "33799226",
+      "38889492",
+      "38402418",
+      "36337846",
+      "36825731",
+      "37067244",
+      "36120306",
+      "36281234",
+      "37071853",
+      "36472105",
+      "36731363",
+      "38013056",
+      "36595833",
+      "37432229",
+      "34463943",
+      "37122599",
+      "36403745",
+      "38363917",
+      "36117503",
+      "34866494",
+      "37528325",
+      "34763093",
+      "36599852",
+      "36986067",
+      "38704089",
+      "39065817",
+      "39383653",
+      "39377873",
+      "38334283",
+      "37021046"
+    ],
+    "review": [
+      "35364310",
+      "35069206",
+      "33243703",
+      "31986418",
+      "28545778",
+      "34412733",
+      "33358854"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(22)00240-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-870",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(22)00240-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

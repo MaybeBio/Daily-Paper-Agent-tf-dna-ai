@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39091799",
+  "title": "De Novo Design of Peptide Binders to Conformationally Diverse Targets with Contrastive Language Modeling.",
+  "authors": "Bhat, Suhaas; Palepu, Kalyan; Hong, Lauren; Mao, Joey; Ye, Tianzheng; Iyer, Rema; Zhao, Lin; Chen, Tianlai; Vincoff, Sophia; Watson, Rio; Wang, Tian; Srijay, Divya; Kavirayuni, Venkata Srikar; Kholina, Kseniia; Goel, Shrey; Vure, Pranay; Desphande, Aniruddha J; Soderling, Scott H; DeLisa, Matthew P; Chatterjee, Pranam",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-08-02",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用对比语言模型和ESM-2生成肽段结合剂，靶向无序蛋白如转录因子，虽非直接建模TF-DNA互作，但方法可迁移至TF-DNA结合肽设计，具启发价值。",
+  "abstract": "Designing binders to target undruggable proteins presents a formidable challenge in drug discovery, requiring innovative approaches to overcome the lack of putative binding sites. Recently, generative models have been trained to design binding proteins via three-dimensional structures of target proteins, but as a result, struggle to design binders to disordered or conformationally unstable targets. In this work, we provide a generalizable algorithmic framework to design short, target-binding linear peptides, requiring only the amino acid sequence of the target protein. To do this, we propose a process to generate naturalistic peptide candidates through Gaussian perturbation of the peptidic latent space of the ESM-2 protein language model, and subsequently screen these novel linear sequences for target-selective interaction activity via a CLIP-based contrastive learning architecture. By integrating these generative and discriminative steps, we create a Peptide Prioritization via CLIP (PepPrCLIP) pipeline and validate highly-ranked, target-specific peptides experimentally, both as inhibitory peptides and as fusions to E3 ubiquitin ligase domains, demonstrating functionally potent binding and degradation of conformationally diverse protein targets in vitro. Overall, our design strategy provides a modular toolkit for designing short binding linear peptides to any target protein without the reliance on stable and ordered tertiary structure, enabling generation of programmable modulators to undruggable and disordered proteins such as transcription factors and fusion oncoproteins.",
+  "abstract_zh": "设计结合剂以靶向不可成药蛋白质是药物发现中的一项艰巨挑战，需要创新方法来克服缺乏假定结合位点的问题。近年来，生成模型已被训练用于通过靶蛋白的三维结构设计结合蛋白，但因此，这些模型难以设计针对无序或构象不稳定靶标的结合剂。在本工作中，我们提供了一个可推广的算法框架，用于设计短的目标结合线性肽，仅需靶蛋白的氨基酸序列即可实现。为此，我们提出了一种通过高斯扰动ESM-2蛋白质语言模型的肽潜空间来生成自然样肽候选物的过程，并随后通过基于CLIP的对比学习架构筛选这些新型线性序列的靶选择性相互作用活性。通过整合这些生成和判别步骤，我们创建了PepPrCLIP（Peptide Prioritization via CLIP）流水线，并在实验上验证了高排名、靶特异性肽，既作为抑制性肽，也作为与E3泛素连接酶结构域的融合体，展示了在体外对构象多样蛋白靶标的功能性强效结合和降解。总体而言，我们的设计策略提供了一个模块化工具包，用于设计针对任何靶蛋白的短结合线性肽，无需依赖稳定且有序的三级结构，从而能够生成针对不可成药和无序蛋白（如转录因子和融合癌蛋白）的可编程调节剂。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39091799/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39091799/",
+  "paper_page_path": "papers/pubmed/39091799/index.html"
+}

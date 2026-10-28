@@ -1,0 +1,218 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-chlcc",
+  "title": "Machine-Learning Adaptivity, DFT-Level Accuracy, and Semi-Empirical Quantum-Chemistry Speed with Neural-Network Extended Tight-Binding",
+  "doi": "10.26434/chemrxiv-2025-chlcc",
+  "abstract": "Fast, general, and interpretable quantum accuracy remains elusive for large, complex molecules. Here we introduce NN-xTB, a Hamiltonian-preserving framework that augments the explicit GFN2-xTB operator with small, bounded, environment-dependent shifts to a compact set of physically named parameters predicted by an E(3)-equivariant encoder. By confining learning to on-site/shell terms, hardness and its charge derivative, overlap/hopping scalings, anisotropic electrostatics/XC prefactors, short-range exchange, and selected global factors, NN-xTB restores local chemical sensitivity while retaining analytic long-range limits, native charge/spin treatment, and a self-consistent (SCF) solution---so all observables arise from the same adapted electronic state. Across complementary benchmarks, NN-xTB attains DFT-like accuracy at near–xTB cost: on GMTKN55 it reaches a WTMAD-2 of 5.58 kcal/mol (versus 25.0 kcal/mol for GFN2-xTB, and 9.3 kcal/mol for g-xTB), achieves the lowest force MAE on 8/10 rMD17 molecules and 10–40% RMSE reductions on large MACEOFF23/SPICE subsets against strong equivariant MLIPs, and cuts VQM24 frequency MAE from 200.6 to 12.7 cm^(-1) (>90\\% reduction). Under temperature shift (3BPA), errors remain markedly lower up to 1200 K. The neural-network component in NN-xTB adds <20% wall-time overhead, preserving the throughput that motivates semi-empirical quantum methods. Overall, NN-xTB demonstrates that targeted, Hamiltonian-level adaptation can bridge much of the gap to DFT while keeping interpretability, asymptotics, and robustness, offering a practical, GPU-ready path to quantum-accurate molecular simulation and design at scale.",
+  "authors": [
+    "Yufan Xia",
+    "Giuseppe Maria Junior Barca"
+  ],
+  "published_date": "2025-10-30",
+  "updated_date": "2025-10-30T12:35:36Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-chlcc",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-chlcc",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T09:28:15Z",
+        "timestamp": 1785403695933,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2025-10-30T00:00:00Z",
+            "timestamp": 1761782400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Fast, general, and interpretable quantum accuracy remains elusive for large, complex molecules. Here we introduce NN-xTB, a Hamiltonian-preserving framework that augments the explicit GFN2-xTB operator with small, bounded, environment-dependent shifts to a compact set of physically named parameters predicted by an E(3)-equivariant encoder. By confining learning to on-site/shell terms, hardness and its charge derivative, overlap/hopping scalings, anisotropic electrostatics/XC prefactors, short-range exchange, and selected global factors, NN-xTB restores local chemical sensitivity while retaining analytic long-range limits, native charge/spin treatment, and a self-consistent (SCF) solution---so all observables arise from the same adapted electronic state.    Across complementary benchmarks, NN-xTB attains DFT-like accuracy at near–xTB cost: on GMTKN55 it reaches a WTMAD-2 of 5.58 kcal/mol (versus 25.0 kcal/mol for GFN2-xTB, and 9.3 kcal/mol for g-xTB), achieves the lowest force MAE on 8/10 rMD17 molecules and 10–40% RMSE reductions on large MACEOFF23/SPICE subsets against strong equivariant MLIPs, and cuts VQM24 frequency MAE from 200.6 to 12.7 cm^(-1) (&gt;90\\% reduction). Under temperature shift (3BPA), errors remain markedly lower up to 1200 K.  The neural-network component in NN-xTB adds &lt;20% wall-time overhead, preserving the throughput that motivates semi-empirical quantum methods.     Overall, NN-xTB demonstrates that targeted, Hamiltonian-level adaptation can bridge much of the gap to DFT while keeping interpretability, asymptotics, and robustness, offering a practical, GPU-ready path to quantum-accurate molecular simulation and design at scale.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-chlcc",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2025-10-30T12:35:36Z",
+        "timestamp": 1761827736000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Machine-Learning Adaptivity, DFT-Level Accuracy, and Semi-Empirical Quantum-Chemistry Speed with Neural-Network Extended Tight-Binding"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Yufan",
+          "family": "Xia",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "QDX Technologies"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5109-4279",
+          "authenticated-orcid": false,
+          "given": "Giuseppe Maria Junior",
+          "family": "Barca",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/019wvm592",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Australian National University",
+              "place": [
+                "Australia"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02bfwt286",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Monash University",
+              "place": [
+                "Australia"
+              ]
+            },
+            {
+              "name": "QDX Technologies"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-chlcc",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:43:33Z",
+        "timestamp": 1778755413000
+      },
+      "score": 121.878784,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-chlcc"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-chlcc",
+      "relation": {
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.26434/chemrxiv-2025-chlcc-v2",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.26434/chemrxiv-2025-chlcc-v3",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

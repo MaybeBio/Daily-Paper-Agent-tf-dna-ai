@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.01.450813",
+  "title": "Characterizing collaborative transcription regulation with a graph-based deep learning approach",
+  "authors": "Zhang Z; Feng F; Yao Y; Liu J",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-03",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用图神经网络整合3D染色质组织预测染色质特征并解析转录因子协同调控，虽非直接建模TF-DNA结合，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "Human epigenome and transcription activities have been characterized by a number of sequence-based deep learning approaches which only utilize the DNA sequences. However, transcription factors interact with each other, and their collaborative regulatory activities go beyond the linear DNA sequence. Therefore leveraging the informative 3D chromatin organization to investigate the collaborations among transcription factors is critical. We developed ECHO, a graph-based neural network, to predict chromatin features and characterize the collaboration among them by incorporating 3D chromatin organization from 200-bp high-resolution Micro-C contact maps. ECHO predicts 2, 583 chromatin features with significantly higher average AUROC and AUPR than the best sequence-based model. We observed that chromatin contacts of different distances affected different types of chromatin features’ prediction in diverse ways, suggesting complex and divergent collaborative regulatory mechanisms. Moreover, ECHO was interpretable via gradient-based attribution methods. The attributions on chromatin contacts identify important contacts relevant to chromatin features. The attributions on DNA sequences identify TF binding motifs and TF collaborative binding. Furthermore, combining the attributions on contacts and sequences reveals important sequence patterns in the neighborhood which are relevant to target sequence’s chromatin feature prediction. The attribution results that reveal TF collaboration activities are provided on a website https://echo.dcmb.med.umich.edu/echo/ .",
+  "abstract_zh": "人类表观基因组和转录活动已通过多种基于序列的深度学习方法来表征，这些方法仅利用DNA序列。然而，转录因子之间相互作用，其协同调控活动超越了线性DNA序列。因此，利用信息丰富的3D染色质组织来研究转录因子间的协作至关重要。我们开发了ECHO，一种基于图的神经网络，通过整合来自200-bp高分辨率Micro-C接触图的3D染色质组织，来预测染色质特征并表征它们之间的协作。ECHO预测了2,583个染色质特征，其平均AUROC和AUPR显著高于最佳基于序列的模型。我们观察到，不同距离的染色质接触以不同方式影响不同类型染色质特征的预测，提示存在复杂且分化的协同调控机制。此外，ECHO可通过基于梯度的归因方法进行解释。对染色质接触的归因识别出与染色质特征相关的重要接触。对DNA序列的归因识别出转录因子结合基序和转录因子协同结合。进一步地，结合接触和序列的归因揭示了与目标序列染色质特征预测相关的邻域重要序列模式。揭示转录因子协作活动的归因结果可在网站 https://echo.dcmb.med.umich.edu/echo/ 上获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.01.450813",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.01.450813",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.01.450813/index.html"
+}

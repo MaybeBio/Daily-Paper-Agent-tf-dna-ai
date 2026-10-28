@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "35845958",
+    "doi": "10.1155/2022/2309339",
+    "title": "Prokineticins as a Prognostic Biomarker for Low-Grade Gliomas: A Study Based on The Cancer Genome Atlas Data."
+  },
+  "content": {
+    "abstract": "Lower-grade glioma (LGG) is a crucial pathological type of glioma. Prokineticins have not been reported in LGG. Prokineticins as a member of the multifunctional chemokine-like peptide family are divided into two ligands: PROK1 and PROK2. We evaluated the role of PROK1 and PROK2 in LGG using TCGA database. We downloaded the datasets of LGG from TCGA and evaluated the influence of prokineticins on LGG survival by survival module. Correlations between clinical information and prokineticins expression were analyzed using logistic regression. Univariable survival and multivariate Cox analysis was used to compare several clinical characteristics with survival. Correlation between prokineticins and cancer immune infiltrates was explored using CIBERSORT and correlation module of GEPIA. We analyzed genes of PROK1 and PROK2 affecting LGG, screened differentially expressed genes (DEGs), interacted protein-protein with DEGs through the STRING website, then imported the results into the Cytospace software, and calculated the hub genes. To analyze whether hub genes and prokineticins are related, the relationship between PROK1 and PROK2 and hub genes was assessed and shown by heat map. In addition, gene set enrichment analysis (GSEA) was performed using the TCGA dataset. The univariate analysis using logistic regression and PROK1 and PROK2 showed opposite expression differences between tumor and normal tissues (p < 0.05). PRO1 and PROK2 expressions showed significant differences in tumor grade, age, Iiscitrate DeHydrogenase (IDH) status, histological type, and 1P/19q codeletion. Multivariate analysis revealed that the up-regulated PROK1 and PROK2 expression is an independent prognostic factor for bad prognosis. Specifically, prokineticin expression level has significant correlations with infiltrating levels of Th1 cells, NK CD 56bright cells, and Mast cells in LGG. We screened 21 DEGs and obtained 5 hub genes (HOXC10, HOXD13, SOX4, GATA4, HOXA9). GSEA-identified FCMR activation, creation of C4 and C2 activators, and CD22-mediated BCR regulation in gene ontology (GO) were differentially enriched in high PROK1 and PROK2 expression phenotype pathway, cytoplasmic ribosomal proteins, and ribosome and were differentially enriched in the low PROK1 and PROK2 expression phenotype pathway. Prokineticins are a prognostic biomarker and the correlation between hub genes and LGG requires further attention.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biomarkers",
+      "*Brain Neoplasms/pathology",
+      "*Gastrointestinal Hormones/genetics/metabolism",
+      "Gene Ontology",
+      "*Glioma/pathology",
+      "Homeodomain Proteins",
+      "Humans",
+      "Prognosis",
+      "SOXC Transcription Factors",
+      "*Vascular Endothelial Growth Factor, Endocrine-Gland-Derived/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Retracted Publication"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhong, Junqing",
+        "Xiang, Ding",
+        "Ma, Xinlong"
+      ],
+      "short_names": [
+        "Zhong J",
+        "Xiang D",
+        "Ma X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3257-8187",
+        "ORCID: 0000-0001-8932-3110"
+      ],
+      "affiliations": [
+        "Department of Rehabilitation, Tianjin Hospital, Tianjin, China.",
+        "Department of Rehabilitation, Tianjin Hospital, Tianjin, China.",
+        "Department of Orthopedics, Tianjin Hospital, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhong, Junqing",
+        "short_name": "Zhong J",
+        "identifiers": [
+          "0000-0002-3257-8187"
+        ],
+        "affiliations": [
+          "Department of Rehabilitation, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Ding",
+        "short_name": "Xiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xinlong",
+        "short_name": "Ma X",
+        "identifiers": [
+          "0000-0001-8932-3110"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Hospital, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Retracted Publication"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/19 06:00",
+    "fetched_at": "2026-10-04 20:09:23"
+  },
+  "links": {
+    "cites": [
+      "38550141",
+      "38057865",
+      "37684054"
+    ],
+    "refs": [
+      "34244497",
+      "33459920",
+      "32887509",
+      "32289666",
+      "31966611",
+      "31445218",
+      "29625059",
+      "29485076",
+      "29294371",
+      "28407145",
+      "26824661",
+      "26193342",
+      "25521941",
+      "24902717",
+      "24496457",
+      "23372791",
+      "23323831",
+      "22711850",
+      "22347488",
+      "20633984",
+      "20419098",
+      "19955326",
+      "19336519",
+      "19265686",
+      "19192285",
+      "19156145",
+      "18981880",
+      "18440852",
+      "17881008",
+      "16199517",
+      "14597658",
+      "12125983",
+      "11528470",
+      "11359521",
+      "11259612",
+      "10982861",
+      "10422759",
+      "2818260",
+      "991854"
+    ],
+    "similar": [
+      "35845958",
+      "32289666",
+      "34162355",
+      "24496457",
+      "26574895",
+      "20502053",
+      "33167941",
+      "34087884",
+      "30711026",
+      "32309356",
+      "35349479",
+      "27840009",
+      "36714030",
+      "34494924",
+      "21385081",
+      "35117724",
+      "35741647",
+      "19930539",
+      "36872806",
+      "32642801",
+      "33425732",
+      "35984129",
+      "35142109",
+      "35585639",
+      "33545929",
+      "31104065",
+      "37037365",
+      "36305410",
+      "37718518",
+      "34840971",
+      "35677036",
+      "37543196",
+      "34413671",
+      "33896271",
+      "33954112",
+      "36155420",
+      "24051059",
+      "33327771",
+      "35865011",
+      "36405708",
+      "31247469",
+      "25331005",
+      "34675607",
+      "34925438",
+      "35018510",
+      "31276578",
+      "31966611",
+      "37515334",
+      "33550903",
+      "31171919",
+      "34094933",
+      "33591634",
+      "33913372",
+      "30894197",
+      "21664414",
+      "34908101",
+      "33937022",
+      "38737693",
+      "36353126",
+      "26828479",
+      "37955080",
+      "38324550",
+      "32894375",
+      "36997057",
+      "34159865",
+      "35982398",
+      "35526077",
+      "28782224",
+      "32915415",
+      "30077762",
+      "36275754",
+      "34776862",
+      "36605437",
+      "34539622",
+      "36275718",
+      "26192875",
+      "34805164",
+      "24324064",
+      "35484511",
+      "35227235",
+      "37664524",
+      "20633984",
+      "33381460",
+      "37091137",
+      "36193074",
+      "21983634",
+      "19348862",
+      "32351547",
+      "18339712",
+      "29846705",
+      "33454543",
+      "28392842",
+      "31020692",
+      "34597473",
+      "32412186",
+      "33363544",
+      "35309512",
+      "34552618",
+      "36043552",
+      "32585394",
+      "35832194",
+      "37895111",
+      "38789729",
+      "34557404",
+      "34335936",
+      "39378668",
+      "38752708",
+      "38952353",
+      "39031395",
+      "39280892",
+      "38539537",
+      "35432538",
+      "37736555",
+      "33767991",
+      "35845613",
+      "17200460",
+      "39039366",
+      "37461434",
+      "38948079",
+      "38550141",
+      "38779136",
+      "38549761"
+    ],
+    "review": [
+      "35845958",
+      "26574895",
+      "20502053",
+      "30711026",
+      "21664414",
+      "36997057",
+      "20633984",
+      "17200460"
+    ],
+    "pmc": [
+      "9283042"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35845958/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35845958",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/2309339",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAD-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

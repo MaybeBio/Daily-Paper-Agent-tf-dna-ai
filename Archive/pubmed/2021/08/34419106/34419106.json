@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "34419106",
+    "doi": "10.1186/s12967-021-03033-8",
+    "title": "Integrated analysis of competing endogenous RNA networks in peripheral blood mononuclear cells of systemic lupus erythematosus."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Systemic lupus erythematosus (SLE) is an autoimmune disease with a complicated pathogenesis, and its aetiology has not been clearly unveiled. The lack of effective diagnosis and treatment methods makes it necessary to explore the molecular mechanism of SLE. We aimed to identify some critical signalling pathways and key competing endogenous RNAs (ceRNAs) underlying the molecular mechanism of SLE and to map out the systematic signalling networks by integrating the data on different kinds of RNAs. METHODS: Peripheral blood mononuclear cells (PBMCs) were collected from both SLE patients and healthy subjects, RNA was extracted from the PBMCs, and RNA libraries including ribosomal RNA-depleted strand-specific libraries and small RNA libraries were built for deep RNA sequencing (RNA-seq). RNA-seq yielded differential expression profiles of lncRNAs/circRNAs/miRNAs/mRNAs related to SLE. The DAVID database (v. 6.8) was employed for Gene Ontology (GO) and KEGG pathway analysis. ceRNA networks (circRNA/lncRNA-miRNA-mRNA) were constructed and visualized using Cytoscape software (v. 3.5.0). The TargetScan and miRanda databases were used to predict target relationships in ceRNA networks. qRT-PCR was used to verify our data. RESULTS: Differential expression of ceRNAs related to SLE was detected in SLE patients' PBMCs: 644 mRNAs (384 upregulated, 260 downregulated), 326 miRNAs (223 upregulated, 103 downregulated), 221 lncRNAs (79 upregulated, 142 downregulated), and 31 circRNAs (21 upregulated, 10 downregulated). We drew ceRNA signalling networks made up of the differentially expressed mRNAs/miRNAs/lncRNAs/circRNAs mentioned above, and the hub genes included IRF5, IFNAR2, TLR7, IRAK4, STAT1, STAT2, C2, and Tyk2. These hub genes were involved in ceRNA signalling pathways, such as the IL-17 signalling pathway and type I interferon signalling pathway. CONCLUSIONS: We explored the differential expression profiles of various kinds of ceRNAs and integrated signalling networks constructed by ceRNAs. Our findings offer new insights into the pathogenesis of SLE and hint at therapeutic strategies.",
+    "keywords": [
+      "Integrative analysis",
+      "RNA sequencing",
+      "SLE",
+      "ceRNAs"
+    ],
+    "mesh_terms": [
+      "Gene Ontology",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Interferon Regulatory Factors",
+      "Leukocytes, Mononuclear",
+      "*Lupus Erythematosus, Systemic/genetics",
+      "*MicroRNAs",
+      "*RNA, Long Noncoding/genetics",
+      "RNA, Messenger/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Wencong",
+        "Qiu, Jie",
+        "Yin, Lianghong",
+        "Hong, Xiaoping",
+        "Dai, Weier",
+        "Tang, Donge",
+        "Liu, Dongzhou",
+        "Dai, Yong"
+      ],
+      "short_names": [
+        "Song W",
+        "Qiu J",
+        "Yin L",
+        "Hong X",
+        "Dai W",
+        "Tang D",
+        "Liu D",
+        "Dai Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6840-9158"
+      ],
+      "affiliations": [
+        "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China.",
+        "The First Affiliated Hospital, Jinan University, Guangzhou, 510630, China.",
+        "School of Computer Science and Engineering, Yulin Normal University, Yulin, China.",
+        "The First Affiliated Hospital, Jinan University, Guangzhou, 510630, China.",
+        "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China.",
+        "College of Natural Science, University of Texas at Austin, Austin, TX, 78712, USA.",
+        "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China. donge66@126.com.",
+        "Guangxi Key Laboratory of Metabolic Disease Research, Central Laboratory of Guilin NO. 924 Hospital, Guilin, 541002, China. donge66@126.com.",
+        "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China. liu_dz2001@sina.com.",
+        "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China. daiyong22@aliyun.com.",
+        "Guangxi Key Laboratory of Metabolic Disease Research, Central Laboratory of Guilin NO. 924 Hospital, Guilin, 541002, China. daiyong22@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Wencong",
+        "short_name": "Song W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China.",
+          "The First Affiliated Hospital, Jinan University, Guangzhou, 510630, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Jie",
+        "short_name": "Qiu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Lianghong",
+        "short_name": "Yin L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Jinan University, Guangzhou, 510630, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Xiaoping",
+        "short_name": "Hong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Weier",
+        "short_name": "Dai W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Natural Science, University of Texas at Austin, Austin, TX, 78712, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Donge",
+        "short_name": "Tang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China. donge66@126.com.",
+          "Guangxi Key Laboratory of Metabolic Disease Research, Central Laboratory of Guilin NO. 924 Hospital, Guilin, 541002, China. donge66@126.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Dongzhou",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China. liu_dz2001@sina.com."
+        ]
+      },
+      {
+        "full_name": "Dai, Yong",
+        "short_name": "Dai Y",
+        "identifiers": [
+          "0000-0002-6840-9158"
+        ],
+        "affiliations": [
+          "Department of Clinical Medical Research Center, Guangdong Provincial Engineering Research Center of Autoimmune Disease Precision Medicine, Shenzhen Engineering Research Center of Autoimmune Disease, The Second Clinical Medical College, Jinan University (Shenzhen Peoples Hospital), Shenzhen, 518020, China. daiyong22@aliyun.com.",
+          "Guangxi Key Laboratory of Metabolic Disease Research, Central Laboratory of Guilin NO. 924 Hospital, Guilin, 541002, China. daiyong22@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2021 Aug 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/23 06:00",
+    "fetched_at": "2026-09-27 22:42:54"
+  },
+  "links": {
+    "cites": [
+      "42064060",
+      "40328911",
+      "39736524",
+      "39397896",
+      "39161963",
+      "38300888",
+      "37108249",
+      "36911689",
+      "36875095",
+      "36768581",
+      "36599883",
+      "36061211",
+      "35741643",
+      "35265170"
+    ],
+    "refs": [
+      "34171007",
+      "32138562",
+      "31555374",
+      "31243263",
+      "31141998",
+      "30963571",
+      "30836987",
+      "30833538",
+      "30767092",
+      "30448290",
+      "30332560",
+      "30257390",
+      "30237316",
+      "30172209",
+      "29990846",
+      "29884225",
+      "29700819",
+      "29606700",
+      "29599912",
+      "29335913",
+      "29330524",
+      "29100395",
+      "28968809",
+      "28715235",
+      "28537665",
+      "28423570",
+      "27003314",
+      "26461065",
+      "25994030",
+      "25690850",
+      "25538618",
+      "25209070",
+      "24636579",
+      "24499937",
+      "24264010",
+      "24013925",
+      "23618408",
+      "22388286",
+      "22155015",
+      "22129255",
+      "22046141",
+      "21305501",
+      "20850569",
+      "20516030",
+      "19944565",
+      "18546601",
+      "18490410",
+      "18191211",
+      "10587542",
+      "9324032"
+    ],
+    "similar": [
+      "34419106",
+      "30836987",
+      "36862342",
+      "32070185",
+      "36355332",
+      "36226610",
+      "38835801",
+      "30577810",
+      "36604807",
+      "35672672",
+      "38603733",
+      "28622785",
+      "35757392",
+      "31141998",
+      "29286106",
+      "34898376",
+      "30833538",
+      "30486834",
+      "30871426",
+      "32016457",
+      "31842887",
+      "31391008",
+      "38253780",
+      "30745559",
+      "30628013",
+      "34935623",
+      "36434735",
+      "29197342",
+      "35814499",
+      "27600337",
+      "37488484",
+      "35967341",
+      "34743709",
+      "27402083",
+      "31127661",
+      "32277520",
+      "33344076",
+      "30404735",
+      "35690768",
+      "32876881",
+      "31004080",
+      "37286730",
+      "30128795",
+      "35799021",
+      "33749138",
+      "36187128",
+      "35909518",
+      "34894939",
+      "32616775",
+      "35701843",
+      "31304055",
+      "34184082",
+      "37129094",
+      "30025927",
+      "33507382",
+      "30231249",
+      "34220794",
+      "32423797",
+      "39037598",
+      "34787068",
+      "30320389",
+      "36042613",
+      "33299863",
+      "35832124",
+      "30734239",
+      "32135645",
+      "36223608",
+      "30692017",
+      "37507775",
+      "36185995",
+      "34051854",
+      "34596120",
+      "31608065",
+      "36513974",
+      "29516510",
+      "28836827",
+      "28404936",
+      "36793900",
+      "35957838",
+      "35790551",
+      "34968168",
+      "34993720",
+      "34049287",
+      "29923546",
+      "36203142",
+      "30313048",
+      "30562748",
+      "30110682",
+      "36897674",
+      "35313353",
+      "34777635",
+      "33605699",
+      "35543802",
+      "33794921",
+      "35722400",
+      "29996948",
+      "32606648",
+      "30308479",
+      "29884225",
+      "33750387",
+      "37650299",
+      "37369931",
+      "38906394",
+      "38577019",
+      "39270811",
+      "38089493",
+      "37875358",
+      "38053423",
+      "38644557",
+      "27846842",
+      "31390976",
+      "35265170",
+      "39162618",
+      "33509158",
+      "39077015",
+      "37903189",
+      "38599668",
+      "35505120",
+      "32576231",
+      "38524750",
+      "38507132",
+      "38395324",
+      "35349411",
+      "36599883",
+      "38128704",
+      "38674399",
+      "21496236",
+      "36761351",
+      "35389781",
+      "38511056",
+      "24796678",
+      "38332666",
+      "39107892",
+      "39404110",
+      "38159454",
+      "39208548",
+      "39318549",
+      "38691916",
+      "39427224",
+      "38046296",
+      "39133645",
+      "26922301"
+    ],
+    "review": [
+      "34419106",
+      "36862342",
+      "27846842",
+      "39077015",
+      "36761351",
+      "38511056",
+      "39318549",
+      "26922301"
+    ],
+    "pmc": [
+      "8380341"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-021-03033-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lupus.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lupus"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34419106/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34419106",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1273",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

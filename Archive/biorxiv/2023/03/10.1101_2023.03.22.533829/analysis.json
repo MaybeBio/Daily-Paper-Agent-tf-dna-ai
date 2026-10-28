@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.22.533829",
+  "title": "Discovery of a cryptic pocket in the AI-predicted structure of PPM1D phosphatase explains the binding site and potency of its allosteric inhibitors",
+  "authors": "Artur Meller; Saulo de Oliveira; Aram Davtyan; Tigran Abramyan; Gregory R. Bowman; Henry van den Bedem",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-24",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用AlphaFold预测结构与分子动力学模拟发现PPM1D磷酸酶隐蔽口袋并解释别构抑制剂结合，虽涉及蛋白动态与AI/模拟方法，但对象为蛋白-小分子互作而非蛋白质-DNA互作，与本课题TF-DNA体系无关。",
+  "abstract": "Virtual screening is a widely used tool for drug discovery, but its predictive power can vary dramatically depending on how much structural data is available. In the best case, crystal structures of a ligand-bound protein can help find more potent ligands. However, virtual screens tend to be less predictive when only ligand-free crystal structures are available, and even less predictive if a homology model or other predicted structure must be used. Here, we explore the possibility that this situation can be improved by better accounting for protein dynamics, as simulations started from a single structure have a reasonable chance of sampling nearby structures that are more compatible with ligand binding. As a specific example, we consider the cancer drug target PPM1D/Wip1 phosphatase, a protein that lacks crystal structures. High-throughput screens have led to the discovery of several allosteric inhibitors of PPM1D, but their binding mode remains unknown. To enable further drug discovery efforts, we assessed the predictive power of an AlphaFold-predicted structure of PPM1D and a Markov state model (MSM) built from molecular dynamics simulations initiated from that structure. Our simulations reveal a cryptic pocket at the interface between two important structural elements, the flap and hinge regions. Using deep learning to predict the pose quality of each docked compound for the active site and cryptic pocket suggests that the inhibitors strongly prefer binding to the cryptic pocket, consistent with their allosteric effect. The predicted affinities for the dynamically uncovered cryptic pocket also recapitulate the relative potencies of the compounds (τ b =0.70) better than the predicted affinities for the static AlphaFold-predicted structure (τ b =0.42). Taken together, these results suggest that targeting the cryptic pocket is a good strategy for drugging PPM1D and, more generally, that conformations selected from simulation can improve virtual screening when limited structural data is available.",
+  "abstract_zh": "虚拟筛选是药物发现中广泛使用的工具，但其预测能力可能因可用结构数据的多少而显著变化。在最佳情况下，配体结合蛋白的晶体结构有助于发现更有效的配体。然而，当仅有未结合配体的晶体结构可用时，虚拟筛选的预测性往往较低，而若必须使用同源模型或其他预测结构，则预测性更低。在此，我们探讨通过更好地考虑蛋白质动力学来改善这一状况的可能性，因为从单一结构开始的模拟有合理机会采样到与配体结合更兼容的邻近结构。作为具体示例，我们考虑了癌症药物靶点PPM1D/Wip1磷酸酶，这是一种缺乏晶体结构的蛋白质。高通量筛选已发现多种PPM1D的别构抑制剂，但其结合模式仍未知。为促进进一步的药物发现工作，我们评估了AlphaFold预测的PPM1D结构以及基于该结构启动的分子动力学模拟构建的马尔可夫状态模型（Markov state model, MSM）的预测能力。我们的模拟揭示了两个重要结构元件——瓣区和铰链区——界面处的一个隐蔽口袋。利用深度学习预测每个对接化合物在活性位点和隐蔽口袋的姿势质量，表明抑制剂强烈偏好结合隐蔽口袋，这与其别构效应一致。动态揭示的隐蔽口袋的预测亲和力（τ b =0.70）比静态AlphaFold预测结构的预测亲和力（τ b =0.42）更好地重现了化合物的相对效力。综合来看，这些结果表明靶向隐蔽口袋是药物化PPM1D的良好策略，并且更广泛地，当结构数据有限时，从模拟中选择的构象可改善虚拟筛选。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.22.533829",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.22.533829",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.22.533829/index.html"
+}

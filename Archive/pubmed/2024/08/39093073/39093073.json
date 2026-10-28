@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "39093073",
+    "doi": "10.3233/JAD-240301",
+    "title": "Identification of Blood Biomarkers Related to Energy Metabolism and Construction of Diagnostic Prediction Model Based on Three Independent Alzheimer's Disease Cohorts."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Blood biomarkers are crucial for the diagnosis and therapy of Alzheimer's disease (AD). Energy metabolism disturbances are closely related to AD. However, research on blood biomarkers related to energy metabolism is still insufficient. OBJECTIVE: This study aims to explore the diagnostic and therapeutic significance of energy metabolism-related genes in AD. METHODS: AD cohorts were obtained from GEO database and single center. Machine learning algorithms were used to identify key genes. GSEA was used for functional analysis. Six algorithms were utilized to establish and evaluate diagnostic models. Key gene-related drugs were screened through network pharmacology. RESULTS: We identified 4 energy metabolism genes, NDUFA1, MECOM, RPL26, and RPS27. These genes have been confirmed to be closely related to multiple energy metabolic pathways and different types of T cell immune infiltration. Additionally, the transcription factors INSM2 and 4 lncRNAs were involved in regulating 4 genes. Further analysis showed that all biomarkers were downregulated in the AD cohorts and not affected by aging and gender. More importantly, we constructed a diagnostic prediction model of 4 biomarkers, which has been validated by various algorithms for its diagnostic performance. Furthermore, we found that valproic acid mainly interacted with these biomarkers through hydrogen bonding, salt bonding, and hydrophobic interaction. CONCLUSIONS: We constructed a predictive model based on 4 energy metabolism genes, which may be helpful for the diagnosis of AD. The 4 validated genes could serve as promising blood biomarkers for AD. Their interaction with valproic acid may play a crucial role in the therapy of AD.",
+    "keywords": [
+      "Alzheimer's disease",
+      "diagnostic biomarkers",
+      "drug prediction",
+      "energy metabolism",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Alzheimer Disease/blood/diagnosis/genetics",
+      "*Biomarkers/blood",
+      "*Energy Metabolism/physiology",
+      "Cohort Studies",
+      "Machine Learning",
+      "Female",
+      "Male",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Hongqi",
+        "Li, Jilai",
+        "Tu, Wenjun",
+        "Wang, Zhiqun",
+        "Zhang, Yiming",
+        "Chang, Lirong",
+        "Wu, Yan",
+        "Zhang, Xia"
+      ],
+      "short_names": [
+        "Wang H",
+        "Li J",
+        "Tu W",
+        "Wang Z",
+        "Zhang Y",
+        "Chang L",
+        "Wu Y",
+        "Zhang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anatomy, School of Basic Medical Sciences, Capital Medical University, Beijing, China.",
+        "Department of Neurology, Aerospace Center Hospital, Peking University Aerospace School of Clinical Medicine, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Radiology, Aerospace Center Hospital, Peking University Aerospace School of Clinical Medicine, Beijing, China.",
+        "Department of Physiology and Pathophysiology, School of Basic Medical Sciences, Capital Medical University, Beijing, China.",
+        "Department of Anatomy, School of Basic Medical Sciences, Capital Medical University, Beijing, China.",
+        "Department of Anatomy, School of Basic Medical Sciences, Capital Medical University, Beijing, China.",
+        "Department of Neurology, Aerospace Center Hospital, Peking University Aerospace School of Clinical Medicine, Beijing, China.",
+        "Department of Physiology and Pathophysiology, School of Basic Medical Sciences, Capital Medical University, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Hongqi",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, School of Basic Medical Sciences, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jilai",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Aerospace Center Hospital, Peking University Aerospace School of Clinical Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Wenjun",
+        "short_name": "Tu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiqun",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Aerospace Center Hospital, Peking University Aerospace School of Clinical Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yiming",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pathophysiology, School of Basic Medical Sciences, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Lirong",
+        "short_name": "Chang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, School of Basic Medical Sciences, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yan",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, School of Basic Medical Sciences, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xia",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Aerospace Center Hospital, Peking University Aerospace School of Clinical Medicine, Beijing, China.",
+          "Department of Physiology and Pathophysiology, School of Basic Medical Sciences, Capital Medical University, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of Alzheimer's disease : JAD"
+    ],
+    "journal_abbrev": [
+      "J Alzheimers Dis"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/02 12:41",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "41892053",
+      "41799762",
+      "41721130",
+      "41606074",
+      "41094692",
+      "40640360"
+    ],
+    "refs": [
+      "38312534",
+      "38294143",
+      "38288880",
+      "38284555",
+      "38282024",
+      "38254212",
+      "38252443",
+      "38238819",
+      "38235614",
+      "38235188",
+      "38216726",
+      "38167011",
+      "38081829",
+      "38011580",
+      "37966285",
+      "37965040",
+      "37929088",
+      "37925455",
+      "37812437",
+      "37801482",
+      "37787146",
+      "37715200",
+      "37703311",
+      "37675869",
+      "37545529",
+      "37458272",
+      "37365631",
+      "37334608",
+      "37315112",
+      "37279785",
+      "37218097",
+      "37204815",
+      "37062541",
+      "37032823",
+      "36918389",
+      "36861369",
+      "36370462",
+      "36203970",
+      "35870681",
+      "35766008",
+      "35502634",
+      "35494074",
+      "35411386",
+      "35366391",
+      "35131137",
+      "35125495",
+      "35115728",
+      "34850907",
+      "34757660",
+      "34710587",
+      "34561691",
+      "34278794",
+      "34225819",
+      "33353981",
+      "33340485",
+      "33324640",
+      "33194991",
+      "32623605",
+      "32559623",
+      "32349320",
+      "32284590",
+      "32165129",
+      "32130882",
+      "31477170",
+      "31371569",
+      "31326236",
+      "30931480",
+      "30742114",
+      "30478411",
+      "30462309",
+      "29957469",
+      "29925953",
+      "29282327",
+      "29077793",
+      "29036828",
+      "28713914",
+      "28647556",
+      "28191887",
+      "28161155",
+      "27955702",
+      "27726420",
+      "27626371",
+      "26771021",
+      "26343147",
+      "25990557",
+      "25730668",
+      "24832654",
+      "24297251",
+      "23850509",
+      "23323831",
+      "22095580",
+      "21810649",
+      "19114008",
+      "17963489",
+      "17916234",
+      "10592235",
+      "9256345",
+      "7580190"
+    ],
+    "similar": [
+      "39093073",
+      "39507054",
+      "40753530",
+      "37545529",
+      "37694370",
+      "41115648",
+      "41291841",
+      "39920860",
+      "37619853",
+      "36195955",
+      "38808722",
+      "41197132",
+      "39584743",
+      "41854441",
+      "40315768",
+      "39375405",
+      "36405716",
+      "38537674",
+      "37032823",
+      "34308907",
+      "40207815",
+      "39394418",
+      "39559889",
+      "41390089",
+      "42178007",
+      "41291825",
+      "40108056",
+      "36569892",
+      "37520121",
+      "38682214",
+      "38141185",
+      "38897129",
+      "37715200",
+      "41300737",
+      "40532306",
+      "39188714",
+      "37434203",
+      "40070840",
+      "42009747",
+      "40148430",
+      "40685632",
+      "41879435",
+      "38230733",
+      "39875978",
+      "39819531",
+      "39202387",
+      "40549285",
+      "40360670",
+      "40329774",
+      "38020758",
+      "40002775",
+      "41883400",
+      "38089628",
+      "40192032",
+      "41731906",
+      "37736681",
+      "40642087",
+      "42123445",
+      "38706273",
+      "40678591",
+      "31984950",
+      "39620329",
+      "41432483",
+      "39427525",
+      "39992588",
+      "41427016",
+      "41081092",
+      "37274215",
+      "39730451",
+      "41667529",
+      "38154381",
+      "34924381",
+      "40810263",
+      "39844282",
+      "38747223",
+      "36506471",
+      "41251907",
+      "39965013",
+      "39506420",
+      "37372465",
+      "40311462",
+      "39806062",
+      "38774875",
+      "40374866",
+      "37434738",
+      "37094463",
+      "38176925",
+      "40787447",
+      "38915415",
+      "36625236",
+      "39594668",
+      "37833700",
+      "41316541",
+      "42164373",
+      "41799762",
+      "34243818",
+      "42003657",
+      "35966794",
+      "34243793",
+      "39315143"
+    ],
+    "review": [
+      "39093073",
+      "34243793"
+    ],
+    "pmc": [
+      "11380308"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.3233/JAD-240301?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39093073/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

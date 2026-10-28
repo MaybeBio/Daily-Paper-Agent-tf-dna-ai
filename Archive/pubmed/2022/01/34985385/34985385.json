@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "34985385",
+    "doi": "10.1080/13880209.2021.2019281",
+    "title": "Network pharmacology and in vitro experimental verification to explore the mechanism of Sanhua decoction in the treatment of ischaemic stroke."
+  },
+  "content": {
+    "abstract": "CONTEXT: Stroke is an illness with high morbidity, disability and mortality that presents a major clinical challenge. Sanhua decoction (SHD) has been widely used to treat ischaemic stroke in the clinic. However, the potential mechanism of SHD remains unknown. OBJECTIVE: To elucidate the multitarget mechanism of SHD in ischaemic stroke through network pharmacology and bioinformatics analyses. MATERIALS AND METHODS: Network pharmacology and experimental validation approach was used to investigate the bioactive ingredients, critical targets and potential mechanisms of SHD against ischaemic stroke. Four herbal names of SHD, 'ischemic stroke' or 'stroke' was used as a keyword to search the relevant databases. SH-SY5Y cells were treated with various concentrations of SHD (12.5, 25, 50 or 100 mug/mL) for 4 h, exposed to oxygen and glucose deprivation (OGD) for 1 h, then reoxygenation for 24 h. The cell viability was detected by MTT, the lactate dehydrogenase (LDH) was evaluated by ELISA, and protein expression was detected by western blots. RESULTS: SHD treatment increased the survival rate from 65.9 +/- 4.3 to 85.56 +/- 5.7%. The median effective dose (ED(50)) was 47.1 mug/mL, the LDH decreased from 288.0 +/- 12.0 to 122.8 +/- 9.1 U/L and the cell apoptosis rate decreased from 33.6 +/- 1.8 to 16.3 +/- 1.2%. Western blot analysis revealed that SHD increased the levels of p-PI3k, p-Akt and p-CREB1, and decreased the expression of TNF-alpha and IL-6. DISCUSSION AND CONCLUSIONS: This study suggests that SHD protects against cerebral ischaemic injury via regulation of the PI3K/Akt/CREB1 and TNF pathways.",
+    "keywords": [
+      "Cerebral ischaemia",
+      "SH-SY5Y cells",
+      "cell viability",
+      "molecular docking"
+    ],
+    "mesh_terms": [
+      "Apoptosis/drug effects",
+      "Brain Ischemia/*drug therapy",
+      "Cell Line, Tumor",
+      "Cell Survival/drug effects",
+      "Cyclic AMP Response Element-Binding Protein/metabolism",
+      "Dose-Response Relationship, Drug",
+      "Drugs, Chinese Herbal/administration & dosage/*pharmacology",
+      "Humans",
+      "Ischemic Stroke/*drug therapy",
+      "Network Pharmacology",
+      "Neuroblastoma/metabolism",
+      "Phosphatidylinositol 3-Kinase/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Tumor Necrosis Factor-alpha/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Wei",
+        "Zhang, Li",
+        "Wang, Wen Jun",
+        "Ma, Shanbo",
+        "Wang, Mingming",
+        "Yao, Minna",
+        "Li, Ruili",
+        "Li, Wei Wei",
+        "Zhao, Xian",
+        "Hu, Dongmei",
+        "Ding, Yi",
+        "Wang, Jingwen"
+      ],
+      "short_names": [
+        "Zhang W",
+        "Zhang L",
+        "Wang WJ",
+        "Ma S",
+        "Wang M",
+        "Yao M",
+        "Li R",
+        "Li WW",
+        "Zhao X",
+        "Hu D",
+        "Ding Y",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Emergency, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Li",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wen Jun",
+        "short_name": "Wang WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Shanbo",
+        "short_name": "Ma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Mingming",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Minna",
+        "short_name": "Yao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruili",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wei Wei",
+        "short_name": "Li WW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xian",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Dongmei",
+        "short_name": "Hu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yi",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingwen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceutical biology"
+    ],
+    "journal_abbrev": [
+      "Pharm Biol"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/06 06:00",
+    "fetched_at": "2026-09-28 03:45:08"
+  },
+  "links": {
+    "cites": [
+      "41495583",
+      "39066540",
+      "38363776",
+      "38213247",
+      "37895847",
+      "37386769",
+      "37228247",
+      "37123364",
+      "36892639",
+      "36432062",
+      "36301033",
+      "36269045",
+      "35938510",
+      "35938494"
+    ],
+    "refs": [
+      "34054530",
+      "34010591",
+      "32326191",
+      "32315738",
+      "32238597",
+      "32116767",
+      "32066044",
+      "31901198",
+      "31842576",
+      "31632275",
+      "31223328",
+      "30989903",
+      "30911000",
+      "30671433",
+      "30622670",
+      "30535469",
+      "30260010",
+      "29857294",
+      "29542683",
+      "29476447",
+      "29336466",
+      "29055745",
+      "28478273",
+      "28453191",
+      "28433874",
+      "28052979",
+      "27924014",
+      "27749547",
+      "27637676",
+      "27275837",
+      "26888535",
+      "26672347",
+      "26089944",
+      "25765834",
+      "25692511",
+      "25384416",
+      "24735618",
+      "24676696",
+      "23644141",
+      "23415946",
+      "22837674",
+      "22415525",
+      "19499576",
+      "19131956",
+      "14625055",
+      "14597658"
+    ],
+    "similar": [
+      "34985385",
+      "35097126",
+      "39066540",
+      "26911316",
+      "36814499",
+      "34384847",
+      "37410583",
+      "34523056",
+      "34864624",
+      "33654381",
+      "35101570",
+      "38285889",
+      "35525530",
+      "32200026",
+      "36338345",
+      "34246740",
+      "34511884",
+      "35938510",
+      "33000576",
+      "32700252",
+      "37393828",
+      "33711554",
+      "35121050",
+      "34543169",
+      "34990768",
+      "32096202",
+      "26805466",
+      "27240461",
+      "37123364",
+      "32798562",
+      "30798122",
+      "34262258",
+      "34655668",
+      "32714088",
+      "30708047",
+      "32315738",
+      "34286782",
+      "34354343",
+      "34543683",
+      "33513357",
+      "34692849",
+      "37932893",
+      "26918757",
+      "34196587",
+      "27151150",
+      "33310816",
+      "34994139",
+      "33536742",
+      "34961587",
+      "34212979",
+      "31174432",
+      "34343651",
+      "27833029",
+      "30647760",
+      "34062098",
+      "33771641",
+      "32764874",
+      "32619593",
+      "26089944",
+      "34349502",
+      "29933680",
+      "25725335",
+      "33691269",
+      "33636476",
+      "32090104",
+      "32116767",
+      "31863884",
+      "27372651",
+      "25272844",
+      "34861362",
+      "37264383",
+      "30945283",
+      "33613705",
+      "29895489",
+      "29435803",
+      "33746585",
+      "33470770",
+      "34273708",
+      "30362547",
+      "32237267",
+      "26281597",
+      "29355569",
+      "31704096",
+      "20705061",
+      "32891816",
+      "24140602",
+      "36269045",
+      "30713113",
+      "32736044",
+      "18841465",
+      "33811844",
+      "25257523",
+      "20967511",
+      "37426810",
+      "39092253",
+      "35815278",
+      "35387720",
+      "38018869",
+      "27431009",
+      "36181407",
+      "38322692",
+      "35806146",
+      "29572690",
+      "38431829",
+      "35698869",
+      "35738186",
+      "37086871"
+    ],
+    "review": [
+      "34985385",
+      "38285889",
+      "33711554",
+      "37123364",
+      "38322692",
+      "35806146",
+      "29572690"
+    ],
+    "pmc": [
+      "8741256"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/13880209.2021.2019281?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34985385/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34985385",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/13880209.2021.2019281",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

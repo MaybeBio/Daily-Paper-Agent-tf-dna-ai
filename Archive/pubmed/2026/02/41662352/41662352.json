@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41662352",
+    "doi": "10.1093/bib/bbag044",
+    "title": "Exploring potential transcription factors and their regulatory relationships based on asymmetric covariance natural vector encoding method and machine learning algorithms."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) orchestrate cellular programs by activating or repressing gene expression in response to diverse stimuli. Although advances in experimental and computational biology have expanded our understanding of TFs, existing prediction methods still struggle to accurately capture TF-target regulatory relationships and determine their directionality (activation versus inhibition). Here, we propose ACNVE-K, an integrative framework combining k-mer decomposition with asymmetric covariance natural vector encoding to convert amino acid sequences into multidimensional feature vectors. Using Leveraging eXtreme Gradient Boosting (XGBoost), Gradient Boosting (GB), and Random Forest (RF) algorithms, we constructed five predictive models for TF identification, target gene inference, and regulatory direction classification. Benchmarking analyses demonstrated that XGBoost achieved the highest predictive performance across human and mouse genomes, particularly with updated genome annotations. The 5-mer configuration provided an optimal balance between feature richness and computational efficiency. Collectively, ACNVE-K offers a robust and interpretable framework for decoding transcriptional regulation, facilitating advances in precision medicine, regulatory genomics, and machine-learning-based gene network reconstruction.",
+    "keywords": [
+      "k-mer encoding",
+      "asymmetric covariance natural vector",
+      "machine learning",
+      "regulatory directionality",
+      "transcription factor-gene prediction"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "*Machine Learning",
+      "Animals",
+      "Humans",
+      "Boosting Machine Learning Algorithms",
+      "Random Forest",
+      "Mice",
+      "*Computational Biology/methods",
+      "*Gene Expression Regulation",
+      "Algorithms",
+      "Prediction Algorithms",
+      "*Gene Regulatory Networks",
+      "Predictive Learning Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Guoqing",
+        "Sang, Mengmeng",
+        "Wang, Hao",
+        "Ge, Jia",
+        "Xu, Lin",
+        "Yau, Stephen S-T"
+      ],
+      "short_names": [
+        "Hu G",
+        "Sang M",
+        "Wang H",
+        "Ge J",
+        "Xu L",
+        "Yau SS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5249-002X",
+        "ORCID: 0009-0002-2402-9169"
+      ],
+      "affiliations": [
+        "Hetao Institute of Mathematics and Interdisciplinary Sciences (HIMIS), Shenzhen 518000, Guangdong, P.R. China.",
+        "Department of Immunology, School of Medicine, Nantong University, Nantong 226001, Jiangsu, P.R. China.",
+        "Institute of Statistics and Big Data, Renmin University of China, Beijing 100872, P.R. China.",
+        "Beijing Institute of Mathematical Sciences and Applications (BIMSA), Beijing 101408, P.R. China.",
+        "Department of Immunology, School of Medicine, Nantong University, Nantong 226001, Jiangsu, P.R. China.",
+        "Department of Immunology, School of Medicine, Nantong University, Nantong 226001, Jiangsu, P.R. China.",
+        "Beijing Institute of Mathematical Sciences and Applications (BIMSA), Beijing 101408, P.R. China.",
+        "Department of Mathematical Sciences, Tsinghua University, Beijing 100084, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Guoqing",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "Hetao Institute of Mathematics and Interdisciplinary Sciences (HIMIS), Shenzhen 518000, Guangdong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Sang, Mengmeng",
+        "short_name": "Sang M",
+        "identifiers": [
+          "0000-0001-5249-002X"
+        ],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Nantong University, Nantong 226001, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hao",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0009-0002-2402-9169"
+        ],
+        "affiliations": [
+          "Institute of Statistics and Big Data, Renmin University of China, Beijing 100872, P.R. China.",
+          "Beijing Institute of Mathematical Sciences and Applications (BIMSA), Beijing 101408, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Ge, Jia",
+        "short_name": "Ge J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Nantong University, Nantong 226001, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lin",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Nantong University, Nantong 226001, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yau, Stephen S-T",
+        "short_name": "Yau SS",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Mathematical Sciences and Applications (BIMSA), Beijing 101408, P.R. China.",
+          "Department of Mathematical Sciences, Tsinghua University, Beijing 100084, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 18:49",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40466240",
+      "40120729",
+      "40074978",
+      "40021838",
+      "39838192",
+      "39669604",
+      "39623329",
+      "37971305",
+      "37962376",
+      "37853017",
+      "37843125",
+      "37714157",
+      "37402367",
+      "37273779",
+      "36261518",
+      "35537448",
+      "35266510",
+      "35193937",
+      "35140242",
+      "35088059",
+      "34850907",
+      "34433829",
+      "34429843",
+      "34272562",
+      "33414463",
+      "33372147",
+      "32663838",
+      "32035947",
+      "31656957",
+      "30971806",
+      "30449618",
+      "30445619",
+      "30097539",
+      "29733391",
+      "29087512",
+      "28917589",
+      "27624486",
+      "26301843",
+      "26213851",
+      "25286350",
+      "25215497",
+      "24516403",
+      "24349230",
+      "24335146",
+      "23782616",
+      "23332764",
+      "22208852",
+      "21399690",
+      "20689021",
+      "19274049",
+      "16762362",
+      "12071960",
+      "11579201",
+      "11267889",
+      "9157959",
+      "7685185"
+    ],
+    "similar": [
+      "41662352",
+      "41782896",
+      "41039229",
+      "41288963",
+      "42129764",
+      "41814305",
+      "42176445",
+      "41845205",
+      "41643219",
+      "41687013",
+      "22456606",
+      "41640874",
+      "41880959",
+      "42044144",
+      "41934166",
+      "40830558",
+      "41873422",
+      "38812315",
+      "41535484",
+      "41688057",
+      "41450215",
+      "41661492",
+      "41986525",
+      "41787364",
+      "41462091",
+      "41569981",
+      "41957161",
+      "42399867",
+      "41456007",
+      "41673687",
+      "41606056",
+      "41610586",
+      "41555297",
+      "38490467",
+      "41529257",
+      "41597514",
+      "42112459",
+      "41617871",
+      "41910783",
+      "41909084",
+      "41609142",
+      "41935198",
+      "39256656",
+      "41834995",
+      "41826824",
+      "41729651",
+      "42057027",
+      "41539437",
+      "41904480",
+      "41580567",
+      "41765506",
+      "42108403",
+      "42050907",
+      "41656803",
+      "42258471",
+      "32174324",
+      "41633692",
+      "41006883",
+      "41275263",
+      "42329909",
+      "42102041",
+      "41055758",
+      "41650107",
+      "41845380",
+      "41889603",
+      "41663995",
+      "42406147",
+      "42380674",
+      "39602828",
+      "41587656",
+      "42198593",
+      "38715516",
+      "41588361",
+      "40729554",
+      "42220548",
+      "40997906",
+      "41840159",
+      "41617215",
+      "39679439",
+      "41931572",
+      "38354497",
+      "41265166",
+      "42051460",
+      "33842944",
+      "42206034",
+      "41194045",
+      "41772529",
+      "18426580",
+      "39396025",
+      "41803835",
+      "41996322",
+      "42324747",
+      "42198958",
+      "40662821",
+      "37178007",
+      "41576614",
+      "41946801",
+      "41731590",
+      "32054475",
+      "41734354"
+    ],
+    "review": [
+      "41662352",
+      "42399867",
+      "38715516"
+    ],
+    "pmc": [
+      "12885101"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41662352/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag044",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

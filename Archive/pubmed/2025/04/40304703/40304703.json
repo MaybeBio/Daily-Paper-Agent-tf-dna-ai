@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "40304703",
+    "doi": "10.7554/eLife.104237",
+    "title": "Engineering cardiolipin binding to an artificial membrane protein reveals determinants for lipid-mediated stabilization."
+  },
+  "content": {
+    "abstract": "Integral membrane proteins carry out essential functions in the cell, and their activities are often modulated by specific protein-lipid interactions in the membrane. Here, we elucidate the intricate role of cardiolipin (CDL), a regulatory lipid, as a stabilizer of membrane proteins and their complexes. Using the in silico-designed model protein TMHC4_R (ROCKET) as a scaffold, we employ a combination of molecular dynamics simulations and native mass spectrometry to explore the protein features that facilitate preferential lipid interactions and mediate stabilization. We find that the spatial arrangement of positively charged residues as well as local conformational flexibility are factors that distinguish stabilizing from non-stabilizing CDL interactions. However, we also find that even in this controlled, artificial system, a clear-cut distinction between binding and stabilization is difficult to attain, revealing that overlapping lipid contacts can partially compensate for the effects of binding site mutations. Extending our insights to naturally occurring proteins, we identify a stabilizing CDL site within the E. coli rhomboid intramembrane protease GlpG and uncover its regulatory influence on enzyme substrate preference. In this work, we establish a framework for engineering functional lipid interactions, paving the way for the design of proteins with membrane-specific properties or functions.",
+    "keywords": [
+      "E. coli",
+      "lipid binding",
+      "mass spectrometry",
+      "membrane protein",
+      "molecular biophysics",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*Cardiolipins/metabolism/chemistry",
+      "*Membrane Proteins/metabolism/chemistry/genetics",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*Escherichia coli Proteins/metabolism/chemistry/genetics",
+      "Escherichia coli/metabolism/genetics",
+      "*Protein Engineering",
+      "Endopeptidases/metabolism/chemistry/genetics",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abramsson, Mia L",
+        "Corey, Robin A",
+        "Skerle, Jan L",
+        "Persson, Louise J",
+        "Anden, Olivia",
+        "Oluwole, Abraham O",
+        "Howard, Rebecca J",
+        "Lindahl, Erik",
+        "Robinson, Carol V",
+        "Strisovsky, Kvido",
+        "Marklund, Erik G",
+        "Drew, David",
+        "Stansfeld, Phillip J",
+        "Landreh, Michael"
+      ],
+      "short_names": [
+        "Abramsson ML",
+        "Corey RA",
+        "Skerle JL",
+        "Persson LJ",
+        "Anden O",
+        "Oluwole AO",
+        "Howard RJ",
+        "Lindahl E",
+        "Robinson CV",
+        "Strisovsky K",
+        "Marklund EG",
+        "Drew D",
+        "Stansfeld PJ",
+        "Landreh M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1820-7993",
+        "ORCID: 0000-0001-7300-4019",
+        "ORCID: 0000-0001-8647-4781",
+        "ORCID: 0000-0003-2049-3378",
+        "ORCID: 0000-0003-3677-0907",
+        "ORCID: 0000-0002-9804-5009",
+        "ORCID: 0000-0001-8866-6349",
+        "ORCID: 0000-0002-7958-4074"
+      ],
+      "affiliations": [
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet, Solna, Sweden.",
+        "School of Physiology, Pharmacology & Neuroscience, University of Bristol, Bristol, United Kingdom.",
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "Institute of Organic Chemistry and Biochemistry, Academy of Science of the Czech Republic, Prague, Czech Republic.",
+        "Department of Chemistry - BMC, Uppsala University, Uppsala, Sweden.",
+        "Department of Biochemistry and Biophysics, Science for Life Laboratory, Stockholm University, Solna, Sweden.",
+        "Department of Chemistry, University of Oxford, Oxford, United Kingdom.",
+        "Kavli Institute for Nanoscience Discovery, University of Oxford, Oxford, United Kingdom.",
+        "Department of Biochemistry and Biophysics, Science for Life Laboratory, Stockholm University, Solna, Sweden.",
+        "Department of Biochemistry and Biophysics, Science for Life Laboratory, Stockholm University, Solna, Sweden.",
+        "Department of Applied Physics, Science for Life Laboratory, KTH Royal Institute of Technology, Solna, Sweden.",
+        "Department of Chemistry, University of Oxford, Oxford, United Kingdom.",
+        "Kavli Institute for Nanoscience Discovery, University of Oxford, Oxford, United Kingdom.",
+        "Institute of Organic Chemistry and Biochemistry, Academy of Science of the Czech Republic, Prague, Czech Republic.",
+        "Department of Chemistry - BMC, Uppsala University, Uppsala, Sweden.",
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "School of Life Sciences & Chemistry, University of Warwick, Coventry, United Kingdom.",
+        "Department for Cell and Molecular Biology, Uppsala University, Uppsala, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abramsson, Mia L",
+        "short_name": "Abramsson ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Corey, Robin A",
+        "short_name": "Corey RA",
+        "identifiers": [
+          "0000-0003-1820-7993"
+        ],
+        "affiliations": [
+          "School of Physiology, Pharmacology & Neuroscience, University of Bristol, Bristol, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Skerle, Jan L",
+        "short_name": "Skerle JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+          "Institute of Organic Chemistry and Biochemistry, Academy of Science of the Czech Republic, Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Persson, Louise J",
+        "short_name": "Persson LJ",
+        "identifiers": [
+          "0000-0001-7300-4019"
+        ],
+        "affiliations": [
+          "Department of Chemistry - BMC, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Anden, Olivia",
+        "short_name": "Anden O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Science for Life Laboratory, Stockholm University, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Oluwole, Abraham O",
+        "short_name": "Oluwole AO",
+        "identifiers": [
+          "0000-0001-8647-4781"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Oxford, Oxford, United Kingdom.",
+          "Kavli Institute for Nanoscience Discovery, University of Oxford, Oxford, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Howard, Rebecca J",
+        "short_name": "Howard RJ",
+        "identifiers": [
+          "0000-0003-2049-3378"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Science for Life Laboratory, Stockholm University, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lindahl, Erik",
+        "short_name": "Lindahl E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Science for Life Laboratory, Stockholm University, Solna, Sweden.",
+          "Department of Applied Physics, Science for Life Laboratory, KTH Royal Institute of Technology, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Robinson, Carol V",
+        "short_name": "Robinson CV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Oxford, Oxford, United Kingdom.",
+          "Kavli Institute for Nanoscience Discovery, University of Oxford, Oxford, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Strisovsky, Kvido",
+        "short_name": "Strisovsky K",
+        "identifiers": [
+          "0000-0003-3677-0907"
+        ],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry, Academy of Science of the Czech Republic, Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Marklund, Erik G",
+        "short_name": "Marklund EG",
+        "identifiers": [
+          "0000-0002-9804-5009"
+        ],
+        "affiliations": [
+          "Department of Chemistry - BMC, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Drew, David",
+        "short_name": "Drew D",
+        "identifiers": [
+          "0000-0001-8866-6349"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Stansfeld, Phillip J",
+        "short_name": "Stansfeld PJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences & Chemistry, University of Warwick, Coventry, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Landreh, Michael",
+        "short_name": "Landreh M",
+        "identifiers": [
+          "0000-0002-7958-4074"
+        ],
+        "affiliations": [
+          "Department for Cell and Molecular Biology, Uppsala University, Uppsala, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Apr 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/30 12:29",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42063620"
+    ],
+    "refs": [
+      "38839991",
+      "38072605",
+      "37879515",
+      "36540942",
+      "36507170",
+      "36344848",
+      "36056103",
+      "35424940",
+      "35020380",
+      "34783343",
+      "34492188",
+      "34445730",
+      "34417182",
+      "34265844",
+      "33865153",
+      "33782607",
+      "32989299",
+      "32446013",
+      "32282082",
+      "31886601",
+      "31776461",
+      "30758191",
+      "30713699",
+      "30315156",
+      "29681524",
+      "29496880",
+      "29220051",
+      "28842204",
+      "28776996",
+      "28077870",
+      "28071645",
+      "28069810",
+      "27155089",
+      "26574417",
+      "26278980",
+      "24899312",
+      "23832629",
+      "23341755",
+      "21500218",
+      "21256137",
+      "19389624",
+      "17406634",
+      "17277078",
+      "17212484",
+      "16246015",
+      "15684070",
+      "15519305",
+      "14561769",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "40304703",
+      "31059259",
+      "25216680",
+      "32848056",
+      "22705210",
+      "31480836",
+      "16216077",
+      "42714538",
+      "18979634",
+      "28077870",
+      "39488732",
+      "28884847",
+      "19278654",
+      "30420443",
+      "19919105",
+      "17463085",
+      "22963263",
+      "24899312",
+      "34417182",
+      "23609444",
+      "25307614",
+      "17976648",
+      "17099694",
+      "17501925",
+      "23585569",
+      "40047061",
+      "21256137",
+      "20890268",
+      "29049865",
+      "31886601",
+      "24099005",
+      "22770371",
+      "21167813",
+      "17493126",
+      "31603315",
+      "39215029",
+      "33441107",
+      "17051161",
+      "23912807",
+      "26805573",
+      "28065272",
+      "29507234",
+      "29461535",
+      "23353827",
+      "23359682",
+      "30713026",
+      "38859611",
+      "19706448",
+      "26613781",
+      "30297844",
+      "34718990",
+      "24099006",
+      "11601855",
+      "17277078",
+      "40898628",
+      "32795403",
+      "21518899",
+      "26999782",
+      "34969836",
+      "24859688",
+      "34251336",
+      "22960041",
+      "41607018",
+      "32348749",
+      "17190827",
+      "37467320",
+      "35579427",
+      "39976443",
+      "27924494",
+      "27222403",
+      "33210155",
+      "22969082",
+      "26858402",
+      "33865858",
+      "36576775",
+      "33825681",
+      "28065260",
+      "28879236",
+      "29463448",
+      "25729859",
+      "30414848",
+      "28065266",
+      "28808343",
+      "31570873",
+      "29891712",
+      "40823832",
+      "22515733",
+      "17714936",
+      "26621464",
+      "15519305",
+      "39475239",
+      "30012626",
+      "17494772",
+      "42508035",
+      "41724749",
+      "37879515",
+      "15496982",
+      "25002583",
+      "17555431",
+      "17660286"
+    ],
+    "review": [
+      "40304703",
+      "23585569",
+      "24099005",
+      "24099006",
+      "24859688",
+      "33210155",
+      "28065260",
+      "17714936",
+      "26621464",
+      "15519305",
+      "37879515"
+    ],
+    "pmc": [
+      "12043315"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40304703/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.104237",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

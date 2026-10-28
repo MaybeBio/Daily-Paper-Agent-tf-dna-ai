@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, experimental methods, and simulation details.
+- **Assessment boundary** Scientific claims, methodological soundness, and consistency between presented evidence and conclusions. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors report that HMGA1a, a chromatin architectural protein, undergoes liquid-liquid phase separation (LLPS) in the nucleus of living cells and in vitro. They combine machine learning predictions, coarse-grained simulations, and biophysical experiments to propose that DNA promotes HMGA1a phase separation via electrostatic interactions, and that phosphorylation of the C-terminal tail may modulate this behavior. They further identify the intrinsically disordered C-terminal region, particularly AT hooks 2 and 3, as key contributors to phase separation.
+- **Visible evidence base** Figures 1–5 (described in text), supplementary figures S0–S11 (referenced), experimental methods for protein purification, droplet assays, PhaseScan microfluidics, cell imaging, FRAP, and simulation protocols.
+- **Missing materials affecting confidence** Raw microscopy images, full phase diagram datasets, simulation trajectory details, statistical analysis of FRAP data, and quantification methods for condensate size and number are not fully described. The manuscript states data are available on request, limiting independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a compelling and multi-faceted investigation into HMGA1a phase separation, combining computational predictions, in vitro reconstitution, and cellular validation. The work is timely and relevant to the growing field of biomolecular condensates in chromatin biology. However, several technical concerns regarding the interpretation of cellular data, the specificity of the in vitro conditions, and the quantitative rigor of the simulation-to-experiment comparison need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, nuclear organization, and phase separation. The findings are relevant to those studying architectural proteins, heterochromatin dynamics, and the role of post-translational modifications in condensate formation. The methodological integration of machine learning, simulations, and microfluidics will also appeal to biophysicists and computational biologists.
+- **Major strengths** 1) Multi-scale approach combining sequence-based prediction, molecular simulation, and experimental validation. 2) Use of the PhaseScan platform to map phase diagrams quantitatively. 3) Demonstration of liquid-like properties in cells via FRAP and morphology. 4) Identification of specific regions (AT hooks 2 and 3) contributing to phase separation. 5) Clear writing and logical flow from prediction to validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for cellular relevance
+  - **Claim pointer** The authors claim that HMGA1a forms phase-separated condensates in the nucleus that are physiologically relevant.
+  - **Evidence pointer** Figure 4, Figure 5, and associated text
+  - **Concern** The cellular experiments rely on overexpression of EGFP-HMGA1a under a strong CMV promoter. The authors note that weaker expression abolishes foci formation, but this raises the question of whether the observed condensates are an artifact of overexpression rather than a native behavior. The correlation between expression level and condensate formation (Figure 5) is presented as evidence, but it could equally indicate that the phenomenon only occurs at non-physiological concentrations. The authors do not address whether endogenous HMGA1a levels are sufficient to drive phase separation, nor do they provide evidence that the observed foci correspond to functional nuclear compartments.
+  - **Why it matters** The central claim of the paper is that HMGA1a phase separation is a biologically relevant mechanism for chromatin regulation. If the phenomenon only occurs upon overexpression, the physiological significance is substantially weakened. The authors need to demonstrate that endogenous HMGA1a forms similar structures or that the concentrations used in vitro and in silico are within a physiologically relevant range.
+  - **Resolution test** Provide data on endogenous HMGA1a localization, ideally using antibodies or CRISPR tagging, to show whether native protein forms foci. Alternatively, perform titration experiments to determine the threshold concentration for foci formation and compare this to measured endogenous HMGA1a levels in IMR90 and HCT116 cells.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of in vitro phase diagram
+  - **Claim pointer** The authors claim that DNA promotes HMGA1a phase separation and map phase diagrams for a range of protein and DNA concentrations.
+  - **Evidence pointer** Figure 3, PhaseScan methods
+  - **Concern** The phase diagram in Figure 3b is described but not shown in sufficient detail in the text. The authors state that "excess of DNA or protein leads to dissolution of condensates," which is an interesting and potentially important observation, but the boundaries of the phase-separated region are not clearly defined. The PhaseScan method is powerful, but the manuscript does not provide the full dataset or the criteria used to define a "condensate" in the microfluidic droplets. Additionally, the use of PEG as a crowding agent may not accurately reflect the nuclear environment, and the authors do not discuss how the presence of PEG affects the interpretation of the phase diagram.
+  - **Why it matters** The quantitative phase diagram is a key piece of evidence for the claim that DNA promotes phase separation. Without clear boundaries and a discussion of the limitations of the in vitro system, the reader cannot assess whether the conditions are representative of the cellular environment. The dissolution at high DNA or protein concentrations is also not explained mechanistically, which is a missed opportunity to strengthen the model.
+  - **Resolution test** Provide the full phase diagram data, including the exact coordinates of the phase boundary and the criteria for condensate detection. Discuss the role of PEG and whether similar phase behavior is observed in the absence of PEG or with other crowding agents. Offer a mechanistic explanation for the re-entrant behavior at high DNA or protein concentrations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-to-experiment consistency
+  - **Claim pointer** The authors claim that simulations show DNA enhances HMGA1a phase separation and that phosphorylation promotes this behavior.
+  - **Evidence pointer** Figure 2, simulation methods
+  - **Concern** The coarse-grained simulations use a simplified model (Mpipi) and a random DNA sequence. While the authors note that DNA sequence effects are minimal at short lengths, the transferability of the simulation results to the experimental system is not fully established. The simulations predict that phosphorylation enhances phase separation, but this is not tested experimentally. The authors also do not provide a quantitative comparison between the simulated critical temperatures and the experimental phase boundaries, making it difficult to assess whether the model is predictive or merely descriptive.
+  - **Why it matters** The simulations are used to support the mechanistic interpretation of the experimental results. If the model is not quantitatively validated against the experiments, the conclusions drawn from it are speculative. The phosphorylation prediction is a testable hypothesis that would strengthen the paper if confirmed experimentally.
+  - **Resolution test** Perform in vitro phase separation assays with phosphorylated HMGA1a (e.g., using CK2-treated protein) to test the simulation prediction. Provide a quantitative comparison of simulated and experimental phase boundaries, including a discussion of the limitations of the coarse-grained model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** FRAP analysis
+  - **Evidence pointer** Experimental section, Figure 4
+  - **Issue** The FRAP methodology is described briefly, and the authors do not specify how the mobile fraction and half-time were calculated. The statement that "fluorescence recovery determined by FRAP, as performed here, probes both the entry and exit of EGFP-HMGA1a molecules" is confusing and needs clarification.
+  - **Required correction** Provide a more detailed description of the FRAP protocol, including the region of interest, normalization method, and fitting procedure. Clarify how the mobile fraction and half-time were derived and what the partial bleaching experiments add to the interpretation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Quantification of condensate size and number
+  - **Evidence pointer** Figure 5, Figure S6
+  - **Issue** The correlation between HMGA1a expression level and condensate size/number is presented, but no statistical tests or error bars are shown. The number of cells analyzed is not stated.
+  - **Required correction** Include statistical analysis (e.g., correlation coefficients, p-values) and report the number of cells and replicates. Add error bars to the quantification plots.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of hexanediol data
+  - **Affected element** Figure S8
+  - **Issue** The authors state that hexanediol treatment did not suppress foci formation, suggesting hydrophobic interactions are not predominant. However, the concentration and duration of hexanediol treatment are not specified, and the authors do not discuss whether the treatment was effective in disrupting other known condensates as a positive control.
+  - **Required correction** Provide details of the hexanediol treatment and include a positive control (e.g., a known hydrophobic condensate) to demonstrate that the treatment was effective.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of evidence for endogenous HMGA1a phase separation. 2) Incomplete presentation of the phase diagram data. 3) No experimental validation of the phosphorylation prediction. 4) Insufficient statistical reporting for cellular quantifications.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its application of a multi-scale approach to a chromatin protein not previously studied in the context of phase separation. The identification of DNA as a promoter of HMGA1a LLPS is a novel contribution.
+  - **Scientific importance** The findings have potential implications for understanding chromatin organization and gene regulation, but the physiological relevance is not yet fully established, limiting the current impact.
+  - **Interdisciplinary readership** The work bridges biophysics, cell biology, and computational biology, and will appeal to a broad audience interested in phase separation and nuclear organization.
+  - **Technical soundness** The methods are generally sound, but the concerns above regarding cellular relevance, quantitative rigor, and simulation validation need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written and accessible, with clear explanations of the methods and findings. The figures are informative, though some (e.g., Figure 3b) would benefit from more detailed captions.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation that HMGA1a can undergo phase separation is interesting and likely correct, but the physiological relevance and the quantitative link between simulations and experiments need to be strengthened. The authors should address the overexpression concern, provide the full phase diagram, and test the phosphorylation prediction experimentally.
+
+## Risk / unsupported claims
+- The claim that HMGA1a phase separation is physiologically relevant is not supported by the current evidence, as it relies on overexpression experiments.
+- The prediction that phosphorylation promotes phase separation is not experimentally validated and should be presented as a hypothesis rather than a finding.
+- The statement that "HMGA1a proteins can act as a glue, bridging DNA within HMGA1a liquid condensates" is speculative and not directly supported by the data.
+- The claim that the observed foci in cells are "liquid-like" is based on FRAP and morphology, but the authors do not rule out other interpretations (e.g., gel-like or solid aggregates).

@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "40601256",
+    "doi": "10.1007/978-1-0716-4623-6_9",
+    "title": "Advances in Language-Model-Informed Protein-Nucleic Acid Binding Site Prediction."
+  },
+  "content": {
+    "abstract": "Interactions between proteins and nucleic acids are essential for understanding a wide range of cellular and evolutionary processes. Recent advancements in protein language models (pLMs), trained on vast protein sequence data, have revolutionized various predictive modeling tasks, offering unprecedented scalability and generalizability. Consequently, a number of computational methods have been developed in the recent past for protein-nucleic acid binding site prediction powered by pLMs. To this end, we recently developed the EquiPNAS method that integrates pLM embeddings with E(3) equivariant deep graph neural networks for enhancing accuracy and robustness in predicting protein-DNA and protein-RNA binding sites, thereby reducing the dependency on evolutionary information. Here we present an overview of the recent protein-nucleic acid binding site prediction methods, emphasizing the recent advances in harnessing the potential of pLMs, and provide a detailed description of the EquiPNAS methodology as well as the necessary materials and procedures for the computational prediction of protein-DNA and protein-RNA binding sites.",
+    "keywords": [
+      "Graph neural networks",
+      "Language models",
+      "Protein-DNA binding site prediction",
+      "Protein-RNA binding site prediction"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Computational Biology/methods",
+      "*DNA/metabolism/chemistry",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "Neural Networks, Computer",
+      "Protein Binding",
+      "*Proteins/metabolism/chemistry",
+      "*RNA/metabolism/chemistry",
+      "*RNA-Binding Proteins/metabolism/chemistry",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tarafder, Sumit",
+        "Wang, Xinyu",
+        "Roche, Rahmatullah",
+        "Bhattacharya, Debswapna"
+      ],
+      "short_names": [
+        "Tarafder S",
+        "Wang X",
+        "Roche R",
+        "Bhattacharya D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA.",
+        "TSYS School of Computer Science, Columbus State University, Columbus, GA, USA.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA. dbhattacharya@vt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tarafder, Sumit",
+        "short_name": "Tarafder S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Roche, Rahmatullah",
+        "short_name": "Roche R",
+        "identifiers": [],
+        "affiliations": [
+          "TSYS School of Computer Science, Columbus State University, Columbus, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Bhattacharya, Debswapna",
+        "short_name": "Bhattacharya D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA. dbhattacharya@vt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 12:29",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42083872"
+    ],
+    "refs": [
+      "39202449",
+      "38975896",
+      "38718835",
+      "38349057",
+      "38281252",
+      "38171929",
+      "37996753",
+      "37941140",
+      "37824738",
+      "37672551",
+      "37651442",
+      "37523536",
+      "37438534",
+      "36927031",
+      "36192636",
+      "35896542",
+      "35637307",
+      "35039821",
+      "35020807",
+      "34903827",
+      "34791371",
+      "34581805",
+      "34415020",
+      "34301293",
+      "34265844",
+      "34232869",
+      "33953393",
+      "33876751",
+      "33577689",
+      "33538820",
+      "33454744",
+      "33420381",
+      "32424211",
+      "31666519",
+      "31510679",
+      "30943723",
+      "30169574",
+      "29846643",
+      "29035372",
+      "28763006",
+      "27740495",
+      "27282833",
+      "27048167",
+      "25756377",
+      "25063293",
+      "24846307",
+      "24334392",
+      "23737141",
+      "23087378",
+      "20053844",
+      "19015324",
+      "17646316",
+      "10592235",
+      "9254694"
+    ],
+    "similar": [
+      "40601256",
+      "38281252",
+      "37745556",
+      "39833102",
+      "41045511",
+      "40544633",
+      "34905768",
+      "41134132",
+      "40919912",
+      "39576589",
+      "42323855",
+      "40914361",
+      "40359455",
+      "38975896",
+      "19091029",
+      "40728609",
+      "37824738",
+      "39202449",
+      "42412843",
+      "32142788",
+      "39214282",
+      "25474259",
+      "32920048",
+      "29253082",
+      "40742755",
+      "25940624",
+      "39357703",
+      "40601266",
+      "40719555",
+      "42288985",
+      "33577689",
+      "22086767",
+      "25935161",
+      "40209920",
+      "42083872",
+      "39471921",
+      "41168713",
+      "38643894",
+      "39961524",
+      "38491248",
+      "31746287",
+      "20522253",
+      "38986796",
+      "39695955",
+      "26540053",
+      "19357098",
+      "40705403",
+      "41290782",
+      "34929730",
+      "39892680",
+      "16790841",
+      "38830995",
+      "40439671",
+      "19487258",
+      "30933978",
+      "33454744",
+      "28383703",
+      "21787304",
+      "25977296",
+      "40961942",
+      "42099803",
+      "35652477",
+      "34073705",
+      "40455481",
+      "25756377",
+      "28349426",
+      "15720719",
+      "39798127",
+      "41723392",
+      "41791267",
+      "40646507",
+      "39237735",
+      "26776208",
+      "26965268",
+      "41977286",
+      "38856168",
+      "40662818",
+      "7534505",
+      "19439068",
+      "31067608",
+      "32621227",
+      "29970003",
+      "42377576",
+      "40262169",
+      "27787829",
+      "39133248",
+      "40449614",
+      "28315749",
+      "33442949",
+      "41257586",
+      "21689482",
+      "42001425",
+      "39848362",
+      "39446541",
+      "39702717",
+      "15459285",
+      "41520231",
+      "28099891",
+      "39940709",
+      "8531718"
+    ],
+    "review": [
+      "40601256",
+      "39833102",
+      "40544633",
+      "40728609",
+      "39202449",
+      "29253082",
+      "40601266",
+      "25935161",
+      "40209920",
+      "38643894",
+      "31746287",
+      "26540053",
+      "35652477",
+      "25756377",
+      "7534505",
+      "31067608"
+    ],
+    "pmc": [
+      "13375200"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40601256/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-4623-6_9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "41208840",
+    "doi": "10.14740/wjon2668",
+    "title": "Analysis of the SH3-Domain Kinase Binding Protein 1 Predictive Model for Pancreatic Ductal Adenocarcinoma and CCCTC-Binding Factor Transcriptional Regulatory Study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pancreatic ductal adenocarcinoma (PDAC) is among the most aggressive malignancies with extremely poor prognosis. This study systematically evaluates the expression patterns, biological functions, and regulatory mechanisms of the SH3-domain kinase binding protein 1 (SH3KBP1) in PDAC through multi-omics integrative analysis strategies. METHODS: Key predictive genes were identified using machine learning algorithms, including support vector machine (SVM), least absolute shrinkage and selection operator (LASSO) regression, and SHapley Additive exPlanations (SHAP), based on multi-omics datasets. Validation analysis was performed using mRNA expression data from 179 PDAC tumor samples and 171 adjacent non-tumor samples (including four adjacent tissues and 167 normal controls), combined with proteomics data from 300 pairs of PDAC and non-tumor samples. Single-cell RNA sequencing and spatial transcriptomics analyzed cell-type-specific distribution and spatial localization characteristics of SH3KBP1. Clustered regularly interspaced short palindromic repeats (CRISPR) knockout experiments assessed functional dependency, and transcription factor binding site prediction explored upstream regulatory mechanisms. All analyses were performed on the R platform using specialized packages. RESULTS: Machine learning analysis successfully identified SH3KBP1 as a key predictive biomarker for pancreatic cancer. The gene was consistently selected by multiple algorithms. The constructed predictive model demonstrated excellent performance, with a maximum area under the curve (AUC) value of 0.994, and SHAP analysis further confirmed its important contribution to pancreatic cancer prediction. Validation analysis showed significant overexpression of SH3KBP1 in PDAC tumor tissues, with a diagnostic receiver operating characteristic curve AUC value reaching 0.985, demonstrating excellent diagnostic capability. Survival analysis revealed significant associations between high SH3KBP1 expression and poorer overall survival, disease-specific survival, and progress-free interval. Proteomics and immunohistochemistry analysis further confirmed significant upregulation of SH3KBP1 at the protein level. CRISPR knockout experiments revealed functional dependency of some PDAC cell lines on SH3KBP1. Single-cell RNA sequencing data showed that SH3KBP1 was mainly enriched in malignant epithelial cell populations with obvious copy number variation characteristics, and spatial transcriptomics analysis further confirmed its significant enrichment in tumor core regions. Transcriptional regulatory analysis suggested that transcription factor CCCTC-binding factor (CTCF) may regulate SH3KBP1 transcriptional activity by binding to its promoter region, with both showing significant positive correlations in expression levels. CONCLUSIONS: Via multi-omics integrative analysis, this study systematically elucidated the expression characteristics, spatial distribution, biological functions, and transcriptional regulatory networks of SH3KBP1 in PDAC, confirming its excellent diagnostic/prognostic value and potential as a PDAC molecular target, particularly involving the CTCF regulatory axis. It also provides a key theoretical basis for understanding how SH3KBP1-mediated signaling pathways (regulated by CTCF) drive pancreatic cancer development and progression.",
+    "keywords": [
+      "Machine learning",
+      "Multi-omics integrative analysis",
+      "Pancreatic ductal adenocarcinoma",
+      "SH3KBP1",
+      "Single-cell RNA sequencing",
+      "Spatial transcriptomics",
+      "Transcription factor CTCF"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Rui Zhuang",
+        "Qiao, Kun Peng",
+        "Xu, Xiao Lian",
+        "Chen, Yan Hua",
+        "Meng, Jun"
+      ],
+      "short_names": [
+        "Sun RZ",
+        "Qiao KP",
+        "Xu XL",
+        "Chen YH",
+        "Meng J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Laboratory Medicine, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China.",
+        "Department of Pathology, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China.",
+        "Department of Laboratory Medicine, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China.",
+        "Department of Laboratory Medicine, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China.",
+        "Department of Laboratory Medicine, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China.",
+        "Department of Laboratory Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Rui Zhuang",
+        "short_name": "Sun RZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Kun Peng",
+        "short_name": "Qiao KP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiao Lian",
+        "short_name": "Xu XL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yan Hua",
+        "short_name": "Chen YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Jun",
+        "short_name": "Meng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Ruijin-Hainan Hospital, Shanghai Jiao Tong University School of Medicine (Hainan Boao Research Hospital), Qionghai 571437, China.",
+          "Department of Laboratory Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "World journal of oncology"
+    ],
+    "journal_abbrev": [
+      "World J Oncol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/10 06:29",
+    "fetched_at": "2026-10-01 06:03:39"
+  },
+  "links": {
+    "cites": [
+      "42185705",
+      "41718327"
+    ],
+    "refs": [
+      "40627113",
+      "40616087",
+      "40596738",
+      "40548301",
+      "40542713",
+      "40508207",
+      "40497496",
+      "40493747",
+      "40468839",
+      "40445717",
+      "40354992",
+      "40334998",
+      "40318605",
+      "40315919",
+      "40200635",
+      "40156071",
+      "40120868",
+      "40065183",
+      "39976545",
+      "39955954",
+      "39661665",
+      "39329457",
+      "39308678",
+      "35548969",
+      "34099862",
+      "33643898",
+      "33627783",
+      "31949653",
+      "31142511",
+      "20216986"
+    ],
+    "similar": [
+      "41208840",
+      "41415264",
+      "35184402",
+      "32241274",
+      "41099090",
+      "26309360",
+      "40659704",
+      "41394830",
+      "41350704",
+      "40965345",
+      "40443651",
+      "41388523",
+      "39018587",
+      "40303346",
+      "31391552",
+      "33194391",
+      "41220724",
+      "31483163",
+      "41008826",
+      "41342434",
+      "40530146",
+      "40711603",
+      "41388436",
+      "40916281",
+      "39640482",
+      "41500779",
+      "39528880",
+      "38761784",
+      "40830558",
+      "37697370",
+      "36878969",
+      "41121153",
+      "40172749",
+      "41322408",
+      "38902676",
+      "31595147",
+      "41132344",
+      "35694712",
+      "40582491",
+      "31088413",
+      "40552285",
+      "35061935",
+      "36434634",
+      "41417942",
+      "35195559",
+      "38107664",
+      "40065365",
+      "37263303",
+      "37923686",
+      "41234880",
+      "38914714",
+      "34530774",
+      "39430819",
+      "29115420",
+      "39637922",
+      "39586719",
+      "40977674",
+      "41212589",
+      "39966859",
+      "39703515",
+      "39955954",
+      "41504052",
+      "27959420",
+      "41132349",
+      "36727081",
+      "32706768",
+      "38268915",
+      "40540648",
+      "41188996",
+      "39358545",
+      "39095628",
+      "41169155",
+      "27520560",
+      "34956238",
+      "27137215",
+      "41423668",
+      "41200172",
+      "34249078",
+      "33819739",
+      "41500778",
+      "32024063",
+      "38071887",
+      "32361251",
+      "25445504",
+      "37165046",
+      "41403347",
+      "38817665",
+      "41074447",
+      "39740539",
+      "34222137",
+      "25889214",
+      "41482350",
+      "37371833",
+      "40520021",
+      "41006377",
+      "41488283",
+      "37196196",
+      "33750389",
+      "31257501",
+      "41331889"
+    ],
+    "review": [
+      "41208840",
+      "37263303"
+    ],
+    "pmc": [
+      "12591232"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41208840/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

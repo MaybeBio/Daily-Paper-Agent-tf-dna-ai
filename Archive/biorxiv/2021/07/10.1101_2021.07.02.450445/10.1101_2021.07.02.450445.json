@@ -1,0 +1,217 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.02.450445",
+  "title": "Network diffusion model predicts neurodegeneration in limb-onset amyotrophic lateral sclerosis",
+  "doi": "10.1101/2021.07.02.450445",
+  "abstract": "The trans-neural propagation of phosphorylated 43-kDa transactive response DNA-binding protein (pTDP-43) contributes to neurodegeneration in Amyotrophic Lateral Sclerosis (ALS). We investigated whether Network Diffusion Model (NDM), a biophysical model of spread of pathology via the brain connectome, could capture the severity and progression of neurodegeneration (atrophy) in ALS. We measured degeneration in limb-onset ALS patients (n=14 at baseline, 12 at 6-months, and 9 at 12 months) and controls (n=12 at baseline) using FreeSurfer analysis on the structural T1-weighted Magnetic Resonance Imaging (MRI) data. The NDM was simulated on the canonical structural connectome from the IIT Human Brain Atlas. To determine whether NDM could predict the atrophy pattern in ALS, the accumulation of pathology modelled by NDM was correlated against atrophy measured using MRI. The cross-sectional analyses revealed that the network diffusion seeded from the inferior frontal gyrus (pars triangularis and pars orbitalis) significantly predicts the atrophy pattern in ALS compared to controls. Whereas, atrophy over time with-in the ALS group was best predicted by seeding the network diffusion process from the inferior temporal gyrus at 6-month and caudal middle frontal gyrus at 12-month. Our findings suggest the involvement of extra-motor regions in seeding the spread of pathology in ALS. Importantly, NDM was able to recapitulate the dynamics of pathological progression in ALS. Understanding the spatial shifts in the seeds of degeneration over time can potentially inform further research in the design of disease modifying therapeutic interventions in ALS.",
+  "authors": [
+    "Bhattarai A",
+    "Chen Z",
+    "Chua P",
+    "Talman P",
+    "Mathers S",
+    "Chapman C",
+    "Howe J",
+    "Lee CS",
+    "Lie Y",
+    "Poudel GR",
+    "Egan GF"
+  ],
+  "published_date": "2021-07-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.02.450445",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.02.450445.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR364941",
+    "raw_record": {
+      "id": "PPR364941",
+      "source": "PPR",
+      "doi": "10.1101/2021.07.02.450445",
+      "title": "Network diffusion model predicts neurodegeneration in limb-onset amyotrophic lateral sclerosis",
+      "authorString": "Bhattarai A, Chen Z, Chua P, Talman P, Mathers S, Chapman C, Howe J, Lee CS, Lie Y, Poudel GR, Egan GF.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bhattarai A",
+            "lastName": "Bhattarai",
+            "firstName": "Anjan",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9178-6509"
+            }
+          },
+          {
+            "fullName": "Chen Z",
+            "lastName": "Chen",
+            "firstName": "Zhaolin",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0173-6090"
+            }
+          },
+          {
+            "fullName": "Chua P",
+            "lastName": "Chua",
+            "firstName": "Phyllis",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6503-6678"
+            }
+          },
+          {
+            "fullName": "Talman P",
+            "lastName": "Talman",
+            "firstName": "Paul",
+            "initials": "P"
+          },
+          {
+            "fullName": "Mathers S",
+            "lastName": "Mathers",
+            "firstName": "Susan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Chapman C",
+            "lastName": "Chapman",
+            "firstName": "Caron",
+            "initials": "C"
+          },
+          {
+            "fullName": "Howe J",
+            "lastName": "Howe",
+            "firstName": "James",
+            "initials": "J"
+          },
+          {
+            "fullName": "Lee CS",
+            "lastName": "Lee",
+            "firstName": "CM Sarah",
+            "initials": "CS"
+          },
+          {
+            "fullName": "Lie Y",
+            "lastName": "Lie",
+            "firstName": "Yenni",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6758-6435"
+            }
+          },
+          {
+            "fullName": "Poudel GR",
+            "lastName": "Poudel",
+            "firstName": "Govinda",
+            "initials": "GR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0043-7531"
+            }
+          },
+          {
+            "fullName": "Egan GF",
+            "lastName": "Egan",
+            "firstName": "Gary",
+            "initials": "GF"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6503-6678"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0043-7531"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0173-6090"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6758-6435"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9178-6509"
+          }
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The trans-neural propagation of phosphorylated 43-kDa transactive response DNA-binding protein (pTDP-43) contributes to neurodegeneration in Amyotrophic Lateral Sclerosis (ALS). We investigated whether Network Diffusion Model (NDM), a biophysical model of spread of pathology via the brain connectome, could capture the severity and progression of neurodegeneration (atrophy) in ALS. We measured degeneration in limb-onset ALS patients (n=14 at baseline, 12 at 6-months, and 9 at 12 months) and controls (n=12 at baseline) using FreeSurfer analysis on the structural T1-weighted Magnetic Resonance Imaging (MRI) data. The NDM was simulated on the canonical structural connectome from the IIT Human Brain Atlas. To determine whether NDM could predict the atrophy pattern in ALS, the accumulation of pathology modelled by NDM was correlated against atrophy measured using MRI. The cross-sectional analyses revealed that the network diffusion seeded from the inferior frontal gyrus (pars triangularis and pars orbitalis) significantly predicts the atrophy pattern in ALS compared to controls. Whereas, atrophy over time with-in the ALS group was best predicted by seeding the network diffusion process from the inferior temporal gyrus at 6-month and caudal middle frontal gyrus at 12-month. Our findings suggest the involvement of extra-motor regions in seeding the spread of pathology in ALS. Importantly, NDM was able to recapitulate the dynamics of pathological progression in ALS. Understanding the spatial shifts in the seeds of degeneration over time can potentially inform further research in the design of disease modifying therapeutic interventions in ALS.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/07/02/2021.07.02.450445.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.07.02.450445"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35951510",
+            "reference": "PloS one. 2022 ;17(8):e0272736",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-07-04",
+      "firstPublicationDate": "2021-07-02",
+      "firstIndexDate": "2021-07-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

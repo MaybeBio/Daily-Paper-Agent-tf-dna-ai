@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42379339",
+  "title": "Partial-label metric ceilings for evaluating gene regulatory networks inferred from single-cell foundation models.",
+  "authors": "Kendiukhov, Ihor",
+  "journal": "Bio Systems",
+  "published_date": "2026-07-01",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文评估单细胞基础模型推断基因调控网络（含TF-DNA边）的性能上限，聚焦标签缺失偏差而非结合机制建模，方法上涉及AI模型但无三维互作建模，对TF-DNA预测评估有方法学参考价值。",
+  "abstract": "Gene regulatory network (GRN) benchmarks are typically interpreted as if curated references were complete, yet they are not. We formalize observed-metric ceilings under partial positive labels and reanalyze existing benchmark outputs across 15 methods and 5 references. The methods include six edge sets derived from a single-cell foundation model (scGPT) via attention and gradient attribution probes, evaluated alongside classical statistical and tree-based inferers and a random control. Under a missing-at-random (MAR) label model, we derive explicit ceilings for observed F1 and AUPR, propagate coverage uncertainty via Beta posteriors, and stress-test assumption violations. Crucially, because real curated references concentrate on extensively studied regulators, we replace stylized non-MAR tests with study-biased missingness grounded in two annotation databases: transcription factors assayed by ChIP-seq (CistromeDB/ChIP-Atlas) and genes carrying Reactome pathway annotations. Across 39 AUPR-evaluable rows, the best normalized F1 and AUPR ratios are 0.137 and 0.014, median normalized AUPR is 5.56x10(-5), and only 3 of 39 rows exceed the observed random baseline; the foundation-model probes occupy the top of the ranking but still operate far below the observable ceiling. Restricting ground-truth edges to pathway-annotated genes leaves only  approximately  60% of edges observable and, at the empirically measured coupling between model scores and studied status, inflates observed AUPR by +0.040 above the MAR ceiling-intermediate between MAR ( approximately  0) and the stylized worst case (+0.151). Missing labels therefore explain only part of the performance gap; substantial model-to-biology mismatch persists after ceiling correction, and evaluation claims should be narrowed accordingly.",
+  "abstract_zh": "基因调控网络（GRN）基准测试通常被解读为，仿佛精选的参考数据集是完整的，但实际上并非如此。我们在部分正标签条件下形式化了观测指标上限，并重新分析了15种方法和5个参考数据集上的现有基准测试输出。这些方法包括通过注意力和梯度归因探针从单细胞基础模型（scGPT）导出的六组边集，并与经典统计方法、基于树的方法以及随机对照进行了评估。在缺失随机（MAR）标签模型下，我们推导了观测F1和AUPR的显式上限，通过Beta后验传播覆盖率不确定性，并对假设违背进行了压力测试。关键的是，由于真实的精选参考数据集集中于研究充分的调控因子，我们以基于两个注释数据库的研究偏倚缺失机制替代了风格化的非MAR测试：通过ChIP-seq测定的转录因子（CistromeDB/ChIP-Atlas）和携带Reactome通路注释的基因。在39个可评估AUPR的行中，最佳归一化F1和AUPR比率分别为0.137和0.014，中位归一化AUPR为5.56x10(-5)，且39行中仅有3行超过观测随机基线；基础模型探针占据排名前列，但仍远低于可观测上限。将真实边限制在通路注释基因上，仅留下约60%的边可观测，并且在模型得分与研究状态之间经验测量的耦合下，观测AUPR比MAR上限高出+0.040——介于MAR（约0）和风格化最坏情况（+0.151）之间。因此，缺失标签仅解释了性能差距的一部分；在修正上限后，模型与生物学之间的显著不匹配仍然存在，评估声明应相应缩小范围。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42379339/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42379339/",
+  "paper_page_path": "papers/pubmed/42379339/index.html"
+}

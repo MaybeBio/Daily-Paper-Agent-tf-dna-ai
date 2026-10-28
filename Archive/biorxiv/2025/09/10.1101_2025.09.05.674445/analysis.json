@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.05.674445",
+  "title": "DLRNA-BERTa: A transformer approach for RNA-drug binding affinity prediction",
+  "authors": "Pasquale Lobascio; Khalid Saeed; Asifullah Khan; Ziaurrehman Tanoli",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-06",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用RoBERTa模型预测RNA-药物结合亲和力，对象为RNA-小分子而非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法上可部分借鉴，与本课题关联度低。",
+  "abstract": "RNA-based therapies are a rapidly expanding field, offering treatments for a wide range of diseases, including many rare conditions. To date, 24 RNA therapeutics have received FDA approval, with 131 more in clinical trials, underscoring RNA’s growing role in modern medicine. In this context, Bidirectional Encoder Representations from Transformers (BERT) models provide a cost-effective and accurate virtual screening strategy for accelerating RNA-targeted drug discovery. These models take RNA FASTA sequences and compound SMILES strings as inputs and generate predicted binding affinities in nanomolar units. In this study, we introduce DLRNA-BERTa, a RoBERTa-based framework combining RNA-BERTa, pretrained on 9.76 million RNA sequences, with ChemBERTa-v2 for predicting small molecule–RNA interactions. The framework includes six class-specific models, aptamers, repeats, ribosomal RNAs, riboswitches, microRNAs (miRNAs), and viral RNAs, plus a general model for cases where the RNA class is unknown. Proposed DLRNA-BERTa consistently outperforms existing RNA–drug interaction prediction methods. Pearson correlation coefficients achieved are: 0.94 (aptamers), 0.95 (repeats), 0.93 (ribosomal RNAs), 0.94 (riboswitches), 0.95 (viral RNAs), 0.98 (miRNAs), and 0.92 (general model), demonstrating robust performance across RNA classes. Benchmarking against four independent datasets from the ROBIN repository further confirms generalizability. Application of DLRNA-BERTa to 3,492 approved drugs from the ChEMBL database identified 2,859 compounds with predicted affinities (pKd ≥ 6) across 294 RNA targets. As proof of concept, bleomycin is highlighted, supported by literature evidence of RNA-binding activity. A publicly accessible web application is available at https://huggingface.co/spaces/IlPakoZ/DLRNA-BERTa , in alignment with FAIR principles.",
+  "abstract_zh": "基于RNA的疗法是一个快速发展的领域，为多种疾病（包括许多罕见病）提供治疗方案。迄今为止，已有24种RNA治疗药物获得FDA批准，另有131种处于临床试验阶段，凸显了RNA在现代医学中日益增长的作用。在此背景下，双向编码器表示变换器（BERT）模型为加速RNA靶向药物发现提供了一种成本效益高且准确的虚拟筛选策略。这些模型以RNA FASTA序列和化合物SMILES字符串为输入，生成以纳摩尔为单位的预测结合亲和力。在本研究中，我们介绍了DLRNA-BERTa，一种基于RoBERTa的框架，结合了在976万条RNA序列上预训练的RNA-BERTa与ChemBERTa-v2，用于预测小分子与RNA的相互作用。该框架包括六个类别特异性模型，即适体、重复序列、核糖体RNA、核糖开关、微小RNA（miRNA）和病毒RNA，以及一个适用于RNA类别未知情况的通用模型。所提出的DLRNA-BERTa在现有RNA-药物相互作用预测方法中持续表现优异。获得的皮尔逊相关系数为：0.94（适体）、0.95（重复序列）、0.93（核糖体RNA）、0.94（核糖开关）、0.95（病毒RNA）、0.98（miRNA）和0.92（通用模型），展示了跨RNA类别的稳健性能。对来自ROBIN库的四个独立数据集进行基准测试进一步证实了其泛化能力。将DLRNA-BERTa应用于ChEMBL数据库中3,492种已批准药物，识别出2,859种化合物，其预测亲和力（pKd ≥ 6）覆盖294个RNA靶点。作为概念验证，博来霉素被突出展示，并有文献证据支持其RNA结合活性。一个公开可访问的Web应用程序可在https://huggingface.co/spaces/IlPakoZ/DLRNA-BERTa 获取，符合FAIR原则。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.05.674445",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.05.674445",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.05.674445/index.html"
+}

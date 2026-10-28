@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.22.572853",
+  "title": "ANTIPASTI: interpretable prediction of antibody binding affinity exploiting Normal Modes and Deep Learning",
+  "authors": "Kevin Michalewicz; Mauricio Barahona; Barbara Bravi",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-23",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN结合弹性网络模型的正则模式预测抗体-抗原结合亲和力，虽非TF-DNA体系，但蛋白-蛋白互作建模与可迁移的AI方法对TF-DNA界面研究有借鉴意义。",
+  "abstract": "The high binding affinity of antibodies towards their cognate targets is key to eliciting effective immune responses, as well as to the use of antibodies as research and therapeutic tools. Here, we propose ANTIPASTI, a Convolutional Neural Network model that achieves state-of-the-art performance in the prediction of antibody binding affinity using as input a representation of antibody-antigen structures in terms of Normal Mode correlation maps derived from Elastic Network Models. This representation captures not only structural features but energetic patterns of local and global residue fluctuations. The learnt representations are interpretable: they reveal similarities of binding patterns among antibodies targeting the same antigen type, and can be used to quantify the importance of antibody regions contributing to binding affinity. Our results show the importance of the antigen imprint in the Normal Mode landscape, and the dominance of cooperative effects and long-range correlations between antibody regions to determine binding affinity.",
+  "abstract_zh": "抗体对其同源靶标的高结合亲和力是引发有效免疫反应以及将抗体用作研究和治疗工具的关键。在此，我们提出ANTIPASTI，一种卷积神经网络模型，在预测抗体结合亲和力方面达到最先进性能，其输入为基于弹性网络模型导出的正则模式相关图所表示的抗体-抗原结构。该表示不仅捕获结构特征，还捕获局部和全局残基波动的能量模式。学习到的表示是可解释的：它们揭示了针对同一抗原类型的抗体之间结合模式的相似性，并可用于量化对抗体结合亲和力有贡献的抗体区域的重要性。我们的结果显示了抗原印记在正则模式景观中的重要性，以及抗体区域之间的协同效应和长程相关性在决定结合亲和力中的主导作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.22.572853",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.572853",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.22.572853/index.html"
+}

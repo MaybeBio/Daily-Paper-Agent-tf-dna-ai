@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36325528",
+  "title": "Screening of potential biomarkers in peripheral blood of patients with depression based on weighted gene co-expression network analysis and machine learning algorithms.",
+  "authors": "Wang, Zhe; Meng, Zhe; Chen, Che",
+  "journal": "Frontiers in psychiatry",
+  "published_date": "2022-11-04",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该文基于WGCNA和机器学习筛选抑郁症外周血生物标志物，虽含转录因子分析但仅为调控预测，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: The prevalence of depression has been increasing worldwide in recent years, posing a heavy burden on patients and society. However, the diagnostic and therapeutic tools available for this disease are inadequate. Therefore, this research focused on the identification of potential biomarkers in the peripheral blood of patients with depression. METHODS: The expression dataset GSE98793 of depression was provided by the Gene Expression Omnibus (GEO) (https://www.ncbi.nlm.nih.gov/gds). Initially, differentially expressed genes (DEGs) were detected in GSE98793. Subsequently, the most relevant modules for depression were screened according to weighted gene co-expression network analysis (WGCNA). Finally, the identified DEGs were mapped to the WGCNA module genes to obtain the intersection genes. In addition, Gene Ontology (GO), Disease Ontology (DO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) functional enrichment analyses were conducted on these genes. Moreover, biomarker screening was carried out by protein-protein interaction (PPI) network construction of intersection genes on the basis of various machine learning algorithms. Furthermore, the gene set enrichment analysis (GSEA), immune function analysis, transcription factor (TF) analysis, and the prediction of the regulatory mechanism were collectively performed on the identified biomarkers. In addition, we also estimated the clinical diagnostic ability of the obtained biomarkers, and performed Mfuzz expression pattern clustering and functional enrichment of the most potential biomarkers to explore their regulatory mechanisms. Finally, we also perform biomarker-related drug prediction. RESULTS: Differential analysis was used for obtaining a total of 550 DEGs and WGCNA for obtaining 1,194 significant genes. Intersection analysis of the two yielded 140 intersection genes. Biological functional analysis indicated that these genes had a major role in inflammation-related bacterial infection pathways and cardiovascular diseases such as atherosclerosis. Subsequently, the genes S100A12, SERPINB2, TIGIT, GRB10, and LHFPL2 in peripheral serum were identified as depression biomarkers by using machine learning algorithms. Among them, S100A12 is the most valuable biomarker for clinical diagnosis. Finally, antidepressants, including disodium selenite and eplerenone, were predicted. CONCLUSION: The genes S100A12, TIGIT, SERPINB2, GRB10, and LHFPL2 in peripheral serum are viable diagnostic biomarkers for depression. and contribute to the diagnosis and prevention of depression in clinical practice.",
+  "abstract_zh": "背景：近年来，抑郁症的患病率在全球范围内持续上升，给患者和社会带来了沉重负担。然而，目前针对该疾病的诊断和治疗工具尚显不足。因此，本研究聚焦于识别抑郁症患者外周血中的潜在生物标志物。方法：抑郁症的表达数据集GSE98793来源于基因表达综合数据库（Gene Expression Omnibus, GEO）（https://www.ncbi.nlm.nih.gov/gds）。首先，在GSE98793中检测差异表达基因（differentially expressed genes, DEGs）。随后，根据加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）筛选与抑郁症最相关的模块。最后，将识别出的DEGs映射到WGCNA模块基因上，以获得交集基因。此外，对这些基因进行了基因本体论（Gene Ontology, GO）、疾病本体论（Disease Ontology, DO）和京都基因与基因组百科全书（Kyoto Encyclopedia of Genes and Genomes, KEGG）功能富集分析。同时，基于多种机器学习算法，通过构建交集基因的蛋白质-蛋白质相互作用（protein-protein interaction, PPI）网络进行生物标志物筛选。进一步地，对识别出的生物标志物进行了基因集富集分析（gene set enrichment analysis, GSEA）、免疫功能分析、转录因子（transcription factor, TF）分析以及调控机制预测。此外，我们还评估了所得生物标志物的临床诊断能力，并对最具潜力的生物标志物进行了Mfuzz表达模式聚类和功能富集，以探索其调控机制。最后，我们还进行了与生物标志物相关的药物预测。结果：通过差异分析共获得550个DEGs，通过WGCNA获得1,194个显著基因。两者的交集分析得到140个交集基因。生物学功能分析表明，这些基因在炎症相关细菌感染途径和心血管疾病（如动脉粥样硬化）中发挥主要作用。随后，通过机器学习算法，外周血清中的基因S100A12、SERPINB2、TIGIT、GRB10和LHFPL2被识别为抑郁症的生物标志物。其中，S100A12是临床诊断中最有价值的生物标志物。最后，预测了抗抑郁药物，包括亚硒酸钠和依普利酮。结论：外周血清中的基因S100A12、TIGIT、SERPINB2、GRB10和LHFPL2是抑郁症可行的诊断生物标志物，有助于临床实践中抑郁症的诊断和预防。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36325528/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36325528/",
+  "paper_page_path": "papers/pubmed/36325528/index.html"
+}

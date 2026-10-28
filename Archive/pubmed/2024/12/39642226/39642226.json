@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "39642226",
+    "doi": "10.1126/sciadv.adn0020",
+    "title": "Transcription-coupled changes in genomic region proximities during transcriptional bursting."
+  },
+  "content": {
+    "abstract": "The orchestration of our genes heavily relies on coordinated communication between enhancers and promoters, yet the mechanisms behind this dynamic interplay during active transcription remain unclear. Here, we investigated enhancer-promoter (E-P) interactions in relation to transcriptional bursting in mouse embryonic stem cells using sequential DNA/RNA/immunofluorescence-fluorescence in situ hybridization analyses. Our data reveal that the active state of specific genes is characterized by specific proximities between different genomic regions and the accumulation of transcriptional regulatory factors. Mathematical simulations suggest that an increase in local viscosity could potentially contribute to stabilizing the duration of these E-P proximities. Our study provides insights into the association among E-P proximity, protein accumulation, and transcriptional dynamics, paving the way for a more nuanced understanding of gene-specific regulatory mechanisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Transcription, Genetic",
+      "*Enhancer Elements, Genetic",
+      "*Promoter Regions, Genetic",
+      "*Mouse Embryonic Stem Cells/metabolism/cytology",
+      "Genome",
+      "Gene Expression Regulation",
+      "In Situ Hybridization, Fluorescence",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ohishi, Hiroaki",
+        "Shinkai, Soya",
+        "Owada, Hitoshi",
+        "Fujii, Takeru",
+        "Hosoda, Kazufumi",
+        "Onami, Shuichi",
+        "Yamamoto, Takashi",
+        "Ohkawa, Yasuyuki",
+        "Ochiai, Hiroshi"
+      ],
+      "short_names": [
+        "Ohishi H",
+        "Shinkai S",
+        "Owada H",
+        "Fujii T",
+        "Hosoda K",
+        "Onami S",
+        "Yamamoto T",
+        "Ohkawa Y",
+        "Ochiai H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6672-4093",
+        "ORCID: 0000-0001-6852-2751",
+        "ORCID: 0000-0002-6783-3109",
+        "ORCID: 0000-0002-8043-0216",
+        "ORCID: 0000-0002-8255-1724",
+        "ORCID: 0000-0002-6516-2903",
+        "ORCID: 0000-0001-6440-9954",
+        "ORCID: 0000-0002-2200-1325"
+      ],
+      "affiliations": [
+        "Division of Gene Expression Dynamics, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan.",
+        "Laboratory for Developmental Dynamics, RIKEN Center for Biosystems Dynamics Research, Kobe, Japan.",
+        "Graduate School of Integrated Sciences for Life, Hiroshima University, Higashi-Hiroshima, Japan.",
+        "Division of Transcriptomics, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan.",
+        "Ansanga Lab, Suita, Japan.",
+        "Laboratory for Developmental Dynamics, RIKEN Center for Biosystems Dynamics Research, Kobe, Japan.",
+        "Graduate School of Integrated Sciences for Life, Hiroshima University, Higashi-Hiroshima, Japan.",
+        "Division of Transcriptomics, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan.",
+        "Division of Gene Expression Dynamics, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ohishi, Hiroaki",
+        "short_name": "Ohishi H",
+        "identifiers": [
+          "0000-0001-6672-4093"
+        ],
+        "affiliations": [
+          "Division of Gene Expression Dynamics, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan."
+        ]
+      },
+      {
+        "full_name": "Shinkai, Soya",
+        "short_name": "Shinkai S",
+        "identifiers": [
+          "0000-0001-6852-2751"
+        ],
+        "affiliations": [
+          "Laboratory for Developmental Dynamics, RIKEN Center for Biosystems Dynamics Research, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Owada, Hitoshi",
+        "short_name": "Owada H",
+        "identifiers": [
+          "0000-0002-6783-3109"
+        ],
+        "affiliations": [
+          "Graduate School of Integrated Sciences for Life, Hiroshima University, Higashi-Hiroshima, Japan."
+        ]
+      },
+      {
+        "full_name": "Fujii, Takeru",
+        "short_name": "Fujii T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Transcriptomics, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan."
+        ]
+      },
+      {
+        "full_name": "Hosoda, Kazufumi",
+        "short_name": "Hosoda K",
+        "identifiers": [
+          "0000-0002-8043-0216"
+        ],
+        "affiliations": [
+          "Ansanga Lab, Suita, Japan."
+        ]
+      },
+      {
+        "full_name": "Onami, Shuichi",
+        "short_name": "Onami S",
+        "identifiers": [
+          "0000-0002-8255-1724"
+        ],
+        "affiliations": [
+          "Laboratory for Developmental Dynamics, RIKEN Center for Biosystems Dynamics Research, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamamoto, Takashi",
+        "short_name": "Yamamoto T",
+        "identifiers": [
+          "0000-0002-6516-2903"
+        ],
+        "affiliations": [
+          "Graduate School of Integrated Sciences for Life, Hiroshima University, Higashi-Hiroshima, Japan."
+        ]
+      },
+      {
+        "full_name": "Ohkawa, Yasuyuki",
+        "short_name": "Ohkawa Y",
+        "identifiers": [
+          "0000-0001-6440-9954"
+        ],
+        "affiliations": [
+          "Division of Transcriptomics, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan."
+        ]
+      },
+      {
+        "full_name": "Ochiai, Hiroshi",
+        "short_name": "Ochiai H",
+        "identifiers": [
+          "0000-0002-2200-1325"
+        ],
+        "affiliations": [
+          "Division of Gene Expression Dynamics, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2024 Dec 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/06 18:24",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "42711428",
+      "42345807",
+      "42186817",
+      "41178434",
+      "41134621",
+      "40914943",
+      "40378829",
+      "40305051",
+      "39976773",
+      "39829877",
+      "38746255"
+    ],
+    "refs": [
+      "38781242",
+      "37430091",
+      "37365687",
+      "36864178",
+      "36593410",
+      "36539402",
+      "36471071",
+      "36104547",
+      "36087002",
+      "35420890",
+      "35418676",
+      "35347070",
+      "34785657",
+      "34591592",
+      "34226720",
+      "34002095",
+      "33795867",
+      "33583147",
+      "33575580",
+      "33505024",
+      "33318659",
+      "33202367",
+      "32822575",
+      "32596448",
+      "32208766",
+      "31722211",
+      "31494034",
+      "31427819",
+      "31285341",
+      "31155237",
+      "31124784",
+      "30886393",
+      "30824489",
+      "30799036",
+      "30413482",
+      "30361340",
+      "30218370",
+      "30038397",
+      "29930094",
+      "29930091",
+      "29887381",
+      "29514091",
+      "29463736",
+      "29053968",
+      "28978433",
+      "27681417",
+      "27467250",
+      "26599498",
+      "26431182",
+      "26092696",
+      "26045719",
+      "25410303",
+      "24630727",
+      "23883933",
+      "12324428",
+      "8744570"
+    ],
+    "similar": [
+      "39642226",
+      "41359380",
+      "24213634",
+      "39500079",
+      "38922969",
+      "40114377",
+      "29514091",
+      "39626660",
+      "32197056",
+      "30602787",
+      "22537144",
+      "39476844",
+      "38869221",
+      "39626663",
+      "34414474",
+      "32596448",
+      "34060610",
+      "32958948",
+      "39651963",
+      "27895109",
+      "39508790",
+      "27816209",
+      "33398174",
+      "27582178",
+      "33376128",
+      "26317464",
+      "28985501",
+      "31128943",
+      "30763343",
+      "29442330",
+      "28977693",
+      "29670286",
+      "40534037",
+      "28273065",
+      "27681438",
+      "31189106",
+      "31777916",
+      "30699347",
+      "38513661",
+      "31398323",
+      "39819837",
+      "39466837",
+      "39849901",
+      "38490199",
+      "40450687",
+      "27293191",
+      "38839954",
+      "21855411",
+      "39119657",
+      "38101409",
+      "31494034",
+      "24679523",
+      "33482114",
+      "38194964",
+      "25450156",
+      "26948815",
+      "40490791",
+      "41134621",
+      "31422875",
+      "34723340",
+      "8455611",
+      "27662872",
+      "38781242",
+      "40456606",
+      "30285846",
+      "39513866",
+      "32994224",
+      "35418676",
+      "41389208",
+      "39362902",
+      "33334884",
+      "40217119",
+      "30389936",
+      "35168174",
+      "40378829",
+      "34099014",
+      "23124110",
+      "38355349",
+      "8223475",
+      "9414299",
+      "27763805",
+      "25517091",
+      "28811569",
+      "22868264",
+      "36656865",
+      "8458327",
+      "29033324",
+      "25978676",
+      "24637397",
+      "37430091",
+      "31791217",
+      "27078492",
+      "32690000",
+      "29378788",
+      "18441229",
+      "16280085",
+      "33385708",
+      "27783602",
+      "34969825",
+      "15798207"
+    ],
+    "review": [
+      "39642226",
+      "39500079",
+      "38922969",
+      "32197056",
+      "38869221",
+      "34414474",
+      "34060610",
+      "27816209",
+      "26317464",
+      "29442330",
+      "28977693",
+      "21855411",
+      "39119657",
+      "24679523",
+      "25450156",
+      "26948815",
+      "40456606",
+      "40217119",
+      "35168174",
+      "40378829",
+      "23124110",
+      "38355349",
+      "27763805",
+      "22868264",
+      "24637397",
+      "33385708"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adn0020?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/39642226.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39642226/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=39642226",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      }
+    ],
+    "text_mined": []
+  }
+}

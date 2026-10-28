@@ -1,0 +1,279 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-dh114",
+  "title": "Accurate prediction of ligand binding for a flexible protein using P-score ranking.",
+  "doi": "10.26434/chemrxiv-2023-dh114",
+  "abstract": "Protein ligand binding prediction typically relies on docking methodologies and associated scoring functions to propose the binding mode of a ligand in a biological target. Significant challenges are associated with this approach, including the flexibility of the protein-ligand system, solvent-mediated interactions and associated entropy changes. In addition, scoring functions are only weakly accurate due to the short time required for calculating enthalpic and entropic binding interactions. The workflow described here attempts to address these limitations by combining Supervised Molecular Dynamics (SuMD) with Dynamical Averaging Quantum Mechanics Fragment Molecular Orbital (DA-QM-FMO). This is illustrated using a set of five ligands targeting the SARS-CoV-2 Papain-like protease protein. This combination significantly increased the ability to predict the experimental binding structure of protein-ligand complexes independent from the starting position of the ligands or the binding site conformation. We found that the predictive power could be enhanced by combining the residence time (SuMD) and interaction energies (DA-QM-FMO) as descriptors in a novel scoring function named the P-score.",
+  "authors": [
+    "Peter E. G. F. Ibrahim",
+    "Fabio Zuccotto",
+    "Ulrich Zachariae",
+    "Ian Gilbert",
+    "Mike Bodkin"
+  ],
+  "published_date": "2023-10-20",
+  "updated_date": "2023-10-20T07:23:31Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-dh114",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-dh114",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:16:50Z",
+        "timestamp": 1785417410543,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                20
+              ]
+            ],
+            "date-time": "2023-10-20T00:00:00Z",
+            "timestamp": 1697760000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Protein ligand binding prediction typically relies on docking methodologies and associated scoring functions to propose the binding mode of a ligand in a biological target. Significant challenges are associated with this approach, including the flexibility of the protein-ligand system, solvent-mediated interactions and associated entropy changes. In addition, scoring functions are only weakly accurate due to the short time required for calculating enthalpic and entropic binding interactions. The workflow described here attempts to address these limitations by combining Supervised Molecular Dynamics (SuMD) with Dynamical Averaging Quantum Mechanics Fragment Molecular Orbital (DA-QM-FMO). This is illustrated using a set of five ligands targeting the SARS-CoV-2 Papain-like protease protein. This combination significantly increased the ability to predict the experimental binding structure of protein-ligand complexes independent from the starting position of the ligands or the binding site conformation. We found that the predictive power could be enhanced by combining the residence time (SuMD) and interaction energies (DA-QM-FMO) as descriptors in a novel scoring function named the P-score.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-dh114",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ],
+        "date-time": "2023-10-20T07:23:31Z",
+        "timestamp": 1697786611000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Accurate prediction of ligand binding for a flexible protein using P-score ranking."
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-8774-1068",
+          "authenticated-orcid": false,
+          "given": "Peter",
+          "family": "E. G. F. Ibrahim",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03h2bxq36",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Dundee",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fabio",
+          "family": "Zuccotto",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03h2bxq36",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Dundee",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ulrich",
+          "family": "Zachariae",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03h2bxq36",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Dundee",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ian",
+          "family": "Gilbert",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03h2bxq36",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Dundee",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mike",
+          "family": "Bodkin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03h2bxq36",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Dundee",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-dh114",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:29:27Z",
+        "timestamp": 1778750967000
+      },
+      "score": 91.51773,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-dh114"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-dh114",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

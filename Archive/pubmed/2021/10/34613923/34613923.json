@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "34613923",
+    "doi": "10.1109/JBHI.2021.3117616",
+    "title": "FCNGRU: Locating Transcription Factor Binding Sites by Combing Fully Convolutional Neural Network With Gated Recurrent Unit."
+  },
+  "content": {
+    "abstract": "Deciphering the relationship between transcription factors (TFs) and DNA sequences is very helpful for computational inference of gene regulation and a comprehensive understanding of gene regulation mechanisms. Transcription factor binding sites (TFBSs) are specific DNA short sequences that play a pivotal role in controlling gene expression through interaction with TF proteins. Although recently many computational and deep learning methods have been proposed to predict TFBSs aiming to predict sequence specificity of TF-DNA binding, there is still a lack of effective methods to directly locate TFBSs. In order to address this problem, we propose FCNGRU combing a fully convolutional neural network (FCN) with the gated recurrent unit (GRU) to directly locate TFBSs in this paper. Furthermore, we present a two-task framework (FCNGRU-double): one is a classification task at nucleotide level which predicts the probability of each nucleotide and locates TFBSs, and the other is a regression task at sequence level which predicts the intensity of each sequence. A series of experiments are conducted on 45 in-vitro datasets collected from the UniPROBE database derived from universal protein binding microarrays (uPBMs). Compared with competing methods, FCNGRU-double achieves much better results on these datasets. Moreover, FCNGRU-double has an advantage over a single-task framework, FCNGRU-single, which only contains the branch of locating TFBSs. In addition, we combine with in vivo datasets to make a further analysis and discussion.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Computational Biology/methods",
+      "DNA/chemistry",
+      "Humans",
+      "*Neural Networks, Computer",
+      "Nucleotides/metabolism",
+      "Protein Binding",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Siguo",
+        "He, Ying",
+        "Chen, Zhanheng",
+        "Zhang, Qinhu"
+      ],
+      "short_names": [
+        "Wang S",
+        "He Y",
+        "Chen Z",
+        "Zhang Q"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "He, Ying",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Zhanheng",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of biomedical and health informatics"
+    ],
+    "journal_abbrev": [
+      "IEEE J Biomed Health Inform"
+    ],
+    "pub_date": "2022 Apr",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/07 06:00",
+    "fetched_at": "2026-09-28 00:35:07"
+  },
+  "links": {
+    "cites": [
+      "38517697",
+      "37867600",
+      "36360189",
+      "36206320"
+    ],
+    "refs": [],
+    "similar": [
+      "34613923",
+      "31634140",
+      "33498086",
+      "39076052",
+      "34929739",
+      "38701417",
+      "30835229",
+      "37328639",
+      "36155619",
+      "27567672",
+      "33767912",
+      "30323198",
+      "31336830",
+      "34272562",
+      "36057196",
+      "29993783",
+      "38049725",
+      "34752400",
+      "34073774",
+      "22504445",
+      "36374878",
+      "35263332",
+      "36748992",
+      "34882561",
+      "38733561",
+      "32770026",
+      "26285121",
+      "39107889",
+      "28485207",
+      "27503086",
+      "27871221",
+      "30106688",
+      "24386279",
+      "38798191",
+      "39350338",
+      "30281475",
+      "30990191",
+      "34534646",
+      "21059262",
+      "27117388",
+      "21193520",
+      "34669947",
+      "33372147",
+      "30447332",
+      "16595861",
+      "35713985",
+      "29617928",
+      "31754708",
+      "35652477",
+      "33571101",
+      "32960766",
+      "22784574",
+      "23527292",
+      "28623591",
+      "34962264",
+      "20363979",
+      "31665425",
+      "22492513",
+      "17914226",
+      "25775564",
+      "24942981",
+      "30922998",
+      "37919990",
+      "23822978",
+      "20172488",
+      "20943488",
+      "31323206",
+      "25708259",
+      "20158869",
+      "25722376",
+      "31372637",
+      "24214955",
+      "37803120",
+      "31186519",
+      "24927817",
+      "29617378",
+      "21124986",
+      "38732207",
+      "15266008",
+      "33535061",
+      "26678747",
+      "19615102",
+      "15837806",
+      "27209209",
+      "20529874",
+      "22369687",
+      "22185505",
+      "35410161",
+      "16817975",
+      "15799782",
+      "28849563",
+      "37140548",
+      "28363453",
+      "22672438",
+      "19586888",
+      "33522898",
+      "27896980",
+      "28700586",
+      "31406384",
+      "28623590",
+      "22888987",
+      "19956545",
+      "21963994",
+      "27052996",
+      "17537814",
+      "24042128",
+      "38644393",
+      "33264415",
+      "38149460",
+      "38236675",
+      "35462009",
+      "38291225",
+      "34664074",
+      "35719916",
+      "17504544",
+      "36413575",
+      "29081688",
+      "37867600",
+      "32551184"
+    ],
+    "review": [
+      "34613923",
+      "36057196",
+      "30447332",
+      "35652477",
+      "20943488",
+      "19586888"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/JBHI.2021.3117616",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34613923",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

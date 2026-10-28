@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "34073705",
+    "doi": "10.3390/ijms22115510",
+    "title": "DeepDISE: DNA Binding Site Prediction Using a Deep Learning Method."
+  },
+  "content": {
+    "abstract": "It is essential for future research to develop a new, reliable prediction method of DNA binding sites because DNA binding sites on DNA-binding proteins provide critical clues about protein function and drug discovery. However, the current prediction methods of DNA binding sites have relatively poor accuracy. Using 3D coordinates and the atom-type of surface protein atom as the input, we trained and tested a deep learning model to predict how likely a voxel on the protein surface is to be a DNA-binding site. Based on three different evaluation datasets, the results show that our model not only outperforms several previous methods on two commonly used datasets, but also demonstrates its robust performance to be consistent among the three datasets. The visualized prediction outcomes show that the binding sites are also mostly located in correct regions. We successfully built a deep learning model to predict the DNA binding sites on target proteins. It demonstrates that 3D protein structures plus atom-type information on protein surfaces can be used to predict the potential binding sites on a protein. This approach should be further extended to develop the binding sites of other important biological molecules.",
+    "keywords": [
+      "binding site prediction",
+      "convolutional neural network",
+      "deep learning",
+      "drug design",
+      "protein-DNA interaction",
+      "proteome",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Binding Sites",
+      "Computational Biology/*methods",
+      "DNA/*metabolism",
+      "DNA-Binding Proteins/*metabolism",
+      "*Deep Learning",
+      "Humans",
+      "Protein Conformation",
+      "Proteome",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hendrix, Samuel Godfrey",
+        "Chang, Kuan Y",
+        "Ryu, Zeezoo",
+        "Xie, Zhong-Ru"
+      ],
+      "short_names": [
+        "Hendrix SG",
+        "Chang KY",
+        "Ryu Z",
+        "Xie ZR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4940-5899",
+        "ORCID: 0000-0002-2262-5218",
+        "ORCID: 0000-0002-1539-5100"
+      ],
+      "affiliations": [
+        "Computational Drug Discovery Laboratory, School of Electrical and Computer Engineering, College of Engineering, University of Georgia, Athens, GA 30602, USA.",
+        "Department of Computer Science and Engineering, National Taiwan Ocean University, Keelung 202, Taiwan.",
+        "Computational Drug Discovery Laboratory, School of Electrical and Computer Engineering, College of Engineering, University of Georgia, Athens, GA 30602, USA.",
+        "Department of Computer Science, Franklin College of Arts and Sciences, University of Georgia, Athens, GA 30602, USA.",
+        "Computational Drug Discovery Laboratory, School of Electrical and Computer Engineering, College of Engineering, University of Georgia, Athens, GA 30602, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hendrix, Samuel Godfrey",
+        "short_name": "Hendrix SG",
+        "identifiers": [
+          "0000-0002-4940-5899"
+        ],
+        "affiliations": [
+          "Computational Drug Discovery Laboratory, School of Electrical and Computer Engineering, College of Engineering, University of Georgia, Athens, GA 30602, USA."
+        ]
+      },
+      {
+        "full_name": "Chang, Kuan Y",
+        "short_name": "Chang KY",
+        "identifiers": [
+          "0000-0002-2262-5218"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, National Taiwan Ocean University, Keelung 202, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Ryu, Zeezoo",
+        "short_name": "Ryu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Drug Discovery Laboratory, School of Electrical and Computer Engineering, College of Engineering, University of Georgia, Athens, GA 30602, USA.",
+          "Department of Computer Science, Franklin College of Arts and Sciences, University of Georgia, Athens, GA 30602, USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Zhong-Ru",
+        "short_name": "Xie ZR",
+        "identifiers": [
+          "0000-0002-1539-5100"
+        ],
+        "affiliations": [
+          "Computational Drug Discovery Laboratory, School of Electrical and Computer Engineering, College of Engineering, University of Georgia, Athens, GA 30602, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 May 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/03 06:00",
+    "fetched_at": "2026-09-27 18:33:14"
+  },
+  "links": {
+    "cites": [
+      "42100742",
+      "41608578",
+      "38295475",
+      "38171929",
+      "36989252",
+      "36707759",
+      "36625126"
+    ],
+    "refs": [
+      "31666519",
+      "30689843",
+      "30598073",
+      "28763006",
+      "26681179",
+      "25935161",
+      "25756377",
+      "25330972",
+      "24448651",
+      "24339001",
+      "23737141",
+      "23335013",
+      "23116714",
+      "22641851",
+      "22495747",
+      "22139939",
+      "21636590",
+      "21069866",
+      "21036868",
+      "20577468",
+      "20525216",
+      "20478828",
+      "20305268",
+      "19847777",
+      "19483101",
+      "19008251",
+      "18515839",
+      "17880740",
+      "17646316",
+      "17570152",
+      "17316627",
+      "17284455",
+      "17243757",
+      "17237068",
+      "17130160",
+      "17073692",
+      "16995956",
+      "16893954",
+      "16845003",
+      "16712732",
+      "16477622",
+      "16121397",
+      "15720719",
+      "15613393",
+      "14990443",
+      "14754427",
+      "9761470",
+      "8603061"
+    ],
+    "similar": [
+      "34073705",
+      "34073774",
+      "35652477",
+      "29536446",
+      "34905768",
+      "29668310",
+      "38856168",
+      "33837387",
+      "31423003",
+      "28056090",
+      "39304807",
+      "28541224",
+      "25756377",
+      "39103447",
+      "29993783",
+      "33866960",
+      "32960766",
+      "32578842",
+      "32920048",
+      "30075707",
+      "35139457",
+      "32142788",
+      "35378437",
+      "31372637",
+      "15050833",
+      "24448651",
+      "30866734",
+      "38747347",
+      "29281985",
+      "28845538",
+      "30866736",
+      "21787304",
+      "36398911",
+      "30598075",
+      "33154416",
+      "31471916",
+      "25521807",
+      "39237198",
+      "15146487",
+      "36653447",
+      "38984742",
+      "39097179",
+      "30985027",
+      "30598073",
+      "33371891",
+      "10090291",
+      "30808287",
+      "30463553",
+      "30323214",
+      "31186519",
+      "33740884",
+      "14654694",
+      "34929730",
+      "26854760",
+      "33573266",
+      "33110179",
+      "32406914",
+      "30106688",
+      "34932484",
+      "31228283",
+      "29608705",
+      "11478868",
+      "33522898",
+      "31436360",
+      "31483777",
+      "28598584",
+      "38674339",
+      "15720719",
+      "26213851",
+      "31046040",
+      "31819266",
+      "30716081",
+      "36967455",
+      "30977960",
+      "33834190",
+      "29492997",
+      "31583631",
+      "32840562",
+      "29718097",
+      "30785653",
+      "28245811",
+      "30530227",
+      "35609999",
+      "29028926",
+      "33637700",
+      "27282833",
+      "39162313",
+      "31344547",
+      "31323206",
+      "18922190",
+      "29309725",
+      "31533611",
+      "31484923",
+      "32142459",
+      "15340913",
+      "30598079",
+      "29722865",
+      "31365149",
+      "21636590",
+      "31388850",
+      "32689927",
+      "30870586",
+      "33759134",
+      "36116806",
+      "35030497",
+      "33212503",
+      "24792350",
+      "35416807",
+      "36243970",
+      "36621533",
+      "34664074",
+      "34176069",
+      "38171929",
+      "18515839",
+      "34293799",
+      "38338804",
+      "38365157",
+      "36361606",
+      "38630609",
+      "34496970",
+      "35883523",
+      "37072397",
+      "38336958",
+      "34312058",
+      "33084331",
+      "35577762",
+      "37198346",
+      "33491455",
+      "38145947",
+      "38291232",
+      "36806303",
+      "37409346",
+      "39357703",
+      "37070217",
+      "34757056",
+      "38801070",
+      "36519247",
+      "38849917",
+      "34376849",
+      "35235461",
+      "36993750",
+      "38180829",
+      "35519609",
+      "35103472",
+      "38681239",
+      "38602504",
+      "39320992",
+      "34616774",
+      "37961633",
+      "34841226",
+      "37562358",
+      "23146001",
+      "38293168",
+      "37720331",
+      "35650259",
+      "33210458",
+      "37248345"
+    ],
+    "review": [
+      "34073705",
+      "35652477",
+      "25756377",
+      "35139457",
+      "38291232"
+    ],
+    "pmc": [
+      "8197219"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22115510",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34073705/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34073705",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

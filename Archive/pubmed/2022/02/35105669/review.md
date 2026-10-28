@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided text; no assessment of figures, tables, or supplementary data that were not supplied
+- **Shared manuscript claim summary** The authors develop a deep learning classifier to identify silencers in the human genome, focus on enhancer-silencer transitions during T cell development, and characterize approximately 12,000 dual-function regulatory elements (DFREs) that act as enhancers in embryonic stem cells and silencers in T cells. They report that DFREs are under stronger purifying selection, enriched for disease-associated mutations, associated with transcriptional regulator genes, and contain distinct but intertwined transcription factor binding site sets for activating and repressing functions.
+- **Visible evidence base** Text descriptions of CNN model performance metrics (AUC-ROC ranges), statistical tests (binomial, hypergeometric, Wilcoxon, chi-squared, Student's t-test), and quantitative comparisons between DFREs and other element classes
+- **Missing materials affecting confidence** All figures, supplemental figures, supplemental tables, and supplemental notes; specific genomic coordinates; model architecture details beyond layer counts; validation details for the CNN-SAS threshold; complete lists of TF binding site analyses
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and understudied class of regulatory elements in the human genome. The computational approach is reasonable and the authors provide multiple lines of evidence supporting the existence and functional relevance of dual-function regulatory elements. However, the provided text lacks sufficient detail to fully evaluate the robustness of the CNN model, the statistical methods used for enrichment analyses, and the biological validation of DFRE function. The claims are largely supported by the described analyses, but several technical aspects require clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying gene regulation, chromatin biology, transcription factor function, and the genetic basis of immune-related diseases would find these results relevant. The identification of a large class of dual-function regulatory elements with disease associations has implications for interpreting noncoding variants and understanding developmental gene regulation. The computational framework may also interest method developers working on regulatory element prediction.
+- **Major strengths** The manuscript addresses a previously understudied class of regulatory elements in mammals, building on prior work in Drosophila. The use of multiple independent data sources (CNN predictions, evolutionary conservation, GWAS, eQTL, Hi-C, RNA-seq) provides converging evidence for DFRE functional importance. The authors also test alternative mechanistic hypotheses for DFRE function, which strengthens the conceptual contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the CNN model
+  - **Claim pointer** The CNN model "achieved a respectable prediction performance" with AUC-ROC ranging from 0.74 to 0.94 for silencer detection across cell types, and the model "accurately predicts experimentally identified" silencers.
+  - **Evidence pointer** Results section "Convolutional neural network model accurately predicts silencers"; Methods section "Building CNN models to predict silencers"
+  - **Concern** The manuscript text does not provide sufficient detail on the training procedure, hyperparameter selection, class imbalance handling, or the criteria for defining positive and negative training examples. The AUC-ROC range for silencer detection (0.74-0.90) is notably lower than for enhancer detection (0.84-0.94), and the text does not explain this discrepancy. Additionally, the validation on experimentally identified silencers uses only two datasets from K562 cells, and the text does not describe how the model generalizes to other cell types where experimental validation is unavailable.
+  - **Why it matters** The entire downstream analysis depends on the reliability of silencer predictions. If the model has systematic biases or high false-positive rates in certain genomic contexts, the characterization of DFREs could be substantially affected. The authors acknowledge a bias toward enhancer candidates among false positives, but the implications of this bias for DFRE identification are not discussed.
+  - **Resolution test** Provide detailed model training information including hyperparameter values, early stopping criteria, data augmentation strategies, and class weighting. Report performance metrics separately for each cell type with confidence intervals. Describe how the 0.1 FPR threshold was chosen and how sensitive the downstream results are to this threshold.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of enrichment analyses
+  - **Claim pointer** DFREs are "enriched for mutations associated with disease phenotypes and altered gene expression" and show "enrichment in the T cell-related genetic variants."
+  - **Evidence pointer** Results section "DFREs are enriched in the T cell-related genetic variants"; Methods section "Data and tools used for analysis"
+  - **Concern** The text reports several enrichment analyses (GWAS SNP density, eQTL density, disease trait associations) but does not describe the statistical framework used to assess significance. The binomial tests are mentioned, but the null model is not clearly defined. For example, the comparison of DFREs to "background sequences" is described as "randomly selected" with matching length, GC content, and repeat density, but the number of background samples, the sampling procedure, and whether multiple background sets were used for stability assessment are not stated. The multiple testing correction for the analysis of individual GWAS traits is also not described.
+  - **Why it matters** Enrichment claims are central to the paper's conclusion that DFREs are functionally important and disease-relevant. Without a clearly specified null model and multiple testing correction, the reported P-values cannot be properly interpreted, and the false discovery rate for the trait-specific analyses is unknown.
+  - **Resolution test** Describe the exact procedure for generating background sequences, including sample size and matching criteria. State whether a single background set or multiple sets were used. Specify the multiple testing correction method for the trait-level analyses and report adjusted P-values or false discovery rates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for the claim of target gene preservation
+  - **Claim pointer** "The target gene of DFREs remains largely unchanged upon enhancer-to-silencer transition" based on Hi-C data and expression analysis.
+  - **Evidence pointer** Results section "DFREs are associated with TFs and chromatin remodeling genes"
+  - **Concern** The analysis identifying DFRE target genes relies on Hi-C contact data and expression comparisons, but the text provides limited detail on the criteria for assigning target genes. The statement that 84.6% of A genes show reduced expression in T cells is based on a subset of DFREs with "most pronounced enhancer effects," and the selection criteria for this subset are not fully described. The identification of only eight DFREs with single target gene contacts in both cell types is a very small sample from which to draw strong conclusions.
+  - **Why it matters** The claim that DFREs switch function without changing target genes is mechanistically important and distinguishes this model from alternative possibilities where DFREs might engage different targets in different cell types. The current evidence is suggestive but not conclusive.
+  - **Resolution test** Provide the complete criteria for defining target genes, including Hi-C contact significance thresholds and expression filters. Report the total number of DFREs analyzed and the proportion that met each inclusion criterion. Consider whether chromatin conformation changes between cell types could affect the interpretation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of DFRE findings
+  - **Claim pointer** "An estimated >6% of cell type-specific human silencers acting as dual-function REs" and the suggestion that this "requires a specific investigation on how their inherent functional plasticity might be a contributing factor to human diseases."
+  - **Evidence pointer** Abstract; Results section "Developmental dynamics of DFRE formation"
+  - **Concern** The study focuses on a single differentiation path (embryonic stem cells to T cells) and identifies DFREs based on overlap between hESC enhancers and T cell or HPC silencers. The estimate that 6% of T cell silencers are DFREs is specific to this comparison. The text does not address whether DFREs identified in this manner represent a general phenomenon or are specific to the cell types and developmental trajectory examined. The discussion acknowledges this limitation but does not provide a framework for how the estimate might generalize.
+  - **Why it matters** The broader significance of the work depends on whether DFREs are a widespread feature of regulatory evolution or a phenomenon specific to certain developmental transitions. The current study design cannot distinguish these possibilities.
+  - **Resolution test** Discuss how the DFRE proportion might vary across different developmental trajectories and cell type pairs. If possible, provide preliminary evidence from additional cell type comparisons or outline a clear framework for testing generalizability in future work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "regular silencers" (SLrs) and "nonSLs"
+  - **Evidence pointer** Results section "Convolutional neural network model accurately predicts silencers"
+  - **Issue** The distinction between SLrs, nonSLs, and DFREs is introduced gradually and the relationship between these categories is not always clear. The term "nonSL" appears to refer to H3K27me3 peaks not predicted as silencers, but this is not explicitly defined in the main text.
+  - **Required correction** Provide a clear definition of each element category at first use, possibly in a table or schematic, and use consistent terminology throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** CNN-SAS threshold definition
+  - **Evidence pointer** Methods section "Evaluating the repressive effect of mutations"
+  - **Issue** The text states that a CNN-SAS was considered significant when its absolute value was larger than 1% of those of all possible single-nucleotide mutations, but the direction of this comparison is ambiguous. It is unclear whether the threshold is the 99th percentile of absolute values or the 1st percentile.
+  - **Required correction** Clarify the threshold definition, for example, "the 99th percentile of the absolute CNN-SAS values for all possible single-nucleotide mutations."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of correlation
+  - **Affected element** CNN-SAS correlation with eQTLs
+  - **Evidence pointer** Results section "DFRE mutations are more likely to negatively affect silencer activity than SLr mutations"
+  - **Issue** The correlation between CNN-SAS and T cell eQTLs is reported as Spearman's r = 0.064 with P = 0.008. While statistically significant, this correlation is very weak, and the text does not discuss the practical significance of this effect size.
+  - **Required correction** Add a sentence interpreting the magnitude of the correlation and its implications for the predictive utility of CNN-SAS.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** TF binding site analysis
+  - **Evidence pointer** Results section "Distinct sequence syntax of the DFREs"
+  - **Issue** The text describes mapping TF binding sites using ChIP-seq data and CNN-based predictions, but the specific databases, motif models, and significance thresholds are not described in the main text. The reader is referred to supplemental notes, which were not provided.
+  - **Required correction** Provide a brief summary of the TFBS prediction methods in the main text, including the source of ChIP-seq data and the motif scanning approach.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (CNN model validation details) and R1-M2 (statistical framework for enrichment analyses) are the primary technical issues that must be resolved. The manuscript text as provided does not contain enough methodological detail to fully assess the robustness of the core claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of dual-function regulatory elements has been explored in Drosophila, but this study represents one of the first systematic analyses in the human genome. The focus on developmental transitions and the scale of DFRE identification are novel contributions.
+  - Scientific importance: The finding that a substantial fraction of silencers can act as enhancers in other contexts has implications for understanding regulatory evolution, interpreting noncoding variants, and designing functional genomics experiments. The disease associations add translational relevance.
+  - Interdisciplinary readership: The work bridges computational genomics, developmental biology, and disease genetics. The findings should interest researchers across these fields, though the presentation is primarily computational.
+  - Technical soundness: The CNN approach is appropriate for the task, and the authors include multiple validation strategies. However, the provided text lacks sufficient detail to fully evaluate model training, statistical methods, and potential biases. The relatively modest AUC-ROC values for silencer prediction warrant additional discussion.
+  - Readability for nonspecialists: The manuscript is generally well-organized and the main findings are clearly stated. However, some methodological sections assume familiarity with deep learning and genomics terminology. The abstract effectively communicates the key findings to a broad audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core biological findings are potentially important, and the authors have assembled multiple lines of evidence. However, the manuscript in its current form does not provide enough methodological detail to fully assess the robustness of the CNN model and the statistical analyses. Addressing these concerns would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim that DFREs are "enriched for mutations associated with disease phenotypes" cannot be fully evaluated without details on the statistical framework and multiple testing correction.
+- The statement that ">6% of cell type-specific human silencers" are DFREs is based on a single developmental trajectory and may not generalize.
+- The claim that DFRE target genes remain unchanged upon transition relies on a small number of cases (eight) with direct Hi-C evidence.
+- The assertion that CNN-SAS can identify "silencer-damaging mutations" is supported by correlation with eQTL data, but the weak correlation coefficient (r = 0.064) limits the strength of this claim.
+- The mechanistic model of "two intertwined but largely distinct sets of binding sites" is supported by enrichment analyses, but the functional validation of this model is not described in the provided text.

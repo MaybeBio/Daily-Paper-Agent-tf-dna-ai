@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "36157891",
+    "doi": "10.1155/2022/2024974",
+    "title": "The Establishment of Hypertrophic Cardiomyopathy Diagnosis Model via Artificial Neural Network and Random Decision Forest Method."
+  },
+  "content": {
+    "abstract": "Hypertrophic cardiomyopathy is a hereditary disease characterized by asymmetric ventricular hypertrophy as the key anatomical feature. Currently, there exists no effective method for the early diagnosis of hypertrophic cardiomyopathy. In this analysis, we incorporated multiple GEO datasets containing RNA profiles of hypertrophic cardiomyopathic patient tissues, identified 642 differentially expressed genes, and performed GO and KEGG analyses. Furthermore, we narrowed down 46 characteristic genes from these differentially expressed genes using random decision forests and conducted transcription factor regulation analysis on them. Using 40 genes that showed overlap between the training set and the verification set, the artificial neural network was trained, and the final MPS scoring model was constructed, and a receiver-operating characteristic (ROC) curve was drawn. We used the MPS model to predict the verification dataset and drew the ROC curve, which demonstrated the good prediction performance of the model. In conclusion, this study combines a random decision forest and artificial neural network to build a diagnostic model for hypertrophic cardiomyopathy to predict the disease, aiming at early detection and treatment, prolonging the survival time, and improving the quality of life of patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cardiomyopathy, Hypertrophic/diagnosis/genetics",
+      "Humans",
+      "Neural Networks, Computer",
+      "*Quality of Life",
+      "RNA",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shuanglei",
+        "Feng, Zekun",
+        "Xiao, Cangsong",
+        "Wu, Yang",
+        "Ye, Weihua"
+      ],
+      "short_names": [
+        "Li S",
+        "Feng Z",
+        "Xiao C",
+        "Wu Y",
+        "Ye W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8000-6258",
+        "ORCID: 0000-0002-5611-1434",
+        "ORCID: 0000-0002-1615-8983",
+        "ORCID: 0000-0003-2055-2198",
+        "ORCID: 0000-0002-7063-6683"
+      ],
+      "affiliations": [
+        "Division of Adult Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China.",
+        "Division of Adult Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China.",
+        "Division of Adult Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China.",
+        "Division of Adult Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China.",
+        "Division of Pediatric Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shuanglei",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0001-8000-6258"
+        ],
+        "affiliations": [
+          "Division of Adult Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Zekun",
+        "short_name": "Feng Z",
+        "identifiers": [
+          "0000-0002-5611-1434"
+        ],
+        "affiliations": [
+          "Division of Adult Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Cangsong",
+        "short_name": "Xiao C",
+        "identifiers": [
+          "0000-0002-1615-8983"
+        ],
+        "affiliations": [
+          "Division of Adult Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yang",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0000-0003-2055-2198"
+        ],
+        "affiliations": [
+          "Division of Adult Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Weihua",
+        "short_name": "Ye W",
+        "identifiers": [
+          "0000-0002-7063-6683"
+        ],
+        "affiliations": [
+          "Division of Pediatric Cardiac Surgery, Department of Cardiology, The Sixth Medical Center, Chinese PLA General Hospital, Beijing 100037, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/27 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "42416197",
+      "40901512",
+      "40710630",
+      "40427081",
+      "36968608"
+    ],
+    "refs": [
+      "35835601",
+      "35831152",
+      "35814554",
+      "35810008",
+      "35807195",
+      "35800170",
+      "35790927",
+      "35747179",
+      "35735798",
+      "35710273",
+      "35689531",
+      "35626178",
+      "35216312",
+      "35086660",
+      "34579788",
+      "33926766",
+      "33091314",
+      "30852773",
+      "30447713",
+      "30279000",
+      "30110588",
+      "28912182",
+      "28901158",
+      "28545640",
+      "28460026",
+      "27912983",
+      "25965716",
+      "25814232",
+      "25611685",
+      "25173338",
+      "23770748",
+      "16053960"
+    ],
+    "similar": [
+      "36157891",
+      "32081280",
+      "33601485",
+      "34520765",
+      "35299890",
+      "35741697",
+      "36050999",
+      "35990977",
+      "38050313",
+      "9540323",
+      "35126952",
+      "32884937",
+      "33715137",
+      "24325958",
+      "1944483",
+      "33890823",
+      "34225646",
+      "33099311",
+      "34991439",
+      "33099536",
+      "35401927",
+      "35694667",
+      "35692200",
+      "23239831",
+      "35719407",
+      "18005871",
+      "31059139",
+      "29155983",
+      "34992592",
+      "36254001",
+      "39206162",
+      "34765659",
+      "35847663",
+      "34192899",
+      "29127485",
+      "6211078",
+      "27246458",
+      "1833577",
+      "8261235",
+      "15673802",
+      "34315402",
+      "35509080",
+      "11002448",
+      "30442288",
+      "31180540",
+      "35709926",
+      "32771348",
+      "27884247",
+      "33238691",
+      "23690394",
+      "3066484",
+      "33401250",
+      "6686547",
+      "12118103",
+      "3529074",
+      "21962729",
+      "31769372",
+      "2137778",
+      "33293182",
+      "24240521",
+      "36148059",
+      "9556872",
+      "26077897",
+      "32841044",
+      "9763919",
+      "7198673",
+      "9068395",
+      "33280594",
+      "14655460",
+      "8020027",
+      "1836510",
+      "32885985",
+      "23567303",
+      "6458422",
+      "18853091",
+      "20031569",
+      "31727603",
+      "12705874",
+      "8471737",
+      "35692201",
+      "34109184",
+      "23027595",
+      "31424582",
+      "22874472",
+      "9326995",
+      "8922919",
+      "32079122",
+      "6450004",
+      "39187211"
+    ],
+    "review": [
+      "36157891",
+      "38050313",
+      "3066484",
+      "21962729",
+      "24240521",
+      "9763919",
+      "14655460",
+      "8020027",
+      "23567303",
+      "18853091",
+      "22874472"
+    ],
+    "pmc": [
+      "9500244"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36157891/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36157891",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/2024974",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

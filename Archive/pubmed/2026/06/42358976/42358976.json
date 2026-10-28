@@ -1,0 +1,424 @@
+{
+  "identity": {
+    "pmid": "42358976",
+    "doi": "10.3389/fimmu.2026.1806289",
+    "title": "Identification of G4-regulated immune-related drug targets for prostate cancer based on G4 screen and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: G-quadruplex (G4) structures are important epigenetic regulators and potential therapeutic targets in cancer. However, their role in prostate cancer, particularly in relation to the immune microenvironment, remains poorly understood. METHODS: We performed BG4 ChIP-seq to map genome-wide G4 structures in the prostate cancer cell line C4-2. Bioinformatics analyses integrated G4-associated genes with immune pathway enrichment and machine learning algorithms (LASSO, SVM-RFE, GBM, Naive Bayes, and GLM) to identify hub genes in prostate cancer progression. Clinical data from GTEx, TCGA, and HPA were analyzed for expression and survival. Functional validation included qPCR, CCK-8, colony formation, and wound-healing assays. Druggability was assessed using DrugnomeAI, and AI-assisted peptide design was performed with RFdiffusion and ProteinMPNN. RESULTS: We identified 1,289 prostate cancer-specific G4 structures, predominantly in promoter regions. Machine learning and immune enrichment analysis pinpointed IKBKB as a key hub gene in prostate cancer progression. IKBKB was overexpressed in prostate cancer tissues, correlated with advanced stage and poor prognosis, and was regulated by promoter G4 structures via transcription factors AR and ERG. IKBKB promoted genome instability, tumor stemness, and immune microenvironment remodeling. G4 stabilization increased IKBKB expression and activated the NF-kappaB pathway, enhancing cancer cell viability, proliferation, and migration. Computational screening confirmed IKBKB's druggability and identified potential inhibitors (e.g., Auranofin). AI-assisted design generated peptide inhibitors targeting IKBKB and a CRISPR-dCas9 strategy for G4 disruption. CONCLUSIONS: IKBKB is a G4-regulated, immune-related driver of prostate cancer progression. Its overexpression is linked to NF-kappaB activation, genomic instability, and immune microenvironment alterations. The study proposes two novel therapeutic strategies: G4 disruption at the IKBKB promoter and AI-designed peptide inhibitors. These findings provide a framework for combining epigenetic targeting with immunotherapy in prostate cancer.",
+    "keywords": [
+      "G4",
+      "IKBKB",
+      "immune-related drug targets",
+      "machine learning",
+      "prostate cancer"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Prostatic Neoplasms/genetics/drug therapy/immunology",
+      "*Machine Learning",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Tumor Microenvironment/immunology/genetics",
+      "I-kappa B Kinase/genetics/metabolism",
+      "Promoter Regions, Genetic",
+      "*Antineoplastic Agents/pharmacology",
+      "Epigenesis, Genetic",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ge, Liu",
+        "Hou, Yue",
+        "Huang, Xuan",
+        "Zhang, Jiawei",
+        "Yao, Lin",
+        "Chen, Saisai",
+        "Mao, Likai",
+        "Ning, Wei",
+        "Liang, Han",
+        "Shi, Nini",
+        "Yang, ChangBin",
+        "Jiang, Dongfang",
+        "Shen, Yuanji",
+        "Zheng, Bing",
+        "Shu, Chuanjun",
+        "Zhang, Minhao"
+      ],
+      "short_names": [
+        "Ge L",
+        "Hou Y",
+        "Huang X",
+        "Zhang J",
+        "Yao L",
+        "Chen S",
+        "Mao L",
+        "Ning W",
+        "Liang H",
+        "Shi N",
+        "Yang C",
+        "Jiang D",
+        "Shen Y",
+        "Zheng B",
+        "Shu C",
+        "Zhang M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Xishan People's Hospital of Wuxi City, Wuxi, Jiangsu, China.",
+        "Department of Urology, Affiliated Zhongda Hospital of Southeast University, Nanjing, Jiangsu, China.",
+        "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China.",
+        "Reproductive Medical Center, Jinling Hospital Affiliated to Medical School of Nanjing University, Nanjing, Jiangsu, China.",
+        "Department of Urology, Affiliated Zhongda Hospital of Southeast University, Nanjing, Jiangsu, China.",
+        "Department of Oncology, Jinling Hospital Affiliated to Medical School of Nanjing University, Nanjing, Jiangsu, China.",
+        "Department of Urology, Affiliated Zhongda Hospital of Southeast University, Nanjing, Jiangsu, China.",
+        "Department of Urology, Affiliated Zhongda Hospital of Southeast University, Nanjing, Jiangsu, China.",
+        "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China.",
+        "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China.",
+        "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China.",
+        "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China.",
+        "The People's Hospital of Danyang, Affiliated Danyang Hospital of Nantong University, Danyang, Jiangsu, China.",
+        "Department of Urology, Nanjing Pukou Hospital of Traditional Chinese Medicine (TCM), Nanjing, Jiangsu, China.",
+        "Department of Urology, Southeast University Affiliated Nantong First People's Hospital, Nantong, Jiangsu, China.",
+        "Department of Bioinformatics, School of Biomedical Engineering and Informatics, Nanjing Medical University, Nanjing, China.",
+        "Department of Urology, Xishan People's Hospital of Wuxi City, Wuxi, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ge, Liu",
+        "short_name": "Ge L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Xishan People's Hospital of Wuxi City, Wuxi, Jiangsu, China.",
+          "Department of Urology, Affiliated Zhongda Hospital of Southeast University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yue",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xuan",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Jinling Hospital Affiliated to Medical School of Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiawei",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Zhongda Hospital of Southeast University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Lin",
+        "short_name": "Yao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Jinling Hospital Affiliated to Medical School of Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Saisai",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Zhongda Hospital of Southeast University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Likai",
+        "short_name": "Mao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Zhongda Hospital of Southeast University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Wei",
+        "short_name": "Ning W",
+        "identifiers": [],
+        "affiliations": [
+          "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Han",
+        "short_name": "Liang H",
+        "identifiers": [],
+        "affiliations": [
+          "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Nini",
+        "short_name": "Shi N",
+        "identifiers": [],
+        "affiliations": [
+          "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yang, ChangBin",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Military Medical Innovation Center, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Dongfang",
+        "short_name": "Jiang D",
+        "identifiers": [],
+        "affiliations": [
+          "The People's Hospital of Danyang, Affiliated Danyang Hospital of Nantong University, Danyang, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yuanji",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanjing Pukou Hospital of Traditional Chinese Medicine (TCM), Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Bing",
+        "short_name": "Zheng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Southeast University Affiliated Nantong First People's Hospital, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Chuanjun",
+        "short_name": "Shu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, School of Biomedical Engineering and Informatics, Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Minhao",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Xishan People's Hospital of Wuxi City, Wuxi, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 06:38",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41345408",
+      "41335469",
+      "41265251",
+      "41207183",
+      "41193657",
+      "41167191",
+      "41161653",
+      "41138333",
+      "41125870",
+      "41109045",
+      "41093215",
+      "41082838",
+      "40782741",
+      "40629833",
+      "40623999",
+      "40607519",
+      "40519905",
+      "39164518",
+      "38718835",
+      "38315865",
+      "37433327",
+      "36333291",
+      "34265844",
+      "33892767",
+      "33727188",
+      "32269383",
+      "29625051",
+      "27618450",
+      "18853439"
+    ],
+    "similar": [
+      "42358976",
+      "41436831",
+      "40519905",
+      "42486346",
+      "41716413",
+      "42260484",
+      "42328119",
+      "42450307",
+      "40328901",
+      "41798945",
+      "39737177",
+      "41394854",
+      "38890248",
+      "41794917",
+      "40568593",
+      "41162970",
+      "39835132",
+      "39098988",
+      "41132349",
+      "41832427",
+      "40603761",
+      "39181686",
+      "41291892",
+      "40534868",
+      "41207909",
+      "42306043",
+      "42589294",
+      "41133888",
+      "42361409",
+      "40221657",
+      "41456067",
+      "41782040",
+      "40616092",
+      "41898765",
+      "40761790",
+      "41658456",
+      "40864208",
+      "41208987",
+      "40438115",
+      "42419189",
+      "39068564",
+      "41966742",
+      "41350704",
+      "21795997",
+      "39221762",
+      "42421952",
+      "42244292",
+      "26433127",
+      "38918844",
+      "40681784",
+      "41872824",
+      "42158856",
+      "41760846",
+      "41233664",
+      "40438100",
+      "38947325",
+      "41006883",
+      "41188783",
+      "39780278",
+      "41472745",
+      "39648231",
+      "41442003",
+      "41656832",
+      "41504052",
+      "42192326",
+      "41601623",
+      "41019083",
+      "40475773",
+      "40330458",
+      "41878449",
+      "41378005",
+      "27196761",
+      "40830558",
+      "40313958",
+      "40656610",
+      "42087895",
+      "42359574",
+      "33052224",
+      "41540361",
+      "40473799",
+      "40843941",
+      "41826854",
+      "40075453",
+      "39742262",
+      "30841931",
+      "40392380",
+      "41562091",
+      "41413822",
+      "41208974",
+      "41930182",
+      "41146251",
+      "40607411",
+      "41566241",
+      "42228706",
+      "42454037",
+      "42292404",
+      "41566326",
+      "41960369",
+      "30917865",
+      "41006377"
+    ],
+    "review": [
+      "42358976",
+      "33052224"
+    ],
+    "pmc": [
+      "13291070"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42358976/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1806289",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

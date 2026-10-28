@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "40097420",
+    "doi": "10.1038/s41467-025-57730-9",
+    "title": "Multi-scale dynamics influence the division potential of stomatal lineage ground cells in Arabidopsis."
+  },
+  "content": {
+    "abstract": "During development, many precursor lineages are flexible, producing variable numbers and types of progeny cells. What determines whether precursors differentiate or continue dividing? Here we take a quantitative approach that combines long-term live imaging, statistical modeling and computational simulations to probe the developmental flexibility of stomatal lineage ground cells (SLGC) in Arabidopsis leaves. We discover that cell size is a strong predictor of SLGC behaviour and that cell size is linked to division behaviour at multiple spatial scales. At the neighbourhood scale, cell size correlates with the strength of cell-cell signaling, which affects the rate at which SPEECHLESS (SPCH), a division-promoting transcription factor, is degraded. At the subcellular scale, cell size correlates with nuclear size, which modulates the concentration of SPCH in the nucleus. Our work shows how initial differences in SPCH levels are canalized by nuclear size and cell-cell signaling to inform the behaviour of a flexible cell type.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Arabidopsis/cytology/metabolism/genetics/growth & development",
+      "*Plant Stomata/cytology/metabolism",
+      "Arabidopsis Proteins/metabolism/genetics",
+      "*Cell Division",
+      "*Cell Lineage",
+      "Cell Nucleus/metabolism",
+      "Basic Helix-Loop-Helix Proteins/metabolism/genetics",
+      "Signal Transduction",
+      "Cell Size",
+      "Plant Leaves/cytology/metabolism",
+      "Gene Expression Regulation, Plant",
+      "Cell Differentiation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fung, Hannah F",
+        "Amador, Gabriel O",
+        "Dale, Renee",
+        "Gong, Yan",
+        "Vollbrecht, Macy",
+        "Erberich, Joel M",
+        "Mair, Andrea",
+        "Bergmann, Dominique C"
+      ],
+      "short_names": [
+        "Fung HF",
+        "Amador GO",
+        "Dale R",
+        "Gong Y",
+        "Vollbrecht M",
+        "Erberich JM",
+        "Mair A",
+        "Bergmann DC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5686-1534",
+        "ORCID: 0000-0002-6592-7136",
+        "ORCID: 0000-0002-1674-1247",
+        "ORCID: 0000-0003-1329-7096",
+        "ORCID: 0000-0002-5636-1070",
+        "ORCID: 0000-0002-3844-9386",
+        "ORCID: 0000-0002-2492-4318",
+        "ORCID: 0000-0003-0873-3543"
+      ],
+      "affiliations": [
+        "Department of Biology, Stanford University, Stanford, CA, 94305, USA.",
+        "Howard Hughes Medical Institute, Stanford, CA, 94305, USA.",
+        "Department of Developmental Biology, Stanford University, Stanford, CA, 94305, USA.",
+        "Donald Danforth Plant Science Center, St. Louis, MO, 63132, USA.",
+        "Department of Biology, Stanford University, Stanford, CA, 94305, USA.",
+        "Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, 02138, USA.",
+        "Department of Biology, Stanford University, Stanford, CA, 94305, USA.",
+        "Department of Biology, Stanford University, Stanford, CA, 94305, USA.",
+        "Howard Hughes Medical Institute, Stanford, CA, 94305, USA.",
+        "Department of Biology, Stanford University, Stanford, CA, 94305, USA. dbergmann@stanford.edu.",
+        "Howard Hughes Medical Institute, Stanford, CA, 94305, USA. dbergmann@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fung, Hannah F",
+        "short_name": "Fung HF",
+        "identifiers": [
+          "0000-0002-5686-1534"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, 94305, USA.",
+          "Howard Hughes Medical Institute, Stanford, CA, 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Amador, Gabriel O",
+        "short_name": "Amador GO",
+        "identifiers": [
+          "0000-0002-6592-7136"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, Stanford University, Stanford, CA, 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Dale, Renee",
+        "short_name": "Dale R",
+        "identifiers": [
+          "0000-0002-1674-1247"
+        ],
+        "affiliations": [
+          "Donald Danforth Plant Science Center, St. Louis, MO, 63132, USA."
+        ]
+      },
+      {
+        "full_name": "Gong, Yan",
+        "short_name": "Gong Y",
+        "identifiers": [
+          "0000-0003-1329-7096"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, 94305, USA.",
+          "Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, 02138, USA."
+        ]
+      },
+      {
+        "full_name": "Vollbrecht, Macy",
+        "short_name": "Vollbrecht M",
+        "identifiers": [
+          "0000-0002-5636-1070"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Erberich, Joel M",
+        "short_name": "Erberich JM",
+        "identifiers": [
+          "0000-0002-3844-9386"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Mair, Andrea",
+        "short_name": "Mair A",
+        "identifiers": [
+          "0000-0002-2492-4318"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute, Stanford, CA, 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Bergmann, Dominique C",
+        "short_name": "Bergmann DC",
+        "identifiers": [
+          "0000-0003-0873-3543"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, 94305, USA. dbergmann@stanford.edu.",
+          "Howard Hughes Medical Institute, Stanford, CA, 94305, USA. dbergmann@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Mar 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/18 06:22",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42588884",
+      "41924957",
+      "41880509",
+      "40777324"
+    ],
+    "refs": [
+      "39567683",
+      "38297119",
+      "37729402",
+      "36610013",
+      "36240269",
+      "35654950",
+      "35286298",
+      "34463761",
+      "34298230",
+      "34112688",
+      "33941907",
+      "33875598",
+      "33823130",
+      "32989288",
+      "32671813",
+      "31583771",
+      "31579399",
+      "31570887",
+      "30429609",
+      "30383040",
+      "30261337",
+      "30197241",
+      "29467245",
+      "28833173",
+      "28736600",
+      "28145865",
+      "27746029",
+      "26203655",
+      "26083750",
+      "25843888",
+      "25304637",
+      "25190717",
+      "24206523",
+      "24074866",
+      "22743772",
+      "22303215",
+      "22241782",
+      "20598116",
+      "19523675",
+      "19435754",
+      "19398336",
+      "19008449",
+      "17639078",
+      "11090210",
+      "10069079",
+      "8408198"
+    ],
+    "similar": [
+      "40097420",
+      "25190717",
+      "30197241",
+      "21903812",
+      "28507175",
+      "21425077",
+      "29628371",
+      "23686240",
+      "31935463",
+      "25680231",
+      "25963149",
+      "33823130",
+      "17183265",
+      "17183267",
+      "39177450",
+      "25303364",
+      "17371761",
+      "39253954",
+      "22407427",
+      "25304202",
+      "19008449",
+      "29738710",
+      "36931268",
+      "23662679",
+      "33875598",
+      "25304201",
+      "24386951",
+      "29386377",
+      "18641265",
+      "32843632",
+      "25843888",
+      "23373882",
+      "36609867",
+      "29467245",
+      "18450784",
+      "32669038",
+      "32434921",
+      "34469075",
+      "26203655",
+      "30623555",
+      "23997204",
+      "30429609",
+      "18647824",
+      "30383040",
+      "22466366",
+      "25304637",
+      "36493667",
+      "21245191",
+      "31028153",
+      "27746029",
+      "26550955",
+      "39838505",
+      "27484174",
+      "19502487",
+      "23124966",
+      "24654956",
+      "23044038",
+      "27717464",
+      "33058210",
+      "32240168",
+      "26917680",
+      "35060119",
+      "24571519",
+      "23073001",
+      "25458848",
+      "34099707",
+      "37555400",
+      "15178800",
+      "25850675",
+      "26989174",
+      "34463761",
+      "37276396",
+      "39714086",
+      "31235875",
+      "25063454",
+      "24039770",
+      "31235876",
+      "18979118",
+      "24687979",
+      "37386150",
+      "37904596",
+      "22836493",
+      "32946753",
+      "29070509",
+      "23515473",
+      "23551583",
+      "34718767",
+      "36440974",
+      "23515472",
+      "17691100",
+      "31075538",
+      "36028510",
+      "19523675",
+      "19247443",
+      "34254322",
+      "27406168",
+      "23779086",
+      "26002974",
+      "21410874",
+      "40275539"
+    ],
+    "review": [
+      "40097420",
+      "29386377",
+      "23997204",
+      "36493667",
+      "31028153",
+      "26550955",
+      "23044038",
+      "23073001",
+      "17691100",
+      "31075538"
+    ],
+    "pmc": [
+      "11914061"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-57730-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40097420/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

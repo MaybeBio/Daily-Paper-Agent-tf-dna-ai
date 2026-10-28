@@ -1,0 +1,178 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.25.614983",
+  "title": "Uncovering hundreds of exogenous and endogenous RNA viral RdRp sequences amongst uncharacterised sequences in public protein databases",
+  "doi": "10.1101/2024.09.25.614983",
+  "abstract": "Public databases of protein sequences, such as the National Center for Biotechnology Information (NCBI) Protein repository and UniProt, contain millions of proteins identified in samples from specific species but named as uncharacterised, hypothetical or unclassified due to a lack of information about their function. It has been demonstrated previously that many such sequences show high similarity to genes from RNA viruses, either due to viral infection of the original sample, contamination or endogenous viral elements (EVEs) integrated into the genome of the sample species. Many proteins from RNA virus discovery research are also deposited into these repositories but, for various reasons, can only be labelled as uncharacterised and classified taxonomically at a superkingdom or realm level. Sequences from protein repositories not labelled specifically as being derived from the RNA viral RNA dependent RNA polymerase (RdRp) protein are often used as negative controls when looking to identify viral RdRp sequences, so the presence of unlabelled viruses amongst these datasets is problematic. In this study, we screened uncharacterised proteins from two large public protein repositories - NCBI Protein and UniProt - to identify sequences likely to be derived from RNA viral RdRp. 3,560 such sequences were identified, many derived from EVEs. Many previously unknown EVEs were identified and led to characterisation of additional, related sequences. For example, a group of orbivirus-like viruses infecting nematodes was uncovered which appears to have both ancient endogenous and circulating exogenous members. Many recent integrations of mito-like viruses into plant genomes were identified, indicative of current or recent RNA viral activity. In several taxonomic groups, the first example of an EVE, and in some cases the first example of any RNA virus, was uncovered. The large number of EVEs uncovered by this relatively small-scale search suggests that only a fraction of the true diversity of EVEs is currently known. We also explore uncharacterised proteins further by providing provisional taxonomic annotations for RdRps which are currently only listed as members of the Riboviria realm. A number of sequences are identified which are indistinguishable from known, pathogenic viruses but are labelled as bacteria, seemingly as a result of mislabelling or contamination. Sequences which are not RNA viral but show some similarity to RdRp are also analysed, as a potential source of false positives in virus discovery research. Finally, recommendations are made for generating useful negative controls.",
+  "authors": [
+    "Brown K",
+    "Firth AE"
+  ],
+  "published_date": "2024-09-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.25.614983",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.25.614983.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR915994",
+    "raw_record": {
+      "id": "PPR915994",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR915994"
+        ]
+      },
+      "doi": "10.1101/2024.09.25.614983",
+      "title": "Uncovering hundreds of exogenous and endogenous RNA viral RdRp sequences amongst uncharacterised sequences in public protein databases",
+      "authorString": "Brown K, Firth AE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Brown K",
+            "lastName": "Brown",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8400-6922"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Virology, Department of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Firth AE",
+            "lastName": "Firth",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Virology, Department of Pathology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8400-6922"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Public databases of protein sequences, such as the National Center for Biotechnology Information (NCBI) Protein repository and UniProt, contain millions of proteins identified in samples from specific species but named as uncharacterised, hypothetical or unclassified due to a lack of information about their function. It has been demonstrated previously that many such sequences show high similarity to genes from RNA viruses, either due to viral infection of the original sample, contamination or endogenous viral elements (EVEs) integrated into the genome of the sample species. Many proteins from RNA virus discovery research are also deposited into these repositories but, for various reasons, can only be labelled as uncharacterised and classified taxonomically at a superkingdom or realm level. Sequences from protein repositories not labelled specifically as being derived from the RNA viral RNA dependent RNA polymerase (RdRp) protein are often used as negative controls when looking to identify viral RdRp sequences, so the presence of unlabelled viruses amongst these datasets is problematic. In this study, we screened uncharacterised proteins from two large public protein repositories - NCBI Protein and UniProt - to identify sequences likely to be derived from RNA viral RdRp. 3,560 such sequences were identified, many derived from EVEs. Many previously unknown EVEs were identified and led to characterisation of additional, related sequences. For example, a group of orbivirus-like viruses infecting nematodes was uncovered which appears to have both ancient endogenous and circulating exogenous members. Many recent integrations of mito-like viruses into plant genomes were identified, indicative of current or recent RNA viral activity. In several taxonomic groups, the first example of an EVE, and in some cases the first example of any RNA virus, was uncovered. The large number of EVEs uncovered by this relatively small-scale search suggests that only a fraction of the true diversity of EVEs is currently known. We also explore uncharacterised proteins further by providing provisional taxonomic annotations for RdRps which are currently only listed as members of the Riboviria realm. A number of sequences are identified which are indistinguishable from known, pathogenic viruses but are labelled as bacteria, seemingly as a result of mislabelling or contamination. Sequences which are not RNA viral but show some similarity to RdRp are also analysed, as a potential source of false positives in virus discovery research. Finally, recommendations are made for generating useful negative controls.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220814/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "646891",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "106207/Z/14/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.09.25.614983"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.25.614983"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR915994"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR915994&type=FILE&fileName=EMS199038-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199038",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "gen",
+          "gca",
+          "pfam",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-09-28",
+      "firstPublicationDate": "2024-09-25",
+      "firstIndexDate": "2024-09-28",
+      "fullTextReceivedDate": "2024-10-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

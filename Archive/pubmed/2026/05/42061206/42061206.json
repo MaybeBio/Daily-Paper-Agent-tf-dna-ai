@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "42061206",
+    "doi": "10.1016/j.jpsychires.2026.04.027",
+    "title": "Comprehensive integrative analysis of Exosome-associated genes in major depressive disorder: Diagnostic biomarker discovery, immune modulation, and therapeutic implications."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study systematically analyzed the expression profiles of exosome-associated genes in Major Depressive Disorder (MDD), constructed diagnostic models, and explored their association with immune regulation, pharmacological targeting, and molecular regulatory networks. METHODS: Three MDD-related datasets (GSE39653, GSE52790, and GSE98793) were retrieved from the Gene Expression Omnibus database, merged, and subjected to differential expression analysis to identify the MDD-associated genes. Exosome-associated genes were identified by intersecting differentially expressed genes (DEGs) with exosome-associated gene sets from GeneCards. Machine learning algorithms were employed to construct diagnostic models, and model performance was evaluated using calibration curves, decision curve analysis, and Receiver Operating Characteristic curves. Immune cell infiltration was assessed using single-sample gene set enrichment analysis, while drug-gene interactions, RNA-binding protein networks, and transcription factor regulatory networks were constructed using the DSigDB, ENCORI, and TRRUST databases, respectively. RESULTS: Twenty-one exosome-associated DEGs were identified, which were enriched in pathways, including ribosome biogenesis, complement cascade, and serotonergic synapses. The machine learning algorithms prioritized seven hub genes (HP, RPS9, TNF, FAM3B, CRYZ, NIP7, and YBX1). The calibration curves demonstrated a high concordance between the model predictions and actual observations. Immune infiltration analysis revealed elevated macrophage and natural killer cell levels in patients with MDD, with significant correlations between hub genes and immune cells. A drug-gene network predicted 654 potential therapeutics, and the molecular docking of lorazepam with HP and TNF suggested anti-inflammatory mechanisms. YBX1 has been identified as a regulatory hub with dual transcription factor functionality. CONCLUSION: This bioinformatic study elucidated the critical role of exosome-associated genes in MDD, established a clinically applicable diagnostic model, and delineated their interplay with immune dysregulation, pharmacological targets, and post-transcriptional networks. These findings deepen the understanding of the pathophysiological mechanisms of MDD and provide a foundation for novel biomarkers and therapeutic development.",
+    "keywords": [
+      "CRYZ",
+      "Exosome",
+      "FAM3B",
+      "HP",
+      "Major depressive disorder",
+      "NIP7",
+      "RPS9",
+      "TNF",
+      "YBX1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Major Depressive Disorder/genetics/immunology/diagnosis/therapy",
+      "*Exosomes/genetics/immunology",
+      "*Gene Regulatory Networks",
+      "Biomarkers/metabolism",
+      "Machine Learning",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Ying",
+        "Huang, Jinsong",
+        "Miao, Peidong",
+        "Li, Fang",
+        "Fan, Lijun",
+        "Zhang, Yunan"
+      ],
+      "short_names": [
+        "Li Y",
+        "Huang J",
+        "Miao P",
+        "Li F",
+        "Fan L",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China. Electronic address: ling1543@163.com.",
+        "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China.",
+        "The Third People's Hospital of Dalian, Dalian, Liaoning Province, China.",
+        "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China.",
+        "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China.",
+        "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Ying",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China. Electronic address: ling1543@163.com."
+        ]
+      },
+      {
+        "full_name": "Huang, Jinsong",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Peidong",
+        "short_name": "Miao P",
+        "identifiers": [],
+        "affiliations": [
+          "The Third People's Hospital of Dalian, Dalian, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fang",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Lijun",
+        "short_name": "Fan L",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yunan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Seventh People's Hospital, Dalian, Liaoning Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of psychiatric research"
+    ],
+    "journal_abbrev": [
+      "J Psychiatr Res"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/01 00:31",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42061206",
+      "40253457",
+      "41665627",
+      "39713769",
+      "39419187",
+      "42477639",
+      "41601671",
+      "42260834",
+      "41052072",
+      "41964403",
+      "39341981",
+      "41044520",
+      "41143615",
+      "42225708",
+      "39976098",
+      "37633529",
+      "42327749",
+      "41311024",
+      "37098514",
+      "36353576",
+      "41479901",
+      "40374840",
+      "41316378",
+      "42123445",
+      "41388523",
+      "42292668",
+      "38690269",
+      "41146237",
+      "41136530",
+      "38987624",
+      "41013856",
+      "40196107",
+      "41432483",
+      "39062507",
+      "42015036",
+      "40997906",
+      "39142001",
+      "40374866",
+      "38993198",
+      "39284527",
+      "42148317",
+      "40836320",
+      "40574839",
+      "40475773",
+      "41527570",
+      "39789578",
+      "39953304",
+      "40552285",
+      "40901831",
+      "40406126",
+      "39139563",
+      "39697326",
+      "41816328",
+      "40935254",
+      "34536521",
+      "40977739",
+      "40541827",
+      "42348043",
+      "40216809",
+      "38608447",
+      "41546812",
+      "39763672",
+      "39385284",
+      "42418414",
+      "42302029",
+      "41069939",
+      "39656235",
+      "40350654",
+      "41423561",
+      "41200172",
+      "42352882",
+      "40840857",
+      "41137290",
+      "38863714",
+      "39507054",
+      "41221287",
+      "41703488",
+      "41305746",
+      "39509434",
+      "40918403",
+      "39855613",
+      "41795073",
+      "39828023",
+      "38711508",
+      "41706232",
+      "40613560",
+      "42338983",
+      "40860289",
+      "38754597",
+      "40532306",
+      "39340997",
+      "40328901",
+      "41826854",
+      "39754246",
+      "38268224",
+      "41136974",
+      "40500570",
+      "42158856",
+      "31275757",
+      "40119397"
+    ],
+    "review": [
+      "42061206",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-3956(26)00238-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DLC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3666",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0022-3956(26)00238-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

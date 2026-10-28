@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a strategy for constructing orthogonal gene expression toolboxes in *Monascus* spp. using a transcription factor (MaR) from the azaphilone biosynthetic gene cluster. They identify nine DNA-binding residues, generate five multi-site saturation mutagenesis libraries comprising 10,743 MaR variants, and demonstrate that five cognate promoters are orthogonally regulated by five distinct MaR variants. They further claim fine tunability and high signal sensitivity via chemically inducible modules, synthetic promoter elements, and protein-protein interactions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, all figures and tables, statistical analyses, strain and plasmid details, library construction and screening protocols, and any validation data for orthogonality, tunability, and sensitivity
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to orthogonal gene expression control, which is a relevant challenge in synthetic biology. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness, reproducibility, or robustness of the claimed results. The core claims of orthogonality, tunability, and sensitivity are stated without quantitative data or experimental detail. The work may be of interest to synthetic biologists working on fungal hosts, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and fungal biotechnology would be interested in this work because orthogonal gene expression toolboxes are valuable for controlling multi-gene pathways and reducing cross-talk with host regulatory networks. The use of a transcription factor from a native biosynthetic gene cluster as a scaffold for generating orthogonal variants is a potentially transferable strategy.
+- **Major strengths** The proposed strategy is conceptually novel in applying multi-site saturation mutagenesis to a transcription factor for generating orthogonal promoter-variant pairs. The scale of the mutant library (10,743 variants) suggests a systematic approach. The inclusion of chemically inducible modules and protein-protein interaction designs indicates an intention to demonstrate practical utility beyond basic orthogonality.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "all five tested promoters were orthogonally regulated by five different MaR variants, respectively."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative data, such as induction ratios, dynamic ranges, or cross-reactivity measurements, to support the claim of orthogonality. It is unclear how orthogonality was defined, measured, or statistically validated.  
+  - **Why it matters** Orthogonality is the central claim of the paper. Without explicit evidence of minimal cross-talk between each promoter and non-cognate MaR variants, the claim is not established.  
+  - **Resolution test** Provide dose-response curves for each MaR variant against all five promoters, with quantitative metrics such as fold induction and cross-talk indices, and statistical comparisons demonstrating significant specificity.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and data availability  
+  - **Claim pointer** The authors claim creation of "five MaR multi-site saturation mutagenesis libraries consisting of 10743 MaR variants."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No details are given on library construction, mutagenesis strategy, coverage, or screening methodology. The number 10,743 is presented without context on how it was derived or whether it represents full or partial coverage of the designed sequence space.  
+  - **Why it matters** Without methodological detail, the reproducibility of the library construction and the reliability of the variant screening cannot be assessed.  
+  - **Resolution test** Describe the mutagenesis method, library size calculation, sequencing depth, and screening criteria in the full manuscript, and provide raw data on variant recovery and functional hit rates.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence for functional claims  
+  - **Claim pointer** The authors claim "fine gene expression tunability and high signal sensitivity of this toolbox are demonstrated."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states these features are demonstrated but provides no data, such as titration curves, response thresholds, or comparison to existing systems. The terms "fine" and "high" are qualitative and not supported by any metrics.  
+  - **Why it matters** Tunability and sensitivity are key performance characteristics for a gene expression toolbox. Without quantitative benchmarks, the practical utility of the system is unclear.  
+  - **Resolution test** Provide quantitative data on expression output across inducer concentrations, signal-to-noise ratios, and detection limits, ideally compared to a standard reference system.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors state that "this study paves the way for a bottom-up approach to build orthogonal gene expression toolboxes."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract describes a single transcription factor (MaR) and its cognate promoters. It is unclear whether the strategy is transferable to other transcription factors or promoter families, or whether it is specific to this system.  
+  - **Why it matters** The claim of a "versatile strategy" implies broad applicability, but the evidence presented is limited to one example.  
+  - **Resolution test** Provide evidence of applying the same strategy to at least one additional transcription factor system, or clearly state the scope and limitations of the approach.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "Gene expression is needed to be conducted in an orthogonal manner" is grammatically awkward and could be misinterpreted.  
+  - **Required correction** Rephrase to "Gene expression needs to be controlled orthogonally and independently from the host's native regulatory system."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, methods description  
+  - **Issue** The abstract does not specify the host organism or the experimental context (e.g., in vivo or in vitro) for the functional assays.  
+  - **Required correction** Specify the host strain and assay conditions in the abstract or ensure they are clearly stated in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, "protein-protein interaction between MaRs"  
+  - **Issue** The phrase is vague; it is unclear whether this refers to dimerization, heterodimer formation, or engineered interaction domains.  
+  - **Required correction** Clarify the type of protein-protein interaction and its role in the toolbox.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns are blocking because the central claims of orthogonality, library construction, and functional performance are not supported by the evidence provided in the abstract.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of using multi-site saturation mutagenesis on a transcription factor to generate orthogonal promoter-variant pairs is a creative approach, though similar strategies have been explored in bacterial systems. The novelty is moderate.  
+  - **Scientific importance** The work addresses a relevant problem in synthetic biology, but the significance is not fully established without quantitative evidence of performance and generalizability.  
+  - **Interdisciplinary readership** The topic is of interest to synthetic biologists, metabolic engineers, and fungal biologists, but the abstract does not clearly communicate the broader implications to a wider audience.  
+  - **Technical soundness** Not assessable from the abstract alone; the lack of methodological and quantitative detail prevents evaluation.  
+  - **Readability for nonspecialists** The abstract is reasonably accessible but uses jargon without sufficient context, and the key claims are not explained in a way that a nonspecialist can evaluate.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept, but the absence of quantitative data and methodological detail means the core claims cannot be verified. A revised manuscript with full experimental evidence would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that "all five tested promoters were orthogonally regulated by five different MaR variants" is unsupported without quantitative cross-reactivity data.
+- The claim of "fine gene expression tunability and high signal sensitivity" is unsupported without titration or sensitivity data.
+- The claim that the strategy is "versatile" and "paves the way" for a general approach is not supported by evidence from a single transcription factor system.
+- The number of variants (10,743) is presented without context on library coverage or screening efficiency, making it unverifiable from the abstract.

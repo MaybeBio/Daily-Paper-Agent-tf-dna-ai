@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose FTWSVM-SR, a fuzzy twin support vector machine with self-representation-based membership weighting and multiple kernel learning, for DNA-binding protein identification. They report superior Matthew's correlation coefficient (MCC) values of 0.7410 and 0.5909 on PDB186 and PDB2272 independent test sets, respectively, and conclude the method is an effective large-scale screening tool.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline specifications, or numerical comparisons beyond the two MCC values are provided.
+- **Missing materials affecting confidence** Full manuscript, methods section, feature encoding details, kernel construction, membership function formulation, hyperparameter settings, baseline model descriptions, statistical significance tests, and all figures/tables.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible machine learning pipeline for DNA-binding protein prediction, combining established techniques (multiple kernel learning, fuzzy SVM variants) with a self-representation-based weighting scheme. However, the evidence provided is insufficient to evaluate the novelty, technical soundness, or robustness of the claimed improvements. The reported MCC values, while potentially competitive, lack context regarding baseline performance, variance, and statistical significance. The abstract does not establish that the method outperforms existing approaches in a meaningful or reproducible manner.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing machine learning classifiers for DNA-binding protein identification. Researchers interested in fuzzy SVM variants and multiple kernel learning for biological sequence classification may also find the methodological combination relevant.
+- **Major strengths** The abstract clearly identifies a practical problem (high cost of experimental DBP detection) and proposes a computationally scalable solution. The pipeline integrates multiple established components in a coherent workflow, and the use of self-representation for membership estimation is a potentially interesting contribution. The reported MCC values on two independent test sets suggest the method has been evaluated on held-out data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that FTWSVM-SR "obtains the best performance" compared with other predictive models, with MCC values of 0.7410 and 0.5909 on PDB186 and PDB2272.
+  - **Evidence pointer** Abstract, results sentence; location not provided
+  - **Concern** The abstract provides no information about the baseline models compared, their configurations, or the statistical significance of the performance differences. Without this context, the claim of "best performance" is unverifiable. Additionally, the MCC values are presented without confidence intervals or cross-validation variance, making it impossible to assess whether the differences are meaningful.
+  - **Why it matters** A central claim of the work is superiority over existing methods. If the comparison is not rigorous or the differences are not statistically significant, the practical value of the proposed method is not established. Reproducibility and fair comparison are fundamental to machine learning research in bioinformatics.
+  - **Resolution test** Provide a table comparing FTWSVM-SR against at least 3-5 established DBP predictors on the same datasets, with standard deviations or confidence intervals, and report p-values from appropriate statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) for MCC differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "self-representation-based membership function is utilized to estimate membership value (weight) of each training sample" and that this contributes to the method's effectiveness.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract does not describe how the self-representation membership function is formulated, how it differs from existing fuzzy membership approaches, or why it is expected to handle noise samples better than alternatives. No theoretical justification or ablation study is mentioned.
+  - **Why it matters** The novelty of the work appears to hinge on this membership function. Without a clear formulation and evidence that it improves performance over simpler or existing weighting schemes, the contribution may be incremental rather than substantive.
+  - **Resolution test** Provide the mathematical formulation of the membership function, a description of its computational complexity, and an ablation study comparing FTWSVM-SR against FTWSVM with uniform membership, random membership, and other published membership functions on the same datasets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes a pipeline involving "multiple types of protein sequence features" and "multiple kernel learning" but provides no specifics.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The types of features, their encoding schemes, the kernel functions used, and the MKL algorithm are not specified. This prevents replication of the experiments and assessment of whether the feature/kernel choices are appropriate or optimal.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without detailed specifications, other researchers cannot implement or validate the approach, limiting its utility and credibility.
+  - **Resolution test** In the full manuscript, list all feature types with references, describe kernel construction (e.g., RBF, polynomial, or sequence-based kernels), specify the MKL algorithm (e.g., SimpleMKL, GMKL), and provide code or a detailed pseudocode for the entire pipeline.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, opening sentence; location not provided
+  - **Issue** The phrase "many machine learning algorithms (ML) have been utilized to large-scale process and detect DBPs" is grammatically awkward and the abbreviation "ML" is introduced but not used consistently.
+  - **Required correction** Rephrase to "many machine learning algorithms have been applied to large-scale detection of DBPs" and either use "ML" consistently or remove the abbreviation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, results
+  - **Evidence pointer** Abstract, results sentence; location not provided
+  - **Issue** The abstract reports MCC values but does not mention other standard metrics such as sensitivity, specificity, accuracy, or AUC, which are commonly expected in classification studies.
+  - **Required correction** Include at least sensitivity and specificity, or AUC, for both test sets to provide a more complete performance profile.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract, conclusion
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The claim that the model "can screen and analyze DBPs on a large scale" is not supported by any runtime or scalability analysis in the abstract.
+  - **Required correction** Either add a brief statement on computational efficiency (e.g., training/testing time) or temper the claim to "can be applied to large-scale screening" without implying demonstrated scalability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of baseline comparison and statistical significance) and R1-M2 (lack of formulation and ablation for the membership function) are the primary technical failings. R1-M3 (reproducibility) is also critical for establishing the case.
+- **Assessment against Nature-style criteria** Originality: The combination of FTWSVM with self-representation-based membership is potentially novel, but the abstract does not demonstrate how it differs meaningfully from prior fuzzy SVM applications in bioinformatics. Scientific importance: DNA-binding protein prediction is a relevant problem, but the incremental contribution is unclear without rigorous comparison. Interdisciplinary readership: The work bridges machine learning and molecular biology, but the abstract is too technical for a broad audience and lacks biological context. Technical soundness: Not assessable from the abstract alone; the missing details on methods and statistics preclude evaluation. Readability for nonspecialists: The abstract assumes familiarity with SVM variants and kernel methods, and the writing is dense and somewhat unclear.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail, baseline comparison, or statistical rigor to support the claims of superior performance. A revised manuscript with full methods, ablation studies, and rigorous comparisons could change this assessment, but the current evidence is insufficient.
+
+## Risk / unsupported claims
+- The claim of "best performance" is unsupported without baseline details and statistical tests.
+- The effectiveness of the self-representation membership function is asserted but not demonstrated or compared against alternatives.
+- The scalability claim for large-scale screening is unsupported by any runtime or complexity analysis.
+- The overall conclusion that FTWSVM-SR is an "effective DBP detection tool" is not fully established from the abstract-level evidence.

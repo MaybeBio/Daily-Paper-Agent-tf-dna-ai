@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors present RoboATAC, an automated ATAC-seq platform, and use it to profile chromatin accessibility and gene expression changes across 22 transcription factors at 5 doses in HEK293T cells. They report that DNA sequence alone predicts dosage sensitivity at accessible elements, that low-affinity motifs require higher TF doses, and that distinct nucleosome remodeling patterns (sliding vs. eviction) underlie accessibility creation, with non-pioneer factors capable of efficient remodeling.
+- **Visible evidence base** Main text figures referenced (Fig. 1A–H, Fig. 2A–G, Fig. 3A–I, Fig. 4A–E, Fig. 5A–F, Fig. 6A–E), supplementary figures (Fig. S1–S8), tables (Table S1, S2), methods section
+- **Missing materials affecting confidence** Supplementary figures and tables not provided; figure panels not viewable; detailed methods for ChromBPNet training and NucleoATAC parameters partially described; no access to code repository or GEO data
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial technical advance in high-throughput ATAC-seq and applies it to a systematic study of TF dose-response in chromatin accessibility. The central claim that DNA sequence alone largely predicts dosage sensitivity is well-supported by the described analyses, and the identification of distinct nucleosome remodeling modes is interesting. However, several concerns regarding the interpretation of the "sequence alone" claim, the handling of confounding factors, and the generalizability of findings to endogenous TF levels warrant attention. The technical development of RoboATAC appears sound, but validation against existing methods could be strengthened.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, chromatin biology, and gene regulatory networks would find this work valuable. The RoboATAC platform addresses a practical need for scalable chromatin profiling, and the systematic TF dose-response dataset provides a resource for understanding how TF concentration modulates regulatory element activity. The findings on motif affinity and nucleosome remodeling have implications for understanding pioneer factor function and synthetic biology applications.
+- **Major strengths** 1) The development of RoboATAC addresses a clear methodological gap in high-throughput chromatin profiling. 2) The systematic design across 22 TFs and 5 doses provides a rich dataset. 3) The combination of interpretable machine learning (ChromBPNet) with in silico marginalization is a powerful approach. 4) The observation of distinct nucleosome sliding vs. eviction modes is conceptually interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "DNA sequence alone accurately predicts dosage sensitivity at elements that become accessible" and "sequence alone accounts for 96% of the predictive power to predict dosage sensitivity"
+  - **Evidence pointer** Results section "Sequence alone is sufficient to predict dosage sensitivity", Fig. 2E–G
+  - **Concern** The claim that sequence alone accounts for 96% of predictive power is based on a comparison of AUCPR values from logistic regression models using sequence-derived features (ChromBPnet predictions) versus chromatin state features (ChromHMM). However, the ChromBPnet model is trained on the same ATAC-seq data used to define the sensitivity groups, creating a potential circularity. The model learns sequence features that predict accessibility in the training data, and then these predictions are used to classify sensitivity. This does not demonstrate that sequence alone is sufficient in a prospective sense; it shows that a model trained on the data can recapitulate the data. The 96% figure is also a ratio of AUCPR values, not a direct measure of variance explained, which may overstate the claim.
+  - **Why it matters** The central conclusion of the paper rests on this claim. If the predictive power is inflated by circularity, the conclusion that "DNA sequence is causally dominant over epigenetic memory" is not supported. This has implications for how the field thinks about the role of chromatin state in TF function.
+  - **Resolution test** The authors should validate the sequence-only model on held-out data from different cell types or conditions, or use a model trained on a different dataset. Alternatively, they could demonstrate that the sequence features identified are predictive of response to TF perturbation in an independent experimental system. A direct comparison of model performance on truly held-out chromosomes (not used in training) with a clear statement of the variance explained would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "RoboATAC generated ATAC-seq libraries of similar quality compared to the OmniATAC protocol across two adherent cell lines and three suspension cell lines"
+  - **Evidence pointer** Results section "RoboATAC enables automated, high-throughput assay of open chromatin", Fig. S1A–F
+  - **Concern** The benchmarking of RoboATAC against OmniATAC is described only in terms of TSS enrichment, FRiP, and fragment size distribution. These are standard quality metrics, but they do not fully capture whether the two methods produce comparable biological signal. For example, the authors do not report the number of peaks called, the reproducibility between replicates, or the concordance of peak calls between methods. The statement "similar quality" is vague and could be strengthened with quantitative comparisons.
+  - **Why it matters** RoboATAC is presented as a platform that can replace OmniATAC for high-throughput studies. If the biological signal is not equivalent, conclusions drawn from RoboATAC data may not be directly comparable to existing ATAC-seq datasets. This is particularly important for the downstream analyses in this paper, which rely on peak calling and differential accessibility.
+  - **Resolution test** The authors should provide a more detailed comparison, including the number of peaks called, the overlap of peaks between methods, and a correlation of accessibility signals at shared peaks. Ideally, they would also demonstrate that known regulatory elements are detected with similar sensitivity and specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "We identify two distinct patterns of TF-mediated accessibility creation consistent with nucleosome sliding and eviction, and provide evidence that such remodeling is not exclusive to classical pioneer factors."
+  - **Evidence pointer** Results section "Nucleosome sliding and eviction mediate distinct modes of accessibility creation", Fig. 6A–E
+  - **Concern** The classification of TFs into "sliding" vs. "eviction" modes is based on the distance between motif sites and nucleosome dyads, as called by NucleoATAC. This analysis is performed in a single cell type (HEK293T) with overexpression. The authors note that KLF1, a pioneer factor, shows incomplete shifts and no clear eviction, while LEF1, a non-pioneer, shows both. This is presented as evidence that non-pioneers can remodel nucleosomes. However, the physiological relevance of these observations is unclear, as overexpression levels are likely supraphysiological (as acknowledged in the Discussion). The distinction between sliding and eviction may be an artifact of the overexpression system or the specific time point analyzed.
+  - **Why it matters** The claim that non-pioneer factors can efficiently remodel nucleosomes challenges the current paradigm. If this is only observed at supraphysiological levels, it may not reflect endogenous function. The authors need to be more cautious in their interpretation and discuss the limitations of the overexpression system more thoroughly.
+  - **Resolution test** The authors could validate their findings using a more physiological system, such as endogenous TF induction or a degron system. Alternatively, they could perform time-course experiments to show that the observed nucleosome movements are dynamic and not simply a static endpoint. A more nuanced discussion of the limitations would also be acceptable.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We confirmed that the concentration of plasmid transfected correlates linearly with the measured protein levels in cells by flow cytometry in a RFP mock transfection experiment"
+  - **Evidence pointer** Results section "TF overexpression induces dose-dependent changes in the open chromatin landscape", Fig. S2A–C
+  - **Concern** The linear correlation between plasmid concentration and protein levels is established using a RFP mock transfection, not for the actual TFs used in the study. It is possible that different TFs have different translation efficiencies, protein stabilities, or feedback mechanisms that could affect the relationship between plasmid dose and protein level. The authors do not show that the protein levels of the 22 TFs scale linearly with plasmid dose.
+  - **Why it matters** The interpretation of dose-response curves relies on the assumption that plasmid dose is a proxy for TF protein level. If this relationship is not consistent across TFs, the comparison of dose-response behaviors between TFs could be confounded.
+  - **Resolution test** The authors should validate the dose-response relationship for at least a subset of the TFs used, perhaps using an epitope tag or antibody-based detection. If this is not feasible, they should acknowledge this limitation and discuss its potential impact on their conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "DNA sequence alone accurately predicts dosage sensitivity at elements that become accessible" but does not specify the metric used for "accurately" or the context of the prediction (e.g., classification into sensitivity groups). This could be misinterpreted as a stronger claim than is supported.
+  - **Required correction** Clarify the abstract to state that sequence-based models achieve high classification accuracy for sensitivity groups, and specify the AUCPR values or similar metrics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "RoboATAC Workflow"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the RoboATAC workflow is detailed but lacks specific information on the number of cells used per well for the benchmarking experiments. The text states "roughly 50,000 HEK293T cells" but does not specify cell counts for the other cell lines.
+  - **Required correction** Provide cell counts for all cell lines used in the benchmarking experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Low affinity motif sites require higher TF doses"
+  - **Evidence pointer** Fig. 3B–E
+  - **Issue** The relationship between motif count/score and dose response is described qualitatively. The authors do not report statistical tests for the trends shown in Fig. 3B–E.
+  - **Required correction** Add statistical tests (e.g., correlation coefficients, p-values) to support the claim that lower motif scores correlate with higher required doses.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion states "DNA sequence is causally dominant over any epigenetic 'memory' encoded into the nucleoprotein structure." This is a strong causal claim that is not directly tested in the study. The authors show correlation, not causation.
+  - **Required correction** Soften the language to "predictive of" rather than "causally dominant over," and discuss the limitations of the observational approach.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "ChromHMM Analysis"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the ChromHMM analysis is brief. The authors do not specify which of the 100 chromatin states were used in the logistic regression model, or how the "broad" and "fine" classifications were handled in the analysis.
+  - **Required correction** Provide more detail on the feature engineering for the ChromHMM states used in the logistic regression.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (circularity in the sequence-only prediction claim) is the primary technical issue that needs to be addressed. The benchmarking of RoboATAC (R1-M2) also needs more quantitative support.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its combination of an automated ATAC-seq platform with systematic TF dose-response profiling and interpretable deep learning. The concept of using sequence-based models to predict dosage sensitivity is not entirely new, but the scale and systematic approach are novel.
+  - **Scientific importance** The question of how TF dosage regulates chromatin accessibility is of broad importance. The finding that sequence alone is largely predictive has implications for understanding gene regulation. The nucleosome remodeling observations could refine the pioneer factor concept. However, the importance is somewhat tempered by the limitations in the central claim (R1-M1).
+  - **Interdisciplinary readership** The work will appeal to molecular biologists, computational biologists, and researchers in regulatory genomics. The methods are clearly described and the findings are presented in a way that is accessible to a broad audience.
+  - **Technical soundness** The technical development of RoboATAC appears sound, and the computational analyses are generally well-executed. However, the circularity concern (R1-M1) and the lack of detailed benchmarking (R1-M2) are significant issues that need to be resolved.
+  - **Readability for nonspecialists** The manuscript is well-written and the figures are described clearly. The abstract and introduction are accessible. The results section is dense but understandable for a specialist audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claim regarding sequence-based prediction needs to be re-evaluated to address the circularity issue. The benchmarking of RoboATAC should be more quantitative. If these concerns are adequately addressed, the work would be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that "DNA sequence alone accounts for 96% of the predictive power" is potentially inflated due to circularity in model training and evaluation.
+- The claim that "non-pioneer factors can efficiently evict nucleosomes" is based on overexpression data in a single cell line and may not reflect endogenous function.
+- The statement that "DNA sequence is causally dominant over any epigenetic 'memory'" is a causal claim not supported by the observational data presented.
+- The generalizability of the findings to other cell types and physiological TF levels is not established.

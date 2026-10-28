@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, and experimental procedures. No supplementary information, PDB validation reports, or raw data files were provided.
+- **Assessment boundary** Assessment is limited to the claims, methods, and interpretations presented in the supplied text. The quality of crystallographic data, electron density maps, and refinement statistics cannot be independently verified without access to the deposited PDB files and Table S1.
+- **Shared manuscript claim summary** The authors report the identification of cryptic pockets on the UP1 domain of hnRNPA1 using molecular dynamics simulations and graph neural network predictions, followed by experimental validation via X-ray fragment screening. They report 36 fragment hits, with approximately 80% occupying known functional regions, and describe ligand-induced conformational changes in key RNA-binding residues.
+- **Visible evidence base** Main text figures (Figures 1–4), supplementary figure references (Figures S1–S6), Table S1 (PDB access codes), Table S3 (binding site classification), Table S4 (interaction details). Experimental methods for MD simulation, crystallization, soaking, data collection, and refinement are described.
+- **Missing materials affecting confidence** Supplementary tables (S1, S3, S4) with detailed hit lists, binding site assignments, and interaction geometries. Electron density maps (Figure S6). PDB validation reports. MD simulation convergence and reproducibility metrics. Pocket prediction scores and statistical significance of pocket detection. Data on the "biological activity" assessment mentioned in the Discussion but not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically sound and potentially valuable structural resource for the development of hnRNPA1 inhibitors. The combination of computational pocket prediction with experimental fragment screening is a well-established and appropriate strategy. The reported 36 fragment-bound structures represent a significant experimental contribution, as the authors correctly note the absence of prior hnRNP-small molecule structures. However, the manuscript's central claim that computational predictions "enhanced" identification is not quantitatively supported by the data presented. The agreement between predicted and experimentally observed sites is described qualitatively, and no statistical or comparative analysis is provided. The biological relevance of the observed conformational changes is speculative, and the lack of any functional validation limits the strength of the conclusions. The manuscript would be strengthened by a more rigorous comparison of prediction and experiment, and by tempering claims about therapeutic relevance that are not supported by the presented data.
+- **Who would be interested in the results, and why** Structural biologists and medicinal chemists working on RNA-binding proteins, particularly those interested in fragment-based drug discovery and cryptic pocket identification. The deposited structures will be of immediate use to groups working on hnRNPA1 and related RRM-containing proteins. The study also provides a methodological template for combining MD-based pocket prediction with crystallographic screening that may interest researchers in the fragment screening community.
+- **Major Strengths**
+  - The first experimental structures of an hnRNP family member in complex with small molecule fragments, filling a clear gap in the field.
+  - The combination of MD simulations and graph neural network predictions with experimental screening is a modern and appropriate approach.
+  - The fragment screening appears to have been conducted rigorously, with manual verification of hits and attention to crystal contacts.
+  - The identification of hits on multiple functional surfaces, including RNA-binding pockets, inter-RRM interface, and putative PPI surfaces, provides diverse starting points for inhibitor development.
+  - The discussion of crystal contact artifacts is thoughtful and demonstrates appropriate critical analysis of the data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The title and abstract state that computational mapping "enhanced" identification of small molecule binding, and the Results state "The high level of agreement between experimentally identified hotspots and predicted cryptic pockets increases reliability of identified hits."
+  - **Evidence pointer** Results section "Computational hotspot mapping", Figure 1B–D, Results section "Large fragment screening on UP1 crystals"
+  - **Concern** The claim of enhanced identification and high agreement is not quantitatively supported. The manuscript reports that approximately 80% of hits occupy "known functional regions" and "computationally predicted binding sites," but these two categories are conflated. No statistical measure of agreement is provided, no comparison to a null model or random expectation is given, and the specific overlap between the 36 experimental hits and the computationally predicted pockets is not enumerated. The reader cannot assess whether the computational predictions actually enriched for functional sites beyond what would be expected from screening a protein surface with many potential binding sites. The claim of "enhanced identification" requires a quantitative comparison, such as the fraction of predicted pockets that yielded hits versus non-predicted surface regions, or a receiver operating characteristic analysis.
+  - **Why it matters** The central methodological claim of the paper is that computational prediction improves fragment screening outcomes. Without quantitative support, this claim is not established, and the paper reduces to a descriptive structural study. The title and abstract make a stronger claim than the data support.
+  - **Resolution test** Provide a quantitative comparison of predicted pockets versus experimentally observed binding sites, including the number of predicted pockets that yielded hits, the number of hits in non-predicted regions, and a statistical test of enrichment. Alternatively, revise the claim to state that computational predictions were consistent with experimental findings, without asserting enhancement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The Results state that "61% of fragments we identified binds directly on the RNA-binding surfaces of UP1."
+  - **Evidence pointer** Results section "Fragment interactions influenced by crystal contacts", Table S3
+  - **Concern** The classification of binding sites as "RNA-binding surfaces" appears to be based on overlap with residues known to contact RNA from prior structures. However, the criteria for this classification are not defined. It is unclear whether a fragment contacting one RNA-binding residue is classified as binding the RNA-binding surface, or whether a more stringent criterion is used. Additionally, the percentage appears to be calculated from the 36 confirmed hits, but the denominator is not explicitly stated. The classification of the remaining 39% of hits is also unclear, as the text mentions PPI surfaces and other sites but does not provide a complete breakdown.
+  - **Why it matters** The distribution of binding sites across functional regions is a key result of the paper. Without clear classification criteria, the reader cannot evaluate the significance of the finding or compare it to other fragment screening studies.
+  - **Resolution test** Define the criteria for classifying a binding site as an RNA-binding surface, PPI surface, or other. Provide a complete breakdown of all 36 hits by binding site category, with the criteria applied to each.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The Results state that fragments "induce" conformational changes, including "a wide range of ligand-induced conformational variation by stabilization of dynamic protein regions."
+  - **Evidence pointer** Results sections "Ligand-induced conformational variations on the RRM1" and "Fragment interactions influenced by crystal contacts", Figures 2 and S2
+  - **Concern** The use of "induced" implies a causal relationship between fragment binding and conformational change. However, the comparison is between fragment-bound structures and apo structures, which may differ for reasons unrelated to ligand binding, such as crystal packing, different crystallization conditions, or inherent conformational variability. The manuscript does not describe any control experiments, such as soaking with DMSO alone, or analysis of multiple apo structures to establish the baseline conformational variability. The claim that fragments "lock" side chains in specific conformations is particularly strong and would require evidence that the alternative conformation is populated in the absence of ligand.
+  - **Why it matters** The conformational changes are presented as a significant finding with implications for understanding RNA-binding inhibition. If these changes are not causally linked to fragment binding, the interpretation is incorrect and could mislead future inhibitor design efforts.
+  - **Resolution test** Provide evidence that the observed conformational differences are specifically due to fragment binding, such as comparison with apo structures from the same crystal form, analysis of conformational variability across multiple apo structures, or molecular dynamics simulations of the apo state showing the alternative conformations are accessible.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The Discussion states "The ability to modulate hnRNPA1 activity in cells of most compounds was assessed (data not shown), but, likely because of the low millimolar binding affinity and the low solubility, none showed biological activity."
+  - **Evidence pointer** Discussion section, "data not shown"
+  - **Concern** The manuscript reports that cellular activity was assessed but provides no data, no description of the assays used, no concentrations tested, and no positive or negative controls. This is a significant omission for a paper that discusses therapeutic relevance. The statement "data not shown" is not acceptable for a key negative result that is used to contextualize the findings. Either the data should be included, or the statement should be removed.
+  - **Why it matters** The lack of cellular activity is used to explain why the fragments are not developed further, but without data, the reader cannot assess whether the lack of activity is due to the fragments themselves, the assay design, or other factors. This weakens the Discussion and leaves an important question unanswered.
+  - **Resolution test** Include the cellular activity data as a supplementary figure or table, with a description of the assay, concentrations tested, and controls. Alternatively, remove the statement entirely and focus the Discussion on the structural findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1D
+  - **Evidence pointer** Figure 1D
+  - **Issue** The figure legend lists seven numbered binding sites, but the correspondence between the numbered boxes in Figure 1D and the descriptions in the legend is not immediately clear. The legend states "1: nucleobase pocket 1; 2: nucleobase pocket 2; 3: inter-RRM loop (hidden behind the loop in (A) and (B)); 4: inter-RRMs (ɑ2–ɑ2); 5: RRM1 ɑ1–(ɑ2–β4) loop; 6: RRM2 ɑ1–β2 and the adjacent RRM2 (β2–β3) loop sites; 7: RRM2 ɑ2–β4." Site 3 is described as hidden, which makes it difficult to verify the correspondence.
+  - **Required correction** Consider using a different color or a separate panel to show site 3, or provide a supplementary figure with the site clearly indicated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Ligand-induced conformational variations on the RRM1"
+  - **Evidence pointer** Results section, Figure 2B
+  - **Issue** The text states that ZINC72259689 and Z1203107138 "push the H101 side chains backward (toward the RRM2) of 7.5 Å compared with the Cγ relative position in the DNA-bound structure." The reference point for this measurement is unclear. Is this the Cγ atom of H101? The text says "compared with the Cγ relative position," which is ambiguous.
+  - **Required correction** Clarify the measurement reference, for example, "the Cγ atom of H101 is displaced by 7.5 Å relative to its position in the DNA-bound structure."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental procedures, MD simulations
+  - **Evidence pointer** Experimental procedures section "MD simulations and hotspot mapping"
+  - **Issue** The description of the MD simulation is brief. No information is provided on the number of replicates, the equilibration protocol, the thermostat and barostat coupling constants, the simulation time step, or the criteria for clustering. The statement "Fifty clusters were generated" is presented without justification for this number.
+  - **Required correction** Provide additional details on the MD protocol, including any standard parameters, and justify the choice of 50 clusters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion states "the similarity among all published RRM inhibitors is low (Tanimoto coefficient <0.25—data not shown)." This is another instance of "data not shown" for a quantitative claim. While this is a minor point, it would be helpful to provide the calculation or a reference.
+  - **Required correction** Provide the data or a reference to support this claim.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The central claim of computational enhancement is not quantitatively supported.
+  - R1-M3: The causal interpretation of conformational changes is not justified without appropriate controls.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of MD plus graph neural network prediction to hnRNPA1 is novel, and the fragment screening results are the first for an hnRNP family member. However, the individual techniques are well established, and the conceptual approach is not new.
+  - **Scientific importance** Moderate to high. hnRNPA1 is a validated disease-relevant target, and the lack of structural information on small molecule binding has been a barrier to drug development. The deposited structures will be a useful resource. However, the lack of functional validation limits the immediate impact.
+  - **Interdisciplinary readership** Moderate. The work will appeal to structural biologists, medicinal chemists, and researchers in the RNA biology field. The computational aspects may attract a broader computational audience, but the manuscript is primarily structural in nature.
+  - **Technical soundness** Generally sound, with the caveats noted above. The crystallographic work appears careful, and the computational methods are appropriate. The main technical weakness is the lack of quantitative comparison between prediction and experiment.
+  - **Readability for nonspecialists** The manuscript is clearly written and accessible to a broad scientific audience. The figures are informative, and the key concepts are explained adequately. The Discussion is well structured and places the findings in context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data are valuable and the study addresses an important gap. However, the central claim of computational enhancement must be quantitatively supported, and the interpretation of conformational changes must be tempered or better justified. The manuscript would be suitable for publication in a structural biology or medicinal chemistry journal after these revisions.
+
+## Risk / unsupported claims
+- The claim that computational mapping "enhanced" identification of small molecule binding is not supported by quantitative evidence.
+- The claim that fragments "induce" conformational changes is not supported by appropriate controls.
+- The claim that "61% of fragments bind directly on the RNA-binding surfaces" is not supported by defined classification criteria.
+- The statement that "the similarity among all published RRM inhibitors is low (Tanimoto coefficient <0.25—data not shown)" is unsupported.
+- The statement that "the ability to modulate hnRNPA1 activity in cells of most compounds was assessed (data not shown)" is unsupported.
+- The claim that the identified fragments "provide rapid routes for the rational development of a range of different inhibitors" is speculative and not supported by any medicinal chemistry follow-up data.

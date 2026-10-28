@@ -1,0 +1,311 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.23.545974",
+  "title": "Quantifying the proportion of different cell types in the human cortex using DNA methylation profiles",
+  "doi": "10.1101/2023.06.23.545974",
+  "abstract": "<h4>Background</h4> Due to inter-individual variation in the cellular composition of the human cortex, it is essential that covariates that capture these differences are included in epigenome-wide association studies using bulk tissue. As experimentally derived cell counts are often unavailable, computational solutions have been adopted to estimate the proportion of different cell-types using DNA methylation data. Here, we validate and profile the use of an expanded reference DNA methylation dataset incorporating two neuronal- and three glial-cell subtypes for quantifying the cellular composition of the human cortex. <h4>Results</h4> We tested eight reference panels containing different combinations of neuronal- and glial-cell types and characterized their performance in deconvoluting cell proportions from computationally reconstructed or empirically-derived human cortex DNA methylation data. Our analyses demonstrate that these novel brain deconvolution models produce accurate estimates of cellular proportions from profiles generated on postnatal human cortex samples, they are not appropriate for the use in prenatal cortex or cerebellum tissue samples. Applying our models to an extensive collection of empirical datasets, we show that glial cells are twice as abundant as neuronal cells in the human cortex and identify significant associations between increased Alzheimer’s disease neuropathology and the proportion of specific cell types including a decrease in NeuNNeg/SOX10Neg nuclei and an increase of NeuNNeg/SOX10Pos nuclei. <h4>Conclusions</h4> Our novel deconvolution models produce accurate estimates for cell proportions in the human cortex. These models are available as a resource to the community enabling the control of cellular heterogeneity in epigenetic studies of brain disorders performed on bulk cortex tissue.",
+  "authors": [
+    "Hannon E",
+    "Dempster EL",
+    "Chioza B",
+    "Davies JP",
+    "Blake GE",
+    "Burrage J",
+    "Policicchio S",
+    "Franklin A",
+    "Walker EM",
+    "Bamford RA",
+    "Schalkwyk LC",
+    "Mill J"
+  ],
+  "published_date": "2023-06-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.23.545974",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.23.545974.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR679929",
+    "raw_record": {
+      "id": "PPR679929",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR679929"
+        ]
+      },
+      "doi": "10.1101/2023.06.23.545974",
+      "title": "Quantifying the proportion of different cell types in the human cortex using DNA methylation profiles",
+      "authorString": "Hannon E, Dempster EL, Chioza B, Davies JP, Blake GE, Burrage J, Policicchio S, Franklin A, Walker EM, Bamford RA, Schalkwyk LC, Mill J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hannon E",
+            "lastName": "Hannon",
+            "firstName": "Eilis",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6840-072X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dempster EL",
+            "lastName": "Dempster",
+            "firstName": "Emma",
+            "initials": "EL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chioza B",
+            "lastName": "Chioza",
+            "firstName": "Barry",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3546-1726"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davies JP",
+            "lastName": "Davies",
+            "firstName": "Jonathan",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blake GE",
+            "lastName": "Blake",
+            "firstName": "Georgina ET",
+            "initials": "GE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burrage J",
+            "lastName": "Burrage",
+            "firstName": "Joe",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Policicchio S",
+            "lastName": "Policicchio",
+            "firstName": "Stefania",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Italian Institute of Technology, Center for Human Technologies (CHT), Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Franklin A",
+            "lastName": "Franklin",
+            "firstName": "Alice",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walker EM",
+            "lastName": "Walker",
+            "firstName": "Emma",
+            "initials": "EM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bamford RA",
+            "lastName": "Bamford",
+            "firstName": "Rosemary",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schalkwyk LC",
+            "lastName": "Schalkwyk",
+            "firstName": "Leonard",
+            "initials": "LC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, University of Essex, Wivenhoe Park, Colchester, Essex, CO4 3SQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mill J",
+            "lastName": "Mill",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, University of Exeter Medical School, University of Exeter Medical School, University of Exeter, Barrack Road, Exeter, Devon, EX2 5DW, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6840-072X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3546-1726"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Background</h4>  Due to inter-individual variation in the cellular composition of the human cortex, it is essential that covariates that capture these differences are included in epigenome-wide association studies using bulk tissue. As experimentally derived cell counts are often unavailable, computational solutions have been adopted to estimate the proportion of different cell-types using DNA methylation data. Here, we validate and profile the use of an expanded reference DNA methylation dataset incorporating two neuronal- and three glial-cell subtypes for quantifying the cellular composition of the human cortex. <h4>Results</h4>  We tested eight reference panels containing different combinations of neuronal- and glial-cell types and characterized their performance in deconvoluting cell proportions from computationally reconstructed or empirically-derived human cortex DNA methylation data. Our analyses demonstrate that these novel brain deconvolution models produce accurate estimates of cellular proportions from profiles generated on postnatal human cortex samples, they are not appropriate for the use in prenatal cortex or cerebellum tissue samples. Applying our models to an extensive collection of empirical datasets, we show that glial cells are twice as abundant as neuronal cells in the human cortex and identify significant associations between increased Alzheimer’s disease neuropathology and the proportion of specific cell types including a decrease in NeuNNeg/SOX10Neg nuclei and an increase of NeuNNeg/SOX10Pos nuclei. <h4>Conclusions</h4>  Our novel deconvolution models produce accurate estimates for cell proportions in the human cortex. These models are available as a resource to the community enabling the control of cellular heterogeneity in epigenetic studies of brain disorders performed on bulk cortex tissue.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/23/2023.06.23.545974.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.23.545974"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR679929"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR679929&type=FILE&fileName=EMS178015-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38273288",
+            "reference": "BMC biology. 2024 Jan;22(1):17",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS178015",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-06-26",
+      "firstPublicationDate": "2023-06-23",
+      "firstIndexDate": "2023-06-26",
+      "fullTextReceivedDate": "2023-08-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary statements.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that DDT impairs Aβ clearance by decreasing LXRα expression, and that DDT may act as a direct antagonist of LXRα based on in vitro experiments and computational modeling.
+- **Visible evidence base** Cell culture experiments (H4 neuroglioma cells, immortalized astrocytes), Western blotting, RT-PCR, Alamar blue cytotoxicity assay, molecular docking, and molecular dynamics simulations.
+- **Missing materials affecting confidence** No raw Western blot images, no quantification details for all blots, no statistical test details for each comparison, no positive/negative controls for the docking validation, no data for the "data not shown" DDE experiment, no information on Aβ oligomer vs monomer state, no in vivo data.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question regarding environmental contributors to Alzheimer's disease pathology. The central hypothesis, that DDT reduces Aβ clearance via LXRα downregulation, is plausible and builds logically on prior work by the same group. However, the evidence presented is largely correlative and the mechanistic link between DDT binding to LXRα and functional antagonism is not experimentally established. The computational predictions are suggestive but not validated by mutagenesis or functional assays. The study is preliminary and would benefit from additional mechanistic depth and rigorous controls.
+- **Who would be interested in the results, and why** Researchers studying gene-environment interactions in Alzheimer's disease, toxicologists investigating endocrine-disrupting chemicals, and those focused on LXR signaling as a therapeutic target for neurodegeneration. The findings may also interest epidemiologists examining pesticide exposure and cognitive decline.
+- **Major strengths** The study addresses a novel and important question, linking a persistent environmental pollutant to a specific molecular pathway relevant to AD. The use of two cell types strengthens the generalizability of the findings. The inclusion of computational modeling provides a mechanistic hypothesis that can be tested in future studies. The dose selection is justified by prior work and cytotoxicity data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence for direct binding
+  - **Claim pointer** The manuscript claims that DDT "strongly binds to LXRα" and exerts antagonistic effects, implying a direct molecular interaction.
+  - **Evidence pointer** Results section "Molecular Dynamics Results", Figure 5
+  - **Concern** The claim of direct binding is based solely on computational docking and MD simulations. No experimental validation (e.g., surface plasmon resonance, isothermal titration calorimetry, cellular thermal shift assay, or competition binding with a known ligand) is provided. The docking protocol lacks validation with a known ligand to confirm the binding site and scoring function reliability. The MD simulation is short (40 ns) and no replicate simulations or free energy perturbation calculations are shown.
+  - **Why it matters** The central mechanistic conclusion, that DDT directly antagonizes LXRα, rests entirely on this computational prediction. Without experimental confirmation, the proposed mechanism remains speculative and the study's main claim is not established.
+  - **Resolution test** Provide experimental binding data (e.g., ITC, SPR, or CETSA) demonstrating a direct interaction between DDT and LXRα. Alternatively, perform a functional assay showing that DDT competitively inhibits the activity of a known LXRα agonist in a dose-dependent manner, with a control compound that does not bind LXRα.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between LXRα downregulation and impaired Aβ clearance
+  - **Claim pointer** The manuscript concludes that DDT inhibits LXRα expression, which contributes to Aβ clearance decline, implying a causal relationship.
+  - **Evidence pointer** Results sections "Aβ Clearance Under DDT Exposure" and "LXRα Expression Under DDT Exposure", Figures 2 and 3
+  - **Concern** The study shows that DDT reduces LXRα expression and impairs Aβ clearance in parallel, but does not demonstrate causality. No experiments are performed to rescue LXRα expression (e.g., overexpression, LXR agonist treatment) to see if Aβ clearance is restored. The T0901317 experiment (Figure 4) partially addresses this, but the interpretation is complicated by the fact that T0901317 is a synthetic agonist and may have off-target effects. The manuscript does not show whether the effect of DDT on Aβ clearance is mediated specifically through LXRα or through other pathways.
+  - **Why it matters** The title and abstract assert a mechanistic pathway (DDT → LXRα ↓ → Aβ clearance ↓). Without a rescue experiment or a loss-of-function control, the observed correlation could be coincidental or mediated by other DDT targets.
+  - **Resolution test** Overexpress LXRα in the presence of DDT and measure Aβ clearance. Alternatively, knock down LXRα and assess whether DDT has any additional effect on Aβ clearance. Use a specific LXRα antagonist to mimic DDT effects and an agonist to reverse them.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantification and statistical rigor
+  - **Claim pointer** The manuscript reports statistically significant differences in Aβ clearance, LXRα mRNA, and LXRα protein levels between DDT-treated and control groups.
+  - **Evidence pointer** Results sections, Figures 2, 3, and 4
+  - **Concern** The quantification of Western blots is described as "semiquantitative" but no details are provided on normalization methods, number of replicates, or statistical tests used for each figure. The figure legends do not specify error bar definitions, sample sizes, or the specific statistical test performed. The methods section states that "All the experiments were repeated independently three times" but it is unclear if this applies to all experiments and whether the data in the figures represent all replicates or a representative experiment.
+  - **Why it matters** Without clear reporting of replicates and statistical methods, the reliability of the reported differences cannot be assessed. This is essential for the validity of the conclusions.
+  - **Resolution test** Provide full statistical details in the figure legends and methods, including exact p-values, test names, and n numbers. Show individual data points or a clear statement on how many independent experiments were performed and how representative blots were chosen.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance of in vitro concentrations
+  - **Claim pointer** The manuscript uses 1 μM and 10 μM DDT and argues that 10 μM is relevant based on historical exposure levels.
+  - **Evidence pointer** Methods section "Cell Culture", Results section "Cytotoxicity Under DDT Exposure", Discussion
+  - **Concern** The relevance of 10 μM DDT to human brain exposure is not well established. The authors cite serum levels of DDE (the metabolite) in elderly individuals, but DDT itself is rapidly metabolized to DDE, and brain concentrations may differ substantially from serum levels. The manuscript does not provide data on actual brain concentrations of DDT in AD patients or in environmentally exposed populations. The statement that "10 μM DDT exposure should be reasonable" is an opinion, not a data-driven conclusion.
+  - **Why it matters** If the concentrations used are not physiologically relevant, the findings may not translate to human disease. The authors need to justify the dose more rigorously or acknowledge this limitation.
+  - **Resolution test** Provide a more thorough discussion of human exposure levels, ideally with reference to brain or CSF concentrations of DDT/DDE. Alternatively, perform dose-response experiments at lower, more environmentally relevant concentrations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Molecular dynamics simulation
+  - **Evidence pointer** Methods section "Molecular Docking and Molecular Dynamics Simulation"
+  - **Issue** The text mentions "Cryptotanshinone was first prepared by ACPYPE" but the ligand of interest is DDT, not cryptotanshinone. This appears to be a copy-paste error from a previous manuscript.
+  - **Required correction** Correct the ligand name to DDT and ensure the parameterization description is accurate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Results section "Molecular Dynamics Results"
+  - **Issue** The RMSD and RMSF plots are described but the figure itself is not shown in the text. The authors should ensure the figure is clearly labeled and that the reader can distinguish between the DDT-bound and free LXRα traces.
+  - **Required correction** Ensure figure panels are clearly labeled and described in the legend, including the color scheme for each condition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of computational results
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement "the binding site (i.e., Phe-257, Leu-260, Ala-261, Met-298, Leu-299, Leu-331, Ile-336, Ile-339, Leu-428, and Trp-443) is in the LXRα C-terminal, which is the ligand binding domain" is presented as a fact, but the authors do not compare this site to the known LXRα ligand-binding pocket or discuss whether these residues are part of the canonical binding site.
+  - **Required correction** Add a comparison with the known LXRα agonist-binding site and discuss whether the predicted DDT binding site overlaps with the orthosteric pocket or represents an allosteric site.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Missing data
+  - **Affected element** DDE experiment
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors mention that they performed experiments with 10 μM DDE and obtained "much similar results" but do not show these data.
+  - **Required correction** Either include the DDE data in the main figures or supplementary material, or remove the statement. Data that are not shown cannot be evaluated.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures 2, 3, and 4
+  - **Issue** The figure legends do not specify the number of independent experiments, the statistical test used, or the definition of error bars.
+  - **Required correction** Add this information to each figure legend.
+
+## Risk / unsupported claims
+- The claim that DDT "strongly binds to LXRα" is unsupported by experimental evidence and relies solely on computational predictions.
+- The claim that DDT exerts "antagonistic effects" on LXRα is inferred from a single agonist competition experiment and is not rigorously established.
+- The causal relationship between LXRα downregulation and impaired Aβ clearance is not demonstrated; no rescue or loss-of-function experiments are provided.
+- The physiological relevance of 10 μM DDT is asserted but not substantiated with human brain or CSF concentration data.
+- The statement that DDE produces "much similar results" is unverifiable as the data are not shown.
+- The molecular dynamics simulation is described as "revising" the docking result, but no convergence or validation metrics are provided beyond RMSD/RMSF.

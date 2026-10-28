@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39528677",
+  "title": "EvoAI enables extreme compression and reconstruction of the protein sequence space.",
+  "authors": "Ma, Ziyuan; Li, Wenjie; Shen, Yunhao; Xu, Yunxin; Liu, Gengjiang; Chang, Jiamin; Li, Zeju; Qin, Hong; Tian, Boxue; Gong, Haipeng; Liu, David R; Thuronyi, B W; Voigt, Christopher A; Zhang, Shuyi",
+  "journal": "Nature methods",
+  "published_date": "2024-11-13",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用EvoAI压缩蛋白质序列空间并预测高适应度序列，虽涉及转录输出和蛋白设计，但核心是序列-功能关系而非TF-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Designing proteins with improved functions requires a deep understanding of how sequence and function are related, a vast space that is hard to explore. The ability to efficiently compress this space by identifying functionally important features is extremely valuable. Here we establish a method called EvoScan to comprehensively segment and scan the high-fitness sequence space to obtain anchor points that capture its essential features, especially in high dimensions. Our approach is compatible with any biomolecular function that can be coupled to a transcriptional output. We then develop deep learning and large language models to accurately reconstruct the space from these anchors, allowing computational prediction of novel, highly fit sequences without prior homology-derived or structural information. We apply this hybrid experimental-computational method, which we call EvoAI, to a repressor protein and find that only 82 anchors are sufficient to compress the high-fitness sequence space with a compression ratio of 10(48). The extreme compressibility of the space informs both applied biomolecular design and understanding of natural evolution.",
+  "abstract_zh": "设计具有改进功能的蛋白质需要深入理解序列与功能之间的关系，这是一个难以探索的广阔空间。通过识别功能上重要的特征来高效压缩这一空间的能力极具价值。在此，我们建立了一种名为EvoScan的方法，以全面分割和扫描高适应度序列空间，从而获取捕捉其基本特征的锚点，尤其是在高维情况下。我们的方法适用于任何能与转录输出耦合的生物分子功能。随后，我们开发了深度学习和大语言模型，以从这些锚点精确重建空间，从而无需先验的同源或结构信息即可计算预测新颖的高适应度序列。我们将这种混合实验-计算方法（称为EvoAI）应用于一种阻遏蛋白，发现仅需82个锚点即可压缩高适应度序列空间，压缩比达到10(48)。该空间的极端可压缩性既为应用生物分子设计提供了信息，也增进了对自然进化的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39528677/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39528677/",
+  "paper_page_path": "papers/pubmed/39528677/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.11.642700",
+  "title": "Using Autoregressive-Transformer Model for Protein-Ligand Binding Site Prediction",
+  "authors": "Mahdi Pourmirzaei; Salhuldin Alqarghuli; Farzaneh Esmaili; Mohammadreza Pourmirzaei; Mohsen Rezaei; Dong Xu",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-13",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用自回归Transformer和蛋白语言模型预测蛋白-配体结合位点，虽非TF-DNA体系，但结合位点预测方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "A bstract Accurate prediction of protein-ligand binding sites is critical for understanding molecular interactions and advancing drug discovery. Existing computational approaches often suffer from limited generality, restricting their applicability to a small subset of ligands, while data scarcity further impairs performance, particularly for underrepresented ligand types. To address these challenges, we introduce a unified model that integrates a protein language model with an autoregressive transformer for protein-ligand binding site prediction. By framing the task as a language modeling problem and incorporating task-specific tokens, our method achieves broad ligand coverage while relying solely on protein sequence input. We systematically analyze ligand-specific task token embeddings, demonstrating that they capture meaningful biochemical properties through clustering and correlation analyses. Furthermore, our multi-task learning strategy enables effective knowledge transfer across ligands, significantly improving predictions for those with limited training data. Experimental evaluations on 41 ligands highlight the model’s superior generalization and applicability compared to existing methods. This work establishes a scalable generative AI framework for binding site prediction, laying the foundation for future extensions incorporating structural information and richer ligand representations. The code, model, and datasets are available at this link.",
+  "abstract_zh": "摘要 蛋白质-配体结合位点的准确预测对于理解分子相互作用和推进药物发现至关重要。现有计算方法通常受限于泛化能力不足，使其仅适用于少数配体子集，而数据稀缺进一步损害了性能，尤其是对于代表性不足的配体类型。为应对这些挑战，我们引入了一个统一模型，该模型将蛋白质语言模型与自回归变换器集成，用于蛋白质-配体结合位点预测。通过将任务构建为语言建模问题并纳入任务特定标记，我们的方法实现了广泛的配体覆盖，同时仅依赖蛋白质序列输入。我们系统分析了配体特定任务标记嵌入，通过聚类和相关性分析证明它们捕获了有意义的生化特性。此外，我们的多任务学习策略实现了跨配体的有效知识迁移，显著改善了训练数据有限配体的预测。对41种配体的实验评估突显了该模型相较于现有方法的优越泛化能力和适用性。这项工作为结合位点预测建立了一个可扩展的生成式AI框架，为未来纳入结构信息和更丰富配体表示的扩展奠定了基础。代码、模型和数据集可在以下链接获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.11.642700",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.11.642700",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.11.642700/index.html"
+}

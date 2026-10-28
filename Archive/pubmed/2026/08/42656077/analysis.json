@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42656077",
+  "title": "Identification of Vital Genes Common to Dilated and Hypertrophic Cardiomyopathy Using Machine Learning and Bioinformatics.",
+  "authors": "Li, Yang; Zhang, Ran",
+  "journal": "Anatolian journal of cardiology",
+  "published_date": "2026-08-27",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习与生物信息学筛选扩张型/肥厚型心肌病的共有关键基因，仅用JASPAR预测转录因子，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Heart failure (HF) is a complex clinical syndrome and a leading cause of hospitalization and mortality worldwide, with significantly increasing mortality rates over time. Dilated cardiomyopathy (DCM) and hypertrophic cardiomyopathy (HCM) are 2 major myocardial diseases that can lead to progressive HF. Dilated cardiomyopathy is characterized by left ventricular dilation and systolic dysfunction, while HCM primarily presents with left ventricular wall thickening; both are closely associated with mutations in genes encoding cardiac sarcomere contractile proteins and exhibit genetic heterogeneity. Although previous studies have revealed alterations in transcription and protein expression in failing hearts, it may have neglected molecular changes in less frequent cell types. METHODS: The overlapping differentially expressed genes (DEGs) that overlapped between datasets GSE141910 and GSE249925 were identified, and a functional enrichment analysis was carried out. Overlapping genes in LASSO, SVM-RFE, and the key module in Weighted Gene Co-expression Network Analysis were seen as potentially significant. The receiver operating characteristic (ROC) curve was utilized to assess their potential for prognostic stratification. Immune cell infiltration was evaluated with cell-type identification by estimating relative subsets of RNA (CIBERSORT), and the findings were validated using the GSE165303 and GSE36961 datasets. Finally, the JASPAR database was utilized to predict potential transcription factors governing these key genes. RESULTS: One hundred eighty-three overlapping DEGs were identified in HCM and DCM, and the functional enrichment analysis revealed they were closely related to the inflammatory and immune response. The genes FRZB, FNDC1, and SMOC2 were identified as potentially crucial, with ROC curves suggesting their potential utility for risk stratification in both test and validation datasets. The analysis using CIBERSORT revealed a relationship between immune cells that infiltrate and important potential genes. Secreted protein acidic and rich in cysteine-related modular calccium-binding protein 2 (SPARC-SMOC2) was identified as a hub gene with potential utility for patient stratification. Estrogen receptor 1 (ESR1) showed the strongest likelihood to be the regulator. CONCLUSION: The research aimed at thoroughly understanding the pathogenesis of HCM and DCM. Discovering SMOC2 could help in understanding the shared mechanisms of HF, potentially serving as therapeutic targets in the future.",
+  "abstract_zh": "背景：心力衰竭（HF）是一种复杂的临床综合征，也是全球住院和死亡的主要原因，其死亡率随时间显著增加。扩张型心肌病（DCM）和肥厚型心肌病（HCM）是两种可导致进行性心力衰竭的主要心肌疾病。扩张型心肌病的特征为左心室扩张和收缩功能障碍，而HCM主要表现为左心室壁增厚；两者均与编码心脏肌节收缩蛋白的基因突变密切相关，并表现出遗传异质性。尽管既往研究揭示了衰竭心脏中转录和蛋白质表达的改变，但可能忽略了较少见细胞类型中的分子变化。方法：识别了数据集GSE141910和GSE249925之间重叠的差异表达基因（DEGs），并进行了功能富集分析。LASSO、SVM-RFE以及加权基因共表达网络分析中关键模块的重叠基因被视为潜在重要基因。利用受试者工作特征（ROC）曲线评估其预后分层的潜力。通过估计RNA相对子集（CIBERSORT）进行细胞类型鉴定来评估免疫细胞浸润，并使用GSE165303和GSE36961数据集验证结果。最后，利用JASPAR数据库预测调控这些关键基因的潜在转录因子。结果：在HCM和DCM中识别出183个重叠DEGs，功能富集分析显示它们与炎症和免疫反应密切相关。基因FRZB、FNDC1和SMOC2被确定为潜在关键基因，ROC曲线提示其在测试和验证数据集中具有风险分层的潜在效用。CIBERSORT分析揭示了浸润免疫细胞与重要潜在基因之间的关系。富含半胱氨酸的酸性分泌蛋白相关模块钙结合蛋白2（SPARC-SMOC2）被确定为核心基因，具有患者分层的潜在效用。雌激素受体1（ESR1）显示出最强的调控可能性。结论：本研究旨在深入理解HCM和DCM的发病机制。发现SMOC2有助于理解HF的共同机制，并可能在未来作为治疗靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42656077/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42656077/",
+  "paper_page_path": "papers/pubmed/42656077/index.html"
+}

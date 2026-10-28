@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39621803",
+  "title": "FABIO: TWAS fine-mapping to prioritize causal genes for binary traits.",
+  "authors": "Zhang, Haihan; He, Kevin; Li, Zheng; Tsoi, Lam C; Zhou, Xiang",
+  "journal": "PLoS genetics",
+  "published_date": "2024-12-02",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该文是TWAS精细定位方法FABIO，用于二值性状因果基因优先排序，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Transcriptome-wide association studies (TWAS) have emerged as a powerful tool for identifying gene-trait associations by integrating gene expression mapping studies with genome-wide association studies (GWAS). While most existing TWAS approaches focus on marginal analyses through examining one gene at a time, recent developments in TWAS fine-mapping methods enable the joint modeling of multiple genes to refine the identification of potentially causal ones. However, these fine-mapping methods have primarily focused on modeling quantitative traits and examining local genomic regions, leading to potentially suboptimal performance. Here, we present FABIO, a TWAS fine-mapping method specifically designed for binary traits that is capable of modeling all genes jointly on an entire chromosome. FABIO employs a probit model to directly link the genetically regulated expression (GReX) of genes to binary outcomes while taking into account the GReX correlation among all genes residing on a chromosome. As a result, FABIO effectively controls false discoveries while offering substantial power gains over existing TWAS fine-mapping approaches. We performed extensive simulations to evaluate the performance of FABIO and applied it for in-depth analyses of six binary disease traits in the UK Biobank. In the real datasets, FABIO significantly reduced the size of the causal gene sets by 27.9%-36.9% over existing approaches across traits. Leveraging its improved power, FABIO successfully prioritized multiple potentially causal genes associated with the diseases, including GATA3 for asthma, ABCG2 for gout, and SH2B3 for hypertension. Overall, FABIO represents an effective tool for TWAS fine-mapping of disease traits.",
+  "abstract_zh": "转录组全关联研究（TWAS）已成为一种强大的工具，通过将基因表达定位研究与全基因组关联研究（GWAS）相结合，来识别基因-性状关联。尽管大多数现有TWAS方法侧重于通过一次检查一个基因进行边际分析，但TWAS精细定位方法的最新进展使得能够对多个基因进行联合建模，以细化潜在因果基因的识别。然而，这些精细定位方法主要集中于对定量性状建模并检查局部基因组区域，可能导致性能次优。在此，我们提出FABIO，一种专门针对二元性状设计的TWAS精细定位方法，能够对整个染色体上的所有基因进行联合建模。FABIO采用probit模型，将基因的遗传调控表达（GReX）直接与二元结果相关联，同时考虑染色体上所有基因之间的GReX相关性。因此，FABIO有效控制假发现，同时相比现有TWAS精细定位方法提供显著的效力提升。我们进行了广泛的模拟以评估FABIO的性能，并将其应用于英国生物银行中六种二元疾病性状的深入分析。在真实数据集中，FABIO将因果基因集的大小在各性状上比现有方法显著减少了27.9%-36.9%。利用其增强的效力，FABIO成功优先排序了多个与疾病相关的潜在因果基因，包括哮喘的GATA3、痛风的ABCG2和高血压的SH2B3。总体而言，FABIO代表了疾病性状TWAS精细定位的有效工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39621803/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39621803/",
+  "paper_page_path": "papers/pubmed/39621803/index.html"
+}

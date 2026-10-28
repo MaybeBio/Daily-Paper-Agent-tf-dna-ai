@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text, including highlights, introduction, methods, results, discussion, and data availability statement.
+- **Assessment boundary** The scientific validity of the in silico pipeline, the interpretation of results, and the strength of the claims regarding cancer association. The review does not assess editorial quality or journal fit beyond the stated criteria.
+- **Shared manuscript claim summary** The authors present a comprehensive in silico analysis of 20,024 SNPs in the human TFEB gene, identifying six nonsynonymous SNPs (nsSNPs) predicted to be deleterious, disease-associated, and structurally destabilizing. They further claim these variants may alter TFEB protein stability and DNA-binding interactions, with potential implications for cancer susceptibility.
+- **Visible evidence base** The manuscript includes tables of variant predictions (Tables 1-5, 9-12), structural evaluation scores (Tables 7-8), figures of the workflow (Fig. 1), variant distribution (Fig. 2), mutation clusters (Fig. 3), protein interaction networks (Fig. 4), PTM sites (Fig. 5), and docking results (Figs. 6, 7A, 7B). Supplementary tables are referenced but not provided in the submitted material.
+- **Missing materials affecting confidence** Supplementary Tables 1-5, which contain the full lists of SIFT, PolyPhen-2, PROVEAN, PhD-SNP, SNPs&GO, and iPTMnet predictions, were not provided. The specific DNA sequence used for docking, the full list of interacting residues, and the raw output files from HADDOCK and DNAproDB are also absent. No experimental validation data are included.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a standard in silico pipeline for prioritizing potentially deleterious nsSNPs in a single gene. The methodology is largely appropriate and follows established protocols. However, the study is purely computational and the central claim of a "predicted association with cancer" is weakly supported by the presented evidence. The authors do not provide a clear mechanistic link between the identified variants and cancer biology, and the use of multiple prediction tools without a clear consensus or prioritization framework weakens the conclusions. The manuscript would benefit from a more focused analysis, a clearer definition of "high-risk," and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers studying TFEB biology, particularly its role in autophagy, lysosomal biogenesis, and cancer, may find the prioritized variant list a useful starting point for future functional studies. Computational biologists and geneticists interested in the application of in silico tools for variant prioritization may also find the pipeline of interest. However, the lack of experimental validation limits the immediate utility for clinical or translational researchers.
+- **Major Strengths**
+  - The study uses a multi-step, multi-tool approach, which is a common and generally accepted strategy for in silico variant prioritization.
+  - The authors clearly state their rationale for using web-based tools to ensure reproducibility.
+  - The inclusion of structural modeling, stability prediction, and docking analysis provides a more comprehensive assessment than sequence-based prediction alone.
+  - The authors acknowledge the limitations of their purely computational approach.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Claim support
+    - **Claim pointer** The manuscript claims a "predicted association with cancer" for the identified variants, and specifically states that "R315H, R254C, and R234W emerged as the most noteworthy variants, showing consistent oncogenic predictions and/or patient-level validation."
+    - **Evidence pointer** Table 9, Section "Associations between high-risk nsSNPs and cancer susceptibility", Discussion.
+    - **Concern** The evidence for a cancer association is inconsistent and over-interpreted. The results from CScape, Dr. Cancer, Cancer Genome Interpreter, and FATHMM are discordant. For example, CScape predicts R464C as oncogenic, but FATHMM and Cancer Genome Interpreter classify it as a passenger mutation. Dr. Cancer classifies all variants as disease-associated, which is a binary and non-specific output. The claim of "patient-level validation" is based on the detection of R254C in two cancer types via cBioPortal, but the manuscript does not provide details on the frequency, sample size, or whether this is a somatic or germline variant. The presence of a variant in a cancer sample does not establish a causal or even a contributory role. The authors need to either provide a more robust statistical or functional argument for the cancer link or temper their conclusions significantly.
+    - **Why it matters** The central hypothesis of the paper, as stated in the title and introduction, is the link to cancer. If the evidence for this link is weak, the core message of the paper is not established. Overstating the significance of computational predictions can mislead the field and lead to wasted effort in follow-up studies.
+    - **Resolution test** The authors should provide a clear, quantitative definition of "high-risk" and "cancer-associated." They should present a consensus analysis, perhaps by requiring a variant to be predicted as deleterious by a majority of tools, and clearly state the level of agreement. The cBioPortal data should be presented with more context, including the type of cancer, the number of samples, and the variant allele frequency. If the data are insufficient, the claim of a cancer association should be removed or heavily qualified.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The manuscript states that "the feasibility of this structure was verified" for using the AlphaFold structure as a template, based on a TM score of 0.67 and RMSD of 1.84 against the X-ray structure (PDB ID: 7Y62).
+    - **Evidence pointer** Section "3D modeling of proteins", Table 7.
+    - **Concern** The validation of the AlphaFold structure is inadequate. A TM score of 0.67 is generally considered to indicate only moderate structural similarity, and the RMSD of 1.84 Å is reported without specifying the number of aligned residues. The X-ray structure (7Y62) is described as having a "modeled residue count of 75 amino acids," which is a very small fragment. Aligning a full-length AlphaFold model to a 75-residue fragment and obtaining a TM score of 0.67 does not validate the overall fold of the protein, particularly the regions where the mutations are located. The manuscript does not state which residues were aligned or whether the mutations fall within the aligned region.
+    - **Why it matters** The structural models are the basis for the docking analysis and the interpretation of how mutations affect DNA binding. If the template structure is not reliable, the conclusions drawn from the docking and structural analysis are not trustworthy.
+    - **Resolution test** The authors should provide a detailed description of the structural alignment, including the number of aligned residues and the RMSD over those residues. They should also assess the local structural confidence of the AlphaFold model (e.g., pLDDT scores) in the regions containing the mutations. If the mutations are in low-confidence regions, the structural interpretations are speculative. A more robust validation would involve comparing the AlphaFold model to a more complete experimental structure, if one exists.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretation
+    - **Claim pointer** The manuscript states that "Mutations altered TFEB protein stability and its DNA-binding interaction" and that the identified variants "may impair its critical regulatory functions."
+    - **Evidence pointer** Tables 3, 4, 10, 11, 12, Section "Discussion".
+    - **Concern** The link between the predicted stability changes, the docking scores, and the functional impact is not clearly established. The HADDOCK scores show that all mutant complexes have lower (more favorable) scores than the wild-type, which is interpreted as "better interaction." However, the biological significance of a lower HADDOCK score in this context is not discussed. Does a stronger binding to DNA necessarily mean a more functional protein? The manuscript does not discuss whether these mutations are in the DNA-binding domain and how a change in binding affinity would affect transcriptional activity. The prediction of "loss of function" is not supported by the data, which could also be interpreted as a gain of function or a dominant-negative effect.
+    - **Why it matters** The paper aims to identify variants that "may impair" TFEB function. Without a clear mechanistic model of how altered DNA binding leads to impaired function, the interpretation is speculative. The authors need to connect the structural and biophysical predictions to a plausible biological outcome.
+    - **Resolution test** The authors should discuss the potential functional consequences of altered DNA-binding affinity. For example, they could use the predicted changes in binding energy to hypothesize whether the mutations would lead to a loss of transcriptional activation or a change in target gene specificity. They should also consider the location of the mutations relative to known functional domains and discuss the potential for dominant-negative or gain-of-function effects.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Section "Prediction of posttranslational modification sites (PTMs)"
+    - **Evidence pointer** Figure 5, Supplementary Table 5.
+    - **Issue** The text states that "none of the chosen nsSNPs match any of the sites predicted by this server," but then notes that R254 is a methylation site and that the S463 phosphorylation site is immediately before R464C. This is contradictory. The R464C mutation is adjacent to a phosphorylation site, which could have a functional impact.
+    - **Required correction** Clarify the relationship between the mutations and the PTM sites. If R464C is near a phosphorylation site, this should be discussed as a potential mechanism of action, not dismissed.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Table 5
+    - **Evidence pointer** Table 5
+    - **Issue** The table lists "Interferes with other molecule/residue interaction" as "NO" for R464C, but the text in the results section states that the mutation affects the ability of TFEB to connect with other molecules.
+    - **Required correction** Ensure consistency between the table and the text. If the table is correct, the text should be revised. If the text is correct, the table should be updated.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Methodology
+    - **Affected element** Section "Identification of disease-related SNPs in the TFEB gene"
+    - **Evidence pointer** Section "Materials and methods"
+    - **Issue** The manuscript does not specify the exact thresholds or parameters used for the PhD-SNP and SNPs&GO tools beyond the general description. The reliability index (RI) is mentioned, but the cutoff for "disease" vs. "neutral" is not clearly defined.
+    - **Required correction** Provide the specific cutoffs used for each tool to ensure the analysis is reproducible.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Literature context
+    - **Affected element** Section "Discussion"
+    - **Evidence pointer** Section "Discussion"
+    - **Issue** The discussion mentions that "R315C is associated with cutaneous melanoma and that R315S and R271H are associated with uterine endometrioid carcinoma" from cBioPortal, but does not cite any literature or provide a reference for these associations.
+    - **Required correction** Add appropriate citations for the cBioPortal data or clarify that these are novel observations from the database.
+- **Technical failings that need to be addressed before the case is established**
+  - The lack of a clear consensus definition for "deleterious" across the multiple prediction tools.
+  - The inadequate validation of the AlphaFold structural template.
+  - The over-interpretation of the cBioPortal data as "patient-level validation" without sufficient context.
+  - The failure to provide a mechanistic hypothesis linking altered DNA binding to a specific functional outcome.
+- **Assessment against Nature-style criteria**
+  - **Originality** Low. The application of a standard in silico pipeline to a new gene (TFEB) is a common approach and does not represent a significant methodological or conceptual advance.
+  - **Scientific importance** Moderate. TFEB is a relevant protein in autophagy and cancer biology, and identifying potentially functional variants is of some interest. However, the purely computational nature of the study limits its immediate impact.
+  - **Interdisciplinary readership** Low. The study is likely to be of interest primarily to a specialized audience of computational biologists and TFEB researchers. The findings are unlikely to appeal to a broader readership in cancer biology or clinical research without experimental validation.
+  - **Technical soundness** The individual tools are used appropriately, but the overall pipeline has weaknesses, particularly in the structural validation and the interpretation of the docking results. The lack of a clear consensus framework for combining predictions is a significant flaw.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the methods are described in a way that is accessible. However, the results section is dense with tool names and scores, which may be difficult for a non-specialist to follow. The discussion could be more focused on the biological implications.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable in silico screen, but the central claim of a cancer association is not supported by the data. The technical concerns regarding structural validation and data interpretation must be addressed. The authors should either provide a more robust analysis or significantly temper their conclusions. I would be supportive of a revised manuscript that addresses these major concerns.
+
+## Risk / unsupported claims
+- The claim that the identified variants are "associated with cancer" is unsupported. The prediction tools are discordant, and the cBioPortal data are presented without sufficient context to establish an association.
+- The claim that the mutations "altered TFEB protein stability and its DNA-binding interaction" is only weakly supported. The stability predictions are from two tools with conflicting results for some variants, and the docking analysis is based on a poorly validated structural model.
+- The statement that "R315H, R254C, and R234W emerged as the most noteworthy variants, showing consistent oncogenic predictions" is not accurate, as the predictions are not consistent across all tools.
+- The claim that the study "can inform future research on TFEB" and "aid in the identification of effective drugs or pharmacological targets" is speculative and not supported by the data presented.

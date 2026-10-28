@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a mechanistic model in which Sae2/CtIP activates the Mre11-Rad50 endonuclease by stabilizing the Mre11 nuclease in a catalytically poised conformation, supported by AlphaFold2 structural modeling, compensatory mutation designs, and in vitro/in vivo assays, with extension to the human CtIP-MRN system despite sequence divergence.
+- **Visible evidence base** Abstract text only; no experimental details, structural coordinates, statistical analyses, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, methods section, structural model validation details, and raw experimental results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant mechanistic advance in understanding how Sae2/CtIP activates Mre11 nuclease activity, a question of broad relevance to DNA repair. The proposed model, in which Sae2 stabilizes a catalytically competent conformation of Mre11, is plausible and conceptually appealing. However, the abstract provides insufficient experimental and computational detail to evaluate the robustness of the structural predictions, the strength of the genetic and biochemical validation, or the generalizability of the mechanism to the human system. The claim of mechanistic conservation between yeast and human proteins, despite sequence divergence, is intriguing but requires direct comparative evidence that is not visible in the abstract.
+- **Who would be interested in the results, and why** Researchers in DNA double-strand break repair, genome stability, and cancer biology would be interested, as the MRN/MRX complex and CtIP/Sae2 are central to resection initiation and are implicated in cancer predisposition syndromes. Structural biologists studying protein-nuclease regulation and computational biologists using AlphaFold2 for mechanistic inference would also find the approach relevant.
+- **Major strengths** The study addresses a long-standing gap in understanding how Sae2/CtIP activates Mre11 endonuclease activity, as prior structural information came only from organisms lacking these cofactors. The combination of AlphaFold2 modeling with compensatory mutation design is a powerful strategy to test structural predictions functionally. The extension to the human CtIP-MRN system, despite sequence divergence, suggests broad biological relevance and potential therapeutic implications.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Sae2 stabilizes the Mre11 nuclease in a conformation poised to cleave substrate DNA"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The central structural claim is presented as established, but the abstract provides no details on how the AlphaFold2 models were validated, whether the predicted conformation was confirmed by independent methods (e.g., crosslinking, cryo-EM, or mutagenesis controls), or how the "poised" state differs energetically or dynamically from unbound states.  
+  - **Why it matters** Without validation of the predicted conformation, the mechanistic model remains speculative. AlphaFold2 predictions are not direct evidence of conformational states in solution, and the abstract does not indicate whether the models were tested against known biochemical constraints or alternative conformations.  
+  - **Resolution test** Provide experimental validation of the predicted Mre11-Sae2 interface and conformational change, such as site-directed mutagenesis with functional readouts, hydrogen-deuterium exchange, or structural determination. Show that the "poised" conformation is specifically induced by Sae2 and not an artifact of modeling.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** "human CtIP, despite considerable sequence divergence, employs a similar mechanism to activate MRN"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims mechanistic conservation between yeast Sae2 and human CtIP, but no comparative data are shown. It is unclear whether the human experiments used the same compensatory mutation strategy, whether the structural models for CtIP-MRN were built with equivalent confidence, or whether functional assays demonstrated comparable activation.  
+  - **Why it matters** The human relevance is a key selling point for the study's broader impact. If the human data are limited to modeling or single assays, the claim of a "similar mechanism" is overreaching and could mislead readers about the strength of cross-species conservation.  
+  - **Resolution test** Present direct experimental evidence for CtIP-mediated activation of MRN, including mutagenesis of the predicted interface, functional assays in human cells or purified systems, and structural models with confidence metrics comparable to the yeast system.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Quantitative support  
+  - **Claim pointer** "Several designs of compensatory mutations establish how Sae2 activates MRX in vitro and in vivo"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that compensatory mutations "establish" the mechanism, but no quantitative data (e.g., nuclease activity rates, resection efficiencies, or statistical significance) are provided. The term "establish" implies a high level of certainty that may not be warranted without seeing the magnitude of effects and controls.  
+  - **Why it matters** Compensatory mutations are a strong test of structural models, but their interpretability depends on the specificity of the effects. Without data showing that the mutations disrupt and restore function in a predicted manner, alternative explanations (e.g., allosteric effects) cannot be excluded.  
+  - **Resolution test** Include quantitative activity measurements for wild-type, single-mutant, and compensatory-mutant conditions, with appropriate statistical tests and controls for protein stability and complex assembly.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "combination of AlphaFold2 structural modeling of biochemical and genetic assays" is grammatically ambiguous and could be misread as modeling of assays rather than integration of modeling with assays.  
+  - **Required correction** Rephrase to "combination of AlphaFold2 structural modeling with biochemical and genetic assays" for clarity.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Background statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that structural insights are "available only for organisms lacking Sae2/CtIP," but does not specify which organisms or structures, leaving the reader without a clear baseline for the novelty claim.  
+  - **Required correction** Briefly name the relevant organisms or structures (e.g., bacterial or archaeal Mre11) to contextualize the gap.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "nuclease ensemble"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "nuclease ensemble" is vague and not standard in the field; it is unclear whether it refers to the MRX/N complex, the nuclease domain, or a dynamic assembly.  
+  - **Required correction** Use a more precise term such as "Mre11-Rad50 nuclease complex" or "MRX/N complex."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central structural mechanism and its human relevance are not sufficiently supported by the abstract-level evidence. R1-M3 is non-blocking but requires quantitative data to fully substantiate the "establish" claim.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The proposed mechanism is novel, as prior structural work did not include Sae2/CtIP, and the use of AlphaFold2 to predict a Sae2-induced conformational change is a fresh approach. However, the abstract does not demonstrate how this differs from prior models of Mre11 regulation.  
+  - **Scientific importance** The topic is of high importance to DNA repair and genome stability, and a validated mechanism would be a significant advance. The human extension increases translational relevance.  
+  - **Interdisciplinary readership** The work bridges structural biology, biochemistry, and genetics, and would appeal to a broad audience if the evidence is presented accessibly. The abstract is currently too condensed to assess this fully.  
+  - **Technical soundness** The combination of modeling and mutagenesis is sound in principle, but the abstract lacks details on model confidence, experimental controls, and statistical rigor, making technical soundness unverifiable at this stage.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terms (e.g., "resection," "compensatory mutations") without explanation, which may limit accessibility for a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The proposed mechanism is plausible and potentially important, but the abstract does not provide sufficient evidence to establish the structural model or its human relevance. Full manuscript review is needed to assess the experimental rigor and data quality.
+
+## Risk / unsupported claims
+- The claim that Sae2 "stabilizes the Mre11 nuclease in a conformation poised to cleave substrate DNA" is unsupported by the abstract-level evidence, as no structural validation or conformational data are shown.
+- The claim that human CtIP "employs a similar mechanism" is unsupported without direct comparative experimental data.
+- The claim that compensatory mutations "establish" the mechanism is overstated given the absence of quantitative results in the abstract.
+- The general statement that Sae2/CtIP stimulates endonuclease activity is well-established in the literature and is not at risk, but the specific mechanistic claims are not evaluable from the provided material.

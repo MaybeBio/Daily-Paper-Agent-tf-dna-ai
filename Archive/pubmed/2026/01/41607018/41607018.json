@@ -1,0 +1,544 @@
+{
+  "identity": {
+    "pmid": "41607018",
+    "doi": "10.1002/anie.202514067",
+    "title": "Targeting the Membrane-Embedded Rhomboid Protease GlpG: A Multimodal Strategy for Inhibitor Discovery and Mechanistic Insight."
+  },
+  "content": {
+    "abstract": "Rhomboid proteases, a class of intramembrane proteases characterized by a Ser-His catalytic dyad, have recently emerged as promising therapeutic targets. While inhibitors for soluble serine proteases have been extensively studied, the spectrum of potent rhomboid protease inhibitor chemotypes is limited to active-site targeted nucleophiles. To address this limitation, we conducted a high-throughput screen of over 68,000 compounds targeting the E. coli rhomboid protease GlpG, using a fluorescent liposome-based assay. A selection of 326 inhibitory compounds was evaluated in a subsequent IC(50) screen against two variants of GlpG (core domain and full length), a soluble serine protease (chymotrypsin), as well as the human mitochondrial rhomboid PARL. Of these, the selective inhibitory effects of 2 compounds and their analogues on GlpG were confirmed through further biochemical and biophysical characterisation, molecular docking, and solid-state NMR spectroscopy. This study paves the way for developing small-molecule tool compounds and drug-like molecules targeting rhomboid proteases.",
+    "keywords": [
+      "drug discovery",
+      "high-throughput screening",
+      "intramembrane proteolysis",
+      "membrane enzymes",
+      "protein drug interactions"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Escherichia coli Proteins/antagonists & inhibitors/metabolism/chemistry",
+      "*Protease Inhibitors/chemistry/pharmacology",
+      "*Drug Discovery",
+      "*Endopeptidases/metabolism/chemistry",
+      "Molecular Docking Simulation",
+      "Escherichia coli/enzymology",
+      "*Mitochondrial Proteins/antagonists & inhibitors/metabolism",
+      "*Membrane Proteins/antagonists & inhibitors/metabolism",
+      "*DNA-Binding Proteins/antagonists & inhibitors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bohg, Claudia",
+        "Dubanych, Yurii",
+        "Kosteletos, Spyridon",
+        "Xiao, Taoran",
+        "Neuenschwander, Martin",
+        "Utesch, Tillmann",
+        "Lisurek, Michael",
+        "Oster, Carl",
+        "Oder, Andreas",
+        "Seyffarth, Carola",
+        "Bach, Kathrin",
+        "Leone, Denise-Liu Gracias",
+        "Filandr, Frantisek",
+        "Wegert, Marc",
+        "Lange, Sascha",
+        "Sawczyc, Henry",
+        "von Kries, Jens Peter",
+        "Hackenberger, Christian P R",
+        "Specker, Edgar",
+        "Sun, Han",
+        "Strisovsky, Kvido",
+        "Lange, Adam"
+      ],
+      "short_names": [
+        "Bohg C",
+        "Dubanych Y",
+        "Kosteletos S",
+        "Xiao T",
+        "Neuenschwander M",
+        "Utesch T",
+        "Lisurek M",
+        "Oster C",
+        "Oder A",
+        "Seyffarth C",
+        "Bach K",
+        "Leone DG",
+        "Filandr F",
+        "Wegert M",
+        "Lange S",
+        "Sawczyc H",
+        "von Kries JP",
+        "Hackenberger CPR",
+        "Specker E",
+        "Sun H",
+        "Strisovsky K",
+        "Lange A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0793-3199",
+        "ORCID: 0000-0002-7534-5973"
+      ],
+      "affiliations": [
+        "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic.",
+        "Faculty of Food and Biochemical Technology, University of Chemistry and Technology, Prague, Czech Republic.",
+        "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Core Facility Screening Unit, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Research Unit Structural Chemistry & Computational Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Research Unit Structural Chemistry & Computational Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Core Facility Screening Unit, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Core Facility Screening Unit, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic.",
+        "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic.",
+        "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic.",
+        "Research Unit Biomolecule Modification and Delivery, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Core Facility Screening Unit, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Research Unit Biomolecule Modification and Delivery, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Institute of Chemistry, Humboldt-Universitat zu Berlin, Berlin, Germany.",
+        "Core Facility Compound Management, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Research Unit Structural Chemistry & Computational Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Institute of Chemistry, Technische Universitat Berlin, Berlin, Germany.",
+        "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic.",
+        "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Institute of Biology, Humboldt-Universitat zu Berlin, Berlin, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bohg, Claudia",
+        "short_name": "Bohg C",
+        "identifiers": [
+          "0000-0003-0793-3199"
+        ],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Dubanych, Yurii",
+        "short_name": "Dubanych Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic.",
+          "Faculty of Food and Biochemical Technology, University of Chemistry and Technology, Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kosteletos, Spyridon",
+        "short_name": "Kosteletos S",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Xiao, Taoran",
+        "short_name": "Xiao T",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Neuenschwander, Martin",
+        "short_name": "Neuenschwander M",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facility Screening Unit, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Utesch, Tillmann",
+        "short_name": "Utesch T",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Structural Chemistry & Computational Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Lisurek, Michael",
+        "short_name": "Lisurek M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Structural Chemistry & Computational Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Öster, Carl",
+        "short_name": "Öster C",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Oder, Andreas",
+        "short_name": "Oder A",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facility Screening Unit, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Seyffarth, Carola",
+        "short_name": "Seyffarth C",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facility Screening Unit, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Bach, Kathrin",
+        "short_name": "Bach K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Leone, Denise-Liù Gracias",
+        "short_name": "Leone DG",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Filandr, František",
+        "short_name": "Filandr F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Wegert, Marc",
+        "short_name": "Wegert M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Biomolecule Modification and Delivery, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Lange, Sascha",
+        "short_name": "Lange S",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Sawczyc, Henry",
+        "short_name": "Sawczyc H",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "von Kries, Jens Peter",
+        "short_name": "von Kries JP",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facility Screening Unit, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Hackenberger, Christian P R",
+        "short_name": "Hackenberger CPR",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Biomolecule Modification and Delivery, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany.",
+          "Institute of Chemistry, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Specker, Edgar",
+        "short_name": "Specker E",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facility Compound Management, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Sun, Han",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Structural Chemistry & Computational Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany.",
+          "Institute of Chemistry, Technische Universität Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Stříšovský, Kvido",
+        "short_name": "Stříšovský K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Lange, Adam",
+        "short_name": "Lange A",
+        "identifiers": [
+          "0000-0002-7534-5973"
+        ],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany.",
+          "Institute of Biology, Humboldt-Universität zu Berlin, Berlin, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2026 Mar 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/29 07:34",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41469376",
+      "40221411",
+      "39841396",
+      "39739757",
+      "39691509",
+      "38901105",
+      "38718835",
+      "38453906",
+      "38295893",
+      "38059872",
+      "37467320",
+      "36870520",
+      "36658222",
+      "36540942",
+      "36351890",
+      "36149963",
+      "35947953",
+      "35921890",
+      "35165272",
+      "34703562",
+      "34311087",
+      "33877619",
+      "33556373",
+      "32888502",
+      "32337752",
+      "32320686",
+      "31930742",
+      "31603315",
+      "31570873",
+      "30705155",
+      "30055896",
+      "29506958",
+      "29498890",
+      "29463448",
+      "29185711",
+      "29107700",
+      "28779096",
+      "28346741",
+      "28288130",
+      "28178523",
+      "28065274",
+      "28065265",
+      "27563067",
+      "27303716",
+      "26805573",
+      "26101826",
+      "25216680",
+      "25162988",
+      "23991088",
+      "23665170",
+      "23562403",
+      "22795130",
+      "22515733",
+      "21833011",
+      "21426348",
+      "21355049",
+      "21256137",
+      "21175222",
+      "21115803",
+      "20890268",
+      "20426451",
+      "19859837",
+      "19761755",
+      "19685275",
+      "17938163",
+      "17215357",
+      "17099694",
+      "17059825",
+      "17051161",
+      "16713954",
+      "15851036",
+      "12620104",
+      "12200155",
+      "11672525",
+      "10838414",
+      "2868172"
+    ],
+    "similar": [
+      "41607018",
+      "34311087",
+      "23991088",
+      "24099005",
+      "29463448",
+      "25216680",
+      "16216077",
+      "28884847",
+      "30420443",
+      "20890268",
+      "25307614",
+      "31059259",
+      "23609444",
+      "31603315",
+      "28065272",
+      "26805573",
+      "23585569",
+      "17051161",
+      "19278654",
+      "17493126",
+      "22963263",
+      "31480836",
+      "17463085",
+      "17501925",
+      "23359682",
+      "22705210",
+      "26166068",
+      "17976648",
+      "17099694",
+      "30044760",
+      "18979634",
+      "23353827",
+      "19919105",
+      "39488732",
+      "22515733",
+      "34703562",
+      "39136457",
+      "20070259",
+      "26621464",
+      "39215029",
+      "21256137",
+      "26218717",
+      "21175222",
+      "29506958",
+      "33556373",
+      "22921757",
+      "22130671",
+      "22770371",
+      "17277078",
+      "37467320",
+      "19761755",
+      "41469376",
+      "17190827",
+      "31570873",
+      "28065274",
+      "38901105",
+      "22035660",
+      "17714936",
+      "31159170",
+      "32320686",
+      "28065267",
+      "27889944",
+      "35471152",
+      "23518036",
+      "39041925",
+      "24099006",
+      "20558178",
+      "16621838",
+      "24315097",
+      "26858402",
+      "26605622",
+      "25162988",
+      "28065266",
+      "41022837",
+      "32848056",
+      "39922490",
+      "26551589",
+      "41650319",
+      "17213330",
+      "32795403",
+      "27567709",
+      "40608547",
+      "39691509",
+      "40571587",
+      "26056273",
+      "40304703",
+      "32337752",
+      "17494772",
+      "17179147",
+      "33210155",
+      "39162260",
+      "41887806",
+      "29185711",
+      "23665170",
+      "23432912",
+      "23150798",
+      "32859008",
+      "28373355",
+      "26999782",
+      "24692018"
+    ],
+    "review": [
+      "41607018",
+      "24099005",
+      "23585569",
+      "26166068",
+      "20070259",
+      "26621464",
+      "28065274",
+      "22035660",
+      "17714936",
+      "32320686",
+      "28065267",
+      "27889944",
+      "23518036",
+      "24099006",
+      "27567709",
+      "33210155",
+      "23432912"
+    ],
+    "pmc": [
+      "12955534"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41607018/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/anie.202514067",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Materials and methods, Supporting information list)
+- **Assessment boundary** Scientific soundness, methodological validity, claims versus evidence, and alignment with Nature-style criteria. No line numbers were provided; section names are used as evidence pointers.
+- **Shared manuscript claim summary** The authors propose that regional somatic mutation rates at kilobase resolution can be predicted using DNA sequence motifs, including known transcription factor motifs and "epi-motifs" associated with histone modifications and DNA methylation. They introduce an interpretable neural network model (contextual regression) to identify important motifs, define cancer-related regions as those deviating from predicted rates, and demonstrate that these regions can classify cancer types.
+- **Visible evidence base** Main text figures referenced (Fig 1, 2A-E, 3A-E, 4A-E, 5A-F), supplementary figures (S1-S8), supplementary tables (S1-S13), and methods descriptions. No actual data files, code, or supplementary material were provided for inspection.
+- **Missing materials affecting confidence** Supplementary tables (S1-S13), supplementary figures (S1-S8), code repository, and the full dataset of somatic mutations and motif annotations. The GitHub link is mentioned but not accessible in this review. No hyperparameter search details for the classification model beyond a summary. No details on the Poisson assumption validation.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: whether DNA sequence motifs alone can predict regional somatic mutation rates at a finer scale than previously achieved. The idea of using "epi-motifs" as proxies for epigenetic state is creative and potentially impactful. The contextual regression framework is appropriate for interpretability. However, the evidence provided in the text is insufficient to fully evaluate the robustness of the claims. Several key methodological details are missing, and some claims appear to exceed what the presented results can support. The cancer classification result, while interesting, is presented with limited context and may be confounded by mutation burden. The comparison to ChIP-seq is based on a single cell line and one cancer type, which is a weak basis for the claim of comparable performance. The manuscript is well-written and accessible, but the technical validation needs strengthening.
+- **Who would be interested in the results, and why** Cancer genomics researchers, particularly those studying mutational processes, driver mutation discovery, and the role of chromatin state in mutagenesis. Computational biologists developing interpretable models for genomic features. Epigeneticists interested in the regulatory role of DNA motifs. The potential to predict mutation rates from sequence alone could be useful for interpreting whole-genome sequencing data and identifying disease-relevant regions.
+- **Major strengths** 1. The central hypothesis is clearly stated and well-motivated. 2. The use of contextual regression for interpretability is a strength, moving beyond black-box prediction. 3. The scale of analysis (13 cancer types, 1,125 donors) is substantial. 4. The finding that epi-motifs are over-represented among important features is interesting and supports their functional relevance. 5. The demonstration that cancer-related regions can classify cancer types is a potentially valuable translational application.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Model validation
+  - **Claim pointer** The claim that the model "successfully learn[s] the universal relationship between mutations and DNA motifs" and that prediction performance is "comparable to that using ChIP-seq data."
+  - **Evidence pointer** Results section "Regional somatic mutation rates could be predicted using DNA motifs at kilobase resolution", Figure 2B-D, Figure 3A, S3 Table
+  - **Concern** The primary evidence for the model's predictive power is the Pearson correlation coefficient. However, the manuscript does not report confidence intervals for these correlations, nor does it compare them against a null model or a simpler baseline (e.g., a model using only GC content, replication timing, or ChromHMM state as a categorical variable). The claim of "comparable" performance to ChIP-seq is based on a single comparison (Lymph-CLL vs. GM12878) and does not account for the fact that the ChIP-seq model uses far fewer features (165 vs. 2321). The improvement from 0.871 to 0.899 (ChIP-seq vs. motifs) may not be significant, and the manuscript does not provide a statistical test for the difference. Without a proper baseline and uncertainty quantification, the core claim of successful prediction is not fully established.
+  - **Why it matters** The central thesis of the paper rests on the model's ability to predict mutation rates. If a simpler model (e.g., based on GC content and ChromHMM state) performs similarly, the added value of the motif-based approach is diminished. The comparison to ChIP-seq is a key selling point, but a single, potentially underpowered comparison is insufficient to support the claim of equivalence.
+  - **Resolution test** Provide confidence intervals for all reported correlations. Compare the motif-based model against a baseline model that includes only genomic features like GC content, replication timing, and ChromHMM state. Perform a statistical comparison (e.g., a test for dependent correlations) between the motif-based and ChIP-seq-based predictions for Lymph-CLL. Ideally, extend the ChIP-seq comparison to at least one other cancer type where matched ChIP-seq data are available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Cancer-related region identification
+  - **Claim pointer** The identification of "cancer-related regions" as those with significantly higher mutation rates than predicted, and the subsequent use of these regions for cancer type classification.
+  - **Evidence pointer** Results section "The CR model allows identification of cancer-related genomic regions and motifs", Figure 5A-F, S6 Table
+  - **Concern** The method for identifying cancer-related regions relies on a Poisson assumption for mutation counts. This assumption is likely violated due to overdispersion (e.g., due to variation in replication timing, chromatin state, and other factors not captured by the model). The manuscript does not test this assumption. Furthermore, the classification model uses mutation counts in these regions as features. This is potentially circular, as regions with high mutation counts are selected, and then mutation counts are used to classify. The model may simply be classifying based on overall mutation burden, which is known to vary by cancer type. The manuscript does not control for total mutation count or genome-wide mutation rate in the classification analysis.
+  - **Why it matters** The biological interpretation of "cancer-related regions" is a key output of the paper. If the identification method is flawed, the subsequent analyses (e.g., motif disruption, pathway enrichment) may be biased. The classification result, while impressive at first glance, may be trivially explained by mutation burden, which would undermine the claim that the identified regions are specifically cancer-related.
+  - **Resolution test** Validate the Poisson assumption (e.g., by checking for overdispersion). In the classification model, include total mutation count as a covariate or use a feature normalization that accounts for it. Perform a permutation test where the labels of cancer types are shuffled to establish a null distribution for classification accuracy. Show that the selected regions are not simply the regions with the highest mutation counts genome-wide.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility / Data availability
+  - **Claim pointer** The claim that the model can be applied to new cancer types without retraining.
+  - **Evidence pointer** Results section "Regional somatic mutation rates could be predicted using DNA motifs at kilobase resolution", Figure 2D, S3 Table
+  - **Concern** The model is trained on 5 cancer types and tested on 8 held-out cancer types. However, the manuscript does not provide sufficient detail on how the model generalizes. For example, are the held-out cancer types similar in mutation burden and chromatin organization to the training types? The manuscript reports an average correlation of 0.857 for the held-out types, but the range and variance across these types are not discussed. The claim of "without retraining" is strong, but the evidence is limited to a single, aggregated metric.
+  - **Why it matters** The generalizability of the model is a major selling point, especially for potential clinical applications where matched normal data may not be available. If the model performs well only on cancer types similar to the training set, the claim of universal applicability is weakened.
+  - **Resolution test** Report the per-cancer-type correlations for the held-out types. Discuss the characteristics of these types (e.g., mutation burden, tissue of origin) and how they relate to the training types. If possible, test the model on a more diverse set of cancer types or on cancer types with different mutational processes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods section "Construction, training and testing of the CR model"
+  - **Evidence pointer** Materials and methods, Figure 2A
+  - **Issue** The description of the neural network architecture is incomplete. The number of layers is stated (7 hidden layers), but the number of nodes in layers 2, 4, and 6 (the dropout layers) is not specified. The activation function for the hidden layers is ReLU, but the output layer is linear. The manuscript should provide a complete architectural summary, including the number of parameters.
+  - **Required correction** Provide a table or a detailed text description of the full architecture, including the number of nodes in each layer, the dropout rates, and the total number of trainable parameters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "Contextual regression identified important features in cancer-independent regions"
+  - **Evidence pointer** Figure 4D, Figure 4E
+  - **Issue** The comparison of mutation rates around positive and negative weighted motifs uses a Student's t-test. However, mutation counts are often not normally distributed. A non-parametric test (e.g., Mann-Whitney U test) would be more appropriate. The manuscript should justify the use of the t-test or use a more robust alternative.
+  - **Required correction** Justify the use of the t-test or replace it with a non-parametric test. Report the effect size in addition to the p-value.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Interpretation
+  - **Affected element** Discussion section, paragraph 3
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The comparison to Sherman et al. is useful, but the statement "our model uses much less features but can achieve a slightly better prediction performance" is presented without a formal statistical comparison. The difference between R=0.858 and R=0.84 may not be significant.
+  - **Required correction** Soften the claim or provide a statistical test for the difference in performance. Acknowledge that the two models use different input features and are not directly comparable without a common benchmark.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "The CR model allows identification of cancer-related genomic regions and motifs", Figure 5F
+  - **Evidence pointer** Figure 5F
+  - **Issue** The confusion matrix or classification report for the cancer type classification is not shown. The manuscript reports accuracy, precision, recall, and F1 score, but these are aggregate metrics. A confusion matrix would help identify which cancer types are most easily confused.
+  - **Required correction** Include a confusion matrix as a supplementary figure or table.
+
+## Risk / unsupported claims
+- The claim that the model's performance is "comparable" to ChIP-seq is based on a single comparison and is not statistically validated.
+- The claim that the model can be applied to new cancer types "without retraining" is supported by a single average correlation, but the variance and characteristics of the held-out types are not discussed.
+- The biological interpretation of "cancer-related regions" may be confounded by overall mutation burden, which is not controlled for in the classification analysis.
+- The Poisson assumption for mutation counts is stated but not validated.
+- The claim that epi-motifs "play a crucial role in establishing regional epigenetic states" is an interpretation of the predictive importance of these motifs, but the manuscript does not provide direct experimental evidence for this causal relationship.

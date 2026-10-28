@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41916120",
+    "doi": "10.1016/j.ecoenv.2026.120083",
+    "title": "Tobacco exposure and peripheral artery disease: A multi-omics investigation integrating epidemiology, genetics, toxicology, and single-cell transcriptomics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Tobacco exposure (TS) is a globally prevalent environmental toxicant associated with increased cardiovascular morbidity. Serum cotinine, a robust biomarker of TS, provides an objective measure of internal dose. However, the inflammatory pathways linking TS to peripheral artery disease (PAD), and the potential contribution of cotinine-related signaling to this relationship, remain insufficiently defined. METHODS: This study combined epidemiologic analyses of NHANES data with network toxicology, two-sample Mendelian randomization, molecular docking and dynamics, and single-cell transcriptomic profiling to explore cotinine-related inflammatory pathways associated with PAD. RESULTS: Elevated cotinine levels were linearly associated with higher PAD prevalence both before and after propensity score matching. Network toxicology and MR analyses consistently identified IL6 and STAT3 as inflammation-related mediators with genetically predicted effects on PAD susceptibility. Molecular docking and dynamics suggested possible transient interactions between cotinine and IL6/STAT3, providing hypothesis-generating toxicological insights. Single-cell RNA sequencing revealed IL6 and STAT3 expression among vascular-associated immune and stromal cell populations, offering cellular context for cotinine-related inflammatory responses. CONCLUSION: Our findings support a positive association between TS-related cotinine exposure and PAD. Integrative analyses suggest that IL6/STAT3 signaling may represent a cotinine-related pathway that potentially partially mediates the association between TS and PAD. This multidisciplinary work provides new insights into the environmental determinants of vascular injury and underscores the importance of reducing TS as a public health priority.",
+    "keywords": [
+      "Cotinine",
+      "IL6",
+      "Peripheral artery disease",
+      "STAT3",
+      "Tobacco exposure"
+    ],
+    "mesh_terms": [
+      "*Peripheral Arterial Disease/epidemiology/genetics",
+      "Humans",
+      "*Cotinine/blood",
+      "Multiomics",
+      "STAT3 Transcription Factor/metabolism/genetics",
+      "Transcriptome",
+      "Interleukin-6/metabolism/genetics",
+      "Single-Cell Analysis",
+      "Molecular Docking Simulation",
+      "Biomarkers/blood"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Ran",
+        "Huang, Maoxun",
+        "Zhang, Yixin",
+        "He, Tianqi",
+        "Zhu, Cuilin",
+        "Piao, Hulin",
+        "Yu, Shi",
+        "Zhu, Zhicheng",
+        "Wang, Tiance",
+        "Liu, Kexiang"
+      ],
+      "short_names": [
+        "Wei R",
+        "Huang M",
+        "Zhang Y",
+        "He T",
+        "Zhu C",
+        "Piao H",
+        "Yu S",
+        "Zhu Z",
+        "Wang T",
+        "Liu K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China.",
+        "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China. Electronic address: kxliu64@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Ran",
+        "short_name": "Wei R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Maoxun",
+        "short_name": "Huang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yixin",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "He, Tianqi",
+        "short_name": "He T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Cuilin",
+        "short_name": "Zhu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "Piao, Hulin",
+        "short_name": "Piao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Shi",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zhicheng",
+        "short_name": "Zhu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tiance",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kexiang",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the Second Hospital of Jilin University, Yatai Street 4026, Changchun, Jilin 130041, China. Electronic address: kxliu64@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Apr 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/01 00:28",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41916120",
+      "42396897",
+      "42435052",
+      "42197164",
+      "41186507",
+      "41562602",
+      "40967465",
+      "40916281",
+      "41895505",
+      "41967427",
+      "41787453",
+      "40435780",
+      "42349175",
+      "40068710",
+      "41200169",
+      "41422660",
+      "42235907",
+      "41731169",
+      "42233387",
+      "41192724",
+      "40317014",
+      "42398862",
+      "42123319",
+      "39221259",
+      "41937214",
+      "42319523",
+      "42061800",
+      "41939867",
+      "41085534",
+      "41183465",
+      "42305536",
+      "41699549",
+      "41371106",
+      "42375348",
+      "42436415",
+      "42263871",
+      "36042491",
+      "42283742",
+      "42061194",
+      "41252360",
+      "40269919",
+      "42148128",
+      "41611834",
+      "42024670",
+      "42260332",
+      "42421947",
+      "34139859",
+      "41601623",
+      "42202914",
+      "41638057",
+      "42051535",
+      "41931342",
+      "41972123",
+      "41874860",
+      "42023244",
+      "41232188",
+      "41986576",
+      "40444654",
+      "41601670",
+      "38545784",
+      "42353825",
+      "40435823",
+      "42249421",
+      "42273695",
+      "41247865",
+      "40308576",
+      "40708213",
+      "40847315",
+      "41056021",
+      "41737848",
+      "42059276",
+      "41913250",
+      "39874886",
+      "42253998",
+      "40812665",
+      "40853611",
+      "39468431",
+      "41984189",
+      "37783074",
+      "42292825",
+      "40822862",
+      "39051123",
+      "41731859",
+      "41714375",
+      "41972854",
+      "42011617",
+      "38808504",
+      "32356241",
+      "42176975",
+      "41112249",
+      "41595706",
+      "38152968",
+      "29551089",
+      "41202080",
+      "42265520",
+      "41099890",
+      "41260040",
+      "40615099",
+      "40653097",
+      "41949600"
+    ],
+    "review": [
+      "41916120",
+      "41252360"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)00412-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/peripheralarterialdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Peripheral Arterial Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

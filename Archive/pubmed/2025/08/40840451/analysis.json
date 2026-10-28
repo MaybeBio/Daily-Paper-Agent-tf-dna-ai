@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40840451",
+  "title": "Leveraging functional annotations to map rare variants associated with Alzheimer disease with gruyere.",
+  "authors": "Das, Anjali; Lakhani, Chirag; Terwagne, Chloe; Lin, Jui-Shan T; Naito, Tatsuhiko; Raj, Towfique; Knowles, David A",
+  "journal": "American journal of human genetics",
+  "published_date": "2025-08-26",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用贝叶斯框架整合功能注释做罕见变异关联分析，虽涉及转录因子结合预测，但核心是遗传关联而非蛋白-DNA互作建模，方法上仅用深度学习VEP作为注释，无互作机制研究。",
+  "abstract": "Increased availability of whole-genome sequencing (WGS) has facilitated the study of rare variants (RVs) in complex diseases. Multiple RV association tests are available to study the relationship between genotype and phenotype, but most do not fully leverage the availability of variant-level functional annotations. We propose genome-wide rare variant enrichment evaluation (gruyere), an empirical Bayesian framework that complements existing methods by learning global, trait-specific weights for functional annotations to improve variant prioritization. We apply gruyere to WGS data from the Alzheimer's Disease Sequencing Project to identify Alzheimer disease (AD)-associated genes and annotations. Growing evidence suggests that the disruption of microglial regulation is a key contributor to AD risk, yet existing methods have not examined rare non-coding effects that incorporate such cell-type-specific information. To address this gap, we (1) define per-gene non-coding RV test sets using predicted enhancer and promoter regions in microglia and other brain cell types (oligodendrocytes, astrocytes, and neurons) and (2) include cell-type-specific variant effect predictions (VEPs) as functional annotations. gruyere identifies 13 significant genetic associations not detected by other RV methods, four of which remain significant in omnibus tests. We find that deep-learning-based VEPs for splicing, transcription factor binding, and chromatin state are highly predictive of functional non-coding RVs. Our study establishes a robust framework incorporating functional annotations, coding RVs, and cell-type-associated non-coding RVs to perform genome-wide association tests, uncovering AD-relevant genes and annotations.",
+  "abstract_zh": "全基因组测序（WGS）的可及性增加促进了复杂疾病中罕见变异（RVs）的研究。目前有多种RV关联检验可用于研究基因型与表型之间的关系，但大多数方法未能充分利用变异水平功能注释的可用性。我们提出了全基因组罕见变异富集评估（gruyere），这是一种经验贝叶斯框架，通过为功能注释学习全局的、性状特异的权重来补充现有方法，从而改进变异优先级排序。我们将gruyere应用于阿尔茨海默病测序项目的WGS数据，以识别与阿尔茨海默病（AD）相关的基因和注释。越来越多的证据表明，小胶质细胞调控的破坏是AD风险的关键因素，然而现有方法尚未考察纳入此类细胞类型特异性信息的罕见非编码效应。为解决这一空白，我们（1）利用预测的小胶质细胞及其他脑细胞类型（少突胶质细胞、星形胶质细胞和神经元）中的增强子和启动子区域，定义每基因的非编码RV检验集，并（2）将细胞类型特异的变异效应预测（VEPs）作为功能注释纳入。gruyere识别出13个其他RV方法未检测到的显著遗传关联，其中4个在综合检验中仍保持显著。我们发现，基于深度学习的剪接、转录因子结合和染色质状态的VEPs对功能性非编码RVs具有高度预测性。我们的研究建立了一个稳健的框架，整合功能注释、编码RVs和细胞类型相关的非编码RVs进行全基因组关联检验，揭示了AD相关基因和注释。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40840451/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40840451/",
+  "paper_page_path": "papers/pubmed/40840451/index.html"
+}

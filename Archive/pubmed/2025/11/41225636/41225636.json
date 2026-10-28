@@ -1,0 +1,453 @@
+{
+  "identity": {
+    "pmid": "41225636",
+    "doi": "10.1186/s13046-025-03563-9",
+    "title": "Neurogenic inducers inhibit the proliferation of pancreatic cancer by promoting tumor cell transdifferentiation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Tumor cell differentiation is a critical determinant of malignancy and clinical treatment selection. Pancreatic ductal adenocarcinoma (PDAC), a poorly differentiated and highly aggressive tumor, has a poor prognosis, whereas well-differentiated tumors often correlate with better outcomes. The mechanisms underlying differentiation and its therapeutic potential remain unclear. OBJECTIVES: This study aims to investigate whether inducing transdifferentiation in pancreatic cancer cells can reduce malignancy, focusing on the role of the transcription factor NeuroD1 and its regulatory pathways. METHODS: We analyzed single-cell RNA-seq data from the GEO database to identify differentiation-associated genes. NeuroD1 was overexpressed in PDAC cells to assess its effects on transdifferentiation and proliferation. Drug screening and molecular docking were performed to identify differentiation-inducing compounds. RNA sequencing, coimmunoprecipitation, and mass spectrometry were used to identify NeuroD1-interacting proteins. Cell/patient-derived xenograft mouse models are utilized for in vivo experiments and compound efficacy testing. RESULTS: Highly differentiated tumor cells exhibited elevated NeuroD1 expression. NeuroD1 overexpression promoted neuronal transdifferentiation and suppressed proliferation. Neuropathiazol, a neurogenic inducer, was found to bind MET and upregulate NeuroD1 via the PI3K/Akt pathway, enhancing transdifferentiation and inhibiting tumor growth. Neurog3 was identified as a functional partner of NeuroD1. CONCLUSION: Our findings demonstrate that pancreatic cancer cells can be induced to transdifferentiate through NeuroD1 activation or pharmacological induction, suggesting a potential therapeutic strategy to mitigate malignancy by reprogramming tumor cells into less aggressive states.",
+    "keywords": [
+      "Differentiation therapy",
+      "NeuroD1",
+      "Neurogenic inducers",
+      "Pancreatic cancer",
+      "Transdifferentiation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Pancreatic Neoplasms/pathology/genetics/metabolism/drug therapy",
+      "Cell Proliferation",
+      "*Cell Transdifferentiation/drug effects",
+      "Mice",
+      "*Basic Helix-Loop-Helix Proteins/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Xenograft Model Antitumor Assays",
+      "Gene Expression Regulation, Neoplastic",
+      "*Carcinoma, Pancreatic Ductal/pathology/genetics/metabolism/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Duancheng",
+        "Shi, Saimeng",
+        "Ye, Longyun",
+        "Yang, Mengdi",
+        "Peng, Wenxia",
+        "Yang, Jianhui",
+        "Xu, Ji",
+        "Fei, Qinglin",
+        "Li, Hao",
+        "Jin, Kaizhou",
+        "Hu, Xichun",
+        "Wu, Weiding"
+      ],
+      "short_names": [
+        "Guo D",
+        "Shi S",
+        "Ye L",
+        "Yang M",
+        "Peng W",
+        "Yang J",
+        "Xu J",
+        "Fei Q",
+        "Li H",
+        "Jin K",
+        "Hu X",
+        "Wu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China. guoduancheng@shca.org.cn.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. guoduancheng@shca.org.cn.",
+        "State Key Laboratory of Bioreactor Engineering, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China. guoduancheng@shca.org.cn.",
+        "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China.",
+        "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China.",
+        "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China.",
+        "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Department of Medical Oncology, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Department of Medical Oncology, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+        "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China.",
+        "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China.",
+        "Department of Oncology and Hematology, Zhoupu Hospital, Pudong New Area, Shanghai, 201318, China.",
+        "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China.",
+        "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China.",
+        "State Key Laboratory of Bioreactor Engineering, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China. hli77@ecust.edu.cn.",
+        "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China. jinkaizhou@fudanpci.org.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. jinkaizhou@fudanpci.org.",
+        "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China. jinkaizhou@fudanpci.org.",
+        "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China. jinkaizhou@fudanpci.org.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. huxichun@shca.org.cn.",
+        "Department of Medical Oncology, Fudan University Shanghai Cancer Center, Shanghai, 200032, China. huxichun@shca.org.cn.",
+        "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China. wuweiding@fudanpci.org.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. wuweiding@fudanpci.org.",
+        "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China. wuweiding@fudanpci.org.",
+        "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China. wuweiding@fudanpci.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Duancheng",
+        "short_name": "Guo D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China. guoduancheng@shca.org.cn.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. guoduancheng@shca.org.cn.",
+          "State Key Laboratory of Bioreactor Engineering, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China. guoduancheng@shca.org.cn."
+        ]
+      },
+      {
+        "full_name": "Shi, Saimeng",
+        "short_name": "Shi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China.",
+          "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Longyun",
+        "short_name": "Ye L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China.",
+          "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Mengdi",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Department of Medical Oncology, Fudan University Shanghai Cancer Center, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Wenxia",
+        "short_name": "Peng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Department of Medical Oncology, Fudan University Shanghai Cancer Center, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jianhui",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China.",
+          "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ji",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology and Hematology, Zhoupu Hospital, Pudong New Area, Shanghai, 201318, China."
+        ]
+      },
+      {
+        "full_name": "Fei, Qinglin",
+        "short_name": "Fei Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China.",
+          "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China. hli77@ecust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jin, Kaizhou",
+        "short_name": "Jin K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China. jinkaizhou@fudanpci.org.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. jinkaizhou@fudanpci.org.",
+          "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China. jinkaizhou@fudanpci.org.",
+          "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China. jinkaizhou@fudanpci.org."
+        ]
+      },
+      {
+        "full_name": "Hu, Xichun",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. huxichun@shca.org.cn.",
+          "Department of Medical Oncology, Fudan University Shanghai Cancer Center, Shanghai, 200032, China. huxichun@shca.org.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Weiding",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China. wuweiding@fudanpci.org.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. wuweiding@fudanpci.org.",
+          "Shanghai Pancreatic Cancer Institute, Shanghai, 200032, China. wuweiding@fudanpci.org.",
+          "Pancreatic Cancer Institute, Fudan University, Shanghai, 200032, China. wuweiding@fudanpci.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2025 Nov 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/13 06:29",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [
+      "42193957"
+    ],
+    "refs": [
+      "40505892",
+      "40339660",
+      "40274071",
+      "40187844",
+      "39661721",
+      "39137728",
+      "39051998",
+      "38763009",
+      "38572751",
+      "38389831",
+      "38230766",
+      "38154529",
+      "38012214",
+      "37689751",
+      "37676594",
+      "37468633",
+      "37117185",
+      "36586549",
+      "36571444",
+      "36257532",
+      "36154782",
+      "36034865",
+      "35425930",
+      "35398344",
+      "35295896",
+      "35053363",
+      "34784097",
+      "34547082",
+      "34342377",
+      "33129359",
+      "32997974",
+      "32916234",
+      "32593337",
+      "32579914",
+      "32401021",
+      "31611300",
+      "31551137",
+      "31273297",
+      "31106366",
+      "30638745",
+      "29788355",
+      "29717230",
+      "28608558",
+      "28472422",
+      "27899672",
+      "27246286",
+      "27187084",
+      "27151703",
+      "25873032",
+      "23582322",
+      "22993376",
+      "22143803",
+      "21613405",
+      "21576002",
+      "20430828",
+      "20412566",
+      "16845016",
+      "7541145"
+    ],
+    "similar": [
+      "41225636",
+      "39810240",
+      "40222712",
+      "31078621",
+      "32375768",
+      "39656237",
+      "40250076",
+      "28544376",
+      "25623042",
+      "31831555",
+      "25894862",
+      "39433745",
+      "38154529",
+      "38991252",
+      "33629745",
+      "40877726",
+      "40379759",
+      "30382592",
+      "28989066",
+      "40382627",
+      "41121153",
+      "33408774",
+      "34416910",
+      "40659704",
+      "32366257",
+      "28428074",
+      "31288830",
+      "31786131",
+      "41394830",
+      "31053501",
+      "39158384",
+      "40728119",
+      "29248441",
+      "26255562",
+      "31888763",
+      "33664869",
+      "32894161",
+      "40001070",
+      "28764929",
+      "33834618",
+      "39566663",
+      "40731412",
+      "26909576",
+      "40840404",
+      "29414775",
+      "26213847",
+      "32476798",
+      "34195850",
+      "34657129",
+      "33915173",
+      "33579599",
+      "28867247",
+      "27578530",
+      "40306467",
+      "40553966",
+      "31771616",
+      "34245764",
+      "39865281",
+      "31597713",
+      "33846574",
+      "31789465",
+      "34663879",
+      "40540648",
+      "27835602",
+      "40983183",
+      "34167573",
+      "41346611",
+      "40902319",
+      "39501138",
+      "40154160",
+      "30691517",
+      "39556158",
+      "29709702",
+      "39000545",
+      "26735172",
+      "38877560",
+      "38781729",
+      "24025152",
+      "41161625",
+      "39745352",
+      "31404615",
+      "29700299",
+      "34097885",
+      "33980655",
+      "38914663",
+      "40083936",
+      "39048054",
+      "27535970",
+      "34345207",
+      "40681747",
+      "31715070",
+      "26908446",
+      "27840243",
+      "26469962",
+      "40250791",
+      "39343354",
+      "31478239",
+      "34470609",
+      "24998203",
+      "40082968"
+    ],
+    "review": [
+      "41225636"
+    ],
+    "pmc": [
+      "12613626"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-025-03563-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41225636/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41225636",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1496",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

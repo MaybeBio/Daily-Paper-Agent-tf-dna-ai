@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, figure legends, supplementary file descriptions) as provided by the user.
+- **Assessment boundary** Scientific and technical evaluation of the presented model, experiments, and claims. No assessment of code availability, data availability, or reproducibility beyond what is described in the provided text.
+- **Shared manuscript claim summary** The authors present EpiGePT, a pretrained transformer-based language model for context-specific prediction of human epigenomic signals. The model takes DNA sequence and a TF expression profile as input, and predicts multiple epigenomic tracks. The authors claim that EpiGePT outperforms existing methods in epigenomic signal prediction, long-range chromatin interaction prediction, and variant effect prediction, and that it can be transferred to other species.
+- **Visible evidence base** Main text figures (Fig. 1-6) and supplementary file descriptions (Additional files 1-3) as referenced in the text. No actual figure images, supplementary data, or numerical results were provided.
+- **Missing materials affecting confidence** Figure images, supplementary tables and figures, detailed numerical results, model training details, hyperparameters, and code. The absence of these materials limits the ability to fully verify the reported performance metrics and the validity of the statistical comparisons.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a timely and potentially useful contribution to the field of genomics, addressing the important problem of context-specific epigenomic prediction. The idea of incorporating TF expression as a context signal and using a transformer architecture is reasonable and builds on prior work. However, the provided text lacks the necessary detail to fully evaluate the technical soundness of the approach and the robustness of the reported results. Several claims, particularly regarding the superiority of the model and the biological interpretability of the attention mechanism, are not fully supported by the evidence presented in the text alone. The manuscript would benefit from a more detailed presentation of the experimental setup, results, and statistical analyses.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those interested in deep learning models for epigenomic prediction, variant effect prediction, and the interpretation of non-coding variants. The model's ability to predict in novel cell types and its potential for cross-species transfer would also be of interest to researchers studying gene regulation in development and disease.
+- **Major strengths**
+  - Addresses a significant and unresolved problem in genomics: predicting context-specific regulatory activity.
+  - The model architecture is a logical extension of existing genomic language models, incorporating TF expression as a context signal.
+  - The inclusion of 3D chromatin interaction data as a training signal is a novel and potentially powerful idea.
+  - The manuscript covers a wide range of applications, including epigenomic signal prediction, chromatin interaction prediction, and variant effect prediction.
+  - The provision of an online web server is a valuable resource for the community.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that EpiGePT consistently outperforms baseline methods, including BERT, ChromDragoNN, and Enformer, in various prediction tasks.
+    - **Evidence pointer** Results section, Figures 2, 3, 5, and supplementary figures.
+    - **Concern** The text reports performance improvements but does not provide the actual numerical values, error bars, or statistical significance tests for most comparisons. For example, the statement "EpiGePT consistently outperformed baseline methods... by a relatively large margin" is not supported by specific numbers. Similarly, the comparison with Enformer in Figure 2b and 2d lacks detail on the experimental setup, such as the number of training steps, hyperparameters, and whether the Enformer model was retrained or used as a pretrained model. Without this information, it is impossible to assess the validity and generalizability of the performance claims.
+    - **Why it matters** The core contribution of the paper is the claimed superior performance of the proposed model. Without a rigorous and detailed comparison, the scientific case for EpiGePT is not established.
+    - **Resolution test** Provide a table with the mean and standard deviation of the performance metrics (e.g., PCC, SCC, auPRC, auROC) for all methods across all tasks and cell types. Include the results of statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing EpiGePT to each baseline. Clearly describe the experimental setup for all models, including hyperparameters and training details.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the self-attention mechanism in EpiGePT can be used to predict enhancer-promoter (E-P) interactions and that the attention scores are consistent with known regulatory interactions.
+    - **Evidence pointer** Results section, Figure 3, and supplementary figures.
+    - **Concern** The text describes three different settings for predicting chromatin interactions. Setting (A) uses attention scores directly, Setting (B) uses a model trained with 3D data, and Setting (C) uses a fine-tuning approach. The relationship between these settings and the biological interpretation of the attention scores is not entirely clear. For example, in Setting (A), the attention scores are used to predict E-P interactions, but it is not clear how the attention scores are converted into a prediction score. The text also mentions that the attention weights are "consistent" with interaction data and regulatory element annotations, but this is a qualitative statement. A more quantitative analysis, such as comparing the attention scores to a null model or to scores from a simpler model, is needed.
+    - **Why it matters** The interpretability of the model is a key selling point. If the attention mechanism does not reliably capture regulatory interactions, the biological insights derived from the model are questionable.
+    - **Resolution test** Provide a detailed description of how attention scores are used to predict E-P interactions. Include a quantitative comparison of the attention-based predictions to a null model or to a simpler baseline. Show that the attention scores are significantly better than random at identifying known E-P interactions.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the Gradient Importance Scores (GIS) can identify known regulatory relationships between TFs and target genes.
+    - **Evidence pointer** Results section, Figure 4, and supplementary figures.
+    - **Concern** The text describes the GIS method and shows that it can identify known regulators of POU5F1 and ESRRB. However, the validation is limited to a few examples. The text also mentions that the GIS-based ranking is significantly better than expression-based ranking, but the details of this comparison are not provided. For example, it is not clear how the "integrated GIS-based ranking" is calculated or how the comparison with expression-based ranking was performed. The statistical test used (Mann-Whitney U test) is mentioned, but the effect size and the number of comparisons are not reported.
+    - **Why it matters** The GIS method is presented as a novel tool for identifying TF-target gene relationships. A more rigorous and comprehensive validation is needed to support this claim.
+    - **Resolution test** Provide a more detailed description of the GIS method and the integrated GIS-based ranking. Include a comprehensive validation of the GIS method across multiple TFs and cell types. Report the effect sizes and the number of comparisons for the statistical tests.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that EpiGePT improves variant effect prediction compared to Enformer.
+    - **Evidence pointer** Results section, Figure 5, and supplementary figures.
+    - **Concern** The text describes the use of EpiGePT for variant effect prediction, but the details of the experimental setup are unclear. For example, it is not clear how the "log-ratio scores (LOS)" are calculated or how the random forest classifier is trained. The text also mentions that EpiGePT outperforms Enformer, but the specific numbers and the statistical significance of the improvement are not reported. The comparison with Enformer is particularly important, as Enformer is a strong baseline for this task.
+    - **Why it matters** Variant effect prediction is a key application of the model. A clear and rigorous demonstration of its utility is essential.
+    - **Resolution test** Provide a detailed description of the LOS calculation and the classifier training. Report the performance metrics (e.g., auPRC, auROC) for all methods and the results of statistical significance tests.
+  - **R1-M5**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the model can be transferred to other species, such as mouse, using zero-shot learning and fine-tuning.
+    - **Evidence pointer** Results section, supplementary figures.
+    - **Concern** The text describes experiments on mouse data but does not provide sufficient detail on the experimental setup. For example, it is not clear how the TF expression data for mouse was obtained and processed, or how the model was adapted for the mouse genome. The performance improvements after fine-tuning are reported as percentages, but the absolute values and the statistical significance are not provided.
+    - **Why it matters** Cross-species transfer is a valuable feature of the model. A clear demonstration of its effectiveness is needed.
+    - **Resolution test** Provide a detailed description of the mouse data processing and model adaptation. Report the performance metrics for zero-shot and fine-tuned models, along with statistical significance tests.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Figure 1
+    - **Evidence pointer** Figure 1
+    - **Issue** The figure legend is very dense and difficult to follow. The description of the model architecture and the flow of data through the different modules could be clearer.
+    - **Required correction** Consider simplifying the figure and the legend, and using a step-by-step description of the model architecture.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Methods section
+    - **Evidence pointer** Methods section, "Data processing" subsection
+    - **Issue** The description of the data processing steps is somewhat fragmented. It is not always clear which dataset is being used for which experiment.
+    - **Required correction** Consider reorganizing the data processing section to clearly separate the datasets used for different experiments (e.g., chromatin accessibility, multiple epigenomic signals, variant effect prediction).
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Results section
+    - **Evidence pointer** Results section, "EpiGePT enables the prediction of chromatin interactions" subsection
+    - **Issue** The description of the three settings (A, B, C) for predicting chromatin interactions is confusing. It is not clear why these three settings are needed and how they relate to each other.
+    - **Required correction** Provide a clear summary table or figure that compares the three settings and their respective use cases.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Discussion section
+    - **Evidence pointer** Discussion section
+    - **Issue** The discussion of limitations is brief and does not address potential issues with the model, such as the choice of TF expression as a proxy for cellular context, or the potential for overfitting.
+    - **Required correction** Expand the discussion of limitations and potential future directions.
+  - **R1-m5**
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods section
+    - **Evidence pointer** Methods section, "Model training strategy" subsection
+    - **Issue** The description of the training strategy is not fully detailed. For example, the number of training epochs, the learning rate schedule, and the early stopping criteria are not specified.
+    - **Required correction** Provide a more detailed description of the training procedure, including all hyperparameters.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is a reasonable extension of existing genomic language models. The novelty lies in the incorporation of TF expression as a context signal and the use of 3D chromatin interaction data as a training signal. However, the originality is incremental rather than groundbreaking.
+  - **Scientific importance** The problem of context-specific epigenomic prediction is of high importance. The model has the potential to be a useful tool for the community. However, the importance of the contribution is diminished by the lack of rigorous validation.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The potential for cross-species transfer and variant effect prediction may broaden its appeal to geneticists and clinicians.
+  - **Technical soundness** The technical soundness of the approach cannot be fully assessed from the provided text. The lack of detailed experimental results and statistical analyses is a major concern.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that is likely to be challenging for nonspecialists. The abstract and introduction are relatively accessible, but the results and methods sections are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the current manuscript does not provide sufficient evidence to support the main claims. A major revision with a more detailed and rigorous presentation of the results is required.
+
+## Risk / unsupported claims
+- The claim that EpiGePT "consistently outperformed" baseline methods is not supported by the provided text, as no numerical results or statistical tests are reported.
+- The claim that the self-attention mechanism can predict E-P interactions is not quantitatively validated.
+- The claim that the GIS method can identify known regulatory relationships is based on a limited number of examples and lacks a comprehensive validation.
+- The claim that EpiGePT improves variant effect prediction is not supported by detailed results.
+- The claim that the model can be effectively transferred to other species is not fully supported by the provided text.

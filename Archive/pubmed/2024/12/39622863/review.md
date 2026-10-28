@@ -1,0 +1,167 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, limitations)
+- **Assessment boundary** Scientific validity of the computational claims, methodological rigor, and interpretation of molecular dynamics simulation results as presented
+- **Shared manuscript claim summary** The authors use molecular docking and 500 ns molecular dynamics simulations to characterize interactions between the tumor suppressor p53-binding protein 1 (53BP1) and seven protein/peptide partners, concluding that 53BP1 interacts most strongly with histone H4K20me2 and that p53 mediates tumor suppression via histone and amino acid interactions, potentially through the Wnt signaling pathway.
+- **Visible evidence base** Figures 1–4, Table 1, and descriptive text reporting interaction residues, RMSD, RMSF, SASA, Rg, and hydrogen bond counts
+- **Missing materials affecting confidence** PDB accession codes for all structures (only 2LVM, 2MWO, 2MWP, 4CRI, 4X34, 5Z78, 6MYO are named, but 2G3R appears in Table 1 without a PDB code); docking software and scoring function details; simulation convergence criteria; force field version; system setup details (box size, equilibration protocol); raw trajectory data; error bars or replicate simulations; sequence identity/alignment information for the peptides; validation metrics for docking poses
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational study of 53BP1 interactions with seven protein/peptide partners using docking and 500 ns molecular dynamics simulations. While the topic is of potential interest to the cancer biology and structural biology communities, the manuscript has substantial methodological weaknesses that undermine the reliability of the conclusions. The study lacks key technical details, contains internal inconsistencies (e.g., 2G3R appears in Table 1 but is not listed in the Methods), and the interpretation overreaches the computational evidence. The claim that p53 mediates tumor suppression via histone interactions and the Wnt pathway is speculative and not supported by the simulation data presented. The manuscript requires major revisions and additional validation before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers studying p53 biology, 53BP1-mediated DNA damage repair, and protein-protein interaction prediction using computational methods might find the interaction residue maps of interest. However, the lack of experimental validation and methodological rigor limits the impact for these communities. Computational biologists developing or benchmarking docking and MD protocols may also be interested, but the manuscript does not provide sufficient technical detail to be useful in this regard.
+- **Major strengths** 
+  - The study addresses a biologically relevant question regarding 53BP1 interactions with diverse protein partners.
+  - The use of multiple simulation parameters (RMSD, RMSF, SASA, Rg, hydrogen bonds) to assess complex stability is a standard and reasonable approach.
+  - The inclusion of a control structure (6MYO) is a positive feature, though its selection rationale is not fully explained.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "the interactions of 53BP1 with p53K370me2, p53K382me2, methylated K810 Rb, p53K381acK382me2, and tudor-interacting repair regulator protein indicated interactions that were not as strong as those with the histone protein."
+  - **Evidence pointer** Results section, Figures 1–4, Table 1
+  - **Concern** The conclusion that histone interactions are "stronger" than other peptide interactions is based on the number of interacting amino acids and stability parameters, but the manuscript does not provide a quantitative comparison metric. The number of interacting residues is not a reliable proxy for binding affinity. No binding free energy calculations (e.g., MM-PBSA, MM-GBSA) or experimental binding data are provided to support the relative strength claims. Additionally, the statement that "5Z78 returned the highest number of interacting amino acids with 7 amino acids" in the Results contradicts the Abstract, which states that 5Z78 interacted with the highest number of amino acids, yet the Discussion claims 2G3R and 5Z78 both gave the highest number (n=7), while Table 1 shows 5Z78 with 7 and 2G3R with no entries.
+  - **Why it matters** The central conclusion of the manuscript rests on the relative interaction strengths between 53BP1 and its partners. Without quantitative binding affinity estimates or experimental validation, the claim that histone interactions are stronger and biologically more relevant is unsupported. The internal inconsistencies in the reported residue counts further undermine confidence in the analysis.
+  - **Resolution test** Provide quantitative binding free energy calculations (e.g., MM-PBSA/GBSA) for all complexes, include replicate simulations with error estimates, and reconcile the inconsistent residue counts between the Abstract, Results, Discussion, and Table 1. If experimental binding data exist, cite them; otherwise, temper the strength claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "the complexes formed were stable, with 4CRI, 6MYO, and 2G3R giving the most stable values (less than 2.5 Å)" based on RMSD analysis.
+  - **Evidence pointer** Results section, Figure 2A
+  - **Concern** The RMSD analysis is presented without a clear description of what is being measured (backbone atoms, all heavy atoms, protein vs. peptide). The manuscript states that "2G3R gave the least RMSD that was less than 2.5 Å during the entire simulation duration," but 2G3R is not listed in the Methods as one of the selected proteins. Furthermore, the RMSD for 4CRI is reported to exceed 3 Å between 400–500 ns, which contradicts the claim that 4CRI was "stable for the most of the run" and the general statement that these complexes were stable with RMSD less than 2.5 Å. The threshold of 2.5 Å for stability is presented without justification or citation.
+  - **Why it matters** The stability assessment is a core component of the study's conclusions. Inconsistent reporting of which systems were simulated, unclear RMSD definitions, and contradictory values prevent the reader from evaluating the validity of the stability claims. The 2.5 Å threshold appears arbitrary and may not be appropriate for protein-peptide complexes of different sizes.
+  - **Resolution test** Clarify which structures were actually simulated (reconcile 2G3R discrepancy), specify the atoms used for RMSD calculation, provide RMSD plots with clear labeling for each complex, justify the stability threshold with appropriate citations, and discuss the 400–500 ns increase in RMSD for 4CRI.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript concludes that "P53 may mediate its tumour suppressing effect via interactions with amino acids and histone" and that "The Wnt signalling pathway is a possible pathway through which it mediates its effect as it is related to Histone."
+  - **Evidence pointer** Discussion and Conclusion sections
+  - **Concern** The leap from molecular dynamics simulations of peptide binding to a biological conclusion about p53-mediated tumor suppression via the Wnt pathway is not supported by the data. The simulations only characterize binding interactions in silico; they do not demonstrate functional consequences in cells or organisms. The connection to the Wnt pathway is speculative and not tested in any way. The manuscript does not provide any experimental evidence linking the observed interactions to tumor suppression mechanisms.
+  - **Why it matters** The stated significance of the work depends on the biological relevance of the findings. Overinterpreting computational results as evidence for specific signaling pathway involvement misleads readers and overstates the contribution of the study. This weakens the scientific importance claim.
+  - **Resolution test** Either add experimental validation (e.g., cellular assays, mutagenesis studies) to support the biological claims, or substantially revise the Discussion and Conclusion to clearly frame the results as preliminary computational predictions that require experimental testing. Remove or heavily qualify the Wnt pathway speculation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the peptide that interacted with the highest number of amino acids was 5Z78 and these were Lys10, Gly21, Trp24, Pro105, His106, and Arg107, indicating a stronger interaction."
+  - **Evidence pointer** Abstract and Results section
+  - **Concern** The use of "number of interacting amino acids" as a proxy for interaction strength is methodologically questionable. A complex with fewer but more energetically favorable contacts could be stronger than one with many weak contacts. The manuscript does not report interaction energies, contact frequencies, or any quantitative measure of binding strength. Additionally, the residue names listed for 5Z78 (Lys10, Gly21, Trp24, Pro105, His106, Arg107) appear to be from the peptide, but it is unclear whether these are the peptide residues or the 53BP1 residues, and the numbering scheme is not explained.
+  - **Why it matters** The central comparative claim about which interaction is strongest relies on this metric. Without a validated quantitative measure, the ranking of interaction strengths is not reliable. The ambiguity in residue labeling further complicates interpretation.
+  - **Resolution test** Report interaction energies (e.g., electrostatic, van der Waals contributions) or contact-based metrics with clear definitions. Clarify which residues belong to which chain and provide a consistent numbering scheme. Consider using established methods for comparing binding affinities across complexes.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "the RMSF values of the amino residues between 100 and 300 ns gave the least values and conformed to our findings" citing a previous study on full-length p53 monomer.
+  - **Evidence pointer** Discussion section
+  - **Concern** The comparison to a previous study on p53 monomer dynamics is inappropriate. The current study simulates 53BP1-peptide complexes, not p53 monomers. The residue numbering in the current study (referring to 53BP1 residues) does not correspond to p53 residue numbering. The citation appears to be misapplied, and the comparison does not strengthen the current findings.
+  - **Why it matters** Misapplied citations and inappropriate comparisons undermine the credibility of the Discussion. Readers cannot verify the claimed correspondence between the studies.
+  - **Resolution test** Remove the inappropriate comparison or replace it with a relevant study on 53BP1 dynamics. Ensure all citations are correctly applied to the systems being discussed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "The tumor-suppressing p-53 binding protein" but the protein is referred to as "p53" throughout the rest of the manuscript. The hyphenated form is inconsistent.
+  - **Required correction** Use consistent nomenclature throughout, preferably "p53" as used in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Molecular simulation (MS)" subsection
+  - **Issue** The Methods state that "the force field utilised was the optimised potential for liquid simulation" but do not specify the version (e.g., OPLS-2005, OPLS3e) or provide a citation. The Desmond version is also not specified.
+  - **Required correction** Specify the exact force field version and Desmond version used, with appropriate citations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Molecular simulation (MS)" subsection
+  - **Issue** The equilibration protocol is not described. The manuscript states only that "the simulation was performed for 500 ns" without detailing the equilibration steps, which are critical for MD simulation reproducibility.
+  - **Required correction** Provide a detailed description of the equilibration protocol, including the number of steps, ensemble (NPT/NVT), and any restraints applied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "Interaction of the tumor suppressor p53 binding protein with other proteins" subsection
+  - **Issue** The text states "The 6MYO is a mutation of 53BP1 in two positions Fig. 1H." This sentence is incomplete and unclear. It is not explained what the two positions are or why this mutation is relevant.
+  - **Required correction** Provide a complete sentence explaining the nature of the 6MYO mutation and its relevance to the study.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "Interaction of the tumor suppressor p53 binding protein with other proteins" subsection
+  - **Issue** The text states "The amino acids of 53BP1 interacted with a total of 7 amino acids of the histone H4K20me2 peptide such as Lys16, Arg17, His18, Arg19, methyl lysine (Mly)20, Leu22, and Arg23." It is unclear whether these residues are from the peptide or from 53BP1. The phrasing is ambiguous.
+  - **Required correction** Clarify which residues belong to which chain, for example, "The histone H4K20me2 peptide residues Lys16, Arg17, His18, Arg19, Mly20, Leu22, and Arg23 interacted with 53BP1."
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The sentence "Away from its its interactions with histones" contains a typographical error ("its its").
+  - **Required correction** Correct to "Away from its interactions with histones."
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph on 5Z78
+  - **Issue** The sentence "In the 5Z78 structure, we observed 53BP1 residues W1495, Y1523, D1521, Y1502, and F1519 undergoes conformational changes upon TIRR interaction" contains a subject-verb agreement error ("residues... undergoes" should be "residues... undergo").
+  - **Required correction** Correct to "residues... undergo conformational changes."
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph on p53 mutations
+  - **Issue** The sentence "In their study, it was noted that the RMSF values of the amino residues between 100 and 300 ns gave the least values and conformed to our findings" is unclear. The phrase "between 100 and 300 ns" likely refers to simulation time, but it is written as if referring to residue numbers.
+  - **Required correction** Rewrite for clarity, for example, "In their study, the RMSF values were lowest for residues 100–300, which is consistent with our findings."
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "MS data of the interactions" subsection
+  - **Issue** The manuscript states "the rest (2LVM, 5Z78, 2MWP, 4X34, and 2MWO) returned values that were well over ranged from > 2 to 6 Å during the entire 500 ns run." The phrase "well over ranged from" is grammatically incorrect and unclear.
+  - **Required correction** Rewrite as "the rest (2LVM, 5Z78, 2MWP, 4X34, and 2MWO) returned values ranging from >2 to 6 Å during the entire 500 ns run."
+  - **Concern ID** R1-m10
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Conclusion section
+  - **Issue** The conclusion states "P53 mediates its tumour suppressing effect via interactions with amino acids and histone" but this is presented as a definitive finding rather than a computational prediction. The Limitation section acknowledges the need for in vivo studies, but the Conclusion does not reflect this caveat.
+  - **Required correction** Add qualifying language to the Conclusion, such as "Our computational results suggest that p53 may mediate its tumor suppressing effect via interactions with amino acids and histone, though experimental validation is required."
+  - **Concern ID** R1-m11
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 lists "2G3R" as a column header, but this protein is not mentioned in the Methods section. The table also contains asterisks without a legend explaining their meaning.
+  - **Required correction** Add 2G3R to the Methods section with its PDB code, or remove it from the table if it was not part of the study. Add a legend for the asterisks.
+  - **Concern ID** R1-m12
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2 caption
+  - **Issue** The figure caption states "A comparison of RMSD, RMSF, SASA Rg, and number of hydrogen bonds" but the panels are not individually labeled in the caption. It is unclear which panel corresponds to which parameter.
+  - **Required correction** Label each panel in the caption (e.g., "a RMSD, b RMSF, c SASA, d Rg, e hydrogen bonds").
+- **Technical failings that need to be addressed before the case is established** 
+  - R1-M1: Lack of quantitative binding affinity estimates to support relative interaction strength claims
+  - R1-M2: Inconsistent reporting of simulated systems (2G3R discrepancy) and unclear RMSD definitions
+  - R1-M3: Overinterpretation of computational results as evidence for biological mechanism
+  - R1-M4: Unvalidated use of interacting residue count as a proxy for binding strength
+  - Missing docking methodology details (software, scoring function, validation)
+  - Missing simulation convergence analysis and replicate information
+  - No error bars or statistical analysis of simulation parameters
+- **Assessment against Nature-style criteria** 
+  - Originality: Low to moderate. The application of MD simulations to study 53BP1-peptide interactions is not novel, and the manuscript does not introduce new computational methods or approaches. The specific peptide set has been partially studied before, as acknowledged by the authors.
+  - Scientific importance: Low to moderate. While understanding 53BP1 interactions is biologically relevant, the computational predictions without experimental validation do not provide sufficient new insight to warrant broad interest. The conclusions are largely confirmatory of known interaction patterns.
+  - Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational biologists and structural biologists. The biological conclusions are too speculative to attract cancer biology readers, and the methodological detail is insufficient for computational method developers.
+  - Technical soundness: Weak. The manuscript has multiple technical issues, including missing methodological details, inconsistent reporting, and unsupported analytical approaches. The lack of quantitative binding energy calculations and statistical analysis significantly weakens the technical foundation.
+  - Readability for nonspecialists: Moderate. The manuscript is generally readable but contains some unclear passages and grammatical errors. The significance of the findings is not clearly communicated for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions to address the technical concerns, particularly the lack of quantitative binding affinity analysis, the inconsistent reporting of simulated systems, and the overinterpretation of computational results. The authors should either provide additional computational analyses (e.g., binding free energy calculations, replicate simulations) or substantially temper their conclusions. Experimental validation would be necessary to support the biological claims.
+
+## Risk / unsupported claims
+- The claim that "the interactions of 53BP1 with p53K370me2, p53K382me2, methylated K810 Rb, p53K381acK382me2, and tudor-interacting repair regulator protein indicated interactions that were not as strong as those with the histone protein" is unsupported without quantitative binding affinity data.
+- The claim that "P53 may mediate its tumour suppressing effect via interactions with amino acids and histone" is an overinterpretation of docking and MD simulation results.
+- The claim that "The Wnt signalling pathway is a possible pathway through which it mediates its effect as it is related to Histone" is speculative and not supported by any data presented in the manuscript.
+- The statement that "2G3R gave the least RMSD that was less than 2.5 Å during the entire simulation duration" is unverifiable because 2G3R is not described in the Methods section.
+- The claim that "the complexes formed were stable" based on RMSD values below 2.5 Å is not fully supported, as the 4CRI complex shows RMSD values exceeding 3 Å in the final 100 ns of simulation.
+- The assertion that "the peptide that interacted with the highest number of amino acids was 5Z78... indicating a stronger interaction" is unsupported because the number of interacting residues is not a validated measure of binding strength.

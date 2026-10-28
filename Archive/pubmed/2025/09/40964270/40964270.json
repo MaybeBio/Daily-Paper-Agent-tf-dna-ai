@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "40964270",
+    "doi": "10.1101/2025.09.10.674980",
+    "title": "Engineered histones reshape chromatin in human cells."
+  },
+  "content": {
+    "abstract": "Histone proteins and their variants have been found to play crucial and specialized roles in chromatin organization and the regulation of downstream gene expression; however, the relationship between histone sequence and its effect on chromatin organization remains poorly understood, limiting our functional understanding of sequence variation between distinct subtypes and across evolution and frustrating efforts to rationally design synthetic histones that can be used to engineer specified cell states. Here, we make the first advance towards engineered histone-driven chromatin organization. By expressing libraries of sequence variants of core histones in human cells, we identify variants that dominantly modulate chromatin structure. We further interrogate variants using a combination of imaging, proteomics, and genomics to reveal both cis and trans-acting mechanisms of effect. Functional screening with transcription factor libraries identifies transcriptional programs that are facilitated by engineered histone expression. Double mutation screens combined with protein language models allow us to learn sequence-to-function patterns and design synthetic histone proteins optimized to drive specific chromatin states. This work establishes a foundation for the high-throughput evaluation and engineering of chromatin-associated proteins and positions histones as tunable nodes for understanding and modulating mesoscale chromatin organization.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jena, Siddhartha G",
+        "Nagaraja, Surya",
+        "Earl, Andrew S",
+        "Driller-Colangelo, Amalia R",
+        "Quezada, Michael A",
+        "Oreskovic, Ena",
+        "Horlbeck, Max A",
+        "Zhang, Ruochi",
+        "Gomarga, Wilson",
+        "Buenrostro, Jason D"
+      ],
+      "short_names": [
+        "Jena SG",
+        "Nagaraja S",
+        "Earl AS",
+        "Driller-Colangelo AR",
+        "Quezada MA",
+        "Oreskovic E",
+        "Horlbeck MA",
+        "Zhang R",
+        "Gomarga W",
+        "Buenrostro JD"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9750-0225"
+      ],
+      "affiliations": [
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard.",
+        "Department of Pathology, Massachusetts General Hospital.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard.",
+        "Division of Genetics and Genomics, Boston Children's Hospital, Boston, MA, USA.",
+        "Department of Genetics, Harvard Medical School, Boston, MA, USA.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard.",
+        "Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Harvard Department of Stem Cell and Regenerative Biology.",
+        "Epigenomics Program, Broad Institute of MIT and Harvard."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jena, Siddhartha G",
+        "short_name": "Jena SG",
+        "identifiers": [
+          "0000-0002-9750-0225"
+        ],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard."
+        ]
+      },
+      {
+        "full_name": "Nagaraja, Surya",
+        "short_name": "Nagaraja S",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard.",
+          "Department of Pathology, Massachusetts General Hospital."
+        ]
+      },
+      {
+        "full_name": "Earl, Andrew S",
+        "short_name": "Earl AS",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard."
+        ]
+      },
+      {
+        "full_name": "Driller-Colangelo, Amalia R",
+        "short_name": "Driller-Colangelo AR",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard."
+        ]
+      },
+      {
+        "full_name": "Quezada, Michael A",
+        "short_name": "Quezada MA",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard."
+        ]
+      },
+      {
+        "full_name": "Oreskovic, Ena",
+        "short_name": "Oreskovic E",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard."
+        ]
+      },
+      {
+        "full_name": "Horlbeck, Max A",
+        "short_name": "Horlbeck MA",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard.",
+          "Division of Genetics and Genomics, Boston Children's Hospital, Boston, MA, USA.",
+          "Department of Genetics, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruochi",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard.",
+          "Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard."
+        ]
+      },
+      {
+        "full_name": "Gomarga, Wilson",
+        "short_name": "Gomarga W",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology."
+        ]
+      },
+      {
+        "full_name": "Buenrostro, Jason D",
+        "short_name": "Buenrostro JD",
+        "identifiers": [],
+        "affiliations": [
+          "Harvard Department of Stem Cell and Regenerative Biology.",
+          "Epigenomics Program, Broad Institute of MIT and Harvard."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/18 06:31",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39025074",
+      "38361031",
+      "37846748",
+      "37460697",
+      "37225990",
+      "36927031",
+      "36608654",
+      "35624484",
+      "35624210",
+      "34364685",
+      "33649601",
+      "33551235",
+      "31168090",
+      "31086012",
+      "31002797",
+      "30894748",
+      "30741633",
+      "28920961",
+      "28349863",
+      "28283545",
+      "27749837",
+      "27648579",
+      "27111144",
+      "26797456",
+      "26675384",
+      "26330523",
+      "25424540",
+      "24506885",
+      "20718988",
+      "20221260",
+      "19516333",
+      "18805098",
+      "18418379",
+      "17379688",
+      "16506092",
+      "16469925",
+      "16410041",
+      "15219397",
+      "10638745",
+      "9305837"
+    ],
+    "similar": [
+      "40964270",
+      "42475469",
+      "25682395",
+      "37399781",
+      "35158124",
+      "26646152",
+      "41586517",
+      "24768924",
+      "42283463",
+      "32665685",
+      "28334823",
+      "11092552",
+      "24781148",
+      "31391082",
+      "31337722",
+      "33288720",
+      "37294468",
+      "26477490",
+      "26792937",
+      "34553920",
+      "35981458",
+      "11470530",
+      "39638247",
+      "3250226",
+      "33279581",
+      "20663898",
+      "29954426",
+      "33397728",
+      "23150257",
+      "38776573",
+      "11275546",
+      "36779711",
+      "25781491",
+      "37467143",
+      "26826795",
+      "20015349",
+      "26348411",
+      "40301961",
+      "29791133",
+      "22253857",
+      "16472999",
+      "32432549",
+      "20701767",
+      "19234522",
+      "23222641",
+      "9540062",
+      "27082816",
+      "24140495",
+      "27169413",
+      "11758456",
+      "38451083",
+      "21134274",
+      "29174541",
+      "33238524",
+      "23002134",
+      "41074186",
+      "24894457",
+      "40655151",
+      "25452131",
+      "9361760",
+      "41325801",
+      "40010635",
+      "31399133",
+      "7957165",
+      "15821029",
+      "25561719",
+      "16107701",
+      "23876776",
+      "16218948",
+      "24213375",
+      "30917913",
+      "21526979",
+      "35167758",
+      "35220000",
+      "34809577",
+      "41862973",
+      "35221208",
+      "11983172",
+      "20625544",
+      "31053165",
+      "29061983",
+      "27412913",
+      "31015383",
+      "38358392",
+      "38530350",
+      "28504305",
+      "41288450",
+      "27716023",
+      "33534192",
+      "20738881",
+      "17685219",
+      "25628309",
+      "26518266",
+      "24681439",
+      "25957781",
+      "31932604",
+      "27276249",
+      "11993987",
+      "16767079",
+      "41915685"
+    ],
+    "review": [
+      "40964270",
+      "25682395",
+      "37399781",
+      "24768924",
+      "32665685",
+      "11092552",
+      "24781148",
+      "37294468",
+      "26477490",
+      "26792937",
+      "34553920",
+      "35981458",
+      "39638247",
+      "20663898",
+      "33397728",
+      "23150257",
+      "38776573",
+      "11275546",
+      "25781491",
+      "26826795",
+      "26348411",
+      "40301961",
+      "16472999",
+      "19234522",
+      "11758456",
+      "23002134",
+      "40655151",
+      "9361760",
+      "7957165",
+      "25561719",
+      "23876776",
+      "16218948",
+      "21526979",
+      "35167758",
+      "35220000",
+      "41862973",
+      "35221208",
+      "27412913",
+      "31015383",
+      "17685219",
+      "26518266",
+      "24681439",
+      "11993987"
+    ],
+    "pmc": [
+      "12439981"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40964270/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40964270",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.10.674980",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

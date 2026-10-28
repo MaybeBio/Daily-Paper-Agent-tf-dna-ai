@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, methods, and supplementary figure/figure references
+- **Assessment boundary** Scientific content, methodological rigor, evidence quality, and interpretation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report that active regulatory elements (CREs) engage in enriched, ultra-long-range chromatin interactions (ULIs) across tens of megabases, independent of cohesin and polycomb, scaling with transcriptional activity and H3K27ac, dynamic across cell states, and consistent with a bridging-induced clustering mechanism driven by multivalent binding factors
+- **Visible evidence base** Hi-C and Micro-C data from mouse embryonic stem cells (mESCs), GM12878 human lymphoblastoid cells, neural progenitor cells (NPCs), LPS/IFNG-stimulated macrophages, zebrafish tissues, Drosophila imaginal discs, DNA FISH in mESCs, GPSeq data, and chromatin simulations
+- **Missing materials affecting confidence** Full figure panels, supplemental figures and tables, exact statistical outputs, simulation parameter details, and source data files were not available for direct inspection
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and largely convincing analysis of ultra-long-range chromatin interactions between active regulatory elements. The authors combine multiple publicly available Hi-C and Micro-C datasets with a factor-binding screen, DNA FISH validation, and computational modeling to propose a distinct class of chromatin interactions driven by multivalent bridging. The work is timely, relevant to the gene regulation and genome architecture fields, and generally well executed. However, several technical concerns regarding data processing choices, statistical rigor, and the interpretation of the simulation results need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers studying 3D genome organization, enhancer-promoter communication, transcriptional regulation, and chromatin dynamics. The proposed mechanism of bridging-induced clustering is of broad interest to biophysicists and computational biologists modeling chromosome structure. The finding that ULIs are independent of cohesin and transcription challenges current models and will likely stimulate follow-up studies.
+- **Major strengths** The study leverages a large compendium of publicly available datasets, providing a robust and reproducible analytical framework. The inclusion of multiple species and cell types strengthens the generality of the findings. The DNA FISH experiments provide orthogonal validation of the Hi-C/Micro-C observations. The simulation model offers a plausible mechanistic explanation and generates testable predictions. The authors carefully address potential artifacts such as digestion efficiency, cross-linking, and normalization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and multiple testing
+  - **Claim pointer** The authors claim that binding sites for many transcription factors and cofactors are enriched at CRE-CRE interactions, based on a screen of hundreds of ChIP-seq datasets.
+  - **Evidence pointer** Results section "Screening for factors bound at sites of enriched CRE–CRE interactions"; Figure 1B,C; Supplemental Figures S1, S2; Supplemental Tables S1, S2
+  - **Concern** The screen involves testing hundreds of factors across multiple datasets and distance ranges. The authors report adjusted P-values but do not specify the multiple testing correction method used (e.g., Benjamini-Hochberg, Bonferroni). The threshold for significance and the handling of dependent tests (e.g., overlapping genomic regions) are not described. Without this information, the false discovery rate of the screen cannot be assessed.
+  - **Why it matters** The screen is a foundational result that identifies candidate factors associated with ULIs. If the statistical framework is not robust, the list of enriched factors may contain many false positives, undermining subsequent analyses and interpretations.
+  - **Resolution test** Provide a clear description of the multiple testing correction method, the significance threshold, and the number of independent tests performed. Consider reporting effect sizes with confidence intervals. A permutation-based or empirical null approach would strengthen the analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of DNA FISH results
+  - **Claim pointer** The authors state that DNA FISH shows "marginally smaller distances" for CRE-CRE pairs compared to CRE-control pairs, with only one of three pairs statistically significant.
+  - **Evidence pointer** Results section "Rare interactions between distal CREs"; Figure 3C,D; Supplemental Figure S5E
+  - **Concern** The DNA FISH data are presented as supporting the Hi-C/Micro-C findings, but the effect sizes appear small and largely non-significant at the individual pair level. The authors do not report the magnitude of the median distance differences or the distribution of distances. The biological relevance of a "marginal" difference, especially when most individual comparisons are not significant, is unclear. The authors also do not discuss the power of the experiment to detect the expected frequency of ULIs.
+  - **Why it matters** The DNA FISH experiment is a key orthogonal validation. If the effect is not robustly detectable by an independent method, the biological significance of ULIs as measured by Hi-C/Micro-C is called into question.
+  - **Resolution test** Report the median distances and interquartile ranges for each pair. Provide a power analysis based on the expected frequency of ULIs from Hi-C data. Consider analyzing a larger number of pairs or using a more sensitive imaging approach. Discuss the discrepancy between the population-average signal in Hi-C and the single-cell nature of FISH.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation model assumptions and parameterization
+  - **Claim pointer** The authors propose that bridging-induced clustering by multivalent binding factors can explain ULIs, and they support this with simulations.
+  - **Evidence pointer** Results section "ULIs are not directly dependent on transcription"; Figure 6; Supplemental Figure S8; Methods section "Chromatin simulations"
+  - **Concern** The simulation model is described only briefly in the main text, with details relegated to Supplemental Methods. Key parameters such as binding affinities, concentrations of factors, chromatin fiber flexibility, and the number of binding sites are not stated in the main text. The sensitivity of the results to these parameters is not explored. It is unclear whether the model is predictive or merely descriptive.
+  - **Why it matters** The simulation is used to support a mechanistic claim. If the model is not robust to parameter choices or if the parameters are not biologically realistic, the proposed mechanism remains speculative.
+  - **Resolution test** Provide a more detailed description of the model in the main text or a summary of key parameters. Include a sensitivity analysis showing how the results change with varying parameters. Compare the model predictions with the experimental data quantitatively.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability across species and cell types
+  - **Claim pointer** The authors claim that ULIs are present in vertebrate and invertebrate genomes, citing data from mESCs, GM12878, zebrafish, and Drosophila.
+  - **Evidence pointer** Results sections "ULIs occur primarily in cis and in the A compartment" and "Interaction dynamics and DNA methylation"; Figures 4, 5; Supplemental Figures S5, S6
+  - **Concern** The evidence for ULIs in zebrafish and Drosophila is presented briefly, and the depth of analysis appears less comprehensive than for mESCs and GM12878. The authors do not systematically compare the properties of ULIs across species (e.g., distance dependence, relationship to H3K27ac). It is unclear whether the same mechanism operates in all species or whether the observations are species-specific.
+  - **Why it matters** The claim of generality is a key strength of the paper. If the evidence in non-mammalian species is weak, the conclusion that ULIs are a general feature of genome organization is not fully supported.
+  - **Resolution test** Provide a more detailed analysis of ULIs in zebrafish and Drosophila, including distance-dependent enrichment, relationship to activity marks, and independence from cohesin/polycomb. A systematic cross-species comparison would strengthen the claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Definition of "ultra-long-range"
+  - **Evidence pointer** Abstract; Results section "Screening for factors bound at sites of enriched CRE–CRE interactions"
+  - **Issue** The term "ultra-long-range" is used to describe interactions at tens of megabases, but the exact distance range is not consistently defined. The authors use different distance bins (e.g., 1-10 Mb, 10-25 Mb, 25-100 Mb) in different analyses.
+  - **Required correction** Provide a clear operational definition of "ultra-long-range" in the Introduction or Results, and use it consistently throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Code and data availability statement
+  - **Evidence pointer** Methods section "Software availability"
+  - **Issue** The authors state that code is available on GitHub, but the specific accession numbers for all processed datasets (e.g., cooler files) are not listed in the main text. This hampers reproducibility.
+  - **Required correction** Provide a comprehensive list of data accessions (e.g., GEO, ENCODE) for all datasets used in the study, either in the main text or in a supplemental table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 3C
+  - **Evidence pointer** Results section "Rare interactions between distal CREs"; Figure 3C
+  - **Issue** The Hi-C heatmap in Figure 3C is mentioned but not described in detail. It is unclear what specific interaction is being visualized and how it relates to the FISH experiments.
+  - **Required correction** Add a clear legend and description of the Hi-C heatmap, including the genomic coordinates and the cell type.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** DNA FISH statistics
+  - **Evidence pointer** Results section "Rare interactions between distal CREs"; Figure 3D
+  - **Issue** The P-values for the DNA FISH comparisons are reported in the text but not in the figure. The statistical model is described in the Methods but the output is not fully presented.
+  - **Required correction** Include the P-values and effect sizes in the figure or its legend.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of the factor screen) and R1-M2 (interpretation of DNA FISH results) are the most critical. R1-M3 (simulation parameterization) also needs attention to support the mechanistic claim.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The concept of ULIs as a distinct class of interactions driven by multivalent bridging is novel and extends current models of genome organization.
+  - **Scientific importance** High. The findings have implications for understanding enhancer-promoter communication, transcriptional regulation, and the role of genome architecture in gene expression.
+  - **Interdisciplinary readership** Moderate to high. The work will appeal to molecular biologists, biophysicists, and computational biologists, but the technical nature of the analyses may limit accessibility to a broader audience.
+  - **Technical soundness** Generally sound, but with concerns about statistical rigor and simulation parameterization that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well written and logically structured, but the Methods section is dense and may be challenging for readers without a computational background. The authors make an effort to explain concepts clearly in the Results and Discussion.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observations are likely robust, but the statistical framework of the screen and the interpretation of the FISH data need to be clarified. The simulation model should be more thoroughly described and validated.
+
+## Risk / unsupported claims
+- The claim that ULIs are "not dependent on RNA polymerase II transcription" is based on short-term inhibition experiments; the possibility of long-term indirect effects is not fully excluded.
+- The claim that "radial positioning contributes to, but does not fully explain, ULIs" is based on a single analysis of GPSeq data; the quantitative contribution of radial positioning is not estimated.
+- The claim that "bridging-induced clustering" is the underlying mechanism is supported by simulations but not directly tested experimentally; the model is plausible but not proven.
+- The claim that ULIs are present in "vertebrate and invertebrate genomes" is based on a limited number of species; the depth of analysis in non-mammalian species is less comprehensive.

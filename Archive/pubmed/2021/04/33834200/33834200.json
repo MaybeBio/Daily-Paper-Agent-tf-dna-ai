@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "33834200",
+    "doi": "10.1093/bib/bbab060",
+    "title": "Explainability in transformer models for functional genomics."
+  },
+  "content": {
+    "abstract": "The effectiveness of deep learning methods can be largely attributed to the automated extraction of relevant features from raw data. In the field of functional genomics, this generally concerns the automatic selection of relevant nucleotide motifs from DNA sequences. To benefit from automated learning methods, new strategies are required that unveil the decision-making process of trained models. In this paper, we present a new approach that has been successful in gathering insights on the transcription process in Escherichia coli. This work builds upon a transformer-based neural network framework designed for prokaryotic genome annotation purposes. We find that the majority of subunits (attention heads) of the model are specialized towards identifying transcription factors and are able to successfully characterize both their binding sites and consensus sequences, uncovering both well-known and potentially novel elements involved in the initiation of the transcription process. With the specialization of the attention heads occurring automatically, we believe transformer models to be of high interest towards the creation of explainable neural networks in this field.",
+    "keywords": [
+      "DNA-binding sites",
+      "functional genomics",
+      "interpretable neural networks",
+      "transformers"
+    ],
+    "mesh_terms": [
+      "Base Sequence",
+      "Binding Sites",
+      "DNA, Bacterial/genetics/metabolism",
+      "*Deep Learning",
+      "Escherichia coli/*genetics/metabolism",
+      "*Genome, Bacterial",
+      "Genomics/*methods",
+      "Promoter Regions, Genetic/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "*Transcription Initiation Site"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Clauwaert, Jim",
+        "Menschaert, Gerben",
+        "Waegeman, Willem"
+      ],
+      "short_names": [
+        "Clauwaert J",
+        "Menschaert G",
+        "Waegeman W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Data Analysis and Mathematical Modelling, Ghent University, Coupure Links 653, 9000 Gent, Belgium.",
+        "Department of Data Analysis and Mathematical Modelling, Ghent University, Coupure Links 653, 9000 Gent, Belgium.",
+        "Department of Data Analysis and Mathematical Modelling, Ghent University, Coupure Links 653, 9000 Gent, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Clauwaert, Jim",
+        "short_name": "Clauwaert J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Data Analysis and Mathematical Modelling, Ghent University, Coupure Links 653, 9000 Gent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Menschaert, Gerben",
+        "short_name": "Menschaert G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Data Analysis and Mathematical Modelling, Ghent University, Coupure Links 653, 9000 Gent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Waegeman, Willem",
+        "short_name": "Waegeman W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Data Analysis and Mathematical Modelling, Ghent University, Coupure Links 653, 9000 Gent, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2021 Sep 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/10 06:00",
+    "fetched_at": "2026-09-27 15:42:39"
+  },
+  "links": {
+    "cites": [
+      "42268974",
+      "42261595",
+      "42151513",
+      "42140912",
+      "41888146",
+      "41451391",
+      "41303412",
+      "40941280",
+      "40870915",
+      "40709306",
+      "40664728",
+      "40660356",
+      "40553343",
+      "40265190",
+      "39817513",
+      "39747934",
+      "39318214",
+      "39237596",
+      "38878555",
+      "38464101",
+      "37695074",
+      "37508462",
+      "37222749",
+      "37004161",
+      "36845200",
+      "36552295",
+      "35657113",
+      "35432476",
+      "35311562",
+      "35264797",
+      "34906073"
+    ],
+    "refs": [
+      "34335110",
+      "33125335",
+      "31308523",
+      "31135038",
+      "30971806",
+      "30523308",
+      "30478442",
+      "30395280",
+      "30201986",
+      "30187132",
+      "29986088",
+      "29931149",
+      "28395661",
+      "28186907",
+      "26951544",
+      "26213851",
+      "24396271",
+      "24146625",
+      "21371479",
+      "19633077",
+      "19609351",
+      "17164287",
+      "16798040",
+      "16777598",
+      "15922833",
+      "15631638",
+      "12582243",
+      "11742080",
+      "10487868",
+      "9233812",
+      "6344023",
+      "6248238",
+      "2919167",
+      "2668539",
+      "2660103",
+      "2184437"
+    ],
+    "similar": [
+      "33834200",
+      "33125335",
+      "26151451",
+      "20228580",
+      "17468243",
+      "27507169",
+      "19426448",
+      "37916871",
+      "35641900",
+      "19838305",
+      "11401718",
+      "22912590",
+      "11448880",
+      "23610404",
+      "8437517",
+      "15927055",
+      "16273032",
+      "10802742",
+      "23138451",
+      "10923791",
+      "21601690",
+      "19656291",
+      "25406449",
+      "31856220",
+      "23620297",
+      "8858581",
+      "12144778",
+      "1447222",
+      "8071194",
+      "1445208",
+      "14526010",
+      "23028500",
+      "11812009",
+      "1645411",
+      "9484902",
+      "37100167",
+      "7520503",
+      "16469103",
+      "11282972",
+      "11065369",
+      "32424410",
+      "9767578",
+      "24160255",
+      "15865625",
+      "15694381",
+      "10843847",
+      "39293804",
+      "19528070",
+      "2010912",
+      "9157253",
+      "28256660",
+      "7956021",
+      "32576674",
+      "20156994",
+      "29855387",
+      "15673715",
+      "7565118",
+      "17914227",
+      "26843427",
+      "17946085",
+      "8064854",
+      "7584449",
+      "15978695",
+      "26592556",
+      "21931670",
+      "8682810",
+      "11448879",
+      "14663078",
+      "16547045",
+      "18440978",
+      "8446033",
+      "15656994",
+      "19881496",
+      "23725374",
+      "12453212",
+      "10873447",
+      "18333883",
+      "37963869",
+      "32770026",
+      "9371449",
+      "10715205",
+      "18701645",
+      "16287942",
+      "18515344",
+      "24371151",
+      "25161193",
+      "12101405",
+      "11160901",
+      "21810205",
+      "15255893",
+      "14982625",
+      "2871943",
+      "21124945",
+      "30109605",
+      "17170007",
+      "15130839",
+      "31974311",
+      "34352373",
+      "39174927",
+      "35970054",
+      "38662850"
+    ],
+    "review": [
+      "33834200",
+      "23138451",
+      "39293804",
+      "28256660"
+    ],
+    "pmc": [
+      "8425421"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33834200.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33834200/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33834200",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33834200",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33834200",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab060",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

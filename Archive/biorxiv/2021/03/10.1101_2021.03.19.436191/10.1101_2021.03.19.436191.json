@@ -1,0 +1,489 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.19.436191",
+  "title": "Predicting TCR-epitope Binding Specificity Using Deep Metric Learning and Multimodal Learning",
+  "doi": "10.1101/2021.03.19.436191",
+  "abstract": "Understanding the recognition of specific epitopes by cytotoxic T cells is a central problem in immunology. Although predicting binding between peptides and the class I Major Histocompatibility Complex (MHC) has had success, predicting interactions between T cell receptors (TCRs) and MHC class I-peptide complexes (pMHC) remains elusive. This paper utilizes a convolutional neural network model employing deep metric learning and multimodal learning to perform two critical tasks in TCR-epitope binding prediction: identifying the TCRs that bind a given epitope from a TCR repertoire, and identifying the binding epitope of a given TCR from a list of candidate epitopes. Our model can perform both tasks simultaneously and reveals that inconsistent preprocessing of CDR3B sequences can confound binding prediction. Applying a neural network interpretation method identifies key amino acid sequence patterns and positions within the TCR important for binding specificity. Contrary to the common assumption, known crystal structures of TCR-pMHC complexes show that the predicted salient amino acid positions are not necessarily the closest to the epitopes, implying that physical proximity may not be a good proxy for importance in determining TCR-epitope specificity. Our work thus provides insight into the learned predictive features of TCR-epitope binding specificity and advances associated classification tasks.",
+  "authors": [
+    "Alan M. Luu",
+    "Jacob R. Leistico",
+    "Tim Miller",
+    "Somang Kim",
+    "Jun S. Song"
+  ],
+  "published_date": "2021-03-20",
+  "updated_date": "2021-03-21T03:15:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.436191",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.436191.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T15:57:07Z",
+        "timestamp": 1768492627162,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 39,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                20
+              ]
+            ],
+            "date-time": "2021-03-20T00:00:00Z",
+            "timestamp": 1616198400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Understanding the recognition of specific epitopes by cytotoxic T cells is a central problem in immunology. Although predicting binding between peptides and the class I Major Histocompatibility Complex (MHC) has had success, predicting interactions between T cell receptors (TCRs) and MHC class I-peptide complexes (pMHC) remains elusive. This paper utilizes a convolutional neural network model employing deep metric learning and multimodal learning to perform two critical tasks in TCR-epitope binding prediction: identifying the TCRs that bind a given epitope from a TCR repertoire, and identifying the binding epitope of a given TCR from a list of candidate epitopes. Our model can perform both tasks simultaneously and reveals that inconsistent preprocessing of CDR3B sequences can confound binding prediction. Applying a neural network interpretation method identifies key amino acid sequence patterns and positions within the TCR important for binding specificity. Contrary to the common assumption, known crystal structures of TCR-pMHC complexes show that the predicted salient amino acid positions are not necessarily the closest to the epitopes, implying that physical proximity may not be a good proxy for importance in determining TCR-epitope specificity. Our work thus provides insight into the learned predictive features of TCR-epitope binding specificity and advances associated classification tasks.</jats:p>",
+      "DOI": "10.1101/2021.03.19.436191",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2021-03-21T03:15:16Z",
+        "timestamp": 1616296516000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Predicting TCR-epitope Binding Specificity Using Deep Metric Learning and Multimodal Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Alan M.",
+          "family": "Luu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jacob R.",
+          "family": "Leistico",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tim",
+          "family": "Miller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Somang",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jun S.",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ni1173"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1586/erv.10.169"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2013/637649"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.4",
+          "first-page": "692",
+          "article-title": "Flow-cytometric analysis of rare antigen-specific T cells",
+          "volume": "83",
+          "year": "2013",
+          "journal-title": "Cytometry A"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.5",
+          "first-page": "1001",
+          "article-title": "Techniques to improve the direct ex vivo detection of low frequency antigen-specific CD8+ T cells with peptide-major histocompatibility complex class I tetramers",
+          "volume": "73",
+          "year": "2008",
+          "journal-title": "Cytometry A"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.07.009"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2567.2011.03527.x"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "De Simone, M. , Rossetti, G. and Pagani, M. (2018) Single Cell T Cell Receptor Sequencing: Techniques and Future Challenges. Frontiers in Immunology, 9.",
+          "DOI": "10.3389/fimmu.2018.01638"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.1700893"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv639"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00251-011-0579-8"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.1186/s13073-016-0288-x",
+          "article-title": "NetMHCpan-3.0; improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length datasets",
+          "volume": "8",
+          "year": "2016",
+          "journal-title": "Genome Medicine"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.immunol.17.1.51"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22976"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22383"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1016/j.molimm.2017.12.019",
+          "article-title": "Identification of the cognate peptide-MHC target of T cell receptors using molecular modeling and force field scoring",
+          "volume": "94",
+          "year": "2018",
+          "journal-title": "Mol Immunol"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1007/978-1-4939-3569-7_19",
+          "article-title": "Computational Modeling of T Cell Receptor Complexes",
+          "volume": "1414",
+          "year": "2016",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2181"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molimm.2010.10.014"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jokinen, E. , Huuhtanen, J. , Mustjoki, S. , Heinonen, M. and Lähdesmäki, H. (2019) Determining epitope specificity of T cell receptors with TCRGP. bioRxiv, 542332.",
+          "DOI": "10.1101/542332"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jurtz, V.I. , Jessen, L.E. , Bentzen, A.K. , Jespersen, M.C. , Mahajan, S. , Vita, R. , Jensen, K.K. , Marcatili, P. , Hadrup, S.R. , Peters, B. et al. (2018) NetTCR: sequence-based prediction of TCR binding to peptide-MHC complexes using convolutional neural networks. bioRxiv, 433706.",
+          "DOI": "10.1101/433706"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.22",
+          "unstructured": "Moris, P. , De Pauw, J. , Postovskaya, A. , Ogunjimi, B. , Laukens, K. and Meysman, P. (2019) Treating biomolecular interaction as an image classification problem – a case study on T-cell receptor-epitope recognition prediction. bioRxiv, 2019.2012.2018.880146."
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1803",
+          "DOI": "10.3389/fimmu.2020.01803",
+          "article-title": "Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Frontiers in Immunology"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1615/CritRevImmunol.v32.i4.50"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.25",
+          "unstructured": "Wang, J. , Song, Y. , Leung, T. , Rosenberg, C. , Wang, J. , Philbin, J. , Chen, B. and Wu, Y. (2014), 2014 IEEE Conference on Computer Vision and Pattern Recognition, pp. 1386–1393."
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hoffer, E. and Ailon, N. (2014) Deep Metric Learning Using Triplet Network. Similarity-Based Pattern Recognition. SIMBAD 2015. Lecture Notes in Computer Science, 9370.",
+          "DOI": "10.1007/978-3-319-24261-3_7"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1066",
+          "DOI": "10.3390/sym11091066",
+          "article-title": "Deep Metric Learning: A Survey",
+          "volume": "11",
+          "year": "2019",
+          "journal-title": "Symmetry"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "423",
+          "DOI": "10.1109/TPAMI.2018.2798607",
+          "article-title": "Multimodal Machine Learning: A Survey and Taxonomy",
+          "volume": "41",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "D1057",
+          "DOI": "10.1093/nar/gkz874",
+          "article-title": "VDJdb in 2019: database extension, new analysis infrastructure and a T-cell receptor motif compendium",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz452"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx286"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005836",
+          "DOI": "10.1371/journal.pcbi.1005836",
+          "article-title": "Maximum entropy methods for extracting the learned features of deep neural networks",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "4081",
+          "DOI": "10.1093/nar/gkaa161",
+          "article-title": "Epigenetic engineering of yeast reveals dynamic molecular adaptation to methylation stress and genetic modulators of specific DNMT3 family members",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz614"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "123",
+          "DOI": "10.1186/s13073-015-0238-z",
+          "article-title": "Annotation of pseudogenic gene segments by massively parallel sequencing of rearranged lymphocyte receptor loci",
+          "volume": "7",
+          "year": "2015",
+          "journal-title": "Genome Medicine"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0408677102"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.849004"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "D406",
+          "DOI": "10.1093/nar/gkx971",
+          "article-title": "STCRDab: the structural T-cell receptor database",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024080516392838000_2021.03.19.436191v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "37024",
+          "DOI": "10.1038/srep37024",
+          "article-title": "Quantifying side-chain conformational variations in protein structure",
+          "volume": "6",
+          "year": "2016",
+          "journal-title": "Scientific Reports"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.19.436191",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:28:20Z",
+        "timestamp": 1768440500000
+      },
+      "score": 88.697464,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.03.19.436191"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "references-count": 39,
+      "URL": "https://doi.org/10.1101/2021.03.19.436191",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "36712015",
+    "doi": "10.1101/2023.01.07.523108",
+    "title": "Unsupervised Contrastive Peak Caller for ATAC-seq."
+  },
+  "content": {
+    "abstract": "The assay for transposase-accessible chromatin with sequencing (ATAC-seq) is a common assay to identify chromatin accessible regions by using a Tn5 transposase that can access, cut, and ligate adapters to DNA fragments for subsequent amplification and sequencing. These sequenced regions are quantified and tested for enrichment in a process referred to as \"peak calling\". Most unsupervised peak calling methods are based on simple statistical models and suffer from elevated false positive rates. Newly developed supervised deep learning methods can be successful, but they rely on high quality labeled data for training, which can be difficult to obtain. Moreover, though biological replicates are recognized to be important, there are no established approaches for using replicates in the deep learning tools, and the approaches available for traditional methods either cannot be applied to ATAC-seq, where control samples may be unavailable, or are post-hoc and do not capitalize on potentially complex, but reproducible signal in the read enrichment data. Here, we propose a novel peak caller that uses unsupervised contrastive learning to extract shared signals from multiple replicates. Raw coverage data are encoded to obtain low-dimensional embeddings and optimized to minimize a contrastive loss over biological replicates. These embeddings are passed to another contrastive loss for learning and predicting peaks and decoded to denoised data under an autoencoder loss. We compared our Replicative Contrastive Learner (RCL) method with other existing methods on ATAC-seq data, using annotations from ChromHMM genome and transcription factor ChIP-seq as noisy truth. RCL consistently achieved the best performance.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vu, Ha T H",
+        "Zhang, Yudi",
+        "Tuteja, Geetu",
+        "Dorman, Karin"
+      ],
+      "short_names": [
+        "Vu HTH",
+        "Zhang Y",
+        "Tuteja G",
+        "Dorman K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioinformatics and Computational Biology Program, Iowa State University, Ames IA 50011, USA.",
+        "Department of Genetics, Development and Cell Biology, Iowa State University, Ames IA 50011, USA.",
+        "Department of Statistics, Iowa State University, Ames IA 50011, USA.",
+        "Bioinformatics and Computational Biology Program, Iowa State University, Ames IA 50011, USA.",
+        "Department of Genetics, Development and Cell Biology, Iowa State University, Ames IA 50011, USA.",
+        "Bioinformatics and Computational Biology Program, Iowa State University, Ames IA 50011, USA.",
+        "Department of Genetics, Development and Cell Biology, Iowa State University, Ames IA 50011, USA.",
+        "Department of Statistics, Iowa State University, Ames IA 50011, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vu, Ha T H",
+        "short_name": "Vu HTH",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Computational Biology Program, Iowa State University, Ames IA 50011, USA.",
+          "Department of Genetics, Development and Cell Biology, Iowa State University, Ames IA 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yudi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Iowa State University, Ames IA 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Tuteja, Geetu",
+        "short_name": "Tuteja G",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Computational Biology Program, Iowa State University, Ames IA 50011, USA.",
+          "Department of Genetics, Development and Cell Biology, Iowa State University, Ames IA 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Dorman, Karin",
+        "short_name": "Dorman K",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Computational Biology Program, Iowa State University, Ames IA 50011, USA.",
+          "Department of Genetics, Development and Cell Biology, Iowa State University, Ames IA 50011, USA.",
+          "Department of Statistics, Iowa State University, Ames IA 50011, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Jan 8",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/31 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36394265",
+      "36040971",
+      "35866989",
+      "35478247",
+      "34785717",
+      "33936141",
+      "33879052",
+      "33878366",
+      "33590861",
+      "33539878",
+      "32404971",
+      "32213349",
+      "32014034",
+      "31249361",
+      "31199868",
+      "30795793",
+      "30445619",
+      "30407521",
+      "30093682",
+      "29684098",
+      "29651053",
+      "29120462",
+      "27797775",
+      "27079975",
+      "26353135",
+      "26026074",
+      "25559105",
+      "25161254",
+      "24894502",
+      "24695404",
+      "24097267",
+      "22955616",
+      "22388286",
+      "21113027",
+      "20436461",
+      "20110278",
+      "19736561",
+      "18798982",
+      "16381938",
+      "15888575",
+      "14732253",
+      "12814941",
+      "6519667",
+      "6256660"
+    ],
+    "similar": [
+      "36712015",
+      "37217250",
+      "36062065",
+      "34284136",
+      "33878366",
+      "31199868",
+      "34235431",
+      "34273560",
+      "35848835",
+      "32251359",
+      "38426058",
+      "29052193",
+      "27634469",
+      "36173566",
+      "37211599",
+      "32321568",
+      "28075484",
+      "36656543",
+      "34729473",
+      "25559105",
+      "32312702",
+      "35255493",
+      "35411004",
+      "31427911",
+      "37054649",
+      "38581422",
+      "33584814",
+      "32213349",
+      "35866989",
+      "27832532",
+      "34313779",
+      "35296236",
+      "36466281",
+      "32014034",
+      "33555221",
+      "30065749",
+      "35874611",
+      "34019098",
+      "35127984",
+      "37074906",
+      "38841126",
+      "34875002",
+      "36807076",
+      "37030137",
+      "29155775",
+      "30375457",
+      "35997564",
+      "34488759",
+      "32353042",
+      "35809062",
+      "33606259",
+      "32312703",
+      "30824903",
+      "36276837",
+      "37249868",
+      "29961827",
+      "37313714",
+      "25785608",
+      "37249867",
+      "35584295",
+      "29982337",
+      "30064353",
+      "35486242",
+      "32321567",
+      "33655209",
+      "33172005",
+      "32336246",
+      "24688750",
+      "35673985",
+      "37022258",
+      "35695574",
+      "35604124",
+      "29684098",
+      "31123324",
+      "35306442",
+      "24564277",
+      "32838633",
+      "30779737",
+      "37323658",
+      "39056686",
+      "38915667",
+      "38730604"
+    ],
+    "review": [
+      "36712015",
+      "32312702",
+      "35255493",
+      "31427911",
+      "32014034",
+      "33606259",
+      "32312703"
+    ],
+    "pmc": [
+      "9881890"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36712015/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36712015",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.01.07.523108",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

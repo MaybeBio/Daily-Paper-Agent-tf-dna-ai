@@ -1,0 +1,490 @@
+{
+  "identity": {
+    "pmid": "36651723",
+    "doi": "10.7554/eLife.80387",
+    "title": "Targeting RNA:protein interactions with an integrative approach leads to the identification of potent YBX1 inhibitors."
+  },
+  "content": {
+    "abstract": "RNA-protein interactions (RPIs) are promising targets for developing new molecules of therapeutic interest. Nevertheless, challenges arise from the lack of methods and feedback between computational and experimental techniques during the drug discovery process. Here, we tackle these challenges by developing a drug screening approach that integrates chemical, structural and cellular data from both advanced computational techniques and a method to score RPIs in cells for the development of small RPI inhibitors; and we demonstrate its robustness by targeting Y-box binding protein 1 (YB-1), a messenger RNA-binding protein involved in cancer progression and resistance to chemotherapy. This approach led to the identification of 22 hits validated by molecular dynamics (MD) simulations and nuclear magnetic resonance (NMR) spectroscopy of which 11 were found to significantly interfere with the binding of messenger RNA (mRNA) to YB-1 in cells. One of our leads is an FDA-approved poly(ADP-ribose) polymerase 1 (PARP-1) inhibitor. This work shows the potential of our integrative approach and paves the way for the rational development of RPI inhibitors.",
+    "keywords": [
+      "NMR",
+      "RNA-binding proteins",
+      "YBX1",
+      "biochemistry",
+      "chemical biology",
+      "free energy simulations",
+      "microtubule bench",
+      "molecular biophysics",
+      "molecular dynamics",
+      "small molecules",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*RNA",
+      "Molecular Dynamics Simulation",
+      "*Neoplasms",
+      "Drug Discovery",
+      "RNA, Messenger/genetics",
+      "Y-Box-Binding Protein 1/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "El Hage, Krystel",
+        "Babault, Nicolas",
+        "Maciejak, Olek",
+        "Desforges, Benedicte",
+        "Craveur, Pierrick",
+        "Steiner, Emilie",
+        "Rengifo-Gonzalez, Juan Carlos",
+        "Henrie, Helene",
+        "Clement, Marie-Jeanne",
+        "Joshi, Vandana",
+        "Bouhss, Ahmed",
+        "Wang, Liya",
+        "Bauvais, Cyril",
+        "Pastre, David"
+      ],
+      "short_names": [
+        "El Hage K",
+        "Babault N",
+        "Maciejak O",
+        "Desforges B",
+        "Craveur P",
+        "Steiner E",
+        "Rengifo-Gonzalez JC",
+        "Henrie H",
+        "Clement MJ",
+        "Joshi V",
+        "Bouhss A",
+        "Wang L",
+        "Bauvais C",
+        "Pastre D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4837-3888",
+        "ORCID: 0000-0001-9594-9435",
+        "ORCID: 0000-0001-9274-4944",
+        "ORCID: 0000-0002-6492-1429",
+        "ORCID: 0000-0001-7119-8665"
+      ],
+      "affiliations": [
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "SYNSIGHT, Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "SYNSIGHT, Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France.",
+        "SYNSIGHT, Evry, France.",
+        "Universite Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activite des Biomolecules Normales et Pathologiques (SABNP), Evry, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "El Hage, Krystel",
+        "short_name": "El Hage K",
+        "identifiers": [
+          "0000-0003-4837-3888"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Babault, Nicolas",
+        "short_name": "Babault N",
+        "identifiers": [],
+        "affiliations": [
+          "SYNSIGHT, Evry, France."
+        ]
+      },
+      {
+        "full_name": "Maciejak, Olek",
+        "short_name": "Maciejak O",
+        "identifiers": [
+          "0000-0001-9594-9435"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Desforges, Bénédicte",
+        "short_name": "Desforges B",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Craveur, Pierrick",
+        "short_name": "Craveur P",
+        "identifiers": [
+          "0000-0001-9274-4944"
+        ],
+        "affiliations": [
+          "SYNSIGHT, Evry, France."
+        ]
+      },
+      {
+        "full_name": "Steiner, Emilie",
+        "short_name": "Steiner E",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Rengifo-Gonzalez, Juan Carlos",
+        "short_name": "Rengifo-Gonzalez JC",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Henrie, Hélène",
+        "short_name": "Henrie H",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Clement, Marie-Jeanne",
+        "short_name": "Clement MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Joshi, Vandana",
+        "short_name": "Joshi V",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Bouhss, Ahmed",
+        "short_name": "Bouhss A",
+        "identifiers": [
+          "0000-0002-6492-1429"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Wang, Liya",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0001-7119-8665"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      },
+      {
+        "full_name": "Bauvais, Cyril",
+        "short_name": "Bauvais C",
+        "identifiers": [],
+        "affiliations": [
+          "SYNSIGHT, Evry, France."
+        ]
+      },
+      {
+        "full_name": "Pastré, David",
+        "short_name": "Pastré D",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INSERM U1204, Univ Evry, Structure-Activité des Biomolécules Normales et Pathologiques (SABNP), Evry, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2023 Jan 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/19 06:00",
+    "fetched_at": "2026-09-28 19:15:02"
+  },
+  "links": {
+    "cites": [
+      "42698848",
+      "42662718",
+      "42033033",
+      "41994112",
+      "41557215",
+      "41301491",
+      "39875548",
+      "39497723",
+      "39268573",
+      "39062595",
+      "38899362",
+      "38033386",
+      "37268766"
+    ],
+    "refs": [
+      "37127961",
+      "34490845",
+      "34469566",
+      "34224843",
+      "34216543",
+      "33713600",
+      "33617246",
+      "33535093",
+      "33398344",
+      "33349665",
+      "32728246",
+      "32710623",
+      "32533387",
+      "32241924",
+      "32109414",
+      "31978347",
+      "31702846",
+      "31668005",
+      "31351877",
+      "31340039",
+      "31274540",
+      "31217428",
+      "31160337",
+      "30614472",
+      "30605522",
+      "30190791",
+      "29943074",
+      "29874593",
+      "29429449",
+      "29129640",
+      "28837131",
+      "28620474",
+      "28575669",
+      "27866910",
+      "27548809",
+      "27354702",
+      "27142790",
+      "27118708",
+      "27076215",
+      "26619985",
+      "26610591",
+      "26240386",
+      "25855812",
+      "25784054",
+      "25013173",
+      "24889800",
+      "24770864",
+      "24681720",
+      "24217978",
+      "24062525",
+      "23962882",
+      "23216250",
+      "22952158",
+      "22772059",
+      "22681889",
+      "22658674",
+      "22368531",
+      "22068331",
+      "21982300",
+      "21541964",
+      "21369783",
+      "20649952",
+      "19499576",
+      "19411069",
+      "19399780",
+      "18971256",
+      "18485770",
+      "17212484",
+      "15926816",
+      "12798299",
+      "11851341",
+      "11414845",
+      "9095180",
+      "8756684",
+      "1918161"
+    ],
+    "similar": [
+      "36651723",
+      "33742080",
+      "32585856",
+      "33280507",
+      "27544639",
+      "35410432",
+      "31944153",
+      "27072400",
+      "30426615",
+      "34224843",
+      "34465278",
+      "31180040",
+      "26498684",
+      "31160337",
+      "24217978",
+      "34709966",
+      "23980891",
+      "30903644",
+      "32290447",
+      "29113949",
+      "19098458",
+      "34766549",
+      "31618640",
+      "24770864",
+      "26453809",
+      "22772059",
+      "20596676",
+      "32929382",
+      "31481087",
+      "29670170",
+      "33934437",
+      "28916481",
+      "23134843",
+      "33278865",
+      "21788731",
+      "24260892",
+      "33058958",
+      "31560169",
+      "28708785",
+      "37500615",
+      "29028411",
+      "22801372",
+      "30135188",
+      "30605522",
+      "36990409",
+      "23593654",
+      "22205655",
+      "25116735",
+      "23912807",
+      "35501986",
+      "32619070",
+      "18172301",
+      "26318844",
+      "26355086",
+      "33361760",
+      "35501988",
+      "23462806",
+      "21344396",
+      "37370092",
+      "36028903",
+      "30419346",
+      "27384875",
+      "31358880",
+      "31935443",
+      "23160378",
+      "30905819",
+      "22284440",
+      "22619371",
+      "20480380",
+      "23986595",
+      "26147853",
+      "35501989",
+      "26936129",
+      "24740858",
+      "27559612",
+      "31906126",
+      "34082012",
+      "32216017",
+      "22190445",
+      "22339596",
+      "24260353",
+      "28161363",
+      "27911878",
+      "23838318",
+      "28428004",
+      "25539742",
+      "27315035",
+      "38784453"
+    ],
+    "review": [
+      "36651723",
+      "34224843",
+      "34465278",
+      "24217978",
+      "30903644",
+      "32290447",
+      "33058958",
+      "35501986",
+      "35501988",
+      "35501989",
+      "22190445"
+    ],
+    "pmc": [
+      "9928419"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36651723/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36651723",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-556",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.80387",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36651723",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

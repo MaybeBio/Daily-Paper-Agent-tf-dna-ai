@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40393377",
+  "title": "HR-SC-an academic-developed machine learning framework to classify HRD-positive ovarian cancer patients and predict sensitivity to olaparib.",
+  "authors": "Beltrame, L; Mannarino, L; Sergi, A; Velle, A; Treilleux, I; Pignata, S; Paracchini, L; Harter, P; Scambia, G; Perrone, F; Gonzalez-Martin, A; Berger, R; Arenare, L; Hietanen, S; Califano, D; Derio, S; Van Gorp, T; Dalessandro, M L; Fujiwara, K; Provansal, M; Lorusso, D; Buderath, P; Masseroli, M; Ray-Coquard, I; Pujade-Lauraine, E; Romualdi, C; D'Incalci, M; Marchini, S",
+  "journal": "ESMO open",
+  "published_date": "2025-05-21",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用机器学习基于BRCA/拷贝数特征分类卵巢癌HRD状态并预测PARPi疗效，属临床表型分类，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: High-grade serous ovarian cancer (OC) patients with defects in the homologous recombination repair (HRR) pathway benefit from poly (ADP-ribose) polymerase inhibitor (PARPi) maintenance therapy. Clinically approved methods for identifying HRR status suffer from limitations, such as high failure rates and costs, leading to the clinical need for innovative approaches. To this aim, we developed Homologous Recombination Signature Classifier (HR-SC), a machine learning (ML) algorithm that integrates BRCA1/BRCA2 status and copy number signatures, leveraging the availability of OC samples recruited from two international clinical trials, namely PAOLA-1 (dataset A) and MITO16A/MaNGO-OV2 (dataset B). PATIENTS AND METHODS: 569 DNA samples from datasets A and B were sequenced using a custom library design covering a backbone of structural regions and the full-length sequence of 375 genes. Data were used to train, validate (dataset A), and test (dataset B) HR-SC, using BRCA1/BRCA2 status and a compendium of previously annotated copy number signatures. Lastly, HR-SC was compared with already established approaches to evaluate its predictive and prognostic role. RESULTS: In dataset A, where the failure rate was 6.4%, HR-SC showed a sensitivity of 92%, a specificity of 94.73%, an accuracy of 93.18%, a positive predictive value (PPV) of 95.83%, and a negative predictive value (NPV) of 90%. In dataset B, where the failure rate was 4%, HR-SC showed a sensitivity of 90.16%, a specificity of 82.86%, an accuracy of 87.5%, a PPV of 90.16%, and an NPV of 82.86%. Univariate and multivariate survival analyses demonstrated its predictive role [progression-free survival (PFS): hazard ratio (HR) = 0.42, P < 0.0001; overall survival (OS): HR = 0.63, P = 0.036] and its prognostic role (PFS: HR = 0.56, P = 0.0095). CONCLUSIONS: The study demonstrates that HR-SC is a novel, clinically feasible solution with a low failure rate for predicting HRR status in OC patients and underscores the importance of leveraging ML approaches for advancing precision oncology in the era of personalized medicine.",
+  "abstract_zh": "背景：同源重组修复（HRR）通路存在缺陷的高级别浆液性卵巢癌（OC）患者可从聚（ADP-核糖）聚合酶抑制剂（PARPi）维持治疗中获益。临床上已批准的用于识别HRR状态的方法存在局限性，如失败率高和成本高，因此临床上需要创新方法。为此，我们开发了同源重组特征分类器（HR-SC），这是一种机器学习（ML）算法，整合了BRCA1/BRCA2状态和拷贝数特征，利用了从两项国际临床试验（即PAOLA-1（数据集A）和MITO16A/MaNGO-OV2（数据集B））中招募的OC样本。患者与方法：使用定制文库设计对来自数据集A和B的569份DNA样本进行测序，该设计覆盖结构区域骨架和375个基因的全长序列。数据用于训练、验证（数据集A）和测试（数据集B）HR-SC，使用BRCA1/BRCA2状态和先前注释的拷贝数特征汇编。最后，将HR-SC与已建立的方法进行比较，以评估其预测和预后作用。结果：在数据集A中，失败率为6.4%，HR-SC显示出92%的敏感性、94.73%的特异性、93.18%的准确性、95.83%的阳性预测值（PPV）和90%的阴性预测值（NPV）。在数据集B中，失败率为4%，HR-SC显示出90.16%的敏感性、82.86%的特异性、87.5%的准确性、90.16%的PPV和82.86%的NPV。单变量和多变量生存分析证明了其预测作用[无进展生存期（PFS）：风险比（HR）= 0.42，P < 0.0001；总生存期（OS）：HR = 0.63，P = 0.036]及其预后作用（PFS：HR = 0.56，P = 0.0095）。结论：该研究表明，HR-SC是一种新颖、临床可行且失败率低的解决方案，用于预测OC患者的HRR状态，并强调了在个体化医疗时代利用ML方法推进精准肿瘤学的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40393377/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40393377/",
+  "paper_page_path": "papers/pubmed/40393377/index.html"
+}

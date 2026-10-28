@@ -1,0 +1,473 @@
+{
+  "identity": {
+    "pmid": "42449993",
+    "doi": "10.3390/ijms27135720",
+    "title": "Identification of Markers on the Basis of Transcriptomic Analysis for Molecular Assignment of Medulloblastoma."
+  },
+  "content": {
+    "abstract": "Medulloblastoma is a heterogeneous solid tumor, and its molecular characteristics are the most important prognostic factors for this neoplasm. Unfortunately, the molecular classification of MB-G3 and MB-G-4 medulloblastoma is very complex because of molecular similarity. Therefore, in this work, through unsupervised machine learning-based gene expression profiling, we identified a low molecular profile associated with four molecular groups of medulloblastoma. We performed medulloblastoma expression microarray data mining via the Partek Genomics Suite and Transcriptome Analysis Console (TAC), and we included a total of 25 fresh medulloblastoma tumors that were obtained and hybridized into HG U133 Plus 2.0 Array microarrays. To identify the molecular groups of the 25 patients, we compared them against classified patients, which were obtained from free repositories, and through data mining based on gene expression, compared the expression profiles of our patients. To do so, we performed an analysis via the least squares method via PCA. The molecular groups MB-WNT and MB-SHH were confirmed via immunohistochemistry via beta-catenin, YAP1 and GAB1 antibodies in tissue fixed in formalin and embedded in paraffin, and another tissue section was placed on a Visium Spatial slide to perform spatial RNA-seq via Illumina NextSeq 2000 platform sequencers. The data obtained were analyzed with R. We identified the expression profiles associated with the four molecular groups and formed a reference set. Through unsupervised analysis via the least squares method, we assigned the molecular profiles of 25 patients with medulloblastoma, via the integration of bulk and spatial tumor molecular gene expression profiling analysis and with immunohistochemical findings, this strategy was fast and accurate. We observed correlations in three of the trials carried out and, in part, in one study, a patient who presented two tumor strains and two molecular signatures (SHH and G4), which led us to believe that this patient presented mixed phenotypic characteristics. Multigene expression profile analysis of medulloblastoma represents a significant advance in precision medicine; integrating different layers of transcriptomic information allows us to demonstrate underlying molecular changes in the four molecular groups that are essential for personalized therapy.",
+    "keywords": [
+      "gene expression",
+      "medulloblastoma",
+      "molecular assignment",
+      "spatial transcriptome analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Medulloblastoma/genetics/metabolism/pathology/classification",
+      "*Gene Expression Profiling/methods",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Cerebellar Neoplasms/genetics/metabolism/pathology",
+      "Gene Expression Regulation, Neoplastic",
+      "*Transcriptome",
+      "Female",
+      "Male",
+      "Adaptor Proteins, Signal Transducing/genetics/metabolism",
+      "YAP-Signaling Proteins",
+      "Transcription Factors",
+      "beta Catenin/genetics/metabolism",
+      "Child",
+      "Hedgehog Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Juarez-Mendez, Sergio",
+        "Vazquez-Jimenez, Aaron",
+        "Ramirez-Chiquito, Josselen Carina",
+        "Villegas-Ruiz, Vanessa",
+        "Niembro-Zuniga, Ana Maria",
+        "Farfan-Morales, Jose Eduardo",
+        "Marhx-Bracho, Alfonso",
+        "Krotzsch, Edgar",
+        "Rodriguez-Morales, Miguel",
+        "Segura-Solis, Emma",
+        "Perezpena-Diazconti, Mario",
+        "Ridaura-Sanz, Cecilia",
+        "Rivera-Luna, Roberto",
+        "Eguia-Aguilar, Pilar",
+        "Resendis-Antonio, Osbaldo",
+        "Melendez-Zajgla, Jorge"
+      ],
+      "short_names": [
+        "Juarez-Mendez S",
+        "Vazquez-Jimenez A",
+        "Ramirez-Chiquito JC",
+        "Villegas-Ruiz V",
+        "Niembro-Zuniga AM",
+        "Farfan-Morales JE",
+        "Marhx-Bracho A",
+        "Krotzsch E",
+        "Rodriguez-Morales M",
+        "Segura-Solis E",
+        "Perezpena-Diazconti M",
+        "Ridaura-Sanz C",
+        "Rivera-Luna R",
+        "Eguia-Aguilar P",
+        "Resendis-Antonio O",
+        "Melendez-Zajgla J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3269-329X",
+        "ORCID: 0000-0002-5441-2612",
+        "ORCID: 0000-0002-0696-0147",
+        "ORCID: 0000-0002-4302-1069",
+        "ORCID: 0000-0002-1007-7744",
+        "ORCID: 0000-0003-0385-8902",
+        "ORCID: 0000-0001-5220-541X",
+        "ORCID: 0000-0002-2209-1607"
+      ],
+      "affiliations": [
+        "Experimental Oncology Laboratory, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Molecular Pathology Laboratory, Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Human Systems Biology Laboratory, National Institute of Genomic Medicine, Mexico City 14610, Mexico.",
+        "Experimental Oncology Laboratory, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Postgraduate in Biological Sciences, Postgraduate Unit, Building D, 1st Floor, Postgraduate Circuit, University City, Coyoacan, Mexico City 04510, Mexico.",
+        "Experimental Oncology Laboratory, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Department of Pediatric Oncology, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Department of Surgery, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Laboratory of Connective Tissue, National Institute of Rehabilitation \"Luis Guillermo Ibarra Ibarra\", Mexico City 04530, Mexico.",
+        "Department of Human Genetics, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Medicine Faculty, National Autonomous University of Mexico, Mexico City 04510, Mexico.",
+        "Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Molecular Pathology Laboratory, Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Research Direction, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+        "Experimental Pathology Research Laboratory, Children's Hospital of Mexico, Federico Gomez, Mexico City 06720, Mexico.",
+        "Department of Clinical and Experimental Pathology, Children's Hospital of Mexico, Federico Gomez, Mexico City 06720, Mexico.",
+        "Human Systems Biology Laboratory, National Institute of Genomic Medicine, Mexico City 14610, Mexico.",
+        "Center for Complexity Sciences, National Autonomous University of Mexico, Mexico City 04510, Mexico.",
+        "Coordination of Scientific Research-Research Support Network, National Autonomous University of Mexico, Mexico City 14080, Mexico.",
+        "Functional Genomics Laboratory, National Institute of Genomic Medicine, Mexico City 14610, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Juárez-Méndez, Sergio",
+        "short_name": "Juárez-Méndez S",
+        "identifiers": [
+          "0000-0002-3269-329X"
+        ],
+        "affiliations": [
+          "Experimental Oncology Laboratory, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+          "Molecular Pathology Laboratory, Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Vázquez-Jiménez, Aarón",
+        "short_name": "Vázquez-Jiménez A",
+        "identifiers": [],
+        "affiliations": [
+          "Human Systems Biology Laboratory, National Institute of Genomic Medicine, Mexico City 14610, Mexico."
+        ]
+      },
+      {
+        "full_name": "Ramírez-Chiquito, Josselen Carina",
+        "short_name": "Ramírez-Chiquito JC",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Oncology Laboratory, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+          "Postgraduate in Biological Sciences, Postgraduate Unit, Building D, 1st Floor, Postgraduate Circuit, University City, Coyoacán, Mexico City 04510, Mexico."
+        ]
+      },
+      {
+        "full_name": "Villegas-Ruíz, Vanessa",
+        "short_name": "Villegas-Ruíz V",
+        "identifiers": [
+          "0000-0002-5441-2612"
+        ],
+        "affiliations": [
+          "Experimental Oncology Laboratory, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Niembro-Zuñiga, Ana Maria",
+        "short_name": "Niembro-Zuñiga AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Oncology, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Farfán-Morales, José Eduardo",
+        "short_name": "Farfán-Morales JE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Marhx-Bracho, Alfonso",
+        "short_name": "Marhx-Bracho A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Krötzsch, Edgar",
+        "short_name": "Krötzsch E",
+        "identifiers": [
+          "0000-0002-0696-0147"
+        ],
+        "affiliations": [
+          "Laboratory of Connective Tissue, National Institute of Rehabilitation \"Luis Guillermo Ibarra Ibarra\", Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Rodríguez-Morales, Miguel",
+        "short_name": "Rodríguez-Morales M",
+        "identifiers": [
+          "0000-0002-4302-1069"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+          "Medicine Faculty, National Autonomous University of Mexico, Mexico City 04510, Mexico."
+        ]
+      },
+      {
+        "full_name": "Segura-Solís, Emma",
+        "short_name": "Segura-Solís E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Perezpeña-Diazconti, Mario",
+        "short_name": "Perezpeña-Diazconti M",
+        "identifiers": [
+          "0000-0002-1007-7744"
+        ],
+        "affiliations": [
+          "Molecular Pathology Laboratory, Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico.",
+          "Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Ridaura-Sanz, Cecilia",
+        "short_name": "Ridaura-Sanz C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Rivera-Luna, Roberto",
+        "short_name": "Rivera-Luna R",
+        "identifiers": [],
+        "affiliations": [
+          "Research Direction, National Institute of Pediatrics, Mexico City 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Eguía-Aguilar, Pilar",
+        "short_name": "Eguía-Aguilar P",
+        "identifiers": [
+          "0000-0003-0385-8902"
+        ],
+        "affiliations": [
+          "Experimental Pathology Research Laboratory, Children's Hospital of Mexico, Federico Gómez, Mexico City 06720, Mexico.",
+          "Department of Clinical and Experimental Pathology, Children's Hospital of Mexico, Federico Gómez, Mexico City 06720, Mexico."
+        ]
+      },
+      {
+        "full_name": "Resendis-Antonio, Osbaldo",
+        "short_name": "Resendis-Antonio O",
+        "identifiers": [
+          "0000-0001-5220-541X"
+        ],
+        "affiliations": [
+          "Human Systems Biology Laboratory, National Institute of Genomic Medicine, Mexico City 14610, Mexico.",
+          "Center for Complexity Sciences, National Autonomous University of Mexico, Mexico City 04510, Mexico.",
+          "Coordination of Scientific Research-Research Support Network, National Autonomous University of Mexico, Mexico City 14080, Mexico."
+        ]
+      },
+      {
+        "full_name": "Melendez-Zajgla, Jorge",
+        "short_name": "Melendez-Zajgla J",
+        "identifiers": [
+          "0000-0002-2209-1607"
+        ],
+        "affiliations": [
+          "Functional Genomics Laboratory, National Institute of Genomic Medicine, Mexico City 14610, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jun 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/15 06:36",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38979174",
+      "38756654",
+      "38184694",
+      "36291073",
+      "35365599",
+      "34771550",
+      "34185076",
+      "33685491",
+      "33662447",
+      "33555447",
+      "32368525",
+      "32185225",
+      "32053195",
+      "31528456",
+      "31527520",
+      "31108950",
+      "31104222",
+      "30956966",
+      "30945456",
+      "30832734",
+      "30594974",
+      "29742881",
+      "29616106",
+      "29117289",
+      "28980418",
+      "28609654",
+      "28394352",
+      "28287336",
+      "27221839",
+      "27157931",
+      "26222673",
+      "26169613",
+      "24871706",
+      "24264598",
+      "24203893",
+      "24140199",
+      "24007497",
+      "22832583",
+      "22832581",
+      "22820256",
+      "22722829",
+      "22358457",
+      "22230517",
+      "21267586",
+      "20823417",
+      "19726761",
+      "18769486",
+      "15661852",
+      "15340489"
+    ],
+    "similar": [
+      "42449993",
+      "21267586",
+      "27106407",
+      "31343993",
+      "21107850",
+      "38874255",
+      "23291781",
+      "24932704",
+      "32053195",
+      "22160402",
+      "31104222",
+      "41055774",
+      "27576698",
+      "41665172",
+      "30826918",
+      "24203893",
+      "40936033",
+      "32591022",
+      "28545823",
+      "25163932",
+      "41159380",
+      "31064192",
+      "35320876",
+      "22358457",
+      "25473003",
+      "18769486",
+      "40056547",
+      "32580068",
+      "20823417",
+      "37093271",
+      "31073205",
+      "41372458",
+      "38477441",
+      "24493713",
+      "33323893",
+      "35489737",
+      "42056683",
+      "29351917",
+      "30392813",
+      "31799776",
+      "32380172",
+      "15198123",
+      "28339008",
+      "29427151",
+      "36892621",
+      "29753700",
+      "27238212",
+      "32610314",
+      "23525311",
+      "26222673",
+      "35977718",
+      "29582169",
+      "31574483",
+      "35967388",
+      "39560853",
+      "30155928",
+      "33119584",
+      "31781912",
+      "38847845",
+      "38384024",
+      "41213462",
+      "35563678",
+      "31541170",
+      "25645196",
+      "30832734",
+      "21325292",
+      "40721826",
+      "38864138",
+      "31185958",
+      "33465267",
+      "38689348",
+      "22832583",
+      "29616106",
+      "37127652",
+      "33949667",
+      "21911727",
+      "23592496",
+      "23775842",
+      "35366170",
+      "20921458",
+      "40148468",
+      "25115738",
+      "37471625",
+      "24695855",
+      "39609432",
+      "41980781",
+      "41857757",
+      "21098324",
+      "30252101",
+      "27065321",
+      "28231263",
+      "39460795",
+      "24252460",
+      "39198884",
+      "27406588",
+      "23762360",
+      "42101697",
+      "29778738",
+      "16567768",
+      "33749384"
+    ],
+    "review": [
+      "42449993",
+      "22358457",
+      "35489737",
+      "31799776",
+      "27238212",
+      "29582169"
+    ],
+    "pmc": [
+      "13360944"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27135720",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42449993/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

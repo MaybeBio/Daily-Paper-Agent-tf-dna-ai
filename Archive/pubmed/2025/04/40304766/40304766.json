@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "40304766",
+    "doi": "10.1007/s00011-025-02038-z",
+    "title": "Shared genetic association between inflammatory bowel disease and acute myeloid leukemia: insights from mendelian randomization and transcriptomic analyses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Observational studies suggest that a history of inflammatory bowel disease (IBD) is associated with the onset of acute myeloid leukemia (AML), often attributed to drug use. However, these findings are inconsistent. This study aimed to assess the causal relationship between IBD and AML, identify shared pathogenesis, and discover diagnostic and prognostic markers and potential therapeutic drugs. METHODS: Two-sample Mendelian randomization (MR) was employed to analyze genetic associations between IBD [ulcerative colitis (UC) and Crohn's disease (CD)] and AML. Transcriptomic data from gene expression omnibus (GEO) identified differentially expressed genes (DEGs) in UC, AML, and controls. Weighted Gene Co-expression Network Analysis (WGCNA) and enrichment analyses [Gene Multiple Association Network Integration Algorithm (GeneMANIA), Kyoto Encyclopedia of Genes and Genomes (KEGG), Ractom pathway] and Gene Ontology (GO) explored shared genetic pathways. Receiver Operating Characteristic (ROC) curve and survival analyses screened diagnostic and prognostic markers. Cibersort and GSVA were employed to analyze the proportion of immune cells in UC and AML datasets, as well as to assess the association of specific genes with immune infiltration. The Drug Signatures Database (DSigDB) and Autodock molecular docking identified potential therapeutic small molecules. RESULTS: MR analysis revealed a causal association between UC and the onset of AML. Differential expression and WGCNA analyses identified 23 co-driver genes regulated by Signal Transducer and Activator of Transcription 3 (STAT3) and Activating Transcription Factor 4 (AFT4), enriched in immune, inflammatory, and cell proliferation pathways. Tissue Inhibitor of Metalloproteinases 1 (TIMP1) and F2R-Like Trypsin Receptor 1 (F2RL1) were identified as practical diagnostic and prognostic markers for AML, with high TIMP1 and low F2RL1 expression promoting an immunosuppressive and inflammatory tumor microenvironment. Quercetin was identified as a promising candidate for UC-associated AML. CONCLUSIONS: UC is a risk factor for AML pathogenesis. TIMP1 and F2RL1 are diagnostic and prognostic markers for UC-associated AML, potentially facilitating AML development through sustained inflammation and an immunosuppressive tumor microenvironment. Quercetin, a potential TIMP1 and F2RL1 inhibitor, may mitigate UC-AML transformation, providing insights into UC management, AML monitoring, and preventive therapy development.",
+    "keywords": [
+      "Acute myeloid leukemia",
+      "Inflammatory bowel disease",
+      "Mendelian randomization",
+      "Prevention",
+      "Transcriptomic data"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Leukemia, Myeloid, Acute/genetics/immunology",
+      "Mendelian Randomization Analysis",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "*Inflammatory Bowel Diseases/genetics",
+      "Gene Regulatory Networks",
+      "*Colitis, Ulcerative/genetics",
+      "*Crohn Disease/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Yanqun",
+        "Zhang, Xiongfeng",
+        "Yin, Shangjin",
+        "Yao, Yuhong",
+        "Chen, Tao",
+        "Huang, Liming",
+        "Liu, Zenghui"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Zhang X",
+        "Yin S",
+        "Yao Y",
+        "Chen T",
+        "Huang L",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+        "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China.",
+        "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+        "Department of Nephrology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China.",
+        "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+        "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China.",
+        "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+        "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China.",
+        "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+        "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China.",
+        "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China. huanglm1963@163.com.",
+        "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China. huanglm1963@163.com.",
+        "Department of Hematology, The First Affiliated Hospital of Guangzhou University of Traditional Chinese Medicine, No. 16 Jichang Road, Guangzhou, 510405, Guangdong Province, People's Republic of China. 10304254@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Yanqun",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+          "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiongfeng",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+          "Department of Nephrology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yin, Shangjin",
+        "short_name": "Yin S",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+          "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yuhong",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+          "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tao",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China.",
+          "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Liming",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medical School of Guizhou University of Chinese Medicine, No. 83, Feishan Street, Yunyan District, Guiyang, 550003, Guizhou Province, People's Republic of China. huanglm1963@163.com.",
+          "Department of Hematology, The Second Affiliated Hospital of Guizhou University of Chinese Medicine, Guiyang, People's Republic of China. huanglm1963@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Zenghui",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Guangzhou University of Traditional Chinese Medicine, No. 16 Jichang Road, Guangzhou, 510405, Guangdong Province, People's Republic of China. 10304254@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation research : official journal of the European Histamine Research Society ... [et al.]"
+    ],
+    "journal_abbrev": [
+      "Inflamm Res"
+    ],
+    "pub_date": "2025 Apr 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/30 12:30",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "41811549"
+    ],
+    "refs": [
+      "39801238",
+      "39354883",
+      "39233736",
+      "38953119",
+      "38601955",
+      "38528540",
+      "38288125",
+      "38191922",
+      "38184814",
+      "37961948",
+      "37873559",
+      "37759102",
+      "37674502",
+      "37666991",
+      "37649721",
+      "37543671",
+      "37409118",
+      "37142141",
+      "37092441",
+      "37090703",
+      "36581735",
+      "36418457",
+      "36270983",
+      "36248849",
+      "36163148",
+      "36153115",
+      "36134639",
+      "35961511",
+      "35924979",
+      "35900794",
+      "35797677",
+      "35685630",
+      "35605401",
+      "35566780",
+      "35313329",
+      "35301236",
+      "35281807",
+      "35037241",
+      "34786276",
+      "34716350",
+      "34698778",
+      "34619772",
+      "34358489",
+      "34278794",
+      "34249942",
+      "34124132",
+      "33982944",
+      "33818756",
+      "33146548",
+      "33054598",
+      "32690020",
+      "32361713",
+      "32291445",
+      "32235097",
+      "32002295",
+      "31978391",
+      "31815781",
+      "31805946",
+      "31611651",
+      "31558162",
+      "31284873",
+      "31191543",
+      "31161213",
+      "30861319",
+      "30385732",
+      "30183456",
+      "30104218",
+      "30029059",
+      "29912392",
+      "29686387",
+      "29504124",
+      "29344893",
+      "29087512",
+      "28775117",
+      "28527048",
+      "28482729",
+      "28404201",
+      "28355571",
+      "28126925",
+      "27903985",
+      "27258612",
+      "27039800",
+      "27014259",
+      "26648539",
+      "26379683",
+      "25990557",
+      "25901973",
+      "25605792",
+      "25158928",
+      "24740120",
+      "24504437",
+      "23955181",
+      "23555662",
+      "23488881",
+      "22854838",
+      "22576581",
+      "21873988",
+      "21138867",
+      "20401516",
+      "20146717",
+      "19592695",
+      "19424600",
+      "16478888",
+      "16274926",
+      "15831904",
+      "15325736",
+      "14583448",
+      "12734009",
+      "12689998",
+      "12639219",
+      "11506819",
+      "11314768",
+      "7639322",
+      "6941276"
+    ],
+    "similar": [
+      "40304766",
+      "35860271",
+      "40730952",
+      "38319411",
+      "39747981",
+      "39799299",
+      "39929265",
+      "34592880",
+      "38563283",
+      "39541897",
+      "38154582",
+      "39030236",
+      "38103512",
+      "41189229",
+      "41327697",
+      "38433839",
+      "40038580",
+      "38408068",
+      "38528540",
+      "40217472",
+      "38656456",
+      "37465669",
+      "38773751",
+      "40597456",
+      "40587702",
+      "38867275",
+      "38774864",
+      "38848323",
+      "36685511",
+      "40527798",
+      "39072277",
+      "41220184",
+      "39081143",
+      "40594700",
+      "37275908",
+      "40681545",
+      "41094572",
+      "36742294",
+      "39168961",
+      "39647286",
+      "41492412",
+      "38660517",
+      "37304119",
+      "39290708",
+      "26636514",
+      "35757704",
+      "38288119",
+      "31258663",
+      "38707907",
+      "38905376",
+      "37904677",
+      "39273699",
+      "36860851",
+      "36582224",
+      "38427067",
+      "41029110",
+      "41029043",
+      "38720886",
+      "38536561",
+      "39918593",
+      "38111509",
+      "34964870",
+      "36405733",
+      "39350682",
+      "38698841",
+      "38373892",
+      "38529201",
+      "38429331",
+      "39994250",
+      "39044191",
+      "25182475",
+      "39766817",
+      "39182484",
+      "39478467",
+      "40406126",
+      "40821793",
+      "41479901",
+      "37817217",
+      "39384932",
+      "38464525",
+      "38638444",
+      "38449867",
+      "41243474",
+      "40072972",
+      "37828486",
+      "36333983",
+      "36459455",
+      "41088581",
+      "39792054",
+      "38660311",
+      "40159170",
+      "39512681",
+      "37988718",
+      "40093802",
+      "39058862",
+      "36776852",
+      "39238649",
+      "38237812",
+      "40175429",
+      "37287987"
+    ],
+    "review": [
+      "40304766",
+      "39799299",
+      "40587702",
+      "38848323",
+      "38905376",
+      "37904677",
+      "38720886",
+      "34964870",
+      "38429331",
+      "39994250",
+      "37817217"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00011-025-02038-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

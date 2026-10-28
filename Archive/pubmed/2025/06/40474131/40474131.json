@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "40474131",
+    "doi": "10.1186/s12885-025-14392-6",
+    "title": "A radiogenomics study on (18)F-FDG PET/CT in endometrial cancer by a novel deep learning segmentation algorithm."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To create an automated PET/CT segmentation method and radiomics model to forecast Mismatch repair (MMR) and TP53 gene expression in endometrial cancer patients, and to examine the effect of gene expression variability on image texture features. MATERIALS AND METHODS: We generated two datasets in this retrospective and exploratory study. The first, with 123 histopathologically confirmed patient cases, was used to develop an endometrial cancer segmentation model. The second dataset, including 249 patients for MMR and 179 for TP53 mutation prediction, was derived from PET/CT exams and immunohistochemical analysis. A PET-based Attention-U Net network was used for segmentation, followed by region-growing with co-registered PET and CT images. Feature models were constructed using PET, CT, and combined data, with model selection based on performance comparison. RESULTS: Our segmentation model achieved 99.99% training accuracy and a dice coefficient of 97.35%, with validation accuracy at 99.93% and a dice coefficient of 84.81%. The combined PET + CT model demonstrated superior predictive power for both genes, with AUCs of 0.8146 and 0.8102 for MMR, and 0.8833 and 0.8150 for TP53 in training and test sets, respectively. MMR-related protein heterogeneity and TP53 expression differences were predominantly seen in PET images. CONCLUSION: An efficient deep learning algorithm for endometrial cancer segmentation has been established, highlighting the enhanced predictive power of integrated PET and CT radiomics for MMR and TP53 expression. The study underscores the distinct influences of MMR and TP53 gene expression on tumor characteristics.",
+    "keywords": [
+      "18F-FDG PET/CT",
+      "Endometrial cancer",
+      "MMR",
+      "Radiogenomics",
+      "TP53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/genetics/diagnostic imaging/pathology",
+      "*Positron Emission Tomography Computed Tomography/methods",
+      "Fluorodeoxyglucose F18",
+      "*Deep Learning",
+      "Retrospective Studies",
+      "Tumor Suppressor Protein p53/genetics",
+      "Middle Aged",
+      "Aged",
+      "DNA Mismatch Repair/genetics",
+      "Algorithms",
+      "Radiopharmaceuticals",
+      "Mutation",
+      "Genomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xuanyi",
+        "Shi, Weijun",
+        "Zhang, Qianwen",
+        "Lin, Xinhui",
+        "Sun, Hongzan"
+      ],
+      "short_names": [
+        "Li X",
+        "Shi W",
+        "Zhang Q",
+        "Lin X",
+        "Sun H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Shengjing Hospital of China Medical University, Sanhao Street No. 36, Heping District, Shenyang, 110004, China.",
+        "The Second Clinical College of China Medical University, Shenyang, 110004, China.",
+        "The Second Clinical College of China Medical University, Shenyang, 110004, China.",
+        "School of Stomatology, China Medical University, Shenyang, Liaoning, 110004, China.",
+        "Department of Radiology, Shengjing Hospital of China Medical University, Sanhao Street No. 36, Heping District, Shenyang, 110004, China. sunhongzan@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xuanyi",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Shengjing Hospital of China Medical University, Sanhao Street No. 36, Heping District, Shenyang, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Weijun",
+        "short_name": "Shi W",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical College of China Medical University, Shenyang, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qianwen",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical College of China Medical University, Shenyang, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xinhui",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Stomatology, China Medical University, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Hongzan",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Shengjing Hospital of China Medical University, Sanhao Street No. 36, Heping District, Shenyang, 110004, China. sunhongzan@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Jun 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 00:27",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42445622",
+      "42165838",
+      "42015304",
+      "41832524",
+      "40672288"
+    ],
+    "refs": [
+      "40192792",
+      "39964762",
+      "39461745",
+      "39411812",
+      "38049843",
+      "37506602",
+      "36791751",
+      "36633525",
+      "35869469",
+      "35658479",
+      "35114747",
+      "34579791",
+      "34512653",
+      "34321915",
+      "33589443",
+      "33145811",
+      "32938538",
+      "32749941",
+      "30818303",
+      "28596308",
+      "28498457",
+      "27840695",
+      "27742654",
+      "27269645",
+      "26944314",
+      "26172027",
+      "26122615",
+      "25636458",
+      "24767630",
+      "23636398",
+      "23376805",
+      "22692466"
+    ],
+    "similar": [
+      "40474131",
+      "39251494",
+      "38997880",
+      "39665892",
+      "38255770",
+      "40081959",
+      "39789538",
+      "39533388",
+      "31134366",
+      "37181405",
+      "39254903",
+      "27771729",
+      "30714158",
+      "30235772",
+      "38955636",
+      "37743402",
+      "40187196",
+      "28891217",
+      "36409398",
+      "38710222",
+      "39369213",
+      "32079712",
+      "38820949",
+      "38423786",
+      "38049843",
+      "33763816",
+      "39972270",
+      "35636357",
+      "39604895",
+      "34365038",
+      "19695685",
+      "38430743",
+      "39312120",
+      "38127071",
+      "39488888",
+      "40268553",
+      "30711937",
+      "35354384",
+      "26045311",
+      "37530809",
+      "36044803",
+      "39019687",
+      "37059891",
+      "33543393",
+      "31939903",
+      "32063026",
+      "39998736",
+      "33547553",
+      "38976160",
+      "39730929",
+      "29185901",
+      "39214122",
+      "40295979",
+      "31733432",
+      "38135556",
+      "39224914",
+      "32804777",
+      "39808225",
+      "39883026",
+      "39976736",
+      "34238799",
+      "27147360",
+      "39436414",
+      "35763096",
+      "38896829",
+      "39966960",
+      "38801340",
+      "31821122",
+      "31853682",
+      "32034487",
+      "31165242",
+      "36326312",
+      "31576685",
+      "40397102",
+      "40127518",
+      "31198089",
+      "38491333",
+      "39983386",
+      "39875749",
+      "30573388",
+      "33738763",
+      "37666698",
+      "38323867",
+      "31769230",
+      "40121117",
+      "40355910",
+      "25518184",
+      "39849387",
+      "16167154",
+      "23707673",
+      "38326655",
+      "39368659",
+      "38725315",
+      "40203606",
+      "28205306",
+      "26546334",
+      "38285641",
+      "27738011",
+      "34320931",
+      "33092631"
+    ],
+    "review": [
+      "40474131",
+      "31165242"
+    ],
+    "pmc": [
+      "12142843"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-14392-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40474131/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report a computational docking study of six Cotton leaf curl Multan virus (CLCuMV) proteins (Rep, TrAP, C4, C5, V2, betaC1) against 18 cotton transcriptional gene silencing (TGS) proteins, using ClusPro and GRAMM (216 docking runs), followed by COCOMAPS analysis of high-affinity pairs. They claim robust binding of TrAP, C4, and C5 to 14 TGS proteins, identify several novel interactions, visualize interfaces in PyMol, and report that 18 C4 variants show no correlation between sequence variation and docking energies, with conserved residues in C4 binding regions proposed as antiviral targets.
+- **Visible evidence base** Abstract text only; no methods section, docking scores, statistical analyses, figures, or tables provided
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful computational screen of virus-host protein interactions relevant to cotton leaf curl disease. However, the evidence presented is insufficient to evaluate the technical quality of the docking methodology, the statistical robustness of the binding affinity comparisons, or the biological significance of the claimed novel interactions. The central claims, particularly the identification of novel interactions and the absence of correlation between C4 sequence variation and docking energies, cannot be assessed from the supplied material. The study may be of interest to plant virologists and computational biologists, but the case is not currently established from the abstract alone.
+- **Who would be interested in the results, and why** Plant virologists studying geminivirus-host interactions, cotton breeders and pathologists concerned with cotton leaf curl disease resistance, and computational biologists working on protein-protein docking and host-pathogen interaction prediction would find the results relevant. The identification of specific viral proteins targeting host TGS components could inform functional studies and antiviral strategy development.
+- **Major strengths** The study addresses a disease of significant agricultural importance and applies a multi-tool computational pipeline (ClusPro, GRAMM, COCOMAPS, PyMol) that is appropriate for initial interaction screening. The inclusion of multiple viral proteins and a substantial panel of host TGS factors provides broad coverage. The explicit focus on novel interactions and the attempt to link sequence variation to binding outcomes are commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that docking runs "revealed variable binding energies" and that the highest-affinity pairs were further scrutinized, leading to identification of robust binding of TrAP, C4, and C5 with 14 TGS proteins.
+  - **Evidence pointer** Abstract only; no docking scores, thresholds, or selection criteria provided
+  - **Concern** No quantitative docking scores, energy values, or selection thresholds are reported. The criteria for defining "highest binding affinities" and "robust binding" are not stated. Without these, the reader cannot judge whether the interaction ranking is meaningful or whether the selected pairs differ significantly from non-selected ones.
+  - **Why it matters** Docking tools produce raw scores that require careful interpretation and often calibration against known complexes or decoy sets. The absence of any numerical data or statistical comparison makes the central interaction claims unverifiable and potentially arbitrary.
+  - **Resolution test** Provide docking energy values for all 216 pairs, state the threshold used to select high-affinity pairs, and include a statistical test or comparison against a negative control set to demonstrate that the selected interactions are non-random.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that 18 variants of the C4 protein showed "no correlation between sequence variation and docking energies" when tested against CMT2.
+  - **Evidence pointer** Abstract only; no variant list, energy values, or correlation statistics provided
+  - **Concern** The claim of no correlation is a negative result that requires statistical support. No correlation coefficient, p-value, or description of the variant design (e.g., natural variants vs. alanine scanning) is provided. The number of variants (18) is small, and the power to detect a correlation may be limited.
+  - **Why it matters** A negative correlation claim is only meaningful if the analysis is adequately powered and the variants are biologically relevant. Without this information, the conclusion could be a false negative or an artifact of the docking method.
+  - **Resolution test** Report the correlation coefficient and p-value, describe the variant selection rationale, and include a power analysis or confidence interval for the correlation estimate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims identification of "several novel interactions (not reported yet by earlier studies)" including TrAP targeting DCL3, HDA6, and SUVH6; C4 targeting RAV2, CMT2, and DMT1; and C5 targeting CLSY1, RDR1, RDR2, AGO4, SAMS, and SAHH.
+  - **Evidence pointer** Abstract only; no literature comparison or experimental validation provided
+  - **Concern** The novelty claim is unsupported. No literature search methodology, comparison against existing interaction databases, or experimental validation is described. Computational docking predictions are not evidence of in vivo interaction, and the term "novel" requires a systematic demonstration that these interactions have not been previously reported.
+  - **Why it matters** The scientific importance of the study hinges on the novelty and biological relevance of these interactions. Without validation or a rigorous literature comparison, the claims remain speculative and may mislead subsequent research efforts.
+  - **Resolution test** Provide a systematic literature and database search summary demonstrating absence of prior reports, and include experimental validation (e.g., co-immunoprecipitation, yeast two-hybrid) or at minimum a clear statement that these are predictions requiring validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "conserved residues in the C4 binding regions emerged as potential targets for disrupting viral integrity."
+  - **Evidence pointer** Abstract only; no conservation analysis or binding region details provided
+  - **Concern** The identification of conserved residues as potential targets is presented as a key outcome, but no conservation analysis method, sequence alignment, or structural rationale is described. The link between conserved residues and "disrupting viral integrity" is not mechanistically explained.
+  - **Why it matters** This claim has translational implications for antiviral strategy design. Without supporting data, it is an unsupported suggestion rather than a finding.
+  - **Resolution test** Provide the conservation analysis (e.g., multiple sequence alignment, conservation scores), map the conserved residues onto the docking interface, and explain how targeting these residues would disrupt the interaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses multiple tool acronyms (ClusPro, GRAMM, COCOMAPS, PyMol) without explaining their roles or the rationale for using multiple docking tools.
+  - **Required correction** Briefly state the purpose of each tool and why a multi-tool approach was used (e.g., cross-validation of docking predictions).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract framing
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not specify which virus species or strain was studied. The title mentions Cotton leaf curl Multan virus, but the abstract refers to "Cotton leaf curl virus (CLCuV) complex," which may cause confusion.
+  - **Required correction** Use consistent terminology throughout and specify the exact virus species and strain used in the docking study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract methods description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states "216 docking runs" but does not clarify whether this represents all pairwise combinations (6 viral x 18 host = 108) or includes replicates or additional variants.
+  - **Required correction** Clarify the calculation of 216 runs and whether replicates or additional conditions were included.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract text
+  - **Issue** The final sentence mentions "opening novel avenues for devising various antiviral strategies" without specifying what these strategies might be or how the data support them.
+  - **Required correction** Provide a concrete example of a potential antiviral strategy based on the findings, or temper the claim to reflect the speculative nature of the implications.
+
+## Risk / unsupported claims
+- The claim of "robust binding" of TrAP, C4, and C5 to 14 TGS proteins is unsupported without docking scores, thresholds, or statistical comparisons.
+- The claim of "several novel interactions" is unsupported without a systematic literature comparison or experimental validation.
+- The claim of "no correlation between sequence variation and docking energies" for C4 variants is unsupported without correlation statistics and variant design details.
+- The claim that conserved residues in C4 binding regions are "potential targets for disrupting viral integrity" is unsupported without conservation analysis and mechanistic explanation.
+- The overall biological significance of the interactions cannot be evaluated without experimental validation or functional context.

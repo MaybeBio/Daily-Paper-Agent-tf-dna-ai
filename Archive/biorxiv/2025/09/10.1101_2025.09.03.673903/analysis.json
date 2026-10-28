@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.03.673903",
+  "title": "CoBRA: Compound Binding Site Prediction using RNA Language Model",
+  "authors": "Wonkyeong Jang; Woong-Hee Shin",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-06",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用RNA语言模型预测RNA-配体结合位点，虽非蛋白质-DNA互作，但序列嵌入与结合位点预测方法可迁移至TF-DNA体系，属广义核酸-配体互作建模。",
+  "abstract": "Ribonucleic acid (RNA) molecules perform a variety of functions within cells and thus implicated in various human diseases such as cancer. The fact that the proteins constitute a small portion of mRNAs and the ability of RNA to form highly specific three-dimensional binding pockets for small molecules have generated considerable interest in developing therapeutic agents that target RNAs as an alternative target for small-molecule drugs. Thus, like proteins, precise prediction of small-molecule binding sites across different classes of RNA targets could act as an starting point for drug discovery. In this study, we present a lightweight deep learning framework called Compound Binding Site Prediction for Ribonucleic Acid (CoBRA). This framework can predict ligand-binding nucleotides without requiring any explicit structural information. Our approach uses residue-level embeddings obtained from a pre-trained RNA language model. These embeddings encapsulate the contextual and statistical properties of each nucleotide and are used in a frozen state as the input for a multi-layer perceptron classifier performing binary classification of binding versus non-binding residues. The model was trained using combinations of ten distinct RNA language models and six different loss functions, using the TR60 and HARIBOSS datasets, and tested on four independent benchmark sets (RB9, JL10, TL12, and TE18). The performance of CoBRA demonstrates a relative improvement of 22.1% in Matthew correlation coefficient and an increase in sensitivity of 45.6% compared to existing state-of-the-art RNA– ligand binding site prediction methods with structural information. These results show that sequence-based language model embeddings alone, which do not require any explicit coordinate or distance information, can match or outperform structure-based methods. This makes it a flexible tool for predicting binding sites across diverse RNA targets. CoBRA is available at https://github.com/WonkyeongJang/CoBRA .",
+  "abstract_zh": "核糖核酸（RNA）分子在细胞内执行多种功能，因此与多种人类疾病（如癌症）相关。蛋白质仅占mRNA的一小部分，且RNA能够形成高度特异性的三维小分子结合口袋，这一事实引发了人们对开发靶向RNA的治疗药物作为小分子药物替代靶点的浓厚兴趣。因此，与蛋白质类似，精确预测不同类别RNA靶标上的小分子结合位点可作为药物发现的起点。在本研究中，我们提出了一种轻量级深度学习框架，称为核糖核酸化合物结合位点预测（CoBRA）。该框架无需任何显式结构信息即可预测配体结合核苷酸。我们的方法使用从预训练的RNA语言模型中获得的残基级嵌入。这些嵌入封装了每个核苷酸的上下文和统计特性，并以冻结状态用作多层感知器分类器的输入，该分类器执行结合残基与非结合残基的二元分类。模型使用十种不同RNA语言模型和六种不同损失函数的组合进行训练，使用TR60和HARIBOSS数据集，并在四个独立基准集（RB9、JL10、TL12和TE18）上进行测试。CoBRA的性能显示，与现有具有结构信息的RNA-配体结合位点预测方法相比，马修斯相关系数相对提高了22.1%，灵敏度增加了45.6%。这些结果表明，仅基于序列的语言模型嵌入，无需任何显式坐标或距离信息，即可匹配或超越基于结构的方法。这使其成为预测多种RNA靶标结合位点的灵活工具。CoBRA可在https://github.com/WonkyeongJang/CoBRA获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.03.673903",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.03.673903",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.03.673903/index.html"
+}

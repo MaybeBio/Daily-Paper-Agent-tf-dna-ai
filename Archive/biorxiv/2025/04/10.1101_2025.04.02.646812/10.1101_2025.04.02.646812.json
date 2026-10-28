@@ -1,0 +1,280 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.02.646812",
+  "title": "CREsted: modeling genomic and synthetic cell type-specific enhancers across tissues and species",
+  "doi": "10.1101/2025.04.02.646812",
+  "abstract": "Sequence-based deep learning models have become the state of the art for the analysis of the genomic regulatory code. Particularly for transcriptional enhancers, deep learning models excel at deciphering sequence features and grammar that underlie their spatiotemporal activity. To enable end-to-end enhancer modeling and design, we developed a software and modeling package, called CREsted. It combines preprocessing starting from single-cell ATAC-seq data; modeling with a choice of several architectures for training classification and regression models on either topics or pseudobulk peak heights; sequence design using multiple strategies; and downstream analysis through a collection of tools to locate transcription factor (TF) binding sites, infer the effect of a TF (activating or repressing) on enhancer accessibility, decipher enhancer grammar, and score gene loci. We demonstrate CREsted using a mouse cortex model that we validate using the BICCN collection of in vivo validated mouse brain enhancers. Classical enhancers in immune cells, including the IFNB1 enhanceosome are revisited using a PBMC model, and we assess the accuracy of TF binding site predictions with ChIP-seq. Additionally, we use CREsted to compare mesenchymal-like cancer cell states between tumor types; and we investigate different fine-tuning strategies of Borzoi within CREsted, comparing their performance and explainability with CREsted models trained from scratch. Finally, we train a CREsted model on a scATAC-seq atlas of zebrafish development and use this to design and in vivo validate cell type-specific synthetic enhancers in three tissues. For varying datasets, we demonstrate that CREsted facilitates efficient training and analyses, enabling scrutinization of the enhancer logic and design of synthetic enhancers across tissues and species. CREsted is available at https://crested.readthedocs.io .",
+  "authors": [
+    "Kempynck N",
+    "De Winter S",
+    "Blaauw CH",
+    "Konstantakos V",
+    "Dieltiens S",
+    "Ekşi EC",
+    "Bercier V",
+    "Taskiran II",
+    "Hulselmans G",
+    "Spanier K",
+    "Christiaens V",
+    "Van Den Bosch L",
+    "Mahieu L",
+    "Aerts S"
+  ],
+  "published_date": "2025-04-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.02.646812",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.02.646812.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR998599",
+    "raw_record": {
+      "id": "PPR998599",
+      "source": "PPR",
+      "doi": "10.1101/2025.04.02.646812",
+      "title": "CREsted: modeling genomic and synthetic cell type-specific enhancers across tissues and species",
+      "authorString": "Kempynck N, De Winter S, Blaauw CH, Konstantakos V, Dieltiens S, Ekşi EC, Bercier V, Taskiran II, Hulselmans G, Spanier K, Christiaens V, Van Den Bosch L, Mahieu L, Aerts S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kempynck N",
+            "lastName": "Kempynck",
+            "firstName": "Niklas",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0104-4844"
+            }
+          },
+          {
+            "fullName": "De Winter S",
+            "lastName": "De Winter",
+            "firstName": "Seppe",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7907-1247"
+            }
+          },
+          {
+            "fullName": "Blaauw CH",
+            "lastName": "Blaauw",
+            "firstName": "Casper",
+            "initials": "CH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8145-9726"
+            }
+          },
+          {
+            "fullName": "Konstantakos V",
+            "lastName": "Konstantakos",
+            "firstName": "Vasileios",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0332-7506"
+            }
+          },
+          {
+            "fullName": "Dieltiens S",
+            "lastName": "Dieltiens",
+            "firstName": "Sam",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1165-2189"
+            }
+          },
+          {
+            "fullName": "Ekşi EC",
+            "lastName": "Ekşi",
+            "firstName": "Eren Can",
+            "initials": "EC"
+          },
+          {
+            "fullName": "Bercier V",
+            "lastName": "Bercier",
+            "firstName": "Valérie",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2672-7705"
+            }
+          },
+          {
+            "fullName": "Taskiran II",
+            "lastName": "Taskiran",
+            "firstName": "Ibrahim",
+            "initials": "II",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5077-5264"
+            }
+          },
+          {
+            "fullName": "Hulselmans G",
+            "lastName": "Hulselmans",
+            "firstName": "Gert",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2205-1899"
+            }
+          },
+          {
+            "fullName": "Spanier K",
+            "lastName": "Spanier",
+            "firstName": "Katina",
+            "initials": "K"
+          },
+          {
+            "fullName": "Christiaens V",
+            "lastName": "Christiaens",
+            "firstName": "Valerie",
+            "initials": "V"
+          },
+          {
+            "fullName": "Van Den Bosch L",
+            "lastName": "Van Den Bosch",
+            "firstName": "Ludo",
+            "initials": "L"
+          },
+          {
+            "fullName": "Mahieu L",
+            "lastName": "Mahieu",
+            "firstName": "Lukas",
+            "initials": "L"
+          },
+          {
+            "fullName": "Aerts S",
+            "lastName": "Aerts",
+            "firstName": "Stein",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8006-0315"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7907-1247"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8145-9726"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0104-4844"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0332-7506"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2672-7705"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3122-9858"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5077-5264"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8006-0315"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1165-2189"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2205-1899"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Sequence-based deep learning models have become the state of the art for the analysis of the genomic regulatory code. Particularly for transcriptional enhancers, deep learning models excel at deciphering sequence features and grammar that underlie their spatiotemporal activity. To enable end-to-end enhancer modeling and design, we developed a software and modeling package, called CREsted. It combines preprocessing starting from single-cell ATAC-seq data; modeling with a choice of several architectures for training classification and regression models on either  topics or pseudobulk peak heights; sequence design using multiple strategies; and downstream analysis through a collection of tools to locate transcription factor (TF) binding sites, infer the effect of a TF (activating or repressing) on enhancer accessibility, decipher enhancer grammar, and score gene loci. We demonstrate CREsted using a mouse cortex model that we validate using the BICCN collection of  in vivo validated mouse brain enhancers. Classical enhancers in immune cells, including the  IFNB1 enhanceosome are revisited using a PBMC model, and we assess the accuracy of TF binding site predictions with ChIP-seq. Additionally, we use CREsted to compare mesenchymal-like cancer cell states between tumor types; and we investigate different fine-tuning strategies of Borzoi within CREsted, comparing their performance and explainability with CREsted models trained from scratch. Finally, we train a CREsted model on a scATAC-seq atlas of zebrafish development and use this to design and  in vivo validate cell type-specific synthetic enhancers in three tissues. For varying datasets, we demonstrate that CREsted facilitates efficient training and analyses, enabling scrutinization of the enhancer logic and design of synthetic enhancers across tissues and species. CREsted is available at  https://crested.readthedocs.io .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.04.02.646812"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.02.646812"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41927920",
+            "reference": "Nature methods. 2026 May;23(5):946-959",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 11,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-04-07",
+      "firstPublicationDate": "2025-04-03",
+      "firstIndexDate": "2025-04-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

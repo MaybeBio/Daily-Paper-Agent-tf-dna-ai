@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.06.495043",
+  "title": "TANKBind: Trigonometry-Aware Neural NetworKs for Drug-Protein Binding Structure Prediction",
+  "authors": "Wei Lu; Qifeng Wu; Jixian Zhang; Jiahua Rao; Chengtao Li; Shuangjia Zheng",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-06",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出三角函数感知的神经网络TANKBind预测药物-蛋白质结合结构，虽为蛋白-小分子体系，但其几何约束建模与结合位点预测方法可迁移至TF-DNA互作研究。",
+  "abstract": "Illuminating interactions between proteins and small drug molecules is a longstanding challenge in the field of drug discovery. Despite the importance of understanding these interactions, most previous works are limited by hand-designed scoring functions and insufficient conformation sampling. The recently-proposed graph neural network-based methods provides alternatives to predict protein-ligand complex conformation in a one-shot manner. However, these methods neglect the geometric constraints of the complex structure and weaken the role of local functional regions. As a result, they might produce unreasonable conformations for challenging targets and generalize poorly to novel proteins. In this paper, we propose Trigonometry-Aware Neural networKs for binding structure prediction, TANKBind, that builds trigonometry constraint as a vigorous inductive bias into the model and explicitly attends to all possible binding sites for each protein by segmenting the whole protein into functional blocks. We construct novel contrastive losses with local region negative sampling to jointly optimize the binding interaction and affinity. Extensive experiments show substantial performance gains in comparison to state-of-the-art physics-based and deep learning-based methods on commonly-used benchmark datasets for both binding structure and affinity predictions with variant settings.",
+  "abstract_zh": "阐明蛋白质与小分子药物之间的相互作用是药物发现领域长期存在的挑战。尽管理解这些相互作用至关重要，但以往大多数工作受限于手工设计的评分函数和不足的构象采样。近期提出的基于图神经网络的方法为一次性预测蛋白质-配体复合物构象提供了替代方案。然而，这些方法忽视了复合物结构的几何约束，并削弱了局部功能区域的作用。因此，它们可能对具有挑战性的靶标产生不合理的构象，并对新型蛋白质泛化能力较差。本文中，我们提出了一种用于结合结构预测的三角学感知神经网络TANKBind，该网络将三角学约束作为强有力的归纳偏置融入模型中，并通过将整个蛋白质分割为功能块，明确关注每个蛋白质所有可能的结合位点。我们构建了带有局部区域负采样的新型对比损失，以联合优化结合相互作用和亲和力。大量实验表明，在常用基准数据集上，与最先进的基于物理和基于深度学习的方法相比，在结合结构和亲和力预测的不同设置下，我们的方法均取得了显著的性能提升。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.06.495043",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.06.495043",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.06.495043/index.html"
+}

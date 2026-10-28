@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40266298",
+    "doi": "10.1007/s00210-025-04107-w",
+    "title": "Exploring the potential mechanisms of Da ChaiHu decoction against pancreatic cancer based on network pharmacology prediction and molecular docking approach."
+  },
+  "content": {
+    "abstract": "Da ChaiHu decoction (DCHD) is used in Chinese medicine to treat pancreatic cancer (PC), but its exact mechanism is not known. The aim of this study was to investigate the main active ingredients and specific mechanisms of DCHD against PC. Firstly, the active ingredients and targets of DCHD and PC-related targets were searched from the TCMSP, DrugBank, NCBI and GeneCards databases, respectively. The intersected targets of both were then taken to construct a PPI network using STRING, and this network was visualized by Cytoscape 3.8.2. GO and KEGG enrichment analyses of the intersected targets were performed using R 4.2.1 \"clusterProfiler\", \"enrichplot\", and \"ggplot2\" packages. Molecular docking was performed utilizing MOE software to detect the binding capacity between compounds and targets. Cell proliferation, apoptosis, invasion and migration were examined through a CCK8 kit, Muse(R) Cell Analyzer, transwell and wound healing experiment, respectively. The expression levels of five core targets were assessed by RT-qPCR in PANC-1 cells treated with stigmasterol. Molecular dynamic simulations analysis was conducted to analyze the binding affinities and modes of interaction between molecules and stigmasterol using the GROMACS 5.1.4 program package. In this study, 141 common targets of DCHD and PC were obtained. GO-MF items indicated that DCHD exerts its effects on PC primarily by influencing the binding activity of DNA-binding transcription factors. The KEGG analysis revealed that these genes were implicated in various signaling pathways, including the IL-17 signaling pathway and the PI3K/Akt signaling pathway. Stigmasterol was chosen as the final ingredient for subsequent investigation due to its derivation from herb (Da ChaiHu), its encompassment of more common targets, and the scarcity of existing research on its role in PC. The results of molecular docking and Molecular dynamic simulations analysis showed that stigmasterol had good binding activity with BCL2, and ICAM1. In vitro experiments suggested that stigmasterol could effectively inhibit the proliferation, invasion and migration of PANC-1 cells, and promote cell apoptosis. Moreover, stigmasterol treatment led to the reduced expression of AKT1, HIF1A, BCL2, IL1B, and ICAM1. This study is the first to reveal the main active components and potential mechanisms of DCHD against PC, which provides a theoretical basis for studying the role of DCHD in the treatment of PC. Especially, the anti-PC mechanism of active compound stigmasterol might be associated with inhibiting proliferation, invasion and migration and accelerating apoptosis. Furthermore, five targets (AKT1, HIF1A, BCL2, IL1B, and ICAM1) were identified as key targets of stigmasterol, and the mRNA expressions of these genes were down-regulated by stigmasterol through in vitro experiments.",
+    "keywords": [
+      "Molecular docking",
+      "Network pharmacology",
+      "Pancreatic cancer",
+      "Radix bupleurum",
+      "Stigmasterol"
+    ],
+    "mesh_terms": [
+      "Molecular Docking Simulation",
+      "*Pancreatic Neoplasms/drug therapy/metabolism/pathology/genetics",
+      "Humans",
+      "Network Pharmacology",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Cell Proliferation/drug effects",
+      "Apoptosis/drug effects",
+      "Cell Line, Tumor",
+      "Cell Movement/drug effects",
+      "*Antineoplastic Agents, Phytogenic/pharmacology",
+      "Protein Interaction Maps",
+      "Signal Transduction/drug effects",
+      "Proto-Oncogene Proteins c-akt/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mu, Dong",
+        "Chen, Beijin",
+        "Liu, Xiaoli",
+        "Zheng, Shumei",
+        "Zhang, Yong",
+        "Ni, Hua",
+        "Zhou, Dejiang"
+      ],
+      "short_names": [
+        "Mu D",
+        "Chen B",
+        "Liu X",
+        "Zheng S",
+        "Zhang Y",
+        "Ni H",
+        "Zhou D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China.",
+        "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China.",
+        "Key Laboratory of Molecular Mechanism and Intervention Research for Plateau Diseases of Tibet Autonomous Region, School of Medicine, Xizang Minzu University, Xianyang, 712082, China.",
+        "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China.",
+        "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China.",
+        "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China.",
+        "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China. zhoudejiang082125@163.com.",
+        ", Chengdu, China. zhoudejiang082125@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mu, Dong",
+        "short_name": "Mu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Beijin",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoli",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Mechanism and Intervention Research for Plateau Diseases of Tibet Autonomous Region, School of Medicine, Xizang Minzu University, Xianyang, 712082, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Shumei",
+        "short_name": "Zheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Hua",
+        "short_name": "Ni H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Dejiang",
+        "short_name": "Zhou D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The General Hospital of Western Theater Command, Chengdu, 610083, China. zhoudejiang082125@163.com.",
+          ", Chengdu, China. zhoudejiang082125@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Naunyn-Schmiedeberg's archives of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Naunyn Schmiedebergs Arch Pharmacol"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/23 12:27",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "41995495",
+      "41471928"
+    ],
+    "refs": [
+      "37390887",
+      "36922676",
+      "35395492",
+      "35127697",
+      "34777687",
+      "34593522",
+      "34527739",
+      "34343636",
+      "33996574",
+      "33845796",
+      "33708631",
+      "33537836",
+      "33454134",
+      "33344137",
+      "33285435",
+      "32905516",
+      "32798614",
+      "32768595",
+      "32699135",
+      "31915130",
+      "31908533",
+      "31563901",
+      "31531867",
+      "31236960",
+      "30670971",
+      "30144752",
+      "29854097",
+      "29142471",
+      "28593176",
+      "28274443",
+      "28102193",
+      "26314780",
+      "26228533",
+      "21620466",
+      "18930523",
+      "18772397",
+      "17644431",
+      "17022020"
+    ],
+    "similar": [
+      "40266298",
+      "40452077",
+      "34306252",
+      "40816715",
+      "41261616",
+      "37799727",
+      "38243957",
+      "39061044",
+      "38032489",
+      "40886867",
+      "39701786",
+      "37190808",
+      "36403742",
+      "39307810",
+      "40350911",
+      "39051079",
+      "37929726",
+      "41184845",
+      "39004032",
+      "41418734",
+      "38742934",
+      "38964628",
+      "37879505",
+      "38759074",
+      "38381309",
+      "39306212",
+      "36735641",
+      "40579128",
+      "37807411",
+      "40013962",
+      "38910476",
+      "40676786",
+      "40255473",
+      "34511884",
+      "39839500",
+      "39041138",
+      "40451357",
+      "35837376",
+      "41351348",
+      "37833363",
+      "38888753",
+      "34246740",
+      "40585331",
+      "39742571",
+      "38571356",
+      "39311772",
+      "37287284",
+      "38403323",
+      "39410900",
+      "39074420",
+      "37340752",
+      "40594966",
+      "38941043",
+      "39075002",
+      "34746302",
+      "39093467",
+      "40259252",
+      "38845538",
+      "39140079",
+      "35667260",
+      "39041101",
+      "39465880",
+      "38275061",
+      "39343107",
+      "40233887",
+      "41058947",
+      "34655668",
+      "39565454",
+      "40819186",
+      "38114219",
+      "40543694",
+      "38432577",
+      "38428659",
+      "41161625",
+      "38347958",
+      "37391801",
+      "38822913",
+      "36637916",
+      "38916485",
+      "39278295",
+      "41197925",
+      "34785888",
+      "39259129",
+      "34660782",
+      "38050247",
+      "34262258",
+      "39310787",
+      "40259338",
+      "39326136",
+      "39051076",
+      "38757315",
+      "38571354",
+      "40725959",
+      "35528155",
+      "40615101",
+      "38670393",
+      "34273999",
+      "38619514",
+      "38493718",
+      "40237055"
+    ],
+    "review": [
+      "40266298",
+      "36735641"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00210-025-04107-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

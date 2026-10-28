@@ -1,104 +1,106 @@
 ## Review setup
-- **Input scope** Full manuscript text including abstract, introduction, results, discussion, and materials and methods
-- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided text
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) without figures, tables, videos, or supplementary files
+- **Assessment boundary** Scientific claims, experimental logic, methodological adequacy, and interpretation as presented in the text; figure contents and raw data are not directly assessable
 - **Shared manuscript claim summary** The authors report that full-length Kid (KIF22) forms a homodimer, moves processively along microtubules, and transports double-stranded DNA in vitro, revising the previous view of Kid as a monomeric, nonprocessive motor
-- **Visible evidence base** Descriptions of size-exclusion chromatography, mass photometry, single-molecule TIRF motility assays, deletion mutant analysis, chimeric protein experiments, and AlphaFold2/3 structural predictions
-- **Missing materials affecting confidence** Figures, tables, videos, source data files, and supplementary files are referenced but not provided; statistical details are deferred to figure legends; raw trajectory data and gel images are not accessible
+- **Visible evidence base** Text descriptions of size-exclusion chromatography, mass photometry, single-molecule TIRF motility assays, AlphaFold2 and AlphaFold3 structural predictions, and a K605A point mutant
+- **Missing materials affecting confidence** All figures, figure supplements, videos, source data files, and supplementary files; exact experimental replicates and statistical details are only partially described in the text
 
 ## Reviewer
-- **Overall assessment** This manuscript addresses a significant question in mitotic spindle biology: whether the chromokinesin Kid operates as a processive dimeric motor. The authors provide multiple lines of evidence supporting their central claim, including single-molecule motility data, oligomeric state analysis, domain dissection, and in vitro DNA transport reconstitution. The work is timely and relevant, as it challenges a long-standing model. However, the assessment is limited by the absence of all figures, tables, and source data. Several claims, particularly those involving quantitative parameters and structural predictions, cannot be fully evaluated from the text alone. The manuscript is potentially important but requires access to the primary data to establish the case convincingly.
-- **Who would be interested in the results, and why** Cell biologists studying mitosis and chromosome dynamics, biophysicists interested in motor protein mechanics, and researchers working on kinesin superfamily diversity. The finding that Kid is a processive dimeric motor with direct DNA transport capability has implications for understanding polar ejection forces and chromosome congression mechanisms. The methodological approach, combining single-molecule assays with AlphaFold predictions, will also interest those studying motor protein structure-function relationships.
-- **Major strengths** The study directly challenges a long-standing assumption in the field using full-length proteins, which is a significant improvement over previous truncated constructs. The combination of biochemical oligomeric state determination with functional single-molecule assays provides complementary evidence. The domain dissection experiments cleanly identify the coiled-coil region as essential for processivity. The in vitro DNA transport reconstitution is a novel and important advance. The authors appropriately acknowledge limitations, such as the transient trimer population and the need for future chromatin-based experiments.
+- **Overall assessment** This manuscript addresses a long-standing question in the chromokinesin field, namely whether Kid is a monomeric, nonprocessive motor or a processive dimer. The authors provide multiple lines of evidence, including biochemical oligomerization analysis, single-molecule motility assays, domain deletion experiments, a chimeric motor construct, and an in vitro DNA transport assay. The central claims are potentially important and would revise the current understanding of Kid mechanochemistry. However, the manuscript as presented has several gaps that prevent full evaluation. The absence of figures and raw data limits verification of the quantitative claims. The mass photometry data showing predominantly monomeric Kid at nanomolar concentrations, combined with processive movement at picomolar concentrations, raises a conceptual tension that the authors acknowledge but do not fully resolve. The DNA transport experiments rely on a single point mutant for validation, and the AlphaFold3 modeling, while suggestive, is not experimentally corroborated beyond this single mutant. The discussion of how dimerization relates to DNA binding is speculative and would benefit from direct binding measurements. Overall, the work is timely and the conclusions are plausible, but the evidence as presented is not yet fully convincing.
+
+- **Who would be interested in the results, and why** Researchers studying kinesin mechanochemistry, mitotic spindle assembly, and chromosome dynamics would be the primary audience. The finding that Kid is a processive dimer challenges the textbook view of this motor and has implications for how polar ejection forces are generated during prometaphase. The demonstration that a kinesin-10 family member can directly transport DNA along microtubules without adaptor proteins is also of interest to those studying cargo transport mechanisms. The chimeric KIF1A experiment provides general insight into the determinants of kinesin processivity and will interest the broader motor protein community.
+
+- **Major strengths** The study addresses a clear and important question with a direct experimental approach using full-length proteins, which is a significant improvement over previous studies that relied on truncated constructs. The combination of biochemical oligomerization analysis and single-molecule motility assays provides complementary evidence. The use of both human and Xenopus orthologs strengthens the generality of the findings. The in vitro DNA transport assay is a novel and valuable addition that directly tests the cargo transport function of Kid. The authors are appropriately cautious in interpreting the trimer species and acknowledge the limitations of their AlphaFold predictions.
+
 - **Major Concerns**
-  - **Concern ID** R1-M1
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Evidence completeness
-  - **Claim pointer** The authors claim that full-length Kid moves processively along microtubules with average velocities of approximately 110 nm/s and run lengths of 1.8±0.7 µm (XKid) and 1.3±0.5 µm (hKid)
-  - **Evidence pointer** Figure 1C-F, Table 1, Figure 1—videos 1 and 2
-  - **Concern** The quantitative motility parameters are presented in figures and tables that are not included in the provided material. The number of molecules tracked, the distribution of run lengths, the criteria for defining a processive run, and the statistical comparison between constructs cannot be assessed. The videos referenced as supporting evidence are also unavailable.
-  - **Why it matters** The central claim of the manuscript rests on the demonstration of processive movement. Without access to the underlying trajectory data, the reader cannot verify that the observed events represent genuine processive runs rather than transient binding events or artifacts of the imaging system. The precision of the reported values and the robustness of the measurements are critical for establishing the validity of the conclusion.
-  - **Resolution test** Provide the full figure set with representative kymographs, histograms of run lengths and velocities, and the number of molecules analyzed per condition. Include the statistical tests used to compare conditions and demonstrate that the observed processive events are clearly distinguishable from background.
-  - **Concern ID** R1-M2
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Evidence completeness
-  - **Claim pointer** The authors claim that full-length Kid forms dimers based on size-exclusion chromatography and mass photometry, with dimerization being concentration-dependent
-  - **Evidence pointer** Figure 2A-D, Figure 2—figure supplement 1
-  - **Concern** The size-exclusion chromatography profiles and mass photometry histograms are not provided. The calibration of the column with UNC-104(1-653)-sfGFP is described, but the actual elution profiles for Kid are not shown. The mass photometry data are described as showing a predominant monomer population with smaller dimer and trimer fractions, but the quantitative distribution and the molecular weight assignments cannot be verified. The claim that dimerization is concentration-dependent is inferred from comparing micromolar (SEC) and nanomolar (mass photometry) conditions, but the actual concentration dependence is not directly demonstrated.
-  - **Why it matters** The oligomeric state of Kid is the foundational claim of the manuscript. If Kid is not a stable dimer under physiologically relevant conditions, the processivity model proposed by the authors is weakened. The concentration-dependent behavior is particularly important because it may explain discrepancies with previous studies, but the evidence for this must be clearly presented.
-  - **Resolution test** Provide the SEC elution profiles with molecular weight markers, the mass photometry histograms with fitted peaks and assigned molecular weights, and a direct titration experiment showing the monomer-dimer equilibrium as a function of protein concentration.
-  - **Concern ID** R1-M3
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Evidence completeness
-  - **Claim pointer** The authors claim that the coiled-coil domain is essential for processivity based on the observation that XKid(1-437), lacking this domain, does not show processive runs, while XKid(1-496) does
-  - **Evidence pointer** Figure 3A-H, Figure 3—source data 2 and 3
-  - **Concern** The motility data for the deletion mutants are described but not shown. The MSD analysis is described in the methods, but the actual MSD curves and the fitted alpha values are not presented. The claim that XKid(1-437) shows sublinear scaling (alpha approximately 0.8) consistent with hindered motion is based on data that cannot be examined. Additionally, the possibility that the deletion of the coiled-coil domain affects microtubule binding affinity or ATPase activity independently of dimerization is not addressed.
-  - **Why it matters** The domain dissection is critical for establishing the mechanistic link between dimerization and processivity. If the coiled-coil deletion also impairs other aspects of motor function, the conclusion that dimerization is the key determinant is not fully supported. The MSD analysis is a nonstandard way to assess processive motor movement, and its validity for this application needs to be demonstrated with clear data.
-  - **Resolution test** Provide the kymographs and trajectory data for both deletion mutants, the MSD curves with fitted alpha values and confidence intervals, and control experiments showing that XKid(1-437) retains microtubule binding and ATPase activity.
-  - **Concern ID** R1-M4
-  - **Severity** Major
-  - **Blocking** No
-  - **Axis** Interpretation
-  - **Claim pointer** The authors claim that the chimeric protein KIF1AMD-XKidSt exhibits processive movement, suggesting that the Kid stalk domain can confer processivity to a heterologous motor domain
-  - **Evidence pointer** Figure 5A-H, Figure 5—video 1
-  - **Concern** The chimeric protein experiment is described, but the data are not shown. The comparison to KIF1A(1-393)LZ is mentioned, but the quantitative differences in velocity and run length are not provided. The interpretation that the Kid stalk domain is sufficient for processivity depends on demonstrating that the chimeric protein forms dimers and that the observed processive movement is not due to the intrinsic properties of the KIF1A motor domain.
-  - **Why it matters** This experiment is important for establishing the generality of the authors' model. If the Kid stalk can confer processivity to a different motor domain, it suggests that the dimerization mechanism is a general feature. However, without the data, this claim cannot be evaluated.
-  - **Resolution test** Provide the motility data for the chimeric protein and the KIF1A(1-393)LZ control, including velocities, run lengths, and the oligomeric state of the chimeric protein.
-  - **Concern ID** R1-M5
-  - **Severity** Major
-  - **Blocking** No
-  - **Axis** Interpretation
-  - **Claim pointer** The authors claim that AlphaFold3 prediction suggests that dimerization of Kid stabilizes the association with DNA, and that the K605A mutation, predicted to be at the DNA interface, abolishes DNA transport
-  - **Evidence pointer** Figure 7A-E
-  - **Concern** The AlphaFold3 predictions are described but not shown. The confidence scores are mentioned (ipTM = 0.79, pTM = 0.84 for the dimer-DNA complex), but the structural models and the specific interactions between Kid and DNA are not presented. The K605A mutation experiment is described as failing to drive DNA movement, but the data are not shown. The interpretation that K605 is critical for DNA binding is based on a computational prediction that has not been experimentally validated beyond this single mutation.
-  - **Why it matters** The DNA transport mechanism is a key novel finding of the manuscript. The structural model provides a mechanistic explanation for how dimerization facilitates DNA binding. However, computational predictions require experimental validation, and the single mutation experiment is insufficient to establish the functional importance of the predicted interface.
-  - **Resolution test** Provide the AlphaFold3 structural models with the predicted DNA interface clearly indicated, the DNA transport data for the K605A mutant, and additional mutations or biochemical binding assays to validate the predicted interface.
+
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Evidence sufficiency
+- **Claim pointer** "Full-length Kid forms a homodimer and moves processively along microtubules"
+- **Evidence pointer** Results sections "Kid exhibits processive movement along microtubules" and "Full-length Kid form dimers"; Figures 1 and 2
+- **Concern** The manuscript reports that Kid is predominantly monomeric by mass photometry at nanomolar concentrations, yet processive movement is observed at picomolar concentrations in single-molecule assays. The authors propose that dimerization occurs on the microtubule surface, but no direct evidence for this is provided. The two-color colocalization experiment (Figure 4) shows comigration of differently labeled Kid molecules, but the authors state that approximately 20% of motile particles showed comigration, leaving 80% of motile events potentially attributable to monomeric movement. The text does not clarify whether the 20% comigration rate is consistent with stochastic co-occurrence of two independent monomers or whether it represents a specific dimerization event. Without a quantitative model or control experiment, the claim that processive movement requires dimerization is not fully established.
+- **Why it matters** The central revision of the field's understanding of Kid depends on demonstrating that the processive motor is a dimer. If monomeric Kid can also move processively, the mechanistic model presented in the Discussion would need substantial revision. The distinction between monomeric and dimeric processivity is fundamental to understanding how this motor generates force.
+- **Resolution test** The authors should provide a quantitative analysis of the colocalization frequency relative to the expected random co-occurrence of two independent molecules at the measured surface densities. Alternatively, they could perform single-molecule photobleaching step analysis to directly determine the number of fluorophores per moving complex, or use a fluorescent protein with a known dimerization-deficient mutation to show loss of processivity.
+
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** "The neck linker and coiled-coil domains of Kid could add processive activity to the motor domain of KIF1A"
+- **Evidence pointer** Results section "The stalk domain of XKid adds processivity to the motor domain of KIF1A"; Figure 5
+- **Concern** The chimeric KIF1A experiment is presented as evidence that the Kid neck linker and coiled-coil domains are sufficient to confer processivity. However, the text does not provide quantitative comparisons of the motility parameters (velocity, run length, processivity index) between the chimeric construct and the wild-type KIF1A or the full-length Kid. The statement that the chimera "exhibited processive movement" is qualitative. Without knowing whether the chimera's processivity is comparable to that of native processive kinesins, the conclusion that the Kid domains are "functional" is difficult to evaluate. Additionally, the text does not specify whether the KIF1A motor domain used in the chimera was the monomeric or dimeric version, which is critical for interpreting the result.
+- **Why it matters** This experiment is intended to demonstrate that the Kid neck linker and coiled-coil domains are not only necessary but sufficient for processivity. If the quantitative parameters are not reported, the reader cannot assess whether the chimera is truly processive in the same sense as native Kid or whether it shows only marginal improvement over monomeric KIF1A.
+- **Resolution test** The authors should report the full motility parameters for the chimera, including velocity, run length, and the fraction of processive runs, with appropriate controls. They should also specify the exact KIF1A construct used and compare the chimera's performance to both monomeric KIF1A and a known processive kinesin control.
+
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Interpretation
+- **Claim pointer** "Dimerization of Kid stabilizes the association with DNA"
+- **Evidence pointer** Results section "Dimerization would be required for DNA transport"; Figure 7
+- **Concern** The claim that dimerization stabilizes DNA binding is based on AlphaFold3 predictions and a single point mutant (K605A). The AlphaFold3 model shows two DNA-binding domains associating with one DNA molecule, but this is a prediction, not an experimental result. The K605A mutant abolishes DNA transport, but the text does not report whether this mutant is still able to dimerize. If K605A disrupts dimerization rather than DNA binding directly, the interpretation would be different. The authors do not provide a direct binding assay (e.g., electrophoretic mobility shift assay or surface plasmon resonance) to measure the affinity of wild-type versus mutant Kid for DNA, nor do they test whether a monomeric but DNA-binding-competent Kid construct can still transport DNA.
+- **Why it matters** The proposed model that dimerization is required for stable DNA binding is a key mechanistic claim. If the K605A mutation affects dimerization rather than DNA binding, the conclusion would be that dimerization is required for transport but not necessarily for DNA binding. The distinction matters for understanding how Kid engages chromatin during mitosis.
+- **Resolution test** The authors should perform a direct DNA binding assay with wild-type and K605A Kid, and should also test whether K605A affects dimerization (e.g., by size-exclusion chromatography or mass photometry). A complementary experiment using a dimerization-deficient but DNA-binding-competent construct would help separate these two functions.
+
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Evidence sufficiency
+- **Claim pointer** "The full-length Kid, containing a helix–hairpin–helix domain, can transport double-stranded DNA along microtubules in vitro"
+- **Evidence pointer** Results section "Reconstitution of DNA transport in vitro"; Figure 6
+- **Concern** The DNA transport assay is a key novel result, but the text provides limited quantitative detail. The authors report that 93.4 ± 10.5% of DNA signals comigrated with Kid, but do not report the number of independent experiments, the number of molecules tracked, or the statistical test used. The velocity of DNA movement is stated to be approximately 100 nm/second, but no error or comparison to Kid-alone velocity is given. The specificity of the interaction is tested with the K605A mutant, but no other negative controls are described (e.g., a DNA-binding domain deletion mutant or a motor-dead mutant). The text also does not clarify whether the DNA is transported as a single molecule or as a DNA-protein complex with multiple Kid molecules.
+- **Why it matters** The in vitro DNA transport assay is the most direct demonstration of Kid's cargo transport function. If the quantitative details are not provided, the reader cannot assess the robustness of the result or compare it to other motor-cargo systems.
+- **Resolution test** The authors should report the number of independent experiments, the number of molecules analyzed, and the statistical methods used. They should also include additional negative controls, such as a motor-dead mutant or a construct lacking the DNA-binding domain, to demonstrate specificity.
+
 - **Minor Comments**
-  - **Concern ID** R1-m1
-  - **Severity** Minor
-  - **Axis** Clarity
-  - **Affected element** Abstract
-  - **Evidence pointer** Abstract, first sentence
-  - **Issue** The abstract states that Kid "has long been considered a monomeric and nonprocessive motor" but does not specify the species or the experimental context of previous studies
-  - **Required correction** Briefly note the species (human, Xenopus) and the key previous studies being revised
-  - **Concern ID** R1-m2
-  - **Severity** Minor
-  - **Axis** Internal consistency
-  - **Affected element** Results section, "Full-length Kid form dimers"
-  - **Evidence pointer** Section heading
-  - **Issue** The heading "Full-length Kid form dimers" has a subject-verb agreement error
-  - **Required correction** Change to "Full-length Kid forms dimers"
-  - **Concern ID** R1-m3
-  - **Severity** Minor
-  - **Axis** Clarity
-  - **Affected element** Discussion, "Biochemical properties of Kid"
-  - **Evidence pointer** Discussion section
-  - **Issue** The discussion of the trimer population is brief and does not address whether this could represent a physiologically relevant species or an artifact of the expression system
-  - **Required correction** Add a sentence acknowledging the uncertainty and suggesting future experiments to address this
-  - **Concern ID** R1-m4
-  - **Severity** Minor
-  - **Axis** Methodology
-  - **Affected element** Materials and methods, "TIRF single-molecule motility assays"
-  - **Evidence pointer** Methods section
-  - **Issue** The methods state that "at least three independent experiments were conducted for each measurement" but do not specify how many molecules were analyzed per experiment or how statistical significance was determined
-  - **Required correction** Provide the number of molecules analyzed and the statistical tests used in the figure legends or methods
-  - **Concern ID** R1-m5
-  - **Severity** Minor
-  - **Axis** Interpretation
-  - **Affected element** Discussion, "Neck linker of Kid"
-  - **Evidence pointer** Discussion section
-  - **Issue** The discussion of the long neck linker is speculative and does not cite specific evidence for how neck linker length affects processivity in other kinesins
-  - **Required correction** Add citations to relevant studies on neck linker length and processivity
-- **Technical failings that need to be addressed before the case is established** The primary technical failing is the inaccessibility of the primary data. All quantitative claims regarding motility parameters, oligomeric state distributions, and DNA transport efficiency are presented in figures and tables that are not provided. The AlphaFold predictions are described but not shown. Without access to these data, the central claims cannot be independently verified. Additionally, the manuscript does not provide direct evidence for the concentration dependence of dimerization, which is a key part of the authors' model. The K605A mutation experiment is a single point mutation and does not constitute a thorough validation of the predicted DNA-binding interface.
-- **Assessment against Nature-style criteria** Originality: The claim that Kid is a processive dimeric motor with direct DNA transport capability is a significant departure from the prevailing model and represents a novel contribution. Scientific importance: The findings have implications for understanding chromosome congression and polar ejection forces, which are fundamental processes in mitosis. The work is likely to be of interest to a broad readership in cell biology and biophysics. Interdisciplinary readership: The combination of biochemistry, single-molecule biophysics, and computational structural biology will appeal to researchers across these disciplines. Technical soundness: The experimental approaches are appropriate and state-of-the-art, but the inability to access the primary data prevents a full assessment of technical rigor. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with kinesin motor mechanics.
-- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a compelling narrative, but the absence of the primary data prevents a definitive assessment. The authors should be encouraged to provide the full figure set and source data for review. If the data support the claims as described, this work would represent a significant advance in the field.
+
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity
+- **Affected element** Abstract
+- **Evidence pointer** Abstract, "AlphaFold3 prediction suggests that the dimerization of Kid stabilizes the association with DNA"
+- **Issue** The abstract presents the AlphaFold3 prediction as a finding without clearly distinguishing it from experimental results. This could mislead readers into thinking the DNA-binding stabilization was experimentally demonstrated.
+- **Required correction** Rephrase to clearly indicate that this is a computational prediction, for example, "AlphaFold3 prediction suggests..." should be followed by a statement that experimental validation is needed or that the K605A mutant provides preliminary support.
+
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Technical detail
+- **Affected element** Results section "Full-length Kid form dimers"
+- **Evidence pointer** Figure 2 and associated text
+- **Issue** The text states that mass photometry revealed "a predominant monomer population, with a smaller fraction corresponding to dimers and trimers," but does not provide the relative proportions or the concentrations at which these measurements were made. The concentration dependence of the monomer-dimer equilibrium is central to the authors' argument, yet the quantitative relationship is not reported.
+- **Required correction** Provide the relative fractions of monomer, dimer, and trimer at the measured concentrations, and ideally a concentration series showing the shift in oligomeric state.
+
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Interpretation
+- **Affected element** Discussion section "Biochemical properties of Kid"
+- **Evidence pointer** Discussion, paragraph on protein concentration
+- **Issue** The authors attribute the discrepancy with previous studies to protein concentration, but they do not directly compare their results with the specific conditions used in the earlier studies. A more direct comparison, or at least a discussion of the concentration ranges used previously, would strengthen this argument.
+- **Required correction** Add a brief comparison of the concentrations used in prior studies versus the current work, and discuss whether the differences are sufficient to explain the discrepant results.
+
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Completeness
+- **Affected element** Materials and methods, "TIRF single-molecule motility assays"
+- **Evidence pointer** Methods section
+- **Issue** The methods describe the assay procedure but do not specify how the concentration of Kid was calibrated or how the surface density of microtubules was controlled. These details are important for interpreting the single-molecule data, particularly the colocalization experiment.
+- **Required correction** Add details on protein concentration determination, surface preparation, and any controls for nonspecific binding.
+
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Statistical reporting
+- **Affected element** Results sections and figure legends
+- **Evidence pointer** Figures 1, 3, 5, and 6
+- **Issue** The text reports means and standard deviations for some measurements but does not consistently report the number of independent experiments or the statistical tests used. The figure legends are not available for review, so the statistical details cannot be verified.
+- **Required correction** Ensure that all quantitative claims are accompanied by the number of independent experiments, the number of measurements, and the specific statistical tests used.
 
 ## Risk / unsupported claims
-- The claim that Kid is a processive dimeric motor is supported by the described experiments but cannot be verified without the primary data
-- The claim that the coiled-coil domain is essential for processivity is supported by the deletion mutant experiments but requires the motility data for full assessment
-- The claim that Kid transports double-stranded DNA along microtubules is supported by the described reconstitution experiments but requires the imaging data for verification
-- The claim that dimerization stabilizes DNA binding is based on AlphaFold3 predictions and a single mutation experiment, which is insufficient to establish this conclusively
-- The claim that the trimer population observed in mass photometry is likely an artifact is speculative and not directly tested
-- The claim that the long neck linker of Kid supports processivity is inferred from the chimeric protein experiment but requires the quantitative data for evaluation
+- The claim that "dimerization of Kid stabilizes the association with DNA" is based on AlphaFold3 prediction and a single point mutant; direct experimental evidence for the stabilization mechanism is not provided
+- The claim that the Kid neck linker and coiled-coil domains "could add processive activity to the motor domain of KIF22" is not quantitatively supported in the text
+- The claim that Kid is "predominantly monomeric" at nanomolar concentrations is based on mass photometry, but the quantitative distribution of oligomeric states is not reported
+- The claim that "microtubule-dependent association between hKid molecules" occurs is based on a colocalization experiment with a 20% comigration rate, but the expected random co-occurrence rate is not provided
+- The in vitro DNA transport assay is described qualitatively; the number of experiments, molecules tracked, and statistical significance are not reported in the text
+- The statement that "Kid has an exceptionally long neck linker, approximately four times longer than that of kinesin-1" is not supported by a direct structural or sequence alignment comparison in the text
+- The claim that "the elementary force-generating unit of Kid is a single Kid dimer" is an extrapolation from the in vitro data and is not directly tested in the manuscript

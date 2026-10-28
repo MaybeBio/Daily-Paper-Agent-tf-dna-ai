@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.07.697892",
+  "title": "TEDLH: Domain HMMs for sensitive detection of remote homologues",
+  "authors": "Carreño CA; Petrov AS; Waman VP; Sillitoe I; Orengo C",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-08",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文构建基于AlphaFold结构域的HMM库TEDLH用于远程同源检测，虽涉及蛋白质结构域与序列搜索，但非蛋白质-DNA互作体系，也无AI/物理模拟结合建模，仅间接相关。",
+  "abstract": "<h4>Motivation</h4> The Encyclopedia of Domains (TED) provides domain annotations for proteins in the AlphaFold Protein Structure Database (AFDB) using a consensus of three state-of-the-art structure-based methods. We used these TED domain annotations to construct profile Hidden Markov models (HMMs), collectively forming the TED Library of HMMs (TEDLH). TEDLH enables sensitive sequence and profile searches, supporting systematic exploration of protein domain families and their evolutionary relationships. <h4>Results</h4> TEDLH links domain HMMs to experimentally determined CATH-PDB structures through direct (primary) and transitive (secondary and tertiary) relationships. Fewer than half of TEDLH HMMs are directly linked to a CATH-PDB domain; the remaining models are connected through transitive relationships. These transitive links extend coverage into more divergent regions of sequence space and better represent CATH superfamily diversity. HMM–HMM comparisons within CATH superfamily 3.30.70.100 illustrate how transitive relationships expand sequence coverage in TEDLH. In this superfamily, 4,813 TEDLH HMMs are connected to 212 CATH-PDB representatives. Primary, secondary, and tertiary relationships progressively capture more divergent sequences (pairwise sequence identity <20%) that retain structural similarity (TM-score >0.6) and a conserved two-layer α/β sandwich core fold. All-against-all HMM–HMM comparisons across TEDLH also reveal sequence similarities across the CATH hierarchy (cross-hits). At low query coverage (<50%), cross-hits are more frequent between CATH classes, whereas at higher coverage thresholds (>70%) they predominantly occur between superfamilies. These cross-hits are not driven by superfamily size or sequence diversity and can provide guidance for CATH curation. As an example, analysis of cross-hits between superfamilies 2.170.130.30 and 3.10.20.30 reveals evolutionary relationships between these groups. <h4>Availability and Implementation</h4> TEDLH is compatible with HH-suite3 and is available from FigShare https://doi.org/10.6084/m9.figshare.28531754 for local use. <h4>Contact</h4> c.carreno@ucl.ac.uk",
+  "abstract_zh": "<h4>动机</h4> 结构域百科全书（TED）利用三种最先进的基于结构的方法的共识，为AlphaFold蛋白质结构数据库（AFDB）中的蛋白质提供结构域注释。我们使用这些TED结构域注释构建了profile隐马尔可夫模型（HMMs），共同形成TED HMM库（TEDLH）。TEDLH支持灵敏的序列和profile搜索，促进蛋白质结构域家族及其进化关系的系统探索。<h4>结果</h4> TEDLH通过直接（一级）和传递（二级和三级）关系将结构域HMMs与实验确定的CATH-PDB结构联系起来。TEDLH中不到一半的HMMs直接链接到CATH-PDB结构域；其余模型通过传递关系连接。这些传递链接将覆盖范围扩展到序列空间中更多样化的区域，并更好地代表CATH超家族多样性。CATH超家族3.30.70.100内的HMM–HMM比较说明了传递关系如何扩展TEDLH中的序列覆盖范围。在该超家族中，4,813个TEDLH HMMs连接到212个CATH-PDB代表。一级、二级和三级关系逐步捕获更多样化的序列（成对序列同一性<20%），这些序列保留结构相似性（TM-score>0.6）和保守的两层α/β夹心核心折叠。TEDLH中的全对全HMM–HMM比较还揭示了CATH层级中的序列相似性（交叉命中）。在低查询覆盖率（<50%）下，交叉命中在CATH类别之间更频繁，而在较高覆盖率阈值（>70%）下，它们主要发生在超家族之间。这些交叉命中不受超家族大小或序列多样性的驱动，可为CATH注释提供指导。作为示例，对超家族2.170.130.30和3.10.20.30之间交叉命中的分析揭示了这些组之间的进化关系。<h4>可用性和实现</h4> TEDLH与HH-suite3兼容，可从FigShare https://doi.org/10.6084/m9.figshare.28531754 获取以供本地使用。<h4>联系方式</h4> c.carreno@ucl.ac.uk",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.07.697892",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.07.697892",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.07.697892/index.html"
+}

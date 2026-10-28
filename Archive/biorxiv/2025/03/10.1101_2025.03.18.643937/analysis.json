@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.18.643937",
+  "title": "A Simple Generative Model for the Prediction of T-Cell Receptor - Peptide Binding in T-cell Therapy for Cancer",
+  "authors": "Athanasios Papanikolaou; Vladimir Sivtsov; Enrica Zereik; Eliana Ruggiero; Chiara Bonini; Fabio Bonsignorio",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-19",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用LSTM生成模型预测TCR-肽段结合，对象为蛋白质-肽互作而非蛋白质-DNA，且无TF-DNA结合建模，仅序列生成，与本课题关联微弱。",
+  "abstract": "Objective To develop a deep learning model capable of predicting epitope peptides recognized by specific CDR3 (Complementarity-Determining Region 3) sequences of T-cell receptors (TCRs) in the context of Major Histocompatibility Complex (MHC) molecules, addressing the challenges of incomplete datasets and the need for novel sequence generation in adoptive T-cell therapy for cancer. Methods We implemented a sequence to sequence generative model named “GRIP” (Generative Reconstruction of antIgen Peptides) using a Long Short-Term Memory (LSTM) network with attention mechanisms. The model was trained and validated on publicly available datasets, employing data balancing, label smoothing, and dynamic learning rate scheduling to enhance performance and generalization. Accuracy was assessed at the amino acid level. Results The model achieved a training accuracy of 97% and a test accuracy of 85% for predicting epitope sequences at the amino acid level. Probabilistic sequence generation allowed GRIP to produce biologically plausible epitope sequences, even for unseen CDR3 inputs. Attention-based interpretability provided insights into the model’s focus on critical sequence elements. The model outperformed existing approaches in handling data imbalance and generalization to novel epitopes. Conclusion GRIP offers a novel solution to the TCR-epitope binding problem by generating potential epitope sequences instead of matching to known data, addressing a fundamental gap in existing models. This approach has significant implications for personalized immunotherapy, facilitating the design of targeted T-cell therapies for cancer.",
+  "abstract_zh": "目的 开发一种深度学习模型，能够预测在主要组织相容性复合体（MHC）分子背景下，由T细胞受体（TCRs）特定CDR3（互补决定区3）序列识别的表位肽，以应对数据集不完整和癌症过继性T细胞治疗中对新序列生成的需求等挑战。方法 我们实现了一种名为“GRIP”（Generative Reconstruction of antIgen Peptides）的序列到序列生成模型，采用带有注意力机制的长短期记忆（LSTM）网络。该模型在公开可用的数据集上进行训练和验证，并采用数据平衡、标签平滑和动态学习率调度来增强性能和泛化能力。准确性在氨基酸水平上进行评估。结果 该模型在预测氨基酸水平的表位序列时，训练准确率达到97%，测试准确率为85%。概率性序列生成使GRIP能够为未见过的CDR3输入产生生物学上合理的表位序列。基于注意力的可解释性提供了对模型关注关键序列元素的洞察。该模型在处理数据不平衡和对新表位的泛化方面优于现有方法。结论 GRIP通过生成潜在的表位序列而非匹配已知数据，为TCR-表位结合问题提供了一种新颖的解决方案，填补了现有模型中的基本空白。该方法对个性化免疫治疗具有重要意义，有助于设计针对癌症的靶向T细胞疗法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.18.643937",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.18.643937",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.18.643937/index.html"
+}

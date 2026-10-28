@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, model description, evaluation sections, and appendices as provided.
+- **Assessment boundary** Scientific and technical soundness of the proposed method, validity of claims relative to the presented evidence, and clarity of presentation. No assessment of code availability, reproducibility beyond described methods, or comparison with unpublished work.
+- **Shared manuscript claim summary** The authors propose TANKBind, a deep learning framework for predicting protein-ligand binding structures and affinities. The method introduces a trigonometry-aware architecture that incorporates geometric constraints and excluded-volume effects as inductive biases, and a divide-and-conquer strategy that segments proteins into functional blocks to explicitly consider all possible binding sites. The authors claim substantial improvements over existing physics-based and deep learning-based methods on benchmark datasets for both binding structure and affinity prediction, particularly in settings involving novel proteins.
+- **Visible evidence base** Abstract, full introduction, model description (Sections 3.1-3.5), evaluation methodology and results (Section 4), conclusion, and appendices covering additional experiments, ablation studies, runtime details, and baseline implementations.
+- **Missing materials affecting confidence** The manuscript does not provide full mathematical formulations for all equations (some are referenced but not fully displayed in the provided text). Detailed hyperparameter sensitivity analysis is not included. The exact composition of the test set and the criteria for "new receptors" are not fully specified. Statistical significance testing for performance differences is not reported. The appendix figures and tables referenced are not fully described in the text provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially impactful approach to protein-ligand binding structure prediction. The core idea of incorporating trigonometry-aware geometric constraints and functional block segmentation is well-motivated and represents a meaningful advance over existing methods. The reported performance gains, particularly in the challenging new-protein setting, are substantial and suggest the method has practical value. However, several technical aspects require clarification and additional validation before the claims can be fully established. The lack of statistical significance testing, incomplete details on some model components, and limited analysis of failure cases temper the strength of the conclusions.
+- **Who would be interested in the results, and why** Computational biologists, medicinal chemists, and researchers in drug discovery would be the primary audience. The method addresses a critical bottleneck in structure-based drug design, and the demonstrated improvements in both binding structure and affinity prediction, especially for novel proteins, are directly relevant to virtual screening and lead optimization efforts. The work also contributes to the growing literature on geometric deep learning for molecular interactions and would interest machine learning researchers working on structured prediction problems.
+- **Major strengths** The method is well-motivated by physical and biological principles, and the design choices are clearly justified. The divide-and-conquer strategy for functional block segmentation is a creative solution to the scalability and generalization challenges in protein-ligand docking. The reported results show consistent improvements across multiple evaluation settings and metrics, including the difficult new-protein scenario. The inclusion of ablation studies and runtime comparisons strengthens the empirical evaluation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the trigonometry module "ensures that our energy landscape disfavors configurations of protein-ligand complexes that are prohibited by laws of nature, for instance, no two atoms could overlap and the distances between atoms have to satisfy triangle inequality theorem in euclidean geometry."
+  - **Evidence pointer** Section 3.3, Figure 2
+  - **Concern** The manuscript does not provide a rigorous demonstration that the proposed trigonometry module actually enforces these geometric constraints. The equations referenced are not fully displayed, and it is unclear whether the constraints are hard constraints or soft inductive biases. The claim that the model "ensures" no atomic overlap is particularly strong and requires explicit validation, such as measuring the fraction of predicted structures with steric clashes.
+  - **Why it matters** If the geometric constraints are not actually enforced, the method's advantage over baselines may stem from other components, and the physical interpretability claimed by the authors would be overstated. This is central to the paper's contribution.
+  - **Resolution test** Provide full mathematical details of the trigonometry module and demonstrate quantitatively that predicted structures satisfy the claimed constraints (e.g., no atomic overlaps, triangle inequality violations below a threshold). Compare against baselines on the same metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim "substantial performance gains" and "state-of-the-art performance" across multiple settings, including a 42% improvement in the new-protein setting.
+  - **Evidence pointer** Section 4.1, Tables 1-2, Figure 3
+  - **Concern** The manuscript does not report statistical significance tests or confidence intervals for the performance differences. Given the relatively small test set sizes (particularly in the new-protein setting, where only 142-144 proteins are used), the observed improvements could be within noise. Additionally, the comparison with baselines is incomplete: results for some baselines are "copied directly from the EquiBind paper," which may involve different experimental conditions.
+  - **Why it matters** Without statistical validation, the robustness of the claimed improvements is uncertain. This is critical for a paper making strong performance claims.
+  - **Resolution test** Report confidence intervals or significance tests (e.g., bootstrap or paired tests) for all key metrics. Re-run baselines under identical conditions where feasible, or clearly justify why copied results are comparable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that TANKBind "has the potential to discover novel mechanism-of-actions of drug molecules by identifying unseen protein binding sites."
+  - **Evidence pointer** Section 4.4, Figure 4, Section 6, Figure 9
+  - **Concern** The case studies are limited to three examples, and the analysis of "unseen binding sites" relies on sequence similarity thresholds that are not fully justified. The claim about discovering novel mechanisms of action is speculative and not supported by functional validation or broader systematic analysis.
+  - **Why it matters** The potential for novel binding site discovery is a significant claimed advantage, but the evidence is anecdotal. A more systematic evaluation across a larger set of proteins with unseen binding sites would strengthen this claim.
+  - **Resolution test** Conduct a systematic analysis over a larger set of test proteins, quantifying the rate at which TANKBind identifies correct binding sites that are not predicted by baseline methods. Provide functional or structural validation for at least a subset of predicted novel sites.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2
+  - **Evidence pointer** "The protein is represented as a proximity 3D graph following Jing et al. [2020]"
+  - **Issue** The notation for the protein graph and its components is incomplete. The symbols for the graph, nodes, and features are not fully defined in the provided text.
+  - **Required correction** Provide complete notation for all graph components and feature definitions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.5
+  - **Evidence pointer** "we take a numerical approach Masters et al. [2022], Zsoldos et al. [2007]"
+  - **Issue** The numerical optimization procedure for generating coordinates from the predicted distance map is not described in sufficient detail. The specific algorithm, initialization, and convergence criteria are not specified.
+  - **Required correction** Provide a detailed description of the optimization procedure, including the loss function, optimizer, and stopping criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.1
+  - **Evidence pointer** "After removing a few structures that unable to process using RDKit from the training set"
+  - **Issue** The number of removed structures and the reasons for removal are not specified. This could affect the comparability of the dataset with those used by baselines.
+  - **Required correction** Report the exact number of removed structures and the criteria for removal.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Table 3
+  - **Issue** The table does not clearly indicate which metrics are primary and which are secondary. The authors report four metrics, but it is unclear which ones are most important for the comparison.
+  - **Required correction** Clearly identify the primary metric(s) and discuss the results in terms of those.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Equation 4
+  - **Issue** The margin value ϵ is set to 1, but the sensitivity of the results to this hyperparameter is not explored.
+  - **Required correction** Report the sensitivity of the model's performance to the margin value.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical significance testing for the main performance claims (R1-M2) is a critical gap. The incomplete demonstration that the trigonometry module enforces the claimed geometric constraints (R1-M1) also needs to be addressed. These are the two most significant technical issues that currently prevent full confidence in the paper's conclusions.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The trigonometry-aware architecture and the divide-and-conquer strategy for functional block segmentation are novel contributions that go beyond incremental improvements over existing methods. The adaptation of ideas from AlphaFold2 to the inter-molecular setting is creative and well-executed.
+  - **Scientific importance** Protein-ligand binding structure prediction is a problem of fundamental importance in drug discovery. The demonstrated improvements, particularly for novel proteins, address a key limitation of existing methods and could have practical impact on virtual screening and drug design.
+  - **Interdisciplinary readership** The work bridges machine learning, structural biology, and medicinal chemistry. The presentation is generally accessible, though some technical details of the model architecture may be challenging for non-specialists. The motivation and results are clearly framed for a broad audience.
+  - **Technical soundness** The overall approach is sound, but the lack of statistical validation and incomplete details on the geometric constraint enforcement are significant gaps. The ablation studies are helpful but not fully comprehensive.
+  - **Readability for nonspecialists** The introduction and motivation are clear and accessible. The model description is dense but understandable with effort. The results are presented in a straightforward manner, though the significance of the improvements could be better contextualized.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core ideas are novel and the results are promising, but the lack of statistical validation and incomplete demonstration of the geometric constraint enforcement prevent full endorsement at this stage. The authors should address these issues with additional analysis and clarification.
+
+## Risk / unsupported claims
+- The claim that the trigonometry module "ensures" geometric constraints such as no atomic overlap is not supported by direct evidence in the provided text.
+- The claim of "substantial performance gains" is not supported by statistical significance testing.
+- The claim that TANKBind "has the potential to discover novel mechanism-of-actions" is speculative and based on limited case studies.
+- The comparison with some baselines relies on results copied from another paper, which may not be directly comparable due to potential differences in experimental conditions.
+- The statement that the model "explicitly attends to all possible binding sites" is not fully validated, as the completeness of the binding site prediction from P2rank is not assessed.

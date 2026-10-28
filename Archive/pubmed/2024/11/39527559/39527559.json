@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "39527559",
+    "doi": "10.1371/journal.pcbi.1012536",
+    "title": "Molecular dynamics simulations of a multicellular model with cell-cell interactions and Hippo signaling pathway."
+  },
+  "content": {
+    "abstract": "The transcriptional coactivator Yes-associated protein (YAP)/transcriptional co-activator with PDZ binding motif (TAZ) induces cell proliferation through nuclear localization at low cell density. Conversely, at extremely high cell density, the Hippo pathway, which regulates YAP/TAZ, is activated. This activation leads to the translocation of YAP/TAZ into the cytoplasm, resulting in cell cycle arrest. Various cancer cells have several times more YAP/TAZ than normal cells. However, it is not entirely clear whether this several-fold increase in YAP/TAZ alone is sufficient to overcome proliferation inhibition (contact inhibition) under high-density conditions, thereby allowing continuous proliferation. In this study, we construct a three-dimensional (3D) mathematical model of cell proliferation incorporating the Hippo-YAP/TAZ pathway. Herein, a significant innovation in our approach is the introduction of a novel modeling component that inputs cell density, which reflects cell dynamics, into the Hippo pathway and enables the simulation of cell proliferation as the output response. We assume such 3D model with cell-cell interactions by solving reaction and molecular dynamics (MD) equations by applying adhesion and repulsive forces that act between cells and frictional forces acting on each cell. We assume Lennard-Jones (12-6) potential with a softcore character so that each cell secures its exclusive domain. We set cell cycles composed of mitotic and cell growth phases in which cells divide and grow under the influence of cell kinetics. We perform mathematical simulations at various YAP/TAZ levels to investigate the extent of YAP/TAZ increase required for sustained proliferation at high density. The results show that a twofold increase in YAP/TAZ levels of cancer cells was sufficient to evade cell cycle arrest compared to normal cells, enabling cells to continue proliferating even under high-density conditions. Finally, this mathematical model, which incorporates cell-cell interactions and the Hippo-YAP/TAZ pathway, may be applicable for evaluating cancer malignancy based on YAP/TAZ levels, developing drugs to suppress the abnormal proliferation of cancer cells, and determining appropriate drug dosages. The source codes are freely available.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Signal Transduction/physiology",
+      "*Protein Serine-Threonine Kinases/metabolism",
+      "*Hippo Signaling Pathway",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Cell Communication/physiology",
+      "*Cell Proliferation/physiology",
+      "*Transcription Factors/metabolism",
+      "Models, Biological",
+      "YAP-Signaling Proteins/metabolism",
+      "Adaptor Proteins, Signal Transducing/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Umegaki, Toshihito",
+        "Moriizumi, Hisashi",
+        "Ogushi, Fumiko",
+        "Takekawa, Mutsuhiro",
+        "Suzuki, Takashi"
+      ],
+      "short_names": [
+        "Umegaki T",
+        "Moriizumi H",
+        "Ogushi F",
+        "Takekawa M",
+        "Suzuki T"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5112-4356",
+        "ORCID: 0000-0002-8027-3847"
+      ],
+      "affiliations": [
+        "The Center for Mathematical Modeling and Data Science, Osaka University, Osaka, Japan.",
+        "The Institute of Medical Science, The University of Tokyo, Tokyo, Japan.",
+        "Faculty of Mathematical Informatics, Meiji Gakuin University, Tokyo, Japan.",
+        "The Institute of Medical Science, The University of Tokyo, Tokyo, Japan.",
+        "The Center for Mathematical Modeling and Data Science, Osaka University, Osaka, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Umegaki, Toshihito",
+        "short_name": "Umegaki T",
+        "identifiers": [
+          "0009-0002-5112-4356"
+        ],
+        "affiliations": [
+          "The Center for Mathematical Modeling and Data Science, Osaka University, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Moriizumi, Hisashi",
+        "short_name": "Moriizumi H",
+        "identifiers": [],
+        "affiliations": [
+          "The Institute of Medical Science, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ogushi, Fumiko",
+        "short_name": "Ogushi F",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Mathematical Informatics, Meiji Gakuin University, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Takekawa, Mutsuhiro",
+        "short_name": "Takekawa M",
+        "identifiers": [
+          "0000-0002-8027-3847"
+        ],
+        "affiliations": [
+          "The Institute of Medical Science, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Takashi",
+        "short_name": "Suzuki T",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Mathematical Modeling and Data Science, Osaka University, Osaka, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:48",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32703881",
+      "30868052",
+      "30322867",
+      "30167083",
+      "29770434",
+      "29622464",
+      "29587800",
+      "28281683",
+      "28112728",
+      "28052061",
+      "27300434",
+      "26928227",
+      "26544935",
+      "24336504",
+      "23829164",
+      "23658714",
+      "22960745",
+      "22680466",
+      "22078877",
+      "21808241",
+      "21768338",
+      "21442113",
+      "21376230",
+      "21349946",
+      "20974812",
+      "18579750",
+      "18313299",
+      "18258486",
+      "18258485",
+      "17974916",
+      "17889654",
+      "17389958",
+      "17318211",
+      "15520229"
+    ],
+    "similar": [
+      "39527559",
+      "41656414",
+      "42269786",
+      "39348982",
+      "41432209",
+      "40318272",
+      "28752853",
+      "37337213",
+      "39153238",
+      "36877351",
+      "40619484",
+      "29457552",
+      "39752217",
+      "31018586",
+      "32748155",
+      "25670202",
+      "38741073",
+      "39739271",
+      "40654305",
+      "27048650",
+      "39468616",
+      "29325286",
+      "24324261",
+      "25652178",
+      "25937570",
+      "29351389",
+      "36044856",
+      "24108406",
+      "32385107",
+      "41922671",
+      "38987584",
+      "39903968",
+      "35349740",
+      "27300434",
+      "38806345",
+      "34339458",
+      "34419458",
+      "27634386",
+      "39931781",
+      "41499346",
+      "25719868",
+      "30466081",
+      "39436581",
+      "26432639",
+      "24380865",
+      "25127217",
+      "28368399",
+      "39051998",
+      "36255405",
+      "40232357",
+      "25425573",
+      "30482112",
+      "39957154",
+      "41410760",
+      "38802925",
+      "27382053",
+      "38690712",
+      "29802201",
+      "38606592",
+      "29339539",
+      "21730131",
+      "39826667",
+      "28720576",
+      "42140432",
+      "27531557",
+      "30135582",
+      "26109050",
+      "34173335",
+      "25266986",
+      "28589555",
+      "42074309",
+      "31397203",
+      "40484249",
+      "30546055",
+      "41747656",
+      "31831627",
+      "42530263",
+      "32985688",
+      "37211598",
+      "40626835",
+      "40914169",
+      "38553612",
+      "41775213",
+      "34493746",
+      "39786847",
+      "32994166",
+      "39718664",
+      "27129148",
+      "31431076",
+      "38538573",
+      "39684613",
+      "35012640",
+      "27826640",
+      "33945400",
+      "38372068",
+      "39210147",
+      "41157900",
+      "26611634",
+      "25078107",
+      "38643945"
+    ],
+    "review": [
+      "39527559",
+      "41656414",
+      "42269786",
+      "39348982",
+      "36877351",
+      "29457552",
+      "31018586",
+      "32748155",
+      "40654305",
+      "39468616",
+      "29325286",
+      "25652178",
+      "35349740",
+      "27300434",
+      "38806345",
+      "39931781",
+      "25719868",
+      "39436581",
+      "40232357",
+      "30482112",
+      "38802925",
+      "34173335",
+      "25266986",
+      "42074309",
+      "30546055",
+      "37211598",
+      "39718664",
+      "38538573",
+      "39684613",
+      "35012640"
+    ],
+    "pmc": [
+      "11554158"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012536",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39527559/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

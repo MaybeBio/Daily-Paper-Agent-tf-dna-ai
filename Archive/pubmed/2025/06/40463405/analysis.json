@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40463405",
+  "title": "Quantifying the nuclear localization of fluorescently tagged proteins.",
+  "authors": "Hurbain, Julien; Ten Wolde, Pieter Rein; Swain, Peter S",
+  "journal": "Bioinformatics advances",
+  "published_date": "2025-06-04",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用卷积神经网络从荧光图像量化转录因子核定位，虽涉及TF动态但聚焦图像分析而非DNA结合互作建模，方法可迁移性有限。",
+  "abstract": "MOTIVATION: Cells are dynamic, continually responding to intra- and extracellular signals. Measuring the response to these signals in individual cells is challenging. Signal transduction is fast, but reporters for downstream gene expression are slow: fluorescent proteins must be expressed and mature. An alternative is to fluorescently tag and monitor the intracellular locations of transcription factors and other effectors. These proteins enter or exit the nucleus in minutes, after upstream signalling modifies their phosphorylation state. Although such approaches are increasingly popular, there is no consensus on how to quantify nuclear localization. RESULTS: Using budding yeast, we developed a convolutional neural network that determines nuclear localization from fluorescence and, optionally, bright-field images. Focusing on changing extracellular glucose, we generated ground-truth data using strains with a transcription factor and a nuclear protein tagged with fluorescent markers. We showed that the neural network-based approach outperformed seven published methods, particularly when predicting single-cell time series, which are key to determining how cells respond. Collectively, our results are conclusive-using machine learning to automatically determine the appropriate image processing consistently outperforms ad hoc approaches. Adopting such methods promises to both improve the accuracy and, with transfer learning, the consistency of single-cell analyses. AVAILABILITY AND IMPLEMENTATION: We performed our analysis in Python; code is available at https://git.ecdf.ed.ac.uk/v1jhurba/neunet-nucloc.git.",
+  "abstract_zh": "动机：细胞是动态的，持续响应细胞内和细胞外信号。在单个细胞中测量对这些信号的响应具有挑战性。信号转导速度快，但下游基因表达的报告分子速度慢：荧光蛋白必须表达并成熟。另一种方法是荧光标记并监测转录因子及其他效应物的细胞内位置。这些蛋白质在上游信号改变其磷酸化状态后，在数分钟内进入或离开细胞核。尽管此类方法日益流行，但对于如何量化核定位尚无共识。结果：利用芽殖酵母，我们开发了一种卷积神经网络，可从荧光图像及可选明场图像中确定核定位。聚焦于细胞外葡萄糖的变化，我们使用带有转录因子和核蛋白荧光标记的菌株生成了地面真值数据。我们表明，基于神经网络的方法优于七种已发表的方法，特别是在预测单细胞时间序列时，而这对确定细胞如何响应至关重要。总体而言，我们的结果具有决定性——使用机器学习自动确定适当的图像处理始终优于临时方法。采用此类方法有望提高单细胞分析的准确性，并通过迁移学习提高其一致性。可用性与实现：我们使用Python进行分析；代码可在https://git.ecdf.ed.ac.uk/v1jhurba/neunet-nucloc.git获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40463405/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40463405/",
+  "paper_page_path": "papers/pubmed/40463405/index.html"
+}

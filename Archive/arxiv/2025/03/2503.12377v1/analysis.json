@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2503.12377v1",
+  "title": "GCBLANE: A graph-enhanced convolutional BiLSTM attention network for improved transcription factor binding site prediction",
+  "authors": "Jonas Chris Ferrao; Dickson Dias; Sweta Morajkar; Manisha Gokuldas Fal Dessai",
+  "journal": "",
+  "published_date": "2025-03-16",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出图增强卷积BiLSTM注意力网络GCBLANE，用于转录因子结合位点预测，核心聚焦TF-DNA互作且采用AI深度学习方法，高度匹配本课题。",
+  "abstract": "Identifying transcription factor binding sites (TFBS) is crucial for understanding gene regulation, as these sites enable transcription factors (TFs) to bind to DNA and modulate gene expression. Despite advances in high-throughput sequencing, accurately identifying TFBS remains challenging due to the vast genomic data and complex binding patterns. GCBLANE, a graph-enhanced convolutional bidirectional Long Short-Term Memory (LSTM) attention network, is introduced to address this issue. It integrates convolutional, multi-head attention, and recurrent layers with a graph neural network to detect key features for TFBS prediction. On 690 ENCODE ChIP-Seq datasets, GCBLANE achieved an average AUC of 0.943, and on 165 ENCODE datasets, it reached an AUC of 0.9495, outperforming advanced models that utilize multimodal approaches, including DNA shape information. This result underscores GCBLANE's effectiveness compared to other methods. By combining graph-based learning with sequence analysis, GCBLANE significantly advances TFBS prediction.",
+  "abstract_zh": "识别转录因子结合位点（TFBS）对于理解基因调控至关重要，因为这些位点使转录因子（TFs）能够与DNA结合并调节基因表达。尽管高通量测序技术取得了进展，但由于基因组数据庞大且结合模式复杂，准确识别TFBS仍然具有挑战性。为解决这一问题，引入了GCBLANE，一种图增强卷积双向长短期记忆（LSTM）注意力网络。它整合了卷积层、多头注意力层、循环层以及图神经网络，以检测TFBS预测的关键特征。在690个ENCODE ChIP-Seq数据集上，GCBLANE实现了平均AUC为0.943，在165个ENCODE数据集上，其AUC达到0.9495，优于采用多模态方法（包括DNA形状信息）的先进模型。这一结果凸显了GCBLANE相较于其他方法的有效性。通过将基于图的学习与序列分析相结合，GCBLANE显著推进了TFBS预测。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2503.12377v1",
+  "source_url": "https://arxiv.org/abs/2503.12377v1",
+  "paper_page_path": "papers/arxiv/2503.12377v1/index.html"
+}

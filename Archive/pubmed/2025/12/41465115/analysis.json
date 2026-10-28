@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41465115",
+  "title": "What Do Single-Cell Models Already Know About Perturbations?",
+  "authors": "Bjerregaard, Andreas; Prada-Luengo, Inigo; Das, Vivek; Krogh, Anders",
+  "journal": "Genes",
+  "published_date": "2025-12-30",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该文利用单细胞生成模型（VAE/scVI）的梯度推断扰动引起的基因表达变化，但对象为基因表达而非蛋白质-DNA互作，且无TF-DNA结合建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Background: Virtual cells are embedded in widely used single-cell generative models. Nonetheless, the models' implicit knowledge of perturbations remains unclear. Methods: We train variational autoencoders on three gene expression datasets spanning genetic, chemical, and temporal perturbations, and infer perturbations by differentiating decoder outputs with respect to latent variables. This yields vector fields of infinitesimal change in gene expression. Furthermore, we probe a publicly released scVI decoder trained on the CELLxGENE Discover Census ( approximately 5.7 M mouse cells) and score genes by the alignment between local gradients and an empirical healthy-to-disease axis, followed by a novel large language model-based evaluation of pathways. Results: Gradient flows recover known transitions in Irf8 knockout microglia, cardiotoxin-treated muscle, and worm embryogenesis. In the pretrained Census model, gradients help identify pathways with stronger statistical support and higher type 2 diabetes relevance than an average expression baseline. Conclusions: Trained single-cell decoders already contain rich perturbation-relevant information that can be accessed by automatic differentiation, enabling in-silico perturbation simulations and principled ranking of genes along observed disease or treatment axes without bespoke architectures or perturbation labels.",
+  "abstract_zh": "背景：虚拟细胞被广泛应用于单细胞生成模型中。然而，这些模型对扰动的隐含知识仍不明确。方法：我们在涵盖遗传、化学和时间扰动的三个基因表达数据集上训练变分自编码器，并通过将解码器输出对潜变量求导来推断扰动。这产生了基因表达无穷小变化的向量场。此外，我们探究了一个在CELLxGENE Discover Census（约570万小鼠细胞）上训练的公开scVI解码器，并根据局部梯度与经验性健康至疾病轴之间的对齐程度对基因进行评分，随后采用一种新颖的基于大语言模型的通路评估方法。结果：梯度流恢复了Irf8基因敲除小胶质细胞、心脏毒素处理肌肉和线虫胚胎发生中的已知转变。在预训练的Census模型中，梯度有助于识别比平均表达基线具有更强统计支持和更高2型糖尿病相关性的通路。结论：训练好的单细胞解码器已包含丰富的扰动相关信息，可通过自动微分获取，从而无需定制架构或扰动标签即可实现计算机模拟扰动实验和沿观察到的疾病或治疗轴对基因进行原则性排序。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41465115/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41465115/",
+  "paper_page_path": "papers/pubmed/41465115/index.html"
+}

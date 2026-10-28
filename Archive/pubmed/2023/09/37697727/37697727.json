@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "37697727",
+    "doi": "10.1080/07391102.2023.2256870",
+    "title": "Identification and optimization of TDP1 inhibitors from anthraquinone and chalcone derivatives: consensus scoring virtual screening and molecular simulations."
+  },
+  "content": {
+    "abstract": "Virtual screening aims to identify and rank compounds with drug/lead-like properties based on their affinity for the protein target. We developed a methodology that integrates structure- and ligand-based screening approaches to enhance hit rates against the TDP1 protein within a database of anthraquinone and chalcone derivatives, followed by evaluation of prioritized compounds through molecular simulations. This technique is particularly useful for training set imbalances. Four screening methods were used: QSAR, pharmacophore, shape similarity, and docking. Each method was individually trained to score compounds, and the scores were fused to create parallel Z-score fusion. The QSAR models exhibited satisfactory R2 values (0.84 to 0.75), whereas the pharmacophoric and shape similarity models demonstrated excellent performance (ROC:0.82-0.88). Docking enrichment analysis identified 6N0D as the optimal TDP1 crystal structure (ROC = 0.73). Remarkably, the consensus scoring method surpassed other screening methods, achieving the highest ROC value of 0.98. Docking screening prioritized compounds with binding modes resembling the co-crystallized ligands, whereas MMGBSA, consensus, and docking produced dynamic simulations that were as stable as the co-crystallized ligands. Additionally, the QSAR-selected compounds exhibited binding modes similar to those of commercially available TDP1 inhibitors. In this study, a strong correlation was found between the inhibitory concentrations and binding energy values of commercialized TDP1 inhibitors, indicating that the top-ranked compounds are expected to have potent inhibitory effects in the nano-/micromolar range. The results of this study establish that consensus scoring can be used as an adaptable mainstay virtual screening methodology, pending subsequent experimental validation for affirmation.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Consensus scoring",
+      "TDP1",
+      "docking",
+      "molecular mechanics",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Quantitative Structure-Activity Relationship",
+      "*Molecular Docking Simulation",
+      "*Anthraquinones/chemistry/pharmacology",
+      "*Molecular Dynamics Simulation",
+      "Ligands",
+      "*Phosphoric Diester Hydrolases/chemistry/metabolism",
+      "Protein Binding",
+      "Humans",
+      "Chalcones/chemistry/pharmacology",
+      "DNA-Binding Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "Enzyme Inhibitors/chemistry/pharmacology",
+      "Binding Sites",
+      "Chalcone/chemistry/pharmacology",
+      "Drug Evaluation, Preclinical/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moshawih, Said",
+        "Goh, Hui Poh",
+        "Kifli, Nurolaini",
+        "Darwesh, Mohammed Abd ElFattah",
+        "Ardianto, Chrismawan",
+        "Goh, Khang Wen",
+        "Ming, Long Chiau"
+      ],
+      "short_names": [
+        "Moshawih S",
+        "Goh HP",
+        "Kifli N",
+        "Darwesh MAE",
+        "Ardianto C",
+        "Goh KW",
+        "Ming LC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam.",
+        "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam.",
+        "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam.",
+        "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam.",
+        "Department of Pharmacy Practice, Universitas Airlangga, Surabaya, Indonesia.",
+        "Faculty of Data Science and Information Technology, INTI International University, Nilai, Malaysia.",
+        "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam.",
+        "Department of Pharmacy Practice, Universitas Airlangga, Surabaya, Indonesia.",
+        "School of Medical and Life Sciences, Sunway University, Sunway City, Malaysia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moshawih, Said",
+        "short_name": "Moshawih S",
+        "identifiers": [],
+        "affiliations": [
+          "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam."
+        ]
+      },
+      {
+        "full_name": "Goh, Hui Poh",
+        "short_name": "Goh HP",
+        "identifiers": [],
+        "affiliations": [
+          "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam."
+        ]
+      },
+      {
+        "full_name": "Kifli, Nurolaini",
+        "short_name": "Kifli N",
+        "identifiers": [],
+        "affiliations": [
+          "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam."
+        ]
+      },
+      {
+        "full_name": "Darwesh, Mohammed Abd ElFattah",
+        "short_name": "Darwesh MAE",
+        "identifiers": [],
+        "affiliations": [
+          "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam."
+        ]
+      },
+      {
+        "full_name": "Ardianto, Chrismawan",
+        "short_name": "Ardianto C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, Universitas Airlangga, Surabaya, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Goh, Khang Wen",
+        "short_name": "Goh KW",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Data Science and Information Technology, INTI International University, Nilai, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Ming, Long Chiau",
+        "short_name": "Ming LC",
+        "identifiers": [],
+        "affiliations": [
+          "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Gadong, Brunei Darussalam.",
+          "Department of Pharmacy Practice, Universitas Airlangga, Surabaya, Indonesia.",
+          "School of Medical and Life Sciences, Sunway University, Sunway City, Malaysia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/12 06:42",
+    "fetched_at": "2026-09-29 06:57:14"
+  },
+  "links": {
+    "cites": [
+      "41155491",
+      "39338235",
+      "38807196",
+      "38776291",
+      "38720390"
+    ],
+    "refs": [],
+    "similar": [
+      "37697727",
+      "42133206",
+      "38779737",
+      "40494088",
+      "38095360",
+      "30175693",
+      "37334701",
+      "31831297",
+      "30806580",
+      "25148595",
+      "31394858",
+      "33915968",
+      "37539779",
+      "37698364",
+      "36745307",
+      "37747063",
+      "32131468",
+      "41865345",
+      "42112455",
+      "29132266",
+      "33034255",
+      "37424193",
+      "28340400",
+      "30366191",
+      "38285669",
+      "40691706",
+      "37811784",
+      "37695635",
+      "28849732",
+      "39757683",
+      "36841313",
+      "38059345",
+      "42210816",
+      "38385447",
+      "38637479",
+      "28486912",
+      "30415122",
+      "24875451",
+      "28605994",
+      "29718775",
+      "37753798",
+      "32223539",
+      "32242496",
+      "30052133",
+      "34478925",
+      "30661449",
+      "41084624",
+      "30047845",
+      "37707987",
+      "31172362",
+      "30916624",
+      "38329085",
+      "33779506",
+      "40973684",
+      "32664863",
+      "34709133",
+      "30938574",
+      "30916622",
+      "37904331",
+      "37409931",
+      "37599462",
+      "33671607",
+      "40289986",
+      "40779485",
+      "37338041",
+      "37741229",
+      "40887554",
+      "30114965",
+      "28116998",
+      "32328476",
+      "29154212",
+      "38287494",
+      "30665156",
+      "30411690",
+      "31647392",
+      "40231415",
+      "41812425",
+      "38088766",
+      "37403265",
+      "20225870",
+      "32911607",
+      "30261821",
+      "39527993",
+      "19235177",
+      "37715109",
+      "27668885",
+      "39703994",
+      "41483315",
+      "29475408",
+      "38321946",
+      "25707809",
+      "27315035",
+      "32363995",
+      "30047836",
+      "28135036",
+      "36709457",
+      "31355691",
+      "37850684",
+      "37728536",
+      "31588870"
+    ],
+    "review": [
+      "37697727",
+      "36841313"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2256870?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2256870",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

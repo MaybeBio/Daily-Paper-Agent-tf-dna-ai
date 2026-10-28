@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report expression of NF-YAx and a novel NF-YAg isoform (skipping exon-5) in Aves, with abundance in birds but not reptiles, prevalence during early chicken embryogenesis, and AlphaFold-based structural predictions suggesting exon-5 removal reduces beta-stranded elements while exon-3 removal has limited effect on the transactivation domain architecture.
+- **Visible evidence base** Abstract text only; no experimental details, quantification, or structural data provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, expression data (e.g., RT-PCR, RNA-seq), developmental stage details, AlphaFold parameters and confidence metrics, comparative species sampling, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting expansion of NF-YA isoform diversity in birds, with a developmental timing component and structural predictions. However, the evidence base is too limited to evaluate the robustness of the expression claims, the phylogenetic specificity, or the structural interpretations. The novelty is moderate, building on prior identification of NF-YAx in human cells, but the avian-specific focus and developmental angle could appeal to a niche readership. The case is not established from the supplied material alone.
+- **Who would be interested in the results, and why** Researchers studying transcription factor regulation, alternative splicing evolution, CCAAT-binding factors, and avian developmental biology. The isoform diversity and developmental expression pattern may interest those examining gene regulatory networks in early embryogenesis, while the structural predictions could appeal to computational biologists focused on disordered domains.
+- **Major strengths** The identification of a new isoform (NF-YAg) and the avian-specific enrichment are clear and potentially novel observations. The use of AlphaFold to link splicing events to structural consequences is a modern and relevant approach. The developmental timing in chicken embryos adds a functional dimension beyond mere expression cataloging.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims expression of NF-YAx and NF-YAg in Aves, abundance in birds but not reptiles, and prevalence in early chicken embryo development.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative or qualitative experimental data to support the expression claims. No mention of sample sizes, species coverage, developmental stages, or validation methods (e.g., PCR, sequencing, antibodies). The distinction between "abundant in Aves" and "not in reptiles" is asserted without any comparative framework or statistical support.
+  - **Why it matters** Without verifiable expression data, the core novelty of avian-specific isoform enrichment cannot be assessed. The claim of developmental prevalence requires temporal sampling and quantification, which are absent.
+  - **Resolution test** Provide experimental evidence (e.g., RT-PCR or RNA-seq) with species panels, developmental time points, and quantitative comparisons, including statistical tests for abundance differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** The abstract claims that absence of exon-5 leads to a global reduction of beta-stranded elements, while exon-3 removal has limited effects on TAD architecture, based on AlphaFold.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** AlphaFold predictions are presented as definitive structural outcomes without mention of confidence scores, model validation, or comparison to experimental structures. The claim of "global reduction" is vague and lacks quantitative metrics. The functional implication for TAD activity is inferred but not tested.
+  - **Why it matters** Overinterpretation of computational predictions can mislead readers. The structural claims are central to the proposed mechanistic role, but without confidence metrics or functional assays, they remain speculative.
+  - **Resolution test** Include AlphaFold confidence metrics (e.g., pLDDT), compare predicted structures across isoforms quantitatively, and ideally validate with functional transactivation assays or mutagenesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary scope
+  - **Claim pointer** The abstract claims these isoforms are abundant in Aves but not in reptiles, implying an avian-specific program.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The phylogenetic sampling is not described. The claim of absence in reptiles is based on unspecified species and methods. The evolutionary conclusion may be premature if sampling is limited or if expression is stage-specific in reptiles.
+  - **Why it matters** The evolutionary novelty is a key selling point. Inadequate sampling could lead to false generalization about avian specificity.
+  - **Resolution test** Specify the reptile species examined, the tissues and stages sampled, and provide evidence that absence is not due to technical limitations or developmental timing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Isoform nomenclature
+  - **Evidence pointer** Abstract text
+  - **Issue** The naming of NF-YAg is introduced without clear definition of its relationship to existing isoforms beyond exon-5 skipping. The abstract assumes reader familiarity with exon numbering and splicing patterns.
+  - **Required correction** Briefly define the exon structure and how NF-YAg relates to NF-YAl, NF-YAs, and NF-YAx in the abstract or provide a schematic in the full text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Global reduction of beta-stranded elements"
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase is imprecise; it is unclear whether this refers to secondary structure content, specific regions, or overall fold stability.
+  - **Required correction** Specify the structural metric used (e.g., percentage of beta-sheet residues, per-residue confidence) and the region affected.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Prior work on NF-YAx
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states NF-YAx was "reported only in human neuronal cells and tumors," but does not cite or contextualize this prior finding, leaving the novelty claim unclear.
+  - **Required correction** Add a citation and briefly explain how the current avian findings extend or contrast with the human data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (expression evidence), R1-M2 (structural validation), R1-M3 (phylogenetic sampling)
+- **Assessment against Nature-style criteria** Originality is moderate; the new isoform and avian-specific pattern are novel but incremental. Scientific importance is limited to a specialist audience in transcription regulation and avian development. Interdisciplinary readership is narrow, as the work bridges molecular biology and structural prediction but lacks broad applicability. Technical soundness cannot be evaluated from the abstract alone, and the structural claims are under-supported. Readability for nonspecialists is adequate but assumes familiarity with NF-Y biology and splicing nomenclature.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if the full manuscript provides robust expression data, clear phylogenetic sampling, and validated structural predictions with functional context.
+
+## Risk / unsupported claims
+- Expression of NF-YAx and NF-YAg in Aves is unsupported without experimental data.
+- Abundance in Aves versus absence in reptiles is unsupported without comparative sampling and quantification.
+- Prevalence during early chicken embryo development is unsupported without temporal expression data.
+- AlphaFold-based structural claims (beta-stranded reduction, limited exon-3 effect) are unsupported without confidence metrics or experimental validation.
+- The implied role during early development is speculative without functional assays.

@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv:2507.09754v2)
+- **Assessment boundary** Technical soundness, methodological novelty, statistical validity, and interpretability claims as presented in the provided text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors propose a Mixture of Experts (MoE) model integrating three pre-trained CNN experts (based on DeepBind architecture) for TFBS prediction, and introduce ShiftSmooth, a novel attribution method that averages gradients over circularly shifted input sequences. They report competitive or superior performance of the MoE model on in-distribution (ARID3A, FOXM1, GATA3) and out-of-distribution (BCLAF1, CTCF, POLR2A, RBBP5, SAP30, STAT3) datasets, with statistical significance confirmed via ANOVA. They further claim ShiftSmooth provides more robust and plausible attributions for motif discovery compared to Vanilla Gradient.
+- **Visible evidence base** Figures 4-9 (ROC curves, bar plots, confidence intervals), Figures 10-19 (attribution maps), textual descriptions of training and evaluation procedures. No tables of numerical results, no dataset statistics, no hyperparameter values, no code or data availability statements.
+- **Missing materials affecting confidence** Numerical AUC values (only means and standard deviations are mentioned, not reported numerically in text), exact dataset sizes and genomic coordinates, hyperparameter search ranges and final values, baseline comparisons beyond the three expert CNNs, quantitative metrics for attribution quality (e.g., motif recovery rates, AUC-based faithfulness scores), and details on the gating network architecture and training dynamics.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in genomic deep learning, namely improving generalization and interpretability of TFBS prediction models. The MoE architecture is a reasonable extension of existing CNN-based approaches, and the ShiftSmooth method is a sensible adaptation of SmoothGrad to sequence data. However, the current evidence base is insufficient to support several key claims. The absence of numerical results, lack of comparison to state-of-the-art methods, and the purely qualitative evaluation of attributions substantially weaken the case. The statistical analysis, while appropriate in principle, is not described with enough detail to assess its validity. The manuscript has potential but requires substantial additional experiments and reporting before the claims can be considered established.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on regulatory genomics, particularly those developing deep learning models for sequence-to-function prediction. The MoE approach for combining specialized models and the ShiftSmooth attribution method for sequence data would be of interest to this community. Researchers focused on model interpretability in genomics may also find the attribution analysis relevant, though the current qualitative evaluation limits its immediate utility.
+- **Major strengths** The problem is well-motivated and practically important. The MoE architecture is a sensible approach to improving generalization across diverse TFBS patterns. The ShiftSmooth method addresses a real limitation of Vanilla Gradient attributions, namely sensitivity to input window shifts. The use of ANOVA to assess statistical significance of performance differences is appropriate. The inclusion of OOD evaluation is a strength, as generalization to unseen TFs is a key practical concern.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Evidence sufficiency
+- **Claim pointer** "Our results demonstrate that the MoE model achieves competitive or superior performance across diverse TF binding sites, particularly excelling in OOD scenarios."
+- **Evidence pointer** Figures 4-9, Section IV
+- **Concern** The manuscript claims superior performance of the MoE model, but no numerical AUC values are reported in the text. Figures 4-9 are referenced, but the reader cannot assess the magnitude of the differences or the practical significance of the improvements. The claim of "competitive or superior" performance is too vague without specific numbers and confidence intervals.
+- **Why it matters** The central claim of the paper is that the MoE model improves performance. Without quantitative results, this claim cannot be evaluated or reproduced. The reader cannot determine whether the improvements are meaningful in a practical sense or merely statistically significant due to large sample sizes.
+- **Resolution test** Report the mean and standard deviation of AUC for each model on each dataset in a table. Include the ANOVA F-statistic and p-value for each comparison. Provide effect sizes or confidence intervals for the differences between the MoE model and each expert.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Comparative evaluation
+- **Claim pointer** "Our work presents an efficient, generalizable, and interpretable solution for TFBS prediction."
+- **Evidence pointer** Section II-C, Section IV
+- **Concern** The manuscript does not compare the proposed MoE model against any state-of-the-art TFBS prediction methods, such as DeepSEA, DanQ, or DNABERT-based models. The introduction mentions DNABERT but no comparison is made. The claim of being a "solution" for TFBS prediction requires benchmarking against existing methods to establish its relative merit.
+- **Why it matters** Without comparison to existing methods, the reader cannot assess whether the MoE approach offers any advantage over current practice. The claim of efficiency and generalizability is unsubstantiated without such benchmarks.
+- **Resolution test** Include a comparison of the MoE model against at least one or two established TFBS prediction methods (e.g., DeepSEA, DNABERT) on the same datasets, reporting AUC and, if possible, computational cost.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Interpretability validation
+- **Claim pointer** "ShiftSmooth offers superior attribution for motif discovery and localization compared to traditional Vanilla Gradient methods."
+- **Evidence pointer** Section V, Figures 10-19
+- **Concern** The evaluation of ShiftSmooth is purely qualitative, based on visual inspection of attribution maps. No quantitative metrics are provided to support the claim of superiority. The manuscript does not assess whether the attributions actually identify known motifs (e.g., using motif enrichment analysis or comparison to known position weight matrices). The claim that ShiftSmooth is "superior" is not supported by any measurable evidence.
+- **Why it matters** Interpretability methods must be validated quantitatively to be useful. Visual inspection is subjective and can be misleading. Without quantitative evaluation, the claim of superiority cannot be accepted.
+- **Resolution test** Provide quantitative evaluation of attribution quality, such as motif recovery rate (e.g., fraction of known motifs correctly localized), AUC-based faithfulness metrics (e.g., deletion or insertion tests), or comparison to known motif positions using a metric like area under the precision-recall curve.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Statistical methodology
+- **Claim pointer** "The Analysis of Variance (ANOVA) statistical test confirms the significance of these performance differences."
+- **Evidence pointer** Section IV, Section III-C
+- **Concern** The description of the ANOVA procedure is incomplete. It is unclear whether the ANOVA is performed on the 30 bootstrapped AUC values per model, whether the assumptions of ANOVA (normality, homogeneity of variance) were checked, and whether post-hoc tests were conducted to identify which specific model comparisons are significant. The use of bootstrapped samples for ANOVA is also questionable, as the bootstrap samples are not independent.
+- **Why it matters** The statistical claim is central to the paper's argument. An improperly conducted or reported ANOVA undermines the validity of the conclusions.
+- **Resolution test** Provide a detailed description of the ANOVA procedure, including the exact data used, assumptions checked, and post-hoc tests performed. Consider using a non-parametric alternative (e.g., Kruskal-Wallis) or a mixed-effects model that accounts for the bootstrap structure.
+- **Concern ID** R1-M5
+- **Severity** Major
+- **Blocking** No
+- **Axis** Methodological novelty
+- **Claim pointer** "It introduces a new Mixture of Experts (MoE) model for TFBS prediction integrating multiple pre-trained CNN models for enhanced generalization."
+- **Evidence pointer** Section III-A, Section II-C
+- **Concern** The novelty of the MoE approach is not clearly established. The manuscript states that MoE models have not been applied to TFBS prediction, but the specific contribution beyond a simple ensemble averaging is unclear. The gating mechanism is described as learning to weight expert outputs, but no analysis is provided on what the gating network learns or how it differs from a simple average or a learned linear combination. The claim of novelty requires a clearer articulation of the technical contribution.
+- **Why it matters** The paper's contribution hinges on the novelty of the MoE approach. If the gating mechanism is essentially a learned weighted average, the contribution may be incremental.
+- **Resolution test** Provide an analysis of the learned gating weights, such as which experts are favored for which types of input sequences, and compare the MoE model against a simple ensemble average of the three experts to demonstrate the added value of the gating mechanism.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity
+- **Affected element** Section III-A, equations
+- **Evidence pointer** Equations 1-9
+- **Issue** The equations in Section III-A are not numbered consistently and some are missing from the text. The description of the gating network is incomplete, and the dimensions of the tensors are not fully specified.
+- **Required correction** Number all equations consistently and provide a clear description of the gating network architecture, including input and output dimensions.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Reproducibility
+- **Affected element** Section III-B, Section III-C
+- **Evidence pointer** Text
+- **Issue** The manuscript does not provide details on the dataset split (e.g., chromosome-based split vs. random split), the number of positive and negative samples, or the sequence length used. These details are essential for reproducibility.
+- **Required correction** Provide a detailed description of the datasets, including source, preprocessing steps, sequence length, and train/validation/test splits.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Terminology
+- **Affected element** Section II-B, Section III-D
+- **Evidence pointer** Text
+- **Issue** The term "bit-shift" is used to describe the shifting of sequence data. This is potentially confusing, as bit-shift typically refers to binary operations. The operation described is a circular shift of the sequence elements.
+- **Required correction** Replace "bit-shift" with "circular shift" or "sequence shift" to avoid ambiguity.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Completeness
+- **Affected element** Section V
+- **Evidence pointer** Figures 10-19
+- **Issue** The manuscript states that the input sequence in Figure 10 is from the ENCODE database, but no identifier or genomic coordinates are provided. This limits the reader's ability to interpret the attribution maps.
+- **Required correction** Provide the genomic coordinates or an identifier for the example sequence used in the attribution analysis.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Writing quality
+- **Affected element** Section I, Section VI
+- **Evidence pointer** Text
+- **Issue** The introduction and conclusion contain some repetitive statements and overly broad claims (e.g., "advancing our understanding of transcriptional regulation"). The writing could be more concise and focused.
+- **Required correction** Revise the introduction and conclusion to be more concise and to avoid overstating the implications of the work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing numerical results), R1-M2 (no comparison to state-of-the-art), R1-M3 (no quantitative validation of interpretability), R1-M4 (incomplete statistical reporting).
+- **Assessment against Nature-style criteria**  
+  *Originality*: The application of MoE to TFBS prediction is a reasonable but incremental extension of existing ensemble methods. The ShiftSmooth method is a minor adaptation of SmoothGrad. The originality is moderate and does not represent a conceptual breakthrough.  
+  *Scientific importance*: TFBS prediction is an important problem, and improving generalization and interpretability is of practical value. However, the current evidence does not demonstrate a substantial advance over existing methods.  
+  *Interdisciplinary readership*: The work is primarily of interest to computational biologists and machine learning researchers. The lack of quantitative results and comparison to existing methods limits its appeal to a broader biological audience.  
+  *Technical soundness*: The technical approach is generally sound, but the incomplete reporting of results and statistical procedures prevents a full assessment. The qualitative evaluation of interpretability is a significant weakness.  
+  *Readability for nonspecialists*: The manuscript is reasonably well-written but assumes familiarity with deep learning and genomics. The lack of clear numerical results makes it difficult for a nonspecialist to gauge the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and proposes a plausible approach, but the evidence base is insufficient to support the central claims. Substantial additional experiments, quantitative reporting, and comparisons to existing methods are required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that the MoE model achieves "superior performance" is unsupported without numerical AUC values and effect sizes.
+- The claim that ShiftSmooth offers "superior attribution" is unsupported without quantitative evaluation of attribution quality.
+- The claim that the MoE approach is "novel" is not clearly established, as the specific technical contribution beyond a weighted ensemble is not articulated.
+- The claim that the ANOVA "confirms the significance" of performance differences is not fully supported due to incomplete description of the statistical procedure.
+- The claim that the work provides an "efficient" solution is not supported by any computational cost analysis.

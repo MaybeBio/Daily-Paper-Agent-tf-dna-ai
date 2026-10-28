@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors propose PGViS, a statistical framework that integrates DNABERT-based variant effect predictions, allele frequency shifts, and regulatory interaction terms to produce a patient-level non-coding germline regulatory risk score for non-small cell lung cancer. The framework is applied to 1,102 TCGA and CPTAC patients with 1000 Genomes Project as reference, and is reported to separate adenocarcinoma and squamous cell carcinoma from controls in European ancestry and East Asian adenocarcinoma, with enrichment of contributing loci in specific biological pathways.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, validation statistics, or data availability statements are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary methods, cohort composition details, validation results, code availability, and any sensitivity or robustness analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful conceptual framework for integrating non-coding variant interpretation into personal genomic risk scoring. However, the evidence provided is insufficient to evaluate the validity, reproducibility, or clinical utility of the proposed method. Key methodological details and quantitative results are absent, and several claims appear to exceed what can be supported from the information given.
+- **Who would be interested in the results, and why** Researchers in cancer genomics, particularly those working on germline risk prediction, non-coding variant interpretation, and lung cancer susceptibility. The framework's modular design may also interest investigators applying similar approaches to other solid tumors or to populations with broader ancestral representation.
+- **Major strengths** The conceptual integration of DNA foundation model predictions with population allele frequency data is timely and addresses a recognized gap in non-coding variant interpretation. The stated modularity and adaptability to other tumor types are attractive features. The focus on patient-level scoring rather than variant-level annotation alone is a useful framing.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PGViS separated adenocarcinoma (AD) and squamous cell carcinoma from controls in European ancestry and East Asian AD"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are presented. The abstract does not report effect sizes, confidence intervals, p-values, area under the curve, or any other metric that would allow assessment of the separation claim. Without these, the claim of separation is unverifiable.
+  - **Why it matters** The central claim of the manuscript is that PGViS can distinguish cases from controls. Without any statistical measure of performance, the reader cannot judge whether the separation is meaningful, reproducible, or superior to existing approaches.
+  - **Resolution test** Provide performance metrics with confidence intervals for each ancestry and histology subgroup, along with appropriate multiple testing corrections and comparison to baseline models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Each signal is weighted by cohort prevalence which are aggregated into a single ancestry-matched, reference-normalized score per patient"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The weighting scheme is described only in general terms. No details are given on how weights are estimated, how ancestry matching is performed, how reference normalization is defined, or how the three signals are combined. The sentence structure also suggests a possible grammatical error that obscures the intended meaning.
+  - **Why it matters** The validity of the entire framework depends on the statistical properties of the weighting and normalization procedures. Without specification, the method cannot be reproduced or evaluated for bias, overfitting, or sensitivity to cohort composition.
+  - **Resolution test** Provide a complete mathematical specification of the score, including all parameters, estimation procedures, and normalization steps, in a methods section or supplement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "Genes at contributing loci were enriched for PI3K-Akt, Wnt, DNA damage response, and epithelial–mesenchymal transition programs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No enrichment statistics are reported. The abstract does not state whether these enrichments are statistically significant, what background gene sets were used, how multiple testing was handled, or whether the enrichments survive correction. The pathway list is broad and includes programs commonly associated with cancer, raising the possibility of nonspecific findings.
+  - **Why it matters** Pathway enrichment is presented as supporting biological relevance. Without proper statistical reporting, the reader cannot distinguish a robust biological signal from a chance finding or an artifact of the gene selection procedure.
+  - **Resolution test** Report enrichment statistics with adjusted p-values, specify the background model and gene set databases used, and demonstrate that the enrichments are specific to the PGViS-contributing loci rather than to any random gene set of similar size.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Smoking-stratified analysis concentrated this signal on canonical NSCLC driver pathways"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how smoking status was ascertained, how stratification was performed, what the sample sizes were in each stratum, or what statistical evidence supports the claim of concentration. The term "concentrated" is vague and could mean different things.
+  - **Why it matters** Smoking is a major confounder in lung cancer genetics. If the smoking-stratified analysis is not rigorously described and quantified, the claim that the signal concentrates on driver pathways cannot be evaluated, and the possibility of residual confounding cannot be excluded.
+  - **Resolution test** Provide stratum-specific sample sizes, the statistical comparison between strata, and a clear definition of what constitutes concentration of signal, with supporting statistics.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** "DNA foundation models such as DNABERT decode non-coding variant effects directly from sequence, without a large GWAS cohort"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which DNABERT model version or configuration was used, how the model was fine-tuned or applied, what the input features were, or how prediction confidence was calibrated. The claim that DNABERT decodes effects "directly from sequence" oversimplifies the known limitations of such models, including training data biases and the need for careful validation.
+  - **Why it matters** The framework's performance depends critically on the quality and appropriateness of the underlying DNABERT predictions. Without specification, the reader cannot assess whether the variant effect estimates are reliable or whether the model was used in a manner consistent with its intended application.
+  - **Resolution test** Specify the model version, training data, fine-tuning procedure, and any calibration or validation steps applied to the DNABERT predictions before integration into PGViS.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "the functional non-coding component is largely uncharacterized" is clear, but the following sentence introduces GWAS and polygenic risk scores without defining them for a general reader.
+  - **Required correction** Spell out genome-wide association studies and polygenic risk scores at first use, or provide brief parenthetical definitions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The sentence "Each signal is weighted by cohort prevalence which are aggregated into a single ancestry-matched, reference-normalized score per patient" contains a grammatical mismatch between "prevalence" and "are," and the intended meaning is unclear.
+  - **Required correction** Revise to clarify that the signals are weighted by cohort prevalence and then aggregated, for example "Each signal is weighted by cohort prevalence, and the weighted signals are aggregated into a single ancestry-matched, reference-normalized score per patient."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, cohort description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states 1,102 TCGA and CPTAC patients but does not specify the histology distribution, stage distribution, or whether these are all NSCLC or include other subtypes.
+  - **Required correction** Provide a breakdown of the cohort by histology, stage, and ancestry in the abstract or indicate where this information is available in the full text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, comparison to existing methods
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that GWAS and polygenic risk scores "identify tag variants, not causal ones" but does not compare PGViS performance to these existing approaches.
+  - **Required correction** Include a direct comparison to existing polygenic risk scores or GWAS-based approaches in the results, or state explicitly that such a comparison is not performed and why.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The absence of quantitative results, methodological specification, and validation statistics means that the central claims of the manuscript cannot be assessed from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual combination of DNA foundation model predictions with population allele frequency data for patient-level scoring is somewhat novel, but the abstract does not demonstrate how this differs substantially from existing variant effect prediction and risk scoring approaches.
+  - Scientific importance: The problem of non-coding germline variant interpretation in cancer risk is important, but the abstract does not provide evidence that PGViS advances the field beyond current methods.
+  - Interdisciplinary readership: The abstract is written in a way that assumes familiarity with both genomics and machine learning terminology, which may limit accessibility to a broader readership.
+  - Technical soundness: Not assessable from the abstract. The absence of methodological detail and quantitative results prevents evaluation of the framework's validity.
+  - Readability for nonspecialists: The abstract is generally readable but contains undefined terms and at least one grammatically unclear sentence.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is potentially interesting, but the abstract alone does not provide sufficient information to evaluate the validity, reproducibility, or significance of the claims. A full review of the complete manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that PGViS "separated" AD and squamous cell carcinoma from controls is unsupported by any reported statistics.
+- The claim of pathway enrichment is unsupported by any reported enrichment statistics or significance thresholds.
+- The claim that smoking-stratified analysis "concentrated" signal on driver pathways is unsupported by any reported stratum-specific results.
+- The claim that DNABERT "decode[s] non-coding variant effects directly from sequence" is an oversimplification that is not supported by the abstract's level of detail.
+- The generalizability claims regarding "broader ancestral representation" and "other solid tumors" are presented as capabilities but are not supported by any evidence in the abstract.

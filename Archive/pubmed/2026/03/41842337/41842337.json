@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41842337",
+    "doi": "10.1128/spectrum.03620-25",
+    "title": "Repurposing flufenamic acid as a putative PmrB-directed adjuvant to restore colistin activity in Klebsiella pneumoniae."
+  },
+  "content": {
+    "abstract": "Antimicrobial resistance in gram-negative bacteria has renewed reliance on colistin, yet resistance to this last-line agent is increasing. In Klebsiella pneumoniae, activation of the PmrA/PmrB two-component system remodels lipid A and reduces colistin binding, motivating the sensor kinase PmrB as an adjuvant target. Here, we combined computational drug repurposing with experimental validation to identify colistin potentiators. High-throughput virtual screening of DrugBank using integrated ligand- and structure-based approaches shortlisted five approved drugs (mebendazole, flurbiprofen, tirbanibulin, flufenamic acid, and netarsudil) for experimental evaluation. In vitro assays against colistin-resistant K. pneumoniae showed flufenamic acid most robustly resensitized resistant isolates and suppressed the emergence of additional resistance under combination exposure. Mechanistic studies indicated that the colistin-flufenamic acid combination increased membrane permeability and significantly downregulated PmrA/PmrB-regulated genes (pmrC and arnT). Molecular docking and molecular dynamics simulations further supported a plausible interaction of flufenamic acid with the PmrB ATPase region, and representative PmrB substitutions (D150Y, T157P, and R256G) did not alter the predicted binding mode. Together, these data suggest that modulation of the PmrA/PmrB pathway may contribute to colistin potentiation and demonstrate a target-guided repurposing-to-validation framework for antibiotic adjuvant discovery in colistin-resistant K. pneumoniae.IMPORTANCEColistin is one of the last remaining treatment options for multidrug-resistant Klebsiella pneumoniae infections, but resistance to this drug is rising worldwide. In this study, we used a PrmB-informed, computer-guided drug repurposing workflow followed by in vitro validation to identify approved compounds that can potentiate colistin activity against colistin-resistant K. pneumoniae. This approach independently prioritized flufenamic acid as the most robust colistin enhancer among the screened candidates, restoring colistin activity and reducing the emergence of additional resistance under combination exposure. Mechanistically, our findings are consistent with modulation of the PmrB/PmrA resistance pathway, supporting bacterial histidine-kinase signaling as a promising direction for antibiotic adjuvant development. Overall, this study highlights a practical and scalable framework for discovering resistance-targeted adjuvants to help protect last-resort antibiotics and improve treatment options for difficult-to-treat infections.",
+    "keywords": [
+      "Klebsiella pneumoniae",
+      "PmrB",
+      "antibiotic adjuvant",
+      "colistin resistance",
+      "flufenamic acid",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Colistin/pharmacology",
+      "*Klebsiella pneumoniae/drug effects/genetics/metabolism",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "*Drug Repositioning",
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "*Flufenamic Acid/pharmacology/chemistry",
+      "*Transcription Factors/metabolism/genetics/chemistry",
+      "Microbial Sensitivity Tests",
+      "Drug Resistance, Bacterial/drug effects",
+      "Klebsiella Infections/microbiology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phanus-Umporn, Chuleeporn",
+        "Anuwongcharoen, Nuttapat",
+        "Chatupheeraphat, Chawalit",
+        "Kaewsai, Noramon",
+        "Eiamphungporn, Warawan"
+      ],
+      "short_names": [
+        "Phanus-Umporn C",
+        "Anuwongcharoen N",
+        "Chatupheeraphat C",
+        "Kaewsai N",
+        "Eiamphungporn W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5439-8462",
+        "ORCID: 0000-0001-5361-5314",
+        "ORCID: 0000-0003-4166-3591",
+        "ORCID: 0000-0003-4698-3236"
+      ],
+      "affiliations": [
+        "Department of Community Medical Technology, Faculty of Medical Technology, Mahidol University, Nakhon Pathom, Thailand. ROR: https://ror.org/01znkr924",
+        "Department of Community Medical Technology, Faculty of Medical Technology, Mahidol University, Nakhon Pathom, Thailand. ROR: https://ror.org/01znkr924",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Nakhon Pathom, Thailand. ROR: https://ror.org/01znkr924",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Nakhon Pathom, Thailand. ROR: https://ror.org/01znkr924",
+        "Department of Clinical Microbiology and Applied Technology, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand. ROR: https://ror.org/01znkr924"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phanus-Umporn, Chuleeporn",
+        "short_name": "Phanus-Umporn C",
+        "identifiers": [
+          "0000-0001-5439-8462"
+        ],
+        "affiliations": [
+          "Department of Community Medical Technology, Faculty of Medical Technology, Mahidol University, Nakhon Pathom, Thailand."
+        ]
+      },
+      {
+        "full_name": "Anuwongcharoen, Nuttapat",
+        "short_name": "Anuwongcharoen N",
+        "identifiers": [
+          "0000-0001-5361-5314"
+        ],
+        "affiliations": [
+          "Department of Community Medical Technology, Faculty of Medical Technology, Mahidol University, Nakhon Pathom, Thailand."
+        ]
+      },
+      {
+        "full_name": "Chatupheeraphat, Chawalit",
+        "short_name": "Chatupheeraphat C",
+        "identifiers": [
+          "0000-0003-4166-3591"
+        ],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Nakhon Pathom, Thailand."
+        ]
+      },
+      {
+        "full_name": "Kaewsai, Noramon",
+        "short_name": "Kaewsai N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Nakhon Pathom, Thailand."
+        ]
+      },
+      {
+        "full_name": "Eiamphungporn, Warawan",
+        "short_name": "Eiamphungporn W",
+        "identifiers": [
+          "0000-0003-4698-3236"
+        ],
+        "affiliations": [
+          "Department of Clinical Microbiology and Applied Technology, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microbiology spectrum"
+    ],
+    "journal_abbrev": [
+      "Microbiol Spectr"
+    ],
+    "pub_date": "2026 Apr 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/17 14:24",
+    "fetched_at": "2026-10-01 16:35:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40936770",
+      "40537271",
+      "40341530",
+      "40124654",
+      "40056100",
+      "39826970",
+      "39710513",
+      "39261709",
+      "39248524",
+      "39203486",
+      "38974043",
+      "38832539",
+      "38179424",
+      "37895172",
+      "37875387",
+      "37500506",
+      "37499195",
+      "37294761",
+      "36971552",
+      "35290843",
+      "35230128",
+      "34603057",
+      "34586825",
+      "34476235",
+      "34278794",
+      "34234012",
+      "34202395",
+      "33692764",
+      "33477701",
+      "33076254",
+      "32764996",
+      "32650057",
+      "32514531",
+      "32393483",
+      "30874800",
+      "30532748",
+      "30310233",
+      "30131787",
+      "29899556",
+      "29126136",
+      "28275006",
+      "27785820",
+      "27761807",
+      "27353885",
+      "27322406",
+      "26629955",
+      "26205061",
+      "26052348",
+      "25505462",
+      "25022583",
+      "24944729",
+      "24841267",
+      "24156913",
+      "24131198",
+      "22899801",
+      "21982300",
+      "21534921",
+      "20653976",
+      "20540577",
+      "17129822",
+      "15286734",
+      "14507375",
+      "12805255",
+      "11874496",
+      "11846609",
+      "11259830",
+      "11177775",
+      "3583467"
+    ],
+    "similar": [
+      "41842337",
+      "41678146",
+      "41398649",
+      "39389505",
+      "24914122",
+      "40936770",
+      "40879378",
+      "24841267",
+      "41790256",
+      "34688302",
+      "37875387",
+      "31694895",
+      "33779958",
+      "41117630",
+      "38769479",
+      "30266401",
+      "27067316",
+      "29914952",
+      "31307167",
+      "37272820",
+      "33820943",
+      "39004342",
+      "39533012",
+      "27238937",
+      "36037044",
+      "39755702",
+      "29883490",
+      "39317674",
+      "41754468",
+      "28668693",
+      "39162501",
+      "41579965",
+      "35086435",
+      "34765565",
+      "41861668",
+      "23459476",
+      "27600049",
+      "31311879",
+      "31479740",
+      "35895482",
+      "29506266",
+      "41985881",
+      "37276893",
+      "39332100",
+      "29590004",
+      "42019271",
+      "31954832",
+      "37036368",
+      "30256174",
+      "40973684",
+      "33139278",
+      "30221899",
+      "40056100",
+      "40690000",
+      "41075103",
+      "31923567",
+      "33443109",
+      "29976595",
+      "38738873",
+      "35878515",
+      "39566127",
+      "34798825",
+      "25190723",
+      "29944953",
+      "36683114",
+      "39315782",
+      "38290306",
+      "31084700",
+      "40488625",
+      "36748641",
+      "39029657",
+      "39344345",
+      "38909787",
+      "39039157",
+      "39396555",
+      "27914962",
+      "29229634",
+      "39432962",
+      "36230959",
+      "35902639",
+      "42509756",
+      "25264127",
+      "42226124",
+      "31173867",
+      "23979739",
+      "41044168",
+      "38951173",
+      "34704782",
+      "41432158",
+      "32291303",
+      "33007498",
+      "36971552",
+      "27592491",
+      "27553451",
+      "38681955",
+      "39655914",
+      "41081388",
+      "29935331",
+      "41136822",
+      "31493525"
+    ],
+    "review": [
+      "41842337",
+      "36230959"
+    ],
+    "pmc": [
+      "13055304"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/spectrum.03620-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41842337/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

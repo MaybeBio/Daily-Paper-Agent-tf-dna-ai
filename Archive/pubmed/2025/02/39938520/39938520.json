@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "39938520",
+    "doi": "10.1016/j.cels.2025.101171",
+    "title": "Macrophage memory emerges from coordinated transcription factor and chromatin dynamics."
+  },
+  "content": {
+    "abstract": "Cells of the immune system operate in dynamic microenvironments where the timing, concentration, and order of signaling molecules constantly change. Despite this complexity, immune cells manage to communicate accurately and control inflammation and infection. It is unclear how these dynamic signals are encoded and decoded and if individual cells retain the memory of past exposure to inflammatory molecules. Here, we use live-cell analysis, ATAC sequencing, and an in vivo model of sepsis to show that sequential inflammatory signals induce memory in individual macrophages through reprogramming the nuclear factor kappaB (NF-kappaB) network and the chromatin accessibility landscape. We use transcriptomic profiling and deep learning to show that transcription factor and chromatin dynamics coordinate fine-tuned macrophage responses to new inflammatory signals. This work demonstrates how macrophages retain the memory of previous signals despite single-cell variability and elucidates the mechanisms of signal-induced memory in dynamic inflammatory conditions like sepsis.",
+    "keywords": [
+      "NF-kappaB",
+      "Toll-like receptors",
+      "dynamics",
+      "inflammatory signaling",
+      "innate immune memory",
+      "modeling",
+      "sepsis",
+      "signaling dynamics",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Macrophages/metabolism/immunology",
+      "*Chromatin/metabolism",
+      "Mice",
+      "*Transcription Factors/metabolism",
+      "NF-kappa B/metabolism",
+      "Inflammation/immunology/metabolism",
+      "Signal Transduction",
+      "*Immunologic Memory",
+      "Sepsis/immunology",
+      "Mice, Inbred C57BL",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Andrew G",
+        "Son, Minjun",
+        "Gorin, Aleksandr",
+        "Kenna, Emma",
+        "Padhi, Abinash",
+        "Keisham, Bijentimala",
+        "Schauer, Adam",
+        "Hoffmann, Alexander",
+        "Tay, Savas"
+      ],
+      "short_names": [
+        "Wang AG",
+        "Son M",
+        "Gorin A",
+        "Kenna E",
+        "Padhi A",
+        "Keisham B",
+        "Schauer A",
+        "Hoffmann A",
+        "Tay S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA; Medical Scientist Training Program, University of Chicago, Chicago, IL 60637, USA.",
+        "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA; Chan Zuckerberg Biohub Chicago, Chicago, IL, USA.",
+        "Department of Medicine, Division of Infectious Diseases, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA.",
+        "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA.",
+        "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA.",
+        "Chan Zuckerberg Biohub Chicago, Chicago, IL, USA.",
+        "Department of Microbiology, Immunology and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA. Electronic address: tays@uchicago.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Andrew G",
+        "short_name": "Wang AG",
+        "identifiers": [],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA; Medical Scientist Training Program, University of Chicago, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Son, Minjun",
+        "short_name": "Son M",
+        "identifiers": [],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA; Chan Zuckerberg Biohub Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Gorin, Aleksandr",
+        "short_name": "Gorin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Infectious Diseases, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Kenna, Emma",
+        "short_name": "Kenna E",
+        "identifiers": [],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Padhi, Abinash",
+        "short_name": "Padhi A",
+        "identifiers": [],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Keisham, Bijentimala",
+        "short_name": "Keisham B",
+        "identifiers": [],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Schauer, Adam",
+        "short_name": "Schauer A",
+        "identifiers": [],
+        "affiliations": [
+          "Chan Zuckerberg Biohub Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Alexander",
+        "short_name": "Hoffmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Immunology and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Tay, Savaş",
+        "short_name": "Tay S",
+        "identifiers": [],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA. Electronic address: tays@uchicago.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2025 Feb 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/13 00:22",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42595913",
+      "42502322",
+      "42383537",
+      "42367901",
+      "42367774",
+      "42325251",
+      "42319346",
+      "42163268",
+      "41914736",
+      "41034176",
+      "38654826"
+    ],
+    "refs": [
+      "38483906",
+      "38040923",
+      "36417863",
+      "35977475",
+      "35468185",
+      "35245783",
+      "35199152",
+      "34982580",
+      "34850907",
+      "34211635",
+      "34140389",
+      "33979588",
+      "33544645",
+      "32888431",
+      "32220702",
+      "32029002",
+      "31299056",
+      "31114921",
+      "31066453",
+      "31040261",
+      "30361341",
+      "29950719",
+      "29867935",
+      "27381163",
+      "26924576",
+      "26880038",
+      "26488364",
+      "26231116",
+      "25765347",
+      "25605792",
+      "25504722",
+      "25309543",
+      "25258085",
+      "24967621",
+      "24227677",
+      "24097267",
+      "23740750",
+      "23452846",
+      "23427891",
+      "23104886",
+      "22955983",
+      "22901542",
+      "22615556",
+      "22390970",
+      "22388286",
+      "22374303",
+      "21357541",
+      "20066092",
+      "19910308",
+      "19505943",
+      "19487661",
+      "19468054",
+      "18798982",
+      "18262679",
+      "17982103",
+      "17538624",
+      "16735576",
+      "15321710",
+      "12496437",
+      "12433373",
+      "11782563",
+      "10191237",
+      "8849154",
+      "8641750",
+      "352959"
+    ],
+    "similar": [
+      "39938520",
+      "40495190",
+      "42114309",
+      "41641273",
+      "39673708",
+      "41550924",
+      "33123172",
+      "41795298",
+      "29950719",
+      "34804025",
+      "42208328",
+      "40829320",
+      "12496438",
+      "38603633",
+      "40153013",
+      "42398169",
+      "42052827",
+      "27866837",
+      "16688168",
+      "40319834",
+      "34140389",
+      "41480318",
+      "42520528",
+      "11390458",
+      "41124707",
+      "31024544",
+      "35003083",
+      "41544874",
+      "32200153",
+      "42719677",
+      "19703987",
+      "20547752",
+      "40132669",
+      "40550193",
+      "25359217",
+      "26032013",
+      "40482761",
+      "39772531",
+      "40147866",
+      "41217002",
+      "36583372",
+      "35053345",
+      "30042130",
+      "25263595",
+      "39447411",
+      "31811786",
+      "35131015",
+      "39486110",
+      "41512388",
+      "40551156",
+      "42105708",
+      "41702258",
+      "23091043",
+      "42143937",
+      "28554875",
+      "34721373",
+      "35977475",
+      "32610126",
+      "34852285",
+      "41889065",
+      "39550842",
+      "38845211",
+      "28646616",
+      "21726630",
+      "30619320",
+      "27008857",
+      "42475469",
+      "26854198",
+      "22637723",
+      "33460751",
+      "41576699",
+      "21390206",
+      "32388490",
+      "35644586",
+      "26526716",
+      "31781099",
+      "30867837",
+      "30319603",
+      "22381171",
+      "30814284",
+      "39207098",
+      "34288216",
+      "24899179",
+      "38843840",
+      "33043521",
+      "22489138",
+      "26880762",
+      "41692111",
+      "14977537",
+      "41490764",
+      "42259242",
+      "29651293",
+      "39133958",
+      "29149705",
+      "39617708",
+      "28174280",
+      "42303054",
+      "41457935",
+      "31134075",
+      "28825701"
+    ],
+    "review": [
+      "39938520",
+      "31024544",
+      "30619320"
+    ],
+    "pmc": [
+      "12147866"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(25)00004-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39938520/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.16.603793",
+  "title": "A proteome-wide structural systems approach reveals insights into protein families of all human herpesviruses",
+  "doi": "10.1101/2024.07.16.603793",
+  "abstract": "Structure predictions have become invaluable tools, but viral proteins are absent from the EMBL/DeepMind AlphaFold database. Here, we provide proteome-wide structure predictions for all nine human herpesviruses and analyze them in depth with explicit scoring thresholds. By clustering these predictions into structural similarity groups, we identified new families, such as the HCMV UL112-113 cluster, which is conserved in alpha-and betaherpesviruses. A domain-level search found protein families consisting of subgroups with varying numbers of duplicated folds. Using large-scale structural similarity searches, we identified viral proteins with cellular folds, such as the HSV-1 US2 cluster possessing dihydrofolate reductase folds and the EBV BMRF2 cluster that might have emerged from cellular equilibrative nucleoside transporters. Our HerpesFolds database is available at https://www.herpesfolds.org/herpesfolds and displays all models and clusters through an interactive web interface. Here, we show that system-wide structure predictions can reveal homology between viral species and identify potential protein functions.",
+  "authors": [
+    "Soh TK",
+    "Ognibene S",
+    "Sanders S",
+    "Schäper R",
+    "Kaufer BB",
+    "Bosse JB"
+  ],
+  "published_date": "2024-07-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.16.603793",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.16.603793.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR882532",
+    "raw_record": {
+      "id": "PPR882532",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR882532"
+        ]
+      },
+      "doi": "10.1101/2024.07.16.603793",
+      "title": "A proteome-wide structural systems approach reveals insights into protein families of all human herpesviruses",
+      "authorString": "Soh TK, Ognibene S, Sanders S, Schäper R, Kaufer BB, Bosse JB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Soh TK",
+            "lastName": "Soh",
+            "firstName": "Timothy",
+            "initials": "TK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", Institute of Virology, ,"
+                },
+                {
+                  "affiliation": "Cluster of Excellence RESIST (EXC 2155), , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ognibene S",
+            "lastName": "Ognibene",
+            "firstName": "Sofia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", Institute of Virology, ,"
+                },
+                {
+                  "affiliation": "Cluster of Excellence RESIST (EXC 2155), , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sanders S",
+            "lastName": "Sanders",
+            "firstName": "Saskia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", Institute of Virology, ,"
+                },
+                {
+                  "affiliation": "Cluster of Excellence RESIST (EXC 2155), , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schäper R",
+            "lastName": "Schäper",
+            "firstName": "Robin",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", Institute of Virology, ,"
+                },
+                {
+                  "affiliation": "Cluster of Excellence RESIST (EXC 2155), , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaufer BB",
+            "lastName": "Kaufer",
+            "firstName": "Benedikt",
+            "initials": "BB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Virology, , Robert von Ostertag-Straße 7-13 , ,"
+                },
+                {
+                  "affiliation": "Veterinary Centre for Resistance Research (TZR), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bosse JB",
+            "lastName": "Bosse",
+            "firstName": "Jens",
+            "initials": "JB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7252-5541"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", Institute of Virology, ,"
+                },
+                {
+                  "affiliation": "Cluster of Excellence RESIST (EXC 2155), , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7252-5541"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Structure predictions have become invaluable tools, but viral proteins are absent from the EMBL/DeepMind AlphaFold database. Here, we provide proteome-wide structure predictions for all nine human herpesviruses and analyze them in depth with explicit scoring thresholds. By clustering these predictions into structural similarity groups, we identified new families, such as the HCMV UL112-113 cluster, which is conserved in alpha-and betaherpesviruses. A domain-level search found protein families consisting of subgroups with varying numbers of duplicated folds. Using large-scale structural similarity searches, we identified viral proteins with cellular folds, such as the HSV-1 US2 cluster possessing dihydrofolate reductase folds and the EBV BMRF2 cluster that might have emerged from cellular equilibrative nucleoside transporters. Our HerpesFolds database is available at  https://www.herpesfolds.org/herpesfolds and displays all models and clusters through an interactive web interface. Here, we show that system-wide structure predictions can reveal homology between viral species and identify potential protein functions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101087480",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "209250/Z/17/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.16.603793"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR882532"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR882532&type=FILE&fileName=EMS197652-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39592652",
+            "reference": "Nature communications. 2024 Nov;15(1):10230",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197652",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-07-19",
+      "firstPublicationDate": "2024-07-16",
+      "firstIndexDate": "2024-07-19",
+      "fullTextReceivedDate": "2024-11-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

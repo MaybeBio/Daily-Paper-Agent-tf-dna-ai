@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, key points) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and results as presented in the supplied text. No external data, code execution, or reproduction attempted.
+- **Shared manuscript claim summary** The authors propose LEN-Seek, a graph neural network-based variational autoencoder that encodes ligand binding-site structure and physicochemical context into a latent space, enabling fast similarity search via Chamfer distance. They claim approximately 3,400-fold lower per-comparison cost than ProBiS, with high concordance to ProBiS and independent validation via ligand chemical similarity.
+- **Visible evidence base** Abstract, Introduction, Methods (overview, database, roto-translational invariant representation, model architecture, loss function), Results (feature and coordinate reconstruction, similarity search, independent validation by ligand similarity, computational efficiency), Discussion (shape sensitivity, structural robustness, impact of feature adaptation), Conclusion, Key Points. Figures and tables referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–7, Supplementary Figures S1–S6, Supplementary Tables S1–S5, training hyperparameters, model architecture details (layer counts, hidden dimensions), dataset construction details, baseline method configurations, and full quantitative results tables. Code repository referenced but not inspected.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful approach to scalable ligand binding-site similarity search, with a sensible design choice in using SE(3)-invariant features to avoid costly augmentation or equivariant networks. The core idea of compressing binding sites into a latent space for fast retrieval is not entirely novel, but the specific combination of a graph VAE with protein language model embeddings and invariant geometric features is a reasonable contribution. However, the evidence as presented is insufficient to fully assess the method's performance. Key quantitative results are only summarized in text, figures and tables are not visible, and several methodological details are missing. The validation against ligand chemical similarity is a good idea, but the reported numbers are difficult to interpret without the underlying distributions and statistical tests. The computational efficiency comparison is not hardware-normalized, which limits the strength of the claim. Overall, the manuscript has potential but requires substantial additional detail and analysis to establish its case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, drug repurposing, and structure-based drug discovery. Researchers developing machine learning methods for protein representations would also be interested in the architectural choices and the use of invariant features. The scalability claim is relevant to those working with large structural databases such as the AlphaFold Database.
+- **Major strengths** 1. The use of SE(3)-invariant edge features is a principled way to achieve roto-translational invariance without data augmentation or equivariant networks, which is computationally efficient. 2. The incorporation of protein language model embeddings as node features is a modern and sensible choice that captures evolutionary and physicochemical context. 3. The independent validation using ligand chemical similarity is a strong idea, as it tests the biological hypothesis underlying template-based search rather than merely concordance with another structural method. 4. The analysis of false positives and false negatives relative to ProBiS, including cross-checking with G-LoSA, shows a thoughtful approach to understanding method behavior.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims strong retrieval performance, with precision and recall above 0.80 through top-50 results and MCC above 0.6 through top-100.
+  - **Evidence pointer** Table 1, Figure 4, location not provided
+  - **Concern** The quantitative results supporting the main performance claims are not visible in the provided material. Table 1 and Figure 4 are referenced but their contents are absent. The text provides summary statistics, but without the full tables, confusion matrices, and distribution plots, it is impossible to assess the robustness of these numbers, the variance across query types, or the specific failure modes.
+  - **Why it matters** The central claim of the paper is that LEN-Seek achieves high retrieval performance at scale. Without the actual data, this claim cannot be verified. Summary statistics alone are insufficient, especially for a method where the choice of threshold and the nature of the dataset can heavily influence precision, recall, and MCC.
+  - **Resolution test** Provide Table 1 and Figure 4 in full, including the number of queries, the distribution of Chamfer distances for positive and negative pairs, the confusion matrix at each top-k cutoff, and confidence intervals or variance estimates across query subsets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological detail
+  - **Claim pointer** The manuscript claims that the model is a graph VAE with a Graph Transformer architecture, using Ankh embeddings and SE(3)-invariant edge features, and that it reconstructs both node features and structure.
+  - **Evidence pointer** Methods, Model Architecture, location not provided
+  - **Concern** The architectural description is incomplete. The number of layers, hidden dimensions, number of attention heads (beyond the stated 8), the exact formulation of the adaptor block, the decoder structure, and the specific implementation of the Chamfer distance are not fully specified. The loss function weights are referenced to Supplementary Table S2, which is not provided. The training procedure, including learning rate, batch size, optimizer, and number of epochs, is not described.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete architectural and training details, other researchers cannot implement or build upon LEN-Seek. The lack of detail also prevents assessment of whether the design choices are optimal or whether the results might be sensitive to specific implementation decisions.
+  - **Resolution test** Provide a complete description of the model architecture, including all hyperparameters, layer dimensions, activation functions, and the full training procedure. Include the loss function weights and the exact definition of the Chamfer distance used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript claims that LEN-Seek achieves a roughly 3,400-fold lower per-comparison cost than ProBiS.
+  - **Evidence pointer** Table 2, Computational Efficiency, location not provided
+  - **Concern** The efficiency comparison is not hardware-normalized. ProBiS and G-LoSA were run on 16 CPU cores, while LEN-Seek was run on a single GPU. The database sizes also differ (163,252 vs. 114,662 sites). The authors acknowledge this, but the claim of a "3,400-fold" improvement is still presented as a headline result. Without a normalized comparison, such as CPU-only or GPU-only runs, or a theoretical complexity analysis, the magnitude of the claimed advantage is not well supported.
+  - **Why it matters** The scalability claim is a key selling point of the method. If the comparison is not fair, the actual speed advantage could be substantially smaller or larger depending on hardware. A rigorous comparison is needed to justify the central practical contribution.
+  - **Resolution test** Provide a hardware-normalized comparison, or a detailed analysis of computational complexity that supports the claimed speedup. At minimum, report the hardware specifications and the exact timing methodology for all methods, and discuss how the comparison would change under different hardware configurations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that 88.0% of LEN-Seek's similar pairs bind chemically similar ligands, versus 19.09% of its dissimilar pairs, and that this supports the biological validity of the method.
+  - **Evidence pointer** Figure 5, Independent Validation by Ligand Similarity, location not provided
+  - **Concern** The ligand similarity analysis is presented as a validation, but the statistical significance of the difference between similar and dissimilar pairs is not reported. The choice of the Dice similarity threshold (0.46, corresponding to Tanimoto 0.3) is justified by reference to prior work, but the sensitivity of the results to this threshold is not explored. The number of pairs in each category is not stated, and no confidence intervals or effect sizes are provided.
+  - **Why it matters** The validation is meant to provide an alignment-free check on the method's biological relevance. Without statistical testing, the observed difference could be due to chance, especially if the number of pairs is small. The threshold choice could also materially affect the conclusions.
+  - **Resolution test** Report the number of pairs in each category, perform a statistical test (e.g., Mann-Whitney U or permutation test) comparing the ligand similarity distributions, and provide a sensitivity analysis across a range of similarity thresholds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that LEN-Seek "successfully retrieves a substantial portion of similar binding sites" but does not quantify this. The phrase "substantial portion" is vague.
+  - **Required correction** Provide a specific quantitative result in the abstract, such as the recall at a given top-k cutoff or the AUC.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Database
+  - **Evidence pointer** Methods, Database, location not provided
+  - **Issue** The criteria for defining a ligand binding site are referenced to Supplementary Table S1, which is not provided. The number of sites excluded for having fewer than 10 residues is not stated.
+  - **Required correction** Summarize the key inclusion criteria in the main text and report the number of sites excluded.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, Shape Sensitivity
+  - **Evidence pointer** Discussion, Shape Sensitivity, location not provided
+  - **Issue** The discussion of false negatives attributes them to the fixed-distance definition of binding sites and the Chamfer distance, but no quantitative analysis is provided to support this interpretation.
+  - **Required correction** Provide a quantitative breakdown of false negatives by the cause hypothesized, or temper the interpretation accordingly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Computational Efficiency
+  - **Evidence pointer** Results, Computational Efficiency, location not provided
+  - **Issue** The preprocessing cost is mentioned as approximately 13,000 seconds, but it is not clear whether this includes the training time of the model or only the encoding of the database.
+  - **Required correction** Clarify what is included in the preprocessing cost and report the model training time separately.
+- **Assessment against Nature-style criteria** Originality: Moderate. The use of a VAE for binding-site representation is not entirely new, but the specific combination of SE(3)-invariant features, graph transformer, and PLM embeddings is a reasonable incremental contribution. Scientific importance: Moderate. Scalable binding-site search is a practical need, but the method is an engineering contribution rather than a conceptual breakthrough. Interdisciplinary readership: Limited. The manuscript is written for a computational biology audience and is unlikely to attract readers from outside that field. Technical soundness: Not fully assessable from the provided material. The architectural description is incomplete, and the key quantitative results are not visible. Readability for nonspecialists: The manuscript is generally clear but assumes familiarity with graph neural networks, variational autoencoders, and structural biology terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The core performance and efficiency claims cannot be verified without the missing figures, tables, and methodological details. The authors should be invited to provide a revised manuscript with complete results and a more rigorous efficiency comparison.
+
+## Risk / unsupported claims
+- The claim of "roughly 3,400-fold lower per-comparison cost" is not supported by a hardware-normalized comparison.
+- The claim of "precision and recall above 0.80 through the top-50 results" is not verifiable without Table 1.
+- The claim that "88.0% of LEN-Seek's similar pairs bind chemically similar ligands" is not supported by statistical testing or the underlying data distribution.
+- The claim that the model "successfully reconstructs" binding-site geometry and features is based on average FAPE and RMSD values, but the distribution of these errors and the comparison to any baseline are not provided.
+- The claim that the adaptor block reduces the influence of raw Ankh embeddings and strengthens structural signal is supported only by a comparison to a non-adapted model, the details of which are in supplementary materials not provided.
+- The generalizability of the method to databases beyond BsitePDB is not assessed.

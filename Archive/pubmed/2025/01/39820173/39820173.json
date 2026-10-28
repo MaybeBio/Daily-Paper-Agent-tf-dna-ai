@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "39820173",
+    "doi": "10.1371/journal.pone.0312754",
+    "title": "Metastatic melanoma: An integrated analysis to identify critical regulators associated with prognosis, pathogenesis and targeted therapies."
+  },
+  "content": {
+    "abstract": "Metastatic melanoma causes a high rate of mortality. We conducted an integrated analysis to identify critical regulators associated with the prognosis, pathogenesis, and targeted therapies of metastatic-melanoma. A microarray dataset, GSE15605, including 12 metastatic-melanoma and sixteen normal skin (NS) samples, were obtained from the GEO database. After exploration of DEGs of NS and metastatic-melanoma, identification of relevant transcription factors (TFs) and kinases, the Gene Ontology (GO), and pathways analyses of DEGs were performed. Protein-protein interaction (PPI) networks were evaluated by the STRING and Cytoscape. Subsequently, the hub genes were selected using GEPIA. Survival analysis was performed using the TCGA. To identify microRNA and lncRNA DEGs of the melanoma-associated genes miRwalk and FANTOM6 were employed. In metastatic-melanoma samples 285 and 1173 genes were up and down-regulated, respectively. The upregulated genes were mostly involved in granulocyte chemotaxis, positive regulation of calcium ion transmembrane transport, and melanin biosynthetic process. Five hub genes including CXCL11, ICAM1, LEF1, MITF, and STAT1 were identified, SUZ12, SOX2, TCF3, NANOG, and SMAD4 were determined as the most significant TFs in metastatic-melanoma. Furthermore, CDK2, GSK3B, CSNK2A1, and CDK1 target the highest amounts of genes associated with disease. The DGIdb analysis results show the match drugs for five hub genes. MiRNAs analysis revealed hsa-miR-181c-5p, hsa-miR-30b-3p, hsa-miR-3680-3P, hsa-miR-4659a-3p, hsa-miR-4687-3P, and hsa-miR-6808-3P could regulate the hub genes, whereas RP11-553K8.5 and SRP14-AS1 were identified as the top significant lncRNA. The items recognized in the current study can be used as potential biomarkers for diagnostic, predictive, and might helpful to develop targeted combined therapies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Melanoma/genetics/pathology/therapy/metabolism",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "MicroRNAs/genetics",
+      "Protein Interaction Maps/genetics",
+      "Gene Regulatory Networks",
+      "Neoplasm Metastasis",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "RNA, Long Noncoding/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "Biomarkers, Tumor/genetics",
+      "*Skin Neoplasms/genetics/pathology",
+      "Molecular Targeted Therapy"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chaharlashkar, Zeinab",
+        "Saeedi Honar, Yousof",
+        "Abdollahpour-Alitappeh, Meghdad",
+        "Parvizpour, Sepideh",
+        "Barzegar, Abolfazl",
+        "Alizadeh, Effat"
+      ],
+      "short_names": [
+        "Chaharlashkar Z",
+        "Saeedi Honar Y",
+        "Abdollahpour-Alitappeh M",
+        "Parvizpour S",
+        "Barzegar A",
+        "Alizadeh E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7481-0896"
+      ],
+      "affiliations": [
+        "Department of Medical Biotechnology, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran.",
+        "Department of Plant Biotechnology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran.",
+        "Department of Physiology and Pharmacology, Pasteur Institute of Iran, Tehran, Iran.",
+        "Department of Medical Biotechnology, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran.",
+        "Research Center for Pharmaceutical Nanotechnology, Biomedicine Institute, Tabriz University of Medical Sciences, Tabriz, Iran.",
+        "Department of Animal Biology, Faculty of Natural Sciences, University of Tabriz, Tabriz, Iran.",
+        "Department of Medical Biotechnology, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chaharlashkar, Zeinab",
+        "short_name": "Chaharlashkar Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biotechnology, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran."
+        ]
+      },
+      {
+        "full_name": "Saeedi Honar, Yousof",
+        "short_name": "Saeedi Honar Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology, Faculty of Life Sciences and Biotechnology, Shahid Beheshti University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Abdollahpour-Alitappeh, Meghdad",
+        "short_name": "Abdollahpour-Alitappeh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Pasteur Institute of Iran, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Parvizpour, Sepideh",
+        "short_name": "Parvizpour S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biotechnology, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran.",
+          "Research Center for Pharmaceutical Nanotechnology, Biomedicine Institute, Tabriz University of Medical Sciences, Tabriz, Iran."
+        ]
+      },
+      {
+        "full_name": "Barzegar, Abolfazl",
+        "short_name": "Barzegar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Biology, Faculty of Natural Sciences, University of Tabriz, Tabriz, Iran."
+        ]
+      },
+      {
+        "full_name": "Alizadeh, Effat",
+        "short_name": "Alizadeh E",
+        "identifiers": [
+          "0000-0002-7481-0896"
+        ],
+        "affiliations": [
+          "Department of Medical Biotechnology, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/17 18:22",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "42377617",
+      "40723188"
+    ],
+    "refs": [
+      "38101160",
+      "36823571",
+      "35906389",
+      "35796007",
+      "35595767",
+      "35487888",
+      "35301419",
+      "35054979",
+      "35026645",
+      "34924562",
+      "34824546",
+      "34715236",
+      "34635121",
+      "34208068",
+      "34038704",
+      "33777950",
+      "33770351",
+      "33721187",
+      "33680908",
+      "33674778",
+      "33589588",
+      "33384407",
+      "33329742",
+      "33230811",
+      "33177877",
+      "33146890",
+      "32894090",
+      "32532957",
+      "32503133",
+      "32426049",
+      "31882719",
+      "31882353",
+      "31862508",
+      "31832188",
+      "31620197",
+      "31612481",
+      "31366280",
+      "31173190",
+      "31145692",
+      "31114921",
+      "30935420",
+      "30871545",
+      "29921304",
+      "29722002",
+      "29667930",
+      "29582492",
+      "29507054",
+      "29025766",
+      "28790065",
+      "28732212",
+      "28407145",
+      "28061442",
+      "27780915",
+      "27527856",
+      "27385216",
+      "27226552",
+      "26950276",
+      "26851176",
+      "26505837",
+      "26498065",
+      "26440826",
+      "25690042",
+      "25672609",
+      "25375373",
+      "24825855",
+      "24577083",
+      "24327518",
+      "24054424",
+      "23039186",
+      "22080467",
+      "21880414",
+      "19903789",
+      "19212343",
+      "18829575",
+      "18701488",
+      "17210701",
+      "15774488"
+    ],
+    "similar": [
+      "39820173",
+      "33501609",
+      "28952134",
+      "31621692",
+      "30258285",
+      "30268144",
+      "29032608",
+      "35906389",
+      "35313857",
+      "36104591",
+      "40665411",
+      "28723760",
+      "35322101",
+      "32597160",
+      "42599937",
+      "39080630",
+      "31914881",
+      "29377892",
+      "33407587",
+      "36352081",
+      "31703725",
+      "35054979",
+      "38839916",
+      "32435051",
+      "34600545",
+      "33678324",
+      "41533020",
+      "31311829",
+      "33120861",
+      "38393632",
+      "31987036",
+      "41300749",
+      "32714975",
+      "40186750",
+      "35003328",
+      "41272205",
+      "41530916",
+      "33439992",
+      "33080677",
+      "39028999",
+      "31669638",
+      "39052109",
+      "33274216",
+      "33770351",
+      "29921304",
+      "35386284",
+      "29516510",
+      "40834023",
+      "35832124",
+      "31277149",
+      "34159752",
+      "37980270",
+      "35281953",
+      "40024937",
+      "39516222",
+      "32299382",
+      "40425498",
+      "41664335",
+      "32093341",
+      "32802839",
+      "30542696",
+      "29063236",
+      "33596783",
+      "34235224",
+      "42180604",
+      "32105410",
+      "38176923",
+      "30841437",
+      "34313877",
+      "37351977",
+      "39028420",
+      "36291136",
+      "33400243",
+      "32788609",
+      "31730405",
+      "38864705",
+      "34536521",
+      "38785501",
+      "32714978",
+      "41751506",
+      "30602391",
+      "31004080",
+      "30865617",
+      "33578541",
+      "34434654",
+      "41516135",
+      "36187128",
+      "42430887",
+      "34806315",
+      "36798788",
+      "33237828",
+      "40676798",
+      "30932942",
+      "42006143",
+      "38062833",
+      "38310566",
+      "39874008",
+      "31989994",
+      "40375702",
+      "38949075"
+    ],
+    "review": [
+      "39820173",
+      "40665411",
+      "33080677"
+    ],
+    "pmc": [
+      "11737774"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/skincancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Skin Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0312754",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39820173/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-804",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

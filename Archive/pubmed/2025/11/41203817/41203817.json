@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "41203817",
+    "doi": "10.1038/s41598-025-25133-x",
+    "title": "Network pharmacology, molecular docking, and molecular dynamics simulations to explore the effects of sinomenine on thyroid dysfunction."
+  },
+  "content": {
+    "abstract": "Thyroid dysfunction is a disease closely associated with autoinflammatory responses and immune imbalances. Derived from the traditional Chinese medicine Sinomenium acutum, sinomenine is an alkaloid that possesses immunomodulatory and anti-inflammatory activities. However, the exact molecular mechanism underlying its therapeutic effects on thyroid dysfunction has not been clarified. This study integrates network pharmacology, molecular docking and molecular dynamics simulation techniques to explore the mechanism of sinomenine on thyroid dysfunction. Databases such as GeneCards, PharmMapper, SwissTargetPrediction, and OMIM were used to screen the targets of sinomenine and thyroid dysfunction. Subsequent GO and KEGG enrichment analyses, PPI network construction, and drug-target-pathway network analysis were conducted. Molecular docking and molecular dynamics simulations were further employed for validation. The results of GO and KEGG enrichment analyses revealed that sinomenine's mechanism of action involves cellular responses to oxidative stress caused by inflammation, the role of nuclear transcription factors in gene expression, as well as processes of cell proliferation and apoptosis. Its targets are distributed across various pathways, suggesting a complex synergistic effect of multiple pathways in its potential mechanism; Molecular docking experiments showed that sinomenine and 14-episinomenine exhibit good binding affinity with the key targets, including TNF, STAT3, NFKB1, IL6, SRC, ESR1, and MAPK8; Molecular dynamics simulations were carried out on the two most stable binding complexes. RMSD, RMSF, Rg, and SASA curves showed that both proteins, ESR1 (PDB ID:4pxm) and MAPK8 (PDB ID:4yr8), were stabilized with sinomenine. Our study implies that via the synergistic action of multiple targets and pathways, sinomenine has the potential to impact cellular proliferation and apoptosis processes in thyroid dysfunction. The findings provide a theoretical basis for investigating the molecular mechanisms of sinomenine in treating thyroid dysfunction.",
+    "keywords": [
+      "14-episinomenine",
+      "Molecular docking",
+      "Molecular dynamics simulation",
+      "Network pharmacology",
+      "Sinomenine",
+      "Thyroid dysfunction"
+    ],
+    "mesh_terms": [
+      "*Morphinans/pharmacology/chemistry/therapeutic use",
+      "*Molecular Dynamics Simulation",
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Network Pharmacology",
+      "*Thyroid Diseases/drug therapy/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jiabei",
+        "Cai, Renyue",
+        "Xiao, Yunhua",
+        "Chen, Xinbo",
+        "Liu, Xiaotong",
+        "Yang, Hua"
+      ],
+      "short_names": [
+        "Chen J",
+        "Cai R",
+        "Xiao Y",
+        "Chen X",
+        "Liu X",
+        "Yang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+        "Yuelushan Laboratory, Changsha, 41012, China.",
+        "Hunan Zhengqing Pharmaceutical Group Co., Ltd., Huaihua, 418000, China.",
+        "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+        "Yuelushan Laboratory, Changsha, 41012, China.",
+        "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+        "Yuelushan Laboratory, Changsha, 41012, China.",
+        "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+        "Yuelushan Laboratory, Changsha, 41012, China.",
+        "Hunan Zhengqing Pharmaceutical Group Co., Ltd., Huaihua, 418000, China.",
+        "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+        "Yuelushan Laboratory, Changsha, 41012, China.",
+        "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China. yhua7710@hunau.edu.cn.",
+        "Yuelushan Laboratory, Changsha, 41012, China. yhua7710@hunau.edu.cn.",
+        "Hunan Zhengqing Pharmaceutical Group Co., Ltd., Huaihua, 418000, China. yhua7710@hunau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jiabei",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+          "Yuelushan Laboratory, Changsha, 41012, China.",
+          "Hunan Zhengqing Pharmaceutical Group Co., Ltd., Huaihua, 418000, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Renyue",
+        "short_name": "Cai R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+          "Yuelushan Laboratory, Changsha, 41012, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yunhua",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+          "Yuelushan Laboratory, Changsha, 41012, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xinbo",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+          "Yuelushan Laboratory, Changsha, 41012, China.",
+          "Hunan Zhengqing Pharmaceutical Group Co., Ltd., Huaihua, 418000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaotong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China.",
+          "Yuelushan Laboratory, Changsha, 41012, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hua",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioscience and Biotechnology, Hunan Agricultural University, Changsha, 410128, Hunan, China. yhua7710@hunau.edu.cn.",
+          "Yuelushan Laboratory, Changsha, 41012, China. yhua7710@hunau.edu.cn.",
+          "Hunan Zhengqing Pharmaceutical Group Co., Ltd., Huaihua, 418000, China. yhua7710@hunau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/08 00:28",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [
+      "42564957",
+      "42042029"
+    ],
+    "refs": [
+      "39957674",
+      "39909371",
+      "39505064",
+      "39453570",
+      "39237523",
+      "38937602",
+      "37943830",
+      "37897981",
+      "37768213",
+      "37596643",
+      "37482570",
+      "37422372",
+      "36823174",
+      "36628734",
+      "36588813",
+      "36506504",
+      "36323530",
+      "36300620",
+      "36142613",
+      "35039800",
+      "34243014",
+      "33596416",
+      "32846244",
+      "31972421",
+      "31718595",
+      "30826933",
+      "30561431",
+      "30119215",
+      "29405201",
+      "29158945",
+      "29133791",
+      "28420096",
+      "28071990",
+      "27334200",
+      "25052473",
+      "23369133",
+      "23193258",
+      "22654557",
+      "21687614",
+      "20203691",
+      "20087353",
+      "19835928",
+      "19629069",
+      "19620290",
+      "17921993",
+      "15340073",
+      "7154081"
+    ],
+    "similar": [
+      "41203817",
+      "38822913",
+      "40676786",
+      "40543694",
+      "40721767",
+      "39251712",
+      "38565409",
+      "41330962",
+      "38822120",
+      "39192219",
+      "40585331",
+      "40332431",
+      "37078344",
+      "39135520",
+      "40237055",
+      "38696100",
+      "37287284",
+      "41496113",
+      "36401485",
+      "37340752",
+      "39410900",
+      "39177391",
+      "40397117",
+      "31972421",
+      "40816715",
+      "38759074",
+      "41009706",
+      "40009149",
+      "39310787",
+      "37830189",
+      "38840248",
+      "39180676",
+      "38982082",
+      "40013962",
+      "41303371",
+      "39465880",
+      "39686413",
+      "36472041",
+      "40800999",
+      "39135759",
+      "39125368",
+      "36923645",
+      "40110504",
+      "41203698",
+      "40128040",
+      "39022084",
+      "37282941",
+      "37683540",
+      "41150817",
+      "38619514",
+      "41031039",
+      "40838208",
+      "35873910",
+      "37439907",
+      "39558045",
+      "37879505",
+      "35367781",
+      "38847263",
+      "40958307",
+      "41272040",
+      "37849727",
+      "40522420",
+      "39171590",
+      "36872279",
+      "40774882",
+      "37575231",
+      "39488873",
+      "39838673",
+      "38994616",
+      "37233418",
+      "38850960",
+      "39809170",
+      "37799727",
+      "36471978",
+      "39539395",
+      "40605076",
+      "34887862",
+      "35249866",
+      "41418734",
+      "38387682",
+      "39093467",
+      "39259129",
+      "41444316",
+      "39556154",
+      "38964628",
+      "40200025",
+      "36389420",
+      "41351348",
+      "39015338",
+      "40417754",
+      "35616676",
+      "41261616",
+      "41291087",
+      "40965719",
+      "38245694",
+      "39205203",
+      "40255473",
+      "37282910",
+      "38806972",
+      "41261300"
+    ],
+    "review": [
+      "41203817",
+      "40397117"
+    ],
+    "pmc": [
+      "12595059"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/thyroiddiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Diseases"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-25133-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41203817/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-889",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

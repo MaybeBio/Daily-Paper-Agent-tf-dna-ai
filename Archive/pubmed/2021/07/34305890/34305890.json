@@ -1,0 +1,425 @@
+{
+  "identity": {
+    "pmid": "34305890",
+    "doi": "10.3389/fimmu.2021.656885",
+    "title": "Global Transcriptomics Uncovers Distinct Contributions From Splicing Regulatory Proteins to the Macrophage Innate Immune Response."
+  },
+  "content": {
+    "abstract": "Pathogen sensing via pattern recognition receptors triggers massive reprogramming of macrophage gene expression. While the signaling cascades and transcription factors that activate these responses are well-known, the role of post-transcriptional RNA processing in modulating innate immune gene expression remains understudied. Given their crucial role in regulating pre-mRNA splicing and other RNA processing steps, we hypothesized that members of the SR/hnRNP protein families regulate innate immune gene expression in distinct ways. We analyzed steady state gene expression and alternatively spliced isoform production in ten SR/hnRNP knockdown RAW 264.7 macrophage-like cell lines following infection with the bacterial pathogen Salmonella enterica serovar Typhimurium (Salmonella). We identified thousands of transcripts whose abundance is increased or decreased by SR/hnRNP knockdown in macrophages. Notably, we observed that SR and hnRNP proteins influence expression of different genes in uninfected versus Salmonella-infected macrophages, suggesting functionalization of these proteins upon pathogen sensing. Likewise, we found that knockdown of SR/hnRNPs promoted differential isoform usage (DIU) for thousands of macrophage transcripts and that these alternative splicing changes were distinct in uninfected and Salmonella-infected macrophages. Finally, having observed a surprising degree of similarity between the differentially expressed genes (DEGs) and DIUs in hnRNP K and U knockdown macrophages, we found that hnRNP K and U knockdown macrophages are both more restrictive to Vesicular Stomatitis Virus (VSV), while hnRNP K knockdown macrophages are more permissive to Salmonella Typhimurium. Based on these findings, we conclude that many innate immune genes evolved to rely on one or more SR/hnRNPs to ensure the proper magnitude of their induction, supporting a model wherein pre-mRNA splicing is critical for regulating innate immune gene expression and controlling infection outcomes in macrophages ex vivo.",
+    "keywords": [
+      "RNA binding protein",
+      "SR protein",
+      "Salmonella Typhimurium",
+      "hnRNP",
+      "inflammation",
+      "pre-mRNA splicing"
+    ],
+    "mesh_terms": [
+      "*Alternative Splicing",
+      "Animals",
+      "Biomarkers",
+      "Computational Biology/methods",
+      "*Gene Expression Profiling",
+      "*Gene Expression Regulation",
+      "Gene Ontology",
+      "Gene Regulatory Networks",
+      "Heterogeneous-Nuclear Ribonucleoproteins/metabolism",
+      "Host-Pathogen Interactions/genetics/immunology",
+      "Immunity, Innate/*genetics",
+      "Macrophages/*immunology/*metabolism",
+      "Male",
+      "Mice",
+      "Models, Biological",
+      "RAW 264.7 Cells",
+      "Salmonella Infections/genetics/immunology/microbiology",
+      "Salmonella typhimurium/immunology",
+      "*Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wagner, Allison R",
+        "Scott, Haley M",
+        "West, Kelsi O",
+        "Vail, Krystal J",
+        "Fitzsimons, Timothy C",
+        "Coleman, Aja K",
+        "Carter, Kaitlyn E",
+        "Watson, Robert O",
+        "Patrick, Kristin L"
+      ],
+      "short_names": [
+        "Wagner AR",
+        "Scott HM",
+        "West KO",
+        "Vail KJ",
+        "Fitzsimons TC",
+        "Coleman AK",
+        "Carter KE",
+        "Watson RO",
+        "Patrick KL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+        "Department of Veterinary Pathobiology, Texas A&M University, College Station, TX, United States.",
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+        "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wagner, Allison R",
+        "short_name": "Wagner AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Scott, Haley M",
+        "short_name": "Scott HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+        ]
+      },
+      {
+        "full_name": "West, Kelsi O",
+        "short_name": "West KO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Vail, Krystal J",
+        "short_name": "Vail KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States.",
+          "Department of Veterinary Pathobiology, Texas A&M University, College Station, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Fitzsimons, Timothy C",
+        "short_name": "Fitzsimons TC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Coleman, Aja K",
+        "short_name": "Coleman AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Carter, Kaitlyn E",
+        "short_name": "Carter KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Watson, Robert O",
+        "short_name": "Watson RO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Patrick, Kristin L",
+        "short_name": "Patrick KL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis and Immunology, College of Medicine, Texas A&M Health, Bryan, TX, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/27 06:00",
+    "fetched_at": "2026-09-27 21:18:17"
+  },
+  "links": {
+    "cites": [
+      "42312841",
+      "41446093",
+      "41026719",
+      "40833856",
+      "40586312",
+      "40379525",
+      "39995871",
+      "39288763",
+      "38943321",
+      "38863697",
+      "38815579",
+      "38393946",
+      "36982162",
+      "36409059",
+      "36290420",
+      "35832893",
+      "35604097",
+      "35087521",
+      "34960172",
+      "34473814",
+      "34405416"
+    ],
+    "refs": [
+      "33269701",
+      "32853540",
+      "31951200",
+      "31740586",
+      "31693898",
+      "31594818",
+      "31437148",
+      "31433824",
+      "31320558",
+      "31283436",
+      "31178859",
+      "30118682",
+      "29023442",
+      "28725479",
+      "28494245",
+      "27851963",
+      "27690314",
+      "27215579",
+      "26924576",
+      "26912264",
+      "26829591",
+      "26569329",
+      "26336360",
+      "25414008",
+      "25112293",
+      "24829458",
+      "24442672",
+      "23891561",
+      "23616639",
+      "22939629",
+      "22817891",
+      "22574288",
+      "22567350",
+      "22345668",
+      "22328912",
+      "22055182",
+      "21898828",
+      "21478870",
+      "21135127",
+      "20795951",
+      "19596239",
+      "19450518",
+      "19394295",
+      "19338389",
+      "19250906",
+      "19240134",
+      "19061484",
+      "18964303",
+      "18408078",
+      "17943118",
+      "17889666",
+      "16651655",
+      "16452502",
+      "16445685",
+      "14765198",
+      "14517278",
+      "12490957",
+      "11931769",
+      "11488817",
+      "11106736",
+      "10395553",
+      "8548797",
+      "3386636",
+      "1729596"
+    ],
+    "similar": [
+      "34305890",
+      "31693898",
+      "25667264",
+      "40582159",
+      "39565098",
+      "26202980",
+      "41188240",
+      "18241354",
+      "40824551",
+      "41250600",
+      "18391000",
+      "39508622",
+      "16982844",
+      "26884434",
+      "34632719",
+      "33024046",
+      "40605423",
+      "30197193",
+      "38888773",
+      "28315432",
+      "31548317",
+      "30723476",
+      "29108754",
+      "31982604",
+      "27402837",
+      "28936921",
+      "32948684",
+      "29844236",
+      "30523110",
+      "33177235",
+      "32393507",
+      "8862520",
+      "31880316",
+      "20424185",
+      "25811871",
+      "41181117",
+      "10769024",
+      "18644864",
+      "23977202",
+      "24112639",
+      "23262973",
+      "27076102",
+      "34006652",
+      "30224799",
+      "21172007",
+      "19737903",
+      "40924764",
+      "33513526",
+      "33123132",
+      "10820271",
+      "22615249",
+      "15208309",
+      "34047695",
+      "32070192",
+      "34860285",
+      "26586179",
+      "19282290",
+      "40795753",
+      "41595498",
+      "40858611",
+      "39111743",
+      "34864057",
+      "27110808",
+      "27489271",
+      "27460804",
+      "34552598",
+      "35087521",
+      "18354230",
+      "40660474",
+      "27000047",
+      "24069357",
+      "39540958",
+      "22198618",
+      "17675508",
+      "12165565",
+      "34097470",
+      "19720755",
+      "29881383",
+      "31689475",
+      "30541630",
+      "35921415",
+      "32991574",
+      "32857777",
+      "35866661",
+      "23843646",
+      "30736473",
+      "20651029",
+      "26866925",
+      "27465248",
+      "39693143",
+      "19893608",
+      "9630249",
+      "31292260",
+      "26839376",
+      "17337057",
+      "17477819",
+      "22475571",
+      "33410728",
+      "32071273",
+      "28602860"
+    ],
+    "review": [
+      "34305890",
+      "28315432",
+      "23262973",
+      "39111743",
+      "27460804",
+      "35087521"
+    ],
+    "pmc": [
+      "8299563"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34305890/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34305890",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNCG-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/134477",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Salmonella enterica BD-ID 134477"
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2021.656885",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse171418",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

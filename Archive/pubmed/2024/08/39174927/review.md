@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, discussion, and figure/table references.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretability claims, benchmarking rigor, and biological relevance of the presented results. No assessment of code functionality or reproducibility beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present TIANA, a deep learning framework combining convolutional filters preloaded with known TF motifs and multi-head self-attention, with integrated gradients used to infer cooperative TF motif pairs from regulatory sequences. They claim superior interpretability and robust performance compared to existing tools (SATORI, DeepSEA), and demonstrate biological relevance through recovery of known TF cooperativities in simulated, ChIP-seq, and enhancer datasets.
+- **Visible evidence base** Main text with Figures 1–5, Table 1, and references to Supplementary Figures S1–S2 and Supplementary Tables 1–4. No supplementary material was provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S2, Tables 1–4) are referenced but not available. Code repository is mentioned but not reviewed. Detailed hyperparameter settings, training/validation splits, and negative sequence generation procedures are only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful tool for TF cooperativity inference, with a sensible design choice of preloading known motifs to improve interpretability. The application to multiple datasets and the recovery of known biology are encouraging. However, several technical aspects require clarification and additional validation before the claims of superior interpretability and robustness are fully established. The comparison with SATORI is incomplete, and the statistical framework for identifying significant motif pairs needs more rigorous justification.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and bioinformatics who are interested in interpreting deep learning models for cis-regulatory sequence analysis. The tool could be of practical use for those analyzing ATAC-seq or ChIP-seq data to identify candidate TF cooperativities without requiring extensive computational expertise.
+- **Major strengths**
+  - The design choice of preloading known TF motifs into convolutional filters directly addresses a common interpretability bottleneck in deep learning for genomics.
+  - The use of integrated gradients on attention weights is a more principled interpretability approach than raw attention scores, as supported by NLP literature.
+  - The manuscript includes multiple validation scenarios: simulated embedded motifs, well-characterized TF pairs (GATA1-TAL1, ETS1-RUN1, SOX2-OCT4), lineage-determining factors, and a stimulus-responsive enhancer dataset.
+  - The finding that TIANA can distinguish NF-kB heterodimer vs homodimer preferences in activated vs repressed enhancers is biologically interesting and demonstrates practical utility.
+  - The tool is made available as open-source software with documentation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Benchmarking
+  - **Claim pointer** "TIANA showed superior interpretability and robust performance in identifying putative transcription factor cooperativities from co-occurring motifs" (Abstract, Results).
+  - **Evidence pointer** Table 1, Figure 3, Section "Identification of TF cooperativities in embedded motifs", Section "TIANA identifies of TFs for collaborative binding"
+  - **Concern** The comparison with SATORI is limited to a single TF pair (GATA1-TAL1) and a set of relaxed-spacing pairs where only attention ranks are compared. The claim of "superior interpretability" is not systematically quantified. For example, in Table 1, SATORI yields a much more significant p-value (3.5e−26) than TIANA (0.06) for the GATA1-TAL1 pair, yet the authors interpret TIANA's higher percentage of peaks with correctly spaced motifs (68% vs 8%) as evidence of superiority. This is a reasonable argument, but the statistical framework for this comparison is not described. How was the 68% vs 8% difference assessed for significance? Is this a fair comparison given that SATORI's motif discovery is de novo and may not align exactly with the JASPAR motifs used by TIANA?
+  - **Why it matters** The central claim of the manuscript is that TIANA offers superior interpretability and performance over existing tools. Without a more rigorous, multi-dataset, and statistically grounded comparison, this claim is not fully supported. The current evidence is suggestive but not conclusive.
+  - **Resolution test** Provide a more comprehensive benchmarking study comparing TIANA and SATORI (and possibly other tools) on multiple datasets with known TF cooperativities. Quantify interpretability using metrics such as the fraction of recovered known motif pairs, the precision of motif spacing/orientation predictions, and the stability of results across random seeds. Report confidence intervals for these metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Statistical methodology
+  - **Claim pointer** "TIANA compares attention attributes between positive and negative sequences to identify motif pairs that have significant attention levels to infer TF cooperativities" (Implementation, Section "Identifying significant motif pairs").
+  - **Evidence pointer** Section "Identifying significant motif pairs", Figure 1B
+  - **Concern** The statistical framework for identifying significant motif pairs is under-specified. The Mann–Whitney U test is used to compare attention attributes between positive and negative sequences for each motif pair, but the details are unclear. Are all positive sequences pooled together for each motif pair? How are multiple testing corrections applied beyond Bonferroni? What is the null hypothesis exactly? More importantly, the use of a non-parametric test on attention attributes derived from a trained model may violate the assumption of independence, as the attention attributes for different sequences are not independent samples. This could lead to inflated significance.
+  - **Why it matters** The core output of TIANA is a list of significant motif pairs. If the statistical test is not properly calibrated, the reported p-values and the resulting biological conclusions may be unreliable.
+  - **Resolution test** Clarify the statistical model, including how attention attributes are aggregated across sequences and heads. Justify the use of Mann–Whitney U test given potential dependencies. Consider using permutation-based or bootstrap-based approaches that account for the model's stochasticity. Report calibration of p-values under a null model (e.g., permuted labels).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Model architecture
+  - **Claim pointer** "TIANA uses one MHA layer with four attention heads" and "the convolution layer is preloaded with known motif position-specific score matrices (PSSMs) and set to be fixed" (Implementation, Sections "Architecture and training" and "Multi-head attention unit").
+  - **Evidence pointer** Section "Architecture and training", Section "Multi-head attention unit", Supplementary Table 2
+  - **Concern** The manuscript does not report any hyperparameter sensitivity analysis. The choice of four attention heads, one MHA layer, pooling sizes, and the number of fully connected units appears arbitrary. More critically, the decision to fix the convolutional filters (preloaded motifs) means that the model cannot learn sequence features outside of the provided motif library. While this aids interpretability, it may limit the model's ability to capture novel or variant motifs. The authors acknowledge this trade-off but do not quantify its impact on classification performance or downstream cooperativity inference.
+  - **Why it matters** For a tool intended for broad use, understanding the sensitivity of results to architectural choices is important. If the model's performance is highly dependent on these choices, users may need guidance on how to select them for their own datasets.
+  - **Resolution test** Perform a sensitivity analysis varying the number of attention heads, layers, and pooling sizes. Report the impact on classification AUC and on the stability of identified motif pairs. Discuss the trade-off between fixing filters and allowing them to be trainable, perhaps by comparing to a version of the model with trainable filters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility / Data availability
+  - **Claim pointer** "TIANA can be accessed through: https://github.com/rzzli/TIANA" (Abstract, Availability section).
+  - **Evidence pointer** "location not provided"
+  - **Concern** The manuscript states that the code is available, but the repository was not reviewed. Key details for reproducibility are missing from the text: exact hyperparameters (learning rate, batch size, optimizer), the number of training epochs (stated as 50, but no early stopping criteria), the hardware used, and the runtime. The negative sequence generation process is described as "random genomic sequences" but the matching criteria (e.g., GC content, repeat masking) are not specified.
+  - **Why it matters** Reproducibility is a cornerstone of computational biology. Without these details, other researchers may struggle to replicate the results or apply the tool to their own data.
+  - **Resolution test** Provide a detailed description of the training procedure, including all hyperparameters and the negative sequence generation protocol. Ensure the code repository includes example data and a clear README. Consider depositing the code in a permanent archive (e.g., Zenodo) with a versioned DOI.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Readability
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The cartoon in Figure 1B is helpful but the text describing it is dense. The description of how attention attributes are computed and linked to motif pairs could be clearer for a non-specialist reader.
+  - **Required correction** Consider expanding the figure legend and adding a step-by-step textual description of the interpretation pipeline, perhaps with a numbered list matching the figure panels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / Terminology
+  - **Affected element** Section "Integrated gradients"
+  - **Evidence pointer** Section "Integrated gradients"
+  - **Issue** The notation in the integrated gradients formula is not fully defined. The symbol "a" is used for the number of steps, but it is not explicitly stated that this is the same "a" used in the Riemann approximation. Also, the partial derivative notation could be confusing.
+  - **Required correction** Define all symbols in the formula and consider using a more standard notation, such as "N" for the number of steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Readability
+  - **Affected element** Section "TIANA identifies of TFs for collaborative binding"
+  - **Evidence pointer** Section "TIANA identifies of TFs for collaborative binding", Table 1
+  - **Issue** The section title has a grammatical error ("identifies of TFs").
+  - **Required correction** Change to "TIANA identifies TFs for collaborative binding".
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness / Benchmarking
+  - **Affected element** Section "Comparative methods"
+  - **Evidence pointer** Section "Comparative methods"
+  - **Issue** The description of how SATORI's attention scores are extracted and compared is brief. It is unclear whether the same preprocessing and motif annotation steps were applied to SATORI's outputs.
+  - **Required correction** Provide more detail on the comparison pipeline, including how SATORI's de novo motifs were matched to known motifs and how attention scores were ranked.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity / Readability
+  - **Affected element** Section "Divergent roles of NF-kB in macrophage enhancers"
+  - **Evidence pointer** Section "Divergent roles of NF-kB in macrophage enhancers", Figure 5
+  - **Issue** The text mentions "HLA-repressed enhancers" in one sentence, which appears to be a typo for "KLA-repressed enhancers".
+  - **Required correction** Correct the typo.
+
+## Risk / unsupported claims
+- The claim of "superior interpretability" over SATORI is not quantitatively established; the comparison is based on a single case study and a rank-based comparison without statistical testing.
+- The claim that TIANA "can recover highly divergent functions associated with NFkB factors" is based on a single dataset and lacks orthogonal validation (e.g., perturbation experiments or comparison with other methods that infer TF activity).
+- The statement that "commonly used 'learned motif' approach... may have a limited ability to tolerate differences in motif sizes" is presented as a general conclusion but is only supported by anecdotal evidence from the GATA1-TAL1 example.
+- The statistical significance of the difference in the percentage of peaks with correctly spaced motifs between TIANA and SATORI (68% vs 8%) is not assessed.
+- The performance of TIANA on datasets with very few peaks (e.g., below a few thousand) is not systematically evaluated, despite the claim of robustness with limited input data.
+- The biological relevance of the identified motif pairs in the LDTF and KLA datasets is discussed qualitatively but not compared against a null expectation or a background model.

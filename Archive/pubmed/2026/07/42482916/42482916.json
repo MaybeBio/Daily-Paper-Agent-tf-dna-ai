@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "42482916",
+    "doi": "10.3389/fmed.2026.1772363",
+    "title": "ATF3 and HNF4A: an oxidative phosphorylation and cholesterol homeostasis-associated diagnostic and therapeutic repurposing framework target for metabolic dysfunction-associated steatohepatitis patients."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Metabolic dysfunction-associated steatohepatitis (MASH) is hepatic steatosis. Oxidative phosphorylation and cholesterol homeostasis (OC) plays a key role in the onset and progression of MASH. Hence, deeper understanding of OC in MASH can shed light on the clinical applications for MASH patients. METHODS: Metabolic dysfunction-associated steatohepatitis hepatic bulk profile (GSE89632) was subjected to GSVA and WGCNA analysis for identification of OC-associated highest correlated gene module and then intersected with OC-associated gene list downloaded from Genecard database for acquisition of OC-related DEGs. Next By integration of another MASH hepatic bulk profile (GSE164760) and machine learning algorithms (RF and Lasso) based on OC-associated DEGs, we identified hub variables. Next, OC-related diagnostic model based on hub variables was constructed on GSE164760 and then examined on the GSE89632 and GSE63067 (MASH bulk dataset). In addition, Consensus clustering was performed for the identification of OC-related molecular subgroups for MASH patient in GSE164760 and heterogeneity of hub variables was examined at MASH single-cell transcriptomic dataset (GSE189600) in temporal and spatial manners. DGIDB database with molecular docking and deep learning algorithm (Drugreflector) were performed for the identification of drug repurposing framework for reversing MASH to healthy status based on GSE164760 and potential agent targeting hub variables. In vitro study indicated the expression patterns of hub variables in MASH cell lines compared to normal cell lines. RESULTS: Activating Transcription Factor 3 and HNF4A were down-regulated and up-regulated expression hub variable associated with MASH pathogenesis, which illustrated satisfied diagnostic performance. ALVERINE and MECAMYLAMINE were potential therapeutic approaches for MASH treatment. CONCLUSION: Our study first indicated that OC was associated with MASH onset and progression, which can elaborate predictive and therapeutic potentials for MASH patients. Besides, ATF3 and HNF4A can be considered as OC-associated diagnostic and druggable targets for the treatment of MASH.",
+    "keywords": [
+      "cholesterol homeostasis",
+      "diagnostic biomarkers",
+      "non-alcoholic steatohepatitis",
+      "oxidative phosphorylation",
+      "therapeutic approaches"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Guiying",
+        "Zhao, Qi",
+        "Jiang, Li",
+        "Xie, Dongmei",
+        "Du, Lin",
+        "Yang, Mei",
+        "Luo, Mei",
+        "Wang, Qian"
+      ],
+      "short_names": [
+        "Zeng G",
+        "Zhao Q",
+        "Jiang L",
+        "Xie D",
+        "Du L",
+        "Yang M",
+        "Luo M",
+        "Wang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Department of Gastroenterology, Qixingguan District People's Hospital, Bijie, Guizhou, China.",
+        "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Department of Gastroenterology, Guizhou Second People's Hospital, Guiyang, Guizhou, China.",
+        "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Department of Gastroenterology, Qixingguan District People's Hospital, Bijie, Guizhou, China.",
+        "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Department of Gastroenterology, Anshun People's Hospital, Anshun, Guizhou, China.",
+        "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Qinglong County Center for Disease Control and Prevention, Qianxinan Buyei and Miao Autonomous Prefecture, Qinglong, Guizhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Guiying",
+        "short_name": "Zeng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+          "Department of Gastroenterology, Qixingguan District People's Hospital, Bijie, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qi",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Li",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+          "Department of Gastroenterology, Guizhou Second People's Hospital, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Dongmei",
+        "short_name": "Xie D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+          "Department of Gastroenterology, Qixingguan District People's Hospital, Bijie, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Du, Lin",
+        "short_name": "Du L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+          "Department of Gastroenterology, Anshun People's Hospital, Anshun, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Mei",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Mei",
+        "short_name": "Luo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qian",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+          "Qinglong County Center for Disease Control and Prevention, Qianxinan Buyei and Miao Autonomous Prefecture, Qinglong, Guizhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in medicine"
+    ],
+    "journal_abbrev": [
+      "Front Med (Lausanne)"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/22 12:37",
+    "fetched_at": "2026-10-02 02:16:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41129612",
+      "39838504",
+      "39627188",
+      "39609545",
+      "39507047",
+      "38944971",
+      "38909044",
+      "38701256",
+      "37953380",
+      "37858214",
+      "37583701",
+      "37170220",
+      "36911691",
+      "36753562",
+      "36671463",
+      "36420884",
+      "36226471",
+      "36209983",
+      "35934297",
+      "35918332",
+      "35778488",
+      "35367781",
+      "35287643",
+      "35191422",
+      "34855339",
+      "34558856",
+      "34475098",
+      "34107850",
+      "34097928",
+      "33597522",
+      "33462514",
+      "33264598",
+      "33098092",
+      "32984364",
+      "31529495",
+      "29608179",
+      "29344893",
+      "29216278",
+      "29110491",
+      "28714183",
+      "28365312",
+      "28142150",
+      "27454129",
+      "26771021",
+      "25605792",
+      "25581263",
+      "24692138",
+      "23323831",
+      "22455463",
+      "21414208",
+      "19114008",
+      "17496320"
+    ],
+    "similar": [
+      "42482916",
+      "42211885",
+      "41722245",
+      "40406118",
+      "40292075",
+      "41755884",
+      "38716300",
+      "41731722",
+      "42523610",
+      "39605886",
+      "41775124",
+      "39995143",
+      "39497821",
+      "42143793",
+      "40360670",
+      "41169457",
+      "40216809",
+      "42437844",
+      "38987612",
+      "42465724",
+      "41038150",
+      "31987036",
+      "34758532",
+      "38371524",
+      "42395344",
+      "37691920",
+      "40319145",
+      "42123445",
+      "42501686",
+      "39414652",
+      "40330909",
+      "42178007",
+      "42006451",
+      "42088521",
+      "42597533",
+      "39139563",
+      "39522884",
+      "42236612",
+      "42092620",
+      "39604470",
+      "40830558",
+      "41316541",
+      "41432483",
+      "42233387",
+      "41717220",
+      "42377012",
+      "42568632",
+      "38051734",
+      "42292348",
+      "40526981",
+      "42278407",
+      "40067340",
+      "42061510",
+      "41907553",
+      "38362683",
+      "41199749",
+      "41338474",
+      "40055592",
+      "42257919",
+      "38319987",
+      "39013959",
+      "41044520",
+      "36854280",
+      "38764767",
+      "39252399",
+      "40752035",
+      "41858783",
+      "40275274",
+      "40186271",
+      "40220593",
+      "39922149",
+      "39925925",
+      "35958412",
+      "41188996",
+      "36699262",
+      "40825823",
+      "38983907",
+      "40270091",
+      "41438338",
+      "41951050",
+      "40849369",
+      "41935985",
+      "36341378",
+      "40784490",
+      "34041361",
+      "41211073",
+      "39301694",
+      "39556279",
+      "41716413",
+      "39568749",
+      "40476852",
+      "41052072",
+      "42015773",
+      "42082057",
+      "38777778",
+      "37359526",
+      "42257259",
+      "38509983",
+      "40716976",
+      "38036082"
+    ],
+    "review": [
+      "42482916",
+      "40220593"
+    ],
+    "pmc": [
+      "13384922"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42482916/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1755",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmed.2026.1772363",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

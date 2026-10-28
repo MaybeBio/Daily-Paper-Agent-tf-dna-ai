@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "40796729",
+    "doi": "10.1038/s41419-025-07932-2",
+    "title": "Degradation of IRF6 by TRIM59 in tumor cells triggers PGM1-mediated glycolysis to regulate cell proliferation in neuroblastoma."
+  },
+  "content": {
+    "abstract": "Neuroblastoma is the most common extracranial malignancy in children, and patients who develop recurrent or metastatic disease are likely to have a much poorer survival prognosis. Herein, by applying random forest and XGBoost machine-learning techniques, we identified interferon regulatory factor (IRF) 6 as the most crucial gene associated with neuroblastoma patient survival. Low IRF6 expression was further determined to be associated with dismal survival in neuroblastoma patients. IRF6 overexpression inhibited cell proliferation in vitro and in vivo and even weakened glycolytic metabolism and increased maximal respiration in SK-N-BE2 and CHP-212 cells. Mechanistically, RNA sequencing, ChIP, and dual-luciferase reporter assays revealed that IRF6 inhibited PGM1 expression by decreasing the transcriptional activity of promoter 3 of PGM1, and PGM1 overexpression may reverse the inhibitory effects of IRF6 on cell proliferation and glycolysis. Additionally, IRF6 expression was diminished in neuroblastoma due to E3 ligase TRIM59-mediated polyubiquitination, and may reverse the promoting effect of TRIM59 overexpression on cell proliferation and glycolysis. Our work thus provides mechanistic insight into the control of glycolysis-mediated disease progression and opens new avenues for developing therapeutic strategies in neuroblastoma.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neuroblastoma/pathology/metabolism/genetics",
+      "*Glycolysis/genetics",
+      "Cell Proliferation/genetics",
+      "*Tripartite Motif Proteins/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Animals",
+      "*Intracellular Signaling Peptides and Proteins/metabolism/genetics",
+      "*Interferon Regulatory Factors/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Mice",
+      "Proteolysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Liang",
+        "Xu, Hui",
+        "Li, Meng",
+        "Qin, Liang-Jun",
+        "Chen, Kai",
+        "Wang, Feng-Hua",
+        "Li, Xiaomin",
+        "Yang, Tianyou",
+        "Miao, Lei",
+        "Wang, Hai-Yun"
+      ],
+      "short_names": [
+        "Zeng L",
+        "Xu H",
+        "Li M",
+        "Qin LJ",
+        "Chen K",
+        "Wang FH",
+        "Li X",
+        "Yang T",
+        "Miao L",
+        "Wang HY"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7670-4782",
+        "ORCID: 0000-0002-1385-0827"
+      ],
+      "affiliations": [
+        "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China.",
+        "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China.",
+        "Department of Paediatric Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China.",
+        "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China.",
+        "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China.",
+        "Department of Thoracic Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China.",
+        "Department of Respiratory, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China.",
+        "Department of Paediatric Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China.",
+        "Department of Paediatric Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China. miaoleimolly@126.com.",
+        "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China. wanghy29@mail3.sysu.edu.cn.",
+        "Department of Paediatric Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China. wanghy29@mail3.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Liang",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hui",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Meng",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Paediatric Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Liang-Jun",
+        "short_name": "Qin LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Kai",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Feng-Hua",
+        "short_name": "Wang FH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaomin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Tianyou",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Paediatric Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Lei",
+        "short_name": "Miao L",
+        "identifiers": [
+          "0000-0001-7670-4782"
+        ],
+        "affiliations": [
+          "Department of Paediatric Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China. miaoleimolly@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Hai-Yun",
+        "short_name": "Wang HY",
+        "identifiers": [
+          "0000-0002-1385-0827"
+        ],
+        "affiliations": [
+          "Department of Pathology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China. wanghy29@mail3.sysu.edu.cn.",
+          "Department of Paediatric Surgery, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangdong Provincial Clinical Research Center for Child Health, National Children's Medical Center for South Central Region, Guangzhou, China. wanghy29@mail3.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2025 Aug 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/13 00:28",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42659456",
+      "42625456",
+      "42289748",
+      "42245669",
+      "41892358"
+    ],
+    "refs": [
+      "39083807",
+      "38906860",
+      "37770289",
+      "37582735",
+      "37390491",
+      "36797289",
+      "36765696",
+      "36092735",
+      "35123658",
+      "33941190",
+      "33446876",
+      "32825087",
+      "32527996",
+      "32171858",
+      "32042322",
+      "31951023",
+      "31578523",
+      "31511663",
+      "30982613",
+      "30335765",
+      "30231667",
+      "30174305",
+      "29111349",
+      "28839186",
+      "28350380",
+      "27830764",
+      "25046164",
+      "24732809",
+      "23438823",
+      "21807998",
+      "21508971",
+      "20558371",
+      "18303999",
+      "18212048",
+      "17041601",
+      "15258597"
+    ],
+    "similar": [
+      "40796729",
+      "31693252",
+      "32527996",
+      "31875525",
+      "30389710",
+      "31511046",
+      "35305236",
+      "40790033",
+      "36227666",
+      "30370525",
+      "32744597",
+      "32867817",
+      "32114426",
+      "31951023",
+      "37545326",
+      "32165307",
+      "32340525",
+      "40313939",
+      "34625908",
+      "35753134",
+      "32749750",
+      "41074451",
+      "32216806",
+      "30515965",
+      "38993561",
+      "39725730",
+      "29111349",
+      "37390491",
+      "35377964",
+      "38193984",
+      "32042322",
+      "32534305",
+      "38812445",
+      "38434050",
+      "32348176",
+      "38321126",
+      "25630799",
+      "30553996",
+      "26161746",
+      "38819072",
+      "30408026",
+      "25940705",
+      "33772297",
+      "40764361",
+      "26303210",
+      "33000435",
+      "30585270",
+      "41120277",
+      "34252840",
+      "28003306",
+      "31948534",
+      "35443865",
+      "25593318",
+      "32560815",
+      "39875895",
+      "39731187",
+      "24872416",
+      "35603650",
+      "40796898",
+      "25046164",
+      "25354978",
+      "25246526",
+      "35225648",
+      "38992114",
+      "35405317",
+      "31883458",
+      "29925504",
+      "31079111",
+      "32082390",
+      "18212048",
+      "38816350",
+      "39127340",
+      "39585848",
+      "40987253",
+      "25889839",
+      "21807998",
+      "31948749",
+      "38745192",
+      "33630225",
+      "31683196",
+      "39915361",
+      "9404729",
+      "23562653",
+      "31357838",
+      "20676138",
+      "31600735",
+      "35854778",
+      "33045573",
+      "22564723",
+      "38780271",
+      "30822475",
+      "32886453",
+      "40668527",
+      "40796546",
+      "26620051",
+      "36947965",
+      "31709724",
+      "39215663",
+      "40601211",
+      "30582709"
+    ],
+    "review": [
+      "40796729",
+      "35753134"
+    ],
+    "pmc": [
+      "12343910"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-025-07932-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40796729/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-255",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

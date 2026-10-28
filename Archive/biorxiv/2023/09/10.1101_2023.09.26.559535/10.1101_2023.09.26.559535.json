@@ -1,0 +1,522 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.26.559535",
+  "title": "Regulation of Chromatin Architecture by Transcription Factor Binding",
+  "doi": "10.1101/2023.09.26.559535",
+  "abstract": "Transcription factors (TF) bind to chromatin and regulate the expression of genes. The pair Myc:Max binds to E-box regulatory DNA elements throughout the genome, controlling transcription of a large group of specific genes. We introduce an implicit modeling protocol for Myc:Max binding to mesoscale chromatin fibers to determine TF effect on chromatin architecture and shed light on its mechanism of gene regulation. We first bind Myc:Max to different chromatin locations and show how it can direct fiber folding and formation of microdomains, and how this depends on the linker DNA length. Second, by simulating increasing concentrations of Myc:Max binding to fibers that differ in the DNA linker length, linker histone density, and acetylation levels, we assess the interplay between Myc:Max and other chromatin internal parameters. Third, we study the mechanism of gene silencing by Myc:Max binding to the Eed gene loci. Overall, our results show how chromatin architecture can be regulated by TF binding. The position of TF binding dictates the formation of microdomains that appear visible only at the ensemble level. On the other hand, the presence of linker histone, acetylations, or different linker DNA lengths regulates the concentration-dependent effect of TF binding. Furthermore, we show how TF binding can repress gene expression by increasing fiber folding motifs that help compact and occlude the promoter region. Importantly, this effect can be reversed by increasing linker histone density. Overall, these results shed light on the epigenetic control of the genome dictated by TF binding.",
+  "authors": [
+    "Stephanie Portillo-Ledesma",
+    "Suckwoo Chung",
+    "Jill Hoffman",
+    "Tamar Schlick"
+  ],
+  "published_date": "2023-09-27",
+  "updated_date": "2023-09-27T04:40:17Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.26.559535",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.26.559535.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T01:39:29Z",
+        "timestamp": 1772156369266,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            27
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 58,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Transcription factors (TF) bind to chromatin and regulate the expression of genes. The pair Myc:Max binds to E-box regulatory DNA elements throughout the genome, controlling transcription of a large group of specific genes. We introduce an implicit modeling protocol for Myc:Max binding to mesoscale chromatin fibers to determine TF effect on chromatin architecture and shed light on its mechanism of gene regulation. We first bind Myc:Max to different chromatin locations and show how it can direct fiber folding and formation of microdomains, and how this depends on the linker DNA length. Second, by simulating increasing concentrations of Myc:Max binding to fibers that differ in the DNA linker length, linker histone density, and acetylation levels, we assess the interplay between Myc:Max and other chromatin internal parameters. Third, we study the mechanism of gene silencing by Myc:Max binding to the Eed gene loci. Overall, our results show how chromatin architecture can be regulated by TF binding. The position of TF binding dictates the formation of microdomains that appear visible only at the ensemble level. On the other hand, the presence of linker histone, acetylations, or different linker DNA lengths regulates the concentration-dependent effect of TF binding. Furthermore, we show how TF binding can repress gene expression by increasing fiber folding motifs that help compact and occlude the promoter region. Importantly, this effect can be reversed by increasing linker histone density. Overall, these results shed light on the epigenetic control of the genome dictated by TF binding.</jats:p>",
+      "DOI": "10.1101/2023.09.26.559535",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            27
+          ]
+        ],
+        "date-time": "2023-09-27T04:40:17Z",
+        "timestamp": 1695789617000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Regulation of Chromatin Architecture by Transcription Factor Binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Stephanie",
+          "family": "Portillo-Ledesma",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Suckwoo",
+          "family": "Chung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jill",
+          "family": "Hoffman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tamar",
+          "family": "Schlick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2018.11.003"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-018-0060-8"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac757"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz234"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "2000034",
+          "DOI": "10.1002/pmic.202000034",
+          "article-title": "Transcription factors: Bridge between cell signaling and gene regulation",
+          "volume": "21",
+          "year": "2021",
+          "journal-title": "Proteomics"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc2231"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.1712408"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2006410"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(02)01284-9"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-9822(03)00297-5"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.97.7.3260"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2019.12.038"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2005500117"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1302950110"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.09.016"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005365"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.17",
+          "first-page": "123",
+          "volume-title": "Nuclear Architecture and Dynamics",
+          "volume": "2",
+          "year": "2017"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0604817103"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1315872111"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2010.07.057"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.10337"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "168",
+          "DOI": "10.1006/jcph.1997.5765",
+          "article-title": "A combined wormlike-chain and bead model for dynamic simulations of long linear DNA",
+          "volume": "136",
+          "year": "1997",
+          "journal-title": "J. Comput. Phys"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.1977.360160705"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku491"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.5b04086"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.10.049"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms11485"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10577-005-1024-3"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0089680"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1003417"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-022-03099-0"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11243"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12974-022-02463-5"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(85)90396-1"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0021-9258(18)41815-7"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1998.1954"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.37",
+          "unstructured": "Ester, M. , H.-P. Kriegel , and J. Sander , 1996. A density-based algorithm for discovering clusters in large spatial databases with noise. Proceedings of 2nd International Conference on Knowledge Discovery and Data Mining 226–231."
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.11.021"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1558-2"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.MOLCEL.2020.03.002"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0802336105"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aau1783"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2020.11.001"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.09.026"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1518280113"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.68918"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.stem.2010.06.023"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12015-014-9550-z"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-39907-2"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature16496"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw135"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2017.01.025"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10002"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-022-00768-w"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13072-018-0208-y"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.2c00001"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.10.028"
+        },
+        {
+          "key": "2023120708500701000_2023.09.26.559535v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks224"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.26.559535",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:17:20Z",
+        "timestamp": 1768454240000
+      },
+      "score": 116.06158,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.26.559535"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            27
+          ]
+        ]
+      },
+      "references-count": 58,
+      "URL": "https://doi.org/10.1101/2023.09.26.559535",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.91320",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.91320.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.91320.2",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.91320.1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

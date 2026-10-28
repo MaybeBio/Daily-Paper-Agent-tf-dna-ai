@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "35566347",
+    "doi": "10.3390/molecules27092997",
+    "title": "Exploring the Parallel G-Quadruplex Nucleic Acid World: A Spectroscopic and Computational Investigation on the Binding of the c-myc Oncogene NHE III1 Region by the Phytochemical Polydatin."
+  },
+  "content": {
+    "abstract": "Trans-polydatin (tPD), the 3-beta-D-glucoside of the well-known nutraceutical trans-resveratrol, is a natural polyphenol with documented anti-cancer, anti-inflammatory, cardioprotective, and immunoregulatory effects. Considering the anticancer activity of tPD, in this work, we aimed to explore the binding properties of this natural compound with the G-quadruplex (G4) structure formed by the Pu22 [d(TGAGGGTGGGTAGGGTGGGTAA)] DNA sequence by exploiting CD spectroscopy and molecular docking simulations. Pu22 is a mutated and shorter analog of the G4-forming sequence known as Pu27 located in the promoter of the c-myc oncogene, whose overexpression triggers the metabolic changes responsible for cancer cells transformation. The binding of tPD with the parallel Pu22 G4 was confirmed by CD spectroscopy, which showed significant changes in the CD spectrum of the DNA and a slight thermal stabilization of the G4 structure. To gain a deeper insight into the structural features of the tPD-Pu22 complex, we performed an in silico molecular docking study, which indicated that the interaction of tPD with Pu22 G4 may involve partial end-stacking to the terminal G-quartet and H-bonding interactions between the sugar moiety of the ligand and deoxynucleotides not included in the G-tetrads. Finally, we compared the experimental CD profiles of Pu22 G4 with the corresponding theoretical output obtained using DichroCalc, a web-based server normally used for the prediction of proteins' CD spectra starting from their \".pdb\" file. The results indicated a good agreement between the predicted and the experimental CD spectra in terms of the spectral bands' profile even if with a slight bathochromic shift in the positive band, suggesting the utility of this predictive tool for G4 DNA CD investigations.",
+    "keywords": [
+      "CD prediction",
+      "G-quadruplex",
+      "Pu22",
+      "c-myc",
+      "circular dichroism",
+      "in silico simulations",
+      "molecular docking",
+      "phytochemicals"
+    ],
+    "mesh_terms": [
+      "DNA/chemistry",
+      "*G-Quadruplexes",
+      "Genes, myc",
+      "Glucosides/pharmacology",
+      "Molecular Docking Simulation",
+      "*Nucleic Acids",
+      "Phytochemicals",
+      "Proto-Oncogene Proteins c-myc/metabolism",
+      "Spectrum Analysis",
+      "Stilbenes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Greco, Francesca",
+        "Musumeci, Domenica",
+        "Borbone, Nicola",
+        "Falanga, Andrea Patrizia",
+        "D'Errico, Stefano",
+        "Terracciano, Monica",
+        "Piccialli, Ilaria",
+        "Roviello, Giovanni Nicola",
+        "Oliviero, Giorgia"
+      ],
+      "short_names": [
+        "Greco F",
+        "Musumeci D",
+        "Borbone N",
+        "Falanga AP",
+        "D'Errico S",
+        "Terracciano M",
+        "Piccialli I",
+        "Roviello GN",
+        "Oliviero G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4217-7990",
+        "ORCID: 0000-0001-7624-1933",
+        "ORCID: 0000-0003-0216-9814",
+        "ORCID: 0000-0002-8100-3726",
+        "ORCID: 0000-0001-6367-2419",
+        "ORCID: 0000-0002-6978-542X",
+        "ORCID: 0000-0003-0765-2127"
+      ],
+      "affiliations": [
+        "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy.",
+        "Institute of Biostructures and Bioimaging, Italian National Council for Research (IBB-CNR), Area di Ricerca Site and Headquarters-Via Pietro Castellino 111, 80131 Naples, Italy.",
+        "Department of Chemistry, University of Naples Federico II, Via Vicinale Cupa Cintia 21, 80126 Naples, Italy.",
+        "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy.",
+        "ISBE-IT, University of Naples Federico II, 80138 Naples, Italy.",
+        "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy.",
+        "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy.",
+        "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy.",
+        "Division of Pharmacology, Department of Neuroscience, Reproductive and Odontostomatological Sciences, University of Naples Federico II, Via Sergio Pansini 5, 80131 Naples, Italy.",
+        "Institute of Biostructures and Bioimaging, Italian National Council for Research (IBB-CNR), Area di Ricerca Site and Headquarters-Via Pietro Castellino 111, 80131 Naples, Italy.",
+        "Department of Molecular Medicine and Medical Biotechnologies, University of Naples Federico II, Via Sergio Pansini 5, 80131 Naples, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Greco, Francesca",
+        "short_name": "Greco F",
+        "identifiers": [
+          "0000-0003-4217-7990"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Musumeci, Domenica",
+        "short_name": "Musumeci D",
+        "identifiers": [
+          "0000-0001-7624-1933"
+        ],
+        "affiliations": [
+          "Institute of Biostructures and Bioimaging, Italian National Council for Research (IBB-CNR), Area di Ricerca Site and Headquarters-Via Pietro Castellino 111, 80131 Naples, Italy.",
+          "Department of Chemistry, University of Naples Federico II, Via Vicinale Cupa Cintia 21, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Borbone, Nicola",
+        "short_name": "Borbone N",
+        "identifiers": [
+          "0000-0003-0216-9814"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy.",
+          "ISBE-IT, University of Naples Federico II, 80138 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Falanga, Andrea Patrizia",
+        "short_name": "Falanga AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Errico, Stefano",
+        "short_name": "D'Errico S",
+        "identifiers": [
+          "0000-0002-8100-3726"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Terracciano, Monica",
+        "short_name": "Terracciano M",
+        "identifiers": [
+          "0000-0001-6367-2419"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Piccialli, Ilaria",
+        "short_name": "Piccialli I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pharmacology, Department of Neuroscience, Reproductive and Odontostomatological Sciences, University of Naples Federico II, Via Sergio Pansini 5, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Roviello, Giovanni Nicola",
+        "short_name": "Roviello GN",
+        "identifiers": [
+          "0000-0002-6978-542X"
+        ],
+        "affiliations": [
+          "Institute of Biostructures and Bioimaging, Italian National Council for Research (IBB-CNR), Area di Ricerca Site and Headquarters-Via Pietro Castellino 111, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Oliviero, Giorgia",
+        "short_name": "Oliviero G",
+        "identifiers": [
+          "0000-0003-0765-2127"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and Medical Biotechnologies, University of Naples Federico II, Via Sergio Pansini 5, 80131 Naples, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2022 May 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/15 06:00",
+    "fetched_at": "2026-09-28 08:19:38"
+  },
+  "links": {
+    "cites": [
+      "40453130",
+      "40286092",
+      "38793770",
+      "38655615",
+      "36903364",
+      "36879969",
+      "36836758",
+      "36365194",
+      "36008965"
+    ],
+    "refs": [
+      "35498963",
+      "34747958",
+      "34451867",
+      "34204214",
+      "34199659",
+      "34192476",
+      "34178667",
+      "33912552",
+      "33890349",
+      "33593247",
+      "33355454",
+      "33166559",
+      "32761687",
+      "32484220",
+      "32428744",
+      "32269383",
+      "32030823",
+      "32014901",
+      "31940851",
+      "31770526",
+      "31747572",
+      "31590335",
+      "30407585",
+      "30312328",
+      "29348174",
+      "29228465",
+      "28780124",
+      "28521030",
+      "27597414",
+      "27592503",
+      "27573064",
+      "27182219",
+      "26762575",
+      "26427040",
+      "25650792",
+      "24793882",
+      "24752309",
+      "24121392",
+      "22866911",
+      "21795379",
+      "21410246",
+      "21369944",
+      "21113409",
+      "20503216",
+      "19836504",
+      "19655805",
+      "19487118",
+      "19189376",
+      "19129206",
+      "18825537",
+      "18058556",
+      "17913750",
+      "17362008",
+      "17169996",
+      "16784237",
+      "16235233",
+      "16045346",
+      "15697230",
+      "15250722",
+      "12195017"
+    ],
+    "similar": [
+      "35566347",
+      "31747572",
+      "29581003",
+      "30758965",
+      "30920805",
+      "37778448",
+      "31940851",
+      "30703662",
+      "27865994",
+      "32860839",
+      "34199659",
+      "37926689",
+      "26922833",
+      "17243826",
+      "28650023",
+      "33000836",
+      "25440731",
+      "32827579",
+      "34639142",
+      "26478420",
+      "30759259",
+      "34213273",
+      "23116145",
+      "35726630",
+      "38203216",
+      "27551915",
+      "27838396",
+      "27144522",
+      "12209457",
+      "33089692",
+      "29458089",
+      "29611599",
+      "21795379",
+      "23108607",
+      "34192476",
+      "35687110",
+      "32302880",
+      "37762650",
+      "24813121",
+      "19033359",
+      "32145840",
+      "20394585",
+      "27634752",
+      "15697230",
+      "19876976",
+      "24824526",
+      "36838516",
+      "28728523",
+      "24735723",
+      "16901825",
+      "23774591",
+      "38203794",
+      "18087730",
+      "20437426",
+      "33855563",
+      "33594142",
+      "25712523",
+      "30023722",
+      "27021281",
+      "27253207",
+      "39077944",
+      "32791149",
+      "33801762",
+      "30639410",
+      "25527072",
+      "29086571",
+      "36012470",
+      "37821013",
+      "30312328",
+      "27789698",
+      "22667821",
+      "38315865",
+      "30239898",
+      "23562763",
+      "20849082",
+      "35248982",
+      "28330874",
+      "36455103",
+      "36656764",
+      "37030427",
+      "29607778",
+      "30204533",
+      "29953891",
+      "33355454",
+      "33978746",
+      "29288770",
+      "34824301",
+      "31548374",
+      "32267052",
+      "30315240",
+      "26462961",
+      "23127826",
+      "22484007",
+      "37286380",
+      "36842212",
+      "34577013",
+      "16571009",
+      "29747481",
+      "34204214",
+      "22480315",
+      "31087710",
+      "20440429",
+      "25452213",
+      "32492501",
+      "37229607",
+      "22513122",
+      "19581307",
+      "34638738",
+      "33166559",
+      "28620169",
+      "35229834",
+      "34299257",
+      "27196695",
+      "35791808",
+      "28355155",
+      "30287371",
+      "34677968",
+      "24996049",
+      "23785423",
+      "28888786",
+      "37209638",
+      "36121464",
+      "34570971",
+      "36334788",
+      "35424772",
+      "36149030",
+      "35762741",
+      "38286387",
+      "33890349",
+      "38693737",
+      "36130267",
+      "35557489",
+      "36224201",
+      "36345790",
+      "36613820",
+      "37239338",
+      "35550917",
+      "35766415",
+      "33555350",
+      "38838555",
+      "36365194",
+      "35837174",
+      "39342890",
+      "36069214",
+      "36382639",
+      "36043100",
+      "39065762",
+      "33206544",
+      "39035713",
+      "35144176",
+      "35226400",
+      "38246949",
+      "35355429",
+      "37082005",
+      "39027314",
+      "35647231",
+      "33948456",
+      "37082748",
+      "37568632",
+      "33281983",
+      "38532692",
+      "38609708",
+      "35544232"
+    ],
+    "review": [
+      "35566347",
+      "32827579",
+      "16901825",
+      "33355454"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules27092997",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35566347/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35566347",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

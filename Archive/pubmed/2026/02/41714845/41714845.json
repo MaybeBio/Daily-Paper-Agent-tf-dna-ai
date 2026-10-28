@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41714845",
+    "doi": "10.1080/08916934.2026.2635179",
+    "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease."
+  },
+  "content": {
+    "abstract": "IgA nephropathy (IgAN) and celiac disease (CeD) are autoimmune disorders characterized by dysregulated immune responses; however, the molecular mechanisms underlying their comorbidity remain incompletely understood. Here, we integrated transcriptomic datasets from IgAN and CeD to perform differential expression analysis, weighted gene co-expression network analysis (WGCNA), functional enrichment analysis, and machine learning-based hub gene identification. The expression profiles and diagnostic performance of the identified hub genes were validated across multiple independent cohorts using receiver operating characteristic analysis, and their cellular localization was further explored using single-cell RNA sequencing data. In addition, we conducted clinical correlation analysis, immune infiltration profiling, therapeutic drug prediction, and constructed transcription factor-miRNA-mRNA regulatory networks. We identified ITGB2, CD74, and KLK1 as shared biomarkers with robust diagnostic performance (AUC > 0.7, with an AUC > 0.9 in the combined model). These genes were closely associated with immune dysregulation and disease progression, and four candidate therapeutic agents were predicted. Collectively, our findings provide novel insights into the shared pathogenic mechanisms and potential therapeutic strategies for IgAN and CeD.",
+    "keywords": [
+      "IgA nephropathy",
+      "autoimmune disorders",
+      "celiac disease",
+      "diagnostic markers",
+      "shared mechanism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Celiac Disease/diagnosis/genetics/immunology",
+      "*Glomerulonephritis, IGA/diagnosis/genetics/immunology/drug therapy",
+      "Biomarkers",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Antigens, Differentiation, B-Lymphocyte/genetics",
+      "Transcriptome",
+      "MicroRNAs/genetics",
+      "Single-Cell Gene Expression Analysis",
+      "Histocompatibility Antigens Class II"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tao, Shaoguo",
+        "Fan, Xuemei",
+        "Liu, Xiaoyou",
+        "Becker, Yannic",
+        "Schroder, Patricia",
+        "Zhao, Qian",
+        "He, Zhuoying",
+        "Jiang, Hanzhi",
+        "Xiao, Jie",
+        "Haller, Hermann",
+        "Ke, Guibao"
+      ],
+      "short_names": [
+        "Tao S",
+        "Fan X",
+        "Liu X",
+        "Becker Y",
+        "Schroder P",
+        "Zhao Q",
+        "He Z",
+        "Jiang H",
+        "Xiao J",
+        "Haller H",
+        "Ke G"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-1050-9509",
+        "ORCID: 0000-0002-1525-6143"
+      ],
+      "affiliations": [
+        "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China.",
+        "The People's Hospital of Suiyang, Zunyi, People's Republic of China.",
+        "Organ Transplant Center, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China.",
+        "Mount Desert Island Biological Laboratory, Bar Harbor, Maine, USA.",
+        "Mount Desert Island Biological Laboratory, Bar Harbor, Maine, USA.",
+        "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China.",
+        "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China.",
+        "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China.",
+        "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China.",
+        "Mount Desert Island Biological Laboratory, Bar Harbor, Maine, USA.",
+        "Department of Nephrology and Hypertension, Hannover Medical School, Hannover, Germany.",
+        "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tao, Shaoguo",
+        "short_name": "Tao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xuemei",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "The People's Hospital of Suiyang, Zunyi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoyou",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Organ Transplant Center, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Becker, Yannic",
+        "short_name": "Becker Y",
+        "identifiers": [
+          "0009-0009-1050-9509"
+        ],
+        "affiliations": [
+          "Mount Desert Island Biological Laboratory, Bar Harbor, Maine, USA."
+        ]
+      },
+      {
+        "full_name": "Schroder, Patricia",
+        "short_name": "Schroder P",
+        "identifiers": [],
+        "affiliations": [
+          "Mount Desert Island Biological Laboratory, Bar Harbor, Maine, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qian",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "He, Zhuoying",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hanzhi",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Jie",
+        "short_name": "Xiao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Haller, Hermann",
+        "short_name": "Haller H",
+        "identifiers": [],
+        "affiliations": [
+          "Mount Desert Island Biological Laboratory, Bar Harbor, Maine, USA.",
+          "Department of Nephrology and Hypertension, Hannover Medical School, Hannover, Germany."
+        ]
+      },
+      {
+        "full_name": "Ke, Guibao",
+        "short_name": "Ke G",
+        "identifiers": [
+          "0000-0002-1525-6143"
+        ],
+        "affiliations": [
+          "Department of Nephrology, The First affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University, Guangzhou, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Autoimmunity"
+    ],
+    "journal_abbrev": [
+      "Autoimmunity"
+    ],
+    "pub_date": "2026 Dec 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/20 00:32",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [
+      "42193171"
+    ],
+    "refs": [],
+    "similar": [
+      "41714845",
+      "41052072",
+      "42233387",
+      "40336063",
+      "42024670",
+      "40263537",
+      "40766309",
+      "40097519",
+      "34861820",
+      "39612439",
+      "38552291",
+      "40406126",
+      "39696012",
+      "34823491",
+      "40742465",
+      "40374866",
+      "41388523",
+      "41733593",
+      "36978098",
+      "41816342",
+      "42015036",
+      "38941374",
+      "42123445",
+      "36948405",
+      "38301615",
+      "42327749",
+      "41013556",
+      "35601837",
+      "39142001",
+      "41066424",
+      "39080525",
+      "39976098",
+      "38987624",
+      "40588645",
+      "41878449",
+      "42338983",
+      "40574839",
+      "41200172",
+      "42158856",
+      "35769467",
+      "42292668",
+      "40374840",
+      "41756296",
+      "40093012",
+      "41913032",
+      "40421012",
+      "33874912",
+      "39512836",
+      "41316541",
+      "32894197",
+      "39540382",
+      "42295138",
+      "35418061",
+      "41432483",
+      "40532306",
+      "41424060",
+      "40596265",
+      "42313235",
+      "39136821",
+      "41044520",
+      "36059518",
+      "38615385",
+      "40362669",
+      "36793719",
+      "42074514",
+      "39840076",
+      "41716396",
+      "40911183",
+      "38660311",
+      "42265520",
+      "40046872",
+      "40196107",
+      "35069594",
+      "41479901",
+      "40453984",
+      "39086489",
+      "39139563",
+      "39460798",
+      "41098724",
+      "41563994",
+      "42352882",
+      "41265166",
+      "38824914",
+      "42059276",
+      "42074521",
+      "41120603",
+      "41436831",
+      "42306043",
+      "42064079",
+      "41601671",
+      "42123756",
+      "38863714",
+      "42154423",
+      "41816328",
+      "38774864",
+      "42348043",
+      "38693353",
+      "40857934",
+      "41155038",
+      "40836320"
+    ],
+    "review": [
+      "41714845"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/08916934.2026.2635179?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/celiacdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Celiac Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1178",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/08916934.2026.2635179",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

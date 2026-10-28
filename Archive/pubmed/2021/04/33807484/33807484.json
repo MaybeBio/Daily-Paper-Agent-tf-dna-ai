@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "33807484",
+    "doi": "10.3390/ijms22073650",
+    "title": "Unveiling the N-Terminal Homodimerization of BCL11B by Hybrid Solvent Replica-Exchange Simulations."
+  },
+  "content": {
+    "abstract": "Transcription factors play a crucial role in regulating biological processes such as cell growth, differentiation, organ development and cellular signaling. Within this group, proteins equipped with zinc finger motifs (ZFs) represent the largest family of sequence-specific DNA-binding transcription regulators. Numerous studies have proven the fundamental role of BCL11B for a variety of tissues and organs such as central nervous system, T cells, skin, teeth, and mammary glands. In a previous work we identified a novel atypical zinc finger domain (CCHC-ZF) which serves as a dimerization interface of BCL11B. This domain and formation of the dimer were shown to be critically important for efficient regulation of the BCL11B target genes and could therefore represent a promising target for novel drug therapies. Here, we report the structural basis for BCL11B-BCL11B interaction mediated by the N-terminal ZF domain. By combining structure prediction algorithms, enhanced sampling molecular dynamics and fluorescence resonance energy transfer (FRET) approaches, we identified amino acid residues indispensable for the formation of the single ZF domain and directly involved in forming the dimer interface. These findings not only provide deep insight into how BCL11B acquires its active structure but also represent an important step towards rational design or selection of potential inhibitors.",
+    "keywords": [
+      "BCL11B",
+      "CCHC zinc finger",
+      "TIGER2h",
+      "TIGER2hs",
+      "homodimerization",
+      "protein folding",
+      "protein-protein docking",
+      "replica-exchange molecular dynamics"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence/genetics",
+      "DNA-Binding Proteins/metabolism",
+      "Dimerization",
+      "Fluorescence Resonance Energy Transfer/methods",
+      "HEK293 Cells",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Repressor Proteins/genetics/*metabolism/*ultrastructure",
+      "Transcription Factors/metabolism",
+      "Tumor Suppressor Proteins/*metabolism/*ultrastructure",
+      "Zinc Fingers/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schulig, Lukas",
+        "Grabarczyk, Piotr",
+        "Geist, Norman",
+        "Delin, Martin",
+        "Forkel, Hannes",
+        "Kulke, Martin",
+        "Delcea, Mihaela",
+        "Schmidt, Christian A",
+        "Link, Andreas"
+      ],
+      "short_names": [
+        "Schulig L",
+        "Grabarczyk P",
+        "Geist N",
+        "Delin M",
+        "Forkel H",
+        "Kulke M",
+        "Delcea M",
+        "Schmidt CA",
+        "Link A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4614-3395",
+        "ORCID: 0000-0001-9671-8882",
+        "ORCID: 0000-0002-2689-2428",
+        "ORCID: 0000-0003-1262-6636"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmacy, University of Greifswald, 17489 Greifswald, Germany.",
+        "Department of Hematology and Oncology, Internal Medicine C, University Greifswald, 17489 Greifswald, Germany.",
+        "Department of Biophysical Chemistry, Institute of Biochemistry, University of Greifswald, 17489 Greifswald, Germany.",
+        "Department of Hematology and Oncology, Internal Medicine C, University Greifswald, 17489 Greifswald, Germany.",
+        "Department of Hematology and Oncology, Internal Medicine C, University Greifswald, 17489 Greifswald, Germany.",
+        "Department of Biophysical Chemistry, Institute of Biochemistry, University of Greifswald, 17489 Greifswald, Germany.",
+        "Department of Biophysical Chemistry, Institute of Biochemistry, University of Greifswald, 17489 Greifswald, Germany.",
+        "Department of Hematology and Oncology, Internal Medicine C, University Greifswald, 17489 Greifswald, Germany.",
+        "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmacy, University of Greifswald, 17489 Greifswald, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schulig, Lukas",
+        "short_name": "Schulig L",
+        "identifiers": [
+          "0000-0002-4614-3395"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmacy, University of Greifswald, 17489 Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Grabarczyk, Piotr",
+        "short_name": "Grabarczyk P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and Oncology, Internal Medicine C, University Greifswald, 17489 Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Geist, Norman",
+        "short_name": "Geist N",
+        "identifiers": [
+          "0000-0001-9671-8882"
+        ],
+        "affiliations": [
+          "Department of Biophysical Chemistry, Institute of Biochemistry, University of Greifswald, 17489 Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Delin, Martin",
+        "short_name": "Delin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and Oncology, Internal Medicine C, University Greifswald, 17489 Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Forkel, Hannes",
+        "short_name": "Forkel H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and Oncology, Internal Medicine C, University Greifswald, 17489 Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Kulke, Martin",
+        "short_name": "Kulke M",
+        "identifiers": [
+          "0000-0002-2689-2428"
+        ],
+        "affiliations": [
+          "Department of Biophysical Chemistry, Institute of Biochemistry, University of Greifswald, 17489 Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Delcea, Mihaela",
+        "short_name": "Delcea M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysical Chemistry, Institute of Biochemistry, University of Greifswald, 17489 Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Christian A",
+        "short_name": "Schmidt CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and Oncology, Internal Medicine C, University Greifswald, 17489 Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Link, Andreas",
+        "short_name": "Link A",
+        "identifiers": [
+          "0000-0003-1262-6636"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmacy, University of Greifswald, 17489 Greifswald, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Mar 31",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/04 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "39976228",
+      "37207337"
+    ],
+    "refs": [
+      "33634864",
+      "32752662",
+      "31509400",
+      "31265293",
+      "30857399",
+      "30768902",
+      "29966412",
+      "29203643",
+      "29101520",
+      "28041896",
+      "27959755",
+      "27787702",
+      "27161321",
+      "26574453",
+      "26365095",
+      "23644491",
+      "23527175",
+      "22700985",
+      "22629441",
+      "22196020",
+      "21878675",
+      "21152317",
+      "20856692",
+      "20824091",
+      "20538915",
+      "20513151",
+      "19894977",
+      "19581932",
+      "19399189",
+      "19251658",
+      "19092943",
+      "18163620",
+      "17369851",
+      "17325664",
+      "17245431",
+      "17173069",
+      "16950772",
+      "16809611",
+      "16200636",
+      "16091750",
+      "15796557",
+      "15664173",
+      "12930829",
+      "12717433",
+      "11080638"
+    ],
+    "similar": [
+      "33807484",
+      "29203643",
+      "34946663",
+      "25098749",
+      "16091750",
+      "21878675",
+      "10504263",
+      "29985992",
+      "20513151",
+      "30355731",
+      "16966434",
+      "26096706",
+      "18831712",
+      "16809611",
+      "21912641",
+      "26231117",
+      "34714335",
+      "12504096",
+      "27586877",
+      "12659632",
+      "37074186",
+      "17941976",
+      "27161321",
+      "29287967",
+      "9698361",
+      "12097288",
+      "20824091",
+      "8654390",
+      "22245141",
+      "9512539",
+      "23682716",
+      "28288848",
+      "22450536",
+      "38816354",
+      "10653693",
+      "10487759",
+      "9799634",
+      "26563995",
+      "25964371",
+      "26196228",
+      "11154279",
+      "28951542",
+      "10672011",
+      "11782357",
+      "14636595",
+      "11691585",
+      "32450081",
+      "14727140",
+      "11844803",
+      "25423098",
+      "25240418",
+      "12620233",
+      "17252542",
+      "10801815",
+      "20680832",
+      "28669733",
+      "30352171",
+      "23727454",
+      "38472338",
+      "21791875",
+      "25422283",
+      "26915960",
+      "10371200",
+      "29514917",
+      "12467707",
+      "11279021",
+      "17189472",
+      "17308084",
+      "26219558",
+      "34887873",
+      "36124796",
+      "7865130",
+      "10903945",
+      "27287879",
+      "10525413",
+      "25827435",
+      "29953437",
+      "31457080",
+      "22867996",
+      "23168072",
+      "12920234",
+      "28765213",
+      "33936112",
+      "35643226",
+      "36096675",
+      "36683525",
+      "31528351",
+      "26034114",
+      "31828302",
+      "34844266",
+      "36202297",
+      "33248341",
+      "36409720",
+      "34473234"
+    ],
+    "review": [
+      "33807484",
+      "22450536",
+      "26563995",
+      "38472338",
+      "28765213"
+    ],
+    "pmc": [
+      "8036541"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22073650",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33807484/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33807484",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33807484",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

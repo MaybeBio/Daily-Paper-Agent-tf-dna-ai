@@ -1,75 +1,80 @@
 ## Review setup
 - **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
-- **Shared manuscript claim summary** The authors propose a nonparametric density kernel based on dyadic tree splitting probabilities modeled via a multivariate logit-normal distribution with a sparse precision matrix. This kernel is designed to capture flexible covariance structures for clustering density profiles, specifically applied to DNase-seq chromatin accessibility data to detect transcription factor binding footprints. Bayesian inference uses Gibbs sampling with Polya-Gamma augmentation. Simulations reportedly show improved clustering accuracy, and an application to ENCODE data yields clusters associated with two transcription factors.
-- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or data analysis outputs are available
-- **Missing materials affecting confidence** Full manuscript, simulation protocols, parameter settings, benchmark comparisons, ENCODE data preprocessing details, cluster validation metrics, and any figures or tables
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a nonparametric density kernel based on dyadic tree splitting probabilities with a multivariate logit-normal model and sparse precision matrix. The kernel is designed to capture flexible covariance structures for clustering density profiles, specifically chromatin accessibility from DNase-seq experiments. Bayesian inference uses Gibbs sampling with Polya-Gamma augmentation. Simulations reportedly show improved clustering accuracy, and an application to ENCODE DNase-seq data yields clusters associated with two transcription factors.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or application outcomes are reported
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation protocols, figures, tables, code, and data availability statements
 
 ## Reviewer
-- **Overall assessment** The abstract presents a methodologically interesting idea, namely a tree-based density kernel with a sparse precision matrix to induce flexible covariance structures for clustering density profiles. The motivation from DNase-seq footprint analysis is clear and relevant. However, the abstract provides insufficient detail to evaluate the technical soundness, the claimed performance improvements, or the biological validity of the clusters. The evidence base is too limited to establish the case for the method's utility or novelty beyond a general proposal.
-- **Who would be interested in the results, and why** Statisticians and computational biologists working on functional data clustering, nonparametric Bayesian methods, and high-throughput genomic data analysis. The specific application to DNase-seq footprint detection would interest researchers in regulatory genomics and transcription factor biology.
-- **Major strengths** The problem motivation is well articulated, highlighting a real limitation of existing nonparametric hierarchical models in handling long-range dependencies in genomic profiles. The proposed kernel structure, using dyadic tree splitting with a sparse precision matrix, is a creative approach that could offer flexibility beyond standard covariance assumptions. The use of Polya-Gamma augmentation for Gibbs sampling is a practical and established computational strategy.
-- **Major Concerns**  
-  - **Concern ID** R1-M1  
-  - **Severity** Major  
-  - **Blocking** Yes  
-  - **Axis** Technical soundness  
-  - **Claim pointer** The kernel "is flexible enough to capture diverse covariance structures and adapts to various spatial patterns of TF footprints."  
-  - **Evidence pointer** Abstract, no specific section or figure provided  
-  - **Concern** The abstract claims flexibility in capturing diverse covariance structures, but no theoretical or empirical demonstration is provided. It is unclear what class of covariance functions the proposed kernel can represent, how the sparse precision matrix controls the range and shape of dependencies, or whether the dyadic tree structure imposes unintended constraints on the covariance.  
-  - **Why it matters** Without a clear characterization of the kernel's covariance properties, the central claim of overcoming restrictive assumptions in existing models is not substantiated. The method's advantage over alternatives cannot be assessed.  
-  - **Resolution test** Provide a formal derivation or simulation study showing the kernel can approximate a range of covariance structures, including long-range dependencies, and compare its flexibility against existing density kernels.  
-  - **Concern ID** R1-M2  
-  - **Severity** Major  
-  - **Blocking** Yes  
-  - **Axis** Evidence quality  
-  - **Claim pointer** "Extensive simulations show that our kernel substantially improves clustering accuracy."  
-  - **Evidence pointer** Abstract, no specific results or figures provided  
-  - **Concern** The abstract states substantial improvement in clustering accuracy, but no quantitative metrics, comparison baselines, or simulation scenarios are described. The magnitude of improvement, the conditions under which it holds, and the sensitivity to model parameters are unknown.  
-  - **Why it matters** The performance claim is a key selling point of the method. Without concrete evidence, the reader cannot judge whether the improvement is meaningful or an artifact of specific simulation settings.  
-  - **Resolution test** Include simulation results with clear metrics, such as adjusted Rand index or clustering error, compared against at least one existing method, across varied data-generating scenarios.  
-  - **Concern ID** R1-M3  
-  - **Severity** Major  
-  - **Blocking** Yes  
-  - **Axis** Reproducibility and validation  
-  - **Claim pointer** "We apply the proposed mixture model to DNase-seq data from the Encyclopedia of DNA Elements project, which results in biologically meaningful clusters corresponding to binding events of two common TFs."  
-  - **Evidence pointer** Abstract, no data or analysis details provided  
-  - **Concern** The application result is stated without any supporting evidence, such as cluster visualization, enrichment analysis, or comparison to known TF binding sites. The biological meaningfulness is asserted but not demonstrated.  
-  - **Why it matters** The real-data application is intended to show practical utility. Without validation, the claim of biological relevance is unsubstantiated and could be misleading.  
-  - **Resolution test** Provide detailed analysis of the ENCODE application, including cluster characterization, overlap with known TF motifs or ChIP-seq peaks, and a comparison to alternative clustering methods.
-- **Minor Comments**  
-  - **Concern ID** R1-m1  
-  - **Severity** Minor  
-  - **Axis** Clarity  
-  - **Affected element** Method description  
-  - **Evidence pointer** Abstract, location not provided  
-  - **Issue** The abstract does not explain how the dyadic tree structure is constructed or how the sparse precision matrix is estimated. The reader is left with an incomplete picture of the model.  
-  - **Required correction** Add a brief description of the tree construction and the prior or penalty used for sparsity in the precision matrix.  
-  - **Concern ID** R1-m2  
-  - **Severity** Minor  
-  - **Axis** Reproducibility  
-  - **Affected element** Computational details  
-  - **Evidence pointer** Abstract, location not provided  
-  - **Issue** The abstract mentions Gibbs sampling with Polya-Gamma augmentation but does not specify convergence diagnostics, computational cost, or scalability to large genomic datasets.  
-  - **Required correction** Include a note on computational feasibility, such as runtime or convergence checks, in the full manuscript.  
-  - **Concern ID** R1-m3  
-  - **Severity** Minor  
-  - **Axis** Interdisciplinary accessibility  
-  - **Affected element** Terminology  
-  - **Evidence pointer** Abstract, location not provided  
-  - **Issue** Terms like "density random effects" and "functional covariance" may be unclear to readers outside statistics.  
-  - **Required correction** Provide brief intuitive explanations or examples to make the concepts accessible to a broader biological audience.
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of flexibility, performance improvement, and biological relevance are not supported by the abstract alone. The method's technical validity and practical utility cannot be confirmed without full details.
-- **Assessment against Nature-style criteria**  
-  - Originality: The proposed kernel structure appears novel, but the abstract does not clearly differentiate it from existing density kernels or hierarchical models. The originality is plausible but not fully established.  
-  - Scientific importance: The application to DNase-seq footprint detection is timely and relevant, but the abstract does not demonstrate a broad impact beyond this specific use case.  
-  - Interdisciplinary readership: The topic bridges statistics and genomics, which could attract a wide audience, but the abstract's technical density may limit accessibility.  
-  - Technical soundness: Not assessable from the abstract. The model specification and inference are described only at a high level, and no validation is provided.  
-  - Readability for nonspecialists: The abstract is concise but uses specialized terminology without sufficient context, making it challenging for nonspecialists to grasp the key contributions.
-- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea, but the lack of technical detail and empirical support means the case for the method's effectiveness and novelty is not made. A full manuscript with rigorous simulations, real-data validation, and clear methodological exposition would be needed to assess the contribution properly.
+- **Overall assessment** The abstract presents a conceptually interesting approach to density-based clustering with potential relevance to genomic footprint analysis. However, the evidence provided is insufficient to evaluate the technical soundness, statistical properties, or practical utility of the proposed kernel. Key claims about flexibility, covariance capture, and biological interpretability are stated without supporting quantitative or methodological detail. The work may be of interest to statisticians and computational biologists, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Statisticians working on nonparametric Bayesian methods and functional data clustering would find the kernel construction relevant. Computational biologists analyzing chromatin accessibility or similar high-throughput genomic profiles could benefit from improved clustering tools. Methodologists interested in hierarchical models with dependent random effects may also follow this work.
+- **Major strengths** The motivating problem is well defined and practically important. The proposed kernel addresses a clear limitation of existing hierarchical models, namely restrictive covariance assumptions for long-range dependencies. The use of a sparse precision matrix in a logit-normal framework is a plausible and potentially scalable approach. The application to real DNase-seq data adds practical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The kernel is "flexible enough to capture diverse covariance structures and adapts to various spatial patterns of TF footprints."
+  - **Evidence pointer** Abstract, no methods or figures provided
+  - **Concern** The abstract claims flexibility and adaptability but provides no theoretical or empirical demonstration. No details are given on how the dyadic tree structure induces specific covariance forms, what range of spatial patterns can be represented, or how the sparse precision matrix is chosen or estimated.
+  - **Why it matters** Without a formal characterization of the kernel's covariance properties or simulation evidence comparing it to existing methods, the central methodological contribution cannot be assessed. The claim of flexibility is the core rationale for the approach.
+  - **Resolution test** Provide a theoretical derivation or simulation study showing the kernel can represent covariance structures that existing models cannot, with quantitative comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "Extensive simulations show that our kernel substantially improves clustering accuracy."
+  - **Evidence pointer** Abstract, no simulation results reported
+  - **Concern** The abstract states improved clustering accuracy but reports no metrics, baselines, or conditions. It is unclear what "substantially" means, which scenarios were tested, or how the improvement is measured.
+  - **Why it matters** The primary empirical claim for the method's value is unverifiable from the provided material. Readers cannot judge whether the improvement is meaningful or specific to favorable settings.
+  - **Resolution test** Include simulation results with effect sizes, standard errors, and comparisons to at least one existing hierarchical clustering method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "Bayesian inference for latent variable models using this kernel is implemented through Gibbs sampling with Polya-Gamma augmentation."
+  - **Evidence pointer** Abstract, no algorithmic details provided
+  - **Concern** No information is given on convergence diagnostics, computational cost, or scalability to the size of DNase-seq datasets. The abstract does not state how many genomic locations or samples are analyzed, nor whether the Gibbs sampler is practical.
+  - **Why it matters** A method that is statistically sound but computationally infeasible would not be useful for the motivating application. Reproducibility requires algorithmic transparency.
+  - **Resolution test** Provide convergence assessment, runtime benchmarks, and details on the data dimensions used in the application.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validity
+  - **Claim pointer** "Application to DNase-seq data from the Encyclopedia of DNA Elements project results in biologically meaningful clusters corresponding to binding events of two common TFs."
+  - **Evidence pointer** Abstract, no application results shown
+  - **Concern** The claim of biological meaningfulness is not supported by any evidence. No details are given on which TFs, how clusters were validated, or what distinguishes these clusters from those produced by simpler methods.
+  - **Why it matters** The motivating problem is biological, so demonstrating that clusters correspond to known TF binding is essential. Without validation, the practical contribution is unclear.
+  - **Resolution test** Show cluster assignments, enrichment analyses, or comparison to known TF binding sites, with quantitative measures of agreement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "density random effects" is introduced without definition or context, which may confuse nonspecialist readers.
+  - **Required correction** Define the term briefly or rephrase to describe the hierarchical structure more explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract, no data statement
+  - **Issue** No mention of data or code availability for the ENCODE application or simulations.
+  - **Required correction** State where data and code can be accessed, or note restrictions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract, application section
+  - **Issue** The abstract focuses on DNase-seq but does not discuss whether the kernel applies to other density-based clustering problems.
+  - **Required correction** Add a sentence on potential broader applicability or limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The core claims of flexibility, improved accuracy, computational feasibility, and biological validity are all unsupported by the provided abstract.
+- **Assessment against Nature-style criteria** Originality is plausible given the novel combination of dyadic trees and sparse precision matrices, but it cannot be confirmed without comparison to existing literature. Scientific importance is potentially high for genomic clustering, yet the evidence is insufficient. Interdisciplinary readership is likely, but the abstract assumes familiarity with Bayesian nonparametrics and genomic assays. Technical soundness is unverifiable from the abstract alone. Readability for nonspecialists is moderate, though some terms are undefined.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a promising direction, but the absence of methodological detail, quantitative results, and validation means the case is not made. A revised submission with full methods, simulations, and application results would be needed for a supportive assessment.
 
 ## Risk / unsupported claims
-- The claim that the kernel "is flexible enough to capture diverse covariance structures" is unsupported without theoretical or empirical characterization.
-- The claim of "substantially improves clustering accuracy" in simulations is unsupported without quantitative results.
-- The claim of "biologically meaningful clusters" in the ENCODE application is unsupported without validation details.
-- The general applicability of the method beyond the specific DNase-seq example is not assessable from the abstract.
+- The kernel's flexibility to capture diverse covariance structures is asserted without theoretical or empirical support.
+- The claim of substantially improved clustering accuracy is unquantified and lacks comparison baselines.
+- The Gibbs sampler's practicality and convergence are not demonstrated.
+- The biological meaningfulness of clusters in the ENCODE application is stated without validation.
+- The generalizability of the kernel beyond DNase-seq is not addressed.

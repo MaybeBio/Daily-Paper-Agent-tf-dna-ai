@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "41686649",
+    "doi": "10.1093/bib/bbag050",
+    "title": "iDLDDG: predicting protein stability changes from missense mutations in DNA-binding proteins using integrated deep learning features."
+  },
+  "content": {
+    "abstract": "To understand disease mechanisms and advance therapies, accurately predicting how missense mutations alter protein-DNA binding affinity is critical. Many existing models neglect the unique characteristics of missense mutations in both double-stranded DNA-binding proteins (DSBs) and single-stranded DNA-binding proteins (SSBs). To address this issue, we constructed a comprehensive dataset from diverse sources. By leveraging sequence-based embeddings from pretrained protein language models including ESM2, ProtTrans, and ESM1v, we developed iDLDDG, a deep learning framework that integrates multi-scale structural and evolutionary information via a multi-channel architecture. To balance residue-wise information density against entropy, our entropy-based algorithm determined 181 residues as optimal for modeling biophysical constraints. This approach enhances predictive accuracy and computational efficiency, thereby supporting large-scale assessments of mutation effects in DNA-binding proteins. iDLDDG achieves state-of-the-art performance, with a 10-fold cross-validation PCC of 0.755 on MPD276 and 0.632 on independent test sets encompassing both DSBs and SSBs, significantly surpassing existing methods. By establishing the first computational framework that rigorously differentiates DSB and SSB mutation mechanisms, our work provides a foundation for high-accuracy prediction of pathological mutations in DNA-binding proteins.",
+    "keywords": [
+      "DNA-binding protein",
+      "bioinformatics",
+      "deep learning",
+      "missense mutation",
+      "protein-DNA interaction"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/genetics/chemistry/metabolism",
+      "*Mutation, Missense",
+      "*Deep Learning",
+      "Protein Stability",
+      "*Computational Biology/methods",
+      "Humans",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Xuan",
+        "Ge, Fang",
+        "Yu, Dong-Jun",
+        "Deng, Zhaohong"
+      ],
+      "short_names": [
+        "Yu X",
+        "Ge F",
+        "Yu DJ",
+        "Deng Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5792-5379",
+        "ORCID: 0000-0002-6786-8053",
+        "ORCID: 0000-0001-8045-2426"
+      ],
+      "affiliations": [
+        "Department of Computer Science, City University of Hong Kong, 83 Tat Chee Ave, Kowloon Tong, Hong Kong SAR(HKG), 999077, China.",
+        "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, 9 Wenyuan Road, Nanjing, Jiangsu Province, 210023, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, Jiangsu Province, 210094, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, Jiangsu Province, 210094, China.",
+        "School of Artificial Intelligence and Computer Science, Jiangnan University, 1800 Lihu Avenue, Wuxi , Jiangsu Province, 214122, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Xuan",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, City University of Hong Kong, 83 Tat Chee Ave, Kowloon Tong, Hong Kong SAR(HKG), 999077, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Fang",
+        "short_name": "Ge F",
+        "identifiers": [
+          "0000-0001-5792-5379"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, 9 Wenyuan Road, Nanjing, Jiangsu Province, 210023, China.",
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, Jiangsu Province, 210094, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [
+          "0000-0002-6786-8053"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing, Jiangsu Province, 210094, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Zhaohong",
+        "short_name": "Deng Z",
+        "identifiers": [
+          "0000-0001-8045-2426"
+        ],
+        "affiliations": [
+          "School of Artificial Intelligence and Computer Science, Jiangnan University, 1800 Lihu Avenue, Wuxi , Jiangsu Province, 214122, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/13 19:07",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40354482",
+      "39913370",
+      "38349747",
+      "36927031",
+      "36139026",
+      "35541126",
+      "34232869",
+      "33876751",
+      "33872313",
+      "31235882",
+      "30785653",
+      "30533007",
+      "30395287",
+      "29959318",
+      "29688380",
+      "29319301",
+      "29091991",
+      "29059392",
+      "28606086",
+      "28383703",
+      "27217471",
+      "25474071",
+      "25398609",
+      "23823326",
+      "22976174",
+      "22073283",
+      "21720957",
+      "21505037",
+      "18228446",
+      "17703195",
+      "17379688",
+      "15980494",
+      "15273279",
+      "11860361",
+      "11724731",
+      "1738588"
+    ],
+    "similar": [
+      "41686649",
+      "39596413",
+      "41021316",
+      "34058752",
+      "31888057",
+      "39214282",
+      "40719555",
+      "41977286",
+      "40185915",
+      "41172803",
+      "42350672",
+      "28606086",
+      "40439671",
+      "39795988",
+      "39576667",
+      "33378330",
+      "42099803",
+      "33872313",
+      "40914361",
+      "41168713",
+      "38316843",
+      "34905768",
+      "29091991",
+      "38856168",
+      "38830995",
+      "41795656",
+      "40273428",
+      "41566703",
+      "30533007",
+      "40209920",
+      "41284811",
+      "40375059",
+      "26797105",
+      "42228714",
+      "40751491",
+      "39256728",
+      "40119464",
+      "42412784",
+      "32946833",
+      "39858648",
+      "38747369",
+      "33837387",
+      "41634166",
+      "30417935",
+      "39270885",
+      "39092854",
+      "39610143",
+      "41396754",
+      "38975896",
+      "32960766",
+      "40665056",
+      "41921197",
+      "40811271",
+      "25474071",
+      "38460308",
+      "38491248",
+      "32938375",
+      "38871095",
+      "40121399",
+      "39637461",
+      "31693872",
+      "36416116",
+      "40811181",
+      "41608988",
+      "16712732",
+      "38743747",
+      "35652477",
+      "22976174",
+      "30598073",
+      "40143108",
+      "38126188",
+      "36503892",
+      "37651627",
+      "41478395",
+      "40354482",
+      "30957840",
+      "41791267",
+      "35378437",
+      "34415020",
+      "40111004",
+      "41340413",
+      "42398071",
+      "35973091",
+      "42380674",
+      "39276018",
+      "38587997",
+      "38084013",
+      "41222841",
+      "29753757",
+      "35150250",
+      "40036514",
+      "28383703",
+      "41232885",
+      "34432150",
+      "36139026",
+      "25935161",
+      "41285097",
+      "27318206",
+      "23064876",
+      "27964946"
+    ],
+    "review": [
+      "41686649",
+      "40209920",
+      "39637461",
+      "35652477",
+      "36139026"
+    ],
+    "pmc": [
+      "12903960"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41686649/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag050",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

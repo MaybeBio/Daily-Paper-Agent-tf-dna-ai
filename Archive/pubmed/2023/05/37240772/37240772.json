@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "37240772",
+    "doi": "10.3390/life13051128",
+    "title": "In Silico Subtractive Proteomics and Molecular Docking Approaches for the Identification of Novel Inhibitors against Streptococcus pneumoniae Strain D39."
+  },
+  "content": {
+    "abstract": "Streptococcus pneumoniae is a notorious Gram-positive pathogen present asymptomatically in the nasophayrnx of humans. According to the World Health Organization (W.H.O), pneumococcus causes approximately one million deaths yearly. Antibiotic resistance in S. pneumoniae is raising considerable concern around the world. There is an immediate need to address the major issues that have arisen as a result of persistent infections caused by S. pneumoniae. In the present study, subtractive proteomics was used in which the entire proteome of the pathogen consisting of 1947 proteins is effectively decreased to a finite number of possible targets. Various kinds of bioinformatics tools and software were applied for the discovery of novel inhibitors. The CD-HIT analysis revealed 1887 non-redundant sequences from the entire proteome. These non-redundant proteins were submitted to the BLASTp against the human proteome and 1423 proteins were screened as non-homologous. Further, databases of essential genes (DEGG) and J browser identified almost 171 essential proteins. Moreover, non-homologous, essential proteins were subjected in KEGG Pathway Database which shortlisted six unique proteins. In addition, the subcellular localization of these unique proteins was checked and cytoplasmic proteins were chosen for the druggability analysis, which resulted in three proteins, namely DNA binding response regulator (SPD_1085), UDP-N-acetylmuramate-L-alanine Ligase (SPD_1349) and RNA polymerase sigma factor (SPD_0958), which can act as a promising potent drug candidate to limit the toxicity caused by S. pneumoniae. The 3D structures of these proteins were predicted by Swiss Model, utilizing the homology modeling approach. Later, molecular docking by PyRx software 0.8 version was used to screen a library of phytochemicals retrieved from PubChem and ZINC databases and already approved drugs from DrugBank database against novel druggable targets to check their binding affinity with receptor proteins. The top two molecules from each receptor protein were selected based on the binding affinity, RMSD value, and the highest conformation. Finally, the absorption, distribution, metabolism, excretion, and toxicity (ADMET) analyses were carried out by utilizing the SWISS ADME and Protox tools. This research supported the discovery of cost-effective drugs against S. pneumoniae. However, more in vivo/in vitro research should be conducted on these targets to investigate their pharmacological efficacy and their function as efficient inhibitors.",
+    "keywords": [
+      "ADMET analysis",
+      "Streptococcus pneumoniae",
+      "essential proteins",
+      "molecular docking",
+      "subtractive proteomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shami, Ashwag",
+        "Alharbi, Nada K",
+        "Al-Saeed, Fatimah A",
+        "Alsaegh, Aiman A",
+        "Al Syaad, Khalid M",
+        "Abd El-Rahim, Ibrahim H A",
+        "Mostafa, Yasser Sabry",
+        "Ahmed, Ahmed Ezzat"
+      ],
+      "short_names": [
+        "Shami A",
+        "Alharbi NK",
+        "Al-Saeed FA",
+        "Alsaegh AA",
+        "Al Syaad KM",
+        "Abd El-Rahim IHA",
+        "Mostafa YS",
+        "Ahmed AE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5336-038X",
+        "ORCID: 0000-0003-3501-4480",
+        "ORCID: 0000-0002-5291-7334",
+        "ORCID: 0000-0002-4532-0636"
+      ],
+      "affiliations": [
+        "Department of Biology, College of Sciences, Princess Nourah Bint Abdulrahman University, Riyadh 11617, Saudi Arabia.",
+        "Department of Biology, College of Sciences, Princess Nourah Bint Abdulrahman University, Riyadh 11617, Saudi Arabia.",
+        "Research Centre, Department of Biology, College of Science, King Khalid University, Abha 61413, Saudi Arabia.",
+        "Advanced Material Science (RCAMS), King Khalid University, Abha 61413, Saudi Arabia.",
+        "Department of Laboratory Medicine, Faculty of Applied Medical Sciences, Umm Al-Qura University, Makkah Al-Mukarramah 24382, Saudi Arabia.",
+        "Biology Department, Faculty of Science, King Khalid University, P.O. Box 9004, Abha 61413, Saudi Arabia.",
+        "The Research Center, Faculty of Science, King Khalid University, P.O. Box 9004, Abha 61413, Saudi Arabia.",
+        "Department of Environmental and Health Research, Umm Al-Qura University, P.O. Box 6287, Makkah Al-Mukarramah 21955, Saudi Arabia.",
+        "Biology Department, Faculty of Science, King Khalid University, P.O. Box 9004, Abha 61413, Saudi Arabia.",
+        "Biology Department, Faculty of Science, King Khalid University, P.O. Box 9004, Abha 61413, Saudi Arabia.",
+        "Department of Theriogenology, Faculty of Veterinary Medicine, South Valley University, Qena 83523, Egypt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shami, Ashwag",
+        "short_name": "Shami A",
+        "identifiers": [
+          "0000-0002-5336-038X"
+        ],
+        "affiliations": [
+          "Department of Biology, College of Sciences, Princess Nourah Bint Abdulrahman University, Riyadh 11617, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alharbi, Nada K",
+        "short_name": "Alharbi NK",
+        "identifiers": [
+          "0000-0003-3501-4480"
+        ],
+        "affiliations": [
+          "Department of Biology, College of Sciences, Princess Nourah Bint Abdulrahman University, Riyadh 11617, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al-Saeed, Fatimah A",
+        "short_name": "Al-Saeed FA",
+        "identifiers": [
+          "0000-0002-5291-7334"
+        ],
+        "affiliations": [
+          "Research Centre, Department of Biology, College of Science, King Khalid University, Abha 61413, Saudi Arabia.",
+          "Advanced Material Science (RCAMS), King Khalid University, Abha 61413, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alsaegh, Aiman A",
+        "short_name": "Alsaegh AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Faculty of Applied Medical Sciences, Umm Al-Qura University, Makkah Al-Mukarramah 24382, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al Syaad, Khalid M",
+        "short_name": "Al Syaad KM",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, Faculty of Science, King Khalid University, P.O. Box 9004, Abha 61413, Saudi Arabia.",
+          "The Research Center, Faculty of Science, King Khalid University, P.O. Box 9004, Abha 61413, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abd El-Rahim, Ibrahim H A",
+        "short_name": "Abd El-Rahim IHA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental and Health Research, Umm Al-Qura University, P.O. Box 6287, Makkah Al-Mukarramah 21955, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Mostafa, Yasser Sabry",
+        "short_name": "Mostafa YS",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, Faculty of Science, King Khalid University, P.O. Box 9004, Abha 61413, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Ahmed Ezzat",
+        "short_name": "Ahmed AE",
+        "identifiers": [
+          "0000-0002-4532-0636"
+        ],
+        "affiliations": [
+          "Biology Department, Faculty of Science, King Khalid University, P.O. Box 9004, Abha 61413, Saudi Arabia.",
+          "Department of Theriogenology, Faculty of Veterinary Medicine, South Valley University, Qena 83523, Egypt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Life (Basel)"
+    ],
+    "pub_date": "2023 May 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/27 09:42",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "42377823",
+      "41854859",
+      "41852711",
+      "41750258",
+      "41064249",
+      "41044331",
+      "40170924",
+      "39931858",
+      "38866811"
+    ],
+    "refs": [
+      "35745579",
+      "35521286",
+      "35222301",
+      "34906326",
+      "34799308",
+      "33879172",
+      "33474593",
+      "33189842",
+      "32656429",
+      "31192930",
+      "30735163",
+      "30395287",
+      "30107613",
+      "29788355",
+      "29710787",
+      "29126136",
+      "28490437",
+      "28256516",
+      "27420806",
+      "25618350",
+      "25601791",
+      "25068724",
+      "24981612",
+      "24911789",
+      "24838562",
+      "24586856",
+      "24509479",
+      "22911967",
+      "22479314",
+      "21099091",
+      "20472543",
+      "20053844",
+      "19748398",
+      "19498078",
+      "19422931",
+      "18974178",
+      "18555669",
+      "18077471",
+      "17041037",
+      "16532148",
+      "16530580",
+      "15980438",
+      "15857122",
+      "15667143",
+      "15306389",
+      "12377561",
+      "11832532",
+      "1576274",
+      "1516604"
+    ],
+    "similar": [
+      "37240772",
+      "34910751",
+      "38926437",
+      "34769873",
+      "38283072",
+      "35742569",
+      "31702501",
+      "29277475",
+      "25436466",
+      "28904956",
+      "39424748",
+      "32568025",
+      "34195427",
+      "24464704",
+      "38034688",
+      "35222301",
+      "33841489",
+      "32423883",
+      "24361957",
+      "36429532",
+      "26799565",
+      "30550846",
+      "17477495",
+      "36567421",
+      "36134997",
+      "35980906",
+      "34989956",
+      "26677339",
+      "36681806",
+      "34425197",
+      "36790301",
+      "35895695",
+      "29174549",
+      "34344361",
+      "35414267",
+      "28340400",
+      "32906620",
+      "25254941",
+      "29587180",
+      "36354544",
+      "29600755",
+      "37484251",
+      "26319513",
+      "22415782",
+      "29721784",
+      "33422858",
+      "37037463",
+      "34451385",
+      "34393689",
+      "33166618",
+      "36321557",
+      "36296249",
+      "35241965",
+      "35429833",
+      "26061459",
+      "38655925",
+      "34548853",
+      "25683888",
+      "29491627",
+      "36677520",
+      "36366394",
+      "32098834",
+      "29474831",
+      "27176600",
+      "32932580",
+      "17240921",
+      "32601068",
+      "32455889",
+      "27802063",
+      "32634082",
+      "33549764",
+      "35744817",
+      "30005292",
+      "32531498",
+      "37801217",
+      "29705560",
+      "12749697",
+      "33231154",
+      "26750924",
+      "32562830",
+      "25497219",
+      "36798081",
+      "33154404",
+      "32408506",
+      "29281938",
+      "33925208",
+      "39351913",
+      "30569503",
+      "28260518",
+      "33779506",
+      "29581408",
+      "28865321",
+      "24402823",
+      "35403086",
+      "29032659",
+      "32681311",
+      "37513704",
+      "38929642",
+      "39005891",
+      "39413038",
+      "35062669",
+      "23904736",
+      "30079056",
+      "38954355",
+      "38327876",
+      "38808712",
+      "38535323"
+    ],
+    "review": [
+      "37240772",
+      "36321557",
+      "17240921",
+      "12749697",
+      "38808712"
+    ],
+    "pmc": [
+      "10224061"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=life13051128",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37240772/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37240772",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

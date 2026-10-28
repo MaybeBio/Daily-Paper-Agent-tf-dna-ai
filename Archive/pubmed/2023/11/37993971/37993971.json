@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "37993971",
+    "doi": "10.1186/s13065-023-01082-2",
+    "title": "Logic-based modeling and drug repurposing for the prediction of novel therapeutic targets and combination regimens against E2F1-driven melanoma progression."
+  },
+  "content": {
+    "abstract": "Melanoma presents increasing prevalence and poor outcomes. Progression to aggressive stages is characterized by overexpression of the transcription factor E2F1 and activation of downstream prometastatic gene regulatory networks (GRNs). Appropriate therapeutic manipulation of the E2F1-governed GRNs holds the potential to prevent metastasis however, these networks entail complex feedback and feedforward regulatory motifs among various regulatory layers, which make it difficult to identify druggable components. To this end, computational approaches such as mathematical modeling and virtual screening are important tools to unveil the dynamics of these signaling networks and identify critical components that could be further explored as therapeutic targets. Herein, we integrated a well-established E2F1-mediated epithelial-mesenchymal transition (EMT) map with transcriptomics data from E2F1-expressing melanoma cells to reconstruct a core regulatory network underlying aggressive melanoma. Using logic-based in silico perturbation experiments of a core regulatory network, we identified that simultaneous perturbation of Protein kinase B (AKT1) and oncoprotein murine double minute 2 (MDM2) drastically reduces EMT in melanoma. Using the structures of the two protein signatures, virtual screening strategies were performed with the FDA-approved drug library. Furthermore, by combining drug repurposing and computer-aided drug design techniques, followed by molecular dynamics simulation analysis, we identified two potent drugs (Tadalafil and Finasteride) that can efficiently inhibit AKT1 and MDM2 proteins. We propose that these two drugs could be considered for the development of therapeutic strategies for the management of aggressive melanoma.",
+    "keywords": [
+      "AKT1",
+      "Drug repurposing",
+      "E2F1",
+      "MDM2",
+      "Melanoma",
+      "Network modeling",
+      "Perturbation",
+      "Systems pharmacology",
+      "Virtual screening"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Nivedita",
+        "Khan, Faiz M",
+        "Bala, Lakshmi",
+        "Vera, Julio",
+        "Wolkenhauer, Olaf",
+        "Putzer, Brigitte",
+        "Logotheti, Stella",
+        "Gupta, Shailendra K"
+      ],
+      "short_names": [
+        "Singh N",
+        "Khan FM",
+        "Bala L",
+        "Vera J",
+        "Wolkenhauer O",
+        "Putzer B",
+        "Logotheti S",
+        "Gupta SK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, BBDCODS, BBD University, Lucknow, Uttar Pradesh, India.",
+        "MRC Laboratory for Molecular Cell Biology, University College London, London, UK.",
+        "Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany.",
+        "Department of Biochemistry, BBDCODS, BBD University, Lucknow, Uttar Pradesh, India.",
+        "Department of Dermatology, Universitatsklinikum Erlangen and Friedrich-Alexander Universitat Erlangen-Nurnberg (FAU), Erlangen, Germany.",
+        "Comprehensive Cancer Center Erlangen-European Metropolitan Area of Nuremberg (CCC ER-EMN), Erlangen, Germany.",
+        "Deutsches Zentrum Immuntherapie (DZI), Erlangen, Germany.",
+        "Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany.",
+        "Leibniz Institute for Food Systems Biology, Technical University of Munich, Munich, Germany.",
+        "Chhattisgarh Swami Vivekanand Technical University, Bhilai, Chhattisgarh, India.",
+        "Stellenbosch Institute of Advanced Study, Wallenberg Research Centre, Stellenbosch University, Stellenbosch, South Africa.",
+        "Institute of Experimental Gene Therapy and Cancer Research, Rostock University Medical Center, Rostock, Germany.",
+        "Institute of Experimental Gene Therapy and Cancer Research, Rostock University Medical Center, Rostock, Germany.",
+        "DNA Damage Laboratory, Physics Department, School of Applied Mathematical and Physical Sciences, National Technical University of Athens (NTUA), Zografou, Athens, Greece.",
+        "Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany. shailendra.gupta@uni-rostock.de.",
+        "Chhattisgarh Swami Vivekanand Technical University, Bhilai, Chhattisgarh, India. shailendra.gupta@uni-rostock.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Nivedita",
+        "short_name": "Singh N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, BBDCODS, BBD University, Lucknow, Uttar Pradesh, India.",
+          "MRC Laboratory for Molecular Cell Biology, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Khan, Faiz M",
+        "short_name": "Khan FM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany."
+        ]
+      },
+      {
+        "full_name": "Bala, Lakshmi",
+        "short_name": "Bala L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, BBDCODS, BBD University, Lucknow, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Vera, Julio",
+        "short_name": "Vera J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Universitätsklinikum Erlangen and Friedrich-Alexander Universität Erlangen-Nürnberg (FAU), Erlangen, Germany.",
+          "Comprehensive Cancer Center Erlangen-European Metropolitan Area of Nuremberg (CCC ER-EMN), Erlangen, Germany.",
+          "Deutsches Zentrum Immuntherapie (DZI), Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Wolkenhauer, Olaf",
+        "short_name": "Wolkenhauer O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany.",
+          "Leibniz Institute for Food Systems Biology, Technical University of Munich, Munich, Germany.",
+          "Chhattisgarh Swami Vivekanand Technical University, Bhilai, Chhattisgarh, India.",
+          "Stellenbosch Institute of Advanced Study, Wallenberg Research Centre, Stellenbosch University, Stellenbosch, South Africa."
+        ]
+      },
+      {
+        "full_name": "Pützer, Brigitte",
+        "short_name": "Pützer B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Experimental Gene Therapy and Cancer Research, Rostock University Medical Center, Rostock, Germany."
+        ]
+      },
+      {
+        "full_name": "Logotheti, Stella",
+        "short_name": "Logotheti S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Experimental Gene Therapy and Cancer Research, Rostock University Medical Center, Rostock, Germany.",
+          "DNA Damage Laboratory, Physics Department, School of Applied Mathematical and Physical Sciences, National Technical University of Athens (NTUA), Zografou, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Gupta, Shailendra K",
+        "short_name": "Gupta SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany. shailendra.gupta@uni-rostock.de.",
+          "Chhattisgarh Swami Vivekanand Technical University, Bhilai, Chhattisgarh, India. shailendra.gupta@uni-rostock.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC chemistry"
+    ],
+    "journal_abbrev": [
+      "BMC Chem"
+    ],
+    "pub_date": "2023 Nov 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/23 06:42",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37511550",
+      "37325771",
+      "36856925",
+      "36813307",
+      "36678712",
+      "36669146",
+      "35781795",
+      "35429910",
+      "35293126",
+      "35211272",
+      "35158840",
+      "34911681",
+      "34826045",
+      "34550729",
+      "34503167",
+      "34230456",
+      "34205602",
+      "34115902",
+      "34107182",
+      "34019580",
+      "34003788",
+      "33988074",
+      "33941774",
+      "33821323",
+      "33755436",
+      "33686772",
+      "33550204",
+      "33539944",
+      "33504557",
+      "33401765",
+      "33291663",
+      "33262326",
+      "32968045",
+      "32863950",
+      "32703153",
+      "32651541",
+      "32411180",
+      "32300359",
+      "31949488",
+      "31679450",
+      "31569642",
+      "31537905",
+      "31418662",
+      "31287003",
+      "30867845",
+      "30361678",
+      "30190850",
+      "30030916",
+      "29966677",
+      "29932104",
+      "29858518",
+      "29743944",
+      "29743521",
+      "29655979",
+      "29397551",
+      "29391600",
+      "29165713",
+      "29119509",
+      "28932631",
+      "28817834",
+      "28775339",
+      "28769012",
+      "28729406",
+      "28699531",
+      "28446463",
+      "28431241",
+      "28256516",
+      "27895461",
+      "27885271",
+      "27522113",
+      "27303434",
+      "27184007",
+      "27022975",
+      "26909417",
+      "26860106",
+      "26680552",
+      "26565903",
+      "26350215",
+      "26058708",
+      "25955319",
+      "25618350",
+      "25484339",
+      "25341426",
+      "25042645",
+      "24957944",
+      "24406927",
+      "24270410",
+      "24111482",
+      "23597064",
+      "23447575",
+      "23414587",
+      "22298593",
+      "21945861",
+      "21828085",
+      "21762988",
+      "21742771",
+      "21606968",
+      "21392984",
+      "21080799",
+      "20520718",
+      "20026813",
+      "19499576",
+      "19282848",
+      "19099550",
+      "19035562",
+      "18006545",
+      "16464248",
+      "15657920",
+      "15520816",
+      "10720316"
+    ],
+    "similar": [
+      "37993971",
+      "30867845",
+      "28775339",
+      "25341426",
+      "21743494",
+      "30366988",
+      "32863950",
+      "23447575",
+      "32703153",
+      "31124185",
+      "22929591",
+      "20026813",
+      "19348649",
+      "36678712",
+      "34164628",
+      "25486483",
+      "22871739",
+      "37537694",
+      "35728285",
+      "23377972",
+      "27046143",
+      "31562957",
+      "23692959",
+      "25377899",
+      "29848268",
+      "24870800",
+      "29545755",
+      "36346808",
+      "35700712",
+      "18754770",
+      "32010624",
+      "25449786",
+      "26904540",
+      "34362878",
+      "36134605",
+      "30458000",
+      "34155961",
+      "26024388",
+      "33327637",
+      "32767629",
+      "24130051",
+      "32354165",
+      "30798436",
+      "12080472",
+      "34019961",
+      "20832018",
+      "31473433",
+      "31287003",
+      "30127643",
+      "21454583",
+      "28068326",
+      "26659825",
+      "17146434",
+      "26268246",
+      "25616897",
+      "31142321",
+      "25101673",
+      "29901191",
+      "34607562",
+      "26350215",
+      "15574415",
+      "35724476",
+      "35195941",
+      "7791903",
+      "36477977",
+      "35536362",
+      "14739777",
+      "28344092",
+      "34668739",
+      "16170383",
+      "29405038",
+      "16481740",
+      "28131904",
+      "25081543",
+      "9486847",
+      "22484375",
+      "28079609",
+      "26616862",
+      "22514743",
+      "30212088",
+      "31934717",
+      "24554192",
+      "37305163"
+    ],
+    "review": [
+      "37993971",
+      "30366988",
+      "36678712",
+      "23377972",
+      "27046143",
+      "31562957",
+      "29848268",
+      "20832018",
+      "25101673",
+      "29405038",
+      "28131904"
+    ],
+    "pmc": [
+      "10666365"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37993971/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37993971",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

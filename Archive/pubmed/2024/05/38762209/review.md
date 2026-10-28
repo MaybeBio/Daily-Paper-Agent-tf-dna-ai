@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors propose that resveratrol (RES), an aglycone of polydatin from *Polygonum cuspidatum*, directly binds to the NRF2-DLG motif at Ile28, disrupts KEAP1-NRF2 interaction, prevents NRF2 ubiquitination and degradation, activates ARE-dependent antioxidant gene expression, reduces ROS, and ameliorates oxidative lung injury in a mouse model of pathogenic infection
+- **Visible evidence base** Abstract text only; no figures, tables, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, experimental data, statistical analyses, docking coordinates, validation details for knockdown/reconstruction, and in vivo infection model specifics
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically coherent and potentially interesting hypothesis linking a natural product to a defined protein-protein interaction interface. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims regarding direct binding, residue-specific interaction, functional consequences, and in vivo efficacy. The work may be of interest to researchers in redox biology, natural product pharmacology, and acute lung injury, but the current evidence is insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers studying NRF2-KEAP1 signaling, oxidative stress in infectious lung injury, natural product target identification, and drug discovery for antioxidant therapies would find the results relevant. The proposed mechanism of targeting the DLG motif rather than the ETGE motif could offer a new pharmacological angle for NRF2 activation.
+- **Major strengths** The study integrates multiple orthogonal techniques (DARTS, CETSA, Co-IP, MST) to probe target engagement, which is a rigorous approach for natural product target identification. The use of functional probes for RES distribution and the inclusion of both in vitro and in vivo models strengthen the translational relevance. The focus on a specific binding residue (Ile28) provides a testable mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** RES disrupts KEAP1-NRF2 binding by interacting with Ile28 on the NRF2-DLG motif, thereby preventing NRF2 ubiquitination and degradation
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract states that RES binds to Ile28 on the DLG motif and disrupts KEAP1-NRF2 interaction, but no quantitative binding data, mutagenesis validation, or structural evidence is presented. The claim of a specific residue interaction requires direct experimental support, such as site-directed mutagenesis showing loss of RES effect, or co-crystal or NMR structures.
+  - **Why it matters** The central novelty of the paper hinges on the specificity of the RES-NRF2 interaction at Ile28. Without residue-level validation, the proposed mechanism remains speculative and could be confounded by indirect effects on KEAP1 or NRF2 stability.
+  - **Resolution test** Provide mutagenesis data (e.g., NRF2 I28A or I28E mutants) showing abrogation of RES binding and functional effects, or structural data demonstrating the interaction. Quantitative binding affinity (e.g., MST Kd) for wild-type versus mutant NRF2 peptides would be required.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo evidence
+  - **Claim pointer** RES ameliorates oxidative stress damage in a mouse model of pathogenic infection
+  - **Evidence pointer** Abstract, Results and Conclusion sections; location not provided
+  - **Concern** The abstract mentions a mouse model of pathogenic infection but provides no details on the pathogen, infection route, dose, timing, or outcome measures. The claim of amelioration of oxidative damage is not supported by specific data on lung histology, oxidative markers, survival, or bacterial load.
+  - **Why it matters** The translational relevance of the study depends on the in vivo efficacy. Without clear experimental parameters and quantitative outcomes, the claim cannot be evaluated for robustness or clinical potential.
+  - **Resolution test** Provide detailed methods for the infection model, including pathogen strain, inoculum, treatment regimen, and endpoints. Include data on oxidative stress markers (e.g., MDA, GSH, ROS), lung injury scores, and survival or morbidity outcomes with statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of RES action
+  - **Claim pointer** RES specifically targets NRF2-DLG motif interaction, and this is the primary mechanism for its antioxidant effects
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract does not address whether RES has off-target effects on other KEAP1-binding partners or other redox-sensitive pathways. The claim that RES acts "in conjunction with NRF2 activators" is ambiguous and not clarified in the abstract.
+  - **Why it matters** Natural products often have pleiotropic effects. Without specificity controls (e.g., NRF2 knockout or KEAP1 knockdown rescue experiments), the attribution of the observed effects solely to the DLG motif interaction is not established.
+  - **Resolution test** Include experiments with NRF2-knockout cells or animals showing loss of RES protective effects, and assess whether RES affects other KEAP1-dependent or independent pathways.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title; location not provided
+  - **Issue** The title states "Resveratrol targeting NRF2 disrupts the binding between KEAP1 and NRF2-DLG motif," which implies a direct targeting mechanism. However, the abstract does not clarify whether RES binds NRF2 directly or modulates the interaction indirectly.
+  - **Required correction** Revise the title to reflect the evidence level, e.g., "Resveratrol disrupts KEAP1-NRF2 interaction via the DLG motif to ameliorate oxidative stress in pulmonary infection," or provide direct binding evidence to justify the current wording.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, Methods section
+  - **Evidence pointer** Abstract, Materials and Methods; location not provided
+  - **Issue** The term "NRF2-knockdownand reconstructed cells" appears to be a typographical error or unclear phrasing. It is not clear whether this refers to knockdown and reconstitution with wild-type or mutant NRF2.
+  - **Required correction** Clarify the experimental design, e.g., "NRF2-knockdown cells reconstituted with wild-type or mutant NRF2."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results; location not provided
+  - **Issue** The abstract states that RES "accumulates in lung macrophages," but no data on cellular uptake, distribution, or concentration are provided.
+  - **Required correction** Include a brief description of the functional probe results or quantitative uptake data to support this claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (residue-specific binding validation), R1-M2 (in vivo model details and outcomes), R1-M3 (specificity controls)
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed targeting of the DLG motif rather than the ETGE motif is a potentially novel angle, but the abstract does not provide sufficient evidence to distinguish this from previously described NRF2 activators.  
+  - Scientific importance: The topic is relevant to oxidative stress and infectious lung injury, but the significance is not fully established without robust in vivo data.  
+  - Interdisciplinary readership: The work bridges pharmacology, redox biology, and infectious disease, which could appeal to a broad audience, but the abstract is too specialized in its current form.  
+  - Technical soundness: The use of multiple orthogonal assays is commendable, but the lack of quantitative data and validation details limits the assessment.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with KEAP1-NRF2 signaling, which may hinder accessibility for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the methodological approach is promising, but the abstract alone does not provide sufficient data to support the central claims. A revised manuscript with full experimental details, quantitative binding data, mutagenesis validation, and robust in vivo outcomes would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The specific interaction between RES and Ile28 on the NRF2-DLG motif is unsupported without mutagenesis or structural data.
+- The claim that RES prevents NRF2 ubiquitination and degradation is not directly evidenced in the abstract.
+- The in vivo efficacy in a mouse model of pathogenic infection is unverifiable without model details and outcome data.
+- The statement that RES "accumulates in lung macrophages" is unsupported by quantitative data.
+- The phrase "in conjunction with NRF2 activators" is ambiguous and not explained.

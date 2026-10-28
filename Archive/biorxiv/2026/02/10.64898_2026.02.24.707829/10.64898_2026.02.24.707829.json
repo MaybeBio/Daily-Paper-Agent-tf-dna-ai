@@ -1,0 +1,824 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.24.707829",
+  "title": "Decoding the Allosteric Paradox: A Dual Framework Integrating AI Cofolding Models with Landscape-Guided Interpretable AI Framework of Ligand-Protein Binding",
+  "doi": "10.64898/2026.02.24.707829",
+  "abstract": "Artificial intelligence (AI) has transformed prediction of protein structure and biomolecular interactions, yet modeling of allosteric regulation remains a persistent and unresolved challenge. We develop a dual explainable AI framework that systematically interrogates AI Co-Folding models AlphaFold3, Protenix, Boltz-2, Chai-1, and DynamicBind on rigorously stratified datasets of orthosteric and allosteric ligand-protein complexes. While all AI models excel in accurate modeling of orthosteric ligand binding, a universal and architecture-independent collapse emerges in prediction of allosteric complexes. The biophysical logic for this dichotomy is unveiled through physics-based lens of the energy landscape theory and local frustration analysis. Orthosteric binding creates dominant energetic funnels via ligand-induced minimal frustration quenching, while allosteric sites preserve neutral frustration landscapes in both apo and holo protein states. The findings show that conformational heterogeneity and evolutionary plasticity encoded in allosteric binding landscapes may conceal the recurrent recognition patterns AI models are trained to detect. By linking prediction outcomes to frustration landscapes, this study recasts AI shortcomings in allosteric ligand binding as diagnostic indicators of fundamental biophysical constraints, establishing a physics-informed framework that turns the allosteric blind spot into mechanistic insight for next-generation landscape-aware predictive tools.",
+  "authors": [
+    "Vedant Parikh",
+    "Brandon Foley",
+    "Will Gatlin",
+    "Max Ludwick",
+    "Lucas Turano",
+    "Gennady M. Verkhivker"
+  ],
+  "published_date": "2026-02-26",
+  "updated_date": "2026-02-27T01:20:19Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707829",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707829.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2026-08-22T15:45:21Z",
+        "timestamp": 1787413521728,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 97,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                26
+              ]
+            ],
+            "date-time": "2026-02-26T00:00:00Z",
+            "timestamp": 1772064000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "1R01AI181600-01"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1R01AI181600-01"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/043z4tv69",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "5R01AI181600-02"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "5R01AI181600-02"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/043z4tv69",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "Subaward 6069-SC24-11"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Subaward 6069-SC24-11"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/043z4tv69",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Artificial intelligence (AI) has transformed prediction of protein structure and biomolecular interactions, yet modeling of allosteric regulation remains a persistent and unresolved challenge. We develop a dual explainable AI framework that systematically interrogates AI Co-Folding models AlphaFold3, Protenix, Boltz-2, Chai-1, and DynamicBind on rigorously stratified datasets of orthosteric and allosteric ligand-protein complexes. While all AI models excel in accurate modeling of orthosteric ligand binding, a universal and architecture-independent collapse emerges in prediction of allosteric complexes. The biophysical logic for this dichotomy is unveiled through physics-based lens of the energy landscape theory and local frustration analysis. Orthosteric binding creates dominant energetic funnels via ligand-induced minimal frustration quenching, while allosteric sites preserve neutral frustration landscapes in both apo and holo protein states. The findings show that conformational heterogeneity and evolutionary plasticity encoded in allosteric binding landscapes may conceal the recurrent recognition patterns AI models are trained to detect. By linking prediction outcomes to frustration landscapes, this study recasts AI shortcomings in allosteric ligand binding as diagnostic indicators of fundamental biophysical constraints, establishing a physics-informed framework that turns the allosteric blind spot into mechanistic insight for next-generation landscape-aware predictive tools.</jats:p>",
+      "DOI": "10.64898/2026.02.24.707829",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T01:20:19Z",
+        "timestamp": 1772155219000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Decoding the Allosteric Paradox: A Dual Framework Integrating AI Cofolding Models with Landscape-Guided Interpretable AI Framework of Ligand-Protein Binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0004-3060-8209",
+          "authenticated-orcid": false,
+          "given": "Vedant",
+          "family": "Parikh",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brandon",
+          "family": "Foley",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Will",
+          "family": "Gatlin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Max",
+          "family": "Ludwick",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lucas",
+          "family": "Turano",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4507-4471",
+          "authenticated-orcid": false,
+          "given": "Gennady M.",
+          "family": "Verkhivker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Keck Center for Science and Engineering, Graduate Program in Computational and Data Sciences, Schmid College of Science and Technology, Chapman University, Orange, CA 92866, United States of America"
+            },
+            {
+              "name": "Department of Biomedical and Pharmaceutical Sciences, Chapman University School of Pharmacy, Irvine, CA 92618, United States of America"
+            },
+            {
+              "name": "Department of Pharmacology, Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03828-1"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2018.01.039"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06735-9"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01618-2"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patter.2025.101346"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.07.21.500999"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adl2528"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2021.167007"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.75751"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1010483"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac202"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4353"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-51801-z"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06832-9"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.11.21.567977"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-51507-2"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02272-z"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.08.04.502811"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.4c00222"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms251810082"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2410662121"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2203.02923"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2206.01729"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2210.01776"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2402.18396"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07487-w"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d3sc04185a"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-025-63947-5"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.01.08.631967"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.06.14.659707"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.70053"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.70061"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.10.10.615955"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-45461-2"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2202.05146"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-024-00737-x"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.06.06.495043"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ads0018"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06728-8"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-168"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp562"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41401-019-0228-6"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr331"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-018-0285-8"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaf421"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0160315"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx350"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmgm.2019.107454"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-61860-z"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-020-01350-0"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btae745"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2025.103020"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-4662-5_5"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-024-00821-4"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c01698"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/BIBM55620.2022.9995025"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaf431"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-51844-2"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0771-1"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt399"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00014"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad915"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaf294"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-36699-3"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d5sc05395a"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D2SC06272K"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0709915104"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw304"
+        },
+        {
+          "issue": "10",
+          "key": "2026030121451710000_2026.02.24.707829v1.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "2513",
+          "DOI": "10.1021/acs.jpcb.0c11068",
+          "article-title": "Frustration in Fuzzy Protein Complexes Leads to Interaction Versatility",
+          "volume": "125",
+          "year": "2021",
+          "journal-title": "J Phys Chem B"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.77",
+          "doi-asserted-by": "crossref",
+          "first-page": "5944",
+          "DOI": "10.1038/s41467-020-19560-9",
+          "article-title": "Surveying biomolecular frustration at atomic resolution",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.0c00813"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mam.2025.101362"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0026071"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00124"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d2cp01893d"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D5CP04209G"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1814279116"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab920"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dib.2021.106816"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41597-024-03233-z"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.64898/2025.12.25.696505"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.07.17.603955"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41401-025-01721-5"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki524"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa018"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-019-0362-7"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-020-00455-2"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444913007051"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.2517-6161.1995.tb02031.x"
+        },
+        {
+          "key": "2026030121451710000_2026.02.24.707829v1.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13040-025-00465-6"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.24.707829",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ],
+        "date-time": "2026-03-02T05:45:22Z",
+        "timestamp": 1772430322000
+      },
+      "score": 81.965805,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.02.24.707829"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ]
+      },
+      "references-count": 97,
+      "URL": "https://doi.org/10.64898/2026.02.24.707829",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

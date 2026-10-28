@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report differential expression of seven blast negative regulatory genes in indica rice cultivars during Magnaporthe oryzae infection, with OsHDT701 downregulated in tolerant/resistant and upregulated in susceptible cultivars. They report promoter motif analysis, protein-DNA docking predictions, an OsERF922-GCC box interaction, a comparative SNP analysis across 11 indica cultivars, and structural and protein-protein interaction modeling suggesting OsHDT701 forms complexes with other histone deacetylases.
+- **Visible evidence base** Abstract text only; no experimental details, statistical values, docking scores, or model validation metrics are provided
+- **Missing materials affecting confidence** Full methods, expression data with replicates and statistics, promoter sequence alignments, docking parameters and scores, SNP validation data, structural model quality metrics, and any wet lab validation beyond expression analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible hypothesis-driven study linking OsHDT701 regulation to rice blast susceptibility in indica cultivars. The combination of expression analysis, promoter motif identification, and computational docking is interesting. However, the abstract alone does not provide sufficient quantitative evidence to assess the robustness of the conclusions. The central claims regarding regulatory mechanisms rest largely on computational predictions that require experimental validation. The study is potentially valuable for the rice pathology community, but the current evidence base is insufficient to establish the proposed regulatory model.
+- **Who would be interested in the results, and why** Rice pathologists and breeders working on blast resistance, particularly those focused on indica cultivars; researchers studying histone deacetylases in plant immunity; computational biologists interested in protein-DNA interaction prediction applied to crop disease resistance.
+- **Major strengths** The study addresses a relevant problem in rice blast resistance using a susceptible indica cultivar of regional importance. The integration of wet lab expression analysis with computational promoter and docking approaches is a reasonable strategy. The focus on negative regulatory genes, which are less studied than positive regulators, adds potential novelty. The identification of a specific SNP in OsHDT701 across indica cultivars could have practical implications for marker development.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that OsHDT701 is downregulated in tolerant/resistant and upregulated in susceptible cultivars, and that this differential expression is meaningful for blast susceptibility.
+  - **Evidence pointer** Abstract, expression analysis section; location not provided
+  - **Concern** The abstract provides no quantitative data, no statistical tests, no replicate numbers, and no time-course details for the expression analysis. It is impossible to assess whether the observed differences are robust, reproducible, or biologically significant.
+  - **Why it matters** The differential expression claim is the foundation of the entire study. Without statistical support, the subsequent promoter analysis and docking predictions lose their contextual relevance.
+  - **Resolution test** Provide expression values with error bars, statistical significance (e.g., p-values or fold-change thresholds), replicate counts, and time points. The claim is established only if the differential expression is statistically significant and consistent across biological replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The authors claim that protein-DNA docking shows interactions between M. oryzae effectors (MoHTR2 and MoSPAB1) and OsHDT701 promoter sequences, and that OsERF922 binds the GCC box.
+  - **Evidence pointer** Abstract, docking and promoter analysis sections; location not provided
+  - **Concern** Docking results are presented without any scoring metrics, confidence thresholds, or comparison to negative controls. The abstract does not indicate whether these interactions were validated experimentally (e.g., EMSA, ChIP, or yeast one-hybrid).
+  - **Why it matters** Computational docking predictions are hypothesis-generating, not confirmatory. Without experimental validation or at least robust scoring criteria, the claimed regulatory interactions remain speculative.
+  - **Resolution test** Provide docking scores, statistical significance relative to decoys, and experimental validation of at least one key interaction (e.g., OsERF922-GCC box binding). The claim is established only if experimental evidence supports the predicted interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that OsHDT701 may form a complex with other histone deacetylases to regulate defense-related gene expression.
+  - **Evidence pointer** Abstract, protein-protein interaction section; location not provided
+  - **Concern** The abstract provides no details on how this complex formation was predicted or assessed. No experimental evidence (e.g., co-immunoprecipitation, yeast two-hybrid) is mentioned. The functional consequence of such a complex on defense gene expression is not demonstrated.
+  - **Why it matters** The proposed mechanism is central to the study's conclusion about OsHDT701 regulation during infection. Without evidence of complex formation and functional impact, this remains an untested hypothesis.
+  - **Resolution test** Provide experimental evidence of protein-protein interaction and a functional assay linking the complex to defense gene regulation. The claim is established only if such evidence is presented.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Cultivar classification
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The terms "susceptible" and "tolerant/resistant" are used without defining the criteria or the source of these classifications.
+  - **Required correction** Specify the resistance scores or phenotypic data used to classify the cultivars.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** SNP analysis
+  - **Evidence pointer** Abstract, comparative analysis section; location not provided
+  - **Issue** The SNP (T-A) at position 591 is mentioned but its potential functional consequence (e.g., amino acid change, splice effect) is not described.
+  - **Required correction** State whether the SNP is non-synonymous or synonymous and discuss its potential impact on protein function.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Gene selection
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The abstract states the seven genes were "previously characterized in ssp. japonica" but does not explain why these specific genes were selected for study in indica cultivars.
+  - **Required correction** Provide a brief rationale for gene selection, linking to prior functional evidence and relevance to blast resistance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (expression data without statistics), R1-M2 (docking without validation), R1-M3 (complex formation without functional evidence)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of known negative regulators to a specific indica cultivar is somewhat incremental, though the combined wet lab and computational approach adds some novelty.
+  - Scientific importance: Moderate. The study addresses a relevant disease, but the abstract does not demonstrate a major conceptual advance beyond existing knowledge of blast negative regulators.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to rice pathologists and plant molecular biologists; the computational aspects are standard and unlikely to attract a broader readership.
+  - Technical soundness: Not assessable from the abstract. Key quantitative and validation details are absent.
+  - Readability for nonspecialists: Acceptable. The abstract is clearly written, though some terms (e.g., MoHTR2, MoSPAB1) are used without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient quantitative or validated evidence to support the central claims. A full manuscript with detailed methods, statistics, and experimental validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that OsHDT701 is differentially expressed in a biologically meaningful way is unsupported without statistical data.
+- The claim that M. oryzae effectors bind the OsHDT701 promoter is unsupported without docking scores or experimental validation.
+- The claim that OsERF922 regulates OsHDT701 via GCC box binding is unsupported without binding assays.
+- The claim that OsHDT701 forms functional complexes with other histone deacetylases is unsupported without interaction and functional data.
+- The SNP (T-A) at position 591 is reported without functional annotation or validation.
+- The overall conclusion about "new possibilities for OsHDT701 regulation mechanisms" is speculative given the lack of experimental confirmation.

@@ -1,0 +1,539 @@
+{
+  "identity": {
+    "pmid": "36305646",
+    "doi": "10.1002/ijc.34337",
+    "title": "DNA methylation biomarkers for noninvasive detection of triple-negative breast cancer using liquid biopsy."
+  },
+  "content": {
+    "abstract": "Noninvasive detection of aberrant DNA methylation could provide invaluable biomarkers for earlier detection of triple-negative breast cancer (TNBC) which could help clinicians with easier and more efficient treatment options. We evaluated genome-wide DNA methylation data derived from TNBC and normal breast tissues, peripheral blood of TNBC cases and controls and reference samples of sorted blood and mammary cells. Differentially methylated regions (DMRs) between TNBC and normal breast tissues were stringently selected, verified and externally validated. A machine-learning algorithm was applied to select the top DMRs, which then were evaluated on plasma-derived circulating cell-free DNA (cfDNA) samples of TNBC patients and healthy controls. We identified 23 DMRs accounting for the methylation profile of blood cells and reference mammary cells and then selected six top DMRs for cfDNA analysis. We quantified un-/methylated copies of these DMRs by droplet digital PCR analysis in a plasma test set from TNBC patients and healthy controls and confirmed our findings obtained on tissues. Differential cfDNA methylation was confirmed in an independent validation set of plasma samples. A methylation score combining signatures of the top three DMRs overlapping with the SPAG6, LINC10606 and TBCD/ZNF750 genes had the best capability to discriminate TNBC patients from controls (AUC = 0.78 in the test set and AUC = 0.74 in validation set). Our findings demonstrate the usefulness of cfDNA-based methylation signatures as noninvasive liquid biopsy markers for the diagnosis of TNBC.",
+    "keywords": [
+      "DNA methylation",
+      "biomarker",
+      "liquid biopsy",
+      "noninvasive detection",
+      "triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "DNA Methylation",
+      "*Triple Negative Breast Neoplasms/diagnosis/genetics/pathology",
+      "Biomarkers, Tumor/genetics",
+      "DNA",
+      "*Cell-Free Nucleic Acids/genetics",
+      "Genetic Markers",
+      "Liquid Biopsy",
+      "Microtubule-Associated Proteins/genetics",
+      "Transcription Factors/genetics",
+      "Tumor Suppressor Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Manoochehri, Mehdi",
+        "Borhani, Nasim",
+        "Gerhauser, Clarissa",
+        "Assenov, Yassen",
+        "Schonung, Maximilian",
+        "Hielscher, Thomas",
+        "Christensen, Brock C",
+        "Lee, Min Kyung",
+        "Grone, Hermann-Josef",
+        "Lipka, Daniel B",
+        "Bruning, Thomas",
+        "Brauch, Hiltrud",
+        "Ko, Yon-Dschun",
+        "Hamann, Ute"
+      ],
+      "short_names": [
+        "Manoochehri M",
+        "Borhani N",
+        "Gerhauser C",
+        "Assenov Y",
+        "Schonung M",
+        "Hielscher T",
+        "Christensen BC",
+        "Lee MK",
+        "Grone HJ",
+        "Lipka DB",
+        "Bruning T",
+        "Brauch H",
+        "Ko YD",
+        "Hamann U"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2097-2558",
+        "ORCID: 0000-0002-5792-3901",
+        "ORCID: 0000-0002-6992-2092",
+        "ORCID: 0000-0002-9778-9698",
+        "ORCID: 0000-0003-3022-426X",
+        "ORCID: 0000-0001-5081-7869",
+        "ORCID: 0000-0001-7531-2736",
+        "ORCID: 0000-0002-5294-6266"
+      ],
+      "affiliations": [
+        "Molecular Genetics of Breast Cancer, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Department of In Vitro Diagnostics, Fraunhofer Institute for Interfacial Engineering and Biotechnology IGB, Stuttgart, Germany.",
+        "Molecular Genetics of Breast Cancer, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Cancer Epigenomics, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Cancer Epigenomics, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Section Translational Cancer Epigenomics, Translational Medical Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "National Center for Tumor Diseases (NCT), Heidelberg, Germany.",
+        "Faculty of Biosciences, Heidelberg University, Heidelberg, Germany.",
+        "Biostatistics, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Lebanon, New Hampshire, USA.",
+        "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Lebanon, New Hampshire, USA.",
+        "Department of Pharmacology, University of Marburg, Marburg, Germany.",
+        "Section Translational Cancer Epigenomics, Translational Medical Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "National Center for Tumor Diseases (NCT), Heidelberg, Germany.",
+        "Institute for Prevention & Occupational Medicine of the German Social Accident Insurance, Institute of the Ruhr University Bochum (IPA), Bochum, Germany.",
+        "Dr. Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart, Germany.",
+        "iFIT Cluster of Excellence, University of Tubingen, Tubingen, Germany.",
+        "German Cancer Consortium (DKTK) and German Cancer Research Center (DKFZ), Tubingen, Germany.",
+        "Department of Internal Medicine, Evangelische Kliniken Bonn gGmbH, Johanniter Krankenhaus, Bonn, Germany.",
+        "Molecular Genetics of Breast Cancer, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Manoochehri, Mehdi",
+        "short_name": "Manoochehri M",
+        "identifiers": [
+          "0000-0002-2097-2558"
+        ],
+        "affiliations": [
+          "Molecular Genetics of Breast Cancer, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Department of In Vitro Diagnostics, Fraunhofer Institute for Interfacial Engineering and Biotechnology IGB, Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Borhani, Nasim",
+        "short_name": "Borhani N",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics of Breast Cancer, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gerhäuser, Clarissa",
+        "short_name": "Gerhäuser C",
+        "identifiers": [
+          "0000-0002-5792-3901"
+        ],
+        "affiliations": [
+          "Cancer Epigenomics, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Assenov, Yassen",
+        "short_name": "Assenov Y",
+        "identifiers": [
+          "0000-0002-6992-2092"
+        ],
+        "affiliations": [
+          "Cancer Epigenomics, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Schönung, Maximilian",
+        "short_name": "Schönung M",
+        "identifiers": [
+          "0000-0002-9778-9698"
+        ],
+        "affiliations": [
+          "Section Translational Cancer Epigenomics, Translational Medical Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "National Center for Tumor Diseases (NCT), Heidelberg, Germany.",
+          "Faculty of Biosciences, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hielscher, Thomas",
+        "short_name": "Hielscher T",
+        "identifiers": [],
+        "affiliations": [
+          "Biostatistics, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Christensen, Brock C",
+        "short_name": "Christensen BC",
+        "identifiers": [
+          "0000-0003-3022-426X"
+        ],
+        "affiliations": [
+          "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Lebanon, New Hampshire, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Min Kyung",
+        "short_name": "Lee MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Lebanon, New Hampshire, USA."
+        ]
+      },
+      {
+        "full_name": "Gröne, Hermann-Josef",
+        "short_name": "Gröne HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of Marburg, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Lipka, Daniel B",
+        "short_name": "Lipka DB",
+        "identifiers": [
+          "0000-0001-5081-7869"
+        ],
+        "affiliations": [
+          "Section Translational Cancer Epigenomics, Translational Medical Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "National Center for Tumor Diseases (NCT), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Brüning, Thomas",
+        "short_name": "Brüning T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Prevention & Occupational Medicine of the German Social Accident Insurance, Institute of the Ruhr University Bochum (IPA), Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Brauch, Hiltrud",
+        "short_name": "Brauch H",
+        "identifiers": [
+          "0000-0001-7531-2736"
+        ],
+        "affiliations": [
+          "Dr. Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart, Germany.",
+          "iFIT Cluster of Excellence, University of Tübingen, Tübingen, Germany.",
+          "German Cancer Consortium (DKTK) and German Cancer Research Center (DKFZ), Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Ko, Yon-Dschun",
+        "short_name": "Ko YD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Evangelische Kliniken Bonn gGmbH, Johanniter Krankenhaus, Bonn, Germany."
+        ]
+      },
+      {
+        "full_name": "Hamann, Ute",
+        "short_name": "Hamann U",
+        "identifiers": [
+          "0000-0002-5294-6266"
+        ],
+        "affiliations": [
+          "Molecular Genetics of Breast Cancer, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of cancer"
+    ],
+    "journal_abbrev": [
+      "Int J Cancer"
+    ],
+    "pub_date": "2023 Mar 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/29 06:00",
+    "fetched_at": "2026-09-28 15:21:55"
+  },
+  "links": {
+    "cites": [
+      "42334419",
+      "42099744",
+      "42003932",
+      "41917473",
+      "41685588",
+      "41602389",
+      "41595775",
+      "41594336",
+      "41303467",
+      "41266596",
+      "41091842",
+      "40943642",
+      "40870010",
+      "40860669",
+      "40838355",
+      "40830871",
+      "40594531",
+      "40577268",
+      "40534429",
+      "40524177",
+      "40269936",
+      "40177272",
+      "40056068",
+      "40011499",
+      "40001587",
+      "39463997",
+      "39051055",
+      "38933971",
+      "38857504",
+      "38845821",
+      "38293277",
+      "38124399",
+      "38057269",
+      "37857941",
+      "37717549",
+      "37686305",
+      "37641116",
+      "37528266",
+      "37047814"
+    ],
+    "refs": [],
+    "similar": [
+      "36305646",
+      "39199384",
+      "39038922",
+      "36715539",
+      "29328369",
+      "35973389",
+      "35538556",
+      "36636912",
+      "34641873",
+      "30003738",
+      "30867848",
+      "39030196",
+      "37101220",
+      "34670587",
+      "33608029",
+      "34922619",
+      "30208740",
+      "32678138",
+      "37032646",
+      "35798798",
+      "38856716",
+      "36675313",
+      "32544280",
+      "27993161",
+      "34957998",
+      "33081832",
+      "36461127",
+      "25684485",
+      "26353837",
+      "36722130",
+      "33522650",
+      "29686738",
+      "32816580",
+      "35450968",
+      "34791072",
+      "34003815",
+      "36393855",
+      "31234922",
+      "32520974",
+      "37501075",
+      "31469414",
+      "38062163",
+      "30786922",
+      "35681212",
+      "35504321",
+      "38308296",
+      "36288287",
+      "39094578",
+      "35065650",
+      "38156835",
+      "25641231",
+      "34789319",
+      "37710283",
+      "33500194",
+      "31775567",
+      "36379302",
+      "30634483",
+      "29275584",
+      "37740218",
+      "34698107",
+      "34465601",
+      "38305604",
+      "37239866",
+      "34053447",
+      "35126793",
+      "24709436",
+      "32841306",
+      "30203490",
+      "27130446",
+      "35866394",
+      "33694305",
+      "36417488",
+      "29258605",
+      "28982739",
+      "38429730",
+      "29706556",
+      "31342401",
+      "29126392",
+      "31727158",
+      "32338339",
+      "26568208",
+      "38414068",
+      "26195437",
+      "35818933",
+      "34680511",
+      "33159839",
+      "34976309",
+      "28643125",
+      "25783183",
+      "32649035",
+      "38869474",
+      "37481552",
+      "38901639",
+      "38632274",
+      "29376201",
+      "38750495",
+      "25906045",
+      "37787018",
+      "34243735",
+      "29374860",
+      "37425680",
+      "32314111",
+      "30977117",
+      "31731051",
+      "33508734",
+      "37399400",
+      "30286088",
+      "24642624",
+      "36153611",
+      "32067681",
+      "28423538",
+      "31789396",
+      "29310680",
+      "30655558",
+      "30239174",
+      "27449045",
+      "31755366",
+      "23320751",
+      "38201510",
+      "38926407",
+      "36646885",
+      "39177091",
+      "38478957",
+      "35763697",
+      "38455396",
+      "37015943",
+      "38342253",
+      "38313016",
+      "35941262",
+      "31690011",
+      "39271293",
+      "33334040",
+      "39003776",
+      "38961476",
+      "36925290",
+      "27983717",
+      "36849097",
+      "37223690",
+      "37777714",
+      "38414041",
+      "36653380",
+      "37012121",
+      "37450124",
+      "36653909",
+      "35409133",
+      "31908742",
+      "37039321",
+      "36400018",
+      "36046124",
+      "37060900",
+      "36640950",
+      "38472221",
+      "38988931",
+      "36160046",
+      "38584223",
+      "38163539",
+      "38134587",
+      "39206580",
+      "35681440",
+      "37251903",
+      "37628686",
+      "34663458",
+      "38462648",
+      "36909691",
+      "36076083",
+      "38020656",
+      "38587071",
+      "37058491",
+      "39139156",
+      "36534524",
+      "35034473",
+      "37108441",
+      "37798621",
+      "36555856",
+      "37318863",
+      "38824198",
+      "35328380",
+      "36601578",
+      "38260372",
+      "33330022",
+      "38462745"
+    ],
+    "review": [
+      "36305646",
+      "36715539",
+      "36675313",
+      "33500194",
+      "30634483",
+      "29706556",
+      "26568208",
+      "34976309",
+      "38901639",
+      "36153611",
+      "36646885",
+      "38478957",
+      "38313016",
+      "33334040",
+      "37012121",
+      "37450124",
+      "38134587",
+      "34663458",
+      "37798621"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36305646.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/ijc.34337",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36305646",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse207998",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

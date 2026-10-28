@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a computational screening of 115 small molecules against three binding sites on HPV E6 (E6AP, p53, GRP78) using molecular docking, followed by molecular dynamics (MD) simulations and free energy calculations for the top three complexes. They identify 18 compounds with lower free energies than paclitaxel (positive control), with hypericin and anabsinthin emerging as the best candidates based on stable 100 ns MD simulations and average free energies of -18.76 and -14.40 kcal/mol, respectively. Key stabilizing residues are listed for each binding site. The authors conclude these compounds are potential candidates to block E6 oncoprotein activity, pending experimental validation.
+- **Visible evidence base** Abstract text only; no methodological details, numerical results beyond those stated, structural data, or validation metrics are available
+- **Missing materials affecting confidence** Full methods (docking parameters, scoring functions, MD simulation settings, force fields, solvation models), detailed results (docking scores for all 18 compounds, RMSD/RMSF plots, energy decomposition), validation of docking protocol (e.g., redocking, enrichment), and any statistical analyses. The absence of these materials limits the ability to assess technical soundness and reproducibility.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow for identifying small-molecule inhibitors of HPV E6, addressing a relevant oncological target. However, the claims of efficacy and stability are based on limited evidence, and the lack of methodological detail prevents independent verification. The study is a preliminary in silico screen, and the conclusions are appropriately cautious regarding experimental validation. The work may interest computational biologists and virologists, but its impact is constrained by the absence of experimental confirmation and the narrow scope of the computational analysis.
+- **Who would be interested in the results, and why** Computational drug discovery researchers, particularly those focused on protein-protein interaction inhibitors, may find the docking and MD approach relevant. Virologists studying HPV pathogenesis and cervical cancer may be interested in the identification of new candidate compounds targeting E6. However, the lack of experimental data limits appeal to a broader translational audience.
+- **Major strengths** The study addresses a clinically relevant target (HPV E6) and explores a relatively underexplored binding site (GRP78) in addition to the well-known E6AP and p53 interfaces. The use of multiple computational methods (docking, MD, free energy calculations) provides a layered approach. The inclusion of a positive control (paclitaxel) is a reasonable benchmark, and the identification of specific key residues offers testable hypotheses for mutagenesis or experimental binding studies.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that 18 compounds "give lower free energies than paclitaxel (positive control)" and that hypericin and anabsinthin "could bind effectively and stably during the 100 ns MD simulation period"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract does not specify the scoring function used for docking, the criteria for selecting the "best three complexes," or the method for calculating free energies (e.g., MM-PBSA, MM-GBSA, or other). Without this information, the reported free energy values cannot be interpreted or compared. Additionally, the claim of "stability" during MD is not supported by any quantitative metrics (e.g., RMSD, RMSF, hydrogen bond occupancy), which are standard for such assessments.
+  - **Why it matters** The core conclusion that hypericin and anabsinthin are "potential candidates" rests on the reliability of the docking and MD results. If the methods are not described or validated, the findings are not reproducible, and the free energy values may be artifacts of the chosen parameters rather than meaningful binding affinities.
+  - **Resolution test** Provide full methodological details, including docking software and scoring function, MD simulation parameters (force field, water model, temperature, pressure, simulation time), and free energy calculation method. Include validation of the docking protocol (e.g., redocking of a known ligand) and present MD stability metrics (e.g., RMSD plots, RMSF, ligand-protein contact maps) for the top compounds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that hypericin and anabsinthin "formed stable complexes with the three binding sites by forming hydrophobic contacts" and the listing of key residues
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract states that the two best compounds bind to all three binding sites, but it is unclear whether this means each compound was tested separately against each site or whether a single complex was simulated. The key residues listed (e.g., V31, Y32 for E6AP) suggest site-specific interactions, but no data are shown to support the claim of "stable complexes" across all three sites. The free energy values (-18.76 and -14.40 kcal/mol) appear to be averages, but it is not stated over which site or simulation they were averaged.
+  - **Why it matters** The conclusion that these compounds can block E6 activity at multiple binding sites is central to the study's significance. If the evidence for multi-site binding is not robust, the claim of broad inhibition is overstated. The lack of clarity on how the free energies were averaged and over which complexes undermines the quantitative basis of the conclusion.
+  - **Resolution test** Clarify whether each compound was docked and simulated against each binding site independently, and report free energies per site. Provide per-site stability metrics and interaction analysis (e.g., hydrophobic contacts, hydrogen bonds) to substantiate the claim of stable binding at all three sites.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that "hypericin and anabsinthin are potential candidates against HPV E6 at the host-cell factors binding sites, hence could block the oncoprotein activity of E6 in infected cells"
+  - **Evidence pointer** Abstract, Conclusions section; location not provided
+  - **Concern** The abstract acknowledges that "experimental validation is yet to be performed," which is appropriate. However, the conclusion that these compounds "could block the oncoprotein activity" is speculative, as no cellular or biochemical data are presented. The relevance of the GRP78 binding site to E6 oncoprotein activity is mentioned in the background, but the functional consequence of inhibiting this interaction is not established in the study.
+  - **Why it matters** The translational significance of the findings depends on whether blocking E6 binding to these host factors reduces oncogenic activity. Without experimental evidence, the claim of "blocking oncoprotein activity" is an extrapolation that may mislead readers about the study's readiness for therapeutic development.
+  - **Resolution test** Soften the conclusion to state that the compounds are candidates for further testing, and explicitly note that the functional impact on E6 activity remains to be demonstrated. If possible, include preliminary experimental data (e.g., binding assays, cell-based assays) to support the claim.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Issue** The abstract states "molecular docking protocol was elaborated" but does not specify the software, scoring function, or docking approach (e.g., rigid vs. flexible). This lack of detail hampers reproducibility.
+  - **Required correction** Specify the docking software and scoring function, and describe the docking protocol in sufficient detail to allow replication.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The abstract reports "18 compounds" with lower free energies than paclitaxel but does not list these compounds or provide their scores. The selection criteria for the "best three complexes" are also unclear.
+  - **Required correction** Provide a table or list of the 18 compounds with their docking scores, and state the criteria used to select the top three for MD simulation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Conclusions
+  - **Evidence pointer** Abstract, Conclusions section; location not provided
+  - **Issue** The term "block the oncoprotein activity" is used without defining what constitutes "activity" in this context (e.g., E6-mediated p53 degradation, cell proliferation). This is imprecise.
+  - **Required correction** Define the specific oncogenic activity being targeted and clarify that the study only assesses binding, not functional inhibition.
+
+## Risk / unsupported claims
+- The claim that 18 compounds have lower free energies than paclitaxel is unsupported without details on the scoring function and statistical significance.
+- The claim of "stable complexes" during MD is unsupported without quantitative stability metrics.
+- The claim that hypericin and anabsinthin "could block the oncoprotein activity of E6" is unsupported, as no functional assays were performed.
+- The relevance of the GRP78 binding site to E6 oncogenic function is stated as background but not experimentally tested in this study.
+- The free energy values (-18.76 and -14.40 kcal/mol) are presented without context on the calculation method or error estimates, making them unverifiable.

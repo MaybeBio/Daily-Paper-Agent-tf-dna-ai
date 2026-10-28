@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods, Data availability, Acknowledgments)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text. No external literature verification or replication attempted.
+- **Shared manuscript claim summary** The authors claim that the tardigrade protein Dsup binds to DNA in living mammalian cells (demonstrated via FLIM-FRET) and that Dsup expression enhances survival of HEK293T cells and yeast under hydrogen peroxide-induced oxidative stress. They also present MD simulations suggesting a mechanistic basis for DNA binding and protection.
+- **Visible evidence base** Results sections with figures referenced (Figs 1-4), Methods section, Statistics section. Figure panels and numerical data are referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Figure images and full figure legends, Supplementary Information, Source Data files, exact numerical values for all reported statistics, and details of the yeast strain construction and validation.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the function of the tardigrade protein Dsup in living cells. The combination of MD simulations and FLIM-FRET imaging is a strong approach to directly visualize Dsup-DNA interactions in live cells, which has been a gap in the field. The functional data in both mammalian cells and yeast are potentially valuable. However, several technical and interpretive issues need to be addressed, particularly regarding the specificity of the FLIM-FRET signal, the quantitative rigor of the cell survival assays, and the statistical treatment of the data. The manuscript is promising but requires substantial revision to fully support its claims.
+- **Who would be interested in the results, and why** Researchers in the fields of extremophile biology, DNA damage and repair, oxidative stress, and cellular stress responses. The work may also interest those studying intrinsically disordered proteins and their interactions with nucleic acids. The potential translational implications for enhancing stress resistance in therapeutic or biotechnological contexts would attract a broader readership.
+- **Major strengths** 1) The study directly addresses a key gap by visualizing Dsup-DNA interactions in living cells, which has not been previously demonstrated. 2) The use of FLIM-FRET is a rigorous quantitative method for detecting molecular interactions. 3) The inclusion of both mammalian and yeast models strengthens the claim of universality. 4) The MD simulations provide a plausible mechanistic framework for the observed protective effects. 5) The use of a doxycycline-inducible system for controlled expression is a thoughtful design choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality / technical soundness
+  - **Claim pointer** "FLIM-FRET demonstrates Dsup binding to DNA in living mammalian cells"
+  - **Evidence pointer** Results section "FLIM-FRET demonstrates Dsup binding to DNA in living mammalian cells", Figure 2
+  - **Concern** The FLIM-FRET assay relies on the specificity of the interaction between EGFP-Dsup and SYTO 59-stained DNA. While the negative control with EGFP-NLS is appropriate, the manuscript does not report the measured FRET efficiency or the actual lifetime values for the negative control in the presence of SYTO 59. The text states "no difference" but does not provide the quantitative data. Additionally, the possibility of non-specific interactions due to the highly positively charged nature of Dsup (as stated in the abstract) is not fully addressed. The authors should provide a more detailed analysis of the FRET efficiency, including the distance estimates between donor and acceptor, and demonstrate that the observed lifetime reduction is due to specific Dsup-DNA binding rather than non-electrostatic effects.
+  - **Why it matters** The central claim of the paper is that Dsup binds to DNA in living cells. If the FLIM-FRET signal is not rigorously demonstrated to be specific, the entire premise of the study is weakened. The positive control with H2B-EGFP is useful, but the negative control data must be fully reported to rule out non-specific FRET.
+  - **Resolution test** Provide the full FLIM-FRET data for all conditions, including the negative control with EGFP-NLS in the presence and absence of SYTO 59. Report the mean lifetime values, standard errors, and statistical comparisons. Additionally, perform a competition experiment or use a Dsup mutant lacking DNA-binding residues to further demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality / statistical rigor
+  - **Claim pointer** "Dsup expression enhances cell survival in the presence of hydrogen peroxide" and "Dsup expression in yeast is beneficial for its survival under oxidative stresses"
+  - **Evidence pointer** Results sections "Dsup expression enhances cell survival in the presence of hydrogen peroxide" and "Effects of the Dsup protein from Tardigrade on stress-resistance of yeast", Figures 3 and 4
+  - **Concern** The cell survival data are presented as mean ± SEM, but the number of independent biological replicates is not clearly stated in the text. The figure legends are not fully visible, so it is unclear how many independent experiments were performed. For the yeast experiments, the difference in cell death between induced and non-induced conditions is reported as statistically significant at 4 hours, but the effect size is modest (approximately 10% difference). The manuscript does not report the exact p-values or the statistical test used for the yeast data. Additionally, the CCK-8 assay measures metabolic activity, which may not directly reflect cell survival. A more direct measure of cell viability, such as clonogenic survival or live/dead staining, would strengthen the claim.
+  - **Why it matters** The functional claims of the paper rest on the robustness of the survival data. If the statistical power is insufficient or the assay is not directly measuring survival, the conclusions may be overstated.
+  - **Resolution test** Clearly report the number of independent biological replicates for all experiments. Provide exact p-values and specify the statistical tests used. Consider including a clonogenic survival assay or live/dead cell staining to complement the CCK-8 data. For the yeast experiments, report the number of cells counted and the variability across replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / methodology
+  - **Claim pointer** "MD simulations of Dsup-DNA interactions" and the mechanistic interpretation that Dsup provides a physical barrier to protect DNA
+  - **Evidence pointer** Results section "MD simulations of Dsup-DNA interactions", Figure 1
+  - **Concern** The MD simulations are performed with three copies of the C-terminal region of Dsup (residues 361-445) and a 35-bp DNA. The choice of three copies is not justified, and the relevance of this multimeric state to the in vivo situation is unclear. The simulations are only 350 ns long, which may be insufficient to sample the conformational space of an intrinsically disordered protein. The manuscript does not report the force field validation or the convergence of the simulations. The claim that Dsup "slows down the melting of DNA" is based on simulations at 500 K, which is a highly artificial condition. The connection between this in silico observation and the cellular protection data is speculative.
+  - **Why it matters** The MD simulations are presented as providing mechanistic insight, but if the simulations are not robust or the conditions are not physiologically relevant, the mechanistic interpretation is weakened.
+  - **Resolution test** Justify the use of three Dsup copies and provide evidence that the simulations have converged. Consider performing simulations at physiological temperatures and with a single Dsup copy to assess the relevance of the multimeric state. Provide a more detailed analysis of the interactions, such as contact maps and binding free energy calculations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality / reproducibility
+  - **Claim pointer** "Dsup expression in yeast is beneficial for its survival under oxidative stresses caused by hydrogen peroxide"
+  - **Evidence pointer** Results section "Effects of the Dsup protein from Tardigrade on stress-resistance of yeast", Figure 4
+  - **Concern** The yeast experiments use a doxycycline-inducible promoter, but the manuscript does not report the expression levels of Dsup in the induced versus non-induced conditions. The text mentions tracking red fluorescence intensity for the mRuby-tagged version, but the untagged version used for the survival experiments is not characterized. It is unclear whether the untagged Dsup is expressed at comparable levels to the tagged version. Additionally, the manuscript does not report whether the integration of the Dsup construct affects the growth rate of the yeast in the absence of stress, which could confound the survival results.
+  - **Why it matters** Without confirming that Dsup is expressed in the induced condition and that the construct does not have unintended effects, the observed differences in survival cannot be attributed to Dsup function.
+  - **Resolution test** Provide Western blot or fluorescence data confirming Dsup expression in the induced condition for the untagged strain. Report the growth rates of induced and non-induced strains in the absence of H2O2 to rule out any growth defects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that Dsup binding to DNA was demonstrated in living cells, but the specific method (FLIM-FRET) is not mentioned. This is a key methodological innovation and should be highlighted.
+  - **Required correction** Add a brief mention of FLIM-FRET in the abstract to emphasize the methodological advance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / presentation
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction states that Dsup has "59 lysine's and 12 arginine's" with an apostrophe. This is grammatically incorrect.
+  - **Required correction** Change to "59 lysines and 12 arginines".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness / methodology
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods section "MD simulations"
+  - **Issue** The methods for MD simulations do not specify the temperature and pressure coupling algorithms used during the production runs, nor the criteria for selecting the initial conformations from TraDES.
+  - **Required correction** Provide additional details on the simulation parameters and the selection criteria for the initial structures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity / presentation
+  - **Affected element** Results, yeast experiments
+  - **Evidence pointer** Results section "Effects of the Dsup protein from Tardigrade on stress-resistance of yeast", Figure 4
+  - **Issue** The text states "Nhp4a-iRFP nuclear marker" but the protein name is likely "Nhp6a" or "Nhp2", not "Nhp4a". This appears to be a typographical error.
+  - **Required correction** Verify the correct name of the nuclear marker and correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity / presentation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion mentions "the resulting reduction in disrupted base pairs (Fig. 1c) appears qualitatively similar to the reduction in cell death (Fig. 4c)" but does not provide a quantitative comparison or a statistical test to support this visual analogy.
+  - **Required correction** Either remove this speculative comparison or provide a quantitative analysis to support it.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (FLIM-FRET specificity and quantitative data), R1-M2 (statistical rigor and biological replicates), R1-M3 (MD simulation relevance and convergence), R1-M4 (Dsup expression validation in yeast).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its direct visualization of Dsup-DNA interactions in living cells, which has not been previously reported. The combination of MD simulations and FLIM-FRET is a novel approach for this system.
+  - **Scientific importance** The findings are of high importance to the fields of extremophile biology and stress resistance. The potential for Dsup to protect cells from oxidative stress has broad implications for aging and disease research.
+  - **Interdisciplinary readership** The work will appeal to researchers in biophysics, cell biology, molecular biology, and stress biology. The methods and findings are likely to be of interest across these disciplines.
+  - **Technical soundness** The technical approach is generally sound, but the concerns raised above regarding the FLIM-FRET specificity, statistical rigor, and MD simulation relevance need to be addressed to fully support the claims.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the Methods section is dense and may be challenging for nonspecialists. The abstract and introduction are clear and engaging.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a strong methodological approach, but the current evidence does not fully support all claims. The authors should address the major concerns, particularly the FLIM-FRET specificity and the statistical rigor of the survival data, before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that Dsup provides a physical barrier to protect DNA from ROS-induced damage is not directly supported by the data. The MD simulations show binding, but the protective mechanism is inferred, not demonstrated.
+- The claim that the FLIM-FRET signal is specific to Dsup-DNA binding is not fully supported without the quantitative negative control data.
+- The claim that Dsup expression enhances survival in yeast is based on a modest effect size and requires confirmation of Dsup expression in the untagged strain.
+- The statement that "the presence of Dsup allows both mammalian and yeast cells to better cope with oxidative stress conditions" is a generalization that may be too broad given the limited conditions tested.

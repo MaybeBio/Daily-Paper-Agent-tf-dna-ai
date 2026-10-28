@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39236711",
+  "title": "Discovery of therapeutic targets in cancer using chromatin accessibility and transcriptomic data.",
+  "authors": "Forbes, Andre Neil; Xu, Duo; Cohen, Sandra; Pancholi, Priya; Khurana, Ekta",
+  "journal": "Cell systems",
+  "published_date": "2024-09-06",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用ATAC-seq和RNA-seq数据构建基因调控网络并识别关键转录因子作为癌症治疗靶点，虽涉及TF-DNA调控关系但未聚焦于TF-DNA结合机制建模，方法上以机器学习网络推断为主，缺乏三维互作建模或物理模拟，属于广义蛋白-DNA互作的应用性研究。",
+  "abstract": "Most cancer types lack targeted therapeutic options, and when first-line targeted therapies are available, treatment resistance is a huge challenge. Recent technological advances enable the use of assay for transposase-accessible chromatin with sequencing (ATAC-seq) and RNA sequencing (RNA-seq) on patient tissue in a high-throughput manner. Here, we present a computational approach that leverages these datasets to identify drug targets based on tumor lineage. We constructed gene regulatory networks for 371 patients of 22 cancer types using machine learning approaches trained with three-dimensional genomic data for enhancer-to-promoter contacts. Next, we identified the key transcription factors (TFs) in these networks, which are used to find therapeutic vulnerabilities, by direct targeting of either TFs or the proteins that they interact with. We validated four candidates identified for neuroendocrine, liver, and renal cancers, which have a dismal prognosis with current therapeutic options.",
+  "abstract_zh": "大多数癌症类型缺乏靶向治疗选择，而当一线靶向治疗可用时，治疗耐药性是一个巨大挑战。近期技术进展使得在患者组织上以高通量方式使用转座酶可及染色质测序（ATAC-seq）和RNA测序（RNA-seq）成为可能。在此，我们提出一种计算方法，利用这些数据集基于肿瘤谱系识别药物靶点。我们使用机器学习方法，结合三维基因组数据中的增强子-启动子接触，为22种癌症类型的371名患者构建了基因调控网络。接下来，我们识别了这些网络中的关键转录因子（TFs），通过直接靶向这些TFs或其相互作用的蛋白质，用于发现治疗脆弱点。我们验证了为神经内分泌癌、肝癌和肾癌识别的四个候选靶点，这些癌症在当前治疗选择下预后不良。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39236711/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39236711/",
+  "paper_page_path": "papers/pubmed/39236711/index.html"
+}

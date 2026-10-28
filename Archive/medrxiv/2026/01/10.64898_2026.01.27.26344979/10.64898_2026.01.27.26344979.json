@@ -1,0 +1,224 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.64898/2026.01.27.26344979",
+  "title": "Integrating multi-omic QTLs and predictive models reveals regulatory architectures at immune related GWAS loci in CD4+ T cells",
+  "doi": "10.64898/2026.01.27.26344979",
+  "abstract": "Functional interpretation is essential for understanding how genetic variants contribute to complex traits. Here, we identified and characterized regulatory variants in CD4+ T cells collected from 362 donors. We integrated molecular QTL mapping from single-cell RNA-seq profiles and chromatin accessibility with predicted variant effects from a deep learning model trained on chromatin accessibility data. We identified molecular features and transcription factor binding mechanisms underlying variant sharing and mediated effects across the modalities and approaches. While predicted variant effects correlated with molQTLs, only a small fraction of empirically detected molQTLs were discovered by predictive models. MolQTLs, primarily those affecting chromatin, indicated potential molecular drivers for 33% of immune-related GWAS loci, with the deep learning approach providing insights into 4.7% of GWAS loci. These results highlight the value of multi-omic data and systematic integration of empirical and predictive approaches to interpret regulatory effects of genetic variants.",
+  "authors": [
+    "Matos MR",
+    "Ghatan S",
+    "Bankier S",
+    "Thompson TV",
+    "Lundy-Perez K",
+    "Suzuki M",
+    "Doña-Termine R",
+    "Stauber J",
+    "Reynolds D",
+    "Rosales K",
+    "Griffen A",
+    "Isshiki M",
+    "Simpson D",
+    "Andrews N",
+    "Ahmed O",
+    "Gold S",
+    "Ostrowiak SR",
+    "Raj S",
+    "Milman S",
+    "Lappalainen T",
+    "Greally JM"
+  ],
+  "published_date": "2026-01-30",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.64898/2026.01.27.26344979",
+  "pdf_url": "https://www.medrxiv.org/content/10.64898/2026.01.27.26344979.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1269256",
+    "raw_record": {
+      "id": "PPR1269256",
+      "source": "PPR",
+      "doi": "10.64898/2026.01.27.26344979",
+      "title": "Integrating multi-omic QTLs and predictive models reveals regulatory architectures at immune related GWAS loci in CD4+ T cells",
+      "authorString": "Matos MR, Ghatan S, Bankier S, Thompson TV, Lundy-Perez K, Suzuki M, Doña-Termine R, Stauber J, Reynolds D, Rosales K, Griffen A, Isshiki M, Simpson D, Andrews N, Ahmed O, Gold S, Ostrowiak SR, Raj S, Milman S, Lappalainen T, Greally JM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Matos MR",
+            "lastName": "Matos",
+            "firstName": "Marliette",
+            "initials": "MR"
+          },
+          {
+            "fullName": "Ghatan S",
+            "lastName": "Ghatan",
+            "firstName": "Samuel",
+            "initials": "S"
+          },
+          {
+            "fullName": "Bankier S",
+            "lastName": "Bankier",
+            "firstName": "Sean",
+            "initials": "S"
+          },
+          {
+            "fullName": "Thompson TV",
+            "lastName": "Thompson",
+            "firstName": "Taylor",
+            "initials": "TV"
+          },
+          {
+            "fullName": "Lundy-Perez K",
+            "lastName": "Lundy-Perez",
+            "firstName": "Kassidy",
+            "initials": "K"
+          },
+          {
+            "fullName": "Suzuki M",
+            "lastName": "Suzuki",
+            "firstName": "Masako",
+            "initials": "M"
+          },
+          {
+            "fullName": "Doña-Termine R",
+            "lastName": "Doña-Termine",
+            "firstName": "Reanna",
+            "initials": "R"
+          },
+          {
+            "fullName": "Stauber J",
+            "lastName": "Stauber",
+            "firstName": "Jacob",
+            "initials": "J"
+          },
+          {
+            "fullName": "Reynolds D",
+            "lastName": "Reynolds",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Rosales K",
+            "lastName": "Rosales",
+            "firstName": "Kathleen",
+            "initials": "K"
+          },
+          {
+            "fullName": "Griffen A",
+            "lastName": "Griffen",
+            "firstName": "Anthony",
+            "initials": "A"
+          },
+          {
+            "fullName": "Isshiki M",
+            "lastName": "Isshiki",
+            "firstName": "Mariko",
+            "initials": "M"
+          },
+          {
+            "fullName": "Simpson D",
+            "lastName": "Simpson",
+            "firstName": "Danny",
+            "initials": "D"
+          },
+          {
+            "fullName": "Andrews N",
+            "lastName": "Andrews",
+            "firstName": "Nathanael",
+            "initials": "N"
+          },
+          {
+            "fullName": "Ahmed O",
+            "lastName": "Ahmed",
+            "firstName": "Omar",
+            "initials": "O"
+          },
+          {
+            "fullName": "Gold S",
+            "lastName": "Gold",
+            "firstName": "Samantha",
+            "initials": "S"
+          },
+          {
+            "fullName": "Ostrowiak SR",
+            "lastName": "Ostrowiak",
+            "firstName": "Sophia",
+            "initials": "SR"
+          },
+          {
+            "fullName": "Raj S",
+            "lastName": "Raj",
+            "firstName": "Srilakshmi",
+            "initials": "S"
+          },
+          {
+            "fullName": "Milman S",
+            "lastName": "Milman",
+            "firstName": "Sofiya",
+            "initials": "S"
+          },
+          {
+            "fullName": "Lappalainen T",
+            "lastName": "Lappalainen",
+            "firstName": "Tuuli",
+            "initials": "T"
+          },
+          {
+            "fullName": "Greally JM",
+            "lastName": "Greally",
+            "firstName": "John",
+            "initials": "JM"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Functional interpretation is essential for understanding how genetic variants contribute to complex traits. Here, we identified and characterized regulatory variants in CD4+ T cells collected from 362 donors. We integrated molecular QTL mapping from single-cell RNA-seq profiles and chromatin accessibility with predicted variant effects from a deep learning model trained on chromatin accessibility data. We identified molecular features and transcription factor binding mechanisms underlying variant sharing and mediated effects across the modalities and approaches. While predicted variant effects correlated with molQTLs, only a small fraction of empirically detected molQTLs were discovered by predictive models. MolQTLs, primarily those affecting chromatin, indicated potential molecular drivers for 33% of immune-related GWAS loci, with the deep learning approach providing insights into 4.7% of GWAS loci. These results highlight the value of multi-omic data and systematic integration of empirical and predictive approaches to interpret regulatory effects of genetic variants.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.27.26344979"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-07-03",
+      "firstPublicationDate": "2026-01-30",
+      "firstIndexDate": "2026-07-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

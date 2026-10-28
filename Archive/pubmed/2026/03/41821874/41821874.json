@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41821874",
+    "doi": "10.1002/pld3.70022",
+    "title": "Systems analysis of leaf anatomy and transcriptome using unsupervised machine learning provides insight on photosynthesis development and evolution in non-model grasses."
+  },
+  "content": {
+    "abstract": "The C(4) photosynthesis includes intriguing leaf anatomies. The current model supports the placement of C(3)-C(4) intermediates as a middle point in the evolutionary trajectory from C(3) to C(4) photosynthesis. The known determinants involved in the differentiation of divergent photosynthetic leaves arose from the comparative analysis between both ends, C(3) and C(4) species. However, much more could be known if evolutionarily close species were analyzed together with intermediate species using advanced-omic approaches. In the present work, by combining leaf anatomical traits and transcriptomic data with machine learning methods, we provided insights on gene regulatory networks involved in complex leaf anatomical characteristics in non-model grasses of subtribe Otachyriinae. For that, self-organizing maps (SOMs) were developed to group genes and phenotypic traits into clusters (neurons) according to their behavior along the leaf developmental gradient. The analysis allowed us to identify a set of genes as potential enablers of key anatomical trait differentiation related to bundle sheath (BS) cell size, vein density, and the interface between mesophyll and BS cells. At the same time, we identified genes that displaced together with the adjustment of the BS cell area suggesting a possible role in the evolution of this distinctive leaf anatomical trait.",
+    "keywords": [
+      "bundle sheath cell",
+      "leaf anatomy",
+      "leaf gradient",
+      "mesophyll cell",
+      "photosynthesis evolution",
+      "self-organizing maps",
+      "transcription factors",
+      "unsupervised machine learning",
+      "vein system"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Prochetto, Santiago",
+        "Stegmayer, Georgina",
+        "Studer, Anthony J",
+        "Reinheimer, Renata"
+      ],
+      "short_names": [
+        "Prochetto S",
+        "Stegmayer G",
+        "Studer AJ",
+        "Reinheimer R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5635-0937"
+      ],
+      "affiliations": [
+        "Consejo Nacional de Investigaciones Cientificas y Tecnicas de la Republica, Argentina (CONICET), Instituto de Agrobiotecnologia del Litoral Universidad Nacional del Litoral, CONICET, CCT-Santa Fe Santa Fe Argentina.",
+        "Consejo Nacional de Investigaciones Cientificas y Tecnicas de la Republica Argentina (CONICET), SINC-Research institute for Signals, Systems and Computational Intelligence Universidad Nacional del Litoral, CONICET, CCT-Santa Fe Santa Fe Argentina.",
+        "Department of Crop Sciences University of Illinois Urbana IL USA.",
+        "Consejo Nacional de Investigaciones Cientificas y Tecnicas de la Republica Argentina (CONICET), Instituto de Agrobiotecnologia del Litoral Universidad Nacional del Litoral, FCA, CONICET, CCT-Santa Fe Santa Fe Argentina."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Prochetto, Santiago",
+        "short_name": "Prochetto S",
+        "identifiers": [],
+        "affiliations": [
+          "Consejo Nacional de Investigaciones Científicas y Técnicas de la República, Argentina (CONICET), Instituto de Agrobiotecnología del Litoral Universidad Nacional del Litoral, CONICET, CCT-Santa Fe Santa Fe Argentina."
+        ]
+      },
+      {
+        "full_name": "Stegmayer, Georgina",
+        "short_name": "Stegmayer G",
+        "identifiers": [],
+        "affiliations": [
+          "Consejo Nacional de Investigaciones Científicas y Técnicas de la República Argentina (CONICET), SINC-Research institute for Signals, Systems and Computational Intelligence Universidad Nacional del Litoral, CONICET, CCT-Santa Fe Santa Fe Argentina."
+        ]
+      },
+      {
+        "full_name": "Studer, Anthony J",
+        "short_name": "Studer AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Crop Sciences University of Illinois Urbana IL USA."
+        ]
+      },
+      {
+        "full_name": "Reinheimer, Renata",
+        "short_name": "Reinheimer R",
+        "identifiers": [
+          "0000-0002-5635-0937"
+        ],
+        "affiliations": [
+          "Consejo Nacional de Investigaciones Científicas y Técnicas de la República Argentina (CONICET), Instituto de Agrobiotecnología del Litoral Universidad Nacional del Litoral, FCA, CONICET, CCT-Santa Fe Santa Fe Argentina."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant direct"
+    ],
+    "journal_abbrev": [
+      "Plant Direct"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/13 06:52",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37422712",
+      "37154077",
+      "36747121",
+      "36389434",
+      "36260503",
+      "35560151",
+      "35487659",
+      "35231181",
+      "35093593",
+      "34858457",
+      "34733151",
+      "34416065",
+      "34200125",
+      "33873498",
+      "33808132",
+      "33270106",
+      "33130877",
+      "31819970",
+      "31799932",
+      "31727128",
+      "31611421",
+      "31596523",
+      "31506429",
+      "31404467",
+      "31150949",
+      "30949663",
+      "30639313",
+      "30557904",
+      "30137393",
+      "29899210",
+      "29896208",
+      "29459626",
+      "29300922",
+      "29264953",
+      "29184562",
+      "29056456",
+      "29056440",
+      "28861611",
+      "28395112",
+      "28144248",
+      "27793170",
+      "27288224",
+      "27073202",
+      "26893471",
+      "26706071",
+      "25385766",
+      "25306245",
+      "25217507",
+      "25168932",
+      "24935935",
+      "24803502",
+      "24799561",
+      "24259525",
+      "24226536",
+      "24137171",
+      "23881394",
+      "23845962",
+      "23703454",
+      "23267116",
+      "23128603",
+      "22933713",
+      "22743772",
+      "22404472",
+      "22186372",
+      "22115274",
+      "22039529",
+      "21789182",
+      "21631534",
+      "21316979",
+      "21081695",
+      "21070418",
+      "21037569",
+      "20796314",
+      "20693408",
+      "20571114",
+      "20465807",
+      "19910308",
+      "19759038",
+      "19019982",
+      "17322342",
+      "17118972",
+      "16228376",
+      "15866872",
+      "15199185",
+      "11886878",
+      "9662544",
+      "9634581"
+    ],
+    "similar": [
+      "41821874",
+      "36747121",
+      "42475469",
+      "24550438",
+      "31473860",
+      "39688921",
+      "37103118",
+      "39427328",
+      "30557904",
+      "42046259",
+      "26828378",
+      "28062590",
+      "23881394",
+      "24799561",
+      "40590299",
+      "28110276",
+      "26936788",
+      "29300922",
+      "24259525",
+      "27628301",
+      "32689525",
+      "33393063",
+      "26818731",
+      "38905728",
+      "33605441",
+      "42057433",
+      "36001691",
+      "38284810",
+      "24901697",
+      "27375085",
+      "35959528",
+      "37068119",
+      "32689352",
+      "39132738",
+      "31611421",
+      "24053212",
+      "37743123",
+      "24811953",
+      "21708611",
+      "30753647",
+      "27986845",
+      "24064930",
+      "38091938",
+      "26465154",
+      "32210984",
+      "26896851",
+      "39494762",
+      "27073202",
+      "30018172",
+      "26524631",
+      "35675763",
+      "9847101",
+      "27288224",
+      "14644912",
+      "21081695",
+      "39149860",
+      "32449181",
+      "34783109",
+      "25122153",
+      "24420409",
+      "24676859",
+      "23708978",
+      "31427470",
+      "37876323",
+      "24220652",
+      "24819776",
+      "40321813",
+      "23543921",
+      "3356335",
+      "24193842",
+      "24510939",
+      "24803502",
+      "36749684",
+      "24790109",
+      "29163607",
+      "27091507",
+      "34191030",
+      "23794170",
+      "34594351",
+      "17080641",
+      "38953386",
+      "27436281",
+      "23647263",
+      "35127287",
+      "30487807",
+      "24317560",
+      "31400232",
+      "37762466",
+      "39563735",
+      "24935935",
+      "38782268",
+      "30407578",
+      "30689935",
+      "24617819",
+      "30965390",
+      "33224166",
+      "37422712",
+      "35201618",
+      "22827921",
+      "39746467"
+    ],
+    "review": [
+      "41821874",
+      "26828378",
+      "24799561",
+      "26936788",
+      "37743123",
+      "38091938",
+      "14644912",
+      "23708978",
+      "24803502",
+      "23794170",
+      "34594351"
+    ],
+    "pmc": [
+      "12976145"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41821874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pld3.70022",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

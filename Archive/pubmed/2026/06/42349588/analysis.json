@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42349588",
+  "title": "PDA-MutPred: Reliable prediction of binding affinity change upon mutation in protein-DNA complexes.",
+  "authors": "Harini, K; Yasuo, N; Sekijima, M; Gromiha, M Michael",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了基于机器学习的PDA-MutPred方法，预测蛋白-DNA复合物中氨基酸突变引起的结合亲和力变化，核心聚焦蛋白-DNA互作界面特征与结合机制，方法可迁移至TF-DNA体系。",
+  "abstract": "Mutations in protein-DNA complexes interfere with normal cell functions by causing structural changes, leading to the dissociation of complexes or altering the affinity of interactions between proteins and DNA. Reliable prediction of binding affinity changes (DeltaDeltaG) upon amino acid mutation in protein-DNA complexes in a challenging problem in computational biology. In this work, we compiled a set of 1169 mutations in 256 protein-DNA complexes from the ProNAB database and analyzed the influence of sequence, structural, and network-based features. Our analysis revealed that atom contacts at the interface, side-chain hydrogen bonding, amino acid properties, and unfolding energy are important for predicting changes in affinity upon mutation. We classified complexes based on DNA strand and protein functional class, and developed machine learning-based models for each category of complexes. Our prediction methods achieved an average correlation of 0.69 and a Mean Absolute Error (MAE) of 0.73 kcal/mol in 10-fold cross-validation. Further, in a blind test of 100 mutations, our method could predict DeltaDeltaG with a correlation of 0.65 and an MAE of 0.60 kcal/mol, outperforming other methods. We developed a web server for predicting changes in binding affinity due to single amino acid mutations in protein-DNA complexes, which is available at https://web.iitm.ac.in/bioinfo2/pdamutpred/. We envisage that our method would be a valuable resource to understand the binding affinity of protein-DNA complexes, large scale analysis and design complexes with desired affinities.",
+  "abstract_zh": "蛋白质-DNA复合物中的突变通过引起结构变化干扰正常细胞功能，导致复合物解离或改变蛋白质与DNA之间相互作用的亲和力。可靠预测蛋白质-DNA复合物中氨基酸突变引起的结合亲和力变化（DeltaDeltaG）是计算生物学中的一个挑战性问题。在本研究中，我们从ProNAB数据库收集了256个蛋白质-DNA复合物中的1169个突变，并分析了序列、结构和基于网络的特征的影响。我们的分析揭示，界面处的原子接触、侧链氢键、氨基酸性质以及去折叠能量对于预测突变后亲和力变化至关重要。我们根据DNA链和蛋白质功能类别对复合物进行了分类，并为每类复合物开发了基于机器学习的模型。我们的预测方法在10折交叉验证中实现了平均相关系数0.69和平均绝对误差（MAE）0.73 kcal/mol。此外，在100个突变的盲测中，我们的方法能够以0.65的相关系数和0.60 kcal/mol的MAE预测DeltaDeltaG，优于其他方法。我们开发了一个用于预测蛋白质-DNA复合物中单氨基酸突变引起的结合亲和力变化的网络服务器，可通过https://web.iitm.ac.in/bioinfo2/pdamutpred/访问。我们预计，我们的方法将成为理解蛋白质-DNA复合物结合亲和力、大规模分析以及设计具有所需亲和力的复合物的宝贵资源。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42349588/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42349588/",
+  "paper_page_path": "papers/pubmed/42349588/index.html"
+}

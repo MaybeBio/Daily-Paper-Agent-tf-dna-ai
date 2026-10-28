@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.08.627402",
+  "title": "EXTRA-seq: a genome-integrated extended massively parallel reporter assay to quantify enhancer-promoter communication",
+  "authors": "Kribelbauer-Swietek JF; Gardeux V; Llimos-Aubach G; Faltejskova K; Russeil J; Grenningloh N; Levassor L; Steiner C; Vondrasek J; Deplancke B",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-11",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发EXTRA-seq实验平台量化增强子-启动子通讯，并结合深度学习模型预测基因表达，虽涉及TF结合位点分辨率，但核心是实验方法而非TF-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Precise control of gene expression is essential for cellular function, but the mechanisms by which enhancers communicate with promoters to coordinate this process are not fully understood. While sequence-based deep learning models show promise in predicting enhancer-driven gene expression, experimental validation and human-interpretable mechanistic insights lag behind. Here, we present EXTRA-seq , a novel EXT ended R eporter A ssay followed by seq uencing designed to quantify enhancer activity in endogenous contexts over kilobase-scale distances. We demonstrate that EXTRA-seq can be targeted to disease-relevant loci and captures expression changes at the resolution of individual transcription factor binding sites, enabling mechanistic discovery. Using engineered synthetic enhancer-promoter combinations, we reveal that the TATA-box acts as a dynamic range amplifier, modulating expression levels in function of enhancer strength. Importantly, we find that integrating state-of-the-art deep learning models with plasmid-based enhancer assays improves the prediction of gene expression as measured by EXTRA-seq. These findings open new avenues for predictive modeling and therapeutic applications. Overall, our work provides a powerful experimental platform to interrogate the complex interplay between enhancers and promoters, bridging the gap between in silico predictions and human-interpretable biological mechanisms.",
+  "abstract_zh": "基因表达的精确调控对细胞功能至关重要，但增强子与启动子通信以协调这一过程的机制尚未完全阐明。尽管基于序列的深度学习模型在预测增强子驱动的基因表达方面显示出潜力，但实验验证和人类可解释的机制性见解仍滞后。在此，我们提出EXTRA-seq，一种新型的延伸报告基因检测结合测序（EXTended Reporter Assay followed by sequencing），旨在定量评估内源环境中千碱基尺度距离上的增强子活性。我们证明EXTRA-seq可靶向疾病相关位点，并以单个转录因子结合位点的分辨率捕获表达变化，从而促进机制发现。通过使用工程化的合成增强子-启动子组合，我们揭示TATA-box作为动态范围放大器，根据增强子强度调节表达水平。重要的是，我们发现将最先进的深度学习模型与基于质粒的增强子检测相结合，可改善EXTRA-seq所测量的基因表达预测。这些发现为预测建模和治疗应用开辟了新途径。总体而言，我们的工作提供了一个强大的实验平台，用于探究增强子与启动子之间的复杂相互作用，弥合了计算机预测与人类可解释的生物学机制之间的鸿沟。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.08.627402",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.08.627402",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.08.627402/index.html"
+}

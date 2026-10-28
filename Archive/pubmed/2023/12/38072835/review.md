@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report extraction and GC-MS analysis of Thuja orientalis essential oils (TOEO), in vitro genotoxicity testing against wheat and amaranth using RAPD-PCR, and in silico docking of oil components against B-DNA using AutoDock Vina, alongside toxicity predictions using Toxicity Estimation Software Tools. Predominant components were 3-carene, cedrol, and 2-pinene. Genomic stability was reduced more in wheat (lowest 39.78%) than in amaranth (lowest 53.58%). Cedrol (-5.7 kcal/mol) and selinene (-5.6 kcal/mol) showed highest binding affinity. Toxicity predictions suggested potential toxic effects for most components, no mutagenicity, and LD50 values between 1.33 and 1.55 mol/kg.
+- **Visible evidence base** Abstract text only; no experimental details, chromatograms, statistical analyses, docking parameters, or toxicity prediction outputs are provided
+- **Missing materials affecting confidence** Full methods for extraction, GC-MS conditions, RAPD-PCR protocol and primer sequences, statistical analysis details, docking preparation and validation steps, toxicity prediction software versions and input formats, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting dual approach combining empirical genotoxicity testing with computational docking and toxicity prediction for a natural product mixture. However, the current abstract lacks sufficient methodological detail and quantitative context to evaluate the robustness of the claims. The genotoxicity results are reported as single percentage values without measures of variability or statistical testing, and the docking and toxicity predictions are presented without validation or comparison to known standards. The scientific case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in natural product toxicology, phytochemistry, and computational chemistry may find the combined experimental and in silico approach of interest. Those working on essential oil safety assessment or DNA-binding studies of plant secondary metabolites could use these data as a preliminary reference. The work may also appeal to investigators studying Thuja species for potential therapeutic or toxicological applications.
+- **Major strengths** The study addresses a relevant question regarding the genotoxic potential of a commonly used essential oil. The combination of in vitro and in silico methods is a modern and integrative approach. Identification of major components by GC-MS provides a chemical basis for the subsequent analyses. The use of two plant test systems (wheat and amaranth) adds comparative value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In vitro studies showed that the TOEO had a more significant impact on reducing genomic stability in wheat compared to the amaranth. The lowest stability was determined as 39.78 % in wheat and 53.58 % in amaranth."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The genotoxicity results are presented as single percentage values with no indication of replicates, standard deviation, standard error, or statistical comparison between wheat and amaranth. The term "more significant impact" implies a statistical difference, but no p-values, confidence intervals, or test statistics are reported. Additionally, the basis for "genomic stability" as measured by RAPD-PCR is not defined, and no details on the number of primers, bands scored, or how stability was calculated are given.
+  - **Why it matters** Without measures of variability and statistical testing, the claim of differential genotoxicity between the two plant species cannot be evaluated. The percentage values alone do not establish whether the observed differences are biologically meaningful or within experimental noise. This is the central experimental finding of the study.
+  - **Resolution test** Provide replicate numbers, standard deviations or errors, and appropriate statistical tests (e.g., t-test or ANOVA) comparing wheat and amaranth stability values. Define the calculation of genomic stability from RAPD-PCR banding patterns and report the number of primers and loci scored.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Cedrol (-5,7 kcal/mol) and selinene (-5,6 kcal/mol) exhibited the highest binding affinity."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The docking results are reported as single binding energy values for two components, but no context is provided regarding the range of energies for all tested components, the number of docking runs, the receptor preparation, the grid box dimensions, or the validation of the docking protocol. The use of a comma as a decimal separator is inconsistent with standard scientific notation and may cause confusion. Furthermore, the biological relevance of these binding energies to DNA damage is not discussed.
+  - **Why it matters** Docking results are highly dependent on methodological choices. Without details on the docking protocol and validation, the reported binding affinities cannot be assessed for reliability. The claim that these components "exhibited the highest binding affinity" requires comparison to all other components tested and to a known positive or negative control.
+  - **Resolution test** Report the full list of components with their binding energies, describe the docking protocol including receptor and ligand preparation, grid box settings, and number of runs. Validate the protocol by redocking a known ligand or comparing to experimental data. Use consistent decimal notation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "The toxicity test indicated that components other than cyclohexene may have toxic effects, none of them were predicted to be mutagenic, and LD(50) (mol/kg) values could vary between 1.33 and 1.55."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The toxicity prediction results are presented in a vague and internally inconsistent manner. The statement that "components other than cyclohexene may have toxic effects" is ambiguous, as it does not specify which components, what types of toxicity, or the predicted endpoints. The LD50 range of 1.33 to 1.55 mol/kg is given without specifying which components correspond to which values, and the units are unusual for toxicity reporting. The claim that none were predicted to be mutagenic is presented without the underlying prediction outputs or the software version and parameters used.
+  - **Why it matters** The toxicity predictions are a key component of the study's stated objectives. Without specific, itemized predictions for each component, the reader cannot evaluate the reliability or relevance of these findings. The lack of detail prevents any meaningful interpretation of the potential toxicological significance of TOEO components.
+  - **Resolution test** Provide a table listing each component with its predicted toxicity endpoints, mutagenicity call, and LD50 value. Specify the software version, input parameters, and any confidence metrics. Clarify the basis for the "may have toxic effects" statement and reconcile it with the mutagenicity prediction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "RAPD-PCR" and "genomic stability" without brief explanation, which may limit accessibility for readers outside molecular biology or genotoxicity fields.
+  - **Required correction** Add a brief parenthetical explanation of RAPD-PCR (e.g., "a DNA fingerprinting method") and define "genomic stability" in the context of banding pattern changes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Numerical notation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The binding energies are reported as "-5,7" and "-5,6" using a comma as the decimal separator, which is nonstandard in most international journals and may be misread as thousands separators.
+  - **Required correction** Use periods as decimal separators throughout, i.e., "-5.7" and "-5.6".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the concentration or dose range of TOEO used in the in vitro genotoxicity experiments, nor whether a dose-response relationship was observed.
+  - **Required correction** Report the tested concentrations and whether effects were dose-dependent, as this is critical for interpreting genotoxicity potential.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical support for differential genotoxicity), R1-M2 (insufficient docking methodology and validation), R1-M3 (incomplete and ambiguous toxicity prediction reporting)
+- **Assessment against Nature-style criteria** Originality: The combination of RAPD-PCR genotoxicity with docking against B-DNA is moderately original, though similar approaches exist in essential oil research. Scientific importance: The findings are preliminary and lack the depth needed to establish a significant contribution to genotoxicity or computational toxicology. Interdisciplinary readership: The work bridges plant biology, chemistry, and computational methods, but the abstract does not provide enough context to engage a broad audience. Technical soundness: Not established from the abstract due to missing methodological details and statistical support. Readability for nonspecialists: The abstract is concise but uses jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient methodological detail, statistical support, or validation to support the central claims. A revised manuscript with full experimental details, statistical analyses, and complete computational reporting would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of "more significant impact" on genomic stability in wheat versus amaranth is unsupported without statistical testing.
+- The reported binding affinities for cedrol and selinene are unverifiable without docking protocol details and comparison to all tested components.
+- The toxicity predictions, including the LD50 range and the mutagenicity call, are unverifiable without itemized outputs and software parameters.
+- The statement that "components other than cyclohexene may have toxic effects" is ambiguous and unsupported as written.
+- The overall genotoxicity conclusion for TOEO cannot be assessed without dose information and replicate data.

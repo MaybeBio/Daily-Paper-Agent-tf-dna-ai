@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The manuscript identifies Mrc1/CLASPIN as a replisome-associated histone H3-H4 tetramer chaperone. The authors propose that Mrc1, together with FACT, coordinates the transfer of parental histones to newly replicated DNA, and that this function is required for epigenetic inheritance of heterochromatin in fission yeast and silencing in budding yeast.
+- **Visible evidence base** Results sections describing genetic screens, AlphaFold-Multimer structural predictions, in vitro pulldown assays, biophysical characterization (SEC, mass photometry, SEC-MALS), ChIP-qPCR, eSPAN experiments, and IP-MS. Supplementary figure legends and table descriptions are referenced but not fully visible.
+- **Missing materials affecting confidence** Full supplementary figures and tables (including Table S1-S6) are not provided. Detailed statistical analyses for several experiments are not fully described. Raw sequencing data and mass spectrometry data are not accessible. The exact coordinates and confidence metrics for all AlphaFold-Multimer predictions are not fully detailed.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant identification of Mrc1/CLASPIN as a histone H3-H4 tetramer chaperone at the replication fork. The combination of structural predictions, biochemical validation, and in vivo functional assays is generally well-executed. The claim that Mrc1 acts as a distribution center for parental histone transfer is intriguing and mechanistically plausible. However, several concerns regarding the specificity of the histone binding domain, the interpretation of eSPAN data, and the directness of evidence linking Mrc1-HBD to epigenetic inheritance need to be addressed. The manuscript is technically strong but the central model would benefit from additional experimental support.
+- **Who would be interested in the results, and why** Researchers in the fields of epigenetics, chromatin biology, DNA replication, and chromosome dynamics. The work addresses a fundamental question about how epigenetic information is maintained through cell division, which is of broad interest to those studying gene regulation, development, and disease mechanisms involving epigenetic misregulation.
+- **Major strengths** 1. Identification of a new function for a conserved replisome component, Mrc1/CLASPIN, as a histone H3-H4 tetramer chaperone. 2. Use of AlphaFold-Multimer to generate testable structural predictions, followed by biochemical validation. 3. Combination of in vitro biochemistry, in vivo genetics, and genome-wide approaches (eSPAN) to support the model. 4. Evolutionary conservation of the histone binding domain across species, suggesting broad relevance. 5. Clear separation of Mrc1's role in epigenetic inheritance from its role in replication checkpoint signaling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for direct histone binding
+  - **Claim pointer** The manuscript claims that Mrc1 contains a conserved histone binding domain that forms a brace around the H3-H4 tetramer and that this domain is required for heterochromatin inheritance.
+  - **Evidence pointer** Results sections "Structural predictions reveal a potential histone H3-H4 tetramer binding interface in Mrc1/CLASPIN" and "Experimental validation of the predicted Mrc1 histone binding domain"; Figures 2, 3, 4.
+  - **Concern** The in vitro pulldown assays demonstrate binding of the Mrc1-like domain to H3-H4, but the specificity of this interaction is not fully established. It is unclear whether the Mrc1-HBD binds specifically to the H3-H4 tetramer or also interacts with other histone complexes or DNA. The manuscript does not show competition experiments with unlabeled histones, mutant histone proteins, or other nucleic acids. Additionally, the functional significance of the interaction is inferred from mutant phenotypes, but a direct demonstration that the histone binding activity of Mrc1 is required for parental histone transfer in vivo is lacking. The eSPAN data with the HBD mutants (mrc1-Δα2, mrc1-3A) show no change in strand bias, which is interpreted as a reduction in overall transfer, but this interpretation needs more rigorous quantitative support.
+  - **Why it matters** The central claim of the paper is that Mrc1 is a histone chaperone. Without clear evidence for specific, physiologically relevant histone binding, the mechanistic model is weakened. The distinction between a general histone-binding protein and a dedicated chaperone with specific functions in epigenetic inheritance is critical.
+  - **Resolution test** Provide competition assays with unmodified vs. modified histones, show that the Mrc1-HBD does not bind DNA or H2A-H2B with similar affinity, and demonstrate that mutations in the HBD that abolish histone binding in vitro also abolish the in vivo function in heterochromatin maintenance without affecting other Mrc1 functions. Quantitative eSPAN analysis showing a significant reduction in total parental histone density, not just a change in strand bias, would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of eSPAN data
+  - **Claim pointer** The manuscript claims that Mrc1-HBD is required for efficient recycling of parental histones during DNA replication, based on eSPAN experiments showing reduced H3K4me3 density in mrc1-3A cells.
+  - **Evidence pointer** Results section "Mrc1 is required for parental histone maintenance following DNA replication"; Figure 5H.
+  - **Concern** The eSPAN data show a reduction in H3K4me3 density in mrc1-3A cells, but the interpretation that this reflects a defect in parental histone recycling is not fully justified. The reduction could also be due to changes in origin firing, replication timing, or indirect effects on histone modification levels. The manuscript does not provide controls for total histone levels or nucleosome density at the analyzed regions. Furthermore, the eSPAN assay measures histone modifications, not histone proteins directly, and changes in modification levels could confound the interpretation.
+  - **Why it matters** The eSPAN data are a key piece of evidence linking Mrc1-HBD to parental histone transfer. If the interpretation is incorrect, the connection between Mrc1's histone binding activity and epigenetic inheritance is weakened.
+  - **Resolution test** Perform eSPAN with antibodies against unmodified H3 or H4 to directly measure histone protein distribution. Include controls for replication timing and origin firing. Show that the reduction in H3K4me3 density is specific to parental histones and not due to changes in new histone deposition. Provide statistical analysis of the total histone density, not just the strand bias.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of FACT binding sites
+  - **Claim pointer** The manuscript claims that FACT binding sites in Swi1 and Pol1 are required for heterochromatin inheritance, and that FACT acts as a mobile co-chaperone with Mrc1.
+  - **Evidence pointer** Results section "Distribution of FACT binding sites on the replisome"; Figure 6.
+  - **Concern** The manuscript identifies FACT binding sites in Swi1 and Pol1 and shows that deletions of these sites affect heterochromatin maintenance. However, the mechanistic link between these FACT binding sites and parental histone transfer is not directly demonstrated. It is unclear whether the effect on heterochromatin maintenance is due to a defect in histone transfer or to other functions of Swi1, Pol1, or FACT. The proposed model of FACT as a mobile co-chaperone is speculative and not directly tested.
+  - **Why it matters** The model proposes a coordinated network of chaperones. Without direct evidence that FACT binding to these sites is specifically required for histone transfer, the model remains incomplete.
+  - **Resolution test** Show that mutations in the FACT binding sites of Swi1 and Pol1 specifically affect histone transfer without affecting other functions of these proteins. Use in vitro assays to demonstrate that FACT can transfer histones from Mrc1 to DNA or to other chaperones. Provide evidence for the proposed hand-off mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1 and associated text
+  - **Evidence pointer** Results section "Replisome components and histone chaperones required for heterochromatin maintenance"; Figure 1.
+  - **Issue** The description of the genetic screen and the logic for selecting specific mutants for further analysis is somewhat brief. The relationship between the screen results and the subsequent focus on Mrc1 could be clarified.
+  - **Required correction** Expand the description of the screen, including the number of mutants isolated, the criteria for selection, and how the authors narrowed down to Mrc1.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** ChIP-qPCR and eSPAN experiments
+  - **Evidence pointer** Results sections "Replisome components and histone chaperones required for heterochromatin maintenance" and "Mrc1 is required for parental histone maintenance following DNA replication"; Figures 1D, 5H-J.
+  - **Issue** The number of biological replicates and the statistical tests used for ChIP-qPCR and eSPAN experiments are not clearly stated in the text.
+  - **Required correction** Clearly state the number of replicates and the statistical tests used for each experiment in the figure legends or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** AlphaFold-Multimer predictions
+  - **Evidence pointer** Methods section "Structural predictions and analysis of protein-protein interactions".
+  - **Issue** The methods for AlphaFold-Multimer predictions are described, but the criteria for selecting the "high confidence" models and the specific metrics used (e.g., pLDDT, PAE) are not fully detailed.
+  - **Required correction** Provide more specific details on the confidence metrics and the thresholds used to define high-confidence predictions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and code availability statement
+  - **Evidence pointer** Methods section "Data and code availability".
+  - **Issue** The data and code availability statement is incomplete. It does not specify where the raw sequencing data, mass spectrometry data, and analysis code can be accessed.
+  - **Required correction** Provide accession numbers for all datasets and a link to any custom code used in the analysis.
+
+## Risk / unsupported claims
+- The claim that Mrc1 acts as a "distribution center" for parental histone transfer is a model that is not directly tested and is inferred from the localization of the HBD and the mutant phenotypes. This is a reasonable hypothesis but should be clearly presented as such.
+- The claim that the Mrc1-HBD forms a brace around the H3-H4 tetramer "mimicking nucleosomal DNA and H2A-H2B histones" is based on AlphaFold predictions and structural alignment. This is a prediction that requires experimental validation, such as a co-crystal structure or cross-linking studies.
+- The statement that "FACT acting as a mobile co-chaperone" is speculative and not directly supported by the data presented.
+- The evolutionary conservation of the Mrc1-HBD is based on sequence alignment and AlphaFold predictions, but functional conservation is only tested in S. cerevisiae and S. pombe. The claim of conservation across "nine major model organisms" is based on predictions, not functional assays.

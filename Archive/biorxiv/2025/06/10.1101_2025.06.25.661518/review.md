@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, author contributions, acknowledgements)
+- **Assessment boundary** Scientific content, structural evidence, claims-to-data alignment, technical soundness, and readability as presented in the supplied text. No supplementary figures or methods section were provided for independent verification.
+- **Shared manuscript claim summary** The authors report cryo-EM and X-ray crystallographic structures of herpesviral single-stranded DNA-binding proteins ICP8 (HSV-1) and BALF2 (EBV) in complex with DNA, a cryo-EM structure of an ICP8 double filament, and a cryo-EM structure of a ternary ICP8-UL12-DNA recombinase complex. They propose that conserved structural features enable DNA annealing, homology search, and handoff between nuclease and annealase activities.
+- **Visible evidence base** Results text describing cryo-EM reconstructions at 3.2 Å (BALF2-DNA), 3.2 Å (ICP8 filament), and 3.29 Å (ICP8-UL12-DNA); two crystal structures of ICP8 with 14-mer oligonucleotides; fluorescence anisotropy binding data for BALF2 variants; sequence alignments referenced as Supplementary Figure S3. Figures and supplementary items are cited but not directly viewable in the supplied material.
+- **Missing materials affecting confidence** Methods section, all figures and supplementary figures, PDB/EMDB accession codes, validation statistics, full binding isotherm data, and experimental details for mutagenesis and complex reconstitution. These omissions limit independent verification of map quality, model building, and quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in the structural biology of herpesviral DNA replication and recombination. The authors present a series of structures that collectively illustrate DNA binding, annealing, filament formation, and nuclease handoff. The work is timely and of potential interest to virologists and DNA repair/recombination specialists. However, the evidence as presented in the text alone is insufficient to fully evaluate the robustness of the key claims. Several conclusions, particularly regarding the functional relevance of the observed dimer conformations and the filament-associated DNA, rest on indirect or incomplete evidence. The manuscript would benefit from clearer presentation of map quality, model validation, and functional correlation.
+- **Who would be interested in the results, and why** Virologists studying herpesvirus replication and recombination; structural biologists interested in single-stranded DNA-binding proteins and nucleoprotein filament assembly; researchers working on annealase-exonuclease systems and their evolutionary conservation; and those developing recombinase-based genetic engineering tools for mammalian cells.
+- **Major strengths** The study provides the first high-resolution structures of herpesviral DNA-binding proteins in complex with DNA, revealing a conserved mechanism of base exposure and annealing. The ternary ICP8-UL12-DNA complex is a novel and important contribution. The comparison between ICP8 and BALF2 offers evolutionary insight across alpha- and gammaherpesviruses. The discussion of potential handoff mechanisms is thoughtful and well contextualized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the BALF2-DNA structure at 3.2 Å resolution reveals a conserved DNA-binding mechanism involving base rotation and exposure, and that key residues identified in the structure are functionally validated by mutagenesis and binding assays.
+  - **Evidence pointer** Results section "The structure of BALF2-DNA complex"; "Identification of key residues responsible for BALF2 binding to DNA"; Figure 1; Supplementary Figures S1-S3
+  - **Concern** The text describes density for only seven nucleotides in the BALF2-DNA complex, yet the functional conclusions depend on the precise positioning of bases and side chains. The resolution of 3.2 Å is moderate for unambiguous assignment of base orientation and side-chain rotamers, particularly for the rotated-out region. The mutagenesis data are presented as Kd values, but no error estimates, replicate numbers, or statistical tests are reported. The claim that Tyr920 and Arg725 play "particularly important roles" is based on single-point variants without demonstration of specificity (e.g., conservative vs. disruptive substitutions).
+  - **Why it matters** The central mechanistic claim of the paper, that herpesviral DNA-binding proteins actively rotate bases to enable annealing, depends on the accuracy of the structural interpretation and the robustness of the functional validation. Without statistical support and clear structural evidence, the conclusion is not fully established.
+  - **Resolution test** Provide map-to-model correlation statistics, B-factor or occupancy analysis for the rotated bases, and side-chain density for key residues. Report binding assays with at least three independent replicates, standard deviations, and appropriate statistical comparison (e.g., one-way ANOVA with multiple testing correction). Include a control variant at a residue not predicted to contact DNA.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-data alignment
+  - **Claim pointer** The authors state that the ICP8-DNA crystal structures reveal pairing between two DNA strands and that the observed dimer represents an annealing intermediate.
+  - **Evidence pointer** Results section "Crystal structure of ICP8-DNA complex symmetrical dimer"; Figure 2
+  - **Concern** The text reports that the two DNA strands in the dimer have antiparallel polarity and that three or four nucleotides are involved in base pairing, but the pairing is described as imperfect, with mismatches and a register shift. The authors attribute this to the random sequence used, yet the alternative structure with a palindromic sequence also produced mismatches. The claim that this represents a bona fide annealing intermediate is speculative. The functional relevance of the dimer is not directly tested, and the authors do not demonstrate that the dimer forms in solution or under physiologically relevant conditions.
+  - **Why it matters** The structural interpretation of the dimer as an annealing intermediate is a key conceptual advance of the paper. If the observed pairing is a crystallization artifact or a non-specific interaction, the mechanistic conclusion is weakened.
+  - **Resolution test** Provide solution-state evidence for dimer formation (e.g., SEC-MALS, AUC, or crosslinking) under conditions relevant to DNA annealing. Show that the dimer interface mutations that disrupt the crystallographic dimer also impair annealing activity. Alternatively, temper the claim to describe the structure as a potential but unverified annealing conformation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the ICP8 filament structure at 3.2 Å resolution reveals interactions between protein subunits within and between antiparallel strands, and that the filament may represent an initial stage of DNA annealing.
+  - **Evidence pointer** Results section "Structure of the ICP8 filament"; Figure 4; Supplementary Figures S4-S5
+  - **Concern** The text states that DNA could not be built into the map, with only trace density observed in the DNA-binding site. The authors cannot definitively determine whether the filament contains DNA. Despite this, they propose a model in which the filament represents an annealing intermediate. The helical parameters are compared to a previously published low-resolution model, but no quantitative comparison is provided. The claim that the filament is composed of two antiparallel strands is based on the reconstruction, but the absence of DNA makes the functional interpretation uncertain.
+  - **Why it matters** The filament structure is presented as a central result, but its relevance to DNA annealing is inferred rather than demonstrated. Without DNA in the structure, the proposed role in annealing is speculative.
+  - **Resolution test** Provide a definitive statement on DNA occupancy, supported by mass spectrometry or biochemical analysis of the reconstructed filament. If DNA is absent, clearly state that the structure represents an apo filament and discuss the implications. Provide quantitative comparison of helical parameters to the prior model. Consider whether the trace density can be modeled at low occupancy and whether this strengthens or weakens the annealing intermediate claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim to present the first complete structure of a ternary recombinase complex composed of ICP8, UL12, and a model DNA, and that this structure shows the handoff of DNA between the two proteins.
+  - **Evidence pointer** Results section "Interaction of ICP8 and UL12 at the ssDNA-dsDNA junction in the recombinase complex"; Figure 5; Supplementary Figure S7
+  - **Concern** The resolution of 3.29 Å is reported, but the DNA was built in two fragments with a continuous but unresolved region between them. The authors state that the DNA is transferred from UL12 to ICP8 without significant trajectory changes, but the unresolved density limits confidence in this interpretation. The unstructured N-terminal portion of UL12 and the C-terminal domain of ICP8 are not resolved, which may affect the interpretation of the interface. The claim of a "handoff" mechanism is inferred from the static structure and is not supported by functional experiments showing DNA transfer.
+  - **Why it matters** The ternary complex is a unique and potentially high-impact result. However, the incomplete DNA density and lack of functional validation weaken the mechanistic claim. The handoff model is plausible but not proven.
+  - **Resolution test** Provide local resolution estimates for the DNA region and a clear description of what could and could not be modeled. If possible, perform mutagenesis at the ICP8-UL12 interface to test whether disrupting the interaction abolishes handoff or recombination activity. Alternatively, present the structure as a static snapshot and clearly separate structural observation from mechanistic inference.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that ICP8 "binds single-stranded DNA in a cooperative manner and facilitates the annealing of complementary DNA strands in a process that involves the formation of double helical filaments." This is a well-established fact, but the abstract could more clearly distinguish between previously known properties and the new structural findings.
+  - **Required correction** Rephrase to emphasize the novel structural contributions, e.g., "Here we present structures that reveal the molecular basis of these activities."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Results, BALF2-DNA structure
+  - **Evidence pointer** "The structure of BALF2-DNA complex", paragraph 1
+  - **Issue** The text states that "particles of good quality were observed only with the 60-mer and 90-mer DNA," but no details are given on how particle quality was assessed or why other lengths failed. This is relevant for reproducibility.
+  - **Required correction** Add a brief description of the screening criteria or refer to a supplementary figure that shows representative micrographs and 2D classes for all tested conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, ICP8-DNA crystal structures
+  - **Evidence pointer** "Crystal structure of ICP8-DNA complex symmetrical dimer", paragraph 2
+  - **Issue** The text mentions that "due to poor electron density, the bases in positions +4 could not be visualized" for one structure, but it is unclear whether this limitation applies to one or both chains and whether it affects the interpretation of base pairing.
+  - **Required correction** Clarify which chain and which structure are affected, and state whether this missing density impacts the conclusions about pairing.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, ICP8 filament
+  - **Evidence pointer** "Structure of the ICP8 filament", paragraph 1
+  - **Issue** The helical parameters are stated to closely match those of previously characterized ICP8-only filaments, but no numerical values for the prior model are given. This makes the comparison difficult to evaluate.
+  - **Required correction** Provide the previously reported helical parameters alongside the new values, or cite the specific figure/table where this comparison is shown.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 4
+  - **Evidence pointer** Discussion, paragraph 4
+  - **Issue** The discussion of the DdrB comparison is interesting but brief. The authors suggest a two-step annealing mechanism for ICP8 based on analogy to DdrB, but this is presented without direct experimental support.
+  - **Required correction** Clearly label this as a speculative analogy and consider whether any of the presented structures provide direct evidence for such a mechanism.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Discussion, final paragraph
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The final paragraph summarizes the work well but uses the term "annealase loading" without prior definition. Non-specialist readers may not be familiar with this term.
+  - **Required correction** Define "annealase" on first use, or rephrase to "loading of the annealing protein onto single-stranded DNA."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The structural claims are central to the paper, but the evidence as presented is incomplete. Map quality, model validation, and functional correlation must be demonstrated before the mechanistic conclusions can be accepted.
+- **Assessment against Nature-style criteria** Originality: High. The structures are novel and address a long-standing gap. Scientific importance: High for herpesvirus biology and DNA recombination. Interdisciplinary readership: Moderate. The work will appeal to virologists and structural biologists, but the broader DNA repair community may find the relevance limited without clearer functional links. Technical soundness: Not fully assessable from the text alone. The reported resolutions are reasonable, but validation details are missing. Readability for nonspecialists: The introduction and discussion are accessible, but the results section assumes significant background knowledge. The abstract could better highlight the conceptual advance.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data are potentially important, but the current manuscript does not fully establish the mechanistic claims. The authors should provide validation statistics, functional data with statistical support, and a clearer separation of structural observation from mechanistic inference.
+
+## Risk / unsupported claims
+- The claim that the ICP8-DNA dimer represents an annealing intermediate is not directly supported by functional data.
+- The claim that the ICP8 filament may represent an initial stage of annealing is speculative, as DNA was not modeled in the structure.
+- The claim of a "hand-off" mechanism between ULCP8 and ICP8 is inferred from a static structure without functional validation.
+- The functional importance of Tyr920 and Arg725 is based on single-point variants without statistical analysis.
+- The statement that the observed base-pairing patterns reflect flexibility relevant to homology search is not experimentally tested.
+- The comparison to DdrB and the proposed two-step annealing mechanism is speculative and not supported by direct evidence in this manuscript.

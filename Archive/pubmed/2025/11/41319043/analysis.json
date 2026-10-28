@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41319043",
+  "title": "ETNet: an interpretable transformer framework for enhancer-enhancer interaction prediction with cross-context transferability.",
+  "authors": "Wang, Shuaibin; Chen, Tong; Yang, Zhongxin; Liang, Zhen; Shen, Yin",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-11-30",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于CNN与Transformer的深度学习框架ETNet，从DNA序列预测增强子-增强子互作，虽非直接TF-DNA结合体系，但涉及转录调控中的染色质互作建模与可解释性分析，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Enhancer-enhancer interactions (EEIs) are critical regulatory components in transcriptional networks but remain computationally challenging to predict. While enhancer-promoter interactions have been extensively studied, EEIs remain comparatively underexplored. We developed ETNet (Enhancer-enhancer Interaction Explainable Transformer Network), a deep learning architecture integrating convolutional neural networks with Transformer modules to predict EEIs from DNA sequences. Evaluation across three cell lines (GM12878, K562, MCF-7) demonstrated superior performance compared to existing methods including EnContact, with statistical significance confirmed through DeLong tests across six cell lines. Rigorous validation through cross-validation and enhancer-level data partitioning confirmed robust generalization. ETNet exhibited effective cross-cell type transfer learning and showed transferability to enhancer-promoter interaction tasks, providing exploratory evidence for shared chromatin interaction principles. Feature attribution analysis recovered cell-type-specific regulatory motifs consistent with known transcription factors and revealed computational evidence for super-additive cooperative mechanisms, with cooperativity negatively correlating with sequence similarity-patterns representing hypothesis-generating observations requiring experimental validation. Proof-of-concept analysis demonstrated how single-nucleotide polymorphisms in JAK-STAT pathway genes may influence predicted interactions through motif alterations. ETNet advances computational approaches for studying enhancer interactions and provides a framework combining predictive capability with exploratory interpretability.",
+  "abstract_zh": "增强子-增强子相互作用（EEIs）是转录网络中的关键调控组件，但在计算上仍难以预测。尽管增强子-启动子相互作用已被广泛研究，EEIs仍相对未被充分探索。我们开发了ETNet（增强子-增强子相互作用可解释Transformer网络），这是一种将卷积神经网络与Transformer模块相结合的深度学习架构，用于从DNA序列预测EEIs。在三种细胞系（GM12878、K562、MCF-7）上的评估显示，其性能优于包括EnContact在内的现有方法，并通过DeLong检验在六种细胞系中确认了统计显著性。通过交叉验证和增强子水平数据划分的严格验证确认了稳健的泛化能力。ETNet表现出有效的跨细胞类型迁移学习，并显示出向增强子-启动子相互作用任务的迁移性，为共享染色质相互作用原理提供了探索性证据。特征归因分析恢复了与已知转录因子一致的细胞类型特异性调控基序，并揭示了超加性协同机制的计算证据，其中协同性与序列相似性呈负相关——这些模式代表需实验验证的假设生成观察。概念验证分析展示了JAK-STAT通路基因中的单核苷酸多态性如何通过基序改变影响预测的相互作用。ETNet推进了研究增强子相互作用的计算方法，并提供了一个结合预测能力与探索性可解释性的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41319043/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41319043/",
+  "paper_page_path": "papers/pubmed/41319043/index.html"
+}

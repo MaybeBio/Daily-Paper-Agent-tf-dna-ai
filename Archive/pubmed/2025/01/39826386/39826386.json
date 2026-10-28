@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "39826386",
+    "doi": "10.1016/j.breast.2025.103878",
+    "title": "Personalized treatment strategies for breast adenoid cystic carcinoma: A machine learning approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast adenoid cystic carcinoma (BACC) is a rare subtype of breast cancer that accounts for less than 0.1 % of all cases. This study was designed to assess the efficacy of various treatment approaches for BACC and to create the first web-based tool to facilitate personalized treatment decisions. METHODS: The Surveillance, Epidemiology, and End Results (SEER) database was used for this study's analysis. To identify the prognostic variables, we conducted Cox regression analysis and constructed prognostic models using five Machine Learning (ML) algorithms to predict the 5-year survival. A validation method incorporating the area under the curve (AUC) of the receiver operating characteristic (ROC) curve was used to validate the accuracy and reliability of ML models. We also performed a Kaplan-Meier (K-M) survival analysis. RESULTS: This study included 1212 patients. The median age was 60 years, with most tumors being localized and less than 2 cm in size. The 5-year overall survival (OS) rates were highest for surgery + radiotherapy (RT) (94.9 %) and lowest for surgery + chemotherapy (CTX) + RT (80.1 %). Positive estrogen receptor (ER) status and younger age were associated with better survival outcomes. ML models identified key predictive features for survival, including age, nodal status, and ER status. CONCLUSION: Age, lymph node metastasis, and ER status are crucial prognostic indicators for BACC. Although postoperative RT enhances survival, the advantages of adjuvant CTX are uncertain, implying that it may be eschewed to avert adverse effects. Our online tool offers essential resources for prognostication and treatment optimization.",
+    "keywords": [
+      "Adenoid cystic carcinoma",
+      "Breast neoplasms",
+      "Estrogen receptors",
+      "Machine learning",
+      "Prognosis",
+      "Survival analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Carcinoma, Adenoid Cystic/therapy/mortality/pathology",
+      "*Machine Learning",
+      "Middle Aged",
+      "SEER Program",
+      "*Breast Neoplasms/therapy/mortality/pathology",
+      "*Precision Medicine/methods",
+      "Aged",
+      "Prognosis",
+      "Adult",
+      "Kaplan-Meier Estimate",
+      "ROC Curve",
+      "Proportional Hazards Models",
+      "Reproducibility of Results",
+      "Receptors, Estrogen/metabolism",
+      "Age Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alshwayyat, Sakhr",
+        "Abu Al Hawa, Mahmoud Bashar",
+        "Alshwayyat, Mustafa",
+        "Alshwayyat, Tala Abdulsalam",
+        "Sawan, Siya",
+        "Heilat, Ghaith",
+        "Hammouri, Hanan M",
+        "Mheid, Sara",
+        "Al Shweiat, Batool",
+        "Hanifa, Hamdah"
+      ],
+      "short_names": [
+        "Alshwayyat S",
+        "Abu Al Hawa MB",
+        "Alshwayyat M",
+        "Alshwayyat TA",
+        "Sawan S",
+        "Heilat G",
+        "Hammouri HM",
+        "Mheid S",
+        "Al Shweiat B",
+        "Hanifa H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "King Hussein Cancer Center, Amman, Jordan; Princess Basma Teaching Hospital, Irbid, Jordan; Research Fellow, Applied Science Research Center, Applied Science Private University, Amman, Jordan. Electronic address: sakhrabdusalam@gmail.com.",
+        "Faculty of Medicine, Jordan University of Science & Technology, Irbid, Jordan. Electronic address: mahmoud2000hawa@gmail.com.",
+        "Faculty of Medicine, Jordan University of Science & Technology, Irbid, Jordan. Electronic address: maalshwayyat22@med.just.edu.jo.",
+        "Princess Basma Teaching Hospital, Irbid, Jordan. Electronic address: tala.abdelsalam@yahoo.com.",
+        "Faculty of Medicine, University of Jordan, Amman, Jordan. Electronic address: Siya.sawan.7@gmail.com.",
+        "Breast Oncoplastic and General Surgery, Department of General Surgery and Urology, Jordan University of Science & Technology, King Abdullah University Hospital, Irbid, Jordan. Electronic address: gbheilat@just.edu.jo.",
+        "Department of Mathematics and Statistics, Faculty of Arts and Science, Jordan University of Science and Technology, Irbid, Jordan. Electronic address: hmhammouri@just.edu.jo.",
+        "Radiation Oncology Department, King Hussein Cancer Center, Amman, Jordan. Electronic address: SM.11445@khcc.jo.",
+        "Breast Imaging Fellow, Department of Radiology, King Hussein Cancer Center, Amman, Jordan. Electronic address: Ba.17390@khcc.jo.",
+        "Faculty of Medicine, University of Kalamoon, Al_Nabk, Syria. Electronic address: hamdahhanifa@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alshwayyat, Sakhr",
+        "short_name": "Alshwayyat S",
+        "identifiers": [],
+        "affiliations": [
+          "King Hussein Cancer Center, Amman, Jordan; Princess Basma Teaching Hospital, Irbid, Jordan; Research Fellow, Applied Science Research Center, Applied Science Private University, Amman, Jordan. Electronic address: sakhrabdusalam@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Abu Al Hawa, Mahmoud Bashar",
+        "short_name": "Abu Al Hawa MB",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Jordan University of Science & Technology, Irbid, Jordan. Electronic address: mahmoud2000hawa@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Alshwayyat, Mustafa",
+        "short_name": "Alshwayyat M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Jordan University of Science & Technology, Irbid, Jordan. Electronic address: maalshwayyat22@med.just.edu.jo."
+        ]
+      },
+      {
+        "full_name": "Alshwayyat, Tala Abdulsalam",
+        "short_name": "Alshwayyat TA",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Basma Teaching Hospital, Irbid, Jordan. Electronic address: tala.abdelsalam@yahoo.com."
+        ]
+      },
+      {
+        "full_name": "Sawan, Siya",
+        "short_name": "Sawan S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, University of Jordan, Amman, Jordan. Electronic address: Siya.sawan.7@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Heilat, Ghaith",
+        "short_name": "Heilat G",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Oncoplastic and General Surgery, Department of General Surgery and Urology, Jordan University of Science & Technology, King Abdullah University Hospital, Irbid, Jordan. Electronic address: gbheilat@just.edu.jo."
+        ]
+      },
+      {
+        "full_name": "Hammouri, Hanan M",
+        "short_name": "Hammouri HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Statistics, Faculty of Arts and Science, Jordan University of Science and Technology, Irbid, Jordan. Electronic address: hmhammouri@just.edu.jo."
+        ]
+      },
+      {
+        "full_name": "Mheid, Sara",
+        "short_name": "Mheid S",
+        "identifiers": [],
+        "affiliations": [
+          "Radiation Oncology Department, King Hussein Cancer Center, Amman, Jordan. Electronic address: SM.11445@khcc.jo."
+        ]
+      },
+      {
+        "full_name": "Al Shweiat, Batool",
+        "short_name": "Al Shweiat B",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Imaging Fellow, Department of Radiology, King Hussein Cancer Center, Amman, Jordan. Electronic address: Ba.17390@khcc.jo."
+        ]
+      },
+      {
+        "full_name": "Hanifa, Hamdah",
+        "short_name": "Hanifa H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, University of Kalamoon, Al_Nabk, Syria. Electronic address: hamdahhanifa@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast (Edinburgh, Scotland)"
+    ],
+    "journal_abbrev": [
+      "Breast"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/20 22:52",
+    "fetched_at": "2026-10-05 02:29:20"
+  },
+  "links": {
+    "cites": [
+      "41953099",
+      "41694972",
+      "40442679"
+    ],
+    "refs": [
+      "39714621",
+      "39614618",
+      "39099297",
+      "38875514",
+      "37757737",
+      "37477930",
+      "37398894",
+      "37353590",
+      "35953528",
+      "35885663",
+      "35331206",
+      "33791208",
+      "33538338",
+      "33075683",
+      "32845724",
+      "29344276",
+      "28608456",
+      "28466440",
+      "27915203",
+      "23456318",
+      "22154460",
+      "21709140",
+      "21570212",
+      "20653964",
+      "20589709",
+      "20410430",
+      "20203221",
+      "19730354",
+      "15846389",
+      "15528965",
+      "12095593",
+      "12001107",
+      "11914618",
+      "9591727",
+      "2824330",
+      "1311551"
+    ],
+    "similar": [
+      "39826386",
+      "39099297",
+      "39522610",
+      "28008158",
+      "27915203",
+      "39714621",
+      "38858112",
+      "38834909",
+      "12001107",
+      "39488563",
+      "23456318",
+      "30472214",
+      "39333608",
+      "39052087",
+      "32947149",
+      "38802681",
+      "39334146",
+      "40223148",
+      "38522261",
+      "38104649",
+      "38546966",
+      "11914618",
+      "40262081",
+      "39647524",
+      "37176539",
+      "38839261",
+      "32636150",
+      "30831646",
+      "40204827",
+      "39188041",
+      "38996803",
+      "40286776",
+      "29402308",
+      "35418268",
+      "30194768",
+      "31096027",
+      "40249221",
+      "28222936",
+      "36113374",
+      "38853169",
+      "40165301",
+      "38643430",
+      "21790841",
+      "18026874",
+      "24781343",
+      "31725640",
+      "39736653",
+      "39347922",
+      "37880320",
+      "37296397",
+      "26376021",
+      "38572933",
+      "33187507",
+      "38849300",
+      "29100191",
+      "37955009",
+      "40000793",
+      "28601929",
+      "37078162",
+      "31026435",
+      "37344847",
+      "30569173",
+      "40119324",
+      "34001061",
+      "39723497",
+      "34454451",
+      "39212553",
+      "40118983",
+      "32447641",
+      "28168897",
+      "23240985",
+      "33676449",
+      "39506090",
+      "30396812",
+      "20515469",
+      "39920239",
+      "39116271",
+      "25333731",
+      "39891059",
+      "21570212",
+      "26597806",
+      "26252312",
+      "32779101",
+      "24796466",
+      "40036657",
+      "28376179",
+      "39849404",
+      "23747147",
+      "27009810",
+      "26602017",
+      "38131531",
+      "37353590",
+      "20390465",
+      "29072365",
+      "31206623",
+      "26493113",
+      "1311551",
+      "31718602",
+      "32812198",
+      "32567392"
+    ],
+    "review": [
+      "39826386",
+      "12001107",
+      "23747147"
+    ],
+    "pmc": [
+      "11786111"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960-9776(25)00007-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39826386/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0960-9776(25)00007-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

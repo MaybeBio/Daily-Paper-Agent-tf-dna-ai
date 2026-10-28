@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "38728466",
+    "doi": "10.1097/MD.0000000000038134",
+    "title": "Construction of ferroptosis-related prediction model for pathogenesis, diagnosis and treatment of ruptured abdominal aortic aneurysm."
+  },
+  "content": {
+    "abstract": "Abdominal aortic aneurysm (AAA) is a dangerous cardiovascular disease, which often brings great psychological burden and economic pressure to patients. If AAA rupture occurs, it is a serious threat to patients' lives. Therefore, it is of clinical value to actively explore the pathogenesis of ruptured AAA and prevent its occurrence. Ferroptosis is a new type of cell death dependent on lipid peroxidation, which plays an important role in many cardiovascular diseases. In this study, we used online data and analysis of ferroptosis-related genes to uncover the formation of ruptured AAA and potential therapeutic targets. We obtained ferroptosis-related differentially expressed genes (Fe-DEGs) from GSE98278 dataset and 259 known ferroptosis-related genes from FerrDb website. Enrichment analysis of differentially expressed genes (DEGs) was performed by gene ontology (GO) and Kyoto encyclopedia of genes and genomes (KEGG). Receiver Operating characteristic (ROC) curve was employed to evaluate the diagnostic abilities of Fe-DEGs. Transcription factors and miRNAs of Fe-DEGs were identified through PASTAA and miRDB, miRWalk, TargetScan respectively. Single-sample gene set enrichment analysis (ssGSEA) was used to observe immune infiltration between the stable group and the rupture group. DGIdb database was performed to find potential targeted drugs of DEGs. GO and KEGG enrichment analysis found that DEGs mainly enriched in \"cellular divalent inorganic cation homeostasis,\" \"cellular zinc ion homeostasis,\" \"divalent inorganic cation homeostasis,\" \"Mineral absorption,\" \"Cytokine - cytokine receptor interaction,\" \"Coronavirus disease - COVID-19.\" Two up-regulated Fe-DEGs MT1G and DDIT4 were found to further analysis. Both single and combined applications of MT1G and DDIT4 showed good diagnostic efficacy (AUC = 0.8254, 0.8548, 0.8577, respectively). Transcription factors STAT1 and PU1 of MT1G and ARNT and MAX of DDIT4 were identified. Meanwhile, has_miR-548p-MT1G pairs, has_miR-53-3p/has_miR-181b-5p/ has_miR-664a-3p-DDIT4 pairs were found. B cells, NK cells, Th2 cells were high expression in the rupture group compared with the stable group, while DCs, Th1 cells were low expression in the rupture group. Targeted drugs against immunity, GEMCITABINE and INDOMETHACIN were discovered. We preliminarily explored the clinical significance of Fe-DEGs MT1G and DDIT4 in the diagnosis of ruptured AAA, and proposed possible upstream regulatory transcription factors and miRNAs. In addition, we also analyzed the immune infiltration of stable and rupture groups, and found possible targeted drugs for immunotherapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "Humans",
+      "*Aortic Aneurysm, Abdominal/genetics/diagnosis",
+      "*Aortic Rupture/genetics",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling/methods",
+      "Gene Ontology",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ailu",
+        "Zhou, Li"
+      ],
+      "short_names": [
+        "Wang A",
+        "Zhou L"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5942-0782"
+      ],
+      "affiliations": [
+        "Department of Neonatology, the First Hospital of China Medical University, Shenyang, China.",
+        "Department of Geratology, the First Hospital of China Medical University, Shenyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ailu",
+        "short_name": "Wang A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neonatology, the First Hospital of China Medical University, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Li",
+        "short_name": "Zhou L",
+        "identifiers": [
+          "0009-0002-5942-0782"
+        ],
+        "affiliations": [
+          "Department of Geratology, the First Hospital of China Medical University, Shenyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2024 May 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/10 18:42",
+    "fetched_at": "2026-09-29 19:53:25"
+  },
+  "links": {
+    "cites": [
+      "42068672"
+    ],
+    "refs": [
+      "35185791",
+      "34800783",
+      "33919749",
+      "33833132",
+      "33268902",
+      "32805313",
+      "32404014",
+      "32072912",
+      "31914654",
+      "31732712",
+      "31341173",
+      "30783419",
+      "30443031",
+      "30337540",
+      "29926569",
+      "29707520",
+      "29599276",
+      "29268916",
+      "28985560",
+      "28484222",
+      "28472422",
+      "28336556",
+      "27737314",
+      "27698118",
+      "27001684",
+      "26814202",
+      "26531824",
+      "26289347",
+      "25799988",
+      "25312534",
+      "24113773",
+      "24098937",
+      "22854530",
+      "19073590",
+      "15066426",
+      "12498322",
+      "10605938",
+      "10361345"
+    ],
+    "similar": [
+      "38728466",
+      "38941402",
+      "39512836",
+      "36017103",
+      "31553078",
+      "39173977",
+      "38885209",
+      "38650009",
+      "36204517",
+      "40228223",
+      "32805313",
+      "40024299",
+      "39586719",
+      "38139032",
+      "34139912",
+      "35874515",
+      "34852854",
+      "36973608",
+      "36291136",
+      "39789929",
+      "29439675",
+      "35381314",
+      "37520121",
+      "38181271",
+      "35299890",
+      "38867262",
+      "31730405",
+      "38347799",
+      "32323261",
+      "39798208",
+      "38443950",
+      "30643084",
+      "34777635",
+      "39823264",
+      "35637927",
+      "36158807",
+      "38509535",
+      "37259023",
+      "34386423",
+      "36689408",
+      "38873601",
+      "38057699",
+      "38115130",
+      "39608795",
+      "39331874",
+      "36101331",
+      "34059009",
+      "39403102",
+      "31539405",
+      "39375405",
+      "37751480",
+      "38368317",
+      "35035519",
+      "30096582",
+      "31885343",
+      "39541922",
+      "34536521",
+      "39516222",
+      "38542784",
+      "39600608",
+      "33415145",
+      "25916817",
+      "36186997",
+      "34313877",
+      "38875180",
+      "40263537",
+      "39192637",
+      "35840740",
+      "35818227",
+      "36798084",
+      "37737183",
+      "36110200",
+      "32605321",
+      "34281531",
+      "38390208",
+      "36341412",
+      "32547322",
+      "37283588",
+      "36388363",
+      "33407587",
+      "40024937",
+      "35625787",
+      "38020614",
+      "36536067",
+      "36837498",
+      "36343018",
+      "37251674",
+      "38701300",
+      "36335193",
+      "28431866",
+      "39556279",
+      "36247434",
+      "35923893",
+      "39526479",
+      "37752199",
+      "35909518",
+      "37965040",
+      "31489700",
+      "38470002",
+      "34256754"
+    ],
+    "review": [
+      "38728466"
+    ],
+    "pmc": [
+      "11081628"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=103&issue=19&spage=e38134&aulast=Wang",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/38728466.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38728466/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38728466",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000038134",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

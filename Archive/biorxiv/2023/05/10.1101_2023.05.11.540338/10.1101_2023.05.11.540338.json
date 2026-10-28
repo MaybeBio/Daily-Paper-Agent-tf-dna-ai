@@ -1,0 +1,475 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.11.540338",
+  "title": "Circadian PERIOD proteins regulate TC-DSB repair through anchoring to the nuclear envelope",
+  "doi": "10.1101/2023.05.11.540338",
+  "abstract": "Repair of DNA Double-Strand Breaks (DSBs) produced in transcriptionally active chromatin occurs through a poorly characterized pathway called Transcription-Coupled DSB repair (TC-DSBR). Here, using a screening approach scoring multiple outputs in human cells, we identified proteins from the PERIOD complex, a key module ensuring circadian oscillations, as novel TC-DSBR players. We show that the core PER complex protein PER2 is recruited at TC-DSBs and that it contributes to the targeting of TC-DSBs at the nuclear envelope (NE). At the NE, SUN1 and the Nuclear Pore Complex (NPC) act as docking sites for TC-DSBs and TC-DSB anchoring fosters RAD51 assembly. Impaired DSB localization at the NE results in elevated DSB clustering and translocation rate. In agreement, the circadian clock regulates TC-DSB anchoring to the NE, RAD51 assembly, and DSB clustering. Our study shows that DSB localization to the NPC is a conserved molecular pathway that also occurs in human cells and provides a direct link between the circadian rhythm and the response to DSBs occurring in active genes. This opens new therapeutic strategies for chemotherapies based on drugs that are inducing DSBs in active loci such as topoisomerase poisons.",
+  "authors": [
+    "Le Bozec B",
+    "Guitton-Sert L",
+    "Collins S",
+    "Finoux A",
+    "Payrault C",
+    "Frison J",
+    "Carette R",
+    "Rocher V",
+    "Guillou E",
+    "Arnould C",
+    "Guénolé A",
+    "Aguirrebengoa M",
+    "Aguirrebengoa M",
+    "Lazar I",
+    "Marnef A",
+    "Frit P",
+    "Calsou P",
+    "Mangeat T",
+    "Puget N",
+    "Legube G"
+  ],
+  "published_date": "2023-05-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540338",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540338.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR659240",
+    "raw_record": {
+      "id": "PPR659240",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR659240"
+        ]
+      },
+      "doi": "10.1101/2023.05.11.540338",
+      "title": "Circadian PERIOD proteins regulate TC-DSB repair through anchoring to the nuclear envelope",
+      "authorString": "Le Bozec B, Guitton-Sert L, Collins S, Finoux A, Payrault C, Frison J, Carette R, Rocher V, Guillou E, Arnould C, Guénolé A, Aguirrebengoa M, Aguirrebengoa M, Lazar I, Marnef A, Frit P, Calsou P, Mangeat T, Puget N, Legube G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Le Bozec B",
+            "lastName": "Le Bozec",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guitton-Sert L",
+            "lastName": "Guitton-Sert",
+            "firstName": "Laure",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Collins S",
+            "lastName": "Collins",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Finoux A",
+            "lastName": "Finoux",
+            "firstName": "Anne-Laure",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Payrault C",
+            "lastName": "Payrault",
+            "firstName": "Charlotte",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frison J",
+            "lastName": "Frison",
+            "firstName": "Jessica",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carette R",
+            "lastName": "Carette",
+            "firstName": "Romane",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rocher V",
+            "lastName": "Rocher",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3421-482X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guillou E",
+            "lastName": "Guillou",
+            "firstName": "Emmanuelle",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arnould C",
+            "lastName": "Arnould",
+            "firstName": "Coline",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4421-1681"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guénolé A",
+            "lastName": "Guénolé",
+            "firstName": "Aude",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aguirrebengoa M",
+            "lastName": "Aguirrebengoa",
+            "firstName": "Marion",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5205-9774"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BigA, NGS data analysis facility, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aguirrebengoa M",
+            "lastName": "Aguirrebengoa",
+            "firstName": "Marion",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4046-737X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BigA, NGS data analysis facility, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lazar I",
+            "lastName": "Lazar",
+            "firstName": "Ikrame",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marnef A",
+            "lastName": "Marnef",
+            "firstName": "Aline",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frit P",
+            "lastName": "Frit",
+            "firstName": "Philippe",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6571-8860"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Pharmacologie et de Biologie Structurale (IPBS), Université de Toulouse, CNRS, Université Toulouse III - Paul Sabatier (UT3), Toulouse, France"
+                },
+                {
+                  "affiliation": "Equipe Labellisée Ligue Contre le Cancer 2018, Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calsou P",
+            "lastName": "Calsou",
+            "firstName": "Patrick",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Pharmacologie et de Biologie Structurale (IPBS), Université de Toulouse, CNRS, Université Toulouse III - Paul Sabatier (UT3), Toulouse, France"
+                },
+                {
+                  "affiliation": "Equipe Labellisée Ligue Contre le Cancer 2018, Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mangeat T",
+            "lastName": "Mangeat",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "LITC Core Facility, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Puget N",
+            "lastName": "Puget",
+            "firstName": "Nadine",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Legube G",
+            "lastName": "Legube",
+            "firstName": "Gaëlle",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MCD, Centre de Biologie Intégrative (CBI), CNRS, Université de Toulouse, UT3, 31062 Toulouse, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5205-9774"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3421-482X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4421-1681"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6571-8860"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4046-737X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Repair of DNA Double-Strand Breaks (DSBs) produced in transcriptionally active chromatin occurs through a poorly characterized pathway called Transcription-Coupled DSB repair (TC-DSBR). Here, using a screening approach scoring multiple outputs in human cells, we identified proteins from the PERIOD complex, a key module ensuring circadian oscillations, as novel TC-DSBR players. We show that the core PER complex protein PER2 is recruited at TC-DSBs and that it contributes to the targeting of TC-DSBs at the nuclear envelope (NE). At the NE, SUN1 and the Nuclear Pore Complex (NPC) act as docking sites for TC-DSBs and TC-DSB anchoring fosters RAD51 assembly. Impaired DSB localization at the NE results in elevated DSB clustering and translocation rate. In agreement, the circadian clock regulates TC-DSB anchoring to the NE, RAD51 assembly, and DSB clustering. Our study shows that DSB localization to the NPC is a conserved molecular pathway that also occurs in human cells and provides a direct link between the circadian rhythm and the response to DSBs occurring in active genes. This opens new therapeutic strategies for chemotherapies based on drugs that are inducing DSBs in active loci such as topoisomerase poisons.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "647344",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101019963",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/11/2023.05.11.540338.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.11.540338"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR659240"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR659240&type=FILE&fileName=EMS175725-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41270757",
+            "reference": "Molecular cell. 2025 Dec;85(24):4492-4509.e11",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 5,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS175725",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "hpa",
+          "refseq",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-05-14",
+      "firstPublicationDate": "2023-05-11",
+      "firstIndexDate": "2023-05-14",
+      "fullTextReceivedDate": "2024-04-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40148997",
+  "title": "Multimodal recurrence risk prediction model for HR+/HER2- early breast cancer following adjuvant chemo-endocrine therapy: integrating pathology image and clinicalpathological features.",
+  "authors": "Wu, Xiaoyan; Li, Yiman; Chen, Jilong; Chen, Jie; Zhang, Wenchuan; Lu, Xunxi; Zhong, Xiaorong; Zhu, Min; Yi, Yuhao; Bu, Hong",
+  "journal": "Breast cancer research : BCR",
+  "published_date": "2025-03-28",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用病理图像和临床病理特征预测乳腺癌复发风险，不涉及蛋白质-DNA互作或TF-DNA结合，与课题无关。",
+  "abstract": "BACKGROUND: In HR+/HER2- early breast cancer (EBC) patients, approximately one-third of stage II and 50% of stage III patients experience recurrence, with poor outcomes after recurrence. Given that these patients commonly undergo adjuvant chemo-endocrine therapy (C-ET), accurately predicting the recurrence risk is crucial for optimizing treatment strategies and improving patient outcomes. METHODS: We collected postoperative histopathological slides from 1095 HR+/HER2- EBC who received C-ET and were followed for more than five years at West China Hospital, Sichuan University. Two deep learning pipelines were developed and validated: ACMIL-based and CLAM-based. Both pipelines, designed to predict recurrence risk post-treatment, were based on pretrained feature encoders and multi-instance learning with attention mechanisms. Model performance was evaluated using a five-fold cross-validation approach and externally validated on HR+/HER2- EBC patients from the TCGA cohort. RESULTS: Both ACMIL-based and CLAM-based pipelines performed well in predicting recurrence risk, with UNI-ACMIL demonstrating superior performance across multiple metrics. The average area under the curve (AUC) for the UNI-ACMIL pipeline in the five-fold cross-validation test set was 0.86 +/- 0.02, and 0.80 +/- 0.04 in the TCGA cohort. In the five-fold cross-validation test sets, effectively stratified patients into high-risk and low-risk groups, demonstrating significant prognostic differences. Hazard ratios for recurrence-free survival (RFS) ranged from 5.32 (95% CI 1.86-15.12) to 15.16 (95% CI 3.61-63.56). Moreover, among six different multimodal recurrence risk models, the WSI-based risk score was identified as the most significant contributor. CONCLUSION: Our multimodal recurrence risk prediction model is a practical and reliable tool that enhances the predictive power of existing systems relying solely on clinicopathological parameters. It offers improved recurrence risk prediction for HR+/HER2- EBC patients following adjuvant C-ET, supporting personalized treatment and better patient outcomes.",
+  "abstract_zh": "背景：在HR+/HER2-早期乳腺癌（EBC）患者中，约三分之一的II期患者和50%的III期患者会出现复发，且复发后预后较差。鉴于这些患者通常接受辅助化疗-内分泌治疗（C-ET），准确预测复发风险对于优化治疗策略和改善患者预后至关重要。方法：我们收集了四川大学华西医院1095例接受C-ET并随访超过五年的HR+/HER2- EBC患者的术后组织病理切片。开发并验证了两种深度学习流程：基于ACMIL和基于CLAM的流程。这两种流程均旨在预测治疗后复发风险，基于预训练特征编码器和带注意力机制的多实例学习。模型性能通过五折交叉验证方法评估，并在TCGA队列的HR+/HER2- EBC患者中进行外部验证。结果：基于ACMIL和基于CLAM的流程在预测复发风险方面均表现良好，其中UNI-ACMIL在多个指标上表现出优越性能。UNI-ACMIL流程在五折交叉验证测试集中的平均曲线下面积（AUC）为0.86 ± 0.02，在TCGA队列中为0.80 ± 0.04。在五折交叉验证测试集中，该流程有效将患者分为高风险和低风险组，显示出显著的预后差异。无复发生存期（RFS）的风险比范围为5.32（95% CI 1.86-15.12）至15.16（95% CI 3.61-63.56）。此外，在六种不同的多模态复发风险模型中，基于WSI的风险评分被确定为最显著的贡献因素。结论：我们的多模态复发风险预测模型是一种实用且可靠的工具，增强了现有仅依赖临床病理参数系统的预测能力。它为HR+/HER2- EBC患者在辅助C-ET后的复发风险预测提供了改进，支持个性化治疗并改善患者预后。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40148997/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40148997/",
+  "paper_page_path": "papers/pubmed/40148997/index.html"
+}

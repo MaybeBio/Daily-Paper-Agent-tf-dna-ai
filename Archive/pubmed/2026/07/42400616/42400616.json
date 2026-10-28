@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "42400616",
+    "doi": "10.1007/s00262-026-04427-7",
+    "title": "Integrative single-cell and multi-omics analysis of ZBTB21-mediated serine metabolism in colorectal cancer: from metabolic reprogramming to immune microenvironment modulation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) exhibits pronounced biological diversity, a feature increasingly attributed to alterations in cellular metabolic reprograms. Serine metabolism supports nucleotide synthesis, redox balance, and epigenetic regulation via one-carbon metabolism, yet its role in shaping the tumor cellular interactions and immune landscape at single-cell level remains unclear. METHODS: Single-cell transcriptomic profiles (GSE284449) were jointly analyzed with bulk expression datasets (GSE271719), together with Mendelian randomization (MR)-based inference, to dissect serine metabolism in CRC. High-serine-metabolism (HSM) cell populations were identified using scMetabolism, and robust marker genes were selected through Lasso, random forest, XGBoost, and SVM-RFE machine learning approaches. MR was applied to evaluate causal associations with CRC risk. Functional validation included IHC, qRT-PCR, western blot, and LC-MS metabolomics, while CellChat analysis characterized HSM cell interactions with immune and stromal cells. RESULTS: ZBTB21 and TRPM2 were identified as core regulators of HSM cells, with ZBTB21 predominantly expressed in monocytes and pro-B cells. MR analysis suggested a potential inverse association between genetically predicted ZBTB21 expression and CRC risk, indicating that ZBTB21 may exert context-dependent effects at the population level. Cell-cell communication analysis suggested that HSM monocytes may interact with fibroblasts through signaling pathways including the MIF-SPP1 axis; however, these interactions are computationally inferred and require further experimental validation. Functional assays showed that ZBTB21 overexpression upregulated PHGDH and SHMT1, increased intracellular NADPH/NADP(+) ratios, and influenced monocyte-related phenotypes. ZBTB21 levels were markedly increased in CRC samples relative to matched non-tumorous mucosal tissues. CONCLUSIONS: At single-cell resolution, ZBTB21 emerges as a metabolic regulator that strengthens serine biosynthesis and redox homeostasis. While integrative analyses suggest a potential link between ZBTB21-associated metabolic states and immune interactions, further experimental validation is required to establish causal relationships. This integrative framework connects genetic causality, metabolism, and immune interactions, providing mechanistic insights and potential strategies for metabolic-targeted therapies in CRC. TRIAL REGISTRATION: Not applicable.",
+    "keywords": [
+      "Colorectal cancer",
+      "Machine learning",
+      "Mendelian randomization",
+      "Serine metabolism",
+      "ZBTB21"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/metabolism/genetics/immunology/pathology",
+      "Metabolic Reprogramming",
+      "Multiomics",
+      "*Serine/metabolism",
+      "*Tumor Microenvironment/immunology",
+      "Single-Cell Analysis/methods",
+      "Gene Expression Regulation, Neoplastic",
+      "*Repressor Proteins/metabolism/genetics",
+      "*Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Yimei",
+        "Huang, Haiyan",
+        "Feng, Haoran",
+        "Liu, Kun",
+        "Shi, Yiqing",
+        "Song, Zijia",
+        "Cheng, Xi",
+        "Ji, Xiaopin",
+        "Zhao, Ren"
+      ],
+      "short_names": [
+        "Jiang Y",
+        "Huang H",
+        "Feng H",
+        "Liu K",
+        "Shi Y",
+        "Song Z",
+        "Cheng X",
+        "Ji X",
+        "Zhao R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China. jxp11156@rjh.com.cn.",
+        "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China. zr10512@rjh.com.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Yimei",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Haiyan",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Haoran",
+        "short_name": "Feng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kun",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yiqing",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zijia",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xi",
+        "short_name": "Cheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Xiaopin",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China. jxp11156@rjh.com.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ren",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, No 197 Ruijin Er Road, Shanghai, China. zr10512@rjh.com.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer immunology, immunotherapy : CII"
+    ],
+    "journal_abbrev": [
+      "Cancer Immunol Immunother"
+    ],
+    "pub_date": "2026 Jul 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/05 04:10",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42400616",
+      "41436831",
+      "41485251",
+      "42112339",
+      "40475762",
+      "42702836",
+      "42558367",
+      "41792142",
+      "41716413",
+      "42158872",
+      "42263871",
+      "41191606",
+      "41836446",
+      "40068177",
+      "42475469",
+      "40764361",
+      "41601652",
+      "41715121",
+      "40660426",
+      "40990012",
+      "41743703",
+      "42317343",
+      "42509406",
+      "41611834",
+      "40842994",
+      "41683916",
+      "42269260",
+      "42370143",
+      "42317214",
+      "42063161",
+      "42708302",
+      "42292420",
+      "41807965",
+      "42099633",
+      "41542227",
+      "42618857",
+      "42004723",
+      "42510857",
+      "41917876",
+      "41286470",
+      "41469884",
+      "42131349",
+      "42143353",
+      "42550740",
+      "41699549",
+      "40033246",
+      "42045486",
+      "39075485",
+      "41836418",
+      "42614523",
+      "41958675",
+      "41430698",
+      "42773727",
+      "41761968",
+      "42271539",
+      "41782869",
+      "41601676",
+      "41071325",
+      "34496888",
+      "39717768",
+      "41559659",
+      "42486346",
+      "42789583",
+      "41635856",
+      "41054053",
+      "41621766",
+      "41502509",
+      "42624032",
+      "40496862",
+      "42108926",
+      "42106773",
+      "40770837",
+      "41787450",
+      "42535079",
+      "42093974",
+      "41371106",
+      "41208987",
+      "42001187",
+      "41937214",
+      "42292469",
+      "42183963",
+      "41535933",
+      "42406750",
+      "42227003",
+      "40884604",
+      "40963631",
+      "40434736",
+      "41200169",
+      "40672941",
+      "40642093",
+      "42063056",
+      "42524268",
+      "40547013",
+      "41832427",
+      "42717115",
+      "42082463",
+      "41233804",
+      "42317342",
+      "40646181",
+      "41425595"
+    ],
+    "review": [
+      "42400616",
+      "42063056"
+    ],
+    "pmc": [
+      "13612771"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42400616/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00262-026-04427-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-109",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

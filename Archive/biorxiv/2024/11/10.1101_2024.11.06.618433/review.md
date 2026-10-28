@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and data availability statements.
+- **Assessment boundary** Scientific content, technical soundness, interpretation of results, and support of claims by the presented evidence. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose a refined model of EL222 photo-activation in which the flavin redox state and thioadduct formation control protein conformation, oligomerization, and DNA binding. They identify three distinct states (dark, lit1, lit2) and characterize their structural, dynamic, and functional properties using an integrative approach.
+- **Visible evidence base** X-ray crystal structures (PDB 8A5R, 8A5S), NMR chemical shift assignments (BMRB 52620-52622), NMR relaxation and diffusion data, IR and UV/Vis spectroscopy, MD and metadynamics simulations, and protein engineering with non-canonical amino acids.
+- **Missing materials affecting confidence** The manuscript text provided does not include the main figures, supplementary figures, or supplementary tables referenced throughout. Specific numerical data, statistical analyses, and experimental details for several key experiments are not visible. The full methods for MD/metaD simulations are only referenced as "see SI" and are not available for assessment.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and technically ambitious study of the EL222 photocycle, combining multiple complementary biophysical techniques. The identification of a second lit state (lit2) with fully reduced FMN is potentially novel and interesting. However, the evidence presented in the text alone is insufficient to fully support several key claims, particularly regarding the structural differences between states, the oligomerization properties, and the quantitative DNA binding behavior. The manuscript would benefit from clearer presentation of quantitative data and more direct evidence linking the proposed model to the experimental observations.
+- **Who would be interested in the results, and why** Researchers in the fields of photoreceptor biology, optogenetics, flavoprotein biochemistry, and biophysical chemistry would be interested. The work provides potential insights into how flavin redox state and adduct formation modulate protein dynamics and function, which is relevant for understanding LOV domain signaling mechanisms and for engineering optogenetic tools with improved properties.
+- **Major strengths** The integrative approach combining crystallography, NMR, IR, UV/Vis, and MD simulations is a significant strength. The identification and characterization of a second lit state (lit2) with reduced FMN is potentially novel. The use of a non-canonical amino acid (4-cyanophenylalanine) as a vibrational reporter is an elegant approach. The authors are transparent about the limitations of individual techniques and attempt to reconcile apparent discrepancies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the lit1 state shows a loss of α-helical content while the lit2 state does not, and that this is due to changes in oligomeric species.
+  - **Evidence pointer** Results section "Structural and oligomerization properties of the three EL222 states", Figure 3c, Table S3
+  - **Concern** The IR data are presented as difference spectra, but the quantitative analysis and the assignment of the observed bands to specific secondary structure changes are not described in sufficient detail. The reconciliation of the apparent discrepancy between NMR and IR data relies on a model of slow exchange with NMR-invisible oligomers, but the evidence for this model is indirect. The claim that secondary structure changes occur preferentially in oligomeric species is not directly supported by the data presented.
+  - **Why it matters** This is a central claim of the paper, as it links the photochemical state of FMN to conformational changes and oligomerization. If the interpretation of the IR data is incorrect or the model is not well-supported, the proposed mechanism of EL222 activation would be weakened.
+  - **Resolution test** Provide a more detailed quantitative analysis of the IR data, including band assignments and fitting. Present direct evidence for the presence and properties of oligomeric species, for example through size-exclusion chromatography coupled with multi-angle light scattering (SEC-MALS) or analytical ultracentrifugation, under the same illumination conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the lit1 state forms 100% EL222:DNA (2:1) complexes, while the lit2 state leaves about 25% of EL222 in an exchange between monomer and encounter complex.
+  - **Evidence pointer** Results section "DNA binding of EL222 in the lit states", Figure 6a, 6b
+  - **Concern** The quantitative assessment of the fraction of EL222 in complex with DNA is based on NMR signal intensity changes, but the details of this analysis are not provided. It is unclear how the percentage of complex formation was calculated, what the error bars are, and whether the comparison between lit1 and lit2 states is statistically significant. The use of the C78A mutant to probe the lit2 state is a reasonable approach, but it assumes that the mutant behaves identically to the WT lit2 state, which may not be the case.
+  - **Why it matters** The differential DNA binding affinity between lit1 and lit2 states is a key functional distinction between the two states. If the quantitative analysis is not robust, the conclusion that lit1 is the primary DNA-binding state would be uncertain.
+  - **Resolution test** Provide a detailed description of the NMR intensity analysis, including how the fraction of bound EL222 was calculated and the associated uncertainties. Include a direct comparison of WT lit2 and C78A lit2 states, if possible, to validate the use of the mutant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that MD and metadynamics simulations reveal FMN-dependent dynamics of EL222, with the cov state showing enhanced flexibility and shorter domain separation times.
+  - **Evidence pointer** Results section "Molecular modeling indicates FMN-dependent dynamics of EL222", Figure 4, Figure S13, Figure S14
+  - **Concern** The details of the MD and metadynamics simulations are not provided in the main text and are only referenced as "see SI". The force field parameters for the modified FMN states (especially the cov and red states) are not described. The choice of collective variables for metadynamics and the convergence of the simulations are not discussed. Without these details, the reliability of the simulation results cannot be assessed.
+  - **Why it matters** The simulation results are used to support the proposed model of domain separation and conformational changes. If the simulations are not well-converged or the parameters are not appropriate, the conclusions drawn from them would be unreliable.
+  - **Resolution test** Provide a detailed description of the simulation setup, including force field parameters, system preparation, equilibration, and production run lengths. Show convergence of the metadynamics simulations and validate the choice of collective variables.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "the observation of only subtle atomic displacements between crystal structures of EL222 with and without blue-light back-illumination, was confirmed by NMR data indicating no major changes in secondary structure and fold compactness." This is a somewhat convoluted sentence and the logic is not immediately clear.
+  - **Required correction** Rephrase for clarity, for example: "Crystal structures of EL222 with and without blue-light back-illumination showed only subtle atomic displacements, consistent with NMR data indicating no major changes in secondary structure or fold compactness."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "EL222 crystal structures support adduct formation"
+  - **Evidence pointer** Results section, Figure 1
+  - **Issue** The description of the crystal structures mentions the presence of two populations of FMN in the illuminated structure, but the occupancies are only given as 70%/30%. It is not clear how these occupancies were refined and what the uncertainty is.
+  - **Required correction** Provide details on the refinement of occupancies and the estimated uncertainty.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the potential biological relevance of the lit2 state is speculative. The authors state that "we hypothesize that it could probably sustain gene transcription, although less efficiently than the lit1 state." This is presented without any supporting evidence.
+  - **Required correction** Clearly label this as speculation and consider removing or softening this statement, or provide a more detailed rationale for the hypothesis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods, NMR spectroscopy
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The description of the NMR experiments is brief. The specific pulse sequences used for the 2D and 3D experiments are mentioned, but the acquisition parameters and processing details are not provided.
+  - **Required correction** Provide more detailed experimental parameters or refer to a more detailed methods section in the SI.
+
+## Risk / unsupported claims
+- The claim that the lit2 state is a novel, previously undescribed state of EL222 is not fully supported, as the authors do not provide a comprehensive comparison with all previous studies of EL222 photocycle.
+- The claim that the lit2 state may be a general property of LOV domains is speculative and not directly supported by the data presented.
+- The quantitative DNA binding data (e.g., 100% complex formation for lit1, 25% remaining for lit2) are not fully supported by the visible evidence, as the analysis details are not provided.
+- The claim that the photoinduced loss of α-helicity is ascribed to dimeric EL222 species is not directly proven, as the IR data are not quantitatively analyzed in the visible text.
+- The biological relevance of the lit2 state for transcriptional regulation is speculative and not supported by functional assays.

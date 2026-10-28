@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors present ComPASS, a computational method that integrates molecular dynamics simulation data to construct weighted communication networks in protein-protein and protein-nucleic acid complexes. They report distinct signal transmission mechanisms in five systems: Cysteinyl-tRNA synthetase, LacI repressor, Type IIF restriction endonuclease Bse634I, liver X receptor, and nucleosome complexes. The tool is released as open-source software.
+- **Visible evidence base** Abstract text only; no quantitative results, validation metrics, or comparative benchmarks are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, validation datasets, benchmark comparisons, and software documentation
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful computational framework for studying allosteric communication in macromolecular complexes, with a stated emphasis on protein-nucleic acid systems. The conceptual motivation is sound, and the range of test systems suggests broad applicability. However, the abstract provides no quantitative evidence, no validation against experimental or established computational benchmarks, and no methodological detail sufficient to assess technical soundness. The central claims about distinct mechanisms are presented as narrative summaries without supporting data. The contribution cannot be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying allostery, conformational dynamics, and signal transduction in macromolecular complexes would be the primary audience. Researchers working on protein-nucleic acid interactions, particularly in transcription regulation, tRNA synthetases, restriction enzymes, nuclear receptors, and chromatin biology, may find the framework relevant. Method developers in the molecular dynamics community interested in network-based analysis tools would also be potential users.
+- **Major strengths** The conceptual framing addresses a genuine gap in the field, namely the underrepresentation of nucleic acid contributions in allosteric communication studies. The choice to integrate multiple dynamical properties into a weighted network is reasonable. The application to five diverse systems suggests intended generality. The open-source availability is a positive feature for community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that ComPASS "leverages molecular dynamics simulation data to extract inter-residue key properties, including dynamical correlations, interactions, and distances" and integrates these into a weighted communication network.
+  - **Evidence pointer** Methods section not provided
+  - **Concern** No methodological detail is provided on how dynamical correlations, interactions, and distances are computed, normalized, weighted, or integrated into the network. The choice of weighting scheme, thresholding criteria, and network construction algorithm are not described. Without this information, the technical validity of the approach cannot be assessed.
+  - **Why it matters** The core contribution of the paper is the method itself. If the network construction is arbitrary or poorly justified, the downstream biological interpretations are unsupported. Reproducibility and comparability with existing methods depend on clear methodological specification.
+  - **Resolution test** Provide a detailed methods section describing the exact formulas, parameters, and algorithms used. Include validation on systems with known allosteric pathways to demonstrate that the method recovers established communication routes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The abstract states that "we uncovered distinct mechanisms of signal transmission" in five systems, including specific claims such as "the central domain was found to mediate coordination between substrate recognition and enzymatic activity" in Cysteinyl-tRNA synthetase.
+  - **Evidence pointer** Results section not provided
+  - **Concern** No quantitative results, statistical measures, or comparative analyses are presented to support any of the five biological claims. The statements are qualitative narratives without supporting data, significance thresholds, or comparisons to null models or alternative hypotheses.
+  - **Why it matters** The biological conclusions are the primary scientific output of the study. Without quantitative evidence, the claims are not verifiable and cannot be distinguished from anecdotal observations. The field requires statistical rigor in identifying communication pathways from simulation data.
+  - **Resolution test** Provide quantitative metrics for each system, such as betweenness centrality values, path lengths, or correlation coefficients, with appropriate statistical testing. Include comparisons to control simulations or randomized networks to establish significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** The abstract claims that "our analysis with ComPASS aligned with previous literature, confirming the role of H2A L1 loops in mediating communication across histone interfaces."
+  - **Evidence pointer** Results section not provided
+  - **Concern** The only explicit validation mentioned is a qualitative agreement with prior literature for one system. No quantitative comparison to experimental data, mutational studies, or established computational methods is provided for any of the five systems. The absence of systematic validation undermines confidence in the method's reliability.
+  - **Why it matters** A new computational method must demonstrate that it produces results consistent with known biology and outperforms or complements existing approaches. A single qualitative agreement is insufficient to establish the method's validity.
+  - **Resolution test** Provide systematic validation against experimental allosteric data, known mutational effects, or benchmark datasets. Include comparisons to existing network analysis methods to demonstrate added value.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that "ComPASS is available as an open-source tool, maintained at https://github.com/yasamankarami/compass."
+  - **Evidence pointer** Software repository not provided
+  - **Concern** The software availability is stated, but no information is given about the implementation language, dependencies, input formats, or usage examples. The repository URL cannot be verified from the abstract alone.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without clear documentation and usability information, the tool's practical value is uncertain.
+  - **Resolution test** Provide a link to a functional repository with documentation, example inputs and outputs, and installation instructions. Include a usage example in the manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "inter-residue communication forms a vast and intricate network" is vague and does not specify whether this refers to protein residues only or includes nucleotides.
+  - **Required correction** Clarify the scope of the network nodes, explicitly stating that both amino acids and nucleotides are included.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** System selection
+  - **Evidence pointer** Abstract, results summary
+  - **Issue** The five systems are listed without justification for their selection. It is unclear whether they represent a systematic survey or a convenience sample.
+  - **Required correction** Briefly state the rationale for choosing these systems, such as availability of experimental data or diversity of complex types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Method name
+  - **Evidence pointer** Abstract, method description
+  - **Issue** The acronym ComPASS is introduced without expansion.
+  - **Required correction** Provide the full name of the method at first mention.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Comparison
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract, introduction
+  - **Issue** No mention is made of existing network-based communication analysis methods, making it difficult to position the contribution relative to prior work.
+  - **Required correction** Add a brief statement in the abstract or introduction referencing prior methods and stating the novelty of ComPASS.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The method description is absent, the biological claims lack quantitative support, and validation is insufficient. These are fundamental issues that must be resolved before the scientific case can be evaluated.
+
+## Risk / unsupported claims
+- The claim that ComPASS "uncovered distinct mechanisms of signal transmission" in five systems is unsupported by any quantitative data in the abstract.
+- The specific mechanistic statements for Cysteinyl-tRNA synthetase, LacI repressor, Bse634I, and liver X receptor are not backed by any visible evidence.
+- The validation claim regarding H2A L1 loops is qualitative and cannot be assessed without comparative data.
+- The general statement that nucleic acid contributions to allostery "have largely been overlooked" is presented without citation or evidence.
+- The claim that the method "advances our understanding of conformational dynamics" is an assertion without demonstrated impact.
+- The software availability claim cannot be verified from the abstract alone.

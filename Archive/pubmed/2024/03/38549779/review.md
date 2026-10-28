@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusion) as provided.
+- **Assessment boundary** The review is limited to the scientific content, methodological soundness, and internal consistency of the in silico study as described. No assessment of editorial fit or journal policy is made.
+- **Shared manuscript claim summary** The authors use in silico methods (homology modeling, docking, molecular dynamics, MM-PBSA, alanine scanning mutagenesis) to predict that the Salmonella chaperone SicA stabilizes the transcriptional activator InvF, particularly its DNA-binding domain, and that this stabilization is mediated through interactions involving SicA's TPR1 and TPR2 motifs with specific cavities on the InvF-RNAP alpha-CTD complex. Key residues R177, R181, and R40 in InvF are proposed to be critical for binding affinity.
+- **Visible evidence base** The manuscript text, including methods descriptions, results narrative, and references to figures and tables (Fig. S1, Table S1, Fig. 1, Fig. 2, Fig. 3, Fig. 4, Fig. 5, Fig. 6, Table 1, Table 2, Fig. S2-S8, Tables S2-S5). No raw data files, structural coordinates, or simulation parameter files were provided.
+- **Missing materials affecting confidence** The following were not available and would affect confidence: (1) the actual figures and tables (only referenced in text), (2) structural coordinate files for the models and complexes, (3) detailed simulation input parameters and force field settings beyond the brief description, (4) convergence and equilibration data for the MD simulations, (5) the full set of docking scores and poses, (6) details on the alanine scanning protocol (e.g., whether side-chain repacking was performed), and (7) any code or scripts used for analysis.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational study aimed at generating testable hypotheses about the molecular basis of SicA-mediated stabilization of the InvF-RNAP interaction in Salmonella. The work is clearly described and the methodological pipeline is standard for the field. However, the study is entirely predictive, and the central claims about specific residues and interaction interfaces are not validated by any experimental data. The internal consistency of the results is difficult to fully assess without the figures and tables. The main value of the work is as a hypothesis-generating exercise, but the strength of the conclusions drawn in the abstract and conclusion sections exceeds what can be supported by the evidence presented. The manuscript would benefit from a more cautious interpretation of the results and a clearer statement of the limitations of the in silico approach.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in Salmonella and related pathogens, particularly those focused on the AraC/XylS family of activators and their chaperone-dependent regulation. The work may also be of interest to computational biologists who study protein-protein interactions and use molecular dynamics and docking to predict binding interfaces. The specific predictions about residues R177, R181, and R40 could guide future experimental mutagenesis studies.
+- **Major strengths** (1) The study addresses a biologically relevant and unresolved question about how a chaperone (SicA) modulates the activity of a transcriptional activator (InvF). (2) The methodological approach is logical and uses a combination of established computational tools. (3) The authors make an effort to connect their predictions to existing experimental data, such as the known importance of TPR motifs and the MarA model. (4) The manuscript is generally well-written and the logic of the analysis is easy to follow.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Validity of central claim
+    - **Claim pointer** The abstract and conclusion state that SicA stabilizes the InvF DNA-binding domain and that this is important for InvF/SicA-mediated gene activation.
+    - **Evidence pointer** Results and discussion, section "Stabilization of the InvF/α-CTD complex by SicA"; Fig. 5; Table 1.
+    - **Concern** The claim that SicA "stabilizes" the DNA-binding domain is based on a comparison of RMSD and RMSF values between simulations with and without SicA. However, the manuscript does not report the statistical significance of these differences, the number of independent simulations, or the convergence of the simulations. A difference in RMSD of 4.86 Å vs. 2.94 Å could be within the range of natural fluctuation for a single 500 ns trajectory, especially if the starting conformations differ. The claim of stabilization is therefore not robustly supported by the data as presented.
+    - **Why it matters** The central hypothesis of the paper is that SicA acts by stabilizing the DNA-binding domain of InvF. If this claim is not well-supported, the entire premise of the paper is weakened. The authors need to demonstrate that the observed differences are statistically meaningful and not artifacts of the simulation setup.
+    - **Resolution test** The authors should provide: (1) RMSD and RMSF plots with error bars or shaded regions representing standard deviation across multiple independent simulations (at least 3 replicates), (2) a statistical test (e.g., t-test or Mann-Whitney U test) comparing the distributions of RMSD values between the two conditions, and (3) a clear demonstration that the simulations have converged (e.g., block averaging or checking that the RMSD has plateaued).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Methodological rigor
+    - **Claim pointer** The methods state that the InvF structure was predicted using Robetta and the SicA structure was built by homology modeling using IpgC (PDB 3GZ2) as a template.
+    - **Evidence pointer** Methods, section "Structural model prediction and protein preparation"; Fig. S1; Table S1.
+    - **Concern** The manuscript does not provide sufficient detail on the quality of the models. For the Robetta model of InvF, only a Ramachandran plot and z-score are mentioned. For the SicA homology model, the template selection criteria are given, but the sequence identity between SicA and IpgC is not stated. The quality of the starting models is critical for the reliability of all downstream calculations. If the models are of poor quality, the docking and MD results are meaningless.
+    - **Why it matters** The entire study is based on predicted structures. If the models are inaccurate, the predicted interaction interfaces and the effects of mutations are unreliable. The authors need to demonstrate that their models are of sufficient quality for the conclusions drawn.
+    - **Resolution test** The authors should provide: (1) the sequence identity and similarity between SicA and IpgC, (2) the QMEAN or similar score for the homology model, (3) a comparison of the Robetta model with any available experimental structures of InvF or close homologs, and (4) a discussion of the limitations of the models and how they might affect the results.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Support for conclusions
+    - **Claim pointer** The conclusion states that the N-terminal region of InvF plays a key role in the interaction with the alpha-CTD of RNAP, and that R40 is particularly important.
+    - **Evidence pointer** Results and discussion, section "Mapping the main residues responsible for interactions between InvF and α-CTD by computational alanine scanning"; Fig. 6.
+    - **Concern** The alanine scanning mutagenesis was performed using a single trajectory (or a small number of frames) from the MD simulation. The manuscript does not state how many frames were used for each mutation, whether the mutations were introduced into the same starting structure, or whether the results were averaged over multiple simulations. The reported changes in binding energy (e.g., 165.34 kJ/mol for R40A) are large, but without error estimates, it is impossible to know if these differences are significant. Furthermore, the authors do not discuss the limitations of the MM-PBSA approach for predicting the effects of mutations, which is known to have significant errors.
+    - **Why it matters** The identification of specific residues as "critical" for the interaction is a key output of the paper. If the methodology is not robust, these predictions cannot be trusted and may mislead future experimental work.
+    - **Resolution test** The authors should provide: (1) the number of frames used for each mutation and the standard deviation of the calculated binding energies, (2) a description of how the mutations were introduced (e.g., using a specific tool), (3) a validation of the MM-PBSA approach against known experimental data for similar systems, and (4) a more cautious interpretation of the results, acknowledging the limitations of the method.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Methods, section "Binding pocket detection"
+    - **Evidence pointer** "The cavities detected by this approach provide information about the shapes, druggability of a pocket and a prediction of average pKd."
+    - **Issue** The sentence is grammatically awkward and the term "average pKd" is not standard. It is unclear what is meant by "average" in this context.
+    - **Required correction** Rewrite the sentence for clarity, e.g., "The cavities detected by this approach provide information about the shape and druggability of a pocket, as well as a prediction of the binding affinity (pKd)."
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Methods, section "Molecular dynamics simulation"
+    - **Evidence pointer** "All simulations were performed in duplicated with 500 ns of trajectory each."
+    - **Issue** The manuscript does not specify the number of atoms in the system, the water box size, the salt concentration, or the temperature coupling details. This information is essential for reproducibility.
+    - **Required correction** Provide the full details of the simulation setup, including system size, water model, ion concentration, and any other relevant parameters.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Results and discussion, section "Characterization of protein-protein interactions in InvF-α-CTD complex"
+    - **Evidence pointer** "We noticed a Y150 in the InvF model in the equivalent position of W19, and it is directed to R265, reported as an important RNAP amino acid responsible for affinity."
+    - **Issue** The authors state that Y150 is "directed to R265" but do not provide any evidence for this interaction, such as a distance measurement or a figure showing the interaction. This is a speculative statement presented as a finding.
+    - **Required correction** Either provide quantitative evidence for the interaction (e.g., a distance measurement from the MD simulation) or clearly label this as a hypothesis based on the structural alignment.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Consistency
+    - **Affected element** Results and discussion, section "Mapping the main residues responsible for interactions between InvF and α-CTD by computational alanine scanning"
+    - **Evidence pointer** "Based on the PBSA calculations, 12 amino acids (M1, K13, R14, R17, R40, K99, K134, R140, K141, R176, R177 and R181) with values less than -50 kJ/mol were selected for alanine scanning mutagenesis."
+    - **Issue** The abstract mentions R177 and R181 as the most important residues, but the results section lists 12 residues. The criteria for selecting the "most important" residues are not clearly defined. The abstract should be consistent with the full set of results.
+    - **Required correction** Clarify the criteria for identifying the most important residues and ensure the abstract accurately reflects the full set of findings.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of statistical analysis of MD simulation results (R1-M1). (2) Insufficient validation of the predicted structures (R1-M2). (3) Lack of error estimates for alanine scanning results (R1-M3). (4) Incomplete reporting of simulation parameters (R1-m2). (5) Speculative interpretation of structural features without quantitative evidence (R1-m3).
+- **Assessment against Nature-style criteria** 
+    - **Originality** The study is not highly original. The use of in silico methods to predict protein-protein interactions is common, and the specific system (InvF/SicA) has been studied before. The novelty lies in the specific predictions about the interaction interface and the stabilizing role of SicA, but this is incremental.
+    - **Scientific importance** The question of how chaperones regulate transcriptional activators is important, and the study could provide useful hypotheses for experimentalists. However, the purely computational nature of the work limits its immediate impact. The importance would be significantly enhanced by experimental validation.
+    - **Interdisciplinary readership** The work is likely to be of interest to a relatively narrow audience of researchers in bacterial gene regulation and computational biology. It is unlikely to attract a broad interdisciplinary readership.
+    - **Technical soundness** The technical approach is standard, but the execution has significant gaps in terms of statistical rigor and validation. The lack of error analysis and the reliance on a single trajectory for key conclusions are major weaknesses.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, the methods section assumes a high level of familiarity with computational techniques, which may be a barrier for some readers. The abstract is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims about the stabilizing role of SicA and the importance of specific residues are not robustly supported by the data as presented. The manuscript would require major revisions, including additional simulations, statistical analysis, and a more cautious interpretation of the results, before the case could be considered. The work has potential as a hypothesis-generating study, but in its current form, the conclusions are overstated.
+
+## Risk / unsupported claims
+- The claim that SicA "stabilizes" the DNA-binding domain of InvF is not statistically supported (R1-M1).
+- The claim that R177 and R181 are "critical" for binding affinity is based on a single alanine scanning protocol without error estimates (R1-M3).
+- The claim that the N-terminal region of InvF plays a "key role" in the interaction is based on the same limited analysis.
+- The statement that Y150 is "directed to R265" is speculative and not supported by quantitative data.
+- The overall conclusion that the study "provides valuable insights into the molecular mechanisms" is overstated given the purely predictive nature of the work and the lack of experimental validation.

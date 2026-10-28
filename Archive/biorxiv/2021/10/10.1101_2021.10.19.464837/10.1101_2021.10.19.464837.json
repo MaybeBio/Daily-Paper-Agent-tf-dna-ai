@@ -1,0 +1,165 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.19.464837",
+  "title": "Machine Learning Prediction of Non-Coding Variant Impact in Human Retinal Cis -Regulatory Elements",
+  "doi": "10.1101/2021.10.19.464837",
+  "abstract": "<h4>Purpose</h4> Prior studies demonstrate the significance of specific cis -regulatory variants in retinal disease, however determining the functional impact of regulatory variants remains a major challenge. In this study, we utilize a machine learning approach, trained on epigenomic data from the adult human retina, to systematically quantify the predicted impact of cis -regulatory variants. <h4>Methods</h4> We used human retinal DNA accessibility data (ATAC-seq) to determine a set of 18.9k high-confidence putative cis -regulatory elements. 80% of these elements were used to train a machine learning model utilizing a gapped k-mer support vector machine-based approach. In silico saturation mutagenesis and variant scoring was applied to predict the functional impact of all potential single nucleotide variants within cis -regulatory elements. Impact scores were tested in a 20% hold-out dataset and compared to allele population frequency, phylogenetic conservation, transcription factor (TF) binding motifs, and existing massively parallel reporter assay (MPRA) data. <h4>Results</h4> We generated a model that distinguishes between human retinal regulatory elements and negative test sequences with 95% accuracy. Among a hold-out test set of 3.7k human retinal CREs, all possible single nucleotide variants (SNVs) were scored. Variants with negative impact scores correlated with reduced population allele frequency, higher phylogenetic conservation of the reference allele, disruption of predicted TF binding motifs, and massively-parallel reporter expression. <h4>Conclusions</h4> We demonstrated the utility of human retinal epigenomic data to train a machine learning model for the purpose of predicting the impact of non-coding regulatory sequence variants. Our model accurately scored sequences and predicted putative transcription factor binding motifs. This approach has the potential to expedite the characterization of pathogenic non-coding sequence variants in the context of unexplained retinal disease.",
+  "authors": [
+    "VandenBosch LS",
+    "Luu K",
+    "Timms AE",
+    "Challam S",
+    "Wu Y",
+    "Lee AY",
+    "Cherry TJ"
+  ],
+  "published_date": "2021-10-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.19.464837",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.19.464837.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR438907",
+    "raw_record": {
+      "id": "PPR438907",
+      "source": "PPR",
+      "doi": "10.1101/2021.10.19.464837",
+      "title": "Machine Learning Prediction of Non-Coding Variant Impact in Human Retinal  <i>Cis</i>  -Regulatory Elements",
+      "authorString": "VandenBosch LS, Luu K, Timms AE, Challam S, Wu Y, Lee AY, Cherry TJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "VandenBosch LS",
+            "lastName": "VandenBosch",
+            "firstName": "Leah",
+            "initials": "LS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8385-1147"
+            }
+          },
+          {
+            "fullName": "Luu K",
+            "lastName": "Luu",
+            "firstName": "Kelsey",
+            "initials": "K"
+          },
+          {
+            "fullName": "Timms AE",
+            "lastName": "Timms",
+            "firstName": "Andrew",
+            "initials": "AE"
+          },
+          {
+            "fullName": "Challam S",
+            "lastName": "Challam",
+            "firstName": "Shriya",
+            "initials": "S"
+          },
+          {
+            "fullName": "Wu Y",
+            "lastName": "Wu",
+            "firstName": "Yue",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Lee AY",
+            "lastName": "Lee",
+            "firstName": "Aaron",
+            "initials": "AY",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7452-1648"
+            }
+          },
+          {
+            "fullName": "Cherry TJ",
+            "lastName": "Cherry",
+            "firstName": "Timothy",
+            "initials": "TJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7452-1648"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8385-1147"
+          }
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>Purpose</h4>  Prior studies demonstrate the significance of specific  cis -regulatory variants in retinal disease, however determining the functional impact of regulatory variants remains a major challenge. In this study, we utilize a machine learning approach, trained on epigenomic data from the adult human retina, to systematically quantify the predicted impact of  cis -regulatory variants.  <h4>Methods</h4>  We used human retinal DNA accessibility data (ATAC-seq) to determine a set of 18.9k high-confidence putative  cis -regulatory elements. 80% of these elements were used to train a machine learning model utilizing a gapped k-mer support vector machine-based approach.  In silico saturation mutagenesis and variant scoring was applied to predict the functional impact of all potential single nucleotide variants within  cis -regulatory elements. Impact scores were tested in a 20% hold-out dataset and compared to allele population frequency, phylogenetic conservation, transcription factor (TF) binding motifs, and existing massively parallel reporter assay (MPRA) data.  <h4>Results</h4>  We generated a model that distinguishes between human retinal regulatory elements and negative test sequences with 95% accuracy. Among a hold-out test set of 3.7k human retinal CREs, all possible single nucleotide variants (SNVs) were scored. Variants with negative impact scores correlated with reduced population allele frequency, higher phylogenetic conservation of the reference allele, disruption of predicted TF binding motifs, and massively-parallel reporter expression. <h4>Conclusions</h4>  We demonstrated the utility of human retinal epigenomic data to train a machine learning model for the purpose of predicting the impact of non-coding regulatory sequence variants. Our model accurately scored sequences and predicted putative transcription factor binding motifs. This approach has the potential to expedite the characterization of pathogenic non-coding sequence variants in the context of unexplained retinal disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/20/2021.10.19.464837.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.19.464837"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35435921",
+            "reference": "Translational vision science & technology. 2022 Apr;11(4):16",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-01-05",
+      "firstPublicationDate": "2021-10-20",
+      "firstIndexDate": "2022-01-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

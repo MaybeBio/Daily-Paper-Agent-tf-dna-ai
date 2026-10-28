@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.21.572942",
+  "title": "Supervised contrastive learning enhances MHC-II peptide binding affinity prediction",
+  "authors": "Long-Chen Shen; Yan Liu; Zi Liu; Yumeng Zhang; Zhikang Wang; Yuming Guo; Jamie Rossjohn; Jiangning Song; Dong-Jun Yu",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-23",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用监督对比学习和瓶颈Transformer预测MHC-II肽结合亲和力，虽属蛋白-肽互作建模且方法可迁移，但对象非蛋白质-DNA互作，与TF-DNA课题关联较弱。",
+  "abstract": "Accurate prediction of major histocompatibility complex (MHC)-peptide binding affinity can improve our understanding of cellular immune responses and guide personalized immunotherapies. Nevertheless, the existing deep learning-based approaches for predicting MHC-II peptide interactions fall short of satisfactory performance and offer restricted model interpretability. In this study, we propose a novel deep neural network, termed ConBoTNet, to address the above issues by introducing the designed supervised contrastive learning and bottleneck transformer extractors. Specifically, the supervised contrastive learning pre-training enhances the model’s representative and generalizable capabilities on MHC-II peptides by pulling positive pairs closer and pushing negative pairs further in the feature space, while the bottleneck transformer module focuses on MHC-II peptide interactions to precisely identify binding cores and anchor positions in an unsupervised manner. Extensive experiments on benchmark datasets under 5-fold cross-validation, leave-one-molecule-out validation, independent testing, and binding core prediction settings highlighted the superiority of our proposed ConBoTNet over current state-of-the-art methods. Data distribution analysis in the latent feature space demonstrated that supervised contrastive learning can aggregate MHC-II-peptide samples with similar affinity labels and learn common features of similar affinity. Additionally, we interpreted the trained neural network by associating the attention weights with peptides and innovatively find both well-established and potential peptide motifs. This work not only introduces an innovative tool for accurately predicting MHC-II peptide affinity, but also provides new insights into a new paradigm for modeling essential biological interactions, advancing data-driven discovery in biomedicine.",
+  "abstract_zh": "主要组织相容性复合体（MHC）-肽结合亲和力的准确预测可以增进我们对细胞免疫反应的理解，并指导个性化免疫治疗。然而，现有的基于深度学习的MHC-II肽相互作用预测方法性能不尽如人意，且模型可解释性受限。在本研究中，我们提出了一种新型深度神经网络，称为ConBoTNet，通过引入设计的监督对比学习和瓶颈变换器提取器来解决上述问题。具体而言，监督对比学习预训练通过在特征空间中将正样本对拉近、负样本对推远，增强了模型在MHC-II肽上的代表性和泛化能力，而瓶颈变换器模块则聚焦于MHC-II肽相互作用，以无监督方式精确识别结合核心和锚定位置。在基准数据集上的广泛实验，包括5折交叉验证、留一分子验证、独立测试和结合核心预测设置，突显了我们提出的ConBoTNet相对于当前最先进方法的优越性。潜在特征空间中的数据分布分析表明，监督对比学习可以聚合具有相似亲和力标签的MHC-II肽样本，并学习相似亲和力的共同特征。此外，我们通过将注意力权重与肽关联来解释训练好的神经网络，并创新性地发现了既有的和潜在的肽基序。这项工作不仅为准确预测MHC-II肽亲和力引入了一种创新工具，还为建模基本生物相互作用提供了新范式的新见解，推动了生物医学中的数据驱动发现。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.21.572942",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.21.572942",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.21.572942/index.html"
+}

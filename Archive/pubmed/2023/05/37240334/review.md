@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics simulations to investigate the structural effects of phosphorylation at serine 44 (S44) on DNA polymerase β bound to gapped DNA. They report that phosphorylation induces a closed-to-open conformational transition, disrupts a key hydrogen bond between S44 and E335, forms new salt bridges (including with R149 in the presence of Mg²⁺ ions), increases correlated motions between subdomains, and alters the free energy landscape. These changes are proposed to explain phosphorylation-mediated loss of polymerase activity.
+- **Visible evidence base** Full text including abstract, introduction, results and discussion, methods, and conclusions. Figures referenced but not provided. Supplementary materials referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–11, Supplementary Figures S1–S8, Supplementary Table S1, and simulation trajectory data are not available for direct inspection. This limits verification of quantitative claims and visual interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational study addressing a relevant question in DNA repair biology, namely the structural basis for phosphorylation-induced inactivation of DNA polymerase β. The simulations are extensive (1 μs per system) and the analytical toolkit is appropriate. However, several technical and interpretive issues reduce confidence in the central claims. The link between observed conformational changes and functional loss is largely speculative, and key quantitative results are presented without sufficient statistical context. The manuscript would benefit from clearer presentation of methods, additional validation of force field parameters for the phosphorylated residue, and a more cautious interpretation of the functional implications.
+- **Who would be interested in the results, and why** Researchers studying DNA repair mechanisms, particularly base excision repair, and those interested in post-translational regulation of DNA polymerases. Computational biophysicists studying protein-DNA interactions and conformational dynamics would also find the methodological approach relevant. The potential allosteric site identified could interest drug discovery groups targeting DNA repair pathways.
+- **Major strengths** The study addresses a previously unexplored question, namely the structural basis of phosphorylation-induced activity loss in the full DNA polymerase β-gapped DNA complex. The simulation length (1 μs) is appropriate for capturing large-scale conformational changes. The use of multiple complementary analyses (RMSD, Rg, FEL, DCCM, PCA, PRS, network analysis) provides a multi-faceted view of the system. The comparison with previous work on the apoenzyme adds context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that phosphorylation at S44 induces a closed-to-open transition in the DNA polymerase β-gapped DNA complex, supported by RMSD, Rg, and FEL analyses.
+  - **Evidence pointer** Section 2.1, Figures 2 and 3
+  - **Concern** The interpretation of the closed-to-open transition is based on RMSD and Rg values, but the authors do not provide a clear structural definition of "open" versus "closed" states in the context of their simulations. The closed state is defined by the crystal structure (2FMS), but the open state is not structurally characterized. The RMSD values reported (3.62 Å for pS44 vs 1.93 Å for WT) indicate deviation from the starting structure, but this does not necessarily correspond to a functionally relevant open state. The authors should provide structural overlays or distance measurements between specific domains to substantiate the open-state claim.
+  - **Why it matters** The central conclusion of the paper, namely that phosphorylation induces a closed-to-open transition that explains activity loss, depends on this interpretation. Without a clear structural definition, the claim is not falsifiable and the mechanistic insight is weakened.
+  - **Resolution test** Provide structural overlays of representative conformations from each free energy basin with the crystal structure, and quantify inter-domain distances or angles that distinguish open from closed states. Alternatively, compare with experimentally characterized open states of pol β.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that phosphorylation of S44 leads to the formation of a new salt bridge with R149 in the presence of Mg²⁺ ions, and that this disrupts the proper alignment of the incoming dNTP.
+  - **Evidence pointer** Section 2.1, Figure 6, Section 2.2
+  - **Concern** The manuscript does not report the force field parameters used for the phosphorylated serine residue (SP2 patch). The CHARMM36 force field has specific parameters for phosphoserine, but the protonation state and any custom modifications should be stated. Additionally, the claim that the salt bridge with R149 disrupts dNTP alignment is speculative, as no dNTP is present in the simulations. The authors should either include simulations with dNTP or temper the claim.
+  - **Why it matters** The salt bridge with R149 is presented as a key mechanistic finding. If the force field parameters are not properly validated, the interaction may be an artifact. Furthermore, the functional consequence is inferred without direct simulation of the substrate-bound state.
+  - **Resolution test** Report the exact parameters and protonation state for the SP2 patch. Consider additional simulations with dNTP present to directly test the proposed disruption of substrate alignment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors report average values for RMSD, Rg, and hydrogen bond counts with standard deviations, but do not provide information on the number of independent simulations or block averaging.
+  - **Evidence pointer** Section 2.1, Section 2.2, Methods Section 3.1
+  - **Concern** The manuscript states that one 1 μs simulation was performed per system. For a system undergoing large conformational changes, a single trajectory may not sample the conformational space adequately, and the reported averages and standard deviations may not be converged. The authors should either perform replicate simulations or demonstrate convergence through block averaging or other statistical measures.
+  - **Why it matters** The conclusions rely on differences between WT and pS44 systems. Without replicate simulations, it is unclear whether the observed differences are statistically significant or represent rare fluctuations.
+  - **Resolution test** Perform at least three independent simulations per system and report averages with standard errors. Alternatively, provide a rigorous convergence analysis showing that the reported quantities are stable over the simulation time.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that the conformational changes induced by phosphorylation may hinder the lyase domain's ability to search for DNA damage sites via a hopping mechanism, thereby interfering with BER.
+  - **Evidence pointer** Section 2.5, Section 2.6, Conclusions
+  - **Concern** This claim extends beyond the simulation data. The hopping mechanism is a property of the free enzyme scanning DNA, and the simulations here are of the enzyme bound to gapped DNA. The relevance of the observed conformational changes to the hopping mechanism is not established. The authors should either provide additional simulations of the free enzyme or clearly label this as speculation.
+  - **Why it matters** The broader biological significance of the work is partly based on this claim. Overstating the implications without direct evidence weakens the manuscript's impact.
+  - **Resolution test** Either perform simulations of the free enzyme to test the hopping hypothesis or explicitly state that this is a speculative extension of the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that the results "provide a mechanistic understanding of the conformational transition observed due to phosphorylation," but the mechanism is described in terms of structural changes without a clear causal chain linking phosphorylation to activity loss.
+  - **Required correction** Rephrase to more precisely state what was observed (e.g., "our simulations reveal specific conformational changes that may explain the loss of polymerase activity").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods Section 3.1
+  - **Evidence pointer** Section 3.1
+  - **Issue** The method for placing Na⁺ ions is described as "random," which is not reproducible. The specific ion placement algorithm or seed should be reported.
+  - **Required correction** Specify the ion placement method (e.g., Monte Carlo, steepest descent) and any random seed used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1, Figure 2C
+  - **Evidence pointer** Section 2.1
+  - **Issue** The Rg distribution for WT shows two peaks that are "somewhat merged," while pS44 shows two distinguishable peaks. The authors do not discuss the significance of the WT having two peaks, which could indicate that the WT also samples multiple conformations.
+  - **Required correction** Discuss the WT bimodal distribution and its implications for the interpretation of the pS44 results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The sentence "This and the Lyase domain moving closer to C-subdomain may support the notion that phosphorylation causes the lyase domain to disrupt the proper alignment of the catalytic region (K206 to K209) highlighted by the BC calculation aligns with the sensitivity profile of pS44 observed in the PRS calculation" is grammatically convoluted and difficult to follow.
+  - **Required correction** Rewrite for clarity, breaking into shorter sentences.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The cosine content criterion for selecting PC1 and PC2 is mentioned, but the actual values are not reported.
+  - **Required correction** Report the cosine content values for the selected principal components.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural definition of open state), R1-M2 (force field parameters for phosphoserine and speculative functional claim), R1-M3 (lack of replicate simulations or convergence analysis)
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific gap in understanding phosphorylation-induced inactivation of pol β, which has not been previously modeled in the full complex. This is a moderate originality contribution. Scientific importance: The question is relevant to DNA repair and cancer biology, but the findings are largely computational and the functional implications are not directly tested. The importance is moderate. Interdisciplinary readership: The work will primarily interest computational biophysicists and DNA repair biologists. The broader readership appeal is limited. Technical soundness: The simulation methodology is standard, but the lack of replicate simulations, unclear force field parameters for the modified residue, and speculative interpretation of functional consequences reduce technical confidence. Readability for nonspecialists: The manuscript is generally well-written but includes some convoluted sentences and assumes familiarity with MD simulation techniques. The abstract and introduction are accessible, but the results section may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is valid and the simulation approach is appropriate, but the manuscript requires additional validation (replicate simulations, force field details, structural definition of open state) and more cautious interpretation of functional implications before the conclusions can be considered established.
+
+## Risk / unsupported claims
+- The claim that phosphorylation induces a "closed-to-open" transition is not supported by a clear structural definition of the open state.
+- The claim that the salt bridge between pS44 and R149 disrupts dNTP alignment is unsupported, as no dNTP was included in the simulations.
+- The claim that phosphorylation may hinder the lyase domain's hopping mechanism for DNA damage search is speculative and not directly tested.
+- The statement that the pS44 system exhibits "increased intradomain rigidity" is based on hydrogen bond counts and correlation analysis but lacks a direct measure of rigidity.
+- The functional significance of the identified "putative allosteric site" is not validated by any functional assay or mutation analysis.

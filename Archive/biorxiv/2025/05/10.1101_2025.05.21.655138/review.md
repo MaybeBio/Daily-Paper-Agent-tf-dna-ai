@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. Not assessed: editorial formatting, reference completeness beyond what affects scientific claims.
+- **Shared manuscript claim summary** The authors report that the FG domain of the Nup98-HOXA9 (NHA9) oncoprotein undergoes progressive conformational expansion as it transitions from monomeric to oligomeric to condensed states, that oligomers adopt micelle-like architectures with the DNA-binding domain exposed at the surface, and that this behavior is consistent with weak amphiphilic block copolymer properties. They support this with smFRET, FLIM-FRET, FCS, turbidity assays, and coarse-grained simulations, including in-cell measurements.
+- **Visible evidence base** Full text including all main figures referenced (Figures 1-7), supplementary figures referenced (Supplementary Figures 1-15), and methods sections. No raw data files, no supplementary tables beyond mention, no source data for figures.
+- **Missing materials affecting confidence** Raw smFRET histograms and fitting parameters, FCS autocorrelation curves and fits, FLIM-FRET decay curves with fit residuals, simulation trajectories and convergence metrics, exact sample sizes and replicate numbers for each experiment, statistical analysis details, and validation of the GCE labelling efficiency in cells.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question about the conformational behavior of an oncogenic fusion transcription factor across assembly states. The combination of single-molecule FRET, FCS, FLIM-FRET, and coarse-grained simulations is ambitious and potentially powerful. The central claim, that the FG domain progressively expands from monomer to oligomer to condensate, is supported by the presented data, though with caveats. The micelle-like structural interpretation for oligomers is intriguing but rests on indirect evidence and simulation, and the distinction between "micelle-like" and other possible oligomeric architectures is not fully established. The in-cell measurements are a strength but carry limitations that are acknowledged. Overall, the work is potentially significant for understanding transcription factor condensation and oncoprotein function, but several technical and interpretive issues need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and phase separation, particularly those focused on transcription factors and gene regulation. The work is also relevant to the cancer biology community studying Nup98 fusion oncoproteins and leukemogenesis. The methodological combination of smFRET and FLIM-FRET across assembly states will interest biophysicists working on intrinsically disordered proteins. The block copolymer analogy for transcription factors may appeal to those interested in the physical chemistry of proteins in cells.
+- **Major strengths** The study combines multiple orthogonal techniques to address a challenging question about conformational changes across assembly states. The use of smFRET at subsaturated concentrations to detect and characterize nanoclusters is technically demanding and well-executed. The in-cell FLIM-FRET measurements with site-specific labelling via genetic code expansion represent a significant technical achievement. The simulations provide a molecular interpretation that complements the experimental data. The authors are appropriately cautious about several limitations, including overexpression and potential truncation in cells.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The manuscript claims a "continuous conformational expansion" of the FG domain from monomer to oligomer to condensate, with specific scaling exponents (ν = 0.24 monomer, 0.33 nanocluster, 0.65 condensate).
+  - **Evidence pointer** Figures 1e, 2e, 4c; Results sections "IDP of NHA9 is dynamic and highly compacted in dilute solution", "NHA9 forms nanoclusters in subsaturated solutions with reduced compactness", "NHA9 undergoes significant conformational expansion in macroscopic condensates"
+  - **Concern** The scaling exponents are derived from measurements at different concentrations and in different contexts (in vitro dilute, in vitro subsaturated with unlabelled protein, in vitro condensates, in-cell condensates). The comparison across these states assumes that the only variable affecting conformation is the assembly state, but concentration itself, buffer conditions, and the presence of unlabelled protein could affect chain dimensions. The error bars on the ν values are not reported for all conditions, and the statistical significance of the differences between ν values is not established. The claim of "continuous" expansion implies a monotonic relationship, but the data points are sparse and the intermediate state (nanocluster) is only characterized at a few concentrations.
+  - **Why it matters** The central thesis of the manuscript rests on the quantitative differences in conformational dimensions across assembly states. If these differences are not statistically robust or are confounded by other variables, the main conclusion is weakened.
+  - **Resolution test** Provide error bars and statistical tests for all reported ν values. Show that the differences between monomer, nanocluster, and condensate ν values are significant. Ideally, measure the same construct across a continuous concentration range spanning the subsaturated to supersaturated regime to demonstrate continuity. Control experiments varying ionic strength or other buffer conditions should be performed to rule out non-specific effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of oligomer structure
+  - **Claim pointer** The manuscript claims that NHA9 oligomers exhibit "micelle-like organisation, with the DNA-binding domain exposed at the periphery" and that these are "non-core-shell spherical micelles."
+  - **Evidence pointer** Results section "NHA9 forms nanoclusters in subsaturated solutions with reduced compactness"; Figures 2, 6c, 6d; Discussion
+  - **Concern** The evidence for micelle-like structure is indirect. The FCS data show the existence of larger species, and the smFRET data show reduced FRET efficiency, but neither directly demonstrates a micellar architecture with a specific radial arrangement of DBD versus FG domains. The simulations show DBD enrichment at the surface, but this is a prediction from a coarse-grained model, not an experimental observation. The term "micelle-like" implies a specific structural organization that is not directly validated. The distinction between "core-shell" and "non-core-shell" micelles is made without clear experimental discrimination.
+  - **Why it matters** The micelle-like structural model is a key conceptual contribution of the paper. If the structural interpretation is overclaimed, the significance of the work is reduced. The functional implications (e.g., DNA binding at the surface) depend on this architecture.
+  - **Resolution test** Provide more direct experimental evidence for the radial distribution of DBD versus FG domains in oligomers. This could include cross-linking mass spectrometry, small-angle X-ray or neutron scattering with contrast matching, or super-resolution microscopy if oligomers are large enough. At minimum, clearly state the limitations of the indirect evidence and temper the language from "micelle-like" to "consistent with micelle-like behavior" throughout.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In-cell measurement validation
+  - **Claim pointer** The manuscript reports in-cell FLIM-FRET measurements yielding ν = 0.61 ± 0.01 for the FG domain in cellular condensates, and states that this is consistent with the in vitro condensate value.
+  - **Evidence pointer** Results section "Probing NHA9 FG domain conformation in cells"; Figures 5, 5g; Methods "FLIM-FRET for cell measurements"
+  - **Concern** The in-cell measurements rely on transient transfection and overexpression, which the authors acknowledge. The GCE labelling approach introduces a TAG codon, which can lead to truncated protein products. The authors state they selected cells without "blobs" and with appropriate expression levels, but the criteria for this selection are not fully quantitative. The number of cells measured per variant is not stated. The consistency between in vitro and in-cell ν values is presented as validation, but the in-cell value has a very small reported error (0.01) that seems inconsistent with the acknowledged heterogeneity and selection process.
+  - **Why it matters** The in-cell measurements are a major selling point of the paper. If the selection bias or truncation artifacts are not adequately controlled, the in-cell conclusions may not be reliable.
+  - **Resolution test** Report the number of cells and condensates analyzed per variant. Provide quantitative criteria for inclusion/exclusion of cells. Show representative images of the selection process. Discuss the potential impact of truncated products on the measured FRET efficiencies. Consider validating with an orthogonal method, such as fluorescence correlation spectroscopy in cells or a different labelling strategy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-experiment consistency
+  - **Claim pointer** The manuscript states that simulations "support the expansion behaviour of NHA9's FG domain as oligomeric assemblies grow in size and reveal micelle-like structural features."
+  - **Evidence pointer** Results section "Molecular simulations confirm NHA9's IDP expansion within nanocluster and reveal micelle-like structures"; Figure 6
+  - **Concern** The simulations use a coarse-grained model (HPS-Urry) with an elastic network constraint on the HOXA9 domain. The relationship between simulated cluster sizes (up to 50 chains) and experimentally observed nanoclusters is not quantitatively established. The simulated ν values are compared to experimental values, but the fitting procedure and the range of cluster sizes over which ν is computed are not fully described. The force field is parameterized for IDPs, and its applicability to a fusion protein with a folded domain is not validated.
+  - **Why it matters** The simulations are used to provide molecular-level interpretation of the experimental observations. If the simulations are not quantitatively consistent with experiments or are not well-validated, the interpretive value is limited.
+  - **Resolution test** Provide a more detailed comparison between simulated and experimental observables, including the distribution of cluster sizes and the dependence of ν on cluster size. Validate the force field for this system by comparing simulated single-chain dimensions to experimental values. Discuss the limitations of the coarse-grained model for capturing the folded HOXA9 domain behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "micro- and macrophases" in the title
+  - **Evidence pointer** Title
+  - **Issue** The term "macrophases" is unusual and may be confused with "macrophages." The intended meaning appears to be "macroscopic phases" or "condensed phases."
+  - **Required correction** Consider revising the title to use more standard terminology, such as "Differential conformational expansion of Nup98-HOXA9 oncoprotein from dilute to condensed phases" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Error bars and replicates
+  - **Evidence pointer** Figures 1e, 2e, 4c; Methods
+  - **Issue** The number of independent measurements, cells, or simulations used to generate each data point is not consistently reported. Error bars are shown in some figures but not all, and the meaning of the error bars (SD, SEM, confidence interval) is not always stated.
+  - **Required correction** Add a statement in the Methods or figure legends specifying the number of replicates and the type of error bar for each figure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Control experiments
+  - **Affected element** DNA binding specificity
+  - **Evidence pointer** Results section "Impact of DNA binding on NHA9 nanocluster formation"; Figure 3; Supplementary Figure 5
+  - **Issue** The control with shuffled DNA shows a weaker effect than specific DNA, but the difference is not quantified or tested for significance. The manuscript states "specific interactions at least partially mediate" the effect, but the degree of specificity is not established.
+  - **Required correction** Provide a quantitative comparison of the effects of specific versus shuffled DNA on nanocluster formation, including statistical tests.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** GCE labelling efficiency
+  - **Evidence pointer** Methods "FLIM-FRET for cell measurements"
+  - **Issue** The efficiency of TAG codon suppression and the fraction of full-length labelled protein versus truncated product are not reported. This is important for interpreting the in-cell measurements.
+  - **Required correction** Report the labelling efficiency and the proportion of full-length protein, or provide a rationale for why this is not expected to affect the results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Simulation details
+  - **Affected element** Force field validation
+  - **Evidence pointer** Methods "Molecular Dynamics simulations"
+  - **Issue** The choice of the HPS-Urry force field is justified by reference to prior work, but no validation is shown for this specific protein system.
+  - **Required correction** Add a brief validation, such as comparing simulated single-chain dimensions to experimentally measured values, or cite specific prior work validating the force field for similar fusion proteins.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** Figure 7 is referenced in the Discussion but not described in the Results. The schematic model presented in Figure 7 is not explicitly tied to specific data points.
+  - **Required correction** Add a brief description of Figure 7 in the Results or clearly label it as a model figure in the legend.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical comparison between ν values across states (R1-M1) is the most significant technical issue. The indirect nature of the micelle-like structural evidence (R1-M2) also needs to be addressed, either with additional experiments or with more cautious language. The in-cell measurement validation (R1-M3) requires more detail on cell selection and potential artifacts.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of single-molecule FRET across assembly states to a disease-relevant fusion transcription factor is original. The block copolymer analogy for NHA9 is not entirely new but is applied here in a specific and testable way.
+  - Scientific importance: The question of how transcription factor conformation changes during condensation is important for understanding gene regulation and oncogenesis. The findings could have implications for therapeutic targeting of fusion oncoproteins.
+  - Interdisciplinary readership: The work bridges biophysics, cell biology, and cancer biology. The methods and concepts should be accessible to researchers in these fields, though the FRET analysis details may be challenging for non-specialists.
+  - Technical soundness: The experimental techniques are state-of-the-art and generally well-executed. The main weaknesses are in statistical reporting and the indirect nature of the structural interpretation.
+  - Readability for nonspecialists: The manuscript is generally well-written and the main concepts are explained clearly. The title, however, uses nonstandard terminology that may confuse readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation of progressive conformational expansion is interesting and potentially important, but the current evidence does not fully establish the quantitative claims or the specific micelle-like structural model. Addressing the statistical and validation issues outlined above would substantially strengthen the manuscript.

@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding, authorship, competing interests) as provided. No figures, tables, or supplementary files were available for inspection.
+- **Assessment boundary** The review is limited to the claims, methods, and results as described in the provided text. No code, datasets, or supplementary materials were accessed. The GitHub repository link was not evaluated.
+- **Shared manuscript claim summary** The authors present caRBP-Pred, a CNN-BiLSTM model trained on chromatin-contact peptide sequences from mouse embryonic stem cells, to predict chromatin-associated RNA-binding proteins (caRBPs). They report an AUC of 0.81, outperforming existing DRBP predictors, and predict 52 potential caRBPs in mice, with 10 out of 11 human homologs with known chromatin-binding activity correctly identified.
+- **Visible evidence base** Text-only manuscript. Results are described in Sections 3.1 to 3.4, with references to Figure 1, Figure 2A-C, Figure 3A-D, Figure 4A-D, Supplementary Figure 1, and Supplementary Tables 1, 3, and 4. None of these figures or tables were provided.
+- **Missing materials affecting confidence** All figures, supplementary tables, and supplementary figures. The GitHub repository containing datasets and source code. The original dataset from reference 14. The RBP2GO database version used. The hPDI database version and query details. The PS4 secondary structure prediction tool version and output format. The specific implementations and parameters of the SVM, RF, and XGBoost models. The web server versions of iDRBP_MMC, DeepMC-iNABP, and DeepDRBP-2L used for evaluation.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-served problem, namely the prediction of chromatin-associated RBPs, a functional subtype distinct from generic DNA/RNA-binding proteins. The use of chromatin-contact peptides rather than full-length sequences is a reasonable and potentially valuable design choice. However, the current text does not provide sufficient detail to evaluate the method rigorously. Key methodological aspects, such as the exact data splitting procedure, the handling of peptide redundancy, the definition of negative peptides, and the statistical significance of performance differences, are either missing or ambiguous. The central claim of superiority over existing DRBP predictors rests on a comparison that is not fully described, and the validation on human homologs is based on a small number of cases. The manuscript would benefit from a more detailed description of the experimental setup, a clearer presentation of the evaluation metrics, and a more cautious interpretation of the results given the limited evidence presented.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on RNA-binding protein prediction, particularly those interested in functional subtypes and chromatin-associated processes. Experimental biologists studying transcriptional regulation, chromatin biology, and RBP function may also find the predicted candidate list useful for prioritizing wet-lab experiments. The methodological approach of using short contact peptides could be of interest to those developing deep learning models for protein function prediction.
+- **Major strengths**
+  - The problem is well-motivated and addresses a genuine gap, as existing DRBP predictors are not designed for the specific characteristics of caRBPs.
+  - The use of chromatin-contact peptides as training input is a novel and biologically grounded idea, potentially capturing the relevant binding interface more directly than full-length sequences.
+  - The manuscript is clearly written and the logical flow from data to model to prediction to validation is easy to follow.
+  - The authors provide a practical tool and a candidate list, which could be immediately useful to the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves an AUC of 0.81 using peptide sequence information alone, significantly outperforming existing DRBP predictors.
+  - **Evidence pointer** Section 3.2, Figure 3B, Suppl. Table 3. Location not provided.
+  - **Concern** The performance comparison is not fully described. The authors state that existing DRBP predictors show low recall on the caRBP dataset, but the exact evaluation protocol is unclear. It is not specified whether these predictors were retrained, fine-tuned, or used as-is with their default thresholds. The choice of threshold for each predictor can dramatically affect recall and precision. Furthermore, the comparison is made on the caRBP training dataset, which may not be representative of a fair benchmark. The statistical significance of the AUC difference is not reported.
+  - **Why it matters** The central claim of the manuscript is that caRBP-Pred outperforms existing tools. If the comparison is not conducted under a fair and clearly described protocol, the claim is not substantiated. A reader cannot assess whether the reported superiority is due to the model architecture, the training data, or an artifact of the evaluation setup.
+  - **Resolution test** The authors should provide a detailed description of the evaluation protocol for the existing DRBP predictors, including the exact version of each tool, the input format, the threshold selection method, and whether any retraining or fine-tuning was performed. They should also report the full precision-recall curves and the statistical significance of the AUC differences, ideally with confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model is trained on chromatin-contact peptides derived from mouse embryonic stem cells.
+  - **Evidence pointer** Section 2.1, Section 3.1, Figure 2A-B, Suppl. Table 1. Location not provided.
+  - **Concern** The data preprocessing and splitting procedure is not described in sufficient detail. It is unclear how the 1532 positive and 14,937 negative peptides were generated from the 385 caRBPs and 1630 non-caRBPs. Specifically, the authors do not state whether peptides from the same protein were kept in the same split during the 5-fold cross-validation. If peptides from the same protein appear in both training and test sets, the model could be memorizing protein-level features rather than learning generalizable peptide-level features, leading to overly optimistic performance estimates. The definition of negative peptides is also ambiguous, as it is not clear what "RBPs lacking chromatin-binding ability" means in practice and how this was determined.
+  - **Why it matters** Data leakage is a common and serious issue in deep learning for biological sequences. If the split is not performed at the protein level, the reported AUC of 0.81 may not reflect the model's true generalization performance on unseen proteins. The definition of negatives is also critical, as an ill-defined negative set could make the classification task artificially easy or hard.
+  - **Resolution test** The authors should clarify whether the train/test split was performed at the protein level or the peptide level. If peptide-level, they should repeat the evaluation with a protein-level split and report the results. They should also provide a clear definition of negative peptides, including the source and criteria used to classify an RBP as lacking chromatin-binding ability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Validation against human homologs confirmed that the model accurately predicts candidates with experimentally verified chromatin-binding capabilities, with 10 out of 11 correctly predicted.
+  - **Evidence pointer** Section 3.4, Figure 4C-D, Suppl. Table 4. Location not provided.
+  - **Concern** The validation on human homologs is based on a very small number of cases (11 proteins). While the reported accuracy of 91% is high, the confidence interval for a proportion based on 11 observations is extremely wide. For example, with 10 out of 11 successes, the 95% confidence interval for the true accuracy is approximately 59% to 100%. This is not a statistically robust validation. Furthermore, the selection of these 11 proteins is not described. It is unclear whether they were chosen because they were known to be caRBPs, which would introduce selection bias, or whether they were a random sample of the predicted candidates.
+  - **Why it matters** The claim that the model is reliable for predicting caRBPs in mice is largely based on this small validation set. A high accuracy on 11 carefully selected examples does not provide strong evidence of generalizability. The lack of clarity on how these 11 proteins were selected makes it difficult to assess the validity of the validation.
+  - **Resolution test** The authors should provide a detailed description of how the 11 human homologs were selected. If they were selected based on known chromatin-binding activity, this should be stated, and the validation should be framed as a proof-of-concept rather than a rigorous evaluation. Ideally, the authors should validate on a larger, unbiased set of proteins with experimentally confirmed or refuted chromatin-binding activity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The model integrates full-length protein sequences and chromatin-contact peptide sequences as inputs, and the peptide sequence alone displayed the best performance.
+  - **Evidence pointer** Section 2.4, Section 3.2, Figure 3B, Suppl. Table 3. Location not provided.
+  - **Concern** The manuscript does not report the performance of the model trained on full-length protein sequences, nor does it report the performance of a model trained on the combination of full-length and peptide sequences. The claim that peptide sequences alone perform best is made without showing the comparative data. It is also unclear whether the model was trained on both features simultaneously or separately.
+  - **Why it matters** The design choice to use peptides is a key contribution of the paper. Without showing the performance of the alternative input representations, the reader cannot evaluate whether this choice is justified. The claim of superiority of peptide sequences over full-length sequences is a central part of the narrative and should be supported by direct evidence.
+  - **Resolution test** The authors should include a table or figure showing the performance of the model with different input representations, including full-length sequences, peptide sequences, and their combination. This would allow the reader to directly compare the contributions of each input type.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section. Location not provided.
+  - **Issue** The data availability statement provides a GitHub link but does not specify the exact contents of the repository, the license, or the version of the code and data. It is also unclear whether the raw data from reference 14 is included or only the processed peptide sequences.
+  - **Required correction** The authors should provide a more detailed description of the repository contents, including the exact files, the format of the data, and the software dependencies. They should also consider depositing the data in a permanent repository such as Zenodo or Figshare to ensure long-term accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section
+  - **Evidence pointer** Section 2.5. Location not provided.
+  - **Issue** The class weights are described as {0: 1, 1: 10}, where 0 and 1 represent positive and negative peptides, respectively. This is confusing, as typically 1 represents the positive class. The text should be clarified to avoid ambiguity.
+  - **Required correction** The authors should clarify the labeling convention, e.g., by stating that class 1 is the positive class (caRBP peptides) and class 0 is the negative class, and that the weight for the positive class is 10.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section
+  - **Evidence pointer** Section 3.2, Figure 3C. Location not provided.
+  - **Issue** The description of the feature visualization is vague. The text states that positive and negative peptides can be separated clearly, but it does not specify what type of plot is shown (e.g., t-SNE, UMAP, PCA) or how the separation was quantified.
+  - **Required correction** The authors should specify the visualization method and, if possible, provide a quantitative measure of the separation, such as the silhouette score or the Davies-Bouldin index.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Section 2.3. Location not provided.
+  - **Issue** The PS4 tool is mentioned for secondary structure prediction, but no version or citation is provided. It is also unclear whether the predicted secondary structure was used as a separate input channel or concatenated with the one-hot encoding.
+  - **Required correction** The authors should provide a citation for PS4 and describe how the secondary structure information was integrated into the model input.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section
+  - **Evidence pointer** Section 3.3. Location not provided.
+  - **Issue** The recall rates for the existing DRBP predictors are reported as raw counts (e.g., 9/385, 34/385, 75/385). It would be more informative to report these as percentages and to also report the corresponding precision values.
+  - **Required correction** The authors should report recall and precision as percentages for each predictor, and ideally provide a confusion matrix or a precision-recall curve.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The comparison with existing DRBP predictors is not described in sufficient detail to be reproducible or to support the claim of superiority.
+  - R1-M2: The data splitting procedure is ambiguous, and the potential for data leakage at the protein level is not addressed.
+  - R1-M3: The validation on human homologs is based on a very small and potentially biased sample.
+  - R1-M4: The claim that peptide sequences outperform full-length sequences is not supported by direct comparative data.
+- **Assessment against Nature-style criteria**
+  - Originality: The idea of using chromatin-contact peptides for training is a novel contribution, and the manuscript addresses a specific and under-served problem. However, the overall architecture (CNN-BiLSTM) is not new, and the novelty lies primarily in the application and the training data.
+  - Scientific importance: The problem of predicting caRBPs is of interest to a specialized community, but the broader impact may be limited unless the method demonstrates clear and robust advantages over existing approaches. The potential to provide a candidate list for experimental validation is valuable, but the evidence presented is not yet strong enough to establish this.
+  - Interdisciplinary readership: The manuscript is likely to appeal primarily to computational biologists and bioinformaticians. The biological implications are discussed, but the presentation is technical and may not be immediately accessible to a broader biological audience. The abstract is clear, but the methods section assumes familiarity with deep learning terminology.
+  - Technical soundness: The technical soundness is currently not established due to the concerns raised above, particularly regarding the evaluation protocol and the potential for data leakage. The lack of detail on the model architecture, hyperparameters, and training procedure also limits the ability to assess the work.
+  - Readability for nonspecialists: The abstract and introduction are well-written and accessible. The methods and results sections are more technical and would benefit from additional explanation of key concepts, such as the difference between caRBPs and generic DRBPs, and the significance of the AUC metric.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and presents a reasonable approach, but the technical details and evaluation are insufficient to support the main claims. The authors should address the major concerns, particularly the data splitting procedure, the comparison with existing tools, and the validation on human homologs, before the case for caRBP-Pred can be considered established.
+
+## Risk / unsupported claims
+- The claim that caRBP-Pred is the "first computational tool specifically designed for predicting caRBPs" is not verifiable from the provided text, as no comprehensive literature search is presented.
+- The claim that the model "significantly outperforming existing DRBP predictors" is not supported by the data presented, as the evaluation protocol is not fully described and no statistical significance is reported.
+- The claim that the model "accurately predicts candidates with experimentally verified chromatin-binding capabilities" is based on a very small sample (10 out of 11) and is not statistically robust.
+- The claim that "nucleic acid binding ability could discriminate caRBPs from non-caRBPs" is based on a single supplementary figure that was not provided for review.
+- The claim that the model's performance is robust and generalizable is not supported, as the potential for data leakage at the protein level has not been ruled out.

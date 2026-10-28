@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "41036627",
+    "doi": "10.1093/nar/gkaf967",
+    "title": "New structural insights into the control of the retinoic acid receptors RAR/RXR by DNA, ligands, and transcriptional coregulators."
+  },
+  "content": {
+    "abstract": "Retinoic acid receptors (RARs) are ligand-dependent transcription factors essential for various biological processes, including embryogenesis, differentiation, and apoptosis. RARs function as heterodimers with retinoid X receptors (RXRs) and regulate gene expression via retinoic acid response elements (RAREs). Their transcriptional activity is modulated by coregulators, with corepressors maintaining repression in the absence of ligand and coactivators enabling transcription upon ligand binding. Structural studies reveal that DNA binding induces conformational changes affecting coregulator interactions. However, the precise structural organization of RAR/RXR-coregulator complexes and the allosteric influence of DNA on receptor function remain incompletely understood. Our study presents an integrative analysis of the RAR/RXR heterodimer bound to four distinct and relevant RAREs (DR0, DR1, DR5, and IR0) in complex with either a corepressor (NCoR) or a coactivator (TIF-2) nuclear receptor interaction domain. By combining small-angle X-ray scattering, hydrogen/deuterium exchange mass spectrometry, and molecular dynamics simulations, we revealed that the heterodimer adopts distinct conformations depending on the DNA sequence, influencing interdomain distances and receptor interactions. Additionally, we uncovered the dynamic interplay between ligand, DNA, and coregulator binding. This study provides new insights into the structural features of coregulator proteins and highlights the allosteric influence of RAREs on receptor function.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/chemistry/metabolism",
+      "Ligands",
+      "*Receptors, Retinoic Acid/chemistry/metabolism/genetics",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Retinoid X Receptors/chemistry/metabolism/genetics",
+      "Protein Binding",
+      "Nuclear Receptor Coactivator 2/chemistry/metabolism/genetics",
+      "Nuclear Receptor Co-Repressor 2/chemistry/metabolism/genetics",
+      "Response Elements",
+      "Nuclear Receptor Co-Repressor 1/chemistry/metabolism/genetics",
+      "Scattering, Small Angle"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tambones, Izabella",
+        "Sagar, Amin",
+        "Vankova, Pavla",
+        "Loginov, Dmitry",
+        "Carivenc, Coralie",
+        "Rochel, Natacha",
+        "Bourguet, William",
+        "Man, Petr",
+        "Bernado, Pau",
+        "le Maire, Albane"
+      ],
+      "short_names": [
+        "Tambones I",
+        "Sagar A",
+        "Vankova P",
+        "Loginov D",
+        "Carivenc C",
+        "Rochel N",
+        "Bourguet W",
+        "Man P",
+        "Bernado P",
+        "le Maire A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4073-9227",
+        "ORCID: 0000-0002-3573-5889",
+        "ORCID: 0000-0003-3336-2158"
+      ],
+      "affiliations": [
+        "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France.",
+        "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France.",
+        "BicycleTx Ltd., Cambridge CB21 6GS, United Kingdom.",
+        "Institute of Biotechnology of the Czech Academy of Sciences, Division BioCeV, Prumyslova 595, Vestec 25250, Czech Republic.",
+        "Institute of Microbiology of the Czech Academy of Sciences, Division BioCeV, Prumyslova 595, Vestec 25250, Czech Republic.",
+        "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France.",
+        "Institute of Genetics and Molecular and Cellular Biology, University of Strasbourg, CNRS UMR7104, INSERM U 1258, Illkirch-Graffenstaden 67404, France.",
+        "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France.",
+        "Institute of Microbiology of the Czech Academy of Sciences, Division BioCeV, Prumyslova 595, Vestec 25250, Czech Republic.",
+        "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France.",
+        "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tambones, Izabella",
+        "short_name": "Tambones I",
+        "identifiers": [
+          "0000-0002-4073-9227"
+        ],
+        "affiliations": [
+          "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France."
+        ]
+      },
+      {
+        "full_name": "Sagar, Amin",
+        "short_name": "Sagar A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France.",
+          "BicycleTx Ltd., Cambridge CB21 6GS, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Vankova, Pavla",
+        "short_name": "Vankova P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology of the Czech Academy of Sciences, Division BioCeV, Prumyslova 595, Vestec 25250, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Loginov, Dmitry",
+        "short_name": "Loginov D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Microbiology of the Czech Academy of Sciences, Division BioCeV, Prumyslova 595, Vestec 25250, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Carivenc, Coralie",
+        "short_name": "Carivenc C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France."
+        ]
+      },
+      {
+        "full_name": "Rochel, Natacha",
+        "short_name": "Rochel N",
+        "identifiers": [
+          "0000-0002-3573-5889"
+        ],
+        "affiliations": [
+          "Institute of Genetics and Molecular and Cellular Biology, University of Strasbourg, CNRS UMR7104, INSERM U 1258, Illkirch-Graffenstaden 67404, France."
+        ]
+      },
+      {
+        "full_name": "Bourguet, William",
+        "short_name": "Bourguet W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France."
+        ]
+      },
+      {
+        "full_name": "Man, Petr",
+        "short_name": "Man P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Microbiology of the Czech Academy of Sciences, Division BioCeV, Prumyslova 595, Vestec 25250, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Bernadó, Pau",
+        "short_name": "Bernadó P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France."
+        ]
+      },
+      {
+        "full_name": "le Maire, Albane",
+        "short_name": "le Maire A",
+        "identifiers": [
+          "0000-0003-3336-2158"
+        ],
+        "affiliations": [
+          "Center for Structural Biology (CBS), University of Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier 34090, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Sep 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/02 12:33",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42660821",
+      "42458135",
+      "42444941",
+      "42363496",
+      "42346106"
+    ],
+    "refs": [
+      "40082595",
+      "39653158",
+      "39494541",
+      "39332668",
+      "38718835",
+      "37805934",
+      "37443151",
+      "36069789",
+      "35694853",
+      "34432000",
+      "33833657",
+      "33647291",
+      "32974652",
+      "32828464",
+      "32433991",
+      "31178221",
+      "31175293",
+      "30459217",
+      "30166540",
+      "29970600",
+      "29739979",
+      "29300836",
+      "29030554",
+      "29021580",
+      "28890360",
+      "28125680",
+      "27787702",
+      "27581526",
+      "25993527",
+      "25897113",
+      "25543955",
+      "24962880",
+      "24942373",
+      "24561505",
+      "23728292",
+      "23485969",
+      "23216378",
+      "22661711",
+      "22363753",
+      "22179700",
+      "21478866",
+      "21478865",
+      "20543827",
+      "20080953",
+      "19491383",
+      "19471584",
+      "19372434",
+      "19043829",
+      "18644343",
+      "17411046",
+      "17132850",
+      "15957004",
+      "15956332",
+      "15528208",
+      "14686102",
+      "11972046",
+      "11805839",
+      "11510982",
+      "11238912",
+      "10698945",
+      "10573424",
+      "9808623",
+      "9692959",
+      "8670870",
+      "7760929",
+      "7567990",
+      "7566127",
+      "7566114",
+      "7481822",
+      "2085174",
+      "1655630",
+      "1584048"
+    ],
+    "similar": [
+      "41036627",
+      "32974652",
+      "9121466",
+      "15528208",
+      "24962880",
+      "33647291",
+      "22661711",
+      "21152046",
+      "31178221",
+      "11254382",
+      "10082574",
+      "7852380",
+      "26558701",
+      "10777502",
+      "9001218",
+      "18282463",
+      "22045737",
+      "8139911",
+      "8152429",
+      "12503607",
+      "7566126",
+      "7935766",
+      "17663992",
+      "9744281",
+      "8877104",
+      "31694317",
+      "33497820",
+      "9599664",
+      "32359645",
+      "7654186",
+      "41163170",
+      "8620004",
+      "9878542",
+      "11805839",
+      "8634447",
+      "11212249",
+      "11274211",
+      "15489004",
+      "22242853",
+      "24962879",
+      "10847591",
+      "8264595",
+      "24187139",
+      "9312028",
+      "25541638",
+      "9083083",
+      "10698945",
+      "20065040",
+      "23775127",
+      "15650024",
+      "11929748",
+      "9000050",
+      "9626662",
+      "28642153",
+      "9692959",
+      "32359647",
+      "8011161",
+      "14701725",
+      "12757020",
+      "11972046",
+      "34296739",
+      "30512978",
+      "8051161",
+      "11254657",
+      "12665583",
+      "15180561",
+      "7760852",
+      "7823919",
+      "21767619",
+      "24962883",
+      "9451439",
+      "8387213",
+      "7862171",
+      "12476796",
+      "7615548",
+      "36639026",
+      "26384496",
+      "18362166",
+      "8139538",
+      "1327537",
+      "9153406",
+      "8137826",
+      "8813719",
+      "28890360",
+      "9879990",
+      "10677278",
+      "9617539",
+      "8754812",
+      "10393558",
+      "9171239",
+      "18250153",
+      "10336890",
+      "10419826",
+      "10617569",
+      "10531331",
+      "24530888",
+      "15234273",
+      "8395010",
+      "8001825",
+      "24962878"
+    ],
+    "review": [
+      "41036627",
+      "24962880",
+      "33497820",
+      "22242853",
+      "24962879",
+      "12757020",
+      "15180561",
+      "24962883",
+      "12476796"
+    ],
+    "pmc": [
+      "12489474"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41036627/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf967",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, tables, figure legends)
+- **Assessment boundary** Scientific validity, methodological soundness, interpretability of results, and alignment with claims; not editorial or formatting issues
+- **Shared manuscript claim summary** The authors propose a quantum-enhanced graph embedding framework combining Graph Autoencoder (GAE) and Graph Generative Adversarial Network (Graph GAN) architectures to model transcription factor–gene regulatory networks (TF-GRNs) from the TRRUST v2 database, with the aim of identifying key regulatory modules and hubs in periodontal bone inflammation. They report that GAE outperforms Graph GAN across all evaluated metrics, including link prediction (AUC 0.997 vs 0.550), clustering quality (silhouette score 0.272 vs 0.107), and neighborhood preservation (0.093 vs 0.003), and that quantum-derived features improve structural preservation and reveal inflammation-associated modules.
+- **Visible evidence base** Full text including methods, results, tables (Tables 1–6), figure legends (Figs. 1–4), and discussion
+- **Missing materials affecting confidence** No code repository, no hyperparameter details for GAN training beyond those stated, no statistical significance testing, no independent validation dataset, no comparison with classical (non-quantum) baselines, no access to raw data or trained model outputs, no figure images (only legends), no supplementary materials
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem, namely the application of graph neural networks to TF-gene regulatory networks in a disease context. The comparative framing of GAE versus Graph GAN is reasonable, and the reported performance differences are large. However, the study has substantial methodological weaknesses that undermine the strength of the conclusions. The quantum component is described only superficially and its contribution is not isolated or quantified. The evaluation metrics are presented without statistical testing, and the biological interpretation is largely speculative, with no external validation or functional enrichment analysis. The manuscript also contains internal inconsistencies in dataset numbers and duplicated text. As presented, the case for a quantum-enhanced, biologically interpretable framework is not established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, particularly those interested in graph-based deep learning methods. Researchers studying periodontal disease or inflammatory bone loss may find the identified hubs (NF-κB, STAT3) of interest, though these are well-known and not novel. The quantum computing angle may attract a niche audience interested in quantum machine learning applications to biology, but the current depth of quantum methodology is insufficient to satisfy that community.
+- **Major strengths** The problem is clinically relevant and the comparative design is clear. The use of a publicly available database (TRRUST v2) supports reproducibility. The evaluation framework includes multiple complementary metrics (link prediction, clustering, distribution distances, centrality correlation), which is commendable. The discussion of limitations is candid, particularly regarding binary edge representation and lack of multi-omics integration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that quantum-derived features improve embedding quality and reveal distinct regulatory modules associated with inflammation and bone resorption.
+  - **Evidence pointer** Methods, "Quantum data feature extraction"; Results, "Quantum-enhanced node features... improved structural preservation and revealed distinct regulatory modules"
+  - **Concern** The quantum component is not rigorously evaluated. The authors state that quantum features were extracted using variational quantum circuits in PennyLane, but no details are given on circuit depth, number of qubits, number of variational parameters, optimization procedure, or whether simulations or hardware were used. Critically, there is no ablation study: the GAE and GAN are trained on classical embeddings, and quantum features are added post hoc, but the manuscript never compares GAE with quantum features against GAE without quantum features. The claim that quantum features "improved" performance is therefore unsupported by the data presented.
+  - **Why it matters** The title and framing of the manuscript center on "quantum graph embedding." If the quantum contribution is not isolated and quantified, the central novelty of the work is unsubstantiated. Readers cannot assess whether the reported performance is due to the quantum features, the GAE architecture, or the specific dataset.
+  - **Resolution test** Provide a clear ablation: train GAE and GAN with and without quantum features, report all metrics for both conditions, and include details of the quantum circuit (qubits, depth, parameters, simulator or hardware). If quantum features do not change results, revise the claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims GAE significantly outperforms Graph GAN across all metrics, including AUC 0.997 vs 0.550 and silhouette score 0.272 vs 0.107.
+  - **Evidence pointer** Results, "Model performance comparison"; Table 2; Table 3
+  - **Concern** No statistical testing is reported for any comparison. The AUC and AP values are presented as point estimates without confidence intervals or significance tests. The silhouette scores and centrality correlations are likewise presented without measures of variance. Given that the GAN is known to be sensitive to hyperparameters and training instability, the observed gap could be due to suboptimal GAN tuning rather than inherent architectural superiority. The manuscript even acknowledges GAN training instability but does not report how many random seeds, learning rates, or architectures were tried.
+  - **Why it matters** Without statistical rigor, the reader cannot determine whether the reported differences are robust or artifacts of a single run. The claim of "significant" outperformance is not supported by any inferential statistics.
+  - **Resolution test** Report mean and standard deviation across multiple random seeds (at least 5), perform appropriate significance tests (e.g., bootstrap or permutation tests) for AUC, AP, silhouette score, and centrality correlations. If the GAN was undertuned, retrain with a hyperparameter search and report the best configuration.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims the framework identifies "key modules" and "central regulators" including NF-κB and STAT3, with implications for therapeutic targeting in periodontal disease.
+  - **Evidence pointer** Results, "Embedding quality and biological interpretability"; Discussion
+  - **Concern** The biological validation is absent. The identified hubs (NF-κB, STAT3) are already well-established in periodontal inflammation, so their identification does not constitute a novel finding. The manuscript does not perform any functional enrichment analysis, pathway over-representation test, or comparison with independent experimental datasets. The claim that modules are "associated with inflammation and bone resorption pathways" is based on visual inspection of clusters, not on quantitative enrichment. No external validation using ENCODE, ChEA, or any other database is performed, despite the authors stating this is needed.
+  - **Why it matters** The translational relevance of the framework depends on whether the identified modules and hubs are biologically meaningful and novel. Without validation, the biological claims are speculative and the clinical implications are overstated.
+  - **Resolution test** Perform functional enrichment analysis (e.g., GO, KEGG, Reactome) on the genes within identified modules. Compare identified hubs with published periodontal disease datasets or independent TF-binding databases. If the hubs are already known, reframe the contribution as methodological rather than biological.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states the dataset comprises 1207 edges, 231 TFs, and 536 target genes, but also reports 1454 TF-target relationships with 659 unknown, 532 activation, and 263 repression.
+  - **Evidence pointer** Results, first paragraph; Results, "Regulation type-specific analysis"; Table 4
+  - **Concern** The numbers are internally inconsistent. The text states 1207 edges and 1454 relationships; 659 + 532 + 263 = 1454, which matches the latter but not the former. The graph construction section says 1207 edges, and the edge_index shape is (2, 1207). It is unclear whether 1207 is the number of unique edges after deduplication or whether 1454 includes duplicate or multi-edge relationships. This discrepancy affects the validity of all downstream metrics.
+  - **Why it matters** The dataset is the foundation of the entire study. If the edge count is ambiguous, the link prediction results and network statistics cannot be interpreted reliably.
+  - **Resolution test** Clarify the exact number of unique edges after preprocessing, explain the relationship between 1207 and 1454, and ensure all reported numbers are consistent across text, tables, and code.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The manuscript claims the approach is "biologically based and quantum-aware" and lays a foundation for precision therapeutics.
+  - **Evidence pointer** Discussion; Conclusion
+  - **Concern** The manuscript is difficult to follow for a broad readership. The quantum methods are described in a single paragraph with no conceptual introduction for non-specialists. The biological rationale is buried in the second introduction section, which is duplicated. The results section mixes methodology with findings, and the figure legends are not self-contained. A reader from either the biology or the quantum computing community would struggle to understand the key contributions.
+  - **Why it matters** Nature-style journals aim for broad accessibility. If the manuscript cannot communicate its methods and findings clearly to both computational and biological audiences, its impact is diminished.
+  - **Resolution test** Restructure the manuscript with a clear separation of methods and results, add a conceptual explanation of quantum feature extraction for non-specialists, and rewrite figure legends to be self-explanatory.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, second section (duplicated)
+  - **Issue** The introduction section appears twice with nearly identical content. This is a clear editorial error that disrupts the flow of the manuscript.
+  - **Required correction** Remove the duplicated introduction section and retain only one coherent version.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The table header row shows "0" and "1" as row indices, which is confusing. The AUC value for GAE is listed as 0.99 in the table but 0.997 in the text. This inconsistency should be resolved.
+  - **Required correction** Remove the row index column, ensure the AUC value is consistent between text and table, and format the table with clear column headers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Regulation type-specific analysis"
+  - **Evidence pointer** Table 4
+  - **Issue** The text states the GAE achieved average scores of 0.966 ± 0.030 for Activation, 0.972 ± 0.028 for Repression, and 0.973 ± 0.024 for Unknown, but Table 4 lists 0.9658 ± 0.0299, 0.9717 ± 0.0283, and 0.9727 ± 0.0311. The values are close but not identical, suggesting rounding or a mismatch between text and table.
+  - **Required correction** Ensure all reported values are consistent between text and tables, or state that values are rounded.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figure legends (Figs. 1–4)
+  - **Issue** The figure legends are minimal and do not describe the key elements of each figure. For example, Fig. 2 legend mentions four plots but does not explain what each axis represents or what the reader should conclude.
+  - **Required correction** Expand each figure legend to include a full description of the figure content, axes, and the main takeaway.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Graph Generative Adversarial Network architecture"
+  - **Evidence pointer** Methods, "Graph Generative Adversarial Network architecture"
+  - **Issue** The GAN training details are incomplete. The manuscript states the GAN used GAE embeddings as real data but does not specify the generator and discriminator loss functions, the optimizer settings beyond Adam, the learning rate schedule, or the number of training iterations. The reported GAN instability cannot be assessed without these details.
+  - **Required correction** Provide full training details for the GAN, including loss functions, optimizer parameters, and any regularization or stabilization techniques.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Quantum data feature extraction"
+  - **Evidence pointer** Methods, "Quantum data feature extraction"
+  - **Issue** The quantum circuit description is insufficient. The manuscript states that "the first few dimensions" of the embedding vector were mapped to rotation angles, but does not specify how many dimensions, how the mapping was performed, or how the number of qubits was chosen. The entanglement structure is described only as "CNOT gates entangle the qubits" without specifying the topology.
+  - **Required correction** Provide a complete description of the quantum circuit, including the number of qubits, the encoding scheme, the entanglement structure, and the measurement procedure.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The discussion contains a sentence fragment: "Promoting osteoclastogenesis and tissue destruction, these RANKL, TNF-α, and IL-1β regulators are well-known to induce periodontitis." This sentence is grammatically incomplete and should be revised.
+  - **Required correction** Rewrite the sentence to be grammatically complete, for example: "These regulators, including RANKL, TNF-α, and IL-1β, are well known to promote osteoclastogenesis and tissue destruction, thereby inducing periodontitis."
+
+## Risk / unsupported claims
+- The claim that quantum-derived features "improved structural preservation and revealed distinct regulatory modules" is unsupported because no ablation study is presented.
+- The claim that GAE "significantly" outperforms Graph GAN is unsupported because no statistical testing is reported.
+- The claim that identified modules are "associated with inflammation and bone resorption pathways" is unsupported because no functional enrichment analysis is performed.
+- The claim that the framework is "biologically based" is overstated given the absence of biological validation.
+- The claim that the approach "lays the foundation for precision therapeutics" is speculative and not supported by the data.
+- The dataset size inconsistency (1207 vs 1454 edges) makes the network statistics unreliable as reported.
+- The quantum feature extraction methodology is described at a level that prevents replication or assessment of its validity.

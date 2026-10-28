@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, figure legends, and supplementary materials list
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors identify two distinct amino acid motifs (YDF and KTYQR) in the N-terminal region of CTCF that impede cohesin-mediated DNA loop extrusion through different yet synergistic mechanisms, with YDF promoting unidirectional extrusion by strengthening STAG1 DNA affinity and KTYQR fully blocking loop extrusion activity.
+- **Visible evidence base** Single-molecule DNA loop extrusion assays (fluorescence microscopy and magnetic tweezers), ATPase activity measurements, fluorescence correlation spectroscopy, AlphaFold-Multimer structural predictions, and polymer simulations
+- **Missing materials affecting confidence** Full methods section, supplementary figures S1-S6, supplementary tables S1-S3, detailed step-finding algorithm description, and complete statistical analysis details
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-designed and carefully executed study that provides significant mechanistic insight into how CTCF stalls cohesin-mediated DNA loop extrusion. The identification of two distinct motifs (YDF and KTYQR) with different yet synergistic mechanisms is a valuable contribution to the field. The combination of single-molecule assays, biochemical measurements, and structural predictions is appropriate and generally well-controlled. However, several concerns regarding the interpretation of the KTYQR mechanism, the physiological relevance of the in vitro conditions, and the strength of some conclusions need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying genome organization, chromatin architecture, cohesin biology, and CTCF function. The findings have direct implications for understanding TAD boundary formation, gene regulation, and diseases associated with cohesin dysfunction. The methodological approaches (single-molecule LE assays, magnetic tweezers with step resolution) will also be of interest to biophysicists studying molecular motors and DNA-protein interactions.
+- **Major strengths** The study uses complementary single-molecule techniques (fluorescence imaging and magnetic tweezers) to provide both population-level and single-step resolution of loop extrusion dynamics. The identification of a second motif (KTYQR) beyond the well-studied YDF motif is novel and important. The use of multiple controls (scrambled peptides, mutated variants, yeast condensin) strengthens the specificity of the findings. The polymer simulations provide a useful bridge between in vitro observations and in vivo Hi-C patterns.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors claim that the KTYQR motif "fully impedes LE activity" and that it reduces cohesin's ATPase activity by approximately 60%, yet the mechanistic basis for this inhibition is not experimentally demonstrated beyond binding predictions.
+  - **Evidence pointer** Figure 3C-D, Figure 3F-G, and associated text
+  - **Concern** The manuscript demonstrates that the KTYQR peptide inhibits loop extrusion and ATPase activity, but the mechanism by which this occurs is not experimentally addressed. The AlphaFold predictions suggest binding to STAG1, and FCS confirms binding, but the authors do not show how this binding leads to inhibition of ATPase activity or loop extrusion. Is the KTYQR motif competing with DNA binding? Does it induce a conformational change? Does it interfere with NIPBL-Mau2 interaction? The mechanistic model presented in Figure 4E is largely speculative without direct experimental support.
+  - **Why it matters** The central claim of the paper is that two distinct motifs stall loop extrusion via different mechanisms. While the YDF mechanism is supported by DNA binding data and directionality changes, the KTYQR mechanism is not mechanistically characterized. Without understanding how KTYQR inhibits ATPase activity and loop extrusion, the claim of "distinct yet synergistic mechanisms" is not fully substantiated.
+  - **Resolution test** The authors should provide additional experiments or analyses that directly address the mechanism of KTYQR-mediated inhibition. This could include competition experiments with DNA, measurements of NIPBL-Mau2 binding in the presence of KTYQR peptide, or structural studies (e.g., crosslinking or hydrogen-deuterium exchange) to identify conformational changes. Alternatively, the authors could temper their mechanistic claims to be more explicitly descriptive rather than mechanistic.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors state that the YDF motif "converts cohesin into a unidirectional extruder" and that this is due to "strengthening the affinity of STAG1 to DNA," yet the quantitative relationship between DNA binding affinity and directionality is not established.
+  - **Evidence pointer** Figure 2E-H, Figure 2H, and associated text
+  - **Concern** The FCS experiments show that the YDF peptide increases STAG1's DNA affinity, and the single-molecule experiments show that YDF promotes unidirectional extrusion. However, the authors do not provide a quantitative model linking these two observations. How much of an increase in DNA affinity is required to observe the directionality change? Is the effect saturated at the concentrations used? The authors also do not test whether other means of increasing STAG1 DNA affinity (e.g., mutations in STAG1) would phenocopy the YDF effect.
+  - **Why it matters** The claim that YDF promotes unidirectional extrusion by strengthening STAG1 DNA affinity is a key mechanistic conclusion. Without establishing a quantitative or causal link, this remains a correlation. The authors' hypothesis that increased DNA affinity prevents strand exchange is plausible but not directly tested.
+  - **Resolution test** The authors could perform experiments with STAG1 mutants that have altered DNA binding affinity to test whether this alone can drive unidirectional extrusion. Alternatively, they could use a series of YDF peptide concentrations and correlate the degree of DNA affinity increase with the degree of directionality change to establish a dose-response relationship. A more direct test would be to use a DNA substrate that prevents strand exchange and ask whether YDF still promotes unidirectional extrusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** The authors conclude that "the YDF and KTYQR motifs synergistically reduce cohesin's activity" and that this explains CTCF's ability to stall cohesin, but the in vitro conditions used (peptide fragments in solution, high concentrations) may not reflect the physiological context where CTCF is bound to DNA.
+  - **Evidence pointer** Throughout the manuscript, particularly Figures 1-3
+  - **Concern** The experiments are performed with CTCF fragments in solution rather than with full-length CTCF bound to DNA. In cells, CTCF is a DNA-bound protein, and its N-terminal region is presented to cohesin in a specific spatial context. The authors acknowledge that short peptides may bind with lower affinity, but the use of large excess of peptide fragments may create non-physiological interactions. Additionally, the authors do not test whether the effects observed with isolated motifs are recapitulated with full-length CTCF in their in vitro system.
+  - **Why it matters** The physiological relevance of the findings depends on whether the mechanisms identified with peptide fragments operate in the context of full-length CTCF bound to DNA. If the effects are only observed with isolated peptides at high concentrations, the conclusions about CTCF function in vivo may be overstated.
+  - **Resolution test** The authors could perform experiments with full-length CTCF bound to DNA in their single-molecule assay, or at minimum, with longer CTCF fragments that include both motifs and the DNA binding domain. They could also test whether the effects of the peptide fragments are competitive with full-length CTCF, which would support the physiological relevance of the identified interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors state that "the YDF motif alone causes cohesin to extrude unidirectionally, mimicking the effect of the full NTR," but the quantitative comparison between the YDF peptide and full NTR effects is not clearly presented.
+  - **Evidence pointer** Figure 2D-E, Figure 3D-E
+  - **Concern** The manuscript reports that the full NTR reduces active extrusion phase frequency by approximately 3-fold, while the YDF peptide reduces it by 1.5-fold. The KTYQR peptide reduces it by 2-fold. The combination of YDF and KTYQR peptides reduces activity more than either alone but less than the full NTR. This suggests that the full NTR has additional effects beyond the two identified motifs, yet the authors conclude that these two motifs "suffice to account for CTCF's ability to stall cohesin." This conclusion appears to overstate the sufficiency of the two motifs.
+  - **Why it matters** The claim that the two motifs are sufficient to explain CTCF-mediated stalling is central to the paper's conclusions. If the full NTR has quantitatively stronger effects than the combination of the two motifs, there may be additional mechanisms at play that are not identified.
+  - **Resolution test** The authors should provide a more quantitative comparison of the effects of the full NTR versus the combination of YDF and KTYQR peptides, including statistical tests for equivalence or non-inferiority. If the full NTR is significantly more effective, the authors should either identify additional contributing motifs or temper their conclusion about sufficiency.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1D
+  - **Evidence pointer** Figure 1D and associated text
+  - **Issue** The authors report a "3-fold decrease" in active extrusion phase frequency with the NTR, but it is unclear whether this is a median, mean, or representative value. The variability across experiments is not clearly shown.
+  - **Required correction** Provide the statistical distribution (e.g., box plots or scatter plots with individual data points) and specify the measure of central tendency and dispersion used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section (location not provided)
+  - **Issue** The step-finding algorithm for the magnetic tweezers data is described as "more accurately extracted steps compared to our previous method," but the details of the algorithm are not provided in the main text or supplementary materials list.
+  - **Required correction** Provide a full description of the algorithm, including any parameters, validation, and comparison to the previous method, either in the main text or supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Figure 4B
+  - **Evidence pointer** Figure 4B and associated text
+  - **Issue** The FCS data showing KTYQR binding to STAG1 is presented as a single experiment or representative trace. It is unclear how many independent replicates were performed and whether the binding is specific.
+  - **Required correction** Provide the number of replicates, error bars, and a control for binding specificity (e.g., a scrambled KTYQR peptide or a STAG1 mutant lacking the predicted binding site).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 4C-G
+  - **Evidence pointer** Figure 4C-G and associated text
+  - **Issue** The schematic model in Figure 4C-G is helpful but the labels and color coding are not described in the figure legend as provided.
+  - **Required correction** Ensure the figure legend clearly describes all elements of the schematic, including the meaning of colors, shapes, and arrows.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Supplementary materials list
+  - **Issue** The supplementary materials include Figures S1-S6 and Tables S1-S3, but the content of these is not described in the provided text. It is difficult to assess the full scope of the data.
+  - **Required correction** Provide a brief description of each supplementary figure and table in the main text or a supplementary materials summary.
+- **Technical failings that need to be addressed before the case is established** 
+  - The mechanistic link between KTYQR binding to STAG1 and inhibition of ATPase activity/loop extrusion is not experimentally established (R1-M1).
+  - The causal relationship between increased STAG1 DNA affinity and unidirectional extrusion is not quantitatively demonstrated (R1-M2).
+  - The sufficiency of the two motifs to account for full NTR effects is not quantitatively supported (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of a second motif (KTYQR) in CTCF that independently inhibits cohesin-mediated loop extrusion is novel and extends beyond previous work focused on the YDF motif. The finding that YDF promotes unidirectional extrusion by modulating STAG1 DNA affinity is also a new mechanistic insight.
+  - **Scientific importance** The study addresses a fundamental question in genome organization: how CTCF stalls cohesin to form TAD boundaries. The findings have implications for understanding gene regulation, development, and disease. The identification of two distinct mechanisms highlights the complexity of CTCF-cohesin interactions.
+  - **Interdisciplinary readership** The work bridges biophysics, molecular biology, and genomics. The single-molecule approaches and quantitative analyses will appeal to biophysicists, while the biological implications will interest molecular biologists and geneticists. The polymer simulations provide a connection to computational biology.
+  - **Technical soundness** The experimental approaches are generally well-designed with appropriate controls. The use of multiple single-molecule techniques and biochemical assays strengthens the conclusions. However, the mechanistic interpretation of the KTYQR effect and the quantitative link between DNA affinity and directionality need further support.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The abstract and introduction provide sufficient context. However, some sections (e.g., the step-finding algorithm description) may be challenging for nonspecialists. The schematic model in Figure 4 helps convey the proposed mechanisms.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study presents important and novel findings, but the mechanistic claims regarding KTYQR and the quantitative link between DNA affinity and directionality need to be strengthened. The authors should also address the physiological relevance of their in vitro conditions and provide a more quantitative comparison between the full NTR and the combination of motifs.
+
+## Risk / unsupported claims
+- The claim that KTYQR "fully impedes LE activity" is supported by the data showing reduced ATPase activity and loop extrusion, but the mechanism of this inhibition is not experimentally demonstrated.
+- The claim that the YDF motif "converts cohesin into a unidirectional extruder by strengthening the affinity of STAG1 to DNA" is supported by correlative data but lacks a direct causal demonstration.
+- The claim that the two motifs "suffice to account for CTCF's ability to stall cohesin" is not quantitatively supported, as the full NTR has stronger effects than the combination of the two motifs.
+- The AlphaFold predictions of KTYQR binding to STAG1 and YDF binding to the hinge are presented as supporting evidence but are not experimentally validated for the KTYQR-STAG1 interaction beyond FCS, and the YDF-hinge interaction is purely speculative.
+- The physiological relevance of the in vitro conditions (peptide fragments in solution) to the in vivo context (full-length CTCF bound to DNA) is not established.

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that Foxn3, a forkhead transcriptional repressor, limits primary cilia formation in the developing mouse retina. In Foxn3 knockout retinas, they observe displaced amacrine interneurons, retinal astrocytes, and ectopic primary cilia on bipolar and amacrine interneurons. They report upregulation of cilia-related genes, including Foxj1, and show via CUT&RUN that many upregulated genes are bound by Foxn3 and Rfx3. They identify a shared hydrophobic motif (LXXLXWL) in Foxj1, Foxn4, and Foxn3 required for Rfx3 association and for Foxn3-mediated repression and Foxn4-mediated activation. AlphaFold 3 predicts an interaction between this motif and the Rfx3 dimerization domain, and mutations in Rfx3 at the predicted site disrupt association with Foxn3 or Foxn4.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, statistical analyses, sample sizes, and validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel transcriptional mechanism linking Foxn3, Rfx3, and cilia regulation in retinal development. The identification of a shared hydrophobic motif mediating Foxn3-Rfx3 and Foxn4-Rfx3 interactions is a compelling conceptual advance. However, the abstract alone provides insufficient evidence to evaluate the robustness of the phenotypic observations, the specificity of the transcriptional changes, or the functional significance of the proposed protein-protein interactions. Several claims are stated without quantitative support or experimental detail, and the causal link between the molecular mechanism and the observed retinal phenotypes remains incompletely established from the provided material.
+- **Who would be interested in the results, and why** Developmental biologists studying retinal cell fate and lamination, cell biologists investigating primary cilia assembly and regulation, and researchers interested in forkhead and RFX transcription factor networks. The work may also appeal to those studying transcriptional repression mechanisms and protein-protein interaction motifs in gene regulatory networks.
+- **Major strengths** The study addresses an under-explored area, namely transcriptional repression of cilia genes in the retina, and proposes a specific molecular mechanism involving a shared motif and Rfx3 interaction. The combination of genetic knockout, transcriptomic profiling, CUT&RUN, and structural prediction is a multi-pronged approach that, if fully validated, would provide strong support for the model. The identification of a conserved motif with functional relevance across Foxn3 and Foxn4 is a potentially generalizable finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that Foxn3 knockout retinas show "additional displaced amacrine interneurons and retinal astrocytes in the inner plexiform and ganglion cell layers, as well as ectopic primary cilia on bipolar and amacrine interneurons."
+  - **Evidence pointer** Abstract, phenotypic descriptions; location not provided
+  - **Concern** The abstract provides no quantitative data, such as cell counts, statistical comparisons, or representative images, to support the reported changes in cell positioning or cilia presence. It is unclear how these phenotypes were quantified, whether they are consistent across animals, or whether they are specific to Foxn3 loss rather than secondary to developmental disruption.
+  - **Why it matters** The central claim that Foxn3 limits primary cilia formation and influences retinal lamination depends on the reliability and specificity of these phenotypic observations. Without quantitative evidence, the reader cannot assess the magnitude or reproducibility of the effects.
+  - **Resolution test** Provide cell counts with statistical tests, representative confocal images with cilia markers, and quantification of cilia frequency per cell type in control versus Foxn3 knockout retinas, with sample sizes and effect sizes reported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link
+  - **Claim pointer** The abstract states that "Foxn3 is a transcriptional repressor and numerous genes linked to cilia structure or assembly were upregulated in embryonic retinas without Foxn3, including Foxj1."
+  - **Evidence pointer** Abstract, transcriptomic results; location not provided
+  - **Concern** The abstract does not specify how many genes were upregulated, the magnitude of changes, or whether these changes were validated by independent methods such as qPCR or in situ hybridization. It is also unclear whether the upregulation of cilia genes is a direct effect of Foxn3 loss or an indirect consequence of altered cell composition in the knockout retina.
+  - **Why it matters** The claim that Foxn3 represses cilia genes is foundational to the proposed model. If the transcriptomic changes are not robust or are confounded by cell population shifts, the mechanistic interpretation is weakened.
+  - **Resolution test** Report the number and identity of differentially expressed genes with fold changes and adjusted p-values, validate a subset by orthogonal methods, and perform cell-type deconvolution or single-cell analysis to rule out composition effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The abstract states that the LXXLXWL motif is "required for association with the Rfx3 protein and for transcriptional repression by Foxn3, as well as for full transcriptional activation by Foxn4 with Rfx3."
+  - **Evidence pointer** Abstract, biochemical and functional assays; location not provided
+  - **Concern** The abstract does not describe the assays used to test motif function, the cell types or reporter systems employed, or the specificity of the effects. It is unclear whether the motif is required for Rfx3 binding in all contexts or only in the tested conditions, and whether the loss of repression or activation is due to disrupted Rfx3 interaction or to other effects of the mutations.
+  - **Why it matters** The proposed mechanism hinges on the functional importance of the motif and its interaction with Rfx3. Without assay details and controls, the reader cannot evaluate whether the motif is truly required or merely contributory.
+  - **Resolution test** Describe the co-immunoprecipitation and reporter assays in detail, include mutant controls, and show that the motif mutations do not globally disrupt Foxn3 or Foxn4 protein stability or DNA binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural prediction validation
+  - **Claim pointer** The abstract states that "AlphaFold 3 predicts an interaction between the shared hydrophobic motif and the Rfx3 dimerization domain" and that "mutations in Rfx3 at the predicted interaction site disrupted association of Rfx3 with Foxn3 or Foxn4."
+  - **Evidence pointer** Abstract, structural prediction and mutagenesis; location not provided
+  - **Concern** AlphaFold 3 predictions are computational and require experimental validation. While the mutagenesis data support the predicted interface, the abstract does not specify which residues were mutated, how the mutations were designed, or whether they affect Rfx3 dimerization itself rather than the interaction with Foxn3 or Foxn4.
+  - **Why it matters** The structural model is a key part of the proposed mechanism. If the mutations disrupt Rfx3 folding or dimerization, the loss of interaction may be an indirect effect, weakening the claim of a specific binding interface.
+  - **Resolution test** Provide the specific Rfx3 mutations, show that they do not disrupt Rfx3 dimerization or stability, and ideally include a second independent method such as crosslinking or NMR to confirm the interaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, phenotypic description
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "additional displaced amacrine interneurons and retinal astrocytes" is ambiguous. It is unclear whether these are ectopic cells or increased numbers of normally positioned cells.
+  - **Required correction** Clarify whether the cells are ectopic in location, increased in number, or both, and specify the quantification method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, cilia description
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "ectopic primary cilia" is used, but it is not clear whether cilia are present on cell types that normally lack them or whether they are abnormally positioned on cells that normally have cilia.
+  - **Required correction** Define "ectopic" in this context, for example, cilia on cell types that normally do not have them, or cilia in abnormal subcellular locations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, CUT&RUN results
+  - **Evidence pointer** Abstract, CUT&RUN statement
+  - **Issue** The abstract states that many upregulated genes were bound by Foxn3 and Rfx3, but it does not indicate the overlap between the two sets of bound genes or whether Foxn3 and Rfx3 bind the same regulatory regions.
+  - **Required correction** Report the degree of overlap between Foxn3 and Rfx3 binding sites and whether they co-occupy the same enhancers or promoters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract, Foxj1 mention
+  - **Evidence pointer** Abstract, Foxj1 statement
+  - **Issue** The abstract mentions Foxj1 as a motile cilia transcription factor but does not explain why its upregulation in the retina, which has primary cilia, is relevant to the phenotype.
+  - **Required correction** Briefly explain the potential role of Foxj1 in the retinal context or clarify whether Foxj1 upregulation is a marker of cilia gene activation rather than a driver of motile cilia formation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The phenotypic quantification, transcriptomic validation, and functional assay details are essential to establish the core claims. R1-M4 is important but not strictly blocking if the interaction is confirmed by other means.
+- **Assessment against Nature-style criteria** Originality is high, as the proposed Foxn3-Rfx3 regulatory axis for cilia repression is not previously described. Scientific importance is potentially substantial for retinal development and cilia biology, but the current evidence is insufficient to confirm the significance. Interdisciplinary readership appeal is moderate, spanning developmental biology and cilia cell biology, but the abstract does not yet make the case accessible to a broad audience. Technical soundness cannot be fully assessed from the abstract alone, and several claims lack quantitative support. Readability for nonspecialists is adequate but could be improved by defining key terms and clarifying the phenotypic observations.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting model, but the lack of quantitative data, assay details, and validation experiments prevents a supportive recommendation. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that Foxn3 knockout leads to "additional displaced amacrine interneurons and retinal astrocytes" is unsupported without quantitative data.
+- The claim that "ectopic primary cilia" appear on bipolar and amacrine interneurons is unsupported without imaging and quantification.
+- The claim that "numerous genes linked to cilia structure or assembly were upregulated" is unsupported without gene lists, fold changes, and statistical thresholds.
+- The claim that the LXXLXWL motif is "required" for Rfx3 association and transcriptional repression or activation is unsupported without assay details and controls.
+- The AlphaFold 3 prediction and the mutagenesis validation are not fully assessable without residue-level details and control experiments.

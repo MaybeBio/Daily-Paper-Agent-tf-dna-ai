@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract claims that YXL-13, an acyl-homoserine lactone analog, inhibits quorum sensing in Pseudomonas aeruginosa by targeting both LasR and RhlR, based on phenotypic, transcriptional, biophysical, and computational evidence, and that this inhibition confers protection in a Caenorhabditis elegans infection model.
+- **Visible evidence base** Abstract text only; methods and results are referenced but not provided in detail
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, strain construction details, compound synthesis and purity data, raw data for qPCR, reporter assays, ITC, docking, and MD simulations, and infection model results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that YXL-13 may act as a dual inhibitor of LasR and RhlR in P. aeruginosa, with possible therapeutic relevance. However, the evidence described is insufficiently detailed to evaluate the rigor of the conclusions. The claim that YXL-13 targets both LasR and RhlR is supported only by indirect and computational methods as described, and the abstract does not provide quantitative results, controls, or statistical context. The study may be of interest to researchers in quorum sensing and antimicrobial resistance, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying quorum sensing inhibition as an anti-virulence strategy for P. aeruginosa, particularly those focused on LasR and RhlR as therapeutic targets. The work may also interest investigators working on AHL analogs and their structure-activity relationships, as well as those using C. elegans infection models for evaluating anti-infective compounds.
+- **Major strengths** The abstract addresses a clinically relevant problem, namely the prevalence of lasR mutants in clinical isolates, and proposes a dual-target strategy that could be more robust than single-target approaches. The use of multiple complementary methods, including phenotypic assays, transcriptional analysis, biophysical binding, and computational modeling, is commendable in principle. The inclusion of clinical isolates and an in vivo infection model strengthens the translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that YXL-13 targets both LasR and RhlR based on qPCR, QS reporter assays, ITC, molecular docking, and MD simulations.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not provide any quantitative data, such as binding affinities from ITC, IC50 values from reporter assays, or statistical significance for qPCR results. Without these numbers, it is impossible to assess the strength of the interaction or the magnitude of inhibition. Furthermore, molecular docking and MD simulations are predictive tools and cannot alone establish direct binding; they require experimental validation, which is only partially provided by ITC.
+  - **Why it matters** The central claim of the paper is the molecular mechanism of YXL-13 action. If the evidence for dual targeting is weak or indirect, the conclusion is not established. The abstract as written does not allow the reader to distinguish between a specific, high-affinity interaction and a weak, nonspecific effect.
+  - **Resolution test** Provide quantitative ITC data with binding constants and stoichiometry, dose-response curves for QS reporter inhibition with appropriate controls, and qPCR data with statistical analysis. Show that YXL-13 binds LasR and RhlR with physiologically relevant affinities and that inhibition is specific, not due to toxicity or general stress.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and controls
+  - **Claim pointer** The abstract claims that YXL-13 inhibits QS in DeltalasR, DeltarhlR, and DeltapqsR mutants and in clinical isolates PA1, PA2, and PA3.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not describe the genetic background of the mutants or the clinical isolates, nor does it specify which QS phenotypes were measured. It is unclear whether the observed inhibition in single mutants is due to direct targeting of the remaining receptor or to off-target effects. The absence of a negative control compound, a vehicle control, and a strain lacking all QS receptors is a significant gap.
+  - **Why it matters** Without appropriate controls, the observed effects could be due to nonspecific toxicity, membrane disruption, or interference with other regulatory pathways. The claim that YXL-13 specifically inhibits LasR and RhlR requires demonstration that the effect is lost in a strain lacking both receptors.
+  - **Resolution test** Include a double mutant (DeltalasR DeltarhlR) or a strain with both receptors inactivated, and show that YXL-13 has no effect on QS phenotypes in that background. Provide data on bacterial growth and viability to rule out growth inhibition as the cause of reduced QS.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance
+  - **Claim pointer** The abstract claims that YXL-13 provides protection to C. elegans against P. aeruginosa infection.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not provide any details on the C. elegans infection model, such as the bacterial strain used, the infection protocol, the survival curves, or the statistical significance of the protection. It is also unclear whether the protection is due to QS inhibition or to other effects, such as direct antimicrobial activity or modulation of the host immune response.
+  - **Why it matters** The in vivo data are important for translational relevance, but without details, the claim of protection cannot be evaluated. If the protection is not specifically linked to QS inhibition, the therapeutic rationale is weakened.
+  - **Resolution test** Provide survival curves with statistical analysis, include a control with a QS-deficient strain to show that protection is not additive, and measure bacterial load in the worms to confirm that YXL-13 does not act as a direct antimicrobial.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The phrase "the avirulent nature of rhlR mutants" is imprecise. RhlR mutants are not necessarily avirulent in all contexts, and this statement could be misleading.
+  - **Required correction** Rephrase to "the reduced virulence of rhlR mutants in certain models" or provide a citation to support the claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not mention the purity, stability, or solubility of YXL-13, which are relevant for interpreting the biological and biophysical data.
+  - **Required correction** Add a sentence in the methods or results describing compound purity and any relevant physicochemical properties.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** No statistical details are provided for any of the assays mentioned.
+  - **Required correction** Include measures of variability and statistical tests in the full manuscript, and summarize key statistics in the abstract where appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative binding data and the absence of a double-receptor mutant control mean that the central mechanistic claim is not supported by the evidence as presented. R1-M3 is not blocking but requires substantial additional detail to be convincing.
+- **Assessment against Nature-style criteria** Originality: The idea of dual targeting of LasR and RhlR is not entirely novel, but the specific compound and the combination of methods may offer a new contribution. Scientific importance: The topic is relevant to antimicrobial resistance, but the abstract does not demonstrate a significant advance over existing QS inhibitors. Interdisciplinary readership: The work spans microbiology, medicinal chemistry, and biophysics, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the described methods are appropriate in principle, but the lack of quantitative results is a major concern. Readability for nonspecialists: The abstract is dense and assumes familiarity with QS systems and specific assays, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful compound, but the central claims require substantial additional data and controls. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that YXL-13 targets both LasR and RhlR is unsupported without quantitative binding data and a double-mutant control.
+- The claim that YXL-13 provides protection in C. elegans is unsupported without survival data and statistical analysis.
+- The statement that rhlR mutants are avirulent is an overgeneralization and is not supported by the abstract.
+- The effectiveness of YXL-13 against clinical isolates is claimed but not quantified, and the genetic basis of these isolates is not described.

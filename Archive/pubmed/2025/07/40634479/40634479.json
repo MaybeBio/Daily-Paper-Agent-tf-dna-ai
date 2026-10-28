@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "40634479",
+    "doi": "10.1038/s41598-025-10272-y",
+    "title": "TRIM29 alleviates intervertebral disc degeneration through the PI3K/AKT/mTOR pathway."
+  },
+  "content": {
+    "abstract": "Intervertebral disc degeneration (IDD), a prevalent spinal condition linked to low back pain, has substantial genetic components, necessitating deeper understanding of its mechanisms. This study categorized nucleus pulposus cell (NPC) populations and identified co-expression gene modules linked to the adhesive NPCs (Adh-NPCs) subpopulation in IDD using hierarchical dynamic weighted gene co-expression network analysis (hdWGCNA). Six key genes were distinguished through least absolute shrinkage and selection operator (LASSO) algorithms combined with machine learning approaches and receiver operating characteristic (ROC) curve analysis. Integrated analysis of RNA sequencing data, coupled with validation through polymerase chain reaction (PCR), western blot analysis, and immunohistochemistry in both clinical samples and IDD animal models, revealed a significant correlation between tripartite motif containing 29 (TRIM29) expression and IDD progression. Finally, functional experiments demonstrated that TRIM29 regulates intervertebral disc homeostasis and attenuates inflammatory responses in NPCs via the Phosphoinositide 3-Kinase (PI3K)/Protein Kinase B (AKT)/Mechanistic Target of Rapamycin (mTOR) pathway, suggesting its potential role in IDD prevention and treatment. In summary, our findings suggest that TRIM29 could play a modulatory role in IDD, potentially influencing disease progression through the PI3K/AKT/mTOR pathway. While further validation is needed, these observations may contribute to a deeper understanding of IDD pathogenesis.",
+    "keywords": [
+      "Intervertebral disc degeneration",
+      "Nucleus pulposus",
+      "PI3K/AKT/mTOR pathway",
+      "TRIM29"
+    ],
+    "mesh_terms": [
+      "*Intervertebral Disc Degeneration/metabolism/genetics/pathology",
+      "*TOR Serine-Threonine Kinases/metabolism",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "Humans",
+      "Animals",
+      "*Signal Transduction",
+      "*Phosphatidylinositol 3-Kinases/metabolism",
+      "Nucleus Pulposus/metabolism/pathology",
+      "*Transcription Factors/metabolism/genetics",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "Male",
+      "Female",
+      "Disease Models, Animal",
+      "Rats"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Qinghua",
+        "Feng, Junfei",
+        "Xu, Hongyuan",
+        "Kang, Tao",
+        "Wei, Qingjun",
+        "Jiang, Hua"
+      ],
+      "short_names": [
+        "Yang Q",
+        "Feng J",
+        "Xu H",
+        "Kang T",
+        "Wei Q",
+        "Jiang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, 530021, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, 530021, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China. jianghua@gxmu.edu.cn.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, 530021, Guangxi Zhuang Autonomous Region, China. jianghua@gxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Qinghua",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China.",
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, 530021, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Junfei",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hongyuan",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Tao",
+        "short_name": "Kang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Qingjun",
+        "short_name": "Wei Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, 530021, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hua",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong Road, Nanning, 530021, Guangxi Zhuang Autonomous Region, China. jianghua@gxmu.edu.cn.",
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, 530021, Guangxi Zhuang Autonomous Region, China. jianghua@gxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/10 00:35",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42691205",
+      "42428568",
+      "41601651",
+      "41540691"
+    ],
+    "refs": [
+      "39738207",
+      "39686202",
+      "39001134",
+      "38835174",
+      "38802882",
+      "38642570",
+      "38403470",
+      "38336099",
+      "38204990",
+      "38203719",
+      "38167807",
+      "38017517",
+      "37939919",
+      "37231261",
+      "37090223",
+      "37021569",
+      "36769267",
+      "36702892",
+      "36614124",
+      "36613651",
+      "35743056",
+      "35600980",
+      "35534553",
+      "35486489",
+      "35352511",
+      "35013104",
+      "34919076",
+      "34845360",
+      "34755882",
+      "34531509",
+      "34239132",
+      "34115979",
+      "33923045",
+      "33514693",
+      "32853910",
+      "32640423",
+      "32211593",
+      "31593056",
+      "31127184",
+      "30879893",
+      "30813948",
+      "30785069",
+      "30566565",
+      "30416196",
+      "30089861",
+      "29484626",
+      "28394321",
+      "28130015",
+      "28118948",
+      "27578176",
+      "27081037",
+      "26455958",
+      "26095369",
+      "25428369",
+      "24950909",
+      "24864129",
+      "24469230",
+      "22455463",
+      "21979307",
+      "21463657",
+      "16595436",
+      "11568697",
+      "9847135",
+      "2363069"
+    ],
+    "similar": [
+      "40634479",
+      "40262939",
+      "38636690",
+      "41004953",
+      "40139579",
+      "38495003",
+      "41380858",
+      "39682777",
+      "34450323",
+      "36401729",
+      "30387830",
+      "34554926",
+      "31663655",
+      "38877413",
+      "32712400",
+      "40341079",
+      "40074310",
+      "33545632",
+      "37075678",
+      "36307202",
+      "41134377",
+      "33459443",
+      "39067404",
+      "37169069",
+      "39627301",
+      "33846806",
+      "38640717",
+      "38301412",
+      "40770348",
+      "32271399",
+      "41152705",
+      "32901877",
+      "41443102",
+      "36120596",
+      "30459239",
+      "39192377",
+      "29710470",
+      "40130837",
+      "37716491",
+      "41291815",
+      "38740166",
+      "27207584",
+      "34879291",
+      "41250222",
+      "38212432",
+      "32843678",
+      "28715865",
+      "31257459",
+      "35491814",
+      "36193577",
+      "33455530",
+      "31997395",
+      "41495454",
+      "33815660",
+      "41093224",
+      "35578687",
+      "40096894",
+      "33665661",
+      "39250820",
+      "26872369",
+      "40713978",
+      "40700932",
+      "28944851",
+      "40537840",
+      "35762319",
+      "38853649",
+      "38728878",
+      "38348966",
+      "34146182",
+      "33677390",
+      "38853707",
+      "33434630",
+      "35085541",
+      "29700214",
+      "36746221",
+      "41275203",
+      "38773639",
+      "41177830",
+      "31383790",
+      "33904383",
+      "33090383",
+      "36068615",
+      "39842659",
+      "36693558",
+      "32320383",
+      "38305591",
+      "39322069",
+      "40181390",
+      "28719035",
+      "27769935",
+      "39483476",
+      "38630169",
+      "39701783",
+      "32143617",
+      "33135363",
+      "33159017",
+      "38823438",
+      "31546235",
+      "33226960",
+      "37287061"
+    ],
+    "review": [
+      "40634479",
+      "36193577"
+    ],
+    "pmc": [
+      "12241509"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-10272-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40634479/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

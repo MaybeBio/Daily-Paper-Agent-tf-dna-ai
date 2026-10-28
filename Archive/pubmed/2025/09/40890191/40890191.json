@@ -1,0 +1,474 @@
+{
+  "identity": {
+    "pmid": "40890191",
+    "doi": "10.1038/s41467-025-63659-w",
+    "title": "AEBP1 drives fibroblast-mediated T cell dysfunction in tumors."
+  },
+  "content": {
+    "abstract": "T cell dysfunction enables tumor immune evasion, understanding its mechanism is crucial for improving immunotherapy. Here we show, by RNA-sequencing analysis of human colon adenocarcinoma and triple-negative breast cancer tissues, that expression of Adipocyte Enhancer-Binding Protein 1 (AEBP1) positively correlates with T cell dysfunction and indicative of unfavorable patient outcomes. Subsequent single-cell RNA sequencing identifies cancer-associated fibroblasts (CAF) as the primary AEBP1 source. Fibroblast-specific AEBP1 deletion in mice enhances T cell cytotoxicity and suppresses tumor growth. Mechanistically, autocrine AEBP1 binds CKAP4 on CAFs, activating AKT/PD-L1 signaling to drive T cell dysfunction. By molecular-docking-based virtual screening we identify Chem-0199, a drug that disrupts the interaction between AEBP1 and CKAP4, thereby enhancing antitumor immunity. Both genetic and pharmacological AEBP1 inhibition synergize with immune checkpoint blockade in syngeneic models. Our study establishes AEBP1 as a key regulator of CAF-mediated T cell dysfunction and a therapeutic target.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*T-Lymphocytes/immunology/metabolism",
+      "Mice",
+      "*Cancer-Associated Fibroblasts/metabolism/immunology",
+      "Female",
+      "Cell Line, Tumor",
+      "*Triple Negative Breast Neoplasms/immunology/genetics/pathology",
+      "Gene Expression Regulation, Neoplastic",
+      "*Colonic Neoplasms/immunology/genetics/pathology",
+      "Mice, Knockout",
+      "Mice, Inbred C57BL",
+      "Signal Transduction",
+      "Carboxypeptidases",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaoyu",
+        "Li, Jie",
+        "Song, Daqiang",
+        "Wu, Yushen",
+        "Liu, Jiazhou",
+        "Yi, Ziying",
+        "Sun, Jiazheng",
+        "Huang, Jiefeng",
+        "Wu, Linling",
+        "Zhang, Xiang",
+        "Wan, Jingyuan",
+        "Zhang, Li",
+        "Li, Chong",
+        "Li, Fan",
+        "Wei, Yuxian",
+        "Zhu, Yong",
+        "Du, Huimin",
+        "Ren, Guosheng",
+        "Li, Hongzhong"
+      ],
+      "short_names": [
+        "Wang X",
+        "Li J",
+        "Song D",
+        "Wu Y",
+        "Liu J",
+        "Yi Z",
+        "Sun J",
+        "Huang J",
+        "Wu L",
+        "Zhang X",
+        "Wan J",
+        "Zhang L",
+        "Li C",
+        "Li F",
+        "Wei Y",
+        "Zhu Y",
+        "Du H",
+        "Ren G",
+        "Li H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6416-8967",
+        "ORCID: 0000-0003-1136-5235"
+      ],
+      "affiliations": [
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Dermatology, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen, Guangdong, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Oncology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast Surgery, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen, Guangdong, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Pharmacology, Chongqing Medical University, Chongqing, China.",
+        "Department of Pathophysiology, Chongqing Medical University, Chongqing, China.",
+        "Department of Oncology, The Affiliated Dazu's Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Research Institute of Life Sciences, Chongqing Medical University, Chongqing, China.",
+        "Department of Oncology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China. rengs726@126.com.",
+        "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China. lihongzhong@cqmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaoyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jie",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+          "Department of Dermatology, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Song, Daqiang",
+        "short_name": "Song D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yushen",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+          "Department of Oncology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiazhou",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Ziying",
+        "short_name": "Yi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jiazheng",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jiefeng",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+          "Department of Breast Surgery, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Linling",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Jingyuan",
+        "short_name": "Wan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Li",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chong",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Affiliated Dazu's Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fan",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yuxian",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yong",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Life Sciences, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Du, Huimin",
+        "short_name": "Du H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Guosheng",
+        "short_name": "Ren G",
+        "identifiers": [
+          "0000-0002-6416-8967"
+        ],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China. rengs726@126.com."
+        ]
+      },
+      {
+        "full_name": "Li, Hongzhong",
+        "short_name": "Li H",
+        "identifiers": [
+          "0000-0003-1136-5235"
+        ],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China. lihongzhong@cqmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Sep 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 00:44",
+    "fetched_at": "2026-10-01 01:04:25"
+  },
+  "links": {
+    "cites": [
+      "42360409",
+      "42035063",
+      "41951338",
+      "41926670",
+      "41898765",
+      "41624867",
+      "41373631",
+      "41149482"
+    ],
+    "refs": [
+      "38469899",
+      "38237535",
+      "38157863",
+      "38001512",
+      "37917183",
+      "37686580",
+      "37535729",
+      "37199594",
+      "37130456",
+      "37059068",
+      "37059066",
+      "37057110",
+      "36944905",
+      "36272973",
+      "35867802",
+      "35732215",
+      "35402584",
+      "35120600",
+      "34976204",
+      "34938806",
+      "34671013",
+      "34635121",
+      "33413496",
+      "33139907",
+      "32565808",
+      "32466724",
+      "32393771",
+      "31735289",
+      "31601918",
+      "31219650",
+      "30127393",
+      "29634943",
+      "29562194",
+      "28467889",
+      "27642729",
+      "25818339",
+      "11438679"
+    ],
+    "similar": [
+      "40890191",
+      "41373631",
+      "34938806",
+      "31219650",
+      "35832090",
+      "33391492",
+      "31864713",
+      "40976049",
+      "39521917",
+      "41024581",
+      "39545420",
+      "37648651",
+      "40702555",
+      "21687917",
+      "30097586",
+      "32086986",
+      "17299101",
+      "38684171",
+      "24201813",
+      "38237535",
+      "37776122",
+      "41004339",
+      "33224311",
+      "27169467",
+      "40702186",
+      "39292817",
+      "22995915",
+      "33537094",
+      "40939259",
+      "31601918",
+      "40609836",
+      "38657094",
+      "39137404",
+      "39984646",
+      "40517736",
+      "37024441",
+      "40145099",
+      "16461908",
+      "39358837",
+      "15654748",
+      "37565899",
+      "36738398",
+      "39828123",
+      "40016223",
+      "32245950",
+      "16307171",
+      "35749591",
+      "34365463",
+      "39116492",
+      "35392977",
+      "40598415",
+      "41290930",
+      "41171702",
+      "40447617",
+      "33692094",
+      "39918417",
+      "22114697",
+      "40225580",
+      "33504557",
+      "36352396",
+      "36532015",
+      "33676425",
+      "40109332",
+      "34373835",
+      "32122909",
+      "40056038",
+      "32972039",
+      "40022222",
+      "31473251",
+      "41083534",
+      "32892748",
+      "41053808",
+      "39181134",
+      "37480115",
+      "38687247",
+      "40079115",
+      "41155402",
+      "41293150",
+      "37957937",
+      "16538615",
+      "39670965",
+      "39190880",
+      "29845474",
+      "41128468",
+      "40217291",
+      "41075009",
+      "40633212",
+      "32557854",
+      "40054628",
+      "33037138",
+      "29606302",
+      "38169303",
+      "22723309",
+      "41138368",
+      "38599309",
+      "40158165",
+      "27468688",
+      "39707456",
+      "37686580",
+      "30111819"
+    ],
+    "review": [
+      "40890191"
+    ],
+    "pmc": [
+      "12402166"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-63659-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40890191/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-335",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

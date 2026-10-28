@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose GraphTGI, a graph attention-based autoencoder model, to predict transcription factor (TF) target gene interactions by formulating the task as a link prediction problem on a knowledge graph. The model integrates known TF target gene interaction network information with sequential and chemical gene features. The authors claim state of the art performance with an average AUC of 0.8864 +/- 0.0057 in 5 fold cross validation on a real dataset, and position the work as the first attempt to learn patterns from the known TF target gene interaction network for this prediction task.
+- **Visible evidence base** Abstract text only, including the stated AUC value and standard deviation, the model architecture description, and the availability statement for code and data
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset description, baseline comparisons, implementation details, hyperparameter settings, and any statistical significance testing
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful application of graph attention networks to TF target gene interaction prediction. The core idea of framing the problem as link prediction on a known interaction network is reasonable and aligns with current trends in computational biology. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness, the validity of the performance claims, or the novelty relative to existing methods. The single reported metric, AUC, without baseline comparisons or additional evaluation measures, does not establish the case for the model's effectiveness. The claim of being the first attempt in this specific formulation requires careful verification against the broader literature, which cannot be done from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, computational genomics, and network biology would be interested, as the method offers a potential tool for prioritizing TF target gene interactions, which are fundamental to understanding gene regulatory networks. The approach may also appeal to those working on graph neural network applications in bioinformatics, given the methodological focus on attention based encoders and link prediction.
+- **Major strengths** The problem is well motivated, as TF target gene interactions are biologically important and experimentally limited. The use of a graph attention based autoencoder is a modern and appropriate methodological choice for link prediction on a knowledge graph. The authors provide code and data, which supports reproducibility, a positive feature for the community.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model yields outstanding performance with an average AUC value of 0.8864 +/- 0.0057 in the 5 fold cross validation.
+  - **Evidence pointer** Abstract, Results section
+  - **Concern** The abstract reports a single performance metric, AUC, from 5 fold cross validation, but provides no comparison against baseline methods, no alternative evaluation metrics such as precision, recall, or F1 score, and no details on the dataset size, composition, or the nature of negative samples. Without these, the reported AUC cannot be interpreted as evidence of outstanding performance, as the value may be inflated by dataset characteristics such as class imbalance or easy negative examples.
+  - **Why it matters** The central claim of the paper is that GraphTGI effectively predicts TF target gene interactions. A single AUC value without context does not demonstrate superiority over existing approaches or even basic heuristics. The scientific case for the method depends on rigorous comparative evaluation, which is not visible in the abstract.
+  - **Resolution test** Provide in the full manuscript a comparison with at least two relevant baseline methods, report multiple performance metrics, describe the dataset construction including negative sampling strategy, and include statistical significance tests for the performance differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** To the best of our knowledge, the proposed model is the first attempt to solve this problem by learning patterns from the known TF target gene interaction network.
+  - **Evidence pointer** Abstract, Motivation section
+  - **Concern** The claim of being the first attempt is a strong novelty statement. The abstract does not provide any literature review or comparison to prior work that may have used graph based or network based methods for TF target gene interaction prediction. Without evidence of a thorough search of existing methods, this claim is unverifiable and potentially overstated.
+  - **Why it matters** Novelty is a key criterion for publication in a high impact journal. If similar approaches exist, the contribution of the paper is diminished. The claim must be substantiated with a clear review of prior art in the full manuscript.
+  - **Resolution test** In the full manuscript, include a comprehensive literature review section that explicitly discusses prior computational methods for TF target gene interaction prediction, including any graph based or link prediction approaches, and justify the novelty claim with specific differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** Python code and the datasets used in our studies are made available at https://github.com/YanghanWu/GraphTGI.
+  - **Evidence pointer** Abstract, Availability section
+  - **Concern** The abstract states that code and data are available, but provides no details on the license, documentation, or the exact contents of the repository. Without verification of the repository's completeness and usability, the reproducibility claim cannot be assessed.
+  - **Why it matters** Reproducibility is essential for the scientific community to build on the work. If the code is not well documented or the data is not fully described, other researchers cannot validate or extend the results.
+  - **Resolution test** In the full manuscript, describe the repository structure, provide a clear license, and include instructions for running the code and reproducing the reported results. The repository should be checked for completeness during the review process.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The abstract describes the model as composed of a graph attention based encoder and a bilinear decoder, but does not explain how the sequential and chemical gene characters are integrated into the model. This omission makes it difficult to understand the methodological contribution.
+  - **Required correction** In the full manuscript, clearly describe the feature engineering and how these features are incorporated into the graph attention mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The abstract refers to a real dataset but provides no information on its source, size, or the number of TF target gene interactions included. This lack of detail limits the reader's ability to gauge the scope of the evaluation.
+  - **Required correction** In the full manuscript, provide a detailed description of the dataset, including its origin, the number of TFs, target genes, and interactions, and any preprocessing steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance reporting
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The AUC value is reported with a standard deviation, but no confidence intervals or statistical tests are mentioned. This is insufficient to assess the stability of the performance.
+  - **Required correction** In the full manuscript, report confidence intervals for the AUC and perform statistical significance tests against baseline methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The claim of being the first to use a graph attention model for TF target gene interaction prediction is plausible but not substantiated in the abstract. The novelty cannot be confirmed without a literature review.
+  - Scientific importance: The problem is important for understanding gene regulation, and a reliable prediction method would be valuable. However, the abstract does not demonstrate that the method advances the field beyond existing tools.
+  - Interdisciplinary readership: The work bridges machine learning and genomics, which has broad appeal. The abstract is accessible to a general scientific audience, though technical details are limited.
+  - Technical soundness: The methodological description is too brief to assess. The single metric and lack of baselines undermine confidence in the technical claims.
+  - Readability for nonspecialists: The abstract is clear and concise, with minimal jargon, making it accessible to a broad readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable idea but lacks the necessary comparative evaluation, dataset details, and novelty justification. The case would be strengthened if the full manuscript addresses the major concerns, particularly the baseline comparisons and the novelty claim.
+
+## Risk / unsupported claims
+- The claim of outstanding performance based on a single AUC value is unsupported without baseline comparisons and additional metrics.
+- The claim of being the first attempt to learn patterns from the known TF target gene interaction network is unverifiable from the abstract and requires a thorough literature review.
+- The generalizability of the model to large scale prediction, as anticipated in the abstract, is not supported by any evidence of scalability or computational efficiency.

@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "42022266",
+    "doi": "10.2147/JIR.S573372",
+    "title": "Integrated Bioinformatic Identification and Experimental Validation Reveal That Aging Exacerbates ARDS Through MAPK14/ADM/MAPK8 Axis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To elucidate the molecular mechanisms by which aging exacerbates the severity of the Acute Respiratory Distress Syndrome (ARDS), with a specific focus on identifying and validating a novel signaling axis involving MAPK14, ADM, and MAPK8. METHODS: We performed an integrated analysis of ARDS gene expression data, focusing on aging and immune-related genes. Our approach included functional enrichment, machine learning, transcription factor prediction, and immune infiltration analysis. Computational drug repositioning identified potential therapeutics. Findings were validated in an LPS-induced murine ARDS model using young and aged mice, with assessments via qRT-PCR, H&E staining, BALF cell counts, and cytokine quantification. RESULTS: Our analysis revealed that MAPK8 was significantly downregulated in ARDS and exhibited a strong negative correlation with IL-10 (r = -0.63). Conversely, MAPK14 and ADM were upregulated and demonstrated a positive association with pro-inflammatory M1 macrophages and gammadelta T cells. A robust positive correlation was observed between MAPK14 and the transcription factor CEBPA (r = 0.86). Co-enrichment analysis of ADM and MAPK14 at the cisbp__M0666 motif suggested a potential co-regulatory mechanism. Among the candidate therapeutics identified through drug repositioning, fostamatinib emerged as a promising agent to counteract the ARDS-associated expression signature. The in vivo experiments corroborated our computational findings, demonstrating that aging significantly exacerbated ARDS severity. Aged ARDS mice exhibited more severe lung injury, increased neutrophil infiltration, and elevated levels of IL-1beta and IL-6. Furthermore, the upregulation of MAPK14 and ADM was more pronounced in aged mice compared to their younger counterparts (P < 0.05), while MAPK8 downregulation was similarly intensified with aging. CONCLUSION: This integrated study reveals a novel MAPK14/ADM/MAPK8 signaling axis as a key mechanism of age-related inflammatory dysregulation in ARDS. Aging amplifies this pro-inflammatory pathway, worsening tissue damage. Targeting this axis may represent a promising therapeutic strategy for elderly ARDS patients.",
+    "keywords": [
+      "ARDS",
+      "MAPK signaling pathway",
+      "bioinformatics",
+      "biomarker",
+      "immune deconvolution",
+      "inflammaging"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Qing",
+        "Yin, Cheng",
+        "Fan, Long",
+        "Li, Daxian",
+        "Wang, Tianlong"
+      ],
+      "short_names": [
+        "Liu Q",
+        "Yin C",
+        "Fan L",
+        "Li D",
+        "Wang T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1327-5866",
+        "ORCID: 0000-0001-6291-2505"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Qing",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yin, Cheng",
+        "short_name": "Yin C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Fan, Long",
+        "short_name": "Fan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Daxian",
+        "short_name": "Li D",
+        "identifiers": [
+          "0000-0003-1327-5866"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tianlong",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0001-6291-2505"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/23 06:32",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41551014",
+      "41131549",
+      "41096951",
+      "39945893",
+      "39903649",
+      "39772747",
+      "39625722",
+      "39500353",
+      "39394248",
+      "39388641",
+      "39192302",
+      "39112475",
+      "38956604",
+      "38916962",
+      "38891025",
+      "38597420",
+      "38459711",
+      "38306669",
+      "38287646",
+      "38267705",
+      "36864354",
+      "35563796",
+      "35263587",
+      "34776955",
+      "34542845",
+      "33676343",
+      "33504982",
+      "33493287",
+      "33249191",
+      "33200824",
+      "33195353",
+      "32997738",
+      "32592501",
+      "31504234",
+      "30090646",
+      "29712904",
+      "29223012",
+      "28991892",
+      "28371013",
+      "28230051",
+      "21531958",
+      "18000597",
+      "17301036"
+    ],
+    "similar": [
+      "42022266",
+      "40634559",
+      "38440722",
+      "41221285",
+      "40946659",
+      "38558817",
+      "42398170",
+      "40916281",
+      "37805755",
+      "41039310",
+      "37833759",
+      "41318541",
+      "42703773",
+      "39586719",
+      "42558367",
+      "41799700",
+      "39191344",
+      "40055592",
+      "42100482",
+      "30914086",
+      "37308229",
+      "35844622",
+      "37301835",
+      "39427197",
+      "42305536",
+      "40440957",
+      "42448063",
+      "42329827",
+      "42421348",
+      "41142297",
+      "41822519",
+      "36570798",
+      "42643640",
+      "39636495",
+      "42040311",
+      "38441793",
+      "40850661",
+      "41913790",
+      "42292468",
+      "41895505",
+      "42402174",
+      "34346000",
+      "40209319",
+      "42474670",
+      "40892227",
+      "41720012",
+      "41298226",
+      "41580845",
+      "34517257",
+      "38775335",
+      "42072050",
+      "40406492",
+      "36377449",
+      "41024268",
+      "41716413",
+      "42103804",
+      "41703488",
+      "42669243",
+      "39604886",
+      "41804768",
+      "39854144",
+      "40375981",
+      "42565562",
+      "42107160",
+      "41680950",
+      "39170609",
+      "42643537",
+      "38649840",
+      "35086457",
+      "41501355",
+      "34484184",
+      "41044520",
+      "42404880",
+      "40169352",
+      "42292668",
+      "42597971",
+      "42492262",
+      "38656728",
+      "41621384",
+      "40523519",
+      "42123445",
+      "41049291",
+      "37822934",
+      "40374866",
+      "42449128",
+      "42247642",
+      "41932672",
+      "42502316",
+      "40261442",
+      "38649061",
+      "42208328",
+      "36870074",
+      "42083524",
+      "41759266",
+      "41052072",
+      "41997441",
+      "42410766",
+      "31476692",
+      "33494935",
+      "41436831"
+    ],
+    "review": [
+      "42022266"
+    ],
+    "pmc": [
+      "13098559"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42022266/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-889",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S573372",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

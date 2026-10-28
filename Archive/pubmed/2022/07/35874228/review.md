@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, materials and methods) as provided.
+- **Assessment boundary** Scientific content, technical soundness, structural interpretation, and consistency of claims with the presented evidence. No assessment of formatting, grammar, or journal policy.
+- **Shared manuscript claim summary** The authors report a 1.85 Å crystal structure of a 14-3-3ε:FOXO3a(pS253) phosphopeptide complex, supported by fluorescence polarization, isothermal titration calorimetry, small-angle X-ray scattering, and molecular dynamics simulations. They claim that FOXO3a(pS253) binds 14-3-3ε in a distinct mode compared to FOXO1(pS256) bound to 14-3-3σ, particularly in the positions of the −3 and −4 arginine residues, and that this provides a framework for isoform-specific inhibitor design.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion, Conclusions, Materials and Methods. Referenced figures and tables are mentioned but not provided in the supplied text. Supplementary material is referenced but not supplied.
+- **Missing materials affecting confidence** Figures 1–4, Tables 1–2, Supplementary Figures S1–S3, Supplementary Tables S1–S2, and the deposited PDB entry (7V9B) are not available for inspection. This limits verification of structural claims, SAXS fits, ITC data, and MD trajectory analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable structural characterization of a 14-3-3ε:FOXO3a(pS253) complex, with a plausible claim of isoform-specific binding differences. The combination of biophysical and structural methods is appropriate. However, the central claim of a distinct binding mode rests on a single crystal structure and a comparison with one other complex, and the absence of the actual figures and tables prevents full verification. The manuscript is technically competent but the novelty and general significance are moderate, and the case for isoform-specific inhibitor design is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying 14-3-3 protein interactions, FOXO transcription factor regulation, and structure-based drug design targeting protein–protein interactions. The work may also interest those investigating isoform-specific functions of 14-3-3 proteins in cancer biology.
+- **Major strengths** 1. Multi-method approach (FP, ITC, SAXS, X-ray crystallography, MD) provides complementary evidence for binding affinity and structure. 2. High-resolution crystal structure (1.85 Å) with good refinement statistics reported. 3. Direct structural comparison between two highly similar FOXO phosphopeptides bound to different 14-3-3 isoforms is a useful contribution. 4. MD simulations support the stability of the observed interactions.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency for central claim  
+    - **Claim pointer** The authors claim that FOXO3a(pS253) binds 14-3-3ε in a "distinct mode" compared to FOXO1(pS256) bound to 14-3-3σ, specifically in the positions of the −3 and −4 arginine residues.  
+    - **Evidence pointer** Results and Discussion section "Structural Differences between the FOXO3apS253:14-3-3ε and FOXO1pS253:14-3-3σ Complexes"; Figure 3 (not provided)  
+    - **Concern** The claim of a distinct binding mode is based on a comparison of two different phosphopeptides bound to two different 14-3-3 isoforms. The observed differences could be due to the single amino acid difference at the −1 position (Val in FOXO3a vs Ala in FOXO1), the different isoforms, or crystal packing effects. Without a structure of FOXO3a(pS253) bound to 14-3-3σ or FOXO1(pS256) bound to 14-3-3ε, the attribution of the differences to isoform-specific effects is not justified.  
+    - **Why it matters** The central conclusion of the paper, and its relevance for isoform-specific inhibitor design, depends on isolating the cause of the observed structural differences. The current experimental design cannot distinguish between peptide-sequence effects and isoform-specific effects.  
+    - **Resolution test** Provide a structure of FOXO3a(pS253) bound to 14-3-3σ or FOXO1(pS256) bound to 14-3-3ε, or perform systematic mutagenesis of the −1 position in both peptides to show that the observed differences are isoform-dependent rather than sequence-dependent.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Functional significance of structural differences  
+    - **Claim pointer** The authors state that the structural differences "provide a framework for the rational design of isoform-specific FOXO/14-3-3 protein–protein interaction inhibitors for therapy."  
+    - **Evidence pointer** Abstract; Conclusions  
+    - **Concern** The manuscript does not provide any functional data demonstrating that the observed structural differences translate into differential binding affinity or selectivity between 14-3-3 isoforms. The measured Kd values (5.4–6.7 μM) are for 14-3-3ε only, and no comparative binding data for other isoforms are presented.  
+    - **Why it matters** The therapeutic relevance of the work depends on demonstrating that isoform-specific inhibition is achievable. Without comparative binding data or functional assays, the claim of a framework for isoform-specific inhibitor design is speculative.  
+    - **Resolution test** Measure binding affinities of FOXO3a(pS253) and FOXO1(pS256) peptides against multiple 14-3-3 isoforms, or perform mutagenesis of the key residues identified in the structure to show differential effects on binding across isoforms.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Verification of structural interpretation  
+    - **Claim pointer** The authors describe specific interactions, including a salt bridge between FOXO3aR249 and 14-3-3εGlu183, and an intramolecular salt bridge between FOXO3aR249 and the pS253 phosphate.  
+    - **Evidence pointer** Results and Discussion section "Overall Structure of the 14-3-3ε and FOXO3apS253 Phosphopeptide Complex"; Table S2 (not provided)  
+    - **Concern** The actual electron density maps, interaction distances, and B-factors are not shown. The description of salt bridges and hydrogen bonds cannot be verified without the structural figures or a validation report.  
+    - **Why it matters** The structural interpretation is the core of the manuscript. Unverifiable interaction details weaken confidence in the conclusions.  
+    - **Resolution test** Provide the structural figures with electron density maps, a table of interaction distances, and a validation report (e.g., MolProbity or wwPDB validation) for the deposited structure.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity of nomenclature  
+    - **Affected element** Abstract and Introduction  
+    - **Evidence pointer** Abstract; Introduction  
+    - **Issue** The manuscript uses "FOXO3a" and "FOXO3" interchangeably. The official gene name is FOXO3, and FOXO3a is an alias. Consistent use of one name would improve clarity.  
+    - **Required correction** Use "FOXO3" throughout, with a note that FOXO3a is an alternative name.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Completeness of methods  
+    - **Affected element** Materials and Methods, SAXS section  
+    - **Evidence pointer** Materials and Methods, "SAXS Data Collection and Analysis"  
+    - **Issue** The SAXS section does not report the concentration range, buffer conditions for the complex, or the method for determining the molecular mass. The Guinier plot quality is mentioned but no Rg or Dmax values for the complex are given in the text.  
+    - **Required correction** Add the missing experimental details and report the SAXS parameters for the complex in the main text or Table 1.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Statistical reporting  
+    - **Affected element** Results and Discussion, FP and ITC sections  
+    - **Evidence pointer** Results and Discussion, "Binding of FOXO3a Phosphopeptide to 14-3-3ε"  
+    - **Issue** The Kd values are reported with standard deviations, but the number of replicates is not stated.  
+    - **Required correction** State the number of independent experiments for both FP and ITC measurements.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Interpretation of MD data  
+    - **Affected element** Results and Discussion, MD section  
+    - **Evidence pointer** Results and Discussion, "MD Simulation Studies of FOXO3apS253:14-3-3ε and FOXO1pS256:14-3-3σ Complexes"  
+    - **Issue** The MD simulations are described as "100 ns" but no convergence analysis or error estimates are provided. The occupancy values are given as percentages, but the criteria for defining a hydrogen bond are not stated.  
+    - **Required correction** Provide the hydrogen bond criteria, and report whether the simulations reached convergence (e.g., RMSD plateau analysis).  
+- **Technical failings that need to be addressed before the case is established**  
+  - The central claim of isoform-specific binding is not supported by the experimental design, which compares two different peptides on two different isoforms.  
+  - No comparative binding data across 14-3-3 isoforms are provided.  
+  - Structural figures and tables are not available for verification.  
+  - The functional significance of the observed structural differences is not demonstrated.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The structure of a 14-3-3ε:FOXO3a(pS253) complex is new, but the overall finding of phosphopeptide binding to a conserved groove is not conceptually novel. The claim of isoform-specific differences is interesting but not fully proven.  
+  - **Scientific importance** Moderate. The work adds to the understanding of 14-3-3 isoform selectivity, but the therapeutic implications are speculative without functional validation.  
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to structural biologists and researchers in 14-3-3 and FOXO signaling. The broader cancer biology community may find the therapeutic claims relevant, but the evidence is not yet compelling.  
+  - **Technical soundness** Generally sound in execution, but the experimental design does not fully support the central conclusion. The absence of figures and tables limits verification.  
+  - **Readability for nonspecialists** The manuscript is written in a technical style appropriate for a specialist audience. The abstract is clear, but the results section assumes familiarity with structural biology methods.  
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has merit, but the central claim of isoform-specific binding requires additional experiments (e.g., cross-binding studies, mutagenesis) and the structural evidence must be made available for verification. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that the observed structural differences are isoform-specific is unsupported, as the comparison confounds peptide sequence and isoform identity.
+- The claim that the work "provides a framework for the rational design of isoform-specific inhibitors" is unsupported without functional or selectivity data.
+- The statement that "MD simulation studies support the structural changes" is only weakly supported, as the simulation details and convergence criteria are not fully described.
+- The assertion that the TAMRA label does not affect binding is based on SAXS data, but the SAXS parameters for the complex are not reported in the text.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.22.529579",
+  "title": "The contributions of DNA accessibility and transcription factor occupancy to enhancer activity during cellular differentiation",
+  "authors": "Trevor Long; Tapas Bhattacharyya; Andrea Repele; Madison Naylor; Sunil Nooti; Shawn Krueger; Manu",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-23",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过ATAC-Seq和ChIP-Seq研究分化过程中增强子DNA可及性与TF占据对基因表达的贡献，虽涉及TF-DNA结合但主要依赖实验测序，缺乏AI或物理模拟方法，与课题方法轴不匹配。",
+  "abstract": "The upregulation of gene expression by enhancers depends upon the interplay between the binding of sequence-specific transcription factors (TFs) and DNA accessibility. DNA accessibility is thought to limit the ability of TFs to bind to their sites, while TFs can increase accessibility to recruit additional factors that upregulate gene expression. Given this interplay, the causative regulatory events underlying the modulation of gene expression during cellular differentiation remain unknown for the vast majority of genes. We investigated the binding-site resolution dynamics of DNA accessibility and the expression dynamics of the enhancers of an important neutrophil gene, Cebpa , during macrophage-neutrophil differentiation. Reporter genes were integrated in a site-specific manner in PUER cells, which are progenitors that can be differentiated into neutrophils or macrophages in vitro by activating the pan-leukocyte TF PU.1. Time series data show that two enhancers upregulate reporter expression during the first 48 hours of neutrophil differentiation. Surprisingly, there is little or no increase in the total accessibility, measured by ATAC-Seq, of the enhancers during the same time period. Conversely, total accessibility peaks 96 hrs after PU.1 activation—consistent with its role as a pioneer—but the enhancers do not upregulate gene expression. Combining deeply sequenced ATAC-Seq data with a new bias-correction method allowed the profiling of acces-sibility at single-nucleotide resolution and revealed protected regions in the enhancers that match all previously characterized TF binding sites and ChIP-Seq data. Although the accessibility of most positions does not change during early differentiation, that of positions neighboring TF binding sites, an indicator of TF occupancy, did in-crease significantly. The localized accessibility changes are limited to nucleotides neighboring C/EBP-family TF binding sites, showing that the upregulation of enhancer activity during early differentiation is driven by C/EBP-family TF binding. These results show that increasing the total accessibility of enhancers is not sufficient for upregulating their activity and other events such as TF binding are necessary for upregulation. Also, TF binding can cause upregulation without a perceptible increase in total accessibility. Finally, this study demonstrates the feasibility of comprehensively mapping individual TF binding sites as footprints using high coverage ATAC-Seq and inferring the sequence of events in gene regulation by combining with time-series gene expression data.",
+  "abstract_zh": "增强子对基因表达的上调依赖于序列特异性转录因子（TFs）结合与DNA可及性之间的相互作用。DNA可及性被认为限制了TFs与其位点结合的能力，而TFs则可增加可及性以招募额外因子来上调基因表达。鉴于这种相互作用，在细胞分化过程中，绝大多数基因表达调控的因果性调控事件仍属未知。我们研究了在巨噬细胞-中性粒细胞分化过程中，一个重要的中性粒细胞基因Cebpa的增强子的DNA可及性结合位点分辨率动态及其表达动态。报告基因以位点特异性方式整合到PUER细胞中，这些细胞是祖细胞，可通过激活泛白细胞TF PU.1在体外分化为中性粒细胞或巨噬细胞。时间序列数据显示，在中性粒细胞分化的前48小时内，两个增强子上调了报告基因的表达。令人惊讶的是，在同一时间段内，通过ATAC-Seq测量的增强子总可及性几乎没有或完全没有增加。相反，总可及性在PU.1激活后96小时达到峰值——这与其作为先锋因子的作用一致——但增强子并未上调基因表达。将深度测序的ATAC-Seq数据与一种新的偏差校正方法相结合，使得在单核苷酸分辨率下分析可及性成为可能，并揭示了增强子中与所有先前表征的TF结合位点和ChIP-Seq数据匹配的保护区域。尽管在早期分化过程中大多数位置的可及性不变，但TF结合位点邻近位置（作为TF占据的指标）的可及性确实显著增加。局部可及性变化仅限于C/EBP家族TF结合位点邻近的核苷酸，表明早期分化期间增强子活性的上调由C/EBP家族TF结合驱动。这些结果表明，增加增强子的总可及性不足以上调其活性，而其他事件如TF结合对于上调是必要的。此外，TF结合可在总可及性无明显增加的情况下引起上调。最后，本研究证明了利用高覆盖度ATAC-Seq全面绘制单个TF结合位点足迹的可行性，并通过与时间序列基因表达数据结合来推断基因调控中的事件顺序。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.22.529579",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.22.529579",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.22.529579/index.html"
+}

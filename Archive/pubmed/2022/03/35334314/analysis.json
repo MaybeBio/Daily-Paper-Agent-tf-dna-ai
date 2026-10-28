@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35334314",
+  "title": "HKAM-MKM: A hybrid kernel alignment maximization-based multiple kernel model for identifying DNA-binding proteins.",
+  "authors": "Zhao, Shulin; Ding, Yijie; Liu, Xiaobin; Su, Xi",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2022-03-26",
+  "window": {
+    "start": "2022-03-21",
+    "end": "2022-03-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多核学习与SVM预测DNA结合蛋白，属蛋白质-DNA互作识别但仅基于序列特征，无三维结构或结合机制建模，方法可迁移但深度有限。",
+  "abstract": "The identification of DNA-binding proteins (DBPs) has always been a hot issue in the field of sequence classification. However, considering that the experimental identification method is very resource-intensive, the construction of a computational prediction model is worthwhile. This study developed and evaluated a hybrid kernel alignment maximization-based multiple kernel model (HKAM-MKM) for predicting DBPs. First, we collected two datasets and performed feature extraction on the sequences to obtain six feature groups, and then constructed the corresponding kernels. To ensure the effective utilisation of the base kernel and avoid ignoring the difference between the sample and its neighbours, we proposed local kernel alignment to calculate the kernel between the sample and its neighbours, with each sample as the centre. We combined the global and local kernel alignments to develop a hybrid kernel alignment model, and balance the relationship between the two through parameters. By maximising the hybrid kernel alignment value, we obtained the weight of each kernel and then linearly combined the kernels in the form of weights. Finally, the fused kernel was input into a support vector machine for training and prediction. Finally, in the independent test sets PDB186 and PDB2272, we obtained the highest Matthew's correlation coefficient (MCC) (0.768 and 0.5962, respectively) and the highest accuracy (87.1% and 78.43%, respectively), which were superior to the other predictors. Therefore, HKAM-MKM is an efficient prediction tool for DBPs.",
+  "abstract_zh": "DNA结合蛋白（DBPs）的识别一直是序列分类领域的热点问题。然而，考虑到实验识别方法资源消耗巨大，构建计算预测模型具有重要价值。本研究开发并评估了一种基于混合核对齐最大化的多核模型（HKAM-MKM），用于预测DBPs。首先，我们收集了两个数据集，并对序列进行特征提取，获得六个特征组，随后构建相应的核。为确保基核的有效利用并避免忽略样本与其邻居之间的差异，我们提出了局部核对齐，以每个样本为中心计算样本与其邻居之间的核。我们将全局核对齐与局部核对齐相结合，开发了混合核对齐模型，并通过参数平衡两者之间的关系。通过最大化混合核对齐值，我们获得了每个核的权重，然后以权重形式线性组合各核。最后，将融合后的核输入支持向量机进行训练和预测。最终，在独立测试集PDB186和PDB2272上，我们获得了最高的马修斯相关系数（MCC）（分别为0.768和0.5962）以及最高的准确率（分别为87.1%和78.43%），优于其他预测器。因此，HKAM-MKM是预测DBPs的高效工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35334314/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35334314/",
+  "paper_page_path": "papers/pubmed/35334314/index.html"
+}

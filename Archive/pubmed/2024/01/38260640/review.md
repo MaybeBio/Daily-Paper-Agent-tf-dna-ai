@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors report the discovery of SH6, a small molecule that degrades the transcription factor SALL4 via a non-IMiD zinc finger domain (ZFC4), leading to selective killing of SALL4-expressing cancer cells and tumor growth inhibition in xenografts.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, compound characterization data, structural coordinates, pharmacokinetic details, in vivo study design, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach to targeting transcription factors through a non-IMiD zinc finger degron. However, the evidence base is limited to a summary, and several key claims cannot be evaluated without access to the underlying data. The central finding, that SH6 degrades SALL4 via the CUL4A/CRBN pathway in a ZFC4-dependent manner, is plausible but requires verification of specificity, mechanism, and in vivo efficacy.
+- **Who would be interested in the results, and why** Researchers in cancer biology, targeted protein degradation, and drug discovery would be interested. The work addresses a clinically relevant problem, namely the limited efficacy of IMiDs against SALL4-driven cancers, and proposes a new strategy for drugging C2H2 zinc finger transcription factors.
+- **Major strengths** The study addresses a significant gap in IMiD-based therapy. The combination of structural prediction, docking, and functional assays is a rational approach. The inclusion of in vivo efficacy and pharmacokinetic data strengthens the translational potential.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity
+  - **Claim pointer** "SH6 selectively targets SALL4-expressing cancer cells"
+  - **Evidence pointer** Abstract, cell viability assays section
+  - **Concern** The abstract claims selectivity for SALL4-expressing cells, but no data are shown on off-target effects, activity against other C2H2 zinc finger proteins, or selectivity over non-cancer cells. Without such data, the claim of selectivity is not established.
+  - **Why it matters** Selectivity is critical for therapeutic relevance and for distinguishing on-target from off-target toxicity. If SH6 degrades other zinc finger proteins, the observed effects may not be attributable to SALL4 loss.
+  - **Resolution test** Provide dose-response curves in SALL4-positive versus SALL4-negative isogenic cell lines, and assess degradation of a panel of C2H2 zinc finger proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "SH6 degrades SALL4 protein through the CUL4A/CRBN pathway"
+  - **Evidence pointer** Abstract, mechanistic studies section
+  - **Concern** The abstract states that SH6 acts through CUL4A/CRBN, but no evidence is provided to distinguish between CRBN-dependent and CRBN-independent degradation. The role of CUL4A is also not clarified, and the possibility of direct binding to CRBN or to SALL4 is not addressed.
+  - **Why it matters** The proposed mechanism is central to the novelty of the work. If degradation is not CRBN-dependent, the claim of an "IMiD independent" approach is weakened. Conversely, if CRBN is required, the distinction from IMiD action needs clarification.
+  - **Resolution test** Show CRBN knockout or knockdown abolishes SH6-induced SALL4 degradation, and demonstrate direct binding of SH6 to CRBN or SALL4 ZFC4 by biophysical methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy
+  - **Claim pointer** "SH6 led to significant 62% tumor growth inhibition of SALL4+ xenografts in vivo"
+  - **Evidence pointer** Abstract, in vivo xenograft section
+  - **Concern** The abstract reports a single efficacy number without details on dosing, route, schedule, tumor model, number of animals, or statistical significance. The claim of "significant" cannot be assessed without these data.
+  - **Why it matters** In vivo efficacy is a key translational claim. Without proper experimental design and statistical reporting, the result may be preliminary or confounded by toxicity or poor pharmacokinetics.
+  - **Resolution test** Provide full in vivo study details, including dose-response, tolerability, tumor growth curves, and statistical analysis with effect sizes and confidence intervals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural basis
+  - **Claim pointer** "By combining AlphaFold and the ZFC4-DNA crystal structure, we identified a potential ZFC4 drug pocket"
+  - **Evidence pointer** Abstract, structural methods section
+  - **Concern** The abstract does not specify whether the drug pocket is validated experimentally, such as by mutagenesis or co-crystallization. The computational identification alone is insufficient to establish a functional binding site.
+  - **Why it matters** The proposed pocket is the basis for the drug discovery approach. If the pocket is not experimentally validated, the mechanism of SH6 binding remains speculative.
+  - **Resolution test** Provide mutagenesis data showing that mutations in the predicted pocket abolish SH6 binding and degradation, or a co-crystal structure of SH6 with ZFC4.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, background section
+  - **Issue** The phrase "IMiD independent zinc finger domain" is ambiguous. It could mean a domain not targeted by IMiDs or a degradation mechanism independent of IMiD biology.
+  - **Required correction** Clarify the intended meaning, for example, "a zinc finger domain that is not recognized by IMiDs" or "a degradation pathway that does not require IMiD binding."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Abstract, pharmacokinetic claim
+  - **Evidence pointer** Abstract, pharmacokinetic studies section
+  - **Issue** The abstract states "good bioavailability" without specifying oral versus intravenous administration, half-life, or exposure levels.
+  - **Required correction** Provide key pharmacokinetic parameters, such as oral bioavailability percentage, Cmax, and half-life, to support the claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Abstract, concluding statement
+  - **Evidence pointer** Abstract, summary section
+  - **Issue** The claim that this represents "a new approach for IMiD independent drug discovery targeting C2H2 transcription factors" is broad and may overstate the scope, as only one compound and one target are described.
+  - **Required correction** Soften the claim to reflect the preliminary nature, for example, "a potential new approach" or "a proof-of-concept for targeting C2H2 transcription factors."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns are blocking because the central claims of selectivity, mechanism, and in vivo efficacy are not supported by the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of targeting a non-IMiD zinc finger degron is novel and could be of interest, but the abstract does not provide enough detail to assess the degree of innovation relative to existing targeted degradation approaches.
+  - Scientific importance: The work addresses a clinically relevant problem, but the importance depends on the robustness of the selectivity and mechanism claims, which are not yet established.
+  - Interdisciplinary readership: The topic bridges structural biology, chemical biology, and oncology, which could appeal to a broad audience if the data are compelling.
+  - Technical soundness: The abstract suggests a rational approach, but the lack of methodological detail prevents assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is concise and generally accessible, though some terms such as "CUL4A/CRBN pathway" may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the key claims require full manuscript evaluation. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- "SH6 selectively targets SALL4-expressing cancer cells" is unsupported without comparative selectivity data.
+- "SH6 degrades SALL4 protein through the CUL4A/CRBN pathway" is unsupported without mechanistic validation.
+- "SH6 led to significant 62% tumor growth inhibition" is unverifiable without in vivo study details.
+- "Good bioavailability" is unverifiable without pharmacokinetic parameters.
+- The existence of a "potential ZFC4 drug pocket" is not experimentally validated.

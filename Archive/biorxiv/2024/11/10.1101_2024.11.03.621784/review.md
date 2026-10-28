@@ -1,0 +1,112 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supplementary information description)
+- **Assessment boundary** Scientific and technical evaluation of the computational study as presented; no evaluation of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations and umbrella sampling to study the influence of DNA sequence on the thermodynamic and structural stability of the ZTA transcription factor-DNA complex. They compare three ZRE sequences (ZRE 1, ZRE 2, ZRE 3) in two contexts: core motif alone and core motif with flanking end sequences. They report that flanking ends enhance stability and binding affinity for all systems, with ZRE 3 showing the lowest free energy, highest interaction counts, and most stable structure.
+- **Visible evidence base** Main text figures referenced (Figures 3-19), Tables 1-5, supplementary figures S1-S7, computational methods section
+- **Missing materials affecting confidence** Individual free energy plots (Figure S1), interaction fingerprint plots (Figures S2-S7), modelling report details, RMSD/RMSF methodology details, interaction criteria details, force field validation data, convergence analysis, error analysis methodology
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of the ZTA transcription factor-DNA interaction using all-atom MD simulations and umbrella sampling. The work addresses a biologically relevant question regarding sequence-dependent binding of a viral transcription factor. However, the manuscript has substantial technical and presentational issues that prevent the conclusions from being fully supported by the provided evidence. The free energy values reported are unusually large for protein-DNA interactions, the simulation methodology lacks sufficient validation and convergence analysis, and several key results are described without adequate quantitative support. The study has potential interest for the EBV research community, but the current presentation does not establish the claims with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers studying Epstein-Barr virus biology, particularly those interested in the molecular mechanisms of ZTA-mediated transcriptional regulation and the latent-to-lytic switch. Computational biophysicists studying protein-DNA interactions and developing methods for binding affinity prediction may also find the approach relevant. The findings could inform therapeutic development efforts targeting EBV-associated cancers, though the translational relevance is indirect.
+- **Major strengths** The study addresses a biologically important question about sequence-specific DNA recognition by a viral transcription factor. The comparison of core motif versus core motif with flanking ends across three ZRE sequences is a reasonable design. The use of both unbiased MD and enhanced sampling (umbrella sampling) is appropriate for studying binding thermodynamics. The analysis includes multiple complementary metrics (RMSD, RMSF, COM distance, interaction fingerprints, hydrogen bonding, minor groove analysis) which provides a multifaceted view of the system.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript reports ΔG values of approximately -33 to -46 kcal/mol for core motif systems and -67 to -82 kcal/mol for core motif with flanking ends systems.
+  - **Evidence pointer** Figure 7, Table 4
+  - **Concern** The reported free energy values are exceptionally large for protein-DNA interactions. Typical protein-DNA binding free energies range from approximately -8 to -15 kcal/mol. The values reported here are 3-8 times larger in magnitude. This raises serious questions about the correctness of the umbrella sampling setup, the choice of reaction coordinate, the force field parameters, or the analysis methodology. The authors do not provide any comparison with experimental binding affinities for these systems, nor do they discuss why such large values would be physically reasonable.
+  - **Why it matters** If the free energy values are incorrect, the central quantitative claim of the manuscript is invalid. The comparison between systems and the conclusion that ZRE 3 has the highest binding affinity depends entirely on these values being physically meaningful.
+  - **Resolution test** The authors should validate their free energy calculations against experimental binding data for at least one of the ZRE sequences, or provide a detailed explanation for why such large ΔG values are expected. They should also test convergence of the PMF profiles and consider whether the reaction coordinate and umbrella sampling parameters are appropriate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that 10 independent umbrella sampling simulations were performed for each system and the PMF was averaged over these runs.
+  - **Evidence pointer** Computational Methodology, Umbrella sampling section; Table 3
+  - **Concern** The description of the umbrella sampling protocol is insufficient to evaluate its correctness. The authors do not specify the initial configurations for the 10 independent runs, how the reaction coordinate was defined and sampled, the spacing between windows, the equilibration protocol for each window, or how the weighted histogram analysis method (WHAM) was applied. The statement that 10 independent simulations were performed is not accompanied by any demonstration that these runs are truly independent or that the results are converged.
+  - **Why it matters** Without adequate methodological detail and convergence analysis, the free energy results cannot be reproduced or verified. The claim of 10 independent runs is meaningless without information about how independence was achieved and confirmed.
+  - **Resolution test** The authors should provide complete details of the umbrella sampling protocol, including window spacing, equilibration times, production times, and convergence criteria. They should show the individual PMF profiles from the 10 runs to demonstrate reproducibility and provide statistical analysis of the variation between runs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript reports that the ZRE 3 core motif with flanking ends system has the lowest free energy and highest number of interactions, concluding it is the most stable system.
+  - **Evidence pointer** Figure 7, Figure 9, Table 4
+  - **Concern** The correlation between free energy values and interaction counts is presented as supporting evidence, but the analysis is circular. The interaction counts are derived from the same MD trajectories used to compute the free energies, so they are not independent validation. Moreover, the manuscript does not provide error estimates for the interaction counts or demonstrate that the differences between systems are statistically significant. The claim that ZRE 3 is the most stable system rests on differences in ΔG values that may be within the statistical uncertainty of the calculations.
+  - **Why it matters** The central conclusion of the manuscript depends on the ranking of the three ZRE systems. If the differences in free energy are not statistically significant, the conclusion is not supported.
+  - **Resolution test** The authors should provide error bars on all reported quantities and perform statistical tests to demonstrate that the differences between systems are significant. They should also consider whether the interaction count analysis is biased by the choice of trajectory frames or analysis criteria.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the crystal structure (PDB ID: 2C9N) was used as the starting structure and that missing atoms and residues were modelled using Swiss-Modeler.
+  - **Evidence pointer** Computational Methodology, Structural modelling section
+  - **Concern** The manuscript does not provide sufficient information about the modelling of missing residues and atoms. The authors state that Swiss-Modeler was used but do not specify which residues were missing, how they were modelled, or whether the modelled regions were stable during simulation. The quality of the modelled structure is critical for the reliability of the simulation results, particularly for the DNA binding domain where the interactions are being analyzed.
+  - **Why it matters** If the modelled regions are not accurate, the simulation results may be artifacts of the modelling rather than genuine properties of the system. The manuscript cannot be evaluated without this information.
+  - **Resolution test** The authors should provide a detailed description of the modelling procedure, including which residues were missing, the template used, and validation of the modelled structure. They should also demonstrate that the modelled regions are stable during the simulations.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript reports that the system was simulated for 200 ns and that this was sufficient for equilibration.
+  - **Evidence pointer** Computational Methodology, Molecular dynamics simulation section; Figures 3-5
+  - **Concern** The manuscript does not provide any analysis demonstrating that 200 ns is sufficient for convergence of the structural properties. The RMSD plots shown in Figure 3 appear to show that some systems may not have fully equilibrated within the simulation time, with RMSD values still drifting at later times. The authors do not provide block averaging or other convergence analysis to support their claim of equilibration.
+  - **Why it matters** If the simulations are not converged, the structural properties and interaction analyses may not be representative of the equilibrium ensemble. The free energy calculations from umbrella sampling may also be affected if the starting configurations are not properly equilibrated.
+  - **Resolution test** The authors should provide convergence analysis for all systems, including block averaging of RMSD and other properties, and demonstrate that the systems are stable over the simulation time. They should also consider whether longer simulations are needed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction contains a typographical error: "Epstein-Baar virus" should be "Epstein-Barr virus". Additionally, the sentence "A detailed of the binding mechanisms will allow for the design of better-targeted therapies" in the abstract is grammatically incomplete.
+  - **Required correction** Correct the typographical error and revise the sentence to read "A detailed understanding of the binding mechanisms will allow for the design of better-targeted therapies."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Computational Methodology, Umbrella sampling section
+  - **Evidence pointer** Computational Methodology, Umbrella sampling section
+  - **Issue** The manuscript states that a force of 300 kJ/mol/nm² was applied to restrain the system at each bin. This is an unusual way to describe a harmonic restraint, which is typically specified by a spring constant. The units suggest this is a force constant, but the description is ambiguous.
+  - **Required correction** Clarify the restraint protocol, specifying the spring constant and the functional form of the restraint potential.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Minor groove analysis section
+  - **Evidence pointer** Figure 18, Table 5
+  - **Concern** The minor groove analysis is only presented for the core motif with flanking ends systems, not for the core motif systems. The manuscript does not explain why the comparison is incomplete.
+  - **Required correction** Either provide the minor groove analysis for the core motif systems as well, or explicitly state why this analysis was only performed for the flanking ends systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, H-bond analysis between DNA strands section
+  - **Evidence pointer** Figure 19
+  - **Concern** The manuscript reports that the number of interstrand hydrogen bonds increases to approximately 16 for the flanking ends systems, but does not provide error estimates or statistical analysis. The probability values are reported as approximately 0.09 for all three systems, which seems suspiciously uniform.
+  - **Required correction** Provide error bars and statistical analysis for the hydrogen bond counts, and discuss whether the differences between systems are significant.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Key interactions section
+  - **Evidence pointer** Figure 9, Figure 10
+  - **Concern** The manuscript reports interaction counts for different types of interactions but does not define the criteria used to classify interactions as "persistent" beyond the 90% threshold. The relationship between the interaction counts in Figure 9 and Figure 10 is not entirely clear.
+  - **Required correction** Clarify the interaction classification criteria and explain how the counts in Figure 9 and Figure 10 are related.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 1
+  - **Issue** The discussion repeats results without providing additional interpretation or context. The statement "This comprehensive approach across multiple analyses clearly concludes that ZRE 3's enhanced stability and binding affinity arise from specific interactions with C and G bases" is presented as a conclusion but the mechanistic explanation is not developed.
+  - **Required correction** Expand the discussion to provide mechanistic interpretation of why C and G bases enhance stability and how this relates to the biological function of ZTA.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (free energy values), R1-M2 (umbrella sampling methodology), R1-M3 (statistical significance), R1-M4 (structure modelling)
+- **Assessment against Nature-style criteria** Originality: The study applies established computational methods to a specific biological system. While the biological question is relevant, the methodological approach is not novel. Scientific importance: The findings could inform understanding of EBV biology, but the lack of experimental validation and the questionable free energy values limit the impact. Interdisciplinary readership: The work sits at the interface of computational biophysics and virology, but the presentation is too technical for a broad readership and not sufficiently rigorous for a specialized computational audience. Technical soundness: The manuscript has significant technical issues, particularly with the free energy calculations and lack of convergence analysis. Readability for nonspecialists: The manuscript is written in a technical style that would be challenging for nonspecialists, and the abstract contains grammatical errors.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant biological question, but the technical issues with the free energy calculations, insufficient methodological detail, and lack of statistical analysis prevent the conclusions from being supported. The authors should address the major concerns before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The reported ΔG values of -33 to -82 kcal/mol are not supported by comparison with experimental data or by adequate methodological validation.
+- The claim that ZRE 3 is the most stable system is not supported by statistical analysis demonstrating significant differences from other systems.
+- The claim that flanking ends enhance binding affinity is based on free energy differences that may be within statistical uncertainty.
+- The statement that "the addition of flanking ends likely makes the ZTA chains more rigid" is speculative and not directly supported by the data presented.
+- The claim that "the presence of a higher number of G interactions possibly contributes to this highest stability" is presented as a conclusion but is not mechanistically established.
+- The manuscript does not provide evidence that the 200 ns simulation time is sufficient for convergence of all systems.
+- The modelling of missing residues using Swiss-Modeler is not described in sufficient detail to evaluate the quality of the starting structures.

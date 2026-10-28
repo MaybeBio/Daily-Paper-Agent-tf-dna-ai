@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, computational methodology, results, conclusions, acknowledgements, footnotes)
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of formatting, grammar, or editorial fit.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that differential repair rates of four cyclobutane pyrimidine dimer (CPD) lesions (T<>T, T<>C, C<>C, C<>T) by nucleotide excision repair correlate with structural deformation of the complementary strand and major groove width upon DDB2 binding, particularly at the -1 position, with C<>T showing the most pronounced deformation.
+- **Visible evidence base** Abstract, introduction, computational methodology, results section with references to Figures 1-8 and Supplementary Figures S3-S13 and Table S1, conclusions, acknowledgements, footnotes. Figures and supplementary materials are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-8, Supplementary Figures S1-S13, Supplementary Table S1, force field parameter files, simulation input files, and experimental repair rate data (referenced as Figure 1B) are not provided. This limits verification of quantitative claims and statistical analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in DNA photobiology, namely the molecular basis for differential repair rates of CPD lesions. The computational approach is reasonable and the authors identify a potentially interesting correlation between major groove deformation and repair efficiency. However, the central claim that structural deformation of the complementary strand "justifies" differential repair rates is not fully established from the provided evidence. The manuscript lacks quantitative correlation analysis, free energy calculations, or direct demonstration that the observed deformations would differentially affect XPC recruitment. The bimodal distributions reported for T<>C and C<>T are intriguing but their connection to repair rates remains speculative. The work is technically sound in its simulation protocol but the interpretive leap from structural parameters to biological outcomes requires stronger support.
+- **Who would be interested in the results, and why** Researchers in DNA damage and repair, computational biophysics, and photobiology would find this work relevant. The study addresses a long-standing question about why CPD lesions are repaired at different rates, which has implications for understanding mutagenesis and skin cancer risk. The methodological approach of correlating MD-derived structural parameters with experimental repair rates could be of interest to the computational biology community.
+- **Major strengths** The study addresses a biologically important and unresolved question. The simulation protocol is well-described and follows standard practices, including multiple replicas and extended sampling. The authors correctly note that naked DNA shows no significant differences between lesions, focusing attention on the DDB2-bound state. The identification of a bimodal distribution for heterodimeric lesions is a potentially novel observation. The authors are appropriately cautious in stating that their results do not allow quantitative correlation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The title and abstract state that the conformation of the complementary strand and deformation of the DNA groove "justifies" the different repair rates for CPDs.
+  - **Evidence pointer** Results section, Figures 6 and S6, Supplementary Table S1
+  - **Concern** The central claim of the manuscript is that groove deformation "justifies" or provides a "structural rationale" for differential repair rates. However, the evidence presented is correlational: the authors observe differences in major groove width distributions between lesions and note that these correlate with the experimental repair order. No direct mechanistic link is established between the observed groove widths and downstream XPC recruitment or repair efficiency. The authors themselves acknowledge in the conclusions that they "do not allow for a quantitative correlation and reproduction of the different repair rates." The word "justifies" in the title overstates what the data can support.
+  - **Why it matters** The title and abstract make a strong causal claim that is not supported by the evidence. Correlation between a structural parameter and a biological outcome does not establish causation. Without demonstrating that the observed groove deformations actually affect XPC binding or downstream repair steps, the claim remains speculative.
+  - **Resolution test** The authors should either (a) soften the claim throughout the title, abstract, and conclusions to state that the observed deformations "correlate with" or "may contribute to" differential repair rates, or (b) provide additional evidence, such as free energy calculations of XPC binding to the different DDB2-DNA complexes, or experimental validation showing that groove width directly affects repair protein recruitment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors state that "the observed DNA deformation correlates with the experimental repair rate" and reference Figure 1B for experimental data.
+  - **Evidence pointer** Figure 1B, Results section
+  - **Concern** The experimental repair rate data shown in Figure 1B is not provided in the manuscript text. The authors reference it but do not present the actual values or the source of these data. Without access to the quantitative experimental values, it is impossible to assess the strength of the claimed correlation. The authors state a qualitative order ("T<>T" < "T<>C" << "C<>C" < "C<>T") but do not provide the numerical data or statistical analysis supporting this order.
+  - **Why it matters** The entire premise of the manuscript rests on the existence of differential repair rates. If the experimental data are not presented or properly cited, the reader cannot evaluate whether the observed structural differences are meaningfully correlated with repair efficiency. The claimed correlation is the foundation of the paper's significance.
+  - **Resolution test** The authors should present the experimental repair rate data (either from their own measurements or from the literature) with appropriate citations, including numerical values and error estimates. They should also perform a quantitative correlation analysis between the structural parameters (e.g., groove width distributions) and the repair rates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that the CPD lesions were generated by mutating the damaged bases while preserving the cyclobutane scaffold, and that force field parameters were obtained using RESP fitting with HF/6-31G* calculations.
+  - **Evidence pointer** Computational Methodology section
+  - **Concern** The manuscript does not provide validation of the force field parameters for the modified residues. No comparison with experimental data, quantum mechanical reference calculations, or previously published parameters is shown. The authors state that parameters are provided in the SI, but this is not available for review. Additionally, the use of HF/6-31G* for RESP fitting is a standard but somewhat dated approach; justification for this choice over higher-level methods would strengthen the methodology.
+  - **Why it matters** The reliability of the simulation results depends critically on the accuracy of the force field parameters for the non-standard CPD residues. If the parameters are inaccurate, the observed structural differences could be artifacts. Without validation, the reader cannot assess the confidence level of the results.
+  - **Resolution test** The authors should provide validation data for the force field parameters, such as comparison of simulated structural properties with experimental data, or benchmarks against higher-level quantum mechanical calculations. At minimum, they should cite previous work where these parameters were validated.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report bimodal distributions for T<>C and C<>T lesions and use Gaussian Mixture Model analysis (Figure S13, Table S1) to support their interpretation.
+  - **Evidence pointer** Results section, Figures 4-5, S5, S13, Table S1
+  - **Concern** The manuscript does not provide details on the statistical analysis of the bimodal distributions. How many independent transitions between the two states were observed? What are the free energy barriers between them? Are the two populations in equilibrium within the simulation timescale? The Gaussian Mixture Model analysis is mentioned but the criteria for determining the number of components, the convergence of the fitting, and the statistical significance of the two-component model over a one-component model are not described.
+  - **Why it matters** The bimodal distribution is a key observation that distinguishes the heterodimeric lesions from the homodimeric ones. If this bimodality is not statistically robust or represents a non-equilibrium artifact, the central observation of the paper would be weakened.
+  - **Resolution test** The authors should provide details on the statistical analysis, including the number of transitions observed, the Bayesian Information Criterion or similar for model selection, and the uncertainty in the fitted parameters. They should also discuss whether the simulations have converged with respect to the observed conformational transitions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "TT derivatives (T<>T) are removed more slowly than those containing cytosine, especially in 5'." This phrasing is ambiguous. It should be clarified whether "especially in 5'" refers to the position of the cytosine within the dimer (i.e., 5'-C<>T-3' vs 5'-T<>C-3') or the position of the lesion within the genome.
+  - **Required correction** Rephrase to specify that the presence of cytosine at the 5' position of the dimer (i.e., C<>T) is associated with faster repair, while T<>T is slowest.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Computational Methodology
+  - **Evidence pointer** Computational Methodology section
+  - **Issue** The text states "Harthree-Fock" which appears to be a typographical error for "Hartree-Fock."
+  - **Required correction** Correct the typo to "Hartree-Fock."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, Figure 7
+  - **Issue** The authors state that "the interaction pattern is globally confirmed in the case of T<>C and C<>T strands, we may evidence partial losses of the interactions particularly involving R49 and to a less extent K68." However, the functional significance of these partial losses is not discussed. Do they correlate with the observed groove width differences?
+  - **Required correction** Add a brief discussion of whether the partial loss of R49/K68 interactions is mechanistically linked to the groove deformation and the observed bimodal behavior.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The sentence "CPD lesions accumulate into DNA due to their general bad repair" is awkwardly phrased. "General bad repair" is imprecise.
+  - **Required correction** Rephrase to something like "CPD lesions accumulate in DNA due to their generally inefficient repair."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Computational Methodology
+  - **Evidence pointer** Computational Methodology section
+  - **Issue** The authors state that the DNA lesions "spontaneously insert back in an almost ideal Watson-Crick coupling" within the first tens of nanoseconds. However, the initial structure was derived from the crystal structure with extruded dimers. The authors should clarify whether this reinsertion is expected and whether it was observed in all replicas for all systems.
+  - **Required correction** Provide a brief statement on the reproducibility of this reinsertion across replicas and systems, and whether any system showed delayed or incomplete reinsertion.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, Figure 8
+  - **Issue** The authors state that H273 interacts preferentially with the 5' nucleobase and Q272 with the 3' nucleobase. However, the structural basis for this preference is not explained. Is it due to the geometry of the binding pocket or the chemical nature of the bases?
+  - **Required correction** Add a brief explanation for the observed preference, or state that the structural basis is not yet clear.
+
+## Risk / unsupported claims
+- The title claim that groove deformation "justifies" differential repair rates is not supported by the evidence, which is correlational only.
+- The claimed correlation between structural deformation and experimental repair rates cannot be evaluated because the experimental data (Figure 1B) are not presented.
+- The statement that "the more pronounced structural deformation may be related to a better recognition by the downstream XPC-RAD23B complex" is speculative and not tested in this work.
+- The force field parameters for the CPD lesions are not validated in the manuscript text.
+- The statistical robustness of the bimodal distributions and the Gaussian Mixture Model analysis cannot be assessed without the supplementary materials.
+- The functional significance of the partial loss of R49/K68 interactions is not established.

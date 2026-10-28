@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors characterize the N- and O-glycosylation of recombinant soluble CD52 produced in Expi293 cells, localize the O-glycosylation site to threonine 8, and use molecular dynamics simulations to propose a mechanism whereby hyper-sialylated glycans on CD52 mediate binding to HMGB1 box B, with the O-glycan at T8 providing key contacts and the N-glycan at N3 oriented for subsequent SIGLEC-10 interaction.
+- **Visible evidence base** Figures 1-4, Tables S1-S7, supplementary figures S1-S5, methods section, and data availability statements
+- **Missing materials affecting confidence** Raw mass spectra beyond representative examples, validation statistics for glycan identifications, force field parameter details, convergence criteria for MD simulations, experimental validation of the proposed binding model, and negative control experiments
+
+## Reviewer
+- **Overall assessment** This manuscript presents a detailed glycomic characterization of recombinant CD52 and proposes a structural model for its interaction with HMGB1. The mass spectrometry work appears technically rigorous and the O-glycosite localization to T8 is a useful advance. However, the central mechanistic claims rest entirely on a single unvalidated MD simulation of a homology-based model, and the authors do not provide experimental evidence to support the proposed bimodal mechanism. The glycomic data are descriptive and the connection to immunosuppressive activity is inferred rather than demonstrated. The manuscript would be strengthened by experimental validation of the predicted CD52-HMGB1 interactions and by addressing the substantial gap between the glycan heterogeneity observed and the specific glycoforms modeled.
+- **Who would be interested in the results, and why** Researchers in glycobiology, specifically those studying the role of glycosylation in immune regulation; investigators working on CD52 biology and its therapeutic applications; computational glycobiologists interested in MD simulations of glycoprotein interactions; and pharmaceutical scientists developing glycoengineered biologics.
+- **Major strengths** The glycomic analysis is comprehensive and technically sound, with clear presentation of the N- and O-glycan heterogeneity. The O-glycosite localization to T8 with high confidence addresses a previously ambiguous question. The use of multiple complementary mass spectrometry approaches strengthens the analytical claims. The authors are appropriately cautious about force field limitations in glycan interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation of mechanistic claims
+  - **Claim pointer** The authors claim that "the molecular basis of immunosuppression by soluble CD52 is defined by interactions of N-linked and O-linked glycans with HMGB1 box B" and propose a specific bimodal mechanism where the O-glycan at T8 binds HMGB1 box B and the N-glycan at N3 interacts with SIGLEC-10.
+  - **Evidence pointer** Figure 4F, Discussion section
+  - **Concern** The central mechanistic model is derived from a single 1 microsecond MD simulation of a complex built by homology and structural alignment. No experimental validation is provided for the predicted CD52-HMGB1 interaction, the specific residues identified (R97, K146, K152, R163), or the proposed orientation of the N-glycan for SIGLEC-10 binding. The claim that lack of O-glycan sialylation "would prevent binding" is presented as a definitive conclusion but is only a prediction from one trajectory.
+  - **Why it matters** The title and abstract present the molecular basis of CD52 immunosuppression as established, but the evidence is computational inference from a single simulation. Without experimental validation such as mutagenesis, binding assays, or glycan remodeling experiments, the mechanistic claims are not supported. The field requires experimental confirmation before accepting a structural model as the basis for therapeutic development.
+  - **Resolution test** Provide experimental evidence such as surface plasmon resonance or isothermal titration calorimetry binding assays with defined glycoforms, mutagenesis of the identified HMGB1 residues, or cellular assays with glycoengineered CD52 variants to confirm the predicted interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Relevance of modeled glycoforms to active fraction
+  - **Claim pointer** The authors state that the MD simulations were "informed by analytical glycoanalysis" and use a tetra-antennary tetra-sialylated N-glycan and a di-sialylated core 2 O-glycan to represent the "fully sialylated" CD52.
+  - **Evidence pointer** Figure 4A-B, Methods section "Modelling of interactions between CD52 and HMGB1 box B"
+  - **Concern** The manuscript reports 192 unique N-glycan structures and 8 O-glycan structures across fractions, with the active fraction 34 containing only 24.7% of N-glycans with at least three sialic acids. The specific glycoforms chosen for MD simulation represent only a small subset of the observed heterogeneity. The authors do not justify why these particular glycoforms were selected, whether they are the most abundant in the active fraction, or how the modeling accounts for the substantial non-sialylated and partially sialylated populations present.
+  - **Why it matters** If the active fraction contains a mixture of glycoforms, the relevance of modeling only the fully sialylated species is unclear. The authors claim that hyper-sialylation is essential for activity, but the data show that even the most active fraction contains substantial non-sialylated glycans. The relationship between the modeled species and the biologically active species is not established.
+  - **Resolution test** Quantify the relative abundance of the specific glycoforms modeled in the active fraction, and demonstrate that these glycoforms are enriched in active versus inactive fractions. Alternatively, test the activity of defined synthetic glycoforms to establish which glycan structures confer immunosuppressive function.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical and convergence analysis of MD simulations
+  - **Claim pointer** The authors state that "hyper-sialylation stabilizes an extended structure of the peptide" and describe specific conformational changes at bonds 2 and 8 based on Ramachandran analysis.
+  - **Evidence pointer** Figure 4C-D, Methods section "Modelling of interactions between CD52 and HMGB1 box B"
+  - **Concern** The conformational analysis is based on five 1 microsecond simulations per condition. No convergence metrics are provided, no error bars or standard deviations are shown for the Ramachandran distributions, and the statistical significance of the observed conformational differences is not assessed. The claim that sialylation "stabilizes" a particular conformation implies a free energy difference that is not quantified.
+  - **Why it matters** Conformational preferences from MD simulations can be sensitive to sampling length and force field parameters. Without convergence analysis or replicate statistics, the reader cannot assess whether the observed differences between sialylated and non-sialylated conditions are robust or within statistical noise.
+  - **Resolution test** Provide convergence metrics (e.g., RMSD vs time, block averaging), run additional independent replicates, and perform statistical comparison of the Ramachandran distributions between conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings to native CD52
+  - **Claim pointer** The authors state that "recombinant CD52 has been shown to act as a broad anti-inflammatory agent" and imply that the glycan structures characterized on recombinant CD52 inform understanding of native CD52 function.
+  - **Evidence pointer** Abstract, Discussion section
+  - **Concern** All glycomic characterization was performed on CD52 produced in Expi293 cells, a non-native expression system. The authors previously characterized native CD52 from spleen, but the current study does not compare recombinant and native glycosylation. Glycosylation patterns are known to be cell-type and species specific, and the relevance of Expi293-derived glycosylation to native human CD52 is not established.
+  - **Why it matters** If the goal is to understand the molecular basis of immunosuppression by soluble CD52 in humans, the glycan structures relevant to native CD52 must be established. The therapeutic development implications depend on whether the glycoforms identified in Expi293 cells are representative of those in human tissues.
+  - **Resolution test** Compare the N- and O-glycomes of recombinant CD52 with native CD52 from relevant human tissues or primary cells, or clearly state the limitations of the recombinant system for understanding native CD52 biology.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A
+  - **Issue** The y-axis labeling for the ELISpot assay is confusing. The left y-axis shows spot counts while the right y-axis shows protein concentration, but the relationship between these two measurements and the interpretation of "activity" is not immediately clear from the figure legend alone.
+  - **Required correction** Clarify in the legend how activity is defined and quantified, and consider presenting the data as percent suppression relative to control rather than raw spot counts.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors use "hyper-sialylation" and "highly sialylated" interchangeably. Given that the active fraction contains 24.7% glycans with at least three sialic acids, the term "hyper-sialylation" may overstate the degree of sialylation present.
+  - **Required correction** Define the threshold for "hyper-sialylation" or use more precise quantitative descriptors throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** MD simulation methods
+  - **Evidence pointer** Methods section "Modelling of interactions between CD52 and HMGB1 box B"
+  - **Issue** The methods do not specify the temperature coupling scheme details, the barostat coupling constants, or the criteria used to determine when the system reached equilibrium before production runs.
+  - **Required correction** Provide complete simulation parameters to enable reproduction of the simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** O-glycosite occupancy
+  - **Evidence pointer** Results section, Table S5
+  - **Issue** The 7.5% O-glycosite occupancy is reported as a single value without confidence intervals or information about variability between fractions or replicates.
+  - **Required correction** Report the range or standard deviation of occupancy measurements across fractions and replicates.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Issue** The authors acknowledge force field limitations for glycan-glycan interactions but do not discuss other limitations such as the use of a homology model, the absence of experimental validation, or the potential for crystal contacts or artifacts in the template structure.
+  - **Required correction** Add a limitations paragraph that addresses the computational nature of the model and the need for experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental validation of the proposed mechanism), R1-M2 (justification of modeled glycoforms as representative of active species), R1-M3 (statistical rigor of MD conformational analysis)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The glycomic characterization of CD52 is detailed and the O-glycosite localization is novel, but the overall approach of combining glycomics with MD simulation to study glycoprotein interactions is not new. The proposed bimodal mechanism is interesting but speculative.
+  - **Scientific importance** Moderate. Understanding CD52 glycosylation and its interaction with HMGB1 could inform therapeutic development, but the clinical or biological significance of the specific mechanistic model is not demonstrated. The connection between the proposed mechanism and immunosuppressive activity is inferred rather than tested.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to glycobiologists and mass spectrometrists. The computational modeling is not sufficiently developed to attract a computational biology audience, and the lack of functional validation limits appeal to immunologists.
+  - **Technical soundness** The mass spectrometry work appears technically sound with appropriate controls and rigorous data analysis. The MD simulations are less rigorous, lacking convergence analysis and statistical validation. The overall technical quality is mixed.
+  - **Readability for nonspecialists** The manuscript is clearly written but assumes substantial background in glycobiology and mass spectrometry. The MD simulation section may be difficult for experimentalists to follow, and the significance of specific glycan structures is not explained for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The glycomic characterization is a solid contribution, but the central mechanistic claims require experimental validation. The manuscript would be suitable for a specialized glycobiology journal after major revision, but the mechanistic model as presented is not sufficiently supported for a high-impact general journal.
+
+## Risk / unsupported claims
+- The claim that "the molecular basis of immunosuppression by soluble CD52 is defined by interactions of N-linked and O-linked glycans with HMGB1 box B" is not supported by the evidence presented. The MD simulation provides a hypothesis, not a demonstrated molecular basis.
+- The statement that "lack of sialylation of the core 2 O-glycan at T8 would prevent binding of CD52 to HMGB1 box B" is presented as a conclusion but is only a prediction from a single simulation.
+- The proposed bimodal mechanism involving O-glycan binding to HMGB1 and N-glycan binding to SIGLEC-10 is speculative and not experimentally tested.
+- The relevance of Expi293-produced recombinant CD52 glycosylation to native human CD52 is not established, yet the discussion implies generalizability to therapeutic applications.
+- The claim that low O-glycan site occupancy "appears to be the limiting factor in the low level of immunosuppressive activity" is not supported by any direct experimental evidence linking occupancy to activity.
+- The statement that "these insights will inform the development of synthetic CD52 as an immunotherapeutic agent" is an unsupported extrapolation given the lack of functional validation.

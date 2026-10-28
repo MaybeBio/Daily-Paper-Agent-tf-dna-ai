@@ -1,0 +1,545 @@
+{
+  "identity": {
+    "pmid": "34140506",
+    "doi": "10.1038/s41467-021-24044-5",
+    "title": "3D genome alterations associated with dysregulated HOXA13 expression in high-risk T-lineage acute lymphoblastic leukemia."
+  },
+  "content": {
+    "abstract": "3D genome alternations can dysregulate gene expression by rewiring enhancer-promoter interactions and lead to diseases. We report integrated analyses of 3D genome alterations and differential gene expressions in 18 newly diagnosed T-lineage acute lymphoblastic leukemia (T-ALL) patients and 4 healthy controls. 3D genome organizations at the levels of compartment, topologically associated domains and loop could hierarchically classify different subtypes of T-ALL according to T cell differentiation trajectory, similar to gene expressions-based classification. Thirty-four previously unrecognized translocations and 44 translocation-mediated neo-loops are mapped by Hi-C analysis. We find that neo-loops formed in the non-coding region of the genome could potentially regulate ectopic expressions of TLX3, TAL2 and HOXA transcription factors via enhancer hijacking. Importantly, both translocation-mediated neo-loops and NUP98-related fusions are associated with HOXA13 ectopic expressions. Patients with HOXA11-A13 expressions, but not other genes in the HOXA cluster, have immature immunophenotype and poor outcomes. Here, we highlight the potentially important roles of 3D genome alterations in the etiology and prognosis of T-ALL.",
+    "keywords": [],
+    "mesh_terms": [
+      "Acetylation",
+      "Basic Helix-Loop-Helix Proteins/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Cell Lineage",
+      "Child",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Chromosomes/genetics/*metabolism",
+      "Disease Progression",
+      "Enhancer Elements, Genetic",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Leukemic/genetics/immunology",
+      "Gene Ontology",
+      "Hematopoiesis/genetics",
+      "Histones/metabolism",
+      "Homeodomain Proteins/*genetics/metabolism",
+      "Humans",
+      "Immunophenotyping",
+      "Leukemia-Lymphoma, Adult T-Cell/*genetics/metabolism/mortality/pathology",
+      "*Molecular Conformation",
+      "Neoplasm Proteins/genetics/metabolism",
+      "Nuclear Pore Complex Proteins/genetics/metabolism",
+      "Precursor T-Cell Lymphoblastic Leukemia-Lymphoma/*genetics/metabolism/mortality/pathology",
+      "Prognosis",
+      "T-Lymphocytes/*metabolism/pathology",
+      "*Translocation, Genetic",
+      "Young Adult"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Lu",
+        "Chen, Fengling",
+        "Zhu, Haichuan",
+        "Chen, Yang",
+        "Dong, Bingjie",
+        "Shi, Minglei",
+        "Wang, Weitao",
+        "Jiang, Qian",
+        "Zhang, Leping",
+        "Huang, Xiaojun",
+        "Zhang, Michael Q",
+        "Wu, Hong"
+      ],
+      "short_names": [
+        "Yang L",
+        "Chen F",
+        "Zhu H",
+        "Chen Y",
+        "Dong B",
+        "Shi M",
+        "Wang W",
+        "Jiang Q",
+        "Zhang L",
+        "Huang X",
+        "Zhang MQ",
+        "Wu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6574-6194",
+        "ORCID: 0000-0001-7545-7919"
+      ],
+      "affiliations": [
+        "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China.",
+        "Peking-Tsinghua Center for Life Sciences, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics, Center for Synthetic and Systems Biology, Bioinformatics Division, BNRist, Department of Automation, Tsinghua University, Beijing, China.",
+        "Center for Stem Cell Biology and Regenerative Medicine, MOE Key Laboratory of Bioinformatics, Tsinghua University, Beijing, China.",
+        "Tsinghua-Peking Center for Life Sciences, Beijing, China.",
+        "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China.",
+        "Peking-Tsinghua Center for Life Sciences, Beijing, China.",
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Hubei, China.",
+        "MOE Key Laboratory of Bioinformatics, Center for Synthetic and Systems Biology, Bioinformatics Division, BNRist, Department of Automation, Tsinghua University, Beijing, China.",
+        "Department of Biochemistry and Molecular Biology, The State Key Laboratory of Medical Molecular Biology, Institute of Basic Medical Sciences, School of Basic Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China.",
+        "Peking-Tsinghua Center for Life Sciences, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics, Center for Synthetic and Systems Biology, Bioinformatics Division, BNRist, Department of Automation, Tsinghua University, Beijing, China.",
+        "School of Medicine, Tsinghua University, Beijing, China.",
+        "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China.",
+        "Peking-Tsinghua Center for Life Sciences, Beijing, China.",
+        "Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing, China.",
+        "Department of Pediatrics, Peking University People's Hospital, Beijing, China.",
+        "Peking-Tsinghua Center for Life Sciences, Beijing, China. xjhrm@medmail.com.cn.",
+        "Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing, China. xjhrm@medmail.com.cn.",
+        "MOE Key Laboratory of Bioinformatics, Center for Synthetic and Systems Biology, Bioinformatics Division, BNRist, Department of Automation, Tsinghua University, Beijing, China. michael.zhang@utdallus.edu.",
+        "School of Medicine, Tsinghua University, Beijing, China. michael.zhang@utdallus.edu.",
+        "Department of Biological Sciences, Center for Systems Biology, The University of Texas, Richardson, TX, USA. michael.zhang@utdallus.edu.",
+        "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China. hongwu@pku.edu.cn.",
+        "Peking-Tsinghua Center for Life Sciences, Beijing, China. hongwu@pku.edu.cn.",
+        "Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing, China. hongwu@pku.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Lu",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0000-0001-6574-6194"
+        ],
+        "affiliations": [
+          "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China.",
+          "Peking-Tsinghua Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Fengling",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, Center for Synthetic and Systems Biology, Bioinformatics Division, BNRist, Department of Automation, Tsinghua University, Beijing, China.",
+          "Center for Stem Cell Biology and Regenerative Medicine, MOE Key Laboratory of Bioinformatics, Tsinghua University, Beijing, China.",
+          "Tsinghua-Peking Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Haichuan",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China.",
+          "Peking-Tsinghua Center for Life Sciences, Beijing, China.",
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, Center for Synthetic and Systems Biology, Bioinformatics Division, BNRist, Department of Automation, Tsinghua University, Beijing, China.",
+          "Department of Biochemistry and Molecular Biology, The State Key Laboratory of Medical Molecular Biology, Institute of Basic Medical Sciences, School of Basic Medicine, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Bingjie",
+        "short_name": "Dong B",
+        "identifiers": [],
+        "affiliations": [
+          "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China.",
+          "Peking-Tsinghua Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Minglei",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, Center for Synthetic and Systems Biology, Bioinformatics Division, BNRist, Department of Automation, Tsinghua University, Beijing, China.",
+          "School of Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Weitao",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China.",
+          "Peking-Tsinghua Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Qian",
+        "short_name": "Jiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Leping",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Peking University People's Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaojun",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Peking-Tsinghua Center for Life Sciences, Beijing, China. xjhrm@medmail.com.cn.",
+          "Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing, China. xjhrm@medmail.com.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Michael Q",
+        "short_name": "Zhang MQ",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, Center for Synthetic and Systems Biology, Bioinformatics Division, BNRist, Department of Automation, Tsinghua University, Beijing, China. michael.zhang@utdallus.edu.",
+          "School of Medicine, Tsinghua University, Beijing, China. michael.zhang@utdallus.edu.",
+          "Department of Biological Sciences, Center for Systems Biology, The University of Texas, Richardson, TX, USA. michael.zhang@utdallus.edu."
+        ]
+      },
+      {
+        "full_name": "Wu, Hong",
+        "short_name": "Wu H",
+        "identifiers": [
+          "0000-0001-7545-7919"
+        ],
+        "affiliations": [
+          "The MOE Key Laboratory of Cell Proliferation and Differentiation, School of Life Sciences, Peking University, Beijing, China. hongwu@pku.edu.cn.",
+          "Peking-Tsinghua Center for Life Sciences, Beijing, China. hongwu@pku.edu.cn.",
+          "Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing, China. hongwu@pku.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Jun 17",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/19 06:00",
+    "fetched_at": "2026-09-27 19:24:02"
+  },
+  "links": {
+    "cites": [
+      "42196549",
+      "42090509",
+      "41722573",
+      "41675662",
+      "40640072",
+      "40588575",
+      "40247105",
+      "40133836",
+      "39920885",
+      "39738032",
+      "39456830",
+      "39357057",
+      "39277592",
+      "39243015",
+      "39110799",
+      "39093124",
+      "39020220",
+      "38744920",
+      "38026210",
+      "38020908",
+      "37599153",
+      "37537495",
+      "37457299",
+      "37302808",
+      "37280363",
+      "36947815",
+      "36861414",
+      "36847778",
+      "36828586",
+      "36452459",
+      "36348112",
+      "35509102",
+      "35399540",
+      "35296004",
+      "35280829",
+      "34930475",
+      "34708506"
+    ],
+    "refs": [
+      "32841603",
+      "32416589",
+      "32203470",
+      "31753851",
+      "30745086",
+      "30202056",
+      "30184171",
+      "29967174",
+      "29692413",
+      "29466755",
+      "29335546",
+      "29335486",
+      "29284669",
+      "29279377",
+      "29158486",
+      "29053968",
+      "28890333",
+      "28805829",
+      "28671688",
+      "28671687",
+      "27869826",
+      "27625391",
+      "27467250",
+      "27451956",
+      "27437574",
+      "27210764",
+      "26971819",
+      "26952838",
+      "26944475",
+      "26907526",
+      "26619908",
+      "26523776",
+      "26502406",
+      "26499245",
+      "26466568",
+      "26465987",
+      "25693564",
+      "25516281",
+      "25497547",
+      "25260700",
+      "25043047",
+      "24703711",
+      "23079656",
+      "22908213",
+      "22495300",
+      "22388286",
+      "22383036",
+      "22237106",
+      "21741597",
+      "21521783",
+      "21398221",
+      "21330290",
+      "20436461",
+      "20230194",
+      "20110278",
+      "19906715",
+      "19815776",
+      "19505943",
+      "19147408",
+      "19131956",
+      "18798982",
+      "18401412",
+      "15851025",
+      "15774621"
+    ],
+    "similar": [
+      "34140506",
+      "17308084",
+      "23698277",
+      "12112533",
+      "25369933",
+      "21261500",
+      "26944475",
+      "34321240",
+      "21536859",
+      "15774621",
+      "18421304",
+      "11830496",
+      "31383581",
+      "16804919",
+      "26852660",
+      "8562940",
+      "7605997",
+      "26202930",
+      "18835836",
+      "27151989",
+      "8142619",
+      "25231743",
+      "22897851",
+      "19608273",
+      "22848398",
+      "8152805",
+      "18079734",
+      "15674412",
+      "16926283",
+      "14975618",
+      "27252509",
+      "9160683",
+      "36632736",
+      "22058201",
+      "1763056",
+      "11731795",
+      "12086890",
+      "26882564",
+      "26418229",
+      "10477737",
+      "25615415",
+      "24844359",
+      "20565746",
+      "28151996",
+      "30107177",
+      "9695407",
+      "33573325",
+      "18299449",
+      "23975177",
+      "19389505",
+      "39143224",
+      "37243888",
+      "30700838",
+      "1311214",
+      "28790107",
+      "30078801",
+      "30575306",
+      "17928886",
+      "15548998",
+      "26773042",
+      "22846929",
+      "31076442",
+      "27980680",
+      "26952838",
+      "21813447",
+      "28260788",
+      "20124220",
+      "28240214",
+      "28179281",
+      "20851865",
+      "19571616",
+      "31882550",
+      "21481790",
+      "11325654",
+      "30655366",
+      "19133982",
+      "16572206",
+      "23023710",
+      "21892159",
+      "29746601",
+      "35562412",
+      "23687089",
+      "24330618",
+      "12661009",
+      "20672366",
+      "27759908",
+      "21112032",
+      "9103675",
+      "28210005",
+      "21914494",
+      "27856324",
+      "27060678",
+      "37591943",
+      "8167548",
+      "20425367",
+      "15334547",
+      "32203470",
+      "35514954",
+      "22237106",
+      "38972954",
+      "38744920",
+      "22173241",
+      "24997618",
+      "34735923",
+      "20972433",
+      "23695450",
+      "21052064",
+      "32591643",
+      "36947815",
+      "24367274",
+      "34163089",
+      "35182476",
+      "38155420",
+      "30646895",
+      "34879258",
+      "28424353",
+      "23956970",
+      "38561062",
+      "22665526",
+      "28408461",
+      "21828136",
+      "39049600",
+      "27013717",
+      "35339799",
+      "25854815",
+      "24995990",
+      "36891734",
+      "34162697",
+      "29439951",
+      "34396983",
+      "34518643",
+      "32179989",
+      "37453058",
+      "34671088",
+      "36828586",
+      "22516255"
+    ],
+    "review": [
+      "34140506",
+      "18421304",
+      "31383581",
+      "8142619",
+      "9695407",
+      "33573325",
+      "37243888",
+      "30078801",
+      "15548998",
+      "28240214",
+      "28179281",
+      "23023710",
+      "21112032",
+      "9103675",
+      "8167548",
+      "20425367",
+      "35514954",
+      "24997618",
+      "23695450",
+      "38155420",
+      "34879258",
+      "23956970"
+    ],
+    "pmc": [
+      "8211852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-24044-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34140506/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34140506",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse146901",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

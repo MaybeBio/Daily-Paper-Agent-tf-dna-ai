@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present a digital model integrating 400,603 cells from 9 original single-cell multiomic datasets and 52 public single-cell RNA-seq and ATAC-seq datasets across 4 cell lines and 7 differentiation protocols. The model enables time-resolved inference and in silico perturbation of cell-state-specific gene regulatory networks. The authors nominate and experimentally validate previously unreported roles for STAT1 as an exocrine driver and ZEB1 as a dynamic regulator of early endocrine specification and later off-target serotonergic islet cell fate. The work is presented as an interactive resource comprising 1,116 simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary materials, validation experimental details, model architecture and performance metrics, dataset accession details, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract describes an ambitious and potentially valuable integrative approach to modeling human pancreatic differentiation. The scale of data integration is substantial, and the combination of computational prediction with experimental validation of two candidate regulators is a commendable design. However, the abstract alone does not provide sufficient detail to assess the technical soundness of the model, the rigor of the validation experiments, or the robustness of the claims. The central claims regarding predictive control and the roles of STAT1 and ZEB1 cannot be fully evaluated from the supplied material. The work is potentially significant for the diabetes and stem cell biology communities, but the evidence base provided is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in pancreatic development, stem cell biology, diabetes cell therapy, and computational biology would be interested. The resource of 1,116 simulations and the identification of new regulators could inform differentiation protocol design. The integrative multiomic approach may also interest method developers in gene regulatory network inference.
+- **Major strengths** The scale of data integration is substantial, combining original and public datasets across multiple cell lines and protocols. The combination of in silico perturbation with experimental validation of two nominated regulators is a strong design. The provision of an interactive resource with 1,116 simulations is a practical contribution to the community.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The digital model enables time-resolved inference and in silico perturbation of cell-state-specific gene regulatory networks, and this model provides predictive control of human pancreatic cell fate.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims predictive control of cell fate but provides no information on model architecture, training and validation procedures, performance metrics, or benchmarking against existing methods. The accuracy and reliability of the in silico perturbations are not described.
+  - **Why it matters** The central premise of the work is that the model can predictively guide differentiation. Without evidence of model accuracy, validation on held-out data, or comparison to alternative approaches, the predictive claim is unsupported.
+  - **Resolution test** Provide model performance metrics, cross-validation results, and benchmarking against existing gene regulatory network inference methods. Demonstrate that in silico perturbation predictions are concordant with experimental outcomes beyond the two validated examples.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation rigor
+  - **Claim pointer** The authors validate previously unreported roles for STAT1 as an exocrine driver and ZEB1 as a dynamic regulator of early endocrine specification and later off-target serotonergic islet cell fate.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that STAT1 and ZEB1 roles were validated but provides no information on the experimental systems, perturbation methods, phenotypic assays, or statistical significance. The phrase "previously unreported roles" requires careful substantiation given the extensive literature on both transcription factors.
+  - **Why it matters** The experimental validation is the key evidence that the model generates biologically meaningful predictions. Without details on the validation approach and effect sizes, the strength of the support for these claims cannot be assessed.
+  - **Resolution test** Describe the experimental design, including cell lines, perturbation methods, time points, and assays. Provide quantitative results with statistical analysis. Discuss how the claimed novelty was established relative to existing literature on STAT1 and ZEB1 in pancreatic differentiation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data integration and batch effects
+  - **Claim pointer** The model integrates 400,603 cells from 9 original single-cell multiomic datasets and 52 public single-cell RNA-seq and ATAC-seq datasets across 4 cell lines and 7 differentiation protocols.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** Integrating 61 datasets across multiple cell lines, protocols, and sequencing modalities presents substantial challenges in batch correction and data harmonization. The abstract does not describe how batch effects were handled or how cross-dataset consistency was ensured.
+  - **Why it matters** If batch effects are not adequately controlled, the inferred regulatory networks and cell-state trajectories could reflect technical artifacts rather than biological signal, undermining all downstream predictions.
+  - **Resolution test** Describe the batch correction approach, show that integration successfully removes technical variation while preserving biological differences, and provide diagnostics demonstrating the robustness of the integrated atlas.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Interactive resource
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract mentions an interactive resource comprising 1,116 simulations but does not state where this resource is accessible or whether the underlying code and model are publicly available.
+  - **Required correction** Provide a data and code availability statement, including repository URLs and access details for the interactive resource.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The term "digital model" is not defined. It is unclear whether this refers to a computational model, a machine learning framework, or a mathematical simulation.
+  - **Required correction** Define the term "digital model" in the abstract or introduction to clarify the nature of the computational approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Candidate regulator nomination
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states that the model nominates new candidate regulators but does not indicate how many were nominated or how the two validated candidates were prioritized.
+  - **Required correction** Provide the number of nominated candidates and describe the prioritization criteria used to select STAT1 and ZEB1 for experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The predictive claim and the experimental validation claims are the core of the manuscript and cannot be assessed from the abstract alone. R1-M3, while not blocking, is important for establishing the reliability of the integrated data.
+- **Assessment against Nature-style criteria** 
+  - Originality: The integrative approach combining multiomic data with in silico perturbation and experimental validation is potentially original, but the abstract does not provide enough detail to distinguish it from existing gene regulatory network inference methods.
+  - Scientific importance: The potential to improve SC-islet differentiation for diabetes therapy is of high importance. The identification of new regulators could have broad impact.
+  - Interdisciplinary readership: The work bridges computational biology, stem cell biology, and translational medicine, which would appeal to a broad readership.
+  - Technical soundness: Cannot be assessed from the abstract. The model architecture, validation, and experimental methods are not described.
+  - Readability for nonspecialists: The abstract is concise and accessible, though terms such as "multiomic" and "gene regulatory networks" may require some background.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable study, but the central claims regarding predictive control and the validated roles of STAT1 and ZEB1 require the full manuscript to assess. I would be supportive if the technical concerns are resolved upon review of the complete materials.
+
+## Risk / unsupported claims
+- The claim of "predictive control" of cell fate is unsupported without model performance metrics and validation on independent data.
+- The claim that STAT1 and ZEB1 roles are "previously unreported" is unverifiable from the abstract alone and requires a thorough literature comparison.
+- The claim that the model "resolves" chromatin accessibility dynamics is not substantiated without details on the analytical methods.
+- The claim that the resource comprises 1,116 simulations is not verifiable without access to the resource or a description of what constitutes a simulation.
+- The generalizability of the model across 4 cell lines and 7 protocols is asserted but not demonstrated with specific results.

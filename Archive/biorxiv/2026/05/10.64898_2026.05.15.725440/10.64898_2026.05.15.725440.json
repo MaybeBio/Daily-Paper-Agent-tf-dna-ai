@@ -1,0 +1,583 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.15.725440",
+  "title": "FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins",
+  "doi": "10.64898/2026.05.15.725440",
+  "abstract": "Intrinsically disordered proteins (IDPs) drive a large fraction of cellular signaling, transcription and assembly through interfaces that lack a single defined geometry, making the prediction of their binding energies beyond the reach of methods calibrated on the rigid complementarity of folded complexes. Here we introduce an adaptive message passing graph neural network, FlexENN, that predicts binding energies across the full structural spectrum, from folded domains to complexes with one disordered partner. The FlexENN architecture constructs a local interface graph in which each residue node integrates relative geometry, dynamic descriptors, and sequence information, allowing the network to infer conformational fuzziness from a single structure. Benchmarked across folded complexes and IDP systems, including tubulin-tubulin interfaces within microtubules (MTs) and MTs in complex with microtubule associated proteins (MAPs), with reference binding affinity values extracted from our experiments, the model retrieves physically meaningful energetic profiles for complexes where rigid-body methods fail. More broadly, this work delivers an accurate, structure-aware approach to predicting binding free energies for the broad class of disordered-mediated complexes formed by IDPs.",
+  "authors": [
+    "Maryum Irshad",
+    "Kassandra Ori-Mckenney",
+    "Ruxandra I. Dima"
+  ],
+  "published_date": "2026-05-18",
+  "updated_date": "2026-05-19T06:10:16Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725440",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725440.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T20:14:43Z",
+        "timestamp": 1779394483461,
+        "version": "3.53.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 52,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                18
+              ]
+            ],
+            "date-time": "2026-05-18T00:00:00Z",
+            "timestamp": 1779062400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000001",
+          "name": "U.S. National Science Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "MCB-2527485"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MCB-2527485"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Intrinsically disordered proteins (IDPs) drive a large fraction of cellular signaling, transcription and assembly through interfaces that lack a single defined geometry, making the prediction of their binding energies beyond the reach of methods calibrated on the rigid complementarity of folded complexes. Here we introduce an adaptive message passing graph neural network, FlexENN, that predicts binding energies across the full structural spectrum, from folded domains to complexes with one disordered partner. The FlexENN architecture constructs a local interface graph in which each residue node integrates relative geometry, dynamic descriptors, and sequence information, allowing the network to infer conformational fuzziness from a single structure. Benchmarked across folded complexes and IDP systems, including tubulin-tubulin interfaces within microtubules (MTs) and MTs in complex with microtubule associated proteins (MAPs), with reference binding affinity values extracted from our experiments, the model retrieves physically meaningful energetic profiles for complexes where rigid-body methods fail. More broadly, this work delivers an accurate, structure-aware approach to predicting binding free energies for the broad class of disordered-mediated complexes formed by IDPs.</jats:p>",
+      "DOI": "10.64898/2026.05.15.725440",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            19
+          ]
+        ],
+        "date-time": "2026-05-19T06:10:16Z",
+        "timestamp": 1779171016000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Maryum",
+          "family": "Irshad",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of Cincinnati, 45221 Cincinnati, Ohio, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kassandra",
+          "family": "Ori-Mckenney",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular and Cellular Biology, University of California, Davis, California, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6105-7287",
+          "authenticated-orcid": false,
+          "given": "Ruxandra I.",
+          "family": "Dima",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of Cincinnati, 45221 Cincinnati, Ohio, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biom11111690"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1999.3110"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400525m"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.06.011"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "728",
+          "DOI": "10.1038/nchembio.127",
+          "article-title": "Malleable machines take shape in eukaryotic transcriptional regulation",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "Nature Chemical Biology"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "111537",
+          "DOI": "10.1016/j.celrep.2022.111537",
+          "article-title": "Phosphorylation of the DNA repair scaffold SLX4 drives folding of the SAP domain and activation of the MUS81-EME1 endonuclease",
+          "volume": "41",
+          "year": "2022",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.2023113565"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1007/s12551-022-00968-0",
+          "article-title": "Intrinsically disordered proteins and proteins with intrinsically disordered regions in neurodegenerative diseases",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Biophysical Reviews"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BJ20121346"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "347",
+          "DOI": "10.1007/978-1-0716-0524-0_18",
+          "article-title": "Predicting Conformational Properties of Intrinsically Disordered Proteins from Sequence",
+          "volume": "2141",
+          "year": "2020",
+          "journal-title": "Methods in Molecular Biology"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-07004-5"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "465",
+          "DOI": "10.1038/s41592-023-02159-5",
+          "article-title": "Direct prediction of intrinsically disordered protein conformational properties from sequence",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.0c00288"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2007.10.003"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jmr.961"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1002/prot.20019",
+          "article-title": "A physical reference state unifies the structure-derived potential of mean force for protein folding and binding",
+          "volume": "56",
+          "year": "2004",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-04184-w"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sci-ence.adl2528"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4780"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "4481",
+          "DOI": "10.1016/j.csbj.2022.08.034",
+          "article-title": "Obtaining protein foldability information from computational models of AlphaFold2 and RoseTTAFold",
+          "volume": "20",
+          "year": "2022",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "3175",
+          "DOI": "10.1093/bioinformatics/btab254",
+          "article-title": "Atomic-level evolutionary information improves protein–protein interface scoring",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac024"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "108364",
+          "DOI": "10.1016/j.jmgm.2022.108364",
+          "article-title": "Binding affinity prediction for antibody–protein antigen complexes: A machine learning analysis based on interface and surface areas",
+          "volume": "118",
+          "year": "2023",
+          "journal-title": "Journal of Molecular Graphics and Modelling"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c01850"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1186/s12859-025-06123-2",
+          "article-title": "PPI-Graphomer: enhanced protein-protein affinity prediction using pretrained and graph transformer models",
+          "volume": "26",
+          "year": "2025",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "74",
+          "DOI": "10.1021/acs.jcim.5c01734",
+          "article-title": "SSIF-Affinity: Multimodal Deep Learning of Sequence-Structure Features for Precise Protein–Protein Binding Affinity Prediction",
+          "volume": "66",
+          "year": "2026",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "7257",
+          "DOI": "10.1039/D2CP05644E",
+          "article-title": "An Artificial Neural Network Model to Predict Structure-Based Protein-Protein Free Energy of Binding from Rosetta-Calculated Properties",
+          "volume": "25",
+          "year": "2023",
+          "journal-title": "Physical Chemistry Chemical Physics"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "2602",
+          "DOI": "10.1021/acs.jcim.4c01641",
+          "article-title": "Estimating Absolute Protein–Protein Binding Free Energies by a Super Learner Model",
+          "volume": "65",
+          "year": "2025",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nugnes, M. V. ; Bouhraoua, K. E. A. ; Zoubiri, M. ; Pancsa, R. ; Fichó, E. ; Consortium, D. ; Tompa, P. ; Piovesan, D. ; Tosatto, S. C. E. ; Aspromonte, M. C. DisProt in 2026: enhancing intrinsically disordered proteins accessibility, deposition, and annotation. Nucleic Acids Research 2025, Database Issue.",
+          "DOI": "10.1093/nar/gkaf1175"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, J. ; Guan, X. ; Zhang, O. ; Sun, K. ; Wang, Y. ; Bagni, D. ; Head-Gordon, T. Leak Proof PDBBind: A Reorganized Data Set of Protein–Ligand Complexes for More Generalizable Binding Affinity Prediction. The Journal of Physical Chemistry B 2026, 130.",
+          "DOI": "10.1021/acs.jpcb.5c08598"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embr.202051534"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aat1780"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abf6154"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1224",
+          "DOI": "10.1038/s41589-022-01096-2",
+          "article-title": "Microtubule lattice spacing governs cohesive envelope formation of tau family proteins",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "Nature Chemical Biology"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2020.01.029"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1487",
+          "DOI": "10.1038/s41467-018-03909-2",
+          "article-title": "Competition between microtubule-associated proteins directs motor transport",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)81347-1"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/23.18.3613"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(94)90014-0"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-9822(95)00058-3"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb718"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.275.5307.1784"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.48",
+          "first-page": "293",
+          "article-title": "Crystal structure of a β-catenin/BCL9/Tcf4 complex",
+          "volume": "24",
+          "year": "2006",
+          "journal-title": "Structure"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "63",
+          "DOI": "10.1007/s12010-025-05459-y",
+          "article-title": "BCL9 as a Key Player in Wnt/β-catenin Signaling: Implications for Osteogenesis, Tissue Repair, and Oncology",
+          "volume": "198",
+          "year": "2026",
+          "journal-title": "Applied Biochemistry and Biotechnology"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja506385p"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi992498r"
+        },
+        {
+          "key": "2026052112451158000_2026.05.15.725440v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M301781200"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.15.725440",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T19:45:23Z",
+        "timestamp": 1779392723000
+      },
+      "score": 114.16521,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.15.725440"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      },
+      "references-count": 52,
+      "URL": "https://doi.org/10.64898/2026.05.15.725440",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "41191207",
+    "doi": "10.1007/s12672-025-03849-6",
+    "title": "Identification of lactylation-related biomarkers in HNSC by integrating machine learning and Spatial transcriptomics analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Head and neck squamous cell carcinoma (HNSC) is a common malignant tumor with a 5-year survival rate of less than 60% and lactylation modification plays a key role in its occurrence and progression. This study aims to identify key lactylation-related genes (LRGs) in HNSC and their prognostic impact by combining machine learning methods and spatial transcriptomics analysis. METHODS: High-throughput gene expression data of HNSC were obtained from the TCGA database. The \"Limma\" R package was used to screen differentially expressed genes (DEGs), and their biological significance was investigated through GO and KEGG functional enrichment analyses. Subsequently, weighted gene co-expression network analysis (WGCNA) was employed to identify disease trait-associated modules. We used 12 machine learning methods to screen for key genes and validated them in the GSE6631 dataset. Survival curves were plotted to evaluate the prognostic ability of key genes. Transcriptional regulation analysis via the \"RcisTarget\" package identified transcription factors associated with motifs exceeding NES  3.5. Single-cell and spatial transcriptomic analysis was performed, which involved dimensionality reduction, clustering via UMAP, cell type annotation and the plotting of spatial expression distribution maps of key genes. Finally, for immune infiltration analysis, the CIBERSORT algorithm was used to calculate the proportions of 22 types of immune cells, and then the correlations between key genes and immune-related genes were analyzed. RESULTS: Our study identified three key LRGs (MSN, KIF2C, and RFC4), which exhibited strong diagnostic performance, with AUC values of 0.986 for KIF2C, 0.964 for RFC4, and 0.89 for MSN in the TCGA-HNSC cohort. These findings were validated in the GSE6631 dataset. Western blotting showed a significant upregulation of the expression of these genes in the HNSC group, which was consistent with the RT-qPCR results. Survival analysis showed that the high expression of key genes was closely associated with a poorer overall survival (p < 0.05). Spatial transcriptomics analysis revealed that KIF2C, RFC4, and MSN were preferentially expressed in tumor core regions, indicating their involvement in the malignant microenvironment. Additionally, we discovered that 10 types of immune cell infiltrations were significantly changed in HNSC and well correlated with key genes. CONCLUSION: MSN, KIF2C and RFC4 may serve as potential biomarkers for diagnosing and predicting the prognosis of HNSC, providing new insights into targeted therapy.",
+    "keywords": [
+      "Biomarkers",
+      "HNSC",
+      "Lactylation",
+      "Machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Pu-Yu",
+        "Zheng, Yi-Ping",
+        "Zhao, Yu-Lin"
+      ],
+      "short_names": [
+        "Wang PY",
+        "Zheng YP",
+        "Zhao YL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Otolaryngology Head and Neck Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, Henan, China.",
+        "Department of Orthopaedic, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, Henan, China.",
+        "Department of Otolaryngology Head and Neck Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, Henan, China. zhaoylmailent@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Pu-Yu",
+        "short_name": "Wang PY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yi-Ping",
+        "short_name": "Zheng YP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yu-Lin",
+        "short_name": "Zhao YL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, Henan, China. zhaoylmailent@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Discover oncology"
+    ],
+    "journal_abbrev": [
+      "Discov Oncol"
+    ],
+    "pub_date": "2025 Nov 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/05 12:32",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39990687",
+      "39934144",
+      "39393355",
+      "39216002",
+      "39175141",
+      "39031628",
+      "38566813",
+      "38500829",
+      "38481814",
+      "38399367",
+      "38398017",
+      "38344808",
+      "38318076",
+      "37463576",
+      "35153749",
+      "34944976",
+      "34830827",
+      "34650608",
+      "34557778",
+      "34353444",
+      "33566676",
+      "32748349",
+      "32128390",
+      "31943178",
+      "31893516",
+      "31860744",
+      "31785230",
+      "31645732",
+      "31560378",
+      "28618252",
+      "28381792",
+      "27146484",
+      "25822800",
+      "25605792",
+      "22228071",
+      "19114008",
+      "18486742"
+    ],
+    "similar": [
+      "41191207",
+      "41099090",
+      "41504052",
+      "37876534",
+      "40830179",
+      "38058845",
+      "41436286",
+      "40868258",
+      "41246341",
+      "41323394",
+      "40086631",
+      "41300841",
+      "40221657",
+      "40596702",
+      "38566813",
+      "39720726",
+      "41367897",
+      "41353668",
+      "41158309",
+      "40324259",
+      "38025757",
+      "39697749",
+      "37210507",
+      "40914702",
+      "40901831",
+      "40406620",
+      "34269372",
+      "38863714",
+      "40679719",
+      "37204444",
+      "41049606",
+      "41378005",
+      "35117201",
+      "41335178",
+      "40329965",
+      "40419066",
+      "38315286",
+      "37451513",
+      "40016264",
+      "37805766",
+      "40328901",
+      "38817665",
+      "37168331",
+      "39403102",
+      "32095823",
+      "36570380",
+      "39707377",
+      "35756491",
+      "36204311",
+      "38235126",
+      "40078458",
+      "39234248",
+      "37932968",
+      "41234880",
+      "34159769",
+      "41049291",
+      "40642071",
+      "40256656",
+      "40131629",
+      "35754792",
+      "36823662",
+      "40248193",
+      "40313958",
+      "35664436",
+      "40532306",
+      "41479901",
+      "41080564",
+      "40275315",
+      "39600633",
+      "40973872",
+      "39990773",
+      "35241179",
+      "41275140",
+      "35358652",
+      "40832598",
+      "41198554",
+      "36544695",
+      "39524706",
+      "38951833",
+      "36291667",
+      "39696439",
+      "31695792",
+      "41139200",
+      "40312440",
+      "34912722",
+      "35651940",
+      "41035644",
+      "40302809",
+      "41384025",
+      "38384969",
+      "39138392",
+      "39375405",
+      "39754246",
+      "40355841",
+      "36338975",
+      "34321013",
+      "36172089",
+      "40406126",
+      "40630623",
+      "40273141"
+    ],
+    "review": [
+      "41191207",
+      "34269372"
+    ],
+    "pmc": [
+      "12589766"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41191207/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KIF2C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-94",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

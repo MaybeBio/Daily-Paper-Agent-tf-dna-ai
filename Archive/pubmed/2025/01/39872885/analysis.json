@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39872885",
+  "title": "Identification of mitophagy-related key genes and their correlation with immune cell infiltration in acute myocardial infarction via bioinformatics analysis.",
+  "authors": "Sheng, Zulong; Zhang, Rui; Ji, Zhenjun; Liu, Zhuyuan; Zhou, Yaqing",
+  "journal": "Frontiers in cardiovascular medicine",
+  "published_date": "2025-01-28",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学分析急性心肌梗死中线粒体自噬相关基因与免疫浸润，虽涉及转录因子-基因互作网络，但核心非蛋白质-DNA互作建模，且无AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Acute myocardial infarction (AMI), a subset of acute coronary syndrome, remains the major cause of mortality worldwide. Mitochondrial dysfunction is critically involved in AMI progression, and mitophagy plays a vital role in eliminating damaged mitochondria. This study aimed to explore mitophagy-related biomarkers and their potential molecular basis in AMI. METHODS: AMI datasets (GSE24519 and GSE34198) from the Gene Expression Omnibus database were combined and the batch effects were removed. Differentially expressed genes (DEGs) in AMI were selected, intersected with mitophagy-related genes for mitophagy-related DEGs (MRDEGs), and then subjected to enrichment analyses. Next, the MRDEGs were screened using machine learning methods (logistic regression analysis, RandomForest, least absolute shrinkage and selection operator) to construct a diagnostic risk model and select the key genes in AMI. The diagnostic efficacy of the model was evaluated using a nomogram. Moreover, the infiltration patterns of different immune cells in two risk groups were compared. We also explored the interactions between the key genes themselves or with miRNAs/transcription factors (TFs) and drug compounds and visualized the protein structure of the key genes. Finally, we explored and validated the expression of key genes in plasma samples of patients with an AMI and healthy individuals. RESULTS: We screened 28 MRDEGs in AMI. Based on machine learning methods, 12 key genes were screened for the diagnostic risk model, including AGPS, CA2, CAT, LTA4H, MYO9B, PRDX6, PYGB, SIRT3, TFEB, TOM1, UBA52, and UBB. The nomogram further revealed the accuracy of the model for AMI diagnosis. Moreover, we found a lower abundance of immune cells such as gamma delta T and natural killer cells in the high-risk group, and the expression of key genes showed a significant correlation with immune infiltration levels in both groups. Finally, 64 miRNA-mRNA pairs, 75 TF-mRNA pairs, 119 RNA-binding protein-mRNA pairs, and 32 drug-mRNA pairs were obtained in the interaction networks. CONCLUSIONS: In total, 12 key MRDEGs were identified and a risk model was constructed for AMI diagnosis. The findings of this study might provide novel biomarkers for improving the detection of AMI.",
+  "abstract_zh": "背景：急性心肌梗死（AMI）作为急性冠脉综合征的一种，仍是全球范围内导致死亡的主要原因。线粒体功能障碍在AMI进展中起关键作用，而线粒体自噬 (mitophagy) 在清除受损线粒体中发挥重要作用。本研究旨在探索AMI中与线粒体自噬相关的生物标志物及其潜在分子基础。方法：从基因表达综合数据库（Gene Expression Omnibus）中合并AMI数据集（GSE24519和GSE34198），并去除批次效应。筛选AMI中的差异表达基因 (differentially expressed genes, DEGs)，与线粒体自噬相关基因取交集，得到线粒体自噬相关DEGs (mitophagy-related DEGs, MRDEGs)，并进行富集分析。随后，使用机器学习方法（逻辑回归分析、随机森林、最小绝对收缩和选择算子）筛选MRDEGs，以构建诊断风险模型并选择AMI中的关键基因。使用列线图评估模型的诊断效能。此外，比较了两个风险组中不同免疫细胞的浸润模式。我们还探索了关键基因之间及其与miRNA/转录因子 (transcription factors, TFs) 和药物化合物的相互作用，并可视化了关键基因的蛋白质结构。最后，我们探索并验证了AMI患者和健康个体血浆样本中关键基因的表达。结果：我们在AMI中筛选出28个MRDEGs。基于机器学习方法，筛选出12个关键基因用于诊断风险模型，包括AGPS、CA2、CAT、LTA4H、MYO9B、PRDX6、PYGB、SIRT3、TFEB、TOM1、UBA52和UBB。列线图进一步揭示了该模型对AMI诊断的准确性。此外，我们发现高风险组中γδT细胞和自然杀伤细胞等免疫细胞的丰度较低，且关键基因的表达在两组中均与免疫浸润水平显著相关。最后，在相互作用网络中获得了64对miRNA-mRNA、75对TF-mRNA、119对RNA结合蛋白-mRNA和32对药物-mRNA。结论：共鉴定出12个关键MRDEGs，并构建了用于AMI诊断的风险模型。本研究的结果可能为改善AMI检测提供新的生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39872885/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39872885/",
+  "paper_page_path": "papers/pubmed/39872885/index.html"
+}

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, and discussion sections.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. No assessment of editorial fit or journal-specific scope.
+- **Shared manuscript claim summary** The authors identify three somatic HNF1A POU-domain mutations (Y122C, R229Q, V259F) from the ICGC liver cancer database, demonstrate that these mutations reduce HNF4A promoter transactivation and DNA binding in vitro, and use MD simulations to propose a structural mechanism for the V259F mutation. They further perform HNF4A knockdown in Huh7 cells and use RNA-Seq to infer downstream transcriptional network disruption relevant to HCC.
+- **Visible evidence base** Reporter assays (Figure 2A–C), EMSA (Figure 2E), Western blot (Figure 2F), immunofluorescence (Figure 2D), MD simulation analyses (Figure 3A–F), RNA-Seq differential expression and pathway analyses (Figure 4C–G), supplementary figures and tables referenced but not fully provided.
+- **Missing materials affecting confidence** Supplementary File S1 (including Table S2 with primer and siRNA sequences, Figures S1–S4) and Supplementary File S2 (full gene lists) were not provided. Raw RNA-Seq data, differential expression thresholds, and complete statistical outputs are not available. The ICGC mutation list in Table 1 is referenced but not fully shown in the provided text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question regarding the functional impact of HNF1A POU-domain mutations in liver cancer. The combination of in vitro transcriptional assays, DNA-binding experiments, and MD simulations provides a coherent narrative for the loss-of-function effects of the studied mutations. However, the link between the in vitro findings and the proposed HCC relevance is largely inferential, and the RNA-Seq experiment using HNF4A knockdown does not directly test the effect of the HNF1A mutations. Several technical details and controls are missing, and the statistical rigor of the RNA-Seq analysis is not fully documented. The structural conclusions from MD simulations are plausible but not experimentally validated. Overall, the study is descriptive and hypothesis-generating rather than definitive.
+- **Who would be interested in the results, and why** Researchers studying hepatocyte nuclear factor biology, transcriptional regulation in liver development and disease, and the molecular pathogenesis of hepatocellular carcinoma. The identification of specific mutations in a key liver transcription factor and their functional characterization may also be of interest to those working on genetic risk factors for liver cancer and to clinicians involved in HCC genomics.
+- **Major strengths** The study addresses a clinically relevant gap by functionally characterizing HNF1A mutations found in liver cancer patients. The use of multiple complementary approaches (reporter assays, EMSA, IFC, MD simulations) strengthens the conclusion that the mutations impair HNF1A function. The evolutionary conservation analysis of the mutated residues adds weight to the potential pathogenicity. The RNA-Seq experiment provides a broad view of potential downstream effects of HNF4A loss.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and interpretation
+  - **Claim pointer** The authors claim that HNF1A POU-domain mutations downregulate HNF4A promoter activity and that this may trigger HCC through disruption of HNF4A–HNF1A transcriptional networks.
+  - **Evidence pointer** Figure 2A–C, Figure 4C–G, Discussion section
+  - **Concern** The RNA-Seq experiment was performed using HNF4A knockdown, not HNF1A mutant overexpression or knockdown. This does not directly model the effect of the HNF1A mutations. The authors infer that HNF1A mutations lead to reduced HNF4A expression, which then causes the observed transcriptional changes, but this chain of causality is not tested. The experiment demonstrates the consequences of HNF4A loss, not the consequences of the specific HNF1A mutations studied.
+  - **Why it matters** The central claim of the manuscript is that the specific HNF1A mutations cause HCC-relevant transcriptional disruption. Without directly testing the effect of these mutations on the transcriptome, the link between the mutations and the proposed downstream network disruption remains speculative. The current experimental design cannot distinguish between effects due to HNF4A loss and effects that might be specific to the HNF1A mutant context.
+  - **Resolution test** The authors should perform RNA-Seq or targeted gene expression analysis in cells expressing the HNF1A mutants (e.g., overexpression in Huh7 or HEK293 cells) and compare the transcriptional profiles to those from HNF4A knockdown. Alternatively, they should clearly frame the RNA-Seq experiment as a separate exploration of HNF4A-dependent pathways and temper the claims linking the mutations to the observed transcriptional changes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation and controls
+  - **Claim pointer** The authors state that the reduced transcriptional activity of HNF1A mutants is due to impaired DNA binding, as shown by EMSA.
+  - **Evidence pointer** Figure 2E, Section 3.2
+  - **Concern** The EMSA results are described qualitatively, and no quantification or statistical analysis is provided. It is unclear whether the observed reduction in binding is statistically significant and whether the differences between mutants are meaningful. Additionally, the EMSA appears to have been performed with nuclear extracts from overexpressing cells, but the specific DNA probe sequence and the specificity of the binding (e.g., competition with unlabeled probe) are not described.
+  - **Why it matters** The conclusion that the mutations impair DNA binding is a key mechanistic finding. Without quantitative data and appropriate controls, the strength of this conclusion is limited. The lack of statistical analysis makes it difficult to assess the reliability of the observed differences.
+  - **Resolution test** Provide quantification of EMSA band intensities from at least three independent experiments, with statistical comparison between WT and mutants. Include a competition assay with unlabeled specific and nonspecific probes to demonstrate binding specificity. Report the DNA probe sequence and binding conditions in detail.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors propose that the V259F mutation induces large conformational changes in the N-terminal region of HNF1A, leading to loss of DNA interactions by R203 and K205.
+  - **Evidence pointer** Figure 3A–F, Section 3.3
+  - **Concern** The MD simulation analysis is based on a single mutation (V259F) and a single starting structure (PDB 1IC8). The authors report increased fluctuations in the N-terminal region and loss of specific contacts, but the functional relevance of these changes is not experimentally validated. The claim that R203 and K205 are critical for DNA binding is not directly tested (e.g., by mutating these residues).
+  - **Why it matters** The structural mechanism is presented as a major finding, but it remains speculative without experimental validation. The simulations are informative but not conclusive, and the link between the observed conformational changes and the reduced DNA binding is inferred rather than demonstrated.
+  - **Resolution test** Perform site-directed mutagenesis of R203 and K205 to test their role in DNA binding. Alternatively, validate the MD predictions using hydrogen-deuterium exchange or limited proteolysis experiments. At minimum, the authors should acknowledge the speculative nature of the structural interpretation and discuss alternative explanations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data availability
+  - **Claim pointer** The authors report 748 differentially expressed genes (DEGs) from RNA-Seq analysis of HNF4A knockdown cells.
+  - **Evidence pointer** Figure 4C–D, Section 3.4
+  - **Concern** The criteria for defining DEGs (e.g., fold-change threshold, adjusted p-value) are not stated. The number of replicates for the RNA-Seq experiment is not specified. The authors mention "2 controls" and "2 siRNA1 and 2 siRNA2" in the methods, which suggests only two biological replicates per condition, which is generally insufficient for robust differential expression analysis. The full list of DEGs is not provided in the main text or accessible supplementary files.
+  - **Why it matters** The RNA-Seq results form the basis for the claim that HNF4A loss disrupts lipid and cholesterol metabolism pathways. Without clear statistical thresholds and adequate replication, the reliability of these findings is questionable. The lack of access to the full DEG list prevents independent verification.
+  - **Resolution test** Provide the complete DEG list with log2 fold changes and adjusted p-values. State the thresholds used for significance. If only two replicates were used, acknowledge this limitation and consider validating key findings by qRT-PCR.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods section, Section 2.2
+  - **Evidence pointer** Section 2.2, Supplementary File S1, Table S2
+  - **Issue** The source of the human HNF1A WT plasmid is stated as Addgene, but the specific plasmid ID is not provided. The mouse HNF1A sequence was amplified from genomic DNA, but the species origin of the human mutants is unclear. The authors state that "mutant variants of human HNF1A Y122C and V259F were created," but the template for these mutants is not specified.
+  - **Required correction** Provide the Addgene plasmid IDs for all constructs. Clarify whether the human mutants were generated from the human WT plasmid and whether the mouse mutants were generated from the mouse WT sequence. Specify the exact amino acid numbering system used (e.g., based on which isoform).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Figure 2D, Section 3.2
+  - **Issue** The immunofluorescence images are described as showing nuclear localization, but no quantification or statistical analysis is provided. It is unclear whether there are any subtle differences in localization efficiency between WT and mutants.
+  - **Required correction** Provide a quantitative analysis of nuclear versus cytoplasmic fluorescence intensity, or at least state that the localization was qualitatively assessed and appeared identical across all constructs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion section
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of HNF1A mutations in HCC is somewhat brief, and the authors do not fully contextualize their findings with respect to the known frequency of HNF1A mutations in HCC versus other liver diseases such as hepatocellular adenoma.
+  - **Required correction** Expand the discussion to address the prevalence of HNF1A mutations in HCC cohorts and how the studied mutations compare to those found in other conditions. This would strengthen the clinical relevance of the findings.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.9
+  - **Evidence pointer** Section 2.9
+  - **Issue** The RNA-Seq analysis is described as using "BGI's Dr. TOM approach," which is a proprietary analysis pipeline. The specific alignment method, reference genome version, and normalization approach are not described.
+  - **Required correction** Provide details on the bioinformatics pipeline, including the reference genome version, alignment tool, and normalization method. If the Dr. TOM approach is proprietary, state this and provide the raw data for independent analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental design mismatch between HNF1A mutations and HNF4A knockdown), R1-M2 (lack of quantitative EMSA data and controls), R1-M4 (insufficient replication and unclear thresholds for RNA-Seq).
+- **Assessment against Nature-style criteria** Originality: The study is moderately original, as it provides functional characterization of specific HNF1A mutations in liver cancer, an area with limited prior work. However, the approach is largely descriptive and does not introduce a novel concept or methodology. Scientific importance: The findings are of interest to the liver cancer and transcription factor fields, but the clinical relevance is not firmly established. The study does not provide evidence that these mutations are drivers of HCC in patients. Interdisciplinary readership: The work bridges cancer genomics, transcription factor biology, and structural biology, which could appeal to a broad audience. However, the technical depth in each area is limited, and the lack of integration between the structural and transcriptomic analyses reduces the impact. Technical soundness: The in vitro assays are standard, but the lack of quantitative data and controls weakens the conclusions. The MD simulations are technically sound but not experimentally validated. The RNA-Seq analysis has insufficient replication. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the methods section assumes familiarity with molecular biology techniques. The structural analysis section may be challenging for readers without a computational biology background.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents interesting observations, but the experimental design does not directly test the central hypothesis, and several technical issues need to be addressed. The authors should either redesign the RNA-Seq experiment to directly test the effect of HNF1A mutations or substantially temper the claims linking the mutations to the observed transcriptional changes. The EMSA and RNA-Seq analyses require additional quantitative data and statistical rigor.

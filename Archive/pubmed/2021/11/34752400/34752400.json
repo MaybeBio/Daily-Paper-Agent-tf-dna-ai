@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "34752400",
+    "doi": "10.1109/TCBB.2021.3126623",
+    "title": "Prediction of Transcription Factor Binding Sites With an Attention Augmented Convolutional Neural Network."
+  },
+  "content": {
+    "abstract": "Identification of transcription factor binding sites (TFBSs) is essential for revealing the rules of protein-DNA binding. Although some computational methods have been presented to predict TFBSs using epigenomic and sequence features, most of them ignore the common features among cross-cell types. It is still unclear to what extent the common features could help for this task. To this end, we proposed a new method (named Attention-augmented Convolutional Neural Network, or ACNN) to predict TFBSs. ACNN uses attention-augmented convolutional layers to capture global and local contexts in DNA sequences and employs the convolutional layers to capture features of histone modification markers. In addition, ACNN adopts the private and shared convolutional neural network (CNN) modules to learn specific and common features, respectively. To encourage the shared CNN module to learn the common features, adversarial training is applied in ACNN. The results on 253 ChIP-seq datasets show that ACNN outperforms other existing methods. The attention-augmented convolutional layers and adversarial training mechanism in ACNN can effectively improve the prediction performance. Moreover, in the case of limited labeled data, ACNN also performs better than a baseline method. We further visualize the convolution kernels as motifs to explain the interpretability of ACNN.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "*Algorithms",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jing Zhang, Fang",
+        "Zhang, Shao-Wu",
+        "Zhang, Shihua"
+      ],
+      "short_names": [
+        "Jing Zhang F",
+        "Zhang SW",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Jing Zhang, Fang",
+        "short_name": "Jing Zhang F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Shao-Wu",
+        "short_name": "Zhang SW",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Shihua",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2022 Nov-Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/10 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [
+      "39487188",
+      "38452348"
+    ],
+    "refs": [],
+    "similar": [
+      "34752400",
+      "34929739",
+      "36748992",
+      "38701417",
+      "31634140",
+      "31336830",
+      "37328639",
+      "35462009",
+      "36275954",
+      "31161194",
+      "33522898",
+      "29993783",
+      "35768792",
+      "33498086",
+      "34773890",
+      "34613923",
+      "30835229",
+      "34272562",
+      "38643066",
+      "39350338",
+      "28245811",
+      "38236675",
+      "33767912",
+      "33535061",
+      "35652477",
+      "31323206",
+      "38733561",
+      "39275365",
+      "30106688",
+      "35196251",
+      "36155619",
+      "35246878",
+      "33890681",
+      "30753280",
+      "34073774",
+      "34664074",
+      "31856220",
+      "38452348",
+      "29722865",
+      "31881982",
+      "32568326",
+      "38049725",
+      "34091426",
+      "36094959",
+      "36917472",
+      "32960766",
+      "37723425",
+      "35161459",
+      "34902364",
+      "30351403",
+      "36049552",
+      "34814362",
+      "30808287",
+      "34148011",
+      "37022836",
+      "36959539",
+      "33160328",
+      "32404971",
+      "35872410",
+      "36899529",
+      "23282203",
+      "32449176",
+      "34912446",
+      "31623863",
+      "36403092",
+      "33735660",
+      "35459273",
+      "37598467",
+      "33446851",
+      "36933628",
+      "35997564",
+      "32980530",
+      "27307608",
+      "31480319",
+      "39076052",
+      "36484687",
+      "36335751",
+      "38363672",
+      "32770026",
+      "35671654",
+      "35255808",
+      "36661313",
+      "33581335",
+      "34426168",
+      "33334313",
+      "35042722",
+      "36804213",
+      "33007105",
+      "30440889",
+      "32598287",
+      "30866736",
+      "36846979",
+      "30990191",
+      "34902690",
+      "36099675",
+      "31181561",
+      "35746372",
+      "37238495",
+      "35043942",
+      "35325031",
+      "32896633",
+      "34534646",
+      "34358797",
+      "37140548",
+      "36588793",
+      "35404820",
+      "31824562",
+      "36593268",
+      "35808358",
+      "30571627",
+      "35471886",
+      "29745837",
+      "37883905",
+      "37639434",
+      "36067103",
+      "34882561",
+      "38048661",
+      "37322930",
+      "37721924",
+      "31940793",
+      "37845681",
+      "36374878",
+      "35983154",
+      "38946810",
+      "35965749",
+      "29081688",
+      "38466589",
+      "37867600",
+      "37939535",
+      "35588409",
+      "37226687",
+      "38619419"
+    ],
+    "review": [
+      "34752400",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2021.3126623",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2021.3126623",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

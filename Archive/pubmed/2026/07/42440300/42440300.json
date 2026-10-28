@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "42440300",
+    "doi": "10.1096/fj.202504713R",
+    "title": "Gut-Derived Sodium Butyrate Attenuates Liver Fibrosis by Inhibiting Aerobic Glycolysis via the HDAC3/c-Myc Signaling Axis."
+  },
+  "content": {
+    "abstract": "Liver fibrosis remains a major global health challenge, driving interest in bioactive metabolites from natural sources as potential therapies. Sodium butyrate (NaB), a gut microbiota-derived short-chain fatty acid with notable anti-fibrotic activity, shows promise, although its mechanisms remain unclear. This study aims to explore the molecular mechanisms through which NaB attenuates liver fibrosis. This study integrates bioinformatics and network pharmacology to predict the molecular targets through which NaB exerts its anti-fibrotic effects. Candidate targets were validated through molecular docking, histopathology, CETSA, and SPR. The inferred mechanisms were further validated in vitro (LX-2 cells) and in vivo (CCl(4)-induced mice) using Western blot, IF Co-IP, RT-qPCR, ELISA, and histopathological staining. HDAC3 was identified as a key driver of liver fibrosis. As a natural HDAC3 inhibitor, NaB markedly attenuated CCl(4)-induced hepatic injury and fibrosis, accompanied by reduced expression of HDAC3, c-Myc, glycolytic enzymes (HK2, PFKFB3, and PKM2), and fibrotic markers (alpha-SMA and type I collagen) in fibrotic liver tissues and LX-2 cells. Mechanistically, NaB exerts its anti-fibrotic effects by inhibiting HDAC3 expression and deacetylase activity, promoting c-Myc acetylation and downregulating its expression, thereby suppressing glycolytic metabolic reprogramming in hepatic stellate cells. These findings indicate that NaB attenuates liver fibrosis by inhibiting HDAC3/c-Myc-mediated metabolic reprogramming, revealing a gut-derived anti-fibrotic mechanism and potential therapeutic targets.",
+    "keywords": [
+      "glycolysis",
+      "hepatic stellate cells",
+      "histone deacetylases",
+      "liver fibrosis",
+      "sodium butyrate"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Butyric Acid/pharmacology",
+      "*Histone Deacetylases/metabolism/genetics",
+      "Histone Deacetylase 3",
+      "*Liver Cirrhosis/metabolism/drug therapy/pathology/chemically induced",
+      "Mice",
+      "Humans",
+      "*Glycolysis/drug effects",
+      "*Signal Transduction/drug effects",
+      "*Proto-Oncogene Proteins c-myc/metabolism",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Hepatic Stellate Cells/metabolism/drug effects",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Yong",
+        "Wu, Huayue",
+        "Zhou, Yutong",
+        "Yin, Pengsheng",
+        "Wu, Long",
+        "Li, Haiyang",
+        "Zuo, Shi",
+        "Yang, Zhe",
+        "Cao, Kun"
+      ],
+      "short_names": [
+        "Sun Y",
+        "Wu H",
+        "Zhou Y",
+        "Yin P",
+        "Wu L",
+        "Li H",
+        "Zuo S",
+        "Yang Z",
+        "Cao K"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-1600-857X"
+      ],
+      "affiliations": [
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Hepatobiliary Surgery, Guizhou Hospital of the First Affiliated Hospital of Sun Yat-sen University, Guiyang, Guizhou, China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Hepatobiliary Surgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "The Provincial Key Laboratory of Digestive System Diseases of Guizhou Province, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Hepatobiliary Surgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "The Provincial Key Laboratory of Digestive System Diseases of Guizhou Province, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "School of Basic Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Hepatobiliary Surgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "The Provincial Key Laboratory of Digestive System Diseases of Guizhou Province, Guizhou Medical University, Guiyang, Guizhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Yong",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0009-0009-1600-857X"
+        ],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Hepatobiliary Surgery, Guizhou Hospital of the First Affiliated Hospital of Sun Yat-sen University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Huayue",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yutong",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Pengsheng",
+        "short_name": "Yin P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Long",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haiyang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Hepatobiliary Surgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+          "The Provincial Key Laboratory of Digestive System Diseases of Guizhou Province, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Shi",
+        "short_name": "Zuo S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Hepatobiliary Surgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+          "The Provincial Key Laboratory of Digestive System Diseases of Guizhou Province, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhe",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Kun",
+        "short_name": "Cao K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Hepatobiliary Surgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+          "The Provincial Key Laboratory of Digestive System Diseases of Guizhou Province, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
+    ],
+    "journal_abbrev": [
+      "FASEB J"
+    ],
+    "pub_date": "2026 Jul 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/13 12:35",
+    "fetched_at": "2026-10-02 01:52:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40441587",
+      "40360368",
+      "40221650",
+      "40180786",
+      "39491635",
+      "39470602",
+      "39321687",
+      "39209202",
+      "39121535",
+      "39063116",
+      "39030473",
+      "38981022",
+      "38823393",
+      "38810839",
+      "37663261",
+      "37422149",
+      "37316582",
+      "36532559",
+      "35429101",
+      "35307840",
+      "35168239",
+      "34956204",
+      "34923653",
+      "34884585",
+      "34164507",
+      "34026223",
+      "33128017",
+      "32651356",
+      "32490750",
+      "32315286",
+      "32099951",
+      "31622696",
+      "30976737",
+      "30683985",
+      "30510243",
+      "30483502",
+      "29706933",
+      "28823367",
+      "28487545",
+      "28104981",
+      "28045459",
+      "27358484",
+      "27259147",
+      "24691964",
+      "23993913",
+      "23828891",
+      "19065135",
+      "17952090",
+      "17456850",
+      "15591520"
+    ],
+    "similar": [
+      "42440300",
+      "39321687",
+      "42244286",
+      "40180786",
+      "42066824",
+      "41289748",
+      "41740338",
+      "41718472",
+      "41759558",
+      "38959553",
+      "41075517",
+      "39915293",
+      "41197924",
+      "41905442",
+      "40113123",
+      "42492261",
+      "41038145",
+      "30098497",
+      "37679574",
+      "40452107",
+      "41443484",
+      "41796616",
+      "40101858",
+      "41980396",
+      "40360368",
+      "32771890",
+      "40761670",
+      "42546437",
+      "39632278",
+      "39395324",
+      "42322765",
+      "42419145",
+      "34902361",
+      "41135015",
+      "32101775",
+      "41353884",
+      "42130159",
+      "42141267",
+      "41260554",
+      "41844050",
+      "40326028",
+      "40356680",
+      "41936306",
+      "42419122",
+      "42407187",
+      "23279742",
+      "42320086",
+      "41785727",
+      "42143988",
+      "35125823",
+      "41429385",
+      "41023273",
+      "42103827",
+      "42204558",
+      "41761033",
+      "39032663",
+      "34321171",
+      "38471319",
+      "23770341",
+      "27125275",
+      "41047032",
+      "40407304",
+      "42102670",
+      "42503305",
+      "42543339",
+      "36610117",
+      "38925513",
+      "41421078",
+      "41873910",
+      "41579590",
+      "40414578",
+      "42173841",
+      "39965387",
+      "39121535",
+      "38852802",
+      "40345560",
+      "40637204",
+      "25832428",
+      "41015321",
+      "42201665",
+      "40741470",
+      "33758354",
+      "30584275",
+      "41418678",
+      "41314270",
+      "30522100",
+      "38708497",
+      "39322020",
+      "38621463",
+      "27151496",
+      "42435945",
+      "38169205",
+      "42012661",
+      "40818181",
+      "33864382",
+      "41698499",
+      "40441587",
+      "37274069",
+      "30543783",
+      "39103531"
+    ],
+    "review": [
+      "42440300"
+    ],
+    "pmc": [
+      "13361148"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cirrhosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cirrhosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42440300/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1096/fj.202504713R",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3588",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "39258876",
+    "doi": "10.1080/07853890.2024.2399759",
+    "title": "Predicting BRCA mutation and stratifying targeted therapy response using multimodal learning: a multicenter study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The status of BRCA1/2 genes plays a crucial role in the treatment decision-making process for multiple cancer types. However, due to high costs and limited resources, a demand for BRCA1/2 genetic testing among patients is currently unmet. Notably, not all patients with BRCA1/2 mutations achieve favorable outcomes with poly (ADP-ribose) polymerase inhibitors (PARPi), indicating the necessity for risk stratification. In this study, we aimed to develop and validate a multimodal model for predicting BRCA1/2 gene status and prognosis with PARPi treatment. METHODS: We included 1695 slides from 1417 patients with ovarian, breast, prostate, and pancreatic cancers across three independent cohorts. Using a self-attention mechanism, we constructed a multi-instance attention model (MIAM) to detect BRCA1/2 gene status from hematoxylin and eosin (H&E) pathological images. We further combined tissue features from the MIAM model, cell features, and clinical factors (the MIAM-C model) to predict BRCA1/2 mutations and progression-free survival (PFS) with PARPi therapy. Model performance was evaluated using area under the curve (AUC) and Kaplan-Meier analysis. Morphological features contributing to MIAM-C were analyzed for interpretability. RESULTS: Across the four cancer types, MIAM-C outperformed the deep learning-based MIAM in identifying the BRCA1/2 genotype. Interpretability analysis revealed that high-attention regions included high-grade tumors and lymphocytic infiltration, which correlated with BRCA1/2 mutations. Notably, high lymphocyte ratios appeared characteristic of BRCA1/2 mutations. Furthermore, MIAM-C predicted PARPi therapy response (log-rank p < 0.05) and served as an independent prognostic factor for patients with BRCA1/2-mutant ovarian cancer (p < 0.05, hazard ratio:0.4, 95% confidence interval: 0.16-0.99). CONCLUSIONS: The MIAM-C model accurately detected BRCA1/2 gene status and effectively stratified prognosis for patients with BRCA1/2 mutations.",
+    "keywords": [
+      "BRCA",
+      "cancer",
+      "deep learning",
+      "interpretability",
+      "multimodal",
+      "targeted therapy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Poly(ADP-ribose) Polymerase Inhibitors/therapeutic use",
+      "*Mutation",
+      "Male",
+      "BRCA1 Protein/genetics",
+      "BRCA2 Protein/genetics",
+      "Prognosis",
+      "Middle Aged",
+      "Progression-Free Survival",
+      "Ovarian Neoplasms/genetics/drug therapy",
+      "Breast Neoplasms/drug therapy/genetics/pathology",
+      "Molecular Targeted Therapy/methods",
+      "Pancreatic Neoplasms/genetics/drug therapy",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yi",
+        "Xiong, Xiaomin",
+        "Liu, Xiaohua",
+        "Xu, Mengke",
+        "Yang, Boping",
+        "Li, Xiaoju",
+        "Li, Yu",
+        "Lin, Bo",
+        "Xu, Bo"
+      ],
+      "short_names": [
+        "Li Y",
+        "Xiong X",
+        "Liu X",
+        "Xu M",
+        "Yang B",
+        "Li X",
+        "Li Y",
+        "Lin B",
+        "Xu B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8693-3060"
+      ],
+      "affiliations": [
+        "School of Medicine, Chongqing University, Chongqing, China.",
+        "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China.",
+        "School of Medicine, Chongqing University, Chongqing, China.",
+        "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China.",
+        "Bioengineering College of Chongqing University, Chongqing, China.",
+        "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China.",
+        "Department of General Gynecology, Women and Children's Hospital of Chongqing Medical University, Chongqing Health Center for Women and Children, Chongqing, China.",
+        "Department of Pathology, Chongqing University Cancer Hospital and School of Medicine, Chongqing University, Chongqing, China.",
+        "Department of Pathology, Chongqing University Cancer Hospital and School of Medicine, Chongqing University, Chongqing, China.",
+        "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China.",
+        "School of Medicine, Chongqing University, Chongqing, China.",
+        "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Chongqing University, Chongqing, China.",
+          "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Xiaomin",
+        "short_name": "Xiong X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Chongqing University, Chongqing, China.",
+          "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaohua",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Bioengineering College of Chongqing University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Mengke",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Boping",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Gynecology, Women and Children's Hospital of Chongqing Medical University, Chongqing Health Center for Women and Children, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoju",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Chongqing University Cancer Hospital and School of Medicine, Chongqing University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yu",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Chongqing University Cancer Hospital and School of Medicine, Chongqing University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Bo",
+        "short_name": "Lin B",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Bo",
+        "short_name": "Xu B",
+        "identifiers": [
+          "0000-0001-8693-3060"
+        ],
+        "affiliations": [
+          "School of Medicine, Chongqing University, Chongqing, China.",
+          "Chongqing Key Laboratory for Intelligent Oncology in Breast Cancer, Chongqing University Cancer Hospital, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of medicine"
+    ],
+    "journal_abbrev": [
+      "Ann Med"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/11 12:44",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "41788993"
+    ],
+    "refs": [
+      "38325551",
+      "38325071",
+      "37221047",
+      "36318705",
+      "36261476",
+      "36232628",
+      "36042935",
+      "35944502",
+      "35834777",
+      "35420638",
+      "35341713",
+      "35290101",
+      "35149709",
+      "35122049",
+      "34891095",
+      "34861371",
+      "34556802",
+      "34354733",
+      "34081848",
+      "33763651",
+      "33712588",
+      "33500713",
+      "33406487",
+      "33387492",
+      "33311458",
+      "33310779",
+      "33199723",
+      "32795228",
+      "32607472",
+      "32397691",
+      "32259785",
+      "31561183",
+      "31157963",
+      "30900310",
+      "30614364",
+      "30224757",
+      "29922827",
+      "29091556",
+      "28632866",
+      "28480178",
+      "27629256",
+      "27527408",
+      "27164577",
+      "26871470",
+      "25547073",
+      "22193408",
+      "21990146",
+      "18451254",
+      "8524414",
+      "7545954"
+    ],
+    "similar": [
+      "39258876",
+      "41616389",
+      "42061278",
+      "29867226",
+      "29615458",
+      "38551024",
+      "40174507",
+      "32164585",
+      "37891662",
+      "40796115",
+      "40419351",
+      "28288110",
+      "40775791",
+      "40869932",
+      "37580018",
+      "40854745",
+      "39643918",
+      "27908594",
+      "39847877",
+      "28454085",
+      "39914419",
+      "37211773",
+      "30103829",
+      "38246184",
+      "40344964",
+      "41186660",
+      "39605059",
+      "33862496",
+      "33525353",
+      "25366685",
+      "38899756",
+      "20606085",
+      "40694864",
+      "28765325",
+      "39630850",
+      "38982928",
+      "30551885",
+      "34293664",
+      "32718143",
+      "32778410",
+      "34715071",
+      "38967864",
+      "37722977",
+      "38805344",
+      "38100492",
+      "39484212",
+      "28549976",
+      "36232628",
+      "39453391",
+      "33352687",
+      "40192953",
+      "28487467",
+      "39923681",
+      "33012552",
+      "39083703",
+      "25481791",
+      "38866043",
+      "27002934",
+      "38452035",
+      "41430003",
+      "38444005",
+      "40189539",
+      "25236687",
+      "31227342",
+      "39103848",
+      "28223274",
+      "33886122",
+      "28190311",
+      "23810788",
+      "38886516",
+      "36054589",
+      "27025497",
+      "35381738",
+      "32471250",
+      "22139894",
+      "34007132",
+      "23922302",
+      "34351646",
+      "37455374",
+      "35074264",
+      "25348513",
+      "33740262",
+      "26833043",
+      "30652428",
+      "38041241",
+      "39187844",
+      "22711857",
+      "25993149",
+      "39178525",
+      "29313279",
+      "28782087",
+      "32749942",
+      "40117531",
+      "36759000",
+      "32356124",
+      "21862407",
+      "28925391",
+      "25948675",
+      "37470594",
+      "40244633"
+    ],
+    "review": [
+      "39258876",
+      "29867226",
+      "39643918",
+      "37211773",
+      "33862496",
+      "38899756",
+      "39630850",
+      "37722977",
+      "28487467",
+      "33012552",
+      "33886122",
+      "36054589",
+      "35381738",
+      "34007132",
+      "37455374",
+      "25348513",
+      "33740262"
+    ],
+    "pmc": [
+      "11391871"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07853890.2024.2399759?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39258876/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07853890.2024.2399759",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39258876",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

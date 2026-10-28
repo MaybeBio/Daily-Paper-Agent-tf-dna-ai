@@ -1,0 +1,263 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-rtpsz",
+  "title": "An Automated On-The-Fly Optimization of Resource Allocation for High-Throughput Protein-Ligand Binding Free Energy Simulations",
+  "doi": "10.26434/chemrxiv-2023-rtpsz",
+  "abstract": "Molecular dynamics simulations to compute protein to small molecule binding free energies are becoming a valuable tool in the early stages of drug discovery. However, their cost and complexity are often prohibitive for high-throughput studies. Herein, we present an automated workflow for the thermodynamic integration scheme with the “on-the-fly” optimization of computational resource allocation for each λ-window of both relative and absolute binding free energy simulations. This iterative workflow utilizes automatic equilibration detection and convergence testing via the Jensen-Shannon distance to determine optimal simulation stopping points in an entirely data-driven manner. We benchmark our workflow on the well-characterized systems cyclin-dependent kinase 2 and T4 Lysozyme L99A/M102Q mutant, as well as the more flexible SARS-CoV-2 papain-like protease. We demonstrate that this proposed protocol can achieve over an 85% reduction in computational expense while maintaining similar levels of accuracy when compared to other benchmarking protocols. We examine the performance of this protocol on both small and large molecular transformations. The cost accuracy tradeoff of repeated runs is also investigated.",
+  "authors": [
+    "S. Benjamin Koby",
+    "Evgeny Gutkin",
+    "Shree Patel",
+    "Maria Kurnikova"
+  ],
+  "published_date": "2023-08-02",
+  "updated_date": "2023-08-02T09:22:53Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-rtpsz",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-rtpsz",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:49:14Z",
+        "timestamp": 1785415754941,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            2
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                2
+              ]
+            ],
+            "date-time": "2023-08-02T00:00:00Z",
+            "timestamp": 1690934400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Molecular dynamics simulations to compute protein to small molecule binding free energies are becoming a valuable tool in the early stages of drug discovery. However, their cost and complexity are often prohibitive for high-throughput studies. Herein, we present an automated workflow for the thermodynamic integration scheme with the “on-the-fly” optimization of computational resource allocation for each λ-window of both relative and absolute binding free energy simulations. This iterative workflow utilizes automatic equilibration detection and convergence testing via the Jensen-Shannon distance to determine optimal simulation stopping points in an entirely data-driven manner. We benchmark our workflow on the well-characterized systems cyclin-dependent kinase 2 and T4 Lysozyme L99A/M102Q mutant, as well as the more flexible SARS-CoV-2 papain-like protease. We demonstrate that this proposed protocol can achieve over an 85% reduction in computational expense while maintaining similar levels of accuracy when compared to other benchmarking protocols. We examine the performance of this protocol on both small and large molecular transformations.  The cost accuracy tradeoff of repeated runs is also investigated.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-rtpsz",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            2
+          ]
+        ],
+        "date-time": "2023-08-02T09:22:53Z",
+        "timestamp": 1690968173000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "An Automated On-The-Fly Optimization of Resource Allocation for High-Throughput Protein-Ligand Binding Free Energy Simulations"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-6643-7271",
+          "authenticated-orcid": false,
+          "given": "S. Benjamin",
+          "family": "Koby",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evgeny",
+          "family": "Gutkin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shree",
+          "family": "Patel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8010-8374",
+          "authenticated-orcid": false,
+          "given": "Maria",
+          "family": "Kurnikova",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-rtpsz",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T08:50:33Z",
+        "timestamp": 1778748633000
+      },
+      "score": 90.547775,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-rtpsz"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            2
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-rtpsz",
+      "relation": {
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.26434/chemrxiv-2023-rtpsz-v2",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

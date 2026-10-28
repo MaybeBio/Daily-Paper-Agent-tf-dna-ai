@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "40927188",
+    "doi": "10.3389/fmed.2025.1612390",
+    "title": "Identification and validation for biomarkers associated with mitochondrial metabolism in chronic obstructive pulmonary disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chronic obstructive pulmonary disease (COPD) is a chronic respiratory disease. However, the biological role of mitochondrial metabolism (MM) in COPD remains poorly understood. This study aimed to explore the underlying mechanisms of MM in COPD using bioinformatics methods. METHODS: The datasets GSE57148 and GSE8581 were downloaded from Gene Expression Omnibus (GEO), and 1,234 mitochondrial metabolism-related genes (MM-RGs) were downloaded from the literature. In GSE57148 dataset, differentially expressed genes (DEGs) were determined. The intersection of DEGs and MM-RGs was taken to obtain candidate genes. Protein-protein interaction (PPI) network was used to obtained candidate key genes. Machine learning was employed to detect key genes. The biomarkers were identified through expression validation and receiver operating characteristic (ROC) curves. Subsequently, a nomogram was developed to forecast the likelihood of developing COPD. In addition, functional enrichment analysis, immune infiltration, molecular regulatory network, and drug prediction were carried out. Finally, reverse transcription-quantitative polymerase chain reaction (RT-qPCR) and immunohistochemistry analysis were used to verify DEGs of lung tissues of COPD patients and controls. RESULTS: Adenine phosphoribosyltransferase (APRT) and lecithin-cholesterol acyltransferase (LCAT) were identified as potential biomarkers. Subsequently, a nomogram was formulated based on these two biomarkers, revealing their significant diagnostic potential. Pathways co-enriched by two biomarkers included ribosome, among others. Immune infiltration analysis showed that 15 types of immune cells were differential immune cells. APRT predicted a total of 30 miRNAs and LCAT predicted a total of 17 miRNAs. APRT was predicted to be targeted by 30 microRNAs (miRNAs), while LCAT was associated with 17 miRNAs. Additionally, 178 transcription factors (TFs) were predicted to regulate APRT, and 86 TFs were predicted for LCAT. TFs shared by both biomarkers include SPI1, CTCF and BCL3, etc. Finally, drug prediction analysis found a total of 114 target drugs for APRT and 156 target drugs for LCAT. The mRNA and protein expression of APRT and LCAT were significantly decreased in COPD patients' lung tissues. CONCLUSION: APRT and LCAT were identified as biomarkers for COPD, and this provides deeper understanding into the mechanisms behind COPD and identifies potential markers for early diagnosis and therapeutic intervention.",
+    "keywords": [
+      "Immune infiltration",
+      "biomarkers",
+      "chronic obstructive pulmonary disease",
+      "drug forecasting",
+      "mitochondrial metabolism"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Wenjun",
+        "Wu, Lanxiang",
+        "Ouyang, Chao",
+        "Huang, Tao"
+      ],
+      "short_names": [
+        "Wang W",
+        "Wu L",
+        "Ouyang C",
+        "Huang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Respiratory Diseases, Guangzhou Medical University, Guangzhou, China.",
+        "Department of Neurology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Respiratory Diseases, Nanchang People's Hospital, Nanchang, China.",
+        "State Key Laboratory of Respiratory Diseases, Guangzhou Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Wenjun",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Diseases, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lanxiang",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Chao",
+        "short_name": "Ouyang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Diseases, Nanchang People's Hospital, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Tao",
+        "short_name": "Huang T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Diseases, Guangzhou Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in medicine"
+    ],
+    "journal_abbrev": [
+      "Front Med (Lausanne)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/10 06:29",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "41340627"
+    ],
+    "refs": [
+      "39982660",
+      "38994083",
+      "38971916",
+      "38968963",
+      "38868715",
+      "38868514",
+      "38725059",
+      "38670474",
+      "38538341",
+      "38476473",
+      "38238555",
+      "38128382",
+      "37923248",
+      "37857015",
+      "37817172",
+      "37801050",
+      "37619970",
+      "37452418",
+      "37256178",
+      "37100996",
+      "37063851",
+      "36879254",
+      "36618352",
+      "35682951",
+      "35533707",
+      "35121343",
+      "34557778",
+      "34422212",
+      "34270690",
+      "33675115",
+      "33658390",
+      "33509708",
+      "33469280",
+      "33279681",
+      "33086872",
+      "33005288",
+      "32800196",
+      "32745458",
+      "32708515",
+      "32392191",
+      "32217784",
+      "30059844",
+      "28394642",
+      "28325213",
+      "28067471",
+      "26947075",
+      "26771021",
+      "25605792",
+      "24484194",
+      "24132163",
+      "23492811",
+      "22212387",
+      "21414208",
+      "20656215",
+      "20421486",
+      "18849563",
+      "8991080"
+    ],
+    "similar": [
+      "40927188",
+      "41340627",
+      "40332792",
+      "41378129",
+      "40078458",
+      "40093012",
+      "40617086",
+      "38873611",
+      "35637927",
+      "39346628",
+      "38260098",
+      "40274954",
+      "41030501",
+      "41013856",
+      "35975032",
+      "40826767",
+      "34764646",
+      "39142001",
+      "37057099",
+      "40161396",
+      "39578175",
+      "33847347",
+      "40885831",
+      "37251077",
+      "40453984",
+      "40740189",
+      "41132649",
+      "38509535",
+      "39086489",
+      "34250093",
+      "39691970",
+      "40612794",
+      "38863714",
+      "40747360",
+      "40340571",
+      "39875572",
+      "40775242",
+      "40374866",
+      "35281477",
+      "38046983",
+      "41196851",
+      "39962573",
+      "34536521",
+      "40078927",
+      "36217332",
+      "39950319",
+      "40370590",
+      "40532306",
+      "35018096",
+      "39176085",
+      "35350787",
+      "41052072",
+      "41115648",
+      "38259479",
+      "40406620",
+      "41158511",
+      "40374840",
+      "40082645",
+      "36506310",
+      "38384969",
+      "40273141",
+      "38464965",
+      "39028999",
+      "41432483",
+      "41367897",
+      "38162988",
+      "40024299",
+      "40207215",
+      "34218797",
+      "32982206",
+      "41066424",
+      "41120603",
+      "35479834",
+      "39893187",
+      "41305746",
+      "29713155",
+      "39934690",
+      "40263537",
+      "39403102",
+      "38436011",
+      "39263286",
+      "39139563",
+      "38371524",
+      "38089628",
+      "38274270",
+      "40313716",
+      "36341343",
+      "35023949",
+      "39375405",
+      "40045538",
+      "37259023",
+      "37008314",
+      "41479901",
+      "40151199",
+      "35433978",
+      "38320732",
+      "35401659",
+      "35757392",
+      "38851806",
+      "39819718"
+    ],
+    "review": [
+      "40927188"
+    ],
+    "pmc": [
+      "12414765"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40927188/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-5612",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmed.2025.1612390",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

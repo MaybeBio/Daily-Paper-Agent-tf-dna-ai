@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "41557608",
+    "doi": "10.1371/journal.pone.0339178",
+    "title": "Dynamical modeling of TNF-alpha, IL-6, and IL-10 interactions in stroke-induced inflammation."
+  },
+  "content": {
+    "abstract": "In acute stroke, dysregulated cytokine interactions drive secondary injury, yet bidirectional feedback mechanisms between pro-inflammatory mediators (TNF-alpha, IL-6) and the anti-inflammatory mediator IL-10 remain poorly quantified. We developed a systems biology model using nonlinear ordinary differential equations (ODEs) to resolve these dynamics, incorporating Nuclear Factor kappa-light-chain-enhancer of activated B cells (NF-kappaB)-mediated cross-activation, delayed IL-10 induction via a Hill function, and empirical parameterization from stroke data. Mathematical analysis revealed bistable inflammatory states via bifurcation theory, mechanistically explaining divergent inflammatory trajectory. Steady-state and stability analyses identified a critical IL-10 suppression threshold ([Formula: see text] hr (-) (1).nM (-) (1)) governing transitions between pro-inflammatory dominance and resolution phases. The model replicated experimentally observed cytokine dynamics, including TNF-alpha/IL-6 peaks (6-24 hours) and delayed IL-10 elevation (48 hours). Global sensitivity analysis highlighted IL-10 production ([Formula: see text]) and TNF-alpha suppression ([Formula: see text]) as key control parameters. Simulations predicted that IL-10 augmentation accelerates resolution, while TNF-alpha inhibition attenuates IL-10 induction, potentially compromising long-term recovery. By integrating dynamical systems theory with translational immunology, this model provides a mechanistic basis for optimizing immunomodulatory therapies in stroke and related inflammatory pathologies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Interleukin-10/metabolism",
+      "*Tumor Necrosis Factor-alpha/metabolism",
+      "*Interleukin-6/metabolism",
+      "*Stroke/complications/metabolism/immunology",
+      "*Inflammation/metabolism/etiology/immunology",
+      "Humans",
+      "Animals",
+      "NF-kappa B/metabolism",
+      "*Models, Biological"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arishi, Fozia Ali M",
+        "Rambely, Azmin Sham",
+        "Abdul Razak, Fatimah"
+      ],
+      "short_names": [
+        "Arishi FAM",
+        "Rambely AS",
+        "Abdul Razak F"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-1588-5494"
+      ],
+      "affiliations": [
+        "Department of Mathematical Sciences, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, Bangi, Selangor, Malaysia.",
+        "Department of Mathematics, College of Science, Jazan University, Jazan, Kingdom of Saudi Arabia.",
+        "Department of Mathematical Sciences, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, Bangi, Selangor, Malaysia.",
+        "Department of Mathematical Sciences, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, Bangi, Selangor, Malaysia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arishi, Fozia Ali M",
+        "short_name": "Arishi FAM",
+        "identifiers": [
+          "0009-0004-1588-5494"
+        ],
+        "affiliations": [
+          "Department of Mathematical Sciences, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, Bangi, Selangor, Malaysia.",
+          "Department of Mathematics, College of Science, Jazan University, Jazan, Kingdom of Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Rambely, Azmin Sham",
+        "short_name": "Rambely AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, Bangi, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Abdul Razak, Fatimah",
+        "short_name": "Abdul Razak F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, Bangi, Selangor, Malaysia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/20 19:20",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [
+      "42343273"
+    ],
+    "refs": [
+      "40630917",
+      "39015225",
+      "38495887",
+      "38020878",
+      "35163523",
+      "34869049",
+      "34772416",
+      "34502395",
+      "34073455",
+      "33982158",
+      "32503645",
+      "30563537",
+      "30483945",
+      "27445961",
+      "24394869",
+      "22664787",
+      "21738161",
+      "17311542",
+      "10788757"
+    ],
+    "similar": [
+      "41557608",
+      "26571085",
+      "41550924",
+      "32186022",
+      "26979777",
+      "41512388",
+      "37660912",
+      "26879835",
+      "24583856",
+      "33000578",
+      "30807577",
+      "30028921",
+      "11285373",
+      "41795298",
+      "41428039",
+      "30544065",
+      "10360689",
+      "16361898",
+      "36041546",
+      "15826936",
+      "14606087",
+      "35131015",
+      "36361915",
+      "15665736",
+      "42197115",
+      "19370157",
+      "37586161",
+      "16433741",
+      "41412375",
+      "40644858",
+      "42302947",
+      "22207455",
+      "36946346",
+      "24078775",
+      "23810685",
+      "27104958",
+      "31622746",
+      "38380569",
+      "36753375",
+      "19289654",
+      "25957424",
+      "19181934",
+      "28732803",
+      "25911310",
+      "29351747",
+      "27608956",
+      "26806575",
+      "20301193",
+      "21679760",
+      "24962643",
+      "17667842",
+      "12436048",
+      "22143914",
+      "29920042",
+      "35692206",
+      "16673153",
+      "37610554",
+      "32230861",
+      "24809259",
+      "24669186",
+      "41632348",
+      "26171689",
+      "11104733",
+      "33601000",
+      "24689881",
+      "12923493",
+      "29676779",
+      "11445585",
+      "27250857",
+      "14751512",
+      "26526450",
+      "24212077",
+      "29571724",
+      "38181532",
+      "36115602",
+      "35690001",
+      "28338974",
+      "41485577",
+      "32771949",
+      "24247374",
+      "10416616",
+      "36661075",
+      "40338445",
+      "9603479",
+      "18252806",
+      "40330488",
+      "36213265",
+      "26091790",
+      "39094400",
+      "15162444",
+      "23735482",
+      "26361726",
+      "20026360",
+      "11919083",
+      "33382782",
+      "39451248",
+      "20936708",
+      "30878820",
+      "19648252",
+      "29782861"
+    ],
+    "review": [
+      "41557608",
+      "33601000"
+    ],
+    "pmc": [
+      "12818665"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stroke"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0339178",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41557608/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

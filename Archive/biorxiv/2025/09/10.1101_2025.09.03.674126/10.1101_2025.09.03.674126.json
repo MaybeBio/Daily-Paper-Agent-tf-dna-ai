@@ -1,0 +1,608 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.03.674126",
+  "title": "STRUMP-I: Structure-based machine learning approach to pMHC-I binding prediction using force field energy features",
+  "doi": "10.1101/2025.09.03.674126",
+  "abstract": "The adaptive immune system monitors cellular integrity by recognizing short peptides from intracellular proteins presented on Major Histocompatibility Complex class I (MHC-I) molecules, collectively termed peptide-MHC complexes (pMHC), enabling detection of foreign or mutated proteins. With the rising importance of immunotherapies targeting neoantigens in cancers, the ability to accurately predict which peptides will bind to the diverse population of MHC alleles is critically important. Current computational methods for pMHC-I prediction fall broadly into sequence-based methods, which rely heavily on large training datasets, and structure-based methods that leverage structural modeling and energetics of pMHC binding. While sequence-based methods have been popularly used, their performance is dependent on the size and quality of training data. On the other hands, while structure-based approaches can generalize better across diverse MHC alleles, they traditionally depend on identifying a single global minimum energy conformation, an assumption that often fails due to the inherent binding promiscuity of MHC-I molecules. To address these limitations, we developed a STRUMP-I (STRUcture-based pMHC Prediction (for class I)), a novel pMHC binding prediction tool that directly leverages a broad set of force-field-derived energy terms as machine-learning features. STRUMP-I achieves performance comparable to state-of-the-art sequence-based models while significantly outperforming them on MHC alleles with limited representation in training data. Furthermore, STRUMP-I demonstrates strong synergy when integrated with sequence-based methods, notably enhancing prediction precision. The robustness and generalizability of STRUMP-I were confirmed by evaluating its predictive performance on independent, previously unseen datasets, including an experimentally validated cancer neoantigen dataset. This combined approach advances our capability to reliably identify clinically relevant neoantigen targets. The source code and trained models are available at https://github.com/yoonjoolab/STRUMP-I",
+  "authors": [
+    "Adam Voshall",
+    "Jeongjun Chae",
+    "Honglan Li",
+    "Junsu Ko",
+    "Woongyang Park",
+    "Eunjung Alice Lee",
+    "Yoonjoo Choi"
+  ],
+  "published_date": "2025-09-08",
+  "updated_date": "2025-09-09T05:41:45Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.03.674126",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.03.674126.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:15:55Z",
+        "timestamp": 1768526155011,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            8
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 39,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                8
+              ]
+            ],
+            "date-time": "2025-09-08T00:00:00Z",
+            "timestamp": 1757289600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Suh Kyungbae Foundation"
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "DP2 AG072437"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DP2 AG072437"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "R01 AG078929"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01 AG078929"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003725",
+          "name": "National Research Foundation of Korea",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "NRF-2020R1A5A2031185"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NRF-2020R1A5A2031185"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003725",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003725",
+          "name": "National Research Foundation of Korea",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "NRF-2020M3A9G3080281"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NRF-2020M3A9G3080281"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003725",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003725",
+          "name": "National Research Foundation of Korea",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "NRF-2021R1F1A1063769"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NRF-2021R1F1A1063769"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003725",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The adaptive immune system monitors cellular integrity by recognizing short peptides from intracellular proteins presented on Major Histocompatibility Complex class I (MHC-I) molecules, collectively termed peptide-MHC complexes (pMHC), enabling detection of foreign or mutated proteins. With the rising importance of immunotherapies targeting neoantigens in cancers, the ability to accurately predict which peptides will bind to the diverse population of MHC alleles is critically important. Current computational methods for pMHC-I prediction fall broadly into sequence-based methods, which rely heavily on large training datasets, and structure-based methods that leverage structural modeling and energetics of pMHC binding. While sequence-based methods have been popularly used, their performance is dependent on the size and quality of training data. On the other hands, while structure-based approaches can generalize better across diverse MHC alleles, they traditionally depend on identifying a single global minimum energy conformation, an assumption that often fails due to the inherent binding promiscuity of MHC-I molecules. To address these limitations, we developed a STRUMP-I (STRUcture-based pMHC Prediction (for class I)), a novel pMHC binding prediction tool that directly leverages a broad set of force-field-derived energy terms as machine-learning features. STRUMP-I achieves performance comparable to state-of-the-art sequence-based models while significantly outperforming them on MHC alleles with limited representation in training data. Furthermore, STRUMP-I demonstrates strong synergy when integrated with sequence-based methods, notably enhancing prediction precision. The robustness and generalizability of STRUMP-I were confirmed by evaluating its predictive performance on independent, previously unseen datasets, including an experimentally validated cancer neoantigen dataset. This combined approach advances our capability to reliably identify clinically relevant neoantigen targets. The source code and trained models are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/yoonjoolab/STRUMP-I\">https://github.com/yoonjoolab/STRUMP-I</jats:ext-link>\n                </jats:p>",
+      "DOI": "10.1101/2025.09.03.674126",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            9
+          ]
+        ],
+        "date-time": "2025-09-09T05:41:45Z",
+        "timestamp": 1757396505000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "STRUMP-I: Structure-based machine learning approach to pMHC-I binding prediction using force field energy features"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Adam",
+          "family": "Voshall",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8955-6168",
+          "authenticated-orcid": false,
+          "given": "Jeongjun",
+          "family": "Chae",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Honglan",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7416-4591",
+          "authenticated-orcid": false,
+          "given": "Junsu",
+          "family": "Ko",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4234-0380",
+          "authenticated-orcid": false,
+          "given": "Woongyang",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Eunjung Alice",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9687-8093",
+          "authenticated-orcid": false,
+          "given": "Yoonjoo",
+          "family": "Choi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-immunol-032712-095910"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaa4971"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-04232-5"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.1038/s41392-022-01270-x",
+          "article-title": "Neoantigens: promising targets for cancer therapy",
+          "volume": "8",
+          "year": "2023",
+          "journal-title": "Signal Transduct Target Ther"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature02055"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1011"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "191",
+          "DOI": "10.1146/annurev-biodatasci-021920-100259",
+          "article-title": "Immunoinformatics: Predicting Peptide–MHC Binding",
+          "volume": "3",
+          "year": "2020",
+          "journal-title": "Annual Review of Biomedical Data Science"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbz051"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "195",
+          "DOI": "10.1016/j.cels.2020.11.005",
+          "article-title": "RBM-MHC: A Semi-Supervised Machine-Learning Method for Sample-Specific Prediction of Antigen Presentation by HLA-I Alleles",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa379"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adj6367"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "418",
+          "DOI": "10.1016/j.cels.2020.09.001",
+          "article-title": "MHCflurry 2.0: Improved Pan-Allele Prediction of MHC Class I-Presented Peptides by Incorporating Antigen Processing",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0322-9"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2405106122",
+          "DOI": "10.1073/pnas.2405106122",
+          "article-title": "Toward equitable major histocompatibility complex binding predictions",
+          "volume": "122",
+          "year": "2025",
+          "journal-title": "Proc Natl Acad Sci U S A"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-1855-4_13"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0076-6879(04)83004-0"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0275759"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/1568026619666181224101744"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2216697120"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "10749",
+          "DOI": "10.1038/s41598-022-14526-x",
+          "article-title": "3pHLA-score improves structure-based peptide-HLA binding affinity prediction",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.03.06.531396"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. E. Slansky , K. R. Jordan , The Goldilocks model for TCR-too much attraction might not be best for vaccine design. PLoS Biol 8 (2010).",
+          "DOI": "10.1371/journal.pbio.1000482"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0666-6"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0065-3233(03)66002-X"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "727",
+          "DOI": "10.1016/j.str.2007.05.004",
+          "article-title": "Hydrophobic Potential of Mean Force as a Solvation Function for Protein Structure Prediction",
+          "volume": "15",
+          "year": "2007",
+          "journal-title": "Structure"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.8b00529"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. O. Arik , T. Pfister , TabNet: Attentive Interpretable Tabular Learning. arXiv [cs.LG] (2020).",
+          "DOI": "10.1609/aaai.v35i8.16826"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Akiba , S. Sano , T. Yanase , T. Ohta , M. Koyama (2019) Optuna: A Next-generation Hyperparameter Optimization Framework. in Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (Association for Computing Machinery, Anchorage, AK, USA), pp 2623–2631.",
+          "DOI": "10.1145/3292500.3330701"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.32",
+          "unstructured": "S. M. Lundberg , S.-I. Lee (2017) A Unified Approach to Interpreting Model Predictions. in Advances in Neural Information Processing Systems, eds I. Guyon et al. (Curran Associates, Inc.)."
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.1038/s42256-019-0138-9",
+          "article-title": "From Local Explanations to Global Understanding with Explainable AI for Trees",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nat Mach Intell"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1006"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.09.015"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "100194",
+          "DOI": "10.1016/j.xcrm.2021.100194",
+          "article-title": "Prediction of neo-epitope immunogenicity reveals TCR recognition determinants and provides insight into immunoediting",
+          "volume": "2",
+          "year": "2021",
+          "journal-title": "Cell Rep Med"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "1461",
+          "DOI": "10.1038/s12276-024-01259-2",
+          "article-title": "The identification of effective tumor-suppressing neoantigens using a tumor-reactive TIL TCR-pMHC ternary complex",
+          "volume": "56",
+          "year": "2024",
+          "journal-title": "Exp Mol Med"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "72",
+          "DOI": "10.1016/j.cels.2022.12.002",
+          "article-title": "Improved predictions of antigen presentation and TCR recognition with MixMHCpred2.2 and PRIME2.0 reveal potent SARS-CoV-2 CD8(+) T-cell epitopes",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2025091209350498000_2025.09.03.674126v1.39",
+          "unstructured": "G. Ke et al. (2017) LightGBM: a highly efficient gradient boosting decision tree. in Proceedings of the 31st International Conference on Neural Information Processing Systems (Curran Associates Inc., Long Beach, California, USA), pp 3149–3157."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.03.674126",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:31:58Z",
+        "timestamp": 1768469518000
+      },
+      "score": 78.07229,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.03.674126"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            8
+          ]
+        ]
+      },
+      "references-count": 39,
+      "URL": "https://doi.org/10.1101/2025.09.03.674126",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

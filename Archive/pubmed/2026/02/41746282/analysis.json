@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41746282",
+  "title": "Differential cell signaling testing for cell-cell communication inference from single-cell data by dominoSignal.",
+  "authors": "Mitchell, Jacob T; Stapleton, Orian; Krishnan, Kavita; Nagaraj, Sushma; Lvovs, Dmitrijs; Cherry, Christopher; Poissonnier, Amanda; Horton, Wesley; Adey, Andrew; Rao, Varun; Huff, Amanda; Zimmerman, Jacquelyn W; Kagohara, Luciane T; Zaidi, Neeha; Coussens, Lisa M; Jaffee, Elizabeth M; Elisseeff, Jennifer H; Fertig, Elana J",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-02-26",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发dominoSignal软件，基于配体-受体表达与下游转录因子活性推断细胞间通讯并做差异检验，虽涉及转录因子活性但非TF-DNA结合互作建模，方法为统计推断而非AI或物理模拟，与本课题关联较弱。",
+  "abstract": "MOTIVATION: Algorithms for ligand-receptor network inference have emerged as commonly used tools to estimate cell-cell communication from reference single-cell data. Many studies employ these algorithms to compare signaling between conditions and lack methods to statistically identify signals that are significantly different. We previously developed the cell communication inference algorithm Domino, which considers ligand and receptor gene expression in association with downstream transcription factor activity scoring. We developed the dominoSignal software to innovate upon Domino and extend its functionality to test statistically differential cellular signaling. RESULTS: This new functionality includes the compilation of active signals as linkages from multiple subjects in a single-cell data set and testing condition-dependent signaling linkage. The software is applicable for analysis of single-cell data sets with multiple subjects as biological replicates as well as with bootstrapped replicates from data sets with few or pooled subjects. We use simulation studies to benchmark the number of subjects in compared groups and cells within an annotated cell type sufficient to accurately identify differential linkages. We demonstrate the application of the Differential Cell Signaling Test (DCST) in the dominoSignal software to investigate consequences of cancer cell phenotypes and immunotherapy on cell-cell communication in tumor microenvironments. These applications in cancer studies demonstrate the ability of differential cell signaling analysis to infer changes to cell communication networks from therapeutic or experimental perturbations, which is broadly applicable across biological systems. AVAILABILITY: dominoSignal is available through Bioconductor at https://www.bioconductor.org/packages/release/bioc/html/dominoSignal.html.",
+  "abstract_zh": "动机：配体-受体网络推断算法已成为从参考单细胞数据估计细胞间通讯的常用工具。许多研究使用这些算法比较不同条件下的信号传导，但缺乏统计识别显著差异信号的方方法。我们先前开发了细胞通讯推断算法Domino，该算法结合配体和受体基因表达与下游转录因子活性评分相关联。我们开发了dominoSignal软件以创新Domino并扩展其功能，用于统计检验差异细胞信号传导。结果：这一新功能包括将单细胞数据集中多个受试者的活性信号编译为链接，并检验条件依赖性信号链接。该软件适用于分析具有多个受试者作为生物学重复的单细胞数据集，以及来自少量或合并受试者数据集的引导重采样重复。我们使用模拟研究来基准比较组中的受试者数量和注释细胞类型内的细胞数量，以准确识别差异链接。我们展示了在dominoSignal软件中应用差异细胞信号传导测试（DCST）来研究癌细胞表型和免疫疗法对肿瘤微环境中细胞间通讯的影响。这些在癌症研究中的应用证明了差异细胞信号传导分析能够推断治疗或实验扰动对细胞通讯网络的变化，这广泛适用于各种生物系统。可用性：dominoSignal可通过Bioconductor获取，网址为https://www.bioconductor.org/packages/release/bioc/html/dominoSignal.html。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41746282/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41746282/",
+  "paper_page_path": "papers/pubmed/41746282/index.html"
+}

@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "42268451",
+    "doi": "10.1007/s12672-026-05402-5",
+    "title": "Identifying the relationship between exosome genes and breast cancer risk using bioinformatics and machine learning methods."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer (BC) is the most prevalent cancer among women globally, with a high mortality rate. The treatment and prevention of this disease are of utmost importance. Exosomes-nanovesicles derived from cells-play a vital role in intercellular communication and have profound implications for numerous physiological and pathological processes. However, relationships between exosomes and the development and prognosis of BC have not been fully elucidated. METHODS: Using gene expression data obtained from the NCBI GEO database for BC and normal tissues, we analyzed differential gene expression. The intersection of differentially expressed genes and exosome-related genes was obtained, and a gene interaction network was established. Genes associated with BC were identified using the Least Absolute Shrinkage and Selection Operator (LASSO), Support Vector Machine-Recursive Feature Elimination (SVM-RFE), and Random Forest (RF) algorithms. Shared genes identified using the three algorithms were used to construct a nomogram for predicting the risk and prognosis of BC. Gene-drug, gene-RNA binding protein, and gene-transcription factor interaction networks were analyzed. Finally, we evaluated relationships between drugs and proteins using molecular docking analyses. RESULTS: We identified 595 differentially expressed genes and obtained 37 exosome-related genes. Five differentially expressed exosome-related genes associated with the risk of disease were identified using three machine learning methods. These genes were involved in the regulation of various biological processes and were associated with immune cell infiltration. Drugs targeting four of the five genes were identified. CONCLUSION: Exosome genes are related to the occurrence and prognosis of BC and can be used as targets for drug therapy.",
+    "keywords": [
+      "Bioinformatics",
+      "Breast cancer",
+      "Exosome",
+      "Machine learning",
+      "Molecular docking analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xuwen",
+        "Ding, Yongyong",
+        "Shi, Shengyu",
+        "Ji, Xiaomin",
+        "Jiang, Zekun",
+        "Liu, Tian"
+      ],
+      "short_names": [
+        "Wang X",
+        "Ding Y",
+        "Shi S",
+        "Ji X",
+        "Jiang Z",
+        "Liu T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Common Surgery, Huzhou Traditional Chinese Medicine Hospital, Zhejiang Chinese Medical University, Huzhou, 313000, China.",
+        "Department of Common Surgery, Huzhou Traditional Chinese Medicine Hospital, Zhejiang Chinese Medical University, Huzhou, 313000, China.",
+        "Department of Common Surgery, Huzhou Traditional Chinese Medicine Hospital, Zhejiang Chinese Medical University, Huzhou, 313000, China.",
+        "Department of Common Surgery, Puning People's Hospital, Puning, 515300, China.",
+        "Department of Common Surgery, Puning People's Hospital, Puning, 515300, China. JZK_missef95@163.com.",
+        "Department of Common Surgery, Puning People's Hospital, Puning, 515300, China. 568523745@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xuwen",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Common Surgery, Huzhou Traditional Chinese Medicine Hospital, Zhejiang Chinese Medical University, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yongyong",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Common Surgery, Huzhou Traditional Chinese Medicine Hospital, Zhejiang Chinese Medical University, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Shengyu",
+        "short_name": "Shi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Common Surgery, Huzhou Traditional Chinese Medicine Hospital, Zhejiang Chinese Medical University, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Xiaomin",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Common Surgery, Puning People's Hospital, Puning, 515300, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Zekun",
+        "short_name": "Jiang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Common Surgery, Puning People's Hospital, Puning, 515300, China. JZK_missef95@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Tian",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Common Surgery, Puning People's Hospital, Puning, 515300, China. 568523745@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Discover oncology"
+    ],
+    "journal_abbrev": [
+      "Discov Oncol"
+    ],
+    "pub_date": "2026 Jun 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/10 14:04",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39838385",
+      "39723172",
+      "39651893",
+      "39508182",
+      "39062471",
+      "39019365",
+      "38674369",
+      "38572751",
+      "38571887",
+      "38062748",
+      "37875600",
+      "37783761",
+      "37579591",
+      "37200395",
+      "37199227",
+      "37099215",
+      "36871856",
+      "36568221",
+      "36566321",
+      "36246806",
+      "36012171",
+      "35794563",
+      "35742993",
+      "35350787",
+      "35278901",
+      "34823758",
+      "34479552",
+      "34198266",
+      "34158394",
+      "34146942",
+      "34141492",
+      "33863385",
+      "33505594",
+      "33262592",
+      "32969511",
+      "32471115",
+      "32357912",
+      "32332626",
+      "32111215",
+      "31687497",
+      "31263220",
+      "30349068",
+      "29621695",
+      "29275361",
+      "27322403",
+      "21644128",
+      "21149340",
+      "20204502",
+      "14597658",
+      "3597417"
+    ],
+    "similar": [
+      "42268451",
+      "40997906",
+      "42292668",
+      "41300841",
+      "40595797",
+      "36532015",
+      "39142001",
+      "40475773",
+      "41858783",
+      "41378005",
+      "38951833",
+      "39507054",
+      "39396400",
+      "42236612",
+      "38476236",
+      "41132349",
+      "36470144",
+      "39586719",
+      "41257259",
+      "42000858",
+      "40328901",
+      "42400715",
+      "38144565",
+      "38371524",
+      "42582767",
+      "40722759",
+      "41200172",
+      "42004699",
+      "41508240",
+      "39650552",
+      "39341981",
+      "41233664",
+      "41146237",
+      "38711508",
+      "40496857",
+      "41006883",
+      "42520089",
+      "39923303",
+      "35341274",
+      "39509434",
+      "41388523",
+      "40620701",
+      "37740761",
+      "39730379",
+      "36619718",
+      "42123756",
+      "42061206",
+      "41220724",
+      "40360670",
+      "41219826",
+      "38755717",
+      "41291841",
+      "39609718",
+      "38867322",
+      "36605987",
+      "38044432",
+      "41415282",
+      "40618698",
+      "41664335",
+      "37032832",
+      "40830794",
+      "40864208",
+      "37090698",
+      "37779906",
+      "41472876",
+      "39205467",
+      "38725627",
+      "38028617",
+      "40599778",
+      "36704339",
+      "38221616",
+      "41787525",
+      "35719392",
+      "41988156",
+      "39375405",
+      "41709967",
+      "38879780",
+      "40394719",
+      "42582956",
+      "37808522",
+      "42107160",
+      "41673191",
+      "39139563",
+      "42274933",
+      "37671131",
+      "37361541",
+      "35958412",
+      "42327749",
+      "40129981",
+      "40406620",
+      "41164411",
+      "37875600",
+      "41013556",
+      "41826854",
+      "40362543",
+      "35958598",
+      "39862324",
+      "36566321",
+      "39364223",
+      "39789578"
+    ],
+    "review": [
+      "42268451"
+    ],
+    "pmc": [
+      "13476212"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42268451/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

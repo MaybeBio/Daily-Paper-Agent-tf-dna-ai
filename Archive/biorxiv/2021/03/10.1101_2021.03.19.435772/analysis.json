@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.19.435772",
+  "title": "Machine learning prediction of Antibody-Antigen binding: dataset, method and testing",
+  "authors": "Chao Ye; Wenxing Hu; Bruno Gaeta",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-20",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用加权最近邻机器学习预测抗体-抗原结合亲和力，虽涉及蛋白-蛋白互作，但非蛋白质-DNA体系，且无TF-DNA结合建模，方法可迁移性有限。",
+  "abstract": "DNA sequencing technologies are providing new insights into the immune response by allowing the large scale sequencing of rearranged immunoglobulin gene present in an individual, however the applications of this approach are limited by the lack of methods for determining the antigen(s) that an immunoglobulin encoded by a given sequence binds to. Computational methods for predicting antibody-antigen interactions that leverage structure prediction and docking have been proposed, however these methods require knowledge of the 3D structures. As a step towards the development of a machine learning method suitable for predicting antibody-antigen binding affinities from sequence data, a weighted nearest neighbor machine learning approach was applied to the problem. A prediction program was coded in Python and evaluated using cross-validation on a dataset of 600 antibodies interacting with 50 antigens. The classification predicting accuracy was around 76% for this dataset. These results provide a useful frame of reference as well as protocols and considerations for machine learning and dataset creation in this area. Both the dataset (in csv format) and the machine learning program (coded in python) are freely available for download.",
+  "abstract_zh": "DNA测序技术通过允许对个体中存在的重排免疫球蛋白基因进行大规模测序，为免疫反应提供了新的见解，然而，这种方法的应用受到缺乏确定给定序列编码的免疫球蛋白所结合的抗原的方法的限制。已提出利用结构预测和对接的计算方法来预测抗体-抗原相互作用，但这些方法需要了解3D结构。作为迈向开发适用于从序列数据预测抗体-抗原结合亲和力的机器学习方法的一步，一种加权最近邻机器学习方法被应用于该问题。一个预测程序用Python编写，并在包含600个抗体与50个抗原相互作用的数据集上通过交叉验证进行评估。对于该数据集，分类预测准确率约为76%。这些结果为该领域的机器学习和数据集创建提供了有用的参考框架以及协议和注意事项。该数据集（以csv格式）和机器学习程序（以Python编写）均可免费下载。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.19.435772",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.435772",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.19.435772/index.html"
+}

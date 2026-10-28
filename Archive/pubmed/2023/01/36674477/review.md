@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) for the article by Jelic Matosevic et al. (2023), Int. J. Mol. Sci., DOI: 10.3390/ijms24020957.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors propose that Mn2+ binding to the Bacillus subtilis MntR transcription factor reduces the protein's conformational space, shifting a dynamic equilibrium toward DNA-binding-competent conformations, rather than inducing a discrete conformational switch. This is supported by molecular dynamics (MD) simulations, DFT-based parameterization of the Mn2+ coordination sphere, and experimental validation via circular dichroism (CD), differential scanning calorimetry (DSC), and native gel electrophoresis (native-PAGE). A D8C-E99C disulfide mutant was designed to mimic Mn2+ binding at the second site and was studied computationally and experimentally.
+- **Visible evidence base** Full text including 4 main figures (referenced as Figures 1, 3, 4, 7, 8, 9, 10), 3 tables (Tables 1, 2, 3), supplementary figures (Figures S1–S9), supplementary tables (Tables S1–S4), and methods sections 4.1–4.8.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced in the text (Figures S1–S9, Tables S1–S4) were not provided. Raw MD trajectory data, cluster analysis outputs, PCA loadings, and DSC thermogram fits were not available. The native-PAGE gel image (Figure S4) was not visible. DFT parameter tables (Tables S3, S4) were not accessible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in metalloregulatory protein allostery, using a combined computational-experimental approach. The central claim that Mn2+ binding reduces conformational space rather than inducing a discrete switch is plausible and partially supported by the MD simulations and biophysical data presented. However, several technical concerns limit the strength of the conclusions: the MD sampling may be insufficient for robust conformational space characterization, the DFT-based parameterization approach is not fully validated, the D8C-E99C mutant design rationale is incompletely tested, and the native-PAGE DNA-binding assay appears inconclusive. The experimental validation is correlative rather than direct, and key quantitative comparisons (e.g., statistical significance of CD/DSC differences) are not reported. The manuscript is readable and logically structured, but the evidence does not fully establish the mechanistic claim as presented.
+- **Who would be interested in the results, and why** Researchers in bacterial metal homeostasis, metalloregulatory transcription factors, and protein allostery would find this work relevant. The methodological combination of MD with DFT-derived metal parameters and biophysical validation may interest computational biophysicists studying metal-binding proteins. The D8C-E99C mutant approach could be of interest to those engineering constitutively active or inactive metallosensors.
+- **Major strengths** The study addresses a well-defined mechanistic question with a multi-technique approach. The use of DFT-derived bonded parameters for Mn2+ is a thoughtful attempt to improve accuracy over generic non-bonded models. The identification of a dihedral angle metric (between DNA-binding helices) as a potentially more sensitive descriptor than distance-based measures is a useful contribution. The D8C-E99C mutant is a creative strategy to test the role of the second metal site. The discussion appropriately contextualizes findings against existing literature, including the AntR EPR study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results of molecular dynamics (MD) simulations revealed that Mn2+ ion binding reduces the structural dynamics of the MntR protein and shifts the dynamic equilibrium towards the conformations adequate for DNA binding."
+  - **Evidence pointer** Section 2.1, Figure 1, Table 1, Figure S1 (not provided)
+  - **Concern** The MD simulations are 500 ns per system, with analysis performed on the last 300 ns. For a protein of this size (~250 residues per monomer, dimeric), 500 ns may be insufficient to adequately sample the conformational space, particularly for large-scale domain rearrangements. The claim of "reduced conformational space" relies on cluster analysis with a single cut-off (1.8 Å) chosen by trial and error, which is subjective. No convergence assessment (e.g., block averaging, multiple independent runs) is reported. The PCA shows PC1 capturing 86% of variance, but the separation between apo and Mn2+ systems on PC1 could reflect slow equilibration rather than true equilibrium differences. The authors do not report whether the simulations were replicated or whether the results are robust to initial conditions.
+  - **Why it matters** The central mechanistic conclusion depends on the reliability of the conformational sampling. If the simulations are not converged, the observed differences between apo and Mn2+ systems may be artifacts of insufficient sampling rather than genuine biophysical properties.
+  - **Resolution test** Provide evidence of convergence (e.g., RMSD stabilization over time, multiple independent runs with different initial velocities, block error analysis). Report cluster analysis with multiple cut-offs to demonstrate robustness. Consider extended simulations (≥1 µs) or enhanced sampling methods (e.g., replica exchange) to validate the conformational space reduction claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The interaction between the protein and Mn2+ ions was parameterised using bonded force field parameters obtained using DFT calculations."
+  - **Evidence pointer** Section 4.1, Tables S3 and S4 (not provided)
+  - **Concern** The DFT-derived bonded parameters for the Mn2+ coordination sphere are central to the MD results, but the validation of these parameters is not described. No comparison is made between the DFT-optimized geometry and the crystal structure geometry. The choice of the B3LYP functional and aug-cc-pVDZ basis set for a transition metal ion is reasonable but not benchmarked against experimental data or higher-level methods. The exclusion of the Glu99 backbone carbonyl interaction from bonded parameters, while noting it was "stable during the simulations," raises questions about whether the model accurately represents the coordination environment. The transferability of these parameters to the D8C-E99C mutant is not discussed.
+  - **Why it matters** If the metal parameters are inaccurate, the MD trajectories may not faithfully represent the Mn2+-bound state, undermining all downstream analyses and conclusions about conformational space reduction.
+  - **Resolution test** Provide validation of the DFT-derived parameters: compare DFT-optimized coordination geometry to the crystal structure, report the force constants and equilibrium values used, and demonstrate that the parameters reproduce experimental observables (e.g., metal-ligand distances, coordination numbers) in test simulations. Discuss the limitations of the bonded model and justify the exclusion of the Glu99 backbone interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** "From this assay it could not be concluded whether either the mutant or the wild-type protein exhibited binding to the recognition sequence in the mntH promotor... so in that regard the mutant and the wild-type protein showed similar behavior."
+  - **Evidence pointer** Section 2.4, Figure S4 (not provided)
+  - **Concern** The native-PAGE assay was intended to test DNA-binding activity of the wild-type and mutant proteins, but the authors state that no binding could be demonstrated for either protein under any condition. This is a critical failure of the experimental validation: the assay does not demonstrate that the wild-type protein binds DNA in the presence of Mn2+, which would be a positive control. Without a functional assay showing that the wild-type protein behaves as expected, the comparison between wild-type and mutant is uninformative. The authors do not discuss why the assay failed or what alternative experiments could be performed.
+  - **Why it matters** The D8C-E99C mutant was designed to mimic Mn2+ binding and should confer constitutive DNA-binding activity. The inability to detect DNA binding for the wild-type protein undermines the entire mutant validation strategy and leaves the functional significance of the conformational changes unverified.
+  - **Resolution test** Provide a positive control demonstrating that the wild-type MntR binds the mntH promoter in the presence of Mn2+ under the assay conditions. If the assay is not suitable, use an alternative method (e.g., electrophoretic mobility shift assay with purified DNA, fluorescence anisotropy, or surface plasmon resonance) to test DNA binding of wild-type and mutant proteins. Report quantitative binding affinities where possible.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "DSC measurements, on the other hand, show that the enthalpy for unfolding of the mutant is smaller than for the wild-type protein. Even though the unfolding temperature is very similar (61.1° for the wild-type protein and 60.8° for the mutant), this implies that the mutant is less stable despite its higher helical content."
+  - **Evidence pointer** Section 2.6, Figure 9, Table 3
+  - **Concern** The DSC data are presented as single values (Tm, ΔH) without error estimates or replicates. The claim that the mutant is "less stable" based on a 0.3 °C difference in Tm and a lower ΔH is not statistically supported. The interpretation of lower ΔH as "less stable" is oversimplified, as ΔH is a measure of the enthalpy of unfolding, not the free energy of stabilization (ΔG). A lower ΔH could be offset by entropic contributions. The authors do not report ΔG or consider the possibility that the disulfide bond alters the unfolding pathway rather than the thermodynamic stability.
+  - **Why it matters** The DSC data are used to support the claim that the mutant mimics the Mn2+-bound state, but the interpretation is not rigorous. Without error bars and a proper thermodynamic analysis, the conclusion is not well-supported.
+  - **Resolution test** Report DSC data from at least three independent replicates with standard deviations. Calculate ΔG of unfolding using a two-state model or provide a more nuanced interpretation of ΔH and Tm differences. Discuss whether the disulfide bond could affect the unfolding mechanism independently of thermodynamic stability.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for claims
+  - **Claim pointer** "The results of CD and DSC measurements support the computational results showing the change in helical content and stability of the MntR protein upon Mn2+ binding."
+  - **Evidence pointer** Section 2.5, Figure 8, Table 2; Section 2.6, Figure 9, Table 3
+  - **Concern** The CD data show an increase in helical content upon Mn2+ binding, but the magnitude of the change is not quantified with statistical significance. The secondary structure percentages in Table 2 are presented without errors. The DSC data show a ΔTm of 3.3 °C for the wild-type protein, which is modest. The authors do not discuss whether this change is consistent with the MD-predicted conformational changes or whether it could be explained by other factors (e.g., buffer conditions, protein concentration). The connection between the CD/DSC results and the MD simulations is qualitative and correlative.
+  - **Why it matters** The experimental validation is a key strength of the manuscript, but the lack of quantitative rigor weakens the support for the computational predictions.
+  - **Resolution test** Provide statistical analysis of CD and DSC data (e.g., standard deviations, p-values for comparisons). Discuss the expected magnitude of helical content changes based on the MD simulations and whether the experimental values are consistent with predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The dihedral angle definition (residues 47, 36, 189, 178) is not clearly explained. The reader cannot easily understand which atoms are used and what conformational change this angle captures.
+  - **Required correction** Provide a clear definition of the dihedral angle, including a schematic or description of the structural elements involved, and justify why this angle is a relevant metric for DNA-binding competence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3, Figure 5
+  - **Evidence pointer** Figure 5
+  - **Issue** The rationale for choosing the D8C-E99C mutation to mimic Mn2+ binding is not fully explained. The authors state that the disulfide bridge should "glue" the domains together, but the structural basis for this expectation is not detailed.
+  - **Required correction** Provide a structural rationale for the mutation, including a description of the expected disulfide bridge geometry and how it relates to the Mn2+-bound conformation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.8, Figure 10
+  - **Evidence pointer** Figure 10
+  - **Issue** The Zn2+ simulation results are presented as a comparison, but the significance of the Zn2+ system is not clearly stated. The authors note that Zn2+ does not fully activate MntR, but the implications for the allosteric mechanism are not discussed.
+  - **Required correction** Clarify the purpose of the Zn2+ simulation and how it informs the understanding of Mn2+-specific allostery.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Section 4.3
+  - **Issue** The clustering analysis is described briefly, but the number of clusters and the criteria for selecting the representative structures are not reported in the main text.
+  - **Required correction** Report the number of clusters for each system and describe how representative structures were selected for visualization and analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The electrostatic potential calculations are described qualitatively, but the computational method (e.g., Poisson-Boltzmann, APBS parameters) is not detailed in the main text.
+  - **Required correction** Provide a brief description of the electrostatic potential calculation method and parameters used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MD sampling and convergence), R1-M2 (DFT parameter validation), R1-M3 (native-PAGE assay failure), R1-M4 (DSC statistical rigor).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The concept of conformational selection versus induced fit in metalloregulators is not new, and similar conclusions have been reported for the AntR homolog. The D8C-E99C mutant approach is somewhat novel but not fully realized.
+  - **Scientific importance** Moderate. The study provides a plausible mechanism for MntR activation but does not resolve the long-standing puzzle definitively. The findings are incremental rather than transformative.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to specialists in bacterial metal homeostasis and computational biophysics. The experimental validation is not strong enough to broaden appeal to a general biochemistry audience.
+  - **Technical soundness** Questionable. The MD simulations lack demonstrated convergence, the DFT parameterization is not validated, and the key functional assay (native-PAGE) failed to produce interpretable results. These issues undermine the central claims.
+  - **Readability for nonspecialists** Adequate. The manuscript is clearly written, with logical flow from introduction to discussion. However, some technical details (e.g., dihedral angle definition) could be explained more clearly.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the technical concerns regarding MD sampling, parameter validation, and the failed DNA-binding assay must be addressed before the mechanistic claims can be considered supported. The authors should either provide additional experimental evidence for DNA-binding activation or substantially strengthen the computational analysis.
+
+## Risk / unsupported claims
+- The claim that Mn2+ binding "locks" the protein in a DNA-binding-competent conformation is not directly supported by any DNA-binding assay. The native-PAGE assay was inconclusive.
+- The claim that the D8C-E99C mutant mimics Mn2+ binding is supported only by MD simulations and indirect biophysical measurements (CD, DSC), not by functional DNA-binding data.
+- The quantitative difference in conformational space between apo and Mn2+ systems is not rigorously established due to lack of convergence analysis and subjective cluster cut-off selection.
+- The DSC-based claim that the mutant is "less stable" than the wild-type is not statistically supported and the thermodynamic interpretation is oversimplified.
+- The electrostatic potential calculations are presented qualitatively without sufficient methodological detail to assess their reliability.

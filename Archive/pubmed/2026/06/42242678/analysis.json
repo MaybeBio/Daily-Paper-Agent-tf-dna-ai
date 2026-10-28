@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42242678",
+  "title": "Pathogenicity prediction for noncanonical splice-altering variants based on multimodal feature fusion.",
+  "authors": "Li, Xiaoyan; Peng, Zhen; Zhao, Yiran; Wang, Shuhan; Zhou, Xingpeng; Luo, Xiongjian; Su, Yansen; Zheng, Chunhou; Xia, Junfeng",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-06-05",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用多模态深度学习预测非经典剪接变异致病性，虽涉及DNA语言模型和转录因子基序识别，但核心是剪接变异致病性预测而非TF-DNA结合互作建模，仅间接相关。",
+  "abstract": "Splice-altering variants (SAVs) are the second most prevalent class of pathogenic genetic variants and are strongly associated with the occurrence and development of various diseases. However, current computational tools exhibit limited predictive capability beyond canonical GT-AG splice sites, making accurate assessment of noncanonical SAV pathogenicity a considerable challenge. To address this limitation, we developed MOSAIC (multimodal feature fusion for noncanonical splice-altering variants pathogenicity prediction), a deep learning framework designed for precise assessment of noncanonical SAV pathogenicity. MOSAIC integrates long-range contextual signals derived from a pretrained DNA language model, local sequence features captured from multi-scale convolutional neural networks, and functional annotations. By employing a transformer encoder and a gated fusion module, the model adaptively integrates these multimodal features. Benchmarking across multiple independent datasets demonstrated that MOSAIC consistently outperforms existing state-of-the-art methods, such as CADD and SpliceAI. It remains highly accurate and robust when evaluated on rare variants, gene-independent contexts, and the largest subset where all comparative methods yielded outputs. Furthermore, feature importance analysis revealed that long-range dependencies in DNA sequences and transformer-based integration were critical contributors to model performance. Interpretability analyses indicated that MOSAIC could identify key regulatory sequence motifs associated with transcription factors and RNA-binding proteins, offering mechanistic insight into how noncanonical SAVs disrupt splicing regulation and contribute to pathogenic processes. Overall, MOSAIC offers an accurate and interpretable framework for predicting the pathogenicity of noncanonical SAVs, thereby serving as a dependable computational tool for genetic diagnostics and precision medicine applications. MOSAIC source code and data are available at https://github.com/Lilab-genomics/MOSAIC.",
+  "abstract_zh": "剪接改变变异（SAVs）是第二常见的致病性遗传变异类别，与多种疾病的发生和发展密切相关。然而，当前的计算工具在经典GT-AG剪接位点之外的预测能力有限，使得对非经典SAV致病性的准确评估成为一项重大挑战。为解决这一局限，我们开发了MOSAIC（多模态特征融合用于非经典剪接改变变异致病性预测），这是一个专为精确评估非经典SAV致病性而设计的深度学习框架。MOSAIC整合了来自预训练DNA语言模型的长程上下文信号、从多尺度卷积神经网络捕获的局部序列特征以及功能注释。通过采用transformer编码器和门控融合模块，该模型自适应地整合这些多模态特征。在多个独立数据集上的基准测试表明，MOSAIC始终优于现有最先进方法，如CADD和SpliceAI。在稀有变异、基因无关背景以及所有比较方法均产生输出的最大子集上评估时，它保持高准确性和稳健性。此外，特征重要性分析显示，DNA序列中的长程依赖性和基于transformer的整合是模型性能的关键贡献因素。可解释性分析表明，MOSAIC能够识别与转录因子和RNA结合蛋白相关的关键调控序列基序，为理解非经典SAV如何破坏剪接调控并促进致病过程提供了机制性见解。总体而言，MOSAIC为预测非经典SAV的致病性提供了一个准确且可解释的框架，从而作为遗传诊断和精准医学应用中可靠的计算工具。MOSAIC源代码和数据可在https://github.com/Lilab-genomics/MOSAIC获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42242678/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42242678/",
+  "paper_page_path": "papers/pubmed/42242678/index.html"
+}

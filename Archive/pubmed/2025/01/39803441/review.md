@@ -1,0 +1,44 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Technical and conceptual evaluation of the D&D-seq method as presented, including claims of single-cell DNA:protein interaction profiling, benchmarking against existing methods, and biological application to IDH2-mutant clonal hematopoiesis
+- **Shared manuscript claim summary** The authors present D&D-seq, a method that fuses a cytosine deaminase (DddA) to nanobodies targeting species-specific antibody FC domains, enabling targeted C-to-U editing at genomic loci bound by a protein of interest. They claim this enables profiling of transcription factor (TF) binding in bulk and single cells, integration with scATAC-seq workflows, high concordance with ChIP-seq, minimal off-target activity, and application to primary human PBMCs including detection of altered CTCF binding in IDH2-mutant cells.
+- **Visible evidence base** Full text including Results, Methods, Figure legends (referenced but figures not provided), Supplementary Figure references, Data Availability statement
+- **Missing materials affecting confidence** Figures and supplementary figures not provided; no detailed statistical methods or code availability; no raw data or processed data accessible; no detailed comparison of D&D-seq to existing single-cell TF profiling methods beyond one benchmark (uliCUT&RUN); no information on antibody validation or specificity controls beyond motif enrichment
+
+## Reviewer
+- **Overall assessment** The manuscript describes a conceptually interesting approach to a recognized problem in single-cell biology: direct measurement of TF-DNA interactions. The core idea of using a tethered deaminase to leave a permanent mark at protein binding sites is creative and potentially valuable. However, the evidence presented is insufficient to fully establish the method's specificity, sensitivity, and generalizability. Key concerns include the lack of direct comparison to existing single-cell TF profiling methods, limited validation of the deaminase's on-target activity at single-cell resolution, and the absence of key controls (e.g., no-antibody, non-targeting antibody). The biological application to IDH2-mutant cells is intriguing but underpowered and lacks functional validation. The manuscript would benefit from additional experiments and clearer presentation of the method's limitations.
+- **Who would be interested in the results, and why** Researchers in epigenomics, gene regulation, and single-cell biology would be interested. The method addresses a gap in the single-cell toolkit, and the integration with genotyping and 3D genome prediction could appeal to those studying clonal heterogeneity and chromatin architecture. The potential to profile weak or transient TF binding in primary samples is broadly relevant.
+- **Major strengths**
+  - The conceptual advance of using deaminase-mediated editing to record protein-DNA interactions is novel and distinct from existing tagmentation-based approaches.
+  - The method is presented as compatible with widely used 10x Genomics scATAC-seq workflows, which could facilitate adoption.
+  - The integration with genotyping (GoT-ChA) and 3D genome prediction (C.Origami) demonstrates potential for multi-modal analysis.
+  - The benchmarking against uliCUT&RUN, while limited, is a reasonable attempt to contextualize performance.
+- **Major Concerns**
+  - **R1-M1** (Blocking: Yes): The claim of single-cell resolution is not sufficiently supported. The number of edits per cell is acknowledged to be low, and the analysis relies on pseudo-bulking or meta-cell aggregation. It is unclear whether the method can reliably detect binding events in individual cells, which is a core claim of the title and abstract.
+  - **R1-M2** (Blocking: Yes): The specificity of the deaminase is not rigorously established. The authors show motif enrichment and concordance with ChIP-seq, but do not demonstrate that the editing is specifically tethered to the antibody-bound protein. Controls such as no-primary-antibody, isotype control, or a non-targeting nanobody are not described. The possibility of non-specific deamination due to local concentration effects or DNA accessibility is not addressed.
+  - **R1-M3** (Blocking: Yes): The benchmarking is incomplete. The comparison to uliCUT&RUN is limited to a single metric (FRiP) and a single cell type (mouse ES cells). No comparison is made to other single-cell TF profiling methods (e.g., scCUT&Tag, scChIP-seq, or inference-based approaches like SCENIC or motif activity from ATAC). The claim that D&D-seq "outperforms" existing methods is not supported by the data presented.
+  - **R1-M4** (Blocking: No): The biological application to IDH2-mutant CHIP is underdeveloped. The analysis is limited to a single patient sample, and the differential CTCF binding analysis uses a permissive FDR threshold (0.25). The functional consequences of altered CTCF binding at GIT1 and CNIH2 are speculative, and no experimental validation (e.g., CRISPR perturbation, expression analysis) is provided.
+  - **R1-M5** (Blocking: No): The manuscript lacks a detailed discussion of the method's limitations, particularly regarding the types of proteins that can be profiled (e.g., dependence on antibody quality, accessibility of the target protein in fixed chromatin) and the potential for bias introduced by the deaminase's sequence context preference.
+- **Minor Comments**
+  - **R1-m1**: The abstract states "transformative" and "unprecedented" without sufficient comparative evidence. Please temper the language to match the data presented.
+  - **R1-m2**: The Methods section for D&D-seq is described in the main text but the detailed protocol is not fully provided. Please include a step-by-step protocol or reference a detailed methods paper.
+  - **R1-m3**: The description of the "D&D-C.Origami" pipeline is brief. Please provide more details on the training and validation of the model, and clarify whether the predictions were compared to experimental Hi-C data in the same cell types.
+  - **R1-m4**: The manuscript mentions "minimal off-target activity" but does not provide a genome-wide analysis of off-target edits. Please include a quantification of editing at non-target sites (e.g., in regions without the target motif).
+  - **R1-m5**: The cell line mixing experiment is described but the figure is not provided. Please ensure the figure clearly shows the separation of cell types and the specificity of the signal.
+  - **R1-m6**: The statistical methods for differential binding analysis (LMM) are mentioned but not fully described. Please provide details on the model, covariates, and how the FDR was calculated.
+  - **R1-m7**: The manuscript would benefit from a schematic figure summarizing the D&D-seq workflow, including the key steps of fixation, antibody binding, deaminase tethering, and sequencing.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**
+  - **Originality**: High. The use of a deaminase to record protein-DNA interactions is a novel concept that differs from existing methods.
+  - **Scientific importance**: Potentially high, as it addresses a gap in single-cell epigenomics. However, the importance is not fully realized without stronger evidence of single-cell resolution and generalizability.
+  - **Interdisciplinary readership**: Moderate. The method will appeal to epigenomics and single-cell biologists, but the broader impact on fields like immunology or neuroscience is not demonstrated.
+  - **Technical soundness**: Currently insufficient. Key controls and benchmarks are missing, and the single-cell resolution claim is not supported.
+  - **Readability for nonspecialists**: The manuscript is well-written and the concepts are explained clearly. However, the Methods section is dense and may be challenging for non-experts.
+- **Recommendation posture** Not currently established from the provided evidence. The core concept is promising, but the manuscript requires substantial additional experiments and analysis to support the claims of single-cell resolution, specificity, and broad utility. I would be supportive if the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim of "single-cell resolution" is not supported by the data, as the analysis relies on pseudo-bulking.
+- The claim of "minimal off-target activity" is not supported by genome-wide analysis.
+- The claim that D&D-seq "outperforms" existing methods is not supported by direct comparison.
+- The biological significance of altered CTCF binding in IDH2-mutant cells is speculative and not validated.
+- The generalizability of the method to other TFs and chromatin remodelers is not demonstrated beyond CTCF and GATA family members.

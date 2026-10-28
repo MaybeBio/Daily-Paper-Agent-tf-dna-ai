@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "36151427",
+    "doi": "10.1007/s00432-022-04357-8",
+    "title": "Prediction of TTF-1 expression in non-small-cell lung cancer using machine learning-based radiomics."
+  },
+  "content": {
+    "abstract": "PURPOSE: To explore the feasibility and performance of machine learning-based radiomics models in predicting thyroid transcription factor-1 (TTF-1) expression in non-small cell lung cancer (NSCLC). METHODS: A total of 227 NSCLC patients were included in this retrospective study and divided into the training set and test set with a ratio of 8:2 randomly. Lung tumors on CT images were semi-automatic segmented utilizing 3D Slicer. Radiomic features quantifying tumor intensity, shape, texture, and transformed wavelet were extracted using a Python toolkit. Variance threshold (VT), principal component analysis (PCA), and least absolute shrinkage selection operator (LASSO) were used to reduce features; logistic regression (LR), random forest (RF), and support vector machine (SVM) were used to develop classifier, respectively. The performance of the models was evaluated by areas under the curves (AUC) of receiver operating characteristic (ROC) curves. Different models were compared by the Delong test to determine the optimal algorithms. RESULTS: Total 1968 radiomic features were extracted from the lung tumors images, and then 13, 15, and 13 stable features were selected by VT, PCA, and LASSO, respectively. Each classifier could discriminate against the TTF-1-positive groups with average AUC ranging from 0.601 to 0.784 in the training set. Among the models, three models constructed by the LASSO method showed satisfactory performance in the test set with AUC ranging from 0.715 to 0.787. The Delong test showed no significant difference between the LASSO models (P > 0.05). CONCLUSION: Machine learning-based radiomics model could predict the expression of TTF-1 in NSCLC patients.",
+    "keywords": [
+      "Immunohistochemistry",
+      "Machine learning",
+      "Non-small-cell lung",
+      "Prediction",
+      "TTF-1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Algorithms",
+      "*Carcinoma, Non-Small-Cell Lung/diagnostic imaging",
+      "*Lung Neoplasms/diagnostic imaging",
+      "Machine Learning",
+      "Retrospective Studies"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ruijie",
+        "Huo, Xiankai",
+        "Wang, Qian",
+        "Zhang, Juntao",
+        "Duan, Shaofeng",
+        "Zhang, Quan",
+        "Zhang, Shicai"
+      ],
+      "short_names": [
+        "Zhang R",
+        "Huo X",
+        "Wang Q",
+        "Zhang J",
+        "Duan S",
+        "Zhang Q",
+        "Zhang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7293-9653",
+        "ORCID: 0000-0001-9414-9794"
+      ],
+      "affiliations": [
+        "Department of Radiology and Tianjin Key Laboratory of Functional Imaging, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Radiology, Qilu Hospital of Shandong University Dezhou Hospital, Dezhou, 253000, Shandong, China.",
+        "Department of Radiology, Qilu Hospital of Shandong University Dezhou Hospital, Dezhou, 253000, Shandong, China.",
+        "Department of Radiology, Qilu Hospital of Shandong University Dezhou Hospital, Dezhou, 253000, Shandong, China.",
+        "Precision Health Institution, GE Healthcare, Pudong new town, Shanghai, 210000, China.",
+        "Precision Health Institution, GE Healthcare, Pudong new town, Shanghai, 210000, China.",
+        "Department of Radiology and Tianjin Key Laboratory of Functional Imaging, Tianjin Medical University General Hospital, Tianjin, 300052, China. quanzhang@tmu.edu.cn.",
+        "Department of Radiology, Qilu Hospital of Shandong University Dezhou Hospital, Dezhou, 253000, Shandong, China. zscrad@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ruijie",
+        "short_name": "Zhang R",
+        "identifiers": [
+          "0000-0002-7293-9653"
+        ],
+        "affiliations": [
+          "Department of Radiology and Tianjin Key Laboratory of Functional Imaging, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+          "Department of Radiology, Qilu Hospital of Shandong University Dezhou Hospital, Dezhou, 253000, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Huo, Xiankai",
+        "short_name": "Huo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Qilu Hospital of Shandong University Dezhou Hospital, Dezhou, 253000, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qian",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Qilu Hospital of Shandong University Dezhou Hospital, Dezhou, 253000, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Juntao",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Precision Health Institution, GE Healthcare, Pudong new town, Shanghai, 210000, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Shaofeng",
+        "short_name": "Duan S",
+        "identifiers": [],
+        "affiliations": [
+          "Precision Health Institution, GE Healthcare, Pudong new town, Shanghai, 210000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Quan",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology and Tianjin Key Laboratory of Functional Imaging, Tianjin Medical University General Hospital, Tianjin, 300052, China. quanzhang@tmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shicai",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0001-9414-9794"
+        ],
+        "affiliations": [
+          "Department of Radiology, Qilu Hospital of Shandong University Dezhou Hospital, Dezhou, 253000, Shandong, China. zscrad@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cancer research and clinical oncology"
+    ],
+    "journal_abbrev": [
+      "J Cancer Res Clin Oncol"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/24 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "39456114"
+    ],
+    "refs": [
+      "33738250",
+      "33148663",
+      "32754323",
+      "32367456",
+      "32176676",
+      "32154773",
+      "31645497",
+      "31439255",
+      "31378236",
+      "31030667",
+      "30519330",
+      "30194207",
+      "29944078",
+      "29092951",
+      "28331828",
+      "27347764",
+      "26579733",
+      "26278466",
+      "25220842",
+      "25056707",
+      "24457236",
+      "22770690",
+      "16570563",
+      "12051643"
+    ],
+    "similar": [
+      "36151427",
+      "40468196",
+      "37530809",
+      "40501221",
+      "31439255",
+      "36563341",
+      "39968895",
+      "32176676",
+      "40562645",
+      "40967950",
+      "33057772",
+      "32185618",
+      "39665892",
+      "39283049",
+      "37599160",
+      "40082786",
+      "40803192",
+      "39788813",
+      "40400957",
+      "38568892",
+      "37845636",
+      "40223991",
+      "37627852",
+      "38549935",
+      "38172022",
+      "38536559",
+      "31743889",
+      "39528880",
+      "36456151",
+      "41067858",
+      "38678211",
+      "39618212",
+      "40612349",
+      "38523520",
+      "34745008",
+      "38360550",
+      "41322408",
+      "40842207",
+      "36682051",
+      "39225775",
+      "40119358",
+      "38167564",
+      "38343749",
+      "36458424",
+      "35420272",
+      "36081562",
+      "39321656",
+      "35577699",
+      "39003337",
+      "41261069",
+      "35417660",
+      "30898382",
+      "39995707",
+      "40242240",
+      "34109133",
+      "38436611",
+      "37966123",
+      "30280245",
+      "36229793",
+      "37995359",
+      "39553728",
+      "32776232",
+      "33738250",
+      "38613668",
+      "38952311",
+      "41352852",
+      "37949702",
+      "35847942",
+      "37223680",
+      "39983386",
+      "40075547",
+      "33738763",
+      "40632147",
+      "39604651",
+      "38326860",
+      "39817633",
+      "39812042",
+      "41395623",
+      "39600641",
+      "37274479",
+      "40177755",
+      "38875420",
+      "40958270",
+      "35572597",
+      "39466475",
+      "38310283",
+      "31166787",
+      "37225529",
+      "41162906",
+      "37711814",
+      "37977890",
+      "34052741",
+      "37214402",
+      "37278046",
+      "36120843",
+      "33743483",
+      "40165657",
+      "34865392",
+      "33520719",
+      "40216830"
+    ],
+    "review": [
+      "36151427"
+    ],
+    "pmc": [
+      "11797328"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36151427/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00432-022-04357-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

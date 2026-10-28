@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.11.540401",
+  "title": "<i>De novo</i> distillation of thermodynamic affinity from deep learning regulatory sequence models of <i>in vivo</i> protein-DNA binding",
+  "authors": "Amr M. Alexandari; Connor A. Horton; Avanti Shrikumar; Nilay Shah; Eileen Li; Melanie Weilert; Miles A. Pufall; Julia Zeitlinger; Polly M. Fordyce; Anshul Kundaje",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-11",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出Affinity Distillation方法，从深度学习模型（基于体内ChIP数据）中蒸馏出转录因子-DNA结合的热力学亲和力，实现体内外结合预测的调和，核心聚焦TF-DNA互作且方法为AI建模，高度匹配本课题。",
+  "abstract": "Transcription factors (TF) are proteins that bind DNA in a sequence-specific manner to regulate gene transcription. Despite their unique intrinsic sequence preferences, in vivo genomic occupancy profiles of TFs differ across cellular contexts. Hence, deciphering the sequence determinants of TF binding, both intrinsic and context-specific, is essential to understand gene regulation and the impact of regulatory, non-coding genetic variation. Biophysical models trained on in vitro TF binding assays can estimate intrinsic affinity landscapes and predict occupancy based on TF concentration and affinity. However, these models cannot adequately explain context-specific, in vivo binding profiles. Conversely, deep learning models, trained on in vivo TF binding assays, effectively predict and explain genomic occupancy profiles as a function of complex regulatory sequence syntax, albeit without a clear biophysical interpretation. To reconcile these complementary models of in vitro and in vivo TF binding, we developed Affinity Distillation (AD), a method that extracts thermodynamic affinities de-novo from deep learning models of TF chromatin immunoprecipitation (ChIP) experiments by marginalizing away the influence of genomic sequence context. Applied to neural networks modeling diverse classes of yeast and mammalian TFs, AD predicts energetic impacts of sequence variation within and surrounding motifs on TF binding as measured by diverse in vitro assays with superior dynamic range and accuracy compared to motif-based methods. Furthermore, AD can accurately discern affinities of TF paralogs. Our results highlight thermodynamic affinity as a key determinant of in vivo binding, suggest that deep learning models of in vivo binding implicitly learn high-resolution affinity landscapes, and show that these affinities can be successfully distilled using AD. This new biophysical interpretation of deep learning models enables high-throughput in silico experiments to explore the influence of sequence context and variation on both intrinsic affinity and in vivo occupancy.",
+  "abstract_zh": "转录因子（Transcription factors, TF）是以序列特异性方式结合DNA以调控基因转录的蛋白质。尽管它们具有独特的内在序列偏好，但体内基因组占据谱在不同细胞环境中有所差异。因此，解析TF结合的序列决定因素，无论是内在的还是环境特异性的，对于理解基因调控及调控性非编码遗传变异的影响至关重要。基于体外TF结合测定训练的生物物理模型能够估计内在亲和力景观，并根据TF浓度和亲和力预测占据情况。然而，这些模型无法充分解释环境特异性的体内结合谱。相反，基于体内TF结合测定训练的深度学习模型，能有效预测和解释作为复杂调控序列语法函数的基因组占据谱，尽管缺乏明确的生物物理解释。为调和这些体外和体内TF结合的互补模型，我们开发了亲和力蒸馏（Affinity Distillation, AD）方法，该方法通过边缘化基因组序列上下文的影响，从TF染色质免疫沉淀（chromatin immunoprecipitation, ChIP）实验的深度学习模型中从头提取热力学亲和力。应用于模拟多种酵母和哺乳动物TF类别的神经网络时，AD预测了基序内及周围序列变异对TF结合的能量影响，与基于基序的方法相比，在多种体外测定中展现出更优的动态范围和准确性。此外，AD能精确区分TF旁系同源物的亲和力。我们的结果强调热力学亲和力是体内结合的关键决定因素，表明体内结合的深度学习模型隐式学习了高分辨率亲和力景观，并显示这些亲和力可通过AD成功蒸馏。这一对深度学习模型的新生物物理解释，使得高通量计算机模拟实验得以探索序列上下文和变异对内在亲和力及体内占据的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540401",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540401",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.11.540401/index.html"
+}

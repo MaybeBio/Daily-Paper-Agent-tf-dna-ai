@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "42284685",
+    "doi": "10.1016/j.drup.2026.101415",
+    "title": "The RELA-FTH1 axis in senescent cancer-associated fibroblasts creates a stromal iron sink that drives ferroptosis resistance and therapy failure across solid malignant tumors."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Therapy resistance remains the foremost barrier to improving outcomes in solid malignancies. While tumor-cell-intrinsic resistance mechanisms have been extensively studied, the contribution of the tumor microenvironment (TME) to treatment failure is poorly understood. Cellular senescence accumulates across diverse solid tumor types and reshapes the stromal landscape, yet which population dominates this senescent compartment and how senescent cancer-associated fibroblasts (senCAFs) drive resistance remain unresolved. In particular, whether senescent fibroblasts can suppress ferroptosis in neighboring tumor cells-and thereby promote drug resistance-through metabolic reprogramming of iron homeostasis has not been mechanistically dissected. METHODS: We integrated six single-cell RNA sequencing datasets (431,513 cells) to map the senescent landscape of the TME. A 24-gene prognostic senescent fibroblast signature was constructed using LASSO/Cox regression and validated in independent TCGA cohorts. Transcription factor prediction and protein-DNA molecular docking identified upstream regulators. Functional studies employed conditioned medium assays, transwell co-culture systems with ferroptosis induction and chemosensitivity testing, FerroOrange-based intracellular Fe(2)(+) quantification, genetic perturbation (shRNA/siRNA), pharmacological NF-kappaB inhibition, and subcutaneous xenograft models. Spatial transcriptomics validated findings in cancer tissues. Pan-cancer analyses across 31 solid malignant tumor types were performed using GEPIA 2 to assess cross-cancer generalizability. RESULTS: SenCAFs constituted the predominant senescent compartment in the TME, significantly promoting tumor cell proliferation, migration, invasion, and in vivo tumor growth. Multi-omics screening prioritized ferritin heavy chain 1 (FTH1) as the critical effector. Mechanistically, senCAFs upregulated FTH1 to create a stromal iron sink, sequestering microenvironmental Fe(2 +), shielding tumor cells from ferroptosis. Disruption of this stromal iron sink by FTH1 silencing not only restored ferroptosis sensitivity but also resensitized tumor cells to cisplatin-induced apoptosis. This iron sink was transcriptionally driven by RELA; targeting RELA abolished FTH1 expression and the senescence phenotype. Spatial transcriptomics validated the FTH1-senCAF-NF-kappaB axis in situ. Critically, pan-solid tumor analysis also confirmed that upregulation of the RELA-FTH1 axis was associated with poor prognosis and positively correlated with ferroptosis resistance and multiple drug resistance pathways across 31 solid malignancies. CONCLUSIONS: SenCAFs drive therapy resistance by establishing a RELA-FTH1-dependent stromal iron sink. This axis serves as a pan-cancer prognostic and drug resistance biomarker and represents a druggable stromal vulnerability, suggesting that its disruption may resensitize resistant solid malignant tumors to ferroptosis and chemotherapy.",
+    "keywords": [
+      "FTH1",
+      "Ferroptosis resistance",
+      "RELA",
+      "Senescent cancer-associated fibroblasts",
+      "Stromal iron sink",
+      "Therapy resistance"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ferroptosis/drug effects/genetics",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Cancer-Associated Fibroblasts/metabolism/pathology/drug effects",
+      "*Transcription Factor RelA/metabolism/genetics",
+      "*Iron/metabolism",
+      "Cellular Senescence",
+      "Tumor Microenvironment/drug effects/genetics",
+      "*Neoplasms/drug therapy/pathology/genetics/metabolism",
+      "Animals",
+      "*Ferritins/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Mice",
+      "Antineoplastic Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Hexin",
+        "Zhao, Xinran",
+        "Zhang, Zhen",
+        "Li, Zhihui",
+        "Pan, Xinhua",
+        "Zhao, Haoming",
+        "Du, Mengxuan",
+        "Wan, Qingqing",
+        "Zou, Xin",
+        "Fu, Jinye",
+        "Zhao, Hongyu",
+        "Zhang, Xin",
+        "Chen, Wan-Tao"
+      ],
+      "short_names": [
+        "Ma H",
+        "Zhao X",
+        "Zhang Z",
+        "Li Z",
+        "Pan X",
+        "Zhao H",
+        "Du M",
+        "Wan Q",
+        "Zou X",
+        "Fu J",
+        "Zhao H",
+        "Zhang X",
+        "Chen WT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "National Center for Translational Medicine (Shanghai) Linyi Branch & Institute of Translational Medicine Linyi University; School of Medicine, Linyi University, Linyi, Shandong, China.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China. Electronic address: fujinye_0712@163.com.",
+        "The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. Electronic address: zhongyu93@163.com.",
+        "Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China. Electronic address: xz404@sjtu.edu.cn.",
+        "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China; National Center for Translational Medicine (Shanghai) Linyi Branch & Institute of Translational Medicine Linyi University; School of Medicine, Linyi University, Linyi, Shandong, China. Electronic address: chenwantao196323@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Hexin",
+        "short_name": "Ma H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xinran",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhen",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhihui",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Xinhua",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Haoming",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Du, Mengxuan",
+        "short_name": "Du M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Qingqing",
+        "short_name": "Wan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Xin",
+        "short_name": "Zou X",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Translational Medicine (Shanghai) Linyi Branch & Institute of Translational Medicine Linyi University; School of Medicine, Linyi University, Linyi, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Jinye",
+        "short_name": "Fu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China. Electronic address: fujinye_0712@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongyu",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. Electronic address: zhongyu93@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China. Electronic address: xz404@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Wan-Tao",
+        "short_name": "Chen WT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head and Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Shanghai Research Institute of Stomatology, Shanghai, China; Digital Diagnosis and Treatment Innovation Center for Cancer, Institute of Translational Medicine, Shanghai Jiao Tong University, Shanghai, China; National Center for Translational Medicine (Shanghai) Linyi Branch & Institute of Translational Medicine Linyi University; School of Medicine, Linyi University, Linyi, Shandong, China. Electronic address: chenwantao196323@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy"
+    ],
+    "journal_abbrev": [
+      "Drug Resist Updat"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/13 00:39",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42284685",
+      "42155177",
+      "40855439",
+      "41716413",
+      "42121871",
+      "40725394",
+      "40706422",
+      "40022222",
+      "41039595",
+      "42244988",
+      "42119923",
+      "40616092",
+      "42437015",
+      "41496273",
+      "41235254",
+      "42051516",
+      "41577205",
+      "27835864",
+      "41511527",
+      "39737177",
+      "41270149",
+      "41293164",
+      "40213543",
+      "41405275",
+      "41074434",
+      "42196424",
+      "41535933",
+      "40027190",
+      "40702555",
+      "37812288",
+      "40777020",
+      "34239043",
+      "41249682",
+      "39238647",
+      "41917876",
+      "38206305",
+      "39707456",
+      "38769193",
+      "40777041",
+      "32005663",
+      "32106859",
+      "40652527",
+      "42141445",
+      "41121066",
+      "39703515",
+      "41785601",
+      "41784732",
+      "42106773",
+      "42321379",
+      "41761123",
+      "41888443",
+      "41094576",
+      "41831519",
+      "41485251",
+      "41782241",
+      "40749519",
+      "28888202",
+      "40652583",
+      "42052841",
+      "41029829",
+      "42359574",
+      "40740774",
+      "41039452",
+      "42319469",
+      "28012440",
+      "42013581",
+      "40833485",
+      "41101075",
+      "42435930",
+      "41851365",
+      "40898244",
+      "41998662",
+      "40842027",
+      "42045517",
+      "42219071",
+      "30071534",
+      "42112349",
+      "39851099",
+      "41436831",
+      "42301521",
+      "42440056",
+      "42238572",
+      "41383634",
+      "41350704",
+      "41990693",
+      "41366407",
+      "41742226",
+      "40656610",
+      "39120539",
+      "40907917",
+      "32176591",
+      "41742264",
+      "42149203",
+      "41562315",
+      "41636890",
+      "40609836",
+      "41799193",
+      "41612599",
+      "31699795",
+      "41786277"
+    ],
+    "review": [
+      "42284685",
+      "42437015",
+      "41577205",
+      "42052841"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1368-7646(26)00066-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3809",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1368-7646(26)00066-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

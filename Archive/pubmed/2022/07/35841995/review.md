@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a strategy combining chemical analysis, species sensitivity distributions (SSD), and in silico molecular docking to assess estrogen receptor-mediated risk in environmental water from the Dongjiang River, China. They report concentrations of phenolic endocrine-disrupting chemicals (PEDCs) and phthalic acid esters (PAEs), identify high-risk compounds via SSD, and use docking-derived binding affinities as toxic equivalency factors to estimate multi-species estrogen receptor risk, concluding that PEDCs are the main contributors and that ERbeta dominates the risk.
+- **Visible evidence base** Abstract text only; no methods, figures, tables, or supplementary data provided
+- **Missing materials affecting confidence** Full methods for chemical analysis, SSD construction, docking protocols, statistical treatments, raw concentration data, species selection criteria, and validation of the toxic equivalency factor approach; all are essential for evaluating technical soundness
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful integrative framework for molecular endpoint risk assessment, combining empirical measurements with computational predictions. However, the current evidence base is insufficient to establish the validity of the proposed strategy. Several methodological details are absent, and the causal link between docking-derived binding affinities and quantitative risk estimates is not justified. The claim of being the "first attempt" is plausible but unverifiable from the supplied material. The work may interest environmental toxicologists and regulators, but the case is not yet established.
+- **Who would be interested in the results, and why** Environmental risk assessors, regulatory toxicologists, and researchers in endocrine disruption and water quality monitoring would be interested. The integration of SSD with in silico docking offers a potential pathway for prioritizing compounds and species in data-poor contexts, which is relevant for screening-level assessments.
+- **Major strengths** The combination of empirical chemical data with computational docking is a forward-looking approach. The focus on multiple estrogen receptor subtypes and multiple aquatic species addresses a gap in typical single-species or single-receptor assessments. The explicit identification of high-risk compounds and dominant contributors provides actionable information for prioritization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "binding affinities from molecular docking among PEDCs, PAEs, and estrogen receptors (ERalpha, Erbeta, and GPER) were applied as toxic equivalency factors"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that docking-derived binding affinities were used as toxic equivalency factors (TEFs) without any description of how affinities were converted to TEFs, how receptor-specific differences were normalized, or whether the relationship between binding affinity and in vivo or in vitro potency was validated. No correlation with experimental bioassay data is mentioned.
+  - **Why it matters** TEFs are quantitative weights that must be grounded in empirical dose-response relationships. Using raw docking scores as TEFs without calibration can produce misleading risk estimates, undermining the core quantitative conclusions of the study.
+  - **Resolution test** Provide a clear derivation of TEFs from docking scores, including normalization procedures, and validate against at least one experimental dataset (e.g., reporter gene assays or competitive binding assays) for a subset of compounds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Estrogen receptor-mediated risk suggested that PEDCs were the main contributors, containing 53.37-69.79% of total risk"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The risk calculation methodology is not described. It is unclear how SSD-derived hazard data and docking-derived TEFs were combined into a single risk metric, how species-specific exposure was estimated, and whether the risk percentages are based on concentration addition or independent action models. The range 53.37-69.79% implies a sensitivity analysis or multiple scenarios, but the basis is not stated.
+  - **Why it matters** Without a transparent risk calculation framework, the quantitative risk attribution cannot be reproduced or independently verified. This is central to the paper's contribution.
+  - **Resolution test** Specify the risk equation, input parameters, and assumptions. Provide a worked example or sensitivity analysis showing how the percentage range was derived.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "This study is the first attempt to assess the estrogen receptor-mediated risk of river water in multiple aquatic organisms"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The novelty claim is unverifiable from the abstract. No literature comparison is provided to demonstrate that prior studies did not assess multi-species estrogen receptor risk in river water using similar integrative approaches.
+  - **Why it matters** The claim of being "first" is a strong statement that requires a thorough literature review. If overstated, it weakens the paper's positioning and credibility.
+  - **Resolution test** Provide a systematic literature search summary in the full manuscript, with explicit search terms and inclusion criteria, demonstrating the absence of prior comparable studies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The SSD approach showed that 4-NP, BPA, E2 of PEDCs, and DBP, DOP, and DEHP could severely threaten the aquatic ecosystems"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The SSD analysis is mentioned but no details are given on species selection, data sources, distribution fitting, or the criteria for classifying "severe" threat. The hazard classification thresholds are not defined.
+  - **Why it matters** SSD results are highly sensitive to input data quality and fitting methods. Without these details, the hazard conclusions cannot be assessed for robustness.
+  - **Resolution test** Describe SSD data sources, number of species, fitting methods, and the hazard quotient or percentile thresholds used to classify risk levels.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "summation operator(4)PEDCs" and "summation operator(6)PAEs" which is awkward and likely a formatting artifact. The notation is unclear to nonspecialist readers.
+  - **Required correction** Replace with standard notation such as "sum of four PEDCs" and "sum of six PAEs" or use "Sigma4PEDCs" and "Sigma6PAEs" with a brief definition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the number of sampling sites or the temporal scope of sampling, which limits the generalizability of the concentration ranges reported.
+  - **Required correction** Add the number of sampling sites and sampling period to the abstract or clarify that these details are in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement "They potentially pose more severe estrogen-receptor toxicity to zebrafish, turtles, and frogs" is vague. It is unclear whether this is based on docking results, SSD data, or a combination, and what "more severe" means quantitatively.
+  - **Required correction** Specify the basis for this claim and provide quantitative support, or rephrase to reflect the specific metric used (e.g., predicted binding affinity or hazard quotient).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (TEF derivation and validation), R1-M2 (risk calculation transparency), R1-M4 (SSD methodology details). These are essential for establishing the technical soundness of the proposed strategy.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The integration of SSD with docking-derived TEFs is not entirely novel, but the multi-species, multi-receptor focus adds a new dimension. The claim of being "first" requires verification.  
+  - Scientific importance: Potentially relevant for screening-level risk assessment, but the importance is diminished by the lack of methodological transparency and validation.  
+  - Interdisciplinary readership: The topic bridges environmental chemistry, toxicology, and computational biology, which could attract a broad audience if the methods are clearly presented.  
+  - Technical soundness: Not established from the abstract. Key methodological steps are missing or unjustified.  
+  - Readability for nonspecialists: The abstract is generally accessible but contains notation issues and vague statements that reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept, but the missing methodological details and lack of validation for the TEF approach prevent a supportive recommendation. A revised manuscript with full methods, validation data, and transparent risk calculations could change this assessment.
+
+## Risk / unsupported claims
+- The claim that docking-derived binding affinities can serve as toxic equivalency factors is unsupported without calibration or experimental validation.
+- The quantitative risk attribution (53.37-69.79% from PEDCs) is unverifiable without a described risk calculation framework.
+- The "first attempt" novelty claim is unverifiable from the abstract alone.
+- The statement about "more severe" toxicity to zebrafish, turtles, and frogs is unsupported without specific quantitative metrics.
+- The classification of compounds as "severely threatening" via SSD is unverifiable without details on data sources and thresholds.

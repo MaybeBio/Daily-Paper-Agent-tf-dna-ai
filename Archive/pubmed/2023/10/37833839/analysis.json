@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37833839",
+  "title": "MSI-XGNN: an explainable GNN computational framework integrating transcription- and methylation-level biomarkers for microsatellite instability detection.",
+  "authors": "Cao, Yang; Wang, Dan; Wu, Jin; Yao, Zhanxin; Shen, Si; Niu, Chao; Liu, Ying; Zhang, Pengcheng; Wang, Quannian; Wang, Jinhao; Li, Hua; Wei, Xi; Wang, Xinxing; Dong, Qingyang",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-10-14",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用GNN和CatBoost基于RNA-seq和甲基化数据预测微卫星不稳定性，虽用GNN但对象为MSI表型分类，非蛋白质-DNA互作或TF-DNA结合建模，仅边缘相关。",
+  "abstract": "Microsatellite instability (MSI) is a hypermutator phenotype caused by DNA mismatch repair deficiency. MSI has been reported in various human cancers, particularly colorectal, gastric and endometrial cancers. MSI is a promising biomarker for cancer prognosis and immune checkpoint blockade immunotherapy. Several computational methods have been developed for MSI detection using DNA- or RNA-based approaches based on next-generation sequencing. Epigenetic mechanisms, such as DNA methylation, regulate gene expression and play critical roles in the development and progression of cancer. We here developed MSI-XGNN, a new computational framework for predicting MSI status using bulk RNA-sequencing and DNA methylation data. MSI-XGNN is an explainable deep learning model that combines a graph neural network (GNN) model to extract features from the gene-methylation probe network with a CatBoost model to classify MSI status. MSI-XGNN, which requires tumor-only samples, exhibited comparable performance with two well-known methods that require tumor-normal paired sequencing data, MSIsensor and MANTIS and better performance than several other tools. MSI-XGNN also showed good generalizability on independent validation datasets. MSI-XGNN identified six MSI markers consisting of four methylation probes (EPM2AIP1|MLH1:cg14598950, EPM2AIP1|MLH1:cg27331401, LNP1:cg05428436 and TSC22D2:cg15048832) and two genes (RPL22L1 and MSH4) constituting the optimal feature subset. All six markers were significantly associated with beneficial tumor microenvironment characteristics for immunotherapy, such as tumor mutation burden, neoantigens and immune checkpoint molecules such as programmed cell death-1 and cytotoxic T-lymphocyte antigen-4. Overall, our study provides a powerful and explainable deep learning model for predicting MSI status and identifying MSI markers that can potentially be used for clinical MSI evaluation.",
+  "abstract_zh": "微卫星不稳定性（MSI）是一种由DNA错配修复缺陷引起的超突变表型。MSI已在多种人类癌症中被报道，尤其是结直肠癌、胃癌和子宫内膜癌。MSI是癌症预后和免疫检查点阻断免疫治疗的有前景的生物标志物。基于下一代测序，已开发出多种使用DNA或RNA方法的计算工具用于MSI检测。表观遗传机制，如DNA甲基化，调控基因表达并在癌症的发生和进展中发挥关键作用。我们在此开发了MSI-XGNN，一种利用批量RNA测序和DNA甲基化数据预测MSI状态的新计算框架。MSI-XGNN是一种可解释的深度学习模型，结合了图神经网络（GNN）模型从基因-甲基化探针网络中提取特征，以及CatBoost模型对MSI状态进行分类。MSI-XGNN仅需肿瘤样本，其性能与两种需要肿瘤-正常配对测序数据的知名方法（MSIsensor和MANTIS）相当，并优于其他几种工具。MSI-XGNN在独立验证数据集上也表现出良好的泛化能力。MSI-XGNN识别出六个MSI标志物，包括四个甲基化探针（EPM2AIP1|MLH1:cg14598950、EPM2AIP1|MLH1:cg27331401、LNP1:cg05428436和TSC22D2:cg15048832）和两个基因（RPL22L1和MSH4），构成最优特征子集。所有六个标志物均与有利于免疫治疗的肿瘤微环境特征显著相关，如肿瘤突变负荷、新抗原以及程序性细胞死亡-1和细胞毒性T淋巴细胞抗原-4等免疫检查点分子。总体而言，我们的研究提供了一种强大且可解释的深度学习模型，用于预测MSI状态和识别MSI标志物，这些标志物有望用于临床MSI评估。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37833839/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37833839/",
+  "paper_page_path": "papers/pubmed/37833839/index.html"
+}

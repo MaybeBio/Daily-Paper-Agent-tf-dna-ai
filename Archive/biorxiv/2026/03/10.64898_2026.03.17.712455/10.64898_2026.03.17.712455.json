@@ -1,0 +1,564 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.17.712455",
+  "title": "HERCULES: an integrative deep-learning framework for predicting RNA-binding propensity and mutation effects at single-residue resolution",
+  "doi": "10.64898/2026.03.17.712455",
+  "abstract": "RNA-binding proteins (RBPs) regulate essential aspects of RNA metabolism, yet accurately identifying RNA-binding domains (RBDs) and quantifying the impact of sequence variation on RNA-binding ability remain challenging. Here, we present HERCULES ( H ybrid fram E wo R k for RNA-binding domain lo C alization and m U tation ana L ysis using physicochemical and languag E model S) , a unified sequence-based framework for simultaneous RBD localization, global RNA-binding propensity prediction and mutation effect assessment. HERCULES integrates a fine-tuned protein language model with an explicit residue-level physicochemical module, combining global contextual representations with local mutation-sensitive descriptors. On an independent test set, the HERCULES global score discriminates RBPs from non-RBPs with an AUROC of 0.86. At residue resolution, HERCULES outperforms state-of-the-art sequence-based predictors in identifying canonical, non-canonical and putative RBDs across Pfam-annotated proteins. Using a curated dataset of experimentally validated RNA-binding–disrupting mutations, HERCULES correctly classifies 87% of deleterious variants, including single–amino acid substitutions. Evaluation on experimentally resolved protein–RNA complexes further demonstrates robust residue-level performance and improved generalization when contact annotations are augmented with AlphaFold3-predicted complexes. By unifying domain localization and mutation sensitivity within a single sequence-only framework, HERCULES provides a mechanistically interpretable approach for studying RNA–protein interactions. HERCULES is freely available at https://tools.tartaglialab.com/hercules and as an open-source Python package at https://github.com/tartaglialabIIT/hercules.git .",
+  "authors": [
+    "Jonathan Fiorentino",
+    "Michele Monti",
+    "Alexandros Armaos",
+    "Dimitrios Miltiadis-Vrachnos",
+    "Lorenzo Di Rienzo",
+    "Gian Gaetano Tartaglia"
+  ],
+  "published_date": "2026-03-18",
+  "updated_date": "2026-03-18T10:55:20Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712455",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.17.712455.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:58:06Z",
+        "timestamp": 1785427086392,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            18
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                18
+              ]
+            ],
+            "date-time": "2026-03-18T00:00:00Z",
+            "timestamp": 1773792000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "ASTRA"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ASTRA"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/0472cxd90",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  RNA-binding proteins (RBPs) regulate essential aspects of RNA metabolism, yet accurately identifying RNA-binding domains (RBDs) and quantifying the impact of sequence variation on RNA-binding ability remain challenging. Here, we present HERCULES (\n                  <jats:bold>H</jats:bold>\n                  ybrid fram\n                  <jats:bold>E</jats:bold>\n                  wo\n                  <jats:bold>R</jats:bold>\n                  k for RNA-binding domain lo\n                  <jats:bold>C</jats:bold>\n                  alization and m\n                  <jats:bold>U</jats:bold>\n                  tation ana\n                  <jats:bold>L</jats:bold>\n                  ysis using physicochemical and languag\n                  <jats:bold>E</jats:bold>\n                  model\n                  <jats:bold>S)</jats:bold>\n                  , a unified sequence-based framework for simultaneous RBD localization, global RNA-binding propensity prediction and mutation effect assessment. HERCULES integrates a fine-tuned protein language model with an explicit residue-level physicochemical module, combining global contextual representations with local mutation-sensitive descriptors. On an independent test set, the HERCULES global score discriminates RBPs from non-RBPs with an AUROC of 0.86. At residue resolution, HERCULES outperforms state-of-the-art sequence-based predictors in identifying canonical, non-canonical and putative RBDs across Pfam-annotated proteins. Using a curated dataset of experimentally validated RNA-binding–disrupting mutations, HERCULES correctly classifies 87% of deleterious variants, including single–amino acid substitutions. Evaluation on experimentally resolved protein–RNA complexes further demonstrates robust residue-level performance and improved generalization when contact annotations are augmented with AlphaFold3-predicted complexes. By unifying domain localization and mutation sensitivity within a single sequence-only framework, HERCULES provides a mechanistically interpretable approach for studying RNA–protein interactions. HERCULES is freely available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://tools.tartaglialab.com/hercules\">https://tools.tartaglialab.com/hercules</jats:ext-link>\n                  and as an open-source Python package at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/tartaglialabIIT/hercules.git\">https://github.com/tartaglialabIIT/hercules.git</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.64898/2026.03.17.712455",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2026-03-18T10:55:20Z",
+        "timestamp": 1773831320000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "HERCULES: an integrative deep-learning framework for predicting RNA-binding propensity and mutation effects at single-residue resolution"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jonathan",
+          "family": "Fiorentino",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "RNA Systems Biology Lab, Centre for Human Technologies, Istituto Italiano di Tecnologia, Via Enrico Melen, 83, 16152 Genova GE"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michele",
+          "family": "Monti",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "RNA Systems Biology Lab, Centre for Human Technologies, Istituto Italiano di Tecnologia, Via Enrico Melen, 83, 16152 Genova GE"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandros",
+          "family": "Armaos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "RNA Systems Biology Lab, Centre for Human Technologies, Istituto Italiano di Tecnologia, Via Enrico Melen, 83, 16152 Genova GE"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dimitrios",
+          "family": "Miltiadis-Vrachnos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "RNA Systems Biology Lab, Centre for Human Technologies, Istituto Italiano di Tecnologia, Via Enrico Melen, 83, 16152 Genova GE"
+            },
+            {
+              "name": "Sapienza University of Rome, Department of Biology and Biotechnologies, Piazzale Aldo Moro 5, 00185, Rome"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lorenzo",
+          "family": "Di Rienzo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Life Nano- & NeuroScience, Fondazione Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161, Rome"
+            },
+            {
+              "name": "Sapienza University of Rome, Department of Biochemical Sciences “A. Rossi Fanelli”, P.le Aldo Moro 5, 00185 Rome"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7524-6310",
+          "authenticated-orcid": false,
+          "given": "Gian Gaetano",
+          "family": "Tartaglia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "RNA Systems Biology Lab, Centre for Human Technologies, Istituto Italiano di Tecnologia, Via Enrico Melen, 83, 16152 Genova GE"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-30944-x"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.130"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Milordini, G. et al. Computationally-designed aptamers targeting RAD51-BRCA2 interaction impair homologous recombination and induce synthetic lethality. Nat Commun 17, 70 (2025).",
+          "DOI": "10.1038/s41467-025-66694-9"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.3c00575"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Perotti, I. , Broglia, L. , Tartaglia, G. G. & Cerase, A . Xist condensates: perspectives for therapeutic intervention. Genome Biol 26, 215 (2025).",
+          "DOI": "10.1186/s13059-025-03666-8"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.6",
+          "first-page": "161",
+          "article-title": "Predictions of protein–RNA interactions",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "793",
+          "DOI": "10.1002/wrna.1378",
+          "article-title": "Advances in the characterization of RNA-binding proteins",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "Wiley Interdisciplinary Reviews: RNA"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kumar, M. , Gromiha, M. M. & Raghava, G. P . SVM based prediction of RNA-binding proteins using binding residues and evolutionary information. Journal of molecular recognition : JMR 24, (2011).",
+          "DOI": "10.1002/jmr.1061"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv629"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zuo, Y. et al. Research progress on prediction of RNA-protein binding sites in the past five years. Anal Biochem 691, 115535 (2024).",
+          "DOI": "10.1016/j.ab.2024.115535"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2023.06.019"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2019.11.017"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm294"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.14",
+          "first-page": "e84",
+          "article-title": "DRNApred, fast sequence-based method that accurately predicts and discriminates DNA- and RNA-binding residues",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, J. , Chen, Q. & Liu, B . NCBRPred: predicting nucleic acid binding residues in proteins based on multilabel learning. Brief Bioinform 22, (2021).",
+          "DOI": "10.1093/bib/bbaa397"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1253"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbic.202401047"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2602.00660"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad726"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chowdhury, R. et al. Single-sequence protein structure prediction using a language model and deep learning. Nature biotechnology 40, (2022).",
+          "DOI": "10.1038/s41587-022-01432-w"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac020"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1013424",
+          "DOI": "10.1371/journal.pcbi.1013424",
+          "article-title": "Paying attention to attention: High attention sites as indicators of protein family and function in language models",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Monti, M. et al. catGRANULE 2.0: accurate predictions of liquid-liquid phase separating proteins at single amino acid resolution. Genome Biol 26, 33 (2025).",
+          "DOI": "10.1186/s13059-025-03497-7"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zacco, E. et al. Computationally Designed RNA Aptamers Enable Selective Detection of FUS Pathology in ALS. Biochemistry (2025).",
+          "DOI": "10.1101/2025.04.30.651570"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "2719",
+          "DOI": "10.1016/j.csbj.2025.06.027",
+          "article-title": "Design and characterization of G-quadruplex RNA aptamers reveal RNA-binding by KDM5 lysine demethylases",
+          "volume": "27",
+          "year": "2025",
+          "journal-title": "Comput. Struct. Biotechnol. J"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu074"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae076"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.03.12.642785"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.04.031"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Peng, X. et al. RBP-TSTL is a two-stage transfer learning framework for genome-scale prediction of RNA-binding proteins. Brief Bioinform 23, (2022).",
+          "DOI": "10.1093/bib/bbac215"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar, A. et al. ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning. IEEE transactions on pattern analysis and machine intelligence 44, (2022).",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1052"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAA913"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1040"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0139731"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku290"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-46731-9"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab393"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2638"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2012.05.021"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1611"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Muppirala, U. K. , Honavar, V. G. & Dobbs, D . Predicting RNA-protein interactions using only sequence information. BMC Bioinformatics 12, 489 (2011).",
+          "DOI": "10.1186/1471-2105-12-489"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1469-1809.1936.tb02137.x"
+        },
+        {
+          "key": "2026032105000424000_2026.03.17.712455v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.17.712455",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2026-03-21T12:00:16Z",
+        "timestamp": 1774094416000
+      },
+      "score": 77.83173,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.17.712455"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            18
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.64898/2026.03.17.712455",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "41292411",
+    "doi": "10.1039/d5fo03254g",
+    "title": "Kaempferol exerts anti-colorectal cancer effects through its multi-target mediated glucose metabolism remodeling."
+  },
+  "content": {
+    "abstract": "Kaempferol is a natural flavonoid that exhibits antitumor activity; however, its mechanism of action in colorectal cancer (CRC), particularly its multi-target effects in regulating the glucose metabolism network, still lacks a systematic elaboration. In this study, we integrated metabolomics, molecular docking and cellular thermal shift assay to systematically reveal that kaempferol exerts its anti-CRC effects by disrupting glycolysis and the pentose phosphate pathway while enhancing oxidative phosphorylation (OXPHOS). At the mechanistic level, on the one hand, kaempferol targets and enhances OXPHOS mediated by mitochondrial transcription factor A (TFAM). This induces a sharp increase in reactive oxygen species levels and the collapse of the mitochondrial membrane potential, thereby activating apoptosis. On the other hand, it inhibits transketolase (TKT) in the PPP and aldolase A (ALDOA) in glycolysis, which blocks the supply of raw materials required for nucleic acid synthesis, thus inhibiting DNA synthesis and tumor cell proliferation. In conclusion, this study confirms that kaempferol disrupts the metabolic homeostasis of cancer cells across multiple dimensions, including energy metabolism, biosynthesis, and oxidative stress, indicating its potential for development as a novel anti-colorectal cancer drug targeting tumor metabolism.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Kaempferols/pharmacology",
+      "Humans",
+      "*Colorectal Neoplasms/metabolism/drug therapy",
+      "*Glucose/metabolism",
+      "Glycolysis/drug effects",
+      "Oxidative Phosphorylation/drug effects",
+      "Apoptosis/drug effects",
+      "Cell Line, Tumor",
+      "Cell Proliferation/drug effects",
+      "Reactive Oxygen Species/metabolism",
+      "*Antineoplastic Agents/pharmacology",
+      "Pentose Phosphate Pathway/drug effects",
+      "Molecular Docking Simulation",
+      "Oxidative Stress/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Haili",
+        "Guo, Zhichao",
+        "Hu, Pengli",
+        "Du, Jin'e",
+        "Wang, Panfeng",
+        "Ma, Jiajing",
+        "Zhao, Bin",
+        "Wei, Jinping",
+        "Li, Zhuoyu"
+      ],
+      "short_names": [
+        "Wu H",
+        "Guo Z",
+        "Hu P",
+        "Du J",
+        "Wang P",
+        "Ma J",
+        "Zhao B",
+        "Wei J",
+        "Li Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3338-7822",
+        "ORCID: 0009-0008-8433-2235"
+      ],
+      "affiliations": [
+        "College of Life Science, Shanxi University, Taiyuan 030006, China. whl@sxu.edu.cn.",
+        "Institute of Biotechnology, The Key Laboratory of Chemical Biology and Molecular Engineering of Ministry of Education, Shanxi University, Taiyuan 030006, China.",
+        "College of Life Science, Shanxi University, Taiyuan 030006, China. whl@sxu.edu.cn.",
+        "College of Life Science, Shanxi University, Taiyuan 030006, China. whl@sxu.edu.cn.",
+        "Institute of Biotechnology, The Key Laboratory of Chemical Biology and Molecular Engineering of Ministry of Education, Shanxi University, Taiyuan 030006, China.",
+        "Shanxi Provincial Inspection and Testing Center (Shanxi Provincial Institute of Standard Metrology Technology), Taiyuan 030006, China.",
+        "College of Life Science, Shanxi University, Taiyuan 030006, China. whl@sxu.edu.cn.",
+        "China Institute for Radiation Protection, Taiyuan 030006, China.",
+        "China Institute for Radiation Protection, Taiyuan 030006, China.",
+        "Institute of Biotechnology, The Key Laboratory of Chemical Biology and Molecular Engineering of Ministry of Education, Shanxi University, Taiyuan 030006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Haili",
+        "short_name": "Wu H",
+        "identifiers": [
+          "0000-0003-3338-7822"
+        ],
+        "affiliations": [
+          "College of Life Science, Shanxi University, Taiyuan 030006, China. whl@sxu.edu.cn.",
+          "Institute of Biotechnology, The Key Laboratory of Chemical Biology and Molecular Engineering of Ministry of Education, Shanxi University, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhichao",
+        "short_name": "Guo Z",
+        "identifiers": [
+          "0009-0008-8433-2235"
+        ],
+        "affiliations": [
+          "College of Life Science, Shanxi University, Taiyuan 030006, China. whl@sxu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hu, Pengli",
+        "short_name": "Hu P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Shanxi University, Taiyuan 030006, China. whl@sxu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Du, Jin'e",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology, The Key Laboratory of Chemical Biology and Molecular Engineering of Ministry of Education, Shanxi University, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Panfeng",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Provincial Inspection and Testing Center (Shanxi Provincial Institute of Standard Metrology Technology), Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jiajing",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Shanxi University, Taiyuan 030006, China. whl@sxu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bin",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "China Institute for Radiation Protection, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Jinping",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "China Institute for Radiation Protection, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhuoyu",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology, The Key Laboratory of Chemical Biology and Molecular Engineering of Ministry of Education, Shanxi University, Taiyuan 030006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Food & function"
+    ],
+    "journal_abbrev": [
+      "Food Funct"
+    ],
+    "pub_date": "2025 Dec 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 06:29",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "41774266",
+      "41764447"
+    ],
+    "refs": [],
+    "similar": [
+      "41292411",
+      "40091822",
+      "41045501",
+      "40303329",
+      "26811478",
+      "28807815",
+      "39666615",
+      "29793167",
+      "26160839",
+      "27922662",
+      "40076581",
+      "40235275",
+      "40449083",
+      "32135457",
+      "38522311",
+      "26831667",
+      "38493716",
+      "28224194",
+      "41286323",
+      "38795259",
+      "30015875",
+      "38583247",
+      "35065044",
+      "37799727",
+      "31180555",
+      "35110545",
+      "40218871",
+      "25591719",
+      "41201717",
+      "27989748",
+      "32745767",
+      "32470200",
+      "26522259",
+      "32725458",
+      "26248089",
+      "28851999",
+      "35408903",
+      "34657129",
+      "40684819",
+      "30947742",
+      "30309003",
+      "30211553",
+      "31563469",
+      "31787716",
+      "39642461",
+      "33845796",
+      "40513325",
+      "39647464",
+      "27693637",
+      "31237697",
+      "37207882",
+      "32703189",
+      "39947664",
+      "35147860",
+      "29190376",
+      "26543237",
+      "28359291",
+      "30066849",
+      "40022742",
+      "34997215",
+      "36314067",
+      "40959291",
+      "39859378",
+      "39489208",
+      "30772482",
+      "9710324",
+      "29702405",
+      "20083895",
+      "17876051",
+      "36932403",
+      "28049506",
+      "38913075",
+      "38704936",
+      "31461438",
+      "30069931",
+      "40029499",
+      "39938766",
+      "38307246",
+      "30972784",
+      "40581635",
+      "34969768",
+      "22912665",
+      "23624232",
+      "30668176",
+      "33028168",
+      "26917237",
+      "41275747",
+      "33663206",
+      "20564475",
+      "40876907",
+      "39132768",
+      "32157557",
+      "38376789",
+      "29966656",
+      "39809754",
+      "19028473",
+      "40975958",
+      "38857680",
+      "38925830",
+      "26801746"
+    ],
+    "review": [
+      "41292411",
+      "41201717",
+      "30069931",
+      "30668176"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1039/d5fo03254g",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-459",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

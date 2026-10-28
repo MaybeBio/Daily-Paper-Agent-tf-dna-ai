@@ -1,0 +1,438 @@
+{
+  "identity": {
+    "pmid": "42183351",
+    "doi": "10.21203/rs.3.rs-7027346/v1",
+    "title": "DNA Mechanical Strain Steers Transcription Factor Recognition."
+  },
+  "content": {
+    "abstract": "DNA is not merely a linear code of bases, but a mechanically constrained polymer whose backbone continuity restricts the conformations accessible during protein recognition. Yet, although base-sequence preferences have been extensively mapped across human transcription factor (TF) families, we lack comparable maps of how TFs read backbone continuity and DNA mechanics, leaving these layers of recognition poorly understood. Here we introduce PIC-NIC, a high-throughput platform that uses site-specific backbone nicks to perturb DNA mechanics while preserving base identity and minimizing accompanying chemical changes. Across 15 TFs spanning eight structural families, PIC-NIC reveals a highly position-dependent response to backbone disruption: most positions are permissive, whereas nicking at mechanically sensitive sites can substantially reshape binding. Mechanistic analyses integrating PIC-NIC maps with newly determined TF-DNA structures, structural comparisons, binding kinetics, and molecular simulations show that sensitive positions often coincide with strain-adapted DNA geometries, including Hoogsteen conformations, whose relaxation can enhance binding or rewire sequence specificity. Genomic single-strand breaks and repair maps further suggest that TF retention at nicked DNA may influence local repair-factor accessibility. Together, these findings systematically map DNA backbone mechanics as a position-resolved layer of TF recognition across diverse protein families, showing how this layer can reshape binding specificity and may influence repair-factor accessibility.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Afek, Ariel",
+        "Yao, Minyi",
+        "O'Hagan, Michael",
+        "Onoon, Karn",
+        "Givon, Lihee",
+        "Rogotner, Shelly",
+        "Salinas, Raul",
+        "Nithun, Raj",
+        "Kessler, Naama",
+        "Jbara, Muhammad",
+        "Dym, Orly",
+        "Pipatpolkai, Tanadet",
+        "Schumacher, Maria"
+      ],
+      "short_names": [
+        "Afek A",
+        "Yao M",
+        "O'Hagan M",
+        "Onoon K",
+        "Givon L",
+        "Rogotner S",
+        "Salinas R",
+        "Nithun R",
+        "Kessler N",
+        "Jbara M",
+        "Dym O",
+        "Pipatpolkai T",
+        "Schumacher M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8584-9879",
+        "ORCID: 0009-0002-7762-9731",
+        "ORCID: 0009-0006-3101-2858",
+        "ORCID: 0000-0001-9011-683X",
+        "ORCID: 0000-0001-5396-4784",
+        "ORCID: 0000-0002-5264-1120"
+      ],
+      "affiliations": [
+        "Weizmann Institute of Science.",
+        "Weizmann Institute of Science.",
+        "Weizmann Institute of Science.",
+        "Mahidol University.",
+        "Weizmann Institute of Science.",
+        "Weizmann Institute of Science.",
+        "Duke University School of Medicine.",
+        "Tel Aviv University.",
+        "Weizmann Institute of Science.",
+        "Tel Aviv University.",
+        "Weizmann Institute of Science.",
+        "Nanyang Technological University.",
+        "Duke University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Afek, Ariel",
+        "short_name": "Afek A",
+        "identifiers": [
+          "0000-0001-8584-9879"
+        ],
+        "affiliations": [
+          "Weizmann Institute of Science."
+        ]
+      },
+      {
+        "full_name": "Yao, Minyi",
+        "short_name": "Yao M",
+        "identifiers": [
+          "0009-0002-7762-9731"
+        ],
+        "affiliations": [
+          "Weizmann Institute of Science."
+        ]
+      },
+      {
+        "full_name": "O'Hagan, Michael",
+        "short_name": "O'Hagan M",
+        "identifiers": [],
+        "affiliations": [
+          "Weizmann Institute of Science."
+        ]
+      },
+      {
+        "full_name": "Onoon, Karn",
+        "short_name": "Onoon K",
+        "identifiers": [],
+        "affiliations": [
+          "Mahidol University."
+        ]
+      },
+      {
+        "full_name": "Givon, Lihee",
+        "short_name": "Givon L",
+        "identifiers": [
+          "0009-0006-3101-2858"
+        ],
+        "affiliations": [
+          "Weizmann Institute of Science."
+        ]
+      },
+      {
+        "full_name": "Rogotner, Shelly",
+        "short_name": "Rogotner S",
+        "identifiers": [],
+        "affiliations": [
+          "Weizmann Institute of Science."
+        ]
+      },
+      {
+        "full_name": "Salinas, Raul",
+        "short_name": "Salinas R",
+        "identifiers": [
+          "0000-0001-9011-683X"
+        ],
+        "affiliations": [
+          "Duke University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Nithun, Raj",
+        "short_name": "Nithun R",
+        "identifiers": [],
+        "affiliations": [
+          "Tel Aviv University."
+        ]
+      },
+      {
+        "full_name": "Kessler, Naama",
+        "short_name": "Kessler N",
+        "identifiers": [],
+        "affiliations": [
+          "Weizmann Institute of Science."
+        ]
+      },
+      {
+        "full_name": "Jbara, Muhammad",
+        "short_name": "Jbara M",
+        "identifiers": [],
+        "affiliations": [
+          "Tel Aviv University."
+        ]
+      },
+      {
+        "full_name": "Dym, Orly",
+        "short_name": "Dym O",
+        "identifiers": [],
+        "affiliations": [
+          "Weizmann Institute of Science."
+        ]
+      },
+      {
+        "full_name": "Pipatpolkai, Tanadet",
+        "short_name": "Pipatpolkai T",
+        "identifiers": [
+          "0000-0001-5396-4784"
+        ],
+        "affiliations": [
+          "Nanyang Technological University."
+        ]
+      },
+      {
+        "full_name": "Schumacher, Maria",
+        "short_name": "Schumacher M",
+        "identifiers": [
+          "0000-0002-5264-1120"
+        ],
+        "affiliations": [
+          "Duke University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2026 May 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/25 12:35",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41325984",
+      "40855132",
+      "40738104",
+      "40257554",
+      "39695228",
+      "38947213",
+      "38801070",
+      "37697433",
+      "37642402",
+      "37439339",
+      "36808133",
+      "36495920",
+      "36471057",
+      "35469366",
+      "34792150",
+      "34417209",
+      "33347579",
+      "33328628",
+      "33087930",
+      "32716185",
+      "32350470",
+      "31714766",
+      "31616952",
+      "31521504",
+      "31249361",
+      "30944218",
+      "30498782",
+      "30476210",
+      "29980679",
+      "29662229",
+      "29267977",
+      "28935669",
+      "27880914",
+      "27649880",
+      "27546793",
+      "27300587",
+      "27075101",
+      "26876046",
+      "25892221",
+      "25624100",
+      "23559638",
+      "22146299",
+      "21270796",
+      "20383002",
+      "20334529",
+      "20176964",
+      "20124702",
+      "20124692",
+      "20057044",
+      "19865164",
+      "19443739",
+      "19265799",
+      "16998473",
+      "16449200",
+      "15800630",
+      "12923055",
+      "11929991",
+      "11779502",
+      "11741530",
+      "11689571",
+      "11433033",
+      "11395412",
+      "10906136",
+      "10617571",
+      "10588707",
+      "10373594",
+      "10052460",
+      "9354759",
+      "9336474",
+      "8934514",
+      "8598195",
+      "8478917",
+      "8413605",
+      "8413604",
+      "7985026",
+      "7737131",
+      "4033762",
+      "3532321",
+      "2994214",
+      "2958845",
+      "2911590",
+      "2771938",
+      "2611245",
+      "2174540",
+      "2028256",
+      "1333034",
+      "681366"
+    ],
+    "similar": [
+      "42183351",
+      "40631206",
+      "41405863",
+      "42134988",
+      "41510230",
+      "25775564",
+      "42251035",
+      "36888663",
+      "26550823",
+      "41371343",
+      "28167566",
+      "21557082",
+      "22189060",
+      "26285121",
+      "41159612",
+      "36123148",
+      "42099803",
+      "37990674",
+      "40287827",
+      "36043696",
+      "23812975",
+      "29326300",
+      "42431955",
+      "33340452",
+      "35978548",
+      "42475469",
+      "26291518",
+      "25129887",
+      "41308636",
+      "30395339",
+      "11048951",
+      "40777328",
+      "36943132",
+      "22863142",
+      "39605368",
+      "35261972",
+      "25313048",
+      "40598892",
+      "38966997",
+      "31689433",
+      "7602584",
+      "39463949",
+      "38352411",
+      "32101712",
+      "36322688",
+      "27567672",
+      "26413153",
+      "24078250",
+      "37805453",
+      "40205063",
+      "25720775",
+      "28479135",
+      "28726847",
+      "10373369",
+      "22955984",
+      "26490019",
+      "24353316",
+      "41993504",
+      "11371159",
+      "35799193",
+      "40874594",
+      "24214955",
+      "33087930",
+      "18411210",
+      "16267080",
+      "15165850",
+      "28750606",
+      "37529293",
+      "41518500",
+      "20158869",
+      "39033307",
+      "31486892",
+      "18725950",
+      "37090616",
+      "39605530",
+      "39975040",
+      "42597241",
+      "12126620",
+      "31518879",
+      "25957350",
+      "9819202",
+      "41247408",
+      "40903577",
+      "32778600",
+      "23320072",
+      "11170417",
+      "19088121",
+      "26195629",
+      "41863075",
+      "11800559",
+      "34488759",
+      "23562153",
+      "42478686",
+      "41512979",
+      "28359978",
+      "38496549",
+      "23847101",
+      "31267468",
+      "28849563",
+      "24086290"
+    ],
+    "review": [
+      "42183351",
+      "21557082",
+      "25129887",
+      "31689433",
+      "39033307"
+    ],
+    "pmc": [
+      "13193136"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42183351/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-7027346/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "37798609",
+    "doi": "10.1007/s43032-023-01363-0",
+    "title": "The Identification of Gamma-Glutamyl Hydrolase in Uterine Corpus Endometrial Carcinoma: a Predictive Model and Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Poor neoplastic differentiation contributes to the rapid progression of uterine corpus endometrial carcinoma (UCEC). Thus, it is essential to identify candidate genes, clarifying the carcinogenesis and progression of UCEC. METHODS: We screened genes that affect differentiation and prognosis in UCEC. Least absolute selection and shrinkage operator (LASSO) regression, univariate Cox, and multivariate Cox proportional risk regression analyses were performed to screen out gamma-glutamyl hydrolase (GGH) as the candidate gene. The clinical value of GGH on prognosis was evaluated. The relationship between GGH and immune infiltration was assessed by CIBERSORT, EPIC, ssGSEA, unsupervised clustering and immunohistochemistry (IHC). Additionally, we investigated the effect of GGH knockdown in vitro. RESULTS: Among the GGH, CDKN2A, and SIX1 genes, the impact of GGH was predominant on immune infiltration in UCEC. A nomogram containing GGH and other clinical features showed good predictive performance via curve analysis (DCA). In the functional analysis, GGH affected differentiation, tumour proliferation, and immune regulation. The immunosuppressive components were enriched in the GGH-high group, with poor immunotherapy efficacy. The study suggests that GGH may influence the progression of UCEC by regulating the glycolytic process. CONCLUSIONS: GGH is closely associated with various immune cell infiltrations. Our study demonstrates the prognostic role of GGH in carcinogenesis in UCEC.",
+    "keywords": [
+      "GGH",
+      "Immune cell infiltration",
+      "Uterine corpus endometrial carcinoma"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "gamma-Glutamyl Hydrolase",
+      "Cell Differentiation",
+      "Machine Learning",
+      "Carcinogenesis",
+      "*Carcinoma, Endometrioid/genetics",
+      "*Endometrial Neoplasms/genetics",
+      "Prognosis",
+      "Homeodomain Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Cheng",
+        "Du, Yishan",
+        "Huai, Qian",
+        "Fang, Nana",
+        "Xu, Wentao",
+        "Yang, Jing",
+        "Li, Xingyu",
+        "Zhang, Yanyan",
+        "Zhang, Xu",
+        "Dai, Hanren",
+        "Li, Xiaolei",
+        "Wang, Hua",
+        "Dai, Ying"
+      ],
+      "short_names": [
+        "Zhu C",
+        "Du Y",
+        "Huai Q",
+        "Fang N",
+        "Xu W",
+        "Yang J",
+        "Li X",
+        "Zhang Y",
+        "Zhang X",
+        "Dai H",
+        "Li X",
+        "Wang H",
+        "Dai Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7251-2617"
+      ],
+      "affiliations": [
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China.",
+        "Department of Geriatrics, Affiliated Provincial Hospital of Anhui Medical University, Hefei, 230001, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China.",
+        "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, Hefei, 230032, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China.",
+        "Department of Breast Surgery, Department of General Surgery, First Affiliated Hospital of Anhui Medical University, Hefei, 230036, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China. li-xiaolei0913@163.com.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China. wanghua@ahmu.edu.cn.",
+        "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, Hefei, 230032, China. wanghua@ahmu.edu.cn.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China. dabora20051@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Cheng",
+        "short_name": "Zhu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yishan",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Affiliated Provincial Hospital of Anhui Medical University, Hefei, 230001, China."
+        ]
+      },
+      {
+        "full_name": "Huai, Qian",
+        "short_name": "Huai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Nana",
+        "short_name": "Fang N",
+        "identifiers": [],
+        "affiliations": [
+          "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, Hefei, 230032, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wentao",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jing",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Department of General Surgery, First Affiliated Hospital of Anhui Medical University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xingyu",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanyan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Hanren",
+        "short_name": "Dai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaolei",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China. li-xiaolei0913@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Hua",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China. wanghua@ahmu.edu.cn.",
+          "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, Hefei, 230032, China. wanghua@ahmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Dai, Ying",
+        "short_name": "Dai Y",
+        "identifiers": [
+          "0000-0002-7251-2617"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China. dabora20051@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Reproductive sciences (Thousand Oaks, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Reprod Sci"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/06 00:43",
+    "fetched_at": "2026-09-29 08:16:30"
+  },
+  "links": {
+    "cites": [
+      "42292390",
+      "40831251",
+      "40804837",
+      "39833941",
+      "39697746"
+    ],
+    "refs": [
+      "35397864",
+      "35020204",
+      "34309564",
+      "33179754",
+      "32635458",
+      "31114869",
+      "30341162",
+      "30127393",
+      "29929551",
+      "29625051",
+      "28800469",
+      "28398314",
+      "28146062",
+      "27533040",
+      "27207943",
+      "26306699",
+      "25964631",
+      "25613542",
+      "25605792",
+      "25502219",
+      "24138885",
+      "24113773",
+      "23374458",
+      "23323831",
+      "23050260",
+      "22588877",
+      "22455463",
+      "21546393",
+      "20427518",
+      "19114008",
+      "17099194",
+      "16199517",
+      "15240536",
+      "15035667",
+      "12114448",
+      "10029597",
+      "7102898"
+    ],
+    "similar": [
+      "37798609",
+      "35082830",
+      "36335189",
+      "35379118",
+      "34970268",
+      "38311301",
+      "36812126",
+      "31168849",
+      "35485290",
+      "37060773",
+      "34889221",
+      "38383747",
+      "34704492",
+      "37872211",
+      "23374458",
+      "36581816",
+      "35937391",
+      "38848146",
+      "34758230",
+      "35937995",
+      "36439473",
+      "37246638",
+      "38725627",
+      "39068426",
+      "38480789",
+      "37329616",
+      "37876625",
+      "36756714",
+      "35574367",
+      "37523078",
+      "35244291",
+      "37211398",
+      "38994352",
+      "36254064",
+      "34728029",
+      "36520385",
+      "37349706",
+      "36824011",
+      "39390018",
+      "32748742",
+      "36199963",
+      "35571565",
+      "37286702",
+      "37584707",
+      "36525280",
+      "37701111",
+      "36906716",
+      "34712201",
+      "37052291",
+      "30306731",
+      "36900015",
+      "36158685",
+      "34368124",
+      "34817046",
+      "37363398",
+      "36207751",
+      "36936912",
+      "33012523",
+      "36253800",
+      "36899615",
+      "33033522",
+      "36428665",
+      "36569910",
+      "35655721",
+      "33292199",
+      "37058060",
+      "37056832",
+      "37803076",
+      "34246261",
+      "33782686",
+      "35442481",
+      "35392434",
+      "28146062",
+      "35218676",
+      "34901000",
+      "38420826",
+      "38336274",
+      "39326337",
+      "35188885",
+      "38646803",
+      "39261877",
+      "35719911",
+      "38177789",
+      "36116266",
+      "36091104",
+      "36479043",
+      "32397815",
+      "34565373",
+      "36845675",
+      "35155447",
+      "37845174",
+      "37275958",
+      "37035374",
+      "33525981",
+      "38232115",
+      "37141412",
+      "32994818",
+      "36776306",
+      "37626211",
+      "29304762",
+      "36281161"
+    ],
+    "review": [
+      "37798609",
+      "37058060"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s43032-023-01363-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-333",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

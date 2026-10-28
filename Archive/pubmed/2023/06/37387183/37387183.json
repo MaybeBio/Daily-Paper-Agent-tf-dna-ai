@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "37387183",
+    "doi": "10.1093/bioinformatics/btad217",
+    "title": "ChromDL: a next-generation regulatory DNA classifier."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Predicting the regulatory function of non-coding DNA using only the DNA sequence continues to be a major challenge in genomics. With the advent of improved optimization algorithms, faster GPU speeds, and more intricate machine-learning libraries, hybrid convolutional and recurrent neural network architectures can be constructed and applied to extract crucial information from non-coding DNA. RESULTS: Using a comparative analysis of the performance of thousands of Deep Learning architectures, we developed ChromDL, a neural network architecture combining bidirectional gated recurrent units, convolutional neural networks, and bidirectional long short-term memory units, which significantly improves upon a range of prediction metrics compared to its predecessors in transcription factor binding site, histone modification, and DNase-I hyper-sensitive site detection. Combined with a secondary model, it can be utilized for accurate classification of gene regulatory elements. The model can also detect weak transcription factor binding as compared to previously developed methods and has the potential to help delineate transcription factor binding motif specificities. AVAILABILITY AND IMPLEMENTATION: The ChromDL source code can be found at https://github.com/chrishil1/ChromDL.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Algorithms",
+      "DNA",
+      "Deoxyribonuclease I",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hill, Christopher",
+        "Hudaiberdiev, Sanjarbek",
+        "Ovcharenko, Ivan"
+      ],
+      "short_names": [
+        "Hill C",
+        "Hudaiberdiev S",
+        "Ovcharenko I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Biology Branch, Intramural Research Program, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, United States.",
+        "School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA 19104, United States.",
+        "Computational Biology Branch, Intramural Research Program, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, United States.",
+        "Computational Biology Branch, Intramural Research Program, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hill, Christopher",
+        "short_name": "Hill C",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, Intramural Research Program, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, United States.",
+          "School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA 19104, United States."
+        ]
+      },
+      {
+        "full_name": "Hudaiberdiev, Sanjarbek",
+        "short_name": "Hudaiberdiev S",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, Intramural Research Program, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Ovcharenko, Ivan",
+        "short_name": "Ovcharenko I",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, Intramural Research Program, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2023 Jun 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/30 06:42",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "41075092",
+      "39713364"
+    ],
+    "refs": [
+      "37603758",
+      "36791193",
+      "36420891",
+      "32169219",
+      "32015543",
+      "31253979",
+      "30971806",
+      "29126249",
+      "28968739",
+      "27980060",
+      "27474269",
+      "27473064",
+      "27084946",
+      "26531826",
+      "26301843",
+      "26017442",
+      "25976354",
+      "25693563",
+      "25378322",
+      "25215497",
+      "25035418",
+      "23193274",
+      "22955616",
+      "20513432",
+      "20110278",
+      "19458158",
+      "18267787",
+      "17324271",
+      "12045153",
+      "11237011",
+      "11032042",
+      "9377276",
+      "7584402"
+    ],
+    "similar": [
+      "37387183",
+      "36789431",
+      "37328639",
+      "31510640",
+      "39350338",
+      "35652477",
+      "38701417",
+      "30419785",
+      "36166165",
+      "34073774",
+      "28961695",
+      "29970003",
+      "29155928",
+      "25086003",
+      "29069282",
+      "34571539",
+      "40334196",
+      "25957350",
+      "36328750",
+      "31521253",
+      "40102719",
+      "37004267",
+      "38347788",
+      "27084946",
+      "30423078",
+      "37733731",
+      "31590652",
+      "35191481",
+      "34221854",
+      "29757349",
+      "30808287",
+      "33334313",
+      "36084008",
+      "38950180",
+      "28881969",
+      "30423062",
+      "33367499",
+      "33581335",
+      "29151135",
+      "27307608",
+      "30649185",
+      "35246878",
+      "39107889",
+      "36748992",
+      "34320631",
+      "34901421",
+      "39125714",
+      "36860882",
+      "40183298",
+      "38141798",
+      "30075707",
+      "37305295",
+      "32684422",
+      "36935548",
+      "29993783",
+      "28011771",
+      "36049552",
+      "36650801",
+      "34550967",
+      "33005921",
+      "36203144",
+      "27993786",
+      "34534646",
+      "35945138",
+      "27609510",
+      "38082253",
+      "30423072",
+      "16112549",
+      "30753947",
+      "36209437",
+      "36116322",
+      "37975878",
+      "37963055",
+      "34849591",
+      "36694944",
+      "38940155",
+      "39701486",
+      "27896980",
+      "40140447",
+      "35465215",
+      "31793982",
+      "38381315",
+      "30601936",
+      "29763967",
+      "37322910",
+      "28785313",
+      "35120138",
+      "30323198",
+      "39121059",
+      "38515433",
+      "34929739",
+      "33230481",
+      "34962264",
+      "36948069",
+      "32214348",
+      "35780100",
+      "32821925",
+      "30423097",
+      "31208331",
+      "39774273"
+    ],
+    "review": [
+      "37387183",
+      "35652477"
+    ],
+    "pmc": [
+      "10311331"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37387183/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37387183",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btad217",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

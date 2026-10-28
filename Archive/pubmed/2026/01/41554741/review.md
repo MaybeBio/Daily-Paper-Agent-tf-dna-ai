@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and claims as supported by the provided evidence; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors report an integrated computational-experimental framework combining AlphaFold3-based RNA scaffold redesign and protein engineering with EVOLVEpro to optimize the MmeFz2-omegaRNA system, achieving up to ~32-fold average activity increases across 38 loci, and demonstrating in vivo dystrophin restoration in a humanized DMD mouse model via single-AAV delivery
+- **Visible evidence base** Main text figures 1-6 with legends; methods section; supplementary figure and data references; no raw data files, no supplementary figures or tables content, no source data files
+- **Missing materials affecting confidence** Supplementary figures 1-8, supplementary data files 1-5, source data files, detailed statistical outputs, raw sequencing data, and full experimental protocols for animal work are not provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic engineering effort to improve MmeFz2-omegaRNA genome editing efficiency, combining structure-guided design with machine learning. The work addresses a relevant problem in the compact nuclease field and the in vivo DMD data are potentially interesting. However, several technical concerns limit the strength of the conclusions as currently presented. The lack of detailed supplementary data, unclear statistical comparisons in key figures, and incomplete methodological details for the in vivo experiments prevent full evaluation of the claims. The mechanistic interpretation of the engineered variants is largely speculative, and the specificity assessment is limited to a small number of loci.
+- **Who would be interested in the results, and why** Researchers in genome editing, particularly those working on compact RNA-guided nucleases for therapeutic delivery. The work may also interest computational biologists developing AI-guided protein engineering approaches, and those in the gene therapy field focused on muscular dystrophy. The demonstration of single-AAV delivery for a Fanzor system is notable for the gene therapy community.
+- **Major strengths** The combinatorial engineering strategy is well conceived, integrating RNA scaffold optimization with protein engineering. The use of EVOLVEpro with few-shot active learning is a modern and appropriate approach. The in vivo demonstration in a humanized DMD model is a significant step beyond typical cell-based validation. The systematic evaluation across multiple loci provides a reasonable breadth of evidence for the efficiency improvements.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that engineered variants show "~32-fold increase in activity across 38 genomic loci" and that HMG-D fusion "further enhanced editing performance"
+  - **Evidence pointer** Figure 4c, 4d; location not provided for individual locus data
+  - **Concern** The fold-improvement values are presented as averages across loci, but the distribution of improvements is not shown. It is unclear whether the improvement is consistent or driven by a few outliers. The statistical comparison in Figure 4d uses unpaired t-tests with adjusted p-values, but the number of loci, the variance structure, and whether the data meet t-test assumptions are not described. The comparison between variants appears to treat each locus as an independent observation, but loci are not independent samples in a biological sense.
+  - **Why it matters** The central claim of the paper is the magnitude and consistency of efficiency improvement. Without understanding the distribution and appropriate statistical treatment, the reader cannot assess whether the improvement is robust or whether it applies broadly or only to specific sequence contexts.
+  - **Resolution test** Provide per-locus efficiency values for all variants tested, show the distribution of fold-changes, and use appropriate statistical models that account for the nested structure of the data (e.g., mixed-effects models with locus as a random effect). Report effect sizes with confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "enMmeFz2-HMG-D and evoMmeFz2-HMG-D" show "robust in vivo genome editing activity, enabling dystrophin restoration"
+  - **Evidence pointer** Figure 6; location not provided for individual animal data
+  - **Concern** The in vivo data are presented with very low editing efficiencies (0.22% and 0.57% genomic editing; 0.08% and 0.24% productive 3n+1 indels). While the authors describe this as "therapeutic-level," the threshold for therapeutic benefit in DMD is not established in the manuscript. The number of animals per group, the variability between animals, and whether the observed effects are statistically significant are not reported. The functional restoration data (western blot, immunofluorescence) are presented qualitatively without quantification of statistical significance.
+  - **Why it matters** The in vivo demonstration is a key differentiator for this work. If the editing efficiency is very low and the functional restoration is marginal, the claim of therapeutic potential is overstated. The manuscript does not provide sufficient evidence to evaluate whether the observed effects are biologically meaningful.
+  - **Resolution test** Report animal numbers, individual animal data points, statistical tests for all in vivo comparisons, and provide a clear rationale for why the observed editing levels are considered therapeutic. Include quantification of western blot data with statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "EVOLVEpro achieves competitive protein-engineering performance comparable to AlphaFold3-based approaches"
+  - **Evidence pointer** Figure 3f, 3g, 3h; location not provided
+  - **Concern** The comparison between EVOLVEpro and AlphaFold3-guided design is not a controlled comparison. The initial training data for EVOLVEpro came from the AlphaFold3-designed variants, so the two approaches are not independent. The manuscript does not describe how the EVOLVEpro predictions were selected, how many variants were tested per round, or how the final evo-Pro was chosen from the candidate pool. The claim of "comparable performance" is not supported by a direct statistical comparison.
+  - **Why it matters** The manuscript positions the integrated framework as a general strategy. If the comparison between the two methods is confounded, the conclusion that they are complementary or comparable is not justified.
+  - **Resolution test** Provide a clear description of the EVOLVEpro workflow, including the number of variants tested per round, the selection criteria, and a direct statistical comparison of the best variants from each approach. Consider testing EVOLVEpro with an independent initial dataset to avoid circularity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the engineered system maintains "reasonable genome editing specificity" with "minimal but detectable off-target editing"
+  - **Evidence pointer** Figure 5; location not provided for off-target site selection details
+  - **Concern** The off-target analysis is limited to sites predicted by Cas-OFFinder with up to 5 mismatches. This is a narrow assessment. No unbiased genome-wide off-target analysis (e.g., GUIDE-seq, CIRCLE-seq, or similar) is presented. The number of off-target sites examined per locus, the criteria for selecting them, and the detection limits of the amplicon sequencing are not described. The statement that off-target editing is "minimal" is not supported by quantitative thresholds.
+  - **Why it matters** Specificity is a critical parameter for any genome editing tool, particularly for therapeutic applications. A limited off-target analysis does not establish the specificity profile of the engineered system.
+  - **Resolution test** Perform an unbiased genome-wide off-target analysis for at least a subset of the engineered variants. Report the number of off-target sites detected, their genomic locations, and the frequency of editing at each site. Provide a quantitative comparison of off-target rates between engineered and wild-type systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, EVOLVEpro section
+  - **Evidence pointer** Methods section, "EVOLOVEpro-driven enhancement of enzymatic activity"
+  - **Issue** The section title contains a typo ("EVOLOVEpro" instead of "EVOLVEpro"). The description of the EVOLVEpro workflow is brief and lacks details on hyperparameters, training/test splits, and how the regression model was validated.
+  - **Required correction** Correct the typo. Provide additional details on the EVOLVEpro implementation, including model validation procedures and any hyperparameter tuning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 legend
+  - **Evidence pointer** Figure 1 legend
+  - **Issue** The legend states "The top 30% of mCherry-positive cells were FACS sorted to assess MmeFz2-omegaRNA editing efficiency." It is unclear why only the top 30% were sorted and how this selection might bias the efficiency measurements. The rationale for this gating strategy is not explained in the methods.
+  - **Required correction** Provide a rationale for the FACS gating strategy and discuss any potential bias introduced by selecting only the top 30% of mCherry-positive cells.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6 legend
+  - **Issue** The figure legend mentions "the experiment was repeated three times with similar results" for the gel electrophoresis, but no quantification or statistical analysis is provided for the RT-PCR results. The relationship between genomic editing efficiency, mRNA splicing changes, and protein restoration is not quantitatively described.
+  - **Required correction** Provide quantification of the RT-PCR and western blot data with appropriate statistical analysis. Describe the relationship between editing efficiency and functional restoration more clearly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, off-target analysis
+  - **Evidence pointer** Methods section, "Analysis of off-target sites predicted by Cas-OFFinder"
+  - **Issue** The methods state that Cas-OFFinder was used with the TAM set to 5'-NNN, consistent with SPRY Cas9. This is an unusual approach since MmeFz2 recognizes 5'-TAG. The rationale for using a generic NNN PAM is not explained, and this may affect the completeness of off-target prediction.
+  - **Required correction** Explain why the TAM was set to NNN rather than TAG and discuss the potential impact on off-target site identification.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical treatment of multi-locus data), R1-M2 (in vivo data reporting and therapeutic threshold), R1-M3 (confounded comparison between EVOLVEpro and AlphaFold3 approaches)
+- **Assessment against Nature-style criteria** Originality: The integrated approach combining AlphaFold3 and EVOLVEpro for a Fanzor system is somewhat novel, though individual components have been applied to other nucleases. Scientific importance: The work addresses a real limitation of Fanzor systems and the in vivo data are potentially valuable, but the modest editing efficiencies and limited specificity assessment temper the significance. Interdisciplinary readership: The work bridges structural biology, computational methods, and genome editing, which could appeal to multiple communities. Technical soundness: Several concerns as detailed above, particularly around statistical treatment and the confounded comparison between methods. Readability for nonspecialists: The manuscript is generally well written and accessible, though some methods details are lacking.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core engineering strategy is sound and the in vivo demonstration is valuable, but the statistical treatment of the multi-locus data, the incomplete reporting of in vivo results, and the confounded comparison between the two engineering approaches need to be addressed before the claims are fully supported.
+
+## Risk / unsupported claims
+- The claim of "therapeutic-level dystrophin expression" is not supported by defined thresholds or functional outcome measures
+- The claim that EVOLVEpro performance is "comparable" to AlphaFold3-guided design is not supported by a controlled comparison
+- The claim of "reasonable genome editing specificity" is based on a limited, prediction-based off-target analysis without genome-wide validation
+- The mechanistic interpretation of how specific mutations enhance activity (e.g., C69K stabilizing WED-omegaRNA interactions) is speculative and not experimentally validated
+- The statement that en-omegaRNA transcript accumulation "may partially account" for enhanced activity is presented without direct causal evidence

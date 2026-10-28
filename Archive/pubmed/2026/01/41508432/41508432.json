@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "41508432",
+    "doi": "10.1111/jipb.70117",
+    "title": "A multi-omics integrative gene network of pear (Pyrus)."
+  },
+  "content": {
+    "abstract": "The burgeoning multi-omics data have provided deep insights into the regulatory mechanisms underlying plant growth and development. However, revealing the complete landscape of gene regulatory networks underpinning various developmental processes remains challenging. Here, a multi-omics integrative gene network of the pear fruit development process was constructed through integrating 3D genomic, transcriptomic, transcription factor (TF) binding, chromatin accessibility, protein structure, and proteomic data. This integrative network comprises over 45,678 elements interconnected by more than 3.15 million edges and exhibits great potential in predicting regulatory and interactive relationships involved in the formation of key fruit quality traits (e.g., sugar, stone cell). In particular, the integrative network was applied to predict interactors of PbrII5, an inhibitor of vacuolar sucrose hydrolysis, and the predicted interactors were further validated through molecular experiments. Moreover, the network showed good performance in automatically predicting fruit trait-related genes by leveraging machine learning models. Specifically, a set of sugar metabolism-related genes was newly predicted, and their functions were verified through overexpression in pear fruit. In addition, extensive regulatory network divergence was observed between duplicated genes, with neofunctionalization being the dominant evolutionary process reshaping network connections of duplicated genes. Lastly, a multi-omics network database, pearGRN (http://peargrn.njau.edu.cn), was developed to facilitate further research for resolving complex gene regulatory relationships. This study lays a strong foundation for revealing novel regulatory mechanisms underlying fruit development and quality formation.",
+    "keywords": [
+      "fruit quality",
+      "gene regulation",
+      "integrative network",
+      "multi-omics",
+      "pear"
+    ],
+    "mesh_terms": [
+      "*Pyrus/genetics/metabolism",
+      "*Gene Regulatory Networks/genetics",
+      "Multiomics",
+      "Fruit/genetics",
+      "Gene Expression Regulation, Plant/genetics",
+      "Plant Proteins/genetics/metabolism",
+      "Genomics",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Hongxiang",
+        "Qiao, Xin",
+        "Huo, Yuanpeng",
+        "Li, Lanqing",
+        "Qi, Kaijie",
+        "Xie, Zhihua",
+        "Rui, Weikang",
+        "Yang, Yuhang",
+        "Li, Qionghou",
+        "Zou, Ying",
+        "Wang, Libin",
+        "Zhang, Shaoling"
+      ],
+      "short_names": [
+        "Li H",
+        "Qiao X",
+        "Huo Y",
+        "Li L",
+        "Qi K",
+        "Xie Z",
+        "Rui W",
+        "Yang Y",
+        "Li Q",
+        "Zou Y",
+        "Wang L",
+        "Zhang S"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-8605-7711",
+        "ORCID: 0000-0002-2465-4960",
+        "ORCID: 0009-0007-6442-0337",
+        "ORCID: 0009-0006-4987-4536",
+        "ORCID: 0000-0003-3800-8932",
+        "ORCID: 0009-0003-3742-8414",
+        "ORCID: 0009-0000-7876-1641",
+        "ORCID: 0009-0006-3351-7489",
+        "ORCID: 0009-0000-4333-069X",
+        "ORCID: 0009-0006-3419-1951",
+        "ORCID: 0000-0003-2282-2251",
+        "ORCID: 0000-0002-1835-1824"
+      ],
+      "affiliations": [
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China.",
+        "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Hongxiang",
+        "short_name": "Li H",
+        "identifiers": [
+          "0009-0006-8605-7711"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Xin",
+        "short_name": "Qiao X",
+        "identifiers": [
+          "0000-0002-2465-4960"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Huo, Yuanpeng",
+        "short_name": "Huo Y",
+        "identifiers": [
+          "0009-0007-6442-0337"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lanqing",
+        "short_name": "Li L",
+        "identifiers": [
+          "0009-0006-4987-4536"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Kaijie",
+        "short_name": "Qi K",
+        "identifiers": [
+          "0000-0003-3800-8932"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Zhihua",
+        "short_name": "Xie Z",
+        "identifiers": [
+          "0009-0003-3742-8414"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Rui, Weikang",
+        "short_name": "Rui W",
+        "identifiers": [
+          "0009-0000-7876-1641"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuhang",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0009-0006-3351-7489"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qionghou",
+        "short_name": "Li Q",
+        "identifiers": [
+          "0009-0000-4333-069X"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Ying",
+        "short_name": "Zou Y",
+        "identifiers": [
+          "0009-0006-3419-1951"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Libin",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0003-2282-2251"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shaoling",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0002-1835-1824"
+        ],
+        "affiliations": [
+          "Sanya Institute of Nanjing Agricultural University, State Key Laboratory of Crop Genetics and Germplasm Enhancement and Utilization, College of Horticulture, Nanjing Agricultural University, Nanjing, 210095, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of integrative plant biology"
+    ],
+    "journal_abbrev": [
+      "J Integr Plant Biol"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/09 07:06",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41508432",
+      "38778247",
+      "24267665",
+      "39378644",
+      "34776004",
+      "38486226",
+      "41581842",
+      "25682102",
+      "42301476",
+      "26687179",
+      "40194684",
+      "30715420",
+      "37382050",
+      "41400294",
+      "37410918",
+      "42173460",
+      "40059159",
+      "26079674",
+      "39446773",
+      "30099022",
+      "40375131",
+      "40162720",
+      "40071379",
+      "37011145",
+      "31540505",
+      "28934298",
+      "34502530",
+      "41711101",
+      "25604453",
+      "30285614",
+      "42074532",
+      "40707577",
+      "32964301",
+      "38728429",
+      "40633682",
+      "36546867",
+      "31783586",
+      "37710163",
+      "38887620",
+      "32057915",
+      "22711312",
+      "28943832",
+      "36733253",
+      "36581701",
+      "30904717",
+      "34503442",
+      "41683668",
+      "27706700",
+      "40259236",
+      "41366641",
+      "32396606",
+      "29751599",
+      "39910687",
+      "42269105",
+      "39000588",
+      "29675811",
+      "34445149",
+      "28845529",
+      "40819429",
+      "37761967",
+      "39075941",
+      "31604417",
+      "40664105",
+      "32047049",
+      "29558898",
+      "31287308",
+      "36527108",
+      "31444818",
+      "30096896",
+      "37761925",
+      "37944017",
+      "38172675",
+      "35887241",
+      "27255339",
+      "42096969",
+      "40405110",
+      "38657909",
+      "39376034",
+      "26704366",
+      "34623717",
+      "33111423",
+      "27305967",
+      "32143560",
+      "40607808",
+      "41516329",
+      "40466530",
+      "39385090",
+      "33599839",
+      "39580032",
+      "39304822",
+      "30734172",
+      "25366381",
+      "41277040",
+      "40031103",
+      "41986815",
+      "30539403",
+      "41424060",
+      "37062789",
+      "30791875",
+      "32120999"
+    ],
+    "review": [
+      "41508432",
+      "42074532",
+      "41683668",
+      "34445149"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1111/jipb.70117",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

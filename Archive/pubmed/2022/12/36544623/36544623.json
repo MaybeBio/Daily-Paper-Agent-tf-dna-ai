@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "36544623",
+    "doi": "10.3389/fbinf.2022.1015993",
+    "title": "Deep learning for MYC binding site recognition."
+  },
+  "content": {
+    "abstract": "Motivation: The definition of the genome distribution of the Myc transcription factor is extremely important since it may help predict its transcriptional activity particularly in the context of cancer. Myc is among the most powerful oncogenes involved in the occurrence and development of more than 80% of different types of pediatric and adult cancers. Myc regulates thousands of genes which can be in part different, depending on the type of tissues and tumours. Myc distribution along the genome has been determined experimentally through chromatin immunoprecipitation This approach, although powerful, is very time consuming and cannot be routinely applied to tumours of individual patients. Thus, it becomes of paramount importance to develop in silico tools that can effectively and rapidly predict its distribution on a given cell genome. New advanced computational tools (DeeperBind) can then be successfully employed to determine the function of Myc in a specific tumour, and may help to devise new directions and approaches to experiments first and personalized and more effective therapeutic treatments for a single patient later on. Results: The use of DeeperBind with DeepRAM on Colab platform (Google) can effectively predict the binding sites for the MYC factor with an accuracy above 0.96 AUC, when trained with multiple cell lines. The analysis of the filters in DeeperBind trained models shows, besides the consensus sequence CACGTG classically associated to the MYC factor, also the other consensus sequences G/C box or TGGGA, respectively bound by the SP1 and MIZ-1 transcription factors, which are known to mediate the MYC repressive response. Overall, our findings suggest a stronger synergy between the machine learning tools as DeeperBind and biological experiments, which may reduce the time consuming experiments by providing a direction to guide them.",
+    "keywords": [
+      "MYC",
+      "binding site",
+      "consensus sequence",
+      "deep learning-artificial neural network",
+      "machine learning and AI"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fioresi, R",
+        "Demurtas, P",
+        "Perini, G"
+      ],
+      "short_names": [
+        "Fioresi R",
+        "Demurtas P",
+        "Perini G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum, Bologna, Italy.",
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum, Bologna, Italy.",
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum, Bologna, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fioresi, R",
+        "short_name": "Fioresi R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Demurtas, P",
+        "short_name": "Demurtas P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Perini, G",
+        "short_name": "Perini G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum, Bologna, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/23 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34188192",
+      "31510640",
+      "30178065",
+      "27460974",
+      "26213851",
+      "26017442",
+      "25432957",
+      "25287278",
+      "25043028",
+      "21779459",
+      "21123453",
+      "20453196",
+      "16890804",
+      "16764513",
+      "16093321",
+      "11511533",
+      "8220424",
+      "6088986",
+      "3287615",
+      "2166998",
+      "2006410"
+    ],
+    "similar": [
+      "36544623",
+      "17411336",
+      "12840021",
+      "19111069",
+      "34750410",
+      "19020761",
+      "10454619",
+      "17264126",
+      "15199147",
+      "24492846",
+      "37935302",
+      "16767079",
+      "23601184",
+      "11562751",
+      "22000024",
+      "27859590",
+      "24953832",
+      "10637317",
+      "8262050",
+      "12695333",
+      "15506972",
+      "17471507",
+      "10543451",
+      "35652477",
+      "36321557",
+      "28806396",
+      "22945648",
+      "27551915",
+      "25287278",
+      "21835891",
+      "20426839",
+      "32551184",
+      "10378691",
+      "16352593",
+      "20697356",
+      "8649389",
+      "22053792",
+      "15388797",
+      "9178906",
+      "16167342",
+      "28719624",
+      "8861962",
+      "15804567",
+      "10601024",
+      "15372465",
+      "19915707",
+      "18335064",
+      "21668996",
+      "7951003",
+      "8246978",
+      "14567977",
+      "7958908",
+      "22102868",
+      "20158869",
+      "24618291",
+      "24983942",
+      "23774591",
+      "19763338",
+      "24586446",
+      "31511046",
+      "22016811",
+      "11274368",
+      "28399911",
+      "11250069",
+      "9162900",
+      "30548162",
+      "15613240",
+      "28245811",
+      "12110671",
+      "18498649",
+      "19786833",
+      "19079543",
+      "12552250",
+      "33039710",
+      "2498322",
+      "26522729",
+      "18852287",
+      "38250147",
+      "8474446",
+      "7753559",
+      "8701093",
+      "38376838",
+      "8524267",
+      "17915948",
+      "9312026",
+      "11604407",
+      "34019289",
+      "12377807",
+      "14993291",
+      "1861859",
+      "16093321",
+      "36993502",
+      "28035002",
+      "8979089",
+      "8395000",
+      "8265351",
+      "33792944",
+      "8710905",
+      "26818008"
+    ],
+    "review": [
+      "36544623",
+      "24492846",
+      "22000024",
+      "35652477",
+      "36321557",
+      "10378691",
+      "7951003",
+      "11250069"
+    ],
+    "pmc": [
+      "9760990"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36544623/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36544623",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2022.1015993",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

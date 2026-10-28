@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, figure legends, and tables as provided.
+- **Assessment boundary** Scientific content, technical soundness, structural biology methodology, biochemical validation, and interpretation of results. Editorial and stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report the crystal structures of the N-terminal (3.6 Å) and C-terminal (2.03 Å) domains of MabR (Rv2242) from Mycobacterium tuberculosis, a PucR-family transcription factor. They identify the N-terminal domain as a nonheme globin-like fold and the C-terminal domain as comprising a GGDEF-like domain plus a helix-turn-helix motif. Solution studies (SEC, SAXS) and AlphaFold modeling are used to propose dimeric and tetrameric assemblies, with two distinct dimerization interfaces. The authors claim this is the first complete structure of a PucR-type transcription factor and that the domain combination is unique to Actinomycetes.
+- **Visible evidence base** Crystal structures (PDB 9FB1, 9F80), crystallographic tables, SEC profiles, SEC-SAXS data, EM images, EMSA, TSA, ITC, AlphaFold models, MD simulations, sequence alignments.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (Figs. S1–S17, Tables S1–S6) were not provided. Electron density map quality figures (Fig. S3) not available. Full SAXS curves and fitting details not shown in main text. ITC raw data and fitting parameters not shown in main text. EM micrographs at higher magnification or with scale bar calibration not described in sufficient detail.
+
+## Reviewer
+
+- **Overall assessment** This manuscript presents a solid structural characterization of the two domains of MabR, a biologically relevant transcription factor in Mycobacterium tuberculosis. The crystallographic work appears technically competent, and the identification of a nonheme globin fold in the N-terminal domain is a novel and interesting finding. However, the manuscript falls short of establishing a clear functional link between the observed structures and the regulatory mechanism of MabR. The oligomerization model relies heavily on predictive tools and indirect solution measurements, with acknowledged limitations in the AlphaFold confidence. The DNA-binding studies are preliminary and do not resolve the functional significance of the dimeric versus tetrameric states. The claim of being the "first complete structure of a PucR-type transcription factor" is partially overstated given that only isolated domains were crystallized, not the full-length protein. The work is of interest to the tuberculosis and transcription factor communities but requires additional functional validation to fully support the proposed regulatory model.
+- **Who would be interested in the results, and why** Researchers studying mycobacterial gene regulation and mycolic acid biosynthesis, structural biologists interested in novel domain combinations in bacterial transcription factors, and drug discovery groups targeting Mycobacterium tuberculosis. The nonheme globin sensor domain is a particularly novel finding that may attract interest from the broader gas-sensing protein community, though no ligand was identified in this study.
+- **Major strengths** 1) First experimental structures of MabR domains, providing a valuable framework for understanding this regulator. 2) The identification of a nonheme globin fold in the N-terminal domain is unexpected and potentially significant. 3) The combination of multiple biophysical techniques (SEC, SAXS, EM, ITC, TSA) to probe oligomerization is commendable. 4) The crystallographic statistics, particularly for the C-terminal domain, are good. 5) The discussion of limitations and alternative interpretations is generally balanced.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The manuscript proposes that MabR binds DNA preferentially as a dimer and that the tetrameric form is disrupted upon DNA binding, with the EM and ITC data interpreted as supporting this model.
+  - **Evidence pointer** Results sections "Electron microscopy analysis of MabR" and "MabR DNA-binding activity"; Figs. 5 and 6
+  - **Concern** The functional significance of the oligomeric states is not convincingly established. The EM data show particles of different sizes but the interpretation that DNA binding "disrupts the tetrameric organization" is speculative. The EM images are low-resolution negative stain data without quantitative particle analysis or classification. The ITC data for MBP-MabR show "multiple thermodynamic events" that are not deconvoluted or modeled, making the interpretation ambiguous. The EMSA for MBP-MabR shows weak and non-specific binding, which contradicts the proposed functional model. The authors acknowledge these complexities but do not provide a coherent alternative explanation or additional experiments to resolve them.
+  - **Why it matters** The central claim of the paper is that the domain architecture and oligomerization states are relevant to MabR function. Without clear functional data linking the observed oligomers to DNA binding or transcriptional regulation, the structural findings remain descriptive. The discrepancy between the C-MabR (clean binding) and MBP-MabR (complex binding) results is particularly concerning and needs to be addressed.
+  - **Resolution test** Provide quantitative analysis of EM particles (size distributions, class averages) with and without DNA. Perform ITC experiments with a simpler system (e.g., C-MabR alone at multiple temperatures) to deconvolute the thermodynamic events. Use a defined DNA sequence with a verified MabR binding site rather than the putative promoter region. Consider mutagenesis of the proposed dimer interfaces to test their functional relevance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural completeness
+  - **Claim pointer** The abstract and introduction state that this is "the first study to present the complete structure of a PucR-type transcription factor."
+  - **Evidence pointer** Abstract; Introduction; Results sections on N-MabR and C-MabR structures
+  - **Concern** The claim of presenting the "complete structure" is misleading. Only the isolated N-terminal (residues 1–160) and C-terminal (residues 161–414) domains were crystallized, not the full-length protein. The linker region between the domains was not resolved, and the relative orientation of the two domains in the full-length context remains unknown. The AlphaFold models of the full-length protein are predictions, not experimental structures. This overstatement could mislead readers about the level of structural information actually obtained.
+  - **Why it matters** Accurate representation of the structural data is essential for the scientific record. The distinction between domain structures and a full-length structure is critical for understanding the functional implications, particularly regarding how the two domains cooperate in DNA binding and regulation.
+  - **Resolution test** Revise the claim to state that the structures of the individual N- and C-terminal domains were determined, and that AlphaFold models of the full-length protein are presented as predictions. If the authors wish to claim a "complete" picture, they should provide experimental evidence for the interdomain arrangement, such as SAXS-based rigid body modeling of the full-length protein or crosslinking data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Ligand binding and functional mechanism
+  - **Claim pointer** The N-terminal domain is described as a "nonheme globin sensor domain," implying a sensing function, and the discussion suggests that both the globin and GGDEF-like domains "could serve as potential binding sites for such effectors."
+  - **Evidence pointer** Results section "N-MabR is a nonheme globin sensor domain"; Discussion
+  - **Concern** The functional role of the N-terminal globin domain is entirely speculative. No ligand binding was demonstrated, no small molecule or gas was identified as a potential ligand, and no functional assay was performed to test whether this domain senses any specific signal. The GGDEF-like domain lacks the catalytic and inhibitory motifs, so its functional relevance is also unclear. The manuscript does not provide any experimental evidence for what these domains actually do.
+  - **Why it matters** The title and framing of the paper emphasize the domain architecture as a step toward understanding MabR's regulatory mechanisms. However, without any functional data on what the globin or GGDEF-like domains sense or bind, the mechanistic insights are limited. The paper would be strengthened by at least preliminary ligand screening or a clear statement of what experiments are needed to test the sensing hypothesis.
+  - **Resolution test** Perform ligand screening (e.g., heme, gases, small molecules) using spectroscopic or biophysical methods. Test whether the globin domain binds any physiological ligand. Alternatively, clearly frame the paper as a structural description and explicitly state that the sensing function is hypothetical, with specific experiments proposed for future work.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The AlphaFold models of the dimeric and tetrameric forms are used to support the proposed oligomeric organization, and the authors state that the two dimer interfaces in the models "closely resemble those observed in the crystal structures."
+  - **Evidence pointer** Results section "Predicted AlphaFold models of MabR dimer and tetramer forms"; Table S4
+  - **Concern** The validation of the AlphaFold oligomeric models is insufficient. The authors note that AF3 metrics (pTM, ipTM) suggest "likely failed oligomerization predictions," yet they still use these models to support their conclusions. The comparison between the AF models and crystal structures is only described qualitatively, and the referenced Table S4 was not provided for assessment. The MD simulations are described as showing stability, but no quantitative metrics (RMSD plots, energy convergence) are shown in the main text.
+  - **Why it matters** The oligomeric model is a central part of the paper's conclusions. If the predictive models are unreliable, the proposed architecture of the full-length MabR assembly is not well supported. The authors need to either provide stronger validation of the models or present them with appropriate caveats and reduced emphasis.
+  - **Resolution test** Provide the quantitative comparison data in Table S4. Show RMSD and energy plots from MD simulations. If AF3 metrics indicate low confidence, acknowledge this more prominently and consider whether the models should be presented as speculative rather than supportive. Consider experimental validation of the oligomeric models, such as crosslinking mass spectrometry or mutagenesis of interface residues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The crystallographic table is incomplete. For the N-MabR structure at 3.6 Å, key statistics such as Rwork/Rfree are reported, but the low completeness in the outer shell (36.0% spherical) is concerning and should be discussed. The table does not include information on data collection for the native C-MabR dataset separately from the Hg-derivative.
+  - **Required correction** Add a column or section for the native C-MabR data. Discuss the impact of the low outer-shell completeness on the N-MabR structure quality. Consider adding a footnote explaining the ellipsoidal completeness correction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Materials and methods, "Isothermal titration calorimetry assay"
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The ITC methods are described briefly, and the results are only mentioned in the context of Fig. S17 (not provided). The stoichiometry of 1:2 (DNA:protein) for C-MabR is stated in the figure legend, but the fitting model and thermodynamic parameters are not described in the text.
+  - **Required correction** Provide the fitting model used (e.g., sequential binding, two independent sites) and report the thermodynamic parameters (ΔH, ΔS, Kd) in the text or a table. Clarify whether the 1:2 stoichiometry was fixed or fitted.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on oligomerization
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the tetrameric form being "an artefact of the high protein concentrations used" is somewhat contradictory. The authors then argue that cellular concentrations (0.115–0.295 μM) are consistent with the SEC experiments, but the SEC experiments were performed at much higher concentrations (mg/mL range for the MBP-MabR). The concentration range tested (0.1–5.6 μM) is mentioned, but the relationship between these concentrations and the SEC/SAXS data is not clearly explained.
+  - **Required correction** Clarify the concentration dependence of the oligomeric equilibrium. State explicitly at what concentrations the SEC and SAXS experiments were performed and how these relate to the estimated cellular concentrations. If the oligomeric distribution is concentration-dependent, this should be discussed as a potential regulatory mechanism.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction; Discussion
+  - **Issue** The manuscript does not adequately discuss the functional studies of MabR in the context of other PucR family members or other regulators of mycolic acid biosynthesis. The recent study suggesting MabR acts as an activator (reference 11) is mentioned but not critically evaluated in light of the structural findings.
+  - **Required correction** Add a brief discussion of how the structural data inform the activator versus repressor debate. Consider whether the domain architecture provides any clues about the mechanism of transcriptional regulation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Fig. 5
+  - **Evidence pointer** Fig. 5
+  - **Issue** The EM images in Fig. 5 are of limited quality and do not allow the reader to assess the claimed particle sizes or shapes. No scale bar is visible in the figure as described, and the magnification information is only in the legend.
+  - **Required correction** Add scale bars to the EM images. Consider showing representative particles at higher magnification. If possible, provide a size distribution histogram from particle picking.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and code availability section
+  - **Evidence pointer** Data and code availability section
+  - **Issue** The AF2/AF3 models are stated to be "available from the lead contact upon request." This is less accessible than depositing the models in a public repository.
+  - **Required correction** Deposit the AlphaFold models in a public repository such as ModelArchive or Zenodo, and provide the accession codes in the manuscript.
+
+## Risk / unsupported claims
+- The claim that MabR represents "the first complete structure of a PucR-type transcription factor" is not supported, as only isolated domains were crystallized, not the full-length protein.
+- The proposal that the N-terminal globin domain functions as a "sensor" is unsupported by any experimental evidence for ligand binding.
+- The interpretation that DNA binding disrupts the tetrameric form of MabR is based on low-resolution EM data and complex ITC data that are not quantitatively analyzed.
+- The statement that the AF2/AF3 dimer and tetramer models "closely resemble" the crystal structure interfaces is not verifiable without the referenced Table S4.
+- The functional significance of the GGDEF-like domain, given the absence of catalytic and inhibitory motifs, is speculative.
+- The conclusion that the tetrameric form "may indeed exist in vivo" based on concentration estimates from PaxDb is weakly supported, as the conversion from ppm to molar concentration relies on assumptions not stated in the text.
+- The EMSA data for MBP-MabR are described as showing "weaker binding and potential non-specific interactions," which undermines the functional relevance of the proposed DNA-binding model.

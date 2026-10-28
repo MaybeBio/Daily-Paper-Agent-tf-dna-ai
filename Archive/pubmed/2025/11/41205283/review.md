@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that NANOG regulates stemness, symmetric division, and therapeutic resistance in colorectal cancer stem-like cells (CRC-SCs) via ERK/GSK-3beta/beta-catenin signalling and EMT, and that small-molecule inhibitors U0126 and TDZD-8 can disrupt these pathways to restore drug sensitivity.
+- **Visible evidence base** Abstract text only; methods and results summarized without numerical data, statistical details, or experimental replicates
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, statistical analyses, experimental protocols, and any raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between NANOG, EMT, and drug resistance in colorectal cancer, with a translational angle via two existing inhibitors. However, the evidence as summarized is insufficient to evaluate the robustness of the claims. Key quantitative outcomes, statistical support, and experimental details are absent. The conclusions extend beyond what the abstract can support, particularly regarding "restores drug sensitivity" and "translational impact."
+- **Who would be interested in the results, and why** Researchers in colorectal cancer biology, cancer stem cell biology, drug resistance mechanisms, and EMT signalling. Clinicians and translational scientists interested in repurposing MEK or GSK-3beta inhibitors for chemosensitization may also find the work relevant.
+- **Major strengths** The study addresses a clinically relevant problem (drug resistance in colorectal cancer) and integrates multiple approaches (3D cultures, patient-derived organoids, xenografts, molecular dynamics simulations). The focus on NANOG as a potential upstream regulator of EMT and stemness is mechanistically coherent.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "NANOG overexpression enhanced the expression of stemness-associated genes, promoted symmetric cell division, and activated ERK/GSK-3beta signalling, contributing to increased sphere formation."
+  - **Evidence pointer** Methods and Results sections, abstract only; location not provided
+  - **Concern** The abstract reports qualitative outcomes (e.g., "enhanced," "promoted," "activated") without any quantitative data, effect sizes, or statistical significance. No numbers, error bars, or p-values are provided for any of the key experiments.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the magnitude or reliability of the observed effects. The claim that NANOG "drives" CRC-SC maintenance requires robust statistical support that is not visible in the abstract.
+  - **Resolution test** Provide quantitative data (e.g., fold changes, percentages, IC50 values) with appropriate statistical tests and sample sizes for each key experiment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-conclusion alignment
+  - **Claim pointer** "This study offers significant insights into the translational impact of targeting NANOG and its downstream pathways with small-molecule inhibitors U0126 and TDZD-8 and presents a promising strategy to reduce CRC-SCs stemness, functionality, and tumourigenicity."
+  - **Evidence pointer** Conclusions section, abstract only; location not provided
+  - **Concern** The abstract claims "translational impact" and a "promising strategy" but does not report any in vivo efficacy data for the inhibitors beyond xenograft models mentioned in Methods. No data on tumour growth inhibition, survival, or drug toxicity are presented. The term "restores drug sensitivity" in the title is not directly supported by any result described in the abstract.
+  - **Why it matters** Translational claims require evidence of therapeutic benefit in relevant models. The abstract does not show that U0126 or TDZD-8 resensitizes resistant tumours to chemotherapy, which is the central promise of the title.
+  - **Resolution test** Include data demonstrating that inhibitor treatment (alone or in combination with chemotherapy) reduces tumour burden or restores drug sensitivity in vivo, with appropriate controls and statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** "NANOG-mediated dysregulation of ERK/GSK-3beta altered beta-catenin signalling and disrupted E-cadherin-dependent cell-cell adhesion."
+  - **Evidence pointer** Results section, abstract only; location not provided
+  - **Concern** The abstract does not clarify whether the effects on beta-catenin and E-cadherin are direct or indirect, nor does it specify the direction of change (e.g., increased or decreased beta-catenin activity). The relationship between ERK/GSK-3beta and beta-catenin is well-studied, but the abstract does not show how NANOG fits into this pathway in a way that is distinct from known mechanisms.
+  - **Why it matters** Without mechanistic detail, the claim risks being a restatement of known pathway interactions rather than a novel finding. The abstract should clarify the specific molecular events and whether they are NANOG-dependent.
+  - **Resolution test** Provide data showing that NANOG manipulation (knockdown or overexpression) alters specific downstream targets (e.g., phospho-ERK, phospho-GSK-3beta, beta-catenin localization, E-cadherin levels) and that these changes are reversed by inhibitor treatment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, abstract only; location not provided
+  - **Issue** The abstract states that "drug responses" were assessed in PDOs but does not specify which drugs were tested beyond U0126 and TDZD-8, nor whether standard chemotherapeutics (e.g., 5-FU, oxaliplatin) were included.
+  - **Required correction** Specify the full panel of drugs tested and the rationale for their selection.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Title and conclusions
+  - **Evidence pointer** Title and Conclusions, abstract only; location not provided
+  - **Issue** The title states "restores drug sensitivity," but the abstract does not report any combination studies with chemotherapy. The term "restores" implies a prior loss of sensitivity that is not explicitly demonstrated.
+  - **Required correction** Either provide data showing resensitization to a specific chemotherapeutic agent or revise the title and conclusions to reflect the actual scope of the findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Molecular dynamics simulations
+  - **Evidence pointer** Methods section, abstract only; location not provided
+  - **Issue** The abstract mentions molecular dynamics simulations but does not describe the system, simulation time, or validation against experimental data.
+  - **Required correction** Provide sufficient detail on simulation parameters and how the results were validated experimentally.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative data and the lack of direct evidence for restored drug sensitivity prevent the core claims from being evaluated.
+- **Assessment against Nature-style criteria**  
+  - Originality: The link between NANOG, EMT, and drug resistance is not entirely novel, but the specific focus on ERK/GSK-3beta/beta-catenin integration may offer a new angle. However, the abstract does not demonstrate a clear conceptual advance over existing literature.  
+  - Scientific importance: Drug resistance in colorectal cancer is a high-impact topic, and targeting NANOG could be clinically relevant. However, the importance is not yet established without robust in vivo efficacy data.  
+  - Interdisciplinary readership: The work spans cancer biology, signalling, and computational modelling, which could appeal to a broad audience. The abstract is accessible but lacks depth.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The absence of quantitative results and statistical details is a major limitation.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., "symmetric division," "CRC-SCs") without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and a range of methods, but the lack of quantitative data and direct evidence for drug sensitivity restoration means the core claims cannot be supported. I would be supportive if the full manuscript provides the missing quantitative and in vivo data.
+
+## Risk / unsupported claims
+- The title claim that NANOG disruption "restores drug sensitivity" is unsupported by the abstract, as no combination or resensitization data are presented.
+- The claim of "translational impact" is not supported by any in vivo efficacy or safety data in the abstract.
+- The statement that NANOG "drives" CRC-SC maintenance is a strong causal claim that requires loss-of-function and rescue experiments, which are not described in the abstract.
+- The molecular dynamics simulation results are mentioned but not described in sufficient detail to evaluate their validity or relevance.

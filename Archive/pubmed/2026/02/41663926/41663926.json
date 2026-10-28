@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "41663926",
+    "doi": "10.1186/s12864-026-12625-x",
+    "title": "UniChrom: a universal deep learning architecture for cross-scale chromatin interaction prediction."
+  },
+  "content": {
+    "abstract": "Chromatin interactions regulate gene expression and genome organization, but computational prediction across cell types remains challenging. We developed UniChrom, a deep learning framework integrating DNA sequences and epigenomic features through attention-based neural networks to predict chromatin interactions. Evaluation across human lymphoblastoid, leukemia, and fibroblast cell lines demonstrates superior performance compared to existing methods, with fivefold cross-validation and Wilcoxon tests confirming statistical significance (p < 0.05). Distance-stratified analysis reveals robust performance across all genomic scales, including long-range interactions exceeding 1.77 megabases (AUC: 0.976). Independent validation on endothelial cells confirms cross-lineage generalization (AUC: 0.962). Bootstrapping analysis with 1,000 iterations validates performance stability with tight 95% confidence intervals. DeepSHAP interpretability identifies CTCF and cohesin components as dominant features alongside cell-type-specific histone modifications, while DeepLIFT reveals functional regulatory motifs at interaction anchors. UniChrom provides a statistically validated framework for investigating genome architecture across cellular contexts with potential applications in understanding gene regulation in development and disease.",
+    "keywords": [
+      "CTCF-mediated loops",
+      "Chromatin interactions",
+      "Deep learning",
+      "Enhancer-promoter interactions"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/metabolism/genetics",
+      "*Deep Learning",
+      "*Computational Biology/methods",
+      "Cohesins",
+      "Neural Networks, Computer",
+      "CCCTC-Binding Factor/metabolism",
+      "Cell Line",
+      "Epigenomics/methods",
+      "Genomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Shuaibin",
+        "Chen, Tong",
+        "Yang, Zhongxin",
+        "Xu, Xuan",
+        "Shen, Yin"
+      ],
+      "short_names": [
+        "Wang S",
+        "Chen T",
+        "Yang Z",
+        "Xu X",
+        "Shen Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, 230032, Anhui, China.",
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, 230032, Anhui, China.",
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, 230032, Anhui, China.",
+        "College of Life Sciences, Anhui Medical University, Hefei, 230032, Anhui, China. xuxuan@ahmu.edu.cn.",
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, 230032, Anhui, China. shenyin@ahmu.edu.cn.",
+        "Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, China. shenyin@ahmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Shuaibin",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tong",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhongxin",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xuan",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Anhui Medical University, Hefei, 230032, Anhui, China. xuxuan@ahmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shen, Yin",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, 230032, Anhui, China. shenyin@ahmu.edu.cn.",
+          "Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, China. shenyin@ahmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2026 Feb 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/10 01:29",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41606153",
+      "39143563",
+      "38890584",
+      "38670416",
+      "38509385",
+      "38430521",
+      "37402191",
+      "37229121",
+      "35922410",
+      "34608324",
+      "34573367",
+      "34399797",
+      "34113473",
+      "33767413",
+      "33634313",
+      "32647330",
+      "31804952",
+      "31565573",
+      "31332378",
+      "30562350",
+      "29949986",
+      "29094699",
+      "28139673",
+      "27346425",
+      "27210764",
+      "27064255",
+      "26619908",
+      "26586731",
+      "26499245",
+      "25938943",
+      "25497547",
+      "21106759",
+      "20181287",
+      "18552846",
+      "17971780"
+    ],
+    "similar": [
+      "41663926",
+      "42106409",
+      "41319043",
+      "33232622",
+      "30310060",
+      "41832145",
+      "33634313",
+      "29757144",
+      "27490187",
+      "38670416",
+      "25228660",
+      "32847102",
+      "32680543",
+      "35997565",
+      "42475469",
+      "39708837",
+      "38217027",
+      "42135287",
+      "42162809",
+      "30717603",
+      "39738353",
+      "42114117",
+      "41684299",
+      "35440598",
+      "41622199",
+      "39283464",
+      "41978381",
+      "31811132",
+      "29581440",
+      "40637236",
+      "38397134",
+      "29593713",
+      "40874617",
+      "40652995",
+      "41224530",
+      "23804403",
+      "36495179",
+      "26338778",
+      "30869141",
+      "35180428",
+      "35293310",
+      "38555493",
+      "30031214",
+      "25299688",
+      "38206813",
+      "35077535",
+      "40221401",
+      "40374602",
+      "31905774",
+      "39131276",
+      "41576119",
+      "39316943",
+      "41766646",
+      "31318408",
+      "36723807",
+      "23704192",
+      "41277030",
+      "37602215",
+      "23706625",
+      "42289051",
+      "39724385",
+      "41139207",
+      "24002784",
+      "33398174",
+      "29976663",
+      "28467304",
+      "31522988",
+      "41980945",
+      "29199022",
+      "34020542",
+      "28420341",
+      "32216817",
+      "41877008",
+      "25677182",
+      "32728247",
+      "30967126",
+      "39988079",
+      "29949986",
+      "32294452",
+      "40536817",
+      "35277509",
+      "28863138",
+      "42476989",
+      "34769020",
+      "22952237",
+      "35456389",
+      "40452075",
+      "39721581",
+      "42464115",
+      "31522987",
+      "41337156",
+      "36335136",
+      "39884279",
+      "40553343",
+      "26686651",
+      "40869356",
+      "34289010",
+      "41514301",
+      "31653198",
+      "30853548"
+    ],
+    "review": [
+      "41663926",
+      "39708837",
+      "39283464",
+      "30031214",
+      "41277030",
+      "34020542",
+      "22952237"
+    ],
+    "pmc": [
+      "12990449"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-026-12625-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41663926/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

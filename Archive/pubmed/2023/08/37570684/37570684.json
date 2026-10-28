@@ -1,0 +1,470 @@
+{
+  "identity": {
+    "pmid": "37570684",
+    "doi": "10.3390/molecules28155713",
+    "title": "Pyronaridine as a Bromodomain-Containing Protein 4-N-Terminal Bromodomain (BRD4-BD1) Inhibitor: In Silico Database Mining, Molecular Docking, and Molecular Dynamics Simulation."
+  },
+  "content": {
+    "abstract": "BRD4 (bromodomain-containing protein 4) is an epigenetic reader that realizes histone proteins and promotes the transcription of genes linked to cancer progression and non-cancer diseases such as acute heart failure and severe inflammation. The highly conserved N-terminal bromodomain (BD1) recognizes acylated lysine residues to organize the expression of genes. As such, BD1 is essential for disrupting BRD4 interactions and is a promising target for cancer treatment. To identify new BD1 inhibitors, a SuperDRUG2 database that contains more than 4600 pharmaceutical compounds was screened using in silico techniques. The efficiency of the AutoDock Vina1.1.2 software to anticipate inhibitor-BRD4-BD1 binding poses was first evaluated based on the co-crystallized R6S ligand in complex with BRD4-BD1. From database screening, the most promising BRD4-BD1 inhibitors were subsequently submitted to molecular dynamics (MD) simulations integrated with an MM-GBSA approach. MM-GBSA computations indicated promising BD1 binding with a benzonaphthyridine derivative, pyronaridine (SD003509), with an energy prediction (DeltaG(binding)) of -42.7 kcal/mol in comparison with -41.5 kcal/mol for a positive control inhibitor (R6S). Pharmacokinetic properties predicted oral bioavailability for both ligands, while post-dynamic analyses of the BRD4-BD1 binding pocket demonstrated greater stability for pyronaridine. These results confirm that in silico studies can provide insight into novel protein-ligand regulators, specifically that pyronaridine is a potential cancer drug candidate.",
+    "keywords": [
+      "SuperDRUG2 database",
+      "bromodomain-containing protein 4",
+      "cancer disease",
+      "molecular docking",
+      "molecular dynamics simulations"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "*Nuclear Proteins/metabolism",
+      "Bromodomain Containing Proteins",
+      "Transcription Factors/metabolism",
+      "Ligands",
+      "Cell Cycle Proteins/metabolism",
+      "Naphthyridines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ibrahim, Mahmoud A A",
+        "Abdelhamid, Mahmoud M H",
+        "Abdeljawaad, Khlood A A",
+        "Abdelrahman, Alaa H M",
+        "Mekhemer, Gamal A H",
+        "Sidhom, Peter A",
+        "Sayed, Shaban R M",
+        "Pare, Paul W",
+        "Hegazy, Mohamed-Elamir F",
+        "Shoeib, Tamer"
+      ],
+      "short_names": [
+        "Ibrahim MAA",
+        "Abdelhamid MMH",
+        "Abdeljawaad KAA",
+        "Abdelrahman AHM",
+        "Mekhemer GAH",
+        "Sidhom PA",
+        "Sayed SRM",
+        "Pare PW",
+        "Hegazy MF",
+        "Shoeib T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4819-2040",
+        "ORCID: 0009-0006-8582-9759",
+        "ORCID: 0000-0001-8667-664X",
+        "ORCID: 0000-0003-3527-0126",
+        "ORCID: 0000-0003-2474-076X",
+        "ORCID: 0000-0003-2579-6351",
+        "ORCID: 0000-0003-1644-723X",
+        "ORCID: 0000-0002-0343-4969",
+        "ORCID: 0000-0003-3512-1593"
+      ],
+      "affiliations": [
+        "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt.",
+        "School of Health Sciences, University of KwaZulu-Natal, Westville Campus, Durban 4000, South Africa.",
+        "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt.",
+        "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt.",
+        "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt.",
+        "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt.",
+        "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Tanta University, Tanta 31527, Egypt.",
+        "Department of Botany and Microbiology, College of Science, King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia.",
+        "Department of Chemistry & Biochemistry, Texas Tech University, Lubbock, TX 79409, USA.",
+        "Chemistry of Medicinal Plants Department, National Research Centre, 33 El-Bohouth St., Dokki, Giza 12622, Egypt.",
+        "Department of Chemistry, The American University in Cairo, New Cairo 11835, Egypt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ibrahim, Mahmoud A A",
+        "short_name": "Ibrahim MAA",
+        "identifiers": [
+          "0000-0003-4819-2040"
+        ],
+        "affiliations": [
+          "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt.",
+          "School of Health Sciences, University of KwaZulu-Natal, Westville Campus, Durban 4000, South Africa."
+        ]
+      },
+      {
+        "full_name": "Abdelhamid, Mahmoud M H",
+        "short_name": "Abdelhamid MMH",
+        "identifiers": [
+          "0009-0006-8582-9759"
+        ],
+        "affiliations": [
+          "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt."
+        ]
+      },
+      {
+        "full_name": "Abdeljawaad, Khlood A A",
+        "short_name": "Abdeljawaad KAA",
+        "identifiers": [
+          "0000-0001-8667-664X"
+        ],
+        "affiliations": [
+          "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt."
+        ]
+      },
+      {
+        "full_name": "Abdelrahman, Alaa H M",
+        "short_name": "Abdelrahman AHM",
+        "identifiers": [
+          "0000-0003-3527-0126"
+        ],
+        "affiliations": [
+          "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt."
+        ]
+      },
+      {
+        "full_name": "Mekhemer, Gamal A H",
+        "short_name": "Mekhemer GAH",
+        "identifiers": [
+          "0000-0003-2474-076X"
+        ],
+        "affiliations": [
+          "Computational Chemistry Laboratory, Chemistry Department, Faculty of Science, Minia University, Minia 61519, Egypt."
+        ]
+      },
+      {
+        "full_name": "Sidhom, Peter A",
+        "short_name": "Sidhom PA",
+        "identifiers": [
+          "0000-0003-2579-6351"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Tanta University, Tanta 31527, Egypt."
+        ]
+      },
+      {
+        "full_name": "Sayed, Shaban R M",
+        "short_name": "Sayed SRM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Botany and Microbiology, College of Science, King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Paré, Paul W",
+        "short_name": "Paré PW",
+        "identifiers": [
+          "0000-0003-1644-723X"
+        ],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, Texas Tech University, Lubbock, TX 79409, USA."
+        ]
+      },
+      {
+        "full_name": "Hegazy, Mohamed-Elamir F",
+        "short_name": "Hegazy MF",
+        "identifiers": [
+          "0000-0002-0343-4969"
+        ],
+        "affiliations": [
+          "Chemistry of Medicinal Plants Department, National Research Centre, 33 El-Bohouth St., Dokki, Giza 12622, Egypt."
+        ]
+      },
+      {
+        "full_name": "Shoeib, Tamer",
+        "short_name": "Shoeib T",
+        "identifiers": [
+          "0000-0003-3512-1593"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The American University in Cairo, New Cairo 11835, Egypt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2023 Jul 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/12 10:51",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "42008597",
+      "40891583",
+      "40630812",
+      "39696643",
+      "39546470"
+    ],
+    "refs": [
+      "36274096",
+      "35215266",
+      "34438984",
+      "34376030",
+      "33954893",
+      "32409773",
+      "31815566",
+      "31412551",
+      "31244000",
+      "31068821",
+      "30677435",
+      "29649741",
+      "29226338",
+      "29140469",
+      "28766687",
+      "28195723",
+      "28105454",
+      "27769357",
+      "27482545",
+      "26908627",
+      "26807648",
+      "26593828",
+      "26574453",
+      "25860834",
+      "25603177",
+      "25307878",
+      "25036774",
+      "24954007",
+      "24592384",
+      "24248379",
+      "23568466",
+      "23403638",
+      "23181938",
+      "22877082",
+      "22710155",
+      "22498752",
+      "22464331",
+      "21814200",
+      "21091654",
+      "20949517",
+      "20871596",
+      "20235588",
+      "19499576",
+      "19399780",
+      "17936059",
+      "15980491",
+      "15116359",
+      "12425461",
+      "11911891",
+      "11772309",
+      "11080160",
+      "10365964"
+    ],
+    "similar": [
+      "37570684",
+      "36841551",
+      "38317535",
+      "30411639",
+      "34105560",
+      "27494802",
+      "36773087",
+      "35156677",
+      "33637650",
+      "37656159",
+      "38425011",
+      "36524430",
+      "30260047",
+      "30926312",
+      "36644887",
+      "30079805",
+      "38675678",
+      "35423696",
+      "38749341",
+      "36907648",
+      "38876177",
+      "33749556",
+      "33820450",
+      "34982556",
+      "25266565",
+      "29139214",
+      "32149490",
+      "38134745",
+      "38142510",
+      "35011350",
+      "31701109",
+      "39274873",
+      "37402749",
+      "31587361",
+      "37446009",
+      "32860796",
+      "38295759",
+      "28347667",
+      "36215732",
+      "28466681",
+      "38006801",
+      "24976024",
+      "27266999",
+      "34710811",
+      "37744850",
+      "29730189",
+      "24568369",
+      "37967462",
+      "39292752",
+      "34139120",
+      "32324999",
+      "28901664",
+      "30015487",
+      "28821780",
+      "29758466",
+      "29657099",
+      "32657160",
+      "32496901",
+      "30268702",
+      "38135679",
+      "35738217",
+      "35239184",
+      "32765266",
+      "33638254",
+      "29776834",
+      "31789032",
+      "32883643",
+      "29172540",
+      "32255647",
+      "36040095",
+      "36677841",
+      "34999525",
+      "36362300",
+      "32631570",
+      "26022843",
+      "32502863",
+      "36262390",
+      "28884163",
+      "39310674",
+      "36815250",
+      "24403256",
+      "27764245",
+      "28564537",
+      "29605436",
+      "35943085",
+      "36176467",
+      "24767840",
+      "29469144",
+      "23086925",
+      "34845959",
+      "31815566",
+      "28586718",
+      "26735842",
+      "33802888",
+      "28945351",
+      "34180651",
+      "31215391",
+      "37923569",
+      "37478496",
+      "30557817",
+      "33094644",
+      "37846578",
+      "18500820",
+      "30253095",
+      "24189064",
+      "26158404",
+      "27782467",
+      "31075399",
+      "37986225",
+      "29228881",
+      "39219068",
+      "31266503",
+      "36274096",
+      "30539410",
+      "35622893",
+      "36710583",
+      "34502340",
+      "37509171",
+      "39075025",
+      "38309505",
+      "35258972",
+      "38191874",
+      "39032457",
+      "37686037",
+      "36190786",
+      "38100650",
+      "39259687",
+      "39069741",
+      "39401417",
+      "35716662",
+      "37956861",
+      "29649741",
+      "38326409",
+      "37874862",
+      "39215370",
+      "37959685",
+      "35127386",
+      "37659219",
+      "38323915",
+      "38501942",
+      "38153295",
+      "39220497",
+      "37797430",
+      "39302888",
+      "36367089",
+      "36595918",
+      "37864019",
+      "39232833",
+      "30542529",
+      "38203761",
+      "37816933",
+      "38630325",
+      "26798447",
+      "38294275",
+      "39282413",
+      "38833125",
+      "36105334",
+      "38246950",
+      "39014863",
+      "34901955",
+      "34141078",
+      "38026650"
+    ],
+    "review": [
+      "37570684",
+      "38135679",
+      "32502863",
+      "31815566",
+      "31215391",
+      "37846578",
+      "39219068",
+      "36710583",
+      "37509171",
+      "37686037",
+      "38100650",
+      "37956861",
+      "39215370"
+    ],
+    "pmc": [
+      "10420099"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules28155713",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37570684/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37570684",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

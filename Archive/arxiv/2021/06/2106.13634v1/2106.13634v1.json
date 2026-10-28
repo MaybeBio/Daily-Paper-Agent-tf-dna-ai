@@ -1,0 +1,37 @@
+{
+  "source": "arxiv",
+  "source_id": "2106.13634v1",
+  "title": "Multi-scale Poisson process approaches for differential expression analysis of high-throughput sequencing data",
+  "doi": "",
+  "abstract": "Estimating and testing for differences in molecular phenotypes (e.g. gene expression, chromatin accessibility, transcription factor binding) across conditions is an important part of understanding the molecular basis of gene regulation. These phenotypes are commonly measured using high-throughput sequencing assays (e.g., RNA-seq, ATAC-seq, ChIP-seq), which provide high-resolution count data that reflect how the phenotypes vary along the genome. Multiple methods have been proposed to help exploit these high-resolution measurements for differential expression analysis. However, they ignore the count nature of the data, instead using normal approximations that work well only for data with large sample sizes or high counts. Here we develop count-based methods to address this problem. We model the data for each sample using an inhomogeneous Poisson process with spatially structured underlying intensity function, and then, building on multi-scale models for the Poisson process, estimate and test for differences in the underlying intensity function across samples (or groups of samples). Using both simulation and real ATAC-seq data we show that our method outperforms previous normal-based methods, especially in situations with small sample sizes or low counts.",
+  "authors": [
+    "Heejung Shim",
+    "Zhengrong Xing",
+    "Ester Pantaleo",
+    "Francesca Luca",
+    "Roger Pique-Regi",
+    "Matthew Stephens"
+  ],
+  "published_date": "2021-06-25T13:36:28Z",
+  "updated_date": "2021-06-25T13:36:28Z",
+  "journal": "",
+  "category": "stat.ME, q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2106.13634v1",
+  "pdf_url": "https://arxiv.org/pdf/2106.13634v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "stat.ME",
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2106.13634v1",
+    "raw_categories": [
+      "stat.ME",
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

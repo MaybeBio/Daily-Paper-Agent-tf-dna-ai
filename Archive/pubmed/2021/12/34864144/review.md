@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that EhHSTF7, a transcription factor from *Entamoeba histolytica*, exists in monomeric and oligomeric states, binds specifically to a heat shock element (HSE) in the *EhPgp5* gene promoter via 5'-GAA-3' complementary bases, and that siRNA-mediated knockdown of *Ehhstf7* reduces *EhPgp5* expression, implicating EhHSTF7 in multidrug resistance.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, sequence alignments, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding in a neglected pathogen, but the evidence base is too limited to evaluate the validity of the central claims. The oligomer state determination, DNA binding specificity, and functional knockdown data are all described without quantitative or methodological detail. The conclusion that EhHSTF7 plays a key role in multidrug resistance is plausible but not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying heat shock response in protozoan parasites, transcriptional regulation in *Entamoeba histolytica*, and mechanisms of multidrug resistance in parasitic organisms. The work may also interest those investigating the evolution of stress response pathways in early-branching eukaryotes.
+- **Major strengths** The study addresses a clinically relevant topic, multidrug resistance in a major human pathogen. The combination of biochemical, in silico, and gene silencing approaches is appropriate for the research question. The claim of being the first report of a transcription factor recognizing an HSE from a drug resistance gene in parasites is noteworthy if substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The EhHSTF7 recombinant protein was obtained as monomer and oligomer."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that the recombinant protein exists in both monomeric and oligomeric states, but no method is described for how these states were separated or characterized. It is unclear whether the oligomer is a native functional form or an artifact of recombinant expression, such as aggregation or non-specific multimerization.
+  - **Why it matters** The oligomer state is central to the proposed mechanism of action, as heat shock factors typically function as trimers. Without evidence that the oligomer is specific, stoichiometrically defined, and relevant under physiological conditions, the functional significance of this observation is uncertain.
+  - **Resolution test** Provide size exclusion chromatography or native gel electrophoresis data with molecular weight standards, and ideally cross-linking or analytical ultracentrifugation to confirm the oligomeric state. Show that the oligomer forms at physiologically relevant concentrations and is not an artifact of protein overexpression.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The rEhHSTF7 protein specifically binds to the heat shock element of the EhPgp5 gene in gel shift assays. The competition assays with heat shock element mutants indicate that 5'-GAA-3' complementary bases are necessary for the rEhHSTF7 binding."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports specific binding and identifies the 5'-GAA-3' motif as necessary, but provides no information on the binding affinity, the number of repeats in the HSE, the design of the mutant probes, or the specificity controls used. Without these details, it is impossible to assess whether the binding is truly specific or whether the competition results are conclusive.
+  - **Why it matters** The DNA binding specificity is the core biochemical claim of the study. If the binding is weak or non-specific, the downstream functional interpretation is undermined. The identification of the minimal binding motif requires rigorous competition experiments with appropriate controls.
+  - **Resolution test** Provide gel shift data with a range of protein concentrations, competition curves with wild-type and mutant probes, and a negative control DNA sequence. Report the apparent dissociation constant and show that mutations in the 5'-GAA-3' motif abolish binding in a dose-dependent manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The siRNA-mediated knockdown of Ehhstf7 expression causes downregulation of EhPgp5 expression, suggesting that EhHSTF7 is likely to play a key role in the E. histolytica multidrug resistance."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a correlation between *Ehhstf7* knockdown and *EhPgp5* downregulation, but provides no data on knockdown efficiency, specificity of the siRNA, off-target effects, or the magnitude of the observed downregulation. The causal link is implied but not demonstrated.
+  - **Why it matters** The functional claim is the most significant in the study, as it connects the transcription factor to drug resistance. Without evidence that the knockdown is specific and that the effect on *EhPgp5* is direct, alternative explanations such as indirect effects or off-target silencing cannot be excluded.
+  - **Resolution test** Provide quantitative PCR data showing the extent of *Ehhstf7* knockdown and *EhPgp5* downregulation, include a scrambled siRNA control, and ideally perform a rescue experiment by expressing a siRNA-resistant form of EhHSTF7. Show that the effect is specific to *EhPgp5* and not a general stress response.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract introduces the P-glycoprotein and multidrug resistance gene family without explaining the connection to heat shock response, which may confuse readers unfamiliar with the field.
+  - **Required correction** Briefly clarify that the *EhPgp5* gene is regulated by stress conditions and that the HSE in its promoter links the heat shock response to drug resistance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** In silico docking claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The statement "In silico molecular docking predicts protein-DNA binding between EhHSTF7 and 5'-GAA-3' complementary bases" is vague. It is unclear what docking software was used, what structural model was employed, and what the predicted binding affinity or score was.
+  - **Required correction** Specify the docking method, the structural template for EhHSTF7, and the predicted binding energy or score. Clarify whether the docking was used as a hypothesis-generating tool or as supporting evidence for the experimental results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Claim of novelty
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "This is the first report of a transcription factor that recognizes a heat shock element from a gene involved in drug resistance in parasites." This claim requires a literature search to verify, and the abstract does not provide context on how this was confirmed.
+  - **Required correction** Provide a brief statement of the search strategy or cite the relevant literature that was reviewed to establish this novelty claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**  
+  - Originality: The work addresses a novel question in a less-studied organism, and the claim of first report is potentially original, but the abstract does not provide enough context to assess the novelty fully.  
+  - Scientific importance: The topic is relevant to drug resistance in a major pathogen, but the significance is limited by the lack of mechanistic depth and the preliminary nature of the functional data.  
+  - Interdisciplinary readership: The work may appeal to parasitologists, molecular biologists, and those studying stress responses, but the narrow focus on a single transcription factor may limit broader interest.  
+  - Technical soundness: The abstract does not provide sufficient methodological detail to assess the technical quality of the experiments. The major concerns above highlight gaps that must be addressed.  
+  - Readability for nonspecialists: The abstract is generally clear but assumes familiarity with heat shock factors and multidrug resistance mechanisms. The connection between the two is not well explained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the experimental detail required to evaluate the validity of the central claims. The authors should be encouraged to provide the full data, but the case is not made from the abstract alone.
+
+## Risk / unsupported claims
+- The claim that EhHSTF7 exists in both monomeric and oligomeric states is unsupported without experimental details on the characterization method.
+- The claim of specific binding to the HSE and the necessity of 5'-GAA-3' bases is unsupported without gel shift data, competition curves, and control experiments.
+- The claim that *Ehhstf7* knockdown causes *EhPgp5* downregulation is unsupported without quantitative data and specificity controls.
+- The claim of being the first report of such a transcription factor in parasites is unverifiable from the abstract alone.
+- The in silico docking prediction is mentioned but not described in sufficient detail to be evaluated.

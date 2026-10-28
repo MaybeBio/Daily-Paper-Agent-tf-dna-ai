@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supporting information references.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to evidence presented, and clarity of presentation. No assessment of formatting or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to compare wild-type STAT3 with the D170A variant, proposing that the D170A mutation induces long-range allosteric regulation of the SH2 domain via a rigid core of interdomain interactions involving the coiled-coil domain, linker domain, and SH2 domain. They identify conformational changes in the pY+3 pocket, propose a specific allosteric pathway, and suggest this mechanism may generalize to other STAT3 effectors.
+- **Visible evidence base** MD simulation trajectories (six replicas of 600 ns per system, 3 μs total per system), PCA of SH2 pocket residue pair distances, Markov state modeling with PCCA clustering into five macro-states, conserved Cα pair distance analysis, REDAN analysis, differential hydrogen bond analysis, RMSD and RMSF analyses, and structural inspection of representative macro-state conformations.
+- **Missing materials affecting confidence** No experimental validation data (e.g., mutagenesis, binding assays) are presented. No convergence assessment beyond RMSD and implied timescale plots. No error analysis for REDAN pathway identification. No explicit comparison of simulation results to the experimentally characterized D170A phenotype beyond qualitative reference to prior work. No coordinates or trajectories provided for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question: how does a distal mutation in the coiled-coil domain of STAT3 allosterically regulate the SH2 domain? The authors employ a reasonable combination of MD simulation and analysis techniques, and the identification of a rigid core connecting CCD to SH2 is a plausible and mechanistically interesting proposal. However, the evidence presented is largely correlative and derived from a single simulation setup. The central claim that a specific allosteric pathway is mediated by a rigid core is not fully established from the data shown, and several technical aspects require clarification or additional analysis. The manuscript is clearly written and the figures are generally informative, but the strength of the conclusions exceeds the current evidence base.
+- **Who would be interested in the results, and why** Researchers studying STAT3 biology, allosteric regulation in multi-domain proteins, and computational approaches to allostery. The proposed rigid-core mechanism could inform drug discovery efforts targeting the CCD of STAT3, and the methodological combination of MSM, REDAN, and hydrogen bond analysis may be of interest to computational biophysicists.
+- **Major Strengths**
+  - The question is biologically and clinically relevant, and the choice of D170A as a model for allosteric perturbation is well justified by prior experimental data.
+  - The combination of multiple analysis techniques (PCA, MSM, REDAN, hydrogen bond analysis) is thoughtful and provides complementary perspectives on the simulation data.
+  - The identification of a rigid core with conserved interdomain interactions is a concrete and testable hypothesis.
+  - The authors are appropriately cautious in noting that the D170A mechanism may not fully represent effector binding, and they acknowledge limitations in sampling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the D170A variant explores distinct conformational states of the SH2 pY+3 pocket that correlate with reduced binding affinity, and that these states are kinetically metastable (macro-states 0, 1, 3).
+  - **Evidence pointer** Results section "Conformational differences in the pY+3 binding pocket...", Fig 2, Fig 2H, Fig 2I
+  - **Concern** The assignment of functional significance to the five macro-states is not sufficiently justified. The authors state that macro-states 0, 1, and 3 are uniquely explored by D170A, but the occupancies shown in Fig 2I are not quantified with uncertainties. Given that only six replicas per system were run, the statistical confidence in state occupancies and the distinction between "shared" and "unique" states is unclear. Furthermore, the relationship between the PCA-based clustering and the actual binding pocket conformation (open vs. closed) is not directly demonstrated. The authors infer functional relevance from structural clustering, but no direct measure of pocket accessibility or ligand binding competence is provided.
+  - **Why it matters** The central conclusion that D170A alters SH2 function via specific conformational states depends on the reliability of the state assignment and occupancy estimates. Without statistical rigor, the claim that D170A explores unique states could be an artifact of limited sampling.
+  - **Resolution test** Provide occupancy estimates with error bars (e.g., via bootstrapping across replicas). Show representative structures of each macro-state with the pY+3 pocket explicitly highlighted, and quantify pocket volume or accessibility. If possible, perform additional independent simulations to confirm the uniqueness of D170A states.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose a specific allosteric pathway from D170A through a rigid core (α3, α20, α21, α24, α26, α32, α33) to the SH2 pY+3 pocket, identified via REDAN analysis.
+  - **Evidence pointer** Results section "REDAN", Fig 4A, 4B, 4C
+  - **Concern** The REDAN analysis identifies a single shortest path from D170A to Y657, but the statistical significance of this path is not established. REDAN produces a weighted network, and the shortest path is one of many possible routes. The authors do not report whether the identified path is robust to variations in the network construction (e.g., cutoff for edge inclusion, choice of distance threshold). Additionally, the path is presented as a linear sequence of residues, but the actual allosteric communication likely involves a network of parallel and redundant interactions. The authors do not discuss alternative paths or the robustness of the identified pathway.
+  - **Why it matters** The proposed pathway is a key mechanistic claim. If the path is not robust or is one of many equivalent routes, the specific mechanism proposed may be overinterpreted.
+  - **Resolution test** Perform a sensitivity analysis of the REDAN network (e.g., vary the distance cutoff, use alternative path-finding algorithms, or compute a distribution of path weights). Report whether the identified path is consistently the shortest across reasonable parameter choices. Consider reporting a set of top-ranked paths rather than a single one.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the rigid-core mechanism may generalize to other STAT3 effectors and that the D170A mechanism "will at least help to guide the search for allosteric mechanisms of alternate effectors."
+  - **Evidence pointer** Introduction, Discussion
+  - **Concern** The generalization claim is speculative and not supported by data in this manuscript. The authors do not test any other effector or mutation, and the D170A mechanism may be specific to this particular perturbation. While the authors acknowledge this limitation, the framing in the Discussion implies broader relevance without providing evidence.
+  - **Why it matters** Overstating the generalizability of the findings could mislead readers into assuming the mechanism applies to other systems without validation.
+  - **Resolution test** Either temper the language to clearly state that generalization is a hypothesis requiring future testing, or provide additional simulations or analysis of other STAT3 variants or effector-bound states to support the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the trajectories explored show distinctive conformational changes in the SH2 domain for the D170A variant, indicating long range allosteric effects."
+  - **Evidence pointer** Results section, Fig 2, S8 Fig
+  - **Concern** The RMSF analysis (S8 Fig) reportedly shows high variability between replicas, which the authors attribute to long transition timescales. However, this variability also raises concerns about convergence. The authors do not provide a quantitative convergence assessment (e.g., block averaging, split-half analysis, or comparison of independent runs). Without such an assessment, it is difficult to determine whether the observed differences between wild-type and D170A are due to genuine allosteric effects or insufficient sampling.
+  - **Why it matters** The validity of all conclusions depends on the simulations being adequately converged. If the simulations are not converged, the observed differences may be sampling artifacts.
+  - **Resolution test** Provide a quantitative convergence analysis, such as calculating the autocorrelation time of key order parameters, performing a split-half analysis of the combined trajectories, or showing that the free energy surface of the SH2 pocket is stable across increasing simulation time.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes familiarity with STAT3 domain architecture and signaling. A brief schematic or more explicit description of the domain layout and the role of each domain in the activation cycle would improve accessibility.
+  - **Required correction** Add a sentence or a simple figure panel describing the domain organization of STAT3 and the functional role of CCD, SH2, and the linker domain.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Molecular dynamics simulation"
+  - **Evidence pointer** Methods section
+  - **Issue** The choice of NVT ensemble for the production runs is unusual; most MD simulations of proteins use NPT. The authors justify this by citing stability, but the pressure coupling conditions during the equilibration and production phases are not fully described.
+  - **Required correction** Clarify the rationale for NVT production runs and describe the pressure coupling scheme used during equilibration. If NVT was used for production, state whether the volume was fixed to the average equilibrium value from NPT.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Initial structure"
+  - **Evidence pointer** Methods section
+  - **Issue** The protonation states of histidine residues were assigned using H++, but the specific histidine residues and their assigned states are not listed. This is relevant for reproducibility.
+  - **Required correction** Provide a table or list of histidine residues and their assigned protonation states.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The statement that the methods "should allow for identification of other potential effectors targeting CCD" is overly broad. The methods are specific to this system and may not transfer directly to other proteins.
+  - **Required correction** Rephrase to indicate that the approach could be adapted to other systems with appropriate modifications.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "REDAN"
+  - **Evidence pointer** Results section, REDAN subsection
+  - **Issue** The REDAN methodology is described briefly, and the interpretation of the path in Fig 4 is not immediately clear to a reader unfamiliar with the method.
+  - **Required correction** Add a brief explanation of what REDAN computes and how to interpret the path in Fig 4, or refer the reader to the original method paper with a one-sentence summary.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Hydrogen bond network"
+  - **Evidence pointer** Results section, Hydrogen bond network subsection, Fig 5, Fig 6
+  - **Issue** The differential hydrogen bond analysis compares macro-states, but the statistical significance of the differences in hydrogen bond occupancy is not reported.
+  - **Required correction** Provide error estimates or statistical tests for the hydrogen bond occupancy differences, or state that the differences are qualitative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical confidence in macro-state occupancies), R1-M2 (robustness of REDAN pathway), R1-M4 (simulation convergence).
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its specific focus on the D170A variant and the rigid-core hypothesis, though the general concept of allosteric regulation via rigid domains is not new. The combination of techniques is not entirely novel but is applied to a new system.
+  - **Scientific importance** The question is important for understanding STAT3 regulation and for drug design. However, the current evidence is largely computational and correlative, and the importance would be significantly enhanced by experimental validation or by providing a more definitive mechanistic model.
+  - **Interdisciplinary readership** The topic is of interest to structural biologists, computational biophysicists, and cancer biologists. The manuscript is written in a way that is largely accessible to these groups, though some methods (REDAN, PCCA) may require background reading.
+  - **Technical soundness** The simulation setup is reasonable, but the analysis lacks statistical rigor in several key areas (macro-state occupancy, REDAN path robustness, convergence). These issues need to be addressed before the conclusions can be considered robust.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the introduction and some methods sections assume familiarity with STAT3 biology and advanced computational techniques. A brief domain schematic and a short explanation of REDAN would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the computational approach is appropriate, but the current evidence does not fully establish the proposed allosteric mechanism. Addressing the statistical and convergence issues, and tempering the generalization claims, would make the case much stronger.
+
+## Risk / unsupported claims
+- The claim that the D170A variant explores "distinct novel conformations" of the SH2 pY+3 pocket is not supported with statistical confidence intervals.
+- The specific allosteric pathway identified by REDAN is presented as definitive, but its robustness is not demonstrated.
+- The generalization of the rigid-core mechanism to other STAT3 effectors is speculative and not tested.
+- The statement that "the trajectories explored show distinctive conformational changes... indicating long range allosteric effects" is weakened by the lack of convergence analysis.
+- The claim that the D170A mechanism "will at least help to guide the search for allosteric mechanisms of alternate effectors" is a reasonable hypothesis but is not supported by data in this manuscript.

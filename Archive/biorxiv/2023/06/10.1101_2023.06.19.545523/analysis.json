@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.19.545523",
+  "title": "KaScape: A sequencing-based method for global characterization of protein-DNA binding affinity",
+  "authors": "Hong Chen; Yongping Xu; Jianshi Jin; Xiao-dong Su",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-19",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了基于随机寡核苷酸库和测序的KaScape方法，用于全面表征转录因子与所有可能DNA序列的结合亲和力，属于广义蛋白-DNA互作研究，但方法为实验测序而非AI或物理模拟，故得5分。",
+  "abstract": "It is difficult to exhaustively screen all possible DNA binding sequences for a given transcription factor (TF). Here, we develop a method named “KaScape”, by which, TFs bind to all possible DNA sequences in the same DNA pool where the DNA sequences are prepared by randomized oligo synthesis and the random length can be adjusted to, e.g., 4, 5, 6, or 7, etc. After separating the bound from unbound double-strand DNA, their sequences are determined by next-generation sequencing. To demonstrate the relative binding affinities of all possible DNA sequences determined by KaScape, we develop a three-dimensional KaScape viewing software based on a K-mer graph. We apply KaScape to 12 plant TF family At WRKY proteins and find that all At WRKY proteins bind to the core sequence GAC with similar profiles. KaScape not only can detect binding sequences that are consistent with the consensus W-box “TTGAC(C/T)”, but also other sequences with weak affinity. KaScape provides a high-throughput, easy-to-operate, sensitive, and exhaustive method to quantitatively characterize the relative binding strength of a TF to all possible binding sequences, allowing us to comprehensively characterize the specificity and affinity landscape of transcription factors, particularly for moderate and low affinity binding sites. Highlights A general method, KaScape, using NGS (next-generation sequencing) with a series of random dsDNA for exhaustive characterization of protein-DNA binding. A K-mer-based analysis and display software tool KGViewer developed to analyze the relative affinity landscape of KaScape results.",
+  "abstract_zh": "对于给定的转录因子（transcription factor, TF），穷尽筛选所有可能的DNA结合序列是困难的。在此，我们开发了一种名为“KaScape”的方法，通过该方法，TF能够与同一DNA池中的所有可能DNA序列结合，其中DNA序列通过随机寡核苷酸合成制备，随机长度可调整至例如4、5、6或7等。在将结合的与未结合的双链DNA分离后，其序列通过下一代测序（next-generation sequencing）确定。为了展示KaScape测定的所有可能DNA序列的相对结合亲和力，我们开发了一种基于K-mer图的三维KaScape查看软件。我们将KaScape应用于12个植物TF家族At WRKY蛋白，并发现所有At WRKY蛋白以相似的谱图结合核心序列GAC。KaScape不仅能检测与共识W-box“TTGAC(C/T)”一致的结合序列，还能检测其他弱亲和力序列。KaScape提供了一种高通量、易操作、灵敏且详尽的方法，用于定量表征TF对所有可能结合序列的相对结合强度，使我们能够全面表征转录因子的特异性和亲和力景观，特别是对于中等和低亲和力结合位点。亮点：一种通用方法KaScape，利用NGS（下一代测序）结合一系列随机双链DNA，用于详尽表征蛋白质-DNA结合。开发了基于K-mer的分析和显示软件工具KGViewer，用于分析KaScape结果的相对亲和力景观。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.19.545523",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.19.545523",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.19.545523/index.html"
+}

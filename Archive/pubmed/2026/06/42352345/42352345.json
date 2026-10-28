@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "42352345",
+    "doi": "10.3390/biom16060879",
+    "title": "TF-GateNet: An Interpretable and Biologically Guided Framework for Primary-Metastatic State Prediction from Somatic Genomic Alterations."
+  },
+  "content": {
+    "abstract": "Metastasis remains a major cause of cancer mortality, making reliable primary-metastatic state prediction from somatic genomic alterations clinically important yet technically difficult. We present TF-GateNet, a biologically constrained neural network that combines TF-aware feature integration based on TRRUST and DoRothEA TF-gene regulatory priors with sample-specific dynamic gating on a Reactome-defined hierarchical sparse backbone. The model was evaluated on multi-center prostate and breast-cancer cohorts using mutation and copy-number features across 10 repeated runs on a fixed 80/10/10 split, together with independent prostate external validation, and was compared with biologically informed neural-network baselines (P-NET, BKGNet-Pathway, and BKGNet-Protein), a dense feed-forward neural network (FNN), and conventional machine-learning baselines (LR, SVM, RF, DT, and XGBoost). On prostate, TF-GateNet achieved the best internal performance (AUROC 0.954 +/- 0.005; AUPRC 0.925 +/- 0.007) and the best combined external performance (AUROC 0.952 +/- 0.009; AUPRC 0.898 +/- 0.018). On breast, TF-GateNet achieved the strongest internal ranking performance, reaching AUROC 0.893 +/- 0.004 and AUPRC 0.835 +/- 0.006. Ablation analysis indicated that TF-aware integration accounted for the larger prostate gain, whereas within the TF-GateNet family on breast, both TF-aware integration and dynamic gating contributed positively. Interpretability analysis further supported a cross-level route from TF-related genomic perturbation cues to genes, pathways, and phenotype-associated predictions. These results position TF-GateNet as a biologically grounded and interpretable framework for primary-metastatic state prediction, with the strongest overall evidence in prostate cancer and favorable internal evidence in breast cancer.",
+    "keywords": [
+      "biological priors",
+      "cancer genomics",
+      "interpretable deep learning",
+      "metastasis prediction",
+      "pathway-informed modeling",
+      "prostate cancer",
+      "transcription factor regulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Prostatic Neoplasms/genetics/pathology",
+      "*Breast Neoplasms/genetics/pathology",
+      "Male",
+      "*Genomics/methods",
+      "Mutation",
+      "Female",
+      "Neoplasm Metastasis/genetics",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Hao",
+        "Guo, Wenjia",
+        "He, Liang"
+      ],
+      "short_names": [
+        "Zhou H",
+        "Guo W",
+        "He L"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-3639-327X",
+        "ORCID: 0000-0003-4076-7479"
+      ],
+      "affiliations": [
+        "School of Computer Science and Technology, Xinjiang University, Urumqi 830017, China.",
+        "Cancer Institute, Affiliated Cancer Hospital of Xinjiang Medical University, Urumqi 830017, China.",
+        "School of Computer Science and Technology, Xinjiang University, Urumqi 830017, China.",
+        "School of Intelligence Science and Technology, Xinjiang University, Urumqi 830017, China.",
+        "Xinjiang Multimodal Information Technology Engineering Research Center, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Signal Detection and Processing, Urumqi 830017, China.",
+        "Department of Electronic Engineering, Beijing National Research Center for Information Science and Technology, Tsinghua University, Beijing 100084, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Hao",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0009-0004-3639-327X"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Xinjiang University, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Wenjia",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Institute, Affiliated Cancer Hospital of Xinjiang Medical University, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "He, Liang",
+        "short_name": "He L",
+        "identifiers": [
+          "0000-0003-4076-7479"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Xinjiang University, Urumqi 830017, China.",
+          "School of Intelligence Science and Technology, Xinjiang University, Urumqi 830017, China.",
+          "Xinjiang Multimodal Information Technology Engineering Research Center, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Signal Detection and Processing, Urumqi 830017, China.",
+          "Department of Electronic Engineering, Beijing National Research Center for Information Science and Technology, Tsinghua University, Beijing 100084, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2026 Jun 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 16:10",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41381442",
+      "41327461",
+      "39900922",
+      "39363244",
+      "39293804",
+      "39013885",
+      "38889685",
+      "38539231",
+      "38216661",
+      "37941124",
+      "37816807",
+      "37189058",
+      "36124954",
+      "35603010",
+      "34887545",
+      "34837041",
+      "34729476",
+      "34579788",
+      "34552244",
+      "34551707",
+      "34535759",
+      "34103512",
+      "33442008",
+      "33096023",
+      "31865908",
+      "31340985",
+      "30558539",
+      "29505029",
+      "29087512",
+      "28572459",
+      "25738806",
+      "23550210",
+      "21376230",
+      "17110329"
+    ],
+    "similar": [
+      "42352345",
+      "42475469",
+      "42040620",
+      "42529052",
+      "41109149",
+      "39509309",
+      "25952970",
+      "34552244",
+      "41606475",
+      "42579872",
+      "42352485",
+      "40095726",
+      "40565055",
+      "39254651",
+      "41518989",
+      "41850346",
+      "29328377",
+      "42368786",
+      "42251269",
+      "42449777",
+      "34157173",
+      "41529257",
+      "41518523",
+      "42589294",
+      "41354463",
+      "42098607",
+      "25466945",
+      "20673354",
+      "42352887",
+      "42344510",
+      "42204546",
+      "33706810",
+      "21147910",
+      "41820759",
+      "32819446",
+      "41350831",
+      "42561153",
+      "32998692",
+      "40596255",
+      "41470239",
+      "31118521",
+      "40361143",
+      "42456085",
+      "40563037",
+      "16602698",
+      "21992556",
+      "41408184",
+      "42508236",
+      "38724920",
+      "41973703",
+      "27497790",
+      "41292768",
+      "33059724",
+      "40652757",
+      "42090444",
+      "37530887",
+      "41749823",
+      "41761059",
+      "40262081",
+      "33962648",
+      "41050338",
+      "32665124",
+      "40297177",
+      "41309738",
+      "41633888",
+      "41881288",
+      "38904542",
+      "23826159",
+      "38182487",
+      "37003878",
+      "42247370",
+      "28005952",
+      "41456225",
+      "32220973",
+      "41242993",
+      "41042660",
+      "42490932",
+      "42398561",
+      "39002319",
+      "42374435",
+      "38937754",
+      "27312051",
+      "42249366",
+      "41843889",
+      "42040897",
+      "38872062",
+      "39708562",
+      "37370113",
+      "30181068",
+      "40555637",
+      "41671586",
+      "35209950",
+      "32759821",
+      "40073651",
+      "31195961",
+      "32444848",
+      "29295717",
+      "31865908",
+      "41606056",
+      "32463822"
+    ],
+    "review": [
+      "42352345",
+      "41470239"
+    ],
+    "pmc": [
+      "13296772"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom16060879",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42352345/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

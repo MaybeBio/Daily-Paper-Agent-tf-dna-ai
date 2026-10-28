@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, or supplementary materials provided
+- **Shared manuscript claim summary** The study uses AlphaFold to predict the structure of human TLR9 and its complexes with agonistic and antagonistic CpG DNA, and reports that ligand binding to the N-terminal LRR domain induces a change in the orientation of the C-terminal TIR domain, possibly via bending of the transmembrane region. The predicted TIR domain is reported to resemble the human TLR1 crystal structure.
+- **Visible evidence base** Abstract text only; no structural models, confidence metrics, or comparative analyses are available for inspection
+- **Missing materials affecting confidence** Full manuscript, AlphaFold prediction outputs (including per-residue confidence scores and predicted aligned error), structural alignments, experimental validation data, and methodological details for complex construction
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational observation regarding conformational coupling between ligand binding and TIR domain orientation in TLR9. However, the evidence base is limited to a brief summary, and the central claim of ligand-induced TIR reorientation is not supported by any quantitative or comparative data visible in the abstract. The reliance on AlphaFold predictions without experimental validation or detailed confidence assessment weakens the current case. The study may be of interest to structural immunologists, but the findings as presented are preliminary and require substantial additional evidence to be convincing.
+- **Who would be interested in the results, and why** Structural biologists and immunologists studying Toll-like receptor signaling mechanisms, particularly those interested in the conformational dynamics of TIR domains and the molecular basis of TLR9 agonism versus antagonism. The potential for ligand-induced long-range conformational changes in transmembrane receptors is also relevant to researchers in membrane protein biophysics.
+- **Major strengths** The study addresses an under-explored aspect of TLR9 biology, namely the TIR domain orientation, which is functionally critical for adapter recruitment. The use of AlphaFold to predict complex structures is a modern and accessible approach. The comparison to the TLR1 TIR structure provides a useful reference point.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that binding of agonistic and antagonistic DNA molecules to the N-terminal LRR domain induced a structural change in the orientation of the TIR domain compared to the unbound TLR9 structure.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative measure of the reported orientation change, such as rotation angles, displacement vectors, or root-mean-square deviation values. Without such metrics, the claim of a "structural change in orientation" is not verifiable. Additionally, the abstract does not specify how the complexes were constructed, whether the DNA molecules were modeled with appropriate conformational constraints, or how the unbound and bound states were aligned for comparison.
+  - **Why it matters** The central conclusion of the study rests entirely on this predicted orientation change. If the change is within the expected uncertainty of AlphaFold predictions, or if it arises from artifacts in complex construction, the conclusion would be invalid. The absence of quantitative data prevents any assessment of the magnitude or significance of the proposed change.
+  - **Resolution test** Provide explicit numerical comparisons of TIR domain orientation between unbound and bound states, including rotation angles and displacement metrics, along with AlphaFold confidence scores (pLDDT and PAE) for the TIR domain in all predicted models. Show that the orientation change exceeds the prediction uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The abstract states that AlphaFold predicted the overall structure of hTLR9 with high confidence scores, including part of the TIR domain.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not report which regions of the TIR domain were predicted with high confidence and which were not. The phrase "including part of the TIR domain" suggests that some regions may have low confidence, which is critical because the orientation claim depends on the reliability of the TIR domain model. No information is given on the number of models generated, the ranking method, or the use of multiple sequence alignments.
+  - **Why it matters** AlphaFold predictions are not uniformly reliable, and the TIR domain is a membrane-proximal region that may be poorly constrained by evolutionary information. If the TIR domain is only partially modeled with high confidence, the orientation change could be an artifact of low-confidence regions.
+  - **Resolution test** Provide per-residue pLDDT scores and PAE plots for the TIR domain in all predicted structures. Clearly state which residues are modeled with high confidence and justify that the orientation comparison is based on reliably predicted regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract claims that the predicted model suggests that ligand binding causes a change in the orientation of the TIR domain, likely due to bending of the transmembrane region.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The proposed mechanism of transmembrane bending is presented as a likely explanation, but no evidence is provided to support this. The abstract does not describe any analysis of the transmembrane domain conformation, such as tilt angles, kink positions, or comparisons between unbound and bound states. The causal link between ligand binding and TIR reorientation is speculative.
+  - **Why it matters** The mechanistic claim is a key part of the study's significance. Without direct evidence for transmembrane bending, the proposed mechanism is unsupported and could mislead readers into accepting a plausible but unverified model.
+  - **Resolution test** Provide structural analysis of the transmembrane domain in unbound and bound states, including quantitative measures of bending or tilting. If such analysis is not possible, explicitly state that the mechanism is speculative and not directly predicted.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses "agonistic and antagonistic DNA molecules" without specifying the exact sequences or chemical modifications. CpG DNA agonists and antagonists can differ in backbone chemistry or sequence context, which may affect binding modes.
+  - **Required correction** Specify the DNA sequences and any modifications used in the predictions, or state that the sequences are provided in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to experimental data
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions that the TIR domain resembles the TLR1 crystal structure, but does not state whether this comparison is quantitative or qualitative, or whether it supports the functional relevance of the predicted orientation.
+  - **Required correction** Provide a brief description of the comparison method (e.g., structural alignment RMSD) and state whether the similarity is consistent with known TLR signaling mechanisms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not mention the version of AlphaFold used, the input sequence boundaries, or whether the transmembrane domain was included in the prediction. These details are essential for reproducibility.
+  - **Required correction** Include the AlphaFold version, sequence construct details, and any post-processing steps in the full methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative orientation metrics), R1-M2 (insufficient confidence reporting), R1-M3 (unsupported mechanistic claim)
+- **Assessment against Nature-style criteria** Originality: The focus on TIR domain orientation in TLR9 is a relatively novel angle, but the use of AlphaFold for such predictions is becoming routine, and the abstract does not demonstrate a unique methodological advance. Scientific importance: If validated, the finding could inform understanding of TLR9 signaling and potentially guide therapeutic design, but the current evidence is too preliminary to establish importance. Interdisciplinary readership: The topic is primarily of interest to structural biologists and immunologists; the abstract does not frame the work for a broader audience. Technical soundness: The abstract provides insufficient technical detail to assess soundness, particularly regarding prediction confidence and complex construction. Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with TLR9 domain architecture and AlphaFold; the mechanistic claim is presented without adequate context.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A revised manuscript with detailed confidence metrics, quantitative orientation comparisons, and explicit treatment of the proposed mechanism could change this assessment.
+
+## Risk / unsupported claims
+- The claim that ligand binding induces a structural change in TIR domain orientation is unsupported by quantitative data in the abstract.
+- The claim that the orientation change is "likely due to bending of the transmembrane region" is speculative and not evidenced.
+- The claim that AlphaFold predicted the structure with "high confidence scores" is not verifiable without per-residue confidence data.
+- The similarity of the predicted TIR domain to the TLR1 crystal structure is stated without quantitative comparison.
+- The functional implications of the predicted orientation change for signaling are not addressed and cannot be assessed.

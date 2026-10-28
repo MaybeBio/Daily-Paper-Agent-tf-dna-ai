@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "42555666",
+    "doi": "10.1371/journal.pcbi.1014639",
+    "title": "Motif-Cluster: Motif driven prioritization of transcription factor binding clusters."
+  },
+  "content": {
+    "abstract": "Genome-wide analyses of transcription factor (TF) motif binding sites have largely emphasized individual high-affinity sites, while overlooking the regulatory importance of locally repetitive motif clusters. Such clusters, including combinations of weak and strong binding sites, can collectively enhance TF occupancy and regulatory activity. Here we present Motif-Cluster, an open-source framework for motif-driven prioritization and visualization of TF binding clusters using sequence information alone. Motif-Cluster integrates a density-based clustering strategy with flexible modeling of binding-site gaps and affinity signals, enabling the identification and ranking of candidate regulatory regions without requiring experimental binding data. Through simulations and multiple real-data analyses, we show that combining gap distributions with binding affinity effectively balances cluster size and signal strength while reducing noise from weak sites. Application to ZNF410 successfully recovers the previously characterized binding clusters in the CHD4 promoter, which are conserved between human and mouse. Additional case studies involving PHB1, TWIST1, and EGR1 further demonstrate the general applicability of the method across diverse transcription factors. Motif-Cluster also provides intuitive visualization and reproducible workflows to facilitate interpretation of spatially dense motif patterns. Overall, Motif-Cluster offers a robust and flexible approach for prioritizing transcription factor regulatory regions from genome-wide motif scans, enabling biological discovery and guiding experimental design, particularly in settings where direct genome-wide binding assays are unavailable.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics/chemistry",
+      "Binding Sites/genetics",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Nucleotide Motifs/genetics",
+      "*Computational Biology/methods",
+      "Protein Binding",
+      "Cluster Analysis",
+      "Clustering Algorithms",
+      "Promoter Regions, Genetic",
+      "Early Growth Response Protein 1/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Mengyuan",
+        "Yao, Qiuming"
+      ],
+      "short_names": [
+        "Zhou M",
+        "Yao Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9974-8788"
+      ],
+      "affiliations": [
+        "School of Computing, University of Nebraska-Lincoln, Lincoln, Nebraska, United States of America.",
+        "School of Computing, University of Nebraska-Lincoln, Lincoln, Nebraska, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Mengyuan",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, University of Nebraska-Lincoln, Lincoln, Nebraska, United States of America."
+        ]
+      },
+      {
+        "full_name": "Yao, Qiuming",
+        "short_name": "Yao Q",
+        "identifiers": [
+          "0000-0001-9974-8788"
+        ],
+        "affiliations": [
+          "School of Computing, University of Nebraska-Lincoln, Lincoln, Nebraska, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/05 18:38",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40903577",
+      "40020686",
+      "37563719",
+      "35650523",
+      "35618416",
+      "34647658",
+      "34425241",
+      "33859416",
+      "33532840",
+      "33301730",
+      "32814038",
+      "32665357",
+      "32413318",
+      "32324215",
+      "31283382",
+      "31253978",
+      "31232687",
+      "31001412",
+      "30716072",
+      "30010713",
+      "29579165",
+      "29514181",
+      "29140473",
+      "29140464",
+      "27924024",
+      "27789702",
+      "27259154",
+      "26901046",
+      "26704599",
+      "25957350",
+      "24810143",
+      "23508969",
+      "23118738",
+      "22955828",
+      "22495751",
+      "22371084",
+      "21949271",
+      "21934668",
+      "21330290",
+      "20110278",
+      "16845069",
+      "15855248",
+      "15215379",
+      "12824389",
+      "12398796",
+      "11805330"
+    ],
+    "similar": [
+      "42555666",
+      "42475469",
+      "35240993",
+      "29325176",
+      "22534400",
+      "16362910",
+      "20363979",
+      "28591841",
+      "23272209",
+      "28849563",
+      "19956545",
+      "27576892",
+      "29267972",
+      "24564945",
+      "26016777",
+      "19583839",
+      "26160164",
+      "28865451",
+      "18463706",
+      "21347314",
+      "38654130",
+      "29187152",
+      "34486522",
+      "23209563",
+      "21931670",
+      "15723697",
+      "27567672",
+      "15345045",
+      "22955990",
+      "17498291",
+      "21030733",
+      "38844976",
+      "25268582",
+      "29363433",
+      "16643658",
+      "17953763",
+      "21821017",
+      "24927817",
+      "23181585",
+      "9697188",
+      "24042128",
+      "27507169",
+      "25627106",
+      "23323883",
+      "23865838",
+      "42026468",
+      "20079828",
+      "26476779",
+      "20838582",
+      "26291518",
+      "41159612",
+      "24324603",
+      "16477324",
+      "38940155",
+      "23681125",
+      "40158221",
+      "19106114",
+      "24564939",
+      "25179504",
+      "12054769",
+      "30133315",
+      "22912568",
+      "15166027",
+      "15053842",
+      "23896648",
+      "28753602",
+      "27993786",
+      "19615102",
+      "27322759",
+      "17500587",
+      "28137873",
+      "15799782",
+      "23368633",
+      "23555204",
+      "18426580",
+      "28359978",
+      "41203846",
+      "34755879",
+      "15290780",
+      "20360861",
+      "22852874",
+      "27899659",
+      "23365625",
+      "16873495",
+      "20870645",
+      "23403033",
+      "34953471",
+      "24098147",
+      "26394619",
+      "28718849",
+      "12760745",
+      "41801512",
+      "11997350",
+      "31372637",
+      "22431737",
+      "31053165",
+      "27557775",
+      "20096096",
+      "33975951",
+      "22955984"
+    ],
+    "review": [
+      "42555666",
+      "16643658"
+    ],
+    "pmc": [
+      "13466046"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1014639",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42555666/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

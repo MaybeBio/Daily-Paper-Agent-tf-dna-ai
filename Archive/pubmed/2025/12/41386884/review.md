@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and references cited within the text.
+- **Assessment boundary** Scientific validity, methodological rigor, clarity of claims, and alignment of evidence with conclusions. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors present DeepBovC2H2-ZF, a deep learning framework combining CNN, residual connections, BiLSTM, and self-attention for classifying C2H2 zinc finger transcription factors in Bovidae. They report high performance metrics across multiple model variants, validate predictions using an independent dataset, and further support a representative prediction (KLF4) through molecular docking and molecular dynamics simulations.
+- **Visible evidence base** Model performance metrics (accuracy, precision, recall, F1, AUC), confusion matrices, ROC and precision-recall curves, training/validation loss and accuracy curves, HADDOCK docking scores and interaction tables, MM/GBSA energy decomposition, MD simulation trajectory analyses (RMSD, Rg, hydrogen bonds), and structural superimposition figures.
+- **Missing materials affecting confidence** Supplementary figures and datasets referenced but not provided. No code repository, hyperparameter details, or full training configuration. No sequence-level data or dataset composition details beyond counts. No statistical comparison against existing tools on the same benchmark. No details on the independent dataset composition or source.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in livestock genomics, namely the identification of C2H2 zinc finger transcription factors in Bovidae. The deep learning architecture is reasonable and the reported performance is high. However, several methodological gaps and potential inconsistencies in the reported results prevent full confidence in the claims. The molecular dynamics validation is presented as supporting evidence, but the connection between the computational prediction and the biological relevance of the specific KLF4 example is not rigorously established. The manuscript would benefit from clearer reporting of dataset construction, model selection, and statistical rigor.
+- **Who would be interested in the results, and why** Researchers in livestock genomics, transcriptional regulation, and computational biology. The framework could be of interest to those working on functional annotation of non-model organisms and to developers of sequence-based deep learning classifiers. The integration of MD validation may appeal to structural biologists interested in transcription factor DNA-binding mechanisms.
+- **Major strengths**
+  - The problem is well motivated and relevant to an under-served area (Bovidae-specific resources).
+  - The model architecture is modern and incorporates multiple complementary mechanisms (CNN, residual connections, BiLSTM, attention).
+  - The use of an independent dataset for validation is commendable.
+  - The inclusion of molecular docking and MD simulations adds a layer of biological validation beyond pure sequence classification.
+  - The manuscript is generally clearly written and the figures are informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset and benchmark validity
+  - **Claim pointer** The model was trained on a curated dataset of validated C2H2-ZF and non-C2H2-ZF TFs derived from multiple Bovidae species, and achieved high accuracy, sensitivity, and specificity, significantly outperforming traditional machine learning models.
+  - **Evidence pointer** Methods, Data collection for the prediction model; Results, Model development
+  - **Concern** The dataset construction is described only in terms of counts (1,837 positive, 3,809 negative). No details are given on how the negative set was selected, whether sequences were filtered for redundancy, how sequence length distribution was handled, or whether the positive set includes full-length proteins or only zinc finger domains. The negative set is described as "non-C2H2 zinc finger proteins," which is ambiguous: does this mean other zinc finger types, or all other proteins? This ambiguity affects the interpretability of the classification task. Furthermore, the independent dataset of 53 sequences is not described at all in terms of source, composition, or how it differs from the training data.
+  - **Why it matters** Without clarity on dataset composition and construction, the reported performance metrics cannot be interpreted. If the negative set is trivially easy to distinguish, the high accuracy may not reflect real-world utility. The independent dataset is critical for generalization claims, and its lack of description undermines the validity of those claims.
+  - **Resolution test** Provide a detailed description of dataset construction, including source databases, filtering criteria, redundancy removal, and sequence length statistics. Describe the composition of the independent dataset, including species, sequence sources, and how it was ensured to be non-overlapping with training data. Consider reporting performance stratified by sequence length or domain architecture.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Baseline comparison and statistical significance
+  - **Claim pointer** The model significantly outperformed traditional machine learning models.
+  - **Evidence pointer** Results, Model development; Discussion, Table 6
+  - **Concern** The claim of outperforming traditional machine learning models is not supported by any direct comparison in the results. Table 6 lists existing tools but does not provide a quantitative comparison on the same dataset. No baseline models (e.g., SVM, random forest, or simpler neural networks) were implemented and evaluated by the authors. The comparison to prior work is qualitative and based on published metrics from different datasets, which is not a valid basis for claiming superiority.
+  - **Why it matters** The central claim of the paper is that the proposed deep learning framework is superior to existing approaches. Without a direct, controlled comparison, this claim is unsupported. The reader cannot assess whether the architectural innovations provide real benefit or whether the high performance is simply due to dataset characteristics.
+  - **Resolution test** Implement and evaluate at least one or two traditional machine learning baselines (e.g., SVM with sequence features, random forest) on the same training and test splits. Report performance metrics for all models and perform statistical significance testing (e.g., McNemar's test or bootstrap confidence intervals) to support claims of superiority.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Molecular dynamics validation rigor
+  - **Claim pointer** The simulations confirmed structural stability and strong DNA-binding affinity, supporting the reliability of DeepBovC2H2-ZF for functional genomics studies in Bovidae.
+  - **Evidence pointer** Results, Molecular dynamics simulation analysis of the KLF4 protein; Results, Molecular dynamics simulation analysis of the KLF4-DNA complex; Results, Binding free energy analysis of the KLF4-DNA complex
+  - **Concern** The MD validation has several issues. First, the RMSD values reported are in units of nm², which is not standard for RMSD (should be nm). Second, the RMSD values are very high (2.0-2.9 nm²), which would indicate substantial structural deviation, yet the authors claim stability. Third, the total binding free energy of -10120.73 kcal/mol is implausibly large for a protein-DNA interaction; typical values are in the range of -10 to -100 kcal/mol. This suggests a unit error or a methodological problem. Fourth, the MM/GBSA analysis uses different force fields for the protein-only and complex systems, which is inconsistent. Finally, the choice of KLF4 as a validation case is not justified; it is unclear why this particular protein was selected and how it relates to the model's predictive utility.
+  - **Why it matters** The MD validation is presented as a key supporting pillar for the biological relevance of the predictions. If the MD results are not reliable, this pillar collapses. The implausible energy values and inconsistent units suggest a lack of rigor in the computational validation, which undermines confidence in the overall conclusions.
+  - **Resolution test** Correct the units in the RMSD analysis and report values in nm. Re-evaluate the binding free energy calculation and verify the units and methodology. Justify the choice of KLF4 as a validation case, ideally by selecting a protein with experimentally characterized DNA-binding behavior. Consider using a consistent force field for all simulations. Provide convergence checks for the MD simulations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model interpretability and biological insight
+  - **Claim pointer** The model integrates CNN layers to capture local residue-level motifs, residual connections to prevent gradient degradation, BiLSTM layers to capture sequential dependencies, and a self-attention mechanism to emphasize functionally relevant sequence regions.
+  - **Evidence pointer** Methods, Model III: residual CNN, BiLSTM, and attention mechanism
+  - **Concern** The manuscript describes the architecture but provides no analysis of what the model actually learned. There is no attention weight analysis, no motif discovery, no feature importance analysis, and no visualization of what sequence features drive classification. The claim that the self-attention mechanism emphasizes functionally relevant regions is not tested.
+  - **Why it matters** For a biological application, interpretability is crucial. If the model is to be used for functional genomics, users need to understand what features the model uses to make predictions. Without interpretability analysis, the model remains a black box, limiting its utility and the biological insights that could be derived.
+  - **Resolution test** Provide attention weight visualizations for representative sequences, identify sequence motifs that correlate with positive predictions, and compare these with known C2H2 zinc finger motifs. Consider using saliency maps or integrated gradients to identify important residues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model naming
+  - **Affected element** Model naming convention
+  - **Evidence pointer** Methods, Model I-IV
+  - **Issue** The naming of models is inconsistent. Model II is described as "Model I with k-fold" and Model IV as "Model III with k-fold", but the main results section refers to them as Model II and Model IV. This is confusing.
+  - **Required correction** Use consistent naming throughout, e.g., "CNN (Model I)", "CNN-kfold (Model II)", "Hybrid (Model III)", "Hybrid-kfold (Model IV)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting of hyperparameters
+  - **Affected element** Model training details
+  - **Evidence pointer** Methods, Model training and optimization
+  - **Issue** No hyperparameter values are reported (learning rate, batch size, number of epochs, embedding dimensions for each model, etc.). The learning rate is mentioned as 0.001 for Model III but not for others.
+  - **Required correction** Provide a table of all hyperparameters for each model to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results, Figure 1
+  - **Issue** Figure 1 is described as a flow chart but is not included in the manuscript text. It is unclear if it is a supplementary figure.
+  - **Required correction** Ensure all figures are properly referenced and included in the main text or clearly marked as supplementary.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Results, Model development
+  - **Issue** No confidence intervals or variance measures are reported for the performance metrics. It is unclear whether the reported values are from a single run or averaged over multiple runs.
+  - **Required correction** Report mean and standard deviation over multiple runs, or at least state the number of runs performed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability statement
+  - **Affected element** Data availability section
+  - **Evidence pointer** Data availability
+  - **Issue** The data availability statement says "All data has been included in manuscript" but the supplementary data files are not provided. This is contradictory.
+  - **Required correction** Clarify what data is available and where. If supplementary files exist, ensure they are accessible.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reference formatting
+  - **Affected element** References
+  - **Evidence pointer** Throughout
+  - **Issue** Some references are cited with superscript numbers (e.g., "1", "2") while others are cited with author names and years. The formatting is inconsistent.
+  - **Required correction** Use a consistent citation style throughout the manuscript.
+
+## Risk / unsupported claims
+- The claim that DeepBovC2H2-ZF "significantly outperforming traditional machine learning models" is unsupported, as no direct comparison was performed.
+- The claim that MD simulations confirmed "structural stability and strong DNA-binding affinity" is not supported by the reported data, which contains implausible energy values and unit inconsistencies.
+- The claim that the self-attention mechanism "emphasize[s] functionally relevant sequence regions" is not tested or demonstrated.
+- The generalizability of the model to other Bovidae species beyond those represented in the training data is claimed but not demonstrated.
+- The biological relevance of the KLF4 validation case is asserted but not justified with experimental evidence or literature support.

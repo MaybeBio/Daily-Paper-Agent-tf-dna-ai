@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and data availability statements.
+- **Assessment boundary** Scientific content, experimental design, data analysis, interpretation, and claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors use massively parallel reporter assays (MPRAs) across multiple library designs (long H3K27ac-defined regions, ATAC-seq peaks, and short 190 bp tiling fragments) in a panel of patient-derived melanoma cell lines to identify enhancers specific to melanocytic (MEL) and mesenchymal-like (MES) cell states. They report that most MEL-specific acetylated regions show enhancer activity in MEL lines, that active enhancers are often located within ATAC-seq peaks, that AP-1 motifs drive MES enhancer activity, and that SOX10 and MITF motifs contribute to MEL enhancer activity, with SOX10 being required for high activity levels. They also use the deep learning model DeepMEL2 to link sequence content to activity.
+- **Visible evidence base** Main text figures (Figures 1–6) and supplementary figures are referenced but not provided in the submitted material. Methods sections describe library construction, MPRA procedures, and analysis pipelines. Data availability statements reference GEO accession GSE180879 and GitHub code repositories.
+- **Missing materials affecting confidence** The actual figures, figure supplements, and source data tables are not included in the provided text. This limits verification of quantitative results, statistical analyses, and visual data supporting the claims. Supplementary files (e.g., Supplementary File 1 and 2) are referenced but not available. The DeepMEL2 model details are only partially described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and well-structured MPRA-based investigation of enhancer activity across melanoma cell states. The multi-tiered approach, combining long H3K27ac-defined regions, ATAC-seq peaks, and short tiling fragments, is thoughtful and addresses an important gap in understanding enhancer architecture. The integration of deep learning predictions with empirical activity measurements is a notable strength. However, the absence of the actual figures and supplementary data in the provided material prevents full evaluation of the quantitative claims and statistical rigor. Several conclusions, particularly regarding the role of SOX10 versus MITF and the interpretation of the synthetic enhancer experiments, would benefit from clearer presentation and additional supporting evidence.
+- **Who would be interested in the results, and why** Researchers studying gene regulation, enhancer biology, melanoma biology, and transcriptional control of cell state. The work is also relevant to those developing computational models for enhancer prediction and those interested in therapeutic targeting of cell-state-specific regulatory elements. The methodological framework for comparing long and short enhancer fragments will be of interest to the functional genomics community.
+- **Major strengths** The multi-level experimental design (long regions, ATAC-seq peaks, short tiles) is a significant strength, allowing the authors to dissect enhancer architecture at multiple resolutions. The use of a panel of seven patient-derived cell lines spanning the MEL-MES spectrum is appropriate and strengthens the generalizability of the findings. The integration of DeepMEL2 predictions with empirical MPRA data provides a powerful approach to link sequence features to function. The inclusion of both wild-type and mutant tiles for key transcription factor motifs is a rigorous approach to establish causality. The validation of key findings using luciferase assays in genomic context adds confidence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The manuscript claims specific percentages of active enhancers (e.g., 75% of MEL-specific H3K27ac regions active in MM001, 92.2% of active tiles located within ATAC-seq peaks, 15.1% of SOX10-dependent ATAC-seq peaks active) and quantitative activity measurements (log2 fold changes, correlations).
+  - **Evidence pointer** Figures 2, 3, 4, 5, and associated figure supplements; location not provided in the submitted text.
+  - **Concern** The core quantitative claims of the manuscript cannot be verified from the provided material. The figures, which contain the primary data supporting the activity measurements, statistical analyses, and comparisons, are not included. Without access to these data, it is impossible to assess the robustness of the reported percentages, effect sizes, and correlations. The statistical methods are described, but the actual distributions, variances, and sample sizes per condition are not visible.
+  - **Why it matters** The central conclusions of the paper rest on these quantitative measurements. If the figures contain errors, or if the statistical power is insufficient, the conclusions could be substantially altered. The inability to verify these data prevents a full assessment of the manuscript's validity.
+  - **Resolution test** Provide the figures and supplementary data tables for review. The quantitative claims should be re-evaluated with the actual data visible.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and causality
+  - **Claim pointer** The manuscript states that "AP-1 alone is responsible for the MES enhancer activity" and that "SOX10 and MITF both influence MEL enhancer function with SOX10 being required to achieve high levels of activity."
+  - **Evidence pointer** Results section "Key transcription factor binding sites explain melanoma enhancer activity" and "Synthetic SOX-MITF motif combinations highlight MEL enhancer regulatory grammar"; Figures 5 and 6; location not provided.
+  - **Concern** The claim that AP-1 alone is responsible for MES enhancer activity is strong. The evidence presented is based on mutation of AP-1 motifs in a limited set of enhancers and on motif enrichment analyses. It is unclear whether other transcription factors, such as TEAD, which was also tested, might contribute in a context-dependent manner. Similarly, the conclusion that SOX10 is "required" for high MEL enhancer activity is based on a limited number of tested enhancers and synthetic constructs. The interaction between SOX10 and MITF is interesting, but the mechanistic basis (direct cooperation vs. pioneer function) is not resolved.
+  - **Why it matters** These are the central mechanistic claims of the paper. Overstating the role of a single transcription factor could mislead the field. The distinction between "influencing" and "being responsible for" is important. The claim of SOX10 being "required" needs to be reconciled with the observation that some MEL enhancers may not depend on SOX10.
+  - **Resolution test** Clarify the scope of the claims. Acknowledge that the findings are based on a limited set of enhancers. Provide additional data, if available, to show whether AP-1 is sufficient for MES activity in a broader context, or temper the language to "AP-1 is a major driver" rather than "alone responsible." Similarly, for SOX10, specify that it is required for high activity in the tested set, not universally.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The manuscript uses the DeepMEL2 model to predict enhancer activity and to identify key transcription factor motifs. The authors state that DeepMEL2 predictions "closely follow tile activity" and use DeepExplainer to identify important motifs.
+  - **Evidence pointer** Results sections "Key transcription factor binding sites explain melanoma enhancer activity" and "Synthetic SOX-MITF motif combinations highlight MEL enhancer regulatory grammar"; Figures 5 and 6; location not provided.
+  - **Concern** The manuscript does not provide a clear validation of the DeepMEL2 predictions against the MPRA data beyond qualitative statements. The precision and recall values are mentioned for some topics, but the overall predictive performance of the model on the tiling library data is not systematically reported. The use of DeepExplainer to infer regulatory grammar is powerful, but the manuscript does not fully address potential limitations, such as the model's reliance on sequence context learned from ATAC-seq data, which may not fully capture the episomal MPRA context.
+  - **Why it matters** The integration of deep learning is a key selling point of the paper. If the model's predictions are not rigorously validated, the conclusions drawn from them, particularly about the importance of specific motifs, are weakened. The field needs to know how reliable the model is for this type of analysis.
+  - **Resolution test** Provide a more systematic comparison of DeepMEL2 predictions with MPRA activity across all libraries, including correlation coefficients and ROC-style analyses. Discuss the limitations of using a model trained on chromatin accessibility data to predict activity in an episomal reporter assay.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and context
+  - **Claim pointer** The manuscript concludes that "our MPRAs shed light on the relationship between long and short sequences in terms of their sequence content, enhancer activity, and specificity across melanoma cell states."
+  - **Evidence pointer** Results sections "Most MEL-specific acetylated regions harbor enhancer activity in MEL lines" and "MES-specific H3K27ac/ATAC regions are active in MES lines"; Figures 2, 3, and 4; location not provided.
+  - **Concern** The study is performed in a panel of seven cell lines, but the selection of these lines and their representation of the broader melanoma heterogeneity is not fully discussed. The authors note that MM001 and MM029 are at the extremes of the MEL-MES spectrum, but the behavior of the intermediate lines is complex. The claim of "specificity across melanoma cell states" is based on a limited number of lines. The manuscript does not address how the findings might translate to in vivo tumor contexts, where the microenvironment and 3D chromatin structure could influence enhancer activity.
+  - **Why it matters** The clinical relevance of the findings depends on their generalizability. If the enhancer activity patterns are not consistent across a wider range of melanoma lines or in vivo, the therapeutic implications are weakened.
+  - **Resolution test** Discuss the limitations of the cell line panel. If possible, reference or provide data from additional lines or in vivo models to support the generalizability of the findings. Alternatively, temper the claims to be specific to the tested cell lines.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided.
+  - **Issue** The abstract states "AP-1 alone is responsible for the MES enhancer activity." This is a strong claim that is not fully supported by the data presented in the text, as it is based on a limited set of enhancers.
+  - **Required correction** Consider rephrasing to "AP-1 is a primary driver of MES enhancer activity in the tested regions" to avoid overstatement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, MPRA analysis
+  - **Evidence pointer** Methods section "MPRA analysis", location not provided.
+  - **Issue** The description of the "basal expression normalization" using shuffled sequences is brief. It is unclear how the median of shuffled sequences was calculated and whether this was done per cell line or across all lines.
+  - **Required correction** Provide more detail on the normalization procedure, including whether it was applied per sample or globally, and how the shuffled sequences were matched to the enhancer sequences in terms of length and GC content.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Figures 2–4
+  - **Evidence pointer** Results sections describing Figures 2, 3, and 4; location not provided.
+  - **Issue** The text reports percentages of active enhancers and correlations but does not consistently report confidence intervals or measures of variability for these estimates.
+  - **Required correction** Add confidence intervals or standard errors for the reported percentages and correlation coefficients, where appropriate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided.
+  - **Issue** The discussion of the discrepancy between the activity of short tiles and longer regions is interesting but could be expanded. The authors suggest that short tiles may not capture all regulatory information, but they do not fully explore the implications for enhancer prediction and therapeutic targeting.
+  - **Required correction** Expand the discussion on the practical implications of the finding that short sequences often recapitulate enhancer activity, but not always, for the design of enhancer-based therapies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Synthetic SOX-MITF motif combinations"
+  - **Evidence pointer** Results section "Synthetic SOX-MITF motif combinations highlight MEL enhancer regulatory grammar", location not provided.
+  - **Issue** The description of the synthetic enhancer library is clear, but the interpretation of the results in terms of "regulatory grammar" is somewhat abstract. The authors could provide a more concrete model of how SOX and MITF motifs interact.
+  - **Required correction** Provide a schematic or a more explicit model summarizing the proposed regulatory grammar for MEL enhancers based on the synthetic library results.
+
+## Risk / unsupported claims
+- The claim that "AP-1 alone is responsible for the MES enhancer activity" is not fully supported by the provided evidence, as it is based on a limited number of tested enhancers and mutation experiments. The role of other factors, such as TEAD, is not fully excluded.
+- The claim that "SOX10 being required to achieve high levels of activity" for MEL enhancers is based on a limited set of enhancers and synthetic constructs. The universality of this requirement is not established.
+- The quantitative percentages of active enhancers (e.g., 75%, 92.2%, 15.1%) and correlation coefficients cannot be verified from the provided text, as the figures and source data are not included.
+- The generalizability of the findings to the broader melanoma heterogeneity or in vivo contexts is not established, as the study is limited to a panel of seven cell lines.
+- The performance of the DeepMEL2 model in predicting MPRA activity is not rigorously validated in the provided text, making the conclusions drawn from its predictions less robust.

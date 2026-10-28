@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42680659",
+  "title": "Multiparametric MRI-Based Ensemble Deep Learning for Preoperative Classification of Pituitary Neuroendocrine Tumor Subtypes.",
+  "authors": "Ndimulunde, Elizabeth Nailoke; Lin, Dao-Chen; Lin, Bing-Fong; Kao, Yu-Chieh Jill; Yen, Yu-Shu; Lu, Chia-Feng",
+  "journal": "Academic radiology",
+  "published_date": "2026-09-01",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用多参数MRI和集成深度学习对垂体神经内分泌肿瘤亚型进行术前分类，虽涉及转录因子但仅作为临床分型标记，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "RATIONALE AND OBJECTIVES: Pituitary neuroendocrine tumors (PitNETs) exhibit diverse biological behavior requiring accurate subtyping to guide treatment. Although the latest World Health Organization classification emphasizes pituitary transcription factors (PTFs) as essential subtyping markers, their assessment requires invasive surgical tissue sampling. This study aimed to develop a multiparametric magnetic resonance imaging (MRI)-based ensemble deep learning model for noninvasive preoperative PTF-based PitNET subtype classification. MATERIALS AND METHODS: This single-institution retrospective study analyzed multiparametric MRI data from 593 patients with histopathologically confirmed PitNET (2010-2020), comprising 112 with T-box pituitary transcription factor, 251 with steroidogenic factor 1 (SF1), 157 with pituitary-specific positive transcription factor 1, and 73 null subtypes. The dataset was split 80:20, with 475 patients for training and 118 for testing. Multiple MRI input combinations: T2-weighted (T2W), contrast-enhanced T1-weighted (T1C), apparent diffusion coefficient (ADC), and tumor region of interest (ROI) were evaluated to identify the highest-performing configuration. Performance was assessed using accuracy, macro-area under the receiver operating characteristic curve (macro-AUC), macro-F1 score, macro-sensitivity, and macro-specificity, with bootstrap-based pairwise comparisons reported as 95% confidence intervals (CIs). RESULTS: Among the evaluated MRI input combinations, the full multiparametric configuration (ROI+T2W+T1C+ADC) achieved the highest performance, with a test-set accuracy of 90.68% (95% CI: 84.7%-95.8%), macro-AUC of 0.966 (95% CI: 0.933-0.992), macro-F1 score of 0.871 (95% CI: 0.797-0.941), macrosensitivity of 0.886 (95% CI: 0.791-0.965), and macrospecificity of 0.986 (95% CI: 0.977-1.000). CONCLUSION: The proposed multiparametric MRI-based ensemble deep learning model achieved robust noninvasive preoperative classification of PitNET subtypes, demonstrating its potential as a clinical decision-support tool to reduce reliance on invasive surgical tissue sampling for PTF-based subtyping.",
+  "abstract_zh": "RATIONALE AND OBJECTIVES: 垂体神经内分泌肿瘤（PitNETs）表现出多样的生物学行为，需要精确的亚型分类以指导治疗。尽管最新的世界卫生组织分类强调垂体转录因子（PTFs）作为必需的亚型分类标志物，但其评估需要侵入性手术组织取样。本研究旨在开发一种基于多参数磁共振成像（MRI）的集成深度学习模型，用于非侵入性术前基于PTF的PitNET亚型分类。MATERIALS AND METHODS: 这项单机构回顾性研究分析了2010年至2020年间593例经组织病理学确诊的PitNET患者的多参数MRI数据，其中包括112例T-box垂体转录因子、251例类固醇生成因子1（SF1）、157例垂体特异性阳性转录因子1和73例空亚型。数据集按80:20比例划分，475例用于训练，118例用于测试。评估了多种MRI输入组合：T2加权（T2W）、对比增强T1加权（T1C）、表观扩散系数（ADC）和肿瘤感兴趣区域（ROI），以确定性能最佳的配置。性能通过准确率、宏平均受试者工作特征曲线下面积（macro-AUC）、宏平均F1分数、宏平均敏感性和宏平均特异性进行评估，并使用基于自助法的成对比较报告为95%置信区间（CIs）。RESULTS: 在评估的MRI输入组合中，完整的多参数配置（ROI+T2W+T1C+ADC）达到了最高性能，测试集准确率为90.68%（95% CI: 84.7%-95.8%），macro-AUC为0.966（95% CI: 0.933-0.992），宏平均F1分数为0.871（95% CI: 0.797-0.941），宏平均敏感性为0.886（95% CI: 0.791-0.965），宏平均特异性为0.986（95% CI: 0.977-1.000）。CONCLUSION: 所提出的基于多参数MRI的集成深度学习模型实现了稳健的非侵入性术前PitNET亚型分类，展示了其作为临床决策支持工具以减少对基于PTF亚型分类的侵入性手术组织取样依赖的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42680659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42680659/",
+  "paper_page_path": "papers/pubmed/42680659/index.html"
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose DeepDBS, a computational method combining deep representations (1D-CNN, RNN, LSTM) with a Random Forest classifier to identify DNA-binding sites in proteins from primary amino acid sequences. They report accuracy of 0.99 across self-consistency, 10-fold cross-validation, 5-fold cross-validation, and jackknife validation, and 0.92 for independent dataset testing, claiming superiority over existing state-of-the-art methods.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline comparisons, or numerical results beyond the stated accuracy values
+- **Missing materials affecting confidence** Full manuscript, dataset composition and preprocessing details, feature extraction specifics, model architecture and hyperparameters, baseline method descriptions, statistical significance tests, confusion matrices or other performance metrics (e.g., sensitivity, specificity, MCC, AUC), and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of deep learning combined with Random Forest for DNA-binding site prediction. However, the evidence provided is insufficient to evaluate the validity of the reported performance or the claimed superiority over existing methods. Critical methodological details and rigorous benchmarking are absent, and the reported accuracy values raise concerns about possible data leakage or overfitting that cannot be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, DNA-protein interaction prediction, and machine learning applications in genomics. Researchers developing sequence-based predictors for functional site identification would find the approach relevant, particularly those interested in hybrid deep learning and ensemble methods.
+- **Major strengths** The problem is biologically important and practically relevant. The combination of deep representations with Random Forest is a reasonable and potentially effective strategy. The use of multiple validation schemes (self-consistency, cross-validation, jackknife, independent test) indicates awareness of the need for rigorous evaluation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves accuracy of 0.99 for self-consistency, 10-fold cross-validation, 5-fold cross-validation, and jackknife validation, and 0.92 for independent dataset testing.
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The reported accuracy of 0.99 across multiple validation schemes is exceptionally high and atypical for sequence-based prediction tasks, which typically involve class imbalance and sequence redundancy. Such uniform performance across self-consistency and cross-validation suggests possible data leakage, such as homologous sequences appearing in both training and test sets, or feature construction that inadvertently incorporates target information. The abstract provides no details on dataset construction, sequence redundancy reduction, or class balance.
+  - **Why it matters** If the reported performance stems from data leakage or evaluation artifacts rather than genuine predictive capability, the method will not generalize to real-world applications. The claim of superiority over state-of-the-art methods cannot be verified without details on baseline comparisons and statistical testing.
+  - **Resolution test** Provide dataset statistics, sequence identity thresholds for redundancy removal, class distribution, and a clear description of how training and test sets were partitioned. Report additional metrics (sensitivity, specificity, MCC, AUC) and compare against at least three established methods using identical evaluation protocols, with statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** Deep representations were computed through 1D-CNN, RNN, and LSTM networks and used to train a Random Forest classifier.
+  - **Evidence pointer** Abstract, methods description (location not provided)
+  - **Concern** The abstract lacks any detail on the deep learning architecture, including the number of layers, filter sizes, embedding dimensions, training procedure, or how the deep representations were extracted and fed into the Random Forest. Without this information, the method cannot be reproduced or evaluated for technical soundness.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The absence of architectural and training details prevents independent verification and limits the utility of the proposed approach for the research community.
+  - **Resolution test** Provide a complete description of the deep learning architectures, hyperparameters, training protocols, and feature extraction procedures, either in the main text or supplementary materials, along with code availability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative validity
+  - **Claim pointer** Random Forest with LSTM-based features outperformed the other models, as well as the existing state-of-the-art methods.
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The abstract states superiority over existing methods but provides no information on which methods were compared, what datasets were used for comparison, or how the comparison was conducted. The independent dataset testing accuracy of 0.92 is reported without context regarding the difficulty of the dataset or the performance of baselines on the same data.
+  - **Why it matters** Claims of state-of-the-art performance require rigorous benchmarking against current methods on standardized datasets. Without this context, the claim of superiority is unsupported and potentially misleading.
+  - **Resolution test** List the baseline methods compared, describe the datasets used for benchmarking, and present results for all methods under identical conditions, including statistical significance testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence about biological molecule interactions is overly general and does not directly frame the specific problem addressed.
+  - **Required correction** Begin with a more focused statement on the importance of DNA-binding site prediction and the limitations of experimental methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Metric reporting
+  - **Affected element** Performance evaluation
+  - **Evidence pointer** Abstract, results section
+  - **Issue** Only accuracy is reported. For imbalanced datasets common in binding site prediction, accuracy alone is insufficient and can be misleading.
+  - **Required correction** Report sensitivity, specificity, precision, recall, F1-score, Matthews correlation coefficient, and area under the ROC curve.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The term "deep representations" is used without specifying whether these are learned embeddings, hidden layer activations, or some other form of feature representation.
+  - **Required correction** Clarify the exact nature of the deep representations and how they are derived from the networks.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (potential data leakage and insufficient evaluation metrics), R1-M2 (lack of methodological detail for reproducibility), R1-M3 (unsupported comparative claims)
+- **Assessment against Nature-style criteria** Originality: The combination of deep learning representations with Random Forest for DNA-binding site prediction is not entirely novel, as similar hybrid approaches exist in the literature, but the specific architecture may offer incremental contributions. Scientific importance: The problem is relevant, but the abstract does not demonstrate a significant advance over existing methods. Interdisciplinary readership: The work is primarily of interest to computational biologists; broader impact is not evident from the abstract. Technical soundness: Cannot be assessed from the abstract alone; the reported performance raises concerns that require full methodological transparency. Readability for nonspecialists: The abstract is generally readable but uses technical terms without sufficient explanation for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail, rigorous evaluation, or comparative context to support the claims of high accuracy and superiority over existing methods. A full manuscript review would be required to assess whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of accuracy 0.99 across multiple validation schemes is unsupported without dataset details and additional metrics.
+- The claim of outperforming existing state-of-the-art methods is unsupported without baseline comparisons and statistical testing.
+- The general statement that DeepDBS "can help accurate and efficient identification" is not substantiated by the evidence provided.
+- The effectiveness of the deep representation approach relative to simpler feature engineering methods cannot be evaluated from the abstract.

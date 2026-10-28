@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and alignment with Nature-style criteria; not copyediting or formatting
+- **Shared manuscript claim summary** The authors apply graph-theoretic concepts (Dense Spanning Trees, DST, and a novel extension, Minimum Dense Spanning Trees, MDST) to analyze the structure of a literature-derived small cell lung cancer (SCLC) transcription factor (TF) network. They identify "hubs" as structurally important nodes, show that data-weighted analysis highlights MYC as a hub, and hypothesize that pathways connecting functionally distinct hubs may control subtype transitions. They test one candidate pathway (FLI1–ASCL1–MITF) via asynchronous Boolean simulations and report a NON-NE to NE subtype transition.
+- **Visible evidence base** Main text figures (Figs 1–9), methods sections for DST/MDST optimization and simulations, references to supplementary figures and information
+- **Missing materials affecting confidence** Supplementary figures and information (referenced but not provided); full details of the genetic algorithm parameters, convergence criteria, and validation of the Boolean rules; raw RNA-seq data processing details; code availability statement not visible
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting application of network structural analysis to a clinically relevant problem in SCLC biology. The idea that graph-theoretic hubs may correspond to subtype regulators is plausible and the data-driven extension to MDST is a reasonable methodological contribution. However, the manuscript has several significant weaknesses that currently prevent the case from being fully established. The central claims are supported by descriptive observations rather than rigorous statistical or experimental validation. The simulation results, while suggestive, are based on a single pathway and lack sensitivity analyses or comparison to alternative pathways. The novelty of the DST concept in this context is not clearly positioned against existing network centrality measures. The manuscript would benefit from clearer articulation of hypotheses, quantitative benchmarks, and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in computational biology, network science, and cancer systems biology would find the methodological approach of interest. The SCLC community specifically would be interested in the identification of MYC as a hub and the proposed FLI1–ASCL1–MITF transition pathway, as these could inform experimental studies on subtype plasticity and therapeutic targeting. The general approach of combining structural network analysis with data weighting could appeal to those studying other cancer types or gene regulatory networks.
+- **Major Strengths**
+  - The manuscript addresses an important and understudied problem: the structural analysis of SCLC TF networks, which complements existing dynamical analyses.
+  - The extension of DST to MDST with data integration is a novel methodological contribution that could be broadly applicable.
+  - The authors are transparent about the network source and the assumptions made in the analysis.
+  - The simulation approach using BooleaBayes is appropriate for testing the hypothesis about pathway function.
+  - The writing is generally clear and accessible, with helpful boxed definitions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / validation
+  - **Claim pointer** The authors claim that "all the found hubs are either regulators or destabilizers of the previously identified SCLC subtypes" and that data-driven analysis "highlights MYC as a hub."
+  - **Evidence pointer** Results sections "Structural analysis of the unbiased SCLC TF network identifies some of the known SCLC subtype regulators and destabilizers" and "Data-driven structural analysis of the SCLC TF network highlights MYC as a hub"; Figs 3 and 4
+  - **Concern** The claim that hubs correspond to subtype regulators is based on qualitative comparison to previously published lists of regulators. No statistical enrichment analysis is performed to determine whether the overlap between hubs and known regulators is greater than expected by chance. The identification of MYC as a hub is presented as a single observation without quantitative criteria for what constitutes a "hub" in the MDST context or how robust this finding is to parameter choices in the optimization.
+  - **Why it matters** Without a statistical framework, the central claim of the paper is anecdotal. The reader cannot assess whether the structural analysis provides information beyond what would be obtained by random chance or by simpler centrality measures. This weakens the case that the method has predictive or explanatory value.
+  - **Resolution test** Provide a statistical test (e.g., hypergeometric test, permutation test) comparing the hub set to known regulator sets. Report the distribution of hub identities across multiple runs of the genetic algorithm with different seeds and parameter settings. Define a quantitative threshold for hub status and show that MYC exceeds this threshold robustly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / novelty
+  - **Claim pointer** The authors state that "structural analyses of complex networks can identify their functionally important components and pathways driving the network dynamics" and that the identified pathway "may control subtype transitions."
+  - **Evidence pointer** Abstract; Results section "The pathways connecting the SCLC TF network hubs may have a role in SCLC subtype transitions"; Fig 5
+  - **Concern** The simulation demonstrating NON-NE to NE transition is performed for a single pathway (FLI1–ASCL1–MITF) with no comparison to other pathways connecting the same hubs or to random pathways. The choice of this pathway is justified by prior knowledge, but the authors do not test whether other pathways would also produce transitions, which would be necessary to establish specificity. Furthermore, the simulation is purely in silico with no experimental validation or comparison to known transition dynamics in SCLC.
+  - **Why it matters** The claim that this pathway is specifically involved in subtype transitions is not supported by the evidence presented. Without controls or alternative pathway testing, the result could be a general property of the network rather than a specific feature of this pathway. The clinical relevance of the finding is therefore unclear.
+  - **Resolution test** Perform simulations with multiple pathways connecting the same hubs, with randomized pathways of similar length, and with the pathway inactivated. Report the frequency of transitions across these conditions. If possible, compare simulation outcomes to published experimental data on SCLC subtype transitions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / methodology
+  - **Claim pointer** The authors introduce MDST as an extension of DST and state that it "adds another information layer to the found trees by preserving the maximum likelihood of the interactions."
+  - **Evidence pointer** Methods section "Integrating data into the structural analysis: minimum dense spanning trees"; Eq. (2)
+  - **Concern** The multi-objective optimization in Eq. (2) combines two objectives (minimize total distance, minimize sum of weights) without specifying how the trade-off is handled. The authors do not report the relative weighting of the two objectives, the Pareto front, or how the final solution was selected. The genetic algorithm parameters (population size, mutation rate, crossover rate, number of generations) are not reported, and no convergence analysis is provided.
+  - **Why it matters** The MDST method is a central contribution of the paper, but the lack of methodological detail prevents replication and assessment of solution quality. The reader cannot determine whether the 46 MDSTs found are a complete or representative set of optimal solutions.
+  - **Resolution test** Provide full details of the multi-objective optimization approach, including the weighting scheme or Pareto-based selection method. Report genetic algorithm parameters and convergence diagnostics. Perform sensitivity analysis on the objective weights and show that hub identification is stable.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Box 1 definitions
+  - **Evidence pointer** Box 1 (referenced but not fully visible in provided text)
+  - **Issue** The definitions of DST and MDST are referenced to Box 1, but the box content is not fully provided. The concepts are central to the paper and should be clearly defined in the main text.
+  - **Required correction** Ensure Box 1 is fully included and provides intuitive explanations with simple examples.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Distance metric choice
+  - **Evidence pointer** Methods section "Distance measure between instantaneous network state and NE subtype"
+  - **Issue** The choice of LCS-based distance over other metrics (e.g., Hamming distance) is justified only briefly. The authors note that LCS is sensitive to order differences, but it is unclear why this property is desirable for comparing network states.
+  - **Required correction** Provide a brief justification for why order sensitivity is relevant to the biological question, or show that results are robust to the choice of distance metric.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions sensitivity to the given network structure but does not discuss the limitations of the Boolean modeling approach, the assumptions in the probability weights, or the potential for false positives in hub identification.
+  - **Required correction** Add a paragraph explicitly addressing limitations and potential sources of bias in the analysis.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of DST to biological networks is not entirely new, but the extension to MDST with data integration is a novel contribution. The specific focus on SCLC subtype transitions is timely.
+  - **Scientific importance** Moderate. The findings are potentially relevant to SCLC biology and therapeutic strategy, but the lack of validation limits the current importance. The methodological contribution could be important if properly validated.
+  - **Interdisciplinary readership** Moderate. The paper bridges network theory and cancer biology, which could appeal to both communities. However, the presentation is somewhat technical and may not fully engage experimental biologists.
+  - **Technical soundness** Weak. The lack of statistical validation, incomplete methodological details for the optimization, and single-pathway simulation are significant technical weaknesses.
+  - **Readability for nonspecialists** Adequate. The writing is clear, but the concepts of DST and MDST require careful reading. The boxed definitions help, but more intuitive explanations would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and a plausible methodological framework, but the central claims are not rigorously supported. Major revisions addressing the statistical validation, methodological transparency, and simulation controls are required before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that "all the found hubs are either regulators or destabilizers of the previously identified SCLC subtypes" is unsupported without statistical enrichment analysis.
+- The claim that the FLI1–ASCL1–MITF pathway "may control subtype transitions" is not established from a single simulation without controls.
+- The claim that data-driven analysis "highlights MYC as a hub" is not quantitatively defined or shown to be robust.
+- The general claim that "structural analyses of complex networks can identify their functionally important components" is presented as a conclusion but is not tested against alternative methods or null models.
+- The performance of the genetic algorithm and the optimality of the found DSTs/MDSTs are not verifiable from the provided information.

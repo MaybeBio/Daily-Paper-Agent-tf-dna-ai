@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The abstract reports that zinc finger protein (ZFP) DNA binding affinity is modulated by the amino acid linkers TGQKP (between ZF1 and ZF2) and TGEKP (between ZF2 and ZF3). Using MD simulations and MM_GB(PB)SA, the authors studied linker mutations and their effects on affinity to specific and nonspecific DNA targets. Key findings include loss of affinity upon mutation of lysine (K) in TGQKP, loss of affinity upon glycine (G) mutation, and universal loss of affinity to a nonspecific DNA target for both wild type and mutants, interpreted as supporting a model where ZF1 anchors and ZF3 explores.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological parameters are provided
+- **Missing materials affecting confidence** Full manuscript, simulation setup, force field parameters, convergence criteria, error estimates, statistical analysis, structural figures, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational study on the role of zinc finger linkers in DNA binding. However, the evidence base is severely limited by the absence of methodological detail and quantitative results. The central claims, while internally consistent, cannot be evaluated for technical soundness or statistical robustness from the supplied material. The interpretation regarding ZF1 anchoring and ZF3 exploring is presented as confirmatory but lacks direct evidence in the abstract.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein-DNA recognition, and zinc finger protein engineering would be interested. The findings could inform rational design of ZFP-based tools for gene editing or gene regulation, where linker optimization may affect binding specificity and affinity.
+- **Major strengths** The study addresses a specific and mechanistically relevant question, namely the role of linker residues in ZFP-DNA binding. The use of MD simulations with MM_GB(PB)SA is a standard and appropriate approach for estimating binding free energies. The interpretation linking linker mutations to the anchoring and exploring roles of ZF domains is conceptually interesting and connects to prior literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "mutation of K in TGQKP resulted in loss in affinity due to the loss of positive K interaction with phosphates" and that "mutation of G showed loss in affinity to DNA."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative affinity values, error bars, or statistical significance are reported. The abstract does not specify which mutations were made (e.g., to which amino acids), how many replicates were performed, or whether the observed changes exceed simulation noise. Without these data, the claim of "loss in affinity" is not substantiated.
+  - **Why it matters** MM_GB(PB)SA estimates are known to be sensitive to setup and can produce large uncertainties. Without error analysis or convergence checks, the reported affinity changes may not be meaningful, undermining the core conclusion.
+  - **Resolution test** Provide a table of computed binding free energies (with standard deviations) for wild type and each mutant, along with details on simulation length, number of independent runs, and convergence metrics. Show that the differences are statistically significant (e.g., via bootstrapping or t-tests).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that "WT protein and all linker mutants showed loss in affinity to a nonspecific DNA target, this finding confirms previous reports which interpreted this loss in affinity as due to ZF1 having an anchoring role, and ZF3 playing an explorer role in the binding mechanism."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of "confirmation" is not supported by the abstract alone. No data are shown comparing specific versus nonspecific DNA binding for each construct. The interpretation of anchoring and exploring roles is inferred from affinity changes but is not directly tested, for example by measuring per-domain contributions or by mutating ZF1 or ZF3 independently.
+  - **Why it matters** The conclusion extends beyond the reported observations and relies on an interpretive framework that is not validated in the abstract. Overstating confirmation could mislead readers about the strength of the evidence.
+  - **Resolution test** Present comparative binding free energy data for specific and nonspecific DNA targets for all constructs, and include additional simulations or analyses (e.g., per-residue decomposition, domain-specific mutations) that directly test the anchoring and exploring model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes the use of "MD simulations and MM_GB(PB)SA" but provides no methodological parameters.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No information is given on the simulation software, force field, water model, salt concentration, temperature, simulation time, or the specific MM_GB(PB)SA implementation. Without these details, the study cannot be reproduced or assessed for technical adequacy.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of these details prevents reviewers and readers from evaluating whether the methods were appropriate and correctly applied.
+  - **Resolution test** Include a full methods section in the manuscript with all relevant parameters, and ensure that the abstract or main text references this section clearly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "the type of amino acid residues and length of linkers reflect on ZF1-ZF2-ZF3 interactions" is vague and could be misinterpreted. It is unclear whether "reflect on" means "influence" or "are influenced by."
+  - **Required correction** Rephrase to explicitly state the direction of the effect, for example "the type and length of linker residues influence the interactions among ZF1, ZF2, and ZF3."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not specify which amino acid mutations were introduced (e.g., K to A, G to A) or whether multiple mutants were tested for each position.
+  - **Required correction** List the specific mutations studied, or state that a range of substitutions was tested, to allow readers to understand the scope of the work.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "loss in affinity" is used without qualification. It is unclear whether this refers to a reduction in binding free energy magnitude (i.e., less negative) or a change in dissociation constant.
+  - **Required correction** Use consistent terminology, such as "reduced binding affinity (less negative binding free energy)" or "increased dissociation constant," and define the metric used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative data and error analysis), R1-M2 (unsupported confirmatory claim), R1-M3 (insufficient methodological detail)
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of linker role in ZFP binding is not entirely new, but the specific focus on linker mutations and their differential effects on specific versus nonspecific DNA is a reasonable contribution. However, the abstract does not demonstrate a novel conceptual advance beyond prior work.
+  - Scientific importance: The topic is relevant to ZFP engineering and protein-DNA recognition, but the significance is moderate and depends on the robustness of the computational findings, which cannot be assessed from the abstract.
+  - Interdisciplinary readership: The work may appeal to computational biologists, biophysicists, and molecular engineers, but the abstract is written in a way that is accessible to specialists only. Broader impact is not evident from the abstract.
+  - Technical soundness: Not assessable from the abstract due to missing methodological and statistical details. This is a critical gap.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without explanation. It is not written for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the absence of quantitative results, methodological detail, and direct testing of the interpretive model means that the core claims cannot be verified. The authors should be encouraged to resubmit with a full manuscript that addresses the technical concerns.
+
+## Risk / unsupported claims
+- The claim that "mutation of K in TGQKP resulted in loss in affinity" is unsupported without quantitative data and error analysis.
+- The claim that "mutation of G showed loss in affinity to DNA" is unsupported for the same reason.
+- The claim that the findings "confirm previous reports" regarding ZF1 anchoring and ZF3 exploring is not substantiated by the abstract, as no direct evidence for this model is presented.
+- The general statement that "linkers act to tune the zinc finger protein in the right position" is presented as a fact but is not tested or supported by data in the abstract.

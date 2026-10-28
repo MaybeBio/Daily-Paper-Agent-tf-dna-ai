@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods, Data availability, Competing interests, Acknowledgements)
+- **Assessment boundary** Scientific content, methodological soundness, and support of claims by evidence as presented. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The manuscript claims that DNA actively regulates the "safety-belt" dynamics of condensin during loop extrusion. Using AlphaFold3 predictions, all-atom MD simulations, and coarse-grained (CG) simulations, the authors report that DNA binding stabilizes the safety-belt loop, that DNA outside the loop promotes its opening while DNA inside promotes closure, that latch-buckle interaction strength modulates the kinetics of DNA entrapment, and that safety-belt stability correlates with DNA sliding dynamics.
+- **Visible evidence base** Abstract, Introduction, Results (three subsections), Discussion, Methods, Data availability, Competing interests, Acknowledgements. Figures referenced but not provided. Supplementary figures and tables referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-5 and Supplementary Figures S1-S10 and Table S1 are referenced but not included in the provided material. This substantially limits the ability to assess the validity of the reported results. The Methods section contains an incomplete equation for ES i and an incomplete equation for Q, with the switching function not fully defined. The exact definition of the "primary active region" (PAR) is not provided. The relationship between the CG model parameters and experimental conditions is not fully detailed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in the field of chromosome biology: how DNA itself contributes to the dynamics of the condensin safety-belt during loop extrusion. The authors employ a multiscale computational strategy that is appropriate for the question and represents a reasonable integration of state-of-the-art methods. The central claims, however, are presented with limited quantitative detail in the text, and the absence of the actual figures and supplementary materials prevents a full evaluation of the evidence. The claim that DNA "actively" regulates safety-belt dynamics is intriguing but the mechanistic distinction between passive stabilization and active regulation is not clearly articulated. The kinetic analysis and the proposed non-monotonic dependence on latch-buckle interaction strength are potentially interesting but require the missing figures to be assessed. The connection between the computational findings and the experimental literature is discussed but could be strengthened with more specific quantitative comparisons. Overall, the work has potential merit, but the current evidence base is insufficient to fully establish the claims.
+- **Who would be interested in the results, and why** Researchers in the fields of chromosome organization, SMC complex biology, and biophysics of protein-DNA interactions would be the primary audience. The work is also relevant to those interested in the application of multiscale simulation approaches to large macromolecular complexes. The findings could inform experimental studies on condensin and cohesin function, and the methodological framework may be of interest to computational biologists studying protein-DNA dynamics.
+- **Major strengths** The manuscript addresses a significant open question in the field. The multiscale approach, combining AlphaFold3, all-atom MD, and CG simulations, is well-suited to the problem and represents a thoughtful integration of methods. The identification of distinct kinetic regimes depending on latch-buckle interaction strength is a potentially valuable insight. The authors make an effort to connect their findings to existing experimental observations, such as the DNA upshift in crosslinking experiments. The discussion of the limitations of AlphaFold for dynamics is appropriate and shows scientific caution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that DNA binding markedly stabilizes the condensin safety belt, facilitating loop extrusion progression, and that DNA positioned outside the safety belt triggers its opening while DNA within promotes closure.
+  - **Evidence pointer** Results sections "AlphaFold3 Predictions of Safety-Belt Flexibility in DNA Binding State (BS) and Unbinding State (US)" and "Atomic Scale Insights into DNA-Stabilized Safety Belt Mechanism: Evidence from Unbiased MD and Steered MD Simulations"; Figures 1, 2, 4
+  - **Concern** The central claims of the manuscript rest on the results presented in Figures 1, 2, 4, and 5, none of which are provided in the submitted material. The text describes trends (e.g., "ES i values are markedly reduced", "RMSF profile of the US state is generally larger", "Q value decreases in the S nl state, but increases in the S l state") but without the actual data, the magnitude of these effects, the statistical significance, and the variability across replicates cannot be assessed. The claim of "active" regulation by DNA requires a clear demonstration that the effect is not simply a passive consequence of additional protein-DNA contacts. The text does not provide sufficient quantitative detail to evaluate this distinction.
+  - **Why it matters** The core scientific contribution of the manuscript depends on the validity and robustness of these simulation results. Without access to the figures, the claims cannot be verified. The distinction between active and passive regulation is conceptually important for the field and requires clear evidence.
+  - **Resolution test** Provide the figures and supplementary figures with clear axis labels, error bars or confidence intervals, and statistical tests where applicable. Quantify the magnitude of the reported effects (e.g., fold-change in Q, difference in RMSF, change in force). Clearly define what constitutes "active" regulation and provide evidence that distinguishes it from passive stabilization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript claims that the CG model captures the entire DNA entrapment process and that kinetic analyses reveal the rate-limiting step depends on the tightness of the safety belt.
+  - **Evidence pointer** Methods section "Modelling the CG Structure of Brn1-Ycg1 in Complex with DNA"; Results section "Effect of Latch-buckle Interaction Strength on the Kinetics of DNA Entrapment and Diffusion along DNA"; Figures 3, 5
+  - **Concern** The Methods section describes the CG model but omits critical details. The equations for ES i and Q are incomplete in the provided text. The "switching function" for Q is mentioned but not defined. The procedure for determining the optimal interaction strength ε LB = 0.6 is described qualitatively but the criteria for "optimal" are not specified. The number of replicates for the kinetic analyses is stated (50 independent simulations) but the analysis of the transition times and the statistical treatment are not described. The method for calculating the linking number is described but the numerical implementation and convergence criteria are only partially detailed.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The incomplete description of the methods prevents other researchers from replicating the simulations or assessing the robustness of the results. The kinetic claims depend critically on the correct implementation and analysis of the CG simulations.
+  - **Resolution test** Complete the equations for ES i and Q. Provide the full definition of the switching function. Specify the criteria for choosing ε LB = 0.6. Describe the statistical analysis of the transition times, including error estimation and significance testing. Provide full details of the linking number calculation, including the numerical method and convergence tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The manuscript claims that the findings provide a comprehensive molecular framework illustrating how DNA actively guides condensin's safety-belt dynamics, substantially advancing our mechanistic understanding of chromosome loop extrusion.
+  - **Evidence pointer** Discussion section
+  - **Concern** The Discussion interprets the simulation results in the context of experimental observations, but the logical connection between the computational findings and the proposed biological implications is not always explicit. For example, the claim that the safety-belt sliding may facilitate chromosome folding by allowing condensin to explore local DNA configurations is speculative and not directly supported by the simulations. The relationship between the simulated timescales and the biologically relevant timescales of loop extrusion is not discussed. The claim of "substantially advancing" understanding is strong and requires a clearer articulation of what is genuinely new compared to previous models.
+  - **Why it matters** Overinterpretation of computational results can mislead the field. The manuscript should clearly distinguish between what is directly demonstrated by the simulations and what is speculative inference. The biological relevance of the findings needs to be argued more carefully.
+  - **Resolution test** Revise the Discussion to clearly separate simulation-derived conclusions from hypotheses. Provide a more nuanced discussion of the limitations of the computational approach and the timescale gap. Justify the claim of "substantial advancement" by explicitly comparing the new insights with previous models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The phrase "DNA Actively Regulates" in the title and abstract is strong and could be seen as overstating the case, given that the simulations show DNA stabilizing the closed state, which could be interpreted as a passive effect. The term "safety-belt dynamics" is used throughout but is not formally defined. The Introduction contains a typographical error: "the the molecular mechanism" in the second paragraph.
+  - **Required correction** Consider softening the title claim or providing a clear definition of "active" regulation in the Introduction. Define "safety-belt dynamics" explicitly. Correct the typographical error.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, Data analysis
+  - **Evidence pointer** Methods section "Data Analysis"
+  - **Issue** The description of the MSD analysis for diffusion coefficient estimation is incomplete. The equation for MSD is not fully shown, and the criteria for selecting the linear regime and the cutoff lag n c are described but the specific values used are not stated. The number of valid trajectory segments is reported for different ε HD and ε LB values, but the criteria for excluding segments are described qualitatively.
+  - **Required correction** Provide the complete MSD equation. State the specific values of n c used for each condition. Provide quantitative criteria for segment exclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript references previous experimental and computational studies but does not always provide specific comparisons. For example, the claim that "a recent study suggested that both cohesin and condensin are believed to extrude DNA loops in an asymmetric manner" is not accompanied by a specific citation in the provided text. The Discussion mentions a "previous blind prediction" but does not provide a reference.
+  - **Required correction** Add specific citations for all claims referencing previous work. Ensure that all statements about prior findings are properly attributed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All Results sections
+  - **Evidence pointer** Figures 1-5
+  - **Issue** The text refers to specific panels within figures (e.g., "Figure 1A and 1B", "Figure 2A") but the figures are not provided. The figure legends are not included in the submitted material, making it impossible to understand the full context of the results.
+  - **Required correction** Ensure that the final submission includes all figures with complete legends. Consider adding a brief description of each figure panel in the text for clarity.
+
+## Risk / unsupported claims
+- The claim that DNA "actively" regulates safety-belt dynamics is not fully supported by the evidence presented, as the distinction between active and passive effects is not clearly established.
+- The claim that the CG model captures the "entire DNA entrapment process" is not verifiable without the figures and full methodological details.
+- The claim that the findings "substantially advance" mechanistic understanding is not fully justified without a more explicit comparison to previous models.
+- The interpretation of the DNA upshift in crosslinking experiments as evidence for the IS out state is speculative and not directly tested in this work.
+- The claim that safety-belt sliding may facilitate chromosome folding is a hypothesis that is not directly supported by the simulation data.
+- The quantitative values for diffusion coefficients, transition times, and interaction strengths are reported in the text but cannot be verified without the figures and supplementary materials.

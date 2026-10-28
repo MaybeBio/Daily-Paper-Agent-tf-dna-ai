@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the non-antibiotic anti-inflammatory drug phenylbutazone reduces the susceptibility of *Pseudomonas aeruginosa* to multiple antibiotic classes by binding to the efflux pump regulator MexR, promoting its dissociation from the *mexA-mexR* intergenic region, and de-repressing the MexAB-OprM efflux pump. They further identify His41 and Arg21 of MexR as residues involved in the interaction.
+- **Visible evidence base** Abstract only; mentions in vitro and in vivo antibiotic activity assays, resazurin accumulation assay, transcriptomic sequencing, PISA assay, EMSA, ITC, molecular dynamic simulations, and amino acid substitutions
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical details, strain and compound information, in vivo model details, and supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that a widely used non-antibiotic drug can modulate antibiotic susceptibility in a major pathogen through a defined molecular mechanism. The proposed pathway from phenylbutazone binding to MexR, to de-repression of MexAB-OprM, to reduced antibiotic susceptibility is mechanistically coherent. However, the abstract alone provides insufficient detail to evaluate the robustness of the experimental support, the quantitative strength of the effects, or the translational relevance. Several claims require careful scrutiny regarding the specificity of the binding interaction, the magnitude of the susceptibility changes, and the in vivo relevance.
+- **Who would be interested in the results, and why** Researchers in antimicrobial resistance, particularly those studying efflux pump regulation and the role of non-antibiotic pharmaceuticals in resistance development. Clinicians and public health professionals concerned with drug-drug interactions and resistance emergence in *P. aeruginosa* infections may also find the work relevant. The study could inform pharmacovigilance considerations for anti-inflammatory drugs in patients with or at risk of *P. aeruginosa* infection.
+- **Major strengths** The study addresses an underappreciated topic, namely the contribution of non-antibiotic pharmaceuticals to antibiotic resistance. The proposed mechanism is specific and testable, involving a defined regulator, a defined promoter region, and a defined efflux pump. The combination of in vitro, in vivo, biophysical, and computational approaches is commendable in scope.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Phenylbutazone could reduce the susceptibility of P. aeruginosa to multiple antibiotics, including parts of beta-lactams, fluoroquinolones, tetracyclines, and macrolides."
+  - **Evidence pointer** Abstract; specific data not provided
+  - **Concern** The abstract does not report the magnitude of the susceptibility changes, the number of antibiotics tested per class, or the consistency of the effect across strains. It is unclear whether the reductions are clinically meaningful or merely statistically significant.
+  - **Why it matters** The central claim of the paper is that phenylbutazone reduces antibiotic susceptibility. Without quantitative data on minimum inhibitory concentration shifts or fractional inhibitory concentration indices, the biological and clinical significance cannot be assessed.
+  - **Resolution test** Provide a table of MIC values for all tested antibiotics with and without phenylbutazone, including strain information and replicate numbers. State the fold-change threshold considered biologically relevant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** "Phenylbutazone could directly bind to MexR, then promote MexR dissociating from the mexA-mexR intergenic region and de-repress the expression of MexAB-OprM efflux pump."
+  - **Evidence pointer** Abstract; EMSA, ITC, molecular dynamic simulations, amino acid substitutions
+  - **Concern** The abstract does not provide binding affinity values from ITC, nor does it show whether the dissociation of MexR from DNA is observed at physiologically relevant phenylbutazone concentrations. The specificity of the interaction relative to other efflux regulators or other drugs is not addressed.
+  - **Why it matters** Direct binding and functional de-repression are the mechanistic core of the paper. If the binding affinity is weak or the effect requires suprapharmacological concentrations, the relevance to real-world drug exposure is questionable.
+  - **Resolution test** Report ITC-derived Kd values, EMSA concentration ranges, and compare with clinically achievable phenylbutazone plasma concentrations. Include a control drug that does not bind MexR to demonstrate specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance
+  - **Claim pointer** "Antibiotic activity against P. aeruginosa alone or in combination with phenylbutazone was evaluated in vitro and in vivo."
+  - **Evidence pointer** Abstract; in vivo model details not provided
+  - **Concern** The abstract does not describe the animal model, infection route, dosing regimen, or endpoints. It is unclear whether the in vivo data support the in vitro findings or whether the effect size is meaningful in an infection context.
+  - **Why it matters** In vivo validation is critical for translational claims. Without model details and quantitative outcomes, the in vivo evidence cannot be evaluated.
+  - **Resolution test** Describe the animal model, bacterial challenge dose, treatment groups, sample sizes, and primary endpoints. Report survival or bacterial burden data with statistical analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic completeness
+  - **Claim pointer** "The overexpressed MexAB-OprM pump resulted in the reduced antibiotic susceptibility."
+  - **Evidence pointer** Abstract; transcriptomic sequencing, resazurin accumulation assay
+  - **Concern** The abstract does not establish a causal link between MexAB-OprM overexpression and the observed susceptibility changes. It is not shown that deleting or inhibiting MexAB-OprM abolishes the phenylbutazone effect.
+  - **Why it matters** Without a genetic or pharmacological loss-of-function experiment, alternative mechanisms such as changes in porin expression or other efflux systems cannot be excluded.
+  - **Resolution test** Include data from a MexAB-OprM deletion mutant or an efflux pump inhibitor showing loss of the phenylbutazone effect on susceptibility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "parts of beta-lactams, fluoroquinolones, tetracyclines, and macrolides"
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "parts of" is vague and does not specify which agents within each class were affected.
+  - **Required correction** List the specific antibiotics tested and indicate which showed reduced susceptibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Residue identification
+  - **Evidence pointer** Abstract; amino acid substitutions
+  - **Issue** The abstract states that His41 and Arg21 are involved in the interaction but does not describe the functional effect of their substitution.
+  - **Required correction** State whether substitution of these residues abolishes or reduces binding and the functional consequence on MexR de-repression.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Clinical relevance
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not discuss whether the phenylbutazone concentrations used are achievable in human plasma during therapeutic use.
+  - **Required correction** Add a statement comparing effective concentrations with clinically relevant exposure levels.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the intersection of non-antibiotic pharmaceuticals and efflux pump regulation is underexplored. Scientific importance is potentially high given the global threat of antimicrobial resistance, but the clinical relevance depends on the magnitude of the effect and achievable drug concentrations. Interdisciplinary readership could include microbiologists, pharmacologists, and infectious disease clinicians, but the abstract currently lacks sufficient quantitative detail to engage a broad audience. Technical soundness cannot be fully assessed from the abstract alone, though the range of methods is appropriate. Readability for nonspecialists is acceptable, but the abstract would benefit from clearer statements of effect size and clinical context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The mechanistic hypothesis is interesting and testable, but the current abstract does not provide enough evidence to establish the case. Full review of the manuscript is required to assess data quality, statistical rigor, and translational relevance.
+
+## Risk / unsupported claims
+- The claim that phenylbutazone reduces susceptibility to "multiple antibiotics" is unsupported without quantitative MIC data.
+- The claim of direct binding to MexR is unsupported without binding affinity values and specificity controls.
+- The claim that His41 and Arg21 are involved in the interaction is unsupported without functional data from substitution mutants.
+- The in vivo relevance is unassessable without model and outcome details.
+- The clinical implication of antibiotic resistance risk is unassessable without concentration-effect comparisons.

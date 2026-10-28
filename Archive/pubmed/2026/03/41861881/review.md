@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose EPI-CAT, a transformer-based model with a cross-attention mechanism that incorporates transcription factor (TF) binding profiles from ChIP-seq signals of 26 TFs in K562 and GM12878 cell lines, to predict enhancer-promoter interactions (EPIs). The model reportedly outperforms state-of-the-art methods on AUROC and AUPRC, and attention analyses suggest the model can parse TF regulatory grammar.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline comparisons, or methodological details are provided beyond the high-level architecture description
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, hyperparameter settings, training/validation/test splits, baseline definitions, statistical significance tests, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach to EPI prediction by explicitly modeling TF binding profiles within a cross-attention transformer framework. The motivation from the classic loop model is scientifically reasonable. However, the abstract lacks quantitative evidence, methodological specificity, and validation details necessary to assess the robustness and generalizability of the claimed improvements. The current evidence base is insufficient to establish the case for the model's superiority or its biological interpretability claims.
+- **Who would be interested in the results, and why** Researchers in computational genomics, transcriptional regulation, and machine learning applied to regulatory genomics would be interested. The work addresses a central problem in gene regulation, and the proposed architecture could be of practical use for prioritizing candidate enhancer-promoter pairs in disease studies. The attention-based interpretability angle may also appeal to those studying TF combinatorial logic.
+- **Major strengths** The conceptual motivation is clear and grounded in established biology. The use of TF binding profiles as explicit input features is a reasonable departure from purely sequence-based or epigenetic-signal-based approaches. The cross-attention mechanism is a modern and appropriate choice for modeling interactions between two genomic regions. The claim of interpretability through attention heatmaps and interaction networks is potentially valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that EPI-CAT outperforms state-of-the-art methods on both AUROC and AUPRC metrics.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** No quantitative performance values, baseline names, or statistical significance measures are reported. The claim of superiority is unsupported by any visible data.
+  - **Why it matters** Without specific AUROC and AUPRC numbers, baseline comparisons, and significance testing, the reader cannot evaluate whether the improvement is meaningful or within noise. This is the central claim of the paper and must be substantiated.
+  - **Resolution test** Provide a table or figure with AUROC and AUPRC values for EPI-CAT and all baselines, including standard deviations and statistical tests (e.g., paired t-test or Wilcoxon) across multiple cross-validation folds or independent test sets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract describes a "dual-channel convolution-cross-attention structure to align upstream-downstream features across regions."
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Concern** The architecture is described only at a high level. Key details such as input representation dimensions, number of layers, attention heads, training procedure, loss function, and how the 26 TFs were selected and processed are absent.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without these details, the method cannot be reimplemented or compared fairly by other groups.
+  - **Resolution test** Provide a full methods section with architectural diagrams, hyperparameter values, training details, and a clear description of the TF encoding pipeline.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability and validation
+  - **Claim pointer** The abstract states the model was built using 26 TFs shared between K562 and GM12878 cell lines, and implies the model performs well in EPI prediction.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** It is unclear whether the model was trained and tested within the same cell line, across cell lines, or on held-out chromosomes. Cross-cell-line generalization is a critical test for EPI prediction models, and the abstract does not address this.
+  - **Why it matters** EPI prediction models often overfit to cell-line-specific patterns. Without cross-cell-line or cross-chromosome validation, the claimed performance may not reflect real-world utility.
+  - **Resolution test** Report performance on held-out chromosomes and on cross-cell-line transfer (e.g., train on K562, test on GM12878 and vice versa), and discuss any performance drop.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability claim
+  - **Claim pointer** The abstract claims that attention heatmaps and interaction network analyses indicate the model can parse TF regulatory grammar and discover critical TF interaction pairs.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** No examples of attention heatmaps or network analyses are shown, and no validation against known TF-TF interactions or regulatory modules is described.
+  - **Why it matters** Interpretability claims in deep learning models are often post hoc and can be misleading. Without validation against independent biological knowledge, the claim that the model "discovers" regulatory grammar is not established.
+  - **Resolution test** Provide representative attention heatmaps with known TF-TF interaction annotations, and quantitatively compare discovered TF pairs against databases such as ENCODE or TRANSFAC, with appropriate enrichment statistics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and abstract terminology
+  - **Evidence pointer** Title, abstract; location not provided
+  - **Issue** The term "EPI-CAT" is used without defining the acronym in the title, and the abstract uses "Cross-Attention Transformer for EPI" as the expansion, which is slightly inconsistent with the title's "cross-attention transformer."
+  - **Required correction** Define the acronym in the abstract and ensure the title and abstract use consistent terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of data or code availability, which is standard for computational biology papers.
+  - **Required correction** Add a data and code availability statement in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Background section, abstract; location not provided
+  - **Issue** The abstract mentions "state-of-the-art methods" but does not name any, making it difficult to contextualize the claimed improvement.
+  - **Required correction** Name at least two or three specific baseline methods in the abstract or results section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative performance evidence), R1-M2 (insufficient methodological detail for reproducibility), R1-M3 (no cross-validation or generalization assessment)
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The use of TF binding profiles with a cross-attention transformer is a reasonable incremental advance, but similar attention-based models for EPI prediction have been published. The novelty is not clearly established from the abstract.  
+  - Scientific importance: High. EPI prediction is a central problem in regulatory genomics, and improved methods with interpretability would be valuable.  
+  - Interdisciplinary readership: Moderate. The work will appeal to computational biologists and machine learning researchers, but the abstract does not make the biological implications accessible to a broader audience.  
+  - Technical soundness: Not assessable from the abstract. No quantitative results, validation strategy, or statistical rigor is visible.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "dual-channel convolution-cross-attention") without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the motivation is sound, but the abstract alone does not provide the quantitative and methodological evidence needed to support the claims. A supportive stance would require the full manuscript to address the major concerns, particularly R1-M1, R1-M2, and R1-M3.
+
+## Risk / unsupported claims
+- The claim of outperforming state-of-the-art methods on AUROC and AUPRC is unsupported by any visible quantitative data.
+- The claim that attention heatmaps and interaction network analyses indicate the model can parse TF regulatory grammar is unsupported without examples and biological validation.
+- The claim that the model "discovers" critical TF interaction pairs and cooperative regulatory modules is not substantiated.
+- The generalizability of the model across cell lines or genomic contexts is not assessable from the abstract.

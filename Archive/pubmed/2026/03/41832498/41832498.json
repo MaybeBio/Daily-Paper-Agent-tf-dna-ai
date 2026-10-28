@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "41832498",
+    "doi": "10.1186/s12944-026-02927-0",
+    "title": "Germacrone suppresses renal cancer growth by regulating c-Fos-mediated lipid metabolism."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Germacrone, a major bioactive component of Curcuma zedoaria, exhibits promising anticancer activity across various preclinical models. However, its molecular mechanisms in renal cell carcinoma (RCC), particularly regarding metabolic regulation, remain largely unexplored. This study aimed to investigate the therapeutic potential and underlying mechanisms of germacrone in RCC, specifically focusing on lipid metabolic reprogramming. METHODS: This study integrated network pharmacology and RNA sequencing transcriptomics to identify potential molecular targets of germacrone in 786-O and Caki-1 cells. In vivo antitumor efficacy was evaluated using the subcutaneous xenograft tumor model in BALB/c nude mice. In vitro, cell proliferation, apoptosis, migration, and cell cycle distribution were assessed using CCK-8, flow cytometry, transwell, and colony formation assays. To elucidate the underlying mechanism, de novo fatty acid synthesis was examined by quantifying intracellular triglyceride (TG) and total cholesterol (TC) levels. Interactions between germacrone and the c-Fos/SREBP1 signaling axis were analyzed using Western blot analysis, cellular thermal shift assays (CETSA), and molecular docking. Functional validation was performed using c-Fos overexpression plasmids to assess the extent to which germacrone's effects were reversible. RESULTS: Germacrone significantly inhibited RCC growth in vivo, as evidenced by reduced tumor volume and weight, without detectable systemic toxicity. In vitro, germacrone suppressed proliferation, migration, and invasion in 786-O and Caki-1 cells, while promoting apoptosis and cell cycle arrest. Transcriptomic and molecular analyses indicated that germacrone targets the c-Fos transcription factor, leading to the downregulation of the SREBP1 signaling pathway and key lipogenic genes (FASN and ACC1). This regulation resulted in a marked reduction in intracellular fatty acid and cholesterol biosynthesis. Notably, c-Fos overexpression significantly reversed the germacrone-induced suppression of lipid metabolism and cell viability, confirming that germacrone functions primarily by modulating the c-Fos/SREBP1 axis. CONCLUSION: Germacrone serves as a novel modulator of the c-Fos/SREBP1 pathway, effectively inhibiting the growth of renal cancer by disrupting c-Fos-mediated lipid metabolism. These findings identify c-Fos as a potential therapeutic target and highlight germacrone as a promising candidate for RCC treatment strategies targeting metabolic reprogramming.",
+    "keywords": [
+      "FOS",
+      "Germacrone",
+      "Kidney neoplasms",
+      "Lipid metabolism",
+      "Sterol regulatory element binding protein 1"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Cell Proliferation/drug effects",
+      "*Kidney Neoplasms/drug therapy/metabolism/pathology/genetics",
+      "*Lipid Metabolism/drug effects",
+      "Cell Line, Tumor",
+      "Sterol Regulatory Element Binding Protein 1/metabolism/genetics",
+      "*Sesquiterpenes, Germacrane/pharmacology",
+      "*Carcinoma, Renal Cell/drug therapy/metabolism/pathology/genetics",
+      "*Proto-Oncogene Proteins c-fos/metabolism/genetics",
+      "Apoptosis/drug effects",
+      "Mice, Inbred BALB C",
+      "Mice, Nude",
+      "Xenograft Model Antitumor Assays",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Cell Movement/drug effects",
+      "Signal Transduction/drug effects",
+      "Male",
+      "Molecular Docking Simulation",
+      "Acetyl-CoA Carboxylase/genetics/metabolism",
+      "Fatty Acid Synthase, Type I/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Binqi",
+        "Zhang, Ruikai",
+        "Wu, Mengting",
+        "Cai, Tiantian",
+        "Gao, Chan",
+        "Wang, Luping",
+        "Jin, Taian",
+        "Xu, Zhiyong",
+        "Jin, Juan",
+        "He, Qiang"
+      ],
+      "short_names": [
+        "Wang B",
+        "Zhang R",
+        "Wu M",
+        "Cai T",
+        "Gao C",
+        "Wang L",
+        "Jin T",
+        "Xu Z",
+        "Jin J",
+        "He Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+        "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China.",
+        "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+        "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China.",
+        "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+        "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China.",
+        "Department of Pharmacy the First Affiliated Hospital of Zhejiang, Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, 310006, Zhejiang, P.R. China.",
+        "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+        "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China.",
+        "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+        "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China.",
+        "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+        "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China.",
+        "Department of nephrology, XianJu People's Hospital, Zhejiang Southeast Campus of Zhejiang Provincial People's Hospital, Affiliated Xianju's Hospital, Hangzhou Medical College, Xianju Zhejiang, China.",
+        "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China. lang_018@163.com.",
+        "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China. lang_018@163.com.",
+        "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China. qianghe1973@126.com.",
+        "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China. qianghe1973@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Binqi",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+          "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruikai",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+          "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Mengting",
+        "short_name": "Wu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+          "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Cai, Tiantian",
+        "short_name": "Cai T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy the First Affiliated Hospital of Zhejiang, Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, 310006, Zhejiang, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Gao, Chan",
+        "short_name": "Gao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+          "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Luping",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+          "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jin, Taian",
+        "short_name": "Jin T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China.",
+          "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhiyong",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of nephrology, XianJu People's Hospital, Zhejiang Southeast Campus of Zhejiang Provincial People's Hospital, Affiliated Xianju's Hospital, Hangzhou Medical College, Xianju Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Juan",
+        "short_name": "Jin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China. lang_018@163.com.",
+          "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China. lang_018@163.com."
+        ]
+      },
+      {
+        "full_name": "He, Qiang",
+        "short_name": "He Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), No. 548 Binwen Road, Binjiang District, Hangzhou City, Zhejiang Province , 310053, P.R. China. qianghe1973@126.com.",
+          "Zhejiang Key Laboratory of Research and Translation for Kidney Deficiency-Stasis-Turbidity Disease, Zhejiang-Macau International Joint Laboratory of Integrated Traditional Chinese and Western Medicine for Nephrology and Immunology, Hangzhou, Zhejiang, 310006, P.R. China. qianghe1973@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Lipids in health and disease"
+    ],
+    "journal_abbrev": [
+      "Lipids Health Dis"
+    ],
+    "pub_date": "2026 Mar 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/15 06:48",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40442809",
+      "40164686",
+      "40148973",
+      "40049103",
+      "40025508",
+      "39847369",
+      "39705849",
+      "39179054",
+      "38233377",
+      "38104183",
+      "37729394",
+      "37481710",
+      "37438560",
+      "37349620",
+      "35159001",
+      "34285190",
+      "33721752",
+      "33601415",
+      "33433946",
+      "33132314",
+      "32872164",
+      "32791170",
+      "32711004",
+      "32071920",
+      "31377407",
+      "31264969",
+      "30884305",
+      "29935539",
+      "29138263",
+      "28827316",
+      "28399876",
+      "28350788",
+      "28178563",
+      "28071706",
+      "27573551",
+      "27502036",
+      "26901115",
+      "26626617",
+      "25289068",
+      "25101824",
+      "24989798",
+      "24979135",
+      "24889088",
+      "24322891",
+      "23828940",
+      "23771657",
+      "23117090",
+      "23056368",
+      "21497161",
+      "19276182",
+      "18936825",
+      "18676848",
+      "16901812",
+      "14555986",
+      "11354673",
+      "3141060"
+    ],
+    "similar": [
+      "41832498",
+      "39798341",
+      "40049103",
+      "41101075",
+      "42113369",
+      "40942159",
+      "41297428",
+      "42653330",
+      "42008854",
+      "40615101",
+      "41057878",
+      "41559684",
+      "42671726",
+      "29968360",
+      "38008820",
+      "41187651",
+      "40216870",
+      "39425259",
+      "41706270",
+      "41344272",
+      "41126368",
+      "42541598",
+      "41775213",
+      "41759425",
+      "34019961",
+      "41501793",
+      "39120474",
+      "41444594",
+      "42284640",
+      "30257368",
+      "40344699",
+      "42166976",
+      "41858177",
+      "38547624",
+      "37557938",
+      "39970856",
+      "42288668",
+      "41858068",
+      "40849803",
+      "41612594",
+      "41293954",
+      "26282231",
+      "40252583",
+      "40360020",
+      "39607512",
+      "42398171",
+      "40023971",
+      "42196217",
+      "40315213",
+      "39023830",
+      "42032729",
+      "41418537",
+      "42062883",
+      "41351404",
+      "42205867",
+      "42287957",
+      "29400663",
+      "41782031",
+      "41962187",
+      "41235759",
+      "40140862",
+      "39451232",
+      "39380001",
+      "41108787",
+      "39614438",
+      "40976126",
+      "33975883",
+      "42194035",
+      "42201344",
+      "40886867",
+      "41960369",
+      "39831843",
+      "30296782",
+      "40412057",
+      "31545453",
+      "41831177",
+      "41780620",
+      "27092874",
+      "33556477",
+      "34614446",
+      "42260555",
+      "25810260",
+      "41423048",
+      "31481087",
+      "41962267",
+      "41365162",
+      "38518635",
+      "42332356",
+      "41719100",
+      "41298459",
+      "34718375",
+      "40790482",
+      "39923427",
+      "41232632",
+      "40544893",
+      "41589439",
+      "41339923",
+      "39199428",
+      "42435834",
+      "37052853"
+    ],
+    "review": [
+      "41832498"
+    ],
+    "pmc": [
+      "13101156"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://lipidworld.biomedcentral.com/articles/10.1186/s12944-026-02927-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41832498/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

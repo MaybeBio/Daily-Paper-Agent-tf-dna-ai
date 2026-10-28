@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, model, results, discussion, materials and methods) as provided by the user. No supplementary information files were provided.
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and alignment with the stated claims. No assessment of formatting, grammar, or editorial style beyond readability for nonspecialists.
+- **Shared manuscript claim summary** The authors develop a coarse-grained Brownian dynamics model of protein-DNA co-condensation that explicitly incorporates sequence-dependent protein-DNA binding. They claim that (1) DNA sequence heterogeneity controls the number and size of co-condensates, (2) the affinity of DNA at the condensate interface governs capillary forces, and (3) their framework can interpret published experimental data for Dps, Sox2, and HP1.
+- **Visible evidence base** Main text figures referenced (Figs 2, 3, 4, 5, 6, 7, 8) and supplementary figures/tables referenced in the text (Figs A-K, Tables A-D in S1 Text). Actual figure images and supplementary data were not provided.
+- **Missing materials affecting confidence** Supplementary information (S1 Text) containing model details, parameter tables, and additional simulation results. Actual figure images. Simulation code or data availability statement. Details of the experimental datasets used for comparison.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and potentially valuable modeling framework for understanding how DNA sequence heterogeneity influences protein-DNA co-condensation. The central idea, that interfacial DNA sequence composition can regulate capillary forces and condensate stability, is conceptually interesting and could have broad implications for chromatin organization. However, the current evidence base is insufficient to fully evaluate the technical soundness of the simulations and the robustness of the key claims. Several claims appear to rest on limited simulation replicates and indirect comparisons with experimental data. The manuscript would benefit from clearer articulation of the model's predictive power and a more rigorous treatment of the relationship between interfacial affinity and capillary force.
+- **Who would be interested in the results, and why** Biophysicists and computational biologists studying phase separation and chromatin organization would be the primary audience. The work could also interest experimentalists working on protein-DNA condensates, particularly those studying transcription factors like Sox2 and HP1, as it offers a framework for interpreting their observations. The potential link between DNA sequence and mechanical forces on DNA may also appeal to researchers studying genome architecture and mechanobiology.
+- **Major strengths** (1) The manuscript addresses a significant and under-explored question: how DNA sequence, rather than just protein concentration or interaction strength, affects co-condensation behavior. (2) The modeling framework is deliberately simple and tractable, which is appropriate for gaining qualitative mechanistic insights. (3) The comparison with published experimental data for Dps, Sox2, and HP1 is a valuable attempt to ground the model in real biological systems. (4) The identification of interfacial affinity as a key controlling parameter is a potentially useful conceptual contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "DNA sequence heterogeneity can result in the coexistence of multiple condensates" at equilibrium.
+  - **Evidence pointer** Section 3.2, Fig 4, Fig J in S1 Text
+  - **Concern** The evidence for the two-condensate state being a true equilibrium state is not fully convincing. The authors state that coarsening is "arrested" and that the two-condensate state is an equilibrium state, but the simulation time required to definitively establish equilibrium for a 500-monomer polymer is not discussed. The observation that the smaller condensate has higher interfacial affinity (Fig 5G) is suggestive but does not constitute a thermodynamic proof of stability. The possibility that the system is trapped in a long-lived metastable state, which the authors acknowledge for the Partial λ-DNA case, cannot be excluded for the heterogeneous DNA II model either.
+  - **Why it matters** The central claim of the paper, that sequence heterogeneity can stabilize multiple condensates, hinges on this being a genuine equilibrium phenomenon rather than a kinetic artifact. If the two-condensate state is merely metastable on the simulation timescale, the biological relevance of the finding is substantially weakened.
+  - **Resolution test** Provide a free-energy analysis (e.g., umbrella sampling or thermodynamic integration) that directly compares the free energy of the two-condensate state with the one-condensate state. Alternatively, demonstrate that the two-condensate state is stable over simulation timescales that are at least an order of magnitude longer than the characteristic coarsening time, and show that the system converges to the same two-condensate state from multiple different initial conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "interfacial DNA binding affinity controls capillary forces generated by protein-DNA condensates" and that this offers "a potential mechanism to regulate chromatin structure and 3D genome organization."
+  - **Evidence pointer** Section 3.1, Fig 3, Fig 6, Fig I in S1 Text
+  - **Concern** The causal relationship between interfacial affinity and capillary force is asserted but not rigorously established. The authors show a correlation between the two quantities (Fig 6D), but correlation does not imply causation. The mechanism by which interfacial affinity modulates the force is not clearly explained. Is it through changes in the surface tension of the condensate, through pinning of the condensate on the DNA, or through some other effect? The manuscript would be strengthened by a more mechanistic derivation or a systematic parameter sweep that isolates the effect of interfacial affinity from other variables.
+  - **Why it matters** The claim that interfacial affinity controls capillary forces is a key novel contribution of the paper. If this relationship is not mechanistically understood, the claim that this offers a way to regulate chromatin structure is speculative.
+  - **Resolution test** Perform a systematic study where the sequence of the DNA at the interface is varied while keeping all other parameters (e.g., total binding energy, protein concentration) constant, and show that the capillary force changes in a predictable way. Provide a theoretical or semi-analytical model that explains the relationship between interfacial affinity and capillary force.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the model "can be harnessed to interpret recent experimental results" for Dps, Sox2, and HP1.
+  - **Evidence pointer** Section 3.4, Fig 7
+  - **Concern** The comparison with experimental data is qualitative and indirect. The authors state that their model "can explain" the number of condensates observed for Dps, Sox2, and HP1, but no quantitative comparison is provided. For example, what are the predicted sizes of the condensates, and how do they compare with experimental measurements? The model parameters are not fitted to the experimental data, so it is unclear whether the agreement is meaningful or coincidental. The authors also do not discuss potential discrepancies between the model and experiments.
+  - **Why it matters** The claim that the model is useful for interpreting experiments is a key selling point of the paper. Without a more rigorous comparison, this claim is not well supported.
+  - **Resolution test** Provide a quantitative comparison between simulation predictions and experimental measurements, such as the number, size, or position of condensates. If a quantitative comparison is not possible, clearly state the qualitative nature of the comparison and discuss the limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall modeling framework and its results.
+  - **Evidence pointer** Section 5.3, Section 5.4, Section 5.5, Section 5.6
+  - **Concern** The methods section lacks sufficient detail for reproducibility. The simulation protocol is described at a high level, but key parameters (e.g., box dimensions in physical units, the number of proteins, the interaction potentials beyond the binding affinities) are not fully specified. The details are deferred to the supplementary information, which was not provided for review. The force calculation procedure, while described, would benefit from a clearer derivation and validation.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without full details, other researchers cannot build upon this work.
+  - **Resolution test** Provide the full simulation parameters in the main text or a table, and make the simulation code and input files publicly available. Provide a validation of the force calculation method against a known analytical result (e.g., the WLC model).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, Fig 3
+  - **Evidence pointer** Fig 3A and 3B
+  - **Issue** The non-linear behavior of capillary force for heterogeneous DNA I is described, but the physical interpretation of the sharp jump at Re'~0.5 is not fully explained in the main text. The reader is referred to the SI, which is not available.
+  - **Required correction** Provide a brief physical explanation for the observed non-linearity in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4, Fig 7
+  - **Evidence pointer** Fig 7
+  - **Issue** The comparison with Dps, Sox2, and HP1 is presented in a single figure, but the details of how the model parameters were chosen for each protein are not given in the main text.
+  - **Required correction** Add a table or paragraph in the main text summarizing the model parameters used for each protein and the rationale for their selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 5.5
+  - **Evidence pointer** Equations in Section 5.5
+  - **Issue** The equations for force calculation are presented without clear definitions of all symbols in the immediate context.
+  - **Required correction** Define all symbols immediately after each equation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4, Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of the biological implications is somewhat speculative, particularly regarding the role of DNA methylation and mutations. While interesting, these points are not directly supported by the model results.
+  - **Required correction** Clearly distinguish between results directly supported by the simulations and speculative implications.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (equilibrium of two-condensate state), R1-M2 (causal link between interfacial affinity and capillary force), R1-M3 (quantitative comparison with experiments), R1-M4 (reproducibility of simulations).
+- **Assessment against Nature-style criteria** Originality: The concept of linking DNA sequence heterogeneity to capillary forces in co-condensates is original and addresses a gap in the field. Scientific importance: The question of how DNA sequence influences phase separation is important for understanding genome organization, and the potential link to mechanical forces is significant. Interdisciplinary readership: The work bridges biophysics, computational biology, and molecular biology, and should appeal to a broad readership. Technical soundness: The modeling approach is reasonable, but the current evidence is insufficient to fully assess the robustness of the key claims, particularly regarding equilibrium behavior and the causal role of interfacial affinity. Readability for nonspecialists: The manuscript is generally well-written and accessible, but some technical sections could be clearer.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a significant question and presents a promising framework, but the key claims require stronger evidence and more rigorous validation before they can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the two-condensate state in the heterogeneous DNA II model is a true equilibrium state is not fully supported by the provided evidence.
+- The claim that interfacial DNA binding affinity causally controls capillary forces is not mechanistically established.
+- The claim that the model can interpret experimental results for Dps, Sox2, and HP1 is based on qualitative comparisons and is not quantitatively validated.
+- The claim that changes in interfacial affinity of one kBT can lead to two-fold changes in global forces is presented without sufficient supporting data in the main text.
+- The biological implications regarding DNA methylation and mutations are speculative and not directly tested by the model.

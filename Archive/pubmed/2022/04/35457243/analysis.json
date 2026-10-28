@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35457243",
+  "title": "Roles of Physicochemical and Structural Properties of RNA-Binding Proteins in Predicting the Activities of Trans-Acting Splicing Factors with Machine Learning.",
+  "authors": "Zhu, Lin; Li, Wenjin",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-04-24",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习预测RNA结合蛋白在可变剪接中的活性，对象为RNA-蛋白互作而非蛋白质-DNA互作，且无结合位点或三维互作建模，仅序列特征统计，与本课题TF-DNA互作建模关联甚微。",
+  "abstract": "Trans-acting splicing factors play a pivotal role in modulating alternative splicing by specifically binding to cis-elements in pre-mRNAs. There are approximately 1500 RNA-binding proteins (RBPs) in the human genome, but the activities of these RBPs in alternative splicing are unknown. Since determining RBP activities through experimental methods is expensive and time consuming, the development of an efficient computational method for predicting the activities of RBPs in alternative splicing from their sequences is of great practical importance. Recently, a machine learning model for predicting the activities of splicing factors was built based on features of single and dual amino acid compositions. Here, we explored the role of physicochemical and structural properties in predicting their activities in alternative splicing using machine learning approaches and found that the prediction performance is significantly improved by including these properties. By combining the minimum redundancy-maximum relevance (mRMR) method and forward feature searching strategy, a promising feature subset with 24 features was obtained to predict the activities of RBPs. The feature subset consists of 16 dual amino acid compositions, 5 physicochemical features, and 3 structural features. The physicochemical and structural properties were as important as the sequence composition features for an accurate prediction of the activities of splicing factors. The hydrophobicity and distribution of coil are suggested to be the key physicochemical and structural features, respectively.",
+  "abstract_zh": "反式作用剪接因子通过特异性结合前体mRNA中的顺式元件，在调控选择性剪接中发挥关键作用。人类基因组中约有1500种RNA结合蛋白（RBPs），但这些RBPs在选择性剪接中的活性尚不清楚。由于通过实验方法测定RBP活性既昂贵又耗时，开发一种高效的计算方法，从其序列预测RBPs在选择性剪接中的活性，具有重要的实际意义。近期，基于单一和双氨基酸组成特征，构建了一个用于预测剪接因子活性的机器学习模型。在此，我们利用机器学习方法探讨了理化性质和结构性质在预测其选择性剪接活性中的作用，并发现纳入这些性质显著提升了预测性能。通过结合最小冗余最大相关性（mRMR）方法和前向特征搜索策略，我们获得了一个包含24个特征的有前景的特征子集，用于预测RBPs的活性。该特征子集由16个双氨基酸组成、5个理化特征和3个结构特征组成。理化性质和结构性质与序列组成特征同等重要，对于准确预测剪接因子活性不可或缺。疏水性和卷曲分布分别被认为是关键的理化特征和结构特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35457243/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35457243/",
+  "paper_page_path": "papers/pubmed/35457243/index.html"
+}

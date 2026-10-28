@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.16.567458",
+  "title": "Protein-Ligand Binding Site Prediction and <i>De Novo</i> Ligand Generation from Cryo-EM Maps",
+  "authors": "Chunyang Lu; Kaustav Mitra; Kiran Mitra; Hanze Meng; Shane Thomas Rich-New; Fengbin Wang; Dong Si",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-17",
+  "window": {
+    "start": "2023-11-13",
+    "end": "2023-11-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用深度学习预测蛋白-配体结合位点并整合Cryo-EM结构建模，虽非TF-DNA体系，但蛋白-配体互作建模方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Identification of protein-ligand binding sites is one of the most challenging tasks in drug discovery and design. Recent advances in machine learning community, particularly deep learning, inspired considerable research into deep learning-based methods for protein ligand binding site prediction (PLBP) and have achieved promising results. However one limitation of these methods and models is that they are developed and evaluated using conventional databases consisting of relatively small protein structures determined from X-ray crystallography and NMR with high resolution. When current PLBP methods are directly applied to large protein complexes, they either fail or produce very poor results. Given the increasing popularity of protein structures determined from Cryo-EM maps, which usually capture large protein complexes at relatively low resolution, there is a strong need to apply PLBP methods to Cryo-EM maps. For this purpose, we created a novel database (EMD-Ligand Dataset) consisting of Cryo-EM maps and information about their ligand-binding partners. Our study of several state-of-the-art PLBP methods show that even though they perform reasonably well on conventional databases, they do poorly on the novel EMD-Ligand Dataset, which calls for more research and work to be done by the community. As current methods for determining protein structures experimentally from Cryo-EM maps are time-consuming and expensive, we integrated PLBP methods with DeepTracer, an automatic and fast, de novo Cryo-EM protein structure modeling method, and established an end-to-end system capable of predicting ligand binding sites directly from Cryo-EM maps. Additionally, we leveraged an existing ligand generator to generate drug-like ligands from our predicted ligand-binding pockets and demonstrated its effectiveness.",
+  "abstract_zh": "蛋白质-配体结合位点的识别是药物发现与设计中最具挑战性的任务之一。机器学习领域的最新进展，尤其是深度学习，激发了大量基于深度学习的蛋白质配体结合位点预测（PLBP）方法的研究，并取得了令人鼓舞的成果。然而，这些方法和模型的一个局限性在于，它们是在使用由X射线晶体学和NMR确定的高分辨率相对较小蛋白质结构组成的传统数据库上进行开发和评估的。当现有的PLBP方法直接应用于大型蛋白质复合物时，它们要么失败，要么产生非常差的结果。鉴于从冷冻电镜（Cryo-EM）图谱中确定的蛋白质结构日益普及，这些图谱通常以相对较低的分辨率捕获大型蛋白质复合物，因此迫切需要将PLBP方法应用于Cryo-EM图谱。为此，我们创建了一个新颖的数据库（EMD-Ligand数据集），包含Cryo-EM图谱及其配体结合伙伴的信息。我们对几种最先进的PLBP方法的研究表明，尽管它们在传统数据库上表现良好，但在新颖的EMD-Ligand数据集上表现不佳，这呼吁社区进行更多研究和工作。由于目前从Cryo-EM图谱实验确定蛋白质结构的方法耗时且昂贵，我们将PLBP方法与DeepTracer（一种自动、快速的从头Cryo-EM蛋白质结构建模方法）集成，建立了一个端到端系统，能够直接从Cryo-EM图谱预测配体结合位点。此外，我们利用现有的配体生成器从预测的配体结合口袋中生成药物样配体，并展示了其有效性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.16.567458",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.16.567458",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.16.567458/index.html"
+}

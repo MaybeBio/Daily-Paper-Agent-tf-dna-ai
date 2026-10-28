@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.04.641377",
+  "title": "DynamicGT: a dynamic-aware geometric transformer model to predict protein binding interfaces in flexible and disordered regions",
+  "authors": "Omid Mokhtari; Sergei Grudinin; Yasaman Karami; Hamed Khakzad",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-10",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出动态感知几何Transformer模型预测蛋白结合界面，虽聚焦蛋白-蛋白互作而非TF-DNA，但其动态构象整合与GNN/GT方法可迁移至蛋白-DNA互作建模，具有借鉴价值。",
+  "abstract": "Protein-protein interactions are fundamental to cellular processes, yet existing deep learning approaches for binding site prediction often rely on static structures, limiting their performance when disordered or flexible regions are involved. To address this, we introduce a novel dynamic-aware method for predicting protein-protein binding sites by integrating conformational dynamics into a cooperative graph neural network (Co-GNN) architecture with a geometric transformer (GT). Our approach uniquely encodes dynamic features at both the node (atom) and edge (interaction) levels, and consider both bound and unbound states to enhance model generalization. The dynamic regulation of message passing between core and surface residues optimizes the identification of critical interactions for efficient information transfer. We trained our model on an extensive overall 1-ms molecular dynamics simulations dataset across multiple benchmarks as the gold standard and further extended it by adding generated conformations by AlphaFlow. Comprehensive evaluation on diverse independent datasets containing disordered, transient, and unbound structures showed that incorporating dynamic features in cooperative architecture significantly boosts prediction accuracy when flexibility matters, and requires substantially less amount of data than leading static models.",
+  "abstract_zh": "蛋白质-蛋白质相互作用是细胞过程的基础，然而现有的用于结合位点预测的深度学习方法通常依赖于静态结构，这限制了它们在涉及无序或柔性区域时的性能。为解决这一问题，我们引入了一种新颖的动态感知方法，通过将构象动态整合到带有几何变换器（GT）的合作图神经网络（Co-GNN）架构中，来预测蛋白质-蛋白质结合位点。我们的方法独特地在节点（原子）和边（相互作用）水平上编码动态特征，并同时考虑结合态和非结合态以增强模型泛化能力。核心残基与表面残基之间消息传递的动态调节优化了关键相互作用的识别，以实现高效的信息传输。我们在一个涵盖多个基准的广泛总时长1毫秒分子动力学模拟数据集上训练了我们的模型，将其作为金标准，并通过添加AlphaFlow生成的构象进一步扩展了该数据集。对包含无序、瞬态和非结合结构的多个独立数据集的综合评估表明，在合作架构中融入动态特征显著提升了灵活性关键情况下的预测准确性，并且所需数据量远少于领先的静态模型。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.04.641377",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.04.641377",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.04.641377/index.html"
+}

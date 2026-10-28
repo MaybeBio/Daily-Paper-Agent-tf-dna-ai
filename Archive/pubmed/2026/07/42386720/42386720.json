@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "42386720",
+    "doi": "10.1038/s41398-026-04183-3",
+    "title": "Clock gene signature predicts insomnia and links to sleep/circadian parameters."
+  },
+  "content": {
+    "abstract": "Chronic Insomnia is a prevalent sleep disorder that remains difficult to diagnose due to subjective symptoms and heterogeneous presentations. The most severe form, insomnia with short sleep duration (ISSD), is defined by a total sleep time of less than six hours on polysomnography. However, objective assessments are rarely recommended in diagnostic guidelines, highlighting the need for alternative biomarkers. Disruptions in the circadian clock system may contribute to chronic insomnia, though the extent of these effects remains unclear. In this study, we investigate sleep and circadian rhythm-related alterations in chronic insomnia and its subtypes, ISSD and insomnia with normal sleep duration (INSD), by assessing plasma cortisol, wrist and axillary temperature, and clock gene expression in peripheral blood mononuclear cells (PBMCs). Additionally, we use machine learning to identify the most relevant clock genes for detecting insomnia and classifying its subtypes. Chronic insomnia patients exhibited reduced body temperature rhythms, elevated cortisol levels during wake before sleep, and significant alterations in clock gene expression, including in BMAL1, PER1-2, REV-ERBalpha, and REV-ERBbeta, compared to controls. Most alterations were more significant in the ISSD group. Moreover, associations between clock gene expression, sleep-related parameters and Insomnia Severity Index (ISI) scores were identified. Using machine learning, we identified three genes as sensitive biomarkers distinguishing chronic insomnia from controls and differentiating between ISSD and INSD subtypes. Our findings suggest that circadian markers and machine learning could improve understanding of chronic insomnia and aid biomarker discovery for diagnosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Sleep Initiation and Maintenance Disorders/genetics/physiopathology/diagnosis/blood",
+      "Male",
+      "Female",
+      "*Circadian Rhythm/genetics",
+      "*CLOCK Proteins/genetics",
+      "Sleep Duration",
+      "Adult",
+      "Hydrocortisone/blood",
+      "*Sleep/genetics/physiology",
+      "Polysomnography",
+      "Body Temperature",
+      "Middle Aged",
+      "Biomarkers",
+      "Machine Learning",
+      "Leukocytes, Mononuclear/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Carvalhas-Almeida, Catarina",
+        "Alves, Joao",
+        "Davi, Tiago",
+        "Santos, Barbara",
+        "Gaspar, Laetitia",
+        "Ribeiro, Rodrigo F N",
+        "Serra, Joana",
+        "Ferreira, Mafalda",
+        "Moita, Joaquim",
+        "Sehgal, Amita",
+        "Cavadas, Claudia",
+        "Alvaro, Ana Rita"
+      ],
+      "short_names": [
+        "Carvalhas-Almeida C",
+        "Alves J",
+        "Davi T",
+        "Santos B",
+        "Gaspar L",
+        "Ribeiro RFN",
+        "Serra J",
+        "Ferreira M",
+        "Moita J",
+        "Sehgal A",
+        "Cavadas C",
+        "Alvaro AR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4942-8249",
+        "ORCID: 0000-0002-5159-4406",
+        "ORCID: 0000-0001-7354-9641",
+        "ORCID: 0000-0001-8020-9266",
+        "ORCID: 0000-0002-2387-374X"
+      ],
+      "affiliations": [
+        "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+        "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+        "FFUC - Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+        "EIT Health Ageing PhD School, Coimbra, Portugal.",
+        "IEETA - Institute of Electronics and Telematics Engineering of Aveiro, Campus Universitario, Aveiro, Portugal.",
+        "Department of Electronics, Telecommunications and Informatics, University of Aveiro, Aveiro, Portugal.",
+        "ESAN - Aveiro North School, University of Aveiro, Aveiro, Portugal.",
+        "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+        "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+        "FFUC - Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+        "EIT Health Ageing PhD School, Coimbra, Portugal.",
+        "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+        "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+        "IIIUC - Institute for Interdisciplinary Research, University of Coimbra, Coimbra, Portugal.",
+        "Gene Therapy Center of Excellence (GeneT), Coimbra, Portugal.",
+        "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+        "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+        "FFUC - Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+        "EIT Health Ageing PhD School, Coimbra, Portugal.",
+        "Gene Therapy Center of Excellence (GeneT), Coimbra, Portugal.",
+        "Sleep Medicine Centre, Coimbra Hospital and University Centre, Coimbra, Portugal.",
+        "Sleep Medicine Centre, Coimbra Hospital and University Centre, Coimbra, Portugal.",
+        "Sleep Medicine Centre, Coimbra Hospital and University Centre, Coimbra, Portugal.",
+        "Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA.",
+        "Howard Hughes Medical Institute, University of Pennsylvania, Philadelphia, PA, USA.",
+        "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+        "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+        "FFUC - Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+        "Gene Therapy Center of Excellence (GeneT), Coimbra, Portugal.",
+        "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal. ritaa80@cnc.uc.pt.",
+        "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal. ritaa80@cnc.uc.pt.",
+        "IIIUC - Institute for Interdisciplinary Research, University of Coimbra, Coimbra, Portugal. ritaa80@cnc.uc.pt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Carvalhas-Almeida, Catarina",
+        "short_name": "Carvalhas-Almeida C",
+        "identifiers": [
+          "0000-0002-4942-8249"
+        ],
+        "affiliations": [
+          "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+          "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+          "FFUC - Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+          "EIT Health Ageing PhD School, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Alves, João",
+        "short_name": "Alves J",
+        "identifiers": [],
+        "affiliations": [
+          "IEETA - Institute of Electronics and Telematics Engineering of Aveiro, Campus Universitário, Aveiro, Portugal.",
+          "Department of Electronics, Telecommunications and Informatics, University of Aveiro, Aveiro, Portugal."
+        ]
+      },
+      {
+        "full_name": "Davi, Tiago",
+        "short_name": "Davi T",
+        "identifiers": [],
+        "affiliations": [
+          "ESAN - Aveiro North School, University of Aveiro, Aveiro, Portugal."
+        ]
+      },
+      {
+        "full_name": "Santos, Barbara",
+        "short_name": "Santos B",
+        "identifiers": [],
+        "affiliations": [
+          "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+          "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+          "FFUC - Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+          "EIT Health Ageing PhD School, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Gaspar, Laetitia",
+        "short_name": "Gaspar L",
+        "identifiers": [],
+        "affiliations": [
+          "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+          "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+          "IIIUC - Institute for Interdisciplinary Research, University of Coimbra, Coimbra, Portugal.",
+          "Gene Therapy Center of Excellence (GeneT), Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Ribeiro, Rodrigo F N",
+        "short_name": "Ribeiro RFN",
+        "identifiers": [
+          "0000-0002-5159-4406"
+        ],
+        "affiliations": [
+          "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+          "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+          "FFUC - Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+          "EIT Health Ageing PhD School, Coimbra, Portugal.",
+          "Gene Therapy Center of Excellence (GeneT), Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Serra, Joana",
+        "short_name": "Serra J",
+        "identifiers": [],
+        "affiliations": [
+          "Sleep Medicine Centre, Coimbra Hospital and University Centre, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Mafalda",
+        "short_name": "Ferreira M",
+        "identifiers": [],
+        "affiliations": [
+          "Sleep Medicine Centre, Coimbra Hospital and University Centre, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Moita, Joaquim",
+        "short_name": "Moita J",
+        "identifiers": [],
+        "affiliations": [
+          "Sleep Medicine Centre, Coimbra Hospital and University Centre, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Sehgal, Amita",
+        "short_name": "Sehgal A",
+        "identifiers": [
+          "0000-0001-7354-9641"
+        ],
+        "affiliations": [
+          "Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA.",
+          "Howard Hughes Medical Institute, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Cavadas, Cláudia",
+        "short_name": "Cavadas C",
+        "identifiers": [
+          "0000-0001-8020-9266"
+        ],
+        "affiliations": [
+          "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+          "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal.",
+          "FFUC - Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+          "Gene Therapy Center of Excellence (GeneT), Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Álvaro, Ana Rita",
+        "short_name": "Álvaro AR",
+        "identifiers": [
+          "0000-0002-2387-374X"
+        ],
+        "affiliations": [
+          "CNC - UC- Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal. ritaa80@cnc.uc.pt.",
+          "CIBB - Centre for Innovation in Biomedicine and Biotechnology, University of Coimbra, Coimbra, Portugal. ritaa80@cnc.uc.pt.",
+          "IIIUC - Institute for Interdisciplinary Research, University of Coimbra, Coimbra, Portugal. ritaa80@cnc.uc.pt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational psychiatry"
+    ],
+    "journal_abbrev": [
+      "Transl Psychiatry"
+    ],
+    "pub_date": "2026 Jul 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/02 00:34",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42386720",
+      "39201748",
+      "39293196",
+      "35921717",
+      "30862195",
+      "39696383",
+      "41123484",
+      "41863169",
+      "39375341",
+      "29621412",
+      "41192581",
+      "33647771",
+      "20807668",
+      "27132483",
+      "40113269",
+      "35732555",
+      "41688421",
+      "39408776",
+      "26101944",
+      "26168277",
+      "42751051",
+      "38674278",
+      "39888642",
+      "38217033",
+      "40398068",
+      "26527095",
+      "11502812",
+      "18041477",
+      "41915304",
+      "23445508",
+      "30851380",
+      "30657733",
+      "39612654",
+      "18075796",
+      "18517031",
+      "39869900",
+      "23183326",
+      "39126038",
+      "30195196",
+      "11988351",
+      "20656788",
+      "26512752",
+      "35728080",
+      "23131081",
+      "17969870",
+      "38305790",
+      "26564124",
+      "30003419",
+      "25325466",
+      "40850055",
+      "28853078",
+      "34895464",
+      "40692435",
+      "37154720",
+      "29029340",
+      "41666816",
+      "41092452",
+      "31252075",
+      "8341894",
+      "23738906",
+      "42503244",
+      "22902636",
+      "27568893",
+      "32805476",
+      "25025617",
+      "42586392",
+      "20978224",
+      "26083888",
+      "18603220",
+      "21454294",
+      "22634208",
+      "25201053",
+      "20471092",
+      "30690916",
+      "16096739",
+      "39151711",
+      "38584196",
+      "30616157",
+      "40662650",
+      "22906517",
+      "30026614",
+      "30917702",
+      "30758328",
+      "41677976",
+      "42612566",
+      "42401921",
+      "25524529",
+      "25640603",
+      "31585206",
+      "32633440",
+      "8340561",
+      "19625733",
+      "27102916",
+      "32161046",
+      "41820035",
+      "30518442",
+      "40175421",
+      "25500935",
+      "38100195",
+      "30009381"
+    ],
+    "review": [
+      "42386720",
+      "41123484",
+      "41915304",
+      "17969870",
+      "40850055",
+      "18603220",
+      "22906517"
+    ],
+    "pmc": [
+      "13590588"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/insomnia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Insomnia"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41398-026-04183-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42386720/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

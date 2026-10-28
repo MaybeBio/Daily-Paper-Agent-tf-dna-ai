@@ -1,0 +1,646 @@
+{
+  "identity": {
+    "pmid": "36229673",
+    "doi": "10.1038/s41588-022-01197-7",
+    "title": "Deep learning of cross-species single-cell landscapes identifies conserved regulatory programs underlying cell types."
+  },
+  "content": {
+    "abstract": "Despite extensive efforts to generate and analyze reference genomes, genetic models to predict gene regulation and cell fate decisions are lacking for most species. Here, we generated whole-body single-cell transcriptomic landscapes of zebrafish, Drosophila and earthworm. We then integrated cell landscapes from eight representative metazoan species to study gene regulation across evolution. Using these uniformly constructed cross-species landscapes, we developed a deep-learning-based strategy, Nvwa, to predict gene expression and identify regulatory sequences at the single-cell level. We systematically compared cell-type-specific transcription factors to reveal conserved genetic regulation in vertebrates and invertebrates. Our work provides a valuable resource and offers a new strategy for studying regulatory grammar in diverse biological systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Zebrafish/genetics/metabolism",
+      "*Deep Learning",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Expression Regulation",
+      "Drosophila/genetics/metabolism",
+      "Conserved Sequence/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jiaqi",
+        "Wang, Jingjing",
+        "Zhang, Peijing",
+        "Wang, Renying",
+        "Mei, Yuqing",
+        "Sun, Zhongyi",
+        "Fei, Lijiang",
+        "Jiang, Mengmeng",
+        "Ma, Lifeng",
+        "E, Weigao",
+        "Chen, Haide",
+        "Wang, Xinru",
+        "Fu, Yuting",
+        "Wu, Hanyu",
+        "Liu, Daiyuan",
+        "Wang, Xueyi",
+        "Li, Jingyu",
+        "Guo, Qile",
+        "Liao, Yuan",
+        "Yu, Chengxuan",
+        "Jia, Danmei",
+        "Wu, Jian",
+        "He, Shibo",
+        "Liu, Huanju",
+        "Ma, Jun",
+        "Lei, Kai",
+        "Chen, Jiming",
+        "Han, Xiaoping",
+        "Guo, Guoji"
+      ],
+      "short_names": [
+        "Li J",
+        "Wang J",
+        "Zhang P",
+        "Wang R",
+        "Mei Y",
+        "Sun Z",
+        "Fei L",
+        "Jiang M",
+        "Ma L",
+        "E W",
+        "Chen H",
+        "Wang X",
+        "Fu Y",
+        "Wu H",
+        "Liu D",
+        "Wang X",
+        "Li J",
+        "Guo Q",
+        "Liao Y",
+        "Yu C",
+        "Jia D",
+        "Wu J",
+        "He S",
+        "Liu H",
+        "Ma J",
+        "Lei K",
+        "Chen J",
+        "Han X",
+        "Guo G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6006-2727",
+        "ORCID: 0000-0001-9677-7532",
+        "ORCID: 0000-0002-1505-6766",
+        "ORCID: 0000-0002-3370-4296",
+        "ORCID: 0000-0002-1609-3294",
+        "ORCID: 0000-0003-3155-3145",
+        "ORCID: 0000-0003-3201-7635",
+        "ORCID: 0000-0002-1716-4621"
+      ],
+      "affiliations": [
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China. jingjingw@zju.edu.cn.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China. jingjingw@zju.edu.cn.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang University-University of Edinburgh Institute, Zhejiang University School of Medicine, Zhejiang University, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Zhejiang Provincial Key Laboratory for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Division of Hepatobiliary and Pancreatic Surgery, Department of Surgery, First Affiliated Hospital School of Medicine, Zhejiang University, Hangzhou, China.",
+        "College of Control Science and Engineering, Zhejiang University, Hangzhou, China.",
+        "Women's Hospital and Institute of Genetics, Zhenjiang University School of Medicine, Hangzhou, China.",
+        "Women's Hospital and Institute of Genetics, Zhenjiang University School of Medicine, Hangzhou, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, China.",
+        "College of Control Science and Engineering, Zhejiang University, Hangzhou, China.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China. xhan@zju.edu.cn.",
+        "Zhejiang Provincial Key Laboratory for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, China. xhan@zju.edu.cn.",
+        "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China. ggj@zju.edu.cn.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China. ggj@zju.edu.cn.",
+        "Zhejiang University-University of Edinburgh Institute, Zhejiang University School of Medicine, Zhejiang University, Hangzhou, China. ggj@zju.edu.cn.",
+        "Zhejiang Provincial Key Laboratory for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, China. ggj@zju.edu.cn.",
+        "Alibaba-Zhejiang University Joint Research Center of Future Digital Healthcare, Hangzhou, China. ggj@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jiaqi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingjing",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-6006-2727"
+        ],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China. jingjingw@zju.edu.cn.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China. jingjingw@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peijing",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Renying",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Yuqing",
+        "short_name": "Mei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhongyi",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fei, Lijiang",
+        "short_name": "Fei L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Mengmeng",
+        "short_name": "Jiang M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Lifeng",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "E, Weigao",
+        "short_name": "E W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Haide",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinru",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yuting",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hanyu",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Daiyuan",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xueyi",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyu",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0001-9677-7532"
+        ],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Qile",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang University-University of Edinburgh Institute, Zhejiang University School of Medicine, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Yuan",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Zhejiang Provincial Key Laboratory for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chengxuan",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Danmei",
+        "short_name": "Jia D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jian",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hepatobiliary and Pancreatic Surgery, Department of Surgery, First Affiliated Hospital School of Medicine, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Shibo",
+        "short_name": "He S",
+        "identifiers": [
+          "0000-0002-1505-6766"
+        ],
+        "affiliations": [
+          "College of Control Science and Engineering, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Huanju",
+        "short_name": "Liu H",
+        "identifiers": [
+          "0000-0002-3370-4296"
+        ],
+        "affiliations": [
+          "Women's Hospital and Institute of Genetics, Zhenjiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jun",
+        "short_name": "Ma J",
+        "identifiers": [
+          "0000-0002-1609-3294"
+        ],
+        "affiliations": [
+          "Women's Hospital and Institute of Genetics, Zhenjiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Kai",
+        "short_name": "Lei K",
+        "identifiers": [],
+        "affiliations": [
+          "Westlake Laboratory of Life Sciences and Biomedicine, Key Laboratory of Growth Regulation and Translational Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiming",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0003-3155-3145"
+        ],
+        "affiliations": [
+          "College of Control Science and Engineering, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xiaoping",
+        "short_name": "Han X",
+        "identifiers": [
+          "0000-0003-3201-7635"
+        ],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China. xhan@zju.edu.cn.",
+          "Zhejiang Provincial Key Laboratory for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, China. xhan@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Guo, Guoji",
+        "short_name": "Guo G",
+        "identifiers": [
+          "0000-0002-1716-4621"
+        ],
+        "affiliations": [
+          "Center for Stem Cell and Regenerative Medicine and Bone Marrow Transplantation Center of the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China. ggj@zju.edu.cn.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China. ggj@zju.edu.cn.",
+          "Zhejiang University-University of Edinburgh Institute, Zhejiang University School of Medicine, Zhejiang University, Hangzhou, China. ggj@zju.edu.cn.",
+          "Zhejiang Provincial Key Laboratory for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, China. ggj@zju.edu.cn.",
+          "Alibaba-Zhejiang University Joint Research Center of Future Digital Healthcare, Hangzhou, China. ggj@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature genetics"
+    ],
+    "journal_abbrev": [
+      "Nat Genet"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/14 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "42633766",
+      "42549891",
+      "42185539",
+      "42041094",
+      "42036810",
+      "41610256",
+      "41421360",
+      "41387122",
+      "41309493",
+      "41272432",
+      "41258300",
+      "41145510",
+      "41125796",
+      "40993253",
+      "40887856",
+      "40804517",
+      "40660220",
+      "40564314",
+      "40228790",
+      "40013957",
+      "39975195",
+      "39792333",
+      "39702452",
+      "39345504",
+      "39227584",
+      "38856169",
+      "38734369",
+      "38531696",
+      "38155158",
+      "38145338",
+      "37697055",
+      "37531419",
+      "37291105",
+      "36630908",
+      "36619868"
+    ],
+    "refs": [
+      "35239393",
+      "34660600",
+      "34608324",
+      "34234317",
+      "33944782",
+      "33657376",
+      "32978299",
+      "32612232",
+      "32461609",
+      "32433972",
+      "32214235",
+      "31701148",
+      "31642470",
+      "31552245",
+      "31292549",
+      "31178118",
+      "30954475",
+      "30942676",
+      "30496475",
+      "30204897",
+      "30078704",
+      "30013180",
+      "29961576",
+      "29856957",
+      "29775597",
+      "29674431",
+      "29588361",
+      "29491377",
+      "29409532",
+      "29335486",
+      "28991892",
+      "28818938",
+      "28091601",
+      "27818507",
+      "27197224",
+      "26301843",
+      "26243257",
+      "25867923",
+      "25765347",
+      "25421701",
+      "25398896",
+      "25215497",
+      "24799436",
+      "24385147",
+      "24351709",
+      "24347625",
+      "23845962",
+      "23281567",
+      "23104886",
+      "21934679",
+      "21330290",
+      "19505943",
+      "19274050",
+      "17324271",
+      "8078409",
+      "1764510"
+    ],
+    "similar": [
+      "36229673",
+      "16007341",
+      "22011226",
+      "20808951",
+      "15496438",
+      "21731768",
+      "23253453",
+      "21844364",
+      "12758126",
+      "24440152",
+      "33888512",
+      "25164757",
+      "24680932",
+      "25219855",
+      "15690032",
+      "19704032",
+      "26147098",
+      "27965291",
+      "12362434",
+      "8575303",
+      "18773071",
+      "18455719",
+      "33239788",
+      "35929025",
+      "19128492",
+      "15330865",
+      "17008448",
+      "35062026",
+      "23799133",
+      "30661644",
+      "22722344",
+      "21154525",
+      "14672977",
+      "21435340",
+      "11932949",
+      "17916571",
+      "23840829",
+      "24282393",
+      "16179648",
+      "25210771",
+      "21723274",
+      "18485195",
+      "34895465",
+      "21150985",
+      "18039873",
+      "23876428",
+      "22808219",
+      "16203978",
+      "33154111",
+      "28850571",
+      "15753212",
+      "15669053",
+      "19755139",
+      "15345045",
+      "25427861",
+      "25521507",
+      "15357878",
+      "14718378",
+      "18454855",
+      "15693615",
+      "12537575",
+      "14645536",
+      "18992237",
+      "22534400",
+      "9491376",
+      "33004976",
+      "22876195",
+      "22456606",
+      "20160503",
+      "10971654",
+      "17875208",
+      "32471880",
+      "21756893",
+      "22422836",
+      "10028291",
+      "18055479",
+      "16691572",
+      "23174015",
+      "18358846",
+      "17708765",
+      "19132088",
+      "25868627",
+      "33657376",
+      "20668662",
+      "21478888",
+      "12424518",
+      "15064948",
+      "20956563",
+      "38366243",
+      "39375485"
+    ],
+    "review": [
+      "36229673"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=36229673",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41588-022-01197-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/36229673",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse178149",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

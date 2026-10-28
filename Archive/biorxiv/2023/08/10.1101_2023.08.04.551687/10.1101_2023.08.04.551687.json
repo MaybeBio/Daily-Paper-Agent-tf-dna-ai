@@ -1,0 +1,602 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.04.551687",
+  "title": "Quantification of biases in predictions of protein-protein binding affinity changes upon mutations",
+  "doi": "10.1101/2023.08.04.551687",
+  "abstract": "Understanding the impact of mutations on protein-protein binding affinity is a key objective for a wide range of biotechnological applications and for shedding light on disease-causing mutations, which are often located at protein-protein interfaces. Over the past decade, many computational methods using physics-based and/or machine learning approaches have been developed to predict how protein binding affinity changes upon mutations. They all claim to achieve astonishing accuracy on both training and test sets, with performances on standard benchmarks such as SKEMPI 2.0 that seem overly optimistic. Here we benchmarked eight well-known and well-used predictors and identified their biases and dataset dependencies, using not only SKEMPI 2.0 as a test set but also deep mutagenesis data on the SARS-CoV-2 spike protein in complex with the human angiotensin-converting enzyme 2. We showed that, even though most of the tested methods reach a significant degree of robustness and accuracy, they suffer from limited generalizability properties and struggle to predict unseen mutations. Interestingly, the generalizability problems are more severe for pure machine learning approaches while physics-based methods are less affected by this issue. Moreover, undesirable prediction biases towards specific mutation properties, the most marked being towards destabilizing mutations, are also observed and should be carefully considered by method developers. We conclude from our analyses that there is room for improvement in the prediction models and suggest ways to check, assess and improve their generalizability and robustness.",
+  "authors": [
+    "Matsvei Tsishyn",
+    "Fabrizio Pucci",
+    "Marianne Rooman"
+  ],
+  "published_date": "2023-08-07",
+  "updated_date": "2023-08-07T10:35:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.04.551687",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.04.551687.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:32:46Z",
+        "timestamp": 1768505566994,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            7
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 58,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Understanding the impact of mutations on protein-protein binding affinity is a key objective for a wide range of biotechnological applications and for shedding light on disease-causing mutations, which are often located at protein-protein interfaces. Over the past decade, many computational methods using physics-based and/or machine learning approaches have been developed to predict how protein binding affinity changes upon mutations. They all claim to achieve astonishing accuracy on both training and test sets, with performances on standard benchmarks such as SKEMPI 2.0 that seem overly optimistic. Here we benchmarked eight well-known and well-used predictors and identified their biases and dataset dependencies, using not only SKEMPI 2.0 as a test set but also deep mutagenesis data on the SARS-CoV-2 spike protein in complex with the human angiotensin-converting enzyme 2. We showed that, even though most of the tested methods reach a significant degree of robustness and accuracy, they suffer from limited generalizability properties and struggle to predict unseen mutations. Interestingly, the generalizability problems are more severe for pure machine learning approaches while physics-based methods are less affected by this issue. Moreover, undesirable prediction biases towards specific mutation properties, the most marked being towards destabilizing mutations, are also observed and should be carefully considered by method developers. We conclude from our analyses that there is room for improvement in the prediction models and suggest ways to check, assess and improve their generalizability and robustness.</jats:p>",
+      "DOI": "10.1101/2023.08.04.551687",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2023-08-07T10:35:13Z",
+        "timestamp": 1691404513000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Quantification of biases in predictions of protein-protein binding affinity changes upon mutations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Matsvei",
+          "family": "Tsishyn",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fabrizio",
+          "family": "Pucci",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Marianne",
+          "family": "Rooman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.04.013"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-020-00774-y"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.copbio.2020.02.005"
+        },
+        {
+          "issue": "18",
+          "key": "2023122110051026000_2023.08.04.551687v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2974",
+          "DOI": "10.1016/j.jmb.2018.07.012",
+          "article-title": "Multilayer view of pathogenic SNVs in human interactome through in silico edgetic profiling",
+          "volume": "430",
+          "year": "2018",
+          "journal-title": "Journal of Molecular Biology"
+        },
+        {
+          "issue": "16",
+          "key": "2023122110051026000_2023.08.04.551687v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "3302",
+          "DOI": "10.1039/C4CC08565E",
+          "article-title": "Modulating protein–protein interactions: the potential of peptides",
+          "volume": "51",
+          "year": "2015",
+          "journal-title": "Chemical Communications"
+        },
+        {
+          "issue": "1",
+          "key": "2023122110051026000_2023.08.04.551687v2.6",
+          "first-page": "1",
+          "article-title": "Recent advances in the development of protein–protein interactions modulators: mechanisms and clinical trials",
+          "volume": "5",
+          "year": "2020",
+          "journal-title": "Signal Transduction and Targeted Therapy"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(00)00248-7"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2188-x"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202485799"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(02)00442-4"
+        },
+        {
+          "issue": "1",
+          "key": "2023122110051026000_2023.08.04.551687v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1002/prot.20019",
+          "article-title": "A physical reference state unifies the structure-derived potential of mean force for protein folding and binding",
+          "volume": "56",
+          "year": "2004",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt450"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt691"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw374"
+        },
+        {
+          "issue": "3",
+          "key": "2023122110051026000_2023.08.04.551687v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "426",
+          "DOI": "10.1016/j.jmb.2016.11.022",
+          "article-title": "BindProfX: assessing mutation-induced binding affinity change by protein interface profiles with pseudo-counts",
+          "volume": "429",
+          "year": "2017",
+          "journal-title": "Journal of Molecular Biology"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz383"
+        },
+        {
+          "issue": "3",
+          "key": "2023122110051026000_2023.08.04.551687v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "100939",
+          "DOI": "10.1016/j.isci.2020.100939",
+          "article-title": "MutaBind2: predicting the impacts of single and multiple mutations on protein-protein interactions",
+          "volume": "23",
+          "year": "2020",
+          "journal-title": "Iscience"
+        },
+        {
+          "issue": "8",
+          "key": "2023122110051026000_2023.08.04.551687v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "2429",
+          "DOI": "10.1093/bioinformatics/btz926",
+          "article-title": "SSIPe: Accurately estimating protein–protein binding affinity change upon mutations using evolutionary profiles in combination with an optimized physical energy function",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "7",
+          "key": "2023122110051026000_2023.08.04.551687v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "2563",
+          "DOI": "10.3390/ijms21072563",
+          "article-title": "SAAMBE-3D: predicting effect of mutations on protein–protein interactions",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "issue": "2",
+          "key": "2023122110051026000_2023.08.04.551687v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1038/s42256-020-0149-6",
+          "article-title": "A topology-based network tree for the prediction of protein–protein binding affinity changes following mutation",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab273"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(00)00063-4"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.283"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts489"
+        },
+        {
+          "issue": "3",
+          "key": "2023122110051026000_2023.08.04.551687v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.1093/bioinformatics/bty635",
+          "article-title": "SKEMPI 2.0: an updated benchmark of changes in protein–protein binding energy, kinetics and thermodynamics upon mutation",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/17.3.284"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkj017"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.580"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2829"
+        },
+        {
+          "issue": "17",
+          "key": "2023122110051026000_2023.08.04.551687v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "2787",
+          "DOI": "10.1093/bioinformatics/btx312",
+          "article-title": "PROXiMATE: a database of mutant protein–protein complex thermodynamics and kinetics",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-018-2201-7"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2015.07.016"
+        },
+        {
+          "issue": "1",
+          "key": "2023122110051026000_2023.08.04.551687v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "458",
+          "DOI": "10.1016/j.ifacol.2015.05.068",
+          "article-title": "Symmetry principles in optimization problems: an application to protein stability prediction",
+          "volume": "48",
+          "year": "2015",
+          "journal-title": "IFAC-PapersOnLine"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty340"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioin-formatics/bty348"
+        },
+        {
+          "issue": "5",
+          "key": "2023122110051026000_2023.08.04.551687v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1295",
+          "DOI": "10.1016/j.cell.2020.08.012",
+          "article-title": "Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding",
+          "volume": "182",
+          "year": "2020",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.4023714"
+        },
+        {
+          "issue": "9",
+          "key": "2023122110051026000_2023.08.04.551687v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1734",
+          "DOI": "10.1002/prot.24527",
+          "article-title": "Cation–π, amino–π, π–π, and H-bond interactions stabilize antigen– antibody interfaces",
+          "volume": "82",
+          "year": "2014",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2023122110051026000_2023.08.04.551687v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "2577",
+          "DOI": "10.1002/bip.360221211",
+          "article-title": "Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features",
+          "volume": "22",
+          "year": "1983",
+          "journal-title": "Biopolymers: Original Research on Biomolecules"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.98.4.1410"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M513583200"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2180-5"
+        },
+        {
+          "issue": "1",
+          "key": "2023122110051026000_2023.08.04.551687v2.44",
+          "first-page": "5",
+          "article-title": "Comparative protein structure modeling using MODELLER",
+          "volume": "54",
+          "year": "2016",
+          "journal-title": "Current Protocols in Bioinformatics"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp445"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq404"
+        },
+        {
+          "issue": "20",
+          "key": "2023122110051026000_2023.08.04.551687v2.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "4168",
+          "DOI": "10.1093/bioinformatics/btz184",
+          "article-title": "FoldX 5.0: working with rna, small molecules and a new graphical interface",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "9",
+          "key": "2023122110051026000_2023.08.04.551687v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1513",
+          "DOI": "10.1093/bioinformatics/bty880",
+          "article-title": "A natural upper bound to the accuracy of predicting protein stability changes upon mutations",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1177932219871263",
+          "DOI": "10.1177/1177932219871263",
+          "article-title": "On the upper bounds of the real-valued predictions",
+          "volume": "13",
+          "year": "2019",
+          "journal-title": "Bioinformatics and Biology Insights"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c00591"
+        },
+        {
+          "issue": "8",
+          "key": "2023122110051026000_2023.08.04.551687v2.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "504",
+          "DOI": "10.1002/jcc.26810",
+          "article-title": "Data set and fitting dependencies when estimating protein mutant stability: Toward simple, balanced, and interpretable models",
+          "volume": "43",
+          "year": "2022",
+          "journal-title": "Journal of Computational Chemistry"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzp030"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2010.09.028"
+        },
+        {
+          "issue": "11",
+          "key": "2023122110051026000_2023.08.04.551687v2.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "1980",
+          "DOI": "10.1002/prot.24356",
+          "article-title": "Community-wide evaluation of methods for predicting the effect of mutations on protein–protein interactions",
+          "volume": "81",
+          "year": "2013",
+          "journal-title": "Proteins: Struc-ture, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.1051"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)81823-1"
+        },
+        {
+          "key": "2023122110051026000_2023.08.04.551687v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.04.551687",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:02:23Z",
+        "timestamp": 1768453343000
+      },
+      "score": 106.6931,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.04.551687"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            7
+          ]
+        ]
+      },
+      "references-count": 58,
+      "URL": "https://doi.org/10.1101/2023.08.04.551687",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbad491",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

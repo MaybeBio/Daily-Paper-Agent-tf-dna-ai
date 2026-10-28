@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, methodological rigor, reproducibility, and alignment with claims made in the abstract and main text
+- **Shared manuscript claim summary** The authors present a computational framework that links Hi-C contact maps to gene expression predictions by combining a bead-spring polymer model with a stochastic kinetic model of transcription. They validate this approach by simulating CTCF boundary deletion at the sox9-kcnj2 locus and reproduce experimentally observed expression changes. They further apply the framework to a Pax3 locus and predict an 8-fold misexpression, compared to a 35-fold experimental observation.
+- **Visible evidence base** Main text figures (Figs 1-8), Table I, Methods section, references to Supplementary Figures S1-S6 and Supplementary Sections S1-S5
+- **Missing materials affecting confidence** Supplementary figures and sections referenced but not provided; raw simulation parameters beyond those stated; detailed fitting procedures for binding/unbinding rates; code availability statement not present; details on experimental data processing for cHiC datasets
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational framework that connects chromatin structure to gene expression predictions. The approach is conceptually interesting and the validation on the sox9-kcnj2 locus shows reasonable agreement with experimental data. However, several technical concerns regarding model parameterization, validation rigor, and the interpretation of quantitative predictions need to be addressed before the claims are fully established. The Pax3 application reveals a substantial quantitative discrepancy (8-fold vs 35-fold) that the authors acknowledge but do not fully contextualize.
+- **Who would be interested in the results, and why** Researchers in 3D genome organization, gene regulation, and computational biology would find this framework of interest. The approach offers a way to predict expression changes from structural alterations, which could be useful for interpreting disease-associated chromatin mutations and for understanding enhancer-promoter communication mechanisms.
+- **Major strengths** The framework integrates polymer physics with kinetic modeling in a novel way. The validation on the sox9-kcnj2 locus is well-designed, using publicly available experimental data. The model successfully reproduces the direction and approximate magnitude of expression changes for sox9 and kcnj2. The application to a second locus (Pax3) demonstrates generalizability, even if quantitative accuracy is limited. The discussion of model limitations is candid and constructive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the framework "quantitatively reproduces experimentally observed changes in gene expression" for the sox9-kcnj2 locus.
+  - **Evidence pointer** Results section "Markov chain integrating E-P interaction and TF binding predicts the transcription changes in the structural variants", Fig 6c
+  - **Concern** The quantitative match between model predictions and experimental data for sox9 expression is presented as a key validation, but the figure shows only relative expression with error bars. The exact numerical values of the predicted versus experimental fold-changes are not stated in the main text. Without explicit numbers, it is difficult to assess whether the agreement is truly quantitative or only qualitative. Additionally, the model uses a weight factor w=2 for enhancer contribution, which is stated as a simplification but its sensitivity on the final predictions is not explored.
+  - **Why it matters** The central claim of the paper is quantitative prediction of expression changes. If the agreement is only qualitative, the claim should be moderated. The sensitivity of results to the arbitrary weight factor w needs to be established to demonstrate robustness.
+  - **Resolution test** Provide explicit numerical values for predicted and experimental expression changes for sox9 and kcnj2 in both WT and DELC conditions. Perform a sensitivity analysis varying w (e.g., w=1, 2, 3) and show that the qualitative conclusions and quantitative predictions remain stable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model "can also identify functional enhancers" based on E-P interaction patterns.
+  - **Evidence pointer** Results section "Newfound enhancer-accessibility drives large change in gene expression level of kcnj2 gene post-boundary deletion", Fig 7
+  - **Concern** The identification of functional enhancers relies on the assumption that E-P contact frequency correlates with enhancer activity. However, the model does not incorporate any epigenetic marks, chromatin accessibility data, or transcription factor binding information that would strengthen this claim. The distinction between "specific" and "nonspecific" enhancers is based on genomic annotation from external databases, but the model itself does not independently predict which enhancers are functional. The claim that the framework can identify functional enhancers appears overstated given that the enhancer annotations are provided as input.
+  - **Why it matters** The ability to identify functional enhancers from structure alone would be a significant advance. If the model merely recapitulates known annotations, the novelty is reduced. The claim needs to be clarified or supported with additional validation.
+  - **Resolution test** Clarify whether the model can identify functional enhancers without prior annotation. If not, moderate the claim. Alternatively, perform a blind test where enhancer annotations are withheld and assess whether the model can predict known functional enhancers from contact data alone.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The framework is described as "computationally efficient" and applicable to any Hi-C dataset.
+  - **Evidence pointer** Methods section "Polymer simulation"
+  - **Concern** The computational cost of the approach is not quantified. The authors state that 200 simulations with different initial conditions were run, each producing 2x10^4 configurations, totaling 4x10^6 configurations. The computational time and resources required for this are not reported. For the framework to be useful to the community, the computational cost should be stated, and ideally the code should be made available.
+  - **Why it matters** Reproducibility and usability of computational frameworks depend on clear documentation of computational requirements and code availability. Without this information, other researchers cannot assess whether the approach is practical for their applications.
+  - **Resolution test** Report the computational time and hardware used for the simulations. Provide a statement on code availability, ideally with a public repository link.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The Pax3 application demonstrates the framework's versatility, but the model predicts an 8-fold misexpression while experimental data show 35-fold.
+  - **Evidence pointer** Results section "The model predicts up to an 8-fold misexpression of the Pax3 gene due to EP boundary deletion in the E11.5 mESC cell line", Fig 8d
+  - **Concern** The discrepancy between predicted (8-fold) and experimental (35-fold) expression changes is substantial. The authors acknowledge this but do not provide a detailed analysis of why the model underestimates the effect. Possible reasons include missing regulatory mechanisms, limitations of the polymer model resolution, or inaccuracies in the kinetic model parameters. Without a deeper investigation of this discrepancy, the generalizability of the framework to other loci remains uncertain.
+  - **Why it matters** The Pax3 case is presented as evidence of versatility, but the large quantitative gap raises questions about the model's predictive power for loci with large expression changes. Understanding the source of this discrepancy is important for improving the model and for setting appropriate expectations for its use.
+  - **Resolution test** Provide a detailed discussion of potential reasons for the discrepancy, possibly with additional simulations testing model variations (e.g., different weight factors, inclusion of additional regulatory mechanisms). If the model is intended for qualitative predictions only, state this clearly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "Spatial organization of chromatin plays a critical role in gene transcription" which is a broad claim. The abstract could more precisely state the scope of the work.
+  - **Required correction** Rephrase to specify that the work focuses on the relationship between chromatin structure and gene expression in specific loci.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section "MD simulation trajectories quantify three-dimensional E-P interactions and highlight the role key-enhancer in gene transcription"
+  - **Evidence pointer** Fig 2, Table I
+  - **Issue** The section title contains a grammatical error ("role key-enhancer" should be "role of key enhancers"). The text describing Table I is dense and could benefit from clearer explanation of the single, diad, and triad categories.
+  - **Required correction** Fix the title grammar. Add a brief explanation in the text or table legend defining single, diad, and triad states.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Kinetic model"
+  - **Evidence pointer** Methods, equation 6
+  - **Issue** The Kronecker delta notation in equation 6 is not fully explained. The term δmi^j is defined but the superscript j is not clearly connected to the promoter index in the text.
+  - **Required correction** Clarify the notation by explicitly stating that δmi^j equals 1 when enhancer i is bound to promoter j, and 0 otherwise.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Kinetic model"
+  - **Evidence pointer** Methods, last paragraph
+  - **Issue** The code is stated to be written in MATLAB R2022A, but no code availability statement is provided.
+  - **Required correction** Add a data and code availability statement.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The discussion of model limitations is useful but could be more structured. The paragraph on viscosity effects is somewhat disconnected from the main thread.
+  - **Required correction** Consider reorganizing the limitations discussion into a dedicated subsection or bullet points for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative validation needs explicit numbers and sensitivity analysis), R1-M2 (functional enhancer identification claim needs clarification or additional validation), R1-M3 (computational cost and code availability need to be reported)
+- **Assessment against Nature-style criteria** Originality: The integration of polymer simulations with kinetic modeling for expression prediction is a novel combination, though individual components are established. Scientific importance: The framework addresses a significant challenge in connecting 3D genome structure to function, with potential applications in interpreting structural variants. Interdisciplinary readership: The work bridges biophysics, genomics, and gene regulation, which could appeal to a broad audience. Technical soundness: The approach is generally sound but has gaps in validation rigor and parameter sensitivity analysis. Readability for nonspecialists: The manuscript is reasonably accessible, though some sections are dense and would benefit from clearer explanations of model details.
+- **Recommendation posture** Supportive if technical concerns are resolved. The framework is promising and the validation on the sox9-kcnj2 locus is encouraging, but the quantitative claims need to be substantiated with explicit numbers and sensitivity analyses. The Pax3 discrepancy needs further discussion. Code availability and computational cost reporting are necessary for reproducibility.
+
+## Risk / unsupported claims
+- The claim that the framework can "identify functional enhancers" is not fully supported, as enhancer annotations are provided as input from external databases.
+- The claim of "quantitative" prediction is not fully substantiated without explicit numerical comparisons and sensitivity analysis.
+- The statement that the model "can be easily extended to other cell types" is plausible but not demonstrated.
+- The assertion that the model captures "non-linear relationships inherent in the complex regulatory network" is not directly validated.
+- The claim that the framework "preserves statistical properties" of experimental datasets is not quantitatively demonstrated beyond correlation coefficients.

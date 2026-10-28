@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report a computational analysis of non-synonymous SNPs in the MYC gene using 29 in silico tools, identifying 21 variants predicted to be deleterious and pathogenic, with predicted effects on protein stability and MYC/MAX interactions.
+- **Visible evidence base** Abstract text only; no methodological details, tool names, thresholds, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, tool versions and parameters, variant selection criteria, scoring thresholds, docking methodology, and all numerical outputs
+
+## Reviewer
+- **Overall assessment** The abstract presents a straightforward computational screening study of MYC nsSNPs. The work is technically plausible but the abstract provides insufficient detail to evaluate the rigor of the analysis or the validity of the conclusions. The claim that 21 variants are "deleterious and pathogenic" rests entirely on consensus across multiple tools, but the criteria for consensus, the handling of discordant predictions, and the statistical significance of the findings are not described. The structural and interaction analyses are mentioned but not substantiated with any quantitative results. The study is potentially useful as a prioritization exercise, but the current abstract does not establish the case for the stated conclusions.
+- **Who would be interested in the results, and why** Researchers in cancer genetics and precision oncology may find the prioritized variant list useful for experimental follow-up. Computational biologists working on variant effect prediction may be interested in the comparative performance of the 29 tools, though this is not described. Clinicians or geneticists studying MYC-related malignancies might use the candidate SNPs as a starting point for functional validation.
+- **Major strengths** The study addresses a relevant question in cancer biology, given MYC's established role in oncogenesis. The use of multiple in silico tools is a reasonable approach to increase confidence in predictions. The identification of specific variants within functional domains (bHLH and LZ) provides a biologically plausible link to MYC/MAX interaction disruption.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "This study employed 29 in silico tools to systematically evaluate the deleteriousness of nsSNPs within the MYC gene" and "Our analysis identified 21 nsSNPs that were predicted to be deleterious and pathogenic"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which 29 tools were used, the criteria for classifying a variant as "deleterious and pathogenic," or how discordant predictions across tools were reconciled. Without this information, the reader cannot assess whether the 21 variants represent a robust consensus or an artifact of tool selection and threshold choices.
+  - **Why it matters** The central conclusion of the study, that 21 specific variants are deleterious and pathogenic, depends entirely on the methodological rigor of the prediction pipeline. If the criteria are arbitrary or the tools are redundant, the list may include false positives or exclude true deleterious variants.
+  - **Resolution test** Provide a supplementary table listing all 29 tools, their prediction categories, and the per-variant scores. Define the consensus rule (e.g., minimum number of tools predicting deleterious, or a weighted scoring scheme) and justify the threshold.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Protein-protein interaction and docking analysis revealed that variants within bHLH and LZ domains may disrupt MYC/MAX binding"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that docking analysis was performed but provides no details on the docking method, the structural template used, the scoring function, or the magnitude of predicted binding affinity changes. The phrase "may disrupt" is speculative and not supported by any quantitative data in the abstract.
+  - **Why it matters** The claim that specific variants disrupt MYC/MAX binding is a key mechanistic conclusion. Without docking scores, binding free energy changes, or comparison to wild-type, the reader cannot evaluate whether the predicted disruption is significant or within the error of the method.
+  - **Resolution test** Report docking scores or binding free energy changes for wild-type and each variant, with statistical measures of significance. Specify the software and parameters used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "This computational assessment enhances our understanding of genetic variations within the MYC gene and prioritises candidate nsSNPs for experimental validation and therapeutic exploration"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not state whether any of the 21 identified variants have been previously reported in cancer databases, population databases (e.g., gnomAD), or functional studies. Without this context, the novelty and clinical relevance of the prioritized list cannot be assessed.
+  - **Why it matters** If the variants are already known and characterized, the study adds little new information. If they are novel, the authors should explicitly state this and discuss the potential significance relative to existing MYC variant knowledge.
+  - **Resolution test** Add a comparison of the 21 variants against known cancer-associated MYC mutations and population frequency data, and discuss the overlap or novelty explicitly.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "nsSNPs," "bHLH," and "LZ" without defining them, which may limit accessibility for readers outside computational biology or molecular genetics.
+  - **Required correction** Define abbreviations at first use, or provide a brief parenthetical explanation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Variant list
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists 21 variants but does not indicate the domain location of each variant (e.g., which are in bHLH vs. LZ vs. other regions). This makes it difficult to evaluate the claim that variants in these domains are specifically relevant.
+  - **Required correction** Provide a table or annotation indicating the domain location of each variant and which variants were included in the docking analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that "None of the variants affected post-translational modifications" is presented without context on which modification types were assessed or how this was determined.
+  - **Required correction** Specify the post-translational modification types examined and the tools used for this prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (tool selection and consensus criteria), R1-M2 (docking methodology and quantitative results), R1-M3 (novelty and clinical context)
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of using multiple in silico tools to screen MYC nsSNPs is not novel in itself, and the abstract does not demonstrate a new methodological contribution. The specific variant list may be new, but this is not established.
+  - Scientific importance: MYC is a high-interest oncogene, and identifying potentially deleterious variants is relevant. However, the abstract does not connect the findings to specific cancer types, patient outcomes, or functional mechanisms beyond a general statement about MYC/MAX binding.
+  - Interdisciplinary readership: The topic bridges cancer biology and computational genomics, but the abstract is written in a way that assumes familiarity with both fields, limiting broader appeal.
+  - Technical soundness: The lack of methodological detail prevents assessment of technical rigor. The consensus approach is reasonable but unverifiable from the abstract.
+  - Readability for nonspecialists: The abstract is concise but uses field-specific jargon without explanation, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible computational study, but the absence of methodological detail and quantitative results means the core claims cannot be evaluated. The authors should provide full methods and results for a proper assessment.
+
+## Risk / unsupported claims
+- The claim that 21 variants are "deleterious and pathogenic" is unsupported without details on tool selection, consensus criteria, and per-variant scores.
+- The claim that variants "may disrupt MYC/MAX binding" is speculative and unsupported without docking scores or binding affinity data.
+- The claim that the study "enhances our understanding" of MYC genetic variation is not substantiated without comparison to existing literature or databases.
+- The statement that "None of the variants affected post-translational modifications" is unverifiable without specifying the modification types and tools used.
+- The overall prioritization of variants for "experimental validation and therapeutic exploration" is a reasonable suggestion but is not supported by any prioritization ranking or scoring system in the abstract.

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) provided as preprint
+- **Assessment boundary** Structural and functional claims presented in the manuscript, based on the provided text and referenced supplementary materials
+- **Shared manuscript claim summary** The authors report the first structural characterization of the NFI-X DNA-binding domain, both alone (X-ray crystallography at 2.7 Å) and bound to its palindromic DNA site (cryo-EM at 3.86 Å). They describe a novel MH1-like fold, a conserved Zn²⁺ binding site, a C-terminal swapping dimerization mechanism, and a DNA recognition mode involving an antenna domain and a β-hairpin loop. They propose that these structures serve as prototypes for the entire NFI transcription factor family.
+- **Visible evidence base** Abstract, Introduction, Results (four subsections), Discussion, Methods (protein production, complex assembly, CD, EMSA, FAAS, crystallography, cryo-EM), figure legends referenced but figures not directly viewable, supplementary figure and table references
+- **Missing materials affecting confidence** Figures and supplementary figures (S1-S11) not directly viewable; supplementary tables S1 and S2 (crystallographic and cryo-EM statistics) not directly viewable; EMSA gel images not directly viewable; full experimental details for some biophysical assays (e.g., SEC calibration, FAAS sample preparation) partially described; AlphaFold model of full-length NFI-X referenced but not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant advance in the structural biology of NFI transcription factors, a family with broad developmental and disease relevance. The combination of X-ray crystallography and cryo-EM to characterize both apo and DNA-bound states is appropriate and well-executed in principle. The identification of a novel MH1-like fold, the Zn²⁺ coordination site, and the C-terminal swapping dimerization mechanism are potentially important findings. However, several technical concerns must be addressed, particularly regarding the resolution of the cryo-EM structure, the functional validation of the proposed activation mechanism, and the generalizability of the claims to the full-length protein and the entire NFI family. The manuscript is well-written and the structural interpretations are largely logical, but the evidence base as presented does not fully establish all claims.
+- **Who would be interested in the results, and why** Structural biologists studying transcription factor DNA recognition, particularly those interested in novel folds and dimerization mechanisms. Researchers in developmental biology and stem cell biology, given the role of NFI proteins in neural, muscle, and hematopoietic development. Clinicians and researchers studying Malan syndrome, Marshall-Smith syndrome, and NFI-associated cancers, as the structural data provide a framework for interpreting pathogenic mutations and designing therapeutic interventions.
+- **Major strengths** First structural characterization of any NFI family member, filling a long-standing gap. Combination of crystallography and cryo-EM to capture both apo and DNA-bound states. Identification of a novel MH1-like fold with a unique antenna domain. Rationalization of previously published biochemical and mutational data, including the role of Zn²⁺ and specific cysteine residues. Structural explanation for the 5-bp spacer preference in the NFI consensus site. Potential clinical relevance through mapping of Malan syndrome mutations onto the structure.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of cryo-EM structure
+  - **Claim pointer** The cryo-EM structure of the NFI-X193/DNA complex was solved at 3.86 Å resolution and used to define the dimerization interface, DNA recognition mode, and activation mechanism.
+  - **Evidence pointer** Results section "The NFI-X DBD binds as a dimer to the DNA major groove, stabilized through a C-terminal swapping mechanism"; Table S2 (referenced)
+  - **Concern** At 3.86 Å resolution, the assignment of specific side-chain interactions, particularly the salt bridges and hydrophobic contacts described in the dimerization interface (e.g., Lys173-Glu143, Leu175/Tyr178/Leu179 pocket) and the base-specific contacts (Arg116-G12, Lys125-G11/G12), is challenging. The manuscript does not provide local resolution estimates, B-factor analysis, or validation metrics (e.g., Q-score, MolProbity for the cryo-EM model) that would support the confidence of these assignments. The claim of a "swapping mechanism" relies on the accurate placement of residues 174-180, which were manually built, and the authors note that the final 12 residues are disordered. Without additional validation, the mechanistic conclusions drawn from this map are not fully established.
+  - **Why it matters** The central mechanistic claims of the paper, including the activation mechanism and the basis for DNA sequence specificity, depend on the accurate interpretation of side-chain interactions at this resolution. Overinterpretation of medium-resolution cryo-EM maps is a known pitfall that can lead to incorrect biological conclusions.
+  - **Resolution test** Provide local resolution maps, per-residue model confidence metrics (e.g., Q-scores or B-factors), and a clear description of how the manual building of residues 174-181 was validated. If possible, support the key side-chain assignments with additional experimental evidence, such as crosslinking mass spectrometry or mutagenesis coupled with high-resolution structures of key mutants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation of proposed mechanism
+  - **Claim pointer** The authors propose a specific activation mechanism whereby Arg38 in the antenna domain forms a salt bridge with Asp124 in the unbound state, and upon DNA binding, Arg38 switches to interact with a DNA phosphate, unlocking the β-hairpin loop for DNA recognition.
+  - **Evidence pointer** Results section "The antenna domain and the β-hairpin loop are the structural determinants of NFI-X DNA binding"; Figure 6B (referenced)
+  - **Concern** The proposed activation mechanism is inferred from a comparison of two static structures (apo and DNA-bound) that differ by only 0.95 Å RMSD. The authors describe this as a "minute difference" yet build a multi-step conformational change model on this basis. No solution-state experiments (e.g., NMR, SAXS, hydrogen-deuterium exchange) or molecular dynamics simulations are presented to support the dynamic nature of this proposed switch. The functional significance of the Arg38-Asp124 salt bridge is not tested directly; the Arg38Leu mutant is mentioned but its behavior is only described in the context of DNA binding affinity, not in terms of the proposed conformational equilibrium.
+  - **Why it matters** The activation mechanism is presented as a key novel finding. If the proposed switch is not experimentally validated, the claim remains speculative and weakens the overall impact of the paper.
+  - **Resolution test** Perform mutagenesis of Arg38 and Asp124 (e.g., charge-reversal or neutralization mutations) and characterize the mutants using biophysical methods (e.g., ITC, SPR, CD) and functional assays (e.g., transcriptional activation in cell-based systems). Alternatively, use molecular dynamics simulations to demonstrate the proposed conformational transition and its coupling to DNA binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability to the NFI family
+  - **Claim pointer** Given the >95% sequence identity within the NFI DBDs, the authors propose that their NFI-X structures are prototypic for the entire NFI family.
+  - **Evidence pointer** Abstract; Discussion; Figure S1 (referenced)
+  - **Concern** While the high sequence identity within the DBD supports the generalizability of the fold, the authors do not discuss or test whether the specific DNA recognition mechanism, particularly the role of the antenna domain and the Arg38-Asp124 switch, is conserved across all NFI family members. The manuscript focuses exclusively on NFI-X isoform 2, and no data are presented for NFI-A, NFI-B, or NFI-C. The claim of "prototypic" status is reasonable but should be tempered or supported by additional evidence, such as sequence alignment analysis of the key functional residues or preliminary structural/biochemical data on another family member.
+  - **Why it matters** The title and abstract make a strong claim about the entire NFI family. If the mechanism is not fully conserved, the claim is overstated and could mislead the field.
+  - **Resolution test** Provide a detailed sequence alignment of the DBDs from all NFI family members, highlighting the conservation of the key functional residues (Arg38, Asp124, Arg116, Lys125, Zn²⁺ coordination site). If possible, include a brief discussion of any known functional differences between family members that might relate to structural differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of the super-helical fibril
+  - **Claim pointer** The cryo-EM structure revealed a super-helical fibril, and the authors speculate that this may be relevant to NFI-mediated DNA looping and viral DNA replication.
+  - **Evidence pointer** Results section "The NFI-X DBD binds as a dimer to the DNA major groove, stabilized through a C-terminal swapping mechanism"; Discussion
+  - **Concern** The super-helical fibril is presented as a structural observation, but its biological relevance is purely speculative. The authors do not provide any experimental evidence (e.g., in vitro DNA looping assays, cellular imaging, or biochemical fractionation) to support the claim that this fibril exists in a cellular context or has functional significance. The discussion of DNA looping and viral replication is interesting but unsupported by the data presented.
+  - **Why it matters** The speculation about DNA looping and viral replication may be overinterpreted by readers and could distract from the more solid structural findings. It is important to clearly distinguish between observation and hypothesis.
+  - **Resolution test** Either remove or clearly label the speculation about the fibril's biological relevance as a hypothesis. If the authors wish to pursue this claim, they should provide experimental evidence for the fibril's existence in a relevant biological context or demonstrate its functional importance in vitro.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1A (referenced)
+  - **Evidence pointer** Results section "The C-terminus of NFI-X DBD increases DNA-binding affinity"
+  - **Issue** The manuscript states that NFI-X193 binds with ~10-fold higher affinity than NFI-X176, but the quantitative basis for this claim is not described in the text. The EMSA data are referenced but not shown in a way that allows the reader to assess the affinity difference.
+  - **Required correction** Provide a quantitative analysis of the EMSA data (e.g., apparent Kd values) or clearly state that the 10-fold difference is an estimate based on visual inspection of the gels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** SEC experiments
+  - **Evidence pointer** Results section "The NFI-X DBD is a monomer in solution"; Figure S2A (referenced)
+  - **Issue** The SEC experiments are described as showing that both constructs are monomeric in solution, but the methods section does not describe the SEC conditions (column type, buffer, molecular weight standards) for the analytical runs. The calibration curve is mentioned only for the preparative runs.
+  - **Required correction** Add a brief description of the analytical SEC conditions in the Methods section, including the column, buffer, and standards used for molecular weight determination.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of mutagenesis data
+  - **Affected element** Figure 7 (referenced)
+  - **Evidence pointer** Results section "The antenna domain and the β-hairpin loop are the structural determinants of NFI-X DNA binding"
+  - **Issue** The manuscript describes the effects of Malan syndrome mutations on DNA binding, but the rationale for choosing specific mutations (e.g., Arg38Leu, Lys113Glu, Arg115Trp) is not fully explained. It is unclear whether these are all known patient mutations or whether some were designed based on the structure.
+  - **Required correction** Clarify the source of the mutations tested (patient-derived vs. structure-guided) and provide a brief rationale for each.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not address the limitations of the study, such as the use of a truncated DBD construct rather than the full-length protein, the absence of the intrinsically disordered C-terminal region, and the potential effects of the antenna domain on DNA binding in the context of chromatin.
+  - **Required correction** Add a paragraph acknowledging these limitations and discussing how they might affect the interpretation of the results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction states that NFI-X is implicated in "muscular dystrophies" and "oncogenesis" but does not provide specific references for these claims beyond general citations for NFI function.
+  - **Required correction** Add specific references for the role of NFI-X in muscular dystrophies and cancer.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cryo-EM resolution and model validation) and R1-M2 (functional validation of the activation mechanism) are the primary technical concerns that must be addressed. The cryo-EM structure at 3.86 Å is the foundation for the key mechanistic claims, and without proper validation of side-chain assignments, the conclusions are not fully supported. The proposed activation mechanism requires experimental testing beyond static structure comparison.
+- **Assessment against Nature-style criteria** Originality: High. This is the first structural characterization of an NFI family member, filling a significant gap in the field. Scientific importance: High. NFI proteins are critical regulators of development and are implicated in multiple diseases, and the structural data provide a framework for understanding their function and for drug design. Interdisciplinary readership: Moderate to high. The findings will be of interest to structural biologists, developmental biologists, cancer researchers, and clinicians. Technical soundness: Moderate. The crystallographic structure appears sound, but the cryo-EM structure at 3.86 Å requires additional validation to support the detailed mechanistic claims. The functional experiments are limited and do not fully test the proposed mechanism. Readability for nonspecialists: Good. The manuscript is clearly written and the structural concepts are explained in an accessible manner, although some familiarity with transcription factor biology is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data are potentially groundbreaking for the NFI field, but the current evidence base does not fully establish the mechanistic claims. The authors should address the cryo-EM validation concerns and provide additional functional data to support the proposed activation mechanism. If these issues are resolved, this work would be suitable for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that the NFI-X DBD structure is "prototypic for the entire NFI family" is supported by sequence identity but not experimentally tested for other family members.
+- The proposed activation mechanism involving the Arg38-Asp124 salt bridge switch is inferred from static structures and is not directly tested.
+- The speculation about the super-helical fibril's role in DNA looping and viral replication is unsupported by experimental evidence.
+- The claim that the 17-residue C-terminal extension is "critical" for high-affinity DNA binding is based on a single construct comparison and may be an oversimplification.
+- The statement that Zn²⁺ removal leads to "protein instability and precipitation" is mentioned in the Discussion but not shown in the Results or Methods, making it unverifiable from the provided text.

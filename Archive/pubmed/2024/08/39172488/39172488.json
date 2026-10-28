@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "39172488",
+    "doi": "10.1093/bioinformatics/btae520",
+    "title": "LineageVAE: reconstructing historical cell states and transcriptomes toward unobserved progenitors."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Single-cell RNA sequencing (scRNA-seq) enables comprehensive characterization of the cell state. However, its destructive nature prohibits measuring gene expression changes during dynamic processes such as embryogenesis or cell state divergence due to injury or disease. Although recent studies integrating scRNA-seq with lineage tracing have provided clonal insights between progenitor and mature cells, challenges remain. Because of their experimental nature, observations are sparse, and cells observed in the early state are not the exact progenitors of cells observed at later time points. To overcome these limitations, we developed LineageVAE, a novel computational methodology that utilizes deep learning based on the property that cells sharing barcodes have identical progenitors. RESULTS: LineageVAE is a deep generative model that transforms scRNA-seq observations with identical lineage barcodes into sequential trajectories toward a common progenitor in a latent cell state space. This method enables the reconstruction of unobservable cell state transitions, historical transcriptomes, and regulatory dynamics at a single-cell resolution. Applied to hematopoiesis and reprogrammed fibroblast datasets, LineageVAE demonstrated its ability to restore backward cell state transitions and infer progenitor heterogeneity and transcription factor activity along differentiation trajectories. AVAILABILITY AND IMPLEMENTATION: The LineageVAE model was implemented in Python using the PyTorch deep learning library. The code is available on GitHub at https://github.com/LzrRacer/LineageVAE/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Transcriptome/genetics",
+      "Humans",
+      "Cell Lineage",
+      "Sequence Analysis, RNA/methods",
+      "Hematopoiesis/genetics",
+      "Deep Learning",
+      "Animals",
+      "Computational Biology/methods",
+      "Stem Cells/metabolism/cytology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Majima, Koichiro",
+        "Kojima, Yasuhiro",
+        "Minoura, Kodai",
+        "Abe, Ko",
+        "Hirose, Haruka",
+        "Shimamura, Teppei"
+      ],
+      "short_names": [
+        "Majima K",
+        "Kojima Y",
+        "Minoura K",
+        "Abe K",
+        "Hirose H",
+        "Shimamura T"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-5099-7680",
+        "ORCID: 0009-0009-7713-2531"
+      ],
+      "affiliations": [
+        "Division of Systems Biology, Nagoya University Graduate School of Medicine, Nagoya, Aichi 466-8550, Japan.",
+        "Laboratory of Computational Life Science, National Cancer Center Research Institute, Tokyo, Tokyo 104-0045, Japan.",
+        "Japanese Red Cross Aichi Medical Center Nagoya Daiichi Hospital, Nagoya, Aichi 466-8550, Japan.",
+        "Department of Computational and Systems Biology, Tokyo Medical and Dental University Medical Research Institute, Tokyo, Tokyo 113-8510, Japan.",
+        "Department of Computational and Systems Biology, Tokyo Medical and Dental University Medical Research Institute, Tokyo, Tokyo 113-8510, Japan.",
+        "Division of Systems Biology, Nagoya University Graduate School of Medicine, Nagoya, Aichi 466-8550, Japan.",
+        "Department of Computational and Systems Biology, Tokyo Medical and Dental University Medical Research Institute, Tokyo, Tokyo 113-8510, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Majima, Koichiro",
+        "short_name": "Majima K",
+        "identifiers": [
+          "0009-0006-5099-7680"
+        ],
+        "affiliations": [
+          "Division of Systems Biology, Nagoya University Graduate School of Medicine, Nagoya, Aichi 466-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Kojima, Yasuhiro",
+        "short_name": "Kojima Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Life Science, National Cancer Center Research Institute, Tokyo, Tokyo 104-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Minoura, Kodai",
+        "short_name": "Minoura K",
+        "identifiers": [],
+        "affiliations": [
+          "Japanese Red Cross Aichi Medical Center Nagoya Daiichi Hospital, Nagoya, Aichi 466-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Abe, Ko",
+        "short_name": "Abe K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, Tokyo Medical and Dental University Medical Research Institute, Tokyo, Tokyo 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Hirose, Haruka",
+        "short_name": "Hirose H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, Tokyo Medical and Dental University Medical Research Institute, Tokyo, Tokyo 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Shimamura, Teppei",
+        "short_name": "Shimamura T",
+        "identifiers": [
+          "0009-0009-7713-2531"
+        ],
+        "affiliations": [
+          "Division of Systems Biology, Nagoya University Graduate School of Medicine, Nagoya, Aichi 466-8550, Japan.",
+          "Department of Computational and Systems Biology, Tokyo Medical and Dental University Medical Research Institute, Tokyo, Tokyo 113-8510, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2024 Oct 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/22 12:42",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "42395557",
+      "42168225",
+      "42151571",
+      "42146635",
+      "41971660",
+      "41775921",
+      "41674713"
+    ],
+    "refs": [
+      "37736772",
+      "37524958",
+      "36584685",
+      "36044861",
+      "35933430",
+      "35474667",
+      "35190690",
+      "35102309",
+      "34616062",
+      "34400634",
+      "34381210",
+      "34331449",
+      "34215258",
+      "33926517",
+      "32747759",
+      "32415966",
+      "31974159",
+      "31870278",
+      "31363220",
+      "30951143",
+      "30936567",
+      "30936559",
+      "30712874",
+      "30674886",
+      "30576740",
+      "30518857",
+      "30504886",
+      "30089906",
+      "30089861",
+      "29704633",
+      "29218871",
+      "28541307",
+      "28091601",
+      "27281220",
+      "25867923",
+      "24658644",
+      "23540688",
+      "23539594",
+      "22704507",
+      "22258609",
+      "21248149",
+      "17592117",
+      "15870295",
+      "10913198",
+      "8217775"
+    ],
+    "similar": [
+      "39172488",
+      "34050150",
+      "38950180",
+      "37313714",
+      "39177093",
+      "38980373",
+      "38810116",
+      "39230694",
+      "35639499",
+      "35302164",
+      "36734596",
+      "38892162",
+      "35172334",
+      "29944188",
+      "38684178",
+      "31428793",
+      "31974159",
+      "29545397",
+      "32532794",
+      "31243426",
+      "31062315",
+      "39036845",
+      "39402696",
+      "37903416",
+      "38603616",
+      "39373051",
+      "30820578",
+      "33168060",
+      "37365211",
+      "29536451",
+      "33026066",
+      "29949988",
+      "38986613",
+      "39230705",
+      "33607293",
+      "39171840",
+      "32203388",
+      "24739965",
+      "37015582",
+      "38950178",
+      "34623390",
+      "34864918",
+      "37740957",
+      "32716923",
+      "37080771",
+      "33535230",
+      "34057731",
+      "37740953",
+      "30982771",
+      "29107741",
+      "37004161",
+      "31369384",
+      "33264223",
+      "39417321",
+      "37991248",
+      "34553763",
+      "33081343",
+      "30967106",
+      "32808214",
+      "29630593",
+      "28893418",
+      "35901457",
+      "31062311",
+      "36193998",
+      "37428794",
+      "29415263",
+      "37584660",
+      "34927917",
+      "31074382",
+      "29706549",
+      "35914950",
+      "38935069",
+      "32122302",
+      "38801694",
+      "38553478",
+      "38787419",
+      "32398457",
+      "32315617",
+      "33226074",
+      "32166394",
+      "37088976",
+      "31061482",
+      "36631401",
+      "38866896",
+      "33953202",
+      "30496484",
+      "38924517",
+      "31657645",
+      "37524958",
+      "29371022",
+      "35102309",
+      "36528240",
+      "38950719",
+      "38439545",
+      "35176138",
+      "30465196",
+      "37531858",
+      "36825817",
+      "32679535",
+      "38317025"
+    ],
+    "review": [
+      "39172488",
+      "29944188",
+      "31243426",
+      "29107741",
+      "33264223",
+      "28893418",
+      "34927917",
+      "38787419",
+      "32398457",
+      "29371022",
+      "35102309",
+      "36528240",
+      "32679535"
+    ],
+    "pmc": [
+      "11494380"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

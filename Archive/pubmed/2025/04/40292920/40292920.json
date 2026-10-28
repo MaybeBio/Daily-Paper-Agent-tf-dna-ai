@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40292920",
+    "doi": "10.1002/cam4.70915",
+    "title": "Elevated KIF2C Expression Drives Osteosarcoma Progression by Modulating the Wnt/beta-Catenin Signaling Pathway and Contributing to an Immunosuppressive Tumor Microenvironment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although kinesin family member 2C (KIF2C) is implicated in various cancers, its role in osteosarcoma (OS) and the associated inflammatory microenvironment remains unclear. METHODS: Publicly available datasets were analyzed to determine KIF2C expression, diagnostic value, and prognostic relevance in OS. In vitro (proliferation, colony formation, apoptosis, migration, invasion) and in vivo assays assessed its biological functions. KEGG enrichment and GSVA explored underlying pathways. ssGSEA, ESTIMATE algorithms, and single-cell sequencing evaluated the immune context, and molecular docking and molecular dynamics identified potential inhibitory compounds. RESULTS: KIF2C was significantly overexpressed in OS, effectively distinguishing OS from normal tissues. Elevated KIF2C levels correlated with poor survival outcomes. Silencing KIF2C suppressed OS cell proliferation, migration, invasion, and in vivo tumor growth, while promoting apoptosis; conversely, overexpression of KIF2C had the opposite effect. Mechanistically, co-immunoprecipitation results indicated that KIF2C can bind to beta-catenin to regulate the Wnt/beta-catenin pathway. Furthermore, high KIF2C expression was associated with an immunosuppressive tumor microenvironment characterized by immune exhaustion. Molecular docking and molecular dynamics suggested butein as a candidate small-molecule inhibitor targeting KIF2C-related oncogenic mechanisms. CONCLUSION: KIF2C drives OS progression by enhancing Wnt/beta-catenin signaling and fostering an immunosuppressive microenvironment. Targeting KIF2C may offer new therapeutic approaches in managing OS.",
+    "keywords": [
+      "biomarker",
+      "clinical significance",
+      "kinesin family member 2C (KIF2C)",
+      "osteosarcoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Kinesins/genetics/metabolism/chemistry/antagonists & inhibitors",
+      "*Osteosarcoma/pathology/genetics/immunology/metabolism/mortality",
+      "*Tumor Microenvironment/immunology",
+      "*Wnt Signaling Pathway",
+      "Animals",
+      "Mice",
+      "*Bone Neoplasms/pathology/genetics/immunology/metabolism/mortality",
+      "Cell Proliferation",
+      "Cell Line, Tumor",
+      "Disease Progression",
+      "beta Catenin/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Movement",
+      "Apoptosis",
+      "Molecular Docking Simulation",
+      "Female",
+      "Male",
+      "Prognosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Ya-Yun",
+        "Sun, Wu",
+        "Liu, Lin",
+        "Cheng, Jin-Hui",
+        "Li, Jing-Tang",
+        "Huang, Zu-Tai",
+        "Ouyang, Min"
+      ],
+      "short_names": [
+        "Liu YY",
+        "Sun W",
+        "Liu L",
+        "Cheng JH",
+        "Li JT",
+        "Huang ZT",
+        "Ouyang M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China.",
+        "Discipline of Chinese and Western Integrative Medicine, Jiangxi University of Chinese Medicine, Nanchang, People's Republic of China.",
+        "Department of Nursing, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China.",
+        "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China.",
+        "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China.",
+        "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China.",
+        "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Ya-Yun",
+        "short_name": "Liu YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Wu",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "Discipline of Chinese and Western Integrative Medicine, Jiangxi University of Chinese Medicine, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lin",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jin-Hui",
+        "short_name": "Cheng JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing-Tang",
+        "short_name": "Li JT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zu-Tai",
+        "short_name": "Huang ZT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Min",
+        "short_name": "Ouyang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Jiangxi Provincial People's Hospital, the First Affiliated Hospital of Nanchang Medical College, Nanchang, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer medicine"
+    ],
+    "journal_abbrev": [
+      "Cancer Med"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/28 12:29",
+    "fetched_at": "2026-09-30 16:53:16"
+  },
+  "links": {
+    "cites": [
+      "42704489"
+    ],
+    "refs": [
+      "39687501",
+      "39121847",
+      "38623058",
+      "38515748",
+      "38344808",
+      "38237349",
+      "37601247",
+      "37439040",
+      "37273536",
+      "37268026",
+      "37142638",
+      "37141735",
+      "36922675",
+      "36900292",
+      "36321662",
+      "35698644",
+      "35609983",
+      "35422889",
+      "35191375",
+      "35130734",
+      "34930405",
+      "34830827",
+      "34650608",
+      "34384030",
+      "33951424",
+      "33850477",
+      "33648449",
+      "33597522",
+      "33173433",
+      "32748349",
+      "32629423",
+      "32552851",
+      "32305958",
+      "32281438",
+      "31960380",
+      "31951198",
+      "31921137",
+      "31803616",
+      "31798348",
+      "31746663",
+      "31328811",
+      "31100539",
+      "30883337",
+      "30813560",
+      "29979330",
+      "29190507",
+      "28670499",
+      "28398314",
+      "28382138",
+      "25821840",
+      "25319867",
+      "24811640",
+      "24113773",
+      "23182705",
+      "22550423",
+      "22257669",
+      "22130050",
+      "21414208",
+      "20688898",
+      "18351591",
+      "18086858",
+      "17538014",
+      "17008526",
+      "16199517"
+    ],
+    "similar": [
+      "40292920",
+      "32748349",
+      "40229896",
+      "27455247",
+      "37420040",
+      "29852168",
+      "33108067",
+      "29108989",
+      "31072914",
+      "39707194",
+      "24337584",
+      "34777684",
+      "37142638",
+      "34133001",
+      "39608425",
+      "32113150",
+      "33356805",
+      "34326690",
+      "30844369",
+      "30260245",
+      "37863123",
+      "33416089",
+      "28246931",
+      "35297315",
+      "29769415",
+      "40217455",
+      "35758024",
+      "39742274",
+      "33300077",
+      "37344882",
+      "31092328",
+      "30816476",
+      "30986552",
+      "23917613",
+      "37016301",
+      "38686653",
+      "33131925",
+      "34753394",
+      "28740094",
+      "31370265",
+      "32250163",
+      "40293559",
+      "32319657",
+      "30489194",
+      "29084211",
+      "29619662",
+      "32472335",
+      "38564125",
+      "33760218",
+      "31665067",
+      "34547170",
+      "33310972",
+      "38735973",
+      "37023991",
+      "30954562",
+      "35635031",
+      "34435052",
+      "26444270",
+      "28081736",
+      "31855073",
+      "28790389",
+      "31545486",
+      "38924929",
+      "32922188",
+      "30779064",
+      "24924167",
+      "30426155",
+      "40188527",
+      "40066455",
+      "39431237",
+      "33154629",
+      "35946850",
+      "40241525",
+      "38370338",
+      "28260089",
+      "35767742",
+      "23383046",
+      "31759044",
+      "30793158",
+      "39536930",
+      "38781762",
+      "26035210",
+      "32634265",
+      "32016450",
+      "29863240",
+      "26633383",
+      "29901121",
+      "37162618",
+      "29441981",
+      "33134376",
+      "27724924",
+      "32056305",
+      "39983416",
+      "31601147",
+      "27157136",
+      "38504531",
+      "30523602",
+      "40108613",
+      "26902120",
+      "30897321"
+    ],
+    "review": [
+      "40292920",
+      "31370265",
+      "24924167"
+    ],
+    "pmc": [
+      "12035763"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40292920.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40292920/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cam4.70915",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KIF2C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

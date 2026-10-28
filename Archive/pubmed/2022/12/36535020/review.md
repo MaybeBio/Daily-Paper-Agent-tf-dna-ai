@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors propose that internal hydration via specific water leakage pathways contributes to the low inherent stability of the p53 core domain, that this hydration is exacerbated in the Y220C mutant, and that a common route of water entry, potentially targetable by small molecules, may offer a generalized strategy for rescuing p53 function.
+- **Visible evidence base** Pressure-induced unfolding P50% values for four variants, molecular dynamics simulation results on water infiltration, a reported correlation coefficient, and identification of two surface features (a known pocket and a novel cleft)
+- **Missing materials affecting confidence** Full methods, simulation parameters, statistical details, structural figures, validation of the correlation, and any experimental replicates or error estimates
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking internal water hydration to p53 core domain stability, supported by a combination of experimental pressure unfolding and molecular dynamics simulations. However, the evidence as presented is insufficient to fully establish the causal relationship claimed, and several key technical details are absent. The correlation between P50% and hydration is compelling but based on only four data points, and the mechanistic interpretation requires stronger validation.
+- **Who would be interested in the results, and why** Researchers in protein biophysics, structural biology, and cancer biology, particularly those focused on p53 misfolding and aggregation, protein stability determinants, and drug discovery targeting mutant p53. The potential for a common rescue avenue across p53 mutants would attract translational interest.
+- **Major strengths** The combination of experimental and computational approaches is appropriate for the question. The use of multiple p53 family variants provides a comparative framework. The identification of a specific water entry pathway with potential druggability offers a concrete and actionable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness
+  - **Claim pointer** "A strong correlation (r(2) = 0.92) between P50% and extent of interior hydration was observed."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The correlation is based on only four data points (p53C, p53C Y220C, p53C HM, p63C). With n = 4, a high r-squared value can arise by chance and does not provide robust statistical support for a general relationship.
+  - **Why it matters** The central claim of the paper, that hydration drives instability, rests on this correlation. Without additional data points or error analysis, the strength of the conclusion is overstated.
+  - **Resolution test** Provide additional variants or conditions to increase the sample size, or include confidence intervals and a formal significance test for the correlation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "Collectively, our results indicate that p53C has an intrinsic susceptibility to water leakage, which is exacerbated in a structural class mutant, suggesting that there may be a common avenue for rescuing p53 function."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract presents correlation and simulation observations but does not demonstrate causality. It is not shown that water infiltration directly causes reduced stability, as opposed to being a consequence of pre-existing structural destabilization or unfolding.
+  - **Why it matters** The proposed therapeutic avenue, targeting water pathways, depends on hydration being a driver rather than a bystander. Without causal evidence, the translational implication is speculative.
+  - **Resolution test** Include mutational or experimental perturbations that alter hydration without directly changing stability, or show that blocking water entry rescues stability in a controlled manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** "Molecular dynamics (MD) simulations revealed that p53C Y220C was most prone to water infiltration, followed by p53C, whereas the interiors of p53C HM and p63C remained comparably dry."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No details are provided on MD simulation length, force field, water model, sampling convergence, or how "interior hydration" was quantified. These factors critically affect the reliability of the simulation results.
+  - **Why it matters** Without this information, the simulation findings cannot be independently assessed, and the comparison across variants may be biased by methodological choices.
+  - **Resolution test** Provide full simulation methods and convergence metrics, and ideally validate with independent simulation replicates or alternative water models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "water leakage" is used without a precise definition, which may confuse readers regarding whether it refers to bulk water entry, individual molecule permeation, or a specific dynamic event.
+  - **Required correction** Define "water leakage" operationally in the context of the simulations and experiments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The P50% values are presented without error estimates or replicate numbers, making it unclear if the differences between variants are statistically significant.
+  - **Required correction** Report standard deviations, standard errors, or confidence intervals for each P50% value.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Druggability claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The statement that the identified pocket and cleft "appear to be targetable by small molecules" is speculative without any binding or druggability analysis.
+  - **Required correction** Soften the claim or provide preliminary computational or experimental evidence for ligand binding at these sites.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (correlation robustness), R1-M2 (causal inference), R1-M3 (MD simulation validation)
+- **Assessment against Nature-style criteria** Originality is moderate, as water in protein cores is a known concept, though the specific application to p53 stability and the proposed common pathway adds novelty. Scientific importance is high given the clinical relevance of p53 mutations, but the current evidence does not yet support the broad claim of a generalized rescue strategy. Interdisciplinary readership is plausible, spanning biophysics, structural biology, and cancer biology. Technical soundness cannot be fully assessed from the abstract due to missing methods and statistical details. Readability for nonspecialists is adequate, though some terms require clearer definition.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract alone does not provide sufficient statistical, causal, or methodological support. A revised manuscript with additional data and technical details could change this assessment.
+
+## Risk / unsupported claims
+- The claim of a "common avenue for rescuing p53 function" is unsupported, as no functional rescue experiments are presented.
+- The druggability of the identified pocket and cleft is asserted without supporting evidence.
+- The correlation between P50% and hydration is presented as strong but is statistically fragile with only four data points.
+- The causal direction between hydration and stability is not established.
+- The simulation results cannot be evaluated without methodological details.

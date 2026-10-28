@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "39800743",
+    "doi": "10.1186/s13058-025-01959-1",
+    "title": "Annotation-free deep learning algorithm trained on hematoxylin & eosin images predicts epithelial-to-mesenchymal transition phenotype and endocrine response in estrogen receptor-positive breast cancer."
+  },
+  "content": {
+    "abstract": "Recent evidence indicates that endocrine resistance in estrogen receptor-positive (ER+) breast cancer is closely correlated with phenotypic characteristics of epithelial-to-mesenchymal transition (EMT). Nonetheless, identifying tumor tissues with a mesenchymal phenotype remains challenging in clinical practice. In this study, we validated the correlation between EMT status and resistance to endocrine therapy in ER+ breast cancer from a transcriptomic perspective. To confirm the presence of morphological discrepancies in tumor tissues of ER+ breast cancer classified as epithelial- and mesenchymal-phenotypes according to EMT-related transcriptional features, we trained deep learning algorithms based on EfficientNetV2 architecture to assign the phenotypic status for each patient utilizing hematoxylin & eosin (H&E)-stained slides from The Cancer Genome Atlas database. Our classifier model accurately identified the precise phenotypic status, achieving an area under the curve (AUC) of 0.886 at the tile-level and an AUC of 0.910 at the slide-level. Furthermore, we evaluated the efficacy of the classifier in predicting endocrine response using data from an independent ER+ breast cancer patient cohort. Our classifier achieved a predicting accuracy of 81.25%, and 88.7% slides labeled as endocrine resistant were predicted as the mesenchymal-phenotype, while 75.6% slides labeled as sensitive were predicted as the epithelial-phenotype. Our work introduces an H&E-based framework capable of accurately predicting EMT phenotype and endocrine response for ER+ breast cancer, demonstrating its potential for clinical application and benefit.",
+    "keywords": [
+      "Deep learning",
+      "Digital pathology",
+      "Endocrine therapy response",
+      "Epithelial-to-mesenchymal transition",
+      "Estrogen receptor-positive breast cancer",
+      "Phenotypic classifier"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/pathology/drug therapy/genetics/metabolism",
+      "Female",
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "*Receptors, Estrogen/metabolism",
+      "*Deep Learning",
+      "Hematoxylin",
+      "Phenotype",
+      "Eosine Yellowish-(YS)",
+      "Algorithms",
+      "Antineoplastic Agents, Hormonal/therapeutic use/pharmacology",
+      "Drug Resistance, Neoplasm/genetics",
+      "Biomarkers, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Kaimin",
+        "Wu, Yinan",
+        "Huang, Yajing",
+        "Zhou, Meiqi",
+        "Wang, Yanyan",
+        "Huang, Xingru"
+      ],
+      "short_names": [
+        "Hu K",
+        "Wu Y",
+        "Huang Y",
+        "Zhou M",
+        "Wang Y",
+        "Huang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Surgery and Oncology, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "The Key Laboratory of Cancer Prevention and Intervention, China National Ministry of Education, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Hangzhou Institute of Medicine (HIM), Zhejiang Cancer Hospital, Chinese Academy of Sciences, Hangzhou, China.",
+        "Department of Pathology, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Breast Surgery and Oncology, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "The Key Laboratory of Cancer Prevention and Intervention, China National Ministry of Education, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Breast Surgery and Oncology, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "The Key Laboratory of Cancer Prevention and Intervention, China National Ministry of Education, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "School of Electronic Engineering and Computer Science, Queen Mary University of London, London, UK. xingru.huang@qmul.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Kaimin",
+        "short_name": "Hu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery and Oncology, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "The Key Laboratory of Cancer Prevention and Intervention, China National Ministry of Education, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yinan",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Medicine (HIM), Zhejiang Cancer Hospital, Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yajing",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Meiqi",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery and Oncology, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "The Key Laboratory of Cancer Prevention and Intervention, China National Ministry of Education, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanyan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery and Oncology, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "The Key Laboratory of Cancer Prevention and Intervention, China National Ministry of Education, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xingru",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic Engineering and Computer Science, Queen Mary University of London, London, UK. xingru.huang@qmul.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research : BCR"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res"
+    ],
+    "pub_date": "2025 Jan 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/13 00:20",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "41930306",
+      "41701097",
+      "41018111",
+      "40146354"
+    ],
+    "refs": [
+      "37127079",
+      "36192400",
+      "36190501",
+      "34756513",
+      "34493825",
+      "34326682",
+      "34277389",
+      "33816053",
+      "33204028",
+      "33199723",
+      "32979513",
+      "32453591",
+      "32424275",
+      "32289273",
+      "32277744",
+      "31477698",
+      "31348505",
+      "31160815",
+      "30224757",
+      "30182055",
+      "28678785",
+      "28580882",
+      "27268749",
+      "26420858",
+      "24919951",
+      "24556840",
+      "23884657",
+      "23091115",
+      "23000897",
+      "22522925",
+      "22439911",
+      "19204204",
+      "17132828",
+      "11752295"
+    ],
+    "similar": [
+      "39800743",
+      "29921289",
+      "25990368",
+      "24919951",
+      "32684154",
+      "39828125",
+      "40256728",
+      "39484212",
+      "28192639",
+      "40097769",
+      "23950888",
+      "31839155",
+      "36697070",
+      "34493825",
+      "40143808",
+      "27602758",
+      "27246191",
+      "36232636",
+      "23626803",
+      "31471836",
+      "31506496",
+      "32093034",
+      "21713035",
+      "26987533",
+      "32300922",
+      "32289273",
+      "26849149",
+      "28507152",
+      "21707964",
+      "40251691",
+      "17197171",
+      "38914552",
+      "26437901",
+      "22644656",
+      "25019394",
+      "17965220",
+      "36232628",
+      "23547709",
+      "38786043",
+      "30665944",
+      "40269991",
+      "38493926",
+      "38871058",
+      "22963717",
+      "31121213",
+      "27839747",
+      "25213081",
+      "40148997",
+      "36496303",
+      "12736563",
+      "28422735",
+      "17427198",
+      "22821401",
+      "27650553",
+      "39930151",
+      "38641451",
+      "30867218",
+      "38729448",
+      "26113056",
+      "27233379",
+      "23392336",
+      "27838413",
+      "31348505",
+      "39706861",
+      "30606259",
+      "28009468",
+      "40233410",
+      "25431237",
+      "34432400",
+      "32860163",
+      "38443227",
+      "32471471",
+      "24098477",
+      "31398111",
+      "30613307",
+      "24698107",
+      "33602273",
+      "21362200",
+      "33597560",
+      "17180510",
+      "25284587",
+      "26763249",
+      "28075453",
+      "33122307",
+      "26279450",
+      "31401293",
+      "30826563",
+      "26116361",
+      "30557851",
+      "25929338",
+      "38052873",
+      "29564743",
+      "16113098",
+      "34932597",
+      "26115764",
+      "34231077",
+      "39083703",
+      "25762475",
+      "30547831",
+      "29028222"
+    ],
+    "review": [
+      "39800743",
+      "26987533",
+      "32289273",
+      "26849149",
+      "22963717",
+      "27839747",
+      "12736563",
+      "27233379",
+      "38443227",
+      "31401293",
+      "16113098"
+    ],
+    "pmc": [
+      "11725188"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-01959-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39800743/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

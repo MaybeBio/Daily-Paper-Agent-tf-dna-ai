@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "40619172",
+    "doi": "10.1002/ptr.70026",
+    "title": "IL-23 Receptor Agonism by Mulberroside C Activates the RASGRP1/RAS/ERK Pathway Contributing to Leukopenia Treatments."
+  },
+  "content": {
+    "abstract": "Chemotherapy- and radiotherapy-induced leukopenia is a common challenge in cancer treatment, with a significant dearth of effective therapeutic options. IL-23 receptor (IL-23R) signaling holds the potential for promoting neutrophil generation and maturation, yet the underlying mechanisms remain elusive. This study investigates the molecular mechanism and efficacy of Mulberroside C (MC) in alleviating leukopenia via IL-23R signaling. In vitro, flow cytometry, nitroblue tetrazolium reduction assay, and Giemsa staining were employed to evaluate MC's impact on neutrophil differentiation in NB4 and HL-60 cell lines. The antibacterial activity of MC was assessed using an agar plate assay. In vivo, leukopenia models induced by irradiation and cyclophosphamide were established in zebrafish and mice to determine MC's effect on neutrophil recovery. Mechanistic studies involved RNA sequencing, network pharmacology analysis, molecular docking, quantitative real-time PCR (qRT-PCR), and Western blotting to explore the associated signaling pathways. Cellular thermal shift assay (CETSA) and drug affinity responsive target stability (DARTS) were used to identify MC's targets. MC significantly enhanced neutrophil maturation in a dose-dependent manner, facilitating leukopenia recovery. Mechanistically, MC binds to IL-23R, upregulating G-CSF, GM-CSF, and RASGRP1 and activating the RAS/ERK signaling pathway. Notably, the upregulation of RASGRP1 by MC supports the generation of fully functional neutrophils, compared to those induced by G-CSF and GM-CSF alone. This study provides the first evidence that MC promotes neutrophil generation and antimicrobial activity through the IL-23R-mediated pathway, offering a promising therapeutic strategy for leukopenia.",
+    "keywords": [
+      "IL-23 receptor",
+      "Mulberroside C",
+      "RASGRP1",
+      "leukopenia",
+      "neutrophil"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Leukopenia/drug therapy/chemically induced",
+      "Mice",
+      "Humans",
+      "Zebrafish",
+      "HL-60 Cells",
+      "Neutrophils/drug effects",
+      "Signal Transduction/drug effects",
+      "MAP Kinase Signaling System/drug effects",
+      "Guanine Nucleotide Exchange Factors/metabolism",
+      "*Triterpenes/pharmacology",
+      "ras Proteins/metabolism",
+      "Molecular Docking Simulation",
+      "Cell Differentiation/drug effects",
+      "DNA-Binding Proteins/metabolism",
+      "Cyclophosphamide/adverse effects",
+      "Benzopyrans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Lin-Wei",
+        "Liu, Yuan-Zhi",
+        "Li, Tian-Ci",
+        "Li, Jian-Yue",
+        "Yan, Xu-Yan",
+        "Liu, Zhi-Xuan",
+        "Li, Lu-Yao",
+        "Shen, Hong-Ping",
+        "Zou, Wen-Jun",
+        "Wu, Jian-Ming"
+      ],
+      "short_names": [
+        "Zhang LW",
+        "Liu YZ",
+        "Li TC",
+        "Li JY",
+        "Yan XY",
+        "Liu ZX",
+        "Li LY",
+        "Shen HP",
+        "Zou WJ",
+        "Wu JM"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-4053-6231",
+        "ORCID: 0009-0009-2358-4575",
+        "ORCID: 0000-0002-6136-7469"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, the Affiliated Hospital, Southwest Medical University, Luzhou, Sichuan, China.",
+        "School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, China.",
+        "School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, China.",
+        "School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, China.",
+        "Department of Physiology, School of Basic Medical Sciences, Southwest Medical University, Luzhou, China.",
+        "School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China.",
+        "The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, Sichuan, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China.",
+        "Department of Physiology, School of Basic Medical Sciences, Southwest Medical University, Luzhou, China.",
+        "Laboratory for Drug Discovery and Druggability Evaluation of Sichuan Province, Luzhou Key Laboratory of Activity Screening and Druggability Evaluation for Chinese Materia Medica, Southwest Medical University, Luzhou, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Lin-Wei",
+        "short_name": "Zhang LW",
+        "identifiers": [
+          "0009-0006-4053-6231"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuan-Zhi",
+        "short_name": "Liu YZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, the Affiliated Hospital, Southwest Medical University, Luzhou, Sichuan, China.",
+          "School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tian-Ci",
+        "short_name": "Li TC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian-Yue",
+        "short_name": "Li JY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Xu-Yan",
+        "short_name": "Yan XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, School of Basic Medical Sciences, Southwest Medical University, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhi-Xuan",
+        "short_name": "Liu ZX",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Southwest Medical University, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lu-Yao",
+        "short_name": "Li LY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Hong-Ping",
+        "short_name": "Shen HP",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Wen-Jun",
+        "short_name": "Zou WJ",
+        "identifiers": [
+          "0009-0009-2358-4575"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jian-Ming",
+        "short_name": "Wu JM",
+        "identifiers": [
+          "0000-0002-6136-7469"
+        ],
+        "affiliations": [
+          "Department of Physiology, School of Basic Medical Sciences, Southwest Medical University, Luzhou, China.",
+          "Laboratory for Drug Discovery and Druggability Evaluation of Sichuan Province, Luzhou Key Laboratory of Activity Screening and Druggability Evaluation for Chinese Materia Medica, Southwest Medical University, Luzhou, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytotherapy research : PTR"
+    ],
+    "journal_abbrev": [
+      "Phytother Res"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/07 00:26",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [
+      "42434122"
+    ],
+    "refs": [],
+    "similar": [
+      "40619172",
+      "39742788",
+      "20203268",
+      "15899849",
+      "26549032",
+      "32459053",
+      "33421903",
+      "17658605",
+      "40769436",
+      "18320039",
+      "14970203",
+      "34075619",
+      "23532335",
+      "16849453",
+      "40058315",
+      "37646951",
+      "33512434",
+      "16301621",
+      "34101878",
+      "14532295",
+      "38537441",
+      "38232908",
+      "21856938",
+      "21968647",
+      "12433368",
+      "24263067",
+      "23994464",
+      "12845332",
+      "41443104",
+      "41195615",
+      "20308057",
+      "37566514",
+      "38865342",
+      "17283063",
+      "14604978",
+      "41135618",
+      "39547096",
+      "38837094",
+      "15319437",
+      "27465532",
+      "40884939",
+      "10598879",
+      "32822868",
+      "41261300",
+      "23656432",
+      "39303536",
+      "10553163",
+      "20501834",
+      "30720883",
+      "15657177",
+      "31164884",
+      "10754327",
+      "15184873",
+      "23184941",
+      "36610353",
+      "9578604",
+      "32989257",
+      "33069969",
+      "34710846",
+      "14764585",
+      "41317432",
+      "10388012",
+      "38820662",
+      "40795589",
+      "39298437",
+      "36555781",
+      "29059681",
+      "32612143",
+      "26005835",
+      "38104880",
+      "20007535",
+      "40186900",
+      "28709639",
+      "29777330",
+      "9864179",
+      "19933860",
+      "24351840",
+      "23908768",
+      "21285350",
+      "35569185",
+      "38750983",
+      "11422407",
+      "41002416",
+      "23308188",
+      "41085154",
+      "15541478",
+      "31691004",
+      "41043333",
+      "20948428",
+      "31906952",
+      "36385095",
+      "15064353",
+      "22586275",
+      "31679751",
+      "17190838",
+      "40393465",
+      "31237864",
+      "21668998",
+      "36675167",
+      "31120617"
+    ],
+    "review": [
+      "40619172",
+      "24263067",
+      "23994464",
+      "38865342",
+      "31164884"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40619172.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/ptr.70026",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=40619172",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

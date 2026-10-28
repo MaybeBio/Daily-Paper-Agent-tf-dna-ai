@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "39080525",
+    "doi": "10.1186/s12865-024-00646-8",
+    "title": "Transcriptomics explores potential mechanisms for the development of Primary Sjogren's syndrome to diffuse large B-cell lymphoma in B cells."
+  },
+  "content": {
+    "abstract": "PURPOSE: Primary Sjogren's syndrome (pSS) is a prevalent autoimmune disease. The immune dysregulation it causes often leads to the development of diffuse large B-cell lymphoma (DLBCL) in clinical practice. However, how it contributes to these two disorders at the molecular level is not yet known. This study explored the potential molecular mechanisms associated with the differences between DLBCL and pSS. PATIENTS AND METHODS: Gene expression matrices from discovery cohort 1, discovery cohort 2, and the validation cohort were downloaded from the GEO and TCGA databases. Weighted gene coexpression network analysis (WGCNA) was performed to identify the coexpression modules of DLBCL and pSS in discovery cohort 1 and obtain shared genes. GO and KEGG enrichment analyses and PPI network analysis were performed on the shared genes. Immune-related genes (IRGs) were intersected with shared genes to obtain common genes. Afterward, common genes were identified via machine learning methods. The immune infiltration analysis, miRNA-TF-hub gene regulatory chart, gene interactions of the hub genes, and gene‒drug target analysis were performed. Finally, STAT1 was identified as a possible essential gene by the above analysis, and immune infiltration and GSEA pathway analyses were performed in the high- and low-expression groups in discovery cohort 2. The diagnostic efficacy of the hub genes was assessed in the validation cohort, and clinical samples were collected for validation. RESULTS: By WGCNA, one modular gene in each group was considered highly associated with the disease, and we obtained 28 shared genes. Enrichment analysis revealed shared genes involved in the viral response and regulation. We obtained four hub genes (ISG20, STAT1, TLR7, and RSAD2) via the algorithm. Hub genes and similar genes are primarily involved in regulating type I IFNs. The construction of a miRNA-TF-hub gene regulatory chart revealed that hsa-mir-155-5p, hsa-mir-146b-5p, hsa-mir-21-3p, and hsa-mir-126-3p play essential roles in both diseases. Hub genes were differentially expressed in B-cell memory according to immune infiltration analysis. Hub genes had a strong diagnostic effect on both diseases. STAT1 plays an essential role in immune cells in both diseases. CONCLUSION: We identified hub susceptibility genes for DLBCL and pSS and identified hub genes and potential therapeutic targets that may act as biomarkers.",
+    "keywords": [
+      "Diagnostic efficacy",
+      "Immune infiltration",
+      "Immune-related genes",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "*Sjogren's Syndrome/genetics/immunology",
+      "Humans",
+      "*Lymphoma, Large B-Cell, Diffuse/genetics/immunology",
+      "*Transcriptome",
+      "*Gene Regulatory Networks",
+      "*Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "STAT1 Transcription Factor/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "B-Lymphocytes/immunology",
+      "Computational Biology/methods",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Yanan",
+        "Han, Jianxing",
+        "Fan, Ziyi",
+        "Liang, Shufen"
+      ],
+      "short_names": [
+        "Xu Y",
+        "Han J",
+        "Fan Z",
+        "Liang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Laboratory, the Second Hospital of Shanxi Medical University, No. 382, Wuyi Road, Taiyuan, 030001, Shanxi, P.R. China.",
+        "Department of Stomatology, the Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, P.R. China.",
+        "Shanxi Bethune Hospital, Taiyuan, Shanxi, P.R. China.",
+        "Department of Laboratory, the Second Hospital of Shanxi Medical University, No. 382, Wuyi Road, Taiyuan, 030001, Shanxi, P.R. China. Liangshufen9344@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Yanan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, the Second Hospital of Shanxi Medical University, No. 382, Wuyi Road, Taiyuan, 030001, Shanxi, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Han, Jianxing",
+        "short_name": "Han J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, the Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Fan, Ziyi",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Bethune Hospital, Taiyuan, Shanxi, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liang, Shufen",
+        "short_name": "Liang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, the Second Hospital of Shanxi Medical University, No. 382, Wuyi Road, Taiyuan, 030001, Shanxi, P.R. China. Liangshufen9344@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC immunology"
+    ],
+    "journal_abbrev": [
+      "BMC Immunol"
+    ],
+    "pub_date": "2024 Jul 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/31 00:41",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "41567225",
+      "40836309",
+      "40475761",
+      "40038148"
+    ],
+    "refs": [
+      "38973605",
+      "38788537",
+      "38635903",
+      "38406824",
+      "36849206",
+      "36591307",
+      "36300620",
+      "36076347",
+      "35477763",
+      "35301282",
+      "35174977",
+      "34907083",
+      "34817709",
+      "34100160",
+      "33969602",
+      "33911236",
+      "33767707",
+      "33603736",
+      "33572487",
+      "33512636",
+      "33464299",
+      "33317571",
+      "33295827",
+      "33237278",
+      "33204185",
+      "32987855",
+      "32620868",
+      "32571405",
+      "32100426",
+      "31886296",
+      "31867003",
+      "31546246",
+      "31356378",
+      "31340982",
+      "30931480",
+      "30892751",
+      "30770713",
+      "30364956",
+      "29912392",
+      "29655283",
+      "29416129",
+      "29344893",
+      "29263272",
+      "29191572",
+      "28610655",
+      "28421993",
+      "28177920",
+      "28139375",
+      "28099084",
+      "27672125",
+      "27618563",
+      "27188286",
+      "27114460",
+      "26995659",
+      "26654227",
+      "26606524",
+      "26060357",
+      "25800755",
+      "25294567",
+      "24938285",
+      "24450331",
+      "23684423",
+      "23487038",
+      "23193258",
+      "19412164",
+      "19114008",
+      "18248767",
+      "16497588",
+      "15922860",
+      "14744438",
+      "11401564",
+      "10592173"
+    ],
+    "similar": [
+      "39080525",
+      "41052072",
+      "39142001",
+      "40997906",
+      "29128636",
+      "35562622",
+      "38677173",
+      "28916716",
+      "40574839",
+      "34367157",
+      "37614232",
+      "38678487",
+      "37153570",
+      "38359008",
+      "39051161",
+      "32888289",
+      "40121969",
+      "39512836",
+      "36189314",
+      "41044520",
+      "41204409",
+      "35817571",
+      "39086489",
+      "39080630",
+      "33407587",
+      "36076347",
+      "39581181",
+      "40406126",
+      "39136821",
+      "41078717",
+      "40957961",
+      "38839916",
+      "35558576",
+      "39375405",
+      "38863714",
+      "34145926",
+      "40227387",
+      "34536521",
+      "37179305",
+      "40790764",
+      "41120603",
+      "41410587",
+      "40821971",
+      "39299134",
+      "38406824",
+      "33439992",
+      "40199818",
+      "35092504",
+      "41300749",
+      "41101222",
+      "37740761",
+      "40298889",
+      "39307100",
+      "40293619",
+      "35757478",
+      "26888739",
+      "28339495",
+      "39833772",
+      "39500385",
+      "40091022",
+      "38736878",
+      "32571405",
+      "39697749",
+      "40977739",
+      "40374866",
+      "35731466",
+      "38873601",
+      "35313857",
+      "37603701",
+      "38268224",
+      "31552042",
+      "30244948",
+      "28895406",
+      "41145553",
+      "39675129",
+      "33240622",
+      "38393632",
+      "38815767",
+      "40826767",
+      "37935719",
+      "36125921",
+      "30865617",
+      "36291136",
+      "35392084",
+      "41181153",
+      "36132546",
+      "35473522",
+      "38839842",
+      "41328587",
+      "35958619",
+      "34383407",
+      "36768371",
+      "40685483",
+      "39556279",
+      "39670237",
+      "38774864",
+      "34861820",
+      "40093012",
+      "41066424",
+      "40593998"
+    ],
+    "review": [
+      "39080525",
+      "41101222"
+    ],
+    "pmc": [
+      "11287849"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-024-00646-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sjogrenssyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sjogren's Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39080525/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

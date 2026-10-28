@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39103447",
+  "title": "Geometric deep learning of protein-DNA binding specificity.",
+  "authors": "Mitra, Raktim; Li, Jinsen; Sagendorf, Jared M; Jiang, Yibei; Cohen, Ari S; Chiu, Tsu-Pei; Glasscock, Cameron J; Rohs, Remo",
+  "journal": "Nature methods",
+  "published_date": "2024-08-06",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出几何深度学习模型DeepPBS，直接从蛋白-DNA结构预测TF-DNA结合特异性，并提取界面残基重要性，高度契合本课题的TF-DNA互作建模与AI方法。",
+  "abstract": "Predicting protein-DNA binding specificity is a challenging yet essential task for understanding gene regulation. Protein-DNA complexes usually exhibit binding to a selected DNA target site, whereas a protein binds, with varying degrees of binding specificity, to a wide range of DNA sequences. This information is not directly accessible in a single structure. Here, to access this information, we present Deep Predictor of Binding Specificity (DeepPBS), a geometric deep-learning model designed to predict binding specificity from protein-DNA structure. DeepPBS can be applied to experimental or predicted structures. Interpretable protein heavy atom importance scores for interface residues can be extracted. When aggregated at the protein residue level, these scores are validated through mutagenesis experiments. Applied to designed proteins targeting specific DNA sequences, DeepPBS was demonstrated to predict experimentally measured binding specificity. DeepPBS offers a foundation for machine-aided studies that advance our understanding of molecular interactions and guide experimental designs and synthetic biology.",
+  "abstract_zh": "预测蛋白质-DNA结合特异性是理解基因调控中一项具有挑战性且至关重要的任务。蛋白质-DNA复合物通常表现出对选定DNA靶位点的结合，而蛋白质则以不同程度的结合特异性与广泛的DNA序列结合。这一信息无法直接从单一结构中获取。在此，为了获取该信息，我们提出了结合特异性深度预测器（Deep Predictor of Binding Specificity, DeepPBS），这是一种几何深度学习模型，旨在从蛋白质-DNA结构中预测结合特异性。DeepPBS可应用于实验或预测的结构。可以提取界面残基的可解释蛋白质重原子重要性评分。当在蛋白质残基水平上聚合时，这些评分通过突变实验得到验证。应用于靶向特定DNA序列的设计蛋白质时，DeepPBS被证明能够预测实验测得的结合特异性。DeepPBS为机器辅助研究奠定了基础，这些研究增进了我们对分子相互作用的理解，并指导实验设计和合成生物学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39103447/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39103447/",
+  "paper_page_path": "papers/pubmed/39103447/index.html"
+}

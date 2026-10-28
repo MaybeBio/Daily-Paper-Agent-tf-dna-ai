@@ -1,0 +1,190 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.06.592633",
+  "title": "GenomicLinks: Deep learning predictions of 3D chromatin loops in the maize genome",
+  "doi": "10.1101/2024.05.06.592633",
+  "abstract": "Gene regulation in eukaryotes is partly shaped by the 3D organization of chro]matin within the cell nucleus. Distal interactions between cis -regulatory elements and their target genes are widespread and many causal loci underlying heritable agricultural traits have been mapped to distal non-coding elements. The biology underlying chromatin loop formation in plants is poorly understood. Dissecting the sequence features that mediate distal interactions is an important step toward identifying putative molecular mechanisms. Here, we trained GenomicLinks, a deep learning model, to identify DNA sequence features predictive of 3D chromatin interactions in maize. We found that the presence of binding motifs of specific Transcription Factor classes, especially bHLH, are predictive of chromatin interaction specificities. Using an in silico mutagenesis approach we show the removal of these motifs from loop anchors leads to reduced interaction probabilities. We were able to validate these predictions with single-cell co-accessibility data from different maize genotypes that harbor natural substitutions in these TF binding motifs. GenomicLinks is currently implemented as an open-source web tool, which should facilitate its wider use in the plant research community.",
+  "authors": [
+    "Schlegel L",
+    "Bhardwaj R",
+    "Shahryary Y",
+    "Demirtürk D",
+    "Marand AP",
+    "Schmitz RJ",
+    "Johannes F"
+  ],
+  "published_date": "2024-05-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.06.592633",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.06.592633.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR849467",
+    "raw_record": {
+      "id": "PPR849467",
+      "source": "PPR",
+      "doi": "10.1101/2024.05.06.592633",
+      "title": "GenomicLinks: Deep learning predictions of 3D chromatin loops in the maize genome",
+      "authorString": "Schlegel L, Bhardwaj R, Shahryary Y, Demirtürk D, Marand AP, Schmitz RJ, Johannes F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Schlegel L",
+            "lastName": "Schlegel",
+            "firstName": "Luca",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8200-9388"
+            }
+          },
+          {
+            "fullName": "Bhardwaj R",
+            "lastName": "Bhardwaj",
+            "firstName": "Rohan",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4822-3214"
+            }
+          },
+          {
+            "fullName": "Shahryary Y",
+            "lastName": "Shahryary",
+            "firstName": "Yadollah",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Demirtürk D",
+            "lastName": "Demirtürk",
+            "firstName": "Defne",
+            "initials": "D"
+          },
+          {
+            "fullName": "Marand AP",
+            "lastName": "Marand",
+            "firstName": "Alexandre",
+            "initials": "AP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9100-8320"
+            }
+          },
+          {
+            "fullName": "Schmitz RJ",
+            "lastName": "Schmitz",
+            "firstName": "Robert",
+            "initials": "RJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7538-6663"
+            }
+          },
+          {
+            "fullName": "Johannes F",
+            "lastName": "Johannes",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7962-2907"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7538-6663"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9100-8320"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7962-2907"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8200-9388"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9828-3373"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4822-3214"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-6077-299X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Gene regulation in eukaryotes is partly shaped by the 3D organization of chro]matin within the cell nucleus. Distal interactions between  cis -regulatory elements and their target genes are widespread and many causal loci underlying heritable agricultural traits have been mapped to distal non-coding elements. The biology underlying chromatin loop formation in plants is poorly understood. Dissecting the sequence features that mediate distal interactions is an important step toward identifying putative molecular mechanisms. Here, we trained GenomicLinks, a deep learning model, to identify DNA sequence features predictive of 3D chromatin interactions in maize. We found that the presence of binding motifs of specific Transcription Factor classes, especially bHLH, are predictive of chromatin interaction specificities. Using an  in silico mutagenesis approach we show the removal of these motifs from loop anchors leads to reduced interaction probabilities. We were able to validate these predictions with single-cell co-accessibility data from different maize genotypes that harbor natural substitutions in these TF binding motifs. GenomicLinks is currently implemented as an open-source web tool, which should facilitate its wider use in the plant research community.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.06.592633"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.06.592633"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-05-10",
+      "firstPublicationDate": "2024-05-08",
+      "firstIndexDate": "2024-05-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

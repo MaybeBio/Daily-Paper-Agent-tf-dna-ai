@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present CALVADOS-RNA, a sequence-independent, two-beads-per-nucleotide coarse-grained model of disordered RNA, parametrized using bottom-up and top-down approaches. They claim the model semiquantitatively captures RNA-RNA interactions (validated via virial coefficients) and nonspecific RNA-protein interactions (validated via reentrant phase behavior of protein-RNA mixtures). They further demonstrate utility by simulating mixed condensates of MED1 disordered region and RNA, and selective partitioning of transcription factor disordered regions, with comparison to experiments.
+- **Visible evidence base** Abstract text only; no numerical data, methodological details, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, parametrization details, simulation protocols, experimental datasets, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful coarse-grained RNA model that addresses a clear gap in biomolecular condensate simulation. The choice of a hydropathy-based, sequence-independent approach is reasonable and the dual validation strategy (RNA-RNA and RNA-protein) is commendable. However, the abstract alone provides insufficient detail to assess the technical soundness of the parametrization, the robustness of the validation, or the significance of the claimed results. The central claims of semiquantitative accuracy and utility rest on comparisons that are not visible in the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying phase separation and biomolecular condensates. The model could also interest experimentalists working on protein-RNA systems who seek a computationally tractable baseline for interpreting their data. The potential to extend existing protein coarse-grained models to include RNA makes this relevant to a broad community in soft matter and cellular biophysics.
+- **Major strengths** The model addresses a recognized need for RNA models compatible with existing disordered protein models. The combination of bottom-up and top-down parametrization is a sound strategy for balancing local geometry and thermodynamic properties. The validation against virial coefficients and reentrant phase behavior targets experimentally measurable quantities, which strengthens the credibility of the claims. The demonstration on MED1-RNA condensates and transcription factor partitioning connects the model to biologically relevant systems.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model "semiquantitatively captures several aspects of RNA-RNA and RNA-protein interactions"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that the model captures RNA-RNA and RNA-protein interactions semiquantitatively, but no quantitative metrics, error bars, or statistical comparisons are provided. The term "semiquantitative" is vague and could encompass a wide range of agreement levels. Without specific values for virial coefficients or phase boundary comparisons, the accuracy of the model cannot be evaluated.  
+  - **Why it matters** The central claim of the manuscript is that the model is useful for studying protein-RNA condensates. If the agreement with experiments is only qualitative or limited to specific conditions, the model's utility as a baseline for quantitative predictions is questionable.  
+  - **Resolution test** Provide explicit numerical comparisons between calculated and experimental virial coefficients, including uncertainties. For phase behavior, show phase diagrams with experimental data points overlaid and quantify the deviation. State clearly what "semiquantitative" means in terms of percentage error or other metrics.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and methodological completeness  
+  - **Claim pointer** The model is "parametrized using a combination of bottom-up and top-down approaches to reproduce local RNA geometry and intramolecular interactions based on atomistic simulations and in vitro experiments"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the specific parametrization procedure, the atomistic simulation data used, the experimental datasets, or the fitting targets. Without this information, the reproducibility of the model is not established. Key details such as the hydropathy scale used, the functional form of the nonbonded interactions, and the treatment of electrostatics are absent.  
+  - **Why it matters** A coarse-grained model is only useful if others can implement and extend it. The lack of methodological detail in the abstract is not necessarily a flaw, but it means the current evidence base is insufficient to assess whether the parametrization is sound and whether the model can be applied by others.  
+  - **Resolution test** In the full manuscript, provide a complete description of the parametrization protocol, including all fitting targets, the atomistic simulation details, the experimental data sources, and the optimization procedure. Ensure that all parameters are tabulated and that the model is made available in a standard format.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation robustness  
+  - **Claim pointer** "We examined RNA-RNA interactions by comparing calculated and experimental virial coefficients and nonspecific RNA-protein interaction by studying the reentrant phase behavior of protein-RNA mixtures"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract mentions validation against virial coefficients and reentrant phase behavior, but it does not specify the number of RNA sequences or protein-RNA systems tested, the range of conditions explored, or the sensitivity of the results to model parameters. A single or limited set of comparisons would not establish generalizability.  
+  - **Why it matters** The claim that the model "may be used as a baseline model to study several aspects" implies broad applicability. If validation is limited to a narrow set of conditions, the model's predictive power for other RNA sequences or protein partners is uncertain.  
+  - **Resolution test** In the full manuscript, show validation across multiple RNA sequences with varying length and composition, and across multiple protein-RNA pairs. Include a sensitivity analysis of key model parameters to demonstrate robustness.
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Significance and novelty  
+  - **Claim pointer** "We demonstrate the utility of the model by simulating the formation of mixed condensates consisting of the disordered region of MED1 and RNA chains and the selective partitioning of disordered regions from transcription factors into these and compare the results to experiments"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims demonstration of utility via MED1-RNA condensates and transcription factor partitioning, but the specific findings are not described. It is unclear whether the simulations reproduce experimental observations quantitatively, qualitatively, or only in a limited sense. The novelty of these specific demonstrations relative to existing models is also not stated.  
+  - **Why it matters** The significance of the work depends on whether the model provides new biological or biophysical insights beyond what is already known. Without details on the simulation outcomes and the nature of the comparison to experiments, the impact of the demonstration is unclear.  
+  - **Resolution test** In the full manuscript, clearly state the key findings from the MED1-RNA simulations, including quantitative comparisons to experimental data (e.g., partition coefficients, condensate composition). Discuss what new insights the model provides that were not available from previous approaches.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model name and description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "CALVADOS-RNA" is introduced without explaining the acronym or its relation to the existing CALVADOS protein model.  
+  - **Required correction** Briefly state the origin of the name and explicitly note the compatibility with the CALVADOS protein model.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope definition  
+  - **Affected element** Claim of "sequence-independent" model  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states the model is sequence-independent, but it is unclear whether this means the model ignores sequence identity entirely or uses a sequence-averaged hydropathy scale.  
+  - **Required correction** Clarify the meaning of "sequence-independent" and discuss any limitations this imposes on capturing sequence-specific RNA behavior.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Disordered, flexible RNA"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "disordered RNA" is unusual, as RNA is typically described by its secondary structure rather than disorder.  
+  - **Required correction** Define what is meant by "disordered" in this context, likely referring to single-stranded RNA without stable secondary structure, and justify the terminology.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative evidence to support the central claims of semiquantitative accuracy and broad utility. The parametrization details and validation breadth are not visible, preventing an assessment of technical soundness.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of a hydropathy-based, sequence-independent RNA model compatible with existing protein models appears novel, but the abstract does not clearly differentiate it from prior RNA coarse-grained models.  
+  - **Scientific importance** The potential to enable simulations of protein-RNA condensates is significant, but the demonstrated impact is not yet clear from the abstract.  
+  - **Interdisciplinary readership** The work bridges computational chemistry, biophysics, and cell biology, which could attract a broad audience, but the abstract is written in a specialized manner that may limit accessibility.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The parametrization strategy is reasonable in principle, but the lack of quantitative validation and methodological detail prevents a judgment.  
+  - **Readability for nonspecialists** The abstract is concise but uses jargon (e.g., "virial coefficients," "reentrant phase behavior") without explanation, which may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable model, but the evidence base is insufficient to assess the validity of the central claims. A full manuscript with detailed methods, quantitative comparisons, and broader validation would be required to support the conclusions.
+
+## Risk / unsupported claims
+- The claim that the model "semiquantitatively captures" RNA-RNA and RNA-protein interactions is unsupported without quantitative data.
+- The claim that the model "may be used as a baseline model to study several aspects" is not supported by the limited validation described.
+- The demonstration of utility via MED1-RNA condensates and transcription factor partitioning is described but not substantiated with specific results.
+- The parametrization approach is described but not detailed enough to assess reproducibility or robustness.

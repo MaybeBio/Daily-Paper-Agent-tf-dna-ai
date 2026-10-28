@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or data tables were available for evaluation
+- **Shared manuscript claim summary** The authors propose that hnRNP A2/B1 and A1, despite high sequence homology and conserved domain architecture, achieve functional divergence through distinct inter-domain conformational dynamics. Specifically, A2/B1 is described as rigid, stabilized by interfacial electrostatic and hydrophobic interactions, and capable of homodimerizing on short nucleic acids (12-nt) via a U-shaped substrate topology. A1 is described as flexible and conformationally heterogeneous, disfavoring stable dimerization but enabling tandem engagement of extended substrates (≥17-nt). Mutational disruption of A2/B1 interfacial interactions is reported to induce A1-like dynamics and impair dimerization. The authors conclude that inter-domain dynamics encode oligomerization pathways in multi-RRM proteins.
+- **Visible evidence base** Abstract text only. No methods section, figures, tables, statistical details, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, MD simulation parameters and convergence criteria, biophysical assay details (e.g., ITC, AUC, SEC-MALS, NMR, or SAXS), mutagenesis constructs, nucleic acid sequences, replicate numbers, statistical analyses, and any structural coordinates or validation metrics.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis linking inter-domain conformational dynamics to oligomerization pathway selection in homologous multi-RRM proteins. The proposed mechanistic framework has potential appeal for the RNA-binding protein community. However, the evidence base available for review is limited to the abstract, and several claims require substantially more experimental and computational support than can be assessed from the provided text. The central conclusion that inter-domain dynamics serve as a key determinant of oligomerization pathways is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying hnRNP biology, RNA-binding protein oligomerization, phase separation and RNP granule assembly, and the functional evolution of paralogous protein families. The work may also interest computational biophysicists focused on inter-domain dynamics and allostery in multi-domain RNA-binding proteins.
+- **Major strengths** The hypothesis is clearly articulated and mechanistically appealing. The comparative approach using two highly homologous proteins is well suited to isolate the contribution of inter-domain dynamics. The proposed link between conformational rigidity and oligomerization mode is a testable and potentially generalizable framework. The mutational strategy described provides a direct route to test causality.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that A2/B1 rigidity facilitates a U-shaped substrate topology enabling homodimerization on short nucleic acids (12-nt)  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts a specific structural topology (U-shaped substrate) and a direct causal link between rigidity and dimerization, but no structural data, shape reconstruction, or direct visualization of the proposed topology is described. The evidence for the U-shaped topology is not specified.  
+  - **Why it matters** The U-shaped topology is a central mechanistic element distinguishing A2/B1 from A1. Without direct structural or biophysical evidence supporting this topology, the proposed mechanism remains speculative.  
+  - **Resolution test** Provide experimental data (e.g., SAXS envelope, FRET measurements, cross-linking mass spectrometry, or cryo-EM) that directly reports on the nucleic acid path and protein arrangement in the A2/B1 dimer complex.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that A1 flexibility disfavors stable dimerization but enables tandem engagement of extended substrates (≥17-nt)  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports a correlation between A1 flexibility and its inability to dimerize stably, but no quantitative binding data, stoichiometry measurements, or comparative affinity values are provided. The phrase "disfavors stable dimerization" is vague and could reflect either weak binding, rapid dissociation, or a different oligomeric state.  
+  - **Why it matters** The distinction between "no dimerization" and "unstable dimerization" is mechanistically important. Without quantitative stoichiometry and affinity data, the proposed functional consequence of A1 flexibility is not established.  
+  - **Resolution test** Provide AUC or SEC-MALS data showing the oligomeric states of A1 and A2/B1 on defined nucleic acid substrates, with binding affinities and stoichiometries for both short and extended substrates.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that mutational disruption of key interfacial interactions in A2/B1 induces A1-like dynamics and impairs dimerization  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The mutational analysis is described in a single sentence without specifying which residues were mutated, how "A1-like dynamics" was quantified, or whether the impaired dimerization was due to loss of the interface per se or to the induced conformational change. The causal chain from mutation to dynamics to function is asserted but not demonstrated.  
+  - **Why it matters** This experiment is the key causal test of the hypothesis. If the mutation disrupts dimerization simply by removing contact residues rather than by altering inter-domain dynamics, the central claim that dynamics encode oligomerization pathways is weakened.  
+  - **Resolution test** Show that the mutant retains the ability to bind nucleic acid but loses dimerization specifically through altered inter-domain dynamics, using e.g., NMR relaxation dispersion, smFRET, or MD simulations comparing the mutant to both wild-type proteins.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that MD simulations support distinct inter-domain conformational landscapes for A2/B1 and A1  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No simulation details are provided, including force field, simulation length, sampling methodology, convergence criteria, or whether the simulations were performed on apo proteins, nucleic acid-bound complexes, or both. The abstract does not state how many independent simulations were run or how statistical significance was assessed.  
+  - **Why it matters** MD simulations are only meaningful if adequately sampled and converged. Without these details, the reported conformational differences could reflect insufficient sampling or force field artifacts rather than genuine biophysical differences.  
+  - **Resolution test** Provide simulation protocols, convergence metrics, and replicate analyses in the methods section, and show that the conformational differences are robust across multiple independent simulations and force fields.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The claim that inter-domain dynamics serve as a key determinant of oligomerization pathways in multi-RRM proteins  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract generalizes from two paralogs to multi-RRM proteins broadly, but no evidence from other multi-RRM systems is presented. The framework may be specific to the A2/B1 and A1 pair.  
+  - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. Without comparative data from other multi-RRM proteins, the framework remains a hypothesis.  
+  - **Resolution test** Discuss the framework in the context of existing literature on other multi-RRM proteins, or provide preliminary data on a third system to support generalizability.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "U-shaped substrate topology" is introduced without definition or schematic context.  
+  - **Required correction** Define the topology clearly, ideally with a schematic figure, and specify whether "U-shaped" refers to the protein, the nucleic acid, or the complex.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Quantitative description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states "12-nt" and "≥17-nt" but does not specify the sequence context, whether these are minimal lengths, or how they were determined.  
+  - **Required correction** Provide the nucleic acid sequences used and describe the binding assays that established these length thresholds.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Mutational details  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state which residues were mutated or how many mutations were tested.  
+  - **Required correction** List the specific mutations and their locations in the domain architecture.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Correlation vs. causation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that oligomerization behaviors "correlate with" conformational landscapes, but the concluding sentence elevates this to "serve as a key determinant," implying causation.  
+  - **Required correction** Soften the causal language in the abstract or provide explicit causal evidence from the mutational analysis.
+
+## Risk / unsupported claims
+- The U-shaped substrate topology for A2/B1 is asserted without direct structural evidence.
+- The claim that A1 flexibility "disfavors stable dimerization" is not supported by quantitative stoichiometry or affinity data.
+- The causal link between inter-domain dynamics and oligomerization pathway selection is not established from the abstract alone.
+- The generalizability of the framework to other multi-RRM proteins is not supported by any comparative data.
+- The MD simulation results are not assessable without methodological details.
+- The mutational analysis is described too briefly to evaluate whether the observed effects are due to altered dynamics or simply loss of interface contacts.

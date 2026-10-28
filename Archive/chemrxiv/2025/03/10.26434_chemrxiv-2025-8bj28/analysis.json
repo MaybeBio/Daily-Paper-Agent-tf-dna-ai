@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-8bj28",
+  "title": "Development of a Transferable Density FunctionalTight Binding Model for Organic Molecules at the Water/Platinum Interface",
+  "authors": "Qing Wang; Mingjun Gu; Carine Michel; Nir Goldman; Thomas Niehaus; Stephan N. Steinmann",
+  "journal": "ChemRxiv",
+  "published_date": "2025-03-10",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文开发水/铂界面的DFTB参数模型，聚焦有机分子在金属表面的吸附与催化，不涉及蛋白质-DNA互作或TF-DNA体系，仅方法上对界面模拟有间接参考价值。",
+  "abstract": "A computationally efficient and transferable approach for modeling reactions at metal/water interfaces could significantly accelerate our understanding and ultimately development of new catalytic transformations, particularly in the context of the emerging field of biomass conversion. Here, we present a parametrization of Pt-X (X = H, O, C) density functional tight-binding (DFTB) for addressing this need. We firstly constructed Pt-H, Pt-O, and Pt-C repulsive potential splines. These pair-wise parameters were then augmented to include many-body interactions using the Chebyshev Interaction Model for Efficient Simulation (ChIMES). We compare the geometrical and energetic performances of both DFTB and DFTB/ChIMES methods to DFT reference data across a variety of organic molecules at platinum surface from nanoparticles to single-crystal surfaces. DFTB shows limited transferability between extended crystal surfaces to small nanoparticles. This transferability is significantly improved through the introduction of three-body interactions with Pt in DFTB/ChIMES, which provides consistent results across the various systems, with reductions in the RMSD from around 30 kcal/mol in DFTB to around 10 kcal/mol. We demonstrate the stability and reliability of the obtained parameters by performing metadynamics simulations for the adsorption of phenol on Pt(111). We observe that DFTB itself is undersolvating the surface, leading to only one or two chemisorbed water molecule in a c(4x6) unit cell. In contrast, DFTB/ChIMES leads to a coverage of about 0.5 ML and successfully captures the chemisorbed mode of phenol both at the solid/liquid and the solid/gas interface. Furthermore, in agreement with experimental measurements, the adsorption energy at the solid/liquid interface is significantly smaller compared to the solid/gas interface. Furthermore, we highlight that even with DFTB, where we can accumulate dynamics for more than 1 ns for a given system, the simulations are not fully converged.",
+  "abstract_zh": "一种计算高效且可转移的方法，用于模拟金属/水界面反应，有望显著加速我们对新催化转化的理解，并最终推动其发展，尤其是在新兴的生物质转化领域。为此，我们提出了一种针对 Pt-X（X = H, O, C）的密度泛函紧束缚（density functional tight-binding, DFTB）参数化方案。我们首先构建了 Pt-H、Pt-O 和 Pt-C 的排斥势样条。随后，通过使用高效模拟的切比雪夫相互作用模型（Chebyshev Interaction Model for Efficient Simulation, ChIMES），将这些对势参数扩展以包含多体相互作用。我们将 DFTB 和 DFTB/ChIMES 方法的几何与能量性能，与多种有机分子在铂表面（从纳米颗粒到单晶表面）上的 DFT 参考数据进行了比较。DFTB 在扩展晶体表面与小纳米颗粒之间的转移性有限。通过引入含 Pt 的三体相互作用，DFTB/ChIMES 显著改善了这种转移性，在各种系统中提供了一致的结果，RMSD 从 DFTB 的约 30 kcal/mol 降至约 10 kcal/mol。我们通过苯酚在 Pt(111) 上吸附的元动力学模拟，证明了所获参数的稳定性和可靠性。我们观察到，DFTB 本身对表面的溶剂化不足，导致在 c(4x6) 晶胞中仅有一或两个化学吸附水分子。相比之下，DFTB/ChIMES 导致约 0.5 ML 的覆盖度，并成功捕获了苯酚在固/液和固/气界面的化学吸附模式。此外，与实验测量一致，固/液界面的吸附能显著小于固/气界面。进一步地，我们强调，即使使用 DFTB，在给定系统中可积累超过 1 ns 的动力学，模拟也并未完全收敛。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-8bj28",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-8bj28",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-8bj28/index.html"
+}

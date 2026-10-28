@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary information descriptions.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretability of the neural network approach, biological relevance of findings, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose a deep neural network (DNN) that predicts genome-wide transcriptome signatures from the expression of ~1,600 transcription factors (TFs). They report that this model explains >95% of variance in ~25,000 target genes, that a core set of ~125 TFs explains ~80% of variance, and that the model can predict disease-related gene dysregulation with significant overlap against known TF-disease associations. They introduce a "light-up" analysis for interpretability and a backward-selection algorithm to identify key TFs.
+- **Visible evidence base** Results sections describing performance metrics (1 - R2 values), comparisons to databases (TRUST, DoRothEA, ReMap, RegNetwork), disease prediction correlations (rho = 0.61), and AUROC analyses. Methods sections detailing data processing, model architecture, light-up analysis, and backward-selection. Figures 1-5 referenced but not directly visible.
+- **Missing materials affecting confidence** Actual figures and supplementary tables (Supplemental Tables 1-3, Supplemental Materials 1-3) are not provided. Code repository is referenced but not reviewed. Detailed statistical outputs (e.g., confidence intervals, effect sizes for individual genes) are not fully available.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable framework for interpretable deep learning in transcriptomics, with a clear focus on biological relevance. The core finding that TF expression alone can predict a large fraction of transcriptome variance is intriguing and could have practical applications. However, the evidence as presented has several gaps that limit confidence in the claims. The lack of visible figures and supplementary data makes it difficult to fully assess the robustness of the performance metrics and the biological validity of the extracted TF-target relationships. The methodological novelty relative to existing work (e.g., autoencoders, other interpretability tools) is not sharply delineated. The disease application is promising but the statistical rigor of the AUROC analysis and the interpretation of "causative" TFs require clarification. Overall, the work is interesting but currently not fully established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference and interpretable machine learning would find this relevant. Researchers in disease genomics, particularly those studying transcriptional dysregulation, may be interested in the potential to identify key TFs from expression data. The methodological approach could also appeal to those developing predictive models for personalized medicine, though the clinical utility is not yet demonstrated.
+- **Major Strengths** The manuscript addresses a significant challenge in genomics, namely the interpretability of deep learning models. The focus on TFs as a biologically meaningful input layer is a sensible design choice. The use of multiple validation databases (TRUST, DoRothEA, etc.) strengthens the claim that learned relationships are biologically relevant. The disease application, using independent data from the Expression Atlas, is a good test of generalizability. The writing is generally clear and the motivation is well-articulated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the DNN explains >95% of variance in target gene expression (abstract, results section "Accurate and robust prediction...").
+  - **Evidence pointer** Results section, Figure 2a, 2b; location not provided for specific values.
+  - **Concern** The reported performance metric (1 - R2) is presented as median and mean values, but the distribution of these values across genes is not shown. The claim of >95% variance explained (i.e., median 1 - R2 = 0.03-0.12) is based on a specific model architecture, but the sensitivity of this result to hyperparameters, training data subsampling, or random seeds is not reported. Without confidence intervals or variance estimates, it is unclear if this performance is robust or an artifact of overfitting to the training set. The comparison to the shallow model (1 - R2 = 0.25) is useful but does not establish the superiority of the DNN in a statistically rigorous way.
+  - **Why it matters** The central claim of the paper rests on the predictive accuracy of the model. If this performance is not robust, the subsequent interpretability and disease analyses are built on a shaky foundation. Overfitting is a common issue in DNNs with high-dimensional inputs, and the authors do not provide sufficient evidence to rule it out.
+  - **Resolution test** Provide the full distribution of R2 values (e.g., boxplots or histograms) for each model. Report performance on multiple independent test sets or cross-validation folds. Include a hyperparameter sensitivity analysis (e.g., varying number of layers, nodes, learning rate) to show that performance is stable. Report the number of parameters and the ratio of samples to parameters to assess overfitting risk.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Biological validity
+  - **Claim pointer** The claim that the light-up analysis reveals "key causative TFs" that induce transcriptional changes during disease (abstract, results section "DNN analysis gives insights to human disease mechanisms...").
+  - **Evidence pointer** Results section, Figure 5; location not provided for specific disease names or AUROC values.
+  - **Concern** The term "causative" is used without sufficient justification. The analysis ranks TFs based on the change in correlation between predicted and observed target dysregulation when each TF's input is removed. This is a measure of predictive influence, not causality. The authors do not provide any experimental validation (e.g., knockdown/overexpression) or orthogonal evidence (e.g., ChIP-seq, eQTL) to support the causal interpretation. The AUROC analysis, while showing enrichment, does not establish that the identified TFs are the true drivers of disease. The comparison to GWAS is correlational and may be confounded by linkage disequilibrium or pleiotropy.
+  - **Why it matters** The clinical and biological relevance of the method depends on its ability to identify true drivers of disease. Overstating the causal nature of the findings could mislead subsequent research. The Nature-style criteria emphasize the importance of robust, well-supported claims.
+  - **Resolution test** Rephrase the claims to use "predictive" or "influential" instead of "causative." Provide additional validation, such as comparing identified TFs to known disease-associated TFs from curated databases (e.g., ClinVar, OMIM) or performing a literature-based enrichment analysis. If possible, include a small experimental validation in a relevant cell line or model system. Clarify the statistical model used to generate the P values for the AUROC analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The claim that the backward-selection algorithm identifies a "core set" of ~125 TFs that explain ~80% of variance (abstract, results section "Algorithmic extraction of a core set of validated regulator TFs from the DNN").
+  - **Evidence pointer** Results section, Figure 4a; location not provided for specific values.
+  - **Concern** The backward-selection algorithm is described, but the criteria for stopping the selection process are not fully specified. The claim that ~125 TFs explain ~80% of variance is presented, but the variance explained by intermediate steps (e.g., 500, 250 TFs) is not shown in the text. The stability of the selected TF set across different initializations or data subsamples is not assessed. The algorithm removes TFs in batches of 100, which may be too coarse to identify a truly minimal set. The biological interpretation of the "core set" is limited by the lack of functional validation.
+  - **Why it matters** The identification of a minimal TF set is a key contribution, as it could guide experimental design. If the set is not stable or the selection criteria are arbitrary, the utility of this finding is diminished.
+  - **Resolution test** Provide a plot showing the variance explained as a function of the number of TFs retained, with a clear indication of the stopping criterion. Perform a stability analysis (e.g., bootstrap or repeated subsampling) to show that the selected TFs are consistent. Validate the core set by testing its predictive performance on an independent dataset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract uses technical terms like "light-up technique" and "Black-box" without defining them. The introduction could benefit from a brief explanation of why TF-based prediction is a novel or important step beyond existing sequence-based methods.
+  - **Required correction** Define "light-up" in the abstract or first mention. Add a sentence in the introduction clarifying the distinction between sequence-based prediction and expression-based prediction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Model design"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The number of input nodes is stated as 1,525 in the Methods, but the abstract and results mention ~1,600 TFs. This discrepancy is not explained.
+  - **Required correction** Clarify the exact number of TFs used and reconcile the discrepancy between the Methods and the rest of the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results section "DNN analysis gives insights to human disease mechanisms..."
+  - **Evidence pointer** Results section, Figure 5
+  - **Issue** The authors state that 10 of 22 diseases show significant overlap with GWAS, but the specific diseases are not listed. This makes it difficult to assess the biological plausibility of the findings.
+  - **Required correction** List the diseases that showed significant overlap and briefly discuss whether these are known to involve transcriptional dysregulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (robustness of performance metrics) and R1-M2 (overinterpretation of causality) are the primary technical issues. The lack of visible figures and supplementary data is a significant barrier to full assessment. The discrepancy in TF counts (R1-m2) is a minor but easily fixable issue.
+- **Assessment against Nature-style criteria** Originality: The approach of using TF expression as a constrained input to a DNN for interpretable transcriptome prediction is somewhat novel, but similar ideas exist in the literature (e.g., using regulatory networks as priors). The light-up analysis is a useful tool but not fundamentally new. Scientific importance: The potential to identify key TFs in disease is important, but the lack of causal validation limits the immediate impact. Interdisciplinary readership: The work bridges machine learning and genomics, which could appeal to a broad audience, but the technical details may be challenging for non-specialists. Technical soundness: The methods are generally sound, but the robustness of the results is not fully demonstrated. Readability for nonspecialists: The manuscript is reasonably well-written, but the abstract and some results sections are dense and could be clarified.
+
+## Risk / unsupported claims
+- The claim of ">95% of the variance" is not fully supported without distributional data and robustness checks.
+- The use of "causative" to describe TFs identified by the model is not supported by the evidence presented.
+- The claim that the model "could be used to disentangle which TFs drive the target dysregulation" is overstated given the correlational nature of the analysis.
+- The generalizability of the model to all human tissues and diseases is not fully established, as the training data composition is not described in detail.
+- The biological relevance of the "core set" of 125 TFs is not validated experimentally or through independent functional data.

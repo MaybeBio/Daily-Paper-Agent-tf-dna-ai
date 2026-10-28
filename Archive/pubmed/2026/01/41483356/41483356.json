@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41483356",
+    "doi": "10.1007/s12031-025-02444-2",
+    "title": "LDHA as a Potential Therapeutic Target for Lactylation Regulation in Spinal Cord Injury: Integrated Bioinformatics Analysis, Experimental Validation, and Drug Prediction."
+  },
+  "content": {
+    "abstract": "Lactate metabolism and its epigenetic modification, lactylation, are emerging regulators in neurological disorders, yet their roles in spinal cord injury (SCI) remain unclear. Here, we mined SCI transcriptomes from GEO and identified 13 differentially expressed lactylation-related genes (DE-LRGs), with lactate dehydrogenase A (LDHA) significantly upregulated. Immune-infiltration analysis linked LDHA to T cells gamma delta, and Mfuzz time-series clustering showed dynamic LDHA upregulation during acute SCI, which was validated in GSE45006. Random forest and ROC analyses supported the diagnostic value of LDHA. PPI and GeneMANIA networks positioned LDHA at the intersection of lactate metabolism and immune regulation. Drug prediction with Enrichr/DSigDB and docking highlighted folic acid and quercetin dihydrate as candidate compounds. GSVA/GSEA indicated LDHA enrichment in immune activation, metabolic regulation, and stress-response pathways. Immunofluorescence in a rat SCI model confirmed sustained LDHA elevation from 1 to 3 days around the lesion. Importantly, Western blot validation (3 days post-injury) demonstrated increased nuclear HIF-1alpha and p-STAT3;Y705 (total STAT3 unchanged) together with elevated CXCL1, IL-6, and CCL2 and the infiltration marker MPO/CD68; these changes were attenuated by LDHA inhibition (FX11) and partially rescued by exogenous lactate, supporting an LDHA --> lactate --> HIF-1alpha/STAT3 --> chemokine/infiltration axis in acute SCI. Collectively, our data identify LDHA as a key lactylation-related regulator in SCI that contributes to pathogenesis via metabolic reprogramming and immune modulation, highlighting its promise as a diagnostic biomarker and therapeutic target.",
+    "keywords": [
+      "Lactate Dehydrogenase A",
+      "Lactylation",
+      "Spinal Cord Injury"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Spinal Cord Injuries/metabolism/drug therapy/genetics",
+      "Rats",
+      "Rats, Sprague-Dawley",
+      "*L-Lactate Dehydrogenase/metabolism/genetics",
+      "Lactate Dehydrogenase 5/genetics/metabolism",
+      "*Lactic Acid/metabolism",
+      "Quercetin/pharmacology/therapeutic use",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics",
+      "STAT3 Transcription Factor/metabolism/genetics",
+      "Folic Acid/pharmacology/therapeutic use",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Bobo",
+        "Wang, Shenglong",
+        "Xu, Wenting",
+        "Su, Xiaochen",
+        "Zhang, Yulong",
+        "Lu, Ziliang",
+        "Zhang, Zhan",
+        "Zhang, Yingang"
+      ],
+      "short_names": [
+        "Zhang B",
+        "Wang S",
+        "Xu W",
+        "Su X",
+        "Zhang Y",
+        "Lu Z",
+        "Zhang Z",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China.",
+        "The Second Affiliated Hospital of Xian Jiaotong University, Xian, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China. zyingang@mail.xjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Bobo",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shenglong",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenting",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Xian Jiaotong University, Xian, China."
+        ]
+      },
+      {
+        "full_name": "Su, Xiaochen",
+        "short_name": "Su X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yulong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Ziliang",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhan",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yingang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Xian Jiaotong University, Xian, China. zyingang@mail.xjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular neuroscience : MN"
+    ],
+    "journal_abbrev": [
+      "J Mol Neurosci"
+    ],
+    "pub_date": "2026 Jan 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/03 12:36",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40219043",
+      "40173229",
+      "40104714",
+      "39662177",
+      "39609834",
+      "39310103",
+      "39278916",
+      "39196962",
+      "39095832",
+      "38972971",
+      "38731859",
+      "38203719",
+      "38059347",
+      "36604586",
+      "36407005",
+      "36347526",
+      "35609983",
+      "35578268",
+      "35340425",
+      "35090526",
+      "34996673",
+      "34104112",
+      "33239632",
+      "33199625",
+      "33074715",
+      "33066029",
+      "32703940",
+      "32608116",
+      "31779643",
+      "31645732",
+      "31462640",
+      "31363857",
+      "30497967",
+      "30194439",
+      "29513146",
+      "29468731",
+      "28447605",
+      "28440805",
+      "27008025",
+      "26974319",
+      "26893204",
+      "26580327",
+      "26579469",
+      "25990557",
+      "25516281",
+      "24257323",
+      "19910308",
+      "12895450",
+      "11896162",
+      "8913970",
+      "8592144"
+    ],
+    "similar": [
+      "41483356",
+      "39218784",
+      "40057050",
+      "41190071",
+      "41266288",
+      "16044166",
+      "40629253",
+      "38829380",
+      "40345018",
+      "33438067",
+      "35605402",
+      "41468795",
+      "41274423",
+      "40669249",
+      "39390367",
+      "41525841",
+      "39095832",
+      "41836446",
+      "40265937",
+      "41208879",
+      "39103838",
+      "40250488",
+      "41275824",
+      "41219135",
+      "39587478",
+      "40274522",
+      "24157153",
+      "39515667",
+      "36870018",
+      "41423155",
+      "41423055",
+      "41339282",
+      "40633185",
+      "38711083",
+      "34278456",
+      "37354982",
+      "41190808",
+      "40672388",
+      "41707978",
+      "41454479",
+      "39548367",
+      "29218499",
+      "39978571",
+      "41139200",
+      "41107806",
+      "40900394",
+      "41869327",
+      "38042503",
+      "41566738",
+      "27988334",
+      "41790013",
+      "40755753",
+      "40663577",
+      "28865131",
+      "32325281",
+      "38519735",
+      "39990209",
+      "41051446",
+      "21351619",
+      "41188773",
+      "28193910",
+      "32321555",
+      "41068780",
+      "30720148",
+      "41616844",
+      "41025103",
+      "24228092",
+      "39829390",
+      "40543996",
+      "41246341",
+      "38905316",
+      "30755595",
+      "24366912",
+      "32819442",
+      "41234832",
+      "41507134",
+      "41756296",
+      "41345972",
+      "38516823",
+      "39696439",
+      "41688413",
+      "30414229",
+      "20961996",
+      "41112295",
+      "31232175",
+      "40659129",
+      "41168862",
+      "39086231",
+      "40920282",
+      "39605213",
+      "41320682",
+      "41275207",
+      "41381887",
+      "41158309",
+      "20133848",
+      "28314283",
+      "39903889",
+      "39491735",
+      "36414158",
+      "40028887"
+    ],
+    "review": [
+      "41483356",
+      "40755753"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/spinalcordinjuries.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Spinal Cord Injuries"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12031-025-02444-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MPO-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3375",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

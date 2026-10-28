@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Structural modeling, variant compilation, and computational stability analyses of human XPC; no experimental validation is included
+- **Shared manuscript claim summary** The authors built a homology model of human XPC based on the yeast Rad4 crystal structure, compared it with an AlphaFold model, compiled 246 missense variants from databases and literature, mapped them onto the models, and used sequence conservation plus FoldX/SDM ΔΔG predictions to assess structural impact. They report that known pathogenic mutations (Y585C, W690S, C771Y) are predicted to destabilize the protein, and they identify several conserved surface-exposed hydrophobic patches as potential novel interaction interfaces.
+- **Visible evidence base** Full text including abstract, introduction, methods, results, discussion, and supplementary file descriptions; no supplementary files were provided for inspection
+- **Missing materials affecting confidence** Supplementary files (SI Files S1–S6, Tables S1–S5, Figures S1–S8) are referenced but not available; the compiled variant list with per-residue scores is not fully accessible; AlphaFold model details and validation metrics are only partially described
+
+## Reviewer
+- **Overall assessment** This manuscript provides a useful computational resource for the XPC field, compiling a large set of missense variants and mapping them onto structural models. The work is descriptive and hypothesis-generating rather than definitive. The main value lies in the curated variant list and the identification of conserved surface patches that may mediate protein-protein interactions. However, the absence of experimental validation, the reliance on a homology model with modest sequence identity, and the limited accessibility of the underlying data (supplementary files not provided) reduce the strength of the conclusions. The manuscript is technically sound in its computational approach but does not establish causal relationships between variants and disease phenotypes.
+- **Who would be interested in the results, and why** Researchers studying nucleotide excision repair, particularly those focused on XPC structure-function relationships, XP patient genetics, and cancer-associated variants. Clinicians and geneticists interpreting XPC variants in diagnostic settings may also find the compiled data useful. Computational biologists interested in applying homology modeling and stability prediction tools to disease-associated variants would find the methodology relevant.
+- **Major strengths** The manuscript addresses a genuine gap: the lack of a high-resolution human XPC structure and the difficulty of interpreting the growing number of reported variants. The compilation of 246 variants from multiple sources is a valuable resource. The comparison between SwissModel and AlphaFold models is a useful sanity check. The use of multiple complementary approaches (conservation, FoldX, SDM) strengthens the confidence in the predictions. The identification of conserved surface-exposed hydrophobic patches is an interesting and potentially novel observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that known XP missense mutations such as Y585C, W690S, and C771Y are "consistently predicted to destabilize the protein's structure" and that the assessments "largely agree" with one another.
+  - **Evidence pointer** Results section, Tables 1–2, Table S1, Figures 5–11; location not provided for specific data points
+  - **Concern** The claim of consistency between prediction methods is not fully supported by the data presented. The authors report a correlation coefficient of r = 0.490 between their scores and FoldX, and r = −0.366 with SDM. These are moderate correlations at best, and the manuscript itself notes that "certain variants deviate from the general trend." For the specific pathogenic mutations highlighted, the manuscript does not provide the individual FoldX and SDM ΔΔG values in the main text, making it impossible to verify the "consistently predicted" claim. The P806L variant is acknowledged as an exception where the authors' assessment disagrees with both FoldX and SDM. This undermines the strength of the claim that the methods "largely agree."
+  - **Why it matters** The central conclusion of the manuscript is that the computational approach can reliably identify structurally impactful variants. If the agreement between methods is only moderate, and if the highlighted pathogenic mutations are not individually documented with their numerical predictions, the reader cannot assess the reliability of the approach. This is critical because the manuscript offers these predictions as a guide for future studies.
+  - **Resolution test** Provide a supplementary table listing for each of the 246 variants: the authors' qualitative score, the FoldX ΔΔG, the SDM ΔΔG, and the conservation score. Highlight the specific values for Y585C, W690S, C771Y, and P806L. Show that the three methods agree for the pathogenic mutations or explain the discrepancies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the homology model was built using the Rad23-Rad23-mismatched DNA structure (PDB: 2QSH) and that the final model encompasses residues 191–829, including the flexible internal loop corresponding to residues 331–520.
+  - **Evidence pointer** Materials and Methods, "Homology modeling and refinement" section; Figures 1–3
+  - **Concern** The template sequence identity is reported as 26.4%, which is relatively low for reliable homology modeling. The manuscript does not discuss the expected accuracy of the model in the regions where variants are analyzed, particularly in loop regions and the linker. The authors state that 4% of residues are Ramachandran outliers, all but one in the linker region, but do not address how this affects the reliability of predictions for variants in those regions. Additionally, the manuscript does not provide a clear figure of merit for the model quality (e.g., QMEAN, MolProbity scores) beyond Ramachandran statistics. The comparison with AlphaFold is described qualitatively, but the RMSD values are only given for structured domains, and the significance of the differences in the linker and termini is not discussed in the context of variant interpretation.
+  - **Why it matters** The entire analysis depends on the reliability of the structural models. If the model has significant errors in certain regions, the predictions for variants in those regions are unreliable. The manuscript does not provide sufficient information for the reader to judge which parts of the model are trustworthy. This is particularly important for the linker region, where 53 variants are located, and where the model is acknowledged to be poorly defined.
+  - **Resolution test** Provide per-residue model confidence metrics (e.g., pLDDT from AlphaFold, local RMSD or model quality scores for the SwissModel) and clearly indicate which regions of the model are reliable for variant interpretation. Discuss how the low sequence identity and the presence of Ramachandran outliers affect the confidence in predictions for variants in those regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data accessibility
+  - **Claim pointer** The manuscript states that "Structural models and variant analyses are also available as downloadable files as Supplementary Information."
+  - **Evidence pointer** Abstract, Discussion, Supplementary Information section
+  - **Concern** The supplementary files were not provided for review. The manuscript references SI Files S1–S6, Tables S1–S5, and Figures S1–S8, but none of these are accessible. This makes it impossible to verify the compiled variant list, the per-residue scores, the full sequence alignment, or the model validation data. The manuscript cannot be fully evaluated without these materials.
+  - **Why it matters** The primary deliverable of this manuscript is a curated resource. If the underlying data are not accessible, the resource cannot be used by the community, and the claims cannot be independently verified. This is a fundamental issue for a data-driven computational paper.
+  - **Resolution test** Provide all supplementary files for review. Ensure that the variant list with all scores, the full alignment, and the model files are included and clearly documented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Assessing the impact of the gene variants" section
+  - **Evidence pointer** Materials and Methods, "Assessing the impact of the gene variants on the protein stability (ΔΔG) using FoldX and Site Directed Mutator (SDM)" section
+  - **Issue** The description of the scoring system used for the authors' qualitative assessment (scores of −1 to +3) is not fully defined. The criteria for assigning scores are described in general terms but not operationalized. For example, what specific structural or conservation criteria distinguish a score of 2 from 3?
+  - **Required correction** Provide a clear rubric for the scoring system, with explicit criteria for each score level, and ideally a worked example.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Mutations and variants in the XPC gene" section
+  - **Evidence pointer** Results, "Mutations and variants in the XPC gene from databases and clinical literature" section; Tables 1–2
+  - **Issue** The manuscript states that 246 unique variants were compiled, but the breakdown of how many came from each source (TumorPortal, ICGC, ClinVar, literature) is not clearly presented. The overlap between sources is also not described.
+  - **Required correction** Add a summary table or figure showing the source breakdown and overlap of variants.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, surface-exposed hydrophobic patches
+  - **Evidence pointer** Discussion, final paragraph; Figure 12
+  - **Issue** The claim that conserved surface-exposed hydrophobic patches "may indicate novel intermolecular interfaces" is speculative. The authors do not discuss whether such patches are common in globular proteins generally, or whether they have any additional evidence (e.g., known interaction partners, co-evolution analysis) to support this hypothesis.
+  - **Required correction** Soften the claim or provide additional supporting evidence, such as co-evolution analysis or comparison with known protein-protein interaction interfaces.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, homology modeling
+  - **Evidence pointer** Materials and Methods, "Homology modeling and refinement" section
+  - **Issue** The manuscript states that loop refinement was performed using MODELLER, but does not specify which loops were refined, how many models were generated, or how the final loop conformations were selected.
+  - **Required correction** Provide details on the loop refinement protocol, including the number of models generated and the selection criteria.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evidence sufficiency for the agreement between methods), R1-M2 (model reliability in regions with variants), R1-M3 (data accessibility)
+- **Assessment against Nature-style criteria** Originality: moderate. The compilation of variants and their mapping onto structural models is useful but not conceptually novel. Similar approaches have been applied to other proteins. Scientific importance: moderate. The work provides a resource for the XPC field but does not fundamentally advance understanding of XPC function or disease mechanism. Interdisciplinary readership: limited. The manuscript will primarily interest structural biologists and researchers in DNA repair. Technical soundness: adequate but with concerns about model reliability and the strength of the agreement between methods. Readability for nonspecialists: the manuscript is generally well-written and accessible, though some sections assume familiarity with structural biology concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a real need and provides a potentially useful resource, but the strength of the conclusions must be better supported by the data, and the supplementary materials must be made available for verification.
+
+## Risk / unsupported claims
+- The claim that known XP mutations are "consistently predicted to destabilize" the protein is not fully supported by the data presented, given the moderate correlations between methods.
+- The identification of conserved surface-exposed hydrophobic patches as "novel intermolecular interfaces" is speculative and not supported by additional evidence.
+- The statement that the Swiss-MODEL and AlphaFold models are "largely consistent" is based on a single global RMSD value and does not address local differences that may be functionally relevant.
+- The manuscript claims the analysis covers 246 unique variants, but the full list with per-residue scores is not accessible in the provided materials, making this claim unverifiable.
+- The functional significance of the P334H variant is discussed based on published studies, but the authors' own structural analysis does not provide a clear mechanism for its pathogenicity, which is acknowledged but not resolved.

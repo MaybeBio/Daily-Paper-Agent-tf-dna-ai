@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a Brownian dynamics simulation framework with a coarse-grained model to study facilitated diffusion of a protein on DNA, estimating target search rates, search round statistics, and timescales via first passage time calculations, under conditions of rigid versus flexible DNA and varying target positions. They claim the framework provides insights into the role of chain dynamics in facilitated diffusion.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, model validation, quantitative results, figures, tables, and any comparison with experimental or prior theoretical data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and timely modeling objective, but the provided material is insufficient to evaluate the scientific claims. No quantitative outcomes, methodological specifics, or validation are visible. The work may be of interest to biophysicists studying protein-DNA interactions, but the current evidence base does not establish the stated insights.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational biology, and physical chemistry, particularly those studying gene regulation mechanisms, protein-DNA target search kinetics, and facilitated diffusion models. The focus on chain flexibility and target position effects could appeal to groups developing coarse-grained simulations of biomolecular processes.
+- **Major strengths** The abstract addresses a well-recognized problem in biophysics with potential relevance to gene editing and regulation. The use of first passage time calculations and Brownian dynamics is methodologically appropriate for the stated objective. The consideration of DNA flexibility and target location as variables is a reasonable approach to probe mechanistic details.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the theoretical framework "provides insights into the complex target search dynamics by highlighting the significance of the chain dynamics in the mechanistic details of the facilitated diffusion process."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results, simulation outcomes, or comparative analyses are presented in the abstract to support the claim that chain dynamics significantly influence target search dynamics. The statement is a qualitative assertion without visible backing.
+  - **Why it matters** The central contribution of the work appears to be the mechanistic insight regarding chain dynamics, but without data or analysis, the claim cannot be assessed for validity or novelty.
+  - **Resolution test** Provide specific results in the full manuscript, such as search rate comparisons for rigid versus flexible DNA, target position dependence, and statistical measures of search rounds, with appropriate error analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that the study is based on "a Brownian dynamics simulation setup adopting a straightforward coarse-grained model for a diffusing protein on DNA."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the coarse-grained model parameters, interaction potentials, simulation timescales, or system size. Without these details, the reproducibility and physical relevance of the model cannot be evaluated.
+  - **Why it matters** For a simulation-based study, methodological clarity is essential for readers to judge whether the model captures the essential physics of facilitated diffusion and whether results are robust.
+  - **Resolution test** Include a detailed model description in the full manuscript, including force fields, parameter values, equilibration procedures, and sensitivity analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation and comparison
+  - **Claim pointer** The abstract implies the framework explains "the relatively much shorter timescale of the target searching process" compared to other diffusion-controlled processes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No comparison with experimental data or established theoretical results is mentioned. The claim of explaining shorter timescales requires validation against known benchmarks.
+  - **Why it matters** Without validation, the model's predictive power and relevance to real biological systems remain unsubstantiated.
+  - **Resolution test** Compare simulation-derived search times with experimental measurements or prior theoretical predictions, and discuss discrepancies or agreements.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "intricate methodology of searching and locating" is vague and could be more precise.
+  - **Required correction** Rephrase to specify the molecular process, such as "a multi-step search mechanism involving 1D sliding and 3D hopping."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "search rounds"
+  - **Evidence pointer** Abstract, third sentence
+  - **Issue** The term "search rounds" is not defined, which may confuse readers unfamiliar with the specific simulation context.
+  - **Required correction** Define "search rounds" in the abstract or use a more standard term like "search cycles" with a brief explanation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract, final claim
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The claim about "chain dynamics" is introduced without prior context in the abstract, making it abrupt.
+  - **Required correction** Briefly introduce the concept of chain dynamics earlier in the abstract to improve logical flow.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims and methodology cannot be evaluated from the provided abstract. R1-M3 is non-blocking but important for establishing biological relevance.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not clearly differentiate the proposed approach from existing facilitated diffusion models, so originality is not assessable from the provided material.
+  - Scientific importance: The topic is important for understanding gene regulation, but the abstract does not demonstrate a significant advance beyond current knowledge.
+  - Interdisciplinary readership: The work could appeal to biophysicists and physical chemists, but the abstract lacks sufficient detail to attract a broader audience.
+  - Technical soundness: Not assessable due to missing methodological details and results.
+  - Readability for nonspecialists: The abstract is generally readable but uses jargon without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines a reasonable study, but the absence of quantitative results and methodological details prevents a supportive recommendation. A full manuscript with robust data and validation could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the framework "provides insights into the complex target search dynamics" is unsupported in the abstract due to lack of results.
+- The assertion that the model explains "the relatively much shorter timescale" is unverified without comparison to benchmarks.
+- The relevance of chain dynamics to facilitated diffusion is asserted but not demonstrated in the provided material.

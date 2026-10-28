@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "41571655",
+    "doi": "10.1038/s41467-026-68742-4",
+    "title": "Evaluating single-cell ATAC-seq atlasing technologies using sequence-to-function modeling."
+  },
+  "content": {
+    "abstract": "Deciphering the cis-regulatory logic underlying cell type identity remains a key challenge in biology. Single-cell chromatin accessibility (scATAC-seq) atlases enable training of sequence-to-function (S2F) deep learning models to decode enhancer logic. Yet, optimal criteria for constructing training datasets, i.e., the number of cells and ATAC fragments, remain unclear. Moreover, the suitability of different scATAC-seq platforms for such models has not been systematically tested. We introduce HyDrop v2, an improved custom droplet scATAC-seq method, and perform the first benchmark of scATAC-seq platforms focusing on its capacity to train S2F models and its capacity to yield TF footprints in different species. We show that lower fragment counts can be compensated for by increased cell numbers. S2F models trained on custom or commercial data perform comparably in enhancer prediction, sequence explainability, and transcription factor footprinting. We demonstrate that integrating data from different scATAC-seq platforms enables large-scale, cost-efficient atlas construction for deep learning-based regulatory modeling.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "Animals",
+      "*Chromatin Immunoprecipitation Sequencing/methods",
+      "Deep Learning",
+      "Humans",
+      "Transcription Factors/metabolism/genetics",
+      "Enhancer Elements, Genetic",
+      "*Chromatin/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dickmanken, Hannah",
+        "Wojno, Marta",
+        "Mahieu, Lukas",
+        "Theunis, Koen",
+        "Eksi, Eren Can",
+        "Christiaens, Valerie",
+        "Kempynck, Niklas",
+        "De Rop, Florian V",
+        "Roels, Natalie",
+        "Spanier, Katina I",
+        "Vandepoel, Roel",
+        "Hulselmans, Gert",
+        "Poovathingal, Suresh",
+        "Aerts, Stein"
+      ],
+      "short_names": [
+        "Dickmanken H",
+        "Wojno M",
+        "Mahieu L",
+        "Theunis K",
+        "Eksi EC",
+        "Christiaens V",
+        "Kempynck N",
+        "De Rop FV",
+        "Roels N",
+        "Spanier KI",
+        "Vandepoel R",
+        "Hulselmans G",
+        "Poovathingal S",
+        "Aerts S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9707-9293",
+        "ORCID: 0000-0003-2711-1264",
+        "ORCID: 0009-0002-5085-6985",
+        "ORCID: 0000-0002-0699-6676",
+        "ORCID: 0000-0002-3122-9858",
+        "ORCID: 0000-0002-5024-8691",
+        "ORCID: 0000-0002-0104-4844",
+        "ORCID: 0000-0001-5241-924X",
+        "ORCID: 0009-0009-8578-2622",
+        "ORCID: 0000-0002-1375-4157",
+        "ORCID: 0000-0002-0876-2179",
+        "ORCID: 0000-0002-3236-2255",
+        "ORCID: 0000-0002-8006-0315"
+      ],
+      "affiliations": [
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, CBD Technologies, Single Cell & Microfluidics Expertise Unit, Leuven, Belgium.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium. suresh.poovathingal@kuleuven.be.",
+        "VIB-KU Leuven Center for Brain & Disease Research, CBD Technologies, Single Cell & Microfluidics Expertise Unit, Leuven, Belgium. suresh.poovathingal@kuleuven.be.",
+        "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA. suresh.poovathingal@kuleuven.be.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium. stein.aerts@kuleuven.be.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium. stein.aerts@kuleuven.be.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium. stein.aerts@kuleuven.be.",
+        "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA. stein.aerts@kuleuven.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dickmänken, Hannah",
+        "short_name": "Dickmänken H",
+        "identifiers": [
+          "0000-0001-9707-9293"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Wojno, Marta",
+        "short_name": "Wojno M",
+        "identifiers": [
+          "0000-0003-2711-1264"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, CBD Technologies, Single Cell & Microfluidics Expertise Unit, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mahieu, Lukas",
+        "short_name": "Mahieu L",
+        "identifiers": [
+          "0009-0002-5085-6985"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA."
+        ]
+      },
+      {
+        "full_name": "Theunis, Koen",
+        "short_name": "Theunis K",
+        "identifiers": [
+          "0000-0002-0699-6676"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA."
+        ]
+      },
+      {
+        "full_name": "Ekşi, Eren Can",
+        "short_name": "Ekşi EC",
+        "identifiers": [
+          "0000-0002-3122-9858"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Christiaens, Valerie",
+        "short_name": "Christiaens V",
+        "identifiers": [
+          "0000-0002-5024-8691"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA."
+        ]
+      },
+      {
+        "full_name": "Kempynck, Niklas",
+        "short_name": "Kempynck N",
+        "identifiers": [
+          "0000-0002-0104-4844"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Rop, Florian V",
+        "short_name": "De Rop FV",
+        "identifiers": [
+          "0000-0001-5241-924X"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Roels, Natalie",
+        "short_name": "Roels N",
+        "identifiers": [
+          "0009-0009-8578-2622"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Spanier, Katina I",
+        "short_name": "Spanier KI",
+        "identifiers": [
+          "0000-0002-1375-4157"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vandepoel, Roel",
+        "short_name": "Vandepoel R",
+        "identifiers": [
+          "0000-0002-0876-2179"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hulselmans, Gert",
+        "short_name": "Hulselmans G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA."
+        ]
+      },
+      {
+        "full_name": "Poovathingal, Suresh",
+        "short_name": "Poovathingal S",
+        "identifiers": [
+          "0000-0002-3236-2255"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium. suresh.poovathingal@kuleuven.be.",
+          "VIB-KU Leuven Center for Brain & Disease Research, CBD Technologies, Single Cell & Microfluidics Expertise Unit, Leuven, Belgium. suresh.poovathingal@kuleuven.be.",
+          "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA. suresh.poovathingal@kuleuven.be."
+        ]
+      },
+      {
+        "full_name": "Aerts, Stein",
+        "short_name": "Aerts S",
+        "identifiers": [
+          "0000-0002-8006-0315"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium. stein.aerts@kuleuven.be.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium. stein.aerts@kuleuven.be.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium. stein.aerts@kuleuven.be.",
+          "Aligning Science Across Parkinson's (ASAP) Collaborative Research Network, Chevy Chase, MD, 20815, USA. stein.aerts@kuleuven.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jan 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/23 00:26",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39797728",
+      "39443484",
+      "38596708",
+      "38092918",
+      "35926038",
+      "35239393",
+      "35195064",
+      "34987221",
+      "34616068",
+      "34035349",
+      "31740819",
+      "30962623",
+      "29867222",
+      "28398311",
+      "27079975",
+      "26083756",
+      "25953818",
+      "24896182",
+      "23132240",
+      "22745313",
+      "22517427",
+      "16109036",
+      "10731132"
+    ],
+    "similar": [
+      "41571655",
+      "36902216",
+      "35195064",
+      "39881144",
+      "39487131",
+      "39049508",
+      "41831316",
+      "38724693",
+      "41932342",
+      "39326643",
+      "31594952",
+      "34898596",
+      "39082647",
+      "41284927",
+      "40471991",
+      "32392348",
+      "36719906",
+      "35858748",
+      "41545440",
+      "42265104",
+      "40097444",
+      "42114111",
+      "38600256",
+      "39757254",
+      "41663439",
+      "35941239",
+      "36131234",
+      "38330939",
+      "39800872",
+      "37012226",
+      "40049167",
+      "38654130",
+      "41021262",
+      "35058621",
+      "31164146",
+      "33637727",
+      "37537502",
+      "35584295",
+      "36549922",
+      "33663563",
+      "34686316",
+      "39127768",
+      "32029221",
+      "42167226",
+      "31428792",
+      "39062661",
+      "42100854",
+      "40581357",
+      "42560939",
+      "42060707",
+      "41120648",
+      "40723810",
+      "33779599",
+      "39769196",
+      "39041910",
+      "37980428",
+      "38084919",
+      "41270791",
+      "39700048",
+      "32431014",
+      "39093856",
+      "39394227",
+      "38338756",
+      "37600946",
+      "40795153",
+      "39500613",
+      "38493346",
+      "39987573",
+      "38664790",
+      "39747019",
+      "33606259",
+      "31375813",
+      "41279458",
+      "37146053",
+      "34737275",
+      "36238687",
+      "35906531",
+      "26083756",
+      "37875977",
+      "40154828",
+      "39914387",
+      "39910206",
+      "41655240",
+      "37897340",
+      "37546906",
+      "39671284",
+      "41927920",
+      "32637041",
+      "30791920",
+      "36313930",
+      "34292930",
+      "33564857",
+      "37497729",
+      "41923161",
+      "33717140",
+      "42251185",
+      "41632074",
+      "39975126",
+      "36583014",
+      "40577680"
+    ],
+    "review": [
+      "41571655",
+      "36549922",
+      "41270791",
+      "38338756",
+      "39500613",
+      "33606259",
+      "32637041"
+    ],
+    "pmc": [
+      "12929571"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-68742-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41571655/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

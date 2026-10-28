@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39413799",
+  "title": "Mut-Map: Comprehensive Computational Pipeline for Structural Mapping and Analysis of Cancer-Associated Mutations.",
+  "authors": "Alsulami, Ali F",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-10-17",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了整合COSMIC突变与PDB/AlphaFold结构的计算流程Mut-Map，用于将癌症突变映射到蛋白结构并分析其对DNA界面等功能区域的影响，虽涉及蛋白-DNA互作界面分析但缺乏AI/物理模拟方法，且非聚焦TF-DNA结合机制建模。",
+  "abstract": "Understanding the functional impact of genetic mutations on protein structures is essential for advancing cancer research and developing targeted therapies. The main challenge lies in accurately mapping these mutations to protein structures and analysing their effects on protein function. To address this, Mut-Map (https://genemutation.org/) is a comprehensive computational pipeline designed to integrate mutation data from the Catalogue Of Somatic Mutations In Cancer database with protein structural data from the Protein Data Bank and AlphaFold models. The pipeline begins by taking a UniProt ID and proceeds through mapping corresponding Protein Data Bank structures, renumbering residues, and assessing disorder percentages. It then overlays mutation data, categorizes mutations based on structural context, and visualizes them using advanced tools like MolStar. This approach allows for a detailed analysis of how mutations may disrupt protein function by affecting key regions such as DNA interfaces, ligand-binding sites, and dimer interactions. To validate the pipeline, a case study on the TP53 gene, a critical tumour suppressor often mutated in cancers, was conducted. The analysis highlighted the most frequent mutations occurring at the DNA-binding interface, providing insights into their potential role in cancer progression. Mut-Map offers a powerful resource for elucidating the structural implications of cancer-associated mutations, paving the way for more targeted therapeutic strategies and advancing our understanding of protein structure-function relationships.",
+  "abstract_zh": "理解基因突变对蛋白质结构的功能影响，对于推进癌症研究和开发靶向疗法至关重要。主要挑战在于准确地将这些突变映射到蛋白质结构上，并分析其对蛋白质功能的影响。为解决此问题，Mut-Map（https://genemutation.org/）是一个综合性的计算流程，旨在整合来自癌症体细胞突变目录（Catalogue Of Somatic Mutations In Cancer）数据库的突变数据，以及来自蛋白质数据银行（Protein Data Bank）和AlphaFold模型的蛋白质结构数据。该流程首先接受一个UniProt ID，然后依次进行对应蛋白质数据银行结构的映射、残基重新编号，以及无序百分比评估。随后，它叠加突变数据，根据结构背景对突变进行分类，并使用MolStar等先进工具进行可视化。这种方法允许详细分析突变如何通过影响关键区域（如DNA界面、配体结合位点和二聚体相互作用）来破坏蛋白质功能。为验证该流程，对TP53基因（一种在癌症中经常突变的 critical 肿瘤抑制因子）进行了案例研究。分析突出了在DNA结合界面发生的最频繁突变，提供了对其在癌症进展中潜在作用的见解。Mut-Map为阐明癌症相关突变的结构影响提供了强大资源，为更靶向的治疗策略铺平了道路，并推进了我们对蛋白质结构-功能关系的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39413799/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39413799/",
+  "paper_page_path": "papers/pubmed/39413799/index.html"
+}

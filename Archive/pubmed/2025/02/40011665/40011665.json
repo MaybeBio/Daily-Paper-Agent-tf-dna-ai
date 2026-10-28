@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "40011665",
+    "doi": "10.1038/s42003-025-07744-2",
+    "title": "Supervised and unsupervised deep learning-based approaches for studying DNA replication spatiotemporal dynamics."
+  },
+  "content": {
+    "abstract": "In eukaryotic cells, DNA replication is organised both spatially and temporally, as evidenced by the stage-specific spatial distribution of replication foci in the nucleus. Despite the genetic association of aberrant DNA replication with numerous human diseases, the labour-intensive methods employed to study DNA replication have hindered large-scale analyses of its roles in pathological processes. In this study, we employ two distinct methodologies. We first apply supervised machine learning, successfully classifying S-phase patterns in wild-type mouse embryonic stem cells (mESCs), while additionally identifying altered replication dynamics in Rif1-deficient mESCs. Given the constraints imposed by a classification-based approach, we then develop an unsupervised method for large-scale detection of aberrant S-phase cells. Such a method, which does not aim to classify patterns based on pre-defined categories but rather detects differences autonomously, closely recapitulates expected differences across genotypes. We therefore extend our approach to a well-characterised cellular model of inducible deregulated origin firing, involving cyclin E overexpression. Through parallel EdU- and PCNA-based analyses, we demonstrate the potential applicability of our method to patient samples, offering a means to identify the contribution of deregulated DNA replication to a plethora of pathogenic processes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA Replication",
+      "Mice",
+      "Animals",
+      "*Deep Learning",
+      "*Mouse Embryonic Stem Cells/metabolism",
+      "*Supervised Machine Learning",
+      "*Unsupervised Machine Learning",
+      "S Phase",
+      "Humans",
+      "Telomere-Binding Proteins/genetics",
+      "Cyclin E/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ng-Kee-Kwong, Julian",
+        "Philps, Ben",
+        "Smith, Fiona N C",
+        "Sobieska, Aleksandra",
+        "Chen, Naiming",
+        "Alabert, Constance",
+        "Bilen, Hakan",
+        "Buonomo, Sara C B"
+      ],
+      "short_names": [
+        "Ng-Kee-Kwong J",
+        "Philps B",
+        "Smith FNC",
+        "Sobieska A",
+        "Chen N",
+        "Alabert C",
+        "Bilen H",
+        "Buonomo SCB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9250-0648",
+        "ORCID: 0009-0006-7999-2584",
+        "ORCID: 0000-0002-2350-7627",
+        "ORCID: 0000-0002-0177-2884"
+      ],
+      "affiliations": [
+        "Institute of Cell Biology, School of Biological Sciences, University of Edinburgh, Roger Land Building, Alexander Crum Brown Road, Edinburgh, EH9 3FF, UK.",
+        "School of Informatics, University of Edinburgh, Edinburgh, EH8 9AB, UK.",
+        "School of Informatics, University of Edinburgh, Edinburgh, EH8 9AB, UK.",
+        "School of Informatics, University of Edinburgh, Edinburgh, EH8 9AB, UK.",
+        "Institute of Cell Biology, School of Biological Sciences, University of Edinburgh, Roger Land Building, Alexander Crum Brown Road, Edinburgh, EH9 3FF, UK.",
+        "Division of Molecular, Cell & Developmental Biology, School of Life Sciences, University of Dundee, Dundee, DD15EH, UK.",
+        "School of Informatics, University of Edinburgh, Edinburgh, EH8 9AB, UK.",
+        "Institute of Cell Biology, School of Biological Sciences, University of Edinburgh, Roger Land Building, Alexander Crum Brown Road, Edinburgh, EH9 3FF, UK. sara.buonomo@ed.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ng-Kee-Kwong, Julian",
+        "short_name": "Ng-Kee-Kwong J",
+        "identifiers": [
+          "0000-0002-9250-0648"
+        ],
+        "affiliations": [
+          "Institute of Cell Biology, School of Biological Sciences, University of Edinburgh, Roger Land Building, Alexander Crum Brown Road, Edinburgh, EH9 3FF, UK."
+        ]
+      },
+      {
+        "full_name": "Philps, Ben",
+        "short_name": "Philps B",
+        "identifiers": [
+          "0009-0006-7999-2584"
+        ],
+        "affiliations": [
+          "School of Informatics, University of Edinburgh, Edinburgh, EH8 9AB, UK."
+        ]
+      },
+      {
+        "full_name": "Smith, Fiona N C",
+        "short_name": "Smith FNC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Informatics, University of Edinburgh, Edinburgh, EH8 9AB, UK."
+        ]
+      },
+      {
+        "full_name": "Sobieska, Aleksandra",
+        "short_name": "Sobieska A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Informatics, University of Edinburgh, Edinburgh, EH8 9AB, UK."
+        ]
+      },
+      {
+        "full_name": "Chen, Naiming",
+        "short_name": "Chen N",
+        "identifiers": [
+          "0000-0002-2350-7627"
+        ],
+        "affiliations": [
+          "Institute of Cell Biology, School of Biological Sciences, University of Edinburgh, Roger Land Building, Alexander Crum Brown Road, Edinburgh, EH9 3FF, UK."
+        ]
+      },
+      {
+        "full_name": "Alabert, Constance",
+        "short_name": "Alabert C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular, Cell & Developmental Biology, School of Life Sciences, University of Dundee, Dundee, DD15EH, UK."
+        ]
+      },
+      {
+        "full_name": "Bilen, Hakan",
+        "short_name": "Bilen H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Informatics, University of Edinburgh, Edinburgh, EH8 9AB, UK."
+        ]
+      },
+      {
+        "full_name": "Buonomo, Sara C B",
+        "short_name": "Buonomo SCB",
+        "identifiers": [
+          "0000-0002-0177-2884"
+        ],
+        "affiliations": [
+          "Institute of Cell Biology, School of Biological Sciences, University of Edinburgh, Roger Land Building, Alexander Crum Brown Road, Edinburgh, EH9 3FF, UK. sara.buonomo@ed.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2025 Feb 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/27 05:00",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38594452",
+      "37741142",
+      "37590228",
+      "36681079",
+      "34006872",
+      "33353986",
+      "33041047",
+      "32386141",
+      "32320349",
+      "31477886",
+      "31133758",
+      "29599440",
+      "29466339",
+      "28878212",
+      "28858338",
+      "28522851",
+      "26725008",
+      "26017442",
+      "23881941",
+      "23838440",
+      "22850673",
+      "21529715",
+      "20617169",
+      "20430782",
+      "19948482",
+      "19815776",
+      "18272492",
+      "17136094",
+      "17136093",
+      "15723284",
+      "12356909",
+      "11180397",
+      "9852140",
+      "9508763",
+      "8097433",
+      "7735116",
+      "2910875",
+      "2469556",
+      "1740468",
+      "1725854",
+      "1429014"
+    ],
+    "similar": [
+      "40011665",
+      "34006872",
+      "33569575",
+      "22850674",
+      "28674277",
+      "19948482",
+      "39095606",
+      "35838349",
+      "26725008",
+      "35733247",
+      "36971904",
+      "30104203",
+      "39231886",
+      "39883014",
+      "27010122",
+      "33169133",
+      "22850673",
+      "38710387",
+      "25122631",
+      "31693157",
+      "24656819",
+      "31462142",
+      "38991373",
+      "31229759",
+      "32400262",
+      "38751142",
+      "19150984",
+      "33264404",
+      "39675426",
+      "23809990",
+      "26059433",
+      "31092841",
+      "36746532",
+      "24879017",
+      "39747057",
+      "27587400",
+      "27820830",
+      "26383849",
+      "38986186",
+      "25483097",
+      "22279046",
+      "38767067",
+      "39095707",
+      "10359762",
+      "30510058",
+      "23673635",
+      "23720738",
+      "24685139",
+      "39792814",
+      "31282778",
+      "30676950",
+      "32597753",
+      "25329891",
+      "25959964",
+      "33154423",
+      "29679305",
+      "35328102",
+      "31816343",
+      "39106156",
+      "39745849",
+      "34986029",
+      "34941924",
+      "35416772",
+      "30971806",
+      "27433885",
+      "29160738",
+      "35707184",
+      "26030591",
+      "34502670",
+      "29466339",
+      "12029468",
+      "9632717",
+      "39019048",
+      "34302331",
+      "33141022",
+      "15342490",
+      "33504314",
+      "15590829",
+      "38335079",
+      "20711169",
+      "33840471",
+      "36750367",
+      "33219270",
+      "38831432",
+      "24991985",
+      "31734527",
+      "28859695",
+      "34770379",
+      "29357072",
+      "31891765",
+      "24205363",
+      "30804559",
+      "27175227",
+      "35173014",
+      "34768871",
+      "17244524",
+      "11180397",
+      "29447390",
+      "39647205",
+      "30530316"
+    ],
+    "review": [
+      "40011665",
+      "33569575",
+      "28674277",
+      "39231886",
+      "33169133",
+      "39675426",
+      "23809990",
+      "26059433",
+      "31282778",
+      "29679305",
+      "35328102",
+      "31816343",
+      "30971806",
+      "26030591",
+      "34302331",
+      "33504314",
+      "33840471",
+      "29357072",
+      "34768871"
+    ],
+    "pmc": [
+      "11865476"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-025-07744-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40011665/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3254",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

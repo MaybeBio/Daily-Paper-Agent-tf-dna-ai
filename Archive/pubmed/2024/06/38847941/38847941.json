@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "38847941",
+    "doi": "10.1007/s12013-024-01333-6",
+    "title": "Raman Spectroscopy of Blood Serum for Essential Thrombocythemia Diagnosis: Correlation with Genetic Mutations and Optimization of Laser Wavelengths."
+  },
+  "content": {
+    "abstract": "Essential thrombocythemia (ET) is a type of myeloproliferative neoplasm that increases the risk of thrombosis. To diagnose this disease, the analysis of mutations in the Janus Kinase 2 (JAK2), thrombopoietin receptor (MPL), or calreticulin (CALR) gene is recommended. Disease poses diagnostic challenges due to overlapping mutations with other neoplasms and the presence of triple-negative cases. This study explores the potential of Raman spectroscopy combined with machine learning for ET diagnosis. We assessed two laser wavelengths (785, 1064 nm) to differentiate between ET patients and healthy controls. The PCR results indicate that approximately 50% of patients in our group have a mutation in the JAK2 gene, while only 5% of patients harbor a mutation in the ASXL1 gene. Additionally, only one patient had a mutation in the IDH1 and one had a mutation in IDH2 gene. Consequently, patients having no mutations were also observed in our group, making diagnosis challenging. Raman spectra at 1064 nm showed lower amide, polysaccharide, and lipid vibrations in ET patients, while 785 nm spectra indicated significant decreases in amide II and C-H lipid vibrations. Principal Component Analysis (PCA) confirmed that both wavelengths could distinguish ET from healthy subjects. Support Vector Machine (SVM) analysis revealed that the 800-1800 cm(-1) range provided the highest diagnostic accuracy, with 89% for 785 nm and 72% for 1064 nm. These findings suggest that FT-Raman spectroscopy, paired with multivariate and machine learning analyses, offers a promising method for diagnosing ET with high accuracy by detecting specific molecular changes in serum. Principal Component Analysis (PCA) confirmed that both wavelengths could distinguish ET from healthy subjects. Support Vector Machine (SVM) analysis revealed that the 800-1800 cm(-1) range provided the highest diagnostic accuracy, with 89% for 785 nm and 72% for 1064 nm. These findings suggest that FT-Raman spectroscopy, paired with multivariate and machine learning analyses, offers a promising method for diagnosing ET with high accuracy by detecting specific molecular changes in serum.",
+    "keywords": [
+      "ASXL1 gene",
+      "Essential thrombocythemia",
+      "IDH1R1 gene",
+      "JAK2 gene",
+      "Machine learning",
+      "Raman spectroscopy"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Calreticulin/genetics/blood",
+      "Case-Control Studies",
+      "Isocitrate Dehydrogenase/genetics",
+      "*Janus Kinase 2/genetics",
+      "Lasers",
+      "Machine Learning",
+      "*Mutation",
+      "*Principal Component Analysis",
+      "Receptors, Thrombopoietin/genetics",
+      "*Spectrum Analysis, Raman/methods",
+      "Support Vector Machine",
+      "*Thrombocythemia, Essential/blood/genetics/diagnosis",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aday, Aynur",
+        "Bayrak, Ayse Gul",
+        "Toraman, Suat",
+        "Hindilerden, Ipek Yonal",
+        "Nalcaci, Meliha",
+        "Depciuch, Joanna",
+        "Cebulski, Jozef",
+        "Guleken, Zozan"
+      ],
+      "short_names": [
+        "Aday A",
+        "Bayrak AG",
+        "Toraman S",
+        "Hindilerden IY",
+        "Nalcaci M",
+        "Depciuch J",
+        "Cebulski J",
+        "Guleken Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Internal Medicine, Division of Medical Genetics Turkey, Istanbul University, Istanbul Faculty of Medicine, Elazig, Turkey.",
+        "Department of Internal Medicine, Division of Medical Genetics Turkey, Istanbul University, Istanbul Faculty of Medicine, Elazig, Turkey.",
+        "Department of Air Traffic Control, School of Aviation, Firat University, 23119, Elazig, Turkey.",
+        "Istanbul Faculty of Medicine, Department of Internal Medicine, Division of Hematology Turkey, Istanbul University, Elazig, Turkey.",
+        "Istanbul Faculty of Medicine, Department of Internal Medicine, Division of Hematology Turkey, Istanbul University, Elazig, Turkey.",
+        "Institute of Nuclear Physics, PAS, 31342, Krakow, Poland. joanna.depciuch@ifj.edu.pl.",
+        "Department of Biochemistry and Molecular Biology, Medical University of Lublin, 20-093, Lublin, Poland. joanna.depciuch@ifj.edu.pl.",
+        "Institute of Physics, University of Rzeszow, 35-959, Rzeszow, Poland. jcebulski@ur.edu.pl.",
+        "Faculty of Medicine, Department of Physiology, Gaziantep University of Islam Science and Technology, Gaziantep, Turkey. zozanguleken@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aday, Aynur",
+        "short_name": "Aday A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Division of Medical Genetics Turkey, Istanbul University, Istanbul Faculty of Medicine, Elazıg, Turkey."
+        ]
+      },
+      {
+        "full_name": "Bayrak, Ayşe Gül",
+        "short_name": "Bayrak AG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Division of Medical Genetics Turkey, Istanbul University, Istanbul Faculty of Medicine, Elazıg, Turkey."
+        ]
+      },
+      {
+        "full_name": "Toraman, Suat",
+        "short_name": "Toraman S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Air Traffic Control, School of Aviation, Fırat University, 23119, Elazıg, Turkey."
+        ]
+      },
+      {
+        "full_name": "Hindilerden, İpek Yönal",
+        "short_name": "Hindilerden İY",
+        "identifiers": [],
+        "affiliations": [
+          "Istanbul Faculty of Medicine, Department of Internal Medicine, Division of Hematology Turkey, Istanbul University, Elazıg, Turkey."
+        ]
+      },
+      {
+        "full_name": "Nalçacı, Meliha",
+        "short_name": "Nalçacı M",
+        "identifiers": [],
+        "affiliations": [
+          "Istanbul Faculty of Medicine, Department of Internal Medicine, Division of Hematology Turkey, Istanbul University, Elazıg, Turkey."
+        ]
+      },
+      {
+        "full_name": "Depciuch, Joanna",
+        "short_name": "Depciuch J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nuclear Physics, PAS, 31342, Krakow, Poland. joanna.depciuch@ifj.edu.pl.",
+          "Department of Biochemistry and Molecular Biology, Medical University of Lublin, 20-093, Lublin, Poland. joanna.depciuch@ifj.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Cebulski, Jozef",
+        "short_name": "Cebulski J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, University of Rzeszow, 35-959, Rzeszow, Poland. jcebulski@ur.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Guleken, Zozan",
+        "short_name": "Guleken Z",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Department of Physiology, Gaziantep University of Islam Science and Technology, Gaziantep, Turkey. zozanguleken@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell biochemistry and biophysics"
+    ],
+    "journal_abbrev": [
+      "Cell Biochem Biophys"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/07 12:58",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37060986",
+      "37030138",
+      "36292192",
+      "35968707",
+      "35840818",
+      "35820661",
+      "35811912",
+      "35732831",
+      "34999436",
+      "34689695",
+      "34095761",
+      "33919650",
+      "33791220",
+      "33197049",
+      "32827998",
+      "31398915",
+      "31219334",
+      "30569241",
+      "29729529",
+      "29340130",
+      "27069254",
+      "26375222",
+      "25704869",
+      "25037629",
+      "16849154"
+    ],
+    "similar": [
+      "38847941",
+      "27875935",
+      "27991718",
+      "27453224",
+      "26890983",
+      "25873496",
+      "26130950",
+      "24366362",
+      "29676359",
+      "24325356",
+      "25934766",
+      "21904853",
+      "29390868",
+      "25015052",
+      "25116092",
+      "27100794",
+      "36786035",
+      "35633552",
+      "33361847",
+      "28415571",
+      "25746303",
+      "24889737",
+      "27855276",
+      "33144355",
+      "30404086",
+      "31554376",
+      "36811253",
+      "27041108",
+      "29934356",
+      "32164591",
+      "36800830",
+      "31887834",
+      "27521277",
+      "38111518",
+      "31208359",
+      "25037629",
+      "28990497",
+      "39611926",
+      "27209416",
+      "27185380",
+      "32537949",
+      "25611051",
+      "27271054",
+      "33921387",
+      "25573593",
+      "28766534",
+      "20890078",
+      "24791854",
+      "25068507",
+      "32974939",
+      "38718214",
+      "26614694",
+      "24371211",
+      "25553276",
+      "31868244",
+      "27486987",
+      "25189723",
+      "20508616",
+      "28406068",
+      "25840625",
+      "28205126",
+      "25801912",
+      "24402162",
+      "25729726",
+      "37295134",
+      "25528320",
+      "26119186",
+      "39004100",
+      "38387921",
+      "24627549",
+      "37378567",
+      "25976465",
+      "26697989",
+      "25005031",
+      "17369568",
+      "36744404",
+      "30111418",
+      "31882869",
+      "26423830",
+      "25637689",
+      "38269572",
+      "27132877",
+      "30292681",
+      "28828906",
+      "26450985",
+      "24609764",
+      "24553179",
+      "24895336",
+      "34300032",
+      "33789164",
+      "26375990",
+      "37633405",
+      "28028029",
+      "24786775",
+      "29411299",
+      "28029004",
+      "33202112",
+      "22106054",
+      "29306106",
+      "29323541"
+    ],
+    "review": [
+      "38847941",
+      "25116092",
+      "36786035",
+      "31208359",
+      "25611051",
+      "32974939",
+      "25189723",
+      "25840625",
+      "28205126",
+      "26697989",
+      "38269572",
+      "28028029"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12013-024-01333-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CALR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

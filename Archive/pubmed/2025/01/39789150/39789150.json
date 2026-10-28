@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "39789150",
+    "doi": "10.1038/s41598-025-86136-2",
+    "title": "Lactylation modulation identifies key biomarkers and therapeutic targets in KMT2A-rearranged AML."
+  },
+  "content": {
+    "abstract": "Acute Myeloid Leukemia (AML) with KMT2A rearrangements (KMT2Ar), found on chromosome 11q23, is often called KMT2A-rearranged AML (KMT2Ar-AML). This variant is highly aggressive, characterized by rapid disease progression and poor outcomes. Growing knowledge of epigenetic changes, especially lactylation, has opened new avenues for investigation and management of this subtype. Lactylation plays a significant role in cancer, inflammation, and tissue regeneration, but the underlying mechanisms are not yet fully understood. This research examined the influence of lactylation on gene expression within KMT2Ar-AML, initially identifying twelve notable lactylation-dependent differentially expressed genes (DEGs). Using advanced machine learning techniques, six key lactylation-associated genes (PFN1, S100A6, CBR1, LDHB, LGALS1, PRDX1) were identified as essential for prognostic evaluation and linked to relevant disease pathways. The study also suggested PI3K inhibitors and Pevonedistat as possible therapeutic options to modulate immune cell infiltration. Our findings confirm the critical role of lactylation in KMT2Ar-AML and identify six key genes that may serve as biomarkers for diagnosis and treatment. In addition to highlighting the need for further validation in clinical settings, these findings contribute to our understanding of KMT2Ar-AML's molecular mechanisms.",
+    "keywords": [
+      "Acute myeloid leukemia",
+      "Epigenetics",
+      "KMT2A rearrangements (KMT2Ar)",
+      "Lactylation",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Myeloid-Lymphoid Leukemia Protein/genetics/metabolism",
+      "*Leukemia, Myeloid, Acute/genetics/drug therapy/metabolism",
+      "*Histone-Lysine N-Methyltransferase/genetics/metabolism",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Gene Rearrangement",
+      "Prognosis",
+      "Gene Expression Regulation, Leukemic",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Dan",
+        "Liu, Silu",
+        "Ji, Yujie",
+        "Jin, Ziyan",
+        "He, Zhewei",
+        "Hou, Mengjia",
+        "Li, Dongyang",
+        "Ma, Xiao"
+      ],
+      "short_names": [
+        "Liu D",
+        "Liu S",
+        "Ji Y",
+        "Jin Z",
+        "He Z",
+        "Hou M",
+        "Li D",
+        "Ma X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Soochow Hopes Hematonosis Hospital, Wudong Road 1339, Wuzhong District, Suzhou, 215100, China. colleenld2020@hotmail.com.",
+        "Soochow Hopes Hematonosis Hospital, Wudong Road 1339, Wuzhong District, Suzhou, 215100, China.",
+        "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China.",
+        "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China.",
+        "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China.",
+        "Soochow Hopes Hematonosis Hospital, Wudong Road 1339, Wuzhong District, Suzhou, 215100, China.",
+        "Soochow Hopes Hematonosis Hospital, Wudong Road 1339, Wuzhong District, Suzhou, 215100, China.",
+        "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, China. pony73sz@sina.com.",
+        "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China. pony73sz@sina.com.",
+        "The First Affiliated Hospital of Soochow University, Shizi Street 188, Suzhou, 215006, China. pony73sz@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Dan",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Soochow Hopes Hematonosis Hospital, Wudong Road 1339, Wuzhong District, Suzhou, 215100, China. colleenld2020@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Silu",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Soochow Hopes Hematonosis Hospital, Wudong Road 1339, Wuzhong District, Suzhou, 215100, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Yujie",
+        "short_name": "Ji Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+          "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Ziyan",
+        "short_name": "Jin Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+          "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Zhewei",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+          "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Mengjia",
+        "short_name": "Hou M",
+        "identifiers": [],
+        "affiliations": [
+          "Soochow Hopes Hematonosis Hospital, Wudong Road 1339, Wuzhong District, Suzhou, 215100, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongyang",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Soochow Hopes Hematonosis Hospital, Wudong Road 1339, Wuzhong District, Suzhou, 215100, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiao",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, China. pony73sz@sina.com.",
+          "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China. pony73sz@sina.com.",
+          "The First Affiliated Hospital of Soochow University, Shizi Street 188, Suzhou, 215006, China. pony73sz@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jan 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/10 00:21",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "41566389",
+      "41298951",
+      "41139200",
+      "40522624",
+      "40256656"
+    ],
+    "refs": [
+      "38653238",
+      "38553373",
+      "38459014",
+      "38205232",
+      "37777506",
+      "37609402",
+      "37242427",
+      "37152048",
+      "37072352",
+      "37019990",
+      "36936929",
+      "36724072",
+      "36594187",
+      "36543880",
+      "36527458",
+      "36328311",
+      "36092712",
+      "35800753",
+      "35761067",
+      "35320754",
+      "34818953",
+      "34714913",
+      "34264570",
+      "34150616",
+      "33822516",
+      "33726814",
+      "32849585",
+      "32714568",
+      "32590026",
+      "32042753",
+      "32040550",
+      "31645732",
+      "31606109",
+      "31443682",
+      "31165971",
+      "31061481",
+      "29790900",
+      "29275361",
+      "27367478",
+      "26656090",
+      "26062441",
+      "25973606",
+      "25852056",
+      "25605792",
+      "25428369",
+      "24441146",
+      "23901108",
+      "23432625",
+      "23008312",
+      "22940834",
+      "22460902",
+      "22455463",
+      "22287627",
+      "20971820",
+      "20522712",
+      "20427518",
+      "19847166",
+      "18826943",
+      "18790776",
+      "16199517",
+      "14597658",
+      "10592173"
+    ],
+    "similar": [
+      "39789150",
+      "39823827",
+      "39380002",
+      "34588432",
+      "31698332",
+      "33020282",
+      "36892949",
+      "30143999",
+      "31867596",
+      "31705930",
+      "39428967",
+      "38965370",
+      "32437908",
+      "38892207",
+      "39535162",
+      "39121437",
+      "34048275",
+      "27786413",
+      "28871137",
+      "29605894",
+      "38905635",
+      "33419897",
+      "39607901",
+      "39760486",
+      "28911906",
+      "30869817",
+      "31707119",
+      "40243655",
+      "30381403",
+      "35833755",
+      "37891368",
+      "38226414",
+      "40316511",
+      "34591430",
+      "31425921",
+      "32467231",
+      "26791235",
+      "38174649",
+      "27351222",
+      "31590682",
+      "31161857",
+      "30624859",
+      "39316646",
+      "31253180",
+      "33749383",
+      "34582559",
+      "39475509",
+      "38621200",
+      "39626355",
+      "32764680",
+      "39158067",
+      "28412727",
+      "33957966",
+      "34080665",
+      "34384895",
+      "23008312",
+      "30455225",
+      "33712867",
+      "30707474",
+      "31515871",
+      "33135273",
+      "34799856",
+      "31919567",
+      "34200630",
+      "25892123",
+      "30792205",
+      "39633068",
+      "39793727",
+      "33599085",
+      "28595195",
+      "28282266",
+      "28411381",
+      "19528532",
+      "29567781",
+      "38775354",
+      "30974445",
+      "28064313",
+      "32320859",
+      "28838992",
+      "29384595",
+      "38053201",
+      "32350732",
+      "34546543",
+      "33925480",
+      "23132946",
+      "27840424",
+      "27007052",
+      "38964931",
+      "33469688",
+      "28609655",
+      "39955536",
+      "28108543",
+      "26627013",
+      "39641785",
+      "25349154",
+      "38643442",
+      "28663579",
+      "31241561",
+      "32634241",
+      "34405474"
+    ],
+    "review": [
+      "39789150",
+      "39428967",
+      "39607901",
+      "38174649",
+      "38775354",
+      "32350732"
+    ],
+    "pmc": [
+      "11718094"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-86136-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39789150/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LGALS1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3329",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

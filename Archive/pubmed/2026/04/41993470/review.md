@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and internal consistency of the provided manuscript. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors present a multi-modal platform (NicEL) combining deep learning-based image analysis of NicE-viewSeq data with high-throughput sequencing to profile chromatin accessibility and nucleosome positioning in HT1080 cancer cells following inhibition of LSD1, HDAC, or both. They report distinct chromatin accessibility landscapes, nucleosome repositioning, altered histone marks, and CoREST complex redistribution. They identify a CoREST-RUNX regulatory axis where JunB displaces CoREST-RUNX at differentially accessible regions, triggering apoptotic pathways, and propose this as a convergent therapeutic vulnerability.
+- **Visible evidence base** Main text, figures (Fig 1-6), supplementary figure references (Fig S1-S5), supplementary tables (Table S1-S3), Materials and Methods.
+- **Missing materials affecting confidence** Supplementary figures and tables (Fig S1-S5, Table S1-S3) were not provided. Raw sequencing data, code, and detailed model training parameters were not available for review. Figure images were not accessible, limiting visual verification of key results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious and potentially valuable platform for integrating imaging and sequencing-based chromatin accessibility analysis. The application to compare mono- versus dual-epigenetic inhibition is timely and clinically relevant. However, the current evidence base has significant gaps. The central mechanistic claim (JunB displacing CoREST-RUNX) is supported by correlative data (colocalization, motif enrichment) but lacks direct biochemical or genetic validation. The novelty of the platform (NicEL) over existing tools is not clearly benchmarked. Several analyses are described without sufficient detail to assess robustness, and the absence of supplementary materials limits evaluation. The manuscript is promising but the case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Cancer biologists and epigeneticists interested in chromatin dynamics, therapeutic targeting of epigenetic enzymes, and combination therapy strategies. Researchers developing computational tools for spatial genomics and deep learning-based image analysis would also find the platform relevant. Clinicians involved in epigenetic therapy trials may be interested in the proposed mechanistic rationale for combination approaches.
+- **Major strengths**
+  - Integrative multi-modal approach (imaging + sequencing) is conceptually strong and addresses a real need for correlating spatial and genomic chromatin data.
+  - The study addresses a clinically relevant question (mono- vs. dual-inhibitor efficacy) with a plausible mechanistic hypothesis.
+  - The use of multiple orthogonal assays (NicE-viewSeq, NicE-seq, NEED-seq, RNA-seq, western blot) is commendable.
+  - The identification of a specific transcription factor switch (JunB) and its inverse relationship with CoREST-RUNX provides a focused, testable model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Validation
+  - **Claim pointer** The manuscript claims that NicEL is a robust and accurate platform for chromatin accessibility quantification, and that ACI values correlate with sequencing data.
+  - **Evidence pointer** Figure 1, Figure 2, Materials and Methods (NicEL section)
+  - **Concern** The validation of the NicEL model is insufficient. The comparison to "manual selection using Zen 2.0 software" is presented, but no quantitative metrics (e.g., Dice coefficient, correlation coefficients for segmentation accuracy) are provided. The claim of "high-quality nuclear segmentation masks" is not supported by quantitative benchmarks. Furthermore, the correlation between ACI and NicE-seq data is only described qualitatively ("highly convergent") without a statistical measure (e.g., Pearson/Spearman correlation coefficient across genomic regions).
+  - **Why it matters** The entire downstream analysis depends on the reliability of the NicEL segmentation and ACI metric. Without rigorous validation, the biological conclusions drawn from this platform are on shaky ground. The claim of a "multi-modal platform" requires demonstrating that the imaging and sequencing modalities are quantitatively concordant.
+  - **Resolution test** Provide quantitative segmentation metrics (e.g., IoU, F1-score) on a held-out test set compared to manual annotation. Provide a genome-wide correlation analysis (e.g., scatter plot with Spearman rho) between ACI values and NicE-seq read density in defined regions (e.g., peaks, promoters).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support / Data interpretation
+  - **Claim pointer** The central mechanistic claim: "a CoREST-RUNX regulatory axis was uncovered wherein JunB, a member of bZIP family displaces CoREST-RUNX at differentially accessible regions, triggering apoptotic pathways."
+  - **Evidence pointer** Figure 4, Figure 5, Results sections "Runt related protein factors associate with CoREST" and "Inversely proportionate chromatin localization of JunB with RUNX and RCOR1"
+  - **Concern** The evidence for "displacement" is indirect. The data show colocalization (Fig 5A), inverse enrichment patterns (Fig 5C-H), and motif predictions (Fig 4C-D). However, no direct biochemical evidence (e.g., co-immunoprecipitation, ChIP-reChIP, or in vitro binding assays) is presented to demonstrate that JunB physically displaces RCOR1/RUNX from chromatin. The causal link to apoptosis is inferred from GO analysis of differentially expressed genes, but no functional experiments (e.g., JunB knockdown/overexpression, rescue experiments) are shown.
+  - **Why it matters** The proposed mechanism is the main conceptual advance of the paper. Without direct evidence for the displacement event and its functional consequence, the claim remains a hypothesis. The title and abstract present this as a finding, which overstates the current evidence.
+  - **Resolution test** Perform ChIP-seq or ChIP-qPCR for JunB, RCOR1, and RUNX at specific loci before and after inhibitor treatment to demonstrate reciprocal binding. Conduct knockdown or overexpression of JunB and assess effects on RCOR1/RUNX binding, chromatin accessibility, and apoptosis markers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality / Benchmarking
+  - **Claim pointer** The manuscript implies NicEL is a novel and improved tool for chromatin accessibility analysis from imaging data.
+  - **Evidence pointer** Introduction, Results (NicEL section), Discussion
+  - **Concern** The novelty of NicEL is not clearly established. The authors state it uses a "modified U-Net architecture" and is based on StarDist, but do not benchmark it against existing tools for similar tasks (e.g., other deep learning segmentation models, or other chromatin accessibility imaging analysis pipelines). The advantage of NicEL over simply using existing segmentation tools is not demonstrated.
+  - **Why it matters** For a methods-focused contribution, demonstrating clear advantages over the state of the art is essential. Without benchmarking, the claim of a "new platform" is not substantiated.
+  - **Resolution test** Compare NicEL's segmentation performance and downstream ACI measurements against at least one or two established alternative methods (e.g., CellProfiler, a different U-Net variant) on the same dataset, reporting quantitative metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility / Data availability
+  - **Claim pointer** The manuscript states that data are available in GEO and code on GitHub.
+  - **Evidence pointer** Data and Code Availability sections
+  - **Concern** The GEO accession number is not provided. The GitHub link is given, but the repository's content (e.g., whether it contains the trained model weights, inference scripts, and example data) cannot be verified from the manuscript. The Materials and Methods lack critical details for reproducibility, such as the exact architecture of the "modified U-Net", hyperparameters for training, and the version of StarDist used.
+  - **Why it matters** Reproducibility is a cornerstone of scientific validity. Without complete data and code access, and detailed methods, other groups cannot build upon or verify this work.
+  - **Resolution test** Provide a valid GEO accession number. Ensure the GitHub repository contains all code, model weights, and a clear README for reproduction. Add a detailed description of the model architecture and training procedure in the Methods or Supplementary.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Summary section
+  - **Issue** The abstract is dense and uses jargon ("NicE-viewSeq", "NicEL", "CoREST-RUNT regulatory axis") without sufficient context for a general reader. The phrase "convergent therapeutic vulnerability" is vague.
+  - **Required correction** Briefly define NicE-viewSeq and NicEL in the abstract. Clarify what "convergent therapeutic vulnerability" means in this context (e.g., a shared pathway targeted by different inhibitors).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / Statistics
+  - **Affected element** Figure 2, Figure 6
+  - **Evidence pointer** Results sections on differential peak analysis and RNA-seq
+  - **Issue** The statistical details for differential peak analysis (DiffBind) and differential gene expression (DESeq2) are incomplete. The manuscript mentions p-value thresholds but does not state whether multiple testing correction (e.g., FDR) was applied. The number of replicates for RNA-seq is stated as two in the Methods, which is low for robust DESeq2 analysis.
+  - **Required correction** Specify the FDR threshold used for both analyses. Acknowledge the limitation of two replicates for RNA-seq and discuss the potential impact on the robustness of the DEG list.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Figure 3, Results section on nucleosome positioning
+  - **Evidence pointer** Figure 3B-D, Figure S2
+  - **Issue** The description of nucleosome repositioning is based on NEED-seq H3 profiles. The distinction between "positioning" (precise location) and "occupancy" (presence/absence) is not clearly made. The biological interpretation of the spreading pattern could be clarified.
+  - **Required correction** Define how DANPOS3 distinguishes positioning from occupancy changes. Clarify whether the observed spreading represents a loss of positioned nucleosomes, a gain of delocalized nucleosomes, or both.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is somewhat repetitive of the results and does not fully contextualize the findings for a broader audience. The clinical implications are stated but not elaborated.
+  - **Required correction** Streamline the discussion to focus on the key conceptual advance and its limitations. Add a paragraph on the potential clinical implications and challenges of translating these findings.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of quantitative validation of the NicEL segmentation and ACI metric.
+  - R1-M2: Lack of direct evidence for the proposed JunB-mediated displacement mechanism.
+  - R1-M3: Lack of benchmarking against existing tools.
+  - R1-M4: Incomplete data and code availability, and insufficient methodological detail for reproducibility.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of deep learning image analysis with sequencing is not entirely new, but its application to compare mono- vs. dual-epigenetic inhibition is a fresh angle. The proposed JunB-CoREST-RUNX axis, if validated, would be a novel mechanistic insight.
+  - **Scientific importance** Potentially high. Understanding how different epigenetic inhibitors reshape the chromatin landscape and whether combination strategies have synergistic effects is clinically relevant. The proposed convergent mechanism could inform therapy design.
+  - **Interdisciplinary readership** The topic bridges cancer biology, epigenetics, and computational biology. The platform aspect may appeal to a broader audience interested in spatial genomics and AI-driven analysis. However, the current presentation is likely too specialized for a general Nature readership.
+  - **Technical soundness** The experimental design is reasonable, but the lack of validation and benchmarking, and the incomplete statistical reporting, are significant weaknesses. The mechanistic conclusion is not supported by the current data.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. The abstract and introduction are dense with jargon. The flow of the results is logical but would benefit from clearer summaries of key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and platform have merit, but the current evidence does not fully establish the central claims. Major revisions are required to validate the platform, provide direct mechanistic evidence, and improve the completeness and clarity of the presentation.
+
+## Risk / unsupported claims
+- The claim that NicEL is a "robust" and "efficient" platform is unsupported without quantitative benchmarking and validation metrics.
+- The claim that JunB "displaces" CoREST-RUNX is unsupported; the data only show correlative patterns.
+- The claim that the identified mechanism "triggers apoptotic pathways" is inferred from GO analysis and lacks functional validation.
+- The claim of a "convergent therapeutic vulnerability" is speculative and not directly tested.
+- The statement that NicEL can detect "gradual progression of treatments within the cell population" is not supported by time-course or single-cell trajectory data shown in the provided text.
+- The generalizability of the findings beyond the single HT1080 cell line is not assessed and should not be implied.

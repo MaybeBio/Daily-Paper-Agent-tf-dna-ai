@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Computational and structural analyses only; no experimental validation data
+- **Shared manuscript claim summary** The authors report two unrelated probands with syndromic orofacial clefts (Van der Woude Syndrome and Popliteal Pterygium Syndrome) carrying distinct heterozygous missense variants in IRF6 (p.Ala16Val and p.Arg84Cys). Through homology modeling, molecular dynamics simulations, and MM/GBSA free energy calculations, they propose that p.Ala16Val disrupts IRF6-DNA binding via allosteric mechanisms, while p.Arg84Cys directly disrupts the protein-DNA interface.
+- **Visible evidence base** Clinical case descriptions, Sanger sequencing results, homology models, MD simulation trajectories (RMSD), MM/GBSA binding free energies, hydrogen bond occupancy analyses
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; raw MD trajectory data not available; no experimental functional assays; no structural validation data (e.g., Ramachandran plots, model quality metrics beyond DOPE scores)
+
+## Reviewer
+- **Overall assessment** This manuscript presents a clinically motivated computational study of two IRF6 variants associated with syndromic orofacial clefts. The clinical case descriptions are valuable and the computational workflow is generally sound. However, the central mechanistic claims, particularly the allosteric hypothesis for p.Ala16Val, rest on statistical analyses that do not reach significance and on inferences that exceed what the current data can support. The manuscript would benefit from additional analyses to substantiate the proposed distinct mechanisms and from tempering the language used to describe computational predictions.
+- **Who would be interested in the results, and why** Clinicians and geneticists working on orofacial cleft syndromes would find the case reports and variant annotations useful. Computational biologists studying protein-DNA interactions and allosteric regulation may be interested in the methodological approach. However, the narrow scope and lack of experimental validation limit broader appeal.
+- **Major strengths** The clinical phenotyping is detailed and the variant interpretation follows established guidelines. The computational pipeline is comprehensive, combining homology modeling, long-scale MD simulations, and free energy calculations. The comparison of two variants with proposed distinct mechanisms within the same protein is a conceptually interesting framing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness
+  - **Claim pointer** The authors claim that p.Ala16Val induces long-range conformational changes that allosterically modulate DNA binding, supported by RMSD differences.
+  - **Evidence pointer** Results, Molecular dynamics analysis, Figure 3
+  - **Concern** The RMSD differences between wild-type and p.Ala16Val are reported as not statistically significant (Kruskal-Wallis, p = 0.78). The authors nevertheless interpret the observed trends as evidence for allosteric effects. This is a logical inconsistency. Non-significant differences cannot be used to support a mechanistic claim, regardless of consistency across replicates.
+  - **Why it matters** The central thesis of the paper is that the two variants operate via distinct mechanisms. If the primary evidence for the allosteric mechanism is not statistically robust, the mechanistic distinction collapses, and the paper reduces to a descriptive case report with speculative computational interpretation.
+  - **Resolution test** The authors should either provide statistically significant evidence for conformational differences (e.g., through additional replicates, alternative metrics such as residue-residue distance fluctuations, or principal component analysis of conformational ensembles) or explicitly reframe the allosteric claim as a hypothesis requiring experimental testing, removing definitive language.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for direct disruption
+  - **Claim pointer** The authors claim that p.Arg84Cys directly disrupts hydrogen bonding with DNA, leading to severe binding affinity reduction.
+  - **Evidence pointer** Results, Hydrogen bond occupancy analysis, Figure 5
+  - **Concern** The hydrogen bond occupancy analysis shows loss of Arg84-DG126 interactions, but the functional significance of this loss is not quantitatively linked to the binding free energy change. The MM/GBSA decomposition attributes the affinity reduction to electrostatic changes, but the per-residue analysis does not clearly demonstrate that the loss of Arg84 is the dominant contributor versus other interface rearrangements. The compensatory changes in Gln82 and Lys101 suggest a more complex reorganization than simple loss of a single contact.
+  - **Why it matters** The claim of a direct disruption mechanism requires demonstrating that the loss of the specific Arg84-DNA contact is the primary driver of reduced binding, not merely one of several correlated changes. Without this, the mechanistic distinction between direct and allosteric disruption is not cleanly established.
+  - **Resolution test** Perform alanine scanning or in silico mutation analysis to isolate the contribution of Arg84 versus other residues. Alternatively, compute per-residue energy differences between wild-type and mutant and show that position 84 is the dominant contributor to the ΔΔG.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model quality and validation
+  - **Claim pointer** The authors state that homology models demonstrated excellent stereochemical quality and structural validity.
+  - **Evidence pointer** Results, Comparative modeling and structural characterization, location not provided
+  - **Concern** No quantitative model quality metrics are reported. DOPE scores are mentioned for model selection, but no Ramachandran statistics, QMEAN scores, or other standard validation metrics are provided. The template (IRF4, 45% sequence identity) is reasonable but not identical, and the quality of the modeled loop regions, particularly around the variant sites, is not assessed.
+  - **Why it matters** The structural interpretations, especially the allosteric propagation pathway, depend critically on the accuracy of the modeled structure. Without validation metrics, the reliability of the structural basis for the mechanistic claims cannot be assessed.
+  - **Resolution test** Provide standard model validation metrics (Ramachandran plot statistics, QMEAN, ERRAT, etc.) and discuss the local quality around the variant positions. If possible, compare the model to experimentally determined IRF structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Methods, Statistical analysis
+  - **Evidence pointer** Methods, Statistical analysis
+  - **Issue** The statistical methods section describes tests for RMSD comparisons but does not specify which test was used for which comparison. The p-values reported in the results (p = 0.78 for Kruskal-Wallis) are not accompanied by effect sizes or confidence intervals.
+  - **Required correction** Clarify which statistical test was applied to each comparison and report effect sizes or confidence intervals alongside p-values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplementary material
+  - **Evidence pointer** Supplementary material, location not provided
+  - **Issue** Supplementary Table 2 (primer sets) and Multimedia Component 1 are referenced but were not available for review. The manuscript states that the model was built using the IRF4 template, but the alignment and model coordinates are not provided.
+  - **Required correction** Ensure all supplementary materials are accessible and consider depositing model coordinates and MD trajectories in a public repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of p.Arg84Cys mentions previous reports in Moroccan, Congolese, and Japanese families, but the phenotypic variability discussion would benefit from a more systematic comparison of genotype-phenotype correlations across these reports.
+  - **Required correction** Consider a table summarizing previously reported p.Arg84Cys cases with their phenotypes to strengthen the discussion of variable expressivity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Results, Molecular dynamics analysis
+  - **Evidence pointer** Results, Molecular dynamics analysis
+  - **Issue** The phrase "the p.Ala16Val variant displaying the structural perturbations" appears to be missing a comparative qualifier (e.g., "the greatest" or "significant"). The sentence is grammatically incomplete.
+  - **Required correction** Revise the sentence for clarity and grammatical completeness.
+- **Technical failings that need to be addressed before the case is established** The non-significant RMSD differences undermine the allosteric claim (R1-M1). The lack of model validation metrics prevents assessment of structural reliability (R1-M3). The causal link between loss of Arg84 contact and reduced binding affinity is not quantitatively established (R1-M2).
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of MD simulations to distinguish allosteric versus direct disruption mechanisms in IRF6 variants is somewhat novel, but the approach is standard in the computational biology field. Scientific importance: Limited. The findings are primarily hypothesis-generating and do not provide definitive mechanistic insights without experimental validation. Interdisciplinary readership: Narrow. The work sits at the intersection of clinical genetics and computational biophysics, but the lack of experimental validation limits its appeal to either community. Technical soundness: The computational methods are appropriate, but the statistical analysis of the key result is underpowered and the model validation is incomplete. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some computational details may be challenging for clinical readers.
+- **Recommendation posture** Currently not established from the provided evidence. The clinical case descriptions are valuable, but the central mechanistic claims require stronger statistical support and model validation. The manuscript could become publishable after major revisions addressing the statistical concerns and reframing the mechanistic claims as testable hypotheses rather than established findings.
+
+## Risk / unsupported claims
+- The claim that p.Ala16Val operates via allosteric mechanisms is unsupported by statistically significant evidence.
+- The claim that p.Arg84Cys directly disrupts DNA binding is plausible but not quantitatively established as the dominant mechanism.
+- The statement that the homology models have "excellent stereochemical quality" is unverifiable without validation metrics.
+- The assertion that the two variants explain the distinct clinical phenotypes (VWS vs. PPS) is speculative and not supported by the computational data alone.
+- The claim that the computational findings "establish" p.Arg84Cys as a high-confidence pathogenic variant overstates what computational predictions can demonstrate.

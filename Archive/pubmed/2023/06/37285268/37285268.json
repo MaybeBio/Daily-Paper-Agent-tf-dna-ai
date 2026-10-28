@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "37285268",
+    "doi": "10.1016/j.celrep.2023.112619",
+    "title": "Systems biology of competency in Vibrio natriegens is revealed by applying novel data analytics to the transcriptome."
+  },
+  "content": {
+    "abstract": "Vibrio natriegens regulates natural competence through the TfoX and QstR transcription factors, which are involved in external DNA capture and transport. However, the extensive genetic and transcriptional regulatory basis for competency remains unknown. We used a machine-learning approach to decompose Vibrio natriegens's transcriptome into 45 groups of independently modulated sets of genes (iModulons). Our findings show that competency is associated with the repression of two housekeeping iModulons (iron metabolism and translation) and the activation of six iModulons; including TfoX and QstR, a novel iModulon of unknown function, and three housekeeping iModulons (representing motility, polycations, and reactive oxygen species [ROS] responses). Phenotypic screening of 83 gene deletion strains demonstrates that loss of iModulon function reduces or eliminates competency. This database-iModulon-discovery cycle unveils the transcriptomic basis for competency and its relationship to housekeeping functions. These results provide the genetic basis for systems biology of competency in this organism.",
+    "keywords": [
+      "CP: Genomics",
+      "CP: Microbiology",
+      "ICA",
+      "Vibrio natriegens",
+      "iModulon",
+      "independent component analysis",
+      "machine learning",
+      "natural competence",
+      "regulon discovery",
+      "systems biology",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Transcriptome/genetics",
+      "Systems Biology",
+      "Data Science",
+      "*Vibrio/genetics/metabolism",
+      "Bacterial Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shin, Jongoh",
+        "Rychel, Kevin",
+        "Palsson, Bernhard O"
+      ],
+      "short_names": [
+        "Shin J",
+        "Rychel K",
+        "Palsson BO"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, USA; Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, 2800 Lyngby, Denmark; Department of Pediatrics, University of California, San Diego, La Jolla, CA, USA. Electronic address: palsson@ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shin, Jongoh",
+        "short_name": "Shin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Rychel, Kevin",
+        "short_name": "Rychel K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Palsson, Bernhard O",
+        "short_name": "Palsson BO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, USA; Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, 2800 Lyngby, Denmark; Department of Pediatrics, University of California, San Diego, La Jolla, CA, USA. Electronic address: palsson@ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2023 Jun 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/07 19:42",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "41805196",
+      "40650977",
+      "39714213",
+      "39527262",
+      "39494532",
+      "39441835",
+      "39363082",
+      "39193902",
+      "38490991",
+      "38393514",
+      "38352175"
+    ],
+    "refs": [],
+    "similar": [
+      "37285268",
+      "38825177",
+      "37713311",
+      "33045728",
+      "36656902",
+      "31848285",
+      "36964197",
+      "39193902",
+      "37278526",
+      "37683565",
+      "35489688",
+      "30102403",
+      "32786358",
+      "39264300",
+      "34169308",
+      "38490991",
+      "26442598",
+      "31836580",
+      "34255476",
+      "38667341",
+      "23382174",
+      "11844764",
+      "35357493",
+      "28571309",
+      "34777307",
+      "32366592",
+      "36095122",
+      "36317888",
+      "21046343",
+      "33053678",
+      "32737131",
+      "33835156",
+      "36847213",
+      "36227546",
+      "26401962",
+      "38393514",
+      "27117415",
+      "30160938",
+      "33244933",
+      "35306876",
+      "20302923",
+      "30962569",
+      "27571549",
+      "31419124",
+      "33712424",
+      "32589894",
+      "37628727",
+      "34339299",
+      "25539806",
+      "33397700",
+      "30505805",
+      "21317321",
+      "22305460",
+      "33531387",
+      "15528647",
+      "31253674",
+      "32537803",
+      "31651953",
+      "30107122",
+      "34794836",
+      "26944841",
+      "36792871",
+      "38352175",
+      "21966921",
+      "29042298",
+      "18451049",
+      "30761714",
+      "25554784",
+      "8702549",
+      "10569768",
+      "28583064",
+      "15528653",
+      "35761009",
+      "16469103",
+      "30446560",
+      "35155395",
+      "33722653",
+      "8733239",
+      "36355015",
+      "24473132",
+      "26198743",
+      "8899715",
+      "23234435",
+      "26801576",
+      "15557661",
+      "37622370",
+      "2801220",
+      "1854586",
+      "36012664",
+      "34633869",
+      "21467648",
+      "37510340",
+      "32842612",
+      "35899046",
+      "7678569",
+      "30423347",
+      "36494435",
+      "23306394",
+      "21110901",
+      "27230650",
+      "7678593",
+      "7543065"
+    ],
+    "review": [
+      "37285268",
+      "33835156",
+      "32589894",
+      "32537803",
+      "1854586",
+      "37510340",
+      "32842612"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=GCF_001680025&id=BA890_RS10640",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "fliM"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(23)00630-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3549",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/5gr5m43x",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37285268",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

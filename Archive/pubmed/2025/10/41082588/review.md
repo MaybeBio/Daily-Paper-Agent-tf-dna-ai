@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion, acknowledgements) as provided by the user. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the evidence presented in the provided text. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors use conventional MD and PaCS-MD simulations to show that acetylated p53 binding to Sir2 allosterically opens the NAD+ binding pocket via conformational changes in the conserved cofactor-binding loop (CBL), while nonacetylated p53 binding promotes pocket closure. They propose a "tandem allostery" mechanism in which reactant (acetylated p53) and product (deacetylated p53) sequentially promote different steps of the deacetylation cycle. Entropy transfer analysis identifies communication pathways from p53 K382 to the CBL.
+- **Visible evidence base** Main text including methods, results, figures referenced (Figures 1-5, Tables 1-2, Figures S1-S13, Tables S1-S2, Movies S1-S4). Supplementary material not provided.
+- **Missing materials affecting confidence** Supplementary figures (S1-S13), supplementary tables (S1-S2), movies (S1-S4), simulation parameter details, force field validation data, and convergence analyses. These are referenced for key claims including convergence assessment, contact difference maps, sequence alignments, and detailed interaction occupancies.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive study of conformational dynamics in the Sir2 deacetylase, with a clear and mechanistically appealing hypothesis: that acetylated and deacetylated p53 exert opposing allosteric effects on the NAD+ binding pocket, thereby promoting distinct steps of the catalytic cycle. The use of PaCS-MD combined with MSM construction is appropriate and well-motivated. The central claims are plausible and potentially significant for the sirtuin field. However, the evidence base as presented has important gaps. The key quantitative results (free energy differences, binding free energies, transition timescales) are reported without sufficient statistical detail or convergence demonstration in the main text. The entropy transfer analysis, which underpins the proposed communication pathways, is described at a level that makes independent assessment difficult. The claim of universality across the Sir2 family rests on sequence conservation alone, which is suggestive but not definitive. The manuscript would be strengthened by clearer presentation of uncertainties, more explicit validation of the computational protocols, and a more cautious framing of the speculative elements.
+- **Who would be interested in the results, and why** Researchers in the sirtuin field, particularly those studying Sir2 structure-function relationships and NAD+ dependent deacetylation mechanisms. Computational biophysicists interested in allosteric communication and enhanced sampling methods (PaCS-MD) applied to enzyme-substrate systems. Structural biologists studying protein conformational ensembles and their functional implications. The proposed "tandem allostery" concept may also interest enzymologists studying product-mediated regulation in other systems.
+- **Major strengths** 1. The study addresses a genuinely important and unresolved question: how the conserved CBL regulates NAD+ binding and deacetylation in Sir2. 2. The combination of cMD and PaCS-MD is methodologically appropriate for capturing rare conformational transitions, and the use of surface area descriptors (S1, S1', S2) is a creative solution to a challenging geometric characterization problem. 3. The identification of distinct closed states (Close1, Close2, Close3) and their differential stabilization by acetylated versus nonacetylated p53 provides a nuanced picture of the conformational landscape. 4. The entropy transfer analysis offers a mechanistic hypothesis for how allosteric signals propagate, with testable predictions. 5. The authors acknowledge key limitations (bacterial homolog, missing SBD, computational modeling of the CBL) and frame their conclusions appropriately in several places.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PaCS-MD/MSM accurately estimates the free energy landscape and that the distributions were well converged within the number of trials conducted.
+  - **Evidence pointer** Methods section "Procedure of PaCS-MD Simulation"; Figure S1 referenced but not provided
+  - **Concern** The convergence assessment is only described as a "bootstrap approach" with results shown in Figure S1, which is not available. No quantitative convergence metrics (e.g., free energy differences between independent runs, statistical uncertainties, effective sample sizes) are reported in the main text. The claim that the free energy landscape is "accurately estimated" requires demonstration that the sampling is sufficient and that the MSM is validated (e.g., via Chapman-Kolmogorov tests).
+  - **Why it matters** The central conclusion that acetylated p53 stabilizes the open state and nonacetylated p53 stabilizes closed states rests entirely on the reliability of the computed free energy landscape. Without demonstrated convergence and MSM validation, the quantitative basis for this conclusion is not established.
+  - **Resolution test** Provide convergence metrics in the main text or clearly accessible supplementary material, including: (1) free energy differences between independent PaCS-MD runs, (2) statistical uncertainties on the reported free energy minima, (3) Chapman-Kolmogorov test results for the MSM, and (4) a description of the bootstrap procedure with sufficient detail to be reproduced.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report standard binding free energies of -7.6 ± 1.5 kcal/mol for Sir2/KAc382-p53 and -4.1 ± 0.9 kcal/mol for Sir2/p53, and state these are consistent with experimental values.
+  - **Evidence pointer** Results section "Binding Affinity of Sir2/KAc382-p53 and Sir2/p53"; Table 1 referenced; Figure S8 referenced but not provided
+  - **Concern** The comparison with experimental values is described only as "consistent" without showing the actual experimental data or the conversion procedure. The uncertainties reported (±1.5 and ±0.9 kcal/mol) are not explained in terms of their source (e.g., block averaging, bootstrap, multiple trials). The dPaCS-MD protocol is described but the number of trials (5) is small for a reliable free energy estimate, and no convergence assessment for these specific calculations is presented.
+  - **Why it matters** The binding free energy difference between acetylated and nonacetylated p53 is a key quantitative result that supports the biological relevance of the proposed mechanism. If the uncertainties are underestimated or the comparison with experiment is not rigorous, the strength of this claim is compromised.
+  - **Resolution test** Show the experimental values used for comparison with clear citations, describe the uncertainty estimation procedure, and provide convergence evidence for the dPaCS-MD free energy calculations (e.g., cumulative averages, multiple independent trials).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The entropy transfer analysis identifies specific communication pathways from K382 to the CBL, with distinct pathways for S1 and S2 opening and closing.
+  - **Evidence pointer** Methods section "Analysis of Information Transfer from p53 to Sir2"; Results section "Allosteric Communication Pathways for S1 and S2 Opening/Closure"; Figure 4 referenced
+  - **Concern** The entropy transfer method is cited to prior work but the specific implementation details (time delay τ = 5 ns, distance cutoff of 4 Å) are given without justification. The number of trajectories analyzed is small (four S1 opening, three S2 opening, one S1 closure, one S2 closure), and the statistical significance of the identified pathways is not assessed. The criteria for defining a "pathway" (positive net entropy transfer and distance ≤ 4 Å) may be sensitive to these choices, and no sensitivity analysis is presented.
+  - **Why it matters** The proposed communication pathways are a central mechanistic finding. If the pathway identification is not robust to parameter choices or lacks statistical support, the mechanistic interpretation is weakened.
+  - **Resolution test** Provide a sensitivity analysis of the pathway identification to the τ and distance cutoff parameters, assess the statistical significance of the identified pathways (e.g., via bootstrapping or comparison to null models), and justify the choice of τ = 5 ns.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the opening/closure mechanisms we elucidated are universal among most proteins of the Sir2 family" based on sequence conservation of key residues.
+  - **Evidence pointer** Results section "Conservation of Key Residues"; Figure S11 referenced but not provided
+  - **Concern** The claim of universality is extrapolated from sequence conservation of a subset of residues. While suggestive, sequence conservation does not guarantee functional conservation, particularly for dynamic allosteric mechanisms that may depend on context-specific interactions. The authors do not discuss whether the key residues identified are conserved in the context of the full allosteric network or whether other Sir2 family members might have different regulatory mechanisms.
+  - **Why it matters** This claim extends the significance of the work beyond the specific system studied. Overstating the generality of the findings could mislead readers about the applicability of the proposed mechanism.
+  - **Resolution test** Soften the claim to indicate that the conservation pattern is consistent with a potentially universal mechanism, or provide additional evidence (e.g., sequence analysis across a broader set of Sir2 homologs, structural comparison of the key interaction networks) to support the universality claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction lists many post-translational modifications and their roles without a clear narrative arc. The connection between general PTM biology and the specific question about Sir2 CBL dynamics could be made more direct.
+  - **Required correction** Consider restructuring the introduction to move from the general importance of acetylation to the specific gap in understanding Sir2 CBL function more quickly, reducing the breadth of background material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Preparation of Simulation Systems"
+  - **Evidence pointer** Methods section "Preparation of Simulation Systems"
+  - **Issue** The force field choice (AMBER ff19SB) and water model (OPC) are stated but no justification is provided for these choices, nor is there any mention of validation against experimental data or comparison with alternative force fields.
+  - **Required correction** Add a brief justification for the force field and water model choices, and note any relevant validation studies or benchmarks that support their use for this system.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Principal Component Analysis"
+  - **Evidence pointer** Methods section "Principal Component Analysis of Sampled Conformational Spaces"
+  - **Issue** The PCA is described as being performed on "all Cα atoms of Sir2" but the number of principal components retained, the fraction of variance explained, and the criteria for selecting PCs for analysis are not stated.
+  - **Required correction** Report the number of PCs retained, the cumulative variance explained, and the rationale for focusing on specific PCs in the analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion and Discussion, final paragraph
+  - **Evidence pointer** Conclusion and Discussion, final paragraph
+  - **Issue** The statement that saPaCS-MD "holds promise for studies of other biological systems" is generic and not supported by specific examples or discussion of the method's limitations in other contexts.
+  - **Required correction** Either provide a specific example of a system where saPaCS-MD would be particularly advantageous, or remove this speculative statement.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Allosteric Communication Pathways"
+  - **Evidence pointer** Results section "Allosteric Communication Pathways for S1 and S2 Opening/Closure"
+  - **Issue** The description of the communication pathways is dense and relies heavily on residue numbers and structural terminology that may be difficult for non-specialists to follow without a structural figure in the main text.
+  - **Required correction** Consider adding a simplified schematic figure showing the overall topology of the communication pathways, or provide a brief structural context for the key residues mentioned.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence and MSM validation), R1-M2 (binding free energy uncertainty and experimental comparison), R1-M3 (entropy transfer pathway robustness)
+- **Assessment against Nature-style criteria** Originality: The "tandem allostery" concept, in which reactant and product sequentially promote different conformational states to drive a catalytic cycle, is a novel framing that could have broader implications for enzyme regulation. The specific application to Sir2 CBL dynamics is new. Scientific importance: The sirtuin field would benefit from a mechanistic understanding of how the CBL regulates NAD+ binding, and the proposed mechanism is biologically plausible. However, the importance is somewhat limited by the use of a bacterial homolog and the lack of experimental validation. Interdisciplinary readership: The work bridges structural biology, computational biophysics, and enzymology, and the conceptual framework could interest a broad readership. However, the technical density of the methods may limit accessibility. Technical soundness: The methodological approach is appropriate, but the lack of demonstrated convergence, limited statistical analysis, and incomplete validation of key calculations prevent full assessment of technical soundness. Readability for nonspecialists: The manuscript is generally well-written but the results section, particularly the pathway analysis, is dense and would benefit from clearer presentation of structural context and simplified summaries of key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the computational approach is appropriate, but the evidence base as presented does not fully establish the claims. The authors should address the convergence and validation issues, provide more rigorous statistical analysis, and temper the universality claim before the case is fully established.

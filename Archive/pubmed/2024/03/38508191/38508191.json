@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "38508191",
+    "doi": "10.1016/j.str.2024.02.016",
+    "title": "PMSPcnn: Predicting protein stability changes upon single point mutations with convolutional neural network."
+  },
+  "content": {
+    "abstract": "Protein missense mutations and resulting protein stability changes are important causes for many human genetic diseases. However, the accurate prediction of stability changes due to mutations remains a challenging problem. To address this problem, we have developed an unbiased effective model: PMSPcnn that is based on a convolutional neural network. We have included an anti-symmetry property to build a balanced training dataset, which improves the prediction, in particular for stabilizing mutations. Persistent homology, which is an effective approach for characterizing protein structures, is used to obtain topological features. Additionally, a regression stratification cross-validation scheme has been proposed to improve the prediction for mutations with extreme DeltaDeltaG. For three test datasets: S(sym), p53, and myoglobin, PMSPcnn achieves a better performance than currently existing predictors. PMSPcnn also outperforms currently available methods for membrane proteins. Overall, PMSPcnn is a promising method for the prediction of protein stability changes caused by single point mutations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Stability",
+      "*Neural Networks, Computer",
+      "*Point Mutation",
+      "Humans",
+      "Tumor Suppressor Protein p53/genetics/chemistry/metabolism",
+      "Myoglobin/chemistry/genetics/metabolism",
+      "Databases, Protein",
+      "Mutation, Missense",
+      "Models, Molecular",
+      "DNA Glycosylases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Xiaohan",
+        "Yang, Shuang",
+        "Wu, Zhixiang",
+        "Su, Jingjie",
+        "Hu, Fangrui",
+        "Chang, Fubin",
+        "Li, Chunhua"
+      ],
+      "short_names": [
+        "Sun X",
+        "Yang S",
+        "Wu Z",
+        "Su J",
+        "Hu F",
+        "Chang F",
+        "Li C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China. Electronic address: chunhuali@bjut.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Xiaohan",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuang",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhixiang",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Su, Jingjie",
+        "short_name": "Su J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Fangrui",
+        "short_name": "Hu F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Fubin",
+        "short_name": "Chang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chunhua",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China. Electronic address: chunhuali@bjut.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Structure (London, England : 1993)"
+    ],
+    "journal_abbrev": [
+      "Structure"
+    ],
+    "pub_date": "2024 Jun 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/21 00:44",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "42423292",
+      "41142649",
+      "40662839"
+    ],
+    "refs": [],
+    "similar": [
+      "38508191",
+      "39198740",
+      "33253214",
+      "37643501",
+      "40233742",
+      "31906171",
+      "38130113",
+      "32401507",
+      "34058752",
+      "33378330",
+      "30759982",
+      "36142614",
+      "38084013",
+      "27318206",
+      "37897811",
+      "39704075",
+      "40662839",
+      "32881105",
+      "38166383",
+      "35973091",
+      "38285937",
+      "24687952",
+      "30946675",
+      "37740312",
+      "36217239",
+      "18387208",
+      "30724565",
+      "40273428",
+      "39223474",
+      "19054789",
+      "40464633",
+      "27964946",
+      "29540703",
+      "28710274",
+      "35201762",
+      "38940145",
+      "41441912",
+      "40235597",
+      "25957347",
+      "24281696",
+      "30417935",
+      "35040492",
+      "17935148",
+      "34768775",
+      "20887259",
+      "37817080",
+      "39264222",
+      "33263541",
+      "28749969",
+      "19913028",
+      "14519637",
+      "20978130",
+      "39714563",
+      "16546179",
+      "24564514",
+      "22038697",
+      "37935419",
+      "31657922",
+      "12826609",
+      "21639835",
+      "34546056",
+      "30329016",
+      "24100332",
+      "38018912",
+      "29404850",
+      "39826435",
+      "21998155",
+      "32920050",
+      "40183298",
+      "31216622",
+      "35021190",
+      "40102719",
+      "40375059",
+      "32469063",
+      "39140857",
+      "15561139",
+      "40062613",
+      "40247745",
+      "16917930",
+      "17705837",
+      "32203653",
+      "36461822",
+      "9888666",
+      "33208462",
+      "18996393",
+      "40285360",
+      "29718106",
+      "16687402",
+      "38501649",
+      "19535532",
+      "33450251",
+      "39423073",
+      "14741214",
+      "41067124",
+      "17068801",
+      "15262782",
+      "35043942",
+      "27503952",
+      "31197306",
+      "22238268"
+    ],
+    "review": [
+      "38508191"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0969-2126(24)00054-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "42418827",
+    "doi": "10.1093/bib/bbag353",
+    "title": "Investigating the anticancer activity of eravacycline in pancreatic cancer via target-based deep learning and experimental validation."
+  },
+  "content": {
+    "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is a highly lethal malignancy with limited therapeutic options. In this study, we introduce a target-based deep learning framework to investigate the anticancer activity of eravacycline (Erav), a United States Food and Drug Administration (FDA)-approved antibacterial agent previously identified in our work as a potential anticancer candidate through computational screening. We developed a novel two-phase in silico yeast-based prediction model to explore potential mechanisms of action, followed by in vitro and in vivo experimental validation. DNA polymerase kappa (POLK) and mutant p53 emerged as the top-ranked candidate targets. In the studied mutant p53 PDAC model, Erav treatment significantly reduced mutant p53 protein levels and was associated with marked downregulation of POLK protein expression. POLK is a previously underexplored DNA polymerase that has been reported to be overexpressed in multiple cancer types. In a subcutaneous xenograft model, Erav treatment resulted in a 76% reduction in tumor volume. Our findings demonstrate an association between Erav treatment and reduced POLK protein expression in the studied mutant p53 PDAC model, supporting POLK as a prioritized candidate for further investigation and providing preliminary mechanistic insight into Erav activity. This integrative computational-experimental pipeline offers a robust strategy for accelerating drug repurposing in oncology.",
+    "keywords": [
+      "POLK",
+      "eravacycline",
+      "molecular-based deep learning model",
+      "p53",
+      "pancreatic cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/drug therapy/metabolism/genetics/pathology",
+      "Animals",
+      "*Antineoplastic Agents/pharmacology",
+      "*Deep Learning",
+      "Mice",
+      "Cell Line, Tumor",
+      "Tumor Suppressor Protein p53/genetics/metabolism",
+      "*Tetracyclines/pharmacology",
+      "Xenograft Model Antitumor Assays",
+      "*Carcinoma, Pancreatic Ductal/drug therapy/metabolism/genetics/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jabarin, Adi",
+        "Shtar, Guy",
+        "Feinshtein, Valeria",
+        "Mazuz, Eyal",
+        "Shapira, Bracha",
+        "Rokach, Lior",
+        "Ben-Shabat, Shimon"
+      ],
+      "short_names": [
+        "Jabarin A",
+        "Shtar G",
+        "Feinshtein V",
+        "Mazuz E",
+        "Shapira B",
+        "Rokach L",
+        "Ben-Shabat S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4209-8117",
+        "ORCID: 0000-0003-0647-8753",
+        "ORCID: 0009-0001-1077-1736"
+      ],
+      "affiliations": [
+        "Department of Clinical Biochemistry and Pharmacology, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel.",
+        "Department of Information Systems and Software Engineering, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel.",
+        "Department of Clinical Biochemistry and Pharmacology, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel.",
+        "Department of Information Systems and Software Engineering, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel.",
+        "Department of Information Systems and Software Engineering, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel.",
+        "Department of Information Systems and Software Engineering, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel.",
+        "Department of Clinical Biochemistry and Pharmacology, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jabarin, Adi",
+        "short_name": "Jabarin A",
+        "identifiers": [
+          "0000-0003-4209-8117"
+        ],
+        "affiliations": [
+          "Department of Clinical Biochemistry and Pharmacology, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Shtar, Guy",
+        "short_name": "Shtar G",
+        "identifiers": [
+          "0000-0003-0647-8753"
+        ],
+        "affiliations": [
+          "Department of Information Systems and Software Engineering, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Feinshtein, Valeria",
+        "short_name": "Feinshtein V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Biochemistry and Pharmacology, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Mazuz, Eyal",
+        "short_name": "Mazuz E",
+        "identifiers": [
+          "0009-0001-1077-1736"
+        ],
+        "affiliations": [
+          "Department of Information Systems and Software Engineering, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Shapira, Bracha",
+        "short_name": "Shapira B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Systems and Software Engineering, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Rokach, Lior",
+        "short_name": "Rokach L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Systems and Software Engineering, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Ben-Shabat, Shimon",
+        "short_name": "Ben-Shabat S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Biochemistry and Pharmacology, Ben-Gurion University of the Negev, P.O.B. 653, Beer-Sheva 8410501, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jul 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/08 18:50",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40447614",
+      "38647152",
+      "38147829",
+      "37903413",
+      "37085768",
+      "35794566",
+      "35055021",
+      "34861354",
+      "34734699",
+      "34583722",
+      "33727780",
+      "33610508",
+      "33024816",
+      "32677676",
+      "32593337",
+      "32104548",
+      "32084340",
+      "31647559",
+      "31374881",
+      "31361484",
+      "31209921",
+      "30834048",
+      "30718832",
+      "30043127",
+      "29086083",
+      "28390900",
+      "28316655",
+      "25502932",
+      "24651012",
+      "23263379",
+      "22094260",
+      "21258395",
+      "20592239",
+      "18622389",
+      "11477376",
+      "11381101",
+      "9949290"
+    ],
+    "similar": [
+      "42418827",
+      "38647152",
+      "31053501",
+      "32241274",
+      "41716413",
+      "28764929",
+      "42361739",
+      "38991252",
+      "41928333",
+      "34303658",
+      "32810598",
+      "39810240",
+      "40445510",
+      "39501138",
+      "29107110",
+      "40275348",
+      "41699675",
+      "40505322",
+      "42194035",
+      "41145488",
+      "39103840",
+      "30692639",
+      "33537098",
+      "27779106",
+      "40628852",
+      "25082960",
+      "31903153",
+      "39796036",
+      "21636682",
+      "42425906",
+      "28347789",
+      "39778762",
+      "42025311",
+      "40082968",
+      "14707723",
+      "28619758",
+      "34097885",
+      "41812332",
+      "40379759",
+      "39540370",
+      "42274623",
+      "39433745",
+      "26226900",
+      "26033085",
+      "41929495",
+      "41581643",
+      "35131878",
+      "41394830",
+      "38965506",
+      "39259678",
+      "41645202",
+      "31831555",
+      "34252585",
+      "30594165",
+      "42422981",
+      "41751843",
+      "40318167",
+      "40382627",
+      "28803777",
+      "41101075",
+      "27578530",
+      "40375994",
+      "40913851",
+      "40819215",
+      "31126889",
+      "31404615",
+      "41329747",
+      "28989066",
+      "27840243",
+      "40175514",
+      "38214149",
+      "41225636",
+      "27655706",
+      "27082874",
+      "24204737",
+      "27169995",
+      "28951128",
+      "24717934",
+      "32559497",
+      "41353164",
+      "40840404",
+      "41251088",
+      "26255562",
+      "40209023",
+      "33945847",
+      "41086055",
+      "34262021",
+      "39577749",
+      "33137095",
+      "42500579",
+      "40424767",
+      "39566663",
+      "40902319",
+      "39428053",
+      "26213847",
+      "41350704",
+      "32533886",
+      "41449343",
+      "39158384",
+      "42269181"
+    ],
+    "review": [
+      "42418827",
+      "26226900"
+    ],
+    "pmc": [
+      "13345371"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42418827/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag353",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

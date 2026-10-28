@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "36533448",
+    "doi": "10.1093/nar/gkac1157",
+    "title": "DRAGON: Determining Regulatory Associations using Graphical models on multi-Omic Networks."
+  },
+  "content": {
+    "abstract": "The increasing quantity of multi-omic data, such as methylomic and transcriptomic profiles collected on the same specimen or even on the same cell, provides a unique opportunity to explore the complex interactions that define cell phenotype and govern cellular responses to perturbations. We propose a network approach based on Gaussian Graphical Models (GGMs) that facilitates the joint analysis of paired omics data. This method, called DRAGON (Determining Regulatory Associations using Graphical models on multi-Omic Networks), calibrates its parameters to achieve an optimal trade-off between the network's complexity and estimation accuracy, while explicitly accounting for the characteristics of each of the assessed omics 'layers.' In simulation studies, we show that DRAGON adapts to edge density and feature size differences between omics layers, improving model inference and edge recovery compared to state-of-the-art methods. We further demonstrate in an analysis of joint transcriptome - methylome data from TCGA breast cancer specimens that DRAGON can identify key molecular mechanisms such as gene regulation via promoter methylation. In particular, we identify Transcription Factor AP-2 Beta (TFAP2B) as a potential multi-omic biomarker for basal-type breast cancer. DRAGON is available as open-source code in Python through the Network Zoo package (netZooPy v0.8; netzoo.github.io).",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Multiomics",
+      "Software",
+      "Computer Simulation",
+      "Transcriptome",
+      "*Neoplasms/genetics",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shutta, Katherine H",
+        "Weighill, Deborah",
+        "Burkholz, Rebekka",
+        "Guebila, Marouen Ben",
+        "DeMeo, Dawn L",
+        "Zacharias, Helena U",
+        "Quackenbush, John",
+        "Altenbuchinger, Michael"
+      ],
+      "short_names": [
+        "Shutta KH",
+        "Weighill D",
+        "Burkholz R",
+        "Guebila MB",
+        "DeMeo DL",
+        "Zacharias HU",
+        "Quackenbush J",
+        "Altenbuchinger M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4979-5871",
+        "ORCID: 0000-0001-5934-966X",
+        "ORCID: 0000-0002-2702-5879",
+        "ORCID: 0000-0003-1102-6532"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+        "Channing Division of Network Medicine, Brigham and Women's Hospital, and Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+        "CISPA Helmholtz Center for Information Security, Saarbrucken, Germany.",
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+        "Channing Division of Network Medicine, Brigham and Women's Hospital, and Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Department of Internal Medicine I, University Medical Center Schleswig-Holstein, Campus Kiel, Kiel, Germany.",
+        "Institute of Clinical Molecular Biology, Kiel University and University Medical Center Schleswig-Holstein, Campus Kiel, Kiel, Germany.",
+        "Peter L. Reichertz Institute for Medical Informatics of TU Braunschweig and Hannover Medical School, Hannover, Germany.",
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+        "Channing Division of Network Medicine, Brigham and Women's Hospital, and Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+        "Department of Medical Bioinformatics, University Medical Center Gottingen, Gottingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shutta, Katherine H",
+        "short_name": "Shutta KH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+          "Channing Division of Network Medicine, Brigham and Women's Hospital, and Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Weighill, Deborah",
+        "short_name": "Weighill D",
+        "identifiers": [
+          "0000-0003-4979-5871"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Burkholz, Rebekka",
+        "short_name": "Burkholz R",
+        "identifiers": [],
+        "affiliations": [
+          "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Guebila, Marouen Ben",
+        "short_name": "Guebila MB",
+        "identifiers": [
+          "0000-0001-5934-966X"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "DeMeo, Dawn L",
+        "short_name": "DeMeo DL",
+        "identifiers": [],
+        "affiliations": [
+          "Channing Division of Network Medicine, Brigham and Women's Hospital, and Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Zacharias, Helena U",
+        "short_name": "Zacharias HU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine I, University Medical Center Schleswig-Holstein, Campus Kiel, Kiel, Germany.",
+          "Institute of Clinical Molecular Biology, Kiel University and University Medical Center Schleswig-Holstein, Campus Kiel, Kiel, Germany.",
+          "Peter L. Reichertz Institute for Medical Informatics of TU Braunschweig and Hannover Medical School, Hannover, Germany."
+        ]
+      },
+      {
+        "full_name": "Quackenbush, John",
+        "short_name": "Quackenbush J",
+        "identifiers": [
+          "0000-0002-2702-5879"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+          "Channing Division of Network Medicine, Brigham and Women's Hospital, and Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Altenbuchinger, Michael",
+        "short_name": "Altenbuchinger M",
+        "identifiers": [
+          "0000-0003-1102-6532"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+          "Department of Medical Bioinformatics, University Medical Center Göttingen, Göttingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Feb 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/20 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [
+      "42439530",
+      "42416235",
+      "41978384",
+      "41838907",
+      "41253501",
+      "41114645",
+      "40894779",
+      "40274661",
+      "40196640",
+      "39574772",
+      "39418180",
+      "39364009",
+      "39231609",
+      "39226186",
+      "39134413",
+      "38415584",
+      "36894939",
+      "36685900",
+      "36161666",
+      "34508353"
+    ],
+    "refs": [
+      "35534462",
+      "35507080",
+      "35154240",
+      "34788843",
+      "34687790",
+      "33842351",
+      "32110051",
+      "31639475",
+      "31562371",
+      "31399135",
+      "31077287",
+      "30787268",
+      "30602440",
+      "30476243",
+      "30464613",
+      "30166440",
+      "30165509",
+      "30085201",
+      "29650789",
+      "29425488",
+      "28957658",
+      "28588211",
+      "27794550",
+      "27653561",
+      "27357170",
+      "26834510",
+      "26704973",
+      "26085782",
+      "26005638",
+      "25691825",
+      "25398901",
+      "23741402",
+      "23104886",
+      "22796662",
+      "22781841",
+      "22178455",
+      "21281499",
+      "20920744",
+      "20354511",
+      "18854130",
+      "18622393",
+      "18079126",
+      "17903286",
+      "17875680",
+      "17251202",
+      "16723010",
+      "16646851",
+      "16631596",
+      "16189514",
+      "16169070",
+      "15535868",
+      "15479708",
+      "11916236",
+      "10902190",
+      "10555141"
+    ],
+    "similar": [
+      "36533448",
+      "36894939",
+      "40538029",
+      "41087386",
+      "38374087",
+      "34718410",
+      "41601190",
+      "38105215",
+      "33413550",
+      "39921890",
+      "28407042",
+      "31639475",
+      "40619810",
+      "40116657",
+      "39581869",
+      "30547399",
+      "40551108",
+      "38166610",
+      "37857632",
+      "16844710",
+      "39127735",
+      "38709615",
+      "36064320",
+      "36464123",
+      "41554048",
+      "40228208",
+      "24121459",
+      "39910456",
+      "38092913",
+      "38290765",
+      "39747972",
+      "39240096",
+      "41465557",
+      "41026788",
+      "35156023",
+      "39179997",
+      "39128019",
+      "40692180",
+      "30137012",
+      "36527108",
+      "38472495",
+      "39581871",
+      "32759821",
+      "38225583",
+      "29347830",
+      "29772079",
+      "36867994",
+      "31312515",
+      "37740295",
+      "36991439",
+      "36933628",
+      "37216914",
+      "37365273",
+      "39954675",
+      "39163205",
+      "37670505",
+      "38070154",
+      "37817584",
+      "39418180",
+      "40247122",
+      "30240439",
+      "39812507",
+      "41046136",
+      "39888834",
+      "37395437",
+      "41615289",
+      "39602828",
+      "34039282",
+      "39644579",
+      "37682479",
+      "40152235",
+      "41580083",
+      "39376034",
+      "34694378",
+      "37382572",
+      "33270838",
+      "37239321",
+      "38816801",
+      "39177104",
+      "34705655",
+      "41601671",
+      "39818771",
+      "40730661",
+      "40593592",
+      "40358524",
+      "39395983",
+      "37879938",
+      "40155814",
+      "38940155",
+      "39175079",
+      "39567793",
+      "37186582",
+      "36723605",
+      "40301248",
+      "38395871",
+      "38100557",
+      "40814229",
+      "41029754",
+      "40207843",
+      "36698768"
+    ],
+    "review": [
+      "36533448",
+      "31639475",
+      "38166610",
+      "37857632",
+      "38472495",
+      "37365273",
+      "37817584",
+      "38100557"
+    ],
+    "pmc": [
+      "9943674"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36533448/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36533448",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac1157",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

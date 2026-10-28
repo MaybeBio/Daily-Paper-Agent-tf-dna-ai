@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** Evaluation is limited to the content supplied in the manuscript text. No external data, supplementary files, or raw sequence data were independently verified.
+- **Shared manuscript claim summary** The authors report the identification and comparative analysis of two TBP paralogs (TBP1 and TBP2) across multiple cestode species. They claim conserved genomic organization, conserved protein structure (canonical α/β saddle), conserved DNA-binding and transcription factor interaction residues, and distinct evolutionary trajectories for the two paralogs, with TBP2 being more conserved than TBP1. They further claim that docking and molecular dynamics simulations confirm conserved TATA-box binding across species.
+- **Visible evidence base** Multiple sequence alignments (Figure 1A), pairwise identity matrix (Figure 1B), phylogenetic tree (Figure 2), consensus structural models (Figure 3), electrostatic surface representations (Figures 4 and 5), and protein–DNA interaction schematics (Figures 6 and 7). Genomic data are summarized in Table 1. Supplementary Figures S1–13 are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures S1–13 (genetic maps) were not provided. Raw sequence accession numbers for all cestode TBP genes are not listed in the text. Details of the molecular dynamics simulation protocol (simulation time, temperature, equilibration, convergence criteria) are not described. Validation metrics for homology models (e.g., Ramachandran statistics, DOPE scores) are mentioned but not reported numerically. The electrostatic potential calculation parameters are only partially described.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a useful descriptive bioinformatic and structural modeling survey of TBP1 and TBP2 in cestodes. The work is competently executed within the limits of computational prediction, and the finding that cestodes possess two TBP paralogs with distinct evolutionary constraints is of interest to the parasitology and transcription fields. However, the study is entirely computational and descriptive, with no experimental validation. The central claims of functional conservation and paralog-specific roles are inferred rather than demonstrated. The manuscript would be strengthened by clearer presentation of model quality metrics, more detailed methods for the simulations, and a more cautious interpretation of the functional implications.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in parasitic flatworms, particularly cestodes, will find this useful as a foundational genomic resource. Evolutionary biologists interested in gene family diversification following duplication events may also find the TBP1/TBP2 comparison relevant. Structural biologists studying TBP–DNA interactions may appreciate the comparative modeling data, though the lack of experimental validation limits the impact for this audience.
+- **Major strengths** The manuscript addresses a genuine knowledge gap regarding TBP paralogs in a medically and veterinarily important parasite group. The integration of multiple computational approaches (genomics, phylogenetics, structural modeling, electrostatics, docking, MD) is comprehensive. The finding that TBP2 clusters with TBPL2 rather than canonical TBP is potentially significant. The authors are appropriately cautious in some interpretations, acknowledging the need for future experimental work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations confirm a conserved pattern of TATA-binding across species.
+  - **Evidence pointer** Materials and methods, Molecular docking and molecular dynamics simulations section; Figures 6 and 7
+  - **Concern** The molecular dynamics simulation methodology is described in only two sentences. No information is provided on simulation length, number of replicates, temperature/pressure coupling, equilibration protocol, or convergence assessment. Without these details, the reader cannot evaluate the reliability of the simulation results. Furthermore, the results section does not report any quantitative MD outcomes (e.g., RMSD trajectories, binding free energies, hydrogen bond occupancy), making it impossible to assess what the simulations actually demonstrated.
+  - **Why it matters** The claim of conserved DNA-binding behavior is a central conclusion of the paper. If the MD simulations are not rigorously described and their results not quantitatively reported, this claim is not verifiable. The current description is insufficient to support the strength of the conclusion drawn.
+  - **Resolution test** Provide a full description of the MD protocol including simulation time, ensemble, force field parameters, water model, salt concentration, and convergence criteria. Report quantitative results such as RMSD over time, interaction energies, or contact persistence. If the simulations were too short or insufficiently replicated, either provide additional data or soften the claim to reflect the preliminary nature of the predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that homology models were selected based on DOPE score and Ramachandran plot statistics, and that top models were used for downstream analyses.
+  - **Evidence pointer** Materials and methods, Homology modeling section; Figures 3, 4, 5
+  - **Concern** No quantitative model quality metrics are reported anywhere in the manuscript. The reader is told that models were selected based on DOPE scores and Ramachandran statistics, but the actual values are not given. For a purely computational study, the quality of the structural models is the foundation upon which all downstream analyses rest. Without reporting these metrics, the reliability of the structural conclusions cannot be assessed.
+  - **Why it matters** Structural interpretations, electrostatic calculations, and docking results are only as reliable as the models they are based on. If the models are of poor quality in certain regions, the conclusions drawn from them may be compromised. The absence of quality metrics is a significant omission for a study that relies entirely on predicted structures.
+  - **Resolution test** Report DOPE scores, Ramachandran favored/outlier percentages, and if available, pLDDT scores from AlphaFold2 for each model used. If any models have regions of low confidence, discuss how this might affect the interpretations. Provide these data either in the main text or as a supplementary table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the observed differences between TBP1 and TBP2 indicate paralog-specific regulatory roles in cestode transcription.
+  - **Evidence pointer** Abstract; Discussion, paragraphs 1 and 2
+  - **Concern** The claim of paralog-specific regulatory roles is speculative. The data presented show sequence and structural conservation differences, but no functional data are provided to support distinct roles. The authors themselves acknowledge that functional studies are needed, yet the framing of the abstract and discussion implies a stronger conclusion than the evidence warrants. The suggestion that TBP2 may have a specialized role is not directly supported by any experimental or even strong computational evidence beyond sequence conservation patterns.
+  - **Why it matters** Overinterpretation of descriptive computational data can mislead readers who may not carefully distinguish between demonstrated findings and hypotheses. The distinction between "suggesting" and "demonstrating" paralog-specific roles is important for the scientific accuracy of the manuscript.
+  - **Resolution test** Revise the abstract and discussion to clearly frame the paralog-specific role hypothesis as speculative and in need of experimental testing. Alternatively, provide additional computational evidence (e.g., promoter motif analysis, expression data from public databases) that strengthens the case for functional divergence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes substantial prior knowledge of the transcription initiation machinery. Terms such as TFIID, TAFs, and the distinction between TBP and TBP-related factors are introduced rapidly without sufficient context for readers who may be parasitologists rather than transcription specialists.
+  - **Required correction** Add one or two sentences providing broader context on why TBP is central to transcription and why the existence of paralogs is noteworthy. Briefly define TFIID and the role of TAFs for the nonspecialist reader.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, Data sources section
+  - **Evidence pointer** Materials and methods, Data sources and retrieval of TBP homologs
+  - **Issue** The manuscript does not provide accession numbers or database identifiers for the sequences used in the analysis. While gene identifiers are given in Table 1, the corresponding genome assembly versions and annotation releases are not specified.
+  - **Required correction** Provide a supplementary table listing all sequence identifiers, source database versions, and accession numbers to enable reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Identification of TBPs in cestode genomes
+  - **Evidence pointer** Results, first subsection; Table 1
+  - **Issue** The text states that "several retrieved sequences contained annotation errors; therefore, we manually inspected and corrected these annotations." The nature of these errors and the criteria used for correction are not described. This is important for reproducibility and for assessing whether the corrections might have introduced bias.
+  - **Required correction** Briefly describe the types of errors encountered (e.g., incorrect start codons, missing exons) and the criteria used to correct them. If possible, provide examples in the supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Minor-groove recognition and conserved contact networks in DNA binding
+  - **Evidence pointer** Results, final subsection; Figures 6 and 7
+  - **Issue** The description of the docking results is qualitative and does not provide the reader with a clear sense of the confidence in the predicted interactions. Terms such as "stable network" and "exceptionally uniform" are used without quantitative support.
+  - **Required correction** Provide docking scores or interaction energy values for the top poses, and state how many poses were considered. If such values are not available, acknowledge this limitation and temper the language accordingly.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, final paragraph
+  - **Evidence pointer** Discussion, last paragraph
+  - **Issue** The future directions paragraph lists several experimental approaches but does not prioritize them or explain which would be most informative given the specific findings of this study.
+  - **Required correction** Briefly indicate which experimental approaches would most directly test the specific hypotheses generated by this work, and why.
+
+## Risk / unsupported claims
+- The claim that TBP2 displays "exceptionally uniform interaction networks" in DNA binding is not quantitatively supported by the data presented. No metrics of interaction uniformity are provided.
+- The suggestion that TBP2 may have a "more specialized or conserved role in transcription initiation relative to TBP1" is speculative and not directly supported by the evidence shown.
+- The statement that "all cestode TBPs retain the key aromatic and basic residues required for minor-groove recognition" is presented as a definitive finding, but the supporting evidence is only a multiple sequence alignment without explicit residue-by-residue annotation in the text.
+- The claim that electrostatic differences "might fine-tune interactions with transcriptional partners in a species-dependent manner" is presented as a possibility, which is appropriate, but the abstract phrasing could be read as more definitive.
+- The phylogenetic conclusion that TBP2 clusters with TBPL2 is stated in the results but the statistical support for this grouping (e.g., bootstrap values) is not reported.

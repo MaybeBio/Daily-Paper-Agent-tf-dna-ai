@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without supplementary figures or tables
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, and suitability for a generalist high-impact journal
+- **Shared manuscript claim summary** The authors propose that DNA duplex stability (DDS), a thermodynamic feature, can serve as a biologically meaningful input for machine learning models to predict bacterial transcription factor binding sites (TFBS) and to classify them as direct-repeat (DR) or inverted-repeat (IR) architectures. They report average accuracy above 82% for TFBS prediction and 89% for DR/IR classification, and claim that DDS profiles reveal symmetry patterns consistent with palindromic IR structures, offering interpretability into protein-DNA recognition.
+- **Visible evidence base** Main text figures (Figs 1-6), Tables 1-4, and references to supplementary tables and figures (S1-S6) whose contents are not provided
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S6), the GitHub repository data, detailed hyperparameter settings, exact train/test splits per length category, and the Prodoric dataset version and filtering criteria
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in bacterial gene regulation and proposes a novel feature representation (DDS) for TFBS prediction. The core idea is interesting and the interpretability analysis via SHAP is a strength. However, the evidence as presented is insufficient to fully support the central claims. Key methodological details are missing, the negative dataset construction is problematic, and the comparison with existing methods is incomplete. The claim that DDS has not been previously applied to binding site prediction is not verifiable from the provided material. The manuscript would benefit from clearer reporting of dataset splits, class balance, and statistical significance testing.
+- **Who would be interested in the results, and why** Researchers in bacterial gene regulation, computational biology, and machine learning applied to genomics. The DDS-based feature representation could be of interest to those working on TFBS prediction in other organisms, and the interpretability analysis may appeal to those studying protein-DNA recognition mechanisms.
+- **Major strengths** 1) The use of a thermodynamically meaningful feature (DDS) instead of generic one-hot encoding is conceptually novel and biologically motivated. 2) The SHAP-based interpretability analysis provides a link between model predictions and structural features of protein-DNA interactions. 3) The study includes external validation on an independent dataset, which strengthens the generalizability claim. 4) The authors address class imbalance in the DR/IR classification task through a subtask decomposition strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and negative set construction
+  - **Claim pointer** The manuscript claims that the model distinguishes TFBS from non-TFBS with high accuracy, using randomly generated sequences as negatives.
+  - **Evidence pointer** Methods section "Dataset preparation and general procedure"; Results section "Random Forest accurately predict TFBS"; Table 2
+  - **Concern** The negative dataset consists of random sequences matched for length and nucleotide composition. This is a weak negative set, as random sequences do not represent the genomic background distribution of non-TFBS regions. Real non-TFBS sequences from the E. coli genome would be a more appropriate control. The use of random sequences likely inflates accuracy estimates, as real genomic sequences may contain partial motif matches or structural features that make them harder to distinguish from true TFBS.
+  - **Why it matters** If the negative set is not representative of the true distribution of non-binding sites, the reported accuracy values (above 82%) may not reflect real-world performance. This directly affects the validity of the central claim that the model can accurately predict TFBS.
+  - **Resolution test** The authors should retrain and evaluate the model using a negative set derived from actual genomic intergenic regions of E. coli that are not known TFBS, matched for length and GC content. If accuracy remains above 80% with this more realistic negative set, the claim would be substantially strengthened.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness and reproducibility
+  - **Claim pointer** The manuscript claims that the RF algorithm achieves high accuracy across datasets of different sequence lengths (8-20 bp).
+  - **Evidence pointer** Methods section "Machine learning models"; Results section "Random Forest accurately predict TFBS"; Table 2
+  - **Concern** The manuscript does not report the number of samples per sequence length category, the class balance in each category, or the exact train/test split procedure beyond "80-20 train-test split under a 10-fold cross validation process." This description is ambiguous: it is unclear whether the 80-20 split is applied within each fold of the cross-validation, or whether a single 80-20 split is used with 10-fold cross-validation applied only to the training portion. Additionally, hyperparameters are stated to be at default values, but no information is provided on whether any tuning was performed or whether the reported results are from the default configuration.
+  - **Why it matters** Without clear reporting of dataset sizes, class distributions, and the exact validation protocol, the results cannot be reproduced or independently verified. This undermines the technical soundness of the study.
+  - **Resolution test** The authors should provide a detailed description of the dataset composition per length category (number of positive and negative samples), the exact cross-validation scheme, and the variance of performance metrics across folds. Reporting standard deviations or confidence intervals for accuracy would also help assess stability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with existing methods
+  - **Claim pointer** The manuscript states that the proposed model outperforms a previous study using ML on S. cerevisiae PBM data, based on comparison of reported metrics.
+  - **Evidence pointer** Results section "Assessment of model generalizability through external validation"; Table S5 (not provided)
+  - **Concern** The comparison with prior work is indirect and based on reported metrics from a different organism (S. cerevisiae) and different data type (PBM). The authors acknowledge the lack of publicly available models and datasets from the prior study, which limits the comparison to a high-level metric comparison. This is not a rigorous benchmark.
+  - **Why it matters** A central claim of the manuscript is that the DDS-based approach is competitive or superior to existing methods. Without a direct comparison on the same data or at least a benchmark against state-of-the-art tools on the same E. coli dataset, this claim is not established.
+  - **Resolution test** The authors should compare their model against at least one established TFBS prediction tool (e.g., DeepBind, FCNsignal) on the same E. coli dataset, using the same evaluation protocol. If such a comparison is not feasible, the claim should be softened to avoid overstatement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical significance and robustness
+  - **Claim pointer** The manuscript claims that DDS profiles show significant differences between TFBS and random sequences, and that symmetry patterns are characteristic of IR motifs.
+  - **Evidence pointer** Results section "TFBS are well represented by DDS"; Figure 3
+  - **Concern** The visual inspection of DDS profiles in Figure 3 is qualitative. No statistical test is reported to support the claim that TFBS and random sequences have significantly different DDS profiles, nor that the observed symmetry patterns are statistically enriched in IR versus DR motifs. The claim that "notable symmetrical patterns" are evident is based on visual inspection of a small number of examples (8 TFBS shown).
+  - **Why it matters** The interpretability claim is a key differentiator of this work. Without quantitative support, the symmetry observation remains anecdotal and does not constitute strong evidence for the proposed link between DDS and protein-DNA recognition mechanisms.
+  - **Resolution test** The authors should perform a quantitative analysis, e.g., comparing the distribution of DDS values at each position between TFBS and random sequences using a suitable statistical test (e.g., Mann-Whitney U with multiple testing correction). For the symmetry claim, they could compute a symmetry score for IR versus DR motifs and test whether the difference is statistically significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract, last sentence
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "a DDS characteristic that may indicate how respective proteins interact with base pairs" is vague. It is unclear what specific characteristic is being referred to.
+  - **Required correction** Rephrase to specify the exact DDS feature or pattern that is claimed to correlate with protein-DNA interaction, e.g., "the symmetric DDS profile observed in IR motifs."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Machine learning model training
+  - **Evidence pointer** Methods section "Machine learning models"
+  - **Issue** The manuscript states that hyperparameters were kept at default values but does not specify which version of scikit-learn was used for XGBoost (which is not part of scikit-learn) or how the XGBoost classifier was configured.
+  - **Required correction** Provide the specific library versions and the XGBoost parameter configuration, or state that default XGBoost parameters were used with the relevant library version.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** GitHub repository
+  - **Evidence pointer** Methods section "Dataset preparation and general procedure"
+  - **Issue** The GitHub repository link is provided, but it is not stated whether the repository contains the full dataset, the code for reproducing all figures and tables, or only the trained models.
+  - **Required correction** Clarify the contents of the repository and provide a data availability statement describing what is included.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 3
+  - **Evidence pointer** Results section "TFBS are well represented by DDS"
+  - **Issue** The figure shows individual and average DDS profiles for 8 TFBS, but the number of sequences per TFBS is only mentioned in the text for some cases (e.g., 57 for Cra). It is unclear how representative the average profiles are for TFBS with small sample sizes.
+  - **Required correction** Add the number of sequences for each TFBS in the figure legend or in the text, and consider indicating the sample size in each panel.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** External validation
+  - **Affected element** Prodoric dataset
+  - **Evidence pointer** Results section "Assessment of model generalizability through external validation"
+  - **Issue** The manuscript states that sequences from Prodoric were used for external validation, but the version of the database, the number of TFBS per length category, and the criteria for selecting the 13, 14, and 15 bp subsets are not reported.
+  - **Required correction** Provide details on the Prodoric version, the number of sequences used per length category, and any filtering criteria applied.
+
+## Risk / unsupported claims
+- The claim that "there are no previous studies where DDS has been applied to binding site prediction" is not verifiable from the provided material and may be an overstatement. A more cautious phrasing such as "to our knowledge" is used, but the literature search is not described.
+- The claim that the model "accurately predicts TFBS with an average accuracy of over 82%" is not fully supported because the negative set is composed of random sequences, which likely overestimates performance.
+- The claim that DDS profiles reveal "symmetry typical of the palindromic structure" is based on visual inspection of a small number of examples and lacks statistical support.
+- The comparison with prior work (Table S5) is based on reported metrics from a different organism and data type, and the claim of outperformance is not rigorously established.
+- The generalizability claim based on external validation with Prodoric data is weakened by the lack of detail on the dataset composition and the observed poor performance on non-TFBS predictions (precision as low as 0.40 for 15 bp models).

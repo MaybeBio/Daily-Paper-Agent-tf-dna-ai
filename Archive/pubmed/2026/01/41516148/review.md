@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods, Conclusions)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the supplied text
+- **Shared manuscript claim summary** The manuscript proposes that transcription factors (TFs) known to bind B-DNA also dock to alternative nucleic acid structures (ANS), including Z-DNA/Z-RNA and G-quadruplexes, based on AlphaFold V3 (AF3) computational modeling. It further proposes that homodimers bind Z-DNA preferentially when modified by symmetrical dimethylarginine (dMeR), and that heterodimers require preformed Z-DNA stabilized by Zα domains. The authors argue this mechanism enhances genome scanning, facilitates heterodimer assembly, and regulates transcription.
+- **Visible evidence base** AF3 modeling outputs (described qualitatively), PRmePRed predictions for arginine methylation, prior experimental literature cited for Zα/Z-DNA and TFEα/Z-DNA interactions, one prior NMR validation of ADAR Zβ/G-quadruplex interaction, molecular dynamics simulations (MDS) mentioned but not detailed
+- **Missing materials affecting confidence** No structural coordinates, no AF3 confidence scores, no MDS trajectories or parameters, no raw prediction outputs, no experimental validation for the specific TF-ANS interactions claimed, no statistical analysis, no negative controls described
+
+## Reviewer
+- **Overall assessment** The manuscript presents an intriguing hypothesis supported by computational predictions, but the evidence as presented is insufficient to establish the central claims. The reliance on AF3 without rigorous validation, the absence of quantitative metrics, and the lack of experimental confirmation for the specific interactions described leave the core conclusions unsubstantiated. The conceptual framework around flipons and transcription regulation is interesting and may merit further investigation, but the current manuscript does not provide the evidence needed to support its broad claims.
+- **Who would be interested in the results, and why** Researchers studying non-canonical nucleic acid structures, transcription factor biology, gene regulation, and epigenetics may find the hypothesis interesting. The potential link between ANS and transcription factor scanning could inform studies on genome organization and dynamic gene regulation. However, interest will likely be tempered by the lack of experimental validation.
+- **Major strengths** The manuscript addresses a timely and underexplored question about the biological relevance of alternative nucleic acid structures. The use of AF3 to explore TF-ANS interactions is a novel approach that could generate testable hypotheses. The discussion of methylarginine modifications as potential regulators of Z-DNA binding is creative and connects to existing literature on arginine methylation in transcription.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that AF3 modeling reveals that known B-DNA-binding TFs dock to ANS such as ZNA and GQ.
+  - **Evidence pointer** Results section, Figures 2-5 (described qualitatively)
+  - **Concern** The central evidence for the manuscript's claims is AF3 modeling, but no quantitative metrics are provided. There are no AF3 confidence scores, no pLDDT values, no predicted aligned error (PAE) data, and no comparison to docking scores or binding energies. The selection of "good" models is described as based on "manual inspection" and "many well-oriented binding interactions and no steric clashes," which is subjective and not reproducible.
+  - **Why it matters** Without quantitative metrics, readers cannot assess the reliability of the predictions. AF3 is not designed for nucleic acid-protein docking, and its performance on such tasks is not established. The manuscript acknowledges AF3 is "not explicitly trained to recognize Z-DNA or other flipon structures," which raises fundamental questions about the validity of the approach.
+  - **Resolution test** Provide AF3 confidence metrics (pLDDT, PAE) for all models, include docking scores or binding free energy estimates, and demonstrate that the approach can distinguish known binders from non-binders using appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The manuscript claims that dMeR modifications promote homodimer binding to Z-DNA and that heterodimers only bind preformed Z-DNA.
+  - **Evidence pointer** Results section, Figures 2-4 (described qualitatively)
+  - **Concern** No experimental data support the claim that methylarginine modifications alter TF binding preferences. The PRmePRed predictions are computational and have not been validated for the specific residues and proteins studied. The claim that heterodimers do not bind Z-DNA without Zα stabilization is based solely on AF3 predictions, which may not reflect true binding affinities.
+  - **Why it matters** The proposed mechanism depends critically on differential binding of homodimers versus heterodimers to Z-DNA. If this distinction is an artifact of the modeling approach rather than a real biological property, the entire model of heterodimer assembly on Z-DNA collapses.
+  - **Resolution test** Perform experimental binding assays (e.g., electrophoretic mobility shift assays, surface plasmon resonance) with purified proteins and Z-DNA substrates, comparing unmodified and methylarginine-modified proteins, and testing homodimer versus heterodimer binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that MDS was used to validate AF3 predictions and that the ADAR Zβ/G-quadruplex interaction was confirmed by NMR.
+  - **Evidence pointer** Methods section, "location not provided"
+  - **Concern** The MDS validation is mentioned but no details are provided: no simulation parameters, force fields, simulation times, or convergence criteria. The NMR confirmation is cited but not described, and it is unclear whether this refers to published work or unpublished data. Without these details, the validation claims cannot be assessed.
+  - **Why it matters** The manuscript relies on MDS to support the robustness of AF3 predictions, but the absence of methodological detail prevents evaluation of whether the simulations were performed correctly and whether they genuinely support the conclusions.
+  - **Resolution test** Provide full MDS methods (software, force field, water model, ion conditions, simulation length, equilibration protocol) and either cite the published NMR study or provide the data as supplementary material.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of claims
+  - **Claim pointer** The manuscript claims that TF binding to ANS "likely enhance genome scanning" and that the process "enables rapid discovery of the optimal heterodimer combinations required to regulate a nearby promoter."
+  - **Evidence pointer** Discussion section
+  - **Concern** These claims extend far beyond the computational data presented. No experimental evidence links TF-ANS interactions to genome scanning efficiency or heterodimer assembly in cells. The manuscript speculates about mechanisms without providing functional data.
+  - **Why it matters** The broader biological significance of the findings depends on these functional claims. Without experimental support, they remain speculative and weaken the manuscript's impact.
+  - **Resolution test** Provide experimental evidence (e.g., chromatin immunoprecipitation, live-cell imaging, reporter assays) demonstrating that TF-ANS interactions affect transcription or genome scanning in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure descriptions
+  - **Evidence pointer** Results section, Figures 2-5
+  - **Issue** Figure panels are referenced (e.g., "panels A,C", "panel G", "panel I") but the figures themselves are not described in sufficient detail in the text. Readers cannot follow which specific interactions are being discussed.
+  - **Required correction** Provide detailed figure legends and describe each panel explicitly in the text, including the protein domains, nucleic acid sequences, and modification states used in each model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Hamanaka factors" (Results section)
+  - **Evidence pointer** Results section, "location not provided"
+  - **Issue** The text refers to "Hamanaka factors" but the manuscript elsewhere discusses Yamanaka factors. This appears to be a typographical error.
+  - **Required correction** Correct "Hamanaka" to "Yamanaka" throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** TP53 Z-DNA binding claim
+  - **Evidence pointer** Results section, "location not provided"
+  - **Issue** The text states that TP53 exhibited "only limited affinity for Z-DNA" in the models tested, but the Discussion implies broader TF-Z-DNA interactions. The significance of this negative result is not discussed.
+  - **Required correction** Address whether the TP53 result is expected or anomalous, and discuss implications for the proposed model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** AF3 input conditions
+  - **Evidence pointer** Methods section
+  - **Issue** The Methods state that "a screenshot of the conditions used to initiate the model is given in the supplemental data file," but this is not accessible from the supplied text. The specific input parameters (e.g., multiple sequence alignment depth, template usage, number of recycles) are not described.
+  - **Required correction** Provide the full set of AF3 input parameters in the Methods or supplementary material.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature support
+  - **Affected element** Claims about flipon biology
+  - **Evidence pointer** Introduction and Discussion
+  - **Issue** The manuscript makes broad claims about flipon evolution and function (e.g., "predates the evolution of sequence-specific binding factors") without citing specific supporting literature.
+  - **Required correction** Add appropriate citations for evolutionary and functional claims about flipons.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative AF3 metrics), R1-M2 (no experimental validation of dMeR effects), R1-M3 (insufficient MDS and NMR details)
+- **Assessment against Nature-style criteria** Originality: The hypothesis that TFs bind multiple ANS through the same domain is conceptually novel and could challenge prevailing views. Scientific importance: If validated, the findings could reshape understanding of transcription factor function and gene regulation. Interdisciplinary readership: The topic bridges structural biology, transcription, and epigenetics, which could attract broad interest. Technical soundness: Currently inadequate; the reliance on unvalidated computational predictions without quantitative metrics or experimental confirmation does not meet the standard required. Readability for nonspecialists: The manuscript is generally readable but assumes familiarity with AF3 and nucleic acid structure terminology; the Discussion is accessible but the Results lack clarity due to poor figure descriptions.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis but lacks the experimental and quantitative computational support needed to substantiate its claims. Major revisions with additional data are required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that dMeR modifications promote homodimer binding to Z-DNA is unsupported by experimental evidence.
+- The claim that heterodimers only bind preformed Z-DNA is based solely on AF3 predictions without validation.
+- The claim that TF-ANS interactions enhance genome scanning is speculative and lacks functional data.
+- The claim that the process enables rapid discovery of optimal heterodimer combinations is unsupported.
+- The claim that MDS validates the AF3 models is unverifiable without methodological details.
+- The claim that the ADAR Zβ/G-quadruplex interaction was confirmed by NMR is not substantiated with a citation or data.
+- The claim that "proteins commonly engage multiple nucleic acid conformations" is an overgeneralization from a limited set of computational models.
+- The claim that TP53 binds Z-DNA through its C-terminal domain is based on models with "limited affinity" and is not clearly supported.

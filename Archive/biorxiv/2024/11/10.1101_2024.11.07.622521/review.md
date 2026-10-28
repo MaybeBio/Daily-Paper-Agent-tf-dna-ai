@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, methods, and discussion sections, as provided.
+- **Assessment boundary** Evaluation is limited to the scientific claims, methodology, and evidence presented in the provided text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors claim that AlphaFold3 (AF3) can generate conformational ensembles of DNA ligases (Taq ligase and human LIG1) that capture functionally relevant dynamic states, providing mechanistic insights into DNA repair processes, including substrate positioning and catalytic efficiency differences.
+- **Visible evidence base** The manuscript includes qualitative descriptions of structural ensembles, confidence scores (pLDDT), PCA/RMSF analyses, and comparisons to published experimental data. Figures are referenced but not fully described in the text.
+- **Missing materials affecting confidence** Figures and supplementary materials are referenced but not provided in the text. Quantitative data (e.g., RMSF values, PCA variance, ensemble distributions) are not reported. Details on AF3 input parameters, seed selection, and validation against experimental structures are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting application of AlphaFold3 to generate conformational ensembles for DNA ligases, aiming to capture dynamic states relevant to function. The core idea is timely and could be of interest to the structural biology and DNA repair communities. However, the current manuscript is largely descriptive and lacks quantitative validation. The claims of capturing "novel insights" and "significant mobility" are not supported by quantitative data or comparisons to experimental ensembles. The methodology is under-specified, and the link between predicted ensembles and functional outcomes (e.g., catalytic efficiency) is asserted rather than rigorously demonstrated. The manuscript would benefit from a more systematic analysis, including quantitative metrics, controls, and validation against known experimental structures or dynamics.
+- **Who would be interested in the results, and why** Researchers in structural biology, computational biology, and DNA repair mechanisms would be interested. The work demonstrates a potential use case for AF3 beyond static structure prediction, which is relevant to those studying protein dynamics and enzyme mechanisms. The specific application to DNA ligases may interest groups working on DNA replication, repair, and therapeutic targeting of these enzymes.
+- **Major strengths** 1. The application of AF3 to generate conformational ensembles is a relevant and timely approach. 2. The study addresses a biologically important question regarding the dynamic behavior of DNA ligases. 3. The extension to human LIG1 and comparison with LIG3b provides a comparative angle that could be informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AF3-generated ensembles capture "significant mobility" and "novel insights" into enzyme behavior during DNA repair.
+  - **Evidence pointer** Results section, Figures 2 and 3, location not provided.
+  - **Concern** The claim of capturing significant mobility is based on qualitative descriptions of RMSF and PCA, but no quantitative data (e.g., RMSF values, variance explained by principal components) are provided. Without numerical metrics, it is impossible to assess the magnitude or significance of the predicted dynamics. Furthermore, the ensembles are not compared to any experimental data (e.g., NMR ensembles, molecular dynamics simulations) to validate that the predicted conformations are physiologically relevant.
+  - **Why it matters** The central premise of the paper is that AF3 can predict functionally relevant conformational ensembles. Without quantitative evidence and validation, this claim is not established. The reader cannot evaluate whether the observed "mobility" is a genuine feature of the protein or an artifact of the prediction method.
+  - **Resolution test** Provide quantitative metrics (e.g., RMSF values per residue, PCA eigenvalues) and compare the predicted ensembles to known experimental structures or dynamics (e.g., from PDB, MD simulations). Show that the predicted conformations are consistent with known functional states.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AF3 ensembles for LIG1 with 5' overhangs show "suboptimal DNA positioning" leading to "lower catalytic efficiency," aligning with published data.
+  - **Evidence pointer** Results section, Figure 4, location not provided.
+  - **Concern** The link between predicted conformational ensembles and catalytic efficiency is not rigorously established. The authors state that DNA is "suboptimally positioned" but do not provide quantitative measures of positioning (e.g., distances, angles, contact areas) or a statistical comparison between 3' and 5' overhang ensembles. The claim of alignment with published data is mentioned but not substantiated with specific references or a detailed comparison.
+  - **Why it matters** The functional interpretation is a key selling point of the paper. Without quantitative analysis and a clear link to experimental results, the conclusion that AF3 can predict functional differences is speculative.
+  - **Resolution test** Quantify the differences in DNA positioning (e.g., distance from catalytic residues, buried surface area) between 3' and 5' overhang ensembles. Perform statistical tests to show these differences are significant. Directly compare the predicted ensembles to experimental structures or models of LIG1 with different substrates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods section describes the use of AF3 with "24 different seeds" and "5 model output per seed," but the input parameters are not fully specified.
+  - **Evidence pointer** Methods section, "Overview of the structural prediction pipeline," location not provided.
+  - **Concern** The description of the AF3 input parameters is incomplete. For example, the exact composition of the input for each step (e.g., which chains, ligands, ions, modifications) is not fully detailed. The authors mention using "different seeds" but do not specify how seeds were chosen or whether results were consistent across seeds. The use of the AF3 server (as opposed to a local installation) may also limit reproducibility.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without a complete description of the input parameters and analysis pipeline, other researchers cannot replicate the study or assess its robustness.
+  - **Resolution test** Provide a detailed description of all input parameters for each AF3 run, including the exact sequences, ligands, ions, and any post-translational modifications. Specify the seed selection process and report the variability of results across seeds. Consider providing the input JSON files as supplementary data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided.
+  - **Issue** The abstract states that AF3 ensembles "indicated LIG1 has lower catalytic efficiency for 5' overhangs due to suboptimal DNA positioning," but this is presented as a definitive conclusion rather than a prediction from the model.
+  - **Required correction** Rephrase to clarify that this is a prediction from the AF3 ensembles that is consistent with published data, not a direct measurement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Results, Step 1, location not provided.
+  - **Issue** The text mentions that AF3 "does not allow the adenylate modifications of lysine," but the authors model the adenylate intermediate with AMP. This is a potential limitation that should be discussed more explicitly.
+  - **Required correction** Add a sentence in the Discussion acknowledging this limitation and its potential impact on the predicted conformations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Structural analysis," location not provided.
+  - **Issue** The methods state that PCA and RMSF calculations were performed using MDAnalysis, but no details are given on how the ensembles were aligned or which atoms were used for the calculations.
+  - **Required correction** Provide more details on the analysis parameters, such as the atom selection for alignment and RMSF calculation, and the number of principal components retained.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of quantitative data for the claimed conformational dynamics (R1-M1). 2. Insufficient evidence linking predicted ensembles to functional outcomes (R1-M2). 3. Incomplete methodological details for reproducibility (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** The idea of using AF3 to generate conformational ensembles is not entirely novel, as similar approaches have been explored with AF2. However, the application to DNA ligases and the focus on functional dynamics could be considered a modest extension. **Scientific importance:** The work addresses a relevant question in DNA repair, but the current evidence does not establish a significant advance in understanding. The claims are largely descriptive and lack the depth required for a high-impact journal. **Interdisciplinary readership:** The topic may appeal to structural biologists, computational biologists, and DNA repair specialists. However, the presentation is not sufficiently accessible to a broader audience, as it assumes familiarity with AF3 and structural analysis techniques. **Technical soundness:** The technical approach is not fully validated. The lack of quantitative metrics and comparison to experimental data undermines the robustness of the conclusions. **Readability for nonspecialists:** The manuscript is written in a technical style that may be challenging for nonspecialists. The abstract and introduction are relatively clear, but the results section is dense and lacks clear explanations of the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting premise but lacks the quantitative analysis, validation, and methodological detail necessary to support its claims. Major revisions are required to address the concerns outlined above.
+
+## Risk / unsupported claims
+- The claim that AF3 captures "significant mobility" in the ground state is unsupported by quantitative data.
+- The claim that AF3 ensembles explain the lower catalytic efficiency of LIG1 for 5' overhangs is not rigorously established.
+- The claim that the framework is "generalizable" to other enzymes is speculative and not demonstrated.
+- The statement that AF3 predictions align with published experimental data is not substantiated with specific references or comparisons.
+- The potential limitations of using AF3 (e.g., lack of adenylate modification modeling) are not adequately discussed.

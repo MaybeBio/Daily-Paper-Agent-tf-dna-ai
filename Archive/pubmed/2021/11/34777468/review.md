@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report a novel missense variant (c.925A>T, p.I309F) in HOXD13 associated with atypical synpolydactyly, demonstrate that this variant impairs transcriptional activation of the downstream gene EPHA7, and present a genotype-phenotype correlation analysis across 53 families (173 affected individuals) suggesting that polyalanine expansion mutations cause more severe phenotypes than missense or loss-of-function variants.
+- **Visible evidence base** Clinical and pedigree data from 12 families; Sanger sequencing validation; immunofluorescence localization experiments in COS-7 cells; luciferase reporter assays in 293T cells; molecular dynamics simulations of polyalanine variants; literature-curated genotype-phenotype dataset
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; raw sequencing data not shown; statistical analysis details incomplete; molecular simulation parameters partially described; clinical photographs referenced but not visible
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically relevant question in the genetics of synpolydactyly and provides a potentially novel variant with functional characterization. The genotype-phenotype correlation analysis is a useful contribution to the field. However, several methodological limitations and incomplete reporting reduce confidence in the strength of the conclusions. The functional evidence for the I309F variant is based on a single reporter assay, and the genotype-phenotype analysis relies on a severity scoring system that is not fully validated. The manuscript would benefit from additional experimental support and more rigorous statistical and methodological transparency.
+- **Who would be interested in the results, and why** Clinical geneticists and researchers studying limb malformations, particularly those interested in HOXD13-related disorders and genotype-phenotype correlations. The functional data on a novel missense variant may also be of interest to molecular biologists studying homeodomain transcription factor function. The literature review and severity scoring system could serve as a reference for future clinical reporting.
+- **Major strengths** 1) Identification and clinical description of a novel HOXD13 missense variant in a multi-generation family with atypical SPD. 2) Functional characterization combining cellular localization, transcriptional reporter assays, and molecular dynamics simulations. 3) A relatively large curated dataset for genotype-phenotype correlation analysis. 4) Practical clinical implications for genetic counseling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The claim that the I309F variant impairs downstream gene expression and causes SPD by reducing transcriptional activation of EPHA7.
+  - **Evidence pointer** Results section, Figure 5E; Methods, Luciferase Assay
+  - **Concern** The functional evidence for the I309F variant rests entirely on a single luciferase reporter assay using one downstream target gene (EPHA7). No additional target genes were tested, no dose-response or complementation experiments were performed, and no chromatin immunoprecipitation or electrophoretic mobility shift assay was conducted to directly demonstrate altered DNA binding. The molecular dynamics simulation is used to infer structural disruption but is not experimentally validated.
+  - **Why it matters** A single reporter assay with one target gene is insufficient to establish a pathogenic mechanism, particularly for a transcription factor with multiple downstream targets. The conclusion that I309F impairs transcriptional activation would be substantially strengthened by testing multiple known HOXD13 target genes, performing DNA-binding assays, or demonstrating allele-specific effects in a more physiologically relevant system.
+  - **Resolution test** Provide additional reporter assays with at least two or three known HOXD13 target genes, or perform electrophoretic mobility shift assays or chromatin immunoprecipitation to demonstrate altered DNA-binding affinity. Alternatively, complementation experiments in a cell line or animal model expressing wild-type versus mutant HOXD13 would strengthen the causal link.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genotype-phenotype correlation methodology
+  - **Claim pointer** The claim that polyalanine extension mutations are associated with more severe SPD phenotypes than missense or loss-of-function variants, and that specific genotype-phenotype correlations exist.
+  - **Evidence pointer** Results, Genotype-Phenotype Relationship Analysis; Figure 3D-F; Methods, Genotype-Phenotype Relationship Analysis
+  - **Concern** The severity scoring system is described only briefly and its validity is not established. The scoring assigns points to individual traits but does not account for the anatomical distribution, laterality, or functional impact of the malformations. The statistical comparisons between groups are based on this unvalidated score. Additionally, the analysis combines data from multiple studies with potentially inconsistent phenotyping methods, and the criteria for inclusion in the curated dataset are not fully described.
+  - **Why it matters** The genotype-phenotype correlation is a central claim of the manuscript. If the severity scoring system is not reliable or the dataset is heterogeneous, the statistical differences reported may not be robust. This could lead to incorrect conclusions about the relative severity of different mutation types, which has direct implications for genetic counseling.
+  - **Resolution test** Provide a detailed description of the severity scoring system, including how each trait was weighted and how inter-rater reliability was assessed. Perform sensitivity analyses excluding studies with incomplete phenotypic data. Consider using established classification systems for limb malformations or validating the score against an independent cohort.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical analysis
+  - **Claim pointer** The claim that there are statistically significant differences in severity scores between polyalanine mutations and homeobox or non-homeobox variants.
+  - **Evidence pointer** Results, Genotype-Phenotype Relationship Analysis; Figure 3D-F; Methods, Statistical Analyses
+  - **Concern** The statistical methods are described briefly. The use of t-tests and Mann-Whitney tests is appropriate for comparing two groups, but it is unclear whether multiple testing corrections were applied given that multiple comparisons were performed. The sample sizes for each mutation category are not clearly stated, and the power to detect differences may be limited for rare variant types.
+  - **Why it matters** Inadequate statistical reporting undermines confidence in the reported differences. If multiple comparisons were not corrected, some significant results may be false positives. The clinical implications of the genotype-phenotype correlations depend on the robustness of these statistical findings.
+  - **Resolution test** Report the number of individuals in each mutation category, apply appropriate multiple testing corrections, and provide effect sizes and confidence intervals for the comparisons. Consider using a regression model that adjusts for potential confounders such as age or family relatedness.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Molecular dynamics simulation
+  - **Claim pointer** The claim that polyalanine extension mutations lead to structural changes and increased polymerization energy, promoting aggregation.
+  - **Evidence pointer** Results, Polyalanine Extension Led to Structural Change; Figure 5A-B; Methods, Protein Structure Prediction and Molecular Simulation
+  - **Concern** The molecular dynamics simulation is described with limited methodological detail. The force field parameters, simulation length, number of replicas, and convergence criteria are not fully specified. The relationship between the computed polymerization energy and the experimentally observed aggregation is inferred but not directly validated. The simulation was performed on a fragment of the polyalanine tract, not the full-length protein.
+  - **Why it matters** The simulation results are used to support a mechanistic explanation for polyalanine-mediated aggregation. Without adequate methodological detail and experimental validation, the conclusions drawn from the simulation are difficult to evaluate and may not be reproducible.
+  - **Resolution test** Provide complete simulation parameters, including software versions, thermostat/barostat settings, simulation time, and convergence checks. Validate the computational predictions with experimental approaches such as circular dichroism spectroscopy, size-exclusion chromatography, or aggregation assays with purified proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** Methods, Patient Recruitment and Sample Collection
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The number of affected individuals and unaffected family members recruited is not stated. The total number of families is mentioned as 12, but the total number of individuals studied is unclear.
+  - **Required correction** Provide the total number of participants, including affected and unaffected family members, and specify how many were used for the genotype-phenotype analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Variant interpretation
+  - **Affected element** Results, Clinical Features and HOXD13 Mutations
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The ACMG classification for the I309F variant is mentioned in the Discussion but the specific criteria used (PM2_P, PS3_M, PP1_M, PM1, PP3) are not fully explained. The population frequency of the variant is not reported.
+  - **Required correction** Provide the allele frequency of the variant in population databases and clarify how each ACMG criterion was applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature review methodology
+  - **Affected element** Methods, Genotype-Phenotype Relationship Analysis
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The literature search strategy is described briefly. The number of studies screened, excluded, and included is not reported, and the criteria for excluding studies are not fully specified.
+  - **Required correction** Provide a PRISMA-style flow diagram or at least report the number of studies identified, screened, and included, along with the reasons for exclusion.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1 and 2
+  - **Evidence pointer** Figures 1 and 2, location not provided
+  - **Issue** The clinical photographs and pedigree figures are referenced but not visible in the provided text. The quality and clarity of these figures cannot be assessed.
+  - **Required correction** Ensure that clinical images are of high resolution and that pedigrees clearly indicate affected status, gender, and generation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "synpolydactyly" is used consistently, but the abbreviation "SPD" is introduced without a clear definition at first use in the abstract.
+  - **Required correction** Define SPD at first use in the abstract and main text.
+- **Technical failings that need to be addressed before the case is established** 1) The functional evidence for I309F is limited to a single reporter assay with one target gene. 2) The severity scoring system is not validated or described in sufficient detail. 3) Statistical methods lack transparency regarding multiple testing and sample sizes. 4) Molecular dynamics simulation parameters are incompletely reported. 5) The literature review methodology lacks a clear screening and inclusion process.
+- **Assessment against Nature-style criteria** Originality: Moderate. The novel variant is a useful addition to the HOXD13 mutation spectrum, but the functional approach is not methodologically novel. Scientific importance: Moderate. The genotype-phenotype correlation has clinical utility, but the conclusions are limited by methodological weaknesses. Interdisciplinary readership: Limited. The manuscript is primarily of interest to clinical geneticists and developmental biologists. Technical soundness: Weak to moderate. The experimental design is reasonable but incomplete, and the statistical and computational analyses lack rigor. Readability for nonspecialists: Acceptable. The manuscript is generally well written, though some sections assume familiarity with genetic and biophysical concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a clinically relevant question and provides a potentially valuable dataset, but the current evidence is insufficient to fully establish the mechanistic claims and the genotype-phenotype correlations. Substantial revisions and additional experiments are required.
+
+## Risk / unsupported claims
+- The claim that I309F impairs downstream gene expression is supported by only one reporter assay and requires additional validation.
+- The claim that polyalanine extension mutations are associated with more severe phenotypes than other mutation types is based on an unvalidated severity scoring system and heterogeneous literature data.
+- The molecular dynamics simulation conclusions about polymerization energy and aggregation are not experimentally validated.
+- The ACMG pathogenicity classification for I309F is presented without full supporting evidence.
+- The statement that "we first revealed correlations between the location and types of mutations of HOXD13 and severities of the phenotypes" is a strong claim that may not be fully supported by the data presented.

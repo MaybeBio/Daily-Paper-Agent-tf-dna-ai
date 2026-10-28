@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends. Supplementary information referenced but not provided.
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript text. No assessment of data quality beyond what is described in the text.
+- **Shared manuscript claim summary** The authors report that fusing programmable zinc finger proteins (ZFPs) to miniature base editors (dCas12f- and OgeuIscB-derived) enhances editing efficiency and broadens targeting range. They further report that protein language models (PLMs) can optimize ZFP designs, and demonstrate therapeutic application in a mouse model of spinal muscular atrophy (SMA) via single-AAV delivery.
+- **Visible evidence base** Results sections describe experiments with high-throughput sequencing (HTS) data, RNA-seq off-target analysis, plasmid reporter assays, whole-genome sequencing (WGS), and in vivo mouse experiments. Figure legends reference Figures 1-6 and Supplementary Figures 1-19. Source data files are mentioned but not provided.
+- **Missing materials affecting confidence** Supplementary figures, supplementary data files (1-12), source data files, and detailed statistical outputs are not provided. This limits independent verification of effect sizes, variability, and reproducibility of key claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting strategy to improve miniature base editors by fusing programmable ZFPs, with a compelling in vivo demonstration. The core observation that ZFP fusion enhances editing efficiency and relaxes PAM constraints is potentially valuable. However, several technical concerns regarding the generalizability of the approach, the mechanistic explanation, and the robustness of the in vivo data need to be addressed. The PLM-guided optimization is a useful addition but its advantage over simpler design rules is not fully demonstrated.
+- **Who would be interested in the results, and why** Researchers in genome editing, particularly those developing therapeutic base editing approaches. The work is also relevant to those interested in engineering miniature CRISPR systems for AAV-based delivery and to computational biologists working on protein design with language models.
+- **Major strengths**
+  - The identification of a generalizable strategy (ZFP fusion) to improve miniature base editors is timely and addresses a key limitation in the field.
+  - The demonstration of therapeutic benefit in a mouse model of SMA using a single AAV vector is a significant advance over previous multi-vector approaches.
+  - The use of PLMs to streamline ZFP optimization is a forward-looking approach that could reduce experimental burden.
+  - The off-target analysis, including RNA-seq and WGS, is a welcome addition to the characterization of these editors.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that ZFP fusion enhances editing efficiency by 1.3 to 128-fold across loci.
+    - **Evidence pointer** Figure 1b-d, Supplementary Figure 1d-g
+    - **Concern** The fold-enhancement range is extremely broad (1.3 to 128-fold). The manuscript does not provide a clear explanation for this variability. Is it related to the ZFP binding site location, chromatin context, or the specific ZFP used? Without a systematic analysis of what determines the magnitude of enhancement, it is difficult to predict when this strategy will be effective.
+    - **Why it matters** The utility of the approach depends on its predictability. If the enhancement is highly variable and unpredictable, it limits the practical application of the technology.
+    - **Resolution test** Provide a systematic analysis correlating the fold-enhancement with parameters such as ZFP binding site position relative to the protospacer, local chromatin state, or ZFP affinity. Show that the strategy works consistently across a larger panel of loci with diverse characteristics.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that ZFP fusion relaxes the PAM requirement from TTTR to NTTR and TTTN.
+    - **Evidence pointer** Figure 2a-c
+    - **Concern** The data show that ZFP fusion enables editing at sites with non-cognate PAMs. However, the efficiency at these non-cognate PAM sites is significantly lower than at cognate PAM sites (e.g., TTTC is ~60% less efficient). The claim of "relaxing" the PAM requirement is technically correct but may be misleading. The manuscript should clarify whether the editing at non-cognate PAMs is therapeutically relevant, given the reduced efficiency.
+    - **Why it matters** The therapeutic utility of a relaxed PAM is only meaningful if the editing efficiency at those sites is sufficient to achieve a clinical benefit.
+    - **Resolution test** Provide a clear threshold for what constitutes a therapeutically relevant editing efficiency. Show that the non-cognate PAM sites can be edited at levels that would be expected to have a phenotypic impact, using a relevant disease model.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that PLM-guided optimization simplifies the engineering of efficient ZFPs.
+    - **Evidence pointer** Figure 5a-e
+    - **Concern** The PLM optimization is demonstrated on a single ZFP (targeting DMD-site 5). The improvement from combining top variants is modest (2.78-fold over the unoptimized ZFP). It is unclear if this approach is generalizable to other ZFPs and if the improvement is significantly better than what could be achieved with simple rational design or directed evolution.
+    - **Why it matters** The claim of a "versatile platform" requires demonstration across multiple targets. The modest improvement on a single target does not strongly support the general utility of the PLM approach.
+    - **Resolution test** Apply the PLM-guided optimization to at least 3-5 different ZFPs targeting different loci. Show that the approach consistently identifies improved variants and that the improvement is superior to a baseline of random or rational mutations.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that zmBE treatment alleviates SMA phenotypes in a mouse model.
+    - **Evidence pointer** Figure 6j-k, Supplementary Figure 18a-b
+    - **Concern** The in vivo data show a median survival extension from 21 to 28 days. While statistically significant, the therapeutic benefit is modest. The manuscript does not report on other functional outcomes, such as motor neuron survival, muscle morphology, or behavioral tests beyond the righting reflex. The claim of "alleviating SMA" is based on a single, relatively crude measure.
+    - **Why it matters** A more comprehensive phenotypic assessment is needed to support the claim of therapeutic benefit and to compare the efficacy of this approach with other treatments.
+    - **Resolution test** Include additional functional and histological analyses, such as motor neuron counts in the spinal cord, muscle fiber size, and a more detailed behavioral assessment (e.g., grip strength, open field test).
+  - **R1-M5**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The claim that zmBE is a "versatile platform" for developing miniature base editors.
+    - **Evidence pointer** Figures 1-4
+    - **Concern** The manuscript demonstrates the strategy on two miniature CRISPR systems (Un1Cas12f1 and OgeuIscB). It is not clear if the strategy would work with other miniature systems, such as TnpB or Cas9-like nucleases. The claim of a "versatile platform" is an extrapolation from a limited set of examples.
+    - **Why it matters** The broader impact of the work depends on its applicability to a wide range of miniature editors.
+    - **Resolution test** Demonstrate the ZFP fusion strategy on at least one additional miniature CRISPR system (e.g., TnpB-based editor) to support the claim of versatility.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Figure 1a
+    - **Evidence pointer** Figure 1a
+    - **Issue** The schematic in Figure 1a is complex and difficult to follow. The different designs (1-6) are not clearly labeled in the main text.
+    - **Required correction** Simplify the schematic and ensure each design is clearly labeled and referenced in the text.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods, "Statistics and reproducibility"
+    - **Evidence pointer** Methods section
+    - **Issue** The statistical methods are listed, but it is not always clear which test was used for which figure panel.
+    - **Required correction** Add a supplementary table summarizing the statistical tests used for each figure panel, including exact p-values.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Figure 3i
+    - **Evidence pointer** Figure 3i
+    - **Issue** The violin plot in Figure 3i shows off-target/on-target ratios, but the number of data points and the specific loci are not clearly indicated.
+    - **Required correction** Add a clear legend indicating the number of loci and the specific loci represented in the plot.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion section
+    - **Issue** The discussion of the mechanism (kinetic barrier to R-loop formation) is speculative and not directly tested.
+    - **Required correction** Clearly label this as a hypothesis and suggest experiments that could test it.
+  - **R1-m5**
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods, "PLM-guided design of ZFPs"
+    - **Evidence pointer** Methods section
+    - **Issue** The details of the PLM implementation are sparse. It is not clear how the "top variants" were selected and what the ranking criteria were.
+    - **Required correction** Provide more details on the PLM implementation, including the exact model parameters, the scoring function, and the selection threshold.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (variability of fold-enhancement)
+  - R1-M2 (therapeutic relevance of relaxed PAM)
+  - R1-M3 (generalizability of PLM approach)
+  - R1-M4 (comprehensive in vivo phenotyping)
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of fusing ZFPs to miniature base editors is a novel and creative solution to a known problem. The use of PLMs for ZFP optimization is also a fresh application of existing tools. The work is sufficiently distinct from prior art.
+  - **Scientific importance** The work addresses a critical bottleneck in the field of therapeutic base editing: the delivery of large editors via AAV. The demonstration of a single-vector approach for SMA is a significant step forward. However, the modest in vivo efficacy and the limited demonstration of generalizability temper the immediate impact.
+  - **Interdisciplinary readership** The work will appeal to a broad audience in genome editing, gene therapy, and protein engineering. The use of PLMs will also attract computational biologists. The clear writing and logical structure make it accessible to nonspecialists.
+  - **Technical soundness** The core experiments appear well-designed, but the lack of detailed data (supplementary files) and the concerns about variability and generalizability prevent a full assessment of technical soundness. The in vivo data, while positive, are not comprehensive.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the figures are informative. The abstract is clear. The methods are detailed, though some sections (e.g., PLM implementation) could be clearer for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the in vivo demonstration is valuable. However, the concerns about the predictability of the enhancement, the generalizability of the PLM approach, and the comprehensiveness of the in vivo phenotyping need to be addressed before the claims are fully established.
+
+## Risk / unsupported claims
+- The claim that zmBE is a "versatile platform" is not fully supported, as it is only demonstrated on two miniature CRISPR systems.
+- The claim that PLM-guided optimization "simplifies" the engineering process is not strongly supported, as the improvement is modest and only shown on one target.
+- The claim that ZFP fusion "relaxes" the PAM requirement is technically correct but may be overstated, as the efficiency at non-cognate PAMs is significantly reduced.
+- The mechanistic explanation (kinetic barrier to R-loop formation) is speculative and not directly tested.
+- The in vivo claim of "alleviating SMA" is based on a limited set of outcome measures (survival and righting reflex) and would benefit from more comprehensive phenotyping.

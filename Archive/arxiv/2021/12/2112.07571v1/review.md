@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint arXiv:2112.07571v1), including main text, methods, and supplementary materials description.
+- **Assessment boundary** Scientific claims, methodology, experimental design, and reported results as presented in the provided manuscript. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors introduce EBERT, a BERT-based language model pre-trained on paired DNA sequence and epigenetic state (IDEAS36) data across 127 cell types, enabled by the Cerebras CS-1 system. They claim that including epigenetic information improves downstream performance on cell type-specific transcription factor binding prediction, and that their fine-tuned model (EBERT+) is competitive with state-of-the-art ENCODE-DREAM leaderboard entries.
+- **Visible evidence base** Main text Sections 1-5, Methods Section 2, Results Section 3, Figure references (Figures 1, 3, 4, S1), Table 1, Table S1, Table S2, and supplementary data descriptions.
+- **Missing materials affecting confidence** Actual figures and tables (only referenced, not shown), full hyperparameter table (Table S2), underlying data for Figure 4 (Table S1), code repository access, and detailed training curves or loss convergence plots.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting extension of genomic language models by incorporating epigenetic state information alongside DNA sequence, and demonstrates a practical use case in transcription factor binding prediction. The use of the Cerebras CS-1 system for large-scale pre-training is a notable technical contribution. However, the evidence provided is incomplete in several critical areas: key figures and tables are not included, the comparison to existing methods is limited, and the statistical significance of performance differences is not established. The core claim that epigenetic information improves transfer learning is plausible but not rigorously demonstrated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational genomics, regulatory genomics, and machine learning applied to biology would be interested. The work addresses a gap in genomic language models by incorporating cell type-specific epigenetic context, which is relevant for understanding gene regulation. The demonstration of large-scale pre-training on specialized hardware may also interest those working on scaling biological sequence models.
+- **Major strengths** 1) Novel integration of epigenetic state data into a Transformer language model pre-training framework, addressing a recognized limitation of sequence-only models. 2) Large-scale pre-training across 127 cell types enabled by Cerebras hardware, representing a significant computational achievement. 3) Clear framing of three specific research questions that guide the experimental design. 4) Use of a well-established benchmark (ENCODE-DREAM) for downstream evaluation, allowing comparison to prior work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that EBERT+ is competitive with state-of-the-art models, ranking 3rd overall on the ENCODE-DREAM leaderboard, and that performance improvements are observed across datasets.
+  - **Evidence pointer** Section 3.5, Table 1, Figure 3, Figure 4
+  - **Concern** The key results supporting the central claims are not visible in the provided manuscript. Figures 3 and 4, which summarize AUPRC values and pairwise comparisons, are referenced but not included. Table 1, which shows per-dataset rankings, is also absent. Without these visualizations and data tables, the reader cannot verify the magnitude of reported improvements, the consistency across datasets, or the validity of the ranking claims.
+  - **Why it matters** The core scientific contribution hinges on demonstrating that epigenetic information improves performance. Without the actual data, the claims are unverifiable and the manuscript cannot be properly evaluated.
+  - **Resolution test** Include all referenced figures and tables in the manuscript. Provide clear axis labels, error bars or confidence intervals where appropriate, and ensure the data directly support the stated numerical claims (e.g., median AUPRC values, ranking positions).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript states that EBERT+ outperforms other models on 4/13 datasets and achieves an overall rank of 3rd, and that performance improvements from epigenetic features and auxiliary features are consistent.
+  - **Evidence pointer** Section 3.2, Section 3.3, Section 3.4, Figure 4
+  - **Concern** No statistical analysis is presented to support the claim that observed performance differences are significant. The manuscript reports average improvements (e.g., 0.21 AUPRC for CTCF with auxiliary features) but does not provide confidence intervals, standard errors, or significance tests. Given the variability expected in biological datasets, these differences could be within noise.
+  - **Why it matters** Without statistical validation, the reader cannot distinguish genuine improvements from random variation. This is particularly important for a claim of state-of-the-art performance.
+  - **Resolution test** Perform and report statistical significance testing (e.g., paired tests across datasets or bootstrapped confidence intervals) for all key comparisons. Report effect sizes with uncertainty measures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison to baselines
+  - **Claim pointer** The manuscript claims that EBERT+ is competitive with leading models in the literature and outperforms them on some datasets.
+  - **Evidence pointer** Section 3.5, Table 1
+  - **Concern** The comparison to state-of-the-art is limited to a small set of models (the top 3 from ENCODE-DREAM plus DeepGRN). The manuscript does not describe the training setup, hyperparameters, or any adaptations made to these baseline models for fair comparison. It is unclear whether the comparison is apples-to-apples, particularly regarding input features (e.g., whether baselines also used DNase-seq and mappability).
+  - **Why it matters** A fair comparison is essential to support the claim of competitive or superior performance. Without details on baseline configurations, the ranking could be misleading.
+  - **Resolution test** Provide full details of all baseline models, including their training procedures, hyperparameters, and input features. Ensure that comparisons are made under equivalent conditions, or clearly state and justify any differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Ablation and attribution
+  - **Claim pointer** The manuscript attributes performance gains to the inclusion of epigenetic information (IDEAS) during pre-training and to auxiliary features during fine-tuning.
+  - **Evidence pointer** Section 3.3, Section 3.4, Figure 4
+  - **Concern** The manuscript does not include a systematic ablation study. While DBERT (DNA-only) is compared to EBERT (DNA+IDEAS), the contribution of IDEAS during pre-training versus fine-tuning is not disentangled. For example, it is unclear whether the improvement comes from the pre-trained representations or from the IDEAS input at fine-tuning time. Additionally, the effect of the modified masking strategy on IDEAS tokens is not evaluated.
+  - **Why it matters** Understanding which component drives the improvement is critical for the scientific contribution and for guiding future work. Without ablations, the mechanism of improvement remains unclear.
+  - **Resolution test** Include ablation experiments that isolate the contribution of (a) IDEAS during pre-training, (b) IDEAS during fine-tuning, and (c) the masking strategy. Report performance for each configuration.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes the pre-training and fine-tuning procedures in general terms but lacks sufficient detail for replication.
+  - **Evidence pointer** Section 2.1, Section 2.2, Supplementary Section 2
+  - **Concern** Key hyperparameters (e.g., learning rate schedule, warmup steps, batch size for fine-tuning, number of training steps, optimizer settings) are not fully specified in the main text. The supplementary Table S2 is referenced but not provided. The code is not mentioned as being available. The Cerebras-specific implementation details are also not described in sufficient depth.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without complete experimental details and code access, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide a complete hyperparameter table, detailed training procedures, and make the code publicly available. Include specific instructions for reproducing the pre-training and fine-tuning experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, loss function description
+  - **Evidence pointer** Section 2.1
+  - **Issue** The loss function equation is referenced but not displayed in the text. The description of the weighted cross entropy loss is incomplete without the actual equation.
+  - **Required correction** Include the full equation for the total loss, clearly defining all variables and the weighting term α.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, pre-training speedup claims
+  - **Evidence pointer** Section 3.1
+  - **Issue** The claim that pre-training on Cerebras took "under 2 days" for DBERT and "~2.5 days" for EBERT is presented without a clear comparison baseline. The estimated GPU time of "~24 days" is mentioned but the basis for this estimate is not detailed.
+  - **Required correction** Provide a clear comparison table or description of the GPU baseline, including hardware specifications and the estimation methodology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.6, impact of pre-training
+  - **Evidence pointer** Section 3.6, Figure S1
+  - **Concern** The claim that pre-training improves performance is supported by a single supplementary figure. The magnitude of improvement and the number of random initializations tested are not reported.
+  - **Required correction** Report the performance difference quantitatively and state the number of random seeds used. Consider showing learning curves or convergence behavior.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction cites several related works but does not clearly position this work relative to recent advances in genomic language models, particularly those that also incorporate epigenetic or chromatin data.
+  - **Required correction** Expand the related work discussion to explicitly state what is novel about this approach compared to existing models that use similar data types.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.2, metric choice
+  - **Evidence pointer** Section 3.2
+  - **Issue** The manuscript states that AUPRC is the most informative metric due to class imbalance, but does not report the class imbalance ratio or justify this choice quantitatively.
+  - **Required correction** Report the positive-to-negative ratio in the datasets and provide a brief justification for focusing on AUPRC over other metrics.
+
+## Risk / unsupported claims
+- The claim that EBERT+ achieves an overall rank of 3rd on the ENCODE-DREAM leaderboard is unverifiable without Table 1 and the full leaderboard data.
+- The claim that pre-training on Cerebras is significantly faster than GPU-based training is not rigorously supported, as the GPU baseline estimate methodology is not described.
+- The claim that epigenetic information improves transfer learning is not statistically validated.
+- The claim that the model can generalize to unseen cell types is not directly tested, as all fine-tuning experiments appear to use cell types present in the pre-training data.
+- The claim that EBERT is the "first" genomic language model trained with both genetic and epigenetic information is not substantiated with a comprehensive literature search.
+- The performance improvements attributed to IDEAS versus auxiliary features are not disentangled through ablation studies.

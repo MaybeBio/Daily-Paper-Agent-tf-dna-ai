@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose that BVDV E2 hijacks host TSG101 to promote transplacental transmission by regulating exosome biogenesis and release in bovine trophoblast cells (BTCs). They report that BVDV infection induces cytopathic effects, packages viral particles in exosomes, upregulates TSG101 and exosomal CD63, and that TSG101 colocalizes and interacts with BVDV E2. Knockdown of TSG101 suppresses viral proliferation and exosome-mediated transmission. Molecular docking and 100-ns MD simulation predict a stable E2-TSG101 complex with key residues, and specific TSG101 mutations differentially affect viral replication.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, figure legends, or supplementary information were provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, validation of knockdown efficiency, exosome characterization data, MD simulation parameters and convergence criteria, and any in vivo or transplacental transmission data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism linking BVDV E2 to TSG101 and exosome-mediated viral transmission in trophoblast cells. However, the evidence base is limited to a summary of findings without methodological detail, making it impossible to assess the rigor of the experimental approaches, the robustness of the data, or the strength of the conclusions. The claim of a role in transplacental transmission is not supported by any direct experimental evidence in the abstract. The molecular docking and MD simulation results are described without sufficient context to evaluate their validity. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in veterinary virology, particularly those studying pestiviruses and reproductive disorders in cattle, would be interested. Investigators working on ESCRT machinery, exosome biology, and virus-host interactions at the maternal-fetal interface may also find the proposed mechanism relevant. The potential translational angle of targeting TSG101 to limit vertical transmission could interest those developing antiviral strategies for livestock.
+- **Major strengths** The study addresses a clinically important problem, namely BVDV-induced reproductive failure, and proposes a specific molecular mechanism involving a well-known host factor. The combination of cellular assays, protein interaction studies, and computational approaches is potentially complementary. The identification of specific TSG101 residues that differentially affect viral replication offers a testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for the central claim
+  - **Claim pointer** The abstract states that BVDV E2 hijacks host TSG101 to facilitate transplacental transmission by regulating exosome biogenesis and release.
+  - **Evidence pointer** Abstract, overall; no specific section or figure referenced
+  - **Concern** The central claim of transplacental transmission is not supported by any direct experimental evidence described in the abstract. The study uses BTCs as an in vitro model, but no in vivo experiments, placental explant models, or transmission studies are mentioned. The link between exosome-mediated viral spread in cultured cells and actual transplacental transmission in animals is inferred rather than demonstrated.
+  - **Why it matters** The title and the concluding statement emphasize transplacental transmission, which is a physiological process involving multiple cell types and tissue barriers. In vitro data on trophoblast cells alone cannot establish this claim. Overstating the translational relevance without direct evidence weakens the scientific case.
+  - **Resolution test** Provide in vivo or ex vivo evidence of TSG101-dependent BVDV transmission across the placenta, or revise the claims to be limited to exosome-mediated spread in BTCs without asserting transplacental transmission.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation of key reagents and methods
+  - **Claim pointer** The abstract states that TSG101 knockdown suppressed BVDV proliferation and exosome-mediated transmission, and impaired CD63 trafficking into exosomes.
+  - **Evidence pointer** Abstract, results summary; location not provided
+  - **Concern** No details are provided on the knockdown approach, efficiency, specificity, or off-target effects. The characterization of exosomes is not described, including isolation methods, purity, size distribution, or markers. The functional assay for exosome-mediated transmission is not defined. Without these details, the reliability of the key functional data cannot be assessed.
+  - **Why it matters** The conclusions depend heavily on the validity of the knockdown and exosome experiments. If the knockdown is partial or off-target, or if the exosome preparations are contaminated with other vesicles, the interpretation of the results would be compromised.
+  - **Resolution test** Provide full methods for knockdown validation, exosome isolation and characterization, and the transmission assay, including appropriate controls and statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational evidence quality
+  - **Claim pointer** The abstract states that molecular docking and 100-ns MD simulation showed that E2 and TSG101 formed a stable binding complex, with key interacting residues identified at the contact surface.
+  - **Evidence pointer** Abstract, results summary; location not provided
+  - **Concern** The abstract provides no information on the structural templates used, the docking algorithm, the scoring function, the force field for MD, the system setup, or the criteria for stability. A 100-ns simulation is relatively short for drawing conclusions about binding stability, and no convergence or replicate information is given. The functional relevance of the identified residues is only partially tested with mutations.
+  - **Why it matters** Computational predictions are only as reliable as their setup and validation. Without methodological transparency, the reader cannot judge whether the predicted complex and key residues are credible or artifacts of the chosen parameters.
+  - **Resolution test** Provide detailed methods for docking and MD, including validation against known structures if available, and show that the simulation has converged. Ideally, support the computational predictions with additional experimental mutagenesis data beyond the three mutations mentioned.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data and statistical rigor
+  - **Claim pointer** The abstract states that BVDV infection caused obvious cytopathic effects, upregulated TSG101 and exosomal CD63, and that specific TSG101 mutations exerted distinct effects on viral replication.
+  - **Evidence pointer** Abstract, results summary; location not provided
+  - **Concern** No quantitative data, effect sizes, or statistical measures are reported. Terms such as "obvious," "upregulated," "suppressed," and "distinct effects" are qualitative. The reader cannot assess the magnitude or significance of the observed changes.
+  - **Why it matters** Quantitative rigor is essential for evaluating the strength of the findings. Without numbers and statistics, the claims remain anecdotal and cannot be compared with other studies.
+  - **Resolution test** Include quantitative results with appropriate statistical tests, effect sizes, and confidence intervals for all key experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "hijacks" in the title and abstract
+  - **Evidence pointer** Title and abstract
+  - **Issue** The term "hijacks" is informal and implies a specific mechanism that is not fully demonstrated. The abstract shows colocalization, interaction, and functional dependence, but the molecular details of how E2 "hijacks" TSG101 are not fully explained.
+  - **Required correction** Use more neutral language such as "recruits" or "interacts with" unless the mechanistic detail of hijacking is explicitly shown.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of the model
+  - **Affected element** The proposed mechanism linking TSG101, exosomes, and transmission
+  - **Evidence pointer** Abstract, overall
+  - **Issue** The abstract does not clarify whether TSG101 acts primarily in exosome biogenesis, cargo sorting, or viral assembly, and how these processes are connected to transmission. The relationship between CD63 trafficking and viral packaging is not explained.
+  - **Required correction** Provide a clearer mechanistic model in the abstract or indicate where this is presented in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** The relevance of findings to other cell types or in vivo conditions
+  - **Evidence pointer** Abstract, overall
+  - **Issue** The study is limited to BTCs, and the abstract does not discuss whether the findings are specific to this cell type or generalizable to other placental cells or tissues.
+  - **Required correction** Add a sentence addressing the potential limitations of the cell model or indicate plans for validation in other systems.
+
+## Risk / unsupported claims
+- The claim that BVDV E2 hijacks TSG101 to facilitate transplacental transmission is unsupported by direct evidence in the abstract; no in vivo or ex vivo transmission data are presented.
+- The claim that exosomes serve as viral transmission carriers mediating immune evasion is stated as background but not experimentally demonstrated in the abstract.
+- The functional significance of the specific TSG101 mutations (Y110K, K118A, E284A) is described qualitatively without quantitative data.
+- The stability of the E2-TSG101 complex from MD simulation is not assessable without methodological details and convergence criteria.
+- The statement that targeting TSG101 could limit BVDV vertical transmission is speculative and not supported by the presented evidence.

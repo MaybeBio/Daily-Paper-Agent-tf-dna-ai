@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "42385431",
+    "doi": "10.1016/j.phymed.2026.158493",
+    "title": "Shemazhichuan liquid alleviates airway remodeling by modulating mitochondrial dysfunction via the EIF4E/HIF-1alpha/ROS pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Airway remodeling is a pivotal pathological driver of asthma progression. Shemazhichuan Liquid (SMZCL), a traditional Chinese herbal formulation, has demonstrated clinical efficacy against asthma, but its underlying molecular mechanisms, particularly regarding airway remodeling, remain to be fully elucidated. PURPOSE: This study aimed to evaluate the therapeutic effects of SMZCL on airway remodeling in asthma and to elucidate the potential molecular mechanisms involved. METHODS: A house dust mite (HDM)-induced asthma mouse model and an epithelial-mesenchymal transition (EMT) cell model were used to evaluate the effects of SMZCL. Histological, biochemical and molecular analyses were performed to assess airway inflammation and remodeling. The chemical constituents of SMZCL were characterized by UHPLC-MS/MS, while network pharmacology and bioinformatics were used to predict key targets and pathways, which were further validated in vivo and in vitro. The functional role of EIF4E was further investigated using AAV-mediated shRNA knockdown in mouse lungs. RESULTS: SMZCL alleviated key asthmatic hallmarks, including inflammatory cell infiltration, mucus secretion, and collagen deposition. It also reduced serum IgE levels, pulmonary cytokine/chemokine profiles, and leukocyte counts in bronchoalveolar lavage fluid (BALF), alongside decreasing airway resistance (RI) and improving lung compliance (Cdyn). Furthermore, SMZCL effectively suppressed the EMT process. A total of 162 chemical constituents were identified, and the key targets were predominantly enriched in mitochondrial, oxidative stress and the HIF-1alpha signaling pathway, with EIF4E emerging as a top candidate. Molecular docking and surface plasmon resonance (SPR) confirmed a strong binding affinity between EIF4E and two SMZCL-derived compounds, irisflorentin and irigenin. Functional studies further demonstrated that SMZCL mitigated mitochondrial structural damage, enhanced ATP content, mtDNA copy number, and mitochondrial membrane potential, thereby ameliorating mitochondrial dysfunction. In addition, SMZCL reduced oxidative stress by reducing EIF4E/HIF-1alpha/ROS signaling cascade (evidenced by decreased p-EIF4E, HIF-1alpha, ROS, p-p65, p-IkappaBalpha, IL-6, and TNF-alpha), leading to reduced levels of 8-OHdG and MDA, while increasing SOD and GPx activity. Notably, AAV-mediated EIF4E silencing mimicked the protective effects of SMZCL by inhibiting the EIF4E/HIF-1alpha/ROS signaling axis, thereby restoring mitochondrial dysfunction, suppressing oxidative stress and EMT progression to attenuate airway remodeling. CONCLUSION: SMZCL attenuates airway remodeling in asthma by suppressing EMT, a process mediated through the inhibition of the EIF4E/HIF-1alpha/ROS signaling axis, thereby improving mitochondrial dysfunction and reducing oxidative stress. These findings position SMZCL as a promising therapeutic candidate for asthma airway remodeling.",
+    "keywords": [
+      "Airway remodeling",
+      "Asthma",
+      "EIF4E/HIF-1alpha/ROS signaling axis",
+      "EMT",
+      "Mitochondrial dysfunction",
+      "Shemazhichuan liquid"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Airway Remodeling/drug effects",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "*Asthma/drug therapy/metabolism",
+      "Mice",
+      "Reactive Oxygen Species/metabolism",
+      "*Mitochondria/drug effects/metabolism",
+      "*Eukaryotic Initiation Factor-4E/metabolism",
+      "Signal Transduction/drug effects",
+      "Disease Models, Animal",
+      "Epithelial-Mesenchymal Transition/drug effects",
+      "Mice, Inbred BALB C",
+      "Oxidative Stress/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Miaofen",
+        "Wang, Ting",
+        "Rao, Ling",
+        "Huang, Huiting",
+        "Liao, Gang",
+        "Liang, Huiqiu",
+        "Peng, Xiaoyun",
+        "Luo, Zhiyan",
+        "Jiang, Yong",
+        "Zhan, Shaofeng",
+        "Huang, Xiufang"
+      ],
+      "short_names": [
+        "Zhang M",
+        "Wang T",
+        "Rao L",
+        "Huang H",
+        "Liao G",
+        "Liang H",
+        "Peng X",
+        "Luo Z",
+        "Jiang Y",
+        "Zhan S",
+        "Huang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China; State Key Laboratory of Traditional Chinese Medicine, Guangzhou, China; Nanfang Hospital, Southern.Medical University, Guangzhou, China.",
+        "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China; State Key Laboratory of Traditional Chinese Medicine, Guangzhou, China; Lingnan Medical Research Centre of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou, China; Guangdong Engineering Research Center of Commercialization of Medical Institution Preparations and Traditional Chinese Medicines, Guangzhou, China.",
+        "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China; State Key Laboratory of Traditional Chinese Medicine, Guangzhou, China; Lingnan Medical Research Centre of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou, China; Guangdong Engineering Research Center of Commercialization of Medical Institution Preparations and Traditional Chinese Medicines, Guangzhou, China.",
+        "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China.",
+        "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China.",
+        "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China.",
+        "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China.",
+        "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China. Electronic address: jiangyongszzxy@163.com.",
+        "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China. Electronic address: zsfstone@163.com.",
+        "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China; State Key Laboratory of Traditional Chinese Medicine, Guangzhou, China; Lingnan Medical Research Centre of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou, China; Guangdong Engineering Research Center of Commercialization of Medical Institution Preparations and Traditional Chinese Medicines, Guangzhou, China. Electronic address: 879172531@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Miaofen",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China; State Key Laboratory of Traditional Chinese Medicine, Guangzhou, China; Nanfang Hospital, Southern·Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ting",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China; State Key Laboratory of Traditional Chinese Medicine, Guangzhou, China; Lingnan Medical Research Centre of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou, China; Guangdong Engineering Research Center of Commercialization of Medical Institution Preparations and Traditional Chinese Medicines, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Rao, Ling",
+        "short_name": "Rao L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China; State Key Laboratory of Traditional Chinese Medicine, Guangzhou, China; Lingnan Medical Research Centre of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou, China; Guangdong Engineering Research Center of Commercialization of Medical Institution Preparations and Traditional Chinese Medicines, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Huiting",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Gang",
+        "short_name": "Liao G",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Huiqiu",
+        "short_name": "Liang H",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Xiaoyun",
+        "short_name": "Peng X",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zhiyan",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yong",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China. Electronic address: jiangyongszzxy@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhan, Shaofeng",
+        "short_name": "Zhan S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China. Electronic address: zsfstone@163.com."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiufang",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China; State Key Laboratory of Traditional Chinese Medicine, Guangzhou, China; Lingnan Medical Research Centre of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou, China; Guangdong Engineering Research Center of Commercialization of Medical Institution Preparations and Traditional Chinese Medicines, Guangzhou, China. Electronic address: 879172531@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/02 00:34",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42385431",
+      "42372812",
+      "41427969",
+      "41038330",
+      "39694425",
+      "39515107",
+      "39393303",
+      "40397997",
+      "42173417",
+      "41866771",
+      "39994309",
+      "41461326",
+      "31473579",
+      "41570784",
+      "40752597",
+      "40088742",
+      "41875736",
+      "41667044",
+      "41038145",
+      "41786057",
+      "41513009",
+      "41317810",
+      "41420736",
+      "39671785",
+      "42216030",
+      "42261783",
+      "41547068",
+      "40433398",
+      "41485460",
+      "40252437",
+      "30798140",
+      "37451150",
+      "32795904",
+      "22942681",
+      "38373665",
+      "22692279",
+      "38168709",
+      "41791616",
+      "38824434",
+      "40896538",
+      "40088688",
+      "38807596",
+      "40450983",
+      "42112343",
+      "42214569",
+      "41184109",
+      "32145582",
+      "41485291",
+      "41980628",
+      "41972189",
+      "39423479",
+      "40330488",
+      "41508216",
+      "39923957",
+      "40390209",
+      "42302946",
+      "41495772",
+      "42424674",
+      "41660626",
+      "40684819",
+      "40885323",
+      "34785105",
+      "41937438",
+      "42044776",
+      "41723162",
+      "40350824",
+      "37655452",
+      "40263524",
+      "39733799",
+      "41344517",
+      "30092299",
+      "38626646",
+      "27746262",
+      "39616733",
+      "41621761",
+      "32565308",
+      "36100847",
+      "39625494",
+      "41756284",
+      "41237867",
+      "34804018",
+      "41997436",
+      "39393558",
+      "41135618",
+      "23935964",
+      "40976048",
+      "41791618",
+      "40280374",
+      "41242748",
+      "41423159",
+      "42341856",
+      "41924773",
+      "41759267",
+      "39652899",
+      "41800106",
+      "40616980",
+      "40946659",
+      "30334401",
+      "39462230",
+      "40485525"
+    ],
+    "review": [
+      "42385431"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00715-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

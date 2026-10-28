@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "42007520",
+    "doi": "10.1093/bib/bbag182",
+    "title": "NyxBind: enhancing deep neural representations for transcription factor binding site prediction via contrastive learning."
+  },
+  "content": {
+    "abstract": "Although pretrained genomic language models effectively capture general DNA sequence patterns through masked language modeling, they often struggle to discriminate subtle yet biologically critical differences among transcription factor binding site (TFBS) motifs. Recent studies suggest that contrastive learning can enhance the discriminative power of embeddings by explicitly modeling inter-instance similarities and differences. Building on this insight, we introduce NyxBind, a TFBS prediction model that applies contrastive learning across multiple TFBS types to enhance regulatory sequence representations. Across 159 TFBS prediction tasks, NyxBind achieves the best performance on all evaluation metrics and improves Matthews Correlation Coefficient by 4.71 percentage points over DNABERT2. NyxBind supports both full-parameter and parameter-efficient fine-tuning while maintaining strong performance. It also enables accurate motif visualization, with results closely matching experimentally validated transcription factor binding profiles.",
+    "keywords": [
+      "contrastive learning",
+      "genomic foundation model",
+      "transcription factor binding site"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Transcription Factors/metabolism",
+      "*Neural Networks, Computer",
+      "*Computational Biology/methods",
+      "Humans",
+      "Protein Binding",
+      "*Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Xu",
+        "Xiao, Qingfa",
+        "Xu, Yucheng",
+        "Yang, Jixin",
+        "Hou, Yusen",
+        "Long, Weicai",
+        "Huang, Miaojun",
+        "Zhang, Yanlin"
+      ],
+      "short_names": [
+        "Yang X",
+        "Xiao Q",
+        "Xu Y",
+        "Yang J",
+        "Hou Y",
+        "Long W",
+        "Huang M",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4002-443X"
+      ],
+      "affiliations": [
+        "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China.",
+        "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China.",
+        "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China.",
+        "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China.",
+        "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China.",
+        "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China.",
+        "College of Future Technology, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China.",
+        "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Xu",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Qingfa",
+        "short_name": "Xiao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yucheng",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jixin",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yusen",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Long, Weicai",
+        "short_name": "Long W",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Miaojun",
+        "short_name": "Huang M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Future Technology, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanlin",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-4002-443X"
+        ],
+        "affiliations": [
+          "Data Science and Analytics Thrust, Information Hub, The Hong Kong University of Science and Technology (Guangzhou), No. 1 Du Xue Road, Nansha District, Guangzhou 511455, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Mar 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/20 13:10",
+    "fetched_at": "2026-10-01 19:03:47"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40662829",
+      "40662791",
+      "40567809",
+      "39747647",
+      "39609566",
+      "39541441",
+      "39107889",
+      "38701417",
+      "37328639",
+      "34272562",
+      "33603233",
+      "33538820",
+      "31701148",
+      "29757349",
+      "29425488",
+      "27084946",
+      "26301843",
+      "26213851",
+      "24768519",
+      "23756045",
+      "23281567",
+      "20877328",
+      "20513432",
+      "19458158",
+      "18405375",
+      "15131651",
+      "7584402"
+    ],
+    "similar": [
+      "42007520",
+      "40914877",
+      "38701417",
+      "41257600",
+      "42099803",
+      "33522898",
+      "39214282",
+      "38216534",
+      "33137083",
+      "40102719",
+      "40702706",
+      "32770026",
+      "35652477",
+      "27896980",
+      "39623329",
+      "41634097",
+      "38733561",
+      "40889326",
+      "40411397",
+      "31372637",
+      "41042660",
+      "34272562",
+      "33603233",
+      "24926895",
+      "31336830",
+      "41977286",
+      "42475469",
+      "35042722",
+      "39701486",
+      "19586888",
+      "42239143",
+      "41762162",
+      "41527854",
+      "40334196",
+      "20360861",
+      "38848239",
+      "30447332",
+      "41920894",
+      "17914226",
+      "41290782",
+      "42163392",
+      "41627694",
+      "16362910",
+      "40646507",
+      "40065237",
+      "42157243",
+      "39227799",
+      "39107889",
+      "27567672",
+      "42145197",
+      "39576667",
+      "39076052",
+      "39667220",
+      "34534646",
+      "18533028",
+      "41329596",
+      "40601265",
+      "39776277",
+      "41294241",
+      "15807889",
+      "40919912",
+      "41257586",
+      "40197028",
+      "27045826",
+      "21912677",
+      "31186519",
+      "27106869",
+      "31856220",
+      "22748199",
+      "41601205",
+      "40601256",
+      "39350338",
+      "41035197",
+      "39695955",
+      "28849563",
+      "36155619",
+      "23272209",
+      "24927817",
+      "40742755",
+      "39174927",
+      "24091402",
+      "40728609",
+      "42248581",
+      "41325984",
+      "34073774",
+      "40862519",
+      "41385420",
+      "40754881",
+      "41608984",
+      "26816396",
+      "38171929",
+      "21533218",
+      "41231876",
+      "42398071",
+      "42146638",
+      "39488202",
+      "24586611",
+      "21059262",
+      "40545645",
+      "39240741"
+    ],
+    "review": [
+      "42007520",
+      "35652477",
+      "19586888",
+      "30447332",
+      "40728609"
+    ],
+    "pmc": [
+      "13093223"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42007520/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag182",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

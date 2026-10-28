@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "41060809",
+    "doi": "10.1016/j.xpro.2025.104130",
+    "title": "Protocol for tumor prognostic prediction, molecular stratification, and target discovery using a machine learning-driven approach."
+  },
+  "content": {
+    "abstract": "Accurate prediction of tumor prognosis, understanding molecular heterogeneity, and identifying druggable targets are critical for advancing precision oncology. Here, we present a protocol to analyze aging-associated prognosis and molecular heterogeneity in gastric tumors using a transcriptome-based, machine learning-driven approach. We describe procedures for developing a prognostic model using robust gene signature, identifying molecular subtypes, and building a machine learning classifier for subtype prediction. We further detail the inference of subtype-specific regulatory network and prioritization of druggable transcription factors through drug sensitivity analysis. For complete details on the use and execution of this protocol, please refer to Li et al.(1).",
+    "keywords": [
+      "Bioinformatics",
+      "Cancer",
+      "Computer sciences",
+      "Health Sciences",
+      "Systems biology"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "Prognosis",
+      "*Stomach Neoplasms/genetics/diagnosis",
+      "Gene Expression Profiling/methods",
+      "Transcriptome/genetics",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jiang",
+        "Hong, Xiaoning",
+        "Zhu, Zhongxu",
+        "Li, Jiang"
+      ],
+      "short_names": [
+        "Li J",
+        "Hong X",
+        "Zhu Z",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Clinical Big Data Research Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China. Electronic address: lijiang37@mail.sysu.edu.cn.",
+        "Clinical Big Data Research Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China.",
+        "Biomics Center, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, China. Electronic address: zhuzhongxu@him.cas.cn.",
+        "Clinical Big Data Research Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China; Shenzhen Key Laboratory of Chinese Medicine Active Substance Screening and Translational Research, Shenzhen, China. Electronic address: lijiang29@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jiang",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Big Data Research Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China. Electronic address: lijiang37@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hong, Xiaoning",
+        "short_name": "Hong X",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Big Data Research Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zhongxu",
+        "short_name": "Zhu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Biomics Center, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, China. Electronic address: zhuzhongxu@him.cas.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Jiang",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Big Data Research Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China; Shenzhen Key Laboratory of Chinese Medicine Active Substance Screening and Translational Research, Shenzhen, China. Electronic address: lijiang29@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "STAR protocols"
+    ],
+    "journal_abbrev": [
+      "STAR Protoc"
+    ],
+    "pub_date": "2025 Dec 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/08 18:33",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40256325",
+      "38304548",
+      "38212331",
+      "36659932",
+      "33119753",
+      "30478449",
+      "21684283"
+    ],
+    "similar": [
+      "41060809",
+      "32754268",
+      "40106435",
+      "41085794",
+      "38219153",
+      "38970792",
+      "34746868",
+      "38700505",
+      "39730893",
+      "40959076",
+      "30785874",
+      "41293156",
+      "41208987",
+      "41162968",
+      "41385380",
+      "39885324",
+      "40419032",
+      "35996248",
+      "40263498",
+      "41878416",
+      "30133128",
+      "41423668",
+      "39636731",
+      "39905263",
+      "41472745",
+      "41114433",
+      "40642093",
+      "41798945",
+      "41601657",
+      "38979602",
+      "41106221",
+      "40821828",
+      "40279206",
+      "40425785",
+      "40281016",
+      "41099090",
+      "39152432",
+      "40266079",
+      "39870964",
+      "40205350",
+      "41693709",
+      "38613794",
+      "41290867",
+      "39563200",
+      "33069062",
+      "40066454",
+      "40496857",
+      "40200221",
+      "41656832",
+      "41246350",
+      "39742262",
+      "40084401",
+      "40438115",
+      "39955536",
+      "41659855",
+      "39961214",
+      "40552290",
+      "28124598",
+      "38310388",
+      "40330458",
+      "39518911",
+      "40761790",
+      "35140202",
+      "40725485",
+      "40307780",
+      "29843660",
+      "41461700",
+      "35403003",
+      "40918470",
+      "41732133",
+      "41239365",
+      "41567216",
+      "40202838",
+      "40389469",
+      "41169384",
+      "39669558",
+      "41019083",
+      "39904894",
+      "39835132",
+      "41256856",
+      "40247223",
+      "35990741",
+      "37229622",
+      "39013324",
+      "40434726",
+      "39355255",
+      "31773340",
+      "40767620",
+      "40008534",
+      "27649552",
+      "39794414",
+      "40657391",
+      "34163003",
+      "41004487",
+      "38892067",
+      "23700391",
+      "39311993",
+      "41407509",
+      "32717065",
+      "34177954"
+    ],
+    "review": [
+      "41060809",
+      "30133128",
+      "29843660",
+      "38892067"
+    ],
+    "pmc": [
+      "12539303"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-1667(25)00536-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41060809/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

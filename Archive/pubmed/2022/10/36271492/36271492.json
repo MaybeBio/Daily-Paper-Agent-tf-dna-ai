@@ -1,0 +1,592 @@
+{
+  "identity": {
+    "pmid": "36271492",
+    "doi": "10.26508/lsa.202201568",
+    "title": "The human RNA polymerase I structure reveals an HMG-like docking domain specific to metazoans."
+  },
+  "content": {
+    "abstract": "Transcription of the ribosomal RNA precursor by RNA polymerase (Pol) I is a major determinant of cellular growth, and dysregulation is observed in many cancer types. Here, we present the purification of human Pol I from cells carrying a genomic GFP fusion on the largest subunit allowing the structural and functional analysis of the enzyme across species. In contrast to yeast, human Pol I carries a single-subunit stalk, and in vitro transcription indicates a reduced proofreading activity. Determination of the human Pol I cryo-EM reconstruction in a close-to-native state rationalizes the effects of disease-associated mutations and uncovers an additional domain that is built into the sequence of Pol I subunit RPA1. This \"dock II\" domain resembles a truncated HMG box incapable of DNA binding which may serve as a downstream transcription factor-binding platform in metazoans. Biochemical analysis, in situ modelling, and ChIP data indicate that Topoisomerase 2a can be recruited to Pol I via the domain and cooperates with the HMG box domain-containing factor UBF. These adaptations of the metazoan Pol I transcription system may allow efficient release of positive DNA supercoils accumulating downstream of the transcription bubble.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*RNA Polymerase I/genetics/metabolism",
+      "*RNA Precursors",
+      "Saccharomyces cerevisiae/metabolism",
+      "Transcription Factors/metabolism",
+      "DNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Daiss, Julia L",
+        "Pilsl, Michael",
+        "Straub, Kristina",
+        "Bleckmann, Andrea",
+        "Hocherl, Mona",
+        "Heiss, Florian B",
+        "Abascal-Palacios, Guillermo",
+        "Ramsay, Ewan P",
+        "Tluckova, Katarina",
+        "Mars, Jean-Clement",
+        "Furtges, Torben",
+        "Bruckmann, Astrid",
+        "Rudack, Till",
+        "Bernecky, Carrie",
+        "Lamour, Valerie",
+        "Panov, Konstantin",
+        "Vannini, Alessandro",
+        "Moss, Tom",
+        "Engel, Christoph"
+      ],
+      "short_names": [
+        "Daiss JL",
+        "Pilsl M",
+        "Straub K",
+        "Bleckmann A",
+        "Hocherl M",
+        "Heiss FB",
+        "Abascal-Palacios G",
+        "Ramsay EP",
+        "Tluckova K",
+        "Mars JC",
+        "Furtges T",
+        "Bruckmann A",
+        "Rudack T",
+        "Bernecky C",
+        "Lamour V",
+        "Panov K",
+        "Vannini A",
+        "Moss T",
+        "Engel C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0863-9840",
+        "ORCID: 0000-0002-3934-1131",
+        "ORCID: 0000-0002-6805-5927",
+        "ORCID: 0000-0001-6082-2944",
+        "ORCID: 0000-0003-1375-7814",
+        "ORCID: 0000-0003-2047-4783",
+        "ORCID: 0000-0001-8451-3599"
+      ],
+      "affiliations": [
+        "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany.",
+        "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany.",
+        "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany.",
+        "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany.",
+        "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany.",
+        "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany.",
+        "Division of Structural Biology, The Institute of Cancer Research, London, UK.",
+        "Biofisika Institute (CSIC, UPV/EHU), Leioa, Spain.",
+        "IKERBASQUE, Basque Foundation for Science, Bilbao, Spain.",
+        "Division of Structural Biology, The Institute of Cancer Research, London, UK.",
+        "Fondazione Human Technopole, Structural Biology Research Centre, Milan, Italy.",
+        "Institute of Science and Technology, Klosterneuburg, Austria.",
+        "Department of Molecular Biology, Medical Biochemistry and Pathology, Faculty of Medicine, Laval University, Quebec, Canada.",
+        "Laboratory of Growth and Development, St-Patrick Research Group in Basic Oncology, Cancer Division of the Quebec University Hospital Research Centre, Quebec, Canada.",
+        "Borden Laboratory, IRIC, Universite de Montreal, Montreal, Quebec, Canada.",
+        "Protein Crystallography, Department of Biophysics, Faculty of Biology and Biotechnology, Ruhr University Bochum, Bochum, Germany.",
+        "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany.",
+        "Protein Crystallography, Department of Biophysics, Faculty of Biology and Biotechnology, Ruhr University Bochum, Bochum, Germany.",
+        "Institute of Science and Technology, Klosterneuburg, Austria.",
+        "Universite de Strasbourg, CNRS, INSERM, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), Department of Integrated Structural Biology, Illkirch, France.",
+        "Hopitaux Universitaires de Strasbourg, Strasbourg, France.",
+        "School of Biological Sciences and PGJCCR, Queen's University Belfast, Belfast, UK.",
+        "Division of Structural Biology, The Institute of Cancer Research, London, UK.",
+        "Fondazione Human Technopole, Structural Biology Research Centre, Milan, Italy.",
+        "Department of Molecular Biology, Medical Biochemistry and Pathology, Faculty of Medicine, Laval University, Quebec, Canada.",
+        "Laboratory of Growth and Development, St-Patrick Research Group in Basic Oncology, Cancer Division of the Quebec University Hospital Research Centre, Quebec, Canada.",
+        "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany christoph.engel@ur.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Daiß, Julia L",
+        "short_name": "Daiß JL",
+        "identifiers": [],
+        "affiliations": [
+          "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Pilsl, Michael",
+        "short_name": "Pilsl M",
+        "identifiers": [],
+        "affiliations": [
+          "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Straub, Kristina",
+        "short_name": "Straub K",
+        "identifiers": [],
+        "affiliations": [
+          "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bleckmann, Andrea",
+        "short_name": "Bleckmann A",
+        "identifiers": [
+          "0000-0002-0863-9840"
+        ],
+        "affiliations": [
+          "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Höcherl, Mona",
+        "short_name": "Höcherl M",
+        "identifiers": [],
+        "affiliations": [
+          "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Heiss, Florian B",
+        "short_name": "Heiss FB",
+        "identifiers": [
+          "0000-0002-3934-1131"
+        ],
+        "affiliations": [
+          "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Abascal-Palacios, Guillermo",
+        "short_name": "Abascal-Palacios G",
+        "identifiers": [
+          "0000-0002-6805-5927"
+        ],
+        "affiliations": [
+          "Division of Structural Biology, The Institute of Cancer Research, London, UK.",
+          "Biofisika Institute (CSIC, UPV/EHU), Leioa, Spain.",
+          "IKERBASQUE, Basque Foundation for Science, Bilbao, Spain."
+        ]
+      },
+      {
+        "full_name": "Ramsay, Ewan P",
+        "short_name": "Ramsay EP",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Structural Biology, The Institute of Cancer Research, London, UK.",
+          "Fondazione Human Technopole, Structural Biology Research Centre, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Tlučková, Katarina",
+        "short_name": "Tlučková K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Science and Technology, Klosterneuburg, Austria."
+        ]
+      },
+      {
+        "full_name": "Mars, Jean-Clement",
+        "short_name": "Mars JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Medical Biochemistry and Pathology, Faculty of Medicine, Laval University, Quebec, Canada.",
+          "Laboratory of Growth and Development, St-Patrick Research Group in Basic Oncology, Cancer Division of the Quebec University Hospital Research Centre, Québec, Canada.",
+          "Borden Laboratory, IRIC, Université de Montréal, Montréal, Québec, Canada."
+        ]
+      },
+      {
+        "full_name": "Fürtges, Torben",
+        "short_name": "Fürtges T",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Crystallography, Department of Biophysics, Faculty of Biology and Biotechnology, Ruhr University Bochum, Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Bruckmann, Astrid",
+        "short_name": "Bruckmann A",
+        "identifiers": [
+          "0000-0001-6082-2944"
+        ],
+        "affiliations": [
+          "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rudack, Till",
+        "short_name": "Rudack T",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Crystallography, Department of Biophysics, Faculty of Biology and Biotechnology, Ruhr University Bochum, Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Bernecky, Carrie",
+        "short_name": "Bernecky C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Science and Technology, Klosterneuburg, Austria."
+        ]
+      },
+      {
+        "full_name": "Lamour, Valérie",
+        "short_name": "Lamour V",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Strasbourg, CNRS, INSERM, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), Department of Integrated Structural Biology, Illkirch, France.",
+          "Hôpitaux Universitaires de Strasbourg, Strasbourg, France."
+        ]
+      },
+      {
+        "full_name": "Panov, Konstantin",
+        "short_name": "Panov K",
+        "identifiers": [
+          "0000-0003-1375-7814"
+        ],
+        "affiliations": [
+          "School of Biological Sciences and PGJCCR, Queen's University Belfast, Belfast, UK."
+        ]
+      },
+      {
+        "full_name": "Vannini, Alessandro",
+        "short_name": "Vannini A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Structural Biology, The Institute of Cancer Research, London, UK.",
+          "Fondazione Human Technopole, Structural Biology Research Centre, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Moss, Tom",
+        "short_name": "Moss T",
+        "identifiers": [
+          "0000-0003-2047-4783"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Medical Biochemistry and Pathology, Faculty of Medicine, Laval University, Quebec, Canada.",
+          "Laboratory of Growth and Development, St-Patrick Research Group in Basic Oncology, Cancer Division of the Quebec University Hospital Research Centre, Québec, Canada."
+        ]
+      },
+      {
+        "full_name": "Engel, Christoph",
+        "short_name": "Engel C",
+        "identifiers": [
+          "0000-0001-8451-3599"
+        ],
+        "affiliations": [
+          "Regensburg Center for Biochemistry, University of Regensburg, Regensburg, Germany christoph.engel@ur.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life science alliance"
+    ],
+    "journal_abbrev": [
+      "Life Sci Alliance"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/23 06:00",
+    "fetched_at": "2026-09-28 15:06:37"
+  },
+  "links": {
+    "cites": [
+      "42511894",
+      "41732916",
+      "40626563",
+      "39858608",
+      "38791054",
+      "38758429",
+      "38709902",
+      "36732602"
+    ],
+    "refs": [
+      "35881792",
+      "35796984",
+      "35139074",
+      "34887565",
+      "34838819",
+      "34728715",
+      "34671025",
+      "34440706",
+      "34293799",
+      "34133942",
+      "34016969",
+      "33921963",
+      "33902107",
+      "33737158",
+      "33707221",
+      "33674783",
+      "33558766",
+      "33558764",
+      "33536435",
+      "33335104",
+      "33315308",
+      "33196044",
+      "33168625",
+      "33156333",
+      "33055158",
+      "32915199",
+      "32695417",
+      "32695410",
+      "32585128",
+      "32541898",
+      "32457376",
+      "32350470",
+      "32139698",
+      "32060094",
+      "32042905",
+      "31973211",
+      "31804486",
+      "31757961",
+      "31649276",
+      "31606140",
+      "31591575",
+      "31588918",
+      "31136569",
+      "31086343",
+      "30913026",
+      "30467428",
+      "30412051",
+      "30017701",
+      "29792819",
+      "29514976",
+      "29414703",
+      "29372670",
+      "29258817",
+      "29158335",
+      "28735753",
+      "28715449",
+      "28340337",
+      "28262097",
+      "28051070",
+      "27867008",
+      "27842382",
+      "27801516",
+      "27418309",
+      "27418187",
+      "26973785",
+      "26929337",
+      "26789250",
+      "26605533",
+      "26327374",
+      "26151409",
+      "25913037",
+      "25652824",
+      "25092870",
+      "24829450",
+      "24603435",
+      "24532726",
+      "24207024",
+      "24157548",
+      "24153184",
+      "24153182",
+      "24153180",
+      "23697806",
+      "23511463",
+      "23329690",
+      "23153826",
+      "23150253",
+      "22849406",
+      "22805593",
+      "22365827",
+      "21940764",
+      "21921199",
+      "21921198",
+      "21886100",
+      "21263028",
+      "21131976",
+      "21098118",
+      "20797630",
+      "19499576",
+      "19214185",
+      "19164765",
+      "19151095",
+      "18573085",
+      "18160037",
+      "18157137",
+      "18086878",
+      "17636313",
+      "17599239",
+      "17505112",
+      "17318177",
+      "17268553",
+      "17171232",
+      "16928733",
+      "16880508",
+      "16858408",
+      "16626300",
+      "15572765",
+      "15073185",
+      "15004009",
+      "12865296",
+      "12620228",
+      "12580598",
+      "12015311",
+      "11313498",
+      "11265758",
+      "11032814",
+      "10758157",
+      "10742046",
+      "10542411",
+      "9422795",
+      "9121426",
+      "7982918",
+      "7935371",
+      "7768955",
+      "6219875",
+      "5344598",
+      "2823250",
+      "1547496"
+    ],
+    "similar": [
+      "36271492",
+      "8306961",
+      "33737158",
+      "37454246",
+      "8524646",
+      "35442737",
+      "28739580",
+      "12498690",
+      "32060094",
+      "9121426",
+      "9837969",
+      "34887565",
+      "7862117",
+      "35341765",
+      "31136569",
+      "30913026",
+      "26789250",
+      "27867008",
+      "15073185",
+      "20038608",
+      "16971462",
+      "34946888",
+      "31843971",
+      "12145213",
+      "9869639",
+      "8702872",
+      "8041627",
+      "11438642",
+      "11032814",
+      "20154141",
+      "25815716",
+      "12893961",
+      "31804486",
+      "17259992",
+      "23591814",
+      "15477604",
+      "7935371",
+      "26663077",
+      "16533045",
+      "10589839",
+      "30482860",
+      "20299458",
+      "27418187",
+      "31382053",
+      "14730212",
+      "24153184",
+      "9159465",
+      "30802237",
+      "27418309",
+      "21467039",
+      "23416138",
+      "28340337",
+      "24153182",
+      "18160037",
+      "9203586",
+      "20720002",
+      "19767748",
+      "11564871",
+      "8879242",
+      "11470882",
+      "11283244",
+      "27576721",
+      "8423814",
+      "12207036",
+      "18413718",
+      "8641287",
+      "8253078",
+      "8670901",
+      "18086878",
+      "29168508",
+      "32139698",
+      "16858408",
+      "18559419",
+      "15121834",
+      "9169440",
+      "21816181",
+      "11139612",
+      "11564744",
+      "34671025",
+      "32253346",
+      "16626300",
+      "23994471",
+      "7721765",
+      "11717393"
+    ],
+    "review": [
+      "36271492",
+      "37454246"
+    ],
+    "pmc": [
+      "9438803"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=HUMAN&id=HS13656",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "POLR1E"
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/36271492/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.26508/lsa.202201568",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36271492/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36271492",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36271492",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

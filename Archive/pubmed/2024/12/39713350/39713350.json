@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "39713350",
+    "doi": "10.1101/2024.12.06.627191",
+    "title": "Efficient High-Throughput DNA Breathing Features Generation Using Jax-EPBD."
+  },
+  "content": {
+    "abstract": "DNA breathing dynamics-transient base-pair opening and closing due to thermal fluctuations-are vital for processes like transcription, replication, and repair. Traditional models, such as the Extended Peyrard-Bishop-Dauxois (EPBD), provide insights into these dynamics but are computationally limited for long sequences. We present JAX-EPBD, a high-throughput Langevin molecular dynamics framework leveraging JAX for GPU-accelerated simulations, achieving up to 30x speedup and superior scalability compared to the original C-based EPBD implementation. JAX-EPBD efficiently captures time-dependent behaviors, including bubble lifetimes and base flipping kinetics, enabling genome-scale analyses. Applying it to transcription factor (TF) binding affinity prediction using SELEX datasets, we observed consistent improvements in R2 values when incorporating breathing features with sequence data. Validating on the 77-bp AAV P5 promoter, JAX-EPBD revealed sequence-specific differences in bubble dynamics correlating with transcriptional activity. These findings establish JAX-EPBD as a powerful and scalable tool for understanding DNA breathing dynamics and their role in gene regulation and transcription factor binding.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Inan, Toki Tahmid",
+        "Kabir, Anowarul",
+        "Rasmussen, Kim",
+        "Shehu, Amarda",
+        "Usheva, Anny",
+        "Bishop, Alan",
+        "Alexandrov, Boian",
+        "Bhattarai, Manish"
+      ],
+      "short_names": [
+        "Inan TT",
+        "Kabir A",
+        "Rasmussen K",
+        "Shehu A",
+        "Usheva A",
+        "Bishop A",
+        "Alexandrov B",
+        "Bhattarai M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5230-4610"
+      ],
+      "affiliations": [
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM.",
+        "Department of Computer Science, George Mason University, Fairfax, Va.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM.",
+        "Department of Computer Science, George Mason University, Fairfax, Va.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM.",
+        "Department of Computer Science, George Mason University, Fairfax, Va.",
+        "Department of Surgery, Brown University, Providence, RI.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Inan, Toki Tahmid",
+        "short_name": "Inan TT",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM.",
+          "Department of Computer Science, George Mason University, Fairfax, Va."
+        ]
+      },
+      {
+        "full_name": "Kabir, Anowarul",
+        "short_name": "Kabir A",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM.",
+          "Department of Computer Science, George Mason University, Fairfax, Va."
+        ]
+      },
+      {
+        "full_name": "Rasmussen, Kim",
+        "short_name": "Rasmussen K",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM."
+        ]
+      },
+      {
+        "full_name": "Shehu, Amarda",
+        "short_name": "Shehu A",
+        "identifiers": [
+          "0000-0001-5230-4610"
+        ],
+        "affiliations": [
+          "Department of Computer Science, George Mason University, Fairfax, Va."
+        ]
+      },
+      {
+        "full_name": "Usheva, Anny",
+        "short_name": "Usheva A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Brown University, Providence, RI."
+        ]
+      },
+      {
+        "full_name": "Bishop, Alan",
+        "short_name": "Bishop A",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM."
+        ]
+      },
+      {
+        "full_name": "Alexandrov, Boian",
+        "short_name": "Alexandrov B",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM."
+        ]
+      },
+      {
+        "full_name": "Bhattarai, Manish",
+        "short_name": "Bhattarai M",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Dec 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/23 17:24",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37991847",
+      "28167566",
+      "23341768",
+      "20174451",
+      "20019064",
+      "19264801",
+      "17279870",
+      "15698282",
+      "15004245",
+      "10040080",
+      "9465037",
+      "3037381"
+    ],
+    "similar": [
+      "39713350",
+      "37745370",
+      "37991847",
+      "39271116",
+      "33465959",
+      "38293094",
+      "19282962",
+      "34496591",
+      "17279870",
+      "36770707",
+      "16384189",
+      "16802962",
+      "22060414",
+      "35978524",
+      "26387086",
+      "31575125",
+      "30934325",
+      "23367981",
+      "20876689",
+      "16957832",
+      "31267468",
+      "35144408",
+      "10066749",
+      "38389118",
+      "21461066",
+      "30727009",
+      "19264801",
+      "7474090",
+      "38705180",
+      "21161289",
+      "22904068",
+      "17243750",
+      "20866835",
+      "18390611",
+      "18517446",
+      "22642953",
+      "15004245",
+      "26061315",
+      "17237209",
+      "23912807",
+      "38673524",
+      "28603054",
+      "29090241",
+      "20598144",
+      "30664021",
+      "19548765",
+      "17234559",
+      "18760175",
+      "35708376",
+      "20467759",
+      "23341768",
+      "29165643",
+      "28756105",
+      "20078660",
+      "24516846",
+      "24287639",
+      "15628707",
+      "23060218",
+      "18352062",
+      "36253627",
+      "11600473",
+      "15243887",
+      "21418830",
+      "26228364",
+      "11577307",
+      "2416006",
+      "29775183",
+      "9391256",
+      "21230117",
+      "31869881",
+      "34432228",
+      "30479319",
+      "25294023",
+      "28737592",
+      "39192710",
+      "22354661",
+      "20869710",
+      "15968255",
+      "30508077",
+      "15307859",
+      "17358368",
+      "39896490",
+      "39895510",
+      "22398960",
+      "29793539",
+      "14696407",
+      "23142970",
+      "25562415",
+      "23840129",
+      "38983353",
+      "40279486",
+      "38983341",
+      "17322994",
+      "36321206",
+      "26902050",
+      "16547665",
+      "31628254",
+      "15698282",
+      "29565427",
+      "30713839"
+    ],
+    "review": [
+      "39713350",
+      "35144408",
+      "30727009",
+      "21161289",
+      "22642953",
+      "35708376",
+      "28756105",
+      "15307859"
+    ],
+    "pmc": [
+      "11661089"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39713350/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-250",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.06.627191",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

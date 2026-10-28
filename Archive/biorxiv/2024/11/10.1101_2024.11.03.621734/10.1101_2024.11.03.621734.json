@@ -1,0 +1,492 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.03.621734",
+  "title": "A Perturbation Cell Atlas of Human Induced Pluripotent Stem Cells",
+  "doi": "10.1101/2024.11.03.621734",
+  "abstract": "<h4>SUMMARY</h4> Towards comprehensively investigating the genotype-phenotype relationships governing the human pluripotent stem cell state, we generated an expressed genome-scale CRISPRi Perturbation Cell Atlas in KOLF2.1J human induced pluripotent stem cells (hiPSCs) mapping transcriptional and fitness phenotypes associated with 11,739 targeted genes. Using the transcriptional phenotypes, we created a minimum distortion embedding map of the pluripotent state, demonstrating rich recapitulation of protein complexes, such as strong co-clustering of MRPL, BAF, SAGA, and Ragulator family members. Additionally, we uncovered transcriptional regulators that are uncoupled from cell fitness, discovering potential novel pluripotency (JOSD1, RNF7) and metabolic factors (ZBTB41). We validated these findings via phenotypic, protein-interaction, and metabolic tracing assays. Finally, we propose a contrastive human-cell engineering framework (CHEF), a machine learning architecture that learns from perturbation cell atlases to predict perturbation recipes that achieve desired transcriptional states. Taken together, our study presents a comprehensive resource for interrogating the regulatory networks governing pluripotency.",
+  "authors": [
+    "Nourreddine S",
+    "Doctor Y",
+    "Dailamy A",
+    "Forget A",
+    "Lee Y",
+    "Chinn B",
+    "Khaliq H",
+    "Polacco B",
+    "Muralidharan M",
+    "Pan E",
+    "Zhang Y",
+    "Sigaeva A",
+    "Hansen JN",
+    "Gao J",
+    "Parker JA",
+    "Obernier K",
+    "Clark T",
+    "Chen JY",
+    "Metallo C",
+    "Lundberg E",
+    "Ideker T",
+    "Krogan N",
+    "Mali P"
+  ],
+  "published_date": "2024-11-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.03.621734",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.03.621734.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR934282",
+    "raw_record": {
+      "id": "PPR934282",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR934282"
+        ]
+      },
+      "doi": "10.1101/2024.11.03.621734",
+      "title": "A Perturbation Cell Atlas of Human Induced Pluripotent Stem Cells",
+      "authorString": "Nourreddine S, Doctor Y, Dailamy A, Forget A, Lee Y, Chinn B, Khaliq H, Polacco B, Muralidharan M, Pan E, Zhang Y, Sigaeva A, Hansen JN, Gao J, Parker JA, Obernier K, Clark T, Chen JY, Metallo C, Lundberg E, Ideker T, Krogan N, Mali P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nourreddine S",
+            "lastName": "Nourreddine",
+            "firstName": "Sami",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Doctor Y",
+            "lastName": "Doctor",
+            "firstName": "Yesh",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dailamy A",
+            "lastName": "Dailamy",
+            "firstName": "Amir",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forget A",
+            "lastName": "Forget",
+            "firstName": "Antoine",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Quantitative Biosciences Institute (QBI), , ,"
+                },
+                {
+                  "affiliation": "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee Y",
+            "lastName": "Lee",
+            "firstName": "Yi-Hung",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chinn B",
+            "lastName": "Chinn",
+            "firstName": "Becky",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                },
+                {
+                  "affiliation": "School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khaliq H",
+            "lastName": "Khaliq",
+            "firstName": "Hammza",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polacco B",
+            "lastName": "Polacco",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Quantitative Biosciences Institute (QBI), , ,"
+                },
+                {
+                  "affiliation": "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA"
+                },
+                {
+                  "affiliation": "Department of Cellular and Molecular Pharmacology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Muralidharan M",
+            "lastName": "Muralidharan",
+            "firstName": "Monita",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Quantitative Biosciences Institute (QBI), , ,"
+                },
+                {
+                  "affiliation": "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pan E",
+            "lastName": "Pan",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Y",
+            "lastName": "Zhang",
+            "firstName": "Yifan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sigaeva A",
+            "lastName": "Sigaeva",
+            "firstName": "Alina",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cellular and Clinical Proteomics, Department of Protein Science, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hansen JN",
+            "lastName": "Hansen",
+            "firstName": "Jan Niklas",
+            "initials": "JN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gao J",
+            "lastName": "Gao",
+            "firstName": "Jiahao",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parker JA",
+            "lastName": "Parker",
+            "firstName": "Jillian",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Obernier K",
+            "lastName": "Obernier",
+            "firstName": "Kirsten",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA"
+                },
+                {
+                  "affiliation": "Department of Cellular and Molecular Pharmacology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clark T",
+            "lastName": "Clark",
+            "firstName": "Timothy",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen JY",
+            "lastName": "Chen",
+            "firstName": "Jake",
+            "initials": "JY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Metallo C",
+            "lastName": "Metallo",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                },
+                {
+                  "affiliation": "Molecular and Cell Biology Laboratory, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lundberg E",
+            "lastName": "Lundberg",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                },
+                {
+                  "affiliation": "Department of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ideker T",
+            "lastName": "Ideker",
+            "firstName": "Trey",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                },
+                {
+                  "affiliation": "School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krogan N",
+            "lastName": "Krogan",
+            "firstName": "Nevan",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Quantitative Biosciences Institute (QBI), , ,"
+                },
+                {
+                  "affiliation": "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA"
+                },
+                {
+                  "affiliation": "Department of Cellular and Molecular Pharmacology, , ,"
+                },
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutics Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mali P",
+            "lastName": "Mali",
+            "firstName": "Prashant",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0009-0009-0483-7506"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>SUMMARY</h4>  Towards comprehensively investigating the genotype-phenotype relationships governing the human pluripotent stem cell state, we generated an expressed genome-scale CRISPRi Perturbation Cell Atlas in KOLF2.1J human induced pluripotent stem cells (hiPSCs) mapping transcriptional and fitness phenotypes associated with 11,739 targeted genes. Using the transcriptional phenotypes, we created a minimum distortion embedding map of the pluripotent state, demonstrating rich recapitulation of protein complexes, such as strong co-clustering of MRPL, BAF, SAGA, and Ragulator family members. Additionally, we uncovered transcriptional regulators that are uncoupled from cell fitness, discovering potential novel pluripotency (JOSD1, RNF7) and metabolic factors (ZBTB41). We validated these findings via phenotypic, protein-interaction, and metabolic tracing assays. Finally, we propose a contrastive human-cell engineering framework (CHEF), a machine learning architecture that learns from perturbation cell atlases to predict perturbation recipes that achieve desired transcriptional states. Taken together, our study presents a comprehensive resource for interrogating the regulatory networks governing pluripotency.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "019.231EN.013",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.03.621734"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.03.621734"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR934282"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR934282&type=FILE&fileName=EMS199901-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199901",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "hpa",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-11-05",
+      "firstPublicationDate": "2024-11-04",
+      "firstIndexDate": "2024-11-05",
+      "fullTextReceivedDate": "2024-11-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

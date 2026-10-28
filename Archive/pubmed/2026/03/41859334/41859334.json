@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "41859334",
+    "doi": "10.3389/fnana.2026.1780361",
+    "title": "Postnatal expression of the transcription factor Ebf2 in motivation, reward, and pain-related circuits of the mouse brain."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Early B-cell factor 2 (Ebf2) is a transcription factor required for neuronal differentiation. However, its postnatal expression pattern and functional roles in the brain are not well characterized. This study examined the spatial distribution of Ebf2 in postnatal day 10 (P10) mouse brains and investigated its association with neural circuits mediating motivation, reward, and nociception. MATERIALS AND METHODS: Ebf2-TGFP transgenic mice, which express green fluorescent protein (GFP) as a reporter for Ebf2, were utilized. Immunofluorescence labeling and high-resolution microscopy were employed to visualize Ebf2 expression. Image data were analyzed using a deep learning-based segmentation pipeline for soma and axon identification. Three-dimensional reconstructions were registered to the Allen Brain Atlas. Quantitative comparisons between hemizygous and Ebf2-null mutant genotypes were conducted using linear mixed-effects models with Bonferroni and false discovery rate (FDR) corrections. RESULTS: Ebf2 expression was prominent in the dorsal diencephalic conduction system, including the septum, habenula, and interpeduncular nucleus. Ebf2 expression can also be detected in the lateral hypothalamic area, zona incerta, ventral tegmental area, and parabrachial nucleus. Expression was also detected in nociceptive and sensory-motor regions such as the periaqueductal gray, anterior pretectal nucleus, principal sensory nucleus of the trigeminal nerve, and superior colliculus. Ebf2-null mutant mice showed a significant reduction in Ebf2-TGFP cells across most of these regions. DISCUSSION: The results demonstrate that Ebf2 expression persists beyond embryonic development and is selectively enriched in neural circuits associated with motivation, reward processing, and nociceptive modulation. The marked reduction of Ebf2-TGFP expressing neurons in null mutants provides evidence for a postnatal requirement of Ebf2 in neuronal maintenance, rather than solely in early differentiation. Collectively, these findings broaden the functional scope of Ebf2 to include postnatal circuit stabilization and support its sustained regulatory role in brain systems that govern affective and pain-related behaviors.",
+    "keywords": [
+      "Ebf2 gene",
+      "early B-cell factor",
+      "motivation/reward system",
+      "pain-modulating systems",
+      "transcription factor Ebf2"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Martinez-Estrada, Moises",
+        "Cepeda-Varela, M Blanca D",
+        "Salinas-Villarreal, A Damaris",
+        "Obregon-Fuentes, Mara C",
+        "Real-Marin, Danna A",
+        "Balderas-Diaz, Melani A",
+        "Zomosa-Signoret, Viviana",
+        "Santana-Solano, Jesus",
+        "Santillan-Zeron, Moises",
+        "Vidaltamayo, Roman"
+      ],
+      "short_names": [
+        "Martinez-Estrada M",
+        "Cepeda-Varela MBD",
+        "Salinas-Villarreal AD",
+        "Obregon-Fuentes MC",
+        "Real-Marin DA",
+        "Balderas-Diaz MA",
+        "Zomosa-Signoret V",
+        "Santana-Solano J",
+        "Santillan-Zeron M",
+        "Vidaltamayo R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centro de Investigacion y de Estudios Avanzados del IPN, Unidad Monterrey, Apodaca, Mexico.",
+        "Facultad de Ciencias en Fisica y Matematicas, Universidad Autonoma de Chiapas, Tuxtla Gutierrez, Mexico.",
+        "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza Garcia, Mexico.",
+        "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza Garcia, Mexico.",
+        "Escuela de Ciencias Aliadas de la Salud, Universidad de Monterrey, San Pedro Garza Garcia, Mexico.",
+        "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza Garcia, Mexico.",
+        "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza Garcia, Mexico.",
+        "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza Garcia, Mexico.",
+        "Centro de Investigacion y de Estudios Avanzados del IPN, Unidad Monterrey, Apodaca, Mexico.",
+        "Centro de Investigacion y de Estudios Avanzados del IPN, Unidad Monterrey, Apodaca, Mexico.",
+        "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza Garcia, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Martínez-Estrada, Moisés",
+        "short_name": "Martínez-Estrada M",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación y de Estudios Avanzados del IPN, Unidad Monterrey, Apodaca, Mexico.",
+          "Facultad de Ciencias en Física y Matemáticas, Universidad Autónoma de Chiapas, Tuxtla Gutiérrez, Mexico."
+        ]
+      },
+      {
+        "full_name": "Cepeda-Varela, M Blanca D",
+        "short_name": "Cepeda-Varela MBD",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza García, Mexico."
+        ]
+      },
+      {
+        "full_name": "Salinas-Villarreal, A Damaris",
+        "short_name": "Salinas-Villarreal AD",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza García, Mexico."
+        ]
+      },
+      {
+        "full_name": "Obregón-Fuentes, Mara C",
+        "short_name": "Obregón-Fuentes MC",
+        "identifiers": [],
+        "affiliations": [
+          "Escuela de Ciencias Aliadas de la Salud, Universidad de Monterrey, San Pedro Garza García, Mexico."
+        ]
+      },
+      {
+        "full_name": "Real-Marín, Danna A",
+        "short_name": "Real-Marín DA",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza García, Mexico."
+        ]
+      },
+      {
+        "full_name": "Balderas-Díaz, Melani A",
+        "short_name": "Balderas-Díaz MA",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza García, Mexico."
+        ]
+      },
+      {
+        "full_name": "Zomosa-Signoret, Viviana",
+        "short_name": "Zomosa-Signoret V",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza García, Mexico."
+        ]
+      },
+      {
+        "full_name": "Santana-Solano, Jesús",
+        "short_name": "Santana-Solano J",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación y de Estudios Avanzados del IPN, Unidad Monterrey, Apodaca, Mexico."
+        ]
+      },
+      {
+        "full_name": "Santillán-Zerón, Moisés",
+        "short_name": "Santillán-Zerón M",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación y de Estudios Avanzados del IPN, Unidad Monterrey, Apodaca, Mexico."
+        ]
+      },
+      {
+        "full_name": "Vidaltamayo, Román",
+        "short_name": "Vidaltamayo R",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Medicina, Universidad de Monterrey, San Pedro Garza García, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in neuroanatomy"
+    ],
+    "journal_abbrev": [
+      "Front Neuroanat"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/20 07:10",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40358159",
+      "39736442",
+      "38650618",
+      "38459114",
+      "38344749",
+      "38087004",
+      "38015024",
+      "37976360",
+      "37488187",
+      "37068960",
+      "36893756",
+      "36082310",
+      "35484472",
+      "34533886",
+      "34321664",
+      "34183678",
+      "34100918",
+      "33990558",
+      "33909941",
+      "33841086",
+      "33549547",
+      "33318659",
+      "32367265",
+      "32043968",
+      "31273610",
+      "30658714",
+      "30122379",
+      "29490273",
+      "28791703",
+      "27889898",
+      "27546576",
+      "25762221",
+      "25673745",
+      "25197048",
+      "23499423",
+      "23000673",
+      "22421355",
+      "22119902",
+      "22042145",
+      "21529371",
+      "21456962",
+      "21435382",
+      "21220016",
+      "20887955",
+      "20227323",
+      "19996307",
+      "18403128",
+      "17596440",
+      "17522629",
+      "16774995",
+      "16326388",
+      "16041369",
+      "14993187",
+      "12917357",
+      "12836172",
+      "12466206",
+      "12139918",
+      "11578857",
+      "9389446",
+      "8491377",
+      "7542362"
+    ],
+    "similar": [
+      "41859334",
+      "42475469",
+      "25820347",
+      "31855381",
+      "25762221",
+      "18512225",
+      "9063711",
+      "2319009",
+      "28390647",
+      "40691875",
+      "9276505",
+      "27805752",
+      "42138352",
+      "21220016",
+      "31273610",
+      "10603349",
+      "25197048",
+      "39170852",
+      "36280259",
+      "16563637",
+      "35027408",
+      "21085653",
+      "25099741",
+      "23896573",
+      "16681857",
+      "10391477",
+      "39191233",
+      "42185964",
+      "23578393",
+      "25732261",
+      "22042145",
+      "8227517",
+      "19111912",
+      "19235216",
+      "2472580",
+      "23000673",
+      "42530047",
+      "3796820",
+      "28657115",
+      "28053028",
+      "9336230",
+      "30593496",
+      "21160134",
+      "12466206",
+      "42251246",
+      "16927269",
+      "7680939",
+      "6863599",
+      "24465372",
+      "7687754",
+      "36443000",
+      "18554735",
+      "26758824",
+      "8388924",
+      "12592228",
+      "23827972",
+      "2736395",
+      "25168728",
+      "30861133",
+      "27807169",
+      "19966188",
+      "41370354",
+      "12505668",
+      "1694188",
+      "20339484",
+      "35700449",
+      "19906978",
+      "3840236",
+      "39736442",
+      "25834049",
+      "39740781",
+      "32184221",
+      "39868339",
+      "24586817",
+      "27063080",
+      "40902698",
+      "34259628",
+      "6436341",
+      "25891934",
+      "6877597",
+      "29452828",
+      "10754510",
+      "8518953",
+      "41630050",
+      "1646974",
+      "36650430",
+      "28083884",
+      "3584538",
+      "27559164",
+      "31651080",
+      "20887955",
+      "29175957",
+      "25086313",
+      "26758845",
+      "27003189",
+      "19800947",
+      "39563437",
+      "20225193",
+      "35283254",
+      "16009501"
+    ],
+    "review": [
+      "41859334",
+      "23578393",
+      "23827972"
+    ],
+    "pmc": [
+      "12995632"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41859334/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fnana.2026.1780361",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

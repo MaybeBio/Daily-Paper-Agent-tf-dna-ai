@@ -1,0 +1,505 @@
+{
+  "identity": {
+    "pmid": "37773066",
+    "doi": "10.1038/s41523-023-00582-7",
+    "title": "Multidimensional quantitative phenotypic and molecular analysis reveals neomorphic behaviors of p53 missense mutants."
+  },
+  "content": {
+    "abstract": "Mutations in the TP53 tumor suppressor gene occur in >80% of the triple-negative or basal-like breast cancer. To test whether neomorphic functions of specific TP53 missense mutations contribute to phenotypic heterogeneity, we characterized phenotypes of non-transformed MCF10A-derived cell lines expressing the ten most common missense mutant p53 proteins and observed a wide spectrum of phenotypic changes in cell survival, resistance to apoptosis and anoikis, cell migration, invasion and 3D mammosphere architecture. The p53 mutants R248W, R273C, R248Q, and Y220C are the most aggressive while G245S and Y234C are the least, which correlates with survival rates of basal-like breast cancer patients. Interestingly, a crucial amino acid difference at one position-R273C vs. R273H-has drastic changes on cellular phenotype. RNA-Seq and ChIP-Seq analyses show distinct DNA binding properties of different p53 mutants, yielding heterogeneous transcriptomics profiles, and MD simulation provided structural basis of differential DNA binding of different p53 mutants. Integrative statistical and machine-learning-based pathway analysis on gene expression profiles with phenotype vectors across the mutant cell lines identifies quantitative association of multiple pathways including the Hippo/YAP/TAZ pathway with phenotypic aggressiveness. Further, comparative analyses of large transcriptomics datasets on breast cancer cell lines and tumors suggest that dysregulation of the Hippo/YAP/TAZ pathway plays a key role in driving the cellular phenotypes towards basal-like in the presence of more aggressive p53 mutants. Overall, our study describes distinct gain-of-function impacts on protein functions, transcriptional profiles, and cellular behaviors of different p53 missense mutants, which contribute to clinical phenotypic heterogeneity of triple-negative breast tumors.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pal, Anasuya",
+        "Gonzalez-Malerva, Laura",
+        "Eaton, Seron",
+        "Xu, Chenxi",
+        "Zhang, Yining",
+        "Grief, Dustin",
+        "Sakala, Lydia",
+        "Nwekwo, Lilian",
+        "Zeng, Jia",
+        "Christensen, Grant",
+        "Gupta, Chitrak",
+        "Streitwieser, Ellen",
+        "Singharoy, Abhishek",
+        "Park, Jin G",
+        "LaBaer, Joshua"
+      ],
+      "short_names": [
+        "Pal A",
+        "Gonzalez-Malerva L",
+        "Eaton S",
+        "Xu C",
+        "Zhang Y",
+        "Grief D",
+        "Sakala L",
+        "Nwekwo L",
+        "Zeng J",
+        "Christensen G",
+        "Gupta C",
+        "Streitwieser E",
+        "Singharoy A",
+        "Park JG",
+        "LaBaer J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1690-6574",
+        "ORCID: 0000-0001-7238-1656",
+        "ORCID: 0000-0001-6481-9590",
+        "ORCID: 0000-0001-5788-9697"
+      ],
+      "affiliations": [
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The School of Life Sciences, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Structural Discovery, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Structural Discovery, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Structural Discovery, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA. jin.park.1@asu.edu.",
+        "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA. joshua.labaer@asu.edu.",
+        "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA. joshua.labaer@asu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pal, Anasuya",
+        "short_name": "Pal A",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+          "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez-Malerva, Laura",
+        "short_name": "Gonzalez-Malerva L",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Eaton, Seron",
+        "short_name": "Eaton S",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Chenxi",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yining",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Grief, Dustin",
+        "short_name": "Grief D",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+          "The School of Life Sciences, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Sakala, Lydia",
+        "short_name": "Sakala L",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+          "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Nwekwo, Lilian",
+        "short_name": "Nwekwo L",
+        "identifiers": [
+          "0000-0002-1690-6574"
+        ],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA.",
+          "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jia",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Christensen, Grant",
+        "short_name": "Christensen G",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Gupta, Chitrak",
+        "short_name": "Gupta C",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Structural Discovery, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Streitwieser, Ellen",
+        "short_name": "Streitwieser E",
+        "identifiers": [
+          "0000-0001-7238-1656"
+        ],
+        "affiliations": [
+          "The Biodesign Center for Structural Discovery, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Singharoy, Abhishek",
+        "short_name": "Singharoy A",
+        "identifiers": [],
+        "affiliations": [
+          "The Biodesign Center for Structural Discovery, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Jin G",
+        "short_name": "Park JG",
+        "identifiers": [
+          "0000-0001-6481-9590"
+        ],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA. jin.park.1@asu.edu."
+        ]
+      },
+      {
+        "full_name": "LaBaer, Joshua",
+        "short_name": "LaBaer J",
+        "identifiers": [
+          "0000-0001-5788-9697"
+        ],
+        "affiliations": [
+          "The Biodesign Center for Personalized Diagnostics, Biodesign Institute, Arizona State University, Tempe, AZ, 85287, USA. joshua.labaer@asu.edu.",
+          "The School of Molecular Sciences, Arizona State University, Tempe, AZ, 85287, USA. joshua.labaer@asu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ breast cancer"
+    ],
+    "journal_abbrev": [
+      "NPJ Breast Cancer"
+    ],
+    "pub_date": "2023 Sep 29",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/29 12:43",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "42306789",
+      "41885969",
+      "41193733",
+      "40744997",
+      "40427112",
+      "40223808",
+      "40057511",
+      "39682089",
+      "37998349"
+    ],
+    "refs": [
+      "36931265",
+      "36759723",
+      "36400749",
+      "35361963",
+      "33693435",
+      "32752662",
+      "32722796",
+      "32517735",
+      "32218993",
+      "31448276",
+      "31324767",
+      "30580964",
+      "30366906",
+      "30262850",
+      "29978332",
+      "29145629",
+      "29125603",
+      "29099853",
+      "29099489",
+      "29099488",
+      "28390900",
+      "28288132",
+      "28277540",
+      "28166194",
+      "28092679",
+      "27915434",
+      "27899662",
+      "27589690",
+      "27278553",
+      "27270431",
+      "26780928",
+      "26771021",
+      "26691213",
+      "26481357",
+      "26181206",
+      "25870251",
+      "25141863",
+      "24739573",
+      "24665023",
+      "24658687",
+      "24651012",
+      "24603336",
+      "24573247",
+      "24536073",
+      "24531711",
+      "24403050",
+      "24114677",
+      "24074787",
+      "23832629",
+      "23550210",
+      "23538418",
+      "23291982",
+      "23104886",
+      "23056216",
+      "22790872",
+      "22722202",
+      "22713868",
+      "22522925",
+      "22495314",
+      "22460905",
+      "22388286",
+      "22265415",
+      "22078877",
+      "21654799",
+      "21454711",
+      "21349861",
+      "21263025",
+      "20513432",
+      "20064378",
+      "19847166",
+      "19693097",
+      "19505943",
+      "19487818",
+      "19458158",
+      "19448627",
+      "19345189",
+      "18978813",
+      "18798982",
+      "18413727",
+      "18410249",
+      "17510390",
+      "17417627",
+      "17401432",
+      "16754663",
+      "16557269",
+      "16489069",
+      "16247493",
+      "16199517",
+      "15607980",
+      "14743206",
+      "12798140",
+      "12619115",
+      "11719465",
+      "10760284",
+      "10706096",
+      "10654936",
+      "10411893",
+      "9786962",
+      "8744570",
+      "8673929",
+      "8023157",
+      "7773294",
+      "1697506",
+      "1301998"
+    ],
+    "similar": [
+      "37773066",
+      "24677579",
+      "33126568",
+      "30787262",
+      "34773073",
+      "36738577",
+      "24687952",
+      "30180862",
+      "23612969",
+      "34178628",
+      "31455383",
+      "26703669",
+      "29970031",
+      "32942535",
+      "26181206",
+      "36555140",
+      "28369373",
+      "28813011",
+      "17417627",
+      "35858357",
+      "20113312",
+      "19881536",
+      "34045312",
+      "33205006",
+      "28397142",
+      "15004724",
+      "28467351",
+      "31148594",
+      "26585234",
+      "35367578",
+      "9407971",
+      "36675980",
+      "21454711",
+      "30808373",
+      "31185986",
+      "20212049",
+      "34919788",
+      "20407015",
+      "36700982",
+      "19773755",
+      "27347849",
+      "27517620",
+      "35589715",
+      "29616097",
+      "26244575",
+      "24648515",
+      "21187651",
+      "27114909",
+      "31395785",
+      "12727844",
+      "22822097",
+      "16260623",
+      "27039292",
+      "37663770",
+      "29802201",
+      "22886769",
+      "30578766",
+      "37887350",
+      "15958617",
+      "37762037",
+      "11051239",
+      "35071232",
+      "24560909",
+      "26781438",
+      "25123132",
+      "23264849",
+      "31661871",
+      "24662829",
+      "32977861",
+      "36226181",
+      "17388661",
+      "24373920",
+      "22824795",
+      "23798621",
+      "37835510",
+      "28596680",
+      "15492269",
+      "25870251",
+      "24253321",
+      "26910472",
+      "26818199",
+      "24074787",
+      "35315319",
+      "31307507",
+      "29890731",
+      "16489069",
+      "17417775",
+      "19020749",
+      "20878064",
+      "33918387"
+    ],
+    "review": [
+      "37773066",
+      "28467351",
+      "22822097",
+      "37835510",
+      "24074787"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41523-023-00582-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37773066/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37773066",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37773066",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse162341",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

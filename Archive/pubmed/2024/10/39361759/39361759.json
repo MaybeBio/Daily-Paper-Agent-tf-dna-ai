@@ -1,0 +1,671 @@
+{
+  "identity": {
+    "pmid": "39361759",
+    "doi": "10.1126/science.adk2539",
+    "title": "Creation of de novo cryptic splicing for ALS and FTD precision medicine."
+  },
+  "content": {
+    "abstract": "Loss of function of the RNA-binding protein TDP-43 (TDP-LOF) is a hallmark of amyotrophic lateral sclerosis (ALS) and other neurodegenerative disorders. Here we describe TDP-REG, which exploits the specificity of cryptic splicing induced by TDP-LOF to drive protein expression when and where the disease process occurs. The SpliceNouveau algorithm combines deep learning with rational design to generate customizable cryptic splicing events within protein-coding sequences. We demonstrate that expression of TDP-REG reporters is tightly coupled to TDP-LOF in vitro and in vivo. TDP-REG enables genomic prime editing to ablate the UNC13A cryptic donor splice site specifically upon TDP-LOF. Finally, we design TDP-REG vectors encoding a TDP-43/Raver1 fusion protein that rescues key pathological cryptic splicing events, paving the way for the development of precision therapies for TDP43-related disorders.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Amyotrophic Lateral Sclerosis/genetics/therapy",
+      "Deep Learning",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "*Frontotemporal Dementia/genetics/therapy",
+      "Gene Editing",
+      "HEK293 Cells",
+      "*Precision Medicine",
+      "RNA Splice Sites",
+      "*RNA Splicing",
+      "RNA-Binding Proteins/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wilkins, Oscar G",
+        "Chien, Max Z Y J",
+        "Wlaschin, Josette J",
+        "Barattucci, Simone",
+        "Harley, Peter",
+        "Mattedi, Francesca",
+        "Mehta, Puja R",
+        "Pisliakova, Maria",
+        "Ryadnov, Eugeni",
+        "Keuss, Matthew J",
+        "Thompson, David",
+        "Digby, Holly",
+        "Knez, Lea",
+        "Simkin, Rebecca L",
+        "Diaz, Juan Antinao",
+        "Zanovello, Matteo",
+        "Brown, Anna-Leigh",
+        "Darbey, Annalucia",
+        "Karda, Rajvinder",
+        "Fisher, Elizabeth M C",
+        "Cunningham, Thomas J",
+        "Le Pichon, Claire E",
+        "Ule, Jernej",
+        "Fratta, Pietro"
+      ],
+      "short_names": [
+        "Wilkins OG",
+        "Chien MZYJ",
+        "Wlaschin JJ",
+        "Barattucci S",
+        "Harley P",
+        "Mattedi F",
+        "Mehta PR",
+        "Pisliakova M",
+        "Ryadnov E",
+        "Keuss MJ",
+        "Thompson D",
+        "Digby H",
+        "Knez L",
+        "Simkin RL",
+        "Diaz JA",
+        "Zanovello M",
+        "Brown AL",
+        "Darbey A",
+        "Karda R",
+        "Fisher EMC",
+        "Cunningham TJ",
+        "Le Pichon CE",
+        "Ule J",
+        "Fratta P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3334-0568",
+        "ORCID: 0009-0001-7731-605X",
+        "ORCID: 0000-0003-1532-3905",
+        "ORCID: 0009-0006-8380-2931",
+        "ORCID: 0000-0001-6689-0227",
+        "ORCID: 0000-0002-0306-5796",
+        "ORCID: 0000-0002-0255-407X",
+        "ORCID: 0009-0007-5157-5639",
+        "ORCID: 0000-0002-2628-4115",
+        "ORCID: 0000-0002-2444-9844",
+        "ORCID: 0000-0003-1360-9686",
+        "ORCID: 0009-0006-6555-9536",
+        "ORCID: 0000-0001-7295-2738",
+        "ORCID: 0000-0003-3343-1547",
+        "ORCID: 0000-0003-1493-208X",
+        "ORCID: 0000-0001-8541-5472",
+        "ORCID: 0000-0001-9821-483X",
+        "ORCID: 0000-0003-2850-9936",
+        "ORCID: 0000-0002-4751-3140",
+        "ORCID: 0000-0002-9274-3615",
+        "ORCID: 0000-0002-2452-4277",
+        "ORCID: 0000-0002-8762-8188"
+      ],
+      "affiliations": [
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "The Francis Crick Institute, London NW1 1AT, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "The Francis Crick Institute, London NW1 1AT, UK.",
+        "Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Department of Biology, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "The Francis Crick Institute, London NW1 1AT, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Mammalian Genetics Unit, MRC Harwell Institute, Oxfordshire OX11 0RD, UK.",
+        "The Francis Crick Institute, London NW1 1AT, UK.",
+        "UK Dementia Research Institute at King's College London, London SE5 9RX, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "The Francis Crick Institute, London NW1 1AT, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "EGA-Institute for Women's Health, University College London, London WC1E 6HX, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "The Francis Crick Institute, London NW1 1AT, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "EGA-Institute for Women's Health, University College London, London WC1E 6HX, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Mammalian Genetics Unit, MRC Harwell Institute, Oxfordshire OX11 0RD, UK.",
+        "MRC Prion Unit at UCL and UCL Institute of Prion Diseases, London W1W 7FF, UK.",
+        "Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "The Francis Crick Institute, London NW1 1AT, UK.",
+        "UK Dementia Research Institute at King's College London, London SE5 9RX, UK.",
+        "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "The Francis Crick Institute, London NW1 1AT, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wilkins, Oscar G",
+        "short_name": "Wilkins OG",
+        "identifiers": [
+          "0000-0002-3334-0568"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "The Francis Crick Institute, London NW1 1AT, UK."
+        ]
+      },
+      {
+        "full_name": "Chien, Max Z Y J",
+        "short_name": "Chien MZYJ",
+        "identifiers": [
+          "0009-0001-7731-605X"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "The Francis Crick Institute, London NW1 1AT, UK."
+        ]
+      },
+      {
+        "full_name": "Wlaschin, Josette J",
+        "short_name": "Wlaschin JJ",
+        "identifiers": [
+          "0000-0003-1532-3905"
+        ],
+        "affiliations": [
+          "Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD 20892, USA.",
+          "Department of Biology, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Barattucci, Simone",
+        "short_name": "Barattucci S",
+        "identifiers": [
+          "0009-0006-8380-2931"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Harley, Peter",
+        "short_name": "Harley P",
+        "identifiers": [
+          "0000-0001-6689-0227"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Mattedi, Francesca",
+        "short_name": "Mattedi F",
+        "identifiers": [
+          "0000-0002-0306-5796"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Mehta, Puja R",
+        "short_name": "Mehta PR",
+        "identifiers": [
+          "0000-0002-0255-407X"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Pisliakova, Maria",
+        "short_name": "Pisliakova M",
+        "identifiers": [
+          "0009-0007-5157-5639"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "The Francis Crick Institute, London NW1 1AT, UK."
+        ]
+      },
+      {
+        "full_name": "Ryadnov, Eugeni",
+        "short_name": "Ryadnov E",
+        "identifiers": [],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Keuss, Matthew J",
+        "short_name": "Keuss MJ",
+        "identifiers": [
+          "0000-0002-2628-4115"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Thompson, David",
+        "short_name": "Thompson D",
+        "identifiers": [
+          "0000-0002-2444-9844"
+        ],
+        "affiliations": [
+          "Mammalian Genetics Unit, MRC Harwell Institute, Oxfordshire OX11 0RD, UK."
+        ]
+      },
+      {
+        "full_name": "Digby, Holly",
+        "short_name": "Digby H",
+        "identifiers": [
+          "0000-0003-1360-9686"
+        ],
+        "affiliations": [
+          "The Francis Crick Institute, London NW1 1AT, UK.",
+          "UK Dementia Research Institute at King's College London, London SE5 9RX, UK."
+        ]
+      },
+      {
+        "full_name": "Knez, Lea",
+        "short_name": "Knez L",
+        "identifiers": [
+          "0009-0006-6555-9536"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "The Francis Crick Institute, London NW1 1AT, UK."
+        ]
+      },
+      {
+        "full_name": "Simkin, Rebecca L",
+        "short_name": "Simkin RL",
+        "identifiers": [],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Diaz, Juan Antinao",
+        "short_name": "Diaz JA",
+        "identifiers": [
+          "0000-0001-7295-2738"
+        ],
+        "affiliations": [
+          "EGA-Institute for Women's Health, University College London, London WC1E 6HX, UK."
+        ]
+      },
+      {
+        "full_name": "Zanovello, Matteo",
+        "short_name": "Zanovello M",
+        "identifiers": [
+          "0000-0003-3343-1547"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "The Francis Crick Institute, London NW1 1AT, UK."
+        ]
+      },
+      {
+        "full_name": "Brown, Anna-Leigh",
+        "short_name": "Brown AL",
+        "identifiers": [
+          "0000-0003-1493-208X"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Darbey, Annalucia",
+        "short_name": "Darbey A",
+        "identifiers": [
+          "0000-0001-8541-5472"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Karda, Rajvinder",
+        "short_name": "Karda R",
+        "identifiers": [
+          "0000-0001-9821-483X"
+        ],
+        "affiliations": [
+          "EGA-Institute for Women's Health, University College London, London WC1E 6HX, UK."
+        ]
+      },
+      {
+        "full_name": "Fisher, Elizabeth M C",
+        "short_name": "Fisher EMC",
+        "identifiers": [
+          "0000-0003-2850-9936"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Cunningham, Thomas J",
+        "short_name": "Cunningham TJ",
+        "identifiers": [
+          "0000-0002-4751-3140"
+        ],
+        "affiliations": [
+          "Mammalian Genetics Unit, MRC Harwell Institute, Oxfordshire OX11 0RD, UK.",
+          "MRC Prion Unit at UCL and UCL Institute of Prion Diseases, London W1W 7FF, UK."
+        ]
+      },
+      {
+        "full_name": "Le Pichon, Claire E",
+        "short_name": "Le Pichon CE",
+        "identifiers": [
+          "0000-0002-9274-3615"
+        ],
+        "affiliations": [
+          "Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Ule, Jernej",
+        "short_name": "Ule J",
+        "identifiers": [
+          "0000-0002-2452-4277"
+        ],
+        "affiliations": [
+          "The Francis Crick Institute, London NW1 1AT, UK.",
+          "UK Dementia Research Institute at King's College London, London SE5 9RX, UK."
+        ]
+      },
+      {
+        "full_name": "Fratta, Pietro",
+        "short_name": "Fratta P",
+        "identifiers": [
+          "0000-0002-8762-8188"
+        ],
+        "affiliations": [
+          "UCL Queen Square Motor Neuron Disease Centre, Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "The Francis Crick Institute, London NW1 1AT, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2024 Oct 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/04 07:19",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42541567",
+      "42383305",
+      "42239172",
+      "42213808",
+      "42135847",
+      "42013476",
+      "41720774",
+      "41720762",
+      "41497595",
+      "41325101",
+      "41303511",
+      "41030970",
+      "40949955",
+      "40936170",
+      "40933610",
+      "40667039",
+      "40654997",
+      "40562864",
+      "40468389",
+      "40291645",
+      "40252666",
+      "40029669",
+      "39901378",
+      "39788898",
+      "39684734",
+      "39671291",
+      "39026766"
+    ],
+    "refs": [
+      "38277467",
+      "37434215",
+      "37142705",
+      "36997524",
+      "36927019",
+      "36922834",
+      "36378958",
+      "36184189",
+      "36182931",
+      "36075972",
+      "35474898",
+      "35241838",
+      "35197628",
+      "35197626",
+      "35113871",
+      "34653350",
+      "34608327",
+      "33795885",
+      "33589617",
+      "33208539",
+      "32790644",
+      "31665631",
+      "31634902",
+      "31422865",
+      "31042469",
+      "31039256",
+      "30661751",
+      "30643298",
+      "30643292",
+      "30357393",
+      "29750242",
+      "28671695",
+      "28263295",
+      "27869816",
+      "27495267",
+      "26250685",
+      "25652699",
+      "25122661",
+      "24240615",
+      "23104886",
+      "22174863",
+      "21205896",
+      "20110278",
+      "17076895",
+      "11470789"
+    ],
+    "similar": [
+      "39361759",
+      "38014203",
+      "28549443",
+      "37527763",
+      "35567447",
+      "35197626",
+      "36930682",
+      "38723906",
+      "28007900",
+      "35197628",
+      "35790708",
+      "26250685",
+      "38175301",
+      "38277467",
+      "36927019",
+      "38278991",
+      "35773026",
+      "24355761",
+      "30785719",
+      "36809847",
+      "36922834",
+      "29764981",
+      "26526887",
+      "38401571",
+      "31332509",
+      "20864052",
+      "34118419",
+      "38443601",
+      "24931836",
+      "37466726",
+      "40157355",
+      "33729478",
+      "39114608",
+      "34290285",
+      "35946434",
+      "24750229",
+      "33065281",
+      "34972208",
+      "22083254",
+      "27445339",
+      "27087014",
+      "33855783",
+      "29562314",
+      "33832769",
+      "36827976",
+      "31690696",
+      "30667370",
+      "29142232",
+      "21086759",
+      "35641224",
+      "40238886",
+      "24506814",
+      "35383280",
+      "31042469",
+      "24355598",
+      "37813308",
+      "23382207",
+      "30824544",
+      "26525917",
+      "38366598",
+      "38115557",
+      "22900096",
+      "35778567",
+      "34115105",
+      "23023293",
+      "25792726",
+      "30003873",
+      "38635657",
+      "29153328",
+      "35667630",
+      "28112502",
+      "32487123",
+      "34360544",
+      "38062485",
+      "38029395",
+      "24143176",
+      "21881207",
+      "21421050",
+      "19781077",
+      "30030424",
+      "28848086",
+      "39901378",
+      "26751860",
+      "23042786",
+      "29556029",
+      "33074248",
+      "35231559",
+      "19333444",
+      "28854702",
+      "29438978",
+      "37864255",
+      "33632058",
+      "28158562",
+      "24462217",
+      "28380257",
+      "37605276",
+      "29954341",
+      "28817800",
+      "32369233",
+      "39069095"
+    ],
+    "review": [
+      "39361759",
+      "38723906",
+      "35790708",
+      "30785719",
+      "36922834",
+      "38401571",
+      "20864052",
+      "24931836",
+      "39114608",
+      "35946434",
+      "27087014",
+      "33832769",
+      "21086759",
+      "24506814",
+      "24355598",
+      "37813308",
+      "28112502",
+      "32487123",
+      "34360544",
+      "38029395",
+      "39901378",
+      "26751860",
+      "19333444",
+      "33632058",
+      "28380257",
+      "29954341"
+    ],
+    "pmc": [
+      "7616720"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.adk2539",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://www.ovid.com/39361759.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39361759/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39361759",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-997",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

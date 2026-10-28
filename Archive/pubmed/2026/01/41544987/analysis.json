@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41544987",
+  "title": "Dbert2_LR: A deep learning-based model for predicting cis-regulatory elements in crops.",
+  "authors": "Liu, Huan; Guo, Faxu; Huang, Longyu; Wang, Jian; Zhou, Guomin; Zhang, Jianhua",
+  "journal": "Genomics",
+  "published_date": "2026-01-17",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用DNABERT-2与RNN/LSTM混合深度学习模型预测作物顺式调控元件，并通过ISM验证模型依赖转录因子结合基序，虽非直接建模TF-DNA三维互作，但聚焦TF结合位点预测且方法可迁移至本课题。",
+  "abstract": "Cis-regulatory elements (CREs) are key determinants of gene expression underlying complex agronomic traits. However, accurately identifying CREs in crops with large and highly repetitive genomes (such as upland cotton) remains extremely challenging. To address this, we developed Dbert2_LR, a novel hybrid deep-learning framework that integrates the pretrained genomic foundation model DNABERT-2 with parallel bidirectional RNN and LSTM networks. This architecture efficiently captures both deep contextual dependencies and local sequence patterns in DNA, enabling high-accuracy classification of promoters, enhancers, and non-regulatory sequences. Systematic evaluations on Arabidopsis thaliana and upland cotton show that Dbert2_LR outperforms multiple benchmark models, achieving macro-averaged F1 scores of 0.890 and 0.637, respectively. More importantly, in-silico saturation mutagenesis (ISM) analysis confirmed that the model's decisions strongly depend on known transcription factor binding motifs such as TATA-box, DOF, and E-box, revealing its biological interpretability and helping overcome the \"black-box\" nature of deep learning. To facilitate broader use, we also developed user-friendly A_cre and C_cre prediction systems. This study provides a powerful new tool for functional annotation of complex crop genomes and lays the foundation for CRE-based molecular breeding design.",
+  "abstract_zh": "顺式调控元件（cis-regulatory elements, CREs）是决定复杂农艺性状基因表达的关键因素。然而，在具有大且高度重复基因组的作物（如陆地棉）中准确识别CREs仍极具挑战性。为解决这一问题，我们开发了Dbert2_LR，一种新型混合深度学习框架，将预训练的基因组基础模型DNABERT-2与并行双向RNN和LSTM网络相结合。该架构有效捕获DNA中的深层上下文依赖关系和局部序列模式，实现对启动子、增强子及非调控序列的高精度分类。在拟南芥（Arabidopsis thaliana）和陆地棉上的系统评估表明，Dbert2_LR优于多种基准模型，分别达到0.890和0.637的宏平均F1分数。更重要的是，计算机模拟饱和突变（in-silico saturation mutagenesis, ISM）分析证实，模型决策强烈依赖于已知转录因子结合基序，如TATA-box、DOF和E-box，揭示了其生物学可解释性，并有助于克服深度学习的“黑箱”特性。为促进更广泛应用，我们还开发了用户友好的A_cre和C_cre预测系统。本研究为复杂作物基因组的功能注释提供了强大的新工具，并为基于CRE的分子育种设计奠定了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41544987/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41544987/",
+  "paper_page_path": "papers/pubmed/41544987/index.html"
+}

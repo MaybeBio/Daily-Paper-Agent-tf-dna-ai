@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34000983",
+  "title": "An improved DNA-binding hot spot residues prediction method by exploring interfacial neighbor properties.",
+  "authors": "Zhang, Sijia; Wang, Lihua; Zhao, Le; Li, Menglu; Liu, Mengya; Li, Ke; Bin, Yannan; Xia, Junfeng",
+  "journal": "BMC bioinformatics",
+  "published_date": "2021-05-19",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于界面邻居特征和SVM的DNA结合热点残基预测方法inpPDH，聚焦蛋白-DNA互作界面关键残基识别，方法可迁移至TF-DNA结合位点预测，高度匹配课题。",
+  "abstract": "BACKGROUND: DNA-binding hot spots are dominant and fundamental residues that contribute most of the binding free energy yet accounting for a small portion of protein-DNA interfaces. As experimental methods for identifying hot spots are time-consuming and costly, high-efficiency computational approaches are emerging as alternative pathways to experimental methods. RESULTS: Herein, we present a new computational method, termed inpPDH, for hot spot prediction. To improve the prediction performance, we extract hybrid features which incorporate traditional features and new interfacial neighbor properties. To remove redundant and irrelevant features, feature selection is employed using a two-step feature selection strategy. Finally, a subset of 7 optimal features are chosen to construct the predictor using support vector machine. The results on the benchmark dataset show that this proposed method yields significantly better prediction accuracy than those previously published methods in the literature. Moreover, a user-friendly web server for inpPDH is well established and is freely available at http://bioinfo.ahu.edu.cn/inpPDH . CONCLUSIONS: We have developed an accurate improved prediction model, inpPDH, for hot spot residues in protein-DNA binding interfaces by given the structure of a protein-DNA complex. Moreover, we identify a comprehensive and useful feature subset including the proposed interfacial neighbor features that has an important strength for identifying hot spot residues. Our results indicate that these features are more effective than the conventional features considered previously, and that the combination of interfacial neighbor features and traditional features may support the creation of a discriminative feature set for efficient prediction of hot spot residues in protein-DNA complexes.",
+  "abstract_zh": "背景：DNA结合热点残基是主导且基础的残基，它们贡献了大部分结合自由能，但仅占蛋白质-DNA界面的一小部分。由于识别热点的实验方法耗时且成本高昂，高效的计算方法正逐渐成为实验方法的替代途径。结果：在此，我们提出了一种新的计算方法，命名为inpPDH，用于热点预测。为提高预测性能，我们提取了混合特征，这些特征融合了传统特征和新的界面邻居属性。为去除冗余和不相关特征，采用了两步特征选择策略进行特征选择。最终，选择了7个最优特征的子集，使用支持向量机构建预测器。基准数据集上的结果表明，该方法在预测准确性上显著优于文献中先前发表的方法。此外，为inpPDH建立了一个用户友好的网络服务器，并免费提供于http://bioinfo.ahu.edu.cn/inpPDH。结论：我们开发了一个准确改进的预测模型inpPDH，用于在给定蛋白质-DNA复合物结构的情况下预测蛋白质-DNA结合界面中的热点残基。此外，我们确定了一个全面且有用的特征子集，包括所提出的界面邻居特征，这些特征在识别热点残基方面具有重要优势。我们的结果表明，这些特征比先前考虑的传统特征更有效，并且界面邻居特征与传统特征的结合可能有助于创建用于高效预测蛋白质-DNA复合物中热点残基的判别性特征集。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34000983/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34000983/",
+  "paper_page_path": "papers/pubmed/34000983/index.html"
+}

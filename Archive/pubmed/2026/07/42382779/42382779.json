@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "42382779",
+    "doi": "10.3389/fimmu.2026.1861669",
+    "title": "Nurr1 deficiency orchestrates a coupled liver-gut pathological axis revealed by multi-omics and deep-learning histopathology."
+  },
+  "content": {
+    "abstract": "The nuclear receptor Nurr1 (NR4A2) is a transcriptional regulator of inflammatory homeostasis, but its systemic effects on orchestrating inter-organ communications are largely unknown. Here we show that Nurr1 haplo-insufficiency results in a lethal coupled disorder across the liver-gut axis. Using a CRISPR-Cas9 generated murine model, we find that metabolically-activated heterozygous deficiency of Nurr1 results in profound hepatocellular necrosis and marked hepatic activation of inflammatory and pro-fibrotic genes coupled with dysregulation of the intestinal barrier, and severe small-intestinal dysbiosis. Multi-omics integration reveals a highly penetrant transcriptional signature of this herein termed liver-gut disorder, achieving up to 0.950 accuracy (SVM-RBF, 10-fold cross-validation) in classifying genotypes from integrated multi-omics features. Notably, we also demonstrate that these gene level perturbations in Nurr1 haplo-insufficiency can be thought of as learnable tissue 'morphologies' detectable by AI. Next, we created deep convolutional neural networks that accurately classify genotype from routine histopathology. Our algorithm achieves 99.50% accuracy in classifying hepatic fibrosis (Sirius Red), 99.20% in liver inflammation (H&E) and 92.31% in intestine (H&E). We provide the first multi-omics phenotype of Nurr1 deficiency, revealing its pivotal regulatory role in coordinating liver-gut homeostasis, and establishing a histopathological AI-driven framework. Grad-CAM saliency analysis confirms biological interpretability. Translational relevance is supported by human transcriptomic data (E-GEOD-61260) showing concordant upregulation of COL1A1 (log(2)FC= + 0.725, p < 0.01), TGFB1 (+ 0.429, p < 0.05), and MMP9 (+ 0.969, p < 0.01) alongside reduced NR4A2/NURR1 in human liver disease.",
+    "keywords": [
+      "AI driven phenotyping",
+      "CRISPR-Cas9 haploinsufficiency",
+      "Nurr1 (NR4A2)",
+      "convolutional neural network",
+      "deep learning histopathology",
+      "genotype-to-phenotype map",
+      "liver-gut axis",
+      "multi-omics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Nuclear Receptor Subfamily 4, Group A, Member 2/genetics/deficiency",
+      "Multiomics",
+      "Mice",
+      "*Liver/pathology/metabolism",
+      "*Deep Learning",
+      "Humans",
+      "Liver Cirrhosis/pathology/genetics",
+      "Mice, Knockout",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Faisal, Shah",
+        "Ullah, Ibad",
+        "Kambey, Piniel Alphayo",
+        "Malik, Abdul",
+        "Ejaz, Muhammad Adeel",
+        "Shah, Sajjad Ali",
+        "Li, Yin-Xiong"
+      ],
+      "short_names": [
+        "Faisal S",
+        "Ullah I",
+        "Kambey PA",
+        "Malik A",
+        "Ejaz MA",
+        "Shah SA",
+        "Li YX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Affiliation Center for Cell Lineage Technology and Engineering, Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "China-New Zealand Joint Laboratory on Biomedicine and Health, State Key Laboratory of Respiratory Disease, Guangzhou, China.",
+        "Faculty of Computing Riphah International University, Islamabad, Pakistan.",
+        "Medical Research Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.",
+        "Affiliation Center for Cell Lineage Technology and Engineering, Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "China-New Zealand Joint Laboratory on Biomedicine and Health, State Key Laboratory of Respiratory Disease, Guangzhou, China.",
+        "Medical Research Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.",
+        "Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+        "Affiliation Center for Cell Lineage Technology and Engineering, Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Institute of Biotechnology and Microbiology, Bacha Khan University, Charsadda, Pakistan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Faisal, Shah",
+        "short_name": "Faisal S",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliation Center for Cell Lineage Technology and Engineering, Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "China-New Zealand Joint Laboratory on Biomedicine and Health, State Key Laboratory of Respiratory Disease, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ullah, Ibad",
+        "short_name": "Ullah I",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Computing Riphah International University, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Kambey, Piniel Alphayo",
+        "short_name": "Kambey PA",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Malik, Abdul",
+        "short_name": "Malik A",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliation Center for Cell Lineage Technology and Engineering, Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "China-New Zealand Joint Laboratory on Biomedicine and Health, State Key Laboratory of Respiratory Disease, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ejaz, Muhammad Adeel",
+        "short_name": "Ejaz MA",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shah, Sajjad Ali",
+        "short_name": "Shah SA",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yin-Xiong",
+        "short_name": "Li YX",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliation Center for Cell Lineage Technology and Engineering, Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Institute of Biotechnology and Microbiology, Bacha Khan University, Charsadda, Pakistan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/01 06:35",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40792354",
+      "37236193",
+      "36208625",
+      "33452411",
+      "32089788",
+      "31399699",
+      "31308507",
+      "31304394",
+      "31142855",
+      "29795328",
+      "29748586",
+      "29540663",
+      "28977843",
+      "28828201",
+      "28487545",
+      "28240261",
+      "28045404",
+      "27646469",
+      "26241646",
+      "26124091",
+      "25858541",
+      "25822914",
+      "24458024",
+      "24440671",
+      "24374295",
+      "23342015",
+      "23288947",
+      "22297845",
+      "21725321",
+      "20016108",
+      "19345186",
+      "16906154",
+      "16243425",
+      "9608532"
+    ],
+    "similar": [
+      "42382779",
+      "42516387",
+      "41831735",
+      "38626607",
+      "27646469",
+      "42292398",
+      "40932596",
+      "42693054",
+      "42450300",
+      "41939867",
+      "41980384",
+      "42127596",
+      "41723574",
+      "42087233",
+      "42444162",
+      "40929881",
+      "41785727",
+      "41933745",
+      "42558367",
+      "37463623",
+      "42439684",
+      "33991560",
+      "42532227",
+      "42757697",
+      "42141403",
+      "42620267",
+      "21545404",
+      "39842118",
+      "31110021",
+      "42394493",
+      "42586489",
+      "41844050",
+      "38554847",
+      "23341612",
+      "41776388",
+      "41895142",
+      "21820432",
+      "42622353",
+      "41673803",
+      "42533568",
+      "31455763",
+      "40689656",
+      "40793786",
+      "32220507",
+      "39405120",
+      "21531044",
+      "42516436",
+      "41453546",
+      "30111648",
+      "41707756",
+      "40680331",
+      "42157054",
+      "41586310",
+      "42558149",
+      "40064115",
+      "41656838",
+      "42310552",
+      "41962267",
+      "40887856",
+      "42588196",
+      "40449450",
+      "20421523",
+      "41877243",
+      "41742234",
+      "42123919",
+      "35797416",
+      "41074150",
+      "40165060",
+      "38959553",
+      "42087232",
+      "40055293",
+      "19526279",
+      "42121260",
+      "42102707",
+      "42172982",
+      "41690886",
+      "41901074",
+      "42092952",
+      "41431109",
+      "36522461",
+      "41903757",
+      "30091925",
+      "42372898",
+      "32181533",
+      "42236837",
+      "42749447",
+      "42207030",
+      "39603614",
+      "41437173",
+      "41479639",
+      "38066638",
+      "40916281",
+      "25858541",
+      "41977335",
+      "41570783",
+      "42242027",
+      "34712238",
+      "41715092",
+      "42249421",
+      "41924769"
+    ],
+    "review": [
+      "42382779",
+      "41707756",
+      "41586310",
+      "41690886"
+    ],
+    "pmc": [
+      "13316164"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42382779/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3568",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1861669",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

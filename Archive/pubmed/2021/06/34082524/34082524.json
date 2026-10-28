@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "34082524",
+    "doi": "10.1021/acs.jctc.1c00114",
+    "title": "Metadynamics-Based Approaches for Modeling the Hypoxia-Inducible Factor 2alpha Ligand Binding Process."
+  },
+  "content": {
+    "abstract": "Several methods based on enhanced-sampling molecular dynamics have been proposed for studying ligand binding processes. Here, we developed a protocol that combines the advantages of steered molecular dynamics (SMD) and metadynamics. While SMD is proposed for investigating possible unbinding pathways of the ligand and identifying the preferred one, metadynamics, with the path collective variable (PCV) formalism, is suggested to explore the binding processes along the pathway defined on the basis of SMD, by using only two CVs. We applied our approach to the study of binding of two known ligands to the hypoxia-inducible factor 2alpha, where the buried binding cavity makes simulation of the process a challenging task. Our approach allowed identification of the preferred entrance pathway for each ligand, highlighted the features of the bound and intermediate states in the free-energy surface, and provided a binding affinity scale in agreement with experimental data. Therefore, it seems to be a suitable tool for elucidating ligand binding processes of similar complex systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "Basic Helix-Loop-Helix Proteins/*chemistry",
+      "Cluster Analysis",
+      "Ligands",
+      "*Models, Chemical",
+      "Molecular Conformation",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Thermodynamics",
+      "Endothelial PAS Domain-Containing Protein 1"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Callea, Lara",
+        "Bonati, Laura",
+        "Motta, Stefano"
+      ],
+      "short_names": [
+        "Callea L",
+        "Bonati L",
+        "Motta S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3028-0368",
+        "ORCID: 0000-0002-0812-6834"
+      ],
+      "affiliations": [
+        "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Piazza della Scienza 1, 20126 Milan, Italy.",
+        "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Piazza della Scienza 1, 20126 Milan, Italy.",
+        "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Piazza della Scienza 1, 20126 Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Callea, Lara",
+        "short_name": "Callea L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Piazza della Scienza 1, 20126 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Bonati, Laura",
+        "short_name": "Bonati L",
+        "identifiers": [
+          "0000-0003-3028-0368"
+        ],
+        "affiliations": [
+          "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Piazza della Scienza 1, 20126 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Motta, Stefano",
+        "short_name": "Motta S",
+        "identifiers": [
+          "0000-0002-0812-6834"
+        ],
+        "affiliations": [
+          "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Piazza della Scienza 1, 20126 Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2021 Jul 13",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/05 06:00",
+    "fetched_at": "2026-09-27 18:33:14"
+  },
+  "links": {
+    "cites": [
+      "41992872",
+      "41838618",
+      "41356213",
+      "40489055",
+      "40476389",
+      "40372445",
+      "39467204",
+      "39246744",
+      "38516924",
+      "36718422",
+      "35213804"
+    ],
+    "refs": [
+      "32814837",
+      "31509413",
+      "31436987",
+      "31337850",
+      "31188006",
+      "30883122",
+      "30804532",
+      "30468578",
+      "30206609",
+      "29975531",
+      "29599244",
+      "29489822",
+      "29351374",
+      "29285833",
+      "29182104",
+      "28820938",
+      "28616990",
+      "28453271",
+      "28290199",
+      "28256222",
+      "27635045",
+      "27595394",
+      "27595393",
+      "27228114",
+      "27184628",
+      "26807648",
+      "26615687",
+      "26596455",
+      "26574453",
+      "26245371",
+      "26226049",
+      "25891095",
+      "25605901",
+      "25496113",
+      "25450171",
+      "25198248",
+      "25153688",
+      "24456045",
+      "24437446",
+      "24263188",
+      "23579614",
+      "23553839",
+      "23434853",
+      "23363003",
+      "22577825",
+      "22569329",
+      "22238423",
+      "22003321",
+      "21908767",
+      "21332356",
+      "20596009",
+      "20593892",
+      "20462212",
+      "20215464",
+      "20148691",
+      "19950993",
+      "19626711",
+      "19583238",
+      "19129502",
+      "18498103",
+      "18302984",
+      "18232845",
+      "18196463",
+      "17302470",
+      "17212484",
+      "17034125",
+      "16711876",
+      "16458552",
+      "15520816",
+      "15116359",
+      "14643885",
+      "12395429",
+      "12271136",
+      "10592235",
+      "10382673"
+    ],
+    "similar": [
+      "34082524",
+      "29489822",
+      "31868344",
+      "31454236",
+      "26506335",
+      "38059911",
+      "31013635",
+      "28990233",
+      "19950993",
+      "26371312",
+      "32031801",
+      "27667693",
+      "31396907",
+      "39190764",
+      "31535860",
+      "28290199",
+      "27902963",
+      "32449538",
+      "29630379",
+      "22360151",
+      "31396906",
+      "29182104",
+      "37983966",
+      "34888726",
+      "34731059",
+      "28034750",
+      "28453271",
+      "25937822",
+      "31436987",
+      "27771988",
+      "21327922",
+      "31100549",
+      "24615679",
+      "23553839",
+      "37540828",
+      "22183554",
+      "30913388",
+      "31396904",
+      "25003283",
+      "36346951",
+      "26595261",
+      "30537822",
+      "32145945",
+      "35848778",
+      "30784357",
+      "28410930",
+      "17388445",
+      "33780250",
+      "37279354",
+      "30896293",
+      "26032728",
+      "37161278",
+      "25496113",
+      "22933379",
+      "21541958",
+      "27573983",
+      "25989626",
+      "27231969",
+      "32932609",
+      "29188561",
+      "31697501",
+      "28345907",
+      "24437446",
+      "34647743",
+      "31270236",
+      "28232513",
+      "32814837",
+      "11061977",
+      "31478672",
+      "27142129",
+      "29975531",
+      "29132019",
+      "32644807",
+      "26967371",
+      "27824891",
+      "29132080",
+      "24637074",
+      "31509413",
+      "24549829",
+      "28355542",
+      "37555841",
+      "19583238",
+      "18676643",
+      "27159844",
+      "35512104",
+      "25908641",
+      "31189709",
+      "27222530",
+      "23848713",
+      "18327929",
+      "29188572",
+      "23521602",
+      "30141102",
+      "25906170",
+      "31246463",
+      "28413946",
+      "21359274",
+      "37943667",
+      "37846475",
+      "32771530",
+      "37053454",
+      "37184538",
+      "38177953",
+      "37794083",
+      "25605901",
+      "24116648",
+      "37585703",
+      "35213804",
+      "33498237",
+      "30671430",
+      "22183769",
+      "20876135"
+    ],
+    "review": [
+      "34082524",
+      "34731059",
+      "31100549",
+      "28410930",
+      "25496113",
+      "29975531",
+      "29132080",
+      "28413946",
+      "32771530",
+      "37184538"
+    ],
+    "pmc": [
+      "8280741"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jctc.1c00114",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34082524/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34082524",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.1c00114",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims, and reproducibility based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present TF-EPI, a Transformer-based deep learning model that predicts enhancer-promoter interactions (EPIs) from DNA sequence alone. They claim superior performance over state-of-the-art sequence-based methods on multiple benchmark datasets, interpretability via attention-based motif discovery validated against JASPAR and UniBind, identification of cell-type-specific transcription factors, and improved cross-cell-line EPI detection via a domain-adversarial neural network with transfer learning.
+- **Visible evidence base** Main text including Methods, Results, Discussion, Limitations, Data availability statement. Figures referenced but not provided. Supplementary materials referenced but not provided.
+- **Missing materials affecting confidence** All figures, supplementary tables, supplementary notes, and the GitHub repository contents. These are essential for evaluating performance metrics, motif quality, statistical tests, and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of Transformer architectures to EPI prediction from DNA sequence, with an emphasis on interpretability. The core idea is not entirely novel, as Transformer-based models for regulatory genomics exist, but the specific combination with TextCNN and the detailed attention-based motif analysis may offer incremental value. However, the evidence as presented in the text is insufficient to fully assess the validity of the performance claims, the statistical rigor of the motif analyses, and the biological significance of the findings. Several methodological details are missing or ambiguous, and the reported improvements, particularly in cross-cell-line transfer, are modest and may not be robust. The manuscript is clearly written and accessible, but the scientific case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, enhancer-promoter interaction prediction, and interpretable deep learning for genomics. Researchers interested in sequence-based models that avoid costly epigenomic profiling may also find the approach relevant. The attention-based interpretability framework could be of interest to those developing tools for motif discovery and transcription factor binding site analysis.
+- **Major strengths** The use of a Transformer architecture with attention-based interpretability is a timely and relevant approach. The authors address a practical limitation of many existing methods by requiring only DNA sequence input. The de novo motif discovery and validation against external databases is a valuable addition that goes beyond simple prediction accuracy. The inclusion of cross-cell-line transfer learning is a practical consideration for real-world application.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "TF-EPI achieved the highest AUROCs on all cell lines compared to the other methods" and "our method, which utilizes powerful deep learning architecture Transformer, effectively learns high-dimensional sequence interactions, thereby achieving more accurate EPI classification results."
+  - **Evidence pointer** Section 3.2, Figures 2A-C (not provided)
+  - **Concern** The performance comparison is described only in text. The actual AUROC/AUPR values, confidence intervals, and statistical significance tests are not reported. The claim of superiority over EPIANN and EPI-DLMN is made without showing the full results. Furthermore, the baseline methods are only described as "state-of-the-art" without specifying their configurations or whether hyperparameter tuning was performed fairly for all methods.
+  - **Why it matters** Without full performance metrics and statistical tests, the central claim of improved prediction accuracy cannot be verified. A fair and rigorous comparison is essential for establishing the method's utility.
+  - **Resolution test** Provide full performance tables with AUROC, AUPR, and standard deviations or confidence intervals for all methods and all cell lines. Include statistical significance tests (e.g., DeLong test for AUROC). Describe baseline configurations and hyperparameter tuning procedures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The entire method section describes the model architecture and training, but key hyperparameters, training details, and data preprocessing steps are not fully specified in the main text.
+  - **Evidence pointer** Sections 2.1-2.4, Supplementary Notes S1 and S2 (not provided)
+  - **Concern** The main text lacks specific details on model architecture (number of layers, hidden dimensions, number of attention heads), training hyperparameters (learning rate, batch size, number of epochs, optimizer), and data preprocessing (how sequences were selected, how negative pairs were generated, whether sequence length was fixed). These details are deferred to supplementary materials that were not provided.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without these details, other researchers cannot implement or validate the method.
+  - **Resolution test** Include all architectural and training hyperparameters in the main text or ensure the supplementary materials are available and contain complete specifications.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "over 95% of the de novo motifs were highly similar (p < 0.02) to known motifs in the JASPAR database" and "we identified 25, 10, and 31 TFs in the promoter regions, respectively, and 19, 11, and 31 TFs in the enhancer regions, respectively, as reported in the UniBind database"
+  - **Evidence pointer** Section 3.4, Figures 3A-B, Supplementary Table S2 (not provided)
+  - **Concern** The motif comparison methodology is not described in sufficient detail. The p-value threshold of 0.02 is mentioned, but the multiple testing correction is not discussed. The number of motifs tested, the background model used for the hypergeometric test, and the criteria for "highly similar" are not specified. The validation against UniBind is described only as a count of TFs, without details on how the matching was performed or how significance was assessed.
+  - **Why it matters** Without proper statistical controls and clear methodology, the biological significance of the discovered motifs cannot be established. The claim of discovering cell-type-specific TFs relies on this analysis.
+  - **Resolution test** Describe the motif comparison methodology in detail, including multiple testing correction, background models, and matching criteria. Provide the full list of discovered motifs and their matches in JASPAR and UniBind.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "the introduction of transfer learning can mitigate the challenges posed by cell type-specific gene regulation, yielding enhanced accuracy in cross-cell line EPI detection"
+  - **Evidence pointer** Section 3.6, Figure 4C, Supplementary Table S4 (not provided)
+  - **Concern** The reported improvement from the DANN is an average AUROC increase of 0.015. This is a very small effect and its practical significance is questionable. The text does not report whether this improvement is consistent across all target cell lines or whether it is statistically significant. The choice of DANN for domain adaptation is not justified compared to other transfer learning approaches.
+  - **Why it matters** The cross-cell-line transferability is presented as a key contribution. A marginal improvement that may not be robust undermines this claim.
+  - **Resolution test** Report per-cell-line results with statistical significance tests. Discuss the practical relevance of the improvement and justify the choice of DANN.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5, equation for attention normalization
+  - **Evidence pointer** Section 2.5
+  - **Issue** The normalization formula is written as "attentioninormalized=attentionimean−attentionminattentionmax" which is ambiguous. It is unclear whether the denominator is (attentionmax) or (attentionmax - attentionmin).
+  - **Required correction** Clarify the formula, likely as (attention_i_mean - attention_min) / (attention_max - attention_min).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.1, data preparation
+  - **Evidence pointer** Section 2.1, Supplementary Note S1
+  - **Issue** The description of negative pair generation is not provided in the main text. The balance of positive and negative samples and the criteria for defining negative pairs are critical for understanding the classification task.
+  - **Required correction** Briefly describe the negative pair generation strategy in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.3, attention analysis
+  - **Evidence pointer** Section 3.3, Figures 2D-F
+  - **Issue** The interpretation of attention patterns (e.g., "strong vertical lines" around the SEP token) is qualitative. The claim that the model "captured information from relatively distant regions" is not supported by quantitative analysis.
+  - **Required correction** Provide quantitative measures of attention patterns, such as positional bias statistics or comparisons to random attention.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.4, TF identification
+  - **Evidence pointer** Section 3.4
+  - **Issue** The text states "TFs that have not been documented may also be important for specific cell types" without further elaboration. This is speculative and not tied to any specific finding.
+  - **Required correction** Either remove this speculation or provide specific examples of undocumented TFs and their potential relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (performance comparison without full metrics), R1-M2 (insufficient methodological detail for reproducibility), R1-M3 (statistical rigor of motif analysis)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. Transformer-based models for regulatory genomics are emerging, and the specific combination with TextCNN and attention-based motif discovery is somewhat novel, but the overall approach is incremental.
+  - Scientific importance: Moderate. EPI prediction is an important problem, and sequence-only methods have practical value, but the reported improvements are modest and the biological insights are preliminary.
+  - Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational biologists and bioinformaticians. The biological validation is not deep enough to attract a broader genomics audience.
+  - Technical soundness: Not fully established. Key methodological details and statistical analyses are missing, and the performance claims cannot be verified from the provided material.
+  - Readability for nonspecialists: Acceptable. The manuscript is clearly written, but the technical depth and lack of context for biological significance may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the missing figures, supplementary materials, and methodological details prevent a full assessment. Major revisions are required to provide complete performance metrics, statistical rigor, and reproducibility details.
+
+## Risk / unsupported claims
+- The claim of superior performance over state-of-the-art methods is unsupported without full performance tables and statistical tests.
+- The claim that "over 95% of the de novo motifs were highly similar to known motifs" is unsupported without details on the comparison methodology and multiple testing correction.
+- The claim that the DANN improves cross-cell-line detection is weakly supported given the small reported effect size.
+- The claim that identified TFs are "relevant to the source information of the cell line" is based on a few examples and lacks systematic validation.
+- The claim that the model captures "biological language grammars" is speculative and not rigorously defined or tested.

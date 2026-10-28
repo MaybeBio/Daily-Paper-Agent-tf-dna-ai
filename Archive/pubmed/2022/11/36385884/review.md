@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, experimental section, supplementary material references)
+- **Assessment boundary** Scientific content, technical soundness, data interpretation, and claims as presented in the provided manuscript text. No external literature or unpublished data consulted.
+- **Shared manuscript claim summary** The authors report the synthesis and characterization of two new Pt(II) complexes with a cyclohexylglycine ligand, [Pt(NH3)2(L)]NO3 (1) and [Pt(bipy)(L)]NO3 (2), and evaluate their DNA binding and anticancer activity against the HCT116 colon cancer cell line using experimental and theoretical methods.
+- **Visible evidence base** FT-IR, NMR (1H, 13C, 195Pt), LC-MS, elemental analysis, UV-vis, HPLC, single-crystal X-ray diffraction (complex 2 only), DFT calculations, molecular docking, fluorescence spectroscopy, CD spectroscopy, and MTT cytotoxicity assays.
+- **Missing materials affecting confidence** Full crystallographic data (CIF files, refinement details), raw spectra, complete DFT output data, docking pose coordinates, statistical analysis of biological replicates, and supplementary figures/tables referenced but not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward synthesis and characterization study of two Pt(II) complexes, with a focus on DNA binding and preliminary cytotoxicity. The experimental work is largely descriptive, and the theoretical component adds limited mechanistic insight. The central claims regarding DNA binding mode and anticancer activity are only partially supported by the data presented. The study lacks quantitative rigor in several areas, particularly in the biological assays and the interpretation of computational results. The manuscript would benefit from a more critical analysis of the data and a clearer articulation of the novelty relative to existing Pt-amino acid complexes.
+- **Who would be interested in the results, and why** Researchers in the field of bioinorganic chemistry, specifically those working on Pt-based anticancer drug development and DNA-binding studies of metal complexes. The work may also be of interest to computational chemists studying metal complex-DNA interactions, though the theoretical depth is limited.
+- **Major strengths** The manuscript provides a comprehensive characterization of the synthesized complexes using multiple complementary techniques. The single-crystal X-ray structure of complex 2 is a valuable addition. The combination of experimental and theoretical approaches to study DNA binding is commendable, and the comparison with clinical Pt drugs provides useful context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the complexes bind to DNA via noncovalent interactions, specifically electrostatic and groove binding, and that complex 2 binds via minor groove binding.
+  - **Evidence pointer** Section "Metallodrug Function during DNA Interaction as a Target", "Competitive Fluorescent Measurements", "CD Study", "Docking Simulation Data", Tables 4-6, Figures 10-12
+  - **Concern** The evidence for the proposed DNA binding modes is not conclusive. The UV-vis thermal denaturation data (Figure 10) show changes in DNA absorption, but the interpretation of these changes as "conformational DNA denaturation" is not rigorously justified. The fluorescence quenching data with EB and Hoechst 33258 are presented, but the calculated Ksv and Kb values are relatively low, and the distinction between static and dynamic quenching is not clearly established. The CD data (Figure 12) are described qualitatively, but no quantitative analysis of the spectral changes is provided. The molecular docking results are used to support the binding modes, but the docking methodology and the significance of the binding energies are not critically discussed. The claim that complex 2 binds via minor groove binding is primarily based on the Hoechst displacement assay, but the displacement is only partial (49% quenching), which does not unambiguously demonstrate competitive binding at the same site.
+  - **Why it matters** The proposed DNA binding mechanism is a central claim of the manuscript and is used to explain the observed biological activity. If the binding mode is not convincingly established, the mechanistic interpretation of the anticancer activity is weakened.
+  - **Resolution test** Provide quantitative analysis of the CD spectral changes (e.g., molar ellipticity values), perform a more rigorous analysis of the fluorescence quenching data (e.g., Stern-Volmer plots with proper error analysis, determination of quenching rate constants), and include a more detailed discussion of the docking results, including validation of the docking protocol and consideration of alternative binding sites. Ideally, additional experiments such as viscosity measurements or DNA melting curve analysis would strengthen the binding mode assignment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors claim that complex 1 has a lower IC50 value (35.51 μM) than complex 2 (51.33 μM) and is therefore more effective at inhibiting HCT116 cell growth.
+  - **Evidence pointer** Section "In Vitro Cytotoxicity Study", Figure 13, Table 7
+  - **Concern** The cytotoxicity data are presented as IC50 values, but the experimental details are insufficient. The manuscript states that cells were treated with concentrations from 0 to 100 μM, but the number of replicates, the statistical analysis, and the method for calculating IC50 are not described. The IC50 values are reported without error bars or confidence intervals, making it impossible to assess whether the difference between the two complexes is statistically significant. Furthermore, the comparison with cisplatin, carboplatin, and oxaliplatin is made, but the experimental conditions for these reference compounds are not specified. The claim that complex 1 is "more effective" is not supported by the data as presented.
+  - **Why it matters** The cytotoxicity data are a key result of the study and are used to support the potential of these complexes as anticancer agents. Without proper statistical analysis and experimental detail, the reliability of these claims cannot be evaluated.
+  - **Resolution test** Provide full experimental details for the MTT assay, including the number of replicates, the duration of exposure, the method for IC50 calculation, and appropriate statistical analysis (e.g., mean ± SD, significance testing). Include dose-response curves for all compounds tested. If the difference between the complexes is not statistically significant, this should be stated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors claim that the DFT calculations and quantum chemical descriptors (QCDs) predict the biological activity and DNA binding affinity of the complexes, and that the ranking of biological activity is 2 > cisplatin > 1 > HL.
+  - **Evidence pointer** Section "DFT Investigation", Table 3, Table S7
+  - **Concern** The DFT calculations are used to derive QCDs, but the methodology is not described in sufficient detail. The manuscript states that the UB3LYP/6-311G(d,p)(LANL2DZ) method was used, but the solvation model, if any, is not specified. The interpretation of the QCDs is superficial. The claim that a lower Egap indicates higher biological reactivity is a general statement that is not rigorously justified. The ranking of biological activity based on QCDs is presented without a clear correlation to the experimental data. In fact, the experimental IC50 data show that complex 1 is more active than complex 2, which contradicts the QCD-based ranking. This discrepancy is not addressed.
+  - **Why it matters** The theoretical calculations are presented as a predictive tool for biological activity. If the predictions do not correlate with the experimental results, the validity of the theoretical approach is called into question, and the conclusions drawn from the QCDs are not reliable.
+  - **Resolution test** Provide a more detailed description of the computational methodology, including the solvation model and any corrections applied. Present a clear correlation analysis between the calculated QCDs and the experimental IC50 values. Discuss the discrepancy between the predicted and observed activity rankings. If the QCDs are not predictive, this should be acknowledged.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors claim that the synthesized complexes are stable in water and buffer solutions based on UV-vis measurements.
+  - **Evidence pointer** Section "Structure Validation Based on Spectral Data", Figures S2 and S3
+  - **Concern** The stability study is described only briefly. The manuscript states that "for a few days, the absorption was measured at the λmax of each complex. No shift was observed." This is insufficient to establish stability. The time frame is vague, and no quantitative data (e.g., absorbance values over time) are provided. The stability of the complexes in the cell culture medium used for the cytotoxicity assays is not assessed.
+  - **Why it matters** The stability of the complexes is important for their potential use as drugs and for the interpretation of the biological data. If the complexes degrade in solution, the observed activity may be due to degradation products rather than the intact complexes.
+  - **Resolution test** Provide a detailed stability study with a defined time course, quantitative absorbance data, and analysis of any spectral changes. Assess stability in the relevant biological media (e.g., cell culture medium) over the duration of the biological experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Experimental section, "Synthesis of [Pt(bipy)(L)]NO3 (2)"
+  - **Evidence pointer** Section "Synthesis of [Pt(bipy)(L)]NO3 (2)"
+  - **Issue** The synthesis of complex 2 states that the reaction was maintained for "one day" after addition of the ligand, but the initial suspension was stirred for "two weeks." The rationale for this extended time is not explained.
+  - **Required correction** Clarify the reaction times and provide a rationale for the extended stirring period.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** X-ray crystallography section
+  - **Evidence pointer** Section "X-ray Structure Determination and Structure Refinement"
+  - **Issue** The manuscript states that "Least-squares refinement was used to create cell constants and orientation matrices for all reflections." This is a non-standard description. Typically, cell constants are determined from a subset of reflections, and orientation matrices are used for data collection.
+  - **Required correction** Reword this sentence to accurately describe the crystallographic procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 5
+  - **Evidence pointer** Section "Metallodrug Function during DNA Interaction as a Target", Table 5
+  - **Issue** The thermodynamic parameters (ΔH° and ΔS°) are reported, but the units are not specified in the text. The values are given in the table, but the units are missing.
+  - **Required correction** Add the appropriate units to the thermodynamic parameters in Table 5 and the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 13
+  - **Evidence pointer** Section "In Vitro Cytotoxicity Study", Figure 13
+  - **Issue** The figure is described as showing cell viability data, but the axes are not clearly labeled in the text description. It is unclear whether the y-axis represents cell viability percentage or absorbance.
+  - **Required correction** Ensure that all axes in Figure 13 are clearly labeled and described in the figure caption.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The phrase "Because of their extraordinary ability to disrupt the natural structure of nucleic acids" is overly broad and not specific to the complexes studied. The introduction would benefit from a more focused statement of the rationale for using cyclohexylglycine as a ligand.
+  - **Required correction** Revise the abstract and introduction to provide a more specific and focused rationale for the study.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical analysis for the cytotoxicity data (R1-M2), the insufficient evidence for the proposed DNA binding modes (R1-M1), the discrepancy between the theoretical predictions and experimental results (R1-M3), and the inadequate stability assessment (R1-M4) are the primary technical failings that prevent the case from being established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The synthesis of Pt complexes with amino acid ligands is not new. The use of cyclohexylglycine is a minor variation on existing work. The study does not present a fundamentally new concept or approach.
+  - **Scientific importance** The work addresses a relevant topic in anticancer drug development, but the findings are incremental. The study does not provide significant new insights into the mechanism of action of Pt complexes or offer a substantially improved therapeutic candidate.
+  - **Interdisciplinary readership** The work is primarily of interest to specialists in bioinorganic and medicinal chemistry. The theoretical component is not sufficiently developed to attract a broader computational chemistry audience. The biological data are too preliminary to appeal to a cancer biology readership.
+  - **Technical soundness** The characterization of the complexes is generally sound, but the biological and computational aspects have significant technical weaknesses, as detailed in the major concerns.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that is accessible to specialists but would be challenging for a general scientific audience. The abstract is somewhat broad, and the introduction assumes familiarity with Pt-based chemotherapy.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has merit in its synthetic and characterization work, but the central claims regarding DNA binding and anticancer activity are not sufficiently supported. The technical concerns, particularly regarding the biological data and the inconsistency between theory and experiment, must be addressed before the case can be made.
+
+## Risk / unsupported claims
+- The claim that the complexes are "oral medications" based on ADME predictions is speculative and not supported by in vivo data.
+- The claim that complex 1 is "better at passing through the cell membrane than complex 2" is not supported by any experimental evidence.
+- The ranking of biological activity (2 > cisplatin > 1 > HL) based on QCDs is not supported by the experimental IC50 data, which show complex 1 to be more active than complex 2.
+- The statement that the complexes bind to DNA via "noncovalent interactions" is not fully established, as the possibility of partial intercalation or covalent binding is not rigorously excluded.
+- The claim that the complexes are "stable in water and buffer solutions" is based on a vague and insufficiently detailed stability study.
+- The biological relevance of the DNA binding studies is limited, as only one cell line (HCT116) was tested, and no normal cell line was included for comparison.

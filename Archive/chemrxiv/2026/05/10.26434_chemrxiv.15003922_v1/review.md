@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific claims, methodology, evidence consistency, and presentation as presented in the supplied material
+- **Shared manuscript claim summary** The authors report a combined experimental and computational study of a cationic benzo[a]phenoxazin ligand binding to the parallel c-MYC G-quadruplex (Pu22). They claim high binding affinity (K = (2.9 ± 0.3) x 10^7 M^-1), rapid association (k_on = (2.4 ± 0.2) x 10^9 M^-1 s^-1), a residence time of ~10 ms from FCS, and ~9 ms from iMetaD simulations. They further claim that WT-MetaD reproduces the experimental binding free energy and reveals multiple binding orientations separated by ~30-35 kJ mol^-1 barriers, and that dissociation occurs through a specific loop region.
+- **Visible evidence base** Abstract text only; no figures, tables, methods section, or supplementary information provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, simulation setup details, FCS data analysis details, error analysis, control experiments, and supplementary information
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in G-quadruplex ligand design, namely the kinetic and thermodynamic determinants of ligand binding, with a particular focus on residence time. The combination of FCS with multiple enhanced-sampling MD techniques is ambitious and potentially impactful. However, based solely on the abstract, the evidence base is insufficient to evaluate the robustness of the claims. Several quantitative assertions lack methodological context, and the consistency between experimental and computational results, while striking, requires careful scrutiny of the underlying assumptions and error estimates. The work is potentially significant, but the current presentation does not allow a full assessment of its validity.
+- **Who would be interested in the results, and why** Researchers in chemical biology, biophysics, and computational chemistry working on G-quadruplex targeting, drug residence time concepts, and enhanced-sampling simulation methodology. The work may also interest medicinal chemists developing G4-targeted anticancer agents, as it proposes a framework for optimizing residence time through rational design.
+- **Major strengths** The combination of experimental kinetics (FCS) with two complementary enhanced-sampling approaches (WT-MetaD and iMetaD) is conceptually strong and addresses a gap in the G4 ligand field. The explicit focus on residence time as a design parameter is timely and aligns with current thinking in drug discovery. The reported agreement between FCS-derived residence time (~10 ms) and iMetaD-derived value (~9 ms) is compelling if the underlying analyses are sound.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that FCS measurements yield a ligand association rate of k_on = (2.4 ± 0.2) x 10^9 M^-1 s^-1 and a residence time of ~10 ms
+  - **Evidence pointer** Abstract, FCS results section (location not provided)
+  - **Concern** The FCS analysis is described only as "reaction-coupled diffusion kinetics." No details are provided on the FCS model used, how the reaction term was incorporated, whether the diffusion coefficient of the free and bound species were independently determined, or how the association rate was extracted. The reported k_on approaches the diffusion-limited regime, which requires careful validation against artifacts such as triplet blinking, photobleaching, or concentration-dependent aggregation.
+  - **Why it matters** The kinetic parameters are central to the manuscript's thesis. If the FCS model is misspecified or the errors underestimated, the reported residence time and association rate may be incorrect, undermining the comparison with iMetaD and the overall conclusion.
+  - **Resolution test** Provide the full FCS analysis details, including the fitting model, residuals, control experiments (e.g., varying excitation power, ligand concentration range), and a clear description of how k_on and residence time were derived with proper error propagation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that WT-MetaD simulations reconstruct a converged free-energy surface providing binding free energy consistent with the experimental value
+  - **Evidence pointer** Abstract, WT-MetaD results section (location not provided)
+  - **Concern** The abstract states that WT-MetaD employed "contact-pair-based and hydration collective variables" but provides no information on the number of collective variables, the bias deposition parameters, the total simulation time, the convergence criteria, or the error estimate on the computed binding free energy. The claim of consistency with the experimental K value requires a quantitative comparison, which is not shown.
+  - **Why it matters** Free-energy calculations from metadynamics are highly sensitive to collective variable choice and convergence. Without these details, the agreement with experiment cannot be assessed, and the claim of a "quantitative benchmark" is not established.
+  - **Resolution test** Provide the free-energy surface, the computed binding free energy with uncertainty, the convergence analysis (e.g., free-energy difference as a function of time), and a direct comparison with the experimental value.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that iMetaD simulations recover a ligand residence time of ~9 ms, closely matching the FCS result
+  - **Evidence pointer** Abstract, iMetaD results section (location not provided)
+  - **Concern** iMetaD is designed to accelerate rare events, and the recovery of an absolute residence time requires careful treatment of the acceleration factor and the underlying transition state ensemble. The abstract does not describe how the residence time was extracted from iMetaD, how many dissociation events were observed, what the statistical uncertainty is, or how the bias deposition affects the kinetics. The close agreement with FCS (~9 ms vs ~10 ms) is suspiciously precise given the typical uncertainties in such calculations.
+  - **Why it matters** The agreement between iMetaD and FCS is a central claim of the manuscript. If the iMetaD analysis is not statistically robust or the acceleration correction is flawed, the agreement may be fortuitous, and the "quantitative benchmark" claim collapses.
+  - **Resolution test** Provide the number of dissociation events, the distribution of residence times from iMetaD, the uncertainty estimate, and a detailed description of the acceleration correction method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that this work "provides a generalizable multiscale framework for elucidating deeper molecular insight into ligand-G4 recognition across energy and time scales"
+  - **Evidence pointer** Abstract, conclusion section (location not provided)
+  - **Concern** The generalizability of the framework is asserted but not demonstrated. The study is limited to a single ligand and a single G4 sequence. No evidence is presented that the approach transfers to other ligand chemotypes or G4 topologies, nor that the collective variables and simulation protocols are broadly applicable.
+  - **Why it matters** The broader significance of the work depends on its generalizability. Without demonstration, the claim is speculative and overreaches the presented data.
+  - **Resolution test** Either temper the claim to reflect the single-system nature of the study or provide preliminary data on a second ligand or G4 sequence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, methods summary (location not provided)
+  - **Issue** The abstract uses specialized terminology (e.g., "contact-pair-based and hydration collective variables," "well-tempered metadynamics," "infrequent metadynamics") without brief explanations. Nonspecialist readers in the broader chemical biology community may struggle to follow the methodological distinctions.
+  - **Required correction** Add brief parenthetical explanations for each enhanced-sampling method and collective variable type, or provide a schematic figure in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Binding affinity value
+  - **Evidence pointer** Abstract, steady-state fluorescence titration (location not provided)
+  - **Issue** The binding constant is reported as K = (2.9 ± 0.3) x 10^7 M^-1, but the notation "∓" is used in the abstract, which is unconventional and may indicate a typographical error. The units and the definition of K (association vs dissociation) are not explicitly stated.
+  - **Required correction** Clarify the notation and explicitly state whether K is an association or dissociation constant, with appropriate units.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract, introduction (location not provided)
+  - **Issue** The abstract states that kinetic and thermodynamic parameters for ligand-G4 interactions "have not been sufficiently characterized," but no specific prior studies are cited or discussed in the abstract. It is unclear what gap this work fills relative to existing kinetic studies of G4 ligands.
+  - **Required correction** In the main text, provide a more detailed comparison to prior kinetic and thermodynamic studies of G4 ligand binding, and explicitly state the novelty of the residence time measurement in this context.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central quantitative claims (FCS kinetics, WT-MetaD free energy, iMetaD residence time) cannot be evaluated without full methodological details and error analysis. The agreement between experiment and simulation, which is the core of the manuscript, is not verifiable from the supplied material.
+
+## Risk / unsupported claims
+- The claim of a "quantitative benchmark" between enhanced-sampling simulations and experimental kinetics is unsupported without full simulation details and statistical uncertainties.
+- The claim that the ligand dissociation pathway is "highly directional" through the T7-G8-G9 loop region is unverifiable without trajectory analysis or free-energy profiles along the dissociation coordinate.
+- The claim that the framework is "generalizable" is unsupported, as only one ligand and one G4 sequence were studied.
+- The reported agreement between FCS (~10 ms) and iMetaD (~9 ms) residence times is not assessable for statistical significance without uncertainty estimates.
+- The binding affinity value and its error are not assessable without titration curves and fitting details.

@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, supplementary material) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the presented method, results, and claims. No line-by-line editorial review.
+- **Shared manuscript claim summary** The authors present FeatureDCA, an autoregressive extension of Direct Coupling Analysis (DCA) that conditions sequence generation on principal components (PCs) derived from multiple sequence alignments (MSAs). They claim that this approach enables controllable generation toward targeted regions of sequence space, matches or surpasses existing models (bmDCA, ArDCA) in reproducing higher-order sequence statistics, maintains sequence diversity, produces structurally valid folds, and can distinguish functional subclasses within a protein family. They also report competitive performance in predicting deep mutational scanning (DMS) data.
+- **Visible evidence base** Main text figures (Figures 1–7) are referenced but not provided. Supplementary figures (S1–S7) are referenced but not provided. Mathematical derivations are provided in Supplementary Sections B and C. Implementation details are in Supplementary Section C. Data processing details are in Supplementary Section D.
+- **Missing materials affecting confidence** All figures and tables are absent from the provided material. The main text references specific numerical results (e.g., Pearson coefficients, Sinkhorn divergences, RMSD values) without reporting the actual numbers. The full derivations in the Supplementary are present but the main text equations are partially rendered. The DMS benchmark details are only in the Supplementary. The absence of figures and quantitative results severely limits the ability to verify the central claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful extension of autoregressive DCA by incorporating PCA-based conditioning. The mathematical framework is clearly derived and the autoregressive implementation is computationally efficient. However, the current version of the manuscript, as provided, does not contain the necessary quantitative evidence to support the main claims. The figures, which are central to the evaluation, are not included. The claims of improved generative accuracy, structural validity, and subclass-specific control cannot be assessed without the actual data. The DMS results are only described qualitatively. The manuscript has potential, but the evidence base is incomplete.
+- **Who would be interested in the results, and why** Computational biologists and protein engineers interested in generative models for protein sequence design, particularly those working with coevolutionary statistics and Potts models. The method offers a transparent and interpretable alternative to black-box deep learning approaches, which may appeal to researchers seeking controllable generation with a clear statistical foundation. The ability to condition on continuous features (PCs) rather than discrete labels is a useful contribution.
+- **Major strengths**
+  1. The mathematical formulation is rigorous and clearly derived from a Gaussian approximation of the conditional distribution, providing a principled basis for the model.
+  2. The autoregressive implementation is computationally efficient and parallelizable, making it scalable to large protein families.
+  3. The use of PCA-based conditioning is a simple yet powerful idea that allows continuous, interpretable control over the generative process.
+  4. The model is flexible: the conditioning framework can accommodate diverse biological features beyond PCs, broadening its applicability.
+  5. The authors provide open-source code and data, which is commendable for reproducibility.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The authors claim that "FeatureDCA matches or surpasses the generative accuracy of established models in reproducing higher-order sequence statistics while preserving substantial sequence diversity."
+    - **Evidence pointer** Figure 2, Section "Generativity", location not provided
+    - **Concern** The central quantitative claim of the paper is that FeatureDCA outperforms or matches bmDCA and ArDCA in reproducing pairwise correlations and PCA distributions. However, the actual numerical results (Pearson coefficients, Sinkhorn divergences, effective depths) are not reported in the text. The figures that would contain this data are not provided. Without these numbers, the claim cannot be verified.
+    - **Why it matters** This is the primary evidence for the method's utility. If the quantitative improvement is marginal or only occurs under specific conditions, the contribution is significantly weakened.
+    - **Resolution test** Provide the numerical values for the Pearson correlation coefficients, Sinkhorn divergences, and effective depths for all models and all tested protein families. Include error bars or confidence intervals. Show that the differences are statistically significant.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The authors claim that "Structural validation with AlphaFold and ESMFold confirms that generated sequences adopt folds consistent with their intended wild-type targets."
+    - **Evidence pointer** Figure 4, Section "Generativity", location not provided
+    - **Concern** The structural validation is a key part of the paper, demonstrating that the generated sequences are not just statistically plausible but also fold into the correct structures. However, the RMSD values are not reported, and the figure is not provided. It is unclear how many sequences were folded, what the distribution of RMSD values was, and how this compares to sequences generated by unconditioned models.
+    - **Why it matters** Structural validity is a critical requirement for any generative model intended for protein design. Without quantitative evidence, the claim is unsupported.
+    - **Resolution test** Report the median and interquartile range of RMSD values for generated sequences from each model, compared to the experimental structures. Show that the RMSD values for FeatureDCA-generated sequences are significantly lower than for unconditioned models and are comparable to the natural sequence diversity.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The authors claim that "FeatureDCA accurately reproduces class-specific architectures when conditioned on subtype-specific principal components" in the Response Regulator family.
+    - **Evidence pointer** Figures 5–7, Section "The case of RR homodimers", location not provided
+    - **Concern** This is the most biologically interesting claim of the paper, as it suggests the method can navigate functional subclasses within a family. However, the evidence is entirely contained in figures that are not provided. The claim that the model can distinguish between RR subclasses based on PC conditioning needs to be supported by quantitative measures, such as the fraction of generated sequences that fold into the correct subclass-specific structure.
+    - **Why it matters** This claim elevates the paper from a purely methodological contribution to one with potential biological applications. If it is not well-supported, the paper's impact is reduced.
+    - **Resolution test** Provide the RMSD distributions for sequences generated conditioned on each of the three RR subclass representatives, compared to all three experimental structures. Show that the minimum RMSD is consistently to the correct subclass structure. Report the success rate of correct subclass assignment as a function of the number of PCs used.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that "the model begins to memorize natural sequences rather than generalizing" when the number of PCs approaches d_max, as indicated by near-zero Hamming distances.
+    - **Evidence pointer** Figure 2D, Section "Generativity", location not provided
+    - **Concern** The overfitting behavior is mentioned but not analyzed in detail. It is important to understand the transition from generalization to memorization. Is there a sharp threshold or a gradual decline? How does the optimal number of PCs vary across protein families?
+    - **Why it matters** This is a practical concern for users of the method. They need guidance on how to select the number of PCs to avoid overfitting.
+    - **Resolution test** Provide a more detailed analysis of the overfitting transition, including the effective depth and Hamming distance as a function of d for multiple families. Suggest a heuristic for choosing d based on the explained variance or other criteria.
+  - **R1-M5**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors claim that "Predictions of experimental deep mutational scanning data show accuracy comparable to that of unconditioned autoregressive Potts models."
+    - **Evidence pointer** Section "Predicting mutational effects via in-silico deep mutational scanning", Supplementary Section G, location not provided
+    - **Concern** The DMS results are only described qualitatively. The actual Spearman correlation values are not reported in the main text. The non-monotonic behavior with respect to d is interesting but unexplained. It is also unclear whether the conditioning on PCs provides any advantage over the unconditioned model for this task.
+    - **Why it matters** This is a secondary claim, but it is important for establishing the model's utility beyond generation. If the conditioning does not improve or at least maintain predictive accuracy, it may be a limitation.
+    - **Resolution test** Report the Spearman correlation values for FeatureDCA with different d values and for ArDCA. Provide a statistical comparison. Discuss the non-monotonic behavior and its implications.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract, location not provided
+    - **Issue** The abstract states that the method "can leverage different kinds of information, such as phylogeny, optimal growth temperature, enzymatic activity or, as in the case presented here, principal components." This is a broad claim, but the manuscript only demonstrates the use of PCs. The other features are mentioned but not tested.
+    - **Required correction** Clarify that the current implementation and validation focus on PCs, and that other features are potential future extensions.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods
+    - **Evidence pointer** Supplementary Section C, location not provided
+    - **Issue** The hyperparameters (e.g., regularization coefficient λ = 10⁻⁴, Sinkhorn regularization ϵ = 0.05) are reported, but there is no sensitivity analysis. It is unclear how robust the results are to these choices.
+    - **Required correction** Add a brief sensitivity analysis for the key hyperparameters, or at least discuss the expected impact of varying them.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Results
+    - **Evidence pointer** Section "Generativity", location not provided
+    - **Concern** The manuscript focuses on a single protein family (PF13354) for the main quantitative results, with additional families only in the Supplementary. It would be helpful to have a summary table of results across all families in the main text.
+    - **Required correction** Consider adding a table summarizing the key metrics (Pearson correlation, Sinkhorn divergence, effective depth) for all tested families.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Comparison with prior work
+    - **Affected element** Introduction/Discussion
+    - **Evidence pointer** Introduction, location not provided
+    - **Issue** The manuscript mentions AF-Cluster as a conceptually similar approach but does not provide a detailed comparison. It would be useful to discuss how FeatureDCA differs from and improves upon AF-Cluster in terms of methodology and results.
+    - **Required correction** Add a paragraph in the Discussion comparing FeatureDCA to AF-Cluster and other conditional generative models.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Missing quantitative results for the central claim of improved generative accuracy.
+  - R1-M2: Missing quantitative results for structural validation.
+  - R1-M3: Missing quantitative results for the RR subclass-specific generation claim.
+  - R1-M5: Missing quantitative results for the DMS prediction claim.
+- **Assessment against Nature-style criteria**
+  - **Originality** The idea of conditioning autoregressive DCA on principal components is a novel and elegant extension of existing methods. It is a natural but non-obvious combination of dimensionality reduction and generative modeling. The originality is moderate to high.
+  - **Scientific importance** The ability to control sequence generation toward specific regions of sequence space is of significant practical importance for protein design. The method offers a transparent and interpretable alternative to deep learning approaches. The importance is moderate to high, contingent on the strength of the evidence.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and protein engineers. The methods are clearly explained, but the biological applications are limited to a single case study. The interdisciplinary appeal is moderate.
+  - **Technical soundness** The mathematical derivation is sound. The autoregressive implementation is efficient. However, the lack of quantitative results and figures prevents a full assessment of the technical soundness of the empirical claims.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. The mathematical sections are dense but appropriate for the target audience. The abstract and introduction are accessible. The readability is good.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising method with a sound theoretical foundation, but the central claims are not verifiable without the figures and quantitative results. The authors should be encouraged to resubmit a revised version that includes all figures and numerical data, along with a more detailed analysis of the overfitting behavior and a comparison with AF-Cluster.
+
+## Risk / unsupported claims
+- The claim that FeatureDCA "matches or surpasses the generative accuracy of established models" is unsupported without the numerical data from Figure 2.
+- The claim that "Structural validation with AlphaFold and ESMFold confirms that generated sequences adopt folds consistent with their intended wild-type targets" is unsupported without the RMSD data from Figure 4.
+- The claim that FeatureDCA "accurately reproduces class-specific architectures" in the RR family is unsupported without the data from Figures 5–7.
+- The claim that FeatureDCA "retains predictive power on experimental deep mutational scanning data" is unsupported without the Spearman correlation values from the Supplementary.
+- The claim that the model can be conditioned on features other than PCs (e.g., phylogeny, temperature) is not tested and is therefore unsupported.

@@ -1,0 +1,716 @@
+{
+  "identity": {
+    "pmid": "41606153",
+    "doi": "10.1038/s41586-025-10014-0",
+    "title": "Advancing regulatory variant effect prediction with AlphaGenome."
+  },
+  "content": {
+    "abstract": "Deep learning models that predict functional genomic measurements from DNA sequences are powerful tools for deciphering the genetic regulatory code. Existing methods involve a trade-off between input sequence length and prediction resolution, thereby limiting their modality scope and performance(1-5). We present AlphaGenome, a unified DNA sequence model, which takes as input 1 Mb of DNA sequence and predicts thousands of functional genomic tracks up to single-base-pair resolution across diverse modalities. The modalities include gene expression, transcription initiation, chromatin accessibility, histone modifications, transcription factor binding, chromatin contact maps, splice site usage and splice junction coordinates and strength. Trained on human and mouse genomes, AlphaGenome matches or exceeds the strongest available external models in 25 of 26 evaluations of variant effect prediction. The ability of AlphaGenome to simultaneously score variant effects across all modalities accurately recapitulates the mechanisms of clinically relevant variants near the TAL1 oncogene(6). To facilitate broader use, we provide tools for making genome track and variant effect predictions from sequence.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Chromatin/metabolism/genetics",
+      "*Deep Learning",
+      "Gene Expression Regulation",
+      "*Genetic Variation",
+      "*Genome",
+      "*Genome, Human",
+      "Genomics/methods",
+      "Models, Genetic",
+      "Proto-Oncogene Proteins/genetics",
+      "RNA Splice Sites/genetics",
+      "*Sequence Analysis, DNA",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Avsec, Ziga",
+        "Latysheva, Natasha",
+        "Cheng, Jun",
+        "Novati, Guido",
+        "Taylor, Kyle R",
+        "Ward, Tom",
+        "Bycroft, Clare",
+        "Nicolaisen, Lauren",
+        "Arvaniti, Eirini",
+        "Pan, Joshua",
+        "Thomas, Raina",
+        "Dutordoir, Vincent",
+        "Perino, Matteo",
+        "De, Soham",
+        "Karollus, Alexander",
+        "Gayoso, Adam",
+        "Sargeant, Toby",
+        "Mottram, Anne",
+        "Wong, Lai Hong",
+        "Drotar, Pavol",
+        "Kosiorek, Adam",
+        "Senior, Andrew",
+        "Tanburn, Richard",
+        "Applebaum, Taylor",
+        "Basu, Souradeep",
+        "Hassabis, Demis",
+        "Kohli, Pushmeet"
+      ],
+      "short_names": [
+        "Avsec Z",
+        "Latysheva N",
+        "Cheng J",
+        "Novati G",
+        "Taylor KR",
+        "Ward T",
+        "Bycroft C",
+        "Nicolaisen L",
+        "Arvaniti E",
+        "Pan J",
+        "Thomas R",
+        "Dutordoir V",
+        "Perino M",
+        "De S",
+        "Karollus A",
+        "Gayoso A",
+        "Sargeant T",
+        "Mottram A",
+        "Wong LH",
+        "Drotar P",
+        "Kosiorek A",
+        "Senior A",
+        "Tanburn R",
+        "Applebaum T",
+        "Basu S",
+        "Hassabis D",
+        "Kohli P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3119-0567",
+        "ORCID: 0000-0003-0681-4892",
+        "ORCID: 0000-0002-1139-0732",
+        "ORCID: 0000-0001-8027-3460",
+        "ORCID: 0000-0002-2401-5691",
+        "ORCID: 0000-0002-7466-7997"
+      ],
+      "affiliations": [
+        "Google DeepMind, London, UK. avsec@google.com.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK.",
+        "Google DeepMind, London, UK. pushmeet@google.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Avsec, Žiga",
+        "short_name": "Avsec Ž",
+        "identifiers": [
+          "0000-0003-3119-0567"
+        ],
+        "affiliations": [
+          "Google DeepMind, London, UK. avsec@google.com."
+        ]
+      },
+      {
+        "full_name": "Latysheva, Natasha",
+        "short_name": "Latysheva N",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jun",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Novati, Guido",
+        "short_name": "Novati G",
+        "identifiers": [
+          "0000-0003-0681-4892"
+        ],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Taylor, Kyle R",
+        "short_name": "Taylor KR",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Ward, Tom",
+        "short_name": "Ward T",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Bycroft, Clare",
+        "short_name": "Bycroft C",
+        "identifiers": [
+          "0000-0002-1139-0732"
+        ],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Nicolaisen, Lauren",
+        "short_name": "Nicolaisen L",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Arvaniti, Eirini",
+        "short_name": "Arvaniti E",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Pan, Joshua",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Thomas, Raina",
+        "short_name": "Thomas R",
+        "identifiers": [
+          "0000-0001-8027-3460"
+        ],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Dutordoir, Vincent",
+        "short_name": "Dutordoir V",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Perino, Matteo",
+        "short_name": "Perino M",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "De, Soham",
+        "short_name": "De S",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Karollus, Alexander",
+        "short_name": "Karollus A",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Gayoso, Adam",
+        "short_name": "Gayoso A",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Sargeant, Toby",
+        "short_name": "Sargeant T",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Mottram, Anne",
+        "short_name": "Mottram A",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Wong, Lai Hong",
+        "short_name": "Wong LH",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Drotár, Pavol",
+        "short_name": "Drotár P",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Kosiorek, Adam",
+        "short_name": "Kosiorek A",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Senior, Andrew",
+        "short_name": "Senior A",
+        "identifiers": [
+          "0000-0002-2401-5691"
+        ],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Tanburn, Richard",
+        "short_name": "Tanburn R",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Applebaum, Taylor",
+        "short_name": "Applebaum T",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Basu, Souradeep",
+        "short_name": "Basu S",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Hassabis, Demis",
+        "short_name": "Hassabis D",
+        "identifiers": [],
+        "affiliations": [
+          "Google DeepMind, London, UK."
+        ]
+      },
+      {
+        "full_name": "Kohli, Pushmeet",
+        "short_name": "Kohli P",
+        "identifiers": [
+          "0000-0002-7466-7997"
+        ],
+        "affiliations": [
+          "Google DeepMind, London, UK. pushmeet@google.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/29 01:46",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [
+      "42717086",
+      "42711533",
+      "42711518",
+      "42711417",
+      "42688996",
+      "42688306",
+      "42677454",
+      "42665668",
+      "42664278",
+      "42660944",
+      "42656953",
+      "42642670",
+      "42642514",
+      "42638396",
+      "42635208",
+      "42635207",
+      "42633766",
+      "42626603",
+      "42618695",
+      "42617149",
+      "42608554",
+      "42602395",
+      "42589315",
+      "42587136",
+      "42581590",
+      "42581006",
+      "42561152",
+      "42556387",
+      "42539220",
+      "42531458",
+      "42530915",
+      "42527403",
+      "42523520",
+      "42521815",
+      "42518208",
+      "42515778",
+      "42509369",
+      "42498815",
+      "42493559",
+      "42467984",
+      "42467704",
+      "42465479",
+      "42457959",
+      "42446667",
+      "42443618",
+      "42430786",
+      "42428571",
+      "42425470",
+      "42413033",
+      "42411323",
+      "42409789",
+      "42402843",
+      "42401553",
+      "42396344",
+      "42395355",
+      "42394671",
+      "42394602",
+      "42392034",
+      "42387167",
+      "42365016",
+      "42362790",
+      "42359002",
+      "42353103",
+      "42350808",
+      "42346184",
+      "42345014",
+      "42335932",
+      "42333535",
+      "42328788",
+      "42326387",
+      "42323878",
+      "42320030",
+      "42318580",
+      "42312575",
+      "42305533",
+      "42298071",
+      "42285930",
+      "42282607",
+      "42282526",
+      "42278581",
+      "42260904",
+      "42239491",
+      "42239281",
+      "42238466",
+      "42234579",
+      "42231301",
+      "42189114",
+      "42186093",
+      "42184107",
+      "42183343",
+      "42182443",
+      "42162431",
+      "42162322",
+      "42160034",
+      "42153318",
+      "42148149",
+      "42146694",
+      "42135486",
+      "42135287",
+      "42108447",
+      "42103868",
+      "42102166",
+      "42094547",
+      "42088426",
+      "42064961",
+      "42056104",
+      "42055250",
+      "42051590",
+      "42042548",
+      "42031777",
+      "42026080",
+      "42022284",
+      "42014520",
+      "41998316",
+      "41993329",
+      "41993262",
+      "41959502",
+      "41959448",
+      "41951856",
+      "41929672",
+      "41927920",
+      "41889906",
+      "41875405",
+      "41872543",
+      "41867859",
+      "41867839",
+      "41852516",
+      "41786988",
+      "41742924",
+      "41731158",
+      "41707046",
+      "41690236",
+      "41676545",
+      "41663926",
+      "41617796",
+      "41547351",
+      "41234120",
+      "40894641",
+      "40832322"
+    ],
+    "refs": [
+      "41523993",
+      "41125796",
+      "39843737",
+      "39779956",
+      "39609566",
+      "39060028",
+      "38566111",
+      "38086419",
+      "38086418",
+      "38036790",
+      "38036778",
+      "37962376",
+      "37883436",
+      "37794186",
+      "37733863",
+      "37220626",
+      "37142848",
+      "36973806",
+      "36632736",
+      "35859178",
+      "35551308",
+      "35449021",
+      "34887591",
+      "34711957",
+      "34608324",
+      "34390642",
+      "34017140",
+      "33603233",
+      "32913098",
+      "32632335",
+      "31919425",
+      "31395865",
+      "31106481",
+      "30661751",
+      "30618377",
+      "30503770",
+      "29165669",
+      "29021289",
+      "28671688",
+      "27677860",
+      "27197224",
+      "27087447",
+      "25707927",
+      "25394790",
+      "24830394",
+      "24497849",
+      "23935018",
+      "23348503",
+      "22955828",
+      "21681857",
+      "19858363",
+      "18842628",
+      "18369186",
+      "15792793",
+      "12114529",
+      "9974418",
+      "6208955",
+      "1581238"
+    ],
+    "similar": [
+      "41606153",
+      "37569400",
+      "42056104",
+      "39090688",
+      "33990600",
+      "41277691",
+      "31228310",
+      "42755363",
+      "41096905",
+      "35293310",
+      "42395544",
+      "23511541",
+      "26502339",
+      "39884279",
+      "25957350",
+      "32687525",
+      "42475469",
+      "21304941",
+      "42135287",
+      "41920894",
+      "30423062",
+      "33618777",
+      "32973041",
+      "41781614",
+      "29069282",
+      "30054217",
+      "26503782",
+      "26818008",
+      "42448699",
+      "22955616",
+      "38940155",
+      "41189647",
+      "27456004",
+      "26301843",
+      "42036810",
+      "42271487",
+      "24136359",
+      "33832990",
+      "20838582",
+      "41951735",
+      "36043696",
+      "16086836",
+      "19956545",
+      "12962546",
+      "39487131",
+      "36723807",
+      "42165138",
+      "33232622",
+      "32689977",
+      "42328788",
+      "42384944",
+      "34429265",
+      "22307276",
+      "23871684",
+      "35396274",
+      "31206543",
+      "22955618",
+      "41832145",
+      "26291518",
+      "24847876",
+      "16767079",
+      "22763441",
+      "41495833",
+      "35666736",
+      "21106904",
+      "29618315",
+      "27197224",
+      "32728250",
+      "22955617",
+      "26300124",
+      "38594933",
+      "34486522",
+      "39587360",
+      "34048560",
+      "21177976",
+      "22300769",
+      "17571346",
+      "28252665",
+      "33046896",
+      "37353532",
+      "25409824",
+      "32728248",
+      "41476368",
+      "15865625",
+      "25762337",
+      "39572230",
+      "35049498",
+      "38093018",
+      "41162646",
+      "31510655",
+      "25416802",
+      "32043966",
+      "32807906",
+      "31776829",
+      "25527639",
+      "42174428",
+      "30967126",
+      "15262804",
+      "23836885",
+      "28750606"
+    ],
+    "review": [
+      "41606153",
+      "34429265",
+      "23871684",
+      "38594933"
+    ],
+    "pmc": [
+      "12851941"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-025-10014-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41606153/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

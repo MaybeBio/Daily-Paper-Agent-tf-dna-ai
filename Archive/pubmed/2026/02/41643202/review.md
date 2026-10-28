@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no assessment of code, data, or supplementary files
+- **Shared manuscript claim summary** The authors propose SMOGT, a heterogeneous graph transformer that embeds epigenetic mechanisms into a hierarchical meta-path (TF-TF → TF-CRE → CRE-CRE → CRE-TG) to infer hierarchical regulatory networks from single-cell multi-omics data. They claim superior performance over existing methods in predicting TF-CRE and CRE-CRE interactions, and demonstrate downstream utility in identifying driver regulators, modeling perturbations, and discovering prognostic CREs in AML.
+- **Visible evidence base** Text descriptions of benchmark comparisons (AUPR/AUC), enrichment analyses (GWAS, eQTL, SE), perturbation modeling results, and biological case studies; no actual numerical results, figures, or tables are visible
+- **Missing materials affecting confidence** All figures, tables, supplementary notes, and numerical results; code repository; detailed hyperparameter settings; statistical significance values; complete benchmark methodology
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in single-cell regulatory genomics: moving beyond flat regulatory networks to hierarchical models that capture the multi-layered logic of epigenetic regulation. The proposed architecture is conceptually motivated and the integration of a hierarchical meta-path into a heterogeneous graph transformer is a reasonable design choice. However, the current text provides insufficient quantitative evidence to evaluate the core claims. Most performance comparisons are described qualitatively ("significantly higher", "outperformed") without visible numbers, error bars, or statistical tests. The biological case studies are presented as narrative summaries without supporting data. The methodological description is incomplete in several critical areas, including how pseudo-labels are generated, how the semi-supervised strategy balances label sparsity, and how the downstream modules are trained and validated. The manuscript has potential, but the evidence as presented is not sufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biologists developing regulatory network inference methods; experimental biologists studying cell fate decisions in hematopoiesis, cancer, and development; researchers interested in single-cell multi-omics integration; clinicians studying AML prognosis and therapeutic targets. The hierarchical network concept and the perturbation modeling framework could be of broad interest if the claims are substantiated.
+- **Major strengths** The conceptual framing of hierarchical regulatory networks is timely and addresses a real limitation of existing methods. The architecture design, embedding epigenetic mechanisms into a heterogeneous graph transformer, is innovative and mechanistically motivated. The downstream applications (driver regulator identification, perturbation modeling, prognostic marker discovery) are clinically and biologically relevant. The use of multiple benchmark datasets and comparison with several state-of-the-art methods indicates a thorough evaluation plan.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "SMOGT showed significantly higher accuracy in predicting transcriptional regulation (TF-CRE) and long-range chromatin conformation (CRE-CRE)" and "SMOGT outperformed both algorithms" (Results, first subsection)
+  - **Evidence pointer** Results section, first subsection; Figure 2 (not visible)
+  - **Concern** The manuscript claims superior performance over six comparison methods for TF-CRE prediction and over two methods for CRE-CRE prediction, but no numerical results are provided in the text. The terms "significantly higher" and "outperformed" are used without reporting actual AUPR/AUC values, confidence intervals, or p-values. Without visible quantitative results, the performance claims cannot be evaluated.
+  - **Why it matters** The central claim of the manuscript is that SMOGT achieves higher accuracy than existing methods. This claim is the foundation for all downstream analyses. If the performance advantage is not demonstrated with rigorous quantitative evidence, the entire case is weakened.
+  - **Resolution test** Provide AUPR/AUC values with standard deviations or confidence intervals for all methods and datasets, along with appropriate statistical tests (e.g., paired bootstrap or permutation tests). Show these results in the main figures and report them in the text.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "SMOGT employs a semi-supervised strategy to ensure network accuracy" and "This strategy relied on highly correlated TF-CRE and CRE-CRE pairs as pseudo-labels" (Abstract; Results, first subsection)
+  - **Evidence pointer** Methods section, "The single-cell multi-omics graph transformer framework" and "Hierarchical epigenetic graph transformer" subsections; Supplementary Figure S1 and Supplementary Note S8 (not visible)
+  - **Concern** The semi-supervised strategy is described only briefly. The text states that highly correlated pairs are used as pseudo-labels with a PCC threshold optimized per dataset, but does not explain how the threshold is optimized, how many pseudo-labels are used, how the balance between positive and negative labels is handled, or how the semi-supervised learning is implemented in the loss function. The BLCE loss is mentioned but its role in the semi-supervised framework is unclear.
+  - **Why it matters** The semi-supervised strategy is a key innovation of the method. Without a clear description of how pseudo-labels are generated, filtered, and used in training, the method cannot be reproduced or fully understood. The risk of circularity (using correlation to define labels and then evaluating against correlation-based benchmarks) also needs to be addressed.
+  - **Resolution test** Provide a detailed description of the pseudo-label generation process, including the threshold optimization procedure, the number of labels per dataset, and how the semi-supervised loss is formulated. Discuss potential circularity in using correlation-based pseudo-labels and how the evaluation avoids this bias.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** "SMOGT elucidated the hierarchical causal cascade from driver TFs that governs lineage commitment" and "it revealed a critical therapeutic window for reversing the process" (Abstract; Results, fifth subsection)
+  - **Evidence pointer** Results section, fifth subsection; Figure 6 (not visible)
+  - **Concern** The perturbation modeling results are described qualitatively. The text states that knocking out or overexpressing specific TFs and CREs "increasingly inhibited" or "enhanced" differentiation, and that perturbation of CREs "caused the Ery lineage to exit its original fate." However, no quantitative measures of perturbation effects are provided, such as effect sizes, trajectory shift magnitudes, or statistical significance. The claim of a "critical therapeutic window" in melanoma is not supported by any visible data.
+  - **Why it matters** The perturbation modeling is presented as a key validation of the method's causal inference capability. Without quantitative evidence, the claims of causal relationships and therapeutic windows are not substantiated. The biological conclusions drawn from these analyses cannot be assessed.
+  - **Resolution test** Provide quantitative perturbation effect measurements (e.g., changes in cell fate probabilities, trajectory distances, or gene expression effect sizes) with statistical significance. For the melanoma therapeutic window claim, show how the window is defined and what evidence supports its existence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** "SMOGT showed the highest prediction accuracy in all datasets, followed by regX, SCARlink, and Transcription Start Site (TSS)-proximal CREs" (Results, second subsection)
+  - **Evidence pointer** Results section, second subsection; Figure 3D and E (not visible)
+  - **Concern** The comparison with regX and SCARlink is described for gene expression prediction, but the text does not specify whether these methods were used with their default parameters, whether the same training and test splits were used, or whether hyperparameter tuning was performed for each method. The comparison with TSS-proximal CREs is a simple baseline, but its implementation is not described.
+  - **Why it matters** Fair comparison is essential for establishing the advantage of SMOGT. If comparison methods are not optimally configured or if evaluation protocols differ, the reported performance differences may not reflect genuine improvements.
+  - **Resolution test** Describe the evaluation protocol in detail, including data splits, hyperparameter selection for all methods, and any preprocessing steps. Consider reporting results across multiple random seeds or cross-validation folds.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "The source code and application cases have been uploaded to GitHub" (Data availability)
+  - **Evidence pointer** Data availability section
+  - **Concern** The manuscript states that code is available on GitHub, but no version, commit hash, or documentation details are provided. The code repository is not accessible for review. The manuscript also does not specify the computing environment, dependencies, or runtime requirements.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without access to the code and clear documentation, the method cannot be independently verified or applied by other researchers.
+  - **Resolution test** Provide a stable link to the code repository with a version tag, a detailed README, and a list of dependencies. Consider providing a container or environment file for easy setup.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses specialized terminology without defining key concepts such as "hierarchical regulatory network" and "epigenetics-informed meta-path." The acronym SMOGT is introduced but the abstract does not explain what the letters stand for.
+  - **Required correction** Define the acronym and briefly explain the hierarchical regulatory network concept in accessible terms. Consider adding one sentence describing the input data types and the output of the method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, first subsection
+  - **Evidence pointer** Results section, first subsection
+  - **Issue** The text mentions "significantly higher accuracy" and "significantly highest similarity" without reporting p-values or confidence intervals. The term "significant" is used loosely.
+  - **Required correction** Report exact p-values or confidence intervals for all claims of significance, or use more cautious language such as "higher" or "higher in our evaluations" when statistical tests are not performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section, "Datasets" subsection
+  - **Evidence pointer** Methods section, "Datasets" subsection
+  - **Issue** The datasets are listed but the number of cells, number of genes, sequencing depth, and quality control metrics are not reported. The preprocessing steps are described only as "following the Seurat pipeline."
+  - **Required correction** Provide a table summarizing dataset characteristics (e.g., number of cells, number of peaks, number of genes) and describe preprocessing steps in more detail, including any filtering thresholds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section, fifth subsection
+  - **Evidence pointer** Results section, fifth subsection
+  - **Issue** The term "silico perturbation modeling" appears in the text; this should be "in silico perturbation modeling."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reference quality
+  - **Affected element** Results section, fifth subsection
+  - **Evidence pointer** Results section, fifth subsection
+  - **Issue** The text cites "[37443338]" as a reference, which appears to be a PubMed ID rather than a numbered reference. This is inconsistent with the citation style used elsewhere.
+  - **Required correction** Use the journal's reference format consistently.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative performance evidence), R1-M2 (incomplete methodological description of the semi-supervised strategy), R1-M3 (no quantitative validation of perturbation modeling claims)
+- **Assessment against Nature-style criteria** Originality: The hierarchical meta-path design and the integration of epigenetic mechanisms into a graph transformer are conceptually novel and represent a meaningful advance over existing methods. Scientific importance: The problem of inferring hierarchical regulatory networks is of high importance in developmental biology and disease research. If the claims are substantiated, the method could have broad impact. Interdisciplinary readership: The work bridges computational biology, epigenomics, and developmental biology, and the downstream applications in cancer and hematopoiesis broaden its appeal. Technical soundness: The architecture is reasonable, but the current evidence is insufficient to assess technical soundness. The lack of visible numerical results, incomplete methodological details, and absence of statistical rigor prevent a full evaluation. Readability for nonspecialists: The introduction is accessible, but the methods and results sections are dense and assume significant background knowledge. The abstract could be more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem with a conceptually interesting approach, but the evidence as presented is insufficient to support the core claims. Major revisions are required to provide quantitative performance data, complete methodological descriptions, and rigorous statistical validation. I would be supportive if these technical concerns are resolved.

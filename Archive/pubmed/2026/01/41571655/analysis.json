@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41571655",
+  "title": "Evaluating single-cell ATAC-seq atlasing technologies using sequence-to-function modeling.",
+  "authors": "Dickmanken, Hannah; Wojno, Marta; Mahieu, Lukas; Theunis, Koen; Eksi, Eren Can; Christiaens, Valerie; Kempynck, Niklas; De Rop, Florian V; Roels, Natalie; Spanier, Katina I; Vandepoel, Roel; Hulselmans, Gert; Poovathingal, Suresh; Aerts, Stein",
+  "journal": "Nature communications",
+  "published_date": "2026-01-23",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文评估不同scATAC-seq平台数据对训练序列-功能深度学习模型（用于增强子预测和TF足迹分析）的影响，虽涉及TF-DNA结合位点预测，但核心是数据平台基准而非TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "Deciphering the cis-regulatory logic underlying cell type identity remains a key challenge in biology. Single-cell chromatin accessibility (scATAC-seq) atlases enable training of sequence-to-function (S2F) deep learning models to decode enhancer logic. Yet, optimal criteria for constructing training datasets, i.e., the number of cells and ATAC fragments, remain unclear. Moreover, the suitability of different scATAC-seq platforms for such models has not been systematically tested. We introduce HyDrop v2, an improved custom droplet scATAC-seq method, and perform the first benchmark of scATAC-seq platforms focusing on its capacity to train S2F models and its capacity to yield TF footprints in different species. We show that lower fragment counts can be compensated for by increased cell numbers. S2F models trained on custom or commercial data perform comparably in enhancer prediction, sequence explainability, and transcription factor footprinting. We demonstrate that integrating data from different scATAC-seq platforms enables large-scale, cost-efficient atlas construction for deep learning-based regulatory modeling.",
+  "abstract_zh": "解析细胞类型身份背后的顺式调控逻辑仍是生物学中的一项关键挑战。单细胞染色质可及性（scATAC-seq）图谱使得训练序列到功能（S2F）深度学习模型以解码增强子逻辑成为可能。然而，构建训练数据集的最佳标准，即细胞数量和ATAC片段数，仍不明确。此外，不同scATAC-seq平台对此类模型的适用性尚未得到系统测试。我们引入了HyDrop v2，一种改进的定制液滴scATAC-seq方法，并进行了首次针对scATAC-seq平台的基准测试，重点关注其训练S2F模型的能力以及在不同物种中产生转录因子足迹的能力。我们表明，较低的片段数可通过增加细胞数量来补偿。基于定制或商业数据训练的S2F模型在增强子预测、序列可解释性和转录因子足迹分析方面表现相当。我们证明，整合不同scATAC-seq平台的数据能够实现大规模、成本高效的图谱构建，用于基于深度学习的调控建模。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41571655/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41571655/",
+  "paper_page_path": "papers/pubmed/41571655/index.html"
+}

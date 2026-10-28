@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report development of tissue-specific machine learning models to predict genome-wide CLOCK-BMAL1 binding to E-box motifs in mouse liver, heart, and kidney. They claim over-representation of the canonical E-box motif CACGTG in BMAL1-bound accessible chromatin regions, improved prediction when combining DNA sequence, DNA shape, and histone modification features, and identification of specific DNA shape features and histone modifications as most predictive across tissues.
+- **Visible evidence base** Abstract text only; no quantitative results, model performance metrics, feature importance values, or validation details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, model architecture details, training and test data descriptions, cross-validation procedures, performance metrics, feature importance analyses, and any comparison to existing methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach to predicting CLOCK-BMAL1 binding using machine learning with multi-modal genomic features. The topic is relevant to circadian biology and regulatory genomics. However, the abstract alone provides insufficient detail to evaluate the technical soundness, the validity of the claims, or the novelty relative to existing transcription factor binding prediction methods. The central claims about improved prediction and feature importance cannot be assessed without quantitative results and methodological details.
+- **Who would be interested in the results, and why** Researchers in circadian biology, transcriptional regulation, and computational genomics would be interested. Those studying tissue-specific gene regulation and the role of chromatin state in transcription factor binding would also find the approach relevant. The potential to predict binding sites across tissues could inform studies of circadian-controlled physiology and disease.
+- **Major strengths** The study addresses a biologically important question with potential translational relevance. The use of multiple feature types (sequence, shape, histone modifications) is a reasonable and modern approach. The focus on tissue-specific models across three tissues is a strength, as it acknowledges the context-dependence of transcription factor binding.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that combining DNA sequence with DNA shape and histone modification features yielded improved transcription factor binding site prediction.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative performance metrics are reported. The abstract does not state the magnitude of improvement, the evaluation metric used (e.g., AUC, precision-recall), or whether the improvement is statistically significant. Without these details, the claim of improved prediction cannot be evaluated.
+  - **Why it matters** The central contribution of the work is the predictive model and the demonstration that additional feature types improve performance. Without quantitative evidence, the claim is unsupported and the practical value of the model is unknown.
+  - **Resolution test** Provide performance metrics (e.g., area under the ROC curve, precision-recall AUC) for each model variant and each tissue, with confidence intervals or significance tests comparing the full model to reduced models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that specific DNA shape features (Electrostatic Potential, Minor Groove Width, Propeller Twist) and histone modifications (H3K27ac, H3K4me1, H3K36me3, H3K4me3) were the features most highly predictive of DNA binding by BMAL1 across all three tissues.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how feature importance was determined, what metric was used, or whether the ranking was consistent and robust across tissues. No quantitative values or statistical support are provided.
+  - **Why it matters** Identifying predictive features is a key biological finding of the study. Without a clear methodology and quantitative support, the claim that these specific features are most predictive is not verifiable.
+  - **Resolution test** Describe the feature importance method (e.g., permutation importance, SHAP values) and report the importance scores or rankings with measures of variance or significance for each tissue.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and context
+  - **Claim pointer** The authors state they developed three different tissue-specific machine learning models and found over-representation of the canonical E-box motif CACGTG in BMAL1-bound regions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not situate this work within the existing literature on transcription factor binding prediction or on CLOCK-BMAL1 binding specifically. It is unclear what is novel relative to established methods such as DeepSEA, DeepBind, or other sequence-based predictors, or relative to prior ChIP-seq analyses of BMAL1 binding.
+  - **Why it matters** Without a clear statement of novelty and comparison to existing approaches, the contribution of the work cannot be assessed. The finding of CACGTG over-representation is likely not new, and the abstract does not clarify what new insight the machine learning approach provides.
+  - **Resolution test** Add a brief comparison to existing prediction methods and prior BMAL1 binding analyses, and explicitly state the novel contribution of the current work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract assumes familiarity with circadian biology terminology (e.g., CLOCK-BMAL1, E-box, feedback loops) without defining these terms for a broader genomics audience.
+  - **Required correction** Provide brief definitions or context for key terms, or restructure the background to be accessible to computational biologists who may not be circadian specialists.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the machine learning algorithms used (e.g., random forest, neural network, logistic regression) or the training and evaluation strategy (e.g., cross-validation, independent test sets).
+  - **Required Correction** Mention the algorithm class and the validation approach in the abstract or indicate that these details are in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of data availability, code availability, or whether the models can be applied to other tissues or species.
+  - **Required Correction** State whether the models and code are publicly available and whether the approach is generalizable beyond the three tissues studied.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of improved prediction and feature importance are not quantitatively supported. R1-M3 is also blocking because the novelty and context are not established. These must be resolved before the scientific case can be considered.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The approach of combining sequence, shape, and histone modifications is not inherently novel, and the abstract does not demonstrate a new conceptual insight.
+  - Scientific importance: Potentially high for circadian biology and regulatory genomics, but the abstract does not demonstrate a significant advance over existing methods or provide new biological insight beyond confirming known motif enrichment.
+  - Interdisciplinary readership: The topic bridges molecular biology and computational biology, but the abstract is written in a way that may limit accessibility to either audience without additional context.
+  - Technical soundness: Not assessable. No quantitative results, model details, or validation procedures are provided.
+  - Readability for nonspecialists: The abstract is concise but assumes domain knowledge; it is not self-contained for a broad readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable study design but lacks the quantitative and methodological detail necessary to evaluate the claims. The authors should provide the full manuscript with performance metrics, feature importance analyses, and a clear statement of novelty. If those elements are sound, the work could be of interest to the circadian and genomics communities, but the current evidence base is insufficient.
+
+## Risk / unsupported claims
+- The claim of improved prediction with combined features is unsupported without performance metrics.
+- The claim that specific DNA shape features and histone modifications are most predictive is unsupported without feature importance methodology and quantitative results.
+- The over-representation of CACGTG in BMAL1-bound regions is stated without statistical support or comparison to background expectations.
+- The novelty of the approach relative to existing transcription factor binding prediction methods is not established.
+- The generalizability of the models beyond the three tissues studied is not addressed.

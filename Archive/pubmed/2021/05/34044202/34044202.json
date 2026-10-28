@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "34044202",
+    "doi": "10.1016/j.compbiolchem.2021.107512",
+    "title": "Inferring gene regulatory network from single-cell transcriptomic data by integrating multiple prior networks."
+  },
+  "content": {
+    "abstract": "Gene regulatory network models the interactions between transcription factors and target genes. Reconstructing gene regulation network is critically important to understand gene function in a particular cellular context, providing key insights into complex biological systems. We develop a new computational method, named iMPRN, which integrates multiple prior networks to infer regulatory network. Based on the network component analysis model, iMPRN adopts linear regression, graph embedding, and elastic networks to optimize each prior network in line with specific biological context. For each rewired prior networks, iMPRN evaluate the confidence of the regulatory edges in each network based on B scores and finally integrated these optimized networks. We validate the effectiveness of iMPRN by comparing it with four widely-used gene regulatory network reconstruction algorithms on a simulation data set. The results show that iMPRN can infer the gene regulatory network more accurately. Further, on a real scRNA-seq dataset, iMPRN is respectively applied to reconstruct gene regulatory networks for malignant and nonmalignant head and neck tumor cells, demonstrating distinctive differences in their corresponding regulatory networks.",
+    "keywords": [
+      "Gene expression",
+      "Gene regulatory network",
+      "Prior network",
+      "scRNA-seq transcriptome"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Single-Cell Analysis",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gan, Yanglan",
+        "Xin, Yongchang",
+        "Hu, Xin",
+        "Zou, Guobing"
+      ],
+      "short_names": [
+        "Gan Y",
+        "Xin Y",
+        "Hu X",
+        "Zou G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science and Technology, Donghua University, Shanghai, China.",
+        "School of Computer Science and Technology, Donghua University, Shanghai, China.",
+        "School of Computer Science and Technology, Donghua University, Shanghai, China.",
+        "School of Computer Engineering and Science, Shanghai University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gan, Yanglan",
+        "short_name": "Gan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Donghua University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xin, Yongchang",
+        "short_name": "Xin Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Donghua University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xin",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Donghua University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Guobing",
+        "short_name": "Zou G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Engineering and Science, Shanghai University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/28 06:00",
+    "fetched_at": "2026-09-27 18:07:38"
+  },
+  "links": {
+    "cites": [
+      "39854938",
+      "35692809"
+    ],
+    "refs": [],
+    "similar": [
+      "34044202",
+      "39417321",
+      "30547796",
+      "21668997",
+      "38810116",
+      "38653489",
+      "38879931",
+      "31068142",
+      "27556418",
+      "37703293",
+      "29914350",
+      "32527285",
+      "32987526",
+      "32716923",
+      "37686146",
+      "31159854",
+      "35692809",
+      "29714955",
+      "30961611",
+      "28649444",
+      "33124218",
+      "31907445",
+      "33244151",
+      "33307360",
+      "36585783",
+      "28529066",
+      "27876826",
+      "33026066",
+      "28155637",
+      "30441472",
+      "27295045",
+      "24650566",
+      "33153500",
+      "28957658",
+      "31062311",
+      "27403523",
+      "25350697",
+      "28950903",
+      "34858477",
+      "32244427",
+      "23266644",
+      "35328768",
+      "33828580",
+      "26589494",
+      "24899235",
+      "28254369",
+      "31756390",
+      "32174324",
+      "33573289",
+      "31499298",
+      "25707768",
+      "28977434",
+      "34290746",
+      "33057419",
+      "26823190",
+      "28748400",
+      "36344995",
+      "34039282",
+      "35733604",
+      "30547399",
+      "25887857",
+      "17825607",
+      "17408501",
+      "32093656",
+      "28117655",
+      "33172489",
+      "33054712",
+      "22849367",
+      "29246163",
+      "36762475",
+      "30547400",
+      "30640623",
+      "27716031",
+      "32255787",
+      "31287491",
+      "27897008",
+      "19963359",
+      "19381531",
+      "32241274",
+      "30547403",
+      "30547397",
+      "25844666",
+      "36790623",
+      "19542155",
+      "34088262",
+      "34131182",
+      "36434499",
+      "38155269",
+      "36926589",
+      "35792837",
+      "36653899",
+      "39276328",
+      "23470995",
+      "34252628",
+      "35705328",
+      "37323105",
+      "28991892",
+      "38116584",
+      "38328080",
+      "34863158",
+      "33336197",
+      "33381809",
+      "35199064",
+      "36977959",
+      "37356494",
+      "24732037",
+      "36979461",
+      "19841683",
+      "36292775",
+      "34630946",
+      "35234401",
+      "37131803",
+      "31819264",
+      "38438786",
+      "37988745",
+      "38798726",
+      "18309363",
+      "35414121",
+      "34850822",
+      "37895264",
+      "36733706",
+      "31097038",
+      "22190923",
+      "37628244",
+      "20458373",
+      "35854722",
+      "19416509",
+      "20126643",
+      "33225112",
+      "34895933",
+      "22154220",
+      "34781497",
+      "27595119",
+      "35659722",
+      "36105110",
+      "25288880",
+      "39079102",
+      "39074174",
+      "24826192",
+      "30979794",
+      "35121831",
+      "21562550",
+      "34845650"
+    ],
+    "review": [
+      "34044202",
+      "33124218",
+      "33244151",
+      "31756390",
+      "31499298",
+      "19381531",
+      "35792837",
+      "37356494",
+      "34850822",
+      "34895933",
+      "22154220"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(21)00079-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34044202",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

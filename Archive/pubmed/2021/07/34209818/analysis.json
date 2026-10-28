@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34209818",
+  "title": "Toward a Coronavirus Knowledge Graph.",
+  "authors": "Zhang, Peng; Bu, Yi; Jiang, Peng; Shi, Xiaowen; Lun, Bing; Chen, Chongyan; Syafiandini, Arida Ferti; Ding, Ying; Song, Min",
+  "journal": "Genes",
+  "published_date": "2021-07-03",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 2,
+  "one_liner_zh": "构建新冠病毒知识图谱，整合药物发现与文献实体，虽涉及基因和疾病关系但无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "This study builds a coronavirus knowledge graph (KG) by merging two information sources. The first source is Analytical Graph (AG), which integrates more than 20 different public datasets related to drug discovery. The second source is CORD-19, a collection of published scientific articles related to COVID-19. We combined both chemo genomic entities in AG with entities extracted from CORD-19 to expand knowledge in the COVID-19 domain. Before populating KG with those entities, we perform entity disambiguation on CORD-19 collections using Wikidata. Our newly built KG contains at least 21,700 genes, 2500 diseases, 94,000 phenotypes, and other biological entities (e.g., compound, species, and cell lines). We define 27 relationship types and use them to label each edge in our KG. This research presents two cases to evaluate the KG's usability: analyzing a subgraph (ego-centered network) from the angiotensin-converting enzyme (ACE) and revealing paths between biological entities (hydroxychloroquine and IL-6 receptor; chloroquine and STAT1). The ego-centered network captured information related to COVID-19. We also found significant COVID-19-related information in top-ranked paths with a depth of three based on our path evaluation.",
+  "abstract_zh": "本研究通过融合两个信息源构建了一个冠状病毒知识图谱（KG）。第一个信息源是分析图谱（AG），它整合了超过20个与药物发现相关的公共数据集。第二个信息源是CORD-19，一个与COVID-19相关的已发表科学文章集合。我们将AG中的化学基因组实体与从CORD-19中提取的实体相结合，以扩展COVID-19领域的知识。在将这些实体填充到KG之前，我们使用Wikidata对CORD-19集合进行实体消歧。我们新构建的KG包含至少21,700个基因、2500种疾病、94,000个表型以及其他生物实体（例如化合物、物种和细胞系）。我们定义了27种关系类型，并用它们标记KG中的每条边。本研究通过两个案例评估KG的可用性：分析来自血管紧张素转换酶（ACE）的子图（自我中心网络），以及揭示生物实体（羟氯喹和IL-6受体；氯喹和STAT1）之间的路径。自我中心网络捕获了与COVID-19相关的信息。我们还根据路径评估，在深度为三的排名靠前路径中发现了重要的COVID-19相关信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34209818/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34209818/",
+  "paper_page_path": "papers/pubmed/34209818/index.html"
+}

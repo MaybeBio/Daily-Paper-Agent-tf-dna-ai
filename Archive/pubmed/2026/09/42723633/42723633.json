@@ -5,9 +5,16 @@
     "title": "Genomic language model for predicting enhancers and their allele-specific activity in the human genome."
   },
   "content": {
-    "abstract": "MOTIVATION: Predicting and deciphering the regulatory logic of enhancers remains a significant challenge due to their complex sequence features and the absence of consistent genetic or epigenetic signatures that distinguish them from other genomic regions. Existing machine learning methods capture nucleotide composition but often fail to model sequence context effectively. RESULTS: We present DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. Using ENCODE registry of candidate cis-regulatory elements (cCREs), we curated a benchmark dataset, consisting of 21,926 enhancers of 201 bp length and 46,159 enhancers of 350 bp length, as positive instances. The best fine-tuned model achieved 88.05% accuracy and a Matthews correlation coefficient of 76% on an independent dataset. Genome-wide application identified 1,684,595 enhancer regions covering 26.65% of the human genome. By performing integrative analyses with DNABERT-based transcription factor models, we identify 2,681 statistically significant loss-of-function and 1,917 gain-of-function enhancer variants, which respectively alter the function of 1,623 and 1,247 ENCODE-cCRE enhancers. Similarly, we identify 4,057 candidate de novo enhancers, created by 5,464 gain-of-function variants. These genome-wide enhancer annotations and candidate genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies. AVAILABILITY: DNABERT-Enhancer is freely available at https://github.com/DavuluriLab/DNABERT-Enhancer; Trained model predictions can be explored interactively via the web application at https://dnabert-enhancer-datarepo.streamlit.app/. The fine-tuned models are archived and citable through Zenodo (https://doi.org/10.5281/zenodo.19157566). SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "abstract": "MOTIVATION: Predicting and deciphering the regulatory logic of enhancers remains a significant challenge due to their complex sequence features and the absence of consistent genetic or epigenetic signatures that distinguish them from other genomic regions. Existing machine learning methods capture nucleotide composition but often fail to model sequence context effectively. RESULTS: We present DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. Using ENCODE registry of candidate cis-regulatory elements (cCREs), we curated a benchmark dataset, consisting of 21 926 enhancers of 201 bp length and 46 159 enhancers of 350 bp length, as positive instances. The best fine-tuned model achieved 88.05% accuracy and a Matthews correlation coefficient of 76% on an independent dataset. Genome-wide application identified 1 684 595 enhancer regions covering 26.65% of the human genome. By performing integrative analyses with DNABERT-based transcription factor models, we identify 2681 statistically significant loss-of-function and 1917 gain-of-function enhancer variants, which respectively alter the function of 1623 and 1247 ENCODE-cCRE enhancers. Similarly, we identify 4057 candidate de novo enhancers, created by 5464 gain-of-function variants. These genome-wide enhancer annotations and candidate genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies. AVAILABILITY AND IMPLEMENTATION: DNABERT-Enhancer is freely available at https://github.com/DavuluriLab/DNABERT-Enhancer; Trained model predictions can be explored interactively via the web application at https://dnabert-enhancer-datarepo.streamlit.app/. The fine-tuned models are archived and citable through Zenodo (https://doi.org/10.5281/zenodo.19157566).",
     "keywords": [],
-    "mesh_terms": [],
+    "mesh_terms": [
+      "Humans",
+      "*Enhancer Elements, Genetic",
+      "*Genome, Human",
+      "*Genomics/methods",
+      "*Alleles",
+      "*Models, Genetic"
+    ],
     "pub_types": [
       "Journal Article"
     ]
@@ -15,10 +22,10 @@
   "contributors": {
     "medline": {
       "full_names": [
-        "Sathian, R",
-        "Dutta, P",
-        "Ay, F",
-        "Davuluri, R V"
+        "Sathian, Rekha",
+        "Dutta, Pratik",
+        "Ay, Ferhat",
+        "Davuluri, Ramana V"
       ],
       "short_names": [
         "Sathian R",
@@ -26,49 +33,56 @@
         "Ay F",
         "Davuluri RV"
       ],
-      "auids": [],
+      "auids": [
+        "ORCID: 0000-0002-0708-6914",
+        "ORCID: 0000-0002-7053-1064"
+      ],
       "affiliations": [
-        "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, USA.",
-        "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, USA.",
-        "Centers for Cancer Immunotherapy and Autoimmunity, La Jolla Institute for Immunology, La Jolla, CA 92037 USA.",
-        "Bioinformatics and Systems Biology Graduate Program, University of California, San Diego, La Jolla, CA 92093 USA.",
-        "Department of Pediatrics, University of California, San Diego, La Jolla, CA 92093 USA.",
-        "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, USA."
+        "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, United States.",
+        "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, United States.",
+        "Centers for Cancer Immunotherapy and Autoimmunity, La Jolla Institute for Immunology, La Jolla, CA 92037, United States.",
+        "Bioinformatics and Systems Biology Graduate Program, University of California, San Diego, La Jolla, CA 92093, United States.",
+        "Department of Pediatrics, University of California, San Diego, La Jolla, CA 92093, United States.",
+        "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, United States."
       ]
     },
     "xml": [
       {
-        "full_name": "Sathian, R",
+        "full_name": "Sathian, Rekha",
         "short_name": "Sathian R",
         "identifiers": [],
         "affiliations": [
-          "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, USA."
+          "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, United States."
         ]
       },
       {
-        "full_name": "Dutta, P",
+        "full_name": "Dutta, Pratik",
         "short_name": "Dutta P",
         "identifiers": [],
         "affiliations": [
-          "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, USA."
+          "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, United States."
         ]
       },
       {
-        "full_name": "Ay, F",
+        "full_name": "Ay, Ferhat",
         "short_name": "Ay F",
-        "identifiers": [],
+        "identifiers": [
+          "0000-0002-0708-6914"
+        ],
         "affiliations": [
-          "Centers for Cancer Immunotherapy and Autoimmunity, La Jolla Institute for Immunology, La Jolla, CA 92037 USA.",
-          "Bioinformatics and Systems Biology Graduate Program, University of California, San Diego, La Jolla, CA 92093 USA.",
-          "Department of Pediatrics, University of California, San Diego, La Jolla, CA 92093 USA."
+          "Centers for Cancer Immunotherapy and Autoimmunity, La Jolla Institute for Immunology, La Jolla, CA 92037, United States.",
+          "Bioinformatics and Systems Biology Graduate Program, University of California, San Diego, La Jolla, CA 92093, United States.",
+          "Department of Pediatrics, University of California, San Diego, La Jolla, CA 92093, United States."
         ]
       },
       {
-        "full_name": "Davuluri, R V",
+        "full_name": "Davuluri, Ramana V",
         "short_name": "Davuluri RV",
-        "identifiers": [],
+        "identifiers": [
+          "0000-0002-7053-1064"
+        ],
         "affiliations": [
-          "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, USA."
+          "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY 11794, United States."
         ]
       }
     ]
@@ -80,7 +94,7 @@
     "journal_abbrev": [
       "Bioinformatics"
     ],
-    "pub_date": "2026 Sep 10",
+    "pub_date": "2026 Aug 31",
     "pub_year": "2026",
     "pub_types": [
       "Journal Article"
@@ -88,7 +102,7 @@
   },
   "metadata": {
     "entrez_date": "2026/09/11 11:38",
-    "fetched_at": "2026-09-12 17:22:58"
+    "fetched_at": "2026-10-02 05:17:11"
   },
   "links": {
     "cites": [],
@@ -97,111 +111,133 @@
       "42723633",
       "40166250",
       "33538820",
-      "36715222",
-      "28605766",
       "24967590",
-      "35082832",
-      "38870532",
-      "30589856",
-      "42475469",
-      "41576119",
-      "29855387",
-      "31318408",
       "36030022",
-      "31969180",
-      "36726730",
-      "35887306",
-      "33515242",
-      "34226917",
-      "28334114",
-      "40796339",
-      "35410163",
-      "23424115",
-      "41096905",
-      "41099696",
-      "40203028",
-      "28683716",
-      "39519295",
+      "38870532",
+      "28605766",
+      "30589856",
+      "36715222",
       "32689977",
-      "34252960",
+      "31228310",
+      "41576119",
+      "40796339",
+      "41096905",
+      "29855387",
+      "23424115",
+      "34226917",
+      "31969180",
+      "35887306",
+      "35082832",
       "32443951",
-      "36043696",
-      "37021559",
+      "39519295",
       "28589862",
+      "35410163",
+      "30917778",
+      "42475469",
+      "40203028",
+      "41099696",
+      "40662829",
+      "28334114",
+      "42457959",
       "29378629",
       "31221079",
-      "28881991",
-      "41527074",
-      "36520922",
-      "30917778",
-      "37012250",
+      "28683716",
       "38485768",
-      "27490187",
-      "31228310",
-      "40581823",
+      "36043696",
+      "28881991",
       "23512712",
-      "40491847",
-      "42320030",
-      "41993329",
-      "39367524",
-      "42412845",
-      "42457959",
       "40592697",
-      "33581335",
-      "40160857",
-      "33978703",
-      "36071071",
-      "40001940",
-      "22537144",
-      "39193566",
-      "25035418",
-      "42539206",
-      "36063523",
-      "37539835",
-      "41330946",
-      "34486522",
-      "41890006",
-      "30753279",
-      "36708003",
-      "29069282",
-      "41283958",
-      "40662829",
-      "30905396",
-      "33973014",
-      "31603498",
-      "37600946",
-      "37294799",
-      "35389435",
-      "30905748",
-      "36271868",
-      "37113248",
-      "40778316",
-      "24714811",
+      "39367524",
+      "31318408",
+      "27490187",
+      "33626337",
+      "37021559",
+      "29219068",
       "29335803",
-      "42487110",
-      "33802922",
-      "32732264",
-      "27662874",
-      "34913122",
-      "33478249",
-      "42158023",
-      "28605501",
+      "23685394",
+      "22537144",
+      "37012250",
+      "31665135",
+      "30905396",
       "17130149",
-      "38187673",
-      "29028988",
-      "33741075",
-      "41223195",
+      "33973014",
+      "24920305",
+      "23650633",
+      "36520922",
+      "40581823",
+      "33689683",
+      "31635067",
+      "37294799",
+      "17277777",
+      "41330946",
+      "22897152",
+      "18366609",
+      "28827824",
+      "18927605",
+      "32946763",
+      "36726730",
+      "31039173",
+      "42320030",
+      "17210927",
+      "33515242",
+      "29077884",
+      "42412845",
+      "37830459",
+      "29151363",
+      "33581335",
+      "38038259",
       "41862973",
-      "41634097",
-      "30286077"
+      "41527074",
+      "34491989",
+      "30286077",
+      "25035418",
+      "34913122",
+      "24714811",
+      "34252960",
+      "36071071",
+      "40205616",
+      "35534820",
+      "32961076",
+      "41993329",
+      "30696717",
+      "30905748",
+      "17135569",
+      "31201999",
+      "41283958",
+      "22328731",
+      "37539835",
+      "28716036",
+      "32193341"
     ],
     "review": [
       "42723633",
-      "32443951"
+      "32443951",
+      "23685394",
+      "23650633",
+      "31635067",
+      "37830459",
+      "41862973"
     ],
-    "pmc": [],
+    "pmc": [
+      "13579158"
+    ],
     "entrez": {},
-    "external": [],
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42723633/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag456",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
     "text_mined": []
   }
 }

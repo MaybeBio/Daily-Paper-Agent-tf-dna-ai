@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.02.543382",
+  "title": "Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model",
+  "authors": "Takafumi Ueki; Masahito Ohue",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-06",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用AlphaFold2和结合亲和力预测模型设计抗体CDR序列，虽涉及蛋白-蛋白互作建模，但对象为抗体-抗原而非蛋白质-DNA，方法可迁移性有限，与TF-DNA课题关联较弱。",
+  "abstract": "Affinity maturation in the immune response is limited in terms of affinity gain, and natural antibodies often do not have the binding affinity required for therapeutic applications. Therefore, improving the binding affinity of antibodies is essential for developing antibody-based therapeutics. Designing antibodies using experimental methods is expensive in terms of cost and time owing to the large range of complementarity-determining regions to be explored. Recently, computational methods have been developed as low-cost and fast means of designing and redesigning antibodies. This study evaluated the design performance of AlphaFold2 and the binder hallucination, which can predict protein 3D structures with high accuracy even without experimental antibodies, by redesigning antibody sequences to improve the binding affinity of existing antigen-antibody complexes. Therefore, antibody sequences with higher affinity can be designed for antigen-antibody complexes not included in the training data of AlphaFold2, indicating that the proposed method may be effective as an antibody design method.",
+  "abstract_zh": "免疫应答中的亲和力成熟在亲和力增益方面存在局限，天然抗体往往不具备治疗应用所需的结合亲和力。因此，提高抗体的结合亲和力对于开发基于抗体的治疗药物至关重要。由于需要探索的互补决定区范围广泛，使用实验方法设计抗体在成本和时间上均较为昂贵。近年来，计算方法已被开发为低成本、快速设计和再设计抗体的手段。本研究通过重新设计抗体序列以提高现有抗原-抗体复合物的结合亲和力，评估了AlphaFold2和结合物幻觉（binder hallucination）的设计性能，这两种方法即使在没有实验抗体的情况下也能高精度预测蛋白质三维结构。因此，对于未包含在AlphaFold2训练数据中的抗原-抗体复合物，可以设计出具有更高亲和力的抗体序列，这表明所提出的方法可能作为一种有效的抗体设计方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.02.543382",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.02.543382",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.02.543382/index.html"
+}

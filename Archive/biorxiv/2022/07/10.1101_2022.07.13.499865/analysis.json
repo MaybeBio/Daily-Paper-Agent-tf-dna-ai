@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.13.499865",
+  "title": "A hybrid approach for predicting transcription factors",
+  "authors": "Patiyal S; Tiwari P; Ghai M; Dhapola A; Dhall A; Raghava GPS",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-14",
+  "window": {
+    "start": "2022-07-11",
+    "end": "2022-07-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用混合方法（比对+机器学习）预测转录因子蛋白，但仅基于序列组成特征，未涉及TF-DNA结合位点、互作界面或三维结构建模，与课题核心的TF-DNA互作机制研究关联较弱。",
+  "abstract": "Transcription factors (TFs) are essential DNA-binding proteins that regulate the rate of transcription of several genes and controls the expression of genes inside a cell. The prediction of TFs with high precision is important for understanding number of biological processes such as cell-differentiation, intracellular signaling, cell-cycle control. In this study, we developed a hybrid method that combine alignment-based and alignment-free methods for predicting transcription factors with higher accuracy. All models have been trained, tested and evaluated on a large dataset that contain 19406 TFs and 523560 non-TFs protein sequences. In order to avoid biasness in evaluation, dataset is divided in training and validation/independent dataset, where 80% data was used for training and remaining 20% for external validation. In case of alignment-free methods, models are developed based on machine learning techniques using compositional features of a protein. Our best alignment-free model obtained AUC 0.97 on independent dataset. In case of alignment-based method, we used BLAST at different cut-off to predict transcription factors. Though alignment-based method shows excellent performance but unable to cover all transcription factor due to no-hits. In order to combine power of both, we developed a hybrid method that combine alignment-free and alignment-based method; achieved maximum AUC of 0.99 on independent dataset. The method proposed in this study perform better than existing methods. We incorporated the best models in the webserver/standalone package “TransFacPred” ( https://webs.iiitd.edu.in/raghava/transfacpred ). <h4>Key Points</h4> Transcription factors (TFs) are vital DNA-binding proteins. A hybrid method for the prediction of TFs using sequence information. Computer-aided model were developed using machine-learning algorithm to predict TFs. Alignment-based and alignment-free approaches were used for the prediction. A user-friendly webserver, python- and Perl-based standalone package available.",
+  "abstract_zh": "转录因子（Transcription factors, TFs）是关键的DNA结合蛋白，调控多个基因的转录速率并控制细胞内基因的表达。高精度预测转录因子对于理解细胞分化、细胞内信号传导、细胞周期控制等多种生物过程至关重要。在本研究中，我们开发了一种结合基于比对和免比对方法的混合方法，以提高转录因子预测的准确性。所有模型均在一个包含19406个转录因子和523560个非转录因子蛋白质序列的大型数据集上进行了训练、测试和评估。为避免评估中的偏差，数据集被分为训练集和验证/独立数据集，其中80%的数据用于训练，剩余20%用于外部验证。对于免比对方法，我们基于蛋白质的组成特征，利用机器学习技术构建了模型。我们的最佳免比对模型在独立数据集上获得了AUC 0.97。对于基于比对的方法，我们使用不同截断值的BLAST来预测转录因子。尽管基于比对的方法表现出色，但由于无匹配结果，无法覆盖所有转录因子。为结合两者的优势，我们开发了一种结合免比对和基于比对方法的混合方法，在独立数据集上达到了最大AUC 0.99。本研究所提出的方法优于现有方法。我们将最佳模型整合到了网络服务器/独立软件包“TransFacPred”（ https://webs.iiitd.edu.in/raghava/transfacpred ）中。\n\n<h4>关键点</h4> 转录因子（TFs）是至关重要的DNA结合蛋白。一种利用序列信息预测转录因子的混合方法。使用机器学习算法开发了计算机辅助模型来预测转录因子。采用了基于比对和免比对的方法进行预测。提供了一个用户友好的网络服务器，以及基于Python和Perl的独立软件包。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499865",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499865",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.13.499865/index.html"
+}

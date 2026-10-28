@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37740295",
+  "title": "GOAT: Gene-level biomarker discovery from multi-Omics data using graph ATtention neural network for eosinophilic asthma subtype.",
+  "authors": "Jeong, Dabin; Koo, Bonil; Oh, Minsik; Kim, Tae-Bum; Kim, Sun",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2023-09-23",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图注意力网络从多组学数据中发现哮喘亚型生物标志物，虽涉及转录因子CTNNB1和JUN，但核心是基因表达层面的亚型分类，缺乏蛋白质-DNA互作建模或结合机制研究，仅边缘相关。",
+  "abstract": "MOTIVATION: Asthma is a heterogeneous disease where various subtypes are established and molecular biomarkers of the subtypes are yet to be discovered. Recent availability of multi-omics data paved a way to discover molecular biomarkers for the subtypes. However, multi-omics biomarker discovery is challenging because of the complex interplay between different omics layers. RESULTS: We propose a deep attention model named Gene-level biomarker discovery from multi-Omics data using graph ATtention neural network (GOAT) for identifying molecular biomarkers for eosinophilic asthma subtypes with multi-omics data. GOAT identifies genes that discriminate subtypes using a graph neural network by modeling complex interactions among genes as the attention mechanism in the deep learning model. In experiments with multi-omics profiles of the COREA (Cohort for Reality and Evolution of Adult Asthma in Korea) asthma cohort of 300 patients, GOAT outperforms existing models and suggests interpretable biological mechanisms underlying asthma subtypes. Importantly, GOAT identified genes that are distinct only in terms of relationship with other genes through attention. To better understand the role of biomarkers, we further investigated two transcription factors, CTNNB1 and JUN, captured by GOAT. We were successful in showing the role of the transcription factors in eosinophilic asthma pathophysiology in a network propagation and transcriptional network analysis, which were not distinct in terms of gene expression level differences. AVAILABILITY AND IMPLEMENTATION: Source code is available https://github.com/DabinJeong/Multi-omics_biomarker. The preprocessed data underlying this article is accessible in data folder of the github repository. Raw data are available in Multi-Omics Platform at http://203.252.206.90:5566/, and it can be accessible when requested.",
+  "abstract_zh": "动机：哮喘是一种异质性疾病，已确立多种亚型，而这些亚型的分子生物标志物尚待发现。近期多组学数据的可用性为发现亚型的分子生物标志物铺平了道路。然而，由于不同组学层之间的复杂相互作用，多组学生物标志物发现具有挑战性。结果：我们提出了一种名为“基于图注意力神经网络的多组学数据基因水平生物标志物发现（GOAT）”的深度注意力模型，用于利用多组学数据识别嗜酸性粒细胞性哮喘亚型的分子生物标志物。GOAT通过图神经网络识别区分亚型的基因，将基因间的复杂相互作用建模为深度学习模型中的注意力机制。在对COREA（韩国成人哮喘现实与演变队列）300名患者的多组学特征进行的实验中，GOAT优于现有模型，并提出了哮喘亚型下可解释的生物学机制。重要的是，GOAT通过注意力识别出仅在与其他基因关系上有所不同的基因。为了更好地理解生物标志物的作用，我们进一步研究了GOAT捕获的两个转录因子CTNNB1和JUN。我们成功地在网络传播和转录网络分析中展示了这些转录因子在嗜酸性粒细胞性哮喘病理生理学中的作用，而这些在基因表达水平差异上并不明显。可用性与实现：源代码可在https://github.com/DabinJeong/Multi-omics_biomarker获取。本文所依据的预处理数据可在该GitHub仓库的数据文件夹中访问。原始数据可在多组学平台http://203.252.206.90:5566/获取，需请求访问。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37740295/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37740295/",
+  "paper_page_path": "papers/pubmed/37740295/index.html"
+}

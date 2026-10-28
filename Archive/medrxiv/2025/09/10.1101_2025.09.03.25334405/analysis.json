@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2025.09.03.25334405",
+  "title": "RT2C: Predicting Time to New Dental Caries Using a Recurrent Neural Network Model Trained on Multi-Site Longitudinal Structured Dental Data",
+  "authors": "Xiangyi Liu; Krishna Kumar Kookal; Ryan Brandon; D. Brad Rindal; Joanna Mullins; Joel M. White; Muhammad F. Walji; Laila Rasmy",
+  "journal": "medRxiv",
+  "published_date": "2025-09-05",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用循环神经网络预测龋齿发生时间，属于纯临床医学应用，不涉及蛋白质-DNA互作或AI/物理模拟方法，与本课题完全无关。",
+  "abstract": "Dental caries remains one of the most prevalent chronic conditions globally, yet efforts to quantify a patient’s risk of developing new caries over time remain limited. Existing caries risk assessment (CRA) tools are widely used in clinical settings but typically rely on cross-sectional data, which may limit their predictive accuracy and generalizability across populations. To address these limitations, we developed RT2C, a recurrent neural network model based on bidirectional gated recurrent units (Bi-GRU) to predict time to new caries. The model was trained on longitudinal dental records from 466,782 patients across four diverse dental organizations, encompassing over one million visits between 2019 and 2023. Input features included demographics, preventive procedures, caries history, and previously recorded CRA scores. We benchmarked the model performance against other machine learning models such as logistic regression, light gradient boost machine, random survival forest, and CRA-based baselines using AUROC for binary classification and concordance index (c-index) for survival prediction. Our model demonstrated strong predictive performance, achieving a c-index of 88.52% (95% CI: 88.51-88.54) in survival analysis, significantly outperforming baseline models based on current or past CRA scores by more than 18%. Site-level evaluations confirmed its robust generalizability, with pooled models performing comparably or better than sites-pecific ones. Additionally, decision curve analysis showed that the Bi-GRU model offers greater clinical net benefit across a range of decision thresholds when compared to CRA or treat-all/treat-none strategies. By leveraging longitudinal dental histories and temporal patterns in patient visits, our proposed model provides clinically meaningful improvements in predicting caries risk. These findings support its potential integration into decision support tools for more personalized and preventive dental care.",
+  "abstract_zh": "龋齿仍是全球最常见的慢性疾病之一，然而，量化患者随时间发展为新龋齿风险的努力仍然有限。现有的龋病风险评估（CRA）工具在临床环境中被广泛使用，但通常依赖于横断面数据，这可能限制其预测准确性和跨人群的泛化能力。为解决这些局限性，我们开发了RT2C，一种基于双向门控循环单元（Bi-GRU）的循环神经网络模型，用于预测新龋齿发生的时间。该模型在来自四个不同牙科机构的466,782名患者的纵向牙科记录上进行了训练，涵盖2019年至2023年间超过一百万次就诊。输入特征包括人口统计学信息、预防性操作、龋病史以及先前记录的CRA评分。我们使用AUROC进行二元分类评估，并使用一致性指数（c-index）进行生存预测，将模型性能与其他机器学习模型（如逻辑回归、轻量梯度提升机、随机生存森林）以及基于CRA的基线模型进行了基准比较。我们的模型表现出强大的预测性能，在生存分析中达到了88.52%（95% CI: 88.51-88.54）的c-index，显著优于基于当前或既往CRA评分的基线模型，提升幅度超过18%。站点级评估确认了其稳健的泛化能力，合并模型的表现与站点特定模型相当或更优。此外，决策曲线分析显示，与CRA或全治疗/全不治疗策略相比，Bi-GRU模型在各种决策阈值下提供了更大的临床净收益。通过利用纵向牙科史和患者就诊的时间模式，我们提出的模型在预测龋病风险方面提供了临床上有意义的改进。这些发现支持其潜在整合到决策支持工具中，以实现更个性化和预防性的牙科护理。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2025.09.03.25334405",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2025.09.03.25334405",
+  "paper_page_path": "papers/medrxiv/10.1101_2025.09.03.25334405/index.html"
+}

@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "40593053",
+    "doi": "10.1038/s41598-025-04550-y",
+    "title": "Screening biomarkers related to cholesterol metabolism in osteoarthritis based on transcriptomics."
+  },
+  "content": {
+    "abstract": "Cholesterol metabolism-related genes (CMRGs) have been associated with osteoarthritis (OA), but their specific regulatory mechanisms remain unclear. This study aimed to investigate the role of CMRGs in OA and provide new insights into its treatment. In this study, two OA datasets, GSE55457 and GSE55235, were applied, which contained the transcriptome data of 10 OA samples and 10 control samples (synovial tissue) respectively. Using these two OA datasets and CMRGs, 21 candidate genes were identified by overlapping CMRGs and differentially expressed genes (DEGs). Protein-protein interaction networks were constructed, revealing interactions among candidate genes. Three machine learning algorithms identified ATF3, CHKA, CLU, CTNNB1, and FASN as potential biomarkers. Further evaluation in two datasets confirmed ATF3, CLU, and FASN as biomarkers, with quantitative reverse transcription polymerase chain reaction (qRT-PCR) results showing elevated CLU and decreased ATF3 and FASN expression in OA. Receiver operating characteristic (ROC) curves and a nomogram model demonstrated high accuracy in predicting OA. Among them, in the GSE55457 dataset, the Area Under the Curve (AUC) value of ATF3 was 0.78 (95% CI 0.71-0.85), the AUC value of CLU was 0.82 (95% CI 0.75-0.89), and the AUC value of FASN was 0.76 (95% CI 0.69-0.83). The AUC value of the nomogram model based on these biomarkers in the training set was 0.90 (95% CI 0.80-0.90), and the slope of the calibration curve was close to 1. Immunocorrelation analysis revealed favorable correlations between ATF3, FASN, and immune cell activities. In conclusion, ATF3, CLU, and FASN were identified as cholesterol metabolism biomarkers in OA, offering new perspectives on the relationship between CMRGs and OA.",
+    "keywords": [
+      "Biomarkers",
+      "Cholesterol metabolism",
+      "GEO",
+      "Immune regulation",
+      "Osteoarthritis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteoarthritis/genetics/metabolism",
+      "*Biomarkers/metabolism",
+      "*Transcriptome",
+      "*Cholesterol/metabolism/genetics",
+      "Clusterin/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Protein Interaction Maps/genetics",
+      "Activating Transcription Factor 3/genetics/metabolism",
+      "Fatty Acid Synthase, Type I/genetics/metabolism",
+      "ROC Curve",
+      "Male",
+      "Female",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lao, ChenDeng",
+        "Wei, Wei",
+        "Cheng, JianWen",
+        "Liao, ShiJie",
+        "Luo, XiaoLin",
+        "Huang, Qian",
+        "Huang, HengZhen",
+        "Zhao, JinMin"
+      ],
+      "short_names": [
+        "Lao C",
+        "Wei W",
+        "Cheng J",
+        "Liao S",
+        "Luo X",
+        "Huang Q",
+        "Huang H",
+        "Zhao J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China.",
+        "The Wu Ming Hospital of Guangxi Medical University, Nanning, China.",
+        "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China.",
+        "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China.",
+        "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China.",
+        "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China.",
+        "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China. 202280251@sr.gxmu.edu.cn.",
+        "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China. csgkswk@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lao, ChenDeng",
+        "short_name": "Lao C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Wei",
+        "short_name": "Wei W",
+        "identifiers": [],
+        "affiliations": [
+          "The Wu Ming Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, JianWen",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China."
+        ]
+      },
+      {
+        "full_name": "Liao, ShiJie",
+        "short_name": "Liao S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China."
+        ]
+      },
+      {
+        "full_name": "Luo, XiaoLin",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qian",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, HengZhen",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China. 202280251@sr.gxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, JinMin",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, Nanning, 530000, China. csgkswk@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 00:27",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39616163",
+      "38139020",
+      "38046403",
+      "37938654",
+      "37863189",
+      "37640697",
+      "37494190",
+      "37076536",
+      "37047082",
+      "36817954",
+      "36744258",
+      "36675183",
+      "36576575",
+      "36414669",
+      "36362955",
+      "36300620",
+      "36006403",
+      "35967352",
+      "35751589",
+      "35296530",
+      "35165404",
+      "34988164",
+      "34987154",
+      "34976733",
+      "34710530",
+      "34412670",
+      "34409029",
+      "34337652",
+      "34300344",
+      "34098867",
+      "33627871",
+      "33560326",
+      "33299139",
+      "32961029",
+      "32222415",
+      "31960380",
+      "31773388",
+      "31441146",
+      "31391008",
+      "31034380",
+      "30954949",
+      "30728500",
+      "30656541",
+      "30453885",
+      "29717106",
+      "29344893",
+      "29035179",
+      "28957567",
+      "28852192",
+      "28665034",
+      "28564649",
+      "28448087",
+      "28378420",
+      "27207943",
+      "27180156",
+      "27162783",
+      "27159257",
+      "26474054",
+      "26063472",
+      "25748615",
+      "25605792",
+      "25076422",
+      "24378367",
+      "23937229",
+      "23372516",
+      "22455463",
+      "21414208",
+      "20808728",
+      "17314121",
+      "17216685",
+      "16932709",
+      "13752350",
+      "12886021",
+      "12882985",
+      "10592173",
+      "10440233",
+      "9847234",
+      "7674240"
+    ],
+    "similar": [
+      "40593053",
+      "39585570",
+      "38734758",
+      "30483789",
+      "38771826",
+      "34113405",
+      "40628511",
+      "39695788",
+      "40592131",
+      "39779817",
+      "36929359",
+      "40420260",
+      "40726988",
+      "32917098",
+      "39173977",
+      "41146237",
+      "39875572",
+      "41316378",
+      "40646535",
+      "39086489",
+      "39176085",
+      "41310008",
+      "36082523",
+      "35381129",
+      "34224029",
+      "29344651",
+      "32571421",
+      "33325525",
+      "35733917",
+      "40216809",
+      "40520234",
+      "32832544",
+      "40195426",
+      "39639239",
+      "39484639",
+      "39935469",
+      "39697326",
+      "41137247",
+      "38645862",
+      "30186872",
+      "39438957",
+      "41219826",
+      "40828304",
+      "32135469",
+      "40804350",
+      "39640258",
+      "40842856",
+      "40919665",
+      "39919076",
+      "40589764",
+      "39216434",
+      "41502501",
+      "40830558",
+      "40474128",
+      "37454542",
+      "38509535",
+      "40335993",
+      "40885352",
+      "34195267",
+      "39341952",
+      "39738612",
+      "41089260",
+      "32342805",
+      "39026663",
+      "30317616",
+      "35651940",
+      "39282111",
+      "41196851",
+      "41165157",
+      "37866944",
+      "37138862",
+      "32945465",
+      "32255771",
+      "34976733",
+      "38987624",
+      "34572569",
+      "38767974",
+      "33782454",
+      "40164659",
+      "17056579",
+      "39938337",
+      "37503333",
+      "41479901",
+      "38897125",
+      "40442788",
+      "29255496",
+      "36681837",
+      "41327360",
+      "37723556",
+      "40909283",
+      "39953769",
+      "30365099",
+      "38741149",
+      "30260019",
+      "37111057",
+      "38268862",
+      "41031145",
+      "40724902",
+      "29514675",
+      "38637111"
+    ],
+    "review": [
+      "40593053",
+      "34976733"
+    ],
+    "pmc": [
+      "12217744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-04550-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40593053/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CHKA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1745",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

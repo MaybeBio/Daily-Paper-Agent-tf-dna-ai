@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "42285238",
+    "doi": "10.1016/j.jep.2026.122015",
+    "title": "Ophiopogon japonicus alleviates pulmonary fibrosis through modulation of HIF1A/TUBB3 axis-associated M2 macrophage polarization and arginine metabolic alterations."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Ophiopogon japonicus (Thunb.) Ker Gawl. is a traditional Chinese medicinal herb commonly used to \"nourish yin and moisten the lung\", and has long been applied for the prevention and treatment of lung-related disorders in classical medical texts such as the Treatise on Typhoid Fever and Item Differentiation of Warm Febrile Diseases. Pulmonary fibrosis (PF) is a chronic progressive fibrotic lung disease with limited therapeutic options. Although Ophiopogon japonicus has shown anti-inflammatory and anti-fibrotic potential in respiratory diseases, its pharmacological mechanisms against PF remain unclear. AIM OF THE STUDY: This study aimed to evaluate the protective effects of Ophiopogon japonicus aqueous decoction against PF and to investigate whether its anti-fibrotic effects are associated with the modulation of hypoxia-inducible factor 1 subunit alpha (HIF1A)/tubulin beta 3 class III (TUBB3) axis-associated M2 macrophage polarization and arginine metabolic alterations. MATERIALS AND METHODS: Potential bioactive constituents of Ophiopogon japonicus aqueous decoction were first screened using UHPLC-Q Exactive Orbitrap-HRMS combined with Lipinski's rule of five. A bleomycin (BLM)-induced mouse model of PF was then established, and Ophiopogon japonicus aqueous decoction was administered as an intervention. Body weight, pulmonary function testing (PFT), micro-CT, histopathology, enzyme-linked immunosorbent assay (ELISA), and immunohistochemistry (IHC) were used to evaluate its pharmacodynamic effects. Network pharmacology, Gene Expression Omnibus (GEO) mining, weighted gene co-expression network analysis (WGCNA), machine learning (ML), transcriptomics, metabolomics, and single-cell transcriptomics combined with virtual knockout analysis were further integrated to identify candidate targets, related pathways, and metabolic alterations. Finally, flow cytometry, western blotting, immunofluorescence (IF) co-staining, AlphaFold3, molecular docking, and molecular dynamics simulation were performed to further assess phenotypic changes, predicted molecular associations, and candidate active constituents. RESULTS: Ophiopogon japonicus aqueous decoction significantly alleviated BLM-induced PF, and 16 potential bioactive constituents were identified. In vivo experiments showed that Ophiopogon japonicus aqueous decoction attenuated body weight loss, pulmonary dysfunction, micro-CT abnormalities, histopathological injury, collagen deposition, inflammatory responses, and fibrosis scores in PF mice. Bioinformatic analysis identified HIF1A as a candidate hub target and TUBB3 as a key feature gene. Further multi-omics analysis showed that the HIF1A/TUBB3 axis-associated module was closely associated with M2 macrophage polarization and arginine metabolic dysregulation; combined with virtual knockout analysis, these results further suggested that HIF1A may be located upstream of TUBB3 at the predicted regulatory-network level. Experimental analyses showed that Ophiopogon japonicus aqueous decoction intervention was associated with decreased HIF-1alpha and TUBB3 protein expression, reduced M2 macrophage polarization, and partial correction of arginine metabolic dysregulation. Structural simulation suggested that Ophiopogonin D could stably bind to HIF-1alpha and TUBB3. CONCLUSION: This study demonstrated that Ophiopogon japonicus aqueous decoction alleviates BLM-induced PF. Integrated multi-omics analysis and experimental evidence suggested that its anti-fibrotic effects may be associated with modulation of HIF1A/TUBB3 axis-associated M2 macrophage polarization and arginine metabolic dysregulation. Ophiopogonin D may be one of the candidate active constituents associated with these protective effects.",
+    "keywords": [
+      "Arginine metabolic alterations",
+      "HIF1A/TUBB3 axis-associated module",
+      "M2 macrophage polarization",
+      "Machine learning",
+      "Ophiopogon japonicus",
+      "Pulmonary fibrosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Pulmonary Fibrosis/drug therapy/chemically induced/metabolism/pathology",
+      "*Ophiopogon/chemistry",
+      "Mice",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics",
+      "*Macrophages/drug effects/metabolism",
+      "Bleomycin",
+      "Male",
+      "*Arginine/metabolism",
+      "*Tubulin/metabolism",
+      "Mice, Inbred C57BL",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Lung/drug effects/pathology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wen, Kehan",
+        "Zhao, Qi",
+        "Wang, Si",
+        "Liu, Feiyi",
+        "Cai, Manya",
+        "Wang, Han",
+        "Zhou, Xianmei",
+        "Xu, Yong"
+      ],
+      "short_names": [
+        "Wen K",
+        "Zhao Q",
+        "Wang S",
+        "Liu F",
+        "Cai M",
+        "Wang H",
+        "Zhou X",
+        "Xu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Acupuncture and Massage & School of Health and Rehabilitation, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China.",
+        "Department of Respiratory and Critical Care Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210029, China.",
+        "School of Chinese Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China.",
+        "School of Acupuncture and Massage & School of Health and Rehabilitation, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China.",
+        "School of Integrative Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China.",
+        "School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China.",
+        "Department of Respiratory and Critical Care Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210029, China.",
+        "School of Chinese Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China. Electronic address: njzyyxuyong@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wen, Kehan",
+        "short_name": "Wen K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Acupuncture and Massage & School of Health and Rehabilitation, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qi",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Si",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Feiyi",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Acupuncture and Massage & School of Health and Rehabilitation, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Manya",
+        "short_name": "Cai M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrative Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Han",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xianmei",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yong",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, 210023, China. Electronic address: njzyyxuyong@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2026 Nov 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/13 00:38",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42285238",
+      "39733638",
+      "38782311",
+      "41780616",
+      "41970211",
+      "42302945",
+      "41780617",
+      "41887381",
+      "41903585",
+      "40652799",
+      "42112343",
+      "41763142",
+      "37331450",
+      "42173417",
+      "40523450",
+      "42210244",
+      "40555150",
+      "40499803",
+      "42334622",
+      "41800803",
+      "37865276",
+      "41507413",
+      "40850661",
+      "41448369",
+      "40350052",
+      "42220119",
+      "40946659",
+      "38759312",
+      "41423159",
+      "41866771",
+      "40003932",
+      "40554052",
+      "40916281",
+      "41791618",
+      "39369919",
+      "40812555",
+      "36386126",
+      "41447837",
+      "39515679",
+      "41687943",
+      "41455569",
+      "41547068",
+      "41839300",
+      "41202384",
+      "41621766",
+      "39209002",
+      "40181990",
+      "40957363",
+      "42035997",
+      "42276391",
+      "39755270",
+      "40550190",
+      "42035996",
+      "41338108",
+      "39991963",
+      "41692111",
+      "41482085",
+      "42275874",
+      "41581793",
+      "41911987",
+      "41737799",
+      "40835195",
+      "42085848",
+      "42259422",
+      "39261812",
+      "40220148",
+      "40513322",
+      "41796616",
+      "37532070",
+      "38788399",
+      "41412231",
+      "41672117",
+      "36356715",
+      "41534747",
+      "38870750",
+      "41771338",
+      "41740333",
+      "41552925",
+      "28915065",
+      "39396718",
+      "38190954",
+      "41800106",
+      "41534756",
+      "38259493",
+      "41679358",
+      "41380414",
+      "39103233",
+      "31421181",
+      "38773984",
+      "41685577",
+      "40311344",
+      "41172817",
+      "40935216",
+      "41284091",
+      "39079195",
+      "39999939",
+      "41679177",
+      "40391179",
+      "39580448",
+      "40215816"
+    ],
+    "review": [
+      "42285238"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(26)00869-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pulmonaryfibrosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pulmonary Fibrosis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TUBB-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "41491575",
+    "doi": "10.1186/s40001-025-03772-0",
+    "title": "Mitochondrial-related biomarkers as the diagnostic markers in sepsis induced acute respiratory distress syndrome."
+  },
+  "content": {
+    "abstract": "Previous study found that mitochondrial might correlate with sepsis-induced acute respiratory distress syndrome (ARDS). Thus, this study aimed to find the effect of mitochondrial-related biomarkers in sepsis-induced ARDS. Differentially expressed genes (DEGs) were firstly screened in sepsis-induced ARDS datasets and intersected with mitochondrial-related genes (MRGs) to create differentially expressed-MRGs (DE-MRGs). Based on DE-MRGs, three machine learning algorithms were further performed to yield feature genes, the intersections of feature genes were conducted expression analysis. Those genes with significant difference of expression were identified as biomarkers for nomogram construction and immune infiltration. Single cell RNA sequencing (scRNA-seq) analysis was processed to annotate cell subpopulations, the expression of biomarkers was evaluated in different cell subpopulations. Finally, the expression of biomarkers was validated by quantitative reverse transcription polymerase chain reaction (qRT-PCR) and western blotting. Relied on comprehensive analysis, three biomarkers (ARID4B, RGS2, TGM2) related to mitochondrial were acquired for sepsis-induced ARDS. A nomogram was then constructed relied on biomarkers, and verified to have an excellent performance. Analysis of immune infiltration showed that naive B cells and CD8(+) T cells had significant difference between different groups. Neutrophils were likewise found to be positively correlated with RGS2 (cor = 0.39, p < 0.05). 13 distinct cell subpopulations were annotated, and RGS2 had the highest expression in myofibroblast. Finally, the expression of ARID4B and RGS2 was stably downregulated in sepsis-induced ARDS. In this study, three biomarkers (ARID4B, RGS2, and TGM2) for sepsis-induced ARDS were found, which provided theoretical basis for the diagnose and treatment for the disease.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarker",
+      "Mitochondrial",
+      "Sepsis-induced acute respiratory distress syndrome",
+      "Single cell analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sepsis/complications/genetics",
+      "*Respiratory Distress Syndrome/etiology/diagnosis/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "*Mitochondria/metabolism/genetics",
+      "Nomograms",
+      "RGS Proteins/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Ying",
+        "Cheng, Yun",
+        "Zhang, Han",
+        "Xing, Zhouxiong",
+        "Fu, Bao",
+        "Fu, Xiaoyun"
+      ],
+      "short_names": [
+        "He Y",
+        "Cheng Y",
+        "Zhang H",
+        "Xing Z",
+        "Fu B",
+        "Fu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Critical Care Medicine, Affiliated hospital of Zunyi Medical University, Zunyi, 563000, China.",
+        "Department of Emergency Medicine, Affiliated Hospital of Zunyi Medical University, Zunyi, 563000, China.",
+        "First Clinical College, Zunyi Medical University, Zunyi, 563000, China.",
+        "Department of Critical Care Medicine, Affiliated hospital of Zunyi Medical University, Zunyi, 563000, China.",
+        "Department of Critical Care Medicine, Affiliated hospital of Zunyi Medical University, Zunyi, 563000, China. zyfbao@126.com.",
+        "Department of Critical Care Medicine, Affiliated hospital of Zunyi Medical University, Zunyi, 563000, China. zyfuxiaoyun@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Ying",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Affiliated hospital of Zunyi Medical University, Zunyi, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yun",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, Affiliated Hospital of Zunyi Medical University, Zunyi, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Han",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical College, Zunyi Medical University, Zunyi, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Zhouxiong",
+        "short_name": "Xing Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Affiliated hospital of Zunyi Medical University, Zunyi, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Bao",
+        "short_name": "Fu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Affiliated hospital of Zunyi Medical University, Zunyi, 563000, China. zyfbao@126.com."
+        ]
+      },
+      {
+        "full_name": "Fu, Xiaoyun",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Affiliated hospital of Zunyi Medical University, Zunyi, 563000, China. zyfuxiaoyun@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2026 Jan 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/06 13:06",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41214769",
+      "41070114",
+      "41041455",
+      "40974657",
+      "40891647",
+      "40703433",
+      "40375981",
+      "40041768",
+      "39994219",
+      "39990234",
+      "39911279",
+      "39769284",
+      "39751985",
+      "39684262",
+      "39640869",
+      "39494205",
+      "39467606",
+      "39332752",
+      "39323626",
+      "39132501",
+      "38802959",
+      "38783529",
+      "38777097",
+      "38696924",
+      "38445620",
+      "38356962",
+      "38261584",
+      "38147883",
+      "38088941",
+      "37920555",
+      "37789265",
+      "37700323",
+      "37526181",
+      "37408042",
+      "37274737",
+      "37231261",
+      "37176780",
+      "37063851",
+      "37004345",
+      "36999418",
+      "36915111",
+      "36879254",
+      "36872331",
+      "36671463",
+      "36182915",
+      "36070788",
+      "36070787",
+      "36059472",
+      "35941120",
+      "35837069",
+      "35798691",
+      "35752760",
+      "35679477",
+      "35276715",
+      "35011166",
+      "34818962",
+      "34817668",
+      "34607226",
+      "34393665",
+      "34270690",
+      "34149999",
+      "33732001",
+      "33675746",
+      "33334945",
+      "33202202",
+      "30305828",
+      "28107494",
+      "27549302",
+      "26792210",
+      "25605792",
+      "22132083",
+      "20808728"
+    ],
+    "similar": [
+      "41491575",
+      "40753320",
+      "40068062",
+      "40055592",
+      "40375981",
+      "35844622",
+      "40898483",
+      "36169246",
+      "40849369",
+      "40050379",
+      "40892227",
+      "41214769",
+      "36685531",
+      "34898369",
+      "38423372",
+      "41013727",
+      "39763654",
+      "34393665",
+      "38783263",
+      "35538832",
+      "40845479",
+      "40885831",
+      "35411170",
+      "37822934",
+      "41221285",
+      "35222683",
+      "41107920",
+      "33818300",
+      "39283066",
+      "39588141",
+      "37443002",
+      "40263316",
+      "37336980",
+      "41424725",
+      "40634559",
+      "40267500",
+      "40124361",
+      "40396530",
+      "37261353",
+      "39854144",
+      "40830558",
+      "39191344",
+      "40697417",
+      "41306613",
+      "38558817",
+      "34557198",
+      "41235230",
+      "27090785",
+      "36567558",
+      "32720541",
+      "40129981",
+      "38236387",
+      "37398680",
+      "24156650",
+      "35622463",
+      "41291841",
+      "40609705",
+      "41116817",
+      "37158106",
+      "38656728",
+      "31967348",
+      "40259224",
+      "41246299",
+      "35719385",
+      "32499573",
+      "31982041",
+      "39920860",
+      "40503488",
+      "38321908",
+      "37800807",
+      "33904373",
+      "32844492",
+      "38702721",
+      "36918848",
+      "23911438",
+      "37115484",
+      "39762837",
+      "38291374",
+      "23903852",
+      "40768057",
+      "40086004",
+      "38044432",
+      "41354184",
+      "39968593",
+      "38238652",
+      "32319516",
+      "40116326",
+      "31566109",
+      "39587404",
+      "40374019",
+      "36402952",
+      "41437584",
+      "37922010",
+      "33536775",
+      "37449204",
+      "18060663",
+      "40540448",
+      "41101747",
+      "38500106",
+      "41142802"
+    ],
+    "review": [
+      "41491575",
+      "37158106",
+      "39968593"
+    ],
+    "pmc": [
+      "12870294"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03772-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41491575/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1754",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

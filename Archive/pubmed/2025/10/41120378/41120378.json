@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "41120378",
+    "doi": "10.1038/s41598-025-20302-4",
+    "title": "Integrative transcriptomic analysis identifies shared EndMT-related gene signatures in endometriosis and recurrent miscarriage."
+  },
+  "content": {
+    "abstract": "Endometriosis (EMs) and recurrent miscarriage (RM) represent major reproductive health challenges. This study investigates the involvement of endothelial-mesenchymal transition (EndMT) in these conditions through integrative bioinformatics analysis, focusing on the dysregulation of EndMT-related genes (EndMTRGs). Transcriptomic datasets of EMs and RM were retrieved from the gene expression omnibus (GEO) database. Specifically, GSE120103 includes 18 endometriosis and 18 control samples, and GSE165004 includes 24 recurrent miscarriage and 24 control samples. Differentially expressed gene (DEG) analysis and EndMTRG profiling were performed to identify key pathways and hub genes associated with EndMT. Functional enrichment analyses, including gene ontology (GO), Kyoto encyclopedia of genes and genomes (KEGG), and gene set enrichment analysis (GSEA), were conducted. A protein-protein interaction (PPI) network was constructed via the STRING database, and hub genes were identified using cytoHubba algorithms. Immune cell infiltration patterns were evaluated through single-sample GSEA (ssGSEA). Additionally, support vector machine recursive feature elimination (SVM-RFE) was applied as a supplementary method to assist key gene selection, and nomograms were developed for preliminary risk prediction modeling. A total of 13 EndMTRGs were identified, with key genes such as FGF2, ITGB1, VIM, NR4A1, MAPK1, SMAD1, TUBB3, and CDH11 validated across external datasets. ROC curve analysis demonstrated high diagnostic performance of these genes. Regulatory networks involving RNA-binding proteins and transcription factors were delineated. Immune cell-related gene set enrichment analysis (ssGSEA) revealed distinct immune signatures, notably involving gamma-delta T (gammadelta T) cells and monocytes in EMs, and T follicular helper (Tfh) cells and natural killer (NK) cells in RM. Nomograms based on key genes exhibited reasonable predictive performance. This study elucidates the dysregulated EndMT landscape shared by endometriosis and recurrent miscarriage, identifying common gene signatures and immune features. These findings provide molecular insights into the shared pathogenesis of these conditions and highlight potential targets for future translational research.",
+    "keywords": [
+      "Biomarker",
+      "Endometriosis",
+      "Endothelial-mesenchymal transition",
+      "Immune infiltration",
+      "Machine learning",
+      "Recurrent miscarriage"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Endometriosis/genetics/pathology",
+      "Female",
+      "*Abortion, Habitual/genetics/pathology",
+      "*Gene Expression Profiling",
+      "*Transcriptome",
+      "Protein Interaction Maps/genetics",
+      "Computational Biology/methods",
+      "Gene Regulatory Networks",
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "Gene Ontology",
+      "Pregnancy",
+      "Endothelial-Mesenchymal Transition"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Yue",
+        "Yu, Liangcheng",
+        "Zhou, Qingde",
+        "Su, Danjie",
+        "Wang, Lu",
+        "Li, Cong",
+        "Wang, Jingjing",
+        "Wang, Haihui",
+        "Dong, Jie",
+        "Xiao, Xifeng",
+        "Wang, Xiaohong"
+      ],
+      "short_names": [
+        "Liang Y",
+        "Yu L",
+        "Zhou Q",
+        "Su D",
+        "Wang L",
+        "Li C",
+        "Wang J",
+        "Wang H",
+        "Dong J",
+        "Xiao X",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+        "Department of Gynecology and Obstetrics, 987th Hospital of PLA Joint Logistic Support Force, Baoji, Shaanxi, People's Republic of China.",
+        "Reproductive Medicine Center and Prenatal Diagnosis Center, 901st Hospital of PLA Joint Logistic Support Force, Hefei, Anhui, People's Republic of China.",
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+        "Center for Women, Children and Reproduction, 924th Hospital of PLA Joint Logistic Support Force, Guilin, Guangxi, People's Republic of China.",
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+        "School of Basic Medical Sciences, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China. dongjie2020@fmmu.edu.cn.",
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China. xxfeng926@163.com.",
+        "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China. wangxh919@fmmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Yue",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+          "Department of Gynecology and Obstetrics, 987th Hospital of PLA Joint Logistic Support Force, Baoji, Shaanxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yu, Liangcheng",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medicine Center and Prenatal Diagnosis Center, 901st Hospital of PLA Joint Logistic Support Force, Hefei, Anhui, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Qingde",
+        "short_name": "Zhou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China.",
+          "Center for Women, Children and Reproduction, 924th Hospital of PLA Joint Logistic Support Force, Guilin, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Su, Danjie",
+        "short_name": "Su D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lu",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Cong",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingjing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haihui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dong, Jie",
+        "short_name": "Dong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China. dongjie2020@fmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xifeng",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China. xxfeng926@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaohong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics and Reproductive Medicine Center, Tangdu Hospital, Fourth Military Medical University, Xi'an, Shaanxi, People's Republic of China. wangxh919@fmmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/22 02:35",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40908193",
+      "40467364",
+      "39529960",
+      "38417575",
+      "37933855",
+      "37591843",
+      "37491929",
+      "37450163",
+      "37409951",
+      "37288756",
+      "36972747",
+      "36918177",
+      "36889652",
+      "36873081",
+      "36817424",
+      "36614167",
+      "36613575",
+      "36439123",
+      "36399495",
+      "36370105",
+      "36369952",
+      "36334301",
+      "36300620",
+      "35805112",
+      "35672876",
+      "35641095",
+      "35443807",
+      "35320951",
+      "35124947",
+      "34996477",
+      "34429116",
+      "33915094",
+      "33828270",
+      "33610320",
+      "33581853",
+      "33537101",
+      "33384961",
+      "33303732",
+      "33290554",
+      "33202017",
+      "33153018",
+      "33125081",
+      "32973809",
+      "32610665",
+      "32560057",
+      "32212520",
+      "31791693",
+      "31441146",
+      "30864875",
+      "30760267",
+      "30654892",
+      "29912392",
+      "28605766",
+      "28240738",
+      "26925056",
+      "25521941",
+      "24297251",
+      "19487818",
+      "18539112",
+      "17496320",
+      "10592173"
+    ],
+    "similar": [
+      "41120378",
+      "39586719",
+      "41200172",
+      "40692778",
+      "41146237",
+      "39375405",
+      "36532015",
+      "40046872",
+      "40705269",
+      "40097519",
+      "39351239",
+      "39395380",
+      "41044520",
+      "41137290",
+      "38736878",
+      "38660311",
+      "40997906",
+      "39306912",
+      "40628511",
+      "40821971",
+      "41291978",
+      "39398336",
+      "41006883",
+      "40508038",
+      "39337585",
+      "41388523",
+      "39609718",
+      "39134827",
+      "41329780",
+      "39509434",
+      "39351221",
+      "41094572",
+      "39341981",
+      "41168872",
+      "35278479",
+      "41013556",
+      "40312440",
+      "38774864",
+      "41432483",
+      "39142001",
+      "39290707",
+      "41316541",
+      "39904830",
+      "35713363",
+      "39870856",
+      "40977739",
+      "41424060",
+      "40362669",
+      "40360670",
+      "41462508",
+      "38718074",
+      "40826767",
+      "40245021",
+      "40510349",
+      "40328901",
+      "40561071",
+      "38899746",
+      "41104127",
+      "40597456",
+      "40849565",
+      "40016711",
+      "40406126",
+      "40258895",
+      "40374866",
+      "33237828",
+      "40216809",
+      "40500570",
+      "41479901",
+      "33028803",
+      "39953769",
+      "39853851",
+      "39673621",
+      "38867322",
+      "34421922",
+      "39875572",
+      "34233597",
+      "36660690",
+      "40768057",
+      "41132671",
+      "38268224",
+      "39624823",
+      "39734189",
+      "34553293",
+      "32487076",
+      "38755717",
+      "40574839",
+      "41378005",
+      "40091022",
+      "41438105",
+      "38919616",
+      "38863714",
+      "38774257",
+      "35938015",
+      "41130090",
+      "34232189",
+      "40591166",
+      "34522169",
+      "39789034",
+      "31416885",
+      "40411685"
+    ],
+    "review": [
+      "41120378"
+    ],
+    "pmc": [
+      "12540761"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-20302-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41120378/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-229",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

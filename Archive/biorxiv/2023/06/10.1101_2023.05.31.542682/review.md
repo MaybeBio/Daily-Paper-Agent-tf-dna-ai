@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, supplementary references) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and results as presented; no assessment of code functionality or reproducibility beyond what is described
+- **Shared manuscript claim summary** The authors present genomicBERT, a BERT-based genome language model using a unigram tokenizer with a specialized DNA vocabulary of 4096 tokens (max token length 16). They claim the model matches or surpasses existing DNA language models (DNABERT-2, GenaLM) on downstream classification tasks while being more computationally efficient. They also present genomeNLP, a user-friendly pipeline for tokenization, training, and interpretability.
+- **Visible evidence base** Abstract, Background, Results (narrative), Methods (partial), Tables 1-4 referenced, Figures 1-5 referenced, Supplementary Figures S1-S4 and Tables S1-S3 referenced
+- **Missing materials affecting confidence** Actual tables and figures not provided; quantitative results (accuracy, F1, MCC values) not visible; hyperparameter details incomplete; dataset preprocessing details partial; code not reviewed; supplementary material not available
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in genomic language modeling: reducing computational cost while maintaining performance through improved tokenization. The idea of using unigram tokenization with a specialized DNA vocabulary is reasonable and potentially useful. However, the evidence presented is insufficient to substantiate the central claims. Key quantitative results are referenced but not shown, the benchmarking methodology is incompletely described, and several claims go beyond what the presented evidence can support. The work has potential but requires substantial revision and additional validation before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in computational genomics and bioinformatics who use or develop foundation models for DNA/RNA sequence analysis would be interested. The work is also relevant to those studying tokenization strategies for biological sequences and to developers of user-friendly ML toolkits for biology-focused researchers. The efficiency claims may interest groups with limited compute resources.
+- **Major strengths** 1) The problem addressed is timely and important: reducing computational burden of genomic foundation models. 2) The unigram tokenization approach with a specialized DNA vocabulary is a sensible and potentially novel contribution. 3) The authors provide a user-friendly pipeline (genomeNLP) with interpretability features, which addresses accessibility concerns. 4) The model is species-agnostic and applicable to both DNA and RNA, increasing its potential utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "genomicBERT matches or surpasses the performance of contemporary tools on the same datasets under different experimental conditions"
+  - **Evidence pointer** Table 2 (not provided)
+  - **Concern** The central performance claim is made in the abstract and results, but the actual quantitative results (accuracy, F1, MCC) are not visible in the provided material. Table 2 is referenced but its contents are absent. Without these numbers, the claim cannot be evaluated.
+  - **Why it matters** The primary contribution of the paper is the claim that genomicBERT performs comparably or better than existing models with fewer resources. This claim is entirely dependent on the benchmarking results, which are not available for assessment.
+  - **Resolution test** Provide Table 2 with all metrics for all models and datasets. Include confidence intervals or statistical significance tests where appropriate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** "Our benchmarking demonstrates that the genomicBERT matches or surpasses the performance of contemporary tools on the same datasets under different experimental conditions"
+  - **Evidence pointer** Results section, "Benchmarking on DNA classification as Downstream tasks" (location not provided)
+  - **Concern** The benchmarking methodology is incompletely described. The authors state that genomicBERT was fine-tuned on five datasets and compared with GenaLM and DNABERT-2, but do not describe: the train/validation/test splits beyond a 9:1 ratio, whether the same splits were used for all models, the fine-tuning hyperparameters for each model, the number of runs, or the variance in results. The statement "under different experimental conditions" is ambiguous and could mean the comparison was not controlled.
+  - **Why it matters** Without a clear description of the experimental setup, the reader cannot determine whether the comparison is fair. Differences in fine-tuning protocols, data splits, or evaluation procedures could explain performance differences.
+  - **Resolution test** Provide a detailed description of the experimental protocol for all models, including hyperparameter search ranges, final hyperparameters, data split methodology, and number of seeds/runs. Clarify what "different experimental conditions" means.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "We validate the important genomicBERT tokens by mapping back to the biologically significant motifs"
+  - **Evidence pointer** Results section, "Versatile application of genomeNLP pipeline..." and Figure 3 (not provided)
+  - **Concern** The claim that important tokens map to biologically significant motifs is presented as a validation, but the evidence is qualitative. The authors state that "it appears that the darkly highlighted sequences... align frequently with the mature sequences" and that "known regulatory motifs such as AAAGTT, TATA boxes, CAATTT and TAAGTA are highlighted." This is presented as visual inspection without quantitative assessment. No statistical test is described to determine whether the overlap between important tokens and known motifs is greater than expected by chance.
+  - **Why it matters** The interpretability claim is a key differentiator of this work. If the tokenization captures biologically meaningful units, this would be a significant contribution. However, visual inspection of a few examples is not sufficient evidence for this claim.
+  - **Resolution test** Provide a quantitative analysis of the overlap between high-attribution tokens and known motifs, including a null model or permutation test to establish statistical significance. Report the number of examples examined and the fraction showing meaningful overlap.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our method is agnostic to species or biomolecule type as it is data-driven. Hence, it can be applied to DNA and RNA"
+  - **Evidence pointer** Results section, "Versatile application of genomeNLP pipeline on RNA sequence data..." (location not provided)
+  - **Concern** The claim of species and biomolecule agnosticism is supported by only one RNA application (pre-miRNA classification). The tokenizer was trained on human genome data only. It is unclear whether the tokenizer would generalize to other species with different GC content, repeat structure, or genome composition without retraining or adaptation. The RNA application uses the same tokenizer trained on DNA, which is a useful test, but one dataset is insufficient to establish broad agnosticism.
+  - **Why it matters** The generality of the approach is a stated advantage. If the tokenizer is truly species-agnostic, this should be demonstrated across diverse species and sequence types. The current evidence is too limited.
+  - **Resolution test** Test the tokenizer and model on additional species (e.g., a non-mammalian vertebrate, a plant, a bacterium) and on additional RNA types. Report performance relative to species-specific tokenizers.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "we introduce genomicBERT as an integral component of the openly accessible conda package, genomeNLP"
+  - **Evidence pointer** Code availability section
+  - **Concern** The code is stated to be available, but the provided material does not include details on: the exact version of the package used for the reported results, the configuration files for reproducing the pretraining and fine-tuning runs, the random seeds used, or the exact commands to reproduce the reported numbers. The manuscript mentions hyperparameter sweeps but does not report the final hyperparameters for each model.
+  - **Why it matters** Reproducibility is a core requirement for computational biology work. Without these details, other researchers cannot verify or build upon the results.
+  - **Resolution test** Provide a reproducibility appendix or configuration files with exact commands, hyperparameters, and seeds. Consider depositing the code in a DOI-archived repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "inherent language directing the blueprint of life" is vague and not standard scientific terminology. The abstract would benefit from a more precise description of the problem and contribution.
+  - **Required correction** Rewrite the opening sentence to state the problem more concretely, e.g., "Genome sequences contain regulatory and functional information that can be modeled using natural language processing techniques."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "Data-driven Tokenisation" (location not provided)
+  - **Issue** The description of the tokenizer training process is incomplete. The authors state that the vocabulary is "iteratively refined and expanded through further pretraining on the remaining chromosomes" but do not specify: the initial training data size, the number of iterations, the criteria for vocabulary updates, or the final vocabulary composition (e.g., distribution of token lengths, proportion of known motifs).
+  - **Required correction** Provide a more detailed description of the tokenizer training procedure, including the algorithm for vocabulary refinement and the properties of the final vocabulary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Background section
+  - **Evidence pointer** Background, paragraph 3 (location not provided)
+  - **Issue** The statement "the challenges in defining 'words' in biological sequences align with those in character-based languages" is an oversimplification. While there are similarities, biological sequences have unique properties (reverse complementarity, non-canonical structures, overlapping reading frames) that are not present in natural languages. The analogy should be qualified.
+  - **Required correction** Add a sentence acknowledging the unique aspects of biological sequences that distinguish them from natural languages.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results, RNA application
+  - **Evidence pointer** Results, "Versatile application of genomeNLP pipeline..." (location not provided)
+  - **Issue** The RNA classification task is described as a demonstration of versatility, but the choice of pre-miRNA classification as the sole RNA example is not justified. Pre-miRNA sequences have a characteristic hairpin structure that may make classification relatively easy. A more challenging RNA task would strengthen the claim.
+  - **Required correction** Justify the choice of pre-miRNA classification or add an additional RNA task that tests the approach more rigorously.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Pretraining
+  - **Evidence pointer** Methods, "Pretraining the genomicBERT" (location not provided)
+  - **Issue** The masking strategy is described as "10% masking" but the details of the masking procedure are not provided. Standard BERT masking includes replacing with [MASK], a random token, or the original token with different probabilities. The authors do not specify which strategy was used.
+  - **Required correction** Specify the masking strategy in detail, including the probabilities for [MASK], random replacement, and unchanged tokens.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1 (not provided)
+  - **Issue** Table 1 is described as comparing architectures, but the specific comparison dimensions are not stated in the text. The reader cannot determine what aspects are being compared (e.g., parameter count, training time, memory usage).
+  - **Required correction** Describe the contents of Table 1 in the text, including the specific architectural features being compared.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results), R1-M2 (incomplete benchmarking methodology), R1-M3 (qualitative interpretability evidence without statistical validation)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of unigram tokenization to genomic sequences is a reasonable incremental contribution, but the approach is not fundamentally novel. The combination of unigram tokenization with a BERT architecture for genomics has been explored in related work (e.g., DNABERT-2 uses BPE, which is closely related). The specific contribution of a reduced vocabulary with max token length 16 is a parameter choice rather than a conceptual advance.
+  - Scientific importance: Moderate. Reducing computational cost of genomic foundation models is practically important, but the demonstrated impact is limited. The authors do not show that the efficiency gains enable new analyses that were previously infeasible, nor do they demonstrate improvements in biological discovery.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to computational genomics researchers. The biological insights (motif identification) are presented qualitatively and would not attract a broad biological audience. The user-friendly pipeline aspect may appeal to a slightly wider audience, but this is not a primary scientific contribution.
+  - Technical soundness: Not fully assessable from the provided material. The core benchmarking results are missing, the experimental methodology is incompletely described, and the interpretability claims lack statistical validation.
+  - Readability for nonspecialists: The manuscript is generally readable but contains jargon and assumes familiarity with both NLP and genomics. The abstract is somewhat vague. The structure is logical, but the missing results make the narrative difficult to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The central performance claims cannot be evaluated without the actual results. The methodology needs to be described in sufficient detail to assess fairness of comparisons. The interpretability claims need quantitative support. The authors should be invited to resubmit a revised version with complete results, detailed methodology, and statistical validation of the interpretability claims.
+
+## Risk / unsupported claims
+- The claim that genomicBERT "matches or surpasses the performance of contemporary tools" is unsupported because the actual results are not provided.
+- The claim that important tokens map to biologically significant motifs is unsupported because only qualitative visual inspection is described, with no statistical analysis.
+- The claim that the method is "species-agnostic" is weakly supported by a single RNA dataset and a tokenizer trained only on human data.
+- The claim that the approach "lowers the barriers to utilizing machine learning for biological data analysis" is plausible but not demonstrated with user studies or usability metrics.
+- The claim that unigram tokenization is "less computationally expensive" than BPE is stated without quantitative comparison.
+- The claim that the model can be fine-tuned on sequences longer than 1400 nucleotides is stated but not demonstrated with experiments.

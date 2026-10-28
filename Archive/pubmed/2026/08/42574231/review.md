@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, experimental procedures) for a research article submitted to Molecular Plant Pathology.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No access to figures, tables, or supplementary materials beyond what is described in the text.
+- **Shared manuscript claim summary** The authors report the identification and functional characterization of AaVCX, a vacuolar Ca2+/H+ exchanger in Alternaria alternata, showing that its deletion impairs vegetative growth, calcium homeostasis, stress tolerance, infection structure differentiation, and pathogenicity. They further propose that the transcription factor AaCrz1 binds to the AaVCX promoter and positively regulates its expression.
+- **Visible evidence base** Text descriptions of phenotypic assays (growth, biomass, melanin), calcium sensitivity and content measurements, stress assays, infection structure assays, virulence assays, molecular docking, dual-luciferase reporter assays, Y1H assays, and gene expression analyses. Specific numerical data are not provided in the text.
+- **Missing materials affecting confidence** Figures 1-7 and Tables 1-2 are referenced but not available. Supplementary figures (S1, S2) and tables (S1, S6, S7) are referenced but not available. Statistical details, exact values, and raw data are not provided. This limits verification of effect sizes, variability, and statistical rigor.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored question in phytopathogenic fungi, namely the role of vacuolar Ca2+/H+ exchangers in calcium homeostasis and pathogenicity. The experimental approach is logical and includes a range of assays from phenotypic characterization to molecular interaction studies. However, the evidence as presented in the text has several gaps that prevent full confidence in the conclusions. Key issues include the lack of direct localization evidence for AaVCX, the absence of site-directed mutagenesis to validate the predicted promoter motif, the lack of in vivo binding confirmation for AaCrz1, and the absence of epistasis analysis to establish a functional regulatory hierarchy. The claim that AaCrz1 positively regulates AaVCX is supported by in vitro and expression data, but the functional link between this regulation and the observed phenotypes is not directly demonstrated.
+- **Who would be interested in the results, and why** Researchers studying calcium signalling in fungi, particularly those focused on plant-pathogen interactions, will find this work relevant. The study extends knowledge of VCX family proteins beyond model yeasts into a phytopathogenic context, which is of interest to the molecular plant pathology community. Those working on regulatory networks involving Crz1-like transcription factors in fungi may also find the proposed AaCrz1-AaVCX module noteworthy.
+- **Major strengths** The study addresses a genuine knowledge gap regarding VCX function in phytopathogenic fungi. The use of independent knockout mutants and a complemented strain is methodologically sound. The range of phenotypic assays covers growth, stress responses, infection structure formation, and virulence, providing a broad functional profile. The combination of molecular docking, dual-luciferase, and Y1H assays to investigate the AaCrz1-AaVCX regulatory relationship is a multi-pronged approach that strengthens the transcriptional regulation claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for subcellular localization
+  - **Claim pointer** The manuscript refers to AaVCX as a vacuolar Ca2+/H+ exchanger, implying vacuolar membrane localization.
+  - **Evidence pointer** Results section, "AaVCX Is Crucial for Calcium Homeostasis in A. alternata"; Discussion section
+  - **Concern** The text does not provide any experimental evidence for the subcellular localization of AaVCX. The designation as a vacuolar exchanger appears to be inferred from sequence homology or from the nomenclature of the gene family. No fluorescent protein fusion, immunolocalization, or fractionation data are described.
+  - **Why it matters** The functional interpretation of the mutant phenotypes, particularly regarding calcium homeostasis, depends on the protein's actual localization. If AaVCX is not localized to the vacuolar membrane, the proposed mechanism of cytoplasmic Ca2+ sequestration into vacuoles is not supported. This is a central premise of the study.
+  - **Resolution test** Provide direct localization evidence, such as AaVCX-GFP fusion expression in A. alternata, co-localization with a vacuolar marker, or subcellular fractionation followed by immunoblotting. Alternatively, clearly state if localization is predicted and temper the mechanistic claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation of the AaCrz1-AaVCX regulatory link
+  - **Claim pointer** The manuscript claims that AaCrz1 binds to the AaVCX promoter and positively regulates its expression, placing AaVCX downstream of AaCrz1 in a regulatory cascade.
+  - **Evidence pointer** Results section, "AaCrz1 Binds to the AaVCX Promoter and Positively Regulates Its Transcription"; Figure 6; Figure 7
+  - **Concern** While the dual-luciferase and Y1H assays demonstrate in vitro binding and transcriptional activation, the text does not describe any in vivo validation. There is no ChIP-qPCR data, no electrophoretic mobility shift assay (EMSA) with purified proteins, and no site-directed mutagenesis of the predicted GCC-core motif to confirm its functional importance. Furthermore, the text states that functional epistasis between AaCrz1 and AaVCX has not been tested. Without such experiments, the claim of a direct regulatory cascade remains correlative.
+  - **Why it matters** The proposed regulatory model is a key novel finding of the study. In vitro binding and expression correlation are suggestive but not conclusive. The lack of in vivo binding data and the absence of epistasis analysis leave open the possibility that the regulation is indirect or that the observed expression changes are secondary effects of the mutant phenotypes.
+  - **Resolution test** Perform ChIP-qPCR to demonstrate AaCrz1 occupancy at the AaVCX promoter in vivo. Conduct site-directed mutagenesis of the predicted GCC-core motif to show that its disruption abolishes AaCrz1-mediated activation. Generate and phenotype an AaCrz1/AaVCX double mutant to test for epistasis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data and statistical reporting
+  - **Claim pointer** The manuscript reports significant differences in growth, calcium content, stress sensitivity, infection structure formation, and virulence between mutant and control strains.
+  - **Evidence pointer** Results sections; Figures 1-5; Tables 1-2
+  - **Concern** The text describes results qualitatively (e.g., "significantly higher", "markedly diminished") but does not provide actual values, effect sizes, or statistical test results in the text. The figures and tables are referenced but not available for review. It is unclear whether the statistical analyses (Duncan's multiple range test) were applied appropriately across all assays and whether assumptions were met.
+  - **Why it matters** The strength of the phenotypic claims rests on the quantitative data and their statistical analysis. Without access to the actual numbers and statistical outputs, the robustness of the reported differences cannot be assessed. This is essential for evaluating the biological significance of the findings.
+  - **Resolution test** Provide the figures and tables with clear annotations of statistical significance. Include exact p-values or confidence intervals in the text or figure legends. Ensure that the statistical methods are described in sufficient detail for each assay.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link between calcium homeostasis and infection structure differentiation
+  - **Claim pointer** The manuscript proposes that AaVCX-mediated calcium homeostasis is essential for the differentiation of infection structures and pathogenicity.
+  - **Evidence pointer** Results section, "AaVCX Is Essential for the Early Infection Process of A. alternata"; Discussion section
+  - **Concern** The text demonstrates that AaVCX deletion leads to both abnormal calcium accumulation and impaired infection structure formation, but it does not provide evidence that these two phenotypes are causally linked. No experiments are described that manipulate calcium levels (e.g., calcium chelators, ionophores, or exogenous calcium supplementation) to test whether restoring calcium homeostasis can rescue the infection defects.
+  - **Why it matters** The central hypothesis of the paper is that calcium homeostasis, maintained by AaVCX, is required for proper infection structure differentiation. Without a direct test of this link, the connection remains correlative. Alternative explanations, such as AaVCX having additional functions beyond calcium transport, are not excluded.
+  - **Resolution test** Perform experiments to modulate intracellular calcium levels in the mutant and assess whether infection structure formation is restored. For example, treat the ΔAaVCX mutant with calcium chelators or ionophores to lower cytosolic Ca2+ and observe if the phenotype is rescued. Alternatively, overexpress a different calcium transporter to see if it can compensate.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of strain nomenclature
+  - **Affected element** Results section, "Deletion of AaVCX Impairs the Growth and Development of A. alternata"
+  - **Evidence pointer** Figure 1
+  - **Issue** The text refers to "ΔAaVCX-1 and ΔAaVCX-2" as independent knockout mutants but does not clarify whether both were used in all subsequent assays or if only one was used for certain experiments.
+  - **Required correction** Specify which mutant strain was used for each assay, or state that both were used and results were consistent.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of molecular docking description
+  - **Affected element** Experimental Procedures, "Molecular Docking"
+  - **Evidence pointer** Section 4.10
+  - **Issue** The description of the molecular docking is brief. It mentions HDOCK and PLIP but does not specify the input sequences, the length of the promoter region used, or the criteria for selecting the best model beyond the docking score.
+  - **Required correction** Provide more detail on the promoter sequence used for docking, the parameters of the docking run, and the rationale for model selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative explanations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraphs on calcium homeostasis and infection
+  - **Issue** The discussion proposes a model where AaVCX deletion disrupts calcium homeostasis, which in turn impairs infection structure differentiation. However, it does not discuss alternative mechanisms, such as a direct role of AaVCX in membrane trafficking or vesicle fusion that could affect infection structures independently of calcium.
+  - **Required correction** Add a paragraph acknowledging alternative interpretations and explaining why the calcium-centric model is preferred based on the available data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The terms "infection structures," "appressoria," and "invasive hyphae" are used, but the distinction between "appressorium formation" and "invasive hyphal formation" is not always clear in the text.
+  - **Required correction** Define these terms clearly at first use and ensure consistent usage throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (subcellular localization), R1-M2 (in vivo validation of AaCrz1-AaVCX regulation), R1-M3 (quantitative data availability)
+- **Assessment against Nature-style criteria** Originality: The study is original in its focus on a vacuolar Ca2+/H+ exchanger in a phytopathogenic fungus, an area with limited prior research. The proposed AaCrz1-AaVCX regulatory module adds a novel dimension. Scientific importance: The findings have potential importance for understanding calcium signalling in plant-pathogen interactions and could inform disease management strategies. However, the importance is somewhat limited by the lack of mechanistic depth beyond the descriptive phenotype. Interdisciplinary readership: The topic is primarily of interest to molecular plant pathologists and fungal biologists. The broader cell biology community may find the calcium homeostasis aspects relevant, but the appeal is likely narrow. Technical soundness: The experimental design is generally sound, but the lack of localization data, in vivo binding validation, and epistasis analysis weakens the technical rigor of the central claims. Readability for nonspecialists: The manuscript is written in a clear and accessible style, with logical flow from introduction to discussion. Technical terms are used appropriately, though some background on calcium signalling in fungi would help nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core phenotypic data are potentially valuable, and the proposed regulatory model is interesting. However, the manuscript in its current form does not fully establish the mechanistic claims. The authors should address the localization issue, provide in vivo evidence for the AaCrz1-AaVCX interaction, and make the quantitative data available for assessment.
+
+## Risk / unsupported claims
+- The claim that AaVCX is a vacuolar Ca2+/H+ exchanger is not supported by direct localization evidence in this study.
+- The claim that AaCrz1 binds to the AaVCX promoter in vivo is not supported; only in vitro binding and expression correlation are presented.
+- The claim that AaVCX is essential for sensing host wax signals is not directly tested. The data show impaired responses to wax, but the mechanism of sensing is not addressed.
+- The proposed model that disrupted calcium homeostasis is the cause of impaired infection structure differentiation is not directly tested and remains correlative.
+- The statement that AaCrz1 positively regulates AaVCX expression is supported by expression data, but the claim of a direct regulatory cascade is not fully established without epistasis analysis or in vivo binding data.

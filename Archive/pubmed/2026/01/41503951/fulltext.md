@@ -1,0 +1,5 @@
+# New Prenylated Isoflavonoids From Erythrina addisoniae With Anti‐Neuroinflammatory Activity via Nuclear Factor Kappa‐Light‐Chain‐Enhancer of Activated B Cells Pathway Suppression
+
+
+## ABSTRACT
+  Recent investigations have identified prenylated isoflavonoids as major constituents of Erythrina addisoniae, yet their anti‐neuroinflammatory potential remains unexplored. Through bioassay‐guided isolation, two new prenylated isoflavonoids (1 and 2), along with nine known compounds (3–11), were characterized using spectroscopic methods. All isolates were tested for inhibitory effects on nitric oxide (NO) production in BV‐2 microglial cells. Compounds 1, 6, 7, and 10 significantly reduced NO levels, with compounds 1 and 10 showing the strongest activity (IC50 values of 3.57 ± 1.22 and 0.69 ± 0.18 µM, respectively). Western blot analysis confirmed the downregulation of inducible NO synthase protein, and molecular docking analysis revealed that compound 10 interacts with nuclear factor kappa‐light‐chain‐enhancer of activated B cells. These results highlight prenylated isoflavonoids from E. addisoniae as potential anti‐neuroinflammatory agents.

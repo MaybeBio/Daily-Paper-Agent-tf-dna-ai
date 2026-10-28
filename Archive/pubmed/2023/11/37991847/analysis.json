@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37991847",
+  "title": "Examining DNA breathing with pyDNA-EPBD.",
+  "authors": "Kabir, Anowarul; Bhattarai, Manish; Rasmussen, Kim O; Shehu, Amarda; Usheva, Anny; Bishop, Alan R; Alexandrov, Boian",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2023-11-22",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用EPBD非线性动力学模型和MCMC模拟DNA呼吸（局部解链）动态，虽非直接TF-DNA结合建模，但为蛋白-DNA互作中的DNA动态构象提供了可迁移的物理模拟工具。",
+  "abstract": "MOTIVATION: The two strands of the DNA double helix locally and spontaneously separate and recombine in living cells due to the inherent thermal DNA motion. This dynamics results in transient openings in the double helix and is referred to as \"DNA breathing\" or \"DNA bubbles.\" The propensity to form local transient openings is important in a wide range of biological processes, such as transcription, replication, and transcription factors binding. However, the modeling and computer simulation of these phenomena, have remained a challenge due to the complex interplay of numerous factors, such as, temperature, salt content, DNA sequence, hydrogen bonding, base stacking, and others. RESULTS: We present pyDNA-EPBD, a parallel software implementation of the Extended Peyrard-Bishop-Dauxois (EPBD) nonlinear DNA model that allows us to describe some features of DNA dynamics in detail. The pyDNA-EPBD generates genomic scale profiles of average base-pair openings, base flipping probability, DNA bubble probability, and calculations of the characteristically dynamic length indicating the number of base pairs statistically significantly affected by a single point mutation using the Markov Chain Monte Carlo algorithm. AVAILABILITY AND IMPLEMENTATION: pyDNA-EPBD is supported across most operating systems and is freely available at https://github.com/lanl/pyDNA_EPBD. Extensive documentation can be found at https://lanl.github.io/pyDNA_EPBD/.",
+  "abstract_zh": "动机：在活细胞中，DNA双螺旋的两条链由于固有的热DNA运动而局部自发分离并重新组合。这种动态导致双螺旋中的瞬时开口，被称为“DNA呼吸”或“DNA气泡”。形成局部瞬时开口的倾向在广泛的生物过程中很重要，例如转录、复制和转录因子结合。然而，由于温度、盐含量、DNA序列、氢键、碱基堆积等多种因素复杂相互作用，这些现象的建模和计算机模拟仍然是一个挑战。结果：我们提出了pyDNA-EPBD，这是扩展Peyrard-Bishop-Dauxois（EPBD）非线性DNA模型的并行软件实现，使我们能够详细描述DNA动态的某些特征。pyDNA-EPBD生成基因组规模的平均碱基对开口图谱、碱基翻转概率、DNA气泡概率，并使用马尔可夫链蒙特卡洛算法计算特征动态长度，该长度指示受单点突变统计显著影响的碱基对数量。可用性和实现：pyDNA-EPBD支持大多数操作系统，并可在https://github.com/lanl/pyDNA_EPBD免费获取。详细文档可在https://lanl.github.io/pyDNA_EPBD/找到。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37991847/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37991847/",
+  "paper_page_path": "papers/pubmed/37991847/index.html"
+}

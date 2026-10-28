@@ -1,0 +1,607 @@
+{
+  "identity": {
+    "pmid": "42119148",
+    "doi": "10.1093/eurheartj/ehag166",
+    "title": "Molecular mechanism leading to human coronary atherosclerosis assessed by proteomic analysis and RNA sequences."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIMS: Atherosclerosis results from cellular and extracellular changes in the arterial wall, preceded by molecular shifts that initiate disease and drive tissue conversion, yet these changes are not yet fully described. More data are needed concerning these early changes in the coronary artery molecular landscape that signify the initiation of atherosclerosis and the subsequent tissue pheno-conversion to atherosclerotic plaque. This report summarizes results from a large biorepository of human coronary artery tissue, applying state-of-the-art omics technology, advanced data analytic methods, and an arterial organoid model system to predict molecular dynamics and identify potential regulatory mechanisms that could interrupt molecular changes that contribute to the earliest stages of disease pathogenesis. The long-term goal of this effort is to identify and develop new therapies to further mitigate the persistently high burden of clinical coronary disease. METHODS: Mass spectrometry-based proteomic analysis and RNA sequencing (RNASeq) were used to analyse proximal coronary arterial samples from young adults who died of trauma with no ante mortem suspicion of coronary disease [n = 322, mean age (range): 34.1 years (15-59); sex: M-239, F-83; race: W-218, B-88, other-16]. Despite the absence of clinical disease, 56% of samples had morphologic evidence of pre-clinical atherosclerosis. Analyses of the proteomic data (n = 1900 proteins) using state-of-the-art dimensionality reduction and deconvolution techniques generated an estimate of molecular disease progression (e.g. pseudo-time) and identified selected proteomic latent features (LFs) (i.e. large groups of co-ordinated proteins) associated with its initiation and progression. Computational genomics, machine learning models, and multi-omic network mapping of these proteomic LFs and associated mRNA gene transcripts suggested potential transcriptional regulators which were subsequently confirmed in publicly available single-cell coronary artery data. The effects of one of the leading regulatory transcription factors (TFs), MLXIPL, predicted to regulate two LFs, were further validated in a human arterial cell organoid model system. RESULTS: Four proteomic LFs, composed of n = 100 signature proteins/LF, exhibited distinct patterns with respect to disease progression [false discovery rate (FDR) P < .01]. These LFs illuminate the earliest changes in the arterial proteome during tissue pheno-conversion from normal coronary artery to atherosclerotic plaque, including dramatic declines in mitochondrial energy biosynthesis proteins, evidence of vascular unit activation (including pericytes), and neurovascular and neuroimmune modulation (all FDR P < .01). These early changes preceded the expected immune cell recruitment and innate immune response characteristic of atherosclerotic plaque formation. Analysis of transcriptional regulatory networks identified from RNASeq data highlighted both known and novel TFs and master regulators of LF proteins that may drive the initial and early stages of disease progression. Publicly available single-cell RNASeq data from normal and atherosclerotic coronary arteries validated the LFs and several of their likely master transcriptional regulators (all P < .01); and manipulation of the levels of one of top regulatory TFs, MLXIPL, in human arterial cell organoids resulted in the expected changes in expression of the proteins associated with its two targeted LFs (P = .0003 and P < .00001, respectively). CONCLUSIONS: The unique nature of this human coronary biorepository with samples ranging from entirely normal to mature pre-clinical atherosclerotic plaque facilitated prediction of molecular disease progression and identification of several potential transcriptional regulators for further evaluation as potential novel targets to interrupt early initiation and progression of atherosclerotic coronary disease.",
+    "keywords": [
+      "Human coronary artery",
+      "arterial organoid",
+      "atherosclerosis",
+      "molecular regulation of atherosclerosis",
+      "pranscriptomics",
+      "proteomics",
+      "single cell"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Coronary Artery Disease/genetics/metabolism/pathology",
+      "Proteomics/methods",
+      "Male",
+      "Female",
+      "Adult",
+      "Middle Aged",
+      "Adolescent",
+      "Sequence Analysis, RNA",
+      "Coronary Vessels/metabolism/pathology",
+      "Young Adult",
+      "Plaque, Atherosclerotic/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Parker, Sarah J",
+        "Mao, Chunhong",
+        "Caudell, David L",
+        "Seals, Austin Lyle",
+        "Wang, Yizhi",
+        "Green, Thomas D",
+        "McClung, Joseph M",
+        "Maxwell, Joshua T",
+        "Roddey, Jacolby T",
+        "Shakeriastani, Kiarash",
+        "Wu, Chiung-Ting",
+        "Lu, Yingzhou",
+        "Kim, Do-Kyun",
+        "Fert-Bober, Justyna",
+        "Du, Dongping",
+        "Bhat, Archana",
+        "Sundararaman, Niveda",
+        "Ayres, Matthew",
+        "Pandey, Rakhi",
+        "Bhardwaj, Saurabh",
+        "Karere, Genesio M",
+        "Troxclair, Dana",
+        "Jackson, Fannie",
+        "Love, Gordon L",
+        "Vander Heide, Richard",
+        "Hixson, James",
+        "Van Eyk, Jennifer E",
+        "Wang, Yue",
+        "Herrington, David"
+      ],
+      "short_names": [
+        "Parker SJ",
+        "Mao C",
+        "Caudell DL",
+        "Seals AL",
+        "Wang Y",
+        "Green TD",
+        "McClung JM",
+        "Maxwell JT",
+        "Roddey JT",
+        "Shakeriastani K",
+        "Wu CT",
+        "Lu Y",
+        "Kim DK",
+        "Fert-Bober J",
+        "Du D",
+        "Bhat A",
+        "Sundararaman N",
+        "Ayres M",
+        "Pandey R",
+        "Bhardwaj S",
+        "Karere GM",
+        "Troxclair D",
+        "Jackson F",
+        "Love GL",
+        "Vander Heide R",
+        "Hixson J",
+        "Van Eyk JE",
+        "Wang Y",
+        "Herrington D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8911-3615",
+        "ORCID: 0000-0001-9456-0743",
+        "ORCID: 0000-0002-0493-2812",
+        "ORCID: 0000-0001-9050-148X",
+        "ORCID: 0000-0002-1788-1102",
+        "ORCID: 0000-0002-7670-6400"
+      ],
+      "affiliations": [
+        "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Biocomplexity Institute, University of Virginia, Charlottesville, VA, USA.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Cardiology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA.",
+        "Department of Internal Medicine, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA.",
+        "Department of Molecular Medicine, Wake Forest University, Winston-Salem, NC, USA.",
+        "Department of Internal Medicine, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA.",
+        "Department of Molecular Medicine, Wake Forest University, Winston-Salem, NC, USA.",
+        "Department of Vascular and Endovascular Surgery, Wake Forest University, Winston-Salem, NC, USA.",
+        "Institute for Regenerative Medicine, Wake Forest University, Winston-Salem, NC, USA.",
+        "Institute for Regenerative Medicine, Wake Forest University, Winston-Salem, NC, USA.",
+        "Institute for Regenerative Medicine, Wake Forest University, Winston-Salem, NC, USA.",
+        "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA.",
+        "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA.",
+        "Department of Epidemiology, Human Genetics and Environmental Sciences, Human Genetics Center, School of Public Health, University of Texas Health Science Center at Houston, Houston TX, USA.",
+        "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA.",
+        "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA.",
+        "Department of Electrical and Instrumentation Engineering, Thapar Institute of Engineering and Technology, Patiala, India.",
+        "Department of Internal Medicine, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA.",
+        "Jefferson Parish Coroner's Office, Harvey, LA, USA.",
+        "Department of Pathology, Louisiana State Health Science Center, New Orleans, LA, USA.",
+        "Department of Pathology, Louisiana State Health Science Center, New Orleans, LA, USA.",
+        "Department of Pathology, Western Michigan University, Kalamazoo, MI, USA.",
+        "Department of Epidemiology, Human Genetics and Environmental Sciences, Human Genetics Center, School of Public Health, University of Texas Health Science Center at Houston, Houston TX, USA.",
+        "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA.",
+        "Department of Cardiology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Internal Medicine, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Parker, Sarah J",
+        "short_name": "Parker SJ",
+        "identifiers": [
+          "0000-0001-8911-3615"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mao, Chunhong",
+        "short_name": "Mao C",
+        "identifiers": [],
+        "affiliations": [
+          "Biocomplexity Institute, University of Virginia, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Caudell, David L",
+        "short_name": "Caudell DL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Seals, Austin Lyle",
+        "short_name": "Seals AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yizhi",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-9456-0743"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Green, Thomas D",
+        "short_name": "Green TD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA.",
+          "Department of Molecular Medicine, Wake Forest University, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "McClung, Joseph M",
+        "short_name": "McClung JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA.",
+          "Department of Molecular Medicine, Wake Forest University, Winston-Salem, NC, USA.",
+          "Department of Vascular and Endovascular Surgery, Wake Forest University, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Maxwell, Joshua T",
+        "short_name": "Maxwell JT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Regenerative Medicine, Wake Forest University, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Roddey, Jacolby T",
+        "short_name": "Roddey JT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Regenerative Medicine, Wake Forest University, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Shakeriastani, Kiarash",
+        "short_name": "Shakeriastani K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Regenerative Medicine, Wake Forest University, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Chiung-Ting",
+        "short_name": "Wu CT",
+        "identifiers": [
+          "0000-0002-0493-2812"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Yingzhou",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Do-Kyun",
+        "short_name": "Kim DK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, Human Genetics and Environmental Sciences, Human Genetics Center, School of Public Health, University of Texas Health Science Center at Houston, Houston TX, USA."
+        ]
+      },
+      {
+        "full_name": "Fert-Bober, Justyna",
+        "short_name": "Fert-Bober J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Du, Dongping",
+        "short_name": "Du D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Bhat, Archana",
+        "short_name": "Bhat A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sundararaman, Niveda",
+        "short_name": "Sundararaman N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ayres, Matthew",
+        "short_name": "Ayres M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pandey, Rakhi",
+        "short_name": "Pandey R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bhardwaj, Saurabh",
+        "short_name": "Bhardwaj S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA.",
+          "Department of Electrical and Instrumentation Engineering, Thapar Institute of Engineering and Technology, Patiala, India."
+        ]
+      },
+      {
+        "full_name": "Karere, Genesio M",
+        "short_name": "Karere GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA."
+        ]
+      },
+      {
+        "full_name": "Troxclair, Dana",
+        "short_name": "Troxclair D",
+        "identifiers": [],
+        "affiliations": [
+          "Jefferson Parish Coroner's Office, Harvey, LA, USA."
+        ]
+      },
+      {
+        "full_name": "Jackson, Fannie",
+        "short_name": "Jackson F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Louisiana State Health Science Center, New Orleans, LA, USA."
+        ]
+      },
+      {
+        "full_name": "Love, Gordon L",
+        "short_name": "Love GL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Louisiana State Health Science Center, New Orleans, LA, USA."
+        ]
+      },
+      {
+        "full_name": "Vander Heide, Richard",
+        "short_name": "Vander Heide R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Western Michigan University, Kalamazoo, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Hixson, James",
+        "short_name": "Hixson J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, Human Genetics and Environmental Sciences, Human Genetics Center, School of Public Health, University of Texas Health Science Center at Houston, Houston TX, USA."
+        ]
+      },
+      {
+        "full_name": "Van Eyk, Jennifer E",
+        "short_name": "Van Eyk JE",
+        "identifiers": [
+          "0000-0001-9050-148X"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Smidt Heart Institute, Advanced Clinical Biosystems Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-1788-1102"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Arlington, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Herrington, David",
+        "short_name": "Herrington D",
+        "identifiers": [
+          "0000-0002-7670-6400"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+          "Department of Internal Medicine, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European heart journal"
+    ],
+    "journal_abbrev": [
+      "Eur Heart J"
+    ],
+    "pub_date": "2026 Jul 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/12 18:36",
+    "fetched_at": "2026-10-01 20:31:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41086809",
+      "38902940",
+      "37646165",
+      "37427430",
+      "37339167",
+      "37074818",
+      "36411459",
+      "36224302",
+      "36003902",
+      "35610053",
+      "35280433",
+      "34904628",
+      "34238438",
+      "33829256",
+      "33626908",
+      "33309175",
+      "32873809",
+      "32853499",
+      "32219387",
+      "32202800",
+      "32023484",
+      "31796933",
+      "31359001",
+      "31178118",
+      "31115493",
+      "30944313",
+      "30175270",
+      "29915101",
+      "29425488",
+      "28768172",
+      "28677755",
+      "28128285",
+      "27682618",
+      "26892967",
+      "26739359",
+      "26323832",
+      "26111503",
+      "26049157",
+      "25179879",
+      "24515121",
+      "24282698",
+      "23850497",
+      "21593211",
+      "19465376",
+      "17339633",
+      "17332437",
+      "16199880",
+      "15678794",
+      "12397006",
+      "12147534"
+    ],
+    "similar": [
+      "42119148",
+      "29915101",
+      "42475469",
+      "40354194",
+      "32626919",
+      "39896809",
+      "41895505",
+      "25439791",
+      "36321557",
+      "40307879",
+      "42333643",
+      "38639096",
+      "40155929",
+      "41151411",
+      "34320932",
+      "39023142",
+      "41553378",
+      "40438929",
+      "39421992",
+      "39907372",
+      "41924874",
+      "11795863",
+      "30544071",
+      "23429260",
+      "39234691",
+      "41189520",
+      "29035780",
+      "37851522",
+      "39552248",
+      "40143816",
+      "34913723",
+      "29909109",
+      "40607379",
+      "19997623",
+      "26269925",
+      "38152968",
+      "41847341",
+      "39990838",
+      "33499648",
+      "41546994",
+      "32412604",
+      "41983287",
+      "24675084",
+      "39862236",
+      "36185605",
+      "26137939",
+      "37589136",
+      "40660209",
+      "21248247",
+      "39026250",
+      "38760675",
+      "42565562",
+      "22723305",
+      "41527512",
+      "26551982",
+      "32585426",
+      "39364414",
+      "41101252",
+      "41904484",
+      "26966274",
+      "39150724",
+      "21788584",
+      "28862955",
+      "40362575",
+      "42210396",
+      "28245772",
+      "31059280",
+      "22371488",
+      "27417584",
+      "41716413",
+      "32706382",
+      "27337945",
+      "40847214",
+      "32821283",
+      "41850847",
+      "35680215",
+      "40374349",
+      "41758107",
+      "39158116",
+      "40403091",
+      "17339633",
+      "32674599",
+      "30617313",
+      "39741278",
+      "41424060",
+      "24877885",
+      "32202800",
+      "10483958",
+      "38280419",
+      "40916281",
+      "32089046",
+      "26096116",
+      "40913272",
+      "41039608",
+      "29226137",
+      "24369271",
+      "27614166",
+      "37646165",
+      "11425599",
+      "22595163"
+    ],
+    "review": [
+      "42119148",
+      "36321557",
+      "39023142",
+      "26269925",
+      "39150724",
+      "28245772"
+    ],
+    "pmc": [
+      "13384731"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/coronaryarterydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Coronary Artery Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42119148/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/eurheartj/article-lookup/doi/10.1093/eurheartj/ehag166",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

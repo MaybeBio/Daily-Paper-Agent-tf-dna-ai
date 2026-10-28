@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.20.644354",
+  "title": "Benchmarking PWM and SVM-based Models for Transcription Factor Binding Site Prediction: A Comparative Analysis on Synthetic and Biological Data",
+  "authors": "Manuel Tognon; Alisa Kumbara; Andrea Betti; Lorenzo Ruggeri; Rosalba Giugno",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-23",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统比较PWM与SVM模型在转录因子结合位点预测中的性能，聚焦TF-DNA识别，虽方法为传统机器学习而非深度学习或物理模拟，但对象与互作轴高度匹配，对课题有方法学参考价值。",
+  "abstract": "Transcription Factors (TFs) are essential regulatory proteins that control the cellular transcriptional states by binding to specific DNA sequences known as Transcription Factor Binding Sites (TFBSs) or motifs. Accurate TFBS identification is crucial for unraveling regulatory mechanisms driving cellular dynamics. Over the years, various computational approaches have been developed to model TFBSs, with Position Weight Matrices (PWMs) being one of the most widely adopted methods. PWMs provide a probabilistic framework by representing nucleotide frequencies at every position within the binding site. While effective and interpretable, PWMs face significant limitations, such as their inability to capture positional dependencies or model complex interactions. To address these, advanced methods, such as Support Vector Machine (SVM)-based models, have been introduced. Leveraging human ChIP-seq data from ENCODE, this study systematically benchmarks the predictive performance of PWM and SVM-based models across different scenarios. We evaluate the impact of key factors such as training dataset size, sequence length, and kernel functions (for SVMs) on models’ performance. Additionally, we explore the impact of synthetic versus real biological background data during model training. Our analysis highlights strengths and limitations of both PWM and SVM-based approaches under different conditions, providing practical guidance for selecting and tailoring models to specific biological datasets. To complement our analysis, we present a comprehensive database of pretrained SVM models for TFBS detection, trained on human ChIP-seq data from diverse cell lines and tissues. This resource aims to facilitate broader adoption of SVM-based methods in TFBS prediction and enhance their practical utility in regulatory genomics research.",
+  "abstract_zh": "转录因子（Transcription Factors, TFs）是关键的调控蛋白，通过结合特定的DNA序列（即转录因子结合位点（Transcription Factor Binding Sites, TFBSs）或基序）来控制细胞的转录状态。准确的TFBS识别对于揭示驱动细胞动态的调控机制至关重要。多年来，已开发出多种计算方法来建模TFBS，其中位置权重矩阵（Position Weight Matrices, PWMs）是最广泛采用的方法之一。PWMs通过表示结合位点内每个位置的核苷酸频率，提供了一个概率框架。尽管有效且可解释，但PWMs面临显著限制，例如无法捕捉位置依赖性或建模复杂相互作用。为解决这些问题，引入了先进方法，如基于支持向量机（Support Vector Machine, SVM）的模型。利用ENCODE中的人类ChIP-seq数据，本研究系统性地评估了PWM和SVM模型在不同场景下的预测性能。我们评估了训练数据集大小、序列长度以及核函数（针对SVM）等关键因素对模型性能的影响。此外，我们还探讨了在模型训练过程中使用合成背景数据与真实生物背景数据的影响。我们的分析突出了PWM和SVM方法在不同条件下的优势与局限，为针对特定生物数据集选择和定制模型提供了实用指导。为补充我们的分析，我们提供了一个全面的预训练SVM模型数据库，用于TFBS检测，这些模型基于来自多种细胞系和组织的人类ChIP-seq数据训练而成。该资源旨在促进SVM方法在TFBS预测中的更广泛应用，并增强其在调控基因组学研究中的实际效用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.20.644354",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.20.644354",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.20.644354/index.html"
+}

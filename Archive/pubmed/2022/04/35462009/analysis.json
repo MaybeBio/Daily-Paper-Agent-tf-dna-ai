@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35462009",
+  "title": "Prediction of the transcription factor binding sites with meta-learning.",
+  "authors": "Jing, Fang; Zhang, Shao-Wu; Zhang, Shihua",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2022-04-25",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于元学习的CNN方法MLCNN，从ChIP-seq数据中预测转录因子结合位点，通过抑制噪声标签提升TF-DNA结合识别准确性，核心聚焦TF-DNA互作且采用AI方法，高度匹配本课题。",
+  "abstract": "With the accumulation of ChIP-seq data, convolution neural network (CNN)-based methods have been proposed for predicting transcription factor binding sites (TFBSs). However, biological experimental data are noisy, and are often treated as ground truth for both training and testing. Particularly, existing classification methods ignore the false positive and false negative which are caused by the error in the peak calling stage, and therefore, they can easily overfit to biased training data. It leads to inaccurate identification and inability to reveal the rules of governing protein-DNA binding. To address this issue, we proposed a meta learning-based CNN method (namely TFBS_MLCNN or MLCNN for short) for suppressing the influence of noisy labels data and accurately recognizing TFBSs from ChIP-seq data. Guided by a small amount of unbiased meta-data, MLCNN can adaptively learn an explicit weighting function from ChIP-seq data and update the parameter of classifier simultaneously. The weighting function overcomes the influence of biased training data on classifier by assigning a weight to each sample according to its training loss. The experimental results on 424 ChIP-seq datasets show that MLCNN not only outperforms other existing state-of-the-art CNN methods, but can also detect noisy samples which are given the small weights to suppress them. The suppression ability to the noisy samples can be revealed through the visualization of samples' weights. Several case studies demonstrate that MLCNN has superior performance to others.",
+  "abstract_zh": "随着ChIP-seq数据的积累，基于卷积神经网络（CNN）的方法已被提出用于预测转录因子结合位点（TFBSs）。然而，生物实验数据含有噪声，且常被同时用作训练和测试的金标准。特别是，现有分类方法忽略了由峰值检测阶段错误引起的假阳性和假阴性，因此容易过拟合于有偏的训练数据，导致识别不准确，无法揭示调控蛋白质-DNA结合的规则。为解决此问题，我们提出了一种基于元学习的CNN方法（简称TFBS_MLCNN或MLCNN），以抑制噪声标签数据的影响，并从ChIP-seq数据中准确识别TFBSs。在少量无偏元数据的引导下，MLCNN能够自适应地从ChIP-seq数据中学习一个显式加权函数，并同时更新分类器参数。该加权函数根据每个样本的训练损失为其分配权重，从而克服有偏训练数据对分类器的影响。在424个ChIP-seq数据集上的实验结果表明，MLCNN不仅优于其他现有最先进的CNN方法，还能检测出被赋予小权重以抑制其影响的噪声样本。通过样本权重的可视化，可以揭示对噪声样本的抑制能力。多项案例研究证明，MLCNN在性能上优于其他方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35462009/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35462009/",
+  "paper_page_path": "papers/pubmed/35462009/index.html"
+}

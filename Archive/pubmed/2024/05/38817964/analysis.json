@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38817964",
+  "title": "Computation-guided transcription factor biosensor specificity engineering for adipic acid detection.",
+  "authors": "Pham, Chester; Stogios, Peter J; Savchenko, Alexei; Mahadevan, Radhakrishnan",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2024-05-31",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用分子对接和MD工程化TF（BenM）配体特异性以检测己二酸，虽涉及TF-配体而非TF-DNA互作，但计算方法可迁移至TF-DNA结合建模，故给5分。",
+  "abstract": "Transcription factor (TF)-based biosensors that connect small-molecule sensing with readouts such as fluorescence have proven to be useful synthetic biology tools for applications in biotechnology. However, the development of specific TF-based biosensors is hindered by the limited repertoire of TFs specific for molecules of interest since current construction methods rely on a limited set of characterized TFs. In this study, we present an approach for engineering the specificity of TFs through a computation-based workflow using molecular docking that enables targeted alteration of TF ligand specificity. Using this method, we engineer the LysR family BenM TF to alter its specificity from its cognate ligand cis,cis-muconic acid to adipic acid through a single amino acid substitution identified by our computational workflow. When implemented in a cell-free system, the engineered biosensor shows higher ligand sensitivity, expanding the potential applications of this circuit. We further investigate ligand binding through molecular dynamics to analyze the substitution, elucidating the impact of modulating a single amino acid position on the mechanism of BenM ligand binding. This study represents the first application of biomolecular modeling methods for altering BenM specificity and for gaining insights into how mutations influence the structural dynamics of BenM. Such methods can potentially be applied to other TFs to alter specificity and analyze the dynamics responsible for these changes, highlighting the applicability of computational tools for informing experiments. In addition, our developed adipic acid biosensor can be applied for the identification and engineering of enzymes to produce adipic acid.",
+  "abstract_zh": "基于转录因子（TF）的生物传感器，将小分子感应与荧光等读出信号相结合，已被证明是生物技术应用中实用的合成生物学工具。然而，由于当前构建方法依赖于有限的一组已表征的TF，针对目标分子的特异性TF库受限，阻碍了特异性TF生物传感器的发展。在本研究中，我们提出了一种通过基于计算的分子对接工作流程来工程化TF特异性的方法，能够实现对TF配体特异性的定向改变。利用该方法，我们工程化了LysR家族的BenM TF，通过计算工作流程识别出的单氨基酸替换，将其特异性从天然配体顺,顺-粘康酸改变为己二酸。在无细胞系统中实施时，工程化生物传感器表现出更高的配体敏感性，扩展了该电路的应用潜力。我们进一步通过分子动力学研究配体结合以分析该替换，阐明了调节单个氨基酸位置对BenM配体结合机制的影响。本研究首次应用生物分子建模方法改变BenM特异性，并深入了解突变如何影响BenM的结构动力学。这些方法可潜在地应用于其他TF以改变特异性并分析导致这些变化的动力学，突显了计算工具在指导实验中的适用性。此外，我们开发的己二酸生物传感器可应用于识别和工程化产生己二酸的酶。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38817964/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38817964/",
+  "paper_page_path": "papers/pubmed/38817964/index.html"
+}

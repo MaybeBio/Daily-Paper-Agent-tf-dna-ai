@@ -1,0 +1,642 @@
+{
+  "identity": {
+    "pmid": "41860994",
+    "doi": "10.1126/sciimmunol.adw8291",
+    "title": "Macrophages restrict tumor immune infiltration by controlling collagen topography."
+  },
+  "content": {
+    "abstract": "During tumorigenesis, the extracellular matrix is extensively remodeled. Whereas the impact of such remodeling on tumor growth and invasion is well described, the consequences on immune infiltration are not well understood. Combining tissue imaging and machine learning, we show that immune cell localization in tumors can be predicted by the local topography of fibrillar collagens. Such topographies are dictated by a fibrotic pathway driven by transcription factor 4 (Tcf4) in both cancer and stromal cells, which promotes collagen III deposition and results in intermingled collagen networks that favor intratumor infiltration of T cells and neutrophils. Macrophages inhibit this pathway, highlighting their key structural role in shaping the tumor extracellular matrix. Reanalysis of data from human solid tumors revealed a strong correlation between TCF4, COL3A1, and T cell and neutrophil signatures. Together, our data identify collagen network topographies as a key regulator of tumor-infiltrating immune cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Macrophages/immunology",
+      "Animals",
+      "*Collagen/immunology/metabolism",
+      "*Neoplasms/immunology/pathology",
+      "*Lymphocytes, Tumor-Infiltrating/immunology",
+      "Extracellular Matrix/immunology/metabolism",
+      "Mice",
+      "Tumor Microenvironment/immunology",
+      "T-Lymphocytes/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fusilier, Zoe",
+        "Clement, Alexandra",
+        "Simon, Franck",
+        "Calvente, Isabel",
+        "Jean-Marie, Roude",
+        "Mathieu, Mathilde",
+        "Calmettes, Vincent",
+        "Piastra-Facon, Florence",
+        "Quintana-Perez, Yazmina",
+        "Clement, Jeyani George",
+        "Crestey, Lou",
+        "Lumineau, Enola",
+        "Henninger, Romane",
+        "Tonani, Mattia",
+        "Manriquez, Valeria",
+        "Lacerda Mariano, Livia",
+        "Bensaid, Lea",
+        "de Villemagne, Perrine",
+        "Piaggio, Eliane",
+        "Semetey, Vincent",
+        "Coscoy, Sylvie",
+        "Martini, Emanuele",
+        "Scita, Giorgio",
+        "Gelly, Jean-Christophe",
+        "Ivaska, Johanna",
+        "Isambert, Herve",
+        "Goudot, Christel",
+        "Pierobon, Paolo",
+        "Lennon-Dumenil, Ana-Maria",
+        "Moreau, Helene D"
+      ],
+      "short_names": [
+        "Fusilier Z",
+        "Clement A",
+        "Simon F",
+        "Calvente I",
+        "Jean-Marie R",
+        "Mathieu M",
+        "Calmettes V",
+        "Piastra-Facon F",
+        "Quintana-Perez Y",
+        "Clement JG",
+        "Crestey L",
+        "Lumineau E",
+        "Henninger R",
+        "Tonani M",
+        "Manriquez V",
+        "Lacerda Mariano L",
+        "Bensaid L",
+        "de Villemagne P",
+        "Piaggio E",
+        "Semetey V",
+        "Coscoy S",
+        "Martini E",
+        "Scita G",
+        "Gelly JC",
+        "Ivaska J",
+        "Isambert H",
+        "Goudot C",
+        "Pierobon P",
+        "Lennon-Dumenil AM",
+        "Moreau HD"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-1681-879X",
+        "ORCID: 0000-0002-6952-0819",
+        "ORCID: 0009-0005-2081-0603",
+        "ORCID: 0009-0006-3987-0857",
+        "ORCID: 0000-0002-9304-9692",
+        "ORCID: 0000-0001-6943-9116",
+        "ORCID: 0009-0009-4022-6657",
+        "ORCID: 0009-0005-4884-985X",
+        "ORCID: 0009-0000-2257-6754",
+        "ORCID: 0009-0003-3094-4475",
+        "ORCID: 0000-0001-5487-2216",
+        "ORCID: 0000-0002-2749-4878",
+        "ORCID: 0000-0002-2455-8442",
+        "ORCID: 0000-0001-8939-2538",
+        "ORCID: 0000-0003-3963-3609",
+        "ORCID: 0000-0002-3375-7726",
+        "ORCID: 0000-0001-7984-1889",
+        "ORCID: 0000-0001-5138-361X",
+        "ORCID: 0000-0002-6295-6556",
+        "ORCID: 0000-0001-6037-2314",
+        "ORCID: 0000-0002-3014-0181",
+        "ORCID: 0000-0002-8220-4482",
+        "ORCID: 0000-0001-5715-6864"
+      ],
+      "affiliations": [
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Universite Paris-Cite, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, Universite PSL, Sorbonne Universite, CNRS UMR168, Physics of Cells and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, Universite PSL, Sorbonne Universite, CNRS UMR168, Physics of Cells and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Universite Paris Cite, INSERM, EFS, BIGR U1134, Team DSIMB, Paris, France.",
+        "Turku Bioscience Centre, University of Turku and Abo Akademi University, Turku, Finland.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "IFOM ETS, AIRC Institute of Molecular Oncology, Milan, Italy.",
+        "Department of Oncology and Hematology-Oncology, Universita degli Studi di Milano, Milan, Italy.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Pathologie Experimentale PMDT, Department of Pathology (PATHEX), Institut Curie, Paris, France.",
+        "Kaer Labs, Nantes, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Chimie ParisTech, Universite PSL, CNRS, Institut de Recherche de Chimie Paris, Paris, France.",
+        "Institut Curie, Universite PSL, Sorbonne Universite, CNRS UMR168, Physics of Cells and Cancer, Paris, France.",
+        "IFOM ETS, AIRC Institute of Molecular Oncology, Milan, Italy.",
+        "Department of Oncology and Hematology-Oncology, Universita degli Studi di Milano, Milan, Italy.",
+        "IFOM ETS, AIRC Institute of Molecular Oncology, Milan, Italy.",
+        "Department of Oncology and Hematology-Oncology, Universita degli Studi di Milano, Milan, Italy.",
+        "Universite Paris Cite, INSERM, EFS, BIGR U1134, Team DSIMB, Paris, France.",
+        "Turku Bioscience Centre, University of Turku and Abo Akademi University, Turku, Finland.",
+        "Department of Life Technologies, University of Turku, Turku, Finland.",
+        "InFLAMES Research Flagship, University of Turku, Turku, Finland.",
+        "Western Finnish Cancer Center (FICAN West), University of Turku, Turku, Finland.",
+        "Foundation for the Finnish Cancer Institute, Tukholmankatu 8, Helsinki, Finland.",
+        "Institut Curie, Universite PSL, Sorbonne Universite, CNRS UMR168, Physics of Cells and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Universite Paris Cite, CNRS, Inserm, Institut Cochin, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+        "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fusilier, Zoé",
+        "short_name": "Fusilier Z",
+        "identifiers": [
+          "0009-0006-1681-879X"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+          "Université Paris-Cité, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Clément, Alexandra",
+        "short_name": "Clément A",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Simon, Franck",
+        "short_name": "Simon F",
+        "identifiers": [
+          "0000-0002-6952-0819"
+        ],
+        "affiliations": [
+          "Institut Curie, Université PSL, Sorbonne Université, CNRS UMR168, Physics of Cells and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Calvente, Isabel",
+        "short_name": "Calvente I",
+        "identifiers": [
+          "0009-0005-2081-0603"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+          "Institut Curie, Université PSL, Sorbonne Université, CNRS UMR168, Physics of Cells and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Jean-Marie, Roude",
+        "short_name": "Jean-Marie R",
+        "identifiers": [
+          "0009-0006-3987-0857"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+          "Université Paris Cité, INSERM, EFS, BIGR U1134, Team DSIMB, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Mathieu, Mathilde",
+        "short_name": "Mathieu M",
+        "identifiers": [
+          "0000-0002-9304-9692"
+        ],
+        "affiliations": [
+          "Turku Bioscience Centre, University of Turku and Åbo Akademi University, Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Calmettes, Vincent",
+        "short_name": "Calmettes V",
+        "identifiers": [
+          "0000-0001-6943-9116"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Piastra-Facon, Florence",
+        "short_name": "Piastra-Facon F",
+        "identifiers": [
+          "0009-0009-4022-6657"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Quintana-Perez, Yazmina",
+        "short_name": "Quintana-Perez Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Clement, Jeyani George",
+        "short_name": "Clement JG",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Crestey, Lou",
+        "short_name": "Crestey L",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lumineau, Enola",
+        "short_name": "Lumineau E",
+        "identifiers": [
+          "0009-0005-4884-985X"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Henninger, Romane",
+        "short_name": "Henninger R",
+        "identifiers": [
+          "0009-0000-2257-6754"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Tonani, Mattia",
+        "short_name": "Tonani M",
+        "identifiers": [
+          "0009-0003-3094-4475"
+        ],
+        "affiliations": [
+          "IFOM ETS, AIRC Institute of Molecular Oncology, Milan, Italy.",
+          "Department of Oncology and Hematology-Oncology, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Manriquez, Valeria",
+        "short_name": "Manriquez V",
+        "identifiers": [
+          "0000-0001-5487-2216"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lacerda Mariano, Livia",
+        "short_name": "Lacerda Mariano L",
+        "identifiers": [
+          "0000-0002-2749-4878"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bensaid, Léa",
+        "short_name": "Bensaid L",
+        "identifiers": [],
+        "affiliations": [
+          "Pathologie Expérimentale PMDT, Department of Pathology (PATHEX), Institut Curie, Paris, France."
+        ]
+      },
+      {
+        "full_name": "de Villemagne, Perrine",
+        "short_name": "de Villemagne P",
+        "identifiers": [],
+        "affiliations": [
+          "Kaer Labs, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Piaggio, Eliane",
+        "short_name": "Piaggio E",
+        "identifiers": [
+          "0000-0002-2455-8442"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Semetey, Vincent",
+        "short_name": "Semetey V",
+        "identifiers": [
+          "0000-0001-8939-2538"
+        ],
+        "affiliations": [
+          "Chimie ParisTech, Université PSL, CNRS, Institut de Recherche de Chimie Paris, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Coscoy, Sylvie",
+        "short_name": "Coscoy S",
+        "identifiers": [
+          "0000-0003-3963-3609"
+        ],
+        "affiliations": [
+          "Institut Curie, Université PSL, Sorbonne Université, CNRS UMR168, Physics of Cells and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Martini, Emanuele",
+        "short_name": "Martini E",
+        "identifiers": [
+          "0000-0002-3375-7726"
+        ],
+        "affiliations": [
+          "IFOM ETS, AIRC Institute of Molecular Oncology, Milan, Italy.",
+          "Department of Oncology and Hematology-Oncology, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Scita, Giorgio",
+        "short_name": "Scita G",
+        "identifiers": [
+          "0000-0001-7984-1889"
+        ],
+        "affiliations": [
+          "IFOM ETS, AIRC Institute of Molecular Oncology, Milan, Italy.",
+          "Department of Oncology and Hematology-Oncology, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Gelly, Jean-Christophe",
+        "short_name": "Gelly JC",
+        "identifiers": [
+          "0000-0001-5138-361X"
+        ],
+        "affiliations": [
+          "Université Paris Cité, INSERM, EFS, BIGR U1134, Team DSIMB, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Ivaska, Johanna",
+        "short_name": "Ivaska J",
+        "identifiers": [
+          "0000-0002-6295-6556"
+        ],
+        "affiliations": [
+          "Turku Bioscience Centre, University of Turku and Åbo Akademi University, Turku, Finland.",
+          "Department of Life Technologies, University of Turku, Turku, Finland.",
+          "InFLAMES Research Flagship, University of Turku, Turku, Finland.",
+          "Western Finnish Cancer Center (FICAN West), University of Turku, Turku, Finland.",
+          "Foundation for the Finnish Cancer Institute, Tukholmankatu 8, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Isambert, Hervé",
+        "short_name": "Isambert H",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, Université PSL, Sorbonne Université, CNRS UMR168, Physics of Cells and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Goudot, Christel",
+        "short_name": "Goudot C",
+        "identifiers": [
+          "0000-0001-6037-2314"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Pierobon, Paolo",
+        "short_name": "Pierobon P",
+        "identifiers": [
+          "0000-0002-3014-0181"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France.",
+          "Université Paris Cité, CNRS, Inserm, Institut Cochin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lennon-Duménil, Ana-Maria",
+        "short_name": "Lennon-Duménil AM",
+        "identifiers": [
+          "0000-0002-8220-4482"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Moreau, Hélène D",
+        "short_name": "Moreau HD",
+        "identifiers": [
+          "0000-0001-5715-6864"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, INSERM U932, Immunity and Cancer, Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science immunology"
+    ],
+    "journal_abbrev": [
+      "Sci Immunol"
+    ],
+    "pub_date": "2026 Mar 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/20 18:37",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [
+      "42649983",
+      "42465755"
+    ],
+    "refs": [],
+    "similar": [
+      "41860994",
+      "34956223",
+      "27169366",
+      "30867051",
+      "40975454",
+      "40921908",
+      "41878415",
+      "34421928",
+      "34798898",
+      "42133429",
+      "39513932",
+      "32839214",
+      "40560129",
+      "38831058",
+      "39186615",
+      "40054648",
+      "32591431",
+      "33074556",
+      "28986561",
+      "24797928",
+      "33550891",
+      "41504047",
+      "41103436",
+      "37506192",
+      "24763614",
+      "41728814",
+      "38310462",
+      "31771616",
+      "20525400",
+      "34899751",
+      "39515875",
+      "38690275",
+      "40446484",
+      "30972056",
+      "40346580",
+      "40847444",
+      "7827959",
+      "33361087",
+      "40725175",
+      "33023965",
+      "27785783",
+      "38652549",
+      "39885986",
+      "32625204",
+      "41202699",
+      "28052009",
+      "31350312",
+      "26966341",
+      "41052334",
+      "30774636",
+      "34635121",
+      "33986746",
+      "40574854",
+      "34093869",
+      "33602289",
+      "39835132",
+      "41483290",
+      "41709670",
+      "27793045",
+      "34072260",
+      "40475776",
+      "38856041",
+      "41879001",
+      "40793817",
+      "40816293",
+      "42347829",
+      "30840245",
+      "39682743",
+      "41571298",
+      "22865582",
+      "39845957",
+      "41322421",
+      "34732895",
+      "34630392",
+      "39053947",
+      "40869052",
+      "19116363",
+      "30700576",
+      "31821665",
+      "33712445",
+      "32232146",
+      "27318497",
+      "38717149",
+      "36567397",
+      "30721153",
+      "34255349",
+      "39217611",
+      "30498499",
+      "41491840",
+      "31849950",
+      "31186412",
+      "41788070",
+      "38067116",
+      "42254675",
+      "32719347",
+      "26310815",
+      "40666525",
+      "39349537",
+      "17190588",
+      "42303597"
+    ],
+    "review": [
+      "41860994",
+      "34956223",
+      "40921908",
+      "39513932",
+      "33074556",
+      "41504047",
+      "41103436",
+      "38690275",
+      "40446484",
+      "32625204",
+      "26966341",
+      "34635121",
+      "33986746",
+      "40574854",
+      "34072260",
+      "38856041",
+      "39845957",
+      "30498499",
+      "31849950",
+      "42254675"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciimmunol.adw8291?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://hal.science/hal-05572506",
+        "provider": "HAL archives ouvertes - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1180",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

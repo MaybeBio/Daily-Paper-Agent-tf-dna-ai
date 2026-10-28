@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "37873361",
+    "doi": "10.1101/2023.10.06.561228",
+    "title": "Joint sequence & chromatin neural networks characterize the differential abilities of Forkhead transcription factors to engage inaccessible chromatin."
+  },
+  "content": {
+    "abstract": "The DNA-binding activities of transcription factors (TFs) are influenced by both intrinsic sequence preferences and extrinsic interactions with cell-specific chromatin landscapes and other regulatory proteins. Disentangling the roles of these binding determinants remains challenging. For example, the FoxA subfamily of Forkhead domain (Fox) TFs are known pioneer factors that can bind to relatively inaccessible sites during development. Yet FoxA TF binding also varies across cell types, pointing to a combination of intrinsic and extrinsic forces guiding their binding. While other Forkhead domain TFs are often assumed to have pioneering abilities, how sequence and chromatin features influence the binding of related Fox TFs has not been systematically characterized. Here, we present a principled approach to compare the relative contributions of intrinsic DNA sequence preference and cell-specific chromatin environments to a TF's DNA-binding activities. We apply our approach to investigate how a selection of Fox TFs (FoxA1, FoxC1, FoxG1, FoxL2, and FoxP3) vary in their binding specificity. We over-express the selected Fox TFs in mouse embryonic stem cells, which offer a platform to contrast each TF's binding activity within the same preexisting chromatin background. By applying a convolutional neural network to interpret the Fox TF binding patterns, we evaluate how sequence and preexisting chromatin features jointly contribute to induced TF binding. We demonstrate that Fox TFs bind different DNA targets, and drive differential gene expression patterns, even when induced in identical chromatin settings. Despite the association between Forkhead domains and pioneering activities, the selected Fox TFs display a wide range of affinities for preexiting chromatin states. Using sequence and chromatin feature attribution techniques to interpret the neural network predictions, we show that differential sequence preferences combined with differential abilities to engage relatively inaccessible chromatin together explain Fox TF binding patterns at individual sites and genome-wide.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arora, Sonny",
+        "Yang, Jianyu",
+        "Akiyama, Tomohiko",
+        "James, Daniela Q",
+        "Morrissey, Alexis",
+        "Blanda, Thomas R",
+        "Badjatia, Nitika",
+        "Lai, William K M",
+        "Ko, Minoru S H",
+        "Pugh, B Franklin",
+        "Mahony, Shaun"
+      ],
+      "short_names": [
+        "Arora S",
+        "Yang J",
+        "Akiyama T",
+        "James DQ",
+        "Morrissey A",
+        "Blanda TR",
+        "Badjatia N",
+        "Lai WKM",
+        "Ko MSH",
+        "Pugh BF",
+        "Mahony S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4351-7037",
+        "ORCID: 0000-0001-8341-4476",
+        "ORCID: 0000-0002-2641-1807"
+      ],
+      "affiliations": [
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA.",
+        "Department of Systems Medicine, Keio University School of Medicine, Tokyo, Japan.",
+        "Current address: School of Medicine, Yokohama City University, Japan.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA.",
+        "Department of Molecular Biology and Genetics, Cornell University, NY, USA.",
+        "Department of Systems Medicine, Keio University School of Medicine, Tokyo, Japan.",
+        "Department of Molecular Biology and Genetics, Cornell University, NY, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arora, Sonny",
+        "short_name": "Arora S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Jianyu",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Akiyama, Tomohiko",
+        "short_name": "Akiyama T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Medicine, Keio University School of Medicine, Tokyo, Japan.",
+          "Current address: School of Medicine, Yokohama City University, Japan."
+        ]
+      },
+      {
+        "full_name": "James, Daniela Q",
+        "short_name": "James DQ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Morrissey, Alexis",
+        "short_name": "Morrissey A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Blanda, Thomas R",
+        "short_name": "Blanda TR",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Badjatia, Nitika",
+        "short_name": "Badjatia N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Lai, William K M",
+        "short_name": "Lai WKM",
+        "identifiers": [
+          "0000-0003-4351-7037"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Cornell University, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ko, Minoru S H",
+        "short_name": "Ko MSH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Medicine, Keio University School of Medicine, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Pugh, B Franklin",
+        "short_name": "Pugh BF",
+        "identifiers": [
+          "0000-0001-8341-4476"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Cornell University, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mahony, Shaun",
+        "short_name": "Mahony S",
+        "identifiers": [
+          "0000-0002-2641-1807"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, Penn State University, University Park, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Oct 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/24 06:41",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37873361",
+      "33413545",
+      "31639474",
+      "36253868",
+      "33028607",
+      "34984978",
+      "22406422",
+      "39402535",
+      "37486787",
+      "23935523",
+      "28750606",
+      "26291518",
+      "39413792",
+      "29326300",
+      "31253573",
+      "30359306",
+      "31968679",
+      "16952980",
+      "38562719",
+      "26550823",
+      "15492844",
+      "26818008",
+      "19956545",
+      "37214836",
+      "37805453",
+      "31093693",
+      "29987030",
+      "22955984",
+      "36779711",
+      "29605182",
+      "36114445",
+      "27501774",
+      "36484687",
+      "29694718",
+      "35410161",
+      "32043966",
+      "26285121",
+      "28212747",
+      "23636944",
+      "35831531",
+      "38352517",
+      "27311443",
+      "32027821",
+      "26578569",
+      "28439033",
+      "34544361",
+      "31754708",
+      "30423062",
+      "24918633",
+      "23847101",
+      "25609649",
+      "21502411",
+      "21233399",
+      "29786094",
+      "28103242",
+      "30598689",
+      "33372147",
+      "21785139",
+      "33796819",
+      "23990766",
+      "26675734",
+      "22189060",
+      "31997540",
+      "37933840",
+      "19158363",
+      "38101414",
+      "22305161",
+      "35681170",
+      "26590261",
+      "31742324",
+      "35293310",
+      "32615918",
+      "23109430",
+      "16267080",
+      "22863112",
+      "37177995",
+      "20870645",
+      "31114856",
+      "37546716",
+      "34502060",
+      "28790414",
+      "31398323",
+      "35042722",
+      "31899481",
+      "33501917",
+      "31964861",
+      "37986839",
+      "32574834",
+      "15828872",
+      "22378636",
+      "17559637",
+      "25893708",
+      "35920317",
+      "35252200",
+      "21557082",
+      "24564277",
+      "33304457",
+      "39363017",
+      "36267125",
+      "33303494",
+      "38836027",
+      "38853998",
+      "38867914",
+      "37326021",
+      "36911290",
+      "38352411",
+      "31553919",
+      "39091757",
+      "37066406",
+      "38826350",
+      "37961577",
+      "38854049",
+      "38659757",
+      "32551184",
+      "26191047",
+      "38979296"
+    ],
+    "review": [
+      "37873361",
+      "31639474",
+      "22406422",
+      "31968679",
+      "15492844",
+      "31093693",
+      "29694718",
+      "35831531",
+      "22305161",
+      "31742324",
+      "34502060",
+      "25893708",
+      "21557082",
+      "31553919",
+      "26191047"
+    ],
+    "pmc": [
+      "10592618"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37873361/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37873361",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.10.06.561228",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

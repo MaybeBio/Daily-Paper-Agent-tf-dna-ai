@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of pentagalloylglucose (PGG) as a disruptor of the PALB2-BRCA2 protein-protein interaction (PPI) via structure-based virtual screening of approximately 2 million compounds and NanoBiT-based screening. They claim PGG binds a defined groove in the PALB2 WD40 domain, reduces BRCA2 recruitment to DNA damage sites, inhibits RAD51 foci formation and homologous recombination repair, suppresses proliferation and survival in cancer cell lines, and inhibits tumor xenograft growth in vivo. They propose PGG as a specific PALB2-BRCA2 PPI inhibitor with potential to sensitize tumors to PARP inhibitors and radiotherapy.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, experimental protocols, statistical methods, compound characterization data, specificity controls, and in vivo study details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding with therapeutic implications, but the evidence base available for review is limited to a summary of results without quantitative detail. The central claims of specific PPI disruption, binding mode, functional consequences, and in vivo efficacy cannot be rigorously evaluated from the supplied material. The work addresses a relevant target in DNA repair and cancer therapy, but the case for specificity and translational value is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in DNA damage repair, homologous recombination, cancer therapeutics, and drug discovery would be interested. The potential to sensitize tumors to PARP inhibitors and radiotherapy has direct relevance to oncology drug development and combination therapy strategies. The identification of a natural product inhibitor of a key PPI may also interest medicinal chemists and chemical biologists.
+- **Major strengths** The study combines computational screening with experimental validation, which is a reasonable approach for PPI inhibitor discovery. The target is clinically relevant given the established role of PALB2-BRCA2 in homologous recombination and PARP inhibitor sensitivity. The inclusion of both in vitro and in vivo data, as summarized, suggests a breadth of investigation. The prior work by the authors on CXorf67 provides a biological rationale for targeting this PPI.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and mechanism
+  - **Claim pointer** The authors claim PGG is a specific inhibitor of the PALB2-BRCA2 PPI and that it occupies a well-defined binding groove in the PALB2 WD40 domain.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no data on selectivity of PGG for the PALB2-BRCA2 interaction over other PPIs or off-target effects. PGG is a polyphenolic compound known to have multiple biological activities, and the claim of specificity requires demonstration that PGG does not disrupt other WD40 domain interactions or exert effects through alternative mechanisms.
+  - **Why it matters** Specificity is central to the proposed mechanism and to the translational claim that PGG sensitizes tumors via PALB2-BRCA2 disruption. Without specificity data, the observed anti-proliferative and in vivo effects could be attributable to off-target activities, undermining the mechanistic conclusion.
+  - **Resolution test** Provide data showing PGG does not disrupt structurally related PPIs, does not affect other WD40 domain proteins, and that genetic knockdown or mutation of the proposed binding site abolishes PGG sensitivity. Include a negative control compound with similar physicochemical properties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence and statistical rigor
+  - **Claim pointer** The authors claim PGG inhibits proliferation and survival in several cancer cell lines and suppresses in vivo tumor xenograft growth.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are provided for IC50 values, effect sizes, statistical significance, or number of biological replicates. The in vivo claim lacks information on dosing, route of administration, tumor model, number of animals, and statistical analysis. Without these details, the magnitude and reliability of the effects cannot be assessed.
+  - **Why it matters** Quantitative rigor is essential to establish that the observed effects are meaningful and reproducible. The absence of these data prevents evaluation of whether the compound has sufficient potency and efficacy to support the proposed therapeutic potential.
+  - **Resolution test** Provide dose-response curves, statistical comparisons with appropriate controls, and full in vivo experimental details including animal numbers, dosing schedule, tumor growth curves, and statistical methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional link between PPI disruption and phenotype
+  - **Claim pointer** The authors claim PGG reduces BRCA2 recruitment to DNA damage sites and inhibits RAD51 foci formation, suppressing homologous recombination repair, and that this underlies the anti-tumor effects.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not establish a causal link between PPI disruption and the observed functional outcomes. It is not shown that the reduction in BRCA2 recruitment and RAD51 foci is specifically due to PPI disruption rather than other effects of PGG. Additionally, the connection between homologous recombination suppression and the anti-proliferative and in vivo effects is not demonstrated, for example through rescue experiments or genetic models.
+  - **Why it matters** The therapeutic rationale depends on the mechanism being PPI disruption leading to homologous recombination deficiency and consequent sensitization. Without causal evidence, the proposed mechanism remains correlative.
+  - **Resolution test** Include rescue experiments with PALB2-BRCA2 fusion constructs or mutants that restore the interaction, and demonstrate that PGG sensitivity correlates with homologous recombination status. Show that PARP inhibitor or radiotherapy sensitization is dependent on PALB2-BRCA2 disruption.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Sensitization claim
+  - **Claim pointer** The authors claim PGG has potential value to sensitize tumors to PARP inhibitors and radiotherapy.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not present any data on combination treatments. No experiments are described showing that PGG enhances the effect of PARP inhibitors or radiotherapy beyond the single-agent effects. The sensitization claim is therefore unsupported by the visible evidence.
+  - **Why it matters** The translational value of the compound is largely predicated on its ability to sensitize tumors to existing therapies. Without combination data, this key claim is not established.
+  - **Resolution test** Provide combination index or isobologram analyses for PGG with PARP inhibitors and radiation, in vitro and in vivo, with appropriate monotherapy controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Compound characterization
+  - **Affected element** PGG identity and purity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the source, purity, or characterization of PGG used in the studies.
+  - **Required correction** State the source, purity, and analytical characterization of PGG in the methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Screening details
+  - **Affected element** Virtual and NanoBiT screening
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions screening of approximately 2 million compounds and NanoBiT-based screening but provides no details on hit criteria, confirmation steps, or false positive rates.
+  - **Required correction** Briefly describe the screening workflow, hit selection criteria, and validation steps in the results or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Binding affinity quantification
+  - **Affected element** In vitro binding affinity assays
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that in vitro binding affinity assays were performed but does not report the affinity value or the assay type.
+  - **Required correction** Report the binding affinity constant and the assay method used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Cell line selection
+  - **Affected element** Cancer cell lines
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions breast cancer and medulloblastoma cells but does not justify the choice of these lines or specify their homologous recombination status.
+  - **Required correction** Provide rationale for cell line selection and state their homologous recombination proficiency status.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** In vivo model details
+  - **Affected element** Xenograft studies
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the xenograft model, route of administration, or whether the compound was well tolerated.
+  - **Required correction** Include key in vivo experimental parameters and toxicity observations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient evidence to establish specificity, quantitative efficacy, causal mechanism, or combination benefit. These are required to support the central claims of the manuscript.
+- **Assessment against Nature-style criteria** Originality is moderate; targeting the PALB2-BRCA2 PPI is not entirely novel given prior work on CXorf67, but the identification of a small molecule inhibitor is a useful contribution. Scientific importance is potentially high given the therapeutic implications, but the evidence presented is insufficient to establish significance. Interdisciplinary readership is plausible, spanning cancer biology, DNA repair, and drug discovery, but the abstract lacks the quantitative detail needed to engage a broad audience. Technical soundness cannot be assessed from the abstract alone; the absence of data on specificity, statistics, and combination studies is a major limitation. Readability for nonspecialists is adequate, with clear descriptions of the proposed mechanism and potential applications, though some terms such as NanoBiT and WD40 domain may require context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting finding, but the absence of quantitative data, specificity controls, causal evidence, and combination studies means the central claims cannot be evaluated. The manuscript may become supportive if the full text addresses these concerns.
+
+## Risk / unsupported claims
+- The claim that PGG is a specific inhibitor of the PALB2-BRCA2 PPI is unsupported without selectivity data.
+- The claim that PGG occupies a well-defined binding groove in the PALB2 WD40 domain is not verifiable without structural or mutagenesis data.
+- The claim that PGG suppresses homologous recombination repair via PPI disruption is not established without causal evidence.
+- The claim that PGG has potential value to sensitize tumors to PARP inhibitors and radiotherapy is unsupported as no combination data are presented.
+- The in vivo efficacy claim is not assessable without experimental details and statistical analysis.
+- The quantitative magnitude of anti-proliferative effects is not reported, preventing assessment of potency.

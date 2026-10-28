@@ -1,0 +1,174 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.06.425605",
+  "title": "Role of spatial patterning of N-protein interactions in SARS-CoV-2 genome packaging",
+  "doi": "10.1101/2021.01.06.425605",
+  "abstract": "Viruses must efficiently and specifically package their genomes while excluding cellular nucleic acids and viral sub-genomic fragments. Some viruses use specific packaging signals, which are conserved sequence/structure motifs present only in the full-length genome. Recent work has shown that viral proteins important for packaging can undergo liquid-liquid phase separation (LLPS), where one or two viral nucleic acid binding proteins condense with the genome. The compositional simplicity of viral components lends itself well to theoretical modeling compared to more complex cellular organelles. Viral LLPS can be limited to one or two viral proteins and a single genome that is enriched in LLPS-promoting features. In our previous study, we observed that LLPS-promoting sequences of SARS-CoV-2 are located at the 5ʹ and 3ʹ ends of the genome, whereas the middle of the genome is predicted to consist mostly of solubilizing elements. Is this arrangement sufficient to drive single genome packaging, genome compaction, and genome cyclization? We addressed these questions using a coarse-grained polymer model, LASSI, to study the LLPS of nucleocapsid protein with RNA sequences that either promote LLPS or solubilization. With respect to genome cyclization, we find the most optimal arrangement restricts LLPS-promoting elements to the 5ʹ and 3ʹ ends of the genome, consistent with the native spatial patterning. Genome compaction is enhanced by clustered LLPS-promoting binding sites, while single genome packaging is most efficient when binding sites are distributed throughout the genome. These results suggest that many and variably positioned LLPS-promoting signals can support packaging in the absence of a singular packaging signal which argues against necessity of such a feature. We hypothesize that this model should be generalizable to multiple viruses as well as cellular organelles like paraspeckles, which enrich specific, long RNA sequences in a defined arrangement. <h4>Statement of significance</h4> The COVID-19 pandemic has motivated research of the basic mechanisms of coronavirus replication. A major challenge faced by viruses such as SARS-CoV-2 is the selective packaging of a large genome in a relatively small capsid while excluding host and sub-genomic nucleic acids. Genomic RNA of SARS-CoV-2 can condense with the Nucleocapsid (N-protein), a structural protein component critical for packaging of many viruses. Notably, certain regions of the genomic RNA drive condensation of N-protein while other regions solubilize it. Here, we explore how the spatial patterning of these opposing elements promotes single genome compaction, packaging, and cyclization. This model informs future in silico experiments addressing spatial patterning of genomic features that are experimentally intractable because of the length of the genome.",
+  "authors": [
+    "Seim I",
+    "Roden CA",
+    "Gladfelter AS"
+  ],
+  "published_date": "2021-01-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.06.425605",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.06.425605.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR262377",
+    "raw_record": {
+      "id": "PPR262377",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR262377"
+        ]
+      },
+      "doi": "10.1101/2021.01.06.425605",
+      "title": "Role of spatial patterning of N-protein interactions in SARS-CoV-2 genome packaging",
+      "authorString": "Seim I, Roden CA, Gladfelter AS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Seim I",
+            "lastName": "Seim",
+            "firstName": "Ian",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, USA"
+                },
+                {
+                  "affiliation": "Curriculum in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, Chapel Hill, USA"
+                },
+                {
+                  "affiliation": "Department of Applied Physical Sciences, University of North Carolina at Chapel Hill, Chapel Hill, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roden CA",
+            "lastName": "Roden",
+            "firstName": "Christine",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gladfelter AS",
+            "lastName": "Gladfelter",
+            "firstName": "Amy",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, USA"
+                },
+                {
+                  "affiliation": "Curriculum in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, Chapel Hill, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Viruses must efficiently and specifically package their genomes while excluding cellular nucleic acids and viral sub-genomic fragments. Some viruses use specific packaging signals, which are conserved sequence/structure motifs present only in the full-length genome. Recent work has shown that viral proteins important for packaging can undergo liquid-liquid phase separation (LLPS), where one or two viral nucleic acid binding proteins condense with the genome. The compositional simplicity of viral components lends itself well to theoretical modeling compared to more complex cellular organelles. Viral LLPS can be limited to one or two viral proteins and a single genome that is enriched in LLPS-promoting features. In our previous study, we observed that LLPS-promoting sequences of SARS-CoV-2 are located at the 5ʹ and 3ʹ ends of the genome, whereas the middle of the genome is predicted to consist mostly of solubilizing elements. Is this arrangement sufficient to drive single genome packaging, genome compaction, and genome cyclization? We addressed these questions using a coarse-grained polymer model, LASSI, to study the LLPS of nucleocapsid protein with RNA sequences that either promote LLPS or solubilization. With respect to genome cyclization, we find the most optimal arrangement restricts LLPS-promoting elements to the 5ʹ and 3ʹ ends of the genome, consistent with the native spatial patterning. Genome compaction is enhanced by clustered LLPS-promoting binding sites, while single genome packaging is most efficient when binding sites are distributed throughout the genome. These results suggest that many and variably positioned LLPS-promoting signals can support packaging in the absence of a singular packaging signal which argues against necessity of such a feature. We hypothesize that this model should be generalizable to multiple viruses as well as cellular organelles like paraspeckles, which enrich specific, long RNA sequences in a defined arrangement. <h4>Statement of significance</h4>  The COVID-19 pandemic has motivated research of the basic mechanisms of coronavirus replication. A major challenge faced by viruses such as SARS-CoV-2 is the selective packaging of a large genome in a relatively small capsid while excluding host and sub-genomic nucleic acids. Genomic RNA of SARS-CoV-2 can condense with the Nucleocapsid (N-protein), a structural protein component critical for packaging of many viruses. Notably, certain regions of the genomic RNA drive condensation of N-protein while other regions solubilize it. Here, we explore how the spatial patterning of these opposing elements promotes single genome compaction, packaging, and cyclization. This model informs future  in silico experiments addressing spatial patterning of genomic features that are experimentally intractable because of the length of the genome.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/04/26/2021.01.06.425605.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.06.425605"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR262377"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR262377&type=FILE&fileName=EMS110056-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34214535",
+            "reference": "Biophysical journal. 2021 Jul;120(14):2771-2784",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS110056",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-01-08",
+      "firstPublicationDate": "2021-01-06",
+      "firstIndexDate": "2021-01-08",
+      "fullTextReceivedDate": "2021-06-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33937409",
+  "title": "Predicting Ovarian/Breast Cancer Pathogenic Risks of Human BRCA1 Gene Variants of Unknown Significance.",
+  "authors": "Lin, Hui-Heng; Xu, Hongyan; Hu, Hongbo; Ma, Zhanzhong; Zhou, Jie; Liang, Qingyun",
+  "journal": "BioMed research international",
+  "published_date": "2021-05-04",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习预测BRCA1基因变异致病性，但对象是基因变异而非蛋白质-DNA互作，无结合建模或互作机制研究，与本课题关联微弱。",
+  "abstract": "High-throughput sequencing is gaining popularity in clinical diagnoses, but more and more novel gene variants with unknown clinical significance are being found, giving difficulties to interpretations of people's genetic data, precise disease diagnoses, and the making of therapeutic strategies and decisions. In order to solve these issues, it is of critical importance to figure out ways to analyze and interpret such variants. In this work, BRCA1 gene variants with unknown clinical significance were identified from clinical sequencing data, and then, we developed machine learning models so as to predict the pathogenicity for variants with unknown clinical significance. Through performance benchmarking, we found that the optimized random forest model scored 0.85 in area under receiver operating characteristic curve, which outperformed other models. Finally, we applied the best random forest model to predict the pathogenicity of 6321 BRCA1 variants from both sequencing data and ClinVar database. As a result, we obtained the predictive pathogenic risks of BRCA1 variants of unknown significance.",
+  "abstract_zh": "高通量测序在临床诊断中的应用日益普及，但越来越多临床意义未知的新型基因变异被发现，这给人们遗传数据的解读、疾病的精确诊断以及治疗策略和决策的制定带来了困难。为解决这些问题，寻找分析和解读此类变异的方法至关重要。在本研究中，我们从临床测序数据中识别出临床意义未知的BRCA1基因变异，随后开发了机器学习模型，以预测这些未知临床意义变异的致病性。通过性能基准测试，我们发现优化后的随机森林模型在受试者工作特征曲线下面积上得分为0.85，优于其他模型。最后，我们应用最佳随机森林模型，对来自测序数据和ClinVar数据库的6321个BRCA1变异进行了致病性预测。由此，我们获得了BRCA1未知意义变异的预测性致病风险。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33937409/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33937409/",
+  "paper_page_path": "papers/pubmed/33937409/index.html"
+}

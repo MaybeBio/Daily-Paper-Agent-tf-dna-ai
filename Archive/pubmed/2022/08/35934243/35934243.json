@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "35934243",
+    "doi": "10.1016/j.hrthm.2022.07.030",
+    "title": "Unsupervised machine learning reveals epicardial adipose tissue subtypes with distinct atrial fibrosis profiles in patients with persistent atrial fibrillation: A prospective 2-center cohort study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Epicardial adipose tissue (EAT) accumulation is associated with the progression of atrial fibrillation. However, the histological features of EATs are poorly defined and their correlation with atrial fibrosis is unclear. OBJECTIVE: The purpose of this study was to identify and characterize EAT subgroups in the persistent atrial fibrillation (PeAF) cohorts. METHODS: EATs and the corresponding left atrial appendage samples were obtained from patients with PeAF via surgical intervention. Adipocyte markers, that is, Uncoupling Protein 1, Transcription Factor 21, and CD137, were examined. On the basis of expression of adipocyte markers, patients with PeAF were categorized into subgroups by using unsupervised clustering analysis. Clinical characteristics, histological analyses, and outcomes were subsequently compared across the clusters. External validation was performed in a validation cohort. RESULTS: The ranking of feature importance revealed that the 3 adipocyte markers were the most relevant factors for atrial fibrosis compared with other clinical indicators. On the k-medoids analysis, patients with PeAF could be categorized into 3 clusters in the discovery cohort. The histological studies revealed that patients in cluster 1 exhibited statistically larger size of adipocytes in EATs and severe atrial fibrosis in left atrial appendages. Findings were replicated in the validation cohort, where severe atrial fibrosis was noted in cluster 1. Moreover, in the validation cohort, there was a high degree of overlap between the supervised classification results and the unsupervised cluster results from the k-medoids method. CONCLUSION: Machine learning-based cluster analysis could identify subtypes of patients with PeAF having distinct atrial fibrosis profiles. Additionally, EAT whitening (increased proportion of white adipocytes) may be involved in the process of atrial fibrosis.",
+    "keywords": [
+      "Atrial fibrillation",
+      "Atrial fibrosis",
+      "Epicardial adipose tissue",
+      "Machine learning",
+      "Whitening"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Atrial Fibrillation/metabolism",
+      "Unsupervised Machine Learning",
+      "Cohort Studies",
+      "Prospective Studies",
+      "Pericardium/pathology",
+      "Adipose Tissue/metabolism",
+      "Fibrosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Chang",
+        "Qin, Huiyuan",
+        "Zhu, Xiyu",
+        "Lu, Xiaohu",
+        "Wang, Bing",
+        "Wang, Xingyao",
+        "Wang, Junxia",
+        "Jiao, Jincheng",
+        "Chu, Ming",
+        "Wang, Cheng",
+        "Li, Mingfang",
+        "Wang, Xiaowei",
+        "Wang, Dongjin",
+        "Chen, Minglong"
+      ],
+      "short_names": [
+        "Cui C",
+        "Qin H",
+        "Zhu X",
+        "Lu X",
+        "Wang B",
+        "Wang X",
+        "Wang J",
+        "Jiao J",
+        "Chu M",
+        "Wang C",
+        "Li M",
+        "Wang X",
+        "Wang D",
+        "Chen M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Cardio-Thoracic Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China.",
+        "Department of Cardio-Thoracic Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China.",
+        "School of Medicine, Southeast University, Nanjing, China.",
+        "School of Instrument Science and Engineering, Southeast University, Nanjing, China.",
+        "Department of Cardio-Thoracic Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China.",
+        "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Cardio-Thoracic Surgery, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Cardio-Thoracic Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China.",
+        "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China; Key Laboratory of Targeted Intervention of Cardiovascular Disease, Collaborative Innovation Center for Cardiovascular Disease Translational Medicine, Nanjing Medical University, Nanjing, China. Electronic address: chenminglong@njmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Chang",
+        "short_name": "Cui C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Huiyuan",
+        "short_name": "Qin H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiyu",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardio-Thoracic Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xiaohu",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardio-Thoracic Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bing",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xingyao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Instrument Science and Engineering, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junxia",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardio-Thoracic Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Jincheng",
+        "short_name": "Jiao J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Ming",
+        "short_name": "Chu M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Cheng",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mingfang",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaowei",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardio-Thoracic Surgery, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongjin",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardio-Thoracic Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Minglong",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China; Key Laboratory of Targeted Intervention of Cardiovascular Disease, Collaborative Innovation Center for Cardiovascular Disease Translational Medicine, Nanjing Medical University, Nanjing, China. Electronic address: chenminglong@njmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heart rhythm"
+    ],
+    "journal_abbrev": [
+      "Heart Rhythm"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/08 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "42294083",
+      "41897405",
+      "41454313",
+      "39139419",
+      "38587689",
+      "36755226",
+      "36041687"
+    ],
+    "refs": [],
+    "similar": [
+      "35934243",
+      "29908372",
+      "32330625",
+      "31877592",
+      "38546216",
+      "30111325",
+      "35568136",
+      "34572150",
+      "32441464",
+      "32175811",
+      "29077154",
+      "30686096",
+      "26659845",
+      "35461705",
+      "29806623",
+      "29483593",
+      "32375640",
+      "30402702",
+      "29625530",
+      "25027058",
+      "21235672",
+      "31584315",
+      "30568066",
+      "34430935",
+      "30220481",
+      "20434499",
+      "30081810",
+      "25176630",
+      "34508033",
+      "28778939",
+      "23525094",
+      "30753389",
+      "24793457",
+      "24143210",
+      "21414593",
+      "22772897",
+      "36958709",
+      "32883413",
+      "31731197",
+      "36066734",
+      "31894526",
+      "29748196",
+      "25446157",
+      "31682014",
+      "25863735",
+      "33363650",
+      "34623252",
+      "35443854",
+      "31310173",
+      "34497820",
+      "25466809",
+      "30661465",
+      "27072363",
+      "35640278",
+      "31502330",
+      "33793321",
+      "22917538",
+      "31551089",
+      "24497517",
+      "26123095",
+      "26003920",
+      "22971842",
+      "35355079",
+      "37236697",
+      "27057876",
+      "30245816",
+      "36938811",
+      "35274140",
+      "26612579",
+      "28387822",
+      "26986099",
+      "27546816",
+      "35750694",
+      "26685730",
+      "30049356",
+      "32152730",
+      "35612477",
+      "24066158",
+      "28582578",
+      "27291510",
+      "35137779",
+      "28644155",
+      "30580474",
+      "28664417",
+      "35721500",
+      "31810812",
+      "33392874",
+      "26536987",
+      "33006596",
+      "24656480",
+      "16903959",
+      "23390124",
+      "26935271",
+      "34905899",
+      "30016722",
+      "29986849",
+      "38405916",
+      "36041687",
+      "39271814",
+      "32570434",
+      "37920813",
+      "38893671",
+      "38670558",
+      "37776180",
+      "37756375"
+    ],
+    "review": [
+      "35934243",
+      "34572150",
+      "26659845",
+      "29625530",
+      "34508033",
+      "31682014",
+      "34623252",
+      "35443854",
+      "28664417",
+      "33006596"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1547-5271(22)02277-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/atrialfibrillation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atrial Fibrillation"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNFRSF9-5",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1547-5271(22)02277-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

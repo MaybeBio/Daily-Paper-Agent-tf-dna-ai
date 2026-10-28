@@ -1,0 +1,648 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.01.621495",
+  "title": "Learning Binding Affinities via Fine-tuning of Protein and Ligand Language Models",
+  "doi": "10.1101/2024.11.01.621495",
+  "abstract": "Accurate in-silico prediction of protein-ligand binding affinity is essential for efficient hit identification in large molecular libraries. Commonly used structure-based methods such as docking often fail to rank compounds effectively, and free energy-based approaches, while accurate, are too computationally intensive for large-scale screening. Existing deep learning models struggle to generalize to new targets or drugs, and current evaluation methods often do not accurately reflect real-world performance. We introduce BALM , a deep learning framework that predicts b inding a ffinity using pre-trained protein and ligand l anguage m odels. We also propose improved evaluation strategies with diverse data sets and metrics to assess model performance to new targets better. Using the BindingDB dataset, BALM generalises unseen drugs, scaffolds, and targets. In few-shot scenarios for targets such as USP7 and Mpro , it outperforms traditional machine learning and docking methods, including AutoDock Vina. Adoption of our target-based evaluation methods will allow a more stringent evaluation of machine learning-based scoring tools. Our protein prediction framework shows good performance, is computationally efficient, and is highly adaptable within this evaluation setting, making it practical for early-stage drug discovery screening.",
+  "authors": [
+    "Rohan Gorantla",
+    "Aryo Pradipta Gema",
+    "Ian Xi Yang",
+    "Álvaro Serrano-Morrás",
+    "Benjamin Suutari",
+    "Jordi Juárez-Jiménez",
+    "Antonia S. J. S. Mey"
+  ],
+  "published_date": "2024-11-01",
+  "updated_date": "2024-11-01T15:45:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.01.621495",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.01.621495.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:50:29Z",
+        "timestamp": 1782280229093,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            1
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 74,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2024-11-01T00:00:00Z",
+            "timestamp": 1730419200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Accurate\n                  <jats:italic>in-silico</jats:italic>\n                  prediction of protein-ligand binding affinity is essential for efficient hit identification in large molecular libraries. Commonly used structure-based methods such as docking often fail to rank compounds effectively, and free energy-based approaches, while accurate, are too computationally intensive for large-scale screening. Existing deep learning models struggle to generalize to new targets or drugs, and current evaluation methods often do not accurately reflect real-world performance. We introduce\n                  <jats:bold>BALM</jats:bold>\n                  , a deep learning framework that predicts\n                  <jats:bold>b</jats:bold>\n                  inding\n                  <jats:bold>a</jats:bold>\n                  ffinity using pre-trained protein and ligand\n                  <jats:bold>l</jats:bold>\n                  anguage\n                  <jats:bold>m</jats:bold>\n                  odels. We also propose improved evaluation strategies with diverse data sets and metrics to assess model performance to new targets better. Using the BindingDB dataset, BALM generalises unseen drugs, scaffolds, and targets. In few-shot scenarios for targets such as\n                  <jats:italic>USP7</jats:italic>\n                  and\n                  <jats:italic>Mpro</jats:italic>\n                  , it outperforms traditional machine learning and docking methods, including AutoDock Vina. Adoption of our target-based evaluation methods will allow a more stringent evaluation of machine learning-based scoring tools. Our protein prediction framework shows good performance, is computationally efficient, and is highly adaptable within this evaluation setting, making it practical for early-stage drug discovery screening.\n                </jats:p>",
+      "DOI": "10.1101/2024.11.01.621495",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2024-11-01T15:45:15Z",
+        "timestamp": 1730475915000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "Learning Binding Affinities via Fine-tuning of Protein and Ligand Language Models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4344-0383",
+          "authenticated-orcid": false,
+          "given": "Rohan",
+          "family": "Gorantla",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-1163-3531",
+          "authenticated-orcid": false,
+          "given": "Aryo Pradipta",
+          "family": "Gema",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-1496-3743",
+          "authenticated-orcid": false,
+          "given": "Ian Xi",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Álvaro",
+          "family": "Serrano-Morrás",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Benjamin",
+          "family": "Suutari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-6774-0515",
+          "authenticated-orcid": false,
+          "given": "Jordi",
+          "family": "Juárez-Jiménez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7512-5252",
+          "authenticated-orcid": false,
+          "given": "Antonia S. J. S.",
+          "family": "Mey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-0917-9"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.pmch.2021.01.004"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature03197"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-33981-8"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.5",
+          "unstructured": "Errington, D. ; Schneider, C. ; Bouysset, C. ; Dreyer, F. A. Assessing interaction recovery of predicted protein-ligand poses. arXiv:2409.20227 2024,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-44208-9"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.7",
+          "first-page": "18378",
+          "article-title": "Best Practices for Alchemical Free Energy Calculations",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Living J. Mol. Sci"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.8",
+          "first-page": "1497",
+          "article-title": "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks",
+          "volume": "4",
+          "year": "2022",
+          "journal-title": "Living J. Mol. Sci"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-05905-z"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grygorenko, O. O. ; Radchenko, D. S. ; Dziuba, I. ; Chuprina, A. ; Gubina, K. E. ; Moroz, Y. S . Generating multibillion chemical space of readily accessible screening compounds. Iscience 2020, 23.",
+          "DOI": "10.1016/j.isci.2020.101873"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-023-00755-3"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, Y. ; Li, S. ; Meng, K. ; Sun, S . Machine Learning for Sequence and Structure-Based Protein–Ligand Interaction Prediction. J. Chem. Inf. Model. 2024,",
+          "DOI": "10.1021/acs.jcim.3c01841"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms22094435"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-39120-1"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-21330-0"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c01052"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.17",
+          "first-page": "100050",
+          "article-title": "Optimizing active learning for free energy calculations",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Artif. Intell. Life Sci"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c00220"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-46569-1"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.2c13467"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sattari, K. ; Li, D. ; Kalita, B. ; Xie, Y. ; Lighvan, F. B. ; Isayev, O. ; Lin, J . De novo molecule design towards biased properties via a deep generative framework and iterative transfer learning. Digit. Discov. 2024,",
+          "DOI": "10.26434/chemrxiv-2023-0zv2f-v2"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c00667"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-37572-z"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00650"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2408431121"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.2c00487"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c01208"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Landrum, G. A. ; Riniker, S . Combining IC50 or K i Values from Different Sources Is a Source of Significant Noise. J. Chem. Inf. Model. 2024,",
+          "DOI": "10.26434/chemrxiv-2024-2smhk"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c00055"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.33",
+          "unstructured": "Ahmad, W. ; Simon, E. ; Chithrananda, S. ; Grand, G. ; Ramsundar, B. Chemberta-2: Towards chemical foundation models. arXiv:2209.01712 2022,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa921"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D0RA02297G"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Luo, D. ; Liu, D. ; Qu, X. ; Dong, L. ; Wang, B . Enhancing Generalizability in Protein– Ligand Binding Affinity Prediction with Multimodal Contrastive Learning. J. Chem. Inf. Model. 2024,",
+          "DOI": "10.1021/acs.jcim.3c01961"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c01753"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2220778120"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1033"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.41",
+          "unstructured": "Han, Z. ; Gao, C. ; Liu, J. ; Zhang, S. Q. Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey. arXiv:2403.14608 2024,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.42",
+          "unstructured": "Xu, L. ; Xie, H. ; Qin, S.-Z. J. ; Tao, X. ; Wang, F. L. Parameter-efficient fine-tuning methods for pretrained language models: A critical review and assessment. arXiv:2312.12148 2023,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c00747"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.44",
+          "unstructured": "Dutt, R. ; Ericsson, L. ; Sanchez, P. ; Tsaftaris, S. A. ; Hospedales, T. Parameter-efficient fine-tuning for medical image analysis: The missed opportunity. arXiv:2305.08252 2023,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gema, A. ; Daines, L. ; Minervini, P. ; Alex, B. Parameter-efficient fine-tuning of llama for the clinical domain. arXiv:2307.03042 2023,",
+          "DOI": "10.18653/v1/2024.clinicalnlp-1.9"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gema, A. P. ; Hong, G. ; Minervini, P. ; Daines, L. ; Alex, B . Edinburgh Clinical NLP at SemEval-2024 Task 2: Fine-tune your model unless you have access to GPT-4. arXiv:2404.00484 2024,",
+          "DOI": "10.18653/v1/2024.semeval-1.265"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1072"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.48",
+          "unstructured": "Huang, K. ; Fu, T. ; Gao, W. ; Zhao, Y. ; Roohani, Y. ; Leskovec, J. ; Coley, C. W. ; Xiao, C. ; Sun, J. ; Zitnik, M . Therapeutics data commons: Machine learning datasets and tasks for drug discovery and development. arXiv:2102.09548 2021,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/biomet/10.4.507"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-022-00675-8"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.51",
+          "unstructured": "Achdout, H. ; Aimon, A. ; Bar-David, E. ; Morris, G . COVID moonshot: open science discovery of SARS-CoV-2 main protease inhibitors by combining crowdsourcing, highthroughput experiments, computational simulations, and machine learning. BioRxiv 2020,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abo7201"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003571"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.55",
+          "unstructured": "Li, J. ; Guan, X. ; Zhang, O. ; Sun, K. ; Wang, Y. ; Bagni, D. ; Head-Gordon, T . Leak Proof PDBBind: A Reorganized Dataset of Protein-Ligand Complexes for More Generalizable Binding Affinity Prediction. arXiv:2308.09639 2023,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm9602928"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-019-0407-y"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.1c00022"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu626"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.13959654"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.63",
+          "unstructured": ") Corso, G. ; Stärk, H. ; Jing, B. ; Barzilay, R. ; Jaakkola, T. Diffdock: Diffusion steps, twists, and turns for molecular docking. arXiv:2210.01776 2022,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.64",
+          "unstructured": "Jain, A. N. ; Cleves, A. E. ; Walters, W. P. Deep-Learning Based Docking Methods: Fair Comparisons to Conventional Docking Workflows. arXiv:2412.02889 2024,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.65",
+          "unstructured": "Devlin, J. ; Chang, M.-W. ; Lee, K. ; Toutanova, K . Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv:1810.04805 2018,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.66",
+          "unstructured": "Liu, Y. ; Ott, M. ; Goyal, N. ; Du, J. ; Joshi, M. ; Chen, D. ; Levy, O. ; Lewis, M. ; Zettlemoyer, L. ; Stoyanov, V. Roberta: A robustly optimized bert pretraining approach. arXiv:1907.11692 2019,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wolf, T. ; Debut, L. ; Sanh, V. ; Chaumond, J. ; Delangue, C. ; Moi, A. ; Cistac, P. ; Rault, T. ; Louf, R. ; Funtowicz, M .; others Huggingface’s transformers: State-of-the-art natural language processing. arXiv:1910.03771 2019,",
+          "DOI": "10.18653/v1/2020.emnlp-demos.6"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.68",
+          "unstructured": "Hu, E. J. ; Shen, Y. ; Wallis, P. ; Allen-Zhu, Z. ; Li, Y. ; Wang, S. ; Wang, L. ; Chen, W. Lora: Low-rank adaptation of large language models. arXiv:2106.09685 2021,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.69",
+          "unstructured": "Yeh, S.-Y. ; Hsieh, Y.-G. ; Gao, Z. ; Yang, B. B. ; Oh, G. ; Gong, Y. Navigating text-to-image customization: From lycoris fine-tuning to model evaluation. arXiv:2309.14859 2023,"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, X. ; Li, C. ; Zhang, P. ; Yang, J. ; Wang, X. E . Parameter-Efficient Model Adaptation for Vision Transformers. Thirty-Seventh AAAI Conference on Artificial Intelligence, AAAI 2023, Thirty-Fifth Conference on Innovative Applications of Artificial Intelligence, IAAI 2023, Thirteenth Symposium on Educational Advances in Artificial Intelligence, EAAI 2023, Washington, DC, USA, February 7-14, 2023. 2023; pp 817–825.",
+          "DOI": "10.1609/aaai.v37i1.25160"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.71",
+          "first-page": "1950",
+          "article-title": "Few-shot parameter-efficient fine-tuning is better and cheaper than in-context learning",
+          "volume": "35",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.72",
+          "unstructured": "Mangrulkar, S. ; Gugger, S. ; Debut, L. ; Belkada, Y. ; Paul, S. ; Bossan, B. PEFT: State-of-the-art Parameter-Efficient Fine-Tuning methods. https://github.com/huggingface/peft, 2022."
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Joeres, R. ; Blumenthal, D. B. ; Kalinina, O. V . DataSAIL: Data Splitting Against Information Leakage. bioRxiv 2023, 2023–11.",
+          "DOI": "10.1101/2023.11.15.566305"
+        },
+        {
+          "key": "2025040203501140000_2024.11.01.621495v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1075"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.01.621495",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T04:58:57Z",
+        "timestamp": 1782277137000
+      },
+      "score": 95.980606,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.01.621495"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            1
+          ]
+        ]
+      },
+      "references-count": 74,
+      "URL": "https://doi.org/10.1101/2024.11.01.621495",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.5c02063",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

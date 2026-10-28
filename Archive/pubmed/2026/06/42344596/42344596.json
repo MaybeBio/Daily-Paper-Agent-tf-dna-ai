@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "42344596",
+    "doi": "10.1021/envhealth.5c00623",
+    "title": "AI-Enabled Mapping of Structure-Hazard Relationships for Emerging Contaminants."
+  },
+  "content": {
+    "abstract": "Emerging contaminant hazards are widespread, yet evidence is fragmented across the literature, registries, inventories, and bioassays. This study presents an integrated, reproducible framework that aligns literature-derived signals with molecular structure and regulatory hazard dimensions within a persistence, bioaccumulation, mobility, and toxicity (PBMT) lens. A task-tuned large language model extracted 21,277 mentions from 9,557 publications; harmonization across CompTox, PubChem, and Wikipedia yielded 1,081 unique candidates with 94.6% name consistency against 17 inventories. The landscape shows abundant toxicity information but limited mobility data. Structure profiling identified a recurring motifan aromatic core with branched alkyl substituents and oxygenated groupsand directional associations with composite hazard (positive for halogenation and negative for several oxygenated groups). To extend pathway inference to list-naive chemicals, AutoGluon models trained on Tox21/ToxCast were applied to 49 additional candidates. This produced end-point-level predictions concentrated at the protein-function level (receptors, enzymes, transcription factors), which is operationally useful for prioritization. Combining model scores with PBMT evidence density yielded an auditable prioritization, highlighting where mobility measurements and focused assays would most increase confidence. The framework links textual, structural, regulatory, and predictive streams to enable rapid screening, targeted data acquisition, safer substitution, and adaptive regulatory updating.",
+    "keywords": [
+      "Emerging contaminants",
+      "Large language models",
+      "Machine learning",
+      "Pathway activity",
+      "Registry harmonization"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shuo",
+        "Guo, Jun",
+        "Qian, Yunkun",
+        "Mao, Mengjun",
+        "An, Dong"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Guo J",
+        "Qian Y",
+        "Mao M",
+        "An D"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-6281-0017",
+        "ORCID: 0009-0005-1351-4072",
+        "ORCID: 0009-0003-4941-7157"
+      ],
+      "affiliations": [
+        "Department of Environmental Science & Engineering, Fudan University, Shanghai 200238, China. RINGGOLD: 12478",
+        "Department of Environmental Science & Engineering, Fudan University, Shanghai 200238, China. RINGGOLD: 12478",
+        "College of Environmental Science & Engineering, DongHua University, Shanghai 200051, China. RINGGOLD: 630288",
+        "Department of Environmental Science & Engineering, Fudan University, Shanghai 200238, China. RINGGOLD: 12478",
+        "Department of Environmental Science & Engineering, Fudan University, Shanghai 200238, China. RINGGOLD: 12478",
+        "Shanghai Institute of Pollution Control and Ecological Security, Shanghai 200092, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shuo",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0009-0003-6281-0017"
+        ],
+        "affiliations": [
+          "Department of Environmental Science & Engineering, Fudan University, Shanghai 200238, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jun",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Science & Engineering, Fudan University, Shanghai 200238, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Yunkun",
+        "short_name": "Qian Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Environmental Science & Engineering, DongHua University, Shanghai 200051, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Mengjun",
+        "short_name": "Mao M",
+        "identifiers": [
+          "0009-0005-1351-4072"
+        ],
+        "affiliations": [
+          "Department of Environmental Science & Engineering, Fudan University, Shanghai 200238, China."
+        ]
+      },
+      {
+        "full_name": "An, Dong",
+        "short_name": "An D",
+        "identifiers": [
+          "0009-0003-4941-7157"
+        ],
+        "affiliations": [
+          "Department of Environmental Science & Engineering, Fudan University, Shanghai 200238, China.",
+          "Shanghai Institute of Pollution Control and Ecological Security, Shanghai 200092, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environment & health (Washington, D.C.)"
+    ],
+    "journal_abbrev": [
+      "Environ Health (Wash)"
+    ],
+    "pub_date": "2026 Jun 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/25 06:36",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38440973",
+      "36348954",
+      "36334658",
+      "36284750",
+      "34529432",
+      "33602839",
+      "33439834",
+      "33251791",
+      "33170664",
+      "31974244",
+      "31968937",
+      "30345409",
+      "28837116",
+      "28759717",
+      "27669338",
+      "27367298",
+      "25965372",
+      "25700118",
+      "25592418",
+      "23603828",
+      "23317040",
+      "21948594",
+      "18689050",
+      "12387389",
+      "11515286"
+    ],
+    "similar": [
+      "42344596",
+      "42475469",
+      "42208378",
+      "40971996",
+      "36321557",
+      "41310253",
+      "26921826",
+      "39150724",
+      "24279462",
+      "26969370",
+      "38873396",
+      "41707398",
+      "38694816",
+      "41857685",
+      "35921976",
+      "42167017",
+      "39680085",
+      "41292755",
+      "38043899",
+      "41887802",
+      "11809004",
+      "36969097",
+      "33036834",
+      "42525653",
+      "36224709",
+      "42536998",
+      "38979646",
+      "42166724",
+      "37193773",
+      "41954410",
+      "42044246",
+      "27367298",
+      "32077278",
+      "26811972",
+      "40561684",
+      "40739978",
+      "28866267",
+      "41780317",
+      "23820191",
+      "37399585",
+      "30649495",
+      "36106702",
+      "32074470",
+      "41899588",
+      "42093179",
+      "42192906",
+      "31471948",
+      "29793188",
+      "42160769",
+      "41912385",
+      "42085702",
+      "34818430",
+      "40387332",
+      "41789594",
+      "41961390",
+      "36779220",
+      "32374859",
+      "42398277",
+      "39853006",
+      "33426407",
+      "19479008",
+      "41880451",
+      "41477931",
+      "41576773",
+      "42525208",
+      "41975285",
+      "41973763",
+      "41453047",
+      "32030360",
+      "42354470",
+      "39891244",
+      "42502780",
+      "41848202",
+      "40144871",
+      "32040188",
+      "41253255",
+      "42245005",
+      "27568576",
+      "15597890",
+      "42277147",
+      "35533074",
+      "42375191",
+      "38048895",
+      "42172616",
+      "41448018",
+      "36435938",
+      "37490521",
+      "26812473",
+      "40366647",
+      "42583211",
+      "41631896",
+      "42451574",
+      "41801982",
+      "41861871",
+      "27311474",
+      "41959814",
+      "41071041",
+      "42308851",
+      "41710521",
+      "37277872"
+    ],
+    "review": [
+      "42344596",
+      "42208378",
+      "36321557",
+      "39150724",
+      "38873396",
+      "35921976",
+      "11809004",
+      "36969097",
+      "36106702",
+      "42192906",
+      "41912385",
+      "42398277",
+      "19479008",
+      "42354470",
+      "42502780",
+      "41848202",
+      "35533074",
+      "36435938"
+    ],
+    "pmc": [
+      "13288229"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42344596/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ehnea2/article-lookup/doi/10.1021/envhealth.5c00623",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

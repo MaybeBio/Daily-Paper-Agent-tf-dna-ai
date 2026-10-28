@@ -1,0 +1,180 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2022-l69v9",
+  "title": "Comparing the performance of different AMBER protein forcefields, partial charge assignments, and water models for absolute binding free energy calculations",
+  "doi": "10.26434/chemrxiv-2022-l69v9",
+  "abstract": "Identifying chemical starting points is a vital first step in small molecule drug discovery and can take significant time and money. For this reason, computational approaches to virtual screening are of great interest as they can lower cost and shorten timeframes. However, simple approaches such as molecular docking and pharmacophore screening are of limited accuracy and provide a low probability of success. Alchemical binding free energies represent a promising approach for virtual screening as they naturally incorporate the key effects of water molecules, protein flexibility, and binding entropy. However, the calculations are technically very challenging, with performance depending on the specific forcefield used. For this reason, it is important that the community has access to benchmark test sets to assess prediction accuracy. In this paper we present an approach to alchemical binding free energies using OpenMM. We identify effective simulation parameters using an existing BRD4(1) test set and present two new benchmark sets (cMET and PDE2A) that can be used in the community for validation purposes. Our findings also highlight the effectiveness of some AMBER forcefields, in particular AMBER ff15ipq.",
+  "authors": [
+    "David Huggins"
+  ],
+  "published_date": "2022-01-31",
+  "updated_date": "2022-01-31T07:59:26Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2022-l69v9",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-l69v9",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "9",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:08:09Z",
+        "timestamp": 1785424089042,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            31
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                31
+              ]
+            ],
+            "date-time": "2022-01-31T00:00:00Z",
+            "timestamp": 1643587200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Identifying chemical starting points is a vital first step in small molecule drug discovery and can take significant time and money. For this reason, computational approaches to virtual screening are of great interest as they can lower cost and shorten timeframes. However, simple approaches such as molecular docking and pharmacophore screening are of limited accuracy and provide a low probability of success. Alchemical binding free energies represent a promising approach for virtual screening as they naturally incorporate the key effects of water molecules, protein flexibility, and binding entropy. However, the calculations are technically very challenging, with performance depending on the specific forcefield used. For this reason, it is important that the community has access to benchmark test sets to assess prediction accuracy. In this paper we present an approach to alchemical binding free energies using OpenMM. We identify effective simulation parameters using an existing BRD4(1) test set and present two new benchmark sets (cMET and PDE2A) that can be used in the community for validation purposes. Our findings also highlight the effectiveness of some AMBER forcefields, in particular AMBER ff15ipq.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2022-l69v9",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            31
+          ]
+        ],
+        "date-time": "2022-01-31T07:59:26Z",
+        "timestamp": 1643615966000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Comparing the performance of different AMBER protein forcefields, partial charge assignments, and water models for absolute binding free energy calculations"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1579-2496",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Huggins",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02r109517",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Weill Cornell Medicine",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-l69v9",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:47:55Z",
+        "timestamp": 1778752075000
+      },
+      "score": 96.53009,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2022-l69v9"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            31
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2022-l69v9",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.1c01208",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            31
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

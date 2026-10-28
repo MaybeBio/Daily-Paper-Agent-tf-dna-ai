@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "37833852",
+    "doi": "10.1111/liv.15756",
+    "title": "Identification and validation of microtubule depolymerizing agent, CYT997, as a potential drug candidate for hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIMS: Hepatocellular carcinoma (HCC) is a typically fatal malignancy with limited treatment options and poor survival rates, despite recent FDA approvals of newer treatment options. We aim to address this unmet need by using a proprietary computational drug discovery platform that identifies drug candidates with the potential to advance rapidly and successfully through preclinical studies. METHODS: We generated an in silico model of HCC biology to identify the top 10 small molecules with predicted efficacy. The most promising candidate, CYT997, was tested for its in vitro effects on cell viability and cell death, colony formation, cell cycle changes, and cell migration/invasion in HCC cells. We used an HCC patient-derived xenograft (PDX) mouse model to assess its in vivo efficacy. RESULTS: CYT997 was significantly more cytotoxic against HCC cells than against primary human hepatocytes, and sensitized HCC cells to sorafenib. It arrested cell cycle at the G2/M phase with associated up-regulations of p21, p-MEK1/2, p-ERK, and down-regulation of cyclin B1. Cell apoptosis and senescence-like morphology were also observed. CYT997 inhibited HCC cell migration and invasion, and down-regulated the expressions of acetylated tubulins, beta-tubulin, glypican-3 (GPC3), beta-catenin, and c-Myc. In vivo, CYT997 (20 mg/kg, three times weekly by oral gavage) significantly inhibited PDX growth, while being non-toxic to mice. Immunohistochemistry confirmed the down-regulation of GPC3, c-Myc, and Ki-67, supporting its anti-proliferative effect. CONCLUSION: CYT997 is a potentially efficacious and non-toxic drug candidate for HCC therapy. Its ability to down-regulate GPC3, beta-catenin, and c-Myc highlights a novel mechanism of action.",
+    "keywords": [
+      "CYT997",
+      "artificial intelligence",
+      "glypican-3",
+      "hepatocellular carcinoma",
+      "microtubule-binding agent"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Mice",
+      "Animals",
+      "*Carcinoma, Hepatocellular/pathology",
+      "beta Catenin/metabolism",
+      "*Liver Neoplasms/pathology",
+      "Apoptosis",
+      "Microtubules/metabolism/pathology",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Glypicans",
+      "Pyridines",
+      "Pyrimidines"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ahmad, Faiz",
+        "Ma, Li",
+        "Wei, Wei",
+        "Liu, Yi",
+        "Hakim, Isaac",
+        "Daugherty, Aaron",
+        "Mujahid, Sana",
+        "Radin, Andrew A",
+        "Chua, Mei-Sze",
+        "So, Samuel"
+      ],
+      "short_names": [
+        "Ahmad F",
+        "Ma L",
+        "Wei W",
+        "Liu Y",
+        "Hakim I",
+        "Daugherty A",
+        "Mujahid S",
+        "Radin AA",
+        "Chua MS",
+        "So S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3282-4894"
+      ],
+      "affiliations": [
+        "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA.",
+        "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA.",
+        "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA.",
+        "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA.",
+        "Aria Pharmaceuticals, Palo Alto, California, USA.",
+        "Aria Pharmaceuticals, Palo Alto, California, USA.",
+        "Aria Pharmaceuticals, Palo Alto, California, USA.",
+        "Aria Pharmaceuticals, Palo Alto, California, USA.",
+        "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA.",
+        "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ahmad, Faiz",
+        "short_name": "Ahmad F",
+        "identifiers": [],
+        "affiliations": [
+          "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Li",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA."
+        ]
+      },
+      {
+        "full_name": "Wei, Wei",
+        "short_name": "Wei W",
+        "identifiers": [],
+        "affiliations": [
+          "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Yi",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA."
+        ]
+      },
+      {
+        "full_name": "Hakim, Isaac",
+        "short_name": "Hakim I",
+        "identifiers": [],
+        "affiliations": [
+          "Aria Pharmaceuticals, Palo Alto, California, USA."
+        ]
+      },
+      {
+        "full_name": "Daugherty, Aaron",
+        "short_name": "Daugherty A",
+        "identifiers": [],
+        "affiliations": [
+          "Aria Pharmaceuticals, Palo Alto, California, USA."
+        ]
+      },
+      {
+        "full_name": "Mujahid, Sana",
+        "short_name": "Mujahid S",
+        "identifiers": [],
+        "affiliations": [
+          "Aria Pharmaceuticals, Palo Alto, California, USA."
+        ]
+      },
+      {
+        "full_name": "Radin, Andrew A",
+        "short_name": "Radin AA",
+        "identifiers": [],
+        "affiliations": [
+          "Aria Pharmaceuticals, Palo Alto, California, USA."
+        ]
+      },
+      {
+        "full_name": "Chua, Mei-Sze",
+        "short_name": "Chua MS",
+        "identifiers": [
+          "0000-0002-3282-4894"
+        ],
+        "affiliations": [
+          "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA."
+        ]
+      },
+      {
+        "full_name": "So, Samuel",
+        "short_name": "So S",
+        "identifiers": [],
+        "affiliations": [
+          "Asian Liver Center, Department of Surgery, School of Medicine, Stanford, California, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Liver international : official journal of the International Association for the Study of the Liver"
+    ],
+    "journal_abbrev": [
+      "Liver Int"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/14 10:45",
+    "fetched_at": "2026-09-29 08:36:35"
+  },
+  "links": {
+    "cites": [
+      "41409729",
+      "40387157"
+    ],
+    "refs": [
+      "36303795",
+      "34902530",
+      "34593441",
+      "34017223",
+      "33811123",
+      "33608500",
+      "33538338",
+      "33512817",
+      "32759730",
+      "32576206",
+      "32414588",
+      "31934276",
+      "31801986",
+      "31745082",
+      "31585985",
+      "31456142",
+      "31295321",
+      "30981109",
+      "30970190",
+      "30943338",
+      "30704503",
+      "30022281",
+      "29550732",
+      "29221200",
+      "28677634",
+      "28606127",
+      "28286417",
+      "27646271",
+      "26462166",
+      "26227334",
+      "25921660",
+      "25564883",
+      "25051375",
+      "24501087",
+      "24137178",
+      "24097348",
+      "22706665",
+      "22563565",
+      "22496421",
+      "22451157",
+      "20733579",
+      "19907921",
+      "19887548",
+      "19496787",
+      "17112607",
+      "14973078",
+      "12851874",
+      "12700769",
+      "11821415",
+      "10884385"
+    ],
+    "similar": [
+      "37833852",
+      "30001951",
+      "28284560",
+      "29204978",
+      "31104336",
+      "30415263",
+      "21847365",
+      "26332121",
+      "38081444",
+      "40615101",
+      "24492943",
+      "30573358",
+      "32576206",
+      "31319849",
+      "38584523",
+      "19662654",
+      "27090017",
+      "31541681",
+      "33903122",
+      "31612616",
+      "27573079",
+      "40593458",
+      "20725905",
+      "27614046",
+      "39427522",
+      "39841705",
+      "31538425",
+      "31691159",
+      "22865282",
+      "19778454",
+      "25572615",
+      "37853185",
+      "31147216",
+      "25939253",
+      "21917561",
+      "33833049",
+      "30963603",
+      "36059488",
+      "40574860",
+      "30678274",
+      "21617840",
+      "31160489",
+      "32623699",
+      "29445127",
+      "31044341",
+      "27431312",
+      "41299678",
+      "40814770",
+      "29484394",
+      "33225417",
+      "30610799",
+      "35345321",
+      "26458953",
+      "22187171",
+      "41238805",
+      "37246830",
+      "26541651",
+      "27862961",
+      "23483729",
+      "30672133",
+      "28241806",
+      "32060001",
+      "22706665",
+      "28606127",
+      "32631394",
+      "23284640",
+      "39018766",
+      "25270552",
+      "34370992",
+      "25328135",
+      "41168860",
+      "26850086",
+      "32993568",
+      "38012711",
+      "26975630",
+      "30248355",
+      "30450674",
+      "39879230",
+      "37934581",
+      "33407720",
+      "30981107",
+      "36158256",
+      "23060277",
+      "25320357",
+      "28087980",
+      "29345911",
+      "29439259",
+      "30770740",
+      "31666238",
+      "21314951",
+      "39396988",
+      "24439425",
+      "29898761",
+      "34077738",
+      "24137178",
+      "39757079",
+      "27449032",
+      "18318435",
+      "20653060",
+      "40883023"
+    ],
+    "review": [
+      "37833852"
+    ],
+    "pmc": [
+      "12330989"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/37833852.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37833852/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/liv.15756",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-808",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

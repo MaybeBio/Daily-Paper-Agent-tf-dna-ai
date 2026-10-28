@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, methods, results, discussion, supplementary data references) provided as preprint submission
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors propose that the histone variant H2A.Z enhances binding of pioneer transcription factors Sox2 and Oct4 to nucleosomes by increasing DNA unwrapping and mobility, altering H3 N-terminal tail dynamics, and reducing H3 tail-DNA competition, in a DNA sequence-dependent manner
+- **Visible evidence base** EMSA binding assays, ExoIII nuclease digestion, restriction enzyme accessibility, FRET, NMR spectroscopy (1H-15N HSQC), MD simulations (1 µs, three replicas per system), targeted histone mutants (H3 R49A, H3 R83A, H2A/H2A.Z chimeras)
+- **Missing materials affecting confidence** Full methods details for MD simulation analysis (RMSF calculation specifics, contact definitions), NMR assignment validation details, raw gel images, complete statistical reporting for all comparisons, details on the "CtoS" Oct4 mutant validation, and supplementary figures referenced but not fully described in the text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a multi-technique investigation into how H2A.Z modulates nucleosome dynamics to facilitate Sox2 and Oct4 binding. The integration of biochemical, biophysical, and computational approaches is commendable and the work addresses an important question in chromatin biology. However, several claims regarding the mechanistic link between H2A.Z-induced dynamics and enhanced pioneer factor binding are not fully supported by the presented evidence. The correlative nature of some key findings, particularly the connection between H3 tail dynamics and Sox2 binding affinity, requires additional experimental validation. The manuscript would benefit from clearer presentation of quantitative data and more rigorous statistical treatment of the MD simulation results.
+- **Who would be interested in the results, and why** Researchers studying chromatin structure and dynamics, pioneer transcription factor biology, epigenetic regulation, and nucleosome remodeling. The work is also relevant to those interested in histone variants and their role in genome regulation, as well as computational biologists studying nucleosome dynamics through MD simulations.
+- **Major strengths** The multi-technique approach provides complementary views of nucleosome dynamics. The use of multiple nucleosome sequences (601, LinH2B) and positions (SHL2, 5, 6) strengthens the generalizability of the findings. The combination of NMR and MD simulations to probe H3 tail dynamics is particularly powerful. The targeted mutagenesis approach (H3 R49A, R83A, H2A/H2A.Z chimeras) provides mechanistic insight into specific structural contributions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim that H2A.Z enhances Sox2 and Oct4 binding to nucleosomes, and that this is due to increased DNA unwrapping and altered H3 tail dynamics
+  - **Evidence pointer** Figure 5, Figure 6, Figure 7, Figure 8
+  - **Concern** The EMSA data presented in Figure 5 show enhanced Sox2 binding to H2A.Z nucleosomes, but the quantitative extent of this enhancement and its statistical significance are not clearly reported. The authors do not provide binding affinities (Kd values) or a rigorous quantitative comparison across conditions. Furthermore, the claim that enhanced binding is mechanistically linked to H3 tail displacement is based on correlative NMR and MD data, but no direct experiment (e.g., using H3 tail truncations or mutations that prevent tail-DNA interactions) is presented to establish causality.
+  - **Why it matters** The central thesis of the manuscript is that H2A.Z facilitates pioneer factor binding through specific dynamic changes. Without direct evidence linking the observed dynamic changes to binding affinity, the mechanistic claim remains speculative. The field requires quantitative binding data to assess the biological significance of the observed effects.
+  - **Resolution test** Provide quantitative binding affinities (Kd) for Sox2 and Oct4 binding to H2A versus H2A.Z nucleosomes with appropriate statistical analysis. Include experiments with H3 tail mutants (e.g., truncations or charge-neutralizing mutations) to directly test whether H3 tail displacement is required for enhanced Sox2 binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical rigor
+  - **Claim pointer** The authors claim that MD simulations reveal increased DNA unwrapping, inter-gyre spacing, and H3 tail flexibility in H2A.Z nucleosomes
+  - **Evidence pointer** Figure 2, Figure 4, Figure 9, Supplementary Figures S6-S10
+  - **Concern** The MD simulation analysis lacks sufficient detail on how key quantities were computed. The definition of "inter-gyre spacing" is not provided, and the method for calculating RMSF values is not fully described. More critically, the authors do not report error bars or statistical significance for the differences between H2A and H2A.Z systems across the three replicas. The claim of "increased" flexibility or "reduced" contacts is not supported by quantitative comparison with uncertainty estimates.
+  - **Why it matters** MD simulations are inherently stochastic and require careful statistical treatment to draw reliable conclusions. Without proper error analysis, the reader cannot assess whether the observed differences between H2A and H2A.Z systems are robust or within simulation noise. This undermines confidence in the mechanistic conclusions drawn from the simulations.
+  - **Resolution test** Provide detailed methods for all MD analysis metrics, including definitions of inter-gyre spacing and contact criteria. Report mean ± standard deviation or standard error across replicas for all key quantities, with appropriate statistical tests (e.g., block averaging, bootstrap) to establish significance of differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors state that "Sox2 more strongly perturbs the H2A C-terminal tail than for H2A.Z" and interpret this as evidence for distinct binding modes
+  - **Evidence pointer** Figure 8, Figure S16
+  - **Concern** The NMR data for H2A.Z C-terminal tail assignments are described as "partially confirmed" and some assignments are "guessed based on characteristic chemical shifts." This level of assignment confidence is insufficient to support the detailed mechanistic interpretation presented. The differential perturbation of H2A versus H2A.Z C-tails could reflect differences in assignment confidence rather than genuine biophysical differences.
+  - **Why it matters** The interpretation of differential C-tail responses to Sox2 binding is used to support a model of distinct binding modes. If the assignments are unreliable, this conclusion is not supported. The field requires high-confidence assignments for meaningful interpretation of NMR perturbation data.
+  - **Resolution test** Provide complete NMR assignment validation for H2A.Z, including triple-resonance experiments for unambiguous backbone assignments, or clearly state the limitations of the current assignments and temper the mechanistic conclusions accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that their findings have "broad implications for epigenetic regulation and chromatin recognition"
+  - **Evidence pointer** Discussion section
+  - **Concern** The study uses a limited set of nucleosome sequences (601, LinH2B) and a single Sox2-Oct4 composite motif context. The claim of broad implications is not supported by the scope of the experimental system. The authors do not test whether the observed effects are specific to the sequences used or generalizable to other nucleosome contexts.
+  - **Why it matters** The biological significance of the findings depends on their generalizability. If the effects are specific to the sequences tested, the implications for epigenetic regulation are more limited. The field would benefit from testing additional sequences or contexts to establish the breadth of the phenomenon.
+  - **Resolution test** Include additional nucleosome sequences or genomic contexts to test the generality of the findings, or temper the claims of broad implications to reflect the specific systems studied.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, NMR spectroscopy
+  - **Evidence pointer** Methods, NMR spectroscopy subsection
+  - **Issue** The NMR sample preparation describes concentrations of ~10-20 µM, but the text later states "Low sample concentrations here prevented reliable NMR relaxation measurements." The concentration range seems adequate for standard HSQC experiments, and the limitation statement is vague.
+  - **Required correction** Clarify the specific concentration limitations and why relaxation measurements were not feasible at these concentrations. Provide exact concentrations used for each experiment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, EMSA and nuclease assays
+  - **Evidence pointer** Figure 5, Figure 6, Figure S12
+  - **Issue** The number of independent replicates for EMSA experiments is not clearly stated. The methods mention "3-4 independent experiments" for some assays, but this is not consistently reported for all figures.
+  - **Required correction** Clearly state the number of independent replicates for each experiment in the figure legends and ensure consistency with the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, MD simulations
+  - **Evidence pointer** Figure 2, Figure 4
+  - **Issue** The MD simulation figures would benefit from showing representative snapshots or trajectories to illustrate the described conformational changes, rather than only quantitative metrics.
+  - **Required correction** Include representative structural snapshots from the simulations to visually support the described dynamic differences between H2A and H2A.Z systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, LinH2B experiments
+  - **Evidence pointer** Figure 6, Figure S13
+  - **Issue** The LinH2B nucleosome experiments are described as having a "minor second population (~17%)" in the nucleosome preparation. The potential impact of this heterogeneity on the binding and nuclease assays is not discussed.
+  - **Required correction** Address whether the minor population could affect the interpretation of the LinH2B results, or provide additional purification to reduce heterogeneity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of H2A.Z effects on nucleosome stability and dynamics could benefit from more direct comparison with conflicting reports in the literature regarding whether H2A.Z stabilizes or destabilizes nucleosomes.
+  - **Required correction** Add a more nuanced discussion of the literature, acknowledging the context-dependence of H2A.Z effects on nucleosome stability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative binding data and causal link), R1-M2 (MD simulation statistical rigor), R1-M3 (NMR assignment confidence)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work addresses a question of significant interest, and the specific focus on H3 tail dynamics as a mediator of H2A.Z effects on pioneer factor binding is a novel angle. However, the overall concept that H2A.Z destabilizes nucleosomes to promote factor binding is not entirely new.
+  - Scientific importance: The question of how histone variants modulate pioneer factor engagement is of high importance for understanding chromatin regulation and cell fate decisions. The potential implications for epigenetic regulation are significant.
+  - Interdisciplinary readership: The work bridges biochemistry, biophysics, and computational biology, and would appeal to a broad readership in chromatin biology, transcription regulation, and structural biology.
+  - Technical soundness: The multi-technique approach is a strength, but the lack of quantitative binding data and incomplete statistical treatment of MD simulations are significant weaknesses that need to be addressed.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections, particularly the MD simulation results, could be clearer for readers without computational expertise.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a sophisticated multi-technique approach, but the central mechanistic claim requires stronger quantitative support and more rigorous statistical treatment of the computational data.
+
+## Risk / unsupported claims
+- The claim that H2A.Z enhances Sox2 and Oct4 binding is supported by EMSA data, but quantitative binding affinities are not provided, making the magnitude of the effect unclear
+- The mechanistic link between H3 tail displacement and enhanced Sox2 binding is correlative and not directly tested
+- The claim that H2A.Z effects are DNA sequence-dependent is supported by comparisons between 601 and LinH2B, but the limited sequence sampling makes the generality of this claim uncertain
+- The interpretation of differential H2A versus H2A.Z C-tail responses to Sox2 binding is based on partially confirmed NMR assignments and should be treated with caution
+- The claim of "broad implications for epigenetic regulation" is not supported by the limited experimental system tested

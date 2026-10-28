@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "39090226",
+    "doi": "10.1038/s41598-024-68439-y",
+    "title": "Z-DNA formation in promoters conserved between human and mouse are associated with increased transcription reinitiation rates."
+  },
+  "content": {
+    "abstract": "A long-standing question concerns the role of Z-DNA in transcription. Here we use a deep learning approach DeepZ that predicts Z-flipons based on DNA sequence, structural properties of nucleotides and omics data. We examined Z-flipons that are conserved between human and mouse genomes after generating whole-genome Z-flipon maps and then validated them by orthogonal approaches based on high resolution chemical mapping of Z-DNA and the transformer algorithm Z-DNABERT. For human and mouse, we revealed similar pattern of transcription factors, chromatin remodelers, and histone marks associated with conserved Z-flipons. We found significant enrichment of Z-flipons in alternative and bidirectional promoters associated with neurogenesis genes. We show that conserved Z-flipons are associated with increased experimentally determined transcription reinitiation rates compared to promoters without Z-flipons, but without affecting elongation or pausing. Our findings support a model where Z-flipons engage Transcription Factor E and impact phenotype by enabling the reset of preinitiation complexes when active, and the suppression of gene expression when engaged by repressive chromatin complexes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Promoter Regions, Genetic",
+      "*DNA/genetics/metabolism",
+      "Transcription, Genetic",
+      "Transcription Factors/metabolism/genetics",
+      "Chromatin Assembly and Disassembly",
+      "Transcription Initiation, Genetic",
+      "Chromatin/genetics/metabolism",
+      "Deep Learning",
+      "Conserved Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Beknazarov, Nazar",
+        "Konovalov, Dmitry",
+        "Herbert, Alan",
+        "Poptsova, Maria"
+      ],
+      "short_names": [
+        "Beknazarov N",
+        "Konovalov D",
+        "Herbert A",
+        "Poptsova M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Bioinformatics, Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia.",
+        "Laboratory of Bioinformatics, Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia.",
+        "Laboratory of Bioinformatics, Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia. alan.herbert@insideoutbio.com.",
+        "InsideOutBio, Charlestown, MA, USA. alan.herbert@insideoutbio.com.",
+        "Laboratory of Bioinformatics, Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia. mpoptsova@hse.ru."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Beknazarov, Nazar",
+        "short_name": "Beknazarov N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Konovalov, Dmitry",
+        "short_name": "Konovalov D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Herbert, Alan",
+        "short_name": "Herbert A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia. alan.herbert@insideoutbio.com.",
+          "InsideOutBio, Charlestown, MA, USA. alan.herbert@insideoutbio.com."
+        ]
+      },
+      {
+        "full_name": "Poptsova, Maria",
+        "short_name": "Poptsova M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia. mpoptsova@hse.ru."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Aug 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/02 00:46",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42591932",
+      "42539132",
+      "42478380",
+      "41761907",
+      "41665007",
+      "41516148",
+      "41509384",
+      "41279030",
+      "41119994",
+      "40803946",
+      "40603503",
+      "40141064",
+      "40134357",
+      "40131556",
+      "39408629"
+    ],
+    "refs": [
+      "39092141",
+      "37544644",
+      "37164635",
+      "36902315",
+      "36317523",
+      "35725906",
+      "35614224",
+      "35573091",
+      "35325188",
+      "34688984",
+      "34525338",
+      "33199519",
+      "33154517",
+      "32742689",
+      "32690316",
+      "32367065",
+      "32251394",
+      "32200799",
+      "31668857",
+      "31249361",
+      "31174840",
+      "30729177",
+      "30357393",
+      "28994650",
+      "28856239",
+      "28716805",
+      "28237796",
+      "28190458",
+      "27819682",
+      "27819681",
+      "27374614",
+      "27107643",
+      "26842758",
+      "24813121",
+      "23571756",
+      "23283962",
+      "22423968",
+      "22264354",
+      "19590578",
+      "19276205",
+      "19066276",
+      "18941233",
+      "17618271",
+      "17284586",
+      "16923960",
+      "16537901",
+      "16344560",
+      "15598822",
+      "11509180",
+      "8811192",
+      "8603674",
+      "6383204",
+      "3780676",
+      "3656447",
+      "2823250",
+      "1601856",
+      "1330542"
+    ],
+    "similar": [
+      "39090226",
+      "37544644",
+      "36902315",
+      "36317523",
+      "37164635",
+      "32742689",
+      "16537901",
+      "22223048",
+      "24727477",
+      "36892770",
+      "38810649",
+      "34273410",
+      "24275614",
+      "39408629",
+      "21705643",
+      "39092141",
+      "24244184",
+      "29716520",
+      "30461303",
+      "24637397",
+      "33010306",
+      "27429206",
+      "23468649",
+      "35474148",
+      "21290820",
+      "18075583",
+      "25959393",
+      "23667505",
+      "27046080",
+      "19940112",
+      "26952936",
+      "29030344",
+      "29284524",
+      "16002433",
+      "12596908",
+      "34320189",
+      "17101095",
+      "23186133",
+      "29561703",
+      "16912275",
+      "20230619",
+      "29056321",
+      "12482985",
+      "20720539",
+      "18815594",
+      "28715449",
+      "32375040",
+      "32376693",
+      "29946135",
+      "31668857",
+      "28717009",
+      "27438412",
+      "21954323",
+      "28107649",
+      "16767079",
+      "21389633",
+      "22425674",
+      "22406341",
+      "22737086",
+      "24940877",
+      "11909941",
+      "33334824",
+      "34443469",
+      "27215030",
+      "10438527",
+      "1323295",
+      "17671089",
+      "11532604",
+      "34643712",
+      "33978759",
+      "19741699",
+      "12672691",
+      "32490565",
+      "21508315",
+      "11743717",
+      "35717671",
+      "37596139",
+      "12533679",
+      "28844864",
+      "32917590",
+      "34582893",
+      "15870273",
+      "35970389",
+      "27927716",
+      "38427563",
+      "24176123",
+      "32663283",
+      "24998598",
+      "25023704",
+      "15169910",
+      "32338606",
+      "34349258",
+      "27373332",
+      "23990805",
+      "15147721",
+      "28863138",
+      "9714786"
+    ],
+    "review": [
+      "39090226",
+      "37544644",
+      "36317523",
+      "32742689",
+      "22223048",
+      "24275614",
+      "39408629",
+      "24637397",
+      "27429206",
+      "35474148",
+      "16002433",
+      "12596908",
+      "29946135",
+      "31668857",
+      "21954323",
+      "21389633",
+      "22425674",
+      "22406341",
+      "34443469",
+      "11532604",
+      "19741699",
+      "37596139"
+    ],
+    "pmc": [
+      "11294368"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-68439-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39090226/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

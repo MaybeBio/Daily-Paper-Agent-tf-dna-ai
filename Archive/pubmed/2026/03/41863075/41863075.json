@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "41863075",
+    "doi": "10.1016/j.bpj.2026.03.036",
+    "title": "Readout of intrinsic and induced DNA shape by homeodomain transcription factor complexes."
+  },
+  "content": {
+    "abstract": "Homeodomain transcription factors (TFs) recognize their DNA targets through both sequence-specific base contacts and readout of local DNA shape. Although intrinsic DNA structure is encoded by nucleotide sequence, it also undergoes protein-induced structural deformation upon binding. Yet, the interplay between intrinsic and protein-induced DNA shape remains unclear. Here, we dissect how these two readout modes determine binding specificity in a trimeric complex composed of the Drosophila Hox TF Sex combs reduced and its cofactors, Homothorax and Extradenticle. Guided by SELEX-seq data, we performed molecular dynamics simulations of this complex bound to sequences of varying binding affinities. We find that minor groove width reflects intrinsic DNA structure, whereas minor groove width fluctuations capture protein-induced stabilization and reshaping of the DNA. Within the trimeric complex, Homothorax reduces conformational fluctuations in an orientation- and sequence-dependent manner, with charged residues in its N-terminal arm playing key roles in DNA shape readout. This demonstrates that recognition involves a context-dependent balance between conformational selection and induced fit. We extend this analysis to two other homeodomain TFs, Distal-less and Engrailed, revealing that even closely related proteins produce distinct DNA shape signatures depending on sequence context. To translate these insights to novel sequences or mutant proteins, we evaluate whether AlphaFold 3 (AF3) can capture mutation-sensitive DNA shape readout. Although AF3 accurately reproduces wild-type structures, it struggles to predict how mutations or conformational dynamics alter DNA shape. To bridge this gap, we developed a hybrid pipeline integrating AlphaFold-based homology modeling, molecular dynamics simulations, and DeepPBS, a deep learning method for binding specificity prediction. This multiscale framework successfully captures the active modulation of DNA structure missed by AF3 alone, providing new insights into TF binding specificity and creating a roadmap for integrating deep learning and physics-based methods to study molecular mechanisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Homeodomain Proteins/metabolism/chemistry",
+      "*DNA/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Drosophila Proteins/metabolism/chemistry",
+      "Animals",
+      "*Transcription Factors/metabolism/chemistry",
+      "*Nucleic Acid Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Yibei",
+        "Shewchuk, Alexandra M",
+        "Chiu, Tsu-Pei",
+        "Li, Jinsen",
+        "Kribelbauer-Swietek, Judith F",
+        "Gompel, Nicolas",
+        "Rohs, Remo"
+      ],
+      "short_names": [
+        "Jiang Y",
+        "Shewchuk AM",
+        "Chiu TP",
+        "Li J",
+        "Kribelbauer-Swietek JF",
+        "Gompel N",
+        "Rohs R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California; Department of Biological Sciences, University of Southern California, Los Angeles, California.",
+        "Bonn Institute for Organismic Biology, University of Bonn, Bonn, Germany.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California; Department of Chemistry, University of Southern California, Los Angeles, California; Department of Physics & Astronomy, University of Southern California, Los Angeles, California; Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, California; Division of Medical Oncology, Department of Medicine, University of Southern California, Los Angeles, California; Alfred E. Mann Department of Biomedical Engineering, University of Southern California, Los Angeles, California. Electronic address: rohs@usc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Yibei",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California."
+        ]
+      },
+      {
+        "full_name": "Shewchuk, Alexandra M",
+        "short_name": "Shewchuk AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California."
+        ]
+      },
+      {
+        "full_name": "Chiu, Tsu-Pei",
+        "short_name": "Chiu TP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California."
+        ]
+      },
+      {
+        "full_name": "Li, Jinsen",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California."
+        ]
+      },
+      {
+        "full_name": "Kribelbauer-Swietek, Judith F",
+        "short_name": "Kribelbauer-Swietek JF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California; Department of Biological Sciences, University of Southern California, Los Angeles, California."
+        ]
+      },
+      {
+        "full_name": "Gompel, Nicolas",
+        "short_name": "Gompel N",
+        "identifiers": [],
+        "affiliations": [
+          "Bonn Institute for Organismic Biology, University of Bonn, Bonn, Germany."
+        ]
+      },
+      {
+        "full_name": "Rohs, Remo",
+        "short_name": "Rohs R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California; Department of Chemistry, University of Southern California, Los Angeles, California; Department of Physics & Astronomy, University of Southern California, Los Angeles, California; Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, California; Division of Medical Oncology, Department of Medicine, University of Southern California, Los Angeles, California; Alfred E. Mann Department of Biomedical Engineering, University of Southern California, Los Angeles, California. Electronic address: rohs@usc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Aug 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/21 06:30",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [
+      "42345194"
+    ],
+    "refs": [
+      "40990245",
+      "39891349",
+      "39494533",
+      "39103447",
+      "38801070",
+      "38784963",
+      "38718835",
+      "38336958",
+      "38130056",
+      "37177995",
+      "36182667",
+      "36179084",
+      "35978548",
+      "34265844",
+      "33950214",
+      "33139763",
+      "32053778",
+      "31325439",
+      "29850830",
+      "29390080",
+      "28088759",
+      "26574453",
+      "26569599",
+      "26550823",
+      "25843630",
+      "23765878",
+      "23703209",
+      "23562153",
+      "22355720",
+      "22153072",
+      "21209967",
+      "20334529",
+      "20124702",
+      "17981120",
+      "16515781",
+      "15634705",
+      "15470419",
+      "12408801",
+      "12112673",
+      "11156989",
+      "10704852",
+      "10529430",
+      "10024015",
+      "9436985",
+      "9346235",
+      "8763497",
+      "2482765"
+    ],
+    "similar": [
+      "41863075",
+      "32053778",
+      "24078250",
+      "25843630",
+      "42475469",
+      "22153072",
+      "12419257",
+      "8643557",
+      "17981120",
+      "29040720",
+      "38130056",
+      "16765059",
+      "28167566",
+      "9154919",
+      "23950697",
+      "25775564",
+      "10067897",
+      "42134988",
+      "9079695",
+      "33486697",
+      "32738045",
+      "18422304",
+      "7623378",
+      "23912807",
+      "9826764",
+      "29806939",
+      "41799016",
+      "29744943",
+      "11867548",
+      "18508761",
+      "29165643",
+      "19919153",
+      "19481089",
+      "9309220",
+      "29472273",
+      "41159612",
+      "24214955",
+      "19385698",
+      "41371343",
+      "17315980",
+      "12923056",
+      "22399320",
+      "10529430",
+      "29390080",
+      "35978548",
+      "38902964",
+      "20389279",
+      "21498098",
+      "29664630",
+      "25651060",
+      "15165850",
+      "1346762",
+      "20334529",
+      "30395339",
+      "26223912",
+      "27546793",
+      "28541376",
+      "20634319",
+      "36322688",
+      "22618872",
+      "11302705",
+      "9733760",
+      "15342239",
+      "15753213",
+      "22753063",
+      "9551094",
+      "19956545",
+      "32352758",
+      "9813123",
+      "16778079",
+      "12888343",
+      "40874594",
+      "10356327",
+      "27058369",
+      "40398789",
+      "35637493",
+      "9079637",
+      "18585359",
+      "8665855",
+      "39143123",
+      "9367756",
+      "37861198",
+      "26721385",
+      "16156660",
+      "38465368",
+      "35061392",
+      "11003663",
+      "25495540",
+      "25286318",
+      "21821154",
+      "26829219",
+      "41053219",
+      "8657138",
+      "9033593",
+      "30279318",
+      "23661683",
+      "41495882",
+      "8101003",
+      "31325439",
+      "24271386"
+    ],
+    "review": [
+      "41863075",
+      "22399320"
+    ],
+    "pmc": [
+      "13119616"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00220-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41863075",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41863075/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

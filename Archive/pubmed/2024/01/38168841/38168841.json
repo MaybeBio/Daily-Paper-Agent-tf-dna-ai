@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "38168841",
+    "doi": "10.1093/bib/bbad494",
+    "title": "SilenceREIN: seeking silencers on anchors of chromatin loops by deep graph neural networks."
+  },
+  "content": {
+    "abstract": "Silencers are repressive cis-regulatory elements that play crucial roles in transcriptional regulation. Experimental methods for identifying silencers are always costly and time-consuming. Computational methods, which relies on genomic sequence features, have been introduced as alternative approaches. However, silencers do not have significant epigenomic signature. Therefore, we explore a new way to computationally identify silencers, by incorporating chromatin structural information. We propose the SilenceREIN method, which focuses on finding silencers on anchors of chromatin loops. By using graph neural networks, we extracted chromatin structural information from a regulatory element interaction network. SilenceREIN integrated the chromatin structural information with linear genomic signatures to find silencers. The predictive performance of SilenceREIN is comparable or better than other states-of-the-art methods. We performed a genome-wide scanning to systematically find silencers in human genome. Results suggest that silencers are widespread on anchors of chromatin loops. In addition, enrichment analysis of transcription factor binding motif support our prediction results. As far as we can tell, this is the first attempt to incorporate chromatin structural information in finding silencers. All datasets and source codes of SilenceREIN have been deposited in a GitHub repository (https://github.com/JianHPan/SilenceREIN).",
+    "keywords": [
+      "graph neural network",
+      "regulatory element interaction network",
+      "silencer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/genetics",
+      "*Silencer Elements, Transcriptional",
+      "Regulatory Sequences, Nucleic Acid",
+      "Genome, Human",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Jian-Hua",
+        "Du, Pu-Feng"
+      ],
+      "short_names": [
+        "Pan JH",
+        "Du PF"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9897-3932"
+      ],
+      "affiliations": [
+        "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China.",
+        "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Jian-Hua",
+        "short_name": "Pan JH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Du, Pu-Feng",
+        "short_name": "Du PF",
+        "identifiers": [
+          "0000-0001-9897-3932"
+        ],
+        "affiliations": [
+          "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Nov 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 01:18",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "42152045",
+      "42074600",
+      "42020672",
+      "40091050",
+      "39674264",
+      "39276327"
+    ],
+    "refs": [
+      "37057209",
+      "36344659",
+      "35563864",
+      "35105669",
+      "34850907",
+      "34738503",
+      "33712326",
+      "33514712",
+      "33121685",
+      "33045745",
+      "32728249",
+      "32228704",
+      "32103011",
+      "32094912",
+      "32094911",
+      "31918861",
+      "31680159",
+      "31477927",
+      "31462275",
+      "31086298",
+      "31024615",
+      "30886051",
+      "29489746",
+      "28945252",
+      "28399667",
+      "27643841",
+      "27467249",
+      "27153639",
+      "26619908",
+      "26204160",
+      "26113043",
+      "25497547",
+      "25114054",
+      "24656127",
+      "24634223",
+      "23940108",
+      "23657480",
+      "23650640",
+      "23328393",
+      "23221638",
+      "22426492",
+      "22373907",
+      "22230046",
+      "21868852",
+      "21330290",
+      "20044539",
+      "20044538",
+      "19890323",
+      "19815776",
+      "18039856",
+      "17994019",
+      "16719718",
+      "16491076",
+      "12853946",
+      "11847345",
+      "9512455",
+      "8916932",
+      "8649389",
+      "2172790"
+    ],
+    "similar": [
+      "38168841",
+      "26939020",
+      "33712326",
+      "32094912",
+      "37643374",
+      "32103011",
+      "34486522",
+      "33634313",
+      "36344659",
+      "36243984",
+      "32094911",
+      "36929452",
+      "33581335",
+      "29069282",
+      "35293310",
+      "38978133",
+      "35563864",
+      "33381816",
+      "16908533",
+      "33822882",
+      "31704182",
+      "37133976",
+      "33514712",
+      "35077535",
+      "30886051",
+      "20176978",
+      "35191481",
+      "36921458",
+      "33045745",
+      "26404156",
+      "33407087",
+      "35396274",
+      "18927605",
+      "15112232",
+      "18436892",
+      "20453004",
+      "31318408",
+      "36723807",
+      "21430782",
+      "31590652",
+      "36495179",
+      "27391817",
+      "7791756",
+      "34289010",
+      "19918365",
+      "35997565",
+      "25442502",
+      "15640060",
+      "37559017",
+      "20827584",
+      "27336171",
+      "34473626",
+      "33371891",
+      "36084008",
+      "36335136",
+      "8608937",
+      "31510655",
+      "35171981",
+      "21258045",
+      "32127534",
+      "31006511",
+      "26945717",
+      "37127596",
+      "30423062",
+      "36544209",
+      "39304765",
+      "15981337",
+      "19434238",
+      "26025621",
+      "26499213",
+      "34666191",
+      "25521507",
+      "19094206",
+      "23029400",
+      "37669132",
+      "27490187",
+      "35105669",
+      "28881969",
+      "34498061",
+      "35045977",
+      "8641284",
+      "35150255",
+      "15648158",
+      "29982337",
+      "37286742",
+      "23974071",
+      "35997564",
+      "24244184",
+      "38012713",
+      "34888618",
+      "31206543",
+      "25910277",
+      "34003286",
+      "28420341",
+      "38940172",
+      "38798661",
+      "38884259",
+      "36777181",
+      "37573342",
+      "37745003",
+      "37461616",
+      "38463884"
+    ],
+    "review": [
+      "38168841",
+      "33712326",
+      "36344659",
+      "35563864",
+      "15112232",
+      "15640060",
+      "20827584",
+      "21258045",
+      "26499213",
+      "15648158",
+      "37286742"
+    ],
+    "pmc": [
+      "10782921"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38168841.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38168841/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38168841",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad494",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

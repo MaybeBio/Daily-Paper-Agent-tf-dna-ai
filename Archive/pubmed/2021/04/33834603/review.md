@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that four Ag(I) complexes of bis(methyl)(thia/selena)salen with PF6- and ClO4- counter anions bind to ct-DNA via major groove interactions, as supported by spectroscopic titrations, competitive ethidium bromide displacement, viscometry, agarose gel electrophoresis, and molecular docking. Cytotoxicity studies on HFF cells yielded IC50 values above 10 µM, interpreted as favorable for further screening.
+- **Visible evidence base** Abstract text only; no numerical data, spectra, gel images, docking scores, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, raw spectroscopic data, binding constants, viscometry data, gel electrophoresis results, docking parameters and scores, cytotoxicity dose-response curves, and statistical details
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible multi-technique investigation of DNA binding by four Ag(I) complexes, but the evidence base is too limited to evaluate the validity of the central claims. The conclusion of major groove binding is asserted without quantitative data, and the cytotoxicity interpretation lacks statistical context. The work may be of interest to bioinorganic chemists, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, metal-based drug design, and DNA-targeting anticancer agents would be interested in the potential of Ag(I) salen complexes as DNA binders with moderate cytotoxicity toward normal cells. The comparative thia/selena and counter-anion effects could inform structure-activity relationships.
+- **Major strengths** The use of multiple complementary techniques (absorption, fluorescence, competitive binding, viscometry, gel electrophoresis, docking) is a sound approach to characterize DNA binding. The inclusion of two ligand variants and two counter anions provides a systematic comparison. The cytotoxicity assessment on a normal cell line is relevant for preliminary safety profiling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The spectroscopic methods revealed a major groove" binding mode for all four complexes
+  - **Evidence pointer** Abstract, methods section not provided
+  - **Concern** The abstract states that spectroscopic methods revealed major groove binding, but no quantitative data (e.g., binding constants, hypochromism percentages, fluorescence quenching parameters, or ethidium bromide displacement values) are provided to support this assignment. The distinction between groove binding and intercalation typically requires comparative analysis of absorption shifts, viscosity changes, and melting temperature data, none of which are numerically reported.
+  - **Why it matters** The central mechanistic claim of the study depends on the binding mode. Without quantitative spectroscopic evidence, the conclusion is unsupported and cannot be independently verified.
+  - **Resolution test** Provide binding constants (e.g., Kb from absorption titrations), fluorescence quenching constants (Ksv), ethidium bromide displacement percentages, and viscosity ratios relative to a known intercalator (e.g., ethidium bromide) and a known groove binder. Show that the data are consistent with major groove binding and inconsistent with intercalation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Cytotoxicity results showed positive gesture for moving ahead to the next level of screening; the values were above 10 µM which are appreciated for the normal cell lines"
+  - **Evidence pointer** Abstract, cytotoxicity section not provided
+  - **Concern** The abstract reports IC50 values above 10 µM on HFF cells but does not specify the exact values, the concentration range tested, the exposure duration, or the statistical variability (e.g., standard deviation, number of replicates). The interpretation that values above 10 µM are "appreciated" lacks a comparator or a defined threshold for what constitutes acceptable selectivity or safety.
+  - **Why it matters** Cytotoxicity data are essential for assessing the therapeutic potential of the complexes. Without precise values and statistical context, the claim of a "positive gesture" is not scientifically meaningful and cannot be evaluated.
+  - **Resolution test** Report the mean IC50 values with standard deviations for each complex, the concentration range and exposure time, and a comparison with a positive control (e.g., a known anticancer agent) or a defined selectivity index relative to cancer cell lines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular docking analysis has been executed to obtain the theoretical insight into the mode of binding. The docking study demonstrated the major groove binding of all four complexes"
+  - **Evidence pointer** Abstract, docking section not provided
+  - **Concern** The docking results are stated without any scoring metrics (e.g., binding free energies, docking scores), the DNA structure used, the docking software and parameters, or the validation of the docking protocol. The claim that docking "demonstrated" major groove binding is overstated, as docking provides a theoretical prediction that requires experimental corroboration.
+  - **Why it matters** Docking results are only meaningful if the methodology is transparent and the scores are reported. Without these, the theoretical support for the binding mode is not assessable.
+  - **Resolution test** Provide docking scores (e.g., in kcal/mol) for each complex, the PDB ID of the DNA structure, the software and scoring function used, and a figure showing the predicted binding poses. Clarify that docking is predictive, not demonstrative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Complex nomenclature
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The complexes are labeled as "1.PF(6), 2.PF(6), 1.ClO(4) and 2.ClO(4)" but the relationship between the ligand numbering (1 and 2) and the thia/selena variants is not explicitly stated in the abstract.
+  - **Required correction** Define the ligand numbering in the abstract (e.g., "1 = bis(methyl)thia salen, 2 = bis(methyl)selena salen") to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Physicochemical methods
+  - **Evidence pointer** Abstract, viscometry and gel electrophoresis mention
+  - **Issue** The abstract states that viscometry and gel electrophoresis "confirmed the binding" but does not describe the qualitative or quantitative outcomes of these experiments.
+  - **Required Correction** Briefly state the key findings of these experiments (e.g., viscosity changes relative to a control, or gel mobility shifts) to support the confirmation claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Cytotoxicity interpretation
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "positive gesture" is informal and vague; the threshold of 10 µM is not justified.
+  - **Required Correction** Replace with a precise statement, such as "IC50 values exceeding 10 µM indicate low toxicity toward HFF cells, suggesting a favorable preliminary safety profile, though selectivity against cancer cell lines remains to be established."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative spectroscopic data for binding mode), R1-M2 (incomplete cytotoxicity data), R1-M3 (unreported docking methodology and scores)
+- **Assessment against Nature-style criteria** Originality: The use of Ag(I) salen complexes with thia/selena variations is moderately novel, but the abstract does not demonstrate a unique advance over existing metal-based DNA binders. Scientific importance: The potential for Ag(I) complexes as anticancer agents is of interest, but the abstract does not establish a significant functional advantage or mechanism. Interdisciplinary readership: The work bridges coordination chemistry and bioinorganic pharmacology, but the abstract is too technical and data-poor to attract a broad audience. Technical soundness: The multi-technique approach is appropriate, but the lack of quantitative results undermines the reliability of the conclusions. Readability for nonspecialists: The abstract is dense and assumes familiarity with spectroscopic and docking methods; it is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting study, but the central claims of major groove binding and favorable cytotoxicity are unsupported by quantitative data. The authors should provide full experimental details and numerical results to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that "spectroscopic methods revealed a major groove" binding mode is unsupported without quantitative binding parameters.
+- The claim that docking "demonstrated" major groove binding is overstated; docking is predictive and requires reported scores and methodology.
+- The interpretation of cytotoxicity values above 10 µM as "appreciated" is unsupported without exact values, statistical context, and a defined threshold.
+- The statement that viscometry and gel electrophoresis "confirmed" binding is unverifiable without experimental outcomes.

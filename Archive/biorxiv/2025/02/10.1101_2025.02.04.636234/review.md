@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, figure legends, and supplementary materials as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose that TRANSPARENT TESTA GLABRA 1 (TTG1) and LIGHT REGULATED WD1/WD2 (LWD) scaffold proteins act as continuous, non-rhythmic components of the Arabidopsis circadian oscillator, functioning through interactions with both transcriptional activators (TCP family) and repressors (PRR family, Myb-like factors). They further propose that TLWD-PRR complexes mediate transcriptional repression essential for circadian rhythmicity, and introduce the concept of TLWD proteins as "arbor" components of the circadian clock.
+- **Visible evidence base** RNAseq differential expression data under diel cycles; luciferase reporter assays for pCCA1, pTOC1, pPRR7; western blot protein abundance time courses; yeast two-hybrid interaction data; co-immunoprecipitation in N. benthamiana; hypocotyl length measurements; complementation lines for LWD1 and TTG1.
+- **Missing materials affecting confidence** Full RNAseq dataset and statistical details; complete western blot images and quantification; raw luciferase traces with statistical analysis; ChIP-seq data referenced but not shown; details of yeast two-hybrid controls; exact sample sizes and replication numbers for all experiments; supplementary figures and tables referenced but not fully provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant advance in understanding the role of scaffold proteins in the Arabidopsis circadian oscillator. The identification of a continuous, non-rhythmic scaffold function that bridges multiple transcriptional regulators is conceptually novel and could reshape how the field views clock architecture. However, the evidence as presented is incomplete in several critical areas. The RNAseq analysis is limited to two time points, which constrains the strength of claims about temporal regulation. The protein abundance data show low-amplitude oscillations that are described as "not reproducible" in one method but "low amplitude oscillations" in another, creating interpretive tension. The interaction data are largely from heterologous systems, and the functional significance of TLWD-PRR interactions is inferred rather than directly demonstrated. The phenotypic analyses are correlative. The manuscript would be substantially strengthened by direct biochemical evidence of TLWD-PRR complex formation in planta, genetic epistasis experiments, and a more rigorous quantitative treatment of the circadian phenotypes.
+- **Who would be interested in the results, and why** Plant circadian biologists, particularly those studying oscillator architecture and transcriptional regulation. The work also has relevance for researchers studying WD40-repeat scaffold proteins, transcriptional regulation in plants, and the interface between circadian clocks and growth regulation. The conceptual framework of "arbor" proteins may interest chronobiologists studying non-plant systems, as it addresses a general question about how stable scaffolds coordinate dynamic transcriptional programs.
+- **Major strengths** 1) The conceptual advance of identifying a continuously present scaffold that coordinates both activation and repression is novel and potentially field-shaping. 2) The combination of transcriptomic, protein abundance, interaction, and phenotypic data provides a multi-level approach. 3) The use of complementation lines with tagged proteins under endogenous promoters is methodologically sound. 4) The comparison with existing mutants (prr, elf3, lhy cca1) helps contextualize the phenotypes. 5) The work addresses a previously unexplained observation (arrhythmia in ttg1 lwd1 lwd2) with a testable mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The manuscript claims that TLWD proteins have a "novel role in transcriptional repression through complex formation with repressors from the PRR family" and that this repression is "essential to sustain circadian oscillations."
+  - **Evidence pointer** Figure 3, Figure 4, Results section "TLWD proteins interact with both circadian oscillator activators and repressors"
+  - **Concern** The central mechanistic claim rests on interaction data from yeast two-hybrid and transient co-immunoprecipitation in N. benthamiana. While these are reasonable first steps, they do not demonstrate that TLWD-PRR complexes form in Arabidopsis at endogenous expression levels, nor that such complexes are required for repression of target genes. The co-IP experiments are performed with overexpression in a heterologous system, which can produce artifactual interactions. The manuscript does not provide chromatin immunoprecipitation data showing TLWD or PRR occupancy at target promoters in a TLWD-dependent manner, nor genetic evidence that disrupting the TLWD-PRR interaction specifically (rather than eliminating TLWD entirely) phenocopies the repression defects.
+  - **Why it matters** The claim that TLWD-PRR complexes mediate transcriptional repression is the mechanistic core of the paper. Without direct evidence for complex formation in the native context and a demonstration that this complex is functionally required for repression, the conclusion remains correlative. The field has seen numerous cases where heterologous interaction data do not recapitulate in planta biology.
+  - **Resolution test** Provide co-immunoprecipitation of endogenous TLWD and PRR proteins from Arabidopsis seedlings, or demonstrate TLWD-dependent recruitment of PRR to target promoters by ChIP-qPCR. Alternatively, generate a TLWD variant that specifically disrupts PRR binding (but not TCP binding) and show that this variant fails to complement the arrhythmic phenotype of ttg1 lwd1 lwd2.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Temporal resolution of transcriptomic data
+  - **Claim pointer** The manuscript claims to identify "a continuous function" of TLWD and describes "transcriptional repression throughout the diel cycle" based on RNAseq at two time points.
+  - **Evidence pointer** Figure 1, Results section "TLWD function is required for both activation and repression of circadian rhythmic genes"
+  - **Concern** The RNAseq analysis samples only two time points (ZT6 and ZT18). This is insufficient to establish continuous function or to characterize the temporal dynamics of misregulation. The claim of "continuous" activity requires either higher temporal resolution or additional evidence (e.g., protein stability data, constant presence of TLWD in complexes across time points). The two time points can only reveal defects at those specific phases, not continuity.
+  - **Why it matters** The "continuous function" is a key conceptual distinction from other clock components that are temporally restricted. If the misregulation is actually phase-specific but happens to be captured at ZT6 and ZT18, the interpretation would be different. The claim of continuity is central to the "arbor" analogy and needs stronger temporal support.
+  - **Resolution test** Perform a time course RNAseq or qPCR with at least 4-6 time points across the diel cycle. Alternatively, provide evidence that TLWD protein abundance and interaction with PRR partners is constant across time points, combined with the existing two-point transcriptomic data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor of protein abundance data
+  - **Claim pointer** The manuscript states that LWD1 and TTG1 "are present throughout the day and night without a clear reproducible oscillatory pattern" based on western blots, but also reports "low amplitude oscillations" with peaks at dawn and dusk based on luciferase reporters.
+  - **Evidence pointer** Figure 2, Results section "TLWD proteins are present through the diel cycle"
+  - **Concern** The two methods for assessing protein dynamics give qualitatively different results. The western blots show no reproducible oscillation, while the luciferase reporters show low-amplitude oscillations with a specific waveform. The manuscript does not reconcile these discrepancies. The fold changes reported (LWD1 ~2.1, TTG1 ~1.7 by western; LWD1 ~1.8, TTG1 ~1.6 by luciferase) are small and may be within technical noise. No statistical analysis is presented for the western blot quantification, and the number of biological replicates is not stated.
+  - **Why it matters** The claim that TLWD proteins are continuously present is central to the "arbor" concept. If the proteins actually oscillate with a meaningful amplitude, the conceptual framing changes. The discrepancy between methods needs to be resolved or explicitly discussed with appropriate caveats.
+  - **Resolution test** Provide quantified western blot data from at least 3 biological replicates with statistical analysis. Discuss the discrepancy between western and luciferase data explicitly. If the oscillations are real but low amplitude, state this clearly and explain why this does not affect the functional conclusions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of TLWD-PRR interactions
+  - **Claim pointer** The manuscript claims that TLWD-PRR complexes repress PIF4 and PIF5 expression and control growth, based on upregulation of these genes in ttg1 lwd1 lwd2 mutants and phenotypic analysis of hypocotyl length.
+  - **Evidence pointer** Figure 4, Results section "TLWD proteins control growth through repression of PIF4/5 expression"
+  - **Concern** The connection between TLWD-PRR complexes and PIF4/PIF5 repression is indirect. The manuscript shows that PIF4 and PIF5 are upregulated in the triple mutant, and that the triple mutant has longer hypocotyls. However, it does not demonstrate that this upregulation is specifically due to loss of TLWD-PRR complexes rather than a secondary consequence of general clock disruption. The comparison with prr mutants is informative but does not establish that TLWD acts through PRR complexes specifically. The hypocotyl phenotype could result from multiple downstream effects of clock arrhythmia.
+  - **Why it matters** The growth phenotype is presented as a physiological consequence of the proposed mechanism. If the connection is not direct, the significance of the growth data for the central claim is weakened.
+  - **Resolution test** Perform genetic epistasis experiments (e.g., tlwd prr higher-order mutants) or rescue experiments expressing TLWD variants that cannot bind PRR. Alternatively, use inducible or tissue-specific knockdown of TLWD to show that PIF4/PIF5 upregulation precedes or directly correlates with the growth phenotype.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** Multiple claims throughout the manuscript rely on quantitative comparisons (e.g., "97% of the down-regulated genes", "fold enrichment", "p-value < 0.05").
+  - **Evidence pointer** Figure 1, Figure 3, Figure 4, Results sections throughout
+  - **Concern** The manuscript does not consistently report effect sizes, confidence intervals, or multiple testing corrections for the RNAseq analysis. The fold enrichment values are presented without confidence intervals. The number of biological replicates for the luciferase assays is not stated. The statistical methods for comparing waveforms or amplitudes are not described. The criteria for calling a gene "circadian" in the context of this analysis are not defined.
+  - **Why it matters** The strength of the conclusions depends on the robustness of the quantitative comparisons. Without clear statistical reporting, the reader cannot assess whether the observed differences are reliable or within the range of technical variation.
+  - **Resolution test** Provide complete statistical methods, including multiple testing corrections for RNAseq, number of replicates for all experiments, and effect sizes with confidence intervals for key comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Arbor" terminology
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The "arbor" analogy is introduced in the abstract and developed in the discussion, but the term is not defined for readers unfamiliar with clock mechanics. The analogy is evocative but may be confusing without a clear explanation of what an arbor is in the context of a mechanical clock.
+  - **Required correction** Define "arbor" when first used, perhaps with a brief parenthetical explanation, and ensure the analogy is consistently applied throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** RNAseq data
+  - **Evidence pointer** Data availability section
+  - **Issue** The RNAseq raw data are deposited under BioProject PRJNA1217148, but the processed data and analysis scripts are not mentioned. The Apollo repository link is provided but the contents are not described.
+  - **Required correction** Specify what is contained in the Apollo repository and provide access to processed data and analysis code to facilitate reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2, footnote
+  - **Issue** The footnote indicates that western blots were repeated with a higher concentration of reducing agent, and that the older version had two bands while the new version has one. This suggests potential issues with protein modification or degradation that are not discussed in the main text.
+  - **Required correction** Address the two-band issue in the results or discussion, explaining what the two bands likely represent and why the new conditions resolve them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Yeast two-hybrid methods
+  - **Evidence pointer** Methods section "Yeast 2-hybrid experiments"
+  - **Issue** The methods state that interactions were evaluated by growth on selective media, but do not describe quantitative assays (e.g., beta-galactosidase activity) or provide negative controls for each bait-prey combination.
+  - **Required correction** Describe the controls used and whether interactions were quantified or assessed qualitatively.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of scaffold proteins in circadian clocks is focused on plants. A brief mention of scaffold proteins in other circadian systems (e.g., Drosophila, mammals) would strengthen the general relevance of the findings.
+  - **Required correction** Add a brief paragraph or sentences placing the findings in a broader chronobiological context.
+
+## Risk / unsupported claims
+- The claim that TLWD proteins have a "continuous function" is not fully supported by the two-time-point RNAseq data and the somewhat contradictory protein abundance data.
+- The claim that TLWD-PRR complexes are "essential" for circadian oscillations is inferred from correlation (arrhythmia in both tlwd and prr mutants) rather than demonstrated by direct manipulation of the complex.
+- The claim that TLWD proteins act as "arbor" components is a conceptual model that is plausible but not directly tested.
+- The statement that "TLWD proteins represent a new category of circadian oscillator component" is a strong claim that requires more evidence that no other continuously present scaffold proteins exist in circadian systems.
+- The claim that "the lack of repression causes arrhythmicity" in tlwd mutants is presented as a conclusion but is one of several possible interpretations of the data.
+- The functional significance of the TLWD-PRR interaction for growth control is correlative; the manuscript does not exclude indirect effects through general clock disruption.

@@ -1,0 +1,150 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15003967/v1",
+  "title": "Uncertainty-Aware Protein-Ligand Binding Mode Prediction with Counterfactual Pocket Perturbation",
+  "doi": "10.26434/chemrxiv.15003967/v1",
+  "abstract": "Accurate prediction of protein–ligand binding modes is crucial for structure-based drug discovery. However, current pose prediction methods are often integrated with binding affinity scoring functions without providing a reliable measure of the confidence or reliability of individual pose predictions. We present a hybrid docking and machine learning workflow for binding mode prediction and evaluate whether counterfactual perturbations of pocket-ligand interaction features can support uncertainty-aware pose prediction. Here, the candidate poses were generated with AutoDock Vina and ranked using a geometry-aware gradient-boosted tree model trained on PLINDER-derived protein-ligand complexes. To estimate uncertainty, we masked hydrogen-bond, hydrophobic, metal, polar, clash, and contact-shell feature groups and measured prediction sensitivity. The chemical counterfactual uncertainty detected the failed top-1 predictions with AUROC 0.895 and average precision 0.878. The selective prediction substantially improved reliability: retaining the lowest-uncertainty 50% of predictions increased top-1 success to 88.79%. These results suggest that uncertainty-aware pose prediction can provide actionable confidence estimates for docking-based binding mode prediction, and that counterfactual pocket perturbation offers a practical route toward interpretable failure detection.",
+  "authors": [
+    "Zheng Zhao",
+    "Philip E. Bourne"
+  ],
+  "published_date": "2026-05-27",
+  "updated_date": "2026-05-27T13:24:47Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15003967/v1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15003967/v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "1",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ],
+        "date-time": "2026-05-27T14:05:58Z",
+        "timestamp": 1779890758460,
+        "version": "3.53.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Accurate prediction of protein–ligand binding modes is crucial for structure-based drug discovery. However, current pose prediction methods are often integrated with binding affinity scoring functions without providing a reliable measure of the confidence or reliability of individual pose predictions. We present a hybrid docking and machine learning workflow for binding mode prediction and evaluate whether counterfactual perturbations of pocket-ligand interaction features can support uncertainty-aware pose prediction. Here, the candidate poses were generated with AutoDock Vina and ranked using a geometry-aware gradient-boosted tree model trained on PLINDER-derived protein-ligand complexes. To estimate uncertainty, we masked hydrogen-bond, hydrophobic, metal, polar, clash, and contact-shell feature groups and measured prediction sensitivity. The chemical counterfactual uncertainty detected the failed top-1 predictions with AUROC 0.895 and average precision 0.878. The selective prediction substantially improved reliability: retaining the lowest-uncertainty 50% of predictions increased top-1 success to 88.79%. These results suggest that uncertainty-aware pose prediction can provide actionable confidence estimates for docking-based binding mode prediction, and that counterfactual pocket perturbation offers a practical route toward interpretable failure detection.</jats:p>",
+      "DOI": "10.26434/chemrxiv.15003967/v1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ],
+        "date-time": "2026-05-27T13:24:47Z",
+        "timestamp": 1779888287000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Uncertainty-Aware Protein-Ligand Binding Mode Prediction with Counterfactual Pocket Perturbation"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Zheng",
+          "family": "Zhao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Philip E.",
+          "family": "Bourne",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15003967/v1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ],
+        "date-time": "2026-05-27T13:24:47Z",
+        "timestamp": 1779888287000
+      },
+      "score": 105.44836,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15003967/v1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15003967/v1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

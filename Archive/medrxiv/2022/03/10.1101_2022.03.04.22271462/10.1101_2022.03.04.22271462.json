@@ -1,0 +1,939 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.03.04.22271462",
+  "title": "<i>SETBP1</i> variants outside the degron disrupt DNA-binding and transcription independent of protein abundance to cause a heterogeneous neurodevelopmental disorder",
+  "doi": "10.1101/2022.03.04.22271462",
+  "abstract": "Germline de novo SETBP1 variants cause clinically distinct and heterogeneous neurodevelopmental disorders. Heterozygous missense variants at a hotspot encoding a canonical degron lead to SETBP1 accumulation and Schinzel-Giedion syndrome (SGS), a rare severe developmental disorder involving multisystem malformations. Heterozygous loss-of-function variants result in SETBP1 haploinsufficiency disorder which is phenotypically much milder than SGS. Following an initial description of four individuals with atypical SGS carrying heterozygous missense variants adjacent to the degron, a few individual cases of variants outside the degron were reported. Due to the lack of systematic investigation of genotype-phenotype associations of different types of SETBP1 variants, and limited understanding of the roles of the gene in brain development, the extent of clinical heterogeneity and how this relates to underlying pathophysiological mechanisms remain elusive, imposing challenges for diagnosis and patient care. Here, we present a comprehensive investigation of the largest cohort to-date of individuals carrying SETBP1 missense variants outside the degron (n=18, including one in-frame deletion). We performed thorough clinical and speech phenotyping with functional follow-up using cellular assays and transcriptomics. Our findings suggest that such variants cause a clinically and functionally variable developmental syndrome, showing only partial overlaps with classical SGS and SETBP1 haploinsufficiency disorder, and primarily characterised by intellectual disability, epilepsy, speech and motor impairment. We provide evidence of loss-of-function pathophysiological mechanisms impairing ubiquitination, DNA-binding and transcription. In contrast to SGS and SETBP1 haploinsufficiency, these effects are independent of protein abundance. Overall, our study provides important novel insights into diagnosis, patient care and aetiology of SETBP1-related disorders.",
+  "authors": [
+    "Maggie MK Wong",
+    "Rosalie A Kampen",
+    "Ruth O Braden",
+    "Gökberk Alagöz",
+    "Michael S Hildebrand",
+    "Christopher Barnett",
+    "Meghan Barnett",
+    "Alfredo Brusco",
+    "Diana Carli",
+    "Bert BA de Vries",
+    "Alexander JM Dingemans",
+    "Frances Elmslie",
+    "Giovanni B Ferrero",
+    "Nadieh A Jansen",
+    "Ingrid MBH van de Laar",
+    "Alice Moroni",
+    "David Mowat",
+    "Lucinda Murray",
+    "Francesca Novara",
+    "Angela Peron",
+    "Ingrid E Scheffer",
+    "Fabio Sirchia",
+    "Samantha J Turner",
+    "Aglaia Vignoli",
+    "Arianna Vino",
+    "Sacha Weber",
+    "Wendy K Chung",
+    "Marion Gerard",
+    "Vanessa López-González",
+    "Elizabeth Palmer",
+    "Angela T Morgan",
+    "Bregje W van Bon",
+    "Simon E Fisher"
+  ],
+  "published_date": "2022-03-08",
+  "updated_date": "2022-03-08T20:15:35Z",
+  "journal": "medRxiv",
+  "category": "Genetic and Genomic Medicine",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.03.04.22271462",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.03.04.22271462.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genetic and Genomic Medicine"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genetic and Genomic Medicine",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "medRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            26
+          ]
+        ],
+        "date-time": "2026-01-26T19:26:41Z",
+        "timestamp": 1769455601363,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            8
+          ]
+        ]
+      },
+      "group-title": "Genetic and Genomic Medicine",
+      "reference-count": 58,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Germline\n                  <jats:italic>de novo SETBP1</jats:italic>\n                  variants cause clinically distinct and heterogeneous neurodevelopmental disorders. Heterozygous missense variants at a hotspot encoding a canonical degron lead to SETBP1 accumulation and Schinzel-Giedion syndrome (SGS), a rare severe developmental disorder involving multisystem malformations. Heterozygous loss-of-function variants result in\n                  <jats:italic>SETBP1</jats:italic>\n                  haploinsufficiency disorder which is phenotypically much milder than SGS. Following an initial description of four individuals with atypical SGS carrying heterozygous missense variants adjacent to the degron, a few individual cases of variants outside the degron were reported. Due to the lack of systematic investigation of genotype-phenotype associations of different types of\n                  <jats:italic>SETBP1</jats:italic>\n                  variants, and limited understanding of the roles of the gene in brain development, the extent of clinical heterogeneity and how this relates to underlying pathophysiological mechanisms remain elusive, imposing challenges for diagnosis and patient care. Here, we present a comprehensive investigation of the largest cohort to-date of individuals carrying\n                  <jats:italic>SETBP1</jats:italic>\n                  missense variants outside the degron (n=18, including one in-frame deletion). We performed thorough clinical and speech phenotyping with functional follow-up using cellular assays and transcriptomics. Our findings suggest that such variants cause a clinically and functionally variable developmental syndrome, showing only partial overlaps with classical SGS and\n                  <jats:italic>SETBP1</jats:italic>\n                  haploinsufficiency disorder, and primarily characterised by intellectual disability, epilepsy, speech and motor impairment. We provide evidence of loss-of-function pathophysiological mechanisms impairing ubiquitination, DNA-binding and transcription. In contrast to SGS and\n                  <jats:italic>SETBP1</jats:italic>\n                  haploinsufficiency, these effects are independent of protein abundance. Overall, our study provides important novel insights into diagnosis, patient care and aetiology of SETBP1-related disorders.\n                </jats:p>",
+      "DOI": "10.1101/2022.03.04.22271462",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            8
+          ]
+        ],
+        "date-time": "2022-03-08T20:15:35Z",
+        "timestamp": 1646770535000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "title": [
+        "<i>SETBP1</i>\n                  variants outside the degron disrupt DNA-binding and transcription independent of protein abundance to cause a heterogeneous neurodevelopmental disorder"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9438-0141",
+          "authenticated-orcid": false,
+          "given": "Maggie MK",
+          "family": "Wong",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rosalie A",
+          "family": "Kampen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ruth O",
+          "family": "Braden",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gökberk",
+          "family": "Alagöz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Michael S",
+          "family": "Hildebrand",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christopher",
+          "family": "Barnett",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Meghan",
+          "family": "Barnett",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alfredo",
+          "family": "Brusco",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Diana",
+          "family": "Carli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bert BA",
+          "family": "de Vries",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5648-2155",
+          "authenticated-orcid": false,
+          "given": "Alexander JM",
+          "family": "Dingemans",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Frances",
+          "family": "Elmslie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Giovanni B",
+          "family": "Ferrero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nadieh A",
+          "family": "Jansen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ingrid MBH",
+          "family": "van de Laar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alice",
+          "family": "Moroni",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Mowat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lucinda",
+          "family": "Murray",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Francesca",
+          "family": "Novara",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Angela",
+          "family": "Peron",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ingrid E",
+          "family": "Scheffer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fabio",
+          "family": "Sirchia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Samantha J",
+          "family": "Turner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aglaia",
+          "family": "Vignoli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Arianna",
+          "family": "Vino",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sacha",
+          "family": "Weber",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Wendy K",
+          "family": "Chung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Marion",
+          "family": "Gerard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vanessa",
+          "family": "López-González",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Elizabeth",
+          "family": "Palmer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1147-7405",
+          "authenticated-orcid": false,
+          "given": "Angela T",
+          "family": "Morgan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bregje W",
+          "family": "van Bon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3132-1996",
+          "authenticated-orcid": false,
+          "given": "Simon E",
+          "family": "Fisher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.1",
+          "first-page": "1031",
+          "article-title": "Editorial: Overlapping Phenotypes and Genetic Heterogeneity of Rare Neurodevelopmental Disorders",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Front. Neurol."
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.581"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ajmg.1320010402"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ajmg.10348"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00431-008-0683-4"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006683",
+          "DOI": "10.1371/journal.pgen.1006683",
+          "article-title": "Overlapping SETBP1 gain-of-function mutations in Schinzel-Giedion syndrome and hematologic malignancies",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS Genet"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2495"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "4050",
+          "DOI": "10.1038/s41467-021-24391-3",
+          "article-title": "SETBP1 accumulation induces P53 inhibition and genotoxic stress in neural progenitors underlying neurodegeneration in Schinzel-Giedion syndrome",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.9",
+          "unstructured": "Morgan, A. , Srivastava, S. , Duis, J. , and van Bon, B . (2021). SETBP1 Haploinsufficiency Disorder. In GeneReviews®, M.P. Adam , H.H. Ardinger , R.A. Pagon , S.E. Wallace , L.J. Bean , G. Mirzaa , and A. Amemiya , eds. (Seattle (WA): University of Washington, Seattle), p."
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/jmg.2010.084582"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ejmg.2012.01.005"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3092"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1065",
+          "DOI": "10.1038/s41380-018-0020-x",
+          "article-title": "A set of regulatory genes co-expressed in embryonic human brain is implicated in disrupted speech development",
+          "volume": "24",
+          "year": "2019",
+          "journal-title": "Mol. Psychiatry"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004772"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1216",
+          "DOI": "10.1038/s41431-021-00894-x",
+          "article-title": "Speech and language deficits are central to SETBP1 haploinsufficiency disorder",
+          "volume": "29",
+          "year": "2021",
+          "journal-title": "Eur. J. Hum. Genet"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1198",
+          "DOI": "10.1038/s41431-021-00888-9",
+          "article-title": "Clinical delineation of SETBP1 haploinsufficiency disorder",
+          "volume": "29",
+          "year": "2021",
+          "journal-title": "Eur. J. Hum. Genet"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1212/WNL.0000000000009441"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2009-06-227363"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1340",
+          "DOI": "10.1046/j.1432-1327.2001.02000.x",
+          "article-title": "Identification and characterization of SEB, a novel protein that binds to the acute undifferentiated leukemia-associated protein SET",
+          "volume": "268",
+          "year": "2001",
+          "journal-title": "Eur. J. Biochem"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-04462-8"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/leu.2015.200"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18632/oncotarget.13383"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2011-10-388710"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cardo, L.F. , and Li, M. (2021). WNT/β-catenin dependant alteration of cortical neurogenesis in a human stem cell model of SETBP1 disorder. bioRxiv 2021.10.12.464034.",
+          "DOI": "10.1101/2021.10.12.464034"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/humu.22844"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.26",
+          "unstructured": "American-Speech-Language-Hearing-Association [ASHA] (2007). Childhood Apraxia of Speech."
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.27",
+          "unstructured": "Duffy, J.R. (2013). Motor Speech Disorders - E-Book: Substrates, Differential Diagnosis, and Management (Elsevier Health Sciences)."
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/brain/aws355"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1044/2015_LSHSS-14-0120"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.30",
+          "unstructured": "Sparrow, S. , Cicchetti, D. , and Saulnier, C . (2016). Vineland Adaptive Behaviour Scales (Bloomington: Pearson)."
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dunn, L.M. , and Dunn, D.M. (2007). Peabody Picture Vocabulary Test | Fourth Edition.",
+          "DOI": "10.1037/t15144-000"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn.4352"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2017.08.004"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnmol.2018.00047"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2016.05.030"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0201-4"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0550-8"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0506580102"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.4096"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2308-7"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1299",
+          "DOI": "10.1002/ajmg.a.32277",
+          "article-title": "Schinzel-Giedion syndrome: report of splenopancreatic fusion and proposed diagnostic criteria",
+          "volume": "146A",
+          "year": "2008",
+          "journal-title": "Am. J. Med. Genet. A"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35097076"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/jmedgenet-2016-104094"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.44",
+          "unstructured": "Morgan, A. , Fisher, S.E. , Scheffer, I. , and Hildebrand, M . (2016). FOXP2-Related Speech and Language Disorders. In GeneReviews®, M.P. Adam , H.H. Ardinger , R.A. Pagon , S.E. Wallace , L.J. Bean , G. Mirzaa , and A. Amemiya , eds. (Seattle (WA): University of Washington, Seattle), p."
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/leu.2014.301"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv636"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1180"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09810-w"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1947",
+          "DOI": "10.1002/ajmg.a.61630",
+          "article-title": "A pathogenic variant in the SETBP1 hotspot results in a forme-fruste Schinzel– Giedion syndrome",
+          "volume": "182",
+          "year": "2020",
+          "journal-title": "Am. J. Med. Genet. A"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "593446",
+          "DOI": "10.3389/fneur.2020.593446",
+          "article-title": "Identification of SETBP1 Mutations by Gene Panel Sequencing in Individuals With Intellectual Disability or With “Developmental and Epileptic Encephalopathy.”",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Front. Neurol"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/gim.2015.30"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.52",
+          "first-page": "eaay 8648",
+          "article-title": "Predicting functional effects of missense variants in voltage-gated sodium and calcium channels",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Sci. Transl. Med"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "9303",
+          "DOI": "10.3390/ijms21239303",
+          "article-title": "Diagnostic Utility of Genome-Wide DNA Methylation Analysis in Mendelian Neurodevelopmental Disorders",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "Int. J. Mol. Sci."
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "356",
+          "DOI": "10.1016/j.ajhg.2020.01.019",
+          "article-title": "Evaluation of DNA Methylation Episignatures for Diagnosis and Phenotype Correlations in 42 Mendelian Neurodevelopmental Disorders",
+          "volume": "106",
+          "year": "2020",
+          "journal-title": "Am. J. Hum. Genet"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc3929"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mészáros, B. , Hajdu-Soltész, B. , Zeke, A. , and Dosztányi, Z. (2020). How mutations of intrinsically disordered protein regions can drive cancer. bioRxiv 2020.04.29.069245.",
+          "DOI": "10.1101/2020.04.29.069245"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.1016/j.gde.2020.05.012",
+          "article-title": "Genetic pathways involved in human speech disorders",
+          "volume": "65",
+          "year": "2020",
+          "journal-title": "Curr. Opin. Genet. Dev"
+        },
+        {
+          "key": "2022031007050867000_2022.03.04.22271462v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "e52803",
+          "DOI": "10.15252/embr.202152803",
+          "article-title": "Molecular networks of the FOXP2 transcription factor in the brain",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "EMBO Rep"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.04.22271462",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T14:38:22Z",
+        "timestamp": 1768487902000
+      },
+      "score": 75.7781,
+      "resource": {
+        "primary": {
+          "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.03.04.22271462"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            8
+          ]
+        ]
+      },
+      "references-count": 58,
+      "URL": "https://doi.org/10.1101/2022.03.04.22271462",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

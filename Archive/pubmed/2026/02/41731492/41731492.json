@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "41731492",
+    "doi": "10.1186/s12885-026-15691-2",
+    "title": "Regulatory network and spatial modeling reveal cooperative mechanisms of resistance and immune escape in ER+ breast cancer."
+  },
+  "content": {
+    "abstract": "Despite significant progress, the treatment of estrogen receptor-positive (ER+) breast cancer remains clinically challenging due to reversible drug resistance and immune evasion. Drug resistance often arises as cells undergo a dynamic epithelial-to-mesenchymal transition (EMT), while elevated PD-L1 levels contribute to immune escape. While these phenotypic features can variably co-occur, the impact of co-occurrence on the availability of synergistic treatment strategies remains unknown. To investigate their interplay, we constructed an ER-EMT-PD-L1 gene regulatory network and simulated these networks as coupled ordinary differential equations with biologically informed parameters, to generate steady-state expression profiles. Our study revealed that the relevant overarching network generated antagonistic epithelial and mesenchymal modules, capable of producing monostable, bistable, and tristable dynamics. We further examined the link between phenotypes and immune evasion by quantifying average PD-L1 expression, and found that epithelial-sensitive states consistently exhibited low PD-L1. In contrast, hybrid- and mesenchymal-resistant states were associated with a non-linear, stepwise increase in PD-L1, highlighting a strong coupling between EMT, resistance, and immune evasion. Extending on these network-level insights, we further used a spatially explicit agent-based model seeded with GRN-derived phenotypes to probe tumor behavior under therapeutic pressure. Simulations revealed that sustained tumor expansion occurred only when resistance, motility, and immune evasion traits co-existed, and this requirement remained robust across GRN landscapes with differing stability. Plasticity and multistability increased the accessible phenotypic state-space and accelerated shifts toward high-fitness resistant states. We further identified combination therapies that significantly reduced phenotypic diversification and improved immune infiltration in silico. Taken together, our modeling work links regulatory dynamics with tumor-level adaptation and highlights strategies to reprogram resistant cell states toward sensitivity, which are difficult to infer from bulk or cross-sectional data alone. In addition, it provides a controllable in silico testbed to systematically evaluate candidate treatment combinations and their effects on tumor phenotypic transitions and spatial T cell access, thereby helping to prioritize experimental regimens for follow-up.",
+    "keywords": [
+      "Agent-based model",
+      "Combination therapy",
+      "EMT",
+      "ER+ breast cancer",
+      "Gene regulatory network",
+      "Tumor plasticity"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/immunology/genetics/pathology/metabolism/drug therapy",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Gene Regulatory Networks",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "*Receptors, Estrogen/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "*Tumor Escape/genetics",
+      "B7-H1 Antigen/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Yijia",
+        "Sahoo, Sarthak",
+        "Jolly, Mohit Kumar",
+        "George, Jason T"
+      ],
+      "short_names": [
+        "Fan Y",
+        "Sahoo S",
+        "Jolly MK",
+        "George JT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Engineering, Texas A&M University, Houston, TX, USA.",
+        "Center for Translational Medical Sciences, Texas A&M University Health Science Center, Houston, TX, USA.",
+        "Department of Bioengineering, Indian Institute of Science, Bengaluru, India.",
+        "Department of Bioengineering, Indian Institute of Science, Bengaluru, India. mkjolly@iisc.ac.in.",
+        "Department of Biomedical Engineering, Texas A&M University, Houston, TX, USA. jason.george@tamu.edu.",
+        "Center for Translational Medical Sciences, Texas A&M University Health Science Center, Houston, TX, USA. jason.george@tamu.edu.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, TX, USA. jason.george@tamu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Yijia",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Texas A&M University, Houston, TX, USA.",
+          "Center for Translational Medical Sciences, Texas A&M University Health Science Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Sahoo, Sarthak",
+        "short_name": "Sahoo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Indian Institute of Science, Bengaluru, India."
+        ]
+      },
+      {
+        "full_name": "Jolly, Mohit Kumar",
+        "short_name": "Jolly MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Indian Institute of Science, Bengaluru, India. mkjolly@iisc.ac.in."
+        ]
+      },
+      {
+        "full_name": "George, Jason T",
+        "short_name": "George JT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Texas A&M University, Houston, TX, USA. jason.george@tamu.edu.",
+          "Center for Translational Medical Sciences, Texas A&M University Health Science Center, Houston, TX, USA. jason.george@tamu.edu.",
+          "Center for Theoretical Biological Physics, Rice University, Houston, TX, USA. jason.george@tamu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2026 Feb 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/24 00:30",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [
+      "41618842"
+    ],
+    "refs": [
+      "40631902",
+      "40208246",
+      "39806516",
+      "39513932",
+      "39107856",
+      "38729997",
+      "38572751",
+      "38360674",
+      "38347575",
+      "37290925",
+      "37193859",
+      "37096883",
+      "36354714",
+      "36190501",
+      "36076302",
+      "35582229",
+      "35363853",
+      "34975907",
+      "34344410",
+      "34316714",
+      "33827891",
+      "33807227",
+      "33803675",
+      "33567424",
+      "33207810",
+      "33173593",
+      "32982644",
+      "32531659",
+      "32300252",
+      "32289273",
+      "32059478",
+      "31862779",
+      "31802904",
+      "31577379",
+      "30419315",
+      "30268772",
+      "29940998",
+      "29559561",
+      "29443960",
+      "29393296",
+      "28428275",
+      "28362798",
+      "28332555",
+      "27694892",
+      "27362937",
+      "27029493",
+      "26989346",
+      "26852928",
+      "26851185",
+      "26420858",
+      "26033813",
+      "26011489",
+      "25348003",
+      "24014025",
+      "22417809",
+      "21552410",
+      "21546393",
+      "17261634"
+    ],
+    "similar": [
+      "41731492",
+      "41256596",
+      "34975907",
+      "32746878",
+      "41660919",
+      "42161755",
+      "31605776",
+      "42475469",
+      "42021341",
+      "39800743",
+      "34011528",
+      "36851919",
+      "38687247",
+      "42267455",
+      "40725123",
+      "29921289",
+      "34069461",
+      "42541492",
+      "31747941",
+      "39116492",
+      "42008953",
+      "34416901",
+      "42542196",
+      "34406386",
+      "22123186",
+      "26420858",
+      "34104078",
+      "42079213",
+      "40808956",
+      "40744683",
+      "38786085",
+      "28294486",
+      "29212455",
+      "42760422",
+      "40097769",
+      "37678920",
+      "26245467",
+      "26452030",
+      "39615165",
+      "38786043",
+      "36933493",
+      "39736629",
+      "30241942",
+      "33390170",
+      "41662891",
+      "40597935",
+      "36621840",
+      "39488102",
+      "32672418",
+      "41791643",
+      "24919951",
+      "42756460",
+      "35836797",
+      "32188703",
+      "37001908",
+      "42464407",
+      "40907151",
+      "35114597",
+      "41720449",
+      "32024543",
+      "42397610",
+      "36463238",
+      "41075009",
+      "41322418",
+      "38959542",
+      "25990368",
+      "40680555",
+      "28075453",
+      "39503247",
+      "23991019",
+      "42551188",
+      "42477639",
+      "29746929",
+      "39210323",
+      "28724663",
+      "41876831",
+      "34552581",
+      "37775641",
+      "42653216",
+      "40498401",
+      "40567500",
+      "41799764",
+      "40992065",
+      "33537094",
+      "41155402",
+      "42034135",
+      "40976049",
+      "30904483",
+      "39443136",
+      "41932527",
+      "32277292",
+      "41991755",
+      "36419183",
+      "40475762",
+      "40029463",
+      "27246191",
+      "41595458",
+      "22952755",
+      "41096755",
+      "34599981"
+    ],
+    "review": [
+      "41731492",
+      "42161755",
+      "31605776",
+      "34069461",
+      "42542196",
+      "38786085",
+      "39615165",
+      "41662891",
+      "42756460",
+      "38959542",
+      "42551188"
+    ],
+    "pmc": [
+      "13036952"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-026-15691-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41731492/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

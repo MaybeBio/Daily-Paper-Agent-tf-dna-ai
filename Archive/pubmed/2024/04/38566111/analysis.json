@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38566111",
+  "title": "Species-aware DNA language models capture regulatory elements and their evolution.",
+  "authors": "Karollus, Alexander; Hingerl, Johannes; Gankin, Dennis; Grosshauser, Martin; Klemon, Kristian; Gagneur, Julien",
+  "journal": "Genome biology",
+  "published_date": "2024-04-03",
+  "window": {
+    "start": "2024-04-01",
+    "end": "2024-04-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出物种感知的DNA语言模型，跨物种训练以捕获调控元件及进化，能区分TF结合基序并预测体内结合，虽未直接建模TF-DNA三维互作，但方法对TF结合位点预测与进化机制研究有重要借鉴价值。",
+  "abstract": "BACKGROUND: The rise of large-scale multi-species genome sequencing projects promises to shed new light on how genomes encode gene regulatory instructions. To this end, new algorithms are needed that can leverage conservation to capture regulatory elements while accounting for their evolution. RESULTS: Here, we introduce species-aware DNA language models, which we trained on more than 800 species spanning over 500 million years of evolution. Investigating their ability to predict masked nucleotides from context, we show that DNA language models distinguish transcription factor and RNA-binding protein motifs from background non-coding sequence. Owing to their flexibility, DNA language models capture conserved regulatory elements over much further evolutionary distances than sequence alignment would allow. Remarkably, DNA language models reconstruct motif instances bound in vivo better than unbound ones and account for the evolution of motif sequences and their positional constraints, showing that these models capture functional high-order sequence and evolutionary context. We further show that species-aware training yields improved sequence representations for endogenous and MPRA-based gene expression prediction, as well as motif discovery. CONCLUSIONS: Collectively, these results demonstrate that species-aware DNA language models are a powerful, flexible, and scalable tool to integrate information from large compendia of highly diverged genomes.",
+  "abstract_zh": "背景：大规模多物种基因组测序项目的兴起，有望为基因组如何编码基因调控指令提供新的见解。为此，需要新的算法，能够利用保守性来捕获调控元件，同时考虑其进化过程。结果：在此，我们引入了物种感知的DNA语言模型，该模型在跨越超过5亿年进化的800多个物种上进行了训练。通过研究其从上下文中预测掩蔽核苷酸的能力，我们表明DNA语言模型能够区分转录因子和RNA结合蛋白基序与背景非编码序列。凭借其灵活性，DNA语言模型能够在比序列比对允许的更远的进化距离上捕获保守调控元件。值得注意的是，DNA语言模型重建体内结合基序实例的效果优于未结合实例，并解释了基序序列及其位置约束的进化，表明这些模型捕获了功能性的高阶序列和进化上下文。我们进一步表明，物种感知训练为内源性和基于MPRA的基因表达预测以及基序发现提供了改进的序列表示。结论：总体而言，这些结果表明，物种感知的DNA语言模型是整合高度分化基因组大型汇编信息的强大、灵活且可扩展的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38566111/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38566111/",
+  "paper_page_path": "papers/pubmed/38566111/index.html"
+}

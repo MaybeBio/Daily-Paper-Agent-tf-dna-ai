@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "40181401",
+    "doi": "10.1186/s12920-025-02129-0",
+    "title": "FOSB is a key factor in the genetic link between inflammatory bowel disease and acute myocardial infarction: multiple bioinformatics analyses and validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Inflammatory Bowel Disease (IBD), which includes Crohn's disease and ulcerative colitis, is associated with an increased risk of Acute Myocardial Infarction (AMI). The genetic mechanisms underlying this link are not well understood. METHODS: We downloaded IBD and AMI-related microarray datasets from the NCBI Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) were identified and analyzed using enrichment analysis and Weighted Gene Co-expression Network Analysis (WGCNA). Machine learning techniques, including LASSO, random forest, and Boruta, were employed to screen for hub genes. These genes were validated through qRT-PCR and Western blotting. Single-cell sequencing was used to confirm findings. Additionally, potential therapeutic targets were identified using the Connectivity Map (CMap) database. RESULTS: Five key hub genes-THBD, FOSB, ADGPR3, IL1R2, and PLAUR-were identified as significantly involved in both IBD and AMI pathogenesis. A diagnostic model for AMI constructed using these hub genes demonstrated high predictive accuracy. Single-cell sequencing analysis and several potential drugs targeting these hub genes were identified, offering new therapeutic avenues. CONCLUSION: This study highlights the crucial role of FOSB and other hub genes in the comorbidity of IBD and AMI. The findings provide novel insights for early diagnosis and potential therapeutic strategies, emphasizing the importance of further investigation into these genetic links.",
+    "keywords": [
+      "Acute myocardial infarction",
+      "Bioinformatics",
+      "Experimental validation",
+      "FOSB",
+      "Inflammatory bowel disease",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Myocardial Infarction/genetics/complications",
+      "*Inflammatory Bowel Diseases/genetics/complications",
+      "*Computational Biology/methods",
+      "*Proto-Oncogene Proteins c-fos/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Qingan",
+        "Shen, Tianzhou",
+        "Qiu, Weihan",
+        "Liao, Yanhui",
+        "Yu, Miao",
+        "Zhou, Yue"
+      ],
+      "short_names": [
+        "Fu Q",
+        "Shen T",
+        "Qiu W",
+        "Liao Y",
+        "Yu M",
+        "Zhou Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "School of Computer Science, South China Normal University, Guangzhou, China.",
+        "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China. happy_yumiao@163.com.",
+        "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China. zhouyue2024@yeah.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Qingan",
+        "short_name": "Fu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Tianzhou",
+        "short_name": "Shen T",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Weihan",
+        "short_name": "Qiu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, South China Normal University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Yanhui",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Miao",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China. happy_yumiao@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yue",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Medicine Department, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, Jiangxi, China. zhouyue2024@yeah.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Med Genomics"
+    ],
+    "pub_date": "2025 Apr 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/04 06:26",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42116076",
+      "42014834",
+      "41773808",
+      "41078754",
+      "40422241"
+    ],
+    "refs": [
+      "39965659",
+      "39918677",
+      "39495620",
+      "39447292",
+      "39413003",
+      "39175047",
+      "39044238",
+      "38101174",
+      "38085922",
+      "36758669",
+      "36198850",
+      "36194491",
+      "34970867",
+      "34826042",
+      "34325467",
+      "34164827",
+      "33939711",
+      "33293800",
+      "33195475",
+      "32968335",
+      "32646751",
+      "32428507",
+      "32211098",
+      "31910984",
+      "31866067",
+      "31841135",
+      "31683712",
+      "31648971",
+      "31618209",
+      "31178118",
+      "31092591",
+      "30944313",
+      "30478416",
+      "30411335",
+      "29993742",
+      "29702298",
+      "29195078",
+      "29050646",
+      "28947747",
+      "28191884",
+      "27842498",
+      "27650495",
+      "26116554",
+      "25912602",
+      "25732745",
+      "25605792",
+      "25316773",
+      "24801707",
+      "24585007",
+      "24199845",
+      "23195532",
+      "23193258",
+      "22455463",
+      "21960745",
+      "21300624",
+      "20518747",
+      "19114008",
+      "18497880",
+      "17986649",
+      "16699069",
+      "16670770",
+      "16012934",
+      "12526945",
+      "10648268",
+      "10592173",
+      "9175329"
+    ],
+    "similar": [
+      "40181401",
+      "40340571",
+      "38839020",
+      "39650552",
+      "37740761",
+      "42295138",
+      "38660311",
+      "42049254",
+      "42136960",
+      "36049413",
+      "42698445",
+      "37291580",
+      "38451044",
+      "40174368",
+      "42051519",
+      "35764238",
+      "42703103",
+      "40619072",
+      "40406126",
+      "41863100",
+      "39712025",
+      "38764052",
+      "42327749",
+      "40093802",
+      "39086489",
+      "38987688",
+      "41204556",
+      "40672380",
+      "40704466",
+      "38774864",
+      "40467768",
+      "38863714",
+      "38783198",
+      "40821793",
+      "35585822",
+      "41782887",
+      "41591694",
+      "40836320",
+      "41789070",
+      "41300749",
+      "39813219",
+      "36440001",
+      "41312366",
+      "38736878",
+      "39552895",
+      "42109727",
+      "40843941",
+      "41081092",
+      "40685483",
+      "41262249",
+      "40304766",
+      "40738705",
+      "40374866",
+      "40997906",
+      "40421012",
+      "40496861",
+      "39308815",
+      "40216809",
+      "42015036",
+      "31772617",
+      "39139563",
+      "42706545",
+      "36643579",
+      "39894009",
+      "42310773",
+      "41243474",
+      "40575177",
+      "39697326",
+      "41196851",
+      "39512836",
+      "41120603",
+      "33847684",
+      "40374840",
+      "40977739",
+      "40093012",
+      "40685440",
+      "38268224",
+      "40630623",
+      "39766817",
+      "40574839",
+      "39341952",
+      "40933471",
+      "41094572",
+      "42107160",
+      "41107998",
+      "41146237",
+      "40165133",
+      "31850068",
+      "35231061",
+      "40428318",
+      "42537010",
+      "40597456",
+      "35872921",
+      "35958412",
+      "39350059",
+      "39541897",
+      "39712244",
+      "39666769",
+      "41170011",
+      "41044520"
+    ],
+    "review": [
+      "40181401",
+      "40467768"
+    ],
+    "pmc": [
+      "11969767"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-025-02129-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40181401/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1760",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

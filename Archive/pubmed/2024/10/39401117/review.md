@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose HGTCGRN, a hierarchical graph Transformer with contrastive learning, for gene regulatory network inference. The model introduces gene family nodes as virtual nodes to capture long-distance structural semantic correlations, and uses gene ontology information to construct gene interaction networks for contrastive learning. The authors claim superior performance in GRN inference based on experimental results.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline comparisons, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental setup, dataset specifications, baseline methods, hyperparameter settings, ablation studies, and statistical significance tests
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological direction for GRN inference, combining hierarchical graph Transformers with contrastive learning and gene ontology priors. However, the abstract lacks any quantitative evidence, dataset information, or comparison to existing methods. The core claims of superior performance and the specific contributions of each architectural component cannot be evaluated from the supplied material. The writing is clear but the technical novelty relative to existing GNN-based GRN inference methods is not sufficiently articulated.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, particularly those applying graph neural networks to genomic data. Researchers developing deep learning methods for biological network reconstruction would also find the hierarchical Transformer and contrastive learning components relevant. The use of gene ontology as a prior source may interest researchers focused on integrating functional annotations into predictive models.
+- **Major strengths** The proposed approach addresses a recognized limitation of existing GNN-based methods, namely the difficulty in capturing long-distance structural semantic correlations. The use of gene family nodes as virtual nodes is a conceptually interesting mechanism for injecting functional knowledge into graph representations. The integration of gene ontology information for contrastive learning represents a thoughtful use of biological priors.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Experimental results demonstrate that HGTCGRN achieves superior performance in GRN inference"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims superior performance but provides no quantitative results, no dataset names, no baseline methods, and no evaluation metrics. There is no way to assess the magnitude of improvement, statistical significance, or generalizability across different GRN inference benchmarks.
+  - **Why it matters** The central claim of the paper rests entirely on experimental validation. Without any numerical evidence, the claim of superiority is unsupported and cannot be verified or compared against existing literature.
+  - **Resolution test** Provide specific performance metrics (e.g., AUROC, AUPRC) on at least one standard benchmark dataset (e.g., BEELINE), with comparisons to established baselines and statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical clarity
+  - **Claim pointer** "HGTCGRN excels at capturing structural semantics using a hierarchical graph Transformer, which introduces a series of gene family nodes representing gene functions as virtual nodes to interact with nodes in the GRNS"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The mechanism by which gene family nodes interact with GRN nodes is described only at a high level. It is unclear how the hierarchy is constructed, how many levels exist, how virtual node embeddings are updated, and how the aggregation produces "node representations with varying emphasis." The phrase "varying emphasis" is vague and lacks a precise formulation.
+  - **Why it matters** Reproducibility and assessment of technical novelty require a clear description of the model architecture. Without this, readers cannot determine whether the approach differs meaningfully from existing graph Transformer methods or hierarchical GNNs.
+  - **Resolution test** Provide a formal description of the hierarchical architecture, including the number of hierarchy levels, the update rules for virtual nodes, the aggregation mechanism, and a clear definition of how emphasis weights are computed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty assessment
+  - **Claim pointer** "most existing GNN-based methods suffer from the inability to capture long-distance structural semantic correlations due to transitive interactions"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which existing GNN-based methods are affected by this limitation, nor does it explain why transitive interactions specifically cause the inability to capture long-distance correlations. Many graph Transformers and message-passing variants already address long-range dependencies. The claimed gap is not clearly established.
+  - **Why it matters** The motivation for the proposed model depends on demonstrating a concrete and unresolved limitation in prior work. Without a precise characterization of the gap and a comparison to relevant existing solutions, the novelty claim is weakened.
+  - **Resolution test** Cite specific prior GNN-based GRN inference methods, explain the mechanism by which transitive interactions limit their capacity, and describe how the proposed hierarchical Transformer overcomes this limitation in a way that existing graph Transformers do not.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abbreviation definition
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abbreviation "GRNS" appears in the abstract ("interact with nodes in the GRNS") but the standard abbreviation is "GRNs" as used elsewhere in the text.
+  - **Required correction** Use "GRNs" consistently throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Contrastive learning description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that gene ontology information is used to construct gene interaction networks for contrastive learning, but does not specify what the positive and negative pairs are, nor how the contrastive objective is formulated.
+  - **Required correction** Briefly describe the contrastive learning setup, including how positive and negative samples are defined and what loss function is used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Evaluation scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not indicate on which cell types, tissues, or species the method was evaluated, nor whether the method generalizes across different regulatory contexts.
+  - **Required correction** State the evaluation datasets and the range of conditions tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (insufficient architectural detail), R1-M3 (unestablished novelty gap)
+- **Assessment against Nature-style criteria** Originality: The combination of hierarchical graph Transformers with gene family virtual nodes and gene ontology-guided contrastive learning is conceptually interesting, but the abstract does not demonstrate sufficient differentiation from existing graph Transformer methods. Scientific importance: GRN inference is a significant problem in computational biology, and improved methods would be valuable, but the abstract does not establish the magnitude of improvement. Interdisciplinary readership: The work bridges machine learning and genomics, which has broad appeal, but the abstract is too technical for nonspecialists to appreciate the biological significance. Technical soundness: Cannot be assessed from the abstract alone; the architectural details and experimental validation are missing. Readability for nonspecialists: The abstract assumes familiarity with GNNs, ChIP-seq, and gene ontology; the biological motivation could be stated more accessibly.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach but lacks the quantitative results, technical detail, and clear novelty positioning required to support the claims. A full manuscript with comprehensive experiments and architectural descriptions would be needed to assess the contribution.
+
+## Risk / unsupported claims
+- "HGTCGRN achieves superior performance in GRN inference" is unsupported because no quantitative results are provided.
+- "HGTCGRN excels at capturing structural semantics" is unverifiable without architectural details or comparative experiments.
+- The claim that existing GNN-based methods "suffer from the inability to capture long-distance structural semantic correlations due to transitive interactions" is not substantiated with specific citations or mechanistic explanation.
+- The effectiveness of gene family virtual nodes and gene ontology-guided contrastive learning as distinct contributions cannot be evaluated without ablation studies.

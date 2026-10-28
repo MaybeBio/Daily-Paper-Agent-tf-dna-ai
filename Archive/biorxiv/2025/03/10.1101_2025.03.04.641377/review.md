@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary notes) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, claims substantiation, and presentation quality based solely on the supplied material
+- **Shared manuscript claim summary** The authors present DynamicGT, a graph neural network architecture that integrates conformational dynamics (from MD simulations and AlphaFlow-generated ensembles) with cooperative message passing between core and surface residues to predict protein binding interfaces, with claimed improvements in flexible and disordered regions and performance comparable to or better than static state-of-the-art models
+- **Visible evidence base** Abstract, introduction, results narrative, discussion, methods descriptions, supplementary note on equivariance, data and code availability statements
+- **Missing materials affecting confidence** No figures, tables, quantitative performance metrics, benchmark comparison tables, ablation results, or statistical analyses are visible in the provided text. The results section is narrative only, with no numerical data to verify claims
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in structural bioinformatics, namely the incorporation of conformational dynamics into binding site prediction, which is a recognized limitation of static structure-based methods. The conceptual framework, combining cooperative GNNs with geometric transformers and dynamic features, is innovative and potentially impactful. However, the provided material is insufficient to evaluate the central claims. No quantitative results, benchmark comparisons, or statistical analyses are presented in the visible text. The methods are described at a level that prevents reproducibility assessment. The equivariance proof in Supplementary Note 1 contains incomplete derivations and undefined notation. The claims of superior performance and data efficiency are not substantiated with any numerical evidence in the supplied material.
+- **Who would be interested in the results, and why** Computational structural biologists, researchers developing deep learning methods for protein function prediction, and scientists studying intrinsically disordered proteins and their interaction mechanisms. The approach of integrating MD-derived dynamics into graph-based deep learning could inform method development beyond binding site prediction, including protein design and interaction specificity studies.
+- **Major strengths** The problem addressed is significant and well-motivated, with clear limitations identified in existing static structure-based approaches. The architectural design is thoughtful, combining cooperative message passing with geometric transformers in a novel way. The inclusion of both bound and unbound states, and the use of MD simulations as a gold standard for dynamics, are scientifically sound choices. The proposed GeoLoss function with spatial awareness is an interesting contribution that could improve prediction quality near interfaces.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that DynamicGT "significantly boosts prediction accuracy when flexibility matters" and "achieves performance on par with state-of-the-art static predictors, despite being trained on significantly less data"
+  - **Evidence pointer** Results section, Figures 3-5 (referenced but not visible), Supplementary Tables S2 (referenced but not visible)
+  - **Concern** The central performance claims are presented without any quantitative data in the visible text. No numerical values for ROC-AUC, PR-AUC, MCC, or any other metric are provided. The comparisons to baseline methods are described qualitatively ("marginal improvements", "superior performance") without supporting statistics or confidence intervals. The results section reads as a summary of findings rather than a presentation of evidence.
+  - **Why it matters** Without quantitative results, the scientific contribution cannot be assessed. The claims of improved performance in flexible regions and data efficiency are the core contributions of the work, and their validity cannot be verified from the supplied material. This is a fundamental issue that prevents any meaningful evaluation of the manuscript's contribution.
+  - **Resolution test** Provide the actual performance metrics for all benchmarks, including median and variance measures, with clear comparisons to baseline methods. Include statistical significance testing where appropriate. Present the data in tables and figures that are visible in the manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods section describes the architecture, feature extraction, and training procedures, but with insufficient detail for reproduction
+  - **Evidence pointer** Methods section, Architecture description, Feature extraction strategy
+  - **Concern** The description of the architecture and training procedure lacks critical details. The number of layers, hidden dimensions, attention heads, learning rates, batch sizes, and optimization strategies are not specified. The feature extraction pipeline is described conceptually but without the precise mathematical formulations needed for implementation. The MD simulation setup is described but key parameters such as force field versions, water models, and simulation analysis protocols are incomplete. The AlphaFlow integration is mentioned but the specific generation and filtering procedures are not fully detailed.
+  - **Why it matters** Reproducibility is a cornerstone of scientific contribution. Without sufficient methodological detail, other researchers cannot build upon this work or verify the results. The manuscript as presented does not meet the standards expected for a methods-focused contribution.
+  - **Resolution test** Provide complete architectural specifications, hyperparameter values, training details, and precise feature calculation formulas. Include a clear description of the data processing pipeline from raw structures to final training examples. Make the code and trained models available for verification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Supplementary Note 1 claims to prove rotation equivariance and translation invariance of the proposed features and architecture
+  - **Evidence pointer** Supplementary Note 1
+  - **Concern** The equivariance proof is incomplete and contains undefined notation. The derivation for the attention mechanism is unclear, particularly the step where the softmax operation is claimed to be invariant without proper justification. The projection step is described with undefined variables (e.g., "ppm", "Ns", "Nh"). The proof does not address the full architecture, including the cooperative message passing mechanism and the pooling operation. The translation invariance claim is not addressed in the visible portion of the note.
+  - **Why it matters** The equivariance properties are fundamental to the architecture's design and claimed advantages. An incomplete or incorrect proof undermines confidence in the theoretical foundations of the method. If the equivariance properties do not hold as claimed, the architecture may not generalize as expected across different coordinate systems.
+  - **Resolution test** Provide a complete, rigorous proof of equivariance and invariance for all components of the architecture, with all notation clearly defined. Address the cooperative message passing mechanism and the pooling operation explicitly. Include a statement on translation invariance with proper derivation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmark validity
+  - **Claim pointer** The manuscript claims evaluation on "diverse independent datasets containing disordered, transient, and unbound structures" and specifically on the "Testing Transient" and "Test60" benchmarks
+  - **Evidence pointer** Results section, Benchmarks section
+  - **Concern** The description of benchmark datasets and evaluation protocols is incomplete. The "Testing Transient" dataset is referenced but its composition, size, and construction criteria are not described. The "Test60" benchmark is mentioned but its characteristics are not detailed. The ZDock benchmark evaluation is described but the categorization criteria and the handling of antibody chains are not fully explained. The potential for data leakage between training and test sets is not adequately addressed beyond a brief mention of clustering.
+  - **Why it matters** Benchmark validity is essential for assessing whether the reported performance reflects genuine generalization capability or artifacts of dataset construction. Incomplete benchmark descriptions prevent readers from evaluating the fairness of comparisons and the applicability of results to real-world scenarios.
+  - **Resolution test** Provide detailed descriptions of all benchmark datasets, including their sources, composition, and any filtering criteria. Clearly state the evaluation protocol, including how predictions are generated for each benchmark and how metrics are computed. Address potential data leakage concerns explicitly with quantitative analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "cooperative graph neural network (Co-GNN) architecture" is used without prior definition or context. The abbreviation Co-GNN is not standard and its relationship to the described cooperative message passing is unclear.
+  - **Required correction** Define Co-GNN explicitly or rephrase to avoid the abbreviation, ensuring the term is introduced with sufficient context for readers unfamiliar with the cooperative GNN literature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, "The dynamic co-operative graph transformer architecture"
+  - **Issue** The results section begins with a detailed architecture description, which is more appropriate for a methods section. This structure makes it difficult for readers to quickly identify the key findings and results.
+  - **Required correction** Restructure the results section to present key findings first, with architectural details moved to the methods section or presented as a brief overview with references to the full description.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, "Setup of MD simulations"
+  - **Issue** The description of MD simulation parameters is incomplete. The specific version of the CHARMM36m force field, the water model, the temperature coupling algorithm details, and the pressure coupling parameters are not fully specified. The criteria for determining simulation convergence are not mentioned.
+  - **Required correction** Provide complete simulation parameters, including all force field and water model specifications, coupling algorithm parameters, and convergence criteria. This is essential for reproducibility of the MD data generation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The statement that DynamicGT "learns hidden structural patterns beyond static representations" is vague and not supported by specific examples or analyses in the visible text.
+  - **Required correction** Provide concrete examples or analyses that illustrate what specific patterns the model learns that are not captured by static representations, or rephrase to be more specific about the claimed advantage.
+- **Technical failings that need to be addressed before the case is established** The absence of quantitative results is the primary technical failing. The manuscript cannot be evaluated for its central claims without performance metrics. The incomplete equivariance proof and insufficient methodological detail are secondary but significant issues that must be addressed. The benchmark descriptions are insufficient to assess the validity of comparisons.
+- **Assessment against Nature-style criteria** Originality: The combination of cooperative message passing with geometric transformers and dynamic features is novel and addresses a recognized gap in the field. Scientific importance: The problem of predicting binding interfaces in flexible and disordered regions is important and timely, with potential implications for drug discovery and protein engineering. Interdisciplinary readership: The work bridges structural biology, computational chemistry, and machine learning, and would interest researchers across these fields. Technical soundness: Cannot be assessed from the supplied material due to missing quantitative results and incomplete methodological details. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear motivation and context, though the architecture description could benefit from simplification for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual contribution is promising and the problem is well-motivated, but the absence of quantitative results, incomplete methodological details, and insufficient benchmark descriptions prevent any assessment of the work's validity or impact. The manuscript requires substantial revision to present the evidence supporting its claims before it can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that DynamicGT "significantly boosts prediction accuracy when flexibility matters" is unsupported by any visible quantitative data
+- The claim that DynamicGT "achieves performance on par with state-of-the-art static predictors, despite being trained on significantly less data" is unsupported by any visible comparison or data efficiency analysis
+- The claim that the model "effectively captures the cooperative folding dynamics characteristic of mutual folding events" is based on qualitative interpretation without supporting statistical evidence
+- The claim that the model "performs consistently well on both bound and unbound structures" is not substantiated with any performance data
+- The claim that the equivariance properties are preserved throughout the architecture is not fully proven in the visible supplementary material
+- The claim that the dataset is "comprehensive" and represents a "gold standard" for training is not supported by any dataset statistics or quality metrics in the visible text

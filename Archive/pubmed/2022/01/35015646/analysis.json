@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35015646",
+  "title": "SENIES: DNA Shape Enhanced Two-Layer Deep Learning Predictor for the Identification of Enhancers and Their Strength.",
+  "authors": "Li, Ye; Kong, Fanhui; Cui, Hui; Wang, Fan; Li, Chunquan; Ma, Jiquan",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2022-01-12",
+  "window": {
+    "start": "2022-01-10",
+    "end": "2022-01-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于DNA形状特征增强的两层深度学习模型SENIES，用于增强子及其强度识别，虽非直接TF-DNA结合建模，但DNA形状特征与TF结合偏好相关，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Identifying enhancers is a critical task in bioinformatics due to their primary role in regulating gene expression. For this reason, various computational algorithms devoted to enhancer identification have been put forward over the years. More features are extracted from the single DNA sequences to boost the performance. Nevertheless, DNA structural information is neglected, which is an essential factor affecting the binding preferences of transcription factors to regulatory elements like enhancers. Here, we propose SENIES, a DNA shape enhanced deep learning predictor, to identify enhancers and their strength. The predictor consists of two layers where the first layer is for enhancer and non-enhancer identification, and the second layer is for predicting the strength of enhancers. Apart from two common sequence-derived features (i.e., one-hot and k-mer), DNA shape is introduced to describe the 3D structures of DNA sequences. Performance comparison with state-of-the-art methods conducted on public datasets demonstrates the effectiveness and robustness of our predictor. The code implementation of SENIES is publicly available at https://github.com/hlju-liye/SENIES.",
+  "abstract_zh": "识别增强子是生物信息学中的一项关键任务，因为它们在调控基因表达中发挥主要作用。因此，多年来已提出了多种专门用于增强子识别的计算算法。为了提升性能，从单一DNA序列中提取了更多特征。然而，DNA结构信息被忽视了，而这是影响转录因子与增强子等调控元件结合偏好的重要因素。在此，我们提出SENIES，一种DNA形状增强的深度学习预测器，用于识别增强子及其强度。该预测器由两层组成，第一层用于增强子与非增强子的识别，第二层用于预测增强子的强度。除了两种常见的序列衍生特征（即one-hot和k-mer），引入DNA形状来描述DNA序列的三维结构。在公共数据集上与最先进方法的性能比较证明了我们预测器的有效性和稳健性。SENIES的代码实现可在https://github.com/hlju-liye/SENIES公开获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35015646/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35015646/",
+  "paper_page_path": "papers/pubmed/35015646/index.html"
+}

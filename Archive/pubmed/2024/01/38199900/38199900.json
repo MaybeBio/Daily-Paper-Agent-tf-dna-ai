@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "38199900",
+    "doi": "10.1016/j.acra.2023.12.025",
+    "title": "Consensus Clustering Analysis Based on Enhanced-CT Radiomic Features: Esophageal Squamous Cell Carcinoma patients' 3-Year Progression-Free Survival."
+  },
+  "content": {
+    "abstract": "RATIONALE AND OBJECTIVES: To assess the efficacy of consensus cluster analysis based on CT radiomics in stratifying risk and predicting postoperative progression-free survival (PFS) in patients diagnosed with esophageal squamous cell carcinoma (ESC). MATERIALS AND METHODS: We conducted a retrospective study involving 546 patients diagnosed with ESC between January 2016 and March 2021. All patients underwent preoperative enhanced CT examinations. From the enhanced CT images, radiomics features were extracted, and a consensus clustering algorithm was applied to group the patients based on these features. Statistical analysis was performed to examine the relationship between the clustering results and gene protein expression, histopathological features, and patients' 3-year PFS. We applied the Kruskal-Wallis test for continuous data, chi-square or Fisher's exact tests for categorical data, and the log-rank test for PFS. RESULTS: This study identified four groups: Cluster 1 (n = 100, 18.3%), Cluster 2 (n = 197, 36.1%), Cluster 3 (n = 205, 37.5%), and Cluster 4 (n = 44, 8.1%). The cancer gene Breast Cancer Susceptibility Gene 1 (BRCA1) was most highly expressed in Cluster 4 (75%), showing significant differences between the four subtypes with a P-value of 0.035. The expression of programmed death-1 (PD-1) was highest in Cluster 1 (51%), with a P-value of 0.022. Vascular invasion occurred most frequently in Cluster 2 (28.9%), with a P-value of 0.022. The majority of patients with stage T3-4 were in Cluster 2 (67%), with a P-value of 0.003. Kaplan-Meier survival analysis revealed significant differences in PFS between the four groups (P = 0.013). Among them, patients in Cluster 1 had the best prognosis, while those in Cluster 2 had the worst. CONCLUSION: This study highlights the effectiveness of consensus clustering analysis based on enhanced CT radiomics features in identifying associations between radiomics features, histopathological characteristics, and prognosis in different clusters. These findings provide valuable insights for clinicians in accurately and effectively evaluating the prognosis of esophageal cancer.",
+    "keywords": [
+      "Consensus Clustering",
+      "Enhanced-CT",
+      "Progression-Free Survival",
+      "Radiomic",
+      "Unsupervised machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Male",
+      "Retrospective Studies",
+      "*Esophageal Neoplasms/diagnostic imaging/pathology",
+      "Cluster Analysis",
+      "Middle Aged",
+      "*Tomography, X-Ray Computed/methods",
+      "*Progression-Free Survival",
+      "*Esophageal Squamous Cell Carcinoma/diagnostic imaging",
+      "Aged",
+      "Adult",
+      "Consensus",
+      "BRCA1 Protein/genetics",
+      "Aged, 80 and over",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jia, Jianye",
+        "Liu, Ziyan",
+        "Wang, Fen",
+        "Bai, Genji"
+      ],
+      "short_names": [
+        "Jia J",
+        "Liu Z",
+        "Wang F",
+        "Bai G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Department of Medical Imaging Center, The Affiliated Huaian NO.1 People's Hospital of Nanjing Medical University, No. 1 West Huanghe Road, Huaian, 223300, Jiangsu, PR China.",
+        "The Department of Medical Imaging Center, The Affiliated Huaian NO.1 People's Hospital of Nanjing Medical University, No. 1 West Huanghe Road, Huaian, 223300, Jiangsu, PR China.",
+        "The Department of Medical Imaging Center, The Affiliated Huaian NO.1 People's Hospital of Nanjing Medical University, No. 1 West Huanghe Road, Huaian, 223300, Jiangsu, PR China.",
+        "The Department of Medical Imaging Center, The Affiliated Huaian NO.1 People's Hospital of Nanjing Medical University, No. 1 West Huanghe Road, Huaian, 223300, Jiangsu, PR China. Electronic address: hybgj0451@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jia, Jianye",
+        "short_name": "Jia J",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Medical Imaging Center, The Affiliated Huaian NO.1 People's Hospital of Nanjing Medical University, No. 1 West Huanghe Road, Huaian, 223300, Jiangsu, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ziyan",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Medical Imaging Center, The Affiliated Huaian NO.1 People's Hospital of Nanjing Medical University, No. 1 West Huanghe Road, Huaian, 223300, Jiangsu, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fen",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Medical Imaging Center, The Affiliated Huaian NO.1 People's Hospital of Nanjing Medical University, No. 1 West Huanghe Road, Huaian, 223300, Jiangsu, PR China."
+        ]
+      },
+      {
+        "full_name": "Bai, Genji",
+        "short_name": "Bai G",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Medical Imaging Center, The Affiliated Huaian NO.1 People's Hospital of Nanjing Medical University, No. 1 West Huanghe Road, Huaian, 223300, Jiangsu, PR China. Electronic address: hybgj0451@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Academic radiology"
+    ],
+    "journal_abbrev": [
+      "Acad Radiol"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/11 00:41",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "42440230",
+      "42064395",
+      "40575335",
+      "40426913",
+      "40098023",
+      "39969552"
+    ],
+    "refs": [],
+    "similar": [
+      "38199900",
+      "38480505",
+      "39367492",
+      "39039007",
+      "36575480",
+      "32769880",
+      "34192686",
+      "37743537",
+      "39639328",
+      "39241166",
+      "38947338",
+      "34908477",
+      "39543534",
+      "40175977",
+      "35230187",
+      "38843660",
+      "36794365",
+      "39729864",
+      "40195320",
+      "39809604",
+      "31673835",
+      "39305294",
+      "34717582",
+      "37231388",
+      "37663660",
+      "39627736",
+      "39420415",
+      "39470794",
+      "31619297",
+      "37831168",
+      "37949700",
+      "39533388",
+      "38890720",
+      "30929999",
+      "35608663",
+      "40329257",
+      "39732617",
+      "38845294",
+      "31903981",
+      "38636408",
+      "38689366",
+      "39311949",
+      "33121507",
+      "35300908",
+      "39147643",
+      "35750106",
+      "39536596",
+      "40301780",
+      "39930119",
+      "39779914",
+      "39341168",
+      "39287013",
+      "40090670",
+      "39891186",
+      "38206403",
+      "35581563",
+      "38310283",
+      "38432286",
+      "38086310",
+      "39651734",
+      "39800381",
+      "34722265",
+      "38263395",
+      "37992611",
+      "30067421",
+      "39548404",
+      "33512851",
+      "40177755",
+      "40119284",
+      "31756181",
+      "39972430",
+      "40098023",
+      "40251316",
+      "34311416",
+      "37779188",
+      "38981774",
+      "39251442",
+      "37843576",
+      "38106287",
+      "38712652",
+      "35212776",
+      "40092700",
+      "38352868",
+      "36860814",
+      "39256086",
+      "34647417",
+      "40089723",
+      "39529158",
+      "36222855",
+      "30949816",
+      "39643470",
+      "35293227",
+      "39307133",
+      "39844102",
+      "30120041",
+      "39306192",
+      "31278324",
+      "39788813",
+      "40181378",
+      "38268475"
+    ],
+    "review": [
+      "38199900"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1076-6332(23)00703-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1076-6332(23)00703-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ctscans.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "CT Scans"
+      }
+    ],
+    "text_mined": []
+  }
+}

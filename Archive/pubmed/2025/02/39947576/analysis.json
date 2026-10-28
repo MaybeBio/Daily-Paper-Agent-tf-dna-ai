@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39947576",
+  "title": "Screening of estrogen receptor activity of per- and polyfluoroalkyl substances based on deep learning and in vivo assessment.",
+  "authors": "Pang, Xudi; Lu, Miao; Yang, Ying; Cao, Huiming; Sun, Yuzhen; Zhou, Zhen; Wang, Ling; Liang, Yong",
+  "journal": "Environmental pollution (Barking, Essex : 1987)",
+  "published_date": "2025-02-14",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习GXDNet预测PFAS与雌激素受体α的活性并辅以分子对接，虽涉及蛋白-配体结合建模，但对象为小分子-蛋白而非蛋白质-DNA互作，与TF-DNA课题关联较弱。",
+  "abstract": "Over the past decades, exposure to per- and polyfluoroalkyl substances (PFAS), a group of synthetic chemicals notorious for their environmental persistence, has been shown to pose increased health risks. Despite that some PFAS were reported to have endocrine-disrupting toxicity in previous studies, accurate prediction models based on deep learning and the underlying structural characteristics related to the effect of molecular fluorination remain limited. To address these issues, we proposed a stacking deep learning architecture, GXDNet, that integrates molecular descriptors and molecular graphs to predict the estrogen receptor alpha (ERalpha) activities of compounds, enhancing the generalization ability compared to previous models. Subsequently, we screened the ERalpha activity of 10,067 PFAS molecules using the GXDNet model and identified potential ERalpha binders. The representative PFAS molecules with the top docking scores showed that the introduction of fluorinated alkane chains significantly increased the binding affinities of parent molecules with ERalpha, suggesting that the combination of phenol structural fragments and fluorinated alkane chains has a synergistic effect in improving the binding capacity of the ligands to ERalpha. The binding modes, SHapley Additive Explanations analysis, and attention map emphasized the importance of pi-pi stacking and hydrogen bonding interactions with the phenol group, while the fluorinated alkane chain enhanced the interaction with the hydrophobic amino acids of the active pocket. Experimental validation using zebrafish models further confirmed the ERalpha activity of the representative PFAS molecules. Overall, the current computational workflow is beneficial for the toxicological screening of emerging PFAS and accelerating the development of eco-friendly PFAS molecules, thereby mitigating the environmental and health risks associated with PFAS exposure.",
+  "abstract_zh": "过去几十年来，接触全氟和多氟烷基物质（PFAS）——一类以环境持久性著称的合成化学品——已被证明会增加健康风险。尽管先前的研究报道了一些PFAS具有内分泌干扰毒性，但基于深度学习且结合分子氟化效应相关结构特征的准确预测模型仍然有限。为解决这些问题，我们提出了一种堆叠深度学习架构GXDNet，该架构整合了分子描述符和分子图来预测化合物的雌激素受体α（ERalpha）活性，与先前模型相比增强了泛化能力。随后，我们使用GXDNet模型筛选了10,067个PFAS分子的ERalpha活性，并识别出潜在的ERalpha结合物。具有最高对接分数的代表性PFAS分子表明，氟化烷烃链的引入显著增加了母体分子与ERalpha的结合亲和力，提示酚类结构片段与氟化烷烃链的组合在提高配体与ERalpha结合能力方面具有协同效应。结合模式、SHapley加性解释分析和注意力图强调了与酚基团的π-π堆积和氢键相互作用的重要性，而氟化烷烃链则增强了与活性口袋疏水氨基酸的相互作用。使用斑马鱼模型的实验验证进一步确认了代表性PFAS分子的ERalpha活性。总体而言，当前的计算工作流程有助于新兴PFAS的毒理学筛选，并加速环境友好型PFAS分子的开发，从而减轻与PFAS暴露相关的环境和健康风险。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39947576/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39947576/",
+  "paper_page_path": "papers/pubmed/39947576/index.html"
+}

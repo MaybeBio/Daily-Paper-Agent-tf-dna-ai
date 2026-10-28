@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "41501500",
+    "doi": "10.1038/s42003-025-09469-8",
+    "title": "Multimodal epigenetic and enhancer network remodeling shape the transcriptional landscape of human beige adipocytes."
+  },
+  "content": {
+    "abstract": "Epigenetic regulation is a key determinant of adipocyte fate, driving the differentiation toward white or thermogenic beige phenotypes in response to environmental cues. To dissect the mechanisms orchestrating this plasticity in human adipocytes, we conducted an integrative analysis of transcriptomic, epigenomic and enhancer connectome dynamics throughout white and beige adipogenesis. Using a machine learning approach, we show that the white transcriptional program is tightly linked to promoter-level modulation of H3K27ac and chromatin accessibility, whereas the beige-specific induction of mitochondrial genes is driven by promoter remodeling of H3K4me3, underscoring distinct epigenetic mechanisms for white or beige specification. Adipocyte beiging is accompanied by a targeted reorganization of the 3D genome, characterized by increased recruitment of short-range enhancers controlling thermogenesis genes, enriched for C/EBP transcription factor binding sites. Our findings highlight the multimodal regulation of the beige adipocyte fate, driven by the interplay of chromatin state transitions, enhancer rewiring, and transcription factor dynamics.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Adipocytes, Beige/metabolism",
+      "*Epigenesis, Genetic",
+      "*Enhancer Elements, Genetic",
+      "Adipogenesis/genetics",
+      "*Transcription, Genetic",
+      "Cell Differentiation",
+      "Promoter Regions, Genetic",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hazell Pickering, Sarah",
+        "Galigniana, Natalia M",
+        "Abdelhalim, Mohamed",
+        "Sorensen, Anita L",
+        "Madsen-Osterbye, Julia",
+        "Zucknick, Manuela",
+        "Collas, Philippe",
+        "Briand, Nolwenn"
+      ],
+      "short_names": [
+        "Hazell Pickering S",
+        "Galigniana NM",
+        "Abdelhalim M",
+        "Sorensen AL",
+        "Madsen-Osterbye J",
+        "Zucknick M",
+        "Collas P",
+        "Briand N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9347-6275",
+        "ORCID: 0000-0002-0712-719X",
+        "ORCID: 0000-0002-5059-6901",
+        "ORCID: 0000-0001-6080-9352"
+      ],
+      "affiliations": [
+        "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway.",
+        "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway.",
+        "Department of Immunology and Transfusion Medicine, Oslo University Hospital, Oslo, Norway.",
+        "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway.",
+        "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway.",
+        "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway.",
+        "Oslo Centre for Biostatistics and Epidemiology, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway.",
+        "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway. philc@medisin.uio.no.",
+        "Department of Immunology and Transfusion Medicine, Oslo University Hospital, Oslo, Norway. philc@medisin.uio.no.",
+        "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway. nolwenn.briand@medisin.uio.no."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hazell Pickering, Sarah",
+        "short_name": "Hazell Pickering S",
+        "identifiers": [
+          "0000-0001-9347-6275"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Galigniana, Natalia M",
+        "short_name": "Galigniana NM",
+        "identifiers": [
+          "0000-0002-0712-719X"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway.",
+          "Department of Immunology and Transfusion Medicine, Oslo University Hospital, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Abdelhalim, Mohamed",
+        "short_name": "Abdelhalim M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Sørensen, Anita L",
+        "short_name": "Sørensen AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Madsen-Østerbye, Julia",
+        "short_name": "Madsen-Østerbye J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Zucknick, Manuela",
+        "short_name": "Zucknick M",
+        "identifiers": [],
+        "affiliations": [
+          "Oslo Centre for Biostatistics and Epidemiology, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Collas, Philippe",
+        "short_name": "Collas P",
+        "identifiers": [
+          "0000-0002-5059-6901"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway. philc@medisin.uio.no.",
+          "Department of Immunology and Transfusion Medicine, Oslo University Hospital, Oslo, Norway. philc@medisin.uio.no."
+        ]
+      },
+      {
+        "full_name": "Briand, Nolwenn",
+        "short_name": "Briand N",
+        "identifiers": [
+          "0000-0001-6080-9352"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Institute of Basic Medical Sciences, Faculty of Medicine, University of Oslo, Oslo, Norway. nolwenn.briand@medisin.uio.no."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2026 Jan 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/08 00:26",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [
+      "41854078"
+    ],
+    "refs": [
+      "40634602",
+      "39694039",
+      "39558077",
+      "39547207",
+      "38859907",
+      "38459186",
+      "38382670",
+      "36323252",
+      "36273781",
+      "34850907",
+      "34099725",
+      "33888560",
+      "33741735",
+      "33208455",
+      "32848148",
+      "31375807",
+      "31351920",
+      "31092938",
+      "30986246",
+      "30423086",
+      "30332656",
+      "29910772",
+      "29909972",
+      "29657031",
+      "29130882",
+      "29120462",
+      "28846090",
+      "27568548",
+      "27110487",
+      "26625958",
+      "26445512",
+      "26359231",
+      "26306033",
+      "25504365",
+      "24799436",
+      "24788520",
+      "24782521",
+      "24485249",
+      "24227677",
+      "24146030",
+      "24141950",
+      "23624403",
+      "23582322",
+      "22388286",
+      "21854863",
+      "21221095",
+      "21212137",
+      "21112399",
+      "20720539",
+      "20196867",
+      "19641492",
+      "19505943",
+      "18798982",
+      "16725346",
+      "9154808",
+      "7768881",
+      "7565758",
+      "1620116"
+    ],
+    "similar": [
+      "41501500",
+      "38765953",
+      "41854078",
+      "30606913",
+      "38859907",
+      "35476139",
+      "27251423",
+      "31123067",
+      "40582590",
+      "22028663",
+      "32139607",
+      "35297993",
+      "35203402",
+      "29657031",
+      "29654753",
+      "23736373",
+      "41832214",
+      "39828228",
+      "36273781",
+      "29067487",
+      "31234575",
+      "41286427",
+      "32855402",
+      "32240964",
+      "40702585",
+      "40446748",
+      "41627586",
+      "39155481",
+      "29750960",
+      "29800720",
+      "42194978",
+      "41258103",
+      "33285300",
+      "24238035",
+      "29031730",
+      "31699980",
+      "38831186",
+      "31953260",
+      "29574003",
+      "30279164",
+      "22617562",
+      "38775132",
+      "29158445",
+      "32219439",
+      "23326641",
+      "31036938",
+      "40527120",
+      "28475875",
+      "40176372",
+      "33197517",
+      "32595605",
+      "32843579",
+      "27637001",
+      "31155526",
+      "36581314",
+      "41072791",
+      "30148740",
+      "27498007",
+      "25183525",
+      "41533786",
+      "36451857",
+      "31990671",
+      "29912360",
+      "30681884",
+      "32991581",
+      "28882900",
+      "34725126",
+      "33013707",
+      "31751577",
+      "40895527",
+      "40441068",
+      "33836591",
+      "27693079",
+      "35701601",
+      "33556486",
+      "30232001",
+      "35672324",
+      "32817427",
+      "31420514",
+      "41402325",
+      "28154348",
+      "28854265",
+      "35087924",
+      "37905345",
+      "32927882",
+      "22537144",
+      "39465352",
+      "38972757",
+      "22079269",
+      "28461471",
+      "33020665",
+      "40198135",
+      "28446594",
+      "28949928",
+      "19811452",
+      "37722500",
+      "24288131",
+      "2511432",
+      "28755519",
+      "26306033"
+    ],
+    "review": [
+      "41501500",
+      "30606913",
+      "27251423",
+      "29800720",
+      "22617562",
+      "32219439",
+      "31155526",
+      "30148740",
+      "34725126",
+      "33013707",
+      "40895527",
+      "27693079",
+      "22079269"
+    ],
+    "pmc": [
+      "12881478"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-025-09469-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41501500/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

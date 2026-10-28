@@ -1,0 +1,475 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.03.569805",
+  "title": "A foundational atlas of autism protein interactions reveals molecular convergence",
+  "doi": "10.1101/2023.12.03.569805",
+  "abstract": "<h4>Summary</h4> Translating high-confidence (hc) autism spectrum disorder (ASD) genes into viable treatment targets remains elusive. We constructed a foundational protein-protein interaction (PPI) network in HEK293T cells involving 100 hcASD risk genes, revealing over 1,800 PPIs (87% novel). Interactors, expressed in the human brain and enriched for ASD but not schizophrenia genetic risk, converged on protein complexes involved in neurogenesis, tubulin biology, transcriptional regulation, and chromatin modification. A PPI map of 54 patient-derived missense variants identified differential physical interactions, and we leveraged AlphaFold-Multimer predictions to prioritize direct PPIs and specific variants for interrogation in Xenopus tropicalis and human forebrain organoids. A mutation in the transcription factor FOXP1 led to reconfiguration of DNA binding sites and altered development of deep cortical layer neurons in forebrain organoids. This work offers new insights into molecular mechanisms underlying ASD and describes a powerful platform to develop and test therapeutic strategies for many genetically-defined conditions.",
+  "authors": [
+    "Wang B",
+    "Vartak R",
+    "Zaltsman Y",
+    "Naing ZZC",
+    "Hennick KM",
+    "Polacco BJ",
+    "Bashir A",
+    "Eckhardt M",
+    "Bouhaddou M",
+    "Xu J",
+    "Sun N",
+    "Lasser MC",
+    "Zhou Y",
+    "McKetney J",
+    "Guiley KZ",
+    "Chan U",
+    "Kaye JA",
+    "Chadha N",
+    "Cakir M",
+    "Gordon M",
+    "Khare P",
+    "Drake S",
+    "Drury V",
+    "Burke DF",
+    "Gonzalez S",
+    "Alkhairy S",
+    "Thomas R",
+    "Lam S",
+    "Morris M",
+    "Bader E",
+    "Seyler M",
+    "Baum T",
+    "Krasnoff R",
+    "Wang S",
+    "Pham P",
+    "Arbalaez J",
+    "Pratt D",
+    "Chag S",
+    "Mahmood N",
+    "Rolland T",
+    "Bourgeron T",
+    "Finkbeiner S",
+    "Swaney DL",
+    "Bandyopadhay S",
+    "Ideker T",
+    "Beltrao P",
+    "Willsey HR",
+    "Obernier K",
+    "Nowakowski TJ",
+    "Hüttenhain R",
+    "State MW",
+    "Willsey AJ",
+    "Krogan NJ"
+  ],
+  "published_date": "2023-12-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.03.569805",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.03.569805.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR768123",
+    "raw_record": {
+      "id": "PPR768123",
+      "source": "PPR",
+      "doi": "10.1101/2023.12.03.569805",
+      "title": "A foundational atlas of autism protein interactions reveals molecular convergence",
+      "authorString": "Wang B, Vartak R, Zaltsman Y, Naing ZZC, Hennick KM, Polacco BJ, Bashir A, Eckhardt M, Bouhaddou M, Xu J, Sun N, Lasser MC, Zhou Y, McKetney J, Guiley KZ, Chan U, Kaye JA, Chadha N, Cakir M, Gordon M, Khare P, Drake S, Drury V, Burke DF, Gonzalez S, Alkhairy S, Thomas R, Lam S, Morris M, Bader E, Seyler M, Baum T, Krasnoff R, Wang S, Pham P, Arbalaez J, Pratt D, Chag S, Mahmood N, Rolland T, Bourgeron T, Finkbeiner S, Swaney DL, Bandyopadhay S, Ideker T, Beltrao P, Willsey HR, Obernier K, Nowakowski TJ, Hüttenhain R, State MW, Willsey AJ, Krogan NJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang B",
+            "lastName": "Wang",
+            "firstName": "Belinda",
+            "initials": "B"
+          },
+          {
+            "fullName": "Vartak R",
+            "lastName": "Vartak",
+            "firstName": "Rasika",
+            "initials": "R"
+          },
+          {
+            "fullName": "Zaltsman Y",
+            "lastName": "Zaltsman",
+            "firstName": "Yefim",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Naing ZZC",
+            "lastName": "Naing",
+            "firstName": "Zun Zar Chi",
+            "initials": "ZZC"
+          },
+          {
+            "fullName": "Hennick KM",
+            "lastName": "Hennick",
+            "firstName": "Kelsey",
+            "initials": "KM"
+          },
+          {
+            "fullName": "Polacco BJ",
+            "lastName": "Polacco",
+            "firstName": "Benjamin",
+            "initials": "BJ"
+          },
+          {
+            "fullName": "Bashir A",
+            "lastName": "Bashir",
+            "firstName": "Ali",
+            "initials": "A"
+          },
+          {
+            "fullName": "Eckhardt M",
+            "lastName": "Eckhardt",
+            "firstName": "Manon",
+            "initials": "M"
+          },
+          {
+            "fullName": "Bouhaddou M",
+            "lastName": "Bouhaddou",
+            "firstName": "Mehdi",
+            "initials": "M"
+          },
+          {
+            "fullName": "Xu J",
+            "lastName": "Xu",
+            "firstName": "Jiewei",
+            "initials": "J"
+          },
+          {
+            "fullName": "Sun N",
+            "lastName": "Sun",
+            "firstName": "Nawei",
+            "initials": "N"
+          },
+          {
+            "fullName": "Lasser MC",
+            "lastName": "Lasser",
+            "firstName": "Micaela",
+            "initials": "MC"
+          },
+          {
+            "fullName": "Zhou Y",
+            "lastName": "Zhou",
+            "firstName": "Yuan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "McKetney J",
+            "lastName": "McKetney",
+            "firstName": "Justin",
+            "initials": "J"
+          },
+          {
+            "fullName": "Guiley KZ",
+            "lastName": "Guiley",
+            "firstName": "Keelan",
+            "initials": "KZ"
+          },
+          {
+            "fullName": "Chan U",
+            "lastName": "Chan",
+            "firstName": "Una",
+            "initials": "U"
+          },
+          {
+            "fullName": "Kaye JA",
+            "lastName": "Kaye",
+            "firstName": "Julia",
+            "initials": "JA"
+          },
+          {
+            "fullName": "Chadha N",
+            "lastName": "Chadha",
+            "firstName": "Nishant",
+            "initials": "N"
+          },
+          {
+            "fullName": "Cakir M",
+            "lastName": "Cakir",
+            "firstName": "Merve",
+            "initials": "M"
+          },
+          {
+            "fullName": "Gordon M",
+            "lastName": "Gordon",
+            "firstName": "Martin",
+            "initials": "M"
+          },
+          {
+            "fullName": "Khare P",
+            "lastName": "Khare",
+            "firstName": "Prachi",
+            "initials": "P"
+          },
+          {
+            "fullName": "Drake S",
+            "lastName": "Drake",
+            "firstName": "Sam",
+            "initials": "S"
+          },
+          {
+            "fullName": "Drury V",
+            "lastName": "Drury",
+            "firstName": "Vanessa",
+            "initials": "V"
+          },
+          {
+            "fullName": "Burke DF",
+            "lastName": "Burke",
+            "firstName": "David",
+            "initials": "DF"
+          },
+          {
+            "fullName": "Gonzalez S",
+            "lastName": "Gonzalez",
+            "firstName": "Silvano",
+            "initials": "S"
+          },
+          {
+            "fullName": "Alkhairy S",
+            "lastName": "Alkhairy",
+            "firstName": "Sahar",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1457-9802"
+            }
+          },
+          {
+            "fullName": "Thomas R",
+            "lastName": "Thomas",
+            "firstName": "Reuben",
+            "initials": "R"
+          },
+          {
+            "fullName": "Lam S",
+            "lastName": "Lam",
+            "firstName": "Stephanie",
+            "initials": "S"
+          },
+          {
+            "fullName": "Morris M",
+            "lastName": "Morris",
+            "firstName": "Montana",
+            "initials": "M"
+          },
+          {
+            "fullName": "Bader E",
+            "lastName": "Bader",
+            "firstName": "Ethel",
+            "initials": "E"
+          },
+          {
+            "fullName": "Seyler M",
+            "lastName": "Seyler",
+            "firstName": "Meghan",
+            "initials": "M"
+          },
+          {
+            "fullName": "Baum T",
+            "lastName": "Baum",
+            "firstName": "Tierney",
+            "initials": "T"
+          },
+          {
+            "fullName": "Krasnoff R",
+            "lastName": "Krasnoff",
+            "firstName": "Rebecca",
+            "initials": "R"
+          },
+          {
+            "fullName": "Wang S",
+            "lastName": "Wang",
+            "firstName": "Sheng",
+            "initials": "S"
+          },
+          {
+            "fullName": "Pham P",
+            "lastName": "Pham",
+            "firstName": "Presley",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3328-2836"
+            }
+          },
+          {
+            "fullName": "Arbalaez J",
+            "lastName": "Arbalaez",
+            "firstName": "Juan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Pratt D",
+            "lastName": "Pratt",
+            "firstName": "Dexter",
+            "initials": "D"
+          },
+          {
+            "fullName": "Chag S",
+            "lastName": "Chag",
+            "firstName": "Shivali",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mahmood N",
+            "lastName": "Mahmood",
+            "firstName": "Nadir",
+            "initials": "N"
+          },
+          {
+            "fullName": "Rolland T",
+            "lastName": "Rolland",
+            "firstName": "Thomas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Bourgeron T",
+            "lastName": "Bourgeron",
+            "firstName": "Thomas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Finkbeiner S",
+            "lastName": "Finkbeiner",
+            "firstName": "Steven",
+            "initials": "S"
+          },
+          {
+            "fullName": "Swaney DL",
+            "lastName": "Swaney",
+            "firstName": "Danielle",
+            "initials": "DL"
+          },
+          {
+            "fullName": "Bandyopadhay S",
+            "lastName": "Bandyopadhay",
+            "firstName": "Sourav",
+            "initials": "S"
+          },
+          {
+            "fullName": "Ideker T",
+            "lastName": "Ideker",
+            "firstName": "Trey",
+            "initials": "T"
+          },
+          {
+            "fullName": "Beltrao P",
+            "lastName": "Beltrao",
+            "firstName": "Pedro",
+            "initials": "P"
+          },
+          {
+            "fullName": "Willsey HR",
+            "lastName": "Willsey",
+            "firstName": "Helen Rankin",
+            "initials": "HR"
+          },
+          {
+            "fullName": "Obernier K",
+            "lastName": "Obernier",
+            "firstName": "Kirsten",
+            "initials": "K"
+          },
+          {
+            "fullName": "Nowakowski TJ",
+            "lastName": "Nowakowski",
+            "firstName": "Tomasz",
+            "initials": "TJ"
+          },
+          {
+            "fullName": "Hüttenhain R",
+            "lastName": "Hüttenhain",
+            "firstName": "Ruth",
+            "initials": "R"
+          },
+          {
+            "fullName": "State MW",
+            "lastName": "State",
+            "firstName": "Matthew",
+            "initials": "MW"
+          },
+          {
+            "fullName": "Willsey AJ",
+            "lastName": "Willsey",
+            "firstName": "Jeremy",
+            "initials": "AJ"
+          },
+          {
+            "fullName": "Krogan NJ",
+            "lastName": "Krogan",
+            "firstName": "Nevan",
+            "initials": "NJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1457-9802"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3328-2836"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary</h4>  Translating high-confidence (hc) autism spectrum disorder (ASD) genes into viable treatment targets remains elusive. We constructed a foundational protein-protein interaction (PPI) network in HEK293T cells involving 100 hcASD risk genes, revealing over 1,800 PPIs (87% novel). Interactors, expressed in the human brain and enriched for ASD but not schizophrenia genetic risk, converged on protein complexes involved in neurogenesis, tubulin biology, transcriptional regulation, and chromatin modification. A PPI map of 54 patient-derived missense variants identified differential physical interactions, and we leveraged AlphaFold-Multimer predictions to prioritize direct PPIs and specific variants for interrogation in  Xenopus tropicalis and human forebrain organoids. A mutation in the transcription factor FOXP1 led to reconfiguration of DNA binding sites and altered development of deep cortical layer neurons in forebrain organoids. This work offers new insights into molecular mechanisms underlying ASD and describes a powerful platform to develop and test therapeutic strategies for many genetically-defined conditions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/03/2023.12.03.569805.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.03.569805"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-12-05",
+      "firstPublicationDate": "2023-12-03",
+      "firstIndexDate": "2023-12-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

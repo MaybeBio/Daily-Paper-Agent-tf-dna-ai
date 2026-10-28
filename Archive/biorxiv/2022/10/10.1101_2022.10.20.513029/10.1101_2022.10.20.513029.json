@@ -1,0 +1,460 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.20.513029",
+  "title": "TEINet: a deep learning framework for prediction of TCR-epitope binding specificity",
+  "doi": "10.1101/2022.10.20.513029",
+  "abstract": "The adaptive immune response to foreign antigens is initiated by T-cell receptor (TCR) recognition on the antigens. Recent experimental advances have enabled the generation of a large amount of TCR data and their cognate antigenic targets, allowing machine learning models to predict the binding specificity of TCRs. In this work, we present TEINet, a deep learning framework that utilizes transfer learning to address this prediction problem. TEINet employs two separately trained encoders to transform TCR and epitope sequences into numerical vectors, which are subsequently fed into a fully connected neural network to predict their binding specificities. A major challenge for binding specificity prediction is the lack of a unified approach to sample negative data. Here, we first assess the current negative sampling approaches comprehensively and suggest that the Unified Epitope is the most suitable one. Subsequently, we compare TEINet with three baseline methods and observe that TEINet achieves an AUROC of 0.760, which outperforms baseline methods by 6.4-26%. Furthermore, we investigate the impacts of the pretraining step and notice that excessive pretraining can adversely affect model performance. Our results and analysis show that TEINet can make an accurate prediction using only the TCR sequence (CDR3 β ) and the epitope sequence, providing novel insights to understand the interactions between TCRs and epitopes. TEINet is available at https://github.com/jiangdada1221/TEINet .",
+  "authors": [
+    "Yuepeng Jiang",
+    "Miaozhe Huo",
+    "Shuai Cheng Li"
+  ],
+  "published_date": "2022-10-21",
+  "updated_date": "2022-10-26T04:50:53Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.513029",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.513029.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            5
+          ]
+        ],
+        "date-time": "2026-04-05T09:04:09Z",
+        "timestamp": 1775379849277,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            21
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 37,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The adaptive immune response to foreign antigens is initiated by T-cell receptor (TCR) recognition on the antigens. Recent experimental advances have enabled the generation of a large amount of TCR data and their cognate antigenic targets, allowing machine learning models to predict the binding specificity of TCRs. In this work, we present TEINet, a deep learning framework that utilizes transfer learning to address this prediction problem. TEINet employs two separately trained encoders to transform TCR and epitope sequences into numerical vectors, which are subsequently fed into a fully connected neural network to predict their binding specificities. A major challenge for binding specificity prediction is the lack of a unified approach to sample negative data. Here, we first assess the current negative sampling approaches comprehensively and suggest that the\n                  <jats:italic>Unified Epitope</jats:italic>\n                  is the most suitable one. Subsequently, we compare TEINet with three baseline methods and observe that TEINet achieves an AUROC of 0.760, which outperforms baseline methods by 6.4-26%. Furthermore, we investigate the impacts of the pretraining step and notice that excessive pretraining can adversely affect model performance. Our results and analysis show that TEINet can make an accurate prediction using only the TCR sequence (CDR3\n                  <jats:italic>β</jats:italic>\n                  ) and the epitope sequence, providing novel insights to understand the interactions between TCRs and epitopes. TEINet is available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/jiangdada1221/TEINet\">https://github.com/jiangdada1221/TEINet</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2022.10.20.513029",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            26
+          ]
+        ],
+        "date-time": "2022-10-26T04:50:53Z",
+        "timestamp": 1666759853000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "TEINet: a deep learning framework for prediction of TCR-epitope binding specificity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1444-7183",
+          "authenticated-orcid": false,
+          "given": "Yuepeng",
+          "family": "Jiang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3891-3812",
+          "authenticated-orcid": false,
+          "given": "Miaozhe",
+          "family": "Huo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6246-6349",
+          "authenticated-orcid": false,
+          "given": "Shuai Cheng",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "1675",
+          "key": "2022102705250641000_2022.10.20.513029v1.1",
+          "first-page": "20",
+          "article-title": "Estimating t-cell repertoire diversity: Limitations of classical estimators and a new approach",
+          "volume": "370",
+          "year": "2015",
+          "journal-title": "Philosophical Transactions of the Royal Society B: Biological Sciences"
+        },
+        {
+          "issue": "12",
+          "key": "2022102705250641000_2022.10.20.513029v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1156",
+          "DOI": "10.1038/nbt.4282",
+          "article-title": "High-throughput determination of the antigen specificities of t cell receptors in single cells",
+          "volume": "36",
+          "year": "2018",
+          "journal-title": "Nature biotechnology"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.274.5284.94"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.07.009"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.5",
+          "first-page": "D419",
+          "article-title": "Vdjdb: A curated database of t-cell receptor sequences with known antigen specificity",
+          "volume": "46, no. D1",
+          "year": "2018",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1006"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx286"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.8",
+          "first-page": "640",
+          "article-title": "Tcrmatch: Predicting t-cell receptor specificity based on sequence similarity to previously characterized receptors",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Frontiers in immunology"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2820",
+          "DOI": "10.3389/fimmu.2019.02820",
+          "article-title": "Detection of enriched t cell epitope specificity in full t cell receptor sequence repertoires",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Frontiers in immunology"
+        },
+        {
+          "issue": "3",
+          "key": "2022102705250641000_2022.10.20.513029v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1008814",
+          "DOI": "10.1371/journal.pcbi.1008814",
+          "article-title": "Predicting recognition between t cell receptors and epitopes with tcrgp",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Moris et al., “Current challenges for unseen-epitope tcr interaction prediction and a new perspective derived from image classification,” Briefings in Bioinformatics, vol. 22, no. 4, bbaa318, 2021.",
+          "DOI": "10.1093/bib/bbaa318"
+        },
+        {
+          "issue": "Supplement 1",
+          "key": "2022102705250641000_2022.10.20.513029v1.12",
+          "first-page": "i237",
+          "article-title": "Titan: T-cell receptor specificity prediction with bimodal attention networks",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abf5835"
+        },
+        {
+          "issue": "10",
+          "key": "2022102705250641000_2022.10.20.513029v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "864",
+          "DOI": "10.1038/s42256-021-00383-2",
+          "article-title": "Deep learning-based prediction of the t cell receptor–antigen binding specificity",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "issue": "1",
+          "key": "2022102705250641000_2022.10.20.513029v1.15",
+          "first-page": "1",
+          "article-title": "Nettcr-2.0 enables accurate prediction of tcr-peptide binding by using paired tcrα and β sequence data",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "Communications biology"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "I. Springer , H. Besser , N. Tickotsky-Moskovitz , S. Dvorkin , and Y. Louzoun , “Prediction of specific tcr-peptide binding from large dictionaries of tcr-peptide pairs,” Frontiers in immunol- ogy, p. 1803, 2020.",
+          "DOI": "10.1101/650861"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22383"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "V. I. Jurtz et al., “Nettcr: Sequence-based prediction of tcr binding to peptide-mhc complexes using convolutional neural networks,” BioRxiv, p. 433 706, 2018.",
+          "DOI": "10.1101/433706"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Fang , X. Liu , and H. Liu , “Attention-aware contrastive learning for predicting t cell receptorantigen binding specificity,” bioRxiv, 2022.",
+          "DOI": "10.1101/2022.05.17.492381"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.20",
+          "unstructured": "M. Cai , S. Bang , and H. Lee , “Tcr-epitope binding affinity prediction using multi-head self attention model,”"
+        },
+        {
+          "issue": "2",
+          "key": "2022102705250641000_2022.10.20.513029v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "651",
+          "DOI": "10.1159/000445656",
+          "article-title": "Analysis of the repertoire features of tcr beta chain cdr3 in human by highthroughput sequencing",
+          "volume": "39",
+          "year": "2016",
+          "journal-title": "Cellular Physiology and Biochemistry"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "2080",
+          "DOI": "10.3389/fimmu.2019.02080",
+          "article-title": "T-cell receptor cognate target prediction based on paired α and β chain sequence and structural cdr loop similarities",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Frontiers in immunology"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.23",
+          "first-page": "664",
+          "article-title": "Contribution of t cell receptor alpha and beta cdr3, mhc typing, v and j genes to peptide binding prediction",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Frontiers in immunology"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Jiang and S. C. Li , “Deep autoregressive generative models capture the intrinsics embedded in t-cell receptor repertoires,” bioRxiv, 2022.",
+          "DOI": "10.1101/2022.09.01.505405"
+        },
+        {
+          "issue": "5",
+          "key": "2022102705250641000_2022.10.20.513029v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "659",
+          "DOI": "10.1038/ng.3822",
+          "article-title": "Immunosequencing identifies signatures of cytomegalovirus exposure history and hla-mediated effects on the t cell repertoire",
+          "volume": "49",
+          "year": "2017",
+          "journal-title": "Nature genetics"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Mei et al., “Anthem: A user customised tool for fast and accurate prediction of binding between peptides and hla class i molecules,” Briefings in Bioinformatics, vol. 22, no. 5, bbaa415, 2021.",
+          "DOI": "10.1093/bib/bbaa415"
+        },
+        {
+          "issue": "1",
+          "key": "2022102705250641000_2022.10.20.513029v1.27",
+          "first-page": "1929",
+          "article-title": "Dropout: A simple way to prevent neural networks from overfitting",
+          "volume": "15",
+          "year": "2014",
+          "journal-title": "The journal of machine learning research"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.28",
+          "unstructured": "J. L. Ba , J. R. Kiros , and G. E. Hinton , “Layer normalization,” arXiv preprint 1607.06450, 2016."
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.29",
+          "unstructured": "G. Klambauer , T. Unterthiner , A. Mayr , and S. Hochreiter , “Self-normalizing neural networks,” Advances in neural information processing systems, vol. 30, 2017."
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.30",
+          "unstructured": "A. Paszke et al., “Pytorch: An imperative style, high-performance deep learning library,” Advances in neural information processing systems, vol. 32, 2019."
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.31",
+          "unstructured": "D. P. Kingma and J. Ba , “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014."
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Dens , W. Bittremieux , F. Affaticati , K. Laukens , and P. Meysman , “Interpretable deep learning to uncover the molecular binding patterns determining tcr–epitope interactions,” bioRxiv, 2022.",
+          "DOI": "10.1101/2022.05.02.490264"
+        },
+        {
+          "issue": "1",
+          "key": "2022102705250641000_2022.10.20.513029v1.33",
+          "first-page": "1",
+          "article-title": "Deeptcr is a deep learning framework for revealing sequence concepts within t-cell repertoires",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature communications"
+        },
+        {
+          "issue": "6",
+          "key": "2022102705250641000_2022.10.20.513029v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "1078",
+          "DOI": "10.1107/S0907444998009378",
+          "article-title": "Protein data bank (pdb): Database of three-dimensional structural information of biological macromolecules",
+          "volume": "54",
+          "year": "1998",
+          "journal-title": "Acta Crystallographica Section D: Biological Crys- tallography"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.160252097"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz614"
+        },
+        {
+          "key": "2022102705250641000_2022.10.20.513029v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Chowell et al., “Tcr contact residue hydrophobicity is a hallmark of immunogenic cd8+ t cell epitopes,” Proceedings of the National Academy of Sciences, vol. 112, no. 14, E1754–E1762, 2015.",
+          "DOI": "10.1073/pnas.1500973112"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.10.20.513029",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:46:28Z",
+        "timestamp": 1768448788000
+      },
+      "score": 93.10683,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.10.20.513029"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            21
+          ]
+        ]
+      },
+      "references-count": 37,
+      "URL": "https://doi.org/10.1101/2022.10.20.513029",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbad086",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

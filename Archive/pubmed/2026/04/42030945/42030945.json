@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "42030945",
+    "doi": "10.1016/j.molcel.2026.03.025",
+    "title": "PDS5 proteins control genome architecture by limiting the lifetime of cohesin-NIPBL complexes."
+  },
+  "content": {
+    "abstract": "Cohesin-NIPBL complexes extrude genomic DNA into loops that are constrained by CTCF boundaries. This process has important regulatory functions and weakens the separation between euchromatic and heterochromatic compartments. Cohesin can also bind PDS5 proteins, which do not support loop extrusion but are required for the formation of CTCF boundaries. How PDS5 proteins perform this function is unknown. Here we show, by in vitro single-molecule imaging, that human PDS5 proteins stop loop extrusion by facilitating the dissociation of NIPBL from cohesin. Hi-C experiments suggest that this function is required for the establishment of CTCF boundaries in cells. In silico modeling indicates that PDS5 proteins enable the separation between compartments by limiting cohesin's velocity and chromatin residence time. The degree of this compartmentalization depends on the frequency with which chromatin is extruded relative to the time it takes for compartments to form. These results identify PDS5 proteins as key regulators of genome organization.",
+    "keywords": [
+      "CTCF boundaries",
+      "NIPBL",
+      "PDS5 proteins",
+      "WAPL",
+      "cohesin",
+      "compartmentalization",
+      "genome organization",
+      "loop extrusion",
+      "polymer simulations",
+      "single-molecule imaging"
+    ],
+    "mesh_terms": [
+      "*Cohesins/metabolism",
+      "Cell Cycle Proteins/metabolism",
+      "*Genome",
+      "*CCCTC-Binding Factor/metabolism",
+      "*Chromatin/metabolism",
+      "Humans",
+      "Animals",
+      "HeLa Cells",
+      "Chickens",
+      "Nuclear Proteins",
+      "Transcription Factors",
+      "Carrier Proteins",
+      "DNA-Binding Proteins",
+      "Proto-Oncogene Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wutz, Gordana",
+        "Davidson, Iain F",
+        "Banigan, Edward J",
+        "Stocsits, Roman R",
+        "Kawasumi, Ryotaro",
+        "Tang, Wen",
+        "Nagasaka, Kota",
+        "Costantino, Lorenzo",
+        "Jansen, Ralf",
+        "Hirota, Kouji",
+        "Branzei, Dana",
+        "Mirny, Leonid A",
+        "Peters, Jan-Michael"
+      ],
+      "short_names": [
+        "Wutz G",
+        "Davidson IF",
+        "Banigan EJ",
+        "Stocsits RR",
+        "Kawasumi R",
+        "Tang W",
+        "Nagasaka K",
+        "Costantino L",
+        "Jansen R",
+        "Hirota K",
+        "Branzei D",
+        "Mirny LA",
+        "Peters JM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria.",
+        "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria.",
+        "Institute for Medical Engineering and Science, Department of Physics, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria.",
+        "The AIRC Institute of Molecular Oncology Foundation, IFOM ETS, Via Adamello 16, 20139 Milan, Italy.",
+        "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria.",
+        "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria.",
+        "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria.",
+        "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria.",
+        "Department of Chemistry, Tokyo Metropolitan University, 1-1 Minamiosawa, Hachioji-shi, Tokyo 192-0397, Japan.",
+        "The AIRC Institute of Molecular Oncology Foundation, IFOM ETS, Via Adamello 16, 20139 Milan, Italy; Istituto di Genetica Molecolare, Consiglio Nazionale delle Ricerche (IGM-CNR), Via Abbiategrasso 207, 27100 Pavia, Italy; University of Duisburg-Essen, Research Center One Health Ruhr, University Alliance Ruhr, Universitat-Strasse 2, 45141 Essen, Germany.",
+        "Institute for Medical Engineering and Science, Department of Physics, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria. Electronic address: jan-michael.peters@imp.ac.at."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wutz, Gordana",
+        "short_name": "Wutz G",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Davidson, Iain F",
+        "short_name": "Davidson IF",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Banigan, Edward J",
+        "short_name": "Banigan EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Medical Engineering and Science, Department of Physics, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Stocsits, Roman R",
+        "short_name": "Stocsits RR",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Kawasumi, Ryotaro",
+        "short_name": "Kawasumi R",
+        "identifiers": [],
+        "affiliations": [
+          "The AIRC Institute of Molecular Oncology Foundation, IFOM ETS, Via Adamello 16, 20139 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Tang, Wen",
+        "short_name": "Tang W",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Nagasaka, Kota",
+        "short_name": "Nagasaka K",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Costantino, Lorenzo",
+        "short_name": "Costantino L",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Jansen, Ralf",
+        "short_name": "Jansen R",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Hirota, Kouji",
+        "short_name": "Hirota K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Tokyo Metropolitan University, 1-1 Minamiosawa, Hachioji-shi, Tokyo 192-0397, Japan."
+        ]
+      },
+      {
+        "full_name": "Branzei, Dana",
+        "short_name": "Branzei D",
+        "identifiers": [],
+        "affiliations": [
+          "The AIRC Institute of Molecular Oncology Foundation, IFOM ETS, Via Adamello 16, 20139 Milan, Italy; Istituto di Genetica Molecolare, Consiglio Nazionale delle Ricerche (IGM-CNR), Via Abbiategrasso 207, 27100 Pavia, Italy; University of Duisburg-Essen, Research Center One Health Ruhr, University Alliance Ruhr, Universität-Straße 2, 45141 Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Mirny, Leonid A",
+        "short_name": "Mirny LA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Medical Engineering and Science, Department of Physics, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Peters, Jan-Michael",
+        "short_name": "Peters JM",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Campus-Vienna-Biocenter, 1030 Vienna, Austria. Electronic address: jan-michael.peters@imp.ac.at."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2026 May 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/25 00:34",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [
+      "42030943"
+    ],
+    "refs": [],
+    "similar": [
+      "42030945",
+      "29217591",
+      "32065581",
+      "28475897",
+      "37076620",
+      "31757807",
+      "39748119",
+      "32631111",
+      "31204999",
+      "41102415",
+      "42463888",
+      "36898992",
+      "29706548",
+      "36424654",
+      "36897969",
+      "31905366",
+      "28467304",
+      "34624221",
+      "39988079",
+      "29217590",
+      "37591243",
+      "29447171",
+      "32680543",
+      "36449519",
+      "35585235",
+      "39093600",
+      "28914604",
+      "18550811",
+      "40011778",
+      "41974991",
+      "36182691",
+      "40586309",
+      "28424523",
+      "38742641",
+      "29757144",
+      "29593713",
+      "41238959",
+      "39543681",
+      "37536339",
+      "34197738",
+      "34309513",
+      "42030943",
+      "27799150",
+      "31753851",
+      "24002784",
+      "35456389",
+      "41980771",
+      "39979259",
+      "40374602",
+      "19696148",
+      "42018406",
+      "36129789",
+      "42120045",
+      "31937660",
+      "27582050",
+      "33767413",
+      "22780989",
+      "40210441",
+      "28220956",
+      "42258543",
+      "31666380",
+      "35420890",
+      "40516048",
+      "35708277",
+      "42380153",
+      "39160275",
+      "42476989",
+      "42146630",
+      "37813869",
+      "38129077",
+      "32294452",
+      "40452075",
+      "42639792",
+      "26971492",
+      "28855971",
+      "36325618",
+      "40628528",
+      "26499245",
+      "41699137",
+      "40804526",
+      "21454523",
+      "33594051",
+      "39709822",
+      "35986423",
+      "30875678",
+      "35180428",
+      "17112726",
+      "33154377",
+      "38808662",
+      "41826481",
+      "24335803",
+      "35710836",
+      "37975572",
+      "23776203",
+      "31177910",
+      "41349519",
+      "30031214",
+      "28985562",
+      "37774974",
+      "33091336"
+    ],
+    "review": [
+      "42030945",
+      "32631111",
+      "35456389",
+      "33767413",
+      "28220956",
+      "39709822",
+      "30875678"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(26)00201-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42030945",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NIPBL-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

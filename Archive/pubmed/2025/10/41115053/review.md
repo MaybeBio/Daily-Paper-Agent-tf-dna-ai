@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, conclusions, and supplementary material references.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and alignment with stated objectives. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors apply molecular docking, MD simulations, MM-GBSA, and alchemical relative binding free energy calculations to characterize binding patterns of nine EDCs (bisphenols, phthalates, PFAS, zearalenone) to ERα and AR. They report common interaction patterns across chemically diverse EDCs, validate computational trends with cell-based reporter assays, and propose that identified interactions constitute molecular initiating events useful for risk assessment.
+- **Visible evidence base** Abstract, full methods, results narrative, tables referenced in text (Tables S1–S5), figures referenced in text (Figures 1–6, S2–S25), and experimental assay descriptions. Raw data, structural coordinates, and detailed numerical outputs are not provided in the supplied material.
+- **Missing materials affecting confidence** The full figures and tables are not included in the supplied text, so numerical values, statistical analyses, and visual representations of docking poses, MD trajectories, and free energy results cannot be independently verified. Experimental dose-response curves and statistical details of the reporter assays are described but not shown. The Supporting Information is referenced but not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic, namely the computational characterization of EDC binding to nuclear hormone receptors, with the goal of identifying common patterns that could inform risk assessment. The combination of multiple computational methods with experimental validation is commendable in principle. However, the present manuscript has substantial limitations in methodological transparency, quantitative rigor, and the strength of the conclusions drawn. The claim of a "common binding pattern" across diverse EDCs is only weakly supported by the evidence presented, and the experimental validation is limited to a subset of compounds. The alchemical free energy calculations, while a strength, are applied to only three bisphenols, limiting the generality of the conclusions. The manuscript would benefit from clearer presentation of quantitative results, explicit statistical comparisons, and a more cautious interpretation of the findings.
+- **Who would be interested in the results, and why** Computational toxicologists and cheminformaticians working on endocrine disruption prediction would find the workflow of interest, particularly the integration of KNIME nodes for reproducible pipelines. Researchers studying nuclear receptor biology, specifically ERα and AR ligand binding, may find the interaction pattern analysis useful. Regulatory scientists involved in EDC risk assessment could be interested in the proposed MIE framework, though they would require stronger validation. The methodological combination of MM-GBSA and alchemical FEP with experimental reporter assays is relevant to the molecular modeling community.
+- **Major strengths** The study combines multiple complementary computational techniques (docking, MD, MM-GBSA, alchemical FEP) with experimental reporter gene assays, which is a holistic approach. The use of the Asclepios Enalos KNIME nodes promotes workflow reproducibility and accessibility. The inclusion of chemically diverse EDC classes (bisphenols, phthalates, PFAS, mycotoxins) is a strength. The alchemical free energy calculations with cycle closure analysis and extended sampling to reduce uncertainty demonstrate methodological care. The comparison with crystallographic data and prior computational studies provides useful context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "despite their chemical diversity, EDCs display consistently favorable binding toward estrogen and androgen receptors through similar interaction patterns."
+  - **Evidence pointer** Results sections on docking, MD, and MM-GBSA; Figures 1–6; Tables S1–S5; location not provided for specific numerical values.
+  - **Concern** The central claim of a "common binding pattern" is asserted but not quantitatively demonstrated. The docking scores show "no great variations" (as stated by the authors), but no statistical analysis is presented to support this. The hydrogen bond analysis identifies a few recurring residues, but the occupancy percentages, distances, and persistence of these interactions are not reported. The MM-GBSA results are described qualitatively ("tighter binding to AR compared to ERα") without error bars or statistical comparisons across compound classes. The claim of commonality across diverse chemical structures requires a systematic comparison of interaction fingerprints, which is not provided.
+  - **Why it matters** The stated objective is to identify common patterns that could serve as molecular initiating events. If the evidence for commonality is not rigorously established, the proposed framework for risk assessment is not supported. Overstating the uniformity of binding patterns could mislead downstream applications.
+  - **Resolution test** Provide quantitative interaction fingerprint analyses (e.g., per-residue contact maps, hydrogen bond occupancy with standard deviations across replicates) for all EDCs in both receptors. Perform statistical tests (e.g., ANOVA or non-parametric equivalents) comparing interaction patterns across compound classes. Show that the variance within compound classes is smaller than between classes, or explicitly discuss the limitations of the commonality claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "MM-GBSA and alchemical relative binding free energy (RBFE) calculations have verified the trends observed in the experimental assays regarding the binding affinity of bisphenol compounds."
+  - **Evidence pointer** Methods sections on MM-GBSA and alchemical calculations; Tables S4 and S5; location not provided for specific values.
+  - **Concern** The quantitative agreement between computational predictions and experimental results is not shown. The MM-GBSA values are mentioned in the conclusions (e.g., BPA −7.88 kcal/mol for ERα), but the corresponding experimental binding affinities or potencies are not presented in a directly comparable form. The alchemical RBFE results are reported as ΔΔG values with uncertainties, but the experimental ranking of bisphenol potencies is only described qualitatively. No correlation coefficients, rank-order comparisons, or error analysis relative to experimental data are provided. The statement of "verification" is therefore not supported by the visible evidence.
+  - **Why it matters** The claim of computational-experimental agreement is a key pillar of the manuscript's contribution. Without explicit quantitative comparison, the reader cannot assess the predictive power of the computational methods, which is essential for the proposed use in risk assessment.
+  - **Resolution test** Present a table or figure directly comparing computational predictions (MM-GBSA ΔG, alchemical ΔΔG) with experimental values (e.g., IC50, EC50, or relative binding affinities) for the same compounds. Include correlation coefficients (e.g., Spearman's rho) and confidence intervals. If direct quantitative comparison is not possible, state this limitation explicitly and temper the claim accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** The authors state that "the simulations provide the necessary information for identification of potential common binding patterns between the different EDCs" and that these patterns "could be characterized as molecular initiating events (MIE)."
+  - **Evidence pointer** Experimental methods section; Figures referenced for dose-response curves; location not provided.
+  - **Concern** The experimental validation is limited to bisphenols (A, F, S) and zearalenone for ERα, and bisphenols and zearalenone for AR. The computational analysis covers nine EDCs including phthalates and PFAS, but no experimental data are presented for these classes. The claim that the computational findings for phthalates and PFAS are validated or that the identified patterns constitute MIEs is therefore not supported. The MIE designation requires a formal framework linking molecular interactions to adverse outcomes, which is not established here.
+  - **Why it matters** The manuscript's broader relevance to EDC risk assessment depends on the generalizability of the findings across compound classes. Without experimental validation for phthalates and PFAS, the conclusions are limited to bisphenols and zearalenone.
+  - **Resolution test** Either provide experimental validation for additional compound classes, or explicitly restrict the conclusions to the validated compounds and discuss the need for further testing before generalizing to other EDCs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor of MD simulations
+  - **Claim pointer** The authors state that "the production run was performed for 200 ns (3 independent runs for each complex)" and that the simulations were used to identify binding patterns.
+  - **Evidence pointer** Methods section on MD simulations; Figures S4–S7; location not provided.
+  - **Concern** The manuscript does not report convergence criteria for the MD simulations. RMSD and RMSF are shown, but no block averaging, autocorrelation analysis, or assessment of whether 200 ns is sufficient for convergence of the binding site conformations is provided. The choice of starting structures (only the best docking pose) may bias the sampling. The lack of replicate-to-replicate variability analysis (e.g., RMSD across the three independent runs) weakens confidence in the structural conclusions.
+  - **Why it matters** The binding pattern analysis relies on the structural ensembles generated by MD. If the simulations are not converged or are biased by the initial pose, the identified interactions may not be representative of the true binding modes.
+  - **Resolution test** Provide convergence metrics (e.g., RMSD vs. time for each replicate, block-averaged energies, or principal component analysis of the binding site). Show that the three independent runs sample similar conformational ensembles. Discuss the sensitivity of the results to the initial docking pose, possibly by running simulations from multiple docking poses.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical treatment of experimental data
+  - **Claim pointer** The authors state that "BPA showed the highest potency against ERα and the highest inhibitory activity against AR followed by BPF and BPS."
+  - **Evidence pointer** Experimental results section; Figures referenced for dose-response curves; location not provided.
+  - **Concern** The experimental data are described qualitatively. No EC50 or IC50 values with confidence intervals are reported in the visible text. The number of independent experiments is mentioned in the figure legends, but the results are not presented in the manuscript text. Without numerical values and statistical comparisons, the ranking of potencies cannot be assessed for significance.
+  - **Why it matters** The experimental data serve as the benchmark for computational validation. Without proper statistical reporting, the agreement between computation and experiment cannot be rigorously evaluated.
+  - **Resolution test** Report EC50/IC50 values with 95% confidence intervals for all tested compounds in both assays. Perform statistical comparisons (e.g., one-way ANOVA with post-hoc tests) to establish significant differences in potency and efficacy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Abstract and conclusions
+  - **Evidence pointer** Abstract, Conclusions
+  - **Issue** The abstract states that "MM-GBSA and alchemical relative binding free energy (RBFE) calculations have verified the trends observed in the experimental assays" but does not specify which compounds or which trends. The conclusions similarly overstate the generality of the findings.
+  - **Required correction** Specify the compounds and the specific trends that were verified. Qualify the statement to reflect the limited experimental validation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Docking protocol validation
+  - **Evidence pointer** Methods section on molecular docking
+  - **Issue** The redocking validation is mentioned, but the RMSD values are only given for the native ligands (1.6 Å for tamoxifen, 0.5 Å for DHT). No enrichment analysis or comparison against known actives/inactives is provided to assess the predictive power of the docking protocol for the EDCs studied.
+  - **Required correction** Provide additional validation metrics, such as enrichment factors or ROC curves, or discuss the limitations of using only redocking as validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of results
+  - **Affected element** MM-GBSA decomposition analysis
+  - **Evidence pointer** Results section on MM-GBSA; Figures S10–S19
+  - **Issue** The decomposition analysis is mentioned, but the key per-residue contributions are not summarized in the main text. The reader cannot identify which residues drive binding without consulting the Supporting Information.
+  - **Required correction** Include a summary figure or table of the top contributing residues for each compound class in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "MIE"
+  - **Evidence pointer** Introduction, Conclusions
+  - **Issue** The term "molecular initiating event" is used without reference to the OECD Adverse Outcome Pathway (AOP) framework, which defines MIEs in a specific context. The authors do not map their findings to a formal AOP.
+  - **Required correction** Either define the term as used in this study or reference the AOP framework and discuss how the identified interactions fit within it.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation parameters
+  - **Evidence pointer** Methods section on MD simulations
+  - **Issue** The manuscript does not report the force field parameters for the ligands (e.g., GAFF atom types, charge derivation method). This limits reproducibility.
+  - **Required correction** Provide details of ligand parameterization, including the charge derivation method (e.g., AM1-BCC, RESP) and any validation of the ligand parameters.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Input structures and trajectories
+  - **Evidence pointer** Methods, Data Availability (if present)
+  - **Issue** No statement is provided regarding the availability of input structures, parameter files, or simulation trajectories.
+  - **Required correction** Add a data availability statement indicating where the relevant files can be accessed or state that they are available upon request.
+
+## Risk / unsupported claims
+- The claim that a "common binding pattern" exists across all nine EDCs for both receptors is not quantitatively supported by the visible evidence.
+- The claim that computational results "verified" experimental trends is not supported by explicit quantitative comparison.
+- The designation of identified interactions as "molecular initiating events" is not formally justified within an established AOP framework.
+- The statement that "the performed simulations showed that interactions arise with Thr42 (ERα-zearalenone), Arg89 (ERα-PFHxS), Glu114, and Met223" is presented without occupancy values or statistical confidence, making it unverifiable from the provided text.
+- The conclusion that "van der Waals interactions are the dominant contributions to the binding free energy" is presented as a general finding, but the decomposition data are not shown in the main text, and the variability across compounds is not discussed.
+- The statement that "the results presented in Tables S4 and S5 indicate agreement with the reported experimental values" is not verifiable because the experimental values are not presented in a directly comparable format.

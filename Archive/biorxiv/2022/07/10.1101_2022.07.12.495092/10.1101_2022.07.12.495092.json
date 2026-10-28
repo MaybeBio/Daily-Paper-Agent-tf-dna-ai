@@ -1,0 +1,547 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.12.495092",
+  "title": "MIADE metadata guidelines: Minimum Information About a Disorder Experiment",
+  "doi": "10.1101/2022.07.12.495092",
+  "abstract": "An unambiguous description of an experimental setup and analysis, and the subsequent biological observation is vital for accurate data interpretation and reproducible results. Consequently, experimental analyses should be described in a concise, unequivocal, and digestible manner. The aim of minimum information guidelines is to define the fundamental complement of data that can support an unambiguous conclusion on experimental observations. In this document, we present the Minimum Information About Disorder Experiments (MIADE) guidelines to define the minimal fundamental parameters required for non-experts to understand the key findings of an experiment studying intrinsically disordered proteins (IDPs) or intrinsically disordered protein regions (IDRs). MIADE guidelines provide recommendations for data producers to describe the results of their experiments at source, for curators to annotate experimental data to community resources and for database developers maintaining community resources to disseminate the data. We give examples of the application of these guidelines in common use cases and describe the implementation of an update to the DisProt IDP database to allow MIADE-compliant annotation. The MIADE guidelines will improve the interpretability of experimental results for data consumers, facilitate direct data submission, simplify data curation, improve data exchange among repositories and standardise the dissemination of the key metadata on an IDP experiment by IDP data sources.",
+  "authors": [
+    "Mészáros B",
+    "Hatos A",
+    "Palopoli N",
+    "Quaglia F",
+    "Salladini E",
+    "Van Roey K",
+    "Arthanari H",
+    "Dosztányi Z",
+    "Felli IC",
+    "Fischer PD",
+    "Hoch JC",
+    "Jeffries CM",
+    "Longhi S",
+    "Maiani E",
+    "Orchard S",
+    "Pancsa R",
+    "Papaleo E",
+    "Pierattelli R",
+    "Piovesan D",
+    "Pritisanac I",
+    "Viennet T",
+    "Tompa P",
+    "Vranken W",
+    "Tosatto SC",
+    "Davey NE"
+  ],
+  "published_date": "2022-07-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.12.495092",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.12.495092.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR519480",
+    "raw_record": {
+      "id": "PPR519480",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR519480"
+        ]
+      },
+      "doi": "10.1101/2022.07.12.495092",
+      "title": "MIADE metadata guidelines: Minimum Information About a Disorder Experiment",
+      "authorString": "Mészáros B, Hatos A, Palopoli N, Quaglia F, Salladini E, Van Roey K, Arthanari H, Dosztányi Z, Felli IC, Fischer PD, Hoch JC, Jeffries CM, Longhi S, Maiani E, Orchard S, Pancsa R, Papaleo E, Pierattelli R, Piovesan D, Pritisanac I, Viennet T, Tompa P, Vranken W, Tosatto SC, Davey NE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mészáros B",
+            "lastName": "Mészáros",
+            "firstName": "Bálint",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0919-4449"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg 69117, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hatos A",
+            "lastName": "Hatos",
+            "firstName": "András",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9224-9820"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Sciences, University of Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palopoli N",
+            "lastName": "Palopoli",
+            "firstName": "Nicolas",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Quaglia F",
+            "lastName": "Quaglia",
+            "firstName": "Federica",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Sciences, University of Padova, Italy"
+                },
+                {
+                  "affiliation": "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salladini E",
+            "lastName": "Salladini",
+            "firstName": "Edoardo",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5152-5953"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Sciences, University of Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Van Roey K",
+            "lastName": "Van Roey",
+            "firstName": "Kim",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, 1050 Brussels, Belgium; Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arthanari H",
+            "lastName": "Arthanari",
+            "firstName": "Haribabu",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harvard Medical School (HMS), Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute (DFCI), Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dosztányi Z",
+            "lastName": "Dosztányi",
+            "firstName": "Zsuzsanna",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Eötvös Loránd University, Pázmány Péter stny 1/c, Budapest H-1117, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Felli IC",
+            "lastName": "Felli",
+            "firstName": "Isabella",
+            "initials": "IC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry “Ugo Schiff” and Magnetic Resonance Center, University of Florence, Via Luigi Sacconi 6, 50019 Sesto Fiorentino (Florence), Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fischer PD",
+            "lastName": "Fischer",
+            "firstName": "Patrick",
+            "initials": "PD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4160-5295"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harvard Medical School (HMS), Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute (DFCI), Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoch JC",
+            "lastName": "Hoch",
+            "firstName": "Jeffrey",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Biophysics, UConn Health, Farmington, Connecticut"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jeffries CM",
+            "lastName": "Jeffries",
+            "firstName": "Cy",
+            "initials": "CM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Hamburg Outstation, European Molecular Biology Laboratory, Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Longhi S",
+            "lastName": "Longhi",
+            "firstName": "Sonia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory Architecture et Fonction des Macromolécules Biologiques (AFMB), UMR 7257, Aix Marseille University and Centre National de la Recherche Scientifique (CNRS), 163 Avenue de Luminy, Case 932, 13288, Marseille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maiani E",
+            "lastName": "Maiani",
+            "firstName": "Emiliano",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Structural Biology, Danish Cancer Society Research Center, 2100, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "UniCamillus - Saint Camillus International University of Health Sciences, Rome, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Orchard S",
+            "lastName": "Orchard",
+            "firstName": "Sandra",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8878-3972"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Bioinformatics Institute (EMBL-EBI), European Molecular Biology Laboratory, Hinxton, Cambridgeshire CB10 1SD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pancsa R",
+            "lastName": "Pancsa",
+            "firstName": "Rita",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Enzymology, Research Centre for Natural Sciences, 1117, Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Papaleo E",
+            "lastName": "Papaleo",
+            "firstName": "Elena",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Structural Biology, Danish Cancer Society Research Center, 2100, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, 2800, Lyngby, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pierattelli R",
+            "lastName": "Pierattelli",
+            "firstName": "Roberta",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry “Ugo Schiff” and Magnetic Resonance Center, University of Florence, Via Luigi Sacconi 6, 50019 Sesto Fiorentino (Florence), Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Piovesan D",
+            "lastName": "Piovesan",
+            "firstName": "Damiano",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Sciences, University of Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pritisanac I",
+            "lastName": "Pritisanac",
+            "firstName": "Iva",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Hospital for Sick Children, Toronto, ON, Canada"
+                },
+                {
+                  "affiliation": "Medical University of Graz, Auenbruggerplatz 2, 8036, Graz, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Viennet T",
+            "lastName": "Viennet",
+            "firstName": "Thibault",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harvard Medical School (HMS), Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute (DFCI), Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tompa P",
+            "lastName": "Tompa",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Enzymology, Research Centre for Natural Sciences, 1117, Budapest, Hungary"
+                },
+                {
+                  "affiliation": "VIB-VUB Center for Structural Biology, Pleinlaan 2, 1050, Brussels, Belgium"
+                },
+                {
+                  "affiliation": "Structural Biology Brussels, Department of Bioengineering Sciences, Vrije Universiteit Brussel, Pleinlaan 2, 1050, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vranken W",
+            "lastName": "Vranken",
+            "firstName": "Wim",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, 1050 Brussels, Belgium; Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium"
+                },
+                {
+                  "affiliation": "Structural Biology Brussels, Department of Bioengineering Sciences, Vrije Universiteit Brussel, Pleinlaan 2, 1050, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tosatto SC",
+            "lastName": "Tosatto",
+            "firstName": "Silvio CE",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Sciences, University of Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davey NE",
+            "lastName": "Davey",
+            "firstName": "Norman",
+            "initials": "NE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division Of Cancer Biology, Institute of Cancer Research, Chester Beatty Laboratories, 237 Fulham Rd, Chelsea, London, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9224-9820"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3624-5937"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5152-5953"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8878-3972"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0919-4449"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4160-5295"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "An unambiguous description of an experimental setup and analysis, and the subsequent biological observation is vital for accurate data interpretation and reproducible results. Consequently, experimental analyses should be described in a concise, unequivocal, and digestible manner. The aim of minimum information guidelines is to define the fundamental complement of data that can support an unambiguous conclusion on experimental observations. In this document, we present the Minimum Information About Disorder Experiments (MIADE) guidelines to define the minimal fundamental parameters required for non-experts to understand the key findings of an experiment studying intrinsically disordered proteins (IDPs) or intrinsically disordered protein regions (IDRs). MIADE guidelines provide recommendations for data producers to describe the results of their experiments at source, for curators to annotate experimental data to community resources and for database developers maintaining community resources to disseminate the data. We give examples of the application of these guidelines in common use cases and describe the implementation of an update to the DisProt IDP database to allow MIADE-compliant annotation. The MIADE guidelines will improve the interpretability of experimental results for data consumers, facilitate direct data submission, simplify data curation, improve data exchange among repositories and standardise the dissemination of the key metadata on an IDP experiment by IDP data sources.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/14/2022.07.12.495092.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.12.495092"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR519480"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR519480&type=FILE&fileName=EMS151012-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS151012",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-07-17",
+      "firstPublicationDate": "2022-07-14",
+      "firstIndexDate": "2022-07-17",
+      "fullTextReceivedDate": "2022-09-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

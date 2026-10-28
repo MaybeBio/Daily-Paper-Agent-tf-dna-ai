@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40999058",
+  "title": "Identification of genes related to the effects of bicalutamide and zoladex on benign prostatic hyperplasia.",
+  "authors": "Peng, Guohui; Liang, Zicun; Zuo, Fei; Li, Jiuming; Han, Fei; Zhang, Bin; Shen, Hua",
+  "journal": "Scientific reports",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过差异表达、PPI、机器学习及分子对接识别BPH相关关键基因，虽涉及分子对接和转录因子调控网络，但核心是药物靶基因筛选而非蛋白质-DNA互作机制研究，与本课题关联较弱。",
+  "abstract": "Existing research indicates that bicalutamide and zoladex show significant potential in treating prostate cancer. However, in the clinical application of treating benign prostatic hyperplasia (BPH), it is limited due to relatively severe side effects, and the specific mechanism of action has not been fully studied. This research aimed to identify and validate key genes linked to the effects of bicalutamide and zoladex in BPH, potentially guiding the development of targeted therapeutic strategies. BPH-related datasets were retrieved from publicly available databases (|log2FC| > 0.5, p value < 0.05). Initially, intersection genes were identified by overlapping results from differential expression analysis (comparing BPH and control groups) with the target genes of bicalutamide and zoladex, which were sourced from database searches. Key genes were then pinpointed using protein-protein interaction (PPI) networks, machine learning algorithms (SVM-RFE and Random Forest), and gene expression analyses (IHC, immunohistochemical). To explore the biological mechanisms underlying these genes, functional enrichment (GO, KEGG and GSEA) molecular docking analyses were performed, construction of lncRNA miRNA mRNA molecular regulatory network, transcription factor (TFs) regulatory network, SNPs analysis, and disease prediction. Validation of gene expression levels was conducted through IHC analysis of clinical samples. The study identified NQO1, CLPP, HMGCR, and SORD as critical genes associated with BPH, all showing significantly reduced expression in BPH samples. These genes were notably co-enriched in the \"oxidative phosphorylation\" pathway. Moreover, CLPP, HMGCR, and NQO1 exhibited strong binding affinities with bicalutamide and zoladex. Specifically, the NQO1-bicalutamide interaction had a binding energy of -10.8 kcal/mol, while the NQO1-zoladex interaction demonstrated a binding energy of -38.05 kcal/mol. IHC analysis revealed significantly higher expression levels of NQO1, CLPP, HMGCR, and SORD in the treated group compared to the untreated group. This study underscores NQO1, CLPP, HMGCR, and SORD as potential therapeutic targets for BPH, offers mechanistic insights into the efficacy of bicalutamide and zoladex and provides novel insights into potential therapeutic strategies for patients with BPH. However, attention should still be paid to the control of side effects in their clinical application.",
+  "abstract_zh": "现有研究表明，比卡鲁胺和唑来德在治疗前列腺癌方面显示出显著潜力。然而，在治疗良性前列腺增生（BPH）的临床应用中，由于相对严重的副作用而受到限制，且其具体作用机制尚未得到充分研究。本研究旨在识别并验证与比卡鲁胺和唑来德在BPH中作用相关的关键基因，可能为制定靶向治疗策略提供指导。从公开数据库中获取BPH相关数据集（|log2FC| > 0.5，p值 < 0.05）。首先，通过将差异表达分析（比较BPH组和对照组）的结果与从数据库检索获得的比卡鲁胺和唑来德靶基因重叠，识别出交集基因。随后，利用蛋白质-蛋白质相互作用（PPI）网络、机器学习算法（SVM-RFE和随机森林）以及基因表达分析（IHC，免疫组织化学）确定关键基因。为探索这些基因背后的生物学机制，进行了功能富集（GO、KEGG和GSEA）分子对接分析、构建lncRNA-miRNA-mRNA分子调控网络、转录因子（TFs）调控网络、SNP分析及疾病预测。通过临床样本的IHC分析验证基因表达水平。研究确定NQO1、CLPP、HMGCR和SORD为与BPH相关的关键基因，所有这些基因在BPH样本中均显示显著低表达。这些基因显著共富集于“氧化磷酸化”通路。此外，CLPP、HMGCR和NQO1与比卡鲁胺和唑来德表现出强结合亲和力。具体而言，NQO1-比卡鲁胺相互作用的结合能为-10.8 kcal/mol，而NQO1-唑来德相互作用显示结合能为-38.05 kcal/mol。IHC分析显示，与未治疗组相比，治疗组中NQO1、CLPP、HMGCR和SORD的表达水平显著更高。本研究强调NQO1、CLPP、HMGCR和SORD作为BPH的潜在治疗靶点，为比卡鲁胺和唑来德的疗效提供了机制性见解，并为BPH患者的潜在治疗策略提供了新视角。然而，在其临床应用中仍需注意副作用的控制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40999058/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40999058/",
+  "paper_page_path": "papers/pubmed/40999058/index.html"
+}

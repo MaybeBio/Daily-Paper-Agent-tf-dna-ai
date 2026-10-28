@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "42567496",
+    "doi": "10.1016/j.jtbi.2026.112562",
+    "title": "From signal dynamics to cell fate: The role of learning duration."
+  },
+  "content": {
+    "abstract": "We introduce the concept of learning duration, defined as the minimal exposure time to an environmental signal required for a cell to undergo a fate change. We provide a formal definition of learning duration for hysteretic systems, which are canonical models for cell fate decision mechanisms. We hypothesize that when multiple fate decision pathways are regulated by the same driving signal, differences in their learning durations may enable the signal to discriminate between distinct cell fates. Such bi-hysteretic systems offer simple yet insightful models of graded cellular responses. As an application, we use numerical simulations on a published model, available in the BioModels Database, of the p53-dependent response to DNA damage, which can lead to either cell cycle arrest or apoptosis. We demonstrate that the system is bi-hysteretic and confirm the existence of distinct learning durations : approximately a few hours for cell cycle arrest, and over two days for apoptosis. These findings support the experimentally observed requirement for a sustained p53 signal to trigger apoptosis.",
+    "keywords": [
+      "Apoptosis",
+      "Cell cycle arrest",
+      "Cell fate",
+      "Cellular regulatory network",
+      "Dynamical bifurcation",
+      "Hysteresis",
+      "p53"
+    ],
+    "mesh_terms": [
+      "Apoptosis",
+      "*Signal Transduction",
+      "Tumor Suppressor Protein p53/metabolism",
+      "*Models, Biological",
+      "DNA Damage",
+      "Cell Cycle Checkpoints",
+      "Humans",
+      "Animals",
+      "Time Factors",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barbier, Claire",
+        "Pecou, Elisabeth"
+      ],
+      "short_names": [
+        "Barbier C",
+        "Pecou E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratoire J.-A. Dieudonne, UMR CNRS-Universite Cote d'Azur, 28 avenue de Valrose, Nice, 06000, France.",
+        "Laboratoire J.-A. Dieudonne, UMR CNRS-Universite Cote d'Azur, 28 avenue de Valrose, Nice, 06000, France. Electronic address: elisabeth.pecou@univ-cotedazur.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barbier, Claire",
+        "short_name": "Barbier C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire J.-A. Dieudonné, UMR CNRS-Université Côte d'Azur, 28 avenue de Valrose, Nice, 06000, France."
+        ]
+      },
+      {
+        "full_name": "Pécou, Elisabeth",
+        "short_name": "Pécou E",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire J.-A. Dieudonné, UMR CNRS-Université Côte d'Azur, 28 avenue de Valrose, Nice, 06000, France. Electronic address: elisabeth.pecou@univ-cotedazur.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of theoretical biology"
+    ],
+    "journal_abbrev": [
+      "J Theor Biol"
+    ],
+    "pub_date": "2026 Nov 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/08 00:37",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42567496",
+      "30414319",
+      "19617533",
+      "23845991",
+      "42475469",
+      "22679490",
+      "23169817",
+      "42162854",
+      "39820247",
+      "21576488",
+      "33445890",
+      "31561425",
+      "21095219",
+      "30824861",
+      "26928575",
+      "25158956",
+      "26433055",
+      "19619456",
+      "22230936",
+      "22677378",
+      "18843205",
+      "20685653",
+      "26278643",
+      "22700930",
+      "25093836",
+      "9553040",
+      "25003668",
+      "23299342",
+      "24829283",
+      "25078064",
+      "19274075",
+      "27754743",
+      "22986526",
+      "34074758",
+      "26062895",
+      "23705030",
+      "32987354",
+      "21130774",
+      "36472304",
+      "18056458",
+      "28968438",
+      "10341340",
+      "25761368",
+      "12637545",
+      "26020242",
+      "37048159",
+      "21921675",
+      "34824391",
+      "9443911",
+      "28484034",
+      "25237903",
+      "22294094",
+      "30488759",
+      "23800173",
+      "34639222",
+      "22114721",
+      "36208026",
+      "32478947",
+      "16260787",
+      "24177958",
+      "26931810",
+      "17245126",
+      "23807740",
+      "20703098",
+      "36766831",
+      "36510032",
+      "24739178",
+      "25996291",
+      "26299837",
+      "18602874",
+      "12505356",
+      "32075732",
+      "31635420",
+      "32755587",
+      "36499271",
+      "12788948",
+      "33925065",
+      "24739573",
+      "23684607",
+      "8950467",
+      "22548705",
+      "21857159",
+      "24113167",
+      "20132225",
+      "22979979",
+      "23588418",
+      "21741842",
+      "25573782",
+      "31621101",
+      "22761954",
+      "18278067",
+      "34033093",
+      "17189186",
+      "17565509",
+      "29856751",
+      "22156152",
+      "33126266",
+      "22564788",
+      "23880895",
+      "33961949"
+    ],
+    "review": [
+      "42567496",
+      "30824861",
+      "26278643",
+      "23299342",
+      "10341340",
+      "34639222",
+      "26931810",
+      "36766831",
+      "12505356",
+      "31635420",
+      "8950467",
+      "21857159",
+      "24113167",
+      "20132225",
+      "23588418",
+      "21741842",
+      "31621101",
+      "17565509",
+      "23880895"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-5193(26)00187-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

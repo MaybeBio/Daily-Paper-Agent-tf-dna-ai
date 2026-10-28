@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary information descriptions
+- **Assessment boundary** Scientific content, methodological rigor, structural model validity, computational analysis quality, and interpretation of results as presented in the manuscript
+- **Shared manuscript claim summary** The authors present an integrative structural model of the human nucleotide excision repair (NER) pre-incision complex (PInC), built by combining cryo-EM, XL-MS, and AlphaFold2 predictions. They propose that TFIIH acts as a molecular ruler defining DNA bubble size, that XPG bridges both DNA junctions to coordinate dual incision, and that disease mutations cluster at dynamic community interfaces. They support these claims with microsecond-scale molecular dynamics simulations and graph-theoretical network analysis.
+- **Visible evidence base** Full text with figures referenced (Figs. 1-7), supplementary figures and tables referenced, methods section describing model building, MD simulations, network analysis, PCA, and Rosetta stability calculations
+- **Missing materials affecting confidence** Actual figures and supplementary materials not provided; PDB/EMDB accession codes mentioned but structures not directly inspectable; detailed XL-MS data tables not available; supplementary movies and tables referenced but not accessible
+
+## Reviewer
+- **Overall assessment** This manuscript presents an ambitious integrative modeling effort that addresses a critical gap in NER structural biology. The combination of multiple experimental datasets with computational modeling is timely and potentially valuable. However, the central claims regarding the "molecular ruler" function of TFIIH, the XPG bridging mechanism, and the disease mutation clustering analysis rest heavily on a model whose accuracy is difficult to assess without direct inspection of the structural data and validation metrics. The MD simulation and network analysis components are methodologically sound but their biological conclusions require more rigorous validation against experimental data. The disease mutation analysis is intriguing but the connection between computed stability changes and clinical phenotypes remains speculative.
+- **Who would be interested in the results, and why** Structural biologists studying multi-protein DNA repair complexes, researchers in the NER field specifically, computational biologists developing integrative modeling approaches, and clinicians interested in genotype-phenotype correlations in xeroderma pigmentosum and Cockayne syndrome. The integrative modeling framework could serve as a template for studying other large dynamic protein assemblies.
+- **Major strengths** The manuscript addresses a significant gap in understanding the NER pathway by providing a near-complete structural model of a key intermediate. The integration of multiple experimental data types is sophisticated and appropriate. The use of MD simulations to probe functional dynamics goes beyond static structure determination. The disease mutation mapping provides a potential framework for understanding genotype-phenotype relationships. The writing is clear and the logical flow from model building to functional analysis is well structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The authors claim to have built a "practically complete structural model of the human NER pre-incision complex" that provides "unanticipated insights" into NER mechanisms.
+  - **Evidence pointer** Results section "TFIIH serves as a molecular ruler", Methods section "Model building", Fig. 1
+  - **Concern** The manuscript lacks quantitative validation metrics for the integrative model. While the authors describe using XL-MS restraints and AlphaFold2 predictions, they do not provide a systematic assessment of model quality, such as cross-validation against excluded data, comparison to known biochemical constraints beyond those used in modeling, or uncertainty estimates for domain placements. The claim of a "practically complete" model is strong given that several components (XPF N-terminal domain, large portions of XPG spacer) were omitted or modeled with low confidence. The authors should provide a more rigorous validation framework, including quantitative cross-validation statistics, local model quality scores, and explicit discussion of model uncertainty.
+  - **Why it matters** The central conclusions about molecular mechanisms, including the "molecular ruler" function and XPG bridging, depend entirely on the accuracy of the model. Without rigorous validation, these mechanistic claims cannot be distinguished from plausible speculation. The NER field has a history of conflicting structural models, and the community will require strong evidence before accepting new architectural proposals.
+  - **Resolution test** Provide quantitative model validation including: (1) cross-validation statistics for XL-MS data (e.g., how many crosslinks are satisfied within what distance threshold), (2) comparison of model-predicted contacts with known biochemical/mutational data not used in modeling, (3) local uncertainty estimates for each domain placement, and (4) explicit discussion of how modeling choices affect the conclusions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for key claims
+  - **Claim pointer** The authors propose that "XPG caps XPD's DNA-binding groove and bridges both junctions of the DNA bubble, suggesting a novel coordination mechanism of PInC's dual incision" and that "XPA serves as a platform for the recruitment of XPF/ERCC1 to the pre-incision complex."
+  - **Evidence pointer** Results sections "XPG is positioned for incision at the 3' DNA junction", "XPG bridges the two DNA junctions", "XPA orchestrates recruitment of core NER factors", Figs. 2, 4
+  - **Concern** The manuscript is purely computational/modeling in its primary claims. While the authors reference existing biochemical data, they do not present new experimental validation of the proposed mechanisms. The claim that XPG bridges both junctions and senses XPF incision is a strong mechanistic proposal that would benefit from experimental testing, such as targeted crosslinking, mutagenesis, or single-molecule studies. Similarly, the proposed XPA-mediated recruitment mechanism for XPF/ERCC1 is presented as established but relies on model interpretation rather than direct experimental evidence.
+  - **Why it matters** The NER field has many proposed mechanisms that later proved incorrect when tested experimentally. The authors' computational model generates specific, testable predictions, but presenting these as established mechanisms without experimental validation overstates the evidence. The manuscript would be strengthened by clearly distinguishing between model-derived hypotheses and experimentally established facts.
+  - **Resolution test** Either (1) add new experimental validation of key predictions (e.g., site-directed crosslinking, mutagenesis of predicted interface residues, or biochemical assays testing the proposed coordination mechanism), or (2) substantially revise the language to clearly frame these as model-derived hypotheses requiring experimental testing, with explicit discussion of alternative models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** MD simulation analysis
+  - **Claim pointer** The authors claim that "PInC's global motions and dynamic modules are key for dual incision coordination" and that network analysis reveals "the key differences between the functional dynamics of the pre-incision and lesion-scanning complexes."
+  - **Evidence pointer** Results section "PInC's global motions and dynamic modules", Supplementary Figs. 6-7, Methods "Molecular dynamics" and "Covariance-based community network analysis"
+  - **Concern** The MD simulation analysis is described at a high level but lacks critical details. The authors do not report simulation convergence metrics, replicate numbers, or statistical analysis of the community assignments. The comparison between PInC, LSC, and apo-TFIIH is mentioned but the quantitative differences in dynamics are not presented in the main text. The claim that loss of XPD mobility "converts PInC into a rigid platform" needs quantitative support showing that the observed rigidity is significant relative to thermal fluctuations and simulation uncertainty.
+  - **Why it matters** The dynamic conclusions are a major component of the manuscript's novelty. Without proper statistical treatment and convergence analysis, the community assignments and rigidity claims could be artifacts of insufficient sampling or analysis choices. The NER community needs confidence that the dynamic differences between states are robust before accepting the mechanistic implications.
+  - **Resolution test** Provide: (1) convergence metrics for the MD simulations (e.g., RMSD stabilization, block averaging), (2) replicate simulations or error estimates for community assignments, (3) quantitative comparison of B-factors or RMSF between states with statistical significance testing, and (4) sensitivity analysis of network parameters (e.g., contact thresholds, edge weighting schemes).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Disease mutation analysis
+  - **Claim pointer** The authors claim that "mapping of disease mutations onto our models reveals clustering into distinct mechanistic classes, elucidating xeroderma pigmentosum and Cockayne syndrome disease etiology."
+  - **Evidence pointer** Results section "Human disease mutations cluster at critical junctures of the PInC network", Fig. 7, Supplementary Table 1
+  - **Concern** The disease mutation analysis is presented descriptively but lacks systematic statistical analysis. The authors do not test whether the observed clustering is statistically significant compared to random mutation distributions. The Rosetta ddG calculations are presented without validation against experimental stability measurements, and the correlation between computed stability changes and clinical severity is not quantified. The mechanistic classification of mutations appears subjective rather than derived from a defined algorithm.
+  - **Why it matters** The claim to "elucidate disease etiology" is strong and clinically relevant. If the clustering analysis is not statistically robust, the conclusions could mislead researchers studying genotype-phenotype correlations. The NER field has extensive clinical data, and the authors' framework could be valuable if properly validated.
+  - **Resolution test** Provide: (1) statistical test for clustering significance (e.g., permutation test comparing observed clustering to random), (2) validation of Rosetta ddG predictions against experimental stability data where available, (3) quantitative correlation between predicted effects and clinical phenotypes, and (4) a defined, reproducible algorithm for mutation classification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model building
+  - **Affected element** Methods section "Model building"
+  - **Evidence pointer** Methods section, Supplementary Figs. 10-12
+  - **Issue** The description of how individual components were assembled into the final model is unclear. The authors state that components were positioned based on XL-MS data and AlphaFold2 predictions but do not describe the specific docking or refinement protocol used.
+  - **Required correction** Provide a step-by-step description of the model building workflow, including software used, scoring functions, and how conflicting restraints were resolved.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1-7
+  - **Evidence pointer** All figures
+  - **Issue** The manuscript relies heavily on figures that are not available in the provided text. Key claims about structural arrangements and mutation clustering cannot be evaluated without viewing the figures.
+  - **Required correction** Ensure figures are accessible for review and consider adding more detailed figure legends that describe the key features supporting each claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion presents the proposed model as the definitive architecture without adequately discussing alternative models or uncertainties in the modeling.
+  - **Required correction** Add a section discussing alternative possible arrangements and why the proposed model is preferred, including limitations of the current approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The term "molecular ruler" is used to describe TFIIH's function, but this is an analogy that may overstate the precision of the proposed mechanism. The authors do not define what "ruler" means in quantitative terms.
+  - **Required correction** Either define the "molecular ruler" concept quantitatively or use more neutral language such as "structural determinant" or "spacing element."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Human disease mutations"
+  - **Evidence pointer** Fig. 7, Supplementary Table 1
+  - **Issue** The number of mutations analyzed and the criteria for inclusion are not clearly stated. The authors should specify how many total mutations were mapped and how many were excluded and why.
+  - **Required correction** Add explicit reporting of mutation counts, inclusion/exclusion criteria, and the source database for mutations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation) and R1-M2 (experimental support) are the primary technical issues that must be addressed. The manuscript currently presents a computational model with strong mechanistic claims that lack rigorous validation. Without addressing these concerns, the central conclusions cannot be considered established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The integrative approach combining cryo-EM, XL-MS, and AlphaFold2 for the NER pre-incision complex is novel and represents a methodological advance. The proposed XPG bridging mechanism is original.
+  - **Scientific importance** The NER pathway is fundamental to genome stability, and understanding the pre-incision complex architecture has broad implications for DNA repair biology and disease mechanisms. The work addresses a significant gap.
+  - **Interdisciplinary readership** The work bridges structural biology, computational biology, and clinical genetics. The disease mutation analysis could attract clinical interest, but the technical nature of the modeling may limit accessibility.
+  - **Technical soundness** The computational methods are appropriate but the validation is insufficient. The MD simulation and network analysis protocols are standard but lack rigorous statistical treatment. The model building lacks quantitative quality assessment.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the conceptual framework is accessible. However, the methods section assumes significant expertise in integrative modeling, and the key claims would benefit from clearer explanation of how the model was validated.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem with a sophisticated approach, but the current evidence does not fully establish the central mechanistic claims. Major revisions focusing on model validation and clearer separation of hypothesis from established fact are required before the conclusions can be accepted.
+
+## Risk / unsupported claims
+- The claim that TFIIH serves as a "molecular ruler" defining DNA bubble size is not quantitatively supported; no direct measurement or calculation of ruler function is provided.
+- The claim that XPG "bridges both junctions" and senses XPF incision is a model-derived hypothesis without experimental validation.
+- The claim that disease mutations "cluster into distinct mechanistic classes" lacks statistical testing for clustering significance.
+- The claim that the model is "practically complete" is not supported given the omission of the XPF N-terminal domain and low-confidence modeling of several regions.
+- The proposed dynamic community structure and its functional significance are not validated against experimental dynamics data.
+- The correlation between Rosetta ddG predictions and clinical phenotypes is asserted but not quantified.
+- The claim that PInC is "rigidified" compared to LSC requires statistical support from the MD simulations that is not provided.

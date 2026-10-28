@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "40678166",
+    "doi": "10.3389/ftubr.2025.1500899",
+    "title": "Predicting fitness in Mycobacterium tuberculosis with transcriptional regulatory network-informed interpretable machine learning."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Mycobacterium tuberculosis (Mtb) is the causative agent of tuberculosis disease, the greatest source of global mortality by a bacterial pathogen. Mtb adapts and responds to diverse stresses, such as antibiotics, by inducing transcriptional stress response regulatory programs. Understanding how and when mycobacterial regulatory programs are activated could inform novel treatment strategies that hinder stress adaptation and potentiate the efficacy of new and existing drugs. Here, we sought to define and analyze Mtb regulatory programs that modulate bacterial fitness under stress. METHODS: We assembled a large Mtb RNA expression compendium and applied this to infer a comprehensive Mtb transcriptional regulatory network and compute condition-specific transcription factor activity (TFA) profiles. Using transcriptomic and functional genomics data, we trained an interpretable machine learning model that predicts Mtb fitness from TFA profiles. RESULTS: We demonstrated that a TFA-based model can predict Mtb growth arrest and growth resumption under hypoxia and reaeration using gene expression data alone. This model also directly elucidates the transcriptional programs driving these growth phenotypes. DISCUSSION: These integrative network modeling and machine learning analyses enable the prediction of mycobacterial fitness across different environmental and genetic contexts with mechanistic detail. We envision these models can inform the future design of prognostic assays and therapeutic interventions that can cripple Mtb growth and survival to cure tuberculosis disease.",
+    "keywords": [
+      "Mycobacterium tuberculosis",
+      "growth regulation",
+      "hypoxia",
+      "interpretable machine learning",
+      "network inference",
+      "network modeling",
+      "stress adaptation",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bustad, Ethan",
+        "Petry, Edson",
+        "Gu, Oliver",
+        "Griebel, Braden T",
+        "Rustad, Tige R",
+        "Sherman, David R",
+        "Yang, Jason H",
+        "Ma, Shuyi"
+      ],
+      "short_names": [
+        "Bustad E",
+        "Petry E",
+        "Gu O",
+        "Griebel BT",
+        "Rustad TR",
+        "Sherman DR",
+        "Yang JH",
+        "Ma S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle, WA, United States.",
+        "Center for Emerging and Re-Emerging Pathogens, Rutgers New Jersey Medical School, Newark, NJ, United States.",
+        "Center for Emerging and Re-Emerging Pathogens, Rutgers New Jersey Medical School, Newark, NJ, United States.",
+        "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle, WA, United States.",
+        "Department of Chemical Engineering, University of Washington, Seattle, WA, United States.",
+        "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle, WA, United States.",
+        "Department of Microbiology, University of Washington, Seattle, WA, United States.",
+        "Center for Emerging and Re-Emerging Pathogens, Rutgers New Jersey Medical School, Newark, NJ, United States.",
+        "Department of Microbiology, Biochemistry and Molecular Genetics, Rutgers New Jersey Medical School, Newark, NJ, United States.",
+        "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle, WA, United States.",
+        "Department of Chemical Engineering, University of Washington, Seattle, WA, United States.",
+        "Department of Pediatrics, University of Washington, Seattle, WA, United States.",
+        "Pathobiology Graduate Program, Department of Global Health, University of Washington, Seattle, WA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bustad, Ethan",
+        "short_name": "Bustad E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle, WA, United States."
+        ]
+      },
+      {
+        "full_name": "Petry, Edson",
+        "short_name": "Petry E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Emerging and Re-Emerging Pathogens, Rutgers New Jersey Medical School, Newark, NJ, United States."
+        ]
+      },
+      {
+        "full_name": "Gu, Oliver",
+        "short_name": "Gu O",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Emerging and Re-Emerging Pathogens, Rutgers New Jersey Medical School, Newark, NJ, United States."
+        ]
+      },
+      {
+        "full_name": "Griebel, Braden T",
+        "short_name": "Griebel BT",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle, WA, United States.",
+          "Department of Chemical Engineering, University of Washington, Seattle, WA, United States."
+        ]
+      },
+      {
+        "full_name": "Rustad, Tige R",
+        "short_name": "Rustad TR",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle, WA, United States."
+        ]
+      },
+      {
+        "full_name": "Sherman, David R",
+        "short_name": "Sherman DR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, University of Washington, Seattle, WA, United States."
+        ]
+      },
+      {
+        "full_name": "Yang, Jason H",
+        "short_name": "Yang JH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Emerging and Re-Emerging Pathogens, Rutgers New Jersey Medical School, Newark, NJ, United States.",
+          "Department of Microbiology, Biochemistry and Molecular Genetics, Rutgers New Jersey Medical School, Newark, NJ, United States."
+        ]
+      },
+      {
+        "full_name": "Ma, Shuyi",
+        "short_name": "Ma S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle, WA, United States.",
+          "Department of Chemical Engineering, University of Washington, Seattle, WA, United States.",
+          "Department of Pediatrics, University of Washington, Seattle, WA, United States.",
+          "Pathobiology Graduate Program, Department of Global Health, University of Washington, Seattle, WA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in tuberculosis"
+    ],
+    "journal_abbrev": [
+      "Front Tuberc"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/18 06:25",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "42367215",
+      "42055250"
+    ],
+    "refs": [
+      "39993187",
+      "39441835",
+      "39299261",
+      "39122941",
+      "38890548",
+      "38734030",
+      "38600064",
+      "38587412",
+      "38519618",
+      "37971353",
+      "37802917",
+      "37542718",
+      "36926589",
+      "36866529",
+      "36084643",
+      "35986058",
+      "35944069",
+      "35637331",
+      "35306876",
+      "34726489",
+      "34469743",
+      "34355212",
+      "34297925",
+      "33536291",
+      "33199862",
+      "32348771",
+      "31797920",
+      "31719182",
+      "31080069",
+      "30833303",
+      "30082724",
+      "30022098",
+      "29505613",
+      "29447345",
+      "29234465",
+      "29036413",
+      "28991892",
+      "28893793",
+      "28096490",
+      "27312411",
+      "27153652",
+      "26001906",
+      "25977815",
+      "25873626",
+      "25581030",
+      "25380655",
+      "25232098",
+      "24227677",
+      "23940252",
+      "23823726",
+      "22796662",
+      "22633061",
+      "22388286",
+      "22247279",
+      "21818301",
+      "21531770",
+      "20980200",
+      "20927193",
+      "20661284",
+      "20167624",
+      "19505943",
+      "19015660",
+      "18985025",
+      "18491971",
+      "18231589",
+      "17706247",
+      "17510665",
+      "17214507",
+      "16749936",
+      "16723010",
+      "14673099",
+      "12424120",
+      "11416222",
+      "10802651",
+      "9689123",
+      "1180967"
+    ],
+    "similar": [
+      "40678166",
+      "39386570",
+      "37090677",
+      "25422323",
+      "24245755",
+      "35306876",
+      "39873486",
+      "31752669",
+      "17240921",
+      "40646483",
+      "41207937",
+      "40793863",
+      "36700638",
+      "37175635",
+      "41102315",
+      "20356371",
+      "37704889",
+      "39639222",
+      "31719182",
+      "38509362",
+      "41207939",
+      "25232098",
+      "26377923",
+      "37405387",
+      "40404665",
+      "32348771",
+      "41207941",
+      "27724857",
+      "39611843",
+      "25645949",
+      "40586596",
+      "20661284",
+      "38916320",
+      "30687646",
+      "39361873",
+      "35165358",
+      "40140944",
+      "27335215",
+      "34262571",
+      "36625672",
+      "40527579",
+      "38418874",
+      "36968107",
+      "36945399",
+      "32117257",
+      "35167150",
+      "26618656",
+      "25977815",
+      "24705585",
+      "40095213",
+      "20386700",
+      "31361123",
+      "41313006",
+      "24722908",
+      "33095750",
+      "38700329",
+      "41207940",
+      "30123778",
+      "22544630",
+      "27207833",
+      "29157227",
+      "26270051",
+      "26502963",
+      "39315796",
+      "40231840",
+      "39818957",
+      "37439558",
+      "37542718",
+      "38885567",
+      "24409094",
+      "30224802",
+      "41224155",
+      "31218881",
+      "34276658",
+      "19562030",
+      "34060333",
+      "35467412",
+      "29788125",
+      "38387847",
+      "30989745",
+      "32423788",
+      "30053801",
+      "17467338",
+      "36212533",
+      "30462147",
+      "29559631",
+      "37244349",
+      "31958639",
+      "38861604",
+      "39287444",
+      "35471080",
+      "38179948",
+      "29712924",
+      "35153492",
+      "38529472",
+      "24743303",
+      "34964633",
+      "30269499",
+      "38717801",
+      "29672063"
+    ],
+    "review": [
+      "40678166",
+      "17240921",
+      "41207937",
+      "37704889",
+      "41207939",
+      "41207941",
+      "34262571",
+      "31361123",
+      "41207940",
+      "41224155",
+      "29788125",
+      "32423788",
+      "17467338",
+      "38529472"
+    ],
+    "pmc": [
+      "12269550"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40678166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/ftubr.2025.1500899",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

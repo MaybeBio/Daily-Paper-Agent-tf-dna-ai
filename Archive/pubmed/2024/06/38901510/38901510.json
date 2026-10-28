@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "38901510",
+    "doi": "10.1016/j.ijbiomac.2024.133233",
+    "title": "Phage display identification of high-affinity ligands for human TSG101-UEV: A structural and thermodynamic study of PTAP recognition."
+  },
+  "content": {
+    "abstract": "The ubiquitin E2 variant domain of TSG101 (TSG101-UEV) plays a pivotal role in protein sorting and virus budding by recognizing PTAP motifs within ubiquitinated proteins. Disrupting TSG101-UEV/PTAP interactions has emerged as a promising strategy for the development of novel host-oriented antivirals with a broad spectrum of action. Nonetheless, finding inhibitors with good properties as therapeutic agents remains a challenge since the key determinants of binding affinity and specificity are still poorly understood. Here we present a detailed thermodynamic, structural, and dynamic characterization viral PTAP Late domain recognition by TSG101-UEV, combining isothermal titration calorimetry, X-ray diffraction structural studies, molecular dynamics simulations, and computational analysis of intramolecular communication pathways. Our analysis highlights key contributions from conserved hydrophobic contacts and water-mediated hydrogen bonds at the PTAP binding interface. We have identified additional electrostatic hotspots adjacent to the core motif that modulate affinity. Using competitive phage display screening we have improved affinity by 1-2 orders of magnitude, producing novel peptides with low micromolar affinities that combine critical elements found in the best natural binders. Molecular dynamics simulations revealed that optimized peptides engage new pockets on the UEV domain surface. This study provides a comprehensive view of the molecular forces directing TSG101-UEV recognition of PTAP motifs, revealing that binding is governed by conserved structural elements yet tuneable through targeted optimization. These insights open new venues to design inhibitors targeting TSG101-dependent pathways with potential application as novel broad-spectrum antivirals.",
+    "keywords": [
+      "Broad-spectrum antivirals",
+      "Polyproline recognition domains",
+      "TSG101 UEV domain",
+      "Viral Late domains",
+      "Virus budding"
+    ],
+    "mesh_terms": [
+      "*Endosomal Sorting Complexes Required for Transport/metabolism/chemistry",
+      "Humans",
+      "*Thermodynamics",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Protein Binding",
+      "Ligands",
+      "*Transcription Factors/chemistry/metabolism",
+      "Peptides/chemistry/metabolism",
+      "Binding Sites",
+      "Protein Domains",
+      "Cell Surface Display Techniques/methods",
+      "Tsg101 Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Murciano-Calles, Javier",
+        "Rodriguez-Martinez, Alejandro",
+        "Palencia, Andres",
+        "Andujar-Sanchez, Montserrat",
+        "Iglesias-Bexiga, Manuel",
+        "Corbi-Verge, Carles",
+        "Buzon, Pedro",
+        "Ruiz-Sanz, Javier",
+        "Martinez, Jose C",
+        "Perez-Sanchez, Horacio",
+        "Camara-Artigas, Ana",
+        "Luque, Irene"
+      ],
+      "short_names": [
+        "Murciano-Calles J",
+        "Rodriguez-Martinez A",
+        "Palencia A",
+        "Andujar-Sanchez M",
+        "Iglesias-Bexiga M",
+        "Corbi-Verge C",
+        "Buzon P",
+        "Ruiz-Sanz J",
+        "Martinez JC",
+        "Perez-Sanchez H",
+        "Camara-Artigas A",
+        "Luque I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain; Structural Bioinformatics and High-Performance Computing (BIO-HPC) Research Group, Universidad Catolica de Murcia (UCAM), Guadalupe, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain.",
+        "Department of Chemistry and Physics, Agrifood Campus of International Excellence (ceiA3) and CIAMBITAL, University of Almeria, Carretera de Sacramento s/n 04120 Almeria, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain.",
+        "Structural Bioinformatics and High-Performance Computing (BIO-HPC) Research Group, Universidad Catolica de Murcia (UCAM), Guadalupe, Spain.",
+        "Department of Chemistry and Physics, Agrifood Campus of International Excellence (ceiA3) and CIAMBITAL, University of Almeria, Carretera de Sacramento s/n 04120 Almeria, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain. Electronic address: iluque@ugr.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Murciano-Calles, Javier",
+        "short_name": "Murciano-Calles J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Rodríguez-Martínez, Alejandro",
+        "short_name": "Rodríguez-Martínez A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain; Structural Bioinformatics and High-Performance Computing (BIO-HPC) Research Group, Universidad Católica de Murcia (UCAM), Guadalupe, Spain."
+        ]
+      },
+      {
+        "full_name": "Palencia, Andrés",
+        "short_name": "Palencia A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Andújar-Sánchez, Montserrat",
+        "short_name": "Andújar-Sánchez M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Physics, Agrifood Campus of International Excellence (ceiA3) and CIAMBITAL, University of Almería, Carretera de Sacramento s/n 04120 Almería, Spain."
+        ]
+      },
+      {
+        "full_name": "Iglesias-Bexiga, Manuel",
+        "short_name": "Iglesias-Bexiga M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Corbi-Verge, Carles",
+        "short_name": "Corbi-Verge C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Buzón, Pedro",
+        "short_name": "Buzón P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Ruiz-Sanz, Javier",
+        "short_name": "Ruiz-Sanz J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Martínez, Jose C",
+        "short_name": "Martínez JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Pérez-Sánchez, Horacio",
+        "short_name": "Pérez-Sánchez H",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Bioinformatics and High-Performance Computing (BIO-HPC) Research Group, Universidad Católica de Murcia (UCAM), Guadalupe, Spain."
+        ]
+      },
+      {
+        "full_name": "Cámara-Artigas, Ana",
+        "short_name": "Cámara-Artigas A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Physics, Agrifood Campus of International Excellence (ceiA3) and CIAMBITAL, University of Almería, Carretera de Sacramento s/n 04120 Almería, Spain."
+        ]
+      },
+      {
+        "full_name": "Luque, Irene",
+        "short_name": "Luque I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology and Unit of Excellence in Chemistry applied to Biomedicine and Environment, University of Granada, 18071 Granada, Spain. Electronic address: iluque@ugr.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/21 00:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42317333",
+      "39724449"
+    ],
+    "refs": [],
+    "similar": [
+      "38901510",
+      "12379843",
+      "19542561",
+      "12006492",
+      "15053872",
+      "30068652",
+      "16552148",
+      "32326417",
+      "29123089",
+      "21070952",
+      "36740661",
+      "34203832",
+      "12743307",
+      "32917811",
+      "12525615",
+      "35257734",
+      "24244542",
+      "31636332",
+      "29571744",
+      "12663786",
+      "15044434",
+      "15218037",
+      "20088757",
+      "31411851",
+      "19914066",
+      "36642186",
+      "11595185",
+      "12900394",
+      "12915533",
+      "15509564",
+      "35120596",
+      "24522922",
+      "23276921",
+      "29773649",
+      "11805336",
+      "19362095",
+      "15126635",
+      "19703557",
+      "18655064",
+      "32213612",
+      "18367816",
+      "14581525",
+      "15731271",
+      "12598123",
+      "19244744",
+      "19282983",
+      "25330247",
+      "24036228",
+      "14990685",
+      "23895345",
+      "17428861",
+      "21159863",
+      "18321968",
+      "12388682",
+      "11726971",
+      "33328308",
+      "19053244",
+      "20519395",
+      "9580084",
+      "22315426",
+      "20504928",
+      "20544962",
+      "12915562",
+      "15140952",
+      "27764233",
+      "16557014",
+      "16234236",
+      "24252269",
+      "32998394",
+      "15256501",
+      "12802020",
+      "24257210",
+      "22348143",
+      "20975941",
+      "19692479",
+      "37042780",
+      "14761944",
+      "17229889",
+      "29507389",
+      "15163754",
+      "14694104",
+      "30126636",
+      "21643473",
+      "12559917",
+      "12941909",
+      "15908698",
+      "38447164",
+      "22115123",
+      "30373771",
+      "15858022",
+      "20862313",
+      "27648839",
+      "26457367",
+      "25010273",
+      "20929444",
+      "16352570",
+      "38888346",
+      "17182674",
+      "24614057",
+      "22102845",
+      "26811492",
+      "39059492",
+      "36305766",
+      "39025452",
+      "19253304"
+    ],
+    "review": [
+      "38901510",
+      "34203832",
+      "20088757",
+      "23276921",
+      "19244744"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)04038-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38901510/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "identity": {
+    "pmid": "38693260",
+    "doi": "10.1038/s41586-024-07234-1",
+    "title": "Chromatin accessibility during human first-trimester neurodevelopment."
+  },
+  "content": {
+    "abstract": "The human brain develops through a tightly organized cascade of patterning events, induced by transcription factor expression and changes in chromatin accessibility. Although gene expression across the developing brain has been described at single-cell resolution(1), similar atlases of chromatin accessibility have been primarily focused on the forebrain(2-4). Here we describe chromatin accessibility and paired gene expression across the entire developing human brain during the first trimester (6-13 weeks after conception). We defined 135 clusters and used multiomic measurements to link candidate cis-regulatory elements to gene expression. The number of accessible regions increased both with age and along neuronal differentiation. Using a convolutional neural network, we identified putative functional transcription factor-binding sites in enhancers characterizing neuronal subtypes. We applied this model to cis-regulatory elements linked to ESRRB to elucidate its activation mechanism in the Purkinje cell lineage. Finally, by linking disease-associated single nucleotide polymorphisms to cis-regulatory elements, we validated putative pathogenic mechanisms in several diseases and identified midbrain-derived GABAergic neurons as being the most vulnerable to major depressive disorder-related mutations. Our findings provide a more detailed view of key gene regulatory mechanisms underlying the emergence of brain cell types during the first trimester and a comprehensive reference for future studies related to human neurodevelopment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/metabolism/genetics",
+      "*Pregnancy Trimester, First/genetics",
+      "Female",
+      "Pregnancy",
+      "*Brain/embryology/metabolism/cytology",
+      "*Gene Expression Regulation, Developmental",
+      "Enhancer Elements, Genetic/genetics",
+      "Transcription Factors/metabolism",
+      "GABAergic Neurons/metabolism/cytology",
+      "Polymorphism, Single Nucleotide/genetics",
+      "Binding Sites",
+      "Male",
+      "Cell Lineage/genetics",
+      "Cell Differentiation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mannens, Camiel C A",
+        "Hu, Lijuan",
+        "Lonnerberg, Peter",
+        "Schipper, Marijn",
+        "Reagor, Caleb C",
+        "Li, Xiaofei",
+        "He, Xiaoling",
+        "Barker, Roger A",
+        "Sundstrom, Erik",
+        "Posthuma, Danielle",
+        "Linnarsson, Sten"
+      ],
+      "short_names": [
+        "Mannens CCA",
+        "Hu L",
+        "Lonnerberg P",
+        "Schipper M",
+        "Reagor CC",
+        "Li X",
+        "He X",
+        "Barker RA",
+        "Sundstrom E",
+        "Posthuma D",
+        "Linnarsson S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1318-2603",
+        "ORCID: 0000-0003-1869-0372",
+        "ORCID: 0000-0002-5170-2796",
+        "ORCID: 0000-0002-8304-1267",
+        "ORCID: 0000-0002-9991-7534",
+        "ORCID: 0009-0004-1002-8418",
+        "ORCID: 0000-0001-8843-7730",
+        "ORCID: 0000-0003-2931-8015",
+        "ORCID: 0000-0001-7582-2365",
+        "ORCID: 0000-0002-3491-3444"
+      ],
+      "affiliations": [
+        "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Solna, Sweden.",
+        "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Solna, Sweden.",
+        "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Solna, Sweden.",
+        "Department of Complex Trait Genetics, Center for Neurogenomics and Cognitive Research (CNCR), Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.",
+        "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, NY, USA.",
+        "Division of Neurodegeneration, Department of Neurobiology, Care Sciences and Society, Karolinska Institutet, Solna, Sweden.",
+        "John van Geest Centre for Brain Repair, Department of Clinical Neurosciences, Wellcome-MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge, UK.",
+        "John van Geest Centre for Brain Repair, Department of Clinical Neurosciences, Wellcome-MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge, UK.",
+        "Division of Neurodegeneration, Department of Neurobiology, Care Sciences and Society, Karolinska Institutet, Solna, Sweden.",
+        "Department of Complex Trait Genetics, Center for Neurogenomics and Cognitive Research (CNCR), Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.",
+        "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Solna, Sweden. sten.linnarsson@ki.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mannens, Camiel C A",
+        "short_name": "Mannens CCA",
+        "identifiers": [
+          "0000-0002-1318-2603"
+        ],
+        "affiliations": [
+          "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Hu, Lijuan",
+        "short_name": "Hu L",
+        "identifiers": [
+          "0000-0003-1869-0372"
+        ],
+        "affiliations": [
+          "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lönnerberg, Peter",
+        "short_name": "Lönnerberg P",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Schipper, Marijn",
+        "short_name": "Schipper M",
+        "identifiers": [
+          "0000-0002-5170-2796"
+        ],
+        "affiliations": [
+          "Department of Complex Trait Genetics, Center for Neurogenomics and Cognitive Research (CNCR), Vrije Universiteit Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Reagor, Caleb C",
+        "short_name": "Reagor CC",
+        "identifiers": [
+          "0000-0002-8304-1267"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaofei",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0002-9991-7534"
+        ],
+        "affiliations": [
+          "Division of Neurodegeneration, Department of Neurobiology, Care Sciences and Society, Karolinska Institutet, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "He, Xiaoling",
+        "short_name": "He X",
+        "identifiers": [
+          "0009-0004-1002-8418"
+        ],
+        "affiliations": [
+          "John van Geest Centre for Brain Repair, Department of Clinical Neurosciences, Wellcome-MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Barker, Roger A",
+        "short_name": "Barker RA",
+        "identifiers": [
+          "0000-0001-8843-7730"
+        ],
+        "affiliations": [
+          "John van Geest Centre for Brain Repair, Department of Clinical Neurosciences, Wellcome-MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Sundström, Erik",
+        "short_name": "Sundström E",
+        "identifiers": [
+          "0000-0003-2931-8015"
+        ],
+        "affiliations": [
+          "Division of Neurodegeneration, Department of Neurobiology, Care Sciences and Society, Karolinska Institutet, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Posthuma, Danielle",
+        "short_name": "Posthuma D",
+        "identifiers": [
+          "0000-0001-7582-2365"
+        ],
+        "affiliations": [
+          "Department of Complex Trait Genetics, Center for Neurogenomics and Cognitive Research (CNCR), Vrije Universiteit Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Linnarsson, Sten",
+        "short_name": "Linnarsson S",
+        "identifiers": [
+          "0000-0002-3491-3444"
+        ],
+        "affiliations": [
+          "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Solna, Sweden. sten.linnarsson@ki.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/02 00:49",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42699760",
+      "42693176",
+      "42527403",
+      "42479105",
+      "42404126",
+      "42319346",
+      "42298188",
+      "42271442",
+      "42237030",
+      "42020311",
+      "41889906",
+      "41861825",
+      "41857393",
+      "41665992",
+      "41610256",
+      "41565813",
+      "41545595",
+      "41465068",
+      "41429340",
+      "41332368",
+      "41324880",
+      "41193845",
+      "41137173",
+      "40980064",
+      "40832322",
+      "40469903",
+      "40355602",
+      "40315847",
+      "40249772",
+      "40196253",
+      "40027628",
+      "39880657",
+      "39788103",
+      "39472026",
+      "39420633",
+      "39347016",
+      "39282422",
+      "39241178",
+      "39149227",
+      "39131371",
+      "38966948",
+      "38699372"
+    ],
+    "refs": [
+      "37824663",
+      "37824650",
+      "37824643",
+      "37113980",
+      "36653562",
+      "35551305",
+      "35396580",
+      "34852229",
+      "34774128",
+      "34761251",
+      "34616060",
+      "34594043",
+      "34493870",
+      "34488842",
+      "34390642",
+      "34321664",
+      "33184180",
+      "33106633",
+      "32728250",
+      "31907445",
+      "31780648",
+      "31740819",
+      "31375813",
+      "31308545",
+      "31249361",
+      "31043756",
+      "30962623",
+      "30940813",
+      "30818990",
+      "30804565",
+      "30804558",
+      "30692689",
+      "30617256",
+      "30545854",
+      "30478444",
+      "30096314",
+      "30096299",
+      "30078726",
+      "29700475",
+      "29632380",
+      "28761083",
+      "26083756",
+      "25885710",
+      "25826379",
+      "25156673",
+      "24167708",
+      "22955828",
+      "22936215",
+      "21750581",
+      "20513432",
+      "20436461"
+    ],
+    "similar": [
+      "38693260",
+      "39481376",
+      "28335009",
+      "29539636",
+      "42475469",
+      "34616061",
+      "31053165",
+      "41562256",
+      "41951735",
+      "35976093",
+      "27760116",
+      "35996956",
+      "31367015",
+      "33044128",
+      "41839854",
+      "25849986",
+      "41235466",
+      "39326643",
+      "34390642",
+      "32610082",
+      "31136738",
+      "34616060",
+      "28536147",
+      "38358392",
+      "32732423",
+      "38977847",
+      "40663269",
+      "32142172",
+      "42586070",
+      "25804738",
+      "38036964",
+      "36198796",
+      "40764843",
+      "30078726",
+      "32628253",
+      "37557175",
+      "29558892",
+      "41258103",
+      "42322962",
+      "31500627",
+      "40598278",
+      "37824650",
+      "28576882",
+      "32728245",
+      "42734758",
+      "38977846",
+      "36495874",
+      "31533978",
+      "21262765",
+      "33098772",
+      "32431014",
+      "39079538",
+      "33184180",
+      "31433982",
+      "38781390",
+      "21430782",
+      "41159420",
+      "34815405",
+      "34687484",
+      "24603674",
+      "35132236",
+      "37722500",
+      "34017130",
+      "39814021",
+      "34417498",
+      "32376693",
+      "26377945",
+      "33057195",
+      "29396371",
+      "39956806",
+      "37824614",
+      "40938188",
+      "21160473",
+      "39578476",
+      "34789882",
+      "28445475",
+      "25956794",
+      "30892142",
+      "29945882",
+      "37292820",
+      "24413398",
+      "39127768",
+      "33795867",
+      "39481377",
+      "19570198",
+      "24920305",
+      "35410163",
+      "40393811",
+      "33171098",
+      "33060836",
+      "38092917",
+      "33581335",
+      "33795866",
+      "36705030",
+      "33859189",
+      "30341348",
+      "29030344",
+      "32188700",
+      "32231307",
+      "38741085"
+    ],
+    "review": [
+      "38693260",
+      "32142172"
+    ],
+    "pmc": [
+      "12589128"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-024-07234-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38693260/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38693260",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

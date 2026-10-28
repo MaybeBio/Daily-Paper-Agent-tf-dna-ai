@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "36177192",
+    "doi": "10.1098/rsos.220270",
+    "title": "Single cell classification of macrophage subtypes by label-free cell signatures and machine learning."
+  },
+  "content": {
+    "abstract": "Pro-inflammatory (M1) and anti-inflammatory (M2) macrophage phenotypes play a fundamental role in the immune response. The interplay and consequently the classification between these two functional subtypes is significant for many therapeutic applications. Albeit, a fast classification of macrophage phenotypes is challenging. For instance, image-based classification systems need cell staining and coloration, which is usually time- and cost-consuming, such as multiple cell surface markers, transcription factors and cytokine profiles are needed. A simple alternative would be to identify such cell types by using single-cell, label-free and high throughput light scattering pattern analyses combined with a straightforward machine learning-based classification. Here, we compared different machine learning algorithms to classify distinct macrophage phenotypes based on their optical signature obtained from an ad hoc developed wide-angle static light scattering apparatus. As the main result, we were able to identify unpolarized macrophages from M1- and M2-polarized phenotypes and distinguished them from naive monocytes with an average accuracy above 85%. Therefore, we suggest that optical single-cell signatures within a lab-on-a-chip approach along with machine learning could be used as a fast, affordable, non-invasive macrophage phenotyping tool to supersede resource-intensive cell labelling.",
+    "keywords": [
+      "label-free",
+      "machine learning",
+      "macrophages",
+      "optical signature",
+      "single-cell"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dannhauser, David",
+        "Rossi, Domenico",
+        "De Gregorio, Vincenza",
+        "Netti, Paolo Antonio",
+        "Terrazzano, Giuseppe",
+        "Causa, Filippo"
+      ],
+      "short_names": [
+        "Dannhauser D",
+        "Rossi D",
+        "De Gregorio V",
+        "Netti PA",
+        "Terrazzano G",
+        "Causa F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5436-3857"
+      ],
+      "affiliations": [
+        "Interdisciplinary Research Centre on Biomaterials (CRIB) and Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Universita degli Studi di Napoli 'Federico II', Piazzale Tecchio 80, Naples 80125, Italy.",
+        "Center for Advanced Biomaterials for Healthcare@CRIB, Istituto Italiano di Tecnologia, Largo Barsanti e Matteucci 53, Naples 80125, Italy.",
+        "Interdisciplinary Research Centre on Biomaterials (CRIB) and Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Universita degli Studi di Napoli 'Federico II', Piazzale Tecchio 80, Naples 80125, Italy.",
+        "Dipartimento di Biologia, Universita degli Studi di Napoli 'Federico II', Complesso Universitario di Monte S Angelo, Naples, Italy.",
+        "Interdisciplinary Research Centre on Biomaterials (CRIB) and Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Universita degli Studi di Napoli 'Federico II', Piazzale Tecchio 80, Naples 80125, Italy.",
+        "Center for Advanced Biomaterials for Healthcare@CRIB, Istituto Italiano di Tecnologia, Largo Barsanti e Matteucci 53, Naples 80125, Italy.",
+        "Dipartimento di Scienze (DiS), Universita della Basilicata, Via dell'Ateneo Lucano 10, Potenza 85100, Italy.",
+        "Interdisciplinary Research Centre on Biomaterials (CRIB) and Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Universita degli Studi di Napoli 'Federico II', Piazzale Tecchio 80, Naples 80125, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dannhauser, David",
+        "short_name": "Dannhauser D",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Centre on Biomaterials (CRIB) and Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Università degli Studi di Napoli 'Federico II', Piazzale Tecchio 80, Naples 80125, Italy."
+        ]
+      },
+      {
+        "full_name": "Rossi, Domenico",
+        "short_name": "Rossi D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Advanced Biomaterials for Healthcare@CRIB, Istituto Italiano di Tecnologia, Largo Barsanti e Matteucci 53, Naples 80125, Italy."
+        ]
+      },
+      {
+        "full_name": "De Gregorio, Vincenza",
+        "short_name": "De Gregorio V",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Centre on Biomaterials (CRIB) and Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Università degli Studi di Napoli 'Federico II', Piazzale Tecchio 80, Naples 80125, Italy.",
+          "Dipartimento di Biologia, Università degli Studi di Napoli 'Federico II', Complesso Universitario di Monte S Angelo, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Netti, Paolo Antonio",
+        "short_name": "Netti PA",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Centre on Biomaterials (CRIB) and Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Università degli Studi di Napoli 'Federico II', Piazzale Tecchio 80, Naples 80125, Italy.",
+          "Center for Advanced Biomaterials for Healthcare@CRIB, Istituto Italiano di Tecnologia, Largo Barsanti e Matteucci 53, Naples 80125, Italy."
+        ]
+      },
+      {
+        "full_name": "Terrazzano, Giuseppe",
+        "short_name": "Terrazzano G",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze (DiS), Università della Basilicata, Via dell'Ateneo Lucano 10, Potenza 85100, Italy."
+        ]
+      },
+      {
+        "full_name": "Causa, Filippo",
+        "short_name": "Causa F",
+        "identifiers": [
+          "0000-0002-5436-3857"
+        ],
+        "affiliations": [
+          "Interdisciplinary Research Centre on Biomaterials (CRIB) and Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Università degli Studi di Napoli 'Federico II', Piazzale Tecchio 80, Naples 80125, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Royal Society open science"
+    ],
+    "journal_abbrev": [
+      "R Soc Open Sci"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/01 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "41326596",
+      "41089721",
+      "40539722",
+      "39866665",
+      "38764168",
+      "37854558",
+      "37793076"
+    ],
+    "refs": [
+      "34515262",
+      "34289846",
+      "34221676",
+      "33479582",
+      "32566036",
+      "32234529",
+      "31641710",
+      "31520798",
+      "30460122",
+      "29765169",
+      "28979002",
+      "28915705",
+      "28827726",
+      "28615717",
+      "28119112",
+      "28115590",
+      "27959618",
+      "27813830",
+      "27503536",
+      "27196106",
+      "26538329",
+      "26253940",
+      "26168054",
+      "26004034",
+      "25999950",
+      "25506346",
+      "25505471",
+      "25368618",
+      "25359998",
+      "25172494",
+      "25133272",
+      "24921428",
+      "24260507",
+      "23862674",
+      "23428224",
+      "22025054",
+      "21034223",
+      "19859064",
+      "19029990",
+      "18941170"
+    ],
+    "similar": [
+      "36177192",
+      "28615717",
+      "36997576",
+      "38385029",
+      "26538329",
+      "34815054",
+      "38496523",
+      "33429569",
+      "31313517",
+      "33013309",
+      "29096690",
+      "24956148",
+      "29776615",
+      "26699615",
+      "26655877",
+      "23454681",
+      "32787920",
+      "35663975",
+      "30508271",
+      "24456889",
+      "34440860",
+      "31110502",
+      "28399328",
+      "34145728",
+      "29690889",
+      "35738057",
+      "36287146",
+      "27421990",
+      "29920284",
+      "33244129",
+      "34958971",
+      "28161077",
+      "33930438",
+      "29321062",
+      "31040912",
+      "31520798",
+      "34221676",
+      "23812784",
+      "33840152",
+      "34478361",
+      "33282516",
+      "32038652",
+      "26954942",
+      "35255727",
+      "38755203",
+      "27639001",
+      "25902944",
+      "30070144",
+      "25852557",
+      "20338029",
+      "27224998",
+      "32114632",
+      "31349000",
+      "30249259",
+      "29397689",
+      "24260507",
+      "34182556",
+      "33360972",
+      "30661465",
+      "30594708",
+      "30573235",
+      "30634164",
+      "30458295",
+      "27383471",
+      "34020830",
+      "23611834",
+      "32205688",
+      "27435985",
+      "25428738",
+      "26491604",
+      "29277009",
+      "30943897",
+      "31333642",
+      "28827726",
+      "33252180",
+      "33005103",
+      "28318799",
+      "27349596",
+      "26844322",
+      "30647534",
+      "32070241",
+      "32158446",
+      "32752380",
+      "34456917",
+      "28674739",
+      "26486881",
+      "31670675",
+      "31178859",
+      "29331905",
+      "32210958",
+      "25799240",
+      "31229505",
+      "37575382",
+      "37744465"
+    ],
+    "review": [
+      "36177192",
+      "35663975",
+      "31520798",
+      "26954942",
+      "30070144",
+      "25428738",
+      "26491604",
+      "31333642",
+      "34456917"
+    ],
+    "pmc": [
+      "9515641"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36177192/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36177192",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36177192",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://royalsocietypublishing.org/rsos/article-lookup/doi/10.1098/rsos.220270",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

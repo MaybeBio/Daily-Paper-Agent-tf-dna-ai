@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose iDRBP-EL, a hierarchical ensemble learning method that integrates three levels of information (features, machine learning algorithms, and data) into a single multi-label model to identify DNA- and RNA-binding proteins from primary sequences. They report that ablation experiments demonstrate improved prediction performance and resolution of cross-prediction problems, and that independent dataset tests show iDRBP-EL outperforms all competing methods. A webserver is made available.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline specifications, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset details, feature descriptions, algorithm specifications, ablation study results, independent test results, baseline method definitions, and webserver implementation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological contribution in the area of nucleic acid-binding protein prediction, a field with active prior work. The hierarchical ensemble learning framework, integrating multiple information levels into a multi-label model, is a reasonable extension of existing approaches. However, the abstract provides no quantitative evidence, no comparison details, and no methodological specifics that would allow an independent assessment of the claims. The core assertions of improved performance and resolution of cross-prediction are unsupported in the supplied material. The work may be of interest to the computational biology community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing machine learning methods for nucleic acid-binding protein identification. Researchers interested in ensemble learning and multi-label classification applied to biological sequence data would also find the methodological framework relevant. The webserver may attract experimental biologists seeking sequence-based prediction tools.
+- **Major strengths** The proposed approach addresses a genuine limitation in prior work by integrating multiple information levels into a single multi-label model, potentially overcoming the common restriction of predicting only one binding type. The hierarchical ensemble learning strategy is conceptually sound and could offer practical improvements. The provision of a user-friendly webserver enhances accessibility and potential utility for the broader research community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Experimental results on the independent datasets showed that iDRBP-EL outperformed all the other competing methods."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims superior performance over all competing methods on independent datasets, but no performance metrics, dataset names, baseline methods, or statistical significance tests are reported. Without these details, the claim cannot be evaluated or verified.
+  - **Why it matters** The central contribution of the work is the claimed performance advantage. If this claim is not substantiated with concrete numbers and appropriate statistical comparisons, the scientific value of the method remains unestablished.
+  - **Resolution test** Provide performance metrics (e.g., accuracy, sensitivity, specificity, Matthews correlation coefficient, AUC) for iDRBP-EL and all baselines on each independent dataset, along with statistical significance tests (e.g., p-values or confidence intervals) demonstrating superiority.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The ablation experiment showed that the fusion of different information can improve the prediction performance and overcome the cross-prediction problem."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The ablation experiment is described only qualitatively. No details are given on which information levels were ablated, how performance changed, or how "cross-prediction" was defined and measured. The claim that fusion overcomes cross-prediction is not supported by any presented data.
+  - **Why it matters** The ablation study is the primary evidence for the methodological contribution of hierarchical ensemble learning. Without quantitative results, the reader cannot assess whether the fusion strategy provides genuine benefits or whether the observed effects are marginal or confounded.
+  - **Resolution test** Present a table or figure showing performance for each ablation configuration (e.g., single feature type, single algorithm, single data source, and full fusion), with clear definitions of cross-prediction metrics and statistical comparisons between configurations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "we introduced hierarchical ensemble learning to integrate three level information. The method can integrate the information of different features, machine learning algorithms and data into one multi-label model."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which features, which machine learning algorithms, or which data sources were used. The hierarchical ensemble architecture is not described in any detail. This prevents replication or even a preliminary assessment of methodological novelty relative to existing ensemble approaches.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without specification of the components and architecture, the method cannot be independently implemented or compared, undermining the scientific contribution.
+  - **Resolution test** Provide a detailed methods section describing all feature types, algorithms, data sources, the hierarchical ensemble architecture, and hyperparameter settings, sufficient for independent reimplementation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "three level information" is vague and could be misinterpreted. It is unclear whether "level" refers to feature level, algorithm level, and data level, or to some other hierarchy.
+  - **Required correction** Clarify the three levels explicitly, for example, "feature-level, algorithm-level, and data-level information," and describe how they are hierarchically integrated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Webserver description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The webserver is mentioned but no details are given on input requirements, output format, or availability of documentation. The URL is provided, but the abstract does not state whether the webserver is freely accessible or what usage limits apply.
+  - **Required correction** Add a brief description of the webserver's input/output specifications and confirm free access for academic use.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that previous methods use "slightly unitary" information and mostly predict only DBPs or RBPs, but no specific prior methods are cited or compared in the abstract. This makes it difficult to position the contribution.
+  - **Required correction** In the full manuscript, ensure a comprehensive comparison with recent state-of-the-art methods is presented, including both DBP- and RBP-specific predictors and any existing multi-label approaches.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, ablation details, and methodological specifications means the core claims of performance improvement and cross-prediction resolution cannot be assessed. These are fundamental to the paper's contribution.
+- **Assessment against Nature-style criteria** Originality: The hierarchical ensemble approach integrating multiple information levels is a reasonable extension of existing work, but the abstract does not demonstrate clear novelty over prior ensemble methods in this domain. Scientific importance: The problem of identifying DNA- and RNA-binding proteins is of practical relevance, and a multi-label method could be useful, but the importance is not established without performance evidence. Interdisciplinary readership: The work is primarily of interest to computational biology specialists; the abstract does not frame the findings for a broader audience. Technical soundness: Cannot be evaluated from the abstract; no methodological details or validation results are provided. Readability for nonspecialists: The abstract is concise and generally clear, but technical terms such as "hierarchical ensemble learning" and "multi-label model" are not explained for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient quantitative or methodological detail to support the claims of improved performance and cross-prediction resolution. A supportive assessment would require the full manuscript with detailed methods, ablation results, and independent test comparisons.
+
+## Risk / unsupported claims
+- The claim that iDRBP-EL "outperformed all the other competing methods" is unsupported; no performance data or baseline comparisons are provided.
+- The claim that fusion of information "can improve the prediction performance and overcome the cross-prediction problem" is unsupported; no ablation results are shown.
+- The claim that the method integrates "three level information" is not verifiable; the specific features, algorithms, and data sources are not described.
+- The general statement that previous methods use "slightly unitary" information is not substantiated with citations or examples in the abstract.
+- The webserver's functionality and accessibility cannot be assessed from the abstract alone.

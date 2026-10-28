@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "39650552",
+    "doi": "10.7717/peerj.18591",
+    "title": "Identification and validation of apoptosis-related genes in acute myocardial infarction based on integrated bioinformatics methods."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acute myocardial infarction (AMI) is one of the most serious cardiovascular diseases. Apoptosis is a type of programmed cell death that causes DNA degradation and chromatin condensation. The role of apoptosis in AMI progression remains unclear. METHODS: Three AMI-related microarray datasets (GSE48060, GSE66360 and GSE97320) were obtained from the Gene Expression Omnibus database and combined for further analysis. Differential expression analysis and enrichment analysis were performed on the combined dataset to identify differentially expressed genes (DEGs). Apoptosis-related genes (ARGs) were screened through the intersection of genes associated with apoptosis in previous studies and DEGs. The expression pattern of ARGs was studied on the basis of their raw expression data. Three machine learning algorithms, Least Absolute Shrinkage and Selection Operator (LASSO), support vector machine-recursive feature elimination (SVM-RFE), and Random Forest (RF) were utilized to screen crucial genes in these ARGs. Immune infiltration was estimated by single sample gene set enrichment analysis (ssGSEA). Corresponding online databases were used to predict miRNAs, transcription factors (TFs) and therapeutic agents of crucial genes. A nomogram clinical prediction model of the crucial genes was constructed and evaluated. The Mendelian randomization analysis was employed to investigate whether there is a causal relationship between apoptosis and AMI. Finally, an AMI mouse model was established, and apoptosis in the hearts of AMI mice was assessed via TUNEL staining. qRT-PCR was employed to validate these crucial genes in the hearts of AMI mice. The external dataset GSE59867 was used for further validating the crucial genes. RESULTS: Fifteen ARGs (GADD45A, DDIT3, FEZ1, PMAIP1, IER3, IFNGR1, CDKN1A, GNA15, IL1B, EREG, BCL10, JUN, EGR3, GADD45B, and CD14) were identified. Six crucial genes (CDKN1A, BCL10, PMAIP1, IL1B, GNA15, and CD14) were screened from ARGs by machine learning. A total of 102 miRNAs, 13 TFs and 23 therapeutic drugs were predicted targeting these crucial genes. The clinical prediction model of the crucial genes has shown good predictive capability. The Mendelian randomization analysis demonstrated that apoptosis is a risk factor for AMI. Lastly, the expression of CDKN1A, CD14 and IL1B was verified in the AMI mouse model and external dataset. CONCLUSIONS: In this study, ARGs were screened by machine learning algorithms, and verified by qRT-PCR in the AMI mouse model. Finally, we demonstrated that CDKN1A, CD14 and IL1B were the crucial genes involved in apoptosis in AMI. These genes may provide new target for the recognition and intervention of apoptosis in AMI.",
+    "keywords": [
+      "Acute myocardial infarction",
+      "Apoptosis",
+      "Biomarker",
+      "Immune infiltration",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "*Myocardial Infarction/genetics/pathology",
+      "*Apoptosis/genetics",
+      "Animals",
+      "*Computational Biology/methods",
+      "Mice",
+      "Humans",
+      "Gene Expression Profiling/methods",
+      "MicroRNAs/genetics",
+      "Disease Models, Animal",
+      "Databases, Genetic",
+      "Machine Learning",
+      "Nomograms",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Haoyan",
+        "Li, Mengyao",
+        "Wu, Jiahe",
+        "Yan, Liqiu",
+        "Xiong, Wei",
+        "Hu, Xiaorong",
+        "Lu, Zhibing",
+        "Li, Chenze",
+        "Cai, Huanhuan"
+      ],
+      "short_names": [
+        "Zhu H",
+        "Li M",
+        "Wu J",
+        "Yan L",
+        "Xiong W",
+        "Hu X",
+        "Lu Z",
+        "Li C",
+        "Cai H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China.",
+        "Department of Cardiology & Dongguan Cardiovascular Research Institute, Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, China.",
+        "Department of Cardiology, Cangzhou Central Hospital, Hebei Medical University, Cangzhou, China.",
+        "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China.",
+        "Department of Cardiology & Dongguan Cardiovascular Research Institute, Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, China.",
+        "Department of Cardiology, Cangzhou Central Hospital, Hebei Medical University, Cangzhou, China.",
+        "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China.",
+        "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China.",
+        "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China.",
+        "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China.",
+        "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Haoyan",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mengyao",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology & Dongguan Cardiovascular Research Institute, Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, China.",
+          "Department of Cardiology, Cangzhou Central Hospital, Hebei Medical University, Cangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiahe",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Liqiu",
+        "short_name": "Yan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology & Dongguan Cardiovascular Research Institute, Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, China.",
+          "Department of Cardiology, Cangzhou Central Hospital, Hebei Medical University, Cangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Wei",
+        "short_name": "Xiong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiaorong",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhibing",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chenze",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Huanhuan",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Institute of Myocardial Injury and Repair, Wuhan University, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/09 17:34",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42703103",
+      "42364019",
+      "42310773",
+      "41845584",
+      "41514922",
+      "41001045"
+    ],
+    "refs": [
+      "38185705",
+      "36407428",
+      "36143055",
+      "36001971",
+      "35961309",
+      "35361964",
+      "35217429",
+      "35166796",
+      "34838807",
+      "34262953",
+      "32430578",
+      "32410868",
+      "32328683",
+      "31621911",
+      "31612364",
+      "31416350",
+      "30833907",
+      "30660992",
+      "30453885",
+      "30290043",
+      "29424914",
+      "29168732",
+      "29101802",
+      "29016754",
+      "28550308",
+      "28131915",
+      "27566322",
+      "27502078",
+      "27192016",
+      "26424082",
+      "25428369",
+      "25220638",
+      "24387758",
+      "23886938",
+      "23410669",
+      "22842532",
+      "22205565",
+      "21796802",
+      "19754666",
+      "17507791",
+      "14673018",
+      "12962684",
+      "12750399",
+      "12138103",
+      "11709054",
+      "11208649",
+      "8663110"
+    ],
+    "similar": [
+      "39650552",
+      "40704466",
+      "40174368",
+      "41538664",
+      "38839020",
+      "42051519",
+      "32597946",
+      "39142001",
+      "40738705",
+      "38518057",
+      "35958412",
+      "40685440",
+      "35764238",
+      "40312440",
+      "40340571",
+      "41200172",
+      "39552895",
+      "40619072",
+      "38867322",
+      "41068967",
+      "37891664",
+      "41291841",
+      "40830558",
+      "39354722",
+      "41781900",
+      "38291374",
+      "38783198",
+      "40861421",
+      "40251588",
+      "42310773",
+      "40997906",
+      "41146237",
+      "41546812",
+      "42243611",
+      "41324863",
+      "41479901",
+      "39396400",
+      "39929099",
+      "41858783",
+      "39616855",
+      "42049254",
+      "42123756",
+      "33354250",
+      "38764052",
+      "40374866",
+      "38827298",
+      "36863716",
+      "37214088",
+      "39872885",
+      "40933471",
+      "35231061",
+      "40129981",
+      "40672380",
+      "39730379",
+      "41013556",
+      "39586719",
+      "42302029",
+      "36470144",
+      "36582740",
+      "40406118",
+      "39375405",
+      "41468372",
+      "41436831",
+      "40319218",
+      "38885062",
+      "40181401",
+      "42015036",
+      "38897129",
+      "41204556",
+      "39351238",
+      "39507054",
+      "37081490",
+      "41006883",
+      "39341981",
+      "35341274",
+      "40313967",
+      "38649912",
+      "42107160",
+      "40754871",
+      "39512836",
+      "41102315",
+      "38951833",
+      "41782887",
+      "38842240",
+      "41826854",
+      "33506919",
+      "39308815",
+      "41508240",
+      "40196107",
+      "42397093",
+      "40360670",
+      "41887709",
+      "42099899",
+      "40860289",
+      "39419187",
+      "32705275",
+      "39509434",
+      "40500570",
+      "39609718",
+      "40836320"
+    ],
+    "review": [
+      "39650552"
+    ],
+    "pmc": [
+      "11624842"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39650552/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IFNGR1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.18591",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

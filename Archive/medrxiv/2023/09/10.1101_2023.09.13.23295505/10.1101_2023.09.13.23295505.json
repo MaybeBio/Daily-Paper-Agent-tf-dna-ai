@@ -1,0 +1,386 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2023.09.13.23295505",
+  "title": "Structural Variation Detection and Association Analysis of Whole-Genome-Sequence Data from 16,905 Alzheimer’s Diseases Sequencing Project Subjects",
+  "doi": "10.1101/2023.09.13.23295505",
+  "abstract": "Structural variations (SVs) are important contributors to the genetics of numerous human diseases. However, their role in Alzheimer’s disease (AD) remains largely unstudied due to challenges in accurately detecting SVs. Here, we analyzed whole-genome sequencing data from the Alzheimer’s Disease Sequencing Project (ADSP, N=16,905 subjects) and identified 400,234 (168,223 high-quality) SVs. We found a significant burden of deletions and duplications in AD cases (OR=1.05, P =0.03), particularly for singletons (OR=1.12, P =0.0002) and homozygous events (OR=1.10, P <0.0004). On AD genes, the ultra-rare SVs, including protein-altering SVs in ABCA7 , APP , PLCG2 , and SORL1 , were associated with AD (SKAT-O P =0.004). Twenty-one SVs are in linkage disequilibrium (LD) with known AD-risk variants, e.g., a deletion (chr2:105731359-105736864) in complete LD (R 2 =0.99) with rs143080277 (chr2:105749599) in NCK2 . We also identified 16 SVs associated with AD and 13 SVs associated with AD-related pathological/cognitive endophenotypes. Our findings demonstrate the broad impact of SVs on AD genetics. <h4>Search Terms</h4> Alzheimer’s disease, Structural variation, Copy number variation",
+  "authors": [
+    "Wang H",
+    "Dombroski BA",
+    "Cheng P",
+    "Tucci A",
+    "Si Y",
+    "Farrell JJ",
+    "Tzeng J",
+    "Leung YY",
+    "Malamon JS",
+    "Wang L",
+    "Vardarajan BN",
+    "Farrer LA",
+    "Schellenberg GD",
+    "Lee W"
+  ],
+  "published_date": "2023-09-13",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2023.09.13.23295505",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2023.09.13.23295505.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR724799",
+    "raw_record": {
+      "id": "PPR724799",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR724799"
+        ]
+      },
+      "doi": "10.1101/2023.09.13.23295505",
+      "title": "Structural Variation Detection and Association Analysis of Whole-Genome-Sequence Data from 16,905 Alzheimer’s Diseases Sequencing Project Subjects",
+      "authorString": "Wang H, Dombroski BA, Cheng P, Tucci A, Si Y, Farrell JJ, Tzeng J, Leung YY, Malamon JS, The Alzheimer’s Disease Sequencing Project, Wang L, Vardarajan BN, Farrer LA, Schellenberg GD, Lee W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang H",
+            "lastName": "Wang",
+            "firstName": "Hui",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                },
+                {
+                  "affiliation": "Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dombroski BA",
+            "lastName": "Dombroski",
+            "firstName": "Beth",
+            "initials": "BA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                },
+                {
+                  "affiliation": "Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cheng P",
+            "lastName": "Cheng",
+            "firstName": "Po-Liang",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                },
+                {
+                  "affiliation": "Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tucci A",
+            "lastName": "Tucci",
+            "firstName": "Albert",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Research Center, North Carolina State University, NC 27695, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Si Y",
+            "lastName": "Si",
+            "firstName": "Ya-Qin",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Research Center, North Carolina State University, NC 27695, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Farrell JJ",
+            "lastName": "Farrell",
+            "firstName": "John",
+            "initials": "JJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine (Biomedical Genetics), Boston University School of Medicine, MA 02118, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tzeng J",
+            "lastName": "Tzeng",
+            "firstName": "Jung-Ying",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Research Center, North Carolina State University, NC 27695, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leung YY",
+            "lastName": "Leung",
+            "firstName": "Yuk Yee",
+            "initials": "YY",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3047-5440"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                },
+                {
+                  "affiliation": "Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malamon JS",
+            "lastName": "Malamon",
+            "firstName": "John",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "department of Surgery, Scholl of Medicine, University of Colorado, CO 80045, USA"
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "The Alzheimer’s Disease Sequencing Project"
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Li-San",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                },
+                {
+                  "affiliation": "Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vardarajan BN",
+            "lastName": "Vardarajan",
+            "firstName": "Badri",
+            "initials": "BN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Taub Institute for Research on Alzheimer’s Disease and the Aging Brain, College of Physicians and Surgeons, Columbia University, NY 10032, USA"
+                },
+                {
+                  "affiliation": "Department of Neurology, College of Physicians and Surgeons, Columbia University and the New York Presbyterian Hospital, NY 10032, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Farrer LA",
+            "lastName": "Farrer",
+            "firstName": "Lindsay",
+            "initials": "LA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine (Biomedical Genetics), Boston University School of Medicine, MA 02118, USA"
+                },
+                {
+                  "affiliation": "Department of Neurology, Boston University School of Medicine, MA 02118, USA"
+                },
+                {
+                  "affiliation": "Department of Ophthalmology, Boston University School of Medicine, MA 02118, USA"
+                },
+                {
+                  "affiliation": "Department of Biostatistics, Boston University School of Public Health, MA 02118, USA"
+                },
+                {
+                  "affiliation": "Department of Epidemiology, Boston University School of Public Health, MA 02118, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schellenberg GD",
+            "lastName": "Schellenberg",
+            "firstName": "Gerard",
+            "initials": "GD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                },
+                {
+                  "affiliation": "Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee W",
+            "lastName": "Lee",
+            "firstName": "Wan-Ping",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                },
+                {
+                  "affiliation": "Penn Neurodegeneration Genomics Center, Perelman School of Medicine, University of Pennsylvania, PA 19104, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3047-5440"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4043-5060"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Structural variations (SVs) are important contributors to the genetics of numerous human diseases. However, their role in Alzheimer’s disease (AD) remains largely unstudied due to challenges in accurately detecting SVs. Here, we analyzed whole-genome sequencing data from the Alzheimer’s Disease Sequencing Project (ADSP, N=16,905 subjects) and identified 400,234 (168,223 high-quality) SVs. We found a significant burden of deletions and duplications in AD cases (OR=1.05, P =0.03), particularly for singletons (OR=1.12, P =0.0002) and homozygous events (OR=1.10, P <0.0004). On AD genes, the ultra-rare SVs, including protein-altering SVs in ABCA7 , APP , PLCG2 , and SORL1 , were associated with AD (SKAT-O P =0.004). Twenty-one SVs are in linkage disequilibrium (LD) with known AD-risk variants, e.g., a deletion (chr2:105731359-105736864) in complete LD (R 2 =0.99) with rs143080277 (chr2:105749599) in NCK2 . We also identified 16 SVs associated with AD and 13 SVs associated with AD-related pathological/cognitive endophenotypes. Our findings demonstrate the broad impact of SVs on AD genetics. <h4>Search Terms</h4> Alzheimer’s disease, Structural variation, Copy number variation",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "047.017.043",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "911-03-012",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "175.010.200",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2023/09/13/2023.09.13.23295505.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.13.23295505"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR724799"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR724799&type=FILE&fileName=EMS188002-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188002",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp"
+        ]
+      },
+      "dateOfCreation": "2023-09-16",
+      "firstPublicationDate": "2023-09-13",
+      "firstIndexDate": "2023-09-16",
+      "fullTextReceivedDate": "2023-11-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

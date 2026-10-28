@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41326808",
+  "title": "Graph-based deep learning approach for high-throughput protein-DNA interaction scoring.",
+  "authors": "Zhao, Yi-Hao; Wang, Ying; Shen, Chao; Jiang, De-Jun; Gu, Shu-Kai; Zhao, Hui-Feng; You, Zi-Yi; Hou, Ting-Jun; Kang, Yu",
+  "journal": "Acta pharmacologica Sinica",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于图神经网络和混合密度网络的PDIScore评分函数，用于高通量蛋白质-DNA相互作用打分，涵盖结合位点预测与复合物建模，方法可迁移至TF-DNA体系，高度匹配本课题。",
+  "abstract": "Accurately quantifying protein-DNA interactions (PDIs) is critical for understanding biological processes and facilitating drug design. However, the inherent flexibility of nucleic acids limits the availability of experimentally determined structures of PDI complexes, posing a significant challenge for training reliable scoring functions (SFs). To address this, we developed PDIScore, a novel deep learning-based SF for PDI prediction. PDIScore utilizes a comprehensive graph representation to capture nucleotide flexibility, employs a scalable GraphGPS architecture with BigBird linear global attention to handle large interaction interfaces, and leverages Mixture Density Networks (MDNs) to model residue-nucleotide distance distributions. PDIScore was trained on a self-collected dataset of ~7000 protein-nucleic acid complex structures and validated on three rigorous test sets for evaluating its screening, docking, and ranking capabilities. The results illustrated that PDIScore significantly outperformed existing methods: it achieved the best screening power on the screening set (e.g., EF(1%) = 14.13, AUROC = 0.82 using AlphaFold3 structures), the highest docking success rate on the docking set (48.94% top1), and superior ranking capability on the ranking set (PCC = 0.50). Case studies demonstrated PDIScore's ability to elucidate biological mechanisms (e.g., adenovirus transcription, SOCS1 regulation) and its interpretability at the nucleotide level for identifying key interaction sites. PDIScore represents a robust, generalizable tool with significant potential for advancing PDI-related research and therapeutic design.",
+  "abstract_zh": "准确定量蛋白质-核酸相互作用（PDIs）对于理解生物过程及促进药物设计至关重要。然而，核酸固有的灵活性限制了实验确定的PDI复合物结构的可用性，这对训练可靠的评分函数（SFs）构成了重大挑战。为解决此问题，我们开发了PDIScore，一种基于深度学习的新型SF，用于PDI预测。PDIScore利用全面的图表示来捕捉核苷酸灵活性，采用可扩展的GraphGPS架构结合BigBird线性全局注意力以处理大型相互作用界面，并利用混合密度网络（MDNs）建模残基-核苷酸距离分布。PDIScore在自收集的约7000个蛋白质-核酸复合物结构数据集上训练，并在三个严格的测试集上验证其筛选、对接和排序能力。结果表明，PDIScore显著优于现有方法：在筛选集上实现了最佳筛选能力（例如，使用AlphaFold3结构时EF(1%) = 14.13，AUROC = 0.82），在对接集上达到最高对接成功率（top1为48.94%），并在排序集上展现出卓越的排序能力（PCC = 0.50）。案例研究证明了PDIScore在阐明生物机制（如腺病毒转录、SOCS1调控）方面的能力，以及其在核苷酸水平上识别关键相互作用位点的可解释性。PDIScore代表了一种稳健、可泛化的工具，在推进PDI相关研究和治疗设计方面具有巨大潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41326808/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41326808/",
+  "paper_page_path": "papers/pubmed/41326808/index.html"
+}

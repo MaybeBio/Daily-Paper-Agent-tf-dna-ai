@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.09.451778",
+  "title": "BERTax: taxonomic classification of DNA sequences with Deep Neural Networks",
+  "authors": "Florian Mock; Fleming Kretschmer; Anton Kriese; Sebastian Böcker; Manja Marz",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-10",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用BERT对DNA序列进行物种分类，属于序列分类任务，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "Taxonomic classification, i.e., the identification and assignment to groups of biological organisms with the same origin and characteristics, is a common task in genetics. Nowadays, taxonomic classification is mainly based on genome similarity search to large genome databases. In this process, the classification quality depends heavily on the database since representative relatives have to be known already. Many genomic sequences cannot be classified at all or only with a high misclassification rate. Here we present BERTax , a program that uses a deep neural network to pre-cisely classify the superkingdom, phylum, and genus of DNA sequences taxonomically without the need for a known representative relative from a database. For this, BERTax uses the natural language processing model BERT trained to represent DNA. We show BERTax to be at least on par with the state-of-the-art approaches when taxonomically similar species are part of the training data. In case of an entirely novel organism, however, BERTax clearly outperforms any existing approach. Finally, we show that BERTax can also be combined with database approaches to further increase the prediction quality. Since BERTax is not based on homologous entries in databases, it allows precise taxonomic classification of a broader range of genomic sequences. This leads to a higher number of correctly classified sequences and thus increases the overall information gain.",
+  "abstract_zh": "分类学分类，即对具有相同起源和特征的生物有机体进行识别并归入群体的过程，是遗传学中的常见任务。如今，分类学分类主要基于对大型基因组数据库的基因组相似性搜索。在此过程中，分类质量高度依赖于数据库，因为必须已知具有代表性的近缘物种。许多基因组序列根本无法分类，或仅能以高错误率进行分类。在此，我们提出BERTax，一个利用深度神经网络精确分类DNA序列的界、门和属的程序，无需数据库中的已知代表性近缘物种。为此，BERTax使用自然语言处理模型BERT，该模型经过训练以表示DNA。我们展示，当分类学上相似的物种包含在训练数据中时，BERTax至少与现有最先进方法相当。然而，在面对完全新颖的生物体时，BERTax明显优于任何现有方法。最后，我们证明BERTax也可与数据库方法结合使用，以进一步提高预测质量。由于BERTax不基于数据库中的同源条目，它能够对更广泛的基因组序列进行精确分类。这导致正确分类的序列数量增加，从而提升整体信息增益。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.09.451778",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.09.451778",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.09.451778/index.html"
+}

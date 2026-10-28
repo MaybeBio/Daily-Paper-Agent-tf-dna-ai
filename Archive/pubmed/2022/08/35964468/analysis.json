@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35964468",
+  "title": "A Cuproptosis Activation Scoring model predicts neoplasm-immunity interactions and personalized treatments in glioma.",
+  "authors": "Chen, Bo; Zhou, Xiaoxi; Yang, Liting; Zhou, Hongshu; Meng, Ming; Zhang, Liyang; Li, Jian",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2022-08-15",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文构建铜死亡活性评分模型预测胶质瘤免疫互作与治疗，虽用SCENIC识别转录因子但核心是肿瘤预后与免疫微环境，非蛋白质-DNA互作建模，方法上无AI/物理模拟聚焦。",
+  "abstract": "Gliomas are malignant tumors in the central nervous system. Cuproptosis is a newly discovered cell death mechanism targeting lipoylated tricarboxylic acid cycle proteins. Previous studies have found that cuproptosis participates in tumor progression, but its role in gliomas is still elusive. Here, we systematically explored the bulk-tumor and single-cell transcriptome data to reveal its role in gliomas. The cuproptosis activity score (CuAS) was constructed based on cuproptosis-related genes, and machine learning techniques validated the score stability. High CuAS gliomas were more likely to have a poor prognosis and an aggressive mesenchymal (MES) subtype. Subsequently, the SCENIC algorithm predicted 20 CuAS-related transcription factors (TFs) in gliomas. Function enrichment and microenvironment analyses found that CuAS was associated with tumor immune infiltration. Accordingly, intercellular communications between neoplasm and immunity were explored by the R package \"Cellchat\". Five signaling pathways and 8 ligand-receptor pairs including ICAM1, ITGAX, ITGB2, ANXA1-FRR1, and the like, were identified to suggest how cuproptosis activity connected neoplastic and immune cells. Critically, 13 potential drugs targeting high CuAs gliomas were predicted according to the CTRP and PRISM databases, including oligomycin A, dihydroartemisinin, and others. Taken together, cuproptosis is involved in glioma aggressiveness, neoplasm-immune interactions, and may be used to assist in drug selection.",
+  "abstract_zh": "胶质瘤是中枢神经系统中的恶性肿瘤。铜死亡（cuproptosis）是一种新发现的细胞死亡机制，靶向脂酰化三羧酸循环蛋白。既往研究发现铜死亡参与肿瘤进展，但其在胶质瘤中的作用仍不明确。在此，我们系统探索了批量肿瘤和单细胞转录组数据，以揭示其在胶质瘤中的作用。基于铜死亡相关基因构建了铜死亡活性评分（CuAS），并利用机器学习技术验证了该评分的稳定性。高CuAS胶质瘤更可能具有不良预后和侵袭性间充质（MES）亚型。随后，SCENIC算法预测了胶质瘤中20个与CuAS相关的转录因子（TFs）。功能富集和微环境分析发现，CuAS与肿瘤免疫浸润相关。据此，通过R包“Cellchat”探索了肿瘤与免疫之间的细胞间通讯。鉴定出5条信号通路和8个配体-受体对，包括ICAM1、ITGAX、ITGB2、ANXA1-FRR1等，以提示铜死亡活性如何连接肿瘤细胞和免疫细胞。关键的是，根据CTRP和PRISM数据库预测了13种靶向高CuAS胶质瘤的潜在药物，包括寡霉素A、双氢青蒿素等。综上所述，铜死亡参与胶质瘤的侵袭性、肿瘤-免疫相互作用，并可能用于辅助药物选择。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35964468/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35964468/",
+  "paper_page_path": "papers/pubmed/35964468/index.html"
+}

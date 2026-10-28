@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42694321",
+  "title": "Integrated single-cell transcriptomic and machine-learning analyses identify a CD36-associated macrophage state in diabetic nephropathy.",
+  "authors": "Yang, Xin; Li, Jiangying; Zeng, Ying; Wang, Gao; Zeng, Jilan; Liu, Dehui",
+  "journal": "Frontiers in immunology",
+  "published_date": "2026-09-04",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用单细胞转录组和机器学习识别糖尿病肾病中CD36相关巨噬细胞状态，属于纯表达分析和疾病标志物研究，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Diabetic nephropathy (DN) is the leading cause of end-stage renal disease worldwide and is characterized by progressive glomerulosclerosis, tubulointerstitial fibrosis, and a chronic inflammatory microenvironment. Although macrophage infiltration and immune dysregulation are recognized as central pathological features, the cell-type-specific transcriptional programs that drive inflammatory amplification in DN remain incompletely understood, particularly at single-cell resolution. OBJECTIVE: To identify macrophage-associated transcriptional biomarkers and delineate intercellular communication networks in DN using an integrated workflow combining urine single-cell RNA sequencing, multi-algorithm machine learning, and tissue-level experimental validation. METHODS: Urine scRNA-seq data from 17 healthy-control libraries (GSE157640 and GSE165396) and 8 diabetic nephropathy (DN) libraries (GSE266146) were processed using Seurat and integrated using Harmony. IL6-JAK-STAT3 pathway activity was quantified using AUCell. The GSE30122 cohort was stratified by disease status and randomly divided into training and held-out internal validation sets. Candidate-gene selection using LASSO, random forest, and Boruta was performed exclusively in the training set, and the discriminatory performance of the consensus genes was subsequently evaluated in the held-out internal validation set using receiver-operating-characteristic analysis. Cell-cell communication was computationally inferred using CellChat. Renal CD36 expression and its spatial association with F4/80-positive macrophages were assessed in an STZ-induced mouse model. RESULTS: Single-cell analysis identified major epithelial and immune cell populations in the urine of patients with DN and controls. IL6-JAK-STAT3 pathway activity was significantly elevated in DN, with macrophages showing the highest enrichment. Machine learning identified CD36 as a consensus biomarker with an AUC of 0.894 in the external validation cohort. CD36 was predominantly expressed in macrophages, and CellChat analysis predicted inflammatory and profibrotic ligand-receptor communication patterns associated with CD36-detected macrophages. In DN mice, CD36 was significantly upregulated at both the mRNA and protein levels and co-localized with F4/80-positive macrophages in renal tissue. CONCLUSIONS: CD36 represents a macrophage-enriched candidate molecular marker associated with an IL6-JAK-STAT3-high transcriptional state and predicted intercellular communication patterns in DN. These findings support further investigation of CD36, although its clinical utility and therapeutic relevance require independent clinical and functional validation.",
+  "abstract_zh": "背景：糖尿病肾病（diabetic nephropathy, DN）是全球终末期肾病的主要原因，其特征为进行性肾小球硬化、肾小管间质纤维化和慢性炎症微环境。尽管巨噬细胞浸润和免疫失调被认为是核心病理特征，但驱动DN炎症放大的细胞类型特异性转录程序仍未被完全理解，尤其是在单细胞分辨率水平。目的：通过整合尿液单细胞RNA测序、多算法机器学习和组织水平实验验证的工作流程，识别DN中巨噬细胞相关的转录生物标志物，并描绘细胞间通讯网络。方法：使用Seurat处理来自17个健康对照文库（GSE157640和GSE165396）和8个糖尿病肾病（DN）文库（GSE266146）的尿液scRNA-seq数据，并使用Harmony进行整合。使用AUCell量化IL6-JAK-STAT3通路活性。GSE30122队列按疾病状态分层，并随机分为训练集和留出内部验证集。使用LASSO、随机森林和Boruta进行的候选基因选择仅在训练集中执行，随后使用受试者工作特征曲线分析在留出内部验证集中评估共识基因的判别性能。使用CellChat计算推断细胞间通讯。在STZ诱导的小鼠模型中评估肾脏CD36表达及其与F4/80阳性巨噬细胞的空间关联。结果：单细胞分析识别了DN患者和对照组尿液中的主要上皮和免疫细胞群体。IL6-JAK-STAT3通路活性在DN中显著升高，其中巨噬细胞显示出最高的富集度。机器学习识别CD36为共识生物标志物，在外部验证队列中AUC为0.894。CD36主要在巨噬细胞中表达，CellChat分析预测了与CD36检测巨噬细胞相关的炎症和促纤维化配体-受体通讯模式。在DN小鼠中，CD36在mRNA和蛋白水平均显著上调，并与肾组织中的F4/80阳性巨噬细胞共定位。结论：CD36代表一种巨噬细胞富集的候选分子标志物，与DN中IL6-JAK-STAT3高转录状态和预测的细胞间通讯模式相关。这些发现支持对CD36的进一步研究，但其临床实用性和治疗相关性需独立的临床和功能验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42694321/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42694321/",
+  "paper_page_path": "papers/pubmed/42694321/index.html"
+}

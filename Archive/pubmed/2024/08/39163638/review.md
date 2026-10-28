@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a minimal theoretical model of transcription factor (TF) binding dynamics at gene promoters to explain transcriptional bursting. They claim that bursting dynamics depends on TF binding strength and the number of binding sites, with stronger binding prolonging burst duration but reducing variability, and an optimal number of binding sites maximizing transcriptional noise. They further claim quantitative agreement with available experimental observations.
+- **Visible evidence base** Abstract text only; no equations, simulation details, or experimental datasets are provided
+- **Missing materials affecting confidence** Full manuscript, model equations, parameter values, Monte Carlo simulation protocols, experimental data sources, and all figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting theoretical contribution to understanding transcriptional bursting, a topic of broad relevance in gene regulation. However, the current evidence base is insufficient to evaluate the validity of the central claims. The model structure, analytical derivations, simulation details, and the basis for quantitative agreement with experiments are not accessible. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in gene expression dynamics, stochastic biophysics, and systems biology would be interested. The work addresses a fundamental question about how TF binding kinetics shape transcriptional noise, which has implications for understanding cellular heterogeneity and adaptation. The theoretical framework could also appeal to computational biologists developing models of gene regulation.
+- **Major strengths** The topic is timely and important, given recent experimental findings linking TF association to transcriptional activity. The model appears to incorporate relevant physical-chemical features, such as multi-site binding and exchange dynamics, which are often oversimplified. The use of both analytical calculations and Monte Carlo simulations suggests a rigorous approach, if properly executed.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "transcriptional bursting dynamics depends on the strength of TF binding and the number of binding sites" and that "stronger TF binding affinity prolongs burst duration but reduces variability, while an optimal number of binding sites maximizes transcriptional noise."  
+  - **Evidence pointer** Location not provided; abstract only  
+  - **Concern** The abstract provides no details on the model formulation, the analytical methods, or the simulation parameters. Without access to the equations, boundary conditions, or parameter ranges, it is impossible to assess whether the predicted relationships are robust or artifacts of specific assumptions.  
+  - **Why it matters** The central predictions of the model, such as the non-monotonic effect of binding site number on noise, could depend critically on model choices, including the nature of TF exchange, the inclusion of promoter state transitions, or the definition of burst metrics. If these details are not transparent, the claims cannot be independently verified.  
+  - **Resolution test** Provide the full model equations, parameter values, and a sensitivity analysis demonstrating that the qualitative predictions hold across biologically plausible parameter ranges.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** The abstract claims that "our theoretical method explains available experimental observations quantitatively, confirming the model's predictive accuracy."  
+  - **Evidence pointer** Location not provided; abstract only  
+  - **Concern** No experimental datasets are identified, and no quantitative metrics of agreement (e.g., goodness-of-fit, error bars, or comparison statistics) are reported. The claim of quantitative explanation is therefore unsubstantiated.  
+  - **Why it matters** Quantitative agreement with experiments is a key selling point of the work. Without specifying which experiments were used, how the data were obtained, and how the comparison was performed, the claim cannot be evaluated. This is critical for establishing the model's predictive power.  
+  - **Resolution test** List the specific experimental studies used, describe the fitting procedure, and report statistical measures of agreement, such as R-squared values or confidence intervals.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract states that "using analytical calculations supported by Monte Carlo computer simulations, it is demonstrated that..."  
+  - **Evidence pointer** Location not provided; abstract only  
+  - **Concern** The abstract does not describe the simulation algorithm, the number of runs, the system size, or the time scales simulated. Reproducibility of the results is therefore not possible from the supplied material.  
+  - **Why it matters** Monte Carlo simulations are only meaningful if the protocol is fully specified. Without these details, the reader cannot assess whether the simulations are converged, unbiased, or representative of the biological system.  
+  - **Resolution test** Provide a complete description of the simulation methodology, including initialization, equilibration, sampling, and error estimation, in the full manuscript.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity for nonspecialists  
+  - **Affected element** Definition of "transcriptional noise"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "transcriptional noise" is used without a precise definition. It is unclear whether this refers to the coefficient of variation of mRNA counts, the Fano factor, or another metric.  
+  - **Required correction** Define the noise metric explicitly in the abstract or introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope of claims  
+  - **Affected element** Generalization of findings  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract claims the model "provides important insights into molecular mechanisms of gene expression and regulation," but the scope is limited to TF binding dynamics. The broader relevance to other regulatory steps, such as elongation or chromatin remodeling, is not discussed.  
+  - **Required correction** Clarify the boundaries of the model's applicability and avoid overgeneralizing the conclusions.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract is dense and mixes model description, results, and implications in a single flow, which may hinder comprehension for nonspecialists.  
+  - **Required correction** Consider restructuring the abstract to separate model setup, key findings, and broader implications more clearly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The model equations and simulation details must be provided, and the experimental comparison must be documented with specific data and statistical measures. Without these, the central claims of the paper are not established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach of linking TF binding dynamics to bursting is not entirely new, but the specific focus on multi-site exchange and optimal noise may offer a fresh perspective. However, originality cannot be fully assessed without the full model.  
+  - Scientific importance: The topic is important for understanding gene regulation and cellular variability. If the claims hold, the work could have broad implications.  
+  - Interdisciplinary readership: The work bridges biophysics, stochastic processes, and molecular biology, which could attract a diverse audience.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of model details and simulation protocols is a major limitation.  
+  - Readability for nonspecialists: The abstract is moderately accessible but uses jargon without clear definitions, which may limit broader readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible ideas, but the absence of model details, simulation protocols, and experimental comparisons prevents verification of the central claims. The authors should be encouraged to resubmit with full technical documentation.
+
+## Risk / unsupported claims
+- The claim of quantitative agreement with experimental observations is unsupported, as no experimental data or comparison metrics are provided.
+- The prediction that an optimal number of binding sites maximizes transcriptional noise is unverifiable without model equations and parameter sensitivity analysis.
+- The general statement that the model "provides important insights into molecular mechanisms of gene expression and regulation" is overbroad relative to the evidence presented.

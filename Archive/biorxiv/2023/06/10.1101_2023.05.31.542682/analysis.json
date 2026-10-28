@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.31.542682",
+  "title": "<i>genomicBERT</i> : A Light-weight Foundation Model for Genome Analysis using Unigram Tokenization and Specialized DNA Vocabulary",
+  "authors": "Tyrone Chen; Naima Vahab; Navya Tyagi; Eleanor Cummins; Anton Y. Peleg; Sonika Tyagi",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-01",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出轻量级基因组语言模型genomicBERT，用自定义DNA词表做序列分析，虽涉及DNA序列建模但未聚焦TF-DNA结合或互作机制，方法可迁移但对象与互作轴均非核心。",
+  "abstract": "The genome, which serves as the inherent language directing the blueprint of life, offers significant analysis prospects by combining Natural Language Processing (NLP) and machine learning (ML). Integrating biological sequences with other digital healthcare information has potential to transform data-driven diagnostics. Large language models (LLMs) can be harnessed to decode the genomic language. This endeavor encounters three critical challenges: First, long biomolecular sequences require segmentation into smaller subunits, which is non-trivial since many biological “words” remain unknown. Second, the analysis of extended DNA sequences using LLMs demands a compute-intensive infrastructure. Third, ensuring reproducibility and reusability of modeling workflows remains an unresolved issue. To tackle these challenges, we introduce an empirical DNA tokenisation approach and a versatile, semantic-aware, genome language model — genomicBERT . The model is species-agnostic and operates seamlessly at the DNA or RNA levels. By introducing a reduced and specialized DNA vocabulary, our approach minimizes computational overhead and optimizes performance. Our benchmarking demonstrates that the genomicBERT matches or surpasses the performance of contemporary tools on the same datasets under different experimental conditions. To encourage collaboration and ease of access, we introduce genomicBERT as an integral component of the openly accessible conda package, genomeNLP . Validated across diverse case studies, genomicBERT lowers the barriers to decoding genomic language, relying solely on sequence data to extract meaningful insights. Highlights This novel model offers a compelling solution for DNA sequence analysis by significantly reducing model size and computational costs without compromising performance, setting a new standard for efficient model development. We demonstrate that a powerful vocabulary and tokenization method helps to derive patterns from biological sequence data while accounting for hidden semantic rules. Our method is agnostic to species or biomolecule type as it is data-driven. Hence, it can be applied to DNA and RNA We validate the important genomicBERT tokens by mapping back to the biologically significant motifs. We present a publicly available genome language modeling toolkit called genomeNLP , specifically designed to combine computational linguistics and genomics, enabling researchers from biology backgrounds to analyze and interpret genomic sequences effectively.",
+  "abstract_zh": "基因组作为指导生命蓝图的固有语言，通过结合自然语言处理（NLP）和机器学习（ML），提供了重要的分析前景。将生物序列与其他数字医疗信息相整合，有望变革数据驱动的诊断方式。大型语言模型（LLMs）可用于解码基因组语言。这一努力面临三个关键挑战：第一，长生物分子序列需要分割成更小的亚单位，这并非易事，因为许多生物“词汇”仍属未知。第二，使用LLMs分析长DNA序列需要计算密集型基础设施。第三，确保建模工作流的可重复性和可重用性仍未解决。为应对这些挑战，我们引入了一种经验性DNA分词方法及一个多功能、语义感知的基因组语言模型——genomicBERT。该模型不受物种限制，可在DNA或RNA水平无缝运行。通过引入精简且专门的DNA词汇表，我们的方法最小化了计算开销并优化了性能。我们的基准测试表明，在不同实验条件下，genomicBERT在相同数据集上的表现与当代工具相当或更优。为促进合作和便于访问，我们将genomicBERT作为公开可获取的conda包genomeNLP的组成部分推出。经多种案例研究验证，genomicBERT降低了解码基因组语言的门槛，仅依赖序列数据即可提取有意义的见解。亮点：这一新颖模型通过显著减少模型大小和计算成本而不牺牲性能，为DNA序列分析提供了引人注目的解决方案，为高效模型开发设立了新标准。我们证明，强大的词汇表和分词方法有助于从生物序列数据中推导模式，同时考虑隐藏的语义规则。我们的方法因数据驱动而对物种或生物分子类型无偏好，因此可应用于DNA和RNA。我们通过将重要的genomicBERT标记映射回具有生物学意义的基序来验证它们。我们提供了一个公开可用的基因组语言建模工具包genomeNLP，专门设计用于结合计算语言学和基因组学，使生物学背景的研究人员能够有效分析和解释基因组序列。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.31.542682",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.31.542682",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.31.542682/index.html"
+}

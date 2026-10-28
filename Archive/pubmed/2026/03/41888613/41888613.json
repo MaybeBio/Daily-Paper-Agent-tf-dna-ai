@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "41888613",
+    "doi": "10.1038/s41598-026-45981-5",
+    "title": "Exploring the effects and mechanisms of Chinese yam in treating osteoporosis using network pharmacology analysis and biological validation."
+  },
+  "content": {
+    "abstract": "Chinese yam, a plant used in traditional medicine and food, shows promise for treating osteoporosis, but its exact mechanism of action remains unclear. In this study, employs network pharmacology, molecular dynamics simulation techniques, and in vitro and in vivo experiments were employed to investigate the potential mechanisms underlying the therapeutic effects of Chinese yam on osteoporosis. Our study indicates that Chinese yam primarily exerts its effects primarily through several of its active components including Phytocassane A, Batatasin II, Gibberellin, Dihydroquercetin, Garcinone D, and Diosgenin. Gene Ontology (GO) enrichment analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment revealed that the PI3K/Akt signaling pathway and MAPK signaling pathway were enriched with multiple targets, including EGFR, SRC, IL-6, AKT1, and CTNNB1. The results from molecular docking and molecular dynamics simulations revealed favourable binding stability of the target-compound complexes. Among them, Dihydroquercetin and Garcinone D demonstrated superior binding affinity for each target. In a zebrafish model demonstrated that Chinese yam extract effectively alleviated dexamethasone-induced inhibition of bone mineralization. We also found that Chinese yam extract increased alkaline phosphatase (ALP) activity, upregulated the protein expression of runt-related transcription factor 2 (RUNX2) and osteocalcin (OCN), and promoted PI3K phosphorylation in MC3T3-E1 cells treated with dexamethasone, and these effects could be reversed by a PI3K inhibitor (LY294002). This study revealed the active components and mechanisms underlying the efficacy of Chinese yam in treating osteoporosis, providing a theoretical foundation and research data for its clinical application in osteoporosis therapy.",
+    "keywords": [
+      "Chinese yam",
+      "Molecular dynamics simulation",
+      "Network pharmacology",
+      "Osteoporosis",
+      "PI3K/Akt signaling pathway"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Osteoporosis/drug therapy/metabolism",
+      "*Network Pharmacology",
+      "*Dioscorea/chemistry",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Zebrafish",
+      "Mice",
+      "Signal Transduction/drug effects",
+      "*Plant Extracts/pharmacology/chemistry",
+      "Humans",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Cell Line",
+      "Calcification, Physiologic/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Zhirong",
+        "Zou, Liyi",
+        "Xie, Baocheng",
+        "Huang, Yayan",
+        "Pan, Chunyu",
+        "Ye, Xiaomei",
+        "Qin, Youfa",
+        "Li, Yongmei"
+      ],
+      "short_names": [
+        "Huang Z",
+        "Zou L",
+        "Xie B",
+        "Huang Y",
+        "Pan C",
+        "Ye X",
+        "Qin Y",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China.",
+        "Guangdong Key Laboratory for Research and Development of Natural Drugs, School of Pharmacy, Guangdong Medical University, Dongguan, 523808, China.",
+        "Department of Pharmacy, The Tenth Affiliated Hospital of Southern Medical University (Dongguan People's Hospital), Dongguan, 523808, China.",
+        "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China.",
+        "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China.",
+        "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China.",
+        "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China. qinyoufaqwerty@163.com.",
+        "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China. lym206@gdmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Zhirong",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Liyi",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Research and Development of Natural Drugs, School of Pharmacy, Guangdong Medical University, Dongguan, 523808, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Baocheng",
+        "short_name": "Xie B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Tenth Affiliated Hospital of Southern Medical University (Dongguan People's Hospital), Dongguan, 523808, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yayan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Chunyu",
+        "short_name": "Pan C",
+        "identifiers": [],
+        "affiliations": [
+          "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Xiaomei",
+        "short_name": "Ye X",
+        "identifiers": [],
+        "affiliations": [
+          "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Youfa",
+        "short_name": "Qin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China. qinyoufaqwerty@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yongmei",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dongguan Key Laboratory of Precision Drug Individualized Treatment Development, Department of Clinical Pharmacy, The Affiliated Dongguan Songshan Lake Central Hospital, Guangdong Medical University, Dongguan, 523326, China. lym206@gdmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Mar 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 07:15",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41080163",
+      "40992062",
+      "40969400",
+      "40959556",
+      "40875735",
+      "40827848",
+      "40821826",
+      "40794954",
+      "40775331",
+      "40761521",
+      "40747669",
+      "39417505",
+      "39219221",
+      "38948067",
+      "37551031",
+      "36736431",
+      "36457727",
+      "36405054",
+      "36198696",
+      "35860032",
+      "35605290",
+      "35496280",
+      "35185535",
+      "34718103",
+      "34675808",
+      "34547962",
+      "34029907",
+      "33927474",
+      "33878544",
+      "32778797",
+      "32243258",
+      "31441146",
+      "31298955",
+      "30522105",
+      "30035064",
+      "29061447",
+      "28849197",
+      "28689769",
+      "27569393",
+      "27177723",
+      "26204939",
+      "25609476",
+      "24735618",
+      "22434380",
+      "21450337",
+      "9847135"
+    ],
+    "similar": [
+      "41888613",
+      "42421348",
+      "40775331",
+      "40255473",
+      "42142793",
+      "36403742",
+      "37879505",
+      "39038503",
+      "41490553",
+      "41891757",
+      "37080367",
+      "38776853",
+      "38381309",
+      "39374878",
+      "42576380",
+      "39489361",
+      "39917915",
+      "40332238",
+      "39577223",
+      "38493718",
+      "40350911",
+      "41473244",
+      "40676786",
+      "41944069",
+      "38387682",
+      "38964628",
+      "42405402",
+      "38547625",
+      "39490433",
+      "37948293",
+      "40054640",
+      "41360503",
+      "39278295",
+      "41593181",
+      "42205105",
+      "37690812",
+      "42336026",
+      "39955364",
+      "41974236",
+      "34246740",
+      "34994139",
+      "39615771",
+      "37833363",
+      "40133026",
+      "35970314",
+      "38114219",
+      "41135618",
+      "39399124",
+      "41052691",
+      "41736432",
+      "37986389",
+      "39800246",
+      "42172986",
+      "42357555",
+      "38822913",
+      "38040415",
+      "37863399",
+      "40013962",
+      "40466880",
+      "40615101",
+      "40132971",
+      "39066538",
+      "37480968",
+      "41418734",
+      "39940967",
+      "40716635",
+      "41380825",
+      "37799727",
+      "40504801",
+      "39855310",
+      "39808649",
+      "41921863",
+      "37777029",
+      "41765119",
+      "34522084",
+      "39074420",
+      "41542898",
+      "39917920",
+      "37806993",
+      "35734366",
+      "38582151",
+      "42335406",
+      "38530577",
+      "41780614",
+      "39307810",
+      "41213356",
+      "39419306",
+      "40186900",
+      "39953092",
+      "35926779",
+      "39135759",
+      "37069639",
+      "38301984",
+      "35616676",
+      "41814699",
+      "37233418",
+      "35777610",
+      "39041101",
+      "38670393",
+      "38759074"
+    ],
+    "review": [
+      "41888613"
+    ],
+    "pmc": [
+      "13172009"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-45981-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41888613/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

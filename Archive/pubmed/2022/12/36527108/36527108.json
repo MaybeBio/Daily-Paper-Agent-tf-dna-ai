@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "36527108",
+    "doi": "10.1186/s12967-022-03826-5",
+    "title": "Uncovering the gene regulatory network of type 2 diabetes through multi-omic data integration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Type 2 diabetes (T2D) onset is a complex, organized biological process with multilevel regulation, and its physiopathological mechanisms are yet to be elucidated. This study aims to find out the key drivers and pathways involved in the pathogenesis of T2D through multi-omics analysis. METHODS: The datasets used in the experiments comprise three groups: (1) genomic (2) transcriptomic, and (3) epigenomic categories. Then, a series of bioinformatics technologies including Marker set enrichment analysis (MSEA), weighted key driver analysis (wKDA) was performed to identify key drivers. The hub genes were further verified by the Receiver Operator Characteristic (ROC) Curve analysis, proteomic analysis, and Real-time quantitative polymerase chain reaction (RT-qPCR). The multi-omics network was applied to the Pharmomics pipeline in Mergeomics to identify drug candidates for T2D treatment. Then, we used the drug-gene interaction network to conduct network pharmacological analysis. Besides, molecular docking was performed using AutoDock/Vina, a computational docking program. RESULTS: Module-gene interaction network was constructed using MSEA, which revealed a significant enrichment of immune-related activities and glucose metabolism. Top 10 key drivers (PSMB9, COL1A1, COL4A1, HLA-DQB1, COL3A1, IRF7, COL5A1, CD74, HLA-DQA1, and HLA-DRB1) were selected by wKDA analysis. Among these, COL5A1, IRF7, CD74, and HLA-DRB1 were verified to have the capability to diagnose T2D, and expression levels of PSMB9 and CD74 had significantly higher in T2D patients. We further predict the co-expression network and transcription factor (TF) binding specificity of the key driver. Besides, based on module interaction networks and key driver networks, 17 compounds are considered to possess T2D-control potential, such as sunitinib. CONCLUSIONS: We identified signature genes, biomolecular processes, and pathways using multi-omics networks. Moreover, our computational network analysis revealed potential novel strategies for pharmacologic interventions of T2D.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Drug repositioning",
+      "Key driver genes",
+      "Multi-omics network",
+      "Type 2 diabetes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks",
+      "*Diabetes Mellitus, Type 2/genetics",
+      "Multiomics",
+      "HLA-DRB1 Chains/genetics",
+      "Proteomics",
+      "Molecular Docking Simulation",
+      "Computational Biology",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jiachen",
+        "Liu, Shenghua",
+        "Yu, Zhaomei",
+        "Qiu, Xiaorui",
+        "Jiang, Rundong",
+        "Li, Weizheng"
+      ],
+      "short_names": [
+        "Liu J",
+        "Liu S",
+        "Yu Z",
+        "Qiu X",
+        "Jiang R",
+        "Li W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0615-031X"
+      ],
+      "affiliations": [
+        "Department of General Surgery, Third Xiangya Hospital Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+        "Xiangya Medical College, Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+        "The Center of Systems Biology and Data science, School of Basic Medical Science, Central South University, Changsha, Hunan, People's Republic of China.",
+        "Department of General Surgery, Third Xiangya Hospital Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+        "Xiangya Medical College, Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+        "Department of Thyroid and Breast Surgery, The Frist Afflicted Hospital of Fujian Medical University, No. 20 Chayzhong Road, Taijiang District, Fuzhou, 350005, Fujian, People's Republic of China.",
+        "Xiangya Medical College, Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+        "Department of General Surgery, Third Xiangya Hospital Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+        "Department of General Surgery, Third Xiangya Hospital Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China. zhnfy-Daniel@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jiachen",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Third Xiangya Hospital Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+          "Xiangya Medical College, Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+          "The Center of Systems Biology and Data science, School of Basic Medical Science, Central South University, Changsha, Hunan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shenghua",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Third Xiangya Hospital Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China.",
+          "Xiangya Medical College, Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhaomei",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, The Frist Afflicted Hospital of Fujian Medical University, No. 20 Chayzhong Road, Taijiang District, Fuzhou, 350005, Fujian, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xiaorui",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya Medical College, Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Rundong",
+        "short_name": "Jiang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Third Xiangya Hospital Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Weizheng",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0003-0615-031X"
+        ],
+        "affiliations": [
+          "Department of General Surgery, Third Xiangya Hospital Central South University, No. 138 Tongzipo Road Yuelu District, Changsha, 410013, Hunan, People's Republic of China. zhnfy-Daniel@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2022 Dec 16",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/17 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "41754199",
+      "41303487",
+      "41030838",
+      "40787105",
+      "40464182",
+      "40428400",
+      "40057806",
+      "39610243",
+      "38814387",
+      "38369676",
+      "38326874",
+      "38028995",
+      "38003949",
+      "38003198",
+      "37652020",
+      "36978083",
+      "36941598"
+    ],
+    "refs": [
+      "35415822",
+      "35033649",
+      "34703027",
+      "34554282",
+      "34054797",
+      "34048577",
+      "33801830",
+      "33526907",
+      "33497804",
+      "33204134",
+      "33045747",
+      "32999320",
+      "32894314",
+      "32200350",
+      "32031063",
+      "31962072",
+      "31960143",
+      "31680165",
+      "31501536",
+      "31361112",
+      "31142858",
+      "30318112",
+      "29728363",
+      "29087512",
+      "28860072",
+      "28476144",
+      "28092375",
+      "27864352",
+      "27789702",
+      "27398621",
+      "25428349",
+      "25354942",
+      "25326323",
+      "23941830",
+      "23835340",
+      "23671871",
+      "23207880",
+      "22984471",
+      "22768844",
+      "22511206",
+      "22293752",
+      "22004523",
+      "21127054",
+      "20689021",
+      "20576703",
+      "20181961",
+      "19065050",
+      "17761721",
+      "17065332",
+      "16517405",
+      "15979893",
+      "14670831",
+      "14597658",
+      "11710884"
+    ],
+    "similar": [
+      "36527108",
+      "27612452",
+      "33902539",
+      "32041280",
+      "34048577",
+      "29705125",
+      "34218797",
+      "37679740",
+      "37285682",
+      "33622336",
+      "35992146",
+      "31886571",
+      "25371518",
+      "37949208",
+      "23281828",
+      "33235138",
+      "29620215",
+      "30914061",
+      "35271662",
+      "36276976",
+      "28952134",
+      "31088900",
+      "34248836",
+      "37682479",
+      "35306494",
+      "28957322",
+      "35709926",
+      "34340684",
+      "34536521",
+      "33827531",
+      "33890634",
+      "34553293",
+      "35562622",
+      "33261667",
+      "36368623",
+      "27121852",
+      "33728329",
+      "35278479",
+      "36523490",
+      "39186807",
+      "35016690",
+      "35757392",
+      "25511714",
+      "35601016",
+      "35187175",
+      "25256132",
+      "25410188",
+      "31908393",
+      "36829193",
+      "33375269",
+      "24508273",
+      "31312515",
+      "33407182",
+      "35313524",
+      "34861820",
+      "36514015",
+      "32705173",
+      "35718998",
+      "35757478",
+      "35788821",
+      "30708140",
+      "31742498",
+      "34215202",
+      "32602534",
+      "35830453",
+      "36899621",
+      "27814671",
+      "35185791",
+      "34099740",
+      "35276739",
+      "33217867",
+      "35242109",
+      "35392084",
+      "38670157",
+      "34908186",
+      "31612481",
+      "35288173",
+      "7817375",
+      "36248223",
+      "35356004",
+      "34852788",
+      "36464123",
+      "32853947",
+      "34749208",
+      "32389853",
+      "22583516",
+      "33099311",
+      "29760609",
+      "36243706",
+      "32469143",
+      "35957838",
+      "35445133",
+      "36046789",
+      "38510703",
+      "36630956",
+      "38295113",
+      "37454504",
+      "37682480",
+      "36533448",
+      "37670505",
+      "38728374",
+      "38816801",
+      "38808672",
+      "36894939",
+      "36984779",
+      "31559017",
+      "38732002",
+      "37956172",
+      "38409223",
+      "35609982",
+      "26639632",
+      "39237774",
+      "37691071",
+      "39418180",
+      "36790356",
+      "37095447",
+      "35568907",
+      "37930028",
+      "37356494",
+      "37649392",
+      "36966292",
+      "37669939",
+      "38101116",
+      "38435631",
+      "37000949",
+      "38464086",
+      "37216914",
+      "39262940",
+      "34955761",
+      "37074577",
+      "28155676",
+      "38278931",
+      "39177139",
+      "37895264",
+      "37739500",
+      "37929060",
+      "36944993",
+      "38948762",
+      "38008044",
+      "37055274",
+      "37564937",
+      "38826370",
+      "38293574",
+      "38596228",
+      "36829477",
+      "39391717",
+      "35345455",
+      "36913750",
+      "32670509",
+      "35252405",
+      "36941598",
+      "35740621",
+      "38455978",
+      "38102830",
+      "36995007"
+    ],
+    "review": [
+      "36527108",
+      "23281828",
+      "35276739",
+      "37691071",
+      "37356494",
+      "34955761",
+      "37055274",
+      "37564937",
+      "36913750"
+    ],
+    "pmc": [
+      "9756634"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-022-03826-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36527108/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36527108",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

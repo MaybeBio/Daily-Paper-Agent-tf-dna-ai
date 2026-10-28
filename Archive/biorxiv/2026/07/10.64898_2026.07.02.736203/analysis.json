@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.02.736203",
+  "title": "Integrated Framework for Probing Multimodal Protein Foundation Models with Structure-Functional Interpretability Analysis in Detection of Allosteric Binding Sites",
+  "authors": "Alina Bazarova; Gennady M. Verkhivker",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-07",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出多模态蛋白质基础模型框架用于变构结合位点检测，虽涉及蛋白质-配体结合位点而非TF-DNA互作，但其多模态嵌入消融与可解释性分析方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Allosteric regulation represents a fundamental mechanism of protein function, yet distinguishing allosteric from orthosteric protein binding sites remains a persistent computational challenge. While multimodal protein foundation models offer the potential to integrate complementary biological signals including sequence, structure, functional annotations, and conformational dynamics, their performance determinants in allosteric binding site detection remain poorly understood. We introduce a unified computational framework for profiling multimodal protein foundation models across distinct binding-site separability regimes. Rather than evaluating models solely by predictive accuracy, the framework combines systematic modality embedding ablations, encoder architecture comparisons, and variance decomposition to characterize how evolutionary, structural, functional, and dynamical information contribute to allosteric site discrimination. Using the OneProt multimodal model, we evaluate two complementary levels of multimodal integration: (a) encoder architectures that differ in the modalities incorporated during pretraining, and (b) downstream combinations of pocket, sequence, and text embeddings used for classification. To systematically probe the determinants of model performance, we benchmark these configurations across four assembled datasets of protein complexes representing a spectrum of biological complexity and a range of structural, dynamic, and evolutionary context for orthosteric and allosteric binding sites. Through comprehensive embedding ablations, encoder architecture comparisons, and variance decomposition, we demonstrate that model performance is governed primarily by intrinsic dataset properties rather than architectural complexity, with dataset identity accounting for 63.7% of explainable variance. Across all examined datasets, we identify three distinct separability regimes: a low-separability regime where current representations fail to reliably distinguish the two classes; an intermediate regime where multimodal integration substantially improves performance; and a high-separability regime where most architectures converge to near-ceiling performance. Critically, embedding contributions are regime-dependent: pocket geometry dominates when regulatory classes share structural contexts, while text and sequence embeddings become essential when evolutionary constraint distinguishes them. At the encoder level, structural and molecular dynamics encoders provide the greatest benefit in intermediate- and high-separability settings. Structure-functional analysis of correctly classified binding sites reveals that prediction success reflects the underlying biological organization of each regime. These findings establish that the success of multimodal foundation models depends critically on alignment between available modalities and the biological signatures that distinguish regulatory classes in each dataset.",
+  "abstract_zh": "变构调控是蛋白质功能的基本机制，然而区分变构与正构蛋白结合位点仍是一个持续存在的计算挑战。尽管多模态蛋白质基础模型有潜力整合互补的生物信号，包括序列、结构、功能注释和构象动态，但它们在变构结合位点检测中的性能决定因素仍知之甚少。我们引入了一个统一的计算框架，用于在不同结合位点可分离性机制下剖析多模态蛋白质基础模型。该框架不仅通过预测准确性评估模型，还结合了系统性模态嵌入消融、编码器架构比较和方差分解，以表征进化、结构、功能和动态信息如何促进变构位点判别。使用OneProt多模态模型，我们评估了多模态整合的两个互补层面：(a) 在预训练期间因整合模态不同而异的编码器架构，以及(b) 用于分类的口袋、序列和文本嵌入的下游组合。为系统探究模型性能的决定因素，我们在四个组装的数据集上基准测试这些配置，这些数据集代表蛋白质复合物的生物复杂性谱系，并为正构和变构结合位点提供一系列结构、动态和进化背景。通过全面的嵌入消融、编码器架构比较和方差分解，我们证明模型性能主要由数据集内在属性而非架构复杂性主导，数据集身份占可解释方差的63.7%。在所有检查的数据集中，我们识别出三种不同的可分离性机制：低可分离性机制，其中当前表示无法可靠区分两类；中间机制，其中多模态整合显著提升性能；以及高可分离性机制，其中大多数架构收敛至接近上限性能。关键的是，嵌入贡献依赖于机制：当调控类别共享结构背景时，口袋几何特征占主导；而当进化约束区分它们时，文本和序列嵌入变得至关重要。在编码器层面，结构和分子动力学编码器在中间和高可分离性设置中提供最大益处。对正确分类结合位点的结构-功能分析揭示，预测成功反映了每个机制中潜在的生物组织。这些发现确立了多模态基础模型的成功关键取决于可用模态与每个数据集中区分调控类别的生物特征之间的对齐。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736203",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736203",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.02.736203/index.html"
+}

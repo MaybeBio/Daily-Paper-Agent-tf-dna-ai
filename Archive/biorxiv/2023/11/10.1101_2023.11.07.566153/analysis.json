@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.07.566153",
+  "title": "Comprehensive analysis of computational approaches in plant transcription factors binding regions discovery",
+  "authors": "Jyoti; Ritu; Sagar Gupta; Ravi Shankar",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-11",
+  "window": {
+    "start": "2023-11-06",
+    "end": "2023-11-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述并修正了植物转录因子结合区域预测的计算工具，聚焦TF-DNA结合位点发现，但以综述和工具评估为主，缺乏新AI或物理模拟方法，与课题部分相关。",
+  "abstract": "Transcription factors (TFs) are regulatory proteins which bind to a specific DNA region known as the transcription factor binding regions (TFBRs) to regulate the rate of transcription process. The identification of TFBRs has been made possible by a number of experimental and computational techniques established during the past few years. The process of TFBR identification involves peak identification in the binding data, followed by the identification of motif characteristics. Using the same binding data attempts have been made to raise computational models to identify such binding regions which could save time and resources spent for binding experiments. These computational approaches depend a lot on what way they learn and how. These existing computational approaches are skewed heavily around human TFBRs discovery, while plants have drastically different genomic setup for regulation which these approaches have grossly ignored. Here, we provide a comprehensive study of the current state of the matters in plant specific TF discovery algorithms. While doing so, we encountered several software tools’ issues rendering the tools not usable to researches. We fixed them and have also provided the corrected scripts for such tools. We expect this study to serve as a guide for better understanding of software tools’ approaches for plant specific TFBRs discovery and the care to be taken while applying them, especially during cross-species applications. The corrected scripts of these software tools are made available at https://github.com/SCBB-LAB/Comparative-analysis-of-plant-TFBS-software .",
+  "abstract_zh": "转录因子（TFs）是调控蛋白，它们结合到特定的DNA区域，即转录因子结合区域（TFBRs），以调控转录过程的速率。过去几年中，通过多种实验和计算技术，TFBRs的识别已成为可能。TFBR识别过程涉及结合数据中的峰值识别，随后是基序特征的识别。利用相同的结合数据，已尝试构建计算模型来识别此类结合区域，这可以节省用于结合实验的时间和资源。这些计算方法在很大程度上依赖于它们的学习方式及学习过程。现有的计算方法严重偏向于人类TFBRs的发现，而植物具有截然不同的基因组调控结构，这些方法在很大程度上忽视了这一点。在此，我们对植物特异性TF发现算法的当前状况进行了全面研究。在此过程中，我们遇到了几个软件工具的问题，导致这些工具无法供研究人员使用。我们修复了这些问题，并为这些工具提供了修正后的脚本。我们期望这项研究能作为更好地理解植物特异性TFBRs发现软件工具方法及其应用时需注意事项的指南，尤其是在跨物种应用中。这些软件工具的修正脚本可在https://github.com/SCBB-LAB/Comparative-analysis-of-plant-TFBS-software 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.07.566153",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.07.566153",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.07.566153/index.html"
+}

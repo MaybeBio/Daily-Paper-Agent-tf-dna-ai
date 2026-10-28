@@ -1,0 +1,440 @@
+{
+  "identity": {
+    "pmid": "40114377",
+    "doi": "10.1093/nar/gkaf189",
+    "title": "In silico nanoscope to study the interplay of genome organization and transcription regulation."
+  },
+  "content": {
+    "abstract": "In eukaryotic genomes, regulated access and communication between cis-regulatory elements (CREs) are necessary for enhancer-mediated transcription of genes. The molecular framework of the chromatin organization underlying such communication remains poorly understood. To better understand it, we develop a multiscale modeling pipeline to build near-atomistic models of the 200 kb Nanog gene locus in mouse embryonic stem cells comprising nucleosomes, transcription factors, co-activators, and RNA polymerase II-mediator complexes. By integrating diverse experimental data, including protein localization, genomic interaction frequencies, cryo-electron microscopy, and single-molecule fluorescence studies, our model offers novel insights into chromatin organization and its role in enhancer-promoter communication. The models equilibrated by high-performance molecular dynamics simulations span a scale of  approximately 350 nm, revealing an experimentally consistent local and global organization of chromatin and transcriptional machinery. Our models elucidate that the sequence-regulated chromatin accessibility facilitates the recruitment of transcription regulatory proteins exclusively at CREs, guided by the contrasting nucleosome organization compared to other regions. By constructing an experimentally consistent near-atomic model of chromatin in the cellular environment, our approach provides a robust framework for future studies on nuclear compartmentalization, chromatin organization, and transcription regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Transcription, Genetic",
+      "Nucleosomes/genetics/metabolism/chemistry",
+      "Chromatin/genetics/chemistry/metabolism",
+      "*Gene Expression Regulation",
+      "Promoter Regions, Genetic",
+      "Molecular Dynamics Simulation",
+      "Nanog Homeobox Protein/genetics/metabolism",
+      "*Genome",
+      "Mouse Embryonic Stem Cells/metabolism",
+      "Transcription Factors/metabolism",
+      "Enhancer Elements, Genetic",
+      "RNA Polymerase II/metabolism",
+      "Nanotechnology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gopi, Soundhararajan",
+        "Brandani, Giovanni B",
+        "Tan, Cheng",
+        "Jung, Jaewoon",
+        "Gu, Chenyang",
+        "Mizutani, Azuki",
+        "Ochiai, Hiroshi",
+        "Sugita, Yuji",
+        "Takada, Shoji"
+      ],
+      "short_names": [
+        "Gopi S",
+        "Brandani GB",
+        "Tan C",
+        "Jung J",
+        "Gu C",
+        "Mizutani A",
+        "Ochiai H",
+        "Sugita Y",
+        "Takada S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7511-2571",
+        "ORCID: 0000-0003-3379-0187",
+        "ORCID: 0000-0002-8957-4267",
+        "ORCID: 0000-0002-2285-4432",
+        "ORCID: 0000-0002-2200-1325",
+        "ORCID: 0000-0001-9738-9216",
+        "ORCID: 0000-0001-5385-7217"
+      ],
+      "affiliations": [
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan.",
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan.",
+        "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Saitama 351-0198, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Division of Gene Expression Dynamics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-0054, Japan.",
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan.",
+        "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Saitama 351-0198, Japan.",
+        "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gopi, Soundhararajan",
+        "short_name": "Gopi S",
+        "identifiers": [
+          "0000-0002-7511-2571"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Brandani, Giovanni B",
+        "short_name": "Brandani GB",
+        "identifiers": [
+          "0000-0003-3379-0187"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Tan, Cheng",
+        "short_name": "Tan C",
+        "identifiers": [
+          "0000-0002-8957-4267"
+        ],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Jung, Jaewoon",
+        "short_name": "Jung J",
+        "identifiers": [
+          "0000-0002-2285-4432"
+        ],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan.",
+          "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Saitama 351-0198, Japan."
+        ]
+      },
+      {
+        "full_name": "Gu, Chenyang",
+        "short_name": "Gu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Mizutani, Azuki",
+        "short_name": "Mizutani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Ochiai, Hiroshi",
+        "short_name": "Ochiai H",
+        "identifiers": [
+          "0000-0002-2200-1325"
+        ],
+        "affiliations": [
+          "Division of Gene Expression Dynamics, Medical Institute of Bioregulation, Kyushu University, Fukuoka 812-0054, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugita, Yuji",
+        "short_name": "Sugita Y",
+        "identifiers": [
+          "0000-0001-9738-9216"
+        ],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan.",
+          "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Saitama 351-0198, Japan.",
+          "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Takada, Shoji",
+        "short_name": "Takada S",
+        "identifiers": [
+          "0000-0001-5385-7217"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/21 11:16",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42186817",
+      "41279384",
+      "40344741"
+    ],
+    "refs": [
+      "38881841",
+      "38643169",
+      "38365983",
+      "38293962",
+      "38015443",
+      "37816746",
+      "37537334",
+      "37280210",
+      "37020028",
+      "36897969",
+      "35725906",
+      "35381009",
+      "35313165",
+      "35113722",
+      "35025997",
+      "34992286",
+      "34969825",
+      "34931241",
+      "34791371",
+      "34718725",
+      "34718705",
+      "34716273",
+      "34474085",
+      "34265844",
+      "34001913",
+      "33958484",
+      "33842482",
+      "33383034",
+      "33333019",
+      "33181171",
+      "33047670",
+      "32935829",
+      "32822575",
+      "32778600",
+      "32213323",
+      "32165536",
+      "31543265",
+      "31494034",
+      "31402173",
+      "31398323",
+      "31176328",
+      "31155237",
+      "31124784",
+      "30718394",
+      "29930091",
+      "29884956",
+      "29806939",
+      "29685391",
+      "29655483",
+      "29428417",
+      "29194442",
+      "28982762",
+      "28977693",
+      "28111071",
+      "27889238",
+      "27698366",
+      "27681417",
+      "27322406",
+      "27159561",
+      "26963790",
+      "26844300",
+      "26574340",
+      "26192632",
+      "26119342",
+      "25773599",
+      "25765281",
+      "25693564",
+      "25362344",
+      "24876496",
+      "24763583",
+      "24630727",
+      "23633960",
+      "22753508",
+      "22701719",
+      "22576172",
+      "22495304",
+      "22473209",
+      "22464331",
+      "21943426",
+      "21322734",
+      "21274616",
+      "20720539",
+      "20709077",
+      "20221255",
+      "19815776",
+      "19092803",
+      "16862119",
+      "16603492",
+      "12808097",
+      "11340174",
+      "9759733",
+      "9514715",
+      "2614835"
+    ],
+    "similar": [
+      "40114377",
+      "26814966",
+      "37410825",
+      "27889238",
+      "39476950",
+      "33334884",
+      "31128943",
+      "24213634",
+      "30008319",
+      "15694334",
+      "28977693",
+      "31473439",
+      "38049663",
+      "30838422",
+      "31331374",
+      "27046080",
+      "39843737",
+      "22537144",
+      "27814489",
+      "40304183",
+      "39626660",
+      "28985501",
+      "31433977",
+      "10871404",
+      "27125671",
+      "25650798",
+      "32213323",
+      "39306948",
+      "39753536",
+      "27062929",
+      "24940877",
+      "18408708",
+      "31790919",
+      "39283461",
+      "19741699",
+      "17466507",
+      "24727477",
+      "38666598",
+      "39946792",
+      "27773674",
+      "25956794",
+      "33280256",
+      "40219964",
+      "12773626",
+      "32197056",
+      "21074046",
+      "11884741",
+      "30824489",
+      "33503260",
+      "9489704",
+      "38959309",
+      "39208807",
+      "19124666",
+      "30674556",
+      "39642226",
+      "36693380",
+      "30258225",
+      "8974015",
+      "38830772",
+      "12600943",
+      "40130876",
+      "39191261",
+      "16647254",
+      "26305225",
+      "29556092",
+      "24065740",
+      "30154222",
+      "38810649",
+      "8645614",
+      "34099014",
+      "29759984",
+      "28289288",
+      "29930094",
+      "20708104",
+      "31940339",
+      "9774346",
+      "29335071",
+      "30846691",
+      "34001913",
+      "31126739",
+      "18075583",
+      "12596908",
+      "25164756",
+      "9874634",
+      "22265404",
+      "39572230",
+      "15020050",
+      "24176123",
+      "24059348",
+      "26872330",
+      "16772529",
+      "34166609",
+      "15918906",
+      "37459895",
+      "12052856",
+      "18351804",
+      "32958948",
+      "28356342",
+      "29514091",
+      "20886052"
+    ],
+    "review": [
+      "40114377",
+      "39476950",
+      "28977693",
+      "31473439",
+      "25650798",
+      "39306948",
+      "31790919",
+      "19741699",
+      "17466507",
+      "38666598",
+      "39946792",
+      "32197056",
+      "36693380",
+      "8974015",
+      "16647254",
+      "29556092",
+      "12596908",
+      "15020050"
+    ],
+    "pmc": [
+      "11925733"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40114377/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NANOG-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf189",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

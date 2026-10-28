@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Conclusions, Methods, Supporting Information descriptions)
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and suitability for a computational biology journal
+- **Shared manuscript claim summary** The authors present a new computational workflow (Relative Evolutionary Scoring, RES) that correlates amino acid changes in full-length p53 sequences with organismal lifespan across five taxonomic orders, using phylogenetic generalized least squares. They identify longevity-associated residues (RPLARs) primarily in the DNA-binding domain but also in other domains, and use multiple computational tools (SIFT, Rosetta, PEPPI, AlphaFold) to assess functional implications. They conclude that p53-mediated longevity regulation is taxon-specific and involves residues important for stability, transactivation, and protein-protein interactions.
+- **Visible evidence base** Full text including Methods, Results narrative, figure descriptions (Figs 1-14, S1 Fig), and references to Supporting Information files (S1-S3 Files, S1 Protocol)
+- **Missing materials affecting confidence** Figures and tables themselves (only descriptions provided); Supporting Information files (S1 File, S2 File, S3 File, S1 Protocol); raw data and accession lists; code availability details; specific numerical outputs from statistical models beyond those quoted in text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel computational approach to a biologically important question, but the evidence provided is insufficient to establish the central claims. The RES workflow is a reasonable methodological contribution, yet several key analyses are described without adequate detail or validation, and the link between computational predictions and biological conclusions about longevity regulation remains speculative. The manuscript would benefit from clearer presentation of methods, additional validation steps, and more cautious interpretation of results.
+- **Who would be interested in the results, and why** Researchers studying p53 biology, aging and longevity mechanisms, evolutionary genomics, and computational biology. The RES workflow could be of interest to those developing phylogenetically informed genotype-phenotype correlation tools. The specific findings about p53 domain-specific longevity associations may interest gerontologists and cancer biologists exploring the trade-off between tumor suppression and aging.
+- **Major strengths** The manuscript addresses an important and underexplored question: how p53 sequence variation across species relates to lifespan, moving beyond the traditional focus on the DNA-binding domain. The RES workflow is a thoughtful attempt to integrate phylogenetic awareness into genotype-phenotype correlation. The multi-pronged computational approach (SIFT, Rosetta, PEPPI, AlphaFold) is ambitious and could provide a template for similar studies. The authors are appropriately cautious in some interpretations, acknowledging the speculative nature of links between computational predictions and organismal phenotypes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** The RES workflow "quantifies the evolutionary changes of single residues of full-length p53 orthologs as a 'relative evolutionary score'" and identifies RPLARs via PGLS correlation with lifespan.
+  - **Evidence pointer** Methods section "RES algorithm: Per residue evolutionary change quantification"; Results section "RES-average lifespan phylogenetic signal and model fitting"
+  - **Concern** The RES scoring methodology is described at a high level but lacks critical details needed for reproducibility. The position weight matrix calculation, the log-odds ratio formula, and the handling of gaps are not fully specified. More critically, the manuscript does not describe how the RES score accounts for variable sequence length, alignment uncertainty, or the choice of background frequencies. The PGLS analysis is mentioned but the specific model structure, covariance matrix estimation, and multiple testing correction for 393 aligned positions are not described. With 112 RPLARs identified from the 386-vertebrate dataset and 39 from order-specific datasets, the false discovery rate is a major concern that is not addressed.
+  - **Why it matters** Without a clear and statistically rigorous description of the scoring and correlation methodology, the central results cannot be evaluated or reproduced. The high number of significant residues raises concerns about multiple testing, and the lack of correction could invalidate the core findings.
+  - **Resolution test** Provide the full mathematical formulation of the RES score, describe the PGLS model specification, and report multiple testing correction procedures. Ideally, include a validation step (e.g., permutation testing or simulation) demonstrating that the method does not produce spurious correlations under a null model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "RPLARs may be dispensable for direct p53 transactivation" and "specific residues are key to p53 stability" based on SIFT, Rosetta, and transactivation enrichment analyses.
+  - **Evidence pointer** Results sections "Missense mutations at RPLARs may have deleterious and non-deleterious effects on p53 function" and "Functional enrichment: Some RPLARs are cancer hotpots, most are dispensable to the transactivation of key targets"; Figure 10-12 descriptions
+  - **Concern** The functional significance of RPLARs is inferred from computational predictions without experimental validation. SIFT scores are predictive but not definitive. The Rosetta Cartddg2020 analysis uses an AlphaFold3-predicted structure, which itself is a model, and the manuscript does not report confidence metrics for the structural predictions. The transactivation enrichment analysis relies on a single yeast assay dataset (Kato et al.) and does not account for context-dependent effects. The claim that RPLARs are "dispensable" for transactivation is based on average effects that may mask important gene-specific or condition-specific differences.
+  - **Why it matters** The manuscript's conclusions about mechanisms of longevity regulation depend critically on these functional inferences. If the computational predictions are not reliable, the biological interpretation collapses. The authors themselves acknowledge the need for experimental validation, but the current framing overstates the strength of the evidence.
+  - **Resolution test** Clearly label all functional predictions as hypotheses requiring experimental testing. Provide uncertainty estimates for computational predictions. If possible, include at least one experimental validation (e.g., transactivation assay for a few key RPLAR mutants) or substantially temper the language used to describe functional implications.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and confounding
+  - **Claim pointer** The study correlates p53 sequence variation with "average lifespan" across species, using data from multiple databases and a normalization procedure for missing values.
+  - **Evidence pointer** Methods section "Observed average lifespan data, normalization, and protein sequences"
+  - **Concern** Lifespan data quality and comparability across species is a well-known challenge. The authors state that "no average lifespan data could be found for more than two-thirds of the organisms" in the 386-vertebrate dataset, and they estimate these values from maximum lifespan using a simple linear regression. This introduces substantial uncertainty and potential bias. The normalization procedure is described in one sentence and its validation is not presented. For order-specific models, raw average lifespan data are used, but the sources (ADWD, ALE) may have inconsistent definitions of "average lifespan" across species. Additionally, the manuscript does not address potential confounders such as body size, phylogeny beyond the Brownian motion assumption, or environmental factors that correlate with both p53 evolution and lifespan.
+  - **Why it matters** The core dependent variable (lifespan) is measured with considerable error and potential bias. If the normalization is inaccurate, the correlations with RES scores could be spurious. The lack of attention to known confounders weakens the causal or associative claims.
+  - **Resolution test** Provide a detailed validation of the normalization procedure, including the training set size, model fit statistics, and a comparison of estimated vs. known average lifespans. Discuss and ideally statistically control for known confounders. Consider sensitivity analyses excluding species with estimated lifespans.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** "This study provides a framework for leveraging cross-species insights into p53's role in longevity regulation to inform the development of longevity-enhancing therapies and novel cancer treatments."
+  - **Evidence pointer** Conclusions section
+  - **Concern** The translational implications stated in the conclusions are not supported by the evidence presented. The study is purely computational and correlational, with no experimental validation. The leap from identifying sequence correlations to proposing therapeutic development is unjustified and could mislead readers.
+  - **Why it matters** Overstated conclusions can lead to inappropriate interpretation by non-specialists and may undermine the credibility of the work. The manuscript should clearly distinguish between hypothesis-generating computational findings and established biological mechanisms.
+  - **Resolution test** Revise the conclusions to focus on the methodological contribution and the generation of testable hypotheses. Remove or substantially temper claims about therapeutic applications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "The link between p53 tumor suppressive functions and organismal lifespan is multifaceted" but does not clearly state the specific question or the main finding of the study.
+  - **Required correction** Revise the abstract to include a clear statement of the study's objective and the primary result (e.g., the number of RPLARs identified and their domain distribution).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, RES algorithm
+  - **Evidence pointer** Methods section "RES algorithm: Per residue evolutionary change quantification"
+  - **Issue** The manuscript states "We used the MUSCLE default gap opening and extension penalties of -2.90 and 0, respectively in our scoring" but does not clarify how gaps are treated in the position weight matrix and log-odds calculation.
+  - **Required correction** Specify whether gap columns are excluded from scoring, and how alignment columns with gaps in some sequences are handled.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, PGLS model fitting
+  - **Evidence pointer** Results section "RES-average lifespan phylogenetic signal and model fitting"
+  - **Issue** The text reports AIC and log-likelihood values for model comparison but does not report the number of parameters or the sample size for each model, making it difficult to assess model complexity and overfitting risk.
+  - **Required correction** Report the number of observations and parameters for each model, and consider reporting additional fit metrics (e.g., adjusted R-squared).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1-5, 6-8, 9, 10, 11, 12, 13, 14
+  - **Evidence pointer** Figure descriptions in Results
+  - **Issue** The figure descriptions are brief and do not indicate what statistical information is displayed (e.g., confidence intervals, p-value thresholds, multiple testing corrections).
+  - **Required correction** Ensure all figures include appropriate error bars, confidence intervals, or significance indicators, and describe these in the figure legends.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction cites only a few studies on p53 and longevity and does not provide a comprehensive overview of prior genotype-phenotype correlation studies in this area.
+  - **Required correction** Expand the introduction to include a more thorough review of prior work, including studies that may have found conflicting results.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections
+  - **Issue** The term "RPLAR" is used throughout but is not defined in the abstract or at first use in the main text.
+  - **Required correction** Define "RPLAR" (Relative Evolutionary Predicted Longevity-Associated Residue) at first use.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods, Data sources
+  - **Evidence pointer** Methods section "Observed average lifespan data, normalization, and protein sequences"
+  - **Issue** The manuscript states that data were obtained from multiple databases but does not provide a complete list of species with their lifespan values and accession numbers in the main text.
+  - **Required correction** Ensure the Supporting Information (S2 File) contains a complete, machine-readable table of all species, lifespan values, and accession numbers, and reference this clearly in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (methodological detail and statistical rigor), R1-M2 (overinterpretation of computational predictions), R1-M3 (data quality and confounding)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The RES workflow is a novel contribution, and the focus on non-DBD regions of p53 in the context of longevity is a fresh angle. However, the core idea of correlating p53 sequence with lifespan is not entirely new, and the novelty is primarily methodological.
+  - **Scientific importance** The question of how p53 balances tumor suppression and aging is of broad significance. If the findings were robustly validated, they could inform aging research and cancer biology. However, the current evidence is too preliminary to establish importance.
+  - **Interdisciplinary readership** The topic bridges evolutionary biology, computational biology, and gerontology, which could attract a broad audience. However, the manuscript is written in a way that assumes familiarity with multiple specialized methods (phylogenetics, protein structure prediction, transactivation assays), which may limit accessibility.
+  - **Technical soundness** The technical approach is ambitious but currently under-described and under-validated. The lack of statistical rigor in the PGLS analysis and the reliance on unvalidated computational predictions are significant weaknesses.
+  - **Readability for nonspecialists** The manuscript is dense and assumes significant background knowledge. The abstract is not accessible to a general scientific audience, and the results section is difficult to follow without deep expertise in the methods.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful computational tool and some intriguing observations, but the methodological details are insufficient for evaluation, the statistical approach raises concerns about false positives, and the functional interpretations outpace the evidence. Major revisions addressing the blocking concerns are required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that RPLARs are "dispensable for direct p53 transactivation" is unsupported because it is based on a single computational enrichment analysis without experimental validation.
+- The claim that specific RPLARs are "key to p53 stability" is unsupported because it relies on Rosetta predictions on an AlphaFold3 model without experimental confirmation or uncertainty quantification.
+- The claim that the study "provides a framework for leveraging cross-species insights into p53's role in longevity regulation to inform the development of longevity-enhancing therapies and novel cancer treatments" is unsupported and overreaches beyond the data.
+- The identification of 112 RPLARs from the 386-vertebrate dataset is presented without any multiple testing correction, making the statistical significance of these findings uninterpretable.
+- The normalization of lifespan data from maximum to average values is described but not validated, and the potential bias introduced by this procedure is not assessed.

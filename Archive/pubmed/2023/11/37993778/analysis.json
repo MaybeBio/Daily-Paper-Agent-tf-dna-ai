@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37993778",
+  "title": "MiREx: mRNA levels prediction from gene sequence and miRNA target knowledge.",
+  "authors": "Pianfetti, Elena; Lovino, Marta; Ficarra, Elisa; Martignetti, Loredana",
+  "journal": "BMC bioinformatics",
+  "published_date": "2023-11-23",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用CNN预测mRNA表达水平，虽涉及转录因子和miRNA，但核心是基因表达预测而非蛋白质-DNA互作建模，无结合位点或互作机制研究，与本课题关联较弱。",
+  "abstract": "Messenger RNA (mRNA) has an essential role in the protein production process. Predicting mRNA expression levels accurately is crucial for understanding gene regulation, and various models (statistical and neural network-based) have been developed for this purpose. A few models predict mRNA expression levels from the DNA sequence, exploiting the DNA sequence and gene features (e.g., number of exons/introns, gene length). Other models include information about long-range interaction molecules (i.e., enhancers/silencers) and transcriptional regulators as predictive features, such as transcription factors (TFs) and small RNAs (e.g., microRNAs - miRNAs). Recently, a convolutional neural network (CNN) model, called Xpresso, has been proposed for mRNA expression level prediction leveraging the promoter sequence and mRNAs' half-life features (gene features). To push forward the mRNA level prediction, we present miREx, a CNN-based tool that includes information about miRNA targets and expression levels in the model. Indeed, each miRNA can target specific genes, and the model exploits this information to guide the learning process. In detail, not all miRNAs are included, only a selected subset with the highest impact on the model. MiREx has been evaluated on four cancer primary sites from the genomics data commons (GDC) database: lung, kidney, breast, and corpus uteri. Results show that mRNA level prediction benefits from selected miRNA targets and expression information. Future model developments could include other transcriptional regulators or be trained with proteomics data to infer protein levels.",
+  "abstract_zh": "信使RNA（mRNA）在蛋白质生产过程中扮演着至关重要的角色。准确预测mRNA表达水平对于理解基因调控至关重要，为此已开发了多种模型（基于统计和神经网络的）。一些模型利用DNA序列及基因特征（如外显子/内含子数量、基因长度）从DNA序列预测mRNA表达水平。其他模型则纳入长程相互作用分子（如增强子/沉默子）和转录调控因子（如转录因子（TFs）和小RNA（例如微小RNA - miRNAs））作为预测特征。近期，一种名为Xpresso的卷积神经网络（CNN）模型被提出，利用启动子序列和mRNA半衰期特征（基因特征）进行mRNA表达水平预测。为推进mRNA水平预测，我们提出了miREx，一种基于CNN的工具，在模型中整合了miRNA靶标及其表达水平的信息。实际上，每个miRNA可靶向特定基因，该模型利用此信息指导学习过程。具体而言，并非包含所有miRNA，仅选择对模型影响最大的一个子集。miREx已在基因组数据共享（GDC）数据库中四个癌症原发部位（肺、肾、乳腺和子宫体）上进行了评估。结果表明，mRNA水平预测受益于选定的miRNA靶标及表达信息。未来的模型开发可纳入其他转录调控因子，或使用蛋白质组学数据进行训练以推断蛋白质水平。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37993778/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37993778/",
+  "paper_page_path": "papers/pubmed/37993778/index.html"
+}

@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "40825957",
+    "doi": "10.1038/s41598-025-13324-5",
+    "title": "Sulfasalazine induces ferroptosis in osteosarcomas by regulating Nrf2/SLC7A11/GPX4 signaling axis."
+  },
+  "content": {
+    "abstract": "Osteosarcoma (OS), a highly malignant primary bone tumor, is characterized by early metastasis, drug resistance, and a resultant poor prognosis, leading to significant disability and mortality. While diverse treatment modalities exist, their therapeutic efficacy remains limited, underscoring the urgent need to investigate effective targeted therapies. Sulfasalazine (SAS), a commonly used anti-inflammatory drug prescribed for nonspecific gastrointestinal diseases, autoimmune rheumatic diseases, ankylosing spondylitis, and various skin conditions, has recently garnered attention for its potential as an anti-tumor agent, specifically its ability to induce ferroptosis, a novel form of regulated cell death. This presents a promising new avenue for OS treatment. Ferroptosis plays a critical role in the malignant progression of OS by regulating iron homeostasis and oxidative stress. To explore the potential of SAS to induce ferroptosis in OS cells, we employed a combined approach of network pharmacological analysis and molecular docking simulations. Network pharmacological analysis identified significant overlap among key target genes of SAS, ferroptosis, and OS, suggesting a multifaceted mechanism of action. Molecular docking simulations further corroborated the hypothesis that SAS targets ferroptosis pathways in OS, solidifying the rationale for further investigation. Our results demonstrate that SAS significantly inhibited the proliferation and migration of OS cells, inducing apoptosis and effectively attenuating their malignant progression. Notably, SAS-treated OS cells displayed hallmarks of ferroptosis, including iron accumulation, elevated levels of malondialdehyde and reactive oxygen species, and reduced levels of glutathione and superoxide dismutase. To confirm the involvement of ferroptosis, we treated SAS-exposed OS cells with the ferroptosis inhibitors DFO, Fer-1, and Lip-1, which reversed the inhibitory effects of SAS on cell activity, further supporting the conclusion that SAS triggers ferroptosis in these cells. We additionally observed that SAS decreased mitochondrial membrane potential in OS cells, potentially indicating mitochondrial damage during ferroptosis. Mechanistically, we found that SAS induced ferroptosis by downregulating the expression of NRF2, subsequently decreasing the expression of the light chain subunit of the cysteine/glutamate transporter system Xc- (SLC7A11) and glutathione peroxidase 4. Collectively, these findings demonstrate that SAS triggers ferroptosis through the NRF2/SLC7A11/GPX4 signaling axis, thereby inhibiting the biological activity of OS cells. This research provides a strong experimental basis for the potential of SAS as a candidate drug for OS treatment and offers a novel targeted therapeutic strategy for this disease.",
+    "keywords": [
+      "Ferroptosis",
+      "GPX4",
+      "NRF2",
+      "Osteosarcoma",
+      "SLC7A11",
+      "Sulfasalazine"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "*Sulfasalazine/pharmacology",
+      "Humans",
+      "*Osteosarcoma/metabolism/drug therapy/pathology",
+      "*Signal Transduction/drug effects",
+      "*Amino Acid Transport System y+/metabolism/genetics",
+      "*NF-E2-Related Factor 2/metabolism",
+      "Cell Line, Tumor",
+      "*Phospholipid Hydroperoxide Glutathione Peroxidase/metabolism/genetics",
+      "*Bone Neoplasms/metabolism/drug therapy/pathology",
+      "Molecular Docking Simulation",
+      "Oxidative Stress/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Qingqing",
+        "Zhang, Huaibin",
+        "Lai, Min",
+        "Wei, Jiantong",
+        "Qian, Jun",
+        "Chen, Xingchao",
+        "Wang, Xin",
+        "Wang, Yongping"
+      ],
+      "short_names": [
+        "Qin Q",
+        "Zhang H",
+        "Lai M",
+        "Wei J",
+        "Qian J",
+        "Chen X",
+        "Wang X",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China.",
+        "Department of Orthopedics, Zhangye People's Hospital affiliated to Hexi College, Zhangye, 734000, China.",
+        "Department of Orthopedics, Zhangye People's Hospital affiliated to Hexi College, Zhangye, 734000, China.",
+        "Department of Orthopedics, Zhangye People's Hospital affiliated to Hexi College, Zhangye, 734000, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China. wangxinldyy@126.com.",
+        "Department of Orthopedics, The First Hospital of Lanzhou University, Lanzhou, 730000, China. wangxinldyy@126.com.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China. wangyp312@163.com.",
+        "Department of Orthopedics, the Second Affiliated Hospital of Hainan Medical University, Haikou, 570311, China. wangyp312@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Qingqing",
+        "short_name": "Qin Q",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huaibin",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Min",
+        "short_name": "Lai M",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Jiantong",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Zhangye People's Hospital affiliated to Hexi College, Zhangye, 734000, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Jun",
+        "short_name": "Qian J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Zhangye People's Hospital affiliated to Hexi College, Zhangye, 734000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xingchao",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Zhangye People's Hospital affiliated to Hexi College, Zhangye, 734000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China. wangxinldyy@126.com.",
+          "Department of Orthopedics, The First Hospital of Lanzhou University, Lanzhou, 730000, China. wangxinldyy@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Yongping",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China. wangyp312@163.com.",
+          "Department of Orthopedics, the Second Affiliated Hospital of Hainan Medical University, Haikou, 570311, China. wangyp312@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Aug 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/19 00:28",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [
+      "42665766",
+      "42639397",
+      "42510591",
+      "42394985",
+      "42243330",
+      "42211757",
+      "42033002",
+      "41972182",
+      "41952187",
+      "41928432",
+      "41887693",
+      "41872463",
+      "41462611",
+      "41375047"
+    ],
+    "refs": [
+      "39417505",
+      "38453898",
+      "38296488",
+      "38184272",
+      "38176266",
+      "37714424",
+      "37711054",
+      "37596165",
+      "37562508",
+      "37461104",
+      "37330650",
+      "37291716",
+      "37077308",
+      "37001616",
+      "36841748",
+      "36807762",
+      "36759884",
+      "36369321",
+      "36257316",
+      "35725836",
+      "35432318",
+      "35226758",
+      "35106124",
+      "34679192",
+      "34345580",
+      "34206421",
+      "34131316",
+      "34098867",
+      "34092035",
+      "33988296",
+      "33931145",
+      "33514910",
+      "33453607",
+      "33359211",
+      "33268902",
+      "33000412",
+      "32804006",
+      "32637543",
+      "31441146",
+      "26304877",
+      "25427435",
+      "22667998",
+      "20943636",
+      "10592173"
+    ],
+    "similar": [
+      "40825957",
+      "39805792",
+      "40806353",
+      "34707773",
+      "40494017",
+      "40274347",
+      "41187650",
+      "40930912",
+      "40066086",
+      "40020881",
+      "40456202",
+      "38734270",
+      "39631720",
+      "40724917",
+      "39751740",
+      "38930897",
+      "41121022",
+      "40219018",
+      "40359890",
+      "39354361",
+      "38940027",
+      "40412057",
+      "41451920",
+      "41294929",
+      "34206421",
+      "40844619",
+      "41101229",
+      "40222690",
+      "39012393",
+      "37209607",
+      "38837315",
+      "38877424",
+      "41482780",
+      "41312749",
+      "40460255",
+      "31490283",
+      "39521147",
+      "40010556",
+      "39427521",
+      "41235254",
+      "41354015",
+      "40876907",
+      "38636375",
+      "39657365",
+      "39652902",
+      "39528192",
+      "40402956",
+      "40540898",
+      "38401661",
+      "39181440",
+      "41369886",
+      "40403934",
+      "39167283",
+      "38850659",
+      "40594119",
+      "39515713",
+      "40490825",
+      "40691196",
+      "41249398",
+      "41062622",
+      "41341590",
+      "39307771",
+      "39334526",
+      "39276458",
+      "40054827",
+      "37714424",
+      "40437575",
+      "40701506",
+      "41443917",
+      "40810078",
+      "39947493",
+      "39722125",
+      "38852649",
+      "40592077",
+      "38685023",
+      "38583347",
+      "39965709",
+      "39934342",
+      "34699317",
+      "41386181",
+      "39721999",
+      "40085199",
+      "38780199",
+      "39423479",
+      "39251858",
+      "40551519",
+      "40527021",
+      "40425823",
+      "40696470",
+      "40673298",
+      "39163615",
+      "40972223",
+      "39072683",
+      "30811078",
+      "41173313",
+      "41265216",
+      "40664345",
+      "35441682",
+      "40214929",
+      "39260309"
+    ],
+    "review": [
+      "40825957",
+      "41265216"
+    ],
+    "pmc": [
+      "12361513"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-13324-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40825957/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

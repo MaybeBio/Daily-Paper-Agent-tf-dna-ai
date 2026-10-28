@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "39270885",
+    "doi": "10.1016/j.ymeth.2024.09.004",
+    "title": "DeepDBS: Identification of DNA-binding sites in protein sequences by using deep representations and random forest."
+  },
+  "content": {
+    "abstract": "Interactions of biological molecules in organisms are considered to be primary factors for the lifecycle of that organism. Various important biological functions are dependent on such interactions and among different kinds of interactions, the protein DNA interactions are very important for the processes of transcription, regulation of gene expression, DNA repairing and packaging. Thus, keeping the knowledge of such interactions and the sites of those interactions is necessary to study the mechanism of various biological processes. As experimental identification through biological assays is quite resource-demanding, costly and error-prone, scientists opt for the computational methods for efficient and accurate identification of such DNA-protein interaction sites. Thus, herein, we propose a novel and accurate method namely DeepDBS for the identification of DNA-binding sites in proteins, using primary amino acid sequences of proteins under study. From protein sequences, deep representations were computed through a one-dimensional convolution neural network (1D-CNN), recurrent neural network (RNN) and long short-term memory (LSTM) network and were further used to train a Random Forest classifier. Random Forest with LSTM-based features outperformed the other models, as well as the existing state-of-the-art methods with an accuracy score of 0.99 for self-consistency test, 10-fold cross-validation, 5-fold cross-validation, and jackknife validation while 0.92 for independent dataset testing. It is concluded based on results that the DeepDBS can help accurate and efficient identification of DNA binding sites (DBS) in proteins.",
+    "keywords": [
+      "1D-CNN",
+      "Artificial Intelligence",
+      "Computational Biology",
+      "DNA binding proteins",
+      "DNA binding sites",
+      "LSTM",
+      "Machine Learning",
+      "RNN",
+      "Random Forest"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*DNA/genetics/metabolism/chemistry",
+      "*DNA-Binding Proteins/genetics/metabolism/chemistry",
+      "*Neural Networks, Computer",
+      "Computational Biology/methods",
+      "Amino Acid Sequence/genetics",
+      "Algorithms",
+      "Protein Binding",
+      "Databases, Protein",
+      "Sequence Analysis, Protein/methods",
+      "Deep Learning",
+      "Random Forest"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Daanial Khan, Yaser",
+        "Alkhalifah, Tamim",
+        "Alturise, Fahad",
+        "Hassan Butt, Ahmad"
+      ],
+      "short_names": [
+        "Daanial Khan Y",
+        "Alkhalifah T",
+        "Alturise F",
+        "Hassan Butt A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, School of Systems and Technology, University of Management and Technology, Lahore, Punjab 54770, Pakistan.",
+        "Department of Computer Engineering, College of Computer, Qassim University, Buraydah, Saudi Arabia.",
+        "Department of Cybersecurity, College of Computer, Qassim University, Buraydah 52571, Saudi Arabia.",
+        "Department of Computer Science, Faculty of Computing and Information Technology, University of the Punjab, Lahore 54000, Punjab, Pakistan. Electronic address: ahmad.hassan@pucit.edu.pk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Daanial Khan, Yaser",
+        "short_name": "Daanial Khan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, School of Systems and Technology, University of Management and Technology, Lahore, Punjab 54770, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Alkhalifah, Tamim",
+        "short_name": "Alkhalifah T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, College of Computer, Qassim University, Buraydah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alturise, Fahad",
+        "short_name": "Alturise F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cybersecurity, College of Computer, Qassim University, Buraydah 52571, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hassan Butt, Ahmad",
+        "short_name": "Hassan Butt A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Faculty of Computing and Information Technology, University of the Punjab, Lahore 54000, Punjab, Pakistan. Electronic address: ahmad.hassan@pucit.edu.pk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/14 10:43",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "40755961",
+      "39833102"
+    ],
+    "refs": [],
+    "similar": [
+      "39270885",
+      "31725778",
+      "38871095",
+      "29753757",
+      "35652477",
+      "39433833",
+      "32960766",
+      "32949607",
+      "31123959",
+      "35378437",
+      "34073774",
+      "28606086",
+      "38975896",
+      "33837387",
+      "25708928",
+      "26405960",
+      "38491248",
+      "30323214",
+      "39051530",
+      "19594868",
+      "22868682",
+      "35303216",
+      "16712732",
+      "29536446",
+      "39457474",
+      "19439068",
+      "33340540",
+      "26527718",
+      "31285519",
+      "27907159",
+      "30843849",
+      "30598073",
+      "30106688",
+      "36328750",
+      "29993783",
+      "29970003",
+      "19008251",
+      "34812044",
+      "32946833",
+      "18288459",
+      "30040656",
+      "28155662",
+      "38475723",
+      "38678895",
+      "33780341",
+      "25756377",
+      "37254800",
+      "20483814",
+      "24475169",
+      "34571539",
+      "34601431",
+      "25113160",
+      "31537716",
+      "33334313",
+      "35189635",
+      "38856168",
+      "34455627",
+      "38986796",
+      "31775612",
+      "22591482",
+      "29297322",
+      "32142788",
+      "33238837",
+      "35089914",
+      "39168294",
+      "20706794",
+      "30866736",
+      "33267753",
+      "31199797",
+      "35163174",
+      "34905768",
+      "15725347",
+      "38701417",
+      "35693256",
+      "29993950",
+      "31634140",
+      "23335013",
+      "12385991",
+      "32936825",
+      "19490865",
+      "39350338",
+      "37254080",
+      "38830995",
+      "39223474",
+      "32750896",
+      "30808287",
+      "33988840",
+      "34159204",
+      "38316843",
+      "32019410",
+      "31985440",
+      "34929739",
+      "38943434",
+      "33571101",
+      "35906437",
+      "32920048",
+      "28841194",
+      "29097781",
+      "21342579",
+      "34533455"
+    ],
+    "review": [
+      "39270885",
+      "35652477",
+      "25756377"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(24)00194-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

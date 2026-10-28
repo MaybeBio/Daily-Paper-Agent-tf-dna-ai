@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.08.27.457995",
+  "title": "A base-resolution panorama of the <i>in vivo</i> impact of cytosine methylation on transcription factor binding",
+  "authors": "Aldo Hernandez-Corchado; Hamed S. Najafabadi",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-28",
+  "window": {
+    "start": "2021-08-23",
+    "end": "2021-08-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过JAMS模型整合ChIP-seq、DNA可及性与碱基分辨率甲基化数据，推断体内TF结合强度与甲基化偏好，虽聚焦TF-DNA互作但方法为统计建模而非AI/物理模拟，深度有限。",
+  "abstract": "While methylation of CpG dinucleotides is traditionally considered antagonistic to the DNA-binding activity of most transcription factors (TFs), recent in vitro studies have revealed a more complex picture, suggesting that over a third of TFs may preferentially bind to methylated sequences. Expanding these in vitro observations to in vivo TF binding preferences, however, is challenging, as the effect of methylation of individual CpG sites cannot be easily isolated from the confounding effects of DNA accessibility and regional DNA methylation. As a result, the in vivo methylation preferences of most TFs remain uncharacterized. Here, we introduce joint accessibility-methylation-sequence (JAMS) models, which connect the strength of the binding signal observed in ChIP-seq to the DNA accessibility of the binding site, regional methylation level, DNA sequence, and base-resolution cytosine methylation. We show that JAMS models quantitatively explain the TF binding strength, recapitulate cell type-specific TF binding, and have high precision for inferring intra-motif methylation effects. Analysis of 2209 ChIP-seq experiments resulted in high-confidence JAMS models for 260 TFs, revealing that 45% of TFs are inhibited by intra-motif methylation in vivo . In contrast, only 16 TFs (6%) preferentially bind to methylated sites, including 11 novel methyl-binding TFs that are mostly from the multi-zinc finger family of TFs. Our study substantially expands the repertoire of in vivo methyl-binding TFs, but also suggests that most TFs that prefer methylated CpGs in vitro present themselves as methylation agnostic in vivo , potentially due to the balancing effect of competition with other methyl-binding proteins.",
+  "abstract_zh": "虽然CpG二核苷酸的甲基化传统上被认为与大多数转录因子（TFs）的DNA结合活性相拮抗，但近期的体外研究揭示了更复杂的图景，表明超过三分之一的TFs可能优先结合甲基化序列。然而，将这些体外观察扩展到体内TF结合偏好颇具挑战性，因为单个CpG位点甲基化的效应难以从DNA可及性和区域DNA甲基化的混杂效应中轻易分离。因此，大多数TFs的体内甲基化偏好仍未得到表征。在此，我们引入了联合可及性-甲基化-序列（JAMS）模型，该模型将ChIP-seq中观察到的结合信号强度与结合位点的DNA可及性、区域甲基化水平、DNA序列及碱基分辨率胞嘧啶甲基化联系起来。我们证明JAMS模型能定量解释TF结合强度，重现细胞类型特异性TF结合，并在推断基序内甲基化效应方面具有高精度。对2209个ChIP-seq实验的分析生成了260个TFs的高置信度JAMS模型，揭示45%的TFs在体内受到基序内甲基化的抑制。相反，仅16个TFs（6%）优先结合甲基化位点，其中包括11个新型甲基结合TFs，这些TFs大多属于多锌指蛋白家族。我们的研究大幅扩展了体内甲基结合TFs的谱系，但也表明大多数在体外偏好甲基化CpG的TFs在体内表现为对甲基化不敏感，这可能是由于与其他甲基结合蛋白竞争效应的平衡所致。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.08.27.457995",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.08.27.457995",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.08.27.457995/index.html"
+}

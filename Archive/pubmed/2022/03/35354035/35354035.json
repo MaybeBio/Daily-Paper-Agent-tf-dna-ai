@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "35354035",
+    "doi": "10.1016/j.celrep.2022.110601",
+    "title": "Polymer physics reveals a combinatorial code linking 3D chromatin architecture to 1D chromatin states."
+  },
+  "content": {
+    "abstract": "The mammalian genome has a complex, functional 3D organization. However, it remains largely unknown how DNA contacts are orchestrated by chromatin organizers. Here, we infer from only Hi-C the cell-type-specific arrangement of DNA binding sites sufficient to recapitulate, through polymer physics, contact patterns genome wide. Our model is validated by its predictions in a set of duplications at Sox9 against available independent data. The binding site types fall in classes that well match chromatin states from segmentation studies, yet they have an overlapping, combinatorial organization along chromosomes necessary to accurately explain contact specificity. The chromatin signatures of the binding site types return a code linking chromatin states to 3D architecture. The code is validated by extensive de novo predictions of Hi-C maps in an independent set of chromosomes. Overall, our results shed light on how 3D information is encrypted in 1D chromatin via the specific combinatorial arrangement of binding sites.",
+    "keywords": [
+      "3D genome organization",
+      "CP: Molecular biology",
+      "biophysics",
+      "chromatin architecture",
+      "computer simulations",
+      "epigenomics",
+      "machine learning",
+      "polymer-physics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Chromatin",
+      "Chromosomes",
+      "Genome",
+      "Mammals/genetics",
+      "Physics",
+      "*Polymers"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Esposito, Andrea",
+        "Bianco, Simona",
+        "Chiariello, Andrea M",
+        "Abraham, Alex",
+        "Fiorillo, Luca",
+        "Conte, Mattia",
+        "Campanile, Raffaele",
+        "Nicodemi, Mario"
+      ],
+      "short_names": [
+        "Esposito A",
+        "Bianco S",
+        "Chiariello AM",
+        "Abraham A",
+        "Fiorillo L",
+        "Conte M",
+        "Campanile R",
+        "Nicodemi M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dipartimento di Fisica, Universita di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy. Electronic address: andresposito@na.infn.it.",
+        "Dipartimento di Fisica, Universita di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy; Berlin Institute for Medical Systems Biology, Max-Delbruck Centre (MDC) for Molecular Medicine, Berlin, Germany.",
+        "Dipartimento di Fisica, Universita di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy.",
+        "Dipartimento di Fisica, Universita di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy.",
+        "Dipartimento di Fisica, Universita di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy.",
+        "Dipartimento di Fisica, Universita di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy.",
+        "Dipartimento di Fisica, Universita di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy.",
+        "Dipartimento di Fisica, Universita di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy; Berlin Institute for Medical Systems Biology, Max-Delbruck Centre (MDC) for Molecular Medicine, Berlin, Germany; Berlin Institute of Health (BIH), MDC, Berlin, Germany. Electronic address: mario.nicodemi@na.infn.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Esposito, Andrea",
+        "short_name": "Esposito A",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Università di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy. Electronic address: andresposito@na.infn.it."
+        ]
+      },
+      {
+        "full_name": "Bianco, Simona",
+        "short_name": "Bianco S",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Università di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy; Berlin Institute for Medical Systems Biology, Max-Delbrück Centre (MDC) for Molecular Medicine, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Chiariello, Andrea M",
+        "short_name": "Chiariello AM",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Università di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Abraham, Alex",
+        "short_name": "Abraham A",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Università di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Fiorillo, Luca",
+        "short_name": "Fiorillo L",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Università di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Conte, Mattia",
+        "short_name": "Conte M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Università di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Campanile, Raffaele",
+        "short_name": "Campanile R",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Università di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Nicodemi, Mario",
+        "short_name": "Nicodemi M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Università di Napoli Federico II, and INFN Napoli, Complesso Universitario di Monte Sant'Angelo, 80126 Naples, Italy; Berlin Institute for Medical Systems Biology, Max-Delbrück Centre (MDC) for Molecular Medicine, Berlin, Germany; Berlin Institute of Health (BIH), MDC, Berlin, Germany. Electronic address: mario.nicodemi@na.infn.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2022 Mar 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/31 06:00",
+    "fetched_at": "2026-09-28 06:47:29"
+  },
+  "links": {
+    "cites": [
+      "42686757",
+      "42630757",
+      "42278333",
+      "42215647",
+      "41509364",
+      "41407856",
+      "41316293",
+      "40966347",
+      "40894789",
+      "40629848",
+      "40080917",
+      "39999165",
+      "39975433",
+      "39601793",
+      "39547207",
+      "39484446",
+      "39394698",
+      "39337699",
+      "39071404",
+      "38740770",
+      "38346246",
+      "37549295",
+      "37546924",
+      "37365687",
+      "37254161",
+      "36835064",
+      "36658127",
+      "36629266",
+      "36582436",
+      "36539553",
+      "35567087",
+      "34241389"
+    ],
+    "refs": [],
+    "similar": [
+      "35354035",
+      "36835064",
+      "37212988",
+      "28070687",
+      "35839701",
+      "34282837",
+      "27405443",
+      "29087948",
+      "31604121",
+      "29105235",
+      "30835504",
+      "32620890",
+      "29662163",
+      "34415543",
+      "30344096",
+      "37245241",
+      "32045823",
+      "37280678",
+      "30566285",
+      "23823730",
+      "31711163",
+      "35440119",
+      "26960733",
+      "36458445",
+      "25887659",
+      "33109075",
+      "34415542",
+      "35831310",
+      "30872258",
+      "36534827",
+      "38479837",
+      "34942797",
+      "27008015",
+      "33583147",
+      "29972771",
+      "26499245",
+      "29137603",
+      "30853548",
+      "30109620",
+      "23514144",
+      "35217621",
+      "39337699",
+      "28035242",
+      "33975635",
+      "34896808",
+      "25690896",
+      "29066944",
+      "34857425",
+      "26553003",
+      "32093610",
+      "32611376",
+      "33160979",
+      "23912807",
+      "29522804",
+      "39363891",
+      "36610373",
+      "34415539",
+      "32820399",
+      "36355469",
+      "35551182",
+      "33963348",
+      "30125668",
+      "30418618",
+      "31863751",
+      "32087673",
+      "28588240",
+      "27841585",
+      "32451505",
+      "34257838",
+      "28468672",
+      "31980751",
+      "29053968",
+      "26001583",
+      "32386540",
+      "38645064",
+      "34057011",
+      "33160308",
+      "36360237",
+      "27659986",
+      "38087781",
+      "33724986",
+      "11186332",
+      "33047670",
+      "27789526",
+      "27283305",
+      "29471801",
+      "29622804",
+      "22495300",
+      "23382666",
+      "29273625",
+      "30009946",
+      "30359306",
+      "33452686",
+      "28369339",
+      "33074315",
+      "30357462",
+      "32389215",
+      "25764220",
+      "21378305",
+      "23974728",
+      "38187606",
+      "36472500",
+      "36348110",
+      "35672951",
+      "39404010",
+      "39071404",
+      "36369226",
+      "37365687",
+      "31866291",
+      "33552135",
+      "36789261",
+      "35205396",
+      "37542372",
+      "36732640",
+      "37066196",
+      "37292728",
+      "35567087",
+      "36776526",
+      "36550272",
+      "23802011",
+      "34433971"
+    ],
+    "review": [
+      "35354035",
+      "36835064",
+      "28070687",
+      "35839701",
+      "34282837",
+      "29105235",
+      "30835504",
+      "37245241",
+      "32045823",
+      "30566285",
+      "30872258",
+      "33583147",
+      "23514144",
+      "34896808",
+      "29066944",
+      "34857425",
+      "29522804",
+      "36610373",
+      "30125668",
+      "31863751",
+      "34257838",
+      "36360237",
+      "11186332",
+      "30009946",
+      "33452686",
+      "25764220",
+      "37365687",
+      "33552135",
+      "36789261",
+      "35205396"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(22)00349-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

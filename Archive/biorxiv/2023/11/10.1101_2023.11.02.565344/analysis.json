@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.02.565344",
+  "title": "Genome-scale annotation of protein binding sites via language model and geometric deep learning",
+  "authors": "Qianmu Yuan; Chong Tian; Yuedong Yang",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-05",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出GPSite多任务网络，利用蛋白语言模型和几何深度学习从序列预测DNA等配体结合残基，虽非聚焦TF-DNA特异性结合，但方法可迁移至TF-DNA互作位点预测。",
+  "abstract": "Revealing protein binding sites with other molecules, such as nucleic acids, peptides, or small ligands, sheds light on disease mechanism elucidation and novel drug design. With the explosive growth of proteins in sequence databases, how to accurately and efficiently identify these binding sites from sequences becomes essential. However, current methods mostly rely on expensive multiple sequence alignments or experimental protein structures, limiting their genome-scale applications. Besides, these methods haven’t fully explored the geometry of the protein structures. Here, we propose GPSite, a multi-task network for simultaneously predicting binding residues of DNA, RNA, peptide, protein, ATP, HEM, and metal ions on proteins. GPSite was trained on informative sequence embeddings and predicted structures from protein language models, while comprehensively extracting residual and relational geometric contexts in an end-to-end manner. Experiments demonstrate that GPSite substantially surpasses state-of-the-art sequence-based and structure-based approaches on various benchmark datasets, even when the structures are not well-predicted. The low computational cost of GPSite enables rapid genome-scale binding residue annotations for over 568,000 sequences, providing opportunities to unveil unexplored associations of binding sites with molecular functions, biological processes, and genetic variants. The GPSite webserver and annotation database can be freely accessed at https://bio-web1.nscc-gz.cn/app/GPSite .",
+  "abstract_zh": "揭示蛋白质与其他分子（如核酸、肽段或小分子配体）的结合位点，有助于阐明疾病机制和设计新型药物。随着序列数据库中蛋白质数量的爆炸性增长，如何从序列中准确高效地识别这些结合位点变得至关重要。然而，当前方法大多依赖昂贵的多序列比对或实验蛋白质结构，限制了其在基因组规模上的应用。此外，这些方法尚未充分探索蛋白质结构的几何特性。在此，我们提出GPSite，一个多任务网络，用于同时预测蛋白质上DNA、RNA、肽段、蛋白质、ATP、HEM和金属离子的结合残基。GPSite基于蛋白质语言模型的信息性序列嵌入和预测结构进行训练，同时以端到端方式全面提取残基和关系几何上下文。实验表明，在各种基准数据集上，GPSite显著优于最先进的基于序列和基于结构的方法，即使在结构预测不佳的情况下也是如此。GPSite的低计算成本使其能够快速对超过568,000条序列进行基因组规模的结合残基注释，为揭示结合位点与分子功能、生物过程和遗传变异之间未被探索的关联提供了机会。GPSite网络服务器和注释数据库可免费访问：https://bio-web1.nscc-gz.cn/app/GPSite。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.02.565344",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.02.565344",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.02.565344/index.html"
+}

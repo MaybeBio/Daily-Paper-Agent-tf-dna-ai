@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "40766521",
+    "doi": "10.1101/2025.07.25.666882",
+    "title": "Lower-order methylation states underlie the maintenance and re-establishment of Polycomb modifications in Drosophila embryogenesis."
+  },
+  "content": {
+    "abstract": "Polycomb Group (PcG) proteins regulate the chromatin composition of an embryo by facilitating the mono, di, and tri-methylation of Histone H3 Lysine 27 (H3K27me1/2/3). For the zygote to inherit an H3K27 methylation blueprint from its mother, PcG-modified states established during oogenesis must persist through early embryogenesis until the onset of large-scale zygotic transcription (Zygotic Genome Activation, ZGA). However, questions have persisted regarding the relative contributions of two molecular mechanisms to the propagation of H3K27 methylation through early development: 1) allosteric regulation of the H3K27 methyltransferase Enhancer of Zeste ( E(z) ) by existing H3K27me2/3, and 2) nucleation of E(z) activity at chromatin by DNA binding factors. Here, we investigate how allostery and nucleation contribute to H3K27 methylation dynamics in early Drosophila embryogenesis by developing and experimentally validating a mathematical model. This model incorporates measurements of the nuclear concentration dynamics of E(z) and the Polycomb Response Element binding factor Pleiohomeotic (Pho), as well as the dilution of epigenetic modifications at DNA replication with the incorporation of histones to nascent chromatin. With stochastic simulations and in vivo experiments, we assert that allosteric regulation of E(z) maintains a PcG-imprint on maternal chromosomes in the form of lower-order H3K27 methylation states (H3K27me1/2), that de novo establishment of H3K27 methylation at paternal chromosomes relies on nucleation of E(z) activity by Pho, and that broad H3K27me3 domains at both maternal and paternal chromosomes are re-established at ZGA. This work provides a mechanistic explanation for the inheritance of Polycomb states in contexts of intense cellular proliferation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Degen, Eleanor A",
+        "Gonzaga-Saavedra, Natalie",
+        "Blythe, Shelby A"
+      ],
+      "short_names": [
+        "Degen EA",
+        "Gonzaga-Saavedra N",
+        "Blythe SA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0832-4507",
+        "ORCID: 0009-0003-1962-8308",
+        "ORCID: 0000-0003-4986-2579"
+      ],
+      "affiliations": [
+        "Interdisciplinary Biological Sciences Graduate Program, Northwestern University, Evanston, IL, United States.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL, United States.",
+        "Interdisciplinary Biological Sciences Graduate Program, Northwestern University, Evanston, IL, United States.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL, United States.",
+        "Interdisciplinary Biological Sciences Graduate Program, Northwestern University, Evanston, IL, United States.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL, United States.",
+        "National Institute for Theory and Mathematics in Biology, Northwestern University and the University of Chicago, Chicago, IL, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Degen, Eleanor A",
+        "short_name": "Degen EA",
+        "identifiers": [
+          "0000-0002-0832-4507"
+        ],
+        "affiliations": [
+          "Interdisciplinary Biological Sciences Graduate Program, Northwestern University, Evanston, IL, United States.",
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL, United States."
+        ]
+      },
+      {
+        "full_name": "Gonzaga-Saavedra, Natalie",
+        "short_name": "Gonzaga-Saavedra N",
+        "identifiers": [
+          "0009-0003-1962-8308"
+        ],
+        "affiliations": [
+          "Interdisciplinary Biological Sciences Graduate Program, Northwestern University, Evanston, IL, United States.",
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL, United States."
+        ]
+      },
+      {
+        "full_name": "Blythe, Shelby A",
+        "short_name": "Blythe SA",
+        "identifiers": [
+          "0000-0003-4986-2579"
+        ],
+        "affiliations": [
+          "Interdisciplinary Biological Sciences Graduate Program, Northwestern University, Evanston, IL, United States.",
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL, United States.",
+          "National Institute for Theory and Mathematics in Biology, Northwestern University and the University of Chicago, Chicago, IL, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/06 11:11",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42592798",
+      "40779393",
+      "40148291",
+      "39482357",
+      "38607915",
+      "38448585",
+      "38134278",
+      "37616526",
+      "37547174",
+      "36161922",
+      "32963223",
+      "31630981",
+      "31521505",
+      "31273069",
+      "30444999",
+      "30244833",
+      "29932905",
+      "29686419",
+      "29681499",
+      "29681498",
+      "29058709",
+      "28938122",
+      "28706074",
+      "28436983",
+      "28305340",
+      "28302795",
+      "28302792",
+      "25986499",
+      "25748651",
+      "25367972",
+      "25313869",
+      "25237104",
+      "24304166",
+      "24289921",
+      "23951546",
+      "23580551",
+      "23290553",
+      "22869745",
+      "22323599",
+      "22275876",
+      "21549310",
+      "21183072",
+      "21078963",
+      "19767730",
+      "18931660",
+      "17173055",
+      "16618800",
+      "16251970",
+      "12408864",
+      "12408863",
+      "10837127",
+      "9651589",
+      "9548724",
+      "6411748",
+      "3080248",
+      "1977656",
+      "1628830",
+      "103000"
+    ],
+    "similar": [
+      "40766521",
+      "42424139",
+      "42592798",
+      "40631074",
+      "22182520",
+      "27179444",
+      "33311485",
+      "24004944",
+      "31746724",
+      "12351676",
+      "16618800",
+      "15546623",
+      "29432187",
+      "30699116",
+      "22275876",
+      "12408864",
+      "17997413",
+      "24316986",
+      "31479253",
+      "37499944",
+      "19767730",
+      "22211105",
+      "19700617",
+      "31995760",
+      "18034266",
+      "35617427",
+      "18453536",
+      "30389849",
+      "12101246",
+      "19377285",
+      "22923582",
+      "16055700",
+      "30951652",
+      "16882982",
+      "21549310",
+      "36610636",
+      "36054209",
+      "29606589",
+      "24289921",
+      "38134278",
+      "22323599",
+      "28693635",
+      "22279536",
+      "23437158",
+      "29681498",
+      "24019522",
+      "20385584",
+      "18048023",
+      "29242288",
+      "28302792",
+      "37393621",
+      "17210640",
+      "23150054",
+      "11124122",
+      "20974918",
+      "27626377",
+      "30833342",
+      "12408863",
+      "14570930",
+      "29483650",
+      "24550119",
+      "18846226",
+      "28706074",
+      "22009739",
+      "18931660",
+      "21465172",
+      "30522506",
+      "17713478",
+      "11729158",
+      "39482357",
+      "40186324",
+      "32651262",
+      "22349693",
+      "15922569",
+      "21810159",
+      "36476271",
+      "12466196",
+      "26780607",
+      "30976011",
+      "24186981",
+      "16537908",
+      "28927461",
+      "16732288",
+      "15457214",
+      "29932905",
+      "38997437",
+      "12697833",
+      "30249243",
+      "31919108",
+      "19736521",
+      "23580551",
+      "38288743",
+      "34982026",
+      "24244179",
+      "38607915",
+      "19029043",
+      "24382802",
+      "33468665",
+      "27783950",
+      "15383155"
+    ],
+    "review": [
+      "40766521",
+      "22211105",
+      "30951652",
+      "22349693",
+      "36476271",
+      "38997437",
+      "19736521"
+    ],
+    "pmc": [
+      "12324246"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40766521/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.25.666882",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

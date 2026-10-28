@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36057196",
+  "title": "Towards a better understanding of TF-DNA binding prediction from genomic features.",
+  "authors": "Wang, Zixuan; Gong, Meiqin; Liu, Yuhang; Xiong, Shuwen; Wang, Maocheng; Zhou, Jiliu; Zhang, Yongqing",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2022-09-04",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统综述了基于基因组特征的深度学习TF-DNA结合位点预测方法，涵盖数据、模型分类与挑战，虽为综述但高度聚焦TF-DNA互作建模，对本课题有直接参考价值。",
+  "abstract": "Transcription factors (TFs) can regulate gene expression by recognizing specific cis-regulatory elements in DNA sequences. TF-DNA binding prediction has become a fundamental step in comprehending the underlying cis-regulation mechanism. Since a particular genome region is bound depending on multiple features, such as the arrangement of nucleotides, DNA shape, and an epigenetic mechanism, many researchers attempt to develop computational methods to predict TF binding sites (TFBSs) based on various genomic features. This paper provides a comprehensive compendium to better understand TF-DNA binding from genomic features. We first summarize the commonly used datasets and data processing manners. Subsequently, we classify current deep learning methods in TFBS prediction according to their utilized genomic features and analyze each technique's merit and weakness. Furthermore, we illustrate the functional consequences characterization of TF-DNA binding by prioritizing noncoding variants in identified motif instances. Finally, the challenges and opportunities of deep learning in TF-DNA binding prediction are discussed. This survey can bring valuable insights for researchers to study the modeling of TF-DNA binding.",
+  "abstract_zh": "转录因子（TFs）通过识别DNA序列中的特定顺式调控元件来调控基因表达。TF-DNA结合预测已成为理解潜在顺式调控机制的基础步骤。由于特定基因组区域的结合取决于多种特征，如核苷酸排列、DNA形状及表观遗传机制，许多研究者致力于开发基于各种基因组特征的计算方法来预测转录因子结合位点（TFBSs）。本文提供了一个全面的汇编，旨在更好地从基因组特征角度理解TF-DNA结合。我们首先总结了常用的数据集及数据处理方式。随后，根据所利用的基因组特征，对当前TFBS预测中的深度学习方法进行分类，并分析每种技术的优缺点。此外，我们通过优先考虑已识别基序实例中的非编码变异，阐述了TF-DNA结合的功能后果表征。最后，讨论了深度学习在TF-DNA结合预测中的挑战与机遇。本综述可为研究者研究TF-DNA结合建模提供有价值的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36057196/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36057196/",
+  "paper_page_path": "papers/pubmed/36057196/index.html"
+}

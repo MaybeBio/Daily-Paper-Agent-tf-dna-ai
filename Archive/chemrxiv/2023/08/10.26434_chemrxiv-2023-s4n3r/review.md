@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no figures, tables, methods, or results sections were provided
+- **Shared manuscript claim summary** The authors introduce QMrebind, an ORCA-based software tool that reparameterizes ligand partial charges in the bound state using quantum mechanical calculations, and integrate it with their SEEKR2 milestoning simulation framework. They claim this approach improves the accuracy of predicted binding (kon) and unbinding (koff) kinetic rates for receptor-ligand complexes, with application to host-guest systems and HSP90-inhibitor complexes.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational methods, force field parameterization details, simulation protocols, benchmark datasets, and comparison statistics
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially valuable extension of the SEEKR2 milestoning framework by incorporating QM-based charge reparameterization at the binding site. The motivation is clear and the target problem, improving kinetic rate predictions through better force field accuracy, is of genuine importance. However, the abstract provides no quantitative evidence, no methodological specifics, and no validation results. The central claim that QMrebind improves kon and koff predictions is entirely unsupported in the supplied material. The work may be of interest to computational chemists and drug discovery researchers, but the current evidence base is insufficient to assess technical soundness or establish the stated benefits.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on ligand binding kinetics, force field development, and enhanced sampling methods would be interested. Drug discovery scientists seeking more accurate kinetic predictions for lead optimization would also find the approach relevant, particularly for systems where charge polarization at the binding site is significant.
+- **Major strengths** The abstract identifies a clear limitation in current MM-based milestoning approaches, namely the neglect of polarization effects in the bound state, and proposes a targeted solution. The integration of QM reparameterization with an established multiscale framework (SEEKR2) is a logical and potentially impactful extension. The choice of model systems, host-guest complexes and HSP90-inhibitors, provides a reasonable test bed for the method.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that QMrebind "provides an opportunity to achieve higher accuracy in predicting kon and koff" and implies that the reparameterized force fields improve unbinding kinetics predictions.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative results are presented. The abstract mentions "existing data from our SEEKR2 estimates and experimentally determined kinetic rates" and states that the authors "compare and interpret" the results, but no numerical values, error metrics, or statistical comparisons are given. Without these, the claimed improvement cannot be evaluated.
+  - **Why it matters** The central contribution of the work is the claimed accuracy improvement in kinetic rate predictions. Without quantitative evidence, the reader cannot assess whether the method works, how large the improvement is, or whether it is consistent across systems.
+  - **Resolution test** Provide a table or figure comparing predicted kon and koff values from standard SEEKR2 versus QMrebind-reparameterized SEEKR2 against experimental values, including error metrics (e.g., mean absolute error, correlation coefficients) and uncertainty estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract describes QMrebind as "an ORCA-based software that facilitates reparameterizing the potential energy function within the phase space representing the bound state."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe how the reparameterization is performed. Key details are missing, including which QM level of theory is used, how the charge fitting is done (e.g., RESP, CHELPG), how the bound state phase space is sampled for the fitting, how the reparameterized charges are integrated into the SEEKR2 MD simulations, and whether other force field terms (e.g., van der Waals, torsions) are also modified.
+  - **Why it matters** The reproducibility and generalizability of the method depend entirely on these details. Without them, the reader cannot judge whether the approach is sound, transferable, or computationally feasible for larger systems.
+  - **Resolution test** Include a detailed methods section describing the QM calculations, charge fitting procedure, integration with SEEKR2, and any approximations or limitations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation scope
+  - **Claim pointer** The abstract states that the method is applied to "model host-guest systems and HSP90-inhibitor complexes" and that the results are compared with experimental kinetic rates.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify how many systems were tested, whether the results are consistent across systems, or whether any system showed degraded performance. The choice of host-guest systems, which are typically smaller and less complex than protein-ligand systems, may not be representative of the challenges in drug-target kinetics.
+  - **Why it matters** The generalizability of the claimed improvement is a key question. If the method only works for small, rigid host-guest systems but fails for flexible protein-ligand complexes, its practical utility is limited.
+  - **Resolution test** Present results for a diverse set of systems, including at least one protein-ligand complex with known conformational flexibility, and discuss any cases where the reparameterization did not improve or worsened predictions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "quantum mechanical force field reparameterization" is used, but it is not immediately clear whether this refers to reparameterizing charges only or also other force field parameters. The abstract later specifies "reparameterizing ligand charges," which is clearer.
+  - **Required correction** Use consistent terminology throughout, e.g., "partial charge reparameterization" or explicitly state the full set of parameters being modified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not mention prior work on QM-based charge fitting for binding kinetics or how this approach differs from existing methods (e.g., QM/MM simulations, polarizable force fields).
+  - **Required correction** Add a brief statement in the introduction or discussion situating QMrebind relative to existing approaches.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state whether QMrebind is publicly available, its license, or its system requirements.
+  - **Required correction** Include a data and software availability statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative validation), R1-M2 (insufficient methodological detail), R1-M3 (limited validation scope)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of integrating QM-based charge reparameterization with milestoning simulations is a reasonable extension of existing work, but the abstract does not demonstrate a fundamentally new principle or approach. The originality is moderate and depends on the technical implementation details.
+  - Scientific importance: Improving kinetic rate predictions for drug-target interactions is scientifically and practically important. If the method delivers consistent accuracy gains, it would be a valuable contribution. However, the abstract does not establish the magnitude or reliability of the improvement.
+  - Interdisciplinary readership: The work bridges quantum chemistry, molecular dynamics, and drug discovery, which could appeal to a broad readership. The abstract is written in a way that is accessible to computational scientists, but the lack of results limits its appeal to experimentalists.
+  - Technical soundness: Cannot be assessed from the abstract alone. The methodological details and validation are missing.
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "milestoning," "Voronoi tessellations," and "reparameterization" may be unfamiliar to nonspecialists. The abstract could benefit from a brief explanation of these concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially useful method, but the absence of quantitative results and methodological details prevents any assessment of its validity or impact. The authors should be encouraged to provide the full manuscript with validation data.
+
+## Risk / unsupported claims
+- The claim that QMrebind "provides an opportunity to achieve higher accuracy in predicting kon and koff" is unsupported by any quantitative data in the abstract.
+- The implied improvement in unbinding kinetics predictions for HSP90-inhibitor complexes is not substantiated.
+- The generalizability of the method beyond the tested systems is not established.
+- The computational cost and feasibility of the QM reparameterization for larger, flexible systems are not discussed.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.22.695963",
+  "title": "A foundational model for joint sequence-function multi-species modeling at scale for long-range genomic prediction",
+  "authors": "Boshar S; Evans B; Tang Z; Picard A; Adel Y; Lorbeer FK; Rajesh C; Karch T; Sidbon S; Emms D; Mendoza-Revilla J; Al-Ani F; Seitz E; Schiff Y; Bornachot Y; Hernandez A; Lopez M; Laterre A; Beguir K; Koo P; Kuleshov V; Stark A; de Almeida BP; Pierrot T",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-25",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出多物种基因组基础模型NTv3，统一长程序列表示、功能预测与可控生成，虽非直接聚焦TF-DNA结合，但其长程调控建模和增强子设计方法可迁移至TF-DNA互作研究。",
+  "abstract": "Genomic prediction and design require models that integrate local sequence features with long-range regulatory dependencies spanning hundreds of kilobases to megabases. Existing approaches have made substantial progress along complementary axes: supervised sequence-to-function models achieve high accuracy for specific assays and organisms, self-supervised genomic foundation models learn transferable representations from large-scale sequence data, and conditional generative models enable principled sequence design guided by functional objectives. However, these strengths are typically realized in isolation - across distinct model classes, architectures, and training regimes - limiting the ability to combine long-context, base-resolution prediction, functional modeling, and controllable generation within a single efficient framework that generalizes across organisms and modalities. Here we introduce Nucleotide Transformer v3 (NTv3), a multi-species foundation model that unifies representation learning, functional-track and genome-annotation prediction, and controllable sequence generation within a common backbone. NTv3 uses a U-Net-like architecture to enable single-base tokenization and efficient modeling of contexts up to 1 Mb. We pre-train NTv3 on 9 trillion base pairs from OpenGenome2 using base-resolution masked language modeling, followed by post-training with a joint objective that integrates continued self-supervision with supervised learning on 16,000 functional tracks and annotation labels from 24 animal and plant species. After post-training, NTv3 achieves state-of-the-art accuracy for functional-track prediction and genome annotation across species, outperforming leading sequence-to-function and foundation-model baselines on established benchmarks and on the new NTv3 benchmark, a controlled downstream fine-tuning suite in a standardized 32 kb input / base-resolution output setting. We further show that NTv3 consolidates a shared regulatory grammar across tasks, enabling coherent long-range genome-to-function inference and variant-associated remodeling. Finally, we fine-tune NTv3 into a controllable generative model via masked diffusion language modeling and use it to design enhancer sequences with specified activity levels and promoter selectivity. We validate these designs experimentally, showing that generated enhancers recapitulate the intended activity stratification and achieve the desired promoter-specific activation in cellulo. We release the NTv3 model family together with code and practical cookbooks for long-context training, multispecies post-training, fine-tuning, interpretation, and sequence design.",
+  "abstract_zh": "基因组预测与设计需要能够将局部序列特征与跨越数百千碱基至兆碱基的长程调控依赖性整合起来的模型。现有方法已在互补方向上取得了显著进展：监督式序列到功能模型在特定检测和生物体中实现了高精度，自监督基因组基础模型从大规模序列数据中学习可迁移的表征，而条件生成模型则能够基于功能目标实现原理性的序列设计。然而，这些优势通常是在孤立条件下实现的——跨越不同的模型类别、架构和训练机制——从而限制了在单一高效框架内结合长上下文、碱基分辨率预测、功能建模和可控生成的能力，且该框架需能跨生物体和模态泛化。在此，我们引入Nucleotide Transformer v3 (NTv3)，一种多物种基础模型，在共同骨干中统一了表征学习、功能轨道和基因组注释预测以及可控序列生成。NTv3采用类似U-Net的架构，实现单碱基标记化并高效建模长达1 Mb的上下文。我们在OpenGenome2的9万亿碱基对上使用碱基分辨率掩码语言建模对NTv3进行预训练，随后通过联合目标进行后训练，该目标整合了持续自监督与来自24个动物和植物物种的16,000个功能轨道及注释标签的监督学习。后训练后，NTv3在跨物种的功能轨道预测和基因组注释方面达到了最先进精度，在既有基准和新的NTv3基准（一种标准化32 kb输入/碱基分辨率输出设置下的受控下游微调套件）上优于领先的序列到功能和基础模型基线。我们进一步表明，NTv3整合了跨任务的共享调控语法，实现了连贯的长程基因组到功能推断及变异相关重塑。最后，我们通过掩码扩散语言建模将NTv3微调为可控生成模型，并用于设计具有指定活性水平和启动子选择性的增强子序列。我们通过实验验证了这些设计，表明生成的增强子重现了预期的活性分层，并在细胞内实现了所需的启动子特异性激活。我们发布了NTv3模型系列，连同代码和实用手册，涵盖长上下文训练、多物种后训练、微调、解释和序列设计。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695963",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695963",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.22.695963/index.html"
+}

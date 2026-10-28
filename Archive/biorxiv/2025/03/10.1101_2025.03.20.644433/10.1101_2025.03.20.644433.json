@@ -1,0 +1,677 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.20.644433",
+  "title": "A structure-guided approach to non-coding variant evaluation for transcription factor binding using AlphaFold 3",
+  "doi": "10.1101/2025.03.20.644433",
+  "abstract": "Non-coding single-nucleotide variants (SNVs) that alter transcription factor (TF) binding can affect gene expression and contribute to disease. Sequence-based methods can excel at predicting TF binding, but rely on training data and can exhibit TF-specific biases. Here we propose a structure-guided approach for non-coding SNVs, using AlphaFold 3 (AF3) to model TF-DNA complexes and FoldX for downstream physics-based assessment. Benchmarked against SNP-SELEX data for six TFs (SPIB, ELK3, ETV4, SF-1, PAX5 and MEIS2), the FoldX-based strategy showed good agreement with experimental allele preferences. Interestingly, differences in AF3’s interface predicted template modelling (ipTM) score aligned even more closely with SNP-SELEX results, generally surpassing energy-based metrics. Application to known disease-associated variants recapitulated most reported effects for TFs including NKX2-5, GATA3 and USF2A-USF1. In these examples, considering both ΔipTM and FoldX energies proved more reliable than either metric alone. While less accurate than state-of-the-art sequence-based methods, this work demonstrates that structural modelling can yield interpretable insights into how non-coding variants influence TF binding. By highlighting both the promise and limitations of AF3 in this context, our study provides a framework for complementary structural evaluation of regulatory variants.",
+  "authors": [
+    "Lukas Gerasimavicius",
+    "Simon C. Biddie",
+    "Joseph A. Marsh"
+  ],
+  "published_date": "2025-03-20",
+  "updated_date": "2025-03-21T00:45:54Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.20.644433",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.20.644433.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T09:31:06Z",
+        "timestamp": 1785403866266,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 72,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                20
+              ]
+            ],
+            "date-time": "2025-03-20T00:00:00Z",
+            "timestamp": 1742428800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "MC_UU_00035/9"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MC_UU_00035/9"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/03x94j517",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "European Research Council",
+          "award": [
+            "101001169"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "101001169"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            9
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Non-coding single-nucleotide variants (SNVs) that alter transcription factor (TF) binding can affect gene expression and contribute to disease. Sequence-based methods can excel at predicting TF binding, but rely on training data and can exhibit TF-specific biases. Here we propose a structure-guided approach for non-coding SNVs, using AlphaFold 3 (AF3) to model TF-DNA complexes and FoldX for downstream physics-based assessment. Benchmarked against SNP-SELEX data for six TFs (SPIB, ELK3, ETV4, SF-1, PAX5 and MEIS2), the FoldX-based strategy showed good agreement with experimental allele preferences. Interestingly, differences in AF3’s interface predicted template modelling (ipTM) score aligned even more closely with SNP-SELEX results, generally surpassing energy-based metrics. Application to known disease-associated variants recapitulated most reported effects for TFs including NKX2-5, GATA3 and USF2A-USF1. In these examples, considering both ΔipTM and FoldX energies proved more reliable than either metric alone. While less accurate than state-of-the-art sequence-based methods, this work demonstrates that structural modelling can yield interpretable insights into how non-coding variants influence TF binding. By highlighting both the promise and limitations of AF3 in this context, our study provides a framework for complementary structural evaluation of regulatory variants.</jats:p>",
+      "DOI": "10.1101/2025.03.20.644433",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2025-03-21T00:45:54Z",
+        "timestamp": 1742517954000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "A structure-guided approach to non-coding variant evaluation for transcription factor binding using AlphaFold 3"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6874-3850",
+          "authenticated-orcid": false,
+          "given": "Lukas",
+          "family": "Gerasimavicius",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Simon C.",
+          "family": "Biddie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom"
+            },
+            {
+              "name": "NHS Lothian, Edinburgh, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4132-0628",
+          "authenticated-orcid": false,
+          "given": "Joseph A.",
+          "family": "Marsh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2020.07.004"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddv259"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.02.014"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-024-05314-z"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aad2257"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41436-019-0685-9"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s44320-024-00043-8"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-19-0905"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin, Y. , Jiang, J. , Wang, R. and Qin, Z.S. (2021) Systematic Evaluation of DNA Sequence Variations on in vivo Transcription Factor Binding Affinity. Frontiers in Genetics, 12.",
+          "DOI": "10.3389/fgene.2021.667866"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.07.012"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1113"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddw205"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s12276-018-0094-1"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab072"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiomed.2022.105993"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.759"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "2751",
+          "DOI": "10.1038/s41467-021-23007-0",
+          "article-title": "Landscape of allele-specific transcription factor binding in the human genome",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2019.194443"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "393",
+          "DOI": "10.1038/nprot.2008.195",
+          "article-title": "Universal protein-binding microarrays for the comprehensive characterization of the DNA-binding specificities of transcription factors",
+          "volume": "4",
+          "year": "2009",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "101490",
+          "DOI": "10.1016/j.xpro.2022.101490",
+          "article-title": "High-throughput sequencing SELEX for the determination of DNA-binding protein specificities in vitro",
+          "volume": "3",
+          "year": "2022",
+          "journal-title": "STAR Protocols"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Riley, T.R. , Slattery, M. , Abe, N. , Rastogi, C. , Liu, D. , Mann, R.S. and Bussemaker, H.J. (2014) SELEX-seq: A Method for Characterizing the Complete Repertoire of Binding Site Preferences for Transcription Factor Complexes. In Graba, Y. , Rezsohazy, R. (eds), Hox Genes: Methods and Protocols. Springer New York, New York, NY, pp. 255–278.",
+          "DOI": "10.1007/978-1-4939-1242-1_16"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03211-0"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1059"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac262"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3331"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae110"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/nmeth.3547",
+          "article-title": "Predicting effects of noncoding variants with deep learning– based sequence model",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbaf363",
+          "DOI": "10.1093/bib/bbaf363",
+          "article-title": "Benchmarking transcription factor binding site prediction models: a comparative analysis on synthetic and biological data",
+          "volume": "26",
+          "year": "2025",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4688"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaf064"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky228"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz184"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Krishna, R. , Wang, J. , Ahern, W. , Sturmfels, P. , Venkatesh, P. , Kalvet, I. , Lee, G.R. , Morey-Burrows, F.S. , Anishchenko, I. , Humphreys, I.R. , et al. Generalized biomolecular modeling and design with RoseTTAFold All-Atom. Science, 384, eadl2528.",
+          "DOI": "10.1126/science.adl2528"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "117",
+          "DOI": "10.1038/s41592-023-02086-5",
+          "article-title": "Accurate prediction of protein–nucleic acid complexes using RoseTTAFoldNA",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mce.2009.07.003"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2013136118"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15518"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.05.25.595871"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaj2239"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Abulude, I.J. , Luna, I.C.R. , Varela, A.S. , Camilli, A. , Kadouri, D.E. and Guo, X. (2025) Using AlphaFold-Multimer to study novel protein-protein interactions of predation essential hypothetical proteins in Bdellovibrio. Frontiers in Bioinformatics, Volume 5-2025.",
+          "DOI": "10.3389/fbinf.2025.1566486"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.02.10.637595"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "btaf107",
+          "DOI": "10.1093/bioinformatics/btaf107",
+          "article-title": "actifpTM: a refined confidence metric of AlphaFold2 predictions involving flexible regions",
+          "volume": "41",
+          "year": "2025",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1091"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2013.10.028"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.01.13.632782"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2023.194906"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15540"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2862"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad013"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-01996-3"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2411.11158"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msab095"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "5273",
+          "DOI": "10.1038/s41467-022-32971-0",
+          "article-title": "Systematic analysis of low-affinity transcription factor binding site clusters in vitro and in vivo establishes their functional relevance",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1109594108"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100617-062719"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "e32963",
+          "DOI": "10.7554/eLife.32963",
+          "article-title": "Two distinct DNA sequences recognized by transcription factors represent enthalpy and entropy optima",
+          "volume": "7",
+          "year": "2018",
+          "journal-title": "eLife"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "650",
+          "DOI": "10.1038/s41594-024-01449-6",
+          "article-title": "Interfacial water confers transcription factors with dinucleotide specificity",
+          "volume": "32",
+          "year": "2025",
+          "journal-title": "Nature Structural & Molecular Biology"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "1318",
+          "DOI": "10.1002/prot.24272",
+          "article-title": "Probing the role of interfacial waters in protein–DNA recognition using a hybrid implicit/explicit solvation model",
+          "volume": "81",
+          "year": "2013",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(00)88333-1"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1010"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(95)90518-9"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-023-05388-9"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.12688/f1000research.7931.1"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "3167",
+          "DOI": "10.21105/joss.03167",
+          "article-title": "Visualizations with statistical details: The ‘ggstatsplot’ approach",
+          "volume": "6",
+          "year": "2021",
+          "journal-title": "Journal of Open Source Software"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv153"
+        },
+        {
+          "key": "2026041123405096000_2025.03.20.644433v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0092209"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.20.644433",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T06:41:03Z",
+        "timestamp": 1775976063000
+      },
+      "score": 117.79777,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.20.644433"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            20
+          ]
+        ]
+      },
+      "references-count": 72,
+      "URL": "https://doi.org/10.1101/2025.03.20.644433",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.01.606140",
+  "title": "The potential of AI models to identify regulatory variants underlying cattle traits",
+  "authors": "Zhao R; Owen R; Marr M; Jayaraman S; Chue Hong N; Talenti A; Hassan M; Prendergast J",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-06",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发跨物种AI框架预测牛调控变异，虽涉及DNA序列与调控功能，但核心是变异注释与eQTL/MPRA数据训练，未聚焦TF-DNA结合位点或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Considerable progress has been made in developing machine learning models for predicting human functional variants, but progress in livestock species has been more limited. This is despite the disproportionate potential benefits such models could have to livestock research, from improving breeding values to prioritising functional variants at trait-associated loci. A key open question is what datasets and modelling approaches are most important to close this performance gap between species. In this work we have developed a new framework for predicting regulatory variants, that includes deriving key conservation metrics in cattle for the first time, variant annotation and model training. When trained on expression quantitative trait loci (eQTL) and massively parallel reporter assay (MPRA) data for human and cattle we show that this framework has a high performance at predicting regulatory variants, with a maximum area under the receiver operating characteristic curve (AUROC) score of 0.86 in human and 0.81 in cattle. We explore various approaches to further close this performance gap, including integrating advanced DNA sequence models and generating extra chromatin data, but illustrate that the best approach would be generating improved gold-standard sets of known cattle regulatory variants. Importantly we demonstrate both the human and cattle models substantially enrich for variants linked to important traits, with up to 18-fold enrichments for functional variants observed. Consequently, with our framework developed to be applicable across species these results not only demonstrate its potential utility for fine-mapping functional variants and improving breeding values in cattle, but also its potential for wider use across animal species.",
+  "abstract_zh": "在开发用于预测人类功能性变异的机器学习模型方面已取得显著进展，但在牲畜物种中的进展则较为有限。尽管此类模型对牲畜研究可能带来不成比例的潜在益处，从改进育种值到优先处理性状相关位点的功能性变异，这一差距依然存在。一个关键未解问题是，哪些数据集和建模方法对于缩小物种间性能差距最为重要。在本研究中，我们开发了一个新的调控变异预测框架，包括首次推导牛的关键保守性指标、变异注释和模型训练。当使用人类和牛的表达数量性状位点（eQTL）及大规模平行报告分析（MPRA）数据进行训练时，我们展示了该框架在预测调控变异方面具有高性能，在人类中最大接收者操作特征曲线下面积（AUROC）得分为0.86，在牛中为0.81。我们探索了多种进一步缩小性能差距的方法，包括整合先进DNA序列模型和生成额外染色质数据，但表明最佳方法应是生成改进的已知牛调控变异金标准集。重要的是，我们证明了人类和牛模型均显著富集与重要性状相关的变异，观察到功能性变异富集度高达18倍。因此，由于我们的框架设计为跨物种适用，这些结果不仅展示了其在牛中精细定位功能性变异和改进育种值的潜在实用性，也展示了其在更广泛动物物种中应用的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606140",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606140",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.01.606140/index.html"
+}

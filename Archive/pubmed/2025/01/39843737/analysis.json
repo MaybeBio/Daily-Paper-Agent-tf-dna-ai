@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39843737",
+  "title": "Multiscale footprints reveal the organization of cis-regulatory elements.",
+  "authors": "Hu, Yan; Horlbeck, Max A; Zhang, Ruochi; Ma, Sai; Shrestha, Rojesh; Kartha, Vinay K; Duarte, Fabiana M; Hock, Conrad; Savage, Rachel E; Labade, Ajay; Kletzien, Heidi; Meliki, Alia; Castillo, Andrew; Durand, Neva C; Mattei, Eugenio; Anderson, Lauren J; Tay, Tristan; Earl, Andrew S; Shoresh, Noam; Epstein, Charles B; Wagers, Amy J; Buenrostro, Jason D",
+  "journal": "Nature",
+  "published_date": "2025-01-23",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发PRINT方法从染色质可及性数据中提取多尺度蛋白-DNA互作足迹，并结合深度学习seq2PRINT推断转录因子和核小体结合，虽非直接建模TF-DNA三维结构，但聚焦TF-DNA结合位点预测与调控逻辑，方法可迁移至本课题。",
+  "abstract": "Cis-regulatory elements (CREs) control gene expression and are dynamic in their structure and function, reflecting changes in the composition of diverse effector proteins over time(1). However, methods for measuring the organization of effector proteins at CREs across the genome are limited, hampering efforts to connect CRE structure to their function in cell fate and disease. Here we developed PRINT, a computational method that identifies footprints of DNA-protein interactions from bulk and single-cell chromatin accessibility data across multiple scales of protein size. Using these multiscale footprints, we created the seq2PRINT framework, which uses deep learning to allow precise inference of transcription factor and nucleosome binding and interprets regulatory logic at CREs. Applying seq2PRINT to single-cell chromatin accessibility data from human bone marrow, we observe sequential establishment and widening of CREs centred on pioneer factors across haematopoiesis. We further discover age-associated alterations in the structure of CREs in murine haematopoietic stem cells, including widespread reduction of nucleosome footprints and gain of de novo identified Ets composite motifs. Collectively, we establish a method for obtaining rich insights into DNA-binding protein dynamics from chromatin accessibility data, and reveal the architecture of regulatory elements across differentiation and ageing.",
+  "abstract_zh": "顺式调控元件（cis-regulatory elements, CREs）控制基因表达，其结构和功能具有动态性，反映了多种效应蛋白组成随时间的变化(1)。然而，测量基因组中CREs上效应蛋白组织的方法有限，阻碍了将CRE结构与其在细胞命运和疾病中的功能联系起来的研究。在此，我们开发了PRINT，一种计算方法，能从批量及单细胞染色质可及性数据中，跨多种蛋白质大小尺度识别DNA-蛋白质相互作用的足迹。利用这些多尺度足迹，我们构建了seq2PRINT框架，该框架采用深度学习技术，能够精确推断转录因子和核小体结合，并解读CREs处的调控逻辑。将seq2PRINT应用于人类骨髓的单细胞染色质可及性数据，我们观察到在造血过程中，以先锋因子为中心的CREs顺序建立并扩展。我们还发现了小鼠造血干细胞中与年龄相关的CRE结构改变，包括核小体足迹的广泛减少及从头识别的Ets复合基序的获得。总体而言，我们建立了一种从染色质可及性数据中深入洞察DNA结合蛋白动态的方法，并揭示了分化与衰老过程中调控元件的架构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39843737/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39843737/",
+  "paper_page_path": "papers/pubmed/39843737/index.html"
+}

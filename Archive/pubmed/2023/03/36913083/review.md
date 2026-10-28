@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report a computational study identifying potential inhibitors of eight nucleoid-associated proteins (NAPs) of Mycobacterium tuberculosis using structural modelling, molecular interaction analysis, and binding energy evaluation of 2500 FDA-approved drugs. They state that eight FDA-approved molecules, alongside known anti-tubercular drugs (amikacin, streptomycin, kanamycin, isoniazid), were found to be potential novel inhibitors of these NAPs.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, methods section, structural modelling details, docking protocols, scoring functions, validation metrics, compound lists, binding energy values, statistical analyses, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational screening effort against a relevant target class for tuberculosis drug discovery. However, the current evidence base is insufficient to evaluate the technical soundness or validity of the claims. Several inconsistencies and ambiguities in the text further reduce confidence. The work may have merit as a preliminary computational study, but the case for novel inhibitor identification is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in tuberculosis drug discovery, computational chemists working on structure-based virtual screening, and investigators studying nucleoid-associated proteins as potential antibacterial targets. The results could inform future experimental validation efforts if the computational findings are robust.
+- **Major strengths** The target class (NAPs) is biologically relevant and underexplored for Mtb drug development. The use of FDA-approved drugs for repurposing screening is a pragmatic and potentially translatable strategy. The inclusion of eight NAPs suggests a systematic approach to the target family.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The study identified eight FDA-approved molecules as potential novel inhibitors of mycobacterial NAPs with impact on their functions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No binding energy values, docking scores, or any quantitative criteria for inhibitor selection are provided. The basis for selecting the eight FDA-approved molecules is not described. Without these data, the claim of "potential novel inhibitors" cannot be assessed.
+  - **Why it matters** The central conclusion of the study rests on the identification of specific inhibitors. The absence of any numerical or methodological evidence makes the claim unverifiable and potentially arbitrary.
+  - **Resolution test** Provide docking scores, binding energy values, and selection thresholds for all 2500 drugs and the eight selected molecules. Include statistical significance or ranking criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Structural modelling and analysis of eight NAPs (Lsr2, EspR, HupB, HNS, NapA, mIHF, NapM) were carried out.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The list of NAPs contains an apparent error. The text lists "Lsr2, EspR, HupB, HNS, NapA, mIHF and NapM" which is seven names, not eight. Additionally, "HNS" is likely a typographical error for "H-NS" (a well-known NAP), and "mIHF" and "NapM" are not standard names for Mtb NAPs. The identity and number of proteins studied are unclear.
+  - **Why it matters** Accurate target identification is fundamental to the study. Ambiguity in the protein list undermines reproducibility and the validity of the screening results.
+  - **Resolution test** Provide a corrected and complete list of the eight NAPs with standard gene names and UniProt identifiers. Clarify any nomenclature issues.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The potentiality of several anti-tubercular drugs as therapeutic agents was identified through computational modelling and simulation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that known anti-tubercular drugs (amikacin, streptomycin, kanamycin, isoniazid) were "found to be potential novel targets for these mycobacterial NAPs." This phrasing is confusing. These drugs are established anti-TB agents, so calling them "novel targets" is contradictory. It is unclear whether the authors mean these drugs bind NAPs or that NAPs are novel targets for these drugs. No experimental validation is mentioned.
+  - **Why it matters** The interpretation of the results is ambiguous, and the claim of therapeutic potential cannot be supported by computational data alone without experimental confirmation.
+  - **Resolution test** Clarify the intended meaning. If computational predictions are made, state explicitly that these require experimental validation. Provide any docking or binding data for these known drugs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The sentence "The involvement of Nucleoid-Associated Proteins (NAPs) in maintaining the structure of the genomic material and regulating various cellular processes like transcription, DNA replication, repair and recombination makes significant, has opened a new arena" is grammatically broken and unclear.
+  - **Required correction** Rewrite for clarity, for example: "The involvement of NAPs in maintaining genomic structure and regulating processes such as transcription, DNA replication, repair, and recombination makes them significant targets, opening a new avenue for anti-TB drug discovery."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the computational tools, software, or docking algorithms used.
+  - **Required correction** Add brief mention of the key methods (e.g., homology modelling software, docking program, scoring function) in the abstract or ensure these are detailed in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "2500 FDA-approved drugs that were selected for antagonist analysis" is imprecise. "Antagonist analysis" is not standard terminology for docking or inhibitor screening.
+  - **Required correction** Use standard terminology such as "virtual screening" or "molecular docking analysis" to describe the approach.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence for inhibitor identification), R1-M2 (inconsistent and unclear protein list), R1-M3 (ambiguous and unsupported therapeutic claims)
+- **Assessment against Nature-style criteria** Originality: The target class is relatively underexplored, which lends some originality, but the approach (structure-based virtual screening of FDA-approved drugs) is routine. Scientific importance: Tuberculosis drug resistance is a major global health issue, so the topic is important, but the abstract does not demonstrate that the findings advance the field beyond a preliminary screen. Interdisciplinary readership: The work sits at the interface of computational biology and infectious disease, which could appeal to a broad audience, but the abstract lacks sufficient detail to engage specialists. Technical soundness: Not assessable from the abstract; the missing methodological details and apparent errors in protein nomenclature raise concerns. Readability for nonspecialists: The abstract is poorly written with grammatical errors and unclear terminology, which would hinder comprehension by a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful computational screen, but the lack of quantitative results, methodological transparency, and clarity in target identification means the claims cannot be evaluated. Support would be conditional on substantial revision and provision of full data.
+
+## Risk / unsupported claims
+- The identification of eight FDA-approved molecules as potential novel inhibitors is unsupported without binding data or selection criteria.
+- The claim that known anti-tubercular drugs have "potentiality as therapeutic agents" through computational modelling is unsupported and ambiguous.
+- The number and identity of the eight NAPs studied is unclear due to inconsistent listing and nonstandard nomenclature.
+- Any statement regarding the impact of the identified drugs on NAP function is unsupported without experimental validation.

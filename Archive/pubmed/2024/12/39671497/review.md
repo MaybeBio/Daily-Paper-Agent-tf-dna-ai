@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary materials list.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and alignment with claims. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors combine live imaging of the Sox2 promoter and enhancer with molecular dynamics simulations to show that (1) both regulatory loci are more constrained in their motion than non-regulatory control loci, (2) this constraint is partly due to stalled cohesin at CTCF sites, (3) enhancer mobility becomes further constrained upon transcriptional firing, homogenizing its dynamics with the promoter, and (4) transcription and loop extrusion compete to constrain chromatin dynamics.
+- **Visible evidence base** Live-cell imaging data (2D tracking, GP-FBM analysis), fixed-cell controls, 4C-seq, ChIP-qPCR, single-molecule RNA FISH, Western blotting, and molecular dynamics simulations. Supplementary figures and data files are referenced but not fully provided.
+- **Missing materials affecting confidence** Supplementary figures S1–S10, tables S1–S5, data S1–S3, and movies S1–S4 are referenced but not included in the provided material. This limits verification of several control experiments, detailed statistical outputs, and simulation parameter sensitivity analyses.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in gene regulation: how the dynamic behavior of promoters and enhancers is modulated by transcription and loop extrusion. The experimental system is well designed, using a physiologically relevant locus (Sox2) with allele-specific tagging to avoid perturbation. The combination of live imaging with molecular dynamics simulations is ambitious and potentially powerful. However, the manuscript has several significant issues that need to be addressed before the conclusions are fully supported. The claim that transcription and loop extrusion "compete" is inferred from a single deletion experiment and simulation parameter changes, but the causal link is not directly demonstrated. The interpretation of the homogenization of promoter and enhancer dynamics during transcription is intriguing but alternative explanations are not sufficiently excluded. The statistical power and reproducibility of some key comparisons are not fully documented. The simulation model requires several parameter adjustments to match experimental results, raising questions about its predictive value. Overall, the work is potentially important but requires substantial revision to establish the case.
+- **Who would be interested in the results, and why** Researchers studying 3D genome organization, enhancer-promoter communication, transcriptional regulation, and chromatin dynamics. The work is also relevant to those interested in the physical principles underlying nuclear organization and the interplay between different chromatin-associated processes. The methodological approach combining live imaging with simulations may interest biophysicists and computational biologists working on chromatin.
+- **Major strengths** (1) The use of allele-specific tagging in a hybrid ESC system allows direct visualization of the endogenous Sox2 promoter and enhancer without large insertions. (2) The simultaneous tracking of two loci and nascent RNA provides a more complete picture than previous studies. (3) The application of GP-FBM for rigorous analysis of diffusive parameters is a methodological strength. (4) The combination of experimental perturbations (CTCF deletion, cohesin degradation) with simulations provides multiple lines of evidence. (5) The study addresses a fundamental question with potential implications for understanding transcriptional regulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The claim that "transcription and loop extrusion to be antagonistic processes constraining regulatory loci" is presented as a central finding.
+  - **Evidence pointer** Results section "Loop extrusion and transcriptional processes compete to constrain chromatin"; Figures 4A–F; simulation section in Materials and Methods.
+  - **Concern** The evidence for competition between transcription and loop extrusion is indirect. The key experiment is the deletion of SRR107+111, which reduces Sox2 transcription and increases constraint at the enhancer. The authors interpret this as reduced competition from transcription allowing more cohesin to stall at the adjacent CTCF site. However, the deletion removes transcription factor binding sites, which could have effects independent of transcription (e.g., on local chromatin state or factor occupancy). The simulation parameter changes (reducing Pol II bond dissolution rate) are introduced to match experimental results, but this is a post hoc adjustment rather than a predictive test. The claim of "competition" requires direct evidence that transcription and cohesin physically or functionally interfere with each other at this locus.
+  - **Why it matters** The central conceptual advance of the paper is the idea that transcription and loop extrusion compete to determine chromatin dynamics. If this is not convincingly demonstrated, the paper's main message is weakened.
+  - **Resolution test** Provide direct evidence that the effect of SRR107+111 deletion is mediated by changes in transcription (e.g., by rescuing transcription through a different mechanism without restoring the deleted binding sites). Alternatively, show that increasing transcription (e.g., by forced activation) reduces cohesin occupancy at the CTCF site. The simulation should be tested against additional experimental conditions (e.g., cohesin depletion plus transcription inhibition) to validate the competition model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Alternative explanations
+  - **Claim pointer** The claim that enhancer mobility becomes constrained on transcriptional firing, homogenizing its dynamics with the promoter, is interpreted as evidence for sharing a nuclear microenvironment.
+  - **Evidence pointer** Results section "Promoter and enhancer dynamics become homogenized on transcriptional firing"; Figure 3C–E.
+  - **Concern** The observation that the enhancer becomes more constrained during transcription is interpreted as evidence for co-occupancy of a shared microenvironment. However, alternative explanations are possible. For example, the act of transcription itself could tether the locus to a nuclear structure (e.g., nuclear pore, transcription factory) independent of promoter-enhancer communication. The increased diffusion speed of the promoter during transcription is also not fully explained. The authors do not directly test whether the promoter and enhancer are physically co-constrained (e.g., by measuring their relative motion or correlation of their trajectories).
+  - **Why it matters** The interpretation of "sharing a nuclear microenvironment" is a key conceptual claim that goes beyond the data. If the observed homogenization has a different cause, the implications for enhancer-promoter communication would be different.
+  - **Resolution test** Measure the relative motion of the promoter and enhancer (e.g., their correlated displacements) in transcribing versus non-transcribing cells. If they share a microenvironment, their relative motion should be reduced during transcription. Alternatively, test whether the constraint on the enhancer depends on the physical connection to the promoter (e.g., by deleting the promoter or inserting a boundary element between them).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that the promoter and enhancer are significantly more constrained than control loci (Figure 1) and that specific perturbations change mobility (Figures 2–4).
+  - **Evidence pointer** Results sections "Sox2 promoter and enhancer mobility is constrained" and subsequent sections; Figures 1–4.
+  - **Concern** The manuscript reports p-values for some comparisons but does not provide full details on the number of cells, number of independent biological replicates, or the statistical methods used for each comparison. The violin plots show distributions but the sample sizes are not stated in the figure legends. The authors state "a minimum of three biological replicates" but do not specify how many cells were analyzed per condition. This makes it difficult to assess the robustness of the findings.
+  - **Why it matters** The conclusions rely on detecting differences in diffusive parameters between conditions. Without clear statistical reporting, the reliability of these differences cannot be evaluated.
+  - **Resolution test** Provide a supplementary table with the number of cells, number of replicates, and statistical test used for each comparison. Include effect sizes and confidence intervals. For key comparisons, consider reporting the results of mixed-effects models that account for cell-to-cell variability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation validation
+  - **Claim pointer** The molecular dynamics simulations are used to support the interpretation of experimental results, particularly the competition between transcription and loop extrusion.
+  - **Evidence pointer** Materials and Methods section "Molecular dynamics simulations"; Figures 4C–D and S9.
+  - **Concern** The simulation model requires several parameter adjustments to match experimental results. The initial model (with Pol II bond dissolution at 2 bonds per second) did not recapitulate the effects of SRR107+111 deletion, and only after reducing this rate to 0.5 bonds per second did the simulations match. This suggests the model is not robust to parameter choices. The authors do not provide a sensitivity analysis or justify the parameter values used. The model also does not include many known features of the system (e.g., nucleosome positioning, other chromatin-binding proteins).
+  - **Why it matters** The simulations are used to support the mechanistic interpretation. If the model is not well validated, the conclusions drawn from it are weakened.
+  - **Resolution test** Provide a sensitivity analysis showing how simulation results depend on key parameters (e.g., Pol II bond dissolution rate, cohesin concentration, CTCF binding strength). Test the model against additional experimental conditions (e.g., cohesin depletion, transcription inhibition) to validate its predictive power.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A
+  - **Issue** The schematic in Figure 1A is complex and the positions of the ANCHOR tags relative to the CTCF sites and the SRR107/111 elements are not clearly labeled.
+  - **Required correction** Add clear labels for the ANCHOR insertion sites, CTCF binding sites, and the SRR107/111 elements. Consider a simplified schematic with a scale bar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Results section "Promoter and enhancer dynamics become homogenized on transcriptional firing"
+  - **Issue** The term "homogenizing" in the title and abstract is somewhat vague. The authors show that the enhancer becomes more constrained, but the promoter's diffusive speed increases. It is not clear that this constitutes "homogenization" of dynamics.
+  - **Required correction** Clarify what is meant by "homogenization" and whether the data support this specific term. Consider using more precise language, such as "convergence of diffusive parameters" or "similar constraint levels."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Stalled loop extrusion at CTCF sites specifically limits chromatin mobility"
+  - **Evidence pointer** Figure 2E–G
+  - **Issue** The authors show that deleting CTCF sites increases mobility at the promoter and enhancer, but they do not report whether the interaction between the promoter and enhancer (as measured by 4C-seq) is affected in these lines.
+  - **Required correction** Report the 4C-seq interaction scores for the CTCF deletion lines, or state that these were not measured and discuss the implications.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Materials and Methods, Data and materials availability
+  - **Evidence pointer** Data and materials availability section
+  - **Issue** The authors state that 4C-seq data are deposited under GSE230243, but the code for the simulations and the GP-FBM analysis is not mentioned.
+  - **Required correction** Provide a statement on code availability, including the simulation scripts and analysis pipelines, to ensure reproducibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The authors discuss the implications for "transcription factories" and "hubs" but do not clearly distinguish their findings from previous models of enhancer-promoter communication.
+  - **Required correction** Clarify how the observed dynamics support or refine existing models of transcriptional hubs and enhancer-promoter communication.
+
+## Risk / unsupported claims
+- The claim that transcription and loop extrusion "compete" is not directly demonstrated; the evidence is indirect and relies on a single deletion experiment and post hoc simulation parameter adjustments.
+- The interpretation that homogenization of promoter and enhancer dynamics reflects "sharing of a nuclear microenvironment" is not directly tested; alternative explanations (e.g., tethering to nuclear structures) are not excluded.
+- The statement that "stalled cohesin at CTCF sites" is the cause of constrained mobility at the promoter and enhancer is supported by the CTCF deletion experiments, but the contribution of other factors (e.g., transcription factor binding) is not fully addressed.
+- The simulation model's predictive value is limited by the need for parameter adjustments to match experimental results; the model is not independently validated.
+- The claim that the findings "indicate that modulating chromatin mobility can be an additional, underestimated means for effective gene regulation" is speculative and goes beyond the data presented.

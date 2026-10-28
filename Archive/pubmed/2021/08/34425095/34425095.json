@@ -1,0 +1,517 @@
+{
+  "identity": {
+    "pmid": "34425095",
+    "doi": "10.1053/j.gastro.2021.08.030",
+    "title": "Hepatic miR-144 Drives Fumarase Activity Preventing NRF2 Activation During Obesity."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIMS: Oxidative stress plays a key role in the development of metabolic complications associated with obesity, including insulin resistance and the most common chronic liver disease worldwide, nonalcoholic fatty liver disease. We have recently discovered that the microRNA miR-144 regulates protein levels of the master mediator of the antioxidant response, nuclear factor erythroid 2-related factor 2 (NRF2). On miR-144 silencing, the expression of NRF2 target genes was significantly upregulated, suggesting that miR-144 controls NRF2 at the level of both protein expression and activity. Here we explored a mechanism whereby hepatic miR-144 inhibited NRF2 activity upon obesity via the regulation of the tricarboxylic acid (TCA) metabolite, fumarate, a potent activator of NRF2. METHODS: We performed transcriptomic analysis in liver macrophages (LMs) of obese mice and identified the immuno-responsive gene 1 (Irg1) as a target of miR-144. IRG1 catalyzes the production of a TCA derivative, itaconate, an inhibitor of succinate dehydrogenase (SDH). TCA enzyme activities and kinetics were analyzed after miR-144 silencing in obese mice and human liver organoids using single-cell activity assays in situ and molecular dynamic simulations. RESULTS: Increased levels of miR-144 in obesity were associated with reduced expression of Irg1, which was restored on miR-144 silencing in vitro and in vivo. Furthermore, miR-144 overexpression reduces Irg1 expression and the production of itaconate in vitro. In alignment with the reduction in IRG1 levels and itaconate production, we observed an upregulation of SDH activity during obesity. Surprisingly, however, fumarate hydratase (FH) activity was also upregulated in obese livers, leading to the depletion of its substrate fumarate. miR-144 silencing selectively reduced the activities of both SDH and FH resulting in the accumulation of their related substrates succinate and fumarate. Moreover, molecular dynamics analyses revealed the potential role of itaconate as a competitive inhibitor of not only SDH but also FH. Combined, these results demonstrate that silencing of miR-144 inhibits the activity of NRF2 through decreased fumarate production in obesity. CONCLUSIONS: Herein we unravel a novel mechanism whereby miR-144 inhibits NRF2 activity through the consumption of fumarate by activation of FH. Our study demonstrates that hepatic miR-144 triggers a hyperactive FH in the TCA cycle leading to an impaired antioxidant response in obesity.",
+    "keywords": [
+      "Fumarase",
+      "Liver",
+      "Metabolism",
+      "Oxidative Stress",
+      "miRNAs"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Carboxy-Lyases/genetics/metabolism",
+      "Citric Acid Cycle",
+      "Disease Models, Animal",
+      "Fatty Liver/*enzymology/genetics",
+      "Fumarate Hydratase/genetics/*metabolism",
+      "Fumarates/metabolism",
+      "Humans",
+      "Hydro-Lyases/genetics/metabolism",
+      "*Insulin Resistance",
+      "Liver/*enzymology",
+      "Macrophages/*enzymology",
+      "Male",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "MicroRNAs/genetics/*metabolism",
+      "NF-E2-Related Factor 2/genetics/*metabolism",
+      "Obesity/*enzymology/genetics",
+      "Oxidative Stress",
+      "RAW 264.7 Cells",
+      "Reactive Oxygen Species/metabolism",
+      "Signal Transduction",
+      "Succinates/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Azzimato, Valerio",
+        "Chen, Ping",
+        "Barreby, Emelie",
+        "Morgantini, Cecilia",
+        "Levi, Laura",
+        "Vankova, Ana",
+        "Jager, Jennifer",
+        "Sulen, Andre",
+        "Diotallevi, Marina",
+        "Shen, Joanne X",
+        "Miller, Anne",
+        "Ellis, Ewa",
+        "Ryden, Mikael",
+        "Naslund, Erik",
+        "Thorell, Anders",
+        "Lauschke, Volker M",
+        "Channon, Keith M",
+        "Crabtree, Mark J",
+        "Haschemi, Arvand",
+        "Craige, Siobhan M",
+        "Mori, Mattia",
+        "Spallotta, Francesco",
+        "Aouadi, Myriam"
+      ],
+      "short_names": [
+        "Azzimato V",
+        "Chen P",
+        "Barreby E",
+        "Morgantini C",
+        "Levi L",
+        "Vankova A",
+        "Jager J",
+        "Sulen A",
+        "Diotallevi M",
+        "Shen JX",
+        "Miller A",
+        "Ellis E",
+        "Ryden M",
+        "Naslund E",
+        "Thorell A",
+        "Lauschke VM",
+        "Channon KM",
+        "Crabtree MJ",
+        "Haschemi A",
+        "Craige SM",
+        "Mori M",
+        "Spallotta F",
+        "Aouadi M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden. Electronic address: valerio.azzimato@ki.se.",
+        "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden.",
+        "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden.",
+        "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden.",
+        "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden.",
+        "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden.",
+        "Universite Cote d'Azur, Inserm, Centre Mediterraneen de Medecine Moleculaire (C3M), Team << Cellular and Molecular Pathophysiology of Obesity and Diabetes,>> Cote d'Azur, France.",
+        "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden.",
+        "BHF Centre of Research Excellence, Division of Cardiovascular Medicine, Radcliffe Department of Medicine, John Radcliffe Hospital, University of Oxford, Oxford, UK; Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+        "Department of Physiology and Pharmacology, Karolinska Institutet, Solna, Sweden.",
+        "Department of Laboratory Medicine, Medical University of Vienna, Vienna, Austria.",
+        "Division of Transplantation Surgery, Department of Clinical Science, Intervention and Technology (CLINTEC), Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Medicine (H7), Karolinska Institutet, Huddinge, Sweden.",
+        "Department of Clinical Sciences, Danderyd Hospital, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Clinical Sciences, Danderyd Hospital, Karolinska Institutet, Stockholm, Sweden; Department of Surgery, Ersta Hospital, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Physiology and Pharmacology, Karolinska Institutet, Solna, Sweden; Dr Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart, Germany.",
+        "BHF Centre of Research Excellence, Division of Cardiovascular Medicine, Radcliffe Department of Medicine, John Radcliffe Hospital, University of Oxford, Oxford, UK; Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+        "BHF Centre of Research Excellence, Division of Cardiovascular Medicine, Radcliffe Department of Medicine, John Radcliffe Hospital, University of Oxford, Oxford, UK; Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK.",
+        "Department of Laboratory Medicine, Medical University of Vienna, Vienna, Austria.",
+        "Department of Human Nutrition, Foods, and Exercise, Virginia Tech, Blacksburg, Virginia.",
+        "Department of Biotechnology, Chemistry, and Pharmacy, University of Siena, Siena, Italy.",
+        "Institute for Systems Analysis and Computer Science \"A. Ruberti,\" National Research Council (IASI - CNR), Rome, Italy.",
+        "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden. Electronic address: myriam.aouadi@ki.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Azzimato, Valerio",
+        "short_name": "Azzimato V",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden. Electronic address: valerio.azzimato@ki.se."
+        ]
+      },
+      {
+        "full_name": "Chen, Ping",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Barreby, Emelie",
+        "short_name": "Barreby E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Morgantini, Cecilia",
+        "short_name": "Morgantini C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Levi, Laura",
+        "short_name": "Levi L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Vankova, Ana",
+        "short_name": "Vankova A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Jager, Jennifer",
+        "short_name": "Jager J",
+        "identifiers": [],
+        "affiliations": [
+          "Université Côte d'Azur, Inserm, Centre Méditerranéen de Médecine Moléculaire (C3M), Team « Cellular and Molecular Pathophysiology of Obesity and Diabetes,» Côte d'Azur, France."
+        ]
+      },
+      {
+        "full_name": "Sulen, André",
+        "short_name": "Sulen A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Diotallevi, Marina",
+        "short_name": "Diotallevi M",
+        "identifiers": [],
+        "affiliations": [
+          "BHF Centre of Research Excellence, Division of Cardiovascular Medicine, Radcliffe Department of Medicine, John Radcliffe Hospital, University of Oxford, Oxford, UK; Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Shen, Joanne X",
+        "short_name": "Shen JX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Miller, Anne",
+        "short_name": "Miller A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Ellis, Ewa",
+        "short_name": "Ellis E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Transplantation Surgery, Department of Clinical Science, Intervention and Technology (CLINTEC), Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Rydén, Mikael",
+        "short_name": "Rydén M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine (H7), Karolinska Institutet, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Näslund, Erik",
+        "short_name": "Näslund E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Sciences, Danderyd Hospital, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Thorell, Anders",
+        "short_name": "Thorell A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Sciences, Danderyd Hospital, Karolinska Institutet, Stockholm, Sweden; Department of Surgery, Ersta Hospital, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lauschke, Volker M",
+        "short_name": "Lauschke VM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet, Solna, Sweden; Dr Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Channon, Keith M",
+        "short_name": "Channon KM",
+        "identifiers": [],
+        "affiliations": [
+          "BHF Centre of Research Excellence, Division of Cardiovascular Medicine, Radcliffe Department of Medicine, John Radcliffe Hospital, University of Oxford, Oxford, UK; Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Crabtree, Mark J",
+        "short_name": "Crabtree MJ",
+        "identifiers": [],
+        "affiliations": [
+          "BHF Centre of Research Excellence, Division of Cardiovascular Medicine, Radcliffe Department of Medicine, John Radcliffe Hospital, University of Oxford, Oxford, UK; Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Haschemi, Arvand",
+        "short_name": "Haschemi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Craige, Siobhan M",
+        "short_name": "Craige SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Nutrition, Foods, and Exercise, Virginia Tech, Blacksburg, Virginia."
+        ]
+      },
+      {
+        "full_name": "Mori, Mattia",
+        "short_name": "Mori M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry, and Pharmacy, University of Siena, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Spallotta, Francesco",
+        "short_name": "Spallotta F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Analysis and Computer Science \"A. Ruberti,\" National Research Council (IASI - CNR), Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Aouadi, Myriam",
+        "short_name": "Aouadi M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Infectious Medicine (CIM), Department of Medicine, Karolinska Institutet, Huddinge, Sweden. Electronic address: myriam.aouadi@ki.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gastroenterology"
+    ],
+    "journal_abbrev": [
+      "Gastroenterology"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/24 06:00",
+    "fetched_at": "2026-09-27 22:42:54"
+  },
+  "links": {
+    "cites": [
+      "42587830",
+      "41768994",
+      "41580823",
+      "41226441",
+      "40971725",
+      "40931345",
+      "40926989",
+      "40323920",
+      "40265422",
+      "40098726",
+      "39940866",
+      "39921443",
+      "39354366",
+      "38730297",
+      "38725842",
+      "38517358",
+      "38042791",
+      "38026235",
+      "37853305",
+      "37793345",
+      "37737207",
+      "37672200",
+      "37371692",
+      "37308721",
+      "37142886",
+      "36661492",
+      "36541023",
+      "36141228",
+      "36139075",
+      "35856025",
+      "35534573",
+      "34827683",
+      "34690698"
+    ],
+    "refs": [],
+    "similar": [
+      "34425095",
+      "38788445",
+      "31997373",
+      "39910615",
+      "38730297",
+      "32943614",
+      "35231555",
+      "38324982",
+      "36706797",
+      "26358042",
+      "22014577",
+      "35367821",
+      "32574955",
+      "32255424",
+      "38644791",
+      "32102936",
+      "31889412",
+      "39351765",
+      "27554470",
+      "29590092",
+      "38642169",
+      "28356443",
+      "28289076",
+      "31017694",
+      "27189937",
+      "23747014",
+      "34716304",
+      "34048566",
+      "39853881",
+      "22405071",
+      "36987812",
+      "38745069",
+      "30668541",
+      "30466076",
+      "39350193",
+      "39291665",
+      "24170703",
+      "31868937",
+      "39349845",
+      "30466006",
+      "39037913",
+      "35468044",
+      "38042791",
+      "26070669",
+      "26472283",
+      "30449595",
+      "22677546",
+      "40323920",
+      "38719928",
+      "29449371",
+      "27528759",
+      "25490448",
+      "36038039",
+      "34440821",
+      "39209138",
+      "38760862",
+      "39278309",
+      "33204402",
+      "38085578",
+      "39423929",
+      "34667156",
+      "35011574",
+      "14708972",
+      "28928081",
+      "38630726",
+      "32694786",
+      "25449120",
+      "39383830",
+      "37524706",
+      "23921124",
+      "33328206",
+      "34547129",
+      "30293776",
+      "32802189",
+      "32000066",
+      "37034222",
+      "32105670",
+      "24677249",
+      "32031966",
+      "22776233",
+      "34848368",
+      "38453127",
+      "38128618",
+      "37209857",
+      "25049078",
+      "31990992",
+      "23610393",
+      "34457120",
+      "27634173",
+      "30584668",
+      "22936178",
+      "31210338",
+      "35172156",
+      "36311727",
+      "39724735",
+      "34296312",
+      "33724516",
+      "20231875",
+      "31326116",
+      "35655026"
+    ],
+    "review": [
+      "34425095",
+      "35468044",
+      "38042791",
+      "27528759",
+      "14708972"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0016-5085(21)03410-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/34425095",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3579",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0016-5085(21)03410-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

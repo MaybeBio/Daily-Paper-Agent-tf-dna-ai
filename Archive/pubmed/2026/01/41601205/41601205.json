@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "41601205",
+    "doi": "10.1093/bioinformatics/btag048",
+    "title": "How negative sampling shapes the performance of transcription factor binding site prediction models."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Transcription factors (TFs) are key players in gene regulation and development, where they activate and repress gene expression through DNA binding. Predicting transcription factor binding sites (TFBSs) has long been an active area of research, with many deep learning methods developed to tackle this problem. These models are often trained on TF ChIP-seq data, which is generally seen as only providing positive samples. The choice of datasets and negative sampling techniques is a critical yet often overlooked aspect of this work. RESULTS: In this study, we investigate the impact of different negative sampling techniques on TFBS prediction performance. We create high-quality test datasets based on ChIP-seq and ATAC-seq data, where true negatives can be identified as positions that are accessible but not bound by the TF in question. We then train models using various negative sampling techniques, including genomic sampling, shuffling, dinucleotide shuffling, neighborhood sampling, and cell line specific sampling, simulating cases where matching ATAC-seq data is not available. Our results show that, generally, metrics calculated on training datasets give inflated performance scores. Of the tested techniques, genomic sampling of negatives based on similarity to the positives performed by far the best, although still not reaching the performance of baseline models trained on high-quality datasets. Models trained on dinucleotide shuffled negatives performed poorly, despite being a common practice in the field. Our findings highlight the importance of carefully selecting negative sampling techniques for TFBS prediction, as they can significantly impact model performance and the interpretation of results. AVAILABILITY AND IMPLEMENTATION: The code used in this study is available at https://github.com/NatanTourne/TFBS-negatives (DOI: 10.5281/zenodo.18007567).",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Transcription Factors/metabolism",
+      "*Computational Biology/methods",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Prediction Algorithms",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tourne, Natan",
+        "De Waele, Gaetan",
+        "Vermeirssen, Vanessa",
+        "Waegeman, Willem"
+      ],
+      "short_names": [
+        "Tourne N",
+        "De Waele G",
+        "Vermeirssen V",
+        "Waegeman W"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-5046-010X",
+        "ORCID: 0000-0003-0367-9699",
+        "ORCID: 0000-0002-1975-0712",
+        "ORCID: 0000-0002-5950-3003"
+      ],
+      "affiliations": [
+        "Department of Data Analysis and Mathematical Modelling, Ghent University, Ghent 9000, Belgium.",
+        "Department of Data Analysis and Mathematical Modelling, Ghent University, Ghent 9000, Belgium.",
+        "Lab for Computational Biology, Integromics and Gene Regulation (CBIGR), Cancer Research Institute Ghent (CRIG), Ghent 9000, Belgium.",
+        "Department of Biomedical Molecular Biology, Ghent University, Ghent 9000, Belgium.",
+        "Department of Biomolecular Medicine, Ghent University, Ghent 9000, Belgium.",
+        "Department of Data Analysis and Mathematical Modelling, Ghent University, Ghent 9000, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tourne, Natan",
+        "short_name": "Tourne N",
+        "identifiers": [
+          "0009-0000-5046-010X"
+        ],
+        "affiliations": [
+          "Department of Data Analysis and Mathematical Modelling, Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Waele, Gaetan",
+        "short_name": "De Waele G",
+        "identifiers": [
+          "0000-0003-0367-9699"
+        ],
+        "affiliations": [
+          "Department of Data Analysis and Mathematical Modelling, Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vermeirssen, Vanessa",
+        "short_name": "Vermeirssen V",
+        "identifiers": [
+          "0000-0002-1975-0712"
+        ],
+        "affiliations": [
+          "Lab for Computational Biology, Integromics and Gene Regulation (CBIGR), Cancer Research Institute Ghent (CRIG), Ghent 9000, Belgium.",
+          "Department of Biomedical Molecular Biology, Ghent University, Ghent 9000, Belgium.",
+          "Department of Biomolecular Medicine, Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Waegeman, Willem",
+        "short_name": "Waegeman W",
+        "identifiers": [
+          "0000-0002-5950-3003"
+        ],
+        "affiliations": [
+          "Department of Data Analysis and Mathematical Modelling, Ghent University, Ghent 9000, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Feb 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:47",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38733561",
+      "38732207",
+      "37852782",
+      "36719906",
+      "35997564",
+      "35776115",
+      "35263332",
+      "34850907",
+      "34608324",
+      "34272562",
+      "33603233",
+      "33355120",
+      "33135764",
+      "31713622",
+      "30922998",
+      "30918943",
+      "30323198",
+      "29993783",
+      "29272704",
+      "28234893",
+      "27153639",
+      "27084946",
+      "26464018",
+      "26301843",
+      "26213851",
+      "25775564",
+      "24039567",
+      "22955616",
+      "22851788",
+      "22803940",
+      "22056668",
+      "20946807",
+      "19583839",
+      "19339686",
+      "19304878",
+      "19274049",
+      "19265799",
+      "16405732",
+      "15186484",
+      "15173120",
+      "10845565"
+    ],
+    "similar": [
+      "41601205",
+      "38701417",
+      "40102719",
+      "24927817",
+      "42099803",
+      "39701486",
+      "24472686",
+      "40702706",
+      "36719906",
+      "24039567",
+      "39350338",
+      "23427986",
+      "41634097",
+      "34174819",
+      "42475469",
+      "40848288",
+      "38643066",
+      "20158869",
+      "29757349",
+      "25957350",
+      "27845669",
+      "31723409",
+      "40914877",
+      "20838582",
+      "38940155",
+      "30447332",
+      "36484687",
+      "32660981",
+      "34929739",
+      "27209209",
+      "28718849",
+      "24564277",
+      "38732207",
+      "29617876",
+      "34272562",
+      "30084962",
+      "21912677",
+      "16362910",
+      "33999190",
+      "36094959",
+      "42145197",
+      "28750606",
+      "33372147",
+      "26818008",
+      "35681170",
+      "41022541",
+      "25070602",
+      "40646689",
+      "41310253",
+      "40662821",
+      "40411397",
+      "27993786",
+      "34073774",
+      "35997560",
+      "33975951",
+      "35997564",
+      "23272209",
+      "20663846",
+      "39482734",
+      "19956545",
+      "27567672",
+      "23282203",
+      "31465497",
+      "32976105",
+      "33416862",
+      "37598467",
+      "20056654",
+      "34579793",
+      "31742324",
+      "37805453",
+      "42114111",
+      "20360861",
+      "22784574",
+      "35042722",
+      "39107889",
+      "31347689",
+      "26679776",
+      "30380113",
+      "23980024",
+      "34292930",
+      "26130577",
+      "34488759",
+      "27052996",
+      "31336830",
+      "21124986",
+      "36631751",
+      "41325984",
+      "33522898",
+      "32043966",
+      "35809062",
+      "23522376",
+      "38515040",
+      "40889326",
+      "21533218",
+      "25775564",
+      "19586888",
+      "28961802",
+      "39623329",
+      "35462009",
+      "26291518"
+    ],
+    "review": [
+      "41601205",
+      "30447332",
+      "30084962",
+      "31742324"
+    ],
+    "pmc": [
+      "12910371"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41601205.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41601205/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag048",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

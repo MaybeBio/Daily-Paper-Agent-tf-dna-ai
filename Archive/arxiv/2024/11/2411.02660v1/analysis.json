@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2411.02660v1",
+  "title": "Target search on networks-within-networks with applications to protein-DNA interactions",
+  "authors": "Lucas Hedström; Seong-Gyu Yang; Ludvig Lizana",
+  "journal": "",
+  "published_date": "2024-11-04",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出多层网络中的目标搜索理论框架，以蛋白-DNA互作作为应用场景之一，但未涉及具体结合位点预测或三维互作建模，方法为网络理论而非AI或物理模拟，仅部分相关。",
+  "abstract": "We present a novel framework for understanding node target search in systems organized as hierarchical networks-within-networks. Our work generalizes traditional search models on complex networks, where the mean-first passage time is typically inversely proportional to the node degree. However, real-world search processes often span multiple network layers, such as moving from an external environment into a local network, and then navigating several internal states. This multilayered complexity appears in scenarios such as international travel networks, tracking email spammers, and the dynamics of protein-DNA interactions in cells. Our theory addresses these complex systems by modeling them as a three-layer multiplex network: an external source layer, an intermediate spatial layer, and an internal state layer. We derive general closed-form solutions for the steady-state flux through a target node, which serves as a proxy for inverse mean-first passage time. Our results reveal a universal relationship between search efficiency and network-specific parameters. This work extends the current understanding of multiplex networks by focusing on systems with hierarchically connected layers. Our findings have broad implications for fields ranging from epidemiology to cellular biology and provide a more comprehensive understanding of search dynamics in complex, multilayered environments.",
+  "abstract_zh": "我们提出了一种新颖的框架，用于理解在层级化网络嵌套系统（即网络中的网络）中节点目标搜索的问题。我们的工作推广了复杂网络上的传统搜索模型，其中平均首次通过时间通常与节点度成反比。然而，现实世界中的搜索过程往往跨越多个网络层，例如从外部环境进入局部网络，然后在多个内部状态间导航。这种多层复杂性出现在诸如国际旅行网络、追踪电子邮件垃圾邮件发送者以及细胞内蛋白质-DNA相互作用动力学等场景中。我们的理论通过将这些复杂系统建模为三层多路复用网络（multiplex network）来解决：一个外部源层、一个中间空间层和一个内部状态层。我们推导了通过目标节点的稳态通量的通用闭式解，该通量作为平均首次通过时间倒数的代理指标。我们的结果揭示了搜索效率与网络特定参数之间的普遍关系。这项工作通过聚焦于具有层级连接层的系统，扩展了当前对多路复用网络的理解。我们的发现对从流行病学到细胞生物学等领域具有广泛意义，并为复杂多层环境中的搜索动力学提供了更全面的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2411.02660v1",
+  "source_url": "https://arxiv.org/abs/2411.02660v1",
+  "paper_page_path": "papers/arxiv/2411.02660v1/index.html"
+}

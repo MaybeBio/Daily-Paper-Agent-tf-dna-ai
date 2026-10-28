@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided. Figures, tables, and supplementary materials referenced but not fully available.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and support for claims based on the provided text. No assessment of code functionality or data availability beyond what is stated.
+- **Shared manuscript claim summary** The authors propose BERT-TFBS, a model combining a pre-trained DNABERT-2 transformer with CNN and CBAM modules, for predicting transcription factor binding sites from DNA sequence alone. They report superior performance over six benchmark models across 165 ENCODE ChIP-seq datasets, supported by ablation studies and cross-cell-line validation.
+- **Visible evidence base** Text descriptions of model architecture, training procedure, evaluation metrics, and summarized quantitative results (averages, medians, quartiles) for ablation and benchmark comparisons. References to Supplementary Tables S1-S4 and S6-S10, and Figures 1-8, none of which were provided in full.
+- **Missing materials affecting confidence** All figures and tables, including the main results tables (Table 1, Table 2) and all supplementary tables. Detailed hyperparameter settings (Supplementary Table S3), per-dataset results (Supplementary Tables S4, S10), and cross-cell-line results (Supplementary Tables S6-S9). Statistical significance testing details. Code repository contents not verifiable.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational genomics and applies a reasonable combination of established components (DNABERT-2, CNN, CBAM). The writing is clear and the methodology is described in adequate detail for replication. However, the core claims of superior performance and generalization rest on quantitative results that are not visible in the provided material. The absence of all figures and tables, including the primary comparison table, prevents verification of the central conclusions. Several methodological details regarding baseline fairness, statistical testing, and dataset construction also require clarification. The novelty relative to existing BERT-based TFBS predictors is not clearly established.
+- **Who would be interested in the results, and why** Researchers developing deep learning methods for regulatory genomics, particularly those applying transformer architectures and transfer learning to DNA sequence analysis. Computational biologists interested in TFBS prediction tools for regulatory element annotation and metabolic engineering applications. The work may also be of interest to method developers comparing attention-based and CNN-based architectures for sequence classification.
+- **Major strengths** The problem is well motivated and practically relevant. The architecture combines a strong pre-trained model with task-specific modules in a sensible way. The evaluation plan includes ablation studies and cross-cell-line validation, which are appropriate for assessing component contributions and generalization. The manuscript is clearly written and the mathematical formulations are presented in a standard manner.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that BERT-TFBS outperforms six benchmark models in terms of accuracy, ROC-AUC and PR-AUC across 165 ChIP-seq datasets.
+  - **Evidence pointer** Table 2, Figure 8, Supplementary Table S10 (location not provided in the supplied text)
+  - **Concern** The central quantitative claim of superior performance cannot be assessed because Table 2, Figure 8, and Supplementary Table S10 are not included in the provided material. The text reports average values and percentage improvements but does not provide the actual numbers in the body of the manuscript.
+  - **Why it matters** The primary contribution of the paper is the claimed performance improvement over existing methods. Without access to the actual results, including per-dataset variability and the magnitude of improvements, the central conclusion is unverifiable.
+  - **Resolution test** Provide the full results tables and figures, including per-dataset scores for all models, and confirm that the reported averages and improvements are accurately derived from these data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript states that BERT-TFPS outperforms benchmark models and that ablation components contribute significantly to performance.
+  - **Evidence pointer** Section "Model variants", Section "Comparison with other models" (location not provided)
+  - **Concern** No statistical significance testing is reported. The text reports average improvements and distribution summaries but does not indicate whether differences between models or between BERT-TFBS and its variants are statistically significant. Given that 165 datasets are used, paired tests across datasets would be feasible and expected.
+  - **Why it matters** Without significance testing, the reported improvements could be within the range of random variation, particularly for datasets where performance differences are small. This weakens the claim of consistent superiority.
+  - **Resolution test** Report appropriate paired statistical tests (e.g., Wilcoxon signed-rank test) across the 165 datasets for each metric, with effect sizes and confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript states that negative samples are generated by random permutation of positive sequences while preserving nucleotide frequencies.
+  - **Evidence pointer** Section "Benchmark dataset" (location not provided)
+  - **Concern** The negative sample construction via random permutation preserves mononucleotide frequencies but may not preserve higher-order sequence properties such as dinucleotide or trinucleotide frequencies. This could make the classification task artificially easy, as models might discriminate based on sequence composition rather than genuine binding signals. The manuscript does not discuss this potential confound.
+  - **Why it matters** If the negative samples are not representative of true non-binding genomic sequences, the reported performance may not translate to real-world applications where background sequence composition is more complex.
+  - **Resolution test** Justify the negative sample construction approach, compare with alternative strategies (e.g., genomic background matching), or demonstrate that results are robust to the choice of negative sample generation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty
+  - **Claim pointer** The manuscript claims this is the first study to apply a pre-trained language model and transfer learning to improve TFBS prediction.
+  - **Evidence pointer** Section "Conclusion" (location not provided)
+  - **Concern** The claim of being first is not supported by a systematic comparison with existing BERT-based or transformer-based TFBS prediction methods. Several such methods have been published in recent years, and the introduction does not discuss them in sufficient detail to establish the novelty claim.
+  - **Why it matters** The novelty claim is a key part of the paper's contribution. If similar approaches have been published, the incremental contribution of this work needs to be clearly delineated.
+  - **Resolution test** Expand the related work section to cover recent transformer-based and BERT-based TFBS predictors, and revise the novelty claim to be specific about what is new relative to these methods.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that the source code is available at a GitHub repository.
+  - **Evidence pointer** Abstract, Section "Conclusion" (location not provided)
+  - **Concern** The code repository is referenced but its contents, documentation, and usability cannot be verified from the provided material. No version, license, or dependency information is given.
+  - **Why it matters** Reproducibility is a core expectation for computational method papers. Without verifiable code and clear usage instructions, other researchers cannot easily apply or benchmark the method.
+  - **Resolution test** Confirm the repository is publicly accessible, contains the full implementation, includes a README with usage examples, and specifies dependencies and license.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Model variants"
+  - **Evidence pointer** Text describing variant models (location not provided)
+  - **Issue** The description of BERT-TFBS-v1 states it lacks both the CNN module and the convolutional layer in the output module, while BERT-TFBS-v2 lacks only the CBAM. It is unclear whether the output module convolutional layer is considered part of the CNN module or a separate component.
+  - **Required correction** Clarify the exact architectural differences between the full model and each variant, possibly with a schematic or explicit layer-by-layer description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Cross-cell-line validation"
+  - **Evidence pointer** Text describing cross-cell-line experiments (location not provided)
+  - **Concern** The choice of GM12878, Helas3, Hepg2, and K562 cell lines is stated but not justified. The rationale for selecting these specific cell lines and the CTCF transcription factor for validation is not explained.
+  - **Required correction** Provide a brief justification for the selected cell lines and TF, or state that they were chosen based on data availability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Section "Comparison with other models"
+  - **Evidence pointer** Text describing benchmark comparisons (location not provided)
+  - **Concern** The manuscript states that DSAC and DanQ are the best and worst performing benchmark models, respectively, but does not report the full ranking or the specific values for all six models in the main text.
+  - **Required correction** Include the complete results for all benchmark models in the main text or clearly reference the supplementary table where these are available.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section "Conclusion"
+  - **Evidence pointer** Text stating the model can "discover the motif combinations of TFBSs" (location not provided)
+  - **Concern** The conclusion states the model can discover motif combinations, but the manuscript does not present any motif discovery or interpretability analysis. This claim is not supported by the presented results.
+  - **Required correction** Either add a motif analysis section or revise the conclusion to accurately reflect what the model does (classification, not motif discovery).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Model training"
+  - **Evidence pointer** Text describing training procedure (location not provided)
+  - **Issue** The manuscript does not specify the computational resources used for training, training time, or the number of parameters in the model.
+  - **Required correction** Add details on computational cost and model size to help readers assess practical feasibility.
+
+## Risk / unsupported claims
+- The claim that BERT-TFBS outperforms all six benchmark models is unsupported in the provided material because the primary results table and figure are not visible.
+- The claim of being the first to apply pre-trained language models and transfer learning to TFBS prediction is not adequately supported by the related work discussion.
+- The claim that the model can "discover the motif combinations of TFBSs" is not supported by any presented analysis.
+- The generalization claim based on cross-cell-line validation is partially supported by text descriptions but the actual results are not visible.
+- The effectiveness of the CNN and CBAM components is described with percentage improvements but the underlying data are not available for verification.
+- The suitability of the negative sample construction method for representing true non-binding sequences is not demonstrated.

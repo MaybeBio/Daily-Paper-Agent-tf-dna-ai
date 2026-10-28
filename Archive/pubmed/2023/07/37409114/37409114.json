@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "37409114",
+    "doi": "10.3389/fimmu.2023.1207522",
+    "title": "Deciphering the contributions of cuproptosis in the development of hypertrophic scar using single-cell analysis and machine learning techniques."
+  },
+  "content": {
+    "abstract": "Hypertrophic scar (HS) is a chronic inflammatory skin disease characterized by excessive deposition of extracellular matrix, but the exact mechanisms related to its formation remain unclear, making it difficult to treat. This study aimed to investigate the potential role of cuproptosis in the information of HS. To this end, we used single-cell sequencing and bulk transcriptome data, and screened for cuproptosis-related genes (CRGs) using differential gene analysis and machine learning algorithms (random forest and support vector machine). Through this process, we identified a group of genes, including ATP7A, ULK1, and MTF1, as novel therapeutic targets for HS. Furthermore, quantitative real-time polymerase chain reaction (qRT-PCR) was conducted to confirm the mRNA expression of ATP7A, ULK1, and MTF1 in both HS and normal skin (NS) tissues. We also constructed a diagnostic model for HS and analyzed the immune infiltration characteristics. Additionally, we used the expression profiles of CRGs to perform subgroup analysis of HS. We focused mainly on fibroblasts in the transcriptional profile at single-cell resolution. By calculating the cuproptosis activity of each fibroblast, we found that cuproptosis activity of normal skin fibroblasts increased, providing further insights into the pathogenesis of HS. We also analyzed the cell communication network and transcription factor regulatory network activity, and found the existence of a fibroblast-centered communication regulation network in HS, where cuproptosis activity in fibroblasts affects intercellular communication. Using transcription factor regulatory activity network analysis, we obtained highly active transcription factors, and correlation analysis with CRGs suggested that CRGs may serve as potential target genes for transcription factors. Overall, our study provides new insights into the pathophysiological mechanisms of HS, which may inspire new ideas for the diagnosis and treatment.",
+    "keywords": [
+      "GEO",
+      "cuproptosis",
+      "hypertrophic scar",
+      "machine learning",
+      "single-cell"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Algorithms",
+      "*Cicatrix, Hypertrophic/genetics",
+      "Machine Learning",
+      "Single-Cell Analysis",
+      "Skin",
+      "Copper",
+      "*Apoptosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Binyu",
+        "Liu, Wei",
+        "Zhu, Yuhan",
+        "Peng, Yixuan",
+        "Cui, Zhiwei",
+        "Gao, Botao",
+        "Chen, Lin",
+        "Yu, Zhou",
+        "Song, Baoqiang"
+      ],
+      "short_names": [
+        "Song B",
+        "Liu W",
+        "Zhu Y",
+        "Peng Y",
+        "Cui Z",
+        "Gao B",
+        "Chen L",
+        "Yu Z",
+        "Song B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Binyu",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yuhan",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yixuan",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhiwei",
+        "short_name": "Cui Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Botao",
+        "short_name": "Gao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lin",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhou",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Song, Baoqiang",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/06 06:42",
+    "fetched_at": "2026-09-29 03:25:47"
+  },
+  "links": {
+    "cites": [
+      "40090940",
+      "38006215",
+      "37955686"
+    ],
+    "refs": [
+      "37229449",
+      "37168863",
+      "36816017",
+      "36601107",
+      "36539189",
+      "36482419",
+      "36253436",
+      "36238639",
+      "36226193",
+      "36059641",
+      "35899194",
+      "35790864",
+      "35669369",
+      "35655759",
+      "35637963",
+      "35627236",
+      "35322483",
+      "35298263",
+      "35047019",
+      "34630414",
+      "34522161",
+      "34276676",
+      "34140509",
+      "33295246",
+      "32741903",
+      "32141576",
+      "31792399",
+      "31555142",
+      "29976656",
+      "29734314",
+      "28991892",
+      "28363297",
+      "28287424",
+      "27707499",
+      "27636511",
+      "27172994",
+      "21969590",
+      "21838832",
+      "15284217"
+    ],
+    "similar": [
+      "37409114",
+      "37986676",
+      "36760248",
+      "37497230",
+      "38687912",
+      "37822923",
+      "37215133",
+      "36479114",
+      "38074089",
+      "38935114",
+      "37333810",
+      "37275904",
+      "37143115",
+      "38690269",
+      "37547319",
+      "37324184",
+      "37529244",
+      "37928399",
+      "38771661",
+      "37091865",
+      "37060021",
+      "37168863",
+      "37308925",
+      "37313407",
+      "37279744",
+      "38835051",
+      "37393262",
+      "38181851",
+      "37533853",
+      "37903189",
+      "36376617",
+      "23857156",
+      "29056521",
+      "36045691",
+      "37338187",
+      "36891150",
+      "37266442",
+      "37090740",
+      "36817415",
+      "36353226",
+      "28075443",
+      "38314148",
+      "38163157",
+      "39428264",
+      "37384293",
+      "36341437",
+      "36438201",
+      "35937995",
+      "33355167",
+      "37620966",
+      "36743388",
+      "36671512",
+      "38062233",
+      "31732152",
+      "37168531",
+      "36518756",
+      "38085668",
+      "36213162",
+      "37622116",
+      "36647100",
+      "36466876",
+      "29428666",
+      "36818726",
+      "36647156",
+      "36980514",
+      "36588699",
+      "28933518",
+      "36082469",
+      "37065492",
+      "36110528",
+      "38348451",
+      "35627236",
+      "37330494",
+      "37286711",
+      "36341328",
+      "24525335",
+      "35047019",
+      "37166466",
+      "36387247",
+      "33165823",
+      "36110851",
+      "35967366",
+      "36843949",
+      "27133042",
+      "10810039",
+      "26092470",
+      "36405733",
+      "25683490",
+      "36060936",
+      "37266152",
+      "22292410",
+      "37259036",
+      "36312586",
+      "36440046",
+      "36248822",
+      "28562226",
+      "36209249",
+      "36949429",
+      "36329405",
+      "37207785",
+      "36653385",
+      "35294085",
+      "36707046",
+      "36703728",
+      "29393369",
+      "36628249",
+      "32308208",
+      "29658663",
+      "33977869",
+      "35964468",
+      "23054143",
+      "27207585",
+      "38262564",
+      "38063107",
+      "39164344",
+      "36878530",
+      "39053428",
+      "38414482",
+      "37701435",
+      "39308676",
+      "37905958",
+      "37705070",
+      "38605864"
+    ],
+    "review": [
+      "37409114",
+      "36045691",
+      "35627236",
+      "39053428",
+      "37705070"
+    ],
+    "pmc": [
+      "10318401"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37409114/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37409114",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1207522",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "42112339",
+    "doi": "10.3389/fimmu.2026.1819148",
+    "title": "WSTF-associated regulation of GLYCTK and metabolic adaptation in colorectal cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is a leading cause of cancer-related morbidity and mortality worldwide, driven by complex genetic and epigenetic factors. The Williams syndrome transcription factor (WSTF/BAZ1B), an emerging oncogenic factor, has been implicated in chromatin remodeling and genome stability. However, the precise mechanisms in CRC progression, particularly the metabolic reprogramming processes, remain unclear. METHODS: This study integrated transcriptomic, metabolomic, genome-wide ChIP-seq and summary-data-based Mendelian randomization (SMR) analyses in CRC cells and patient cohorts to study the WSTF regulatory network. WSTF knockdown and overexpression cell lines were combined with RNA-seq, LC-MS metabolomics and ChIP-seq annotation to identify direct targets and affected pathways. Multi-omics SMR using CRC GWAS, eQTL and mQTL datasets, together with bulk and single-cell RNA-seq, immune infiltration, functional assays and molecular docking were applied to explore GLYCTK as a candidate downstream effector of WSTF and a putative CRC-associated marker. RESULTS: WSTF knockdown reprogrammed transcription and metabolism, activating glucose and stress-response pathways while suppressing ribosome biogenesis, genetic information processing and MYC-related programs. ChIP-seq suggested that WSTF mainly binds to promoter-proximal, GC-rich motifs and identified GLYCTK as a candidate downstream target whose expression is inversely associated with WSTF. SMR analysis suggested a methylation-dependent regulatory relationship in which GLYCTK expression is associated with CRC risk. The immune infiltration analyses suggested that GLYCTK is associated with an immune-cold tumor microenvironment, whereas functional assays indicated that GLYCTK promotes proliferation, migration and invasion in CRC cells. Drug screening identified phenylbiguanide and hydroxyfasudil as candidate compounds targeting GLYCTK-associated networks. CONCLUSIONS: WSTF may contribute to CRC progression through transcriptional and epigenetic-associated regulation of metabolic adaptation, while GLYCTK may represent a context-dependent downstream factor associated with CRC susceptibility and development.",
+    "keywords": [
+      "GLYCTK",
+      "WSTF",
+      "colorectal cancer",
+      "immune microenvironment",
+      "metabolic reprogramming",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/metabolism/genetics/pathology",
+      "Metabolic Reprogramming",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Transcription Factors/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Liming",
+        "Liu, Yan",
+        "Li, Yufeng",
+        "Zheng, Shasha",
+        "Guo, Jimin",
+        "Chen, Shuai",
+        "Yu, Yuan",
+        "Fang, Wei",
+        "Li, Jingwu"
+      ],
+      "short_names": [
+        "Zhou L",
+        "Liu Y",
+        "Li Y",
+        "Zheng S",
+        "Guo J",
+        "Chen S",
+        "Yu Y",
+        "Fang W",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Life Sciences, North China University of Science and Technology, Tangshan, China.",
+        "College of Life Sciences, North China University of Science and Technology, Tangshan, China.",
+        "The Cancer Institute, Hebei Key Laboratory of Molecular Oncology, Tangshan People's Hospital, Tangshan, China.",
+        "The Cancer Institute, Hebei Key Laboratory of Molecular Oncology, Tangshan People's Hospital, Tangshan, China.",
+        "College of Life Sciences, North China University of Science and Technology, Tangshan, China.",
+        "College of Life Sciences, North China University of Science and Technology, Tangshan, China.",
+        "College of Life Sciences, North China University of Science and Technology, Tangshan, China.",
+        "College of Life Sciences, North China University of Science and Technology, Tangshan, China.",
+        "College of Life Sciences, North China University of Science and Technology, Tangshan, China.",
+        "The Cancer Institute, Hebei Key Laboratory of Molecular Oncology, Tangshan People's Hospital, Tangshan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Liming",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, North China University of Science and Technology, Tangshan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, North China University of Science and Technology, Tangshan, China.",
+          "The Cancer Institute, Hebei Key Laboratory of Molecular Oncology, Tangshan People's Hospital, Tangshan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yufeng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Cancer Institute, Hebei Key Laboratory of Molecular Oncology, Tangshan People's Hospital, Tangshan, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Shasha",
+        "short_name": "Zheng S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, North China University of Science and Technology, Tangshan, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jimin",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, North China University of Science and Technology, Tangshan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuai",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, North China University of Science and Technology, Tangshan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yuan",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, North China University of Science and Technology, Tangshan, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Wei",
+        "short_name": "Fang W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, North China University of Science and Technology, Tangshan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingwu",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "The Cancer Institute, Hebei Key Laboratory of Molecular Oncology, Tangshan People's Hospital, Tangshan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/11 13:00",
+    "fetched_at": "2026-10-01 20:31:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39627214",
+      "39482716",
+      "39147986",
+      "38909621",
+      "36866529",
+      "36653562",
+      "34475573",
+      "34140529",
+      "34028125",
+      "32518374",
+      "32124323",
+      "29500431",
+      "29021563",
+      "28610873",
+      "27449264",
+      "27079975",
+      "25765347",
+      "25751142",
+      "25516281",
+      "24695404",
+      "22312429",
+      "21559432",
+      "20949620",
+      "19541911",
+      "19458158",
+      "19234442",
+      "19092802",
+      "18798982",
+      "18077471",
+      "16603771",
+      "16514417",
+      "16199517",
+      "15543136",
+      "11980720",
+      "10662543",
+      "9828126",
+      "2537226"
+    ],
+    "similar": [
+      "42112339",
+      "41436831",
+      "40764361",
+      "42317214",
+      "41699549",
+      "41743703",
+      "41191606",
+      "41958675",
+      "40656610",
+      "41601676",
+      "40990012",
+      "41559659",
+      "41601652",
+      "42004723",
+      "42470494",
+      "41430151",
+      "41485251",
+      "41219406",
+      "41621766",
+      "40643716",
+      "42401341",
+      "42370143",
+      "42479091",
+      "29734178",
+      "41806184",
+      "42509406",
+      "31217031",
+      "41694394",
+      "40933995",
+      "40434736",
+      "41635856",
+      "40475762",
+      "41716413",
+      "40855282",
+      "27449264",
+      "41204349",
+      "31492160",
+      "42163252",
+      "40891683",
+      "42218401",
+      "41286470",
+      "42069097",
+      "33853662",
+      "42136962",
+      "39984869",
+      "41580703",
+      "42131349",
+      "42530263",
+      "40374962",
+      "42082463",
+      "42009961",
+      "40586903",
+      "41966374",
+      "33557837",
+      "42263871",
+      "41801343",
+      "42391245",
+      "41985081",
+      "42216546",
+      "38858644",
+      "42271539",
+      "37729701",
+      "40463370",
+      "38430268",
+      "41917876",
+      "31230592",
+      "26619963",
+      "42400616",
+      "40684839",
+      "40860196",
+      "39864590",
+      "40485064",
+      "42501233",
+      "39316306",
+      "39489208",
+      "38666541",
+      "39973554",
+      "42018204",
+      "37935302",
+      "41792142",
+      "41546483",
+      "41342434",
+      "41672292",
+      "41198561",
+      "40842994",
+      "42223712",
+      "41814682",
+      "40068177",
+      "29507648",
+      "42050706",
+      "31204011",
+      "42212139",
+      "41772703",
+      "41782869",
+      "42064057",
+      "31903135",
+      "42317343",
+      "39717768",
+      "33931578",
+      "41086679"
+    ],
+    "review": [
+      "42112339",
+      "41219406"
+    ],
+    "pmc": [
+      "13150450"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42112339/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1819148",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42561036",
+  "title": "Uncovering the molecular landscape of young-onset diffuse gastric cancer: A relieff-based feature selection analysis on RNA-Seq data.",
+  "authors": "Azni, Zahra Khalili; Borhani, Matia Sadat; Sabouri, Hossein; Sajadi, Sayed Javad; Arjmand, Maryam Pasandideh",
+  "journal": "PloS one",
+  "published_date": "2026-08-06",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用ReliefF特征选择和网络分析挖掘弥漫性胃癌RNA-Seq数据，虽涉及转录因子预测，但核心是疾病标志物发现，非蛋白质-DNA互作建模，且无AI/物理模拟方法用于结合机制研究。",
+  "abstract": "BACKGROUND: Diffuse Gastric Cancer (DGC) is an aggressive subtype with a poor prognosis and a lack of specific biomarkers, representing a critical unmet need in oncology. This study aimed to elucidate the key molecular drivers of DGC by integrating RNA-seq data with a multi-faceted bioinformatics approach. METHODS: We analyzed RNA-seq data from young-onset DGC and normal tissues (GSE113255, GSE122401). Machine learning (ML) feature selection (ReliefF algorithm) was used to prioritize genes, followed by protein-protein interaction network analysis to identify hub genes. Their roles were further investigated through Gene Ontology, KEGG pathway analysis, tumor microenvironment immune infiltration, miRNA-regulatory network analysis, transcription factor prediction, and computational drug repurposing analyses. RESULTS: Our ML‑driven approach identified seven hub genes central to DGC pathogenesis including CCL5, CXCR4, MMP9, FOXP3, IL18, TNFSF11, and TNFSF13B. Among these, three prioritized core hub genes (CXCR4, MMP9, and TNFSF13B) were selected based on statistically significant overexpression and complementary functional roles. Specifically, CXCR4 showed a Fold Change of 3.12 (Log2FC = 1.64, FDR = 0.01), MMP9 exhibited the highest magnitude of upregulation (Fold Change = 16.58, Log2FC = 4.05), and TNFSF13B demonstrated the most statistically significant differential expression (Fold Change = 2.32, Log2FC = 1.21, FDR < 0.000001). High CXCR4 expression was identified as a potential prognostic indicator associated with poorer overall survival in the TCGA‑STAD cohort (HR = 1.5, p = 0.0072). We delineated a core regulatory circuitry where NF‑kappaB (NFKB1/RELA) masterfully regulates the hub gene network. Drug repurposing analysis nominated several FDA‑approved agents, including the VEGF‑A inhibitor Bevacizumab, which indirectly suppresses CXCR4 and MMP9. CONCLUSION: This pilot study establishes a robust integrative framework that synergizes ML with network biology. It nominates CXCR4 and TNFSF13B as candidate therapeutic targets and highlights the potential of ML‑based feature selection for discovering biologically relevant, context‑dependent prognostic indicators in DGC. However, we emphasize that these findings are exploratory and hypothesis‑generating, requiring independent validation through experimental studies and larger cohorts before any clinical translation.",
+  "abstract_zh": "背景：弥漫性胃癌（Diffuse Gastric Cancer, DGC）是一种侵袭性亚型，预后差且缺乏特异性生物标志物，在肿瘤学中代表了一个亟待满足的临床需求。本研究旨在通过整合RNA-seq数据与多层面生物信息学方法，阐明DGC的关键分子驱动因素。方法：我们分析了年轻发病DGC及正常组织的RNA-seq数据（GSE113255, GSE122401）。采用机器学习（ML）特征选择（ReliefF算法）对基因进行优先级排序，随后通过蛋白质-蛋白质相互作用网络分析识别枢纽基因。通过基因本体论、KEGG通路分析、肿瘤微环境免疫浸润、miRNA调控网络分析、转录因子预测及计算药物重定位分析，进一步探讨了这些基因的作用。结果：我们的ML驱动方法识别出七个与DGC发病机制相关的枢纽基因，包括CCL5、CXCR4、MMP9、FOXP3、IL18、TNFSF11和TNFSF13B。其中，基于统计学显著过表达和互补功能角色，选出了三个优先核心枢纽基因（CXCR4、MMP9和TNFSF13B）。具体而言，CXCR4的倍数变化为3.12（Log2FC = 1.64，FDR = 0.01），MMP9表现出最高幅度的上调（倍数变化 = 16.58，Log2FC = 4.05），而TNFSF13B则显示出最统计学显著的差异表达（倍数变化 = 2.32，Log2FC = 1.21，FDR < 0.000001）。在TCGA-STAD队列中，高CXCR4表达被确定为与较差总生存期相关的潜在预后指标（HR = 1.5，p = 0.0072）。我们描绘了一个核心调控回路，其中NF-kappaB（NFKB1/RELA）主控枢纽基因网络。药物重定位分析提名了几种FDA批准的药物，包括VEGF-A抑制剂贝伐珠单抗，其间接抑制CXCR4和MMP9。结论：本初步研究建立了一个稳健的整合框架，将机器学习与网络生物学协同结合。它提名CXCR4和TNFSF13B作为候选治疗靶点，并强调了基于机器学习的特征选择在发现DGC中生物学相关、情境依赖性预后指标方面的潜力。然而，我们强调这些发现是探索性和假设生成性的，在任何临床转化之前，需要通过实验研究和更大规模队列进行独立验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42561036/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42561036/",
+  "paper_page_path": "papers/pubmed/42561036/index.html"
+}

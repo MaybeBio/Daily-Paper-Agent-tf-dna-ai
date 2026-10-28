@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42081471",
+  "title": "Co-morbid biomarkers for sarcopenic obesity associated with gut microbiota metabolites: From burden to treatment.",
+  "authors": "Wang, Juehan; Li, Haijun; Shi, Weiyi; Ren, Xiaoxu; Liu, Yingying; Mao, Lin; Wang, Daming; Zhang, Tianfang; Zhang, Ziwei; Zheng, Huiqin; Yang, Xiaofeng; Yao, Mingfei; Chen, Zuobing",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-05-04",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过机器学习识别肌少性肥胖共病生物标志物，虽涉及转录因子结合位点预测和分子对接，但核心对象非蛋白质-DNA互作体系，方法应用浅层，与本课题关联度低。",
+  "abstract": "BACKGROUND: The detrimental cycle of sarcopenic obesity (SO) significantly reduces quality of life in older adults, while the mechanisms are still unclear. MATERIALS AND METHODS: We first analyzed the incidence of SO using the CHARLS database. We identified key genes by integrating differentially expressed genes, weighted gene co-expression network analysis, and targets of gut microbiota metabolites, refining the selection through machine learning methods (LASSO, XGBoost, SVM-REF, Random Forest). These genes were validated through single-cell sequencing, receiver operating characteristic analysis, and Muscle immunohistochemistry in a high-fat-diet (HFD) induced mouse model. Further analyses comprised immune infiltration profiling, pathway enrichment, and transcriptional regulation analysis. Additionally, we explored the relationships between key genes and autophagy, ferroptosis, and immunity responses. Finally, we predicted and evaluated potential therapeutic compounds via the CMap database and molecular docking. RESULTS: SO incidence in China increased significantly from 16.1% (2011) to 20.4% (2018). Machine learning identified ALDH1A3, CSF1R, and PHGDH as key genes. These genes were validated in external muscle single-cell datasets, demonstrating robust diagnostic performance with AUC values exceeding 0.72 across four independent GEO cohorts. Following an HFD intervention in mice, ALDH1A3 and CSF1R expression in muscle tissue was significantly upregulated, while PHGDH showed a consistent upward trend that did not reach statistical significance. Immune infiltration analysis revealed a significant increase in resting NK cells in both obesity and sarcopenia states. Functional enrichment analyses using Gene Ontology and Kyoto Encyclopedia of Genes and Genomes linked the genes to transcriptional regulation pathways. The Cisbp_M4923 motif was identified as the most relevant transcription factor binding site. Finally, molecular docking simulations indicated stable binding of the top candidate compound, Birinapant, to the key gene targets. CONCLUSION: ALDH1A3, CSF1R, and PHGDH serve as potential co-morbid biomarkers for SO.",
+  "abstract_zh": "背景：肌少性肥胖（sarcopenic obesity, SO）的有害循环显著降低老年人的生活质量，而其机制仍不清楚。材料与方法：我们首先使用CHARLS数据库分析了SO的发生率。通过整合差异表达基因、加权基因共表达网络分析以及肠道菌群代谢物靶点，我们识别了关键基因，并通过机器学习方法（LASSO、XGBoost、SVM-REF、随机森林）进一步筛选。这些基因通过单细胞测序、受试者工作特征曲线分析以及高脂饮食（HFD）诱导小鼠模型中的肌肉免疫组化进行了验证。进一步分析包括免疫浸润谱、通路富集和转录调控分析。此外，我们探讨了关键基因与自噬、铁死亡和免疫反应之间的关系。最后，我们通过CMap数据库和分子对接预测并评估了潜在的治疗化合物。结果：中国SO的发生率从2011年的16.1%显著上升至2018年的20.4%。机器学习识别出ALDH1A3、CSF1R和PHGDH为关键基因。这些基因在外部肌肉单细胞数据集中得到验证，在四个独立GEO队列中表现出稳健的诊断性能，AUC值均超过0.72。在HFD干预小鼠后，肌肉组织中ALDH1A3和CSF1R的表达显著上调，而PHGDH呈一致上升趋势但未达到统计学显著性。免疫浸润分析显示，在肥胖和肌少症状态下，静息NK细胞显著增加。使用基因本体论和京都基因与基因组百科全书的功能富集分析将这些基因与转录调控通路联系起来。Cisbp_M4923基序被识别为最相关的转录因子结合位点。最后，分子对接模拟表明，排名靠前的候选化合物Birinapant与关键基因靶点稳定结合。结论：ALDH1A3、CSF1R和PHGDH可作为SO的潜在共病生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42081471/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42081471/",
+  "paper_page_path": "papers/pubmed/42081471/index.html"
+}

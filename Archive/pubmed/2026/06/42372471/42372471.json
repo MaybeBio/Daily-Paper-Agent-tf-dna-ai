@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "42372471",
+    "doi": "10.1016/j.compbiomed.2026.111826",
+    "title": "Integrating stemness and epithelial-mesenchymal transition signatures with machine learning identifies RUNX1 as a therapeutic vulnerability in colorectal cancer."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CC) arises from a complex interplay between genetic and epigenetic alterations within the colorectal mucosa, resulting in unchecked cellular proliferation and tumor development. This complexity results in diverse clinical presentations and varying responses to treatment, highlighting the critical need for personalized therapeutic approaches. The epithelial-mesenchymal transition (EMT) plays a pivotal role in CC progression, but its molecular complexity and therapeutic vulnerabilities remain poorly defined at single-cell resolution. Here, we analyzed single-cell RNA-seq (scRNA-seq) data from 42,535 CC cells to characterize EMT states, stemness, and copy number variations. We identified 3,421 hybrid EMT-state cells with high stemness and employed AI/ML models to uncover key transcription factors (TFs). Among 38,606 genes screened, 4,261 were differentially expressed, where CytoTRACE2 and GSVA confirmed stemness enrichment in hybrid EMT cells. Using a deep learning model, scVAEDer, we prioritized 40 master regulatory genes, followed by GENIE3-based TF network analysis, revealing 52 TFs,15 of which regulated more than 5 target genes and were linked to CC progression via diverse pathways. Protein-protein interaction analysis highlighted RUNX1 and SOX4 as central hubs, but RUNX1 emerged as the superior druggable target due to SOX4's poor survival association. To assess the druggability, we performed high-throughput screening of Enamine diversity library's HLL, comprising of 4,60,160 compounds using Schrodinger virtual screening workflow against RUNX1 and molecular dynamics simulations of 500 ns to assess the structural stability and dynamics of screened compounds. Among the top-scoring molecules, compounds Z3687059578 and Z3133469179 displayed stable, strong interactions with RUNX1's DNA binding site, with Z3133469179 emerging as a particularly promising inhibitor. Compared with conventional transcriptomic target-discovery approaches, our integrative single-cell and AI-guided framework simultaneously captures tumor heterogeneity, enabling more comprehensive therapeutic target prioritization in cancer. Our findings establish RUNX1 as a novel druggable TF in EMT-driven CC and propose the identified small molecule for further preclinical validation. Overall, our integrative approach combining single-cell genomics and AI-guided target discovery, and computational drug screening offers a novel framework for identifying therapeutic vulnerabilities in heterogeneous CC.",
+    "keywords": [
+      "Colorectal cancer",
+      "Deep learning",
+      "EMT",
+      "RUNX1",
+      "Therapeutic vulnerability",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "Humans",
+      "*Colorectal Neoplasms/metabolism/genetics/pathology",
+      "*Core Binding Factor Alpha 2 Subunit/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "*Neoplastic Stem Cells/metabolism/pathology",
+      "*Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Padubidri, Shashank Rao",
+        "Singh, Mahender Kumar",
+        "Dehury, Budheswar"
+      ],
+      "short_names": [
+        "Padubidri SR",
+        "Singh MK",
+        "Dehury B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioinformatics, Manipal School of Life Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Data Science Laboratory, National Brain Research Centre, Gurgaon, Haryana, India.",
+        "Department of Bioinformatics, Manipal School of Life Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India. Electronic address: budheswar.dehury@manipal.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Padubidri, Shashank Rao",
+        "short_name": "Padubidri SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Manipal School of Life Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Mahender Kumar",
+        "short_name": "Singh MK",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science Laboratory, National Brain Research Centre, Gurgaon, Haryana, India."
+        ]
+      },
+      {
+        "full_name": "Dehury, Budheswar",
+        "short_name": "Dehury B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Manipal School of Life Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India. Electronic address: budheswar.dehury@manipal.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2026 Aug 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/30 04:09",
+    "fetched_at": "2026-10-02 00:49:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42372471",
+      "42475469",
+      "41194017",
+      "41716413",
+      "42477639",
+      "41436831",
+      "32180230",
+      "41205283",
+      "40574852",
+      "41342434",
+      "40534868",
+      "42278541",
+      "41628537",
+      "38777607",
+      "41662891",
+      "41254784",
+      "31910865",
+      "42486346",
+      "38583856",
+      "41086679",
+      "41957879",
+      "41814682",
+      "42212140",
+      "31391555",
+      "40441264",
+      "40616092",
+      "29721073",
+      "41454525",
+      "26572553",
+      "40496864",
+      "42089585",
+      "42479224",
+      "30025541",
+      "42220119",
+      "33218352",
+      "42143313",
+      "26840943",
+      "41286470",
+      "42143353",
+      "40874680",
+      "39060344",
+      "38919088",
+      "31370857",
+      "40890958",
+      "41562071",
+      "42118388",
+      "39210373",
+      "41688827",
+      "41390349",
+      "41378121",
+      "40484863",
+      "39973554",
+      "40963600",
+      "40643716",
+      "38594466",
+      "39962504",
+      "41609068",
+      "41828380",
+      "29391352",
+      "40433364",
+      "42389274",
+      "41952208",
+      "39256881",
+      "36076232",
+      "40082554",
+      "30460377",
+      "41655669",
+      "32866710",
+      "38885819",
+      "26851006",
+      "41508037",
+      "30845991",
+      "38869635",
+      "42140356",
+      "40328901",
+      "40247060",
+      "28391045",
+      "40918458",
+      "40225580",
+      "42185888",
+      "38947396",
+      "38664825",
+      "41771574",
+      "42263871",
+      "42321836",
+      "33429327",
+      "28407681",
+      "42074514",
+      "40640171",
+      "41164195",
+      "41662163",
+      "31455383",
+      "30321514",
+      "41566465",
+      "41910003",
+      "40065368",
+      "30148686",
+      "42040898",
+      "34293363",
+      "42229817"
+    ],
+    "review": [
+      "42372471",
+      "41662891",
+      "41828380",
+      "42185888"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(26)00390-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(26)00390-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

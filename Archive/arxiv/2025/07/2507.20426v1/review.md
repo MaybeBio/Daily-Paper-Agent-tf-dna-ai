@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims, and reproducibility based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose ResCap-DBP, a lightweight deep learning architecture combining residual dilated convolutions and a 1D capsule network, using global ProteinBERT embeddings, for DNA-binding protein prediction. They claim state-of-the-art performance across multiple benchmark datasets, superior generalization, and high computational efficiency.
+- **Visible evidence base** Abstract, Introduction, Datasets section, Network Architecture description, Experimental Setup, Results and Discussion (including ablation study, feature comparison, state-of-the-art comparison, computational efficiency), Future Works, Conclusion
+- **Missing materials affecting confidence** Actual result tables (Tables 2-5) and figures (Figures 2-5) are referenced but not provided. Model architecture diagram (Figure 3) and graphical abstract (Figure 1) are not visible. Hyperparameter values, training details, and code are not provided. Exact equations for metrics and capsule routing are mentioned but not fully displayed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in bioinformatics with a plausible architectural combination. However, the absence of actual numerical results, tables, and figures makes it impossible to verify the central performance claims. The methodological description lacks critical details for reproducibility, and the comparison with state-of-the-art methods is presented without the supporting data needed for assessment. The work has potential merit but is currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those interested in deep learning approaches for sequence-based classification. Researchers developing lightweight models for deployment in resource-constrained settings may also find the computational efficiency claims relevant.
+- **Major strengths** The problem is well-motivated and practically important. The combination of residual dilated convolutions with capsule networks is a reasonable and potentially novel architectural choice. The ablation study design is thoughtful, isolating the contribution of each major component. The use of multiple benchmark datasets, including a non-redundant pair, demonstrates awareness of data leakage issues in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence integrity
+  - **Claim pointer** The manuscript claims that ResCap-DBP "consistently outperforms current state-of-the-art methods" and reports specific performance metrics such as AUC scores of 98.0% and 89.5% on PDB14189 and PDB1075, respectively.
+  - **Evidence pointer** Section 5.3, Tables 4 and 5, Figures 4 and 5 (location not provided)
+  - **Concern** All numerical results supporting the central performance claims are contained in tables and figures that are not included in the provided manuscript text. The reader cannot verify any of the reported metrics, compare them against baseline methods, or assess statistical significance.
+  - **Why it matters** The core contribution of this paper is empirical: demonstrating that the proposed architecture achieves superior predictive performance. Without access to the actual results, the central claim of the manuscript is unverifiable.
+  - **Resolution test** Provide the complete tables and figures with all numerical values, including results for all baseline methods and all datasets, with appropriate error bars or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that "All experiments were carried out using the Keras framework" and that hyperparameter tuning was "performed empirically," with a batch size of 128 and routing iterations fixed at 2.
+  - **Evidence pointer** Section 4 (location not provided)
+  - **Concern** Critical implementation details are missing. The number of residual blocks, filter sizes, dilation rates, learning rate, optimizer, number of epochs, early stopping criteria, and the specific architecture of the capsule layer (dimensions, number of capsules) are not specified. The input length L_max is stated as 1000, but the handling of sequences longer than this is not described in the experimental setup.
+  - **Why it matters** Without these details, the experiments cannot be reproduced by independent researchers, which is a fundamental requirement for scientific validation in computational biology.
+  - **Resolution test** Provide a complete specification of all hyperparameters, architecture dimensions, training procedures, and ideally release the code and trained models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that the proposed model "demonstrates state-of-the-art performance across a wide range of datasets" and that it "maintains a well-balanced sensitivity and specificity across datasets."
+  - **Evidence pointer** Section 5.3, Tables 4 and 5 (location not provided)
+  - **Concern** No statistical analysis is reported. There are no confidence intervals, standard deviations across multiple runs, or significance tests comparing the proposed method against baselines. Given that deep learning models are stochastic, single-run results are insufficient to support claims of consistent superiority.
+  - **Why it matters** Performance differences in deep learning models can be within the range of random variation. Without statistical validation, the claimed improvements over state-of-the-art methods cannot be distinguished from noise.
+  - **Resolution test** Report results from multiple independent runs with mean and standard deviation, and perform appropriate statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test) against baseline methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data leakage assessment
+  - **Claim pointer** The manuscript states that "we restricted detailed reliability analysis, specifically, pairwise sequence similarity assessment, to PDB1075 and PDB186 due to the substantial computational cost of large-scale sequence alignment" and reports "approximately 30-34% of pairs exceeding the 25% identity threshold" and "32.35% of inter-dataset sequence pairs between PDB1075 and PDB186 surpassed this threshold."
+  - **Evidence pointer** Section 2, Figure 2 (location not provided)
+  - **Concern** The authors acknowledge sequence similarity issues in PDB1075 and PDB186 but do not perform a similar analysis for the larger datasets PDB14189/PDB2272 and PDB67151/PDB20000, where the computational cost is cited as the reason. However, these larger datasets are the primary basis for the main performance claims. The presence of homologous sequences between training and test sets in these datasets could substantially inflate performance estimates.
+  - **Why it matters** The manuscript itself criticizes prior work for "overfitting due to training-test overlap" and "sequence similarity biases that compromised generalization claims." Failing to assess this for the main datasets undermines the generalization claims made for ResCap-DBP.
+  - **Resolution test** Perform sequence similarity analysis on the larger datasets using efficient approximate methods (e.g., CD-HIT or MMseqs2) and report the degree of cross-set similarity. If significant similarity exists, retrain and evaluate on strictly non-redundant splits.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The manuscript compares against "state-of-the-art (SOTA) methods" including BiCaps-DBP, Target-DBPPred, StackDPP, and iDNA-Prot, and reports that a "reimplemented BiCaps-DBP(C)" showed "a notable decline in performance" under a corrected evaluation protocol.
+  - **Evidence pointer** Section 5.3, Tables 4 and 5 (location not provided)
+  - **Concern** The comparison methodology is unclear. It is not specified whether baseline methods were retrained under the same conditions, whether their published results were used directly, or how the "reimplemented" BiCaps-DBP(C) was constructed. If published results are used for some baselines and reimplemented results for others, the comparison may not be consistent.
+  - **Why it matters** Fair comparison is essential for substantiating claims of state-of-the-art performance. Inconsistent evaluation protocols across methods can lead to misleading conclusions.
+  - **Resolution test** Clearly describe the evaluation protocol for each baseline method, including whether results are taken from original publications or from reimplementation, and ensure all methods are evaluated under identical conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2, equation for residual block
+  - **Evidence pointer** Section 3.2 (location not provided)
+  - **Issue** The equation describing the residual block operation is mentioned but not displayed in the provided text. The notation is incomplete.
+  - **Required correction** Provide the full equation with all terms defined, including the dilation rate schedule across the six residual blocks.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4, metric definitions
+  - **Evidence pointer** Section 4 (location not provided)
+  - **Issue** The formulas for accuracy, precision, sensitivity, specificity, and MCC are referenced but not shown in the provided text.
+  - **Required correction** Include the complete equations for all evaluation metrics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Typographical
+  - **Affected element** Section 5.3, table reference
+  - **Evidence pointer** Section 5.3 (location not provided)
+  - **Issue** The text reads "TTable 4" which appears to be a typographical error.
+  - **Required correction** Correct to "Table 4".
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 5.2, dataset description
+  - **Evidence pointer** Section 5.2 (location not provided)
+  - **Issue** The text states that on PDB1075, ProteinBERT (Global) achieved the highest specificity (65.14%), precision (70.76%), and AUC (89.50%). However, the same values (65.14% specificity and 70.76% precision) are also reported for PDB2272 in the preceding sentence. This is either a coincidence or a copy-paste error.
+  - **Required correction** Verify the reported values for PDB1075 and correct if erroneous.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5.4, computational efficiency
+  - **Evidence pointer** Section 5.4 (location not provided)
+  - **Issue** The inference time of 0.084777 seconds per sequence is reported, but the hardware used for this measurement is not specified beyond the earlier mention of NVIDIA A100 GPUs. It is unclear whether this time is measured on CPU or GPU, and whether it includes preprocessing.
+  - **Required correction** Specify the hardware and software environment for inference time measurement, and clarify whether preprocessing is included.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2, dataset description
+  - **Evidence pointer** Section 2 (location not provided)
+  - **Issue** The description of the PDB67151/PDB20000 dataset pair mentions class imbalance (17,151 DBP vs 50,000 non-DBP in training) but does not describe how this imbalance was handled during training, if at all.
+  - **Required correction** Describe any class weighting, oversampling, or other techniques used to address the imbalance, or state explicitly that no such techniques were applied.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing results), R1-M2 (insufficient methodological detail), R1-M3 (no statistical validation), R1-M4 (unassessed data leakage in main datasets)
+- **Assessment against Nature-style criteria** Originality: The architectural combination of residual dilated convolutions with capsule networks for DBP prediction appears novel, though the individual components are established. Scientific importance: DBP prediction is a relevant problem, but the incremental improvement over existing methods cannot be assessed without the actual results. Interdisciplinary readership: The work is primarily of interest to computational biologists; the broader biological impact is not demonstrated. Technical soundness: The approach is plausible, but the lack of implementation details and statistical rigor prevents verification of technical soundness. Readability for nonspecialists: The manuscript is generally readable, but the incomplete equations and missing figures hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a reasonable motivation and a plausible architecture, but the central performance claims cannot be verified without the actual results tables and figures. The methodological description requires substantial additional detail for reproducibility. The authors should be invited to resubmit a complete version with all data, full methodological specifications, and appropriate statistical analysis.
+
+## Risk / unsupported claims
+- The claim that ResCap-DBP "consistently outperforms current state-of-the-art methods" is unsupported because the comparison tables and figures are not provided.
+- The specific performance metrics (AUC 98.0% on PDB14189, 89.5% on PDB1075, 83.2% on PDB2272, 83.3% on PDB186) are unverifiable without the underlying data.
+- The claim that the model is "lightweight" with "608,806 trainable parameters" and "average inference time per sequence of 0.084777 seconds" cannot be fully assessed without details on the hardware and measurement methodology.
+- The assertion that global ProteinBERT embeddings "achieved the highest performance-to-complexity ratio" is not substantiated with quantitative complexity measurements.
+- The claim that the corrected BiCaps-DBP(C) evaluation protocol revealed "data leakage" in the original study is not verifiable without the reimplementation details and results.
+- The statement that "approximately 30-34% of pairs exceeding the 25% identity threshold" in PDB1075 and PDB186 is presented without the supporting figure or statistical details.

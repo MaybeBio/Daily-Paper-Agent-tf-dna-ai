@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.19.613754",
+  "title": "scooby: Modeling multi-modal genomic profiles from DNA sequence at single-cell resolution",
+  "authors": "Hingerl JC; Martens LD; Karollus A; Manz T; Buenrostro JD; Theis FJ; Gagneur J",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-22",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用预训练基因组模型Borzoi结合单细胞解码器，从DNA序列预测单细胞RNA和ATAC谱，虽非直接TF-DNA结合建模，但通过序列-染色质-表达调控建模和motif删除分析，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Understanding how regulatory DNA elements shape gene expression across individual cells is a fundamental challenge in genomics. Joint RNA-seq and epigenomic profiling provides opportunities to build unifying models of gene regulation capturing sequence determinants across steps of gene expression. However, current models, developed primarily for bulk omics data, fail to capture the cellular heterogeneity and dynamic processes revealed by single-cell multi-modal technologies. Here, we introduce scooby, the first framework to model scRNA-seq coverage and scATAC-seq insertion profiles along the genome from sequence at single-cell resolution. For this, we leverage the pre-trained multi-omics profile predictor Borzoi as a foundation model, equip it with a cell-specific decoder, and fine-tune its sequence embeddings. Specifically, we condition the decoder on the cell position in a precomputed single-cell embedding resulting in strong generalization capability. Applied to a hematopoiesis dataset, scooby recapitulates cell-specific expression levels of held-out genes, and identifies regulators and their putative target genes through in silico motif deletion. Moreover, accurate variant effect prediction with scooby allows for breaking down bulk eQTL effects into single-cell effects and delineating their impact on chromatin accessibility and gene expression. We anticipate scooby to aid unraveling the complexities of gene regulation at the resolution of individual cells.",
+  "abstract_zh": "理解调控性DNA元件如何在单个细胞中塑造基因表达是基因组学中的一个基本挑战。联合RNA-seq和表观基因组分析为构建统一的基因调控模型提供了机会，这些模型能够捕捉基因表达各步骤中的序列决定因素。然而，目前主要为批量组学数据开发的模型，无法捕捉单细胞多模态技术所揭示的细胞异质性和动态过程。在此，我们介绍了scooby，这是第一个在单细胞分辨率下，从序列出发对scRNA-seq覆盖度和scATAC-seq插入谱进行建模的框架。为此，我们利用预训练的多组学谱预测器Borzoi作为基础模型，为其配备细胞特异性解码器，并微调其序列嵌入。具体来说，我们将解码器条件化于预计算的单细胞嵌入中的细胞位置，从而实现了强大的泛化能力。应用于造血数据集时，scooby能够重现保留基因的细胞特异性表达水平，并通过计算机模拟基序删除识别调控因子及其推定靶基因。此外，利用scooby进行准确的变异效应预测，可以将批量eQTL效应分解为单细胞效应，并描绘其对染色质可及性和基因表达的影响。我们预期scooby将有助于在单个细胞分辨率下揭示基因调控的复杂性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.19.613754",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.19.613754",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.19.613754/index.html"
+}

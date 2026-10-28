@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41731492",
+  "title": "Regulatory network and spatial modeling reveal cooperative mechanisms of resistance and immune escape in ER+ breast cancer.",
+  "authors": "Fan, Yijia; Sahoo, Sarthak; Jolly, Mohit Kumar; George, Jason T",
+  "journal": "BMC cancer",
+  "published_date": "2026-02-24",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文构建ER+乳腺癌的基因调控网络与空间模型，研究耐药与免疫逃逸机制，虽涉及调控网络建模但非蛋白质-DNA互作体系，且无TF-DNA结合建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Despite significant progress, the treatment of estrogen receptor-positive (ER+) breast cancer remains clinically challenging due to reversible drug resistance and immune evasion. Drug resistance often arises as cells undergo a dynamic epithelial-to-mesenchymal transition (EMT), while elevated PD-L1 levels contribute to immune escape. While these phenotypic features can variably co-occur, the impact of co-occurrence on the availability of synergistic treatment strategies remains unknown. To investigate their interplay, we constructed an ER-EMT-PD-L1 gene regulatory network and simulated these networks as coupled ordinary differential equations with biologically informed parameters, to generate steady-state expression profiles. Our study revealed that the relevant overarching network generated antagonistic epithelial and mesenchymal modules, capable of producing monostable, bistable, and tristable dynamics. We further examined the link between phenotypes and immune evasion by quantifying average PD-L1 expression, and found that epithelial-sensitive states consistently exhibited low PD-L1. In contrast, hybrid- and mesenchymal-resistant states were associated with a non-linear, stepwise increase in PD-L1, highlighting a strong coupling between EMT, resistance, and immune evasion. Extending on these network-level insights, we further used a spatially explicit agent-based model seeded with GRN-derived phenotypes to probe tumor behavior under therapeutic pressure. Simulations revealed that sustained tumor expansion occurred only when resistance, motility, and immune evasion traits co-existed, and this requirement remained robust across GRN landscapes with differing stability. Plasticity and multistability increased the accessible phenotypic state-space and accelerated shifts toward high-fitness resistant states. We further identified combination therapies that significantly reduced phenotypic diversification and improved immune infiltration in silico. Taken together, our modeling work links regulatory dynamics with tumor-level adaptation and highlights strategies to reprogram resistant cell states toward sensitivity, which are difficult to infer from bulk or cross-sectional data alone. In addition, it provides a controllable in silico testbed to systematically evaluate candidate treatment combinations and their effects on tumor phenotypic transitions and spatial T cell access, thereby helping to prioritize experimental regimens for follow-up.",
+  "abstract_zh": "尽管取得了显著进展，雌激素受体阳性（ER+）乳腺癌的治疗仍因可逆性耐药和免疫逃逸而在临床上具有挑战性。耐药通常源于细胞经历动态的上皮-间质转化（EMT），而PD-L1水平升高则促进免疫逃逸。虽然这些表型特征可能不同程度地共存，但共存对协同治疗策略可用性的影响仍属未知。为探究其相互作用，我们构建了一个ER-EMT-PD-L1基因调控网络，并将这些网络模拟为耦合常微分方程，采用生物学信息参数，以生成稳态表达谱。我们的研究揭示，相关总体网络产生了拮抗的上皮和间质模块，能够产生单稳态、双稳态和三稳态动力学。我们进一步通过量化平均PD-L1表达来检查表型与免疫逃逸之间的联系，发现上皮敏感状态始终表现出低PD-L1。相比之下，混合型和间质耐药状态与PD-L1的非线性、阶梯式增加相关，凸显了EMT、耐药和免疫逃逸之间的强耦合。基于这些网络层面的见解，我们进一步使用以GRN衍生表型为种子的空间显式基于代理模型，在治疗压力下探究肿瘤行为。模拟显示，仅当耐药、运动性和免疫逃逸特征共存时，持续肿瘤扩张才会发生，且这一要求在不同稳定性的GRN景观中保持稳健。可塑性和多稳态增加了可及的表型状态空间，并加速向高适应性耐药状态的转变。我们进一步确定了在计算机模拟中显著减少表型多样化并改善免疫浸润的联合疗法。总体而言，我们的建模工作将调控动力学与肿瘤水平适应联系起来，并强调了将耐药细胞状态重编程为敏感状态的策略，这些策略难以仅从批量或横截面数据中推断。此外，它提供了一个可控的计算机模拟测试平台，以系统评估候选治疗组合及其对肿瘤表型转变和空间T细胞浸润的影响，从而有助于优先安排后续实验方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41731492/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41731492/",
+  "paper_page_path": "papers/pubmed/41731492/index.html"
+}

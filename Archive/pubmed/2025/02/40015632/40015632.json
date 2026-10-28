@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "40015632",
+    "doi": "10.1016/j.jbc.2025.108350",
+    "title": "The molecular basis of immunosuppression by soluble CD52 is defined by interactions of N-linked and O-linked glycans with HMGB1 box B."
+  },
+  "content": {
+    "abstract": "Human soluble CD52 is a short glycopeptide comprising 12 amino acids (GQNDTSQTSSPS) which functions as an immune regulator by sequestering the pro-inflammatory high mobility group box protein 1 (HMGB1) and suppressing immune responses. Recombinant CD52 has been shown to act as a broad anti-inflammatory agent, dampening both adaptive and innate immune responses. This short glycopeptide is heavily glycosylated, with a complex sialylated N-linked glycan at N3 and reported O-linked glycosylation possible on several serine and threonine residues. Previously we demonstrated that specific glycosylation features of CD52 are essential for its immunosuppressive function, with terminal alpha-2,3-linked sialic acids required for binding to the inhibitory SIGLEC-10 receptor leading to T-cell suppression. Using high resolution mass spectrometry, we have further characterized the N- and O-linked glycosylation of Expi293 recombinantly produced CD52 at a glycopeptide and released glycan level, accurately determining glycan heterogeneity of both N- and O-linked glycosylation, and localizing the site of O-glycosylation to T8 with high confidence and direct spectral evidence. This detailed knowledge of CD52 glycosylation informed the construction of a model system, which we analyzed by molecular dynamics simulations to understand the mechanism of recognition and define interactions between bioactive CD52, HMGB1 and the SIGLEC-10 receptor. Our results confirm the essential role of glycosylation, more specifically hyper-sialylation, in the function of CD52, and identify at the atomistic level specific interactions between CD52 glycans and the Box B domain of HMGB1 that determine recognition, and the stability of the CD52/HMGB1 complex. These insights will inform the development of synthetic CD52 as an immunotherapeutic agent.",
+    "keywords": [
+      "CD52",
+      "HMGB1",
+      "glycomics",
+      "glycoprotein",
+      "mass spectrometry",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*HMGB1 Protein/metabolism/chemistry/immunology",
+      "Humans",
+      "*CD52 Antigen/chemistry/metabolism",
+      "*Polysaccharides/chemistry/metabolism/immunology",
+      "Glycosylation",
+      "*Immune Tolerance"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "DeBono, Nicholas J",
+        "D'Andrea, Silvia",
+        "Bandala-Sanchez, Esther",
+        "Goddard-Borger, Ethan",
+        "Zenaidee, Muhammad A",
+        "Moh, Edward S X",
+        "Fadda, Elisa",
+        "Harrison, Leonard C",
+        "Packer, Nicolle H"
+      ],
+      "short_names": [
+        "DeBono NJ",
+        "D'Andrea S",
+        "Bandala-Sanchez E",
+        "Goddard-Borger E",
+        "Zenaidee MA",
+        "Moh ESX",
+        "Fadda E",
+        "Harrison LC",
+        "Packer NH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "ARC Centre of Excellence in Synthetic Biology, School of Natural Sciences, Macquarie University, Sydney, Australia.",
+        "Department of Chemistry, Maynooth University, Maynooth, Ireland.",
+        "The Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia.",
+        "The Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia.",
+        "Australian Proteome Analysis Facility, Macquarie University, Sydney, New South Wales, Australia.",
+        "ARC Centre of Excellence in Synthetic Biology, School of Natural Sciences, Macquarie University, Sydney, Australia.",
+        "Department of Chemistry, Maynooth University, Maynooth, Ireland; School of Biological Sciences, University of Southampton, Southampton, United Kingdom.",
+        "The Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia.",
+        "ARC Centre of Excellence in Synthetic Biology, School of Natural Sciences, Macquarie University, Sydney, Australia. Electronic address: nicki.packer@mq.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "DeBono, Nicholas J",
+        "short_name": "DeBono NJ",
+        "identifiers": [],
+        "affiliations": [
+          "ARC Centre of Excellence in Synthetic Biology, School of Natural Sciences, Macquarie University, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "D'Andrea, Silvia",
+        "short_name": "D'Andrea S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Maynooth University, Maynooth, Ireland."
+        ]
+      },
+      {
+        "full_name": "Bandala-Sanchez, Esther",
+        "short_name": "Bandala-Sanchez E",
+        "identifiers": [],
+        "affiliations": [
+          "The Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Goddard-Borger, Ethan",
+        "short_name": "Goddard-Borger E",
+        "identifiers": [],
+        "affiliations": [
+          "The Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Zenaidee, Muhammad A",
+        "short_name": "Zenaidee MA",
+        "identifiers": [],
+        "affiliations": [
+          "Australian Proteome Analysis Facility, Macquarie University, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Moh, Edward S X",
+        "short_name": "Moh ESX",
+        "identifiers": [],
+        "affiliations": [
+          "ARC Centre of Excellence in Synthetic Biology, School of Natural Sciences, Macquarie University, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Fadda, Elisa",
+        "short_name": "Fadda E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Maynooth University, Maynooth, Ireland; School of Biological Sciences, University of Southampton, Southampton, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Harrison, Leonard C",
+        "short_name": "Harrison LC",
+        "identifiers": [],
+        "affiliations": [
+          "The Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Packer, Nicolle H",
+        "short_name": "Packer NH",
+        "identifiers": [],
+        "affiliations": [
+          "ARC Centre of Excellence in Synthetic Biology, School of Natural Sciences, Macquarie University, Sydney, Australia. Electronic address: nicki.packer@mq.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/28 00:20",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "41606261"
+    ],
+    "refs": [
+      "39402214",
+      "38877149",
+      "38343116",
+      "38042488",
+      "37909475",
+      "35728307",
+      "35353508",
+      "34211961",
+      "33666655",
+      "33229435",
+      "33174597",
+      "33020657",
+      "32745982",
+      "32681163",
+      "31507595",
+      "31184695",
+      "31065629",
+      "30199633",
+      "29997173",
+      "29740059",
+      "29603058",
+      "29244050",
+      "28905148",
+      "28394336",
+      "26574453",
+      "24855066",
+      "24727771",
+      "23685786",
+      "23605685",
+      "23063560",
+      "22678433",
+      "21988835",
+      "21241022",
+      "20507986",
+      "20507882",
+      "20147306",
+      "18294950",
+      "17849372",
+      "17640971",
+      "11680880",
+      "11014452",
+      "10358011",
+      "7890742",
+      "2970459"
+    ],
+    "similar": [
+      "40015632",
+      "31507595",
+      "29997173",
+      "39737172",
+      "20848033",
+      "32623356",
+      "17640971",
+      "26567221",
+      "27585995",
+      "26274980",
+      "38757972",
+      "19524017",
+      "41352000",
+      "30385505",
+      "23001782",
+      "38917169",
+      "28196325",
+      "30619255",
+      "30813247",
+      "31411531",
+      "32149347",
+      "7507111",
+      "25116630",
+      "9673446",
+      "23234360",
+      "39242814",
+      "11159917",
+      "16877748",
+      "22171062",
+      "39032948",
+      "29769321",
+      "9442070",
+      "35304921",
+      "27928741",
+      "11447131",
+      "21106559",
+      "25190359",
+      "12676960",
+      "28199092",
+      "7890742",
+      "10514467",
+      "27975143",
+      "21115483",
+      "25883177",
+      "26018173",
+      "20547845",
+      "36740532",
+      "24115046",
+      "40442314",
+      "26984886",
+      "33030205",
+      "10529240",
+      "21558494",
+      "11226070",
+      "30905778",
+      "40755778",
+      "33658999",
+      "39116882",
+      "24918438",
+      "29339411",
+      "9311856",
+      "34985300",
+      "25629924",
+      "14693913",
+      "15065856",
+      "15209498",
+      "28301166",
+      "37699855",
+      "23765378",
+      "29233911",
+      "26066491",
+      "39836965",
+      "41418983",
+      "11123894",
+      "39162140",
+      "35744954",
+      "16037490",
+      "18642129",
+      "20387826",
+      "10406848",
+      "24473128",
+      "35927436",
+      "11231274",
+      "30011186",
+      "17957771",
+      "37993102",
+      "30238832",
+      "34647616",
+      "27638310",
+      "28630087",
+      "39367021",
+      "29285957",
+      "20507092",
+      "40430312",
+      "22171320",
+      "28266015",
+      "15044392",
+      "34110173",
+      "41652453",
+      "39276679"
+    ],
+    "review": [
+      "40015632",
+      "28196325",
+      "9673446",
+      "39032948",
+      "27975143",
+      "37699855",
+      "23765378",
+      "41418983",
+      "39162140",
+      "30011186"
+    ],
+    "pmc": [
+      "11982460"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(25)00199-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40015632/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

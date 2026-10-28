@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.14.618350",
+  "title": "Assessing the Validity of Leucine Zipper Constructs Predicted in AlphaFold2",
+  "authors": "Mitic I; Michie KA; Jacques DA",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-17",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文以AP-1转录因子Fos/Jun亮氨酸拉链二聚体为对象，评估AlphaFold2/Multimer预测蛋白-DNA互作相关二聚界面的有效性，虽未直接建模TF-DNA结合，但聚焦TF二聚化与结构预测局限性，对TF-DNA互作建模方法有重要参考价值。",
+  "abstract": "AP-1 transcription factors are a network of cellular regulators, that combine in different dimer pairs to control a range of pathways involved in differentiation, growth, and cell death. They dimerise via leucine zipper coiled-coil domains, that are preceded by a basic DNA binding domain. Depending on which AP-1 transcription factors dimerise, different DNA sequences will be recognised resulting in differential gene expression. The affinity of AP-1 transcription factors for each other dictates which dimers form. The relative concentration of AP-1 transcription factors varies with tissue type and environment, adding another layer of control to this integral network of cellular regulation. The development of artificial intelligence (AI) protein structure prediction programs gives us a new technique to investigate or predict how dimerization effects combinatorial control. AlphaFold2 and AlphaFold-Multimer are AI programs that predict 3D structures of proteins using primary sequence as their only input, even if there is no homologous model available. To fully realise the potential of AI for structural biology, it is essential to understand its current capabilities and limitations. In this study we used the classical example of an AP-1 dimer: Fos and Jun, to interrogate how AlphaFold2 and AlphaFold-Multimer model leucine zipper domains, and if AlphaFold-Multimer can be used to differentiate between probable and improbable dimer interfaces. We found that AlphaFold-Multimer predicts highly confident leucine zipper dimers, even for dimer pairs, such as the FosB homodimer, for which electrostatics are known to prevent their formation in vivo. This is an important case study concerning high-confidence, but low-accuracy protein structure prediction. <h4>statement</h4> Artificial intelligence (AI) programs that predict protein structures, like AlphaFold, could transform structural biology by speeding up the experimental process. However, it is important to grasp the capabilities and limitations of these AI tools. This study examines how AlphaFold identifies structural features, specifically a leucine zipper, while not considering other factors like electrostatic interactions, using the well-studied transcription factors Fos and Jun as a case study.",
+  "abstract_zh": "AP-1转录因子是一组细胞调控因子网络，通过不同的二聚体配对组合来控制涉及分化、生长和细胞死亡的多种通路。它们通过亮氨酸拉链卷曲螺旋结构域进行二聚化，该结构域之前有一个碱性DNA结合域。根据哪些AP-1转录因子发生二聚化，将识别不同的DNA序列，从而导致差异基因表达。AP-1转录因子之间的亲和力决定了哪些二聚体形成。AP-1转录因子的相对浓度随组织类型和环境而变化，为这一细胞调控核心网络增加了另一层控制。人工智能（AI）蛋白质结构预测程序的发展为我们提供了一种新技术，用于研究或预测二聚化如何影响组合调控。AlphaFold2和AlphaFold-Multimer是AI程序，仅使用一级序列作为输入来预测蛋白质的三维结构，即使没有同源模型可用。要充分实现AI在结构生物学中的潜力，理解其当前能力和局限性至关重要。在本研究中，我们使用AP-1二聚体的经典例子：Fos和Jun，来探究AlphaFold2和AlphaFold-Multimer如何建模亮氨酸拉链结构域，以及AlphaFold-Multimer是否能用于区分可能和不可能的二聚体界面。我们发现，AlphaFold-Multimer预测出高置信度的亮氨酸拉链二聚体，即使对于已知体内因静电作用阻止其形成的二聚体对（如FosB同源二聚体）也是如此。这是一个关于高置信度但低准确性蛋白质结构预测的重要案例研究。<h4>声明</h4> 预测蛋白质结构的人工智能（AI）程序，如AlphaFold，可能通过加速实验过程来变革结构生物学。然而，掌握这些AI工具的能力和局限性至关重要。本研究以研究充分的转录因子Fos和Jun为案例，考察AlphaFold如何识别结构特征（特别是亮氨酸拉链），而不考虑静电相互作用等其他因素。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.14.618350",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.14.618350",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.14.618350/index.html"
+}

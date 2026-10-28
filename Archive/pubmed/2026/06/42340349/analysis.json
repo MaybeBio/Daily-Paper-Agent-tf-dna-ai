@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42340349",
+  "title": "Comparing Enhanced Sampling Methods in Exploring the Conformational Space of beta-Catenin(17-48).",
+  "authors": "Gil Pineda, Laura I; Poleto, Marcelo D; Michel, Haley M; Goodberlet, Ashley M; Lemkul, Justin A",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-06-24",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文比较多种增强采样MD方法探索磷酸化β-catenin无序肽段的构象空间，虽非TF-DNA体系，但增强采样与构象系综方法可迁移至蛋白-DNA互作动态研究。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play critical roles in cellular signaling and regulation, yet their dynamic conformational landscapes make them difficult to characterize experimentally and computationally. Phosphorylation, one of the most common post-translational modifications, frequently occurs within intrinsically disordered regions and can modulate protein structure and function. Enhanced sampling molecular dynamics methods offer a potential route to more efficiently explore the diverse conformations accessible to IDPs, but systematic comparisons of their performance sampling the conformational landscape of such systems remain limited. Here, we evaluate the conformational sampling of the intrinsically disordered beta-catenin(17-48) peptide in both its nonphosphorylated and phosphorylated states using three enhanced sampling approaches: Gaussian-accelerated molecular dynamics (GaMD), metadynamics (METAD), and weighted ensemble simulations (WESTPA), in comparison with conventional molecular dynamics simulations. Two collective variables (CVs) were explored to guide sampling: the varphi dihedral angles of the phosphorylation sites Ser33 and Ser37 and the end-to-end distance of the peptide. We found that different enhanced sampling methods explored distinct regions of conformational space rather than converging to a single ensemble, with GaMD largely overlapping with unbiased simulations. Notably, METAD and WESTPA more readily accessed conformational regions not observed in unbiased simulations. Analysis of the combined conformational ensembles identified intermediate conformations connecting the nonphosphorylated and phosphorylated states, which are preferentially sampled in simulations employing adaptive strategies. Additionally, the Ser33/Ser37 varphi angle CV more effectively captures phosphorylation-dependent conformational shifts than the end-to-end distance metric. Together, these results highlight how both the choice of enhanced sampling strategy and the selection of collective variables influence the exploration of IDP conformational landscapes.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在细胞信号传导和调控中发挥关键作用，然而其动态构象景观使其在实验和计算上难以表征。磷酸化是最常见的翻译后修饰之一，常发生在 intrinsically disordered regions 内，并能调节蛋白质结构和功能。增强采样分子动力学方法为更高效地探索 IDPs 可及的多样构象提供了潜在途径，但对其在采样此类系统构象景观方面的性能进行系统比较仍有限。在此，我们使用三种增强采样方法：Gaussian-accelerated molecular dynamics (GaMD)、metadynamics (METAD) 和 weighted ensemble simulations (WESTPA)，评估了 intrinsically disordered beta-catenin(17-48) 肽在其非磷酸化和磷酸化状态下的构象采样，并与常规分子动力学模拟进行比较。我们探索了两种 collective variables (CVs) 以引导采样：磷酸化位点 Ser33 和 Ser37 的 varphi 二面角以及肽的端到端距离。我们发现，不同的增强采样方法探索了构象空间的不同区域，而非收敛到单一集合，其中 GaMD 与无偏模拟大体重叠。值得注意的是，METAD 和 WESTPA 更容易访问无偏模拟中未观察到的构象区域。对组合构象集合的分析识别出连接非磷酸化和磷酸化状态的中间构象，这些构象在采用自适应策略的模拟中被优先采样。此外，Ser33/Ser37 varphi 角 CV 比端到端距离度量更有效地捕获磷酸化依赖性构象变化。综合来看，这些结果强调了增强采样策略的选择和 collective variables 的选取如何影响 IDP 构象景观的探索。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42340349/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42340349/",
+  "paper_page_path": "papers/pubmed/42340349/index.html"
+}

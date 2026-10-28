@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusions, methods, and supplementary figure references.
+- **Assessment boundary** Computational molecular dynamics and MM-GBSA binding free energy analysis of Omicron versus wild-type SARS-CoV-2 RBD interaction with hACE2 receptor.
+- **Shared manuscript claim summary** The authors claim that the Omicron variant's spike protein RBD binds hACE2 with increased affinity compared to wild type, driven by specific mutations (Q493R, Q498R, S496, H505, N501Y) that form additional salt bridges, hydrogen bonds, and pi-stacking interactions, thereby explaining increased transmissibility and virulence.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion, Conclusions, Materials and Methods, Tables I and II, Figures 1-6 (referenced), Supplementary Figures S1 and S2 (referenced).
+- **Missing materials affecting confidence** Supplementary figures S1 and S2 not provided; raw simulation trajectories, force field parameters, convergence criteria, and error estimates for binding free energies not provided; no experimental validation data.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely computational investigation of Omicron RBD-hACE2 binding, with a plausible mechanistic hypothesis supported by MD simulations and MM-GBSA calculations. However, the evidence base is incomplete in several critical aspects, including lack of error analysis, insufficient methodological detail for reproducibility, and overinterpretation of binding free energy differences without experimental corroboration. The central claim of increased binding affinity driving virulence is plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Structural biologists, computational chemists, virologists, and infectious disease researchers studying SARS-CoV-2 evolution, receptor binding mechanisms, and therapeutic development. The residue-level interaction map could inform antiviral design and antibody escape studies.
+- **Major strengths** 1) Timely and relevant topic addressing a pressing public health question. 2) Systematic comparative analysis of wild-type versus Omicron RBD using established computational methods. 3) Detailed residue-wise decomposition providing mechanistic insight into specific mutations. 4) Identification of novel salt bridges and pi-stacking interactions that are biologically plausible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The binding free energies for the spike RBD with the hACE2 receptor for the wild type and the Omicron variant are listed in Table 1. As can be seen, the binding free energies for the Omicron-spike with hACE2 receptor is lower than that of wt-spike by −8.6 kcal/mol."
+  - **Evidence pointer** Table 1, Section 2, location not provided
+  - **Concern** The binding free energy difference of −8.6 kcal/mol is reported as a single value without any error estimates, standard deviations, or statistical significance testing. MM-GBSA calculations are known to be highly sensitive to simulation length, conformational sampling, and solvation model parameters. The manuscript does not report whether multiple independent simulations were performed, how convergence was assessed, or whether the observed difference exceeds the typical uncertainty of the method (often 1-3 kcal/mol). Without this information, the claim of "increased binding affinity" cannot be rigorously evaluated.
+  - **Why it matters** The central conclusion of the paper rests entirely on this quantitative difference. If the uncertainty is comparable to or larger than the reported difference, the conclusion is not supported.
+  - **Resolution test** Provide mean and standard deviation from at least three independent MD simulations, show convergence plots of binding free energy over time, and report the statistical significance of the difference (e.g., via bootstrapping or t-test).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The mutated residues in the RBD showed strong interactions with a few amino acid residues of the hACE2. More specifically, strong electrostatic interactions (salt bridges) and hydrogen bonding were observed between R493 and R498 residues of the Omicron RBD with D30/E35 and D38 residues of the hACE2, respectively."
+  - **Evidence pointer** Section 2, Figures 4-6, Table II, location not provided
+  - **Concern** The manuscript reports hydrogen bond occupancies and salt bridge distances but does not provide the criteria used to define these interactions (e.g., distance and angle cutoffs). The claim that salt bridges are "consistently formed" is based on visual inspection of distance plots (Figure 6) without quantitative thresholds. Additionally, the statement that R493 forms salt bridges with both D30 and E35 at different times is presented as a stable interaction, but the functional significance of a transient interaction (80-100 ns only) is unclear.
+  - **Why it matters** Interaction definitions directly affect the reported occupancies and the interpretation of which residues are functionally important. Without clear criteria, the results are not reproducible and the mechanistic claims are weakened.
+  - **Resolution test** Specify the exact geometric criteria for hydrogen bonds, salt bridges, and pi-stacking interactions. Provide occupancy values with standard errors and justify the biological relevance of transient interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "The binding free energy difference shows that the spike protein of Omicron has increased binding affinity for the hACE-2 receptor... which can be directly associated with its increased infection rate."
+  - **Evidence pointer** Abstract, Section 2, location not provided
+  - **Concern** The manuscript directly equates increased binding affinity with increased virulence and transmissibility without acknowledging that these are multifactorial traits. The authors cite epidemiological observations of rapid spread but do not establish a causal link between their computed binding affinity and observed transmissibility. Other factors such as immune evasion, furin cleavage site efficiency, or replication kinetics are not considered. The title overstates the conclusion by asserting binding affinity is "the key factor" when the study only demonstrates a correlation in silico.
+  - **Why it matters** Overinterpretation of computational results as definitive biological mechanisms can mislead the scientific community and public health messaging. The claim goes beyond what the evidence can support.
+  - **Resolution test** Soften the causal language, explicitly acknowledge limitations in linking binding affinity to virulence, and discuss alternative or contributing factors. Consider revising the title to reflect the correlational nature of the findings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The mutated structure was energy minimized for further refinement and used for molecular dynamics (MD) simulation and binding free energy studies."
+  - **Evidence pointer** Section 4.1, location not provided
+  - **Concern** The methods describe only energy minimization of the mutated structure before MD, but do not mention whether the wild-type structure was also minimized under identical conditions, whether the mutation protocol included side-chain optimization or backbone relaxation, or whether the starting structures were equilibrated to comparable states. The lack of a standardized preparation protocol introduces potential bias in comparing the two systems.
+  - **Why it matters** Inconsistent preparation of the two systems could lead to artifactual differences in binding free energies that are not biologically meaningful.
+  - **Resolution test** Describe the full preparation pipeline for both systems, including minimization criteria, equilibration steps, and any structural validation (e.g., Ramachandran plots, RMSD to crystal structure).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses technical terms such as "MM-GBSA" and "pi-stacking" without brief explanation, which may limit accessibility for a broader readership.
+  - **Required correction** Add a brief parenthetical explanation for MM-GBSA (e.g., "a computational method to estimate binding free energies") and pi-stacking (e.g., "a stabilizing interaction between aromatic rings").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Section 4.2, location not provided
+  - **Issue** The simulation time of 100 ns is relatively short for protein-protein interaction studies, and the manuscript does not justify this choice or discuss potential limitations in sampling.
+  - **Required correction** Provide a justification for the simulation length, cite comparable studies, and acknowledge that longer simulations or enhanced sampling methods might be needed for full convergence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of N501Y
+  - **Evidence pointer** Section 2, location not provided
+  - **Issue** The pi-stacking interaction between Y501 and Y41 is highlighted as a key stabilizing interaction, but the manuscript does not discuss whether this interaction has been previously reported in other variants (e.g., Alpha) that also carry N501Y, which would strengthen the context.
+  - **Required correction** Add a brief comparison with existing literature on N501Y in other variants to contextualize the finding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 2
+  - **Evidence pointer** Section 2, Figure 2, location not provided
+  - **Issue** The description of Figure 2 mentions "22 different positions" but does not clearly explain how the sequence alignment was performed or what the color coding represents.
+  - **Required correction** Expand the figure legend to include alignment methodology and a clear explanation of visual elements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table I
+  - **Evidence pointer** Table I, location not provided
+  - **Issue** The table reports energy components (electrostatic, van der Waals, polar solvation) but does not specify units or whether these are per-residue or total values.
+  - **Required correction** Add units (e.g., kcal/mol) and clarify the scope of each reported value.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of error analysis and statistical significance), R1-M2 (undefined interaction criteria), R1-M4 (incomplete system preparation details). These directly undermine the reproducibility and quantitative validity of the central claims.
+- **Assessment against Nature-style criteria** Originality: Moderate. The study applies established methods to a novel variant, but the approach is not methodologically innovative. Scientific importance: High relevance given the pandemic context, but the conclusions are overstated relative to the evidence. Interdisciplinary readership: The topic bridges virology, structural biology, and computational chemistry, but the presentation is too specialized for a general audience. Technical soundness: Insufficiently demonstrated due to missing error analysis, undefined criteria, and incomplete methods. Readability for nonspecialists: The abstract and introduction are accessible, but the results section assumes significant domain expertise.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question with a plausible hypothesis, but the quantitative claims require substantial additional analysis (error estimates, convergence assessment, statistical testing) and methodological clarification before the case for increased binding affinity as a driver of virulence can be considered supported.
+
+## Risk / unsupported claims
+- The claim that increased binding affinity is "the key factor" behind increased virulence is unsupported; the study only demonstrates a computational binding difference without establishing causality or considering alternative mechanisms.
+- The quantitative binding free energy difference of −8.6 kcal/mol is presented without error bars or statistical testing, making it unverifiable.
+- The assertion that specific salt bridges and hydrogen bonds are "consistently formed" is based on undefined criteria and visual inspection, not quantitative thresholds.
+- The extrapolation from in silico binding affinity to real-world transmissibility and infection rate is not supported by the data presented.
+- The statement that the Omicron variant "may be more transmissible" based on sequence changes is speculative and not directly tested in this study.

@@ -1,0 +1,152 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.20.524865",
+  "title": "Comparison of force fields to study the zinc-finger containing protein NPL4, a target for Antabuse in cancer therapy",
+  "doi": "10.1101/2023.01.20.524865",
+  "abstract": "All-atom molecular dynamics (MD) simulations are a powerful approach to study the structure and dynamics of proteins related to health and disease. Advances in the MD field allow modeling proteins with high accuracy. However, modeling metal ions and their interactions with proteins is still challenging for MD simulations. Over one-third of known protein structures bind metal ions and have various cellular functions, such as structural stability, catalysis, and regulation. NPL4 is a zinc-binding protein and works as a cofactor for p97, and together they regulate protein homeostasis. NPL4 is also of biomedical importance and has been proposed as the target of Antabuse, a drug recently repurposed for cancer treatment. Recent experimental studies have proposed that the Antabuse metabolites, bis- (diethyldithiocarbamate)-copper (CuET) and cupric ions released from CuET, induce NPL4 misfolding and consequent aggregation. However, the molecular details of the mechanisms of interactions of Antabuse metabolites with NPL4 and the consequent structural effects are still elusive. In this context, biomolecular simulations can help to shed light on the related structural details. To apply MD simulations to NPL4 and its interaction with copper or Antabuse metabolites the first important step is identifying a suitable force field to describe the protein in its zinc-bound states. We first examined different sets of non-bonded parameters, because we want to study the misfolding mechanism and cannot rule out that the zinc ion may detach from the protein structure during the process and copper replaces it in the metal binding site. We investigated the force-field ability to model the coordination geometry of the metal ions by comparing the results from MD simulations with optimized geometries from quantum mechanics (QM) calculations using model systems of the zinc coordination site for NPL4. Furthermore, we investigated the performance of a MD force field including bonded parameters to treat copper ions and metal-coordinating atoms in NPL4 that we obtained based on QM calculations.",
+  "authors": [
+    "Scrima S",
+    "Tiberti M",
+    "Ryde U",
+    "Lambrughi M",
+    "Papaleo E"
+  ],
+  "published_date": "2023-01-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.20.524865",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.20.524865.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR600311",
+    "raw_record": {
+      "id": "PPR600311",
+      "source": "PPR",
+      "doi": "10.1101/2023.01.20.524865",
+      "title": "Comparison of force fields to study the zinc-finger containing protein NPL4, a target for Antabuse in cancer therapy",
+      "authorString": "Scrima S, Tiberti M, Ryde U, Lambrughi M, Papaleo E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Scrima S",
+            "lastName": "Scrima",
+            "firstName": "Simone",
+            "initials": "S"
+          },
+          {
+            "fullName": "Tiberti M",
+            "lastName": "Tiberti",
+            "firstName": "Matteo",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2529-3594"
+            }
+          },
+          {
+            "fullName": "Ryde U",
+            "lastName": "Ryde",
+            "firstName": "Ulf",
+            "initials": "U",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7653-8489"
+            }
+          },
+          {
+            "fullName": "Lambrughi M",
+            "lastName": "Lambrughi",
+            "firstName": "Matteo",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0894-8627"
+            }
+          },
+          {
+            "fullName": "Papaleo E",
+            "lastName": "Papaleo",
+            "firstName": "Elena",
+            "initials": "E"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7653-8489"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0894-8627"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2529-3594"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "All-atom molecular dynamics (MD) simulations are a powerful approach to study the structure and dynamics of proteins related to health and disease. Advances in the MD field allow modeling proteins with high accuracy. However, modeling metal ions and their interactions with proteins is still challenging for MD simulations. Over one-third of known protein structures bind metal ions and have various cellular functions, such as structural stability, catalysis, and regulation. NPL4 is a zinc-binding protein and works as a cofactor for p97, and together they regulate protein homeostasis. NPL4 is also of biomedical importance and has been proposed as the target of Antabuse, a drug recently repurposed for cancer treatment. Recent experimental studies have proposed that the Antabuse metabolites, bis- (diethyldithiocarbamate)-copper (CuET) and cupric ions released from CuET, induce NPL4 misfolding and consequent aggregation. However, the molecular details of the mechanisms of interactions of Antabuse metabolites with NPL4 and the consequent structural effects are still elusive. In this context, biomolecular simulations can help to shed light on the related structural details. To apply MD simulations to NPL4 and its interaction with copper or Antabuse metabolites the first important step is identifying a suitable force field to describe the protein in its zinc-bound states. We first examined different sets of non-bonded parameters, because we want to study the misfolding mechanism and cannot rule out that the zinc ion may detach from the protein structure during the process and copper replaces it in the metal binding site. We investigated the force-field ability to model the coordination geometry of the metal ions by comparing the results from MD simulations with optimized geometries from quantum mechanics (QM) calculations using model systems of the zinc coordination site for NPL4. Furthermore, we investigated the performance of a MD force field including bonded parameters to treat copper ions and metal-coordinating atoms in NPL4 that we obtained based on QM calculations.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/29/2023.01.20.524865.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.01.20.524865"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-01-22",
+      "firstPublicationDate": "2023-01-21",
+      "firstIndexDate": "2023-01-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

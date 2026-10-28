@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "37935719",
+    "doi": "10.1038/s41598-023-45896-5",
+    "title": "Bioinformatics analyses of potentially common pathogenic networks for primary Sjogren's syndrome complicated with acute myocardial infarction."
+  },
+  "content": {
+    "abstract": "Both primary Sjogren's syndrome (pSS) and acute myocardial infarction (AMI) are intricately linked. However, their common mechanism is not fully understood. Herein, we examined the underlying network of molecular action associated with developing this complication. Datasets were downloaded from the GEO database. We performed enrichment and protein-protein interaction analyses and screened key genes. We used external datasets to confirm the diagnostic performance for these hub genes. Transcription factor and microRNA regulatory networks were constructed for the validated hub genes. Finally, drug prediction and molecular docking validation were performed. We identified 62 common DEGs, many of which were enriched regarding inflammation and immune response. 5 DEGs were found as key hub genes (IGSF6, MMP9, S100A8, MNDA, and NCF2). They had high diagnostic performance in external datasets. Functional enrichment of these five hub genes showed that they were associated with the adaptive immune response. The Type 1T helper cell showed the most association among all cell types related to AMI and pSS. We identified 36 common TFs and 49 identical TF-miRNAs. The drugs, including Benzo, dexamethasone, and NADP, were predicted as potential therapeutic agents. Herein, we revealed common networks involving pSS and AMI etiologies. Knowledge of these networks and hub genes can enhance research into their associated mechanism and the development of future robust therapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Sjogren's Syndrome/complications/genetics",
+      "Calgranulin A",
+      "Computational Biology",
+      "*MicroRNAs/genetics",
+      "*Myocardial Infarction/complications/genetics",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hou, Qingbin",
+        "Jiang, Jinping",
+        "Na, Kun",
+        "Zhang, Xiaolin",
+        "Liu, Dan",
+        "Jing, Quanmin",
+        "Yan, Chenghui",
+        "Han, Yaling"
+      ],
+      "short_names": [
+        "Hou Q",
+        "Jiang J",
+        "Na K",
+        "Zhang X",
+        "Liu D",
+        "Jing Q",
+        "Yan C",
+        "Han Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Internal Medicine (Cardiovascular), the Second Clinical Medical College, Shanxi Medical University, Taiyuan, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "Department of Cardiology, Shengjing Hospital Affiliated to China Medical University, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China. yanch1029@163.com.",
+        "Department of Internal Medicine (Cardiovascular), the Second Clinical Medical College, Shanxi Medical University, Taiyuan, China. hanyaling@163.net.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China. hanyaling@163.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hou, Qingbin",
+        "short_name": "Hou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine (Cardiovascular), the Second Clinical Medical College, Shanxi Medical University, Taiyuan, China.",
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jinping",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China.",
+          "Department of Cardiology, Shengjing Hospital Affiliated to China Medical University, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Na, Kun",
+        "short_name": "Na K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaolin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dan",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Quanmin",
+        "short_name": "Jing Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Chenghui",
+        "short_name": "Yan C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China. yanch1029@163.com."
+        ]
+      },
+      {
+        "full_name": "Han, Yaling",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine (Cardiovascular), the Second Clinical Medical College, Shanxi Medical University, Taiyuan, China. hanyaling@163.net.",
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China. hanyaling@163.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Nov 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/08 00:41",
+    "fetched_at": "2026-09-29 09:58:21"
+  },
+  "links": {
+    "cites": [
+      "41002646",
+      "40055514"
+    ],
+    "refs": [
+      "36497202",
+      "36470144",
+      "36041475",
+      "36035208",
+      "36008454",
+      "35928492",
+      "34936910",
+      "34204342",
+      "34082770",
+      "33832598",
+      "33282877",
+      "33082709",
+      "32434994",
+      "32049348",
+      "31805992",
+      "31492503",
+      "31441146",
+      "31034046",
+      "30931480",
+      "30770920",
+      "30571473",
+      "30395331",
+      "30178172",
+      "30119881",
+      "29942307",
+      "29514034",
+      "29434065",
+      "29396489",
+      "29211854",
+      "28479489",
+      "27492899",
+      "27141961",
+      "26995659",
+      "26369824",
+      "26269290",
+      "26212387",
+      "26059830",
+      "25582881",
+      "25390695",
+      "25176396",
+      "24938285",
+      "24295066",
+      "23857130",
+      "23374962",
+      "23203871",
+      "22203994",
+      "21752694",
+      "21531623",
+      "21149340",
+      "20842512",
+      "20576703",
+      "16039337",
+      "15885317",
+      "11752295",
+      "10802651",
+      "10592173"
+    ],
+    "similar": [
+      "37935719",
+      "39142001",
+      "39080525",
+      "35562622",
+      "36768371",
+      "35958619",
+      "37614232",
+      "38677173",
+      "36132546",
+      "38359008",
+      "39373505",
+      "36988140",
+      "34145926",
+      "37153570",
+      "33648502",
+      "33506919",
+      "37800460",
+      "38168477",
+      "33847684",
+      "39136821",
+      "37047484",
+      "31125139",
+      "33488608",
+      "35773742",
+      "35356004",
+      "34218797",
+      "35075430",
+      "34413853",
+      "35463752",
+      "37244954",
+      "38783198",
+      "36291136",
+      "34234459",
+      "31772617",
+      "31987036",
+      "35231061",
+      "36104591",
+      "35585822",
+      "37591179",
+      "37773833",
+      "35872921",
+      "37246754",
+      "31552042",
+      "36582740",
+      "33816621",
+      "35422846",
+      "35757392",
+      "27188286",
+      "35764238",
+      "35757636",
+      "36599955",
+      "23845207",
+      "33622336",
+      "36076300",
+      "37250717",
+      "28339495",
+      "26888739",
+      "30542696",
+      "34565282",
+      "39014096",
+      "36899621",
+      "35359935",
+      "36076347",
+      "34723755",
+      "34744455",
+      "29921304",
+      "33902539",
+      "26966136",
+      "37063877",
+      "36440001",
+      "36627660",
+      "36125921",
+      "35762549",
+      "24704022",
+      "28818099",
+      "34553293",
+      "28636181",
+      "29049183",
+      "29845217",
+      "36536067",
+      "34536521",
+      "28916716",
+      "32799333",
+      "31856901",
+      "33179091",
+      "36499614",
+      "19116902",
+      "37586671",
+      "35658960",
+      "35958412",
+      "29845250",
+      "31848144",
+      "24090683",
+      "23116360",
+      "34386009",
+      "33083497",
+      "30886860",
+      "34248836",
+      "36786134",
+      "35571446",
+      "35304503",
+      "35538149",
+      "36154667",
+      "32571405",
+      "36386304",
+      "39051161",
+      "38787365",
+      "38228864"
+    ],
+    "review": [
+      "37935719",
+      "28818099"
+    ],
+    "pmc": [
+      "10630427"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-45896-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37935719/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37935719",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,689 @@
+{
+  "identity": {
+    "pmid": "36854646",
+    "doi": "10.1080/15548627.2023.2179780",
+    "title": "HSPB8 frameshift mutant aggregates weaken chaperone-assisted selective autophagy in neuromyopathies."
+  },
+  "content": {
+    "abstract": "Chaperone-assisted selective autophagy (CASA) is a highly selective pathway for the disposal of misfolding and aggregating proteins. In muscle, CASA assures muscle integrity by favoring the turnover of structural components damaged by mechanical strain. In neurons, CASA promotes the removal of aggregating substrates. A crucial player of CASA is HSPB8 (heat shock protein family B (small) member 8), which acts in a complex with HSPA, their cochaperone BAG3, and the E3 ubiquitin ligase STUB1. Recently, four novel HSPB8 frameshift (fs) gene mutations have been linked to neuromyopathies, and encode carboxy-terminally mutated HSPB8, sharing a common C-terminal extension. Here, we analyzed the biochemical and functional alterations associated with the HSPB8_fs mutant proteins. We demonstrated that HSPB8_fs mutants are highly insoluble and tend to form proteinaceous aggregates in the cytoplasm. Notably, all HSPB8 frameshift mutants retain their ability to interact with CASA members but sequester them into the HSPB8-positive aggregates together with two autophagy receptors SQSTM1/p62 and TAX1BP1. This copartitioning process negatively affects the CASA capability to remove its clients and causes a general failure in proteostasis response. Further analyses revealed that the aggregation of the HSPB8_fs mutants occurs independently of the other CASA members or from the autophagy receptors interaction, but it is an intrinsic feature of the mutated amino acid sequence. HSPB8_fs mutants aggregation alters the differentiation capacity of muscle cells and impairs sarcomere organization. Collectively, these results shed light on a potential pathogenic mechanism shared by the HSPB8_fs mutants described in neuromuscular diseases.Abbreviations : ACD: alpha-crystallin domain; ACTN: actinin alpha; BAG3: BAG cochaperone 3; C: carboxy; CASA: chaperone-assisted selective autophagy; CE: carboxy-terminal extension; CLEM: correlative light and electron microscopy; CMT2L: Charcot-Marie-Tooth type 2L; CTR: carboxy-terminal region; dHMNII: distal hereditary motor neuropathy type II; EV: empty vector; FRA: filter retardation assay; fs: frameshift; HSPA/HSP70: heat shock protein family A (Hsp70); HSPB1/Hsp27: heat shock protein family B (small) member 1; HSPB8/Hsp22: heat shock protein family B (small) member 8; HTT: huntingtin; KO: knockout; MAP1LC3B/LC3: microtubule associated protein 1 light chain 3 beta; MD: molecular dynamics; MTOC: microtubule organizing center; MYH: myosin heavy chain; MYOG: myogenin; NBR1: NBR1 autophagy cargo receptor; CALCOCO2/NDP52: calcium binding and coiled-coil domain 2; NSC34: Neuroblastoma X Spinal Cord 34; OPTN: optineurin; polyQ: polyglutamine; SQSTM1/p62: sequestosome 1; STUB1/CHIP: STIP1 homology and U-box containing protein 1; TARDBP/TDP-43: TAR DNA binding protein; TAX1BP1: Tax1 binding protein 1; TUBA: tubulin alpha; WT: wild-type.",
+    "keywords": [
+      "BAG3",
+      "CASA",
+      "HSPA",
+      "HSPB8",
+      "misfolding",
+      "myopathy",
+      "neuromuscular disorders",
+      "neuropathy",
+      "protein quality control"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Sequestosome-1 Protein/genetics/metabolism",
+      "Autophagy/genetics",
+      "Heat-Shock Proteins/metabolism",
+      "*Neuromuscular Diseases",
+      "*Charcot-Marie-Tooth Disease/genetics",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Adaptor Proteins, Signal Transducing/metabolism",
+      "Apoptosis Regulatory Proteins/metabolism",
+      "Molecular Chaperones/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tedesco, Barbara",
+        "Vendredy, Leen",
+        "Adriaenssens, Elias",
+        "Cozzi, Marta",
+        "Asselbergh, Bob",
+        "Crippa, Valeria",
+        "Cristofani, Riccardo",
+        "Rusmini, Paola",
+        "Ferrari, Veronica",
+        "Casarotto, Elena",
+        "Chierichetti, Marta",
+        "Mina, Francesco",
+        "Pramaggiore, Paola",
+        "Galbiati, Mariarita",
+        "Piccolella, Margherita",
+        "Baets, Jonathan",
+        "Baeke, Femke",
+        "De Rycke, Riet",
+        "Mouly, Vincent",
+        "Laurenzi, Tommaso",
+        "Eberini, Ivano",
+        "Vihola, Anna",
+        "Udd, Bjarne",
+        "Weiss, Lan",
+        "Kimonis, Virginia",
+        "Timmerman, Vincent",
+        "Poletti, Angelo"
+      ],
+      "short_names": [
+        "Tedesco B",
+        "Vendredy L",
+        "Adriaenssens E",
+        "Cozzi M",
+        "Asselbergh B",
+        "Crippa V",
+        "Cristofani R",
+        "Rusmini P",
+        "Ferrari V",
+        "Casarotto E",
+        "Chierichetti M",
+        "Mina F",
+        "Pramaggiore P",
+        "Galbiati M",
+        "Piccolella M",
+        "Baets J",
+        "Baeke F",
+        "De Rycke R",
+        "Mouly V",
+        "Laurenzi T",
+        "Eberini I",
+        "Vihola A",
+        "Udd B",
+        "Weiss L",
+        "Kimonis V",
+        "Timmerman V",
+        "Poletti A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7077-3696",
+        "ORCID: 0000-0002-7643-517X",
+        "ORCID: 0000-0002-2162-0933",
+        "ORCID: 0000-0002-8883-0468"
+      ],
+      "affiliations": [
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Unit of Medical Genetics and Neurogenetics, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy.",
+        "Peripheral Neuropathy Research Group, Department of Biomedical Sciences and Institute Born Bunge, University of Antwerp, Antwerpen, Belgium.",
+        "Peripheral Neuropathy Research Group, Department of Biomedical Sciences and Institute Born Bunge, University of Antwerp, Antwerpen, Belgium.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Neuromics Support Facility, VIB Center for Molecular Neurology, VIB, Antwerp, Belgium.",
+        "Neuromics Support Facility, Department of Biomedical Sciences, University of Antwerp, Antwerp, Belgium.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Laboratory of Neuromuscular Pathology, Institute Born Bunge, and Translational Neurosciences, Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium.",
+        "Neuromuscular Reference Centre, Department of Neurology, Antwerp University Hospital, Antwerp, Belgium.",
+        "Department of Biomedical Molecular Biology, and VIB Center for Inflammation Research, and VIB Bioimaging Core, Ghent University Ghent, Belgium.",
+        "Department of Biomedical Molecular Biology, and VIB Center for Inflammation Research, and VIB Bioimaging Core, Ghent University Ghent, Belgium.",
+        "Sorbonne Universite, Inserm, Institut de Myologie, Centre de Recherche en Myologie, Paris, France.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy.",
+        "Folkhalsan Research Center, University of Helsinki, Helsinki, Finland.",
+        "Neuromuscular Research Center, Tampere University Hospital, Tampere, Finland.",
+        "Folkhalsan Research Center, University of Helsinki, Helsinki, Finland.",
+        "Neuromuscular Research Center, Tampere University Hospital, Tampere, Finland.",
+        "Vasa Central Hospital, Vasa, Finland.",
+        "Department of Pediatrics, University of California, Irvine, Lombardy, United States.",
+        "Department of Pediatrics, University of California, Irvine, Lombardy, United States.",
+        "Peripheral Neuropathy Research Group, Department of Biomedical Sciences and Institute Born Bunge, University of Antwerp, Antwerpen, Belgium.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Universita degli Studi di Milano, Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tedesco, Barbara",
+        "short_name": "Tedesco B",
+        "identifiers": [
+          "0000-0002-7077-3696"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy.",
+          "Unit of Medical Genetics and Neurogenetics, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Vendredy, Leen",
+        "short_name": "Vendredy L",
+        "identifiers": [
+          "0000-0002-7643-517X"
+        ],
+        "affiliations": [
+          "Peripheral Neuropathy Research Group, Department of Biomedical Sciences and Institute Born Bunge, University of Antwerp, Antwerpen, Belgium."
+        ]
+      },
+      {
+        "full_name": "Adriaenssens, Elias",
+        "short_name": "Adriaenssens E",
+        "identifiers": [],
+        "affiliations": [
+          "Peripheral Neuropathy Research Group, Department of Biomedical Sciences and Institute Born Bunge, University of Antwerp, Antwerpen, Belgium."
+        ]
+      },
+      {
+        "full_name": "Cozzi, Marta",
+        "short_name": "Cozzi M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Asselbergh, Bob",
+        "short_name": "Asselbergh B",
+        "identifiers": [],
+        "affiliations": [
+          "Neuromics Support Facility, VIB Center for Molecular Neurology, VIB, Antwerp, Belgium.",
+          "Neuromics Support Facility, Department of Biomedical Sciences, University of Antwerp, Antwerp, Belgium."
+        ]
+      },
+      {
+        "full_name": "Crippa, Valeria",
+        "short_name": "Crippa V",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Cristofani, Riccardo",
+        "short_name": "Cristofani R",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Rusmini, Paola",
+        "short_name": "Rusmini P",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ferrari, Veronica",
+        "short_name": "Ferrari V",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Casarotto, Elena",
+        "short_name": "Casarotto E",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Chierichetti, Marta",
+        "short_name": "Chierichetti M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Mina, Francesco",
+        "short_name": "Mina F",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Pramaggiore, Paola",
+        "short_name": "Pramaggiore P",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Galbiati, Mariarita",
+        "short_name": "Galbiati M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Piccolella, Margherita",
+        "short_name": "Piccolella M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Baets, Jonathan",
+        "short_name": "Baets J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuromuscular Pathology, Institute Born Bunge, and Translational Neurosciences, Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium.",
+          "Neuromuscular Reference Centre, Department of Neurology, Antwerp University Hospital, Antwerp, Belgium."
+        ]
+      },
+      {
+        "full_name": "Baeke, Femke",
+        "short_name": "Baeke F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Molecular Biology, and VIB Center for Inflammation Research, and VIB Bioimaging Core, Ghent University Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Rycke, Riet",
+        "short_name": "De Rycke R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Molecular Biology, and VIB Center for Inflammation Research, and VIB Bioimaging Core, Ghent University Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mouly, Vincent",
+        "short_name": "Mouly V",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, Inserm, Institut de Myologie, Centre de Recherche en Myologie, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Laurenzi, Tommaso",
+        "short_name": "Laurenzi T",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Eberini, Ivano",
+        "short_name": "Eberini I",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Vihola, Anna",
+        "short_name": "Vihola A",
+        "identifiers": [],
+        "affiliations": [
+          "Folkhälsan Research Center, University of Helsinki, Helsinki, Finland.",
+          "Neuromuscular Research Center, Tampere University Hospital, Tampere, Finland."
+        ]
+      },
+      {
+        "full_name": "Udd, Bjarne",
+        "short_name": "Udd B",
+        "identifiers": [],
+        "affiliations": [
+          "Folkhälsan Research Center, University of Helsinki, Helsinki, Finland.",
+          "Neuromuscular Research Center, Tampere University Hospital, Tampere, Finland.",
+          "Vasa Central Hospital, Vasa, Finland."
+        ]
+      },
+      {
+        "full_name": "Weiss, Lan",
+        "short_name": "Weiss L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California, Irvine, Lombardy, United States."
+        ]
+      },
+      {
+        "full_name": "Kimonis, Virginia",
+        "short_name": "Kimonis V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California, Irvine, Lombardy, United States."
+        ]
+      },
+      {
+        "full_name": "Timmerman, Vincent",
+        "short_name": "Timmerman V",
+        "identifiers": [
+          "0000-0002-2162-0933"
+        ],
+        "affiliations": [
+          "Peripheral Neuropathy Research Group, Department of Biomedical Sciences and Institute Born Bunge, University of Antwerp, Antwerpen, Belgium."
+        ]
+      },
+      {
+        "full_name": "Poletti, Angelo",
+        "short_name": "Poletti A",
+        "identifiers": [
+          "0000-0002-8883-0468"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari \"Rodolfo Paoletti\", Dipartimento di Eccellenza 2018-2027, Università degli Studi di Milano, Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Autophagy"
+    ],
+    "journal_abbrev": [
+      "Autophagy"
+    ],
+    "pub_date": "2023 Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/01 06:00",
+    "fetched_at": "2026-09-28 20:59:24"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "41426051",
+      "41355735",
+      "41294008",
+      "41128300",
+      "40493734",
+      "40467930",
+      "40385290",
+      "40243504",
+      "40149586",
+      "39886946",
+      "39548192",
+      "39435632",
+      "37990150",
+      "37462824"
+    ],
+    "refs": [
+      "36594740",
+      "35281256",
+      "34487557",
+      "34471133",
+      "34309183",
+      "34271010",
+      "34117258",
+      "34011988",
+      "33811518",
+      "33744911",
+      "33644875",
+      "33545068",
+      "33168630",
+      "32492178",
+      "32472079",
+      "32342324",
+      "32323160",
+      "32270443",
+      "32253739",
+      "32165108",
+      "32093037",
+      "31573509",
+      "31481932",
+      "31403083",
+      "31273097",
+      "30559338",
+      "30168197",
+      "30120266",
+      "30036999",
+      "29405094",
+      "29343546",
+      "29187165",
+      "29029362",
+      "28780615",
+      "28754666",
+      "28747872",
+      "28608264",
+      "28501893",
+      "28391594",
+      "28377462",
+      "28144995",
+      "27884606",
+      "27570075",
+      "27466192",
+      "27226619",
+      "27064647",
+      "26718575",
+      "26545904",
+      "26496431",
+      "26266977",
+      "25258038",
+      "25208129",
+      "24928119",
+      "24312598",
+      "24157548",
+      "23810450",
+      "23796487",
+      "23434281",
+      "23389032",
+      "23188086",
+      "22930834",
+      "22743772",
+      "22734908",
+      "21985219",
+      "21775628",
+      "21459883",
+      "21361913",
+      "21252941",
+      "20863832",
+      "20858900",
+      "20570967",
+      "20178975",
+      "20159555",
+      "20060297",
+      "19845507",
+      "19383787",
+      "19229298",
+      "19085932",
+      "18230612",
+      "18094623",
+      "18006506",
+      "15565283",
+      "15122253",
+      "10330192"
+    ],
+    "similar": [
+      "36854646",
+      "36594740",
+      "30669930",
+      "40243504",
+      "30335591",
+      "40467930",
+      "39698979",
+      "41099453",
+      "35832504",
+      "30290707",
+      "32472079",
+      "15879436",
+      "26496431",
+      "33030392",
+      "30744518",
+      "34836490",
+      "29405094",
+      "18006506",
+      "33168630",
+      "36692217",
+      "35159325",
+      "31427919",
+      "23810450",
+      "21985219",
+      "19114712",
+      "31326538",
+      "19845507",
+      "33744911",
+      "39215616",
+      "33590792",
+      "18094623",
+      "28780615",
+      "32048886",
+      "25484089",
+      "30951392",
+      "28181153",
+      "20570967",
+      "39814164",
+      "34612149",
+      "28275944",
+      "39936620",
+      "26718575",
+      "31362587",
+      "39193925",
+      "36574942",
+      "20157854",
+      "35435793",
+      "35316156",
+      "27884606",
+      "16935933",
+      "39181128",
+      "34424124",
+      "32093570",
+      "23796487",
+      "33375626",
+      "34685619",
+      "35000542",
+      "20001957",
+      "32093037",
+      "21681022",
+      "36400750",
+      "23434281",
+      "36464658",
+      "39972648",
+      "25714469",
+      "36343628",
+      "38910494",
+      "24220501",
+      "39744815",
+      "33562660",
+      "32892694",
+      "27928720",
+      "35513867",
+      "32543267",
+      "29976090",
+      "35893075",
+      "35220892",
+      "24497840",
+      "28680390",
+      "37243950",
+      "26490709",
+      "29029362",
+      "25904010",
+      "33783320",
+      "32165108",
+      "33143524",
+      "20538880",
+      "15122253",
+      "37424101",
+      "17160934",
+      "35470757",
+      "37523636",
+      "34735580",
+      "18832141",
+      "37654251",
+      "21767525",
+      "35920704",
+      "27570075",
+      "20060297",
+      "38869076"
+    ],
+    "review": [
+      "36854646",
+      "40243504",
+      "35832504",
+      "31427919",
+      "18094623",
+      "32048886",
+      "35435793",
+      "35000542",
+      "32093037",
+      "33562660",
+      "32892694",
+      "28680390",
+      "33783320"
+    ],
+    "pmc": [
+      "10351472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/956708",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/15548627.2023.2179780?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/neuromusculardisorders.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuromuscular Disorders"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36854646/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36854646",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36854646",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HSPB1-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3673",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/6zr1w6hq",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/15548627.2023.2179780",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

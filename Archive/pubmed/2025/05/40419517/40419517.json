@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "40419517",
+    "doi": "10.1038/s41598-024-78011-3",
+    "title": "Uncovering dendritic cell specific biomarkers for diagnosis and prognosis of cardiomyopathy using single cell RNA sequencing and comprehensive bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Cardiomyopathy is a type of cardiovascular disorder that is a primary cause of death globally, killing millions of people each year. Cardiomyopathy detection and early diagnosis are crucial in reducing negative health effects. Thus, this study aims to use single cell RNA sequencing, and bioinformatics analysis to uncover dendritic cell-specific biomarkers, gene ontology, pathways, regulatory interaction networks, and protein-chemical compounds related to the molecular mechanism of cardiomyopathy progression. Two RNAseq datasets GSE65446 and GSE155495 also were evaluated to identify significant biomarkers in cardiomyopathy, and 123 mutual DEGs appeared between scRNAseq and RNAseq datasets. In addition, the DAVID online platform and FunRich software were utilized to detect cell communication in innate immune responses, type 1 IFN, antigen processing and presentation, allograft rejection and viral infection significant gene ontology and metabolic pathways in cardiomyopathy. The protein-protein interaction (PPI) network revealed five key hub proteins (ITGAX, IRF7, MX1, HLA-B, and IRF1). Following that, several transcription factors (GATA2, FOXC1, SREBF1, STAT3, and NFKB1) as well as microRNA (hsa-mir-26a-5p, hsa-mir-129-2-3p, etc.) were predicted. Prospective chemical substances such as tretinoin, valproic acid, and arsenic trioxide have been predicted to be linked to cardiomyopathy treatment. The acceptable value of receiver operating characteristic (ROC) curve analysis revealed that biomarkers play critical roles in cardiomyopathy. This study identifies molecular indicators at the RNA and protein levels that may be useful in improving understanding of molecular causes, early diagnosis, and devising favorable cardiomyopathy treatment. More research will be needed to validate our predicted findings as future clinical biomarkers.",
+    "keywords": [
+      "And Bioinformatics",
+      "Biomarkers",
+      "Cardiomyopathy",
+      "Networking analysis",
+      "Single-cell RNA-sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Computational Biology/methods",
+      "*Biomarkers/metabolism",
+      "*Dendritic Cells/metabolism",
+      "*Cardiomyopathies/diagnosis/genetics/metabolism",
+      "Prognosis",
+      "*Single-Cell Analysis/methods",
+      "Protein Interaction Maps",
+      "Gene Regulatory Networks",
+      "Sequence Analysis, RNA/methods",
+      "Gene Ontology",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rahman, Md Mizanur",
+        "Rahman, Md Habibur",
+        "Hossain, Md Arju",
+        "Islam, Kh Mujahidul",
+        "Apu, Prosenjit Saha",
+        "Khan, Mahfuj",
+        "Kibria, Md Golam",
+        "Ansari, Siddique Akber",
+        "Humayoo, Mahammad"
+      ],
+      "short_names": [
+        "Rahman MM",
+        "Rahman MH",
+        "Hossain MA",
+        "Islam KM",
+        "Apu PS",
+        "Khan M",
+        "Kibria MG",
+        "Ansari SA",
+        "Humayoo M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh.",
+        "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh.",
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh. habib@iu.ac.bd.",
+        "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh. habib@iu.ac.bd.",
+        "Department of Microbiology, Primeasia University, Banani, Dhaka, 1213, Bangladesh.",
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh.",
+        "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh.",
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh.",
+        "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh.",
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh.",
+        "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh.",
+        "Department of Chemical and Petroleum Engineering, Schulich School of Engineering, University of Calgary, Calgary, Alberta, Canada.",
+        "Department of Pharmaceutical Chemistry, College of Pharmacy, King Saud University, P.O Box 2457, Riyadh, 11451, Saudi Arabia.",
+        "School of Engineering, Pokhara University, Lekhnath, Kaski, 427, Nepal. mahammad.humayoo@pu.edu.np."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rahman, Md Mizanur",
+        "short_name": "Rahman MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh.",
+          "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Md Habibur",
+        "short_name": "Rahman MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh. habib@iu.ac.bd.",
+          "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh. habib@iu.ac.bd."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Arju",
+        "short_name": "Hossain MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Primeasia University, Banani, Dhaka, 1213, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Kh Mujahidul",
+        "short_name": "Islam KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh.",
+          "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Apu, Prosenjit Saha",
+        "short_name": "Apu PS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh.",
+          "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Khan, Mahfuj",
+        "short_name": "Khan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, 7003, Bangladesh.",
+          "Center for Advanced Bioinformatics and Artificial Intelligence Research, Islamic University, Kushtia, 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Kibria, Md Golam",
+        "short_name": "Kibria MG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Petroleum Engineering, Schulich School of Engineering, University of Calgary, Calgary, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Ansari, Siddique Akber",
+        "short_name": "Ansari SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, College of Pharmacy, King Saud University, P.O Box 2457, Riyadh, 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Humayoo, Mahammad",
+        "short_name": "Humayoo M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Engineering, Pokhara University, Lekhnath, Kaski, 427, Nepal. mahammad.humayoo@pu.edu.np."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 May 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/27 00:28",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38750502",
+      "38665231",
+      "37858035",
+      "37626628",
+      "37477868",
+      "36203534",
+      "36071497",
+      "35328083",
+      "35055131",
+      "34844599",
+      "34675622",
+      "34673037",
+      "34660720",
+      "34359844",
+      "33015184",
+      "32698598",
+      "32619089",
+      "32612537",
+      "32372669",
+      "32259372",
+      "32012649",
+      "31756426",
+      "31402335",
+      "31219741",
+      "31110304",
+      "31022373",
+      "30989768",
+      "30935055",
+      "30931480",
+      "30643263",
+      "30531897",
+      "30524444",
+      "30515152",
+      "30476243",
+      "30297972",
+      "30092956",
+      "29851283",
+      "29608179",
+      "29555642",
+      "29143812",
+      "28459429",
+      "28363899",
+      "28302644",
+      "28181243",
+      "28007147",
+      "27889210",
+      "27812932",
+      "27340270",
+      "27170236",
+      "26815588",
+      "26632513",
+      "26588356",
+      "26510961",
+      "26002102",
+      "26000488",
+      "25994840",
+      "25988613",
+      "25964631",
+      "25921073",
+      "25610842",
+      "25593279",
+      "25521941",
+      "25516281",
+      "25451708",
+      "24892271",
+      "24436427",
+      "24396025",
+      "24276085",
+      "24219008",
+      "24056876",
+      "23603088",
+      "23497388",
+      "22811429",
+      "22427379",
+      "22413876",
+      "22385417",
+      "22080510",
+      "21414208",
+      "21367871",
+      "20869993",
+      "20805439",
+      "20534156",
+      "20407820",
+      "20399979",
+      "19503826",
+      "19246813",
+      "19228047",
+      "18990722",
+      "18829476",
+      "18403758",
+      "18243370",
+      "17913266",
+      "17182864",
+      "17045896",
+      "16823493",
+      "16567565",
+      "16381878",
+      "15963355",
+      "15769906",
+      "15608262",
+      "15489853",
+      "15051379",
+      "14982835",
+      "14597658",
+      "12901949",
+      "12734009",
+      "12711739",
+      "12118103",
+      "10592173",
+      "10488059",
+      "9826119",
+      "9614485",
+      "3475188"
+    ],
+    "similar": [
+      "40419517",
+      "40399537",
+      "36401966",
+      "33407587",
+      "38839916",
+      "32435051",
+      "40263537",
+      "39028999",
+      "39153206",
+      "31987036",
+      "40068024",
+      "31424269",
+      "32299382",
+      "32041280",
+      "34190177",
+      "35313857",
+      "40374744",
+      "34536521",
+      "32626989",
+      "35716513",
+      "39238649",
+      "36104591",
+      "34844599",
+      "28952134",
+      "34553293",
+      "40087784",
+      "39433267",
+      "39086489",
+      "34390411",
+      "40055592",
+      "39778286",
+      "38885209",
+      "34734085",
+      "31311829",
+      "40245021",
+      "37179305",
+      "39080630",
+      "37063926",
+      "34218797",
+      "39991151",
+      "38717954",
+      "39342024",
+      "35390032",
+      "39955676",
+      "29063236",
+      "32597160",
+      "31950035",
+      "39585570",
+      "40024421",
+      "40347801",
+      "40406126",
+      "37092838",
+      "30132538",
+      "34421922",
+      "29845250",
+      "40328901",
+      "40320470",
+      "39067546",
+      "39160196",
+      "39351239",
+      "39875572",
+      "39557695",
+      "31842912",
+      "32243390",
+      "39766348",
+      "31703725",
+      "39281421",
+      "39509434",
+      "39391879",
+      "38601162",
+      "33080677",
+      "39516222",
+      "29255496",
+      "38961143",
+      "28983581",
+      "33845800",
+      "38549107",
+      "38669428",
+      "30431072",
+      "30916045",
+      "32059076",
+      "39833772",
+      "38268224",
+      "38941374",
+      "28302149",
+      "39820173",
+      "35386284",
+      "39949372",
+      "39324133",
+      "32356485",
+      "36420648",
+      "39874008",
+      "39841296",
+      "31277149",
+      "31692035",
+      "39671358",
+      "38935691",
+      "30935420",
+      "39375405",
+      "40362669"
+    ],
+    "review": [
+      "40419517",
+      "33080677"
+    ],
+    "pmc": [
+      "12106800"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cardiomyopathy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cardiomyopathy"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-78011-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40419517/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

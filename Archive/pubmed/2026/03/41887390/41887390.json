@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41887390",
+    "doi": "10.1016/j.exphem.2026.105423",
+    "title": "Development of hematopoietic stem cell-targeted lipid nanoparticles through lipid composition optimization."
+  },
+  "content": {
+    "abstract": "Hematopoietic stem cell (HSC)-targeted gene editing holds significant potential for treating hereditary hematopoietic disorders, yet the efficient and safe delivery of gene-editing tools into HSCs remains a critical challenge. Lipid nanoparticles (LNPs) have emerged as a promising platform for nucleic acid delivery; however, achieving high transfection efficiency in HSCs remains challenging. In this study, we developed HSC-targeted LNPs by integrating Bayesian optimization with our functional amino lipids. The optimized LNPs exhibited markedly improved transfection efficiency while preserving cell viability, surpassing earlier formulations. Using these LNPs, we achieved ex vivo TP53 gene editing in cord blood (CB) CD34(+) cells with up to 40% on-target editing efficiency. Additionally, one LNP demonstrated efficient RNA delivery into primary human monocytic leukemia cells. These results highlight the potential of machine learning-guided LNP design for advancing HSC-targeted therapies and underscore the promise of LNP-based gene-editing platforms to treat hereditary and malignant hematopoietic disorders.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Hematopoietic Stem Cells/metabolism/cytology",
+      "*Nanoparticles/chemistry",
+      "*Lipids/chemistry",
+      "*Gene Editing/methods",
+      "Tumor Suppressor Protein p53/genetics",
+      "Fetal Blood/cytology/metabolism",
+      "Transfection/methods",
+      "Liposomes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hiraki, Takamasa",
+        "Yamamoto, Keita",
+        "Chang, Yu-Hsuan",
+        "Nakayama, Chika",
+        "Wunderlich, Mark",
+        "Mizukawa, Benjamin",
+        "Nozaki, Emi",
+        "Kiribuchi, Daiki",
+        "Saito, Hidekazu",
+        "Ishihara-Sugano, Mitsuko",
+        "Kato, Motohiro",
+        "Goyama, Susumu"
+      ],
+      "short_names": [
+        "Hiraki T",
+        "Yamamoto K",
+        "Chang YH",
+        "Nakayama C",
+        "Wunderlich M",
+        "Mizukawa B",
+        "Nozaki E",
+        "Kiribuchi D",
+        "Saito H",
+        "Ishihara-Sugano M",
+        "Kato M",
+        "Goyama S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatrics, The University of Tokyo, Tokyo, Japan.",
+        "Division of Molecular Oncology, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Division of Molecular Oncology, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Division of Molecular Oncology, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Division of Experimental Hematology and Cancer Biology, Cancer and Blood Diseases Institute, Cincinnati Children's Hospital Medical Center, Cincinnati, OH.",
+        "Division of Oncology, Cancer and Blood Diseases Institute, Cincinnati Children's Hospital Medical Center, Cincinnati, OH; Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH.",
+        "Materials and Frontier Research Center, Corporate Laboratory, Toshiba Corporation, Kawasaki, Japan.",
+        "AI Digital R&D Center, Corporate Laboratory, Toshiba Corporation, Kawasaki, Japan.",
+        "AI Digital R&D Center, Corporate Laboratory, Toshiba Corporation, Kawasaki, Japan.",
+        "Materials and Frontier Research Center, Corporate Laboratory, Toshiba Corporation, Kawasaki, Japan.",
+        "Department of Pediatrics, The University of Tokyo, Tokyo, Japan.",
+        "Division of Molecular Oncology, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan. Electronic address: goyama@edu.k.u-tokyo.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hiraki, Takamasa",
+        "short_name": "Hiraki T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamamoto, Keita",
+        "short_name": "Yamamoto K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Oncology, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Chang, Yu-Hsuan",
+        "short_name": "Chang YH",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Oncology, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakayama, Chika",
+        "short_name": "Nakayama C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Oncology, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Wunderlich, Mark",
+        "short_name": "Wunderlich M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Experimental Hematology and Cancer Biology, Cancer and Blood Diseases Institute, Cincinnati Children's Hospital Medical Center, Cincinnati, OH."
+        ]
+      },
+      {
+        "full_name": "Mizukawa, Benjamin",
+        "short_name": "Mizukawa B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oncology, Cancer and Blood Diseases Institute, Cincinnati Children's Hospital Medical Center, Cincinnati, OH; Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH."
+        ]
+      },
+      {
+        "full_name": "Nozaki, Emi",
+        "short_name": "Nozaki E",
+        "identifiers": [],
+        "affiliations": [
+          "Materials and Frontier Research Center, Corporate Laboratory, Toshiba Corporation, Kawasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Kiribuchi, Daiki",
+        "short_name": "Kiribuchi D",
+        "identifiers": [],
+        "affiliations": [
+          "AI Digital R&D Center, Corporate Laboratory, Toshiba Corporation, Kawasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Saito, Hidekazu",
+        "short_name": "Saito H",
+        "identifiers": [],
+        "affiliations": [
+          "AI Digital R&D Center, Corporate Laboratory, Toshiba Corporation, Kawasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishihara-Sugano, Mitsuko",
+        "short_name": "Ishihara-Sugano M",
+        "identifiers": [],
+        "affiliations": [
+          "Materials and Frontier Research Center, Corporate Laboratory, Toshiba Corporation, Kawasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Kato, Motohiro",
+        "short_name": "Kato M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Goyama, Susumu",
+        "short_name": "Goyama S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Oncology, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan. Electronic address: goyama@edu.k.u-tokyo.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Experimental hematology"
+    ],
+    "journal_abbrev": [
+      "Exp Hematol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 01:10",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41887390",
+      "39078677",
+      "42214710",
+      "39447842",
+      "40796944",
+      "41124242",
+      "37294917",
+      "41814652",
+      "39393001",
+      "40434188",
+      "39341369",
+      "41075357",
+      "39480746",
+      "40906807",
+      "38857763",
+      "37458484",
+      "26160960",
+      "41344486",
+      "42150080",
+      "39284526",
+      "34668716",
+      "41506374",
+      "35240320",
+      "39461690",
+      "41138809",
+      "39037068",
+      "42138142",
+      "39012601",
+      "37499029",
+      "40879055",
+      "40684992",
+      "40087866",
+      "41494604",
+      "39878334",
+      "35688311",
+      "38876358",
+      "41766648",
+      "42031060",
+      "39766265",
+      "39578569",
+      "36988645",
+      "39334274",
+      "40834922",
+      "34850635",
+      "41138890",
+      "41513014",
+      "37919899",
+      "37918441",
+      "39265853",
+      "41875325",
+      "40326205",
+      "42252785",
+      "38783058",
+      "40653819",
+      "36199352",
+      "41811986",
+      "39875072",
+      "39480551",
+      "30954673",
+      "41780418",
+      "39352021",
+      "28187462",
+      "40962081",
+      "40659448",
+      "39988265",
+      "38738752",
+      "39880143",
+      "41167339",
+      "41060394",
+      "39797693",
+      "41306006",
+      "31763806",
+      "39609561",
+      "41916505",
+      "41720271",
+      "28513735",
+      "41657308",
+      "41895502",
+      "39445691",
+      "40028722",
+      "40131321",
+      "35594500",
+      "41981915",
+      "42000178",
+      "39962883",
+      "38789090",
+      "39824265",
+      "38259198",
+      "41610521",
+      "38583366",
+      "36191773",
+      "35475455",
+      "39485791",
+      "41422708",
+      "34742747",
+      "40120689",
+      "40397606",
+      "32786370",
+      "38325664",
+      "41761629"
+    ],
+    "review": [
+      "41887390",
+      "40434188",
+      "41075357",
+      "38857763",
+      "34668716",
+      "39878334",
+      "38876358",
+      "34850635",
+      "41780418",
+      "39797693",
+      "35594500",
+      "42000178",
+      "40120689"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-472X(26)00056-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stemcells.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stem Cells"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0301-472X(26)00056-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors report an in silico study of four verteporfin isomers binding to the full-length YAP-TEAD complex, using AlphaFold2 multimer modeling and docking with two grid definitions. They claim that isomer Ia-2 shows the most favorable binding free energies, that a specific binding mode (Cluster 7) involves simultaneous interactions with Met86 and Arg87, and that this suggests a competitive inhibitory mechanism at the YAP-TEAD interface. They further propose that isolating Ia-2 from Visudyne may enhance anticancer efficacy and that the findings support rational design of selective YAP-TEAD inhibitors.
+- **Visible evidence base** Abstract text only; no methodological details, numerical results, figures, tables, or statistical analyses were provided
+- **Missing materials affecting confidence** Full methods, docking parameters, scoring function details, AlphaFold2 model quality metrics, clustering criteria, interaction fingerprint definitions, binding free energy calculation methods, all numerical results, and any validation or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational investigation of verteporfin isomer binding to the YAP-TEAD complex. However, the claims substantially exceed what can be supported by the information provided. The absence of methodological detail, quantitative results, and validation makes it impossible to assess the technical soundness of the docking and modeling approach. The central claims regarding isomer-specific binding modes and the therapeutic implication for isolating Ia-2 are not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the Hippo signaling field, particularly those studying YAP-TEAD inhibition for cancer therapy, would be interested. Computational chemists and structural biologists working on protein-protein interaction inhibitors might also find the methodological approach relevant. However, the interest level depends critically on whether the computational predictions are experimentally validated, which is not addressed in the abstract.
+- **Major strengths** The study addresses a clinically relevant question regarding the mechanism of an approved drug. The systematic comparison of all four VP isomers is a reasonable scope. The use of full-length YAP-TEAD complex rather than truncated constructs is a notable attempt at physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The complex structure was modeled using AlphaFold2 multimer, which provided sufficient accuracy for docking simulations despite incomplete experimental data on YAP."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of "sufficient accuracy" for the AlphaFold2 model is asserted without any supporting metrics. No confidence scores, RMSD values relative to known structures, or validation against experimental data are provided. The statement that the model is adequate for docking is a critical assumption that underpins all subsequent results.
+  - **Why it matters** Docking results are only as reliable as the receptor structure used. If the AlphaFold2 model has inaccuracies in the YAP-TEAD interface region, all binding mode predictions and free energy rankings could be artifacts. The abstract acknowledges "incomplete experimental data on YAP," which raises additional concerns about the template quality.
+  - **Resolution test** Provide AlphaFold2 confidence metrics (pLDDT, PAE) specifically for the interface region, and ideally validate the model against any available experimental structures of YAP-TEAD complexes or YAP peptides bound to TEAD.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Docking calculations were performed against 2 grids, one centered on a predicted druggable pocket and the other on the YAP-TEAD interface. A total of 304 poses were generated, and the top-scoring 100 were clustered using protein-ligand interaction fingerprints."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The docking methodology is described at a level that prevents evaluation. No docking software, scoring function, grid dimensions, pose generation parameters, or clustering algorithm details are given. The selection of "top-scoring 100" poses and the clustering approach are not justified. The relationship between the two grids and how results from each were integrated is unclear.
+  - **Why it matters** Docking results are highly sensitive to protocol choices. Without knowing the scoring function, the grid placement rationale, and the clustering parameters, the reader cannot assess whether the reported binding modes are robust or an artifact of specific settings. The lack of any validation (e.g., redocking of known ligands, cross-docking, or comparison with experimental binding data) is a significant gap.
+  - **Resolution test** Provide full docking protocol details, justify grid placement and size, describe the clustering algorithm and parameters, and include validation experiments such as enrichment studies or redocking of known TEAD binders.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** "Among the 4 isomers, Ia-2 consistently showed the most favorable binding free energies."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No numerical values for binding free energies are provided. The term "consistently" implies multiple calculations or replicates, but no information is given about the number of independent runs, the variance, or the statistical significance of the differences between isomers. The magnitude of the energy differences is unknown, so it is impossible to judge whether the preference for Ia-2 is meaningful or within the error of the method.
+  - **Why it matters** Binding free energy differences between closely related isomers are typically small. Without error estimates or statistical analysis, the claim of a consistent preference for Ia-2 cannot be distinguished from noise. The subsequent conclusion that Ia-2 "may enhance anticancer efficacy" depends entirely on this ranking being robust.
+  - **Resolution test** Report binding free energy values with standard deviations or confidence intervals, specify the number of independent calculations, and provide a statistical test comparing Ia-2 against the other isomers.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Notably, Cluster 7 highlighted a unique Ia-2 binding mode involving simultaneous interactions with Met86 and Arg87, suggesting a competitive mechanism at the YAP-TEAD interface."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of a "unique" binding mode and a "competitive mechanism" is based on a single cluster from an unspecified clustering analysis. No information is provided about the population of Cluster 7, the interaction types (hydrogen bonds, hydrophobic contacts, etc.), the distances involved, or how this mode differs from those of other isomers. The assertion that simultaneous interactions with Met86 and Arg87 constitute a competitive mechanism requires knowledge of the YAP residues that are critical for TEAD binding, which is not presented.
+  - **Why it matters** The competitive mechanism is the central biological claim of the study. If the interactions with Met86 and Arg87 are not shown to overlap with the YAP binding epitope, the conclusion is unsupported. The abstract does not demonstrate that these residues are part of the YAP-TEAD interface or that disrupting their interaction would prevent complex formation.
+  - **Resolution test** Show the structural context of Met86 and Arg87 within the YAP-TEAD interface, provide interaction distances and types for Cluster 7, compare this binding mode with those of other isomers, and demonstrate that the predicted interactions would sterically or energetically compete with YAP binding.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "This study provides the first systematic comparison of all VP isomers with full-length YAP and suggests that isolating Ia-2 from Visudyne may enhance anticancer efficacy."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of "first systematic comparison" is a novelty assertion that cannot be verified from the abstract alone. More importantly, the therapeutic implication that isolating Ia-2 "may enhance anticancer efficacy" is a significant extrapolation from computational docking data. No experimental validation, pharmacokinetic considerations, or biological activity data are presented. The abstract does not address whether the predicted binding differences would translate to differential cellular activity.
+  - **Why it matters** The clinical implication is the most consequential claim in the abstract. Computational predictions of binding modes are hypothesis-generating, not evidence of efficacy. Without experimental support, this claim could mislead readers into overinterpreting the significance of the computational results.
+  - **Resolution test** Provide a literature search demonstrating the novelty claim, and either present experimental validation (e.g., cellular assays comparing VP isomers) or explicitly reframe the statement as a hypothesis requiring experimental testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "Ia-2" as an isomer designation without explaining the naming convention for the four VP isomers. The relationship between the isomer labels and the chemical structures is not described.
+  - **Required correction** Briefly define the isomer nomenclature or provide a reference to the structural basis for the isomer labels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "predicted druggable pocket" but does not describe how this pocket was predicted or which tool was used.
+  - **Required correction** Specify the pocket prediction method or refer to the methods section where this is described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final sentence states the findings "support the rational strategies for designing selective YAP-TEAD inhibitors," which is a broad generalization from a single computational study of one drug.
+  - **Required correction** Soften the claim to indicate that the results provide a computational basis for further investigation, rather than direct support for inhibitor design strategies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (AlphaFold2 model validation), R1-M2 (docking protocol transparency and validation), R1-M3 (statistical support for binding free energy rankings), R1-M4 (structural evidence for competitive mechanism), R1-M5 (unsupported therapeutic implication)
+- **Assessment against Nature-style criteria** Originality: The systematic comparison of all VP isomers is a reasonable contribution, but the claim of being "first" cannot be verified from the abstract. Scientific importance: The YAP-TEAD interaction is a relevant therapeutic target, and understanding VP's mechanism could be valuable, but the computational nature of the study limits its immediate impact. Interdisciplinary readership: The topic bridges computational chemistry and cancer biology, which could attract a broad audience, but the abstract is too technical for nonspecialists to fully appreciate the significance. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail and validation is a critical deficiency. Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with docking terminology and the Hippo pathway; the significance of the findings is not made accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The computational claims require substantial additional detail and validation before the conclusions can be considered reliable. The therapeutic implication is particularly unsupported and should be reframed as a hypothesis.
+
+## Risk / unsupported claims
+- The claim that the AlphaFold2 model has "sufficient accuracy for docking simulations" is unsupported without quality metrics or validation.
+- The claim that Ia-2 "consistently showed the most favorable binding free energies" is unsupported without numerical data or statistical analysis.
+- The claim of a "competitive mechanism" at the YAP-TEAD interface is unsupported without structural evidence showing overlap with the YAP binding epitope.
+- The claim that "isolating Ia-2 from Visudyne may enhance anticancer efficacy" is unsupported by any experimental or pharmacokinetic data.
+- The claim of providing the "first systematic comparison" is unverifiable from the abstract.
+- The overall conclusion that the findings "support the rational strategies for designing selective YAP-TEAD inhibitors" is an overstatement relative to the evidence presented.

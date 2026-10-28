@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40235641",
+  "title": "Substrate binding of human and bacterial type IA topoisomerase: An experimentation with AlphaFold 3.0.",
+  "authors": "Mamun, Yasir; Aguado, Ally; Preza, Ana; Kadel, Abhilasha; Mogallur, Anjani; Gonzalez, Briana; De La Rosa, Jayleen; Diaz, Daniel; Evdokimova, Polina; Karki, Ukesh; Tse-Dinh, Yuk-Ching; Chapagain, Prem",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2025-04-16",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 7,
+  "one_liner_zh": "利用AlphaFold3预测人源和细菌IA型拓扑异构酶与ssDNA复合物结构，评估其结合模式与序列偏好，属于蛋白-DNA互作建模方法在非TF体系上的可迁移应用。",
+  "abstract": "Advancements in biophysical techniques such as X-ray crystallography and Cryo-EM have allowed the determination of three-dimensional structures of many proteins and nucleic acids. There, however, is still a lack of 3D structures of proteins that are difficult to crystallize or proteins in complex with other macromolecules. With the advent of deep learning applications such as AlphaFold and RoseTTAFold, it is becoming possible to obtain 3D structures of proteins from their 1D sequences while also generating models of protein-nucleic acid complexes that have been difficult to capture through traditional methods. In this project, we utilized AlphaFold3 (AF3) to create a large number of predicted complexes of two type IA topoisomerases: human topoisomerase 3 beta (hTOP3B) and Mycobacterium tuberculosis topoisomerase I bound to a single-stranded DNA (ssDNA). Topoisomerases are enzymes responsible for resolving topological barriers that arise during regular cellular activity. Obtaining structures of topoisomerase complexed with a ssDNA will allow us to discover possible sequence preferences of this enzyme and obtain structures that can be used to screen potential inhibitors. Our analysis showed that AF3 can predict the structure of the enzymes, especially the N-terminal domain, with high confidence. However, predicted protein-DNA complexes, especially with longer (> 25-mer) oligos, are unreliable. The models generated with shorter (9-mer) oligos are obtained with improved confidence and the substrates are placed similarly to crystal structures, but they do not reliably replicate the sequence specificity of the DNA binding of topoisomerase observed in biochemical assays and crystal structures.",
+  "abstract_zh": "X射线晶体学和冷冻电镜等生物物理技术的进步使得许多蛋白质和核酸的三维结构得以测定。然而，对于难以结晶的蛋白质或与其他大分子形成复合物的蛋白质，仍缺乏三维结构。随着AlphaFold和RoseTTAFold等深度学习应用的出现，从蛋白质的一维序列获取其三维结构成为可能，同时也能生成传统方法难以捕获的蛋白质-核酸复合物模型。在本项目中，我们利用AlphaFold3 (AF3) 生成了大量两种IA型拓扑异构酶的预测复合物：人拓扑异构酶3 beta (hTOP3B) 和结核分枝杆菌拓扑异构酶I与单链DNA (ssDNA) 的结合。拓扑异构酶是负责解决正常细胞活动中出现的拓扑障碍的酶。获得拓扑异构酶与ssDNA复合物的结构将使我们能够发现该酶可能的序列偏好，并获得可用于筛选潜在抑制剂的结构。我们的分析表明，AF3能够以高置信度预测酶的结构，尤其是N端结构域。然而，预测的蛋白质-DNA复合物，特别是与较长（> 25-mer）寡核苷酸的复合物，并不可靠。使用较短（9-mer）寡核苷酸生成的模型获得了改进的置信度，且底物放置方式与晶体结构相似，但它们未能可靠地复现生化实验和晶体结构中观察到的拓扑异构酶DNA结合的序列特异性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40235641/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40235641/",
+  "paper_page_path": "papers/pubmed/40235641/index.html"
+}

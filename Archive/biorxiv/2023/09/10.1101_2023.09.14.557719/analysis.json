@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.14.557719",
+  "title": "EquiPNAS: improved protein-nucleic acid binding site prediction using protein-language-model-informed equivariant deep graph neural networks",
+  "authors": "Rahmatullah Roche; Bernard Moussad; Md Hossain Shuvo; Sumit Tarafder; Debswapna Bhattacharya",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-16",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于蛋白语言模型和E(3)等变图神经网络的EquiPNAS框架，用于蛋白质-DNA/RNA结合位点预测，核心聚焦蛋白-核酸互作界面建模，方法为AI深度学习，与TF-DNA结合位点预测高度相关。",
+  "abstract": "Protein language models (pLMs) trained on a large corpus of protein sequences have shown unprecedented scalability and broad generalizability in a wide range of predictive modeling tasks, but their power has not yet been harnessed for predicting protein-nucleic acid binding sites, critical for characterizing the interactions between proteins and nucleic acids. Here we present EquiPNAS, a new pLM-informed E(3) equivariant deep graph neural network framework for improved protein-nucleic acid binding site prediction. By combining the strengths of pLM and symmetry-aware deep graph learning, EquiPNAS consistently outperforms the state-of-the-art methods for both protein-DNA and protein-RNA binding site prediction on multiple datasets across a diverse set of predictive modeling scenarios ranging from using experimental input to AlphaFold2 predictions. Our ablation study reveals that the pLM embeddings used in EquiPNAS are sufficiently powerful to dramatically reduce the dependence on the availability of evolutionary information without compromising on accuracy, and that the symmetry-aware nature of the E(3) equivariant graph-based neural architecture offers remarkable robustness and performance resilience. EquiPNAS is freely available at https://github.com/Bhattacharya-Lab/EquiPNAS .",
+  "abstract_zh": "在大型蛋白质序列语料库上训练的蛋白质语言模型（pLMs）在广泛的预测建模任务中展现出前所未有的可扩展性和广泛泛化能力，但其潜力尚未被用于预测蛋白质-核酸结合位点，而这对表征蛋白质与核酸之间的相互作用至关重要。在此，我们提出EquiPNAS，一种新的基于pLM信息的E(3)等变深度图神经网络框架，用于改进蛋白质-核酸结合位点预测。通过结合pLM的优势和对称感知的深度图学习，EquiPNAS在多种数据集上，从使用实验输入到AlphaFold2预测的多样化预测建模场景中，始终优于蛋白质-DNA和蛋白质-RNA结合位点预测的最先进方法。我们的消融研究表明，EquiPNAS中使用的pLM嵌入足够强大，能显著减少对进化信息可用性的依赖而不牺牲准确性，且E(3)等变图神经架构的对称感知特性提供了显著的鲁棒性和性能韧性。EquiPNAS可在https://github.com/Bhattacharya-Lab/EquiPNAS 免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.14.557719",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.14.557719",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.14.557719/index.html"
+}

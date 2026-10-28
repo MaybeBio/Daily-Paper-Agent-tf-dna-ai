@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "42059479",
+    "doi": "10.1093/bib/bbag202",
+    "title": "CaHoT-GRN: context-aware high-order topology learning for robust single-cell gene regulatory network inference."
+  },
+  "content": {
+    "abstract": "Cells regulate their functions through gene expression, driven by a complex interplay of transcription factors (TFs) and other regulatory mechanisms that together can be modeled as gene regulatory networks (GRNs). While the advent of single-cell sequencing has revolutionized our understanding of these networks, current GRNs inference methods rely predominantly on expression data alone, overlooking the sequence semantic context of target genes, and the intrinsic physicochemical properties of TFs. Consequently, the reconstructed networks are often riddled with false-positive connections, significantly compromising their reliability. To address these challenges, we propose CaHoT-GRN, a context-aware high-order topology learning framework for robust single-cell GRNs inference. First, we leverage pretrained biological large language models to extract deep semantic embeddings from gene and protein sequences. This allows the model to explore the potential TF-target binding affinity within a latent semantic space. Second, to model cooperative regulatory mechanisms and capture high-order gene interactions, we construct a heterogeneous information network (HIN) via meta-path generation constrained by protein-protein interactions. Furthermore, we propose a similarity co-attention module to model the topological consistency between the prior GRNs and the HIN, thereby capturing long-range associations among genes. On single-cell transcriptomic datasets across four types of networks, CaHoT-GRN yielded an average AUC of 0.846 and an AUPR of 0.420, matching or outperforming existing methods. Moreover, downstream case studies, pathway analyses, and motif matching confirmed its high biological relevance. CaHoT-GRN is publicly available at https://github.com/ydkvictory/CaHoT-GRN.",
+    "keywords": [
+      "PPI network",
+      "gene regulation network",
+      "high-order topology",
+      "sequence embedding"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Single-Cell Analysis/methods",
+      "Transcription Factors/metabolism/genetics",
+      "*Computational Biology/methods",
+      "Humans",
+      "Single-Cell Gene Expression Analysis",
+      "Algorithms",
+      "Large Language Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yao, Dengju",
+        "Zhang, BinBin",
+        "Zhan, Xiaojuan",
+        "Wang, Wentao",
+        "Liang, Ning"
+      ],
+      "short_names": [
+        "Yao D",
+        "Zhang B",
+        "Zhan X",
+        "Wang W",
+        "Liang N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4974-3054"
+      ],
+      "affiliations": [
+        "School of Computer Science and Technology, Harbin University of Science and Technology, No. 52 Xuefu Road, 150080 Harbin, China.",
+        "School of Computer Science and Technology, Harbin University of Science and Technology, No. 52 Xuefu Road, 150080 Harbin, China.",
+        "College of Computer Science and Technology, Heilongjiang Institute of Technology, No. 999 Hongqi Street, 150050 Harbin, China.",
+        "School of Computer Science and Technology, Harbin University of Science and Technology, No. 52 Xuefu Road, 150080 Harbin, China.",
+        "Beijing Rehabilitation Hospital, Capital Medical University, Xixiazhuang South Road, 100144 Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yao, Dengju",
+        "short_name": "Yao D",
+        "identifiers": [
+          "0000-0002-4974-3054"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Harbin University of Science and Technology, No. 52 Xuefu Road, 150080 Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, BinBin",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Harbin University of Science and Technology, No. 52 Xuefu Road, 150080 Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Xiaojuan",
+        "short_name": "Zhan X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Technology, Heilongjiang Institute of Technology, No. 999 Hongqi Street, 150050 Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wentao",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Harbin University of Science and Technology, No. 52 Xuefu Road, 150080 Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Ning",
+        "short_name": "Liang N",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Rehabilitation Hospital, Capital Medical University, Xixiazhuang South Road, 100144 Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Mar 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/30 12:35",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41705507",
+      "41554051",
+      "41489955",
+      "41329984",
+      "41325984",
+      "41317402",
+      "41206950",
+      "41191474",
+      "41093852",
+      "40983951",
+      "40956752",
+      "40708222",
+      "40702704",
+      "40699953",
+      "40415678",
+      "40409270",
+      "40355841",
+      "40220759",
+      "40205063",
+      "40097811",
+      "40069807",
+      "39939367",
+      "39694856",
+      "39454110",
+      "39417321",
+      "39401117",
+      "39349832",
+      "39082651",
+      "39039335",
+      "38896510",
+      "38778003",
+      "38718835",
+      "38609714",
+      "38342857",
+      "37715282",
+      "37703293",
+      "37443338",
+      "37258680",
+      "37247083",
+      "36927031",
+      "36902216",
+      "36768917",
+      "36755098",
+      "35969771",
+      "35961023",
+      "35453346",
+      "35167374",
+      "35062026",
+      "33538820",
+      "32858223",
+      "32728249",
+      "32296183",
+      "31907445",
+      "31682641",
+      "31340985",
+      "30953525",
+      "30860495",
+      "30555747",
+      "30476243",
+      "30445495",
+      "30413482",
+      "29425356",
+      "29087512",
+      "28957658",
+      "26424082",
+      "23794736",
+      "23693077",
+      "23536558",
+      "23193287",
+      "20927193",
+      "17617740",
+      "15680365",
+      "15616563",
+      "15369676",
+      "15079056",
+      "11864602",
+      "10080530",
+      "9989505"
+    ],
+    "similar": [
+      "42059479",
+      "41329984",
+      "41288963",
+      "41206950",
+      "38980373",
+      "40251476",
+      "38950180",
+      "41554051",
+      "41067887",
+      "41317402",
+      "38342857",
+      "39417321",
+      "40662821",
+      "41093852",
+      "42475469",
+      "41883144",
+      "30547796",
+      "38879931",
+      "41544912",
+      "32019417",
+      "35961023",
+      "37889053",
+      "37085776",
+      "37985457",
+      "24228871",
+      "39605181",
+      "40699953",
+      "40116659",
+      "39934680",
+      "29879919",
+      "42560939",
+      "39960893",
+      "41300707",
+      "34251625",
+      "41896196",
+      "40708222",
+      "39401117",
+      "38744843",
+      "39679439",
+      "39062480",
+      "41518505",
+      "32054475",
+      "41871930",
+      "41052197",
+      "37365273",
+      "27479082",
+      "41191474",
+      "42335450",
+      "41489955",
+      "40956752",
+      "42482180",
+      "36070863",
+      "35062026",
+      "38963312",
+      "41775092",
+      "38778003",
+      "42024938",
+      "42225598",
+      "34986805",
+      "40654959",
+      "39311699",
+      "23497388",
+      "40062616",
+      "38589899",
+      "39939367",
+      "38653489",
+      "42086551",
+      "41498638",
+      "39535258",
+      "42054465",
+      "39207727",
+      "40409400",
+      "36585783",
+      "38940155",
+      "40966655",
+      "38581416",
+      "36450117",
+      "41746283",
+      "40127172",
+      "36064320",
+      "31678628",
+      "38238840",
+      "29272447",
+      "36451086",
+      "37079737",
+      "37897702",
+      "42129640",
+      "42378449",
+      "33939795",
+      "36418514",
+      "39030497",
+      "34962963",
+      "40484997",
+      "35050715",
+      "40220759",
+      "27876826",
+      "31985403",
+      "41984780",
+      "41401563",
+      "42061403"
+    ],
+    "review": [
+      "42059479",
+      "37365273",
+      "39939367",
+      "39207727",
+      "40966655"
+    ],
+    "pmc": [
+      "13130071"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42059479/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag202",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusions, Figure legends) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, validity of conclusions relative to the evidence presented, and clarity of presentation. Editorial and stylistic issues are noted only where they affect scientific comprehension.
+- **Shared manuscript claim summary** The authors use a genetic-algorithm-guided multi-dimensional virtual-system-coupled canonical molecular dynamics (GA-guided mD-VcMD) simulation to compare the binding modes of three compounds (sertraline, YN3, acitretin) to the PAH1 domain of mSin3B. They report that only sertraline forms a hydrophobic core in the binding cleft similar to that of the native REST/NRSF ligand, correlating with its experimentally observed inhibitory activity, and propose this as a step toward structure-based inhibitor design.
+- **Visible evidence base** Main text Figures 1–7 and associated legends; Figure 8 and 9 legends; Materials and Methods section; references to Supplementary Figures S1–S11, Supplementary Tables S1–S3, and Supplementary Sections 1–7 (content not provided).
+- **Missing materials affecting confidence** Supplementary Information (all sections, figures, tables, equations); details of the GA-guided mD-VcMD algorithm beyond the cited prior work; force field parameter files; simulation convergence data beyond what is summarized; experimental data for the inhibitory activities of the three compounds (only cited as prior work or personal communication); the HADDOCK model coordinates referenced in the Discussion.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study applying an enhanced sampling method to a pharmaceutically relevant protein-ligand system. The central observation, that sertraline's binding mode resembles the native REST/NRSF interaction while the other two compounds do not, is potentially interesting and mechanistically plausible. However, the manuscript as presented has several significant weaknesses. The evidence for the key claim relies heavily on qualitative visual inspection of density maps and a small number of representative snapshots. The analysis of ligand orientation and flexibility, while creative, is based on simplified metrics that may not capture the full complexity of the binding process. The treatment of the experimentally known binding affinities and inhibitory activities is superficial, and the manuscript does not provide a quantitative comparison between the simulated binding propensities and the experimental ranking. The discussion of the relationship between molecular flexibility, orientation, and inhibitory activity is largely speculative. The manuscript would be strengthened by a more rigorous, quantitative analysis of the simulation data, a clearer demonstration of convergence, and a more direct and quantitative link to the experimental observations.
+- **Who would be interested in the results, and why** Researchers in computational chemistry and biophysics, particularly those developing and applying enhanced sampling methods to protein-ligand binding. The study is also relevant to medicinal chemists interested in the mSin3B-REST interaction as a therapeutic target for neurological disorders and cancer, as it provides a potential mechanistic explanation for the differential activity of the three compounds. The methodological demonstration of GA-guided mD-VcMD for generating binding mode ensembles may be of interest to practitioners in the field.
+- **Major strengths**
+    1.  The application of a sophisticated enhanced sampling method (GA-guided mD-VcMD) to a relevant biological problem is a strength, as it attempts to overcome the timescale limitations of conventional MD.
+    2.  The study addresses a clear and important question: why do structurally similar compounds have different inhibitory activities? The focus on the binding mode, rather than just binding affinity, is a valuable perspective.
+    3.  The comparison of the simulated binding modes with the known structure of the REST/NRSF-mSin3B complex provides a concrete and testable structural hypothesis for the mechanism of action.
+    4.  The manuscript is generally clearly written and the figures, as described in the legends, appear to illustrate the key findings effectively.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence strength and validity of the central claim
+        - **Claim pointer** The central claim is that the simulation "showed that only sertraline binds to the cleft of mSin3B with a high propensity" and forms a hydrophobic core similar to that of the REST/NRSF complex, which "rationally explains why only sertraline exhibited the inhibitory activity."
+        - **Evidence pointer** Results section, Figures 2, 3, 5, 6; Discussion section.
+        - **Concern** The primary evidence for this claim is the spatial density map (Fig. 2) and the RDFs (Fig. 3). While the density map for sertraline shows a cluster in the cleft, the evidence that this is a "high propensity" binding mode is not quantified. The RDFs show peaks for sertraline, but the difference in peak heights between sertraline and YN3 is not statistically analyzed, and the biological significance of these differences is not established. The conclusion that YN3 "did not sink deeply" and acitretin "did not show a remarkable cluster" is based on visual inspection of the density maps. The manuscript lacks a quantitative metric, such as a binding free energy, a residence time, or an occupancy analysis, to support the claim of differential binding propensity. The link between the simulated binding mode and the experimentally observed inhibitory activity is made by inference and is not tested quantitatively.
+        - **Why it matters** The central scientific claim of the paper rests on the differential binding modes of the three ligands. If the evidence for this differential is not robust and quantitative, the entire premise of the paper is weakened. A qualitative visual comparison is insufficient to support a mechanistic conclusion.
+        - **Resolution test** The authors should provide a quantitative measure of binding propensity for each ligand, such as the free energy profile along the binding pathway, the potential of mean force, or a detailed occupancy analysis of the binding site. They should also perform a statistical analysis to show that the differences in the RDFs and density maps between the ligands are significant. To strengthen the link to activity, they could attempt to correlate the simulated binding mode with a computed or experimental binding affinity.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Methodological validation and convergence
+        - **Claim pointer** The manuscript claims that the GA-guided mD-VcMD simulation produces a "thermally equilibrated conformational ensemble (canonical ensemble)" and that the results are converged.
+        - **Evidence pointer** Materials and Methods section (GA-guided mD-VcMD subsection); Results section (Distribution of the system's conformation in 3D RC space); Supplementary Figures S6–S8.
+        - **Concern** The manuscript states that convergence was checked and that regions with Q_cano > 0.001 are "converged well," but the details of this check are relegated to the Supplementary Information, which was not provided for review. The number of iterations differs significantly between systems (14, 13, and 27), which raises questions about whether the sampling was equally converged for all three systems. The manuscript does not provide a clear description of how the convergence was assessed (e.g., block averaging, comparison of independent runs). The validity of the entire ensemble and all subsequent analyses depends on the quality of the sampling.
+        - **Why it matters** If the simulations are not converged, the resulting ensembles and all derived properties (density maps, RDFs, orientation distributions) are not reliable, and the conclusions drawn from them are not valid. The lack of detailed convergence data makes it impossible to assess the robustness of the results.
+        - **Resolution test** The authors must provide the convergence data from the Supplementary Information in the main text or as a supplementary document for review. This should include a clear description of the convergence criteria and a demonstration that the results are stable with respect to simulation length and the number of iterations.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Link to experimental data and biological relevance
+        - **Claim pointer** The manuscript states that "preceding experiments on sertraline and YN3 have shown that only sertraline exhibited medulloblastoma cell growth inhibitory activity" and that "no inhibitory activities were detected for acitretin."
+        - **Evidence pointer** Introduction section; Discussion section; Figure 8c.
+        - **Concern** The experimental data on the inhibitory activities of the three compounds are mentioned only in passing, with a citation to prior work and a personal communication. The manuscript does not provide the actual experimental data (e.g., IC50 values, assay conditions) or a detailed description of the biological context. The claim that the binding mode "explains" the activity is a strong statement that requires a more direct comparison. For example, is the difference in binding mode between sertraline and YN3 consistent with a large difference in activity? The manuscript does not discuss the potency of the compounds or the relationship between the structural observations and the magnitude of the biological effect.
+        - **Why it matters** The biological relevance of the computational findings is a key part of the paper's significance. Without a clear and quantitative presentation of the experimental data, it is difficult to judge whether the proposed structural explanation is convincing or merely plausible. The link between a binding mode and a cellular activity is often complex and may involve factors beyond the binding site, such as cellular permeability or off-target effects.
+        - **Resolution test** The authors should include the experimental data for the three compounds in the manuscript, either in the main text or in a table. They should also discuss the relationship between the simulated binding modes and the experimental activities in more detail, acknowledging the potential complexities in translating a binding mode to a cellular phenotype.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Interpretation of ligand orientation and flexibility
+        - **Claim pointer** The manuscript claims that the orientation of sertraline (Ring A inserted into the cleft) and its flexibility are key factors for its inhibitory activity, while the orientation of acitretin (parallel/anti-parallel) and its stiffness are disadvantageous.
+        - **Evidence pointer** Results section (Orientation of ligands bound to mSin3B; Flexibility of ligands' framework); Discussion section; Figures 6 and 7.
+        - **Concern** The analysis of ligand orientation is based on a single vector defined by the authors. While this is a reasonable approach, the interpretation of the results is largely qualitative. The claim that acitretin's parallel/anti-parallel orientation is "advantageous to be fit to the cleft" but that it "did not show a remarkable cluster" is somewhat contradictory. The discussion of flexibility is based on a single distance metric and a simple analogy to bar-shaped objects. The relationship between this metric and the actual conformational freedom relevant for binding is not established. The conclusion that "if YN3 has more flexibility, YN3 may exert the inhibitory activity" is highly speculative.
+        - **Why it matters** The paper proposes a mechanistic model based on orientation and flexibility. If these concepts are not rigorously defined and quantified, the model remains a hypothesis. The current analysis does not provide a robust framework for understanding how these properties contribute to the binding and inhibition.
+        - **Resolution test** The authors should provide a more detailed analysis of the ligand's conformational ensemble, such as principal component analysis of the ligand's internal coordinates, or a comparison of the bound-state conformations to the unbound-state conformations. They should also consider whether other factors, such as the specific chemical interactions (e.g., hydrogen bonds, van der Waals contacts) between the ligand and the protein, are more important than the global orientation and flexibility.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity and completeness of methods
+        - **Affected element** Materials and Methods section, "Initial conformations of simulation"
+        - **Evidence pointer** Materials and Methods section.
+        - **Issue** The description of how the initial ligand positions were randomized is vague. The statement "we randomized the position of the ligand" is insufficient for reproducibility.
+        - **Required correction** Provide a detailed description of the randomization procedure, including the range of distances and orientations sampled, and how the initial structures were generated.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Presentation of results
+        - **Affected element** Results section, "Distribution of the system's conformation in 3D RC space"
+        - **Evidence pointer** Results section, Figure 1.
+        - **Issue** The description of Figure 1 is brief and does not fully explain what is being shown. The text states the figure "demonstrates the conformational distributions" but does not describe the axes, the meaning of the colors, or how to interpret the different panels.
+        - **Required correction** Expand the figure legend and the text to clearly explain the content of Figure 1, including the definition of the axes, the color scale, and the significance of the observed distributions.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Interpretation of RDFs
+        - **Affected element** Results section, "Radial distribution function of ligand-cleft distance"
+        - **Evidence pointer** Results section, Figure 3.
+        - **Issue** The text states that the RDF for Phe96 has a peak at 3.5 Å "regardless of the peak height" and interprets this as being due to Phe96 being at the entrance of the cleft. This is a reasonable interpretation, but the text should also discuss the significance of the peak heights for the different ligands. A higher peak indicates a higher probability of contact, which is a key part of the argument.
+        - **Required correction** Provide a more quantitative comparison of the RDF peak heights for the three ligands and discuss the implications for the binding affinity and mode.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Discussion of the HADDOCK comparison
+        - **Affected element** Discussion section
+        - **Evidence pointer** Discussion section, Supplementary Figure S11.
+        - **Issue** The comparison with the HADDOCK model is interesting but is only described in a single sentence. The text states that the HADDOCK model shows Ring A contacting Phe93 and Phe96, which is consistent with the simulation, but it does not discuss any differences or discrepancies between the two models.
+        - **Required correction** Expand the discussion of the HADDOCK comparison. Describe the similarities and differences between the models in more detail, and discuss what the agreement or disagreement might imply about the reliability of the predictions.
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Figure quality and accessibility
+        - **Affected element** Figures 2, 5, 6, 8
+        - **Evidence pointer** Figure legends.
+        - **Issue** The figures are described as having colored contours and labels, but the legends do not always clearly define all the visual elements. For example, in Figure 2, the meaning of the different colored contours is described in the legend, but the labels "Cluster A" and "Cluster B" are not defined in the text until later. In Figure 5, the "ocher-colored lines" are mentioned in the legend but their exact meaning is not fully explained.
+        - **Required correction** Ensure that all figures are self-contained and that all visual elements are clearly defined in the legends. Consider using a consistent color scheme and labeling convention across all figures.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of quantitative evidence for the central claim of differential binding propensity.
+    - R1-M2: Insufficient evidence for the convergence of the enhanced sampling simulations.
+    - R1-M3: Inadequate presentation and integration of the experimental data on inhibitory activity.
+    - R1-M4: Qualitative and potentially oversimplified analysis of ligand orientation and flexibility.
+- **Assessment against Nature-style criteria**
+    - **Originality** The application of GA-guided mD-VcMD to this specific protein-ligand system is novel, and the focus on the binding mode as an explanation for differential activity is a useful contribution. However, the general concept of using enhanced sampling to study protein-ligand binding is well-established.
+    - **Scientific importance** The mSin3B-REST interaction is a relevant therapeutic target, and understanding the structural basis for inhibitor action is of potential importance. However, the study is a computational prediction that is not validated by new experimental data, which limits its immediate impact.
+    - **Interdisciplinary readership** The work is primarily of interest to computational chemists and biophysicists. The biological implications are discussed, but the technical nature of the methods and analysis may limit its accessibility to a broader biological or clinical audience.
+    - **Technical soundness** The methodological approach is sound in principle, but the manuscript lacks the necessary detail and quantitative analysis to fully assess the technical validity of the results. The convergence of the simulations and the statistical significance of the key findings are not adequately demonstrated.
+    - **Readability for nonspecialists** The manuscript is written in a technical style that assumes a strong background in molecular dynamics and statistical mechanics. The key findings are presented clearly, but the methods and analysis would be difficult for a nonspecialist to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and presents a plausible hypothesis, but the evidence provided is not sufficient to support the central claims. The lack of quantitative analysis, the incomplete presentation of the experimental data, and the insufficient evidence for convergence are major weaknesses that must be addressed. I would be supportive of the manuscript if the authors can provide a more rigorous and quantitative analysis that directly links the simulated binding modes to the experimental activities.
+
+## Risk / unsupported claims
+- The claim that the simulations "rationally explain" the differential inhibitory activity of the three compounds is not supported by the evidence presented. The link between the simulated binding mode and the cellular activity is speculative.
+- The claim that the GA-guided mD-VcMD simulation produces a "thermally equilibrated conformational ensemble" is not fully supported by the evidence presented, as the convergence analysis is not shown.
+- The claim that the "framework of sertraline is the most flexible" and that this is related to its activity is based on a simplified metric and is not rigorously established.
+- The claim that the "parallel or anti-parallel orientation" of acitretin is "advantageous to be fit to the cleft" is contradicted by the observation that acitretin has a low density in the cleft.
+- The statement that "Cluster B is an artificial cluster" is presented as a fact, but it is an interpretation based on the authors' reasoning about the restrained C-terminal tail.
+- The claim that the "conventional SAR analysis could not explain" the activity is based on a single, simplified alignment of the compounds and may not be a comprehensive assessment.

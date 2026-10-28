@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, methods, results, discussion, and supplementary figure references. No supplementary files were provided.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated results. Code availability and data accessibility were noted but not independently verified.
+- **Shared manuscript claim summary** The authors present mmVelo, a deep generative model based on a mixture-of-experts variational autoencoder, that infers cell state dynamics from spliced and unspliced mRNA and projects these dynamics onto chromatin accessibility, yielding single-peak-resolution chromatin velocity. The model is applied to developing mouse brain, mouse skin hair follicle, and human cortical development datasets, with claims of accurate recovery of known developmental trajectories, identification of regulatory TFs, decomposition of velocity uncertainty into on- and off-manifold components, and inference of missing-modality velocities from single-modality data.
+- **Visible evidence base** Main text figures referenced (Figs 1–6), supplementary figures referenced (Figs S3, S5, S6), equations in Methods (equations 1–3), and dataset descriptions in Data availability. No actual figure images, tables, or numerical results were provided in the manuscript text.
+- **Missing materials affecting confidence** Supplementary figures and tables, detailed numerical results, hyperparameter settings, model architecture diagrams, and benchmark comparison tables were not available. This limits the ability to fully assess the quantitative claims and robustness analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting extension of RNA velocity to chromatin accessibility at single-peak resolution, addressing a genuine gap in the field. The methodological framework is well motivated, and the application to multiple datasets demonstrates versatility. However, the current evidence base is insufficient to fully validate the core claims. Key concerns include the lack of quantitative benchmarking details, unclear handling of technical confounders in cross-modal inference, and the absence of statistical rigor in several validation steps. The manuscript would benefit from clearer presentation of model assumptions, more comprehensive comparisons with existing methods, and additional validation of the biological interpretations.
+- **Who would be interested in the results, and why** Researchers in computational biology, particularly those working on single-cell multiomics integration, RNA velocity, chromatin dynamics, and gene regulatory network inference. The method could also interest experimentalists studying developmental biology, especially those investigating the temporal ordering of chromatin accessibility changes and transcriptional commitment. The missing-modality inference capability may appeal to groups with large single-modality datasets who wish to infer dynamics in unmeasured layers.
+- **Major strengths**
+  1. The problem is well defined and addresses a real limitation of existing velocity methods, which are largely restricted to RNA.
+  2. The use of a mixture-of-experts VAE for multimodal integration is a sensible and modern choice, building on established frameworks.
+  3. The single-peak-resolution chromatin velocity is a meaningful advance over gene-level aggregation approaches.
+  4. The decomposition of velocity uncertainty into on- and off-manifold components is a thoughtful contribution that could provide biological insight.
+  5. The missing-modality inference framework, while preliminary, has clear practical value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that mmVelo "accurately recovered accessibility dynamics" in developing mouse brain and "identified transcription factors regulating accessibility" in mouse skin.
+  - **Evidence pointer** Section 3.3, Section 3.4, Figures 2 and 3, Supplementary Figures S3 and S5.
+  - **Concern** The quantitative basis for "accurate" recovery is not presented in the main text. The VCS is mentioned but no numerical values, confidence intervals, or statistical comparisons with alternative methods are provided. The benchmarking against scVelo and MultiVelo is referenced only in supplementary figures, which were not available for review. Without these data, the claim of superior accuracy cannot be evaluated.
+  - **Why it matters** The central contribution of the paper is the accuracy of the estimated chromatin velocity. If the quantitative evidence is weak or the comparison is not fair, the method's utility is not established.
+  - **Resolution test** Provide VCS values with error bars for all methods and datasets, include statistical tests for differences, and make the benchmarking code and results publicly available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that mmVelo can infer missing-modality velocities from single-modality data, specifically "predicting chromatin velocity from gene expression data."
+  - **Evidence pointer** Section 3.7, Figure 6.
+  - **Concern** The validation of missing-modality inference relies on a simulated dataset where missing modalities are artificially induced. The manuscript does not discuss potential biases in this simulation, such as whether the simulated missingness pattern matches real-world scenarios. More critically, the application to real human cortical development data lacks ground truth for the missing modality, so the accuracy of the inferred velocities cannot be directly assessed. The agreement with known biology is suggestive but not a quantitative validation.
+  - **Why it matters** The missing-modality inference is a key claimed novelty. If the validation is only on simulated data with favorable conditions, the real-world utility is uncertain.
+  - **Resolution test** Provide a more realistic simulation framework, include quantitative metrics for the simulated case, and discuss the limitations of the real-data application. Consider validating on a dataset where both modalities are measured but one is held out.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that decomposing velocity uncertainty into on- and off-manifold components reveals "modality-specific uncertainty structure, with chromatin fluctuation elevated near lineage branching."
+  - **Evidence pointer** Section 3.5, Figure 4.
+  - **Concern** The interpretation of the uncertainty decomposition is largely qualitative. The manuscript does not provide a statistical framework to determine whether the observed elevation near branching points is significant or could arise by chance. The choice of local tangent space dimension (r_m) is not justified, and the sensitivity of the results to this choice is not explored.
+  - **Why it matters** The biological interpretation of the uncertainty structure is a significant part of the paper's contribution. Without statistical rigor, the conclusions may be overinterpreted.
+  - **Resolution test** Provide a null model or permutation test to assess the significance of the observed patterns. Perform sensitivity analysis on the tangent space dimension and other key hyperparameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that mmVelo "reveals the dynamics of TF binding motifs" and enables "identification of candidate transcription factors that regulate chromatin accessibility."
+  - **Evidence pointer** Section 3.4, Section 3.6, Figures 3 and 5.
+  - **Concern** The identification of TFs relies on motif enrichment and correlation with chromatin velocity. The manuscript does not address the issue of motif redundancy or the potential for indirect associations. The permutation test for regulatory relationships is described but the results are not presented in the main text. The biological validation of the identified TFs is limited to literature references, which is not a strong validation.
+  - **Why it matters** The biological insights derived from the method are a key selling point. If the TF identification is not robust or validated, the practical value is diminished.
+  - **Resolution test** Provide the full results of the permutation test, including effect sizes and confidence intervals. Consider experimental validation or comparison with orthogonal datasets (e.g., TF knockout or perturbation data).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Section 2.2
+  - **Evidence pointer** Equations 1–3
+  - **Issue** The generative model equations are presented without full derivation or clear notation. The role of the mixture-of-experts weighting in the variational posterior is not explained intuitively.
+  - **Required correction** Provide a clearer explanation of the mixture-of-experts mechanism and its benefits over a standard VAE. Consider adding a schematic diagram of the model architecture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 2.6
+  - **Evidence pointer** Hyperparameter selection
+  - **Issue** The hyperparameter selection process is described as using Optuna, but the search space, number of trials, and final selected values are not reported.
+  - **Required correction** Report the hyperparameter search space, the final values used, and the objective metric for selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, Section 3.3
+  - **Evidence pointer** Figure 2
+  - **Issue** The description of Figure 2e is unclear. The text states "we investigated the velocity of Neurod2 along the pseudotime axis for each modality," but it is not clear what is plotted or how the temporal ordering is quantified.
+  - **Required correction** Clarify the figure description and provide a quantitative measure of the temporal lag between modalities.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, Section 3.6
+  - **Evidence pointer** Figure 5b–d
+  - **Issue** The Wilcoxon rank-sum test p-values are reported but the effect sizes are not. The biological significance of the observed differences is unclear.
+  - **Required correction** Report effect sizes (e.g., median differences) alongside p-values.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of quantitative benchmarking data in the main text.
+  - R1-M2: Insufficient validation of missing-modality inference on real data.
+  - R1-M3: No statistical framework for the uncertainty decomposition analysis.
+  - R1-M4: Incomplete presentation of the TF regulatory relationship validation.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of extending velocity estimation to chromatin accessibility at single-peak resolution is novel and addresses a clear gap. The uncertainty decomposition is also a fresh contribution. However, the underlying components (VAE, RNA velocity, motif analysis) are established, and the novelty lies primarily in their integration.
+  - **Scientific importance** The ability to infer chromatin dynamics and regulatory relationships from multiomics data has broad implications for developmental biology and disease research. The missing-modality inference could extend the applicability of velocity analysis to more common single-modality datasets. However, the importance is contingent on the validity of the claims, which is currently not fully established.
+  - **Interdisciplinary readership** The work bridges computational method development and biological application, which could appeal to both computational biologists and experimentalists. The writing is generally accessible, though the Methods section assumes familiarity with variational inference and splicing kinetics.
+  - **Technical soundness** The methodological framework is reasonable, but the current evidence is insufficient to confirm technical soundness. Key concerns include the lack of quantitative validation, potential confounders in cross-modal inference, and the absence of sensitivity analyses.
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The Results section is readable, but the Methods section is dense and would be challenging for nonspecialists. The figures are referenced but not available for review.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the framework is well motivated, but the current evidence base is insufficient to establish the validity of the central claims. The authors should provide comprehensive quantitative results, address the methodological concerns, and strengthen the validation of biological interpretations.
+
+## Risk / unsupported claims
+- The claim of "accurate" chromatin velocity recovery is unsupported without quantitative metrics in the main text.
+- The claim of superior performance over scVelo and MultiVelo is unverifiable without the supplementary benchmarking data.
+- The biological interpretation of the uncertainty decomposition is unsupported without statistical testing.
+- The identification of specific TFs as regulators is suggestive but not rigorously validated.
+- The generalizability of the missing-modality inference to diverse datasets is not established.
+- The claim that mmVelo "reveals the dynamics of TF binding motifs" is overstated given the indirect nature of the inference.

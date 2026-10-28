@@ -1,0 +1,499 @@
+{
+  "identity": {
+    "pmid": "41283249",
+    "doi": "10.3390/medsci13040248",
+    "title": "Identification and Computational Analysis of BRCA2 Variants in Mexican Women from Jalisco, Mexico, with Breast and Ovarian Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast and ovarian cancers (BC and OC) are prevalent malignancies in women globally, with germline variants in the BRCA2 gene significantly increasing the risk of developing these cancers. Despite extensive studies, the frequency and impact of BRCA2 variants in women from Jalisco, Mexico, remain underexplored. OBJECTIVE: The aim of this study was to identify and characterize BRCA2 gene variants in Mexican women diagnosed with BC and OC and to assess their functional and structural consequences using computational analyses. METHODOLOGY: Genomic DNA from 140 Mexican women with BC and/or OC, selected based on clinical criteria suggestive of BRCA2 variants, was sequenced using NGS targeting BRCA2 coding regions. Functional effects were predicted with Ensembl VEP, SIFT, and PolyPhen-2. Structural impacts of missense variants were assessed using HOPE and AlphaFold models. RESULTS: BRCA2 variants were identified in 12.86% of patients, with higher frequency in OC (21.05%) than BC (12%). Several mapped to key functional domains, including BRC repeats and the DNA-binding domain. Many were predicted as deleterious or probably damaging, though clinical classifications were often conflicting. Structural analysis indicated potential disruptions in protein stability or interactions for most missense variants. Clinically, BRCA2-positive BC patients were younger at diagnosis and showed a trend toward lower complete response. CONCLUSION: BRCA2 variants were found in 12.86% of patients, including six VUSs not reported in other populations. Several affected key functional domains with predicted deleterious effects. Findings support the need for genetic panels tailored to the Mexican population.",
+    "keywords": [
+      "BRCA2 gene",
+      "BRCA2 pathogenic variants",
+      "breast cancer",
+      "computational biology",
+      "genetic variation",
+      "ovarian cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Mexico/epidemiology",
+      "*Ovarian Neoplasms/genetics/epidemiology",
+      "*BRCA2 Protein/genetics/chemistry",
+      "*Breast Neoplasms/genetics/epidemiology",
+      "Middle Aged",
+      "Adult",
+      "Genetic Predisposition to Disease",
+      "Computational Biology/methods",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garcia-Verdin, Patricia Montserrat",
+        "Garcia-Ortiz, Jose Elias",
+        "Garibaldi-Rios, Asbiel Felipe",
+        "Davalos-Rodriguez, Ingrid Patricia",
+        "Mendoza-Ruvalcaba, Sandra Del Carmen",
+        "Magana-Torres, Maria Teresa",
+        "Figuera, Luis E",
+        "Rosales-Reynoso, Monica Alejandra",
+        "Tovar-Jacome, Cesar de Jesus",
+        "Zuniga-Gonzalez, Guillermo Moises",
+        "Gomez-Meda, Belinda Claudia",
+        "Torres-Mendoza, Blanca Miriam",
+        "Villegas-Pacheco, Raquel",
+        "Gomez-Cerda, Rene",
+        "Cardenas Valdez, Julio Cesar",
+        "Meza-Chavolla, Sergio Osvaldo",
+        "Gallegos-Arreola, Martha Patricia"
+      ],
+      "short_names": [
+        "Garcia-Verdin PM",
+        "Garcia-Ortiz JE",
+        "Garibaldi-Rios AF",
+        "Davalos-Rodriguez IP",
+        "Mendoza-Ruvalcaba SDC",
+        "Magana-Torres MT",
+        "Figuera LE",
+        "Rosales-Reynoso MA",
+        "Tovar-Jacome CJ",
+        "Zuniga-Gonzalez GM",
+        "Gomez-Meda BC",
+        "Torres-Mendoza BM",
+        "Villegas-Pacheco R",
+        "Gomez-Cerda R",
+        "Cardenas Valdez JC",
+        "Meza-Chavolla SO",
+        "Gallegos-Arreola MP"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1504-1457",
+        "ORCID: 0009-0003-9788-1106",
+        "ORCID: 0000-0002-6096-4579",
+        "ORCID: 0000-0003-0387-4996",
+        "ORCID: 0000-0003-1257-4637",
+        "ORCID: 0000-0003-2774-6390",
+        "ORCID: 0000-0003-2233-571X",
+        "ORCID: 0000-0002-0843-7595",
+        "ORCID: 0000-0003-4539-1693"
+      ],
+      "affiliations": [
+        "Division de Genetica, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Doctorado en Genetica Humana, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Genetica, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Genetica, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Doctorado en Genetica Humana, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Genetica, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Genetica, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Genetica, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Genetica, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Doctorado en Genetica Humana, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Medicina Molecular, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Doctorado en Genetica Humana, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Medicina Molecular, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Medicina Molecular, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Instituto de Genetica Humana \"Dr. Enrique Corona Rivera\", Departamento de Biologia Moleculary Genomica, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico.",
+        "Laboratorio de Inmunodeficiencias Humanas y Retrovirus, Division de Neurociencias, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Departamento de Disciplinas Filosofico Metodologicas, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico.",
+        "Unidad Medica de Alta Especialidad, Hospital de Gineco-Obstetricia, Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Unidad Medica de Alta Especialidad, Hospital de Gineco-Obstetricia, Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Unidad Medica de Alta Especialidad, Hospital de Gineco-Obstetricia, Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Unidad de Deteccion y Diagnostico Clinica de Mama, Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+        "Division de Genetica, Centro de Investigacion Biomedica de Occidente (CIBO), Centro Medico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "García-Verdín, Patricia Montserrat",
+        "short_name": "García-Verdín PM",
+        "identifiers": [],
+        "affiliations": [
+          "División de Genética, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+          "Doctorado en Genética Humana, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "García-Ortiz, José Elías",
+        "short_name": "García-Ortiz JE",
+        "identifiers": [
+          "0000-0003-1504-1457"
+        ],
+        "affiliations": [
+          "División de Genética, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Garibaldi-Ríos, Asbiel Felipe",
+        "short_name": "Garibaldi-Ríos AF",
+        "identifiers": [
+          "0009-0003-9788-1106"
+        ],
+        "affiliations": [
+          "División de Genética, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+          "Doctorado en Genética Humana, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Dávalos-Rodríguez, Ingrid Patricia",
+        "short_name": "Dávalos-Rodríguez IP",
+        "identifiers": [],
+        "affiliations": [
+          "División de Genética, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Mendoza-Ruvalcaba, Sandra Del Carmen",
+        "short_name": "Mendoza-Ruvalcaba SDC",
+        "identifiers": [],
+        "affiliations": [
+          "División de Genética, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Magaña-Torres, María Teresa",
+        "short_name": "Magaña-Torres MT",
+        "identifiers": [],
+        "affiliations": [
+          "División de Genética, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Figuera, Luis E",
+        "short_name": "Figuera LE",
+        "identifiers": [
+          "0000-0002-6096-4579"
+        ],
+        "affiliations": [
+          "División de Genética, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+          "Doctorado en Genética Humana, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Rosales-Reynoso, Mónica Alejandra",
+        "short_name": "Rosales-Reynoso MA",
+        "identifiers": [
+          "0000-0003-0387-4996"
+        ],
+        "affiliations": [
+          "División de Medicina Molecular, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Tovar-Jácome, Cesar de Jesús",
+        "short_name": "Tovar-Jácome CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Doctorado en Genética Humana, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico.",
+          "División de Medicina Molecular, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Zúñiga-González, Guillermo Moisés",
+        "short_name": "Zúñiga-González GM",
+        "identifiers": [
+          "0000-0003-1257-4637"
+        ],
+        "affiliations": [
+          "División de Medicina Molecular, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Gómez-Meda, Belinda Claudia",
+        "short_name": "Gómez-Meda BC",
+        "identifiers": [
+          "0000-0003-2774-6390"
+        ],
+        "affiliations": [
+          "Instituto de Genética Humana \"Dr. Enrique Corona Rivera\", Departamento de Biología Moleculary Genómica, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Torres-Mendoza, Blanca Miriam",
+        "short_name": "Torres-Mendoza BM",
+        "identifiers": [
+          "0000-0003-2233-571X"
+        ],
+        "affiliations": [
+          "Laboratorio de Inmunodeficiencias Humanas y Retrovirus, División de Neurociencias, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico.",
+          "Departamento de Disciplinas Filosófico Metodológicas, Centro Universitario de Ciencias de la Salud (CUCS), Universidad de Guadalajara (UdeG), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Villegas-Pacheco, Raquel",
+        "short_name": "Villegas-Pacheco R",
+        "identifiers": [],
+        "affiliations": [
+          "Unidad Médica de Alta Especialidad, Hospital de Gineco-Obstetricia, Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Gómez-Cerda, René",
+        "short_name": "Gómez-Cerda R",
+        "identifiers": [],
+        "affiliations": [
+          "Unidad Médica de Alta Especialidad, Hospital de Gineco-Obstetricia, Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Cárdenas Valdez, Julio César",
+        "short_name": "Cárdenas Valdez JC",
+        "identifiers": [],
+        "affiliations": [
+          "Unidad Médica de Alta Especialidad, Hospital de Gineco-Obstetricia, Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Meza-Chavolla, Sergio Osvaldo",
+        "short_name": "Meza-Chavolla SO",
+        "identifiers": [
+          "0000-0002-0843-7595"
+        ],
+        "affiliations": [
+          "Unidad de Detección y Diagnóstico Clínica de Mama, Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      },
+      {
+        "full_name": "Gallegos-Arreola, Martha Patricia",
+        "short_name": "Gallegos-Arreola MP",
+        "identifiers": [
+          "0000-0003-4539-1693"
+        ],
+        "affiliations": [
+          "División de Genética, Centro de Investigación Biomédica de Occidente (CIBO), Centro Médico Nacional de Occidente (CMNO), Instituto Mexicano del Seguro Social (IMSS), Guadalajara 44340, Jalisco, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical sciences (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Med Sci (Basel)"
+    ],
+    "pub_date": "2025 Oct 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 12:38",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40071159",
+      "39552041",
+      "39488595",
+      "39438962",
+      "39352042",
+      "39215191",
+      "39126233",
+      "39062721",
+      "38777539",
+      "38718835",
+      "38184581",
+      "38075165",
+      "37774136",
+      "37674925",
+      "37541535",
+      "36098506",
+      "36010882",
+      "35918668",
+      "35438911",
+      "35278150",
+      "35159349",
+      "34884434",
+      "34813939",
+      "34671129",
+      "34606975",
+      "34427920",
+      "34356066",
+      "34356050",
+      "34178674",
+      "33996823",
+      "33606809",
+      "33578357",
+      "32963528",
+      "32862296",
+      "32850417",
+      "32598897",
+      "32368150",
+      "31869745",
+      "31862315",
+      "31454914",
+      "31405835",
+      "31174913",
+      "31131967",
+      "30630528",
+      "28632866",
+      "27268795",
+      "26633127",
+      "25741868",
+      "25716084",
+      "25282148",
+      "25236687",
+      "25195694",
+      "23315928",
+      "21324516",
+      "21059217",
+      "19433783",
+      "17466083",
+      "12442275"
+    ],
+    "similar": [
+      "41283249",
+      "22684231",
+      "40071159",
+      "31036035",
+      "33726785",
+      "29297111",
+      "35216584",
+      "22655046",
+      "31336956",
+      "39815370",
+      "34930165",
+      "32772980",
+      "31907386",
+      "32180084",
+      "29368626",
+      "32776218",
+      "26852015",
+      "24156927",
+      "32986223",
+      "34861889",
+      "35409996",
+      "29236234",
+      "31244284",
+      "35918668",
+      "30947698",
+      "30709381",
+      "38219492",
+      "29361001",
+      "32862574",
+      "33630024",
+      "40403695",
+      "18489799",
+      "30733081",
+      "38326120",
+      "25236687",
+      "39940038",
+      "25948282",
+      "30078507",
+      "31206626",
+      "42353852",
+      "12942367",
+      "28376175",
+      "39847877",
+      "39733403",
+      "38890714",
+      "39724722",
+      "34296289",
+      "33428613",
+      "24728577",
+      "39062721",
+      "26848529",
+      "40347974",
+      "40211798",
+      "28439188",
+      "31837001",
+      "34983974",
+      "29483665",
+      "28033443",
+      "33128190",
+      "35908255",
+      "16939956",
+      "31409081",
+      "12717301",
+      "32039725",
+      "28591191",
+      "40952741",
+      "31060593",
+      "20683152",
+      "31273614",
+      "38417439",
+      "24894818",
+      "41660923",
+      "12215251",
+      "34906479",
+      "28418444",
+      "30630528",
+      "28281021",
+      "31331294",
+      "40419811",
+      "34356116",
+      "31050813",
+      "38874686",
+      "41894033",
+      "35451682",
+      "21980511",
+      "21203900",
+      "40784323",
+      "35456503",
+      "31825140",
+      "32284662",
+      "33999380",
+      "39585318",
+      "38866043",
+      "21356067",
+      "32281771",
+      "39786405",
+      "32040686",
+      "29673794",
+      "22351618",
+      "41260924"
+    ],
+    "review": [
+      "41283249",
+      "40071159",
+      "35216584",
+      "40403695",
+      "30733081",
+      "26848529",
+      "31409081",
+      "12717301"
+    ],
+    "pmc": [
+      "12641962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=medsci13040248",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41283249/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

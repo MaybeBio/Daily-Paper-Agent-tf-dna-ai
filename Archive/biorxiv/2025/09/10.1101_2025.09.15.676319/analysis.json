@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.15.676319",
+  "title": "Integrating Protein and DNA Embeddings for Improving Genome-Wide Transcription Factor Binding Site Prediction",
+  "authors": "Shreya Basnet; Jianlin Cheng",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-17",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出TransBind，通过交叉注意力整合DNA序列与蛋白质语言模型嵌入，实现全基因组TF结合位点预测，并支持未见TF的零样本预测，高度契合TF-DNA互作建模课题。",
+  "abstract": "Transcription factors (TFs) regulate gene expression by binding to specific DNA sites on genome, making accurate TF binding site prediction critical for understanding gene regulation and downstream phenotypes. Current deep learning methods use only DNA-related information to predict TF binding sites, ignoring the fact that different TF protein sequences and structures recognize distinct DNA patterns. Not leveraging TF information not only limits prediction accuracy but also makes the methods not generalizable to predicting binding sites of new TFs that do not exist in the traning data. Here, we present TransBind, a protein-aware deep learning architecture that integrates DNA sequence information with protein embeddings containing both sequence and structural information derived from a protein language model pretrained on DNA-binding proteins, to improve TF binding site prediction. Through the cross-attention, a TF embedding selectively attends to genomic regions according to its unique binding properties. Evaluated on the data of 690 ChIP-seq experiments spanning 161 TFs across 91 human cell types, TransBind achieves an AUROC of 0.950 and AUPR of 0.371—representing a ≥11.3% relative AUPR improvement over state-of-the-art methods including TBiNet, DanQ, and DeepSEA. The model outperformed existing methods in ≥97.1% of TF–cell type combinations. It also recovered 160 known TF binding motifs in the JASPAR database, providing the biological interpretability of the model. Moreover, the approach enables zero-shot prediction for unseen TFs, demonstrating its potential of generalizing to new, poorly characterized TFs. The source code of TransBind is available at https://github.com/jianlin-cheng/TransBind .",
+  "abstract_zh": "转录因子（TFs）通过结合基因组上的特定DNA位点来调控基因表达，因此准确预测TF结合位点对于理解基因调控及下游表型至关重要。当前的深度学习方法仅利用DNA相关信息来预测TF结合位点，忽略了不同TF蛋白序列和结构识别不同DNA模式的事实。不利用TF信息不仅限制了预测准确性，还使这些方法无法泛化到预测训练数据中不存在的新TFs的结合位点。在此，我们提出TransBind，一种蛋白感知的深度学习架构，它将DNA序列信息与包含序列和结构信息的蛋白质嵌入相结合，这些嵌入来源于在DNA结合蛋白上预训练的蛋白质语言模型，以改进TF结合位点预测。通过交叉注意力机制，TF嵌入根据其独特的结合特性选择性地关注基因组区域。在涵盖91种人类细胞类型中161个TFs的690个ChIP-seq实验数据上评估，TransBind达到了0.950的AUROC和0.371的AUPR——相对于包括TBiNet、DanQ和DeepSEA在内的最先进方法，AUPR相对提高了≥11.3%。该模型在≥97.1%的TF-细胞类型组合中优于现有方法。它还恢复了JASPAR数据库中的160个已知TF结合基序，提供了模型的生物学可解释性。此外，该方法能够对未见过的TFs进行零样本预测，展示了其泛化到新的、特征不明确的TFs的潜力。TransBind的源代码可在https://github.com/jianlin-cheng/TransBind获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.15.676319",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.15.676319",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.15.676319/index.html"
+}

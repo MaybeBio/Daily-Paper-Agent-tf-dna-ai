@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "38883702",
+    "doi": "10.2147/IJGM.S457480",
+    "title": "Preliminary Analysis of Aging-Related Genes in Intracerebral Hemorrhage by Integration of Bulk and Single-Cell RNA Sequencing Technology."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Aging is recognized as the key risk for intracerebral hemorrhage (ICH). The detailed mechanisms of aging in ICH warrant exploration. This study aimed to identify potential aging-related genes associated with ICH. METHODS: ICH-specific aging-related genes were determined by the intersection of differentially expressed genes (DEGs) between perihematomal tissues and corresponding contralateral parts of four patients with ICH (GSE24265) and 349 aging-related genes obtained from the Aging Atlas database. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Set Enrichment Analysis (GSEA) analyses were performed to identify the potential biological functions and pathways in which these ICH-specific aging-related genes may be involved. Then, PPI network was established to identify the hub genes of ICH-specific aging-related genes. Meanwhile, miRNA-mRNA and transcription factor (TF)-mRNA regulatory networks were constructed to further explore the ICH-specific aging-related genes regulation. The relationship between these hub genes and immune infiltration was also further explored. Additional single-cell RNA-seq analysis (scRNA-seq, GSE167593) was used to locate the hub genes in different cell types. Besides, expression levels of the hub genes were validated using clinical samples from our institute and another GEO dataset (GSE206971). RESULTS: This study identified 24 ICH-specific aging-related genes, including 22 up-regulated and 2 down-regulated genes. The results of GO and KEGG suggested that the ICH-specific aging-related genes mainly enriched in immunity and inflammation-related pathways, suggesting that aging may affect the ich pathogenesis by regulating inflammatory and immune-related pathways. CONCLUSION: Our study revealed 24 ICH-specific aging-related genes and their functions highly pertinent to ICH pathogenesis, providing new insights into the impact of aging on ICH.",
+    "keywords": [
+      "aging",
+      "immune infiltration",
+      "intracerebral hemorrhage",
+      "molecular docking",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Qianfeng",
+        "Wang, Bo",
+        "Yang, Jun",
+        "Wang, Yuan",
+        "Duan, Faliang",
+        "Luo, Ming",
+        "Zhao, Chungang",
+        "Wei, Wei",
+        "Wang, Lei",
+        "Liu, Sha"
+      ],
+      "short_names": [
+        "Li Q",
+        "Wang B",
+        "Yang J",
+        "Wang Y",
+        "Duan F",
+        "Luo M",
+        "Zhao C",
+        "Wei W",
+        "Wang L",
+        "Liu S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Wuhan No.1 Hospital, Wuhan, People's Republic of China.",
+        "Brain Research Center, Zhongnan Hospital of Wuhan University, Wuhan, People's Republic of China.",
+        "Huanggang Central Hospital of Yangtze University, Huanggang, People's Republic of China.",
+        "Department of Neurosurgery, Wuhan No.1 Hospital, Wuhan, People's Republic of China.",
+        "Department of Neurosurgery, Wuhan No.1 Hospital, Wuhan, People's Republic of China.",
+        "Department of Neurosurgery, Wuhan No.1 Hospital, Wuhan, People's Republic of China.",
+        "Jilin Jianda Modern Agricultural Research Institute, Changchun, People's Republic of China.",
+        "Brain Research Center, Zhongnan Hospital of Wuhan University, Wuhan, People's Republic of China.",
+        "Huanggang Central Hospital of Yangtze University, Huanggang, People's Republic of China.",
+        "Brain Research Center, Zhongnan Hospital of Wuhan University, Wuhan, People's Republic of China.",
+        "Department of General Practice, Zhongnan Hospital of Wuhan University, Wuhan, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Qianfeng",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Wuhan No.1 Hospital, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bo",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Brain Research Center, Zhongnan Hospital of Wuhan University, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jun",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Huanggang Central Hospital of Yangtze University, Huanggang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Wuhan No.1 Hospital, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Duan, Faliang",
+        "short_name": "Duan F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Wuhan No.1 Hospital, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ming",
+        "short_name": "Luo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Wuhan No.1 Hospital, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chungang",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "Jilin Jianda Modern Agricultural Research Institute, Changchun, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wei, Wei",
+        "short_name": "Wei W",
+        "identifiers": [],
+        "affiliations": [
+          "Brain Research Center, Zhongnan Hospital of Wuhan University, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Huanggang Central Hospital of Yangtze University, Huanggang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sha",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Brain Research Center, Zhongnan Hospital of Wuhan University, Wuhan, People's Republic of China.",
+          "Department of General Practice, Zhongnan Hospital of Wuhan University, Wuhan, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of general medicine"
+    ],
+    "journal_abbrev": [
+      "Int J Gen Med"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/17 12:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "40739271",
+      "39665190"
+    ],
+    "refs": [
+      "38638822",
+      "38487999",
+      "37310585",
+      "37291105",
+      "36737104",
+      "36704330",
+      "36601948",
+      "36389665",
+      "36341103",
+      "36309899",
+      "36300975",
+      "36189326",
+      "35969281",
+      "35876247",
+      "35615282",
+      "35547620",
+      "35495024",
+      "35383484",
+      "35367344",
+      "35300428",
+      "35219118",
+      "34991167",
+      "34836962",
+      "34560175",
+      "34487721",
+      "34358616",
+      "34278794",
+      "34139337",
+      "33322506",
+      "33293423",
+      "33127577",
+      "33119753",
+      "32654560",
+      "32575072",
+      "32467649",
+      "32466767",
+      "32299594",
+      "32059938",
+      "32046766",
+      "32027790",
+      "31647101",
+      "31504780",
+      "31258534",
+      "31083342",
+      "30355103",
+      "30355078",
+      "30261683",
+      "29893515",
+      "29751775",
+      "29521335",
+      "29344893",
+      "29156001",
+      "29138419",
+      "29111308",
+      "27986908",
+      "27133238",
+      "26852959",
+      "26648067",
+      "26375325",
+      "26133170",
+      "25867923",
+      "25620312",
+      "25521941",
+      "25352553",
+      "24659080",
+      "24262916",
+      "24169849",
+      "23042661",
+      "22487803",
+      "22455463",
+      "21311749",
+      "20482763",
+      "20047691",
+      "18973558",
+      "16926842",
+      "15297296",
+      "14597658",
+      "10773650",
+      "9208259"
+    ],
+    "similar": [
+      "38883702",
+      "31667013",
+      "34349791",
+      "36939977",
+      "37077541",
+      "33854363",
+      "37033969",
+      "38260810",
+      "36291136",
+      "38251721",
+      "37907028",
+      "36506310",
+      "36356328",
+      "36879254",
+      "37354351",
+      "35016690",
+      "35958412",
+      "35677585",
+      "38062833",
+      "36914055",
+      "37283588",
+      "30796715",
+      "32953797",
+      "35602512",
+      "34553293",
+      "38549107",
+      "38363944",
+      "35562622",
+      "34536521",
+      "29730651",
+      "30836997",
+      "35132271",
+      "35318719",
+      "36967805",
+      "37153000",
+      "38509535",
+      "37250717",
+      "38020614",
+      "37009470",
+      "35680809",
+      "35757392",
+      "37063851",
+      "37113991",
+      "33927789",
+      "38852373",
+      "35473522",
+      "35154512",
+      "33664765",
+      "35603405",
+      "36226158",
+      "38678526",
+      "36913120",
+      "35237223",
+      "34754625",
+      "29448258",
+      "36992583",
+      "34990842",
+      "37740761",
+      "38384969",
+      "35313524",
+      "31304055",
+      "38243958",
+      "37722877",
+      "38166541",
+      "35278479",
+      "36276976",
+      "36186997",
+      "33206327",
+      "38764052",
+      "35401659",
+      "28952134",
+      "31987036",
+      "35603555",
+      "38873601",
+      "36238478",
+      "35003319",
+      "38017559",
+      "35392084",
+      "38524085",
+      "35634481",
+      "36684328",
+      "35672672",
+      "33705733",
+      "36439178",
+      "32863767",
+      "30138363",
+      "38319987",
+      "38774257",
+      "34820170",
+      "33407587",
+      "28654306",
+      "28432618",
+      "37325630",
+      "35814252",
+      "35722393",
+      "38865753",
+      "38962268",
+      "38915950",
+      "39026989",
+      "35677425"
+    ],
+    "review": [
+      "38883702"
+    ],
+    "pmc": [
+      "11180471"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/IJGM.S457480?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38883702/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38883702",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/IJGM.S457480",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

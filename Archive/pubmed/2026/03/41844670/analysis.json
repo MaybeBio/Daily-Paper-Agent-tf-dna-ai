@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41844670",
+  "title": "Context-aware synthetic promoter design using neural networks enables rewiring of eukaryotic transcriptional networks.",
+  "authors": "Kuhajda, Lukas; Honzik, Tomas; Svec, Jan; Georgiev, Daniel",
+  "journal": "NPJ systems biology and applications",
+  "published_date": "2026-03-18",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用神经网络实现酵母中TFBS插入位点与启动子重写的上下文感知设计，并实验验证了TF-DNA结合调控，属于TF-DNA互作结合位点预测与设计的高匹配AI方法研究。",
+  "abstract": "Gene regulation through promoter engineering is a cornerstone of synthetic biology, enabling precise control over transcriptional networks. However, experimental approaches remain labor-intensive. While artificial neural networks (ANNs) have improved regulatory element prediction, tools for promoter-transcription factor binding site (TFBS) recombination are still lacking. We present an ANN framework for context-aware design of synthetic promoters in Saccharomyces cerevisiae. The model predicts optimal TFBS insertion sites and the extent of promoter rewriting needed for successful integration. Applying this, we screened 6,011 native yeast promoters for compatibility with the TetR TFBS, generating a ranked list of high-confidence promoter-TFBS pairs. Experimental validation showed that model-designed promoters achieved repression rates up to 98.4%, without prior experimental characterization or tuning. We further rewired the yeast transcriptional network by introducing glucose-dependent regulation of an essential gene via Mig1 TFBS insertion. These results establish a scalable, predictive method for engineering regulatory sequences and reprogramming transcriptional logic.",
+  "abstract_zh": "通过启动子工程进行基因调控是合成生物学的基石，能够实现对转录网络的精确控制。然而，实验方法仍然劳动密集。尽管人工神经网络（ANNs）已改善了调控元件的预测，但用于启动子-转录因子结合位点（TFBS）重组的工具仍然缺乏。我们提出了一种用于酿酒酵母（Saccharomyces cerevisiae）中合成启动子上下文感知设计的ANN框架。该模型预测最佳TFBS插入位点以及成功整合所需的启动子重写程度。应用此框架，我们筛选了6,011个天然酵母启动子与TetR TFBS的兼容性，生成了高置信度启动子-TFBS配对的有序列表。实验验证表明，模型设计的启动子实现了高达98.4%的抑制率，无需先前的实验表征或调优。我们进一步通过Mig1 TFBS插入引入必需基因的葡萄糖依赖性调控，重写了酵母转录网络。这些结果建立了一种可扩展、预测性的方法，用于工程化调控序列和重编程转录逻辑。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41844670/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41844670/",
+  "paper_page_path": "papers/pubmed/41844670/index.html"
+}

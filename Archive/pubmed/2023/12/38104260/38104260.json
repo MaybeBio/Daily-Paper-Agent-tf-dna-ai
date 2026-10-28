@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "38104260",
+    "doi": "10.1021/acs.jproteome.3c00536",
+    "title": "Detection of the Arabidopsis Proteome and Its Post-translational Modifications and the Nature of the Unobserved (Dark) Proteome in PeptideAtlas."
+  },
+  "content": {
+    "abstract": "This study describes a new release of the Arabidopsis thaliana PeptideAtlas proteomics resource (build 2023-10) providing protein sequence coverage, matched mass spectrometry (MS) spectra, selected post-translational modifications (PTMs), and metadata. 70 million MS/MS spectra were matched to the Araport11 annotation, identifying  approximately 0.6 million unique peptides and 18,267 proteins at the highest confidence level and 3396 lower confidence proteins, together representing 78.6% of the predicted proteome. Additional identified proteins not predicted in Araport11 should be considered for the next Arabidopsis genome annotation. This release identified 5198 phosphorylated proteins, 668 ubiquitinated proteins, 3050 N-terminally acetylated proteins, and 864 lysine-acetylated proteins and mapped their PTM sites. MS support was lacking for 21.4% (5896 proteins) of the predicted Araport11 proteome: the \"dark\" proteome. This dark proteome is highly enriched for E3 ligases, transcription factors, and for certain (e.g., CLE, IDA, PSY) but not other (e.g., THIONIN, CAP) signaling peptides families. A machine learning model trained on RNA expression data and protein properties predicts the probability that proteins will be detected. The model aids in discovery of proteins with short half-life (e.g., SIG1,3 and ERF-VII TFs) and for developing strategies to identify the missing proteins. PeptideAtlas is linked to TAIR, tracks in JBrowse, and several other community proteomics resources.",
+    "keywords": [
+      "Arabidopsis",
+      "E3 ligases",
+      "PeptideAtlas",
+      "ProteomeXchange",
+      "machine learning",
+      "post-translational modifications",
+      "signaling peptides"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Arabidopsis/genetics/metabolism",
+      "Proteome/analysis",
+      "Tandem Mass Spectrometry/methods",
+      "Protein Processing, Post-Translational",
+      "Peptides/analysis",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "van Wijk, Klaas J",
+        "Leppert, Tami",
+        "Sun, Zhi",
+        "Kearly, Alyssa",
+        "Li, Margaret",
+        "Mendoza, Luis",
+        "Guzchenko, Isabell",
+        "Debley, Erica",
+        "Sauermann, Georgia",
+        "Routray, Pratyush",
+        "Malhotra, Sagunya",
+        "Nelson, Andrew",
+        "Sun, Qi",
+        "Deutsch, Eric W"
+      ],
+      "short_names": [
+        "van Wijk KJ",
+        "Leppert T",
+        "Sun Z",
+        "Kearly A",
+        "Li M",
+        "Mendoza L",
+        "Guzchenko I",
+        "Debley E",
+        "Sauermann G",
+        "Routray P",
+        "Malhotra S",
+        "Nelson A",
+        "Sun Q",
+        "Deutsch EW"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9536-0487",
+        "ORCID: 0000-0003-3324-6851",
+        "ORCID: 0000-0003-0128-8643",
+        "ORCID: 0000-0001-8732-0928"
+      ],
+      "affiliations": [
+        "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States.",
+        "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States.",
+        "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States.",
+        "Boyce Thompson Institute, Ithaca, New York 14853, United States.",
+        "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States.",
+        "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States.",
+        "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States.",
+        "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States.",
+        "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States.",
+        "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States.",
+        "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States.",
+        "Boyce Thompson Institute, Ithaca, New York 14853, United States.",
+        "Computational Biology Service Unit, Cornell University, Ithaca, New York 14853, United States.",
+        "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "van Wijk, Klaas J",
+        "short_name": "van Wijk KJ",
+        "identifiers": [
+          "0000-0001-9536-0487"
+        ],
+        "affiliations": [
+          "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Leppert, Tami",
+        "short_name": "Leppert T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhi",
+        "short_name": "Sun Z",
+        "identifiers": [
+          "0000-0003-3324-6851"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Kearly, Alyssa",
+        "short_name": "Kearly A",
+        "identifiers": [],
+        "affiliations": [
+          "Boyce Thompson Institute, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Margaret",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Mendoza, Luis",
+        "short_name": "Mendoza L",
+        "identifiers": [
+          "0000-0003-0128-8643"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Guzchenko, Isabell",
+        "short_name": "Guzchenko I",
+        "identifiers": [],
+        "affiliations": [
+          "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Debley, Erica",
+        "short_name": "Debley E",
+        "identifiers": [],
+        "affiliations": [
+          "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Sauermann, Georgia",
+        "short_name": "Sauermann G",
+        "identifiers": [],
+        "affiliations": [
+          "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Routray, Pratyush",
+        "short_name": "Routray P",
+        "identifiers": [],
+        "affiliations": [
+          "Section of Plant Biology, School of Integrative Plant Sciences (SIPS), Cornell University, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Malhotra, Sagunya",
+        "short_name": "Malhotra S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Nelson, Andrew",
+        "short_name": "Nelson A",
+        "identifiers": [],
+        "affiliations": [
+          "Boyce Thompson Institute, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Sun, Qi",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Service Unit, Cornell University, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Deutsch, Eric W",
+        "short_name": "Deutsch EW",
+        "identifiers": [
+          "0000-0001-8732-0928"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology (ISB), Seattle, Washington 98109, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of proteome research"
+    ],
+    "journal_abbrev": [
+      "J Proteome Res"
+    ],
+    "pub_date": "2024 Jan 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/17 17:42",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "42092140",
+      "42065709",
+      "41626543",
+      "41206473",
+      "40629693",
+      "39524724",
+      "39486438",
+      "39314370",
+      "38954500",
+      "38884601",
+      "38738499",
+      "38592421"
+    ],
+    "refs": [],
+    "similar": [
+      "38104260",
+      "37333403",
+      "34411258",
+      "39101213",
+      "27487407",
+      "17934214",
+      "37879112",
+      "19725545",
+      "24436130",
+      "21264403",
+      "26493587",
+      "23215161",
+      "29848782",
+      "16551684",
+      "23462206",
+      "26407240",
+      "20013378",
+      "26702875",
+      "28929764",
+      "18652504",
+      "33928561",
+      "31225774",
+      "30175587",
+      "26667783",
+      "28938075",
+      "16083266",
+      "18431481",
+      "28822126",
+      "17690205",
+      "31258150",
+      "18451766",
+      "22577016",
+      "16335983",
+      "30420486",
+      "26139527",
+      "30124047",
+      "26699206",
+      "19918266",
+      "35696079",
+      "31347048",
+      "21258065",
+      "32188942",
+      "23919725",
+      "25561235",
+      "36070201",
+      "28336331",
+      "30088773",
+      "26371235",
+      "21619078",
+      "29050961",
+      "27975226",
+      "18436743",
+      "28674881",
+      "19200160",
+      "24437954",
+      "20103568",
+      "23259914",
+      "33840009",
+      "21548781",
+      "26572690",
+      "18788753",
+      "33420984",
+      "18416566",
+      "33757883",
+      "28253837",
+      "19658439",
+      "31034103",
+      "36961081",
+      "21983556",
+      "24727099",
+      "36036492",
+      "24768905",
+      "27444420",
+      "36094355",
+      "28853897",
+      "24895383",
+      "36001747",
+      "21472856",
+      "23429522",
+      "33683887",
+      "21604129",
+      "29039980",
+      "25728785",
+      "34360890",
+      "24939129",
+      "18948298",
+      "30820853",
+      "24211405",
+      "21898261",
+      "31927932",
+      "28432195",
+      "28135259",
+      "26867748",
+      "22543061",
+      "32616513",
+      "22837157",
+      "20615486"
+    ],
+    "review": [
+      "38104260",
+      "16551684",
+      "26667783",
+      "18451766",
+      "31347048",
+      "29050961",
+      "27975226",
+      "21548781",
+      "21983556",
+      "36036492",
+      "29039980",
+      "20615486"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jprobs/article-lookup/doi/10.1021/acs.jproteome.3c00536",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

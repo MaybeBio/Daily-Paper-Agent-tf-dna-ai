@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "35690313",
+    "doi": "10.1016/j.bbagrm.2022.194838",
+    "title": "Deep learning-based transcription factor activity for stratification of breast cancer patients."
+  },
+  "content": {
+    "abstract": "Transcription factors directly bind to DNA and regulate the expression of the gene, causing epigenetic modification of the DNA. They often mediate epigenetic parameters of transcriptional and posttranscriptional mechanisms, and their expression activities can be used to characterize genomic aberrations in cancer cell. In this study, the activity profile of transcription factors inferred by VIPER algorithm. The autoencoder model was applied for compressing the transcription factor activity profile for obtaining more useful transformed features for stratifying patients into two different breast cancer subtypes. The deep learning-based subtypes exhibited superior prognostic value and yielded better risk-stratification than the transcription factor activity-based method. Importantly, according to transformed features, a deep neural network was constructed to predict the subtypes, and achieved the accuracy of 94.98% and area under the ROC curve of 0.9663, respectively. The proposed subtypes were found to be significantly associated with immune infiltration, tumor immunogenicity and so on. Furthermore, the ceRNA network was constructed for the breast cancer subtypes. Besides, 11 master regulators were found to be associated with patients in cluster 1. Given the robustness performance of our deep learning model over multiple breast cancer cohorts, we expected this model may be useful in the area of prognosis prediction and lead some possibility for personalized medicine in breast cancer patients.",
+    "keywords": [
+      "Breast cancer",
+      "Deep learning",
+      "Prognosis",
+      "Subtype",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*Breast Neoplasms/metabolism",
+      "*Deep Learning",
+      "Female",
+      "Genomics",
+      "Humans",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiong, Yuqiang",
+        "Wang, Shiyuan",
+        "Wei, Haodong",
+        "Li, Hanshuang",
+        "Lv, Yingli",
+        "Chi, Meng",
+        "Su, Dongqing",
+        "Lu, Qianzi",
+        "Yu, Yao",
+        "Zuo, Yongchun",
+        "Yang, Lei"
+      ],
+      "short_names": [
+        "Xiong Y",
+        "Wang S",
+        "Wei H",
+        "Li H",
+        "Lv Y",
+        "Chi M",
+        "Su D",
+        "Lu Q",
+        "Yu Y",
+        "Zuo Y",
+        "Yang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "The State key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, College of Life Sciences, Inner Mongolia University, Hohhot 010070, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "Department of Anesthesiology, Harbin Medical University Cancer Hospital, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "The State key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, College of Life Sciences, Inner Mongolia University, Hohhot 010070, China; Digital College, Inner Mongolia Intelligent Union Big Data Academy, Inner Mingolia Wesure Date Technology Co., Ltd., Hohhot 010010, China. Electronic address: yczuo@imu.edu.cn.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China. Electronic address: leiyang@hrbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiong, Yuqiang",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shiyuan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Haodong",
+        "short_name": "Wei H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hanshuang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "The State key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, College of Life Sciences, Inner Mongolia University, Hohhot 010070, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Yingli",
+        "short_name": "Lv Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Chi, Meng",
+        "short_name": "Chi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Harbin Medical University Cancer Hospital, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Su, Dongqing",
+        "short_name": "Su D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Qianzi",
+        "short_name": "Lu Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yao",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Yongchun",
+        "short_name": "Zuo Y",
+        "identifiers": [],
+        "affiliations": [
+          "The State key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, College of Life Sciences, Inner Mongolia University, Hohhot 010070, China; Digital College, Inner Mongolia Intelligent Union Big Data Academy, Inner Mingolia Wesure Date Technology Co., Ltd., Hohhot 010010, China. Electronic address: yczuo@imu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Lei",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China. Electronic address: leiyang@hrbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Gene regulatory mechanisms"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Gene Regul Mech"
+    ],
+    "pub_date": "2022 Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/12 06:00",
+    "fetched_at": "2026-09-28 09:30:15"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "35690313",
+      "39933196",
+      "33226454",
+      "37277578",
+      "37673824",
+      "37103222",
+      "37716222",
+      "41088266",
+      "39681144",
+      "39870964",
+      "40680854",
+      "40249269",
+      "40898302",
+      "39866573",
+      "37934154",
+      "40596969",
+      "37216350",
+      "34262565",
+      "39369684",
+      "37403945",
+      "38403612",
+      "41300698",
+      "25183703",
+      "31992350",
+      "38909399",
+      "41500778",
+      "40636126",
+      "40170854",
+      "38627678",
+      "40624807",
+      "37379184",
+      "32429941",
+      "41074436",
+      "34226990",
+      "41135295",
+      "40016785",
+      "34716589",
+      "31569063",
+      "37016301",
+      "37148352",
+      "36308926",
+      "38637240",
+      "40089082",
+      "41219899",
+      "38641451",
+      "39979837",
+      "40790010",
+      "34647174",
+      "23246694",
+      "31288637",
+      "34399795",
+      "40133523",
+      "40703526",
+      "37530887",
+      "37232375",
+      "38676834",
+      "37215759",
+      "32802855",
+      "38418940",
+      "40828572",
+      "32933515",
+      "38429796",
+      "35057766",
+      "39484212",
+      "39445795",
+      "40414575",
+      "35263321",
+      "33639324",
+      "40707691",
+      "41319290",
+      "31944571",
+      "32952934",
+      "32908867",
+      "36849997",
+      "41135313",
+      "34750607",
+      "40419997",
+      "38663353",
+      "38546090",
+      "33734318",
+      "39255280",
+      "39390265",
+      "32759821",
+      "41357242",
+      "34622237",
+      "38043007",
+      "31048129",
+      "40858830",
+      "39565103",
+      "39236563",
+      "41476106",
+      "33989895",
+      "37324098",
+      "38531147",
+      "39923208",
+      "40876229",
+      "37839160",
+      "38810473",
+      "36376154",
+      "36401611"
+    ],
+    "review": [
+      "35690313"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1874-9399(22)00053-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

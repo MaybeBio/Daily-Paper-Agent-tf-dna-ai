@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36168811",
+  "title": "dynDeepDRIM: a dynamic deep learning model to infer direct regulatory interactions using time-course single-cell gene expression data.",
+  "authors": "Xu, Yu; Chen, Jiaxing; Lyu, Aiping; Cheung, William K; Zhang, Lu",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-09-29",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习从时间序列单细胞表达数据推断TF-靶基因调控网络，虽涉及TF-DNA互作推断但基于表达统计而非三维结合建模，方法可迁移但非核心聚焦。",
+  "abstract": "Time-course single-cell RNA sequencing (scRNA-seq) data have been widely used to explore dynamic changes in gene expression of transcription factors (TFs) and their target genes. This information is useful to reconstruct cell-type-specific gene regulatory networks (GRNs). However, the existing tools are commonly designed to analyze either time-course bulk gene expression data or static scRNA-seq data via pseudo-time cell ordering. A few methods successfully utilize the information from multiple time points while also considering the characteristics of scRNA-seq data. We proposed dynDeepDRIM, a novel deep learning model to reconstruct GRNs using time-course scRNA-seq data. It represents the joint expression of a gene pair as an image and utilizes the image of the target TF-gene pair and the ones of the potential neighbors to reconstruct GRNs from time-course scRNA-seq data. dynDeepDRIM can effectively remove the transitive TF-gene interactions by considering neighborhood context and model the gene expression dynamics using high-dimensional tensors. We compared dynDeepDRIM with six GRN reconstruction methods on both simulation and four real time-course scRNA-seq data. dynDeepDRIM achieved substantially better performance than the other methods in inferring TF-gene interactions and eliminated the false positives effectively. We also applied dynDeepDRIM to annotate gene functions and found it achieved evidently better performance than the other tools due to considering the neighbor genes.",
+  "abstract_zh": "时间序列单细胞RNA测序（scRNA-seq）数据已被广泛用于探索转录因子（TFs）及其靶基因表达的动态变化。这些信息有助于重建细胞类型特异性的基因调控网络（GRNs）。然而，现有工具通常设计用于分析时间序列批量基因表达数据或通过伪时间细胞排序分析静态scRNA-seq数据。少数方法成功利用了多个时间点的信息，同时考虑了scRNA-seq数据的特性。我们提出了dynDeepDRIM，一种新颖的深度学习模型，用于利用时间序列scRNA-seq数据重建GRNs。它将基因对的联合表达表示为图像，并利用目标TF-基因对的图像及其潜在邻居的图像，从时间序列scRNA-seq数据中重建GRNs。dynDeepDRIM通过考虑邻域上下文，能有效去除传递性TF-基因相互作用，并使用高维张量建模基因表达动态。我们在模拟数据和四个真实时间序列scRNA-seq数据上，将dynDeepDRIM与六种GRN重建方法进行了比较。在推断TF-基因相互作用方面，dynDeepDRIM的性能显著优于其他方法，并有效消除了假阳性。我们还应用dynDeepDRIM进行基因功能注释，发现由于考虑了邻居基因，其性能明显优于其他工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36168811/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36168811/",
+  "paper_page_path": "papers/pubmed/36168811/index.html"
+}

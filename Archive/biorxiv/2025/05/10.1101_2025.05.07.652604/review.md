@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors test whether mutations in the LacI hinge region that alter helix propensity affect DNA binding stability, specificity, and in vivo target search speed. They report that a mutation reducing helix propensity (Q55N) enhances specificity but reduces binding strength, while a mutation increasing helix propensity (V52A) has opposite effects. They conclude that the hinge region governs a trade-off between binding stability and inducibility rather than between speed and binding stability.
+- **Visible evidence base** Molecular dynamics simulations (Fig. 1), in vitro PBM binding kinetics (Fig. 2, S1, S5), in vivo Miller assays (Fig. 3A), in vivo single-molecule tracking (Fig. 3B-E, 4A-D), EMSA (Fig. S8)
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; specific numerical values for many fitted parameters not given in text; details of PBM data analysis pipeline partially described but validation metrics not shown; single-molecule data analysis details incomplete
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in transcription factor biology: whether conformational switching in LacI resolves the speed-stability paradox. The combination of in silico design, in vitro kinetics, and in vivo single-molecule measurements is ambitious and potentially impactful. However, several concerns limit the strength of the conclusions. The discrepancy between in vitro and in vivo binding affinities for Q55N is acknowledged but not resolved, and the authors' interpretation that the hinge region governs an inducibility-stability trade-off rather than a speed-stability trade-off is only partially supported by the data. The manuscript would benefit from clearer presentation of quantitative results and a more rigorous treatment of the discrepancies between experimental systems.
+- **Who would be interested in the results, and why** Researchers studying transcription factor dynamics, facilitated diffusion, and the biophysics of protein-DNA interactions. The work is also relevant to those interested in allosteric regulation and the evolutionary constraints on gene regulatory proteins. The methodological combination of MD simulations, high-throughput in vitro kinetics, and in vivo single-molecule imaging will interest biophysicists and systems biologists.
+- **Major strengths**
+  1. The study combines multiple complementary approaches (MD simulations, in vitro PBM, in vivo single-molecule tracking, Miller assays) to address a well-defined question.
+  2. The design of mutants based on helix propensity predictions is rational and well-motivated.
+  3. The in vivo single-molecule approach provides direct measurements of search dynamics in living cells.
+  4. The authors acknowledge discrepancies between in vitro and in vivo results and discuss potential explanations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that "the major effect was impaired dissociation in response to IPTG induction for the strongly binding mutant" and that the hinge region governs a trade-off between binding stability and inducibility.
+  - **Evidence pointer** Figure 3D-E, Figure 4A-D, Discussion section
+  - **Concern** The conclusion that the primary trade-off is between stability and inducibility rather than speed and stability is not fully supported by the data presented. The in vivo single-molecule experiments could not be performed for V52A due to high baseline binding in the presence of IPTG, which limits the ability to directly compare search dynamics across all three variants. The authors infer similar search times for V52A and Wt based on indirect reasoning (comparing Miller assay ratios with in vitro dissociation rates), but this inference relies on assumptions that are not explicitly tested. Furthermore, the Q55N data show a 20-fold weaker in vivo binding but only a 3-fold faster in vitro dissociation, and the authors do not provide a mechanistic explanation for this large discrepancy.
+  - **Why it matters** The central conclusion of the paper depends on correctly attributing the observed phenotypic differences to specific kinetic parameters. If the in vivo search time for Q55N is actually longer than for Wt (as the authors suggest might be possible), then the speed-stability trade-off may still be relevant, and the proposed inducibility-stability trade-off would be incomplete.
+  - **Resolution test** Provide direct measurements of search dynamics for all three variants, or provide a quantitative model that can explain the 20-fold in vivo binding difference with only a 3-fold in vitro dissociation difference. Alternatively, perform in vivo competition experiments or single-molecule measurements with a modified protocol that allows V52A measurements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors use MD simulations to estimate helix propensity and select mutants, but the Q55N mutation shows no significant difference in helix propensity in MD simulations compared to Wt, despite being selected based on Agadir predictions.
+  - **Evidence pointer** Figure 1D-E, Molecular Dynamics Simulations section
+  - **Concern** The MD simulations do not show a clear difference in helix propensity for Q55N compared to Wt, which is one of the two key mutants used in the study. The authors state that "the expected decrease for Q55N could be masked by the uncertainty estimate," but this is not a satisfactory resolution. If the MD simulations cannot distinguish Q55N from Wt, then the computational basis for selecting this mutant is weakened, and the interpretation of subsequent experimental results becomes more ambiguous.
+  - **Why it matters** The entire study is predicated on the assumption that Q55N and V52A represent opposite biases in conformational preference. If the MD simulations do not support this for Q55N, then the interpretation of the experimental results in terms of conformational switching is less secure.
+  - **Resolution test** Provide additional MD simulations with longer timescales or enhanced sampling methods to better resolve the helix propensity difference. Alternatively, provide experimental validation of conformational preferences (e.g., via FRET or NMR) for the mutants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data presentation
+  - **Claim pointer** The authors report that V52A-LacI associates faster than Wt-LacI to most mutated operator sequences, and that Q55N-LacI shows slower association and faster dissociation compared to Wt.
+  - **Evidence pointer** Figure 2A-F, Figure S1, Figure S5
+  - **Concern** The quantitative results from the PBM experiments are not presented in sufficient detail in the text. The authors report relative association rates and dissociation rate constants but do not provide absolute values, confidence intervals, or the number of replicates for key comparisons. The fold-changes between variants are mentioned qualitatively but not systematically quantified. This makes it difficult to assess the statistical significance and magnitude of the reported effects.
+  - **Why it matters** The conclusions about specificity-stability trade-offs depend on quantitative comparisons between variants. Without clear presentation of the effect sizes and their uncertainties, the reader cannot evaluate the strength of the evidence.
+  - **Resolution test** Provide a table summarizing the fitted kinetic parameters for all variants and DNA sequences, including standard errors and the number of replicates. Include statistical tests for the comparisons between variants.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model assumptions
+  - **Claim pointer** The authors fit a kinetic model to the in vivo single-molecule data that includes IPTG binding and efflux, and they assume that the ratio of binding affinities measured in the Miller assay is valid for the in vivo kinetics measurement.
+  - **Evidence pointer** Figure 4B, Analysis of single-molecule experiments section
+  - **Concern** The model assumes that IPTG can bind to LacI in the free and non-specifically bound states but not in the specifically bound state. This assumption is reasonable but not experimentally validated. More importantly, the model assumes that the relative binding affinities from the Miller assay (which measures steady-state repression) can be directly applied to the kinetic single-molecule measurements. This assumption may not hold if the Miller assay reflects contributions from both association and dissociation rates that differ between variants in ways not captured by the model.
+  - **Why it matters** The conclusion that Q55N and Wt have similar search times depends on the validity of these model assumptions. If the assumptions are incorrect, the estimated search times could be substantially different.
+  - **Resolution test** Perform model selection with alternative assumptions (e.g., allowing IPTG to bind to the specifically bound state) and assess the robustness of the conclusions. Provide sensitivity analysis for the key fitted parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the hinge region "balances binding stability against inducibility" but does not mention the specificity changes that are a key finding of the paper.
+  - **Required correction** Consider revising the abstract to include the specificity-stability trade-off as well as the stability-inducibility trade-off.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** MD simulation analysis
+  - **Evidence pointer** Molecular Dynamics Simulations section
+  - **Issue** The definition of helix propensity based on RMSD from an ideal helix for residues Arg51-Ala57 is somewhat arbitrary. It is unclear how sensitive the results are to the choice of residues or the RMSD threshold.
+  - **Required correction** Provide a sensitivity analysis or justify the choice of residues and threshold based on structural considerations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Discussion of G58A
+  - **Evidence pointer** Results section, Discussion section
+  - **Issue** The G58A mutant is mentioned as having increased helix propensity but weak DNA binding, and the authors note this "raises the question of whether helix formation is the most critical parameter guiding binding." This point is not fully developed in the Discussion.
+  - **Required correction** Expand on the implications of the G58A result for the conformational switching model, or provide additional data to clarify the role of helix propensity in binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figure 2, Figure 3, Figure 4
+  - **Issue** The figures are referenced extensively but not provided in the manuscript text. Key quantitative results are described qualitatively, making it difficult to assess the data.
+  - **Required correction** Ensure that all figures are included and that the text provides sufficient quantitative detail to support the claims.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** PBM analysis
+  - **Evidence pointer** Analysis of reaction kinetics from PBM measurements section
+  - **Issue** The description of the PBM data analysis is complex and somewhat difficult to follow. The rationale for the top-20% intensity region approach and the filtering criteria could be explained more clearly.
+  - **Required correction** Simplify the description and provide a schematic or flowchart of the analysis pipeline.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The discrepancy between in vitro and in vivo binding affinities for Q55N is not resolved, and the conclusion about the stability-inducibility trade-off depends on this resolution.
+  - R1-M2: The MD simulations do not clearly distinguish Q55N from Wt in terms of helix propensity, undermining the computational basis for mutant selection.
+  - R1-M3: Quantitative results from PBM experiments are not presented with sufficient detail to evaluate the strength of the claims.
+- **Assessment against Nature-style criteria**
+  - **Originality** The study addresses a classic question in biophysics with a modern combination of methods. The specific focus on the hinge region as a mediator of the stability-inducibility trade-off is somewhat novel, though the general concept of conformational switching in LacI is well established.
+  - **Scientific importance** The question of how transcription factors balance search speed, binding stability, and inducibility is of broad importance. The finding that the hinge region may govern a stability-inducibility trade-off rather than a speed-stability trade-off is potentially significant, but the evidence is not yet conclusive.
+  - **Interdisciplinary readership** The work bridges molecular dynamics, biophysics, and cell biology, and would appeal to researchers in all three areas. The single-molecule in vivo approach is particularly attractive for a broad audience.
+  - **Technical soundness** The experimental design is generally sound, but the discrepancies between in vitro and in vivo results and the limitations of the MD simulations weaken the technical foundation. The PBM analysis is sophisticated but not fully validated.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, though the methods sections are dense. The box defining key terms is helpful. The Discussion is clear and appropriately cautious in some places, but the central conclusion is stated more strongly than the evidence warrants.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question with a powerful combination of methods, and the results are potentially interesting. However, the central conclusion about the stability-inducibility trade-off is not fully established from the provided evidence, and the discrepancies between in vitro and in vivo measurements need to be addressed more rigorously.
+
+## Risk / unsupported claims
+- The claim that the hinge region governs a trade-off between binding stability and inducibility rather than between speed and binding stability is not fully supported, given the unresolved discrepancy between in vitro and in vivo binding affinities for Q55N.
+- The claim that V52A-LacI searches as fast as Wt-LacI in vivo is inferred indirectly and not directly measured.
+- The MD simulation results for Q55N do not clearly support the predicted decrease in helix propensity, making the computational basis for this mutant uncertain.
+- The assumption that IPTG cannot bind to specifically bound LacI is not experimentally validated.
+- The claim that the G58A mutant represents a "locked recognition state" is speculative and not directly tested.

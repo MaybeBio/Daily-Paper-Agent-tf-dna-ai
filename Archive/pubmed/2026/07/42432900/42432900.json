@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "42432900",
+    "doi": "10.1097/MD.0000000000049677",
+    "title": "Exploring the mechanism of Acanthopanax in treating vertigo: A network pharmacology and molecular docking study."
+  },
+  "content": {
+    "abstract": "Acanthopanax has therapeutic efficacy against vertigo; however, the underlying mechanism remains unclear. This study aimed to elucidate the mechanism by which Acanthopanax treats vertigo through integrated network pharmacology and molecular docking techniques, and retrieved all target genes of Acanthopanax for vertigo treatment from July to October 2025. Vertigo-related target genes were subsequently identified from public databases, including GeneCards and Online Mendelian Inheritance in Man. The intersection between Acanthopanax-derived targets and vertigo-related targets was analyzed to identify candidate target genes. Using the STRING platform, we constructed protein-protein interaction networks for the identified candidate targets and mined the core functional modules within these networks. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes enrichment analyses were performed on candidate targets via the clusterProfiler package. A carp bile poisoning-liver injury target-pathway network was constructed via Cytoscape 3.8.2 software, network topology analysis was conducted, and the core components and targets were screened. The results found that A total of 295 candidate targets for the treatment of vertigo caused by Eleutherococcus senticosus were identified. Pathway enrichment analysis revealed that Eleutherococcus senticosus treatment for vertigo may be closely associated with pathways related to IL-17, TNF, phosphoinositide 3-kinase (PI3K)-Akt, p53, HIF-1, and Forkhead box O signaling. The core targets for the treatment of A. senticosus vertigo include TP53, AKT1, STAT3, TNF, and JUN. Network pharmacology and molecular docking studies suggest that A. senticosus may treat vertigo by regulating targets such as JUN, TNF, AKT1, STAT3, and STAT3 through pathways such as the IL-17, TNF, phosphoinositide 3-kinase-Akt, p53, HIF-1, and Forkhead box O signaling pathways. These mechanisms warrant further investigation in future o and in vitro studies.",
+    "keywords": [
+      "Acanthopanax",
+      "molecular docking",
+      "network toxicology",
+      "target",
+      "vertigo"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Eleutherococcus/chemistry",
+      "*Network Pharmacology",
+      "Protein Interaction Maps/drug effects",
+      "Signal Transduction/drug effects",
+      "*Plant Extracts/pharmacology/therapeutic use",
+      "Animals",
+      "STAT3 Transcription Factor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ba, Rui-Qiong",
+        "Ning, Jin-Mei",
+        "Li, Ping",
+        "Ma, Xiang",
+        "Cui, Yao",
+        "Zhu, Hen-Jie",
+        "Gao, Shu-Ji",
+        "Zhu, Yan-Lin",
+        "Liu, Ming-Wei"
+      ],
+      "short_names": [
+        "Ba RQ",
+        "Ning JM",
+        "Li P",
+        "Ma X",
+        "Cui Y",
+        "Zhu HJ",
+        "Gao SJ",
+        "Zhu YL",
+        "Liu MW"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3728-2350"
+      ],
+      "affiliations": [
+        "Department of Neurology, Qujing Central Hospital, Qujing, Yunnan, China.",
+        "Department of Otorhinolaryngology, Qujing Central Hospital, Qujing, Yunnan, China.",
+        "Department of General Medicine, Qujing Central Hospital, Qujing, Yunnan, China.",
+        "Department of Cerebrovascular Disease, Qujing Central Hospital, Qujing, Yunnan, China.",
+        "Department of Neurology, Qujing Central Hospital, Qujing, Yunnan, China.",
+        "Department of Neurology, Qujing Central Hospital, Qujing, Yunnan, China.",
+        "Department of Emergency, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Emergency, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Emergency, Dali Bai Autonomous Prefecture People's Hospital, Dali, Yunnan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ba, Rui-Qiong",
+        "short_name": "Ba RQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Qujing Central Hospital, Qujing, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Jin-Mei",
+        "short_name": "Ning JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Qujing Central Hospital, Qujing, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ping",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Qujing Central Hospital, Qujing, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiang",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cerebrovascular Disease, Qujing Central Hospital, Qujing, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Yao",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Qujing Central Hospital, Qujing, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hen-Jie",
+        "short_name": "Zhu HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Qujing Central Hospital, Qujing, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Shu-Ji",
+        "short_name": "Gao SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yan-Lin",
+        "short_name": "Zhu YL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ming-Wei",
+        "short_name": "Liu MW",
+        "identifiers": [
+          "0000-0002-3728-2350"
+        ],
+        "affiliations": [
+          "Department of Emergency, Dali Bai Autonomous Prefecture People's Hospital, Dali, Yunnan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Jul 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/11 13:10",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39679379",
+      "39541047",
+      "39491565",
+      "39295108",
+      "39173723",
+      "39094671",
+      "38996953",
+      "38995443",
+      "38788562",
+      "38599016",
+      "38093452",
+      "38015626",
+      "37871828",
+      "37833536",
+      "37812891",
+      "37770901",
+      "37487254",
+      "37419146",
+      "37285421",
+      "37166354",
+      "37148714",
+      "36634381",
+      "36469341",
+      "36188542",
+      "35972751",
+      "35773125",
+      "35729839",
+      "35142404",
+      "34367186",
+      "33463071",
+      "33241954",
+      "33212178",
+      "32466767",
+      "32403417",
+      "31223427",
+      "30978385",
+      "30431087",
+      "29290948",
+      "28889023",
+      "28776759",
+      "26218949",
+      "24928352",
+      "23276496",
+      "21609430",
+      "21596097",
+      "19457561",
+      "11063985",
+      "9851400"
+    ],
+    "similar": [
+      "42432900",
+      "40676786",
+      "42421348",
+      "41843163",
+      "38759074",
+      "39969345",
+      "40725959",
+      "40350911",
+      "37287284",
+      "42103034",
+      "40898519",
+      "39440778",
+      "37469733",
+      "41203698",
+      "33634308",
+      "39066538",
+      "37799727",
+      "42332510",
+      "41492010",
+      "40013962",
+      "41790715",
+      "41630343",
+      "41189264",
+      "40388786",
+      "39499411",
+      "38822913",
+      "39928767",
+      "41261616",
+      "36576665",
+      "34159207",
+      "39565454",
+      "39278295",
+      "37143282",
+      "41367024",
+      "40522420",
+      "34557547",
+      "40958307",
+      "40452077",
+      "37879505",
+      "40543694",
+      "39251712",
+      "39923957",
+      "39015338",
+      "40255473",
+      "32389853",
+      "41418734",
+      "38638040",
+      "39701786",
+      "39399124",
+      "39004032",
+      "37833363",
+      "40728954",
+      "42470003",
+      "39552028",
+      "35178959",
+      "39074420",
+      "38321908",
+      "42116361",
+      "38518018",
+      "42507602",
+      "41496113",
+      "39076092",
+      "40859479",
+      "40988247",
+      "41489113",
+      "38670393",
+      "41439108",
+      "41261300",
+      "42566634",
+      "38964628",
+      "40184095",
+      "40065477",
+      "39151530",
+      "38275061",
+      "35430443",
+      "41731839",
+      "37190808",
+      "37556042",
+      "34873575",
+      "39612458",
+      "40922365",
+      "38114219",
+      "38114126",
+      "36735641",
+      "39410900",
+      "41824834",
+      "42706337",
+      "42595923",
+      "38704482",
+      "38916485",
+      "41921863",
+      "34941025",
+      "42653779",
+      "42011617",
+      "37391801",
+      "41814225",
+      "40605076",
+      "40826712",
+      "40574364",
+      "39917920"
+    ],
+    "review": [
+      "42432900",
+      "39612458"
+    ],
+    "pmc": [
+      "13362935"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42432900/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000049677",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

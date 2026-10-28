@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "38343549",
+    "doi": "10.3389/fimmu.2024.1304183",
+    "title": "ADGRE5-centered Tsurv model in T cells recognizes responders to neoadjuvant cancer immunotherapy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Neoadjuvant immunotherapy with anti-programmed death-1 (neo-antiPD1) has revolutionized perioperative methods for improvement of overall survival (OS), while approaches for major pathologic response patients' (MPR) recognition along with methods for overcoming non-MPR resistance are still in urgent need. METHODS: We utilized and integrated publicly-available immune checkpoint inhibitors regimens (ICIs) single-cell (sc) data as the discovery datasets, and innovatively developed a cell-communication analysis pipeline, along with a VIPER-based-SCENIC process, to thoroughly dissect MPR-responding subsets. Besides, we further employed our own non-small cell lung cancer (NSCLC) ICIs cohort's sc data for validation in-silico. Afterward, we resorted to ICIs-resistant murine models developed by us with multimodal investigation, including bulk-RNA-sequencing, Chip-sequencing and high-dimensional cytometry by time of flight (CYTOF) to consolidate our findings in-vivo. To comprehensively explore mechanisms, we adopted 3D ex-vivo hydrogel models for analysis. Furthermore, we constructed an ADGRE5-centered Tsurv model from our discovery dataset by machine learning (ML) algorithms for a wide range of tumor types (NSCLC, melanoma, urothelial cancer, etc.) and verified it in peripheral blood mononuclear cells (PBMCs) sc datasets. RESULTS: Through a meta-analysis of multimodal sequential sc sequencing data from pre-ICIs and post-ICIs, we identified an MPR-expanding T cells meta-cluster (MPR-E) in the tumor microenvironment (TME), characterized by a stem-like CD8(+) T cluster (survT) with STAT5-ADGRE5 axis enhancement compared to non-MPR or pre-ICIs TME. Through multi-omics analysis of murine TME, we further confirmed the existence of survT with silenced function and immune checkpoints (ICs) in MPR-E. After verification of the STAT5-ADGRE5 axis of survT in independent ICIs cohorts, an ADGRE5-centered Tsurv model was then developed through ML for identification of MPR patients pre-ICIs and post-ICIs, both in TME and PBMCs, which was further verified in pan-cancer immunotherapy cohorts. Mechanistically, we unveiled ICIs stimulated ADGRE5 upregulation in a STAT5-IL32 dependent manner in a 3D ex-vivo system (3D-HYGTIC) developed by us previously, which marked Tsurv with better survival flexibility, enhanced stemness and potential cytotoxicity within TME. CONCLUSION: Our research provides insights into mechanisms underlying MPR in neo-antiPD1 and a well-performed model for the identification of non-MPR.",
+    "keywords": [
+      "ScRNA-seq",
+      "multimodal",
+      "neo-adjuvant immunotherapy therapy",
+      "non-small cell lung cancer",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Carcinoma, Non-Small-Cell Lung/therapy",
+      "Immune Checkpoint Inhibitors/therapeutic use",
+      "Immunotherapy/methods",
+      "Leukocytes, Mononuclear",
+      "*Lung Neoplasms/therapy",
+      "Neoadjuvant Therapy/methods",
+      "STAT5 Transcription Factor",
+      "T-Lymphocytes",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jian",
+        "Meng, Zhouwenli",
+        "Cao, Zhengqi",
+        "Lu, Wenqing",
+        "Yang, Yi",
+        "Li, Ziming",
+        "Lu, Shun"
+      ],
+      "short_names": [
+        "Li J",
+        "Meng Z",
+        "Cao Z",
+        "Lu W",
+        "Yang Y",
+        "Li Z",
+        "Lu S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China.",
+        "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China.",
+        "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China.",
+        "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China.",
+        "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China.",
+        "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China.",
+        "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jian",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Zhouwenli",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Zhengqi",
+        "short_name": "Cao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Wenqing",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yi",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ziming",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shun",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Lung Cancer Center, Shanghai Chest Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/12 15:42",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42152095",
+      "41895071",
+      "40862763",
+      "40154487",
+      "40056907"
+    ],
+    "refs": [
+      "38868715",
+      "37738974",
+      "37018415",
+      "37001526",
+      "36931243",
+      "36928818",
+      "36928415",
+      "36878933",
+      "36725935",
+      "36719749",
+      "36658782",
+      "36652534",
+      "36585453",
+      "36529697",
+      "36289334",
+      "36171284",
+      "36138134",
+      "35931863",
+      "35902743",
+      "35882933",
+      "35831288",
+      "35831283",
+      "35831277",
+      "35803260",
+      "35794482",
+      "35732731",
+      "35598331",
+      "35488273",
+      "35430299",
+      "35403841",
+      "35393580",
+      "35371618",
+      "35241835",
+      "35231421",
+      "35216676",
+      "35179948",
+      "35121991",
+      "35069212",
+      "35021063",
+      "35017482",
+      "34914499",
+      "34868016",
+      "34857954",
+      "34836966",
+      "34794959",
+      "34764492",
+      "34653365",
+      "34557778",
+      "34553036",
+      "34453440",
+      "34385456",
+      "34314469",
+      "34290408",
+      "34251873",
+      "34077643",
+      "34035252",
+      "34019793",
+      "33997678",
+      "33958794",
+      "33931471",
+      "33868792",
+      "33859041",
+      "33785602",
+      "33767425",
+      "33711273",
+      "33597522",
+      "33537301",
+      "33537099",
+      "33184181",
+      "33013906",
+      "32958706",
+      "32879489",
+      "32854757",
+      "32487187",
+      "32433532",
+      "32228589",
+      "31829268",
+      "31819264",
+      "31776089",
+      "31740819",
+      "31619674",
+      "31598675",
+      "31336988",
+      "31178118",
+      "31024554",
+      "30787437",
+      "30778252",
+      "30726743",
+      "30388455",
+      "30020410",
+      "29961579",
+      "29662057",
+      "29109732",
+      "28991892",
+      "28604718",
+      "28283662",
+      "28223235",
+      "27809316",
+      "27153652",
+      "26771021",
+      "25992859",
+      "23986597",
+      "20531406",
+      "20110278",
+      "18007660",
+      "17449467",
+      "16818763",
+      "10851055"
+    ],
+    "similar": [
+      "38343549",
+      "39108262",
+      "38056895",
+      "38698468",
+      "34305884",
+      "39416776",
+      "36787939",
+      "36869384",
+      "39004699",
+      "36583750",
+      "33927719",
+      "38415012",
+      "34795004",
+      "38872482",
+      "38669725",
+      "38847309",
+      "33537094",
+      "38563846",
+      "35811500",
+      "37716991",
+      "38788177",
+      "35531878",
+      "39190094",
+      "36116212",
+      "32111241",
+      "35140113",
+      "39228151",
+      "39326553",
+      "36347190",
+      "39382658",
+      "35484541",
+      "39158668",
+      "35577506",
+      "34620079",
+      "39448200",
+      "38704949",
+      "38101218",
+      "37865396",
+      "36056951",
+      "37653265",
+      "37852738",
+      "39134346",
+      "38896289",
+      "38906523",
+      "34083418",
+      "33342055",
+      "38553708",
+      "36845142",
+      "38412672",
+      "36116215",
+      "38646542",
+      "37028818",
+      "34339672",
+      "34811893",
+      "39315096",
+      "38391918",
+      "35069581",
+      "31290993",
+      "33093158",
+      "35844502",
+      "37857525",
+      "36451860",
+      "34479033",
+      "39097734",
+      "35850444",
+      "38061115",
+      "39367493",
+      "37939663",
+      "22230406",
+      "38566201",
+      "37430270",
+      "38952673",
+      "35808868",
+      "38342430",
+      "36159860",
+      "39026661",
+      "39353883",
+      "27426430",
+      "37313807",
+      "34284948",
+      "34323149",
+      "38457254",
+      "36931679",
+      "34645185",
+      "35970031",
+      "33655698",
+      "37638022",
+      "39167797",
+      "35280319",
+      "35039461",
+      "38572783",
+      "39461881",
+      "37730274",
+      "39146783",
+      "36395737",
+      "37011953",
+      "38124739",
+      "38461929",
+      "37948842",
+      "29269008"
+    ],
+    "review": [
+      "38343549",
+      "39416776",
+      "38872482",
+      "38669725",
+      "38788177",
+      "39326553",
+      "39382658",
+      "34083418",
+      "36845142",
+      "38646542",
+      "34339672",
+      "34811893",
+      "35069581",
+      "31290993",
+      "34479033",
+      "37939663",
+      "39026661",
+      "27426430",
+      "34284948",
+      "34323149",
+      "38457254",
+      "36931679",
+      "39146783",
+      "37948842"
+    ],
+    "pmc": [
+      "10853338"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38343549/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38343549",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1270",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1304183",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

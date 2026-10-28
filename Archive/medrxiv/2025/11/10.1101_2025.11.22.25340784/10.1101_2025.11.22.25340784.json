@@ -1,0 +1,396 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.11.22.25340784",
+  "title": "Population genomics of four-dimensional cardiac motion reveals non-myocyte regulatory programmes",
+  "doi": "10.1101/2025.11.22.25340784",
+  "abstract": "Genome-wide studies of cardiac structure and function have relied on global imaging metrics that fail to capture the full complexity of myocardial behaviour, leaving the genetic and environmental architecture of motion largely unexplored. Here we show, using unsupervised deep learning applied to four-dimensional cardiac imaging data in 78,113 adult participants, that latent representations of left-ventricular motion reveal 39 genetic loci, two-thirds undetected by conventional indices, exposing a diversity of cell-type specificity validated across single-cell transcriptional atlases of the human heart. Conventional traits resolve to cardiomyocyte and conduction-system regulatory elements, while motion-specific variants converge on non-myocyte programmes encompassing autonomic neuronal, endocardial, fibroblast, and endothelial compartments. All of Us, FinnGen and GPMap data provided locus-level corroboration. Motion-specific traits further implicate environmental exposures including smoking and air pollution linked to motion profiles, and unsupervised clustering stratifies participants by genetic burden and clinical risk, uncovering disease-relevant endophenotypes invisible to standard clinical assessment.",
+  "authors": [
+    "Kalaie S",
+    "Vadgama N",
+    "Zheng J",
+    "Curran L",
+    "McGurk KA",
+    "Qin Y",
+    "Corianò M",
+    "Rjoob K",
+    "Gifani P",
+    "Meng Q",
+    "Noseda M",
+    "Bai W",
+    "Bender C",
+    "O’Regan DP"
+  ],
+  "published_date": "2025-11-23",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.11.22.25340784",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.11.22.25340784.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1124539",
+    "raw_record": {
+      "id": "PPR1124539",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1124539"
+        ]
+      },
+      "doi": "10.1101/2025.11.22.25340784",
+      "title": "Population genomics of four-dimensional cardiac motion reveals non-myocyte regulatory programmes",
+      "authorString": "Kalaie S, Vadgama N, Zheng J, Curran L, McGurk KA, Qin Y, Corianò M, Rjoob K, Gifani P, Meng Q, Noseda M, Bai W, Bender C, O’Regan DP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kalaie S",
+            "lastName": "Kalaie",
+            "firstName": "Soodeh",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7189-860X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                },
+                {
+                  "affiliation": "Dept. of Computing, Dept. of Brain Sciences and Data Science Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vadgama N",
+            "lastName": "Vadgama",
+            "firstName": "Nirmal",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6226-3867"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zheng J",
+            "lastName": "Zheng",
+            "firstName": "Jin",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1507-2544"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Curran L",
+            "lastName": "Curran",
+            "firstName": "Lara",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1260-3741"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McGurk KA",
+            "lastName": "McGurk",
+            "firstName": "Kathryn",
+            "initials": "KA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5445-6906"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qin Y",
+            "lastName": "Qin",
+            "firstName": "Yue",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Heart and Lung Institute, , ,"
+                },
+                {
+                  "affiliation": ", Department of Cardiac, Thoracic, Vascular Science and Public Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Corianò M",
+            "lastName": "Corianò",
+            "firstName": "Mattia",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rjoob K",
+            "lastName": "Rjoob",
+            "firstName": "Khaled",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7598-2323"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gifani P",
+            "lastName": "Gifani",
+            "firstName": "Parisa",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                },
+                {
+                  "affiliation": "Dept. of Computing, Dept. of Brain Sciences and Data Science Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meng Q",
+            "lastName": "Meng",
+            "firstName": "Qingjie",
+            "initials": "Q",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2943-7698"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computing, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Noseda M",
+            "lastName": "Noseda",
+            "firstName": "Michela",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Heart and Lung Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bai W",
+            "lastName": "Bai",
+            "firstName": "Wenjia",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computing, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bender C",
+            "lastName": "Bender",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bayer AG, Research & Development, Pharmaceuticals, Wuppertal, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Regan DP",
+            "lastName": "O’Regan",
+            "firstName": "Declan",
+            "initials": "DP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6226-3867"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0691-0270"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4583-280X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5445-6906"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7189-860X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7598-2323"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1260-3741"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1507-2544"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2943-7698"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Genome-wide studies of cardiac structure and function have relied on global imaging metrics that fail to capture the full complexity of myocardial behaviour, leaving the genetic and environmental architecture of motion largely unexplored. Here we show, using unsupervised deep learning applied to four-dimensional cardiac imaging data in 78,113 adult participants, that latent representations of left-ventricular motion reveal 39 genetic loci, two-thirds undetected by conventional indices, exposing a diversity of cell-type specificity validated across single-cell transcriptional atlases of the human heart. Conventional traits resolve to cardiomyocyte and conduction-system regulatory elements, while motion-specific variants converge on non-myocyte programmes encompassing autonomic neuronal, endocardial, fibroblast, and endothelial compartments. All of Us, FinnGen and GPMap data provided locus-level corroboration. Motion-specific traits further implicate environmental exposures including smoking and air pollution linked to motion profiles, and unsupervised clustering stratifies participants by genetic burden and clinical risk, uncovering disease-relevant endophenotypes invisible to standard clinical assessment.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "SP/19/1/34461",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.22.25340784"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1124539"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1124539&type=FILE&fileName=EMS211119-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS211119",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-11-25",
+      "firstPublicationDate": "2025-11-23",
+      "firstIndexDate": "2025-11-25",
+      "fullTextReceivedDate": "2026-08-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

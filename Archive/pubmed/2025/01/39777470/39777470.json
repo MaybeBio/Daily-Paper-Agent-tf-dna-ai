@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "39777470",
+    "doi": "10.1093/nar/gkae1299",
+    "title": "Molecular mechanisms underlying allosteric behavior of Escherichia coli DgoR, a GntR/FadR family transcriptional regulator."
+  },
+  "content": {
+    "abstract": "GntR/FadR family featuring an N-terminal winged helix-turn-helix DNA-binding domain and a C-terminal alpha-helical effector-binding and oligomerization domain constitutes one of the largest families of transcriptional regulators. Several GntR/FadR regulators govern the metabolism of sugar acids, carbon sources implicated in bacterial-host interactions. Although effectors are known for a few sugar acid regulators, the unavailability of relevant structures has left their allosteric mechanism unexplored. Here, using DgoR, a transcriptional repressor of d-galactonate metabolism in Escherichia coli, as a model, and its superrepressor alleles, we probed allostery in a GntR/FadR family sugar acid regulator. Genetic and biochemical studies established compromised response to d-galactonate as the reason for the superrepressor behavior of the mutants: T180I does not bind d-galactonate, and while A97V, S171L and M188I bind d-galactonate, effector binding does not induce a conformational change required for derepression, suggesting altered allostery. For mechanistic insights into allosteric communication, we performed simulations of the modeled DgoR structure in different allosteric states for both the wild-type and mutant proteins. We found that each mutant exhibits unique dynamics disrupting the intrinsic allosteric communication pathways, thereby impacting DgoR function. We finally validated the allosteric communication model by testing in silico predictions with experimental data.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Escherichia coli Proteins/metabolism/genetics/chemistry",
+      "Allosteric Regulation",
+      "*Escherichia coli/genetics/metabolism",
+      "*Repressor Proteins/metabolism/chemistry/genetics",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Gene Expression Regulation, Bacterial",
+      "Bacterial Proteins/metabolism/genetics/chemistry",
+      "Mutation",
+      "Models, Molecular",
+      "Trans-Activators/metabolism/genetics/chemistry",
+      "Binding Sites",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Swati",
+        "Arya, Garima",
+        "Mishra, Rajesh",
+        "Singla, Shivam",
+        "Pratap, Akhil",
+        "Upadhayay, Krishna",
+        "Sharma, Monika",
+        "Chaba, Rachna"
+      ],
+      "short_names": [
+        "Singh S",
+        "Arya G",
+        "Mishra R",
+        "Singla S",
+        "Pratap A",
+        "Upadhayay K",
+        "Sharma M",
+        "Chaba R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5973-1770",
+        "ORCID: 0000-0001-9864-3298",
+        "ORCID: 0000-0002-9156-4543"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India.",
+        "Biological Systems Engineering, Plaksha University, Sector 101 alpha, IT City, SAS Nagar, Mohali 140306, Punjab, India.",
+        "Council of Scientific and Industrial Research-Institute of Microbial Technology, Sector 39A, Chandigarh 160036, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Sector 19, Kamla Nehru Nagar, Ghaziabad 201002, Uttar Pradesh, India.",
+        "Biological Systems Engineering, Plaksha University, Sector 101 alpha, IT City, SAS Nagar, Mohali 140306, Punjab, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Swati",
+        "short_name": "Singh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Arya, Garima",
+        "short_name": "Arya G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Mishra, Rajesh",
+        "short_name": "Mishra R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Singla, Shivam",
+        "short_name": "Singla S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Pratap, Akhil",
+        "short_name": "Pratap A",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Systems Engineering, Plaksha University, Sector 101 alpha, IT City, SAS Nagar, Mohali 140306, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Upadhayay, Krishna",
+        "short_name": "Upadhayay K",
+        "identifiers": [
+          "0000-0001-5973-1770"
+        ],
+        "affiliations": [
+          "Council of Scientific and Industrial Research-Institute of Microbial Technology, Sector 39A, Chandigarh 160036, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Sector 19, Kamla Nehru Nagar, Ghaziabad 201002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Monika",
+        "short_name": "Sharma M",
+        "identifiers": [
+          "0000-0001-9864-3298"
+        ],
+        "affiliations": [
+          "Biological Systems Engineering, Plaksha University, Sector 101 alpha, IT City, SAS Nagar, Mohali 140306, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Chaba, Rachna",
+        "short_name": "Chaba R",
+        "identifiers": [
+          "0000-0002-9156-4543"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Mohali, Sector 81, Knowledge City, SAS Nagar, Mohali 140306, Punjab, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jan 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/09 00:21",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "41596588",
+      "40656839",
+      "40497739"
+    ],
+    "refs": [
+      "39137493",
+      "38502690",
+      "35884273",
+      "35316041",
+      "34871450",
+      "33987533",
+      "33790291",
+      "33313837",
+      "33224125",
+      "33068046",
+      "32697936",
+      "31873206",
+      "31714766",
+      "30701402",
+      "30455279",
+      "30357350",
+      "30249705",
+      "29312893",
+      "27322406",
+      "27309805",
+      "27300587",
+      "27129867",
+      "26689263",
+      "26619985",
+      "26549308",
+      "26511320",
+      "26185077",
+      "26172911",
+      "26151451",
+      "25607896",
+      "25564531",
+      "25376905",
+      "23656325",
+      "23001866",
+      "22930834",
+      "22505679",
+      "22210766",
+      "21268200",
+      "20636105",
+      "20489133",
+      "20080782",
+      "20047956",
+      "19729089",
+      "18355019",
+      "17766384",
+      "17705272",
+      "17645451",
+      "17212484",
+      "16816174",
+      "15516583",
+      "15264254",
+      "15256214",
+      "12897000",
+      "12758071",
+      "11823194",
+      "11756427",
+      "11296236",
+      "11279025",
+      "11106435",
+      "10819085",
+      "10322039",
+      "9837950",
+      "9657988",
+      "8751891",
+      "8510140",
+      "7997172",
+      "7805834",
+      "7730362",
+      "7473724",
+      "3275640",
+      "2843515",
+      "2650650",
+      "2492998",
+      "1569108",
+      "211976"
+    ],
+    "similar": [
+      "39777470",
+      "40497739",
+      "30455279",
+      "33068046",
+      "26172911",
+      "33224125",
+      "19307717",
+      "25311842",
+      "11279025",
+      "27337024",
+      "12618441",
+      "11756427",
+      "20047956",
+      "12217688",
+      "19368358",
+      "26385696",
+      "33790291",
+      "10369757",
+      "8639659",
+      "12897000",
+      "27427478",
+      "25376905",
+      "11013219",
+      "32989300",
+      "21928765",
+      "25802297",
+      "11296236",
+      "23029459",
+      "20622065",
+      "25607896",
+      "33283913",
+      "31392336",
+      "14593252",
+      "23982071",
+      "10497026",
+      "21771112",
+      "11786010",
+      "18433769",
+      "26944841",
+      "22210766",
+      "34369028",
+      "16672238",
+      "32397647",
+      "17543986",
+      "18366439",
+      "16472303",
+      "24189073",
+      "12595552",
+      "8780507",
+      "23772072",
+      "9388199",
+      "16027119",
+      "23353829",
+      "10452892",
+      "22537874",
+      "25746672",
+      "16450885",
+      "26050090",
+      "23475950",
+      "41474324",
+      "10329134",
+      "9843372",
+      "12535077",
+      "12829264",
+      "10760140",
+      "28695853",
+      "11124029",
+      "34662450",
+      "16585763",
+      "15186408",
+      "9802027",
+      "28718281",
+      "10998245",
+      "26151451",
+      "23935044",
+      "12054863",
+      "8509365",
+      "11361067",
+      "15967460",
+      "29150441",
+      "17103112",
+      "10913634",
+      "18186488",
+      "8446033",
+      "21725002",
+      "2407853",
+      "9750231",
+      "8755903",
+      "19631220",
+      "16546208",
+      "9016718",
+      "11812125",
+      "18195018",
+      "9537375",
+      "9218764",
+      "10873449",
+      "24058293",
+      "14568530",
+      "19269243",
+      "10707026"
+    ],
+    "review": [
+      "39777470",
+      "26172911",
+      "33283913",
+      "16472303",
+      "16450885",
+      "12829264",
+      "17103112"
+    ],
+    "pmc": [
+      "11705089"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=G7789",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "dgoR"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39777470/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae1299",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

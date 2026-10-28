@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40107149",
+  "title": "A multimodal framework for assessing the link between pathomics, transcriptomics, and pancreatic cancer mutations.",
+  "authors": "Berloco, Francesco; Zaccaria, Gian Maria; Altini, Nicola; Colucci, Simona; Bevilacqua, Vitoantonio",
+  "journal": "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society",
+  "published_date": "2025-03-20",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用病理图像与转录组学预测胰腺癌基因突变，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "In Pancreatic Ductal Adenocarcinoma (PDAC), predicting genetic mutations directly from histopathological images using Deep Learning can provide valuable insights. The combination of several omics can provide further knowledge on mechanisms underlying tumor biology. This study aimed at developing an explainable multimodal pipeline to predict genetic mutations for the KRAS, TP53, SMAD4, and CDKN2A genes, integrating pathomic features with transcriptomics from two independent datasets, the TCGA-PAAD, assumed as training set, and the CPTAC-PDA, as external validation set. Large and small configurations of CLAM (Clustering-constrained Attention Multiple Instance Learning) models were evaluated with three different feature extractors (ResNet50, UNI, and CONCH). RNA-seq data were pre-processed both conventionally and using three autoencoder architectures. The processed transcript panels were input into machine learning (ML) models for mutation classification. Attention maps and SHAP were employed, highlighting significant features from both data modalities. A fusion layer or a voting mechanism combined the outputs from pathomic and transcriptomic models, obtaining a multimodal prediction. Performance comparisons were assessed by Area Under Receiver Operating Characteristic (AUROC) and Precision-Recall (AUPRC) curves. On the validation set, for KRAS, multimodal ML achieved 0.92 of AUROC and 0.98 of AUPRC. For TP53, the multimodal voting model achieved 0.75 of AUROC and 0.85 of AUPRC. For SMAD4 and CDKN2A, transcriptomic ML models achieved AUROC of 0.71 and 0.65, while multimodal ML showed AUPRC of 0.39 and 0.37, respectively. This approach demonstrated the potential of combining pathomics with transcriptomics, offering an interpretable framework for predicting key genetic mutations in PDAC.",
+  "abstract_zh": "在胰腺导管腺癌（PDAC）中，利用深度学习直接从组织病理图像预测基因突变可提供有价值的见解。多种组学数据的结合能进一步揭示肿瘤生物学背后的机制知识。本研究旨在开发一种可解释的多模态流程，用于预测KRAS、TP53、SMAD4和CDKN2A基因的基因突变，整合来自两个独立数据集的病理组学特征与转录组学数据，其中TCGA-PAAD作为训练集，CPTAC-PDA作为外部验证集。评估了CLAM（聚类约束注意力多实例学习）模型的大、小配置，并采用三种不同的特征提取器（ResNet50、UNI和CONCH）。RNA-seq数据分别通过常规方法和三种自编码器架构进行预处理。处理后的转录本面板输入机器学习（ML）模型进行突变分类。采用注意力图和SHAP，突出显示来自两种数据模态的重要特征。融合层或投票机制结合了病理组学和转录组学模型的输出，获得多模态预测。性能比较通过受试者工作特征曲线下面积（AUROC）和精确率-召回率曲线下面积（AUPRC）进行评估。在验证集上，对于KRAS，多模态ML实现了0.92的AUROC和0.98的AUPRC。对于TP53，多模态投票模型实现了0.75的AUROC和0.85的AUPRC。对于SMAD4和CDKN2A，转录组学ML模型分别实现了0.71和0.65的AUROC，而多模态ML分别显示了0.39和0.37的AUPRC。该方法展示了将病理组学与转录组学相结合的潜力，为预测PDAC中的关键基因突变提供了一个可解释的框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40107149/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40107149/",
+  "paper_page_path": "papers/pubmed/40107149/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37575176",
+  "title": "Binary Classification of the Endocrine Disrupting Chemicals by Artificial Neural Networks.",
+  "authors": "Aghayev, Zahir; Walker, George F; Iseri, Funda; Ali, Moustafa; Szafran, Adam T; Stossi, Fabio; Mancini, Michael A; Pistikopoulos, Efstratios N; Beykal, Burcu",
+  "journal": "ESCAPE. European Symposium on Computer Aided Process Engineering",
+  "published_date": "2023-08-14",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用人工神经网络对内分泌干扰物进行二元分类，虽涉及受体-DNA结合数据预处理，但核心是化学物活性分类而非蛋白质-DNA互作建模，与本课题关联微弱。",
+  "abstract": "We develop a machine learning framework that integrates high content/high throughput image analysis and artificial neural networks (ANNs) to model the separation between chemical compounds based on their estrogenic receptor activity. Natural and man-made chemicals have the potential to disrupt the endocrine system by interfering with hormone actions in people and wildlife. Although numerous studies have revealed new knowledge on the mechanism through which these compounds interfere with various hormone receptors, it is still a very challenging task to comprehensively evaluate the endocrine disrupting potential of all existing chemicals and their mixtures by pure in vitro or in vivo approaches. Machine learning offers a unique advantage in the rapid evaluation of chemical toxicity through learning the underlying patterns in the experimental biological activity data. Motivated by this, we train and test ANN classifiers for modeling the activity of estrogen receptor-alpha agonists and antagonists at the single-cell level by using high throughput/high content microscopy descriptors. Our framework preprocesses the experimental data by cleaning, scaling, and feature engineering where only the middle 50% of the values from each sample with detectable receptor-DNA binding is considered in the dataset. Principal component analysis is also used to minimize the effects of experimental noise in modeling where these projected features are used in classification model building. The results show that our ANN-based nonlinear data-driven framework classifies the benchmark agonist and antagonist chemicals with 98.41% accuracy.",
+  "abstract_zh": "我们开发了一个机器学习框架，该框架整合了高内涵/高通量图像分析与人工神经网络（ANNs），以模拟基于雌激素受体活性的化合物分离。天然和人造化学物质有可能通过干扰人类和野生动物的激素作用来破坏内分泌系统。尽管大量研究揭示了这些化合物干扰各种激素受体的机制新知识，但仅通过纯体外或体内方法全面评估所有现有化学品及其混合物的内分泌干扰潜力仍是一项极具挑战性的任务。机器学习通过学习实验生物活性数据中的潜在模式，在快速评估化学毒性方面提供了独特优势。受此启发，我们使用高通量/高内涵显微镜描述符，在单细胞水平上训练并测试ANN分类器，以模拟雌激素受体α激动剂和拮抗剂的活性。我们的框架通过清洗、缩放和特征工程对实验数据进行预处理，其中仅考虑每个样本中具有可检测受体-DNA结合的中部50%值纳入数据集。主成分分析也用于最小化建模中实验噪声的影响，这些投影特征用于分类模型构建。结果表明，我们基于ANN的非线性数据驱动框架以98.41%的准确率对基准激动剂和拮抗剂化学品进行分类。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37575176/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37575176/",
+  "paper_page_path": "papers/pubmed/37575176/index.html"
+}

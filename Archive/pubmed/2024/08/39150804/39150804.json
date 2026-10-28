@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "39150804",
+    "doi": "10.1109/TCBB.2024.3444466",
+    "title": "TeaTFactor: A Prediction Tool for Tea Plant Transcription Factors Based on BERT."
+  },
+  "content": {
+    "abstract": "A transcription factor (TF) is a sequence-specific DNA-binding protein, which plays key roles in cell-fate decision by regulating gene expression. Predicting TFs is key for tea plant research community, as they regulate gene expression, influencing plant growth, development, and stress responses. It is a challenging task through wet lab experimental validation, due to their rarity, as well as the high cost and time requirements. As a result, computational methods are increasingly popular to be chosen. The pre-training strategy has been applied to many tasks in natural language processing (NLP) and has achieved impressive performance. In this paper, we present a novel recognition algorithm named TeaTFactor that utilizes pre-training for the model training of TFs prediction. The model is built upon the BERT architecture, initially pre-trained using protein data from UniProt. Subsequently, the model was fine-tuned using the collected TFs data of tea plants. We evaluated four different word segmentation methods and the existing state-of-the-art prediction tools. According to the comprehensive experimental results and a case study, our model is superior to existing models and achieves the goal of accurate identification. In addition, we have developed a web server at http://teatfactor.tlds.cc, which we believe will facilitate future studies on tea transcription factors and advance the field of crop synthetic biology.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism/chemistry",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "*Plant Proteins/genetics/chemistry/metabolism",
+      "Natural Language Processing",
+      "*Camellia sinensis/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Qinan",
+        "Xiang, Ying",
+        "Gao, Wanling",
+        "Zhu, Liqiang",
+        "Xu, Zishu",
+        "Li, Yeyun",
+        "Yue, Zhenyu"
+      ],
+      "short_names": [
+        "Tang Q",
+        "Xiang Y",
+        "Gao W",
+        "Zhu L",
+        "Xu Z",
+        "Li Y",
+        "Yue Z"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Qinan",
+        "short_name": "Tang Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xiang, Ying",
+        "short_name": "Xiang Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gao, Wanling",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhu, Liqiang",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xu, Zishu",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Yeyun",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yue, Zhenyu",
+        "short_name": "Yue Z",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2024 Nov-Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/16 18:41",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39150804",
+      "30031053",
+      "30238224",
+      "34037687",
+      "28236273",
+      "38703501",
+      "35277905",
+      "30688075",
+      "31870711",
+      "31197449",
+      "38490467",
+      "30458720",
+      "26555901",
+      "31779914",
+      "26233577",
+      "39550628",
+      "34996959",
+      "30350966",
+      "22543018",
+      "26637949",
+      "40639381",
+      "31899636",
+      "31181825",
+      "33288026",
+      "29882778",
+      "26220550",
+      "32771159",
+      "39756759",
+      "29576074",
+      "27855193",
+      "38199025",
+      "29651641",
+      "40168132",
+      "31410553",
+      "31117495",
+      "38714547",
+      "39859318",
+      "41308185",
+      "38816567",
+      "37108101",
+      "29500448",
+      "41123551",
+      "27581206",
+      "30400863",
+      "38701417",
+      "32787495",
+      "22562548",
+      "39987619",
+      "33164828",
+      "40194682",
+      "33819564",
+      "26308611",
+      "20827602",
+      "39661731",
+      "26431998",
+      "30257643",
+      "38471611",
+      "40020600",
+      "30032044",
+      "29914362",
+      "30380795",
+      "36012559",
+      "32841021",
+      "26907264",
+      "32471355",
+      "41242217",
+      "39946911",
+      "30717241",
+      "31533323",
+      "40107543",
+      "40049498",
+      "33002625",
+      "31666570",
+      "40460040",
+      "40902356",
+      "33184245",
+      "27362295",
+      "39747934",
+      "40306514",
+      "31160625",
+      "40795236",
+      "38561653",
+      "29157225",
+      "26679776",
+      "31853722",
+      "39700914",
+      "31025197",
+      "32302110",
+      "31622702",
+      "39474903",
+      "40877768",
+      "35129836",
+      "31639538",
+      "28963730",
+      "33596831",
+      "31272035",
+      "40154189",
+      "21356090",
+      "34643684",
+      "30593000"
+    ],
+    "review": [
+      "39150804",
+      "31117495"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2024.3444466",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2024.3444466",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

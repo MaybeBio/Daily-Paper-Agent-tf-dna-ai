@@ -1,0 +1,503 @@
+{
+  "identity": {
+    "pmid": "34561450",
+    "doi": "10.1038/s41467-021-25893-w",
+    "title": "Evolutionarily informed machine learning enhances the power of predictive gene-to-phenotype relationships."
+  },
+  "content": {
+    "abstract": "Inferring phenotypic outcomes from genomic features is both a promise and challenge for systems biology. Using gene expression data to predict phenotypic outcomes, and functionally validating the genes with predictive powers are two challenges we address in this study. We applied an evolutionarily informed machine learning approach to predict phenotypes based on transcriptome responses shared both within and across species. Specifically, we exploited the phenotypic diversity in nitrogen use efficiency and evolutionarily conserved transcriptome responses to nitrogen treatments across Arabidopsis accessions and maize varieties. We demonstrate that using evolutionarily conserved nitrogen responsive genes is a biologically principled approach to reduce the feature dimensionality in machine learning that ultimately improved the predictive power of our gene-to-trait models. Further, we functionally validated seven candidate transcription factors with predictive power for NUE outcomes in Arabidopsis and one in maize. Moreover, application of our evolutionarily informed pipeline to other species including rice and mice models underscores its potential to uncover genes affecting any physiological or clinical traits of interest across biology, agriculture, or medicine.",
+    "keywords": [],
+    "mesh_terms": [
+      "Arabidopsis/*genetics",
+      "Evolution, Molecular",
+      "*Gene Expression Regulation, Plant",
+      "Genetic Variation",
+      "Genome, Plant/genetics",
+      "Genomics/methods",
+      "Genotype",
+      "*Machine Learning",
+      "Models, Genetic",
+      "Nitrogen/metabolism",
+      "Phenotype",
+      "Species Specificity",
+      "Transcriptome/*genetics",
+      "Zea mays/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Chia-Yi",
+        "Li, Ying",
+        "Varala, Kranthi",
+        "Bubert, Jessica",
+        "Huang, Ji",
+        "Kim, Grace J",
+        "Halim, Justin",
+        "Arp, Jennifer",
+        "Shih, Hung-Jui S",
+        "Levinson, Grace",
+        "Park, Seo Hyun",
+        "Cho, Ha Young",
+        "Moose, Stephen P",
+        "Coruzzi, Gloria M"
+      ],
+      "short_names": [
+        "Cheng CY",
+        "Li Y",
+        "Varala K",
+        "Bubert J",
+        "Huang J",
+        "Kim GJ",
+        "Halim J",
+        "Arp J",
+        "Shih HS",
+        "Levinson G",
+        "Park SH",
+        "Cho HY",
+        "Moose SP",
+        "Coruzzi GM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1051-6636",
+        "ORCID: 0000-0002-2381-0853",
+        "ORCID: 0000-0002-4416-7983",
+        "ORCID: 0000-0003-2439-9012",
+        "ORCID: 0000-0002-1011-2466",
+        "ORCID: 0000-0001-6516-4995",
+        "ORCID: 0000-0003-2608-2166"
+      ],
+      "affiliations": [
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Life Science, National Taiwan University, Taipei, Taiwan.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN, USA.",
+        "Purdue Center for Plant Biology, Purdue University, West Lafayette, IN, USA.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN, USA.",
+        "Purdue Center for Plant Biology, Purdue University, West Lafayette, IN, USA.",
+        "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA. gloria.coruzzi@nyu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Chia-Yi",
+        "short_name": "Cheng CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA.",
+          "Department of Life Science, National Taiwan University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Li, Ying",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN, USA.",
+          "Purdue Center for Plant Biology, Purdue University, West Lafayette, IN, USA."
+        ]
+      },
+      {
+        "full_name": "Varala, Kranthi",
+        "short_name": "Varala K",
+        "identifiers": [
+          "0000-0003-1051-6636"
+        ],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN, USA.",
+          "Purdue Center for Plant Biology, Purdue University, West Lafayette, IN, USA."
+        ]
+      },
+      {
+        "full_name": "Bubert, Jessica",
+        "short_name": "Bubert J",
+        "identifiers": [
+          "0000-0002-2381-0853"
+        ],
+        "affiliations": [
+          "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Ji",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0000-0002-4416-7983"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Grace J",
+        "short_name": "Kim GJ",
+        "identifiers": [
+          "0000-0003-2439-9012"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Halim, Justin",
+        "short_name": "Halim J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Arp, Jennifer",
+        "short_name": "Arp J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Shih, Hung-Jui S",
+        "short_name": "Shih HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Levinson, Grace",
+        "short_name": "Levinson G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Seo Hyun",
+        "short_name": "Park SH",
+        "identifiers": [
+          "0000-0002-1011-2466"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Cho, Ha Young",
+        "short_name": "Cho HY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Moose, Stephen P",
+        "short_name": "Moose SP",
+        "identifiers": [
+          "0000-0001-6516-4995"
+        ],
+        "affiliations": [
+          "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Coruzzi, Gloria M",
+        "short_name": "Coruzzi GM",
+        "identifiers": [
+          "0000-0003-2608-2166"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY, 10003, USA. gloria.coruzzi@nyu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Sep 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/26 06:00",
+    "fetched_at": "2026-09-27 23:57:19"
+  },
+  "links": {
+    "cites": [
+      "42648065",
+      "42497256",
+      "42441019",
+      "42348123",
+      "41908718",
+      "41803685",
+      "41411658",
+      "41065853",
+      "40890427",
+      "40764521",
+      "40579370",
+      "40439305",
+      "40403157",
+      "40365911",
+      "40358388",
+      "40321940",
+      "40128730",
+      "40119164",
+      "39902536",
+      "39856113",
+      "39787089",
+      "39735343",
+      "39724286",
+      "39519200",
+      "39354337",
+      "38916908",
+      "38913855",
+      "38903438",
+      "38505413",
+      "38504888",
+      "38366121",
+      "38346982",
+      "38106430",
+      "38047114",
+      "37938584",
+      "37925649",
+      "37276420",
+      "37229198",
+      "37071201",
+      "36986956",
+      "36883005",
+      "36866380",
+      "36626392",
+      "36212273",
+      "36159979",
+      "36130068",
+      "35984294",
+      "35813067",
+      "35213364",
+      "34837000"
+    ],
+    "refs": [
+      "33793942",
+      "33493201",
+      "32051590",
+      "31632436",
+      "30949701",
+      "30629591",
+      "30137393",
+      "30057584",
+      "29947965",
+      "29902675",
+      "29873769",
+      "29855577",
+      "29769331",
+      "29622567",
+      "29236738",
+      "28983307",
+      "28611020",
+      "28605751",
+      "28536099",
+      "27924042",
+      "27862469",
+      "27540173",
+      "27203113",
+      "26596765",
+      "26595273",
+      "26421509",
+      "26116219",
+      "25489021",
+      "25150836",
+      "24533947",
+      "24492469",
+      "24336445",
+      "24227677",
+      "23977444",
+      "23876160",
+      "23511481",
+      "23155433",
+      "22933713",
+      "22177264",
+      "22140109",
+      "22110026",
+      "21980173",
+      "21059685",
+      "20927193",
+      "20409008",
+      "20237091",
+      "19910308",
+      "19661427",
+      "19654263",
+      "18987217",
+      "18776063",
+      "16167895",
+      "15722475",
+      "15231281",
+      "15053772",
+      "12931144",
+      "12893945",
+      "10785665",
+      "10647012"
+    ],
+    "similar": [
+      "34561450",
+      "32171733",
+      "21980173",
+      "31641024",
+      "22732243",
+      "26116219",
+      "26045464",
+      "24863438",
+      "30497403",
+      "30537259",
+      "30718537",
+      "23572549",
+      "31759338",
+      "23341336",
+      "34210268",
+      "26729541",
+      "38664394",
+      "32415110",
+      "31109290",
+      "36447436",
+      "24390243",
+      "24885077",
+      "16227451",
+      "27803309",
+      "20931385",
+      "11897028",
+      "31337639",
+      "25918418",
+      "31797010",
+      "24472600",
+      "27208309",
+      "33631799",
+      "25572224",
+      "25503246",
+      "35778686",
+      "23103471",
+      "33346944",
+      "28401254",
+      "24656234",
+      "23497159",
+      "24472286",
+      "31361386",
+      "36626392",
+      "29590108",
+      "34800975",
+      "24086146",
+      "27412713",
+      "26720856",
+      "25199535",
+      "24363426",
+      "25209110",
+      "28973738",
+      "19926802",
+      "26546318",
+      "17704539",
+      "26453258",
+      "31443483",
+      "25881062",
+      "24520154",
+      "22660546",
+      "25522795",
+      "33964211",
+      "17217541",
+      "31733168",
+      "26136266",
+      "22453064",
+      "24693880",
+      "39126426",
+      "29769331",
+      "22164299",
+      "23460898",
+      "17708759",
+      "25524070",
+      "22329725",
+      "31358562",
+      "33588749",
+      "18842139",
+      "17941993",
+      "30904943",
+      "27030359",
+      "24922320",
+      "18503042",
+      "35151253",
+      "20576144",
+      "32586356",
+      "29078754",
+      "31856731",
+      "32143437",
+      "23463775",
+      "37935586",
+      "38851759",
+      "39087631"
+    ],
+    "review": [
+      "34561450",
+      "24863438",
+      "11897028",
+      "17704539"
+    ],
+    "pmc": [
+      "8463701"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-25893-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34561450/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34561450",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34561450",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse152249",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.11.584426",
+  "title": "RevGraphVAMP: A protein molecular simulation analysis model combining graph convolutional neural networks and physical constraints",
+  "authors": "Ying Huang; Huiling Zhang; Zhenli Lin; Yanjie Wei; Wenhui Xi",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-13",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出结合图卷积与物理约束的蛋白分子模拟轨迹分析模型RevGraphVAMP，虽聚焦蛋白构象降维与状态预测，非直接TF-DNA互作，但方法可迁移至蛋白-DNA复合物动态分析。",
+  "abstract": "Molecular simulation (MD) is an important research area in the field of life sciences, focusing on understanding the mechanisms of biomolecular interactions at atomic scales. Protein simulation, as a critical subfield of life science, has frequently adopted MD for implementation, where the trajectory data play an important role in drug discovery. With the advancement of high-performance computing and deep learning technology, machine-prediction of protein properties from enormous trajectory data becomes popular and critical, which puts challenges on how to extract useful data features from the complicated simulation data and reasonably reduce the dimensionality. At the same time, in order to better study the Protein system, it is necessary to provide a meaningful explanation of biological mechanism for dimensionality reduction. In order to address this issue, a new unsupervised model RevGraphVAMP is proposed to intelligently analyze the simulation trajectory. RevGraphVAMP is based on the Markov variation method (VAMP) and innovatively integrates graph convolutional neural networks and physical constraint optimization to improve the learning performance of the model. Besides, the attention mechanism is introduced to calculate the importance of protein molecules, leading to interpretation of molecular mechanism. Compared with other VAMPNets models, the new model presented in this paper has achieved the highest VAMP scores and better state transition prediction accuracy in two public datasets. Additionally, it has higher dimensionality reduction discrimination ability for different substates and provides interpretable results for protein structural characterization.",
+  "abstract_zh": "分子模拟（molecular dynamics, MD）是生命科学领域中的一个重要研究方向，旨在从原子尺度理解生物分子相互作用的机制。蛋白质模拟作为生命科学的关键子领域，常采用MD进行实施，其中轨迹数据在药物发现中扮演着重要角色。随着高性能计算和深度学习技术的进步，从海量轨迹数据中机器学习预测蛋白质性质变得流行且关键，这对如何从复杂的模拟数据中提取有效的数据特征并合理降低维度提出了挑战。同时，为了更好地研究蛋白质系统，有必要为降维提供有意义的生物机制解释。为解决此问题，提出了一种新的无监督模型RevGraphVAMP，用于智能分析模拟轨迹。RevGraphVAMP基于马尔可夫变分方法（VAMP），并创新性地整合了图卷积神经网络和物理约束优化，以提高模型的学习性能。此外，引入注意力机制来计算蛋白质分子的重要性，从而实现对分子机制的解释。与其它VAMPNets模型相比，本文提出的新模型在两个公共数据集上取得了最高的VAMP分数和更好的状态转移预测准确性。此外，它对不同子状态具有更高的降维判别能力，并为蛋白质结构表征提供了可解释的结果。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.11.584426",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.11.584426",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.11.584426/index.html"
+}

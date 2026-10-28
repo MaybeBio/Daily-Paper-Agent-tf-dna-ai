@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.27.497767",
+  "title": "Prediction of mammalian tissue-specific CLOCK-BMAL1 binding to E-box motifs",
+  "authors": "Marri D; Filipovic D; Kana O; Tischkau S; Bhattacharya S",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-30",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用机器学习整合DNA序列、形状与组蛋白修饰预测组织特异性CLOCK-BMAL1对E-box基序的结合，核心聚焦TF-DNA互作建模，方法可迁移且高度匹配本课题。",
+  "abstract": "<h4>ABSTRACT</h4> The mammalian circadian clock is based on a core intracellular gene regulatory network, coordinated by communication between the central nervous system and peripheral tissues like the liver. Transcriptional and translational feedback loops underlie the molecular mechanism of circadian oscillation and generate its 24 h periodicity. The Brain and muscle Arnt-like protein-1 (Bmal1) forms a heterodimer with Circadian Locomotor Output Cycles Kaput (Clock) that binds to E-box gene regulatory elements, activating transcription of clock genes. In this work we aimed to develop a predictive model of genome-wide CLOCK-BMAL1 binding to E-box motifs. We found over-representation of the canonical E-box motif CACGTG in BMAL1-bound regions in accessible chromatin of the mouse liver, heart and kidney. We developed three different tissue-specific machine learning models based on DNA sequence, DNA sequence plus DNA shape, and DNA sequence and shape plus histone modifications. Combining DNA sequence with DNA shape and histone modification features yielded improved transcription factor binding site prediction. Further, we identified the genomic and epigenomic features that best correlate to the binding of BMAL1 to DNA. The DNA shape features Electrostatic Potential, Minor Groove Width and Propeller Twist together with the histone modifications H3K27ac, H3K4me1, H3K36me3, and H3K4me3 were the features most highly predictive of DNA binding by BMAL1 across all three tissues.",
+  "abstract_zh": "<h4>摘要</h4> 哺乳动物的昼夜节律钟基于一个核心的细胞内基因调控网络，由中枢神经系统与肝脏等外周组织之间的通讯协调。转录和翻译反馈环路构成了昼夜节律振荡的分子机制，并产生其24小时周期性。脑和肌肉芳香烃受体核转位蛋白样蛋白-1（Bmal1）与昼夜运动输出周期蛋白（Clock）形成异二聚体，结合E-box基因调控元件，激活时钟基因的转录。在本研究中，我们旨在开发一个全基因组范围内CLOCK-BMAL1结合E-box基序的预测模型。我们发现在小鼠肝脏、心脏和肾脏的可及染色质中，经典E-box基序CACGTG在BMAL1结合区域中过度表达。我们开发了三种不同的组织特异性机器学习模型，分别基于DNA序列、DNA序列加DNA形状，以及DNA序列和形状加组蛋白修饰。将DNA序列与DNA形状和组蛋白修饰特征相结合，提高了转录因子结合位点的预测准确性。此外，我们确定了与BMAL1结合DNA最相关的基因组和表观基因组特征。DNA形状特征中的静电势、小沟宽度和螺旋桨扭转，连同组蛋白修饰H3K27ac、H3K4me1、H3K36me3和H3K4me3，是所有三种组织中BMAL1结合DNA最具预测性的特征。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.27.497767",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.27.497767",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.27.497767/index.html"
+}

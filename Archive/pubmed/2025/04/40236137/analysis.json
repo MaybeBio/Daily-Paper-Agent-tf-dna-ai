@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40236137",
+  "title": "Macrophages maintain signaling fidelity in response to ligand mixtures.",
+  "authors": "Guo, Xiaolu; Sen, Supriya; Gonzalez, Julian; Hoffmann, Alexander",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-04-16",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究巨噬细胞NFkappaB信号动态对多配体混合物的响应特异性，虽涉及转录因子NFkappaB，但核心是信号通路动态与机器学习分类，无蛋白质-DNA互作建模或结合位点预测，与本课题关联微弱。",
+  "abstract": "As immune sentinel cells, macrophages are required to respond specifically to diverse immune threats and initiate appropriate immune responses. This stimulus-response specificity (SRS) is in part encoded in the signaling dynamics of the NFkappaB transcription factor. While experimental stimulus-response studies have typically focused on single defined ligands, in physiological contexts cells are exposed to multi-ligand mixtures. It remains unclear how macrophages combine multi-ligand information and whether they are able to maintain SRS in such complex exposure conditions. Here, we leveraged an established mathematical model that captures the heterogeneous single-cell NFkappaB responses of macrophage populations to extend experimental studies with systematic simulations of complex mixtures containing up to five ligands. Live-cell microscopy experiments for some conditions validated model predictions but revealed a discrepancy when TLR3 and TLR9 are stimulated. Refining the model suggested that the observed but unexpected ligand antagonism arises from a limited capacity for endosomal transport which is required for responses to CpG and pIC. With the updated model, we systematically analyzed SRS across all combinatorial-ligand conditions and employed three ways of quantifying SRS involving trajectory decomposition into informative trajectory features or machine learning. Our findings show that macrophages most effectively distinguish single-ligand stimuli, and distinguishability declines as more ligands are combined. However, even in complex combinatorial conditions, macrophages still maintain statistically significant distinguishability. These results indicate a robustness of innate immune response specificity: even in the context of complex exposure conditions, the NFkappaB temporal signaling code of macrophages can still classify immune threats to direct an appropriate response. SIGNIFICANCE </=120: Macrophages sense diverse pathogens within complex environments and respond appropriately. Experimental studies have found that the NFkappaB pathway responds with stimulus-specific dynamics when macrophages are exposed to single ligand stimuli. However, it remains unclear complex contexts might erode this stimulus-specificity. Here we systematically studies NFkappaB responses using a mathematical model that provides simulations of the heterogeneous population of single cell responses. We show that although the model is parameterized to single ligand data it can predict the responses to multi-ligand mixtures. Indeed, model validation uncovered signaling antagonism between two ligands and the underlying mechanism. Importantly, we found that NFkappaB signaling dynamics distinguish ligands within multi-ligand mixtures indicating a robustness of the NFkappaB temporal code that was not previously appreciated.",
+  "abstract_zh": "作为免疫哨兵细胞，巨噬细胞需要特异性地响应多种免疫威胁并启动适当的免疫反应。这种刺激-反应特异性（SRS）部分编码在NFkappaB转录因子的信号动态中。虽然实验性刺激-反应研究通常集中于单一明确配体，但在生理环境中，细胞暴露于多配体混合物。目前尚不清楚巨噬细胞如何整合多配体信息，以及它们是否能在这种复杂暴露条件下维持SRS。在此，我们利用一个已建立的数学模型，该模型捕捉了巨噬细胞群体的异质性单细胞NFkappaB反应，以扩展实验研究，对包含多达五种配体的复杂混合物进行系统性模拟。某些条件下的活细胞显微镜实验验证了模型预测，但在刺激TLR3和TLR9时揭示了差异。模型细化表明，观察到的但出乎意料的配体拮抗作用源于内体转运的有限能力，而该转运是响应CpG和pIC所必需的。利用更新后的模型，我们系统分析了所有组合配体条件下的SRS，并采用三种量化SRS的方法，涉及将轨迹分解为信息性轨迹特征或机器学习。我们的发现表明，巨噬细胞最有效地区分单一配体刺激，且区分度随着配体组合数量的增加而下降。然而，即使在复杂的组合条件下，巨噬细胞仍保持统计学上显著的区分度。这些结果表明先天免疫反应特异性的稳健性：即使在复杂暴露条件下，巨噬细胞的NFkappaB时间信号编码仍能分类免疫威胁以指导适当反应。意义（≤120字）：巨噬细胞在复杂环境中感知多种病原体并作出适当反应。实验研究发现，当巨噬细胞暴露于单一配体刺激时，NFkappaB通路以刺激特异性动态响应。然而，尚不清楚复杂环境是否会削弱这种刺激特异性。在此，我们利用数学模型系统研究NFkappaB反应，该模型提供异质性单细胞反应群体的模拟。我们表明，尽管模型参数化基于单一配体数据，但它能预测多配体混合物的反应。确实，模型验证揭示了两种配体之间的信号拮抗作用及其潜在机制。重要的是，我们发现NFkappaB信号动态能在多配体混合物中区分配体，表明NFkappaB时间编码的稳健性，这一点此前未被认识到。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40236137/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40236137/",
+  "paper_page_path": "papers/pubmed/40236137/index.html"
+}

@@ -1,0 +1,603 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.21.572085",
+  "title": "Insights into the complex formation of a trimeric autotransporter adhesin with a peptidoglycan-binding periplasmic protein",
+  "doi": "10.1101/2023.12.21.572085",
+  "abstract": "Trimeric autotransporter adhesins (TAAs) are outer membrane (OM) proteins that are widely distributed in gram-negative bacteria and are involved primarily in adhesion to biotic and abiotic surfaces, cell agglutination, and biofilm formation. TAAs consist of a passenger domain, which is secreted onto the cell surface, and a transmembrane domain, which forms a pore in the OM to secrete and anchor the passenger domain. Because the interactions between TAAs and chaperones or dedicated auxiliary proteins during secretion are short-lived, TAAs are thought to reside on the OM without forming complexes with other proteins after secretion. In this study, we aimed to clarify the interactions between an Acinetobacter TAA, AtaA, and a peptidoglycan (PG)-binding periplasmic protein, TpgA. Pull-down assays using recombinant proteins identified the interacting domains. X-ray crystallography at 2.6 Å resolution revealed an A3B3 heterohexameric complex structure composed of the N-terminal domain of TpgA and the transmembrane domain of AtaA. TpgA-N consists of two short α helices and three antiparallel β strands, yielding an ααβββ topology similar to BamE. However, the regions corresponding to BamE interfaces with BamA and BamD differ in TpgA-N. All-atom molecular dynamics simulations and mutational assays revealed that both electrostatic and hydrophobic interactions contribute to stable complex formation. Bioinformatic analyses indicate that the TAA-TpgA complex occurs in a wide range of species. These findings will contribute to a better understanding of TAAs and the cell envelope. Importance Gram-negative bacteria have specialized secretion systems (SSs) that translocate molecules from the cytoplasm to the extracellular space. Type V SSs have a simpler structure consisting of a functional passenger domain and a transmembrane domain involved in the secretion and anchoring of the passenger domain. Here, we provide the first direct evidence that a trimeric autotransporter adhesin (TAA) exported by a type Vc system forms a stable complex with a peptidoglycan–binding periplasmic protein. The 2.6 Å structure of the A3B3 heterohexamer, together with simulation and mutational data, reveals complementary electrostatic and hydrophobic contacts that stabilize flexible loops on the periplasmic face of the TAA transmembrane barrel. Conservation of the taa – tpgA gene cassette and of key interface residues across diverse genera suggests that this coupling is a common strategy for tuning TAA stability and indicates that the envelope architecture of many TAAs, including those related to pathogenicity, is more elaborate than previously appreciated.",
+  "authors": [
+    "Shogo Yoshimoto",
+    "Jun Sasahara",
+    "Atsuo Suzuki",
+    "Junichi Kanie",
+    "Kotaro Koiwai",
+    "Andrei N. Lupas",
+    "Katsutoshi Hori"
+  ],
+  "published_date": "2023-12-21",
+  "updated_date": "2023-12-21T22:00:14Z",
+  "journal": "bioRxiv",
+  "category": "Microbiology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.21.572085",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.21.572085.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Microbiology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Microbiology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T17:17:25Z",
+        "timestamp": 1790702245752,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            21
+          ]
+        ]
+      },
+      "group-title": "Microbiology",
+      "reference-count": 52,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                21
+              ]
+            ],
+            "date-time": "2023-12-21T00:00:00Z",
+            "timestamp": 1703116800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "JP21H05227"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP21H05227"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "JP24H00043"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP24H00043"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Trimeric autotransporter adhesins (TAAs) are outer membrane (OM) proteins that are widely distributed in gram-negative bacteria and are involved primarily in adhesion to biotic and abiotic surfaces, cell agglutination, and biofilm formation. TAAs consist of a passenger domain, which is secreted onto the cell surface, and a transmembrane domain, which forms a pore in the OM to secrete and anchor the passenger domain. Because the interactions between TAAs and chaperones or dedicated auxiliary proteins during secretion are short-lived, TAAs are thought to reside on the OM without forming complexes with other proteins after secretion. In this study, we aimed to clarify the interactions between an\n                  <jats:italic>Acinetobacter</jats:italic>\n                  TAA, AtaA, and a peptidoglycan (PG)-binding periplasmic protein, TpgA. Pull-down assays using recombinant proteins identified the interacting domains. X-ray crystallography at 2.6 Å resolution revealed an A3B3 heterohexameric complex structure composed of the N-terminal domain of TpgA and the transmembrane domain of AtaA. TpgA-N consists of two short α helices and three antiparallel β strands, yielding an ααβββ topology similar to BamE. However, the regions corresponding to BamE interfaces with BamA and BamD differ in TpgA-N. All-atom molecular dynamics simulations and mutational assays revealed that both electrostatic and hydrophobic interactions contribute to stable complex formation. Bioinformatic analyses indicate that the TAA-TpgA complex occurs in a wide range of species. These findings will contribute to a better understanding of TAAs and the cell envelope.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Importance</jats:title>\n                  <jats:p>\n                    Gram-negative bacteria have specialized secretion systems (SSs) that translocate molecules from the cytoplasm to the extracellular space. Type V SSs have a simpler structure consisting of a functional passenger domain and a transmembrane domain involved in the secretion and anchoring of the passenger domain. Here, we provide the first direct evidence that a trimeric autotransporter adhesin (TAA) exported by a type Vc system forms a stable complex with a peptidoglycan–binding periplasmic protein. The 2.6 Å structure of the A3B3 heterohexamer, together with simulation and mutational data, reveals complementary electrostatic and hydrophobic contacts that stabilize flexible loops on the periplasmic face of the TAA transmembrane barrel. Conservation of the\n                    <jats:italic>taa</jats:italic>\n                    –\n                    <jats:italic>tpgA</jats:italic>\n                    gene cassette and of key interface residues across diverse genera suggests that this coupling is a common strategy for tuning TAA stability and indicates that the envelope architecture of many TAAs, including those related to pathogenicity, is more elaborate than previously appreciated.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.12.21.572085",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            21
+          ]
+        ],
+        "date-time": "2023-12-21T22:00:14Z",
+        "timestamp": 1703196014000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Insights into the complex formation of a trimeric autotransporter adhesin with a peptidoglycan-binding periplasmic protein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1358-4362",
+          "authenticated-orcid": false,
+          "given": "Shogo",
+          "family": "Yoshimoto",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jun",
+          "family": "Sasahara",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Atsuo",
+          "family": "Suzuki",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junichi",
+          "family": "Kanie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kotaro",
+          "family": "Koiwai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1959-4836",
+          "authenticated-orcid": false,
+          "given": "Andrei N.",
+          "family": "Lupas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1994-3124",
+          "authenticated-orcid": false,
+          "given": "Katsutoshi",
+          "family": "Hori",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41579-021-00638-0"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro3456"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "345",
+          "DOI": "10.1111/mmi.14599",
+          "article-title": "A holin/peptidoglycan hydrolase-dependent protein secretion system",
+          "volume": "115",
+          "year": "2021",
+          "journal-title": "Molecular Microbiology"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grossman AS , Mauer TJ , Forest KT , Goodrich-Blair H . 2021. A widespread bacterial secretion system with diverse substrates. Mbio 12.",
+          "DOI": "10.1128/mBio.01956-21"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0693-y"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.950151205"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2011.0208"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.00483-07"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.00754-09"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/gmic.1.5.13436"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.00833-09"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1078973"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2022.02.016"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2021.02.023"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tim.2006.04.005"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-01246-4"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/cmi.12376"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M113.513275"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1211872110"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0048830"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep28020"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.13398"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzm071"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M115.701698"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "412",
+          "DOI": "10.1016/j.jbiosc.2019.09.022",
+          "article-title": "Native display of a huge homotrimeric protein fiber on the cell surface after precise domain deletion",
+          "volume": "129",
+          "year": "2020",
+          "journal-title": "J Biosci Bioeng"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7601132"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "12602",
+          "DOI": "10.1002/anie.201505506",
+          "article-title": "Solid-state NMR study of the YadA membrane-anchor domain in the bacterial outer membrane",
+          "volume": "54",
+          "year": "2015",
+          "journal-title": "Angewandte Chemie International Edition"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature17199"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.15127"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "528",
+          "DOI": "10.3390/antibiotics10050528",
+          "article-title": "Colistin treatment affects lipid composition of Acinetobacter baumannii",
+          "volume": "10",
+          "year": "2021",
+          "journal-title": "Antibiotics"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "8618",
+          "DOI": "10.1021/jacs.4c17726",
+          "article-title": "Probing the dynamics of Yersinia adhesin A (YadA) in outer membranes hints at requirements for β-barrel membrane insertion",
+          "volume": "147",
+          "year": "2025",
+          "journal-title": "Journal of the American Chemical Society"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth444"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/21505594.2018.1558693"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1462-5822.2011.01711.x"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.00122-08"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.12840"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.cellbio.22.010305.104241"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.20033"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "2787",
+          "DOI": "10.1038/s41467-025-58106-9",
+          "article-title": "Emergence and global spread of a dominant multidrug-resistant clade within Acinetobacter baumannii",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00197809"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2059798323003595"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2059798319011471"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2017.12.007"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3749"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20945"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1016/j.softx.2015.06.001",
+          "article-title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+          "volume": "1-2",
+          "year": "2015",
+          "journal-title": "SoftwareX"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2408420"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.328693"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.3.CO;2-L"
+        },
+        {
+          "key": "2025080402300682000_2023.12.21.572085v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.21.572085",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T04:56:57Z",
+        "timestamp": 1782277017000
+      },
+      "score": 84.44951,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.21.572085"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            21
+          ]
+        ]
+      },
+      "references-count": 52,
+      "URL": "https://doi.org/10.1101/2023.12.21.572085",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.tcsw.2025.100155",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

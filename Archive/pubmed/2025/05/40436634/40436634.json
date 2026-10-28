@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "40436634",
+    "doi": "10.1021/acs.jpcb.5c00189",
+    "title": "Adaptation of DNA to Protein Binding Revealed by Spectroscopy and Molecular Simulation."
+  },
+  "content": {
+    "abstract": "DNA demonstrates remarkable structural diversity, transitioning between conformations such as B-DNA and A-DNA under specific environmental or protein-binding conditions. These transitions are relevant for mediating cellular processes such as gene regulation, DNA organization, and stress response. In bacteria, the histone-like nucleoid structuring protein (H-NS) exemplifies the interaction between sequence-dependent DNA conformational adaptability and protein-mediated regulatory mechanisms. Despite evidence for the strong affinity of H-NS for AT-rich DNA, the specific molecular and structural interactions driving this recognition remain largely unclear. Combining fluorescence spectroscopy, circular dichroism (CD), molecular dynamics (MD) simulations, and enhanced sampling techniques, we show that H-NS exhibits a 10-fold higher affinity for ApT repeats compared to that of GpC repeats. Interestingly, selective binding of H-NS to AT-rich DNA causes a structural adaptation in the DNA, including increased bending flexibility, minor groove widening, and localized A-like DNA features, while GC-rich DNA remains closer to the canonical B-form. Our approach yielded detailed insights into how H-NS exploits the intrinsic conformational plasticity of DNA to achieve sequence-dependent binding. More broadly, this work illustrates how DNA-binding proteins can harness the structural adaptability of the DNA double helix, which may modulate regulatory outcomes, and provides insight into how the intrinsic properties of DNA shape protein-DNA interactions in diverse biological systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Circular Dichroism",
+      "*DNA/chemistry/metabolism",
+      "Spectrometry, Fluorescence",
+      "Nucleic Acid Conformation",
+      "*Escherichia coli Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "van Heesch, Thor",
+        "Sharma, Sudhanshu",
+        "van Erp, Bert",
+        "Ortiz, Alberto Perez de Alba",
+        "Dame, Remus T",
+        "Vreede, Jocelyne",
+        "Gavvala, Krishna"
+      ],
+      "short_names": [
+        "van Heesch T",
+        "Sharma S",
+        "van Erp B",
+        "Ortiz APA",
+        "Dame RT",
+        "Vreede J",
+        "Gavvala K"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-7474-8914",
+        "ORCID: 0000-0003-4776-5521",
+        "ORCID: 0000-0001-9863-1692",
+        "ORCID: 0000-0002-6977-6603",
+        "ORCID: 0000-0001-7438-2716"
+      ],
+      "affiliations": [
+        "Van 't Hoff Institute of Molecular Sciences, University of Amsterdam, Science Park 904, Amsterdam 1098 XH, The Netherlands.",
+        "Department of Chemistry, Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana 502284, India.",
+        "Leiden Institute of Chemistry, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+        "Centre for Microbial Cell Biology, Leiden University, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Leiden University, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+        "Van 't Hoff Institute of Molecular Sciences, University of Amsterdam, Science Park 904, Amsterdam 1098 XH, The Netherlands.",
+        "Informatics Institute, University of Amsterdam, Science Park 904, Amsterdam 1098 XH, The Netherlands.",
+        "Leiden Institute of Chemistry, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Leiden University, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+        "Centre for Microbial Cell Biology, Leiden University, Einsteinweg 55,, Leiden 2333 CC, The Netherlands.",
+        "Van 't Hoff Institute of Molecular Sciences, University of Amsterdam, Science Park 904, Amsterdam 1098 XH, The Netherlands.",
+        "Department of Chemistry, Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana 502284, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "van Heesch, Thor",
+        "short_name": "van Heesch T",
+        "identifiers": [],
+        "affiliations": [
+          "Van 't Hoff Institute of Molecular Sciences, University of Amsterdam, Science Park 904, Amsterdam 1098 XH, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Sharma, Sudhanshu",
+        "short_name": "Sharma S",
+        "identifiers": [
+          "0009-0001-7474-8914"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana 502284, India."
+        ]
+      },
+      {
+        "full_name": "van Erp, Bert",
+        "short_name": "van Erp B",
+        "identifiers": [],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+          "Centre for Microbial Cell Biology, Leiden University, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Leiden University, Einsteinweg 55, Leiden 2333 CC, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ortíz, Alberto Pérez de Alba",
+        "short_name": "Ortíz APA",
+        "identifiers": [
+          "0000-0003-4776-5521"
+        ],
+        "affiliations": [
+          "Van 't Hoff Institute of Molecular Sciences, University of Amsterdam, Science Park 904, Amsterdam 1098 XH, The Netherlands.",
+          "Informatics Institute, University of Amsterdam, Science Park 904, Amsterdam 1098 XH, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dame, Remus T",
+        "short_name": "Dame RT",
+        "identifiers": [
+          "0000-0001-9863-1692"
+        ],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Leiden University, Einsteinweg 55, Leiden 2333 CC, The Netherlands.",
+          "Centre for Microbial Cell Biology, Leiden University, Einsteinweg 55,, Leiden 2333 CC, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vreede, Jocelyne",
+        "short_name": "Vreede J",
+        "identifiers": [
+          "0000-0002-6977-6603"
+        ],
+        "affiliations": [
+          "Van 't Hoff Institute of Molecular Sciences, University of Amsterdam, Science Park 904, Amsterdam 1098 XH, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gavvala, Krishna",
+        "short_name": "Gavvala K",
+        "identifiers": [
+          "0000-0001-7438-2716"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana 502284, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Jun 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/29 00:27",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "42146368"
+    ],
+    "refs": [
+      "39748297",
+      "39380468",
+      "39028525",
+      "38486445",
+      "38134780",
+      "37953329",
+      "36969447",
+      "36695645",
+      "35732531",
+      "35669520",
+      "35420137",
+      "34352078",
+      "34016970",
+      "34005944",
+      "33956157",
+      "31767998",
+      "31363226",
+      "31114927",
+      "30845209",
+      "29358050",
+      "29207232",
+      "28949292",
+      "26841432",
+      "26574453",
+      "26569599",
+      "26488642",
+      "25732337",
+      "25389261",
+      "24335080",
+      "23368161",
+      "22265250",
+      "22114557",
+      "21673140",
+      "21456706",
+      "21447564",
+      "20145802",
+      "19865164",
+      "18477633",
+      "18287075",
+      "17983565",
+      "17881364",
+      "17435766",
+      "17212484",
+      "17191074",
+      "17108966",
+      "16933988",
+      "16861282",
+      "16763111",
+      "16211538",
+      "15853876",
+      "15782252",
+      "15001352",
+      "14581192",
+      "12799441",
+      "12271136",
+      "10891271",
+      "10688897",
+      "10617571",
+      "9642081",
+      "9513262",
+      "9171396",
+      "8717047",
+      "7875316",
+      "3135462",
+      "2450042",
+      "2307139",
+      "1898779",
+      "1745240",
+      "1423593"
+    ],
+    "similar": [
+      "40436634",
+      "30845209",
+      "37953329",
+      "23912807",
+      "39028525",
+      "26163783",
+      "28949292",
+      "27309278",
+      "34382809",
+      "33000860",
+      "29109287",
+      "20176569",
+      "15165850",
+      "21673140",
+      "15720293",
+      "18586040",
+      "28316324",
+      "29433424",
+      "25161164",
+      "17108966",
+      "24668810",
+      "22311606",
+      "15322284",
+      "27884082",
+      "22731116",
+      "32385085",
+      "11263995",
+      "34665609",
+      "9108246",
+      "41053219",
+      "22828335",
+      "17046956",
+      "29267981",
+      "18189420",
+      "10551881",
+      "27913665",
+      "12217688",
+      "40300316",
+      "41311051",
+      "26029766",
+      "9521703",
+      "9130723",
+      "41159612",
+      "23666816",
+      "21459097",
+      "31481544",
+      "24089363",
+      "29695505",
+      "16262254",
+      "34360641",
+      "12062384",
+      "29283021",
+      "25344900",
+      "9115277",
+      "36801300",
+      "24275506",
+      "26195595",
+      "25670677",
+      "23818873",
+      "21830782",
+      "6243083",
+      "21106075",
+      "27147539",
+      "23661683",
+      "23561538",
+      "40804527",
+      "10982869",
+      "12222684",
+      "22772065",
+      "21903814",
+      "8655536",
+      "10515926",
+      "29241299",
+      "22187157",
+      "7669760",
+      "38812070",
+      "29458089",
+      "14609344",
+      "23220279",
+      "10213619",
+      "29107813",
+      "27658967",
+      "10222198",
+      "12419257",
+      "15731390",
+      "11827473",
+      "23732330",
+      "16166383",
+      "7512187",
+      "40101377",
+      "15342239",
+      "35451661",
+      "26976786",
+      "29104984",
+      "38486445",
+      "28790204",
+      "34387867",
+      "40631816",
+      "26305498",
+      "31184713"
+    ],
+    "review": [
+      "40436634",
+      "25161164",
+      "27913665",
+      "21830782",
+      "6243083"
+    ],
+    "pmc": [
+      "12169650"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40436634/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c00189",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

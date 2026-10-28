@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "pmid": "34882561",
+    "doi": "10.1109/TCBB.2021.3133869",
+    "title": "Predicting In-Vitro DNA-Protein Binding With a Spatially Aligned Fusion of Sequence and Shape."
+  },
+  "content": {
+    "abstract": "Discovery of transcription factor binding sites (TFBSs) is of primary importance for understanding the underlying binding mechanic and gene regulation process. Growing evidence indicates that apart from the primary DNA sequences, DNA shape landscape has a significant influence on transcription factor binding preference. To effectively model the co-influence of sequence and shape features, we emphasize the importance of position information of sequence motif and shape pattern. In this paper, we propose a novel deep learning-based architecture, named hybridShape eDeepCNN, for TFBS prediction which integrates DNA sequence and shape information in a spatially aligned manner. Our model utilizes the power of the multi-layer convolutional neural network and constructs an independent subnetwork to adapt for the distinct data distribution of heterogeneous features. Besides, we explore the usage of continuous embedding vectors as the representation of DNA sequences. Based on the experiments on 20 in-vitro datasets derived from universal protein binding microarrays (uPBMs), we demonstrate the superiority of our proposed method and validate the underlying design logic.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Binding",
+      "*Transcription Factors/metabolism",
+      "Binding Sites/genetics",
+      "*DNA-Binding Proteins/metabolism",
+      "DNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qinhu",
+        "Zhang, Yindong",
+        "Wang, Siguo",
+        "Chen, Zhan-Heng",
+        "Gribova, Valeriya",
+        "Filaretov, Vladimir Fedorovich",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "Zhang Y",
+        "Wang S",
+        "Chen ZH",
+        "Gribova V",
+        "Filaretov VF",
+        "Huang DS"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Yindong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Zhan-Heng",
+        "short_name": "Chen ZH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gribova, Valeriya",
+        "short_name": "Gribova V",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Filaretov, Vladimir Fedorovich",
+        "short_name": "Filaretov VF",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2022 Nov-Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/10 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "41627694",
+      "37140548",
+      "36360189"
+    ],
+    "refs": [],
+    "similar": [
+      "34882561",
+      "31634140",
+      "34929739",
+      "33767912",
+      "28541376",
+      "34613923",
+      "38701417",
+      "37328639",
+      "39350338",
+      "38733561",
+      "32960766",
+      "30106688",
+      "29993783",
+      "34073774",
+      "22672438",
+      "34272562",
+      "17914226",
+      "38236675",
+      "26130577",
+      "24386279",
+      "36057196",
+      "31665425",
+      "31372637",
+      "21059262",
+      "30447332",
+      "36748992",
+      "36155619",
+      "27567672",
+      "30835229",
+      "27871221",
+      "30323198",
+      "22504445",
+      "24586611",
+      "36094959",
+      "38049725",
+      "36049552",
+      "23703214",
+      "34752400",
+      "35652477",
+      "37140548",
+      "26285121",
+      "18485226",
+      "27896980",
+      "16362907",
+      "18349034",
+      "24214955",
+      "20529874",
+      "28485207",
+      "21193520",
+      "27045826",
+      "25775564",
+      "25560196",
+      "34664074",
+      "31226207",
+      "29040720",
+      "18627598",
+      "15166027",
+      "27052996",
+      "25843630",
+      "21347314",
+      "36082286",
+      "24927817",
+      "27106869",
+      "23317703",
+      "33571101",
+      "29990126",
+      "28849563",
+      "23427986",
+      "27503086",
+      "24078250",
+      "19586888",
+      "28623591",
+      "34669947",
+      "21896508",
+      "20158869",
+      "31856220",
+      "29287069",
+      "22748199",
+      "33372147",
+      "16595861",
+      "31336830",
+      "18533028",
+      "35768792",
+      "22334039",
+      "35719916",
+      "20056654",
+      "33334313",
+      "11075923",
+      "24091402",
+      "24608116",
+      "36322688",
+      "37961633"
+    ],
+    "review": [
+      "34882561",
+      "36057196",
+      "30447332",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2021.3133869",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2021.3133869",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

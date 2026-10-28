@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics (MD) simulations starting from an NMR-derived TDP-43 RRM1-2 structure bound to RNA to predict the apo conformation. They report that individual domain integrity is maintained upon RNA removal, interdomain contacts decrease, MD-derived apo structures differ from AlphaFold 2 (AF2) predictions in loop regions, and Sitemap analysis identifies fewer druggable sites in MD and AF2 apo structures than in the RNA-bound NMR structure.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, methods details, simulation parameters, force fields, convergence criteria, structural figures, Sitemap analysis parameters, and quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational study aimed at identifying druggable sites on apo TDP-43 RRM domains. The central idea, using MD to generate apo conformations from an RNA-bound NMR structure and comparing with AF2 predictions, is reasonable and of interest to the TDP-43 and neurodegeneration communities. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the statistical significance of the contact analysis, or the robustness of the Sitemap findings. The conclusions are qualitatively stated and cannot be verified from the supplied material. The work may be of value, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 structure and function, particularly those interested in protein nucleic acid interactions, intrinsically disordered proteins, and the molecular basis of amyotrophic lateral sclerosis and frontotemporal dementia. Computational biophysicists and drug discovery scientists interested in cryptic or allosteric binding sites on RNA binding proteins would also find the approach relevant.
+- **Major strengths** The study addresses a biologically important and structurally challenging protein. The comparison between MD-derived and AF2 predicted apo structures is timely and relevant. The focus on identifying druggable sites has translational potential. The observation that RNA removal reduces interdomain contacts while preserving individual domain integrity is a testable and mechanistically interesting claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations on the NMR solved TDP-43 RRM1-2 structure bound to RNA can predict the apo structure.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on simulation length, force field, water model, temperature coupling, equilibration protocol, or convergence assessment. Without these details, it is impossible to judge whether the simulations reached equilibrium or whether the resulting apo conformations are physically meaningful. The claim that the apo structure is "predicted" requires evidence of sampling convergence and reproducibility.
+  - **Why it matters** MD predictions of protein conformations are highly sensitive to simulation setup and sampling quality. If the simulations are too short or poorly converged, the reported structural differences and contact changes may be artifacts rather than genuine features of the apo state.
+  - **Resolution test** Provide simulation duration, number of replicas, force field and water model, RMSD convergence plots, and comparison of independent runs. Show that the apo ensemble is stable and reproducible across multiple simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that contact analysis showed a decrease in interdomain contacts upon RNA removal while individual domain integrity was maintained.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are provided. The abstract does not state the magnitude of the contact decrease, the statistical significance, the specific contacts affected, or how domain integrity was defined and measured. Without these numbers, the claim is qualitative and cannot be evaluated.
+  - **Why it matters** The interdomain contact change is a central structural finding. If the effect is small or within simulation noise, the conclusion may not be robust. The definition of domain integrity is also critical, as different metrics could lead to different interpretations.
+  - **Resolution test** Report contact maps, interdomain contact counts with error bars, statistical tests comparing bound and apo ensembles, and a clear definition of domain integrity with supporting metrics such as RMSD or RMSF per domain.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Sitemap analysis identified five druggable sites for the RNA bound NMR structure, while fewer sites were identified following MD simulations and AF2 predicted apo structures.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The Sitemap analysis is presented without any methodological detail. The abstract does not state the Sitemap scoring criteria, the definition of a druggable site, the threshold used, or the specific sites identified. The comparison between structures is also unclear, as it is not stated whether the same parameters were used for all structures or how the MD ensemble was represented in the analysis.
+  - **Why it matters** The druggable site analysis is the translational endpoint of the study. If the criteria are not defined or are applied inconsistently, the conclusion that fewer sites exist in apo structures is not reliable. This claim could mislead downstream drug discovery efforts.
+  - **Resolution test** Provide Sitemap parameters, site scores, site locations, and a clear description of how the MD ensemble and AF2 structures were prepared for analysis. Show that the comparison is apples to apples across all structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses the term "prion prone" without explanation. This is a specialized term that may not be familiar to all readers, and its relevance to the study is not stated.
+  - **Required correction** Briefly define or contextualize "prion prone" in relation to TDP-43, or remove the term if it is not essential to the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "fewer sites were identified" following MD and AF2, but does not give the actual numbers. This is imprecise and prevents the reader from assessing the magnitude of the difference.
+  - **Required correction** Report the specific number of sites identified for each structure or ensemble.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the version of AlphaFold 2 used or whether the AF2 prediction was run locally or obtained from a database. This affects reproducibility.
+  - **Required correction** Specify the AF2 version and source of the prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of simulation details, quantitative contact data, and Sitemap methodology means that none of the three central claims can be independently evaluated from the supplied material.
+- **Assessment against Nature-style criteria** Originality: the approach of comparing MD-derived and AF2 predicted apo structures for druggable site identification is not entirely novel but is applied to a relevant and understudied target. Scientific importance: TDP-43 is a high value target in neurodegeneration, and identifying new druggable sites could have translational impact. Interdisciplinary readership: the work would appeal to structural biologists, computational chemists, and neuroscientists, though the abstract is too thin to engage a broad audience. Technical soundness: not assessable from the abstract; the absence of methods and quantitative results is a critical gap. Readability for nonspecialists: the abstract is generally clear but uses some specialized terms without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the technical details required to support the claims are absent. A full manuscript with methods, figures, and quantitative results would be needed to assess whether the conclusions are justified.
+
+## Risk / unsupported claims
+- The claim that MD simulations can predict the apo structure of TDP-43 RRM is unsupported without convergence and reproducibility data.
+- The claim that interdomain contacts decrease upon RNA removal is unsupported without quantitative data and statistical testing.
+- The claim that Sitemap identified five druggable sites in the RNA bound structure and fewer in apo structures is unsupported without methodological details and site specific results.
+- The comparison between MD derived and AF2 predicted structures is stated but not quantified, making the claim of differences in loop regions unverifiable.

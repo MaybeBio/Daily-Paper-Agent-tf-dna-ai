@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "41875746",
+    "doi": "10.1016/j.compbiolchem.2026.109015",
+    "title": "Prediction of gene expression levels in Saccharomyces cerevisiae based on chromatin accessibility using multiple machine learning models."
+  },
+  "content": {
+    "abstract": "Chromatin accessibility is generally associated with the binding of transcription factors and other regulatory proteins, which is fundamental to governing gene transcription. While the association between chromatin accessibility and gene expression levels is critical for transcriptional regulation, it remains incompletely characterized. Saccharomyces cerevisiae is a key eukaryotic model organism and a widely used chassis in synthetic biology, but studies on predicting gene expression from chromatin accessible regions are lacking. We developed Yeast-Gene, a supervised machine learning model that uses k-mer features from chromatin accessible regions to predict gene expression. Yeast-Gene focuses on local sequences of a few hundred base pairs within chromatin accessible regions. The model achieves an Area Under the Curve (AUC) of 0.90. The interpretability analysis identified AAGAA and CAAGA as highly influential motifs in the prediction of gene expression, and both motifs are potentially associated with mRNA splicing. These predictive features may contribute to the rational design of high-expression regulatory elements in synthetic biology.",
+    "keywords": [
+      "Chromatin accessibility",
+      "Gene expression",
+      "Machine learning model",
+      "Saccharomyces cerevisiae"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae/genetics",
+      "*Chromatin/genetics/metabolism",
+      "*Machine Learning",
+      "Predictive Learning Models",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Biyu",
+        "Hu, Bin",
+        "Jia, Peiheng",
+        "Ren, Chao",
+        "Hu, Pengzhen",
+        "He, Guohang",
+        "He, Song",
+        "Chen, Hebing",
+        "Lu, Yiming",
+        "Liang, Yating"
+      ],
+      "short_names": [
+        "Dong B",
+        "Hu B",
+        "Jia P",
+        "Ren C",
+        "Hu P",
+        "He G",
+        "He S",
+        "Chen H",
+        "Lu Y",
+        "Liang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Academy of Military Medical Science, Beijing 100850, China.",
+        "Academy of Military Medical Science, Beijing 100850, China.",
+        "College of Computer and Cyber Security, Fujian Normal University, Fuzhou 350000, China.",
+        "Academy of Military Medical Science, Beijing 100850, China.",
+        "School of Life Sciences, Northwestern Polytechnical University, Xi'an 710000, China.",
+        "School of Computer, Electronic and Information, Guangxi University, Nanning 530004, China.",
+        "Academy of Military Medical Science, Beijing 100850, China.",
+        "Academy of Military Medical Science, Beijing 100850, China. Electronic address: chenhb@bmi.ac.cn.",
+        "Academy of Military Medical Science, Beijing 100850, China. Electronic address: luymnet@126.com.",
+        "State Key Laboratory of Chemistry for NBC Hazards Protection, Beijing 102205, China. Electronic address: liangyating@sklnbcpc.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Biyu",
+        "short_name": "Dong B",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Science, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Bin",
+        "short_name": "Hu B",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Science, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Peiheng",
+        "short_name": "Jia P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Cyber Security, Fujian Normal University, Fuzhou 350000, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Chao",
+        "short_name": "Ren C",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Science, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Pengzhen",
+        "short_name": "Hu P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Northwestern Polytechnical University, Xi'an 710000, China."
+        ]
+      },
+      {
+        "full_name": "He, Guohang",
+        "short_name": "He G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer, Electronic and Information, Guangxi University, Nanning 530004, China."
+        ]
+      },
+      {
+        "full_name": "He, Song",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Science, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hebing",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Science, Beijing 100850, China. Electronic address: chenhb@bmi.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Lu, Yiming",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Science, Beijing 100850, China. Electronic address: luymnet@126.com."
+        ]
+      },
+      {
+        "full_name": "Liang, Yating",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemistry for NBC Hazards Protection, Beijing 102205, China. Electronic address: liangyating@sklnbcpc.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/25 01:05",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41875746",
+      "38906116",
+      "26291518",
+      "35695574",
+      "41832145",
+      "32029002",
+      "40509867",
+      "38719586",
+      "38940155",
+      "22113279",
+      "34147068",
+      "38859587",
+      "32054475",
+      "32847102",
+      "39747019",
+      "18418379",
+      "41365655",
+      "26818008",
+      "19594885",
+      "31136738",
+      "31038680",
+      "41670376",
+      "16362910",
+      "30044963",
+      "41763759",
+      "15262804",
+      "41990018",
+      "24992477",
+      "33904398",
+      "33074101",
+      "35293310",
+      "19494041",
+      "16723008",
+      "28750606",
+      "22449207",
+      "36508674",
+      "41814305",
+      "41233664",
+      "41951735",
+      "31792407",
+      "40092660",
+      "41656803",
+      "37099808",
+      "33874910",
+      "28212748",
+      "16553884",
+      "34255854",
+      "39766899",
+      "35072976",
+      "41662352",
+      "26564975",
+      "23958656",
+      "23990766",
+      "32355169",
+      "23950146",
+      "31511305",
+      "20430699",
+      "35456374",
+      "39326643",
+      "33860764",
+      "41105015",
+      "16606697",
+      "33672342",
+      "41334930",
+      "40165301",
+      "22345607",
+      "42359002",
+      "41544253",
+      "41617215",
+      "29097404",
+      "30598689",
+      "27456004",
+      "23674068",
+      "25762337",
+      "19008939",
+      "40063354",
+      "16172632",
+      "23408895",
+      "38816426",
+      "34137374",
+      "11884596",
+      "22456606",
+      "42306297",
+      "22692006",
+      "10422263",
+      "30867326",
+      "33576335",
+      "11008489",
+      "32293531",
+      "40830558",
+      "32251664",
+      "31053165",
+      "20047965",
+      "24581456",
+      "39587299",
+      "39853180",
+      "25823445",
+      "37953664",
+      "42331263",
+      "33731366"
+    ],
+    "review": [
+      "41875746",
+      "40509867",
+      "30044963",
+      "22345607",
+      "10422263",
+      "11008489"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(26)00140-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

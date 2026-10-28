@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37307876",
+  "title": "Predicting Prostate Cancer Molecular Subtype With Deep Learning on Histopathologic Images.",
+  "authors": "Erak, Eric; Oliveira, Lia DePaula; Mendes, Adrianna A; Dairo, Oluwademilade; Ertunc, Onur; Kulac, Ibrahim; Baena-Del Valle, Javier A; Jones, Tracy; Hicks, Jessica L; Glavaris, Stephanie; Guner, Gunes; Vidal, Igor Damasceno; Markowski, Mark; de la Calle, Claire; Trock, Bruce J; Meena, Avaneesh; Joshi, Uttara; Kondragunta, Chaith; Bonthu, Saikiran; Singhal, Nitin; De Marzo, Angelo M; Lotan, Tamara L",
+  "journal": "Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc",
+  "published_date": "2023-06-13",
+  "window": {
+    "start": "2023-06-12",
+    "end": "2023-06-18"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习从组织病理图像预测前列腺癌分子亚型，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Microscopic examination of prostate cancer has failed to reveal a reproducible association between molecular and morphologic features. However, deep-learning algorithms trained on hematoxylin and eosin (H&E)-stained whole slide images (WSI) may outperform the human eye and help to screen for clinically-relevant genomic alterations. We created deep-learning algorithms to identify prostate tumors with underlying ETS-related gene (ERG) fusions or PTEN deletions using the following 4 stages: (1) automated tumor identification, (2) feature representation learning, (3) classification, and (4) explainability map generation. A novel transformer-based hierarchical architecture was trained on a single representative WSI of the dominant tumor nodule from a radical prostatectomy (RP) cohort with known ERG/PTEN status (n = 224 and n = 205, respectively). Two distinct vision transformer-based networks were used for feature extraction, and a distinct transformer-based model was used for classification. The ERG algorithm performance was validated across 3 RP cohorts, including 64 WSI from the pretraining cohort (AUC, 0.91) and 248 and 375 WSI from 2 independent RP cohorts (AUC, 0.86 and 0.89, respectively). In addition, we tested the ERG algorithm performance in 2 needle biopsy cohorts comprised of 179 and 148 WSI (AUC, 0.78 and 0.80, respectively). Focusing on cases with homogeneous (clonal) PTEN status, PTEN algorithm performance was assessed using 50 WSI reserved from the pretraining cohort (AUC, 0.81), 201 and 337 WSI from 2 independent RP cohorts (AUC, 0.72 and 0.80, respectively), and 151 WSI from a needle biopsy cohort (AUC, 0.75). For explainability, the PTEN algorithm was also applied to 19 WSI with heterogeneous (subclonal) PTEN loss, where the percentage tumor area with predicted PTEN loss correlated with that based on immunohistochemistry (r = 0.58, P = .0097). These deep-learning algorithms to predict ERG/PTEN status prove that H&E images can be used to screen for underlying genomic alterations in prostate cancer.",
+  "abstract_zh": "对前列腺癌的显微镜检查未能揭示分子与形态学特征之间可重复的关联。然而，基于苏木精-伊红（H&E）染色的全切片图像（WSI）训练的深度学习算法可能超越人眼，有助于筛查临床相关的基因组改变。我们创建了深度学习算法，通过以下4个阶段识别具有潜在ETS相关基因（ERG）融合或PTEN缺失的前列腺肿瘤：（1）自动肿瘤识别，（2）特征表示学习，（3）分类，以及（4）可解释性图谱生成。一种新颖的基于Transformer的分层架构在来自根治性前列腺切除术（RP）队列的单一代表性WSI上训练，该队列具有已知的ERG/PTEN状态（分别为n = 224和n = 205）。使用两种不同的基于视觉Transformer的网络进行特征提取，并使用一种不同的基于Transformer的模型进行分类。ERG算法的性能在3个RP队列中验证，包括来自预训练队列的64个WSI（AUC，0.91）以及来自2个独立RP队列的248和375个WSI（AUC，分别为0.86和0.89）。此外，我们在2个穿刺活检队列中测试了ERG算法的性能，这些队列包含179和148个WSI（AUC，分别为0.78和0.80）。针对具有同质性（克隆性）PTEN状态的病例，PTEN算法的性能评估使用了来自预训练队列的50个WSI（AUC，0.81）、来自2个独立RP队列的201和337个WSI（AUC，分别为0.72和0.80），以及来自穿刺活检队列的151个WSI（AUC，0.75）。在可解释性方面，PTEN算法还应用于19个具有异质性（亚克隆性）PTEN缺失的WSI，其中预测PTEN缺失的肿瘤面积百分比与基于免疫组织化学的结果相关（r = 0.58，P = .0097）。这些用于预测ERG/PTEN状态的深度学习算法证明，H&E图像可用于筛查前列腺癌中潜在的基因组改变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37307876/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37307876/",
+  "paper_page_path": "papers/pubmed/37307876/index.html"
+}

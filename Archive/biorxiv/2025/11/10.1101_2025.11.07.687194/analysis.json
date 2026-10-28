@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.07.687194",
+  "title": "Improving DNA Modeling with WaveDNA: Enhancing Speed, Generalizability, and Interpretability through Wavelet Transformation",
+  "authors": "Ruggeri L; Tognon M; Giugno R",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-10",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出WaveDNA，利用小波变换将DNA序列编码为二维图像，结合预训练CNN高效预测TF结合位点，核心聚焦TF-DNA互作建模，方法新颖且可解释性强，与课题高度匹配。",
+  "abstract": "Transcription factors (TFs) regulate gene expression by binding to short, specific DNA sequences, known as transcription factor binding sites (TFBSs). Accurate identification of TFBSs is fundamental for znderstanding transcriptional regulation. By leveraging their ability to capture complex non-linear patterns and hierarchical dependencies underlying TF-DNA binding deep learning (DL) has emerged as the state-of-the-art approach for modeling and identifying TFBSs. However, current models often require extensive pretraining, involve large parameter sets, and offer limited interpretability. To address these limitations, we introduce WaveDNA, a lightweight and interpretable DL framework that encode DNA sequences into two- dimensional representations using wavelet transforms. This approach enables the use of convolutional neural networks pretrained on images, facilitating efficient transfer learning without requiring large-scale genomic data pretraining. Across diverse ENCODE ChIP-seq datasets spanning different TFs, WaveDNA achieves predictive accuracy comparable to state-of-the-art DL models while using approximately fivefold fewer parameters and substantially less computational resources. Moreover, representing DNA sequences as images allows the direct application of established computer vision interpretability techniques to visualize the learned binding patterns. Together, these results demonstrate that WaveDNA offers",
+  "abstract_zh": "转录因子（TFs）通过结合短而特异的DNA序列（称为转录因子结合位点（TFBSs））来调控基因表达。准确识别TFBSs对于理解转录调控至关重要。利用其捕捉TF-DNA结合背后复杂非线性模式和层级依赖性的能力，深度学习（DL）已成为建模和识别TFBSs的最先进方法。然而，当前模型通常需要大量预训练，涉及庞大参数集，且可解释性有限。为解决这些局限性，我们引入了WaveDNA，一种轻量级且可解释的DL框架，通过小波变换将DNA序列编码为二维表示。该方法使得能够使用在图像上预训练的卷积神经网络，促进高效迁移学习，而无需大规模基因组数据预训练。在涵盖不同TFs的多种ENCODE ChIP-seq数据集中，WaveDNA实现了与最先进DL模型相当的预测准确性，同时使用约五倍更少的参数和显著更少的计算资源。此外，将DNA序列表示为图像允许直接应用成熟的计算机视觉可解释性技术来可视化学习到的结合模式。综合来看，这些结果表明WaveDNA提供了一种",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687194",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687194",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.07.687194/index.html"
+}

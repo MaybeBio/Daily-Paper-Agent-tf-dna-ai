@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, and presentation quality of the described work
+- **Shared manuscript claim summary** The authors present DeepPBS, a geometric deep-learning model that predicts protein-DNA binding specificity from experimental or predicted complex structures. The model uses a bipartite graph representation with protein atom graphs and a symmetrized DNA helix, and can extract interpretable per-atom importance scores. Claims include cross-family generalization, competitive performance with a family-specific method, and biological validity of importance scores via correlation with alanine scanning mutagenesis data.
+- **Visible evidence base** Main text figures 1-5, methods section, and references to supplementary figures, tables, videos, and data files
+- **Missing materials affecting confidence** Supplementary figures, tables, and data files were not provided; detailed architecture specifications and training hyperparameters are referenced but not fully described in the visible text; the benchmark dataset construction details are only partially described
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel and potentially valuable approach to predicting protein-DNA binding specificity from structure. The core idea of using a symmetrized DNA helix representation to remove sequence identity while preserving geometric features is elegant and addresses a real limitation in the field. The demonstrated applications, including use with predicted structures and design feedback loops, are timely and relevant. However, the visible evidence is insufficient to fully evaluate the method's performance claims, and several technical details require clarification. The correlation with mutagenesis data is promising but based on a limited visible description. Overall, the work is of interest to the structural biology and gene regulation communities, but the case is not fully established from the provided materials.
+- **Who would be interested in the results, and why** Structural biologists studying protein-DNA recognition, computational biologists developing prediction tools for gene regulation, researchers in synthetic biology and protein design, and experimentalists studying transcription factor binding specificity. The method's ability to work with predicted structures and provide interpretable importance scores makes it relevant to a broad audience interested in structure-function relationships.
+- **Major strengths** 1) The symmetrized DNA helix representation is a creative solution to the problem of sequence-dependent bias in structure-based specificity prediction. 2) The model is designed to be structure-based and can handle biological assemblies, addressing limitations of sequence-based approaches. 3) The interpretability mechanism via edge perturbation provides a practical tool for generating testable hypotheses. 4) The demonstration of applicability to predicted structures and design feedback is forward-looking and practically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DeepPBS achieves accurate binding specificity prediction across protein families with performance comparable to family-specific methods.
+  - **Evidence pointer** Figure 2, Supplementary Sections 1, 2, 5, 6, 7
+  - **Concern** The quantitative performance metrics are presented primarily through box plots and scatter plots, but the visible text does not provide sufficient numerical context. The benchmark dataset construction is described only in general terms, and the comparison with rCLAMPS is presented without clear statistical testing or discussion of potential biases in the comparison. The claim of comparable performance to a family-specific method requires more rigorous quantitative evidence, including confidence intervals and appropriate statistical tests.
+  - **Why it matters** The central claim of the paper is that DeepPBS provides accurate cross-family predictions. Without clear numerical benchmarks and rigorous statistical comparison, the reader cannot assess whether the method genuinely advances the state of the art or merely matches existing approaches on a favorable subset of data.
+  - **Resolution test** Provide explicit numerical performance values (mean, median, variance) for all models and baselines, include statistical significance tests for all pairwise comparisons, describe the benchmark construction in sufficient detail to assess potential circularity or bias, and present the rCLAMPS comparison with appropriate statistical rigor.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DeepPBS importance scores correlate with experimental binding affinity changes from alanine scanning mutagenesis.
+  - **Evidence pointer** Figure 4h, Supplementary Table 1, Methods section
+  - **Concern** The correlation with mutagenesis data is presented as a single Pearson correlation coefficient of 0.60, but the visible text does not describe the number of data points, the diversity of proteins and residues included, the criteria for inclusion, or whether the correlation is dominated by a few outliers or specific protein families. The log-sum aggregation method is described but its rationale and potential limitations are not discussed. The choice of ΔΔG as the comparison metric and the direction of the expected correlation are not fully explained.
+  - **Why it matters** This validation is crucial for establishing that the importance scores have biological meaning. A single correlation coefficient without context is insufficient to assess the strength and generalizability of the finding. If the correlation is driven by a subset of proteins or residues, the claim of general biological relevance would be weakened.
+  - **Resolution test** Provide the number of data points, a breakdown of results by protein family or residue type, a scatter plot with clear labeling, discussion of potential confounding factors, and sensitivity analysis of the aggregation method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that DeepPBS is a usable tool that can be applied to experimental or predicted structures.
+  - **Evidence pointer** Methods section, Supplementary Sections 4, 5, 6
+  - **Concern** The visible text does not provide sufficient architectural details to reproduce the model. The number of layers, hidden dimensions, activation functions, training hyperparameters, data augmentation strategies, and loss function details are not fully specified. The preprocessing pipeline is described only in general terms. The code availability statement is not visible in the provided text.
+  - **Why it matters** For a computational method paper, reproducibility is essential. Without complete architectural and training details, other researchers cannot build upon or independently verify the method. The absence of clear code availability information further limits the practical utility of the work.
+  - **Resolution test** Provide a complete description of the model architecture, training procedure, and hyperparameters in the main text or supplement, and include a clear statement about code and model availability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that DeepPBS can be used with predicted structures from RFNA and other structure prediction methods.
+  - **Evidence pointer** Figure 3, Supplementary Sections 8, 9
+  - **Concern** The demonstration with predicted structures shows a performance drop compared to experimental structures, which is expected, but the visible text does not provide sufficient analysis of when predictions are reliable and when they are not. The relationship between prediction confidence (pLDDT) and DeepPBS performance is mentioned but not thoroughly analyzed. The practical guidance for users regarding when to trust predictions from modeled structures is limited.
+  - **Why it matters** The utility of DeepPBS for proteins without experimental structures depends on understanding its limitations with predicted structures. Without clear guidance on reliability thresholds and failure modes, users may apply the method inappropriately.
+  - **Resolution test** Provide a more detailed analysis of the relationship between structure prediction confidence and DeepPBS accuracy, including potential thresholds for reliable use and discussion of failure cases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The schematic in Figure 1 is dense and the relationship between the different components (protein graph, sym-helix, bipartite convolutions) is not immediately clear from the legend alone.
+  - **Required correction** Consider adding a more detailed legend or a step-by-step annotation of the pipeline to improve accessibility for nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of limitations is brief and focuses primarily on data availability. Potential limitations related to the sym-helix representation, such as the loss of information about DNA backbone conformation or the handling of modified bases, are not discussed.
+  - **Required correction** Expand the limitations section to address potential representational constraints and their implications for generalizability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Comparison with existing methods
+  - **Evidence pointer** Figure 3h, Discussion
+  - **Issue** The comparison with rCLAMPS is presented as a scatter plot, but the visible text does not describe the specific conditions of the comparison, such as whether the same protein structures were used, how the comparison was standardized, or whether the comparison is fair given that rCLAMPS is sequence-based and DeepPBS is structure-based.
+  - **Required correction** Provide a clear description of the comparison protocol and discuss the implications of comparing structure-based and sequence-based methods.
+- **Technical failings that need to be addressed before the case is established** 1) Insufficient numerical detail for performance claims (R1-M1). 2) Incomplete description of the mutagenesis validation dataset and analysis (R1-M2). 3) Inadequate architectural and training details for reproducibility (R1-M3). 4) Limited analysis of performance with predicted structures (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The symmetrized helix representation and the application of geometric deep learning to binding specificity prediction represent a novel contribution. Scientific importance: The work addresses a fundamental problem in gene regulation and has potential applications in protein design and synthetic biology. Interdisciplinary readership: The work bridges structural biology, machine learning, and gene regulation, making it relevant to multiple communities. Technical soundness: The approach is technically reasonable, but the visible evidence is insufficient to fully assess performance claims and reproducibility. Readability for nonspecialists: The main text is generally accessible, but some technical sections assume familiarity with deep learning and structural biology concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the applications are relevant, but the visible evidence does not fully establish the performance claims or provide sufficient detail for reproducibility. The authors should address the major concerns regarding quantitative benchmarks, validation analysis, and methodological detail before the case is fully established.
+
+## Risk / unsupported claims
+- The claim of comparable performance to rCLAMPS is not fully supported by the visible quantitative evidence.
+- The claim that importance scores are biologically meaningful is supported by only a single correlation coefficient without sufficient contextual detail.
+- The claim that DeepPBS can be effectively applied to predicted structures requires more detailed analysis of reliability thresholds.
+- The generalizability of the model across all protein families is not fully established from the visible data, as performance varies by family and the reasons for this variation are not thoroughly analyzed.

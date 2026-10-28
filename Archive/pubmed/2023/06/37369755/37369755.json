@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "37369755",
+    "doi": "10.1038/s41598-023-36558-7",
+    "title": "Drosophila mutants lacking the glial neurotransmitter-modifying enzyme Ebony exhibit low neurotransmitter levels and altered behavior."
+  },
+  "content": {
+    "abstract": "Inhibitors of enzymes that inactivate amine neurotransmitters (dopamine, serotonin), such as catechol-O-methyltransferase (COMT) and monoamine oxidase (MAO), are thought to increase neurotransmitter levels and are widely used to treat Parkinson's disease and psychiatric disorders, yet the role of these enzymes in regulating behavior remains unclear. Here, we investigated the genetic loss of a similar enzyme in the model organism Drosophila melanogaster. Because the enzyme Ebony modifies and inactivates amine neurotransmitters, its loss is assumed to increase neurotransmitter levels, increasing behaviors such as aggression and courtship and decreasing sleep. Indeed, ebony mutants have been described since 1960 as \"aggressive mutants,\" though this behavior has not been quantified. Using automated machine learning-based analyses, we quantitatively confirmed that ebony mutants exhibited increased aggressive behaviors such as boxing but also decreased courtship behaviors and increased sleep. Through tissue-specific knockdown, we found that ebony's role in these behaviors was specific to glia. Unexpectedly, direct measurement of amine neurotransmitters in ebony brains revealed that their levels were not increased but reduced. Thus, increased aggression is the anomalous behavior for this neurotransmitter profile. We further found that ebony mutants exhibited increased aggression only when fighting each other, not when fighting wild-type controls. Moreover, fights between ebony mutants were less likely to end with a clear winner than fights between controls or fights between ebony mutants and controls. In ebony vs. control fights, ebony mutants were more likely to win. Together, these results suggest that ebony mutants exhibit prolonged aggressive behavior only in a specific context, with an equally dominant opponent.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Amines",
+      "Catechol O-Methyltransferase",
+      "DNA-Binding Proteins/genetics",
+      "*Drosophila",
+      "Drosophila melanogaster/genetics",
+      "*Drosophila Proteins/genetics",
+      "Neuroglia"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pantalia, Meghan",
+        "Lin, Zhi",
+        "Tener, Samantha J",
+        "Qiao, Bing",
+        "Tang, Grace",
+        "Ulgherait, Matthew",
+        "O'Connor, Reed",
+        "Delventhal, Rebecca",
+        "Volpi, Julia",
+        "Syed, Sheyum",
+        "Itzhak, Nissim",
+        "Canman, Julie C",
+        "Fernandez, Maria Paz",
+        "Shirasu-Hiza, Mimi"
+      ],
+      "short_names": [
+        "Pantalia M",
+        "Lin Z",
+        "Tener SJ",
+        "Qiao B",
+        "Tang G",
+        "Ulgherait M",
+        "O'Connor R",
+        "Delventhal R",
+        "Volpi J",
+        "Syed S",
+        "Itzhak N",
+        "Canman JC",
+        "Fernandez MP",
+        "Shirasu-Hiza M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Department of Physics, University of Miami, Coral Gables, FL, 33146, USA.",
+        "Department of Neuroscience and Behavior, Barnard College, New York, NY, 10027, USA.",
+        "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Department of Biology, Lake Forest College, Lake Forest, IL, 60045, USA.",
+        "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Department of Physics, University of Miami, Coral Gables, FL, 33146, USA.",
+        "Division of Human Genetics and Metabolic Disease, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA.",
+        "Department of Pediatrics, Biochemistry and Biophysics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+        "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Department of Neuroscience and Behavior, Barnard College, New York, NY, 10027, USA.",
+        "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA. ms4095@cumc.columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pantalia, Meghan",
+        "short_name": "Pantalia M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Zhi",
+        "short_name": "Lin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Tener, Samantha J",
+        "short_name": "Tener SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Qiao, Bing",
+        "short_name": "Qiao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Miami, Coral Gables, FL, 33146, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Grace",
+        "short_name": "Tang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience and Behavior, Barnard College, New York, NY, 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Ulgherait, Matthew",
+        "short_name": "Ulgherait M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "O'Connor, Reed",
+        "short_name": "O'Connor R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Delventhal, Rebecca",
+        "short_name": "Delventhal R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Lake Forest College, Lake Forest, IL, 60045, USA."
+        ]
+      },
+      {
+        "full_name": "Volpi, Julia",
+        "short_name": "Volpi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Syed, Sheyum",
+        "short_name": "Syed S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Miami, Coral Gables, FL, 33146, USA."
+        ]
+      },
+      {
+        "full_name": "Itzhak, Nissim",
+        "short_name": "Itzhak N",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Human Genetics and Metabolic Disease, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA.",
+          "Department of Pediatrics, Biochemistry and Biophysics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Canman, Julie C",
+        "short_name": "Canman JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Fernández, María Paz",
+        "short_name": "Fernández MP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience and Behavior, Barnard College, New York, NY, 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Shirasu-Hiza, Mimi",
+        "short_name": "Shirasu-Hiza M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY, 10032, USA. ms4095@cumc.columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Jun 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/28 01:06",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "41705129",
+      "41576012",
+      "41459640",
+      "41192415",
+      "40094260",
+      "39953997",
+      "39489492",
+      "38948816",
+      "38686544"
+    ],
+    "refs": [
+      "38468774",
+      "36599005",
+      "35217995",
+      "35215325",
+      "35205345",
+      "33469118",
+      "33219682",
+      "31191248",
+      "31118901",
+      "30182322",
+      "29391183",
+      "29096245",
+      "28902472",
+      "28794482",
+      "28375770",
+      "27292538",
+      "27185554",
+      "27172211",
+      "26765065",
+      "26630958",
+      "26617493",
+      "26377467",
+      "26348714",
+      "26235423",
+      "24852170",
+      "23844178",
+      "23530210",
+      "23202433",
+      "23064381",
+      "23055498",
+      "22829591",
+      "22513455",
+      "22442379",
+      "21899504",
+      "21497088",
+      "21402125",
+      "21124886",
+      "20616023",
+      "20231905",
+      "20223202",
+      "19715698",
+      "19369499",
+      "18950546",
+      "18931318",
+      "18799671",
+      "18495888",
+      "18463263",
+      "18418249",
+      "18249112",
+      "18066061",
+      "17678856",
+      "17450142",
+      "17406282",
+      "17363250",
+      "16838372",
+      "16753559",
+      "16377000",
+      "16093388",
+      "15817751",
+      "15488546",
+      "15305167",
+      "15282997",
+      "15252809",
+      "15084281",
+      "14745823",
+      "12900414",
+      "12842306",
+      "12486147",
+      "12372653",
+      "12205712",
+      "11960020",
+      "11934851",
+      "10717001",
+      "10415365",
+      "9852943",
+      "8220304",
+      "5461263",
+      "4196594",
+      "3904924",
+      "2442380",
+      "1903161",
+      "1717657",
+      "103533"
+    ],
+    "similar": [
+      "37369755",
+      "17678856",
+      "24399135",
+      "25229196",
+      "17614896",
+      "23124681",
+      "12205712",
+      "18931318",
+      "12486147",
+      "15986380",
+      "11934851",
+      "31118901",
+      "1903161",
+      "17660557",
+      "36409783",
+      "26765065",
+      "103533",
+      "18069895",
+      "27793971",
+      "17678846",
+      "35100378",
+      "24025245",
+      "22049342",
+      "19012054",
+      "31064860",
+      "21914015",
+      "35437238",
+      "19033154",
+      "28710457",
+      "36067320",
+      "26503353",
+      "18815752",
+      "30705105",
+      "12900414",
+      "3923335",
+      "18762189",
+      "23086220",
+      "26115430",
+      "9852943",
+      "20439462",
+      "8220304",
+      "28754889",
+      "37035752",
+      "17614900",
+      "31258092",
+      "16189511",
+      "18989452",
+      "21466604",
+      "36636829",
+      "29697034",
+      "28360128",
+      "3921830",
+      "19010254",
+      "19519879",
+      "24550312",
+      "33568440",
+      "19041376",
+      "30158546",
+      "32097408",
+      "2283669",
+      "27108453",
+      "34462500",
+      "37019610",
+      "23727833",
+      "25921034",
+      "34225162",
+      "34884779",
+      "17154266",
+      "32299731",
+      "15302936",
+      "39255019",
+      "25017068",
+      "32955431",
+      "30042686",
+      "34962574",
+      "17928454",
+      "28115690",
+      "20520823",
+      "28879499",
+      "29339481",
+      "33871358",
+      "26630958",
+      "21322586",
+      "30858499",
+      "25116850",
+      "6133219",
+      "3111942",
+      "26377467",
+      "32305263",
+      "16176948",
+      "24923784",
+      "31748267",
+      "28851647",
+      "24704795",
+      "30683757",
+      "11206081",
+      "39311573",
+      "15817751",
+      "31085203"
+    ],
+    "review": [
+      "37369755",
+      "17678846",
+      "24025245",
+      "35437238",
+      "28360128",
+      "19010254",
+      "26630958",
+      "32305263",
+      "24704795"
+    ],
+    "pmc": [
+      "10300103"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=37369755",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-36558-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37369755/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37369755",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

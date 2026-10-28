@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "38986578",
+    "doi": "10.1101/gr.278638.123",
+    "title": "Accurate allocation of multimapped reads enables regulatory element analysis at repeats."
+  },
+  "content": {
+    "abstract": "Transposable elements (TEs) and other repetitive regions have been shown to contain gene regulatory elements, including transcription factor binding sites. However, regulatory elements harbored by repeats have proven difficult to characterize using short-read sequencing assays such as ChIP-seq or ATAC-seq. Most regulatory genomics analysis pipelines discard \"multimapped\" reads that align equally well to multiple genomic locations. Because multimapped reads arise predominantly from repeats, current analysis pipelines fail to detect a substantial portion of regulatory events that occur in repetitive regions. To address this shortcoming, we developed Allo, a new approach to allocate multimapped reads in an efficient, accurate, and user-friendly manner. Allo combines probabilistic mapping of multimapped reads with a convolutional neural network that recognizes the read distribution features of potential peaks, offering enhanced accuracy in multimapping read assignment. Allo also provides read-level output in the form of a corrected alignment file, making it compatible with existing regulatory genomics analysis pipelines and downstream peak-finders. In a demonstration application on CTCF ChIP-seq data, we show that Allo results in the discovery of thousands of new CTCF peaks. Many of these peaks contain the expected cognate motif and/or serve as TAD boundaries. We additionally apply Allo to a diverse collection of ENCODE ChIP-seq data sets, resulting in multiple previously unidentified interactions between transcription factors and repetitive element families. Finally, we show that Allo may be particularly beneficial in identifying ChIP-seq peaks at centromeres, near segmentally duplicated genes, and in younger TEs, enabling new regulatory analyses in these regions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin Immunoprecipitation Sequencing/methods",
+      "Regulatory Sequences, Nucleic Acid",
+      "Repetitive Sequences, Nucleic Acid",
+      "Genomics/methods",
+      "Binding Sites",
+      "CCCTC-Binding Factor/metabolism/genetics",
+      "Regulatory Elements, Transcriptional",
+      "DNA Transposable Elements",
+      "Sequence Analysis, DNA/methods",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morrissey, Alexis",
+        "Shi, Jeffrey",
+        "James, Daniela Q",
+        "Mahony, Shaun"
+      ],
+      "short_names": [
+        "Morrissey A",
+        "Shi J",
+        "James DQ",
+        "Mahony S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0480-0112",
+        "ORCID: 0009-0002-0796-4489",
+        "ORCID: 0000-0002-2641-1807"
+      ],
+      "affiliations": [
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, USA mahony@psu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morrissey, Alexis",
+        "short_name": "Morrissey A",
+        "identifiers": [
+          "0000-0003-0480-0112"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Jeffrey",
+        "short_name": "Shi J",
+        "identifiers": [
+          "0009-0002-0796-4489"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, USA."
+        ]
+      },
+      {
+        "full_name": "James, Daniela Q",
+        "short_name": "James DQ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Mahony, Shaun",
+        "short_name": "Mahony S",
+        "identifiers": [
+          "0000-0002-2641-1807"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, USA mahony@psu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2024 Jul 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/11 00:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "42523210",
+      "42336285",
+      "41648255",
+      "41316293",
+      "41290940",
+      "41279030",
+      "40662809",
+      "40340952",
+      "40328728",
+      "39677745"
+    ],
+    "refs": [
+      "38985845",
+      "37822080",
+      "37733848",
+      "37522386",
+      "37225426",
+      "37072400",
+      "36928138",
+      "36451223",
+      "36354145",
+      "36045400",
+      "35866989",
+      "35357917",
+      "35300412",
+      "35102319",
+      "34289124",
+      "34175897",
+      "34166368",
+      "34014468",
+      "33919233",
+      "33872311",
+      "33579945",
+      "33372131",
+      "32821156",
+      "32784923",
+      "32745185",
+      "32728249",
+      "32432114",
+      "32246826",
+      "32085783",
+      "32023130",
+      "31534521",
+      "31399135",
+      "31061680",
+      "30702424",
+      "30169659",
+      "30065069",
+      "30045748",
+      "29802231",
+      "29539636",
+      "29162985",
+      "28961735",
+      "28915787",
+      "28652130",
+      "28273063",
+      "28185579",
+      "27634932",
+      "27295177",
+      "27251284",
+      "27079975",
+      "26941318",
+      "26519503",
+      "26484757",
+      "26206304",
+      "25497547",
+      "25322836",
+      "25319995",
+      "25317556",
+      "23609044",
+      "22610855",
+      "22388286",
+      "22276185",
+      "22244452",
+      "21946353",
+      "21779159",
+      "21486936",
+      "21041622",
+      "20110278",
+      "19605420",
+      "19505943",
+      "19274634",
+      "19261174",
+      "18798982",
+      "8268924"
+    ],
+    "similar": [
+      "38986578",
+      "37745557",
+      "21779159",
+      "18684996",
+      "26484757",
+      "24966364",
+      "39127768",
+      "36451223",
+      "22035330",
+      "34292930",
+      "33872311",
+      "31138617",
+      "36449165",
+      "33191916",
+      "39738353",
+      "37751945",
+      "29126180",
+      "25727450",
+      "39487131",
+      "29802231",
+      "31285261",
+      "32213349",
+      "31752933",
+      "24428924",
+      "32822050",
+      "39326643",
+      "20625510",
+      "33878366",
+      "29561703",
+      "31942977",
+      "30064353",
+      "34245617",
+      "39558574",
+      "29579165",
+      "32404971",
+      "33097925",
+      "35858748",
+      "28789639",
+      "27526722",
+      "33801310",
+      "32014034",
+      "20693478",
+      "34313779",
+      "21486936",
+      "21750106",
+      "22863112",
+      "38735595",
+      "40662809",
+      "31750523",
+      "30395277",
+      "41518494",
+      "34563116",
+      "33606259",
+      "20827595",
+      "19159457",
+      "32085702",
+      "35410161",
+      "31910870",
+      "30626323",
+      "34382199",
+      "35639931",
+      "22115494",
+      "36124976",
+      "41527853",
+      "32988407",
+      "32543102",
+      "30474849",
+      "29949986",
+      "25228660",
+      "34383745",
+      "31653198",
+      "29748061",
+      "27924024",
+      "28764645",
+      "25128017",
+      "18485226",
+      "34772935",
+      "27161480",
+      "31141144",
+      "27519564",
+      "31664892",
+      "38397134",
+      "36895025",
+      "39745614",
+      "31533978",
+      "36698077",
+      "27557775",
+      "38749504",
+      "30943272",
+      "31036066",
+      "23883295",
+      "35090532",
+      "38254978",
+      "41454924",
+      "35359328",
+      "31629814",
+      "34585631",
+      "34387946",
+      "27103456",
+      "35195064"
+    ],
+    "review": [
+      "38986578",
+      "29579165",
+      "32014034"
+    ],
+    "pmc": [
+      "11293539"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38986578/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

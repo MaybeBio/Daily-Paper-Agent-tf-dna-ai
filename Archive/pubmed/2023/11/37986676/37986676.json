@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "37986676",
+    "doi": "10.1111/iwj.14481",
+    "title": "Machine learning and single-cell transcriptome profiling reveal regulation of fibroblast activation through THBS2/TGFbeta1/P-Smad2/3 signalling pathway in hypertrophic scar."
+  },
+  "content": {
+    "abstract": "Hypertrophic scar (HS) is a chronic inflammatory skin disorder characterized by excessive deposition of extracellular matrix, and the mechanisms underlying their formation remain poorly understood. We analysed scRNA-seq data from samples of normal skin and HS. Using the hdWGCNA method, key gene modules of fibroblasts in HS were identified. Non-negative matrix factorization was employed to perform subtype analysis of HS patients using these gene modules. Multiple machine learning algorithms were applied to screen and validate accurate gene signatures for identifying and predicting HS, and a convolutional neural network (CNN) based on deep learning was established and validated. Quantitative reverse transcription-polymerase chain reaction and western blotting were performed to measure mRNA and protein expression. Immunofluorescence was used for gene localization analysis, and biological features were assessed through CCK8 and wound healing assay. Single-cell sequencing revealed distinct subpopulations of fibroblasts in HS. HdWGCNA identified key gene characteristics of this population, and pseudotime analysis was conducted to investigate gene variation during fibroblast differentiation. By employing various machine learning algorithms, the gene range was narrowed down to three key genes. A CNN was trained using the expression of these key genes and immune cell infiltration, enabling diagnosis and prediction of HS. Functional experiments demonstrated that THBS2 is associated with fibroblast proliferation and migration in HS and affects the formation and development of HS through the TGFbeta1/P-Smad2/3 pathway. Our study identifies unique fibroblast subpopulations closely associated with HS and provides biomarkers for the diagnosis and treatment of HS.",
+    "keywords": [
+      "GEO",
+      "TGFbeta1/P-Smad2/3",
+      "fibroblast",
+      "hypertrophic scar",
+      "single cell"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cicatrix, Hypertrophic/genetics/metabolism",
+      "*Machine Learning",
+      "*Fibroblasts/metabolism",
+      "*Signal Transduction",
+      "*Transforming Growth Factor beta1/metabolism/genetics",
+      "*Gene Expression Profiling/methods",
+      "Smad2 Protein/metabolism/genetics",
+      "Smad3 Protein/metabolism/genetics",
+      "Thrombospondins/metabolism/genetics",
+      "Male",
+      "Female",
+      "Thrombospondin 2"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Binyu",
+        "Zhu, Yuhan",
+        "Zhao, Ying",
+        "Wang, Kai",
+        "Peng, Yixuan",
+        "Chen, Lin",
+        "Yu, Zhou",
+        "Song, Baoqiang"
+      ],
+      "short_names": [
+        "Song B",
+        "Zhu Y",
+        "Zhao Y",
+        "Wang K",
+        "Peng Y",
+        "Chen L",
+        "Yu Z",
+        "Song B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Anesthesiology and Perioperative Medicine, Xi'an People's Hospital (Xi'an Fourth Hospital), Northwest University, Xi'an, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "School of Basic Medicine, The Fourth Military Medical University, Xi'an, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China.",
+        "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Binyu",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yuhan",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ying",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology and Perioperative Medicine, Xi'an People's Hospital (Xi'an Fourth Hospital), Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yixuan",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, The Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lin",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhou",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Song, Baoqiang",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Xijing Hospital, Fourth Military Medical University, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International wound journal"
+    ],
+    "journal_abbrev": [
+      "Int Wound J"
+    ],
+    "pub_date": "2024 Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/21 06:42",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "42358997",
+      "41550717",
+      "41229415",
+      "41049267",
+      "40718702",
+      "40668661",
+      "40278926",
+      "39445224"
+    ],
+    "refs": [],
+    "similar": [
+      "37986676",
+      "31732152",
+      "30132849",
+      "26728998",
+      "37409114",
+      "32241049",
+      "32308208",
+      "28562226",
+      "31595443",
+      "34283938",
+      "25166894",
+      "25683490",
+      "26239419",
+      "33862115",
+      "36169254",
+      "38128289",
+      "37386691",
+      "28244647",
+      "24388384",
+      "29056521",
+      "26261683",
+      "31462299",
+      "29286129",
+      "34546211",
+      "26301336",
+      "31344427",
+      "10810039",
+      "32705254",
+      "29369907",
+      "18616749",
+      "16874413",
+      "31059039",
+      "31270945",
+      "21468608",
+      "33436666",
+      "16253118",
+      "36931410",
+      "32541451",
+      "28933518",
+      "30066995",
+      "23418473",
+      "27906099",
+      "37400988",
+      "31776823",
+      "37710417",
+      "28845525",
+      "31297660",
+      "27222384",
+      "38158493",
+      "33173952",
+      "27207585",
+      "31409891",
+      "32726570",
+      "24530597",
+      "38729323",
+      "28316163",
+      "39152325",
+      "28259900",
+      "28849177",
+      "28617563",
+      "22200683",
+      "33574910",
+      "30320350",
+      "18846334",
+      "33355167",
+      "33789737",
+      "30695033",
+      "21920670",
+      "21624123",
+      "11955370",
+      "28849050",
+      "30317545",
+      "39014455",
+      "26566963",
+      "27543459",
+      "26135051",
+      "30636861",
+      "29396549",
+      "15095275",
+      "17456374",
+      "33049375",
+      "38556162",
+      "26165845",
+      "34281492",
+      "19020994",
+      "33977869",
+      "15844596",
+      "20607798",
+      "28774593",
+      "30046895",
+      "19874315",
+      "27133042",
+      "27855376",
+      "20685750",
+      "17576240",
+      "21162785",
+      "27484727",
+      "33495826",
+      "36272879",
+      "30894415",
+      "31599435"
+    ],
+    "review": [
+      "37986676"
+    ],
+    "pmc": [
+      "10898374"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37986676.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37986676/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37986676",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/iwj.14481",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1186",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37986676",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

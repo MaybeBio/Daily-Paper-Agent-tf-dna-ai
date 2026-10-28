@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33684137",
+  "title": "MOSTWAS: Multi-Omic Strategies for Transcriptome-Wide Association Studies.",
+  "authors": "Bhattacharya, Arjun; Li, Yun; Love, Michael I",
+  "journal": "PLoS genetics",
+  "published_date": "2021-03-09",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出多组学TWAS策略，将转录因子作为中介生物标志物纳入基因表达预测模型，但核心是基因-性状关联统计推断，未涉及TF-DNA结合位点、互作界面或三维结构建模，仅间接相关。",
+  "abstract": "Traditional predictive models for transcriptome-wide association studies (TWAS) consider only single nucleotide polymorphisms (SNPs) local to genes of interest and perform parameter shrinkage with a regularization process. These approaches ignore the effect of distal-SNPs or other molecular effects underlying the SNP-gene association. Here, we outline multi-omics strategies for transcriptome imputation from germline genetics to allow more powerful testing of gene-trait associations by prioritizing distal-SNPs to the gene of interest. In one extension, we identify mediating biomarkers (CpG sites, microRNAs, and transcription factors) highly associated with gene expression and train predictive models for these mediators using their local SNPs. Imputed values for mediators are then incorporated into the final predictive model of gene expression, along with local SNPs. In the second extension, we assess distal-eQTLs (SNPs associated with genes not in a local window around it) for their mediation effect through mediating biomarkers local to these distal-eSNPs. Distal-eSNPs with large indirect mediation effects are then included in the transcriptomic prediction model with the local SNPs around the gene of interest. Using simulations and real data from ROS/MAP brain tissue and TCGA breast tumors, we show considerable gains of percent variance explained (1-2% additive increase) of gene expression and TWAS power to detect gene-trait associations. This integrative approach to transcriptome-wide imputation and association studies aids in identifying the complex interactions underlying genetic regulation within a tissue and important risk genes for various traits and disorders.",
+  "abstract_zh": "转录组全关联研究（TWAS）的传统预测模型仅考虑目标基因附近的单核苷酸多态性（SNPs），并通过正则化过程进行参数收缩。这些方法忽略了远端SNP或SNP-基因关联背后其他分子效应的影响。在此，我们概述了从种系遗传学进行转录组插补的多组学策略，通过优先考虑目标基因的远端SNP，以增强基因-性状关联检验的能力。在一种扩展中，我们识别与基因表达高度相关的介导生物标志物（CpG位点、microRNAs和转录因子），并利用其局部SNP训练这些介导物的预测模型。随后，将介导物的插补值纳入基因表达的最终预测模型，与局部SNP一起使用。在第二种扩展中，我们评估远端eQTL（与基因不在其局部窗口内的SNP）通过其局部介导生物标志物对介导效应的影响。具有较大间接介导效应的远端eSNP随后与目标基因周围的局部SNP一起纳入转录组预测模型。利用模拟数据和来自ROS/MAP脑组织及TCGA乳腺肿瘤的真实数据，我们展示了基因表达解释方差百分比（增加1-2%）和TWAS检测基因-性状关联能力的显著提升。这种整合性的转录组插补和关联研究方法有助于识别组织内遗传调控背后的复杂相互作用，以及各种性状和疾病的重要风险基因。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33684137/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33684137/",
+  "paper_page_path": "papers/pubmed/33684137/index.html"
+}

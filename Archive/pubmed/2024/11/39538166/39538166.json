@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "39538166",
+    "doi": "10.1186/s12885-024-13184-8",
+    "title": "Identifying immunohistochemical biomarkers panel for non-small cell lung cancer in optimizing treatment and forecasting efficacy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chemotherapy and immunotherapy for non-small-cell lung cancer (NSCLC) are gaining momentum. However, its long-term efficacy remains limited to only a small fraction of patients. Hence, it is crucial to identify reliable immunohistochemical biomarkers to facilitate the formulation of optimal treatment strategies and to predict therapeutic outcomes. METHODS: We retrospectively analyzed a cohort of 140 patients diagnosed with NSCLC who received chemotherapy or immunotherapy. Using bioinformatics analysis and machine learning techniques, we assessed the role of immunohistochemical biomarkers and clinical characteristics in developing a predictive model for treatment options and outcomes in this population. RESULTS: Our research has found that immunohistochemical biomarkers can accurately predict treatment regimens and progression-free survival in NSCLC patients with an accuracy rate of 82.1%. We identified an exclusive detection panel for the six vital biomarkers. Of particular note is the role of programmed cell death protein 1 ligand 1 (PD-L1) expression in guiding treatment selection, with high expression predicting better outcomes in the immunotherapy group at a cut-off value of 50%. Non-squamous patients who tested positive for thyroid transcription factor 1 had a longer median progression-free survival, while squamous patients who tested positive for p63 protein or cytokeratin 5/6 expression had a longer median progression-free survival. CONCLUSIONS: The results of our study are highly encouraging, as they revealed a significant correlation between immunohistochemical biomarkers, therapeutic regimens, and prognosis. These findings indicate that our immunohistochemical detection panel has great potential for facilitating customization of therapeutic regimens to improve patient care. The insights gained from this study could help clinicians optimize treatment protocols and ultimately enhance clinical outcomes.",
+    "keywords": [
+      "Immunohistochemical biomarkers",
+      "Machine learning",
+      "NSCLC",
+      "Prognostic prediction",
+      "Therapeutic decision-making"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/metabolism/pathology/therapy/drug therapy/mortality",
+      "*Biomarkers, Tumor/metabolism/analysis",
+      "*Lung Neoplasms/metabolism/pathology/therapy/mortality/drug therapy/diagnosis",
+      "Female",
+      "Male",
+      "Retrospective Studies",
+      "Middle Aged",
+      "Aged",
+      "*Immunohistochemistry",
+      "B7-H1 Antigen/metabolism/analysis",
+      "Immunotherapy/methods",
+      "Keratin-5/metabolism/analysis",
+      "Adult",
+      "Thyroid Nuclear Factor 1/metabolism",
+      "Prognosis",
+      "Keratin-6/metabolism/analysis",
+      "Progression-Free Survival",
+      "Treatment Outcome",
+      "Aged, 80 and over",
+      "Tumor Suppressor Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaoya",
+        "Meng, Junhong",
+        "Gao, Mingyue",
+        "Gong, Cheng",
+        "Peng, Cong",
+        "Liu, Duxian"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Meng J",
+        "Gao M",
+        "Gong C",
+        "Peng C",
+        "Liu D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China.",
+        "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China.",
+        "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China.",
+        "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China.",
+        "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China.",
+        "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China. ldx849756917@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaoya",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Junhong",
+        "short_name": "Meng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Mingyue",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Cheng",
+        "short_name": "Gong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Cong",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Duxian",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, No. 1-1 Zhongfu Road, Nanjing, Jiangsu, 210003, China. ldx849756917@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2024 Nov 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/14 17:30",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "41677996"
+    ],
+    "refs": [
+      "37854151",
+      "37801103",
+      "37760531",
+      "37753089",
+      "36909198",
+      "36872130",
+      "36669645",
+      "36528243",
+      "35489693",
+      "35020204",
+      "34233113",
+      "33690091",
+      "33580222",
+      "33538338",
+      "32919526",
+      "30955977",
+      "30519330",
+      "29700092",
+      "28625636",
+      "28529902",
+      "26388694",
+      "17264676",
+      "12210069"
+    ],
+    "similar": [
+      "39538166",
+      "39076994",
+      "31290993",
+      "33655698",
+      "39173231",
+      "31027705",
+      "28213003",
+      "31060602",
+      "31030326",
+      "33930176",
+      "31260834",
+      "38451413",
+      "33316104",
+      "39127923",
+      "38922219",
+      "27602763",
+      "20195168",
+      "38386588",
+      "27717372",
+      "25944390",
+      "28137741",
+      "29153898",
+      "28832075",
+      "33589532",
+      "31435660",
+      "28318951",
+      "33059196",
+      "39172188",
+      "39205582",
+      "34414673",
+      "20068475",
+      "31365588",
+      "31432460",
+      "39030820",
+      "29844002",
+      "30337185",
+      "32120230",
+      "39382668",
+      "30862891",
+      "31982822",
+      "31784866",
+      "33485052",
+      "26771872",
+      "34257548",
+      "39103762",
+      "33113005",
+      "32205040",
+      "32047958",
+      "39189250",
+      "30282880",
+      "33675792",
+      "26313362",
+      "23389362",
+      "31421259",
+      "31245924",
+      "31025831",
+      "33402127",
+      "38459590",
+      "32997907",
+      "38625495",
+      "32919305",
+      "29191596",
+      "31088500",
+      "38677737",
+      "35615798",
+      "29848682",
+      "38761777",
+      "15129904",
+      "39026109",
+      "34455737",
+      "20868593",
+      "33231726",
+      "33162330",
+      "28218046",
+      "34257540",
+      "27816392",
+      "29948239",
+      "32209185",
+      "33434603",
+      "31454748",
+      "31546072",
+      "38360040",
+      "34600514",
+      "29549910",
+      "30318514",
+      "32536910",
+      "33819965",
+      "27191652",
+      "39080372",
+      "31319996",
+      "38641349",
+      "32389509",
+      "32199806",
+      "32587591",
+      "30657853",
+      "28838391",
+      "30448912",
+      "38388716",
+      "29322798",
+      "33927719"
+    ],
+    "review": [
+      "39538166",
+      "31290993",
+      "33930176",
+      "33316104",
+      "29153898",
+      "31432460",
+      "31982822",
+      "38625495",
+      "29191596"
+    ],
+    "pmc": [
+      "11562332"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-024-13184-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39538166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

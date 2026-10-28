@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "42391245",
+    "doi": "10.1371/journal.pone.0351701",
+    "title": "Key molecular mechanisms of mitochondrial metabolic pathways in specific cell subpopulations of pancreatic cancer based on scRNA-seq and bulk RNA-seq."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pancreatic cancer (PC) is a highly malignant tumor with increasing incidence, mortality, and a low five-year survival rate. Mitochondrial metabolic reprogramming plays a crucial role in tumor development, but the molecular mechanisms in different cell subpopulations of PC remain unclear. This study aims to integrate single-cell RNA sequencing (scRNA-seq) and bulk RNA-seq to explore mitochondrial metabolism in PC. METHODS: Transcriptome datasets (GSE183795, GSE16515, GSE197177, and TCGA-PAAD) were downloaded from the GEO and TCGA databases. Differentially expressed genes (DEGs) were identified using the limma package for bulk RNA-seq and the Seurat package for scRNA-seq. Weighted gene co-expression network analysis (WGCNA) was performed to identify key modules and hub genes. Machine learning algorithms screened key genes, and functional enrichment analysis was conducted using clusterProfiler. PPI, ceRNA, and transcription factor networks explored gene regulation. Immune infiltration analysis, drug prediction, and molecular docking were conducted on key genes. The prognostic value of the key genes was evaluated using clinical data from TCGA. RESULTS: A total of 1238 bulk RNA-DEGs and 8231 scRNA-DEGs in fibroblasts were identified. Integration of both datasets revealed 536 DEGs. WGCNA identified 6 modules associated with PC. By intersecting DEGs, hub genes, and mitochondrial metabolism-related genes, 18 candidate genes were obtained. These genes were enriched in glucose metabolism and mitochondrial outer membrane pathways. Three key genes (IFI27, PKM, and RSAD2) were selected using machine learning. PPI, ceRNA, and transcription factor networks provided regulatory insights. Immune infiltration analysis showed significant differences in immune cells, particularly in T cells CD4 memory resting and macrophages M2. Drug prediction and molecular docking identified potential drugs for these genes. Survival analysis indicated that high expression of these genes correlated with poor prognosis. CONCLUSION: This study integrates scRNA-seq and bulk RNA-seq data to identify three key genes (IFI27, PKM, and RSAD2) and their immune-related mechanisms in PC. These findings offer new insights into the pathogenesis and potential therapeutic targets for PC.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Pancreatic Neoplasms/genetics/metabolism/pathology",
+      "Humans",
+      "*Mitochondria/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "RNA-Seq",
+      "*Metabolic Networks and Pathways/genetics",
+      "Gene Regulatory Networks",
+      "Single-Cell Gene Expression Analysis",
+      "Metabolic Reprogramming",
+      "Gene Expression Profiling",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jianping",
+        "Liu, Tao",
+        "Yang, Le",
+        "Hu, Yi",
+        "Luo, Chao",
+        "Wu, Dan",
+        "Yang, Xingjian"
+      ],
+      "short_names": [
+        "Liu J",
+        "Liu T",
+        "Yang L",
+        "Hu Y",
+        "Luo C",
+        "Wu D",
+        "Yang X"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-6153-0550"
+      ],
+      "affiliations": [
+        "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China.",
+        "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China.",
+        "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China.",
+        "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China.",
+        "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China.",
+        "Department of Operating Room, The First People's Hospital of Shuangliu District, Chengdu, China.",
+        "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jianping",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tao",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Le",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yi",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Chao",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Dan",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Operating Room, The First People's Hospital of Shuangliu District, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xingjian",
+        "short_name": "Yang X",
+        "identifiers": [
+          "0009-0002-6153-0550"
+        ],
+        "affiliations": [
+          "Department of General Surgery, The First People's Hospital of Shuangliu District, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/02 22:34",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39880485",
+      "39509857",
+      "39260322",
+      "39086974",
+      "39048054",
+      "38935134",
+      "38909344",
+      "38851859",
+      "38797735",
+      "38579725",
+      "38426109",
+      "38418892",
+      "38329688",
+      "38316215",
+      "38225236",
+      "37955534",
+      "37842307",
+      "37628967",
+      "37497113",
+      "37489138",
+      "37371705",
+      "37205920",
+      "37173948",
+      "37100646",
+      "36984785",
+      "36915111",
+      "36831413",
+      "36724556",
+      "36612058",
+      "36284087",
+      "36008214",
+      "35898377",
+      "35722954",
+      "35046623",
+      "34855109",
+      "34791021",
+      "34785086",
+      "34766124",
+      "34592906",
+      "34373744",
+      "34209703",
+      "33538338",
+      "33246091",
+      "33085799",
+      "32673537",
+      "32630674",
+      "32593337",
+      "31745071",
+      "31225658",
+      "29202516",
+      "28787741",
+      "28658650",
+      "28539161",
+      "23073625"
+    ],
+    "similar": [
+      "42391245",
+      "41388523",
+      "41591671",
+      "39221762",
+      "36973787",
+      "40764361",
+      "39384856",
+      "42120472",
+      "40711603",
+      "41006377",
+      "42471019",
+      "41960370",
+      "40503237",
+      "40948769",
+      "37063851",
+      "42292364",
+      "41832427",
+      "41601671",
+      "41235257",
+      "41559659",
+      "39067546",
+      "42295138",
+      "40225866",
+      "41436831",
+      "40141028",
+      "39026663",
+      "40936758",
+      "39814999",
+      "40328901",
+      "40313958",
+      "40296690",
+      "37629071",
+      "42195052",
+      "41810912",
+      "41716413",
+      "42387880",
+      "42263482",
+      "41107929",
+      "39926598",
+      "40963625",
+      "40589764",
+      "39893187",
+      "42158856",
+      "40532306",
+      "37684281",
+      "40330458",
+      "38947396",
+      "42236612",
+      "40386054",
+      "39923303",
+      "41704537",
+      "40205350",
+      "39762897",
+      "42123445",
+      "38795156",
+      "40216809",
+      "42469985",
+      "39182484",
+      "42392347",
+      "39726033",
+      "38023180",
+      "42358997",
+      "42265520",
+      "39110142",
+      "42059276",
+      "40977739",
+      "42024670",
+      "40681784",
+      "36061357",
+      "41031145",
+      "42516376",
+      "41052072",
+      "41733593",
+      "32327726",
+      "42580240",
+      "42361107",
+      "40761790",
+      "39917297",
+      "42266688",
+      "41840566",
+      "36474171",
+      "36967805",
+      "38343537",
+      "39358545",
+      "39697749",
+      "38594466",
+      "39945264",
+      "41816342",
+      "39799269",
+      "40666516",
+      "40766309",
+      "42530267",
+      "40771813",
+      "37942473",
+      "41766871",
+      "41535649",
+      "42136960",
+      "38656728",
+      "40895573",
+      "41326474"
+    ],
+    "review": [
+      "42391245"
+    ],
+    "pmc": [
+      "13327262"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0351701",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42391245/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3588",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

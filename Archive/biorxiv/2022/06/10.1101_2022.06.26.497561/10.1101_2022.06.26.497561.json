@@ -1,0 +1,816 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.26.497561",
+  "title": "Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes",
+  "doi": "10.1101/2022.06.26.497561",
+  "abstract": "CD4 + T cells orchestrate the adaptive immune response against pathogens and cancer by recognizing epitopes presented on MHC-II molecules. The high polymorphism of MHC-II genes represents an important hurdle towards accurate prediction and identification of CD4 + T-cell epitopes in different individuals and different species. Here we collected and curated a dataset of 627,013 unique MHC-II ligands identified by mass spectrometry. This enabled us to precisely determine the binding motifs of 88 MHC-II alleles across human, mouse, cattle and chicken. Analysis of these binding specificities combined with X-ray crystallography refined our understanding of the molecular determinants of MHC-II motifs and revealed a widespread reverse binding mode in MHC-II ligands. We then developed a machine learning framework to accurately predict binding specificities and ligands of any MHC-II allele. This tool improves and expands predictions of CD4 + T-cell epitopes, and enabled us to discover and characterize several viral and bacterial epitopes following the aforementioned reverse binding mode.",
+  "authors": [
+    "Julien Racle",
+    "Philippe Guillaume",
+    "Julien Schmidt",
+    "Justine Michaux",
+    "Amédé Larabi",
+    "Kelvin Lau",
+    "Marta A. S. Perez",
+    "Giancarlo Croce",
+    "Raphaël Genolet",
+    "George Coukos",
+    "Vincent Zoete",
+    "Florence Pojer",
+    "Michal Bassani-Sternberg",
+    "Alexandre Harari",
+    "David Gfeller"
+  ],
+  "published_date": "2022-06-29",
+  "updated_date": "2022-06-29T08:45:19Z",
+  "journal": "bioRxiv",
+  "category": "Immunology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.26.497561",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.26.497561.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Immunology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Immunology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T23:50:22Z",
+        "timestamp": 1787010622577,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "group-title": "Immunology",
+      "reference-count": 76,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  CD4\n                  <jats:sup>+</jats:sup>\n                  T cells orchestrate the adaptive immune response against pathogens and cancer by recognizing epitopes presented on MHC-II molecules. The high polymorphism of MHC-II genes represents an important hurdle towards accurate prediction and identification of CD4\n                  <jats:sup>+</jats:sup>\n                  T-cell epitopes in different individuals and different species. Here we collected and curated a dataset of 627,013 unique MHC-II ligands identified by mass spectrometry. This enabled us to precisely determine the binding motifs of 88 MHC-II alleles across human, mouse, cattle and chicken. Analysis of these binding specificities combined with X-ray crystallography refined our understanding of the molecular determinants of MHC-II motifs and revealed a widespread reverse binding mode in MHC-II ligands. We then developed a machine learning framework to accurately predict binding specificities and ligands of any MHC-II allele. This tool improves and expands predictions of CD4\n                  <jats:sup>+</jats:sup>\n                  T-cell epitopes, and enabled us to discover and characterize several viral and bacterial epitopes following the aforementioned reverse binding mode.\n                </jats:p>",
+      "DOI": "10.1101/2022.06.26.497561",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2022-06-29T08:45:19Z",
+        "timestamp": 1656492319000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "title": [
+        "Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0100-0323",
+          "authenticated-orcid": false,
+          "given": "Julien",
+          "family": "Racle",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Philippe",
+          "family": "Guillaume",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julien",
+          "family": "Schmidt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justine",
+          "family": "Michaux",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amédé",
+          "family": "Larabi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kelvin",
+          "family": "Lau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marta A. S.",
+          "family": "Perez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Giancarlo",
+          "family": "Croce",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Raphaël",
+          "family": "Genolet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "George",
+          "family": "Coukos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vincent",
+          "family": "Zoete",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Florence",
+          "family": "Pojer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michal",
+          "family": "Bassani-Sternberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandre",
+          "family": "Harari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3952-0930",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Gfeller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.IMMUNI.2019.08.012"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.1007/s00251-019-01145-6",
+          "article-title": "A potential nomenclature for the Immuno Polymorphism Database (IPD) of chicken MHC genes: progress and problems",
+          "volume": "72",
+          "year": "2020",
+          "journal-title": "Immunogenetics"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1671-8"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.2000192"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "84",
+          "DOI": "10.1186/s13073-018-0594-6",
+          "article-title": "Footprints of antigen processing boost MHC class II natural ligand predictions",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Genome Med"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00251-014-0819-9"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb1203-980"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri2671"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv494"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41577-018-0044-0"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cassotta, A. , Paparoditis, P. , Geiger, R. , Mettu, R.R. , Landry, S.J. , Donati, A. , Benevento, M. , Foglierini, M. , Lewis, D.J.M. , Lanzavecchia, A. , et al. (2020). Deciphering and predicting CD4+ T cell immunodominance of influenza virus hemagglutinin. J. Exp. Med. 217.",
+          "DOI": "10.1084/jem.20200206"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, B. , Khodadoust, M.S. , Olsson, N. , Wagar, L.E. , Fast, E. , Liu, C.L. , Muftuoglu, Y. , Sworder, B.J. , Diehn, M. , Levy, R. , et al. (2019). Predicting HLA class II antigen presentation through integrated deep learning. Nat. Biotechnol. 1–12.",
+          "DOI": "10.1038/s41587-019-0280-2"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1189/jlb.6HI0216-069R"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M115.655738"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/eji.201243280"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/imr.12666"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1511"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz984"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "674",
+          "DOI": "10.1016/j.ccell.2020.03.016",
+          "article-title": "Cathepsin S Regulates Antigen Processing and T Cell Activity in Non-Hodgkin Lymphoma",
+          "volume": "37",
+          "year": "2020",
+          "journal-title": "Cancer Cell"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/emmm.201708123"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.1.207"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444904019158"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00167084"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fisch, A. , Reynisson, B. , Benedictus, L. , Nicastri, A. , Vasoya, D. , Morrison, I. , Buus, S. , Ferreira, B.R. , Santos, I.K.F. de M. , Ternette, N. , et al. (2021). Integral Use of Immunopeptidomics and Immunoinformatics for the Characterization of Antigen Presentation and Rational Identification of BoLA-DR–Presented Peptides and Epitopes. J. Immunol.",
+          "DOI": "10.1101/2020.12.14.422738"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Forlani, G. , Michaux, J. , Pak, H. , Huber, F. , Joseph, E.L.M. , Ramia, E. , Stevenson, B.J. , Linnebacher, M. , Accolla, R. , and Bassani-Sternberg, M . (2020). CIITA-transduced glioblastoma cells uncover a rich repertoire of clinically relevant tumor-associated HLA-II antigens. Mol. Cell. Proteomics.",
+          "DOI": "10.1074/mcp.RA120.002201"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "445",
+          "DOI": "10.1007/s00251-019-01122-z",
+          "article-title": "Improved peptide-MHC class II interaction prediction through integration of eluted ligand and peptide affinity data",
+          "volume": "71",
+          "year": "2019",
+          "journal-title": "Immunogenetics"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Goncalves, G. , Mullan, K.A. , Duscharla, D. , Ayala, R. , Croft, N.P. , Faridi, P. , and Purcell, A.W . (2021). IFNγ Modulates the Immunopeptidome of Triple Negative Breast Cancer Cells by Enhancing and Diversifying Antigen Processing and Presentation. Front. Immunol. 12.",
+          "DOI": "10.3389/fimmu.2021.645770"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "271",
+          "DOI": "10.3390/vaccines8020271",
+          "article-title": "Deciphering the Mechanisms of Improved Immunogenicity of Hypochlorous Acid-Treated Antigens in Anti-Cancer Dendritic Cell-Based Vaccines",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "Vaccines"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00251-011-0513-0"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1014708107"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "e3001057",
+          "DOI": "10.1371/journal.pbio.3001057",
+          "article-title": "The dominantly expressed class II molecule from a resistant MHC haplotype presents only a few Marek’s disease virus peptides by using an unprecedented binding motif",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "PLOS Biol"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.22.10915"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Holland, C.J. , Cole, D.K. , and Godkin, A . (2013). Re-Directing CD4+ T Cell Responses with the Flanking Residues of MHC Class II-Bound Peptides: The Core is Not Enough. Front. Immunol. 4.",
+          "DOI": "10.3389/fimmu.2013.00172"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hu, Z. , Leet, D.E. , Allesøe, R.L. , Oliveira, G. , Li, S. , Luoma, A.M. , Liu, J. , Forman, J. , Huang, T. , Iorgulescu, J.B. , et al. (2021). Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma. Nat. Med. 1–11.",
+          "DOI": "10.1038/s41591-020-01206-4"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444909047337"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kalaora, S. , Nagler, A. , Nejman, D. , Alon, M. , Barbolin, C. , Barnea, E. , Ketelaars, S.L.C. , Cheng, K. , Vervier, K. , Shental, N. , et al. (2021). Identification of bacteria-derived HLA-bound peptides in melanoma. Nature 1–6.",
+          "DOI": "10.1038/s41586-021-03368-8"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature21433"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Laghmouchi, A. , Kester, M.G.D. , Hoogstraten, C. , Hageman, L. , de Klerk, W. , Huisman, W. , Koster, E.A.S. , de Ru, A.H. , van Balen, P. , Klobuch, S. , et al. (2022). Promiscuity of Peptides Presented in HLA-DP Molecules from Different Immunogenicity Groups Is Associated With T-Cell Cross-Reactivity. Front. Immunol. 13.",
+          "DOI": "10.3389/fimmu.2022.831822"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "861",
+          "DOI": "10.1107/S2059798319011471",
+          "article-title": "Macromolecular structure determination using X-rays, neutrons and electrons: recent developments in Phenix",
+          "volume": "75",
+          "year": "2019",
+          "journal-title": "Acta Crystallogr. Sect. Struct. Biol"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1050"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/jitc-2020-002071"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Marino, F. , Semilietof, A. , Michaux, J. , Pak, H.-S. , Coukos, G. , Müller, M. , and Bassani-Sternberg, M . (2020). Biogenesis of HLA Ligand Presentation in Immune Cells Upon Activation Reveals Changes in Peptide Length Preference. Front. Immunol. 11.",
+          "DOI": "10.3389/fimmu.2020.01981"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "923",
+          "DOI": "10.1182/blood.2020008464",
+          "article-title": "Permissive HLA-DPB1 mismatches in HCT depend on immunopeptidome divergence and editing by HLA-DM",
+          "volume": "137",
+          "year": "2021",
+          "journal-title": "Blood"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri3084"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1316438",
+          "DOI": "10.1080/2162402X.2017.1316438",
+          "article-title": "HLA ligandome analysis of primary chronic lymphocytic leukemia (CLL) cells under lenalidomide treatment confirms the suitability of lenalidomide for combination with T-cell-based immunotherapy",
+          "volume": "7",
+          "year": "2018",
+          "journal-title": "OncoImmunology"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40425-019-0769-8"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth100"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22329"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22991"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Paul, S. , Karosiene, E. , Dhanda, S.K. , Jurtz, V. , Edwards, L. , Nielsen, M. , Sette, A. , and Peters, B . (2018). Determination of a Predictive Cleavage Motif for Eluted Major Histocompatibility Complex Class II Ligands. Front. Immunol. 9.",
+          "DOI": "10.3389/fimmu.2018.01795"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "D543",
+          "DOI": "10.1093/nar/gkab1038",
+          "article-title": "The PRIDE database resources in 2022: a hub for mass spectrometry-based proteomics evidences",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0289-6"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "2000160",
+          "DOI": "10.1002/pmic.202000160",
+          "article-title": "HLA class II immunopeptidomics reveals that co-inherited HLA-allotypes within an extended haplotype can improve proteome coverage for immunosurveillance",
+          "volume": "21",
+          "year": "2021",
+          "journal-title": "PROTEOMICS"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACS.JPROTEOME.9B00874"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1700246",
+          "DOI": "10.1002/pmic.201700246",
+          "article-title": "Membranal and Blood-Soluble HLA Class II Peptidome Analyses Using Data-Dependent and Independent Acquisition",
+          "volume": "18",
+          "year": "2018",
+          "journal-title": "PROTEOMICS"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz950"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1000"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature23003"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2012.07.008"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri1149"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/2326-6066.CIR-19-0464"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2960"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2011.75"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1002/eji.201545930",
+          "article-title": "High-resolution analysis of the murine MHC class II immunopeptidome",
+          "volume": "46",
+          "year": "2016",
+          "journal-title": "Eur. J. Immunol"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1100"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA117.001013"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1251102"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-immunol-041015-055420"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1006"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx469"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wan, X. , Vomund, A.N. , Peterson, O.J. , Chervonsky, A.V. , Lichti, C.F. , and Unanue, E.R . (2020). The MHC-II peptidome of pancreatic islets identifies key features of autoimmune peptides. Nat. Immunol. 1–9.",
+          "DOI": "10.1038/s41590-020-0623-7"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "122",
+          "DOI": "10.1021/acs.jproteome.6b00386",
+          "article-title": "Immunogenic HLA-DR-Presented Self-Peptides Identified Directly from Clinical Samples of Synovial Tissue, Synovial Fluid, or Peripheral Blood in Patients with Rheumatoid Arthritis or Lyme Arthritis",
+          "volume": "16",
+          "year": "2017",
+          "journal-title": "J. Proteome Res"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.75",
+          "first-page": "5.6.1",
+          "article-title": "Comparative Protein Structure Modeling Using MODELLER",
+          "volume": "54",
+          "year": "2016",
+          "journal-title": "Curr. Protoc. Bioinforma"
+        },
+        {
+          "key": "2022063012000746000_2022.06.26.497561v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-018-0040-8"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.26.497561",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:16:43Z",
+        "timestamp": 1768447003000
+      },
+      "score": 65.85526,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.26.497561"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 76,
+      "URL": "https://doi.org/10.1101/2022.06.26.497561",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.immuni.2023.03.009",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

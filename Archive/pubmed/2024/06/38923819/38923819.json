@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "38923819",
+    "doi": "10.1002/cmdc.202400298",
+    "title": "In Silico Prediction of ERRalpha Agonists Based on Combined Features and Stacking Ensemble Method."
+  },
+  "content": {
+    "abstract": "Estrogen-related receptor alpha (ERRalpha) is considered a very promising target for treating metabolic diseases such as type 2 diabetes. Development of a prediction model to quickly identify potential ERRalpha agonists can significantly reduce the time spent on virtual screening. In this study, 298 ERRalpha agonists and numerous nonagonists were collected from various sources to build a new dataset of ERRalpha agonists. Then a total of 90 models were built using a combination of different algorithms, molecular characterization methods, and data sampling techniques. The consensus model with optimal performance was also validated on the test set (AUC=0.876, BA=0.816) and external validation set (AUC=0.867, BA=0.777) based on five selected baseline models. Furthermore, the model's applicability domain and privileged substructures were examined, and the feature importance was analyzed using the SHAP method to help interpret the model. Based on the above, it's hoped that our publicly accessible data, models, codes, and analytical techniques will prove valuable in quick screening and rational designing more novel and potent ERRalpha agonists.",
+    "keywords": [
+      "Combined features",
+      "ERRalpha agonists",
+      "Machine learning",
+      "Stacking ensemble method",
+      "Type 2 diabetes"
+    ],
+    "mesh_terms": [
+      "*ERRalpha Estrogen-Related Receptor",
+      "*Receptors, Estrogen/metabolism/antagonists & inhibitors/chemistry",
+      "Humans",
+      "Algorithms",
+      "Computer Simulation",
+      "Molecular Structure"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Jiahao",
+        "Huang, Zejun",
+        "Duan, Hao",
+        "Li, Weihua",
+        "Zhuang, Jingyan",
+        "Xiong, Le",
+        "Tang, Yun",
+        "Liu, Guixia"
+      ],
+      "short_names": [
+        "Xu J",
+        "Huang Z",
+        "Duan H",
+        "Li W",
+        "Zhuang J",
+        "Xiong L",
+        "Tang Y",
+        "Liu G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9648-844X"
+      ],
+      "affiliations": [
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Jiahao",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zejun",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Hao",
+        "short_name": "Duan H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weihua",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Jingyan",
+        "short_name": "Zhuang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Le",
+        "short_name": "Xiong L",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yun",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guixia",
+        "short_name": "Liu G",
+        "identifiers": [
+          "0000-0001-9648-844X"
+        ],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, Shanghai Key Laboratory of New Drug Design, School of Pharmacy, East China University of Science and Technology, Shanghai, 200237, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ChemMedChem"
+    ],
+    "journal_abbrev": [
+      "ChemMedChem"
+    ],
+    "pub_date": "2024 Oct 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/26 18:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38923819",
+      "35041411",
+      "30811808",
+      "29216352",
+      "11381083",
+      "37340939",
+      "31498028",
+      "28346099",
+      "36988910",
+      "33918423",
+      "14638870",
+      "33042259",
+      "20211987",
+      "38439097",
+      "32683181",
+      "37190810",
+      "32030850",
+      "23707773",
+      "20497091",
+      "38393411",
+      "33788962",
+      "19462000",
+      "15337744",
+      "23874451",
+      "38129506",
+      "20668045",
+      "33894178",
+      "38867189",
+      "18441008",
+      "18052088",
+      "33591949",
+      "18234909",
+      "39386877",
+      "38631478",
+      "27776343",
+      "22723937",
+      "34894977",
+      "37802398",
+      "37163498",
+      "16150865",
+      "38537884",
+      "15184675",
+      "35498853",
+      "22565152",
+      "20513360",
+      "39168099",
+      "28525844",
+      "20351196",
+      "39183018",
+      "31907393",
+      "38269284",
+      "22333182",
+      "28348226",
+      "19429439",
+      "21562305",
+      "17556356",
+      "31856726",
+      "30977157",
+      "15456881",
+      "39450559",
+      "33450359",
+      "21506092",
+      "34857774",
+      "16515477",
+      "18331830",
+      "26037200",
+      "20400511",
+      "37023416",
+      "33197888",
+      "21546870",
+      "28213288",
+      "39231208",
+      "17157980",
+      "38072894",
+      "24419103",
+      "19622763",
+      "15231680",
+      "34233019",
+      "18174157",
+      "30462217",
+      "20215575",
+      "21825219",
+      "38194778",
+      "38048895",
+      "26446880",
+      "25643697",
+      "38732013",
+      "19186820",
+      "27498368",
+      "22014575",
+      "23720198",
+      "30818834",
+      "23836899",
+      "23525223",
+      "38759053",
+      "25907793",
+      "26160845",
+      "16024613",
+      "12522104",
+      "32468161"
+    ],
+    "review": [
+      "38923819",
+      "37190810",
+      "20497091",
+      "38129506",
+      "27776343",
+      "16515477",
+      "26037200",
+      "26446880"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/cmdc.202400298",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

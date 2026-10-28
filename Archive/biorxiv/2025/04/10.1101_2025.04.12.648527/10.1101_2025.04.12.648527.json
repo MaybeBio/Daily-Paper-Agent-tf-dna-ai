@@ -1,0 +1,423 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.12.648527",
+  "title": "MPBind: Multitask Protein Binding Site Prediction by Protein Language Models and Equivariant Graph Neural Networks",
+  "doi": "10.1101/2025.04.12.648527",
+  "abstract": "Proteins interact with a variety of molecules, including other proteins, DNAs, RNAs, ligands, ions, and lipids. These interactions play a crucial role in cellular communication, metabolic regulation, immune response, and structural integrity, making proteins fundamental to nearly all biological functions. Accurately predicting protein binding (interaction) sites is essential for understanding protein interactions and functions. Here, we introduce MPBind, a multitask protein binding site prediction method, which integrates protein language models (PLMs) that can extract structural and functional information from sequences and equivariant graph neural networks (EGNNs) that can effectively capture geometric features of 3D protein structures. Through multitask learning, it can predict binding sites on proteins that interact with five key categories of binding partners: proteins, DNA/RNA, ligands, lipids, and ions, which is more comprehensive than most existing task-specific methods that can predict only one or a few kinds of binding sites. Moreover, MPBind outperforms both general bind site prediction methods and task-specific binding site prediction methods.",
+  "authors": [
+    "Yanli Wang",
+    "Frimpong Boadu",
+    "Jianlin Cheng"
+  ],
+  "published_date": "2025-04-18",
+  "updated_date": "2025-04-21T11:05:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.12.648527",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.12.648527.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            26
+          ]
+        ],
+        "date-time": "2026-03-26T00:10:26Z",
+        "timestamp": 1774483826807,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            18
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 40,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                18
+              ]
+            ],
+            "date-time": "2025-04-18T00:00:00Z",
+            "timestamp": 1744934400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Proteins interact with a variety of molecules, including other proteins, DNAs, RNAs, ligands, ions, and lipids. These interactions play a crucial role in cellular communication, metabolic regulation, immune response, and structural integrity, making proteins fundamental to nearly all biological functions. Accurately predicting protein binding (interaction) sites is essential for understanding protein interactions and functions. Here, we introduce MPBind, a multitask protein binding site prediction method, which integrates protein language models (PLMs) that can extract structural and functional information from sequences and equivariant graph neural networks (EGNNs) that can effectively capture geometric features of 3D protein structures. Through multitask learning, it can predict binding sites on proteins that interact with five key categories of binding partners: proteins, DNA/RNA, ligands, lipids, and ions, which is more comprehensive than most existing task-specific methods that can predict only one or a few kinds of binding sites. Moreover, MPBind outperforms both general bind site prediction methods and task-specific binding site prediction methods.</jats:p>",
+      "DOI": "10.1101/2025.04.12.648527",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            21
+          ]
+        ],
+        "date-time": "2025-04-21T11:05:16Z",
+        "timestamp": 1745233516000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "MPBind: Multitask Protein Binding Site Prediction by Protein Language Models and Equivariant Graph Neural Networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7864-826X",
+          "authenticated-orcid": false,
+          "given": "Yanli",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Frimpong",
+          "family": "Boadu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0305-2853",
+          "authenticated-orcid": false,
+          "given": "Jianlin",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.200200558"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cmdc.201500495."
+        },
+        {
+          "issue": "5",
+          "key": "2025043020081734000_2025.04.12.648527v1.3",
+          "first-page": "798",
+          "article-title": "Protein–protein interactions: detection, reliability assessment and applications",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "Briefings in bioinformatics"
+        },
+        {
+          "issue": "Suppl_2",
+          "key": "2025043020081734000_2025.04.12.648527v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "S249",
+          "DOI": "10.1093/bioinformatics/18.suppl_2.S249",
+          "article-title": "Principles of protein-protein interactions",
+          "volume": "18",
+          "year": "2002",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/database/baae012"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2020.02.008"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbx022"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c00481"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00740"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-37701-8"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.12",
+          "unstructured": "Wei, Z. , et al. EquiPocket: an E (3)-Equivariant Geometric Graph Neural Network for Ligand Binding Site Prediction. in Forty-first International Conference on Machine Learning."
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.13",
+          "unstructured": "Stärk, H. , et al. Equibind: Geometric deep learning for drug binding structure prediction. in International conference on machine learning. 2022. PMLR."
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01490-7"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae488"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab044"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.93695"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab564"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.23",
+          "first-page": "500902",
+          "article-title": "Language models of protein sequences at the scale of evolution enable accurate structure prediction",
+          "volume": "2022",
+          "year": "2022",
+          "journal-title": "BioRxiv"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nargab/lqae150"
+        },
+        {
+          "issue": "10",
+          "key": "2025043020081734000_2025.04.12.648527v1.26",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.27",
+          "unstructured": "Satorras, V.G. , E. Hoogeboom , and M. Welling . E (n) equivariant graph neural networks. in International conference on machine learning. 2021. PMLR."
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1011435"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl971"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAD1011"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        },
+        {
+          "issue": "12",
+          "key": "2025043020081734000_2025.04.12.648527v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "2577",
+          "DOI": "10.1002/bip.360221211",
+          "article-title": "Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features",
+          "volume": "22",
+          "year": "1983",
+          "journal-title": "Biopolymers: Original Research on Biomolecules"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1028"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.35",
+          "unstructured": "Du, W. , et al. SE (3) equivariant graph neural networks with complete local frames. in International Conference on Machine Learning. 2022. PMLR."
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nargab/lqaf027"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac444"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biom13071081"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-05933-9"
+        },
+        {
+          "key": "2025043020081734000_2025.04.12.648527v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0162143"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.04.12.648527",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T08:30:32Z",
+        "timestamp": 1768465832000
+      },
+      "score": 163.51869,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.04.12.648527"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            18
+          ]
+        ]
+      },
+      "references-count": 40,
+      "URL": "https://doi.org/10.1101/2025.04.12.648527",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

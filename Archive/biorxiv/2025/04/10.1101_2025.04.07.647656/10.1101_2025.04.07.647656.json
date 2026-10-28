@@ -1,0 +1,360 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.07.647656",
+  "title": "Shift augmentation improves DNA convolutional neural network indel effect predictions",
+  "doi": "10.1101/2025.04.07.647656",
+  "abstract": "Determining genetic variant effects on molecular phenotypes like gene expression is a task of paramount importance to medical genetics. DNA convolutional neural networks (CNNs) attain state-of-the-art performance at predicting variant effects on gene regulation. However, most applications of such models focus on single nucleotide polymorphisms (SNPs), as technical challenges limit their application to insertions and deletions (indels). Sequence shifts from indels introduce technical variance in deep CNNs through misalignment of pooling blocks and output boundaries, creating artificially inflated variant effect scores compared to SNPs and confounding their interpretation. In this work, we demonstrate this technical variance in model predictions and present two strategies based on data augmentation with sequence shifts that reduce it. Applied to the state-of-the-art Borzoi model, our stitching approach improves indel eQTL classification accuracy across GTEx tissues. Furthermore, we demonstrate these techniques and observe compelling eQTL concordance for larger structural variants and tandem repeats. We additionally introduce in silico deletion (ISD) as an interpretation technique and validate it using MPRA data, demonstrating concordance between predicted and experimental measurements for deletion effects. Our strategies expand the utility of regulatory sequence machine learning for studying the full spectrum of noncoding genetic variation in human development and disease.",
+  "authors": [
+    "Anya Korsakova",
+    "Divyanshi Srivastava",
+    "David R Kelley"
+  ],
+  "published_date": "2025-04-11",
+  "updated_date": "2025-04-12T01:20:11Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.07.647656",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.07.647656.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T11:39:16Z",
+        "timestamp": 1790249956059,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            11
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 27,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                11
+              ]
+            ],
+            "date-time": "2025-04-11T00:00:00Z",
+            "timestamp": 1744329600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Determining genetic variant effects on molecular phenotypes like gene expression is a task of paramount importance to medical genetics. DNA convolutional neural networks (CNNs) attain state-of-the-art performance at predicting variant effects on gene regulation. However, most applications of such models focus on single nucleotide polymorphisms (SNPs), as technical challenges limit their application to insertions and deletions (indels). Sequence shifts from indels introduce technical variance in deep CNNs through misalignment of pooling blocks and output boundaries, creating artificially inflated variant effect scores compared to SNPs and confounding their interpretation. In this work, we demonstrate this technical variance in model predictions and present two strategies based on data augmentation with sequence shifts that reduce it. Applied to the state-of-the-art Borzoi model, our stitching approach improves indel eQTL classification accuracy across GTEx tissues. Furthermore, we demonstrate these techniques and observe compelling eQTL concordance for larger structural variants and tandem repeats. We additionally introduce\n                  <jats:italic>in silico</jats:italic>\n                  deletion (ISD) as an interpretation technique and validate it using MPRA data, demonstrating concordance between predicted and experimental measurements for deletion effects. Our strategies expand the utility of regulatory sequence machine learning for studying the full spectrum of noncoding genetic variation in human development and disease.\n                </jats:p>",
+      "DOI": "10.1101/2025.04.07.647656",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2025-04-12T01:20:11Z",
+        "timestamp": 1744420811000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Shift augmentation improves DNA convolutional neural network indel effect predictions"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6499-3692",
+          "authenticated-orcid": false,
+          "given": "Anya",
+          "family": "Korsakova",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Calico Life Sciences, South San Francisco, CA 94080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6580-6166",
+          "authenticated-orcid": false,
+          "given": "Divyanshi",
+          "family": "Srivastava",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Calico Life Sciences, South San Francisco, CA 94080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7782-3548",
+          "authenticated-orcid": false,
+          "given": "David R",
+          "family": "Kelley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Calico Life Sciences, South San Francisco, CA 94080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Johannes Linder , Divyanshi Srivastava , Han Yuan , Vikram Agarwal , and David R. Kelley . Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation. Nat. Genet., pages 1–13, January 2025.",
+          "DOI": "10.1038/s41588-024-02053-6"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CELL.2018.12.015"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-022-02601-5"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-022-02601-5"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.6",
+          "unstructured": "Adam Y. He and Charles G. Danko . Dissection of core promoter syntax through single nucleotide resolution modeling of transcription initiation. bioRxiv, page 2024.03.13.583868, April 2024."
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kelly Cochran , Melody Yin , Anika Mantripragada , Jacob Schreiber , Georgi K. Marinov , and Anshul Kundaje . Dissecting the cis-regulatory syntax of transcription initiation with deep learning. bioRxiv, page 2024.05.28.596138, June 2024.",
+          "DOI": "10.1101/2024.05.28.596138"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kseniia Dudnyk , Donghong Cai , Chenlai Shi , Jian Xu , and Jian Zhou . Sequence basis of transcription initiation in the human genome. Science, 384(6694), April 2024.",
+          "DOI": "10.1126/science.adj0116"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-022-02811-x"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-022-01102-2"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41588-021-00782-6"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-020-0958-x"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-022-01065-4"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0420-0"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tabassum Fabiha , Ivy Evergreen , Soumya Kundu , Anusri Pampari , Sergey Abramov , Alexandr Boytsov , Kari Strouse , Katherine Dura , Weixiang Fang , Gaspard Kerner , et al. A consensus variant-to-function score to functionally prioritize variants for disease. bioRxiv, 2024.",
+          "DOI": "10.1101/2024.11.07.622307"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07050-7"
+        },
+        {
+          "issue": "1",
+          "key": "2026041203562547000_2025.04.07.647656v1.17",
+          "first-page": "112",
+          "article-title": "Relative impact of indels versus SNPs on complex disease",
+          "volume": "43",
+          "year": "2018",
+          "journal-title": "Genet. Epidemiol"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1204045"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11302-017-9570-7"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.200535.115"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01753-3"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-27838-9"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0521-9"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09078-0"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0140-0"
+        },
+        {
+          "key": "2026041203562547000_2025.04.07.647656v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23134-8"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.04.07.647656",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T10:56:33Z",
+        "timestamp": 1775991393000
+      },
+      "score": 106.55065,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.04.07.647656"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            11
+          ]
+        ]
+      },
+      "references-count": 27,
+      "URL": "https://doi.org/10.1101/2025.04.07.647656",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

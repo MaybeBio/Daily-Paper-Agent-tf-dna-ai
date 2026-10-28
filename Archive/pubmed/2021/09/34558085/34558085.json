@@ -1,0 +1,625 @@
+{
+  "identity": {
+    "pmid": "34558085",
+    "doi": "10.15252/embj.2020107277",
+    "title": "Developmental programming and lineage branching of early human telencephalon."
+  },
+  "content": {
+    "abstract": "The dorsal and ventral human telencephalons contain different neuronal subtypes, including glutamatergic, GABAergic, and cholinergic neurons, and how these neurons are generated during early development is not well understood. Using scRNA-seq and stringent validations, we reveal here a developmental roadmap for human telencephalic neurons. Both dorsal and ventral telencephalic radial glial cells (RGs) differentiate into neurons via dividing intermediate progenitor cells (IPCs_div) and early postmitotic neuroblasts (eNBs). The transcription factor ASCL1 plays a key role in promoting fate transition from RGs to IPCs_div in both regions. RGs from the regionalized neuroectoderm show heterogeneity, with restricted glutamatergic, GABAergic, and cholinergic differentiation potencies. During neurogenesis, IPCs_div gradually exit the cell cycle and branch into sister eNBs to generate distinct neuronal subtypes. Our findings highlight a general RGs-IPCs_div-eNBs developmental scheme for human telencephalic progenitors and support that the major neuronal fates of human telencephalon are predetermined during dorsoventral regionalization with neuronal diversity being further shaped during neurogenesis and neural circuit integration.",
+    "keywords": [
+      "ASCL1",
+      "development",
+      "lineage branching",
+      "neurogenesis",
+      "telencephalon"
+    ],
+    "mesh_terms": [
+      "Basic Helix-Loop-Helix Proteins/*genetics/metabolism",
+      "Cell Cycle/genetics",
+      "Cell Differentiation",
+      "Cell Lineage/*genetics",
+      "Choline/metabolism",
+      "Doublecortin Protein/genetics/metabolism",
+      "Fetus",
+      "*Gene Expression Regulation, Developmental",
+      "Gene Ontology",
+      "Glutamate Decarboxylase/genetics/metabolism",
+      "Glutamic Acid/metabolism",
+      "Humans",
+      "LIM-Homeodomain Proteins/genetics/metabolism",
+      "Molecular Sequence Annotation",
+      "Nerve Tissue Proteins/genetics/metabolism",
+      "Neural Stem Cells/cytology/metabolism",
+      "Neurogenesis/*genetics",
+      "Neuroglia/cytology/metabolism",
+      "Neurons/classification/cytology/*metabolism",
+      "SOXC Transcription Factors/genetics/metabolism",
+      "Signal Transduction",
+      "Stathmin/genetics/metabolism",
+      "Telencephalon/cytology/growth & development/*metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "gamma-Aminobutyric Acid/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Lin",
+        "Du, Yanhua",
+        "Hui, Yi",
+        "Li, Nan",
+        "Fan, Beibei",
+        "Zhang, Xiaojie",
+        "Li, Xiaocui",
+        "Hong, Wei",
+        "Wu, Zhiping",
+        "Zhang, Shuwei",
+        "Zhou, Shanshan",
+        "Xu, Xiangjie",
+        "Zhou, Zhongshu",
+        "Jiang, Cizhong",
+        "Liu, Ling",
+        "Zhang, Xiaoqing"
+      ],
+      "short_names": [
+        "Ma L",
+        "Du Y",
+        "Hui Y",
+        "Li N",
+        "Fan B",
+        "Zhang X",
+        "Li X",
+        "Hong W",
+        "Wu Z",
+        "Zhang S",
+        "Zhou S",
+        "Xu X",
+        "Zhou Z",
+        "Jiang C",
+        "Liu L",
+        "Zhang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5406-2360",
+        "ORCID: 0000-0002-7405-1893"
+      ],
+      "affiliations": [
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Department of Pathology and Pathophysiology, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Immunology and Microbiology, Shanghai Institute of Immunology, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Department of Obstetrics and Gynecology, Shanghai Baoshan Luodian Hospital, Shanghai, China.",
+        "Shanghai First Maternity and Infant Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai First Maternity and Infant Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai First Maternity and Infant Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Orthopaedic Department of Tongji Hospital, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Department of Pathology and Pathophysiology, School of Medicine, Tongji University, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Orthopaedic Department of Tongji Hospital, Shanghai, China.",
+        "Brain and Spinal Cord Innovative Research Center, School of Medicine, Tongji University, Shanghai, China.",
+        "Tsingtao Advanced Research Institute, Tongji University, Qingdao, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Lin",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+          "Department of Pathology and Pathophysiology, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yanhua",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology and Microbiology, Shanghai Institute of Immunology, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Hui, Yi",
+        "short_name": "Hui Y",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Nan",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Beibei",
+        "short_name": "Fan B",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaojie",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shanghai Baoshan Luodian Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaocui",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai First Maternity and Infant Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Wei",
+        "short_name": "Hong W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai First Maternity and Infant Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhiping",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai First Maternity and Infant Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuwei",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shanshan",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiangjie",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhongshu",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Cizhong",
+        "short_name": "Jiang C",
+        "identifiers": [
+          "0000-0001-5406-2360"
+        ],
+        "affiliations": [
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Orthopaedic Department of Tongji Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ling",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+          "Department of Pathology and Pathophysiology, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoqing",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0002-7405-1893"
+        ],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Key Laboratory of Neuroregeneration of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Orthopaedic Department of Tongji Hospital, Shanghai, China.",
+          "Brain and Spinal Cord Innovative Research Center, School of Medicine, Tongji University, Shanghai, China.",
+          "Tsingtao Advanced Research Institute, Tongji University, Qingdao, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2021 Nov 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/25 06:00",
+    "fetched_at": "2026-09-27 23:57:19"
+  },
+  "links": {
+    "cites": [
+      "42584395",
+      "42203905",
+      "42129508",
+      "41356342",
+      "41282157",
+      "40885383",
+      "40585969",
+      "39748049",
+      "38498715",
+      "37958729",
+      "37300483",
+      "36691086"
+    ],
+    "refs": [
+      "32923614",
+      "32708917",
+      "31870423",
+      "31699896",
+      "31435019",
+      "31299170",
+      "31215318",
+      "31209254",
+      "31178118",
+      "31056478",
+      "30952992",
+      "30944313",
+      "30861584",
+      "30770891",
+      "30559206",
+      "30476243",
+      "30449321",
+      "29867213",
+      "29856954",
+      "29643508",
+      "29608179",
+      "29539641",
+      "29513653",
+      "29472441",
+      "29227469",
+      "29217575",
+      "28956310",
+      "28918121",
+      "28825705",
+      "28675158",
+      "28381833",
+      "28215559",
+      "27720902",
+      "27339989",
+      "27226442",
+      "27124452",
+      "26905010",
+      "26796689",
+      "26489896",
+      "26406371",
+      "26359774",
+      "25753651",
+      "25555215",
+      "25517465",
+      "25010494",
+      "24695229",
+      "24599466",
+      "24429630",
+      "24097041",
+      "23689134",
+      "23604284",
+      "23303943",
+      "22696295",
+      "22500809",
+      "22424902",
+      "22166544",
+      "21729779",
+      "21616972",
+      "21577236",
+      "21414897",
+      "20621053",
+      "20436478",
+      "20417196",
+      "20154730",
+      "19906872",
+      "19763105",
+      "18940587",
+      "16766713",
+      "12766771",
+      "12714746",
+      "12130776",
+      "11163256",
+      "10393115",
+      "9876181",
+      "9636075"
+    ],
+    "similar": [
+      "34558085",
+      "23481413",
+      "16496354",
+      "24157949",
+      "22162276",
+      "28850031",
+      "23679989",
+      "38713624",
+      "14643017",
+      "30201687",
+      "24179156",
+      "17561834",
+      "21205786",
+      "23492777",
+      "21467208",
+      "17611227",
+      "33775695",
+      "27498872",
+      "20607866",
+      "22023386",
+      "20155821",
+      "21070763",
+      "18371392",
+      "23454273",
+      "33887179",
+      "21536733",
+      "20502524",
+      "10640277",
+      "34971564",
+      "32062722",
+      "33525421",
+      "21452233",
+      "33739968",
+      "24695699",
+      "17517461",
+      "22099173",
+      "16226447",
+      "20431123",
+      "32029586",
+      "19200230",
+      "15080895",
+      "35163116",
+      "30143575",
+      "24924197",
+      "28862741",
+      "26937009",
+      "31273540",
+      "25619507",
+      "18986511",
+      "16508304",
+      "23799108",
+      "18032648",
+      "21795554",
+      "21166522",
+      "38772376",
+      "18997789",
+      "23839311",
+      "23523356",
+      "22949506",
+      "16828638",
+      "20181579",
+      "28276447",
+      "18160702",
+      "15071116",
+      "19474320",
+      "27705795",
+      "24073229",
+      "34266896",
+      "29510143",
+      "19212323",
+      "12461181",
+      "29445148",
+      "23665444",
+      "20507551",
+      "22101262",
+      "22077982",
+      "21561989",
+      "19820705",
+      "29684005",
+      "11517265",
+      "23637331",
+      "20826655",
+      "32499648",
+      "12354394",
+      "21826226",
+      "22736245",
+      "23904336",
+      "21256837",
+      "18477686",
+      "32122989",
+      "23712654",
+      "33386618",
+      "31171666",
+      "24148613",
+      "24643195",
+      "16158418",
+      "11133151",
+      "27076429",
+      "21289201",
+      "15878992",
+      "18385323",
+      "29439238",
+      "31881199",
+      "24925909",
+      "34358451",
+      "37995703",
+      "28379941",
+      "23751362",
+      "32253239",
+      "38084819",
+      "31196173",
+      "27939581",
+      "21744064",
+      "24196748",
+      "21852401",
+      "26148970",
+      "39106860",
+      "12151506",
+      "38781326",
+      "38397232",
+      "29909983",
+      "37931393",
+      "31352759",
+      "39366958",
+      "17640523",
+      "35366798",
+      "32592681",
+      "37824652",
+      "38336823",
+      "37679904",
+      "29352183",
+      "28504679",
+      "37660160",
+      "38682303",
+      "20107439",
+      "31249377",
+      "32245946",
+      "34616069",
+      "34912118",
+      "25172833",
+      "39028813",
+      "30582411",
+      "39068473",
+      "26309080",
+      "37148649",
+      "36130520",
+      "38733993",
+      "14963232",
+      "36345783",
+      "32923614",
+      "36826401",
+      "33462110",
+      "29203898",
+      "36202854",
+      "36417906",
+      "32428815",
+      "36398337",
+      "37281026",
+      "38948843",
+      "31469223",
+      "38514350",
+      "26931327",
+      "38648722",
+      "38839806",
+      "18272485"
+    ],
+    "review": [
+      "34558085",
+      "34971564",
+      "17517461",
+      "16226447",
+      "28862741",
+      "25619507",
+      "21166522",
+      "29510143",
+      "22101262",
+      "23904336",
+      "24196748",
+      "26148970",
+      "25172833",
+      "37148649",
+      "32428815",
+      "26931327"
+    ],
+    "pmc": [
+      "8561642"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.15252/embj.2020107277",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34558085/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34558085",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34558085",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

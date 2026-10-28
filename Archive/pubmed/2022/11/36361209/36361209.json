@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "36361209",
+    "doi": "10.3390/ijerph192114327",
+    "title": "Computer-Assisted Annotation of Digital H&E/SOX10 Dual Stains Generates High-Performing Convolutional Neural Network for Calculating Tumor Burden in H&E-Stained Cutaneous Melanoma."
+  },
+  "content": {
+    "abstract": "Deep learning for the analysis of H&E stains requires a large annotated training set. This may form a labor-intensive task involving highly skilled pathologists. We aimed to optimize and evaluate computer-assisted annotation based on digital dual stains of the same tissue section. H&E stains of primary and metastatic melanoma (N = 77) were digitized, re-stained with SOX10, and re-scanned. Because images were aligned, annotations of SOX10 image analysis were directly transferred to H&E stains of the training set. Based on 1,221,367 annotated nuclei, a convolutional neural network for calculating tumor burden (CNN(TB)) was developed. For primary melanomas, precision of annotation was 100% (95%CI, 99% to 100%) for tumor cells and 99% (95%CI, 98% to 100%) for normal cells. Due to low or missing tumor-cell SOX10 positivity, precision for normal cells was markedly reduced in lymph-node and organ metastases compared with primary melanomas (p < 0.001). Compared with stereological counts within skin lesions, mean difference in tumor burden was 6% (95%CI, -1% to 13%, p = 0.10) for CNN(TB) and 16% (95%CI, 4% to 28%, p = 0.02) for pathologists. Conclusively, the technique produced a large annotated H&E training set with high quality within a reasonable timeframe for primary melanomas and subcutaneous metastases. For these lesion types, the training set generated a high-performing CNN(TB), which was superior to the routine assessments of pathologists.",
+    "keywords": [
+      "H&E",
+      "IHC-supervised annotation",
+      "SOX10",
+      "artificial intelligence",
+      "deep learning",
+      "digital multiple stains",
+      "digital pathology",
+      "immunohistochemistry",
+      "melanoma",
+      "tumor burden"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Melanoma",
+      "*Skin Neoplasms",
+      "Tumor Burden",
+      "Neural Networks, Computer",
+      "Computers",
+      "SOXE Transcription Factors",
+      "Cutaneous Malignant Melanoma"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nielsen, Patricia Switten",
+        "Georgsen, Jeanette Baehr",
+        "Vinding, Mads Sloth",
+        "Ostergaard, Lasse Riis",
+        "Steiniche, Torben"
+      ],
+      "short_names": [
+        "Nielsen PS",
+        "Georgsen JB",
+        "Vinding MS",
+        "Ostergaard LR",
+        "Steiniche T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7859-6321",
+        "ORCID: 0000-0002-9452-2920",
+        "ORCID: 0000-0002-0149-583X"
+      ],
+      "affiliations": [
+        "Department of Pathology, Aarhus University Hospital, Palle Juul-Jensens Boulevard 35, DK-8200 Aarhus, Denmark.",
+        "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 82, DK-8200 Aarhus, Denmark.",
+        "Department of Pathology, Aarhus University Hospital, Palle Juul-Jensens Boulevard 35, DK-8200 Aarhus, Denmark.",
+        "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 82, DK-8200 Aarhus, Denmark.",
+        "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 82, DK-8200 Aarhus, Denmark.",
+        "Center of Functionally Integrative Neuroscience, Aarhus University Hospital, Palle Juul-Jensens Boulevard 99, DK-8200 Aarhus, Denmark.",
+        "Department of Health Science and Technology, Aalborg University, Fredrik Bajers Vej 7E, DK-9220 Aalborg, Denmark.",
+        "Department of Pathology, Aarhus University Hospital, Palle Juul-Jensens Boulevard 35, DK-8200 Aarhus, Denmark.",
+        "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 82, DK-8200 Aarhus, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nielsen, Patricia Switten",
+        "short_name": "Nielsen PS",
+        "identifiers": [
+          "0000-0002-7859-6321"
+        ],
+        "affiliations": [
+          "Department of Pathology, Aarhus University Hospital, Palle Juul-Jensens Boulevard 35, DK-8200 Aarhus, Denmark.",
+          "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 82, DK-8200 Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Georgsen, Jeanette Baehr",
+        "short_name": "Georgsen JB",
+        "identifiers": [
+          "0000-0002-9452-2920"
+        ],
+        "affiliations": [
+          "Department of Pathology, Aarhus University Hospital, Palle Juul-Jensens Boulevard 35, DK-8200 Aarhus, Denmark.",
+          "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 82, DK-8200 Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Vinding, Mads Sloth",
+        "short_name": "Vinding MS",
+        "identifiers": [
+          "0000-0002-0149-583X"
+        ],
+        "affiliations": [
+          "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 82, DK-8200 Aarhus, Denmark.",
+          "Center of Functionally Integrative Neuroscience, Aarhus University Hospital, Palle Juul-Jensens Boulevard 99, DK-8200 Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Østergaard, Lasse Riis",
+        "short_name": "Østergaard LR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Science and Technology, Aalborg University, Fredrik Bajers Vej 7E, DK-9220 Aalborg, Denmark."
+        ]
+      },
+      {
+        "full_name": "Steiniche, Torben",
+        "short_name": "Steiniche T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Aarhus University Hospital, Palle Juul-Jensens Boulevard 35, DK-8200 Aarhus, Denmark.",
+          "Department of Clinical Medicine, Aarhus University, Palle Juul-Jensens Boulevard 82, DK-8200 Aarhus, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of environmental research and public health"
+    ],
+    "journal_abbrev": [
+      "Int J Environ Res Public Health"
+    ],
+    "pub_date": "2022 Nov 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/12 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "41562710",
+      "40624052",
+      "40109731",
+      "39238597",
+      "39097745",
+      "38392420",
+      "38241314"
+    ],
+    "refs": [
+      "33478929",
+      "33454724",
+      "32750899",
+      "32746112",
+      "32238879",
+      "32128929",
+      "31566661",
+      "31325876",
+      "31308507",
+      "30696866",
+      "30430609",
+      "30299387",
+      "29994086",
+      "29234806",
+      "29148538",
+      "28623774",
+      "28343365",
+      "28039443",
+      "27853865",
+      "26141748",
+      "25389339",
+      "24948027",
+      "24897070",
+      "24704158",
+      "24179707",
+      "23887293",
+      "23197006",
+      "22772081",
+      "22646269",
+      "21516079",
+      "21284444",
+      "20890226",
+      "20398247",
+      "19845757",
+      "19622588",
+      "18947395",
+      "18636017",
+      "18333894",
+      "15272532",
+      "12628847",
+      "10792480",
+      "9595616"
+    ],
+    "similar": [
+      "36361209",
+      "32238879",
+      "32781392",
+      "31129383",
+      "35390633",
+      "34509059",
+      "25356946",
+      "22736149",
+      "29385322",
+      "29783803",
+      "27663144",
+      "32155034",
+      "20890226",
+      "35306442",
+      "27062658",
+      "34634635",
+      "33509946",
+      "25436903",
+      "23291581",
+      "22325460",
+      "33002486",
+      "31325876",
+      "15305156",
+      "30103029",
+      "30794352",
+      "18636017",
+      "30852421",
+      "19845757",
+      "30957251",
+      "32534243",
+      "31972395",
+      "34303169",
+      "23958542",
+      "29419543",
+      "23197006",
+      "31319945",
+      "22495377",
+      "27688929",
+      "33423009",
+      "38370413",
+      "33014803",
+      "31401469",
+      "36237543",
+      "20653825",
+      "24954720",
+      "34055044",
+      "27955842",
+      "22772081",
+      "23782678",
+      "33445062",
+      "39306985",
+      "29482496",
+      "32980688",
+      "28654548",
+      "34304370",
+      "34340108",
+      "34791536",
+      "27110718",
+      "21610457",
+      "15725798",
+      "27571246",
+      "17440255",
+      "30903273",
+      "29660160",
+      "23627766",
+      "25611246",
+      "22646269",
+      "28268581",
+      "32432709",
+      "32526536",
+      "29759015",
+      "28843711",
+      "19912373",
+      "32953248",
+      "30224375",
+      "24704158",
+      "35204526",
+      "35671654",
+      "27580960",
+      "30642390",
+      "36865487",
+      "32411363",
+      "36873900",
+      "34541020",
+      "38148967",
+      "38186746",
+      "31187088",
+      "39268202",
+      "38817539"
+    ],
+    "review": [
+      "36361209",
+      "34509059",
+      "28654548"
+    ],
+    "pmc": [
+      "9654525"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijerph192114327",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36361209/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36361209",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

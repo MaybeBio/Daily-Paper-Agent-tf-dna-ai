@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.27.727946",
+  "title": "DeepDiffusion: a Physics-Informed Neural Network for Heterogeneous Facilitated 1D Diffusion",
+  "authors": "Ray KK; Ambrose B; della Maggiora G; de Diego Pinedo N; Bauer S; Yakimovich A; Rueda DS",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用物理信息神经网络分析单分子轨迹中的异质一维扩散，虽聚焦蛋白-DNA扩散动力学而非TF-DNA结合位点预测，但方法可迁移至TF-DNA互作动态机制研究。",
+  "abstract": "Single-molecule fluorescence microscopy combined with optical tweezers has enabled the direct observation of diffusing proteins on tethered DNA. These and complementary techniques reveal facilitated one-dimensional diffusion as a common functional mechanism for numerous DNA-binding proteins, with a wide range of heterogeneous diffusive behaviours arising from different DNA-binding modes. However, detailed investigations have been limited by the lack of methods to detect such heterogeneous diffusion. We have developed DeepDiffusion, a physics-informed neural network model for estimating the instantaneous diffusion at each point along a single-molecule trajectory. We show, using synthetic trajectories, that DeepDiffusion can accurately detect subtle changes in diffusion even when challenged with large underlying errors. DeepDiffusion can recapitulate previously characterised heterogeneity in experimental data and reveal mechanistic details of facilitated diffusion that are inaccessible to current methods. We expect DeepDiffusion to become a powerful tool for single-molecule researchers, allowing them to investigate the diffusion of their proteins of interest in unprecedented detail.",
+  "abstract_zh": "单分子荧光显微镜与光镊技术的结合，使得直接观察系链DNA上扩散的蛋白质成为可能。这些技术及互补方法揭示了促进的一维扩散是众多DNA结合蛋白常见的功能机制，其异质性扩散行为广泛，源于不同的DNA结合模式。然而，由于缺乏检测此类异质性扩散的方法，详细研究一直受限。我们开发了DeepDiffusion，一种基于物理信息的神经网络模型，用于估算单分子轨迹上每一点的瞬时扩散。通过合成轨迹，我们证明DeepDiffusion即使在面临较大潜在误差时，也能准确检测扩散中的细微变化。DeepDiffusion能够重现实验数据中先前表征的异质性，并揭示当前方法无法触及的促进扩散机制细节。我们预期DeepDiffusion将成为单分子研究人员的强大工具，使他们能够以前所未有的细节探究目标蛋白质的扩散行为。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.727946",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.27.727946",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.27.727946/index.html"
+}

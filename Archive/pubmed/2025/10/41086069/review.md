@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose EAP-LSTM, a Bi-LSTM-based deep learning framework integrating Word2Vec DNA sequence representations, reverse complement k-mer, mismatch k-mer features, and epigenomic data, to quantitatively predict enhancer activity across five human cell lines and one Drosophila cell line. They report consistent outperformance over DeepSTARR and HEAP, including a PCC of 0.7944 on K562, improved small-sample learning performance, and identification of TFBS-related motifs.
+- **Visible evidence base** Abstract text only; no quantitative results beyond the single K562 PCC example, no methodological details, no dataset descriptions, no statistical significance measures, no motif analysis results
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model architecture details, hyperparameter settings, training and validation protocols, complete performance comparisons across all six cell lines, small-sample learning experimental design, motif identification methodology and results, code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of Bi-LSTM to enhancer activity prediction, but the evidence provided is insufficient to evaluate the core claims. The single reported performance metric, the absence of methodological detail, and the lack of any statistical validation prevent assessment of whether the proposed framework genuinely advances the field. The work may be of interest to computational genomics researchers, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulation prediction, particularly those developing deep learning methods for regulatory genomics. Researchers studying enhancer biology and transcription factor binding mechanisms may also find the motif analysis component relevant. The cross-species aspect could interest Drosophila and human genomics communities.
+- **Major strengths** The integration of multiple feature types (Word2Vec, k-mer variants, epigenomic data) is a reasonable design choice. The inclusion of small-sample learning evaluation addresses a practical limitation in genomics. The cross-species and multi-cell-line evaluation scope is broader than many comparable studies. The focus on TFBS motif interpretation adds biological relevance beyond raw prediction performance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "EAP-LSTM consistently outperforms state-of-the-art models, such as DeepSTARR and HEAP, in all datasets"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of consistent outperformance across all six cell lines is supported by only one reported metric (K562 PCC of 0.7944). No results are shown for the other five cell lines, and no error bars, confidence intervals, or statistical significance tests are reported.
+  - **Why it matters** A claim of universal superiority requires complete performance data across all evaluated conditions. Without full results, the reader cannot verify the consistency claim or assess the magnitude and reliability of the reported improvements.
+  - **Resolution test** Provide a table or figure with PCC and additional metrics (e.g., Spearman correlation, MSE) for all six cell lines, including variance estimates and significance tests comparing EAP-LSTM against each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "The model integrates multiple feature modules, including Word2Vec-based representations of DNA sequences, reverse complement k-mer, mismatch k-mer features, and epigenomic data"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no details on how these feature modules are combined, the dimensionality of each feature set, the Bi-LSTM architecture (number of layers, hidden units, dropout), training procedure, or hyperparameter selection. The epigenomic data sources and their preprocessing are also unspecified.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without architectural and training details, other researchers cannot implement or fairly compare against EAP-LSTM, and reviewers cannot assess whether the design choices are sound or whether the reported performance stems from the method or from favorable implementation details.
+  - **Resolution test** Include a full methods section describing the model architecture, feature engineering pipeline, training protocol, hyperparameter optimization strategy, and epigenomic data sources and preprocessing steps.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Small-sample claim support
+  - **Claim pointer** "EAP-LSTM demonstrates strong performance in small-sample learning scenarios, showing clear improvements compared with baseline models"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No details are given on how small-sample scenarios were constructed, what sample sizes were tested, which baselines were compared, or what metrics were used. The claim of "clear improvements" is unquantified.
+  - **Why it matters** Small-sample robustness is a distinct and practically important claim. Without experimental details and quantitative results, this claim cannot be evaluated or reproduced.
+  - **Resolution test** Describe the small-sample experimental setup (e.g., training set sizes, subsampling strategy, number of replicates) and report performance curves or tables across sample sizes with variance estimates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability evidence
+  - **Claim pointer** "The study investigates the role of transcription factor binding sites (TFBSs) within enhancer regions, identifying critical motifs associated with enhancer activity"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that critical motifs were identified but provides no examples, no motif discovery method, no enrichment analysis, and no validation of the biological relevance of these motifs.
+  - **Why it matters** The interpretability component is presented as a key contribution. Without specific motif findings or validation, this claim remains anecdotal and does not demonstrate biological insight.
+  - **Resolution test** Provide a table or figure of identified motifs with their enrichment scores, known TF matches, and validation against independent datasets or experimental literature.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Performance comparison framing
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The percentage improvements over DeepSTARR and HEAP (13.65% and 2.73%) are reported without clarifying whether these are relative or absolute improvements in PCC.
+  - **Required correction** Specify the calculation method for percentage improvement and report absolute PCC values for all compared models.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline selection
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** Only two baselines (DeepSTARR and HEAP) are mentioned. The choice of baselines and whether additional state-of-the-art methods were considered is not justified.
+  - **Required correction** Justify baseline selection and consider including additional recent enhancer activity prediction methods for a more comprehensive comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No statement on data availability, code release, or model weights is provided.
+  - **Required correction** Include a data and code availability statement in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Model naming
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The name "EAP-LSTM" is described as "Enhancer Activity Prediction based on Bi-LSTM" but the abstract also states the framework is "Bi-LSTM-Based." The relationship between the acronym expansion and the model description is slightly redundant.
+  - **Required correction** Clarify the acronym expansion or simplify the model description to avoid redundancy.
+
+## Risk / unsupported claims
+- "Consistently outperforms state-of-the-art models in all datasets" is unsupported; only one dataset metric is provided.
+- "Strong performance in small-sample learning scenarios" is unsupported; no experimental details or results are given.
+- "Identifying critical motifs associated with enhancer activity" is unsupported; no motif findings are presented.
+- The overall superiority of EAP-LSTM over existing methods cannot be assessed without full comparative results and statistical validation.
+- The generalizability across species and cell lines is asserted but not verifiable from the abstract alone.

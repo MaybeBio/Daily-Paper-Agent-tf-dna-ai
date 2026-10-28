@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) for the article by Kim, Kim, and Cho, published in Journal of Proteome Research (2024), DOI 10.1021/acs.jproteome.3c00509.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No assessment of editorial fit or journal-specific policy beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors report that ARID3C, a poorly characterized PE1 protein, interacts with NPM1 via its REKLES β domain to enable nuclear translocation, where it acts as a transcription factor regulating STAT3, STAT1, and JUNB, thereby promoting monocyte-to-macrophage differentiation.
+- **Visible evidence base** Methods and results sections describing IP-MS, AlphaFold2 predictions, mutagenesis, co-immunoprecipitation, immunostaining, ChIP-PCR/ChIP-qPCR, flow cytometry, and qRT-PCR. Figures referenced include Figures 1–4 and Supplementary Figures S1–S4, but figure panels are not shown in the provided text.
+- **Missing materials affecting confidence** Actual figures and figure legends, Supplementary Tables (including antibody and primer information), raw mass spectrometry data, statistical details for each experiment, and full experimental replicates are not provided. This limits independent verification of data quality and quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuinely understudied protein, ARID3C, and proposes a mechanistic model linking NPM1-mediated nuclear shuttling to transcriptional regulation during monocyte-to-macrophage differentiation. The combination of proteomics and deep learning-based structural prediction is timely and potentially informative. However, the evidence as presented has several gaps: the IP-MS data are not shown in sufficient detail, the functional assays rely heavily on overexpression systems, and the link between ARID3C binding to target promoters and the observed differentiation phenotype is correlative rather than causal. The claim that ARID3C "acts as a regulator" of differentiation is supported but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of transcriptional regulation, macrophage biology, and myeloid differentiation would find this relevant. The study also speaks to the community interested in functional annotation of "missing proteins" from the Chromosome-centric Human Proteome Project, and those applying AlphaFold2 to predict protein-protein interaction interfaces. The potential connection to NPM1 mutations in AML may interest cancer biologists, though this is speculative in the current manuscript.
+- **Major strengths** 1) The study targets a genuinely under-characterized protein, addressing a gap in functional annotation. 2) The integration of LC-MS/MS with AlphaFold2 to predict and then experimentally test binding interfaces is a modern and potentially powerful approach. 3) The use of multiple orthogonal assays (IP, mutagenesis, ChIP, flow cytometry) to support the main claims is commendable. 4) The writing is generally clear and the logical flow from interactome identification to functional validation is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that IP-MS identified 158 proteins, with 129 unique to ARID3C, and that NPM1 is a key interactor.
+  - **Evidence pointer** Results section "Analysis of ARID3C Interactors by Coimmunoprecipitation and Mass Spectrometry"; Figure 1; Table 1; location not provided for figure panels.
+  - **Concern** The mass spectrometry data are summarized only as counts and cluster analyses. No information is provided on the number of biological replicates, the criteria for filtering (beyond HUPO guidelines), the abundance or spectral counts for NPM1, or whether the interaction was validated by an independent method beyond co-IP. The figure panels that would show the MS results or the co-IP blots are not visible in the provided text.
+  - **Why it matters** The entire study hinges on the identification of NPM1 as a bona fide interactor. Without clear evidence of reproducibility, enrichment specificity, and quantitative support, the interaction claim is not verifiable from the supplied material. This is a foundational claim on which all subsequent experiments depend.
+  - **Resolution test** Provide the full list of identified proteins with spectral counts and fold-enrichment over control, show representative MS/MS spectra, and include at least three independent biological replicates. The co-IP blot in Figure 2D should be shown with appropriate input and negative controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional causality
+  - **Claim pointer** The authors claim that ARID3C promotes monocyte-to-macrophage differentiation by directly regulating STAT3, STAT1, and JUNB.
+  - **Evidence pointer** Results sections "ARID3C Promotes PMA-Induced Myeloid Differentiation" and "As a Transcription Factor, ARID3C Directly Regulates Genes Involved in Monocyte-to-Macrophage Differentiation"; Figures 3 and 4.
+  - **Concern** The functional experiments rely on transient overexpression of ARID3C in cell lines that already express endogenous ARID3C. The observed increase in CD11b, CD14, and CSF1R mRNA and CD11b surface expression is modest and only shown as relative changes. The ChIP experiments demonstrate binding of overexpressed ARID3C to promoters, but there is no loss-of-function experiment (e.g., knockdown or knockout of ARID3C) to show that endogenous ARID3C is required for differentiation. The claim that ARID3C "directly regulates" these genes is not supported by reporter assays or transcriptomic analysis showing that these are direct targets.
+  - **Why it matters** Overexpression phenotypes can be artifactual, and promoter binding alone does not establish transcriptional regulation. Without loss-of-function data or evidence that ARID3C depletion impairs differentiation, the causal role of ARID3C is not established. This weakens the central claim of the manuscript.
+  - **Resolution test** Include ARID3C knockdown or knockout experiments in THP-1 or HL-60 cells and assess differentiation markers. Perform RNA-seq or qRT-PCR after ARID3C perturbation to show that STAT3, STAT1, and JUNB are affected. Consider luciferase reporter assays to demonstrate direct transcriptional activation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural prediction validation
+  - **Claim pointer** The authors state that AlphaFold2 predicted the binding interface between ARID3C and NPM1, specifically involving residues V381, F383, A384, and R385 in the REKLES β domain.
+  - **Evidence pointer** Results section "ARID3C Interacts with NPM1 for Nuclear Shuttling"; Figure 2A,B; Figure S4.
+  - **Concern** The AlphaFold2 prediction is presented as a key methodological innovation, but the confidence metrics (e.g., pLDDT, PAE) are not reported. The predicted interface is tested by mutagenesis, which is good, but the structural model itself is not validated by any biophysical method (e.g., co-crystal structure, NMR, or cross-linking). The claim that the four residues are "pivotal" is based on a single co-IP experiment with a quadruple mutant.
+  - **Why it matters** AlphaFold2 predictions are valuable but can be inaccurate for protein-protein interfaces, especially for proteins with low sequence coverage or disordered regions. Without confidence scores or orthogonal validation, the structural claim is not fully supported.
+  - **Resolution test** Report pLDDT and PAE values for the predicted complex. If possible, validate the interaction interface using a complementary method such as hydrogen-deuterium exchange, cross-linking mass spectrometry, or a surface plasmon resonance binding assay with purified proteins.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cell line relevance
+  - **Claim pointer** The authors use THP-1 and HL-60 cell lines as models for monocyte-to-macrophage differentiation.
+  - **Evidence pointer** Methods section "Cell Culture and Differentiation"; Results section "ARID3C Promotes PMA-Induced Myeloid Differentiation"; Figure 3.
+  - **Concern** Both THP-1 and HL-60 are immortalized leukemia cell lines. The physiological relevance of PMA-induced differentiation in these lines to primary monocyte-to-macrophage differentiation is not discussed. The authors do not show data from primary human monocytes or macrophages, which would strengthen the translational relevance of their findings.
+  - **Why it matters** Findings in immortalized lines may not recapitulate primary cell biology, particularly for a process like differentiation that is highly context-dependent. The claim that ARID3C regulates monocyte-to-macrophage differentiation would be more convincing with validation in primary cells.
+  - **Resolution test** Repeat key experiments (at least the differentiation marker analysis and ChIP) in primary human CD14+ monocytes differentiated with M-CSF or GM-CSF.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and terminology
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract; Results section "ARID3C Promotes PMA-Induced Myeloid Differentiation"
+  - **Issue** The phrase "ARID3C experts a positive regulatory effect" contains a typo ("experts" should be "exerts"). Additionally, the term "monocyte-to-macrophage differentiation" is used throughout, but the authors do not define the specific differentiation markers used to confirm macrophage identity beyond CD11b.
+  - **Required correction** Correct the typo. Provide a clear definition of macrophage differentiation criteria, including the panel of markers assessed and the time course of differentiation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 3 and 4
+  - **Evidence pointer** Results sections; figure legends not provided
+  - **Issue** The statistical methods are described only in general terms ("2-way ANOVA combined with Tukey's HSD test, and Student's t test"). The number of independent experiments, the number of replicates per condition, and the exact p-values for each comparison are not reported in the text.
+  - **Required correction** Provide full statistical details in the figure legends, including n values, the specific test used for each comparison, and exact p-values or confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Mass spectrometry data
+  - **Evidence pointer** Methods section "Filter-Aided Sample Preparation (FASP) and Mass Spectrometry (MS) Analysis"
+  - **Issue** The authors state that raw data were deposited at MassIVE (MSV000093593), but the accession is not provided in the main text. This makes it difficult for readers to access the data.
+  - **Required correction** Include the MassIVE accession number in the main text or Data Availability statement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion speculates about the relevance of NPM1 mutations in AML but does not acknowledge the limitation that the study was performed in cell lines with wild-type NPM1. The potential effect of NPM1 mutations on ARID3C localization is presented as a reasonable hypothesis but is not experimentally addressed.
+  - **Required correction** Add a sentence acknowledging that the functional relevance of NPM1 mutations on ARID3C localization remains to be tested experimentally.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (IP-MS data quality and reproducibility) and R1-M2 (lack of loss-of-function evidence) are the primary technical failings. Without addressing these, the central claims of NPM1-mediated shuttling and ARID3C-dependent transcriptional regulation are not fully established.
+- **Assessment against Nature-style criteria** Originality: The study is original in targeting ARID3C, a poorly characterized protein, and in combining IP-MS with AlphaFold2 to predict interaction interfaces. However, the conceptual framework (NPM1 as a nuclear shuttle, transcription factors regulating differentiation) is not novel. Scientific importance: The findings are of moderate importance, potentially contributing to the functional annotation of a missing protein and to understanding macrophage differentiation. The link to AML is speculative and not developed. Interdisciplinary readership: The work bridges proteomics, structural biology, and cell biology, which could appeal to a broad audience, but the narrow focus on one protein and one differentiation process limits broader appeal. Technical soundness: The experimental design is generally sound, but the lack of loss-of-function data and incomplete reporting of MS and statistical details weaken the technical foundation. Readability for nonspecialists: The manuscript is clearly written and accessible, though some jargon (e.g., REKLES domain, pLDDT) may require background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript has potential, but the foundational interaction data and the causal role of ARID3C in differentiation need to be strengthened with additional experiments and more complete reporting.
+
+## Risk / unsupported claims
+- The claim that ARID3C "acts as a transcription factor" for STAT3, STAT1, and JUNB is not fully supported; promoter binding by ChIP does not establish transcriptional activity.
+- The claim that the four specific residues (V381, F383, A384, R385) are "pivotal" for NPM1 binding is based on a single co-IP experiment with a quadruple mutant; the individual contribution of each residue is not assessed.
+- The speculation that NPM1 mutations in AML may affect ARID3C localization is unsupported by any experimental data in this manuscript.
+- The statement that ARID3C "promotes" monocyte-to-macrophage differentiation is based on overexpression data only; the physiological role of endogenous ARID3C is not tested.
+- The IP-MS identification of 129 unique interactors is not verifiable from the supplied material, as the full dataset and filtering criteria are not shown.

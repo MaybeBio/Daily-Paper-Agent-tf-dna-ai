@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34226917",
+  "title": "Integrative machine learning framework for the identification of cell-specific enhancers from the human genome.",
+  "authors": "Basith, Shaherin; Hasan, Md Mehedi; Lee, Gwang; Wei, Leyi; Manavalan, Balachandran",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-07-07",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用集成机器学习框架从人类基因组中识别细胞特异性增强子，增强子功能依赖转录因子结合，但未直接建模TF-DNA互作或结合位点，属于广义蛋白-DNA相关但方法可迁移的文献。",
+  "abstract": "Enhancers are deoxyribonucleic acid (DNA) fragments which when bound by transcription factors enhance the transcription of related genes. Due to its sporadic distribution and similar fractions, identification of enhancers from the human genome seems a daunting task. Compared to the traditional experimental approaches, computational methods with easy-to-use platforms could be efficiently applied to annotate enhancers' functions and physiological roles. In this aspect, several bioinformatics tools have been developed to identify enhancers. Despite their spectacular performances, existing methods have certain drawbacks and limitations, including fixed length of sequences being utilized for model development and cell-specificity negligence. A novel predictor would be beneficial in the context of genome-wide enhancer prediction by addressing the above-mentioned issues. In this study, we constructed new datasets for eight different cell types. Utilizing these data, we proposed an integrative machine learning (ML)-based framework called Enhancer-IF for identifying cell-specific enhancers. Enhancer-IF comprehensively explores a wide range of heterogeneous features with five commonly used ML methods (random forest, extremely randomized tree, multilayer perceptron, support vector machine and extreme gradient boosting). Specifically, these five classifiers were trained with seven encodings and obtained 35 baseline models. The output of these baseline models was integrated and again inputted to five classifiers for the construction of five meta-models. Finally, the integration of five meta-models through ensemble learning improved the model robustness. Our proposed approach showed an excellent prediction performance compared to the baseline models on both training and independent datasets in different cell types, thus highlighting the superiority of our approach in the identification of the enhancers. We assume that Enhancer-IF will be a valuable tool for screening and identifying potential enhancers from the human DNA sequences.",
+  "abstract_zh": "增强子是脱氧核糖核酸（DNA）片段，当与转录因子结合时，能增强相关基因的转录。由于增强子在人类基因组中分布零散且片段相似，从人类基因组中识别增强子似乎是一项艰巨的任务。与传统实验方法相比，具有易用平台的计算方法可高效地用于注释增强子的功能和生理作用。在这方面，已开发出多种生物信息学工具来识别增强子。尽管这些工具表现出色，但现有方法仍存在某些缺陷和局限性，包括用于模型开发的序列长度固定以及忽视细胞特异性。一种新型预测器若能解决上述问题，将有助于全基因组范围内的增强子预测。在本研究中，我们为八种不同细胞类型构建了新数据集。利用这些数据，我们提出了一种基于整合机器学习（ML）的框架，称为Enhancer-IF，用于识别细胞特异性增强子。Enhancer-IF全面探索了多种异构特征，并采用了五种常用的机器学习方法（随机森林、极端随机树、多层感知器、支持向量机和极端梯度提升）。具体而言，这五种分类器使用七种编码进行训练，获得了35个基线模型。这些基线模型的输出被整合，并再次输入到五种分类器中，以构建五个元模型。最后，通过集成学习整合五个元模型，提高了模型的鲁棒性。我们提出的方法在不同细胞类型的训练数据集和独立数据集上均表现出优于基线模型的预测性能，从而突显了我们在增强子识别方法上的优越性。我们假设Enhancer-IF将成为从人类DNA序列中筛选和识别潜在增强子的宝贵工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34226917/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34226917/",
+  "paper_page_path": "papers/pubmed/34226917/index.html"
+}

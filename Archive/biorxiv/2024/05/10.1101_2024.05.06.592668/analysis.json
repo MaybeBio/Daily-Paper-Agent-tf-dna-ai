@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.06.592668",
+  "title": "Ligand Gaussian accelerated Molecular Dynamics 3 (LiGaMD3): Improved Calculations of Binding Thermodynamics and Kinetics of Both Small Molecules and Flexible Peptides",
+  "authors": "Jinan Wang; Yinglong Miao",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-08",
+  "window": {
+    "start": "2024-05-06",
+    "end": "2024-05-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出LiGaMD3增强采样方法，用于计算小分子和柔性肽与靶蛋白的结合热力学与动力学，虽涉及蛋白-肽互作但非TF-DNA体系，方法可迁移至蛋白-DNA结合模拟。",
+  "abstract": "Binding thermodynamics and kinetics play critical roles in drug design. However, it has proven challenging to efficiently predict ligand binding thermodynamics and kinetics of small molecules and flexible peptides using conventional Molecular Dynamics (cMD), due to limited simulation timescales. Based on our previously developed Ligand Gaussian accelerated Molecular Dynamics (LiGaMD) method, we present a new approach, termed “LiGaMD3”, in which we introduce triple boosts into three individual energy terms that play important roles in small-molecule/peptide dissociation, rebinding and system conformational changes to improve the sampling efficiency of small-molecule/peptide interactions with target proteins. To validate the performance of LiGaMD3, MDM2 bound by a small molecule (Nutlin 3) and two highly flexible peptides (PMI and P53) were chosen as model systems. LiGaMD3 could efficiently capture repetitive small-molecule/peptide dissociation and binding events within 2 microsecond simulations. The predicted binding kinetic constant rates and free energies from LiGaMD3 agreed with available experimental values and previous simulation results. Therefore, LiGaMD3 provides a more general and efficient approach to capture dissociation and binding of both small-molecule ligand and flexible peptides, allowing for accurate prediction of their binding thermodynamics and kinetics.",
+  "abstract_zh": "结合热力学与动力学在药物设计中扮演着关键角色。然而，由于传统分子动力学（cMD）模拟时间尺度的限制，高效预测小分子和柔性肽段的配体结合热力学与动力学一直颇具挑战。基于我们先前开发的配体高斯加速分子动力学（LiGaMD）方法，我们提出了一种新方法，命名为“LiGaMD3”，其中我们在三个对配体解离、再结合及系统构象变化至关重要的独立能量项中引入三重加速，以提高小分子/肽段与靶蛋白相互作用的采样效率。为验证LiGaMD3的性能，我们选择了与一个小分子（Nutlin 3）及两个高度柔性肽段（PMI和P53）结合的MDM2作为模型系统。LiGaMD3能在2微秒模拟内高效捕获重复的小分子/肽段解离与结合事件。LiGaMD3预测的结合动力学速率常数和自由能与现有实验值及先前模拟结果相符。因此，LiGaMD3提供了一种更通用且高效的方法，用于捕获小分子配体及柔性肽段的解离与结合，从而能够准确预测它们的结合热力学与动力学。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.06.592668",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.06.592668",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.06.592668/index.html"
+}

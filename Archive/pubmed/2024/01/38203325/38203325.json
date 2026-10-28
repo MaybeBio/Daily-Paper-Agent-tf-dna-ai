@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "38203325",
+    "doi": "10.3390/ijms25010154",
+    "title": "Genetic Alterations of NF-kappaB and Its Regulators: A Rich Platform to Advance Colorectal Cancer Diagnosis and Treatment."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC) is the third leading cause of cancer mortality in the United States, with an estimated 52,000 deaths in 2023. Though significant progress has been made in both diagnosis and treatment of CRC in recent years, genetic heterogeneity of CRC-the culprit for possible CRC relapse and drug resistance, is still an insurmountable challenge. Thus, developing more effective therapeutics to overcome this challenge in new CRC treatment strategies is imperative. Genetic and epigenetic changes are well recognized to be responsible for the stepwise development of CRC malignancy. In this review, we focus on detailed genetic alteration information about the nuclear factor (NF)-kappaB signaling, including both NF-kappaB family members, and their regulators, such as protein arginine methyltransferase 5 (PRMT5), and outer dynein arm docking complex subunit 2 (ODAD2, also named armadillo repeat-containing 4, ARMC4), etc., in CRC patients. Moreover, we provide deep insight into different CRC research models, with a particular focus on patient-derived xenografts (PDX) and organoid models, and their potential applications in CRC research. Genetic alterations on NF-kappaB signaling components are estimated to be more than 50% of the overall genetic changes identified in CRC patients collected by cBioportal for Cancer Genomics; thus, emphasizing its paramount importance in CRC progression. Consequently, various genetic alterations on NF-kappaB signaling may hold great promise for novel therapeutic development in CRC. Future endeavors may focus on utilizing CRC models (e.g., PDX or organoids, or isogenic human embryonic stem cell (hESC)-derived colonic cells, or human pluripotent stem cells (hPSC)-derived colonic organoids, etc.) to further uncover the underpinning mechanism of these genetic alterations in NF-kappaB signaling in CRC progression. Moreover, establishing platforms for drug discovery in dishes, and developing Biobanks, etc., may further pave the way for the development of innovative personalized medicine to treat CRC in the future.",
+    "keywords": [
+      "CRC",
+      "NF-kappaB",
+      "ODAD2",
+      "PDX",
+      "PRMT5",
+      "genetic alteration",
+      "organoid"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*NF-kappa B/genetics",
+      "Signal Transduction/genetics",
+      "Precision Medicine",
+      "Axoneme",
+      "Disease Models, Animal",
+      "*Colorectal Neoplasms/diagnosis/genetics/therapy",
+      "Protein-Arginine N-Methyltransferases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alipourgivi, Faranak",
+        "Motolani, Aishat",
+        "Qiu, Alice Y",
+        "Qiang, Wenan",
+        "Yang, Guang-Yu",
+        "Chen, Shuibing",
+        "Lu, Tao"
+      ],
+      "short_names": [
+        "Alipourgivi F",
+        "Motolani A",
+        "Qiu AY",
+        "Qiang W",
+        "Yang GY",
+        "Chen S",
+        "Lu T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2583-8953",
+        "ORCID: 0000-0001-5068-7128",
+        "ORCID: 0000-0002-0013-4987"
+      ],
+      "affiliations": [
+        "Department of Pharmacology & Toxicology, Indiana University School of Medicine, Indianapolis, IN 46202, USA.",
+        "Indiana University Melvin and Bren Simon Comprehensive Cancer Center, Indianapolis, IN 46202, USA.",
+        "Department of Pharmacology & Toxicology, Indiana University School of Medicine, Indianapolis, IN 46202, USA.",
+        "Center for Developmental Therapeutics, Chemistry of Life Processes Institute, Northwestern University, Evanston, IL 60208, USA.",
+        "Center for Developmental Therapeutics, Chemistry of Life Processes Institute, Northwestern University, Evanston, IL 60208, USA.",
+        "Department of Obstetrics and Gynecology, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA.",
+        "Robert H. Lurie Comprehensive Cancer Center of Northwestern University, Chicago, IL 60611, USA.",
+        "Department of Pathology, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA.",
+        "Robert H. Lurie Comprehensive Cancer Center of Northwestern University, Chicago, IL 60611, USA.",
+        "Department of Pathology, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA.",
+        "Department of Surgery, Weill Cornell Medicine, 1300 York Avenue, New York, NY 10065, USA.",
+        "Department of Pharmacology & Toxicology, Indiana University School of Medicine, Indianapolis, IN 46202, USA.",
+        "Indiana University Melvin and Bren Simon Comprehensive Cancer Center, Indianapolis, IN 46202, USA.",
+        "Department of Biochemistry & Molecular Biology, Indiana University School of Medicine, Indianapolis, IN 46202, USA.",
+        "Department of Medical & Molecular Genetics, Indiana University School of Medicine, Indianapolis, IN 46202, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alipourgivi, Faranak",
+        "short_name": "Alipourgivi F",
+        "identifiers": [
+          "0000-0003-2583-8953"
+        ],
+        "affiliations": [
+          "Department of Pharmacology & Toxicology, Indiana University School of Medicine, Indianapolis, IN 46202, USA.",
+          "Indiana University Melvin and Bren Simon Comprehensive Cancer Center, Indianapolis, IN 46202, USA."
+        ]
+      },
+      {
+        "full_name": "Motolani, Aishat",
+        "short_name": "Motolani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Toxicology, Indiana University School of Medicine, Indianapolis, IN 46202, USA."
+        ]
+      },
+      {
+        "full_name": "Qiu, Alice Y",
+        "short_name": "Qiu AY",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Therapeutics, Chemistry of Life Processes Institute, Northwestern University, Evanston, IL 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Qiang, Wenan",
+        "short_name": "Qiang W",
+        "identifiers": [
+          "0000-0001-5068-7128"
+        ],
+        "affiliations": [
+          "Center for Developmental Therapeutics, Chemistry of Life Processes Institute, Northwestern University, Evanston, IL 60208, USA.",
+          "Department of Obstetrics and Gynecology, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA.",
+          "Robert H. Lurie Comprehensive Cancer Center of Northwestern University, Chicago, IL 60611, USA.",
+          "Department of Pathology, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Guang-Yu",
+        "short_name": "Yang GY",
+        "identifiers": [],
+        "affiliations": [
+          "Robert H. Lurie Comprehensive Cancer Center of Northwestern University, Chicago, IL 60611, USA.",
+          "Department of Pathology, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuibing",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Weill Cornell Medicine, 1300 York Avenue, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Tao",
+        "short_name": "Lu T",
+        "identifiers": [
+          "0000-0002-0013-4987"
+        ],
+        "affiliations": [
+          "Department of Pharmacology & Toxicology, Indiana University School of Medicine, Indianapolis, IN 46202, USA.",
+          "Indiana University Melvin and Bren Simon Comprehensive Cancer Center, Indianapolis, IN 46202, USA.",
+          "Department of Biochemistry & Molecular Biology, Indiana University School of Medicine, Indianapolis, IN 46202, USA.",
+          "Department of Medical & Molecular Genetics, Indiana University School of Medicine, Indianapolis, IN 46202, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Dec 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/11 07:42",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "41628115",
+      "41283264",
+      "41072789",
+      "40770256",
+      "40650205",
+      "40282754",
+      "39875357",
+      "39702532",
+      "39684316",
+      "39390264",
+      "38572238"
+    ],
+    "refs": [
+      "37415635",
+      "37202560",
+      "37047013",
+      "37013054",
+      "36702898",
+      "36633525",
+      "36599679",
+      "36543756",
+      "36156927",
+      "36002565",
+      "35850446",
+      "35700938",
+      "35697692",
+      "35538576",
+      "35406504",
+      "35269880",
+      "35224144",
+      "34918496",
+      "34794114",
+      "34790355",
+      "34730002",
+      "34670579",
+      "34385685",
+      "34299049",
+      "34236645",
+      "34074695",
+      "34044280",
+      "33623712",
+      "33495476",
+      "33375283",
+      "33374459",
+      "33224945",
+      "32990680",
+      "32985589",
+      "32958760",
+      "32731506",
+      "32708302",
+      "32700762",
+      "32650388",
+      "32456215",
+      "32308343",
+      "32000174",
+      "31910904",
+      "31669643",
+      "31631858",
+      "31614493",
+      "31597751",
+      "31316988",
+      "31183211",
+      "31171691",
+      "30405966",
+      "30077656",
+      "29985333",
+      "29559746",
+      "29472532",
+      "29472484",
+      "29300390",
+      "29242316",
+      "29158945",
+      "28628110",
+      "28591716",
+      "28355176",
+      "27578007",
+      "27517155",
+      "27264420",
+      "26479923",
+      "26422835",
+      "26406370",
+      "26337909",
+      "25977134",
+      "25957691",
+      "25932044",
+      "25706875",
+      "24834258",
+      "24469030",
+      "24170545",
+      "23904475",
+      "23059428",
+      "22825584",
+      "22574233",
+      "21889923",
+      "21173796",
+      "21102550",
+      "20420947",
+      "20080798",
+      "20018966",
+      "19332896",
+      "19329995",
+      "17852842",
+      "17622249",
+      "17072321",
+      "14676835",
+      "9895331"
+    ],
+    "similar": [
+      "38203325",
+      "35269880",
+      "34299049",
+      "32985589",
+      "40660346",
+      "32456215",
+      "42475469",
+      "40247422",
+      "28912140",
+      "38602236",
+      "34412652",
+      "29472532",
+      "29973688",
+      "31395078",
+      "29367109",
+      "29550444",
+      "42035135",
+      "41498663",
+      "40746890",
+      "24302614",
+      "38430146",
+      "22086675",
+      "38571352",
+      "26261008",
+      "39239848",
+      "41560417",
+      "19887045",
+      "38743809",
+      "41226455",
+      "39353381",
+      "35381565",
+      "42621716",
+      "39343509",
+      "34773477",
+      "40537666",
+      "30119635",
+      "27322737",
+      "33461143",
+      "33375283",
+      "41522336",
+      "33742464",
+      "42085848",
+      "40937457",
+      "39702532",
+      "20367537",
+      "28820388",
+      "42335960",
+      "30321325",
+      "36401762",
+      "38750899",
+      "39056778",
+      "40985087",
+      "34151717",
+      "41368641",
+      "39658274",
+      "34794114",
+      "40315964",
+      "27555280",
+      "38622461",
+      "39408697",
+      "40746878",
+      "38380575",
+      "37414211",
+      "34035230",
+      "41646966",
+      "23636511",
+      "24931456",
+      "41559776",
+      "31623387",
+      "33517196",
+      "38762737",
+      "38219532",
+      "35173535",
+      "33664859",
+      "28591716",
+      "37855910",
+      "34734434",
+      "38240906",
+      "42371822",
+      "27912775",
+      "40507920",
+      "33853662",
+      "32418198",
+      "29855462",
+      "42057436",
+      "24968890",
+      "33302959",
+      "38576002",
+      "38253217",
+      "26346117",
+      "31501538",
+      "31669643",
+      "40319997",
+      "32429376",
+      "21963853",
+      "41845506",
+      "19658179",
+      "38663471",
+      "34271981",
+      "33784010"
+    ],
+    "review": [
+      "38203325",
+      "34299049",
+      "40660346",
+      "29550444",
+      "19887045",
+      "33375283",
+      "39702532",
+      "20367537",
+      "42335960",
+      "40985087",
+      "34794114",
+      "40315964",
+      "23636511",
+      "41559776",
+      "31623387",
+      "38219532",
+      "37855910",
+      "31669643"
+    ],
+    "pmc": [
+      "10779007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25010154",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38203325/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38203325",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

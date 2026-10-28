@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only (arXiv metadata page, no full text or figures provided)
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract and title
+- **Shared manuscript claim summary** The authors propose DeepVRegulome, a DNABERT-based deep-learning framework for predicting the functional impact of short genomic variants on the human regulome. The abstract indicates a model that integrates DNA language model representations with regulatory genomics data, but specific performance metrics, datasets, and methodological details are not provided in the supplied material.
+- **Visible evidence base** Title, author list, submission date, arXiv identifier, and the abstract text as reproduced in the submission. No figures, tables, methods section, or results section are available.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, supplementary materials, code availability statement, dataset descriptions, and any quantitative results. The abstract itself is truncated and does not include performance numbers, benchmark comparisons, or validation details.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics, namely predicting the functional impact of short variants on the human regulome using a transformer-based DNA language model. The choice of DNABERT as a foundation is reasonable given the recent success of such models in genomic sequence analysis. However, the supplied material is insufficient to evaluate the technical soundness, originality, or scientific importance of the work. The abstract lacks quantitative results, clear methodological novelty, and a defined comparison against existing tools. The case for the framework's utility is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in computational genomics, variant interpretation, and regulatory genomics would be the primary audience. Clinically oriented groups working on non-coding variant prioritization might also find the tool relevant if the performance claims are substantiated. The broader machine learning for genomics community would be interested in the application of DNA language models to variant effect prediction.
+- **Major strengths** The problem is well motivated and timely. The use of a DNA language model (DNABERT) is a sensible approach for capturing sequence context around variants. The focus on the regulome, rather than only coding regions, addresses an important gap in variant interpretation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that DeepVRegulome predicts the functional impact of short genomic variants on the human regulome, implying a validated and useful tool.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics such as accuracy, AUC, precision, recall, or comparison against existing methods like CADD, Eigen, or PrimateAI. The abstract does not state the size of the training dataset, the number of variant types considered, or the specific regulatory features predicted.
+  - **Why it matters** Without quantitative benchmarks, the reader cannot assess whether the framework outperforms existing tools or provides any practical advantage. The claim of predictive capability is unsupported.
+  - **Resolution test** Provide a results section with benchmark comparisons on standard variant effect prediction datasets, including metrics and statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract implies a novel deep-learning framework based on DNABERT, but the specific architectural modifications or training strategies are not described.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not explain how DeepVRegulome differs from a straightforward application of DNABERT to variant sequences. There is no mention of the model architecture, input representation, training procedure, or how regulatory annotations are integrated.
+  - **Why it matters** Without methodological detail, the novelty and technical soundness cannot be evaluated. The framework may be a trivial adaptation of existing models, or it may contain significant innovations, but the current material does not allow discrimination.
+  - **Resolution test** Include a methods section that details the model architecture, training data, loss functions, and any novel components relative to prior DNABERT-based approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract presents DeepVRegulome as a framework, implying that it is usable by others.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No information is provided on code availability, model weights, or access to the trained model. The abstract does not mention whether the framework is released as open source or available through a web server.
+  - **Why it matters** For a computational tool, reproducibility and accessibility are essential for adoption and for independent validation. Without these, the framework cannot be tested or extended by the community.
+  - **Resolution test** State a clear code and data availability plan, including a repository URL and instructions for model access.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "regulome" is used without a precise definition. It is unclear whether the framework predicts chromatin states, transcription factor binding, enhancer activity, or a composite score.
+  - **Required correction** Define the specific regulatory features predicted and the output format of the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the range of variant types covered, such as single nucleotide variants, insertions, or deletions, nor the genomic context, such as promoter, enhancer, or intergenic regions.
+  - **Required correction** Clarify the variant types and genomic regions included in the model's scope.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not reference existing variant effect prediction tools or prior DNA language model applications, making it difficult to position the work in the field.
+  - **Required correction** Add a brief comparison to existing methods in the abstract or introduction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and reproducibility information collectively prevent any assessment of the framework's validity or utility.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the supplied material. The use of DNABERT is not novel per se, and the abstract does not articulate a distinct contribution.
+  - Scientific importance: Potentially high if the framework performs well, but the importance cannot be judged without results.
+  - Interdisciplinary readership: The topic bridges genomics and machine learning, which could attract a broad audience, but the abstract does not make the case for cross-disciplinary relevance.
+  - Technical soundness: Not assessable. No methodological or experimental details are provided.
+  - Readability for nonspecialists: The abstract is brief and uses standard terminology, but the lack of context and results limits its accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript may have merit, but the supplied abstract is insufficient to support any positive recommendation. A full manuscript with results, methods, and availability statements is required for a substantive review.
+
+## Risk / unsupported claims
+- The claim that DeepVRegulome predicts functional impact is unsupported due to the absence of any performance data.
+- The implied novelty of the framework is unverifiable without methodological details.
+- The usability of the framework as a tool is unsubstantiated without code or access information.

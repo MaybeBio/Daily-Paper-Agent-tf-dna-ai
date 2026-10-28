@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "42143345",
+    "doi": "10.1186/s13041-026-01313-2",
+    "title": "REST deficiency and neurogenic-to-gliogenic shift in down syndrome human cerebral organoids."
+  },
+  "content": {
+    "abstract": "Down syndrome (DS) features impaired cortical neurogenesis and excess gliogenesis, yet the temporal regulatory events driving this imbalance remain unclear. Here, we combine multi-timepoint transcriptomic analyses from publicly available datasets, network modelling, and machine-learning prioritization, with validation in isogenic human iPSC-derived cerebral organoids, to identify a discrete pathogenic window at 90 days in vitro (DIV 90). Across five developmental stages, REST target genes were preferentially dysregulated in DS organoids. WGCNA revealed a DS-associated module at DIV-90 that strongly overlapped with REST targets, and two orthogonal machine-learning approaches converged on six REST-regulated hub genes-CSTB, MCM3AP, PFKL, POFUT2, PRMT2, and RWDD2B. In trisomic organoids, REST mRNA and nuclear protein were markedly reduced at DIV-90, accompanied by diminished DCX expression and activation of NFIA and STAT3, suggesting a neurogenic-to-gliogenic fate transition. These findings suggest REST dysfunction as a potential temporal regulator of lineage imbalance in DS and highlight REST-linked networks as potential targets for early developmental intervention.",
+    "keywords": [
+      "Cerebral organoid",
+      "Down syndrome",
+      "Neurodevelopment",
+      "REST",
+      "hiPSC"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Organoids/pathology/metabolism",
+      "*Down Syndrome/pathology/genetics",
+      "RE1-Silencing Transcription Factor",
+      "*Neurogenesis/genetics",
+      "*Neuroglia/pathology/metabolism",
+      "*Repressor Proteins/deficiency/metabolism/genetics",
+      "Induced Pluripotent Stem Cells/metabolism/pathology",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "RNA, Messenger/genetics/metabolism",
+      "*Cerebrum/pathology",
+      "STAT3 Transcription Factor/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Tan",
+        "Lim, Chong-Teik",
+        "Li, Wei",
+        "Fakurazi, Sharida",
+        "Mason, John O",
+        "Cheah, Pike-See",
+        "Li, Yi",
+        "Ling, King-Hwa"
+      ],
+      "short_names": [
+        "Huang T",
+        "Lim CT",
+        "Li W",
+        "Fakurazi S",
+        "Mason JO",
+        "Cheah PS",
+        "Li Y",
+        "Ling KH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The Second Affiliated Hospital of Zunyi Medical University, Zunyi City, 563000, Guizhou Province, China.",
+        "Department of Biomedical Sciences, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, 43400, Serdang, Selangor, Malaysia.",
+        "Department of Biomedical Sciences, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, 43400, Serdang, Selangor, Malaysia.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Zunyi Medical University, Zunyi City, 563000, Guizhou Province, China.",
+        "Department of Human Anatomy, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Serdang, 43400, Selangor, Malaysia.",
+        "Institute for Neuroscience and Cardiovascular Research, The University of Edinburgh, Hugh Robson Building, 15 George Square, Edinburgh, EH8 9XD, UK.",
+        "Department of Human Anatomy, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Serdang, 43400, Selangor, Malaysia.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Zunyi Medical University, Zunyi City, 563000, Guizhou Province, China.",
+        "Department of Biomedical Sciences, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, 43400, Serdang, Selangor, Malaysia. lkh@upm.edu.my.",
+        "Malaysian Research Institute on Ageing (MyAgeing(R)), Universiti Putra Malaysia, 43400, Serdang, Selangor, Malaysia. lkh@upm.edu.my.",
+        "M. Kandiah Faculty of Medicine and Health Sciences, Universiti Tunku Abdul Rahman, Cheras, Selangor, Malaysia. lkh@upm.edu.my.",
+        "Fakultas Kedokteran, Universitas Pembangunan Nasional \"Veteran\" Jakarta, Jakarta, Indonesia. lkh@upm.edu.my."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Tan",
+        "short_name": "Huang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Zunyi Medical University, Zunyi City, 563000, Guizhou Province, China.",
+          "Department of Biomedical Sciences, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, 43400, Serdang, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Lim, Chong-Teik",
+        "short_name": "Lim CT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, 43400, Serdang, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Zunyi Medical University, Zunyi City, 563000, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Fakurazi, Sharida",
+        "short_name": "Fakurazi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Anatomy, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Serdang, 43400, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Mason, John O",
+        "short_name": "Mason JO",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Neuroscience and Cardiovascular Research, The University of Edinburgh, Hugh Robson Building, 15 George Square, Edinburgh, EH8 9XD, UK."
+        ]
+      },
+      {
+        "full_name": "Cheah, Pike-See",
+        "short_name": "Cheah PS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Anatomy, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Serdang, 43400, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Li, Yi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Zunyi Medical University, Zunyi City, 563000, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Ling, King-Hwa",
+        "short_name": "Ling KH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, 43400, Serdang, Selangor, Malaysia. lkh@upm.edu.my.",
+          "Malaysian Research Institute on Ageing (MyAgeing®), Universiti Putra Malaysia, 43400, Serdang, Selangor, Malaysia. lkh@upm.edu.my.",
+          "M. Kandiah Faculty of Medicine and Health Sciences, Universiti Tunku Abdul Rahman, Cheras, Selangor, Malaysia. lkh@upm.edu.my.",
+          "Fakultas Kedokteran, Universitas Pembangunan Nasional \"Veteran\" Jakarta, Jakarta, Indonesia. lkh@upm.edu.my."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular brain"
+    ],
+    "journal_abbrev": [
+      "Mol Brain"
+    ],
+    "pub_date": "2026 May 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/17 06:29",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40206188",
+      "39843579",
+      "39565209",
+      "39417505",
+      "38838150",
+      "36817096",
+      "36313423",
+      "36216811",
+      "35637312",
+      "34692694",
+      "34557778",
+      "34520100",
+      "33945512",
+      "31943018",
+      "31130512",
+      "29526735",
+      "29351877",
+      "27374120",
+      "27328057",
+      "27118425",
+      "26745185",
+      "26742529",
+      "26373433",
+      "26005811",
+      "25034944",
+      "24740065",
+      "23995685",
+      "23716668",
+      "21715642",
+      "21088488",
+      "19888342",
+      "19851315",
+      "19276672",
+      "19114008",
+      "18957203",
+      "17572692",
+      "16199517",
+      "15233996",
+      "12209125",
+      "11830198",
+      "8172601"
+    ],
+    "similar": [
+      "42143345",
+      "39843579",
+      "39756608",
+      "41252060",
+      "33945512",
+      "30989628",
+      "18771760",
+      "34233200",
+      "27743462",
+      "41453570",
+      "36652145",
+      "37373133",
+      "33852833",
+      "41002374",
+      "31130512",
+      "32862797",
+      "37938767",
+      "35301086",
+      "30699343",
+      "20823235",
+      "25483109",
+      "32764607",
+      "32186681",
+      "40851107",
+      "22791895",
+      "11830198",
+      "40206188",
+      "40948769",
+      "25747816",
+      "40541173",
+      "42411605",
+      "41350900",
+      "31915063",
+      "36161168",
+      "32456176",
+      "37451904",
+      "39485283",
+      "41027953",
+      "40127053",
+      "33513360",
+      "41182667",
+      "28575744",
+      "28111201",
+      "28321286",
+      "23225669",
+      "39349966",
+      "26881131",
+      "37605285",
+      "34943930",
+      "40777423",
+      "41293823",
+      "39680368",
+      "29706353",
+      "34210779",
+      "30545853",
+      "28674289",
+      "23413375",
+      "38030818",
+      "41586936",
+      "30735633",
+      "23041301",
+      "34127780",
+      "34732776",
+      "40882620",
+      "37068185",
+      "38654093",
+      "30775947",
+      "42024758",
+      "15654842",
+      "20600907",
+      "41173771",
+      "15068239",
+      "33642505",
+      "39758604",
+      "29128905",
+      "31978452",
+      "23643842",
+      "41607310",
+      "23712629",
+      "19201947",
+      "36544188",
+      "42613631",
+      "41578097",
+      "38838150",
+      "30758748",
+      "41388523",
+      "42082092",
+      "39080045",
+      "37488681",
+      "19888342",
+      "31217239",
+      "21252229",
+      "42289232",
+      "38102482",
+      "27751817",
+      "35077669",
+      "29526735",
+      "40495012",
+      "34576118",
+      "42475469"
+    ],
+    "review": [
+      "42143345",
+      "26881131",
+      "28674289",
+      "23413375"
+    ],
+    "pmc": [
+      "13348641"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-026-01313-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/downsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Down Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42143345/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CSTB-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-425",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

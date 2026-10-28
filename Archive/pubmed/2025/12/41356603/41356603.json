@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41356603",
+    "doi": "10.2147/DDDT.S522381",
+    "title": "Exploratory Study on the Role of Emodin in Alleviating MPTP-Induced Neurotoxicity: A Focus on p53-Ferroptosis Signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Parkinson's disease (PD) is a common neurodegenerative disorder. Emodin (EMD), which is derived from multiple Chinese medicinal herbs, has been reported to possess anti-inflammatory, anti-ferroptosis, and neuroprotective effects. However, the mechanisms underlying the regulation of PD-related ferroptosis remain unclear. OBJECTIVE: To investigate whether EMD protects dopaminergic neurons in 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP)-induced models of PD and to elucidate its underlying mechanisms. METHODS: Potential EMD targets were predicted using SEA and Swiss databases. The PD targets were identified using the OMIM and GeneCards databases. Overlapping genes were introduced to construct protein-protein interactions (PPI) and perform Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses. Molecular docking was used to ascertain the possibility of the binding of EMD to p53 and TfR1. The stability of EMD-p53 complex was validated by using molecular dynamics simulations using the YASARA. To validate these mechanisms, we used an MPTP-induced mouse model to investigate the beneficial effects of EMD. Motor function was assessed using the open field and rotarod tests. Malondialdehyde (MDA) and iron contents in the midbrain were determined. SH-SY5Y cells were subjected with 1-methyl-4-phenyl-pyridinium (MPP(+)) or ferroptosis inducer. Ferroptosis signaling, iron metabolism, and mitochondrial superoxide levels were investigated using Western blotting, qPCR, immunofluorescence, and flow cytometry. RESULTS: Enrichment analysis revealed that the shared targets of the PD and EMD gene sets were involved in iron metabolism, with TP53 being the most connected protein in the PPI network. Molecular docking analysis suggested that EMD formed a stable complex with p53 or TfR1. Molecular Dynamics Simulation further confirmed that the interactions between EMD and p53 remained stable over time. In vivo studies demonstrated the beneficial effects of EMD in an MPTP mouse model of PD. This action was achieved by inhibiting p53 expression and mitigating ferroptosis signaling in the substantia nigra (SN). EMD similarly attenuated cell injury and ferroptosis in SH-SY5Y cells by inhibiting p53-ferroptosis signaling. In contrast, pharmacological enhancement of p53 nullified these effects in the MPP(+)-treated SH-SY5Y cells. CONCLUSION: These preliminary results indicate that EMD could exert neuroprotective effects against MPTP-induced toxicity, possibly via modulating p53-ferroptosis signaling.",
+    "keywords": [
+      "MPTP",
+      "Parkinson's disease",
+      "emodin",
+      "ferroptosis",
+      "neurodegeneration",
+      "p53"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Tumor Suppressor Protein p53/metabolism/antagonists & inhibitors",
+      "*Emodin/pharmacology/administration & dosage/chemistry",
+      "Mice",
+      "*Ferroptosis/drug effects",
+      "1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine/pharmacology",
+      "Signal Transduction/drug effects",
+      "*Neuroprotective Agents/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Dose-Response Relationship, Drug",
+      "Humans",
+      "Disease Models, Animal",
+      "Dopaminergic Neurons/drug effects/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yujun",
+        "Zhao, Yuhang",
+        "Wang, Qing",
+        "Chen, Qiuchi",
+        "Chen, Xiqun",
+        "Yang, Kai"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Zhao Y",
+        "Wang Q",
+        "Chen Q",
+        "Chen X",
+        "Yang K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China.",
+        "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China.",
+        "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China.",
+        "Department of Radiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, 210029, People's Republic of China.",
+        "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China.",
+        "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yujun",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+          "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuhang",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+          "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qing",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+          "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qiuchi",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, 210029, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiqun",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+          "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Kai",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Medicine, Huashan Hospital, Fudan University, Shanghai, People's Republic of China.",
+          "Institute of Integrative Medicine, Fudan University, Shanghai, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/08 13:19",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42503524",
+      "42182052"
+    ],
+    "refs": [
+      "39221531",
+      "39218077",
+      "38944149",
+      "38936518",
+      "38866017",
+      "38729160",
+      "38311377",
+      "38245249",
+      "38086390",
+      "38009195",
+      "37735472",
+      "37442770",
+      "37133631",
+      "36967569",
+      "36894028",
+      "36322932",
+      "36213542",
+      "36100231",
+      "35367766",
+      "35087226",
+      "34942142",
+      "34587716",
+      "33997705",
+      "33737050",
+      "33157209",
+      "32804006",
+      "32160546",
+      "31442326",
+      "27578012",
+      "25231526",
+      "17401348"
+    ],
+    "similar": [
+      "41356603",
+      "35216503",
+      "41460594",
+      "38365133",
+      "38787465",
+      "40306495",
+      "38471370",
+      "32846198",
+      "38763373",
+      "32386222",
+      "39976808",
+      "37717841",
+      "38956066",
+      "38622810",
+      "36105483",
+      "29675576",
+      "24792712",
+      "40992070",
+      "31381935",
+      "40015596",
+      "39491747",
+      "38305108",
+      "28185818",
+      "38453725",
+      "40554139",
+      "35752074",
+      "40130647",
+      "39042624",
+      "29679389",
+      "39846440",
+      "38477420",
+      "25581060",
+      "29588573",
+      "31069623",
+      "31175966",
+      "38105596",
+      "35625589",
+      "36576692",
+      "41220093",
+      "41319414",
+      "36602724",
+      "40763886",
+      "26648012",
+      "24305623",
+      "37145378",
+      "34666128",
+      "28321769",
+      "27317935",
+      "39556135",
+      "40773721",
+      "40431412",
+      "26593210",
+      "35488941",
+      "40738179",
+      "40183980",
+      "31306618",
+      "29991712",
+      "29786072",
+      "38936518",
+      "39631720",
+      "26996132",
+      "27741433",
+      "24607817",
+      "36369636",
+      "40146439",
+      "23178948",
+      "40374370",
+      "21903118",
+      "26563498",
+      "36589679",
+      "23321539",
+      "39141244",
+      "40441584",
+      "35490904",
+      "30374025",
+      "26282118",
+      "39864142",
+      "25322954",
+      "22773138",
+      "28807678",
+      "25968939",
+      "30914252",
+      "37422180",
+      "37166273",
+      "40183389",
+      "40639730",
+      "39344237",
+      "35752080",
+      "27484986",
+      "32485229",
+      "27277809",
+      "25678053",
+      "39044012",
+      "31442326",
+      "40309229",
+      "22192054",
+      "27975170",
+      "40018928",
+      "32566093",
+      "31418048"
+    ],
+    "review": [
+      "41356603"
+    ],
+    "pmc": [
+      "12680504"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41356603/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S522381",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

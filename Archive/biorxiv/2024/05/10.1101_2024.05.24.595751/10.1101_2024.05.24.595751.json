@@ -1,0 +1,236 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.24.595751",
+  "title": "An acidic loop in the FHA domain of the yeast meiosis-specific kinase Mek1 interacts with a specific motif in a subset of Mek1 substrates",
+  "doi": "10.1101/2024.05.24.595751",
+  "abstract": "<h4>ABSTRACT</h4> The meiosis-specific kinase Mek1 regulates key steps in meiotic recombination in the budding yeast, Saccharomyces cerevisiae . MEK1 limits resection at the double strand break (DSB) ends and is required for preferential strand invasion into homologs, a process known as interhomolog bias. After strand invasion, MEK1 promotes phosphorylation of the synaptonemal complex protein Zip1 that is necessary for DSB repair mediated by a crossover specific pathway that enables chromosome synapsis. In addition, Mek1 phosphorylation of the meiosis-specific transcription factor, Ndt80, regulates the meiotic recombination checkpoint that prevents exit from pachytene when DSBs are present. Mek1 interacts with Ndt80 through a five amino acid sequence, RPSKR, located between the DNA binding and activation domains of Ndt80. AlphaFold Multimer modeling of a fragment of Ndt80 containing the RPSKR motif and full length Mek1 indicated that RPSKR binds to an acidic loop located in the Mek1 FHA domain, a non-canonical interaction with this motif. A second protein, the 5’-3’ helicase Rrm3, similarly interacts with Mek1 through an RPAKR motif and is an in vitro substrate of Mek1. Genetic analysis using various mutants in the MEK1 acidic loop validated the AlphaFold model, in that they specifically disrupt two-hybrid interactions with Ndt80 and Rrm3. Phenotypic analyses further showed that the acidic loop mutants are defective in the meiotic recombination checkpoint, and in certain circumstances exhibit more severe phenotypes compared to the NDT80 mutant with the RPSKR sequence deleted, suggesting that additional, as yet unknown, substrates of Mek1 also bind to Mek1 using an RPXKR motif. <h4>ARTICLE SUMMARY</h4> The FHA domain is conserved module best known for creating protein complexes by binding to phosphorylated threonines on target proteins. This work identified a non-canonical mechanism by which the FHA domain of the yeast meiosis-specific kinase Mek1 interacts with two of its substrates, Ndt80 and Rrm3. An acidic loop within the FHA domain binds to RPXKR motifs in Ndt80 and Rrm3. Genetic evidence suggests that this FHA domain acidic loop is required binding to additional Mek1 substrates.",
+  "authors": [
+    "Weng Q",
+    "Wan L",
+    "Straker GC",
+    "Deegan TD",
+    "Duncker BP",
+    "Neiman AM",
+    "Luk E",
+    "Hollingsworth NM"
+  ],
+  "published_date": "2024-05-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.24.595751",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.24.595751.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR858094",
+    "raw_record": {
+      "id": "PPR858094",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR858094"
+        ]
+      },
+      "doi": "10.1101/2024.05.24.595751",
+      "title": "An acidic loop in the FHA domain of the yeast meiosis-specific kinase Mek1 interacts with a specific motif in a subset of Mek1 substrates",
+      "authorString": "Weng Q, Wan L, Straker GC, Deegan TD, Duncker BP, Neiman AM, Luk E, Hollingsworth NM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Weng Q",
+            "lastName": "Weng",
+            "firstName": "Qixuan",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wan L",
+            "lastName": "Wan",
+            "firstName": "Lihong",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Straker GC",
+            "lastName": "Straker",
+            "firstName": "Geburah",
+            "initials": "GC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deegan TD",
+            "lastName": "Deegan",
+            "firstName": "Tom.",
+            "initials": "TD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, Sir James Black Centre, School of Life Sciences, University of Dundee, Dundee, UK DD1 5EH, UK"
+                },
+                {
+                  "affiliation": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Western General Hospital, Edinburgh, EH4 2XU, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Duncker BP",
+            "lastName": "Duncker",
+            "firstName": "Bernard",
+            "initials": "BP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Neiman AM",
+            "lastName": "Neiman",
+            "firstName": "Aaron",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luk E",
+            "lastName": "Luk",
+            "firstName": "Ed",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hollingsworth NM",
+            "lastName": "Hollingsworth",
+            "firstName": "Nancy",
+            "initials": "NM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  The meiosis-specific kinase Mek1 regulates key steps in meiotic recombination in the budding yeast,  Saccharomyces cerevisiae .  MEK1 limits resection at the double strand break (DSB) ends and is required for preferential strand invasion into homologs, a process known as interhomolog bias. After strand invasion,  MEK1 promotes phosphorylation of the synaptonemal complex protein Zip1 that is necessary for DSB repair mediated by a crossover specific pathway that enables chromosome synapsis. In addition, Mek1 phosphorylation of the meiosis-specific transcription factor, Ndt80, regulates the meiotic recombination checkpoint that prevents exit from pachytene when DSBs are present. Mek1 interacts with Ndt80 through a five amino acid sequence, RPSKR, located between the DNA binding and activation domains of Ndt80. AlphaFold Multimer modeling of a fragment of Ndt80 containing the RPSKR motif and full length Mek1 indicated that RPSKR binds to an acidic loop located in the Mek1 FHA domain, a non-canonical interaction with this motif. A second protein, the 5’-3’ helicase Rrm3, similarly interacts with Mek1 through an RPAKR motif and is an in vitro substrate of Mek1. Genetic analysis using various mutants in the  MEK1 acidic loop validated the AlphaFold model, in that they specifically disrupt two-hybrid interactions with Ndt80 and Rrm3. Phenotypic analyses further showed that the acidic loop mutants are defective in the meiotic recombination checkpoint, and in certain circumstances exhibit more severe phenotypes compared to the  NDT80 mutant with the RPSKR sequence deleted, suggesting that additional, as yet unknown, substrates of Mek1 also bind to Mek1 using an RPXKR motif.  <h4>ARTICLE SUMMARY</h4>  The FHA domain is conserved module best known for creating protein complexes by binding to phosphorylated threonines on target proteins. This work identified a non-canonical mechanism by which the FHA domain of the yeast meiosis-specific kinase Mek1 interacts with two of its substrates, Ndt80 and Rrm3. An acidic loop within the FHA domain binds to RPXKR motifs in Ndt80 and Rrm3. Genetic evidence suggests that this FHA domain acidic loop is required binding to additional Mek1 substrates.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.24.595751"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR858094"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR858094&type=FILE&fileName=EMS196502-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38979911",
+            "reference": "Genetics. \n    2024 Jul;:iyae106",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196502",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-05-27",
+      "firstPublicationDate": "2024-05-25",
+      "firstIndexDate": "2024-05-27",
+      "fullTextReceivedDate": "2024-06-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

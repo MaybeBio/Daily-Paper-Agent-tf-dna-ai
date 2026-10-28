@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, concluding discussions, author contributions, declarations, acknowledgments)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the manuscript. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors propose that the conformational space of protein-protein binding interfaces can be encoded by a generative autoencoder operating on interface fragment pairs, and that newly generated fragment pairs can guide the assembly of protein complexes into native-like conformations. They conclude that this space is highly degenerate and that their method will be useful for predicting unknown protein-protein interactions.
+- **Visible evidence base** Abstract, Introduction, Methods (dataset construction, autoencoder design, SOM clustering, structural reconstruction), Results (training curves, reconstruction accuracy, SOM visualization, benchmark assembly results), Concluding Discussions, author contributions, declarations, acknowledgments. Figures referenced but not provided in the submitted material.
+- **Missing materials affecting confidence** Figures 1-6 are referenced but not included. No quantitative performance metrics (e.g., RMSD distributions, success rates) are reported in the text. No comparison to existing methods is provided. No statistical significance testing is described. The benchmark dataset composition and evaluation protocol are only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to encoding protein-protein binding interfaces using a generative autoencoder. The idea of decomposing interfaces into fragment pairs and exploring their latent space is novel and potentially useful. However, the current manuscript lacks critical quantitative evidence to support the central claims. The absence of figures, detailed performance metrics, and rigorous evaluation protocols prevents a full assessment of the method's validity and utility. The claims of high reconstruction accuracy and successful complex assembly are not substantiated with numerical data. The manuscript is more of a proof-of-concept description than a fully validated study.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, structural modeling, and machine learning applications in structural biology. The concept of a degenerate interface fragment space could interest researchers studying protein evolution and interaction specificity. The method, if validated, could be relevant to those developing docking and complex structure prediction tools.
+- **Major strengths** The conceptual framing of decomposing binding interfaces into fragment pairs is clear and well-motivated. The use of a generative autoencoder with SOM-based clustering is a reasonable and potentially powerful approach. The authors correctly identify a key limitation (lack of sequence features) and propose plausible future directions. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The autoencoder accurately reconstructed the conformation of interface fragment pairs" and "a majority of residues in reconstructed structures have RMSDs of less than 1 Angstrom from their corresponding native positions"
+  - **Evidence pointer** Results section, Figure 2 (not provided)
+  - **Concern** The central claim of accurate reconstruction is supported only by a qualitative description of a histogram and a single SD value. No quantitative metrics such as mean RMSD, median RMSD, percentage of residues below thresholds, or comparison across different secondary structure types are provided. The figure itself is not available for inspection. Without these data, the accuracy claim cannot be evaluated.
+  - **Why it matters** The entire premise of the method rests on the ability of the autoencoder to faithfully reconstruct interface fragment pairs. If reconstruction is not accurate, the generated conformations and subsequent complex assembly results are meaningless. The current evidence is insufficient to establish this foundational capability.
+  - **Resolution test** Provide the actual RMSD distribution with mean, median, percentiles, and the fraction of residues below 1Å and 2Å. Include separate analyses for different secondary structure categories. Show representative reconstruction examples with quantitative overlay errors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Native-like protein complexes were assembled by the generated interface fragment pairs" and "we found structural models which RMSDs are less than 6.0Å from their native structures. The average value of the distribution is 2.81Å"
+  - **Evidence pointer** Results section, Figure 5 (not provided)
+  - **Concern** The benchmark assembly results are presented as a single histogram and two summary statistics. No information is provided on the distribution shape, the number of complexes that failed, the range of RMSD values, or the fraction of complexes with native-like models below commonly used thresholds (e.g., 1Å, 2Å, 4Å). The evaluation protocol is also unclear: how many generated fragment pairs were used per complex? How were clashes defined and filtered? What is the computational cost? Without a detailed and quantitative evaluation, the claim of successful assembly is not established.
+  - **Why it matters** The practical utility of the method depends on its ability to generate useful conformations for complex assembly. The current evidence is anecdotal and insufficient to demonstrate that the method works reliably across a diverse benchmark.
+  - **Resolution test** Provide a full distribution of best RMSD values for all 84 complexes, including the number of failures. Report the fraction of complexes with best RMSD below 1Å, 2Å, 4Å, and 6Å. Describe the evaluation protocol in detail, including the number of generated fragment pairs used, clash criteria, and computational time. Compare performance against a baseline (e.g., using native fragment pairs or random sampling).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** "Vectors in the latent space of the autoencoder were clustered by a self-organizing map" and "new conformations of interface fragment pairs were generated through above sampling process"
+  - **Evidence pointer** Methods section (SOM clustering), Results section, Figure 4 (not provided)
+  - **Concern** The SOM-based sampling strategy is described qualitatively but lacks critical details. How were the cluster boundaries determined? How was the probability of selecting a neuron mapped to its win count? Were the generated conformations validated for physical plausibility (e.g., Ramachandran angles, steric clashes)? The manuscript does not describe any filtering or quality control of generated conformations. The claim that generated conformations are "very similar to what can be found in native protein complexes" is based on visual inspection of a few examples, which is not a rigorous validation.
+  - **Why it matters** The generative capability of the model is a key contribution. Without a clear description of the sampling procedure and validation of generated conformations, the reader cannot assess whether the generated structures are physically meaningful or merely plausible-looking.
+  - **Resolution test** Provide a detailed algorithmic description of the sampling procedure, including how cluster probabilities are computed and how weights are converted to conformations. Validate generated conformations using stereochemical quality checks (e.g., MolProbity) and compare the distribution of generated conformations to native ones. Report quantitative similarity metrics (e.g., RMSD distributions, secondary structure content).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative context
+  - **Claim pointer** "The method will be potentially useful to search for and predict the conformations of unknown protein-protein interactions"
+  - **Evidence pointer** Abstract, Concluding Discussions
+  - **Concern** The manuscript does not compare the proposed method to existing approaches for protein complex structure prediction or interface modeling. No baseline is provided, and the claimed utility is not demonstrated in a practical scenario. The authors acknowledge that the method is not yet a prediction tool, but the potential utility is stated without any supporting evidence or comparison to state-of-the-art methods.
+  - **Why it matters** For a methods paper, demonstrating advantage or complementarity over existing approaches is essential to establish novelty and utility. Without a comparison, the reader cannot judge whether this approach offers any benefit over existing tools.
+  - **Resolution test** Provide a comparison to at least one existing method (e.g., template-based modeling, AlphaFold-multimer, or docking) on the same benchmark. Discuss the advantages and limitations of the proposed approach in this context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, dataset construction
+  - **Evidence pointer** Methods section, "Dataset of fragment pairs at protein-protein binding interfaces"
+  - **Issue** The description of the dataset construction is incomplete. The criteria for selecting 4960 complexes from 3did are not fully specified. The definition of "representative" is vague. The distribution of interface fragment pairs across different complex types is not described.
+  - **Required correction** Clarify the selection criteria and describe the diversity of the dataset (e.g., number of unique domain pairs, range of complex sizes, secondary structure composition).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, autoencoder design
+  - **Evidence pointer** Methods section, "Design of autoencoder"
+  - **Issue** The autoencoder architecture is described only in terms of layer sizes. No information is provided on activation functions (beyond sigmoidal), optimization algorithm, learning rate, regularization, or training time. The batch size is denoted as N but its value is not specified.
+  - **Required correction** Provide full training details, including hyperparameters, optimization settings, and any regularization or data augmentation used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, reconstruction accuracy
+  - **Evidence pointer** Results section, Figure 2
+  - **Issue** The reconstruction accuracy is reported as a single SD value. No confidence intervals, error bars, or statistical tests are provided. The comparison between different network architectures is qualitative.
+  - **Required correction** Report mean, median, and confidence intervals for reconstruction RMSD. Perform statistical tests to compare architectures if claims of difference are made.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, benchmark assembly
+  - **Evidence pointer** Results section, Figure 5
+  - **Issue** The benchmark evaluation is described for only two example complexes in detail. The criteria for selecting these examples are not stated. The relationship between the number of generated fragment pairs and success rate is not explored.
+  - **Required correction** Provide a systematic analysis of success rate as a function of the number of generated fragment pairs used. Justify the choice of example complexes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and precision
+  - **Affected element** Abstract, Concluding Discussions
+  - **Evidence pointer** Abstract, Concluding Discussions
+  - **Issue** The abstract contains redundant statements about the degeneracy of the interface space, repeated nearly verbatim. The concluding discussion introduces new claims (e.g., "highly degenerate") without additional evidence.
+  - **Required correction** Streamline the abstract to avoid repetition. Ensure that all claims in the discussion are directly supported by results presented in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data and figures prevents verification of the core claims. The methodological description of the sampling procedure is insufficient for reproducibility. No validation of generated conformations is provided.
+- **Assessment against Nature-style criteria** Originality: The concept of encoding interface fragment pairs in a latent space is original and interesting. Scientific importance: Potentially high if the method is validated, as it could offer a new way to explore interaction space. Interdisciplinary readership: The topic is relevant to structural biology, computational biology, and machine learning communities. Technical soundness: Currently not established due to missing quantitative evidence and incomplete methodological details. Readability for nonspecialists: The manuscript is generally readable, but the lack of quantitative results makes it difficult for nonspecialists to gauge the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the manuscript requires substantial additional quantitative analysis, methodological detail, and validation before the claims can be supported. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that the autoencoder reconstructs interface fragment pairs with "high fidelity" is unsupported without quantitative data.
+- The claim that generated fragment pairs can "guide the assembly of protein complexes into native-like conformations" is supported only by anecdotal examples and summary statistics without full distribution data.
+- The claim that the conformational space is "highly degenerate" is a conceptual interpretation not directly tested.
+- The potential utility for predicting unknown protein-protein interactions is speculative and not demonstrated.
+- The statement that "most newly generated interface fragment pairs are close to native-like structures" is not quantified.
+- The claim that the method will be "potentially useful" for searching conformations of unknown interactions is not supported by any practical demonstration or comparison.

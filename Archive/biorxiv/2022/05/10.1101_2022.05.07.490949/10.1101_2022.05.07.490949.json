@@ -1,0 +1,255 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.07.490949",
+  "title": "MorphoFeatures: unsupervised exploration of cell types, tissues and organs in volume electron microscopy",
+  "doi": "10.1101/2022.05.07.490949",
+  "abstract": "Electron microscopy (EM) provides a uniquely detailed view of cellular morphology, including organelles and fine subcellular ultrastructure. While the acquisition and (semi-)automatic segmentation of multicellular EM volumes is now becoming routine, large-scale analysis remains severely limited by the lack of generally applicable pipelines for automatic extraction of comprehensive morphological descriptors. Here, we present a novel unsupervised method for learning cellular morphology features directly from 3D EM data: a convolutional neural network delivers a representation of cells by shape and ultrastructure. Applied to the full volume of an entire three-segmented worm of the annelid Platynereis dumerilii , it yields a visually consistent grouping of cells supported by specific gene expression profiles. Integration of features across spatial neighbours can retrieve tissues and organs, revealing, for example, a detailed organization of the animal foregut. We envision that the unbiased nature of the proposed morphological descriptors will enable rapid exploration of very different biological questions in large EM volumes, greatly increasing the impact of these invaluable, but costly resources.",
+  "authors": [
+    "Zinchenko V",
+    "Hugger J",
+    "Uhlmann V",
+    "Arendt D",
+    "Kreshuk A"
+  ],
+  "published_date": "2022-05-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.07.490949",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.07.490949.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR490384",
+    "raw_record": {
+      "id": "PPR490384",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR490384"
+        ]
+      },
+      "doi": "10.1101/2022.05.07.490949",
+      "title": "MorphoFeatures: unsupervised exploration of cell types, tissues and organs in volume electron microscopy",
+      "authorString": "Zinchenko V, Hugger J, Uhlmann V, Arendt D, Kreshuk A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zinchenko V",
+            "lastName": "Zinchenko",
+            "firstName": "Valentyna",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6900-0656"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology and Biophysics Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany"
+                },
+                {
+                  "affiliation": "Collaboration for joint PhD degree between EMBL and Heidelberg University, Faculty of Biosciences"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hugger J",
+            "lastName": "Hugger",
+            "firstName": "Johannes",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1176-2356"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL), Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Uhlmann V",
+            "lastName": "Uhlmann",
+            "firstName": "Virginie",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2859-9241"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL), Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arendt D",
+            "lastName": "Arendt",
+            "firstName": "Detlev",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7833-050X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Developmental Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kreshuk A",
+            "lastName": "Kreshuk",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1334-6388"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology and Biophysics Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6900-0656"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7833-050X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1176-2356"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2859-9241"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1334-6388"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Electron microscopy (EM) provides a uniquely detailed view of cellular morphology, including organelles and fine subcellular ultrastructure. While the acquisition and (semi-)automatic segmentation of multicellular EM volumes is now becoming routine, large-scale analysis remains severely limited by the lack of generally applicable pipelines for automatic extraction of comprehensive morphological descriptors. Here, we present a novel unsupervised method for learning cellular morphology features directly from 3D EM data: a convolutional neural network delivers a representation of cells by shape and ultrastructure. Applied to the full volume of an entire three-segmented worm of the annelid  Platynereis dumerilii , it yields a visually consistent grouping of cells supported by specific gene expression profiles. Integration of features across spatial neighbours can retrieve tissues and organs, revealing, for example, a detailed organization of the animal foregut. We envision that the unbiased nature of the proposed morphological descriptors will enable rapid exploration of very different biological questions in large EM volumes, greatly increasing the impact of these invaluable, but costly resources.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "788921",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/07/2022.05.07.490949.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.07.490949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR490384"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR490384&type=FILE&fileName=EMS144911-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36795088",
+            "reference": "eLife. 2023 Feb;12:e80918",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS144911",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-05-11",
+      "firstPublicationDate": "2022-05-07",
+      "firstIndexDate": "2022-05-11",
+      "fullTextReceivedDate": "2022-05-19",
+      "hasEvaluations": "Y"
+    }
+  }
+}

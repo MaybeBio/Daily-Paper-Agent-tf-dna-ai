@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "38213883",
+    "doi": "10.1016/j.csbj.2023.04.026",
+    "title": "Engineering an AI-based forward-reverse platform for the design of cross-ribosome binding sites of a transcription factor biosensor."
+  },
+  "content": {
+    "abstract": "A cross-ribosome binding site (cRBS) adjusts the dynamic range of transcription factor-based biosensors (TFBs) by controlling protein expression and folding. The rational design of a cRBS with desired TFB dynamic range remains an important issue in TFB forward and reverse engineering. Here, we report a novel artificial intelligence (AI)-based forward-reverse engineering platform for TFB dynamic range prediction and de novo cRBS design with selected TFB dynamic ranges. The platform demonstrated superior in processing unbalanced minority-class datasets and was guided by sequence characteristics from trained cRBSs. The platform identified correlations between cRBSs and dynamic ranges to mimic bidirectional design between these factors based on Wasserstein generative adversarial network (GAN) with a gradient penalty (GP) (WGAN-GP) and balancing GAN with GP (BAGAN-GP). For forward and reverse engineering, the predictive accuracy was up to 98% and 82%, respectively. Collectively, we generated an AI-based method for the rational design of TFBs with desired dynamic ranges.",
+    "keywords": [
+      "Cross-ribosome binding site",
+      "Dynamic range",
+      "Generative adversarial network",
+      "Glucarate biosensor",
+      "Predictive model"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Nana",
+        "Zhang, Guangkun",
+        "Zhang, LinPei",
+        "Shen, Ziyun",
+        "Yin, Lianghong",
+        "Zhou, Shenghu",
+        "Deng, Yu"
+      ],
+      "short_names": [
+        "Ding N",
+        "Zhang G",
+        "Zhang L",
+        "Shen Z",
+        "Yin L",
+        "Zhou S",
+        "Deng Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+        "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China.",
+        "Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University, NO.1239 Siping Road, Shanghai 201210, People's Republic of China.",
+        "Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University, NO.1239 Siping Road, Shanghai 201210, People's Republic of China.",
+        "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+        "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China.",
+        "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+        "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China.",
+        "State Key Laboratory of Subtropical Silviculture, Zhejiang A&F University, Hangzhou 311300, People's Republic of China.",
+        "Zhejiang Provincial Key Laboratory of Resources Protection and Innovation of Traditional Chinese Medicine, Zhejiang A&F University, Hangzhou 311300, People's Republic of China.",
+        "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+        "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China.",
+        "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+        "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Nana",
+        "short_name": "Ding N",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+          "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China.",
+          "Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University, NO.1239 Siping Road, Shanghai 201210, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guangkun",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University, NO.1239 Siping Road, Shanghai 201210, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, LinPei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+          "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shen, Ziyun",
+        "short_name": "Shen Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+          "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yin, Lianghong",
+        "short_name": "Yin L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Subtropical Silviculture, Zhejiang A&F University, Hangzhou 311300, People's Republic of China.",
+          "Zhejiang Provincial Key Laboratory of Resources Protection and Innovation of Traditional Chinese Medicine, Zhejiang A&F University, Hangzhou 311300, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shenghu",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+          "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yu",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for Cereal Fermentation and Food Biomanufacturing, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, People's Republic of China.",
+          "Jiangsu Provincial Research Center for Bioactive Product Processing Technology, Jiangnan University, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/12 06:43",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "41321598",
+      "39125091",
+      "39124917",
+      "38817964",
+      "38808978",
+      "38783063"
+    ],
+    "refs": [
+      "34177125",
+      "34131130",
+      "33493842",
+      "32976557",
+      "32588900",
+      "32424410",
+      "32249297",
+      "31552424",
+      "31521965",
+      "31331881",
+      "31068721",
+      "30923381",
+      "30867609",
+      "30674886",
+      "30398548",
+      "30087331",
+      "30049875",
+      "29870364",
+      "29784946",
+      "29771663",
+      "29507236",
+      "29485214",
+      "28723577",
+      "28532147",
+      "27997130",
+      "26301843",
+      "22446695",
+      "16873662"
+    ],
+    "similar": [
+      "38213883",
+      "39415942",
+      "32976557",
+      "35878483",
+      "37047760",
+      "34177125",
+      "33618105",
+      "37019013",
+      "36772488",
+      "37659275",
+      "33899477",
+      "36899529",
+      "39392681",
+      "33816978",
+      "33343595",
+      "32945673",
+      "35409058",
+      "32746311",
+      "33048769",
+      "30791500",
+      "35205142",
+      "35231850",
+      "33444255",
+      "35128926",
+      "36365761",
+      "35945135",
+      "35073267",
+      "37571626",
+      "37888306",
+      "37957576",
+      "35502383",
+      "37161169",
+      "36368109",
+      "31408753",
+      "38149912",
+      "35731773",
+      "31675444",
+      "37656652",
+      "34153791",
+      "37031191",
+      "38299119",
+      "36249697",
+      "37362646",
+      "35872384",
+      "33079677",
+      "33534712",
+      "37379649",
+      "36764588",
+      "33705996",
+      "31842359",
+      "33577108",
+      "30697765",
+      "38202979",
+      "35921946",
+      "37819208",
+      "32708785",
+      "20360861",
+      "35471356",
+      "37315028",
+      "30440924",
+      "19383880",
+      "35513171",
+      "38139599",
+      "34533311",
+      "35872379",
+      "36263480",
+      "31002188",
+      "36982398",
+      "36852025",
+      "33789579",
+      "34993058",
+      "37531727",
+      "37449325",
+      "37896706",
+      "36590175",
+      "35829786",
+      "38096067",
+      "32977277",
+      "32750786",
+      "35126153",
+      "31373795",
+      "35402757",
+      "34544293",
+      "34699953",
+      "34928799",
+      "37766067",
+      "37581059",
+      "34695966",
+      "35700119",
+      "33908045"
+    ],
+    "review": [
+      "38213883",
+      "33899477",
+      "39392681",
+      "35128926",
+      "38299119",
+      "32708785",
+      "34533311",
+      "35872379",
+      "36263480",
+      "37449325"
+    ],
+    "pmc": [
+      "10781712"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(23)00179-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38213883/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38213883",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

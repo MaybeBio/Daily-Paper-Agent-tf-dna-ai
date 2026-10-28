@@ -1,0 +1,608 @@
+{
+  "identity": {
+    "pmid": "41673759",
+    "doi": "10.1186/s13046-026-03658-x",
+    "title": "Prolyl-isomerase Pin1 drives platinum resistance by regulating Notch3 stability and function in ovarian cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Resistance to platinum-based drugs represents a major obstacle for the management of high-grade serous ovarian cancer (HGSOC) patients. Indeed, the selective pressure of platinum-based (PT) chemotherapy often leads to the outgrowth of platinum-resistant subclones. In this scenario, the underlying adaptive networks should be fully investigated to provide advances toward more streamlined and personalized care. METHODS: We conducted a comprehensive analysis of Pin1/Notch3relationship from HGSOC cell lines and primary tumours, integrating multiple genetic targeting under chemotherapy pressure, differential proteomic approaches, molecular docking data and dynamics simulations, thus identifying a functional circuit evaluated in vitro and in vivo models.We conducted a comprehensive analysis of relationship from HGSOC cell lines and primary tumours, integrating multiple genetic targeting under chemotherapy pressure, differential proteomic approaches, molecular docking data and dynamics simulations, thus identifying a functional circuit evaluated in vitro and in vivo models. RESULTS: Here, we demonstrated that carboplatin treatment of HGSOC cells promoted the activation of the Pin1/Notch3 axis, resulting in platinum resistance. Accordingly, HGSOC-bearing patients showing increased Pin1/Notch3 co-expression after PT-based chemotherapy correlated with a clinical worse response. Conversely, genetic targeting of Pin1 combined with carboplatin treatment sensitizes resistant cells to platinum-based therapy, both in vitro and in vivo, strongly reducing their Notch3-mediated metastatic potential in preclinical murine models. Mechanistically, Pin1-Notch3 binding favours protection of Notch3 from its GSK3beta-mediated degradation, resulting in increased Notch3 expression. CONCLUSIONS: Collectively, our findings identify the functional Pin1/Notch3 axis as an escape strategy from chemotherapy-induced cell death, thus suggesting a novel predictive role of the Pin1/Notch3 axis in the platinum response, which could be useful for implementing frontline treatments for HGSOC patients before recurrence.",
+    "keywords": [
+      "HGSOC",
+      "Notch3",
+      "Pin1 targeting",
+      "Platinum drug resistance"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Xenograft Model Antitumor Assays",
+      "Female",
+      "Animals",
+      "Mice",
+      "*Ovarian Neoplasms/drug therapy/enzymology",
+      "*Drug Resistance, Neoplasm",
+      "*Receptor, Notch3/metabolism",
+      "*NIMA-Interacting Peptidylprolyl Isomerase/metabolism",
+      "*Neoplasms, Cystic, Mucinous, and Serous/drug therapy/enzymology",
+      "Cell Line, Tumor",
+      "*Cisplatin/therapeutic use",
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "Glycogen Synthase Kinase 3 beta/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Giuli, Maria Valeria",
+        "Mancusi, Angelica",
+        "Natiello, Bianca",
+        "Di Cristofano, Samuele",
+        "Reali, Rebecca",
+        "Pignataro, Maria Gemma",
+        "D'Andrea, Daniel",
+        "Di Magno, Laura",
+        "Nicoletti, Carmine",
+        "Giorgi, Alessandra",
+        "Macone, Alberto",
+        "Camerini, Serena",
+        "Casella, Marialuisa",
+        "Peruzzi, Giovanna",
+        "Zema, Sabrina",
+        "Canettieri, Gianluca",
+        "Tomao, Federica",
+        "Palaia, Innocenza",
+        "Pernazza, Angelina",
+        "Rustighi, Alessandra",
+        "Palermo, Rocco",
+        "Raimondo, Domenico",
+        "Monti, Alessandra",
+        "Doti, Nunzianna",
+        "d'Amati, Giulia",
+        "Del Sal, Giannino",
+        "Screpanti, Isabella",
+        "Talora, Claudio",
+        "Bellavia, Diana",
+        "Checquolo, Saula"
+      ],
+      "short_names": [
+        "Giuli MV",
+        "Mancusi A",
+        "Natiello B",
+        "Di Cristofano S",
+        "Reali R",
+        "Pignataro MG",
+        "D'Andrea D",
+        "Di Magno L",
+        "Nicoletti C",
+        "Giorgi A",
+        "Macone A",
+        "Camerini S",
+        "Casella M",
+        "Peruzzi G",
+        "Zema S",
+        "Canettieri G",
+        "Tomao F",
+        "Palaia I",
+        "Pernazza A",
+        "Rustighi A",
+        "Palermo R",
+        "Raimondo D",
+        "Monti A",
+        "Doti N",
+        "d'Amati G",
+        "Del Sal G",
+        "Screpanti I",
+        "Talora C",
+        "Bellavia D",
+        "Checquolo S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medico-Surgical Sciences and Biotechnology, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Latina, Italy.",
+        "Department of Pediatric Hematology and Oncology, Cell and Gene Therapy, Bambino Gesu Children's Hospital, IRCCS, Rome, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Radiological, Oncological and Pathological Sciences, Sapienza University of Rome, Rome, Italy.",
+        "School of Engineering Mathematics and Technology, University of Bristol, Bristol, UK.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Anatomy, Histology, Forensic Medicine and Orthopaedics, Sapienza University of Rome, Rome, Italy.",
+        "Department of Biochemical Sciences, Sapienza University of Rome, Rome, Italy.",
+        "Department of Biochemical Sciences, Sapienza University of Rome, Rome, Italy.",
+        "Core Facilities, Istituto Superiore di Sanita, Rome, Italy.",
+        "Core Facilities, Istituto Superiore di Sanita, Rome, Italy.",
+        "Center for Life Nano- & Neuro-Science@Sapienza, Istituto Italiano di Tecnologia, Rome, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Gynecological, Obstetrical and Urological Sciences, Sapienza University of Rome, Rome, Italy.",
+        "Department of Gynecological, Obstetrical and Urological Sciences, Sapienza University of Rome, Rome, Italy.",
+        "Department of Radiological, Oncological and Pathological Sciences, Sapienza University of Rome, Rome, Italy.",
+        "Department of Life Sciences, University of Trieste, Trieste, Italy.",
+        "International Centre for Genetic Engineering and Biotechnology (ICGEB), Area Science Park-Padriciano, Trieste, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Istituto di Biostrutture e Bioimmagini, IBB-CNR, Naples, Italy.",
+        "Istituto di Biostrutture e Bioimmagini, IBB-CNR, Naples, Italy.",
+        "Department of Radiological, Oncological and Pathological Sciences, Sapienza University of Rome, Rome, Italy.",
+        "Department of Life Sciences, University of Trieste, Trieste, Italy.",
+        "International Centre for Genetic Engineering and Biotechnology (ICGEB), Area Science Park-Padriciano, Trieste, Italy.",
+        "AIRC Institute of Molecular Oncology, IFOM ETS, Milan, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy. claudio.talora@uniroma1.it.",
+        "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy.",
+        "Department of Medico-Surgical Sciences and Biotechnology, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Latina, Italy. saula.checquolo@uniroma1.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Giuli, Maria Valeria",
+        "short_name": "Giuli MV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medico-Surgical Sciences and Biotechnology, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Latina, Italy."
+        ]
+      },
+      {
+        "full_name": "Mancusi, Angelica",
+        "short_name": "Mancusi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Hematology and Oncology, Cell and Gene Therapy, Bambino Gesù Children's Hospital, IRCCS, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Natiello, Bianca",
+        "short_name": "Natiello B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Cristofano, Samuele",
+        "short_name": "Di Cristofano S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Reali, Rebecca",
+        "short_name": "Reali R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Pignataro, Maria Gemma",
+        "short_name": "Pignataro MG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiological, Oncological and Pathological Sciences, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Andrea, Daniel",
+        "short_name": "D'Andrea D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Engineering Mathematics and Technology, University of Bristol, Bristol, UK."
+        ]
+      },
+      {
+        "full_name": "Di Magno, Laura",
+        "short_name": "Di Magno L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Nicoletti, Carmine",
+        "short_name": "Nicoletti C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Histology, Forensic Medicine and Orthopaedics, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Giorgi, Alessandra",
+        "short_name": "Giorgi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Sciences, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Macone, Alberto",
+        "short_name": "Macone A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Sciences, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Camerini, Serena",
+        "short_name": "Camerini S",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facilities, Istituto Superiore di Sanità, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Casella, Marialuisa",
+        "short_name": "Casella M",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facilities, Istituto Superiore di Sanità, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Peruzzi, Giovanna",
+        "short_name": "Peruzzi G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science@Sapienza, Istituto Italiano di Tecnologia, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Zema, Sabrina",
+        "short_name": "Zema S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Canettieri, Gianluca",
+        "short_name": "Canettieri G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Tomao, Federica",
+        "short_name": "Tomao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecological, Obstetrical and Urological Sciences, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Palaia, Innocenza",
+        "short_name": "Palaia I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecological, Obstetrical and Urological Sciences, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Pernazza, Angelina",
+        "short_name": "Pernazza A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiological, Oncological and Pathological Sciences, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Rustighi, Alessandra",
+        "short_name": "Rustighi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, University of Trieste, Trieste, Italy.",
+          "International Centre for Genetic Engineering and Biotechnology (ICGEB), Area Science Park-Padriciano, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Palermo, Rocco",
+        "short_name": "Palermo R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Raimondo, Domenico",
+        "short_name": "Raimondo D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Monti, Alessandra",
+        "short_name": "Monti A",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto di Biostrutture e Bioimmagini, IBB-CNR, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Doti, Nunzianna",
+        "short_name": "Doti N",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto di Biostrutture e Bioimmagini, IBB-CNR, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "d'Amati, Giulia",
+        "short_name": "d'Amati G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiological, Oncological and Pathological Sciences, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Del Sal, Giannino",
+        "short_name": "Del Sal G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, University of Trieste, Trieste, Italy.",
+          "International Centre for Genetic Engineering and Biotechnology (ICGEB), Area Science Park-Padriciano, Trieste, Italy.",
+          "AIRC Institute of Molecular Oncology, IFOM ETS, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Screpanti, Isabella",
+        "short_name": "Screpanti I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Talora, Claudio",
+        "short_name": "Talora C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy. claudio.talora@uniroma1.it."
+        ]
+      },
+      {
+        "full_name": "Bellavia, Diana",
+        "short_name": "Bellavia D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Checquolo, Saula",
+        "short_name": "Checquolo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medico-Surgical Sciences and Biotechnology, Sapienza University of Rome, Laboratory affiliated with Istituto Pasteur Italia- Fondazione Cenci Bolognetti, Latina, Italy. saula.checquolo@uniroma1.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 06:54",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38325131",
+      "38248100",
+      "37567011",
+      "36928097",
+      "36116709",
+      "35659345",
+      "35582386",
+      "35332121",
+      "34645978",
+      "34193815",
+      "33490222",
+      "33490217",
+      "33430387",
+      "33384996",
+      "33278287",
+      "33125126",
+      "33071287",
+      "33020190",
+      "32829107",
+      "32767962",
+      "32193285",
+      "32012980",
+      "31560828",
+      "31506332",
+      "31301363",
+      "31182109",
+      "31128298",
+      "31001470",
+      "30723507",
+      "30697729",
+      "30565428",
+      "29746956",
+      "29352484",
+      "29136216",
+      "28778953",
+      "28598431",
+      "27993805",
+      "27372738",
+      "27235858",
+      "26876201",
+      "25849135",
+      "24357640",
+      "24357056",
+      "23839242",
+      "23226302",
+      "23019585",
+      "21502811",
+      "20671266",
+      "20614134",
+      "19923896",
+      "19151708",
+      "18405656",
+      "17390060",
+      "17332312",
+      "16778208",
+      "10600477",
+      "8606777"
+    ],
+    "similar": [
+      "41673759",
+      "24657486",
+      "40783069",
+      "26830315",
+      "41029529",
+      "30565428",
+      "40985842",
+      "41702359",
+      "41214647",
+      "35073851",
+      "26125441",
+      "32169072",
+      "41241303",
+      "23019585",
+      "28251557",
+      "31879364",
+      "38822429",
+      "31285371",
+      "40492382",
+      "26876201",
+      "26482043",
+      "28641578",
+      "41235254",
+      "36463238",
+      "35918200",
+      "41520487",
+      "33153817",
+      "41928292",
+      "40910199",
+      "40362252",
+      "38959632",
+      "40925231",
+      "41831815",
+      "41318574",
+      "32341033",
+      "35120576",
+      "29305171",
+      "26693899",
+      "31023317",
+      "41652625",
+      "21945308",
+      "40210758",
+      "24713296",
+      "42128460",
+      "38658567",
+      "40083924",
+      "31775874",
+      "25490861",
+      "41578563",
+      "35028612",
+      "40681764",
+      "27765068",
+      "24378876",
+      "31150822",
+      "32848212",
+      "42069154",
+      "42391813",
+      "41246306",
+      "42593674",
+      "31462500",
+      "33331136",
+      "21435938",
+      "30194194",
+      "37342066",
+      "15262121",
+      "35887085",
+      "41677375",
+      "38968802",
+      "26763252",
+      "29704517",
+      "30583078",
+      "38287874",
+      "39013199",
+      "34549724",
+      "34140011",
+      "40299825",
+      "39511416",
+      "41634464",
+      "42151695",
+      "20935474",
+      "12468336",
+      "39626867",
+      "34048060",
+      "42438262",
+      "41430564",
+      "35279106",
+      "31926547",
+      "28404959",
+      "29769198",
+      "30651275",
+      "36116709",
+      "42475469",
+      "29746956",
+      "37882675",
+      "32253106",
+      "38386231",
+      "25481791",
+      "29719287",
+      "30895619",
+      "29959144"
+    ],
+    "review": [
+      "41673759",
+      "26830315",
+      "21435938",
+      "39013199",
+      "36116709"
+    ],
+    "pmc": [
+      "12998371"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-026-03658-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41673759/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3863",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

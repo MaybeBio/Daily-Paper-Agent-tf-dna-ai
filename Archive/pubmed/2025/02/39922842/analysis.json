@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39922842",
+  "title": "Modeling and designing enhancers by introducing and harnessing transcription factor binding units.",
+  "authors": "Li, Jiaqi; Zhang, Pengcheng; Xi, Xi; Liu, Liyang; Wei, Lei; Wang, Xiaowo",
+  "journal": "Nature communications",
+  "published_date": "2025-02-09",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出转录因子结合单元（TFBU）概念，用深度学习建模TFBS周围上下文序列对增强子活性的影响，并开发DeepTFBU工具进行增强子设计，虽聚焦增强子而非直接建模TF-DNA三维互作，但涉及TF结合位点预测与设计，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Enhancers serve as pivotal regulators of gene expression throughout various biological processes by interacting with transcription factors (TFs). While transcription factor binding sites (TFBSs) are widely acknowledged as key determinants of TF binding and enhancer activity, the significant role of their surrounding context sequences remains to be quantitatively characterized. Here we propose the concept of transcription factor binding unit (TFBU) to modularly model enhancers by quantifying the impact of context sequences surrounding TFBSs using deep learning models. Based on this concept, we develop DeepTFBU, a comprehensive toolkit for enhancer design. We demonstrate that designing TFBS context sequences can significantly modulate enhancer activities and produce cell type-specific responses. DeepTFBU is also highly efficient in the de novo design of enhancers containing multiple TFBSs. Furthermore, DeepTFBU enables flexible decoupling and optimization of generalized enhancers. We prove that TFBU is a crucial concept, and DeepTFBU is highly effective for rational enhancer design.",
+  "abstract_zh": "增强子通过与转录因子（TFs）相互作用，在多种生物过程中充当基因表达的关键调控因子。尽管转录因子结合位点（TFBSs）被广泛认为是TF结合和增强子活性的关键决定因素，但其周围上下文序列的重要作用仍有待定量表征。在此，我们提出转录因子结合单元（TFBU）的概念，通过使用深度学习模型量化TFBSs周围上下文序列的影响，对增强子进行模块化建模。基于这一概念，我们开发了DeepTFBU，一个用于增强子设计的综合工具包。我们证明，设计TFBS上下文序列能够显著调节增强子活性，并产生细胞类型特异性的响应。DeepTFBU在包含多个TFBSs的增强子的从头设计中同样高效。此外，DeepTFBU能够灵活地对通用增强子进行解耦和优化。我们证实TFBU是一个关键概念，且DeepTFBU在理性增强子设计中具有高度有效性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39922842/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39922842/",
+  "paper_page_path": "papers/pubmed/39922842/index.html"
+}

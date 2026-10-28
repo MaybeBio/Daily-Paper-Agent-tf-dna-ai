@@ -1,0 +1,564 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.10.561776",
+  "title": "GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction",
+  "doi": "10.1101/2023.10.10.561776",
+  "abstract": "Whereas protein language models have demonstrated remarkable efficacy in predicting the effects of missense variants, DNA counterparts have not yet achieved a similar competitive edge for genome-wide variant effect predictions, especially in complex genomes such as that of humans. To address this challenge, we here introduce GPN-MSA, a novel framework for DNA language models that leverages whole-genome sequence alignments across multiple species and takes only a few hours to train. Across several benchmarks on clinical databases (ClinVar, COSMIC, OMIM), experimental functional assays (DMS, DepMap), and population genomic data (gnomAD), our model for the human genome achieves outstanding performance on deleteriousness prediction for both coding and non-coding variants.",
+  "authors": [
+    "Gonzalo Benegas",
+    "Carlos Albors",
+    "Alan J. Aw",
+    "Chengzhong Ye",
+    "Yun S. Song"
+  ],
+  "published_date": "2023-10-11",
+  "updated_date": "2023-10-12T03:50:47Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.10.561776",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.10.561776.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2026-09-16T22:40:39Z",
+        "timestamp": 1789598439699,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            11
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 54,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Whereas protein language models have demonstrated remarkable efficacy in predicting the effects of missense variants, DNA counterparts have not yet achieved a similar competitive edge for genome-wide variant effect predictions, especially in complex genomes such as that of humans. To address this challenge, we here introduce GPN-MSA, a novel framework for DNA language models that leverages whole-genome sequence alignments across multiple species and takes only a few hours to train. Across several benchmarks on clinical databases (ClinVar, COSMIC, OMIM), experimental functional assays (DMS, DepMap), and population genomic data (gnomAD), our model for the human genome achieves outstanding performance on deleteriousness prediction for both coding and non-coding variants.</jats:p>",
+      "DOI": "10.1101/2023.10.10.561776",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2023-10-12T03:50:47Z",
+        "timestamp": 1697082647000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 28,
+      "title": [
+        "GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Gonzalo",
+          "family": "Benegas",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carlos",
+          "family": "Albors",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alan J.",
+          "family": "Aw",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chengzhong",
+          "family": "Ye",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0734-9868",
+          "authenticated-orcid": false,
+          "given": "Yun S.",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "8",
+          "key": "2024040920050926000_2023.10.10.561776v2.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1000",
+          "DOI": "10.1093/aje/kww224",
+          "article-title": "Human genome sequencing at the population scale: a primer on high-throughput DNA sequencing and analysis",
+          "volume": "186",
+          "year": "2017",
+          "journal-title": "American Journal of Epidemiology"
+        },
+        {
+          "issue": "1",
+          "key": "2024040920050926000_2023.10.10.561776v2.2",
+          "first-page": "1",
+          "article-title": "A guide for the diagnosis of rare and undiagnosed disease: beyond the exome",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Genome Medicine"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2014.06.009"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06388-8"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Joshua Meier , Roshan Rao , Robert Verkuil , Jason Liu , Tom Sercu , and Alex Rives . Language models enable zero-shot prediction of the effects of mutations on protein function. Advances in Neural Information Processing Systems, 34, 2021.",
+          "DOI": "10.1101/2021.07.09.450648"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nadav Brandes , Grant Goldman , Charlotte H. Wang , Chun Jimmie Ye , and Vasilis Ntranos . Genome-wide prediction of disease variant effects with a deep protein language model. Nature Genetics, Aug 2023.",
+          "DOI": "10.1101/2022.08.25.505311"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-023-02907-y"
+        },
+        {
+          "issue": "44",
+          "key": "2024040920050926000_2023.10.10.561776v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2311219120",
+          "DOI": "10.1073/pnas.2311219120",
+          "article-title": "DNA language models are powerful predictors of genome-wide variant effects",
+          "volume": "120",
+          "year": "2023",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hugo Dalla-Torre , Liam Gonzalez , Javier Mendoza Revilla , Nicolas Lopez Carranza , Adam Henryk Grywaczewski , Francesco Oteri , Christian Dallago , Evan Trop , Hassan Sirelkhatim , Guillaume Richard , et al. The Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics. bioRxiv, pages 2023–01, 2023.",
+          "DOI": "10.1101/2023.01.11.523679"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.10",
+          "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N Gomez , Łukasz Kaiser , and Illia Polosukhin . Attention is All you Need. Advances in Neural Information Processing Systems, 30, 2017."
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1146/annurev-animal-020518-115005",
+          "article-title": "Whole-genome alignment and comparative annotation",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "Annual Review of Animal Biosciences"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.12",
+          "unstructured": "Eric Nguyen , Michael Poli , Marjan Faizi , Armin Thomas , Callum Birch-Sykes , Michael Wornow , Aman Patel , Clayton Rabideau , Stefano Massaroli , Yoshua Bengio , et al. HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution. arXiv preprint arXiv:2306.15794, 2023."
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/S13073-021-00835-9/FIGURES/4"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.097857.109"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abn2937"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "issue": "10",
+          "key": "2024040920050926000_2023.10.10.561776v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1196",
+          "DOI": "10.1038/s41592-021-01252-x",
+          "article-title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CELL.2018.12.015"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.19",
+          "unstructured": "Roshan M Rao , Jason Liu , Robert Verkuil , Joshua Meier , John Canny , Pieter Abbeel , Tom Sercu , and Alexander Rives . MSA Transformer. In International Conference on Machine Learning, pages 8844–8856. PMLR, 2021."
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.076521.108"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.3715005"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz972"
+        },
+        {
+          "issue": "7993",
+          "key": "2024040920050926000_2023.10.10.561776v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "92",
+          "DOI": "10.1038/s41586-023-06045-0",
+          "article-title": "A genomic mutational constraint map using variation in 76,156 human genomes",
+          "volume": "625",
+          "year": "2024",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1016"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/gim.2015.30"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1015"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pascal Notin , Aaron W Kollasch , Daniel Ritter , Lood Van Niekerk , Steffan Paul , Han Spinner , Nathan J Rollins , Ada Shaw , Rose Orenbuch , Ruben Weitzman , Jonathan Frazer , Mafalda Dias , Dinko Franceschi , Yarin Gal , and Debora Susan Marks . ProteinGym: Large-Scale Benchmarks for Protein Fitness Prediction and Design. In Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track, 2023.",
+          "DOI": "10.1101/2023.12.07.570727"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2016.07.005"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1399-0004.2010.01465.x"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.02.031"
+        },
+        {
+          "issue": "1",
+          "key": "2024040920050926000_2023.10.10.561776v2.31",
+          "first-page": "176",
+          "article-title": "Severe factor VII deficiency due to a mutation disrupting a hepatocyte nuclear factor 4 binding site in the factor VII promoter. Blood",
+          "volume": "89",
+          "year": "1997",
+          "journal-title": "The Journal of the American Society of Hematology"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.32",
+          "unstructured": "Broad DepMap. DepMap 23Q4 Public. 11 2023."
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2308-7"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "e83172",
+          "DOI": "10.7554/eLife.83172",
+          "article-title": "Relating pathogenic loss-of-function mutations in humans to their evolutionary fitness costs",
+          "volume": "12",
+          "year": "2023",
+          "journal-title": "Elife"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.229102. Article published online before print in May 2002"
+        },
+        {
+          "issue": "11",
+          "key": "2024040920050926000_2023.10.10.561776v2.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "1581",
+          "DOI": "10.1038/s41588-022-01194-w",
+          "article-title": "The dynseq browser track shows context-specific features at nucleotide resolution",
+          "volume": "54",
+          "year": "2022",
+          "journal-title": "Nature Genetics"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Veniamin Fishman , Yuri Kuratov , Maxim Petrov , Aleksei Shmelev , Denis Shepelin , Nikolay Chekanov , Olga Kardymon , and Mikhail Burtsev . GENA-LM: A Family of Open-Source Foundational Models for Long DNA Sequences. bioRxiv, pages 2023–06, 2023.",
+          "DOI": "10.1101/2023.06.12.544594"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.39",
+          "unstructured": "S Borgeaud , A Mensch , J Hoffmann , T Cai , E Rutherford , K Millican , G Driessche , JB Lespiau , B Damoc , A Clark , et al. Improving language models by retrieving from trillions of tokens. arXiv preprint arXiv:2112.04426, 2021."
+        },
+        {
+          "issue": "7948",
+          "key": "2024040920050926000_2023.10.10.561776v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "492",
+          "DOI": "10.1038/s41586-022-05684-z",
+          "article-title": "Polygenic architecture of rare coding variation across 394,783 exomes",
+          "volume": "614",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "12",
+          "key": "2024040920050926000_2023.10.10.561776v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1355",
+          "DOI": "10.1038/s41588-020-00735-5",
+          "article-title": "Functionally informed fine-mapping and polygenic localization of complex trait heritability",
+          "volume": "52",
+          "year": "2020",
+          "journal-title": "Nature Genetics"
+        },
+        {
+          "issue": "1",
+          "key": "2024040920050926000_2023.10.10.561776v2.42",
+          "first-page": "2021",
+          "article-title": "Incorporating functional priors improves polygenic prediction accuracy in UK Biobank and 23andMe data sets",
+          "volume": "12",
+          "year": "6052",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.43",
+          "unstructured": "Alan J Aw , Jeremy McRae , Elior Rahmani , and Yun S Song . Highly parameterized polygenic scores tend to overfit to population stratification via random effects. bioRxiv, pages 2024–01, 2024."
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-015-0866-z"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Benedetta Bolognesi , Andre J Faure , Mireia Seuma , Jörn M Schmiedel , Gian Gaetano Tartaglia , and Ben Lehner . The mutational landscape of a prion-like domain. Nature Communications, 10(1):Article number: 4162, 2019.",
+          "DOI": "10.1038/s41467-019-12101-z"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.1933104"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.3715005"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.48",
+          "unstructured": "Jacob Devlin , Ming-Wei Chang , Kenton Lee , and Kristina Toutanova . BERT: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018."
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.49",
+          "unstructured": "Jianlin Su , Yu Lu , Shengfeng Pan , Ahmed Murtadha , Bo Wen , and Yunfeng Liu . Roformer: Enhanced transformer with rotary position embedding. arXiv preprint arXiv:2104.09864, 2021."
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Thomas Wolf , Lysandre Debut , Victor Sanh , Julien Chaumond , Clement Delangue , Anthony Moi , Pierric Cistac , Tim Rault , Rémi Louf , Morgan Funtowicz , et al. HuggingFace’s Transformers: State-of-the-art Natural Language Processing. arXiv preprint arXiv:1910.03771, 2019.",
+          "DOI": "10.18653/v1/2020.emnlp-demos.6"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15393"
+        },
+        {
+          "issue": "D1",
+          "key": "2024040920050926000_2023.10.10.561776v2.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "D1300",
+          "DOI": "10.1093/nar/gkac966",
+          "article-title": "FAVOR: functional annotation of variants online resource and annotator for variation across the human genome",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "issue": "5",
+          "key": "2024040920050926000_2023.10.10.561776v2.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000471",
+          "DOI": "10.1371/journal.pgen.1000471",
+          "article-title": "Widespread genomic signatures of natural selection in hominid evolution",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "PLoS Genetics"
+        },
+        {
+          "key": "2024040920050926000_2023.10.10.561776v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3954"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.10.561776",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:22:30Z",
+        "timestamp": 1768454550000
+      },
+      "score": 71.80153,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.10.561776"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            11
+          ]
+        ]
+      },
+      "references-count": 54,
+      "URL": "https://doi.org/10.1101/2023.10.10.561776",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41587-024-02511-w",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

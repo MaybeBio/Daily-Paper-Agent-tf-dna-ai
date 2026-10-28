@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "41721598",
+    "doi": "10.1002/adhm.202503202",
+    "title": "Microfluidic Modeling of Macrophage-Induced Cardiac Inflammation Using NF-kappaB Reporter Cardiomyocytes."
+  },
+  "content": {
+    "abstract": "Inflammation is a key driver of cardiac disease progression, including heart failure and myocardial infarction, with macrophage-cardiomyocyte interactions playing a central role in shaping the local inflammatory microenvironment. Prolonged exposure to pro-inflammatory cytokines, many produced by macrophages, induces cardiomyocyte stress, dysfunction, and pathological tissue remodeling. However, the spatial and temporal dynamics of this crosstalk remain poorly understood, limiting the development of targeted therapies. To address this gap, we developed an in vitro cardiac inflammation model that enables controlled investigation of macrophage-cardiomyocyte interactions. Cardiomyocytes were transduced with an NF-kappaB-responsive fluorescent reporter to allow real-time monitoring of inflammatory signaling. MATLAB-based simulations were used to optimize medium delivery and cell densities by modeling TNFalpha diffusion. Using a multiplex microfluidic co-culture chip, we identified the TNFalpha threshold of 50 ng mL(-) (1) with a 6-h exposure as sufficient to activate cardiomyocyte NF-kappaB signaling. Both macrophage-conditioned medium and direct co-culture significantly increased NF-kappaB activation, indicating enhanced cardiomyocyte inflammatory stress. Dexamethasone markedly suppressed NF-kappaB activation when administered at onset of co-culture to both cell types, whereas IL-10 showed limited efficacy. Overall, this cardiac inflammation model provides a versatile platform for dissecting immune-cardiac crosstalk and supports future studies of multicellular crosstalk, spatiotemporal signaling dynamics, and therapeutic screening.",
+    "keywords": [
+      "Co-culture",
+      "NF-kappaB",
+      "cardiac inflammation",
+      "drug screening",
+      "microfluidic",
+      "molecular reporter"
+    ],
+    "mesh_terms": [
+      "*Myocytes, Cardiac/metabolism/pathology",
+      "*NF-kappa B/metabolism",
+      "*Macrophages/metabolism/pathology",
+      "Animals",
+      "Tumor Necrosis Factor-alpha/metabolism",
+      "*Inflammation/metabolism/pathology",
+      "Coculture Techniques",
+      "Rats",
+      "Signal Transduction/drug effects",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Chao",
+        "Qiang Lu, Xi Rui",
+        "Jeong, Seoyoung",
+        "Wu, Douglas H",
+        "Somoza, Rodrigo A",
+        "Ramakrishnan, Parameswaran",
+        "Senyo, Samuel E"
+      ],
+      "short_names": [
+        "Liu C",
+        "Qiang Lu XR",
+        "Jeong S",
+        "Wu DH",
+        "Somoza RA",
+        "Ramakrishnan P",
+        "Senyo SE"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3227-6813",
+        "ORCID: 0000-0002-5018-4106",
+        "ORCID: 0000-0001-8050-357X",
+        "ORCID: 0000-0002-1314-827X",
+        "ORCID: 0000-0002-9206-6845"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Department of Biology, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Medical Scientist Training Program, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Department of Biology, Skeletal Research Center, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Center For Modular Manufacturing of Structural Tissues, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Department of Pathology, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "The Case Comprehensive Cancer Center, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Department of Biochemistry, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "School of Medicine, University Hospitals-Cleveland Medical Center, Case Western Reserve University, Cleveland, Ohio, USA.",
+        "Louis Stokes Veterans Affairs Medical Center, Cleveland, Ohio, USA.",
+        "Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Chao",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0003-3227-6813"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Qiang Lu, Xi Rui",
+        "short_name": "Qiang Lu XR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Jeong, Seoyoung",
+        "short_name": "Jeong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Case Western Reserve University, Cleveland, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Douglas H",
+        "short_name": "Wu DH",
+        "identifiers": [
+          "0000-0002-5018-4106"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, USA.",
+          "Medical Scientist Training Program, Case Western Reserve University, Cleveland, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Somoza, Rodrigo A",
+        "short_name": "Somoza RA",
+        "identifiers": [
+          "0000-0001-8050-357X"
+        ],
+        "affiliations": [
+          "Department of Biology, Skeletal Research Center, Case Western Reserve University, Cleveland, Ohio, USA.",
+          "Center For Modular Manufacturing of Structural Tissues, Case Western Reserve University, Cleveland, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Ramakrishnan, Parameswaran",
+        "short_name": "Ramakrishnan P",
+        "identifiers": [
+          "0000-0002-1314-827X"
+        ],
+        "affiliations": [
+          "Department of Pathology, Case Western Reserve University, Cleveland, Ohio, USA.",
+          "The Case Comprehensive Cancer Center, Case Western Reserve University, Cleveland, Ohio, USA.",
+          "Department of Biochemistry, Case Western Reserve University, Cleveland, Ohio, USA.",
+          "School of Medicine, University Hospitals-Cleveland Medical Center, Case Western Reserve University, Cleveland, Ohio, USA.",
+          "Louis Stokes Veterans Affairs Medical Center, Cleveland, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Senyo, Samuel E",
+        "short_name": "Senyo SE",
+        "identifiers": [
+          "0000-0002-9206-6845"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced healthcare materials"
+    ],
+    "journal_abbrev": [
+      "Adv Healthc Mater"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/21 06:31",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40521614",
+      "39921259",
+      "39888058",
+      "39807320",
+      "39717608",
+      "39483204",
+      "39286887",
+      "39227896",
+      "39198639",
+      "39087342",
+      "38547831",
+      "38536913",
+      "38433280",
+      "38354960",
+      "38336406",
+      "37858035",
+      "37607463",
+      "36736159",
+      "36698953",
+      "36300548",
+      "36265578",
+      "36132036",
+      "36044827",
+      "34696354",
+      "34267761",
+      "34211635",
+      "33592567",
+      "33037735",
+      "32943498",
+      "32745764",
+      "32517486",
+      "31894280",
+      "31884176",
+      "31417911",
+      "31192312",
+      "31189095",
+      "31037072",
+      "30259192",
+      "29783929",
+      "29533659",
+      "28825369",
+      "28790798",
+      "28537905",
+      "28054660",
+      "27681582",
+      "27540006",
+      "27423013",
+      "27340274",
+      "25450968",
+      "23493668",
+      "23283550",
+      "23257984",
+      "23141143",
+      "23085511",
+      "22989630",
+      "22705886",
+      "22289904",
+      "21620750",
+      "21527742",
+      "20797985",
+      "20045005",
+      "19265149",
+      "19181934",
+      "17981560",
+      "17145048",
+      "15113757",
+      "14678266",
+      "10881828",
+      "10347215",
+      "7569976"
+    ],
+    "similar": [
+      "41721598",
+      "31207208",
+      "25412187",
+      "41175588",
+      "29024042",
+      "25323011",
+      "41795298",
+      "39041129",
+      "19098112",
+      "42303054",
+      "38928166",
+      "29990871",
+      "16698033",
+      "38686889",
+      "28739167",
+      "18701451",
+      "31718444",
+      "31978804",
+      "30516028",
+      "42507056",
+      "41460302",
+      "39418729",
+      "41589001",
+      "38417368",
+      "41759420",
+      "36555168",
+      "41508087",
+      "41974235",
+      "31446616",
+      "30074177",
+      "29533659",
+      "31301118",
+      "22753411",
+      "39749701",
+      "35983756",
+      "29991775",
+      "42032737",
+      "41346713",
+      "32899721",
+      "24304472",
+      "28174280",
+      "19255345",
+      "27164906",
+      "35152717",
+      "41853919",
+      "27988459",
+      "35447422",
+      "23374111",
+      "32392536",
+      "28064070",
+      "41720014",
+      "42259242",
+      "33607200",
+      "41453656",
+      "21769674",
+      "41478535",
+      "17082484",
+      "42112357",
+      "40644858",
+      "42398169",
+      "41515937",
+      "25712896",
+      "42143937",
+      "26806575",
+      "32194834",
+      "42061333",
+      "37556943",
+      "40294468",
+      "22851137",
+      "32866662",
+      "39447411",
+      "41652232",
+      "38367465",
+      "32448281",
+      "42208328",
+      "39001626",
+      "41870779",
+      "41356195",
+      "41997258",
+      "23028889",
+      "37518354",
+      "39307808",
+      "40482761",
+      "31545785",
+      "39536300",
+      "29929193",
+      "25059721",
+      "25380814",
+      "23770291",
+      "25769315",
+      "25840774",
+      "22246136",
+      "42002824",
+      "19181934",
+      "41124707",
+      "39014329",
+      "26491301",
+      "39879705",
+      "29982352",
+      "23807148"
+    ],
+    "review": [
+      "41721598",
+      "23770291"
+    ],
+    "pmc": [
+      "13175294"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41721598/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/adhm.202503202",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41721598",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

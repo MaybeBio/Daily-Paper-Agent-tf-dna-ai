@@ -1,0 +1,125 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.20.573595",
+  "title": "Systematic discovery of directional regulatory motifs associated with human insulator sites",
+  "doi": "10.1101/2024.01.20.573595",
+  "abstract": "Insulator proteins function as barriers to enhancer–promoter interactions (EPIs), thereby regulating gene expression. The primary insulator protein in vertebrates is CTCF, a DNA-binding protein (DBP); however, the roles of other DBPs in EPI insulation are not fully understood. To address this, we developed a systematic and comprehensive deep learning–based approach to identify DNA motifs of DBPs associated with insulator function. Applying this method to human fibroblast cells, we identified 97 directional motifs and a smaller number of non-directional motifs. These motifs were mapped to 23 DBPs previously linked to insulator activity, CTCF, and/or other forms of chromosomal transcriptional regulation. We found that the estimated orientation bias of CTCF was consistently proportional to the orientation bias observed in chromatin interaction data. Furthermore, these motifs showed significant enrichment at insulator sites that separate repressive and active chromatin regions, at chromatin interaction–defined boundaries, and at splice sites, compared to motifs of other DBPs. For instance, we observed that the key regulator MyoD-binding site is located at an insulator site near a gene involved in skeletal muscle differentiation and function. Importantly, our findings support the previously proposed insulator-pairing model, which suggests that insulator–insulator interactions are orientation-dependent, and highlight the involvement of multiple DNA-binding proteins beyond CTCF. Together, these results provide new insights into transcriptional regulatory mechanisms mediated by insulator-associated DBPs.",
+  "authors": [
+    "Osato N",
+    "Hamada M"
+  ],
+  "published_date": "2024-01-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.20.573595",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.20.573595.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR791897",
+    "raw_record": {
+      "id": "PPR791897",
+      "source": "PPR",
+      "doi": "10.1101/2024.01.20.573595",
+      "title": "Systematic discovery of directional regulatory motifs associated with human insulator sites",
+      "authorString": "Osato N, Hamada M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Osato N",
+            "lastName": "Osato",
+            "firstName": "Naoki",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7584-5388"
+            }
+          },
+          {
+            "fullName": "Hamada M",
+            "lastName": "Hamada",
+            "firstName": "Michiaki",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9466-1034"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9466-1034"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7584-5388"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Insulator proteins function as barriers to enhancer–promoter interactions (EPIs), thereby regulating gene expression. The primary insulator protein in vertebrates is CTCF, a DNA-binding protein (DBP); however, the roles of other DBPs in EPI insulation are not fully understood. To address this, we developed a systematic and comprehensive deep learning–based approach to identify DNA motifs of DBPs associated with insulator function. Applying this method to human fibroblast cells, we identified 97 directional motifs and a smaller number of non-directional motifs. These motifs were mapped to 23 DBPs previously linked to insulator activity, CTCF, and/or other forms of chromosomal transcriptional regulation. We found that the estimated orientation bias of CTCF was consistently proportional to the orientation bias observed in chromatin interaction data. Furthermore, these motifs showed significant enrichment at insulator sites that separate repressive and active chromatin regions, at chromatin interaction–defined boundaries, and at splice sites, compared to motifs of other DBPs. For instance, we observed that the key regulator MyoD-binding site is located at an insulator site near a gene involved in skeletal muscle differentiation and function. Importantly, our findings support the previously proposed insulator-pairing model, which suggests that insulator–insulator interactions are orientation-dependent, and highlight the involvement of multiple DNA-binding proteins beyond CTCF. Together, these results provide new insights into transcriptional regulatory mechanisms mediated by insulator-associated DBPs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/09/2024.01.20.573595.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.20.573595"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-01-25",
+      "firstPublicationDate": "2024-01-23",
+      "firstIndexDate": "2024-01-25",
+      "hasEvaluations": "Y"
+    }
+  }
+}

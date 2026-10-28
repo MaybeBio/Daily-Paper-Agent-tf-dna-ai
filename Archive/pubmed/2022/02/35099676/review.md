@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors modeled five human p53 DNA-binding domain (DBD) forms (inactive, distal-active, proximal-active, distal-Arg175His mutant, proximal-Arg175His mutant) using Gaussian accelerated molecular dynamics (GaMD) simulations in OPC water at physiological temperature and pH. They report agreement with classical MD studies, identify two conformational clusters per form, describe free-energy profiles supporting inter-cluster transitions, and predict two druggable pockets near the Arg175His mutation site.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical results provided
+- **Missing materials affecting confidence** Full methods (simulation parameters, force field, system setup, validation), all figures and tables, free-energy profiles, pocket prediction methodology, statistical analyses, and comparison data with classical MD studies
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational study of mutant p53 dynamics and druggable pocket identification. However, the claims as stated cannot be fully evaluated from the abstract alone. The central conclusions regarding pocket druggability and the superiority of GaMD over classical MD are not supported by the evidence provided in the abstract. The work may be of interest to computational biophysicists and cancer researchers, but the current presentation does not establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying protein dynamics and conformational sampling would be interested in the GaMD application. Cancer biologists and drug discovery researchers focused on p53 reactivation strategies would be interested in the identification of druggable pockets near the Arg175His mutation site, as this mutation is common in human cancers and represents a therapeutic target.
+- **Major strengths** The study addresses a clinically relevant target (mutant p53) with a modern enhanced sampling method (GaMD). The use of multiple p53 forms including active and inactive states provides a comparative framework. The identification of two conformational clusters per form and the analysis of free-energy profiles suggest a systematic approach to conformational analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that GaMD is "more economic and efficient method than the classical MD method for studying biomolecular systems."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that observations are "in good agreement with the relevant results in the classical molecular dynamics (MD) studies" and concludes that GaMD is more economic and efficient. However, no quantitative comparison, computational cost data, or convergence metrics are provided. The claim of superiority over classical MD requires direct benchmarking with matched simulation lengths, system sizes, and hardware.
+  - **Why it matters** This is a strong methodological claim that goes beyond the scope of the study. Without explicit cost-benefit analysis and statistical validation, the conclusion is not supported. Overstating methodological advantages can mislead readers and is not consistent with the evidence presented.
+  - **Resolution test** Provide a direct comparison of GaMD versus classical MD for the same systems, including wall-clock time, sampling efficiency metrics (e.g., effective sample size, conformational space coverage), and error bars on observables. The claim should be revised to reflect only what the data show.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "two out of seven possible druggability pockets" were predicted on the clusters of the Arg175His forms and that these "are expected to be actual pockets."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the pocket prediction method, the criteria for druggability, the scoring function, or the structural basis for selecting two out of seven pockets. The claim that these are "actual pockets" is presented without validation, such as comparison with experimental structures, known ligand binding sites, or conservation analysis.
+  - **Why it matters** Druggable pocket prediction is highly method-dependent and prone to false positives. Without details on the algorithm, parameters, and validation, the claim cannot be assessed. The phrase "expected to be actual pockets" is speculative and not supported by the abstract evidence.
+  - **Resolution test** Describe the pocket detection method, provide structural figures showing the predicted pockets, and validate against known p53 binding sites or experimental data. If no experimental validation is available, the claim should be tempered to "predicted" rather than "actual."
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that simulations were performed "in OPC water model at physiological temperature and pH" and that observations were obtained "throughout [Formula: see text] of production run."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The simulation length is not specified (shown as a formula placeholder), and no details are given on force field, system size, number of replicas, equilibration protocol, or convergence assessment. The abstract also does not state how many independent simulations were performed per p53 form.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, readers cannot assess the statistical reliability of the conformational clusters or the free-energy profiles. The absence of convergence analysis is particularly concerning for enhanced sampling methods.
+  - **Resolution test** Provide full simulation parameters in the methods section, including force field, water model, ion concentration, temperature coupling, simulation length per replica, number of replicas, and convergence metrics (e.g., block averaging, RMSD stability, free-energy convergence).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The terms "distal-active," "proximal-active," "distal-Arg175His mutant," and "proximal-Arg175His mutant" are not defined in the abstract. The distinction between "distal" and "proximal" is unclear without structural context.
+  - **Required correction** Define these terms in the abstract or refer to a figure that illustrates the structural differences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Free-energy analysis
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "free-energy profiles of these clusters" but does not state what reaction coordinate or collective variable was used to construct them.
+  - **Required correction** Specify the collective variable(s) used for free-energy calculation in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the two predicted pockets "will be helpful for the compound clinical progression studies," but no link is made between the predicted pockets and known p53 reactivators or clinical candidates.
+  - **Required correction** Either provide a brief connection to existing p53-targeting compounds or temper the claim to indicate that the pockets may serve as targets for future drug design.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (GaMD superiority claim unsupported), R1-M2 (pocket prediction not validated), R1-M3 (simulation details and convergence not provided)
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The application of GaMD to p53 mutants is not entirely novel, but the comparative analysis of five forms is a reasonable extension.  
+  - Scientific importance: Potentially high given the clinical relevance of p53-Arg175His, but the abstract does not demonstrate that the findings advance understanding beyond existing computational studies.  
+  - Interdisciplinary readership: Limited. The abstract is written for a specialized computational biology audience and does not frame the findings for a broader cancer biology or drug discovery readership.  
+  - Technical soundness: Not assessable from the abstract. Key methodological details and validation are missing.  
+  - Readability for nonspecialists: The abstract uses technical terms without sufficient context, and the formula placeholders reduce readability.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting preliminary results, but the central claims require substantial additional detail and validation. A revised manuscript with full methods, convergence analysis, and tempered conclusions could be reconsidered.
+
+## Risk / unsupported claims
+- The claim that GaMD is "more economic and efficient" than classical MD is unsupported without direct benchmarking data.
+- The claim that the two predicted pockets are "actual pockets" is unsupported without validation or methodological detail.
+- The statement that the pockets "will be helpful for the compound clinical progression studies" is speculative and not supported by the abstract evidence.
+- The simulation length and all numerical results are not provided, making the quantitative claims unevaluable.

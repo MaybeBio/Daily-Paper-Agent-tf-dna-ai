@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "38486445",
+    "doi": "10.1080/07391102.2024.2327539",
+    "title": "Multistate B- to A- transition in protein-DNA Binding - How well is it described by current AMBER force fields?"
+  },
+  "content": {
+    "abstract": "When DNA interacts with a protein, its structure often undergoes a significant conformational adaptation, usually involving a transition from B-DNA towards the A-DNA form. This is not a two-state, but rather a multistate transition. The A- and B- forms differ mainly in sugar pucker (north/south) and glycosidic torsion chi (anti/high-anti). The combination of A-like pucker and B-like chi (and vice versa) represents the nature of the intermediate states between the pure A- and B- forms. Here we study how the A/B equilibrium and the A/B intermediate states at protein-DNA interfaces are modeled by current AMBER force fields. Eight diverse protein-DNA complexes and their naked (unbound) DNAs were simulated with OL15 and bsc1 force fields and an experimental combination OL15chi(OL3). We found that while the geometries of the A-like intermediate states agree well with the native X-ray geometries, their populations (stabilities) are significantly underestimated. Different force fields predict different propensities for A-like states growing in the order OL15 < bsc1 < OL15(chiOL3), yet all underestimate A-like form populations. Interestingly, the force fields seem to predict the correct sequence-dependent A-form propensity, as they predict larger populations of the A-like form in unbound DNA in those steps that acquire A-like conformations in protein-DNA complexes. The instability of A-like geometries in current force fields significantly alters the geometry of simulated protein-DNA complexes and destabilizes the binding motif, suggesting that refinement is required to improve description of protein-DNA interactions in AMBER force fields.",
+    "keywords": [
+      "A/B equilibrium",
+      "MD simulations",
+      "OL15 force field",
+      "sugar pucker"
+    ],
+    "mesh_terms": [
+      "Protein Binding",
+      "*DNA, B-Form/chemistry/metabolism",
+      "Nucleic Acid Conformation",
+      "*DNA, A-Form/chemistry/metabolism",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*DNA/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Models, Molecular",
+      "Binding Sites",
+      "*Proteins/chemistry/metabolism",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jurecka, Petr",
+        "Zgarbova, Marie",
+        "Cerny, Filip",
+        "Salomon, Jan"
+      ],
+      "short_names": [
+        "Jurecka P",
+        "Zgarbova M",
+        "Cerny F",
+        "Salomon J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physical Chemistry, Faculty of Science, Palacky University, Olomouc, Czech Republic.",
+        "Department of Physical Chemistry, Faculty of Science, Palacky University, Olomouc, Czech Republic.",
+        "Department of Physical Chemistry, Faculty of Science, Palacky University, Olomouc, Czech Republic.",
+        "Department of Physical Chemistry, Faculty of Science, Palacky University, Olomouc, Czech Republic."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jurečka, Petr",
+        "short_name": "Jurečka P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Science, Palacky University, Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Zgarbová, Marie",
+        "short_name": "Zgarbová M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Science, Palacky University, Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Černý, Filip",
+        "short_name": "Černý F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Science, Palacky University, Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Salomon, Jan",
+        "short_name": "Salomon J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Science, Palacky University, Olomouc, Czech Republic."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/15 06:44",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "41432306",
+      "40626554",
+      "40436634",
+      "39748297",
+      "39199349",
+      "39012172"
+    ],
+    "refs": [],
+    "similar": [
+      "38486445",
+      "39748297",
+      "27300587",
+      "34582195",
+      "29207232",
+      "26588601",
+      "25166278",
+      "26836489",
+      "19393049",
+      "31805230",
+      "9649374",
+      "28088759",
+      "28398748",
+      "26984848",
+      "36976268",
+      "26348651",
+      "29028340",
+      "34005973",
+      "35694853",
+      "28399366",
+      "28185115",
+      "27135262",
+      "28734842",
+      "30067905",
+      "28576665",
+      "33307679",
+      "33434436",
+      "30047316",
+      "26642982",
+      "24628111",
+      "29235155",
+      "40060049",
+      "20614923",
+      "36969447",
+      "23034759",
+      "26792893",
+      "19754142",
+      "28402659",
+      "31325439",
+      "23591841",
+      "23998351",
+      "25161164",
+      "35686985",
+      "22424267",
+      "28059516",
+      "11565847",
+      "31560849",
+      "26580891",
+      "15869310",
+      "38157247",
+      "39012172",
+      "21721539",
+      "28637405",
+      "37340948",
+      "38014857",
+      "9777496",
+      "29877703",
+      "7473727",
+      "26020564",
+      "29314245",
+      "30767527",
+      "31092333",
+      "29480910",
+      "28290207",
+      "20159159",
+      "23343365",
+      "40534127",
+      "18477633",
+      "15731390",
+      "41121712",
+      "15274614",
+      "24113090",
+      "33187403",
+      "38411091",
+      "35283696",
+      "26789754",
+      "33502401",
+      "28187685",
+      "29791152",
+      "10733977",
+      "32716185",
+      "27935717",
+      "21106075",
+      "31914313",
+      "20825228",
+      "33444020",
+      "40407741",
+      "28696445",
+      "1404366",
+      "22750978",
+      "20408171",
+      "10052609",
+      "40377344",
+      "20701388",
+      "12666159",
+      "21598926",
+      "41298416",
+      "32459476",
+      "21863895",
+      "41432306"
+    ],
+    "review": [
+      "38486445",
+      "26984848",
+      "28576665",
+      "23591841",
+      "25161164",
+      "28637405",
+      "22750978"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2327539?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2327539",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

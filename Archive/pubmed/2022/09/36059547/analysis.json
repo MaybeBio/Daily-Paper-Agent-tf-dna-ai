@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36059547",
+  "title": "MX2: Identification and systematic mechanistic analysis of a novel immune-related biomarker for systemic lupus erythematosus.",
+  "authors": "Meng, Xiang-Wen; Cheng, Zhi-Luo; Lu, Zhi-Yuan; Tan, Ya-Nan; Jia, Xiao-Yi; Zhang, Min",
+  "journal": "Frontiers in immunology",
+  "published_date": "2022-09-06",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过转录组和机器学习筛选SLE生物标志物MX2，虽涉及转录因子调控网络预测，但核心是免疫相关生物标志物与表达分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Systemic lupus erythematosus (SLE) is an autoimmune disease that involves multiple organs. However, the current SLE-related biomarkers still lack sufficient sensitivity, specificity and predictive power for clinical application. Thus, it is significant to explore new immune-related biomarkers for SLE diagnosis and development. METHODS: We obtained seven SLE gene expression profile microarrays (GSE121239/11907/81622/65391/100163/45291/49454) from the GEO database. First, differentially expressed genes (DEGs) were screened using GEO2R, and SLE biomarkers were screened by performing WGCNA, Random Forest, SVM-REF, correlation with SLEDAI and differential gene analysis. Receiver operating characteristic curves (ROCs) and AUC values were used to determine the clinical value. The expression level of the biomarker was verified by RT‒qPCR. Subsequently, functional enrichment analysis was utilized to identify biomarker-associated pathways. ssGSEA, CIBERSORT, xCell and ImmuCellAI algorithms were applied to calculate the sample immune cell infiltration abundance. Single-cell data were analyzed for gene expression specificity in immune cells. Finally, the transcriptional regulatory network of the biomarker was constructed, and the corresponding therapeutic drugs were predicted. RESULTS: Multiple algorithms were screened together for a unique marker gene, MX2, and expression analysis of multiple datasets revealed that MX2 was highly expressed in SLE compared to the normal group (all P < 0.05), with the same trend validated by RT‒qPCR (P = 0.026). Functional enrichment analysis identified the main pathway of MX2 promotion in SLE as the NOD-like receptor signaling pathway (NES=2.492, P < 0.001, etc.). Immuno-infiltration analysis showed that MX2 was closely associated with neutrophils, and single-cell and transcriptomic data revealed that MX2 was specifically expressed in neutrophils. The NOD-like receptor signaling pathway was also remarkably correlated with neutrophils (r >0.3, P < 0.001, etc.). Most of the MX2-related interacting proteins were associated with SLE, and potential transcription factors of MX2 and its related genes were also significantly associated with the immune response. CONCLUSION: Our study found that MX2 can serve as an immune-related biomarker for predicting the diagnosis and disease activity of SLE. It activates the NOD-like receptor signaling pathway and promotes neutrophil infiltration to aggravate SLE.",
+  "abstract_zh": "背景：系统性红斑狼疮（SLE）是一种累及多器官的自身免疫性疾病。然而，目前SLE相关生物标志物在临床应用上仍缺乏足够的敏感性、特异性和预测能力。因此，探索新的免疫相关生物标志物用于SLE诊断和发展具有重要意义。方法：我们从GEO数据库获取了七个SLE基因表达谱微阵列（GSE121239/11907/81622/65391/100163/45291/49454）。首先，使用GEO2R筛选差异表达基因（DEGs），并通过WGCNA、随机森林、SVM-REF、与SLEDAI相关性分析及差异基因分析筛选SLE生物标志物。采用受试者工作特征曲线（ROCs）和AUC值确定临床价值。通过RT-qPCR验证生物标志物的表达水平。随后，利用功能富集分析识别生物标志物相关通路。应用ssGSEA、CIBERSORT、xCell和ImmuCellAI算法计算样本免疫细胞浸润丰度。分析单细胞数据以确定基因在免疫细胞中的表达特异性。最后，构建生物标志物的转录调控网络，并预测相应治疗药物。结果：多种算法共同筛选出一个独特标记基因MX2，多数据集表达分析显示，与正常组相比，SLE中MX2高表达（均P < 0.05），RT-qPCR验证了相同趋势（P = 0.026）。功能富集分析确定MX2在SLE中促进的主要通路为NOD样受体信号通路（NES=2.492，P < 0.001等）。免疫浸润分析显示MX2与中性粒细胞密切相关，单细胞和转录组数据揭示MX2在中性粒细胞中特异性表达。NOD样受体信号通路也与中性粒细胞显著相关（r >0.3，P < 0.001等）。大多数MX2相关相互作用蛋白与SLE相关，MX2及其相关基因的潜在转录因子也与免疫应答显著相关。结论：我们的研究发现MX2可作为预测SLE诊断和疾病活动性的免疫相关生物标志物。它激活NOD样受体信号通路并促进中性粒细胞浸润以加重SLE。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36059547/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36059547/",
+  "paper_page_path": "papers/pubmed/36059547/index.html"
+}

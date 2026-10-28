@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "40316154",
+    "doi": "10.1016/j.jep.2025.119889",
+    "title": "Shenfu injection ameliorates hepatic ischemia-reperfusion injury through induction of ferroptosis via JAK2/STAT3 pathway."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Shenfu injection (SF) is a traditional Chinese medicine (TCM) compound preparation developed from the Shenfu decoction, which is described in the ancient Chinese medical book \"Ji Sheng Fang\" from the Song Dynasty. It is composed of two traditional Chinese medicines: Ginseng Radix et Rhizoma Rubra (G. Radix) and Aconiti Lateralis Radix Preparata (A. Lateralis). SF is renowned for its effects of restoring yang, rescuing adverse conditions, replenishing qi and consolidating deficiency. Research indicated that SF may enhance the recovery from Hepatic ischemia-reperfusion injury (HIRI), although its potential pharmacological mechanisms remain to be clearly defined. AIM OF THE STUDY: To explore the pharmacological effects and mechanisms of SF in the treatment of HIRI. MATERIALS AND METHODS: This study employed network pharmacology alongside both in vivo and in vitro experimental validation. It involved retrieving drug ingredients and targets from a database, constructing networks of chemical composition-targets- pathways and protein-protein interactions to pinpoint key targets. To evaluate the binding affinity between active ingredients and their respective targets, molecular docking was employed. Further, the study predicted potential targets and signaling pathways influenced by SF through Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) functional enrichment analyses. Finally, in vivo and in vitro experimental validation were performed using the HIRI mouse model and the oxygen-glucose deprivation/reperfusion (OGD/R)-induced AML12 cells model. RESULTS: Findings from in vivo experiments indicated that SF could markedly lower serum glutamic pyruvic transaminase (ALT) and glutamic oxaloacetic transaminase (AST) levels, improve hepatic histopathological damage, reduce the count of myeloperoxidase (MPO) positive cells, and decrease the levels of tumor necrosis factor-alpha (TNF-alpha), interleukin-1beta (IL-1beta), and interleukin-6 (IL-6) in HIRI mice. Moreover, we investigated ferroptosis-related biomarkers and found that pretreatment with SF could significantly reduce the levels of reactive oxygen species (ROS), malondialdehyde (MDA), and iron in both HIRI mice and OGD/R-induced AML12 cells. Furthermore, it boosted the activity of superoxide dismutase (SOD) and glutathione (GSH), upregulated the protein expression of glutathione Peroxidase 4 (GPX4), and elevated the mRNA expression of GPX4, solute carrier family 7 member 11 (SLC7A11), and prostaglandin-endoperoxide synthase 2 (PTGS2) in both in vivo and in vitro. The findings from the network pharmacology analysis showed that 51 active components of SF were effective against HIRI and 257 potential intersecting target points. Further screening identified five key targets: AKT1, IL-1beta, TNF, STAT3, and PTGS2. KEGG pathway analysis enriched for signaling pathways such as JAK2/STAT3. Additionally, the outcomes of molecular docking revealed a significant binding affinity among the four primary active components of SF and their respective targets. Western blotting results indicated that SF could inhibit the activation of the JAK2/STAT3 pathway in HIRI mice and OGD/R-induced AML12 cells. CONCLUSION: Through network pharmacology, molecular docking and in vivo and in vitro experiments, it was preliminarily demonstrated that SF attenuates HIRI through the induction of ferroptosis via JAK2/STAT3 pathway.",
+    "keywords": [
+      "Ferroptosis",
+      "Hepatic ischemic reperfusion injury",
+      "JAK2/STAT3 pathway",
+      "Network pharmacology",
+      "Shenfu injection"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Drugs, Chinese Herbal/pharmacology/administration & dosage/therapeutic use",
+      "*Reperfusion Injury/drug therapy/pathology/metabolism",
+      "Male",
+      "Mice",
+      "Signal Transduction/drug effects",
+      "*Ferroptosis/drug effects",
+      "*STAT3 Transcription Factor/metabolism",
+      "*Liver/drug effects/pathology/metabolism",
+      "*Janus Kinase 2/metabolism",
+      "Molecular Docking Simulation",
+      "Mice, Inbred C57BL",
+      "Network Pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Peng",
+        "Yu, Xuecheng",
+        "Gao, Zengxiang",
+        "Yang, Qingsong",
+        "Lin, Yunya",
+        "Tu, Jiyuan",
+        "Cao, Yan",
+        "Liu, Yanju",
+        "Su, Wenlong",
+        "Cao, Guosheng"
+      ],
+      "short_names": [
+        "Huang P",
+        "Yu X",
+        "Gao Z",
+        "Yang Q",
+        "Lin Y",
+        "Tu J",
+        "Cao Y",
+        "Liu Y",
+        "Su W",
+        "Cao G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: 2331800664@stmail.hbucm.edu.cn.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: 2232600740@stmail.hbucm.edu.cn.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: 2331706624@stmail.hbucm.edu.cn.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: 849307048@qq.com.",
+        "Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: 2927@hbucm.edu.cn.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: 3070@hbucm.edu.cn.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: caoyan1999@hbucm.edu.cn.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: lyj1965954@sohu.com.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: 13516110854@163.com.",
+        "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China; Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: caoguosheng2006@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Peng",
+        "short_name": "Huang P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: 2331800664@stmail.hbucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yu, Xuecheng",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: 2232600740@stmail.hbucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Gao, Zengxiang",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: 2331706624@stmail.hbucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Qingsong",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: 849307048@qq.com."
+        ]
+      },
+      {
+        "full_name": "Lin, Yunya",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: 2927@hbucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tu, Jiyuan",
+        "short_name": "Tu J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: 3070@hbucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cao, Yan",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: caoyan1999@hbucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Yanju",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: lyj1965954@sohu.com."
+        ]
+      },
+      {
+        "full_name": "Su, Wenlong",
+        "short_name": "Su W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China. Electronic address: 13516110854@163.com."
+        ]
+      },
+      {
+        "full_name": "Cao, Guosheng",
+        "short_name": "Cao G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Hubei University of Chinese Medicine, Wuhan, People's Republic of China; Hubei Shizhen Labortatory, Wuhan, People's Republic of China; Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, People's Republic of China. Electronic address: caoguosheng2006@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2025 May 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/03 00:37",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42281863",
+      "42071169",
+      "42009627",
+      "41784886",
+      "40621753"
+    ],
+    "refs": [],
+    "similar": [
+      "40316154",
+      "39725365",
+      "30779103",
+      "39923957",
+      "39911447",
+      "38395179",
+      "39278295",
+      "39383632",
+      "38000361",
+      "35916424",
+      "36403742",
+      "38788354",
+      "34675488",
+      "40222690",
+      "37080367",
+      "39004032",
+      "38114219",
+      "34522084",
+      "38621884",
+      "37454750",
+      "40013962",
+      "38213248",
+      "39938168",
+      "38801513",
+      "38697555",
+      "33645090",
+      "39615770",
+      "37201662",
+      "37315642",
+      "39742571",
+      "38696100",
+      "39617073",
+      "38759074",
+      "39694423",
+      "37530723",
+      "38812235",
+      "37287284",
+      "39167169",
+      "31825924",
+      "39874850",
+      "38151179",
+      "39732743",
+      "39701729",
+      "39334526",
+      "37356743",
+      "39326972",
+      "39855825",
+      "39244177",
+      "36472040",
+      "40086050",
+      "38583728",
+      "37714424",
+      "40350886",
+      "38380586",
+      "39094438",
+      "39800242",
+      "39736347",
+      "39322020",
+      "36717099",
+      "39820731",
+      "37833363",
+      "37499457",
+      "33513419",
+      "38750989",
+      "38456959",
+      "40066086",
+      "38588987",
+      "37023836",
+      "38169205",
+      "39929664",
+      "34990768",
+      "38341112",
+      "33054436",
+      "35610009",
+      "29521586",
+      "35988839",
+      "35644437",
+      "39075002",
+      "38387682",
+      "38104874",
+      "36933872",
+      "40170790",
+      "37741472",
+      "39168395",
+      "40316156",
+      "34808299",
+      "38716368",
+      "40330488",
+      "36634726",
+      "39041101",
+      "25788192",
+      "38582151",
+      "37832514",
+      "39623277",
+      "33904141",
+      "39652902",
+      "40350951",
+      "38688354",
+      "35430443",
+      "40350871"
+    ],
+    "review": [
+      "40316154"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(25)00573-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MPO-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

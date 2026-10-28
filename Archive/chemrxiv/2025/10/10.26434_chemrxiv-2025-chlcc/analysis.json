@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-chlcc",
+  "title": "Machine-Learning Adaptivity, DFT-Level Accuracy, and Semi-Empirical Quantum-Chemistry Speed with Neural-Network Extended Tight-Binding",
+  "authors": "Yufan Xia; Giuseppe Maria Junior Barca",
+  "journal": "ChemRxiv",
+  "published_date": "2025-10-30",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出NN-xTB半经验量子化学方法，通过神经网络增强紧束缚哈密顿量实现DFT级精度，虽涉及分子模拟但未聚焦蛋白质-DNA互作或TF-DNA结合体系，方法可迁移性有限。",
+  "abstract": "Fast, general, and interpretable quantum accuracy remains elusive for large, complex molecules. Here we introduce NN-xTB, a Hamiltonian-preserving framework that augments the explicit GFN2-xTB operator with small, bounded, environment-dependent shifts to a compact set of physically named parameters predicted by an E(3)-equivariant encoder. By confining learning to on-site/shell terms, hardness and its charge derivative, overlap/hopping scalings, anisotropic electrostatics/XC prefactors, short-range exchange, and selected global factors, NN-xTB restores local chemical sensitivity while retaining analytic long-range limits, native charge/spin treatment, and a self-consistent (SCF) solution---so all observables arise from the same adapted electronic state. Across complementary benchmarks, NN-xTB attains DFT-like accuracy at near–xTB cost: on GMTKN55 it reaches a WTMAD-2 of 5.58 kcal/mol (versus 25.0 kcal/mol for GFN2-xTB, and 9.3 kcal/mol for g-xTB), achieves the lowest force MAE on 8/10 rMD17 molecules and 10–40% RMSE reductions on large MACEOFF23/SPICE subsets against strong equivariant MLIPs, and cuts VQM24 frequency MAE from 200.6 to 12.7 cm^(-1) (>90\\% reduction). Under temperature shift (3BPA), errors remain markedly lower up to 1200 K. The neural-network component in NN-xTB adds <20% wall-time overhead, preserving the throughput that motivates semi-empirical quantum methods. Overall, NN-xTB demonstrates that targeted, Hamiltonian-level adaptation can bridge much of the gap to DFT while keeping interpretability, asymptotics, and robustness, offering a practical, GPU-ready path to quantum-accurate molecular simulation and design at scale.",
+  "abstract_zh": "对于大型复杂分子而言，实现快速、通用且可解释的量子精度仍然难以企及。在此，我们引入NN-xTB，这是一种保持哈密顿量的框架，通过E(3)等变编码器预测的紧凑物理命名参数集，对显式GFN2-xTB算子施加小而受限的环境依赖偏移。通过将学习限制在位点/壳层项、硬度及其电荷导数、重叠/跳跃缩放、各向异性静电/交换相关（XC）前置因子、短程交换以及选定的全局因子，NN-xTB恢复了局部化学敏感性，同时保留了解析长程极限、原生电荷/自旋处理以及自洽场（SCF）解——因此所有可观测量均源自同一适应电子态。在互补基准测试中，NN-xTB以接近xTB的计算成本达到了类似DFT的精度：在GMTKN55上，其WTMAD-2为5.58 kcal/mol（相比之下，GFN2-xTB为25.0 kcal/mol，g-xTB为9.3 kcal/mol），在10个rMD17分子中的8个上实现了最低力平均绝对误差（MAE），并在大型MACEOFF23/SPICE子集上相对于强等变MLIPs实现了10–40%的均方根误差（RMSE）降低，同时将VQM24频率MAE从200.6降至12.7 cm^(-1)（减少超过90%）。在温度偏移（3BPA）下，误差在高达1200 K时仍显著较低。NN-xTB中的神经网络组件增加了不到20%的墙钟时间开销，保持了半经验量子方法所追求的吞吐量。总体而言，NN-xTB表明，针对性的哈密顿量级适应可以弥合与DFT之间的大部分差距，同时保持可解释性、渐近性和鲁棒性，为大规模量子精确分子模拟和设计提供了一条实用的、GPU就绪的路径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-chlcc",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-chlcc",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-chlcc/index.html"
+}

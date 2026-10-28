@@ -1,0 +1,514 @@
+{
+  "identity": {
+    "pmid": "38512513",
+    "doi": "10.1007/s00432-024-05650-4",
+    "title": "Integrative analysis with machine learning identifies diagnostic and prognostic signatures in neuroblastoma based on differentially DNA methylated enhancers between INSS stage 4 and 4S neuroblastoma."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Accumulating evidence demonstrates that aberrant methylation of enhancers is crucial in gene expression profiles across several cancers. However, the latent effect of differently expressed enhancers between INSS stage 4S and 4 neuroblastoma (NB) remains elusive. METHODS: We utilized the transcriptome and methylation data of stage 4S and 4 NB patients to perform Enhancer Linking by Methylation/Expression Relationships (ELMER) analysis, discovering a differently expressed motif within 67 enhancers between stage 4S and 4 NB. Harnessing the 67 motif genes, we established the INSS stage related signature (ISRS) by amalgamating 12 and 10 distinct machine learning (ML) algorithms across 113 and 101 ML combinations to precisely diagnose stage 4 NB among all NB patients and to predict the prognosis of NB patients. Based on risk scores calculated by prognostic ISRS, patients were categorized into high and low-risk groups according to median risk score. We conducted comprehensive comparisons between two risk groups, in terms of clinical applications, immune microenvironment, somatic mutations, immunotherapy, chemotherapy and single-cell analysis. Ultimately, we empirically validated the differential expressions of two ISRS model genes, CAMTA2 and FOXD1, through immunochemistry staining. RESULTS: Through leave-one-out cross-validation, in both feature selection and model construction, we selected the random forest algorithm to diagnose stage 4 NB, and Enet algorithm to develop prognostic ISRS, due to their highest average C-index across five NB cohorts. After validations, the ISRS demonstrated a stable predictive capability, outperforming the previously published NB signatures and several clinic variables. We stratified NB patients into high and low-risk group based on median risk score, which showed the low-risk group with a superior survival outcome, an abundant immune infiltration, a decreased mutation landscape, and an enhanced sensitivity to immunotherapy. Single-cell analysis between two risk groups reveals biologically cellular variations underlying ISRS. Finally, we verified the significantly higher protein levels of CAMTA2 and FOXD1 in stage 4S NB, as well as their protective prognosis value in NB. CONCLUSION: Based on multi-omics data and ML algorithms, we successfully developed the ISRS to enable accurate diagnosis and prognostic stratification in NB, which shed light on molecular mechanisms of spontaneous regression and clinical utilization of ISRS.",
+    "keywords": [
+      "DNA methylation",
+      "Machine learning",
+      "Neuroblastoma",
+      "Prognostic prediction",
+      "Single-cell analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Prognosis",
+      "*Machine Learning",
+      "Risk Factors",
+      "*Neuroblastoma/diagnosis/genetics/metabolism",
+      "DNA",
+      "Tumor Microenvironment",
+      "Forkhead Transcription Factors/metabolism",
+      "Calcium-Binding Proteins",
+      "Trans-Activators/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shan",
+        "Mi, Tao",
+        "Jin, Liming",
+        "Liu, Yimeng",
+        "Zhang, Zhaoxia",
+        "Wang, Jinkui",
+        "Wu, Xin",
+        "Ren, Chunnian",
+        "Wang, Zhaoying",
+        "Kong, Xiangpan",
+        "Liu, Jiayan",
+        "Luo, Junyi",
+        "He, Dawei"
+      ],
+      "short_names": [
+        "Li S",
+        "Mi T",
+        "Jin L",
+        "Liu Y",
+        "Zhang Z",
+        "Wang J",
+        "Wu X",
+        "Ren C",
+        "Wang Z",
+        "Kong X",
+        "Liu J",
+        "Luo J",
+        "He D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China. hedawei@hospital.cqmu.edu.cn.",
+        "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China. hedawei@hospital.cqmu.edu.cn.",
+        "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China. hedawei@hospital.cqmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Mi, Tao",
+        "short_name": "Mi T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Liming",
+        "short_name": "Jin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yimeng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhaoxia",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinkui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xin",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Chunnian",
+        "short_name": "Ren C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhaoying",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Xiangpan",
+        "short_name": "Kong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiayan",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Junyi",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "He, Dawei",
+        "short_name": "He D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University, Zhongshan 2nd Road, No. 136, Yuzhong District, Chongqing, 400014, China. hedawei@hospital.cqmu.edu.cn.",
+          "Chongqing Key Laboratory of Children Urogenital Development and Tissue Engineering, Chongqing, 400014, China. hedawei@hospital.cqmu.edu.cn.",
+          "China International Science and Technology Cooperation Base of Child Development and Critical Disorders, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Children's Hospital of Chongqing Medical University, Chongqing, 400014, China. hedawei@hospital.cqmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cancer research and clinical oncology"
+    ],
+    "journal_abbrev": [
+      "J Cancer Res Clin Oncol"
+    ],
+    "pub_date": "2024 Mar 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/21 18:45",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "42696227",
+      "41526921",
+      "41488744",
+      "41438751",
+      "41309932",
+      "41184857",
+      "39363969"
+    ],
+    "refs": [
+      "38105215",
+      "37563111",
+      "36544472",
+      "36319669",
+      "36051886",
+      "35145098",
+      "34442335",
+      "34285779",
+      "34276676",
+      "34016622",
+      "33767450",
+      "33597522",
+      "33547074",
+      "33523131",
+      "32974147",
+      "32946775",
+      "32789496",
+      "32451439",
+      "32243801",
+      "32125284",
+      "31980749",
+      "31740819",
+      "31736229",
+      "31709644",
+      "31484055",
+      "31126321",
+      "30787437",
+      "30560866",
+      "30400809",
+      "30364927",
+      "30341162",
+      "30275705",
+      "30154154",
+      "30127393",
+      "29628290",
+      "29608179",
+      "29445860",
+      "29425488",
+      "29380702",
+      "29305654",
+      "29141660",
+      "29130882",
+      "28991892",
+      "28350380",
+      "28251903",
+      "28114287",
+      "28052254",
+      "27806376",
+      "27765066",
+      "27599161",
+      "27549193",
+      "27043043",
+      "26853473",
+      "26766592",
+      "25867923",
+      "25822800",
+      "24113773",
+      "23937229",
+      "23579273",
+      "23323831",
+      "22797059",
+      "22528697",
+      "22455463",
+      "22257669",
+      "22008333",
+      "21527027",
+      "20427518",
+      "19847166",
+      "19787053",
+      "16199517",
+      "11953858",
+      "9891219",
+      "9626196",
+      "9134002",
+      "8336186",
+      "7697611",
+      "7582247"
+    ],
+    "similar": [
+      "38512513",
+      "37712965",
+      "38323183",
+      "32216054",
+      "22536959",
+      "32974147",
+      "37545226",
+      "32683778",
+      "37799714",
+      "23815266",
+      "28984200",
+      "37709978",
+      "38948053",
+      "27599161",
+      "36605200",
+      "25078098",
+      "35535346",
+      "36568423",
+      "38962012",
+      "19383347",
+      "37081871",
+      "37746942",
+      "26358114",
+      "36311753",
+      "36211401",
+      "34751044",
+      "33182060",
+      "35493068",
+      "37035400",
+      "32176634",
+      "36572864",
+      "37990103",
+      "39028490",
+      "38427078",
+      "28185577",
+      "27599694",
+      "37378675",
+      "23257451",
+      "34879089",
+      "33172452",
+      "36479114",
+      "38019470",
+      "32472746",
+      "34569303",
+      "35643506",
+      "37521469",
+      "31443736",
+      "36209521",
+      "26646589",
+      "38012558",
+      "38180715",
+      "39025912",
+      "29941555",
+      "36147739",
+      "37346073",
+      "35742955",
+      "27876123",
+      "38125723",
+      "37994489",
+      "35071226",
+      "36699466",
+      "38519890",
+      "29507419",
+      "19192278",
+      "38028548",
+      "36259363",
+      "10984508",
+      "37152941",
+      "33393844",
+      "35139733",
+      "36212131",
+      "17243159",
+      "22142825",
+      "37090728",
+      "22031095",
+      "36551318",
+      "36591215",
+      "10389937",
+      "37671155",
+      "34950701",
+      "34660598",
+      "9816308",
+      "23135478",
+      "31511046",
+      "16804916",
+      "37120631",
+      "16941154",
+      "37760568",
+      "30236139",
+      "37539569",
+      "38249081",
+      "31521373",
+      "20624283",
+      "36046056",
+      "37741985",
+      "37965307",
+      "37925432",
+      "29398485",
+      "39072291",
+      "38925618",
+      "38613345",
+      "35688160",
+      "39175876",
+      "39135779",
+      "32825087",
+      "38937469",
+      "39095590",
+      "39165361",
+      "38645433",
+      "35756625",
+      "39247837",
+      "36282174",
+      "39126426",
+      "39170129",
+      "32169803",
+      "39329467",
+      "39295930",
+      "35584622",
+      "39263146",
+      "39356132",
+      "38601081",
+      "38933377",
+      "39091745"
+    ],
+    "review": [
+      "38512513",
+      "35139733",
+      "38249081",
+      "35584622",
+      "38601081"
+    ],
+    "pmc": [
+      "10957705"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38512513/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00432-024-05650-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38512513",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

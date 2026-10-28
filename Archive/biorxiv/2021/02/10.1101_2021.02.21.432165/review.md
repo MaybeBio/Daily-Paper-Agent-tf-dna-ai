@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, supporting information references)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to evidence presented, and suitability for a high-impact generalist journal
+- **Shared manuscript claim summary** The authors use integrative computational approaches (coarse-grained simulations, perturbation-based network modeling, mutational sensitivity analysis) to argue that specific SARS-CoV-2 spike protein residues (K417, E484, N501, N439, E406) are structurally plastic, energetically adaptable allosteric hubs that mediate long-range communication in complexes with ACE2 and antibodies, and that circulating mutations preferentially target these sites to balance host receptor binding with antibody escape.
+- **Visible evidence base** Computational simulation trajectories (CG-CABS), PCA/ENM analyses, alanine scanning and mutational sensitivity calculations (BeAtMuSiC), PRS profiles, network community analyses, RSA calculations. Structures used: 6M0J, 7A91, 7A92, 6XDG.
+- **Missing materials affecting confidence** No quantitative validation against experimental binding data (e.g., measured ΔΔG values for specific mutants); no statistical error bars or convergence metrics for simulations; no comparison of predicted versus experimentally determined escape mutations beyond qualitative literature references; no code or parameter files provided; no details on force field parameters for CG model beyond default settings; no sensitivity analysis of network construction parameters.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study aimed at identifying allosteric hotspots in the SARS-CoV-2 spike protein that are targeted by circulating mutations. The methodological framework is sophisticated and the integration of multiple computational approaches is commendable. However, the central claims—that specific residues function as "allosteric regulatory engines" and that mutations preferentially target these sites—are not convincingly established from the evidence presented. The study is largely descriptive and correlative, lacking quantitative validation against experimental data or clear falsifiable predictions. The manuscript would benefit from a more rigorous statistical framework, direct comparison with experimental mutagenesis data, and a clearer articulation of what is mechanistically novel beyond previous computational studies by the same group.
+- **Who would be interested in the results, and why** Structural biologists and computational biophysicists studying protein allostery and protein-protein interactions; virologists and immunologists interested in the molecular basis of antibody escape and variant emergence in SARS-CoV-2; researchers developing computational pipelines for predicting mutation effects on binding and allostery.
+- **Major strengths** 1) Integration of multiple complementary computational methods (CG simulations, PCA, PRS, network analysis, alanine scanning) to address a biologically relevant question. 2) Comparative analysis across different complex types (ACE2 vs. antibody) provides a useful framework for understanding differential allosteric regulation. 3) The identification of E406 as a potential allosteric hub is interesting and may have been underappreciated in earlier experimental studies. 4) The discussion of structural plasticity versus energetic adaptability as a constraint on mutation selection is conceptually appealing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of central claim
+  - **Claim pointer** "E406, N439, K417 and N501 residues serve as effector centers of allosteric interactions and anchor major inter-molecular communities that mediate long-range communication in the complexes."
+  - **Evidence pointer** Figures 9-10, PRS analysis section
+  - **Concern** The PRS method identifies residues that are mechanically sensitive to perturbation, but this does not necessarily equate to biological allosteric function. The authors do not demonstrate that these residues actually transmit signals that affect binding affinity or antibody neutralization in a causal manner. The PRS approach is purely correlative and depends heavily on the elastic network model used. No experimental validation (e.g., mutational studies showing that perturbing E406 or N439 alters allosteric communication) is provided.
+  - **Why it matters** The central thesis of the paper rests on the claim that these residues are functionally important allosteric hubs. Without experimental validation or at least a clear mechanistic model that can be tested, the claim remains speculative. The distinction between "mechanically responsive" and "biologically allosteric" is critical and not addressed.
+  - **Resolution test** Provide experimental validation (e.g., surface plasmon resonance or biolayer interferometry binding assays with specific mutants) or at minimum a clear, testable prediction (e.g., specific double-mutant cycles that would confirm allosteric coupling) that distinguishes this model from alternatives.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** "mutational sensitivity profiling of the SARS-CoV-2 RBD binding interfaces reveals energetic plasticity in sites susceptible to circulating mutational variants"
+  - **Evidence pointer** Figures 5-8, BeAtMuSiC calculations
+  - **Concern** The mutational sensitivity analysis relies on BeAtMuSiC, a knowledge-based statistical potential method. The authors report ΔΔG values but provide no error estimates, no comparison with experimentally measured ΔΔG values for known mutations (e.g., N501Y, E484K, K417N), and no validation of the method's accuracy for this specific system. The claim that certain mutations "improve" binding is based on predicted values that may have substantial uncertainty.
+  - **Why it matters** The paper makes specific quantitative claims about binding affinity changes (e.g., N501Y improving binding, E484K having marginal effects). If these predictions are inaccurate, the central argument about "energetic adaptability" is weakened. The lack of benchmarking against experimental data is a significant gap.
+  - **Resolution test** Benchmark BeAtMuSiC predictions against experimentally measured binding affinities for a panel of known spike mutations (e.g., from deep mutational scanning datasets). Provide error bars or confidence intervals for predicted ΔΔG values. If benchmarking is not possible, temper the quantitative claims accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and significance
+  - **Claim pointer** "This study provides a novel insight into allosteric regulatory mechanisms of SARS-CoV-2 S proteins"
+  - **Evidence pointer** Introduction, Conclusions
+  - **Concern** The authors have previously published multiple computational studies on allosteric regulation of the SARS-CoV-2 spike protein (references 94-96). The current manuscript appears to be an incremental extension of this prior work, applying similar methods to a slightly different set of complexes. The conceptual framework (plasticity-adaptability trade-off) is interesting but not fundamentally new. The claim of novelty is not well differentiated from prior publications.
+  - **Why it matters** For a high-impact journal, the work needs to offer a significant conceptual advance or novel biological insight. If this is primarily a methodological extension of prior work, the significance may not meet the bar for Nature-level journals.
+  - **Resolution test** Clearly articulate what is mechanistically new compared to prior publications. Provide a specific, testable hypothesis that emerges from this work and could not have been derived from previous studies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "CG-CABS model was used for simulations... A total of 1,000 independent CG-CABS simulations were performed for each of the studied systems."
+  - **Evidence pointer** Methods section, Figures 1-2
+  - **Concern** The CG-CABS method is a coarse-grained approach with known limitations in capturing detailed electrostatic and hydrogen bonding interactions that are critical for binding affinity predictions. The authors do not discuss these limitations or provide any validation that the CG model accurately reproduces experimentally known conformational dynamics of the spike protein. Additionally, the choice of 1,000 simulations and 10,000 cycles is not justified, and no convergence analysis is presented.
+  - **Why it matters** The reliability of all downstream analyses (PCA, PRS, network analysis) depends on the quality of the simulation trajectories. If the CG model is not adequately validated or the sampling is insufficient, the conclusions may be artifacts of the model rather than properties of the biological system.
+  - **Resolution test** Provide validation of the CG model against known experimental data (e.g., hydrogen-deuterium exchange, cryo-EM flexibility measurements). Show convergence of key observables (e.g., RMSF, PRS profiles) as a function of simulation length or number of replicas.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract is overly dense and uses jargon-heavy phrasing ("perturbation-based modeling," "functional signatures") that may obscure the key findings for a generalist audience.
+  - **Required correction** Rewrite the abstract to clearly state the biological question, the computational approach in plain terms, and the main finding in a way accessible to non-specialists.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section, "Coarse-Grained Molecular Simulations"
+  - **Issue** The methods section lacks specific parameters for the CG model (e.g., temperature, pressure, time step, force field version). The statement "default settings were applied" is insufficient for reproducibility.
+  - **Required correction** Provide full parameter details or a reference to a published protocol that specifies all parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results
+  - **Evidence pointer** Figures 5-8
+  - **Issue** The mutational sensitivity profiles are presented as single values without error bars or measures of variability across simulation replicas.
+  - **Required correction** Provide standard deviations or confidence intervals for ΔΔG predictions, or state clearly that these are single-point estimates from a single trajectory ensemble.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion of E484K and N501Y effects
+  - **Issue** The discussion of experimental data on E484K and N501Y effects on ACE2 binding is somewhat selective. Some experimental studies report conflicting results on whether E484K increases or decreases ACE2 affinity.
+  - **Required correction** Provide a more balanced discussion of experimental literature, acknowledging discrepancies and explaining how the computational predictions relate to the range of experimental observations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 9-10
+  - **Evidence pointer** Figures 9-10
+  - **Issue** The PRS profiles are presented as line plots without clear labeling of which residues correspond to which peaks. The structural mapping panels are difficult to interpret without residue labels.
+  - **Required correction** Add residue labels to key peaks and improve the structural figures with clear annotations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation of allosteric claims), R1-M2 (lack of benchmarking of ΔΔG predictions), R1-M4 (inadequate validation of CG model and sampling convergence).
+- **Assessment against Nature-style criteria** 
+  - **Originality**: Moderate. The application of perturbation-based methods to compare ACE2 vs. antibody complexes is somewhat novel, but the overall framework closely follows prior work by the same group. The conceptual model of "plasticity-adaptability" is not entirely new.
+  - **Scientific importance**: Moderate. Understanding why certain spike mutations are selected is important for pandemic surveillance and therapeutic development. However, the study does not provide definitive mechanistic insights that would change how we think about variant emergence.
+  - **Interdisciplinary readership**: Limited. The manuscript is written primarily for computational biophysicists. The biological implications are discussed but not developed in a way that would engage virologists or immunologists without significant background in computational methods.
+  - **Technical soundness**: The methods are appropriate for the questions asked, but the lack of validation and benchmarking undermines confidence in the quantitative claims. The study would be strengthened by experimental collaboration or at least rigorous benchmarking against published experimental data.
+  - **Readability for nonspecialists**: Poor. The abstract and introduction are dense with jargon. The significance of the findings is not clearly articulated for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting computational framework but does not convincingly establish the central claims of allosteric regulation and mutation targeting. Major revisions addressing validation, benchmarking, and clarity would be required before the case is made.

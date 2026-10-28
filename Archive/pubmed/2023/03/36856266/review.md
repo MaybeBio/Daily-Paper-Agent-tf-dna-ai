@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions, and presentation quality. Editorial or stylistic preferences are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors present a combined SAXS and coarse-grained MD simulation approach to simultaneously characterize the conformational ensemble and oligomeric state distribution of SPOP, a substrate adaptor that forms linear higher-order oligomers. They report that SPOP oligomers are rigid helical structures in solution, that the MATH-BTB linker is flexible allowing substrate-binding domains to extend away from the oligomer core, and that the isodesmic KD is in the low micromolar range, consistent with prior CG-MALS measurements. They also apply the approach to a cancer-associated mutant, R221C, finding a 6-9 fold decrease in self-association propensity.
+- **Visible evidence base** SAXS data collected at a synchrotron beamline across a concentration series (5-40 µM); CG-MALS data from a prior publication; coarse-grained MD simulations using Martini 3; CALVADOS simulations of substrate IDRs; Bayesian/maximum entropy reweighting; supplementary figures including fits, validation, and model comparisons.
+- **Missing materials affecting confidence** Experimental SAXS curves and error bars are not shown directly in the main text; the specific quality metrics for the SAXS data (e.g., Guinier fits, Kratky plots) are not presented; details on the number of independent MD simulations and convergence criteria are limited; the method for extracting per-oligomer SAXS profiles from the mixture is described but the sensitivity of results to this extraction is not fully explored; no information on the uncertainty of the fitted ensemble weights beyond the KD error is provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically sophisticated and potentially valuable approach for studying polydisperse, conformationally heterogeneous protein systems. The combination of SAXS, coarse-grained MD, and Bayesian reweighting is well motivated, and the application to SPOP addresses a biologically important question. The main conclusions, that SPOP oligomers are rigid and helical with flexible MATH domains, are supported by the data as presented, though some concerns about the robustness of the approach and the interpretation of the R221C mutant remain. The work is likely to be of interest to the structural biology and biophysics communities, and the methodological framework could be broadly applicable. However, several technical aspects require clarification and additional validation before the case is fully established.
+- **Who would be interested in the results, and why** Structural biologists studying multi-domain proteins and oligomeric assemblies; biophysicists interested in integrative modeling approaches combining solution scattering with simulations; researchers studying SPOP and its role in cancer; method developers working on ensemble refinement against SAXS data; scientists interested in the relationship between protein conformational flexibility and phase separation.
+- **Major strengths** The development of a self-consistent framework to simultaneously fit oligomeric state distributions and refine conformational ensembles is a significant methodological advance. The use of a concentration series of SAXS data is appropriate and strengthens the analysis. The validation approach, including leave-one-out cross-validation and comparison with CG-MALS data, is thoughtful. The application to a disease-associated mutant demonstrates the potential utility of the method. The writing is generally clear and the figures appear well constructed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their approach simultaneously and self-consistently characterizes the conformational ensemble and oligomeric state distribution of SPOP, and that the resulting model is in excellent agreement with the SAXS data.
+  - **Evidence pointer** Results section, Figure 3, Methods section "Self-consistent optimization of isodesmic model parameters and conformational ensemble weights"
+  - **Concern** The self-consistency of the optimization scheme relies on extracting per-oligomer SAXS profiles from the experimental mixture data (Equation 10). This extraction assumes that the contribution of each oligomer to the total scattering can be cleanly separated using the current ensemble weights and isodesmic model. However, this procedure is circular: the extracted profile for oligomer i depends on the weights of all other oligomers, which are themselves being refined. The authors do not demonstrate that this iterative procedure converges to a unique solution or that it is stable with respect to initial conditions. Furthermore, the sensitivity of the final results to the choice of the ϕeff cutoff (set to 0.4) is not systematically explored. If the extracted profiles are noisy or biased, the reweighting could overfit to artifacts.
+  - **Why it matters** The central methodological claim is that the approach is self-consistent. If the circularity in the profile extraction introduces bias or non-uniqueness, the derived conformational ensembles and the fitted KD could be unreliable, undermining the main conclusions about SPOP structure and the R221C mutant.
+  - **Resolution test** The authors should demonstrate convergence of the iterative scheme from multiple random starting points (e.g., different initial KD values and ensemble weights). They should also perform a systematic sweep of the ϕeff cutoff and show that the final KD and key conformational properties (e.g., Rg distributions, MATH domain positions) are robust across a reasonable range. Additionally, they could validate the extracted per-oligomer profiles by comparing them to profiles calculated from the reweighted ensembles of individual oligomers in a more direct manner, or by using a synthetic data test where the true answer is known.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors conclude that SPOP oligomers behave as rigid, helical structures in solution, and that the flexible MATH-BTB linker allows substrate-binding domains to extend away from the core.
+  - **Evidence pointer** Results section, Figure 4, Discussion
+  - **Concern** The conclusion of rigidity is based on the observation that the reweighted ensembles have narrow distributions of end-to-end distances and that a power law fit gives ν=0.99. However, the reweighting procedure itself may bias toward more compact or rigid structures if the prior ensemble (from Martini 3 simulations) does not adequately sample the relevant conformational space. The authors modified the Martini force field by increasing protein-water interactions by 6%, but the effect of this modification on the conformational preferences is not characterized in detail. Moreover, the comparison with the "MATH restrained" model shows a much worse fit to the SAXS data, but this model may be too restrictive; the true behavior could be intermediate between fully free and fully restrained. The authors do not test whether a model with partially restricted MATH domain mobility could also fit the data.
+  - **Why it matters** The biological interpretation, particularly regarding the mechanism of substrate recognition and the role of flexibility in SPOP function, depends critically on the accuracy of the conformational ensemble. If the prior ensemble is biased, the conclusion of rigidity may be an artifact of the modeling rather than a property of the real system.
+  - **Resolution test** The authors should provide a more detailed characterization of the prior ensemble, including the distribution of Rg and end-to-end distances before reweighting, and compare with the reweighted ensemble. They should also test the sensitivity of their conclusions to the force field modification (e.g., by running simulations with different scaling factors). Additionally, they could perform a more graded restriction of MATH domain mobility (e.g., using harmonic restraints of varying strength) to map out how the fit quality changes, which would provide a more nuanced view of the flexibility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their results provide further evidence that SPOP self-association follows the isodesmic model, and they find a KD in good agreement with the previously determined value.
+  - **Evidence pointer** Results section, Figure 3, Figure 3—figure supplement 4
+  - **Concern** The isodesmic model is assumed a priori, and the analysis does not rigorously test whether alternative models of self-association (e.g., cooperative or anti-cooperative assembly) could also explain the SAXS data. The comparison with dimer-oligomer equilibria is useful, but these are special cases of a more general model. The authors do not report whether the SAXS data alone can distinguish between the isodesmic model and other plausible models, or whether the CG-MALS data are the primary constraint. If the SAXS data are not highly sensitive to the form of the oligomer size distribution, the claim of "further evidence" for the isodesmic model may be overstated.
+  - **Why it matters** The isodesmic model is central to the interpretation of the data and the derived KD. If the model is incorrect, the KD value and the conclusions about the R221C mutant could be misleading.
+  - **Resolution test** The authors should perform a more systematic model comparison, testing, for example, models with a different relationship between oligomer size and association constant (e.g., a cooperative model with a nucleation step). They could report the relative likelihoods or information criteria for these models. If the SAXS data are not sufficient to distinguish between models, this should be stated explicitly, and the conclusions should be tempered accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors apply their approach to the cancer-associated R221C mutant and conclude that it has a 6-9 fold decreased propensity to self-associate.
+  - **Evidence pointer** Results section, Figure 3—figure supplement 7, Discussion
+  - **Concern** The analysis of the R221C mutant is performed without reweighting the conformational ensembles, using the wild-type ensembles as priors. This assumes that the mutation does not significantly alter the conformational ensemble of individual oligomers, only the oligomeric state distribution. This assumption is not tested. If R221C affects the structure or dynamics of the MATH or BTB domains, the fitted KD could be biased. Additionally, the error on the KD for the mutant is relatively large (±2.3 µM), and the conclusion of a 6-9 fold decrease is based on a comparison with the wild-type KD that has its own uncertainty. The authors should provide a more rigorous statistical comparison of the two KD values.
+  - **Why it matters** The application to a disease-associated mutant is presented as a demonstration of the utility of the method. If the analysis is not robust, this demonstration is weakened, and the specific conclusion about R221C could be incorrect.
+  - **Resolution test** The authors should run simulations of the R221C mutant oligomers to test whether the conformational ensemble is significantly different from wild type. If it is, the analysis should be repeated with mutant-specific ensembles. They should also provide confidence intervals for the KD ratio (wild-type vs. mutant) and perform a formal statistical test (e.g., a likelihood ratio test) to support the claim of a significant difference.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Results
+  - **Evidence pointer** Introduction, Results section
+  - **Issue** The manuscript assumes familiarity with SAXS, coarse-grained MD, and Bayesian reweighting. A brief, more accessible explanation of why SAXS is sensitive to both oligomeric state and conformation, and why combining it with simulations is advantageous, would help nonspecialist readers.
+  - **Required correction** Add a few sentences in the Introduction explaining the basic principles of SAXS and the challenge of interpreting data from heterogeneous mixtures, and why the combination with MD simulations and reweighting is a powerful approach.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Figure 3—figure supplement 1
+  - **Evidence pointer** Methods section "Preventing overfitting of ensemble weights", Figure 3—figure supplement 1
+  - **Issue** The choice of ϕeff cutoff = 0.4 is justified by a leave-one-out analysis, but the details of this analysis are only briefly described. It would be helpful to show the full curve of validation error versus ϕeff cutoff, not just the selected value.
+  - **Required correction** Include a supplementary figure showing the validation metric (e.g., χ² to the held-out data) as a function of ϕeff cutoff, with the selected value clearly marked.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Results
+  - **Evidence pointer** Methods section "Constructing ensembles of larger SPOP oligomers"
+  - **Issue** The method for constructing larger oligomers by joining dodecamer fragments assumes that the junction regions are representative of internal interfaces in longer oligomers. This assumption is reasonable but should be stated more explicitly, and the potential artifacts (e.g., strain at the junctions) should be discussed.
+  - **Required correction** Add a sentence in the Methods or Discussion acknowledging this assumption and noting that the resulting structures were validated by their agreement with SAXS data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** Figure 4 is dense and contains multiple panels with different types of information (Rg distributions, end-to-end distances, distance histograms, structures). It may be difficult for readers to follow the main message.
+  - **Required correction** Consider splitting Figure 4 into two figures or reorganizing the panels to more clearly separate the key results (rigidity, MATH domain flexibility, substrate binding site spacing).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Results
+  - **Evidence pointer** Methods section "Calculating SAXS intensities from conformational ensembles"
+  - **Issue** The parameters for SAXS calculation (δρ = 3.34 e/nm³, r0/rm = 1.025) are fixed based on previous work, but the sensitivity of the results to these parameters is not tested. While this is a reasonable approach to avoid overfitting, a brief comment on the expected impact of these parameters would be useful.
+  - **Required correction** Add a sentence noting that the results were not sensitive to reasonable variations in these parameters, or state that this was not tested and acknowledge the limitation.
+
+## Risk / unsupported claims
+- The claim that the approach is "self-consistent" is not fully supported without a demonstration of convergence from multiple starting points and stability of the solution.
+- The conclusion that SPOP oligomers are "rigid" is based on the reweighted ensembles, but the sensitivity of this conclusion to the prior ensemble and the reweighting procedure is not fully explored.
+- The claim of "further evidence" for the isodesmic model is not strongly supported, as alternative models of self-association were not systematically tested against the SAXS data.
+- The conclusion about the R221C mutant's decreased self-association propensity relies on the assumption that the mutant's conformational ensemble is similar to wild type, which is not tested.
+- The statement that the approach "can be extended to other systems" is a reasonable suggestion but is not demonstrated here and should be framed as a possibility rather than a proven capability.

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusions, and supplementary information description.
+- **Assessment boundary** Scientific validity of the claims, methodological soundness, and completeness of evidence as presented in the provided material. No external data or literature beyond what is cited in the text was consulted.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that a Hoogsteen base pair in a 15 bp DNA duplex, in the presence of specifically and nonspecifically bound homeodomain proteins, becomes conformationally stabilized and ordered relative to the same DNA in the absence of proteins. They attribute this stabilization to reduced fluctuations in sugar-phosphate, sugar-base, and sugar-pucker torsion angles, and quantify it via conformational free energy and entropy changes computed from histogram-based analysis.
+- **Visible evidence base** Abstract, introduction, methods sections 2.1-2.5, results sections 3.1-3.3, conclusions, and references to supplementary figures and tables (Fig. 1, Fig. 2, Fig. 3, Fig. 4, Fig. S1-S3, Tables S1-S14, Table 1). No raw simulation trajectories, force field parameter files, or convergence diagnostics were provided.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced in the text (Fig. S1-S3, Tables S1-S14) were not included in the provided material. Convergence criteria for the 1 microsecond simulations, block averaging procedures, and error estimation methods for the histogram-based thermodynamics are not described in sufficient detail. The precise definition of the "equilibrated portion" of the trajectory (200 ns to 1 microsecond) is stated but not justified with quantitative diagnostics.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in DNA-protein recognition, namely the molecular basis for protein-induced stabilization of Hoogsteen base pairs. The use of conformational thermodynamics to dissect contributions from different classes of internal coordinates is a potentially valuable approach. However, the current presentation has several weaknesses that prevent full confidence in the conclusions. The methods section lacks critical details on convergence and error analysis, the results are presented in a way that is difficult to follow due to missing figure content, and the link between specific torsion angle fluctuations and the overall thermodynamic stabilization is asserted rather than rigorously demonstrated. The claim that the HG pair is stabilized by proteins is supported by the data shown, but the mechanistic interpretation requires stronger quantitative support.
+- **Who would be interested in the results, and why** Researchers studying non-canonical DNA structures, DNA-protein recognition, and the role of base pair dynamics in gene regulation would find this work relevant. The methodological approach of using conformational thermodynamics to decompose stabilization into specific internal coordinate contributions could be of interest to computational biophysicists working on nucleic acid simulations. The potential implications for understanding p53 binding and DNA repair mechanisms may attract a broader readership in cancer biology and molecular medicine.
+- **Major strengths** The study addresses a mechanistically important question that is difficult to probe experimentally. The use of a well-defined experimental structure (PDB 1K61) with a known HG pair provides a realistic starting point. The decomposition of conformational free energy and entropy into specific coordinate classes is a thoughtful analytical strategy. The comparison between naked DNA, HG-containing DNA, and protein-bound HG-containing DNA is a logical design that allows isolation of protein effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the HG pair and the entire DNA duplex are stabilized and ordered in the presence of proteins, based on conformational free energy and entropy changes.
+  - **Evidence pointer** Section 3.3, Table 1, Figures 3 and 4
+  - **Concern** The manuscript does not provide sufficient evidence that the 1 microsecond simulations are converged. The authors state that the equilibrated portion is 200 ns to 1 microsecond, but no RMSD convergence plots, block-averaging analysis, or autocorrelation times are shown in the main text. Without this, the computed free energy and entropy differences, which are sensitive to sampling completeness, cannot be trusted. The error bars shown in Figures 3 and 4 are based on 10 windows, but the method for estimating these errors is not described in enough detail to assess whether they capture statistical uncertainty adequately.
+  - **Why it matters** Conformational free energy and entropy differences derived from histograms are only meaningful if the underlying distributions are well-sampled. If the simulations have not reached equilibrium or if the sampling is insufficient, the reported values could be artifacts of the simulation length rather than genuine thermodynamic properties. This directly affects the validity of the central claim.
+  - **Resolution test** Provide convergence diagnostics such as RMSD and RMSF time series, block-averaged estimates of the free energy and entropy with increasing block size, and a comparison of results from independent simulation replicas. Show that the distributions of key torsion angles (especially chi, epsilon, nu0, nu3) are stable over the last 800 ns of simulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that sugar-phosphate, sugar-base, and sugar-pucker torsion angles play key roles in stabilizing and ordering the HG pair in the protein-bound complex.
+  - **Evidence pointer** Section 3.2, Figure 2, Table 1
+  - **Concern** The attribution of stabilization to specific torsion angle classes is based on the observation that certain angles show sharper distributions in the HGP system. However, the manuscript does not provide a quantitative decomposition showing how much each angle class contributes to the total free energy and entropy change. The total values in Table 1 are sums over all angles, but the individual contributions are not tabulated or ranked. Without this, the claim that specific torsion classes "play key roles" is not substantiated.
+  - **Why it matters** The mechanistic conclusion of the paper rests on identifying which internal coordinates are responsible for the protein-induced stabilization. If the authors cannot show quantitatively which angles contribute most, the conclusion remains speculative.
+  - **Resolution test** Provide a table or figure showing the per-angle or per-class contributions to the total conformational free energy and entropy changes for both HG and HGP systems relative to WC. Rank the contributions and show that the angles highlighted in the text are indeed the dominant ones.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods describe the use of Amberff14SB_OL15 force field, GROMACS 2018.6, and specific simulation conditions.
+  - **Evidence pointer** Section 2.2
+  - **Concern** The methods section lacks several details necessary for reproduction. The exact number of water molecules and ions added, the salt concentration, the equilibration protocol (number of steps, temperature coupling scheme, pressure coupling scheme), and the criteria for determining when the system is equilibrated are not fully specified. The statement that the total number of atoms is the same (N=51068) in all systems is useful, but the composition of each system is not given.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without full methodological details, other groups cannot replicate the simulations or verify the results.
+  - **Resolution test** Provide a complete simulation protocol in the methods or supplementary material, including system composition, equilibration steps, and production run parameters. Include a table listing the number of DNA atoms, protein atoms, water molecules, and ions for each system.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that their study can inform understanding of DNA-protein recognition, p53 binding, DNA repair, and anti-cancer drug targeting.
+  - **Evidence pointer** Section 4, Conclusions
+  - **Concern** The discussion of broader implications is brief and not well connected to the specific findings. The authors state that the study "can also lead to a focus on anti-cancer drug target therapeutics" but do not explain how the stabilization of a single HG pair in a model system translates to therapeutic relevance. The connection to p53 and DNA repair is mentioned without any mechanistic link to the simulation results.
+  - **Why it matters** The broader significance of the work is part of its appeal to a wide readership. If the implications are not clearly articulated, the impact of the study is diminished.
+  - **Resolution test** Expand the discussion to explain how the specific finding that protein binding stabilizes HG pairs could affect DNA recognition by p53 or repair proteins, and what the potential therapeutic implications might be. Provide a more concrete mechanistic scenario.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "sugar-phosphate, sugar-base, and sugar-pucker torsion angles play key roles" but does not specify which angles or how they were identified. This is too vague for a reader to assess the claim.
+  - **Required correction** Specify in the abstract which torsion angles are most affected and provide a quantitative measure of their contribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3, Figures 3 and 4
+  - **Issue** The text describing Figures 3 and 4 is dense and difficult to follow. The notation for the free energy and entropy changes is not defined clearly in the text, and the reader must infer which symbols correspond to which quantities.
+  - **Required correction** Define all symbols explicitly when first used, and consider adding a summary table that lists the key quantities and their definitions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The criteria for identifying hydrogen bonds, salt bridges, and electrostatic interactions are given, but the rationale for the specific cutoffs is not explained. The choice of 0.6 nm for interface identification and 0.35 nm for hydrogen bonds is standard, but the authors should justify these values in the context of their system.
+  - **Required correction** Add a brief justification for the chosen cutoffs, citing relevant literature or explaining why these values are appropriate for DNA-protein interfaces.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, SI Tables S1-S7
+  - **Issue** The statement that "the average value of each parameter corresponds well to the B-DNA data" is not supported by a direct comparison in the main text. The reader is referred to supplementary tables, but no quantitative comparison is shown.
+  - **Required correction** Provide a brief comparison in the main text, such as a table or a sentence summarizing the range of deviations from canonical B-DNA values.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3, Table 1
+  - **Issue** The total free energy and entropy changes are reported in Table 1, but the units are not stated in the table caption. The text mentions kJ/mol, but the table should include units for clarity.
+  - **Required correction** Add units to the table header or caption.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence and error analysis) and R1-M2 (quantitative decomposition of torsion angle contributions) are the primary technical issues. Without addressing these, the central claims of protein-induced stabilization and the mechanistic role of specific torsion angles are not fully established.
+- **Assessment against Nature-style criteria** Originality: The application of conformational thermodynamics to dissect protein-induced HG pair stabilization is a novel angle, though the underlying observation that proteins stabilize HG pairs is not new. Scientific importance: The work has potential relevance to DNA recognition and repair, but the current evidence does not yet demonstrate a broadly significant mechanism. Interdisciplinary readership: The topic bridges biophysics, structural biology, and molecular biology, but the presentation is too specialized for a general audience. Technical soundness: The simulation methodology is standard, but the lack of convergence analysis and incomplete error estimation undermines confidence. Readability for nonspecialists: The manuscript is written for a specialist audience and would benefit from clearer explanations of the thermodynamic concepts and their significance.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the simulation design is logical, but the manuscript in its current form does not provide sufficient evidence for the mechanistic claims. Addressing the convergence and decomposition issues would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim that the HG pair and entire DNA duplex are "stabilized and ordered" in the presence of proteins is supported by the data shown, but the magnitude of the effect relative to thermal energy is small for many individual contributions, and the statistical significance is not established.
+- The claim that specific torsion angle classes "play key roles" is not quantitatively supported, as no per-angle decomposition is provided.
+- The statement that protein alpha-2D has a greater impact than alpha-2B is based on the total free energy and entropy values, but the difference between the two contributions is not tested for statistical significance.
+- The broader implications for p53, DNA repair, and anti-cancer drug targeting are speculative and not directly supported by the simulation results.
+- The assertion that the HG pair in the HGP system is more stable than in the HG system is based on conformational thermodynamics, but the relationship between these computed quantities and experimentally measurable stability is not discussed.

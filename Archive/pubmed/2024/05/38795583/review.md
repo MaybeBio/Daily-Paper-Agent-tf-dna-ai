@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report identification of three 2-(2-oxoindolin-3-ylidene)hydrazinecarbothioamides (IT21, IT23, IT25) as inhibitors of EGR-1 DNA-binding activity, with in silico docking, electrophoretic mobility shift assays, cellular mRNA expression studies in TNFalpha-stimulated HaCaT keratinocytes, and an in vivo efficacy study in BALB/c mice showing alleviation of atopic dermatitis-like skin lesions.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or figure/table content provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, compound characterization data, dose-response curves, statistical details, in vivo study protocols, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a logical progression from target identification to in vitro, cellular, and in vivo validation of three compounds as potential EGR-1 inhibitors for atopic dermatitis. The concept of targeting the EGR-1 zinc-finger DNA-binding domain is mechanistically plausible and clinically relevant. However, the abstract alone provides insufficient quantitative evidence to assess the robustness of the findings. Key claims regarding binding affinity, selectivity, cellular efficacy, and in vivo outcomes are stated without numerical support or statistical context. The work may be of interest to the dermatology and drug discovery communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in dermatology, particularly those studying atopic dermatitis pathogenesis and novel therapeutic targets; medicinal chemists interested in small-molecule inhibitors of transcription factor DNA-binding domains; and investigators working on EGR-1 biology in inflammatory diseases. The potential for a new class of topical or systemic agents targeting a transcription factor rather than a conventional enzyme or receptor could attract broad interest in inflammation research.
+- **Major strengths** The study addresses an underexplored target, EGR-1, in a clinically relevant disease context. The use of multiple orthogonal assays, from docking to EMSA to cellular and in vivo models, provides a comprehensive pipeline for compound validation. The identification of three structurally related active compounds suggests a coherent structure-activity relationship that could be further developed.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that IT21, IT23, and IT25 are "novel inhibitors of EGR-1 DNA-binding activity" and that they "effectively reduced mRNA expression" and "demonstrated the potential to alleviate atopic dermatitis-like skin lesions."  
+  - **Evidence pointer** Abstract sections on in silico docking, EMSA, cellular assays, and in vivo study; no numerical data or statistical measures provided  
+  - **Concern** The abstract provides no quantitative data, such as IC50 values, binding constants, percent inhibition, fold changes in mRNA expression, or lesion severity scores. Without these values, the magnitude and statistical significance of the reported effects cannot be evaluated.  
+  - **Why it matters** For a compound to be considered a viable lead, the potency and efficacy must be quantified and compared to relevant controls. The absence of any numerical data prevents assessment of whether the effects are biologically meaningful or merely marginal.  
+  - **Resolution test** Provide IC50 or EC50 values for EMSA inhibition, quantitative PCR data with statistical comparisons, and in vivo efficacy metrics such as ear thickness change, clinical score, or histopathological grading with p-values and effect sizes.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Selectivity and specificity  
+  - **Claim pointer** The abstract implies that the compounds target the EGR-1 ZnF DNA-binding domain specifically, leading to dissociation of the EGR-1-DNA complex.  
+  - **Evidence pointer** Abstract section on EMSA; no data on off-target effects or selectivity against other zinc-finger transcription factors  
+  - **Concern** No evidence is presented that the compounds selectively inhibit EGR-1 over other zinc-finger proteins or transcription factors. Given the conserved nature of zinc-finger domains, off-target effects are a significant risk.  
+  - **Why it matters** Selectivity is critical for therapeutic development. If the compounds broadly inhibit zinc-finger DNA-binding proteins, the observed anti-inflammatory effects may be due to non-specific mechanisms, undermining the proposed mechanism of action.  
+  - **Resolution test** Include EMSA or similar assays with related zinc-finger transcription factors, or provide transcriptomic or proteomic data showing selective modulation of EGR-1 targets.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** In vivo relevance and translatability  
+  - **Claim pointer** The abstract states that IT21, IT23, and IT25 "demonstrated the potential to alleviate atopic dermatitis-like skin lesions in the ear skin of BALB/c mice."  
+  - **Evidence pointer** Abstract section on in vivo efficacy; no details on dosing, route of administration, treatment duration, or comparison to standard of care  
+  - **Concern** The in vivo claim is vague. No information is provided on the dose, formulation, route (topical or systemic), treatment schedule, or whether the effect was compared to a positive control such as a corticosteroid. The phrase "potential to alleviate" is non-committal and does not indicate the magnitude or consistency of the effect.  
+  - **Why it matters** For a therapeutic claim, the in vivo data must demonstrate a clear, statistically significant improvement over vehicle control, ideally with a benchmark comparator. Without these details, the translational relevance cannot be assessed.  
+  - **Resolution test** Provide full in vivo study parameters, including dose-response data, clinical scoring, histological analysis, and statistical comparison to vehicle and positive control groups.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Mechanistic depth  
+  - **Claim pointer** The abstract claims that in silico docking experiments "elucidate the binding conditions" of the EGR-1 ZnF DNA-binding domain.  
+  - **Evidence pointer** Abstract section on docking; no structural coordinates, binding poses, or interaction details provided  
+  - **Concern** Docking alone is a predictive tool and does not confirm binding. The abstract does not indicate whether the docking predictions were validated by mutagenesis, structural studies, or biophysical binding assays beyond EMSA.  
+  - **Why it matters** The mechanistic claim rests heavily on docking, which is hypothesis-generating rather than confirmatory. Without experimental validation of the predicted binding mode, the proposed mechanism remains speculative.  
+  - **Resolution test** Include co-crystal structures, NMR studies, or site-directed mutagenesis of key residues in the ZnF domain to confirm the predicted binding interactions.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of compound nomenclature  
+  - **Affected element** Compound identifiers IT21, IT23, IT25  
+  - **Evidence pointer** Abstract title and text  
+  - **Issue** The compounds are referred to only by codes. Without chemical structures or a reference to a prior publication, readers cannot assess structural novelty or relate the compounds to known chemotypes.  
+  - **Required correction** Provide chemical structures in the abstract or a clear reference to a figure or prior work where the structures are shown.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Experimental model description  
+  - **Affected element** In vivo model  
+  - **Evidence pointer** Abstract section on in vivo efficacy  
+  - **Issue** The abstract does not specify how atopic dermatitis-like lesions were induced in BALB/c mice, which is critical for interpreting the model's relevance.  
+  - **Required correction** State the induction method, such as repeated application of a hapten or cytokine injection, in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** All quantitative claims  
+  - **Evidence pointer** Abstract sections on cellular and in vivo studies  
+  - **Issue** No statistical measures, such as p-values, confidence intervals, or sample sizes, are reported.  
+  - **Required correction** Include key statistical parameters for the primary outcomes in the abstract or indicate where they are presented in the full manuscript.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (absence of quantitative data), R1-M2 (lack of selectivity evidence), R1-M3 (insufficient in vivo detail), R1-M4 (unvalidated docking predictions)
+- **Assessment against Nature-style criteria**  
+  - Originality: The target, EGR-1, is not widely explored in atopic dermatitis drug discovery, and the approach of inhibiting a transcription factor DNA-binding domain is relatively uncommon. This offers a degree of conceptual novelty.  
+  - Scientific importance: Atopic dermatitis is a prevalent condition with unmet therapeutic needs, and a new mechanistic class of inhibitors could have significant impact. However, the importance is contingent on demonstrating robust efficacy and selectivity, which is not yet established from the abstract.  
+  - Interdisciplinary readership: The work bridges medicinal chemistry, molecular biology, and dermatology, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, though technical terms such as "zinc-finger DNA-binding domain" are used without explanation.  
+  - Technical soundness: The experimental pipeline is logical, but the lack of quantitative data and selectivity controls prevents assessment of technical rigor.  
+  - Readability for nonspecialists: The abstract is concise and generally clear, but the mechanism of EGR-1 inhibition and the significance of the ZnF domain could be explained more explicitly for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising concept and a reasonable experimental strategy, but the absence of quantitative results, selectivity data, and detailed in vivo outcomes means the core claims cannot be evaluated. The manuscript may become suitable for publication if the full data address these gaps.
+
+## Risk / unsupported claims
+- The claim that IT21, IT23, and IT25 are "novel inhibitors" is unsupported without structural data or comparison to known EGR-1 inhibitors.
+- The claim that the compounds "effectively reduced mRNA expression" is unsupported without fold-change values and statistical analysis.
+- The claim that the compounds "demonstrated the potential to alleviate atopic dermatitis-like skin lesions" is unsupported without quantitative in vivo outcomes.
+- The mechanistic claim based on docking is unvalidated and should be treated as speculative.
+- The selectivity of the compounds for EGR-1 over other zinc-finger proteins is not addressed and cannot be assumed.

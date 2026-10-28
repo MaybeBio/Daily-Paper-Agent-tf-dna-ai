@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, data availability statement, author contributions, funding, conflict of interest, publisher's note, and supplementary material description.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external data, replication, or verification of raw data was performed.
+- **Shared manuscript claim summary** The manuscript claims that GhBEE3-Like, a bHLH transcription factor in cotton, is repressed by brassinosteroids (BRs) via direct binding of GhBZR1 to an E-box element in its promoter. It further claims that GhBEE3-Like negatively regulates drought tolerance, as overexpression in Arabidopsis increases drought sensitivity, while VIGS-mediated knockdown in cotton enhances drought tolerance and upregulates stress-related genes (GhERD10, GhCDPK1, GhRD26).
+- **Visible evidence base** Abstract, full text of introduction, materials and methods, results, discussion, and supplementary figure/table references. Figures and supplementary materials are referenced but not directly viewable in the provided text.
+- **Missing materials affecting confidence** Figures 1–9 and Supplementary Figures/Tables are referenced but not provided. Raw data, statistical outputs, and detailed experimental conditions (e.g., BR concentration, PEG8000 treatment duration, VIGS efficiency data) are not available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in plant stress biology, namely how BR signaling regulates drought tolerance in cotton through a bHLH transcription factor. The proposed model, in which GhBZR1 represses GhBEE3-Like to enhance drought tolerance, is mechanistically plausible and of potential interest to the plant biology community. However, the evidence as presented has several gaps. The key regulatory interaction (GhBZR1 binding and repression) is supported by in vitro and heterologous assays, but the physiological relevance in cotton is inferred rather than directly demonstrated. The phenotypic data from Arabidopsis overexpression and cotton VIGS are consistent with the model, but the manuscript lacks key controls, quantitative details, and direct evidence that the observed drought phenotypes are mediated by the proposed BR-GhBZR1-GhBEE3-Like pathway. The writing is generally clear, but some methodological details are insufficient for replication.
+- **Who would be interested in the results, and why** Researchers studying brassinosteroid signaling, drought stress responses, and transcription factor regulation in crops, particularly cotton. The work may also interest those working on bHLH transcription factors and their roles in abiotic stress. The potential translational application for drought-resistant cotton breeding could attract agricultural biotechnologists.
+- **Major strengths** The study addresses an important and under-explored area, namely BR-mediated drought tolerance in cotton. The combination of molecular (EMSA, dual-LUC), transgenic (Arabidopsis), and reverse genetics (VIGS in cotton) approaches is commendable. The identification of a direct repressive link between GhBZR1 and GhBEE3-Like provides a clear mechanistic hypothesis. The use of both gain- and loss-of-function approaches strengthens the phenotypic claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for direct regulation
+  - **Claim pointer** The manuscript claims that GhBZR1 directly binds to the E-box element in the GhBEE3-Like promoter and inhibits its expression, based on EMSA and dual-LUC assays.
+  - **Evidence pointer** Results section, Figures 4 and 5; location not provided for specific experimental details.
+  - **Concern** The EMSA and dual-LUC assays demonstrate binding and repression in vitro and in a heterologous system (N. benthamiana), respectively. However, the manuscript does not provide evidence that this regulation occurs in cotton plants under physiological conditions. No chromatin immunoprecipitation (ChIP), cotton protoplast transactivation assay, or genetic epistasis analysis is presented. The claim of direct regulation in cotton is therefore not fully supported.
+  - **Why it matters** The central mechanistic claim of the paper rests on this interaction. Without in planta evidence, the model remains speculative and could be challenged by alternative explanations, such as indirect effects or tissue-specific differences.
+  - **Resolution test** Provide ChIP-qPCR or ChIP-seq data showing GhBZR1 occupancy at the GhBEE3-Like promoter in cotton. Alternatively, show that mutation of the E-box element abolishes GhBZR1-mediated repression in a cotton-derived transient expression system. Genetic epistasis, e.g., silencing GhBZR1 in a GhBEE3-Like knockdown background, would also strengthen the causal link.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Phenotypic data robustness and controls
+  - **Claim pointer** The manuscript claims that GhBEE3-Like overexpression in Arabidopsis leads to drought-sensitive phenotypes, and that VIGS-mediated knockdown in cotton enhances drought tolerance.
+  - **Evidence pointer** Results section, Figures 6 and 7; location not provided for specific experimental details.
+  - **Concern** The phenotypic data are presented without sufficient quantitative detail. For the Arabidopsis experiments, the number of independent transgenic lines, the number of plants per line, the soil moisture conditions, and the duration of drought are not specified. For the cotton VIGS experiments, the knockdown efficiency is only shown for GhBEE3-Like, but the potential off-target effects or the phenotypic variability among biological replicates are not discussed. The statistical analysis is limited to Student's t-test, which may not be appropriate for multi-group comparisons or for data with non-normal distributions.
+  - **Why it matters** The phenotypic claims are the core functional evidence. Without robust, well-controlled quantitative data, the conclusions regarding drought tolerance are not fully convincing. The lack of detail also hinders replication by other groups.
+  - **Resolution test** Provide full details of the drought assays, including soil water content, humidity, light intensity, and temperature. Include the number of independent transgenic lines and the number of plants per line. Use appropriate statistical tests (e.g., ANOVA with post-hoc tests) and show individual data points. For VIGS, include data on the expression levels of related bHLH genes to rule out off-target silencing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link between BR signaling and drought tolerance
+  - **Claim pointer** The manuscript proposes that BRs, via GhBZR1, repress GhBEE3-Like to enhance drought tolerance, and that this leads to upregulation of stress-related genes.
+  - **Evidence pointer** Results section, Figures 3, 8, and 9; location not provided for specific experimental details.
+  - **Concern** The manuscript shows that BR treatment represses GhBEE3-Like expression and that GhBZR1 can repress the promoter. However, it does not demonstrate that the drought-tolerant phenotype of GhBEE3-Like knockdown cotton is dependent on BR signaling. The connection between BR application, GhBZR1 activity, and the expression of GhERD10, GhCDPK1, and GhRD26 is not directly tested. The proposed model in Figure 9 is a reasonable hypothesis but is not fully validated by the data.
+  - **Why it matters** The title and abstract emphasize the BR-dependent regulation. If the drought tolerance phenotype is independent of BR signaling, the central claim of the paper is weakened. The manuscript would be strengthened by showing that BR treatment or GhBZR1 modulation affects the expression of the stress-related genes in a GhBEE3-Like-dependent manner.
+  - **Resolution test** Perform experiments where cotton plants are treated with BR or a BR biosynthesis inhibitor (e.g., brassinazole) and measure GhBEE3-Like expression and drought tolerance. Alternatively, overexpress a constitutively active or dominant-negative form of GhBZR1 in cotton and assess the effects on GhBEE3-Like expression and drought phenotypes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Materials and methods, EMSA and dual-LUC assay descriptions
+  - **Evidence pointer** Materials and methods section; location not provided.
+  - **Issue** The concentrations of purified protein, probe, and competitor DNA used in the EMSA are not stated. The amount of effector and reporter plasmids used in the dual-LUC assay is also not specified.
+  - **Required correction** Provide these quantitative details to allow replication.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Figure 3
+  - **Evidence pointer** Results section, Figure 3; location not provided.
+  - **Issue** The y-axis labels and units for the qPCR data in Figure 3 are not described in the text. It is unclear whether the data are presented as relative expression, fold change, or absolute transcript levels.
+  - **Required correction** Clearly define the y-axis and the normalization method in the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Figures 6 and 7
+  - **Evidence pointer** Results section, Figures 6 and 7; location not provided.
+  - **Issue** The number of biological replicates and the exact p-values are not reported in the text. The use of asterisks without specifying the p-value threshold is insufficient.
+  - **Required correction** Report the number of replicates and exact p-values in the figure legends or text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature and consistency
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Title, abstract, and results; location not provided.
+  - **Issue** The gene is referred to as "GhBEE3-Like" in the title and abstract, but the gene identifier (Gh_A12G0489) is only mentioned in the methods. The protein is also referred to as "GhBEE3-Like" without a clear distinction between gene and protein symbols.
+  - **Required correction** Use standard nomenclature, e.g., italicized gene symbols and non-italicized protein symbols, and ensure consistency throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct regulation in planta) and R1-M2 (robustness of phenotypic data) are the primary technical issues. The lack of in planta evidence for the GhBZR1-GhBEE3-Like interaction and the insufficient quantitative detail in the drought assays prevent the case from being fully established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of a known regulatory module (BZR1-BEE) to a new crop (cotton) and a new stress (drought) is somewhat novel, but the underlying mechanism is not entirely new.  
+  - **Scientific importance** Moderate. Drought tolerance in cotton is agriculturally important, and the identification of a negative regulator could have translational value. However, the study does not provide a major conceptual advance.  
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to plant molecular biologists and cotton researchers. The broader plant science community may find it relevant, but it is unlikely to attract readers outside this field.  
+  - **Technical soundness** The molecular techniques are standard and appear to be executed correctly, but the lack of in planta validation and the incomplete quantitative reporting reduce the overall technical robustness.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some sections, particularly the methods, assume familiarity with specialized techniques. The abstract is clear and provides a good summary.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a plausible and potentially useful model, but the current evidence is insufficient to fully support the central claims. Addressing the major concerns, particularly providing in planta evidence for the regulatory interaction and strengthening the phenotypic data, would significantly improve the manuscript.
+
+## Risk / unsupported claims
+- The claim that GhBZR1 directly regulates GhBEE3-Like in cotton is not supported by in planta evidence; only in vitro and heterologous assays are presented.
+- The claim that BRs repress GhBEE3-Like to enhance drought tolerance is inferred from correlative data and is not directly tested.
+- The claim that GhBEE3-Like knockdown upregulates GhERD10, GhCDPK1, and GhRD26 is presented, but the mechanistic link between GhBEE3-Like and these genes is not explored.
+- The phenotypic differences in drought tolerance are not quantitatively described, making the strength of the effect unclear.
+- The evolutionary origin of GhBEE3-Like from the A-genome is speculative and not experimentally tested.

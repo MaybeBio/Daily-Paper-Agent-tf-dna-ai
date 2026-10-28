@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, objectives, methodology, results and discussion, conclusion) as provided by the user.
+- **Assessment boundary** The scientific content, methodology, data interpretation, and claims as presented in the provided text. No supplementary figures, tables, or external data were available for review.
+- **Shared manuscript claim summary** The authors use fully atomistic explicit water molecular dynamics simulations to investigate the intrinsically disordered regulatory domain (REG, residues 351–393) of the tumor suppressor p53. They compare unmodified, singly phosphorylated (S392), and multiply phosphorylated variants, with and without N-terminal conformational restraint, to assess the impact of post-translational modifications on conformational dynamics, secondary structure, salt bridge formation, and energy landscapes. They report that single phosphorylation induces specific structural features (e.g., transient α-helices, β-sheets) and enhances certain interactions, while over-phosphorylation leads to increased disorder, reduced salt bridges, and a less diverse conformational landscape, potentially explaining functional dysfunction.
+- **Visible evidence base** Main text tables (Table 1, Table 2), figures referenced in text (Figures 1–8, Figures S1–S31 in supplementary), and methodological descriptions in the main text.
+- **Missing materials affecting confidence** Supplementary figures and tables (Figures S1–S31, Tables S1–S5), simulation parameter files, force field modification details, and experimental NMR data referenced for validation were not provided. This limits the ability to fully assess the robustness of the results and the validity of the validation claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of the p53 regulatory domain, addressing an important and under-explored aspect of intrinsically disordered proteins: the role of post-translational modifications in modulating conformational ensembles. The study is well-motivated and the methodology is appropriate for the questions posed. The authors provide a detailed analysis of multiple structural and dynamical properties, and the comparison between single and multi-site phosphorylation is a valuable contribution. However, several technical and interpretive issues need to be addressed. The validation against experimental data is limited and partially indirect, and some claims regarding functional implications appear to extend beyond what the simulation data can directly support. The manuscript would benefit from clearer presentation of the force field modifications, more robust statistical analysis, and a more cautious interpretation of the biological relevance of the findings.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, p53 biology, post-translational modification signaling, and computational biophysics. The study provides insights into how phosphorylation can modulate the conformational landscape of a disordered region, which is relevant for understanding signaling mechanisms and for the design of future experimental studies. The methodological approach may also be of interest to those developing and applying MD simulations to disordered systems.
+- **Major strengths** The study addresses a biologically important and technically challenging problem. The use of fully atomistic explicit water simulations is appropriate. The systematic comparison of different phosphorylation states and the inclusion of an N-terminal restraint condition is a thoughtful design. The analysis is multi-faceted, covering global properties, secondary structure, salt bridges, and energy landscapes. The attempt to validate against experimental chemical shift data is commendable.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors claim that the force field was modified to account for phosphorylation by "adding new parameters for all the atoms, bonds, and impropers with charge, by modifying the AA rtp file and adding the new parameters to the atomtypes file."
+    - **Evidence pointer** Methodology section, "Molecular Dynamics" paragraph.
+    - **Concern** The description of the force field modification is insufficient. The authors state that parameters were added but do not specify the source of these parameters (e.g., existing parameters for phosphoserine/phosphothreonine from a specific force field version, or newly derived parameters). The validation of these parameters (e.g., against quantum mechanical calculations or experimental data) is not described. This is a critical issue because the accuracy of the entire simulation depends on the correct representation of the phosphorylated residues.
+    - **Why it matters** Without a clear and validated description of the force field parameters for the modified residues, the reliability of the simulation results, and therefore all subsequent analyses and conclusions, cannot be properly assessed. This is a fundamental technical requirement for a computational study of this nature.
+    - **Resolution test** The authors must provide a detailed description of the force field parameters for phosphoserine and phosphothreonine, including their source and any validation performed. This could be in the main text or a clearly referenced supplementary document.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that "Five additional 1.1 μs trajectories were simulated" for each system, implying a total simulation time of 5.5 μs per condition.
+    - **Evidence pointer** Methodology section, "Molecular Dynamics" paragraph.
+    - **Concern** The number of replicates and the total simulation time per condition are not clearly stated. The text mentions "Five additional 1.1 μs trajectories" but it is unclear if this refers to each of the four systems (REGNP, REGNPlocked, REGSP, REGFP) or only to one. The total simulation time per system is a key factor in assessing the statistical convergence of the results, especially for an intrinsically disordered protein. The analysis of energy landscapes and clustering requires sufficient sampling.
+    - **Why it matters** Inadequate sampling can lead to non-converged ensembles and unreliable conclusions about conformational preferences and free energy landscapes. The authors need to clearly state the number of replicates and total simulation time for each system to allow the reader to judge the statistical robustness of the study.
+    - **Resolution test** The authors must clearly state the number of independent simulations and the total simulation time for each of the four systems. They should also provide evidence of convergence, such as time-series of key order parameters or block averaging analysis.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance / Interpretation
+    - **Claim pointer** The authors state that "the distance between K351 and K386 in the REGNP and REGSP trajectories closely resembles the tetrameric form of p53, while in contrast, the REGFP trajectory more closely resembles the monomeric form."
+    - **Evidence pointer** Results and Discussion, "Experimental Validation" section.
+    - **Concern** This is a potentially significant claim, but it is based on a comparison between simulated distances and distances derived from a CryoEM structure of the tetramer and a crystal structure of the monomer. The authors do not provide the actual values for the simulated distances (only a mean and standard deviation for the simulated values are given in the text, but the experimental values are not stated). Furthermore, the comparison is made between a single simulated distance and a single experimental distance, without considering the distribution of distances in the experimental structures or the potential for the simulation to sample a range of distances.
+    - **Why it matters** The claim that the simulations can distinguish between tetramer-like and monomer-like conformations is a key finding that links the computational results to the biological function of p53. If this claim is not well-supported, the biological interpretation of the study is weakened.
+    - **Resolution test** The authors should provide a quantitative comparison, including the experimental distances from the CryoEM and crystal structures, and a statistical analysis of the simulated distance distributions. They should also discuss the limitations of comparing a single distance metric to a complex structural state.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that "The accuracy of this investigation outcome is heavily dependent on the reliability and accuracy of the applied force fields... Chemical shift predictions were conducted on each trajectory using Sparta+, and the results were subsequently cross-checked against available chemical shift data to determine accuracy."
+    - **Evidence pointer** Results and Discussion, "Experimental Validation" section.
+    - **Concern** The validation is only performed for the non-phosphorylated systems (REGNP and REGNPlocked), as the authors state that "Specific changes upon phosphorylation were not tracked due to a lack of phosphorylated NMR CS data, as well as an inability for Sparta+ to account for phosphorylation." This means that the force field parameters for the phosphorylated residues, which are central to the study, are not validated against experimental data. The reported correlation coefficient (0.937) is for the non-phosphorylated systems only.
+    - **Why it matters** The lack of direct validation for the phosphorylated systems is a significant limitation. The authors' conclusions about the effects of phosphorylation are based on simulations that have not been experimentally benchmarked for the key modified residues. This should be clearly acknowledged as a major caveat.
+    - **Resolution test** The authors should clearly state this limitation in the main text and discuss its implications for the interpretation of their results. They could also explore alternative validation strategies, such as comparing to data from other post-translationally modified IDPs.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Methodology, "Molecular Dynamics" paragraph.
+    - **Evidence pointer** "The leapfrog integrator with a time step of 2 fs was implemented with a neighbor search using the Verlet scheme using a grid algorithm with a 10 Å cutoff, and the electrostatic potential was implemented using the particle mesh Ewald method."
+    - **Issue** The text states a 10 Å cutoff for the neighbor search, but the abstract and other parts of the text mention a 12 Å cutoff. This is inconsistent.
+    - **Required correction** The authors should verify the correct cutoff value and ensure consistency throughout the manuscript.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Results and Discussion, "Conformational Dynamics and Flexibility" section.
+    - **Evidence pointer** "The higher positive skews in EEdist and RG indicate that the distributions are shifted and the more extended structures are further expanded from the mean than the compacted structures are compacted."
+    - **Issue** The sentence is grammatically awkward and the meaning is unclear. It should be rephrased for clarity.
+    - **Required correction** Rephrase the sentence to clearly state that the positive skew indicates a tail of extended structures.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Results and Discussion, "Protein Interactivity" section.
+    - **Evidence pointer** "These interactions of R379 detract from the natural salt bridges formed in REGNP, and local interactions also prohibit the formation of traditional stable secondary structures in the regions."
+    - **Issue** The term "detract from" is vague. It is unclear whether the interactions reduce the stability or the frequency of the natural salt bridges.
+    - **Required correction** Clarify the meaning, e.g., "These interactions of R379 reduce the frequency of the natural salt bridges formed in REGNP..."
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Results and Discussion, "Energy Landscapes and Conformational Ensembles" section.
+    - **Evidence pointer** "The best-performing clustering sizes determined from the silhouette score were REGNP (3), REGNPlock (3), REGSP (6), and REGFP (3). Similar ideal cluster sizes were determined from the Davies Bouldin index; REGNP (5), REGNPlock (4), REGSP (7), and REGFP (4), although some of these clusters were sparsely populated (<10 conformations) and were omitted from the analysis."
+    - **Issue** The text is confusing. It is not clear if the cluster sizes from the Davies Bouldin index were used or if the silhouette score was the primary criterion. The sentence about omitting sparsely populated clusters is also ambiguous.
+    - **Required correction** Clarify the clustering selection process and the criteria for omitting clusters.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Conclusion
+    - **Evidence pointer** "The NMR CS predicted by Sparta+ shows a good agreement with the experimental data (r2 = 0.937), partially validating the conformational ensembles generated from the trajectories."
+    - **Issue** The r2 value is reported as 0.937 in the conclusion, but in the "Experimental Validation" section, it is referred to as a "Pearson coefficient" of 0.937. These are different statistical measures. The authors should be consistent and accurate in their reporting.
+    - **Required correction** Correct the statistical measure and ensure consistency between the conclusion and the results section.
+- **Technical failings that need to be addressed before the case is established** The lack of detailed force field parameter information for the phosphorylated residues (R1-M1) and the lack of validation for the phosphorylated systems (R1-M4) are the most significant technical issues. The ambiguity regarding simulation time and replicates (R1-M2) also needs to be resolved. These issues must be addressed before the simulation results can be considered reliable.
+- **Assessment against Nature-style criteria**  
+    - **Originality** The study addresses a relevant question about the role of PTMs in IDPs, but the approach of using MD simulations to study phosphorylation effects is not entirely novel. The specific focus on the p53 REG and the comparison of single vs. multi-site phosphorylation provides some originality.  
+    - **Scientific importance** The p53 regulatory domain is biologically important, and understanding how phosphorylation modulates its behavior has implications for cancer biology. However, the direct biological significance of the specific findings (e.g., the transient α-helix in REGSP) is not fully established.  
+    - **Interdisciplinary readership** The topic is of interest to computational biophysicists, structural biologists, and cancer researchers. The manuscript is written in a way that is largely accessible to these groups, though some parts are dense.  
+    - **Technical soundness** The technical soundness is currently questionable due to the lack of detail on force field parameters and validation, and the ambiguity in simulation setup.  
+    - **Readability for nonspecialists** The manuscript is not easily accessible to nonspecialists due to the heavy use of technical jargon and the lack of clear explanations of some concepts (e.g., tICA, free-energy landscapes).  
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has merit and addresses an important question, but the current manuscript does not provide sufficient technical detail to fully establish the reliability of the results. The authors must address the concerns regarding force field parameterization, simulation setup, and validation before the case is made.
+
+## Risk / unsupported claims
+- The claim that the simulations can distinguish between tetramer-like and monomer-like conformations based on a single distance metric is not fully supported by the data presented.
+- The claim that "over-phosphorylation" leads to functional dysfunction is speculative and not directly tested in this study.
+- The claim that the N-terminal restraint method is a valid representation of the connection to the rest of the p53 protein is not fully justified.
+- The validation of the simulations against experimental data is only partial and does not cover the phosphorylated systems, which are the main focus of the study.

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, conclusion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of claims based solely on the provided text; no supplementary figures, tables, or movies were accessible for direct inspection
+- **Shared manuscript claim summary** The authors present a DNA-PAINT-based super-resolution imaging approach, termed Stack-pPAINT, that detects pairs of biomolecules in proximity by requiring both a short docking strand and a base-stacking interaction from a stem strand to stabilize imager binding. The approach is benchmarked on DNA origami nanostructures and demonstrated in cells by imaging microtubules labeled with antibodies against alpha- and beta-tubulin. Molecular dynamics simulations are used to provide mechanistic insight into the stabilization provided by base-stacking and dye interactions.
+- **Visible evidence base** Abstract, introduction, results narrative, conclusion, methods text; references to Figures 1-4, Supplementary Figures 1-10, Supplementary Tables 1-9, and Supplementary Movies 1-2 (none of which were provided)
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and supplementary movies; experimental details for DNA origami designs, imaging parameters, localization filtering thresholds, and quantitative efficiency measurements; raw data and statistical analyses
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting extension of DNA-PAINT that uses base-stacking interactions to gate imager binding on proximity of two labeled targets. The idea is potentially useful for detecting biomolecular proximity at super-resolution. However, the current text provides insufficient quantitative evidence to establish the key claims. The results section is largely descriptive, with no quantitative data presented in the text, and the molecular dynamics simulations, while described in some detail, are not connected to experimentally measured kinetics or binding energies in a way that validates the mechanism. The cellular demonstration is promising but lacks the controls and quantitative analysis needed to confirm specificity and proximity-dependence. The manuscript would benefit from substantial additional data presentation and analysis before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in super-resolution microscopy, particularly those using DNA-PAINT or related DNA-based imaging approaches, would be interested in this proximity-sensing strategy as a potential tool for studying biomolecular interactions and spatial organization in cells. The work may also appeal to researchers developing DNA-based sensors and to computational biophysicists interested in DNA-dye interactions. The potential to map protein-protein interactions at nanometer resolution within cells is a broadly attractive goal for cell biology.
+- **Major strengths** The conceptual design of using base-stacking as a proximity gate for DNA-PAINT is creative and addresses a real need for detecting molecular proximity at high resolution. The combination of experimental benchmarking on DNA origami and a cellular demonstration is appropriate. The inclusion of atomistic MD simulations to probe the molecular mechanism is a valuable addition that goes beyond purely empirical characterization. The authors also address potential artifacts, such as non-specific interactions between secondary antibodies, with control experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Stack-pPAINT enables proximity detection with high resolution and specificity, and that the signal is dependent on the proximity of the two labeled targets.
+  - **Evidence pointer** Results sections "Stacking interactions facilitate proximity detection" and "Super-resolution imaging in cells using Stack-pPAINT"; Figures 3 and 4 (not provided)
+  - **Concern** The central claim of proximity-dependent detection is not supported by quantitative data in the text. The authors state that grids are visible when both pDS and pST are present and absent when pST is omitted, but no numbers are given for detection efficiency, signal-to-background ratios, or the number of localizations per grid. The efficiency measurements are mentioned in the methods but no results are presented in the text. Without quantitative comparison across conditions, including different distances and negative controls, the specificity and sensitivity of the approach cannot be evaluated.
+  - **Why it matters** The core novelty of the method is its ability to report on proximity. If the signal is not quantitatively shown to depend on the distance between the two targets, the method cannot be distinguished from simpler co-localization approaches, and the claim of proximity detection is not established.
+  - **Resolution test** Provide quantitative data showing detection efficiency as a function of inter-target distance, with appropriate negative controls (e.g., single target present, non-specific antibody binding). Include error bars and statistical tests. Show representative images and localization density maps for each condition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the MD simulations provide mechanistic insights into the stabilization of imager binding by base-stacking and dye interactions, and that the free energy differences qualitatively capture the correct trends.
+  - **Evidence pointer** Results section "Molecular simulations highlight the interactions that drive proximity detection"; Figure 2 (not provided); Methods section "Adaptive Steered Molecular dynamics (ASMD)"
+  - **Concern** The MD simulation results are described qualitatively, with no numerical values for free energies, force-extension curves, or structural parameters presented in the text. The authors acknowledge that the computed free energies (50-75 kcal/mol) are much higher than expected from nearest-neighbor models or experiments, which raises questions about the validity of the simulations for quantitative interpretation. The connection between the simulated systems and the experimental conditions is not clearly established, particularly regarding the length scales and sequences used.
+  - **Why it matters** The simulations are used to support the mechanistic model that base-stacking and dye interactions stabilize imager binding. If the simulations are not quantitatively reliable or are not representative of the experimental system, the mechanistic interpretation is weakened.
+  - **Resolution test** Provide quantitative results from the simulations, including computed free energies, force-extension curves, and structural analyses. Discuss the discrepancy with experimental values and justify the use of the simulations for mechanistic interpretation. Show that the simulated systems match the experimental sequences and geometries.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the cellular demonstration shows the capability of Stack-pPAINT to resolve microtubular structures composed of alpha- and beta-tubulin heterodimers.
+  - **Evidence pointer** Results section "Super-resolution imaging in cells using Stack-pPAINT"; Figure 4 (not provided)
+  - **Concern** The cellular results are described with a single statement that the measured width of the microtubular network was approximately 60 nm. No images, quantification of localization density, or comparison to control conditions are shown in the text. The Pearson's r values for colocalization are mentioned but not presented. The specificity of the signal, particularly whether it truly reflects proximity of alpha- and beta-tubulin rather than independent binding of the two secondary antibodies, is not demonstrated with appropriate controls.
+  - **Why it matters** The cellular demonstration is the key proof-of-concept for the method's applicability. Without quantitative data and controls, the claim that the method works in cells is not supported.
+  - **Resolution test** Provide representative images of the microtubule network, quantification of the measured width with error bars, and comparison to control conditions (e.g., single primary antibody, no primary antibody). Show the Pearson's r values and explain how they support the specificity of the proximity signal.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the design of the Stack-pPAINT probe, including the sequences and lengths of the docking, stem, and leash regions, and claim that these parameters dictate the efficiency of proximity detection.
+  - **Evidence pointer** Results section "Leash and stem lengths dictate the efficiency of proximity detection"; Figure 3e (not provided); Methods section "DNA Origami Nanostructure Folding"
+  - **Concern** The text describes the effects of leash and stem lengths on detection efficiency but does not provide the actual sequences used, the range of lengths tested, or the quantitative results. The methods section mentions that sequences are in Supplementary Tables 2-4, but these are not provided. Without this information, the experiments cannot be reproduced or fully evaluated.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific claims. The lack of sequence information and quantitative data prevents other researchers from replicating or building on this work.
+  - **Resolution test** Provide the full sequences of all DNA strands used, including the docking, stem, leash, and imager sequences. Present the quantitative efficiency data for all conditions tested, including the range of leash and stem lengths.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that the method detects "target pairs that are in close proximity" but does not define the distance range over which the method is sensitive. This is a key parameter for potential users.
+  - **Required correction** Specify the distance range over which proximity detection is demonstrated, or state that this is characterized in the results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods section "General Simulation Methodology"
+  - **Issue** The methods state that ff99SB force field with bsc1 modifications was used for DNA, but the more recent and accurate force fields such as OL15 or bsc1 with additional corrections are commonly used. The choice of force field may affect the reliability of the simulations.
+  - **Required correction** Justify the choice of force field or discuss its limitations in the context of the simulation results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, cellular imaging
+  - **Evidence pointer** Results section "Super-resolution imaging in cells using Stack-pPAINT"
+  - **Issue** The text mentions "Exchange-PAINT" modality but does not explain what this entails or why it was used. This may be unclear to readers not familiar with the technique.
+  - **Required correction** Briefly describe the Exchange-PAINT modality and its relevance to the experiment.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, cell culture
+  - **Evidence pointer** Methods section "Cell Culture"
+  - **Issue** The cell type used for the cellular demonstration is not specified in the text. This is essential information for reproducibility.
+  - **Required correction** Specify the cell type used in the experiments.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, efficiency measurements
+  - **Evidence pointer** Results section "Leash and stem lengths dictate the efficiency of proximity detection"
+  - **Issue** The term "efficiency" is used but not defined. It is unclear whether this refers to the fraction of targets showing signal, the number of localizations per target, or another metric.
+  - **Required correction** Define the efficiency metric clearly in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for proximity-dependent detection), R1-M2 (quantitative and validated MD simulation results), R1-M3 (quantitative cellular data with controls), R1-M4 (full sequence information for reproducibility)
+- **Assessment against Nature-style criteria** Originality: The concept of using base-stacking as a proximity gate for DNA-PAINT is original and distinct from prior split-docking or strand-invasion approaches. Scientific importance: The potential to map biomolecular proximity at super-resolution is significant for cell biology, but the current evidence does not yet demonstrate a broadly useful method. Interdisciplinary readership: The work bridges DNA nanotechnology, super-resolution microscopy, and cell biology, which could appeal to a broad audience if the claims are substantiated. Technical soundness: The experimental design is reasonable, but the lack of quantitative data and the acknowledged limitations of the MD simulations undermine the technical case. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some terms and methods could be better explained.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising and the experimental approach is appropriate, but the manuscript as presented lacks the quantitative data, controls, and methodological details needed to support the central claims of proximity-dependent detection and mechanistic understanding. Substantial revision with additional data presentation is required before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that Stack-pPAINT enables proximity detection with high resolution and specificity is not quantitatively supported in the provided text.
+- The claim that MD simulations provide mechanistic insights into the stabilization of imager binding is not supported by quantitative simulation results.
+- The claim that the cellular demonstration shows the capability of Stack-pPAINT to resolve microtubular structures is not supported by quantitative data or controls in the text.
+- The claim that the method can be readily adapted to visualize heterodimeric interactions within cells is speculative without further validation.
+- The claim that the probe design is optimal, based on the leash and stem length studies, is not supported by the quantitative data that are not presented.

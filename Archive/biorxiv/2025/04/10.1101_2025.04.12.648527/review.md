@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion, data/code availability) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and results as described; no evaluation of code execution or reproduction
+- **Shared manuscript claim summary** The authors present MPBind, a multitask deep learning method integrating protein language models and equivariant graph neural networks to predict five types of protein binding sites (protein, DNA/RNA, ligand, lipid, ion) from protein sequences and structures. They claim MPBind outperforms both general and task-specific binding site prediction methods on benchmark datasets and that its predictions on human proteome data align with functional annotations.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1-2.5), Results (Sections 3.1-3.5), Conclusion, Data/Code availability statements. Figures and tables are referenced but not provided. Supplementary materials are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-6, Tables 1-2, Supplementary Tables S1-S2, Supplementary Figures S1-S3, and all numerical results (e.g., exact AUC values, confidence intervals, statistical significance tests) are not included in the provided material. This substantially limits the ability to verify the quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in structural bioinformatics: predicting multiple types of protein binding sites in a unified framework. The methodological combination of protein language models and equivariant graph neural networks is timely and potentially impactful. However, the provided material lacks the actual results, figures, and tables that would substantiate the central performance claims. The methods section is detailed but contains ambiguities in dataset construction, label definition, and evaluation protocol that need clarification. The human proteome analysis is presented descriptively without quantitative evidence. The manuscript is not yet established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, protein-protein interaction prediction, and drug target identification. Researchers developing deep learning methods for structural biology would be interested in the architectural choices and multitask learning approach. The potential application to annotating uncharacterized proteins in the human proteome could interest a broader functional genomics audience.
+- **Major strengths** The problem is well-motivated and addresses a real gap: most existing methods are task-specific, while a unified multitask approach could be more practical. The combination of two complementary PLMs (ProtTrans and ProstT5) with an EGNN is a reasonable and potentially powerful design. The use of a temporally split test set (Test2_data) with proteins released after training data is a good practice for evaluating generalization. The ablation study design is systematic and aims to quantify the contribution of each feature type.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "MPBind outperforms both general bind site prediction methods and task-specific binding site prediction methods" (Abstract) and "MPBind achieves state-of-the-art performance in protein-protein binding site prediction" (Section 3.1)
+  - **Evidence pointer** Figures 2-3, Tables S1-S2; location not provided
+  - **Concern** The central performance claims are made without the actual numerical results, figures, or tables being available in the provided material. The text states specific AUC values for one comparison (MPBind vs. PeSTo on Test1_data) but does not provide the corresponding data for the other comparisons, nor any measures of variance, statistical significance, or confidence intervals.
+  - **Why it matters** The primary contribution of the paper is the claimed superior performance. Without the actual results, the claims cannot be evaluated, and the scientific case for MPBind's utility is not established.
+  - **Resolution test** Provide the full results with all figures and tables, including exact values, error bars or confidence intervals, and statistical tests comparing MPBind to each baseline method on each task.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "Following the exact data processing procedure of PeSTo, we downloaded all the protein structures from the Protein Data Bank (PDB), extracted all the chains (subunits) of the structures, and clustered them based on a maximum sequence identity of 30%" (Section 2.1)
+  - **Evidence pointer** Section 2.1; location not provided
+  - **Concern** The dataset construction is described as following PeSTo's procedure, but the details of how binding site labels are assigned for each of the five interaction types are not fully specified. Specifically, it is unclear how the 79x79 interface-type matrix is used to generate per-residue binary labels for each of the five tasks, how overlapping or multiple interaction types per residue are handled, and how the "contact within 5 Å" criterion is applied to different molecule types (e.g., ions vs. large ligands).
+  - **Why it matters** The label definition directly determines the learning task and the evaluation. Ambiguity here prevents reproducibility and makes it difficult to assess whether the multitask formulation is fair and consistent across interaction types.
+  - **Resolution test** Provide a precise, step-by-step description of label generation for each of the five binding site types, including how the 79x79 matrix is reduced to the five tasks, how residues with multiple interaction partners are labeled, and any thresholds or filtering applied.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation rigor
+  - **Claim pointer** "Since the proteins in Test2_data were released after the latest release date of the training/validation proteins of all the methods evaluated in this work and have <= 30% sequence identity with them, it is new for all the methods and can therefore serve as an objective and rigorous benchmark for them" (Section 2.1)
+  - **Evidence pointer** Section 2.1, Section 3.1-3.2; location not provided
+  - **Concern** The claim that Test2_data is a rigorous benchmark for all methods depends on the assumption that all baseline methods were trained on data with release dates before the Test2_data proteins. This is stated but not demonstrated. Additionally, the comparison with task-specific methods (CLAPE, LMetalSite, GraphBind) on Test2_data may be confounded if these methods were trained on different datasets or if their training data includes proteins similar to those in Test2_data. The manuscript does not describe how the baselines were retrained or adapted for this comparison.
+  - **Why it matters** Fair benchmarking is essential for the validity of the performance claims. If baselines are not evaluated under comparable conditions, the reported improvements may be artifacts of the evaluation setup.
+  - **Resolution test** Describe the training data and protocol for each baseline method, confirm that none of them had access to Test2_data proteins or their homologs during training, and report any differences in how baselines were applied (e.g., input features, structure source).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability of human proteome analysis
+  - **Claim pointer** "The results demonstrate that MPBind binding site predictions align well with the expected functional roles of the residues in the UniProt" (Section 3.4)
+  - **Evidence pointer** Figures 5-6, Figures S1-S3; location not provided
+  - **Concern** The human proteome analysis is presented as a validation of MPBind's biological relevance, but the methodology is unclear. It is not specified how the 7,435 high-quality structures were selected beyond the pLDDT and PAE thresholds, how the mapping to UniProt features was performed, what statistical test was used to assess enrichment, or what the baseline expectation is (e.g., random expectation given the prevalence of binding sites).
+  - **Why it matters** The analysis is intended to demonstrate that MPBind's predictions are biologically meaningful. Without a clear statistical framework and appropriate controls, the observed alignments could be coincidental or trivial.
+  - **Resolution test** Describe the enrichment analysis in detail, including the statistical test, the null model, the number of comparisons, and correction for multiple testing. Provide effect sizes and confidence intervals for the reported enrichments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 2.3, feature description
+  - **Evidence pointer** Section 2.3; location not provided
+  - **Issue** The sentence describing the spatial orientation calculation is incomplete: "the spatial orientation, calculated by , where Q i denotes the coordinates of i -th residue". The formula is missing.
+  - **Required correction** Provide the complete formula for the spatial orientation calculation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 3.2, text
+  - **Evidence pointer** Section 3.2; location not provided
+  - **Issue** The text states "MPBind achieves ROC AUC scores of 0.8116, 0.7579, 0.7366, and 0.7409 for DNA/RNA, ion, ligand, and lipid binding site prediction, respectively" but the order of tasks in the list does not match the order of the scores. It is unclear which score corresponds to which task.
+  - **Required correction** Clarify the mapping between tasks and scores, either by reordering the list or by explicitly naming each task with its score.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3, case studies
+  - **Evidence pointer** Section 3.3; location not provided
+  - **Issue** The five case studies are described qualitatively, but no quantitative metrics (e.g., precision, recall, F1) are provided for these examples. The statement "MPBind assigns a score greater than 0.5 to 15 of these residues" is informative but does not convey the overall accuracy of the prediction.
+  - **Required correction** Provide quantitative performance metrics for each case study, such as precision, recall, and F1 score at the chosen threshold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.1, results
+  - **Evidence pointer** Section 3.1; location not provided
+  - **Issue** The reported AUC values (e.g., 0.83 vs. 0.76) are presented as point estimates without any measure of uncertainty. It is unclear whether the differences are statistically significant.
+  - **Required correction** Report confidence intervals or standard errors for the AUC values, and perform statistical significance tests (e.g., DeLong test for ROC AUC) where appropriate.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.5, training details
+  - **Evidence pointer** Section 2.5; location not provided
+  - **Issue** The training procedure is described at a high level, but key hyperparameters (e.g., number of epochs, batch size, learning rate schedule, early stopping criteria, hardware) are not reported.
+  - **Required correction** Provide full training details, including all hyperparameters and computational resources used, to enable reproducibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing results), R1-M2 (label definition ambiguity), R1-M3 (baseline evaluation fairness). These are blocking because the core claims of superior performance and methodological soundness cannot be verified without them.
+- **Assessment against Nature-style criteria** Originality: The combination of PLMs and EGNNs for multitask binding site prediction is a reasonable extension of existing work, but the novelty is incremental rather than transformative. Scientific importance: The problem is important, and a well-validated multitask method would be valuable, but the current evidence does not establish a significant advance. Interdisciplinary readership: The topic is of interest to computational biologists and structural biologists, but the presentation is technical and may not appeal to a broader readership without clearer biological insights. Technical soundness: The architecture is plausible, but the missing results and methodological ambiguities prevent assessment of technical rigor. Readability for nonspecialists: The introduction is accessible, but the methods and results sections assume significant domain expertise; the missing figures and tables further hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem with a sensible approach, but the absence of the actual results, figures, and tables, combined with ambiguities in the methods, means the central claims cannot be evaluated. The authors should be invited to resubmit a complete version with full results, clarified methods, and rigorous statistical analysis.
+
+## Risk / unsupported claims
+- The claim that MPBind "outperforms both general bind site prediction methods and task-specific binding site prediction methods" is unsupported because the numerical results are not provided.
+- The claim that MPBind "achieves state-of-the-art performance in protein-protein binding site prediction" is unsupported for the same reason.
+- The claim that Test2_data is an "objective and rigorous benchmark" for all methods is not substantiated without details on baseline training data and protocols.
+- The claim that the human proteome analysis "demonstrates that MPBind binding site predictions align well with the expected functional roles" is unsupported without a described statistical framework.
+- The claim that the five case studies "demonstrate MPBind's ability to distinguish different binding interfaces" is only qualitatively supported and lacks quantitative metrics.

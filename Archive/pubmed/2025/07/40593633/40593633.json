@@ -1,0 +1,677 @@
+{
+  "identity": {
+    "pmid": "40593633",
+    "doi": "10.1038/s41467-025-60824-z",
+    "title": "Deep learning assessment of metastatic relapse risk from digitized breast cancer histological slides."
+  },
+  "content": {
+    "abstract": "Accurate risk stratification is critical for guiding treatment decisions in early breast cancer. We present an artificial intelligence (AI)-based tool that analyzes digitized tumor slides to predict 5-year metastasis-free survival (MFS) in patients with estrogen receptor-positive, HER2-negative (ER + /HER2 - ) early breast cancer (EBC). Our deep learning model, RlapsRisk BC, independently predicts MFS and provides significant prognostic value beyond traditional clinico-pathological variables (C-index 0.81 vs 0.76, p < 0.05). Applying a 5% MFS event probability threshold stratifies patients into low- and high-risk groups. After dichotomization, combining RlapsRisk BC with clinico-pathological factors increases cumulative sensitivity (0.69 vs 0.63) and dynamic specificity (0.80 vs 0.76) compared to clinical factors alone. Expert analysis of high-impact regions identified by the model highlights well-established morphological features, supporting its interpretability and biological relevance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/pathology/metabolism/diagnosis/mortality",
+      "*Deep Learning",
+      "Female",
+      "Middle Aged",
+      "*Neoplasm Recurrence, Local/pathology",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Prognosis",
+      "Adult",
+      "Receptors, Estrogen/metabolism",
+      "Neoplasm Metastasis",
+      "Aged",
+      "Risk Assessment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garberis, I",
+        "Gaury, V",
+        "Saillard, C",
+        "Drubay, D",
+        "Elgui, K",
+        "Schmauch, B",
+        "Jaeger, A",
+        "Herpin, L",
+        "Linhart, J",
+        "Sapateiro, M",
+        "Bernigole, F",
+        "Kamoun, A",
+        "Filiot, A",
+        "Tchita, O",
+        "Dubois, R",
+        "Auffret, M",
+        "Guillou, L",
+        "Bousaid, I",
+        "Azoulay, M",
+        "Lemonnier, J",
+        "Sefta, M",
+        "Everhard, S",
+        "Sarrazin, A",
+        "Reboud, J-F",
+        "Brulport, F",
+        "Dachary, J",
+        "Pistilli, B",
+        "Delaloge, S",
+        "Courtiol, P",
+        "Andre, F",
+        "Aubert, V",
+        "Lacroix-Triki, M"
+      ],
+      "short_names": [
+        "Garberis I",
+        "Gaury V",
+        "Saillard C",
+        "Drubay D",
+        "Elgui K",
+        "Schmauch B",
+        "Jaeger A",
+        "Herpin L",
+        "Linhart J",
+        "Sapateiro M",
+        "Bernigole F",
+        "Kamoun A",
+        "Filiot A",
+        "Tchita O",
+        "Dubois R",
+        "Auffret M",
+        "Guillou L",
+        "Bousaid I",
+        "Azoulay M",
+        "Lemonnier J",
+        "Sefta M",
+        "Everhard S",
+        "Sarrazin A",
+        "Reboud JF",
+        "Brulport F",
+        "Dachary J",
+        "Pistilli B",
+        "Delaloge S",
+        "Courtiol P",
+        "Andre F",
+        "Aubert V",
+        "Lacroix-Triki M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0501-8520",
+        "ORCID: 0000-0003-3605-3027",
+        "ORCID: 0000-0003-3061-839X",
+        "ORCID: 0000-0002-9997-9727",
+        "ORCID: 0000-0002-9478-6395",
+        "ORCID: 0000-0003-2759-3494",
+        "ORCID: 0000-0002-5535-0601",
+        "ORCID: 0000-0002-8420-8495",
+        "ORCID: 0000-0001-8403-1944",
+        "ORCID: 0009-0008-0583-1723",
+        "ORCID: 0009-0007-6266-432X",
+        "ORCID: 0000-0002-8821-2168",
+        "ORCID: 0000-0002-9184-7199",
+        "ORCID: 0000-0003-2106-9165",
+        "ORCID: 0000-0001-5795-8357",
+        "ORCID: 0000-0002-6641-8536"
+      ],
+      "affiliations": [
+        "INSERM U981, Gustave Roussy, Paris-Saclay University, Villejuif, France. ingrid-judith.GARBERIS@gustaveroussy.fr.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Gustave Roussy, Office of Biostatistics and Epidemiology, Universite Paris-Saclay, Villejuif, France.",
+        "Inserm, Universite Paris-Saclay, CESP U1018, Oncostat, labeled Ligue Contre le Cancer, Villejuif, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Department of Pathology, Gustave Roussy, Paris-Saclay University, Villejuif, France.",
+        "Department of Pathology, Gustave Roussy, Paris-Saclay University, Villejuif, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Department of Digital Transformation and Information Systems (DTNSI), Gustave Roussy, Villejuif, France.",
+        "Department of Digital Transformation and Information Systems (DTNSI), Gustave Roussy, Villejuif, France.",
+        "Unicancer R&D, Unicancer, Paris, France.",
+        "Owkin, Paris, France.",
+        "Unicancer R&D, Unicancer, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Owkin, Paris, France.",
+        "Department of Cancer Medicine, Gustave Roussy, Paris-Saclay University, Villejuif, France.",
+        "Department of Cancer Medicine, Gustave Roussy, Paris-Saclay University, Villejuif, France.",
+        "Owkin, Paris, France.",
+        "INSERM U981, Gustave Roussy, Paris-Saclay University, Villejuif, France.",
+        "Department of Cancer Medicine, Gustave Roussy, Paris-Saclay University, Villejuif, France.",
+        "Owkin, Paris, France.",
+        "Department of Pathology, Gustave Roussy, Paris-Saclay University, Villejuif, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garberis, I",
+        "short_name": "Garberis I",
+        "identifiers": [
+          "0000-0002-0501-8520"
+        ],
+        "affiliations": [
+          "INSERM U981, Gustave Roussy, Paris-Saclay University, Villejuif, France. ingrid-judith.GARBERIS@gustaveroussy.fr."
+        ]
+      },
+      {
+        "full_name": "Gaury, V",
+        "short_name": "Gaury V",
+        "identifiers": [
+          "0000-0003-3605-3027"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Saillard, C",
+        "short_name": "Saillard C",
+        "identifiers": [
+          "0000-0003-3061-839X"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Drubay, D",
+        "short_name": "Drubay D",
+        "identifiers": [
+          "0000-0002-9997-9727"
+        ],
+        "affiliations": [
+          "Gustave Roussy, Office of Biostatistics and Epidemiology, Université Paris-Saclay, Villejuif, France.",
+          "Inserm, Université Paris-Saclay, CESP U1018, Oncostat, labeled Ligue Contre le Cancer, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Elgui, K",
+        "short_name": "Elgui K",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Schmauch, B",
+        "short_name": "Schmauch B",
+        "identifiers": [
+          "0000-0002-9478-6395"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Jaeger, A",
+        "short_name": "Jaeger A",
+        "identifiers": [
+          "0000-0003-2759-3494"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Herpin, L",
+        "short_name": "Herpin L",
+        "identifiers": [
+          "0000-0002-5535-0601"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Linhart, J",
+        "short_name": "Linhart J",
+        "identifiers": [
+          "0000-0002-8420-8495"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sapateiro, M",
+        "short_name": "Sapateiro M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Gustave Roussy, Paris-Saclay University, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Bernigole, F",
+        "short_name": "Bernigole F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Gustave Roussy, Paris-Saclay University, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Kamoun, A",
+        "short_name": "Kamoun A",
+        "identifiers": [
+          "0000-0001-8403-1944"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Filiot, A",
+        "short_name": "Filiot A",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Tchita, O",
+        "short_name": "Tchita O",
+        "identifiers": [
+          "0009-0008-0583-1723"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Dubois, R",
+        "short_name": "Dubois R",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Auffret, M",
+        "short_name": "Auffret M",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Guillou, L",
+        "short_name": "Guillou L",
+        "identifiers": [
+          "0009-0007-6266-432X"
+        ],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bousaid, I",
+        "short_name": "Bousaid I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digital Transformation and Information Systems (DTNSI), Gustave Roussy, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Azoulay, M",
+        "short_name": "Azoulay M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digital Transformation and Information Systems (DTNSI), Gustave Roussy, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Lemonnier, J",
+        "short_name": "Lemonnier J",
+        "identifiers": [
+          "0000-0002-8821-2168"
+        ],
+        "affiliations": [
+          "Unicancer R&D, Unicancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sefta, M",
+        "short_name": "Sefta M",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Everhard, S",
+        "short_name": "Everhard S",
+        "identifiers": [],
+        "affiliations": [
+          "Unicancer R&D, Unicancer, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sarrazin, A",
+        "short_name": "Sarrazin A",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Reboud, J-F",
+        "short_name": "Reboud JF",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Brulport, F",
+        "short_name": "Brulport F",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Dachary, J",
+        "short_name": "Dachary J",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Pistilli, B",
+        "short_name": "Pistilli B",
+        "identifiers": [
+          "0000-0002-9184-7199"
+        ],
+        "affiliations": [
+          "Department of Cancer Medicine, Gustave Roussy, Paris-Saclay University, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Delaloge, S",
+        "short_name": "Delaloge S",
+        "identifiers": [
+          "0000-0003-2106-9165"
+        ],
+        "affiliations": [
+          "Department of Cancer Medicine, Gustave Roussy, Paris-Saclay University, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Courtiol, P",
+        "short_name": "Courtiol P",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "André, F",
+        "short_name": "André F",
+        "identifiers": [
+          "0000-0001-5795-8357"
+        ],
+        "affiliations": [
+          "INSERM U981, Gustave Roussy, Paris-Saclay University, Villejuif, France.",
+          "Department of Cancer Medicine, Gustave Roussy, Paris-Saclay University, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Aubert, V",
+        "short_name": "Aubert V",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lacroix-Triki, M",
+        "short_name": "Lacroix-Triki M",
+        "identifiers": [
+          "0000-0002-6641-8536"
+        ],
+        "affiliations": [
+          "Department of Pathology, Gustave Roussy, Paris-Saclay University, Villejuif, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "42513295",
+      "42467849",
+      "42161927",
+      "42135000",
+      "41975736",
+      "41930306",
+      "41736658",
+      "41681893",
+      "41567624"
+    ],
+    "refs": [
+      "40025017",
+      "38012314",
+      "37857643",
+      "37059742",
+      "37014891",
+      "36869083",
+      "36658418",
+      "36192400",
+      "35775006",
+      "35676445",
+      "35484275",
+      "34756513",
+      "34656740",
+      "34543613",
+      "34393014",
+      "34362928",
+      "33875798",
+      "33538338",
+      "32377197",
+      "31955049",
+      "31935669",
+      "31591636",
+      "31591589",
+      "31555487",
+      "31157962",
+      "30182055",
+      "29860917",
+      "29848291",
+      "29846122",
+      "29531073",
+      "29450494",
+      "29349710",
+      "29220095",
+      "28561071",
+      "27569041",
+      "27557300",
+      "26412349",
+      "26177501",
+      "25474343",
+      "25364461",
+      "24400093",
+      "24203987",
+      "22850554",
+      "22641706",
+      "21960707",
+      "21371853",
+      "20053270",
+      "18437174",
+      "7069920"
+    ],
+    "similar": [
+      "40593633",
+      "41526910",
+      "41270247",
+      "41213110",
+      "40833671",
+      "40148997",
+      "41232824",
+      "41461598",
+      "40845255",
+      "40121273",
+      "38131531",
+      "27116185",
+      "26616114",
+      "32601800",
+      "29168063",
+      "28720060",
+      "27628678",
+      "38641451",
+      "41437780",
+      "39191270",
+      "32665033",
+      "29137653",
+      "39143539",
+      "33357231",
+      "40913401",
+      "41088266",
+      "19956951",
+      "34997055",
+      "40288025",
+      "31811505",
+      "38766488",
+      "39424816",
+      "41562542",
+      "22004841",
+      "39866573",
+      "27368476",
+      "41493657",
+      "40836358",
+      "34257555",
+      "27762648",
+      "38592541",
+      "26909792",
+      "41543393",
+      "39952220",
+      "28057031",
+      "32472474",
+      "40905841",
+      "21824742",
+      "25216864",
+      "24725534",
+      "26579819",
+      "41597401",
+      "32966998",
+      "40997745",
+      "18262731",
+      "41591534",
+      "40208504",
+      "38743174",
+      "41110701",
+      "27760283",
+      "34090143",
+      "25880075",
+      "39576843",
+      "23890870",
+      "28082280",
+      "41435752",
+      "40721911",
+      "38722442",
+      "31378534",
+      "24895374",
+      "32408905",
+      "23749689",
+      "30080878",
+      "25117032",
+      "23771556",
+      "33926418",
+      "30275235",
+      "25888246",
+      "24060333",
+      "17607369",
+      "27468884",
+      "32592141",
+      "26493064",
+      "33725973",
+      "25743846",
+      "41576303",
+      "26705158",
+      "39705838",
+      "37494846",
+      "28534357",
+      "30201586",
+      "25422485",
+      "24498305",
+      "30570847",
+      "22433564",
+      "38329503",
+      "33152285",
+      "38744585",
+      "26838218",
+      "28702894"
+    ],
+    "review": [
+      "40593633",
+      "41232824",
+      "41437780"
+    ],
+    "pmc": [
+      "12216745"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-60824-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40593633/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

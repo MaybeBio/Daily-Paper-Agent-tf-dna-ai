@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "39241826",
+    "doi": "10.1016/j.ajpath.2024.08.011",
+    "title": "Histopathologic Differential Diagnosis and Estrogen Receptor/Progesterone Receptor Immunohistochemical Evaluation of Breast Carcinoma Using a Deep Learning-Based Artificial Intelligence Architecture."
+  },
+  "content": {
+    "abstract": "In breast carcinoma, invasive ductal carcinoma (IDC) is the most common histopathologic subtype, and ductal carcinoma in situ (DCIS) is a precursor of IDC. These two often occur concomitantly. The immunohistochemical staining of estrogen receptor (ER)/progesterone receptor (PR) in IDC/DCIS on histopathologic whole slide images (WSIs) can predict the prognosis of patients. Artificial intelligence (AI) technology has the potential to substantially reduce the interobserver variability among pathologists reading WSIs. Herein, IDC/DCIS detection was conducted by a deep learning approach, including faster region-based convolutional neural network (Faster R-CNN), RetinaNet, single-shot multibox detector 300 (SSD300), you only look once (YOLO) v3, YOLOv5, YOLOv7, YOLOv8, and Swin transformer. Their performance was estimated by mean average precision (mAP) values. Cell recognition and counting were performed using AI technology to evaluate the intensity and proportion of ER/PR-immunostained cancer cells in IDC/DCIS. A three-round ring study (RS) was conducted to assess WSIs. A database for modelling the underlying probability distribution of a data set with labels was established. YOLOv8 exhibited the highest detection performance with an mAP at 0.5 of 0.944 and an mAP at 0.5 to 0.95 of 0.790. With the assistance of YOLOv8, the scoring concordance across all pathologists was boosted to excellent in RS3 (0.970) from moderate in RS1 (0.724) and good in RS2 (0.812). Deep learning detection can be applied in the clinicopathologic field. Herein, a novel AI architecture and well-organized data set were developed to facilitate the histopathologic diagnosis of IDC/DCIS and immunostaining scoring of ER/PR.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Breast Neoplasms/pathology/metabolism/diagnosis",
+      "*Receptors, Progesterone/metabolism",
+      "*Receptors, Estrogen/metabolism",
+      "Female",
+      "*Immunohistochemistry/methods",
+      "*Artificial Intelligence",
+      "*Carcinoma, Ductal, Breast/pathology/metabolism/diagnosis",
+      "Diagnosis, Differential",
+      "Biomarkers, Tumor/metabolism/analysis",
+      "Carcinoma, Intraductal, Noninfiltrating/pathology/metabolism/diagnosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Zhi",
+        "Ding, Shihong",
+        "Liu, Baichen",
+        "Tang, Yandong",
+        "Qiu, Xueshan",
+        "Wang, Enhua",
+        "Zhao, Huanyu"
+      ],
+      "short_names": [
+        "Han Z",
+        "Ding S",
+        "Liu B",
+        "Tang Y",
+        "Qiu X",
+        "Wang E",
+        "Zhao H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang, China; Institute for Robotics and Intelligent Manufacturing, Chinese Academy of Sciences, Shenyang, China.",
+        "Shenyang Ligong University, Shenyang, China.",
+        "The State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang, China; Institute for Robotics and Intelligent Manufacturing, Chinese Academy of Sciences, Shenyang, China.",
+        "The State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang, China; Institute for Robotics and Intelligent Manufacturing, Chinese Academy of Sciences, Shenyang, China.",
+        "Department of Pathology, The First Hospital and College of Basic Medical Sciences, China Medical University, Shenyang, China.",
+        "Department of Pathology, The First Hospital and College of Basic Medical Sciences, China Medical University, Shenyang, China. Electronic address: wangeh55@outlook.com.",
+        "Department of Pathology, The First Hospital and College of Basic Medical Sciences, China Medical University, Shenyang, China. Electronic address: zhaohy@cmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Zhi",
+        "short_name": "Han Z",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang, China; Institute for Robotics and Intelligent Manufacturing, Chinese Academy of Sciences, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Shihong",
+        "short_name": "Ding S",
+        "identifiers": [],
+        "affiliations": [
+          "Shenyang Ligong University, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Baichen",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang, China; Institute for Robotics and Intelligent Manufacturing, Chinese Academy of Sciences, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yandong",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang, China; Institute for Robotics and Intelligent Manufacturing, Chinese Academy of Sciences, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xueshan",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Hospital and College of Basic Medical Sciences, China Medical University, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Enhua",
+        "short_name": "Wang E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Hospital and College of Basic Medical Sciences, China Medical University, Shenyang, China. Electronic address: wangeh55@outlook.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Huanyu",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Hospital and College of Basic Medical Sciences, China Medical University, Shenyang, China. Electronic address: zhaohy@cmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The American journal of pathology"
+    ],
+    "journal_abbrev": [
+      "Am J Pathol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/07 14:42",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "42118288",
+      "41410015",
+      "40696940"
+    ],
+    "refs": [],
+    "similar": [
+      "39241826",
+      "17522367",
+      "20143189",
+      "18296077",
+      "21935747",
+      "19657752",
+      "18187183",
+      "24275214",
+      "27116088",
+      "16033090",
+      "30338425",
+      "26813593",
+      "21042943",
+      "28178722",
+      "11173657",
+      "39350085",
+      "40840868",
+      "38395930",
+      "11994759",
+      "35076741",
+      "24978026",
+      "23216911",
+      "19568168",
+      "21958729",
+      "33890815",
+      "20108215",
+      "22450930",
+      "31289308",
+      "23928534",
+      "27299796",
+      "26384318",
+      "24304465",
+      "28365833",
+      "23807750",
+      "19876578",
+      "18227734",
+      "25873048",
+      "39980051",
+      "21527182",
+      "29043992",
+      "34279719",
+      "18801081",
+      "17543076",
+      "26721716",
+      "30383678",
+      "40744681",
+      "23559354",
+      "40813116",
+      "40645910",
+      "26884359",
+      "26823864",
+      "28902360",
+      "21244664",
+      "41271917",
+      "28766212",
+      "20533549",
+      "18043578",
+      "23208673",
+      "38288642",
+      "29103479",
+      "28567637",
+      "29848352",
+      "40143808",
+      "9635530",
+      "40016720",
+      "35892151",
+      "25600567",
+      "40240237",
+      "31436245",
+      "41199479",
+      "32471471",
+      "31939679",
+      "24917206",
+      "30048574",
+      "11825917",
+      "23729369",
+      "25824769",
+      "23778411",
+      "23036368",
+      "22014044",
+      "38576031",
+      "33335279",
+      "33599914",
+      "25077370",
+      "12168892",
+      "25483573",
+      "12037031",
+      "30223270",
+      "12016392",
+      "26165687",
+      "39038425",
+      "16828238",
+      "12828606",
+      "1355464",
+      "10914818",
+      "25327790",
+      "35140303",
+      "39705612",
+      "33620141",
+      "39832051"
+    ],
+    "review": [
+      "39241826",
+      "30338425",
+      "23208673"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0002-9440(24)00330-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0002-9440(24)00330-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

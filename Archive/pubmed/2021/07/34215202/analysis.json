@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34215202",
+  "title": "Comprehensive analysis of diabetic nephropathy expression profile based on weighted gene co-expression network analysis algorithm.",
+  "authors": "Gholaminejad, Alieh; Fathalipour, Mohammad; Roointan, Amir",
+  "journal": "BMC nephrology",
+  "published_date": "2021-07-04",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于WGCNA分析糖尿病肾病表达谱，虽涉及转录因子预测但核心为共表达网络与PPI，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Diabetic nephropathy (DN) is the major complication of diabetes mellitus, and leading cause of end-stage renal disease. The underlying molecular mechanism of DN is not yet completely clear. The aim of this study was to analyze a DN microarray dataset using weighted gene co-expression network analysis (WGCNA) algorithm for better understanding of DN pathogenesis and exploring key genes in the disease progression. METHODS: The identified differentially expressed genes (DEGs) in DN dataset GSE47183 were introduced to WGCNA algorithm to construct co-expression modules. STRING database was used for construction of Protein-protein interaction (PPI) networks of the genes in all modules and the hub genes were identified considering both the degree centrality in the PPI networks and the ranked lists of weighted networks. Gene ontology and Reactome pathway enrichment analyses were performed on each module to understand their involvement in the biological processes and pathways. Following validation of the hub genes in another DN dataset (GSE96804), their up-stream regulators, including microRNAs and transcription factors were predicted and a regulatory network comprising of all these molecules was constructed. RESULTS: After normalization and analysis of the dataset, 2475 significant DEGs were identified and clustered into six different co-expression modules by WGCNA algorithm. Then, DEGs of each module were subjected to functional enrichment analyses and PPI network constructions. Metabolic processes, cell cycle control, and apoptosis were among the top enriched terms. In the next step, 23 hub genes were identified among the modules in genes and five of them, including FN1, SLC2A2, FABP1, EHHADH and PIPOX were validated in another DN dataset. In the regulatory network, FN1 was the most affected hub gene and mir-27a and REAL were recognized as two main upstream-regulators of the hub genes. CONCLUSIONS: The identified hub genes from the hearts of co-expression modules could widen our understanding of the DN development and might be of targets of future investigations, exploring their therapeutic potentials for treatment of this complicated disease.",
+  "abstract_zh": "背景：糖尿病肾病（DN）是糖尿病的主要并发症，也是终末期肾病的主要原因。DN的潜在分子机制尚未完全明确。本研究旨在利用加权基因共表达网络分析（WGCNA）算法分析DN微阵列数据集，以更好地理解DN的发病机制，并探索疾病进展中的关键基因。方法：将DN数据集GSE47183中鉴定出的差异表达基因（DEGs）引入WGCNA算法构建共表达模块。利用STRING数据库构建所有模块中基因的蛋白质-蛋白质相互作用（PPI）网络，并结合PPI网络中的度中心性和加权网络排名列表识别枢纽基因。对每个模块进行基因本体论和Reactome通路富集分析，以了解其在生物学过程和通路中的参与情况。在另一个DN数据集（GSE96804）中验证枢纽基因后，预测其上游调控因子（包括microRNA和转录因子），并构建包含所有这些分子的调控网络。结果：对数据集进行标准化和分析后，鉴定出2475个显著的DEGs，并通过WGCNA算法将其聚类为六个不同的共表达模块。随后，对每个模块的DEGs进行功能富集分析和PPI网络构建。代谢过程、细胞周期控制和凋亡是富集程度最高的条目。下一步，在模块中鉴定出23个枢纽基因，其中五个（包括FN1、SLC2A2、FABP1、EHHADH和PIPOX）在另一个DN数据集中得到验证。在调控网络中，FN1是受影响最大的枢纽基因，mir-27a和REAL被识别为枢纽基因的两个主要上游调控因子。结论：从共表达模块核心中鉴定出的枢纽基因可拓宽我们对DN发展的理解，并可能成为未来研究的目标，探索其治疗这种复杂疾病的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34215202/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34215202/",
+  "paper_page_path": "papers/pubmed/34215202/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41323652",
+  "title": "Integrated analysis of N-glycosylation and Alzheimer's disease: identifying key biomarkers and mechanisms.",
+  "authors": "Zhang, Hao; Chen, WenJun; Yuan, ShuYou; Cai, Bo; Ding, ShaoXiang; Bao, HongXia; Sun, JunKai; Lu, Wei; Zhu, HaoGang",
+  "journal": "Frontiers in aging neuroscience",
+  "published_date": "2025-12-01",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过多组学与机器学习分析阿尔茨海默病中N-糖基化相关生物标志物，虽涉及转录因子MAX，但核心是疾病诊断标志物而非蛋白质-DNA互作机制建模，方法为常规ML而非AI/物理模拟，与课题关联较弱。",
+  "abstract": "BACKGROUND: Alzheimer's disease (AD) is the most prevalent cause of dementia in the elderly, imposing a significant societal burden. Current therapeutic approaches primarily address symptoms, underscoring the critical need to elucidate its pathogenesis and identify robust early biomarkers. N-glycosylation, a critical post-translational modification, is dysregulated in neurodegenerative disorders, yet its role in AD and diagnostic potential remain underexplored. OBJECTIVE: This investigation aimed to characterize the interplay between N-glycosylation and AD through multi-dimensional bioinformatics analysis, identify core differentially expressed genes (DEGs) associated with this crosstalk, and evaluate their diagnostic efficacy in early AD detection. METHODS: A bibliometric analysis of Web of Science literature spanning 2001-2025 was performed using VOSviewer, CiteSpace, and R. Transcriptomic data were analyzed with LIMMA to identify DEGs. Feature prioritization and molecular interaction decoding were achieved through Lasso, Random Forest, XGBoost, and SHAP analysis. RESULTS: Bibliometric analysis highlighted a shift toward granular molecular mechanisms, with \"bisecting GlcNAc\" and \"GNT-III (MGAT3)\" emerging as key research topics. Differential expression profiling identified 6,845 DEGs, including TMEM59, MLEC, and MAX. Machine learning algorithms consistently prioritized these three genes as core N-glycosylation-related biomarkers, alongside APP as a key associated molecule. Among transcription factors, MAX was identified as a central regulator, with a subset of 8 factors (including MAX and BRD9) pinpointed as critical modulators of N-glycosylation and glial activation in AD. Diagnostic models demonstrated strong performance: logistic regression achieved an AUC of 0.947 with MAX, APP, and MLEC; Random Forest and XGBoost attained perfect AUC = 1.0 in primary analyses; and a clinical nomogram integrating core genes yielded an AUC of 0.899. SHAP analysis confirmed MAX, APP, MLEC, and TMEM59 as top predictors, revealing significant positive interactions between MLEC and TMEM59 (p = 0.00019) and a negative interaction between MAX and MGAT3 (p = 0.0288). Notably, MAX alone served as a impactful single-gene biomarker, with AUC values ranging from 0.644 to 0.898 across external validation. CONCLUSION: MAX, MLEC, and TMEM59 represent key N-glycosylation-linked diagnostic biomarkers for AD. This integrative framework provides novel insights into AD pathogenesis and lays the foundation for personalized diagnostic tools and therapies, warranting experimental validation.",
+  "abstract_zh": "背景：阿尔茨海默病（Alzheimer's disease, AD）是老年人痴呆最常见的病因，给社会带来沉重负担。当前的治疗方法主要针对症状，这凸显了阐明其发病机制和识别可靠的早期生物标志物的迫切需求。N-糖基化（N-glycosylation）作为一种关键的翻译后修饰，在神经退行性疾病中发生失调，但其在AD中的作用及诊断潜力尚未得到充分探索。目的：本研究旨在通过多维生物信息学分析表征N-糖基化与AD之间的相互作用，识别与此交叉关联相关的核心差异表达基因（differentially expressed genes, DEGs），并评估其在AD早期检测中的诊断效能。方法：使用VOSviewer、CiteSpace和R对2001-2025年Web of Science文献进行文献计量分析。利用LIMMA分析转录组数据以识别DEGs。通过Lasso、随机森林（Random Forest）、XGBoost和SHAP分析实现特征优先级排序和分子相互作用解码。结果：文献计量分析突显了向精细分子机制的转变，其中“平分型GlcNAc（bisecting GlcNAc）”和“GNT-III（MGAT3）”成为关键研究主题。差异表达谱分析识别出6,845个DEGs，包括TMEM59、MLEC和MAX。机器学习算法一致地将这三个基因优先排序为与N-糖基化相关的核心生物标志物，同时APP作为关键关联分子。在转录因子中，MAX被识别为中心调控因子，其中8个因子（包括MAX和BRD9）被精确定位为AD中N-糖基化和胶质细胞活化的关键调节因子。诊断模型表现出强劲性能：逻辑回归在MAX、APP和MLEC组合下达到AUC为0.947；随机森林和XGBoost在初步分析中达到完美AUC = 1.0；整合核心基因的临床列线图（nomogram）产生AUC为0.899。SHAP分析确认MAX、APP、MLEC和TMEM59为顶级预测因子，揭示MLEC与TMEM59之间存在显著正交互作用（p = 0.00019），以及MAX与MGAT3之间存在负交互作用（p = 0.0288）。值得注意的是，MAX单独作为单基因生物标志物具有显著影响，在外部验证中AUC值范围为0.644至0.898。结论：MAX、MLEC和TMEM59代表与N-糖基化相关的AD关键诊断生物标志物。这一整合框架为AD发病机制提供了新见解，并为个性化诊断工具和疗法奠定了基础，有待实验验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41323652/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41323652/",
+  "paper_page_path": "papers/pubmed/41323652/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41948344",
+  "title": "Identification of CCND1 and IL7R as core JAK-STAT pathway genes promoting hepatitis B-related liver fibrosis.",
+  "authors": "Wu, Jiahao; Hu, Chen; Yang, Guang",
+  "journal": "Frontiers in immunology",
+  "published_date": "2026-04-08",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过转录组与机器学习识别乙肝相关肝纤维化的JAK-STAT通路核心基因，虽构建了miRNA-mRNA-TF网络，但核心是表达与诊断标志物分析，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Liver fibrosis is one of the most common complications in patients with HBV infection. Characterized by excessive extracellular matrix deposition and hepatic stellate cell activation, it is tightly linked to the JAK-STAT pathway that regulates inflammatory and fibrogenic processes. METHODS: The GSE84044 dataset was retrieved from the GEO database. After grouping and preprocessing, DEGs were screened with the limma package and then subjected to functional enrichment analysis. WGCNA was performed to identify fibrosis-related module genes. Candidate key genes were obtained by intersecting these WGCNA module genes with the DEGs and JAK-STAT genes. A diagnostic model was constructed via machine learning algorithms to further filter core genes. Subsequently, GSEA, GSVA and immune infiltration analysis were conducted to explore the biological functions of these core genes. Mendelian randomization (MR) was employed to verify the causal relationships among the target genes. Furthermore, the miRNA-mRNA-TF network of the core genes were constructed. ScRNA analysis was performed to validated our finding. Finally, the expression levels of core genes were experimentally validated by Western blot and qPCR. RESULTS: CCND1 and IL7R were identified as hub genes of the JAK-STAT pathway through integrated analyses. Both genes are significantly upregulated and exert synergistic effects in HBV-related liver fibrosis, with the constructed diagnostic model achieving an AUC of 0.890. Functional enrichment indicated their involvement in immune regulatory and fibrotic pathways, while immune infiltration analysis revealed a close association with M1 macrophages and other immune cell subsets. MR analysis confirmed a significant positive causal effect of IL7R on liver fibrosis. The miRNA-mRNA-TF regulatory network highlighted their post-transcriptional and transcriptional regulatory mechanisms. scRNA-seq validated cell-type-specific expression patterns of CCND1 (epithelial cells, endothelial cells, hepatocytes, macrophages) and IL7R (T/NK cells). Western blot and qPCR further confirmed the upregulation of these genes in HBV-related fibrotic liver tissues at both protein and mRNA levels. CONCLUSIONS: In summary, CCND1 and IL7R are core JAK-STAT pathway genes associated with HBV-related liver fibrosis, with IL7R showing a significant causal role. They regulate immune microenvironment and may serve as diagnostic biomarkers.",
+  "abstract_zh": "背景：肝纤维化是HBV感染患者最常见的并发症之一。其特征为细胞外基质过度沉积和肝星状细胞活化，并与调控炎症及纤维化过程的JAK-STAT通路密切相关。方法：从GEO数据库获取GSE84044数据集。分组和预处理后，使用limma包筛选差异表达基因（DEGs），并进行功能富集分析。采用WGCNA识别与纤维化相关的模块基因。通过将这些WGCNA模块基因与DEGs及JAK-STAT基因取交集，获得候选关键基因。利用机器学习算法构建诊断模型以进一步筛选核心基因。随后，进行GSEA、GSVA和免疫浸润分析，以探索这些核心基因的生物学功能。采用孟德尔随机化（Mendelian randomization, MR）验证靶基因间的因果关系。此外，构建核心基因的miRNA-mRNA-TF网络。进行单细胞RNA（scRNA）分析以验证我们的发现。最后，通过Western blot和qPCR实验验证核心基因的表达水平。结果：通过整合分析，CCND1和IL7R被确定为JAK-STAT通路的核心基因。这两个基因在HBV相关肝纤维化中均显著上调并发挥协同作用，所构建的诊断模型AUC达0.890。功能富集表明它们参与免疫调节和纤维化通路，而免疫浸润分析揭示其与M1巨噬细胞及其他免疫细胞亚群密切相关。MR分析确认IL7R对肝纤维化具有显著的正向因果效应。miRNA-mRNA-TF调控网络突出了其转录后及转录调控机制。scRNA-seq验证了CCND1（上皮细胞、内皮细胞、肝细胞、巨噬细胞）和IL7R（T/NK细胞）的细胞类型特异性表达模式。Western blot和qPCR进一步在蛋白和mRNA水平上证实了这些基因在HBV相关纤维化肝组织中的上调。结论：总之，CCND1和IL7R是与HBV相关肝纤维化相关的JAK-STAT通路核心基因，其中IL7R具有显著的因果作用。它们调控免疫微环境，并可能作为诊断生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41948344/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41948344/",
+  "paper_page_path": "papers/pubmed/41948344/index.html"
+}

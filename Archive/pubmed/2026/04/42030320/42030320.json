@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "42030320",
+    "doi": "10.1111/aji.70241",
+    "title": "Identification and Validation of Oxidative Stress-Related Candidate Biomarkers for Preeclampsia via WGCNA and Single-Cell Transcriptomics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Preeclampsia (PE) is a major pregnancy complication that poses risks to both the mother and the fetus. Oxidative stress (OS) plays a crucial role in its pathogenesis. This study aims to explore the diagnostic value of oxidative stress-related genes for PE. METHODS: We integrated single-cell and batch transcriptome data from the GEO database. Through differential expression analysis, WGCNA, and three machine learning algorithms (LASSO, SVM-RFE, and random forest), we screened key genes, constructed a diagnostic model, and analyzed its correlation with immune cells. We used bioinformatics tools to predict regulatory networks. The diagnostic value of key genes was verified through qRT-PCR experiments. RESULTS: Our study identified three hub genes-SPP1, CTSC, and SLC9A9-which were predominantly highly expressed in macrophages. The Hub gene and diagnostic model showed preliminary discriminatory ability in distinguishing PE samples from control samples in multiple datasets. Immune infiltration analysis demonstrated a strong positive correlation between macrophages and the three hub genes. Furthermore, cell adhesion emerged as a key signaling pathway in PE progression. FOXC1 was a common transcriptional regulator of all three hub genes, while FOXL1, NFKB1, and POU2F2 co-regulate SLC9A9 and SPP1. qRT-PCR validation confirmed the downregulation of these hub genes in PE. CONCLUSION: This study successfully identified SPP1, CTSC, and SLC9A9 as candidate biomarkers for PE, which may lay the foundation for the development of new monitoring indicators and optimization of targeted therapy strategies.",
+    "keywords": [
+      "WGCNA",
+      "diagnosis",
+      "oxidative stress",
+      "preeclampsia",
+      "single-cell"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pre-Eclampsia/genetics/diagnosis/immunology",
+      "Female",
+      "*Oxidative Stress/genetics",
+      "Pregnancy",
+      "Biomarkers/metabolism",
+      "Transcriptome",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Single-Cell Analysis",
+      "Osteopontin/genetics/metabolism",
+      "*Macrophages/immunology/metabolism",
+      "Single-Cell Gene Expression Analysis",
+      "Forkhead Transcription Factors/genetics",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Wenhua",
+        "Yin, Haiyan"
+      ],
+      "short_names": [
+        "Ye W",
+        "Yin H"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-6868-2886"
+      ],
+      "affiliations": [
+        "Jinan University, Guangzhou, Guangdong, China.",
+        "Department of Intensive Care Uni, Foshan Women and Children's Hospital, Foshan, Guangdong, China.",
+        "Department of Intensive Care Unit, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Wenhua",
+        "short_name": "Ye W",
+        "identifiers": [],
+        "affiliations": [
+          "Jinan University, Guangzhou, Guangdong, China.",
+          "Department of Intensive Care Uni, Foshan Women and Children's Hospital, Foshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Haiyan",
+        "short_name": "Yin H",
+        "identifiers": [
+          "0009-0000-6868-2886"
+        ],
+        "affiliations": [
+          "Department of Intensive Care Unit, The First Affiliated Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of reproductive immunology (New York, N.Y. : 1989)"
+    ],
+    "journal_abbrev": [
+      "Am J Reprod Immunol"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/24 18:36",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42030320",
+      "41044520",
+      "39544937",
+      "39709373",
+      "40970657",
+      "40374866",
+      "40151199",
+      "42123445",
+      "33535891",
+      "41388523",
+      "41034826",
+      "39934690",
+      "40592741",
+      "40967560",
+      "42243611",
+      "40016711",
+      "39984919",
+      "39556279",
+      "40552285",
+      "41479901",
+      "39815029",
+      "41787525",
+      "39675129",
+      "41052072",
+      "40836320",
+      "41667698",
+      "39139563",
+      "39391879",
+      "42274933",
+      "40913866",
+      "39206894",
+      "42327749",
+      "42123756",
+      "41826889",
+      "41924281",
+      "40119397",
+      "41325315",
+      "39853851",
+      "41013556",
+      "39735537",
+      "40048749",
+      "41638276",
+      "39991151",
+      "37498421",
+      "39265357",
+      "41703488",
+      "41826854",
+      "40742465",
+      "40625749",
+      "39707003",
+      "42404897",
+      "40532551",
+      "36258174",
+      "35711567",
+      "39923303",
+      "36635346",
+      "41858783",
+      "40068030",
+      "41316541",
+      "41013727",
+      "38718074",
+      "41591671",
+      "38863714",
+      "41620539",
+      "41810647",
+      "40861438",
+      "40966021",
+      "39340293",
+      "41107929",
+      "42352882",
+      "39026250",
+      "39069636",
+      "42138757",
+      "38788026",
+      "37525915",
+      "39697326",
+      "40901474",
+      "38711508",
+      "38476236",
+      "42059276",
+      "40539067",
+      "37691920",
+      "40093012",
+      "41665627",
+      "41733593",
+      "31416885",
+      "41756296",
+      "40216654",
+      "41291841",
+      "41436831",
+      "41162503",
+      "42251905",
+      "39086489",
+      "39142001",
+      "41504784",
+      "41716396",
+      "39396400",
+      "39967661",
+      "40692778",
+      "37475857"
+    ],
+    "review": [
+      "42030320",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1111/aji.70241",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

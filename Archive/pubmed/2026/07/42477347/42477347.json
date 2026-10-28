@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "42477347",
+    "doi": "10.1038/s41467-026-75912-x",
+    "title": "Incorporating AI-optimized zinc finger proteins enhances the efficiencies and targeting ranges of miniature base editors."
+  },
+  "content": {
+    "abstract": "The therapeutic application of base editors is limited by their large sizes, which are beyond the packaging capabilities of adeno-associated viral (AAV) vectors. Despite recent progress that has identified many compact CRISPR proteins, the resulting miniature base editors often exhibit reduced activities and limited targeting scope. Here, we introduce a zinc finger protein (ZFP)-enhanced miniature base editor (zmBE), which integrates programmable ZFPs to improve efficiencies and targeting scopes of miniature base editors, including those based on Un1Cas12f1 and OgeuIscB. Utilizing protein language models to optimize ZFPs designed by modular assembly further simplifies the development of zmBEs. Leveraging these methodologies, we engineer a zmBE that effectively induces the SMN2 exon 7 T:A(6) > C:G conversion, restores the exon 7 inclusion, and improves spinal muscular atrophy in a murine model after being delivered via a single AAV vector. Our study provides a versatile platform for developing miniature base editors for in vivo therapeutic applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Zinc Fingers/genetics",
+      "Animals",
+      "Dependovirus/genetics",
+      "Mice",
+      "Humans",
+      "Genetic Vectors/genetics",
+      "Survival of Motor Neuron 2 Protein/genetics",
+      "Muscular Atrophy, Spinal/therapy/genetics",
+      "Exons/genetics",
+      "CRISPR-Cas Systems",
+      "HEK293 Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Qianyue",
+        "Yang, Dian",
+        "Zhou, Xibin",
+        "Li, Geng",
+        "Liu, Weikuan",
+        "Fan, Xiaoqi",
+        "Yuan, Fajie",
+        "Chang, Xing"
+      ],
+      "short_names": [
+        "Huang Q",
+        "Yang D",
+        "Zhou X",
+        "Li G",
+        "Liu W",
+        "Fan X",
+        "Yuan F",
+        "Chang X"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-4346-9891",
+        "ORCID: 0009-0007-8879-4966",
+        "ORCID: 0000-0001-6478-2732",
+        "ORCID: 0000-0001-8452-9929",
+        "ORCID: 0000-0002-5072-9225"
+      ],
+      "affiliations": [
+        "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China.",
+        "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China.",
+        "School of Engineering, Westlake University, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China.",
+        "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China.",
+        "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China.",
+        "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "School of Engineering, Westlake University, Hangzhou, Zhejiang, China.",
+        "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+        "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+        "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+        "Research Center for Industries of the Future (RCIF), Westlake University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+        "Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+        "Center for Genome Editing, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+        "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Qianyue",
+        "short_name": "Huang Q",
+        "identifiers": [
+          "0009-0001-4346-9891"
+        ],
+        "affiliations": [
+          "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Dian",
+        "short_name": "Yang D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xibin",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0009-0007-8879-4966"
+        ],
+        "affiliations": [
+          "School of Engineering, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Geng",
+        "short_name": "Li G",
+        "identifiers": [
+          "0000-0001-6478-2732"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China.",
+          "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Weikuan",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China.",
+          "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xiaoqi",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China.",
+          "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Fajie",
+        "short_name": "Yuan F",
+        "identifiers": [
+          "0000-0001-8452-9929"
+        ],
+        "affiliations": [
+          "School of Engineering, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Xing",
+        "short_name": "Chang X",
+        "identifiers": [
+          "0000-0002-5072-9225"
+        ],
+        "affiliations": [
+          "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+          "State Key Laboratory of Gene Expression, School of Medicine, Westlake University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+          "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+          "Research Center for Industries of the Future (RCIF), Westlake University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+          "Institute of Basic Medical Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+          "Center for Genome Editing, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn.",
+          "Affiliated Hangzhou First People's Hospital, School of Medicine, Westlake University, Hangzhou, Zhejiang, China. changxing@westlake.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jul 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/21 00:35",
+    "fetched_at": "2026-10-02 02:17:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41136773",
+      "40799507",
+      "39809780",
+      "39541214",
+      "39313558",
+      "39147927",
+      "39096898",
+      "39080265",
+      "38977788",
+      "38977787",
+      "38935715",
+      "38766526",
+      "38408137",
+      "38377993",
+      "38360922",
+      "38351611",
+      "38297187",
+      "38280857",
+      "38168994",
+      "38057426",
+      "37906593",
+      "37776859",
+      "37404457",
+      "37400536",
+      "37386294",
+      "37371704",
+      "37231266",
+      "37156916",
+      "37095349",
+      "37041195",
+      "36996170",
+      "36927031",
+      "36702896",
+      "36702895",
+      "36702845",
+      "36418298",
+      "36357717",
+      "36229683",
+      "35902773",
+      "35831515",
+      "35798006",
+      "35637307",
+      "35617371",
+      "35120643",
+      "35042880",
+      "34702830",
+      "34698513",
+      "34619744",
+      "34591643",
+      "34480847",
+      "34475565",
+      "34475560",
+      "34155407",
+      "34012082",
+      "33300159",
+      "33077937",
+      "33000004",
+      "32641830",
+      "32433547",
+      "32424272",
+      "32393889",
+      "32246713",
+      "32042165",
+      "31857715",
+      "31740768",
+      "31263285",
+      "31181567",
+      "30995674",
+      "30911135",
+      "30819931",
+      "30819928",
+      "30809026",
+      "30523077",
+      "30446870",
+      "30423086",
+      "30337455",
+      "30323312",
+      "30297904",
+      "30293782",
+      "30107853",
+      "30082781",
+      "29259525",
+      "29160308",
+      "28671695",
+      "28581493",
+      "27804970",
+      "27798611",
+      "27723754",
+      "27492474",
+      "27096365",
+      "26582918",
+      "26480473",
+      "26420842",
+      "25593323",
+      "25407048",
+      "24912165",
+      "24529597",
+      "24463181",
+      "24097433",
+      "23396013",
+      "23303772",
+      "23169466",
+      "23104886",
+      "22543349",
+      "21937602",
+      "21828278",
+      "21191366",
+      "21151125",
+      "20717154",
+      "20644199",
+      "20601685",
+      "20389291",
+      "20111032",
+      "19505943",
+      "19451168",
+      "19274634",
+      "19008249",
+      "18657511",
+      "18446154",
+      "17406455",
+      "16845061",
+      "15806097",
+      "15703193",
+      "11145970",
+      "3132977"
+    ],
+    "similar": [
+      "42477347",
+      "38057426",
+      "16580882",
+      "38766526",
+      "31127278",
+      "36996170",
+      "39300230",
+      "41547662",
+      "36592313",
+      "28152480",
+      "20804424",
+      "40763014",
+      "12165565",
+      "31991108",
+      "29598153",
+      "23339722",
+      "25506695",
+      "32532987",
+      "17924536",
+      "39388062",
+      "23390132",
+      "36711797",
+      "33774157",
+      "40186294",
+      "39515026",
+      "25186301",
+      "22029744",
+      "36418298",
+      "24533984",
+      "31543414",
+      "34509668",
+      "16385450",
+      "34698513",
+      "39541214",
+      "40301740",
+      "19848583",
+      "35902773",
+      "34620062",
+      "40518668",
+      "40720035",
+      "41708664",
+      "10931943",
+      "27111068",
+      "42165133",
+      "39179542",
+      "38408137",
+      "37434184",
+      "38714659",
+      "19758605",
+      "39147927",
+      "27456062",
+      "19010792",
+      "23630626",
+      "20890126",
+      "26657635",
+      "24617515",
+      "38650097",
+      "20538619",
+      "42276271",
+      "20884664",
+      "21654213",
+      "31211843",
+      "27595405",
+      "19228773",
+      "22172949",
+      "20515750",
+      "30582825",
+      "20705738",
+      "32538213",
+      "25557785",
+      "22108859",
+      "19953646",
+      "30667343",
+      "42196146",
+      "19535574",
+      "36702845",
+      "26758873",
+      "28460014",
+      "20161659",
+      "31693467",
+      "32128412",
+      "30297904",
+      "24814151",
+      "18794368",
+      "38695159",
+      "30912043",
+      "37434066",
+      "31811660",
+      "30171560",
+      "21980922",
+      "16226920",
+      "38671524",
+      "38923503",
+      "24616638",
+      "20826664",
+      "38306058",
+      "41507205",
+      "28790199",
+      "41486111",
+      "32872311"
+    ],
+    "review": [
+      "42477347",
+      "39388062",
+      "34620062",
+      "19758605",
+      "20515750",
+      "30582825",
+      "32538213",
+      "37434066"
+    ],
+    "pmc": [
+      "13500529"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-75912-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42477347/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

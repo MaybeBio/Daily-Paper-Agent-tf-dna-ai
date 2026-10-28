@@ -1,0 +1,116 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.19.638643",
+  "title": "C.La.P.: Enhancing transformer-based genomic signal modeling by integrating DNA sequences and chromatin accessibility data",
+  "doi": "10.1101/2025.02.19.638643",
+  "abstract": "Transformers have shown promise in chromatin modeling but have primarily relied solely on reference DNA sequences, limiting their utility across multiple biological contexts. In this work we enhance transformer models by integrating reference sequences with ATAC-seq, a chromatin accessibility assay. Our Chromatin LAnguage Processing (CLaP) model combines a convolutional tokenizer, a transformer encoder, and task-specific components to predict multiple genomic signals from a single input. After pre-training with masked nucleotide prediction, CLaP achieved per-token F1 scores exceeding 0.8 for three target ChIP-seq assays in fine-tuning. Attention mechanism analysis revealed that CLaP detects CTCF binding sites with nucleotide-level precision by learning the sequence preference of the CTCF factor and the characteristic ATAC-seq patterns that are caused by protein binding events. Additionally, CLaP predicts protein-DNA binding events not captured by the ChIP-seq ground truth. These findings highlight CLaP’s potential to expand chromatin modeling by incorporating molecular assay data alongside sequence information.",
+  "authors": [
+    "Nisantzis PF",
+    "Gonçalves C",
+    "de Polavieja G"
+  ],
+  "published_date": "2025-02-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.19.638643",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.19.638643.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR981766",
+    "raw_record": {
+      "id": "PPR981766",
+      "source": "PPR",
+      "doi": "10.1101/2025.02.19.638643",
+      "title": "C.La.P.: Enhancing transformer-based genomic signal modeling by integrating DNA sequences and chromatin accessibility data",
+      "authorString": "Nisantzis PF, Gonçalves C, de Polavieja G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nisantzis PF",
+            "lastName": "Nisantzis",
+            "firstName": "Panos Firbas",
+            "initials": "PF"
+          },
+          {
+            "fullName": "Gonçalves C",
+            "lastName": "Gonçalves",
+            "firstName": "Carolina",
+            "initials": "C"
+          },
+          {
+            "fullName": "de Polavieja G",
+            "lastName": "de Polavieja",
+            "firstName": "Gonzalo",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5359-3426"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5359-3426"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Transformers have shown promise in chromatin modeling but have primarily relied solely on reference DNA sequences, limiting their utility across multiple biological contexts. In this work we enhance transformer models by integrating reference sequences with ATAC-seq, a chromatin accessibility assay. Our Chromatin LAnguage Processing (CLaP) model combines a convolutional tokenizer, a transformer encoder, and task-specific components to predict multiple genomic signals from a single input. After pre-training with masked nucleotide prediction, CLaP achieved per-token F1 scores exceeding 0.8 for three target ChIP-seq assays in fine-tuning. Attention mechanism analysis revealed that CLaP detects CTCF binding sites with nucleotide-level precision by learning the sequence preference of the CTCF factor and the characteristic ATAC-seq patterns that are caused by protein binding events. Additionally, CLaP predicts protein-DNA binding events not captured by the ChIP-seq ground truth. These findings highlight CLaP’s potential to expand chromatin modeling by incorporating molecular assay data alongside sequence information.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.19.638643"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-02-25",
+      "firstPublicationDate": "2025-02-23",
+      "firstIndexDate": "2025-02-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

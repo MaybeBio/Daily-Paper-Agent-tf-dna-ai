@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.03.583063",
+  "title": "Prediction of Ca <sup>2+</sup> binding site in proteins with a fast and accurate method based on statistical mechanics and analysis of crystal structures",
+  "authors": "Abdul Basit; Devapriya Choudhury; Pradipta Bandyopadhyay",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-06",
+  "window": {
+    "start": "2024-03-04",
+    "end": "2024-03-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用3D-RISM统计力学方法预测蛋白中Ca2+结合位点，对象为金属离子-蛋白互作而非蛋白质-DNA互作，且无AI或MD模拟方法，与本课题TF-DNA结合研究无关。",
+  "abstract": "Predicting the precise locations of metal binding sites within metalloproteins is a crucial challenge in biophysics. A fast, accurate, and interpretable computational prediction method can complement the experimental studies. With this endeavor, In the current work, we have developed a method to predict the location of Ca 2+ ions in calcium-binding proteins using a physics-based method with an all-atom description of the proteins, which is substantially faster than the molecular dynamics simulation-based methods with accuracy as good as data-driven approaches. Our methodology uses the three-dimensional reference interaction site model (3D-RISM), a statistical mechanical theory, to calculate Ca 2+ ion density around protein structures, and the locations of the Ca 2+ ions are obtained from the density. We have taken previously used datasets to assess the efficacy of our method as compared to previous works. Our accuracy is found to be 88%, comparable with the FEATURE program, one of the well-known data-driven methods. Moreover, our method being physical, the reasons for failures can be ascertained in most cases. We have thoroughly examined the failed cases using different structural and crystallographic measures, such as B-factor, R-factor, electron density map, and geometry at the binding site. It has been found that X-ray structures have issues in many of the failed cases, such as geometric irregularities and dubious assignment of ion positions. Our algorithm, along with the checks for structural accuracy, is a major step in predicting calcium ion positions in metalloproteins.",
+  "abstract_zh": "预测金属蛋白中金属结合位点的精确位置是生物物理学中的一个关键挑战。一种快速、准确且可解释的计算预测方法可以补充实验研究。为此，在当前工作中，我们开发了一种方法，利用基于物理的方法并采用蛋白质的全原子描述来预测钙结合蛋白中Ca 2+离子的位置，该方法比基于分子动力学模拟的方法显著更快，且准确性与数据驱动方法相当。我们的方法使用三维参考相互作用位点模型（3D-RISM），这是一种统计力学理论，来计算蛋白质结构周围的Ca 2+离子密度，并从该密度中获得Ca 2+离子的位置。我们采用了先前使用的数据集来评估我们方法的有效性，并与之前的工作进行比较。我们发现我们的准确率为88%，与FEATURE程序（一种知名的数据驱动方法）相当。此外，由于我们的方法是基于物理的，在大多数情况下可以确定失败的原因。我们使用不同的结构和晶体学指标，如B因子、R因子、电子密度图和结合位点的几何结构，对失败案例进行了彻底检查。结果发现，在许多失败案例中，X射线结构存在问题，例如几何不规则性和离子位置分配的可疑性。我们的算法，结合结构准确性检查，是预测金属蛋白中钙离子位置的重要一步。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.03.583063",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.03.583063",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.03.583063/index.html"
+}

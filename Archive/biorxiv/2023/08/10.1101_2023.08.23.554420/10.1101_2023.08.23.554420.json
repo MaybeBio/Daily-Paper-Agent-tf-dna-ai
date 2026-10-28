@@ -1,0 +1,227 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.23.554420",
+  "title": "multiDGD: A versatile deep generative model for multi-omics data",
+  "doi": "10.1101/2023.08.23.554420",
+  "abstract": "Recent technological advancements in single-cell genomics have enabled joint profiling of gene expression and alternative modalities at unprecedented scale. Consequently, the complexity of multi-omics data sets is increasing massively. Existing models for multi-modal data are typically limited in functionality or scalability, making data integration and downstream analysis cumbersome. We present multiDGD, a scalable deep generative model providing a probabilistic framework to learn shared representations of transcriptome and chromatin accessibility. It shows outstanding performance on data reconstruction without feature selection. We demonstrate on several data sets from human and mouse that multiDGD learns well-clustered joint representations. We further find that probabilistic modelling of sample covatiates enables post-hoc data integration without the need for fine-tuning. Additionally, we show that multiDGD can detect statistical associations between genes and regulatory regions conditioned on the learned representations. multiDGD is available as an scverse-compatible package ( https://github.com/Center-for-Health-Data-Science/multiDGD ).",
+  "authors": [
+    "Schuster V",
+    "Dann E",
+    "Krogh A",
+    "Teichmann SA"
+  ],
+  "published_date": "2023-08-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554420",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554420.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR704752",
+    "raw_record": {
+      "id": "PPR704752",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR704752"
+        ]
+      },
+      "doi": "10.1101/2023.08.23.554420",
+      "title": "multiDGD: A versatile deep generative model for multi-omics data",
+      "authorString": "Schuster V, Dann E, Krogh A, Teichmann SA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Schuster V",
+            "lastName": "Schuster",
+            "firstName": "Viktoria",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6016-8337"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Health Data Science, University of Copenhagen, Blegdamsvej 3B, Copenhagen, 2200, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dann E",
+            "lastName": "Dann",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7400-7438"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SA, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krogh A",
+            "lastName": "Krogh",
+            "firstName": "Anders",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5147-6282"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Health Data Science, University of Copenhagen, Blegdamsvej 3B, Copenhagen, 2200, Denmark"
+                },
+                {
+                  "affiliation": "Department of Computer Science, University of Copenhagen, Universitetsparken 5, Copenhagen, 2100, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Teichmann SA",
+            "lastName": "Teichmann",
+            "firstName": "Sarah",
+            "initials": "SA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6294-6366"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SA, United Kingdom"
+                },
+                {
+                  "affiliation": "Theory of Condensed Matter Group,The Cavendish Laboratory, University of Cambridge J J Thomson Avenue, Cambridge, CB3 0HE, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5147-6282"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6016-8337"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6294-6366"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7400-7438"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Recent technological advancements in single-cell genomics have enabled joint profiling of gene expression and alternative modalities at unprecedented scale. Consequently, the complexity of multi-omics data sets is increasing massively. Existing models for multi-modal data are typically limited in functionality or scalability, making data integration and downstream analysis cumbersome. We present multiDGD, a scalable deep generative model providing a probabilistic framework to learn shared representations of transcriptome and chromatin accessibility. It shows outstanding performance on data reconstruction without feature selection. We demonstrate on several data sets from human and mouse that multiDGD learns well-clustered joint representations. We further find that probabilistic modelling of sample covatiates enables post-hoc data integration without the need for fine-tuning. Additionally, we show that multiDGD can detect statistical associations between genes and regulatory regions conditioned on the learned representations. multiDGD is available as an scverse-compatible package (  https://github.com/Center-for-Health-Data-Science/multiDGD ).",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/23/2023.08.23.554420.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.23.554420"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR704752"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR704752&type=FILE&fileName=EMS186609-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39567490",
+            "reference": "Nature communications. 2024 Nov;15(1):10031",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186609",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-23",
+      "firstIndexDate": "2023-08-29",
+      "fullTextReceivedDate": "2023-12-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

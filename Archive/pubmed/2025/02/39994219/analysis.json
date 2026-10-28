@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39994219",
+  "title": "Machine learning selection of basement membrane-associated genes and development of a predictive model for kidney fibrosis.",
+  "authors": "Yuan, Ziwei; Lv, Guangjia; Liu, Xinyan; Xiao, Yanyi; Tan, Yuanfang; Zhu, Youyou",
+  "journal": "Scientific reports",
+  "published_date": "2025-02-25",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用机器学习筛选基底膜相关基因并构建肾纤维化预测模型，虽涉及基因表达与机器学习，但核心是疾病诊断预测，无蛋白质-DNA互作体系、无结合建模或物理模拟方法，与本课题关系微弱。",
+  "abstract": "This study investigates the role of basement membrane-related genes in kidney fibrosis, a significant factor in the progression of chronic kidney disease that can lead to end-stage renal failure. The authors aim to develop a predictive model using machine learning techniques due to the limitations of existing diagnostic methods, which often lack sensitivity and specificity. Utilizing gene expression data from the GEO database, the researchers applied LASSO, Random Forest, and SVM-RFE methods to identify five pivotal genes: ARID4B, EOMES, KCNJ3, LIF, and STAT1. These genes were analyzed across training and validation datasets, resulting in the development of a Nomogram prediction model. Performance metrics, including the area under the ROC curve (AUC), calibration curves, and decision curve analysis, indicated excellent predictive capabilities with an AUC of 0.923. Experimental validation through qRT-PCR in clinical samples and TGF-beta-treated HK-2 cells corroborated the expression patterns identified in silico, showing upregulation of ARID4B, EOMES, LIF, and STAT1, and downregulation of KCNJ3. The findings emphasize the importance of basement membrane-related genes in kidney fibrosis and pave the way for enhanced early diagnosis and targeted therapeutic strategies.",
+  "abstract_zh": "本研究探讨了基底膜相关基因在肾纤维化中的作用，肾纤维化是慢性肾脏病进展的重要因素，可导致终末期肾衰竭。鉴于现有诊断方法在敏感性和特异性方面的局限性，作者旨在利用机器学习技术开发一种预测模型。利用GEO数据库中的基因表达数据，研究人员应用LASSO、随机森林和SVM-RFE方法识别出五个关键基因：ARID4B、EOMES、KCNJ3、LIF和STAT1。这些基因在训练和验证数据集中进行了分析，并据此开发了列线图预测模型。性能指标，包括ROC曲线下面积（AUC）、校准曲线和决策曲线分析，显示出优异的预测能力，AUC为0.923。通过临床样本和TGF-β处理的HK-2细胞中的qRT-PCR实验验证，证实了计算机模拟中识别的表达模式，显示ARID4B、EOMES、LIF和STAT1上调，而KCNJ3下调。研究结果强调了基底膜相关基因在肾纤维化中的重要性，并为增强早期诊断和靶向治疗策略铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39994219/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39994219/",
+  "paper_page_path": "papers/pubmed/39994219/index.html"
+}

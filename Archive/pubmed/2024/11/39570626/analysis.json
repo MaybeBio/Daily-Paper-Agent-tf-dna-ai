@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39570626",
+  "title": "OneSC: a computational platform for recapitulating cell state transitions.",
+  "authors": "Peng, Da; Cahan, Patrick",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2024-11-21",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发基于转录因子调控网络的随机微分方程平台模拟细胞状态转变，虽涉及TF网络但未聚焦TF-DNA结合互作或AI/物理模拟方法，仅间接相关。",
+  "abstract": "MOTIVATION: Computational modeling of cell state transitions has been a great interest of many in the field of developmental biology, cancer biology, and cell fate engineering because it enables performing perturbation experiments in silico more rapidly and cheaply than could be achieved in a lab. Recent advancements in single-cell RNA-sequencing (scRNA-seq) allow the capture of high-resolution snapshots of cell states as they transition along temporal trajectories. Using these high-throughput datasets, we can train computational models to generate in silico \"synthetic\" cells that faithfully mimic the temporal trajectories. RESULTS: Here we present OneSC, a platform that can simulate cell state transitions using systems of stochastic differential equations govern by a regulatory network of core transcription factors (TFs). Different from many current network inference methods, OneSC prioritizes on generating Boolean network that produces faithful cell state transitions and terminal cell states that mimic real biological systems. Applying OneSC to real data, we inferred a core TF network using a mouse myeloid progenitor scRNA-seq dataset and showed that the dynamical simulations of that network generate synthetic single-cell expression profiles that faithfully recapitulate the four myeloid differentiation trajectories going into differentiated cell states (erythrocytes, megakaryocytes, granulocytes, and monocytes). Finally, through the in silico perturbations of the mouse myeloid progenitor core network, we showed that OneSC can accurately predict cell fate decision biases of TF perturbations that closely match with previous experimental observations. AVAILABILITY AND IMPLEMENTATION: OneSC is implemented as a Python package on GitHub (https://github.com/CahanLab/oneSC) and on Zenodo (https://zenodo.org/records/14052421).",
+  "abstract_zh": "动机：细胞状态转变的计算建模一直是发育生物学、癌症生物学和细胞命运工程领域许多研究者关注的焦点，因为它能够在计算机中（in silico）以比实验室更快速、更经济的方式进行扰动实验。单细胞RNA测序（scRNA-seq）的最新进展使得在细胞沿时间轨迹转变时捕获高分辨率的细胞状态快照成为可能。利用这些高通量数据集，我们可以训练计算模型来生成忠实模拟时间轨迹的计算机“合成”细胞。结果：在此，我们提出OneSC，一个利用由核心转录因子（TFs）调控网络支配的随机微分方程系统来模拟细胞状态转变的平台。与许多当前的网络推断方法不同，OneSC优先于生成布尔网络，该网络能够产生忠实的细胞状态转变和模拟真实生物系统的终末细胞状态。将OneSC应用于真实数据，我们使用小鼠髓系祖细胞scRNA-seq数据集推断了一个核心TF网络，并表明该网络的动态模拟生成了合成单细胞表达谱，这些表达谱忠实地重现了进入分化细胞状态（红细胞、巨核细胞、粒细胞和单核细胞）的四条髓系分化轨迹。最后，通过小鼠髓系祖细胞核心网络的计算机扰动，我们表明OneSC能够准确预测TF扰动的细胞命运决策偏差，这些预测与先前的实验观察结果高度吻合。可用性和实现：OneSC作为Python包在GitHub（https://github.com/CahanLab/oneSC）和Zenodo（https://zenodo.org/records/14052421）上实现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39570626/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39570626/",
+  "paper_page_path": "papers/pubmed/39570626/index.html"
+}

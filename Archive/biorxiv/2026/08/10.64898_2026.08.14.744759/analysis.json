@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.14.744759",
+  "title": "LEN-Seek: Fast and scalable ligand binding-site similarity search in the latent space of an SE(3)-invariant graph VAE",
+  "authors": "Kyunghwan Yeo; Dongwoo Kim; Jaemin Sim; Juyong Lee",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-15",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用SE(3)不变图VAE编码配体结合位点结构进行相似性搜索，虽非TF-DNA体系，但蛋白-配体结合位点建模与图神经网络方法可迁移至TF-DNA互作研究。",
+  "abstract": "Motivation Ligand binding-site similarity search is a crucial step in drug discovery that reduces the conformational search space for docking and other downstream tasks by comparing a target protein against experimentally identified binding sites. Existing methods rely on either direct structural alignment or lossy compression of structural information, producing a trade-off between scalability and precision. Results We propose LEN-Seek, a ligand binding-site search method based on a graph neural network (GNN)-driven variational autoencoder (VAE) that encodes the 3D structural and physicochemical context of a binding site into a probabilistic latent space, enabling similarity search within a low-dimensional vector space. A binding site is modeled as a graph of amino acid residues, with node features adopted from the protein language model, Ankh, and edges encoded as SE(3)-invariant (roto-translational invariant) geometric relationships, thereby avoiding expensive data augmentation or SE(3)-equivariant models. Compared to ProBiS, the purely geometric graph-clique based method, LEN-Seek successfully retrieves a substantial portion of similar binding sites with a roughly 3,400-fold lower per-comparison cost, demonstrating its potential as a scalable approach to template-based ligand binding-site search in large-scale protein structure databases. Supplementary information Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机 配体结合位点相似性搜索是药物发现中的关键步骤，通过将目标蛋白质与实验鉴定的结合位点进行比较，减少对接及其他下游任务的构象搜索空间。现有方法依赖于直接结构比对或结构信息的损失性压缩，在可扩展性和精度之间产生权衡。结果 我们提出LEN-Seek，一种基于图神经网络（GNN）驱动的变分自编码器（VAE）的配体结合位点搜索方法，该方法将结合位点的三维结构和物理化学上下文编码到概率潜空间中，从而在低维向量空间内实现相似性搜索。结合位点被建模为氨基酸残基图，节点特征采用蛋白质语言模型Ankh，边编码为SE(3)-不变（旋转平移不变）几何关系，从而避免昂贵的数据增强或SE(3)-等变模型。与基于纯几何图团簇方法的ProBiS相比，LEN-Seek成功检索到大量相似结合位点，且每次比较成本约降低3,400倍，展示了其作为大规模蛋白质结构数据库中基于模板的配体结合位点搜索的可扩展方法的潜力。补充信息 补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744759",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744759",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.14.744759/index.html"
+}

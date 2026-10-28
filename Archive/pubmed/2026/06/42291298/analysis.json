@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42291298",
+  "title": "Machine learning identifies PPARG as a diagnostic biomarker for sepsis linked to CD14/NF-kappaB signaling: integrated transcriptomics and experimental validation.",
+  "authors": "Ji, Yingying; Xiao, Xin; Li, Yanou; Meng, Hua; Huang, Fang; Wang, Jun",
+  "journal": "Frontiers in cellular and infection microbiology",
+  "published_date": "2026-06-15",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用机器学习筛选脓毒症诊断生物标志物PPARG并验证其与CD14/NF-kB信号关联，但核心是疾病诊断与免疫代谢，非蛋白质-DNA互作或TF-DNA结合建模，仅涉及转录因子NF-kB信号通路背景，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Sepsis is a life-threatening organ dysfunction caused by a dysregulated host response to infection. Early diagnosis remains challenging due to substantial clinical and biological heterogeneity. CD14 is a central pattern-recognition receptor in innate immune activation, but the downstream network linking CD14 to immunometabolic regulation remains incompletely defined. We aimed to identify CD14-associated blood-based diagnostic biomarkers for sepsis and explore potential regulatory mechanisms. METHODS: Whole-blood transcriptomic datasets were retrieved from the Gene Expression Omnibus. GSE236713 was the discovery cohort and GSE65682 the external validation cohort. Candidate genes were identified through overlap of differentially expressed genes between CD14-high and CD14-low samples and sepsis-related WGCNA modules. Hub genes were prioritized by protein-protein interaction analysis, and feature genes were identified by LASSO and random forest. Multiple machine learning algorithms were compared, and an artificial neural network (ANN) classifier was established. Clinical associations, immune cell composition (CIBERSORT), and pathway activity (GSEA) were assessed. Mechanistic validation was performed in LPS-stimulated RAW264.7 macrophages using CD14 knockout/overexpression and SN50-mediated inhibition of NF-kappaB nuclear translocation. RESULTS: Five feature genes (MMP9, PPARG, C1QC, MS4A4A, and ARG1) were identified. Among seven algorithms, the ANN achieved the best performance (internal AUC = 0.974, external AUC = 0.953). PPARG showed the strongest single-gene diagnostic ability (AUC = 0.994) and correlated with SOFA score (r = 0.50, P = 1.5 x 10(-)(2)(9)), and was prioritized as a diagnostic biomarker. In a Cox model, PPARG was associated with ICU short-term outcome risk (HR = 1.64, 95% CI 1.34-2.01, P = 1.3 x 10(-6)). GSEA indicated enrichment of NF-kappaB-related pathways in samples with low PPARG expression. CIBERSORT suggested the strongest correlation between PPARG and monocyte proportion (r = 0.328, P = 1.06 x 10(-6)). In vitro, LPS-induced PPARG downregulation was CD14-dependent, and SN50 partially reversed PPARG suppression and reduced TNF-alpha secretion in CD14-overexpressing cells. CONCLUSION: By integrating machine learning with experimental validation, this study prioritized PPARG as a diagnostic biomarker for sepsis and provided supportive evidence for its association with CD14/NF-kappaB signaling. These findings offer a basis for developing host-response-based diagnostic signatures and further investigation of PPARG-related immunometabolic regulation in sepsis.",
+  "abstract_zh": "背景：脓毒症是由宿主对感染的反应失调引起的危及生命的器官功能障碍。由于临床和生物学异质性显著，早期诊断仍具挑战性。CD14是先天免疫激活中的核心模式识别受体，但连接CD14与免疫代谢调控的下游网络尚未完全阐明。我们旨在识别与CD14相关的脓毒症血液诊断生物标志物，并探索潜在调控机制。方法：从Gene Expression Omnibus获取全血转录组数据集。GSE236713为发现队列，GSE65682为外部验证队列。通过CD14高表达与低表达样本间差异表达基因与脓毒症相关WGCNA模块的重叠识别候选基因。通过蛋白质-蛋白质相互作用分析优先排序核心基因，并通过LASSO和随机森林识别特征基因。比较多种机器学习算法，并建立人工神经网络（artificial neural network, ANN）分类器。评估临床关联、免疫细胞组成（CIBERSORT）和通路活性（GSEA）。在LPS刺激的RAW264.7巨噬细胞中，使用CD14敲除/过表达和SN50介导的NF-kappaB核转位抑制进行机制验证。结果：识别出五个特征基因（MMP9、PPARG、C1QC、MS4A4A和ARG1）。在七种算法中，ANN表现最佳（内部AUC = 0.974，外部AUC = 0.953）。PPARG显示出最强的单基因诊断能力（AUC = 0.994），并与SOFA评分相关（r = 0.50，P = 1.5 x 10(-)(2)(9)），被优先作为诊断生物标志物。在Cox模型中，PPARG与ICU短期结局风险相关（HR = 1.64，95% CI 1.34-2.01，P = 1.3 x 10(-6)）。GSEA表明PPARG低表达样本中NF-kappaB相关通路富集。CIBERSORT提示PPARG与单核细胞比例相关性最强（r = 0.328，P = 1.06 x 10(-6)）。体外实验中，LPS诱导的PPARG下调依赖CD14，SN50部分逆转了CD14过表达细胞中PPARG的抑制并减少TNF-alpha分泌。结论：通过整合机器学习与实验验证，本研究将PPARG优先作为脓毒症诊断生物标志物，并为其与CD14/NF-kappaB信号通路的关联提供支持性证据。这些发现为开发基于宿主反应的诊断特征及进一步研究脓毒症中PPARG相关免疫代谢调控提供了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42291298/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42291298/",
+  "paper_page_path": "papers/pubmed/42291298/index.html"
+}

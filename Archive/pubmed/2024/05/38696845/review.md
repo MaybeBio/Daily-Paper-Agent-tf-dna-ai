@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of FTY720 and COH29 as novel nonintercalative TOP1 catalytic inhibitors through experimental screening, supported by molecular docking, molecular dynamics simulations, alanine scanning, interaction entropy, bioinformatics analysis, and cellular assays in MCF-7 cells, with reduced DNA damage compared to TOP1 poisons.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, compound purity and source information, cell viability data, DNA damage quantification, and bioinformatics methodology
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding two repurposed drugs as TOP1 catalytic inhibitors. However, the evidence base available for review is limited to the abstract, which precludes rigorous evaluation of the experimental design, data quality, and statistical robustness. The claims are broad and several key mechanistic assertions lack sufficient detail to assess their validity. The work may be of interest to the drug discovery and cancer biology communities, but the current evidence does not establish the case as presented.
+- **Who would be interested in the results, and why** Researchers in anticancer drug discovery, particularly those focused on topoisomerase inhibitors and drug repurposing, would find these results relevant. The potential reduced DNA damage profile compared to TOP1 poisons could interest investigators studying chemotherapy side effects. Computational chemists working on molecular docking and dynamics of enzyme-inhibitor systems may also find the methodological combination appealing.
+- **Major strengths** The study combines experimental screening with computational approaches, which is a reasonable strategy for identifying novel inhibitors. The focus on catalytic inhibitors rather than poisons addresses a recognized limitation in current TOP1-targeted therapy. The inclusion of bioinformatics analysis for potential clinical applications in breast cancer adds translational relevance. The investigation of combinatory effects with TOP1 poisons is a thoughtful extension.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Experimental evidence  
+  - **Claim pointer** The abstract claims that FTY720 and COH29 are "nonintercalative TOP1 catalytic inhibitors that did not induce the formation of DNA-TOP1 covalent complexes."  
+  - **Evidence pointer** Abstract, Biological experiments section; location not provided  
+  - **Concern** The abstract states that biological experiments verified these compounds as catalytic inhibitors, but no experimental details are provided. The distinction between catalytic inhibition and poisoning relies on specific assays, such as relaxation assays, DNA cleavage assays, and band-shift assays. Without these details, the mechanistic claim cannot be evaluated.  
+  - **Why it matters** The central novelty of the work rests on the catalytic inhibition mechanism. If the assays were not appropriately designed or controlled, the conclusion could be incorrect, which would undermine the entire premise of the study.  
+  - **Resolution test** Provide full experimental methods and representative data for the assays used to establish nonintercalative binding and absence of covalent complex formation, including positive and negative controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Computational validation  
+  - **Claim pointer** The abstract claims that molecular dynamics simulations revealed that FTY720 and COH29 "could affect the catalytic domain of TOP1, thus resulting in altered DNA-binding cavity size."  
+  - **Evidence pointer** Abstract, Molecular dynamics simulations section; location not provided  
+  - **Concern** The abstract does not specify simulation parameters, force fields, simulation timescales, or convergence criteria. The claim that the DNA-binding cavity size is altered is presented without quantitative data or statistical significance. It is unclear whether the observed effects are within thermal fluctuations or represent meaningful conformational changes.  
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup. Without proper validation, the claim of altered cavity size could be an artifact of insufficient sampling or inappropriate parameters, which would weaken the structural rationale for inhibition.  
+  - **Resolution test** Provide simulation details, convergence analysis, and quantitative comparison of cavity sizes with error estimates and statistical testing.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Hotspot identification  
+  - **Claim pointer** The abstract claims that alanine scanning and interaction entropy identified Arg536 as a hotspot residue.  
+  - **Evidence pointer** Abstract, Alanine scanning and interaction entropy section; location not provided  
+  - **Concern** The abstract does not report the magnitude of the effect on binding free energy when Arg536 is mutated, nor does it specify the computational method used for alanine scanning. The interaction entropy method is not described, and it is unclear whether the result is statistically robust.  
+  - **Why it matters** Identifying a hotspot residue is a specific and testable claim. If the computational approach is not adequately described or the effect size is small, the claim may not be reproducible or biologically meaningful.  
+  - **Resolution test** Report the change in binding free energy upon Arg536 mutation with associated errors, and describe the alanine scanning protocol and interaction entropy calculation in detail.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Cellular activity and specificity  
+  - **Claim pointer** The abstract claims that biological experiments verified antitumor activities using MCF-7 breast cancer cells and that FTY720 and COH29 cause less DNA damage compared with TOP1 poisons.  
+  - **Evidence pointer** Abstract, Biological experiments section; location not provided  
+  - **Concern** No quantitative data are provided for cell viability, IC50 values, or DNA damage measurements. The abstract does not specify the concentrations used, the duration of treatment, or the assays employed for DNA damage assessment. The comparison with TOP1 poisons is mentioned but not substantiated with data.  
+  - **Why it matters** The therapeutic potential of these compounds depends on their efficacy and safety profile. Without quantitative cellular data, the claims of antitumor activity and reduced DNA damage cannot be assessed, and the translational relevance remains speculative.  
+  - **Resolution test** Provide dose-response curves, IC50 values, statistical comparisons with TOP1 poisons, and details of the DNA damage assays including appropriate controls.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Bioinformatics prediction  
+  - **Claim pointer** The abstract claims that bioinformatics analysis predicted that FTY720 and COH29 could be effective in treating malignant breast tumors.  
+  - **Evidence pointer** Abstract, Bioinformatics analysis section; location not provided  
+  - **Concern** The bioinformatics approach is not described. It is unclear what data sources, algorithms, or statistical thresholds were used to make this prediction. The term "malignant breast tumors" is broad and not well defined.  
+  - **Why it matters** Predictive bioinformatics claims require transparency in methodology to be evaluated. Without this, the claim is not reproducible and may overstate the clinical relevance of the findings.  
+  - **Resolution test** Describe the bioinformatics pipeline, data sources, and statistical criteria used for the prediction, and provide the specific output supporting the claim.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Compound classification  
+  - **Evidence pointer** Abstract, first sentence; location not provided  
+  - **Issue** The abstract describes FTY720 as a "sphingosine 1-phosphate antagonist" and COH29 as a "ribonucleotide reductase inhibitor," but does not clarify whether these known activities are relevant to the proposed TOP1 inhibition mechanism.  
+  - **Required correction** Clarify whether the known primary targets of these drugs are independent of their proposed TOP1 inhibitory activity, and discuss potential off-target effects.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Novel" claim  
+  - **Evidence pointer** Abstract, title and first sentence; location not provided  
+  - **Issue** The title claims these are "novel" TOP1 catalytic inhibitors, but the abstract does not specify whether this is the first report of TOP1 inhibition for these compounds or whether prior studies have suggested such activity.  
+  - **Required correction** Provide a brief statement on prior knowledge regarding these compounds and TOP1 to justify the novelty claim.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Combinatory effects  
+  - **Evidence pointer** Abstract, Combinatory effects section; location not provided  
+  - **Issue** The abstract states that combinatory effects with TOP1 poisons were investigated, but no results are reported.  
+  - **Required correction** Summarize the outcome of the combination studies, including whether effects were synergistic, additive, or antagonistic.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** All quantitative claims  
+  - **Evidence pointer** Abstract, throughout; location not provided  
+  - **Issue** No statistical measures, sample sizes, or error estimates are reported for any experimental or computational result.  
+  - **Required correction** Include appropriate statistical details for all quantitative claims in the abstract or indicate where they are presented in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that FTY720 and COH29 are nonintercalative TOP1 catalytic inhibitors is unsupported in the abstract due to lack of experimental detail.
+- The claim that molecular dynamics simulations revealed altered DNA-binding cavity size is unsupported without simulation parameters and quantitative data.
+- The identification of Arg536 as a hotspot residue is unsupported without reporting the effect size and computational methodology.
+- The claim of antitumor activity in MCF-7 cells is unsupported without quantitative cell viability data.
+- The claim of reduced DNA damage compared to TOP1 poisons is unsupported without DNA damage assay data.
+- The bioinformatics prediction of efficacy in malignant breast tumors is unsupported without methodological description.
+- The combinatory effects with TOP1 poisons are mentioned but not reported, making this claim unevaluable.

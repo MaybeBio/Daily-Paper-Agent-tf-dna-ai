@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no figures, tables, methods, or results sections were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to compare Cu2+ and Mg2+ binding to the Dickerson DNA dodecamer, reporting that Cu2+ has a labile first hydration shell enabling both direct and indirect binding, that Cu2+ binds more strongly overall, and that both ions show the same qualitative binding order (phosphate > major groove > minor groove). The study is framed as providing atomic-level insight into Cu2+ binding relevant to ROS-mediated DNA damage.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, force field details, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation setup details, force field parameters, convergence criteria, and any quantitative binding affinity or occupancy data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful comparative MD study of Cu2+ and Mg2+ binding to a canonical DNA duplex. The central claims, however, are supported only by qualitative statements with no quantitative evidence visible in the supplied material. The novelty relative to existing literature on metal ion DNA interactions is not clearly established, and the link to ROS-mediated DNA damage is asserted rather than demonstrated. The work may be of interest to the computational biophysics community, but the current evidence base is insufficient to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists studying metal ion nucleic acid interactions, particularly those interested in divalent cation binding specificity and hydration effects. Researchers investigating mechanisms of metal induced DNA damage, including oxidative stress pathways involving copper, may also find the comparative binding data useful as a foundation for further mechanistic studies.
+- **Major strengths** The study addresses a biologically relevant question, namely how Cu2+ binds to different DNA sites, which is underexplored at the atomic level. The direct comparison with Mg2+ is a sensible approach given their similar ionic radii. The observation that Cu2+ exhibits both direct and indirect binding due to a labile hydration shell is a mechanistically interesting finding that could have implications for understanding metal mediated DNA interactions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that Cu2+ shows both direct and indirect binding with dsDNA, and that its first hydration shell is labile.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The claim of a labile first hydration shell and the resulting dual binding modes is presented without any quantitative support. No data on water residence times, coordination numbers, or binding site occupancies are provided. The reliability of such a claim depends heavily on the force field model used for Cu2+, which is not described.  
+  - **Why it matters** If the force field does not accurately represent Cu2+ coordination chemistry, the observed lability and binding modes could be artifacts. Without this information, the central mechanistic conclusion cannot be evaluated.  
+  - **Resolution test** Provide water residence time distributions, coordination number trajectories, and a validation of the Cu2+ force field against experimental or ab initio reference data.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that Cu2+ binding propensity is relatively stronger than Mg2+ and that the binding order is phosphates > major groove > minor groove for both ions.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative binding affinities, free energy estimates, or occupancy data are presented to support the relative binding strength or the ordering of binding sites. The qualitative similarity in binding order is stated but not substantiated with numerical comparisons.  
+  - **Why it matters** The comparative conclusion is a core finding of the study. Without quantitative measures, such as binding free energies or site specific residence times, the claim remains unsupported and cannot be distinguished from anecdotal observation.  
+  - **Resolution test** Report quantitative binding metrics, such as potential of mean force, occupancy fractions, or residence times, with associated uncertainties, for each ion at each binding site.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The study is framed as providing insight into Cu2+ led ROS-mediated DNA damage.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The connection between the observed binding modes and ROS-mediated damage is speculative. The abstract does not describe any mechanistic link, such as how binding site preferences might influence redox activity or radical generation.  
+  - **Why it matters** The stated biological relevance is a key motivation for the work. If the link is not developed, the significance of the findings for understanding DNA damage is overstated.  
+  - **Resolution test** Add a discussion or simulation based analysis connecting binding site occupancy to potential ROS generation pathways, or temper the claim to reflect that the study provides structural context only.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "Cu 2+ ions led DNA damage by reactive oxygen species (ROS) is widely known biological phenomena" is grammatically awkward and may confuse readers.  
+  - **Required correction** Revise to a clearer formulation, for example "It is widely known that Cu2+ ions can cause DNA damage via reactive oxygen species (ROS)."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Simulation methodology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is given on the simulation length, number of replicates, or equilibration protocol, which are essential for assessing convergence of ion binding behavior.  
+  - **Required correction** Include simulation time, replicate count, and equilibration details in the methods summary.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Originality  
+  - **Affected element** Literature context  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not cite or compare with prior computational studies of Cu2+ DNA interactions, making it difficult to judge the novelty of the findings.  
+  - **Required correction** Add a brief statement in the abstract or introduction referencing prior work and specifying the new contribution.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic and comparative claims are not quantitatively supported by the visible evidence. The absence of force field details and validation for Cu2+ is a critical gap that prevents assessment of simulation reliability.
+- **Assessment against Nature-style criteria**  
+  - Originality: The comparative Cu2+/Mg2+ binding study is a reasonable extension of existing work, but the abstract does not demonstrate a conceptual advance beyond prior metal ion DNA simulation studies.  
+  - Scientific importance: The topic is relevant, but the link to ROS-mediated damage is not developed, limiting the broader significance.  
+  - Interdisciplinary readership: The work may appeal to biophysics and bioinorganic chemistry audiences, but the abstract is too specialized and lacks context for a general readership.  
+  - Technical soundness: Not assessable from the abstract alone; the lack of methodological detail and quantitative results is a major deficiency.  
+  - Readability for nonspecialists: The abstract is accessible in structure but contains grammatical issues and assumes familiarity with MD simulation concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting qualitative observations, but the absence of quantitative data and methodological details prevents a rigorous evaluation. The authors should provide the full manuscript with detailed methods and results to support the claims.
+
+## Risk / unsupported claims
+- The claim that Cu2+ has a labile first hydration shell is unsupported without water dynamics data.
+- The claim that Cu2+ binds more strongly than Mg2+ is unsupported without quantitative affinity measures.
+- The claim that both ions show the same binding order is unsupported without site specific occupancy data.
+- The relevance to ROS-mediated DNA damage is asserted but not demonstrated or mechanistically linked.

@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion) as provided
+- **Assessment boundary** Scientific claims, experimental logic, methodological adequacy, and interpretation based solely on the supplied text. Figures and supplementary materials are referenced but not directly visible.
+- **Shared manuscript claim summary** The authors report identification of VchI, a protein from Vibrio cholerae containing a winged helix (wH) domain homologous to that of DpnI, which specifically recognizes the 6mA-modified DNA motif G6mAG. They demonstrate binding specificity through EMSA, identify key residues involved in recognition, and note the absence of detectable cleavage activity despite the presence of a predicted HNH endonuclease domain.
+- **Visible evidence base** Text descriptions of EMSA results, mutagenesis experiments, sequence alignments, AlphaFold structural predictions, and cleavage assays. Figures referenced (Figures 1-4, Supplementary Figure S1) are not directly inspectable.
+- **Missing materials affecting confidence** Actual figures and supplementary data, raw EMSA gel images, quantitative binding data, AlphaFold model coordinates and confidence metrics, detailed sequence alignment output, and negative control data for cleavage assays.
+
+## Reviewer
+- **Overall assessment** The manuscript reports a potentially novel 6mA-dependent DNA-binding protein with a recognition specificity distinct from previously characterized enzymes. The core claim that VchI recognizes G6mAG is supported by the described mutagenesis and EMSA experiments, though the evidence base is limited by the absence of visible figures and quantitative data. The finding is of moderate interest to the epigenetic and prokaryotic biology communities, but the mechanistic insight is largely inferential and the functional significance of VchI in vivo remains unexplored. The manuscript is clearly written and logically structured, but several technical details and interpretive gaps need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying DNA modification-dependent protein-DNA interactions, prokaryotic epigenetics, restriction-modification system evolution, and developers of epigenetic tools. The identification of a new 6mA recognition motif expands the known repertoire of modification-dependent binding proteins and may inform engineering efforts for targeted 6mA detection.
+- **Major strengths** The study addresses a genuine gap in the field, namely the limited number of characterized 6mA-dependent binding proteins beyond the G6mATC motif. The experimental design is logical, progressing from initial binding observations to motif identification through systematic mutagenesis. The inclusion of a minimal motif validation experiment (59-bp substrate) strengthens the sufficiency claim. The comparative analysis with DpnI and HHPV4I provides a plausible structural rationale for specificity differences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for core specificity claim
+  - **Claim pointer** The manuscript claims that VchI specifically recognizes the G6mAG motif, with the GCGAG sequence identified as a recognition element and G6mAG as the minimal motif.
+  - **Evidence pointer** Results section, Figures 2 and 3
+  - **Concern** The identification of the recognition motif relies on a subtractive analysis of seven overlapping 60-bp fragments, but the text does not provide the complete sequences of these fragments or a clear alignment showing how the "GCGAG" sequences were uniquely associated with binding-positive fragments. The mutagenesis data are described qualitatively ("minimal impact", "complete loss") without quantitative binding measurements or representative gel images. The single experiment with a 59-bp substrate containing only G6mAG is presented as conclusive, but no titration or affinity measurement is reported.
+  - **Why it matters** The central claim of the manuscript is the novel recognition specificity. Without quantitative binding data and clear visualization of the EMSA results, the specificity cannot be rigorously evaluated. The possibility of non-specific or low-affinity binding cannot be excluded from the current description.
+  - **Resolution test** Provide representative EMSA gels for all key experiments, quantitative binding curves or at least apparent Kd values for VchI binding to methylated versus unmethylated substrates, and a complete sequence alignment of the 60-bp fragments showing the motif assignment logic.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional characterization and biological relevance
+  - **Claim pointer** The manuscript states that VchI displays no detectable DNA cleavage activity across various conditions and hypothesizes that it functions as a DNA-binding protein involved in epigenetic regulation.
+  - **Evidence pointer** Discussion section, Supplementary Figure S1
+  - **Concern** The absence of cleavage activity is a key negative result that underpins the classification of VchI as a binding protein rather than a restriction enzyme. However, the conditions tested are only briefly summarized, and the supplementary figure is not visible. No positive control for cleavage activity is described, and the possibility that the HNH domain is inactive due to expression or folding issues is not addressed. Furthermore, no in vivo or functional data are provided to support the hypothesized role in epigenetic regulation.
+  - **Why it matters** The functional classification of VchI is central to the manuscript's framing. If the cleavage assays lack appropriate controls or if the HNH domain is simply non-functional in the recombinant context, the conclusion that VchI is a bona fide binding protein is weakened. The speculative role in epigenetic regulation is not supported by any direct evidence.
+  - **Resolution test** Describe the full matrix of cleavage conditions tested, include positive controls with a known active nuclease, show the supplementary figure, and either provide in vivo data (e.g., knockout or overexpression phenotypes) or temper the functional claims accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation and residue function
+  - **Claim pointer** The manuscript claims that key residues (V42 and R45 in VchI) differ from those in DpnI and HHPV4I and that mutations at these residues abolish binding, implicating them in G6mAG recognition.
+  - **Evidence pointer** Results section, Figure 4
+  - **Concern** The structural interpretation relies on AlphaFold predictions, which are not shown or validated. The mutagenesis data are described only qualitatively. The claim that these residues "may contribute to the discrepancy in recognition specificities" is speculative, as no structural or biochemical evidence directly links these residues to base-specific contacts with the G6mAG motif versus G6mATC.
+  - **Why it matters** The mechanistic insight into how the wH domain achieves different specificities is a stated advance of the manuscript. Without structural validation or more detailed biochemical characterization (e.g., binding to substrates with single-base variations at each position of the motif), the role of these residues remains correlative.
+  - **Resolution test** Show the AlphaFold model with the relevant residues highlighted, provide quantitative binding data for the mutants, and ideally test binding to a panel of motifs with systematic base substitutions to map the specificity determinants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Protein expression and purification
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The text uses "Vch?" in two places instead of "VchI", which appears to be a typographical error.
+  - **Required correction** Replace "Vch?" with "VchI".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** EMSA quantification
+  - **Evidence pointer** Results section, Figures 2 and 3
+  - **Issue** Binding is described as "evident", "significant", "weak but detectable", and "robust" without any quantitative metric.
+  - **Required correction** Provide densitometry or fraction-bound values for key comparisons, or at minimum state the number of independent replicates and the consistency of results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** ssDNA binding results
+  - **Evidence pointer** Results section, Figure 3F
+  - **Issue** The observation that VchI binds ss-60nt-2 but not ss-59nt-G6mAG is attributed to potential secondary structure in the former, but this is not experimentally tested.
+  - **Required correction** Either test the secondary structure hypothesis (e.g., by using a sequence variant predicted to disrupt structure) or present the result without the speculative explanation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript states that only a few 6mA-dependent restriction enzymes are characterized and that most recognize G6mATC, but does not discuss whether any 6mA-dependent binding proteins without cleavage activity have been previously reported.
+  - **Required correction** Add a brief discussion of known 6mA-binding proteins (e.g., those involved in replication or repair) to contextualize the novelty of VchI as a binding protein.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The core specificity claim requires quantitative binding data and visible EMSA results. The functional classification as a binding protein requires better-controlled cleavage assays and ideally some in vivo or functional evidence. R1-M3 is important but not strictly blocking if the specificity claim is solidified.
+- **Assessment against Nature-style criteria** Originality: The identification of a 6mA-dependent binding protein recognizing G6mAG is novel, as the known enzymes in this class predominantly recognize G6mATC. This represents a meaningful expansion of the known specificity space. Scientific importance: The finding is of moderate importance. It contributes to understanding of prokaryotic DNA modification diversity and wH domain recognition mechanisms, but the in vivo function and broader biological significance are not established. Interdisciplinary readership: The work is primarily of interest to prokaryotic epigenetics and DNA repair/restriction communities. The potential tool application for epigenetic research broadens appeal somewhat, but the demonstrated utility is limited. Technical soundness: The experimental logic is sound, but the evidence as presented is incomplete. The lack of quantitative binding data, visible figures, and rigorous controls for the cleavage assays prevents full assessment. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, though some familiarity with DNA methylation and restriction enzyme concepts is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially novel and interesting, but the evidence base as presented is insufficient to fully establish the specificity claim and the functional classification. Provision of quantitative binding data, visible EMSA gels, better-controlled cleavage assays, and tempering of speculative claims would substantially strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that VchI specifically recognizes G6mAG is supported only by qualitative EMSA descriptions; quantitative binding data are not provided.
+- The claim that VchI has no detectable cleavage activity is based on an unseen supplementary figure and lacks described positive controls.
+- The hypothesized role of VchI in epigenetic regulation is speculative and unsupported by any direct evidence.
+- The structural interpretation of residue function (V42, R45) relies on unvalidated AlphaFold predictions and qualitative mutagenesis data.
+- The statement that the wH domain homology analysis "found" VchI implies a systematic search, but the methodology for this homology analysis is not described.
+- The claim that the 59-bp substrate provides "conclusive evidence" for the sufficiency of G6mAG is overstated given the absence of quantitative binding data.

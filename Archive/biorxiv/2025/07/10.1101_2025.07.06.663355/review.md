@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, supplementary information description)
+- **Assessment boundary** Scientific claims, methodology, data interpretation, and conclusions as presented in the provided text. No line numbers were provided; references to sections and figures are based on the manuscript structure.
+- **Shared manuscript claim summary** The manuscript reports that a longer dinuclear metallo-cylinder ([Ni2(L2)3]4+) binds to both DNA three-way and four-way junctions with selectivity over double-stranded DNA, and that its extended π-surface enables a distinct binding mode to four-way junctions, as supported by gel electrophoresis and molecular dynamics simulations.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion sections (Synthesis and Characterisation, Three-Way Junction Binding, Four-Way Junction Binding, Double Stranded DNA Binding), Conclusion, Supplementary Information description, and Data Availability statement. Figures referenced: Fig. 1, Fig. 2, Fig. 3, Fig. 4, Fig. 5, Fig. 6, and Supplementary Figures S1-S20.
+- **Missing materials affecting confidence** Full experimental methods section, raw gel images, MD simulation parameters and convergence criteria, DFT calculation details, UV-VIS spectra, ESI-MS spectra, NMR spectra, and the crystal structure coordinates. The manuscript states that supplementary material contains these, but the content is not provided in the submitted text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic study of a longer metallo-cylinder binding to DNA junctions, combining experimental biophysical assays with computational simulations. The work is a logical extension of prior studies on shorter metallo-cylinders and addresses a relevant question in DNA-targeting supramolecular chemistry. The claim that the extended π-surface enables 4WJ binding is plausible and supported by the presented PAGE and MD data, though the evidence base is incomplete in several areas, particularly regarding quantitative binding affinities, compound stability, and the statistical robustness of the MD findings. The manuscript is clearly written and will interest researchers in DNA nanotechnology, supramolecular chemistry, and chemical biology.
+- **Who would be interested in the results, and why** Researchers in supramolecular chemistry, DNA structure and recognition, and nucleic acid-targeted therapeutics. The work demonstrates a design principle (length modulation) for tuning DNA junction selectivity, which is relevant for developing new DNA-binding agents. The combined experimental-computational approach will also appeal to those studying DNA-ligand interactions at the molecular level.
+- **Major strengths** (1) The study addresses a clear and important question: how does extending the length of a metallo-cylinder affect its binding to different DNA junction topologies? (2) The combination of PAGE binding assays, competition experiments, CD/LD spectroscopy, and MD simulations provides a multi-faceted view of the binding behaviour. (3) The manuscript honestly discusses limitations, such as compound instability and the inability of MD to capture junction reopening. (4) The comparison between helicate and mesocate isomers adds depth to the structural analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that the elongated cylinder binds to 4WJs with good selectivity over dsDNA, and that the extended π-surface enables a rhombic-shaped 4WJ binding mode.
+  - **Evidence pointer** Fig. 5A, Fig. 5B, Fig. 5C, Fig. 5D, Section "Four-Way Junction Binding"
+  - **Concern** The PAGE data in Fig. 5A show a 4WJ band upon addition of the cylinder, but no quantitative binding affinity or stoichiometry is provided. The competition assay in Fig. 5B shows a decrease in 4WJ band intensity with 3WJ competitor, but the data are presented as a single bar chart without error bars or statistical analysis. The MD simulations capture a rhombic-shaped cavity in 5 out of 6 simulations, but the text does not report the number of independent simulations, the convergence criteria, or whether the starting positions were randomised. The claim that the extended π-surface "enables" this binding mode is not directly tested by a control simulation with the shorter L1 cylinder under identical conditions.
+  - **Why it matters** The central novelty of the manuscript is the demonstration that length extension confers 4WJ binding. Without quantitative binding data, statistical treatment of the competition assays, and a direct comparison to the shorter cylinder in MD, the claim that the extended π-surface is responsible for the observed 4WJ binding is not fully established.
+  - **Resolution test** Provide quantitative binding affinities (e.g., Kd values) from the PAGE assays, include error bars and statistical tests for the competition data, and run MD simulations with the L1 cylinder under identical conditions to demonstrate that the rhombic binding mode is unique to the L2 cylinder.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodology
+  - **Claim pointer** The manuscript states that the Fe cylinder is unstable in sodium-containing buffers and that the Ni cylinder shows some degradation over 12 hours, yet the Ni cylinder is used for all biophysical studies.
+  - **Evidence pointer** Section "Synthesis and Characterisation", Fig. S10, Fig. S11, Fig. S12
+  - **Concern** The manuscript acknowledges that the Ni cylinder degrades in buffer conditions, with hydrolysis products detected by ESI-MS. However, the extent of degradation at the time of the binding assays is not quantified, and the potential impact of degradation products on the PAGE and CD/LD results is not discussed. If a significant fraction of the cylinder degrades during the experiment, the observed binding could be partly attributed to the free ligand or other degradation products.
+  - **Why it matters** The conclusions about DNA junction binding rely on the integrity of the metallo-cylinder. If degradation is significant, the observed binding may not reflect the intact cylinder, undermining the structure-activity relationship proposed.
+  - **Resolution test** Quantify the extent of degradation under the exact assay conditions (buffer, time, temperature) using UV-VIS or ESI-MS, and demonstrate that the binding observed is due to the intact cylinder (e.g., by comparing to a non-degrading analogue or by showing that the degradation products do not bind to junctions).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigour
+  - **Claim pointer** The manuscript claims that the L2 cylinder does not coil or cause conformational changes in dsDNA, unlike the L1 cylinder.
+  - **Evidence pointer** Section "Double Stranded DNA Binding", Fig. 6A, Fig. 6B
+  - **Concern** The CD data show a decrease in the positive peak intensity with increasing cylinder concentration, which the authors attribute to aggregation. The LD data show a slight increase in the negative peak at 260 nm and a new induced band at 300-400 nm. The interpretation that the cylinder binds in the major or minor groove is plausible, but the CD changes could also be consistent with partial DNA bending or local structural perturbations. The claim that no conformational change occurs is based on the overall CD profile retaining B-form characteristics, but this does not rule out local distortions.
+  - **Why it matters** The conclusion that the L2 cylinder does not coil dsDNA is used to argue that length extension reduces non-specific dsDNA interactions. If the CD changes indicate subtle conformational effects, this conclusion would need to be qualified.
+  - **Resolution test** Perform additional biophysical characterisation, such as atomic force microscopy (AFM) or analytical ultracentrifugation, to directly assess DNA coiling or compaction. Alternatively, use CD melting experiments to probe whether the cylinder stabilises or destabilises the duplex.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Synthesis and Characterisation"
+  - **Evidence pointer** Fig. 2A, Fig. 2B, Fig. 2C
+  - **Issue** The NMR analysis of the Fe cylinder reveals two species in a 3:1 ratio, attributed to helicate and mesocate isomers. However, the text does not specify which isomer is the major species, nor does it explain how the ratio was determined (e.g., by integration of specific peaks).
+  - **Required correction** Specify the major isomer and the method used to assign the ratio. If possible, provide a brief explanation of the NMR features that distinguish the isomers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Three-Way Junction Binding"
+  - **Evidence pointer** Fig. 3
+  - **Issue** The PAGE assay shows a concentration-dependent formation of the 3WJ band, but the text does not state the range of concentrations tested or the number of replicates.
+  - **Required correction** Provide the concentration range and the number of independent experiments. If replicates were performed, state the reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Four-Way Junction Binding"
+  - **Evidence pointer** Fig. 5B, Fig. S17
+  - **Issue** The competition assay uses a fluorescently labelled 4WJ, but the text does not describe how the band intensities were quantified or normalised.
+  - **Required correction** Describe the quantification method (e.g., densitometry) and how the data were normalised. State whether the intensities were corrected for background or loading differences.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretive rigour
+  - **Affected element** Section "Double Stranded DNA Binding"
+  - **Evidence pointer** Fig. 6A
+  - **Issue** The CD spectra show increased noise at higher cylinder concentrations, which the authors attribute to aggregation. However, the text does not discuss whether this aggregation is reversible or whether it affects the interpretation of the LD data.
+  - **Required correction** Briefly discuss the nature of the aggregation (e.g., whether it is due to charge neutralisation) and its potential impact on the LD measurements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Synthesis and Characterisation"
+  - **Evidence pointer** Fig. S10, Fig. S11, Fig. S12
+  - **Issue** The instability of the Fe cylinder in sodium-containing buffers is mentioned, but the text does not specify which sodium salts were tested or the concentrations used.
+  - **Required correction** List the sodium salts and concentrations tested, and state the time course of the observed instability.
+- **Technical failings that need to be addressed before the case is established** (1) Quantitative binding data for 3WJ and 4WJ are missing; the PAGE assays are only qualitative. (2) The MD simulations lack a direct comparison to the L1 cylinder under identical conditions, which is essential to support the claim that length extension enables the rhombic 4WJ binding mode. (3) The extent of cylinder degradation during the assays is not quantified, and its potential impact on the results is not addressed. (4) The competition assay data lack error bars and statistical analysis.
+- **Assessment against Nature-style criteria** Originality: The work is a logical extension of prior studies and introduces a new design parameter (length) for tuning junction selectivity. While not conceptually groundbreaking, it provides useful new insights. Scientific importance: The findings are relevant to the design of DNA-targeting agents and contribute to the understanding of structure-activity relationships in metallo-supramolecular DNA binders. The importance is moderate, as the study is primarily in vitro and the authors themselves note the compounds are not suitable for cellular studies. Interdisciplinary readership: The work bridges supramolecular chemistry, biophysics, and computational chemistry, and will appeal to researchers in these fields. Technical soundness: The experimental and computational methods are generally appropriate, but the lack of quantitative data and statistical analysis weakens the technical rigour. Readability for nonspecialists: The manuscript is clearly written and the concepts are accessible, though some familiarity with DNA junction structures and metallo-supramolecular chemistry is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the preliminary data are promising, but the current evidence base is insufficient to fully support the central claims regarding 4WJ binding selectivity and the role of the extended π-surface. The authors should provide quantitative binding data, statistical analysis, and a direct MD comparison to the shorter cylinder.
+
+## Risk / unsupported claims
+- The claim that the extended π-surface "enables" the rhombic 4WJ binding mode is not directly supported by a control simulation with the L1 cylinder.
+- The claim that the L2 cylinder binds to 4WJs with "good selectivity" over dsDNA is based on qualitative PAGE data without quantitative affinity measurements.
+- The claim that the L2 cylinder does not cause DNA coiling is based on CD/LD data that show some spectral changes, which are attributed to aggregation without direct evidence.
+- The relative binding affinities of the helicate versus mesocate isomers for 3WJ and 4WJ are not experimentally determined; the MD simulations suggest differences, but these are not validated experimentally.
+- The statement that the L2 cylinder binds to 3WJs "as the previously studied cylinders" is based on qualitative PAGE data and is not quantitatively compared.

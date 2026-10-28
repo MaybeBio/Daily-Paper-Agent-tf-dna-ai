@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37564980",
+  "title": "Molecular mechanisms regulating natural menopause in the female ovary: a study based on transcriptomic data.",
+  "authors": "Liu, Quan; Wei, Fangqin; Wang, Jiannan; Liu, Haiyan; Zhang, Hua; Liu, Min; Liu, Kaili; Ye, Zheng",
+  "journal": "Frontiers in endocrinology",
+  "published_date": "2023-08-11",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 3,
+  "one_liner_zh": "基于转录组和单细胞测序研究卵巢自然绝经的分子机制，虽涉及转录因子但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联弱。",
+  "abstract": "INTRODUCTION: Natural menopause is an inevitable biological process with significant implications for women's health. However, the molecular mechanisms underlying menopause are not well understood. This study aimed to investigate the molecular and cellular changes occurring in the ovary before and after perimenopause. METHODS: Single-cell sequencing data from the GTEx V8 cohort (30-39: 14 individuals; 40-49: 37 individuals; 50-59: 61 individuals) and transcriptome sequencing data from ovarian tissue were analyzed. Seurat was used for single-cell sequencing data analysis, while harmony was employed for data integration. Cell differentiation trajectories were inferred using CytoTrace. CIBERSORTX assessed cell infiltration scores in ovarian tissue. WGCNA evaluated co-expression network characteristics in pre- and post-perimenopausal ovarian tissue. Functional enrichment analysis of co-expression modules was conducted using ClusterprofileR and Metascape. DESeq2 performed differential expression analysis. Master regulator analysis and signaling pathway activity analysis were carried out using MsViper and Progeny, respectively. Machine learning models were constructed using Orange3. RESULTS: We identified the differentiation trajectory of follicular cells in the ovary as ARID5B+ Granulosa -> JUN+ Granulosa -> KRT18+ Granulosa -> MT-CO2+ Granulosa -> GSTA1+ Granulosa -> HMGB1+ Granulosa. Genes driving Granulosa differentiation, including RBP1, TMSB10, SERPINE2, and TMSB4X, were enriched in ATP-dependent activity regulation pathways. Genes involved in maintaining the Granulosa state, such as DCN, ARID5B, EIF1, and HSP90AB1, were enriched in the response to unfolded protein and chaperone-mediated protein complex assembly pathways. Increased contents of terminally differentiated HMGB1+ Granulosa and GSTA1+ Granulosa were observed in the ovaries of individuals aged 50-69. Signaling pathway activity analysis indicated a gradual decrease in TGFb and MAPK pathway activity with menopause progression, while p53 pathway activity increased. Master regulator analysis revealed significant activation of transcription factors FOXR1, OTX2, MYBL2, HNF1A, and FOXN4 in the 30-39 age group, and GLI1, SMAD1, SMAD7, APP, and EGR1 in the 40-49 age group. Additionally, a diagnostic model based on 16 transcription factors (Logistic Regression L2) achieved reliable performance in determining ovarian status before and after perimenopause. CONCLUSION: This study provides insights into the molecular and cellular mechanisms underlying natural menopause in the ovary. The findings contribute to our understanding of perimenopausal changes and offer a foundation for health management strategies for women during this transition.",
+  "abstract_zh": "引言：自然绝经是一个不可避免的生物学过程，对女性健康具有重要影响。然而，绝经背后的分子机制尚不明确。本研究旨在探讨围绝经期前后卵巢中发生的分子和细胞变化。方法：分析了来自GTEx V8队列（30-39岁：14人；40-49岁：37人；50-59岁：61人）的单细胞测序数据以及卵巢组织的转录组测序数据。使用Seurat进行单细胞测序数据分析，采用harmony进行数据整合。利用CytoTrace推断细胞分化轨迹。CIBERSORTX评估卵巢组织中的细胞浸润评分。WGCNA评估围绝经期前后卵巢组织中的共表达网络特征。使用ClusterprofileR和Metascape对共表达模块进行功能富集分析。DESeq2进行差异表达分析。分别使用MsViper和Progeny进行主调控因子分析和信号通路活性分析。使用Orange3构建机器学习模型。结果：我们确定了卵巢中卵泡细胞的分化轨迹为ARID5B+颗粒细胞 -> JUN+颗粒细胞 -> KRT18+颗粒细胞 -> MT-CO2+颗粒细胞 -> GSTA1+颗粒细胞 -> HMGB1+颗粒细胞。驱动颗粒细胞分化的基因，包括RBP1、TMSB10、SERPINE2和TMSB4X，富集于ATP依赖性活性调控通路。维持颗粒细胞状态的基因，如DCN、ARID5B、EIF1和HSP90AB1，富集于未折叠蛋白反应和伴侣介导的蛋白复合物组装通路。在50-69岁个体的卵巢中观察到终末分化的HMGB1+颗粒细胞和GSTA1+颗粒细胞含量增加。信号通路活性分析表明，随着绝经进展，TGFb和MAPK通路活性逐渐降低，而p53通路活性增加。主调控因子分析显示，在30-39岁年龄组中，转录因子FOXR1、OTX2、MYBL2、HNF1A和FOXN4显著激活，在40-49岁年龄组中，GLI1、SMAD1、SMAD7、APP和EGR1显著激活。此外，基于16个转录因子的诊断模型（Logistic Regression L2）在判断围绝经期前后卵巢状态方面表现出可靠性能。结论：本研究提供了对自然绝经卵巢分子和细胞机制的见解。这些发现有助于我们理解围绝经期变化，并为女性在这一过渡期间的健康管理策略提供了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37564980/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37564980/",
+  "paper_page_path": "papers/pubmed/37564980/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.21.655105",
+  "title": "Quantifying the contribution of DNA conformational flexibility to transcription factor binding on nucleosomal DNA uncovers indirect readout across diverse TF families",
+  "authors": "Upalabdha Dey; Gustavo Sganzerla Martinez; Ravi Kumar; Venkata Rajesh Yella; Aditya Kumar",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-27",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过DNAflexpy量化DNA构象柔性，结合AI模型预测核小体上TF结合亲和力，并辅以MD验证，系统揭示TF-DNA间接读取机制，高度契合本课题。",
+  "abstract": "Background Eukaryotic gene regulation depends on transcription factors (TFs) recognizing short DNA motifs within chromatin. Many of these motifs lie within nucleosomes, where DNA is sharply bent, rotationally phased, and constrained by histone-DNA contacts. Yet only a subset is occupied in any cellular context. Motif identity alone, therefore, cannot fully explain selective TF engagement with nucleosomal DNA. We asked whether sequence-derived DNA conformational flexibility provides an interpretable representation of sequence context relevant to TF recognition on nucleosomes. Results We compiled five DNA flexibility descriptors in the Python package DNAflexpy, representing bendability, torsional deformation, backbone conformational variability, and stiffness. We built quantitative models of TF binding affinity across 226 datasets from a high-throughput in vitro TF-nucleosome binding assay. Flexibility-augmented models improved prediction over mononucleotide baselines in most datasets, with smaller but reproducible gains over trinucleotide baselines. The gains were not uniform: they varied across TF families and were concordant with DNA shape-fluctuation features, suggesting that DNAflexpy descriptors capture a sequence-encoded structural signal. In PIONEAR-seq data, model performance generalized across nucleosomal templates in a TF- and sequence-dependent manner. Beyond prediction, position-resolved flexibility footprints revealed deformation signatures at cognate motifs and flanking regions across diverse TF families. For SOX11, model-derived footprints aligned with DNA shape fluctuations from nanosecond-to-microsecond molecular dynamics trajectories of SOX11-bound nucleosomes, consistent with independently observed DNA conformational dynamics and bound-state stabilization. The in vivo data showed a similar but more context-dependent pattern. OCT4 occupancy tended to correlate with local flexibility, whereas GATA3-pioneered regions showed flexibility coupled with altered rotational positioning of cognate motifs. Flexibility-augmented classifiers further improved discrimination of occupied nucleosomal motifs across ENCODE datasets. Torsional flexibility features, particularly twist dispersion and trx, were most informative for classification. Conclusions Sequence-derived DNA conformational flexibility provides a quantitative and interpretable representation of sequence context in TF recognition on nucleosomes. By augmenting sequence with structural information, these models help quantify and interpret an indirect-readout contribution in which DNA deformation tendencies may complement motif sequence and DNA shape. This framework may help explain why only selected motif instances are engaged in chromatin, without treating flexibility as independent of primary sequence.",
+  "abstract_zh": "背景 真核基因调控依赖于转录因子（transcription factors, TFs）识别染色质内的短DNA基序。许多此类基序位于核小体内，其中DNA被急剧弯曲、旋转相位化，并受组蛋白-DNA接触的约束。然而，在任何细胞环境中，仅有一部分基序被占据。因此，基序身份本身无法完全解释TF对核小体DNA的选择性结合。我们探究了序列衍生的DNA构象灵活性是否能为核小体上TF识别相关的序列背景提供可解释的表征。结果 我们在Python包DNAflexpy中汇编了五种DNA灵活性描述符，代表可弯曲性、扭转形变、骨架构象变异性和刚度。我们基于高通量体外TF-核小体结合测定的226个数据集，构建了TF结合亲和力的定量模型。在大多数数据集中，灵活性增强模型优于单核苷酸基线预测，相对于三核苷酸基线的提升较小但可重复。这些增益并非均匀分布：它们在不同TF家族间存在差异，并与DNA形状波动特征一致，表明DNAflexpy描述符捕获了序列编码的结构信号。在PIONEAR-seq数据中，模型性能以TF和序列依赖的方式在核小体模板间泛化。除预测外，位置分辨的灵活性足迹揭示了不同TF家族中同源基序及侧翼区域的形变特征。对于SOX11，模型衍生的足迹与SOX11结合核小体的纳秒至微秒分子动力学轨迹中的DNA形状波动对齐，与独立观察到的DNA构象动态和结合态稳定化一致。体内数据显示出相似但更具背景依赖性的模式。OCT4占据倾向于与局部灵活性相关，而GATA3引导区域则显示灵活性伴随同源基序旋转定位的改变。灵活性增强分类器进一步改善了ENCODE数据集中占据核小体基序的区分。扭转灵活性特征，特别是扭转离散度和trx，对分类最具信息量。结论 序列衍生的DNA构象灵活性为核小体上TF识别中的序列背景提供了定量且可解释的表征。通过将序列与结构信息增强，这些模型有助于量化和解释间接读取贡献，其中DNA形变倾向可能补充基序序列和DNA形状。该框架可能有助于解释为何只有选定的基序实例在染色质中被结合，而不将灵活性视为独立于一级序列。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655105",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655105",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.21.655105/index.html"
+}

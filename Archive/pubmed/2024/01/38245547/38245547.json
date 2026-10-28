@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "38245547",
+    "doi": "10.1038/s41541-023-00788-7",
+    "title": "The dengue-specific immune response and antibody identification with machine learning."
+  },
+  "content": {
+    "abstract": "Dengue virus poses a serious threat to global health and there is no specific therapeutic for it. Broadly neutralizing antibodies recognizing all serotypes may be an effective treatment. High-throughput adaptive immune receptor repertoire sequencing (AIRR-seq) and bioinformatic analysis enable in-depth understanding of the B-cell immune response. Here, we investigate the dengue antibody response with these technologies and apply machine learning to identify rare and underrepresented broadly neutralizing antibody sequences. Dengue immunization elicited the following signatures on the antibody repertoire: (i) an increase of CDR3 and germline gene diversity; (ii) a change in the antibody repertoire architecture by eliciting power-law network distributions and CDR3 enrichment in polar amino acids; (iii) an increase in the expression of JNK/Fos transcription factors and ribosomal proteins. Furthermore, we demonstrate the applicability of computational methods and machine learning to AIRR-seq datasets for neutralizing antibody candidate sequence identification. Antibody expression and functional assays have validated the obtained results.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Natali, Eriberto Noel",
+        "Horst, Alexander",
+        "Meier, Patrick",
+        "Greiff, Victor",
+        "Nuvolone, Mario",
+        "Babrak, Lmar Marie",
+        "Fink, Katja",
+        "Miho, Enkelejda"
+      ],
+      "short_names": [
+        "Natali EN",
+        "Horst A",
+        "Meier P",
+        "Greiff V",
+        "Nuvolone M",
+        "Babrak LM",
+        "Fink K",
+        "Miho E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9100-807X",
+        "ORCID: 0000-0002-8585-6208",
+        "ORCID: 0000-0003-2622-5032",
+        "ORCID: 0000-0001-8334-1684",
+        "ORCID: 0000-0002-3571-0390",
+        "ORCID: 0000-0001-6461-0519"
+      ],
+      "affiliations": [
+        "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland.",
+        "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland.",
+        "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland.",
+        "Department of Immunology, Oslo University Hospital Rikshospitalet and University of Oslo, Oslo, Norway.",
+        "Department of Molecular Medicine, University of Pavia, Pavia, Italy.",
+        "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland.",
+        "ImmunoScape, Singapore, Singapore.",
+        "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland. enkelejda.miho@fhnw.ch.",
+        "SIB Swiss Institute of Bioinformatics, Lausanne, Switzerland. enkelejda.miho@fhnw.ch.",
+        "aiNET GmbH, Basel, Switzerland. enkelejda.miho@fhnw.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Natali, Eriberto Noel",
+        "short_name": "Natali EN",
+        "identifiers": [
+          "0000-0002-9100-807X"
+        ],
+        "affiliations": [
+          "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Horst, Alexander",
+        "short_name": "Horst A",
+        "identifiers": [],
+        "affiliations": [
+          "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Meier, Patrick",
+        "short_name": "Meier P",
+        "identifiers": [
+          "0000-0002-8585-6208"
+        ],
+        "affiliations": [
+          "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Greiff, Victor",
+        "short_name": "Greiff V",
+        "identifiers": [
+          "0000-0003-2622-5032"
+        ],
+        "affiliations": [
+          "Department of Immunology, Oslo University Hospital Rikshospitalet and University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Nuvolone, Mario",
+        "short_name": "Nuvolone M",
+        "identifiers": [
+          "0000-0001-8334-1684"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, University of Pavia, Pavia, Italy."
+        ]
+      },
+      {
+        "full_name": "Babrak, Lmar Marie",
+        "short_name": "Babrak LM",
+        "identifiers": [],
+        "affiliations": [
+          "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Fink, Katja",
+        "short_name": "Fink K",
+        "identifiers": [
+          "0000-0002-3571-0390"
+        ],
+        "affiliations": [
+          "ImmunoScape, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Miho, Enkelejda",
+        "short_name": "Miho E",
+        "identifiers": [
+          "0000-0001-6461-0519"
+        ],
+        "affiliations": [
+          "FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences, Muttenz, Switzerland. enkelejda.miho@fhnw.ch.",
+          "SIB Swiss Institute of Bioinformatics, Lausanne, Switzerland. enkelejda.miho@fhnw.ch.",
+          "aiNET GmbH, Basel, Switzerland. enkelejda.miho@fhnw.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ vaccines"
+    ],
+    "journal_abbrev": [
+      "NPJ Vaccines"
+    ],
+    "pub_date": "2024 Jan 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/21 00:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "41933324",
+      "41874023",
+      "41717442",
+      "41476546",
+      "41372420",
+      "40947578",
+      "40733500",
+      "40266131",
+      "39452780",
+      "39170622",
+      "39060292",
+      "38997321"
+    ],
+    "refs": [
+      "37396030",
+      "35377271",
+      "35281026",
+      "34953464",
+      "34708197",
+      "34211454",
+      "34203839",
+      "34113823",
+      "34062119",
+      "33858508",
+      "33395405",
+      "33187224",
+      "33117392",
+      "31873728",
+      "31824518",
+      "31820734",
+      "31563464",
+      "31428692",
+      "31303400",
+      "31170257",
+      "31100550",
+      "30899025",
+      "30740537",
+      "30699342",
+      "30664748",
+      "30602773",
+      "30530648",
+      "30186773",
+      "29944754",
+      "29845542",
+      "29703216",
+      "29595997",
+      "29515569",
+      "29379481",
+      "29263863",
+      "29255469",
+      "29249606",
+      "29242186",
+      "29152418",
+      "29036507",
+      "28924003",
+      "28821273",
+      "28514665",
+      "28320833",
+      "28087666",
+      "27628668",
+      "27214236",
+      "26917418",
+      "26905804",
+      "26561965",
+      "26508293",
+      "26194757",
+      "26194755",
+      "25581790",
+      "25536486",
+      "25501631",
+      "25472994",
+      "24877997",
+      "24255124",
+      "23768493",
+      "23742949",
+      "23056230",
+      "22807519",
+      "22723463",
+      "22499787",
+      "22491255",
+      "22278250",
+      "22238318",
+      "22020068",
+      "21264311",
+      "20943967",
+      "20802495",
+      "20132551",
+      "19264660",
+      "18503082",
+      "18264114",
+      "16504170",
+      "16151404",
+      "15707503",
+      "10963674",
+      "10933393",
+      "10361725",
+      "9820808",
+      "3317826"
+    ],
+    "similar": [
+      "38245547",
+      "34708197",
+      "34211454",
+      "36126074",
+      "24348242",
+      "30166985",
+      "35622332",
+      "28928210",
+      "39060292",
+      "29515569",
+      "29976679",
+      "30936866",
+      "34549976",
+      "39058741",
+      "33208445",
+      "34732126",
+      "25972550",
+      "25008922",
+      "30622532",
+      "31244836",
+      "40264789",
+      "30814994",
+      "35639633",
+      "38293151",
+      "24255124",
+      "30761131",
+      "34856127",
+      "24591178",
+      "37075785",
+      "28031369",
+      "31170257",
+      "29309412",
+      "25100837",
+      "36723792",
+      "36516766",
+      "38953379",
+      "28505154",
+      "37388820",
+      "30105017",
+      "29944754",
+      "35833704",
+      "28878078",
+      "33762420",
+      "28948470",
+      "31156648",
+      "40060431",
+      "30323809",
+      "35622331",
+      "23851440",
+      "31242272",
+      "28956764",
+      "26714037",
+      "27301568",
+      "27214236",
+      "27442436",
+      "24950360",
+      "26342114",
+      "31367259",
+      "39468707",
+      "22355444",
+      "40339178",
+      "37409936",
+      "39982227",
+      "15542643",
+      "33194810",
+      "24385585",
+      "26441930",
+      "40237498",
+      "31820734",
+      "30093903",
+      "15078949",
+      "29587780",
+      "30471299",
+      "24492293",
+      "35851089",
+      "29481552",
+      "30945971",
+      "38900640",
+      "25875140",
+      "23965732",
+      "29452594",
+      "25095879",
+      "30564083",
+      "34991709",
+      "26901482",
+      "30185598",
+      "23880886",
+      "25907926",
+      "26309127",
+      "34037521",
+      "29923817",
+      "28222130",
+      "28835491",
+      "36979486",
+      "27866774",
+      "24049185",
+      "23768493",
+      "19114121",
+      "23081772",
+      "16474083"
+    ],
+    "review": [
+      "38245547",
+      "34211454",
+      "29515569",
+      "30936866",
+      "31244836",
+      "29944754",
+      "39468707",
+      "22355444",
+      "33194810",
+      "25907926",
+      "34037521"
+    ],
+    "pmc": [
+      "10799860"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41541-023-00788-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38245547/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38245547",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

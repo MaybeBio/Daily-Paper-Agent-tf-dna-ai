@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40935008",
+  "title": "GATA TF Class Classifier: AI-based functional prediction and taxonomic profiling in angiosperm GATA transcription factors.",
+  "authors": "Kim, Mangi",
+  "journal": "Bio Systems",
+  "published_date": "2025-09-12",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用AI对植物GATA转录因子进行功能分类和谱系分析，但仅基于序列分类，未涉及TF-DNA结合位点、互作机制或三维结构建模，与本课题核心关联较弱。",
+  "abstract": "GATA transcription factors (TFs) are key regulators of diverse physiological and developmental processes in angiosperms. Although they are traditionally classified into four functional classes (A-D) based on phylogenetic relationships, large-scale classification across plant genomes remains limited by the labor-intensive nature of tree-based approaches. To overcome this limitation, this study presents the GATA TF Class Classifier, a scalable sequence-based tool for genome-wide functional classification of GATA TFs across angiosperm species. The model was trained on 700 curated full-length sequences from 23 species, encoded with ProtBERT, reduced via principal component analysis (PCA) with six additional features, and classified into functional classes using a support vector machine (SVM). The model achieved an average accuracy of 94.29 %, with balanced performance across all classes, as confirmed by repeated stratified 5-fold cross-validation. When applied to 4170 GATA TFs from 121 angiosperm genomes, the classifier showed that classes A and B were relatively abundant, whereas classes C and D were less represented, implying that each class may perform distinct biological functions. In addition, this study performed a taxonomic analysis of the predicted GATA TF classes to investigate their characteristics across major angiosperm lineages. Taken together, the classifier facilitates large-scale annotation and offers insights into the lineage-specific diversification and functional evolution of GATA TFs in angiosperms.",
+  "abstract_zh": "GATA转录因子（TFs）是被子植物中多种生理和发育过程的关键调控因子。尽管它们传统上基于系统发育关系被分为四个功能类别（A-D），但基于树的方法劳动强度大，限制了跨植物基因组的大规模分类。为克服这一限制，本研究提出了GATA TF类别分类器，这是一种可扩展的基于序列的工具，用于被子植物物种中GATA TFs的全基因组功能分类。该模型在来自23个物种的700条精选全长序列上训练，使用ProtBERT编码，通过主成分分析（PCA）降维并附加六个特征，然后利用支持向量机（SVM）进行分类。模型平均准确率达到94.29%，且所有类别性能均衡，这一点通过重复分层5折交叉验证得到确认。将该分类器应用于来自121个被子植物基因组的4170个GATA TFs时，结果显示A类和B类相对丰富，而C类和D类较少，暗示每个类别可能执行不同的生物学功能。此外，本研究对预测的GATA TF类别进行了分类学分析，以探究它们在主要被子植物谱系中的特征。综上所述，该分类器促进了大规模注释，并为被子植物中GATA TFs的谱系特异性多样化和功能进化提供了见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40935008/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40935008/",
+  "paper_page_path": "papers/pubmed/40935008/index.html"
+}

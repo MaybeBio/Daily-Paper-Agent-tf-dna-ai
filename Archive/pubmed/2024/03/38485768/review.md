@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure/table references. No supplementary files were provided.
+- **Assessment boundary** Assessment is limited to the claims, methods, and results as presented in the main text. Supplementary tables and figures are referenced but not available for verification.
+- **Shared manuscript claim summary** The authors propose Enhancer-MDLF, a multi-input deep learning framework combining dna2vec word embeddings and transcription factor binding site motif frequencies, to predict cell-specific enhancers across eight human cell lines. They report superior performance over the prior method Enhancer-IF, demonstrate the utility of transfer learning for cross-cell-line prediction, and use SHAP-based model interpretation to identify potentially important TFBS motifs.
+- **Visible evidence base** Main text figures (Figures 1–6), Tables (Table 1), equations for motif matching and focal loss, and textual descriptions of results. Supplementary Tables S1–S14 and Figures S1–S2 are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary data (Tables S1–S14, Figures S1–S2), detailed dataset statistics, hyperparameter search results, full model architecture specifications, and the source code repository contents. These are essential for verifying reproducibility, statistical significance, and the robustness of the reported comparisons.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational genomics, namely the cell-specific identification of enhancers, and proposes a reasonable multi-input deep learning architecture. The integration of dna2vec embeddings with motif frequency features is a sensible combination, and the inclusion of transfer learning and model interpretability adds practical value. However, the manuscript has several technical weaknesses that undermine the strength of the claims. The comparison with Enhancer-IF is limited to a single baseline, and no statistical significance testing is reported. The transfer learning results are described qualitatively without clear quantitative comparisons. The SHAP-based motif analysis is largely descriptive, and the biological validation is limited to literature concordance. The absence of supplementary materials prevents full evaluation of the methodology and results. The writing is generally clear but contains some imprecise statements and lacks sufficient detail in key methodological areas.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on regulatory element prediction, deep learning applications in genomics, and cell-type-specific gene regulation. The transfer learning approach may also interest those developing models for cell types with limited annotated data. The motif interpretation analysis could be of interest to researchers studying transcription factor binding and enhancer biology.
+- **Major strengths** The problem is well-motivated and relevant. The multi-input architecture combining sequence embeddings and motif features is a reasonable design choice. The inclusion of transfer learning addresses a practical limitation in the field. The use of SHAP for model interpretation is a positive step toward biological insight. The authors provide open access to the source code, which supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Enhancer-MDLF "consistently outperforms Enhancer-IF across all five metrics and all cell lines" (Results, Performance comparison with state-of-the-art method).
+  - **Evidence pointer** Figure 4, Supplementary Table S5 (not provided)
+  - **Concern** The comparison is made against a single baseline method, Enhancer-IF. No other state-of-the-art enhancer prediction methods are included. Furthermore, no statistical significance testing (e.g., paired tests across cross-validation folds, confidence intervals) is reported. The claim of "consistent outperformance" cannot be rigorously assessed without measures of variance or significance.
+  - **Why it matters** A single-baseline comparison without statistical testing is insufficient to establish the superiority of a new method. The claim of outperformance may not be robust to different dataset splits or random initializations.
+  - **Resolution test** Provide comparisons against multiple established enhancer prediction methods. Report mean and standard deviation of metrics across multiple runs or cross-validation folds, and perform appropriate statistical tests (e.g., Wilcoxon signed-rank test) to demonstrate significant differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Enhancer-MDLF with transfer_2, leveraging additional enhancer information from multiple cell lines during the model pre-training, exhibits exceptional performance" and that transfer_3 "exhibits optimal performance across the eight cell lines" (Results, Performance evaluation across cell lines with transfer learning).
+  - **Evidence pointer** Figure 5C, Supplementary Tables S8–S11, Supplementary Figure S2 (not provided)
+  - **Concern** The transfer learning results are described qualitatively. No quantitative comparison is provided in the main text between the transfer learning strategies and the baseline model trained from scratch. The improvement is not quantified, and the specific conditions under which transfer learning is beneficial (e.g., amount of target data) are not systematically explored.
+  - **Why it matters** The claim that transfer learning provides an "effective and promising solution" requires quantitative evidence. Without clear numbers and comparisons, the practical value of the proposed transfer learning approach is not established.
+  - **Resolution test** Provide a table or figure in the main text showing the performance of the baseline model and the three transfer strategies across all cell lines, with clear metrics and statistical comparisons. Include an analysis of how the amount of target data affects the benefit of transfer learning.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the optimal value for k is 3" for the dna2vec k-mer length, based on experiments in the range [3,8] (Materials and methods, DNA sequence encoding schemes, dna2vec).
+  - **Evidence pointer** Supplementary Table S1 (not provided)
+  - **Concern** The selection of k=3 is a critical hyperparameter choice, but the results of the experiment are only in the supplementary material. The main text does not report the performance for different k values, nor the criterion used to select the optimal k. It is unclear whether the choice is based on a single cell line or averaged across all cell lines.
+  - **Why it matters** The choice of k significantly affects the input representation and model performance. Without transparency in this selection process, the generalizability of the model to other datasets is questionable.
+  - **Resolution test** Report the performance metrics for all k values tested, the selection criterion, and whether the optimal k is consistent across cell lines. Consider including this information in the main text or a clearly referenced supplementary table.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "the source code is openly accessible at https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF" (Abstract).
+  - **Evidence pointer** GitHub repository URL (not assessed)
+  - **Concern** The repository was not reviewed. It is unclear whether the code is complete, documented, and includes all necessary scripts for data preprocessing, model training, evaluation, and reproduction of all figures and tables. The availability of pre-trained models is mentioned, but their format and usage are not described.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without a functional and well-documented codebase, the results cannot be independently verified.
+  - **Resolution test** Ensure the repository contains a clear README, all code and scripts, a list of dependencies, and instructions for reproducing the main results. Provide a link to a stable release or versioned archive.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "we utilize model interpretation to identify transcription factor binding site motifs that may be associated with enhancer regions, with important implications for facilitating the study of enhancer regulatory mechanisms" (Abstract).
+  - **Evidence pointer** Figure 6, Supplementary Figure S1 (not provided)
+  - **Concern** The SHAP-based motif analysis is largely descriptive. The authors identify motifs that are already known (e.g., BACH1, GATA1, SP1) and some that are less studied (e.g., FOXJ3, SP2), but no novel biological validation is performed. The claim of "important implications" is not supported by experimental evidence or a deeper analysis of the identified motifs.
+  - **Why it matters** The interpretability analysis is presented as a key contribution, but its biological significance is not demonstrated beyond literature concordance. This weakens the novelty and impact of the work.
+  - **Resolution test** Provide additional validation, such as comparison with independent ChIP-seq data, motif enrichment analysis against known enhancer-associated factors, or experimental validation of at least one novel motif. Alternatively, temper the claims to reflect the descriptive nature of the analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and methods, DNA sequence encoding schemes, Motif frequency
+  - **Evidence pointer** Equation 1 (location not provided)
+  - **Issue** The equation for motif matching is not fully explained. The variable Q is described as the matching score, but the summation over j is not clearly defined in the text. The relationship between the PWM score and the p-value threshold P is also unclear.
+  - **Required correction** Provide a clear definition of all variables in the equation and explain how the p-value threshold is calculated or obtained from the PWM.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and methods, The framework of Enhancer-MDLF, Model architecture
+  - **Evidence pointer** Figure 2A (location not provided)
+  - **Issue** The description of the model architecture is high-level. The number of layers, filter sizes, and activation functions are mentioned, but the exact architecture (e.g., order of layers, use of batch normalization, dropout placement) is not fully specified in the text.
+  - **Required correction** Provide a detailed architecture table or a more precise textual description, including the output dimensions of each layer.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, Performance evaluation of combinatorial module in comparison with individual modules
+  - **Evidence pointer** Figure 3, Supplementary Tables S2 and S3 (not provided)
+  - **Issue** The improvement of the combinatorial module over individual modules is described as "surprising" and "effective," but no statistical tests are reported to support the significance of the improvement.
+  - **Required correction** Report confidence intervals or p-values for the performance differences between the combinatorial and individual modules.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Performance evaluation on other datasets
+  - **Evidence pointer** Figure 5D, Supplementary Table S12 (not provided)
+  - **Issue** The comparison on the generic dataset is reported with only three metrics (MCC, SN, ACC). It is unclear why other metrics (e.g., AUROC, F1) are not reported, and whether the comparison with other methods on this dataset is complete.
+  - **Required correction** Report all relevant metrics for the generic dataset comparison and ensure all compared methods are evaluated on the same metrics.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion and conclusion
+  - **Evidence pointer** Paragraph 2
+  - **Issue** The discussion of transfer learning is somewhat repetitive and could be more concise. The distinction between the three transfer strategies is not clearly summarized in the main text.
+  - **Required correction** Provide a brief summary of the three transfer strategies and their key differences in the main text, and streamline the discussion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (single baseline, no statistical testing), R1-M2 (transfer learning claims not quantitatively supported), R1-M3 (k-mer selection not transparent), R1-M4 (code not verified).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of dna2vec and motif features is not entirely novel, but the specific application to cell-specific enhancer prediction and the transfer learning component add some originality.
+  - **Scientific importance** Moderate. The problem is important, but the incremental improvement over existing methods and the lack of deep biological insight limit the potential impact.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and bioinformaticians. The biological interpretation is not deep enough to attract a broader genomics audience.
+  - **Technical soundness** Currently insufficient. The lack of statistical rigor, limited baseline comparison, and missing supplementary details prevent a full assessment of the technical validity.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written, but some methodological details are dense and would be challenging for a nonspecialist to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of superior performance and the utility of transfer learning require additional statistical support, broader comparisons, and access to the supplementary materials and code for verification.
+
+## Risk / unsupported claims
+- The claim of "consistent outperformance" over Enhancer-IF is unsupported without statistical significance testing and is based on a single baseline.
+- The claim that transfer learning provides an "effective and promising solution" is not quantitatively supported in the main text.
+- The claim that the identified TFBS motifs have "important implications" for studying enhancer regulatory mechanisms is not supported by experimental or independent validation.
+- The optimality of k=3 for dna2vec is not verifiable without the supplementary table.
+- The robustness and generalizability of the model beyond the eight tested cell lines is not established.

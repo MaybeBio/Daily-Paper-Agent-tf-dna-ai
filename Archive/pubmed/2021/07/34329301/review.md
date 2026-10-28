@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and supporting information references.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with claims. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors use HS-AFM imaging of the budding yeast condensin holo-complex to guide coarse-grained molecular dynamics simulations, predicting that dsDNA binds to the outside surface of the hinge domain in the closed conformation and to both outside and inside surfaces in the open conformation. They further suggest that the hinge can close around dsDNA bound inside, stabilizing the interaction, and speculate that hinge conformational changes regulate dsDNA binding during DNA-loop extrusion.
+- **Visible evidence base** Abstract, full methods, results with figures referenced (Figs 1-6, S1-S3), discussion, and supporting information.
+- **Missing materials affecting confidence** No raw AFM images or statistical details of image analysis are provided. No quantitative comparison of simulation predictions with experimental binding data beyond the Ycg1 validation. No coordinates or trajectories for the open hinge model. No error bars or replicate information for survival probability calculations.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study, guided by experimental AFM data, to predict dsDNA binding surfaces on the condensin hinge domain. The work addresses a relevant question in the field of SMC protein biology, and the combination of HS-AFM with CGMD simulations is potentially powerful. However, the evidence provided is insufficient to fully support the central claims. The validation of the CG model on Ycg1 is a strength, but the extrapolation to the hinge domain relies on a single AFM image and simulations with limited sampling. The biological significance of the predicted transient binding is speculative, and the manuscript would benefit from more rigorous quantitative analysis and additional experimental or computational validation.
+- **Who would be interested in the results, and why** Researchers studying SMC complexes, condensin, DNA-loop extrusion, and chromosome organization. The methodological approach of combining AFM with CGMD may also interest computational biophysicists developing protein-DNA interaction models.
+- **Major strengths** The study addresses a previously unexplored question regarding dsDNA binding to the condensin hinge. The use of HS-AFM to capture dynamic conformations is innovative. The validation of the CG model on the Ycg1/dsDNA complex provides a reasonable proof-of-concept. The simulations suggest specific, testable predictions about hinge-DNA interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the CGMD simulations predict dsDNA binding surfaces on the hinge domain in open and closed conformations.
+  - **Evidence pointer** Results section, "Prediction of dsDNA binding surfaces on the hinge domain", Figures 4A-4D.
+  - **Concern** The simulations are performed with only five 18-bp dsDNA molecules in a box, and the sampling time is not stated. The binding probabilities and survival curves are based on a limited number of trajectories, and no convergence analysis is provided. The open hinge model is derived from a single AFM image, and the authors do not demonstrate that the model is representative or stable. The claim that dsDNA binds to the inside surface in the open conformation is based on transient contacts that may be artifacts of the simulation setup.
+  - **Why it matters** Without evidence of adequate sampling and convergence, the predicted binding surfaces may not be reliable. The central conclusion of the paper depends on the accuracy of these simulations.
+  - **Resolution test** Provide details on simulation length, number of replicates, and convergence metrics. Show that the binding probabilities are stable over time and across independent runs. Validate the open hinge model against multiple AFM images or other structural data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors speculate that hinge conformational changes regulate dsDNA binding and play a role in DNA-loop extrusion.
+  - **Evidence pointer** Discussion section, final paragraph.
+  - **Concern** The link between the simulation results and the proposed biological mechanism is highly speculative. No experimental evidence is provided to connect hinge opening/closing to dsDNA binding in the context of loop extrusion. The authors themselves note that the binding to the inside is transient and weaker than to Ycg1, which raises questions about its functional relevance.
+  - **Why it matters** The broader significance of the work hinges on this speculation. Without a stronger connection to the loop extrusion mechanism, the impact of the findings is limited.
+  - **Resolution test** Provide additional data, such as mutational analysis of the predicted binding residues or functional assays, to support the proposed role of hinge-DNA interactions in loop extrusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the CGMD simulations correctly predict the Ycg1/dsDNA complex structure, validating their model.
+  - **Evidence pointer** Results section, "Blind prediction of the Ycg1/dsDNA complex", Figure 1.
+  - **Concern** The validation is performed at 100 mM salt, but the hinge simulations are also run at 200 and 400 mM. The authors do not validate the model at the salt concentrations used for the hinge predictions. Additionally, the Q-score analysis shows fluctuations between 0.5 and 0.9, indicating that the predicted complex is not highly stable. The absence of Brn1 in the simulation may also affect the accuracy of the prediction.
+  - **Why it matters** The validation is incomplete, and the model may not be accurate under the conditions used for the hinge simulations. This undermines confidence in the predicted binding surfaces.
+  - **Resolution test** Validate the model at multiple salt concentrations and assess the impact of Brn1 on the binding prediction. Provide a more detailed analysis of the Q-score and structural similarity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract is dense and uses technical terms without explanation, which may hinder comprehension for readers outside the biophysics field.
+  - **Required correction** Briefly define key terms such as "coarse-grained molecular dynamics" and "hinge domain" in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "HS-AFM imaging of condensin holo-complexes"
+  - **Evidence pointer** Methods section, "location not provided"
+  - **Issue** The method for defining the hinge angle is described, but no details are given on how the angle measurements were validated or how many images were used for the fitting.
+  - **Required correction** Provide details on the reproducibility of angle measurements and the criteria for selecting images for the fitting simulation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "location not provided"
+  - **Issue** The discussion of the flip-flop model and the flip-flop model is brief and not fully integrated with the current findings.
+  - **Required correction** Expand the discussion to more thoroughly compare the proposed model with existing models of condensin function.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3.
+- **Assessment against Nature-style criteria** Originality: The study is original in its specific focus on the hinge domain and the use of AFM-guided simulations. Scientific importance: The question is important, but the speculative nature of the conclusions limits the immediate impact. Interdisciplinary readership: The work will appeal to biophysicists and molecular biologists, but the technical detail may limit broader appeal. Technical soundness: The validation is incomplete, and the simulation methodology lacks sufficient detail and convergence analysis. Readability for nonspecialists: The manuscript is generally well-written but could be improved with clearer explanations of key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims require stronger technical support and a clearer connection to biological function.
+
+## Risk / unsupported claims
+- The claim that dsDNA binds to the inside surface of the open hinge is based on transient contacts and is not robustly supported.
+- The speculation that hinge conformational changes regulate dsDNA binding during loop extrusion is not supported by direct evidence.
+- The open hinge model derived from a single AFM image may not be representative.
+- The relative binding strengths between different surfaces are not statistically compared.

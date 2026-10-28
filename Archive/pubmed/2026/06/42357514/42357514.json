@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "42357514",
+    "doi": "10.3390/molecules31122118",
+    "title": "Exploring Active Ingredients and Mechanisms of Crataegi fructus Extract in Alleviating MAFLD via the AMPK/PPAR Pathway by Multi-Omics."
+  },
+  "content": {
+    "abstract": "The fruit of Crataegi fructus (CF) is a traditional \"medicine food\" herb widely used for its lipid-lowering properties, but its active ingredients and mechanisms against metabolic dysfunction-associated fatty liver disease (MAFLD) remain poorly understood. This study employed an integrated multi-omics approach, combining serum metabolomics, liver transcriptomics, weighted gene co-expression network analysis (WGCNA), network pharmacology, and molecular docking, to systematically investigate the effects of CF extract (CFE) in a high-fat diet (HFD)-induced mouse model of MAFLD. Our analysis revealed that CFE treatment significantly reduced body weight gain (p < 0.01), improved glucose tolerance and insulin sensitivity (p < 0.01), and alleviated hepatic steatosis, as evidenced by reduced lipid accumulation and decreased NAS scores (p < 0.001). Metabolomics analysis showed that CFE reversed HFD-induced disturbances in serum fatty acids, glycerophospholipids, and bile acid metabolites. Transcriptomics further revealed that the AMPK and PPAR signalling pathways were critically involved in the regulation of lipid metabolism by which CFE alleviated MAFLD. Consistently, CFE treatment resulted in significant upregulation of AMPK and PPARalpha expression (p < 0.001) and downregulation of CD36 and DPP4 (p < 0.001), as confirmed by Western blotting and qPCR. Furthermore, integration of WGCNA and network pharmacology pinpointed chlorogenic acid (CA), ursolic acid (UA), and oleanolic acid (OA) as the primary bioactive components, and their lipid-lowering effects were validated in FFA-treated THLE-2 cells. In conclusion, this study offers preliminary insights into the lipid-lowering mechanisms of CFE via regulation of the AMPK/PPARalpha/CD36/DPP4 signalling pathway and support its further development as a functional food ingredient for MAFLD prevention.",
+    "keywords": [
+      "Crataegi fructus",
+      "active ingredients",
+      "lipid metabolism",
+      "metabolic dysfunction-associated fatty liver disease (MAFLD)",
+      "multi-omics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Crataegus/chemistry",
+      "*Signal Transduction/drug effects",
+      "*AMP-Activated Protein Kinases/metabolism",
+      "*Plant Extracts/pharmacology/chemistry",
+      "Fruit/chemistry",
+      "Lipid Metabolism/drug effects",
+      "Multiomics",
+      "Metabolomics/methods",
+      "Diet, High-Fat/adverse effects",
+      "*Non-alcoholic Fatty Liver Disease/drug therapy/metabolism",
+      "Male",
+      "*Peroxisome Proliferator-Activated Receptors/metabolism",
+      "Molecular Docking Simulation",
+      "Disease Models, Animal",
+      "Liver/metabolism/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Xing",
+        "Zheng, Lulu",
+        "Xiao, Yuexiang",
+        "Xu, Ya",
+        "Xu, Qing",
+        "Zeng, Lihua",
+        "Hu, Siqi",
+        "Ruan, Deqing",
+        "Wang, Zhixin"
+      ],
+      "short_names": [
+        "Yan X",
+        "Zheng L",
+        "Xiao Y",
+        "Xu Y",
+        "Xu Q",
+        "Zeng L",
+        "Hu S",
+        "Ruan D",
+        "Wang Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7255-6049"
+      ],
+      "affiliations": [
+        "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+        "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China.",
+        "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+        "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China.",
+        "School of Pharmacy, Jiangxi University of Chinese Medicine, Nanchang 330004, China.",
+        "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+        "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China.",
+        "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+        "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China.",
+        "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+        "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China.",
+        "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+        "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China.",
+        "Yunnan Key Laboratory of Southern Medicine Utilization, Yunnan University of Chinese Medicine, Kunming 650500, China.",
+        "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+        "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Xing",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+          "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Lulu",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+          "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yuexiang",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi University of Chinese Medicine, Nanchang 330004, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ya",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+          "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qing",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+          "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Lihua",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+          "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Siqi",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+          "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China."
+        ]
+      },
+      {
+        "full_name": "Ruan, Deqing",
+        "short_name": "Ruan D",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Key Laboratory of Southern Medicine Utilization, Yunnan University of Chinese Medicine, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhixin",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0001-7255-6049"
+        ],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Sustainable Utilization of Traditional Chinese Medicine Resources & Jiangxi Province Key Laboratory of Traditional Chinese Medicine Pharmacology, Institute of Traditional Chinese Medicine Health Industry, China Academy of Chinese Medical Sciences, Nanchang 330115, China.",
+          "Jiangxi Health Industry Institute of Traditional Chinese Medicine, Nanchang 330115, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2026 Jun 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 06:38",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41744261",
+      "41260788",
+      "41240545",
+      "41222546",
+      "40749929",
+      "40614996",
+      "40446574",
+      "40434108",
+      "40356178",
+      "40263842",
+      "40063366",
+      "40007118",
+      "39919328",
+      "39610812",
+      "39605910",
+      "38986204",
+      "38790950",
+      "38228377",
+      "38225139",
+      "37992683",
+      "37788786",
+      "37653034",
+      "37337667",
+      "37235898",
+      "37146924",
+      "36610127",
+      "36425260",
+      "36076420",
+      "35975861",
+      "35710135",
+      "35484638",
+      "34925817",
+      "34760237",
+      "34231239",
+      "34116189",
+      "33989548",
+      "33729777",
+      "33570554",
+      "33068601",
+      "32684985",
+      "32278004",
+      "31316183",
+      "30944337",
+      "30042157",
+      "29926323",
+      "29883404",
+      "29883377",
+      "29325602",
+      "29031724"
+    ],
+    "similar": [
+      "42357514",
+      "41962267",
+      "40884939",
+      "38588984",
+      "40168586",
+      "40921229",
+      "40615099",
+      "40294666",
+      "41990925",
+      "41139042",
+      "38941818",
+      "41976162",
+      "32884949",
+      "39490432",
+      "40064115",
+      "41470792",
+      "41373985",
+      "39277989",
+      "40490232",
+      "42522177",
+      "41547913",
+      "42096839",
+      "40850071",
+      "38850668",
+      "37952731",
+      "39388921",
+      "41791621",
+      "42409346",
+      "39832686",
+      "40892742",
+      "42107753",
+      "42036469",
+      "40332475",
+      "39481627",
+      "42197046",
+      "38325669",
+      "40640749",
+      "39683561",
+      "40907406",
+      "42004952",
+      "40354830",
+      "39637931",
+      "37808345",
+      "41666508",
+      "40144651",
+      "39855055",
+      "41690038",
+      "42278231",
+      "40505757",
+      "31832001",
+      "41412548",
+      "42178074",
+      "29655677",
+      "36558538",
+      "38484950",
+      "38763495",
+      "30668424",
+      "40517619",
+      "41843424",
+      "40431421",
+      "41810443",
+      "41951193",
+      "40515882",
+      "40522193",
+      "39551284",
+      "41242309",
+      "39680356",
+      "40195661",
+      "40257305",
+      "38971026",
+      "41429620",
+      "41967776",
+      "41930505",
+      "41240545",
+      "41061809",
+      "42477798",
+      "40834611",
+      "40749929",
+      "41052689",
+      "41933745",
+      "31387185",
+      "41544727",
+      "38925322",
+      "41678914",
+      "40620498",
+      "41744261",
+      "39216775",
+      "40765411",
+      "31558861",
+      "40686142",
+      "31926984",
+      "39559790",
+      "40570552",
+      "42565737",
+      "41945403",
+      "30572631",
+      "41269296",
+      "34224699",
+      "42126802",
+      "40216908"
+    ],
+    "review": [
+      "42357514"
+    ],
+    "pmc": [
+      "13306006"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules31122118",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42357514/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1292",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

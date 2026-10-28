@@ -1,0 +1,204 @@
+{
+  "identity": {
+    "pmid": "41849667",
+    "doi": "10.1021/acs.jpcb.6c00354",
+    "title": "D-MBIS Nonbonded Force Field Parameters Improve Specificity and Selectivity Prediction in Bromodomains."
+  },
+  "content": {
+    "abstract": "Computer simulations are increasingly significant in drug discovery, especially for predicting ligand affinities through free energy calculations. Absolute alchemical free energy calculations are vital for assessing ligand specificity and selectivity, aiding in differentiating between on-target efficacy and off-target effects. The main challenges in these calculations involve capturing conformational changes in proteins and ligands, predicting binding poses correctly, and modeling molecular interactions using well-parametrized force fields. Here, we evaluate how ab initio derived nonbonded force field parameters predict the specificity among nine BRD4 inhibitors and the selectivity of bromosporine across 22 bromodomains. We replaced nonbonded Open Force Field Sage 2.0.0 parameters with atomic charges, van der Waals radii, and dispersion coefficients obtained from Minimal Basis Iterative Stockholder (D-MBIS) atom partitioning of the polarized electron density, along with incorporating ligand polarization energies. Our ligand force field parameters demonstrated a mean unsigned error of 0.48 kcal/mol in predicting absolute binding free energy for nine BRD4 inhibitors, showing a strong correlation with experimental results. In the bromosporine selectivity set, predictive errors resulted mainly from docking-derived binding poses. By focusing solely on experimentally resolved apo- and holo structures, we accurately replicated experimental selectivity rankings for seven out of eight receptors, identifying those with the highest and lowest binding affinities.",
+    "keywords": [],
+    "mesh_terms": [
+      "Bromodomain Containing Proteins",
+      "*Transcription Factors/antagonists & inhibitors/chemistry/metabolism",
+      "Thermodynamics",
+      "Ligands",
+      "Cell Cycle Proteins/antagonists & inhibitors",
+      "Humans",
+      "Protein Domains",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Macaya, Luis",
+        "Vohringer-Martinez, Esteban"
+      ],
+      "short_names": [
+        "Macaya L",
+        "Vohringer-Martinez E"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1785-4558"
+      ],
+      "affiliations": [
+        "Departamento de Fisico-Quimica, Facultad de Ciencias Quimicas, Universidad de Concepcion, 4070386 Concepcion, Chile.",
+        "Departamento de Fisico-Quimica, Facultad de Ciencias Quimicas, Universidad de Concepcion, 4070386 Concepcion, Chile."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Macaya, Luis",
+        "short_name": "Macaya L",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Físico-Química, Facultad de Ciencias Químicas, Universidad de Concepción, 4070386 Concepción, Chile."
+        ]
+      },
+      {
+        "full_name": "Vöhringer-Martinez, Esteban",
+        "short_name": "Vöhringer-Martinez E",
+        "identifiers": [
+          "0000-0003-1785-4558"
+        ],
+        "affiliations": [
+          "Departamento de Físico-Química, Facultad de Ciencias Químicas, Universidad de Concepción, 4070386 Concepción, Chile."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Apr 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/18 18:36",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41849667",
+      "38546407",
+      "39949041",
+      "35959540",
+      "28564537",
+      "39302888",
+      "31587361",
+      "29752734",
+      "31960251",
+      "31603667",
+      "34516130",
+      "31917572",
+      "26085821",
+      "34105560",
+      "28009512",
+      "37167486",
+      "33637650",
+      "26180998",
+      "38895959",
+      "16526746",
+      "14761204",
+      "11457149",
+      "39699110",
+      "17380508",
+      "34464129",
+      "30125107",
+      "38675678",
+      "41125627",
+      "27562018",
+      "30415285",
+      "34125530",
+      "34710811",
+      "32657160",
+      "39753520",
+      "36841551",
+      "17599350",
+      "17238257",
+      "24015114",
+      "30079805",
+      "41320896",
+      "34609863",
+      "31246451",
+      "28696692",
+      "41721726",
+      "30182836",
+      "39699235",
+      "30143917",
+      "33307679",
+      "30260047",
+      "27677749",
+      "41071960",
+      "29694035",
+      "30411639",
+      "39636703",
+      "27782467",
+      "36644887",
+      "38147689",
+      "24032517",
+      "26400829",
+      "18366628",
+      "8346190",
+      "31984465",
+      "36459593",
+      "32496901",
+      "39773125",
+      "38501198",
+      "39930586",
+      "37570684",
+      "32149490",
+      "36773087",
+      "19782087",
+      "32810401",
+      "27494802",
+      "35011350",
+      "23896298",
+      "41442825",
+      "26575767",
+      "33764050",
+      "38323915",
+      "31960254",
+      "29243483",
+      "23267463",
+      "17291029",
+      "22731511",
+      "39274873",
+      "28466681",
+      "35156677",
+      "38425011",
+      "21541965",
+      "32715202",
+      "29896599",
+      "33441879",
+      "19309094",
+      "32091206",
+      "17554859",
+      "39480515",
+      "36399655",
+      "29119352",
+      "18507452",
+      "36930332"
+    ],
+    "review": [
+      "41849667",
+      "30182836",
+      "39699235",
+      "19309094"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c00354",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

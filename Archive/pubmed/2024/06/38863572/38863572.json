@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "38863572",
+    "doi": "10.1093/braincomms/fcae187",
+    "title": "Converging peripheral blood microRNA profiles in Parkinson's disease and progressive supranuclear palsy."
+  },
+  "content": {
+    "abstract": "MicroRNAs act via targeted suppression of messenger RNA translation in the DNA-RNA-protein axis. The dysregulation of microRNA(s) reflects the epigenetic changes affecting the cellular processes in multiple disorders. To understand the complex effect of dysregulated microRNAs linked to neurodegeneration, we performed a cross-sectional microRNA expression analysis in idiopathic Parkinson's disease (n = 367), progressive supranuclear palsy (n = 35) and healthy controls (n = 416) from the Luxembourg Parkinson's Study, followed by prediction modelling, enriched pathway analysis and target simulation of dysregulated microRNAs using probabilistic Boolean modelling. Forty-six microRNAs were identified to be dysregulated in Parkinson's disease versus controls and 16 in progressive supranuclear palsy versus controls with 4 overlapping significantly dysregulated microRNAs between the comparisons. Predictive power of microRNA subsets (including up to 100 microRNAs) was modest for differentiating Parkinson's disease or progressive supranuclear palsy from controls (maximal cross-validated area under the receiver operating characteristic curve 0.76 and 0.86, respectively) and low for progressive supranuclear palsy versus Parkinson's disease (maximal cross-validated area under the receiver operating characteristic curve 0.63). The enriched pathway analysis revealed natural killer cell pathway to be dysregulated in both, Parkinson's disease and progressive supranuclear palsy versus controls, indicating that the immune system might play an important role in both diseases. Probabilistic Boolean modelling of pathway dynamics affected by dysregulated microRNAs in Parkinson's disease and progressive supranuclear palsy revealed partially overlapping dysregulation in activity of the transcription factor EB, endoplasmic reticulum stress signalling, calcium signalling pathway, dopaminergic transcription and peroxisome proliferator-activated receptor gamma coactivator-1alpha activity, though involving different mechanisms. These findings indicated a partially convergent (sub)cellular end-point dysfunction at multiple levels in Parkinson's disease and progressive supranuclear palsy, but with distinctive underlying molecular mechanisms.",
+    "keywords": [
+      "Boolean modelling",
+      "Parkinson's disease",
+      "microRNA",
+      "natural killer cell",
+      "progressive supranuclear palsy"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pavelka, Lukas",
+        "Rauschenberger, Armin",
+        "Hemedan, Ahmed",
+        "Ostaszewski, Marek",
+        "Glaab, Enrico",
+        "Kruger, Rejko"
+      ],
+      "short_names": [
+        "Pavelka L",
+        "Rauschenberger A",
+        "Hemedan A",
+        "Ostaszewski M",
+        "Glaab E",
+        "Kruger R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7721-3317",
+        "ORCID: 0000-0001-6498-4801",
+        "ORCID: 0000-0003-1473-370X",
+        "ORCID: 0000-0003-3977-7469"
+      ],
+      "affiliations": [
+        "Transversal Translational Medicine, Luxembourg Institute of Health (LIH), Strassen L-1445, Luxembourg.",
+        "Parkinson's Research Clinic, Centre Hospitalier de Luxembourg (CHL), Luxembourg L-1210, Luxembourg.",
+        "Translational Neuroscience, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg.",
+        "Biomedical Data Science Group, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg.",
+        "Competence Centre for Methodology and Statistics, Translational Medicine Operations Hub, Luxembourg Institute of Health (LIH), Strassen L-1445, Luxembourg.",
+        "Bioinformatics Core Unit, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg.",
+        "Bioinformatics Core Unit, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg.",
+        "Biomedical Data Science Group, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg.",
+        "Transversal Translational Medicine, Luxembourg Institute of Health (LIH), Strassen L-1445, Luxembourg.",
+        "Parkinson's Research Clinic, Centre Hospitalier de Luxembourg (CHL), Luxembourg L-1210, Luxembourg.",
+        "Translational Neuroscience, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pavelka, Lukas",
+        "short_name": "Pavelka L",
+        "identifiers": [
+          "0000-0002-7721-3317"
+        ],
+        "affiliations": [
+          "Transversal Translational Medicine, Luxembourg Institute of Health (LIH), Strassen L-1445, Luxembourg.",
+          "Parkinson's Research Clinic, Centre Hospitalier de Luxembourg (CHL), Luxembourg L-1210, Luxembourg.",
+          "Translational Neuroscience, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Rauschenberger, Armin",
+        "short_name": "Rauschenberger A",
+        "identifiers": [
+          "0000-0001-6498-4801"
+        ],
+        "affiliations": [
+          "Biomedical Data Science Group, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg.",
+          "Competence Centre for Methodology and Statistics, Translational Medicine Operations Hub, Luxembourg Institute of Health (LIH), Strassen L-1445, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Hemedan, Ahmed",
+        "short_name": "Hemedan A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Core Unit, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Ostaszewski, Marek",
+        "short_name": "Ostaszewski M",
+        "identifiers": [
+          "0000-0003-1473-370X"
+        ],
+        "affiliations": [
+          "Bioinformatics Core Unit, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Glaab, Enrico",
+        "short_name": "Glaab E",
+        "identifiers": [
+          "0000-0003-3977-7469"
+        ],
+        "affiliations": [
+          "Biomedical Data Science Group, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Krüger, Rejko",
+        "short_name": "Krüger R",
+        "identifiers": [],
+        "affiliations": [
+          "Transversal Translational Medicine, Luxembourg Institute of Health (LIH), Strassen L-1445, Luxembourg.",
+          "Parkinson's Research Clinic, Centre Hospitalier de Luxembourg (CHL), Luxembourg L-1210, Luxembourg.",
+          "Translational Neuroscience, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette L-4367, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain communications"
+    ],
+    "journal_abbrev": [
+      "Brain Commun"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/12 06:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "41797877",
+      "40799390",
+      "40690754",
+      "40410181",
+      "39769025",
+      "39125813"
+    ],
+    "refs": [
+      "38618193",
+      "38520611",
+      "38467937",
+      "38174101",
+      "38173558",
+      "37996455",
+      "37985656",
+      "37985452",
+      "37832803",
+      "37803093",
+      "37770507",
+      "37626097",
+      "37549558",
+      "37476007",
+      "37332877",
+      "37325771",
+      "37209924",
+      "37118411",
+      "36732514",
+      "36580159",
+      "36382223",
+      "36354133",
+      "36148521",
+      "36056557",
+      "35962561",
+      "35945230",
+      "35873611",
+      "35782730",
+      "35739255",
+      "35729600",
+      "35626359",
+      "35164900",
+      "35039873",
+      "34381349",
+      "34161705",
+      "33913039",
+      "33444973",
+      "33235214",
+      "33204711",
+      "33050194",
+      "32973221",
+      "32860338",
+      "32676851",
+      "32671737",
+      "32487421",
+      "32138754",
+      "31900358",
+      "31799764",
+      "31495604",
+      "31123295",
+      "31037649",
+      "30990912",
+      "30941089",
+      "30826067",
+      "30744070",
+      "30567465",
+      "30557454",
+      "30420802",
+      "30258237",
+      "29372317",
+      "29263008",
+      "28879408",
+      "28468938",
+      "28467028",
+      "27052995",
+      "26921406",
+      "26771021",
+      "26267216",
+      "25992776",
+      "25175044",
+      "25173806",
+      "24987329",
+      "24928098",
+      "24781149",
+      "23938262",
+      "23832570",
+      "22451330",
+      "19915575",
+      "17506695",
+      "15541309",
+      "14744438",
+      "12722160",
+      "12498954"
+    ],
+    "similar": [
+      "38863572",
+      "27330973",
+      "10869053",
+      "26705348",
+      "33822892",
+      "25223526",
+      "9703164",
+      "9126169",
+      "22396397",
+      "23031506",
+      "35485527",
+      "19903734",
+      "33323270",
+      "26582559",
+      "23253819",
+      "37669861",
+      "34316619",
+      "9313638",
+      "1965015",
+      "29050386",
+      "35039873",
+      "23477861",
+      "27052995",
+      "9034366",
+      "10448425",
+      "23674400",
+      "8332256",
+      "33151015",
+      "35403258",
+      "34676446",
+      "34839044",
+      "28566154",
+      "22290788",
+      "12933921",
+      "31289815",
+      "9489529",
+      "2132742",
+      "20576697",
+      "28155586",
+      "9365377",
+      "1436470",
+      "10209184",
+      "26788342",
+      "31420309",
+      "8337978",
+      "31324404",
+      "31634718",
+      "28364007",
+      "22359740",
+      "38148738",
+      "3190499",
+      "31181432",
+      "34220661",
+      "25619571",
+      "31560709",
+      "16531926",
+      "16014651",
+      "8080242",
+      "24304186",
+      "37673523",
+      "10435500",
+      "33640580",
+      "33945022",
+      "36670276",
+      "24058574",
+      "7891888",
+      "24280021",
+      "36222971",
+      "30248063",
+      "18819991",
+      "1929903",
+      "24573655",
+      "35032742",
+      "19763772",
+      "29460073",
+      "38174101",
+      "1988548",
+      "9875276",
+      "33070521",
+      "10928572",
+      "31582232",
+      "35054178",
+      "1497499",
+      "31155683",
+      "16815875",
+      "26174787",
+      "25044107",
+      "27981030",
+      "29631169",
+      "33190103",
+      "26388542",
+      "30796010",
+      "37701844",
+      "28122879",
+      "27160570",
+      "35274674",
+      "36382223",
+      "11433638",
+      "39429779",
+      "38913951",
+      "39402686"
+    ],
+    "review": [
+      "38863572",
+      "28566154",
+      "31420309"
+    ],
+    "pmc": [
+      "11166179"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38863572/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38863572",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/braincomms/article-lookup/doi/10.1093/braincomms/fcae187",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

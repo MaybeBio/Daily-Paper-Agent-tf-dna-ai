@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "38078851",
+    "doi": "10.1021/acs.jpcb.3c04775",
+    "title": "Markov State Model of Solvent Features Reveals Water Dynamics in Protein-Peptide Binding."
+  },
+  "content": {
+    "abstract": "In this work, we investigate the role of solvent in the binding reaction of the p53 transactivation domain (TAD) peptide to its receptor MDM2. Previously, our group generated 831 mus of explicit-solvent aggregate molecular simulation trajectory data for the MDM2-p53 peptide binding reaction using large-scale distributed computing and subsequently built a Markov State Model (MSM) of the binding reaction (Zhou et al. 2017). Here, we perform a tICA analysis and construct an MSM with similar hyperparameters while using only solvent-based structural features. We find a remarkably similar landscape but accelerated implied timescales for the slowest motions. The solvent shells contributing most to the first tICA eigenvector are those centered on Lys24 and Thr18 of the p53 TAD peptide in the range of 3-6 A. Important solvent shells were visualized to reveal solvation and desolvation transitions along the peptide-protein binding trajectories. Our results provide a solvent-centric view of the hydrophobic effect in action for a realistic peptide-protein binding scenario.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Binding",
+      "Solvents",
+      "*Water/metabolism",
+      "*Tumor Suppressor Protein p53/chemistry",
+      "Molecular Dynamics Simulation",
+      "Peptides/metabolism",
+      "Proto-Oncogene Proteins c-mdm2/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Raddi, Robert M",
+        "Voelz, Vincent A"
+      ],
+      "short_names": [
+        "Raddi RM",
+        "Voelz VA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7139-5028",
+        "ORCID: 0000-0002-1054-2124"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States.",
+        "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Raddi, Robert M",
+        "short_name": "Raddi RM",
+        "identifiers": [
+          "0000-0001-7139-5028"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States."
+        ]
+      },
+      {
+        "full_name": "Voelz, Vincent A",
+        "short_name": "Voelz VA",
+        "identifiers": [
+          "0000-0002-1054-2124"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Dec 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/11 12:42",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "40136079",
+      "39670451"
+    ],
+    "refs": [
+      "36945779",
+      "35895105",
+      "35655546",
+      "34046431",
+      "34031561",
+      "33905247",
+      "33759131",
+      "32323533",
+      "31941308",
+      "30679555",
+      "30252476",
+      "29522679",
+      "28915754",
+      "28834715",
+      "28614661",
+      "28475332",
+      "28248491",
+      "28076801",
+      "28042966",
+      "27538695",
+      "27532687",
+      "27186992",
+      "26620784",
+      "26588361",
+      "26579759",
+      "26574340",
+      "26574285",
+      "26488642",
+      "26134632",
+      "26100866",
+      "25362358",
+      "24803860",
+      "23901110",
+      "23750122",
+      "23368418",
+      "23286874",
+      "22747188",
+      "22721951",
+      "21988563",
+      "21548671",
+      "20715028",
+      "20070076",
+      "19887634",
+      "19278259",
+      "19216110",
+      "17742054",
+      "16136146",
+      "15264254",
+      "14507993",
+      "12444262",
+      "12381304",
+      "10908673",
+      "8875929"
+    ],
+    "similar": [
+      "38078851",
+      "33905247",
+      "28834715",
+      "30645121",
+      "40662768",
+      "17957142",
+      "21528875",
+      "38916177",
+      "33759131",
+      "25584963",
+      "18800837",
+      "30679555",
+      "19255450",
+      "40396628",
+      "24491548",
+      "24342622",
+      "26701330",
+      "21088491",
+      "31282659",
+      "19713735",
+      "27538695",
+      "18256546",
+      "38679255",
+      "26138282",
+      "38196284",
+      "17302414",
+      "32192337",
+      "27905468",
+      "19363523",
+      "24418072",
+      "32497081",
+      "22617389",
+      "32448094",
+      "29142290",
+      "28042966",
+      "28871352",
+      "21904608",
+      "15358376",
+      "29878773",
+      "39754310",
+      "23922660",
+      "33401765",
+      "26046940",
+      "22176582",
+      "16159876",
+      "30252476",
+      "8875929",
+      "41321227",
+      "23324352",
+      "25591003",
+      "27532687",
+      "22148351",
+      "39064955",
+      "28000315",
+      "16402859",
+      "31241933",
+      "18355443",
+      "19305137",
+      "12381304",
+      "19220000",
+      "25275651",
+      "19323449",
+      "22807444",
+      "22408446",
+      "19916559",
+      "25115702",
+      "28425639",
+      "16474402",
+      "18435534",
+      "14741215",
+      "19958516",
+      "18826207",
+      "19408261",
+      "21423613",
+      "24211465",
+      "22815859",
+      "25840370",
+      "35536362",
+      "26032728",
+      "21077640",
+      "23705683",
+      "16857591",
+      "23609977",
+      "35752942",
+      "31795143",
+      "21764342",
+      "28992700",
+      "38991490",
+      "24858256",
+      "16817233",
+      "32651397",
+      "29696695",
+      "32353067",
+      "28916339",
+      "14967026",
+      "24830845",
+      "22916232",
+      "35037401",
+      "24264557",
+      "31473433"
+    ],
+    "review": [
+      "38078851",
+      "33759131"
+    ],
+    "pmc": [
+      "12147456"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38078851/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c04775",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

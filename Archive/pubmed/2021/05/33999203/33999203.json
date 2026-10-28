@@ -1,0 +1,791 @@
+{
+  "identity": {
+    "pmid": "33999203",
+    "doi": "10.1093/nar/gkab354",
+    "title": "PredictProtein - Predicting Protein Structure and Function for 29 Years."
+  },
+  "content": {
+    "abstract": "Since 1992 PredictProtein (https://predictprotein.org) is a one-stop online resource for protein sequence analysis with its main site hosted at the Luxembourg Centre for Systems Biomedicine (LCSB) and queried monthly by over 3,000 users in 2020. PredictProtein was the first Internet server for protein predictions. It pioneered combining evolutionary information and machine learning. Given a protein sequence as input, the server outputs multiple sequence alignments, predictions of protein structure in 1D and 2D (secondary structure, solvent accessibility, transmembrane segments, disordered regions, protein flexibility, and disulfide bridges) and predictions of protein function (functional effects of sequence variation or point mutations, Gene Ontology (GO) terms, subcellular localization, and protein-, RNA-, and DNA binding). PredictProtein's infrastructure has moved to the LCSB increasing throughput; the use of MMseqs2 sequence search reduced runtime five-fold (apparently without lowering performance of prediction methods); user interface elements improved usability, and new prediction methods were added. PredictProtein recently included predictions from deep learning embeddings (GO and secondary structure) and a method for the prediction of proteins and residues binding DNA, RNA, or other proteins. PredictProtein.org aspires to provide reliable predictions to computational and experimental biologists alike. All scripts and methods are freely available for offline execution in high-throughput settings.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Coronavirus Nucleocapsid Proteins/chemistry",
+      "DNA-Binding Proteins/chemistry",
+      "Phosphoproteins/chemistry",
+      "*Protein Conformation",
+      "Protein Structure, Secondary",
+      "Proteins/chemistry/physiology",
+      "RNA-Binding Proteins/chemistry",
+      "Sequence Alignment",
+      "Sequence Analysis, Protein",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bernhofer, Michael",
+        "Dallago, Christian",
+        "Karl, Tim",
+        "Satagopam, Venkata",
+        "Heinzinger, Michael",
+        "Littmann, Maria",
+        "Olenyi, Tobias",
+        "Qiu, Jiajun",
+        "Schutze, Konstantin",
+        "Yachdav, Guy",
+        "Ashkenazy, Haim",
+        "Ben-Tal, Nir",
+        "Bromberg, Yana",
+        "Goldberg, Tatyana",
+        "Kajan, Laszlo",
+        "O'Donoghue, Sean",
+        "Sander, Chris",
+        "Schafferhans, Andrea",
+        "Schlessinger, Avner",
+        "Vriend, Gerrit",
+        "Mirdita, Milot",
+        "Gawron, Piotr",
+        "Gu, Wei",
+        "Jarosz, Yohan",
+        "Trefois, Christophe",
+        "Steinegger, Martin",
+        "Schneider, Reinhard",
+        "Rost, Burkhard"
+      ],
+      "short_names": [
+        "Bernhofer M",
+        "Dallago C",
+        "Karl T",
+        "Satagopam V",
+        "Heinzinger M",
+        "Littmann M",
+        "Olenyi T",
+        "Qiu J",
+        "Schutze K",
+        "Yachdav G",
+        "Ashkenazy H",
+        "Ben-Tal N",
+        "Bromberg Y",
+        "Goldberg T",
+        "Kajan L",
+        "O'Donoghue S",
+        "Sander C",
+        "Schafferhans A",
+        "Schlessinger A",
+        "Vriend G",
+        "Mirdita M",
+        "Gawron P",
+        "Gu W",
+        "Jarosz Y",
+        "Trefois C",
+        "Steinegger M",
+        "Schneider R",
+        "Rost B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6103-3306",
+        "ORCID: 0000-0003-4650-6181",
+        "ORCID: 0000-0002-6532-5880",
+        "ORCID: 0000-0003-1790-8536",
+        "ORCID: 0000-0002-8351-0844",
+        "ORCID: 0000-0001-8637-6719",
+        "ORCID: 0000-0002-8991-6810",
+        "ORCID: 0000-0002-8278-1618"
+      ],
+      "affiliations": [
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "TUM Graduate School CeDoSIA, Boltzmannstr 11, 85748 Garching, Germany.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "TUM Graduate School CeDoSIA, Boltzmannstr 11, 85748 Garching, Germany.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "TUM Graduate School CeDoSIA, Boltzmannstr 11, 85748 Garching, Germany.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "TUM Graduate School CeDoSIA, Boltzmannstr 11, 85748 Garching, Germany.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "Department of Otolaryngology Head & Neck Surgery, The Ninth People's Hospital & Ear Institute, School of Medicine & Shanghai Key Laboratory of Translational Medicine on Ear and Nose Diseases, Shanghai Jiao Tong University, Shanghai, China.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "Department of Molecular Biology, Max Planck Institute for Developmental Biology, Tubingen, Germany.",
+        "The Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, 69978 Tel Aviv, Israel.",
+        "Department of Biochemistry & Molecular Biology, George S. Wise Faculty of Life Sciences, Tel Aviv University, 69978 Tel Aviv, Israel.",
+        "Department of Biochemistry and Microbiology, Rutgers University, New Brunswick, NJ 08901, USA.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "Roche Polska Sp. z o.o., Domaniewska 39B, 02-672 Warsaw, Poland.",
+        "Garvan Institute of Medical Research, Sydney, Australia.",
+        "Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA 02215, USA.",
+        "Department of Cell Biology, Harvard Medical School, Boston, MA 02215, USA.",
+        "Broad Institute of MIT and Harvard, Boston, MA 02142, USA.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "HSWT (Hochschule Weihenstephan Triesdorf | University of Applied Sciences), Department of Bioengineering Sciences, Am Hofgarten 10, 85354 Freising, Germany.",
+        "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "BIPS, Poblacion Baco, Mindoro, Philippines.",
+        "Quantitative and Computational Biology, Max Planck Institute for Biophysical Chemistry, Gottingen, Germany.",
+        "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "School of Biological Sciences, Seoul National University, Seoul, South Korea.",
+        "Artificial Intelligence Institute, Seoul National University, Seoul, South Korea.",
+        "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+        "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+        "Institute for Advanced Study (TUM-IAS), Lichtenbergstr. 2a, 85748 Garching/Munich, Germany.",
+        "TUM School of Life Sciences Weihenstephan (WZW), Alte Akademie 8, Freising, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bernhofer, Michael",
+        "short_name": "Bernhofer M",
+        "identifiers": [
+          "0000-0001-6103-3306"
+        ],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+          "TUM Graduate School CeDoSIA, Boltzmannstr 11, 85748 Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Dallago, Christian",
+        "short_name": "Dallago C",
+        "identifiers": [
+          "0000-0003-4650-6181"
+        ],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+          "TUM Graduate School CeDoSIA, Boltzmannstr 11, 85748 Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Karl, Tim",
+        "short_name": "Karl T",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Satagopam, Venkata",
+        "short_name": "Satagopam V",
+        "identifiers": [
+          "0000-0002-6532-5880"
+        ],
+        "affiliations": [
+          "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+          "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Heinzinger, Michael",
+        "short_name": "Heinzinger M",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+          "TUM Graduate School CeDoSIA, Boltzmannstr 11, 85748 Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Littmann, Maria",
+        "short_name": "Littmann M",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+          "TUM Graduate School CeDoSIA, Boltzmannstr 11, 85748 Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Olenyi, Tobias",
+        "short_name": "Olenyi T",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Qiu, Jiajun",
+        "short_name": "Qiu J",
+        "identifiers": [
+          "0000-0003-1790-8536"
+        ],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+          "Department of Otolaryngology Head & Neck Surgery, The Ninth People's Hospital & Ear Institute, School of Medicine & Shanghai Key Laboratory of Translational Medicine on Ear and Nose Diseases, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Schütze, Konstantin",
+        "short_name": "Schütze K",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Yachdav, Guy",
+        "short_name": "Yachdav G",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Ashkenazy, Haim",
+        "short_name": "Ashkenazy H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Max Planck Institute for Developmental Biology, Tübingen, Germany.",
+          "The Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, 69978 Tel Aviv, Israel."
+        ]
+      },
+      {
+        "full_name": "Ben-Tal, Nir",
+        "short_name": "Ben-Tal N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, George S. Wise Faculty of Life Sciences, Tel Aviv University, 69978 Tel Aviv, Israel."
+        ]
+      },
+      {
+        "full_name": "Bromberg, Yana",
+        "short_name": "Bromberg Y",
+        "identifiers": [
+          "0000-0002-8351-0844"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Microbiology, Rutgers University, New Brunswick, NJ 08901, USA."
+        ]
+      },
+      {
+        "full_name": "Goldberg, Tatyana",
+        "short_name": "Goldberg T",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Kajan, Laszlo",
+        "short_name": "Kajan L",
+        "identifiers": [],
+        "affiliations": [
+          "Roche Polska Sp. z o.o., Domaniewska 39B, 02-672 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "O'Donoghue, Sean",
+        "short_name": "O'Donoghue S",
+        "identifiers": [],
+        "affiliations": [
+          "Garvan Institute of Medical Research, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Sander, Chris",
+        "short_name": "Sander C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA 02215, USA.",
+          "Department of Cell Biology, Harvard Medical School, Boston, MA 02215, USA.",
+          "Broad Institute of MIT and Harvard, Boston, MA 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Schafferhans, Andrea",
+        "short_name": "Schafferhans A",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+          "HSWT (Hochschule Weihenstephan Triesdorf | University of Applied Sciences), Department of Bioengineering Sciences, Am Hofgarten 10, 85354 Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Schlessinger, Avner",
+        "short_name": "Schlessinger A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Vriend, Gerrit",
+        "short_name": "Vriend G",
+        "identifiers": [],
+        "affiliations": [
+          "BIPS, Poblacion Baco, Mindoro, Philippines."
+        ]
+      },
+      {
+        "full_name": "Mirdita, Milot",
+        "short_name": "Mirdita M",
+        "identifiers": [
+          "0000-0001-8637-6719"
+        ],
+        "affiliations": [
+          "Quantitative and Computational Biology, Max Planck Institute for Biophysical Chemistry, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Gawron, Piotr",
+        "short_name": "Gawron P",
+        "identifiers": [],
+        "affiliations": [
+          "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Gu, Wei",
+        "short_name": "Gu W",
+        "identifiers": [],
+        "affiliations": [
+          "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+          "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Jarosz, Yohan",
+        "short_name": "Jarosz Y",
+        "identifiers": [],
+        "affiliations": [
+          "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+          "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Trefois, Christophe",
+        "short_name": "Trefois C",
+        "identifiers": [
+          "0000-0002-8991-6810"
+        ],
+        "affiliations": [
+          "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+          "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Steinegger, Martin",
+        "short_name": "Steinegger M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Seoul National University, Seoul, South Korea.",
+          "Artificial Intelligence Institute, Seoul National University, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Schneider, Reinhard",
+        "short_name": "Schneider R",
+        "identifiers": [
+          "0000-0002-8278-1618"
+        ],
+        "affiliations": [
+          "Luxembourg Centre For Systems Biomedicine (LCSB), University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg.",
+          "ELIXIR Luxembourg (ELIXIR-LU) Node, University of Luxembourg, Campus Belval, House of Biomedicine II, 6 avenue du Swing, L-4367 Belvaux, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Rost, Burkhard",
+        "short_name": "Rost B",
+        "identifiers": [],
+        "affiliations": [
+          "TUM (Technical University of Munich) Department of Informatics, Bioinformatics & Computational Biology - i12, Boltzmannstr 3, 85748 Garching/Munich, Germany.",
+          "Institute for Advanced Study (TUM-IAS), Lichtenbergstr. 2a, 85748 Garching/Munich, Germany.",
+          "TUM School of Life Sciences Weihenstephan (WZW), Alte Akademie 8, Freising, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Jul 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/18 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "42626434",
+      "42376385",
+      "42071121",
+      "41616010",
+      "41463346",
+      "41344551",
+      "41343195",
+      "40960288",
+      "40870802",
+      "40745158",
+      "40728619",
+      "40680112",
+      "40671799",
+      "40661760",
+      "40623181",
+      "40601260",
+      "40496891",
+      "40464787",
+      "40443888",
+      "40388352",
+      "40375555",
+      "40312517",
+      "40116298",
+      "40060589",
+      "39947743",
+      "39932919",
+      "39919831",
+      "39898030",
+      "39866399",
+      "39866095",
+      "39865260",
+      "39840997",
+      "39789647",
+      "39759444",
+      "39754033",
+      "39684266",
+      "39663928",
+      "39576581",
+      "39480892",
+      "39383002",
+      "39339954",
+      "39339524",
+      "39336745",
+      "39315272",
+      "39312471",
+      "39310778",
+      "39243017",
+      "39237735",
+      "39202442",
+      "39147851",
+      "39027650",
+      "39001544",
+      "38979285",
+      "38898419",
+      "38889770",
+      "38884271",
+      "38858069",
+      "38849728",
+      "38819305",
+      "38701416",
+      "38666959",
+      "38494248",
+      "38400085",
+      "38388527",
+      "38383452",
+      "38337024",
+      "38244570",
+      "38228372",
+      "38217709",
+      "38177985",
+      "38140559",
+      "38138057",
+      "38002922",
+      "37933852",
+      "37932372",
+      "37841893",
+      "37760701",
+      "37754547",
+      "37736790",
+      "37722056",
+      "37701516",
+      "37647410",
+      "37603371",
+      "37555826",
+      "37548918",
+      "37375153",
+      "37309887",
+      "37272612",
+      "37248254",
+      "37243176",
+      "37178306",
+      "37154149",
+      "37109455",
+      "37091898",
+      "37061714",
+      "37047816",
+      "37025415",
+      "36975404",
+      "36964197",
+      "36847334",
+      "36846751",
+      "36833329",
+      "36756251",
+      "36744229",
+      "36700108",
+      "36661528",
+      "36647076",
+      "36643753",
+      "36598941",
+      "36552583",
+      "36534707",
+      "36533921",
+      "36519247",
+      "36499617",
+      "36454227",
+      "36440140",
+      "36420221",
+      "36169766",
+      "36161833",
+      "36140726",
+      "36133174",
+      "36092910",
+      "35961013",
+      "35941534",
+      "35918655",
+      "35918366",
+      "35869530",
+      "35774827",
+      "35762709",
+      "35759918",
+      "35664302",
+      "35615926",
+      "35582904",
+      "35446879",
+      "35358178",
+      "35328813",
+      "35229716",
+      "35134149",
+      "34967936",
+      "34903827",
+      "34869316",
+      "34791421",
+      "34757836",
+      "34736895",
+      "34732128",
+      "34638654",
+      "34575940",
+      "34473083",
+      "34201246"
+    ],
+    "refs": [
+      "34519429",
+      "34232869",
+      "33961736",
+      "33876751",
+      "33441905",
+      "33390682",
+      "33270886",
+      "33264373",
+      "33257889",
+      "33237286",
+      "33123346",
+      "32657353",
+      "32399560",
+      "32150354",
+      "32142788",
+      "31847804",
+      "31744546",
+      "31636460",
+      "31235882",
+      "31005579",
+      "30837494",
+      "30785653",
+      "30615063",
+      "30357350",
+      "29959318",
+      "29931246",
+      "29139163",
+      "29035372",
+      "28334982",
+      "28334231",
+      "27899574",
+      "27604469",
+      "27566436",
+      "27166375",
+      "26110438",
+      "25657331",
+      "25633501",
+      "25378336",
+      "24848019",
+      "24799431",
+      "23971032",
+      "23825697",
+      "23161676",
+      "21966383",
+      "21071426",
+      "20482798",
+      "20478830",
+      "19209228",
+      "16844988",
+      "16844986",
+      "16455751",
+      "14871869",
+      "14685688",
+      "14681408",
+      "11551180",
+      "10592235",
+      "9254694",
+      "8743704",
+      "8356056",
+      "8345525",
+      "2231712",
+      "1281284"
+    ],
+    "similar": [
+      "33999203",
+      "15215403",
+      "24799431",
+      "36454227",
+      "12824312",
+      "32142788",
+      "23031578",
+      "12824317",
+      "23971032",
+      "39237207",
+      "8710823",
+      "9485511",
+      "15720719",
+      "12824313",
+      "28472402",
+      "20507911",
+      "15980571",
+      "18463136",
+      "20478832",
+      "38738636",
+      "19439068",
+      "22082966",
+      "35662466",
+      "17237068",
+      "29361894",
+      "16774686",
+      "31073595",
+      "19717576",
+      "20887256",
+      "39575640",
+      "21575183",
+      "31524991",
+      "40133791",
+      "16845003",
+      "15980588",
+      "12169531",
+      "25883148",
+      "22574904",
+      "26109352",
+      "9615448",
+      "20730460",
+      "19508202",
+      "17452345",
+      "15347578",
+      "22661576",
+      "17021161",
+      "28510698",
+      "26956673",
+      "26454278",
+      "23819482",
+      "18241343",
+      "14990443",
+      "40297999",
+      "40331414",
+      "15890748",
+      "28383703",
+      "39833102",
+      "40449614",
+      "16790841",
+      "27787818",
+      "18803867",
+      "32621217",
+      "23469223",
+      "20360767",
+      "28132027",
+      "16293670",
+      "22618536",
+      "15059818",
+      "15215442",
+      "31114880",
+      "26072475",
+      "26445311",
+      "21459847",
+      "19487258",
+      "40546733",
+      "18215316",
+      "12824311",
+      "29047157",
+      "14681398",
+      "23761453",
+      "15797907",
+      "23396123",
+      "17553833",
+      "17284455",
+      "20003426",
+      "17942444",
+      "31045208",
+      "27198220",
+      "18503087",
+      "25883141",
+      "15890082",
+      "15840708",
+      "29028931",
+      "17517783",
+      "12824334",
+      "39985437",
+      "24753425",
+      "40185915",
+      "35648435",
+      "12850141"
+    ],
+    "review": [
+      "33999203",
+      "39833102"
+    ],
+    "pmc": [
+      "8265159"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33999203/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33999203",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33999203",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33999203",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab354",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

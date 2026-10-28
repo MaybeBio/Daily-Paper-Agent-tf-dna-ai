@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34415020",
+  "title": "DNAgenie: accurate prediction of DNA-type-specific binding residues in protein sequences.",
+  "authors": "Zhang, Jian; Ghadermarzi, Sina; Katuwawala, Akila; Kurgan, Lukasz",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-08-21",
+  "window": {
+    "start": "2021-08-16",
+    "end": "2021-08-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习预测蛋白序列中与A-DNA、B-DNA和单链DNA结合的残基，虽非TF-DNA特异体系，但属于蛋白-DNA互作结合位点预测，方法可迁移至TF-DNA研究。",
+  "abstract": "Efforts to elucidate protein-DNA interactions at the molecular level rely in part on accurate predictions of DNA-binding residues in protein sequences. While there are over a dozen computational predictors of the DNA-binding residues, they are DNA-type agnostic and significantly cross-predict residues that interact with other ligands as DNA binding. We leverage a custom-designed machine learning architecture to introduce DNAgenie, first-of-its-kind predictor of residues that interact with A-DNA, B-DNA and single-stranded DNA. DNAgenie uses a comprehensive physiochemical profile extracted from an input protein sequence and implements a two-step refinement process to provide accurate predictions and to minimize the cross-predictions. Comparative tests on an independent test dataset demonstrate that DNAgenie outperforms the current methods that we adapt to predict residue-level interactions with the three DNA types. Further analysis finds that the use of the second (refinement) step leads to a substantial reduction in the cross predictions. Empirical tests show that DNAgenie's outputs that are converted to coarse-grained protein-level predictions compare favorably against recent tools that predict which DNA-binding proteins interact with double-stranded versus single-stranded DNAs. Moreover, predictions from the sequences of the whole human proteome reveal that the results produced by DNAgenie substantially overlap with the known DNA-binding proteins while also including promising leads for several hundred previously unknown putative DNA binders. These results suggest that DNAgenie is a valuable tool for the sequence-based characterization of protein functions. The DNAgenie's webserver is available at http://biomine.cs.vcu.edu/servers/DNAgenie/.",
+  "abstract_zh": "在分子层面阐明蛋白质-DNA相互作用的努力，部分依赖于对蛋白质序列中DNA结合残基的准确预测。尽管已有超过十种计算预测器用于DNA结合残基的预测，但它们对DNA类型不敏感，并且显著地将与其他配体相互作用的残基错误预测为DNA结合。我们利用一种定制设计的机器学习架构，推出了DNAgenie，这是首个能够预测与A-DNA、B-DNA及单链DNA相互作用的残基的预测器。DNAgenie利用从输入蛋白质序列中提取的全面理化特征，并实施两步精炼过程，以提供准确预测并最小化交叉预测。在独立测试数据集上的比较测试表明，DNAgenie优于我们为预测三种DNA类型残基水平相互作用而改编的现有方法。进一步分析发现，使用第二步（精炼）步骤显著减少了交叉预测。实证测试显示，将DNAgenie的输出转换为粗粒度的蛋白质水平预测，与近期预测双链与单链DNA结合蛋白的工具相比，表现更优。此外，对整个人类蛋白质组序列的预测显示，DNAgenie产生的结果与已知DNA结合蛋白高度重叠，同时还包括数百个先前未知的潜在DNA结合蛋白的有前景线索。这些结果表明，DNAgenie是基于序列的蛋白质功能表征的有价值工具。DNAgenie的网络服务器可在http://biomine.cs.vcu.edu/servers/DNAgenie/访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34415020/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34415020/",
+  "paper_page_path": "papers/pubmed/34415020/index.html"
+}

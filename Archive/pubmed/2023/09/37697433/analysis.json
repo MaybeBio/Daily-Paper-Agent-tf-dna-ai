@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37697433",
+  "title": "Assessing base-resolution DNA mechanics on the genome scale.",
+  "authors": "Jiang, Wen-Jie; Hu, Congcong; Lai, Futing; Pang, Weixiong; Yi, Xinyao; Xu, Qianyi; Wang, Haojie; Zhou, Jialu; Zhu, Hanwen; Zhong, Chunge; Kuang, Zeyu; Fan, Ruiqi; Shen, Jing; Zhou, Xiaorui; Wang, Yu-Juan; Wong, Catherine C L; Zheng, Xiaoqi; Wu, Hua-Jun",
+  "journal": "Nucleic acids research",
+  "published_date": "2023-09-12",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习预测DNA碱基分辨率弯曲性，并关联转录因子结合等调控特征，虽非直接TF-DNA互作建模，但DNA力学预测方法可迁移至TF-DNA结合机制研究。",
+  "abstract": "Intrinsic DNA properties including bending play a crucial role in diverse biological systems. A recent advance in a high-throughput technology called loop-seq makes it possible to determine the bendability of hundred thousand 50-bp DNA duplexes in one experiment. However, it's still challenging to assess base-resolution sequence bendability in large genomes such as human, which requires thousands of such experiments. Here, we introduce 'BendNet'-a deep neural network to predict the intrinsic DNA bending at base-resolution by using loop-seq results in yeast as training data. BendNet can predict the DNA bendability of any given sequence from different species with high accuracy. To explore the utility of BendNet, we applied it to the human genome and observed DNA bendability is associated with chromatin features and disease risk regions involving transcription/enhancer regulation, DNA replication, transcription factor binding and extrachromosomal circular DNA generation. These findings expand our understanding on DNA mechanics and its association with transcription regulation in mammals. Lastly, we built a comprehensive resource of genomic DNA bendability profiles for 307 species by applying BendNet, and provided an online tool to assess the bendability of user-specified DNA sequences (http://www.dnabendnet.com/).",
+  "abstract_zh": "包括弯曲在内的内在DNA特性在多种生物系统中发挥着关键作用。高通量技术loop-seq的最新进展使得在一次实验中测定十万个50-bp DNA双链体的可弯曲性成为可能。然而，评估大型基因组（如人类基因组）中碱基分辨率的序列可弯曲性仍具挑战性，这需要数千次此类实验。在此，我们引入“BendNet”——一种深度神经网络，利用酵母中的loop-seq结果作为训练数据，以碱基分辨率预测内在DNA弯曲。BendNet能够高精度地预测来自不同物种的任何给定序列的DNA可弯曲性。为探索BendNet的实用性，我们将其应用于人类基因组，并观察到DNA可弯曲性与染色质特征及涉及转录/增强子调控、DNA复制、转录因子结合和染色体外环状DNA生成等疾病风险区域相关。这些发现扩展了我们对DNA力学及其与哺乳动物转录调控关联的理解。最后，我们通过应用BendNet构建了307个物种的基因组DNA可弯曲性谱综合资源，并提供了一个在线工具，用于评估用户指定序列的可弯曲性（http://www.dnabendnet.com/）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37697433/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37697433/",
+  "paper_page_path": "papers/pubmed/37697433/index.html"
+}

@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "42469015",
+    "doi": "10.1101/gr.281792.125",
+    "title": "Identification of genomic features that uniquely impact estrogen receptor alpha binding and its effects on gene expression in endometrial cancer."
+  },
+  "content": {
+    "abstract": "Estrogen receptor 1 (ESR1, also known as estrogen receptor alpha or ER) is an established oncogenic transcription factor in breast and endometrial cancer; however, more is known about the mechanisms controlling ER behavior in breast cancer, and therapies targeting ER have been much more successful in breast cancer. To address this disparity, we characterize the genomic features that control ER in endometrial cancer and determine to what extent these factors differ from those in breast cancer. We focus on the locations of estrogen response elements (EREs), ER's preferred DNA-binding motif, throughout the human genome. To identify factors that predict ER genomic binding and effects on target gene expression, we apply machine learning to genomic data for each ERE in Ishikawa cells (ER-positive endometrial cancer) and T-47D cells (ER-positive breast cancer). Many of these factors, such as chromatin accessibility and histone modifications, are predictive of ER activity in both cell lines. However, the transcription factors that predict ER activity are cell type specific, including FOXA1 and GATA3 in T-47D cells and ETV4 and SOX17 in Ishikawa cells. In addition, the features that predict ER binding and effects on gene expression differ, with transcription at EREs in the absence of estrogen being predictive of ER regulatory activity. A CRISPR knockout screen in Ishikawa cells, as well as follow-up experiments, confirms the discovery that SOX17 controls ER activity in endometrial cancer cells. These results identify important genomic features of ER binding and regulatory activity and how these features differ between endometrial cancer and breast cancer cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Endometrial Neoplasms/genetics/metabolism",
+      "Female",
+      "*Estrogen Receptor alpha/metabolism/genetics",
+      "*Gene Expression Regulation, Neoplastic",
+      "Hepatocyte Nuclear Factor 3-alpha/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Response Elements",
+      "GATA3 Transcription Factor/genetics/metabolism",
+      "Protein Binding",
+      "Breast Neoplasms/genetics/metabolism",
+      "Binding Sites",
+      "Genomics",
+      "Machine Learning",
+      "Genome, Human"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Richey, Alexandra",
+        "Kitchen, Noel",
+        "Rush, Craig M",
+        "Vahrenkamp, Jeffery M",
+        "Abewe, Hosiana",
+        "Osbourne, Kyle S",
+        "Bott, Alex J",
+        "Dalley, Brian K",
+        "Rutter, Jared",
+        "Gertz, Jason"
+      ],
+      "short_names": [
+        "Richey A",
+        "Kitchen N",
+        "Rush CM",
+        "Vahrenkamp JM",
+        "Abewe H",
+        "Osbourne KS",
+        "Bott AJ",
+        "Dalley BK",
+        "Rutter J",
+        "Gertz J"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-1297-8006",
+        "ORCID: 0009-0003-4509-3861",
+        "ORCID: 0000-0002-1036-6909",
+        "ORCID: 0000-0002-2937-1513",
+        "ORCID: 0000-0003-3003-1177",
+        "ORCID: 0000-0001-9654-7040",
+        "ORCID: 0000-0003-2273-8922",
+        "ORCID: 0009-0003-9774-5200",
+        "ORCID: 0000-0002-2710-9765",
+        "ORCID: 0000-0001-7568-6789"
+      ],
+      "affiliations": [
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Biomedical Engineering, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+        "Department of Biochemistry, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Biochemistry, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+        "Howard Hughes Medical Institute, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA; jay.gertz@hci.utah.edu.",
+        "Department of Biomedical Engineering, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Richey, Alexandra",
+        "short_name": "Richey A",
+        "identifiers": [
+          "0009-0003-1297-8006"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Biomedical Engineering, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Kitchen, Noel",
+        "short_name": "Kitchen N",
+        "identifiers": [
+          "0009-0003-4509-3861"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Rush, Craig M",
+        "short_name": "Rush CM",
+        "identifiers": [
+          "0000-0002-1036-6909"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Vahrenkamp, Jeffery M",
+        "short_name": "Vahrenkamp JM",
+        "identifiers": [
+          "0000-0002-2937-1513"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Abewe, Hosiana",
+        "short_name": "Abewe H",
+        "identifiers": [
+          "0000-0003-3003-1177"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Osbourne, Kyle S",
+        "short_name": "Osbourne KS",
+        "identifiers": [
+          "0000-0001-9654-7040"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Bott, Alex J",
+        "short_name": "Bott AJ",
+        "identifiers": [
+          "0000-0003-2273-8922"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Dalley, Brian K",
+        "short_name": "Dalley BK",
+        "identifiers": [
+          "0009-0003-9774-5200"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Rutter, Jared",
+        "short_name": "Rutter J",
+        "identifiers": [
+          "0000-0002-2710-9765"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA.",
+          "Howard Hughes Medical Institute, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Gertz, Jason",
+        "short_name": "Gertz J",
+        "identifiers": [
+          "0000-0001-7568-6789"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA; jay.gertz@hci.utah.edu.",
+          "Department of Biomedical Engineering, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Oncological Sciences, University of Utah School of Medicine, Salt Lake City, Utah 84112, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2026 Sep 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/18 00:38",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [
+      "42624872"
+    ],
+    "refs": [
+      "40894868",
+      "40650785",
+      "40346709",
+      "40032586",
+      "39817679",
+      "39468210",
+      "39113071",
+      "38663407",
+      "38600987",
+      "36788073",
+      "36396974",
+      "33858480",
+      "32479598",
+      "32268116",
+      "32197056",
+      "32064600",
+      "32046982",
+      "32025007",
+      "31664088",
+      "31588232",
+      "31570515",
+      "31375807",
+      "30944316",
+      "30712080",
+      "30356064",
+      "29987050",
+      "28978154",
+      "28964699",
+      "28043088",
+      "27738313",
+      "27197147",
+      "27185879",
+      "27151431",
+      "27099857",
+      "25788989",
+      "25516281",
+      "25476604",
+      "25315766",
+      "24971815",
+      "24227677",
+      "24097267",
+      "24076218",
+      "23811274",
+      "23636398",
+      "23172872",
+      "22644304",
+      "22217937",
+      "21878914",
+      "21239497",
+      "21151129",
+      "20513432",
+      "20110278",
+      "19890323",
+      "19801529",
+      "19569049",
+      "19505943",
+      "19261174",
+      "18798982",
+      "18783612",
+      "17540862",
+      "17169390",
+      "16762839",
+      "16402113",
+      "14966270",
+      "12453419",
+      "12045153",
+      "10694882",
+      "3340549"
+    ],
+    "similar": [
+      "42469015",
+      "42427750",
+      "32046982",
+      "31588232",
+      "27197147",
+      "32232341",
+      "28514748",
+      "15345050",
+      "33420376",
+      "34158394",
+      "32168782",
+      "23172872",
+      "24086615",
+      "20547749",
+      "16690106",
+      "17616709",
+      "21151129",
+      "32120995",
+      "27065334",
+      "22622808",
+      "40494627",
+      "28270510",
+      "31932695",
+      "21878914",
+      "16257430",
+      "22074947",
+      "20301197",
+      "19728080",
+      "32888433",
+      "21947652",
+      "40874905",
+      "28320353",
+      "19772891",
+      "24962896",
+      "24758297",
+      "24434785",
+      "21863258",
+      "33468559",
+      "36930833",
+      "18172302",
+      "15581976",
+      "38429368",
+      "34783649",
+      "16093440",
+      "16464951",
+      "22142239",
+      "22125492",
+      "21868451",
+      "28751448",
+      "24549642",
+      "27041579",
+      "24128438",
+      "40768768",
+      "27791031",
+      "31362937",
+      "36252018",
+      "21536917",
+      "19569049",
+      "17893710",
+      "10619353",
+      "17083744",
+      "17010074",
+      "20079471",
+      "17166846",
+      "23814048",
+      "15762987",
+      "33626359",
+      "21235772",
+      "41224124",
+      "18000219",
+      "21575280",
+      "25258321",
+      "32513126",
+      "23183268",
+      "34517157",
+      "25927974",
+      "34225008",
+      "15149721",
+      "28627585",
+      "28273452",
+      "34831189",
+      "30352569",
+      "23051957",
+      "25221777",
+      "30128822",
+      "32858102",
+      "19405945",
+      "34518541",
+      "42442572",
+      "22391567",
+      "41062612",
+      "22313737",
+      "19847644",
+      "37363949",
+      "23347430",
+      "16087863",
+      "18337247",
+      "31715186",
+      "31729597",
+      "27491559"
+    ],
+    "review": [
+      "42469015",
+      "15345050",
+      "40768768",
+      "34225008"
+    ],
+    "pmc": [
+      "13534285"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=42469015",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42469015/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

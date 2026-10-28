@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "38008739",
+    "doi": "10.1186/s12905-023-02790-6",
+    "title": "Risk-stratification machine learning model using demographic factors, gynaecological symptoms and beta-catenin for endometrial hyperplasia and carcinoma: a cross-sectional study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Demographic features, suggestive gynaecological symptoms, and immunohistochemical expression of endometrial beta-catenin have a prognostic capacity for endometrial hyperplasia and carcinoma. This study assessed the interaction of all variables and developed risk stratification for endometrial hyperplasia and carcinoma. METHODS: This cross-sectional study was conducted from January 2023 to July 2023 at two teaching hospitals in Makassar Indonesia. Patients (< 70 years old) with suggestive symptoms of endometrial hyperplasia or carcinoma or being referred with disease code N.85 who underwent curettage and/or surgery for pathology assessment except those receiving radiotherapy, or chemotherapy, presence of another carcinoma, coagulation disorder, and history of anti-inflammatory drug use and unreadable samples. Demographic, and clinical symptoms were collected from medical records. Immunohistochemistry staining using mouse-monoclonal antibodies determined the beta-catenin expression (percentage, intensity, and H-score) in endometrial tissues. Ordinal and Binary Logistic regression identified the potential predictors to be included in neural networks and decision tree models of histopathological grading according to the World Health Organization/WHO grading classification. RESULTS: Abdominal enlargement was associated with worse pathological grading (adjusted odds ratio/aOR 6.7 95% CI 1.8-24.8). Increasing age (aOR 1.1 95% CI 1.03-1.2) and uterus bleeding (aOR 5.3 95% CI 1.3-21.6) were associated with carcinoma but not with %beta-catenin and H-Score. However, adjusted by vaginal bleeding and body mass index, lower %beta-catenin (aOR 1.03 95% 1.01-1.05) was associated with non-atypical hyperplasia, as well as H-Score (aOR 1.01 95% CI 1.01-1.02). Neural networks and Decision tree risk stratification showed a sensitivity of 80-94.8% and a specificity of 40.6-60% in differentiating non-atypical from atypical and carcinoma. A cutoff of 55% beta-catenin area and H-Score of 110, along with other predictors could distinguish non-atypical samples from atypical and carcinoma. CONCLUSION: Risk stratification based on demographics, clinical symptoms, and beta-catenin possesses a good performance in differentiating non-atypical hyperplasia with later stages.",
+    "keywords": [
+      "Decision Tree",
+      "Endometrial carcinoma",
+      "Endometrial hyperplasia",
+      "Gynecological symptoms",
+      "Immunohistochemistry staining",
+      "Neural network",
+      "Risk-stratification",
+      "beta-catenin"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Animals",
+      "Mice",
+      "Humans",
+      "Aged",
+      "*Endometrial Hyperplasia/diagnosis/metabolism/pathology",
+      "Cross-Sectional Studies",
+      "Hyperplasia",
+      "*Endometrial Neoplasms/pathology",
+      "beta Catenin/metabolism",
+      "Uterine Hemorrhage",
+      "*Carcinoma",
+      "Demography"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Masadah, Rina",
+        "Maulana, Aries",
+        "Nelwan, Berti Julian",
+        "Ghaznawie, Mahmud",
+        "Miskad, Upik Anderiani",
+        "Tawali, Suryani",
+        "Rauf, Syahrul",
+        "Herman, Bumi"
+      ],
+      "short_names": [
+        "Masadah R",
+        "Maulana A",
+        "Nelwan BJ",
+        "Ghaznawie M",
+        "Miskad UA",
+        "Tawali S",
+        "Rauf S",
+        "Herman B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia.",
+        "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia.",
+        "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia.",
+        "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia.",
+        "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia.",
+        "Department of Family Medicine and Preventive Medicine, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia.",
+        "Departement of Obstetric and Gynecology, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia.",
+        "College of Public Health Science, Chulalongkorn University, Bangkok, Thailand. bumiherman@med.unhas.ac.id."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Masadah, Rina",
+        "short_name": "Masadah R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Maulana, Aries",
+        "short_name": "Maulana A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Nelwan, Berti Julian",
+        "short_name": "Nelwan BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Ghaznawie, Mahmud",
+        "short_name": "Ghaznawie M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Miskad, Upik Anderiani",
+        "short_name": "Miskad UA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology Anatomy, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Tawali, Suryani",
+        "short_name": "Tawali S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Family Medicine and Preventive Medicine, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Rauf, Syahrul",
+        "short_name": "Rauf S",
+        "identifiers": [],
+        "affiliations": [
+          "Departement of Obstetric and Gynecology, Faculty of Medicine, Hasanuddin University, Makassar, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Herman, Bumi",
+        "short_name": "Herman B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Public Health Science, Chulalongkorn University, Bangkok, Thailand. bumiherman@med.unhas.ac.id."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC women's health"
+    ],
+    "journal_abbrev": [
+      "BMC Womens Health"
+    ],
+    "pub_date": "2023 Nov 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/27 00:43",
+    "fetched_at": "2026-09-29 11:18:39"
+  },
+  "links": {
+    "cites": [
+      "41388924",
+      "38473276"
+    ],
+    "refs": [
+      "36248967",
+      "34962692",
+      "34866456",
+      "34433451",
+      "33765092",
+      "33259545",
+      "33221024",
+      "33204876",
+      "33090457",
+      "32154162",
+      "31403731",
+      "30715091",
+      "30387875",
+      "30065654",
+      "29507578",
+      "27254529",
+      "26977831",
+      "26432349",
+      "26373341",
+      "25305176",
+      "23765252",
+      "22007144",
+      "21324435",
+      "21317462",
+      "18806829",
+      "18376386",
+      "16449346",
+      "16400639",
+      "12379748",
+      "7074572"
+    ],
+    "similar": [
+      "38008739",
+      "31403731",
+      "20079187",
+      "27287687",
+      "21429429",
+      "24289604",
+      "27920066",
+      "11748989",
+      "12111402",
+      "12635138",
+      "32805208",
+      "30726192",
+      "19900140",
+      "22945641",
+      "22872167",
+      "27226215",
+      "20527231",
+      "34684040",
+      "16759458",
+      "34866456",
+      "33403680",
+      "36412397",
+      "18061866",
+      "17349568",
+      "18630127",
+      "37655078",
+      "12592247",
+      "37314146",
+      "23947899",
+      "21764501",
+      "22033684",
+      "26658096",
+      "15266429",
+      "19329935",
+      "37723982",
+      "30511743",
+      "19285814",
+      "34545858",
+      "32133762",
+      "21701931",
+      "10486458",
+      "24406135",
+      "24556060",
+      "25569277",
+      "19566355",
+      "37160470",
+      "15213598",
+      "10528831",
+      "16825075",
+      "9812226",
+      "22460811",
+      "29862866",
+      "27859783",
+      "26940400",
+      "20700983",
+      "36825346",
+      "24870785",
+      "35413062",
+      "29413816",
+      "26677585",
+      "37116166",
+      "23211295",
+      "16154046",
+      "12631219",
+      "25017611",
+      "11677332",
+      "18241812",
+      "36853321",
+      "25144715",
+      "16400639",
+      "14668545",
+      "29696944",
+      "16620067",
+      "20185225",
+      "26748390",
+      "15800680",
+      "26839161",
+      "26163624",
+      "35932873",
+      "16962523",
+      "35989428",
+      "24346847",
+      "30521671",
+      "25495249",
+      "23313791",
+      "10843470",
+      "14756025",
+      "12079302",
+      "12015762",
+      "25970959",
+      "31027672",
+      "26895636",
+      "22994380",
+      "17990804",
+      "24487464"
+    ],
+    "review": [
+      "38008739",
+      "31403731",
+      "27920066",
+      "18061866",
+      "22033684",
+      "15266429",
+      "30511743",
+      "19285814",
+      "26748390",
+      "35932873"
+    ],
+    "pmc": [
+      "10680196"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcwomenshealth.biomedcentral.com/articles/10.1186/s12905-023-02790-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38008739/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38008739",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

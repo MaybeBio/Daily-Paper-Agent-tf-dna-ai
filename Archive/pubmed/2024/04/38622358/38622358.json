@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "38622358",
+    "doi": "10.1093/bib/bbae170",
+    "title": "Understanding YTHDF2-mediated mRNA degradation by m6A-BERT-Deg."
+  },
+  "content": {
+    "abstract": "N6-methyladenosine (m6A) is the most abundant mRNA modification within mammalian cells, holding pivotal significance in the regulation of mRNA stability, translation and splicing. Furthermore, it plays a critical role in the regulation of RNA degradation by primarily recruiting the YTHDF2 reader protein. However, the selective regulation of mRNA decay of the m6A-methylated mRNA through YTHDF2 binding is poorly understood. To improve our understanding, we developed m6A-BERT-Deg, a BERT model adapted for predicting YTHDF2-mediated degradation of m6A-methylated mRNAs. We meticulously assembled a high-quality training dataset by integrating multiple data sources for the HeLa cell line. To overcome the limitation of small training samples, we employed a pre-training-fine-tuning strategy by first performing a self-supervised pre-training of the model on 427 760 unlabeled m6A site sequences. The test results demonstrated the importance of this pre-training strategy in enabling m6A-BERT-Deg to outperform other benchmark models. We further conducted a comprehensive model interpretation and revealed a surprising finding that the presence of co-factors in proximity to m6A sites may disrupt YTHDF2-mediated mRNA degradation, subsequently enhancing mRNA stability. We also extended our analyses to the HEK293 cell line, shedding light on the context-dependent YTHDF2-mediated mRNA degradation.",
+    "keywords": [
+      "YTHDF2",
+      "deep learning",
+      "m6A modification",
+      "m6A-BERT",
+      "mRNA degradation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Adenine",
+      "HEK293 Cells",
+      "HeLa Cells",
+      "RNA Stability",
+      "RNA, Messenger/genetics/metabolism",
+      "*RNA-Binding Proteins/genetics/metabolism",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ting-He",
+        "Jo, Sumin",
+        "Zhang, Michelle",
+        "Wang, Kai",
+        "Gao, Shou-Jiang",
+        "Huang, Yufei"
+      ],
+      "short_names": [
+        "Zhang TH",
+        "Jo S",
+        "Zhang M",
+        "Wang K",
+        "Gao SJ",
+        "Huang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4595-6167"
+      ],
+      "affiliations": [
+        "Cancer Virology Program, UPMC Hillman Cancer Center, University of Pittsburgh School of Medicine, Pittsburgh, PA 15232, USA.",
+        "Department of Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA,15261, USA.",
+        "Cancer Virology Program, UPMC Hillman Cancer Center, University of Pittsburgh School of Medicine, Pittsburgh, PA 15232, USA.",
+        "Department of Electrical and Computer Engineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA, 15261, USA.",
+        "Department of Electrical and Computer Engineering, The University of Texas at San Antonio, San Antonio, TX, 78249, USA.",
+        "Raymond G. Perelman Center for Cellular and Molecular Therapeutics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA.",
+        "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+        "Cancer Virology Program, UPMC Hillman Cancer Center, University of Pittsburgh School of Medicine, Pittsburgh, PA 15232, USA.",
+        "Department of Microbiology and Molecular Genetics, University of Pittsburgh School of Medicine, Pittsburgh, PA, 15219, USA.",
+        "Cancer Virology Program, UPMC Hillman Cancer Center, University of Pittsburgh School of Medicine, Pittsburgh, PA 15232, USA.",
+        "Department of Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA,15261, USA.",
+        "Department of Electrical and Computer Engineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA, 15261, USA.",
+        "Department of Pharmaceutical Sciences, University of Pittsburgh School of Medicine, Pittsburgh, PA, 15261, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ting-He",
+        "short_name": "Zhang TH",
+        "identifiers": [
+          "0000-0002-4595-6167"
+        ],
+        "affiliations": [
+          "Cancer Virology Program, UPMC Hillman Cancer Center, University of Pittsburgh School of Medicine, Pittsburgh, PA 15232, USA.",
+          "Department of Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA,15261, USA."
+        ]
+      },
+      {
+        "full_name": "Jo, Sumin",
+        "short_name": "Jo S",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Virology Program, UPMC Hillman Cancer Center, University of Pittsburgh School of Medicine, Pittsburgh, PA 15232, USA.",
+          "Department of Electrical and Computer Engineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA, 15261, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Michelle",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, The University of Texas at San Antonio, San Antonio, TX, 78249, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Raymond G. Perelman Center for Cellular and Molecular Therapeutics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA.",
+          "Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Gao, Shou-Jiang",
+        "short_name": "Gao SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Virology Program, UPMC Hillman Cancer Center, University of Pittsburgh School of Medicine, Pittsburgh, PA 15232, USA.",
+          "Department of Microbiology and Molecular Genetics, University of Pittsburgh School of Medicine, Pittsburgh, PA, 15219, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Yufei",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Virology Program, UPMC Hillman Cancer Center, University of Pittsburgh School of Medicine, Pittsburgh, PA 15232, USA.",
+          "Department of Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA,15261, USA.",
+          "Department of Electrical and Computer Engineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA, 15261, USA.",
+          "Department of Pharmaceutical Sciences, University of Pittsburgh School of Medicine, Pittsburgh, PA, 15261, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Mar 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/16 00:43",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42328286",
+      "42278318",
+      "41890104",
+      "41597255",
+      "41348602",
+      "40965763",
+      "40598231",
+      "39897847"
+    ],
+    "refs": [
+      "37407733",
+      "37228185",
+      "36543128",
+      "36339596",
+      "35776213",
+      "35395937",
+      "35145225",
+      "34417605",
+      "34403477",
+      "33912591",
+      "33538820",
+      "33510214",
+      "33447056",
+      "33070389",
+      "32821938",
+      "32808039",
+      "32343311",
+      "32210357",
+      "31964509",
+      "31107151",
+      "30930054",
+      "30306128",
+      "30257214",
+      "29774215",
+      "29429924",
+      "29381060",
+      "29379020",
+      "29274279",
+      "27731383",
+      "27679854",
+      "27558897",
+      "26458103",
+      "25968143",
+      "25719671",
+      "24979058",
+      "24394384",
+      "24284625",
+      "23846655",
+      "23589649",
+      "23060610",
+      "22708488",
+      "17324271",
+      "17174306",
+      "16381938",
+      "16010978",
+      "12509468",
+      "8831784"
+    ],
+    "similar": [
+      "38622358",
+      "38292306",
+      "42384250",
+      "38657004",
+      "41369154",
+      "38236021",
+      "38462165",
+      "39577428",
+      "37891533",
+      "29855337",
+      "39608479",
+      "41913267",
+      "40230077",
+      "37700438",
+      "33577677",
+      "33121495",
+      "30107516",
+      "40167954",
+      "40036155",
+      "32059034",
+      "41795047",
+      "29171881",
+      "28104805",
+      "41137882",
+      "39593172",
+      "35490460",
+      "32267835",
+      "24284625",
+      "36692010",
+      "35075244",
+      "40716096",
+      "34851655",
+      "34246306",
+      "38629637",
+      "41848956",
+      "33156926",
+      "40959883",
+      "36609396",
+      "32366907",
+      "40073810",
+      "40418739",
+      "41925799",
+      "30875984",
+      "40480228",
+      "37669906",
+      "40623493",
+      "40521032",
+      "39159278",
+      "40597351",
+      "36939388",
+      "33023892",
+      "40691523",
+      "38659080",
+      "42029771",
+      "40303324",
+      "35613594",
+      "35763107",
+      "40100806",
+      "37933909",
+      "40619016",
+      "36681189",
+      "40663812",
+      "36070699",
+      "34098071",
+      "39979690",
+      "32884942",
+      "39453546",
+      "40598231",
+      "35776431",
+      "42289606",
+      "39424201",
+      "27558897",
+      "35730068",
+      "29659627",
+      "40184726",
+      "37917979",
+      "31964509",
+      "36564065",
+      "34266473",
+      "35468611",
+      "40719893",
+      "35509101",
+      "40449782",
+      "31607270",
+      "40348175",
+      "39092767",
+      "34544449",
+      "38345740",
+      "37865189",
+      "34813676",
+      "31451060",
+      "37496062",
+      "37884231",
+      "41163078",
+      "40214031",
+      "39630361",
+      "24823649",
+      "40473165",
+      "37850412",
+      "40744224"
+    ],
+    "review": [
+      "38622358",
+      "38629637",
+      "35763107",
+      "39424201",
+      "31964509",
+      "41163078",
+      "24823649"
+    ],
+    "pmc": [
+      "11018547"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38622358.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38622358/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38622358",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae170",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

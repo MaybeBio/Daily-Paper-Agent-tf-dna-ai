@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "40163430",
+    "doi": "10.1371/journal.pone.0310879",
+    "title": "SMND-309 activates Nrf2 signaling to alleviate acetaminophen-induced hepatotoxicity and oxidative stress."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acetaminophen (APAP) can be used for pain relief and fever alleviation, the overdose of which, however, may lead to the accumulation of N-acetyl-p-benzoquinone imine (NAPQI), inducing oxidative stress and liver damage. The natural compound SMND-309 has been shown to have hepatoprotective effects and potential antioxidant activity. However, its ability to alleviate acetaminophen-induced acute liver injury (AILI) has not been elucidated. OBJECTIVE: To explore the protective effect of the natural compound SMND-309 against AILI and the potential mechanism. METHODS: The AILI model was established using a mouse model and HepG2 cells for pathological evaluation and biochemical assays of mouse liver tissues to assess the level of liver injury. The effects of SMND-309 on cellular ROS levels and mitochondrial membrane potential were detected using DCFH-DA and JC-1 probes. Western blotting was performed to detect the expressions of Nrf2 signaling pathway and key proteins related to APAP metabolism in the combination of immunohistochemistry of liver tissues, with immunofluorescence assay used to detect whether Nrf2 undergoes nuclear translocation. Molecular docking, molecular dynamics simulation (MD) and biofilm layer interference (BLI) experiments were performed to detect the interaction of SMND-309 with Keap1. RESULTS: SMND-309 improved histopathological changes in the liver, decreased alanine aminotransferase (ALT), aspartate aminotransferase (AST), and lactate dehydrogenase (LDH) levels, as well as attenuated oxidative stress injury and mitochondrial dysfunction in the HepG2 cell line. Further studies revealed that SMND-309 promoted nuclear translocation of Nrf2 and upregulated the expressions of glutamate-cysteine ligase catalytic subunit (GCLC), heme oxygenase 1 (HO-1) and NAD(P)H quinone dehydrogenase 1 (NQO1). In addition, molecular docking and MD suggested that SMND-309 could bind Keap1 and identified possible binding modes, with BLI experiments confirming that SMND-309 directly interacted with Keap1. CONCLUSION: SMND-309 exerts hepatoprotective effects against AILI in an Nrf2-ARE signaling pathway-dependent manner.",
+    "keywords": [],
+    "mesh_terms": [
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Acetaminophen/adverse effects/toxicity",
+      "*Oxidative Stress/drug effects",
+      "Humans",
+      "Animals",
+      "*Chemical and Drug Induced Liver Injury/metabolism/drug therapy/pathology",
+      "*Signal Transduction/drug effects",
+      "Hep G2 Cells",
+      "Mice",
+      "Male",
+      "Liver/drug effects/metabolism/pathology",
+      "Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Molecular Docking Simulation",
+      "Reactive Oxygen Species/metabolism",
+      "Membrane Potential, Mitochondrial/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Yao",
+        "Jia, Ru",
+        "Jiang, Yujie",
+        "Li, Qing",
+        "Wang, Lei",
+        "Ding, Wensi",
+        "Yan, Rui",
+        "Qiu, Yujie",
+        "Shi, Zhengjie",
+        "Liu, Wenying",
+        "Wang, Jing",
+        "Xu, Sen",
+        "Li, Na"
+      ],
+      "short_names": [
+        "Dong Y",
+        "Jia R",
+        "Jiang Y",
+        "Li Q",
+        "Wang L",
+        "Ding W",
+        "Yan R",
+        "Qiu Y",
+        "Shi Z",
+        "Liu W",
+        "Wang J",
+        "Xu S",
+        "Li N"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-8304-1110",
+        "ORCID: 0000-0003-2851-4284"
+      ],
+      "affiliations": [
+        "Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Department of Obstetrics, Yantai Affiliated Hospital of Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Department of Obstetrics, Yantai Affiliated Hospital of Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Department of Obstetrics, Yantai Affiliated Hospital of Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Department of Gastroenterology, Yantai Zhifu Hospital, Yantai, Shandong, P.R.China.",
+        "Binzhou Medical University, Yantai, Shandong, P.R.China.",
+        "Department of Orthopedics, Yantai Yantaishan Hospital, Yantai, Shandong, P.R.China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Yao",
+        "short_name": "Dong Y",
+        "identifiers": [
+          "0009-0008-8304-1110"
+        ],
+        "affiliations": [
+          "Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ru",
+        "short_name": "Jia R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Yantai Affiliated Hospital of Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yujie",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Li, Qing",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Yantai Affiliated Hospital of Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Yantai Affiliated Hospital of Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Ding, Wensi",
+        "short_name": "Ding W",
+        "identifiers": [],
+        "affiliations": [
+          "Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Yan, Rui",
+        "short_name": "Yan R",
+        "identifiers": [],
+        "affiliations": [
+          "Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yujie",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Shi, Zhengjie",
+        "short_name": "Shi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenying",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Yantai Zhifu Hospital, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Xu, Sen",
+        "short_name": "Xu S",
+        "identifiers": [
+          "0000-0003-2851-4284"
+        ],
+        "affiliations": [
+          "Binzhou Medical University, Yantai, Shandong, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Li, Na",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yantai Yantaishan Hospital, Yantai, Shandong, P.R.China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/31 21:18",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "41535591"
+    ],
+    "refs": [
+      "38762209",
+      "38184998",
+      "37913641",
+      "37823166",
+      "37775996",
+      "37572566",
+      "37499433",
+      "37436926",
+      "37050900",
+      "36670547",
+      "35571121",
+      "35528835",
+      "34967991",
+      "34954226",
+      "34772600",
+      "34732330",
+      "34500674",
+      "33990683",
+      "33929376",
+      "32738495",
+      "32209353",
+      "31926003",
+      "31851823",
+      "31753252",
+      "31307590",
+      "30797157",
+      "30597971",
+      "29753208",
+      "29473717",
+      "29338970",
+      "26911316",
+      "25645193",
+      "20969856",
+      "11287661",
+      "11134556"
+    ],
+    "similar": [
+      "40163430",
+      "26721592",
+      "31310828",
+      "30116489",
+      "30630510",
+      "40008899",
+      "35531720",
+      "40020792",
+      "30235447",
+      "36723004",
+      "33406386",
+      "39706064",
+      "29331651",
+      "32454347",
+      "30423402",
+      "30273691",
+      "39870009",
+      "40157625",
+      "34193673",
+      "30030101",
+      "27161400",
+      "30110942",
+      "39236474",
+      "31214283",
+      "39697025",
+      "32259676",
+      "32863309",
+      "29066411",
+      "39816848",
+      "36472037",
+      "36057264",
+      "29136249",
+      "36115150",
+      "35571121",
+      "34526248",
+      "38991959",
+      "31584590",
+      "31678598",
+      "35342347",
+      "31599006",
+      "30597971",
+      "33532182",
+      "30558169",
+      "36786681",
+      "38602356",
+      "37267857",
+      "35753269",
+      "25727958",
+      "35355074",
+      "26806302",
+      "36863308",
+      "25002747",
+      "31781345",
+      "34409550",
+      "38764105",
+      "38848941",
+      "38812159",
+      "33657990",
+      "29338970",
+      "34278476",
+      "35849971",
+      "31129139",
+      "32081044",
+      "35257348",
+      "31945188",
+      "39805761",
+      "18078705",
+      "39851237",
+      "39862944",
+      "38931214",
+      "38943970",
+      "39623276",
+      "32064027",
+      "36259797",
+      "39952301",
+      "39800144",
+      "29414639",
+      "38104880",
+      "37934372",
+      "30906210",
+      "33571414",
+      "35723070",
+      "29864928",
+      "19371629",
+      "35441652",
+      "25217484",
+      "30064139",
+      "28523535",
+      "32009027",
+      "28110191",
+      "31131946",
+      "26286854",
+      "38244950",
+      "33804228",
+      "25881548",
+      "34770745",
+      "37702962",
+      "33000240",
+      "39864603",
+      "30781396"
+    ],
+    "review": [
+      "40163430"
+    ],
+    "pmc": [
+      "11957308"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0310879",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40163430/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3976",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

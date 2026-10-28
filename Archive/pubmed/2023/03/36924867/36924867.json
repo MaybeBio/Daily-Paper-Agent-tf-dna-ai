@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "36924867",
+    "doi": "10.1016/j.ymeth.2023.03.002",
+    "title": "PDA-Pred: Predicting the binding affinity of protein-DNA complexes using machine learning techniques and structural features."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions play an important role in various biological processes such as gene expression, replication, and transcription. Understanding the important features that dictate the binding affinity of protein-DNA complexes and predicting their affinities is important for elucidating their recognition mechanisms. In this work, we have collected the experimental binding free energy (DeltaG) for a set of 391 Protein-DNA complexes and derived several structure-based features such as interaction energy, contact potentials, volume and surface area of binding site residues, base step parameters of the DNA and contacts between different types of atoms. Our analysis on relationship between binding affinity and structural features revealed that the important factors mainly depend on the number of DNA strands as well as functional and structural classes of proteins. Specifically, binding site properties such as number of atom contacts between the DNA and protein, volume of protein binding sites and interaction-based features such as interaction energies and contact potentials are important to understand the binding affinity. Further, we developed multiple regression equations for predicting the binding affinity of protein-DNA complexes belonging to different structural and functional classes. Our method showed an average correlation and mean absolute error of 0.78 and 0.98 kcal/mol, respectively, between the experimental and predicted binding affinities on a jack-knife test. We have developed a webserver, PDA-PreD (Protein-DNA Binding affinity predictor), for predicting the affinity of protein-DNA complexes and it is freely available at https://web.iitm.ac.in/bioinfo2/pdapred/.",
+    "keywords": [
+      "Binding free energy",
+      "Contact potentials",
+      "Structure-based features",
+      "protein-DNA complex"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry",
+      "Binding Sites",
+      "Protein Binding",
+      "*DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Harini, K",
+        "Kihara, Daisuke",
+        "Michael Gromiha, M"
+      ],
+      "short_names": [
+        "Harini K",
+        "Kihara D",
+        "Michael Gromiha M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India.",
+        "Department of Biological Sciences, Purdue University, West Lafayette, IN, United States; Department of Computer Science, Purdue University, West Lafayette, IN, United States.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India; International Research Frontiers Initiative, School of Computing, Tokyo Institute of Technology, Yokohama 226-8501, Japan. Electronic address: gromiha@iitm.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Harini, K",
+        "short_name": "Harini K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India."
+        ]
+      },
+      {
+        "full_name": "Kihara, Daisuke",
+        "short_name": "Kihara D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Purdue University, West Lafayette, IN, United States; Department of Computer Science, Purdue University, West Lafayette, IN, United States."
+        ]
+      },
+      {
+        "full_name": "Michael Gromiha, M",
+        "short_name": "Michael Gromiha M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India; International Research Frontiers Initiative, School of Computing, Tokyo Institute of Technology, Yokohama 226-8501, Japan. Electronic address: gromiha@iitm.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/17 06:00",
+    "fetched_at": "2026-09-28 21:34:16"
+  },
+  "links": {
+    "cites": [
+      "42328787",
+      "42173878",
+      "41867886",
+      "41793584",
+      "41339092",
+      "41300800",
+      "39576589",
+      "39201368",
+      "38352411",
+      "38261341",
+      "37048319"
+    ],
+    "refs": [
+      "36089054",
+      "36018808",
+      "35652477",
+      "35403569",
+      "34606614",
+      "33655206",
+      "33313775",
+      "32599506",
+      "32015543",
+      "31992738",
+      "31713585",
+      "31428122",
+      "31114927",
+      "29610332",
+      "27217471",
+      "26969995",
+      "25756377",
+      "25657820",
+      "24744240",
+      "24648146",
+      "24185695",
+      "23790211",
+      "23788679",
+      "20478824",
+      "15980494",
+      "10090291",
+      "8591039"
+    ],
+    "similar": [
+      "36924867",
+      "33313775",
+      "38224813",
+      "37949651",
+      "35662456",
+      "37572768",
+      "37567456",
+      "34606614",
+      "38718170",
+      "25172924",
+      "31713585",
+      "36574037",
+      "26681483",
+      "38261341",
+      "36309134",
+      "29954286",
+      "29473490",
+      "29230895",
+      "37193676",
+      "32119071",
+      "25123650",
+      "24564918",
+      "19878545",
+      "28361672",
+      "29028891",
+      "21214225",
+      "19439068",
+      "28069340",
+      "23788679",
+      "29383762",
+      "38458968",
+      "15165850",
+      "31141211",
+      "34458447",
+      "29779789",
+      "32920050",
+      "33838354",
+      "26370248",
+      "35196613",
+      "12217688",
+      "10090291",
+      "24648146",
+      "29028926",
+      "37235532",
+      "31992738",
+      "18802470",
+      "10869190",
+      "34126874",
+      "24448651",
+      "10891272",
+      "20658568",
+      "26193119",
+      "30417935",
+      "16246914",
+      "35039821",
+      "9799642",
+      "23345104",
+      "12850155",
+      "30957840",
+      "12471606",
+      "23790211",
+      "34882232",
+      "19594872",
+      "29091991",
+      "12036355",
+      "27264959",
+      "34773949",
+      "34455212",
+      "23971886",
+      "19782087",
+      "29993582",
+      "37291166",
+      "16307743",
+      "29097781",
+      "15390269",
+      "23274531",
+      "15673715",
+      "29125747",
+      "31428122",
+      "10072678",
+      "15003447",
+      "23737141",
+      "18922190",
+      "36356467",
+      "33872313",
+      "26506533",
+      "27503228",
+      "24191692",
+      "37515872",
+      "38335248",
+      "19117385",
+      "38587997",
+      "17316627",
+      "12723474",
+      "32591817",
+      "26818008",
+      "18479705",
+      "10842335",
+      "16844974",
+      "17900341",
+      "22113809",
+      "38272021",
+      "28149052",
+      "34805992"
+    ],
+    "review": [
+      "36924867",
+      "28069340"
+    ],
+    "pmc": [
+      "10563387"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(23)00044-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36924867/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36924867",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

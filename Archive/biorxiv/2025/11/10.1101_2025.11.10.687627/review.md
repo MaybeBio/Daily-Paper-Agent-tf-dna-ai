@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present a scalable experimental–computational platform for generating million-scale sequence-to-expression datasets using degenerate 200-bp promoter cassettes with pooled stable integration of up to 10^12 unique constructs in human cells. They report biophysical modeling of transcription-factor occupancy with correlations up to Pearson's r ≈ 0.99, deep learning models predicting held-out expression with r ≈ 0.4 and high inter-model agreement (r = 0.93), and transfer to an independently generated dataset under distinct sorting conditions with minimal retraining.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, model architecture details, dataset descriptions, statistical analyses, and validation procedures
+
+## Reviewer
+- **Overall assessment** The abstract describes an ambitious and potentially impactful platform that could advance sequence-to-expression prediction beyond native-genomic-DNA-anchored methods. However, the evidence presented is insufficient to evaluate the validity, robustness, or generalizability of the claims. Key quantitative results are reported without error bars, sample sizes, or statistical context, and the abstract does not provide enough methodological detail to assess technical soundness. The claim of "billion-scale deciphering" is not substantiated by the visible evidence, and the reported predictive performance (r ≈ 0.4) appears modest relative to the stated ambition. The work is potentially interesting to regulatory genomics and synthetic biology communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and synthetic biology would be interested in a platform that enables high-throughput sequence-to-expression measurements and predictive modeling of human regulatory elements. The potential to design synthetic promoters and transfer sequence rules across contexts could appeal to those working on gene therapy, cell engineering, and synthetic gene circuits.
+- **Major strengths** The scale of the experimental approach (up to 10^12 unique constructs) is notable and could represent a significant technical advance. The combination of experimental data generation with biophysical and deep learning modeling is a coherent strategy. The reported inter-model agreement (r = 0.93) suggests reproducibility of learned sequence-expression relationships, which is a positive indicator if substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The platform enables "million-scale sequence-to-expression datasets" and "billion-scale deciphering" of gene regulatory grammar.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims generation of million-scale datasets from libraries of up to 10^12 constructs, but no details are provided on how the number of unique constructs was verified, how sequencing depth or sorting efficiency was controlled, or how the final dataset size was determined. The relationship between library complexity and dataset scale is unclear.
+  - **Why it matters** Without evidence of library quality control, sequencing coverage, and data filtering, the core claim of a scalable platform producing reliable million-scale datasets cannot be assessed. Overstated scale without verification undermines the foundational premise.
+  - **Resolution test** Provide details on library construction validation, sequencing depth, mapping rates, and the criteria used to define the final dataset size. Show a clear pipeline from construct synthesis to expression measurement with quality metrics at each step.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** Biophysical modeling reveals correlations between factor abundance and expression levels with some co-abundances reaching Pearson's r ≈ 0.99, consistent with cooperative and probabilistic regulation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The reported correlation values are presented without confidence intervals, sample sizes, or correction for multiple testing across many transcription factors. The interpretation of "cooperative and probabilistic regulation" is not supported by any mechanistic evidence in the abstract.
+  - **Why it matters** High correlations can arise from trivial confounders or overfitting in biophysical models. Without statistical context and validation, the biological interpretation is speculative and the strength of the claim is not justified.
+  - **Resolution test** Report the number of factors tested, the number of observations per correlation, confidence intervals, and multiple-testing corrections. Provide independent validation of the predicted cooperative effects, such as perturbation experiments or comparison to orthogonal data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** Deep learning models predict held-out expression with Pearson r ≈ 0.4 and agree strongly with each other (r = 0.93), indicating reproducible sequence-expression relationships.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** A held-out prediction of r ≈ 0.4 is modest and may not be sufficient for the stated goal of "forward design of human regulatory elements." The inter-model agreement of r = 0.93 is reported without specifying whether this is on training, validation, or test data, and without comparison to baseline models or alternative architectures.
+  - **Why it matters** The predictive performance is the central claim for the utility of the platform. Without benchmarks against existing models, error analysis, and clarity on what the inter-model agreement measures, the practical value of the models is unclear.
+  - **Resolution test** Provide performance on multiple independent test sets, compare to state-of-the-art models, report error distributions, and clarify the data split used for the inter-model agreement calculation. Show that the models outperform simple baselines and that the r ≈ 0.4 is robust across replicates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** With minimal retraining the models generalize to an independently generated dataset collected under distinct sorting conditions, transferring sequence rules across contexts.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of transfer across contexts is made without specifying the nature of the "distinct sorting conditions," the amount of retraining, or the performance metrics on the transferred dataset. The abstract does not indicate whether the transfer is statistically significant or practically useful.
+  - **Why it matters** Generalizability is a key differentiator from existing methods. Without quantitative evidence of transfer performance and a description of the differences between datasets, the claim is unverifiable and may not hold under scrutiny.
+  - **Resolution test** Report the performance on the independent dataset before and after minimal retraining, specify the retraining procedure, and describe the differences in sorting conditions. Provide statistical tests showing that transfer performance exceeds chance and is comparable to or better than retraining from scratch.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "billion-scale deciphering" is ambiguous and may overstate the scope of the work, as the abstract describes million-scale datasets derived from billion-scale libraries.
+  - **Required correction** Clarify the distinction between library complexity and dataset size, and use precise terminology such as "billion-scale library screening" and "million-scale expression datasets."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the deep learning architecture, training procedure, or hyperparameters, which limits reproducibility.
+  - **Required correction** Provide a brief description of the model architecture and training details, or reference a methods section where these are fully described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Correlation metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Pearson's r is reported without associated p-values or confidence intervals, which is insufficient for assessing the strength of the relationships.
+  - **Required correction** Report confidence intervals and p-values for all correlation coefficients, and specify the number of observations used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality: The approach of combining degenerate library screening with biophysical and deep learning modeling is potentially original, but the abstract does not provide enough detail to distinguish it from prior high-throughput reporter assays. Scientific importance: The question of sequence-to-expression prediction is important, and a scalable platform could have broad impact, but the modest predictive performance (r ≈ 0.4) raises questions about the practical significance. Interdisciplinary readership: The work bridges experimental genomics and computational modeling, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Not assessable from the abstract alone; the reported metrics lack statistical rigor and validation. Readability for nonspecialists: The abstract is dense and assumes familiarity with regulatory genomics and deep learning, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an ambitious platform with potentially significant implications, but the lack of methodological detail, statistical context, and validation means the core claims cannot be evaluated. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of "billion-scale deciphering" is unsupported as the abstract describes million-scale datasets, and the relationship between library size and dataset scale is unclear.
+- The correlation of r ≈ 0.99 for transcription factor co-abundances is unsupported without statistical context or validation.
+- The predictive performance of r ≈ 0.4 is presented without benchmarks or error analysis, making its significance unassessable.
+- The claim of transfer across contexts is unsupported without quantitative results on the independent dataset.
+- The interpretation of "cooperative and probabilistic regulation" is speculative and not backed by mechanistic evidence in the abstract.

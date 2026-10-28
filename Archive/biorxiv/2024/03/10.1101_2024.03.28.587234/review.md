@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, supplementary data description, author contributions, funding, conflict of interest, acknowledgements)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and internal consistency of the claims as presented in the provided manuscript text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors propose that single-stranded DNA (ssDNA) wraps partially around Replication Protein A (RPA) rather than being linearly stretched, based on single-molecule FRET and DEER spectroscopy measurements. They further claim that phosphorylation at Ser-384 in the RPA70 subunit remodels the DNA-binding domains without substantially altering the ssDNA wrapping pattern.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (oligonucleotide preparation, RPA purification, smFRET, CW-EPR/DEER, ALEX analysis), Results (smFRET length dependence, DEER measurements, computational polymer scaling, phosphorylation studies), Discussion, Data Availability, Supplementary Data description, Author Contributions, Funding, Conflict of Interest, Acknowledgements
+- **Missing materials affecting confidence** Figures and tables referenced in the text (Figures 1-8, Supplementary Figures 1-7, Supplementary Tables 1-6) are not provided. Raw data files, analysis scripts, and detailed protocols for mass photometry, crosslinking mass spectrometry, and hydrogen-deuterium exchange mass spectrometry are not included. The manuscript does not provide specific numerical values for FRET efficiencies, distances, or statistical uncertainties in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and unresolved question in the field of DNA metabolism: the conformation of ssDNA when bound to RPA. The authors employ two orthogonal biophysical techniques, smFRET and DEER spectroscopy, to measure end-to-end distances of ssDNA in the absence and presence of RPA. Their conclusion that ssDNA wraps partially around RPA rather than being linearly stretched is consistent with prior structural studies and provides a useful reconciliation of conflicting models. The additional finding that phosphorylation at Ser-384 remodels RPA domains without changing the ssDNA wrapping pattern is potentially significant for understanding how post-translational modifications modulate RPA function. However, the manuscript as presented has several critical limitations. The absence of figures and tables makes it impossible to evaluate the quality of the data, the fitting procedures, or the statistical significance of the reported differences. The methods section lacks sufficient detail for reproducibility, particularly regarding the smFRET burst analysis, DEER data processing, and the polymer scaling fit. The claim that phosphorylation does not alter ssDNA wrapping is based on a single DEER measurement with a reported two-population distribution, and the interpretation of this result is not fully supported by the data described. The manuscript would benefit from a more rigorous quantitative comparison between the experimental distances and the predictions of the wrapping model, including explicit error analysis and consideration of alternative models. Overall, the core idea is interesting and the techniques are appropriate, but the current evidence base is insufficient to fully establish the claims.
+- **Who would be interested in the results, and why** Researchers studying DNA replication, repair, and recombination, particularly those focused on single-stranded DNA binding proteins and their mechanisms of action. The findings are also relevant to biophysicists interested in protein-nucleic acid interactions, single-molecule spectroscopy, and the application of DEER spectroscopy to biological systems. The phosphorylation-dependent remodeling of RPA may be of interest to cell biologists studying cell cycle regulation and DNA damage response pathways.
+- **Major strengths** 1) The use of two independent biophysical techniques (smFRET and DEER) to measure end-to-end distances provides complementary evidence. 2) The study directly addresses a controversy in the field regarding whether RPA stretches or wraps ssDNA. 3) The inclusion of a polymer scaling analysis provides a theoretical framework for interpreting the unbound ssDNA data. 4) The use of genetic code expansion to generate site-specifically phosphorylated RPA is a technically sophisticated approach. 5) The crosslinking mass spectrometry data, if fully presented, could provide valuable structural information about domain arrangements.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "only a small systematic increase in the end-to-end distance of ssDNA upon RPA binding" is observed, and that this supports partial wrapping rather than linear stretching.
+  - **Evidence pointer** Results section, Figures 2-5, Supplementary Figures 1-4, Supplementary Tables 3-6
+  - **Concern** The manuscript text describes the results qualitatively but does not provide the actual numerical values for the measured FRET efficiencies, calculated distances, or the associated uncertainties. Without these quantitative data, it is impossible to assess whether the reported ~2.6 nm increase is statistically significant and whether it is truly inconsistent with a linear stretching model. The authors state that the change "does not align with a linear stretching model" but do not provide a quantitative comparison between their measured distances and the distances predicted by a fully stretched ssDNA conformation. For a (dT)30 substrate, a fully stretched conformation would have an end-to-end distance of approximately 20 nm (30 bases × 0.67 nm/base), while the authors report a wrapped conformation with a much shorter distance. However, the actual measured values are not given in the text.
+  - **Why it matters** The central conclusion of the manuscript rests on the quantitative interpretation of the distance measurements. Without the actual data, the reader cannot evaluate whether the observed changes are consistent with the proposed wrapping model or whether alternative models (e.g., partial stretching, dynamic equilibrium between states) could also explain the results. The lack of quantitative reporting undermines the scientific rigor of the claims.
+  - **Resolution test** The authors must provide the measured FRET efficiencies and calculated distances for all ssDNA substrates, both free and RPA-bound, with appropriate error bars and statistical tests. They should also provide a quantitative comparison between their measured distances and the predictions of both the linear stretching and wrapping models, including a discussion of the expected distances for each model and the uncertainty in these predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods section describes the smFRET and DEER experiments but lacks sufficient detail for replication.
+  - **Evidence pointer** Materials and Methods, "Single-molecule FRET measurements" and "Continuous Wave (CW)-EPR and DEER spectroscopy" sections
+  - **Concern** The smFRET methods section does not specify the labeling positions on the ssDNA substrates (only that Cy3 and Cy5 are at the 3' and 5' ends, respectively), the exact buffer conditions for the measurements, the temperature, the method for determining the FRET efficiency from the burst data, or the criteria for selecting bursts for analysis. The DEER section does not specify the spin-labeling efficiency, the protein-to-DNA ratio, the buffer conditions, the temperature of the measurements, or the details of the data analysis (e.g., the model used for the distance distribution, the background correction procedure). The description of the polymer scaling fit is also incomplete, as it does not specify the fitting procedure or the uncertainty in the fitted parameters.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific publication. The lack of methodological detail prevents other researchers from replicating the experiments or fully evaluating the validity of the results. This is particularly important for a study that relies on advanced biophysical techniques where subtle differences in experimental conditions can significantly affect the measurements.
+  - **Resolution test** The authors must provide a complete description of the experimental procedures, including all buffer compositions, temperatures, labeling strategies, data acquisition parameters, and analysis algorithms. They should also provide the raw data and analysis scripts as supplementary materials to allow independent verification of the results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data presentation
+  - **Claim pointer** The manuscript references multiple figures and tables that are not included in the provided text.
+  - **Evidence pointer** Figures 1-8, Supplementary Figures 1-7, Supplementary Tables 1-6
+  - **Concern** The manuscript text refers to Figures 1-8 and Supplementary Figures 1-7 and Tables 1-6, but none of these are provided. This makes it impossible to evaluate the quality of the data, the appropriateness of the analysis, or the validity of the conclusions. For example, Figure 2 is described as showing "an excellent monotonic relationship" between FRET efficiency and ssDNA length, but the actual data points, error bars, and fit are not visible. Similarly, Figure 5 is described as showing DEER distance distributions, but the actual distributions are not shown.
+  - **Why it matters** Figures and tables are essential for communicating scientific results. Without them, the manuscript is incomplete and cannot be properly evaluated. The reader cannot assess whether the data support the claims, whether the analysis is appropriate, or whether there are any inconsistencies or artifacts in the data.
+  - **Resolution test** The authors must provide all figures and tables referenced in the text, with appropriate labels, legends, and error bars. The figures should be of sufficient quality to allow the reader to evaluate the data independently.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of phosphorylation data
+  - **Claim pointer** The authors claim that phosphorylation at Ser-384 "provides access to the wrapped ssDNA by remodeling the DNA-binding domains" and that this occurs "without substantially altering the pattern of ssDNA wrapping."
+  - **Evidence pointer** Results section, "Post-translational modification of human RPA by Aurora kinase B rearranges the domains without affecting the wrapping of ssDNA", Figures 5, 7, Supplementary Figures 5-7
+  - **Concern** The evidence for this claim is based on DEER measurements showing two populations for the phosphorylated RPA, one overlapping with wild-type (~7 nm) and one shorter (~5 nm), and on crosslinking mass spectrometry showing altered crosslinking patterns. However, the manuscript does not provide a clear structural interpretation of these results. The claim that the domains are "remodeled" is inferred from changes in crosslinking patterns, but the specific structural changes are not described. Furthermore, the functional significance of the two DEER populations is not discussed in detail. The authors state that "access to internal regions of the ssDNA wrapped by RPA upon phosphorylation" is granted, but this is not directly demonstrated.
+  - **Why it matters** The phosphorylation-dependent regulation of RPA is a key aspect of the manuscript's novelty. If the claim is not well-supported, the significance of the study is diminished. The interpretation of the DEER data as showing two populations is particularly important, as it suggests a heterogeneous population of complexes, but the manuscript does not discuss the potential origins of this heterogeneity or its functional implications.
+  - **Resolution test** The authors should provide a more detailed structural model for how phosphorylation at Ser-384 leads to domain remodeling, supported by the crosslinking data. They should also discuss the potential functional consequences of the two DEER populations and provide additional evidence (e.g., functional assays) to support the claim that phosphorylation provides access to ssDNA.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the findings "establish a precise structural model for RPA-bound ssDNA." The word "precise" may be an overstatement given the resolution of the techniques used and the indirect nature of the distance measurements.
+  - **Required correction** Consider replacing "precise" with "refined" or "updated" to more accurately reflect the level of structural detail provided.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction states that RPA "directs the ssDNA towards downstream DNA metabolic pathways with exceptional specificity." The term "exceptional specificity" is vague and not quantified.
+  - **Required correction** Provide a specific example or reference to support this claim, or rephrase to be more precise.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Results, polymer scaling analysis
+  - **Evidence pointer** Results, "Computational prediction of the shape of the wrapped ssDNA"
+  - **Issue** The authors fit the unbound ssDNA data to a polymer scaling law and report a scaling exponent of 0.50, consistent with a Gaussian chain. However, the manuscript does not discuss the potential effects of the fluorescent labels on the polymer properties or the range of lengths over which the scaling law is expected to hold.
+  - **Required correction** Add a brief discussion of the limitations of the polymer scaling analysis and the potential effects of the labels.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, mass photometry
+  - **Evidence pointer** Results, "RPA binding does not produce a complete linearization of ssDNA"
+  - **Issue** The text mentions "parallel mass photometry analysis of the complexes" but does not provide any details about the mass photometry experiments in the Methods section.
+  - **Required correction** Add a description of the mass photometry experiments to the Methods section, including the instrument used, the sample preparation, and the data analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, DEER measurements
+  - **Evidence pointer** Results, "DEER spectroscopy confirms wrapping of RPA along the curvature dictated by the DNA binding domains"
+  - **Issue** The text states that the DEER measurements for the (dT)22 substrate show "two populations" for the free DNA, but the origin of these two populations is not explained.
+  - **Required correction** Provide a brief explanation for the two populations observed in the free DNA, or clarify whether this is a known feature of the spin-labeled DNA.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion contains the phrase "without major changes much of a change to ssDNA organization within the complex." This appears to be a typographical error.
+  - **Required correction** Correct the phrase to "without major changes to ssDNA organization within the complex."
+- **Technical failings that need to be addressed before the case is established** 1) The absence of all figures and tables prevents evaluation of the data quality and the validity of the conclusions. 2) The lack of quantitative values for the measured distances and uncertainties prevents assessment of the statistical significance of the reported ~2.6 nm increase. 3) The methods sections for smFRET and DEER lack sufficient detail for reproducibility. 4) The interpretation of the phosphorylation data is not fully supported by the described evidence.
+- **Assessment against Nature-style criteria** Originality: The manuscript addresses a fundamental question about the conformation of ssDNA bound to RPA and proposes a model that reconciles conflicting prior observations. The use of orthogonal biophysical techniques is a strength. However, the concept of partial wrapping is not entirely novel, as it is consistent with prior structural studies. Scientific importance: The findings have implications for understanding how RPA functions in DNA metabolism and how post-translational modifications modulate its activity. This is a topic of broad interest to the DNA repair and replication communities. Interdisciplinary readership: The work bridges structural biology, biophysics, and DNA metabolism, and would appeal to researchers in these fields. Technical soundness: The choice of techniques is appropriate, but the lack of quantitative data and methodological detail prevents a full assessment of technical soundness. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the absence of figures makes it difficult for nonspecialists to follow the results.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is interesting and the techniques are appropriate, but the manuscript is incomplete as presented. The authors must provide the missing figures and tables, quantitative data with statistical analysis, and sufficient methodological detail to allow evaluation and replication. Once these issues are addressed, the manuscript could be suitable for publication in a specialized journal, though the scope and significance may not fully align with the broad readership of Nature.
+
+## Risk / unsupported claims
+- The claim that ssDNA wraps partially around RPA is supported by the described experiments but cannot be fully evaluated without the actual distance measurements and figures.
+- The claim that phosphorylation at Ser-384 remodels RPA domains without altering ssDNA wrapping is based on limited evidence (one DEER experiment and crosslinking data) and requires further validation.
+- The claim that the observed ~2.6 nm increase in end-to-end distance is inconsistent with a linear stretching model is not quantitatively supported in the text.
+- The claim that the findings "establish a precise structural model" is not supported by the resolution of the techniques used.
+- The claim that RPA binding does not alter the intrinsic flexibility of ssDNA is inferred from the polymer scaling analysis but is not directly tested.

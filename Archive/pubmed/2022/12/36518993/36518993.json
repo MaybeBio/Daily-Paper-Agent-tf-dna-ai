@@ -1,0 +1,499 @@
+{
+  "identity": {
+    "pmid": "36518993",
+    "doi": "10.1155/2022/2226168",
+    "title": "Qihuang Zhuyu Formula Attenuates Atherosclerosis via Targeting PPARgamma to Regulate Cholesterol Efflux and Endothelial Cell Inflammation."
+  },
+  "content": {
+    "abstract": "At present, due to the limitations of drug therapy targets for atherosclerosis, some patients fail to achieve satisfactory efficacy. Cholesterol efflux dysfunction and endothelial cell inflammation are considered to be important factors in the development of atherosclerosis. Peroxisome proliferator-activated receptor gamma (PPARgamma), a promising therapeutic target for atherosclerosis, plays a dual role in regulating cholesterol efflux and endothelial cell inflammation. However, the use of PPARgamma agonist in clinical practice is greatly limited as it could lead to water and sodium retention and hence result in congestive heart failure. Qihuang Zhuyu Formula (QHZYF) is a hospital preparation of Jiangsu Province Hospital of Chinese Medicine which has definite effect in the treatment of atherosclerosis, but its pharmacological mechanism has not been clear. In this study, we successfully predicted that QHZYF might regulate cholesterol efflux and endothelial inflammation via targeting PPARgamma-mediated PPARgamma/LXRalpha/ABCA1-ABCG1 and PPARgamma/NF-kappaB p65 pathways by using UPLC-Q-TOF/MS, network pharmacology, bioinformatics analysis, and molecular docking technology. Subsequently, we confirmed in vivo that QHZYF could attenuate atherosclerosis in ApoE(-/-) mice and regulate the expression levels of related molecules in PPARgamma/LXRalpha/ABCA1-ABCG1 and PPARgamma/NF-kappaB p65 pathways of ApoE(-/-) mice and C57BL/6 wild-type mice. Finally, in in vitro experiments, we found that QHZYF could reduce lipid content and increase cholesterol efflux rate of RAW 264.7 cells, inhibit the inflammatory response of HUVECs, and regulate the expression levels of related molecules in the two pathways. In addition, the above effects of QHZYF were significantly weakened after PPARgamma knockdown in the two kinds of cells. In conclusion, our study revealed that QHZYF attenuates atherosclerosis via targeting PPARgamma-mediated PPARgamma/LXRalpha/ABCA1-ABCG1 and PPARgamma/NF-kappaB p65 pathways to regulate cholesterol efflux and endothelial cell inflammation. More importantly, our study offers a promising complementary and alternative therapy which is expected to make up for the limitation of current drug treatment methods and provide a valuable reference for new drugs development in the future.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Atherosclerosis/drug therapy/metabolism",
+      "Cholesterol/metabolism",
+      "Endothelial Cells/metabolism",
+      "Foam Cells",
+      "Inflammation/drug therapy/metabolism",
+      "Liver X Receptors/metabolism",
+      "Mice, Inbred C57BL",
+      "Molecular Docking Simulation",
+      "NF-kappa B/metabolism",
+      "*PPAR gamma/metabolism",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Mice, Knockout, ApoE"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Mengxi",
+        "Xiang, Qian",
+        "Sun, Weixin",
+        "Zhang, Haowen",
+        "Shi, Ruijie",
+        "Guo, Jun",
+        "Tong, Huaqin",
+        "Fan, Manlu",
+        "Ding, Yuhan",
+        "Shi, Haibo",
+        "Yu, Peng",
+        "Shen, Le",
+        "Wang, Qiong",
+        "Chen, Xiaohu"
+      ],
+      "short_names": [
+        "Wang M",
+        "Xiang Q",
+        "Sun W",
+        "Zhang H",
+        "Shi R",
+        "Guo J",
+        "Tong H",
+        "Fan M",
+        "Ding Y",
+        "Shi H",
+        "Yu P",
+        "Shen L",
+        "Wang Q",
+        "Chen X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4875-9919",
+        "ORCID: 0000-0002-4150-2897",
+        "ORCID: 0000-0001-6251-4996",
+        "ORCID: 0000-0002-8261-7770"
+      ],
+      "affiliations": [
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Department of Cardiology, Yancheng TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Yancheng 224000, China.",
+        "College of Health Preservation and Rehabilitation, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+        "Laboratory of Pharmacology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Laboratory of Pharmacology, Jiangsu Province Hospital of Chinese Medicine, 210029 Nanjing, China.",
+        "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+        "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Mengxi",
+        "short_name": "Wang M",
+        "identifiers": [
+          "0000-0002-4875-9919"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+          "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Qian",
+        "short_name": "Xiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+          "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Weixin",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Yancheng TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Yancheng 224000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haowen",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Health Preservation and Rehabilitation, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Ruijie",
+        "short_name": "Shi R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+          "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jun",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+          "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Huaqin",
+        "short_name": "Tong H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+          "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Manlu",
+        "short_name": "Fan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+          "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yuhan",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China.",
+          "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Haibo",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Peng",
+        "short_name": "Yu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Le",
+        "short_name": "Shen L",
+        "identifiers": [
+          "0000-0002-4150-2897"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiong",
+        "short_name": "Wang Q",
+        "identifiers": [
+          "0000-0001-6251-4996"
+        ],
+        "affiliations": [
+          "Laboratory of Pharmacology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Laboratory of Pharmacology, Jiangsu Province Hospital of Chinese Medicine, 210029 Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaohu",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0000-0002-8261-7770"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210029, China.",
+          "Department of Cardiology, Jiangsu Province Hospital of Chinese Medicine, Nanjing 210029, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Oxidative medicine and cellular longevity"
+    ],
+    "journal_abbrev": [
+      "Oxid Med Cell Longev"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/16 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "41496105",
+      "40293536",
+      "39877131",
+      "39651322",
+      "38699583",
+      "38555000",
+      "37928399"
+    ],
+    "refs": [
+      "35076127",
+      "35063134",
+      "35002720",
+      "34981790",
+      "34966797",
+      "34088867",
+      "33932607",
+      "33756273",
+      "33464676",
+      "33339685",
+      "33309174",
+      "32423566",
+      "32097805",
+      "31465719",
+      "31071007",
+      "30429880",
+      "30055326",
+      "29690611",
+      "28527709",
+      "26937133",
+      "26355761",
+      "26183621",
+      "25632270",
+      "25302608",
+      "24833295",
+      "23811337",
+      "23680913",
+      "21862012",
+      "21368750",
+      "21226578",
+      "19458386",
+      "19398602",
+      "19338377",
+      "19318113",
+      "19061437",
+      "17433773",
+      "11950847",
+      "10707952"
+    ],
+    "similar": [
+      "36518993",
+      "33932607",
+      "37905351",
+      "38295661",
+      "30429880",
+      "29045950",
+      "27389392",
+      "38286155",
+      "35981705",
+      "22805089",
+      "25600616",
+      "34608501",
+      "38128398",
+      "36076592",
+      "16981222",
+      "30393020",
+      "36557773",
+      "33959213",
+      "23399664",
+      "29631101",
+      "29505925",
+      "31181336",
+      "34753029",
+      "33756273",
+      "23840542",
+      "21687917",
+      "36768382",
+      "28440421",
+      "31790366",
+      "15578089",
+      "31678621",
+      "33811891",
+      "39315497",
+      "39276454",
+      "26617799",
+      "31988050",
+      "33994201",
+      "35123060",
+      "29378206",
+      "24788275",
+      "24751522",
+      "17587765",
+      "35749304",
+      "22005457",
+      "24314261",
+      "21862012",
+      "34978526",
+      "31101336",
+      "27807703",
+      "25956064",
+      "30851372",
+      "29567472",
+      "32621955",
+      "35489660",
+      "38629368",
+      "22503545",
+      "24814410",
+      "29975943",
+      "24117070",
+      "24837536",
+      "16959872",
+      "18703020",
+      "27890613",
+      "25673178",
+      "32929345",
+      "12595494",
+      "19377069",
+      "29502100",
+      "24704452",
+      "27199450",
+      "39002826",
+      "25779847",
+      "18276926",
+      "31629255",
+      "32062137",
+      "16878022",
+      "22129452",
+      "22137263",
+      "16336952",
+      "31085374",
+      "35791048",
+      "27148853",
+      "31666189",
+      "29321244",
+      "33536383",
+      "32186100",
+      "22683903",
+      "24398697",
+      "25187964",
+      "26040753",
+      "30947667",
+      "29292466",
+      "27216461",
+      "28507170",
+      "24735204",
+      "20170635",
+      "24675235",
+      "24311381",
+      "31604677",
+      "35289693",
+      "25529449",
+      "26201974",
+      "22240665",
+      "38421141",
+      "37369936",
+      "38486386",
+      "37199156",
+      "38280036",
+      "37321079",
+      "39224974",
+      "26196108",
+      "35303193",
+      "38971330",
+      "39299361",
+      "38569295",
+      "38727309",
+      "39225219",
+      "34316032",
+      "37059130",
+      "38676497",
+      "39137627",
+      "38037046",
+      "37833942",
+      "38184922",
+      "37948298",
+      "38577989",
+      "39065817",
+      "36723831",
+      "38504584",
+      "36806379",
+      "36955478"
+    ],
+    "review": [
+      "36518993",
+      "18276926",
+      "37369936",
+      "37833942",
+      "38577989",
+      "36723831"
+    ],
+    "pmc": [
+      "9744610"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36518993/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36518993",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/2226168",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1087",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

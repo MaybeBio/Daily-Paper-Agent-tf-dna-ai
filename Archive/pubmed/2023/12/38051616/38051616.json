@@ -1,0 +1,206 @@
+{
+  "identity": {
+    "pmid": "38051616",
+    "doi": "10.1109/TCBB.2023.3339597",
+    "title": "promSEMBLE: Hard Pattern Mining and Ensemble Learning for Detecting DNA Promoter Sequences."
+  },
+  "content": {
+    "abstract": "Accurate identification of DNA promoter sequences is of crucial importance in unraveling the underlying mechanisms that regulate gene transcription. Initiation of transcription is controlled through regulatory transcription factors binding to promoter core regions in the DNA sequence. Detection of promoter regions is necessary if we are to build genetic regulatory networks for biomedical and clinical applications, and for identification of rarely expressed genes. We propose a novel ensemble learning technique using deep recurrent neural networks with convolutional feature extraction and hard negative pattern mining to detect several types of promoter sequences, including promoter sequences with the TATA-box and without the TATA-box, within DNA sequences of four different species. Using extensive independent tests and previously published results, we demonstrate that our method sets a new state-of-the-art of over 98% Matthews correlation coefficient in all eight organism categories for recognizing the stretch of base pairs that code for the promoter region within DNA sequences.",
+    "keywords": [],
+    "mesh_terms": [
+      "Base Sequence",
+      "Promoter Regions, Genetic/genetics",
+      "TATA Box",
+      "*DNA/genetics",
+      "*Machine Learning",
+      "Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nagda, Bindi M",
+        "Nguyen, Van Minh",
+        "White, Ryan T"
+      ],
+      "short_names": [
+        "Nagda BM",
+        "Nguyen VM",
+        "White RT"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Nagda, Bindi M",
+        "short_name": "Nagda BM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nguyen, Van Minh",
+        "short_name": "Nguyen VM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "White, Ryan T",
+        "short_name": "White RT",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2024 Jan-Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/06 03:42",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38051616",
+      "19337366",
+      "17123746",
+      "36192696",
+      "33227813",
+      "26046838",
+      "8663141",
+      "1321424",
+      "9895133",
+      "7698646",
+      "1721839",
+      "8598298",
+      "8086419",
+      "1748992",
+      "1583729",
+      "28158264",
+      "7853477",
+      "8887668",
+      "1323706",
+      "14660650",
+      "1711673",
+      "10648619",
+      "9207059",
+      "1314091",
+      "19552818",
+      "7885839",
+      "32908305",
+      "1519359",
+      "8177733",
+      "11564744",
+      "35533969",
+      "22110682",
+      "12242016",
+      "8764049",
+      "2253881",
+      "1744081",
+      "9238060",
+      "17346352",
+      "7745713",
+      "7991556",
+      "8943356",
+      "7961772",
+      "7491110",
+      "26824723",
+      "1400410",
+      "7577965",
+      "17217512",
+      "25336585",
+      "9303435",
+      "7966586",
+      "15574413",
+      "8355718",
+      "8660656",
+      "9639027",
+      "15760658",
+      "1630455",
+      "28539359",
+      "11865052",
+      "8626793",
+      "15033527",
+      "7646464",
+      "1943699",
+      "14612417",
+      "7498793",
+      "8463340",
+      "8486625",
+      "2159474",
+      "8260939",
+      "8344948",
+      "2233715",
+      "1408796",
+      "18723134",
+      "29176831",
+      "1733976",
+      "8633066",
+      "7580258",
+      "7964717",
+      "10848601",
+      "1922076",
+      "1736522",
+      "18923080",
+      "2234067",
+      "8760900",
+      "9489666",
+      "9504721",
+      "8639326",
+      "7518774",
+      "12527202",
+      "1588975",
+      "8419924",
+      "8994183",
+      "8340407",
+      "15231738",
+      "16784526",
+      "8264638",
+      "9425284",
+      "17210644",
+      "8523525",
+      "8985328",
+      "8473323"
+    ],
+    "review": [
+      "38051616",
+      "8639326"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2023.3339597",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2023.3339597",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

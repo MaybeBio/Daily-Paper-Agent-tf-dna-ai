@@ -1,0 +1,534 @@
+{
+  "identity": {
+    "pmid": "34315882",
+    "doi": "10.1038/s41467-021-24816-z",
+    "title": "Insulin signaling regulates longevity through protein phosphorylation in Caenorhabditis elegans."
+  },
+  "content": {
+    "abstract": "Insulin/IGF-1 Signaling (IIS) is known to constrain longevity by inhibiting the transcription factor FOXO. How phosphorylation mediated by IIS kinases regulates lifespan beyond FOXO remains unclear. Here, we profile IIS-dependent phosphorylation changes in a large-scale quantitative phosphoproteomic analysis of wild-type and three IIS mutant Caenorhabditis elegans strains. We quantify more than 15,000 phosphosites and find that 476 of these are differentially phosphorylated in the long-lived daf-2/insulin receptor mutant. We develop a machine learning-based method to prioritize 25 potential lifespan-related phosphosites. We perform validations to show that AKT-1 pT492 inhibits DAF-16/FOXO and compensates the loss of daf-2 function, that EIF-2alpha pS49 potently inhibits protein synthesis and daf-2 longevity, and that reduced phosphorylation of multiple germline proteins apparently transmits reduced DAF-2 signaling to the soma. In addition, an analysis of kinases with enriched substrates detects that casein kinase 2 (CK2) subunits negatively regulate lifespan. Our study reveals detailed functional insights into longevity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Amino Acid Sequence",
+      "Animals",
+      "Caenorhabditis elegans/*physiology",
+      "Caenorhabditis elegans Proteins/chemistry/metabolism",
+      "Germ Cells/metabolism",
+      "Humans",
+      "Insulin/*metabolism",
+      "Insulin-Like Growth Factor I/metabolism",
+      "Longevity/*physiology",
+      "Models, Biological",
+      "Mutation/genetics",
+      "Phosphoproteins/metabolism",
+      "Phosphorylation",
+      "Proteome/metabolism",
+      "Proteomics",
+      "*Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Wen-Jun",
+        "Wang, Chen-Wei",
+        "Tao, Li",
+        "Yan, Yong-Hong",
+        "Zhang, Mei-Jun",
+        "Liu, Ze-Xian",
+        "Li, Yu-Xin",
+        "Zhao, Han-Qing",
+        "Li, Xue-Mei",
+        "He, Xian-Dong",
+        "Xue, Yu",
+        "Dong, Meng-Qiu"
+      ],
+      "short_names": [
+        "Li WJ",
+        "Wang CW",
+        "Tao L",
+        "Yan YH",
+        "Zhang MJ",
+        "Liu ZX",
+        "Li YX",
+        "Zhao HQ",
+        "Li XM",
+        "He XD",
+        "Xue Y",
+        "Dong MQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4204-5621",
+        "ORCID: 0000-0001-9698-0610",
+        "ORCID: 0000-0002-9403-6869",
+        "ORCID: 0000-0002-6094-1182"
+      ],
+      "affiliations": [
+        "School of Life Sciences, Peking University, Beijing, China.",
+        "National Institute of Biological Sciences, Beijing, China.",
+        "Key Laboratory of Molecular Biophysics of Ministry of Education, Hubei Bioinformatics and Molecular Imaging Key Laboratory, Center for Artificial Intelligence Biology, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+        "Nanjing University Institute of Artificial Intelligence Biomedicine, Nanjing, Jiangsu, China.",
+        "National Institute of Biological Sciences, Beijing, China.",
+        "Department of Biology, Stanford University, Stanford, CA, USA.",
+        "National Institute of Biological Sciences, Beijing, China.",
+        "National Institute of Biological Sciences, Beijing, China.",
+        "Annoroad Gene Tech. Co., Ltd., Beijing, China.",
+        "Key Laboratory of Molecular Biophysics of Ministry of Education, Hubei Bioinformatics and Molecular Imaging Key Laboratory, Center for Artificial Intelligence Biology, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+        "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, China.",
+        "National Institute of Biological Sciences, Beijing, China.",
+        "Department of Cellular and Molecular Medicine, University of California San Diego, La Jolla, CA, USA.",
+        "National Institute of Biological Sciences, Beijing, China.",
+        "School of Life Sciences, Peking University, Beijing, China.",
+        "National Institute of Biological Sciences, Beijing, China.",
+        "National Institute of Biological Sciences, Beijing, China.",
+        "Key Laboratory of Molecular Biophysics of Ministry of Education, Hubei Bioinformatics and Molecular Imaging Key Laboratory, Center for Artificial Intelligence Biology, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, China. xueyu@hust.edu.cn.",
+        "Nanjing University Institute of Artificial Intelligence Biomedicine, Nanjing, Jiangsu, China. xueyu@hust.edu.cn.",
+        "National Institute of Biological Sciences, Beijing, China. dongmengqiu@nibs.ac.cn.",
+        "Tsinghua Institute of Multidisciplinary Biomedical Research, Tsinghua University, Beijing, China. dongmengqiu@nibs.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Wen-Jun",
+        "short_name": "Li WJ",
+        "identifiers": [
+          "0000-0003-4204-5621"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Peking University, Beijing, China.",
+          "National Institute of Biological Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chen-Wei",
+        "short_name": "Wang CW",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Biophysics of Ministry of Education, Hubei Bioinformatics and Molecular Imaging Key Laboratory, Center for Artificial Intelligence Biology, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+          "Nanjing University Institute of Artificial Intelligence Biomedicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Li",
+        "short_name": "Tao L",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Biological Sciences, Beijing, China.",
+          "Department of Biology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Yong-Hong",
+        "short_name": "Yan YH",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Biological Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mei-Jun",
+        "short_name": "Zhang MJ",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Biological Sciences, Beijing, China.",
+          "Annoroad Gene Tech. Co., Ltd., Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ze-Xian",
+        "short_name": "Liu ZX",
+        "identifiers": [
+          "0000-0001-9698-0610"
+        ],
+        "affiliations": [
+          "Key Laboratory of Molecular Biophysics of Ministry of Education, Hubei Bioinformatics and Molecular Imaging Key Laboratory, Center for Artificial Intelligence Biology, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+          "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yu-Xin",
+        "short_name": "Li YX",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Biological Sciences, Beijing, China.",
+          "Department of Cellular and Molecular Medicine, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Han-Qing",
+        "short_name": "Zhao HQ",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Biological Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xue-Mei",
+        "short_name": "Li XM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Peking University, Beijing, China.",
+          "National Institute of Biological Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "He, Xian-Dong",
+        "short_name": "He XD",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Biological Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Yu",
+        "short_name": "Xue Y",
+        "identifiers": [
+          "0000-0002-9403-6869"
+        ],
+        "affiliations": [
+          "Key Laboratory of Molecular Biophysics of Ministry of Education, Hubei Bioinformatics and Molecular Imaging Key Laboratory, Center for Artificial Intelligence Biology, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, China. xueyu@hust.edu.cn.",
+          "Nanjing University Institute of Artificial Intelligence Biomedicine, Nanjing, Jiangsu, China. xueyu@hust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Dong, Meng-Qiu",
+        "short_name": "Dong MQ",
+        "identifiers": [
+          "0000-0002-6094-1182"
+        ],
+        "affiliations": [
+          "National Institute of Biological Sciences, Beijing, China. dongmengqiu@nibs.ac.cn.",
+          "Tsinghua Institute of Multidisciplinary Biomedical Research, Tsinghua University, Beijing, China. dongmengqiu@nibs.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Jul 27",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/29 06:00",
+    "fetched_at": "2026-09-27 21:18:17"
+  },
+  "links": {
+    "cites": [
+      "42626428",
+      "42500243",
+      "42212310",
+      "42029704",
+      "41381452",
+      "41057652",
+      "40642017",
+      "40401953",
+      "40258293",
+      "40144895",
+      "40085390",
+      "39856245",
+      "39804866",
+      "39786994",
+      "39728497",
+      "39490401",
+      "39448087",
+      "39428852",
+      "39345438",
+      "39127848",
+      "39059513",
+      "38816370",
+      "38571872",
+      "38548791",
+      "38466341",
+      "38427115",
+      "38226857",
+      "38048304",
+      "38034351",
+      "37239845",
+      "36613733",
+      "36380728",
+      "36284093",
+      "36140242",
+      "36060963",
+      "35821832",
+      "35808897",
+      "35479415",
+      "35433778",
+      "35181679",
+      "35163422"
+    ],
+    "refs": [
+      "31919361",
+      "31819260",
+      "31411562",
+      "30901541",
+      "30670635",
+      "30357350",
+      "30252093",
+      "30213854",
+      "30096138",
+      "29905871",
+      "29186112",
+      "28445141",
+      "28276441",
+      "28004786",
+      "27720609",
+      "27453442",
+      "27095192",
+      "27090940",
+      "27010073",
+      "26694509",
+      "26675724",
+      "26552885",
+      "26329457",
+      "26171723",
+      "25957690",
+      "25954137",
+      "25338131",
+      "24799117",
+      "24555535",
+      "24395814",
+      "24214961",
+      "24190921",
+      "24097270",
+      "24081580",
+      "24002365",
+      "23995389",
+      "23925298",
+      "23911329",
+      "23820781",
+      "23805378",
+      "23312285",
+      "22817900",
+      "22806145",
+      "22802047",
+      "22798277",
+      "22574120",
+      "22182234",
+      "22073976",
+      "21331044",
+      "21177495",
+      "21045808",
+      "20706209",
+      "20657825",
+      "20336132",
+      "20110332",
+      "19646261",
+      "19377485",
+      "19249087",
+      "19240135",
+      "19239892",
+      "18566586",
+      "18428785",
+      "18413715",
+      "18358814",
+      "17996009",
+      "17702057",
+      "17266679",
+      "16839187",
+      "16759361",
+      "16522328",
+      "15317041",
+      "15034147",
+      "12750521",
+      "11438690",
+      "11381260",
+      "10360574",
+      "10207147",
+      "9381173",
+      "4366476"
+    ],
+    "similar": [
+      "34315882",
+      "11381260",
+      "26195740",
+      "20613724",
+      "18358814",
+      "34505574",
+      "16530049",
+      "18832074",
+      "33609424",
+      "26675724",
+      "18202391",
+      "27153157",
+      "20550516",
+      "31311719",
+      "23786484",
+      "21695191",
+      "21533078",
+      "23550118",
+      "27039057",
+      "20824162",
+      "20975207",
+      "25330323",
+      "26154057",
+      "28562327",
+      "20178781",
+      "28934747",
+      "32482227",
+      "22916022",
+      "19923212",
+      "24516399",
+      "23879233",
+      "24332851",
+      "17020605",
+      "24395814",
+      "28434978",
+      "18241854",
+      "38529797",
+      "24945567",
+      "27040644",
+      "23271974",
+      "24555535",
+      "30478249",
+      "25517099",
+      "36428956",
+      "29670680",
+      "28831863",
+      "19249087",
+      "26698870",
+      "20844315",
+      "32443669",
+      "19360094",
+      "33471780",
+      "31906434",
+      "37047164",
+      "23820781",
+      "20862312",
+      "33666644",
+      "38976945",
+      "16626392",
+      "27095033",
+      "16530050",
+      "30403374",
+      "16164423",
+      "35413150",
+      "22132200",
+      "18406553",
+      "10360574",
+      "15637588",
+      "25830239",
+      "18423931",
+      "24767993",
+      "26539642",
+      "30104664",
+      "31883120",
+      "23805378",
+      "20738286",
+      "25156270",
+      "35913999",
+      "15767565",
+      "32786597",
+      "24002365",
+      "24304470",
+      "19749979",
+      "12845331",
+      "12393910",
+      "34830338",
+      "16306402",
+      "26219299",
+      "21858156",
+      "27499530",
+      "20952811",
+      "25808059",
+      "14622602",
+      "36125117",
+      "21531333",
+      "21749693",
+      "29478855",
+      "36284093",
+      "23509272",
+      "34397058",
+      "28366735",
+      "38900346",
+      "38237233",
+      "39245488",
+      "39063027",
+      "27810910",
+      "28410423",
+      "20502519",
+      "19465083",
+      "31280992",
+      "28769038",
+      "38854056",
+      "38798632",
+      "28817671",
+      "34611154",
+      "28916541",
+      "39284915",
+      "28166192",
+      "31007945"
+    ],
+    "review": [
+      "34315882",
+      "24395814",
+      "26698870",
+      "31906434",
+      "20738286",
+      "25156270"
+    ],
+    "pmc": [
+      "8316574"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetesmedicines.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Medicines"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-24816-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34315882/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34315882",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34315882",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

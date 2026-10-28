@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a sequence-function landscape study of the LasR quorum-sensing regulator from *Pseudomonas aeruginosa*, using targeted protein engineering and multiplexed high-throughput biosensor screening. They created a pooled combinatorial saturation mutagenesis library (9,486 DNA sequences) targeting six residues in the beta5 sheet, performed sort-seq assays with cognate and noncognate homoserine lactone (HSL) signals, identified hundreds of highly specific variants, and validated individual sensors showing up to 60.6-fold improved relative activation by the cognate signal. They also report prevalent mutational epistasis and previously unidentified residues contributing to signal specificity, with potential applications in engineered bacterial consortia.
+- **Visible evidence base** Abstract text only; no experimental details, statistical methods, or data visualizations provided
+- **Missing materials affecting confidence** Full methods, library construction details, sort-seq gating and analysis parameters, individual variant assay data, statistical test descriptions, sequence-function maps, epistasis analysis, and any validation of sensor performance in consortia
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of synthetic biology, specifically in improving the signal specificity of LuxR-type quorum-sensing regulators. The use of high-throughput sort-seq to map sequence-function relationships is appropriate and timely. However, the abstract alone provides insufficient detail to evaluate the robustness of the claims, particularly regarding the magnitude of improvement, the statistical rigor, and the generalizability of the findings. The reported epistasis and identification of new specificity-determining residues are intriguing but require supporting data to be credible. The claim of broad applicability to engineered consortia is plausible but not demonstrated in the abstract.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, particularly those working on engineered microbial consortia, quorum-sensing-based circuits, and directed evolution of transcriptional regulators. The work also has relevance for those studying the molecular basis of ligand specificity in LuxR-type proteins and for protein engineers interested in high-throughput functional screening methods.
+- **Major strengths** The study addresses a clear and important problem in synthetic biology, namely signal crosstalk in multi-HSL consortia. The use of a pooled saturation mutagenesis library with sort-seq is a powerful and appropriate approach. The identification of hundreds of specific variants and the demonstration of up to 60.6-fold improvement in relative activation are compelling headline results. The observation of epistasis adds mechanistic depth and suggests the study goes beyond simple single-residue effects.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** "Sensor variants identified were individually assayed and exhibited up to 60.6-fold (p = 0.0013) improved relative activation by the cognate signal compared to the wildtype."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The abstract reports a single p-value for the maximum improvement, but it is unclear what statistical test was used, how many replicates were performed, and whether the p-value refers to the best variant or to a comparison across all variants. The magnitude of improvement is stated as "up to 60.6-fold," which suggests a range, but no distribution or confidence interval is provided.  
+    - **Why it matters** Without clarity on the statistical design and the distribution of improvements, the reader cannot assess whether the reported improvement is robust or an outlier. The p-value as presented is insufficient to establish significance across the panel of variants.  
+    - **Resolution test** Provide details of the statistical test, number of biological and technical replicates, and a measure of variance (e.g., confidence intervals) for the reported fold-improvement. Show the distribution of improvements across all validated variants.  
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** "A pooled combinatorial saturation mutagenesis library (9,486 LasR DNA sequences) was created by mutating six residues in LasR's beta5 sheet with single, double, or triple amino acid substitutions."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The abstract states the library size as 9,486 DNA sequences, but it is not clear whether this represents the number of unique variants or the total number of clones screened. The theoretical diversity for six residues with single, double, and triple substitutions is not stated, and the coverage of the library is not reported.  
+    - **Why it matters** Library coverage is critical for interpreting the completeness of the sequence-function landscape. If the library does not cover the intended mutational space, the conclusions about epistasis and specificity-determining residues may be incomplete or biased.  
+    - **Resolution test** Report the theoretical diversity of the library, the number of unique variants confirmed by sequencing, and the coverage percentage. Clarify whether 9,486 refers to unique variants or total clones.  
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Scientific importance  
+    - **Claim pointer** "We uncovered prevalent mutational epistasis and previously unidentified residues contributing to signal specificity."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The claim of epistasis is stated without any supporting data or analysis. The abstract does not describe how epistasis was detected, quantified, or distinguished from additive effects. Similarly, the "previously unidentified residues" are not named or contextualized relative to known LasR structure-function data.  
+    - **Why it matters** Epistasis is a strong mechanistic claim that requires rigorous statistical and experimental support. Without details, the claim is not verifiable and may overstate the novelty of the findings.  
+    - **Resolution test** Provide a description of the epistasis analysis (e.g., comparison of observed vs. expected phenotypes for double and triple mutants), and list the specific residues identified with reference to prior structural or functional studies.  
+  - **Concern ID** R1-M4  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Interdisciplinary readership  
+    - **Claim pointer** "The resulting sensors with negligible signal crosstalk could be broadly applied to engineer bacteria consortia."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The abstract claims broad applicability but provides no demonstration of sensor performance in a consortium context. The term "negligible signal crosstalk" is not quantified, and no data are shown for multiplexed signaling scenarios.  
+    - **Why it matters** The stated application is a key motivation for the work. Without evidence of function in a multi-signal environment, the claim of broad applicability remains speculative.  
+    - **Resolution test** Include a demonstration of at least one engineered consortium using the improved sensors, with quantitative readouts of signal-specific activation and minimal crosstalk.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Readability for nonspecialists  
+    - **Affected element** Abstract text  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** The term "beta5 sheet" is used without structural context. Nonspecialist readers may not know the significance of this region in LasR.  
+    - **Required correction** Briefly describe the functional role of the beta5 sheet in ligand binding or add a reference to a structural model.  
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Technical soundness  
+    - **Affected element** Statistical reporting  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** The p-value is reported as "p = 0.0013" without specifying the test or the comparison group.  
+    - **Required correction** State the statistical test used and clarify whether the p-value refers to a comparison with wildtype or between variants.  
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Scientific importance  
+    - **Affected element** Contextualization  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** The abstract does not mention how the improved variants compare to previously engineered LasR mutants or other LuxR-type regulators with improved specificity.  
+    - **Required correction** Add a sentence contextualizing the improvements relative to prior work in the field.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical clarity), R1-M2 (library coverage), R1-M3 (epistasis evidence), R1-M4 (consortium demonstration)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of combining saturation mutagenesis with sort-seq for a quorum-sensing regulator is not entirely novel, but the specific focus on LasR and the systematic mapping of specificity determinants appears to be a new contribution. The abstract does not fully establish novelty relative to prior directed evolution studies on LuxR-type proteins.  
+  - **Scientific importance** The problem of signal crosstalk is significant for synthetic biology, and improved sensors would be broadly useful. However, the importance is tempered by the lack of demonstrated application in the abstract.  
+  - **Interdisciplinary readership** The work bridges protein engineering, high-throughput screening, and synthetic biology. The abstract is accessible to these audiences but may be less clear to readers outside these fields due to the use of specialized terms without explanation.  
+  - **Technical soundness** The core methodology is sound in principle, but the abstract lacks sufficient detail to assess the rigor of the library construction, screening, and statistical analysis. The reported p-value and fold-improvement are not adequately supported.  
+  - **Readability for nonspecialists** The abstract is generally clear but includes jargon (e.g., "sort-seq," "beta5 sheet") that could be better explained. The significance of the findings is stated but not fully contextualized.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant problem with an appropriate approach, and the headline results are promising. However, the abstract alone does not provide enough evidence to establish the robustness of the claims. Full manuscript review would be needed to verify the statistical rigor, library coverage, and the validity of the epistasis and application claims.
+
+## Risk / unsupported claims
+- The claim of "up to 60.6-fold improved relative activation" is unsupported without details on the statistical test, replicates, and variance.
+- The claim of "prevalent mutational epistasis" is unsupported without a description of the analysis method.
+- The claim of "previously unidentified residues contributing to signal specificity" is unsupported without naming the residues or providing comparative context.
+- The claim of "negligible signal crosstalk" is unsupported without quantitative data in a multi-signal context.
+- The claim of "broadly applied to engineer bacteria consortia" is speculative and not demonstrated in the abstract.

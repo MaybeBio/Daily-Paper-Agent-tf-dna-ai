@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "40070065",
+    "doi": "10.2174/0118715303365068250303042017",
+    "title": "Development of a Novel 11-Gene Signature Related to Immune Subtypes for Fibromyalgia."
+  },
+  "content": {
+    "abstract": "AIM: The purpose of this study was to identify molecular subtypes and hub genes in fibromyalgia [FM] based on immune-related genes [IRGs]. BACKGROUND: FM is a chronic disease featuring widespread pain, and the immune system may be involved in the FM progression. OBJECTIVE: The objectives of this study are as follows: 1] To identify the molecular subtypes of FM based on IRGs. 2] To screen and validate the hub genes in FM. 3] To predict the transcription factor [TF] targeting hub genes and 4] To evaluate the correlation between immune cell infiltration, hallmark pathways, and hub genes. METHODS: Two FM datasets were acquired from the Gene Expression Omnibus [GEO] database. IRGs were collected from the ImmPort database. Molecular subtypes of FM were identified using the \"ConsensusClusterPlus\" package. IRGs score and differentially expressed genes [DEGs] between different FM subtypes and control samples were obtained using \"GSVA\" and \"limma\" packages. Key module genes related to FM subtypes were identified using the \"WGCNA\" package. Hub genes were screened and verified using \"glmnet\" and \"pROC\" packages. TF-hub gene regulatory network was constructed by Cytoscape software. The correlation between immune cells, hallmark pathways, and hub genes was analyzed by the Spearman method. Finally, the DSigDB database was used to obtain associations between characterized genes and drugs, and the expression of key genes was verified using qRT-PCR. RESULTS: FM samples were classified into two subtypes, and the IRGs score of the C2 subtype was lower than that of the C1 subtype. Then, 184 module genes were obtained and mainly enriched in immune-related pathways. Next, 11 hub genes [TSPAN16, RILPL2, RASSF5, PGAP2, PADI2, NACC1, LRRC25, ITGAD, HIPK1, ATP6V0D1, AP1M2] were screened with good diagnostic performance. Besides, 45 TFs targeting hub genes were predicted. Most hub genes were negatively associated with CD4/CD8 T cells while positively correlated with macrophages, mast cell, monocyte, and neutrophil, as well as inflammatory response, angiogenesis pathways, etc. Molecular docking suggests that chloroquine and L-citrulline may be potent agents for the treatment of NACC1 and PADI2. RILPL2 and ITGAD were significantly differentially expressed in control and FM group mouse models. CONCLUSION: This study identified two subtypes and 11 hub genes of FM based on IRGs, providing a reference for the clinical diagnosis of FM.",
+    "keywords": [
+      "Fibromyalgia",
+      "diagnosis",
+      "hub genes",
+      "immune cell infiltration.",
+      "immune-related genes",
+      "molecular subtypes",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*Fibromyalgia/genetics/immunology/classification/diagnosis",
+      "Humans",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling/methods",
+      "*Transcriptome",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Wei",
+        "Wang, Pengcheng"
+      ],
+      "short_names": [
+        "Zhao W",
+        "Wang P"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-4010-2878"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China.",
+        "Colorectal Surgery, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Wei",
+        "short_name": "Zhao W",
+        "identifiers": [
+          "0009-0000-4010-2878"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pengcheng",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Colorectal Surgery, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine, metabolic & immune disorders drug targets"
+    ],
+    "journal_abbrev": [
+      "Endocr Metab Immune Disord Drug Targets"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/12 11:36",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39078518",
+      "39059316",
+      "38892110",
+      "38799203",
+      "38632516",
+      "38602575",
+      "38365198",
+      "38236461",
+      "38215156",
+      "38030057",
+      "37759458",
+      "37707690",
+      "37670381",
+      "37664936",
+      "37445618",
+      "37429737",
+      "37330799",
+      "37147992",
+      "37071676",
+      "36979691",
+      "36636587",
+      "36568979",
+      "36437453",
+      "36401429",
+      "36238643",
+      "36036260",
+      "35992081",
+      "35712872",
+      "35534828",
+      "35455956",
+      "35207567",
+      "35154321",
+      "35123251",
+      "35038314",
+      "34768513",
+      "34717958",
+      "34670033",
+      "34517527",
+      "33003107",
+      "32884013",
+      "32785008",
+      "32083545",
+      "32054062",
+      "31887417",
+      "31470635",
+      "30818032",
+      "30734722",
+      "30523152",
+      "30340835",
+      "29684996",
+      "29235061",
+      "29044191",
+      "28466420",
+      "28052254",
+      "27291641",
+      "23922682",
+      "20427518",
+      "18239379"
+    ],
+    "similar": [
+      "40070065",
+      "40977739",
+      "40216809",
+      "40289127",
+      "40860289",
+      "36699262",
+      "37386410",
+      "40119397",
+      "36660246",
+      "37325483",
+      "40574839",
+      "42123445",
+      "36405745",
+      "39188714",
+      "35116604",
+      "39265357",
+      "39586719",
+      "42109727",
+      "39310900",
+      "36506310",
+      "41479901",
+      "37153000",
+      "39650656",
+      "35799780",
+      "39095691",
+      "37359526",
+      "39086489",
+      "39349110",
+      "41432483",
+      "38319987",
+      "40766309",
+      "35562622",
+      "39636891",
+      "40078458",
+      "39403102",
+      "39079197",
+      "38734841",
+      "40496861",
+      "39080525",
+      "40012919",
+      "40704466",
+      "35558576",
+      "42244292",
+      "34321013",
+      "41120603",
+      "41533020",
+      "41299613",
+      "36777638",
+      "36238290",
+      "33535891",
+      "40263537",
+      "35713363",
+      "36193061",
+      "41388523",
+      "37033969",
+      "36627660",
+      "40091022",
+      "40374866",
+      "37235492",
+      "38755717",
+      "38957433",
+      "41583468",
+      "33927789",
+      "41044520",
+      "38660311",
+      "36681837",
+      "38691241",
+      "37063851",
+      "39789578",
+      "39069636",
+      "41316541",
+      "35278479",
+      "37746940",
+      "40692778",
+      "38847168",
+      "35637927",
+      "34218797",
+      "42138757",
+      "40836320",
+      "38863714",
+      "40442789",
+      "40739239",
+      "40613560",
+      "41316378",
+      "40319145",
+      "42391245",
+      "39394418",
+      "40665394",
+      "35473522",
+      "38736878",
+      "33184436",
+      "34823498",
+      "40196107",
+      "40561071",
+      "39953769",
+      "39670237",
+      "39026663",
+      "37605574",
+      "34430602",
+      "41840546"
+    ],
+    "review": [
+      "40070065"
+    ],
+    "pmc": [
+      "13334266"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/fibromyalgia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Fibromyalgia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40070065/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/240093/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

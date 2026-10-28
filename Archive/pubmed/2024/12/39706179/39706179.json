@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "39706179",
+    "doi": "10.1016/j.stemcr.2024.11.007",
+    "title": "Swift induction of human spinal lower motor neurons and robust ALS cell screening via single-cell imaging."
+  },
+  "content": {
+    "abstract": "This study introduces a novel method for rapidly and efficiently inducing human spinal lower motor neurons (LMNs) from induced pluripotent stem cells (iPSCs) to eventually elucidate the pathomechanisms of amyotrophic lateral sclerosis (ALS) and facilitate drug screening. Previous methods were limited by low induction efficiency, poor LMN purity, or labor-intensive induction and evaluation processes. Our protocol overcomes these challenges, achieving around 80% induction efficiency within just two weeks by combining a small molecule-based approach with transcription factor transduction. Moreover, to exclude non-LMN cells from the analysis, we utilized time-lapse microscopy and machine learning to analyze the morphology and viability of iPSC-derived LMNs on a single-cell basis, establishing an effective pathophysiological evaluation system. This rapid, efficient, and streamlined protocol, along with our single-cell-based evaluation method, enables large-scale analysis and drug screening using iPSC-derived motor neurons.",
+    "keywords": [
+      "ALS",
+      "disease modeling",
+      "iPSC",
+      "image analysis",
+      "machine learning",
+      "motor neuron",
+      "single-cell analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Motor Neurons/metabolism/cytology",
+      "*Amyotrophic Lateral Sclerosis/pathology/metabolism",
+      "*Induced Pluripotent Stem Cells/cytology/metabolism",
+      "*Single-Cell Analysis/methods",
+      "Cell Differentiation",
+      "*Spinal Cord/cytology",
+      "Time-Lapse Imaging",
+      "Cells, Cultured"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Setsu, Selena",
+        "Morimoto, Satoru",
+        "Nakamura, Shiho",
+        "Ozawa, Fumiko",
+        "Utami, Kagistia Hana",
+        "Nishiyama, Ayumi",
+        "Suzuki, Naoki",
+        "Aoki, Masashi",
+        "Takeshita, Yukio",
+        "Tomari, Yukihide",
+        "Okano, Hideyuki"
+      ],
+      "short_names": [
+        "Setsu S",
+        "Morimoto S",
+        "Nakamura S",
+        "Ozawa F",
+        "Utami KH",
+        "Nishiyama A",
+        "Suzuki N",
+        "Aoki M",
+        "Takeshita Y",
+        "Tomari Y",
+        "Okano H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Laboratory of RNA Function, Institute for Quantitative Biosciences, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan; Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan.",
+        "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan. Electronic address: satoru_morimoto@keio.jp.",
+        "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan.",
+        "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan.",
+        "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan.",
+        "Department of Neurology, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+        "Department of Neurology, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan; Department of Rehabilitation Medicine, Tohoku University Graduate School of Medicine, Sendai, Japan.",
+        "Department of Neurology, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+        "Department of Neurology and Clinical Neuroscience, Yamaguchi University Graduate School of Medicine, Yamaguchi 753-8511, Japan; Department of Neurotherapeutics, Yamaguchi University Graduate School of Medicine, Yamaguchi 753-8511, Japan.",
+        "Laboratory of RNA Function, Institute for Quantitative Biosciences, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan; Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan.",
+        "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan. Electronic address: hidokano@keio.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Setsu, Selena",
+        "short_name": "Setsu S",
+        "identifiers": [],
+        "affiliations": [
+          "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Laboratory of RNA Function, Institute for Quantitative Biosciences, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan; Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan."
+        ]
+      },
+      {
+        "full_name": "Morimoto, Satoru",
+        "short_name": "Morimoto S",
+        "identifiers": [],
+        "affiliations": [
+          "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan. Electronic address: satoru_morimoto@keio.jp."
+        ]
+      },
+      {
+        "full_name": "Nakamura, Shiho",
+        "short_name": "Nakamura S",
+        "identifiers": [],
+        "affiliations": [
+          "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan."
+        ]
+      },
+      {
+        "full_name": "Ozawa, Fumiko",
+        "short_name": "Ozawa F",
+        "identifiers": [],
+        "affiliations": [
+          "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan."
+        ]
+      },
+      {
+        "full_name": "Utami, Kagistia Hana",
+        "short_name": "Utami KH",
+        "identifiers": [],
+        "affiliations": [
+          "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishiyama, Ayumi",
+        "short_name": "Nishiyama A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Naoki",
+        "short_name": "Suzuki N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan; Department of Rehabilitation Medicine, Tohoku University Graduate School of Medicine, Sendai, Japan."
+        ]
+      },
+      {
+        "full_name": "Aoki, Masashi",
+        "short_name": "Aoki M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan."
+        ]
+      },
+      {
+        "full_name": "Takeshita, Yukio",
+        "short_name": "Takeshita Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and Clinical Neuroscience, Yamaguchi University Graduate School of Medicine, Yamaguchi 753-8511, Japan; Department of Neurotherapeutics, Yamaguchi University Graduate School of Medicine, Yamaguchi 753-8511, Japan."
+        ]
+      },
+      {
+        "full_name": "Tomari, Yukihide",
+        "short_name": "Tomari Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of RNA Function, Institute for Quantitative Biosciences, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan; Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Bunkyo-ku, Tokyo 113-0032, Japan."
+        ]
+      },
+      {
+        "full_name": "Okano, Hideyuki",
+        "short_name": "Okano H",
+        "identifiers": [],
+        "affiliations": [
+          "Keio University Regenerative Medicine Research Center, Kanagawa 210-0821, Japan; Division of Neurodegenerative Disease Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology, Tokyo 173-0015, Japan. Electronic address: hidokano@keio.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Stem cell reports"
+    ],
+    "journal_abbrev": [
+      "Stem Cell Reports"
+    ],
+    "pub_date": "2025 Jan 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/21 16:43",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [
+      "41677614",
+      "41169204",
+      "41145638",
+      "40826812",
+      "40773352",
+      "40707625"
+    ],
+    "refs": [
+      "37606618",
+      "37267913",
+      "37142397",
+      "36949352",
+      "36746737",
+      "36699015",
+      "36684445",
+      "36684437",
+      "36514162",
+      "36004509",
+      "35120619",
+      "35115730",
+      "35111809",
+      "34764226",
+      "34437455",
+      "34139168",
+      "33925625",
+      "33590861",
+      "33208539",
+      "32783653",
+      "32659732",
+      "31926602",
+      "31767567",
+      "31375807",
+      "31124595",
+      "30446391",
+      "30423086",
+      "30127392",
+      "29971247",
+      "29107593",
+      "29021520",
+      "28539470",
+      "28344997",
+      "28263959",
+      "27021939",
+      "26946488",
+      "25806427",
+      "25516281",
+      "25346659",
+      "24703839",
+      "24139042",
+      "23039195",
+      "22855461",
+      "21460823",
+      "21221095",
+      "20154440",
+      "20052410",
+      "19303844",
+      "19251628",
+      "19251627",
+      "18309045",
+      "18035408",
+      "17084815",
+      "16904174",
+      "7700513"
+    ],
+    "similar": [
+      "39706179",
+      "23891805",
+      "38127186",
+      "22855461",
+      "26423934",
+      "30033758",
+      "37108151",
+      "32040555",
+      "36764301",
+      "29800782",
+      "34767750",
+      "32783653",
+      "33602141",
+      "31107442",
+      "35159209",
+      "34685754",
+      "26035390",
+      "37595581",
+      "28926110",
+      "39312484",
+      "38504592",
+      "26107889",
+      "35012575",
+      "21685205",
+      "32629110",
+      "37651231",
+      "33220280",
+      "17668067",
+      "23740897",
+      "32005289",
+      "30442180",
+      "27097283",
+      "32892745",
+      "19492980",
+      "28710685",
+      "26997647",
+      "38713169",
+      "33806803",
+      "28539470",
+      "31107959",
+      "18669821",
+      "24291866",
+      "24154603",
+      "36362259",
+      "33436868",
+      "30278374",
+      "37080969",
+      "39509425",
+      "39201793",
+      "40132594",
+      "32443559",
+      "26725112",
+      "27428653",
+      "29924488",
+      "23835137",
+      "38413232",
+      "39227882",
+      "32437855",
+      "27083773",
+      "36980310",
+      "35660087",
+      "31841614",
+      "25779930",
+      "37496071",
+      "37952981",
+      "38876108",
+      "32121108",
+      "27498123",
+      "29113829",
+      "40179811",
+      "25007389",
+      "32330447",
+      "26946488",
+      "39536963",
+      "40250093",
+      "38478117",
+      "26018231",
+      "31108504",
+      "28366455",
+      "8584246",
+      "37239468",
+      "23413376",
+      "34048688",
+      "27021939",
+      "34389060",
+      "35205286",
+      "29779896",
+      "31759135",
+      "39639398",
+      "38676626",
+      "15837590",
+      "37142397",
+      "10023033",
+      "32203916",
+      "40389397",
+      "24704493",
+      "33382996",
+      "28616022",
+      "32676988",
+      "33172210"
+    ],
+    "review": [
+      "39706179",
+      "26423934",
+      "30033758",
+      "32629110",
+      "33220280",
+      "19492980",
+      "38713169",
+      "24291866",
+      "36980310",
+      "37952981",
+      "26018231",
+      "27021939",
+      "31759135"
+    ],
+    "pmc": [
+      "11784480"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-6711(24)00321-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39706179/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LMNB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse229095",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

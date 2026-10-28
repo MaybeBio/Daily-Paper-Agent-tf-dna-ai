@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "36656856",
+    "doi": "10.1073/pnas.2205796120",
+    "title": "Physicochemical models of protein-DNA binding with standard and modified base pairs."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins play important roles in various cellular processes, but the mechanisms by which proteins recognize genomic target sites remain incompletely understood. Functional groups at the edges of the base pairs (bp) exposed in the DNA grooves represent physicochemical signatures. As these signatures enable proteins to form specific contacts between protein residues and bp, their study can provide mechanistic insights into protein-DNA binding. Existing experimental methods, such as X-ray crystallography, can reveal such mechanisms based on physicochemical interactions between proteins and their DNA target sites. However, the low throughput of structural biology methods limits mechanistic insights for selection of many genomic sites. High-throughput binding assays enable prediction of potential target sites by determining relative binding affinities of a protein to massive numbers of DNA sequences. Many currently available computational methods are based on the sequence of standard Watson-Crick bp. They assume that the contribution of overall binding affinity is independent for each base pair, or alternatively include dinucleotides or short k-mers. These methods cannot directly expand to physicochemical contacts, and they are not suitable to apply to DNA modifications or non-Watson-Crick bp. These variations include DNA methylation, and synthetic or mismatched bp. The proposed method, DeepRec, can predict relative binding affinities as function of physicochemical signatures and the effect of DNA methylation or other chemical modifications on binding. Sequence-based modeling methods are in comparison a coarse-grain description and cannot achieve such insights. Our chemistry-based modeling framework provides a path towards understanding genome function at a mechanistic level.",
+    "keywords": [
+      "binding specificity",
+      "deep learning",
+      "quantitative modeling",
+      "readout mode",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Base Pairing",
+      "*DNA/metabolism",
+      "Protein Binding",
+      "*DNA-Binding Proteins/metabolism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chiu, Tsu-Pei",
+        "Rao, Satyanarayan",
+        "Rohs, Remo"
+      ],
+      "short_names": [
+        "Chiu TP",
+        "Rao S",
+        "Rohs R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2472-6557",
+        "ORCID: 0000-0001-7678-3505",
+        "ORCID: 0000-0003-1752-1884"
+      ],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089.",
+        "Department of Chemistry, University of Southern California, Los Angeles, CA 90089.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA 90089.",
+        "Department of Computer Science, University of Southern California, Los Angeles, CA 90089."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chiu, Tsu-Pei",
+        "short_name": "Chiu TP",
+        "identifiers": [
+          "0000-0002-2472-6557"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089."
+        ]
+      },
+      {
+        "full_name": "Rao, Satyanarayan",
+        "short_name": "Rao S",
+        "identifiers": [
+          "0000-0001-7678-3505"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089."
+        ]
+      },
+      {
+        "full_name": "Rohs, Remo",
+        "short_name": "Rohs R",
+        "identifiers": [
+          "0000-0003-1752-1884"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089.",
+          "Department of Chemistry, University of Southern California, Los Angeles, CA 90089.",
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA 90089.",
+          "Department of Computer Science, University of Southern California, Los Angeles, CA 90089."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Jan 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/20 06:00",
+    "fetched_at": "2026-09-28 19:15:02"
+  },
+  "links": {
+    "cites": [
+      "42219541",
+      "41799016",
+      "40673435",
+      "40123340",
+      "39896490",
+      "39891349",
+      "39753777",
+      "39619556",
+      "39494533",
+      "39313455",
+      "39103447",
+      "39033307",
+      "38801070",
+      "38754172",
+      "38721783",
+      "38411091",
+      "38336958",
+      "38042148"
+    ],
+    "refs": [
+      "36306733",
+      "34289059",
+      "33087930",
+      "32738045",
+      "31612957",
+      "30792304",
+      "30566668",
+      "30057026",
+      "29944822",
+      "29610332",
+      "29588420",
+      "29159284",
+      "28614722",
+      "28473536",
+      "28092692",
+      "27903915",
+      "27479905",
+      "27075101",
+      "26213851",
+      "25775564",
+      "25699092",
+      "25624100",
+      "25592537",
+      "23562153",
+      "23354101",
+      "23352388",
+      "22153072",
+      "21706015",
+      "20877328",
+      "20378718",
+      "20364130",
+      "20334529",
+      "19997485",
+      "17981120",
+      "17825469",
+      "16998473",
+      "16418267",
+      "12700764",
+      "11741530",
+      "11433033",
+      "11104519",
+      "10812473",
+      "10592235",
+      "9115440",
+      "8413605",
+      "8413604",
+      "3187531",
+      "3185709",
+      "2197994",
+      "1328886",
+      "1301998"
+    ],
+    "similar": [
+      "36656856",
+      "33087930",
+      "33591181",
+      "12860120",
+      "25775564",
+      "11917033",
+      "12654264",
+      "23818176",
+      "16201758",
+      "12466549",
+      "29040720",
+      "30950607",
+      "2532258",
+      "11197348",
+      "10451380",
+      "10339546",
+      "23861536",
+      "25756377",
+      "18922190",
+      "1640456",
+      "11575931",
+      "24617852",
+      "10653638",
+      "28594167",
+      "3045325",
+      "18399704",
+      "12101405",
+      "32913127",
+      "15779911",
+      "16246914",
+      "16838999",
+      "33063082",
+      "11700064",
+      "1332773",
+      "21270796",
+      "18237194",
+      "22452649",
+      "8627673",
+      "21308127",
+      "20364130",
+      "11023782",
+      "16362906",
+      "23085222",
+      "10509911",
+      "25414269",
+      "25313048",
+      "15996534",
+      "14672650",
+      "11371169",
+      "26959646",
+      "18514225",
+      "24448651",
+      "19958487",
+      "32941619",
+      "11726699",
+      "9374853",
+      "29409522",
+      "3271524",
+      "15501936",
+      "8668194",
+      "11861919",
+      "12419257",
+      "16542422",
+      "23912807",
+      "28341704",
+      "11786010",
+      "35652477",
+      "10090291",
+      "18178221",
+      "20853889",
+      "12177293",
+      "22967176",
+      "22312425",
+      "9150406",
+      "10891271",
+      "10736221",
+      "8014988",
+      "8604314",
+      "10631510",
+      "23383960",
+      "20334529",
+      "17406235",
+      "3612791",
+      "16312015",
+      "21601080",
+      "11937638",
+      "29414941",
+      "16513133",
+      "13129569",
+      "2157891",
+      "14704346",
+      "11724532",
+      "38336958"
+    ],
+    "review": [
+      "36656856",
+      "33591181",
+      "23861536",
+      "25756377",
+      "28594167",
+      "25414269",
+      "35652477",
+      "10631510"
+    ],
+    "pmc": [
+      "9942898"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2205796120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36656856/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36656856",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37853316",
+  "title": "Cellular clarity: a logistic regression approach to identify root epidermal regulators of iron deficiency response.",
+  "authors": "Schmittling, Selene R; Muhammad, DurreShahwar; Haque, Samiul; Long, Terri A; Williams, Cranos M",
+  "journal": "BMC genomics",
+  "published_date": "2023-10-19",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用逻辑回归和LASSO整合DNA基序与时间序列转录组，预测拟南芥根表皮缺铁响应中的调控因子，涉及TF-DNA基序关联但缺乏三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "BACKGROUND: Plants respond to stress through highly tuned regulatory networks. While prior works identified master regulators of iron deficiency responses in A. thaliana from whole-root data, identifying regulators that act at the cellular level is critical to a more comprehensive understanding of iron homeostasis. Within the root epidermis complex molecular mechanisms that facilitate iron reduction and uptake from the rhizosphere are known to be regulated by bHLH transcriptional regulators. However, many questions remain about the regulatory mechanisms that control these responses, and how they may integrate with developmental processes within the epidermis. Here, we use transcriptional profiling to gain insight into root epidermis-specific regulatory processes. RESULTS: Set comparisons of differentially expressed genes (DEGs) between whole root and epidermis transcript measurements identified differences in magnitude and timing of organ-level vs. epidermis-specific responses. Utilizing a unique sampling method combined with a mutual information metric across time-lagged and non-time-lagged windows, we identified relationships between clusters of functionally relevant differentially expressed genes suggesting that developmental regulatory processes may act upstream of well-known Fe-specific responses. By integrating static data (DNA motif information) with time-series transcriptomic data and employing machine learning approaches, specifically logistic regression models with LASSO, we also identified putative motifs that served as crucial features for predicting differentially expressed genes. Twenty-eight transcription factors (TFs) known to bind to these motifs were not differentially expressed, indicating that these TFs may be regulated post-transcriptionally or post-translationally. Notably, many of these TFs also play a role in root development and general stress response. CONCLUSIONS: This work uncovered key differences in -Fe response identified using whole root data vs. cell-specific root epidermal data. Machine learning approaches combined with additional static data identified putative regulators of -Fe response that would not have been identified solely through transcriptomic profiles and reveal how developmental and general stress responses within the epidermis may act upstream of more specialized -Fe responses for Fe uptake.",
+  "abstract_zh": "背景：植物通过高度调控的网络响应胁迫。尽管先前的研究利用全根数据鉴定了拟南芥（A. thaliana）缺铁反应的主调控因子，但识别在细胞水平发挥作用的调控因子对于更全面地理解铁稳态至关重要。在根表皮中，促进根际铁还原和吸收的复杂分子机制已知受bHLH转录调控因子调控。然而，关于控制这些反应的调控机制及其如何与表皮内的发育过程整合，仍有许多问题。在此，我们利用转录谱分析来深入了解根表皮特异性的调控过程。结果：对全根和表皮转录测量中差异表达基因（DEGs）的集合比较，识别了器官水平与表皮特异性反应在幅度和时间上的差异。利用独特的采样方法结合互信息度量，在时滞和非时滞窗口中，我们识别了功能相关差异表达基因簇之间的关系，提示发育调控过程可能作用于已知铁特异性反应的上游。通过将静态数据（DNA基序信息）与时间序列转录组数据整合，并采用机器学习方法，特别是带LASSO的逻辑回归模型，我们还识别了作为预测差异表达基因关键特征的推定基序。已知结合这些基序的28个转录因子（TFs）未差异表达，表明这些转录因子可能在转录后或翻译后水平受到调控。值得注意的是，这些转录因子中的许多也在根发育和一般胁迫反应中发挥作用。结论：本研究揭示了基于全根数据与细胞特异性根表皮数据识别的缺铁反应中的关键差异。机器学习方法结合额外静态数据，识别了仅通过转录组谱无法发现的缺铁反应推定调控因子，并揭示了表皮内发育和一般胁迫反应如何可能作用于更特化的铁吸收缺铁反应的上游。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37853316/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37853316/",
+  "paper_page_path": "papers/pubmed/37853316/index.html"
+}

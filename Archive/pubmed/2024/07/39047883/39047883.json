@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "39047883",
+    "doi": "10.1016/j.jep.2024.118612",
+    "title": "Ecliptasaponin A protects heart against acute ischemia-induced myocardial injury by inhibition of the HMGB1/TLR4/NF-kappaB pathway."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Eclipta prostrata (Linn.) is a traditional medicinal Chinese herb that displays multiple biological activities, such as encompassing immunomodulatory, anti-inflammatory, anti-tumor, liver-protective, antioxidant, and lipid-lowering effects. Ecliptasaponin A (ESA), a pentacyclic triterpenoid saponin isolated from Eclipta prostrata (Linn.), has been demonstrated to exert superior anti-inflammatory activity against many inflammatory disorders. AIM OF THE STUDY: Inflammation plays a critical role in acute myocardial infarction (AMI). This study aims to explore the treatment effects of ESA in AMI, as well as the underlying mechanism. METHODS: An AMI mouse model was established in mice via left anterior descending coronary artery (LAD) ligation. After surgery, ESA was injected at doses of 0.5, 1.25, and 2.5 mg/kg, respectively. Myocardial infarction size, cardiomyocyte apoptosis and cardiac echocardiography were studied. The potential mechanism of action of ESA was investigated by RNA-seq, Western blot, surface plasmon resonance (SPR), molecular docking, and immunofluorescence staining. RESULTS: ESA treatment not only significantly reduced myocardial infarct size, decreased myocardial cell apoptosis, and inhibited inflammatory cell infiltration, but also facilitated to improve cardiac function. RNA-seq and Western blot analysis proved that ESA treatment-induced differential expression genes mainly enriched in HMGB1/TLR4/NF-kappaB pathway. Consistently, ESA treatment resulted into the down-regulation of IL-1beta, IL-6, and TNF-alpha levels after AMI. Furthermore, SPR and molecular docking results showed that ESA could bind directly to HMGB1, thereby impeding the activation of the downstream TLR4/NF-kappaB pathway. The immunofluorescence staining and Western blot results at the cellular level also demonstrated that ESA inhibited the activation of the HMGB1/TLR4/NF-kappaB pathway in H9C2 cells. CONCLUSION: Our study was the first to demonstrate a cardiac protective role of ESA in AMI. Mechanism study indicated that the treatment effects of ESA are mainly attributed to its anti-inflammatory activity that was mediated by the HMGB1/TLR4/NF-kappaB pathway.",
+    "keywords": [
+      "Acute myocardial infarction",
+      "Eclipta prostrata (Linn.)",
+      "Ecliptasaponin A",
+      "HMGB1/TLR4/NF-kappaB pathway",
+      "Inflammation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Toll-Like Receptor 4/metabolism",
+      "*HMGB1 Protein/metabolism",
+      "*Saponins/pharmacology",
+      "*NF-kappa B/metabolism",
+      "Male",
+      "Mice",
+      "*Signal Transduction/drug effects",
+      "*Myocardial Infarction/drug therapy/prevention & control",
+      "*Mice, Inbred C57BL",
+      "Anti-Inflammatory Agents/pharmacology",
+      "Apoptosis/drug effects",
+      "Molecular Docking Simulation",
+      "Cardiotonic Agents/pharmacology",
+      "Disease Models, Animal",
+      "Triterpenes/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ge, Sumin",
+        "Wu, Sihua",
+        "Yin, Qin",
+        "Tan, Meng",
+        "Wang, Sichuan",
+        "Yang, Yonghao",
+        "Chen, Zixuan",
+        "Xu, Lei",
+        "Zhang, Hui",
+        "Meng, Chuang",
+        "Xia, Yufei",
+        "Asakawa, Naoki",
+        "Wei, Wenping",
+        "Gong, Kaizheng",
+        "Pan, Xin"
+      ],
+      "short_names": [
+        "Ge S",
+        "Wu S",
+        "Yin Q",
+        "Tan M",
+        "Wang S",
+        "Yang Y",
+        "Chen Z",
+        "Xu L",
+        "Zhang H",
+        "Meng C",
+        "Xia Y",
+        "Asakawa N",
+        "Wei W",
+        "Gong K",
+        "Pan X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China.",
+        "Division of Molecular Science, Graduate School of Science and Technology, Gunma University, Kiryu, Gunma, Japan; State Key Laboratory of Biochemical Engineering, Institute of Process Engineering, Chinese Academy of Sciences, Beijing, China.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China.",
+        "School of Medicine, Yangzhou University, Yangzhou 225000, Jiangsu, China.",
+        "Jiangsu Key Laboratory of Zoonosis, Yangzhou University, Yangzhou, 225000, Jiangsu, China.",
+        "State Key Laboratory of Biochemical Engineering, Institute of Process Engineering, Chinese Academy of Sciences, Beijing, China.",
+        "Division of Molecular Science, Graduate School of Science and Technology, Gunma University, Kiryu, Gunma, Japan.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China. Electronic address: weiwp_yzu@163.com.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China. Electronic address: yungkzh@163.com.",
+        "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China. Electronic address: xinpanphd@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ge, Sumin",
+        "short_name": "Ge S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Sihua",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Science, Graduate School of Science and Technology, Gunma University, Kiryu, Gunma, Japan; State Key Laboratory of Biochemical Engineering, Institute of Process Engineering, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Qin",
+        "short_name": "Yin Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Meng",
+        "short_name": "Tan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Sichuan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yonghao",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zixuan",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hui",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Yangzhou University, Yangzhou 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Chuang",
+        "short_name": "Meng C",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Zoonosis, Yangzhou University, Yangzhou, 225000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Yufei",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biochemical Engineering, Institute of Process Engineering, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Asakawa, Naoki",
+        "short_name": "Asakawa N",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Science, Graduate School of Science and Technology, Gunma University, Kiryu, Gunma, Japan."
+        ]
+      },
+      {
+        "full_name": "Wei, Wenping",
+        "short_name": "Wei W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China. Electronic address: weiwp_yzu@163.com."
+        ]
+      },
+      {
+        "full_name": "Gong, Kaizheng",
+        "short_name": "Gong K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China. Electronic address: yungkzh@163.com."
+        ]
+      },
+      {
+        "full_name": "Pan, Xin",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Department of Pediatrics, Central Laboratory, Cutting-edge Innovation Key Lab of Major CVD in Yangzhou, The Affiliated Hospital of Yangzhou University, Yangzhou University, Yangzhou, 225000, Jiangsu, China. Electronic address: xinpanphd@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2024 Dec 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/26 12:36",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "42523799",
+      "42093889",
+      "42072613",
+      "41469950",
+      "40579143",
+      "40056358",
+      "39976025"
+    ],
+    "refs": [],
+    "similar": [
+      "39047883",
+      "34032295",
+      "34032975",
+      "23727604",
+      "31378910",
+      "30618088",
+      "38621908",
+      "33617946",
+      "36152839",
+      "37343367",
+      "33507583",
+      "27485280",
+      "29990871",
+      "36471973",
+      "31547018",
+      "32866662",
+      "31545785",
+      "25604645",
+      "28738820",
+      "27998004",
+      "32410871",
+      "31525576",
+      "32095984",
+      "32236896",
+      "24432369",
+      "38244891",
+      "38569275",
+      "33902056",
+      "32356088",
+      "30851101",
+      "29975331",
+      "28629818",
+      "38926382",
+      "31912804",
+      "33429196",
+      "28222157",
+      "38493721",
+      "37652195",
+      "35758877",
+      "29940584",
+      "38183448",
+      "29532872",
+      "26217083",
+      "35595191",
+      "34508751",
+      "28512854",
+      "31825792",
+      "38181931",
+      "37872565",
+      "22179023",
+      "37528661",
+      "32820776",
+      "30827308",
+      "29241031",
+      "33232924",
+      "34865233",
+      "34197778",
+      "30266998",
+      "36453191",
+      "34162568",
+      "32096822",
+      "32380527",
+      "31859817",
+      "38952315",
+      "28119924",
+      "38552431",
+      "33180213",
+      "37766966",
+      "30063916",
+      "36332392",
+      "31121820",
+      "31646595",
+      "30119194",
+      "31678414",
+      "34034564",
+      "32558672",
+      "29763588",
+      "31683033",
+      "28525945",
+      "32607919",
+      "27064547",
+      "38845211",
+      "30880023",
+      "29510381",
+      "33493985",
+      "30195568",
+      "31580943",
+      "21642503",
+      "36646160",
+      "33421596",
+      "33268762",
+      "31545873",
+      "27452656",
+      "29178911",
+      "26617842",
+      "32460188",
+      "33383446",
+      "31399192",
+      "30047580",
+      "34102644",
+      "39322086",
+      "37128910",
+      "39142620",
+      "38824786",
+      "39207079",
+      "31197745",
+      "38761876",
+      "27228349",
+      "38449454",
+      "39341082",
+      "39263577",
+      "39049710",
+      "39423623",
+      "36278177"
+    ],
+    "review": [
+      "39047883",
+      "27228349"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(24)00911-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      }
+    ],
+    "text_mined": []
+  }
+}

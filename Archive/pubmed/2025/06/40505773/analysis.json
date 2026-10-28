@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40505773",
+  "title": "Bioinformatics analysis of hub genes and oxidative stress-related pathways in odontogenic keratocysts.",
+  "authors": "Zhou, Hao; Li, Rui-Fang; Man, Qi-Wen",
+  "journal": "Journal of stomatology, oral and maxillofacial surgery",
+  "published_date": "2025-06-13",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学分析牙源性角化囊肿中氧化应激相关枢纽基因并预测其转录因子，但仅基于表达数据和PPI网络，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: The study aimed to examine the hub genes and oxidative stress-related pathways in odontogenic keratocysts (OKCs) and predict transcription factors associated with the hub genes. METHODS: The GSE38494 dataset, which includes 12 OKC tissues and 4 normal oral mucosa tissues, was retrieved from the Gene Expression Omnibus (GEO) database. The limma package in the R programming language was utilized to identify differentially expressed genes (DEGs). In addition, Gene Ontology (GO) analysis was performed specifically for genes associated with oxidative stress. Utilizing Database for Annotation, Visualization, and Integrated Discovery (DAVID), Metascape, and Gene Set Enrichment Analysis (GSEA), we comprehensively analyzed the GO terms and signaling pathways related to oxidative stress. The Degree algorithm in Cytoscape was employed to identify hub genes. The STRING database was leveraged to construct the protein-protein interaction (PPI) network. Finally, the transcription factors (TFs) of the hub genes were identified using the NetworkAnalyst web tool. scRNA data of OKC (GSE176351) was used for correlation analysis between oxidative stress-related hub genes and IL-beta gene by Pearson correlation analysis. RESULTS: A total of 465 genes associated with oxidative stress were identified in the GSE38494 and GO databases, and 60 genes were significantly differentially expressed. The majority of these genes were involved in multiple signaling pathways, such as microRNAs in cancers, chemical carcinogenesis, reactive oxygen species, and the arachidonic acid metabolism signaling pathway. The ten most important hub genes were MAPK3, HMOX1, GPX6, GPX7, GCLM, COL1A1, TXN, PDGFRB, NQO1, and MMP2. FOXC1, HNF4A, and GATA2 may be the key regulatory factors of the hub genes. Additionally, there is a weak postitive correlation between oxidative stress-related genes and IL-1beta in epithelial cells of OKC (R = 0.26). CONCLUSIONS: Through bioinformatics analysis, we identified several oxidative stress-related hub genes and signaling pathways in OKC which was related to IL-1beta expression.",
+  "abstract_zh": "目的：本研究旨在探讨牙源性角化囊肿（OKCs）中的核心基因及氧化应激相关通路，并预测与核心基因相关的转录因子。方法：从基因表达综合（GEO）数据库中获取GSE38494数据集，该数据集包含12个OKC组织和4个正常口腔黏膜组织。利用R语言中的limma包识别差异表达基因（DEGs）。此外，针对与氧化应激相关的基因进行了基因本体论（GO）分析。利用注释、可视化和集成发现数据库（DAVID）、Metascape和基因集富集分析（GSEA），我们全面分析了与氧化应激相关的GO术语和信号通路。采用Cytoscape中的Degree算法识别核心基因。利用STRING数据库构建蛋白质-蛋白质相互作用（PPI）网络。最后，使用NetworkAnalyst网络工具识别核心基因的转录因子（TFs）。利用OKC的scRNA数据（GSE176351），通过Pearson相关分析进行氧化应激相关核心基因与IL-1β基因之间的相关性分析。结果：在GSE38494和GO数据库中，共鉴定出465个与氧化应激相关的基因，其中60个基因显著差异表达。这些基因中的大多数参与多条信号通路，如癌症中的微小RNA、化学致癌作用、活性氧和花生四烯酸代谢信号通路。十个最重要的核心基因为MAPK3、HMOX1、GPX6、GPX7、GCLM、COL1A1、TXN、PDGFRB、NQO1和MMP2。FOXC1、HNF4A和GATA2可能是核心基因的关键调控因子。此外，在OKC上皮细胞中，氧化应激相关基因与IL-1β之间存在弱正相关性（R = 0.26）。结论：通过生物信息学分析，我们在OKC中鉴定了多个与IL-1β表达相关的氧化应激核心基因和信号通路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40505773/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40505773/",
+  "paper_page_path": "papers/pubmed/40505773/index.html"
+}

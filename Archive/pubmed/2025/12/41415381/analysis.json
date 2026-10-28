@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41415381",
+  "title": "Building dynamical models of multi-step state transitions from single cell gene expression trajectories.",
+  "authors": "You, Yukai; Caranica, Cristian; Lu, Mingyang",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-12-19",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用NetDes从单细胞轨迹推断转录因子调控网络并构建ODE动态模型，虽涉及TF调控但无蛋白-DNA三维互作建模，方法为网络推断而非AI/物理模拟，与课题核心关联较弱。",
+  "abstract": "Multi-step cell state transitions often occur in biological processes, such as cell differentiation and disease progression, yet the regulatory mechanisms governing these transitions remain unclear. Here, we introduce NetDes, a computational method that integrates top-down and bottom-up systems biology to infer core transcription factor regulatory networks and build ODE-based dynamical models from single-cell gene expression trajectories. We demonstrate that NetDes predicts regulatory interactions and reproduces gene expression dynamics through benchmarking using in-silico time trajectories with decoys, tests on gene circuit simulations of embryonic phenotypic switching, and application to time-series scRNA-seq data from human iPSC differentiation. Compared to existing approaches, NetDes has the advantage of capturing sequential state transitions within a single dynamical model. Network simulations and coarse-graining further elucidate the regulatory roles of genes and their combinations in driving these transitions. Our approach provides a generalizable framework for mechanistic modeling of gene regulation in complex cell state transitions.",
+  "abstract_zh": "多步细胞状态转变常发生于生物过程中，例如细胞分化和疾病进展，然而调控这些转变的机制仍不清楚。在此，我们引入NetDes，一种整合自上而下和自下而上的系统生物学方法，用于推断核心转录因子调控网络，并从单细胞基因表达轨迹构建基于常微分方程（ODE）的动力学模型。我们通过使用带有诱饵的计算机模拟时间轨迹进行基准测试、对胚胎表型转换的基因电路模拟进行测试，以及应用于人类诱导多能干细胞（iPSC）分化的时间序列单细胞RNA测序（scRNA-seq）数据，证明NetDes能够预测调控相互作用并重现基因表达动态。与现有方法相比，NetDes的优势在于能够在单一动力学模型中捕捉顺序状态转变。网络模拟和粗粒化进一步阐明了基因及其组合在驱动这些转变中的调控作用。我们的方法为复杂细胞状态转变中基因调控的机制建模提供了一个通用框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41415381/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41415381/",
+  "paper_page_path": "papers/pubmed/41415381/index.html"
+}

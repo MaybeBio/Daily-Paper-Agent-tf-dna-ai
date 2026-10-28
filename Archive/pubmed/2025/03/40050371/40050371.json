@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "pmid": "40050371",
+    "doi": "10.1038/s41598-025-91700-x",
+    "title": "Profiling genetic mutations in the DNA damage repair genes of oral squamous cell carcinoma patients from Pakistan."
+  },
+  "content": {
+    "abstract": "Herein, we reported mutations in five DNA Damage Repair (DDR) i.e., TP53, ATR, ATM, CHEK1 and CHEK2 involved in OSCC using NG-WES and their analysis using bioinformatics tools. Out of 42 identified mutations, 16.7% are reported for the 1st time. A total of 28 nonsynonymous SNVs are identified. TP53 harbored the highest number of mutations followed by ATM, ATR, CHEK1 and CHEK2. Nine mutations (TP53(p.R43H), TP53(p.L125Q), TP53(p.R116Q), TP53(p.C110Y), TP53(p.L62F), ATR(p.H120Y), ATM(p.P1054R), ATM(p.D1853V), ATM(p.T2934N)) were predicted highly pathogenic. SAAFEQ-SEQ predicted destabilizing effects for all mutations, while ISPRED-SEQ identified 09 IS mutations, 07 on TP53, 01 in ATR and 01 in CHEK1 with no IS mutations predicted for ATM and CHEK2. Among the IS mutations, only SNVs were used in MDS simulations. The gyration radius for all IS SNVs was larger for mutant as compared to the wild type indicating perturbed folding behavior of the mutant proteins. Structural deviations across the carbon back bone were noted by RMSD for mutant and wild type. The TP53 IS mutations include TP53(p.R116Q), TP53 (p.C110Y), TP53(p.R43H), TP53(p.E214X), TP53(p.R210X), TP53 (p.C110Afs*5) and TP53 (p,S108Ffs*23) whereas ATR and CHEK1 IS mutations consist of ATR(p.M1932T) and CHEK1(p.E76Kfs*21). ConSurf analysis revealed four SNVs with a high conservation score (9) on TP53 and ATM. TP53(p.P33R) was predominantly associated with moderately differentiated tumors (84.60%), naswar users (86.60%) and positive family history of cancer (91.60%). The TP53(p.P33R), ATR(p.M211T) and CHEK1(p.I437V) mutations were found recurrently in 21/27 (77.7%), 20/27 (74.04%), and 27/27 (100%) patients, suggesting its potential biomarker applications in local screening.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarker",
+      "NGS",
+      "Oncogenomics",
+      "Oral cancer",
+      "Pashtun"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Repair/genetics",
+      "*Mutation",
+      "*Mouth Neoplasms/genetics/pathology",
+      "*DNA Damage/genetics",
+      "Pakistan",
+      "Checkpoint Kinase 2/genetics",
+      "Male",
+      "Checkpoint Kinase 1/genetics",
+      "Female",
+      "Tumor Suppressor Protein p53/genetics",
+      "*Carcinoma, Squamous Cell/genetics/pathology",
+      "Middle Aged",
+      "Ataxia Telangiectasia Mutated Proteins/genetics",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naeem, Wafa",
+        "Nawab, Fouzia",
+        "Sarwar, Muhammad Tahir",
+        "Khalil, Ali Talha",
+        "Gaber, Dalia Ali",
+        "Ahmad, Hilal",
+        "Fazeel, Muhammad",
+        "Alorini, Mohammed",
+        "Khan, Ishtiaq Ahmad",
+        "Irfan, Muhammad",
+        "Khan, Muslim",
+        "Khurram, Syed Ali",
+        "Ali, Asif"
+      ],
+      "short_names": [
+        "Naeem W",
+        "Nawab F",
+        "Sarwar MT",
+        "Khalil AT",
+        "Gaber DA",
+        "Ahmad H",
+        "Fazeel M",
+        "Alorini M",
+        "Khan IA",
+        "Irfan M",
+        "Khan M",
+        "Khurram SA",
+        "Ali A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Basic Medical Sciences, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan.",
+        "Institute of Basic Medical Sciences, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan.",
+        "Institute of Basic Medical Sciences, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan.",
+        "Department of Pathology, Lady Reading Hospital Medical Teaching Institution (LRH-MTI), Peshawar, Khyber Pakhtunkhwa, 25000, Pakistan. alitalha.khalil@lrh.edu.pk.",
+        "Medical Biochemistry and Molecular Biology Department, Faculty of Medicine, Helwan University, Cairo, Egypt.",
+        "College of Medicine, Gulf Medical University, Ajman, UAE.",
+        "Institute of Basic Medical Sciences, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan.",
+        "Phelma Grenoble INP, Universite Grenoble Alpes, Grenoble, France.",
+        "Department of Pathology, College of Medicine, Qassim University, Unaizah, Saudi Arabia.",
+        "Jamil-Ur-Rahman Center for Genome Research, Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, 75270, Pakistan.",
+        "Jamil-Ur-Rahman Center for Genome Research, Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, 75270, Pakistan.",
+        "Department of Oral and Maxillofacial Surgery, Khyber College of Dentistry, Peshawar, Pakistan.",
+        "School of Clinical Dentistry, Faulty of Health, University of Sheffield, Sheffield, S10 2TA, UK. s.a.khurram@sheffield.ac.uk.",
+        "Department of Pathology, College of Medicine, Qassim University, Unaizah, Saudi Arabia. draliasif7@gmail.com.",
+        "Institute of Pathology and Diagnostic Medicine, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan. draliasif7@gmail.com.",
+        "School of Cancer Sciences, University of Glasgow, Glasgow, G12 8QQ, UK. draliasif7@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naeem, Wafa",
+        "short_name": "Naeem W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Medical Sciences, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Nawab, Fouzia",
+        "short_name": "Nawab F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Medical Sciences, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Sarwar, Muhammad Tahir",
+        "short_name": "Sarwar MT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Medical Sciences, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khalil, Ali Talha",
+        "short_name": "Khalil AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Lady Reading Hospital Medical Teaching Institution (LRH-MTI), Peshawar, Khyber Pakhtunkhwa, 25000, Pakistan. alitalha.khalil@lrh.edu.pk."
+        ]
+      },
+      {
+        "full_name": "Gaber, Dalia Ali",
+        "short_name": "Gaber DA",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Biochemistry and Molecular Biology Department, Faculty of Medicine, Helwan University, Cairo, Egypt.",
+          "College of Medicine, Gulf Medical University, Ajman, UAE."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Hilal",
+        "short_name": "Ahmad H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Medical Sciences, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Fazeel, Muhammad",
+        "short_name": "Fazeel M",
+        "identifiers": [],
+        "affiliations": [
+          "Phelma Grenoble INP, Université Grenoble Alpes, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Alorini, Mohammed",
+        "short_name": "Alorini M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, College of Medicine, Qassim University, Unaizah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Khan, Ishtiaq Ahmad",
+        "short_name": "Khan IA",
+        "identifiers": [],
+        "affiliations": [
+          "Jamil-Ur-Rahman Center for Genome Research, Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, 75270, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Irfan, Muhammad",
+        "short_name": "Irfan M",
+        "identifiers": [],
+        "affiliations": [
+          "Jamil-Ur-Rahman Center for Genome Research, Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, 75270, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khan, Muslim",
+        "short_name": "Khan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, Khyber College of Dentistry, Peshawar, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khurram, Syed Ali",
+        "short_name": "Khurram SA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Dentistry, Faulty of Health, University of Sheffield, Sheffield, S10 2TA, UK. s.a.khurram@sheffield.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Ali, Asif",
+        "short_name": "Ali A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, College of Medicine, Qassim University, Unaizah, Saudi Arabia. draliasif7@gmail.com.",
+          "Institute of Pathology and Diagnostic Medicine, Khyber Medical University, Phase V, Peshawar, 25000, Pakistan. draliasif7@gmail.com.",
+          "School of Cancer Sciences, University of Glasgow, Glasgow, G12 8QQ, UK. draliasif7@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/07 00:21",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "42371363",
+      "41897566",
+      "41716219"
+    ],
+    "refs": [
+      "38784039",
+      "38537553",
+      "38024667",
+      "37376101",
+      "37097610",
+      "36715825",
+      "36633525",
+      "36522371",
+      "36471053",
+      "35346511",
+      "34904115",
+      "33926414",
+      "33490197",
+      "33477635",
+      "33434185",
+      "33243986",
+      "32664329",
+      "32265714",
+      "32219379",
+      "32183301",
+      "30814645",
+      "30637762",
+      "30582397",
+      "30208165",
+      "30207593",
+      "29956783",
+      "29842949",
+      "29705090",
+      "29521316",
+      "29489434",
+      "29274153",
+      "29126491",
+      "28938622",
+      "28860859",
+      "28572459",
+      "28485537",
+      "28448462",
+      "28302823",
+      "28193397",
+      "28187286",
+      "27413114",
+      "27259260",
+      "27115646",
+      "26278072",
+      "25594033",
+      "24453480",
+      "24292195",
+      "24286495",
+      "24018186",
+      "23420643",
+      "23315928",
+      "22689647",
+      "22569010",
+      "20965415",
+      "20177397",
+      "19946320",
+      "18804401",
+      "18343102",
+      "18256616",
+      "18254981",
+      "18094376",
+      "18076043",
+      "16793544",
+      "16722535",
+      "15549093",
+      "15492928",
+      "15282542",
+      "12781359",
+      "12496039",
+      "12124347",
+      "11691784",
+      "10691732",
+      "10617473",
+      "10469457",
+      "8023157"
+    ],
+    "similar": [
+      "40050371",
+      "24142626",
+      "24327542",
+      "29059438",
+      "38024667",
+      "39694330",
+      "29489434",
+      "22420423",
+      "17879369",
+      "11756185",
+      "15696190",
+      "36604691",
+      "26563132",
+      "36919124",
+      "38041093",
+      "25812484",
+      "38784039",
+      "30821076",
+      "37079339",
+      "27283772",
+      "32797678",
+      "26887372",
+      "31539077",
+      "25483091",
+      "21674128",
+      "36012478",
+      "35674998",
+      "37338595",
+      "24486404",
+      "15533933",
+      "34549727",
+      "31040255",
+      "24952138",
+      "18725978",
+      "32508294",
+      "20798688",
+      "32927274",
+      "38992585",
+      "38354228",
+      "31164689",
+      "33745946",
+      "29928473",
+      "20048189",
+      "29360988",
+      "29209046",
+      "24884479",
+      "25580586",
+      "19473450",
+      "32546626",
+      "38561609",
+      "24224046",
+      "12120703",
+      "23422745",
+      "25232030",
+      "18344416",
+      "28123024",
+      "31821389",
+      "28535155",
+      "31206626",
+      "18288488",
+      "31169221",
+      "37237279",
+      "39740081",
+      "22952448",
+      "15322239",
+      "21325885",
+      "29890208",
+      "18162465",
+      "28497333",
+      "39024734",
+      "28258440",
+      "19444312",
+      "30760578",
+      "29330202",
+      "28055970",
+      "25474902",
+      "17478428",
+      "38608781",
+      "30626249",
+      "18224251",
+      "31614688",
+      "40243905",
+      "18094376",
+      "21034966",
+      "39565137",
+      "26247737",
+      "23462183",
+      "15138484",
+      "30291345",
+      "20062014",
+      "35644414",
+      "24112103",
+      "28526081",
+      "35886852",
+      "24277457",
+      "28233295",
+      "24894818",
+      "15975956",
+      "40019487",
+      "21301226"
+    ],
+    "review": [
+      "40050371",
+      "29489434",
+      "35674998",
+      "32508294"
+    ],
+    "pmc": [
+      "11885471"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/oralcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Oral Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-91700-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40050371/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-922",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

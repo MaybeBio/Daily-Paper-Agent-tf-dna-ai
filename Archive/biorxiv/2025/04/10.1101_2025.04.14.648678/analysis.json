@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.14.648678",
+  "title": "THLANet: A Deep Learning Framework for Predicting TCR-pHLA Binding in Immunotherapy Applications",
+  "authors": "Xu Long; Qiang Yang; Weihe Dong; Xiaokun Li; Kuanquan Wang; Suyu Dong; Gongning Luo; Xianyu Zhang; Tiansong Yang; Xin Gao; Guohua Wang",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-19",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测TCR-pHLA结合，虽涉及蛋白-肽-MHC互作，但核心是T细胞受体与抗原肽结合，非TF-DNA体系，且无三维互作建模与机制研究，仅部分方法可借鉴。",
+  "abstract": "Adaptive immunity is a targeted immune response that enables the body to identify and eliminate foreign pathogens, playing a critical role in the anti-tumor immune response. Tumor cell expression of antigens forms the foundation for inducing this adaptive response. However, the human leukocyte antigens (HLA)-restricted recognition of antigens by T-cell receptors (TCR) limits their ability to detect all neoantigens, with only a small subset capable of activating T-cells. Accurately predicting neoantigen binding to TCR is, therefore, crucial for assessing their immunogenic potential in clinical settings. We present THLANet, a deep learning model designed to predict the binding specificity of TCR to neoantigens presented by class I HLAs. THLANet employs evolutionary scale modeling-2 (ESM-2), replacing the traditional embedding methods to enhance sequence feature representation. Using scTCR-seq data, we obtained the TCR immune repertoire and constructed a TCR-pHLA binding database to validate THLANet’s clinical potential. The model’s performance was further evaluated using clinical cancer data across various cancer types. Additionally, by analyzing divided complementarity-determining region (CDR3) sequences and simulating alanine scanning of antigen sequences, we unveiled the 3D binding conformations of TCRs and antigens. Predicting TCR-neoantigen pairing remains a significant challenge in immunology, THLANet provides accurate predictions using only the TCR sequence (CDR3 β ), antigen sequence, and class I HLA, offering novel insights into TCR-antigen interactions. Author summary T-cell receptor (TCR) recognition of peptide-human leukocyte antigen (pHLA) complexes is fundamental to immune responses. However, predicting their binding poses a significant challenge due to the intricate dynamics of their interactions. We developed THLANet, a novel deep learning model, to address this challenge by integrating the ESM-2 and Transformer-Encoder modules. This approach enhances sequence feature encoding, improving the model’s generalization capability and enabling accurate predictions of TCR-pHLA binding in clinical datasets. Using data processed from open-source databases, THLANet outperformed existing methods, such as PanPep and pMTnet, in precision-recall metrics across multiple epitopes. Additionally, THLANet demonstrates superior capability in identifying critical binding sites within 3D structures, providing structural insights into TCR-pHLA interactions. THLANet offers a robust framework for advancing immunotherapy research, with potential applications in the development of personalized medicine.",
+  "abstract_zh": "适应性免疫是一种靶向免疫反应，使机体能够识别并清除外来病原体，在抗肿瘤免疫反应中发挥关键作用。肿瘤细胞表达抗原是诱导这种适应性反应的基础。然而，人白细胞抗原（HLA）限制性识别抗原通过T细胞受体（TCR）限制了其检测所有新抗原的能力，仅有一小部分能够激活T细胞。因此，准确预测新抗原与TCR的结合对于评估其在临床环境中的免疫原性潜力至关重要。我们提出了THLANet，一种深度学习模型，旨在预测TCR与I类HLA呈递的新抗原的结合特异性。THLANet采用进化尺度建模-2（ESM-2），替代传统嵌入方法以增强序列特征表示。利用scTCR-seq数据，我们获得了TCR免疫组库，并构建了TCR-pHLA结合数据库以验证THLANet的临床潜力。该模型的性能进一步使用多种癌症类型的临床癌症数据进行了评估。此外，通过分析分割的互补决定区（CDR3）序列并模拟抗原序列的丙氨酸扫描，我们揭示了TCR和抗原的三维结合构象。预测TCR-新抗原配对仍是免疫学中的重大挑战，THLANet仅使用TCR序列（CDR3 β）、抗原序列和I类HLA即可提供准确预测，为TCR-抗原相互作用提供了新见解。作者摘要 T细胞受体（TCR）对肽-人白细胞抗原（pHLA）复合物的识别是免疫反应的基础。然而，由于其相互作用的复杂动态性，预测它们的结合构成了重大挑战。我们开发了THLANet，一种新型深度学习模型，通过整合ESM-2和Transformer-Encoder模块来解决这一挑战。该方法增强了序列特征编码，提高了模型的泛化能力，并能够在临床数据集中准确预测TCR-pHLA结合。使用从开源数据库处理的数据，THLANet在多个表位的精确率-召回率指标上优于现有方法，如PanPep和pMTnet。此外，THLANet在识别三维结构中的关键结合位点方面表现出卓越能力，为TCR-pHLA相互作用提供了结构见解。THLANet为推进免疫治疗研究提供了稳健框架，在个性化医学开发中具有潜在应用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.14.648678",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.14.648678",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.14.648678/index.html"
+}

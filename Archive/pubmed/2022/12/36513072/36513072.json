@@ -1,0 +1,487 @@
+{
+  "identity": {
+    "pmid": "36513072",
+    "doi": "10.1016/j.xcrm.2022.100855",
+    "title": "Exome-wide association analysis of CT imaging-derived hepatic fat in a medical biobank."
+  },
+  "content": {
+    "abstract": "Nonalcoholic fatty liver disease is common and highly heritable. Genetic studies of hepatic fat have not sufficiently addressed non-European and rare variants. In a medical biobank, we quantitate hepatic fat from clinical computed tomography (CT) scans via deep learning in 10,283 participants with whole-exome sequences available. We conduct exome-wide associations of single variants and rare predicted loss-of-function (pLOF) variants with CT-based hepatic fat and perform cross-modality replication in the UK Biobank (UKB) by linking whole-exome sequences to MRI-based hepatic fat. We confirm single variants previously associated with hepatic fat and identify several additional variants, including two (FGD5 H600Y and CITED2 S198_G199del) that replicated in UKB. A burden of rare pLOF variants in LMF2 is associated with increased hepatic fat and replicates in UKB. Quantitative phenotypes generated from clinical imaging studies and intersected with genomic data in medical biobanks have the potential to identify molecular pathways associated with human traits and disease.",
+    "keywords": [
+      "CT scan",
+      "NAFLD",
+      "common variants",
+      "electronic health records",
+      "exome-wide association study",
+      "hepatic fat",
+      "machine learning",
+      "medical biobank",
+      "phenome-wide association study",
+      "rare variants"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Exome/genetics",
+      "Biological Specimen Banks",
+      "Phenotype",
+      "Tomography, X-Ray Computed",
+      "*Non-alcoholic Fatty Liver Disease/diagnostic imaging/genetics",
+      "Repressor Proteins/genetics",
+      "Trans-Activators/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Joseph",
+        "MacLean, Matthew T",
+        "Lucas, Anastasia M",
+        "Torigian, Drew A",
+        "Schneider, Carolin V",
+        "Cherlin, Tess",
+        "Xiao, Brenda",
+        "Miller, Jason E",
+        "Bradford, Yuki",
+        "Judy, Renae L",
+        "Verma, Anurag",
+        "Damrauer, Scott M",
+        "Ritchie, Marylyn D",
+        "Witschey, Walter R",
+        "Rader, Daniel J"
+      ],
+      "short_names": [
+        "Park J",
+        "MacLean MT",
+        "Lucas AM",
+        "Torigian DA",
+        "Schneider CV",
+        "Cherlin T",
+        "Xiao B",
+        "Miller JE",
+        "Bradford Y",
+        "Judy RL",
+        "Verma A",
+        "Damrauer SM",
+        "Ritchie MD",
+        "Witschey WR",
+        "Rader DJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Radiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Regeneron Genetics Center, Regeneron Pharmaceuticals, Tarrytown, NY, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Surgery, Corporal Michael Crescenz VA Medical Center, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. Electronic address: rader@pennmedicine.upenn.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Joseph",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "MacLean, Matthew T",
+        "short_name": "MacLean MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Radiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Lucas, Anastasia M",
+        "short_name": "Lucas AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Torigian, Drew A",
+        "short_name": "Torigian DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Schneider, Carolin V",
+        "short_name": "Schneider CV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Cherlin, Tess",
+        "short_name": "Cherlin T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Xiao, Brenda",
+        "short_name": "Xiao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Miller, Jason E",
+        "short_name": "Miller JE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Bradford, Yuki",
+        "short_name": "Bradford Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Judy, Renae L",
+        "short_name": "Judy RL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": [
+          "Regeneron Genetics Center, Regeneron Pharmaceuticals, Tarrytown, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Verma, Anurag",
+        "short_name": "Verma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Damrauer, Scott M",
+        "short_name": "Damrauer SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Surgery, Corporal Michael Crescenz VA Medical Center, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Ritchie, Marylyn D",
+        "short_name": "Ritchie MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Biomedical Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Witschey, Walter R",
+        "short_name": "Witschey WR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Rader, Daniel J",
+        "short_name": "Rader DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. Electronic address: rader@pennmedicine.upenn.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports. Medicine"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Med"
+    ],
+    "pub_date": "2022 Dec 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/14 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "42257871",
+      "42253927",
+      "42125311",
+      "41705581",
+      "41659991",
+      "41436735",
+      "41303369",
+      "40677695",
+      "40378221",
+      "39687601",
+      "39094912",
+      "39085717",
+      "38406388",
+      "37450924",
+      "36543096"
+    ],
+    "refs": [
+      "35654975",
+      "34957434",
+      "34863359",
+      "34602251",
+      "34128465",
+      "34016468",
+      "33432171",
+      "33347879",
+      "33268509",
+      "32766472",
+      "32461654",
+      "32282858",
+      "32247823",
+      "32114486",
+      "31877412",
+      "31641249",
+      "31084498",
+      "31019090",
+      "30901543",
+      "30661751",
+      "30371827",
+      "30202818",
+      "30202817",
+      "29940269",
+      "29106664",
+      "29051140",
+      "28729640",
+      "28641372",
+      "28449094",
+      "28265178",
+      "28117445",
+      "27986169",
+      "27965532",
+      "27898976",
+      "27726414",
+      "27666373",
+      "27626380",
+      "27099587",
+      "26876880",
+      "26605757",
+      "26553804",
+      "26273591",
+      "25920090",
+      "25706874",
+      "25613900",
+      "25605792",
+      "25190263",
+      "24733291",
+      "24622796",
+      "24531328",
+      "24270849",
+      "23535911",
+      "22777847",
+      "22328776",
+      "22105854",
+      "21423719",
+      "21094444",
+      "20601685",
+      "19755595",
+      "19085966",
+      "18820647",
+      "17994020",
+      "17932483",
+      "12808453",
+      "11752295",
+      "11158324",
+      "7590654"
+    ],
+    "similar": [
+      "36513072",
+      "33432171",
+      "38154517",
+      "34375979",
+      "33856023",
+      "34732801",
+      "33347879",
+      "36490288",
+      "39687601",
+      "21423719",
+      "34662886",
+      "33893496",
+      "39142818",
+      "31866045",
+      "28241076",
+      "39781574",
+      "40073867",
+      "40065360",
+      "38944039",
+      "35945607",
+      "34542152",
+      "38926479",
+      "36610497",
+      "33444683",
+      "39196575",
+      "37019109",
+      "37737258",
+      "32145261",
+      "32640185",
+      "38409228",
+      "36543096",
+      "31695245",
+      "33745059",
+      "30978214",
+      "23477746",
+      "33890984",
+      "34183854",
+      "32298765",
+      "37794183",
+      "34626176",
+      "39858580",
+      "36890159",
+      "39898988",
+      "38454133",
+      "38515211",
+      "35394676",
+      "37939728",
+      "36937991",
+      "37451613",
+      "38671509",
+      "35080590",
+      "34226706",
+      "39062709",
+      "33584064",
+      "34927450",
+      "36809768",
+      "33576413",
+      "34875679",
+      "38342085",
+      "31383942",
+      "34688815",
+      "38167550",
+      "33910933",
+      "30292275",
+      "34493817",
+      "36762557",
+      "38565598",
+      "33279681",
+      "39547959",
+      "29691411",
+      "39671448",
+      "40386911",
+      "35597955",
+      "32747172",
+      "33693708",
+      "30679032",
+      "34957434",
+      "38395962",
+      "36035235",
+      "36986172",
+      "31526254",
+      "36568030",
+      "32096706",
+      "36044383",
+      "34050118",
+      "25177340",
+      "37386248",
+      "35474605",
+      "32013792",
+      "40342259",
+      "35446358",
+      "39209703",
+      "33025153",
+      "37697334",
+      "38486201",
+      "39383998",
+      "39321409",
+      "33568206",
+      "36849660",
+      "36098472"
+    ],
+    "review": [
+      "36513072",
+      "21423719",
+      "23477746",
+      "34183854",
+      "35080590",
+      "33584064",
+      "30679032",
+      "33025153"
+    ],
+    "pmc": [
+      "9798024"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-3791(22)00419-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36513072/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36513072",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-3791(22)00419-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.05.06.25327057",
+  "title": "Identification of (ultra-)rare functional promoter mutations in cancer using sequence-based deep learning models",
+  "doi": "10.1101/2025.05.06.25327057",
+  "abstract": "The identification of non-coding somatic cancer-driver mutations remains challenging due to difficulties in interpreting rare and ultra-rare variants. We hypothesized that sequence-based models can be used to systematically prioritize such mutations for their functional relevance. Here we present a computational framework that leverages sequence-based models to assess the functional impact of (ultra-)rare somatic single nucleotide variants (SNVs) in promoter regions. We analysed SNVs derived from 24,529 whole-tumour genomes from three cohorts and applied the sequence-based model PARM, which was trained on massively parallel reporter assay data. We identified up to 492 promoter regions significantly enriched for putatively functional SNVs, including known cancer-drivers such as TERT . Overall, we find that functional promoter mutations are significantly enriched in established cancer-driver genes ( p -value = 9.7·10 -5 ). Cross-cohort validation and replication using an independent sequence-based model (Borzoi) identified nine candidate cancer genes where the prioritized promoter mutations were shown to be functional by affecting gene expression levels. These genes included well known cancer genes such as including TERT, TP53 and PMS2 , but also several new candidates for which no coding mutations have previously been implicated in cancer, including PMS2, AIMP2, SASS6, RPL13A, ALKBH4, FICD and YAE1 . These findings demonstrate the utility of sequence-based models for identifying functional non-coding mutations and provide a framework for uncovering regulatory elements implicated in cancer.",
+  "authors": [
+    "van Lieshout T",
+    "Urzúa-Traslaviña CG",
+    "Barbadilla-Martínez L",
+    "Luong Boi MC",
+    "Westra H",
+    "Klaassen NH",
+    "Franceschini-Santos VH",
+    "Parra-Martínez M",
+    "de Ridder J",
+    "van Steensel B",
+    "Voest E",
+    "Franke LH"
+  ],
+  "published_date": "2025-05-06",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.05.06.25327057",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.05.06.25327057.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1015382",
+    "raw_record": {
+      "id": "PPR1015382",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1015382"
+        ]
+      },
+      "doi": "10.1101/2025.05.06.25327057",
+      "title": "Identification of (ultra-)rare functional promoter mutations in cancer using sequence-based deep learning models",
+      "authorString": "van Lieshout T, Urzúa-Traslaviña CG, Barbadilla-Martínez L, Luong Boi MC, Westra H, Klaassen NH, Franceschini-Santos VH, Parra-Martínez M, de Ridder J, van Steensel B, Voest E, Franke LH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "van Lieshout T",
+            "lastName": "van Lieshout",
+            "firstName": "Tijs",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0441-0309"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Urzúa-Traslaviña CG",
+            "lastName": "Urzúa-Traslaviña",
+            "firstName": "Carlos",
+            "initials": "CG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barbadilla-Martínez L",
+            "lastName": "Barbadilla-Martínez",
+            "firstName": "Lucía",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Center for Molecular Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luong Boi MC",
+            "lastName": "Luong Boi",
+            "firstName": "Minh Chau",
+            "initials": "MC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Division of Molecular Oncology and Immunology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Westra H",
+            "lastName": "Westra",
+            "firstName": "Harm-Jan",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7038-567X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klaassen NH",
+            "lastName": "Klaassen",
+            "firstName": "Noud H.M.",
+            "initials": "NH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Division of Molecular Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Franceschini-Santos VH",
+            "lastName": "Franceschini-Santos",
+            "firstName": "Vinícius",
+            "initials": "VH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Division of Molecular Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parra-Martínez M",
+            "lastName": "Parra-Martínez",
+            "firstName": "Miguel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Division of Molecular Oncology and Immunology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Ridder J",
+            "lastName": "de Ridder",
+            "firstName": "Jeroen",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Center for Molecular Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Steensel B",
+            "lastName": "van Steensel",
+            "firstName": "Bas",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0284-0404"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Division of Molecular Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Voest E",
+            "lastName": "Voest",
+            "firstName": "Emile",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Division of Molecular Oncology and Immunology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Franke LH",
+            "lastName": "Franke",
+            "firstName": "Lude",
+            "initials": "LH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, , , Hanzeplein 1 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7038-567X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0284-0404"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0441-0309"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The identification of non-coding somatic cancer-driver mutations remains challenging due to difficulties in interpreting rare and ultra-rare variants. We hypothesized that sequence-based models can be used to systematically prioritize such mutations for their functional relevance. Here we present a computational framework that leverages sequence-based models to assess the functional impact of (ultra-)rare somatic single nucleotide variants (SNVs) in promoter regions. We analysed SNVs derived from 24,529 whole-tumour genomes from three cohorts and applied the sequence-based model PARM, which was trained on massively parallel reporter assay data. We identified up to 492 promoter regions significantly enriched for putatively functional SNVs, including known cancer-drivers such as TERT . Overall, we find that functional promoter mutations are significantly enriched in established cancer-driver genes ( p -value = 9.7·10 -5 ). Cross-cohort validation and replication using an independent sequence-based model (Borzoi) identified nine candidate cancer genes where the prioritized promoter mutations were shown to be functional by affecting gene expression levels. These genes included well known cancer genes such as including TERT, TP53 and PMS2 , but also several new candidates for which no coding mutations have previously been implicated in cancer, including PMS2, AIMP2, SASS6, RPL13A, ALKBH4, FICD and YAE1 . These findings demonstrate the utility of sequence-based models for identifying functional non-coding mutations and provide a framework for uncovering regulatory elements implicated in cancer.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "ZonMw",
+            "grantId": "09150182010019",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2025/05/06/2025.05.06.25327057.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.06.25327057"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1015382"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1015382&type=FILE&fileName=EMS205348-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205348",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-05-09",
+      "firstPublicationDate": "2025-05-06",
+      "firstIndexDate": "2025-05-09",
+      "fullTextReceivedDate": "2025-05-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

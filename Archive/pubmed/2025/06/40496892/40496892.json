@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "40496892",
+    "doi": "10.1016/j.csbj.2025.05.010",
+    "title": "Bridging prediction and reality: Comprehensive analysis of experimental and AlphaFold 2 full-length nuclear receptor structures."
+  },
+  "content": {
+    "abstract": "AlphaFold 2 has revolutionized protein structure prediction, yet systematic evaluations of its performance against experimental structures for specific protein families remain limited. Here we present the first comprehensive analysis comparing AlphaFold 2-predicted and experimental nuclear receptor structures, examining root-mean-square deviations, secondary structure elements, domain organization, and ligand-binding pocket geometry. While AlphaFold2 achieves high accuracy in predicting stable conformations with proper stereochemistry, it shows limitations in capturing the full spectrum of biologically relevant states, particularly in flexible regions and ligand-binding pockets. Statistical analysis reveals significant domain-specific variations, with ligand-binding domains showing higher structural variability (CV = 29.3%) compared to DNA-binding domains (CV = 17.7%). Notably, Alphafold 2 systematically underestimates ligand-binding pocket volumes and captures only single conformational states in homodimeric receptors where experimental structures show functionally important asymmetry. These findings provide critical insights for structure-based drug design targeting nuclear receptors and establish a framework for evaluating Alphafold 2 predictions across other protein families.",
+    "keywords": [
+      "AlphaFold 2",
+      "Conformational diversity",
+      "Domain architecture",
+      "Nuclear receptors",
+      "Prediction accuracy",
+      "Structural comparison"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mazhibiyeva, Akerke",
+        "Pham, Tri T",
+        "Pats, Karina",
+        "Lukac, Martin",
+        "Molnar, Ferdinand"
+      ],
+      "short_names": [
+        "Mazhibiyeva A",
+        "Pham TT",
+        "Pats K",
+        "Lukac M",
+        "Molnar F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Computational Structural Biology, Department of Biology, Nazarbayev University, Kabanbay Batyr 53, Astana, 010000, Kazakhstan.",
+        "Laboratory of Mechanobiology, Department of Biology, Nazarbayev University, Kabanbay Batyr 53, Astana, 010000, Kazakhstan.",
+        "Laboratory of Computational Structural Biology, Department of Biology, Nazarbayev University, Kabanbay Batyr 53, Astana, 010000, Kazakhstan.",
+        "Institute of Applied Computer Sciences, ITMO University, 49, Kronverksky Ave., 197101, Saint Petersburg, Russian Federation.",
+        "Department of Computer Networks and Engineering, Hiroshima City University, 3-4-1 Oozukahigashi, Asaminami-ku, Hiroshima-shi, 731-3166, Japan.",
+        "Laboratory of Computational Structural Biology, Department of Biology, Nazarbayev University, Kabanbay Batyr 53, Astana, 010000, Kazakhstan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mazhibiyeva, Akerke",
+        "short_name": "Mazhibiyeva A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Structural Biology, Department of Biology, Nazarbayev University, Kabanbay Batyr 53, Astana, 010000, Kazakhstan."
+        ]
+      },
+      {
+        "full_name": "Pham, Tri T",
+        "short_name": "Pham TT",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Mechanobiology, Department of Biology, Nazarbayev University, Kabanbay Batyr 53, Astana, 010000, Kazakhstan."
+        ]
+      },
+      {
+        "full_name": "Pats, Karina",
+        "short_name": "Pats K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Structural Biology, Department of Biology, Nazarbayev University, Kabanbay Batyr 53, Astana, 010000, Kazakhstan.",
+          "Institute of Applied Computer Sciences, ITMO University, 49, Kronverksky Ave., 197101, Saint Petersburg, Russian Federation."
+        ]
+      },
+      {
+        "full_name": "Lukac, Martin",
+        "short_name": "Lukac M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Networks and Engineering, Hiroshima City University, 3-4-1 Oozukahigashi, Asaminami-ku, Hiroshima-shi, 731-3166, Japan."
+        ]
+      },
+      {
+        "full_name": "Molnár, Ferdinand",
+        "short_name": "Molnár F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Structural Biology, Department of Biology, Nazarbayev University, Kabanbay Batyr 53, Astana, 010000, Kazakhstan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/11 11:29",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "42223532",
+      "42193136",
+      "42081519",
+      "40839422"
+    ],
+    "refs": [
+      "39846081",
+      "38865109",
+      "38718835",
+      "37956700",
+      "37399411",
+      "37388680",
+      "36747092",
+      "36442107",
+      "36424442",
+      "36408920",
+      "36344848",
+      "36049478",
+      "36005370",
+      "35883541",
+      "35778488",
+      "35733789",
+      "35561203",
+      "35537451",
+      "35238773",
+      "35207150",
+      "34791371",
+      "34529827",
+      "34293799",
+      "34265844",
+      "33211854",
+      "31391291",
+      "31359388",
+      "30582418",
+      "29021580",
+      "28220107",
+      "28053348",
+      "27910877",
+      "27110634",
+      "26289479",
+      "24832115",
+      "24561505",
+      "24103914",
+      "23485969",
+      "22869589",
+      "22718788",
+      "22416277",
+      "20519330",
+      "20164152",
+      "20057044",
+      "19847917",
+      "19561066",
+      "19043829",
+      "19014592",
+      "18662801",
+      "15476259",
+      "12193589",
+      "10592235",
+      "8906967"
+    ],
+    "similar": [
+      "40496892",
+      "39643640",
+      "39684679",
+      "40610378",
+      "38869513",
+      "40792509",
+      "38617283",
+      "35883541",
+      "39197652",
+      "35769913",
+      "39446390",
+      "41326937",
+      "40476317",
+      "35510704",
+      "36948209",
+      "40976968",
+      "40059543",
+      "36542066",
+      "22417279",
+      "36539305",
+      "38538622",
+      "40501634",
+      "39574675",
+      "39190764",
+      "39990457",
+      "36321557",
+      "38036854",
+      "38798650",
+      "38979209",
+      "40034448",
+      "38809680",
+      "35891782",
+      "40815964",
+      "39824781",
+      "40999494",
+      "36006049",
+      "41502950",
+      "35561203",
+      "40387957",
+      "37292058",
+      "37896786",
+      "34599769",
+      "35900023",
+      "40658102",
+      "37782047",
+      "38352360",
+      "37546747",
+      "38100422",
+      "36680514",
+      "38190097",
+      "39941016",
+      "39337567",
+      "37293014",
+      "40512975",
+      "37175495",
+      "37392556",
+      "41411077",
+      "34469019",
+      "40027838",
+      "39677766",
+      "38225382",
+      "37547653",
+      "41472324",
+      "35778488",
+      "38047234",
+      "35627176",
+      "37555230",
+      "38865109",
+      "41142756",
+      "41313605",
+      "35679401",
+      "39975317",
+      "39485490",
+      "40661027",
+      "17059826",
+      "37293073",
+      "38791287",
+      "35655760",
+      "36699409",
+      "39108640",
+      "40561466",
+      "39463944",
+      "38073135",
+      "41432299",
+      "20723571",
+      "41454828",
+      "40727426",
+      "38260445",
+      "35945035",
+      "38732174",
+      "40663537",
+      "40696837",
+      "39970826",
+      "36116541",
+      "35740908",
+      "40661500",
+      "40585263",
+      "38895997",
+      "40501571",
+      "41047692"
+    ],
+    "review": [
+      "40496892",
+      "41326937",
+      "36321557",
+      "39824781",
+      "40387957",
+      "37392556",
+      "35778488",
+      "35655760",
+      "20723571",
+      "39970826",
+      "41047692"
+    ],
+    "pmc": [
+      "12149446"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(25)00173-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40496892/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

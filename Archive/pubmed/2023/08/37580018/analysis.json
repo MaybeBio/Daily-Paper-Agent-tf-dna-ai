@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37580018",
+  "title": "Deep Learning for Detecting BRCA Mutations in High-Grade Ovarian Cancer Based on an Innovative Tumor Segmentation Method From Whole Slide Images.",
+  "authors": "Bourgade, Raphael; Rabilloud, Noemie; Perennec, Tanguy; Pecot, Thierry; Garrec, Celine; Guedon, Alexis F; Delnatte, Capucine; Bezieau, Stephane; Lespagnol, Alexandra; de Tayrac, Marie; Henno, Sebastien; Sagan, Christine; Toquet, Claire; Mosnier, Jean-Francois; Kammerer-Jacquet, Solene-Florence; Loussouarn, Delphine",
+  "journal": "Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc",
+  "published_date": "2023-08-15",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习从卵巢癌全切片图像预测BRCA突变状态，虽涉及DNA修复基因但无蛋白质-DNA互作建模，仅属临床表型预测，与本课题无关。",
+  "abstract": "BRCA1 and BRCA2 genes play a crucial role in repairing DNA double-strand breaks through homologous recombination. Their mutations represent a significant proportion of homologous recombination deficiency and are a reliable effective predictor of sensitivity of high-grade ovarian cancer (HGOC) to poly(ADP-ribose) polymerase inhibitors. However, their testing by next-generation sequencing is costly and time-consuming and can be affected by various preanalytical factors. In this study, we present a deep learning classifier for BRCA mutational status prediction from hematoxylin-eosin-safran-stained whole slide images (WSI) of HGOC. We constituted the OvarIA cohort composed of 867 patients with HGOC with known BRCA somatic mutational status from 2 different pathology departments. We first developed a tumor segmentation model according to dynamic sampling and then trained a visual representation encoder with momentum contrastive learning on the predicted tumor tiles. We finally trained a BRCA classifier on more than a million tumor tiles in multiple instance learning with an attention-based mechanism. The tumor segmentation model trained on 8 WSI obtained a dice score of 0.915 and an intersection-over-union score of 0.847 on a test set of 50 WSI, while the BRCA classifier achieved the state-of-the-art area under the receiver operating characteristic curve of 0.739 in 5-fold cross-validation and 0.681 on the testing set. An additional multiscale approach indicates that the relevant information for predicting BRCA mutations is located more in the tumor context than in the cell morphology. Our results suggest that BRCA somatic mutations have a discernible phenotypic effect that could be detected by deep learning and could be used as a prescreening tool in the future.",
+  "abstract_zh": "BRCA1和BRCA2基因在同源重组修复DNA双链断裂中发挥关键作用。其突变占同源重组缺陷的显著比例，并且是预测高级别卵巢癌（HGOC）对聚（ADP-核糖）聚合酶抑制剂敏感性的可靠有效指标。然而，通过下一代测序进行检测成本高昂且耗时，并可能受到多种分析前因素的影响。在本研究中，我们提出了一种深度学习分类器，用于从HGOC的苏木精-伊红-番红染色全切片图像（WSI）预测BRCA突变状态。我们构建了OvarIA队列，包含来自两个不同病理科室的867名已知BRCA体细胞突变状态的HGOC患者。我们首先根据动态采样开发了肿瘤分割模型，然后通过动量对比学习在预测的肿瘤切片上训练视觉表示编码器。最后，我们使用基于注意力机制的多实例学习，在超过一百万个肿瘤切片上训练了BRCA分类器。在8张WSI上训练的肿瘤分割模型在50张WSI的测试集上获得了0.915的Dice分数和0.847的交叉联合分数，而BRCA分类器在5折交叉验证中达到了0.739的接收者操作特征曲线下面积（最新技术水平），在测试集上为0.681。额外的多尺度方法表明，预测BRCA突变的相关信息更多位于肿瘤环境中，而非细胞形态中。我们的结果表明，BRCA体细胞突变具有可辨别的表型效应，可通过深度学习检测，并可能在未来用作预筛查工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37580018/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37580018/",
+  "paper_page_path": "papers/pubmed/37580018/index.html"
+}

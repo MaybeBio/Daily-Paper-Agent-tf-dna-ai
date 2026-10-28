@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, background, results, methods, and tables.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and contribution relative to existing DNA-binding protein prediction methods.
+- **Shared manuscript claim summary** The authors propose a multiple kernel learning model based on centered kernel alignment (MKL-CKA) to integrate six sequence-derived features for predicting DNA-binding proteins, reporting improved accuracy over existing methods on benchmark datasets PDB1075 and PDB186.
+- **Visible evidence base** Tables 1-11, Figures 1-4, and equations 1-14.
+- **Missing materials affecting confidence** Supplementary details on feature extraction parameters, exact dataset composition, hyperparameter tuning ranges, and statistical test methodology are not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward application of multiple kernel learning to a well-studied problem. The technical approach is sound but incremental, combining existing features and a known MKL algorithm. The reported performance gains are modest and lack rigorous statistical validation. The writing is clear but contains several ambiguities in methodology and result interpretation that need clarification.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on protein function prediction, particularly those developing machine learning models for DNA-binding protein identification. The work may also interest method developers exploring kernel-based integration strategies.
+- **Major strengths** The use of MKL-CKA to integrate diverse feature types is reasonable and well-motivated. The evaluation on two benchmark datasets provides some evidence of generalizability. The inclusion of runtime analysis and kernel weight analysis adds practical value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim statistically significant improvements over other methods based on t-tests (Table 10), but the methodology for these tests is not described.
+  - **Evidence pointer** Table 10, Section "Comparison to existing predictors on PDB1075"
+  - **Concern** The t-test is mentioned but no details are provided on how it was conducted, including whether it was paired, what metric was compared, how many folds were used, and whether the assumptions of the test were verified. Without this information, the statistical significance claim cannot be evaluated.
+  - **Why it matters** Statistical significance is a key basis for claiming superiority over existing methods. Inadequate reporting undermines the validity of the central conclusion.
+  - **Resolution test** Provide a detailed description of the statistical testing procedure, including the exact test used, the metric compared, the number of samples, and whether assumptions were checked. Alternatively, provide confidence intervals or effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model is described as using six features, but the exact implementation details for each feature are not provided.
+  - **Evidence pointer** Section "Sequence feature", Section "Parameters selection"
+  - **Concern** The manuscript lists six features but does not provide sufficient detail on how each is computed, including specific parameter settings, normalization procedures, or software tools used. The grid search ranges for feature parameters are given, but the final feature dimensions and preprocessing steps are unclear.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without detailed feature extraction protocols, other researchers cannot replicate or build upon the work.
+  - **Resolution test** Provide a complete description of each feature extraction method, including all parameters, or make the code publicly available with documentation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative evaluation
+  - **Claim pointer** The authors state their method achieves "comparable and best results" compared to existing methods, but the comparison is limited to a single metric (accuracy) in some cases.
+  - **Evidence pointer** Tables 9 and 11
+  - **Concern** The comparison tables report accuracy, MCC, sensitivity, and specificity, but the discussion focuses primarily on accuracy. For imbalanced datasets, accuracy can be misleading. Additionally, the comparison does not include standard deviations or confidence intervals, making it difficult to assess the reliability of the reported improvements.
+  - **Why it matters** A fair and comprehensive comparison is essential to demonstrate the advantage of the proposed method. Reporting only point estimates without variability measures weakens the evidence.
+  - **Resolution test** Report performance metrics with standard deviations or confidence intervals across multiple runs. Include additional metrics such as F1-score or AUC if appropriate. Discuss the class balance of the datasets and its implications.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty
+  - **Claim pointer** The manuscript implies novelty in using MKL-CKA for DNA-binding protein prediction, but MKL has been applied to this problem before.
+  - **Evidence pointer** Background section, Section "Multiple kernel learning"
+  - **Concern** The authors acknowledge prior MKL-based methods (e.g., MKSVM-HKA) but do not clearly articulate what is new about their approach beyond using a different MKL algorithm. The contribution appears incremental.
+  - **Why it matters** For a field with many existing methods, the novelty of the contribution must be clearly stated to justify publication.
+  - **Resolution test** Clearly state the specific novelty of the proposed method compared to existing MKL-based approaches, such as the use of CKA for weight optimization or the specific feature combination.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Background
+  - **Evidence pointer** Abstract, Background section
+  - **Issue** The abstract and background contain redundant statements about the importance of DNA-binding proteins and the limitations of experimental methods. This could be condensed.
+  - **Required correction** Streamline the background to focus on the gap in existing computational methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Section "Parameters selection"
+  - **Issue** The grid search ranges for C and gamma are mentioned, but the step size for C is not specified. The text says "step 2^1" but it is unclear if this applies to both parameters.
+  - **Required correction** Clarify the grid search ranges and steps for all hyperparameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Tables
+  - **Evidence pointer** Tables 4, 9, 11
+  - **Issue** The tables are dense and difficult to read. The use of bold for the best values is helpful, but the tables could benefit from clearer formatting or grouping.
+  - **Required correction** Consider reformatting tables to improve readability, possibly by grouping related methods or adding visual separators.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results
+  - **Evidence pointer** Section "Performance analysis on PDB1075"
+  - **Issue** The discussion of kernel weights (Table 5) is brief. The authors note that PSSM-based kernels have higher weights but do not discuss the implications or potential reasons.
+  - **Required correction** Expand the discussion of kernel weights to provide insight into which features are most informative and why.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical testing details), R1-M2 (feature extraction reproducibility), R1-M3 (comparison with variability measures).
+- **Assessment against Nature-style criteria** Originality: The approach is incremental, combining known features with an existing MKL algorithm. Scientific importance: The problem is relevant, but the contribution is modest. Interdisciplinary readership: The work is primarily of interest to bioinformatics specialists. Technical soundness: The methodology is generally sound but lacks sufficient detail for full evaluation. Readability for nonspecialists: The manuscript is accessible but assumes familiarity with kernel methods and feature extraction techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revisions to address the major concerns, particularly regarding statistical validation and reproducibility, before the claims can be fully supported.
+
+## Risk / unsupported claims
+- The claim of statistically significant improvement over other methods is unsupported due to lack of methodological detail for the t-tests.
+- The claim of achieving "comparable and best results" is not fully supported without variability measures or a more comprehensive comparison.
+- The generalizability of the method beyond the two benchmark datasets is not established.
+- The statement that MKL-CKA "could filter noise kernels" is speculative and not directly demonstrated by the results.

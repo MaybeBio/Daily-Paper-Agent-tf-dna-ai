@@ -1,0 +1,689 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.02.673615",
+  "title": "Improved multimodal protein language model-driven universal biomolecules-binding protein design with EiRA",
+  "doi": "10.1101/2025.09.02.673615",
+  "abstract": "The interactions between proteins and biomolecules form a complex system that supports life activities. Designing proteins capable of targeted biomolecular binding is therefore critical for protein engineering and gene therapy. Here, we propose a new generative model, EiRA, specifically designed for universal biomolecular-binding protein design, which undergoes two-stage post-training, i.e., domain-adaptive masking training and binding site-informed preference optimization, based on a general multimodal protein language model. A systemic evaluation reveals the SOTA performance of EiRA, including structural confidence, diversity, novelty, and designability on 8 test sets across 6 biomolecule types. Meanwhile, EiRA provides a better characterization for biomolecular-binding proteins than generic model, thereby improving the predictive performance of various downstream tasks. We also mitigate severe repetition generation in the original language model by optimizing training strategies and loss. Additionally, we introduced DNA information into EiRA to support DNA-conditioned binder design, further expanding the boundaries of the design paradigm. Purification experiments and molecular dynamics simulations verified the manufacturability and DNA-binding ability of the designed highly differentiated protein. Remarkably, EiRA achieved the “one-shot” design of a Glucagon peptide binder with SPR-confirmed micromolar affinity.",
+  "authors": [
+    "Wenwu Zeng",
+    "Haitao Zou",
+    "Xiaoyu Li",
+    "Yutao Dou",
+    "Xiaoqi Wang",
+    "Shaoliang Peng"
+  ],
+  "published_date": "2025-09-05",
+  "updated_date": "2025-09-05T10:50:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673615",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673615.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            2
+          ]
+        ],
+        "date-time": "2026-04-02T04:29:30Z",
+        "timestamp": 1775104170933,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2025-09-05T00:00:00Z",
+            "timestamp": 1757030400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100012166",
+          "name": "National Key R&D Program of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2022YFC3400400"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2022YFC3400400"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012166",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "NSFC Grants",
+          "award": [
+            "U19A2067"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "U19A2067"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Key R&D Program of Hunan Province",
+          "award": [
+            "2023GK2004"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023GK2004"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Key R&D Program of Hunan Province",
+          "award": [
+            "2023SK2059"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023SK2059"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Key R&D Program of Hunan Province",
+          "award": [
+            "2023SK2060"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023SK2060"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Top 10 Technical Key Project in Hunan Province",
+          "award": [
+            "2023GK1010"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023GK1010"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Key Technologies R&D Program of Guangdong Province",
+          "award": [
+            "2023B1111030004"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023B1111030004"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The interactions between proteins and biomolecules form a complex system that supports life activities. Designing proteins capable of targeted biomolecular binding is therefore critical for protein engineering and gene therapy. Here, we propose a new generative model, EiRA, specifically designed for universal biomolecular-binding protein design, which undergoes two-stage post-training, i.e., domain-adaptive masking training and binding site-informed preference optimization, based on a general multimodal protein language model. A systemic evaluation reveals the SOTA performance of EiRA, including structural confidence, diversity, novelty, and designability on 8 test sets across 6 biomolecule types. Meanwhile, EiRA provides a better characterization for biomolecular-binding proteins than generic model, thereby improving the predictive performance of various downstream tasks. We also mitigate severe repetition generation in the original language model by optimizing training strategies and loss. Additionally, we introduced DNA information into EiRA to support DNA-conditioned binder design, further expanding the boundaries of the design paradigm. Purification experiments and molecular dynamics simulations verified the manufacturability and DNA-binding ability of the designed highly differentiated protein. Remarkably, EiRA achieved the “one-shot” design of a Glucagon peptide binder with SPR-confirmed micromolar affinity.</jats:p>",
+      "DOI": "10.1101/2025.09.02.673615",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2025-09-05T10:50:16Z",
+        "timestamp": 1757069416000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Improved multimodal protein language model-driven universal biomolecules-binding protein design with EiRA"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Wenwu",
+          "family": "Zeng",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Electronic Engineering, Hunan University, Changsha 410082, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Haitao",
+          "family": "Zou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Electronic Engineering, Hunan University, Changsha 410082, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoyu",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Electronic Engineering, Hunan University, Changsha 410082, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yutao",
+          "family": "Dou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Electronic Engineering, Hunan University, Changsha 410082, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoqi",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, Northwestern Polytechnical University, Xi’an, 710129, China"
+            },
+            {
+              "name": "Key Laboratory of Big Data Storage and Management, Northwestern Polytechnical University, Ministry of Industry and Information Technology, Xi’an, 710129, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shaoliang",
+          "family": "Peng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Electronic Engineering, Hunan University, Changsha 410082, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku989"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "669",
+          "DOI": "10.1038/s41587-025-02607-x",
+          "article-title": "The Protein Design Archive (PDA): insights from 40 years of protein design",
+          "volume": "43",
+          "year": "2025",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-024-02127-0"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2023.12.028"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06728-8"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "2107",
+          "DOI": "10.1038/s41592-024-02437-w",
+          "article-title": "De novo protein design with a denoising diffusion network independent of pretrained structure prediction models",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.8",
+          "article-title": "Proteina: Scaling Flow-based Protein Structure Generative Models",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "536",
+          "DOI": "10.1038/s42256-024-00838-2",
+          "article-title": "Accurate and robust protein sequence design with CarbonDesign",
+          "volume": "6",
+          "year": "2024",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "876",
+          "DOI": "10.1038/s42256-025-01042-6",
+          "article-title": "Mask-prior-guided denoising diffusion improves inverse protein folding",
+          "volume": "7",
+          "year": "2025",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hsu, C. et al. Learning inverse folding from millions of predicted structures. In International conference on machine learning 8946-8970 (PMLR, 2022).",
+          "DOI": "10.1101/2022.04.10.487779"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1288",
+          "DOI": "10.1038/s41587-024-02395-w",
+          "article-title": "Multistate and functional protein design using RoseTTAFold sequence space diffusion",
+          "volume": "43",
+          "year": "2025",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2311500121"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.1111.1120.689494"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Butcher, J. et al. De novo Design of All-atom Biomolecular Interactions with RFdiffusion3. bioRxiv, 2025.2009.2018.676967 (2025).",
+          "DOI": "10.1101/2025.09.18.676967"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "580",
+          "DOI": "10.1038/s42256-025-01011-z",
+          "article-title": "A text-guided protein design framework",
+          "volume": "7",
+          "year": "2025",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "7206",
+          "DOI": "10.1016/j.cell.2025.10.006",
+          "article-title": "Generation of antigen-specific paired-chain antibodies using large language models",
+          "volume": "188",
+          "year": "2025",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Su, J. et al. A trimodal protein language model enables advanced protein searches. Nature Biotechnology (2025).",
+          "DOI": "10.1038/s41587-025-02836-0"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01618-2"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hayes, T. et al. Simulating 500 million years of evolution with a language model. Science, eads0018 (2025).",
+          "DOI": "10.1126/science.ads0018"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.26",
+          "first-page": "D444",
+          "article-title": "InterPro: the protein sequence classification resource in 2025",
+          "volume": "53",
+          "year": "2024",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adv0185"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1061.biopython"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad630"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts565"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg095"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wohlwend, J. et al. Boltz-1 democratizing biomolecular interaction modeling. BioRxiv, 2024.2011.2019.624167 (2024).",
+          "DOI": "10.1101/2024.11.19.624167"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.34",
+          "first-page": "3",
+          "article-title": "Lora: Low-rank adaptation of large language models",
+          "volume": "1",
+          "year": "2022",
+          "journal-title": "ICLR"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "7838",
+          "DOI": "10.1038/s41467-024-52293-7",
+          "article-title": "Improving prediction performance of general protein language model by domain-adaptive pretraining on DNA-binding protein",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-09422-z"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "505",
+          "DOI": "10.1609/aaai.v39i1.32030",
+          "article-title": "Controllable Protein Sequence Generation with LLM Preference Optimization",
+          "volume": "39",
+          "year": "2025",
+          "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.38",
+          "first-page": "116617",
+          "article-title": "Iterative reasoning preference optimization",
+          "volume": "37",
+          "year": "2024",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.39",
+          "first-page": "53728",
+          "article-title": "Direct preference optimization: Your language model is secretly a reward model",
+          "volume": "36",
+          "year": "2023",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2311878121"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1080"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1069"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.4205"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444998009378"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.46",
+          "article-title": "Lora+: Efficient low rank adaptation of large models",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.47",
+          "unstructured": "Yeh, S.-Y. et al. Navigating text-to-image customization: From lycoris fine-tuning to model evaluation. In The Twelfth International Conference on Learning Representations (2023)."
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.48",
+          "first-page": "9565",
+          "article-title": "Hydralora: An asymmetric lora architecture for efficient fine-tuning",
+          "volume": "37",
+          "year": "2024",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.49",
+          "article-title": "Adalora: Adaptive budget allocation for parameter-efficient fine-tuning",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.50",
+          "unstructured": "Brixi, G. et al. Genome modeling and design across all domains of life with Evo 2. BioRxiv, 2025.2002. 2018.638918 (2025)."
+        },
+        {
+          "key": "2026022520001010000_2025.09.02.673615v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3233/ISU-1991-115-601"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.02.673615",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ],
+        "date-time": "2026-02-26T04:00:29Z",
+        "timestamp": 1772078429000
+      },
+      "score": 117.21505,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.02.673615"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.1101/2025.09.02.673615",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

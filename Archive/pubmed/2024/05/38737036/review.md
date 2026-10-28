@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and alignment with stated claims; no assessment of editorial fit or publication policy
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to investigate whether a set of aminobenzothiazole derivative compounds, identified via docking, can restore wild-type-like dynamics in the Y220C mutant p53 DNA-binding domain. They report that one compound, Effector 22, shows evidence of partial restoration of local loop dynamics, similar to their prior findings with PK11000, and propose generalizable insights into allosteric drug design.
+- **Visible evidence base** Results section (Docking, RMSD/RMSF, Hydrogen Bonding, MD-Sectors, MD-Markov State Models), Discussion, Methods, Figure references (Figures 1–7), Table 1, Supplementary references (Tables S1, S2, Figure S2A)
+- **Missing materials affecting confidence** Figures and tables themselves were not provided; Supplementary Material not available; no raw data, trajectory files, or analysis scripts; no docking scores or binding affinities beyond a general reference to Table 1; no statistical error bars or replicate information visible in text
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational study of allosteric modulation in the Y220C p53 mutant using MD simulations, building on prior work from the same group. The central claim, that Effector 22 partially restores wild-type-like dynamics, is plausible but not fully established from the provided text. The study is exploratory and descriptive, with several methodological details and quantitative results that are either missing or presented without sufficient context. The conceptual framing around allostery is interesting, but the evidence linking observed dynamic changes to functional rescue remains indirect. The manuscript would benefit from clearer presentation of quantitative results, additional validation of the computational findings, and a more cautious interpretation of the biological implications.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein dynamics, and allosteric drug design would find this study relevant. Those working on p53 mutants and reactivation strategies, particularly the Y220C variant, may also be interested in the specific findings regarding Effector 22. The methodological approach combining MD simulations with network analysis could appeal to method developers in the field.
+- **Major strengths** The study addresses a clinically relevant problem (Y220C p53 reactivation) using a computationally intensive approach. The use of long (1 μs) all-atom MD simulations is commendable. The combination of multiple analysis techniques (RMSD, RMSF, hydrogen bonding, MD-Sectors, MDMSM) provides a multi-faceted view of protein dynamics. The comparison with prior PK11000 results provides continuity and context. The identification of a specific compound (Effector 22) with promising dynamic restoration effects is a concrete finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that Effector 22 shows "dispersed local reconstitution of loop dynamics" providing "evidence of rescuing effects" comparable to PK11000.
+  - **Evidence pointer** Results section, RMSF subsection, Figure 2; MD-Sectors subsection, Figures 4 and 5; Discussion
+  - **Concern** The central claim of partial rescue by Effector 22 is based on qualitative visual inspection of RMSF plots and sector overlap, but no quantitative metrics are provided. The text states that peaks are "dampened," "quenched," or "reconstituted," but no numerical values, statistical comparisons, or error estimates are given. The claim of similarity between Effector 22 and PK11000 effects is not supported by any direct quantitative comparison.
+  - **Why it matters** Without quantitative measures, the reader cannot assess the magnitude or significance of the reported effects. The claim of rescue is the central finding of the paper, and it must be supported by rigorous, reproducible metrics.
+  - **Resolution test** Provide quantitative RMSF values (e.g., mean ± SD) for key residue regions across all systems, with statistical tests comparing Y220C vs. WT and Y220C+effector vs. Y220C. For MD-Sectors, provide a quantitative measure of sector overlap or similarity between systems, with appropriate statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that docking was performed using "average ensemble structures" and that four compounds "successfully docked globally and allosterically" to both WT and Y220C structures.
+  - **Evidence pointer** Results, Docking subsection; Methods, Simulation Specifications
+  - **Concern** The docking methodology is described only briefly. No details are provided on the docking protocol (e.g., search space, exhaustiveness, scoring function), the criteria for selecting the four compounds, or the binding affinities (only referenced to Table 1, which was not provided). The use of "average ensemble structures" for docking is unusual and may not represent relevant conformational states. The statement that compounds docked "allosterically" is not justified without defining what constitutes an allosteric binding site in this context.
+  - **Why it matters** Docking is the first step in selecting compounds for simulation. If the docking procedure is not robust or the selection criteria are not transparent, the subsequent simulations may be based on unreliable starting structures, undermining the entire study.
+  - **Resolution test** Provide full docking details, including software parameters, grid box definitions, and a table of docking scores for all 27 compounds. Justify the use of average structures and demonstrate that the selected compounds bind to a defined allosteric site distinct from the DNA-binding interface.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors state that "restoration needs not be wholly the same" and that their findings reveal "an allosteric signaling hub at play," with implications for "allosteric drug design rooted in first principles."
+  - **Evidence pointer** Discussion and Conclusions
+  - **Concern** The interpretation of the results as evidence for a specific allosteric signaling pathway is speculative. The MD-Sectors analysis identifies correlated motions, but correlation does not establish causation or a functional signaling pathway. The leap from observed dynamic changes to claims about "first principles" of allosteric drug design is not supported by the data presented.
+  - **Why it matters** Overinterpretation of correlative data can mislead readers and overstate the significance of the findings. The authors should clearly distinguish between observed dynamic changes and inferred functional mechanisms.
+  - **Resolution test** Soften the language regarding "first principles" and "signaling hub." Explicitly state that the identified correlated motions are suggestive but require experimental validation to confirm functional relevance. Consider adding a limitations paragraph.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods describe the simulation protocol, but key parameters and analysis details are missing.
+  - **Evidence pointer** Methods, Simulation Specifications and Trajectory Analysis
+  - **Concern** The methods section lacks several critical details: the number of independent simulations per system, the total simulation time per replicate, the equilibration protocol, the temperature coupling parameters, and the criteria for determining convergence. The hydrogen bonding analysis is described with standard cutoffs, but the specific analysis for K120 is not detailed. The MD-Sectors and MDMSM methods are referenced to prior work but not fully described here.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without complete methodological details, other researchers cannot replicate the study or assess its validity.
+  - **Resolution test** Provide a complete description of simulation setup, including system preparation, minimization, equilibration, production run parameters, and the number of replicates. Include a detailed description of the MD-Sectors and MDMSM analysis pipeline, or provide a clear reference to a published protocol.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical jargon without defining key terms (e.g., "MD-Sectors," "MD-Markov state models"). The phrase "Reconnaissance of Allostery" in the title is unusual and may not convey the study's content clearly to a broad audience.
+  - **Required correction** Consider revising the abstract to briefly define or contextualize the specialized methods. The title could be simplified to better reflect the study's focus, e.g., "Molecular Dynamics Analysis of Allosteric Modulation in Y220C Mutant p53."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Docking subsection
+  - **Evidence pointer** Results, Docking subsection; Table 1
+  - **Issue** The text mentions "four of the compounds successfully docked globally and allosterically" but does not name them in the main text, only by CHEMBL IDs in Table 1. The reader is left to cross-reference the table without guidance.
+  - **Required correction** Name the four compounds in the main text and briefly describe their chemical features or differences to aid the reader.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 3
+  - **Issue** The text refers to "PK1100" in one instance and "PK11000" in others. This inconsistency could confuse readers.
+  - **Required correction** Use the correct compound name consistently throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figures 1–7 (not provided)
+  - **Issue** The figure captions are not available for review. Based on the text, it is unclear what exactly is shown in each panel and how the data are normalized or scaled.
+  - **Required correction** Ensure that all figure captions are self-explanatory, including definitions of all labels, color codes, and statistical annotations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The discussion of allostery models is brief and does not cite recent reviews or key papers on dynamic allostery beyond the Cooper and Dryden framework.
+  - **Required correction** Add a few recent references on allostery and dynamic ensembles to place the work in a broader context.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Various locations
+  - **Issue** Some sentences are overly long and convoluted, making them difficult to follow. For example, the final sentence of the Introduction is a single long sentence that combines multiple ideas.
+  - **Required correction** Break up long sentences and simplify phrasing for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for rescue claims), R1-M2 (docking methodology transparency), R1-M4 (reproducibility of simulation and analysis methods)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of MD-Sectors and MDMSM to p53 Y220C with a new set of compounds is a novel combination, but the overall approach is an extension of the authors' prior work. The conceptual framework is not fundamentally new.
+  - **Scientific importance** Moderate. The Y220C p53 mutant is clinically relevant, and understanding allosteric modulation could inform drug design. However, the study is purely computational and descriptive, with no experimental validation, limiting its immediate impact.
+  - **Interdisciplinary readership** Limited. The manuscript is highly specialized and will primarily appeal to computational biophysicists and those working on p53. The technical jargon and lack of accessible explanations may deter readers from other disciplines.
+  - **Technical soundness** The simulation protocol is generally sound, but the lack of quantitative analysis and incomplete methodological details weaken the technical rigor. The docking approach is questionable, and the analysis methods are not fully described.
+  - **Readability for nonspecialists** Poor. The manuscript assumes significant prior knowledge of MD simulations, allostery, and p53 biology. The abstract and introduction are dense and do not provide sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims require quantitative support and methodological clarification. The study has potential, but in its present form, the evidence is insufficient to support the conclusions drawn.
+
+## Risk / unsupported claims
+- The claim that Effector 22 "restores" native p53 dynamics is not quantitatively supported; only qualitative descriptions of RMSF and sector overlap are provided.
+- The claim that the identified compounds bind "allosterically" is not substantiated by a clear definition of the allosteric site or comparison with known binding sites.
+- The statement that the findings provide "generalizable insights into allosteric drug design rooted in first principles" is an overreach given the descriptive and correlative nature of the data.
+- The assertion that "much of the structural changes seen globally are driven by local van der Waals and electrostatic interactions" is referenced to prior work but not demonstrated in this study.
+- The biological significance of the observed hydrogen bonding changes at K120 is speculative and not directly measured in this study.

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, methods, figure legends, and supplementary figure legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that the N-terminal region of DNMT3A1, specifically a region spanning residues 164-219, functions as a multivalent chromatin-reading module that binds both generic nucleosome features (via the acidic patch) and site-specific histone modifications, including H2AK119ub, to guide DNMT3A1 recruitment to chromatin. They further suggest that disease-associated mutations in this region disrupt nucleosome binding, providing a mechanistic basis for their pathogenicity.
+- **Visible evidence base** Biochemical binding assays (EMSA, pull-downs), crosslinking mass spectrometry, cryo-EM structures of DNMT3A1-DNMT3L bound to modified nucleosomes, NMR spectroscopy, and methyltransferase activity assays
+- **Missing materials affecting confidence** The manuscript text provided lacks the main figures (Figures 1-7) and their detailed legends, which are essential for evaluating the quantitative data, structural interpretations, and experimental controls. Supplementary figures are referenced but not fully described. The cryo-EM validation metrics (FSC curves, model statistics) are only partially described in the text. The specific numerical values for binding affinities, activity measurements, and statistical analyses are not provided in the text alone.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive biochemical and structural characterization of the DNMT3A1 N-terminal region, identifying a novel nucleosome-binding motif (UDR) that recognizes both the acidic patch and H2AK119ub. The work addresses an important gap in understanding how DNMT3A1 is recruited to specific chromatin contexts. The combination of crosslinking mass spectrometry, cryo-EM, and functional assays is powerful and generally well-executed. However, several concerns regarding the specificity of the H2AK119ub interaction, the physiological relevance of the observed binding affinities, and the disconnect between binding and activity require clarification. The claim that the UDR is a "ubiquitylation-dependent recruitment motif" is only partially supported, as the data suggest it binds nucleosomes generically with enhanced affinity for H2AK119ub, rather than being strictly ubiquitylation-dependent.
+- **Who would be interested in the results, and why** Researchers in the fields of epigenetics, chromatin biology, and DNA methylation would find this work of high interest. Specifically, those studying DNMT3A function, Polycomb-mediated gene silencing, and the molecular mechanisms of chromatin reader domains would benefit. The identification of a new nucleosome-binding motif and its structural characterization provides a framework for understanding how DNMT3A1 is targeted to chromatin, which has implications for developmental biology and cancer research given the prevalence of DNMT3A mutations in hematological malignancies.
+- **Major strengths** The study combines multiple orthogonal approaches (biochemical, structural, and functional) to characterize the DNMT3A1 N-terminal region. The identification of a specific region (residues 164-219) that mediates nucleosome binding is a significant advance. The cryo-EM structure provides molecular details of the interaction, and the inclusion of disease-associated mutations adds translational relevance. The use of native chemical ligation to generate methylated histones is technically rigorous.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of H2AK119ub recognition
+  - **Claim pointer** The authors claim that the UDR "binds specifically to ubiquitylated H2AK119" and that this explains recruitment to Polycomb regions.
+  - **Evidence pointer** Figure 4A, Figure 6B, Supplementary Figure S4D
+  - **Concern** The data presented in the text suggest that the UDR binds to nucleosomes generically, with enhanced affinity for H2AK119ub-modified nucleosomes. However, the specificity of this interaction is not fully established. The authors show that the UDR binds to unmodified nucleosomes, H3K36me2 nucleosomes, and H2AK119ub nucleosomes, with the highest affinity for the latter. This could represent a modest preference rather than true specificity. The NMR data (Figure S9C) show no binding of the isolated UDR to ubiquitin in solution, which raises questions about how the specificity is achieved in the nucleosomal context. The authors should provide quantitative binding data (e.g., Kd values) for the UDR against a panel of nucleosomes with different modifications to demonstrate that the H2AK119ub preference is significant and specific.
+  - **Why it matters** The central claim of the paper is that the UDR is a ubiquitylation-dependent recruitment motif. If the interaction is not truly specific for H2AK119ub, the model for Polycomb-directed DNMT3A1 recruitment is weakened. The distinction between generic nucleosome binding and specific histone modification recognition is critical for understanding the mechanism of DNMT3A1 targeting.
+  - **Resolution test** Provide quantitative binding affinities (Kd) for the UDR (and full-length DNMT3A1) against unmodified, H3K36me2, H2AK119ub, and other modified nucleosomes. Perform competition experiments with free ubiquitin or ubiquitin mutants to demonstrate specificity. Show that mutations in the ubiquitin-binding interface of the UDR abolish H2AK119ub-specific binding without affecting generic nucleosome binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Disconnect between binding and activity
+  - **Claim pointer** The authors state that "H2AK119ub does not stimulate DNMT3A1 catalytic activity" despite higher binding affinity, and suggest this may explain H2AK119ub hypomethylation.
+  - **Evidence pointer** Figure 7A, Figure 7B, Supplementary Figure S10
+  - **Concern** The observation that H2AK119ub binding does not stimulate activity is intriguing but the interpretation is underdeveloped. The authors suggest that the high-affinity binding may "tether" the enzyme in a non-productive state, but no direct evidence for this is provided. Alternative explanations, such as the UDR occupying a position that blocks access to the substrate DNA or the ubiquitin moiety interfering with the catalytic cycle, are not explored. The authors should perform additional experiments to distinguish between these possibilities, such as measuring activity on nucleosomes with mutations in the acidic patch that disrupt UDR binding, or using a UDR-deleted DNMT3A1 construct to test whether the lack of stimulation is due to the UDR.
+  - **Why it matters** The disconnect between recruitment and activity is a key finding that has implications for understanding how DNMT3A1 functions at Polycomb regions. If the UDR acts as a "brake" on activity, this would be a novel regulatory mechanism. However, the current data do not establish this mechanism, and the interpretation remains speculative.
+  - **Resolution test** Perform activity assays with DNMT3A1 constructs lacking the UDR (e.g., Δ164-219) on H2AK119ub nucleosomes to determine if the UDR is responsible for the lack of stimulation. Use acidic patch mutant nucleosomes to test whether UDR-nucleosome interactions are required for the observed activity patterns. Measure processivity or product distribution to assess whether the UDR affects the catalytic cycle.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation of the UDR-nucleosome complex
+  - **Claim pointer** The authors describe a cryo-EM structure of DNMT3A1-DNMT3L bound to a H2AK119ub nucleosome, with the UDR "snaking" across the nucleosome surface and interacting with the acidic patch and ubiquitin.
+  - **Evidence pointer** Figure 4B-4D, Figure 5, Supplementary Figures S5-S6
+  - **Concern** The structural model is based on a 3.1 Å map, but the UDR density is described as "weaker and spread over a larger volume" (Figure 6A), and the ubiquitin density is not confidently modeled. This suggests that the UDR-ubiquitin interaction is not well-resolved. The authors should provide a more detailed description of the local resolution in the UDR and ubiquitin regions, and clearly state which parts of the model are confidently built versus speculative. The claim that the UDR "interacts with the nucleosome surface including the acidic patch" is supported, but the specific interactions with ubiquitin are not clearly defined.
+  - **Why it matters** The structural model is a key contribution of the paper, and the interpretation of the UDR-ubiquitin interaction relies on the accuracy of the model. If the ubiquitin density is not well-resolved, the conclusions about the specific mode of ubiquitin recognition may be overstated.
+  - **Resolution test** Provide local resolution maps and model validation statistics for the UDR and ubiquitin regions. If possible, perform focused classification or multibody refinement to improve the density for the UDR-ubiquitin interaction. Clearly indicate in the model which residues are confidently assigned versus modeled based on weaker density.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of the UDR
+  - **Claim pointer** The authors state that the UDR is "essential" for DNMT3A1 recruitment to chromatin and that disease mutations in this region "ablate nucleosome interactions."
+  - **Evidence pointer** Figure 2E, Figure 5D, Supplementary Figure S7C
+  - **Concern** The experiments are performed with recombinant proteins and in vitro reconstituted nucleosomes. The physiological relevance of the UDR is not tested in a cellular context. The authors do not show whether the UDR is required for DNMT3A1 localization in cells, nor do they test whether the disease mutations affect DNMT3A1 function in a cellular assay. The claim that the UDR is "essential" is too strong based on the in vitro data alone.
+  - **Why it matters** The paper aims to explain how DNMT3A1 is recruited to specific chromatin regions in vivo. Without cellular validation, the relevance of the UDR to DNMT3A1 function in a physiological context remains unclear. This is particularly important given the disconnect between binding and activity observed in vitro.
+  - **Resolution test** Perform cellular localization studies (e.g., immunofluorescence or ChIP-seq) with wild-type and UDR-mutant DNMT3A1 to assess whether the UDR is required for recruitment to Polycomb regions. Test the effect of disease mutations on DNMT3A1 localization and DNA methylation patterns in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of the model
+  - **Affected element** Figure 7D (schematic model)
+  - **Evidence pointer** Figure 7D
+  - **Issue** The schematic model in Figure 7D is described in the text but not shown in the provided material. The model should clearly distinguish between the UDR's role in recruitment (binding) and its lack of effect on activity. The current description is somewhat confusing.
+  - **Required correction** Provide a clear schematic that separates the recruitment function (UDR binding to nucleosome and ubiquitin) from the catalytic function (methyltransferase domain), and indicate the proposed "tethering" mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** UDR definition
+  - **Evidence pointer** Figure 5A
+  - **Issue** The term "UDR" (ubiquitylation-dependent recruitment motif) is used, but the data suggest that the motif binds nucleosomes generically and has enhanced affinity for H2AK119ub. The name may be misleading, as it implies ubiquitylation is required for recruitment, which is not demonstrated.
+  - **Required correction** Consider renaming the motif to something more neutral, such as "nucleosome-binding motif" or "chromatin-reading motif," or provide data demonstrating that ubiquitylation is strictly required for recruitment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Binding and activity data
+  - **Evidence pointer** Figures 2, 4, 5, 7
+  - **Issue** The text does not describe the statistical methods used to analyze the binding and activity data. It is unclear whether the reported differences are statistically significant and how many replicates were performed.
+  - **Required correction** Add a statistical analysis section describing the tests used, the number of replicates, and the significance thresholds. Include error bars and significance indicators in the figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion does not adequately address alternative models for DNMT3A1 recruitment, such as the role of other chromatin-binding domains (e.g., PWWP, ADD) or the possibility that the UDR acts in concert with other factors.
+  - **Required correction** Expand the discussion to consider alternative or complementary mechanisms of DNMT3A1 recruitment and how the UDR might cooperate with other domains.
+- **Technical failings that need to be addressed before the case is established** The cryo-EM model of the UDR-ubiquitin interaction is based on weak density and should be validated with higher-resolution data or biochemical cross-validation. The specificity of the H2AK119ub interaction needs to be quantified with binding affinities and competition experiments. The physiological relevance of the UDR needs to be demonstrated in cellular assays.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of a novel nucleosome-binding motif in DNMT3A1 that recognizes both the acidic patch and H2AK119ub is original and provides new insights into DNMT3A1 regulation. The finding that recruitment and activity are disconnected is also novel.
+  - **Scientific importance** The work addresses a fundamental question in epigenetics: how DNA methyltransferases are targeted to specific chromatin regions. The results have implications for understanding Polycomb-mediated gene silencing and the role of DNMT3A mutations in disease.
+  - **Interdisciplinary readership** The work will appeal to a broad audience in chromatin biology, epigenetics, structural biology, and cancer research. The combination of biochemical, structural, and functional approaches makes it accessible to readers with different expertise.
+  - **Technical soundness** The experimental approaches are generally sound, but the specificity of the H2AK119ub interaction and the structural interpretation of the UDR-ubiquitin complex need further validation. The disconnect between binding and activity is intriguing but requires additional mechanistic experiments.
+  - **Readability for nonspecialists** The manuscript is well-written and the logic is clear. However, the technical details of the cryo-EM and crosslinking mass spectrometry may be challenging for nonspecialists. The authors should provide more context for these methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a significant advance in understanding DNMT3A1 recruitment, but the specificity of the H2AK119ub interaction, the structural model of the UDR-ubiquitin complex, and the physiological relevance of the UDR need to be strengthened. If these concerns are addressed, the work would be suitable for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that the UDR "binds specifically to H2AK119ub" is not fully supported by the data, as the UDR also binds to unmodified nucleosomes and the specificity is not quantified.
+- The claim that the UDR is "essential" for DNMT3A1 recruitment is not supported by cellular data.
+- The structural model of the UDR-ubiquitin interaction is based on weak density and should be considered provisional.
+- The suggestion that the UDR "tethers" DNMT3A1 in a non-productive state to explain the lack of activity stimulation is speculative and not directly tested.
+- The statement that "H2AK119ub sites are commonly hypomethylated" is presented as a fact but is not discussed in the context of conflicting evidence in the literature.

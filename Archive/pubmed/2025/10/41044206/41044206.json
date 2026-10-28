@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "41044206",
+    "doi": "10.1038/s41598-025-17931-0",
+    "title": "Emerging plasticizer induced lipid metabolism disorders revealed by network toxicology molecular docking and dynamics simulation."
+  },
+  "content": {
+    "abstract": "Acetyl tributyl citrate (ATBC) and epoxidized soybean oil (ESBO) are widely used emerging plasticizers, but their potential to induce lipid metabolism disorders remains poorly understood. In this study, we explored their toxicological mechanisms using a network toxicology framework combined with molecular docking and molecular dynamics simulations. Potential targets of ATBC and ESBO were predicted from multiple databases and compared with genes associated with lipid metabolism disorders. Core targets were identified through protein-protein interaction network analysis. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and Disease Ontology (DO) enrichment analyses were performed to infer relevant biological processes and pathways. Molecular docking and dynamics simulations were further applied to evaluate the binding affinity and stability between the compounds and key targets. Five core targets-epidermal growth factor receptor (EGFR), signal transducer and activator of transcription 3 (STAT3), toll-like receptor 4 (TLR4), JUN proto-oncogene (JUN), and androgen receptor (AR)-were identified, mainly involved in immune regulation, hormone signaling, and the hypoxia-inducible factor 1 (HIF-1) pathway. Enrichment analyses suggested that the emerging plasticizers ATBC and ESBO may disturb lipid metabolism and contribute to diseases such as non-alcoholic fatty liver disease (NAFLD) and hormone-sensitive cancers. Docking results confirmed strong and specific interactions between the compounds and core targets. Overall, these findings support the hypothesis that ATBC and ESBO may disrupt hepatic lipid metabolism through HIF-1 activation and immune-endocrine pathway interference, providing insight into their potential health risks.",
+    "keywords": [
+      "Acetyl tributyl citrate",
+      "Emerging plasticizers",
+      "Epoxidized soybean oil",
+      "Molecular docking",
+      "Network toxicology"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Plasticizers/toxicity/chemistry",
+      "*Lipid Metabolism Disorders/chemically induced/metabolism",
+      "Proto-Oncogene Mas",
+      "*Soybean Oil/chemistry/toxicity",
+      "Protein Interaction Maps/drug effects",
+      "*Lipid Metabolism/drug effects",
+      "ErbB Receptors/metabolism/chemistry",
+      "STAT3 Transcription Factor/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Guihao",
+        "Lu, Meifeng",
+        "Hu, Bei",
+        "Chen, Shuilin",
+        "Xu, Shuai",
+        "Sun, Guicai",
+        "Ouyang, Yulong"
+      ],
+      "short_names": [
+        "Zheng G",
+        "Lu M",
+        "Hu B",
+        "Chen S",
+        "Xu S",
+        "Sun G",
+        "Ouyang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+        "Graduate School of Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+        "Graduate School of Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+        "Graduate School of Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+        "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+        "Graduate School of Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China. ndsfy0740@ncu.edu.cn.",
+        "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China. ndyfy10126@ncu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Guihao",
+        "short_name": "Zheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+          "Graduate School of Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Meifeng",
+        "short_name": "Lu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+          "Graduate School of Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Bei",
+        "short_name": "Hu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+          "Graduate School of Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuilin",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shuai",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China.",
+          "Graduate School of Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Guicai",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China. ndsfy0740@ncu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Yulong",
+        "short_name": "Ouyang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Orthopaedic Hospital, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, 17 Yongwai Zhengjie, Donghu District, Nanchang, Jiangxi, China. ndyfy10126@ncu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/04 00:30",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "41948503"
+    ],
+    "refs": [
+      "39931400",
+      "39615059",
+      "39580138",
+      "39553194",
+      "39186956",
+      "38876327",
+      "38199361",
+      "37858827",
+      "37720213",
+      "37506862",
+      "37228770",
+      "37182273",
+      "36997141",
+      "36917917",
+      "36896678",
+      "36821817",
+      "36483930",
+      "36408920",
+      "36374650",
+      "35524552",
+      "35116681",
+      "35051512",
+      "34753029",
+      "34726148",
+      "34601394",
+      "34598436",
+      "34360667",
+      "33965815",
+      "33900847",
+      "33167028",
+      "33151290",
+      "33010471",
+      "32962341",
+      "32863955",
+      "32843764",
+      "31346658",
+      "31299621",
+      "31106366",
+      "30660700",
+      "30281400",
+      "29723837",
+      "29209738",
+      "28677244",
+      "28293951",
+      "28041958",
+      "27167132",
+      "26854686",
+      "24503013",
+      "24228746",
+      "20401516",
+      "18949832",
+      "18348048",
+      "11248550",
+      "9069263"
+    ],
+    "similar": [
+      "41044206",
+      "40625361",
+      "40790309",
+      "40705527",
+      "41303381",
+      "39657862",
+      "41317839",
+      "40354873",
+      "39580138",
+      "41309766",
+      "39615059",
+      "40946514",
+      "39251712",
+      "40939458",
+      "40797463",
+      "40692598",
+      "36389420",
+      "41096726",
+      "40958307",
+      "41187890",
+      "39066538",
+      "40681587",
+      "38038388",
+      "40543694",
+      "40192506",
+      "40593011",
+      "41088691",
+      "41367024",
+      "41189264",
+      "41299770",
+      "40715557",
+      "41083578",
+      "41134653",
+      "40615101",
+      "38149857",
+      "39738201",
+      "41310176",
+      "39705422",
+      "40741007",
+      "41261616",
+      "39686413",
+      "38822913",
+      "40585331",
+      "38335377",
+      "41226680",
+      "37858827",
+      "41330962",
+      "40462131",
+      "38114219",
+      "41305757",
+      "40350911",
+      "40255473",
+      "38759074",
+      "40312983",
+      "40988247",
+      "39049631",
+      "41031039",
+      "39180676",
+      "37469733",
+      "39125368",
+      "40570565",
+      "40355237",
+      "37023836",
+      "39753306",
+      "40752663",
+      "40132971",
+      "38964628",
+      "38704482",
+      "40237055",
+      "38964723",
+      "39178760",
+      "39299533",
+      "37799727",
+      "36896678",
+      "39041167",
+      "38941043",
+      "34941025",
+      "40943141",
+      "36121703",
+      "39293329",
+      "38916485",
+      "39033091",
+      "38847263",
+      "41492010",
+      "33771638",
+      "40484258",
+      "38403323",
+      "39553194",
+      "40200025",
+      "39928767",
+      "40359556",
+      "40452077",
+      "41022594",
+      "40676786",
+      "41439108",
+      "40129983",
+      "37948293",
+      "37740654",
+      "40331986",
+      "40421218"
+    ],
+    "review": [
+      "41044206"
+    ],
+    "pmc": [
+      "12494788"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lipidmetabolismdisorders.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lipid Metabolism Disorders"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-17931-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41044206/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "41406167",
+    "doi": "10.1371/journal.pcbi.1013796",
+    "title": "A methodology to reduce the localization error in multi-loci microscopy provides new insights into enhancer biology."
+  },
+  "content": {
+    "abstract": "Numerous functions hinge on the spatial arrangement of different genomic loci. Hence, microscopy techniques, such as chromatin tracing, have been developed to localize multiple loci in fixed cells. Depending on the throughput and specifics of the experiment, localization errors can still obscure the true spatial locations. We have developed a post-processing methodology to address this challenge without the need for additional experimentation: Loci Enabled Advanced Resolution (LEAR). By leveraging the fact that localization errors increase the variability of the displacements between loci, and given an approximation of the localization error, we can approximate the ground truth spatial variation for each pair of loci to guide an iterative error correction process. After validating our approach with simulation and experiment, we then applied our approach to existing chromatin tracing data that probed the relation between chromatin organization and Sox2 regulation, where previous work found no clear correlation between enhancer-promoter proximity and transcription bursts in individual cells. We discovered a correlation previously obscured by localization error, clearly demonstrating the need for the methodology. We then investigated the influence of loop-extrusion on higher order multi-way contact frequencies, which dramatically increased with the application of the LEAR method, finding that certain multi-way contacts were only present with loop-extrusion.",
+    "keywords": [],
+    "mesh_terms": [
+      "Chromatin/genetics/metabolism",
+      "*Enhancer Elements, Genetic/genetics",
+      "Computational Biology/methods",
+      "SOXB1 Transcription Factors/genetics/metabolism",
+      "*Microscopy/methods",
+      "Animals",
+      "Computer Simulation",
+      "Mice",
+      "*Image Processing, Computer-Assisted/methods",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bohrer, Christopher H",
+        "Larson, Daniel R"
+      ],
+      "short_names": [
+        "Bohrer CH",
+        "Larson DR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9253-3055"
+      ],
+      "affiliations": [
+        "Laboratory of Receptor Biology and Gene Expression, National Institutes of Health, Bethesda, Maryland, United States of America.",
+        "Laboratory of Receptor Biology and Gene Expression, National Institutes of Health, Bethesda, Maryland, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bohrer, Christopher H",
+        "short_name": "Bohrer CH",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Institutes of Health, Bethesda, Maryland, United States of America."
+        ]
+      },
+      {
+        "full_name": "Larson, Daniel R",
+        "short_name": "Larson DR",
+        "identifiers": [
+          "0000-0001-9253-3055"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Institutes of Health, Bethesda, Maryland, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/17 19:11",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41308125",
+      "41106391",
+      "40966339",
+      "40825871",
+      "40683887",
+      "40205045",
+      "40132578",
+      "40009678",
+      "39626663",
+      "39276360",
+      "39256629",
+      "39117696",
+      "38954990",
+      "38805476",
+      "38781242",
+      "38717453",
+      "38691452",
+      "38452764",
+      "38413840",
+      "38238628",
+      "38225387",
+      "37384691",
+      "37157000",
+      "37146570",
+      "36931273",
+      "36790144",
+      "36717694",
+      "36593410",
+      "36574448",
+      "36418347",
+      "36097291",
+      "35710138",
+      "34103507",
+      "34059826",
+      "34002095",
+      "33903158",
+      "33619390",
+      "33408402",
+      "33310227",
+      "33191055",
+      "32822575",
+      "32348762",
+      "31932776",
+      "31501331",
+      "31494034",
+      "31124784",
+      "30911168",
+      "30886393",
+      "30799036",
+      "30795893",
+      "30770448",
+      "30602772",
+      "30361340",
+      "30038397",
+      "29988121",
+      "28985562",
+      "27445307",
+      "26760202",
+      "24510436",
+      "16258038",
+      "11964263",
+      "6277502"
+    ],
+    "similar": [
+      "41406167",
+      "42475469",
+      "39671497",
+      "31124784",
+      "35710138",
+      "25512558",
+      "41980771",
+      "22537144",
+      "25537195",
+      "38781242",
+      "23912807",
+      "32553182",
+      "39003726",
+      "39008525",
+      "40879746",
+      "41159420",
+      "31530818",
+      "40180945",
+      "36173570",
+      "34871311",
+      "26240285",
+      "38717453",
+      "34197622",
+      "25340767",
+      "37738673",
+      "32619460",
+      "41642679",
+      "42351220",
+      "31494034",
+      "40114377",
+      "32213323",
+      "37162887",
+      "33545029",
+      "42636801",
+      "37645793",
+      "36207300",
+      "41633996",
+      "31804952",
+      "29358044",
+      "42276486",
+      "27506891",
+      "24213634",
+      "24565409",
+      "32822575",
+      "31997540",
+      "32007290",
+      "30508256",
+      "41331087",
+      "39468737",
+      "36991220",
+      "40360814",
+      "34197738",
+      "23526891",
+      "38096290",
+      "29335803",
+      "28212747",
+      "39283462",
+      "38194964",
+      "25970635",
+      "29988121",
+      "28863138",
+      "34103507",
+      "30995943",
+      "28137913",
+      "23072295",
+      "24353267",
+      "40966339",
+      "37967508",
+      "27899590",
+      "28982762",
+      "41310253",
+      "39817516",
+      "30702424",
+      "41043423",
+      "22358970",
+      "21331042",
+      "34099725",
+      "39306948",
+      "21415370",
+      "29945198",
+      "28481278",
+      "25794150",
+      "34382191",
+      "22782131",
+      "27789526",
+      "39535534",
+      "32635644",
+      "36854248",
+      "34108683",
+      "39976773",
+      "34382185",
+      "40374602",
+      "37930832",
+      "18927605",
+      "39721581",
+      "23993744",
+      "30072594",
+      "31829768",
+      "29522506",
+      "39122009"
+    ],
+    "review": [
+      "41406167",
+      "40879746",
+      "32007290",
+      "36991220",
+      "39306948",
+      "32635644",
+      "36854248",
+      "39976773",
+      "31829768"
+    ],
+    "pmc": [
+      "12747437"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013796",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41406167/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

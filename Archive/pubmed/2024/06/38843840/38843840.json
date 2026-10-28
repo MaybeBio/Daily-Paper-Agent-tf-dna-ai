@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "38843840",
+    "doi": "10.1016/j.cels.2024.05.002",
+    "title": "Stimulus-response signaling dynamics characterize macrophage polarization states."
+  },
+  "content": {
+    "abstract": "The functional state of cells is dependent on their microenvironmental context. Prior studies described how polarizing cytokines alter macrophage transcriptomes and epigenomes. Here, we characterized the functional responses of 6 differentially polarized macrophage populations by measuring the dynamics of transcription factor nuclear factor kappaB (NF-kappaB) in response to 8 stimuli. The resulting dataset of single-cell NF-kappaB trajectories was analyzed by three approaches: (1) machine learning on time-series data revealed losses of stimulus distinguishability with polarization, reflecting canalized effector functions. (2) Informative trajectory features driving stimulus distinguishability (\"signaling codons\") were identified and used for mapping a cell state landscape that could then locate macrophages conditioned by an unrelated condition. (3) Kinetic parameters, inferred using a mechanistic NF-kappaB network model, provided an alternative mapping of cell states and correctly predicted biochemical findings. Together, this work demonstrates that a single analyte's dynamic trajectories may distinguish the functional states of single cells and molecular network states underlying them. A record of this paper's transparent peer review process is included in the supplemental information.",
+    "keywords": [
+      "NF-kappaB dynamics",
+      "inflammation",
+      "innate immunity",
+      "machine learning",
+      "macrophage",
+      "math modeling",
+      "microenvironmental context",
+      "polarization",
+      "stimulus-specific responses",
+      "trajectory data"
+    ],
+    "mesh_terms": [
+      "*Macrophages/metabolism",
+      "*Signal Transduction",
+      "*NF-kappa B/metabolism",
+      "Animals",
+      "Mice",
+      "Cell Polarity/physiology",
+      "Humans",
+      "Cytokines/metabolism",
+      "Macrophage Activation",
+      "Single-Cell Analysis/methods",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Apeksha",
+        "Sen, Supriya",
+        "Iter, Michael",
+        "Adelaja, Adewunmi",
+        "Luecke, Stefanie",
+        "Guo, Xiaolu",
+        "Hoffmann, Alexander"
+      ],
+      "short_names": [
+        "Singh A",
+        "Sen S",
+        "Iter M",
+        "Adelaja A",
+        "Luecke S",
+        "Guo X",
+        "Hoffmann A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA. Electronic address: ahoffmann@ucla.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Apeksha",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Sen, Supriya",
+        "short_name": "Sen S",
+        "identifiers": [],
+        "affiliations": [
+          "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Iter, Michael",
+        "short_name": "Iter M",
+        "identifiers": [],
+        "affiliations": [
+          "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Adelaja, Adewunmi",
+        "short_name": "Adelaja A",
+        "identifiers": [],
+        "affiliations": [
+          "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Luecke, Stefanie",
+        "short_name": "Luecke S",
+        "identifiers": [],
+        "affiliations": [
+          "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaolu",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Alexander",
+        "short_name": "Hoffmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Signaling Systems Laboratory, Department of Microbiology, Immunology, and Molecular Genetics, and Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, Los Angeles, CA 90095, USA. Electronic address: ahoffmann@ucla.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2024 Jun 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/07 00:43",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "42514862",
+      "42421949",
+      "41807851",
+      "41669117",
+      "41425579",
+      "41210254",
+      "41098679",
+      "40839679",
+      "40593748",
+      "40453371",
+      "40240192",
+      "39896612",
+      "39413794",
+      "39185161",
+      "38872050",
+      "36911661",
+      "36657439",
+      "35830792"
+    ],
+    "refs": [
+      "36657439",
+      "35965452",
+      "35647414",
+      "35027468",
+      "34525335",
+      "34331874",
+      "34267761",
+      "34140389",
+      "33979588",
+      "33590861",
+      "33436596",
+      "32864512",
+      "32726596",
+      "32703960",
+      "32607472",
+      "32553181",
+      "32398875",
+      "31972132",
+      "31869334",
+      "31293585",
+      "31113301",
+      "31077108",
+      "30918279",
+      "30904375",
+      "30825233",
+      "30532146",
+      "29921749",
+      "29545365",
+      "29508616",
+      "29061167",
+      "28712804",
+      "28314621",
+      "27979909",
+      "27813830",
+      "27002843",
+      "26899380",
+      "26681460",
+      "26500109",
+      "25516281",
+      "25445227",
+      "25035950",
+      "24530305",
+      "24530056",
+      "24227677",
+      "23798430",
+      "23619691",
+      "23104886",
+      "23029029",
+      "22378047",
+      "21997792",
+      "21331081",
+      "21278185",
+      "20581820",
+      "20478246",
+      "19910308",
+      "19545988",
+      "19359585",
+      "18644831",
+      "16226499",
+      "16166517",
+      "16166516",
+      "15499023",
+      "12960339",
+      "12424381",
+      "11095741",
+      "11067935",
+      "10843666",
+      "9377276"
+    ],
+    "similar": [
+      "38843840",
+      "39413794",
+      "40482761",
+      "36911661",
+      "41550924",
+      "41795298",
+      "36657439",
+      "40139075",
+      "41534756",
+      "42052827",
+      "39633456",
+      "39819414",
+      "39383788",
+      "28396000",
+      "27220367",
+      "31229505",
+      "41480318",
+      "32492108",
+      "33979588",
+      "27153994",
+      "35053345",
+      "23770004",
+      "31446616",
+      "32503416",
+      "41457935",
+      "37639898",
+      "32128893",
+      "37993938",
+      "30042130",
+      "37325614",
+      "35977475",
+      "30619320",
+      "28212865",
+      "41172817",
+      "21729324",
+      "41930813",
+      "35447422",
+      "41190073",
+      "36516692",
+      "41163030",
+      "42036631",
+      "40248690",
+      "42143937",
+      "42276750",
+      "39938520",
+      "40960228",
+      "42039168",
+      "40127740",
+      "42208328",
+      "40605611",
+      "41124707",
+      "40834970",
+      "30170844",
+      "36536301",
+      "41275947",
+      "40495190",
+      "25127375",
+      "31766621",
+      "38415803",
+      "39970751",
+      "39700664",
+      "39041129",
+      "40907407",
+      "37454749",
+      "34924115",
+      "32486100",
+      "32323096",
+      "32422358",
+      "23735482",
+      "39364689",
+      "41485180",
+      "28646616",
+      "41641273",
+      "40599271",
+      "39787954",
+      "32290250",
+      "29128333",
+      "30768972",
+      "29678169",
+      "41483389",
+      "31024544",
+      "41722860",
+      "30460722",
+      "38752640",
+      "20529327",
+      "27050527",
+      "42119768",
+      "40505233",
+      "41639329",
+      "10360689",
+      "40236137",
+      "40593748",
+      "40602310",
+      "40078929",
+      "29177856",
+      "28064070",
+      "37556943",
+      "32899721",
+      "42167049",
+      "27988459"
+    ],
+    "review": [
+      "38843840",
+      "36911661",
+      "30619320"
+    ],
+    "pmc": [
+      "11226196"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(24)00146-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38843840/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt0j24t2p5",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse246566",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "40775648",
+    "doi": "10.1186/s12967-025-06725-7",
+    "title": "Integrative multiomics analysis reveals the subtypes and key mechanisms of platinum resistance in gastric cancer: identification of KLF9 as a promising therapeutic target."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer (GC) is characterized by significant intertumoral heterogeneity, which often leads to the development of resistance to platinum-based chemotherapy. Combining platinum drugs with other therapeutic strategies may improve treatment efficacy; however, the mechanisms underlying platinum resistance in GC remain unclear. METHODS: Key genes related to platinum resistance in GC were selected from the platinum resistance gene database and GC resistance datasets. The Similarity Network Fusion (SNF) algorithm was employed, along with prognosis-related methylation data and somatic mutation data, to classify the molecular subtypes of GC based on GC platinum resistance genes. Gene expression profiles, prognosis, immune cell infiltration, chemotherapy sensitivity, and immunotherapy responsiveness were comprehensively evaluated for each subtype. Localization and functional evaluation were conducted at the single-cell and spatial transcriptomics levels, and predictive models were developed using machine learning techniques. These functional differences in platinum resistance gene models were further explored in GC. Moreover, experimental validation was conducted to elucidate the mechanisms of key genes involved in platinum resistance in GC. RESULTS: Stomach adenocarcinoma (STAD) patients were classified into three subtypes using the SNF algorithm and multiomics data. Patients with subtype CS2 exhibited a significantly poorer prognosis than those with subtypes CS1 and CS3 (p < 0.05). Subtype CS1 was characterized as immune-deprived, CS2 as stroma-enriched, and CS3 as immune-enriched. Patients with subtype CS2 also exhibited the most adverse therapeutic responses to docetaxel, cisplatin, and gemcitabine. Single-cell analysis revealed high enrichment of M1 module cells with elevated expression of resistance genes, including the transcription factor KLF9. Spatial transcriptomic analysis further confirmed the independent spatial distribution of malignant cells with high expression of drug resistance genes (DRGs). Predictive models based on machine learning demonstrated excellent prognostic performance. Patients in the high DRG group also exhibited poorer responses to immunotherapy. Cellular experiments revealed that KLF9 overexpression significantly inhibited the proliferation of AGS cells (p < 0.05), reduced their resistance to platinum-based drugs, and markedly decreased the levels of inflammatory cytokines in them. CONCLUSION: KLF9 was identified as a promising therapeutic target for overcoming platinum resistance in GC, warranting further investigation into its role and potential clinical applications.",
+    "keywords": [
+      "KLF9",
+      "Gastric cancer",
+      "Platinum resistance",
+      "Similarity network fusion",
+      "Spatial transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/drug therapy/pathology/classification",
+      "*Drug Resistance, Neoplasm/genetics/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "*Platinum/pharmacology/therapeutic use",
+      "*Kruppel-Like Transcription Factors/metabolism/genetics",
+      "*Molecular Targeted Therapy",
+      "Prognosis",
+      "Gene Expression Profiling",
+      "Reproducibility of Results",
+      "Cell Line, Tumor",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Pengcheng",
+        "Wang, Lexin",
+        "Lin, Haonan",
+        "Han, Yihui",
+        "Zhou, Jingfang",
+        "Song, Hang",
+        "Wang, Peng",
+        "Tan, Huanhuan",
+        "Fu, Yajuan"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Wang L",
+        "Lin H",
+        "Han Y",
+        "Zhou J",
+        "Song H",
+        "Wang P",
+        "Tan H",
+        "Fu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, 310002, China.",
+        "General Hospital of Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Department of Otolaryngology, Affiliated Hospital of Shaoxing University Shao Xing, Shaoxing, 312000, China.",
+        "Department of Clinical Medicine, National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, 750000, Ningxia, China.",
+        "Department of Clinical Medicine, National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, 750000, Ningxia, China.",
+        "School of Integrated Chinese and Western Medicine, Anhui University of Chinese Medicine, Hefei, China. hangsong@ahtcm.edu.cn.",
+        "Functional Activity and Resource Utilization On Edible and Medicinal Fungi Joint Laboratory of Anhui Province, Hefei, China. hangsong@ahtcm.edu.cn.",
+        "Department of Oncology, Southwest Hospital, Third Military Medical University (Army Medical University), Chongqing, 400038, China. wisdom-wp@tmmu.edu.cn.",
+        "State Key Laboratory of Reproductive Medicine, Nanjing Medical University, Nanjing, 211166, China.",
+        "Department of Clinical Medicine, National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, 750000, Ningxia, China. 20210202@nxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Pengcheng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou, 310002, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lexin",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "General Hospital of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Haonan",
+        "short_name": "Lin H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Affiliated Hospital of Shaoxing University Shao Xing, Shaoxing, 312000, China."
+        ]
+      },
+      {
+        "full_name": "Han, Yihui",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, 750000, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingfang",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, 750000, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Song, Hang",
+        "short_name": "Song H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Anhui University of Chinese Medicine, Hefei, China. hangsong@ahtcm.edu.cn.",
+          "Functional Activity and Resource Utilization On Edible and Medicinal Fungi Joint Laboratory of Anhui Province, Hefei, China. hangsong@ahtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Peng",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Southwest Hospital, Third Military Medical University (Army Medical University), Chongqing, 400038, China. wisdom-wp@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tan, Huanhuan",
+        "short_name": "Tan H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Medicine, Nanjing Medical University, Nanjing, 211166, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yajuan",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, National Health Commission Key Laboratory of Metabolic Cardiovascular Diseases Research, Ningxia Medical University, Yinchuan, 750000, Ningxia, China. 20210202@nxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Aug 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/08 06:29",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42411162",
+      "42279331",
+      "42159858",
+      "42131340",
+      "42058209",
+      "41960369",
+      "41892326",
+      "41836418",
+      "41601632",
+      "41485159",
+      "41090743"
+    ],
+    "refs": [
+      "39812999",
+      "39431668",
+      "39351360",
+      "39328412",
+      "39259234",
+      "39241746",
+      "38572751",
+      "38160327",
+      "38067370",
+      "38062164",
+      "37400979",
+      "36959359",
+      "36550808",
+      "36307394",
+      "36300619",
+      "35647274",
+      "35501353",
+      "34936229",
+      "34354866",
+      "34326835",
+      "34285779",
+      "34276676",
+      "34262565",
+      "34079012",
+      "33597522",
+      "33340451",
+      "33315104",
+      "33293864",
+      "32561888",
+      "32138770",
+      "32122355",
+      "32065879",
+      "31819264",
+      "30542730",
+      "30479382",
+      "30400809",
+      "30341162",
+      "29409532",
+      "29130882",
+      "28950298",
+      "27765066",
+      "27549193",
+      "27124452",
+      "25822800",
+      "25524900",
+      "25466818",
+      "24113773",
+      "23323831",
+      "21527027",
+      "19847166",
+      "18030330",
+      "16199517"
+    ],
+    "similar": [
+      "40775648",
+      "41662930",
+      "41798945",
+      "37807645",
+      "40281016",
+      "41249595",
+      "40688093",
+      "39885324",
+      "38430394",
+      "41771967",
+      "41656832",
+      "39896800",
+      "38894657",
+      "39353384",
+      "40674817",
+      "36479114",
+      "41291892",
+      "40229676",
+      "40574832",
+      "41895760",
+      "22535375",
+      "39904894",
+      "40200221",
+      "42244292",
+      "41436831",
+      "39181686",
+      "41423668",
+      "42107026",
+      "40293675",
+      "39810215",
+      "39118022",
+      "39108265",
+      "40596319",
+      "40450287",
+      "39762768",
+      "42068630",
+      "39747410",
+      "40764361",
+      "37790935",
+      "40124374",
+      "41262238",
+      "38807601",
+      "40200832",
+      "41551463",
+      "41203448",
+      "41293156",
+      "41371106",
+      "41207103",
+      "31773340",
+      "41836411",
+      "40489463",
+      "39703515",
+      "39894411",
+      "41350832",
+      "31990955",
+      "38656888",
+      "39732954",
+      "42486346",
+      "37608794",
+      "36336725",
+      "40597935",
+      "42211756",
+      "41004487",
+      "42396657",
+      "41417784",
+      "40959076",
+      "41246350",
+      "39354571",
+      "34893046",
+      "39034722",
+      "41286470",
+      "41099090",
+      "42240917",
+      "39926600",
+      "42359574",
+      "41559659",
+      "41504052",
+      "41049291",
+      "39998563",
+      "40916434",
+      "39391958",
+      "39165353",
+      "37862109",
+      "37691229",
+      "39333689",
+      "41342434",
+      "38484940",
+      "41930144",
+      "39712016",
+      "38546403",
+      "40956482",
+      "40308576",
+      "39557952",
+      "34607103",
+      "42050659",
+      "41622291",
+      "39730893",
+      "41290867",
+      "42253970",
+      "41500779"
+    ],
+    "review": [
+      "40775648"
+    ],
+    "pmc": [
+      "12330134"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06725-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40775648/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1763",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

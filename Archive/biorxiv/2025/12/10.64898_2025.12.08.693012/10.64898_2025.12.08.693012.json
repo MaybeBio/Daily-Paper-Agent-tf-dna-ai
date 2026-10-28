@@ -1,0 +1,208 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.08.693012",
+  "title": "TREND: A generalizable synthetic enhancer discovery platform for targeted immunotherapy",
+  "doi": "10.64898/2025.12.08.693012",
+  "abstract": "Synthetic enhancers with high specificity are crucial for therapeutic gene control. However, experimental screens and machine learning-guided design typically require context-specific datasets, limiting generalizability. Because transcription factor (TF) activity reflects cellular state, TF-responsive enhancer libraries offer a universal starting point. Here, we developed TREND (transcription factor-responsive enhancer discovery), a massively parallel reporter assay of ~2.7 million enhancer-barcode constructs representing 57,715 designs. TREND covers 1,068 motif-annotated proteins, including 729 confirmed TFs across 49 DNA-binding domain families. Applied to ovarian cancer, TREND identified enhancers that discriminate cancer from normal epithelial cells. These enhancers enabled protein-interaction-based AND-gate circuits with reduced OFF-state leakage and amplified ON-state output, driving tumor-restricted expression of combinatorial immune effectors and robust antitumor responses in murine ovarian cancer models. TREND also identified T-cell activation-responsive enhancers with greater inducibility and lower basal activity than conventional NFAT-motif-based elements. Together, TREND provides a generalizable framework for context-specific enhancer discovery and therapeutic gene regulation.",
+  "authors": [
+    "Jia Y",
+    "Chen C",
+    "Zhu B",
+    "Wu Z",
+    "Wu Y",
+    "Wang R",
+    "Salamah AI",
+    "Halder S",
+    "Liu Y",
+    "Guo Y",
+    "Chen Y",
+    "Scimeca L",
+    "Yin H",
+    "Sabu T",
+    "Wang Y",
+    "Antwi EB",
+    "Wang Y",
+    "Wu M"
+  ],
+  "published_date": "2025-12-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.08.693012",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.08.693012.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1212103",
+    "raw_record": {
+      "id": "PPR1212103",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.08.693012",
+      "title": "TREND: A generalizable synthetic enhancer discovery platform for targeted immunotherapy",
+      "authorString": "Jia Y, Chen C, Zhu B, Wu Z, Wu Y, Wang R, Salamah AI, Halder S, Liu Y, Guo Y, Chen Y, Scimeca L, Yin H, Sabu T, Wang Y, Antwi EB, Wang Y, Wu M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jia Y",
+            "lastName": "Jia",
+            "firstName": "Yingbo",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Chen C",
+            "lastName": "Chen",
+            "firstName": "Chu-Yen",
+            "initials": "C"
+          },
+          {
+            "fullName": "Zhu B",
+            "lastName": "Zhu",
+            "firstName": "Bo",
+            "initials": "B"
+          },
+          {
+            "fullName": "Wu Z",
+            "lastName": "Wu",
+            "firstName": "Zhigui",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Wu Y",
+            "lastName": "Wu",
+            "firstName": "Yi-Chia",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Wang R",
+            "lastName": "Wang",
+            "firstName": "Renqi",
+            "initials": "R"
+          },
+          {
+            "fullName": "Salamah AI",
+            "lastName": "Salamah",
+            "firstName": "Abdulmajeed",
+            "initials": "AI"
+          },
+          {
+            "fullName": "Halder S",
+            "lastName": "Halder",
+            "firstName": "Sushmita",
+            "initials": "S"
+          },
+          {
+            "fullName": "Liu Y",
+            "lastName": "Liu",
+            "firstName": "Yen-Nien",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Guo Y",
+            "lastName": "Guo",
+            "firstName": "Yingjie",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Chen Y",
+            "lastName": "Chen",
+            "firstName": "Ying",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Scimeca L",
+            "lastName": "Scimeca",
+            "firstName": "Luca",
+            "initials": "L"
+          },
+          {
+            "fullName": "Yin H",
+            "lastName": "Yin",
+            "firstName": "Hang",
+            "initials": "H"
+          },
+          {
+            "fullName": "Sabu T",
+            "lastName": "Sabu",
+            "firstName": "Tejas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yutao",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Antwi EB",
+            "lastName": "Antwi",
+            "firstName": "Enoch",
+            "initials": "EB"
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yang",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Wu M",
+            "lastName": "Wu",
+            "firstName": "Ming-Ru",
+            "initials": "M"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Synthetic enhancers with high specificity are crucial for therapeutic gene control. However, experimental screens and machine learning-guided design typically require context-specific datasets, limiting generalizability. Because transcription factor (TF) activity reflects cellular state, TF-responsive enhancer libraries offer a universal starting point. Here, we developed TREND (transcription factor-responsive enhancer discovery), a massively parallel reporter assay of ~2.7 million enhancer-barcode constructs representing 57,715 designs. TREND covers 1,068 motif-annotated proteins, including 729 confirmed TFs across 49 DNA-binding domain families. Applied to ovarian cancer, TREND identified enhancers that discriminate cancer from normal epithelial cells. These enhancers enabled protein-interaction-based AND-gate circuits with reduced OFF-state leakage and amplified ON-state output, driving tumor-restricted expression of combinatorial immune effectors and robust antitumor responses in murine ovarian cancer models. TREND also identified T-cell activation-responsive enhancers with greater inducibility and lower basal activity than conventional NFAT-motif-based elements. Together, TREND provides a generalizable framework for context-specific enhancer discovery and therapeutic gene regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.08.693012"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-10",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

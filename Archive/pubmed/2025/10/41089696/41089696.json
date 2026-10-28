@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "41089696",
+    "doi": "10.3389/fimmu.2025.1651270",
+    "title": "Machine learning integration with multi-omics data constructs a robust prognostic model and identifies PTGES3 as a therapeutic target for precision oncology in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lung adenocarcinoma is the most prevalent lung cancer type, with a 5-year survival rate for advanced patients below 20%. This study aims to develop a risk model to guide treatment for these patients. MATERIALS AND METHODS: RNA-seq data from TCGA and GEO were analyzed using Cox regression and 10 machine learning algorithms to identify prognostic genes and stratify patients. Single-cell datasets were integrated to examine PTGES3's role in tumor progression, with SCENIC and ATAC-seq revealing its transcriptional regulators. PTGES3 expression was evaluated via tissue microarray immunohistochemistry. Functional assays (CCK-8, colony formation, flow cytometry, Western blot) after lentiviral knockdown in lung cancer cells assessed its effects on proliferation, apoptosis, and cell cycle. ZBTB7A was validated as a transcriptional regulator of PTGES3 by dual-luciferase reporter assay, and xenograft models in nude mice evaluated tumor growth in vivo. RESULTS: Our analysis identified 28 key genes, classifying lung adenocarcinoma samples into high-score and low-score groups. Patients in the high-score group showed worse prognoses, linked to clinical stage progression and phenotypes like angiogenesis and epithelial-mesenchymal transition. PTGES3 knockdown inhibited tumor growth, leading to cell cycle arrest and increased apoptosis. ZBTB7A was identified as a key regulator of PTGES3, while interactions among LGALS9, P4HB, and CD44 significantly impacted signaling pathways influencing the tumor microenvironment's immune status. CONCLUSIONS: Our findings highlight the potential of LS score-based molecular subtyping to improve treatment strategies for lung adenocarcinoma and emphasize PTGES3's role in new therapeutic development.",
+    "keywords": [
+      "PTGES3",
+      "ZBTB7A",
+      "lung adenocarcinoma",
+      "machine learning",
+      "prognostic model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Adenocarcinoma of Lung/genetics/pathology/metabolism/mortality",
+      "*Lung Neoplasms/genetics/pathology/metabolism/mortality",
+      "Animals",
+      "*Machine Learning",
+      "Mice",
+      "Prognosis",
+      "Precision Medicine/methods",
+      "Gene Expression Regulation, Neoplastic",
+      "Transcription Factors/genetics/metabolism",
+      "*Biomarkers, Tumor/genetics",
+      "Cell Line, Tumor",
+      "DNA-Binding Proteins/genetics/metabolism",
+      "Female",
+      "Mice, Nude",
+      "Cell Proliferation",
+      "Apoptosis",
+      "Male",
+      "Xenograft Model Antitumor Assays",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruan, Lian-Jie",
+        "Weng, Kang-Qiang",
+        "Zhang, Wei-Yu",
+        "Zhuang, Yao-Ning",
+        "Li, Jing",
+        "Lin, Li-Ming",
+        "Chen, Yu-Tong",
+        "Zeng, Yi-Ming"
+      ],
+      "short_names": [
+        "Ruan LJ",
+        "Weng KQ",
+        "Zhang WY",
+        "Zhuang YN",
+        "Li J",
+        "Lin LM",
+        "Chen YT",
+        "Zeng YM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pneumology, The Second Affiliated Hospital of Fujian Medical University, Quanzhou, Fujian, China.",
+        "Department of Respiratory and Critical Care Medicine, The Affiliated Hospital of Putian University, Putian, Fujian, China.",
+        "Department of Urology, The Affiliated Hospital of Putian University, Putian, China.",
+        "Center for Vascular Surgery and Interventional Oncology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China.",
+        "Department of Respiratory and Critical Care Medicine, The Affiliated Hospital of Putian University, Putian, Fujian, China.",
+        "Department of Respiratory and Critical Care Medicine, The Affiliated Hospital of Putian University, Putian, Fujian, China.",
+        "Department of Respiratory and Critical Care Medicine, The Affiliated Hospital of Putian University, Putian, Fujian, China.",
+        "Department of Oncology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China.",
+        "Department of Pneumology, The Second Affiliated Hospital of Fujian Medical University, Quanzhou, Fujian, China.",
+        "Fujian Key Laboratory of Lung Stem Cells, The Second Affiliated Hospital of Fujian Medical University, Quanzhou, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ruan, Lian-Jie",
+        "short_name": "Ruan LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pneumology, The Second Affiliated Hospital of Fujian Medical University, Quanzhou, Fujian, China.",
+          "Department of Respiratory and Critical Care Medicine, The Affiliated Hospital of Putian University, Putian, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Weng, Kang-Qiang",
+        "short_name": "Weng KQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Hospital of Putian University, Putian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei-Yu",
+        "short_name": "Zhang WY",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Vascular Surgery and Interventional Oncology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Yao-Ning",
+        "short_name": "Zhuang YN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Affiliated Hospital of Putian University, Putian, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Affiliated Hospital of Putian University, Putian, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Li-Ming",
+        "short_name": "Lin LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Affiliated Hospital of Putian University, Putian, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu-Tong",
+        "short_name": "Chen YT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yi-Ming",
+        "short_name": "Zeng YM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pneumology, The Second Affiliated Hospital of Fujian Medical University, Quanzhou, Fujian, China.",
+          "Fujian Key Laboratory of Lung Stem Cells, The Second Affiliated Hospital of Fujian Medical University, Quanzhou, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/15 06:29",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "42344797",
+      "41516393"
+    ],
+    "refs": [
+      "39990664",
+      "39963753",
+      "39513032",
+      "39488917",
+      "39470721",
+      "39429873",
+      "39144144",
+      "38656878",
+      "38442575",
+      "38245717",
+      "38239346",
+      "37916187",
+      "37796202",
+      "37443338",
+      "37416927",
+      "37258682",
+      "37159932",
+      "37086484",
+      "36810079",
+      "36549921",
+      "36321662",
+      "35820363",
+      "35331964",
+      "35178836",
+      "35116455",
+      "35071014",
+      "34809800",
+      "34418441",
+      "33731308",
+      "33538338",
+      "32348807",
+      "32329414",
+      "32008623",
+      "31840053",
+      "31718274",
+      "31677479",
+      "30329142",
+      "29764865",
+      "29395269",
+      "28753430",
+      "25184678",
+      "19075277",
+      "16341007"
+    ],
+    "similar": [
+      "41089696",
+      "39539551",
+      "39669580",
+      "40308576",
+      "39346927",
+      "40084259",
+      "39722009",
+      "41409294",
+      "41312363",
+      "41164190",
+      "41225436",
+      "31962007",
+      "41445727",
+      "39516442",
+      "40547013",
+      "40672941",
+      "40976828",
+      "41326474",
+      "34109546",
+      "33390818",
+      "35820363",
+      "39083932",
+      "40594106",
+      "34107009",
+      "40766320",
+      "39794414",
+      "32511815",
+      "41383634",
+      "31968395",
+      "40946875",
+      "30817091",
+      "33054540",
+      "39478862",
+      "41274397",
+      "40429829",
+      "38958523",
+      "40657391",
+      "32364673",
+      "41409290",
+      "40760442",
+      "40552290",
+      "38685772",
+      "39344317",
+      "40181976",
+      "31488089",
+      "41102854",
+      "39267056",
+      "39928150",
+      "39747313",
+      "40330458",
+      "32275336",
+      "39735553",
+      "41246332",
+      "31789397",
+      "41083582",
+      "41502520",
+      "40260662",
+      "41169393",
+      "31428934",
+      "31707341",
+      "41099090",
+      "29566713",
+      "39972012",
+      "40764366",
+      "32108133",
+      "39780110",
+      "40510359",
+      "29843634",
+      "39823156",
+      "34774014",
+      "41341805",
+      "39434164",
+      "39391958",
+      "41164195",
+      "39643024",
+      "31131047",
+      "38935217",
+      "41394854",
+      "40799124",
+      "41409293",
+      "38943975",
+      "38127171",
+      "39366534",
+      "34029572",
+      "33188484",
+      "39218851",
+      "40787454",
+      "40383849",
+      "41450535",
+      "40170083",
+      "31419016",
+      "39814999",
+      "29025423",
+      "40313958",
+      "40389968",
+      "40405680",
+      "31126818",
+      "34326687",
+      "41425578",
+      "33664854"
+    ],
+    "review": [
+      "41089696"
+    ],
+    "pmc": [
+      "12515886"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41089696/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LGALS9-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3844",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1651270",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

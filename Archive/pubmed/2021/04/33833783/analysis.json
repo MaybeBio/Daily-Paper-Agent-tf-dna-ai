@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33833783",
+  "title": "iEnhancer-EBLSTM: Identifying Enhancers and Strengths by Ensembles of Bidirectional Long Short-Term Memory.",
+  "authors": "Niu, Kun; Luo, Ximei; Zhang, Shumei; Teng, Zhixia; Zhang, Tianjiao; Zhao, Yuming",
+  "journal": "Frontiers in genetics",
+  "published_date": "2021-04-10",
+  "window": {
+    "start": "2021-04-05",
+    "end": "2021-04-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用双向LSTM集成模型基于DNA序列识别增强子，虽涉及TF结合调控背景，但仅做序列分类、无三维互作建模或结合机制研究，方法可迁移但深度有限。",
+  "abstract": "Enhancers are regulatory DNA sequences that could be bound by specific proteins named transcription factors (TFs). The interactions between enhancers and TFs regulate specific genes by increasing the target gene expression. Therefore, enhancer identification and classification have been a critical issue in the enhancer field. Unfortunately, so far there has been a lack of suitable methods to identify enhancers. Previous research has mainly focused on the features of the enhancer's function and interactions, which ignores the sequence information. As we know, the recurrent neural network (RNN) and long short-term memory (LSTM) models are currently the most common methods for processing time series data. LSTM is more suitable than RNN to address the DNA sequence. In this paper, we take the advantages of LSTM to build a method named iEnhancer-EBLSTM to identify enhancers. iEnhancer-ensembles of bidirectional LSTM (EBLSTM) consists of two steps. In the first step, we extract subsequences by sliding a 3-mer window along the DNA sequence as features. Second, EBLSTM model is used to identify enhancers from the candidate input sequences. We use the dataset from the study of Quang H et al. as the benchmarks. The experimental results from the datasets demonstrate the efficiency of our proposed model.",
+  "abstract_zh": "增强子（enhancers）是可被特定蛋白质（称为转录因子，transcription factors, TFs）结合的调控DNA序列。增强子与转录因子之间的相互作用通过增加目标基因的表达来调控特定基因。因此，增强子的识别和分类一直是增强子领域中的关键问题。遗憾的是，迄今为止，仍缺乏合适的方法来识别增强子。以往的研究主要集中于增强子功能和相互作用的特征，而忽略了序列信息。众所周知，循环神经网络（recurrent neural network, RNN）和长短期记忆网络（long short-term memory, LSTM）模型是目前处理时间序列数据最常用的方法。LSTM比RNN更适合处理DNA序列。本文利用LSTM的优势，构建了一种名为iEnhancer-EBLSTM的方法来识别增强子。iEnhancer-集成双向LSTM（ensembles of bidirectional LSTM, EBLSTM）包括两个步骤。第一步，我们通过沿DNA序列滑动3-mer窗口提取子序列作为特征。第二步，使用EBLSTM模型从候选输入序列中识别增强子。我们使用Quang H等人的研究数据集作为基准。实验结果表明，我们提出的模型在数据集上具有高效性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33833783/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33833783/",
+  "paper_page_path": "papers/pubmed/33833783/index.html"
+}

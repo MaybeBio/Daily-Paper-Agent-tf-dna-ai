@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "34093998",
+    "doi": "10.1016/j.csbj.2021.05.013",
+    "title": "PredTAD: A machine learning framework that models 3D chromatin organization alterations leading to oncogene dysregulation in breast cancer cell lines."
+  },
+  "content": {
+    "abstract": "Topologically associating domains, or TADs, play important roles in genome organization and gene regulation; however, they are often altered in diseases. High-throughput chromatin conformation capturing assays, such as Hi-C, can capture domains of increased interactions, and TADs and boundaries can be identified using well-established analytical tools. However, generating Hi-C data is expensive. In our study, we addressed the relationship between multi-omics data and higher-order chromatin structures using a newly developed machine-learning model called PredTAD. Our tool uses already-available and cost-effective datatypes such as transcription factor and histone modification ChIPseq data. Specifically, PredTAD utilizes both epigenetic and genetic features as well as neighboring information to classify the entire human genome as boundary or non-boundary regions. Our tool can predict boundary changes between normal and breast cancer genomes. Among the most important features for predicting boundary alterations were CTCF, subunits of cohesin (RAD21 and SMC3), and chromosome number, suggesting their roles in conserved and dynamic boundaries formation. Upon further analysis, we observed that genes near altered TAD boundaries were found to be involved in several important breast cancer signaling pathways such as Ras, Jak-STAT, and estrogen signaling pathways. We also discovered a TAD boundary alteration that contributes to RET oncogene overexpression. PredTAD can also successfully predict TAD boundary changes in other conditions and diseases. In conclusion, our newly developed machine learning tool allowed for a more complete understanding of the dynamic 3D chromatin structures involved in signaling pathway activation, altered gene expression, and disease state in breast cancer cells.",
+    "keywords": [
+      "3D chromatin architecture",
+      "Breast cancer",
+      "Chromatin organization",
+      "Computational biology",
+      "Epigenetics",
+      "Estrogen signaling pathways",
+      "Machine learning",
+      "TAD boundaries",
+      "Topologically associated domains"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chyr, Jacqueline",
+        "Zhang, Zhigang",
+        "Chen, Xi",
+        "Zhou, Xiaobo"
+      ],
+      "short_names": [
+        "Chyr J",
+        "Zhang Z",
+        "Chen X",
+        "Zhou X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biomedical Informatics, University of Texas Health Science Center, Houston, TX 77054, USA.",
+        "School of Information Management and Statistics, Hubei University of Economics, Wuhan, Hubei 430205 China.",
+        "School of Biomedical Informatics, University of Texas Health Science Center, Houston, TX 77054, USA.",
+        "School of Biomedical Informatics, University of Texas Health Science Center, Houston, TX 77054, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chyr, Jacqueline",
+        "short_name": "Chyr J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Informatics, University of Texas Health Science Center, Houston, TX 77054, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhigang",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Management and Statistics, Hubei University of Economics, Wuhan, Hubei 430205 China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xi",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Informatics, University of Texas Health Science Center, Houston, TX 77054, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaobo",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Informatics, University of Texas Health Science Center, Houston, TX 77054, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/08 06:00",
+    "fetched_at": "2026-09-27 19:01:59"
+  },
+  "links": {
+    "cites": [
+      "42106409",
+      "39283464",
+      "38495565",
+      "35371307"
+    ],
+    "refs": [
+      "33897976",
+      "33885816",
+      "33453053",
+      "33193807",
+      "33144898",
+      "33096239",
+      "32998764",
+      "32941624",
+      "32939733",
+      "32852380",
+      "32827482",
+      "32645447",
+      "32427313",
+      "32348569",
+      "32346116",
+      "32226593",
+      "31949157",
+      "31881832",
+      "31832112",
+      "31783642",
+      "31776509",
+      "31442560",
+      "31226276",
+      "31200461",
+      "31097695",
+      "31086298",
+      "30944316",
+      "30837461",
+      "30767757",
+      "30621641",
+      "29273624",
+      "29077530",
+      "29018282",
+      "28977568",
+      "28957321",
+      "28867293",
+      "27993161",
+      "27863240",
+      "27602955",
+      "27259200",
+      "27053337",
+      "26704975",
+      "26415882",
+      "26359465",
+      "26353228",
+      "26276636",
+      "26272203",
+      "26235388",
+      "26178744",
+      "26013771",
+      "25799441",
+      "25497547",
+      "25470140",
+      "25017071",
+      "24596345",
+      "24409142",
+      "23868506",
+      "23193274",
+      "23000897",
+      "22955980",
+      "22941365",
+      "22652625",
+      "22495300",
+      "22479205",
+      "22388286",
+      "21816040",
+      "21251878",
+      "20979621",
+      "20627830",
+      "20531297",
+      "20442245",
+      "19890323",
+      "19815776",
+      "19366799",
+      "18798982",
+      "18638373",
+      "17542648",
+      "17273969",
+      "16926831",
+      "16917142",
+      "16098738",
+      "12734009",
+      "12677558",
+      "12538238",
+      "11847345",
+      "11420660",
+      "10592173",
+      "10429180",
+      "8504247"
+    ],
+    "similar": [
+      "34093998",
+      "36003143",
+      "36609218",
+      "41983545",
+      "41446082",
+      "33545030",
+      "29137603",
+      "33866359",
+      "35413815",
+      "32689928",
+      "39283464",
+      "33284803",
+      "31881832",
+      "38495565",
+      "41910071",
+      "27669308",
+      "35867573",
+      "28504305",
+      "34849199",
+      "40063813",
+      "41415375",
+      "42106409",
+      "40225268",
+      "34741515",
+      "35181793",
+      "28863138",
+      "28977568",
+      "30867673",
+      "27053337",
+      "34729306",
+      "35104223",
+      "27514584",
+      "34957106",
+      "40796890",
+      "35933090",
+      "37381036",
+      "28742097",
+      "34749781",
+      "39457417",
+      "29048467",
+      "38935071",
+      "39093600",
+      "34311045",
+      "41257569",
+      "39999165",
+      "40131313",
+      "27706140",
+      "39169755",
+      "35685367",
+      "28424341",
+      "40866611",
+      "42144428",
+      "38769659",
+      "41067888",
+      "41145704",
+      "34415530",
+      "40384625",
+      "38076897",
+      "41366351",
+      "30086749",
+      "38502563",
+      "37193952",
+      "35521558",
+      "29416042",
+      "35180428",
+      "29077530",
+      "37254161",
+      "40375066",
+      "41080543",
+      "31910870",
+      "32680543",
+      "42068378",
+      "40390127",
+      "29273625",
+      "40513402",
+      "28902867",
+      "40243368",
+      "27936932",
+      "41622199",
+      "32000688",
+      "28420341",
+      "38449288",
+      "29757144",
+      "30894186",
+      "31863747",
+      "36894325",
+      "40436628",
+      "41659666",
+      "33816958",
+      "31205001",
+      "32518417",
+      "32956836",
+      "25274727",
+      "28408976",
+      "40715029",
+      "37592325",
+      "36553584",
+      "39638559",
+      "31649247",
+      "31505466"
+    ],
+    "review": [
+      "34093998",
+      "39283464",
+      "41910071",
+      "27669308",
+      "34957106",
+      "39169755",
+      "35685367",
+      "28424341",
+      "29077530",
+      "40513402",
+      "27936932",
+      "31863747",
+      "32518417",
+      "28408976"
+    ],
+    "pmc": [
+      "8142020"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(21)00194-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34093998/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34093998",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1006",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

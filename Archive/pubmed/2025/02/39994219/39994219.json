@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "39994219",
+    "doi": "10.1038/s41598-025-89733-3",
+    "title": "Machine learning selection of basement membrane-associated genes and development of a predictive model for kidney fibrosis."
+  },
+  "content": {
+    "abstract": "This study investigates the role of basement membrane-related genes in kidney fibrosis, a significant factor in the progression of chronic kidney disease that can lead to end-stage renal failure. The authors aim to develop a predictive model using machine learning techniques due to the limitations of existing diagnostic methods, which often lack sensitivity and specificity. Utilizing gene expression data from the GEO database, the researchers applied LASSO, Random Forest, and SVM-RFE methods to identify five pivotal genes: ARID4B, EOMES, KCNJ3, LIF, and STAT1. These genes were analyzed across training and validation datasets, resulting in the development of a Nomogram prediction model. Performance metrics, including the area under the ROC curve (AUC), calibration curves, and decision curve analysis, indicated excellent predictive capabilities with an AUC of 0.923. Experimental validation through qRT-PCR in clinical samples and TGF-beta-treated HK-2 cells corroborated the expression patterns identified in silico, showing upregulation of ARID4B, EOMES, LIF, and STAT1, and downregulation of KCNJ3. The findings emphasize the importance of basement membrane-related genes in kidney fibrosis and pave the way for enhanced early diagnosis and targeted therapeutic strategies.",
+    "keywords": [
+      "Basement membrane",
+      "Gene enrichment analysis; Immune cells.",
+      "Predictive models",
+      "Renal fibrosis; machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Fibrosis/genetics",
+      "*Machine Learning",
+      "*Basement Membrane/metabolism/pathology",
+      "*Kidney/pathology/metabolism",
+      "STAT1 Transcription Factor/genetics",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Ziwei",
+        "Lv, Guangjia",
+        "Liu, Xinyan",
+        "Xiao, Yanyi",
+        "Tan, Yuanfang",
+        "Zhu, Youyou"
+      ],
+      "short_names": [
+        "Yuan Z",
+        "Lv G",
+        "Liu X",
+        "Xiao Y",
+        "Tan Y",
+        "Zhu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Laboratory Medicine, The Third People's Hospital of Ganzhou, 341000, Ganzhou, China.",
+        "College of Life Sciences, Northeast Forestry University, Harbin, 150004, China.",
+        "Zhanggong District Maternal and Child Health Hospital, Ganzhou, 341000, China. 41022187@qq.com.",
+        "Department of Thyroid and Breast Surgery, Wenzhou Central Hospital, Wenzhou, 325000, China. 15967411128@163.com.",
+        "Zhejiang Key Laboratory of Intelligent Cancer Biomarker Discovery and Translation, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325000, China. 15967411128@163.com.",
+        "Department of Laboratory Medicine, The Third People's Hospital of Ganzhou, 341000, Ganzhou, China. 2635043620@qq.com.",
+        "Department of pathology, Taizhou Hospital of Zhejiang Province Affiliated to Wenzhou Medical University, Linhai, 317000, China. zhyy@enzemed.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Ziwei",
+        "short_name": "Yuan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Third People's Hospital of Ganzhou, 341000, Ganzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Guangjia",
+        "short_name": "Lv G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Northeast Forestry University, Harbin, 150004, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinyan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhanggong District Maternal and Child Health Hospital, Ganzhou, 341000, China. 41022187@qq.com."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yanyi",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, Wenzhou Central Hospital, Wenzhou, 325000, China. 15967411128@163.com.",
+          "Zhejiang Key Laboratory of Intelligent Cancer Biomarker Discovery and Translation, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325000, China. 15967411128@163.com."
+        ]
+      },
+      {
+        "full_name": "Tan, Yuanfang",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Third People's Hospital of Ganzhou, 341000, Ganzhou, China. 2635043620@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Youyou",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of pathology, Taizhou Hospital of Zhejiang Province Affiliated to Wenzhou Medical University, Linhai, 317000, China. zhyy@enzemed.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Feb 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/25 00:22",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42669717",
+      "42319523",
+      "41993576",
+      "41683712",
+      "41670688",
+      "41491575",
+      "40894929",
+      "40806551"
+    ],
+    "refs": [
+      "38450715",
+      "38381715",
+      "37649385",
+      "37284446",
+      "37112302",
+      "36791184",
+      "36593250",
+      "35897082",
+      "35681218",
+      "34818550",
+      "34593032",
+      "33754054",
+      "33028621",
+      "32407108",
+      "31961339",
+      "31796750",
+      "31754388",
+      "31551414",
+      "31445584",
+      "31123959",
+      "30944168",
+      "30776024",
+      "30012629",
+      "29867149",
+      "29573705",
+      "26701983",
+      "25323535",
+      "25027966",
+      "24113868",
+      "23547098",
+      "22504953",
+      "22201679",
+      "21166540",
+      "18728284",
+      "18046411",
+      "17938287",
+      "17647026",
+      "15331581",
+      "14706621",
+      "14605368",
+      "9860808"
+    ],
+    "similar": [
+      "39994219",
+      "37481583",
+      "40230189",
+      "39697339",
+      "37266443",
+      "39507054",
+      "39396400",
+      "39735547",
+      "39957043",
+      "39754246",
+      "37783761",
+      "39850379",
+      "40165301",
+      "40086342",
+      "37105772",
+      "39544937",
+      "40119397",
+      "39616855",
+      "39155811",
+      "39624821",
+      "39583859",
+      "39351238",
+      "36545400",
+      "39370621",
+      "39142001",
+      "38381715",
+      "37666763",
+      "40312440",
+      "37866944",
+      "39891059",
+      "40273141",
+      "39328595",
+      "39497055",
+      "33454903",
+      "39395242",
+      "39697326",
+      "39139563",
+      "39173977",
+      "38813626",
+      "38315278",
+      "38028591",
+      "38965675",
+      "39650552",
+      "39618212",
+      "38690269",
+      "39512836",
+      "37334348",
+      "38711508",
+      "39462099",
+      "36532018",
+      "35497880",
+      "39799234",
+      "39952966",
+      "36120336",
+      "38348042",
+      "38951833",
+      "39632251",
+      "40069597",
+      "39295860",
+      "37454542",
+      "39475676",
+      "39753697",
+      "38439097",
+      "39509434",
+      "39622968",
+      "39256753",
+      "39231456",
+      "36465636",
+      "40304918",
+      "38029552",
+      "39695788",
+      "39375405",
+      "40181057",
+      "38860617",
+      "39953505",
+      "40255403",
+      "36627452",
+      "39263286",
+      "38144565",
+      "38822505",
+      "39552525",
+      "40093327",
+      "37733228",
+      "39427047",
+      "40328901",
+      "37264340",
+      "39394418",
+      "37732314",
+      "38664824",
+      "40313459",
+      "38212745",
+      "39776401",
+      "39991734",
+      "40097519",
+      "38851159",
+      "39311950",
+      "36470144",
+      "39609718",
+      "33354250",
+      "27452608"
+    ],
+    "review": [
+      "39994219"
+    ],
+    "pmc": [
+      "11850825"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-89733-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39994219/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure legends. Supplementary materials were referenced but not provided.
+- **Assessment boundary** This review evaluates the scientific claims, experimental design, data interpretation, and overall contribution of the manuscript as submitted. It does not assess editorial quality or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors report a rare, previously uncharacterized RB1 missense mutation (I680T) in non-small cell lung cancer (NSCLC). They claim that this mutation causes partial loss of RB1 tumor suppressor function, leading to enhanced tumor growth and increased sensitivity to chemotherapy, via weakened RB1-E2F1 interaction and derepression of E2F1 transcriptional activity. The mechanism is attributed to reduced conformational flexibility of the RB1 pocket B domain.
+- **Visible evidence base** The provided material includes the full text of the manuscript, including methods, results, and discussion sections, as well as figure legends for Figures 1-7. Supplementary figures and tables are referenced but not included.
+- **Missing materials affecting confidence** Supplementary figures (S1-S5), supplementary tables (S1-S4), and all primary data underlying the figures (e.g., raw Western blots, flow cytometry plots, microscopy images) were not provided. This limits the ability to fully assess data quality, statistical rigor, and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting and clinically relevant question: the functional significance of a rare RB1 mutation (I680T) in NSCLC. The authors present a logical progression from mutation identification to functional characterization in vitro and in vivo, and propose a mechanistic model involving disrupted RB1-E2F1 interaction. However, the study has several significant limitations. The clinical relevance is inferred from database analysis and cell line models, but no patient data are presented. The mechanistic conclusions rely heavily on computational simulations without sufficient experimental validation. The in vivo experiments lack key controls and detailed characterization. The statistical analysis is underreported. Overall, the claims are partially supported by the evidence, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those studying RB1 function, tumor suppressor mechanisms, and E2F signaling. Clinicians and translational researchers interested in biomarkers for chemotherapy response in NSCLC may also find the results relevant. The study could inform future work on rare mutations in canonical tumor suppressors and their dual roles in tumor progression and treatment response.
+- **Major strengths** 1. The identification and characterization of a rare, previously uncharacterized RB1 mutation (I680T) in NSCLC is novel and potentially significant. 2. The study combines in vitro, in vivo, and computational approaches to address the functional consequences of the mutation. 3. The finding that a single mutation can simultaneously promote tumor growth and enhance chemotherapy sensitivity is conceptually interesting and challenges the conventional view of RB1 loss-of-function. 4. The authors use appropriate cell line models with RB1 knockout and reconstitution, which is a rigorous approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clinical relevance
+  - **Claim pointer** The authors claim that RB1-I680T could serve as a predictive biomarker for chemotherapy response in NSCLC and that stratifying patients based on this mutation may enable personalized therapeutic strategies.
+  - **Evidence pointer** Results section, Figure 3A; Discussion section
+  - **Concern** The clinical relevance of RB1-I680T is inferred from database analysis (GDSC) and cell line models. No patient data, clinical samples, or survival analysis are presented to support the claim that this mutation is a predictive biomarker. The GDSC analysis shows a correlation between RB1 mutations and drug sensitivity in cell lines, but this does not directly validate I680T as a biomarker in patients.
+  - **Why it matters** The central translational claim of the manuscript is that RB1-I680T can guide treatment decisions in NSCLC. Without clinical validation, this claim is speculative and not supported by the evidence presented.
+  - **Resolution test** The authors should either provide clinical data (e.g., patient outcomes, treatment response) or temper the biomarker claim to reflect that it is a hypothesis requiring clinical validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The authors claim that the I680T mutation disrupts RB1-E2F1 interaction by reducing conformational flexibility of the pocket B domain, and that this is the mechanism underlying the observed phenotypes.
+  - **Evidence pointer** Results section, Figure 6; Methods section
+  - **Concern** The mechanistic conclusion is primarily based on molecular dynamics simulations. While the simulations suggest a structural basis for weakened binding, there is no experimental validation of the proposed conformational changes. The hydrogen bond analysis between L676 and T680 is descriptive but not functionally tested. No mutagenesis experiments (e.g., introducing other mutations at position 680 or in the pocket B domain) are performed to confirm the structural model.
+  - **Why it matters** The proposed mechanism is a key novelty of the study. Without experimental validation, the structural model remains speculative and does not fully support the claim that conformational flexibility is the causal factor.
+  - **Resolution test** The authors should perform mutagenesis experiments (e.g., I680A, I680L) to test whether the phenotype is specific to the threonine substitution. Alternatively, they could use techniques such as hydrogen-deuterium exchange or NMR to experimentally probe conformational changes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo experimental rigor
+  - **Claim pointer** The authors claim that RB1-I680T causes faster tumor growth and potentiates chemotherapy-induced tumor regression in vivo.
+  - **Evidence pointer** Results section, Figure 4
+  - **Concern** The in vivo experiments lack critical controls. The xenograft model compares RB1-KM-WT and RB1-KM-I680T cells, but no RB1-KM (knockout only) group is included. This makes it difficult to assess whether the I680T mutation has a gain-of-function effect or simply fails to fully rescue the RB1-knockout phenotype. Additionally, the drug treatment groups lack vehicle controls for each cell line, and the statistical analysis of tumor growth curves is not fully described.
+  - **Why it matters** Without appropriate controls, the in vivo conclusions are not robust. The claim that I680T "potentiates" chemotherapy sensitivity requires comparison to both RB1-WT and RB1-KM under the same treatment conditions.
+  - **Resolution test** The authors should include RB1-KM cells as a control in the xenograft experiments and provide vehicle-treated groups for all cell lines. Statistical methods for tumor growth curves should be clearly described.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim significant differences in cell proliferation, colony formation, and apoptosis between RB1-KM-WT and RB1-KM-I680T cells.
+  - **Evidence pointer** Results section, Figures 2, 3, 5; Methods section
+  - **Concern** The statistical methods are described only briefly in the Methods section. For many experiments, it is unclear how many independent replicates were performed, whether technical or biological replicates were used, and what specific statistical tests were applied. The figure legends state "P-values as shown" but do not specify the test used for each comparison. Multiple comparisons are not addressed.
+  - **Why it matters** Rigorous statistical reporting is essential for the validity of the conclusions. Without clear statistical methods, the significance of the reported differences cannot be properly evaluated.
+  - **Resolution test** The authors should provide detailed statistical information for each experiment, including the number of replicates, the specific test used, and how multiple comparisons were handled.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Results section, Figure 1A
+  - **Issue** The mutation landscape figure is described as showing RB1 mutations across pan-cancer and lung cancer cohorts, but the specific source of the data (e.g., TCGA, COSMIC) and the number of samples are not clearly stated in the legend.
+  - **Required correction** Clarify the data source and sample size in the figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Methods, cell line generation
+  - **Evidence pointer** Methods section, "Establishment of A549 cell lines with RB1 knockout"
+  - **Issue** The methods state that two independent RB1-KO clones were pooled to generate RB1-KM, but the rationale for pooling and the validation of the pooled population are not fully described.
+  - **Required correction** Provide additional details on the pooling strategy and validation of the mixed cell line.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions that I680T may affect other signaling pathways (e.g., FOXM1, KDM5A) but does not provide any experimental data or a clear framework for how these pathways might be involved.
+  - **Required correction** Either provide preliminary data on these pathways or clearly state that these are speculative directions for future research.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 6J
+  - **Evidence pointer** Results section, Figure 6J
+  - **Issue** The structural snapshots are described but the figure legend does not specify the time points or the criteria for selecting the shown frames.
+  - **Required correction** Add time points and selection criteria to the figure legend.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of clinical validation for the biomarker claim (R1-M1). 2. Insufficient experimental validation of the proposed structural mechanism (R1-M2). 3. Missing in vivo controls (R1-M3). 4. Incomplete statistical reporting (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The study identifies a novel RB1 mutation and proposes a dual role in tumor growth and chemosensitivity, which is conceptually interesting. However, the concept of RB1 loss-of-function leading to chemosensitivity is not entirely new, and the novelty is somewhat incremental. Scientific importance: The findings could have implications for understanding RB1 mutations in NSCLC and for treatment stratification, but the lack of clinical data limits the immediate impact. Interdisciplinary readership: The topic is primarily of interest to cancer biologists and translational researchers; the computational component may attract structural biologists, but the overall scope is relatively narrow. Technical soundness: The experimental design is generally logical, but the lack of key controls and incomplete statistical reporting undermine the robustness of the conclusions. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the methods and results sections assume familiarity with cancer biology and molecular techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question and presents a plausible mechanism, but the current evidence does not fully support the clinical claims. The authors should address the major concerns, particularly the lack of clinical validation, the missing in vivo controls, and the need for experimental validation of the structural model.
+
+## Risk / unsupported claims
+- The claim that RB1-I680T is a predictive biomarker for chemotherapy response in NSCLC is unsupported by clinical data.
+- The claim that reduced conformational flexibility of the pocket B domain is the causal mechanism is not experimentally validated.
+- The claim that RB1-I680T "potentiates" chemotherapy sensitivity in vivo is weakened by the absence of RB1-KM control in xenograft experiments.
+- The statistical significance of several reported differences cannot be fully assessed due to incomplete reporting of statistical methods.

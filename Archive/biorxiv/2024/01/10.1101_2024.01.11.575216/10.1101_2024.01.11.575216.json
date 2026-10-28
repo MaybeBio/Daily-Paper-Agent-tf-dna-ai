@@ -1,0 +1,841 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.11.575216",
+  "title": "A dual DNA/RNA-binding factor regulates co-transcriptional splicing through target RNA interaction and modulates splicing factor dynamics",
+  "doi": "10.1101/2024.01.11.575216",
+  "abstract": "How RNA splicing events are targeted to the correct genomic locations in specific cellular contexts to generate context-specific transcript diversity and prevent deleterious cryptic splicing remains very poorly understood. We show that a functionally conserved GA-rich DNA-binding transcription factor (TF), CLAMP, targets distinct RNA molecules in male and female cells to precisely regulate sex-specific splicing events through physical and functional interactions with RNA and RNA-binding proteins (RBPs). The prion-like domain of CLAMP (PrLD) and a stem-loop region in the target RNA are important for CLAMP-RNA interaction. Moreover, the CLAMP PrLD domain regulates sex-specific splicing by modulating the dynamics of an hnRNPA2/B1 family protein that regulates alternative splicing. Thus, we demonstrate that a TF targets co-transcriptional splicing to the correct genomic locations by directly linking DNA binding sites to RNA targets and modulating the dynamics of RBP partners that drive alternative splicing.",
+  "authors": [
+    "Mukulika Ray",
+    "Julia Zaborowsky",
+    "Pranav Mahableshwarkar",
+    "Smriti Vaidyanathan",
+    "Jasmine Shum",
+    "Annie Huang",
+    "Renjith Viswanathan",
+    "Isabelle Pilo",
+    "Victoria Chen",
+    "Kaitlyn Cortez",
+    "Ashley M. Conard",
+    "Szu-Huan Wang",
+    "Victoria Johnson",
+    "Noah Wake",
+    "Alexander E. Conicella",
+    "Ryan Puterbaugh",
+    "Nicolas L. Fawzi",
+    "Erica Larschan"
+  ],
+  "published_date": "2024-01-12",
+  "updated_date": "2024-01-12T12:55:28Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.11.575216",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.11.575216.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T23:51:37Z",
+        "timestamp": 1787010697768,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            12
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 63,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                12
+              ]
+            ],
+            "date-time": "2024-01-12T00:00:00Z",
+            "timestamp": 1705017600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "name": "NIH",
+          "award": [
+            "R35GM126994"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM126994"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "R01GM147677"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM147677"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NSF",
+          "award": [
+            "1845734"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1845734"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>How RNA splicing events are targeted to the correct genomic locations in specific cellular contexts to generate context-specific transcript diversity and prevent deleterious cryptic splicing remains very poorly understood. We show that a functionally conserved GA-rich DNA-binding transcription factor (TF), CLAMP, targets distinct RNA molecules in male and female cells to precisely regulate sex-specific splicing events through physical and functional interactions with RNA and RNA-binding proteins (RBPs). The prion-like domain of CLAMP (PrLD) and a stem-loop region in the target RNA are important for CLAMP-RNA interaction. Moreover, the CLAMP PrLD domain regulates sex-specific splicing by modulating the dynamics of an hnRNPA2/B1 family protein that regulates alternative splicing. Thus, we demonstrate that a TF targets co-transcriptional splicing to the correct genomic locations by directly linking DNA binding sites to RNA targets and modulating the dynamics of RBP partners that drive alternative splicing.</jats:p>",
+      "DOI": "10.1101/2024.01.11.575216",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            12
+          ]
+        ],
+        "date-time": "2024-01-12T12:55:28Z",
+        "timestamp": 1705064128000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "A dual DNA/RNA-binding factor regulates co-transcriptional splicing through target RNA interaction and modulates splicing factor dynamics"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Mukulika",
+          "family": "Ray",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julia",
+          "family": "Zaborowsky",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pranav",
+          "family": "Mahableshwarkar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Smriti",
+          "family": "Vaidyanathan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jasmine",
+          "family": "Shum",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Annie",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Renjith",
+          "family": "Viswanathan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isabelle",
+          "family": "Pilo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MCB Department, Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Victoria",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kaitlyn",
+          "family": "Cortez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MCB Department, Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ashley M.",
+          "family": "Conard",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Szu-Huan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Victoria",
+          "family": "Johnson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Noah",
+          "family": "Wake",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander E.",
+          "family": "Conicella",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ryan",
+          "family": "Puterbaugh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5483-0577",
+          "authenticated-orcid": false,
+          "given": "Nicolas L.",
+          "family": "Fawzi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Erica",
+          "family": "Larschan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.1",
+          "first-page": "219",
+          "article-title": "Cryptic splicing: common pathological mechanisms involved in male infertility and neuronal diseases",
+          "volume": "21",
+          "year": "2021",
+          "journal-title": "Cell Cycle"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1752",
+          "DOI": "10.1002/wrna.1752",
+          "article-title": "Integrating transcription and splicing into cell fate: transcription factors on the block",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Wiley Interdiscip. Rev. RNA"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.01.011"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab305"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz121"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2023.06.012"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2016.09.034"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkf512"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-28341-5"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0189772"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1006120"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2018.02.098"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.214585.113"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1238"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.87865"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.146407.112"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.06.033"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pomeranz-Krummel, D. , and Nagai, K. (2001). RNA-Binding Domains in Proteins. In Encyclopedia of Genetics, S. Brenner and J. H. Miller , eds. (Academic Press), pp. 1733–1735.",
+          "DOI": "10.1006/rwgn.2001.1130"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.brainres.2016.02.037"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BCJ20160499"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa681"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2020.10.009"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "544",
+          "DOI": "10.1080/15548627.2022.2083857",
+          "article-title": "A prion-like domain of TFEB mediates the co-aggregation of TFEB and mHTT",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Autophagy"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.06.011"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "9039",
+          "DOI": "10.1093/nar/gkad680",
+          "article-title": "Physical interaction between MSL2 and CLAMP assures direct cooperativity and prevents competition at composite binding sites",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.304600.117"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/rna.2.4.2473"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.69937"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0812826106"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddv627"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11922"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2009.01.022"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.01415-08"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00412-015-0506-0"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/19491034.2023.2205758"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201504117"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-024-00739-7"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1464-0"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41418-021-00763-6"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1261/rna.079026.121"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/brain/awy062"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.11.054"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shin, Y. , and Brangwynne, C.P. (2017). Liquid phase condensation in cell physiology and disease. Science 357, eaaf4382.",
+          "DOI": "10.1126/science.aaf4382"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-021-88802-7"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.12.022"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2016.09.050"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.272187.115"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.10.014"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gratz, S.J. , Rubinstein, C.D. , Harrison, M.M. , Wildonger, J. , and O’Connor-Giles, K.M. (2015). CRISPR-Cas9 genome editing in Drosophila. Curr. Protoc. Mol. Biol. 111, 31.2.1–31.2.20.",
+          "DOI": "10.1002/0471142727.mb3102s111"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2018.015"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx671"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2013.10.011"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/giaa108"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00197809"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-016-0060-y"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.56",
+          "unstructured": "Andrews, S. (2010). FastQC: a quality control tool for high throughput sequence data http://www.bioinformatics.babraham.ac.uk/projects/fastqc. Babraham Bioinformatics."
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1923"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0201-4"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp324"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2008-9-9-r137"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx120"
+        },
+        {
+          "key": "2026030406100622000_2024.01.11.575216v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7717/peerj.453"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.11.575216",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            4
+          ]
+        ],
+        "date-time": "2026-03-04T14:10:16Z",
+        "timestamp": 1772633416000
+      },
+      "score": 113.18764,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.01.11.575216"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            12
+          ]
+        ]
+      },
+      "references-count": 63,
+      "URL": "https://doi.org/10.1101/2024.01.11.575216",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

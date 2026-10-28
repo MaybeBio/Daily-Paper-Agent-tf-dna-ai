@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that 1 mM curcumin completely inhibits germination of the invasive weed *Cenchrus longispinus* by binding to and suppressing histone acetyltransferase ClHAC703, which normally interacts with transcription factor ClWRKY29 to downregulate the dormancy gene ClABF1. Curcumin treatment upregulates ClABF1 expression, and structural modeling predicts ClHAC703 catalyzes acetylation of histone H3 at lysine 18. The study is framed as a potential control strategy against this invasive species.
+- **Visible evidence base** Abstract text only; no experimental data, statistical analyses, structural coordinates, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical details, structural modeling parameters, docking scores, binding affinity data, gene expression quantification, germination assay conditions, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel approach to invasive weed management through a natural compound targeting an epigenetic regulator. However, the claims are extensive and mechanistic, while the visible evidence is limited to a summary. Several logical gaps exist between the proposed molecular pathway and the observed germination phenotype. The work could be of interest to plant science and weed management communities, but the current abstract does not provide sufficient evidence to establish the causal chain from curcumin binding to ClHAC703, through ClWRKY29 and ClABF1, to complete germination inhibition. The specificity of the proposed mechanism and the ecological relevance of the findings require substantial additional support.
+- **Who would be interested in the results, and why** Researchers in invasive plant biology, weed science, and plant epigenetics would find this work relevant. The use of a natural compound to target a specific epigenetic regulator in an invasive weed offers a potentially translatable strategy for integrated pest management. Those studying histone acetyltransferase functions in seed dormancy and germination would also be interested in the proposed ClHAC703-ClWRKY29-ClABF1 regulatory module.
+- **Major strengths** The study addresses a practical ecological problem with a clear applied goal. The proposed mechanism is specific and testable, involving a defined molecular interaction between a natural compound and a target enzyme. The connection between epigenetic regulation and seed dormancy genes is a timely and important area. The abstract clearly states the dose and the phenotypic outcome, which allows for direct replication attempts.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The abstract claims that curcumin directly binds to ClHAC703 and suppresses histone acetyltransferase activity, and that this suppression leads to germination inhibition.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that curcumin "directly binds" to ClHAC703 and suppresses its activity, but no binding affinity data, kinetic measurements, or direct enzymatic assays are described. The phrase "potentially through competitive substrate binding" indicates uncertainty in the mechanism, yet the causal chain is presented as established. No evidence is shown that ClHAC703 inhibition is necessary or sufficient for the germination phenotype.
+  - **Why it matters** Without direct evidence of binding and enzymatic inhibition, the proposed molecular mechanism remains speculative. The claim that curcumin acts specifically through ClHAC703 requires demonstration that other histone acetyltransferases or off-target effects are not responsible for the observed germination inhibition.
+  - **Resolution test** Provide binding assay data such as surface plasmon resonance, isothermal titration calorimetry, or pull-down experiments with purified proteins. Include enzymatic activity assays with and without curcumin, and genetic or pharmacological controls showing that ClHAC703 loss-of-function phenocopies curcumin treatment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic coherence
+  - **Claim pointer** The abstract claims that ClHAC703 interacts with ClWRKY29, which downregulates ClABF1 expression, and that curcumin treatment upregulates ClABF1.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The proposed pathway has a logical inconsistency. If ClHAC703 is a histone acetyltransferase that promotes gene expression through acetylation, and it interacts with ClWRKY29 to downregulate ClABF1, then suppressing ClHAC703 should reduce ClWRKY29-mediated repression, leading to ClABF1 upregulation. This is consistent with the observed curcumin effect. However, the abstract does not explain how ClHAC703 activity relates to ClWRKY29 function. Does ClHAC703 acetylate histones at the ClABF1 promoter, or does it modify ClWRKY29 itself? The direction of regulation and the molecular basis for the interaction are unclear.
+  - **Why it matters** The proposed regulatory module is central to the mechanistic claim. If the relationship between ClHAC703 and ClWRKY29 is not clarified, the pathway cannot be evaluated for plausibility. The abstract also does not state whether ClABF1 upregulation is sufficient to explain germination inhibition or whether other downstream targets are involved.
+  - **Resolution test** Provide chromatin immunoprecipitation data showing histone acetylation status at the ClABF1 promoter under control and curcumin conditions. Clarify whether ClWRKY29 is a direct substrate of ClHAC703 or whether the interaction is indirect. Include expression data for ClABF1 in loss-of-function and overexpression contexts for both ClHAC703 and ClWRKY29.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and ecological relevance
+  - **Claim pointer** The abstract claims that 1 mM curcumin completely inhibits germination of *C. longispinus* seeds and that this offers a control strategy for the invasive weed.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not report whether curcumin affects germination of native or non-target plant species. The proposed control strategy relies on species specificity, but no selectivity data are presented. Additionally, 1 mM curcumin is a high concentration, and the abstract does not address practical application methods, soil persistence, or potential phytotoxicity to surrounding vegetation.
+  - **Why it matters** For an applied control strategy, selectivity is essential. If curcumin inhibits germination broadly, its use in natural or agricultural settings could cause unintended ecological damage. The feasibility of delivering 1 mM curcumin to infested soils at a scale that is both effective and economically viable is not addressed.
+  - **Resolution test** Include germination assays on multiple native and crop species treated with the same curcumin concentration. Provide data on curcumin stability and bioavailability in soil conditions. Discuss or test application methods that would achieve effective concentrations in field settings.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title states "A novel control strategy" but the abstract does not provide field or semi-field validation. The novelty claim is also not contextualized against existing germination inhibitors or epigenetic modulators used in weed management.
+  - **Required correction** Revise the title to reflect the laboratory-based nature of the findings, or add field data to support the "control strategy" framing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity of prediction
+  - **Affected element** Histone modification site prediction
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that ClHAC703 "may specifically catalyze the acetylation of histone H3 at lysine 18" based on structural modeling and molecular docking. This is presented as a prediction, but the abstract does not indicate whether this prediction was experimentally validated.
+  - **Required correction** Clarify whether the H3K18 acetylation was confirmed experimentally, or explicitly state that this remains a computational prediction without experimental confirmation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Dose justification
+  - **Affected element** Curcumin concentration
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract reports that 1 mM curcumin completely inhibits germination but does not provide a dose-response curve or justify why this concentration was selected.
+  - **Required correction** Include dose-response data or state the range of concentrations tested and the rationale for selecting 1 mM.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The causal link between curcumin binding to ClHAC703 and germination inhibition is not established. The regulatory relationship between ClHAC703, ClWRKY29, and ClABF1 is mechanistically underspecified. The species selectivity and practical feasibility of the proposed control strategy are not demonstrated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The use of curcumin as a germination inhibitor targeting a specific histone acetyltransferase in an invasive weed is a novel angle. However, the abstract does not compare this approach to existing epigenetic inhibitors or germination suppressants, so the degree of conceptual novelty is unclear.
+  - Scientific importance: The work addresses a real ecological problem and proposes a molecular mechanism with potential applications. The importance is moderate, but the abstract does not demonstrate that this mechanism is broadly relevant beyond the single species studied.
+  - Interdisciplinary readership: The topic bridges plant epigenetics, invasion biology, and weed management, which could attract readers from multiple fields. However, the abstract is written in a way that assumes familiarity with both epigenetic terminology and weed science, which may limit accessibility.
+  - Technical soundness: The abstract does not provide sufficient methodological detail to assess technical soundness. The lack of binding data, enzymatic assays, and genetic validation is a significant limitation.
+  - Readability for nonspecialists: The abstract is dense and uses specialized terms without explanation. The logical flow from curcumin treatment to germination inhibition through the proposed pathway is not immediately clear to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible pathway, but the causal chain is not supported by the visible evidence. The authors should provide direct biochemical evidence for curcumin binding and ClHAC703 inhibition, genetic or pharmacological validation of the pathway, and selectivity data to support the applied claims. If these are present in the full manuscript, the work could be considered supportive.
+
+## Risk / unsupported claims
+- The claim that curcumin "directly binds" to ClHAC703 is unsupported without binding assay data.
+- The claim that curcumin suppresses histone acetyltransferase activity is unsupported without enzymatic activity measurements.
+- The claim that ClHAC703 interacts with ClWRKY29 is unsupported without protein-protein interaction data.
+- The claim that ClWRKY29 downregulates ClABF1 expression is unsupported without expression or reporter assays.
+- The claim that curcumin upregulates ClABF1 expression is unsupported without quantitative gene expression data.
+- The claim that ClHAC703 catalyzes H3K18 acetylation is a prediction and is not experimentally validated.
+- The claim that 1 mM curcumin completely inhibits germination is unsupported without germination assay details, replication data, and statistical analysis.
+- The claim that this approach offers a control strategy for *C. longispinus* is unsupported without selectivity, field, or application feasibility data.

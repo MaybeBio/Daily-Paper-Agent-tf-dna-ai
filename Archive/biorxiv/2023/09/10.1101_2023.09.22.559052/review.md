@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends (legends referenced but not provided in full).
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the structural and functional claims presented, based solely on the supplied text. No external data, validation, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors report a 3.0 Å free-electron laser (FEL) structure of a matched ATP-bound RNA Polymerase II (Pol II) elongation complex, revealing a closed trigger loop (TL), two canonical Mg²⁺ ions (sites A and B), and a putative third Mg²⁺ (site C). Molecular dynamics (MD) simulations support site C stability. A second FEL structure of the hyperactive Rpb1 T834P bridge helix (BH) mutant at 3.1 Å shows altered active site interactions, including disrupted TL-BH contacts, repositioned metal ions, and long-range conformational changes, proposed to underlie increased elongation rate and reduced fidelity.
+- **Visible evidence base** Abstract; Introduction; Results sections titled "The radiation-damage free FEL structure of Pol II reveals the presence of three metals in the nucleotide binding pocket," "TL interactions in the active site," and "Bridge helix residues lock the TL in the closed conformation while TL residues position substrate in a catalytic conformation"; Discussion; Methods sections on protein expression, crystallization, structure refinement, in vitro transcription, and MD simulations. References to Figures 1-5, Supplementary Figures 1-4, and Table 1 are made but not all details are visible.
+- **Missing materials affecting confidence** Full figure panels and legends, supplementary figure legends (only partially referenced), Table 1 (crystallographic statistics), PDB accession codes, electron density map quality metrics (e.g., map-to-model correlation, B-factor distributions), and detailed MD analysis outputs (e.g., convergence criteria, error bars) are not provided. The in vitro transcription data for misincorporation is described but results are not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and potentially significant structural study of Pol II in a substrate-bound, closed TL state, using XFEL methods to mitigate radiation damage. The observation of a putative third Mg²⁺ in the Pol II active site is novel and could have mechanistic implications. However, the strength of the claims is limited by the absence of key validation data, particularly regarding metal ion assignment, the functional relevance of site C, and the interpretation of the T834P mutant effects. The manuscript is well-written and the structural findings are of interest to the transcription field, but the current evidence does not fully establish the mechanistic conclusions.
+- **Who would be interested in the results, and why** Structural biologists studying multisubunit RNA polymerases and nucleic acid enzymes; biochemists and geneticists interested in transcription mechanisms, fidelity, and elongation; researchers using XFEL and serial crystallography methods. The putative third metal ion and the TL-BH coupling are broadly relevant to understanding polymerase catalysis and translocation.
+- **Major strengths** 1. Use of XFEL to obtain radiation-damage-free structures, addressing a known limitation in metalloenzyme crystallography. 2. First observation of a closed TL with matched ATP in Pol II at 3.0 Å, providing a high-resolution view of the active site. 3. Identification of a putative third Mg²⁺, which challenges the canonical two-metal-ion mechanism and may stimulate new experiments. 4. Integration of MD simulations to support structural observations and probe dynamics. 5. Comparative analysis of a hyperactive BH mutant provides a structural rationale for altered activity and fidelity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of metal ion assignment
+  - **Claim pointer** "Bonafide occupancy of both site A and B Mg²⁺, and a putative third (site C) Mg²⁺ analogous to that described for some DNA polymerases but not observed previously for cellular RNA polymerases."
+  - **Evidence pointer** Results section "The radiation-damage free FEL structure of Pol II reveals the presence of three metals in the nucleotide binding pocket"; Figure 1B and 1C; Table 1 (not visible)
+  - **Concern** The assignment of the third density to Mg²⁺ is based on refinement of a water molecule yielding low B-factors (18 Å²) versus Mg²⁺ (68 Å²), which is counterintuitive and not a standard validation. No anomalous scattering data, metal ion exclusion experiments, or coordination geometry analysis (e.g., octahedral coordination, bond lengths) are presented. At 3.0 Å resolution, distinguishing Mg²⁺ from Na⁺, K⁺, or water is challenging without additional evidence. The claim of a "putative" third metal is appropriately hedged, but the evidence is insufficient to support its functional relevance.
+  - **Why it matters** The central novelty of the paper rests on the presence and role of site C. If the assignment is incorrect, the mechanistic conclusions about three-metal-ion catalysis are unsupported. The field requires robust validation for new metal binding sites, especially at moderate resolution.
+  - **Resolution test** Provide anomalous difference maps (e.g., using Mn²⁺ or other anomalous scatterers), refine with alternative ions and compare B-factors and R-factors, show coordination geometry with bond lengths and angles, and include omit maps. If possible, perform X-ray absorption spectroscopy or other direct metal identification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claims from mutant analysis
+  - **Claim pointer** "A FEL structure and MD simulations of the hyperactive Rpb1 T834P bridge helix mutant reveals rearrangement of some active site interactions supporting potential plasticity in active site function and long-distance effects on both the width of the central channel and TL conformation, likely underlying its increased elongation rate at the expense of fidelity."
+  - **Evidence pointer** Results section "Structural Basis for enhanced activity of the bridge helix mutant T834P"; Figure 5A-E; Supplementary Figure 4B-F
+  - **Concern** The structural differences between WT and T834P are described as subtle (RMSD 0.47 Å for BH residues 820-844), yet the authors attribute significant functional consequences to these changes. The claim that the mutant "likely" underlies increased elongation rate and reduced fidelity is speculative without direct correlation between the observed structural changes and functional data. The in vitro transcription misincorporation assay is mentioned but no results are shown. The MD simulations are used to infer increased TL flexibility, but the statistical significance and convergence of these simulations are not reported.
+  - **Why it matters** The manuscript aims to explain the mechanistic basis of a hyperactive mutant. Without quantitative functional data linked to the structural observations, the causal relationship is not established. Overinterpretation of small structural changes can mislead the field.
+  - **Resolution test** Include the in vitro transcription data (e.g., misincorporation rates, elongation velocities) for WT and T834P. Quantify MD simulation uncertainties (e.g., standard errors across replicates, convergence metrics). Show that the observed structural changes are statistically significant and correlate with functional differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the closed TL state
+  - **Claim pointer** "Our studies show clear density confirming the occupancy of two catalytic Mg²⁺ ions, and evidence for a third putative catalytic Mg²⁺ within the Pol II's active site. We also observed structural details of the TL at the highest resolution yet achieved."
+  - **Evidence pointer** Results section "TL interactions in the active site"; Figure 2A-G; Comparison with PDB 2E2H and 2O5J
+  - **Concern** The authors claim this is the first reproduction of a closed TL in Pol II since 2006, but the manuscript does not discuss why previous attempts failed or whether the closed state is physiologically relevant or an artifact of the specific crystallization conditions (e.g., high salt, 3'-deoxy termination). The comparison with the Tth structure suggests differences in compaction, but the implications for the catalytic cycle are not fully explored.
+  - **Why it matters** The closed TL state is central to the proposed mechanism. If it is not representative of the solution state or is influenced by crystallization artifacts, the conclusions about substrate binding and metal coordination may not be generalizable.
+  - **Resolution test** Discuss the physiological relevance of the closed state in the context of existing biochemical data. Consider performing solution-based experiments (e.g., FRET, NMR, or cryo-EM) to validate the closed TL conformation. Address potential artifacts from the 3'-deoxy termination or high-salt conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Crystallization and cryoprotection
+  - **Evidence pointer** Methods section "Crystallization"
+  - **Issue** The cryoprotection protocol is described as increasing tacsimate in three steps over three days, but the final concentration and the rationale for this slow approach are not detailed. The use of 60% tacsimate as a cryoprotectant is unusual and may affect the structure.
+  - **Required correction** Provide the final tacsimate concentration, the exact cryoprotectant composition, and any evidence that the cryoprotection does not alter the crystal structure or metal binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Supplementary figures
+  - **Evidence pointer** Supplementary Figure Legends section
+  - **Issue** The supplementary figure legends are referenced but not fully provided in the manuscript text. This limits the reader's ability to assess the quality of the data, particularly for the MD simulations and the in vitro transcription assays.
+  - **Required correction** Include the full supplementary figure legends in the manuscript or ensure they are accessible in the supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** MD simulations
+  - **Evidence pointer** Methods section "MD Simulations"
+  - **Issue** The MD simulation methods describe 5 replicates of 100 ns each, but no error bars or statistical measures are reported in the results. The claim of "stable" Mg²⁺ at site C would benefit from quantitative analysis of ion occupancy over time.
+  - **Required correction** Report the average and standard deviation of Mg²⁺ occupancy or coordination distances across replicates, and provide convergence metrics for the simulations.
+- **Technical failings that need to be addressed before the case is established** 1. Metal ion assignment for site C requires additional validation (anomalous scattering, coordination analysis). 2. Functional data for T834P (in vitro transcription) must be shown and quantitatively linked to structural changes. 3. MD simulation statistics and convergence must be reported to support claims of stability and flexibility. 4. The physiological relevance of the closed TL state and the 3'-deoxy termination should be discussed.
+- **Assessment against Nature-style criteria** Originality: High. The putative third Mg²⁺ and the closed TL structure at 3.0 Å are novel contributions. Scientific importance: Potentially high, as it could revise the two-metal-ion mechanism for Pol II and related polymerases. Interdisciplinary readership: Moderate. The work will appeal to structural biologists, biochemists, and transcription researchers, but the technical focus on XFEL methods may limit broader appeal. Technical soundness: Currently insufficient. The metal assignment and mutant interpretation lack robust validation. Readability for nonspecialists: Good. The manuscript is clearly written, with appropriate context for the general reader, though some structural details may be dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core structural findings are potentially significant, but the current evidence does not fully establish the presence and functional role of the third Mg²⁺ or the mechanistic basis of T834P hyperactivity. Additional validation and functional correlation are required.
+
+## Risk / unsupported claims
+- The presence of a third Mg²⁺ (site C) is not fully supported by the presented evidence; the B-factor comparison is insufficient for ion identification.
+- The claim that T834P "likely" underlies increased elongation rate and reduced fidelity is speculative without shown functional data.
+- The statement that the closed TL state is "the highest resolution to date" is not verifiable without comparison to existing structures in the literature.
+- The MD simulation claim that site C is "stable" is not quantitatively supported.
+- The assertion that the T834P mutation causes long-range effects on the central channel width and TL conformation is based on subtle structural changes and requires statistical validation.

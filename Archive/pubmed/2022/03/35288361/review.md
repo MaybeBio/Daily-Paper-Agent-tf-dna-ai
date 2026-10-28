@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational workflow combining structure-based and ligand-based virtual screening, molecular dynamics simulations, MM/PBSA calculations, residue decomposition binding energy analysis, and ADME predictions to identify 11 potential inhibitors of the TEAD2 S-palmitoylation pocket. Two compounds, ChEBML196567 and ZINC000013942794, are highlighted as most promising based on binding energy, hydrogen bond stability, druglikeness, and predicted human oral absorption. The authors also report identification of a new core structure and key hot spot residues.
+- **Visible evidence base** Abstract text only; no quantitative data, methodological details, or validation results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational parameters, docking scores, MD simulation details, MM/PBSA results, ADME output data, and supplementary materials
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible computational drug discovery pipeline targeting TEAD2 palmitoylation, a biologically relevant and therapeutically attractive target. However, the abstract provides insufficient quantitative evidence to evaluate the validity of the screening results, the robustness of the computational methods, or the biological significance of the proposed inhibitors. The claims of "strong binding energies" and "stable hydrogen bonds" are not supported by specific numbers or statistical measures. The novelty of the "new core structure" is asserted without comparison to known chemotypes. The study may be of interest to computational chemists and cancer biologists, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Computational medicinal chemists interested in virtual screening workflows and hit identification for challenging protein pockets; cancer biologists studying the Hippo signaling pathway and TEAD inhibitors as potential therapeutics; drug discovery researchers seeking new scaffolds for palmitoylation site targeting.
+- **Major strengths** The biological rationale is clearly articulated, linking TEAD palmitoylation to YAP/TAZ binding and cancer relevance. The choice of TEAD2 as a target is justified by the availability of crystal structures and known inhibitors. The combination of structure-based and ligand-based virtual screening is a reasonable strategy to improve hit rates. The inclusion of MD simulations and MM/PBSA calculations adds a dynamic perspective beyond static docking.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "11 potential TEAD2 S-palmitylation inhibitors" were discovered  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not provide any quantitative criteria for what constitutes a "potential inhibitor." No docking scores, binding energy values, MD stability metrics, or selection thresholds are reported. Without these, the claim of discovering 11 inhibitors cannot be assessed.  
+  - **Why it matters** The central conclusion of the study rests on the identification of these compounds. If the selection criteria are arbitrary or the scores are not significantly better than decoys, the entire screening result is questionable.  
+  - **Resolution test** Provide a table of all 11 compounds with their docking scores, MM/PBSA binding energies, and MD simulation stability measures, along with a comparison to known TEAD inhibitors or decoy molecules.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation  
+  - **Claim pointer** "ChEBML196567 and ZINC000013942794 are the most recommended"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The recommendation of these two compounds is based on "strong binding energies and stable hydrogen bonds" and "good drugbility and high human oral absorption," but no numerical values are given. The term "drugbility" is vague and not a standard metric. No comparison to known TEAD inhibitors or experimental validation is mentioned.  
+  - **Why it matters** Without quantitative benchmarks or experimental confirmation, the recommendation is unsupported. Computational predictions alone, especially without reference compounds, cannot establish therapeutic potential.  
+  - **Resolution test** Report the specific binding energies (e.g., MM/PBSA values in kcal/mol), hydrogen bond occupancy percentages, and ADME parameters (e.g., predicted oral absorption percentage) for these two compounds, and compare them to a known TEAD inhibitor as a positive control.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty  
+  - **Claim pointer** "a new core structure has been found in the selected small molecules"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The claim of a "new core structure" is made without defining what constitutes the core, how it was identified, or how it differs from existing TEAD inhibitor scaffolds. No chemical structure or comparison to known chemotypes is provided.  
+  - **Why it matters** Novelty is a key criterion for publication in a computational chemistry journal. If the core structure is not genuinely new or is a trivial modification of known scaffolds, the contribution is diminished.  
+  - **Resolution test** Provide the chemical structure of the new core, a definition of the scaffold, and a comparison to known TEAD inhibitor chemotypes from the literature or public databases.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological rigor  
+  - **Claim pointer** "hot spot residues Cys380, Ser345, Tyr426, Phe428, Ile408, and Met379" were confirmed  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The term "confirmed" implies experimental or strong computational evidence, but the abstract only mentions residue decomposition binding energy calculations. No energy values, statistical significance, or comparison to mutagenesis data are provided.  
+  - **Why it matters** Hot spot identification is only useful if it is robust and validated. Without quantitative support, these residues may be artifacts of the specific simulation conditions.  
+  - **Resolution test** Report the per-residue energy contributions (in kcal/mol) for these residues, show their consistency across multiple MD trajectories, and compare to any available experimental mutagenesis data on TEAD palmitoylation site residues.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "drugbility" is used, which is nonstandard. The correct term is "druglikeness" or "druggability."  
+  - **Required correction** Replace "drugbility" with "druglikeness" and define the specific criteria used (e.g., Lipinski's rule of five).  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Compound identifiers  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The compound identifiers "ChEBML196567" and "ZINC000013942794" are provided, but no chemical names or structures are given. This limits the reader's ability to assess the compounds.  
+  - **Required correction** Include the chemical names or SMILES strings for the two recommended compounds in the abstract or a table.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Software and parameters  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not mention which virtual screening software, force fields, or simulation lengths were used. This is critical for reproducibility.  
+  - **Required correction** Add a sentence in the abstract or methods section specifying the software packages, force fields, and MD simulation timescales.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Statistical rigor  
+  - **Affected element** Selection criteria  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that 11 inhibitors were discovered but does not indicate how many compounds were screened initially or what the hit rate was.  
+  - **Required correction** Report the total number of compounds screened and the enrichment factor or hit rate to contextualize the 11 hits.
+
+## Risk / unsupported claims
+- The claim of "11 potential TEAD2 S-palmitylation inhibitors" is unsupported without quantitative selection criteria or scores.
+- The recommendation of ChEBML196567 and ZINC000013942794 as "most recommended" is unsupported without specific binding energy, hydrogen bond stability, and ADME values.
+- The claim of a "new core structure" is unsupported without structural definition or comparison to known chemotypes.
+- The "confirmation" of hot spot residues is unsupported without per-residue energy values or experimental validation.
+- The statement that "it was easier to find the targeting small molecules using a combination of structure-based and ligand-based virtual screening" is an assertion without comparative data against single-method screening.
+- The biological significance of the identified compounds is not assessable from the abstract, as no cellular or biochemical activity data are mentioned.

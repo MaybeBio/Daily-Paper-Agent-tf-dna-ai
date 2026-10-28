@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors combine single-nucleus gene expression and chromatin accessibility data from six mammals to identify conserved and diverged regulatory networks in cerebellar development, build sequence-based models of regulatory codes, predict chromatin accessibility across 240 mammalian species, and reconstruct evolutionary histories of human cis-regulatory elements, including a recent gain of THRB expression in cerebellar progenitor cells.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation metrics are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary information, and any statistical or computational validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful integrative study of gene regulatory evolution in mammalian cerebellar development. The combination of multi-species single-nucleus multi-omics with cross-species predictive modeling is conceptually strong and likely to interest a broad evolutionary and developmental biology audience. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, statistical rigor, or robustness of the central claims. Several assertions, particularly the prediction across 240 species and the identification of positive selection, require detailed methodological support that is not visible here. The work is promising but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Evolutionary biologists studying regulatory innovation and brain evolution, developmental neuroscientists focused on cerebellum formation, computational biologists developing cross-species regulatory models, and researchers interested in the genetic basis of human-specific traits. The integration of chromatin accessibility prediction across a large mammalian phylogeny offers a scalable framework that could be broadly applicable beyond this specific tissue.
+- **Major strengths** The study addresses a fundamental question about regulatory evolution in a brain region central to human evolution. The multi-species design spanning marsupials to primates is well suited to distinguish conserved from lineage-specific programs. The combination of expression and chromatin accessibility at single-cell resolution is methodologically appropriate. The predictive modeling across 240 species is an innovative and scalable strategy that could transform how cis-regulatory evolution is studied.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that by predicting chromatin accessibility across 240 mammalian species, they reconstructed evolutionary histories of human cis-regulatory elements and identified sets associated with positive selection.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no information on how the sequence-based models were trained, validated, or applied to 240 species. It is unclear whether the models were tested on held-out species, how prediction accuracy was assessed across evolutionary distances, and whether the 240-species prediction set includes species with sufficiently divergent genomes to affect model performance.  
+  - **Why it matters** The central evolutionary inferences depend entirely on the reliability of cross-species predictions. If the models are not robust across deep evolutionary timescales, the reconstructed histories and positive selection calls could be artifacts of prediction error rather than genuine regulatory evolution.  
+  - **Resolution test** Provide model validation metrics, including cross-species prediction accuracy, calibration, and error analysis across phylogenetic distances. Demonstrate that positive selection signals are robust to model uncertainty and alternative alignment or annotation strategies.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** The authors state that they identified cis-regulatory elements associated with positive selection and gene expression changes, including the recent gain of THRB expression in cerebellar progenitor cells.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No statistical framework is described for identifying positive selection or for linking regulatory element changes to expression changes. The THRB claim is presented as a single example without supporting data on effect size, significance, or replication across individuals or species.  
+  - **Why it matters** Positive selection inference is notoriously sensitive to assumptions about neutral rates, population history, and multiple testing. Without explicit statistical details, the claim cannot be evaluated or reproduced.  
+  - **Resolution test** Describe the selection detection method, null model, multiple-testing correction, and provide effect sizes and confidence intervals for the THRB example. Show that the expression gain is robust across biological replicates and not explained by technical artifacts.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and data availability  
+  - **Claim pointer** The study combines single-nucleus gene expression and chromatin accessibility from six mammals.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not state the number of biological replicates per species, the developmental stages sampled, or whether the same stages are comparable across species. It is also unclear whether the data are publicly available and whether the analysis code is deposited.  
+  - **Why it matters** Cross-species developmental comparisons are highly sensitive to staging differences. Without clear replication and staging information, observed differences could reflect developmental asynchrony rather than regulatory evolution.  
+  - **Resolution test** Provide a detailed table of samples, stages, and replicates per species. Confirm data and code availability in public repositories with accession numbers.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretability of regulatory codes  
+  - **Claim pointer** The authors developed sequence-based models that revealed conserved regulatory codes.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify what the regulatory codes are, how they were derived, or how conservation was quantified. It is unclear whether the models identify interpretable motifs, transcription factor binding sites, or higher-order sequence features.  
+  - **Why it matters** The claim of conserved regulatory codes is central to the paper's conceptual contribution. Without a clear definition and validation, the claim remains vague and difficult to assess.  
+  - **Resolution test** Define the regulatory code explicitly, show how it was extracted from the models, and demonstrate conservation using independent motif or footprint data.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "cerebellum's expansion during human evolution" is stated as a premise but not contextualized with any comparative data or reference.  
+  - **Required correction** Add a brief quantitative or comparative statement to support this premise, or cite prior work.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope definition  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The conclusion mentions "mammalian lineage-specific regulatory programs" but the study includes only six species, which may not represent the full mammalian diversity.  
+  - **Required correction** Clarify that the lineage-specific programs are inferred within the sampled species and that broader mammalian inference relies on the predictive models.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "recent gain"  
+  - **Evidence pointer** Abstract, THRB statement  
+  - **Issue** The term "recent" is not defined in evolutionary time.  
+  - **Required correction** Specify the approximate time frame or the branch on which the gain occurred.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The predictive modeling and positive selection claims are the core of the paper and cannot be evaluated from the abstract. R1-M3 and R1-M4 are major but not blocking if the full manuscript provides the missing details.
+- **Assessment against Nature-style criteria**  
+  - Originality: High. The integration of single-nucleus multi-omics with cross-species predictive modeling for regulatory evolution is novel and goes beyond descriptive comparisons.  
+  - Scientific importance: Potentially high. Understanding regulatory evolution in the cerebellum could illuminate mechanisms of human brain evolution, a topic of broad interest.  
+  - Interdisciplinary readership: Likely broad, spanning evolutionary biology, neuroscience, genomics, and computational biology.  
+  - Technical soundness: Not assessable from the abstract. The predictive modeling and selection inference require rigorous validation that is not visible.  
+  - Readability for nonspecialists: The abstract is concise and accessible, though terms like "cis-regulatory elements" and "chromatin accessibility" assume some background.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and scope are compelling, but the central claims of cross-species prediction and positive selection must be substantiated with detailed methods and validation in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of predicting chromatin accessibility across 240 mammalian species is unsupported without model validation details.
+- The identification of cis-regulatory elements under positive selection is unsupported without a described statistical framework.
+- The recent gain of THRB expression in cerebellar progenitor cells is presented without effect sizes, significance, or replication information.
+- The assertion of conserved regulatory codes is vague and not defined or validated in the abstract.
+- The premise of cerebellar expansion during human evolution is stated without supporting data or citation.

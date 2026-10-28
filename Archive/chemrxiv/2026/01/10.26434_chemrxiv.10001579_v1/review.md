@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors combine atomistic molecular dynamics with OPES enhanced sampling to study binding of a guanidinium-functionalized Au25 nanocluster to DNA. They report that binding is driven by electrostatic interactions between ligands and phosphate groups, facilitated by removal of interfacial water, and that the major groove is preferred due to steric accommodation, ligand reorganization, and water removal. They propose enhanced sampling as a general framework for nanocluster-nucleic acid interactions.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological parameters provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, free energy surface figures, error estimates, system setup details, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study with a clear hypothesis and a modern enhanced sampling approach. However, the evidence base is limited to qualitative statements, and the absence of methodological details and quantitative results prevents verification of the central claims. The work may be of interest to the nanocluster and nucleic acid biophysics communities, but the current abstract does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers in nanomaterial-biointerface interactions, computational chemistry of metal nanoclusters, and nucleic acid biophysics would find the results relevant. The proposed use of OPES for nanocluster-DNA systems could appeal to method developers in enhanced sampling. The mechanistic insights into groove selectivity may inform design of functionalized nanoclusters for gene delivery or biosensing.
+- **Major strengths** The study addresses a timely and underexplored question, namely the molecular determinants of MPC-DNA binding. The use of OPES is appropriate for capturing rare events and free energy landscapes. The focus on ligand functionalization and groove selectivity provides a chemically specific and mechanistically rich perspective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that binding is primarily governed by electrostatic interactions between guanidinium ligands and DNA phosphate groups.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative evidence, such as interaction energies, contact maps, or free energy decomposition, to support the electrostatic dominance claim. Without such data, the assertion remains speculative.
+  - **Why it matters** The central mechanistic conclusion depends on identifying the dominant interaction type. If electrostatic contributions are not isolated from other forces, the claim is not established.
+  - **Resolution test** Provide decomposition of free energy or interaction energies by component, with error bars, showing that electrostatic terms dominate over van der Waals, hydrophobic, and entropic contributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that removal of interfacial water facilitates MPC binding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states this finding without presenting any solvent analysis, such as water residence times, radial distribution functions, or solvent contribution to free energy. The mechanism of water removal is not described.
+  - **Why it matters** Solvent effects are often critical in biomolecular binding, and the claim implies a specific thermodynamic driving force. Without solvent-related data, the statement is unsupported.
+  - **Resolution test** Show quantitative solvent analysis, e.g., number of interfacial water molecules along the binding pathway, and free energy contribution from solvent reorganization, with convergence checks.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The study uses atomistic molecular dynamics and OPES simulations to calculate free energy surfaces.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No simulation parameters are given, including force field, water model, box size, ionic conditions, temperature, pressure, OPES settings, bias parameters, or simulation length. Reproducibility is impossible from the abstract alone.
+  - **Why it matters** Enhanced sampling results are highly sensitive to these choices. Without them, the technical validity and reproducibility of the free energy surfaces cannot be assessed.
+  - **Resolution test** Provide full simulation details in the manuscript, including all parameters, and demonstrate convergence of free energy estimates via block analysis or multiple independent runs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the major groove is preferred due to steric accommodation, ligand reorganization, and facile water removal.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract offers three explanatory factors for groove preference but provides no comparative analysis of minor groove binding, no structural snapshots, and no quantitative ranking of these factors. The claim is presented as a conclusion without supporting evidence.
+  - **Why it matters** Groove selectivity is a key finding with potential design implications. If the relative contributions of the proposed factors are not quantified, the mechanistic explanation remains incomplete.
+  - **Resolution test** Provide free energy profiles for both grooves, structural analysis of ligand conformations, and solvent maps, with quantitative decomposition of the factors driving the preference.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "deep collective variable-based on-the-fly probability-based enhanced sampling" is redundant and confusing. "Deep collective variable-based" and "on-the-fly probability-based" are not standard descriptors for OPES.
+  - **Required correction** Simplify to "on-the-fly probability-based enhanced sampling (OPES)" and clarify the role of collective variables in the methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Chemical formula
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The formula "Au 25 (S(CH 2) 2 (Gdm)) + 18" is ambiguous. The charge placement and ligand structure are unclear, and the plus sign placement is unusual.
+  - **Required correction** Use a clear notation, e.g., [Au25(S(CH2)2Gdm)18]+ and define Gdm as guanidinium in the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention any limitations of the study, such as the use of a single nanocluster size, a single DNA sequence, or the absence of experimental validation.
+  - **Required correction** Add a sentence acknowledging these limitations to frame the scope of the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative data, simulation details, and comparative analysis means the central claims are not verifiable from the provided material.
+- **Assessment against Nature-style criteria** Originality is moderate, as the application of OPES to MPC-DNA systems is novel, but the underlying questions are not unprecedented. Scientific importance is potentially high for nanomaterial-biointerface design, but the current evidence does not demonstrate broad significance. Interdisciplinary readership is plausible, but the abstract lacks sufficient detail for nonspecialists to evaluate the methods. Technical soundness cannot be assessed due to missing parameters and convergence evidence. Readability for nonspecialists is adequate but could be improved by clarifying terminology and limitations.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach and plausible mechanisms, but the lack of quantitative and methodological detail prevents validation. Supportive if the full manuscript provides the missing evidence and addresses the major concerns.
+
+## Risk / unsupported claims
+- The claim that electrostatic interactions primarily govern binding is unsupported without interaction energy decomposition.
+- The claim that water removal facilitates binding is unsupported without solvent analysis.
+- The claim that major groove preference arises from steric accommodation, ligand reorganization, and water removal is unsupported without comparative and quantitative data.
+- The general claim that enhanced sampling is a powerful framework for nanocluster-nucleic acid interactions is overstated from a single system study.
+- All quantitative results, including free energy values and error estimates, are not provided and thus not assessable.

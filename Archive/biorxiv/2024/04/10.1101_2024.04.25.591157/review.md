@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, supplementary figure legends, and acknowledgment.
+- **Assessment boundary** Scientific content, methodological rigor, logical coherence, and support of claims by presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that in hybrid two-component systems (HTCSs) from Bacteroides, an inhibitory interdomain interaction between the receiver (REC) domain and the DNA-binding domain (DBD) suppresses DNA-binding activity in the absence of phosphorylation. They identify a conserved sequence motif (S/CHIP-DK) correlated with this interaction, show that disrupting this motif relieves inhibition, and suggest this is a fundamental regulatory mechanism across most HTCSs.
+- **Visible evidence base** In vitro phosphorylation kinetics using Phos-tag gels for four HTCS proteins (BT4124, BT4663, BT3334, BT1754); AlphaFold2 structural predictions for 32 B. theta HTCSs; sequence conservation analysis of 6908 Bacteroides HTCS proteins; EMSA-based DNA-binding assays for select variants; site-directed mutagenesis of conserved interface residues.
+- **Missing materials affecting confidence** Raw gel images and quantification data beyond representative examples; full EMSA data for all tested proteins and variants; detailed statistical analysis for kinetic parameter comparisons; validation of AlphaFold predictions by experimental structures; information on whether all 32 HTCS-cyto predictions were experimentally tested for phosphorylation suppression.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a compelling and potentially significant finding: a conserved inhibitory interdomain interaction that regulates DNA-binding activity in HTCSs. The combination of biochemical assays, sequence analysis, and structural prediction is logically coherent and generally well-executed. However, several technical concerns, particularly regarding the robustness of kinetic comparisons, the generalizability of structural predictions, and the completeness of DNA-binding data, need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers studying bacterial signal transduction, two-component systems, transcriptional regulation, and gut microbiome biology. The work is also relevant to those interested in the evolution of regulatory mechanisms and the engineering of synthetic regulatory systems. The identification of a conserved motif with predictive value for regulatory behavior will be of practical use to the Bacteroides research community.
+- **Major strengths** The study addresses a fundamental question in HTCS regulation with a clear hypothesis-driven approach. The use of multiple complementary methods (biochemistry, bioinformatics, structural prediction) strengthens the conclusions. The identification of a highly conserved motif with functional consequences is a significant advance. The potential for predicting regulatory behavior from sequence alone is practically valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of kinetic comparisons
+  - **Claim pointer** The claim that DBD-linked REC domains have lower phosphorylation efficiency than isolated REC domains, and that interface substitutions relieve this inhibition, is central to the paper.
+  - **Evidence pointer** Figure 2, Figure 6, Figure S1, Figure S2, Figure S7, Figure S8, Table S1
+  - **Concern** The kinetic parameters (kcat, Km, kcat/Km) are derived from initial rates fitted to a Michaelis-Menten hyperbola. However, the manuscript does not provide sufficient detail on the number of replicates, the range of PAM concentrations tested, or the statistical methods used to compare parameters between REC and RR constructs. The reported differences in kcat/Km (e.g., 1/10 for BT4663-RR vs REC) are stated without confidence intervals or p-values for most comparisons. Additionally, the use of Phos-tag gels for quantification may have limited sensitivity and dynamic range, potentially affecting the accuracy of initial rate measurements, especially for slow reactions. The authors acknowledge limitations in fitting but do not provide a rigorous error analysis.
+  - **Why it matters** The quantitative claim of "suppression" of phosphorylation efficiency is a key piece of evidence for the inhibitory interaction. Without robust statistical support, the magnitude and significance of the effect are uncertain, weakening the mechanistic conclusion.
+  - **Resolution test** Provide full kinetic datasets, including all replicates, for each construct. Report confidence intervals for kcat/Km and perform formal statistical comparisons (e.g., extra sum-of-squares F-test or bootstrap) between REC and RR, and between wild-type and variant proteins. Show that the observed differences are reproducible and significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of structural predictions
+  - **Claim pointer** The claim that most HTCSs share a conserved REC-DBD domain orientation, predicted by AlphaFold, and that this orientation is predictive of the inhibitory interaction.
+  - **Evidence pointer** Figure 3, Figure 5, Figure S3, Figure S5, Figure S6
+  - **Concern** The structural predictions are based solely on AlphaFold2, and the manuscript acknowledges that for some HTCSs (e.g., BT1754-RR), the predicted domain orientation differs between the isolated RR fragment and the full cytoplasmic construct. The RMSD values used to classify "similar" vs. "different" orientations are presented without a clear threshold or statistical justification. For HTCSs with non-consensus motifs, the predicted structures show diverse orientations, but it is unclear if these predictions are reliable given the low pTM scores. The manuscript does not experimentally validate any of the predicted structures, and the functional significance of the predicted interface is only tested for two proteins (BT4124 and BT4663).
+  - **Why it matters** The claim of a "conserved" mechanism across most HTCSs relies heavily on the structural predictions. If the predictions are inaccurate or the classification is arbitrary, the generalizability of the mechanism is not established.
+  - **Resolution test** Provide a clear, pre-defined criterion for classifying domain orientations based on RMSD or interface contacts. Validate the predicted interface for at least one additional HTCS with a conserved motif and one with a non-consensus motif using mutagenesis and functional assays. Discuss the limitations of AlphaFold for predicting interdomain orientations, particularly for multi-domain proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of DNA-binding evidence
+  - **Claim pointer** The claim that interface substitutions relieve DBD inhibition and allow DNA binding in the absence of phosphorylation.
+  - **Evidence pointer** Figure 7
+  - **Concern** The EMSA data are presented for BT4124-RR and BT4663-RR and their variants, but the quantification and statistical analysis are not fully described. The apparent KD values are derived from fits with arbitrary constraints (e.g., maximal binding set to 100% for weak binders). The manuscript does not show whether the unphosphorylated wild-type proteins truly show no binding at the highest concentrations tested, or whether the variants show binding that is comparable to phosphorylated wild-type. The effect of phosphorylation on the variants is not systematically tested.
+  - **Why it matters** The functional consequence of relieving the inhibitory interaction is a key prediction of the model. Incomplete or weakly quantified DNA-binding data weaken the direct evidence for this prediction.
+  - **Resolution test** Provide complete EMSA datasets with full titration curves for all proteins and conditions. Report the number of replicates and statistical comparisons between conditions. Show that the variants bind DNA in a sequence-specific manner and that phosphorylation does not further enhance binding, or explain any differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link between phosphorylation and inhibition relief
+  - **Claim pointer** The manuscript suggests that phosphorylation relieves the inhibitory interaction, but the molecular mechanism is not directly demonstrated.
+  - **Evidence pointer** Figure 1, Figure 6, Figure 7, Discussion
+  - **Concern** The authors propose that phosphorylation of the REC domain shifts the conformational equilibrium to release the DBD, but they do not provide direct evidence for this conformational change. The kinetic data show that phosphorylation is faster for isolated REC domains, and that interface mutations speed up phosphorylation of RR constructs, but this is an indirect measure. The DNA-binding data show that phosphorylation enhances binding of wild-type proteins, but the structural basis for this effect is not explored. The manuscript does not test whether the interface mutations affect the conformational dynamics of the REC domain or its ability to be phosphorylated by the HK domain.
+  - **Why it matters** The proposed mechanism is a conformational change coupled to phosphorylation. Without direct evidence, alternative explanations (e.g., phosphorylation-induced dimerization, changes in DNA-binding affinity independent of the interface) cannot be excluded.
+  - **Resolution test** Use techniques such as hydrogen-deuterium exchange, small-angle X-ray scattering, or FRET to directly monitor conformational changes in the REC-DBD interface upon phosphorylation. Alternatively, test whether the interface mutations affect the ability of the HK domain to phosphorylate the REC domain, or whether phosphorylation of the variants still enhances DNA binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2 and Figure 6
+  - **Evidence pointer** Figure 2, Figure 6
+  - **Issue** The kinetic curves in Figure 2B and Figure 6A are presented as "representative" examples. It is unclear how many independent experiments were performed and whether the curves shown are typical.
+  - **Required correction** State the number of independent experiments for each figure panel and consider showing all data points or a summary statistic (e.g., mean ± SD) in the main figures.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table S1
+  - **Evidence pointer** Table S1
+  - **Issue** The kinetic parameters in Table S1 are presented without confidence intervals or a clear indication of the number of replicates.
+  - **Required correction** Add confidence intervals or standard errors for each parameter and specify the number of independent experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, "Autophosphorylation of HTCS proteins"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The method for calculating initial rates from Phos-tag gels is described, but the linear regression range (number of time points, time window) is not specified.
+  - **Required correction** Specify the time points used for initial rate calculations and the criteria for selecting them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of structural predictions
+  - **Affected element** Figure 5 and Figure S5
+  - **Evidence pointer** Figure 5, Figure S5
+  - **Issue** The RMSD values are used to group HTCSs into "similar" and "different" domain orientations, but the threshold for this classification is not stated.
+  - **Required correction** Define the RMSD threshold used for classification and justify it.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of sequence analysis
+  - **Affected element** Figure 4 and Figure S4
+  - **Evidence pointer** Figure 4, Figure S4
+  - **Issue** The sequence logo shows conservation across 6908 HTCSs, but it is unclear how the alignment was generated and whether the motif is specific to HTCSs or also found in other REC-DBD fusions.
+  - **Required correction** Provide details on the alignment method and include a comparison with non-HTCS REC-DBD proteins to demonstrate specificity.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Discussion of alternative mechanisms
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion focuses on the inhibitory interaction model but does not fully consider alternative mechanisms, such as phosphorylation-induced dimerization of the REC domain or direct effects of phosphorylation on DBD conformation.
+  - **Required correction** Briefly discuss these alternatives and explain why the data support the proposed model over them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (kinetic comparison rigor) and R1-M2 (structural prediction generalizability) are the primary technical issues. R1-M3 (DNA-binding evidence completeness) also needs attention. These need to be resolved to fully support the central claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in identifying a specific, conserved interdomain interaction as a regulatory mechanism in HTCSs. While inhibitory interactions are known in other response regulators, the specific motif and its prevalence in Bacteroides HTCSs are novel.
+  - **Scientific importance** The finding has significant implications for understanding HTCS regulation, a major class of regulators in an important gut symbiont. The predictive value of the motif is practically useful. The work could influence how researchers approach the study and engineering of these systems.
+  - **Interdisciplinary readership** The topic is primarily of interest to microbiologists, signal transduction researchers, and microbiome scientists. The methods and concepts are accessible to these groups. The broader significance to human health via the microbiome is noted but not deeply explored.
+  - **Technical soundness** The core biochemical and bioinformatic approaches are sound, but the quantitative rigor of the kinetic analyses and the reliance on unvalidated structural predictions are weaknesses. The DNA-binding data are suggestive but not fully quantified.
+  - **Readability for nonspecialists** The manuscript is generally well-written and logically structured. The abstract and introduction are accessible. The results and methods sections are more technical but appropriate for the target audience. The figures are clear, though some require careful study.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the data are largely consistent with it, but the quantitative support for the key claims needs strengthening. The structural predictions need to be more carefully justified or validated. If these issues are addressed, the manuscript would make a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that the conserved motif is "predictive" of the inhibitory interaction across all HTCSs is not fully supported, as only a small subset of B. theta HTCSs was experimentally tested.
+- The claim that the inhibitory interaction "overcomes the challenge of the fused HK and RR components" is speculative and not directly tested.
+- The suggestion that non-consensus motif HTCSs may use a different regulatory strategy is plausible but not experimentally supported.
+- The statement that "most HTCSs" share the conserved mechanism is an extrapolation from the sequence analysis and structural predictions, which are not experimentally validated for the majority of these systems.
+- The functional significance of the conserved D-K salt bridge in the proposed allosteric pathway is inferred from structural predictions and not directly tested.

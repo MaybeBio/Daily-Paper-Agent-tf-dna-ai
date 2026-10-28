@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "41692208",
+    "doi": "10.1016/j.ijbiomac.2026.150907",
+    "title": "SOX9 protein in goblet cells as a critical mediator and potential therapeutic target in Barrett's esophagus: An integrated bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Barrett's esophagus (BE) is the only recognized precursor to esophageal adenocarcinoma, yet current diagnostic and therapeutic strategies remain limited by sampling bias and lack of reliable molecular markers. METHODS: We conducted a multi-omics analysis using four bulk RNA-seq datasets for differential expression and WGCNA. Hub genes were identified through PPI networks and LASSO regression, validated in external cohorts. scRNA-seq profiled gene expression in epithelial and stromal subtypes, with immune profiling via CIBERSORT. SOX9 expression in single-cell resolution was validated in two BE patient cohorts. RESULTS: Five upregulated genes-SOX9, COL1A2, SPARC, EPCAM, and KRT18-were identified as robust diagnostic markers, with AUC values >0.90. scRNA-seq showed increased SOX9 expression in goblet cells in BE, which was validated by IHC. SOX9 expression in goblet cells correlated with progression to high-grade dysplasia (HGD), while expression in non-goblet cells had a lower correlation. BE tissues showed distinct immune profiles, with enriched plasma cells and CD4(+) memory T cells. Molecular docking identified potential druggable interactions with these proteins. CONCLUSION: Our integrative analysis provides a comprehensive molecular and cellular atlas of BE. These findings enhance current understanding of BE pathogenesis and offer clinically relevant candidates for early detection and targeted intervention.",
+    "keywords": [
+      "Barrett's esophagus (BE)",
+      "Multi-omics analysis",
+      "SOX9 protein"
+    ],
+    "mesh_terms": [
+      "*SOX9 Transcription Factor/genetics/metabolism/chemistry",
+      "*Barrett Esophagus/metabolism/genetics/pathology/drug therapy",
+      "Humans",
+      "*Goblet Cells/metabolism/pathology",
+      "*Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Lin",
+        "Deng, Jingjing",
+        "Kong, Demiao",
+        "Liu, Yixin",
+        "Li, Xiang",
+        "Guo, Wankai",
+        "Xu, Chuan",
+        "Han, Liankui",
+        "Zhou, Jianfeng"
+      ],
+      "short_names": [
+        "Yang L",
+        "Deng J",
+        "Kong D",
+        "Liu Y",
+        "Li X",
+        "Guo W",
+        "Xu C",
+        "Han L",
+        "Zhou J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China; Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China.",
+        "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China.",
+        "Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China.",
+        "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China.",
+        "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China. Electronic address: 918639448@qq.com.",
+        "Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China. Electronic address: 1152638080@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Lin",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China; Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Jingjing",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Demiao",
+        "short_name": "Kong D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yixin",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Wankai",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Chuan",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China."
+        ]
+      },
+      {
+        "full_name": "Han, Liankui",
+        "short_name": "Han L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, 550002, China. Electronic address: 918639448@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jianfeng",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China. Electronic address: 1152638080@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/16 00:31",
+    "fetched_at": "2026-10-01 14:25:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41692208",
+      "41839318",
+      "20138038",
+      "22147253",
+      "25412842",
+      "17952395",
+      "24290871",
+      "15833844",
+      "16952561",
+      "10693236",
+      "23011828",
+      "32325086",
+      "30705106",
+      "28451845",
+      "16291394",
+      "30670912",
+      "32681541",
+      "23064761",
+      "15825175",
+      "22449796",
+      "26248086",
+      "31691172",
+      "28216140",
+      "25141312",
+      "19578614",
+      "14576477",
+      "15167938",
+      "22095525",
+      "15107828",
+      "19737949",
+      "10571507",
+      "16172218",
+      "40695287",
+      "23757351",
+      "25083987",
+      "41059926",
+      "16259110",
+      "41716413",
+      "30323168",
+      "17307036",
+      "20459440",
+      "32032585",
+      "24550372",
+      "27431913",
+      "23142123",
+      "37866883",
+      "21359892",
+      "33469811",
+      "15120365",
+      "18927283",
+      "10675236",
+      "7812911",
+      "25143128",
+      "30841855",
+      "28751461",
+      "21890457",
+      "26926447",
+      "22081106",
+      "24612412",
+      "32416156",
+      "25558829",
+      "25107643",
+      "39513952",
+      "33261858",
+      "41044520",
+      "20496011",
+      "23466817",
+      "26081225",
+      "29208671",
+      "39067546",
+      "29019984",
+      "15929754",
+      "27729357",
+      "41601671",
+      "27583562",
+      "30404157",
+      "15824152",
+      "30345836",
+      "15814623",
+      "10821489",
+      "30982210",
+      "26604271",
+      "26701877",
+      "19734842",
+      "8359653",
+      "39182484",
+      "21148399",
+      "11331481",
+      "42249833",
+      "29417867",
+      "14562024",
+      "25784377",
+      "24852569",
+      "20303354",
+      "10572561",
+      "17178854",
+      "41436831",
+      "38296052",
+      "21128279",
+      "40629071"
+    ],
+    "review": [
+      "41692208",
+      "10693236",
+      "28451845",
+      "32681541",
+      "30345836"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(26)00833-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1518",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

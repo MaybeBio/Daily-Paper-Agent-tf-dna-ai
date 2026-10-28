@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, model description, results sections, conclusions, and supplementary material references.
+- **Assessment boundary** Evaluation is limited to the scientific content, methodology, and claims presented in the provided manuscript text. No external data, code, or supplementary figures were available for direct inspection.
+- **Shared manuscript claim summary** The authors use coarse-grained polymer simulations to show that bridging-induced phase separation (BIPS) of transcription factors and stochastic loop extrusion by cohesin both contribute to cell-to-cell variability (noise) in transcription. They report that transcriptional noise exceeds a binomial baseline, that this overdispersion depends on the spacing of transcription units, and that loop extrusion increases noise without strongly affecting mean expression.
+- **Visible evidence base** Main text figures referenced as Fig. 1, Fig. 2, Fig. 3, and supplementary figures S1–S12. Simulation methods are described in the main text and referenced to a separate methods document [40].
+- **Missing materials affecting confidence** The supplementary figures and movies, the detailed simulation methods document [40], and the data availability link [52] were not provided. This limits verification of quantitative results and methodological details.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and timely computational study linking 3D chromatin organization to transcriptional noise. The model is simple but captures key biophysical mechanisms, and the predictions are potentially testable. However, the evidence as presented is incomplete in several respects, particularly regarding the quantitative support for the noise-mean relationship, the role of loop extrusion parameters, and the generality of the conclusions. The claims are plausible but not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biophysics, and single-cell biology would find these results relevant. The work connects polymer physics to transcriptional heterogeneity, which is a topic of broad interest in development and disease. The predictions regarding TU spacing and loop extrusion could guide experimental design in single-cell transcriptomics and imaging.
+- **Major strengths** The model is elegant and captures two important mechanisms (BIPS and loop extrusion) in a minimal framework. The distinction between mean expression and noise is a useful conceptual contribution. The prediction that loop extrusion affects variability more than mean expression aligns with experimental observations and provides a mechanistic explanation. The boomerang representation of noise-mean relationships is a clear and useful visualization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that transcriptional noise is significantly higher than predicted by a binomial model, indicating overdispersion, and that this overdispersion is primarily caused by clustering through BIPS.
+  - **Evidence pointer** Fig. 2(a), Fig. 2(b), Fig. S7
+  - **Concern** The quantitative comparison between simulated noise and the binomial baseline is not fully described. The binomial model assumes independent sampling events with a fixed probability p, but the number of sampling events M is not clearly defined for the simulations. The choice of M = 101 for the Bernoulli comparison in Fig. S3 is mentioned but not justified. Without a clear definition of M and how it relates to simulation time or TF concentration, the overdispersion measure may be sensitive to arbitrary choices.
+  - **Why it matters** The central claim of the paper is that BIPS causes overdispersion. If the baseline model is not rigorously defined, the magnitude and even the existence of overdispersion could be questioned. This affects the interpretation of all subsequent results.
+  - **Resolution test** The authors should provide a precise definition of M in the context of their simulations, including how it scales with simulation length and TF concentration. They should also show that the overdispersion measure is robust to reasonable variations in M. A sensitivity analysis would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that loop extrusion increases transcriptional noise and that this effect depends on the number of extruders Nex and loop size parameter λex, with a nonmonotonic dependence on λex.
+  - **Evidence pointer** Fig. 3(a), Fig. 3(b), Fig. 3(c)
+  - **Concern** The phase diagram in Fig. 3(c) shows noise as a function of Nex and λex, but the range of parameters explored and the statistical uncertainty in the noise estimates are not reported. The claim that noise saturates at λex ~ 100–200 kbp and decreases after that is based on a limited number of data points, and the error bars are not shown. Additionally, the relationship between λex and the actual loop size distribution in the simulations is not clarified.
+  - **Why it matters** The nonmonotonic dependence on λex is a key prediction that could be tested experimentally. If the result is not robust or the parameter mapping is unclear, the experimental relevance is diminished.
+  - **Resolution test** The authors should provide error bars or confidence intervals for the noise measurements in Fig. 3(c). They should also clarify how λex maps to the distribution of loop sizes in the simulations and whether the observed nonmonotonicity is robust across different simulation conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors speculate that loop extrusion enhancing noise may explain why evolutionarily young genes tend to be noisier than older ones.
+  - **Evidence pointer** Conclusions section
+  - **Concern** This evolutionary speculation is presented without any direct evidence or model support. While it is framed as a speculation, it is given prominence in the conclusions and could be misinterpreted as a finding. No simulation or data linking loop extrusion to gene age is provided.
+  - **Why it matters** The claim extends the model beyond its scope and could be misleading to readers. It is not necessary for the main message and may distract from the more solid results.
+  - **Resolution test** Either remove the speculation or provide a more detailed argument with supporting evidence, such as a simple model extension or a discussion of relevant experimental data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The authors state that their results could be tested with single-cell experiments and provide a pathway to understanding transcriptional plasticity.
+  - **Evidence pointer** Conclusions section
+  - **Concern** The experimental predictions are stated in general terms without specific, quantitative predictions that could be directly tested. For example, the authors do not specify how the noise-mean relationship would change with TU spacing in a measurable way, or what experimental perturbations would be most informative.
+  - **Why it matters** For a broad readership, concrete and testable predictions are essential to translate computational findings into experimental programs. The current statements are too vague to guide experimental design.
+  - **Resolution test** The authors should provide at least one specific, quantitative prediction that distinguishes their model from alternative explanations, along with a suggested experimental approach to test it.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses terms like "bridging-induced phase separation" and "loop extrusion" without brief definitions, which may be unfamiliar to readers outside the chromatin field.
+  - **Required correction** Add a brief parenthetical explanation of these terms in the abstract to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model section
+  - **Evidence pointer** Model section
+  - **Issue** The description of the patchy rigid body model for limited valency is brief. It is unclear how the number of patches relates to the valency of real TF complexes and whether the results are sensitive to this choice.
+  - **Required correction** Provide more detail on the patchy model, including the range of patch numbers tested and the rationale for the chosen values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Cohesin loops and noise section
+  - **Evidence pointer** Fig. 3(d)
+  - **Issue** The correlation between noise and cell-to-cell variability in TU clustering is stated but the metric used to quantify clustering variability is not defined.
+  - **Required correction** Define the clustering metric and explain how it is computed from the simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Conclusions section
+  - **Evidence pointer** Conclusions section
+  - **Issue** The phrase "HiP-HoP simulations" is used without explanation, which may confuse readers unfamiliar with this specific simulation approach.
+  - **Required correction** Briefly describe what HiP-HoP simulations are or provide a reference.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the most critical. The definition of the binomial baseline and the robustness of the loop extrusion results need to be clarified. Without these, the central claims of overdispersion and the specific role of loop extrusion are not fully supported.
+- **Assessment against Nature-style criteria** Originality: The work is original in combining BIPS and loop extrusion in a single model to study transcriptional noise. Scientific importance: The topic is important, and the model provides a plausible mechanism, but the quantitative support is incomplete. Interdisciplinary readership: The work will appeal to biophysicists, chromatin biologists, and single-cell researchers, but the presentation could be more accessible. Technical soundness: The simulation approach is reasonable, but key quantitative details are missing. Readability for nonspecialists: The manuscript is generally clear but could benefit from more context and definitions.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is valuable, and the predictions are interesting, but the current evidence does not fully establish the quantitative claims. Addressing the concerns about the baseline model and the robustness of the loop extrusion results would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that loop extrusion enhances noise more than mean expression is supported by the simulations but the quantitative robustness is not fully demonstrated.
+- The evolutionary speculation linking loop extrusion to gene age is unsupported by any direct evidence in the manuscript.
+- The claim that the results could be tested with single-cell experiments is plausible but lacks specific, quantitative predictions.
+- The relationship between λex and experimental loop sizes is not clearly established, making the experimental relevance of the nonmonotonic dependence uncertain.

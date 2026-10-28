@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors state that cancer-associated mutations in histone H1 rewire an H1-centered interaction network, are enriched at protein-protein interfaces and post-translational modification sites, and compromise chromatosome stability via distinct mechanisms, with the dyad-binding mutation S104F disrupting hydrogen bond networks and increasing conformational flexibility.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods description, simulation parameters, statistical analyses, and source data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting multiscale analysis linking network topology to molecular dynamics in the context of cancer-associated H1 mutations. However, the current evidence base is limited to the abstract, and several key claims cannot be evaluated without access to the underlying data and methods. The conceptual framework is coherent, but the strength of the conclusions, particularly regarding mechanistic specificity and statistical enrichment, remains unverifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, epigenetics, and cancer genomics would be interested, as the work addresses how oncohistone mutations may affect higher-order chromatin organization. The integration of interaction networks with molecular dynamics could also appeal to computational biologists studying protein-DNA interactions and mutation effects.
+- **Major strengths** The abstract proposes a multiscale approach that bridges network-level analysis with atomic-level dynamics, which is a valuable conceptual framework. The focus on histone H1, a less-studied oncohistone target compared to core histones, addresses a relevant gap. The identification of distinct mutational mechanisms, such as the S104F dyad-binding mutation, suggests a nuanced interpretation rather than a uniform destabilization model.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that cancer-associated mutations are "significantly enriched at protein-protein interfaces and post-translational modification sites."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The claim of significant enrichment is presented without any statistical detail, such as the background model used, the number of mutations analyzed, the source of cancer mutation data, or the definition of protein-protein interfaces and modification sites.  
+  - **Why it matters** Without a clear statistical framework, the enrichment claim could be an artifact of biased sampling or arbitrary annotation. This is a central finding that supports the network-rewiring hypothesis.  
+  - **Resolution test** Provide the full enrichment analysis, including the mutation dataset, annotation sources, statistical tests, and effect sizes, in the main text or supplementary materials.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic validation  
+  - **Claim pointer** The abstract states that molecular dynamics simulations demonstrated that mutations compromise chromatosome stability through distinct mechanisms, with S104F disrupting key hydrogen bond networks and enhancing conformational flexibility.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract reports simulation outcomes but provides no information on simulation length, force field, system setup, replicates, or convergence criteria. The distinction between "relatively modest perturbations" and "markedly enhances conformational flexibility" is qualitative and lacks quantitative metrics.  
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation parameters. Without these details, the mechanistic claims cannot be assessed for robustness or reproducibility.  
+  - **Resolution test** Include full simulation methods, convergence analysis, and quantitative measures of stability and flexibility, such as root-mean-square deviation or fluctuation values, in the manuscript.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim scope  
+  - **Claim pointer** The abstract concludes that the multiscale analysis provides "mechanistic insights into how H1 mutations rewire chromatin interactions and destabilize nucleosome architecture."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract integrates structural and cross-linking mass spectrometry data to construct the network, but the nature of this integration is not described. It is unclear whether the network is derived from published data, new experiments, or a combination, and how the cross-linking data specifically inform the interaction network.  
+  - **Why it matters** The network construction is foundational to the entire analysis. If the integration method is not transparent, the network topology and subsequent mutation mapping cannot be independently verified.  
+  - **Resolution test** Describe the data sources, integration methodology, and validation of the network in the methods section, and provide the network as a supplementary file.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "oncohistone-driven genome dysregulation" is used without defining the scope of "oncohistone" in this context, as H1 is not a core histone.  
+  - **Required correction** Clarify whether H1 is considered an oncohistone in the literature or whether this is an extension of the term, and define the usage in the introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Mutation selection  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract mentions "cancer-associated mutations" but does not specify how many mutations were analyzed or whether they were selected from a particular cancer type or database.  
+  - **Required correction** State the number of mutations and their source, such as COSMIC or TCGA, in the abstract or methods.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation details  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not indicate whether the molecular dynamics simulations were performed on a single chromatosome structure or multiple variants.  
+  - **Required correction** Specify the structural models used and whether mutations were introduced in a consistent manner.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The enrichment analysis, simulation methodology, and network construction are all insufficiently detailed to support the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The focus on H1 mutations and the integration of network analysis with molecular dynamics is a relatively novel angle, though the approach is not unprecedented.  
+  - Scientific importance: The topic is relevant to cancer epigenetics, but the significance depends on whether the findings generalize beyond the specific mutations studied, which is not assessable from the abstract.  
+  - Interdisciplinary readership: The work bridges structural biology, computational biology, and cancer genomics, which could attract a broad audience if the methods are clearly presented.  
+  - Technical soundness: Not assessable from the abstract alone; the lack of methodological detail prevents evaluation of the simulations and network analysis.  
+  - Readability for nonspecialists: The abstract is concise and generally accessible, but terms such as "chromatosome" and "dyad-binding" may require prior knowledge.  
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient detail to verify the enrichment claims, simulation outcomes, or network construction. A full manuscript with complete methods and data would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim of significant enrichment at protein-protein interfaces and post-translational modification sites is unsupported without statistical details.
+- The mechanistic distinction between linker DNA-binding mutations and the S104F mutation is unsupported without quantitative simulation metrics.
+- The conclusion that the analysis provides mechanistic insights into genome dysregulation is not established from the abstract alone.
+- The integration of structural and cross-linking mass spectrometry data is described but not verifiable without methods and source data.

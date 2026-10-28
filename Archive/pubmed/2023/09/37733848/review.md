@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that short tandem repeats (STRs) directly bind transcription factor (TF) DNA-binding domains, modulating TF-DNA affinities and apparent on-rates by approximately 70-fold, with energetic effects exceeding those of consensus motif mutations. They further claim that STRs increase TF density by maximizing weakly preferred microstates near target sites, that in vivo neural network predictions match in vitro observations, and that approximately 90% of TFs preferentially bind STRs that need not resemble known motifs.
+- **Visible evidence base** Abstract text only; no experimental data, statistical analyses, model descriptions, or supplementary information were accessible
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, supplementary data, and any code or model specifications; without these, quantitative claims and mechanistic conclusions cannot be independently verified
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant finding that STRs may act as direct TF binding elements with broad regulatory implications. However, the claims are highly quantitative and mechanistic, and the provided abstract alone does not permit evaluation of experimental rigor, statistical validity, or model robustness. The central assertion that STRs tune transcription via direct TF binding is plausible but currently not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in gene regulation, transcription factor biology, genomics, and computational biology would find these results relevant, as they challenge conventional views of TF binding specificity and suggest a new cis-regulatory mechanism. The potential to explain STR-associated phenotypic variation and disease risk would also interest human geneticists and clinical genomics groups.
+- **Major strengths** The abstract addresses a long-standing question about STR function in regulatory elements with a clear mechanistic hypothesis. The integration of in vitro biochemical measurements, statistical mechanics modeling, and in vivo neural network predictions suggests a multi-pronged approach. The claim that STRs act broadly across TFs, if supported, would have substantial conceptual impact.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "STRs modulate transcription factor (TF)-DNA affinities and apparent on-rates by about 70-fold by directly binding TF DNA-binding domains"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states a 70-fold modulation of affinities and on-rates, but no experimental details are given regarding how these values were measured, which TFs and STRs were tested, or how binding was distinguished from indirect effects.  
+  - **Why it matters** Without methodological transparency, the magnitude of the effect and the claim of direct binding cannot be assessed, and the result could be confounded by experimental artifacts or sequence-specific biases.  
+  - **Resolution test** Provide detailed binding assays (e.g., electrophoretic mobility shift assays, surface plasmon resonance, or high-throughput approaches) with appropriate controls, including mutated STRs and non-STR DNA controls, and report replicate numbers and error estimates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "energetic impacts exceeding many consensus motif mutations"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The comparison to consensus motif mutations is central to the claim of functional importance, but the abstract does not specify which motifs, which mutations, or how energetic impacts were quantified.  
+  - **Why it matters** If the comparison is not systematic or uses non-equivalent conditions, the claim of exceeding motif mutations may be overstated or misleading.  
+  - **Resolution test** Present a direct, controlled comparison of binding free energy changes for STR variants versus a defined panel of motif mutations under identical assay conditions, with statistical significance testing.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "STRs maximize the number of weakly preferred microstates near target sites, thereby increasing TF density, with impacts well predicted by statistical mechanics"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The statistical mechanics model is described only in qualitative terms. No equations, parameter values, or validation metrics are provided, and the phrase "well predicted" lacks quantitative support.  
+  - **Why it matters** The mechanistic explanation hinges on this model, and without details, the predictive power and biological relevance cannot be evaluated.  
+  - **Resolution test** Provide the full model formulation, fitting procedures, and quantitative comparisons between predicted and measured TF density or binding occupancy across multiple STR contexts.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "neural networks trained only on in vivo occupancies predicted effects identical to those observed in vitro"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The claim of "identical" effects is strong and requires statistical equivalence testing, not just correlation. The abstract does not describe the neural network architecture, training data, or how in vivo occupancy was measured.  
+  - **Why it matters** If the in vivo and in vitro comparisons are not rigorously matched, the claim that STR effects are conserved across contexts is unsupported.  
+  - **Resolution test** Report quantitative concordance metrics (e.g., correlation coefficients, confidence intervals, equivalence tests) and describe the neural network and in vivo datasets in sufficient detail for replication.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Originality and significance  
+  - **Claim pointer** "Approximately 90% of TFs preferentially bound STRs that need not resemble known motifs"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** This is a broad generalization across the TF repertoire, but the abstract does not specify how many TFs were tested, how "preferentially bound" was defined, or how motif similarity was assessed.  
+  - **Why it matters** If the TF panel is biased or the binding threshold is arbitrary, the 90% figure may not be representative, and the claim of a general mechanism would be weakened.  
+  - **Resolution test** Provide the full list of TFs tested, the binding assay and threshold criteria, and a clear definition of "resemble known motifs" with appropriate controls.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "microstates" is used without definition, which may confuse readers unfamiliar with statistical mechanics.  
+  - **Required correction** Define "microstates" in the context of TF-DNA binding or provide a brief explanatory phrase.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of claims  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "tune eukaryotic gene expression" in the title is broad, but the abstract focuses on TF binding without directly demonstrating changes in gene expression.  
+  - **Required correction** Clarify whether gene expression effects were directly measured or are inferred from TF binding data.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state the number of biological replicates or the statistical methods used for the 70-fold and 90% claims.  
+  - **Required correction** Add brief statistical details or refer to methods sections where these are reported.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5; all are blocking because the abstract alone does not provide sufficient evidence to support the central mechanistic and quantitative claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of STRs as direct TF binding elements is novel and potentially paradigm-shifting, but the abstract does not provide enough context to distinguish it from prior work on repetitive DNA in regulation.  
+  - **Scientific importance** If substantiated, the findings would have broad implications for understanding cis-regulatory evolution and disease-associated STRs, but the importance is contingent on the validity of the 90% claim and the mechanistic model.  
+  - **Interdisciplinary readership** The topic bridges molecular biology, genomics, and biophysics, and the abstract is written in a way that could appeal to these communities, though technical terms may limit accessibility.  
+  - **Technical soundness** Not assessable from the abstract; the lack of methodological detail prevents evaluation of experimental design, data quality, and statistical rigor.  
+  - **Readability for nonspecialists** The abstract is concise but uses specialized terminology without sufficient explanation, which may hinder comprehension for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are intriguing and potentially important, but the abstract alone does not permit verification of the quantitative results or the mechanistic conclusions. A full review of the manuscript with methods and data would be required to determine whether the case is supported.
+
+## Risk / unsupported claims
+- The 70-fold modulation of TF-DNA affinities and on-rates is unsupported without experimental details.
+- The claim that energetic impacts exceed many consensus motif mutations is unsupported without a defined comparison.
+- The statistical mechanics model's predictive accuracy is unverifiable from the abstract.
+- The assertion that neural network predictions are "identical" to in vitro effects is unsupported without equivalence testing.
+- The 90% figure for TF binding to STRs is unverifiable without details on TF panel and binding criteria.
+- The title's implication that STRs tune gene expression is not directly supported by the abstract, which focuses on TF binding.

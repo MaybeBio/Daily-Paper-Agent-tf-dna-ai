@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "37328105",
+    "doi": "10.1016/j.jbc.2023.104925",
+    "title": "SAMHD1 impairs type I interferon induction through the MAVS, IKKepsilon, and IRF7 signaling axis during viral infection."
+  },
+  "content": {
+    "abstract": "Sterile alpha motif and HD domain-containing protein 1 (SAMHD1) restricts human immunodeficiency virus type 1 (HIV-1) infection by reducing the intracellular dNTP pool. We have shown that SAMHD1 suppresses nuclear factor kappa-B activation and type I interferon (IFN-I) induction by viral infection and inflammatory stimuli. However, the mechanism by which SAMHD1 inhibits IFN-I remains unclear. Here, we show that SAMHD1 inhibits IFN-I activation induced by the mitochondrial antiviral-signaling protein (MAVS). SAMHD1 interacted with MAVS and suppressed MAVS aggregation in response to Sendai virus infection in human monocytic THP-1 cells. This resulted in increased phosphorylation of TANK binding kinase 1 (TBK1), inhibitor of nuclear factor kappa-B kinase epsilon (IKKepsilon), and IFN regulatory factor 3 (IRF3). SAMHD1 suppressed IFN-I activation induced by IKKepsilon and prevented IRF7 binding to the kinase domain of IKKepsilon. We found that SAMHD1 interaction with the inhibitory domain (ID) of IRF7 (IRF7-ID) was necessary and sufficient for SAMHD1 suppression of IRF7-mediated IFN-I activation in HEK293T cells. Computational docking and molecular dynamics simulations revealed possible binding sites between IRF7-ID and full-length SAMHD1. Individual substitution of F411, E416, or V460 in IRF7-ID significantly reduced IRF7 transactivation activity and SAMHD1 binding. Furthermore, we investigated the role of SAMHD1 inhibition of IRF7-mediated IFN-I induction during HIV-1 infection. We found that THP-1 cells lacking IRF7 expression had reduced HIV-1 infection and viral transcription compared to control cells, indicating a positive role of IRF7 in HIV-1 infection. Our findings suggest that SAMHD1 suppresses IFN-I induction through the MAVS, IKKepsilon, and IRF7 signaling axis.",
+    "keywords": [
+      "HIV-1",
+      "IKKepsilon",
+      "IRF",
+      "MAVS",
+      "SAMHD1",
+      "innate immunity",
+      "interferon",
+      "molecular docking"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "HEK293 Cells",
+      "I-kappa B Kinase/genetics/metabolism",
+      "Immunity, Innate",
+      "Interferon Regulatory Factor-3/metabolism",
+      "Interferon Regulatory Factor-7/genetics/metabolism",
+      "*Interferon Type I/metabolism",
+      "*SAM Domain and HD Domain-Containing Protein 1/metabolism",
+      "*HIV Infections/metabolism",
+      "Signal Transduction",
+      "Adaptor Proteins, Signal Transducing"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Espada, Constanza E",
+        "Sari, Levent",
+        "Cahill, Michael P",
+        "Yang, Hua",
+        "Phillips, Stacia",
+        "Martinez, Nicholas",
+        "Kenney, Adam D",
+        "Yount, Jacob S",
+        "Xiong, Yong",
+        "Lin, Milo M",
+        "Wu, Li"
+      ],
+      "short_names": [
+        "Espada CE",
+        "Sari L",
+        "Cahill MP",
+        "Yang H",
+        "Phillips S",
+        "Martinez N",
+        "Kenney AD",
+        "Yount JS",
+        "Xiong Y",
+        "Lin MM",
+        "Wu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA.",
+        "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+        "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA.",
+        "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA.",
+        "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA.",
+        "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut, USA.",
+        "Department of Microbial Infection and Immunity, The Ohio State University, Columbus, Ohio, USA.",
+        "Department of Microbial Infection and Immunity, The Ohio State University, Columbus, Ohio, USA.",
+        "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut, USA.",
+        "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, USA. Electronic address: Milo.Lin@UTSouthwestern.edu.",
+        "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA. Electronic address: li-wu@uiowa.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Espada, Constanza E",
+        "short_name": "Espada CE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA."
+        ]
+      },
+      {
+        "full_name": "Sari, Levent",
+        "short_name": "Sari L",
+        "identifiers": [],
+        "affiliations": [
+          "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Cahill, Michael P",
+        "short_name": "Cahill MP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Hua",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA."
+        ]
+      },
+      {
+        "full_name": "Phillips, Stacia",
+        "short_name": "Phillips S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA."
+        ]
+      },
+      {
+        "full_name": "Martinez, Nicholas",
+        "short_name": "Martinez N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Kenney, Adam D",
+        "short_name": "Kenney AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Infection and Immunity, The Ohio State University, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Yount, Jacob S",
+        "short_name": "Yount JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Infection and Immunity, The Ohio State University, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yong",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Milo M",
+        "short_name": "Lin MM",
+        "identifiers": [],
+        "affiliations": [
+          "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, USA. Electronic address: Milo.Lin@UTSouthwestern.edu."
+        ]
+      },
+      {
+        "full_name": "Wu, Li",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, Carver College of Medicine, University of Iowa, Iowa City, Iowa, USA. Electronic address: li-wu@uiowa.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/17 05:11",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "42589092",
+      "42079651",
+      "41855156",
+      "41709234",
+      "41444589",
+      "41280104",
+      "40434097",
+      "40352920",
+      "40277359",
+      "39829911",
+      "39334442"
+    ],
+    "refs": [
+      "36131914",
+      "35085552",
+      "34265844",
+      "33177202",
+      "31914403",
+      "31874111",
+      "31727248",
+      "31511639",
+      "31324787",
+      "31291580",
+      "30739781",
+      "30099227",
+      "30061100",
+      "29999412",
+      "29610295",
+      "29125880",
+      "28965816",
+      "28768867",
+      "28607490",
+      "28490595",
+      "27992402",
+      "27229711",
+      "27183329",
+      "26655245",
+      "25769457",
+      "25636800",
+      "25614319",
+      "25604658",
+      "25225665",
+      "24529381",
+      "24141705",
+      "24120683",
+      "23966382",
+      "23825958",
+      "23601106",
+      "23535064",
+      "23426366",
+      "23426363",
+      "23231760",
+      "22972397",
+      "22930834",
+      "22626058",
+      "22391814",
+      "22365663",
+      "22171011",
+      "22140520",
+      "22069334",
+      "22056990",
+      "21829626",
+      "21782231",
+      "21720370",
+      "21613998",
+      "21411754",
+      "20569472",
+      "20495440",
+      "20408171",
+      "20303872",
+      "20174557",
+      "20131292",
+      "19706707",
+      "19153231",
+      "18382764",
+      "18353649",
+      "18200009",
+      "18082865",
+      "17686876",
+      "16982887",
+      "16858409",
+      "16127453",
+      "16125763",
+      "14985764",
+      "12875852",
+      "12692549",
+      "12495733",
+      "12167863",
+      "11846976",
+      "11070172",
+      "10893229",
+      "10805757",
+      "10048763",
+      "9971817",
+      "9566918",
+      "7531918"
+    ],
+    "similar": [
+      "37328105",
+      "29610295",
+      "21931555",
+      "33177202",
+      "26631542",
+      "24096085",
+      "25142606",
+      "27980081",
+      "16914100",
+      "22532683",
+      "37100289",
+      "32656094",
+      "28768861",
+      "30867315",
+      "31914403",
+      "30518647",
+      "30699353",
+      "30598516",
+      "22626058",
+      "40162781",
+      "28487378",
+      "27606466",
+      "17236232",
+      "41202593",
+      "27419230",
+      "17522209",
+      "20161788",
+      "21200404",
+      "39508267",
+      "18636090",
+      "19153231",
+      "20154210",
+      "22787218",
+      "30341167",
+      "29125880",
+      "38043800",
+      "16380379",
+      "27252539",
+      "29764952",
+      "24722368",
+      "33913550",
+      "28600291",
+      "38625657",
+      "28768858",
+      "19380580",
+      "15367631",
+      "34908452",
+      "36077193",
+      "20375222",
+      "27411355",
+      "19380491",
+      "24706939",
+      "34982578",
+      "22312431",
+      "29793958",
+      "25473098",
+      "31434731",
+      "36223739",
+      "22065572",
+      "33205822",
+      "31462561",
+      "29441066",
+      "38888311",
+      "23478265",
+      "29635067",
+      "35196784",
+      "26819312",
+      "29916539",
+      "25717109",
+      "29321329",
+      "40434097",
+      "40391431",
+      "21182093",
+      "21613249",
+      "34127522",
+      "32321811",
+      "21680532",
+      "25225665",
+      "36511697",
+      "32169844",
+      "32298923",
+      "41395978",
+      "29427864",
+      "18635538",
+      "30410495",
+      "34079066",
+      "21385615",
+      "41352537",
+      "32235406",
+      "35879450",
+      "18922877",
+      "29960062",
+      "21183682",
+      "24180280",
+      "23300459",
+      "24278020",
+      "25968648",
+      "39193925",
+      "31534039",
+      "18559929"
+    ],
+    "review": [
+      "37328105"
+    ],
+    "pmc": [
+      "10404699"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(23)01953-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/hiv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HIV"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37328105/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37328105",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-977",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

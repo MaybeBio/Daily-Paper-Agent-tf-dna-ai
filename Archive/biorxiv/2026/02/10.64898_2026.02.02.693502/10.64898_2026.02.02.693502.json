@@ -1,0 +1,202 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.02.693502",
+  "title": "Designing protein/non-protein binding interactions using a full-atom diffusion model",
+  "doi": "10.64898/2026.02.02.693502",
+  "abstract": "An unresolved challenge in the field of computational protein design is to create proteins that bind non-protein partners, e.g. DNA, RNA, and small molecules. Most machine learning (ML) algorithms for protein design can only work with systems composed entirely of amino acids, and therefore cannot be directly applied to this task. The few algorithms that accommodate non-proteins still represent amino acids differently than other molecules, and therefore cannot easily recognize the similarity between a sidechain and a small molecule that share a functional group. We introduce a new method, called AtomPaint, that avoids these limitations by employing a fully-atomic representation of protein structure. Starting from a model of a desired binding interaction, our method proceeds by (i) converting that model to a 3D image, (ii) masking out the parts of that image that need to be redesigned, (iii) using a diffusion model to inpaint the masked voxels, then (iv) using a classification model to identify the amino acids in the inpainted image. Both models are SE(3)-equivariant ResNets, and were trained on a dataset of structures from the Protein Data Bank (PDB) curated to emphasize protein/non-protein interactions. In a sequence recovery benchmark, AtomPaint performed better than random guessing, suggesting that it understands some aspects of molecular structure. We discuss possible avenues of improvement, in the hopes that the advantages of our novel image-based approach can be fully realized.",
+  "authors": [
+    "Kale Kundert",
+    "George Church"
+  ],
+  "published_date": "2026-02-04",
+  "updated_date": "2026-02-05T03:30:31Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.02.693502",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.02.693502.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ],
+        "date-time": "2026-02-05T18:00:09Z",
+        "timestamp": 1770314409456,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            4
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                4
+              ]
+            ],
+            "date-time": "2026-02-04T00:00:00Z",
+            "timestamp": 1770163200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Donor Confidential"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:p>An unresolved challenge in the field of computational protein design is to create proteins that bind non-protein partners, e.g. DNA, RNA, and small molecules. Most machine learning (ML) algorithms for protein design can only work with systems composed entirely of amino acids, and therefore cannot be directly applied to this task. The few algorithms that accommodate non-proteins still represent amino acids differently than other molecules, and therefore cannot easily recognize the similarity between a sidechain and a small molecule that share a functional group. We introduce a new method, called AtomPaint, that avoids these limitations by employing a fully-atomic representation of protein structure. Starting from a model of a desired binding interaction, our method proceeds by (i) converting that model to a 3D image, (ii) masking out the parts of that image that need to be redesigned, (iii) using a diffusion model to inpaint the masked voxels, then (iv) using a classification model to identify the amino acids in the inpainted image. Both models are SE(3)-equivariant ResNets, and were trained on a dataset of structures from the Protein Data Bank (PDB) curated to emphasize protein/non-protein interactions. In a sequence recovery benchmark, AtomPaint performed better than random guessing, suggesting that it understands some aspects of molecular structure. We discuss possible avenues of improvement, in the hopes that the advantages of our novel image-based approach can be fully realized.</jats:p>",
+      "DOI": "10.64898/2026.02.02.693502",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ],
+        "date-time": "2026-02-05T03:30:31Z",
+        "timestamp": 1770262231000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Designing protein/non-protein binding interactions using a full-atom diffusion model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0051-5867",
+          "authenticated-orcid": false,
+          "given": "Kale",
+          "family": "Kundert",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Harvard Medical School"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6232-9969",
+          "authenticated-orcid": false,
+          "given": "George",
+          "family": "Church",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harvard Medical School"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.02.693502",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ],
+        "date-time": "2026-02-05T03:30:31Z",
+        "timestamp": 1770262231000
+      },
+      "score": 132.6737,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.02.02.693502"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            4
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.02.02.693502",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, overview, results sections, methods, and funding/conflict statements
+- **Assessment boundary** Scientific content, technical soundness, claims versus evidence, and resource utility as presented in the provided text
+- **Shared manuscript claim summary** The authors present an updated version of Factorbook, a transcription factor-centric database, with expanded TF and cell type coverage, a comprehensive motif catalog derived from ENCODE Phase II/III ChIP-seq and HT-SELEX data, genome-wide motif site annotations in ChIP-seq peaks and candidate cis-regulatory elements, tools for GWAS integration, and machine learning-ready motif models
+- **Visible evidence base** Abstract, introduction, overview, four results sections, methods, funding, and conflict of interest statements. No figures, tables, supplements, or supplementary data were provided
+- **Missing materials affecting confidence** All figures, tables, supplementary files, URLs, and actual data outputs are absent. The methods section references specific parameters and tools but no validation metrics, benchmark results, or comparative analyses are shown. No code repository contents or Docker images were inspected
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial update to a widely used regulatory genomics resource. The scope of the update, including the integration of ENCODE Phase III data, the addition of ZMotif for HT-SELEX analysis, and the provision of machine learning-ready motif models, addresses genuine needs in the field. However, the manuscript as presented is largely descriptive, and the evidence base for several key claims, including the novelty of identified motifs, the quality of the motif site catalog, and the utility of the heritability analyses, is not visible in the provided material. The technical approach is reasonable, but the absence of quantitative validation, benchmarking against existing resources, and clear metrics for assessing the accuracy of the expanded catalog prevents full evaluation of the resource's value
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, transcription factor biology, and computational biology would be the primary audience. The resource is directly relevant to those studying gene regulation, interpreting non-coding variants, building predictive models of TF binding, and performing heritability analyses. The machine learning-ready format of the motifs would also appeal to researchers developing deep learning models for regulatory genomics
+- **Major strengths** The manuscript addresses a clear need for an updated, comprehensive TF motif catalog. The integration of ChIP-seq and HT-SELEX data is a valuable approach. The provision of motif models in multiple formats, including deep learning kernels, is forward-looking and practical. The inclusion of tools for SNP annotation and heritability analysis increases the utility of the resource. The use of modern web technologies and APIs is an improvement over the previous version
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and validation
+  - **Claim pointer** The manuscript claims a "comprehensive TF motif catalog for more than 1,000 TFs" and that the catalog "includes nearly 100% of the motifs in HOCOMOCO and JASPAR" while also identifying novel motifs
+  - **Evidence pointer** Results section "A comprehensive motif catalog derived from ChIP-seq and HT-SELEX data", Figure 2, Figure 3
+  - **Concern** The claim of comprehensiveness and near-complete coverage of existing motifs is not supported by any quantitative data in the provided text. No numbers are given for the total number of TFs with motifs, the number of motifs per TF, the overlap statistics with HOCOMOCO and JASPAR, or the criteria for defining a "novel" motif. The statement that the catalog includes "nearly 100%" of motifs from other databases is a strong claim that requires explicit comparison statistics, including the number of TFs compared, the matching criteria, and the false positive rate. Without these data, the central claim of the resource's value cannot be assessed
+  - **Why it matters** The primary contribution of this manuscript is the motif catalog itself. If the catalog is not demonstrably comprehensive and accurate, the entire resource loses its foundational value. The claim of near-complete coverage is particularly important because it positions Factorbook as a definitive resource, and this must be rigorously demonstrated
+  - **Resolution test** Provide a table or figure showing the number of TFs with motifs, the number of motifs per TF, and a detailed comparison with HOCOMOCO and JASPAR, including the number of TFs in each database, the number of matches, the matching threshold, and the number of novel motifs. Provide a clear definition of "novel" and a validation strategy for these novel motifs
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and validation
+  - **Claim pointer** The manuscript claims that ZMotif identifies 6,700 motifs from HT-SELEX data and that these motifs are of high quality
+  - **Evidence pointer** Results section "A comprehensive motif catalog derived from ChIP-seq and HT-SELEX data", Figure 3, Methods section "ZMotif"
+  - **Concern** The ZMotif method is described in the methods, but no validation of the method is presented. There is no comparison to existing motif discovery tools for HT-SELEX data, no assessment of the recovery of known motifs, no analysis of the false discovery rate, and no evaluation of the impact of the architecture choices (e.g., single layer, linear activation, constrained weights) on motif quality. The claim that the method produces high-quality motifs is therefore unsupported
+  - **Why it matters** ZMotif is presented as a novel tool, and the motifs it produces are a core part of the database. If the method is not validated, users cannot trust the motifs derived from it. The lack of validation is particularly concerning given the unusual architecture choices, which may limit the complexity of motifs that can be learned
+  - **Resolution test** Provide a benchmarking analysis of ZMotif against established tools (e.g., MEME, HOMER, DeepBind) on a set of HT-SELEX datasets with known motifs. Report recovery rate, precision, and recall. Provide an analysis of the motifs learned by ZMotif, including their length distribution, information content, and comparison to known motifs
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for biological relevance
+  - **Claim pointer** The manuscript claims that motif sites in cCREs that are not in ChIP-seq peaks are likely true TF binding sites, supported by conservation and DNase I protection data
+  - **Evidence pointer** Results section "Genome-wide motif instances in candidate cis-regulatory elements", Figure 4C, Figure 4D
+  - **Concern** The claim that these motifs are "true transcription factor binding sites" is based on indirect evidence (conservation and DNase I protection). While these are reasonable supporting metrics, they are not definitive proof of TF binding. The manuscript does not provide any orthogonal validation, such as comparison to ChIP-seq data from other cell types, analysis of expression quantitative trait loci, or experimental validation. The statement that these are "true" binding sites is therefore an overstatement
+  - **Why it matters** The manuscript proposes that the cCRE motif catalog is a valuable resource for identifying TF binding sites in the correct biological context. If the evidence for this is only indirect, the claim is weakened, and users may over-interpret the significance of these sites
+  - **Resolution test** Soften the language to "candidate" binding sites. Provide additional supporting evidence, such as a comparison to ChIP-seq data from a broader range of cell types, or an analysis showing that these sites are enriched for eQTLs or other functional variants
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and accessibility
+  - **Claim pointer** The manuscript claims that the heritability analysis tools are available and that the Docker image and scripts are provided through GitHub
+  - **Evidence pointer** Results section "Tools for integrating motifs with GWAS results", Methods section "LD Score Regression"
+  - **Concern** The methods section provides the commands used for LD score regression but does not provide the full details of the analysis, such as the specific LD score regression parameters, the handling of the baseline model, or the statistical significance thresholds. The GitHub repository is mentioned but not described in detail. The reproducibility of the heritability analysis is therefore not fully established
+  - **Why it matters** The heritability analysis is a key feature of the updated resource. If the analysis cannot be reproduced, its value is diminished. The lack of detail also prevents users from understanding the limitations of the analysis
+  - **Resolution test** Provide a more detailed description of the LD score regression analysis, including all parameters and the version of the baseline model. Describe the contents of the GitHub repository, including the scripts and instructions for use. Consider providing a tutorial or example analysis
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the database includes "candidate regulatory motif sites" but does not define what makes a site "candidate" in this context
+  - **Required correction** Briefly define "candidate" in the abstract or refer to the relevant section
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Results section "Genome-wide instances of motifs in ChIP-seq peaks"
+  - **Evidence pointer** Results section "Genome-wide instances of motifs in ChIP-seq peaks"
+  - **Issue** The number of motif instances (110,001,176) is given, but the number of unique motif sites after merging is also given. It is unclear how the "overlapping allowed" count is useful to users
+  - **Required correction** Clarify the distinction between the two counts and explain the utility of each
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Results section "Genome-wide motif instances in candidate cis-regulatory elements"
+  - **Evidence pointer** Results section "Genome-wide motif instances in candidate cis-regulatory elements"
+  - **Issue** The text states that "more than 95% of rDHSs contain at least one of these motif sites" but does not specify the total number of rDHSs
+  - **Required correction** Provide the total number of rDHSs analyzed
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods section "ZMotif"
+  - **Evidence pointer** Methods section "ZMotif"
+  - **Issue** The description of the ZMotif architecture is clear, but the training data and the negative set generation are not fully described
+  - **Required correction** Describe the training data, the source of negative sequences, and the ratio of positive to negative examples
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Results section "Tools for integrating motifs with GWAS results"
+  - **Evidence pointer** Results section "Tools for integrating motifs with GWAS results"
+  - **Issue** The text mentions "disease and trait heritability" but only provides examples for three traits
+  - **Required correction** Clarify whether the heritability analysis is limited to these three traits or if it can be applied to any trait
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction mentions "likely sequence-specific factors" but does not define this term
+  - **Required correction** Define this term or provide a reference
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative validation for the motif catalog and ZMotif is a critical failing. The claim of near-complete coverage of existing motifs requires explicit comparison data. The ZMotif method requires benchmarking against existing tools. The claim that cCRE motif sites are "true" binding sites requires either softer language or additional validation. The heritability analysis requires more detail for reproducibility
+- **Assessment against Nature-style criteria** 
+  - Originality: The update to Factorbook is incremental but addresses a real need. The ZMotif method is novel but not groundbreaking. The integration of multiple data types and the provision of machine learning-ready models are useful contributions
+  - Scientific importance: The resource has the potential to be highly important for the regulatory genomics community. However, the importance is not fully demonstrated in the provided text, as the evidence for the quality and utility of the resource is not shown
+  - Interdisciplinary readership: The resource is relevant to computational biologists, molecular biologists, and geneticists. The manuscript is written in a way that is accessible to these groups, but the lack of quantitative results may limit its appeal
+  - Technical soundness: The technical approach is generally sound, but the lack of validation for ZMotif and the absence of comparison data for the motif catalog are significant weaknesses
+  - Readability for nonspecialists: The manuscript is clearly written and the structure is logical. However, the lack of concrete results and the reliance on descriptions of features may make it difficult for nonspecialists to assess the value of the resource
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially valuable resource, but the central claims of comprehensiveness, novelty, and quality are not supported by the visible evidence. The authors must provide quantitative validation, benchmarking, and more detailed methods to establish the case for this resource
+
+## Risk / unsupported claims
+- The claim that the catalog includes "nearly 100%" of motifs in HOCOMOCO and JASPAR is unsupported without comparison statistics
+- The claim that ZMotif identifies high-quality motifs is unsupported without benchmarking
+- The claim that cCRE motif sites not in ChIP-seq peaks are "true" TF binding sites is an overstatement based on indirect evidence
+- The claim that the heritability analysis is a useful tool is not supported by the limited description and lack of results
+- The claim that the resource is "comprehensive" is not supported by any quantitative data on coverage

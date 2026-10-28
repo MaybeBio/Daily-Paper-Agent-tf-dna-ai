@@ -1,0 +1,146 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.14.638259",
+  "title": "Communication pathway analysis within protein-nucleic acid complexes",
+  "doi": "10.1101/2025.02.14.638259",
+  "abstract": "Inter-residue communication forms a vast and intricate network that underpins essential biological processes such as catalysis, gene expression, and cell signaling. Allostery, a crucial phenomenon where distant regions of a macromolecule are energetically coupled to elicit functional responses, operates through these intricate communication networks within macromolecular complexes. Despite the pivotal role of nucleic acids in these networks, their contributions to allostery remain largely overlooked. To address this gap, we developed ComPASS, a large-scale computational method designed to study communication networks in protein-protein and protein-nucleic acid complexes. Recognizing the significance of dynamics in the communication of macromolecules, our approach leverages molecular dynamics (MD) simulation data to extract inter-residue key properties, including dynamical correlations, interactions, and distances. These properties are integrated to construct a weighted communication network that comprehensively represents dependencies among amino acids and nucleotides. Using ComPASS, we uncovered distinct mechanisms of signal transmission in diverse macromolecular systems. In Cysteinyl-tRNA synthetase, the central domain was found to mediate the coordination between substrate recognition and enzymatic activity, ensuring functional precision. In the LacI repressor, allosteric communication occurs through interface pathways within the dimer, effectively linking ligand sensing to DNA binding. For the Type IIF restriction endonuclease Bse634I, structural communication across dimer and tetramer interfaces was crucial for specific DNA recognition. In the liver X receptor, a key helical region was identified as a bridge connecting ligand-binding events to DNA interactions. Finally, our analysis with ComPASS aligned with previous literature, confirmed the role of H2A L1 loops in mediating communication across histone interfaces and coordinating interactions between structural domains in nucleosome complexes. ComPASS is available as an open-source tool, maintained at https://github.com/yasamankarami/compass . By offering an integrated framework for studying communication networks, ComPASS advances our understanding of conformational dynamics, particularly within protein-nucleic acid complexes.",
+  "authors": [
+    "Bheemireddy S",
+    "González-Alemán R",
+    "Bignon E",
+    "Karami Y"
+  ],
+  "published_date": "2025-02-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.14.638259",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.14.638259.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR979920",
+    "raw_record": {
+      "id": "PPR979920",
+      "source": "PPR",
+      "doi": "10.1101/2025.02.14.638259",
+      "title": "Communication pathway analysis within protein-nucleic acid complexes",
+      "authorString": "Bheemireddy S, González-Alemán R, Bignon E, Karami Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bheemireddy S",
+            "lastName": "Bheemireddy",
+            "firstName": "Sneha",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9889-4588"
+            }
+          },
+          {
+            "fullName": "González-Alemán R",
+            "lastName": "González-Alemán",
+            "firstName": "Roy",
+            "initials": "R"
+          },
+          {
+            "fullName": "Bignon E",
+            "lastName": "Bignon",
+            "firstName": "Emmanuelle",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9475-5049"
+            }
+          },
+          {
+            "fullName": "Karami Y",
+            "lastName": "Karami",
+            "firstName": "Yasaman",
+            "initials": "Y"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9475-5049"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9889-4588"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3852-4902"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Inter-residue communication forms a vast and intricate network that underpins essential biological processes such as catalysis, gene expression, and cell signaling. Allostery, a crucial phenomenon where distant regions of a macromolecule are energetically coupled to elicit functional responses, operates through these intricate communication networks within macromolecular complexes. Despite the pivotal role of nucleic acids in these networks, their contributions to allostery remain largely overlooked. To address this gap, we developed ComPASS, a large-scale computational method designed to study communication networks in protein-protein and protein-nucleic acid complexes. Recognizing the significance of dynamics in the communication of macromolecules, our approach leverages molecular dynamics (MD) simulation data to extract inter-residue key properties, including dynamical correlations, interactions, and distances. These properties are integrated to construct a weighted communication network that comprehensively represents dependencies among amino acids and nucleotides. Using ComPASS, we uncovered distinct mechanisms of signal transmission in diverse macromolecular systems. In Cysteinyl-tRNA synthetase, the central domain was found to mediate the coordination between substrate recognition and enzymatic activity, ensuring functional precision. In the LacI repressor, allosteric communication occurs through interface pathways within the dimer, effectively linking ligand sensing to DNA binding. For the Type IIF restriction endonuclease Bse634I, structural communication across dimer and tetramer interfaces was crucial for specific DNA recognition. In the liver X receptor, a key helical region was identified as a bridge connecting ligand-binding events to DNA interactions. Finally, our analysis with ComPASS aligned with previous literature, confirmed the role of H2A L1 loops in mediating communication across histone interfaces and coordinating interactions between structural domains in nucleosome complexes. ComPASS is available as an open-source tool, maintained at  https://github.com/yasamankarami/compass . By offering an integrated framework for studying communication networks, ComPASS advances our understanding of conformational dynamics, particularly within protein-nucleic acid complexes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.14.638259"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40552661",
+            "reference": "Journal of chemical theory and computation. 2025 Sep;21(17):8255-8266",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-02-21",
+      "firstPublicationDate": "2025-02-18",
+      "firstIndexDate": "2025-02-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

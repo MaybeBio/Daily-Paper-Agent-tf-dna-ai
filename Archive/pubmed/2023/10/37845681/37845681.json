@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "37845681",
+    "doi": "10.1186/s12967-023-04593-7",
+    "title": "KDeep: a new memory-efficient data extraction method for accurately predicting DNA/RNA transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "This paper addresses the crucial task of identifying DNA/RNA binding sites, which has implications in drug/vaccine design, protein engineering, and cancer research. Existing methods utilize complex neural network structures, diverse input types, and machine learning techniques for feature extraction. However, the growing volume of sequences poses processing challenges. This study introduces KDeep, employing a CNN-LSTM architecture with a novel encoding method called 2Lk. 2Lk enhances prediction accuracy, reduces memory consumption by up to 84%, reduces trainable parameters, and improves interpretability by approximately 79% compared to state-of-the-art approaches. KDeep offers a promising solution for accurate and efficient binding site prediction.",
+    "keywords": [
+      "Binding site",
+      "CNN",
+      "Interpretability",
+      "LSTM",
+      "Transcription factor",
+      "k-mer"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "Binding Sites",
+      "*DNA",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akbari Rokn Abadi, Saeedeh",
+        "Tabatabaei, SeyedehFatemeh",
+        "Koohi, Somayyeh"
+      ],
+      "short_names": [
+        "Akbari Rokn Abadi S",
+        "Tabatabaei S",
+        "Koohi S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3105-2511"
+      ],
+      "affiliations": [
+        "Department of Computer Engineering, Sharif University of Technology, Tehran, Iran.",
+        "Department of Computer Engineering, Sharif University of Technology, Tehran, Iran.",
+        "Department of Computer Engineering, Sharif University of Technology, Tehran, Iran. koohi@sharif.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akbari Rokn Abadi, Saeedeh",
+        "short_name": "Akbari Rokn Abadi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, Sharif University of Technology, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Tabatabaei, SeyedehFatemeh",
+        "short_name": "Tabatabaei S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, Sharif University of Technology, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Koohi, Somayyeh",
+        "short_name": "Koohi S",
+        "identifiers": [
+          "0000-0002-3105-2511"
+        ],
+        "affiliations": [
+          "Department of Computer Engineering, Sharif University of Technology, Tehran, Iran. koohi@sharif.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2023 Oct 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/17 00:42",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [
+      "41031058"
+    ],
+    "refs": [
+      "33796819",
+      "33522898",
+      "33334313",
+      "33005921",
+      "32750884",
+      "31722485",
+      "31701148",
+      "31510640",
+      "31186519",
+      "31120490",
+      "31057715",
+      "31026297",
+      "30922998",
+      "30323198",
+      "29970003",
+      "28718849",
+      "27471964",
+      "27307637",
+      "27084946",
+      "26787667",
+      "26467480",
+      "26301843",
+      "26213851",
+      "26041786",
+      "24780077",
+      "24451197",
+      "22955616",
+      "21543442",
+      "18978773",
+      "17324271",
+      "15613384",
+      "12824371",
+      "8807875"
+    ],
+    "similar": [
+      "37845681",
+      "34073774",
+      "36067103",
+      "36430386",
+      "35652477",
+      "33334313",
+      "32770026",
+      "35303216",
+      "36366228",
+      "37000857",
+      "37328639",
+      "38349057",
+      "34306171",
+      "37004267",
+      "34978201",
+      "34843033",
+      "31634140",
+      "36058367",
+      "35589914",
+      "31710668",
+      "33652697",
+      "29309725",
+      "33522898",
+      "36679739",
+      "34752400",
+      "28881969",
+      "35676633",
+      "30071670",
+      "34664074",
+      "30323198",
+      "35693256",
+      "34422030",
+      "34038367",
+      "19091029",
+      "30106688",
+      "34929739",
+      "29993783",
+      "30423062",
+      "35462009",
+      "33988840",
+      "35768792",
+      "36679646",
+      "32750962",
+      "35536814",
+      "36203144",
+      "35805201",
+      "35378437",
+      "38347788",
+      "37631596",
+      "36403092",
+      "32920048",
+      "37349705",
+      "32960766",
+      "38362268",
+      "30351403",
+      "33767912",
+      "34406415",
+      "34577436",
+      "29970003",
+      "33980138",
+      "34272562",
+      "34534646",
+      "31305921",
+      "39270885",
+      "36948144",
+      "37447755",
+      "36155619",
+      "31725778",
+      "32696716",
+      "36719781",
+      "32808039",
+      "31323206",
+      "31035406",
+      "34637380",
+      "31581063",
+      "34283153",
+      "36679696",
+      "36171569",
+      "36748992",
+      "39357703",
+      "36959539",
+      "31739449",
+      "34199559",
+      "33286035",
+      "35942457",
+      "31048185",
+      "34979461",
+      "36653789",
+      "37254080",
+      "31416558",
+      "35296939",
+      "37684278",
+      "31714956",
+      "35168083",
+      "28245811",
+      "32004641",
+      "30321541"
+    ],
+    "review": [
+      "37845681",
+      "35652477"
+    ],
+    "pmc": [
+      "10580661"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-04593-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37845681/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37845681",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

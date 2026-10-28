@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "38424045",
+    "doi": "10.1038/s41467-024-45826-7",
+    "title": "A druggable conformational switch in the c-MYC transactivation domain."
+  },
+  "content": {
+    "abstract": "The c-MYC oncogene is activated in over 70% of all human cancers. The intrinsic disorder of the c-MYC transcription factor facilitates molecular interactions that regulate numerous biological pathways, but severely limits efforts to target its function for cancer therapy. Here, we use a reductionist strategy to characterize the dynamic and structural heterogeneity of the c-MYC protein. Using probe-based Molecular Dynamics (MD) simulations and machine learning, we identify a conformational switch in the c-MYC amino-terminal transactivation domain (termed coreMYC) that cycles between a closed, inactive, and an open, active conformation. Using the polyphenol epigallocatechin gallate (EGCG) to modulate the conformational landscape of coreMYC, we show through biophysical and cellular assays that the induction of a closed conformation impedes its interactions with the transformation/transcription domain-associated protein (TRRAP) and the TATA-box binding protein (TBP) which are essential for the transcriptional and oncogenic activities of c-MYC. Together, these findings provide insights into structure-activity relationships of c-MYC, which open avenues towards the development of shape-shifting compounds to target c-MYC as well as other disordered transcription factors for cancer treatment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Transcriptional Activation",
+      "*Proto-Oncogene Proteins c-myc/genetics/metabolism",
+      "Molecular Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lama, Dilraj",
+        "Vosselman, Thibault",
+        "Sahin, Cagla",
+        "Liano-Pons, Judit",
+        "Cerrato, Carmine P",
+        "Nilsson, Lennart",
+        "Teilum, Kaare",
+        "Lane, David P",
+        "Landreh, Michael",
+        "Arsenian Henriksson, Marie"
+      ],
+      "short_names": [
+        "Lama D",
+        "Vosselman T",
+        "Sahin C",
+        "Liano-Pons J",
+        "Cerrato CP",
+        "Nilsson L",
+        "Teilum K",
+        "Lane DP",
+        "Landreh M",
+        "Arsenian Henriksson M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8603-9368",
+        "ORCID: 0000-0002-2889-5200",
+        "ORCID: 0000-0001-8097-4750",
+        "ORCID: 0000-0001-7769-6905",
+        "ORCID: 0000-0002-5067-6397",
+        "ORCID: 0000-0001-6919-1982",
+        "ORCID: 0000-0002-7958-4074",
+        "ORCID: 0000-0001-6376-7792"
+      ],
+      "affiliations": [
+        "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden. dilraj.lama@ki.se.",
+        "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden.",
+        "Department of Biology, Structural Biology and NMR Laboratory and the Linderstrom-Lang Centre for Protein Science, University of Copenhagen, DK-2200, Copenhagen, Denmark.",
+        "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden.",
+        "Department of Biosciences and Nutrition, Karolinska Institutet, SE-14813, Huddinge, Sweden.",
+        "Department of Biology, Structural Biology and NMR Laboratory and the Linderstrom-Lang Centre for Protein Science, University of Copenhagen, DK-2200, Copenhagen, Denmark.",
+        "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden. michael.landreh@ki.se.",
+        "Department of Cell- and Molecular Biology, Uppsala University, SE-751 24, Uppsala, Sweden. michael.landreh@ki.se.",
+        "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden. marie.arsenian.henriksson@ki.se.",
+        "Division of Translational Cancer Research, Department of Laboratory Medicine, Lund University, SE-221 00, Lund, Sweden. marie.arsenian.henriksson@ki.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lama, Dilraj",
+        "short_name": "Lama D",
+        "identifiers": [
+          "0000-0001-8603-9368"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden. dilraj.lama@ki.se."
+        ]
+      },
+      {
+        "full_name": "Vosselman, Thibault",
+        "short_name": "Vosselman T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sahin, Cagla",
+        "short_name": "Sahin C",
+        "identifiers": [
+          "0000-0002-2889-5200"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden.",
+          "Department of Biology, Structural Biology and NMR Laboratory and the Linderstrøm-Lang Centre for Protein Science, University of Copenhagen, DK-2200, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Liaño-Pons, Judit",
+        "short_name": "Liaño-Pons J",
+        "identifiers": [
+          "0000-0001-8097-4750"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Cerrato, Carmine P",
+        "short_name": "Cerrato CP",
+        "identifiers": [
+          "0000-0001-7769-6905"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Nilsson, Lennart",
+        "short_name": "Nilsson L",
+        "identifiers": [
+          "0000-0002-5067-6397"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Nutrition, Karolinska Institutet, SE-14813, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Teilum, Kaare",
+        "short_name": "Teilum K",
+        "identifiers": [
+          "0000-0001-6919-1982"
+        ],
+        "affiliations": [
+          "Department of Biology, Structural Biology and NMR Laboratory and the Linderstrøm-Lang Centre for Protein Science, University of Copenhagen, DK-2200, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lane, David P",
+        "short_name": "Lane DP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Landreh, Michael",
+        "short_name": "Landreh M",
+        "identifiers": [
+          "0000-0002-7958-4074"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden. michael.landreh@ki.se.",
+          "Department of Cell- and Molecular Biology, Uppsala University, SE-751 24, Uppsala, Sweden. michael.landreh@ki.se."
+        ]
+      },
+      {
+        "full_name": "Arsenian Henriksson, Marie",
+        "short_name": "Arsenian Henriksson M",
+        "identifiers": [
+          "0000-0001-6376-7792"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Biomedicum, SE-17165, Stockholm, Sweden. marie.arsenian.henriksson@ki.se.",
+          "Division of Translational Cancer Research, Department of Laboratory Medicine, Lund University, SE-221 00, Lund, Sweden. marie.arsenian.henriksson@ki.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Feb 29",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/01 01:27",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "42684666",
+      "42437078",
+      "42224600",
+      "42059277",
+      "41930322",
+      "41776961",
+      "41495057",
+      "41441193",
+      "41279025",
+      "41055109",
+      "40721291",
+      "40654683",
+      "40532196",
+      "40406608",
+      "39896485",
+      "39595572",
+      "39370942"
+    ],
+    "refs": [
+      "36827511",
+      "36304330",
+      "36114178",
+      "35850708",
+      "35637307",
+      "35244724",
+      "35013344",
+      "34942444",
+      "34508258",
+      "34469019",
+      "34265844",
+      "34065606",
+      "33579943",
+      "33397405",
+      "33122085",
+      "32403216",
+      "32331235",
+      "32260326",
+      "31790487",
+      "31714766",
+      "31686052",
+      "31310659",
+      "31260268",
+      "30894502",
+      "30881679",
+      "30442764",
+      "30415952",
+      "30278223",
+      "29603125",
+      "29596915",
+      "29596783",
+      "29429153",
+      "29284669",
+      "28885015",
+      "28762260",
+      "28587062",
+      "28537745",
+      "28448138",
+      "27837025",
+      "27532490",
+      "27486927",
+      "26605738",
+      "26574453",
+      "26574392",
+      "26440106",
+      "26427906",
+      "25835573",
+      "25818646",
+      "25800554",
+      "25400877",
+      "25362358",
+      "24933113",
+      "24890832",
+      "24657798",
+      "22930834",
+      "21404918",
+      "21037952",
+      "20979392",
+      "20385841",
+      "20089416",
+      "19229944",
+      "18716624",
+      "18511942",
+      "16934487",
+      "15992821",
+      "15663936",
+      "15116359",
+      "9708738",
+      "1515543"
+    ],
+    "similar": [
+      "38424045",
+      "8755740",
+      "24705139",
+      "15663936",
+      "7623799",
+      "31686052",
+      "9797456",
+      "30139745",
+      "26559831",
+      "12077335",
+      "31790487",
+      "22815918",
+      "12660246",
+      "8076603",
+      "15876353",
+      "11514548",
+      "39538178",
+      "29695509",
+      "17242204",
+      "41755638",
+      "34019285",
+      "16893186",
+      "10637317",
+      "22384171",
+      "42475469",
+      "39370942",
+      "12748187",
+      "22457068",
+      "11418595",
+      "27002159",
+      "8621409",
+      "7862146",
+      "21811581",
+      "10378691",
+      "34019284",
+      "1748630",
+      "10579912",
+      "8146655",
+      "28620032",
+      "40157686",
+      "8423780",
+      "11844794",
+      "24309437",
+      "27926480",
+      "22496461",
+      "7729426",
+      "2233723",
+      "15994933",
+      "23277542",
+      "12167641",
+      "10611234",
+      "29125994",
+      "31944520",
+      "11292350",
+      "22438798",
+      "16935524",
+      "1620120",
+      "10882073",
+      "12080043",
+      "1990293",
+      "9696045",
+      "23775087",
+      "38109131",
+      "35378126",
+      "7958908",
+      "10391676",
+      "1497918",
+      "15003254",
+      "11562751",
+      "15804567",
+      "7690963",
+      "12177005",
+      "16434883",
+      "9708738",
+      "27474149",
+      "8289795",
+      "16862175",
+      "12821782",
+      "33030907",
+      "42235792",
+      "10378692",
+      "25925205",
+      "42030451",
+      "11839798",
+      "20515470",
+      "28806396",
+      "23912807",
+      "15479836",
+      "8290253",
+      "9619443",
+      "8600028",
+      "24006056",
+      "24933113",
+      "27859590",
+      "24457827",
+      "16606833",
+      "24067369",
+      "8378092",
+      "16964280",
+      "19818711"
+    ],
+    "review": [
+      "38424045",
+      "10378691",
+      "10579912",
+      "28620032",
+      "16935524",
+      "1497918",
+      "10378692",
+      "9619443"
+    ],
+    "pmc": [
+      "10904854"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-45826-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38424045/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38424045",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "42298369",
+    "doi": "10.1021/acs.jcim.6c00689",
+    "title": "PyMolGen: Database-Driven Molecular Generation of Drug-Like Compounds."
+  },
+  "content": {
+    "abstract": "We present a rule-based approach for the generation of new molecules, which derives combination rules between molecular fragments from a user-provided database, and is useful for constrained optimization at defined vectors. The molecules generated are statistically similar to the database provided. Compared to existing machine-learning approaches this affords the user a greater level of control of the molecules generated, which is a common desideratum in drug discovery programs. This is complemented by the use of a build probability score for each generated molecule, which corresponds to the likelihood of its existence in a hypothetical exhaustive enumeration of the source database fragments. The method is applied to the generation of derivatives of a 3,5-dimethyl-4-phenylisoxazole parent structure, a core of current interest for the development of inhibitors of bromodomain-containing protein 4.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Drug Discovery/methods",
+      "Isoxazoles/chemistry/pharmacology",
+      "Bromodomain Containing Proteins",
+      "Transcription Factors/antagonists & inhibitors",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Falcone, Bruno N",
+        "Hutcheon, Michael J",
+        "Zaidi, Jaffer M",
+        "Stocks, Michael J",
+        "Hamill, Kirsty E",
+        "Jamieson, Craig",
+        "Williams, Huw J",
+        "Palmer, David S",
+        "Baxter, Andrew",
+        "Pickett, Stephen D",
+        "Hirst, Jonathan D"
+      ],
+      "short_names": [
+        "Falcone BN",
+        "Hutcheon MJ",
+        "Zaidi JM",
+        "Stocks MJ",
+        "Hamill KE",
+        "Jamieson C",
+        "Williams HJ",
+        "Palmer DS",
+        "Baxter A",
+        "Pickett SD",
+        "Hirst JD"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0114-9213",
+        "ORCID: 0009-0001-1633-8220",
+        "ORCID: 0000-0003-3046-137X",
+        "ORCID: 0000-0002-6567-8272",
+        "ORCID: 0000-0003-4356-9144",
+        "ORCID: 0000-0002-0958-9830",
+        "ORCID: 0000-0002-2726-0983"
+      ],
+      "affiliations": [
+        "School of Chemistry, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom.",
+        "School of Chemistry, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom.",
+        "Biodiscovery Institute, School of Pharmacy, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom.",
+        "Biodiscovery Institute, School of Pharmacy, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom.",
+        "Department of Pure and Applied Chemistry, University of Strathclyde, GlasgowG1 1XL, United Kingdom.",
+        "Department of Pure and Applied Chemistry, University of Strathclyde, GlasgowG1 1XL, United Kingdom.",
+        "Department of Pure and Applied Chemistry, University of Strathclyde, GlasgowG1 1XL, United Kingdom.",
+        "Department of Pure and Applied Chemistry, University of Strathclyde, GlasgowG1 1XL, United Kingdom.",
+        "Medicines Research Centre, GlaxoSmithKline, StevenageSG1 2NY, United Kingdom.",
+        "Department of Cheminformatics, Research Technologies, GlaxoSmithKline, StevenageSG1 2NY, United Kingdom.",
+        "School of Chemistry, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Falcone, Bruno N",
+        "short_name": "Falcone BN",
+        "identifiers": [
+          "0000-0003-0114-9213"
+        ],
+        "affiliations": [
+          "School of Chemistry, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hutcheon, Michael J",
+        "short_name": "Hutcheon MJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Zaidi, Jaffer M",
+        "short_name": "Zaidi JM",
+        "identifiers": [
+          "0009-0001-1633-8220"
+        ],
+        "affiliations": [
+          "Biodiscovery Institute, School of Pharmacy, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Stocks, Michael J",
+        "short_name": "Stocks MJ",
+        "identifiers": [
+          "0000-0003-3046-137X"
+        ],
+        "affiliations": [
+          "Biodiscovery Institute, School of Pharmacy, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hamill, Kirsty E",
+        "short_name": "Hamill KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pure and Applied Chemistry, University of Strathclyde, GlasgowG1 1XL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Jamieson, Craig",
+        "short_name": "Jamieson C",
+        "identifiers": [
+          "0000-0002-6567-8272"
+        ],
+        "affiliations": [
+          "Department of Pure and Applied Chemistry, University of Strathclyde, GlasgowG1 1XL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Williams, Huw J",
+        "short_name": "Williams HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pure and Applied Chemistry, University of Strathclyde, GlasgowG1 1XL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Palmer, David S",
+        "short_name": "Palmer DS",
+        "identifiers": [
+          "0000-0003-4356-9144"
+        ],
+        "affiliations": [
+          "Department of Pure and Applied Chemistry, University of Strathclyde, GlasgowG1 1XL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Baxter, Andrew",
+        "short_name": "Baxter A",
+        "identifiers": [],
+        "affiliations": [
+          "Medicines Research Centre, GlaxoSmithKline, StevenageSG1 2NY, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Pickett, Stephen D",
+        "short_name": "Pickett SD",
+        "identifiers": [
+          "0000-0002-0958-9830"
+        ],
+        "affiliations": [
+          "Department of Cheminformatics, Research Technologies, GlaxoSmithKline, StevenageSG1 2NY, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hirst, Jonathan D",
+        "short_name": "Hirst JD",
+        "identifiers": [
+          "0000-0002-2726-0983"
+        ],
+        "affiliations": [
+          "School of Chemistry, University of Nottingham, University Park, NottinghamNG7 2RD, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Aug 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/16 06:35",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41748299",
+      "40820734",
+      "40236528",
+      "38876177",
+      "38866424",
+      "38383444",
+      "38153295",
+      "37933841",
+      "35258972",
+      "34543572",
+      "33798846",
+      "33522806",
+      "33430959",
+      "33292554",
+      "31938466",
+      "31477924",
+      "29776834",
+      "29605436",
+      "29532027",
+      "28195723",
+      "26191353",
+      "26151876",
+      "24381236",
+      "23061697",
+      "21982300",
+      "21851057",
+      "19505099",
+      "18792903",
+      "17300171",
+      "17260980",
+      "15674983",
+      "11259830",
+      "9611787",
+      "8788213",
+      "8709122"
+    ],
+    "similar": [
+      "42298369",
+      "42475469",
+      "28636361",
+      "36841551",
+      "39441849",
+      "29566488",
+      "22136469",
+      "41880802",
+      "27142751",
+      "30421269",
+      "30606676",
+      "34769065",
+      "41077811",
+      "23517011",
+      "37550462",
+      "27238211",
+      "33548625",
+      "40360829",
+      "34843456",
+      "41729820",
+      "40202493",
+      "38425011",
+      "37552436",
+      "41748299",
+      "39795076",
+      "23205736",
+      "31273995",
+      "29620420",
+      "33637650",
+      "39890943",
+      "36658602",
+      "40566838",
+      "32208600",
+      "39283165",
+      "32102234",
+      "41468959",
+      "37907683",
+      "30685526",
+      "42653094",
+      "24835199",
+      "28881183",
+      "31809029",
+      "36232566",
+      "25314271",
+      "41497266",
+      "30780018",
+      "28158942",
+      "38093324",
+      "42159180",
+      "33844136",
+      "30576905",
+      "26731490",
+      "32410449",
+      "38204214",
+      "38850231",
+      "36773087",
+      "23537132",
+      "25856009",
+      "40960846",
+      "32255647",
+      "41108226",
+      "26066505",
+      "41822751",
+      "24767840",
+      "29131617",
+      "32484669",
+      "29764756",
+      "38964243",
+      "26981157",
+      "37570684",
+      "38779737",
+      "25559428",
+      "31404495",
+      "38260445",
+      "24245755",
+      "40964721",
+      "40498229",
+      "29156382",
+      "40934169",
+      "32767944",
+      "41442825",
+      "37120484",
+      "42653127",
+      "40932128",
+      "36674658",
+      "41125627",
+      "38202859",
+      "40036481",
+      "22136404",
+      "42376709",
+      "39390837",
+      "31661955",
+      "42572360",
+      "39219068",
+      "39383073",
+      "38150626",
+      "34105560",
+      "41720062",
+      "39013438",
+      "38321848"
+    ],
+    "review": [
+      "42298369",
+      "41729820",
+      "29620420",
+      "28881183",
+      "33844136",
+      "38964243",
+      "32767944",
+      "42376709",
+      "42572360",
+      "39219068"
+    ],
+    "pmc": [
+      "13471430"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42298369/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.6c00689",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

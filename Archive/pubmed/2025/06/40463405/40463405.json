@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "40463405",
+    "doi": "10.1093/bioadv/vbaf114",
+    "title": "Quantifying the nuclear localization of fluorescently tagged proteins."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Cells are dynamic, continually responding to intra- and extracellular signals. Measuring the response to these signals in individual cells is challenging. Signal transduction is fast, but reporters for downstream gene expression are slow: fluorescent proteins must be expressed and mature. An alternative is to fluorescently tag and monitor the intracellular locations of transcription factors and other effectors. These proteins enter or exit the nucleus in minutes, after upstream signalling modifies their phosphorylation state. Although such approaches are increasingly popular, there is no consensus on how to quantify nuclear localization. RESULTS: Using budding yeast, we developed a convolutional neural network that determines nuclear localization from fluorescence and, optionally, bright-field images. Focusing on changing extracellular glucose, we generated ground-truth data using strains with a transcription factor and a nuclear protein tagged with fluorescent markers. We showed that the neural network-based approach outperformed seven published methods, particularly when predicting single-cell time series, which are key to determining how cells respond. Collectively, our results are conclusive-using machine learning to automatically determine the appropriate image processing consistently outperforms ad hoc approaches. Adopting such methods promises to both improve the accuracy and, with transfer learning, the consistency of single-cell analyses. AVAILABILITY AND IMPLEMENTATION: We performed our analysis in Python; code is available at https://git.ecdf.ed.ac.uk/v1jhurba/neunet-nucloc.git.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hurbain, Julien",
+        "Ten Wolde, Pieter Rein",
+        "Swain, Peter S"
+      ],
+      "short_names": [
+        "Hurbain J",
+        "Ten Wolde PR",
+        "Swain PS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1288-7185",
+        "ORCID: 0000-0001-9933-4016",
+        "ORCID: 0000-0001-7489-8587"
+      ],
+      "affiliations": [
+        "AMOLF, Amsterdam, 1098 XG, The Netherlands.",
+        "School of Biological Sciences, The University of Edinburgh, Edinburgh, EH9 3BF, United Kingdom.",
+        "AMOLF, Amsterdam, 1098 XG, The Netherlands.",
+        "School of Biological Sciences, The University of Edinburgh, Edinburgh, EH9 3BF, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hurbain, Julien",
+        "short_name": "Hurbain J",
+        "identifiers": [
+          "0000-0002-1288-7185"
+        ],
+        "affiliations": [
+          "AMOLF, Amsterdam, 1098 XG, The Netherlands.",
+          "School of Biological Sciences, The University of Edinburgh, Edinburgh, EH9 3BF, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ten Wolde, Pieter Rein",
+        "short_name": "Ten Wolde PR",
+        "identifiers": [
+          "0000-0001-9933-4016"
+        ],
+        "affiliations": [
+          "AMOLF, Amsterdam, 1098 XG, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Swain, Peter S",
+        "short_name": "Swain PS",
+        "identifiers": [
+          "0000-0001-7489-8587"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, The University of Edinburgh, Edinburgh, EH9 3BF, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/04 06:27",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "40938746"
+    ],
+    "refs": [
+      "39804939",
+      "38915274",
+      "38568203",
+      "37417869",
+      "37015131",
+      "36938874",
+      "36350693",
+      "33477124",
+      "30388117",
+      "29784812",
+      "29240790",
+      "28513433",
+      "28418333",
+      "26466562",
+      "26158443",
+      "25220054",
+      "24950344",
+      "24627493",
+      "24586270",
+      "24483210",
+      "24189399",
+      "23716718",
+      "23615444",
+      "23349292",
+      "22179789",
+      "21167216",
+      "20581820",
+      "19901341",
+      "19566686",
+      "19519137",
+      "18818649",
+      "18480263",
+      "18218902",
+      "15244698",
+      "14730303",
+      "12952948",
+      "12732613",
+      "12424381",
+      "11179418",
+      "11102521",
+      "8851662"
+    ],
+    "similar": [
+      "40463405",
+      "40183298",
+      "23622681",
+      "28968663",
+      "34893817",
+      "22349092",
+      "23282098",
+      "28477340",
+      "7615496",
+      "34081320",
+      "37598897",
+      "37875225",
+      "23912807",
+      "41077044",
+      "27797082",
+      "28778851",
+      "36747873",
+      "31187399",
+      "33074102",
+      "32769192",
+      "36692138",
+      "17646347",
+      "37417869",
+      "29299051",
+      "41310253",
+      "28391243",
+      "24562911",
+      "34634444",
+      "30614068",
+      "39412446",
+      "33297952",
+      "40180577",
+      "37387140",
+      "26419209",
+      "36857952",
+      "19847301",
+      "38472305",
+      "29186618",
+      "38727722",
+      "31769759",
+      "31850020",
+      "22976484",
+      "19124542",
+      "17105770",
+      "24034606",
+      "28131009",
+      "23494303",
+      "34836627",
+      "2328286",
+      "22813642",
+      "17394669",
+      "31315618",
+      "36712353",
+      "29266096",
+      "24184208",
+      "35593869",
+      "31218353",
+      "33320936",
+      "12950472",
+      "39074275",
+      "10967037",
+      "36440906",
+      "33905560",
+      "23811565",
+      "8836113",
+      "23242070",
+      "34130628",
+      "32449519",
+      "31362571",
+      "11802780",
+      "33481459",
+      "30874723",
+      "38014764",
+      "31002188",
+      "32583085",
+      "17257660",
+      "33188302",
+      "36304323",
+      "29404850",
+      "33714842",
+      "35798684",
+      "12210765",
+      "36321557",
+      "29216821",
+      "32761899",
+      "11071946",
+      "34305257",
+      "29113428",
+      "41442308",
+      "15737989",
+      "16368434",
+      "9585506",
+      "10021350",
+      "33640720",
+      "25641578",
+      "18629296",
+      "34636429",
+      "35565352",
+      "37387156",
+      "30076489"
+    ],
+    "review": [
+      "40463405",
+      "28131009",
+      "8836113",
+      "31362571",
+      "17257660"
+    ],
+    "pmc": [
+      "12133273"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40463405/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbaf114",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

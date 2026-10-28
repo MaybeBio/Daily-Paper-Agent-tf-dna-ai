@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that the catalytic domains of mammalian TET enzymes exhibit intrinsic sequence preference for CpG dinucleotides embedded within bHLH and bZIP transcription factor binding sites, with a 250-fold preference in vitro. They propose that this preference arises from intra-substrate interactions and indirect effects of flanking sequence on enzyme conformation, supported by crystal structures and molecular dynamics. They further claim physiological relevance by linking these preferences to demethylation rates in TET-rescue experiments in culture, in the zygote, and in the germline, and by correlating favorable and unfavorable motifs with binding sites of methylation-sensitive immediate-early transcription factors and OCT4, respectively.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, methods details, structural data, molecular dynamics parameters, experimental protocols for TET-rescue experiments, statistical analyses, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important finding that TET catalytic domains have intrinsic sequence preferences with functional consequences. The claim of a 250-fold preference is striking and, if robust, would represent a significant advance in understanding DNA demethylation targeting. However, the abstract alone provides insufficient detail to evaluate the rigor of the biochemical, structural, and in vivo experiments. The link between in vitro preference and physiological function is asserted rather than demonstrated in the visible text. The conclusion that sequence preference "guides" cellular function requires stronger evidence than the correlative statements provided.
+- **Who would be interested in the results, and why** Researchers studying DNA methylation and demethylation, epigenetic reprogramming in development and germline, transcription factor biology, and structural enzymology of DNA-modifying enzymes. The potential connection to immediate-early transcription factors and pluripotency would also interest those studying cellular plasticity and transcriptional responses.
+- **Major strengths** The finding of intrinsic sequence specificity in TET catalytic domains is conceptually novel and could reframe how the field thinks about targeting of active demethylation. The combination of biochemical, structural, computational, and in vivo approaches is ambitious and appropriate for the question. The reported 250-fold preference is a large effect that, if reproducible, would be mechanistically meaningful.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that TET catalytic domains favor CpGs within bHLH and bZIP binding sites with 250-fold preference in vitro  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states a 250-fold preference but provides no information on how this was measured, what substrates were used, what range of sequences was tested, or how the preference was quantified. Without these details, the magnitude of the effect cannot be assessed for reliability or generalizability.  
+  - **Why it matters** A 250-fold preference is a strong quantitative claim that would be a central pillar of the paper. If the measurement is method-dependent or limited to a narrow sequence context, the conclusion would be substantially weakened.  
+  - **Resolution test** Provide the full methods for the in vitro preference assay, including substrate design, enzyme concentrations, reaction conditions, and the statistical model used to derive the fold preference. Show that the preference is robust across multiple sequence contexts and independent of assay conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal inference  
+  - **Claim pointer** The claim that TET sequence preferences are physiologically relevant because they explain demethylation rates in TET-rescue experiments in culture and in vivo  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract asserts that sequence preferences "explain" demethylation rates, but no quantitative comparison is shown. It is unclear whether the correlation is strong, whether other factors were controlled, or whether the sequence preference is a dominant or minor contributor to the observed rates.  
+  - **Why it matters** The physiological relevance claim is the key translational step from in vitro biochemistry to organismal function. If the explanatory power is weak or confounded, the central thesis of the paper is not established.  
+  - **Resolution test** Show quantitative agreement between predicted and observed demethylation rates across multiple loci, with appropriate statistical testing and controls for chromatin state, transcription factor occupancy, and other potential confounders.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Mechanistic interpretation  
+  - **Claim pointer** The claim that sequence preference is caused by intra-substrate interactions and CpG flanking sequence indirectly affecting enzyme conformation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The structural and molecular dynamics evidence is mentioned but not described. It is not possible to evaluate whether the proposed mechanism is well supported or speculative. The phrase "indirectly affecting enzyme conformation" is vague and could encompass many distinct mechanisms.  
+  - **Why it matters** A mechanistic understanding is important for the paper's contribution beyond the descriptive finding. If the mechanism is not clearly demonstrated, the paper is weaker but the main descriptive claim could still stand.  
+  - **Resolution test** Provide structural figures with clear depiction of the proposed interactions, and molecular dynamics data showing that flanking sequence alters enzyme conformation in a way that correlates with the observed preference.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretive overreach  
+  - **Claim pointer** The claim that most and least favorable TET motifs represent binding sites for methylation-sensitive immediate-early transcription factors and OCT4, respectively, illuminating TET function in transcriptional responses and pluripotency support  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract implies a functional link between TET sequence preference and transcription factor biology, but the direction of causality is unclear. It is possible that transcription factor binding protects or exposes CpGs in ways that correlate with TET preference without TET preference being the driver.  
+  - **Why it matters** This interpretive claim extends the paper beyond biochemistry into gene regulation and development. If the correlation is coincidental or confounded, the broader significance is overstated.  
+  - **Resolution test** Provide direct evidence that TET activity at these motifs is required for the observed transcriptional or pluripotency phenotypes, for example through mutation of the motif or perturbation of TET activity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "catalytic core"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract refers to "catalytic cores" but does not specify which constructs were used. Different TET family members and truncation constructs could have different preferences.  
+  - **Required correction** Specify which TET proteins and which domain boundaries were used in the experiments.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Sequence context of the 250-fold preference  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state whether the 250-fold preference is relative to a specific reference sequence or averaged over many contexts.  
+  - **Required correction** Clarify the reference point for the fold preference and report the range of preferences across tested sequences.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "guides" in the title  
+  - **Evidence pointer** Title  
+  - **Issue** The title states that sequence specificity "guides" cellular function, which implies a directing role. The abstract provides correlative evidence but not direct demonstration of guidance.  
+  - **Required correction** Consider softening the title or providing direct evidence of guidance in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative basis of the 250-fold preference and the quantitative link to in vivo demethylation rates must be fully documented before the central claims can be accepted.
+- **Assessment against Nature-style criteria**  
+  - Originality: The finding of intrinsic sequence preference in TET catalytic domains is original and would be of interest to the field.  
+  - Scientific importance: If confirmed, the finding would have broad implications for understanding how DNA demethylation is targeted. The importance is high.  
+  - Interdisciplinary readership: The topic bridges enzymology, structural biology, epigenetics, and developmental biology, which would appeal to a broad readership.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The blocking concerns must be resolved.  
+  - Readability for nonspecialists: The abstract is concise and accessible, though the mechanistic statement is somewhat opaque.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and potentially significant, but the abstract alone does not provide sufficient evidence to establish the claims. Full review of the manuscript with methods and data is required.
+
+## Risk / unsupported claims
+- The 250-fold preference magnitude is unsupported without methods and data.
+- The claim that sequence preferences "explain" demethylation rates in vivo is unsupported without quantitative comparison.
+- The mechanistic claim about intra-substrate interactions and conformational effects is unverifiable from the abstract.
+- The functional link to immediate-early transcription factors and OCT4 is correlative and not established as causal.
+- The title's use of "guides" implies a directing role that is not demonstrated in the abstract.

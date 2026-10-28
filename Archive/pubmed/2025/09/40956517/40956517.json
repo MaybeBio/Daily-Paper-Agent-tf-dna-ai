@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "40956517",
+    "doi": "10.1007/s11011-025-01665-z",
+    "title": "A novel modulator of the Axin/beta-Catenin interaction to restore EAAT2 expression in alzheimer's disease: an in-silico and in-vitro approach."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder marked by synaptic dysfunction and neuronal loss, with glutamate excitotoxicity playing a central role in its pathology. The astrocytic glutamate transporter EAAT2, responsible for maintaining synaptic glutamate homeostasis, is significantly downregulated in AD. Restoration of EAAT2 expression presents a promising therapeutic strategy. This study explores the potential of modulating the Wnt/beta-catenin signaling pathway to enhance EAAT2 levels by targeting the Axin-1/beta-catenin interaction. Through virtual screening of 120,993 compounds from the Asinex-CNS database, five lead candidates were identified based on molecular docking, MMGBSA scores, and drug-likeness parameters. Advanced in-silico analyses-including Principal Component Analysis, Dynamic Cross-Correlation Mapping, molecular dynamics simulations, and MM/PBSA binding free energy calculations-highlighted BAS 04937103 as the most promising compound for disrupting beta-catenin degradation. In vitro validation using C6 glioma cells and primary astrocytic cultures demonstrated that BAS 04937103 enhanced beta-catenin stabilization and nuclear translocation, reduced Axin-1 expression, and significantly upregulated EAAT2 levels. These molecular effects corresponded with decreased extracellular glutamate concentrations, improved glutamate uptake, and reduced oxidative stress. Collectively, these findings establish BAS 04937103 as a novel modulator of the Axin/beta-catenin interaction with therapeutic potential in mitigating glutamate-mediated neurotoxicity in Alzheimer's disease.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Axin",
+      "EAAT2",
+      "Glutamate",
+      "Beta-catenin"
+    ],
+    "mesh_terms": [
+      "*Axin Protein/metabolism",
+      "*Alzheimer Disease/metabolism/drug therapy",
+      "*beta Catenin/metabolism",
+      "*Excitatory Amino Acid Transporter 2/metabolism/biosynthesis",
+      "Animals",
+      "Astrocytes/metabolism/drug effects",
+      "Rats",
+      "Molecular Docking Simulation/methods",
+      "Wnt Signaling Pathway/drug effects",
+      "Humans",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaur, Harminder",
+        "Saikia, Biman",
+        "Choudhary, Gajendra",
+        "Prajapat, Manisha",
+        "Ghosh, Ketaki",
+        "Ghosh, Subrata",
+        "Mondal, Prasenjit",
+        "Prakash, Ajay",
+        "Medhi, Bikash"
+      ],
+      "short_names": [
+        "Kaur H",
+        "Saikia B",
+        "Choudhary G",
+        "Prajapat M",
+        "Ghosh K",
+        "Ghosh S",
+        "Mondal P",
+        "Prakash A",
+        "Medhi B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4017-641X"
+      ],
+      "affiliations": [
+        "Department of Immunopathology, PGIMER, Chandigarh, India.",
+        "Department of Immunopathology, PGIMER, Chandigarh, India.",
+        "Department of Pharmacology, PGIMER, Chandigarh, India.",
+        "Department of Ophthalmology, Stanford University, Stanford, CA, USA.",
+        "School of Chemical Sciences, IIT Mandi, Himachal Pradesh, India.",
+        "School of Chemical Sciences, IIT Mandi, Himachal Pradesh, India.",
+        "School of Biosciences and Bioengineering, IIT Mandi, Himachal Pradesh, India.",
+        "Department of Biological Sciences, IISER Berhampur, Odisha, India.",
+        "Department of Pharmacology, PGIMER, Chandigarh, India.",
+        "Department of Pharmacology, PGIMER, Chandigarh, India. medhi.bikash@pgimer.edu.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaur, Harminder",
+        "short_name": "Kaur H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunopathology, PGIMER, Chandigarh, India."
+        ]
+      },
+      {
+        "full_name": "Saikia, Biman",
+        "short_name": "Saikia B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunopathology, PGIMER, Chandigarh, India."
+        ]
+      },
+      {
+        "full_name": "Choudhary, Gajendra",
+        "short_name": "Choudhary G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, PGIMER, Chandigarh, India."
+        ]
+      },
+      {
+        "full_name": "Prajapat, Manisha",
+        "short_name": "Prajapat M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Ketaki",
+        "short_name": "Ghosh K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Sciences, IIT Mandi, Himachal Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Subrata",
+        "short_name": "Ghosh S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Sciences, IIT Mandi, Himachal Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Prasenjit",
+        "short_name": "Mondal P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences and Bioengineering, IIT Mandi, Himachal Pradesh, India.",
+          "Department of Biological Sciences, IISER Berhampur, Odisha, India."
+        ]
+      },
+      {
+        "full_name": "Prakash, Ajay",
+        "short_name": "Prakash A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, PGIMER, Chandigarh, India."
+        ]
+      },
+      {
+        "full_name": "Medhi, Bikash",
+        "short_name": "Medhi B",
+        "identifiers": [
+          "0000-0002-4017-641X"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, PGIMER, Chandigarh, India. medhi.bikash@pgimer.edu.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Metabolic brain disease"
+    ],
+    "journal_abbrev": [
+      "Metab Brain Dis"
+    ],
+    "pub_date": "2025 Sep 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/16 13:03",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40520959",
+      "39472385",
+      "38615895",
+      "37878051",
+      "37435190",
+      "37424708",
+      "35788966",
+      "35720489",
+      "35126055",
+      "34427888",
+      "33986301",
+      "32413698",
+      "32396767",
+      "32035419",
+      "31591195",
+      "31430518",
+      "31202091",
+      "30887122",
+      "30851309",
+      "30498328",
+      "29140675",
+      "24850022",
+      "23389618",
+      "22682243",
+      "14600025"
+    ],
+    "similar": [
+      "40956517",
+      "42051019",
+      "41482937",
+      "40860154",
+      "36617748",
+      "27612942",
+      "31582965",
+      "40734473",
+      "18326497",
+      "32035419",
+      "21792905",
+      "28077724",
+      "41654970",
+      "25257697",
+      "40885243",
+      "20193040",
+      "40739083",
+      "38733492",
+      "41427574",
+      "31591195",
+      "41645328",
+      "40915373",
+      "34310962",
+      "41784832",
+      "42320774",
+      "42329254",
+      "27287400",
+      "29140675",
+      "41662806",
+      "39921842",
+      "30851309",
+      "12890621",
+      "26797524",
+      "23761169",
+      "24782323",
+      "25711212",
+      "21034752",
+      "33068684",
+      "42134757",
+      "41205906",
+      "25064045",
+      "18790019",
+      "34756885",
+      "35146638",
+      "31872442",
+      "31519875",
+      "38760516",
+      "40640358",
+      "38400523",
+      "42489500",
+      "42183217",
+      "38913211",
+      "23872074",
+      "27068743",
+      "30539409",
+      "41527736",
+      "26246473",
+      "28546513",
+      "23959799",
+      "37355147",
+      "41183043",
+      "37822182",
+      "35750753",
+      "19141611",
+      "30176346",
+      "37779078",
+      "35788966",
+      "27196752",
+      "41720012",
+      "24467380",
+      "26096891",
+      "24753081",
+      "20508255",
+      "41290904",
+      "42343519",
+      "28711506",
+      "30424732",
+      "40946177",
+      "17213861",
+      "38143280",
+      "32297861",
+      "24095695",
+      "17138558",
+      "31801553",
+      "41857491",
+      "31189665",
+      "41611159",
+      "39655696",
+      "25589729",
+      "29445127",
+      "42284891",
+      "31257852",
+      "41956895",
+      "42307826",
+      "34997460",
+      "32005247",
+      "38690938",
+      "27484226",
+      "28981597",
+      "28559377"
+    ],
+    "review": [
+      "40956517",
+      "21792905",
+      "30851309",
+      "41205906",
+      "25064045",
+      "41527736",
+      "35788966",
+      "26096891",
+      "31801553",
+      "41956895"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11011-025-01665-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

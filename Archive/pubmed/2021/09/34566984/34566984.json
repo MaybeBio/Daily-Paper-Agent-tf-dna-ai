@@ -1,0 +1,531 @@
+{
+  "identity": {
+    "pmid": "34566984",
+    "doi": "10.3389/fimmu.2021.725989",
+    "title": "A Peripheral Immune Signature of Labor Induction."
+  },
+  "content": {
+    "abstract": "Approximately 1 in 4 pregnant women in the United States undergo labor induction. The onset and establishment of labor, particularly induced labor, is a complex and dynamic process influenced by multiple endocrine, inflammatory, and mechanical factors as well as obstetric and pharmacological interventions. The duration from labor induction to the onset of active labor remains unpredictable. Moreover, prolonged labor is associated with severe complications for the mother and her offspring, most importantly chorioamnionitis, uterine atony, and postpartum hemorrhage. While maternal immune system adaptations that are critical for the maintenance of a healthy pregnancy have been previously characterized, the role of the immune system during the establishment of labor is poorly understood. Understanding maternal immune adaptations during labor initiation can have important ramifications for predicting successful labor induction and labor complications in both induced and spontaneous types of labor. The aim of this study was to characterize labor-associated maternal immune system dynamics from labor induction to the start of active labor. Serial blood samples from fifteen participants were collected immediately prior to labor induction (baseline) and during the latent phase until the start of active labor. Using high-dimensional mass cytometry, a total of 1,059 single-cell immune features were extracted from each sample. A multivariate machine-learning method was employed to characterize the dynamic changes of the maternal immune system after labor induction until the establishment of active labor. A cross-validated linear sparse regression model (least absolute shrinkage and selection operator, LASSO) predicted the minutes since induction of labor with high accuracy (R = 0.86, p = 6.7e-15, RMSE = 277 min). Immune features most informative for the model included STAT5 signaling in central memory CD8(+) T cells and pro-inflammatory STAT3 signaling responses across multiple adaptive and innate immune cell subsets. Our study reports a peripheral immune signature of labor induction, and provides important insights into biological mechanisms that may ultimately predict labor induction success as well as complications, thereby facilitating clinical decision-making to improve maternal and fetal well-being.",
+    "keywords": [
+      "induction of labor",
+      "labor",
+      "machine learning",
+      "mass cytometry (CyTOF)",
+      "parturition",
+      "pregnancy",
+      "systems immunology"
+    ],
+    "mesh_terms": [
+      "Adaptation, Physiological/*immunology",
+      "Adult",
+      "CD8-Positive T-Lymphocytes/immunology",
+      "Female",
+      "Humans",
+      "Immunoassay",
+      "*Labor, Induced",
+      "Labor, Obstetric/*immunology",
+      "Linear Models",
+      "Machine Learning",
+      "Pregnancy",
+      "STAT Transcription Factors/immunology",
+      "Signal Transduction/immunology",
+      "United States"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ando, Kazuo",
+        "Hedou, Julien J",
+        "Feyaerts, Dorien",
+        "Han, Xiaoyuan",
+        "Ganio, Edward A",
+        "Tsai, Eileen S",
+        "Peterson, Laura S",
+        "Verdonk, Franck",
+        "Tsai, Amy S",
+        "Maric, Ivana",
+        "Wong, Ronald J",
+        "Angst, Martin S",
+        "Aghaeepour, Nima",
+        "Stevenson, David K",
+        "Blumenfeld, Yair J",
+        "Sultan, Pervez",
+        "Carvalho, Brendan",
+        "Stelzer, Ina A",
+        "Gaudilliere, Brice"
+      ],
+      "short_names": [
+        "Ando K",
+        "Hedou JJ",
+        "Feyaerts D",
+        "Han X",
+        "Ganio EA",
+        "Tsai ES",
+        "Peterson LS",
+        "Verdonk F",
+        "Tsai AS",
+        "Maric I",
+        "Wong RJ",
+        "Angst MS",
+        "Aghaeepour N",
+        "Stevenson DK",
+        "Blumenfeld YJ",
+        "Sultan P",
+        "Carvalho B",
+        "Stelzer IA",
+        "Gaudilliere B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Biomedical Sciences, University of the Pacific, Arthur A. Dugoni School of Dentistry, San Francisco, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Obstetrics and Gynecology, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+        "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ando, Kazuo",
+        "short_name": "Ando K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Hédou, Julien J",
+        "short_name": "Hédou JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Feyaerts, Dorien",
+        "short_name": "Feyaerts D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Han, Xiaoyuan",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+          "Department of Biomedical Sciences, University of the Pacific, Arthur A. Dugoni School of Dentistry, San Francisco, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Ganio, Edward A",
+        "short_name": "Ganio EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Tsai, Eileen S",
+        "short_name": "Tsai ES",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Peterson, Laura S",
+        "short_name": "Peterson LS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Verdonk, Franck",
+        "short_name": "Verdonk F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Tsai, Amy S",
+        "short_name": "Tsai AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Marić, Ivana",
+        "short_name": "Marić I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Wong, Ronald J",
+        "short_name": "Wong RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Angst, Martin S",
+        "short_name": "Angst MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Aghaeepour, Nima",
+        "short_name": "Aghaeepour N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+          "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States.",
+          "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Stevenson, David K",
+        "short_name": "Stevenson DK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Blumenfeld, Yair J",
+        "short_name": "Blumenfeld YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Sultan, Pervez",
+        "short_name": "Sultan P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Carvalho, Brendan",
+        "short_name": "Carvalho B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Stelzer, Ina A",
+        "short_name": "Stelzer IA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Gaudillière, Brice",
+        "short_name": "Gaudillière B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, United States.",
+          "Division of Neonatal and Developmental Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/28 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [
+      "41789063",
+      "41446843",
+      "40823902",
+      "40486626",
+      "40253074",
+      "39796279",
+      "39625044",
+      "39125434",
+      "39055706",
+      "38502448",
+      "36979094",
+      "35845593",
+      "35451089",
+      "35445873"
+    ],
+    "refs": [
+      "33952678",
+      "33543905",
+      "33412128",
+      "33294774",
+      "32925613",
+      "32028500",
+      "32020337",
+      "31829938",
+      "31263463",
+      "30561547",
+      "30454905",
+      "30299344",
+      "30089070",
+      "29224730",
+      "29138035",
+      "28864494",
+      "28671036",
+      "28429508",
+      "27647860",
+      "27291689",
+      "27220952",
+      "26508788",
+      "26341068",
+      "26178755",
+      "26138441",
+      "26068943",
+      "25612231",
+      "24954221",
+      "23930780",
+      "23928667",
+      "23531596",
+      "23512433",
+      "23090537",
+      "22784221",
+      "22614625",
+      "21184768",
+      "20610570",
+      "20569811",
+      "19748682",
+      "19723038",
+      "19628509",
+      "19623003",
+      "19282364",
+      "18266939",
+      "17205419",
+      "11966478",
+      "10460818",
+      "7585095",
+      "2786341"
+    ],
+    "similar": [
+      "34566984",
+      "29138035",
+      "30299344",
+      "34517146",
+      "31263712",
+      "31883372",
+      "35609644",
+      "31263463",
+      "28962035",
+      "33412128",
+      "38423450",
+      "38493591",
+      "38462251",
+      "19408970",
+      "30273585",
+      "36066167",
+      "37853378",
+      "27297698",
+      "34686873",
+      "32629600",
+      "1080093",
+      "39151749",
+      "23700844",
+      "40295229",
+      "38367749",
+      "30716284",
+      "23810846",
+      "28236342",
+      "32099979",
+      "24954221",
+      "38789941",
+      "32889327",
+      "32286002",
+      "36973092",
+      "27793998",
+      "36302236",
+      "30414603",
+      "28181995",
+      "33183100",
+      "35390665",
+      "39317213",
+      "29305255",
+      "39601322",
+      "20655108",
+      "32415469",
+      "32168227",
+      "32693773",
+      "33345957",
+      "33952678",
+      "31403588",
+      "34099760",
+      "37171818",
+      "37275889",
+      "29457302",
+      "24521301",
+      "32272905",
+      "37312039",
+      "35031012",
+      "39587525",
+      "20163401",
+      "11520397",
+      "18275513",
+      "37225129",
+      "8572018",
+      "33451623",
+      "31479772",
+      "37193763",
+      "39737539",
+      "18548392",
+      "36848041",
+      "33461839",
+      "9790402",
+      "20207242",
+      "10403928",
+      "15926620",
+      "36351938",
+      "34799687",
+      "36321557",
+      "33768531",
+      "31345178",
+      "30723280",
+      "8141857",
+      "39442996",
+      "30394154",
+      "11430948",
+      "39743391",
+      "1615976",
+      "24956550",
+      "32223479",
+      "33743637",
+      "1161228",
+      "26756259",
+      "38581215",
+      "37177795",
+      "30138617",
+      "37349086",
+      "37093603",
+      "39796279",
+      "40269788",
+      "16232176"
+    ],
+    "review": [
+      "34566984",
+      "30299344",
+      "38493591",
+      "19408970",
+      "40295229",
+      "23810846",
+      "32099979",
+      "24954221",
+      "32889327",
+      "36973092",
+      "37171818",
+      "36848041",
+      "36321557"
+    ],
+    "pmc": [
+      "8458888"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/childbirth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Childbirth"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34566984/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34566984",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1270",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2021.725989",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.immport.org/shared/search?text=34566984",
+        "provider": "ImmPort - Shared Data - Datasets",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

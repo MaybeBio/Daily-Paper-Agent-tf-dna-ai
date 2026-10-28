@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "36152365",
+    "doi": "10.1016/j.envint.2022.107536",
+    "title": "Predicting bioconcentration factor and estrogen receptor bioactivity of bisphenol a and its analogues in adult zebrafish by directed message passing neural networks."
+  },
+  "content": {
+    "abstract": "The bioconcentration factor (BCF) is a key parameter for bioavailability assessment of environmental pollutants in regulatory frameworks. The comparative toxicology and mechanism of action of congeners are also of concern. However, there are limitations to acquire them by conducting field and laboratory experiments while machinelearning is emerging as a promising predictive tool to fill the gap. In this study, the Direct Message Passing Neural Network (DMPNN) was applied to predict logBCFs of bisphenol A (BPA) and its four analogues (bisphenol AF (BPAF), bisphenol B (BPB), bisphenol F (BPF) and bisphenol S (BPS)). For the test set, the Pearson correlation coefficient (PCC) and mean square error (MSE) were 0.85 and 0.52 respectively, suggesting a good predictive performance. The predicted logBCFs values by the DMPNN ranging from 0.35 (BPS) to 2.14 (BPAF) coincided well with those by the classical EPI Suite (BCFBAF model). Besides, estrogen receptor alpha (ERalpha) bioactivity of these bisphenols was also predicted well by the DMPNN, with a probability of 97.0 % (BPB) to 99.7 % (BPAF), which was validated by the extent of vitellogenin (VTG) induction in male zebrafish as a biomarker except BPS. Thus, with little need for expert knowledge, DMPNN is confirmed to be a useful tool to accurately predict logBCF and screen for estrogenic activity from molecular structures. Moreover, a gender difference was noted in the changes of three endpoints (logBCF, ER binding affinity and VTG levels), the rank order of which was BPAF > BPB > BPA > BPF > BPS consistently, and abnormal amino acid metabolism is featured as an omics signature of abnormal hormone protein expression.",
+    "keywords": [
+      "Bisphenols",
+      "DMPNN",
+      "ERalpha",
+      "LogBCF",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Amino Acids",
+      "Animals",
+      "Benzhydryl Compounds/analysis",
+      "Bioaccumulation",
+      "*Environmental Pollutants/toxicity",
+      "Estrogen Receptor alpha/metabolism",
+      "Estrone",
+      "Fluorocarbons",
+      "Male",
+      "Neural Networks, Computer",
+      "Phenols",
+      "Receptors, Estrogen/metabolism",
+      "Sulfones",
+      "Vitellogenins/metabolism",
+      "*Zebrafish/metabolism",
+      "Bisphenol F Compounds",
+      "Bisphenol B Compounds",
+      "Bisphenol S Compounds",
+      "Bisphenol A Compounds"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Liping",
+        "Chen, Pengyu",
+        "He, Keyan",
+        "Wang, Ruihan",
+        "Chen, Geng",
+        "Shan, Guoqiang",
+        "Zhu, Lingyan"
+      ],
+      "short_names": [
+        "Yang L",
+        "Chen P",
+        "He K",
+        "Wang R",
+        "Chen G",
+        "Shan G",
+        "Zhu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China.",
+        "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China; College of Oceanography, Hohai University, Nanjing 210098, China.",
+        "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China.",
+        "College of Chemistry, Sichuan University, Chengdu, Sichuan 610064, China.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, UCAS, Hangzhou 330106, China.",
+        "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China. Electronic address: yunongshan@nankai.edu.cn.",
+        "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Liping",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Pengyu",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China; College of Oceanography, Hohai University, Nanjing 210098, China."
+        ]
+      },
+      {
+        "full_name": "He, Keyan",
+        "short_name": "He K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruihan",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry, Sichuan University, Chengdu, Sichuan 610064, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Geng",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, UCAS, Hangzhou 330106, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Guoqiang",
+        "short_name": "Shan G",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China. Electronic address: yunongshan@nankai.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lingyan",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pollution Processes and Environmental Criteria, Ministry of Education, Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environment international"
+    ],
+    "journal_abbrev": [
+      "Environ Int"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/25 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "42653223",
+      "39907955"
+    ],
+    "refs": [],
+    "similar": [
+      "36152365",
+      "37704156",
+      "29397701",
+      "29016128",
+      "28407500",
+      "26086576",
+      "35131240",
+      "29389661",
+      "26751127",
+      "29195089",
+      "29093337",
+      "29995627",
+      "28591870",
+      "37003593",
+      "31415773",
+      "32861950",
+      "34534871",
+      "30476841",
+      "36195136",
+      "33010167",
+      "36116629",
+      "28858478",
+      "33121856",
+      "37473512",
+      "30590302",
+      "30613871",
+      "22494775",
+      "26957022",
+      "30826544",
+      "31838679",
+      "32508751",
+      "31121516",
+      "30321396",
+      "31207516",
+      "25213402",
+      "29940361",
+      "23714657",
+      "34978033",
+      "36220475",
+      "29392883",
+      "34798105",
+      "35390582",
+      "36497860",
+      "29940534",
+      "33496180",
+      "34328988",
+      "32289607",
+      "37714399",
+      "32392677",
+      "28402180",
+      "34213252",
+      "25048916",
+      "35636595",
+      "34299453",
+      "30623888",
+      "26360019",
+      "26298263",
+      "30871434",
+      "29847185",
+      "25048943",
+      "25912373",
+      "28458198",
+      "31361189",
+      "33793236",
+      "31995776",
+      "19440529",
+      "29110462",
+      "30125403",
+      "30640007",
+      "26028149",
+      "31955091",
+      "33866271",
+      "36681333",
+      "31195007",
+      "26232583",
+      "34058679",
+      "37418940",
+      "34388431",
+      "30639807",
+      "28801100",
+      "34162083",
+      "29146198",
+      "33012567",
+      "34335471",
+      "28751236",
+      "32429402",
+      "30265984",
+      "28765074",
+      "24262000",
+      "30903934",
+      "34474090",
+      "34019995",
+      "31201879",
+      "35598417",
+      "34808222",
+      "27486708",
+      "27143250",
+      "33120264",
+      "28482050",
+      "31352154",
+      "34000551",
+      "30735977",
+      "29678407",
+      "31388671",
+      "36709907",
+      "37121039",
+      "36423468",
+      "37839743",
+      "36497816",
+      "39050442",
+      "38003411",
+      "36649116",
+      "36030852",
+      "38141296",
+      "36682655"
+    ],
+    "review": [
+      "36152365",
+      "28801100",
+      "31201879",
+      "27143250"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0160-4120(22)00463-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

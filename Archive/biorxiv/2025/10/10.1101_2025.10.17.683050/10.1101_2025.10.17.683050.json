@@ -1,0 +1,1093 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.17.683050",
+  "title": "Enhanced Sampling Enables Binding Site Water Reorganization in Polarizable Absolute Binding Free Energy Calculations",
+  "doi": "10.1101/2025.10.17.683050",
+  "abstract": "Water molecules play a critical role in mediating protein–ligand interactions by forming hydrogen-bonding networks and contributing to ligand solvation. However, their behavior—ranging from rapid solvent exchange to persistent occupancy of buried sites—makes accurate binding free-energy estimation with molecular dynamics challenging. Inadequate sampling of water reorganization can bias computed affinities and obscure key interactions by preventing representative hydration states during calculations. To address this, we employ the polarizable AMOEBA force field together with Lambda-ABF-OPES, an integrated enhanced-sampling framework combining lambda-dynamics, multiple-walker adaptive biasing force, and on-the-fly probability enhanced sampling. AMOEBA provides a polarizable description of protein–ligand, ligand–water, and protein–water interactions, while the dynamic alchemical coordinate and adaptive biasing facilitate exploration of coupled ligand–pocket–solvent configurations during ligand decoupling. This construction allows water exchange, binding-site rehydration and solvent reorganization to emerge along the alchemical pathway without explicitly biasing water-based collective variables. Applied to five protein–ligand complexes spanning buried and semi-buried environments, the approach yields binding affinities in good agreement with experiment and captures relevant water-mediated reorganization to provide reproducible absolute binding free energies.",
+  "authors": [
+    "Marharyta Blazhynska",
+    "Narjes Ansari",
+    "Louis Lagardère",
+    "Jean-Philip Piquemal"
+  ],
+  "published_date": "2025-10-17",
+  "updated_date": "2025-10-18T03:00:13Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.17.683050",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.17.683050.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2026-09-21T23:34:35Z",
+        "timestamp": 1790033675513,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            17
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 127,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                17
+              ]
+            ],
+            "date-time": "2025-10-17T00:00:00Z",
+            "timestamp": 1760659200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "European Research Council",
+          "award": [
+            "810367"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "810367"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/0472cxd90",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Water molecules play a critical role in mediating protein–ligand interactions by forming hydrogen-bonding networks and contributing to ligand solvation. However, their behavior—ranging from rapid solvent exchange to persistent occupancy of buried sites—makes accurate binding free-energy estimation with molecular dynamics challenging. Inadequate sampling of water reorganization can bias computed affinities and obscure key interactions by preventing representative hydration states during calculations. To address this, we employ the polarizable AMOEBA force field together with Lambda-ABF-OPES, an integrated enhanced-sampling framework combining lambda-dynamics, multiple-walker adaptive biasing force, and on-the-fly probability enhanced sampling. AMOEBA provides a polarizable description of protein–ligand, ligand–water, and protein–water interactions, while the dynamic alchemical coordinate and adaptive biasing facilitate exploration of coupled ligand–pocket–solvent configurations during ligand decoupling. This construction allows water exchange, binding-site rehydration and solvent reorganization to emerge along the alchemical pathway without explicitly biasing water-based collective variables. Applied to five protein–ligand complexes spanning buried and semi-buried environments, the approach yields binding affinities in good agreement with experiment and captures relevant water-mediated reorganization to provide reproducible absolute binding free energies.</jats:p>",
+      "DOI": "10.1101/2025.10.17.683050",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            18
+          ]
+        ],
+        "date-time": "2025-10-18T03:00:13Z",
+        "timestamp": 1760756413000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Enhanced Sampling Enables Binding Site Water Reorganization in Polarizable Absolute Binding Free Energy Calculations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0749-8772",
+          "authenticated-orcid": false,
+          "given": "Marharyta",
+          "family": "Blazhynska",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Sorbonne Université, Laboratoire de Chimie Théorique, UMR 7616 CNRS, 75252 Paris Cedex 05, France"
+            },
+            {
+              "name": "Qubit Pharmaceuticals, Advanced Research Department, 75014 Paris, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Narjes",
+          "family": "Ansari",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Qubit Pharmaceuticals, Advanced Research Department, 75014 Paris, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Louis",
+          "family": "Lagardère",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sorbonne Université, Laboratoire de Chimie Théorique, UMR 7616 CNRS, 75252 Paris Cedex 05, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6615-9426",
+          "authenticated-orcid": false,
+          "given": "Jean-Philip",
+          "family": "Piquemal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sorbonne Université, Laboratoire de Chimie Théorique, UMR 7616 CNRS, 75252 Paris Cedex 05, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr068037a"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00520"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jmr.2810"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.4",
+          "first-page": "259",
+          "volume": "819",
+          "year": "2012",
+          "journal-title": "Methods Mol. Biol."
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci6003527"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/156802610790725506"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/b612449f"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.9b06275"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1359",
+          "DOI": "10.1021/acs.jctc.1c00590",
+          "article-title": "Enhancing Sampling of Water Rehydration on Ligand Binding: A Comparison of Techniques",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202505713",
+          "DOI": "10.1002/anie.202505713",
+          "article-title": "Thermodynamics of Water Displacement from Binding Sites and its Contributions to Supramolecular and Biomolecular Affinity",
+          "volume": "64",
+          "year": "2025",
+          "journal-title": "Angew. Chem. Int. Ed"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1623",
+          "DOI": "10.1021/ci400674k",
+          "article-title": "Strategies to Calculate Water Binding Free Energies in Protein–Ligand Complexes",
+          "volume": "54",
+          "year": "2014",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "13337",
+          "DOI": "10.1021/jp9047456",
+          "article-title": "Prediction of the Water Content in Protein Binding Sites",
+          "volume": "113",
+          "year": "2009",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "767",
+          "DOI": "10.1007/s10822-022-00479-w",
+          "article-title": "Enhancing sampling of water rehydration upon ligand binding using variants of grand canonical Monte Carlo",
+          "volume": "36",
+          "year": "2022",
+          "journal-title": "J. Comput. Aided Mol. Des"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1897",
+          "DOI": "10.1021/acs.jctc.4c00013",
+          "article-title": "Efficient Sampling of Cavity Hydration in Proteins with Nonequilibrium Grand Canonical Monte Carlo and Polarizable Force Fields",
+          "volume": "20",
+          "year": "2024",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.5b07940"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "6373",
+          "DOI": "10.1021/acs.jctc.7b00738",
+          "article-title": "Replica-Exchange and Standard State Binding Free Energies with Grand Canonical Monte Carlo",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1038/s42004-018-0019-x",
+          "article-title": "Large-scale analysis of water stability in bromodomain binding pockets with grand canonical Monte Carlo",
+          "volume": "1",
+          "year": "2018",
+          "journal-title": "Commun. Chem"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja981844+"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.10379"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.1021/ci4001794",
+          "article-title": "Including Explicit Water Molecules as Part of the Protein Structure in MM/PBSA Calculations",
+          "volume": "54",
+          "year": "2014",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "2706",
+          "DOI": "10.1021/ct400045d",
+          "article-title": "Explicit Ligand Hydration Shells Improve the Correlation between MM-GBSA Binding Energies and Experimental Activities",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.3389/fchem.2018.00043",
+          "article-title": "An Efficient Implementation of the Nwat-MMGBSA Method to Rescore Docking Results in Medium-Throughput Virtual Screenings",
+          "volume": "6",
+          "year": "2018",
+          "journal-title": "Front. Chem"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008763014207"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ar000033j"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/minf.201100135"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja1050082"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(04)74084-9"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct3008099"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.2c01490"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4733951"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.24417"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja0771033"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.177"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.1146/annurev-biophys-062722-093258",
+          "article-title": "Free Energy Methods for the Description of Molecular Processes",
+          "volume": "52",
+          "year": "2023",
+          "journal-title": "Annu. Rev. Biophys"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-021-00676-1"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202427399"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1303186110"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-020-0342-4"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1740409"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.41",
+          "unstructured": "Landau, L. D. ; Lifshitz, E. M. Course of Theoretical Physics, Vol. 5: Statistical Physics; Pergamon Press: London, 1980; Translated from the Russian by Peierls, E. and Peierls, R. F., pp. 893–895."
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct700032n"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "222",
+          "DOI": "10.1038/s42004-023-01019-9",
+          "article-title": "The maximal and current accuracy of rigorous protein-ligand binding free energy calculations",
+          "volume": "6",
+          "year": "2023",
+          "journal-title": "Commun. Chem"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "2494",
+          "DOI": "10.1021/acs.jctc.1c01235",
+          "article-title": "Symmetry-adapted restraints for binding free energy calculations",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c00269"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-021-00676-1"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "7755",
+          "DOI": "10.1021/acs.jcim.3c01670",
+          "article-title": "Accelerating and automating the free energy perturbation absolute binding free energy calculation with the RED-E function",
+          "volume": "63",
+          "year": "2023",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "621",
+          "DOI": "10.1038/s43588-025-00821-w",
+          "article-title": "A formally exact method for high-throughput absolute binding-free-energy calculations",
+          "volume": "5",
+          "year": "2025",
+          "journal-title": "Nat. Comput. Sci"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "754",
+          "DOI": "10.1021/acs.jcim.8b00826",
+          "article-title": "Assessing the Predictive Power of Relative Binding Free Energy Calculations for Test Cases Involving Displacement of Binding Site Water Molecules",
+          "volume": "59",
+          "year": "2019",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct900223z"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1038/s41467-020-20310-0",
+          "article-title": "The role of water in host-guest interaction",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "5438",
+          "DOI": "10.1038/s41467-022-33104-3",
+          "article-title": "Water regulates the residence time of Benzamidine in Trypsin",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "164111",
+          "DOI": "10.1063/5.0287856",
+          "article-title": "All You Need Is Water: Converging Ligand Binding Simulations with Hydration Collective Variables",
+          "volume": "163",
+          "year": "2025",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "4481",
+          "DOI": "10.1021/acs.jctc.3c01249",
+          "article-title": "Lambda-ABF: Simplified, portable, accurate, and cost-effective alchemical free-energy computation",
+          "volume": "20",
+          "year": "2024",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "4626",
+          "DOI": "10.1021/acs.jpclett.5c00683",
+          "article-title": "Lambda-ABF-OPES: Faster Convergence with High Accuracy in Alchemical Free Energy Calculations",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "J. Phys. Chem. Lett"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.472109"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21295"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.0c00497"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct900524t"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.100.020603"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2010.01.033"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00268976.2013.813594"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct9004432"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "6560",
+          "DOI": "10.1021/acs.jctc.8b00447",
+          "article-title": "A Streamlined, general approach for computing ligand binding free energies and its application to GPCR-bound cholesterol",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.65",
+          "first-page": "51",
+          "volume-title": "Rev. Comput. Chem",
+          "volume": "28",
+          "year": "2015"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "143",
+          "DOI": "10.3389/fmolb.2019.00143",
+          "article-title": "Accurate Biomolecular Simulations Account for Electronic Polarization",
+          "volume": "6",
+          "year": "2019",
+          "journal-title": "Front. mol. biosci"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-070317-033349"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.68",
+          "doi-asserted-by": "crossref",
+          "first-page": "3312",
+          "DOI": "10.1021/ja9059156",
+          "article-title": "Polarizable Water Molecules in Ligand-Macromolecule Recognition. Impact on the Relative Affinities of Competing Pyrrolopyrimidine Inhibitors for FAK Kinase",
+          "volume": "132",
+          "year": "2010",
+          "journal-title": "J. Am. Chem. Soc"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "9415",
+          "DOI": "10.1021/jacs.0c02394",
+          "article-title": "Induced Polarization in Molecular Dynamics Simulations of the 5-HT3 Receptor Channel",
+          "volume": "142",
+          "year": "2020",
+          "journal-title": "J. Am. Chem. Soc"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D1SC00145K"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.1c01460"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D1SC05892D"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D4SC04364B"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp910674d"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.52201"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "5391",
+          "DOI": "10.1021/acs.jmedchem.6b00264",
+          "article-title": "Diving into the Water: Inducible Binding Conformations for BRD4, TAF1(2), BRD9, and CECR2 Bromodomains",
+          "volume": "59",
+          "year": "2016",
+          "journal-title": "J. Med. Chem"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm100060b"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20945"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.JMB.2024.168554"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.8b00529"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.81",
+          "unstructured": "Wang, Z. Tinker9: Next Generation of Tinker with GPU Support. https://github.com/TinkerTools/tinker9, 2021; Washington University in St. Louis."
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00214-012-1138-6"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.26954"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.84",
+          "unstructured": "TinkerTools Poltype2: Automated Parameterization of the AMOEBA Polarizable Force Field for Small Molecules. https://github.com/TinkerTools/poltype2, 2026; GitHub repository; accessed 7 September 2026."
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.85",
+          "doi-asserted-by": "crossref",
+          "first-page": "5933",
+          "DOI": "10.1021/jp027815+",
+          "article-title": "Polarizable Atomic Multipole Water Model for Molecular Mechanics Simulation",
+          "volume": "107",
+          "year": "2003",
+          "journal-title": "J. Phys. Chem"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct4003702"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.7b01169"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.9b00901"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C7SC04531J"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.0c01164"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.91",
+          "unstructured": "TinkerTools Tinker-HP: High-Performance Massively Parallel Tinker for CPUs and GPUs. https://github.com/TinkerTools/tinker-hp, 2026; Version 1.3; GitHub repository; accessed 7 September 2026."
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct5010406"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.93",
+          "doi-asserted-by": "crossref",
+          "first-page": "2067",
+          "DOI": "10.33011/livecoms.5.1.2067",
+          "article-title": "Computing Absolute Binding Affinities by Streamlined Alchemical Free Energy Perturbation (SAFEP) [Article v1.0]",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Living J. Comput. Mol. Sci"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.94",
+          "doi-asserted-by": "crossref",
+          "first-page": "5276",
+          "DOI": "10.1021/ct500874p",
+          "article-title": "Multiple-walker strategies for free-energy calculations in NAMD: Shared adaptive biasing force and walker selection rules",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.2c00152"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.96",
+          "doi-asserted-by": "crossref",
+          "first-page": "6500",
+          "DOI": "10.1021/acs.jctc.2c00806",
+          "article-title": "Rare Event Kinetics from Adaptive Bias Enhanced Sampling",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C7SC04531J"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.98",
+          "unstructured": "Adjoua, O. Tinker-HP: High-Performance Massively Parallel Evolution of Tinker on CPUs & GPUs. https://github.com/TinkerTools/Tinker-HP."
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct3002464"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "3626",
+          "DOI": "10.1021/ct500441q",
+          "article-title": "Transition-Tempered Metadynamics: Robust, Convergent Metadynamics via On-the-Fly Transition Barrier Estimation",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0009-2614(94)00397-1"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.466707"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.103",
+          "doi-asserted-by": "crossref",
+          "first-page": "45",
+          "DOI": "10.1080/08927020211973",
+          "article-title": "A Comparison of Non-Bonded Scaling Approaches for Free Energy Calculations",
+          "volume": "28",
+          "year": "2002",
+          "journal-title": "Mol. Simulat"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.104",
+          "doi-asserted-by": "crossref",
+          "first-page": "1721",
+          "DOI": "10.1021/ct300035u",
+          "article-title": "The Structure, Thermodynamics, and Solubility of Organic Crystals from Simulation with a Polarizable Force Field",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00046a032"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.106",
+          "unstructured": "Ansari, N. ABFE-L-ABF-OPES: Water Networks Complexes Data. https://github.com/ansarinarjes/ABFE-L-ABF-OPES/tree/main/Water_Networks_complexes, 2026."
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.107",
+          "first-page": "659",
+          "article-title": "The role of human bromodomains in chromatin biology and gene transcription",
+          "volume": "12",
+          "year": "2009",
+          "journal-title": "Curr. Opin. Drug Discov. Devel"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.02.013"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsos.240790"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.5b01514"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.111",
+          "doi-asserted-by": "crossref",
+          "first-page": "7186",
+          "DOI": "10.1021/acs.jmedchem.0c00456",
+          "article-title": "Novel Pyrrolopyridone Bromodomain and Extra-Terminal Motif (BET) Inhibitors Effective in Endocrine-Resistant ER+ Breast Cancer with Acquired Resistance to Fulvestrant and Palbociclib",
+          "volume": "63",
+          "year": "2020",
+          "journal-title": "J. Med. Chem"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/bj3180001"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0083-6729(10)83006-7"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.114",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-5521(99)80049-0"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.115",
+          "doi-asserted-by": "crossref",
+          "first-page": "102",
+          "DOI": "10.1016/j.cplett.2016.02.008",
+          "article-title": "Structural and dipolar fluctuations in liquid water: A Car–Parrinello molecular dynamics study",
+          "volume": "648",
+          "year": "2016",
+          "journal-title": "Chem. Phys. Lett"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.116",
+          "doi-asserted-by": "crossref",
+          "first-page": "505",
+          "DOI": "10.1038/nsb0696-505",
+          "article-title": "Using buried water molecules to explore the energy landscape of proteins",
+          "volume": "3",
+          "year": "1996",
+          "journal-title": "Nat. Struct. Mol. Biol"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.117",
+          "doi-asserted-by": "crossref",
+          "first-page": "1112",
+          "DOI": "10.1002/(SICI)1096-987X(19960715)17:9<1112::AID-JCC4>3.0.CO;2-V",
+          "article-title": "Alternative Approaches to Potential of Mean Force Calculations: Free Energy Perturbation versus Thermodynamic Integration. Case Study of Some Representative Nonpolar Interactions",
+          "volume": "17",
+          "year": "1996",
+          "journal-title": "J. Comput. Chem"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.118",
+          "doi-asserted-by": "crossref",
+          "first-page": "1063",
+          "DOI": "10.1021/jm701023h",
+          "article-title": "Robust classification of “relevant” water molecules in putative protein binding sites",
+          "volume": "51",
+          "year": "2008",
+          "journal-title": "J. Med. Chem"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.119",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1106094108"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.120",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00268977400102551"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.121",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00268977500100221"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.122",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00268978000101971"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.123",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00268978700101321"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.124",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.26434/chemrxiv-2025-f1hgn-v3"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.125",
+          "unstructured": "Benali, A. et al. Pushing the Accuracy Limit of Foundation Neural Network Models with Quantum Monte Carlo Forces and Path Integrals. 2025; https://arxiv.org/abs/2504.07948."
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.126",
+          "doi-asserted-by": "crossref",
+          "first-page": "1288",
+          "DOI": "10.1021/acs.jpclett.5c03720",
+          "article-title": "Accelerating Molecular Dynamics Simulations with Foundation Neural Network Models Using Multiple Time Steps and Distillation",
+          "volume": "17",
+          "year": "2026",
+          "journal-title": "J. Phys. Chem. Lett"
+        },
+        {
+          "key": "2026091708050859000_2025.10.17.683050v5.127",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.22208958"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.17.683050",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T15:05:21Z",
+        "timestamp": 1789657521000
+      },
+      "score": 124.13103,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.17.683050"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            17
+          ]
+        ]
+      },
+      "references-count": 127,
+      "URL": "https://doi.org/10.1101/2025.10.17.683050",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

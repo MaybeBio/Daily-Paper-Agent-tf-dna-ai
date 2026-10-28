@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors propose that exposure to environmentally relevant doses of 16 priority-controlled polycyclic aromatic hydrocarbons (PAHs) induces cardiovascular senescence through a dual mechanism: a classical aryl hydrocarbon receptor (AhR) dependent pathway that inhibits SIRT6 expression, and a novel direct binding of parent PAHs to SIRT6 DNA binding sites, impairing its telomere maintenance and DNA damage response functions.
+- **Visible evidence base** In vitro experiments with primary human umbilical vein endothelial cells (HUVECs) and in vivo experiments with Sprague-Dawley rats; molecular dynamics simulations; electrophoretic mobility shift assay (EMSA)
+- **Missing materials affecting confidence** Full methods, detailed statistical analyses, dose-response data, raw simulation parameters, EMSA gel images, histopathology images, and any supplementary figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically novel hypothesis linking PAH exposure to cardiovascular senescence via SIRT6. However, the evidence as summarized is insufficient to establish the proposed dual mechanism. Key claims regarding direct PAH binding to SIRT6 and the relative contribution of the AhR dependent versus independent pathways are not adequately supported by the data described. The study would benefit from clearer quantitative results, additional controls, and a more rigorous demonstration of the direct interaction.
+- **Who would be interested in the results, and why** Environmental toxicologists, cardiovascular biologists, and researchers studying aging and telomere biology. The work could inform regulatory risk assessments for PAH mixtures and provide a new molecular target for interventions against pollution related cardiovascular aging.
+- **Major strengths** The study addresses a relevant environmental health question using a mixture of 16 priority PAHs at environmentally relevant doses, which is more realistic than single compound studies. The combination of in vitro, in vivo, and computational approaches is commendable. The proposal of a novel AhR independent mechanism for PAH toxicity is intellectually interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for direct binding claim
+  - **Claim pointer** The abstract claims that typical parent PAHs (phenanthrene, benzo[a]pyrene) can directly bind to known DNA strand binding sites of SIRT6 through hydrophobic force, validated by EMSA.
+  - **Evidence pointer** Molecular dynamics simulations and EMSA; specific figures not provided
+  - **Concern** The abstract states that molecular dynamics simulations demonstrated direct binding and that this was validated by EMSA. However, no quantitative data from the simulations (e.g., binding free energies, contact residues) or from the EMSA (e.g., binding constants, competition experiments) are presented. The claim of direct binding is central to the proposed new mechanism, and the current evidence description is too superficial to assess its validity.
+  - **Why it matters** If the direct binding claim is not robustly supported, the novelty of the proposed mechanism collapses, and the study reduces to a more conventional AhR dependent toxicity narrative. Overinterpretation of computational and qualitative binding data could mislead the field.
+  - **Resolution test** Provide quantitative binding data from simulations (e.g., free energy calculations, residence times) and EMSA (e.g., dissociation constants, dose response, and competition with unlabeled DNA). Show that binding is specific and occurs at physiologically relevant concentrations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between AhR inhibition and SIRT6 rescue
+  - **Claim pointer** The abstract claims that CH-223191 (an AhR inhibitor) rescued the aging phenotypes induced by PAHs, suggesting AhR plays an important role.
+  - **Evidence pointer** In vitro experiments; specific data not provided
+  - **Concern** The abstract does not specify whether CH-223191 treatment fully or partially rescued the aging phenotypes, nor does it clarify whether SIRT6 expression was restored to baseline levels. The statement "rescued the aging phenotypes" is vague and could range from a minor improvement to a complete reversal. Without quantitative data on senescence markers (e.g., SA-beta-gal activity, p16 or p21 expression) and SIRT6 levels, the causal role of AhR in the pathway is not firmly established.
+  - **Why it matters** The proposed mechanism hinges on AhR being upstream of SIRT6 inhibition. If the rescue is only partial or if SIRT6 is not fully restored, alternative pathways could be involved, weakening the mechanistic model.
+  - **Resolution test** Provide quantitative data showing that CH-223191 restores SIRT6 expression and function to near control levels and that senescence markers are significantly reduced. Include dose response for the inhibitor and demonstrate specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance and dose extrapolation
+  - **Claim pointer** The abstract claims that in vivo PAHs exposure raised AhR expression, affected SIRT6 related aging signaling, and induced myocardial and vascular remodeling in rats.
+  - **Evidence pointer** In vivo rat study; specific data not provided
+  - **Concern** The abstract does not provide any quantitative data on the extent of myocardial and vascular remodeling, nor does it specify which SIRT6 related pathways were affected. The term "environmentally relevant dose" is used, but the actual administered doses and their relevance to human exposure levels are not described. Without these details, the translational significance of the findings is unclear.
+  - **Why it matters** For a study claiming environmental relevance, the dose selection and the magnitude of effects are critical. If the effects are only seen at high doses, the relevance to real world exposure is questionable. The lack of quantitative histopathology and molecular data limits the assessment of biological significance.
+  - **Resolution test** Provide dose response data for in vivo effects, compare with known human exposure levels, and include quantitative histopathology scores and molecular readouts (e.g., SIRT6 protein and mRNA levels, telomere length).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental design
+  - **Affected element** In vitro exposure duration
+  - **Evidence pointer** Abstract methods description
+  - **Issue** The abstract states that HUVECs were exposed for 48 h, but it is unclear whether this is a single exposure or repeated exposures, and whether this duration is sufficient to induce senescence in primary cells.
+  - **Required correction** Clarify the exposure regimen and justify the 48 h duration with reference to established senescence induction protocols.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Directly or indirectly inhibited SIRT6 expression"
+  - **Evidence pointer** Abstract results section
+  - **Issue** The phrase "directly or indirectly" is ambiguous and weakens the mechanistic claim. It is unclear whether the authors have evidence to distinguish between these possibilities.
+  - **Required correction** Specify the proposed mode of inhibition based on the data, or explicitly state that the distinction is not resolved.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of simulation description
+  - **Affected element** Molecular dynamics simulations
+  - **Evidence pointer** Abstract methods description
+  - **Issue** The abstract does not specify the simulation timescale, force field, or whether the binding was assessed for all 16 PAHs or only a subset.
+  - **Required correction** Provide these details in the full manuscript and summarize key parameters in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The direct binding claim requires quantitative validation, and the causal role of AhR in SIRT6 inhibition needs stronger experimental support. The in vivo data need more quantitative detail to establish biological significance.
+- **Assessment against Nature-style criteria** Originality: The proposed direct binding of parent PAHs to SIRT6 is a novel concept, but its novelty depends on robust evidence. Scientific importance: The topic is of high importance given the widespread exposure to PAHs and the burden of cardiovascular disease. Interdisciplinary readership: The work bridges environmental health, toxicology, and cardiovascular biology, which could attract a broad audience. Technical soundness: The combination of methods is appropriate, but the current evidence description is insufficient to judge technical rigor. Readability for nonspecialists: The abstract is generally clear, but the mechanistic details may be challenging for a general audience; the use of jargon such as "telomere dysfunction" and "molecular dynamics simulations" could be better contextualized.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has potential, but the central claims require substantial additional evidence and clarification before the proposed mechanism can be considered established.
+
+## Risk / unsupported claims
+- The claim that parent PAHs directly bind to SIRT6 DNA binding sites is unsupported by the quantitative data described in the abstract.
+- The claim that CH-223191 "rescued" aging phenotypes is vague and not quantitatively supported.
+- The in vivo claim of "myocardial and vascular remodeling" lacks quantitative histopathological evidence in the abstract.
+- The assertion that this is "a new mechanism" is premature given the unresolved direct versus indirect effects and the lack of detailed binding data.

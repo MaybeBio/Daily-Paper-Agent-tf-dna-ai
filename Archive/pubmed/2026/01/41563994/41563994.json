@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "41563994",
+    "doi": "10.1371/journal.pone.0339296",
+    "title": "Identification of hypoxia- and mitophagy-related diagnostic biomarkers for ulcerative colitis based on bioinformatic analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ulcerative colitis (UC) is a chronic nonspecific inflammatory bowel disease of unknown etiology that is associated with a significant risk of progression to colorectal cancer. The aim of this study was to systematically identify hypoxia- and mitophagy-related molecular signatures associated with UC, thereby providing novel insights into disease mechanisms and therapeutic strategies. METHODS: A comprehensive analytical framework integrating differential expression analysis and functional enrichment assessment was employed to systematically characterize dysregulated mitophagy-related genes (MRGs) and hypoxia-related genes (HRGs) in UC and their associated pathogenic pathways. We employed two advanced machine learning methods, support vector machine with recursive feature elimination (SVM-RFE) and least absolute shrinkage and selection operator (LASSO), to evaluate diagnostic models validated by receiver operating characteristic (ROC) curves and optimize feature selection. These results were verified by basic experiments. We subsequently analyzed immune cell infiltration to clarify the interaction between mitophagy/hypoxia and immunological disorders in UC pathogenesis. Finally, mRNA-transcription factor (TF) and mRNA-miRNA regulatory networks were constructed, revealing intricate molecular crosstalk among hub genes through systematic bioinformatic analyzes. RESULTS: After validation with two machine learning approaches, two pivotal biomarkers (CD55 and CPT1A) with diagnostic potential were rigorously selected. ROC curve analysis revealed the superior diagnostic efficacy of these key genes, confirming their clinical discriminative capacity. Experimental verification confirmed these findings. Notably, subsequent immune profiling revealed significant upregulation of multiple immune cell populations in the high-risk UC subgroup. Furthermore, the expression of diagnostic biomarkers was significantly correlated with dynamic changes in immune cell infiltration, suggesting that these biomarkers play immunomodulatory roles in UC progression. Finally, mRNA-miRNA and mRNA-TF regulatory network analyzes revealed complex interactions. CONCLUSIONS: We elucidated the relationship between UC and hypoxia/mitophagy and identified potential diagnostic biomarkers. This study provides a reference for the future development of targeted treatment strategies to improve diagnostic and therapeutic protocols for UC.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Colitis, Ulcerative/diagnosis/genetics/metabolism/pathology",
+      "Humans",
+      "*Mitophagy/genetics",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "Biomarkers/metabolism",
+      "*Hypoxia/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "MicroRNAs/genetics",
+      "ROC Curve",
+      "RNA, Messenger/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sheng, Zewei",
+        "Zhao, Lun",
+        "Fu, Yu",
+        "Liu, Xuefeng",
+        "Peng, Yuyu",
+        "Huang, Yangling",
+        "Jian, Yuhan",
+        "Zhu, Yanlin",
+        "Liu, Yuedong"
+      ],
+      "short_names": [
+        "Sheng Z",
+        "Zhao L",
+        "Fu Y",
+        "Liu X",
+        "Peng Y",
+        "Huang Y",
+        "Jian Y",
+        "Zhu Y",
+        "Liu Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-6038-8998"
+      ],
+      "affiliations": [
+        "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "College of Acupuncture-Moxibustion and Massage, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Technology Center, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+        "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sheng, Zewei",
+        "short_name": "Sheng Z",
+        "identifiers": [
+          "0009-0008-6038-8998"
+        ],
+        "affiliations": [
+          "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+          "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lun",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yu",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Acupuncture-Moxibustion and Massage, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xuefeng",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+          "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yuyu",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+          "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yangling",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Technology Center, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Jian, Yuhan",
+        "short_name": "Jian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+          "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yanlin",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+          "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuedong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Third Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China.",
+          "Third Affiliated Hospital, Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 18:48",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [
+      "42319552"
+    ],
+    "refs": [
+      "40722520",
+      "39840057",
+      "39835095",
+      "39740506",
+      "39342779",
+      "38774864",
+      "38453925",
+      "38322414",
+      "37951857",
+      "37773554",
+      "37698559",
+      "37660767",
+      "37247589",
+      "36898287",
+      "36822736",
+      "36769019",
+      "36675038",
+      "36216147",
+      "36061874",
+      "35860016",
+      "35749635",
+      "35728631",
+      "35244921",
+      "35132348",
+      "34655293",
+      "34561227",
+      "34494943",
+      "34480991",
+      "34175667",
+      "33793617",
+      "33384961",
+      "33382932",
+      "33246308",
+      "33218188",
+      "33121686",
+      "32913180",
+      "32556102",
+      "32292348",
+      "32190668",
+      "31450614",
+      "31443682",
+      "31316522",
+      "31007832",
+      "30996346",
+      "30951392",
+      "30840605",
+      "30453885",
+      "30402511",
+      "30241973",
+      "30147719",
+      "30092766",
+      "29176561",
+      "28885228",
+      "27924033",
+      "27664046",
+      "27322403",
+      "27297950",
+      "26855811",
+      "26320084",
+      "25605792",
+      "25469007",
+      "24811995",
+      "24297251",
+      "24132573",
+      "23937229",
+      "22455463",
+      "22257669",
+      "22051041",
+      "21546393",
+      "21252623",
+      "20923760",
+      "20179076",
+      "18832178",
+      "17496320",
+      "15923405",
+      "14597658",
+      "9649185"
+    ],
+    "similar": [
+      "41563994",
+      "39806040",
+      "41029776",
+      "41789070",
+      "41324863",
+      "39509434",
+      "39975557",
+      "42292668",
+      "41203451",
+      "41044520",
+      "39396400",
+      "41368500",
+      "38849409",
+      "41080154",
+      "40313958",
+      "40948782",
+      "39142001",
+      "37322958",
+      "40595862",
+      "41094572",
+      "40360670",
+      "40620701",
+      "42099592",
+      "41006883",
+      "41200172",
+      "41300749",
+      "39507054",
+      "40963602",
+      "41146237",
+      "42008502",
+      "41009970",
+      "39238649",
+      "42267557",
+      "40021664",
+      "38987612",
+      "38650649",
+      "38951638",
+      "39375405",
+      "38767974",
+      "41422315",
+      "37525915",
+      "41459538",
+      "39263286",
+      "42074012",
+      "40997906",
+      "41432483",
+      "39673621",
+      "37530128",
+      "41052072",
+      "40175429",
+      "39754246",
+      "40312440",
+      "40500570",
+      "40598145",
+      "39331874",
+      "41316541",
+      "41870743",
+      "39139563",
+      "41665627",
+      "40918403",
+      "37782162",
+      "40661186",
+      "41358199",
+      "40901831",
+      "39512836",
+      "40860289",
+      "40328901",
+      "39791167",
+      "41291841",
+      "41300794",
+      "41013556",
+      "41212891",
+      "40977549",
+      "41716396",
+      "39414957",
+      "42327749",
+      "40148430",
+      "41700295",
+      "38863714",
+      "40362669",
+      "37957905",
+      "40374840",
+      "39730379",
+      "39647286",
+      "41826854",
+      "38711508",
+      "40791849",
+      "40855234",
+      "40361222",
+      "39351221",
+      "35959356",
+      "39406802",
+      "41388523",
+      "40196107",
+      "42056344",
+      "39568749",
+      "40453984",
+      "40433374",
+      "41781900",
+      "40093012"
+    ],
+    "review": [
+      "41563994",
+      "41665627"
+    ],
+    "pmc": [
+      "12822963"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0339296",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41563994/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

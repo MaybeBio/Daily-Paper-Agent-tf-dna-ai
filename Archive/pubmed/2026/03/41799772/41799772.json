@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "41799772",
+    "doi": "10.7150/ijms.125642",
+    "title": "Visnagin Protects Against Lipopolysaccharide-Induced Acute Kidney Injury by Inhibiting Oxidative Stress and Reducing Ferroptosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: Sepsis-associated acute kidney injury (SA-AKI) is a life-threatening condition driven by oxidative stress, ferroptosis, and inflammation, yet effective treatments remain unavailable. Visnagin has antioxidant and anti-inflammatory properties and has been traditionally used for cardiovascular and renal disorders, but its role in modulating ferroptosis and redox imbalance in SA-AKI remains unclear. Thus, the study investigated the renoprotective effects of visnagin in a murine lipopolysaccharide (LPS)-induced AKI model, focusing on oxidative stress and ferroptosis. METHODS: A systems pharmacology approach integrating network-based target prediction and molecular docking identified candidate targets. In vivo and in vitro validations in LPS-induced AKI mice and HK-2 cells assessed histopathology, oxidative biomarkers, ferroptosis mediators, and key signaling pathways. RESULTS: Visnagin demonstrated affinity binding to AKT1, NFE2L2, ACSL4, and TFRC, indicating a potential role in modulating oxidative stress and ferroptosis. In vivo, visnagin alleviated renal injury, reduced lipid peroxidation, and downregulated ACSL4 and TfR1 expression, with this accompanied by reduction in renal Fe(2+) levels. Although visnagin reduced the protein abundance of SOD, catalase, and GSH-Px, it markedly enhanced their enzymatic activities, likely due to decreased oxidative burden and preservation of enzyme functionality under LPS-induced stress. Additionally, visnagin inhibited p-Akt and p-Nrf2, suggesting suppression of upstream signaling pathways. In vitro, visnagin reduced intracellular ROS levels in HK-2 cells and exhibited scavenging activity against various radical species. CONCLUSIONS: Visnagin exerts protective actions through both modulation of Akt/Nrf2 signaling ACSL4/TfR1 signaling and direct free radical scavenging. These findings underscore visnagin's potential as a multitarget therapeutic agent for SA-AKI.",
+    "keywords": [
+      "ferroptosis",
+      "lipopolysaccharide",
+      "oxidative stress",
+      "sepsis-associated acute kidney injury (SA-AKI)",
+      "visnagin"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Ferroptosis/drug effects/immunology",
+      "*Acute Kidney Injury/drug therapy/chemically induced/pathology/prevention & control/etiology",
+      "*Oxidative Stress/drug effects",
+      "Lipopolysaccharides/toxicity",
+      "Mice",
+      "Humans",
+      "Disease Models, Animal",
+      "Male",
+      "Molecular Docking Simulation",
+      "Antioxidants/pharmacology/therapeutic use",
+      "Signal Transduction/drug effects",
+      "Kidney/pathology/drug effects",
+      "Cell Line",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "*Sepsis/complications",
+      "NF-E2-Related Factor 2/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Sheng-Wen",
+        "Chiang, Chen-Yu",
+        "Lee, Chien-Ying",
+        "Lee, Shiuan-Shinn",
+        "Chen, Wen-Ying",
+        "Chen, Chun-Jung",
+        "Tseng, Ching-Chi",
+        "Lu, Yin-Che",
+        "Kuan, Yu-Hsiang"
+      ],
+      "short_names": [
+        "Wu SW",
+        "Chiang CY",
+        "Lee CY",
+        "Lee SS",
+        "Chen WY",
+        "Chen CJ",
+        "Tseng CC",
+        "Lu YC",
+        "Kuan YH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Nephrology, Department of Internal Medicine, Chung Shan Medical University Hospital, Taichung, Taiwan.",
+        "Department of Internal Medicine, School of Medicine, Chung Shan Medical University, Taichung, Taiwan.",
+        "Department of Pharmacology, School of Medicine, Chung Shan Medical University, Taichung, Taiwan.",
+        "Department of Pharmacy, Chung Shan Medical University Hospital, Taichung, Taiwan.",
+        "Department of Pharmacology, School of Medicine, Chung Shan Medical University, Taichung, Taiwan.",
+        "Department of Pharmacy, Chung Shan Medical University Hospital, Taichung, Taiwan.",
+        "School of Public Health, Chung Shan Medical University, Taichung, Taiwan.",
+        "Department of Veterinary Medicine, College of Veterinary Medicine, National Chung Hsing University, Taichung, Taiwan.",
+        "Department of Education and Research, Taichung Veterans General Hospital, Taichung, Taiwan.",
+        "Department of Dermatology, The Wilshire Lab and Aesthetic Clinic, Shenzhen, China.",
+        "Department of Dermatology, Shiso Municipal Hospital, Hyogo, Japan.",
+        "Division of Hematology-Oncology, Ditmanson Medical Foundation Chia-Yi Christian Hospital, Chiayi, Taiwan.",
+        "Department of Pharmacology, School of Medicine, Chung Shan Medical University, Taichung, Taiwan.",
+        "Department of Pharmacy, Chung Shan Medical University Hospital, Taichung, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Sheng-Wen",
+        "short_name": "Wu SW",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Department of Internal Medicine, Chung Shan Medical University Hospital, Taichung, Taiwan.",
+          "Department of Internal Medicine, School of Medicine, Chung Shan Medical University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chiang, Chen-Yu",
+        "short_name": "Chiang CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Chung Shan Medical University, Taichung, Taiwan.",
+          "Department of Pharmacy, Chung Shan Medical University Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lee, Chien-Ying",
+        "short_name": "Lee CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Chung Shan Medical University, Taichung, Taiwan.",
+          "Department of Pharmacy, Chung Shan Medical University Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lee, Shiuan-Shinn",
+        "short_name": "Lee SS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Chung Shan Medical University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Wen-Ying",
+        "short_name": "Chen WY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Veterinary Medicine, College of Veterinary Medicine, National Chung Hsing University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Chun-Jung",
+        "short_name": "Chen CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Education and Research, Taichung Veterans General Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Tseng, Ching-Chi",
+        "short_name": "Tseng CC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Wilshire Lab and Aesthetic Clinic, Shenzhen, China.",
+          "Department of Dermatology, Shiso Municipal Hospital, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Lu, Yin-Che",
+        "short_name": "Lu YC",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology-Oncology, Ditmanson Medical Foundation Chia-Yi Christian Hospital, Chiayi, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kuan, Yu-Hsiang",
+        "short_name": "Kuan YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Chung Shan Medical University, Taichung, Taiwan.",
+          "Department of Pharmacy, Chung Shan Medical University Hospital, Taichung, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of medical sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Med Sci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/09 17:37",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42510534"
+    ],
+    "refs": [
+      "40991986",
+      "40867889",
+      "40274969",
+      "40270016",
+      "40255592",
+      "40254347",
+      "40217355",
+      "40114218",
+      "40035943",
+      "40013603",
+      "39975561",
+      "39872831",
+      "39834999",
+      "39581576",
+      "39506587",
+      "39396974",
+      "39323387",
+      "39313391",
+      "39232385",
+      "39097582",
+      "39051058",
+      "38799005",
+      "38798098",
+      "38759849",
+      "38635053",
+      "38478853",
+      "38357976",
+      "38196698",
+      "38088220",
+      "37819772",
+      "37675385",
+      "37659050",
+      "37509832",
+      "37172334",
+      "36985731",
+      "36823168",
+      "36539406",
+      "36358467",
+      "36355983",
+      "36075462",
+      "35819694",
+      "35776038",
+      "35173348",
+      "35157199",
+      "35038964",
+      "34955852",
+      "34787054",
+      "34667283",
+      "34486204",
+      "34439411",
+      "34239439",
+      "33202867",
+      "32909422",
+      "32528729",
+      "32158395",
+      "31659150",
+      "31601687",
+      "31443997",
+      "30694454",
+      "30626586",
+      "30256716",
+      "30135570",
+      "29868481",
+      "29388418",
+      "28595193",
+      "27959707",
+      "27211851",
+      "26707802",
+      "26484418",
+      "26161813",
+      "24275768",
+      "23744003",
+      "22484815",
+      "16888629"
+    ],
+    "similar": [
+      "41799772",
+      "40991986",
+      "41320257",
+      "42287813",
+      "42281538",
+      "41958127",
+      "40543693",
+      "41346077",
+      "40119983",
+      "41537746",
+      "39544009",
+      "41297179",
+      "40783104",
+      "42703728",
+      "39885380",
+      "41618240",
+      "41152139",
+      "42223565",
+      "42552263",
+      "42134514",
+      "42576380",
+      "41690038",
+      "40701506",
+      "40216133",
+      "42015821",
+      "42362762",
+      "41967794",
+      "42299992",
+      "31234591",
+      "33494001",
+      "38722344",
+      "41140036",
+      "42219054",
+      "40185468",
+      "39581576",
+      "38950457",
+      "42497660",
+      "41529497",
+      "42161900",
+      "33603340",
+      "40578675",
+      "37095432",
+      "42041184",
+      "41151450",
+      "40101415",
+      "38889644",
+      "37328118",
+      "41730753",
+      "41126407",
+      "41670506",
+      "41460380",
+      "39034431",
+      "42165866",
+      "41730482",
+      "40509797",
+      "41978439",
+      "41130579",
+      "41065914",
+      "39549609",
+      "41997867",
+      "40306537",
+      "41358532",
+      "40865655",
+      "40010556",
+      "39112793",
+      "39626534",
+      "40288699",
+      "42084621",
+      "41254063",
+      "40138726",
+      "42394490",
+      "40972223",
+      "40304823",
+      "41143955",
+      "40650665",
+      "38563049",
+      "39549542",
+      "42092523",
+      "29704392",
+      "40583332",
+      "42488940",
+      "42713857",
+      "39089659",
+      "41447840",
+      "41353881",
+      "41960638",
+      "40658176",
+      "41067285",
+      "41207569",
+      "42032961",
+      "39426231",
+      "38837857",
+      "41644788",
+      "41903814",
+      "32574970",
+      "33194004",
+      "39303541",
+      "42116251",
+      "41083610",
+      "41034042"
+    ],
+    "review": [
+      "41799772"
+    ],
+    "pmc": [
+      "12965074"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41799772/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medsci.org/v23p1105.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, supplementary figure captions) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated conclusions based solely on the provided text
+- **Shared manuscript claim summary** The authors construct machine learning models using DNA shape parameters around AoXlnR binding motifs to predict whether downstream genes respond to AoXlnR overexpression in Aspergillus oryzae, and report that selected parameters improve predictive performance, with different parameters contributing depending on motif number per promoter
+- **Visible evidence base** Abstract, introduction, results narrative, discussion, materials and methods, supplementary figure captions; no primary data tables, figures, or code are included in the provided material
+- **Missing materials affecting confidence** Main figures (Figs 1-3), supplementary figures (S1-S4), supplementary tables (S1-S2), raw microarray data, DNAshapeR output, SVM model parameters, and code; these are referenced but not available for inspection
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in transcriptional regulation: why many TF binding motifs are not functional in vivo. The use of DNA shape features to predict functional versus non-functional binding sites is a reasonable and potentially valuable approach. However, the provided text lacks sufficient detail to evaluate the robustness of the methods, the statistical validity of the results, and the strength of the conclusions. Several claims are made without supporting quantitative evidence, and the description of the modeling procedure is incomplete. The work is of interest to a specialized audience in computational biology and fungal gene regulation, but the current presentation does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying transcription factor binding specificity, DNA shape in protein-DNA recognition, and gene regulatory network inference in fungi. The approach could also interest computational biologists developing predictive models for functional genomic elements. The specific focus on AoXlnR in Aspergillus oryzae limits broader appeal, but the methodological framework may generalize.
+- **Major strengths** The study addresses a biologically relevant problem with a clear rationale. The use of DNA shape parameters beyond sequence motifs is a modern and appropriate approach. The stratification by motif number is a thoughtful design choice that could reveal context-dependent regulatory mechanisms. The authors acknowledge limitations and propose future experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The models can predict differential expression with high accuracy using selected DNA shape parameters, with AUC values above 0.7.
+  - **Evidence pointer** Results section, Fig 2, Supplementary Fig 1
+  - **Concern** The reported AUC values are presented without confidence intervals, statistical comparisons to null models, or details on the number of features selected. The improvement from 0.644 to above 0.7 is modest and may not be significant given the small positive sample size (63 MPDs). No baseline comparison to sequence-based models is provided, so the added value of DNA shape over motif presence alone is unclear.
+  - **Why it matters** Without rigorous evaluation, the central claim of predictive accuracy is not established. The small sample size and potential overfitting in feature selection require explicit handling, such as nested cross-validation or permutation testing.
+  - **Resolution test** Provide confidence intervals for AUC, perform permutation tests to assess significance, compare against sequence-only models, and report the number of features selected in each model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The models were constructed using a support vector machine with leave-one-out cross-validation, and parameters were selected by ranking SVM coefficients.
+  - **Evidence pointer** Materials and Methods, "Constructing models for predicting AoXlnR-dependent differential expression using a discriminant algorithm"
+  - **Concern** The description of the modeling procedure is incomplete. It is unclear how the 194 parameters were reduced to 2-10 selected parameters, whether selection was performed inside or outside the cross-validation loop, and how the SVM hyperparameters were tuned. The balancing of MPD and MPnD samples is described but the exact procedure for selecting "the same number of MPnDs that showed the lowest response" is not specified, which could introduce selection bias.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. If feature selection is performed on the full dataset before cross-validation, the reported AUCs are optimistically biased. The MPnD selection procedure could also affect model performance in ways that are not controlled.
+  - **Resolution test** Provide a detailed step-by-step description of the modeling pipeline, including feature selection within cross-validation, hyperparameter settings, and the exact MPnD selection criteria. Make code and data available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The parameters contributing to differential expression differ depending on the number of motifs in the promoter region, implying distinct regulatory mechanisms.
+  - **Evidence pointer** Results section, "Stratification of differential expression prediction models based on the number of motifs in promoters", Fig 3, Supplementary Fig 2
+  - **Concern** The claim of different regulatory mechanisms is based on differences in selected parameters between models, but no statistical test is provided to show that these differences are significant. The comparison between stratified and unstratified models is descriptive, and the improvement in AUC is not quantified with error bars or significance tests. The example of xynF1 is anecdotal and based on a single gene.
+  - **Why it matters** The biological interpretation is a key contribution of the study. Without statistical support, the claim of mechanism-dependent differences is speculative and could mislead readers.
+  - **Resolution test** Perform statistical comparisons of AUC distributions between model types, test for significant differences in selected parameter frequencies, and provide quantitative results for the xynF1 analysis across multiple validation runs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The DNA shape parameters were calculated using DNAshapeR, and the resulting dataset contained 194 parameter values.
+  - **Evidence pointer** Materials and Methods, "Calculating the structural parameters for the regions surrounding the AoXlnR-binding motifs using DNA shape parameters"
+  - **Concern** The text states that 194 parameters were used, but the breakdown (MGW:48, ProT:48, HelT:49, Roll:49) sums to 194, which is correct. However, it is unclear whether these parameters include both mean and standard deviation values, as stated, and how the 50 bp sequences were aligned relative to the motif. The choice of 50 bp (22 bp flanking each side) is not justified, and the impact of this window size on model performance is not explored.
+  - **Why it matters** The window size and parameter definitions directly affect the results. Without justification or sensitivity analysis, the choice appears arbitrary and may not be optimal.
+  - **Resolution test** Justify the 50 bp window, clarify the parameter definitions, and perform a sensitivity analysis with different window sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "the differential expression levels of genes located downstream of the AoXlnR motif are closely related to specific DNA shape information" but does not quantify the relationship or mention the AUC values.
+  - **Required correction** Include a quantitative summary of model performance in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites several references but does not clearly distinguish the novelty of this study from prior work on DNA shape in TF binding, particularly reference 7 which is mentioned as the only prior individual TF analysis.
+  - **Required correction** Clarify what is new relative to reference 7 and other prior studies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, "Constructing models for predicting AoXlnR-dependent differential expression using a discriminant algorithm"
+  - **Issue** The software versions are given for R and the e1071 package, but the version of DNAshapeR is not specified in the main text.
+  - **Required correction** Specify the DNAshapeR version in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results
+  - **Evidence pointer** Results, "Construction of AoXlnR binding motif classification models using DNA shape parameters"
+  - **Issue** The term "antisense sequences of the AoXlnR binding motifs" is used, but it is not clear whether this refers to the reverse complement of the motif or the opposite strand of the flanking sequence.
+  - **Required correction** Define the term clearly in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion mentions the potential influence of AoXlnR paralog AraR but does not integrate this into the modeling framework or discuss how it might affect the interpretation of the results.
+  - **Required correction** Either incorporate AraR into the analysis or explicitly state why it is not considered.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of AUC claims), R1-M2 (reproducibility of modeling pipeline), R1-M3 (statistical support for mechanistic differences)
+- **Assessment against Nature-style criteria** Originality: The application of DNA shape features to predict functional TF binding sites in a fungal system is moderately original, though similar approaches exist in other organisms. Scientific importance: The question of why many TF motifs are non-functional is important, but the study is limited to a single TF and organism, reducing general impact. Interdisciplinary readership: The work will appeal primarily to computational biologists and fungal geneticists; the methods are not novel enough to attract a broad readership. Technical soundness: The current description is insufficient to assess technical soundness, with major gaps in the modeling and validation procedures. Readability for nonspecialists: The text is generally clear but assumes familiarity with machine learning and DNA shape concepts; the abstract and author summary are accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the approach is promising, but the lack of methodological detail, statistical rigor, and access to primary data prevents a positive recommendation. The authors should address the major concerns, particularly the validation of model performance and the reproducibility of the pipeline, before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that selected DNA shape parameters improve prediction accuracy is unsupported without confidence intervals and baseline comparisons.
+- The claim that different parameters contribute depending on motif number is unsupported without statistical testing.
+- The claim that the models can distinguish functional from non-functional motifs with high accuracy is not established from the reported AUC values alone.
+- The example of xynF1 discrimination is anecdotal and not quantitatively supported in the provided text.
+- The statement that "the parameters contributing to differential expressions differed depending on the number of binding motifs" is not backed by a formal comparison of model coefficients or feature importance across conditions.

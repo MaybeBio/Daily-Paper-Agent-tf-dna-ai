@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure/table references.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. Not assessed: editorial style, grammar, or formatting.
+- **Shared manuscript claim summary** The authors report that the superfamily 1A DNA helicase Rep populates four conformational states (S1–S4) in solution, with two previously unidentified intermediates between open (S1) and closed (S4) forms. They propose a sequential transition pathway S1→S2→S3→S4 involving coordinated subdomain movements, modulated by NaCl concentration, and supported by single-molecule FRET, ABEL trapping, and molecular dynamics simulations.
+- **Visible evidence base** Ensemble TCSPC lifetime data; FCS diffusion measurements; confocal smFRET with ALEX; ABEL trapping trajectories; H2MM kinetic analysis; MD simulations with implicit solvent; FRET accessible volume calculations; helicase activity assays; complementation assays.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; raw smFRET traces not shown; H2MM fitting details and model selection criteria only partially described; MD simulation convergence and force field validation details incomplete; no explicit error analysis for kinetic rate constants; no replicate statistics for ensemble measurements beyond stated technical repeats.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and largely well-executed study of conformational dynamics in the Rep helicase, integrating multiple single-molecule techniques with atomistic simulations. The identification of two intermediate states and the salt-dependent modulation of the open-closed equilibrium is potentially significant for understanding SF1A helicase regulation. However, the central claims regarding the specific transition pathway and the structural interpretation of intermediates rest on indirect evidence and several assumptions that are not fully validated. The manuscript would benefit from clearer presentation of the kinetic modeling, additional controls for dye photophysics, and a more cautious interpretation of the MD-derived pathway.
+- **Who would be interested in the results, and why** Researchers studying DNA helicase mechanisms, particularly SF1A family members (Rep, UvrD, PcrA); biophysicists using single-molecule FRET and trapping methods; computational biologists interested in conformational transitions of multidomain proteins; and those investigating salt-dependent regulation of protein-nucleic acid interactions.
+- **Major strengths** 1) Integration of multiple orthogonal techniques (ensemble and single-molecule) to address a biologically relevant question. 2) Use of ABEL trapping to extend observation timescales beyond conventional confocal smFRET. 3) Combination of H2MM with MD simulations and FRET accessible volume calculations provides a framework for connecting experimental observables to structural models. 4) Functional validation of the labeled construct via helicase activity assays. 5) The observation of salt-dependent population shifts is systematic and reproducible across methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for proposed pathway
+  - **Claim pointer** The manuscript claims a specific sequential transition pathway S1→S2→S3→S4 with defined subdomain movements, including an initial truncated 2B swing, rolling across 1B, and combined rotations.
+  - **Evidence pointer** Results section "Rep's transition from open to closed is more complex than a simple swing-arm movement of the 2B subdomain"; Figure 6; Supplementary Movie 7
+  - **Concern** The proposed pathway is derived primarily from MD simulations and structural interpolation (morphing) between end states, not from direct experimental observation of intermediate structures. The H2MM analysis provides kinetic connectivity but cannot resolve structural details. The MD simulations are short (50 ns) and use implicit solvent, which may not adequately sample the conformational landscape. The morphing approach generates a plausible but not unique trajectory. The claim that 1B "frustrates" 2B movement is a mechanistic interpretation not directly tested experimentally.
+  - **Why it matters** The central novelty of the paper is the identification of a multi-step transition pathway with specific structural features. If the pathway is not uniquely determined by the data, the claim is overstated and could mislead subsequent studies.
+  - **Resolution test** Provide additional experimental evidence for the intermediates, such as double-label FRET with dyes placed to report on specific subdomain movements, or use of transition path sampling or enhanced sampling MD to demonstrate that the proposed pathway is kinetically and thermodynamically preferred over alternatives. Alternatively, temper the claim to state that the data are consistent with, but do not uniquely establish, the proposed pathway.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of kinetic analysis
+  - **Claim pointer** The manuscript reports specific rate constants for transitions between all four states and states that five of twelve transitions show strong salt dependence.
+  - **Evidence pointer** Results section "Rep undergoes dynamic transitions over a timescale range of sub-milliseconds to seconds"; Figure 5; Supplementary Table 4
+  - **Concern** The H2MM analysis is described only briefly. Key details are missing: how many photons per burst were required, how the number of states was determined (BIC' threshold stated but not shown), how rate constants were extracted from photon trajectories, and what the uncertainties on the rate constants are. The manuscript states that "for some datasets it was not possible to probabilistically discriminate between four and five states," which raises questions about the robustness of the four-state model. The exclusion of the lowest FRET state as a "dark state" is plausible but not rigorously justified.
+  - **Why it matters** The kinetic model is the quantitative backbone of the paper. Without clear model selection criteria and uncertainty estimates, the reported rate constants and their salt dependence cannot be evaluated. This undermines the claim of salt-tunable kinetics.
+  - **Resolution test** Provide a detailed description of the H2MM procedure, including model selection criteria, parameter uncertainties, and a comparison of fits with different numbers of states. Show that the four-state model is robustly preferred over alternatives across all datasets. Provide confidence intervals for all reported rate constants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Control for dye photophysics
+  - **Claim pointer** The manuscript interprets changes in FRET efficiency as conformational changes of the protein.
+  - **Evidence pointer** Results sections on smFRET and ABEL trapping; Figure 2; Figure 4
+  - **Concern** The manuscript does not adequately address potential artifacts from dye photophysics. The authors mention photoblinking as a problem in TIRF but do not describe controls for the confocal and ABEL experiments. No measurements of dye anisotropy, blinking rates, or triplet-state dynamics are presented. The broad FRET distributions could partly arise from dye orientation effects or incomplete labeling.
+  - **Why it matters** If dye photophysics contribute to the observed FRET distributions, the assignment of discrete states and the interpretation of salt-dependent shifts could be compromised.
+  - **Resolution test** Include control experiments with donor-only and acceptor-only labeled samples under all salt conditions. Measure dye blinking and anisotropy. Use alternating excitation to verify that FRET changes are not due to acceptor blinking. Consider using a different dye pair or labeling position to confirm the results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical analysis of population shifts
+  - **Claim pointer** The manuscript states that salt concentration biases the population from open to closed states, with specific percentages given for each state at low and high salt.
+  - **Evidence pointer** Results section "Single-molecule FRET reveals that rep exhibits four states"; Figure 2D; Supplementary Table 3
+  - **Concern** The population percentages are derived from Gaussian mixture modeling, but the statistical analysis is not described in detail. The permutation test is mentioned for the DNA addition experiment but not for the salt comparison. The number of molecules and bursts per condition is not stated. The manuscript does not report whether the population differences between salt conditions are statistically significant.
+  - **Why it matters** The salt-dependent population shift is a key finding. Without proper statistical testing, it is unclear whether the observed differences are robust or within experimental noise.
+  - **Resolution test** Report the number of bursts/molecules analyzed per condition. Perform and report statistical tests (e.g., permutation tests or bootstrap) for the population differences between salt conditions. Provide confidence intervals for the population fractions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** MD simulation validity
+  - **Claim pointer** The manuscript uses MD simulations to support the proposed transition pathway and to identify specific interdomain interactions.
+  - **Evidence pointer** Methods section "MD simulations"; Results section "Rep's transition from open to closed is more complex than a simple swing-arm movement of the 2B subdomain"; Figure 6
+  - **Concern** The MD simulations are performed in implicit solvent, which may not accurately capture salt effects. The simulations are only 50 ns, which is short for observing large-scale domain rearrangements. The manuscript does not report simulation convergence, force field validation, or comparison with experimental observables beyond FRET predictions. The use of the GBneck2 model for a highly charged protein-DNA system is questionable.
+  - **Why it matters** The structural interpretation of the intermediates and the proposed pathway rely heavily on the MD simulations. If the simulations are not reliable, the structural claims are unsupported.
+  - **Resolution test** Provide evidence of simulation convergence (e.g., block averaging, multiple independent runs). Validate the force field and solvent model against experimental data. Consider performing explicit solvent simulations or enhanced sampling methods. Show that the predicted FRET values from simulations match experimental values for all states, not just the end states.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of labeling strategy
+  - **Affected element** Methods section "Labelling rep"
+  - **Evidence pointer** Methods section "Labelling rep"
+  - **Issue** The manuscript states that the labeling strategy builds on work by Myong et al. (Nature 2005) but does not provide a reference for this work in the reference list. The rationale for choosing positions 97 and 473 is not fully explained.
+  - **Required correction** Add the reference to Myong et al. and briefly justify the choice of labeling positions, including any structural or functional rationale.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of FCS data
+  - **Affected element** Results section "Changing salt concentration indicates signs of conformational variability for Rep using ensemble TCSPC and FCS"
+  - **Evidence pointer** Figure 1D
+  - **Issue** The FCS data are presented as a single panel with an inset, but the fitting model and parameters are not described in the text. The claim of a 10-20% change in hydrodynamic radius is not accompanied by error estimates.
+  - **Required correction** Describe the FCS fitting model, report the fitted diffusion coefficients with uncertainties, and clarify how the hydrodynamic radius was calculated from the diffusion coefficient.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison with UvrD
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, paragraph 3
+  - **Issue** The comparison with the UvrD study is qualitative and relies on a supplementary table. The manuscript notes differences in rate constants but does not discuss potential sources of these differences (e.g., different labeling positions, buffer conditions, or analysis methods).
+  - **Required correction** Expand the comparison to discuss potential methodological differences that could explain discrepancies, and avoid overinterpreting differences between homologous proteins studied under different conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability section
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement provides links to raw data, but it is unclear whether analysis code and fitting scripts are also available.
+  - **Required correction** Clarify whether analysis code is available and, if so, where it can be accessed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 2, 4, and 5
+  - **Evidence pointer** Figures 2, 4, and 5
+  - **Issue** The figures are dense and some labels are small. The color scales for FRET efficiency histograms are not always defined. The transition diagrams in Figure 5 are difficult to interpret without a legend explaining the arrow thickness and color.
+  - **Required correction** Improve figure readability by increasing font sizes, adding clear legends, and ensuring that all color scales are defined.
+
+## Risk / unsupported claims
+- The specific structural pathway S1→S2→S3→S4 with defined subdomain movements is not directly supported by experimental data and relies on MD simulations and structural interpolation that may not be unique.
+- The claim that 1B "frustrates" 2B movement to prevent premature closure is a mechanistic hypothesis not directly tested.
+- The statement that "five of the 12 transitions show a strong rate dependence on NaCl concentration" is not supported by a clear statistical framework or uncertainty analysis.
+- The comparison of rate constants with the UvrD study is qualitative and may be confounded by methodological differences.
+- The assertion that DNA binding "significantly reduces" conformational dynamics is based on a single comparison at 150 mM NaCl and lacks statistical detail.
+- The manuscript claims "unparalleled temporal and spatial resolution" but does not provide a quantitative comparison with prior work to substantiate this superlative.

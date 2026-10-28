@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary material references)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions, and alignment with Nature-style criteria based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors report an integrative approach combining AlphaFold2, cross-linking mass spectrometry (XL-MS), small-angle X-ray scattering (SAXS), and molecular dynamics (MD) simulations to reconstruct the conformational ensemble of the full-length RAD51–BRC4 complex in solution. They claim the ensemble comprises compact and extended conformations, identify key charged residues at the RAD51 N-terminus–BRC4 interface, and propose mechanistic insights into BRC4-mediated RAD51 oligomerization inhibition.
+- **Visible evidence base** Abstract, Introduction, Methods (including SLS, BLI, XL-MS, AlphaFold2, SAXS calculation, steered MD, metadynamics, maximum entropy reweighting, trajectory analysis), Results (three subsections), Discussion, Supplementary Material listing, Acknowledgements
+- **Missing materials affecting confidence** Figures and tables referenced in the text (Figures 1–5, S1–S14, Table 1, Table S1) are not provided. Experimental SAXS data (SASBDB accession SASDQT9) and raw XL-MS spectra are not included. Numerical values for key results (e.g., χ², RMSD values, energy changes) are not reported in the text. Details of the AlphaFold2 model confidence metrics (pLDDT, PAE) are not described in the results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious integrative approach to a biologically important problem, namely the structural characterization of the RAD51–BRC4 interaction. The combination of computational prediction, cross-linking constraints, and solution scattering data is timely and potentially valuable. However, the current text does not provide sufficient quantitative evidence to fully evaluate the robustness of the ensemble reconstruction, the statistical significance of the identified interface residues, or the biological claims derived from the simulations. Several methodological choices require additional justification, and the absence of key figures and numerical data limits the ability to assess the central conclusions.
+- **Who would be interested in the results, and why** Researchers in homologous recombination and DNA repair, structural biologists studying protein–protein interactions involving intrinsically disordered regions, computational biologists developing integrative modeling pipelines, and medicinal chemists interested in targeting RAD51–BRCA2 interactions for cancer therapy. The methodological framework combining AlphaFold2, XL-MS, SAXS, and enhanced sampling MD will also interest method developers in integrative structural biology.
+- **Major strengths** The study addresses a genuine gap in the field, as no full-length RAD51–BRC4 complex structure exists. The integration of multiple orthogonal techniques is appropriate for a highly flexible system. The use of XL-MS to validate and constrain the AlphaFold2 model is a sound strategy. The observation that solvent contribution is critical for SAXS fitting is an important technical insight. The identification of specific charged residues at the N-ter–BRC4 interface provides testable hypotheses for future mutagenesis studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the reconstructed ensemble, obtained via maximum entropy reweighting, is in agreement with experimental SAXS data within statistical error.
+  - **Evidence pointer** Results section "XL-MS-Informed Simulations Enable Determination of a SAXS-Compliant Conformational Ensemble", Figures 4 and S12, location not provided
+  - **Concern** The manuscript does not report the final reduced χ² value achieved after reweighting, nor the Kish effective sample size relative to the total number of frames. Without these quantitative metrics, the quality of the fit and the statistical robustness of the reweighted ensemble cannot be assessed. The text states that the reweighting resulted in a χ² of about 1, but this appears to be a target value used in the regularization procedure rather than a reported outcome. The distinction between the target and the achieved value is critical.
+  - **Why it matters** The central claim of the paper is that the ensemble is SAXS-compliant. If the fit quality is not demonstrated quantitatively, the validity of the entire ensemble reconstruction is in question. Overfitting is a known risk in maximum entropy reweighting, and the manuscript does not provide sufficient evidence that this was avoided.
+  - **Resolution test** Report the achieved reduced χ² value after reweighting, the Kish effective sample size, and a comparison with the χ² of the unweighted prior ensemble. Provide a plot of the experimental and calculated SAXS curves with error bars, and a residual plot.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the AlphaFold2 model was validated by XL-MS data, with cross-linked lysine residues displaying Cα–Cα distances compatible with experimental results.
+  - **Evidence pointer** Results section "Probing the Interaction between RAD51's N-ter and BRC4 by Combining AlphaFold2 and XL-MS", Figures 2, S5, S6, S7, Table 1, location not provided
+  - **Concern** The manuscript reports that four high-quality inter-protein cross-links were identified, but the actual Cα–Cα distances for these cross-links in the AlphaFold2 model are not reported in the text. The statement that distances are "compatible" is qualitative. For BS3 cross-links with a spacer length of 11.4 Å, the Cα–Cα distance should typically be within approximately 30 Å. The manuscript does not provide the numerical distances, nor does it discuss whether the two long-distance intra-RAD51 cross-links (>45 Å) were included in the model validation or excluded.
+  - **Why it matters** The XL-MS validation is a key pillar of the paper's claim that the AlphaFold2 model is a reasonable starting point. Without quantitative distance information, the reader cannot evaluate whether the model is genuinely consistent with the experimental constraints or whether the validation is superficial.
+  - **Resolution test** Provide a table listing each identified cross-link, the residues involved, the measured Cα–Cα distance in the AlphaFold2 model, and the maximum allowed distance for the cross-linker used. Discuss explicitly how the two long-distance cross-links were treated in the validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the identified charged residues, particularly Lys59 from RAD51's N-ter and Glu38 and Gln39 from BRC4, form a "molecular anchor" stabilizing the compact subset of structures and that this interaction is central to regulating the complex's structural dynamics.
+  - **Evidence pointer** Results section "Charged Residues at the N-ter-BRC4 Interface Bridge Compact and Extended Structures in the Reweighted Ensemble", Figures 5 and S14, location not provided
+  - **Concern** The contact analysis identifies persistent contacts, but the manuscript does not provide experimental validation of the functional importance of these specific residues. The claim that these residues act as a "molecular anchor" is inferred solely from simulation data. No mutagenesis experiments, binding assays, or functional studies are presented to support the biological relevance of these specific contacts. The authors acknowledge this is a prediction, but the strength of the language in the abstract and discussion goes beyond what the data support.
+  - **Why it matters** The paper's potential impact for therapeutic development rests on the identification of "novel hotspots" for drug design. If these hotspots are not experimentally validated, the claim is premature and could mislead subsequent research efforts.
+  - **Resolution test** Either soften the claims to clearly state these are predictions requiring experimental validation, or provide experimental evidence (e.g., mutagenesis coupled with binding or functional assays) supporting the role of the identified residues.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that including the solvation layer contribution in SAXS calculations (SB-hySAXS) was essential for reconciling MD-derived structures with experimental SAXS data, and that using the MT-hySAXS scheme led to BRC4 detachment.
+  - **Evidence pointer** Results section "Including the Solvent Contribution is Necessary for Generating a SAXS-Consistent Single-Structure Model of the RAD51–BRC4 Complex", Figure 3, location not provided
+  - **Concern** The observation that the choice of forward model qualitatively changes the simulation outcome (detachment vs. preservation of the complex) is striking and raises questions about the robustness of the approach. The manuscript does not discuss whether the MT-hySAXS result indicates a genuine physical instability of the complex or an artifact of the forward model. The authors do not report whether the detachment was observed consistently across all three replicates, nor do they provide quantitative metrics (e.g., minimum distances between BRC4 and RAD51 over time) to support the qualitative description.
+  - **Why it matters** The choice of forward model is a critical methodological decision. If the results are highly sensitive to this choice, the robustness of the entire pipeline needs to be demonstrated more thoroughly. The manuscript should address whether the SB-hySAXS result is physically plausible and whether the MT-hySAXS result could indicate a real tendency for BRC4 to dissociate under certain conditions.
+  - **Resolution test** Provide quantitative time series of the BRC4–RAD51 distance and the SAXS χ² during the steered MD simulations for both forward models. Discuss the physical interpretation of the detachment observed with MT-hySAXS and whether this could reflect a real aspect of the system's behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the complex is "a mixture of compact and elongated conformations" without providing any quantitative measure of the relative populations or the range of radii of gyration. This is too vague for a reader to assess the significance of the finding.
+  - **Required correction** Include the relative populations (e.g., percentage of compact vs. extended) and the range of Rg values observed in the ensemble.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, steered MD simulations
+  - **Evidence pointer** Methods section "Steered MD Simulations", location not provided
+  - **Issue** The manuscript states that three replicates of 10 ns were performed for each forward model, but does not report the convergence of the simulations or the variability between replicates. For a stochastic method, replicate variability is essential information.
+  - **Required correction** Report the standard deviation or range of the final SAXS χ² values and the final RMSD across replicates, and state whether all replicates converged to similar structures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, maximum entropy reweighting
+  - **Evidence pointer** Methods section "Maximum Entropy Reweighting", location not provided
+  - **Issue** The manuscript does not specify the value of σ used in the regularization term, nor does it describe how this value was chosen. The choice of σ directly affects the degree of reweighting and the risk of overfitting.
+  - **Required correction** State the value of σ used, justify the choice, and describe a sensitivity analysis if one was performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The authors speculate that the mechanism they describe "can also be valid for the interaction of other BRC repeats with the RAD51 N-ter" without providing any supporting evidence or discussion of the sequence conservation among BRC repeats in the relevant regions.
+  - **Required correction** Either provide a sequence alignment or conservation analysis supporting this claim, or explicitly state that this is a speculation requiring further investigation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction mentions that BRC4 binding triggers a rearrangement of the RAD51 N-terminal into an intrinsically disordered region, citing the authors' previous work, but does not explain why this is relevant or how it relates to the current study's approach.
+  - **Required correction** Briefly explain the functional significance of this rearrangement and how it motivates the ensemble-based approach used in this study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative fit metrics for the ensemble), R1-M2 (lack of quantitative XL-MS distance validation), R1-M4 (insufficient characterization of forward model sensitivity)
+- **Assessment against Nature-style criteria**
+  - **Originality** The integrative approach combining AlphaFold2, XL-MS, SAXS, and enhanced sampling MD for this specific system is novel. The observation regarding the importance of solvation in SAXS forward modeling is a useful contribution. However, the overall concept of integrative structural biology is well established.
+  - **Scientific importance** The RAD51–BRC4 interaction is biologically and clinically significant. The potential identification of new druggable hotspots is of interest. However, the lack of experimental validation of the specific interface residues tempers the immediate impact.
+  - **Interdisciplinary readership** The work bridges computational biophysics, structural biology, and cancer biology. The methods are described in sufficient detail for specialists, but the results section is too qualitative for a broad readership to fully appreciate the significance.
+  - **Technical soundness** The methodological framework is sound in principle, but the manuscript lacks quantitative evidence for key claims (fit quality, distance validation, replicate variability). The sensitivity of the results to the forward model choice is a concern that needs to be addressed.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the results section relies heavily on qualitative descriptions of simulations without quantitative context. The discussion is speculative in places without clearly distinguishing prediction from established fact.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem with a sophisticated approach, but the current evidence base is insufficient to fully establish the central claims. The authors must provide quantitative metrics for the ensemble fit, detailed XL-MS distance validation, and a more thorough analysis of the forward model sensitivity. The biological claims regarding specific interface residues should be tempered or experimentally supported.
+
+## Risk / unsupported claims
+- The claim that the reconstructed ensemble is in agreement with experimental SAXS data within statistical error is unsupported without reporting the achieved χ² value and Kish effective sample size.
+- The claim that the AlphaFold2 model is validated by XL-MS is unsupported without reporting the actual Cα–Cα distances for the identified cross-links.
+- The claim that Lys59, Glu38, and Gln39 form a "molecular anchor" stabilizing the compact structures is a prediction from simulations and is not experimentally validated.
+- The claim that the identified residues represent "novel hotspots for developing novel anticancer agents" is premature without experimental validation.
+- The speculation that the mechanism applies to other BRC repeats is unsupported by sequence analysis or experimental data.
+- The statement that the ensemble comprises 65% extended and 35% compact structures is reported without an estimate of the uncertainty in these populations.

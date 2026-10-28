@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, and methods sections.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with the stated aims. No assessment of formatting or editorial style beyond readability.
+- **Shared manuscript claim summary** The authors propose a computational framework, PERD, that predicts enhancer chromatin accessibility changes in response to drug treatment using perturbed gene expression data. The framework integrates enhancer-gene and TF-enhancer networks with regularized regression models trained on paired ENCODE and Roadmap data, and is applied to CMAP and CDS-DB datasets to identify drug-responsive enhancers, which are then linked to pharmacogenomic variants.
+- **Visible evidence base** Results sections describing model training, validation on ENCODE and Roadmap data, application to CMAP and CDS-DB, and association with TF motifs and eQTLs. Figures 1–5 and Supplementary Figures 1–8 are referenced. Methods section provides model formulation and evaluation metrics.
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided in the submitted material. Specific numerical results (e.g., correlation coefficients, p-values, effect sizes) for many validation steps are not included in the visible text. Details on hyperparameter selection, cross-validation procedures, and statistical testing frameworks are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in pharmacogenomics: linking drug-induced transcriptional changes to regulatory element activity. The conceptual idea of using gene expression to predict chromatin accessibility is not entirely novel, as the authors acknowledge prior work such as BIRD. However, the specific application to drug-responsive enhancer identification and integration with pharmacogenomic variants offers a potentially useful extension. The methodological framework is reasonable but several critical details are missing or under-specified, and the validation evidence as presented is insufficient to fully support the claims. The manuscript would benefit from clearer reporting of quantitative results, more rigorous statistical evaluation, and a more direct demonstration that the predicted enhancer changes are biologically meaningful and not artifacts of the model.
+- **Who would be interested in the results, and why** Researchers in pharmacogenomics, regulatory genomics, and computational biology would be interested. The framework offers a way to repurpose existing large-scale gene expression perturbation datasets to generate hypotheses about drug-responsive regulatory elements, which could inform studies on drug sensitivity and resistance. Clinicians and translational researchers interested in personalized medicine may also find the variant-enhancer-drug links useful for prioritizing functional variants.
+- **Major strengths**
+  - The problem is well-motivated and addresses a genuine gap: the scarcity of chromatin accessibility data under drug perturbation.
+  - The use of prior knowledge (enhancer-gene and TF-enhancer networks) to constrain the prediction model is a sensible design choice.
+  - The application to two independent drug perturbation datasets (CMAP and CDS-DB) and integration with eQTL and pharmacogenomic databases adds translational relevance.
+  - The authors acknowledge limitations such as tissue specificity and the need for experimental validation.
+- **Major Concerns**
+  - **R1-M1** (Severity: Major, Blocking: Yes, Axis: Technical soundness)
+    - **Claim pointer** The claim that PERD can accurately predict enhancer chromatin accessibility from gene expression data, supported by cross-cell and cross-enhancer correlations.
+    - **Evidence pointer** Results section "Predicting enhancer’s chromatin accessibility...", Figure 2, Supplementary Figures 1 and 4.
+    - **Concern** The reported performance metrics are described qualitatively (e.g., "higher cross-cell, cross-enhancer PCCs, and smaller prediction errors") without providing actual numerical values, confidence intervals, or statistical significance tests. The reader cannot assess whether the improvements over baseline models (e.g., EopenByTG) are meaningful or marginal. Furthermore, the choice of evaluation metrics (PCC, squared prediction error) may not fully capture the accuracy of chromatin accessibility prediction, especially for enhancers with low variability. The independent validation on Roadmap data is mentioned but the results are only in supplementary material, which was not provided.
+    - **Why it matters** Without quantitative evidence, the core methodological claim that gene expression can reliably predict chromatin accessibility remains unsubstantiated. This is the foundation upon which all downstream drug-responsive enhancer identification rests.
+    - **Resolution test** Provide exact values for PCCs, prediction errors, and their distributions for all models compared, along with statistical tests (e.g., paired t-tests or Wilcoxon tests) for differences. Include the Roadmap validation results in the main text or ensure supplementary material is available for review.
+  - **R1-M2** (Severity: Major, Blocking: Yes, Axis: Technical soundness)
+    - **Claim pointer** The claim that identified "diffEnhancers" are drug-responsive and biologically meaningful.
+    - **Evidence pointer** Results section "Revealing the drug responsive enhancers...", Figures 4 and 5, Supplementary Figures 6 and 7.
+    - **Concern** The criteria for defining diffEnhancers (logFC > 0.5, p < 0.001) are stated, but the rationale for these thresholds is not provided. More critically, there is no demonstration that these predicted changes in chromatin accessibility correspond to actual chromatin state changes. The model predicts accessibility from expression; without experimental validation (e.g., ATAC-seq or DNase-seq before/after drug treatment), the biological relevance of these predictions is uncertain. The two examples in Figure 5 are anecdotal and lack quantitative support for the claimed regulatory relationships.
+    - **Why it matters** The central output of the framework is a set of drug-responsive enhancers. If these are not validated or at least strongly supported by orthogonal evidence, the utility of PERD for generating testable hypotheses is diminished.
+    - **Resolution test** Provide evidence that predicted diffEnhancers are enriched for known drug-response-related annotations, or include experimental validation in a relevant cell line. At minimum, perform a permutation or null-model analysis to show that the number of diffEnhancers observed is significantly greater than expected by chance.
+  - **R1-M3** (Severity: Major, Blocking: No, Axis: Scientific importance)
+    - **Claim pointer** The claim that PERD "holds the promise to enhance the causality of drug perturbation by providing candidate regulatory element of those drug associated genes."
+    - **Evidence pointer** Abstract, Discussion.
+    - **Concern** The manuscript does not clearly articulate how the identified enhancers improve causal understanding beyond what is already known from gene expression signatures. The link from predicted enhancer changes to causal variants is indirect and relies on eQTL data, but the analysis does not demonstrate that the variants identified are functionally relevant to drug response. The examples provided are suggestive but not conclusive.
+    - **Why it matters** The stated significance of the work depends on its ability to provide causal insights. Without a clearer demonstration of how the enhancer predictions lead to testable causal hypotheses, the impact may be limited.
+    - **Resolution test** Include a more detailed analysis showing that variants in diffEnhancers are enriched for known pharmacogenomic associations or that they affect transcription factor binding in a way that is consistent with drug response mechanisms.
+- **Minor Comments**
+  - **R1-m1** (Severity: Minor, Axis: Clarity and reproducibility)
+    - **Affected element** Methods section, model implementation.
+    - **Evidence pointer** Methods, "Model implementation and evaluation".
+    - **Issue** The description of the model implementation is incomplete. The authors state that setting γG = γT reduces the model to elastic net, but the exact values of γG, γT, and λ are not specified. The use of the R package "glnmet" (likely a typo for "glmnet") is mentioned, but details on hyperparameter tuning are absent.
+    - **Required correction** Specify all hyperparameter values, tuning procedures, and the exact R packages and versions used. Clarify the typo in the package name.
+  - **R1-m2** (Severity: Minor, Axis: Statistical rigor)
+    - **Affected element** Results, diffEnhancer identification.
+    - **Evidence pointer** Results, "Revealing the drug responsive enhancers...".
+    - **Issue** The multiple testing problem is not addressed. With thousands of enhancers tested, the threshold of p < 0.001 will yield many false positives. No correction for multiple comparisons (e.g., FDR) is mentioned.
+    - **Required correction** Apply and report multiple testing corrections, or justify why they are not needed.
+  - **R1-m3** (Severity: Minor, Axis: Reproducibility)
+    - **Affected element** Data availability.
+    - **Evidence pointer** Not explicitly stated in the manuscript.
+    - **Issue** No statement on data and code availability is provided. For a computational framework, this is essential for reproducibility.
+    - **Required correction** Add a data and code availability statement, including links to any public repositories.
+  - **R1-m4** (Severity: Minor, Axis: Readability)
+    - **Affected element** Figure 4 caption.
+    - **Evidence pointer** Figure 4.
+    - **Issue** The caption for Figure 4 appears to have mismatched labels. The text describes (a) and (b) for breast cancer and (c) and (d) for prostate cancer, but the caption text seems to reverse the order for panels (c) and (d). This creates confusion.
+    - **Required correction** Correct the figure caption to accurately describe each panel.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of quantitative performance metrics and statistical tests for model validation.
+  - R1-M2: No experimental or orthogonal validation of predicted drug-responsive enhancers.
+  - R1-M3: Insufficient demonstration of causal relevance of identified variants.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The idea of predicting chromatin accessibility from gene expression is not new (BIRD is cited), but the application to drug-responsive enhancer identification is a novel angle. The integration of network priors is a reasonable contribution, though not groundbreaking.
+  - **Scientific importance** Moderate. The framework addresses a real bottleneck in pharmacogenomics and could be useful for hypothesis generation. However, the lack of validation limits the immediate impact.
+  - **Interdisciplinary readership** Moderate. The work bridges computational biology, genomics, and pharmacology. It may appeal to readers in these fields, but the technical nature and lack of clear biological validation may limit broader appeal.
+  - **Technical soundness** Weak as presented. The model is reasonable, but the evaluation is incomplete and lacks statistical rigor. The absence of key quantitative results and validation undermines confidence.
+  - **Readability for nonspecialists** Fair. The manuscript is generally clear but uses jargon without sufficient explanation. The methods section is dense and would be challenging for non-experts. The figures are helpful but some captions are confusing.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the technical validation is insufficient to support the claims. Major revisions are required to provide quantitative performance metrics, address statistical rigor, and demonstrate biological relevance of the predicted enhancers. If these concerns are adequately addressed, the work could be suitable for publication in a specialized journal.
+
+## Risk / unsupported claims
+- The claim that PERD can reliably predict enhancer chromatin accessibility from gene expression is unsupported without quantitative metrics and statistical tests.
+- The claim that identified diffEnhancers are drug-responsive is unsupported without experimental validation or strong orthogonal evidence.
+- The claim that PERD enhances causal understanding of drug perturbation is not fully substantiated by the presented analyses.
+- The generalizability of the model to new cell types or tissues beyond those in the training data is not demonstrated.
+- The biological significance of the eQTL-enhancer-drug links is presented through anecdotal examples and lacks systematic enrichment analysis.

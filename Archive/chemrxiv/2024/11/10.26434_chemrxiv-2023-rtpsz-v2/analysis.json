@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-rtpsz-v2",
+  "title": "An Automated On-The-Fly Optimization of Resource Allocation for High-Throughput Protein-Ligand Binding Free Energy Simulations",
+  "authors": "S. Benjamin Koby; Evgeny Gutkin; Shree Patel; Maria Kurnikova",
+  "journal": "ChemRxiv",
+  "published_date": "2024-11-17",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文聚焦蛋白-小分子配体结合自由能模拟的资源优化工作流，虽涉及分子动力学模拟，但对象为蛋白-配体而非蛋白-DNA互作，方法可迁移性有限，仅部分相关。",
+  "abstract": "Molecular dynamics simulations to compute protein to small molecule binding free energies are becoming a valuable tool in the early stages of drug discovery. However, their cost and complexity are often prohibitive for high-throughput studies. Herein, we present an automated workflow for the thermodynamic integration scheme with the “on-the-fly” optimization of computational resource allocation for each λ-window of both relative and absolute binding free energy simulations. This iterative workflow utilizes automatic equilibration detection and convergence testing via the Jensen-Shannon distance to determine optimal simulation stopping points in an entirely data-driven manner. We benchmark our workflow on the well-characterized systems cyclin-dependent kinase 2 and T4 Lysozyme L99A/M102Q mutant, as well as the more flexible SARS-CoV-2 papain-like protease. We demonstrate that this proposed protocol can achieve over an 85% reduction in computational expense while maintaining similar levels of accuracy when compared to other benchmarking protocols. We examine the performance of this protocol on both small and large molecular transformations. The cost accuracy tradeoff of repeated runs is also investigated.",
+  "abstract_zh": "分子动力学模拟用于计算蛋白质与小分子结合自由能，正成为药物发现早期阶段的一种宝贵工具。然而，其成本和复杂性往往阻碍了在高通量研究中的应用。在此，我们提出了一种自动化工作流程，用于热力学积分方案，并针对相对和绝对结合自由能模拟的每个λ窗口，实现计算资源分配的“即时”优化。该迭代工作流程利用自动平衡检测和基于Jensen-Shannon距离的收敛性测试，以完全数据驱动的方式确定最优模拟停止点。我们在特征明确的系统——细胞周期蛋白依赖性激酶2和T4溶菌酶L99A/M102Q突变体，以及更具柔性的SARS-CoV-2木瓜蛋白酶样蛋白酶上，对我们的工作流程进行了基准测试。我们证明，与其他基准测试协议相比，该提议方案可实现超过85%的计算成本降低，同时保持相似的精度水平。我们考察了该协议在小分子和大分子转化上的性能，并研究了重复运行的成本-精度权衡。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-rtpsz-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-rtpsz-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-rtpsz-v2/index.html"
+}

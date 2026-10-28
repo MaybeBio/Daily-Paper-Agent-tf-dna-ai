@@ -1,0 +1,508 @@
+{
+  "identity": {
+    "pmid": "40655014",
+    "doi": "10.1101/2022.05.18.492517",
+    "title": "The epigenomic landscape of single vascular cells reflects developmental origin and identifies disease risk loci."
+  },
+  "content": {
+    "abstract": "Vascular sites have distinct susceptibility to atherosclerosis and aneurysm, yet the biological underpinning of vascular site-specific disease risk is largely unknown. Vascular tissues have different developmental origins that may influence global chromatin accessibility, and understanding differential chromatin accessibility, gene expression profiles, and gene regulatory networks (GRN) on single cell resolution may give key insight into vascular site-specific disease risk. Here, we performed single cell chromatin accessibility (scATACseq) and gene expression profiling (scRNAseq) of healthy adult mouse vascular tissue from three vascular sites, 1) aortic root and ascending aorta, 2) brachiocephalic and carotid artery, and 3) descending thoracic aorta. Through a comprehensive analysis at single cell resolution, we discovered key regulatory enhancers to not only be cell type, but vascular site specific in vascular smooth muscle (SMC), fibroblasts, and endothelial cells. We identified epigenetic markers of embryonic origin with differential chromatin accessibility of key developmental transcription factors such as Tbx20, Hand2, Gata4, and Hoxb family members and discovered transcription factor motif accessibility to be cell type and vascular site specific. Notably, we found ascending fibroblasts to have distinct epigenomic patterns, highlighting SMAD2/3 function to suggest a differential susceptibility to TGFbeta, a finding we confirmed through in vitro culture of primary adventitial fibroblasts. Finally, to understand how vascular site-specific enhancers may regulate human genetic risk for disease, we integrated genome wide association study (GWAS) data for ascending and descending aortic dimension, and through using a distinct base resolution deep learning model to predict variant effect on chromatin accessibility, ChromBPNet, to predict variant effects in SMC, Fibroblasts, and Endothelial cells within ascending aorta, carotid, and descending aorta sites of origin. We reveal that although cell type remains a primary influence on variant effects, vascular site modifies cell type transcription and highlights genomic regions that are enriched for specific TF motif footprints - including MEF2A, SMAD3, and HAND2. This work supports a paradigm that the epigenomic and transcriptomic landscape of vascular cells are cell type and vascular site-specific and that site-specific enhancers govern complex genetic drivers of disease risk.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weldy, Chad S",
+        "Kundu, Soumya",
+        "Monteiro, Joao",
+        "Gu, Wenduo",
+        "Pedroza, Albert J",
+        "Dalal, Alex R",
+        "Worssam, Matthew D",
+        "Li, Daniel",
+        "Palmisano, Brian",
+        "Zhao, Quanyi",
+        "Sharma, Disha",
+        "Nguyen, Trieu",
+        "Kundu, Ramendra",
+        "Fischbein, Michael P",
+        "Engreitz, Jesse",
+        "Kundaje, Anshul B",
+        "Cheng, Paul P",
+        "Quertermous, Thomas"
+      ],
+      "short_names": [
+        "Weldy CS",
+        "Kundu S",
+        "Monteiro J",
+        "Gu W",
+        "Pedroza AJ",
+        "Dalal AR",
+        "Worssam MD",
+        "Li D",
+        "Palmisano B",
+        "Zhao Q",
+        "Sharma D",
+        "Nguyen T",
+        "Kundu R",
+        "Fischbein MP",
+        "Engreitz J",
+        "Kundaje AB",
+        "Cheng PP",
+        "Quertermous T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4652-6422",
+        "ORCID: 0000-0002-3859-3150",
+        "ORCID: 0000-0001-5291-5980",
+        "ORCID: 0000-0002-9993-3817",
+        "ORCID: 0000-0003-4391-5377",
+        "ORCID: 0000-0002-0638-2025",
+        "ORCID: 0000-0002-5754-1719",
+        "ORCID: 0000-0003-3429-2702",
+        "ORCID: 0000-0002-7645-9067"
+      ],
+      "affiliations": [
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Stanford Center for Inherited Cardiovascular Disease.",
+        "Department of Computer Science, Stanford University.",
+        "Department of Genetics, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Stanford Cardiovascular Institute, Stanford University.",
+        "Stanford Cardiovascular Institute, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Department of Cardiothoracic Surgery, Stanford University.",
+        "Stanford Cardiovascular Institute, Stanford University.",
+        "Department of Genetics, Stanford University.",
+        "Department of Computer Science, Stanford University.",
+        "Department of Genetics, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Stanford Cardiovascular Institute, Stanford University.",
+        "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+        "Stanford Cardiovascular Institute, Stanford University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weldy, Chad S",
+        "short_name": "Weldy CS",
+        "identifiers": [
+          "0000-0003-4652-6422"
+        ],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+          "Stanford Center for Inherited Cardiovascular Disease."
+        ]
+      },
+      {
+        "full_name": "Kundu, Soumya",
+        "short_name": "Kundu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University.",
+          "Department of Genetics, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Monteiro, João",
+        "short_name": "Monteiro J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Gu, Wenduo",
+        "short_name": "Gu W",
+        "identifiers": [
+          "0000-0002-3859-3150"
+        ],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Pedroza, Albert J",
+        "short_name": "Pedroza AJ",
+        "identifiers": [
+          "0000-0001-5291-5980"
+        ],
+        "affiliations": [
+          "Stanford Cardiovascular Institute, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Dalal, Alex R",
+        "short_name": "Dalal AR",
+        "identifiers": [
+          "0000-0002-9993-3817"
+        ],
+        "affiliations": [
+          "Stanford Cardiovascular Institute, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Worssam, Matthew D",
+        "short_name": "Worssam MD",
+        "identifiers": [
+          "0000-0003-4391-5377"
+        ],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Li, Daniel",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Palmisano, Brian",
+        "short_name": "Palmisano B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Zhao, Quanyi",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Sharma, Disha",
+        "short_name": "Sharma D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Trieu",
+        "short_name": "Nguyen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Kundu, Ramendra",
+        "short_name": "Kundu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Fischbein, Michael P",
+        "short_name": "Fischbein MP",
+        "identifiers": [
+          "0000-0002-0638-2025"
+        ],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Stanford University.",
+          "Stanford Cardiovascular Institute, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Engreitz, Jesse",
+        "short_name": "Engreitz J",
+        "identifiers": [
+          "0000-0002-5754-1719"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul B",
+        "short_name": "Kundaje AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University.",
+          "Department of Genetics, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Cheng, Paul P",
+        "short_name": "Cheng PP",
+        "identifiers": [
+          "0000-0003-3429-2702"
+        ],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+          "Stanford Cardiovascular Institute, Stanford University."
+        ]
+      },
+      {
+        "full_name": "Quertermous, Thomas",
+        "short_name": "Quertermous T",
+        "identifiers": [
+          "0000-0002-7645-9067"
+        ],
+        "affiliations": [
+          "Department of Medicine, Division of Cardiovascular Medicine, Stanford University.",
+          "Stanford Cardiovascular Institute, Stanford University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 12:28",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36198796",
+      "36131050",
+      "35473929",
+      "35293863",
+      "35130031",
+      "34990206",
+      "34968759",
+      "34879708",
+      "34849613",
+      "34837083",
+      "34594039",
+      "34381190",
+      "34261328",
+      "34163071",
+      "34048734",
+      "33990324",
+      "33719500",
+      "33585493",
+      "33235358",
+      "33020668",
+      "33020273",
+      "32981416",
+      "32673538",
+      "32441123",
+      "31801372",
+      "31797367",
+      "31359001",
+      "31178118",
+      "30773635",
+      "30659137",
+      "30595370",
+      "30510157",
+      "30487518",
+      "30385745",
+      "30307970",
+      "30071989",
+      "29892015",
+      "29617720",
+      "29539636",
+      "29212778",
+      "28825706",
+      "28811218",
+      "28663257",
+      "28135244",
+      "27899403",
+      "27301358",
+      "26663397",
+      "26479710",
+      "26343387",
+      "25953851",
+      "25953818",
+      "25535917",
+      "25516281",
+      "25193116",
+      "24722330",
+      "24227677",
+      "24161929",
+      "23797856",
+      "22955828",
+      "22573622",
+      "22421048",
+      "22040871",
+      "21378990",
+      "21217753",
+      "21148425",
+      "20551518",
+      "20513432",
+      "20436461",
+      "20336138",
+      "20139355",
+      "18483411",
+      "18462713",
+      "17379839",
+      "17324271",
+      "17122446",
+      "16183063",
+      "15337883",
+      "15102925",
+      "14208469",
+      "13616843",
+      "13497425",
+      "9024776",
+      "8830742",
+      "8631495"
+    ],
+    "similar": [
+      "40655014",
+      "40931195",
+      "32698686",
+      "28193859",
+      "37555319",
+      "40109260",
+      "39829783",
+      "41735542",
+      "41641545",
+      "36579645",
+      "29558892",
+      "41256473",
+      "40120433",
+      "39606421",
+      "38664790",
+      "34661575",
+      "36172868",
+      "31372457",
+      "30307970",
+      "34265237",
+      "34990206",
+      "32981416",
+      "31399133",
+      "38116118",
+      "38552156",
+      "37805492",
+      "21415370",
+      "39888372",
+      "37069576",
+      "39744838",
+      "39925267",
+      "40501802",
+      "40836920",
+      "35646489",
+      "35751107",
+      "39326643",
+      "37848613",
+      "20829218",
+      "33586346",
+      "35976093",
+      "30529831",
+      "31856914",
+      "26817822",
+      "39552248",
+      "29141961",
+      "35861960",
+      "30169995",
+      "31136738",
+      "32817427",
+      "32513244",
+      "22105919",
+      "37525156",
+      "38289873",
+      "33017217",
+      "30827930",
+      "38328934",
+      "32973041",
+      "41648393",
+      "29351903",
+      "18952601",
+      "30593493",
+      "26310581",
+      "36824825",
+      "37789374",
+      "39550354",
+      "41021763",
+      "40760451",
+      "30444878",
+      "34879708",
+      "36563664",
+      "31815603",
+      "30341348",
+      "32029221",
+      "32772801",
+      "33230159",
+      "34038741",
+      "40826382",
+      "41279641",
+      "40231607",
+      "40702585",
+      "21965603",
+      "35085847",
+      "41676689",
+      "32442411",
+      "41544130",
+      "37017084",
+      "39697172",
+      "38808504",
+      "23814118",
+      "34429139",
+      "34488759",
+      "29396371",
+      "40594772",
+      "38943564",
+      "39868536",
+      "26966274",
+      "26020946",
+      "39493754",
+      "28663257",
+      "37137383"
+    ],
+    "review": [
+      "40655014",
+      "37017084"
+    ],
+    "pmc": [
+      "12247710"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40655014/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2022.05.18.492517",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

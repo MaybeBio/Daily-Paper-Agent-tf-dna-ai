@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2511.09026v2",
+  "title": "DeepVRegulome: DNABERT-based deep-learning framework for predicting the functional impact of short genomic variants on the human regulome",
+  "authors": "Pratik Dutta; Matthew Obusan; Rekha Sathian; Max Chao; Pallavi Surana; Nimisha Papineni; Yanrong Ji; Zhihan Zhou; Han Liu; Alisa Yurovsky; Ramana V Davuluri",
+  "journal": "",
+  "published_date": "2025-11-12",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文基于DNABERT微调模型预测基因组变异对转录因子结合等调控功能的影响，虽聚焦变异效应而非直接建模TF-DNA互作机制，但方法可迁移至TF-DNA结合位点预测与功能评估。",
+  "abstract": "Whole-genome sequencing (WGS) has revealed numerous non-coding short variants whose functional impacts remain poorly understood. Despite recent advances in deep-learning genomic approaches, accurately predicting and prioritizing clinically relevant mutations in gene regulatory regions remains a major challenge. We developed DeepVRegulome, a computational framework integrating 464 fine-tuned DNABERT models (458 transcription factor, 4 histone mark, and 2 splice site models) trained on ENCODE and GENCODE datasets. The framework pairs these deep learning models with a suite of analytical tools: quantitative variant scoring via log-odds ratios to assess functional impact, attention-based motif analysis to identify disrupted sequence patterns, and survival analysis using Kaplan-Meier and Cox proportional hazards models to link high-impact variants with clinical outcomes. To ensure the framework accurately captures variant effects on baseline binding status, we benchmarked DeepVRegulome against an independent experimental assay of allele-specific transcription factor binding (SNP-SELEX) data and compared its performance to four established variant-effect predictors. The analysis identified 572 splice-disrupting and 9,837 transcription-factor binding site-altering mutations occurring in greater than 10 percentage of glioblastoma samples. Survival analysis linked 1352 mutations and 563 disrupted regulatory regions to patient outcomes, enabling stratification via non-coding mutation signatures. All the code, fine-tuned models, and an interactive data portal are publicly available.",
+  "abstract_zh": "全基因组测序（WGS）已揭示大量非编码短变异，其功能影响仍知之甚少。尽管深度学习基因组方法近期取得进展，但准确预测和优先排序基因调控区域中的临床相关突变仍是一项重大挑战。我们开发了DeepVRegulome，一个计算框架，整合了464个微调后的DNABERT模型（458个转录因子、4个组蛋白标记和2个剪接位点模型），这些模型基于ENCODE和GENCODE数据集训练。该框架将这些深度学习模型与一套分析工具配对：通过对数几率比进行定量变异评分以评估功能影响，基于注意力的基序分析以识别被破坏的序列模式，以及使用Kaplan-Meier和Cox比例风险模型进行生存分析，以将高影响变异与临床结果关联。为确保框架准确捕捉变异对基线结合状态的影响，我们针对等位基因特异性转录因子结合（SNP-SELEX）数据的独立实验测定对DeepVRegulome进行了基准测试，并将其性能与四种已建立的变异效应预测器进行了比较。分析识别出572个剪接破坏突变和9,837个转录因子结合位点改变突变，这些突变在超过10%的胶质母细胞瘤样本中出现。生存分析将1352个突变和563个被破坏的调控区域与患者结果关联，从而通过非编码突变特征实现分层。所有代码、微调模型及交互式数据门户均公开可用。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2511.09026v2",
+  "source_url": "https://arxiv.org/abs/2511.09026v2",
+  "paper_page_path": "papers/arxiv/2511.09026v2/index.html"
+}

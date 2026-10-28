@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "39531992",
+    "doi": "10.1016/j.compbiolchem.2024.108274",
+    "title": "Unveiling the distinctive variations in multi-omics triggered by TP53 mutation in lung cancer subtypes: An insight from interaction among intratumoral microbiota, tumor microenvironment, and pathology."
+  },
+  "content": {
+    "abstract": "The TP53 mutation is one of the most common gene mutations in non-small cell lung cancer (NSCLC) and plays a significant role in the occurrence, development, and prognosis of both lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC). Recent studies have also suggested the predictive value of TP53 mutations in the response to immunotherapy for NSCLC. It is known that intratumoral microbiota, tumor immune microenvironment (TIME) and histology are associated with the roles of TP53 mutation in NSCLC. However, the intrinsic associations among these three factors and their underlying interaction with TP53 mutation are not well understood. Additionally, the potential of predicting TP53 mutations using deep learning methods has not yet been fully evaluated. In this paper, we comprehensively evaluated the tissue microbiome, host gene expression characteristics, and histopathological slides of 992 NSCLC patients obtained from the cancer genome atlas (TCGA) and validated the findings using multi-omics data of 332 NSCLC patients from the Clinical Proteomic Tumor Analysis Consortium (CPTAC). Compared to LUSC, LUAD exhibited more substantial differences between patients with and without TP53 mutation in all three aspects. In LUAD, our results imply underlying links between the tissue microbiome and immune cell components in the TIME, and show that the abundance of immune cells is reflected in histology slides. Furthermore, we propose a novel multimodal deep learning model that focuses on histopathology images, which achieves an area under the curve (AUC) of 0.84 in LUAD. In summary, TP53 mutation of LUAD resulted more significant changes in intratumoral microbiota, TIME and histology than that of LUSC. And histopathology images can be used to predict TP53 mutation in LUAD with reasonable accuracy.",
+    "keywords": [
+      "Histopathology slide",
+      "Non-small-cell lung cancer",
+      "Tissue microbiome",
+      "Tumor immune microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Microenvironment/immunology",
+      "*Lung Neoplasms/pathology/genetics",
+      "*Mutation",
+      "*Tumor Suppressor Protein p53/genetics/metabolism",
+      "*Microbiota",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/pathology",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tong, Shanhe",
+        "Huang, Kenan",
+        "Xing, Weipeng",
+        "Chu, Yuwen",
+        "Nie, Chuanqi",
+        "Ji, Lei",
+        "Wang, Wenyan",
+        "Tian, Geng",
+        "Wang, Bing",
+        "Yang, Jialiang"
+      ],
+      "short_names": [
+        "Tong S",
+        "Huang K",
+        "Xing W",
+        "Chu Y",
+        "Nie C",
+        "Ji L",
+        "Wang W",
+        "Tian G",
+        "Wang B",
+        "Yang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China; Geneis Beijing Co., Ltd., Beijing 100102, China.",
+        "Department of Thoracic Surgery, Shanghai Changzheng Hospital, Navy Military Medical University, 415 Fengyang Road, Huangpu District, Shanghai 200003, China; Department of Thoracic Surgery, The First Affiliated Hospital of Soochow University, Suzhou 215006, China.",
+        "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China; Geneis Beijing Co., Ltd., Beijing 100102, China.",
+        "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China; Geneis Beijing Co., Ltd., Beijing 100102, China.",
+        "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China; Geneis Beijing Co., Ltd., Beijing 100102, China.",
+        "Geneis Beijing Co., Ltd., Beijing 100102, China; Qingdao Geneis Institute of Big Data Mining and Precision Medicine, Qingdao 266000, China.",
+        "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China.",
+        "Geneis Beijing Co., Ltd., Beijing 100102, China; Qingdao Geneis Institute of Big Data Mining and Precision Medicine, Qingdao 266000, China.",
+        "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China. Electronic address: wangbing@ustc.edu.",
+        "Geneis Beijing Co., Ltd., Beijing 100102, China; Qingdao Geneis Institute of Big Data Mining and Precision Medicine, Qingdao 266000, China. Electronic address: yangjl@geneis.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tong, Shanhe",
+        "short_name": "Tong S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China; Geneis Beijing Co., Ltd., Beijing 100102, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Kenan",
+        "short_name": "Huang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shanghai Changzheng Hospital, Navy Military Medical University, 415 Fengyang Road, Huangpu District, Shanghai 200003, China; Department of Thoracic Surgery, The First Affiliated Hospital of Soochow University, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Weipeng",
+        "short_name": "Xing W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China; Geneis Beijing Co., Ltd., Beijing 100102, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Yuwen",
+        "short_name": "Chu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China; Geneis Beijing Co., Ltd., Beijing 100102, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Chuanqi",
+        "short_name": "Nie C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China; Geneis Beijing Co., Ltd., Beijing 100102, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Lei",
+        "short_name": "Ji L",
+        "identifiers": [],
+        "affiliations": [
+          "Geneis Beijing Co., Ltd., Beijing 100102, China; Qingdao Geneis Institute of Big Data Mining and Precision Medicine, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenyan",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Geng",
+        "short_name": "Tian G",
+        "identifiers": [],
+        "affiliations": [
+          "Geneis Beijing Co., Ltd., Beijing 100102, China; Qingdao Geneis Institute of Big Data Mining and Precision Medicine, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bing",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical & Information Engineering, Anhui University of Technology, Anhui 243002, China. Electronic address: wangbing@ustc.edu."
+        ]
+      },
+      {
+        "full_name": "Yang, Jialiang",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Geneis Beijing Co., Ltd., Beijing 100102, China; Qingdao Geneis Institute of Big Data Mining and Precision Medicine, Qingdao 266000, China. Electronic address: yangjl@geneis.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:54",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "42523548",
+      "42172181",
+      "41736575",
+      "41516132",
+      "41408259",
+      "40875911",
+      "40725183",
+      "40708937",
+      "40413362"
+    ],
+    "refs": [],
+    "similar": [
+      "39531992",
+      "42201046",
+      "33256552",
+      "40019814",
+      "39735553",
+      "35280362",
+      "37072703",
+      "40486872",
+      "31539077",
+      "39609084",
+      "38847309",
+      "37261522",
+      "31746315",
+      "40210478",
+      "40796933",
+      "41394854",
+      "33717076",
+      "34635074",
+      "40440686",
+      "41106040",
+      "31692283",
+      "35254116",
+      "37074188",
+      "35212236",
+      "35226388",
+      "40474806",
+      "32857918",
+      "41306958",
+      "37091844",
+      "32927274",
+      "38736875",
+      "40875911",
+      "35400998",
+      "39067405",
+      "30048458",
+      "30089598",
+      "39118525",
+      "31619231",
+      "40568577",
+      "38685772",
+      "38330261",
+      "41128012",
+      "33314730",
+      "30089591",
+      "30626401",
+      "38867248",
+      "32209727",
+      "37081749",
+      "32158625",
+      "40560629",
+      "33655698",
+      "37275857",
+      "40165604",
+      "39390580",
+      "39040095",
+      "41067858",
+      "39164746",
+      "34877770",
+      "41858121",
+      "40327401",
+      "39188060",
+      "27623992",
+      "26780934",
+      "38872053",
+      "32545367",
+      "32694238",
+      "36536539",
+      "39455880",
+      "35837383",
+      "28838393",
+      "40640822",
+      "35140113",
+      "36970920",
+      "38677736",
+      "34887858",
+      "40835511",
+      "33330629",
+      "32299384",
+      "31665076",
+      "40336032",
+      "40113013",
+      "34620079",
+      "34745015",
+      "30224757",
+      "40948762",
+      "34450259",
+      "37492563",
+      "21331359",
+      "40197849",
+      "37904553",
+      "31319968",
+      "39994401",
+      "36845145",
+      "37880703",
+      "31986371",
+      "26899019",
+      "36232866",
+      "30066858",
+      "28039262",
+      "37950236"
+    ],
+    "review": [
+      "39531992",
+      "38330261",
+      "38867248",
+      "39040095",
+      "32299384"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(24)00262-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://proteomics.cancer.gov/programs/cptac",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

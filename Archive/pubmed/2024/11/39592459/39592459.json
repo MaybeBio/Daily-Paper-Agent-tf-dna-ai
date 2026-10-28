@@ -1,0 +1,593 @@
+{
+  "identity": {
+    "pmid": "39592459",
+    "doi": "10.1007/s00401-024-02831-w",
+    "title": "Functional profiling of murine glioma models highlights targetable immune evasion phenotypes."
+  },
+  "content": {
+    "abstract": "Cancer-intrinsic immune evasion mechanisms and pleiotropy are a barrier to cancer immunotherapy. This is apparent in certain highly fatal cancers, including high-grade gliomas and glioblastomas (GBM). In this study, we evaluated two murine syngeneic glioma models (GL261 and CT2A) as preclinical models for human GBM using functional genetic screens, single-cell transcriptomics and machine learning approaches. Through CRISPR genome-wide co-culture killing screens with various immune cells (cytotoxic T cells, natural killer cells, and macrophages), we identified three key cancer-intrinsic evasion mechanisms: NFkappaB signaling, autophagy/endosome machinery, and chromatin remodeling. Additional fitness screens identified dependencies in murine gliomas that partially recapitulated those seen in human GBM (e.g., UFMylation). Our single-cell analyses showed that different glioma models exhibited distinct immune infiltration patterns and recapitulated key immune gene programs observed in human GBM, including hypoxia, interferon, and TNF signaling. Moreover, in vivo orthotopic tumor engraftment was associated with phenotypic shifts and changes in proliferative capacity, with murine tumors recapitulating the intratumoral heterogeneity observed in human GBM, exhibiting propensities for developmental- and mesenchymal-like phenotypes. Notably, we observed common transcription factors and cofactors shared with human GBM, including developmental (Nfia and Tcf4), mesenchymal (Prrx1 and Wwtr1), as well as cycling-associated genes (Bub3, Cenpa, Bard1, Brca1, and Mis18bp1). Perturbation of these genes led to reciprocal phenotypic shifts suggesting intrinsic feedback mechanisms that balance in vivo cellular states. Finally, we used a machine-learning approach to identify two distinct immune evasion gene programs, one of which represents a clinically-relevant phenotype and delineates a subpopulation of stem-like glioma cells that predict response to immune checkpoint inhibition in human patients. This comprehensive characterization helps bridge the gap between murine glioma models and human GBM, providing valuable insights for future therapeutic development.",
+    "keywords": [
+      "CT2A",
+      "GL261",
+      "Genome-wide CRISPR screen",
+      "Glioblastoma",
+      "Glioma",
+      "Human",
+      "Murine",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Glioma/immunology/genetics/pathology",
+      "*Brain Neoplasms/genetics/immunology/pathology",
+      "*Disease Models, Animal",
+      "Phenotype",
+      "Mice, Inbred C57BL",
+      "Tumor Escape/genetics",
+      "Humans",
+      "Cell Line, Tumor",
+      "Immune Evasion/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mikolajewicz, Nicholas",
+        "Tatari, Nazanin",
+        "Wei, Jiarun",
+        "Savage, Neil",
+        "Granda Farias, Adrian",
+        "Dimitrov, Vassil",
+        "Chen, David",
+        "Zador, Zsolt",
+        "Dasgupta, Kuheli",
+        "Aguilera-Uribe, Magali",
+        "Xiao, Yu-Xi",
+        "Lee, Seon Yong",
+        "Mero, Patricia",
+        "McKenna, Dillon",
+        "Venugopal, Chitra",
+        "Brown, Kevin R",
+        "Han, Hong",
+        "Singh, Sheila",
+        "Moffat, Jason"
+      ],
+      "short_names": [
+        "Mikolajewicz N",
+        "Tatari N",
+        "Wei J",
+        "Savage N",
+        "Granda Farias A",
+        "Dimitrov V",
+        "Chen D",
+        "Zador Z",
+        "Dasgupta K",
+        "Aguilera-Uribe M",
+        "Xiao YX",
+        "Lee SY",
+        "Mero P",
+        "McKenna D",
+        "Venugopal C",
+        "Brown KR",
+        "Han H",
+        "Singh S",
+        "Moffat J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7525-0384",
+        "ORCID: 0000-0003-2177-3865",
+        "ORCID: 0000-0002-5663-8586"
+      ],
+      "affiliations": [
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Canada.",
+        "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada.",
+        "Department of Biomedicine, University Hospital Basel, Basel, Switzerland.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Canada.",
+        "Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Canada.",
+        "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Department of Surgery, Faculty of Health Sciences, McMaster University, Hamilton, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada.",
+        "Department of Surgery, Faculty of Health Sciences, McMaster University, Hamilton, Canada.",
+        "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada.",
+        "Department of Surgery, Faculty of Health Sciences, McMaster University, Hamilton, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+        "Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Canada.",
+        "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada.",
+        "Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Canada. ssingh@mcmaster.ca.",
+        "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada. ssingh@mcmaster.ca.",
+        "Department of Surgery, Faculty of Health Sciences, McMaster University, Hamilton, Canada. ssingh@mcmaster.ca.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada. jason.moffat@sickkids.ca.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Canada. jason.moffat@sickkids.ca.",
+        "Institute for Biomedical Engineering, University of Toronto, Toronto, Canada. jason.moffat@sickkids.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mikolajewicz, Nicholas",
+        "short_name": "Mikolajewicz N",
+        "identifiers": [
+          "0000-0002-7525-0384"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Tatari, Nazanin",
+        "short_name": "Tatari N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Canada.",
+          "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada.",
+          "Department of Biomedicine, University Hospital Basel, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wei, Jiarun",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Savage, Neil",
+        "short_name": "Savage N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Canada.",
+          "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada."
+        ]
+      },
+      {
+        "full_name": "Granda Farias, Adrian",
+        "short_name": "Granda Farias A",
+        "identifiers": [
+          "0000-0003-2177-3865"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Dimitrov, Vassil",
+        "short_name": "Dimitrov V",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Chen, David",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Zador, Zsolt",
+        "short_name": "Zador Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Faculty of Health Sciences, McMaster University, Hamilton, Canada."
+        ]
+      },
+      {
+        "full_name": "Dasgupta, Kuheli",
+        "short_name": "Dasgupta K",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Aguilera-Uribe, Magali",
+        "short_name": "Aguilera-Uribe M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yu-Xi",
+        "short_name": "Xiao YX",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Lee, Seon Yong",
+        "short_name": "Lee SY",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Mero, Patricia",
+        "short_name": "Mero P",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "McKenna, Dillon",
+        "short_name": "McKenna D",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada.",
+          "Department of Surgery, Faculty of Health Sciences, McMaster University, Hamilton, Canada."
+        ]
+      },
+      {
+        "full_name": "Venugopal, Chitra",
+        "short_name": "Venugopal C",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada.",
+          "Department of Surgery, Faculty of Health Sciences, McMaster University, Hamilton, Canada."
+        ]
+      },
+      {
+        "full_name": "Brown, Kevin R",
+        "short_name": "Brown KR",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Han, Hong",
+        "short_name": "Han H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Canada.",
+          "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada."
+        ]
+      },
+      {
+        "full_name": "Singh, Sheila",
+        "short_name": "Singh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Canada. ssingh@mcmaster.ca.",
+          "Centre for Discovery in Cancer Research (CDCR), McMaster University, Hamilton, Canada. ssingh@mcmaster.ca.",
+          "Department of Surgery, Faculty of Health Sciences, McMaster University, Hamilton, Canada. ssingh@mcmaster.ca."
+        ]
+      },
+      {
+        "full_name": "Moffat, Jason",
+        "short_name": "Moffat J",
+        "identifiers": [
+          "0000-0002-5663-8586"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Canada. jason.moffat@sickkids.ca.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, Canada. jason.moffat@sickkids.ca.",
+          "Institute for Biomedical Engineering, University of Toronto, Toronto, Canada. jason.moffat@sickkids.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta neuropathologica"
+    ],
+    "journal_abbrev": [
+      "Acta Neuropathol"
+    ],
+    "pub_date": "2024 Nov 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/27 00:20",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "42386964",
+      "42120978",
+      "41553435",
+      "41400763",
+      "40070326"
+    ],
+    "refs": [
+      "38242087",
+      "38213329",
+      "38134933",
+      "38057668",
+      "37507199",
+      "37488293",
+      "37366911",
+      "37046694",
+      "36543376",
+      "36539501",
+      "36307536",
+      "36261634",
+      "36170831",
+      "36151395",
+      "36147906",
+      "36089610",
+      "35953550",
+      "35729337",
+      "35649412",
+      "35565200",
+      "35393416",
+      "35379808",
+      "35140215",
+      "35122077",
+      "35117252",
+      "35073960",
+      "34692159",
+      "34594043",
+      "34572324",
+      "34497417",
+      "34432197",
+      "34321664",
+      "34253920",
+      "34185076",
+      "34184026",
+      "34062119",
+      "33854970",
+      "33781950",
+      "33767702",
+      "33758415",
+      "33712601",
+      "33664574",
+      "33662628",
+      "33608526",
+      "33448691",
+      "33377073",
+      "33246952",
+      "33233585",
+      "33128048",
+      "33068406",
+      "32968282",
+      "32764562",
+      "32572028",
+      "32405060",
+      "32341560",
+      "32240177",
+      "32183351",
+      "32133512",
+      "32104215",
+      "32041837",
+      "31870423",
+      "31748746",
+      "31614149",
+      "31548591",
+      "31545321",
+      "31327527",
+      "31178118",
+      "31081034",
+      "30996127",
+      "30995489",
+      "30813924",
+      "30790064",
+      "30787437",
+      "30742122",
+      "30742119",
+      "30425057",
+      "30379898",
+      "30217067",
+      "30213788",
+      "30204897",
+      "30167084",
+      "30127393",
+      "30096314",
+      "29776993",
+      "29087512",
+      "28723893",
+      "28465359",
+      "27994064",
+      "27799140",
+      "27530866",
+      "27157931",
+      "27083490",
+      "26444992",
+      "25849072",
+      "25776572",
+      "25605792",
+      "25444902",
+      "25275602",
+      "25151262",
+      "25140038",
+      "24726753",
+      "24691018",
+      "24588669",
+      "24447812",
+      "24113773",
+      "23260145",
+      "20419098",
+      "20129251",
+      "19741146",
+      "19047102",
+      "17961134",
+      "17701911",
+      "17470428",
+      "16734735",
+      "15696972",
+      "15634232",
+      "15328205",
+      "14989603",
+      "14730454",
+      "14575240",
+      "10879735",
+      "5475483",
+      "1418222"
+    ],
+    "similar": [
+      "39592459",
+      "40214214",
+      "41151835",
+      "25933216",
+      "41451204",
+      "40842996",
+      "40281508",
+      "38566128",
+      "33858847",
+      "40649981",
+      "32430477",
+      "39453922",
+      "25537019",
+      "40912739",
+      "23708048",
+      "38538643",
+      "39607572",
+      "40443227",
+      "27116977",
+      "34083417",
+      "40527978",
+      "41337837",
+      "41394801",
+      "26149494",
+      "39380997",
+      "34667077",
+      "23929302",
+      "25849072",
+      "23520016",
+      "40090079",
+      "39571483",
+      "26727970",
+      "23504257",
+      "38070086",
+      "40927709",
+      "31871298",
+      "31174567",
+      "34887871",
+      "40286882",
+      "31900109",
+      "20921210",
+      "30333036",
+      "31784984",
+      "32603315",
+      "36096781",
+      "33857425",
+      "40222970",
+      "28423515",
+      "25464980",
+      "39390437",
+      "39530733",
+      "32968282",
+      "28531337",
+      "41023048",
+      "21051441",
+      "31560714",
+      "41357191",
+      "31701625",
+      "40887297",
+      "38479552",
+      "39042445",
+      "36048342",
+      "40011350",
+      "27663389",
+      "39213054",
+      "40473799",
+      "41080536",
+      "32572951",
+      "34432197",
+      "35104792",
+      "25955158",
+      "26658052",
+      "31400163",
+      "40898342",
+      "26655275",
+      "39148129",
+      "18371177",
+      "38856710",
+      "40505659",
+      "20539758",
+      "40562937",
+      "32721947",
+      "36945572",
+      "39995104",
+      "40623717",
+      "26409567",
+      "31088845",
+      "39707188",
+      "39989140",
+      "27419830",
+      "30312732",
+      "37941134",
+      "39620895",
+      "39946771",
+      "40821779",
+      "24302539",
+      "29242629",
+      "39994800",
+      "41504052",
+      "22158303"
+    ],
+    "review": [
+      "39592459",
+      "40927709",
+      "41357191"
+    ],
+    "pmc": [
+      "11599368"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39592459/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00401-024-02831-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

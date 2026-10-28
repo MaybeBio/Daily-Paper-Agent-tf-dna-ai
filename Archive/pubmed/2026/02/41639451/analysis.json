@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41639451",
+  "title": "Regulatory grammar in human promoters uncovered by MPRA-based deep learning.",
+  "authors": "Barbadilla-Martinez, Lucia; Klaassen, Noud; Franceschini-Santos, Vinicius H; Breda, Jeremie; Yucel, Hatice; Hernandez-Quiles, Miguel; van Lieshout, Tijs; Urzua Traslavina, Carlos G; Boi, Minh Chau Luong; Akbarzadeh, Maryam; Hermana-Garcia-Agullo, Celia; Gregoricchio, Sebastian; de Haas, Marcel; Straver, Roy; Derks, Sarah; Zwart, Wilbert; Voest, Emile; Franke, Lude; Vermeulen, Michiel; de Ridder, Jeroen; van Steensel, Bas",
+  "journal": "Nature",
+  "published_date": "2026-02-05",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用MPRA数据训练深度学习模型PARM预测人类启动子活性并系统识别TF结合位点及位置偏好，虽聚焦启动子调控而非TF-DNA三维互作建模，但TF结合位点识别与调控语法解析对TF-DNA互作研究有直接借鉴价值。",
+  "abstract": "Promoters are the core regulatory elements of all genes. Their activity ensures the correct transcription level of each individual gene, which is essential for cellular homeostasis and responses to a wide range of signals. One of the major challenges in genomics is to build computational models that accurately predict genome-wide gene expression from the sequences of regulatory elements(1). Here we present promoter activity regulatory model (PARM), a cell-type-specific deep-learning model trained on specially designed massively parallel reporter assays (MPRAs) that query human promoter sequences. PARM is experimentally and computationally lightweight so that cell-type-specific and condition-specific models can be generated that reliably predict autonomous promoter activity across the genome from the DNA sequence alone. PARM can also design purely synthetic strong promoters. We leveraged PARM to systematically identify binding sites of transcription factors that probably contribute to the activity of each natural human promoter and to detect the rewiring of these regulatory interactions after various stimuli to the cells. We also uncovered and experimentally confirmed substantial positional preferences of transcription factors that differ between activating and repressive regulatory functions and a complex grammar of motif-motif interactions. Our approach provides a highly economic strategy towards a deeper understanding of the dynamic regulation of human promoters by transcription factors.",
+  "abstract_zh": "启动子是所有基因的核心调控元件。其活性确保每个基因的正确转录水平，这对于细胞稳态及对多种信号的响应至关重要。基因组学中的主要挑战之一是构建计算模型，以从调控元件的序列中准确预测全基因组范围内的基因表达(1)。在此，我们提出了启动子活性调控模型（promoter activity regulatory model, PARM），这是一种细胞类型特异性的深度学习模型，基于专门设计的、查询人类启动子序列的大规模平行报告分析（massively parallel reporter assays, MPRAs）进行训练。PARM在实验和计算上均轻量化，因此可以生成细胞类型特异性和条件特异性的模型，仅凭DNA序列即可可靠预测全基因组范围内的自主启动子活性。PARM还能设计纯合成的强启动子。我们利用PARM系统性地识别了可能对每个天然人类启动子活性有贡献的转录因子结合位点，并检测了细胞受到各种刺激后这些调控相互作用的重新布线。我们还发现并实验证实了转录因子在激活与抑制调控功能之间存在显著的位置偏好性，以及基序-基序相互作用的复杂语法。我们的方法为更深入理解转录因子对人类启动子的动态调控提供了一种高度经济的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41639451/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41639451/",
+  "paper_page_path": "papers/pubmed/41639451/index.html"
+}

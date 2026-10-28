@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "41718043",
+    "doi": "10.1002/cns.70798",
+    "title": "Dihydroartemisinin Alleviates Neuronal Damage and Seizures in Epileptic Mice by Inhibiting Ferroptosis via the SIRT1/FOXO1/SLC7A11/GPX4 Pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Epilepsy represents a prevalent neurological disorder. Currently, ferroptosis has been reported to be intricately linked to epilepsy onset and progression. Dihydroartemisinin (DHA) can inhibit the level of ferroptosis in various diseases. Therefore, the present study investigated whether DHA could inhibit seizures and display neuroprotective impacts by impeding ferroptosis. METHODS: In the KA-induced epileptic mouse model, the effects of DHA on epileptic behavior, cognitive function, and hippocampal neuronal damage were observed. Using both in vivo and in vitro models, the impact of DHA on neuronal injury and ferroptosis-related markers was investigated. Techniques including molecular docking, Western Blot, immunofluorescence, and CHIP-qPCR were utilized to analyze the regulatory mechanism of DHA on ferroptosis in epilepsy. Finally, brain tissue samples from patients with temporal lobe epilepsy (TLE) were collected to validate the expression of ferroptosis-related markers. RESULTS: Our experimental results showed that DHA attenuated seizures, hippocampal neuronal damage, and memory and learning deficits in epileptic mice. Moreover, DHA inhibited ferroptosis by activating solute carrier family 7 member 11 (SLC7A11) and glutathione peroxidase 4 (GPX4) expression in vivo and in vitro. Subsequently, we found that DHA activated SIRT1 expression in the mouse hippocampus, leading to a decrease in the acetylation level of forkhead box O1 (FOXO1), thereby increasing the transcriptional activity of SLC7A11. Finally, our findings provide preliminary clinical support for the association between ferroptosis and TLE. CONCLUSION: In summary, our findings indicate that DHA may have antiepileptic and neuroprotective benefits by suppressing ferroptosis through the SIRT1/FOXO1/SLC7A11/GPX4 signaling pathway.",
+    "keywords": [
+      "FOXO1",
+      "SIRT1",
+      "SLC7A11",
+      "dihydroartemisinin",
+      "epilepsy",
+      "ferroptosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Artemisinins/pharmacology/therapeutic use",
+      "Sirtuin 1/metabolism",
+      "*Ferroptosis/drug effects/physiology",
+      "Forkhead Box Protein O1/metabolism",
+      "Mice",
+      "Male",
+      "Signal Transduction/drug effects",
+      "*Neurons/drug effects/metabolism/pathology",
+      "Mice, Inbred C57BL",
+      "Amino Acid Transport System y+/metabolism",
+      "*Seizures/drug therapy/metabolism/chemically induced",
+      "Hippocampus/drug effects/metabolism",
+      "Humans",
+      "Glutathione Peroxidase/metabolism",
+      "Epilepsy, Temporal Lobe",
+      "*Epilepsy/drug therapy/metabolism",
+      "Anticonvulsants/pharmacology/therapeutic use",
+      "Phospholipid Hydroperoxide Glutathione Peroxidase"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "You, Zhipeng",
+        "Huang, Cong",
+        "Gao, Xiaoying",
+        "Fan, Zhijie",
+        "Wei, Fan",
+        "He, Yunmin",
+        "Zhao, Shiyi",
+        "Sun, Jiahang"
+      ],
+      "short_names": [
+        "You Z",
+        "Huang C",
+        "Gao X",
+        "Fan Z",
+        "Wei F",
+        "He Y",
+        "Zhao S",
+        "Sun J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1119-431X",
+        "ORCID: 0000-0002-7945-0244"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Anesthesiology, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "You, Zhipeng",
+        "short_name": "You Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Cong",
+        "short_name": "Huang C",
+        "identifiers": [
+          "0000-0002-1119-431X"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiaoying",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Zhijie",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Fan",
+        "short_name": "Wei F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "He, Yunmin",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shiyi",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jiahang",
+        "short_name": "Sun J",
+        "identifiers": [
+          "0000-0002-7945-0244"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "CNS neuroscience & therapeutics"
+    ],
+    "journal_abbrev": [
+      "CNS Neurosci Ther"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/20 16:08",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [
+      "42123614"
+    ],
+    "refs": [
+      "39946772",
+      "39823794",
+      "39479447",
+      "39257420",
+      "39128469",
+      "39053763",
+      "39033659",
+      "39032282",
+      "38981367",
+      "38956702",
+      "38908209",
+      "38566123",
+      "38507887",
+      "38439636",
+      "38438089",
+      "38366038",
+      "38357854",
+      "38191407",
+      "38127284",
+      "38101610",
+      "38042225",
+      "38024861",
+      "37984229",
+      "37982352",
+      "37918704",
+      "37820856",
+      "37816731",
+      "37741321",
+      "37598893",
+      "37598127",
+      "37487007",
+      "37474884",
+      "37415610",
+      "37386404",
+      "37244125",
+      "37237916",
+      "37236026",
+      "37142655",
+      "37001616",
+      "36988772",
+      "36978979",
+      "36967397",
+      "36941428",
+      "36762638",
+      "36739636",
+      "36610561",
+      "36536241",
+      "36280704",
+      "36087883",
+      "35853732",
+      "35624482",
+      "35609983",
+      "35484595",
+      "35370723",
+      "35273493",
+      "35130906",
+      "34779994",
+      "34528245",
+      "34511503",
+      "33995655",
+      "33925082",
+      "33897900",
+      "33727197",
+      "33707434",
+      "33649582",
+      "33362556",
+      "33327914",
+      "32210783",
+      "31815251",
+      "31519193",
+      "31417409",
+      "30686584",
+      "30557609",
+      "30219704",
+      "28661724",
+      "28462584",
+      "26945677",
+      "26653790",
+      "19308286",
+      "15220471",
+      "4110397"
+    ],
+    "similar": [
+      "41718043",
+      "39957487",
+      "41920257",
+      "41909681",
+      "36087883",
+      "40054827",
+      "41429385",
+      "39032282",
+      "41620905",
+      "41935650",
+      "41451920",
+      "41101229",
+      "40214929",
+      "41764838",
+      "40066086",
+      "40825696",
+      "38685023",
+      "40540898",
+      "41527519",
+      "40724917",
+      "39251858",
+      "39145422",
+      "41139437",
+      "41577149",
+      "41135271",
+      "41687318",
+      "41229168",
+      "40462120",
+      "40892103",
+      "40513923",
+      "40825694",
+      "40020881",
+      "38617450",
+      "38652216",
+      "41187650",
+      "40810078",
+      "41121240",
+      "42531938",
+      "41946579",
+      "41065914",
+      "40779351",
+      "41066684",
+      "40749519",
+      "40334339",
+      "39515713",
+      "42486819",
+      "39072683",
+      "41365194",
+      "39631720",
+      "33127512",
+      "42492799",
+      "40456202",
+      "38837315",
+      "41391256",
+      "39210414",
+      "41062622",
+      "41565032",
+      "40613764",
+      "42034259",
+      "42385643",
+      "40965963",
+      "34206421",
+      "39167283",
+      "39354361",
+      "41999934",
+      "41460412",
+      "41443917",
+      "41482780",
+      "41577177",
+      "38574473",
+      "41121022",
+      "41741591",
+      "41591531",
+      "40382817",
+      "41249398",
+      "39739538",
+      "41914830",
+      "33173979",
+      "41269448",
+      "38444049",
+      "41197923",
+      "38759374",
+      "39400027",
+      "40540468",
+      "39307744",
+      "42207425",
+      "41539373",
+      "39334526",
+      "40222690",
+      "39581576",
+      "41397532",
+      "42136353",
+      "38583347",
+      "40403934",
+      "39310099",
+      "40930912",
+      "41891961",
+      "38521160",
+      "39788329",
+      "39751951"
+    ],
+    "review": [
+      "41718043"
+    ],
+    "pmc": [
+      "12921727"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/seizures.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Seizures"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41718043/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cns.70798",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1323",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      }
+    ],
+    "text_mined": []
+  }
+}

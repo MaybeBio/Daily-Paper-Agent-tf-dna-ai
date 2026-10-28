@@ -1,0 +1,90 @@
+## Review setup
+
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, conclusion, and supplementary information as provided.
+- **Assessment boundary** Evaluation is limited to the scientific and technical content of the manuscript as supplied. No external code inspection, reproducibility testing, or independent data verification was performed.
+- **Shared manuscript claim summary** The authors introduce tfboot, an R package that performs bootstrap-based statistical analysis of transcription factor binding site (TFBS) disruption in gene sets, building on motifbreakR. They demonstrate the package on Asian elephant variants mapped to an African elephant reference genome, focusing on nine genes involved in outer ear morphogenesis, and report no statistically significant TFBS disruption compared to a background null distribution.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1 and 2.2), Results (Section 3), Conclusion, Funding, Acknowledgements, and Footnotes. Tables 1 and 2 and Figure 1 are referenced but not included in the supplied material.
+- **Missing materials affecting confidence** Tables 1 and 2, Figure 1, the underlying VCF data, the motifbreakR output, the code for the analysis, and the full list of background genes. The absence of these materials prevents independent verification of the statistical results and the claimed performance metrics.
+
+## Reviewer
+
+- **Overall assessment** The manuscript describes a useful software tool that addresses a real analytical gap, namely the statistical evaluation of TFBS disruption across gene sets. The methodological approach, using bootstrap resampling against a precomputed background, is sound in principle and the integration with Bioconductor and tidyverse is sensible. However, the manuscript as presented is incomplete in several critical respects. The results section is thin, the key tables and figure are not provided, and the statistical methodology is described at a level that is insufficient for replication. The demonstration on elephant data is anecdotal and does not establish general utility. The manuscript would benefit from a more rigorous validation, including a comparison with existing tools and a clearer articulation of the null hypothesis being tested.
+- **Who would be interested in the results, and why** Researchers working on noncoding variant interpretation, particularly those studying regulatory genomics in non-model organisms. The tool is also relevant to bioinformaticians developing or using Bioconductor-based workflows for functional annotation of genomic variants. The elephant example may interest evolutionary and comparative genomicists, though the lack of significant findings limits its impact.
+- **Major strengths** The tool addresses a genuine need, as most existing methods focus on single-variant annotation rather than gene-set-level inference. The use of precomputed motifbreakR results to enable fast bootstrapping is a practical and efficient design choice. The package is open source, MIT-licensed, and integrates with widely used R/Bioconductor infrastructure, which lowers the barrier to adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The manuscript claims that the bootstrap procedure creates an empirical null distribution and that p-values are calculated comparing the gene set of interest against this null.
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Concern** The description of the bootstrap procedure is incomplete. It is not specified how the null distribution is generated with respect to gene size, SNP density, or other potential confounders. It is also unclear whether the resampling is performed at the level of genes or SNPs, and how ties or overlapping genes are handled. The p-value calculation is not formally defined, and no correction for multiple testing is mentioned.
+  - **Why it matters** Without a clear and statistically defensible null model, the p-values produced by the tool cannot be interpreted. If the null distribution is biased, the tool could produce misleading results, which is particularly problematic for a method intended for hypothesis testing.
+  - **Resolution test** Provide a formal definition of the null model, including how background genes are sampled, whether sampling is stratified or weighted, and how the empirical p-value is computed. Include a simulation study or a comparison with a permutation-based approach to demonstrate that the method has appropriate type I error control.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that the analysis on elephant data took approximately 20 seconds for 1,000 bootstrap resamples on a single CPU.
+  - **Evidence pointer** Section 3, location not provided
+  - **Concern** The performance claim is not accompanied by details on the number of SNPs, the number of background genes, the size of the genome, or the version of motifbreakR used. Without these details, the claim is not reproducible and may not generalize to other datasets.
+  - **Why it matters** Performance claims are a key selling point for bioinformatics tools. If the benchmark is not described in sufficient detail, users cannot assess whether the tool will be practical for their own data.
+  - **Resolution test** Provide a detailed benchmark description, including dataset size, hardware specifications, and software versions. Ideally, include benchmarks on multiple datasets of varying sizes to show scalability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript concludes that there is no statistically significant TFBS disruption in the gene set of interest.
+  - **Evidence pointer** Section 3, Tables 1 and 2, Figure 1, location not provided
+  - **Concern** The key results are presented in tables and a figure that are not included in the supplied material. The text states that no significant disruption was found, but without the actual numbers, effect sizes, or confidence intervals, this conclusion cannot be evaluated. It is also unclear whether the analysis was adequately powered to detect an effect.
+  - **Why it matters** The demonstration is the only empirical evidence for the utility of the tool. If the results are not fully presented, the reader cannot judge whether the tool works as intended or whether the negative result is due to a lack of power or a genuine absence of effect.
+  - **Resolution test** Include the full tables and figure in the manuscript, with clear annotations of all columns and axes. Provide effect sizes and confidence intervals, and discuss the statistical power of the analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative validation
+  - **Claim pointer** The manuscript positions tfboot as a tool for gene-set-level TFBS disruption analysis, implying it adds value beyond existing methods.
+  - **Evidence pointer** Section 1, location not provided
+  - **Concern** No comparison is made with existing tools or approaches that could address similar questions, such as permutation-based enrichment tests or other gene-set analysis methods. The manuscript does not demonstrate that tfboot provides results that are consistent with or superior to existing approaches.
+  - **Why it matters** For a new tool to be adopted, it must be shown to offer advantages over existing methods, whether in terms of accuracy, speed, or ease of use. Without a comparative analysis, the added value of tfboot is not established.
+  - **Resolution test** Include a comparison with at least one alternative approach on a benchmark dataset, showing agreement or explaining discrepancies. Discuss scenarios where tfboot is preferable.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that tfboot provides methods for bootstrapping TFBS disruption, but it does not specify what the output of the analysis is, such as a p-value or effect size.
+  - **Required correction** Add a sentence in the abstract describing the type of statistical output produced, for example, empirical p-values for gene-set-level enrichment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 2.1
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The description of the read_vcf() function states that it is a wrapper around motifbreakR functions, but the specific motifbreakR functions used are not named.
+  - **Required correction** Name the specific motifbreakR functions that are wrapped, to allow users to understand the underlying implementation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Section 3
+  - **Evidence pointer** Section 3, location not provided
+  - **Issue** The manuscript mentions that the analysis was performed on nine genes, but it does not state how these genes were selected beyond the GO term annotation, nor does it discuss whether the choice of background gene set could influence the results.
+  - **Required correction** Provide a brief justification for the choice of background gene set and discuss any potential biases.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Availability section
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The package is available on GitHub, but there is no mention of a Bioconductor submission or a DOI for versioned releases.
+  - **Required correction** Consider submitting the package to Bioconductor and provide a DOI for the specific version used in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validity), R1-M2 (reproducibility), R1-M3 (evidence sufficiency). These are blocking because the core claims of the manuscript, namely that the tool provides valid statistical inference and is practically useful, cannot be assessed from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The concept of gene-set-level bootstrap testing for TFBS disruption is not entirely novel, as similar resampling approaches exist in other genomic contexts, but the specific application to TFBS disruption is a reasonable extension. Scientific importance: The tool addresses a real need, but the demonstration is too limited to establish broad importance. Interdisciplinary readership: The manuscript is written for a bioinformatics audience and would not be accessible to a broader scientific readership without significant revision. Technical soundness: The underlying approach is plausible, but the lack of methodological detail and validation prevents a full assessment. Readability for nonspecialists: The manuscript is concise but assumes familiarity with Bioconductor, GRanges, and motifbreakR, which limits its accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful tool, but the missing methodological details, incomplete results, and lack of validation mean that the core claims cannot be evaluated. The authors should address the blocking concerns and resubmit with a more complete description and demonstration.
+
+## Risk / unsupported claims
+
+- The claim that the bootstrap procedure produces a valid empirical null distribution is unsupported due to insufficient methodological detail.
+- The claim that the analysis on elephant data took approximately 20 seconds is unsupported without a detailed benchmark description.
+- The conclusion that there is no statistically significant TFBS disruption is unsupported because the results tables and figure are not provided.
+- The claim that tfboot readily integrates with Bioconductor and tidyverse workflows is plausible but not demonstrated with code examples or a workflow vignette.
+- The claim that the package can be run on any genome with available BSgenome and TxGenome objects is plausible but not tested in the manuscript.

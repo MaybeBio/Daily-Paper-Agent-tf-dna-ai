@@ -1,0 +1,464 @@
+{
+  "identity": {
+    "pmid": "35154510",
+    "doi": "10.1155/2022/2639470",
+    "title": "Screening of Potential Biomarkers in the Peripheral Serum for Steroid-Induced Osteonecrosis of the Femoral Head Based on WGCNA and Machine Learning Algorithms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Steroid-induced osteonecrosis of the femoral head (SONFH) has produced a substantial burden of medical and social experience. However, the current diagnosis is still limited. Thus, this study is aimed at identifying potential biomarkers in the peripheral serum of patients with SONFH. METHODS: The expression profile data of SONFH (number: GSE123568) was acquired from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) in SONFH were identified and used for weighted gene coexpression network analysis (WGCNA). Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed to investigate the biological functions. The protein-protein interaction (PPI) network and machine learning algorithms were employed to screen for potential biomarkers. Gene set enrichment analysis (GSEA), transcription factor (TF) enrichment analysis, and competing endogenous RNA (ceRNA) network were used to determine the biological functions and regulatory mechanisms of the potential biomarkers. RESULTS: A total of 562 DEGs, including 318 upregulated and 244 downregulated genes, were identified between SONFH and control samples, and 94 target genes were screened based on WGCNA. Moreover, biological function analysis suggested that target genes were mainly involved in erythrocyte differentiation, homeostasis and development, and myeloid cell homeostasis and development. Furthermore, GYPA, TMCC2, and BPGM were identified as potential biomarkers in the peripheral serum of patients with SONFH based on machine learning algorithms and showed good diagnostic values. GSEA revealed that GYPA, TMCC2, and BPGM were mainly involved in immune-related biological processes (BPs) and signaling pathways. Finally, we found that GYPA might be regulated by hsa-miR-3137 and that BPGM might be regulated by hsa-miR-340-3p. CONCLUSION: GYPA, TMCC2, and BPGM are potential biomarkers in the peripheral serum of patients with SONFH and might affect SONFH by regulating erythrocytes and immunity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Algorithms",
+      "Biomarkers/blood",
+      "Femur Head Necrosis/*blood/chemically induced/*genetics",
+      "*Gene Regulatory Networks",
+      "Glucocorticoids/*adverse effects",
+      "Humans",
+      "*Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jian",
+        "Huang, Chi",
+        "Liu, Zehan",
+        "Ren, Shuai",
+        "Shen, Zilong",
+        "Han, Kecheng",
+        "Xin, Weiguang",
+        "He, Guanyi",
+        "Liu, Jianyu"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Huang C",
+        "Liu Z",
+        "Ren S",
+        "Shen Z",
+        "Han K",
+        "Xin W",
+        "He G",
+        "Liu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6789-2766",
+        "ORCID: 0000-0002-3046-3167"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China.",
+        "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China.",
+        "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China.",
+        "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China.",
+        "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China.",
+        "Department of Orthopedics, The Fifth Hospital of Harbin, Harbin, 150040 Heilongjiang, China.",
+        "Department of Orthopedics, The Second Hospital of Heilongjiang Province, Harbin, 150000 Heilongjiang, China.",
+        "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China.",
+        "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-6789-2766"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Chi",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zehan",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Shuai",
+        "short_name": "Ren S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Zilong",
+        "short_name": "Shen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Han, Kecheng",
+        "short_name": "Han K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fifth Hospital of Harbin, Harbin, 150040 Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Xin, Weiguang",
+        "short_name": "Xin W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Second Hospital of Heilongjiang Province, Harbin, 150000 Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "He, Guanyi",
+        "short_name": "He G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jianyu",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0000-0002-3046-3167"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150001 Heilongjiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Disease markers"
+    ],
+    "journal_abbrev": [
+      "Dis Markers"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/15 06:00",
+    "fetched_at": "2026-09-28 05:24:23"
+  },
+  "links": {
+    "cites": [
+      "42618558",
+      "42614344",
+      "41680130",
+      "41487007",
+      "41310900",
+      "40161493",
+      "39567703",
+      "39529511",
+      "38783679",
+      "38277517",
+      "37854191",
+      "37426635",
+      "37168259",
+      "36979852",
+      "36582244",
+      "36440267",
+      "36325528",
+      "36225939"
+    ],
+    "refs": [
+      "34767108",
+      "34733151",
+      "34714891",
+      "34335696",
+      "33868991",
+      "33573538",
+      "33323040",
+      "33216349",
+      "32307211",
+      "32284030",
+      "31192258",
+      "31189107",
+      "30661889",
+      "30317584",
+      "29943294",
+      "29891043",
+      "29876626",
+      "29369309",
+      "29039481",
+      "28606016",
+      "28476574",
+      "28364349",
+      "27357384",
+      "26446969",
+      "26396935",
+      "26384821",
+      "25826501",
+      "25605792",
+      "25593355",
+      "25452779",
+      "25295306",
+      "25189721",
+      "25015942",
+      "25012918",
+      "24503957",
+      "22455463",
+      "21593558",
+      "21414208",
+      "20808728",
+      "20443906",
+      "19114008",
+      "15928524",
+      "15488155",
+      "12690862"
+    ],
+    "similar": [
+      "35154510",
+      "38384969",
+      "35151359",
+      "36193326",
+      "33451334",
+      "37491198",
+      "39284931",
+      "39069636",
+      "36627660",
+      "34488536",
+      "30853659",
+      "39113509",
+      "37120553",
+      "36837498",
+      "38701259",
+      "33749138",
+      "36325528",
+      "34016144",
+      "38621982",
+      "32509207",
+      "38501284",
+      "29590087",
+      "35042504",
+      "32150104",
+      "37854226",
+      "35529482",
+      "36039583",
+      "38513307",
+      "36123924",
+      "33407587",
+      "34338434",
+      "34377236",
+      "37008314",
+      "37155311",
+      "37434679",
+      "38481029",
+      "35401659",
+      "31389574",
+      "37476415",
+      "36419192",
+      "28501630",
+      "34381494",
+      "37854191",
+      "32018039",
+      "35128826",
+      "36631868",
+      "35035862",
+      "39253583",
+      "36057712",
+      "38571624",
+      "31416885",
+      "37400902",
+      "26045843",
+      "34898376",
+      "38277517",
+      "35386284",
+      "38169604",
+      "20345051",
+      "36979852",
+      "29705870",
+      "31322206",
+      "37335681",
+      "30132538",
+      "32730776",
+      "29382571",
+      "38948379",
+      "31629251",
+      "34107850",
+      "34313877",
+      "35378210",
+      "31799643",
+      "33532314",
+      "35273637",
+      "34714891",
+      "33719338",
+      "36782344",
+      "30996113",
+      "34856750",
+      "34633991",
+      "31951022",
+      "35342071",
+      "33409280",
+      "35154512",
+      "34861826",
+      "31304055",
+      "38236462",
+      "34553293",
+      "36147639",
+      "38178349",
+      "39267804",
+      "31827647",
+      "36856107",
+      "33185492",
+      "31692295",
+      "29859289",
+      "32741804",
+      "31989994",
+      "32025213",
+      "34233597",
+      "30607582",
+      "38360841",
+      "32863767",
+      "28432618",
+      "29845250",
+      "31390578",
+      "31233342",
+      "34555052",
+      "33824083",
+      "32299382",
+      "34525985",
+      "38456992",
+      "31934299",
+      "28393228",
+      "25452779",
+      "34262312",
+      "38965846",
+      "29516510",
+      "31703725",
+      "32645133",
+      "32888289",
+      "32642240",
+      "34301211",
+      "35116364",
+      "32669126",
+      "38013304",
+      "35419445",
+      "34910686",
+      "38537674",
+      "38686376",
+      "39281206",
+      "36056063",
+      "36003956",
+      "39333211",
+      "38115320",
+      "36438795",
+      "38175286",
+      "37800807",
+      "36203606",
+      "36482994",
+      "36394763",
+      "35444449",
+      "35992538",
+      "38204239",
+      "37740201",
+      "37426641",
+      "38054380",
+      "38459615",
+      "36833211",
+      "37690237",
+      "36506327",
+      "37217464",
+      "38013370",
+      "35663304",
+      "37057099",
+      "35785145",
+      "36552711",
+      "37139640",
+      "36891052",
+      "38154381",
+      "33500020",
+      "39202434",
+      "36172367",
+      "37333624",
+      "37175757",
+      "38726127",
+      "38229116",
+      "38397416",
+      "36419827",
+      "36755803",
+      "36762746",
+      "36544902",
+      "37953553",
+      "36355333",
+      "35115821",
+      "37003170",
+      "36968845",
+      "38067435",
+      "36222336",
+      "35720085",
+      "36386830",
+      "38991319",
+      "38690270",
+      "37294915",
+      "38549975",
+      "39403688",
+      "38769361"
+    ],
+    "review": [
+      "35154510",
+      "20345051",
+      "29705870",
+      "30996113",
+      "29859289"
+    ],
+    "pmc": [
+      "8832155"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/steroids.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steroids"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35154510/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35154510",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/2639470",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3373",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

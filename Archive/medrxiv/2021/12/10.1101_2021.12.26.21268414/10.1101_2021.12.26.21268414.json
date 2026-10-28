@@ -1,0 +1,170 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2021.12.26.21268414",
+  "title": "Interpretable and Predictive Deep Modeling of the SARS-CoV-2 Spike Protein Sequence",
+  "doi": "10.1101/2021.12.26.21268414",
+  "abstract": "<h4>ABSTRACT</h4> As the COVID-19 pandemic continues, the SARS-CoV-2 virus continues to rapidly mutate and change in ways that impact virulence, transmissibility, and immune evasion. Genome sequencing is a critical tool, as other biological techniques can be more costly, time-consuming, and difficult. However, the rapid and complex evolution of SARS-CoV-2 challenges conventional sequence analysis methods like phylogenetic analysis. The virus picks up and loses mutations independently in multiple subclades, often in novel or unexpected combinations, and, as for the newly emerged Omicron variant, sometimes with long explained branches. We propose interpretable deep sequence models trained by machine learning to complement conventional methods. We apply Transformer-based neural network models developed for natural language processing to analyze protein sequences. We add network layers to generate sample embeddings and sequence-wide attention to interpret models and visualize multiscale patterns. We demonstrate and validate our framework by modeling SARS-CoV-2 and coronavirus taxonomy. We then develop an interpretable predictive model of disease severity that integrates SARS-CoV-2 spike protein sequence and patient demographic variables, using publicly available data from the GISAID database. We also apply our model to Omicron. Based on knowledge prior to the availability of empirical data for Omicron, we predict: 1) reduced neutralization antibody activity (15-50 fold) greater than any previously characterized variant, varying between Omicron sublineages, and 2) reduced risk of severe disease (by 35-40%) relative to Delta. Both predictions are in accord with recent epidemiological and experimental data.",
+  "authors": [
+    "Sokhansanj BA",
+    "Zhao Z",
+    "Rosen GL"
+  ],
+  "published_date": "2021-12-27",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2021.12.26.21268414",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2021.12.26.21268414.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR437663",
+    "raw_record": {
+      "id": "PPR437663",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR437663"
+        ]
+      },
+      "doi": "10.1101/2021.12.26.21268414",
+      "title": "Interpretable and Predictive Deep Modeling of the SARS-CoV-2 Spike Protein Sequence",
+      "authorString": "Sokhansanj BA, Zhao Z, Rosen GL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sokhansanj BA",
+            "lastName": "Sokhansanj",
+            "firstName": "Bahrad",
+            "initials": "BA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5050-5926"
+            }
+          },
+          {
+            "fullName": "Zhao Z",
+            "lastName": "Zhao",
+            "firstName": "Zhengqiao",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Rosen GL",
+            "lastName": "Rosen",
+            "firstName": "Gail",
+            "initials": "GL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1763-5750"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5050-5926"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1763-5750"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4> As the COVID-19 pandemic continues, the SARS-CoV-2 virus continues to rapidly mutate and change in ways that impact virulence, transmissibility, and immune evasion. Genome sequencing is a critical tool, as other biological techniques can be more costly, time-consuming, and difficult. However, the rapid and complex evolution of SARS-CoV-2 challenges conventional sequence analysis methods like phylogenetic analysis. The virus picks up and loses mutations independently in multiple subclades, often in novel or unexpected combinations, and, as for the newly emerged Omicron variant, sometimes with long explained branches. We propose interpretable deep sequence models trained by machine learning to complement conventional methods. We apply Transformer-based neural network models developed for natural language processing to analyze protein sequences. We add network layers to generate sample embeddings and sequence-wide attention to interpret models and visualize multiscale patterns. We demonstrate and validate our framework by modeling SARS-CoV-2 and coronavirus taxonomy. We then develop an interpretable predictive model of disease severity that integrates SARS-CoV-2 spike protein sequence and patient demographic variables, using publicly available data from the GISAID database. We also apply our model to Omicron. Based on knowledge prior to the availability of empirical data for Omicron, we predict: 1) reduced neutralization antibody activity (15-50 fold) greater than any previously characterized variant, varying between Omicron sublineages, and 2) reduced risk of severe disease (by 35-40%) relative to Delta. Both predictions are in accord with recent epidemiological and experimental data.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2021/12/27/2021.12.26.21268414.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.12.26.21268414"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR437663"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR437663&type=FILE&fileName=EMS141956-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36552295",
+            "reference": "Biology. 2022 Dec;11(12):1786",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS141956",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-12-31",
+      "firstPublicationDate": "2021-12-27",
+      "firstIndexDate": "2021-12-31",
+      "fullTextReceivedDate": "2022-02-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

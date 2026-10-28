@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2606.07607v1",
+  "title": "Position: Genomic Model Research Must Move Beyond Anecdotal Evaluation of Interpretability Methods",
+  "authors": "Shasha Zhou; Mingyu Huang; Ke Li",
+  "journal": "",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过转录因子结合预测的基准测试，系统评估可解释性机器学习方法的一致性与忠实性，虽非直接建模TF-DNA互作，但为TF-DNA结合位点预测模型的解释验证提供了关键方法论框架，对课题有重要借鉴价值。",
+  "abstract": "Advances in machine learning and computational power have unlocked the predictive potential of the human genome, yet biologists now demand that these models also elucidate the underlying biological mechanisms. While interpretable machine learning (IML) techniques have been increasingly applied to bridge this gap, there has been a pervasive reliance on anecdotal validation: the vast majority of research relies on a single IML method and reports only isolated successful instances. Through a benchmarking study on transcription factor binding, we demonstrate the risks of current practices. We show that different IML methods can often (1) yield contradictory explanations for the same predictions, (2) fail to localize known regulatory motifs, and (3) fail to faithfully reflect the model's internal decision process. In light of this, we argue for a validation framework analogous to clinical trials: just as trials require rigorous design and adverse-event reporting, genomic interpretability must move beyond cherry-picked plausibility toward systematic assessment of consistency, faithfulness, and biological validity. To facilitate this, we propose a tiered framework to guide rigorous evaluation and reporting of genomic IML methods.",
+  "abstract_zh": "机器学习和计算能力的进步释放了人类基因组的预测潜力，然而生物学家现在要求这些模型也能阐明潜在的生物学机制。尽管可解释机器学习（interpretable machine learning, IML）技术已被越来越多地应用于弥合这一差距，但普遍存在对轶事验证的依赖：绝大多数研究仅依赖单一IML方法，并只报告孤立的成功案例。通过对转录因子结合位点的基准研究，我们展示了当前实践的风险。我们表明，不同的IML方法常常可能（1）对相同预测产生相互矛盾的解释，（2）无法定位已知的调控基序，以及（3）无法忠实反映模型内部的决策过程。鉴于此，我们主张建立一个类似于临床试验的验证框架：正如试验需要严格的设计和不良事件报告，基因组可解释性必须超越挑选出的合理性，转向对一致性、忠实性和生物学有效性的系统评估。为促进这一点，我们提出了一个分层框架，以指导基因组IML方法的严格评估和报告。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2606.07607v1",
+  "source_url": "https://arxiv.org/abs/2606.07607v1",
+  "paper_page_path": "papers/arxiv/2606.07607v1/index.html"
+}

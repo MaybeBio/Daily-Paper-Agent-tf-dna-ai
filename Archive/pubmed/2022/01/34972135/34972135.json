@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "34972135",
+    "doi": "10.1371/journal.pone.0261477",
+    "title": "A replication study separates polymorphisms behind migraine with and without depression."
+  },
+  "content": {
+    "abstract": "The largest migraine genome-wide association study identified 38 candidate loci. In this study we assessed whether these results replicate on a gene level in our European cohort and whether effects are altered by lifetime depression. We tested SNPs of the loci and their vicinity with or without interaction with depression in regression models. Advanced analysis methods such as Bayesian relevance analysis and a neural network based classifier were used to confirm findings. Main effects were found for rs2455107 of PRDM16 (OR = 1.304, p = 0.007) and five intergenic polymorphisms in 1p31.1 region: two of them showed risk effect (OR = 1.277, p = 0.003 for both rs11209657 and rs6686879), while the other three variants were protective factors (OR = 0.4956, p = 0.006 for both rs12090642 and rs72948266; OR = 0.4756, p = 0.005 for rs77864828). Additionally, 26 polymorphisms within ADGRL2, 2 in REST, 1 in HPSE2 and 33 mostly intergenic SNPs from 1p31.1 showed interaction effects. Among clumped results representing these significant regions, only rs11163394 of ADGRL2 showed a protective effect (OR = 0.607, p = 0.002), all other variants were risk factors (rs1043215 of REST with the strongest effect: OR = 6.596, p = 0.003). Bayesian relevance analysis confirmed the relevance of intergenic rs6660757 and rs12128399 (p31.1), rs1043215 (REST), rs1889974 (HPSE2) and rs11163394 (ADGRL2) from depression interaction results, and the moderate relevance of rs77864828 and rs2455107 of PRDM16 from main effect analysis. Both main and interaction effect SNPs could enhance predictive power with the neural network based classifier. In summary, we replicated p31.1, PRDM16, REST, HPSE2 and ADGRL2 genes with classic genetic and advanced analysis methods. While the p31.1 region and PRDM16 are worthy of further investigations in migraine in general, REST, HPSE2 and ADGRL2 may be prime candidates behind migraine pathophysiology in patients with comorbid depression.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adolescent",
+      "Adult",
+      "Algorithms",
+      "Alleles",
+      "Bayes Theorem",
+      "DNA-Binding Proteins/genetics",
+      "Depressive Disorder/*complications/*genetics",
+      "Europe/epidemiology",
+      "Female",
+      "Genetic Predisposition to Disease",
+      "*Genome-Wide Association Study",
+      "Genotype",
+      "Glucuronidase/genetics",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Migraine Disorders/*complications/*genetics",
+      "Multivariate Analysis",
+      "*Polymorphism, Single Nucleotide",
+      "Probability",
+      "Receptors, G-Protein-Coupled/genetics",
+      "Risk",
+      "Transcription Factors/genetics",
+      "Young Adult",
+      "Heparanase"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Petschner, Peter",
+        "Baksa, Daniel",
+        "Hullam, Gabor",
+        "Torok, Dora",
+        "Millinghoffer, Andras",
+        "Deakin, J F William",
+        "Bagdy, Gyorgy",
+        "Juhasz, Gabriella"
+      ],
+      "short_names": [
+        "Petschner P",
+        "Baksa D",
+        "Hullam G",
+        "Torok D",
+        "Millinghoffer A",
+        "Deakin JFW",
+        "Bagdy G",
+        "Juhasz G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7826-9179",
+        "ORCID: 0000-0002-5975-4267"
+      ],
+      "affiliations": [
+        "Bioinformatics Center, Institute for Chemical Research, Kyoto University, Gokasho, Uji, Kyoto, Japan.",
+        "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+        "MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.",
+        "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+        "SE-NAP2 Genetic Brain Imaging Migraine Research Group, Hungarian Brain Research Program, Semmelweis University, Budapest, Hungary.",
+        "Department of Measurement and Information Systems, Budapest University of Technology and Economics, Budapest, Hungary.",
+        "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+        "MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.",
+        "Department of Measurement and Information Systems, Budapest University of Technology and Economics, Budapest, Hungary.",
+        "NAP-2-SE New Antidepressant Target Research Group, Semmelweis University, Budapest, Hungary.",
+        "Neuroscience and Psychiatry Unit, Division of Neuroscience and Experimental Psychology, The University of Manchester and Manchester Academic Health Sciences Centre, Manchester, United Kingdom.",
+        "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+        "MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.",
+        "NAP-2-SE New Antidepressant Target Research Group, Semmelweis University, Budapest, Hungary.",
+        "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+        "MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.",
+        "SE-NAP2 Genetic Brain Imaging Migraine Research Group, Hungarian Brain Research Program, Semmelweis University, Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Petschner, Peter",
+        "short_name": "Petschner P",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Center, Institute for Chemical Research, Kyoto University, Gokasho, Uji, Kyoto, Japan.",
+          "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+          "MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Baksa, Daniel",
+        "short_name": "Baksa D",
+        "identifiers": [
+          "0000-0002-7826-9179"
+        ],
+        "affiliations": [
+          "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+          "SE-NAP2 Genetic Brain Imaging Migraine Research Group, Hungarian Brain Research Program, Semmelweis University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Hullam, Gabor",
+        "short_name": "Hullam G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Measurement and Information Systems, Budapest University of Technology and Economics, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Torok, Dora",
+        "short_name": "Torok D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Millinghoffer, Andras",
+        "short_name": "Millinghoffer A",
+        "identifiers": [],
+        "affiliations": [
+          "MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.",
+          "Department of Measurement and Information Systems, Budapest University of Technology and Economics, Budapest, Hungary.",
+          "NAP-2-SE New Antidepressant Target Research Group, Semmelweis University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Deakin, J F William",
+        "short_name": "Deakin JFW",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Psychiatry Unit, Division of Neuroscience and Experimental Psychology, The University of Manchester and Manchester Academic Health Sciences Centre, Manchester, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bagdy, Gyorgy",
+        "short_name": "Bagdy G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+          "MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.",
+          "NAP-2-SE New Antidepressant Target Research Group, Semmelweis University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Juhasz, Gabriella",
+        "short_name": "Juhasz G",
+        "identifiers": [
+          "0000-0002-5975-4267"
+        ],
+        "affiliations": [
+          "Department of Pharmacodynamics, Faculty of Pharmacy, Semmelweis University, Budapest, Hungary.",
+          "MTA-SE Neuropsychopharmacology and Neurochemistry Research Group, Hungarian Academy of Sciences, Semmelweis University, Budapest, Hungary.",
+          "SE-NAP2 Genetic Brain Imaging Migraine Research Group, Hungarian Brain Research Program, Semmelweis University, Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/01 06:00",
+    "fetched_at": "2026-09-28 03:32:24"
+  },
+  "links": {
+    "cites": [
+      "41853884",
+      "40823308",
+      "40350427",
+      "39630030",
+      "39333847",
+      "39144710",
+      "38951977",
+      "38135854",
+      "36704746",
+      "35865445"
+    ],
+    "refs": [
+      "34588893",
+      "33859128",
+      "33585870",
+      "33448374",
+      "33190120",
+      "32845189",
+      "32643853",
+      "32193514",
+      "31906708",
+      "31619788",
+      "31557325",
+      "31278308",
+      "30886212",
+      "30883436",
+      "30718901",
+      "30635810",
+      "30619888",
+      "30419813",
+      "29995844",
+      "29930110",
+      "29700475",
+      "29500446",
+      "29094342",
+      "28698301",
+      "28644851",
+      "28123817",
+      "28070121",
+      "27653868",
+      "27322543",
+      "27089181",
+      "26961635",
+      "26888294",
+      "26733600",
+      "26502740",
+      "26443613",
+      "26072497",
+      "25964737",
+      "25429599",
+      "25423262",
+      "25390014",
+      "25388962",
+      "25281220",
+      "24674449",
+      "24666033",
+      "24581675",
+      "24282187",
+      "24266335",
+      "24081561",
+      "24021092",
+      "23710707",
+      "23637003",
+      "23439482",
+      "23269213",
+      "22644214",
+      "22222938",
+      "21666692",
+      "21215389",
+      "20576607",
+      "20553331",
+      "20357131",
+      "19846118",
+      "19539700",
+      "19438739",
+      "19242408",
+      "19154521",
+      "18719582",
+      "18348202",
+      "18300295",
+      "18092307",
+      "17966093",
+      "15240883",
+      "14668201",
+      "12962916",
+      "12913201",
+      "12707434",
+      "11504843",
+      "11027606",
+      "10025961",
+      "9771705",
+      "9337771",
+      "8898206",
+      "8801636",
+      "7871435",
+      "7697725"
+    ],
+    "similar": [
+      "34972135",
+      "24666033",
+      "30635810",
+      "28058730",
+      "24266335",
+      "24021092",
+      "24674449",
+      "30904033",
+      "20528957",
+      "25667298",
+      "22072275",
+      "25039261",
+      "23294458",
+      "35454329",
+      "24698360",
+      "28952330",
+      "32046629",
+      "25388962",
+      "24040174",
+      "39333847",
+      "27350677",
+      "30234802",
+      "26643377",
+      "27762084",
+      "26502740",
+      "22875483",
+      "21779381",
+      "31842742",
+      "19438736",
+      "22678113",
+      "23967141",
+      "38927733",
+      "31014225",
+      "25633374",
+      "32918390",
+      "36759319",
+      "21448238",
+      "32076896",
+      "21344296",
+      "22662242",
+      "25169732",
+      "17609999",
+      "32437414",
+      "27310578",
+      "28957430",
+      "27005890",
+      "30266756",
+      "22030984",
+      "25678572",
+      "23508249",
+      "25612138",
+      "28699326",
+      "11735220",
+      "20740293",
+      "21316860",
+      "23021489",
+      "27322543",
+      "24708359",
+      "30634909",
+      "32554045",
+      "23357220",
+      "24498053",
+      "27090416",
+      "23940529",
+      "19661472",
+      "27130307",
+      "29357833",
+      "28848321",
+      "26800698",
+      "3404480",
+      "20553331",
+      "23592221",
+      "29017598",
+      "17635597",
+      "27394076",
+      "27644650",
+      "36631270",
+      "25214390",
+      "32979221",
+      "27019440",
+      "28049566",
+      "25451450",
+      "31505242",
+      "23269215",
+      "19175383",
+      "22162417",
+      "21865530",
+      "26537068",
+      "34126933",
+      "19178574",
+      "30511624",
+      "24863034",
+      "31557325",
+      "18647184"
+    ],
+    "review": [
+      "34972135",
+      "22072275",
+      "23294458",
+      "35454329",
+      "32046629",
+      "22875483",
+      "36759319",
+      "21448238",
+      "25678572",
+      "27322543",
+      "30634909",
+      "28049566"
+    ],
+    "pmc": [
+      "8719675"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/migraine.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Migraine"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0261477",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34972135/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34972135",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

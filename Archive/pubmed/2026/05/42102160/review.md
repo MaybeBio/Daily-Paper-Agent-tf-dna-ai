@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, methods, and supporting information references.
+- **Assessment boundary** Scientific claims, methodological soundness, data interpretation, and alignment with stated conclusions. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors present a large-scale AlphaFold-based screening pipeline to predict interactions between human nucleic acid sensors and SPRY-domain-containing proteins. They report novel interactions (e.g., TRIM58-OAS1), demonstrate that SPRY domains dictate substrate specificity (TRIM25-ZAP, Riplet-RIG-I), validate domain-swapping reprogramming, identify hypervariable loop residues critical for recognition, and extend findings to saRNA vaccine delivery contexts.
+- **Visible evidence base** Abstract, full results text, discussion, methods, and references to supporting figures (S1-S6) and data (S1 Data). No raw data files, supplementary figures, or source code were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary figures (S1-S6), supplementary data (S1 Data), source code repository contents, raw AlphaFold output metrics, and detailed statistical analyses for quantitative experiments. These are referenced but not available for verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and timely application of AlphaFold-based structural prediction to a biologically important problem: substrate specificity of SPRY-domain-containing E3 ubiquitin ligases. The central claims are well-structured and supported by a combination of computational prediction, biochemical validation, and functional assays. The finding that SPRY domains are sufficient to reprogram ligase specificity is conceptually significant, and the extension to saRNA vaccine delivery adds translational relevance. However, several technical concerns regarding the robustness of the screening pipeline, the quantitative rigor of validation experiments, and the generalizability of the conclusions need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Innate immunologists studying RIG-I and ZAP signaling, ubiquitin biologists interested in E3 ligase substrate recognition, structural biologists using AlphaFold for interaction discovery, and RNA vaccine developers seeking to understand innate immune barriers to saRNA delivery. The methodological framework will also appeal to computational biologists developing high-throughput interaction prediction pipelines.
+- **Major strengths** 1) Novel application of AlphaFold3 to systematic interaction discovery in an immune context, addressing a known limitation of proteomic methods for transient interactions. 2) Clear demonstration that SPRY domains are sufficient to determine substrate specificity via domain-swapping experiments. 3) Integration of phylogenetic, structural, and functional data to support evolutionary conservation of substrate preferences. 4) Translational relevance through saRNA vaccine delivery experiments that reveal delivery-specific innate immune sensing. 5) Identification of specific residues mediating TRIM25-ZAP interaction with mutational validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of screening pipeline
+  - **Claim pointer** The authors claim that their AlphaFold-based screening pipeline "systematically predict[s] interactions between human nucleic acid sensors and SPRY-containing proteins" and that the interaction score cutoff of >2.5 identifies candidate interactions for validation.
+  - **Evidence pointer** Methods section "Protein structure predictions"; Results section "Predicting interaction partners of SPRY domains"; Figure 1b-c
+  - **Concern** The interaction score calculation is based on a linear regression formula (EC = 243.9 x length + 279,484) derived from a single bait (ZAP) screen. The authors do not provide details on the variance, goodness-of-fit, or validation of this normalization across different bait proteins. The cutoff of >2.5 is empirically derived from known interactions, but the false-positive and false-negative rates are not assessed. Additionally, the use of AlphaFold3 for high-throughput screening of hundreds of protein pairs is computationally intensive, and the authors do not discuss how multimeric states, post-translational modifications, or conformational dynamics are handled.
+  - **Why it matters** The entire discovery framework rests on the reliability of the interaction score. If the normalization is biased or the cutoff is not robust, the prioritization of candidates for experimental validation could be systematically skewed, undermining the novelty claims of the screen.
+  - **Resolution test** Provide a detailed benchmark of the scoring method, including receiver operating characteristic (ROC) or precision-recall curves against a curated set of known positive and negative interactions. Report the distribution of scores for all protein pairs and justify the cutoff with statistical rigor. Include analysis of score stability across different bait proteins and demonstrate that the normalization formula generalizes beyond ZAP.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation rigor
+  - **Claim pointer** The authors claim that "co-immunoprecipitation assays confirmed several AlphaFold predictions" and that domain-swapping experiments demonstrate SPRY domains are "sufficient to reprogram ligase specificity and antiviral activity."
+  - **Evidence pointer** Results sections "SPRY domains dictate substrate specificity" and "Functional divergence of SPRY-containing proteins enables sensor level control"; Figures 2f-j, 3a-j, 4a-h
+  - **Concern** The co-immunoprecipitation experiments appear to be qualitative or semi-quantitative, with no clear presentation of replicates, statistical analysis, or dose-response relationships. The domain-swapping experiments rely on overexpression systems, which may not reflect endogenous stoichiometry or competition with other binding partners. The functional assays (IFNB1 production, viral replication) are presented as single representative experiments without clear quantification across biological replicates. The statement that "Riplet depletion significantly enhanced saRNA-driven luciferase expression" lacks effect sizes and confidence intervals.
+  - **Why it matters** The central claims of specificity and reprogramming depend on the reliability of these biochemical and functional assays. Without quantitative rigor, it is difficult to assess whether the observed effects are robust or within experimental noise.
+  - **Resolution test** Provide quantitative data from at least three independent biological replicates for key co-immunoprecipitation and functional experiments, with appropriate statistical tests (e.g., t-test, ANOVA). Include dose-response curves for domain-swapping constructs. For viral replication assays, show time-course data with multiple MOIs. Present western blot quantification with loading controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of saRNA delivery conclusions
+  - **Claim pointer** The authors claim that "distinct SPRY-containing ligases surveil self-amplifying RNA (saRNA) vaccines" with delivery-dependent specificity, and that "CpG depletion abolishes ZAP recognition and strongly reduces TRIM25 activity."
+  - **Evidence pointer** Results section "Incoming RNA is surveilled by different SPRY-containing proteins"; Figure 6a-i
+  - **Concern** The saRNA experiments are performed in a single cell line (A549) with a single saRNA construct. The delivery-dependent effects (lipofectamine vs. LNP) are attributed to differential innate immune sensing, but alternative explanations such as differential intracellular trafficking, endosomal escape efficiency, or cell viability are not fully addressed. The CpG depletion experiments show reduced ZAP dependence, but the residual TRIM25 activity suggests additional mechanisms that are not explored.
+  - **Why it matters** The translational implications for RNA vaccine design are a major selling point of the manuscript. If the delivery-dependent effects are cell-type-specific or construct-specific, the conclusions may not generalize to other saRNA platforms or target cells.
+  - **Resolution test** Extend the saRNA experiments to additional cell types (e.g., primary cells, dendritic cells) and multiple saRNA constructs. Include controls for endosomal escape and trafficking (e.g., fluorescently labeled RNA, endosomal markers). Quantify the contribution of ZAP-independent TRIM25 activity and identify the underlying mechanism.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Interaction score calculation
+  - **Evidence pointer** Methods section "Protein structure predictions"
+  - **Issue** The formula for expected contacts (EC = 243.9 x length + 279,484) is presented without derivation or justification. The units and the basis for the linear relationship are unclear.
+  - **Required correction** Provide a clear derivation of the formula, including the data used to fit it, the goodness-of-fit metrics, and a discussion of its limitations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Source code and data
+  - **Evidence pointer** Methods section "Protein structure predictions"; Supporting information
+  - **Issue** The authors state that scripts are available on GitHub and interaction scores are in S1 Data, but these are not provided for review.
+  - **Required correction** Ensure that the GitHub repository and supplementary data are accessible and contain all necessary files for reproducibility, including raw AlphaFold outputs and analysis scripts.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure presentation
+  - **Affected element** Figure 3e
+  - **Evidence pointer** Results section "SPRY domains dictate substrate specificity"
+  - **Issue** The text states "AlphaFold predictions indicated that these domain-swapped constructs would enhance interaction with the new target substrates (Fig 3E)," but the figure is not available for inspection, and the specific metrics used to assess "enhancement" are not described.
+  - **Required correction** Clarify the quantitative metrics used to compare predicted interaction strengths and ensure the figure clearly presents these data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Hypervariable loops"
+  - **Evidence pointer** Results section "Residues in the variable loops of SPRY mediate substrate specificity"
+  - **Issue** The term "hypervariable" is used to describe SPRY loops, but the degree of variability is not quantified or compared to other loop regions.
+  - **Required correction** Provide a quantitative analysis of sequence variability across SPRY domains to support the use of "hypervariable" and clarify how this variability relates to functional divergence.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative benchmarking for the AlphaFold screening pipeline (R1-M1). 2) Insufficient statistical rigor in experimental validation (R1-M2). 3) Incomplete exploration of alternative explanations for delivery-dependent saRNA sensing (R1-M3). 4) Missing raw data and code for reproducibility (R1-m2).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The application of AlphaFold3 to systematic interaction discovery in innate immunity is novel, and the identification of SPRY domains as specificity determinants for ZAP vs. RIG-I provides a conceptual advance.
+  - **Scientific importance** High. The findings clarify long-standing questions about TRIM25 and Riplet substrate specificity and have implications for understanding innate immune regulation and RNA vaccine design.
+  - **Interdisciplinary readership** Moderate to high. The work bridges structural biology, immunology, and RNA therapeutics, but the technical depth of the AlphaFold pipeline may limit accessibility to non-specialists.
+  - **Technical soundness** Moderate. The computational approach is innovative but lacks rigorous benchmarking. Experimental validation is suggestive but not quantitatively robust.
+  - **Readability for nonspecialists** Good. The manuscript is well-written and logically structured, with clear explanations of the biological context and implications. However, the methods section assumes familiarity with AlphaFold and structural prediction.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core claims are plausible and potentially significant, but the current evidence base is insufficient to fully establish the case. The authors must address the benchmarking of the screening pipeline, provide quantitative experimental data, and strengthen the saRNA delivery conclusions before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the screening pipeline "systematically" predicts interactions is not fully supported without benchmarking against a gold-standard set of known interactions.
+- The claim that SPRY domains are "sufficient" to reprogram ligase specificity is based on overexpression domain-swap experiments that may not reflect endogenous conditions.
+- The claim that "CpG depletion abolishes ZAP recognition" is supported by the data, but the residual TRIM25 activity suggests additional mechanisms that are not fully characterized.
+- The evolutionary claims about conserved substrate preferences across species are based on computational predictions and limited cross-species co-immunoprecipitation; the functional significance of this conservation is not directly tested.
+- The statement that this is "the first large-scale structural screen of immune-relevant protein-protein interactions" is difficult to verify and should be softened or supported with a comprehensive literature comparison.

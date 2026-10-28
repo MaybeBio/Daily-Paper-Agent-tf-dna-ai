@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36056029",
+  "title": "Automated model-predictive design of synthetic promoters to control transcriptional profiles in bacteria.",
+  "authors": "LaFleur, Travis L; Hossain, Ayaan; Salis, Howard M",
+  "journal": "Nature communications",
+  "published_date": "2022-09-03",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合大规模平行实验、生物物理与机器学习构建sigma70启动子转录起始速率预测模型，虽聚焦RNA聚合酶-启动子DNA互作而非典型TF-DNA体系，但蛋白-DNA互作建模与AI方法可迁移至TF-DNA研究。",
+  "abstract": "Transcription rates are regulated by the interactions between RNA polymerase, sigma factor, and promoter DNA sequences in bacteria. However, it remains unclear how non-canonical sequence motifs collectively control transcription rates. Here, we combine massively parallel assays, biophysics, and machine learning to develop a 346-parameter model that predicts site-specific transcription initiation rates for any sigma(70) promoter sequence, validated across 22132 bacterial promoters with diverse sequences. We apply the model to predict genetic context effects, design sigma(70) promoters with desired transcription rates, and identify undesired promoters inside engineered genetic systems. The model provides a biophysical basis for understanding gene regulation in natural genetic systems and precise transcriptional control for engineering synthetic genetic systems.",
+  "abstract_zh": "转录速率受RNA聚合酶、sigma因子与启动子DNA序列之间相互作用的调控，在细菌中尤为如此。然而，非经典序列基序如何共同调控转录速率仍不清楚。在此，我们结合大规模平行测定、生物物理学和机器学习，开发了一个346参数模型，该模型可预测任何sigma(70)启动子序列的位点特异性转录起始速率，并在22132个序列多样的细菌启动子中进行了验证。我们应用该模型预测遗传背景效应，设计具有目标转录速率的sigma(70)启动子，并识别工程化遗传系统内的非预期启动子。该模型为理解自然遗传系统中的基因调控提供了生物物理基础，并为工程化合成遗传系统提供了精确的转录控制手段。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36056029/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36056029/",
+  "paper_page_path": "papers/pubmed/36056029/index.html"
+}

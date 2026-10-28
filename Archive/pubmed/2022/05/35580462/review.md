@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that remdesivir (REM) binds to calf thymus DNA (CT-DNA) via intercalation, with a binding constant on the order of 10^4 M^-1, driven by electrostatic interactions, and that the phenyl ring adjacent to the phosphate moiety participates in intercalation, supported by spectroscopic and metadynamics simulation data.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, spectra, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, simulation setup and convergence criteria, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible multi-technique study of a drug-DNA interaction, but the evidence as summarized is insufficient to establish the central claim of intercalation or the specific molecular mechanism proposed. Several internal inconsistencies and unsupported assertions require clarification and additional data before the conclusions can be considered robust.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, drug-DNA interaction studies, and antiviral drug mechanism research may find the combination of spectroscopic and computational approaches of interest, particularly for understanding off-target DNA binding of remdesivir.
+- **Major strengths** The use of multiple complementary techniques (UV-Vis, fluorescence, circular dichroism, 31P NMR, viscosity, and metadynamics) is commendable and provides a broad basis for investigating the interaction. The inclusion of free energy landscape analysis adds a computational dimension that could strengthen mechanistic interpretation if properly validated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence coherence
+  - **Claim pointer** The abstract states that "the main force which holds them together in the REM/CT-DNA complex is electrostatic interaction (DeltaH(0) < 0 and DeltaS(0) > 0)."
+  - **Evidence pointer** Abstract, thermodynamic parameters section (location not provided)
+  - **Concern** The thermodynamic signature DeltaH < 0 and DeltaS > 0 is typically interpreted as indicating electrostatic interactions, but this is not definitive. Intercalation often involves hydrophobic and van der Waals forces, and the entropy gain could arise from solvent reorganization or counterion release. The abstract does not provide the actual values of DeltaH and DeltaS, nor the temperature range or method used to derive them, making the interpretation unverifiable.
+  - **Why it matters** The claim of electrostatic interaction as the main driving force is central to the proposed binding mechanism. If the thermodynamic data are incomplete or misinterpreted, the mechanistic conclusion is weakened, and the consistency with intercalation (which usually involves stacking and hydrophobic effects) becomes questionable.
+  - **Resolution test** Provide the full thermodynamic data (DeltaH, DeltaS, DeltaG at multiple temperatures), the method of calculation (e.g., van't Hoff analysis), and a discussion of how the signs and magnitudes support electrostatic interaction over other forces, with reference to established literature.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "REM binds to CT-DNA via intercalation mode" based on competitive displacement assays with EB and Hoechst 33258, CD spectral changes, viscosity increase, and KI quenching studies.
+  - **Evidence pointer** Abstract, competitive displacement and biophysical experiments (location not provided)
+  - **Concern** While the listed techniques are standard for assessing binding modes, the abstract provides no quantitative data. For example, the degree of EB displacement, the magnitude of viscosity increase, and the extent of KI quenching are not reported. Intercalation is typically distinguished from groove binding by specific thresholds (e.g., viscosity slope, fluorescence quenching patterns), and without these numbers, the conclusion is not substantiated. Additionally, Hoechst 33258 is a minor groove binder, and its displacement could also indicate groove binding if the effect is weak.
+  - **Why it matters** The mode of binding is the primary conclusion of the study. If the evidence is not quantitatively robust, the claim of intercalation is not established, and alternative binding modes cannot be excluded.
+  - **Resolution test** Report the actual displacement percentages, viscosity ratios relative to a known intercalator (e.g., EB), Stern-Volmer constants for KI quenching, and CD spectral changes with error bars. Compare these to established benchmarks for intercalation versus groove binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The abstract states that "the up-field shift in the (31)P NMR signal of REM on interaction with CT-DNA suggested that phenyl ring adjacent to the phosphate moiety of REM may involve in the intercalation process. This is well supported by the analysis of free energy surface landscape derived from metadynamics simulation studies."
+  - **Evidence pointer** Abstract, 31P NMR and metadynamics sections (location not provided)
+  - **Concern** The link between a 31P NMR up-field shift and the specific involvement of a phenyl ring in intercalation is not straightforward. The abstract does not explain how the NMR shift is interpreted, nor does it provide the free energy surface landscape details, such as the reaction coordinates, the free energy difference between bound and unbound states, or the convergence of the metadynamics simulation. Without these, the computational support is unverifiable.
+  - **Why it matters** The proposed molecular mechanism (phenyl ring intercalation) is a specific and novel claim. If the NMR interpretation is speculative and the simulation is not properly described, the mechanism is not supported.
+  - **Resolution test** Provide the 31P NMR spectra with assignments, a detailed explanation of the shift interpretation, and the metadynamics setup including collective variables, simulation time, error estimates, and a free energy profile showing a clear minimum corresponding to the intercalated state.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Binding constant magnitude
+  - **Evidence pointer** Abstract, UV-Vis and fluorescence section (location not provided)
+  - **Issue** The binding constant is reported as "in the order of 10(4) M(-1)" without specifying the exact value or the method (e.g., Benesi-Hildebrand or Scatchard analysis). This is vague and limits comparability.
+  - **Required correction** Report the exact binding constant with standard deviation and specify the calculation method and wavelength used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Electrostatic interaction" claim
+  - **Evidence pointer** Abstract, thermodynamic parameters (location not provided)
+  - **Issue** The term "electrostatic interaction" is used without defining whether it refers to ionic contacts, hydrogen bonding, or other polar forces. This ambiguity could confuse readers.
+  - **Required correction** Clarify the specific type of electrostatic interaction and relate it to the molecular structure of REM and DNA.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract, metadynamics section (location not provided)
+  - **Issue** The abstract mentions "metadynamics simulation studies" but provides no information on the force field, system size, simulation length, or whether the DNA was in a solvated environment.
+  - **Required correction** Add a brief description of the simulation parameters in the abstract or refer to a methods section with full details.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The thermodynamic interpretation, the quantitative evidence for intercalation, and the computational support for the molecular mechanism are all insufficiently detailed in the abstract. These are essential to the central claims.
+- **Assessment against Nature-style criteria** Originality: The study is not highly original, as drug-DNA intercalation studies are common, but the specific focus on remdesivir and the use of metadynamics may offer some novelty. Scientific importance: Moderate, as the findings could inform understanding of remdesivir's off-target effects, but the clinical relevance is not established. Interdisciplinary readership: The topic bridges chemistry, biophysics, and pharmacology, but the abstract is too technical for a broad audience. Technical soundness: Not assessable from the abstract alone; the methods are standard but the data are incomplete. Readability for nonspecialists: The abstract is dense and assumes familiarity with spectroscopic techniques, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a coherent narrative, but the lack of quantitative data and the questionable thermodynamic interpretation prevent validation of the core claims. I would be supportive if the full manuscript provides the missing details and addresses the concerns raised.
+
+## Risk / unsupported claims
+- The claim that electrostatic interaction is the main binding force is unsupported without full thermodynamic data and a rigorous interpretation.
+- The claim of intercalation as the binding mode is not quantitatively substantiated from the abstract.
+- The specific involvement of the phenyl ring in intercalation, based on 31P NMR and metadynamics, is unverifiable without spectra and simulation details.
+- The binding constant value is reported without precision or method, making it unassessable.
+- The spontaneity of binding (DeltaG < 0) is stated but not supported with actual values or conditions.

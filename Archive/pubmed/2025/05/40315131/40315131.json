@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40315131",
+    "doi": "10.1093/bioinformatics/btaf169",
+    "title": "In silico identification of archaeal DNA-binding proteins."
+  },
+  "content": {
+    "abstract": "MOTIVATION: The rapid advancement of next-generation sequencing technologies has generated an immense volume of genetic data. However, these data are unevenly distributed, with well-studied organisms being disproportionately represented, while other organisms, such as from archaea, remain significantly underexplored. The study of archaea is particularly challenging due to the extreme environments they inhabit and the difficulties associated with culturing them in the laboratory. Despite these challenges, archaea likely represent a crucial evolutionary link between eukaryotic and prokaryotic organisms, and their investigation could shed light on the early stages of life on Earth. Yet, a significant portion of archaeal proteins are annotated with limited or inaccurate information. Among the various classes of archaeal proteins, DNA-binding proteins are of particular importance. While they represent a large portion of every known proteome, their identification in archaea is complicated by the substantial evolutionary divergence between archaeal and the other better studied organisms. RESULTS: To address the challenges of identifying DNA-binding proteins in archaea, we developed Xenusia, a neural network-based tool capable of screening entire archaeal proteomes to identify DNA-binding proteins. Xenusia has proven effective across diverse datasets, including metagenomics data, successfully identifying novel DNA-binding proteins, with experimental validation of its predictions. AVAILABILITY AND IMPLEMENTATION: Xenusia is available as a PyPI package, with source code accessible at https://github.com/grogdrinker/xenusia, and as a Google Colab web server application at xenusia.ipynb.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Archaeal Proteins/chemistry/metabolism/genetics",
+      "*DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "*Archaea/metabolism/genetics",
+      "Neural Networks, Computer",
+      "*Software",
+      "*Computational Biology/methods",
+      "Proteome",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Donvil, Linus",
+        "Housmans, Joelle A J",
+        "Peeters, Eveline",
+        "Vranken, Wim",
+        "Orlando, Gabriele"
+      ],
+      "short_names": [
+        "Donvil L",
+        "Housmans JAJ",
+        "Peeters E",
+        "Vranken W",
+        "Orlando G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7470-4324",
+        "ORCID: 0000-0002-5935-5258"
+      ],
+      "affiliations": [
+        "Research Group of Microbiology, Department of Bioengineering Sciences, Vrije Universiteit Brussel, Brussels B-1050, Belgium.",
+        "Center for Neurosciences (C4N), Vrije Universiteit Brussel, Research Group Experimental Pharmacology (EFAR), Jette 1050, Belgium.",
+        "Department of Food Technology, Safety and Health, Faculty of Bioscience Engineering, Research Unit VEG-i-TEC, Ghent University, Kortrijk 8500, Belgium.",
+        "Research Group of Microbiology, Department of Bioengineering Sciences, Vrije Universiteit Brussel, Brussels B-1050, Belgium.",
+        "Interuniversity Institute of Bioinformatics in Brussels, ULB/VUB, Brussels 1050, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels 1050, Belgium.",
+        "AI Lab, Vrije Universiteit Brussel, Brussels 1050, Belgium.",
+        "Department of Chemistry, Vrije Universiteit Brussel, Brussels 1050, Belgium.",
+        "Department of Biomedical Sciences, Vrije Universiteit Brussel, Brussels 1050, Belgium.",
+        "Laboratory of Pathogens and Host Immunity, University of Montpellier, CNRS and INSERM, Montpellier 34095, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Donvil, Linus",
+        "short_name": "Donvil L",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group of Microbiology, Department of Bioengineering Sciences, Vrije Universiteit Brussel, Brussels B-1050, Belgium.",
+          "Center for Neurosciences (C4N), Vrije Universiteit Brussel, Research Group Experimental Pharmacology (EFAR), Jette 1050, Belgium."
+        ]
+      },
+      {
+        "full_name": "Housmans, Joëlle A J",
+        "short_name": "Housmans JAJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Technology, Safety and Health, Faculty of Bioscience Engineering, Research Unit VEG-i-TEC, Ghent University, Kortrijk 8500, Belgium."
+        ]
+      },
+      {
+        "full_name": "Peeters, Eveline",
+        "short_name": "Peeters E",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group of Microbiology, Department of Bioengineering Sciences, Vrije Universiteit Brussel, Brussels B-1050, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vranken, Wim",
+        "short_name": "Vranken W",
+        "identifiers": [
+          "0000-0001-7470-4324"
+        ],
+        "affiliations": [
+          "Interuniversity Institute of Bioinformatics in Brussels, ULB/VUB, Brussels 1050, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels 1050, Belgium.",
+          "AI Lab, Vrije Universiteit Brussel, Brussels 1050, Belgium.",
+          "Department of Chemistry, Vrije Universiteit Brussel, Brussels 1050, Belgium.",
+          "Department of Biomedical Sciences, Vrije Universiteit Brussel, Brussels 1050, Belgium."
+        ]
+      },
+      {
+        "full_name": "Orlando, Gabriele",
+        "short_name": "Orlando G",
+        "identifiers": [
+          "0000-0002-5935-5258"
+        ],
+        "affiliations": [
+          "Laboratory of Pathogens and Host Immunity, University of Montpellier, CNRS and INSERM, Montpellier 34095, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2025 May 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/02 18:31",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37321965",
+      "36484697",
+      "35469832",
+      "34265844",
+      "29270430",
+      "28894102",
+      "28821744",
+      "28666322",
+      "28077874",
+      "27857150",
+      "25945739",
+      "25727367",
+      "25269475",
+      "24728994",
+      "23027979",
+      "21959250",
+      "18535149",
+      "16731699",
+      "15190054",
+      "14563862",
+      "12042311",
+      "10973967",
+      "10556324"
+    ],
+    "similar": [
+      "40315131",
+      "32822422",
+      "36779711",
+      "26456193",
+      "20598889",
+      "38700364",
+      "25054802",
+      "19143611",
+      "30705313",
+      "42475469",
+      "22329974",
+      "21265758",
+      "40639513",
+      "12694606",
+      "10585970",
+      "29208747",
+      "18988691",
+      "28777072",
+      "26862144",
+      "33383035",
+      "41986316",
+      "34543104",
+      "9379893",
+      "41120858",
+      "21852183",
+      "21265766",
+      "21366926",
+      "22691113",
+      "33847950",
+      "34606606",
+      "41131927",
+      "22182250",
+      "33650488",
+      "23579284",
+      "39791890",
+      "41570934",
+      "19296856",
+      "31082442",
+      "20871851",
+      "37996679",
+      "11523004",
+      "29263101",
+      "39096085",
+      "23326363",
+      "10556324",
+      "14663068",
+      "16150924",
+      "30191942",
+      "10508726",
+      "34124941",
+      "32503372",
+      "39215524",
+      "27920295",
+      "25257534",
+      "21265740",
+      "28487430",
+      "17949885",
+      "27037624",
+      "15649332",
+      "41158063",
+      "29178818",
+      "11148211",
+      "11680871",
+      "33001599",
+      "12236465",
+      "22355141",
+      "17394648",
+      "28186905",
+      "29357055",
+      "41378870",
+      "11171552",
+      "19775246",
+      "22918580",
+      "38896033",
+      "24398374",
+      "41854267",
+      "37060102",
+      "27137495",
+      "15883368",
+      "12694607",
+      "41092354",
+      "10430556",
+      "16148304",
+      "30504216",
+      "39520544",
+      "17081069",
+      "33480998",
+      "38567765",
+      "21197080",
+      "27900448",
+      "39039769",
+      "18476920",
+      "40829558",
+      "29782909",
+      "34748388",
+      "32817089",
+      "27578274",
+      "42278211",
+      "34788065",
+      "39540738"
+    ],
+    "review": [
+      "40315131",
+      "40639513",
+      "12694606",
+      "10585970",
+      "33383035",
+      "34543104",
+      "21852183",
+      "21265766",
+      "33847950",
+      "22182250",
+      "23579284",
+      "31082442",
+      "20871851",
+      "39096085",
+      "14663068",
+      "10508726",
+      "32503372",
+      "25257534",
+      "21265740",
+      "29178818",
+      "11680871",
+      "33001599",
+      "12236465",
+      "29357055",
+      "11171552",
+      "22918580",
+      "27137495",
+      "12694607",
+      "10430556",
+      "16148304",
+      "38567765",
+      "27900448",
+      "39039769",
+      "18476920"
+    ],
+    "pmc": [
+      "12065626"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40315131.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40315131/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf169",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

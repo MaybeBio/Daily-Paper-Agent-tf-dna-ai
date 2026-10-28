@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "33939691",
+    "doi": "10.1371/journal.pcbi.1008094",
+    "title": "Pseudocell Tracer-A method for inferring dynamic trajectories using scRNAseq and its application to B cells undergoing immunoglobulin class switch recombination."
+  },
+  "content": {
+    "abstract": "Single cell RNA sequencing (scRNAseq) can be used to infer a temporal ordering of cellular states. Current methods for the inference of cellular trajectories rely on unbiased dimensionality reduction techniques. However, such biologically agnostic ordering can prove difficult for modeling complex developmental or differentiation processes. The cellular heterogeneity of dynamic biological compartments can result in sparse sampling of key intermediate cell states. To overcome these limitations, we develop a supervised machine learning framework, called Pseudocell Tracer, which infers trajectories in pseudospace rather than in pseudotime. The method uses a supervised encoder, trained with adjacent biological information, to project scRNAseq data into a low-dimensional manifold that maps the transcriptional states a cell can occupy. Then a generative adversarial network (GAN) is used to simulate pesudocells at regular intervals along a virtual cell-state axis. We demonstrate the utility of Pseudocell Tracer by modeling B cells undergoing immunoglobulin class switch recombination (CSR) during a prototypic antigen-induced antibody response. Our results revealed an ordering of key transcription factors regulating CSR to the IgG1 isotype, including the concomitant expression of Nfkb1 and Stat6 prior to the upregulation of Bach2 expression. Furthermore, the expression dynamics of genes encoding cytokine receptors suggest a poised IL-4 signaling state that preceeds CSR to the IgG1 isotype.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "B-Lymphocytes/*immunology/metabolism",
+      "Basic-Leucine Zipper Transcription Factors/genetics",
+      "Computational Biology",
+      "Computer Simulation",
+      "Databases, Nucleic Acid",
+      "Gene Expression",
+      "Immunoglobulin Class Switching/*genetics",
+      "Immunoglobulin G/genetics",
+      "Interleukin-4/immunology",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Models, Immunological",
+      "NF-kappa B p50 Subunit/genetics",
+      "Neural Networks, Computer",
+      "RNA-Seq/methods/statistics & numerical data",
+      "Receptors, Cytokine/genetics",
+      "Recombination, Genetic",
+      "STAT6 Transcription Factor/genetics",
+      "Signal Transduction",
+      "Single-Cell Analysis/methods/statistics & numerical data",
+      "*Supervised Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Reiman, Derek",
+        "Manakkat Vijay, Godhev Kumar",
+        "Xu, Heping",
+        "Sonin, Andrew",
+        "Chen, Dianyu",
+        "Salomonis, Nathan",
+        "Singh, Harinder",
+        "Khan, Aly A"
+      ],
+      "short_names": [
+        "Reiman D",
+        "Manakkat Vijay GK",
+        "Xu H",
+        "Sonin A",
+        "Chen D",
+        "Salomonis N",
+        "Singh H",
+        "Khan AA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7955-3980",
+        "ORCID: 0000-0003-3833-3057",
+        "ORCID: 0000-0003-1000-7102",
+        "ORCID: 0000-0002-4217-2279",
+        "ORCID: 0000-0001-9689-2469",
+        "ORCID: 0000-0002-6330-8526",
+        "ORCID: 0000-0003-3933-8538"
+      ],
+      "affiliations": [
+        "University of Illinois at Chicago, Department of Bioengineering, Chicago, Illinois, United States of America.",
+        "University of Pittsburgh, Center for Systems Immunology, Departments of Immunology and Computational and Systems Biology, Pittsburgh, Pennsylvania, United States of America.",
+        "Key Laboratory of Growth Regulation and Translation Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang Province, China.",
+        "Institute of Biology, Westlake Institute for Advanced Study, Hangzhou, Zhejiang Province, China.",
+        "Moscow Institute of Physics and Technology, Dolgoprudny, Moscow Region, Russia.",
+        "Key Laboratory of Growth Regulation and Translation Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang Province, China.",
+        "Institute of Biology, Westlake Institute for Advanced Study, Hangzhou, Zhejiang Province, China.",
+        "Division of Biomedical Informatics, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "University of Pittsburgh, Center for Systems Immunology, Departments of Immunology and Computational and Systems Biology, Pittsburgh, Pennsylvania, United States of America.",
+        "University of Chicago, Department of Pathology, Chicago, Illinois, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Reiman, Derek",
+        "short_name": "Reiman D",
+        "identifiers": [
+          "0000-0002-7955-3980"
+        ],
+        "affiliations": [
+          "University of Illinois at Chicago, Department of Bioengineering, Chicago, Illinois, United States of America."
+        ]
+      },
+      {
+        "full_name": "Manakkat Vijay, Godhev Kumar",
+        "short_name": "Manakkat Vijay GK",
+        "identifiers": [
+          "0000-0003-3833-3057"
+        ],
+        "affiliations": [
+          "University of Pittsburgh, Center for Systems Immunology, Departments of Immunology and Computational and Systems Biology, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Xu, Heping",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Growth Regulation and Translation Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang Province, China.",
+          "Institute of Biology, Westlake Institute for Advanced Study, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Sonin, Andrew",
+        "short_name": "Sonin A",
+        "identifiers": [
+          "0000-0003-1000-7102"
+        ],
+        "affiliations": [
+          "Moscow Institute of Physics and Technology, Dolgoprudny, Moscow Region, Russia."
+        ]
+      },
+      {
+        "full_name": "Chen, Dianyu",
+        "short_name": "Chen D",
+        "identifiers": [
+          "0000-0002-4217-2279"
+        ],
+        "affiliations": [
+          "Key Laboratory of Growth Regulation and Translation Research of Zhejiang Province, School of Life Sciences, Westlake University, Hangzhou, Zhejiang Province, China.",
+          "Institute of Biology, Westlake Institute for Advanced Study, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Salomonis, Nathan",
+        "short_name": "Salomonis N",
+        "identifiers": [
+          "0000-0001-9689-2469"
+        ],
+        "affiliations": [
+          "Division of Biomedical Informatics, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Singh, Harinder",
+        "short_name": "Singh H",
+        "identifiers": [
+          "0000-0002-6330-8526"
+        ],
+        "affiliations": [
+          "University of Pittsburgh, Center for Systems Immunology, Departments of Immunology and Computational and Systems Biology, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Khan, Aly A",
+        "short_name": "Khan AA",
+        "identifiers": [
+          "0000-0003-3933-8538"
+        ],
+        "affiliations": [
+          "University of Chicago, Department of Pathology, Chicago, Illinois, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 May",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/04 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "39208795",
+      "38698087",
+      "38076836",
+      "37932398"
+    ],
+    "refs": [
+      "31919373",
+      "31823809",
+      "31375460",
+      "31332193",
+      "31217225",
+      "31061532",
+      "30936559",
+      "30890159",
+      "30846256",
+      "30674886",
+      "30457979",
+      "30283141",
+      "29914354",
+      "29206104",
+      "29153838",
+      "28825705",
+      "28622514",
+      "28345074",
+      "28301039",
+      "28218746",
+      "28094102",
+      "27984732",
+      "27749818",
+      "27580035",
+      "25123280",
+      "24658644",
+      "18370922",
+      "11801452",
+      "10514011",
+      "10490661",
+      "7963558",
+      "7834752",
+      "1902502"
+    ],
+    "similar": [
+      "33939691",
+      "25624452",
+      "12202396",
+      "9647237",
+      "15152264",
+      "19157556",
+      "20953163",
+      "8598461",
+      "37932398",
+      "21444915",
+      "15383579",
+      "25123280",
+      "38605225",
+      "29898247",
+      "24908303",
+      "15879114",
+      "9973462",
+      "28348271",
+      "25536171",
+      "19692705",
+      "12629145",
+      "23239849",
+      "15504820",
+      "11673510",
+      "26627255",
+      "11970883",
+      "16143305",
+      "7892607",
+      "11466373",
+      "11884453",
+      "21613984",
+      "17109470",
+      "35050715",
+      "28301039",
+      "9858523",
+      "15039385",
+      "9317110",
+      "10369418",
+      "16895557",
+      "10873300",
+      "15146119",
+      "18339657",
+      "9686596",
+      "28993481",
+      "17067770",
+      "26903242",
+      "28416601",
+      "15494502",
+      "17713479",
+      "17900678",
+      "7575358",
+      "26500350",
+      "31552021",
+      "15806010",
+      "17645870",
+      "15691537",
+      "39208795",
+      "23589612",
+      "34586363",
+      "28065739",
+      "15944297",
+      "10760789",
+      "10878352",
+      "32591397",
+      "11067906",
+      "12646608",
+      "23278594",
+      "26944202",
+      "28790320",
+      "10640761",
+      "22438254",
+      "17982044",
+      "25678371",
+      "18794203",
+      "8195714",
+      "25899867",
+      "22867713",
+      "10490661",
+      "10807577",
+      "9317131",
+      "7895521",
+      "8376941",
+      "9440542",
+      "11591116",
+      "28407558",
+      "22869725",
+      "36102157",
+      "10988158",
+      "21124298",
+      "23226220",
+      "34646337",
+      "34370020",
+      "33081343",
+      "38785212",
+      "31974247",
+      "35020490",
+      "38778003",
+      "38968762",
+      "32528075",
+      "33662626",
+      "39013867",
+      "31919373",
+      "38076836",
+      "38500834",
+      "36993765",
+      "22137453",
+      "36590685",
+      "38128536",
+      "37627306",
+      "38105974",
+      "27870852",
+      "39300283",
+      "35302852"
+    ],
+    "review": [
+      "33939691",
+      "25123280",
+      "12629145",
+      "10988158",
+      "38968762"
+    ],
+    "pmc": [
+      "8118552"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1008094",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33939691/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33939691",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT6-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33939691",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

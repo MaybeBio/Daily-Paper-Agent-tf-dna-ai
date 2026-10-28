@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2312.00842v1",
+  "title": "ESM-NBR: fast and accurate nucleic acid-binding residue prediction via protein language model feature representation and multi-task learning",
+  "doi": "10.1109/BIBM58861.2023.10385509",
+  "abstract": "Protein-nucleic acid interactions play a very important role in a variety of biological activities. Accurate identification of nucleic acid-binding residues is a critical step in understanding the interaction mechanisms. Although many computationally based methods have been developed to predict nucleic acid-binding residues, challenges remain. In this study, a fast and accurate sequence-based method, called ESM-NBR, is proposed. In ESM-NBR, we first use the large protein language model ESM2 to extract discriminative biological properties feature representation from protein primary sequences; then, a multi-task deep learning model composed of stacked bidirectional long short-term memory (BiLSTM) and multi-layer perceptron (MLP) networks is employed to explore common and private information of DNA- and RNA-binding residues with ESM2 feature as input. Experimental results on benchmark data sets demonstrate that the prediction performance of ESM2 feature representation comprehensively outperforms evolutionary information-based hidden Markov model (HMM) features. Meanwhile, the ESM-NBR obtains the MCC values for DNA-binding residues prediction of 0.427 and 0.391 on two independent test sets, which are 18.61 and 10.45% higher than those of the second-best methods, respectively. Moreover, by completely discarding the time-cost multiple sequence alignment process, the prediction speed of ESM-NBR far exceeds that of existing methods (5.52s for a protein sequence of length 500, which is about 16 times faster than the second-fastest method). A user-friendly standalone package and the data of ESM-NBR are freely available for academic use at: https://github.com/wwzll123/ESM-NBR.",
+  "authors": [
+    "Wenwu Zeng",
+    "Dafeng Lv",
+    "Wenjuan Liu",
+    "Shaoliang Peng"
+  ],
+  "published_date": "2023-12-01T04:00:20Z",
+  "updated_date": "2023-12-01T04:00:20Z",
+  "journal": "",
+  "category": "q-bio.QM, cs.LG",
+  "landing_url": "https://arxiv.org/abs/2312.00842v1",
+  "pdf_url": "https://arxiv.org/pdf/2312.00842v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.QM",
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2312.00842v1",
+    "raw_categories": [
+      "q-bio.QM",
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}

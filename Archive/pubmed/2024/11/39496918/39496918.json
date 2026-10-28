@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "39496918",
+    "doi": "10.1007/s10753-024-02164-6",
+    "title": "Multiple Machine Learning Identifies Key Gene PHLDA1 Suppressing NAFLD Progression."
+  },
+  "content": {
+    "abstract": "Non-alcoholic fatty liver disease (NAFLD) poses a serious global health threat, with its progression mechanisms not yet fully understood. While several molecular markers for NAFLD have been developed in recent years, a lack of robust evidence hampers their clinical application. Therefore, identifying novel and potent biomarkers would directly aid in the prediction, prevention, and personalized treatment of NAFLD. We downloaded NAFLD-related datasets from the Gene Expression Omnibus (GEO). Differential expression analysis and functional analysis were initially conducted. Subsequently, Weighted Gene Co-expression Network Analysis (WGCNA) and multiple machine learning strategies were employed to screen and identify key genes, and the diagnostic value was assessed using Receiver Operating Characteristic (ROC) analysis. We then explored the relationship between genes and immune cells using transcriptome data and single-cell RNA sequencing (scRNA-seq) data. Finally, we validated our findings in cell and mouse NAFLD models. We obtained 23 overlapping differentially expressed genes (DEGs) across three NAFLD datasets. Enrichment analysis revealed that DEGs were associated with Apoptosis, Parathyroid hormone synthesis, secretion and action, Colorectal cancer, p53 signaling pathway, and Biosynthesis of unsaturated fatty acids. After employing machine learning strategies, we identified one gene, pleckstrin homology like domain family A member 1 (PHLDA1), downregulated in NAFLD and showing high diagnostic accuracy. CIBERSORT analysis revealed significant associations of PHLDA1 with various immune cells. Single-cell data analysis demonstrated downregulation of PHLDA1 in NAFLD, with PHLDA1 exhibiting a significant negative correlation with macrophages. Furthermore, we found PHLDA1 to be downregulated in an in vitro hepatic steatosis cell model, and overexpression of PHLDA1 significantly reduced lipid accumulation, as well as the expression of key molecules involved in hepatic lipogenesis and fatty acid uptake, such as FASN, SCD-1, and CD36. Additionally, gene set enrichment analysis (GSEA) pathway enrichment analysis suggested that PHLDA1 may influence NAFLD progression through pathways such as Cytokine Cytokine Receptor Interaction, Ecm Receptor Interaction, Parkinson's Disease, and Ribosome pathways. Our conclusions were further validated in a mouse model of NAFLD. Our study reveals that PHLDA1 inhibits the progression of NAFLD, as overexpression of PHLDA1 significantly reduces lipid accumulation in cells and markedly decreases the expression of key molecules involved in liver lipogenesis and fatty acid uptake. Therefore, PHLDA1 may emerge as a novel potential target for future prediction, diagnosis, and targeted prevention of NAFLD.",
+    "keywords": [
+      "Biomarker",
+      "Machine Learning strategy",
+      "NAFLD",
+      "PHLDA1"
+    ],
+    "mesh_terms": [
+      "*Non-alcoholic Fatty Liver Disease/genetics/metabolism/pathology",
+      "*Machine Learning",
+      "Animals",
+      "Disease Progression",
+      "Mice",
+      "Humans",
+      "*Transcription Factors/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Zhenwei",
+        "Chen, Zhiqin",
+        "Wang, Jingchao",
+        "Li, Yizhang",
+        "Zhang, Hailin",
+        "Xiang, Yu",
+        "Zhang, Yuwei",
+        "Shao, Zhaozhao",
+        "Wu, Pei",
+        "Lu, Ding",
+        "Lin, Huajiang",
+        "Tong, Zhaowei",
+        "Liu, Jiang",
+        "Dong, Quan"
+      ],
+      "short_names": [
+        "Yang Z",
+        "Chen Z",
+        "Wang J",
+        "Li Y",
+        "Zhang H",
+        "Xiang Y",
+        "Zhang Y",
+        "Shao Z",
+        "Wu P",
+        "Lu D",
+        "Lin H",
+        "Tong Z",
+        "Liu J",
+        "Dong Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China. 2780779862@qq.com.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+        "Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, Huzhou, China.",
+        "Department of Biochemistry and Molecular Biology, Guangdong Key Laboratory of Genome Instability and Human Disease Prevention, Shenzhen University School of Medicine, Shenzhen, China.",
+        "Department of Gastroenterology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+        "Huzhou Key Laboratory of Precision Medicine Research and Translation for Infectious Diseases, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, Huzhou, 313000, China.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+        "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Zhenwei",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China. 2780779862@qq.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhiqin",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China.",
+          "Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, Huzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingchao",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Guangdong Key Laboratory of Genome Instability and Human Disease Prevention, Shenzhen University School of Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yizhang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hailin",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Yu",
+        "short_name": "Xiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuwei",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shao, Zhaozhao",
+        "short_name": "Shao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Pei",
+        "short_name": "Wu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, Ding",
+        "short_name": "Lu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lin, Huajiang",
+        "short_name": "Lin H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tong, Zhaowei",
+        "short_name": "Tong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Huzhou Key Laboratory of Precision Medicine Research and Translation for Infectious Diseases, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiang",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dong, Quan",
+        "short_name": "Dong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Fifth School of Clinical Medicine of Zhejiang, Huzhou Central Hospital, Chinese Medical University, No.1558, Sanhuan North Road, Wuxing District, Huzhou, Zhejiang Province, 313000, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation"
+    ],
+    "journal_abbrev": [
+      "Inflammation"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/05 00:21",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "42701762",
+      "42701175",
+      "42205842",
+      "42088521",
+      "41200186",
+      "40453651"
+    ],
+    "refs": [
+      "38429161",
+      "37903863",
+      "37169151",
+      "36893854",
+      "36875102",
+      "36521495",
+      "36216942",
+      "36034446",
+      "35750137",
+      "35312185",
+      "35237256",
+      "35093445",
+      "34895743",
+      "34741169",
+      "34616724",
+      "33794304",
+      "33762733",
+      "32906228",
+      "32353516",
+      "31597160",
+      "30950217",
+      "30398639",
+      "29921793",
+      "29608179",
+      "28787399",
+      "28467925",
+      "28377872",
+      "28195177",
+      "26998263",
+      "25822800",
+      "25581263",
+      "25295306",
+      "25003192",
+      "24830559",
+      "24793638",
+      "23686369",
+      "22961087",
+      "22872676",
+      "22455463",
+      "21414208",
+      "21269502",
+      "19114008",
+      "17699800",
+      "17188672",
+      "16210571",
+      "16199517",
+      "12738777",
+      "11567710",
+      "10894922",
+      "10535992",
+      "10428057",
+      "8673705"
+    ],
+    "similar": [
+      "39496918",
+      "39875572",
+      "39351239",
+      "39256536",
+      "40539070",
+      "38537674",
+      "38476236",
+      "39462099",
+      "37194229",
+      "37822923",
+      "41107929",
+      "41162503",
+      "40360670",
+      "40093012",
+      "40706769",
+      "38803181",
+      "39568749",
+      "36387855",
+      "32184169",
+      "41084051",
+      "40406118",
+      "40074804",
+      "36923221",
+      "41271048",
+      "39638831",
+      "38319987",
+      "41200172",
+      "39509434",
+      "39697326",
+      "38812509",
+      "38606153",
+      "41432483",
+      "36061826",
+      "41021615",
+      "41052072",
+      "40313958",
+      "37090698",
+      "39700090",
+      "40374840",
+      "40967560",
+      "38601640",
+      "41202015",
+      "39140679",
+      "39699225",
+      "38755717",
+      "40312440",
+      "40273141",
+      "37274336",
+      "39143741",
+      "41388523",
+      "40097519",
+      "41058968",
+      "40503237",
+      "39909111",
+      "36568397",
+      "41378206",
+      "31974594",
+      "40918148",
+      "35790963",
+      "41013556",
+      "37047411",
+      "40374866",
+      "41316541",
+      "39896809",
+      "38982979",
+      "40311345",
+      "37993474",
+      "41320661",
+      "40553824",
+      "37580962",
+      "40877393",
+      "39904830",
+      "40532306",
+      "40141450",
+      "34231239",
+      "39142001",
+      "41188996",
+      "40332792",
+      "41299729",
+      "37922570",
+      "29452209",
+      "41479901",
+      "36898287",
+      "40362669",
+      "39923303",
+      "29769552",
+      "39081807",
+      "36092920",
+      "29620197",
+      "40406126",
+      "40766309",
+      "40540134",
+      "38524129",
+      "40688078",
+      "39559355",
+      "39107295",
+      "40589764",
+      "40901831",
+      "40275274",
+      "40830558"
+    ],
+    "review": [
+      "39496918"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10753-024-02164-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

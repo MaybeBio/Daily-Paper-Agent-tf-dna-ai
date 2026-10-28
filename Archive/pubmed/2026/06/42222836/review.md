@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, conclusions, and experimental section. Figures, tables, and supplementary materials are referenced but not provided.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with claims made in the abstract and conclusions. No assessment of grammar or stylistic issues beyond what affects clarity for a general scientific audience.
+- **Shared manuscript claim summary** The authors propose a structure-based alignment strategy to identify a novel ligand-binding site in Sa-CcpA that is not detected by conventional cavity-prediction methods. They support this with molecular dynamics simulations showing pocket stability and docking studies of two known inhibitors, TDP and auranofin, suggesting the pocket can accommodate these ligands. They further report phylogenetic conservation of pocket residues among pathogenic Bacillales species.
+- **Visible evidence base** Text descriptions of results, methodological details in the Experimental Section, and references to figures (Figures 1–5, S1–S10), tables (Tables 1, S1–S3), and a GitHub repository. No actual figures, tables, or supplementary data were provided for direct inspection.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. This includes the structural alignment results, RMSD distributions, SASA plots, PCA projections, free energy landscapes, docking scores, interaction diagrams, phylogenetic tree, and the Python script. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational strategy for identifying cryptic ligand-binding sites in transcription factors, using Sa-CcpA as a case study. The concept is timely and the integration of structural alignment, MD simulations, and docking is methodologically reasonable. However, the evidence as presented in the text alone is insufficient to establish the central claims. Key quantitative results are described only qualitatively, and the absence of figures and tables prevents verification of the pocket's existence, stability, druggability, and ligand compatibility. The phylogenetic analysis is presented with limited interpretive depth. The manuscript would benefit from clearer articulation of how the identified pocket relates to known regulatory mechanisms and from direct experimental validation or at least a more rigorous computational benchmark.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, particularly those targeting bacterial transcription factors; structural biologists studying the LacI/GalR family; and investigators focused on antimicrobial resistance and novel therapeutic targets in S. aureus. The methodological approach may also interest method developers working on cryptic pocket detection.
+- **Major strengths** The study addresses a real limitation in structure-based drug design, namely the difficulty of identifying ligand-binding sites in proteins crystallized in closed conformations. The use of multiple alignment algorithms and ensemble docking across MD-derived conformations is a thoughtful approach. The focus on Sa-CcpA, a validated regulatory hub in a high-priority pathogen, gives the work translational relevance. The authors are transparent about the limitations of conventional cavity detection and provide a reproducible workflow via a public repository.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The central claim that a novel ligand-binding site exists in Sa-CcpA and is not predicted by conventional methods.
+  - **Evidence pointer** Results and Discussion, "Identification and Characterization of Potential Binding Sites in Sa-CcpA for Structure-Based Drug Design"; Figures 3, 4, S4; Tables 1, S1
+  - **Concern** The existence and location of the putative binding site are described only in text. No figure showing the pocket, its boundaries, or its comparison with conventional cavity predictions is available. The claim that CavityPlus failed to detect this site is stated but not demonstrated. The criteria for selecting the pocket among multiple candidates are not described.
+  - **Why it matters** The entire study rests on the identification of this pocket. Without visual or quantitative evidence, the reader cannot assess whether the pocket is real, druggable, or distinct from known sites. This is a foundational claim that must be verifiable.
+  - **Resolution test** Provide a figure showing the pocket surface, its location relative to known functional domains, and a comparison of CavityPlus predictions across Sa-CcpA, Bs-CcpA, and Ec-PurR. Include a table listing all predicted pockets with their volumes, druggability scores, and the rationale for selecting the reported site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The claim that MD simulations demonstrate the stability of the predicted pocket and that docking of TDP and auranofin supports its functional relevance.
+  - **Evidence pointer** Results and Discussion, "Docking Across Conformational Ensembles"; Figures 5, S2, S3, S6, S10; Table S3
+  - **Concern** The MD and docking results are described qualitatively. No RMSD or RMSF values are reported in the text. The clustering criteria are mentioned but the resulting conformations are not shown. Docking scores are not given, and the interaction analysis is summarized without specific residue-level details. The statement that auranofin interacts with Cys216 and Cys242 is based on prior experimental work, but the docking results are not compared with those experimental data.
+  - **Why it matters** The claim that the pocket is stable and can accommodate known inhibitors requires quantitative evidence. Without docking scores, interaction energies, or structural overlays, the reader cannot judge whether the binding modes are plausible or merely artifacts of the docking protocol.
+  - **Resolution test** Report RMSD and RMSF values for all systems, show representative conformations from clustering, provide docking scores for all systems and ligands, and include interaction diagrams for the best poses. Compare docking poses with experimental mutagenesis data where available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive depth
+  - **Claim pointer** The claim that phylogenetic conservation of pocket residues suggests functional relevance in pathogenic species.
+  - **Evidence pointer** Results and Discussion, "Phylogenetic Conservation of Sa-CcpA Homologues"; Figure 4
+  - **Concern** The phylogenetic analysis is described but the tree is not shown. The conservation patterns are discussed for a few residues, but the analysis lacks statistical support, such as conservation scores or selection pressure analysis. The link between sequence conservation and functional relevance is asserted rather than demonstrated.
+  - **Why it matters** The evolutionary argument is used to strengthen the case that the pocket is functionally important. Without a clear presentation of the tree and conservation data, this argument is weak and speculative.
+  - **Resolution test** Show the phylogenetic tree with clades labeled, provide a sequence logo or conservation map for the pocket region, and include statistical tests for conservation differences between pathogenic and nonpathogenic clades.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 4
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the two known inhibitors, TDP and auranofin, is brief and does not include their chemical structures or a summary of the experimental evidence for their activity against Sa-CcpA.
+  - **Required correction** Add a sentence or two summarizing the experimental basis for these inhibitors, including their reported mechanisms and any structural data, to contextualize the docking results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental Section, "Molecular Docking"
+  - **Evidence pointer** Location not provided
+  - **Issue** The docking protocol is described, but the preparation of the protein structures (e.g., protonation states, energy minimization) and the ligand preparation steps are not fully detailed. The selection of the docking center for the identified pocket is not justified.
+  - **Required correction** Provide a more detailed description of the docking setup, including how the pocket center was defined, how ligands were prepared, and any constraints applied during docking.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results and Discussion, "The Plasticity of DBD Motif from Sa-CcpA Structure"
+  - **Evidence pointer** Location not provided
+  - **Concern** The PCA and FEL analyses are described, but no quantitative measures of convergence or statistical significance are provided. The comparison between replicas is mentioned but not shown.
+  - **Required correction** Include a measure of convergence (e.g., RMSD between replicas) and show the FEL plots for all replicas to support the claim of reproducible conformational behavior.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures and tables is the primary technical failing. The manuscript cannot be evaluated without them. Additionally, the docking validation is described for a redocking of hypoxanthine into PurR, but the relevance of this to Sa-CcpA is not established. The authors should demonstrate that the docking protocol is appropriate for the Sa-CcpA pocket, for example by showing enrichment of known binders or by comparing with a suitable benchmark.
+- **Assessment against Nature-style criteria** Originality: The approach of using structural alignment against a curated set of cocrystallized TFs to find cryptic pockets is a reasonable extension of existing methods, but it is not fundamentally novel. The specific application to Sa-CcpA is new. Scientific importance: The potential to identify new drug targets in a high-priority pathogen is significant, but the study is purely computational and lacks experimental validation, limiting its immediate impact. Interdisciplinary readership: The work will appeal to computational biologists, structural biologists, and drug discovery researchers, but the presentation is too specialized for a broad audience. Technical soundness: The methods are appropriate in principle, but the lack of quantitative results and figures prevents assessment of their correct application. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with MD simulations, docking, and phylogenetics. The abstract is accessible, but the body would be challenging for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims are plausible but unverifiable without the missing figures, tables, and quantitative data. The authors should be invited to resubmit a revised version that includes all supporting materials and addresses the concerns raised.
+
+## Risk / unsupported claims
+- The existence of a novel ligand-binding site in Sa-CcpA is unsupported without visual or quantitative evidence.
+- The claim that this site is not predicted by conventional cavity-detection methods is unverifiable without a comparison of CavityPlus results.
+- The stability of the pocket across MD simulations is asserted but not demonstrated with RMSD, RMSF, or convergence data.
+- The docking results are described qualitatively, and the claim that TDP and auranofin bind within the pocket is not supported by reported scores or interaction details.
+- The phylogenetic conservation argument is weakened by the absence of the tree and conservation statistics.
+- The statement that the identified pocket may represent a previously uncharacterized effector-binding region is speculative and not supported by functional data.

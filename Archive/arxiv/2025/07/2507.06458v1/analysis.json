@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2507.06458v1",
+  "title": "Automated Neuron Labelling Enables Generative Steering and Interpretability in Protein Language Models",
+  "authors": "Arjun Banerjee; David Martinez; Camille Dang; Ethan Tam",
+  "journal": "",
+  "published_date": "2025-07-08",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该文聚焦蛋白语言模型神经元可解释性与生成调控，虽涉及蛋白结构（锌指）但未以蛋白质-DNA互作或TF-DNA结合为核心，方法可迁移性有限。",
+  "abstract": "Protein language models (PLMs) encode rich biological information, yet their internal neuron representations are poorly understood. We introduce the first automated framework for labeling every neuron in a PLM with biologically grounded natural language descriptions. Unlike prior approaches relying on sparse autoencoders or manual annotation, our method scales to hundreds of thousands of neurons, revealing individual neurons are selectively sensitive to diverse biochemical and structural properties. We then develop a novel neuron activation-guided steering method to generate proteins with desired traits, enabling convergence to target biochemical properties like molecular weight and instability index as well as secondary and tertiary structural motifs, including alpha helices and canonical Zinc Fingers. We finally show that analysis of labeled neurons in different model sizes reveals PLM scaling laws and a structured neuron space distribution.",
+  "abstract_zh": "蛋白质语言模型（PLMs）编码了丰富的生物信息，但其内部神经元表征仍鲜为人知。我们引入了首个自动化框架，用于为PLM中的每个神经元标注具有生物学基础的自然语言描述。与依赖稀疏自编码器或手动注释的先前方法不同，我们的方法可扩展至数十万个神经元，揭示单个神经元对多种生化与结构特性具有选择性敏感性。随后，我们开发了一种新颖的神经元激活引导的调控方法，以生成具有所需性状的蛋白质，能够收敛至目标生化特性，如分子量和不稳定指数，以及二级和三级结构基序，包括α螺旋和经典锌指结构。最后，我们展示了对不同模型大小中标注神经元的分析，揭示了PLM的缩放定律和结构化的神经元空间分布。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2507.06458v1",
+  "source_url": "https://arxiv.org/abs/2507.06458v1",
+  "paper_page_path": "papers/arxiv/2507.06458v1/index.html"
+}

@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "41789108",
+    "doi": "10.3389/fimmu.2026.1739660",
+    "title": "Identification of MTURN as a trained immunity-related biomarker for heart failure via integrative transcriptomic machine learning analysis and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Heart failure (HF) is a global health burden marked by high morbidity and limited treatment efficacy across subtypes. The lack of reliable molecular biomarkers for heart failure impedes personalized therapy. Emerging evidence suggests that macrophage-trained immunity drives chronic inflammation and cardiac remodeling, highlighting immune-related genes as promising biomarkers. METHODS: We integrated transcriptomic data from five independent HF cohorts and one macrophage-trained immunity model. Differentially expressed genes (DEGs) analysis, weighted gene co-expression network analysis (WGCNA), immune infiltration profiling, and six machine-learning algorithms were applied to screen immune-related candidate genes. Functional relevance was assessed by gene set enrichment analysis (GSEA) and single-cell RNA-seq of human cardiac tissue. Finally, we established a THP-1-derived macrophage trained immunity model to validate the paracrine effects of macrophage Maturin (MTURN) and Piezo-type mechanosensitive ion channel component 1 (PIEZO1) in cardiomyocytes. RESULTS: Seven hub genes were identified from HF-DEGs, the trained immunity transcriptional signature, and WGCNA co-expression modules. Among them, MTURN, an evolutionarily conserved regulator of differentiation and inflammation, emerged as the most robust candidate, showing consistent upregulation in HF samples across all cohorts with superior diagnostic performance. Importantly, GSEA linked MTURN to innate immune activation and adhesion/signaling pathways. Single-cell RNA-seq analyses of human cardiac tissue revealed MTURN enrichment in cardiac macrophages with a progressive increase along pseudotime. Experimentally, trained immunity macrophages displayed an elevation of glycolytic and inflammatory markers together with increased MTURN and PIEZO1. Accordingly, the conditioned medium collected from such trained macrophages could upregulate expression of HF markers (i.e., NPPA/B) in AC16 cardiomyocytes. CONCLUSION: Multi-cohort, single-cell RNA-seq, and experimental data collectively suggest MTURN as a trained immunity-related biomarker for the diagnosis of heart failure with a potential link to PIEZO1-mediated cardiac remodeling.",
+    "keywords": [
+      "MTURN",
+      "biomarker",
+      "heart failure",
+      "machine learning",
+      "trained immunity"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Heart Failure/immunology/genetics/diagnosis/metabolism",
+      "Trained Immunity",
+      "*Machine Learning",
+      "Biomarkers/metabolism",
+      "Gene Expression Profiling",
+      "Macrophages/immunology/metabolism",
+      "*Transcriptome",
+      "*Transcription Factors/genetics/metabolism",
+      "Myocytes, Cardiac/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Tianyuan",
+        "Li, Zhixin",
+        "Pan, Mingliang",
+        "Wang, Xiaohong",
+        "Huang, Wei",
+        "Kesten, Nebahat Ece",
+        "Peng, Tianqing",
+        "Fan, Guo-Chang"
+      ],
+      "short_names": [
+        "Yang T",
+        "Li Z",
+        "Pan M",
+        "Wang X",
+        "Huang W",
+        "Kesten NE",
+        "Peng T",
+        "Fan GC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+        "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+        "Division of Pharmaceutical Sciences, James L. Winkle College of Pharmacy, University of Cincinnati, Cincinnati, OH, United States.",
+        "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+        "Department of Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+        "Division of Cardiovascular Health and Disease, Department of Internal Medicine, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+        "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+        "Faculty of Medicine, Ondokuz Mayis University, Atakum, Samsun, Turkiye.",
+        "London Health Sciences Centre Research Institute, Departments of Medicine and Pathology and Laboratory Medicine, Western University, London, ON, Canada.",
+        "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Tianyuan",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Zhixin",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+          "Division of Pharmaceutical Sciences, James L. Winkle College of Pharmacy, University of Cincinnati, Cincinnati, OH, United States."
+        ]
+      },
+      {
+        "full_name": "Pan, Mingliang",
+        "short_name": "Pan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+          "Department of Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaohong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Wei",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Health and Disease, Department of Internal Medicine, University of Cincinnati College of Medicine, Cincinnati, OH, United States."
+        ]
+      },
+      {
+        "full_name": "Kesten, Nebahat Ece",
+        "short_name": "Kesten NE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States.",
+          "Faculty of Medicine, Ondokuz Mayis University, Atakum, Samsun, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Peng, Tianqing",
+        "short_name": "Peng T",
+        "identifiers": [],
+        "affiliations": [
+          "London Health Sciences Centre Research Institute, Departments of Medicine and Pathology and Laboratory Medicine, Western University, London, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Fan, Guo-Chang",
+        "short_name": "Fan GC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology, and Neurobiology, University of Cincinnati College of Medicine, Cincinnati, OH, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/06 08:59",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [
+      "42505415"
+    ],
+    "refs": [
+      "41258046",
+      "40773290",
+      "40605973",
+      "40559081",
+      "40456339",
+      "40441082",
+      "40436616",
+      "40406620",
+      "40403105",
+      "40339776",
+      "40319995",
+      "40205951",
+      "40020983",
+      "39345014",
+      "39092292",
+      "38798745",
+      "38787963",
+      "38446996",
+      "38433280",
+      "37974098",
+      "37938421",
+      "37908726",
+      "37721133",
+      "37547123",
+      "37498390",
+      "37250788",
+      "36704339",
+      "36550923",
+      "36304293",
+      "35562970",
+      "35417225",
+      "35255917",
+      "35194776",
+      "34847408",
+      "34320366",
+      "34211477",
+      "34208464",
+      "34112781",
+      "33679711",
+      "33528492",
+      "33506033",
+      "33351719",
+      "33107387",
+      "32186710",
+      "32132681",
+      "31957809",
+      "31689522",
+      "31552488",
+      "31435009",
+      "31236626",
+      "31061481",
+      "30580574",
+      "30433869",
+      "29926425",
+      "29908065",
+      "29367213",
+      "28640448",
+      "27863248",
+      "27034969",
+      "26034041",
+      "25822800",
+      "25035950",
+      "24725425",
+      "24681962",
+      "24633737",
+      "24161035",
+      "24095902",
+      "23350913",
+      "19279262",
+      "16199517",
+      "9597123"
+    ],
+    "similar": [
+      "41789108",
+      "42123445",
+      "40405297",
+      "37974098",
+      "41126838",
+      "41107929",
+      "42195052",
+      "42233387",
+      "41665627",
+      "40630963",
+      "42361012",
+      "41789070",
+      "41758878",
+      "41393260",
+      "41189222",
+      "42158856",
+      "41733593",
+      "41388523",
+      "41222888",
+      "42326009",
+      "39351239",
+      "41601657",
+      "40617086",
+      "39923303",
+      "42265520",
+      "41816342",
+      "41424060",
+      "39351221",
+      "41436831",
+      "41711656",
+      "40406620",
+      "37008314",
+      "34218797",
+      "41291841",
+      "42059276",
+      "42305536",
+      "42435052",
+      "42123756",
+      "40948769",
+      "42278407",
+      "39364414",
+      "42024670",
+      "40933310",
+      "42597971",
+      "42274933",
+      "42553137",
+      "38656659",
+      "42292364",
+      "42558367",
+      "41878449",
+      "42338983",
+      "41200169",
+      "41716413",
+      "40406126",
+      "41611834",
+      "42291298",
+      "42536689",
+      "41422136",
+      "41432483",
+      "41548166",
+      "40503237",
+      "42135859",
+      "41052072",
+      "41756296",
+      "42577419",
+      "42495609",
+      "41221285",
+      "41080564",
+      "41013556",
+      "41484731",
+      "39281688",
+      "41208987",
+      "41826854",
+      "41822387",
+      "33563285",
+      "40892227",
+      "41243474",
+      "41009952",
+      "41333919",
+      "41656832",
+      "36782329",
+      "42317364",
+      "39062507",
+      "42404897",
+      "40751069",
+      "42139760",
+      "41659414",
+      "40742465",
+      "41502897",
+      "42113804",
+      "41732097",
+      "40589764",
+      "42306043",
+      "42468380",
+      "38397416",
+      "41224720",
+      "41760060",
+      "39026663",
+      "41479901",
+      "35128826"
+    ],
+    "review": [
+      "41789108",
+      "41665627"
+    ],
+    "pmc": [
+      "12957145"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41789108/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1739660",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

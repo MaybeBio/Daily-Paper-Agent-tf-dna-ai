@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.24.513593",
+  "title": "EUGENe: A Python toolkit for predictive analyses of regulatory sequences",
+  "authors": "Klie A; Stites H; Jores T; Solvason JJ; Farley EK; Carter H",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-26",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍了一个用于调控序列预测的深度学习工具包EUGENe，涵盖TF结合预测任务，但主要聚焦于软件工程与通用序列建模，而非TF-DNA互作机制或三维结构建模，方法可迁移但深度有限。",
+  "abstract": "Deep learning (DL) has become a popular tool to study cis-regulatory element function. Yet efforts to design software for DL analyses in genomics that are Findable, Accessible, Interoperable and Reusable (FAIR) have fallen short of fully meeting these criteria. Here we present EUGENe ( E lucidating the U tility of G enomic E lements with Ne ural Nets), a FAIR toolkit for the analysis of labeled sets of nucleotide sequences with DL. EUGENe consists of a set of modules that empower users to execute the key functionality of a DL workflow: 1) extracting, transforming and loading sequence data from many common file formats, 2) instantiating, initializing and training diverse model architectures, and 3) evaluating and interpreting model behavior. We designed EUGENe to be simple; users can develop workflows on new or existing datasets with two customizable Python objects, annotated sequence data (SeqData) and PyTorch models (BaseModel). The modularity and simplicity of EUGENe also make it highly extensible and we illustrate these principles through application of the toolkit to three predictive modeling tasks. First, we train and compare a set of built-in models along with a custom architecture for the accurate prediction of activities of plant promoters from STARR-seq data. Next, we apply EUGENe to an RNA binding prediction task and showcase how seminal model architectures can be retrained in EUGENe or imported from Kipoi. Finally, we train models to classify transcription factor binding by wrapping functionality from Janngu, which can efficiently extract sequences in BED file format from the human genome. We emphasize that the code used in each use case is simple, readable, and well documented ( https://eugene-tools.readthedocs.io/en/latest/index.html ). We believe that EUGENe represents a springboard toward a collaborative ecosystem for DL applications in genomics research. EUGENe is available for download on GitHub ( https://github.com/cartercompbio/EUGENe ) along with several introductory tutorials and for installation on PyPi ( https://pypi.org/project/eugene-tools/ ).",
+  "abstract_zh": "深度学习（DL）已成为研究顺式调控元件功能的流行工具。然而，为基因组学中的DL分析设计符合可查找、可访问、可互操作和可重用（FAIR）原则的软件的努力，尚未完全满足这些标准。在此，我们介绍EUGENe（利用神经网络阐明基因组元件的效用），这是一个用于分析带标签核苷酸序列集的FAIR工具包，结合DL技术。EUGENe由一组模块组成，使用户能够执行DL工作流程的关键功能：1）从多种常见文件格式中提取、转换和加载序列数据，2）实例化、初始化和训练多种模型架构，以及3）评估和解释模型行为。我们将EUGENe设计为简单易用；用户可以通过两个可定制的Python对象——带注释的序列数据（SeqData）和PyTorch模型（BaseModel）——在新数据集或现有数据集上开发工作流程。EUGENe的模块化和简洁性也使其高度可扩展，我们通过将该工具包应用于三个预测建模任务来阐述这些原则。首先，我们训练并比较一组内置模型以及一个自定义架构，用于从STARR-seq数据中准确预测植物启动子的活性。接下来，我们将EUGENe应用于RNA结合预测任务，并展示如何在EUGENe中重新训练开创性模型架构或从Kipoi导入。最后，我们通过封装Janngu的功能来训练模型以分类转录因子结合，该功能可以高效地从人类基因组中提取BED文件格式的序列。我们强调，每个用例中使用的代码简单、可读且文档完善（https://eugene-tools.readthedocs.io/en/latest/index.html）。我们相信，EUGENe代表了迈向基因组学研究DL应用协作生态系统的跳板。EUGENe可在GitHub上下载（https://github.com/cartercompbio/EUGENe），并附带多个入门教程，也可在PyPi上安装（https://pypi.org/project/eugene-tools/）。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.24.513593",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.24.513593",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.24.513593/index.html"
+}

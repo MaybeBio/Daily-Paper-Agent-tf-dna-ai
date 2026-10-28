@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "42031200",
+    "doi": "10.1016/j.envpol.2026.128196",
+    "title": "Integration of AHRR methylation, heavy metals, and clinical characteristics for urothelial carcinoma risk stratification: An explainable artificial intelligence approach."
+  },
+  "content": {
+    "abstract": "The short metabolic half-life of conventional tobacco biomarkers often limits their ability to reflect cumulative toxicological damage, which may complicate risk stratification for urothelial carcinoma (UC). This study explored an explainable artificial intelligence (XAI) framework to integrate epigenetic, environmental, and clinical factors for more refined UC risk assessment. We conducted a medical center-based case-control study of 351 UC cases and 373 controls. Data on demographics, comorbidities, and biomarkers including AHRR (cg05575921) DNA methylation, urinary cotinine, 8-OHdG, and urinary heavy metals were collected and analyzed. We used LASSO regression to manage multicollinearity of metals. Eight ML models, including XGBoost, were trained and evaluated using 5-fold cross-validation. SHAP (SHapley Additive exPlanations) and mediation analyses were employed to interpret feature importance and biological pathways. Logistic regression confirmed associations between UC risk and urinary cotinine, several metals (Cr, Co, Ni, Pb), and lower AHRR methylation (all p < 0.05). Eight supervised learning algorithms were compared, with XGBoost providing the highest discriminative performance (AUC = 0.752). SHAP analysis identified chronic kidney disease and age as primary determinants, while AHRR methylation and selected metals (Ni, Cr) contributed significant independent discriminative value. Mediation analysis suggested that AHRR methylation mediated 43.74% of the effect of long-term smoking history, whereas the influence of urinary cotinine on risk was primarily mediated through increased urinary 8-OHdG. Decision tree analysis further identified a high-risk subgroup of former smokers with persistent AHRR hypomethylation despite low cotinine levels. In conclusion, by combining clinical factors with epigenetic and environmental biomarkers, our explainable machine learning framework offers robust UC risk stratification. AHRR methylation, selected metals, and CKD status provide critical information beyond standard risk factors, supporting more effective targeted surveillance for high-risk individuals.",
+    "keywords": [
+      "AHRR",
+      "DNA methylation",
+      "Decision tree",
+      "Heavy metals",
+      "Lasso regression",
+      "Lead",
+      "Nickel",
+      "Smoking",
+      "Urothelial carcinoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Metals, Heavy/urine",
+      "*Artificial Intelligence",
+      "DNA Methylation",
+      "Case-Control Studies",
+      "*Repressor Proteins/genetics/metabolism",
+      "*Basic Helix-Loop-Helix Proteins/genetics/metabolism",
+      "Risk Assessment",
+      "*Urologic Neoplasms/epidemiology/genetics",
+      "Male",
+      "Female",
+      "Cotinine/urine",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chung, Chia-Min",
+        "Chang, Chao-Hsiang",
+        "Chang, Chin-Huai",
+        "Chang, Wen-Chi",
+        "Chang, Yi-Huei",
+        "Hsiao, Po-Jen",
+        "Lien, Chi-Shun",
+        "Chang, Han",
+        "Chung, Mu-Chi",
+        "Chung, Chi-Jung"
+      ],
+      "short_names": [
+        "Chung CM",
+        "Chang CH",
+        "Chang CH",
+        "Chang WC",
+        "Chang YH",
+        "Hsiao PJ",
+        "Lien CS",
+        "Chang H",
+        "Chung MC",
+        "Chung CJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Graduate Institute of Biomedical Sciences, China Medical University, Taichung, Taiwan; Department of Psychiatry and Center for Addiction and Mental Health, China Medical University Hospital, Taichung, Taiwan.",
+        "Department of Urology, China Medical University and Hospital, Taichung, Taiwan.",
+        "Department of Public Health, College of Public Health, China Medical University, Taichung, Taiwan.",
+        "Department of Public Health, College of Public Health, China Medical University, Taichung, Taiwan.",
+        "Department of Urology, China Medical University and Hospital, Taichung, Taiwan.",
+        "Department of Urology, China Medical University and Hospital, Taichung, Taiwan.",
+        "Department of Urology, China Medical University and Hospital, Taichung, Taiwan.",
+        "Department of Pathology, College of Medicine, China Medical University Hospital, Taichung, Taiwan.",
+        "Division of Nephrology, Department of Medicine, Taichung Veterans General Hospital, Taichung, Taiwan; Division of Clinical Toxicology, Department of Medical Toxicology, Taichung Veterans General Hospital, Taichung, Taiwan; Department of Post-Baccalaureate Medicine, College of Medicine, National Chung Hsing University, Taiwan.",
+        "Department of Public Health, College of Public Health, China Medical University, Taichung, Taiwan; Department of Medical Research, China Medical University Hospital, Taichung, Taiwan. Electronic address: cjchung@mail.cmu.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chung, Chia-Min",
+        "short_name": "Chung CM",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Sciences, China Medical University, Taichung, Taiwan; Department of Psychiatry and Center for Addiction and Mental Health, China Medical University Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Chao-Hsiang",
+        "short_name": "Chang CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, China Medical University and Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Chin-Huai",
+        "short_name": "Chang CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, College of Public Health, China Medical University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Wen-Chi",
+        "short_name": "Chang WC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, College of Public Health, China Medical University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Yi-Huei",
+        "short_name": "Chang YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, China Medical University and Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hsiao, Po-Jen",
+        "short_name": "Hsiao PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, China Medical University and Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lien, Chi-Shun",
+        "short_name": "Lien CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, China Medical University and Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Han",
+        "short_name": "Chang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, College of Medicine, China Medical University Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chung, Mu-Chi",
+        "short_name": "Chung MC",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Department of Medicine, Taichung Veterans General Hospital, Taichung, Taiwan; Division of Clinical Toxicology, Department of Medical Toxicology, Taichung Veterans General Hospital, Taichung, Taiwan; Department of Post-Baccalaureate Medicine, College of Medicine, National Chung Hsing University, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chung, Chi-Jung",
+        "short_name": "Chung CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, College of Public Health, China Medical University, Taichung, Taiwan; Department of Medical Research, China Medical University Hospital, Taichung, Taiwan. Electronic address: cjchung@mail.cmu.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental pollution (Barking, Essex : 1987)"
+    ],
+    "journal_abbrev": [
+      "Environ Pollut"
+    ],
+    "pub_date": "2026 Jun 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/25 00:34",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42031200",
+      "28453567",
+      "32962699",
+      "40285850",
+      "36705787",
+      "37150141",
+      "28025111",
+      "26663353",
+      "40849734",
+      "28100713",
+      "32947224",
+      "32736658",
+      "31182156",
+      "37156443",
+      "35262751",
+      "31060609",
+      "39425209",
+      "26307030",
+      "41529257",
+      "39164771",
+      "38051301",
+      "30730943",
+      "41749231",
+      "27924164",
+      "27613907",
+      "39033027",
+      "29412867",
+      "41230156",
+      "34440450",
+      "42052023",
+      "37755881",
+      "24270552",
+      "38001042",
+      "42399867",
+      "39905341",
+      "38990298",
+      "41957161",
+      "35964014",
+      "36321557",
+      "31456352",
+      "29722794",
+      "35064064",
+      "41814906",
+      "36093686",
+      "37691855",
+      "31232174",
+      "41892871",
+      "41545932",
+      "35461154",
+      "32347401",
+      "41597514",
+      "32729033",
+      "42394597",
+      "31618096",
+      "35110429",
+      "41882208",
+      "42051709",
+      "41643231",
+      "38238335",
+      "18339581",
+      "40728511",
+      "40753956",
+      "22232023",
+      "40714220",
+      "40441662",
+      "36359818",
+      "24268366",
+      "26359225",
+      "42204441",
+      "33235198",
+      "36621758",
+      "33260961",
+      "23871550",
+      "23070629",
+      "38244971",
+      "41826866",
+      "38103810",
+      "40264055",
+      "28454697",
+      "31363818",
+      "41650107",
+      "39588339",
+      "42260815",
+      "31331382",
+      "40991520",
+      "39054495",
+      "41756783",
+      "32171335",
+      "41940389",
+      "40418571",
+      "42245940",
+      "26252179",
+      "41141353",
+      "41617043",
+      "32800270",
+      "42100514",
+      "38409445",
+      "29348151",
+      "29706459",
+      "42432620"
+    ],
+    "review": [
+      "42031200",
+      "42399867",
+      "36321557",
+      "33235198"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0269-7491(26)00566-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

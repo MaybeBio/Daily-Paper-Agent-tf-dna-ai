@@ -1,0 +1,182 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.20.558637",
+  "title": "The CASwitch: a synthetic biology solution for high-performance inducible gene expression systems in biotechnology",
+  "doi": "10.1101/2023.09.20.558637",
+  "abstract": "Inducible gene expression systems can be used to control the expression of a gene of interest by means of a small-molecule. One of the most common designs involves engineering a small-molecule responsive transcription factor (TF) and its cognate promoter, which often results in a compromise between minimal uninduced background expression (leakiness) and maximal induced expression. Here, we focussed on an alternative strategy using quantitative synthetic biology to mitigate leakiness while maintaining high expression, without modifying neither the TF nor the promoter. Through mathematical modelling and experimental validations, we designed the CASwitch, a mammalian synthetic gene circuit based on combining two well-known network motifs: the Coherent Feed-Forward Loop (CFFL) and the Mutual Inhibition (MI). The CASwitch combines the CRISPR-Cas endoribonuclease CasRx with the state-of-the-art Tet-On3G inducible gene system to achieve high performances. To demonstrate the potentialities of the CASwitch, we applied it to three different scenarios: enhancing a whole-cell biosensor, controlling expression of a toxic gene and inducible production of Adeno-Associated Virus (AAV) vectors.",
+  "authors": [
+    "De Carluccio G",
+    "Fusco V",
+    "di Bernardo D"
+  ],
+  "published_date": "2023-09-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.20.558637",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.20.558637.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR728386",
+    "raw_record": {
+      "id": "PPR728386",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR728386"
+        ]
+      },
+      "doi": "10.1101/2023.09.20.558637",
+      "title": "The CASwitch: a synthetic biology solution for high-performance inducible gene expression systems in biotechnology",
+      "authorString": "De Carluccio G, Fusco V, di Bernardo D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "De Carluccio G",
+            "lastName": "De Carluccio",
+            "firstName": "Giuliano",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Telethon Institute of Genetics and Medicine, Naples, Italy"
+                },
+                {
+                  "affiliation": "University of Naples Federico II, Department of Chemical Materials and Industrial Engineering, Naples, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fusco V",
+            "lastName": "Fusco",
+            "firstName": "Virginia",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0808-6625"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Telethon Institute of Genetics and Medicine, Naples, Italy"
+                },
+                {
+                  "affiliation": "University of Naples Federico II, Department of Chemical Materials and Industrial Engineering, Naples, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "di Bernardo D",
+            "lastName": "di Bernardo",
+            "firstName": "Diego",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1911-7407"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Telethon Institute of Genetics and Medicine, Naples, Italy"
+                },
+                {
+                  "affiliation": "University of Naples Federico II, Department of Chemical Materials and Industrial Engineering, Naples, Italy"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0808-6625"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1911-7407"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Inducible gene expression systems can be used to control the expression of a gene of interest by means of a small-molecule. One of the most common designs involves engineering a small-molecule responsive transcription factor (TF) and its cognate promoter, which often results in a compromise between minimal uninduced background expression (leakiness) and maximal induced expression. Here, we focussed on an alternative strategy using quantitative synthetic biology to mitigate leakiness while maintaining high expression, without modifying neither the TF nor the promoter. Through mathematical modelling and experimental validations, we designed the CASwitch, a mammalian synthetic gene circuit based on combining two well-known network motifs: the Coherent Feed-Forward Loop (CFFL) and the Mutual Inhibition (MI). The CASwitch combines the CRISPR-Cas endoribonuclease CasRx with the state-of-the-art Tet-On3G inducible gene system to achieve high performances. To demonstrate the potentialities of the CASwitch, we applied it to three different scenarios: enhancing a whole-cell biosensor, controlling expression of a toxic gene and inducible production of Adeno-Associated Virus (AAV) vectors.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/20/2023.09.20.558637.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.20.558637"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR728386"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR728386&type=FILE&fileName=EMS188367-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188367",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-09-23",
+      "firstPublicationDate": "2023-09-20",
+      "firstIndexDate": "2023-09-23",
+      "fullTextReceivedDate": "2023-12-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

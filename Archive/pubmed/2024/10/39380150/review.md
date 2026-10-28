@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors propose that EGCG inhibits TDP-43 aggregation by directly binding to the C-terminal domain (CTD), with computational and in vitro evidence supporting a stable, high-affinity interaction that blocks key aggregation-prone residues and reduces cytotoxicity.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods for docking and MD simulations, simulation convergence and force field parameters, ITC experimental details, TTC staining protocol, cytotoxicity assay specifics, statistical analyses, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis with a multi-method approach combining computational and experimental techniques. However, the evidence as summarized is insufficient to establish the claimed mechanism. Key quantitative results are reported without error estimates or statistical context, and the link between in silico predictions and in vitro observations is not rigorously demonstrated. The work may be of interest to the protein aggregation and drug discovery community, but the current abstract does not provide enough detail to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 proteinopathies, particularly ALS and frontotemporal dementia, as well as those investigating polyphenol-based therapeutic strategies for neurodegenerative diseases. The computational methodology may also interest molecular modelers focused on protein-ligand interactions.
+- **Major strengths** The study combines multiple orthogonal approaches (docking, MD, ITC, TTC staining, cell-based assay) to address a clinically relevant question. The identification of specific residues (Phe-313, Ala-341) provides a testable molecular hypothesis. The use of multiple MD replicas is a positive feature for assessing simulation robustness.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Three replicas, each having 800 ns MD simulation of the EGCG-TDP-43-CTD complex, yielded a high negative binding free energy (DeltaG) inferring a stable complex formation."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The binding free energy values are reported without numerical values, error bars, or comparison to appropriate controls (e.g., a non-binding ligand or a mutated TDP-43 CTD). The abstract does not specify the method used to compute DeltaG (e.g., MM-PBSA, MM-GBSA, thermodynamic integration), nor whether the three replicas converged to similar values.
+  - **Why it matters** Without error estimates and convergence assessment, the claim of "stable complex formation" is not quantitatively supported. A high negative DeltaG from a single method without validation can be an artifact of force field parameters or insufficient sampling.
+  - **Resolution test** Provide the mean and standard deviation of DeltaG across replicas, specify the calculation method, and show convergence plots. Include a negative control (e.g., a known non-binder) to demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "stable physical interactions between TDP-43 and EGCG were also detected in vitro using TTC staining and isothermal titration calorimetry which revealed a high-affinity binding site of EGCG on TDP-43 (K(d), 7.8 muM; DeltaG, -6.9 kcal/mol)."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The ITC-derived Kd and DeltaG are reported as single values without standard deviations, number of replicates, or the fitting model used. TTC staining is mentioned as evidence of "stable physical interactions," but the abstract does not explain what TTC staining measures in this context or how it distinguishes specific binding from nonspecific aggregation.
+  - **Why it matters** Thermodynamic parameters from ITC are only meaningful with replicate measurements and proper model selection. The TTC staining result is ambiguous without a clear mechanistic interpretation, and its relevance to binding specificity is unclear.
+  - **Resolution test** Report ITC data as mean ± SD from at least three independent titrations, specify the binding model (e.g., one-site vs. two-site), and provide representative thermograms. Clarify the TTC staining principle and include appropriate controls (e.g., a non-binding protein or a competitive inhibitor).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical coherence
+  - **Claim pointer** "TDP-43 co-incubated with EGCG was non-cytotoxic when added to HEK293 cells."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify the concentration of EGCG used, the TDP-43 species (monomeric, oligomeric, or aggregated) added to cells, the exposure time, or the cytotoxicity assay method. Without these details, the claim of "non-cytotoxic" cannot be evaluated, and it is unclear whether this result reflects inhibition of aggregation or simply a lack of toxicity of the EGCG-TDP-43 mixture.
+  - **Why it matters** The cytotoxicity result is presented as supporting evidence for the anti-aggregation mechanism, but it could be confounded by EGCG's own effects on cells or by the presence of pre-formed aggregates. The claim as stated does not establish a causal link between binding and reduced toxicity.
+  - **Resolution test** Provide full experimental details including EGCG concentrations, TDP-43 preparation, cell viability assay (e.g., MTT, LDH), and appropriate controls (e.g., TDP-43 alone, EGCG alone, and a non-binding polyphenol). Show dose-response data and statistical analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "promote non-toxic TDP-43 oligomer formation disallowing TDP-43 aggregation" is ambiguous. It is unclear whether EGCG promotes oligomer formation that then prevents aggregation, or whether it redirects aggregation to a non-toxic pathway.
+  - **Required correction** Rephrase to clearly distinguish between "promoting non-toxic oligomers" and "inhibiting aggregation," and specify the temporal or mechanistic relationship.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Computational methodology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the TDP-43 CTD construct used (residue range), the starting structure (experimental or homology model), or the docking software and scoring function.
+  - **Required correction** Add a sentence specifying the CTD construct, structure source, and docking/MD software versions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding free energy
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The computational and experimental DeltaG values (-6.9 kcal/mol from ITC vs. the MD-derived value, which is not reported) are not compared or reconciled.
+  - **Required correction** Report the MD-derived DeltaG value and discuss any discrepancy with the ITC value, including potential sources of error.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing error estimates and controls for MD binding free energy), R1-M2 (incomplete ITC and TTC data), R1-M3 (insufficient cytotoxicity assay details)
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The hypothesis that EGCG binds TDP-43 CTD is not entirely novel, as prior work has suggested polyphenol interactions with TDP-43, but the specific residue-level mechanism may offer new insight.  
+  - Scientific importance: High for the ALS field, but the abstract does not demonstrate a clear advance over existing literature on EGCG's anti-aggregation properties.  
+  - Interdisciplinary readership: The work bridges computational chemistry, biophysics, and cell biology, which could appeal to a broad audience, but the abstract lacks sufficient detail to engage specialists in each area.  
+  - Technical soundness: Not assessable from the abstract alone; key methodological details and statistical rigor are missing.  
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon (e.g., "TTC staining," "DeltaG") without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative detail, controls, and methodological transparency required to support the central claims. The authors should provide full methods and data before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that EGCG "blocks" residues important for aggregation is not directly supported by the abstract; the simulation shows contacts, but functional blocking is not demonstrated.
+- The statement that EGCG's binding "can be a possible mechanism" is appropriately hedged, but the abstract does not rule out alternative mechanisms (e.g., EGCG acting on upstream pathways or on other TDP-43 domains).
+- The in vitro binding data (Kd, DeltaG) are reported without error bars or replicate information, making the values unverifiable.
+- The cytotoxicity result is presented without dose-response or control data, so its relevance to the proposed mechanism is unclear.

@@ -1,0 +1,79 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and supplementary statements. Figures and tables are referenced but not provided in full detail.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and alignment with claims. Not assessed: grammar, formatting, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors investigate the single-stranded DNA binding protein gp32 of bacteriophage T4, focusing on two regions: the internal "LAST" motif (residues 110-114) within the core domain's ssDNA binding trough, and the C-terminal portion of the core domain (residues 198-253) proposed to mediate homotypic protein-protein interactions responsible for cooperative binding. They report that scrambling the internal LAST sequence (K RKT S to K KTR S or K TKR S) alters binding cooperativity, with the KTR variant showing a ~10-fold reduction in ω. They also report that a truncation mutant (residues 1-227) loses cooperativity (ω ≈ 10) and shows a ~2-fold increase in K int , and that this truncate can form a tight complex with core domain (*III) on a 12-mer oligonucleotide, suggesting a potential structural study candidate.
+- **Visible evidence base** Text descriptions of fluorescence binding experiments (Trp quenching with poly(U), etheno-A fluorescence enhancement with poly(εA)), salt dependence experiments, and reference to Figures 1-6 and Tables 1-2. Numerical values for K int and ω are provided in text for key variants.
+- **Missing materials affecting confidence** Actual figures and tables are not provided, so the quality of fits, raw isotherms, and statistical details cannot be independently assessed. No structural data (e.g., crystallography, NMR, or cryo-EM) are presented. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+
+- **Overall assessment** This manuscript presents a focused biochemical study on a classic model protein, gp32, with a clear hypothesis-driven approach. The experiments are logically designed and the data, as described, are largely consistent with the authors' interpretations. However, the study is incremental in nature, providing refinements to an existing model rather than fundamentally new insights. The most novel finding, the cooperative recruitment of the 1-227 truncate by core domain on a 12-mer, is intriguing but underdeveloped, lacking quantitative analysis and structural validation. The manuscript would benefit from additional experiments to strengthen the mechanistic claims, particularly regarding the proposed conformational equilibrium shift in the KTR variant.
+- **Who would be interested in the results, and why** Researchers studying single-stranded DNA binding proteins, particularly those interested in protein-nucleic acid interactions, cooperativity mechanisms, and the structure-function relationships of multi-domain proteins. The work may also appeal to those studying T4 phage biology and DNA replication/recombination/repair mechanisms. The potential structural candidate (1-227 + *III + 12-mer complex) could interest structural biologists, though this is speculative at present.
+- **Major strengths** 1) The study addresses a well-defined question with a clear rationale based on prior work. 2) The use of multiple variants (scrambled sequences, truncations, point mutations) provides a systematic approach. 3) The salt dependence experiments add rigor to the binding analyses. 4) The observation of a synergistic effect between 1-227 and *III on a short oligonucleotide is a novel and potentially significant finding. 5) The writing is clear and accessible, with appropriate context provided for nonspecialists.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the reduced cooperativity of the KTR variant "might reflect a shift toward the closed conformation" and that this is "somewhat problematic" given the open conformation at 0.45 M NaCl.
+  - **Evidence pointer** Results section, "Scrambling the internal LAST sequence can alter binding cooperativity", Figure 3, Table 1
+  - **Concern** The interpretation of the KTR result relies on an unmeasured conformational equilibrium. The authors speculate that the altered internal LAST sequence in KTR has a stronger intramolecular interaction, shifting the equilibrium toward the closed form, but no direct evidence (e.g., structural, biophysical, or kinetic) is provided to support this. The alternative explanation, that the reduced ω reflects a direct effect on the intermolecular protein-protein interface, is dismissed without experimental testing. The claim is therefore not established from the provided data.
+  - **Why it matters** The central mechanistic conclusion of the first part of the study hinges on this interpretation. Without direct evidence for the conformational shift, the finding is merely a correlation between sequence scrambling and altered cooperativity, which does not advance the model.
+  - **Resolution test** Provide direct evidence for the closed-open equilibrium, e.g., via FRET, small-angle X-ray scattering, or hydrogen-deuterium exchange, comparing wild-type, KTR, and TKR under the same salt conditions. Alternatively, perform mutagenesis of the proposed acidic interaction partner to test the intramolecular interaction hypothesis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the 1-227 truncate "retains its ability to associate, via its N-domain, with intact core domain (*III) while binding to a single-stranded oligonucleotide" and that this complex is "a potential candidate for further structural study."
+  - **Evidence pointer** Results section, "Core domain promotes the binding of the 1-227 truncate on a 12-residue oligonucleotide", Figure 6
+  - **Concern** The synergistic binding effect observed with the 1-227 + *III mixture is interpreted as evidence for a specific N-domain/core-domain interaction. However, the data presented are qualitative (a binding isotherm "nearly identical to that of *III"). No quantitative analysis (e.g., stoichiometry, binding constants for the complex, or competition experiments) is provided. The claim that this is a "tight complex" suitable for structural studies is premature without such characterization.
+  - **Why it matters** The proposed complex is presented as a significant outcome with potential for structural biology. If the interaction is not specific or stoichiometric, the claim is overstated and could mislead future research efforts.
+  - **Resolution test** Perform quantitative binding assays (e.g., fluorescence anisotropy, ITC, or analytical ultracentrifugation) to determine the stoichiometry and affinity of the 1-227 + *III complex on the 12-mer. Include control experiments with a variant lacking the N-domain to confirm the interaction is N-domain-dependent.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the data for K int has an uncertainty of ±25% – ±33%, and for ω, ±33 – ±50%."
+  - **Evidence pointer** Materials and Methods, "Fluorescence Binding Experiments and Analyses"
+  - **Concern** The reported uncertainties are large, particularly for ω. The key finding of a ~10-fold reduction in ω for KTR relative to wild-type is within this uncertainty range only if the lower bound of the wild-type value and the upper bound of the KTR value are considered. The manuscript does not report the number of independent replicates or the statistical significance of the differences. Without this, the robustness of the key claim is questionable.
+  - **Why it matters** The central quantitative claim of the study (reduced cooperativity for KTR) may not be statistically distinguishable from wild-type given the stated uncertainties. This undermines confidence in the conclusions.
+  - **Resolution test** Report the number of replicates, standard errors, and statistical tests (e.g., t-tests or ANOVA) for the key comparisons. If the uncertainties are inherent to the method, acknowledge this limitation and temper the conclusions accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "In this study, we show that alteration of the core domain LAST sequence, while maintaining its composition, can have an effect on the binding parameters"
+  - **Issue** The abstract states that alteration "can have an effect" but does not specify the direction or magnitude. This is vague and does not convey the key finding.
+  - **Required correction** Specify the effect, e.g., "reduces cooperativity approximately 10-fold while minimally affecting intrinsic affinity."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, "Cooperativity: The region of the core domain associating with the N-domain of an adjacent DNA-bound protein is likely within residues 198 – 253"
+  - **Evidence pointer** Results section, paragraph on truncation mutants
+  - **Issue** The authors state that only the 1-227 truncate was soluble, but do not describe the behavior of the other truncation mutants (e.g., 1-201, 1-216) in detail. Were they expressed but insoluble, or not expressed at all?
+  - **Required correction** Provide a brief statement on the expression and solubility of all constructed mutants, even if they were not usable, to demonstrate the completeness of the approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on the 1-227 variant
+  - **Evidence pointer** Discussion, "Our data on the binding of the 1-227 variant strongly implicate the region between residue 228 and 253 as the location for the interaction with the N-domain of an adjacent ssDNA-bound protein"
+  - **Issue** The authors conclude that residues 228-253 are the interaction site, but the data only show that deletion of this region abolishes cooperativity. This does not exclude the possibility that the deletion causes a global conformational change that indirectly disrupts the interaction site elsewhere.
+  - **Required correction** Acknowledge this alternative interpretation explicitly and, if possible, cite supporting evidence (e.g., circular dichroism or limited proteolysis) that the 1-227 truncate is properly folded.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, "Proteins and Nucleic Acids"
+  - **Evidence pointer** Materials and Methods, "Mutations were introduced into plasmid pZN1"
+  - **Issue** The methods for protein expression and purification are referenced as "previously described" without specific details. For a preprint, this is acceptable, but the authors should ensure the referenced protocols are accessible.
+  - **Required correction** Provide the relevant citations in full and, if possible, include a brief summary of the purification scheme (e.g., column types, tags) in the methods.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct evidence for the proposed conformational equilibrium shift in the KTR variant (R1-M1). 2) Insufficient quantitative characterization of the 1-227 + *III complex (R1-M2). 3) Inadequate reporting of statistical significance and replicate numbers for key binding parameters (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** Moderate. The study refines an existing model rather than introducing a new paradigm. The observation of the 1-227 + *III complex is novel but not fully developed. **Scientific importance:** Moderate. gp32 is a classic model system, and understanding its cooperative binding mechanism has broad relevance to SSB proteins. However, the incremental nature of the findings limits their impact. **Interdisciplinary readership:** Limited. The work is primarily of interest to biochemists and molecular biologists specializing in protein-nucleic acid interactions. The methods and concepts are unlikely to attract a broad interdisciplinary audience. **Technical soundness:** Generally sound in experimental design, but the lack of statistical rigor and direct mechanistic evidence weakens the conclusions. **Readability for nonspecialists:** The manuscript is clearly written and provides sufficient background for a general scientific audience to follow the rationale and conclusions, though some familiarity with binding models is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a valid question and the data, as described, are largely consistent with the interpretations. However, the key mechanistic claims require additional experimental support, and the statistical robustness of the central finding must be demonstrated. If these issues are addressed, the manuscript could make a useful contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the KTR variant's reduced cooperativity reflects a shift toward the closed conformation is unsupported by direct evidence.
+- The claim that the 1-227 + *III complex is a "tight complex" suitable for structural studies is not quantitatively supported.
+- The statement that "T4 phage with Arg→Ser or Arg→Tyr substitutions at residue 4 of gp32 were viable" is presented as unpublished results and cannot be assessed.
+- The assertion that the region between residues 228 and 253 is the interaction site for the N-domain is supported only by deletion analysis, which does not exclude indirect effects.

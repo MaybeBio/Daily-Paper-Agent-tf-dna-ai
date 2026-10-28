@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35181793",
+  "title": "StackTADB: a stacking-based ensemble learning model for predicting the boundaries of topologically associating domains (TADs) accurately in fruit flies.",
+  "authors": "Wu, Hao; Zhang, Pengyu; Ai, Zhaoheng; Wei, Leyi; Zhang, Hongming; Yang, Fan; Cui, Lizhen",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-02-20",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用堆叠集成学习预测果蝇TAD边界，虽涉及染色质结构域但非蛋白质-DNA互作体系，且无AI/物理模拟结合建模，仅序列特征与浅层机器学习，与本课题关联较弱。",
+  "abstract": "Chromosome is composed of many distinct chromatin domains, referred to variably as topological domains or topologically associating domains (TADs). The domains are stable across different cell types and highly conserved across species, thus these chromatin domains have been considered as the basic units of chromosome folding and regarded as an important secondary structure in chromosome organization. However, the identification of TAD boundaries is still a great challenge due to the high cost and low resolution of Hi-C data or experiments. In this study, we propose a novel ensemble learning framework, termed as StackTADB, for predicting the boundaries of TADs. StackTADB integrates four base classifiers including Random Forest, Logistic Regression, K-NearestNeighbor and Support Vector Machine. From the analysis of a series of examinations on the data set in the previous study, it is concluded that StackTADB has optimal performance in six metrics, AUC, Accuracy, MCC, Precision, Recall and F1 score, and it is superior to the existing methods. In addition, the comparison of the performance of multiple features shows that Kmers-based features play an essential role in predicting TADs boundaries of fruit flies, and we also apply the SHapley Additive exPlanations (SHAP) framework to interpret the predictions of StackTADB to identify the reason why Kmers-based features are vital. The experimental results show that the subsequences matching the BEAF-32 motif play a crucial role in predicting the boundaries of TADs. The source code is freely available at https://github.com/HaoWuLab-Bioinformatics/StackTADB and the webserver of StackTADB is freely available at http://hwtad.sdu.edu.cn:8002/StackTADB.",
+  "abstract_zh": "染色体由许多不同的染色质结构域组成，这些结构域被称为拓扑结构域或拓扑关联结构域（TADs）。这些结构域在不同细胞类型中稳定存在，并在物种间高度保守，因此这些染色质结构域被视为染色体折叠的基本单位，并被认为是染色体组织中的重要二级结构。然而，由于Hi-C数据或实验的高成本和低分辨率，TAD边界的识别仍然是一个巨大挑战。在本研究中，我们提出了一种新颖的集成学习框架，称为StackTADB，用于预测TADs的边界。StackTADB整合了四种基础分类器，包括随机森林、逻辑回归、K近邻和支持向量机。通过对先前研究数据集的一系列检验分析，得出结论：StackTADB在六个指标（AUC、准确率、MCC、精确率、召回率和F1分数）上具有最优性能，并且优于现有方法。此外，多特征性能比较显示，基于Kmers的特征在预测果蝇TADs边界中起着关键作用，我们还应用SHapley Additive exPlanations（SHAP）框架来解释StackTADB的预测，以确定基于Kmers的特征为何至关重要。实验结果表明，匹配BEAF-32基序的子序列在预测TADs边界中起着关键作用。源代码可在https://github.com/HaoWuLab-Bioinformatics/StackTADB免费获取，StackTADB的网页服务器可在http://hwtad.sdu.edu.cn:8002/StackTADB免费访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35181793/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35181793/",
+  "paper_page_path": "papers/pubmed/35181793/index.html"
+}

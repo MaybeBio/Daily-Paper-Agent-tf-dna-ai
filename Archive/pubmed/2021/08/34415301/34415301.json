@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "34415301",
+    "doi": "10.1093/bioinformatics/btab603",
+    "title": "Improved datasets and evaluation methods for the automatic prediction of DNA-binding proteins."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Accurate automatic annotation of protein function relies on both innovative models and robust datasets. Due to their importance in biological processes, the identification of DNA-binding proteins directly from protein sequence has been the focus of many studies. However, the datasets used to train and evaluate these methods have suffered from substantial flaws. We describe some of the weaknesses of the datasets used in previous DNA-binding protein literature and provide several new datasets addressing these problems. We suggest new evaluative benchmark tasks that more realistically assess real-world performance for protein annotation models. We propose a simple new model for the prediction of DNA-binding proteins and compare its performance on the improved datasets to two previously published models. In addition, we provide extensive tests showing how the best models predict across taxa. RESULTS: Our new gradient boosting model, which uses features derived from a published protein language model, outperforms the earlier models. Perhaps surprisingly, so does a baseline nearest neighbor model using BLAST percent identity. We evaluate the sensitivity of these models to perturbations of DNA-binding regions and control regions of protein sequences. The successful data-driven models learn to focus on DNA-binding regions. When predicting across taxa, the best models are highly accurate across species in the same kingdom and can provide some information when predicting across kingdoms. AVAILABILITY AND IMPLEMENTATION: The data and results for this article can be found at https://doi.org/10.5281/zenodo.5153906. The code for this article can be found at https://doi.org/10.5281/zenodo.5153683. The code, data and results can also be found at https://github.com/AZaitzeff/tools_for_dna_binding_proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/genetics",
+      "Amino Acid Sequence",
+      "Molecular Sequence Annotation",
+      "*DNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zaitzeff, Alexander",
+        "Leiby, Nicholas",
+        "Motta, Francis C",
+        "Haase, Steven B",
+        "Singer, Jedediah M"
+      ],
+      "short_names": [
+        "Zaitzeff A",
+        "Leiby N",
+        "Motta FC",
+        "Haase SB",
+        "Singer JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9731-1873"
+      ],
+      "affiliations": [
+        "Two Six Research, Two Six Technologies, Arlington, VA 22203, USA.",
+        "Two Six Research, Two Six Technologies, Arlington, VA 22203, USA.",
+        "Department of Mathematical Sciences, Florida Atlantic University, Boca Raton, FL 33431, USA.",
+        "Department of Biology, Duke University, Durham, NC 27708, USA.",
+        "Two Six Research, Two Six Technologies, Arlington, VA 22203, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zaitzeff, Alexander",
+        "short_name": "Zaitzeff A",
+        "identifiers": [
+          "0000-0001-9731-1873"
+        ],
+        "affiliations": [
+          "Two Six Research, Two Six Technologies, Arlington, VA 22203, USA."
+        ]
+      },
+      {
+        "full_name": "Leiby, Nicholas",
+        "short_name": "Leiby N",
+        "identifiers": [],
+        "affiliations": [
+          "Two Six Research, Two Six Technologies, Arlington, VA 22203, USA."
+        ]
+      },
+      {
+        "full_name": "Motta, Francis C",
+        "short_name": "Motta FC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, Florida Atlantic University, Boca Raton, FL 33431, USA."
+        ]
+      },
+      {
+        "full_name": "Haase, Steven B",
+        "short_name": "Haase SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Singer, Jedediah M",
+        "short_name": "Singer JM",
+        "identifiers": [],
+        "affiliations": [
+          "Two Six Research, Two Six Technologies, Arlington, VA 22203, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2021 Dec 22",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/21 06:00",
+    "fetched_at": "2026-09-27 22:24:28"
+  },
+  "links": {
+    "cites": [
+      "39189466",
+      "38856168",
+      "36139026",
+      "35768759"
+    ],
+    "refs": [],
+    "similar": [
+      "34415301",
+      "37874958",
+      "30032213",
+      "30395157",
+      "37387141",
+      "35997560",
+      "36124801",
+      "35771595",
+      "29028889",
+      "30351403",
+      "35088833",
+      "30169569",
+      "29753757",
+      "35389869",
+      "35253844",
+      "26304539",
+      "15478601",
+      "30304483",
+      "29722865",
+      "35258562",
+      "29270430",
+      "32938375",
+      "36130276",
+      "37897686",
+      "29253070",
+      "31393553",
+      "30808287",
+      "36049552",
+      "35104320",
+      "29931128",
+      "35652719",
+      "28961273",
+      "31742324",
+      "19490865",
+      "19911048",
+      "32946833",
+      "27740495",
+      "32437517",
+      "32300371",
+      "33311142",
+      "32840562",
+      "16368772",
+      "25935161",
+      "37886711",
+      "33067636",
+      "34347784",
+      "29949973",
+      "19008251",
+      "35731209",
+      "31218353",
+      "18813344",
+      "33951731",
+      "35765653",
+      "32428219",
+      "29554211",
+      "32191896",
+      "34875010",
+      "32657389",
+      "29763967",
+      "31510704",
+      "34929739",
+      "33334313",
+      "22574904",
+      "35385080",
+      "36124796",
+      "33237866",
+      "19008249",
+      "15720719"
+    ],
+    "review": [
+      "34415301",
+      "31742324"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34415301.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btab603",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

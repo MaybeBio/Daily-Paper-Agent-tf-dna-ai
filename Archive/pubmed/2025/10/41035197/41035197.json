@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "41035197",
+    "doi": "10.1016/j.xplc.2025.101543",
+    "title": "PTF-Vac: An explainable and generative deep co-learning encoder-decoder system for ab initio discovery of plant transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "Discovery of transcription factor (TF) binding sites (TFBSs) and their motifs in plants poses significant challenges due to high cross-species variability. The interactions between TFs and their binding sites are highly specific and context dependent. Most existing TFBS-finding tools are not sufficiently accurate to discover these binding sites in plants. They fail to capture cross-species variability, interdependence between TF structures and corresponding TFBSs, and the context specificity of binding. Because they are coupled to a predefined TF-specific model/matrix, they are strongly influenced by the volume and quality of data provided to build the motifs. All these software applications make the assumption that the user input is specific to a particular TF, limiting their use for practical applications such as genomic annotation of newly sequenced species. Here, we report PTF-Vac, an explainable deep-learning encoder-decoder generative system. PTF-Vac is based on PTFSpot, a universal model of deep co-learning on variability in binding sites and TF structure, making it completely free from the bottlenecks described above. PTF-Vac decouples the process of TFBS discovery from the prior step of motif finding and the requirement for TF-specific motif models. Because it is guided by a universal model for TF-DNA interactions, it can discover binding motifs irrespective of data volume and species and without reference to TF-specific models. In a comprehensive benchmarking study across an extremely high volume of experimental data, PTF-Vac outperformed most advanced motif-finding deep-learning algorithms. PTF-Vac thus opens a completely new chapter in ab initio TFBS discovery through generative AI.",
+    "keywords": [
+      "DenseNet",
+      "Transformer",
+      "deep learning",
+      "encoder-decoder",
+      "transcription factor",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "*Deep Learning",
+      "*Binding Sites",
+      "*Plant Proteins/genetics/metabolism",
+      "Software",
+      "Chromatin Immunoprecipitation Sequencing"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Sagar",
+        "Jyoti",
+        "Bhati, Umesh",
+        "Kesarwani, Veerbhan",
+        "Sharma, Akanksha",
+        "Shankar, Ravi"
+      ],
+      "short_names": [
+        "Gupta S",
+        "Jyoti",
+        "Bhati U",
+        "Kesarwani V",
+        "Sharma A",
+        "Shankar R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India. Electronic address: ravish@ihbt.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Sagar",
+        "short_name": "Gupta S",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      },
+      {
+        "full_name": "Jyoti",
+        "short_name": "Jyoti",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      },
+      {
+        "full_name": "Bhati, Umesh",
+        "short_name": "Bhati U",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      },
+      {
+        "full_name": "Kesarwani, Veerbhan",
+        "short_name": "Kesarwani V",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Akanksha",
+        "short_name": "Sharma A",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India."
+        ]
+      },
+      {
+        "full_name": "Shankar, Ravi",
+        "short_name": "Shankar R",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC Supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, HP 176061, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India. Electronic address: ravish@ihbt.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant communications"
+    ],
+    "journal_abbrev": [
+      "Plant Commun"
+    ],
+    "pub_date": "2025 Nov 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/02 06:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42671643",
+      "41206115",
+      "41073928"
+    ],
+    "refs": [
+      "40526044",
+      "40391387",
+      "39640721",
+      "39013383",
+      "37358500",
+      "36938058",
+      "36275623",
+      "34841226",
+      "34312058",
+      "32062128",
+      "31776348",
+      "31510640",
+      "31372637",
+      "31057715",
+      "30842265",
+      "29618526",
+      "29514943",
+      "28679078",
+      "27924042",
+      "27522016",
+      "27209209",
+      "26289405",
+      "26213851",
+      "26198402",
+      "25756377",
+      "24853928",
+      "24570356",
+      "24277850",
+      "23703209",
+      "22887818",
+      "22517426",
+      "21356108",
+      "20602746",
+      "20401516",
+      "19458158",
+      "17540862",
+      "17378935",
+      "16381825",
+      "16191190",
+      "16166257",
+      "15264254",
+      "14681366",
+      "12578984",
+      "11741530",
+      "10487864",
+      "9788350",
+      "9520501",
+      "8211139",
+      "7048259",
+      "2667136",
+      "2329577"
+    ],
+    "similar": [
+      "41035197",
+      "39013383",
+      "34272562",
+      "40411397",
+      "27567672",
+      "41325984",
+      "41518506",
+      "42099803",
+      "33975951",
+      "42475469",
+      "34174819",
+      "38701417",
+      "24039567",
+      "20158869",
+      "40702706",
+      "30447332",
+      "36094959",
+      "24927817",
+      "23522376",
+      "40102719",
+      "23272209",
+      "40914877",
+      "36057196",
+      "39640721",
+      "41518500",
+      "36082286",
+      "41206115",
+      "27557775",
+      "21486936",
+      "41536793",
+      "42680730",
+      "38940155",
+      "16643658",
+      "21124986",
+      "31372637",
+      "40279252",
+      "29363433",
+      "21486752",
+      "35240993",
+      "34607350",
+      "32393327",
+      "28334916",
+      "39482734",
+      "33372147",
+      "38798191",
+      "37682473",
+      "28485207",
+      "26291518",
+      "39605530",
+      "39701486",
+      "23175603",
+      "21193520",
+      "42114111",
+      "25957350",
+      "36155619",
+      "33498086",
+      "28623591",
+      "30567711",
+      "15166027",
+      "19652015",
+      "30395277",
+      "37805453",
+      "41247408",
+      "34953471",
+      "41288963",
+      "27871221",
+      "35713985",
+      "19956545",
+      "23282203",
+      "35681170",
+      "36902216",
+      "34448158",
+      "27503086",
+      "23209563",
+      "24965723",
+      "36360189",
+      "38732207",
+      "30085218",
+      "22189060",
+      "34534646",
+      "35971180",
+      "16595861",
+      "28750606",
+      "40646689",
+      "23427986",
+      "22534400",
+      "24564277",
+      "24926895",
+      "24472686",
+      "25559499",
+      "26285121",
+      "39402535",
+      "23748563",
+      "26476450",
+      "31723409",
+      "18272477",
+      "39227799",
+      "29757349",
+      "39107889",
+      "39623329"
+    ],
+    "review": [
+      "41035197",
+      "30447332",
+      "36057196",
+      "16643658"
+    ],
+    "pmc": [
+      "12785152"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2590-3462(25)00305-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41035197/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

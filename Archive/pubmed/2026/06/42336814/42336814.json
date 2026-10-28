@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "42336814",
+    "doi": "10.1038/s41419-026-09031-2",
+    "title": "EFHD2 drives lactate-mediated DNA damage repair and immunosuppression via HMGB1 and HIF-1alpha to confer radioresistance in colorectal cancer."
+  },
+  "content": {
+    "abstract": "Radioresistance in colorectal cancer (CRC) remains a critical clinical challenge, with underlying mechanisms involving deoxyribonucleic acid (DNA) damage repair, metabolic reprogramming, and immune evasion. Here, we employed multi-omics approaches, including ribonucleic acid (RNA) sequencing, proteomic profiling, and lactyl-proteomics of radioresistant CRC cell models, combined with co-immunoprecipitation, molecular docking, spatial transcriptomics, and single-cell RNA sequencing. Functional validation included production of an EF-hand domain family member D2 (EFHD2) lysine 9 (K9) lactylation-specific antibody, T cell and macrophage co-culture assays, and multiplex immunofluorescence analyses, performed in vitro and in vivo using immunocompetent and immunodeficient mice, alongside patient-derived rectal cancer samples collected from our institution. We found that hsa-let-7b-5p was significantly downregulated in radioresistant CRC cells and tissues, correlating with poor prognosis. Restoration of hsa-let-7b-5p inhibited EFHD2, impaired homologous recombination through reduced activation of RAD51 recombinase (RAD51) and replication protein A2 (RPA2), prolonged phosphorylated histone H2AX at serine 139 (gammaH2AX) foci persistence, and increased oxidative stress and apoptosis after radiation. Mechanistically, EFHD2 interacted with high mobility group box 1 (HMGB1), enhancing lactate metabolism via hypoxia-inducible factor-1 alpha (HIF-1alpha) stabilization, with K9 lactylation of EFHD2 being essential for its DNA repair function. Elevated EFHD2-driven lactate reshaped the tumor immune microenvironment by promoting M2 macrophage polarization, suppressing antigen presentation, activating nuclear factor kappa-B (NF-kappaB) signaling, and upregulating programmed death-ligand 1 (PD-L1). Flow cytometry and immunohistochemistry revealed reduced CD4(+)/CD8(+) T cell infiltration and increased forkhead box P3 positive (Foxp3(+)) regulatory T cells (Tregs) in EFHD2-high tumors, confirmed by spatial and single-cell transcriptomics showing immunosuppressive signatures. Importantly, combining EFHD2 knockdown with immune checkpoint blockade synergistically enhanced radiosensitivity and restored antitumor T cell responses. Collectively, these findings demonstrate that EFHD2 drives lactate-mediated immunosuppression and DNA repair to promote radioresistance in CRC, suggesting that targeting the EFHD2 axis may restore antitumor immunity and improve therapeutic outcomes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/genetics/pathology/metabolism/immunology/radiotherapy",
+      "Animals",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics",
+      "*DNA Repair",
+      "*Radiation Tolerance",
+      "*HMGB1 Protein/metabolism/genetics",
+      "Mice",
+      "*Lactic Acid/metabolism",
+      "DNA Damage",
+      "Cell Line, Tumor",
+      "Immunosuppression Therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Yilin",
+        "Wu, Haixia",
+        "Xiao, Yu",
+        "Qiu, Jianjian",
+        "Hong, Liang",
+        "Yang, Baihua",
+        "Wang, Jianmin",
+        "Wang, Zhiping",
+        "Shao, Lingdong",
+        "Xu, Benhua",
+        "Wu, Junxin"
+      ],
+      "short_names": [
+        "Yu Y",
+        "Wu H",
+        "Xiao Y",
+        "Qiu J",
+        "Hong L",
+        "Yang B",
+        "Wang J",
+        "Wang Z",
+        "Shao L",
+        "Xu B",
+        "Wu J"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-0292-4594",
+        "ORCID: 0009-0000-9736-6022",
+        "ORCID: 0009-0004-5655-5520",
+        "ORCID: 0000-0003-1047-2338"
+      ],
+      "affiliations": [
+        "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+        "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China.",
+        "Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+        "Department of Radiation Oncology, The Second Affiliated Hospital of Chengdu Medical College Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+        "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China.",
+        "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+        "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China.",
+        "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+        "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China.",
+        "Innovation Center for Cancer Research, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+        "Department of Radiotherapy, Cancer Center, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China. 707770685@qq.com.",
+        "Department of Radiotherapy, National Regional Medical Center, Binhai Campus of the First Affiliated Hospital of Fujian Medical University, Fuzhou, China. 707770685@qq.com.",
+        "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China. shaolingdong4854@163.com.",
+        "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China. shaolingdong4854@163.com.",
+        "Department of Radiation Oncology, Fujian Medical University Union Hospital, Fuzhou, China. benhuaxu@yeah.net.",
+        "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China. junxinwufj@aliyun.com.",
+        "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China. junxinwufj@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Yilin",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+          "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Haixia",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yu",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, The Second Affiliated Hospital of Chengdu Medical College Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Jianjian",
+        "short_name": "Qiu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+          "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Liang",
+        "short_name": "Hong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+          "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Baihua",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China.",
+          "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianmin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Center for Cancer Research, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiping",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0009-0005-0292-4594"
+        ],
+        "affiliations": [
+          "Department of Radiotherapy, Cancer Center, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China. 707770685@qq.com.",
+          "Department of Radiotherapy, National Regional Medical Center, Binhai Campus of the First Affiliated Hospital of Fujian Medical University, Fuzhou, China. 707770685@qq.com."
+        ]
+      },
+      {
+        "full_name": "Shao, Lingdong",
+        "short_name": "Shao L",
+        "identifiers": [
+          "0009-0000-9736-6022"
+        ],
+        "affiliations": [
+          "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China. shaolingdong4854@163.com.",
+          "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China. shaolingdong4854@163.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Benhua",
+        "short_name": "Xu B",
+        "identifiers": [
+          "0009-0004-5655-5520"
+        ],
+        "affiliations": [
+          "Department of Radiation Oncology, Fujian Medical University Union Hospital, Fuzhou, China. benhuaxu@yeah.net."
+        ]
+      },
+      {
+        "full_name": "Wu, Junxin",
+        "short_name": "Wu J",
+        "identifiers": [
+          "0000-0003-1047-2338"
+        ],
+        "affiliations": [
+          "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, China. junxinwufj@aliyun.com.",
+          "NHC Key Laboratory of Cancer and Metabolism (Fujian Cancer Hospital), Fuzhou, China. junxinwufj@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2026 Jun 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/24 00:45",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40287994",
+      "40073846",
+      "39864560",
+      "39817679",
+      "38961290",
+      "38833249",
+      "38778409",
+      "38572751",
+      "37808268",
+      "36917950",
+      "36778122",
+      "36565460",
+      "35871139",
+      "34367959",
+      "33996812",
+      "33538338",
+      "33324403",
+      "33310279",
+      "32665776",
+      "31665047",
+      "30536395",
+      "29344222",
+      "28575658",
+      "28086098",
+      "26847345",
+      "23071360",
+      "18228490"
+    ],
+    "similar": [
+      "42336814",
+      "41038145",
+      "42028950",
+      "41875183",
+      "42050706",
+      "40054178",
+      "39223929",
+      "42143164",
+      "41866005",
+      "41740833",
+      "39708961",
+      "39055884",
+      "41148321",
+      "40665352",
+      "39075517",
+      "42061086",
+      "41930148",
+      "42082463",
+      "40440957",
+      "40665874",
+      "41213902",
+      "39353381",
+      "40812610",
+      "39290702",
+      "42582384",
+      "34998404",
+      "38104877",
+      "40189587",
+      "41102168",
+      "40010765",
+      "41436831",
+      "42032729",
+      "41418870",
+      "41734998",
+      "40405491",
+      "41875719",
+      "31869663",
+      "41993628",
+      "39642461",
+      "41075009",
+      "41912489",
+      "41399129",
+      "33225938",
+      "42058190",
+      "42216546",
+      "28619042",
+      "40475762",
+      "39472937",
+      "41803949",
+      "40494452",
+      "40343532",
+      "39494327",
+      "40963916",
+      "42324593",
+      "40020887",
+      "39263734",
+      "30569171",
+      "35414780",
+      "41246306",
+      "41044625",
+      "41808828",
+      "24473398",
+      "42358814",
+      "42576316",
+      "42459683",
+      "30844110",
+      "41735002",
+      "41904143",
+      "41945999",
+      "39368338",
+      "41778365",
+      "41135953",
+      "36855844",
+      "41388392",
+      "40794185",
+      "39800382",
+      "33782107",
+      "41686262",
+      "42693059",
+      "41111063",
+      "40069750",
+      "39419943",
+      "41963920",
+      "41488675",
+      "33537094",
+      "39471692",
+      "42274587",
+      "38752667",
+      "42252920",
+      "38291470",
+      "39080766",
+      "33087136",
+      "41260904",
+      "42601175",
+      "42323172",
+      "42061805",
+      "42583735",
+      "31395078",
+      "41251471",
+      "41249119"
+    ],
+    "review": [
+      "42336814",
+      "42058190",
+      "42459683"
+    ],
+    "pmc": [
+      "13542245"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-026-09031-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42336814/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3789",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

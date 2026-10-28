@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39013383",
+  "title": "PTFSpot: deep co-learning on transcription factors and their binding regions attains impeccable universality in plants.",
+  "authors": "Gupta, Sagar; Kesarwani, Veerbhan; Bhati, Umesh; Jyoti; Shankar, Ravi",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-07-17",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于Transformer的深度学习模型PTFSpot，利用TF结构与结合区域共变信息实现跨物种、跨TF家族的植物TF-DNA结合位点通用预测，核心聚焦TF-DNA互作且方法为AI建模，高度匹配本课题。",
+  "abstract": "Unlike animals, variability in transcription factors (TFs) and their binding regions (TFBRs) across the plants species is a major problem that most of the existing TFBR finding software fail to tackle, rendering them hardly of any use. This limitation has resulted into underdevelopment of plant regulatory research and rampant use of Arabidopsis-like model species, generating misleading results. Here, we report a revolutionary transformers-based deep-learning approach, PTFSpot, which learns from TF structures and their binding regions' co-variability to bring a universal TF-DNA interaction model to detect TFBR with complete freedom from TF and species-specific models' limitations. During a series of extensive benchmarking studies over multiple experimentally validated data, it not only outperformed the existing software by >30% lead but also delivered consistently >90% accuracy even for those species and TF families that were never encountered during the model-building process. PTFSpot makes it possible now to accurately annotate TFBRs across any plant genome even in the total lack of any TF information, completely free from the bottlenecks of species and TF-specific models.",
+  "abstract_zh": "与动物不同，植物物种中转录因子（TFs）及其结合区域（TFBRs）的变异性是大多数现有TFBR发现软件难以解决的主要问题，导致它们几乎无法使用。这一局限性已造成植物调控研究发展不足，以及广泛使用拟南芥类模式物种，从而产生误导性结果。在此，我们报告一种革命性的基于变换器的深度学习方法PTFSpot，它从TF结构及其结合区域的共变异性中学习，以构建一个通用的TF-DNA相互作用模型，从而完全摆脱TF和物种特异性模型的限制来检测TFBR。在一系列针对多个实验验证数据的广泛基准测试中，它不仅以超过30%的优势超越了现有软件，而且即使对于模型构建过程中从未遇到的物种和TF家族，也持续实现了超过90%的准确性。PTFSpot现在使得在任何植物基因组中准确注释TFBR成为可能，即使在完全缺乏任何TF信息的情况下，也完全不受物种和TF特异性模型的瓶颈限制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39013383/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39013383/",
+  "paper_page_path": "papers/pubmed/39013383/index.html"
+}

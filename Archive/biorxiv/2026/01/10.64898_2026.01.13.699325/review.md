@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, data availability, author contributions, declarations, acknowledgements)
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and support of claims by presented evidence. No assessment of formatting, grammar, or editorial style beyond readability for nonspecialists.
+- **Shared manuscript claim summary** The authors propose that ETS-family transcription factors from all three major classes bind with high affinity to DNA containing a centrally positioned cis-syn TpT cyclobutane pyrimidine dimer (CPD), that this binding inhibits repair by a model enzyme in a position-dependent manner, and that the thermodynamic and structural features of this engagement are distinct from binding to undamaged DNA, thereby providing a molecular rationale for UV-induced mutation hotspots at ETS binding sites in melanoma.
+- **Visible evidence base** Electrophoretic mobility shift assays (Figure 1C); T4 pyrimidine dimer glycosylase cleavage assays (Figure 2); co-crystal structures of PU.1 with CPD-, MM-, and I-MM-containing DNA (PDB 9YNZ, 9OA4, 9OB0; Figure 3); fluorescence polarization binding titrations (Figure 4A); isothermal titration calorimetry (Figure 4B); osmolyte linkage experiments (Figure 4C, D); molecular dynamics simulations with Schlitter entropy estimates (Figure 4E, 5B-D, S3); NMR characterization of the CPD duplex (Figure S2B); enzymatic validation of CPD integrity (Figure S2C-E).
+- **Missing materials affecting confidence** Supplementary figures and tables referenced (Figure S1, S2, S3; Table S1) were not provided. Detailed methods for CPD oligonucleotide synthesis (referenced to Supplemental Methods) were not provided. NMR assignment details and full spectra were not provided. MD simulation convergence criteria and force field validation details were only partially described. Raw gel images and ITC thermograms were not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in skin cancer biology: how ETS-family transcription factors bind to UV-damaged DNA and inhibit repair, thereby promoting mutation hotspots. The study is ambitious, combining biochemistry, structural biology, thermodynamics, and simulation. The central claim that CPD lesions positioned at the center of the ETS consensus motif are bound with high affinity by all three ETS classes, and that this binding inhibits repair, is reasonably supported by the presented data. However, several technical concerns, particularly regarding the interpretation of the crystallographic data, the thermodynamic analysis, and the MD simulations, need to be resolved before the mechanistic conclusions can be considered fully established. The manuscript is well-written and will be of interest to a broad readership in DNA repair, transcription factor biology, and cancer genomics.
+- **Who would be interested in the results, and why** Researchers studying transcription factor-DNA interactions, DNA damage recognition and repair, UV mutagenesis and skin cancer genomics, and those interested in the structural and thermodynamic basis of protein-DNA recognition. The finding that a bulky, helix-distorting lesion can be accommodated within a canonical transcription factor-DNA complex with high affinity, and that this binding is entropy-driven, challenges existing paradigms and will stimulate further work in these fields.
+- **Major strengths** The study addresses a mechanistically important and clinically relevant question. The use of multiple complementary techniques (EMSA, enzyme inhibition, crystallography, ITC, fluorescence polarization, MD simulations) is commendable. The selection of representatives from all three ETS classes strengthens the generality of the conclusions. The identification of a position-dependent effect of CPD lesions on binding affinity and repair inhibition is a key finding. The thermodynamic dissection revealing an entropy-driven binding mode for CPD-containing DNA is novel and significant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural interpretation
+  - **Claim pointer** The authors claim that the co-crystal structures reveal how CPDs and mismatches are recognized "within the framework of canonical ETS/DNA complexes" and that the CPD-bound complex exhibits "unique dynamics that reveal a novel DNA-binding mode."
+  - **Evidence pointer** Figure 3, PDB 9YNZ, 9OA4, 9OB0
+  - **Concern** The interpretation of the crystallographic data is problematic. The authors report low electron density (2mFo-DFc) for the CPD lesion itself, which is a critical part of the structure. While they argue against photoreversion, the low density could also indicate static or dynamic disorder, partial occupancy, or radiation damage. The claim of a "novel DNA-binding mode" is based on this low-density region and on B-factor analysis, which can be unreliable for interpreting dynamics, especially when derived from a single structure. The comparison of B-factors between different structures (WC vs CPD vs MM) is particularly fraught, as B-factors are influenced by crystal packing, resolution, and refinement protocols. The authors need to provide a more robust analysis, such as simulated annealing omit maps, multi-conformer models, or analysis of alternative conformations, to support their structural conclusions.
+  - **Why it matters** The structural interpretation is central to the manuscript's mechanistic claims. If the CPD is not well-ordered in the complex, or if the observed dynamics are an artifact of the crystallographic analysis, the conclusions about a novel binding mode and its implications for repair inhibition are weakened.
+  - **Resolution test** Provide simulated annealing omit maps for the CPD lesion. Perform a detailed comparison of B-factors using a normalized or relative scale, and ideally, refine multiple models with alternative conformations for the CPD. If possible, obtain a higher-resolution structure or validate the dynamics with an orthogonal method in solution, such as NMR relaxation dispersion or hydrogen-deuterium exchange.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of thermodynamic interpretation
+  - **Claim pointer** The authors claim that CPD binding is "entropy-driven" and that this is "the first example of high-affinity PU.1 interactions without favorable enthalpic contributions."
+  - **Evidence pointer** Figure 4B, isothermal titration calorimetry
+  - **Concern** The ITC data, as described, are insufficient to support the strong thermodynamic conclusions. The authors state that the reported enthalpy change is "taken as the fitted difference from the first transition to the final baseline at high-excess of titrant." This is an unusual and potentially problematic way to analyze ITC data, as it may not accurately deconvolute the sequential binding events. The manuscript does not report the full thermodynamic parameters (ΔG, ΔH, -TΔS) for all complexes in a clear table, nor does it show representative ITC thermograms and fitted isotherms. The claim of "entropy-driven" binding requires a rigorous demonstration that the entropic contribution is both large and favorable, and that the enthalpic contribution is indeed unfavorable or negligible. The interpretation of the osmolyte experiments is also complex and relies on assumptions about solute partitioning that are not fully discussed.
+  - **Why it matters** The thermodynamic mechanism is a key novel finding of the paper. If the ITC analysis is flawed or the data are not presented transparently, the claim of a unique entropy-driven binding mode is not established.
+  - **Resolution test** Present complete ITC data, including raw thermograms, integrated heats, fitted isotherms, and a table of thermodynamic parameters (ΔG, ΔH, ΔS, and n) for all complexes. Provide a rigorous statistical comparison of the thermodynamic parameters between WC, CPD, and MM. Clarify the data analysis procedure and justify the model used. For the osmolyte experiments, provide a more detailed analysis of the linkage model and discuss potential alternative interpretations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for a general class property
+  - **Claim pointer** The authors claim that high-affinity binding to CPD-containing DNA and inhibition of repair is a "class property" of the ETS family, based on testing one representative from each of the three classes.
+  - **Evidence pointer** Figure 1C, Figure 2
+  - **Concern** The conclusion that this is a general class property is a significant extrapolation from testing only three proteins. While the authors argue that these are "archetypal" members, it is possible that other members within each class behave differently. The manuscript would be strengthened by testing additional members from each class, or at least by a more nuanced discussion of the potential variability within classes.
+  - **Why it matters** The generality of the finding is a key part of its significance. If the effect is not universal across the family, the conclusions about the role of ETS factors in melanoma mutagenesis would need to be qualified.
+  - **Resolution test** Test additional ETS family members from each class, or provide a bioinformatic analysis of the conservation of the relevant DNA-contacting residues across the family to support the claim of generality.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Molecular dynamics simulations
+  - **Evidence pointer** Materials and Methods, Molecular dynamics simulations
+  - **Issue** The description of the MD simulations is brief. The method for applying restraints to the C5-C6 bonds is described, but the rationale for the specific force constants and target values, and how these were validated, is not fully explained. The convergence criteria for the simulations are not stated.
+  - **Required correction** Provide more detail on the simulation setup, including the number of steps, the equilibration protocol, and the criteria used to assess convergence. Justify the choice of force constants for the restraints and discuss how the results depend on these choices.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2 (T4 PDG inhibition assays)
+  - **Evidence pointer** Figure 2
+  - **Issue** The quantification of the T4 PDG cleavage assays is not described in the text or figure legend. It is unclear how the percent cleavage was calculated and how the statistical significance of the inhibition was determined.
+  - **Required correction** Add a description of the quantification method and the statistical analysis to the figure legend or methods. Show the data points and error bars for the replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of biological relevance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the biological relevance of the findings, while interesting, is somewhat speculative. The link between the in vitro biochemical data and the in vivo mutation hotspots is plausible but not directly tested.
+  - **Required correction** Clearly distinguish between the direct experimental findings and the proposed implications for melanoma mutagenesis. Consider discussing potential experimental approaches to test the in vivo relevance of the proposed mechanism.
+
+## Risk / unsupported claims
+- The claim that the CPD-bound PU.1 complex represents a "novel DNA-binding mode" is not fully supported by the crystallographic data, which show low electron density for the lesion.
+- The claim that the binding is "entropy-driven" is not rigorously established due to the incomplete presentation of the ITC data and analysis.
+- The claim that high-affinity CPD binding and repair inhibition is a "class property" of the ETS family is an extrapolation from a small number of representatives.
+- The claim that the mechanism described "may regulate the binding of other TFs to damaged DNA sites" is a hypothesis and is not tested in this manuscript.
+- The conclusion that the findings "can explain cellular results indicating that deaminated CPDs accumulate at this relative location" is a reasonable inference but is not directly demonstrated here.

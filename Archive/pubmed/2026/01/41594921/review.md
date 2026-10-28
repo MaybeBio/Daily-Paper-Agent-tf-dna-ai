@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the author. Supplementary materials (Tables S1–S9, Figures S1–S3) are referenced but not supplied.
+- **Assessment boundary** The review evaluates the scientific claims, methodological soundness, and interpretive logic presented in the manuscript. It does not assess editorial fit for a specific journal, nor does it verify external database entries (e.g., GenBank, AlphaFold) beyond what is described.
+- **Shared manuscript claim summary** The authors report that variant MAT1-1-1 and MAT1-2-1 mating proteins from wild-type *Ophiocordyceps sinensis* isolates and insect–fungal complexes contain amino acid substitutions within their DNA-binding domains (MATα_HMGbox and HMG-box_ROX1-like). These substitutions are associated with altered hydrophobicity, secondary structure, and AlphaFold-predicted tertiary structure, clustering into distinct Bayesian clades. The authors argue this supports self-sterility and heterothallic or hybrid reproduction, refuting a self-fertilization hypothesis.
+- **Visible evidence base** Main text figures (Figures 1–16) are described in the results but not directly viewable. Supplementary tables (S1–S9) and figures (S1–S3) are referenced but not provided. Methods are described in Section 2. No raw sequence alignments, statistical outputs, or structural validation metrics are included in the supplied text.
+- **Missing materials affecting confidence** The actual figures and supplementary tables are not available for inspection. This limits verification of the reported alignments, clustering trees, ProtScale plots, and AlphaFold structural comparisons. Additionally, no accession numbers for the specific AlphaFold models or GenBank sequences are listed in the text, preventing independent replication of the analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a biologically interesting question about mating-type protein diversity in a commercially and medically important fungal complex. The authors present a large survey of sequence variants and use computational tools to infer structural consequences. However, the current evidence base is largely descriptive and correlative. The central claim that altered stereostructures refute homothallism and support heterothallism is an interpretive leap that is not directly tested. The manuscript would benefit from clearer presentation of the data, quantitative support for structural differences, and a more cautious framing of the reproductive mode conclusion.
+- **Who would be interested in the results, and why** Researchers studying fungal mating systems, particularly in ascomycetes, will find the sequence diversity data useful. The *Cordyceps*/*Ophiocordyceps* research community, including those focused on cultivation and conservation of this medicinal fungus, will be interested in the implications for sexual reproduction and strain improvement. Computational biologists working on structure-function relationships in DNA-binding domains may also find the approach relevant.
+- **Major strengths** The manuscript compiles a substantial dataset of mating protein variants from a natural system, which is valuable given the difficulty of obtaining such samples. The focus on DNA-binding domains rather than full proteins is a sensible analytical choice. The use of multiple complementary tools (Bayesian clustering, ProtScale hydrophobicity, AlphaFold structure prediction) provides a multi-layered descriptive analysis. The authors are transparent about the nomenclatural complexities and the impure nature of wild-type samples, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that amino acid substitutions in the DNA-binding domains "alter the tertiary structures" and that this "refutes the hypothesis that O. sinensis can self-fertilize via homothallic mating."
+  - **Evidence pointer** Section 3.5, Section 3.7, Figures 3–8, Figures 10–13, Tables S6, S8
+  - **Concern** The structural conclusions are based entirely on AlphaFold predictions, which are computational models and not experimentally validated structures. The authors note that low-confidence regions exist but do not report per-residue confidence scores for the specific domains under discussion. The claim that substitutions "alter" tertiary structure is presented without quantitative metrics (e.g., RMSD, TM-score, contact map changes) comparing the variant models to the reference. Visual inspection of figures (not available to this reviewer) is insufficient to establish structural alteration. Furthermore, the logical link between altered structure and reproductive mode is not demonstrated. Even if structures differ, the functional consequence for DNA binding, dimerization, or transcriptional regulation is speculative.
+  - **Why it matters** The central conclusion of the paper rests on the structural alteration claim. Without robust structural comparison metrics and functional validation, the conclusion is not supported by the evidence presented. The reproductive mode inference is a major conceptual claim that requires direct experimental testing, not just correlative sequence-structure observations.
+  - **Resolution test** Provide quantitative structural comparisons (e.g., RMSD or TM-score between reference and variant AlphaFold models for the DNA-binding domains). Report pLDDT confidence scores for the domains. If possible, include experimental validation (e.g., electrophoretic mobility shift assays, yeast two-hybrid, or in vitro DNA binding) for at least a subset of variants. Alternatively, soften the conclusion to state that structural variation is "consistent with" rather than "refutes" a particular reproductive mode.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript states that Bayesian clustering was performed on DNA-binding domain sequences and that this produced distinct clades associated with structural changes.
+  - **Evidence pointer** Section 2.4, Section 3.3, Section 3.4, Figures 1–2
+  - **Concern** The methods describe the use of MrBayes with a specified number of iterations and burn-in, but key parameters are missing. The optimal substitution model is said to be determined by ProtTest, but the chosen model is not stated. The number of chains, heating parameters, and convergence diagnostics (e.g., average standard deviation of split frequencies, PSRF values) are not reported. The clustering results are described qualitatively ("clustered into Branch a2", "longest clustering distance") without statistical support such as posterior probabilities or branch support values. Without these, the reader cannot assess the robustness of the clustering.
+  - **Why it matters** The Bayesian clustering is a primary analytical tool used to group the variants. If the clustering is not statistically robust, the subsequent association between clades and structural changes is weakened. The manuscript's conclusions depend on the reliability of these groupings.
+  - **Resolution test** Report the substitution model used, convergence diagnostics, and posterior probabilities for key nodes in the clustering trees. Provide the alignment length and number of variable sites. If possible, include a maximum likelihood or neighbor-joining tree as a complementary analysis to confirm the Bayesian topology.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The manuscript concludes that "O. sinensis is self-sterile and requires a mating partner for sexual reproduction under heterothallism or hybridization."
+  - **Evidence pointer** Section 4.4, Section 5
+  - **Concern** The conclusion about reproductive mode is based on indirect evidence: sequence variation in mating-type genes, differential occurrence, alternative splicing, and now structural variation. While these observations are consistent with heterothallism, they do not constitute proof. The authors themselves note that Koch's postulates have not been satisfied for any genotype. The leap from "variants exist" to "self-sterility is required" is not logically compelled. Other explanations, such as neutral polymorphism, balancing selection, or cryptic homothallism, are not discussed.
+  - **Why it matters** The reproductive mode of O. sinensis has significant implications for cultivation and conservation. Overstating the conclusion could mislead applied research efforts. A more balanced discussion of alternative hypotheses would strengthen the paper.
+  - **Resolution test** Add a section discussing alternative explanations for the observed variation. Explicitly state what experimental evidence would be needed to confirm heterothallism (e.g., mating assays between defined strains, observation of sexual structures in co-culture). Consider softening the conclusion to "consistent with heterothallism" rather than a definitive refutation of homothallism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The description of the ProtScale analysis states that sequences were "plotted sequentially with a window size of 9 amino acid residues using the linear weight variation model." It is unclear whether the window size and weighting scheme were chosen based on prior literature or optimized for this dataset. The choice of window size can significantly affect the appearance of hydrophobicity plots.
+  - **Required correction** Justify the choice of window size and weighting model, or cite precedent for these parameters in similar analyses.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, Table S2
+  - **Issue** The text states that 29 of 118 full-length MAT1-1-1 proteins contain variable amino acid substitutions, but it is not clear how many of these substitutions fall within the MATα_HMGbox domain versus outside it. The paper's focus is on the DNA-binding domains, so this distinction is important.
+  - **Required correction** Provide a breakdown of how many variants have substitutions within the DNA-binding domain, outside it, or both.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The discussion of nomenclatural history is detailed but somewhat tangential to the main findings. The distinction between the fungus and the insect–fungal complex is important, but the section could be shortened to improve focus.
+  - **Required correction** Consider condensing Section 4.1 and moving some historical details to supplementary material or a footnote.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The AlphaFold predictions are described as downloaded from the AlphaFold database, but the specific version of AlphaFold (e.g., v2.0, v2.3) and the date of the database release are not stated. This matters because AlphaFold models are updated over time.
+  - **Required correction** Specify the AlphaFold version and database release date used for the predictions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural alteration claim lacks quantitative support and functional validation), R1-M2 (Bayesian clustering lacks statistical details and support values). These are the primary technical issues that prevent the manuscript's central conclusions from being fully supported.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of structural prediction to mating-type protein variants in this system is relatively novel, but the approach is not methodologically new. Scientific importance: Moderate. The findings have implications for understanding fungal reproduction in a commercially important species, but the conclusions are not definitive. Interdisciplinary readership: Limited. The work will primarily interest mycologists and *Cordyceps* researchers; the structural biology component is descriptive rather than mechanistically deep. Technical soundness: Weak. The lack of quantitative structural comparisons and incomplete reporting of phylogenetic methods undermines confidence in the results. Readability for nonspecialists: The introduction and discussion are accessible, but the results section is dense and would benefit from clearer summaries of the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The dataset is valuable and the question is interesting, but the current manuscript does not fully support its central claims. The authors should address the structural comparison metrics, provide statistical support for clustering, and temper the reproductive mode conclusion. With these revisions, the manuscript could make a useful contribution to the field.
+
+## Risk / unsupported claims
+- The claim that amino acid substitutions "alter the tertiary structures" of the DNA-binding domains is unsupported without quantitative structural comparison metrics (e.g., RMSD, TM-score) and confidence scores for the AlphaFold models.
+- The conclusion that O. sinensis is "self-sterile and requires a mating partner" is not directly supported by the data presented. This is an interpretive inference that goes beyond the correlative evidence.
+- The statement that altered structures "may ultimately affect the DNA binding affinities and the regulation of transcription" is speculative and not tested experimentally.
+- The assertion that variants "may have been derived from cooccurring unvalidated heterospecific or genotypic fungi" is presented as a possibility but is not substantiated with data in this manuscript.
+- The claim that the "sole anamorph hypothesis previously proposed for H. sinensis fails to pass the examination of all 4 criteria of Koch's postulates" is a strong statement that is not directly demonstrated in this paper, though it is supported by cited prior work.

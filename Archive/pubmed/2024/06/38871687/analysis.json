@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38871687",
+  "title": "Dissecting tumor microenvironment from spatially resolved transcriptomics data by heterogeneous graph learning.",
+  "authors": "Zuo, Chunman; Xia, Junjie; Chen, Luonan",
+  "journal": "Nature communications",
+  "published_date": "2024-06-14",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用异构图学习解析空间转录组肿瘤微环境，虽涉及转录因子识别但核心是细胞通讯与组织区域分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Spatially resolved transcriptomics (SRT) has enabled precise dissection of tumor-microenvironment (TME) by analyzing its intracellular molecular networks and intercellular cell-cell communication (CCC). However, lacking computational exploration of complicated relations between cells, genes, and histological regions, severely limits the ability to interpret the complex structure of TME. Here, we introduce stKeep, a heterogeneous graph (HG) learning method that integrates multimodality and gene-gene interactions, in unraveling TME from SRT data. stKeep leverages HG to learn both cell-modules and gene-modules by incorporating features of diverse nodes including genes, cells, and histological regions, allows for identifying finer cell-states within TME and cell-state-specific gene-gene relations, respectively. Furthermore, stKeep employs HG to infer CCC for each cell, while ensuring that learned CCC patterns are comparable across different cell-states through contrastive learning. In various cancer samples, stKeep outperforms other tools in dissecting TME such as detecting bi-potent basal populations, neoplastic myoepithelial cells, and metastatic cells distributed within the tumor or leading-edge regions. Notably, stKeep identifies key transcription factors, ligands, and receptors relevant to disease progression, which are further validated by the functional and survival analysis of independent clinical data, thereby highlighting its clinical prognostic and immunotherapy applications.",
+  "abstract_zh": "空间分辨转录组学（SRT）通过分析细胞内分子网络和细胞间通讯（CCC），实现了对肿瘤微环境（TME）的精确解析。然而，缺乏对细胞、基因和组织学区域之间复杂关系的计算探索，严重限制了解读TME复杂结构的能力。在此，我们引入stKeep，一种异质图（HG）学习方法，整合多模态数据和基因-基因相互作用，从SRT数据中揭示TME。stKeep利用HG，通过纳入包括基因、细胞和组织学区域在内的多样节点特征，学习细胞模块和基因模块，分别识别TME内更精细的细胞状态及细胞状态特异性的基因-基因关系。此外，stKeep采用HG推断每个细胞的CCC，同时通过对比学习确保所学CCC模式在不同细胞状态间具有可比性。在多种癌症样本中，stKeep在解析TME方面优于其他工具，例如检测双潜能基底细胞群、肿瘤性肌上皮细胞以及分布于肿瘤或前沿区域的转移细胞。值得注意的是，stKeep识别出与疾病进展相关的关键转录因子、配体和受体，这些结果通过独立临床数据的功能和生存分析得到进一步验证，从而凸显了其在临床预后和免疫治疗应用中的价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38871687/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38871687/",
+  "paper_page_path": "papers/pubmed/38871687/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38168434",
+  "title": "Benchmarking DNA binding affinity models using allele-specific transcription factor binding data.",
+  "authors": "Li, Xiaoting; Melo, Lucas A N; Bussemaker, Harmen J",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-01-04",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于等位基因特异性ChIP-seq数据的框架，用于基准测试TF-DNA结合亲和力模型，并开发了可解释的机器学习工具PyProBound，虽未直接建模三维互作，但聚焦TF-DNA结合预测且方法可迁移至本课题。",
+  "abstract": "Transcription factors (TFs) bind to DNA in a highly sequence-specific manner. This specificity can manifest itself in vivo at heterozygous loci as a difference in TF occupancy between the two alleles. When applied on a genomic scale, functional genomic assays such as ChIP-seq typically lack the statistical power to detect allele-specific binding (ASB) at the level of individual variants. To address this, we propose a framework for benchmarking sequence-to-affinity models for TF binding in terms of their ability to predict allelic imbalances in ChIP-seq counts. We show that a likelihood function based on an over-dispersed binomial distribution can aggregate evidence for allelic preference across the genome without requiring statistical significance for individual variants. This allows us to systematically compare predictive performance when multiple binding models for the same TF are available. We introduce PyProBound, an easily extensible reimplementation of the ProBound biophysically interpretable machine learning framework. Configuring PyProBound to explicitly account for a confounding sequence-specific bias in DNA fragmentation rate yields improved TF binding models when training on ChIP-seq data. We also show how our likelihood function can be leveraged to perform de novo motif discovery on the raw allele-aware ChIP-seq counts.",
+  "abstract_zh": "转录因子（TFs）以高度序列特异性的方式与DNA结合。这种特异性在体内杂合位点可表现为两个等位基因之间TF占据的差异。当应用于基因组规模时，功能基因组学检测如ChIP-seq通常缺乏在单个变异水平上检测等位基因特异性结合（ASB）的统计功效。为解决此问题，我们提出一个框架，用于根据序列到亲和力模型预测ChIP-seq计数中等位基因失衡的能力来基准测试TF结合模型。我们展示了一种基于过度离散二项分布的似然函数，能够跨基因组聚合等位基因偏好的证据，而无需单个变异的统计显著性。这使我们能够系统比较同一TF的多个结合模型时的预测性能。我们引入了PyProBound，这是ProBound生物物理可解释机器学习框架的一个易于扩展的重实现。配置PyProBound以明确考虑DNA片段化率中混杂的序列特异性偏差，在ChIP-seq数据上训练时能产生改进的TF结合模型。我们还展示了如何利用我们的似然函数对原始等位基因感知的ChIP-seq计数进行从头基序发现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38168434/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38168434/",
+  "paper_page_path": "papers/pubmed/38168434/index.html"
+}

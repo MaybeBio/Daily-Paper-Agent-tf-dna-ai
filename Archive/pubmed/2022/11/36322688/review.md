@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract, evaluated against the evidence described therein
+- **Shared manuscript claim summary** The authors report atomistic molecular dynamics simulations of AT- and GC-rich human transcription factor binding motifs in DNA, revealing sequence-dependent structural features, solvation properties, and ion-binding characteristics. They further report that counterion and water distributions are sensitive to motif sequence, that motif sequence affects groove electrostatic potential, that cytosine methylation alters DNA shape features, and that ionic environment and hydration are essential for describing TF-DNA interactions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system construction details, trajectory analysis methods, statistical validation, and all quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of sequence-specific DNA structural and solvation properties relevant to transcription factor binding. However, the evidence base available for review is limited to the abstract, which precludes verification of the methodological rigor, statistical significance, and quantitative support for the stated conclusions. The claims are qualitatively coherent but cannot be assessed for technical soundness without access to the underlying simulation details and analysis.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, DNA-protein recognition, and gene regulation would be interested. The findings on sequence-dependent solvation and ion distributions around TF binding motifs could inform mechanistic models of shape readout and indirect readout in protein-DNA recognition, and may be of practical relevance for designing experiments or improving predictive models of TF binding specificity.
+- **Major strengths** The study addresses a biologically important question, namely the role of DNA structural and solvation features in TF binding specificity. The focus on AT- and GC-rich human TF binding motifs is relevant. The inclusion of cytosine methylation effects adds a layer of biological significance. The abstract clearly states the main findings and their implication for understanding TF-DNA interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "counterion and water distribution around the motif is found to be sensitive to the motif sequence" and that "the motif sequence affects the electrostatic potential along the grooves."
+  - **Evidence pointer** Abstract only; no quantitative data, figures, or statistical measures provided
+  - **Concern** The abstract provides no quantitative evidence, such as radial distribution functions, density maps, or potential profiles, to support the claims about ion and water distributions or electrostatic potential variations. Without numerical results and error estimates, it is impossible to assess whether the observed differences are statistically significant or merely simulation noise.
+  - **Why it matters** The central conclusions of the study rest on the claim that sequence-dependent solvation and electrostatic properties are distinct and meaningful. If these differences are not robustly quantified and validated, the biological implications drawn from them are not established.
+  - **Resolution test** Provide quantitative comparisons of ion and water densities and electrostatic potentials across the studied motifs, including statistical uncertainties and appropriate significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "cytosine methylation alters the DNA shape features."
+  - **Evidence pointer** Abstract only; no structural metrics or comparison data provided
+  - **Concern** The claim about methylation-induced shape changes is stated without any supporting structural parameters, such as helical twist, roll, or groove width measurements. The magnitude and direction of the effect are not described, and no comparison between methylated and unmethylated states is shown.
+  - **Why it matters** This claim is a distinct and potentially novel contribution, but without quantitative structural analysis, it cannot be evaluated. If the effect is small or context-dependent, the claim as stated may be misleading.
+  - **Resolution test** Present structural parameter comparisons between methylated and unmethylated motifs, with statistical analysis and discussion of biological relevance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract implies that the simulation methodology is sufficient to support the conclusions, but no methodological details are provided.
+  - **Evidence pointer** Abstract only; no methods section available
+  - **Concern** The abstract does not describe the simulation protocol, including force field, water model, ion parameters, simulation length, temperature/pressure control, or system size. Without these details, the reproducibility of the study cannot be assessed, and the reliability of the results is uncertain.
+  - **Why it matters** Molecular dynamics results are highly sensitive to force field and simulation conditions. The absence of methodological information prevents independent verification and undermines confidence in the conclusions.
+  - **Resolution test** Provide a complete methods description in the full manuscript, including all simulation parameters and validation of system equilibration.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "over the vast amount of non-target DNA" is grammatically awkward and could be clearer.
+  - **Required correction** Rephrase to something like "in the presence of a vast excess of non-target DNA" for improved readability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The statement that "an ionic environment and hydration influences are essential to describe TF-DNA interactions" is broad and may overgeneralize from a limited set of motifs and simulation conditions.
+  - **Required correction** Qualify the claim by specifying the context, such as "for the motifs studied here" or "under the simulation conditions employed."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not specify the number of motifs studied, the length of simulations, or the specific human TF binding motifs used, which limits the reader's ability to gauge the scope of the study.
+  - **Required correction** Include brief details on the number and identity of motifs and simulation timescales in the abstract or ensure they are prominently presented in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, structural metrics, and methodological details means that the core claims cannot be verified from the provided material.
+- **Assessment against Nature-style criteria** Originality: The topic is of interest, and the focus on solvation and ion properties of TF binding motifs is a relevant angle, but the abstract does not demonstrate a sufficiently novel conceptual advance beyond existing studies of DNA shape and hydration. Scientific importance: The question is important for understanding TF-DNA recognition, but the abstract does not establish the broader impact or how the findings change current understanding. Interdisciplinary readership: The work is likely to appeal to computational chemists and biophysicists, but the abstract may not be accessible to a broader biological audience without clearer context. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological and quantitative detail is a major limitation. Readability for nonspecialists: The abstract is generally readable but uses specialized terminology without sufficient explanation, and the grammatical issues reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible findings, but the absence of quantitative data, methodological detail, and statistical validation prevents a supportive recommendation. A full manuscript with rigorous analysis could change this assessment.

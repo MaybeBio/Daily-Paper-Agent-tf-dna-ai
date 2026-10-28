@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supporting information references.
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of claims based solely on the provided manuscript text. No external data, figures, or supplementary files were available for direct inspection.
+- **Shared manuscript claim summary** The authors propose that Wiz, a C2H2 zinc finger protein, represses clustered protocadherin (cPcdh) gene expression by restricting CTCF/cohesin-mediated loop extrusion in a genomic-distance biased manner. This is supported by a novel deep learning tool (COP) for predicting ZFP occupancy, genetic deletion experiments in vitro and in vivo, and integrated ChIP-seq, RNA-seq, and 4C-seq analyses.
+- **Visible evidence base** Text descriptions of results, methods, and statistical analyses. Figure and table references are present but not viewable.
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and raw data files are not accessible. This limits verification of key experimental results, including ChIP-seq peak calls, 4C interaction profiles, and the performance metrics of the COP model.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting and timely finding that Wiz acts as a regulator of cPcdh gene expression through a mechanism involving CTCF/cohesin dynamics. The integration of a novel computational tool (COP) with experimental validation is commendable. However, the current evidence, as described in the text, has several gaps that prevent full support of the central claims. The lack of direct mechanistic evidence for how Wiz restricts loop extrusion, the reliance on correlative data, and the incomplete description of the COP model's validation and application raise concerns. The manuscript would benefit from more rigorous experimental designs and clearer presentation of quantitative results.
+- **Who would be interested in the results, and why** Researchers in the fields of 3D genome organization, gene regulation, zinc finger protein biology, and neurogenetics would find this work relevant. The proposed role of Wiz in modulating loop extrusion could have broader implications for understanding how transcriptional noise is controlled at complex loci. The development of COP may also be of interest to computational biologists working on protein-DNA interaction prediction.
+- **Major strengths**
+  - The study addresses a significant and unresolved question regarding the regulatory mechanisms of cPcdh genes, which are crucial for neuronal identity.
+  - The development of COP represents a novel computational approach that integrates multiple data types for ZFP occupancy prediction.
+  - The combination of in vitro and in vivo genetic models (N2a cells and cortex-specific knockout mice) strengthens the biological relevance of the findings.
+  - The observation of a genomic-distance biased effect on gene expression and chromatin interactions is a specific and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The central claim that "Wiz regulates cPcdh genes by restricting CTCF/cohesin loop extrusion" is not directly supported by the presented experiments.
+  - **Evidence pointer** Results sections "Wiz colocalizes with CTCF at CBS elements" and "Wiz represses cPcdh by restricting CTCF/cohesin enrichments"; Figures 5 and 6.
+  - **Concern** The manuscript shows that Wiz deletion leads to increased CTCF/cohesin occupancy and increased long-range interactions. However, this is correlative. The text does not describe experiments that directly test the mechanism of "restriction," such as measuring loop extrusion dynamics, testing Wiz's effect on cohesin processivity in a defined in vitro system, or identifying the specific molecular interaction (e.g., direct protein-protein interaction with CTCF or cohesin) that would stall extrusion.
+  - **Why it matters** The title and abstract make a strong mechanistic claim. Without direct evidence for the proposed mechanism, the conclusion is an over-interpretation of the data, which only shows changes in steady-state occupancy and interaction frequencies. Alternative explanations, such as Wiz affecting chromatin accessibility or histone modifications that indirectly influence CTCF binding, are not excluded.
+  - **Resolution test** The authors should either (1) provide direct evidence for stalled loop extrusion, e.g., using time-course experiments or single-molecule assays, (2) demonstrate a direct physical interaction between Wiz and the CTCF/cohesin complex that is required for the effect, or (3) substantially temper the mechanistic claims to be consistent with the correlative data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational model validation and application
+  - **Claim pointer** The claim that COP is a superior tool for predicting ZFP occupancy and that it identified Wiz as a key regulator is not fully substantiated.
+  - **Evidence pointer** Results section "COP screening of C2H2-ZFPs localized at the cPcdh promoter CBS elements"; Figures 1C-1F.
+  - **Concern** The description of COP's development and validation is incomplete. The benchmark shows a modest improvement in accuracy (63.6% vs. 59.4% for LightGBM), and the significance of this difference is not stated. More critically, the application of COP to the cPcdh locus is described as identifying 34 ZFPs, but the criteria for this selection are not detailed. The text states Wiz has the "highest number of 12 ZFs," but it is unclear if this is the primary selection criterion or if it is based on the model's predicted occupancy score. The manuscript does not show a direct comparison of COP's predictions for Wiz against experimental ChIP-seq data for Wiz at the cPcdh locus, which would be a key validation step.
+  - **Why it matters** The novelty of the paper partly rests on the COP tool. If the model's predictions are not rigorously validated or if the selection of Wiz is not clearly justified by the model's output, the foundation of the study is weakened. The reader cannot assess whether COP is a reliable tool or if Wiz was chosen for other reasons (e.g., prior knowledge).
+  - **Resolution test** The authors should provide a more detailed performance analysis of COP, including statistical tests for the accuracy difference. They should clearly state the criteria for selecting the 34 ZFPs from the screen. Most importantly, they should directly compare COP's predicted binding for Wiz with their own Wiz ChIP-seq data at the cPcdh locus to demonstrate the model's predictive power in this specific context.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data presentation and statistical rigor
+  - **Claim pointer** The claim of a "genomic-distance biased manner" of regulation is based on data that are not fully presented or statistically analyzed in the text.
+  - **Evidence pointer** Results section "Wiz regulates cPcdh gene expression in a genomic-distance biased manner"; Figure 6.
+  - **Concern** The text describes a correlation between genomic distance and expression changes or interaction frequency changes, but the actual data (e.g., scatter plots, correlation coefficients, p-values) are not shown in the text. The statement that the in vivo trend "did not reach statistical significance" is concerning, as it suggests the primary finding may be driven by the in vitro data. The manuscript does not describe how "distance" was defined or how the analysis was controlled for other factors like CTCF site orientation or chromatin state.
+  - **Why it matters** The "genomic-distance biased" aspect is a key part of the title and a central conclusion. If the evidence is weak or not statistically robust, the main claim is not established. The lack of detailed data presentation prevents the reader from evaluating the strength of this finding.
+  - **Resolution test** The authors should present the full quantitative data for the distance analysis, including correlation coefficients and p-values for both in vitro and in vivo datasets. They should also describe the statistical model used and discuss potential confounding variables.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence.
+  - **Issue** The abstract states "Zinc finger proteins (ZFPs or ZNFs) constitute the largest family of transcription factors in mammals; however, their regulatory mechanism remains largely elusive." This is a very broad statement that is not directly addressed by the study, which focuses on a specific ZFP (Wiz) at a specific locus.
+  - **Required correction** Consider revising the opening to be more specific, such as "The regulatory mechanisms of most C2H2 zinc finger proteins (ZFPs) remain elusive, particularly their role in 3D genome organization."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, COP model
+  - **Evidence pointer** Materials and Methods, "Processing of public ChIP-seq data."
+  - **Issue** The description of peak filtering is unclear. The text states "the top 10% widest and narrowest peaks were discarded" and "the top 10% of peaks with the highest p-values (least significant) and lowest p-values (potentially artifactual) were also excluded." The rationale for excluding the lowest p-value peaks is not explained and seems counterintuitive.
+  - **Required correction** Please clarify the rationale for these filtering steps, particularly the exclusion of the most significant peaks.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on Wiz function.
+  - **Issue** The text discusses the discrepancy with a previous study showing Wiz haploinsufficiency reduces Pcdhβ expression. The authors attribute this to differences in deletion size and genetic background. This is a reasonable explanation, but it is presented without supporting data.
+  - **Required correction** Acknowledge that this is a speculative explanation and suggest future experiments to directly test this, such as comparing the effects of different Wiz mutations in the same genetic background.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods, Data analysis
+  - **Evidence pointer** Materials and Methods, "Quantification and statistics."
+  - **Issue** The text states "RNA-seq, ChIP-seq, and 4C experiments were performed with at least two biological replicates." This is a low number of replicates for drawing robust conclusions, especially for the 4C experiments which are known to be noisy.
+  - **Required correction** Please state the exact number of replicates for each experiment and discuss the potential impact of the replicate number on the statistical power of the analyses.
+
+## Risk / unsupported claims
+- The claim that Wiz "restricts CTCF/cohesin loop extrusion" is unsupported by direct mechanistic evidence and is an over-interpretation of the correlative ChIP-seq and 4C-seq data.
+- The claim that the effect is "genomic-distance biased" is not fully supported by the data presented in the text, as the in vivo data did not reach statistical significance and the full quantitative analysis is not shown.
+- The claim that COP is a superior prediction tool is not fully supported, as the performance gain is modest and the significance is not stated. Its specific application to identify Wiz is not clearly justified by the model's output.
+- The functional significance of the observed changes in cPcdh expression upon Wiz deletion for neuronal biology is not explored, leaving the physiological relevance of the findings unclear.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a contact-based analysis of local energetic frustration dynamics, applied to simulations of the bacterial transcription factor RfaH, to identify key residues enabling its fold-switch. They report 20 residues with significant frustration changes during the fold-switch, some previously implicated experimentally or computationally, and present the method as a new module for the FrustratometeR package.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, frustration calculation details, validation against experimental data, and package documentation
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach that links local energetic frustration dynamics to fold-switching mechanisms, with a plausible application to RfaH. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness, robustness, or generalizability of the method. The claim of identifying 20 key residues lacks quantitative support, and the novelty relative to existing frustration analysis tools is not clearly established. The work may be of interest to the protein biophysics community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying metamorphic proteins, protein folding and conformational dynamics, and computational biophysicists developing or applying frustration-based analyses. The potential link to identifying functional residues in fold-switching proteins could also interest experimentalists working on transcription factors like RfaH.
+- **Major strengths** The conceptual framing of fold-switching as driven by dynamic changes in local energetic frustration is compelling and aligns with current biophysical thinking. The focus on contact-based analysis and the development of a modular tool for the FrustratometeR package suggests practical utility for the community. The identification of residues with prior experimental or computational support provides a preliminary anchor for the method's relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the approach "identified 20 residues that significantly change their frustration during its fold-switch."
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The abstract provides no quantitative criteria for what constitutes a "significant change" in frustration, nor any statistical or threshold-based justification for the selection of 20 residues. Without details on the frustration metric, the simulation ensemble, or the comparison framework, the robustness of this identification cannot be assessed.
+  - **Why it matters** The central claim of the paper rests on the reliability of this residue selection. If the threshold or method is arbitrary or overly sensitive to simulation parameters, the identified residues may not be biologically meaningful, undermining the tool's utility.
+  - **Resolution test** Provide explicit definitions of the frustration change metric, the significance threshold, and a sensitivity analysis showing that the 20-residue set is stable across reasonable variations in simulation conditions or analysis parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and generalizability
+  - **Claim pointer** The abstract states that "some of which have been experimentally and computationally reported in previous works," implying validation of the method.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The abstract does not specify which residues were previously reported, how many of the 20 overlap with prior findings, or the nature of the experimental or computational evidence. This vagueness prevents evaluation of whether the method recovers known key residues with high precision or merely a few coincidental matches.
+  - **Why it matters** For a new computational tool, demonstrating strong overlap with independent experimental or computational data is critical to establish credibility. Without this, the claim of identifying "key residues" remains unsupported.
+  - **Resolution test** List the specific residues with prior evidence, quantify the overlap (e.g., fraction of the 20 residues with independent support), and discuss any discrepancies with prior studies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and methodological contribution
+  - **Claim pointer** The abstract implies the approach is novel, as it is "developed as an additional module for the FrustratometeR package."
+  - **Evidence pointer** Abstract, Methods section (location not provided)
+  - **Concern** The abstract does not clarify how this contact-based frustration dynamics analysis differs from existing frustration analysis methods or prior applications to conformational changes. The novelty may lie in the dynamic aspect, but this is not articulated.
+  - **Why it matters** If the method is largely a reapplication of existing tools, the contribution to the field is incremental. The abstract should clearly state the methodological advance to justify interest.
+  - **Resolution test** In the full manuscript, explicitly compare the new module to existing frustration analysis approaches, highlighting unique features and demonstrating advantages in a benchmark or comparative analysis.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity for nonspecialists
+  - **Affected element** Abstract, Background
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "local energetic frustration" is used without a brief definition, which may hinder readers unfamiliar with the concept.
+  - **Required correction** Add a concise definition or context, such as "local energetic frustration, a measure of the local energetic conflicts in a protein structure," to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract, Methods
+  - **Evidence pointer** Abstract, "simplified structure-based models"
+  - **Issue** The type of structure-based model is not specified, and no parameters or simulation details are given, limiting reproducibility assessment.
+  - **Required correction** In the full manuscript, provide model details, simulation protocols, and software versions; in the abstract, consider naming the model type (e.g., C-alpha Go-model) for clarity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** Abstract, Conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the tool "offers a robust tool to enhance our understanding of other proteins" is broad and not supported by evidence from a single case study.
+  - **Required correction** Soften the claim to reflect that the tool's generalizability requires further testing on additional fold-switching proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative criteria for residue selection and the absence of specific validation details prevent the core claims from being assessed. R1-M3, while not blocking, requires clarification to establish the methodological novelty.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of applying frustration dynamics to fold-switching is not entirely new, but the specific contact-based dynamic analysis may offer a fresh angle. However, the abstract does not clearly differentiate it from prior work, so originality is only partially evident.
+  - Scientific importance: Understanding fold-switching mechanisms is of significant interest, and identifying key residues could have broad implications. The importance is plausible but not demonstrated with concrete findings in the abstract.
+  - Interdisciplinary readership: The work bridges computational biophysics and protein biochemistry, potentially appealing to a cross-disciplinary audience. However, the abstract's technical opacity may limit accessibility.
+  - Technical soundness: Not assessable from the abstract due to missing methodological details and validation. This is a major gap.
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon without definition, slightly reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual premise is promising, but the abstract lacks the quantitative and validation details necessary to support the central claims. I would be supportive if the full manuscript addresses the blocking concerns with rigorous criteria, sensitivity analyses, and explicit validation against prior data.
+
+## Risk / unsupported claims
+- The identification of 20 residues as "key" is unsupported without defined significance criteria or validation.
+- The claim that some residues were previously reported is unverifiable without specific names or references.
+- The assertion that the tool is "robust" for other proteins is unsupported by the single-case evidence presented.
+- The novelty of the method relative to existing frustration analysis tools is not established.

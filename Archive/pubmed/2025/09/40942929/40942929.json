@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "40942929",
+    "doi": "10.3390/s25175500",
+    "title": "Prediction of Germline BRCA Mutations in High-Risk Breast Cancer Patients Using Machine Learning with Multiparametric Breast MRI Features."
+  },
+  "content": {
+    "abstract": "The identification of germline BRCA1/2 (BRCA) mutations plays an important role in the treatment planning of high-risk breast cancer patients, but genetic testing may be costly or unavailable. The multiparametric breast MRI (mpMRI) features offer noninvasive imaging biomarkers that could support BRCA mutation prediction. In this study, we investigate whether mpMRI features can predict BRCA mutation status in high-risk breast cancer patients. We collected data from 231 consecutive patients (82 BRCA-positive, 149 BRCA-negative) who underwent BRCA mutation testing and preoperative MRI between 2013 and 2019. We used the mpMRI features, including computer-aided diagnosis (CAD)-derived kinetic features, morphologic features, and apparent diffusion coefficient (ADC) values from diffusion-weighted imaging (DWI). In the univariate analysis, higher CAD-derived washout component and peak enhancement, larger tumor size and angio-volume, peritumoral edema on T2-weighted imaging, axillary adenopathy, and minimal or mild background parenchymal enhancement (BPE) were significantly associated with BRCA mutation, while ADC values showed no significant differences. In the multivariate analysis, three significant predictors were washout component >/= 19.5% (odds ratio [OR] = 3.89, p < 0.001), minimal or mild BPE (OR = 2.57, p = 0.004), and tumor size >/= 2.5 cm (OR = 2.41, p = 0.004). Using these predictors, we compared the predictive performance of 13 ML models through 30 repeated runs and achieved the highest performance (AUC = 0.72). In conclusion, ML models integrating mpMRI features demonstrated good performance for predicting BRCA mutations in high-risk patients. This noninvasive approach may aid personalized treatment planning and genetic counseling.",
+    "keywords": [
+      "BRCA mutation",
+      "breast cancer",
+      "computer-assisted",
+      "diagnosis",
+      "machine learning",
+      "magnetic resonance imaging"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/genetics/diagnostic imaging",
+      "Middle Aged",
+      "*Machine Learning",
+      "*Germ-Line Mutation/genetics",
+      "*BRCA1 Protein/genetics",
+      "*BRCA2 Protein/genetics",
+      "Adult",
+      "*Multiparametric Magnetic Resonance Imaging/methods",
+      "Aged",
+      "Magnetic Resonance Imaging/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Hyeonji",
+        "Cho, Kyu Ran",
+        "Lee, SeungJae",
+        "Cho, Doohyun",
+        "Park, Kyong Hwa",
+        "Cho, Yoon Sang",
+        "Song, Sung Eun"
+      ],
+      "short_names": [
+        "Park H",
+        "Cho KR",
+        "Lee S",
+        "Cho D",
+        "Park KH",
+        "Cho YS",
+        "Song SE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8936-6468",
+        "ORCID: 0000-0003-2626-8454",
+        "ORCID: 0000-0001-6237-0072",
+        "ORCID: 0000-0002-2464-7920",
+        "ORCID: 0000-0001-5420-3434",
+        "ORCID: 0000-0002-9259-8294"
+      ],
+      "affiliations": [
+        "Department of Radiology, Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea.",
+        "Department of Radiology, Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea.",
+        "Dnotitia Inc., Seoul 06540, Republic of Korea.",
+        "Dnotitia Inc., Seoul 06540, Republic of Korea.",
+        "Department of Oncology, Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea.",
+        "Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea.",
+        "Department of Radiology, Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Hyeonji",
+        "short_name": "Park H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Kyu Ran",
+        "short_name": "Cho KR",
+        "identifiers": [
+          "0000-0002-8936-6468"
+        ],
+        "affiliations": [
+          "Department of Radiology, Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, SeungJae",
+        "short_name": "Lee S",
+        "identifiers": [
+          "0000-0003-2626-8454"
+        ],
+        "affiliations": [
+          "Dnotitia Inc., Seoul 06540, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Doohyun",
+        "short_name": "Cho D",
+        "identifiers": [
+          "0000-0001-6237-0072"
+        ],
+        "affiliations": [
+          "Dnotitia Inc., Seoul 06540, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Kyong Hwa",
+        "short_name": "Park KH",
+        "identifiers": [
+          "0000-0002-2464-7920"
+        ],
+        "affiliations": [
+          "Department of Oncology, Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Yoon Sang",
+        "short_name": "Cho YS",
+        "identifiers": [
+          "0000-0001-5420-3434"
+        ],
+        "affiliations": [
+          "Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Sung Eun",
+        "short_name": "Song SE",
+        "identifiers": [
+          "0000-0002-9259-8294"
+        ],
+        "affiliations": [
+          "Department of Radiology, Korea University Anam Hospital, Korea University College of Medicine, Seoul 02841, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Sensors (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Sensors (Basel)"
+    ],
+    "pub_date": "2025 Sep 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/13 06:33",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42404078"
+    ],
+    "refs": [
+      "38725624",
+      "38175972",
+      "37331865",
+      "35396508",
+      "34383145",
+      "33740262",
+      "32727387",
+      "31786416",
+      "31337537",
+      "31276247",
+      "29982132",
+      "29514593",
+      "28796549",
+      "28632866",
+      "27853751",
+      "26774741",
+      "24155760",
+      "23341125",
+      "20565468",
+      "20404251",
+      "19515584",
+      "18853415",
+      "18270717",
+      "18096529",
+      "17920892",
+      "17244718",
+      "15367553",
+      "15282350",
+      "12237282",
+      "10751498",
+      "8524414",
+      "8460634"
+    ],
+    "similar": [
+      "40942929",
+      "34383145",
+      "30358693",
+      "37331865",
+      "30652428",
+      "29979200",
+      "38683385",
+      "26774741",
+      "39607764",
+      "40175203",
+      "29297111",
+      "30375702",
+      "32091409",
+      "30078507",
+      "27025497",
+      "30702160",
+      "22591913",
+      "39413232",
+      "32727387",
+      "28294317",
+      "38100492",
+      "32894085",
+      "39631431",
+      "20429623",
+      "28407998",
+      "39773380",
+      "26833043",
+      "37283256",
+      "14732925",
+      "32673153",
+      "32997669",
+      "26742938",
+      "40460947",
+      "23567481",
+      "30821131",
+      "30648316",
+      "31307407",
+      "28796549",
+      "27082205",
+      "29891109",
+      "30614364",
+      "31030291",
+      "26848529",
+      "22111833",
+      "31828414",
+      "26181175",
+      "33726785",
+      "28782087",
+      "36440706",
+      "25236687",
+      "30238533",
+      "41094354",
+      "35143328",
+      "38869771",
+      "22655046",
+      "28549976",
+      "39993249",
+      "28343309",
+      "20451485",
+      "29409476",
+      "29337092",
+      "31197455",
+      "20579331",
+      "28212807",
+      "35113257",
+      "25777348",
+      "26271414",
+      "39407254",
+      "31313393",
+      "38759043",
+      "37055759",
+      "29867226",
+      "22507745",
+      "32278690",
+      "25047471",
+      "23409121",
+      "36122521",
+      "38717528",
+      "23232854",
+      "36372398",
+      "40679371",
+      "25948675",
+      "32912765",
+      "36670236",
+      "35020120",
+      "25342642",
+      "22684231",
+      "40596249",
+      "30980249",
+      "26476744",
+      "21989927",
+      "29470805",
+      "34593530",
+      "29782359",
+      "39043977",
+      "34657357",
+      "34036661",
+      "32149858",
+      "39736623",
+      "40976116"
+    ],
+    "review": [
+      "40942929",
+      "29891109",
+      "26848529",
+      "29867226"
+    ],
+    "pmc": [
+      "12431298"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=s25175500",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40942929/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

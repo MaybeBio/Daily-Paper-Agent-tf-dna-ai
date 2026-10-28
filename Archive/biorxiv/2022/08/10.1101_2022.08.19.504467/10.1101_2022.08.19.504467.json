@@ -1,0 +1,456 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.19.504467",
+  "title": "Neural network facilitated ab initio derivation of linear formula: A case study on formulating the relationship between DNA motifs and gene expression",
+  "doi": "10.1101/2022.08.19.504467",
+  "abstract": "Developing models with high interpretability and even deriving formulas to quantify relationships between biological data is an emerging need. We propose here a framework for ab initio derivation of sequence motifs and linear formula using a new approach based on the interpretable neural network model called contextual regression model. We showed that this linear model could predict gene expression levels using promoter sequences with a performance comparable to deep neural network models. We uncovered a list of 300 motifs with important regulatory roles on gene expression and showed that they also had significant contributions to cell-type specific gene expression in 154 diverse cell types. This work illustrates the possibility of deriving formulas to represent biology laws that may not be easily elucidated. ( https://github.com/Wang-lab-UCSD/Motif_Finding_Contextual_Regression )",
+  "authors": [
+    "Chengyu Liu",
+    "Wei Wang"
+  ],
+  "published_date": "2022-08-22",
+  "updated_date": "2022-08-22T12:15:17Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.19.504467",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.19.504467.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T08:46:05Z",
+        "timestamp": 1768553165867,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            22
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 47,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Developing models with high interpretability and even deriving formulas to quantify relationships between biological data is an emerging need. We propose here a framework for ab initio derivation of sequence motifs and linear formula using a new approach based on the interpretable neural network model called contextual regression model. We showed that this linear model could predict gene expression levels using promoter sequences with a performance comparable to deep neural network models. We uncovered a list of 300 motifs with important regulatory roles on gene expression and showed that they also had significant contributions to cell-type specific gene expression in 154 diverse cell types. This work illustrates the possibility of deriving formulas to represent biology laws that may not be easily elucidated. (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Wang-lab-UCSD/Motif_Finding_Contextual_Regression\">https://github.com/Wang-lab-UCSD/Motif_Finding_Contextual_Regression</jats:ext-link>\n                  )\n                </jats:p>",
+      "DOI": "10.1101/2022.08.19.504467",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2022-08-22T12:15:17Z",
+        "timestamp": 1661170517000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Neural network facilitated ab initio derivation of linear formula: A case study on formulating the relationship between DNA motifs and gene expression"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Chengyu",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3547"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.227819.117"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "354",
+          "DOI": "10.1038/s41588-021-00782-6",
+          "article-title": "Base-resolution models of transcription-factor binding reveal soft motif syntax",
+          "volume": "53",
+          "year": "2021",
+          "journal-title": "Nat. Genet"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "107663",
+          "DOI": "10.1016/j.celrep.2020.107663",
+          "article-title": "Predicting mRNA Abundance Directly from Genomic Sequence Using Deep Convolutional Neural Networks",
+          "volume": "31",
+          "year": "2020",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/210997"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "2278",
+          "DOI": "10.1109/5.726791",
+          "article-title": "Gradient-based learning applied to document recognition",
+          "volume": "86",
+          "year": "1998",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "726",
+          "DOI": "10.1109/TETCI.2021.3100641",
+          "article-title": "A Survey on Neural Network Interpretability",
+          "volume": "5",
+          "year": "2021",
+          "journal-title": "IEEE Transactions on Emerging Topics in Computational Intelligence"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2939672.2939778"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.11",
+          "unstructured": "Lundberg, S. & Lee, S.-I. A unified approach to interpreting model predictions. arXiv [cs.AI] (2017)."
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.12",
+          "unstructured": "Shrikumar, A. , Greenside, P. , Shcherbina, A. & Kundaje, A. Not Just a Black Box: Learning Important Features Through Propagating Activation Differences. arXiv [cs.LG] (2016)."
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1165893"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.aay2631"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15765"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mori, M. , Schink, S. , Erickson, D. W. , Gerland, U. & Hwa, T. Quantifying the benefit of a proteome reserve in fluctuating environments. Nature Communications vol. 8 (2017).",
+          "DOI": "10.1038/s41467-017-01242-8"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "16231",
+          "DOI": "10.1038/nmicrobiol.2016.231",
+          "article-title": "Reduction of translating ribosomes enables Escherichia coli to maintain elongation rates during slow growth",
+          "volume": "2",
+          "year": "2016",
+          "journal-title": "Nat Microbiol"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12446"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-018-0028-8"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2015.01.007"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100370.109"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2005.12.011"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.23",
+          "unstructured": "Pesole, Régnier , Simonis & Sinha. Assessing computational tools for the discovery of transcription factor binding sites. Nature."
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1001528"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.157891.113"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "608",
+          "DOI": "10.1007/s12033-018-0089-0",
+          "article-title": "Synthetic Promoters: Designing the cis Regulatory Modules for Controlled Gene Expression",
+          "volume": "60",
+          "year": "2018",
+          "journal-title": "Mol. Biotechnol"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-04506-6"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00439-013-1413-1"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.1038/s41587-019-0315-8",
+          "article-title": "Deciphering eukaryotic gene-regulatory logic with 100 million random promoters",
+          "volume": "38",
+          "year": "2020",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "459",
+          "DOI": "10.1038/s41586-020-2689-7",
+          "article-title": "Identification of the human DPR core promoter element using machine learning",
+          "volume": "585",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/embo-reports/kvf067"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn154"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.33",
+          "unstructured": "Haas, Pagie , Sluimer & Bussemaker. Genome-wide mapping of autonomous promoter activity in human cells. Nature."
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.34",
+          "unstructured": "Marchal, Huang , Mordelet & Hartemink. Inferring gene expression from ribosomal promoter sequences, a crowdsourcing approach. Genome."
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "176",
+          "DOI": "10.1038/s41586-022-04877-w",
+          "article-title": "Compatibility rules of human enhancer and promoter sequences",
+          "volume": "607",
+          "year": "2022",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3754"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neunet.2014.09.003"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "191",
+          "DOI": "10.1016/j.tibtech.2019.07.007",
+          "article-title": "Designing Eukaryotic Gene Expression Regulation Using Machine Learning",
+          "volume": "38",
+          "year": "2020",
+          "journal-title": "Trends Biotechnol"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1113"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "874",
+          "DOI": "10.2307/2530946",
+          "article-title": "Classification and Regression Trees",
+          "volume": "40",
+          "year": "1984",
+          "journal-title": "Biometrics"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2013.092"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1113"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, J. , Liu, C. , Chen, Y. & Wang, W. Taiji-reprogram: a framework to uncover cell-type specific regulators and predict cellular reprogramming cocktails. NAR Genom Bioinform 3, qab100 (2021).",
+          "DOI": "10.1093/nargab/lqab100"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14248"
+        },
+        {
+          "key": "2022082402300708000_2022.08.19.504467v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2493-4"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.08.19.504467",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:30:40Z",
+        "timestamp": 1768447840000
+      },
+      "score": 86.30652,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.19.504467"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            22
+          ]
+        ]
+      },
+      "references-count": 47,
+      "URL": "https://doi.org/10.1101/2022.08.19.504467",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

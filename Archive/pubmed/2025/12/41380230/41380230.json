@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "41380230",
+    "doi": "10.1016/j.breast.2025.104671",
+    "title": "Validation of a deep learning-based AI model for breast cancer risk stratification in postmenopausal ER+/HER2-breast cancer patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer prognostication is crucial for treatment decisions, and the Nottingham Histologic Grade (NHG) system is widely used. However, NHG suffers from interobserver variability, and its division into three risk groups leaves the intermediate group (comprising  approximately 50 % of patients) overrepresented, making individualized treatment planning challenging as prognosis within this group differ widely. OBJECTIVES: This study aimed to validate the prognostic value of Stratipath's low and high-risk categories and five risk groups and compare NHG performance with the Stratipath deep-learning-based model. METHODS: We analyzed clinical data from 2466 postmenopausal, ER+/HER2-breast cancer patients who did not receive chemotherapy according to guidelines at that time. The NHG and Stratipath models were compared using concordance index and hazard ratios (HR) for distant recurrence (DR), with time to any recurrence (TR) and overall survival (OS) as secondary endpoints. RESULTS: The Stratipath five-risk group model showed similar performance to the NHG-system in predicting DR (c-index 0.71 vs. 0.72). HR for DR for Stratipath risk groups 2, 3, 4, and 5 were 1.91 (95 % CI: 1.17-3.13), 2.63 (95 % CI: 1.63-4.24), 3.18 (95 % CI: 2.00-5.07), and 3.25 (95 % CI: 2.00-5.28), respectively (p < 0.0001). In the NHG 2 subgroup, Stratipath Breast retained prognostic value for DR (HR for groups 3-5 vs. group 1: 1.73-1.85; p = 0.05), with a c-index of 0.71. CONCLUSIONS: The Stratipath AI model performs similarly to the NHG system. Further prospective validation of the clinical benefits of differentiating Stratipath risk groups 2 and 3 in treatment strategies would be valuable.",
+    "keywords": [
+      "AI-models",
+      "Breast cancer",
+      "Deep learning",
+      "Prognostication",
+      "Stratipath breast",
+      "Survival analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/pathology/mortality",
+      "Postmenopause",
+      "Middle Aged",
+      "*Deep Learning",
+      "Risk Assessment/methods",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism/analysis",
+      "Aged",
+      "Receptors, Estrogen/metabolism/analysis",
+      "Prognosis",
+      "Neoplasm Recurrence, Local"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pouplier, Sandra Sinius",
+        "Sharma, Abhinav",
+        "Ruusuvuori, Pekka",
+        "Hartman, Johan",
+        "Jensen, Maj-Britt",
+        "Ejlertsen, Bent",
+        "Rantalainen, Mattias",
+        "Laenkholm, Anne-Vibeke"
+      ],
+      "short_names": [
+        "Pouplier SS",
+        "Sharma A",
+        "Ruusuvuori P",
+        "Hartman J",
+        "Jensen MB",
+        "Ejlertsen B",
+        "Rantalainen M",
+        "Laenkholm AV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Surgical Pathology, Zealand University Hospital, Sygehusvej 10, 4000, Roskilde, Denmark; Department of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, 2200, Copenhagen N, Denmark. Electronic address: sakp@regionsjaelland.dk.",
+        "Department of Medical Epidemiology and Biostatistics, Nobels Vag 12A, 171 77 Stocholm, Karolinska Institute, Sweden.",
+        "Institute of Biomedicine, University of Turku, Kiinamyllynkatu 10, 20520, Turku, Finland.",
+        "Department of Oncology-Pathology, Karolinska Institute, Solnavagen 30, 171 64 Solna, Sweden.",
+        "Danish Breast Cancer Group, Department of Oncology, Centre for Cancer and Organ Disease, Rigshospitalet, Blegdamsvej 9, Copenhagen University Hospital, 2100, Copenhagen, Denmark.",
+        "Department of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, 2200, Copenhagen N, Denmark; Danish Breast Cancer Group, Department of Oncology, Centre for Cancer and Organ Disease, Rigshospitalet, Blegdamsvej 9, Copenhagen University Hospital, 2100, Copenhagen, Denmark; Department of Oncology, Centre for Cancer and Organ Disease, Rigshospitalet, Blegdamsvej 9, Copenhagen University Hospital, Denmark.",
+        "Department of Medical Epidemiology and Biostatistics, Nobels Vag 12A, 171 77 Stocholm, Karolinska Institute, Sweden.",
+        "Department of Surgical Pathology, Zealand University Hospital, Sygehusvej 10, 4000, Roskilde, Denmark; Department of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, 2200, Copenhagen N, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pouplier, Sandra Sinius",
+        "short_name": "Pouplier SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Pathology, Zealand University Hospital, Sygehusvej 10, 4000, Roskilde, Denmark; Department of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, 2200, Copenhagen N, Denmark. Electronic address: sakp@regionsjaelland.dk."
+        ]
+      },
+      {
+        "full_name": "Sharma, Abhinav",
+        "short_name": "Sharma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Nobels Väg 12A, 171 77 Stocholm, Karolinska Institute, Sweden."
+        ]
+      },
+      {
+        "full_name": "Ruusuvuori, Pekka",
+        "short_name": "Ruusuvuori P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedicine, University of Turku, Kiinamyllynkatu 10, 20520, Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Hartman, Johan",
+        "short_name": "Hartman J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology-Pathology, Karolinska Institute, Solnavägen 30, 171 64 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Jensen, Maj-Britt",
+        "short_name": "Jensen MB",
+        "identifiers": [],
+        "affiliations": [
+          "Danish Breast Cancer Group, Department of Oncology, Centre for Cancer and Organ Disease, Rigshospitalet, Blegdamsvej 9, Copenhagen University Hospital, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Ejlertsen, Bent",
+        "short_name": "Ejlertsen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, 2200, Copenhagen N, Denmark; Danish Breast Cancer Group, Department of Oncology, Centre for Cancer and Organ Disease, Rigshospitalet, Blegdamsvej 9, Copenhagen University Hospital, 2100, Copenhagen, Denmark; Department of Oncology, Centre for Cancer and Organ Disease, Rigshospitalet, Blegdamsvej 9, Copenhagen University Hospital, Denmark."
+        ]
+      },
+      {
+        "full_name": "Rantalainen, Mattias",
+        "short_name": "Rantalainen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Nobels Väg 12A, 171 77 Stocholm, Karolinska Institute, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lænkholm, Anne-Vibeke",
+        "short_name": "Lænkholm AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Pathology, Zealand University Hospital, Sygehusvej 10, 4000, Roskilde, Denmark; Department of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, 2200, Copenhagen N, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast (Edinburgh, Scotland)"
+    ],
+    "journal_abbrev": [
+      "Breast"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/12 03:30",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40179582",
+      "39839787",
+      "39749734",
+      "39176576",
+      "39143539",
+      "38704465",
+      "37926067",
+      "36068311",
+      "34756513",
+      "34711379",
+      "34341074",
+      "34196797",
+      "33345255",
+      "33077923",
+      "32411818",
+      "31935669",
+      "31655171",
+      "31399699",
+      "31308507",
+      "30861443",
+      "29899550",
+      "29369732",
+      "29234806",
+      "27920368",
+      "24219541",
+      "23545360",
+      "20804570",
+      "18465316",
+      "13499785",
+      "11865000",
+      "1757079"
+    ],
+    "similar": [
+      "41380230",
+      "39143539",
+      "38592541",
+      "38287342",
+      "32601800",
+      "34756513",
+      "40593633",
+      "39509133",
+      "38131531",
+      "36609032",
+      "41213110",
+      "40148997",
+      "41493657",
+      "29202609",
+      "34090143",
+      "40849380",
+      "33033359",
+      "32253134",
+      "32561662",
+      "28153508",
+      "31378534",
+      "29902286",
+      "34380638",
+      "26467036",
+      "39177880",
+      "39954110",
+      "40527014",
+      "38722442",
+      "40833671",
+      "40624807",
+      "30610588",
+      "9781946",
+      "29895278",
+      "41526910",
+      "30080878",
+      "41232824",
+      "41110701",
+      "40347583",
+      "30694768",
+      "41088266",
+      "29137653",
+      "30796653",
+      "26881511",
+      "38345755",
+      "41597401",
+      "40990681",
+      "25880075",
+      "10679650",
+      "40969132",
+      "40288025",
+      "33176848",
+      "40845255",
+      "24347518",
+      "24725534",
+      "40286474",
+      "40184873",
+      "30328050",
+      "20437866",
+      "31641007",
+      "41457233",
+      "24035531",
+      "30848103",
+      "33152285",
+      "40891595",
+      "33046356",
+      "32460816",
+      "32703705",
+      "27762648",
+      "39191270",
+      "32229175",
+      "33357231",
+      "41314030",
+      "40121273",
+      "28702894",
+      "40623476",
+      "38329503",
+      "33028590",
+      "41456513",
+      "40318647",
+      "29369732",
+      "21999244",
+      "40684412",
+      "40421129",
+      "41405689",
+      "28576675",
+      "30795773",
+      "38641451",
+      "34464510",
+      "40971615",
+      "38831336",
+      "32394413",
+      "34190995",
+      "27368476",
+      "24675287",
+      "25935792",
+      "37494846",
+      "23074401",
+      "25600243",
+      "24743910",
+      "28057031"
+    ],
+    "review": [
+      "41380230",
+      "41232824"
+    ],
+    "pmc": [
+      "12756034"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960-9776(25)00890-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41380230/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0960-9776(25)00890-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40898317",
+  "title": "SemiLT: A Multianchor Transfer Learning Method for Cross-Modality Cell Label Annotation from scRNA-seq to scATAC-seq.",
+  "authors": "Chen, Zhitong; Duan, Maoteng; Wang, Xiaoying; Liu, Bingqiang",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2025-09-03",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出跨模态细胞注释的迁移学习方法SemiLT，虽涉及转录因子KLF4识别，但核心是单细胞测序数据整合，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "scATAC-seq enables the detailed exploration of epigenetic variations across various cell clusters, providing complementary insights to scRNA-seq. However, its extreme sparsity and high dimensionality pose significant challenges for cell type annotation. Transfer learning can extract key features from well-annotated data to assist in annotating target data, thereby improving annotation accuracy. However, existing transfer learning methods overlook the temporal discrepancies between scRNA-seq and scATAC-seq, which exacerbate batch effects between these two modalities. Therefore, SemiLT, a multi-anchor transfer learning method, is introduced for cell label annotation from scRNA-seq to scATAC-seq. Benchmarking across multiple datasets shows that SemiLT outperforms existing tools in both cell type annotation and modality batch correction. Notably, the F1 score for rare cell types improves by an average of 18%. The high-quality annotation and embedding provided by SemiLT enhance the reliability of downstream analyses. When applied to the human bone marrow hematopoietic dataset, the trajectory transitions of hematopoietic stem cells (HSCs) are accurately reconstructed. Similarly, when applied to human peripheral blood mononuclear cell (PBMC) datasets, the key low-abundance transcription factor (TF) KLF4 is identified in CD8 effector T cells through label transfer from scRNA-seq to scATAC-seq, a result that is difficult to achieve using scRNA-seq data alone.",
+  "abstract_zh": "scATAC-seq能够详细探索不同细胞簇间的表观遗传变异，为scRNA-seq提供互补性见解。然而，其极度稀疏性和高维度对细胞类型注释构成了重大挑战。迁移学习可以从注释良好的数据中提取关键特征，以辅助目标数据的注释，从而提高注释准确性。然而，现有的迁移学习方法忽视了scRNA-seq与scATAC-seq之间的时间差异，这加剧了这两种模态之间的批次效应。因此，引入了SemiLT，一种多锚点迁移学习方法，用于从scRNA-seq到scATAC-seq的细胞标签注释。跨多个数据集的基准测试表明，SemiLT在细胞类型注释和模态批次校正方面均优于现有工具。值得注意的是，稀有细胞类型的F1分数平均提高了18%。SemiLT提供的高质量注释和嵌入增强了下游分析的可靠性。当应用于人类骨髓造血数据集时，造血干细胞（HSCs）的轨迹转变被准确重建。同样，当应用于人类外周血单核细胞（PBMC）数据集时，通过从scRNA-seq到scATAC-seq的标签转移，在CD8效应T细胞中识别出关键低丰度转录因子（TF）KLF4，这一结果仅使用scRNA-seq数据难以实现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40898317/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40898317/",
+  "paper_page_path": "papers/pubmed/40898317/index.html"
+}

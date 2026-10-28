@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "40164264",
+    "doi": "10.1016/j.ijbiomac.2025.142667",
+    "title": "Designed peptide binders and nanobodies as PROTAC starting points for targeted degradation of PCNA and BCL6."
+  },
+  "content": {
+    "abstract": "The efficient degradation of pathogenic proteins, particularly proliferating cell nuclear antigen (PCNA) and B-cell lymphoma 6 protein (BCL6), is crucial for treating various diseases related to cancer. As key biological macromolecules, PCNA plays a critical role in DNA replication and repair, while BCL6 acts as a transcriptional repressor involved in B-cell lymphoma. To enhance the efficiency and specificity of protein degradation, we developed a RS80E-based bioPROTACs system that consists of truncated variants of Ring-B-boxed coiled-coil (RBCC) domains (RS80E) with improved degradation efficiency fused to an AI-driven binder/nanobody targeting specific antigens. Combining state-of-the-art methodologies such as ProteinMPNN, RFdiffusion, AlphaFold3, AlphaFold2, and HADDOCK, we identified binders for PCNA and predicted spatial interrelationships. Employing fragment-based and alanine scanning methods, we designed nanobodies targeting PCNA and BCL6 by combinatorially designing CDR3 and grafting them onto nanobody scaffolds. Significantly, our results demonstrate the utility of bioPROTACs in degrading PCNA and BCL6, thereby activating p53 and promoting apoptosis. This highlights the therapeutic potential of targeting PCNA and BCL6 degradation and lays the groundwork for developing PCNA and BCL6-degrading therapeutics. In summary, our system offers a modular and rapid pathway for exploration other intractable therapeutic targets, and emphasizes the importance of interdisciplinary methods in advancing therapeutic interventions.",
+    "keywords": [
+      "BCL6",
+      "BioPROTACTs",
+      "PCNA"
+    ],
+    "mesh_terms": [
+      "*Proto-Oncogene Proteins c-bcl-6/metabolism/chemistry",
+      "*Single-Domain Antibodies/chemistry/metabolism",
+      "*Proliferating Cell Nuclear Antigen/metabolism/chemistry",
+      "Humans",
+      "*Proteolysis",
+      "*Peptides/chemistry/metabolism",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Shuai",
+        "Luo, Jingwen",
+        "Xu, Pingping",
+        "Zeng, Jingwei",
+        "Yan, Guangbo",
+        "Yu, Fang",
+        "Qin, Liwei",
+        "Zhang, Cheng",
+        "Li, Peng",
+        "Cai, Mengxing",
+        "Mao, Wuxiang",
+        "Chen, Chin-Yu",
+        "Chen, Wanping",
+        "Han, Rui",
+        "Wang, Fei",
+        "Wang, Yang",
+        "Ma, Lixin"
+      ],
+      "short_names": [
+        "Zhao S",
+        "Luo J",
+        "Xu P",
+        "Zeng J",
+        "Yan G",
+        "Yu F",
+        "Qin L",
+        "Zhang C",
+        "Li P",
+        "Cai M",
+        "Mao W",
+        "Chen CY",
+        "Chen W",
+        "Han R",
+        "Wang F",
+        "Wang Y",
+        "Ma L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "Hubei Super-energetic Electric Power Co., Ltd., PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China. Electronic address: wangfei@hubu.edu.cn.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China. Electronic address: yangwang@hubu.edu.cn.",
+        "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China. Electronic address: malixing@hubu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Shuai",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jingwen",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Xu, Pingping",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jingwei",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Yan, Guangbo",
+        "short_name": "Yan G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Yu, Fang",
+        "short_name": "Yu F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Qin, Liwei",
+        "short_name": "Qin L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Cheng",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Peng",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Super-energetic Electric Power Co., Ltd., PR China."
+        ]
+      },
+      {
+        "full_name": "Cai, Mengxing",
+        "short_name": "Cai M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Mao, Wuxiang",
+        "short_name": "Mao W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chin-Yu",
+        "short_name": "Chen CY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wanping",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Han, Rui",
+        "short_name": "Han R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fei",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China. Electronic address: wangfei@hubu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China. Electronic address: yangwang@hubu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ma, Lixin",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocatalysis and Enzyme Engineering, College of Life Sciences, Hubei University, Wuhan 430062, PR China; Hubei Key Laboratory of Industrial Biotechnology, College of Life Sciences, Hubei University, Wuhan 430062, PR China. Electronic address: malixing@hubu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/01 00:27",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42244865",
+      "42203263",
+      "42070207",
+      "42063469",
+      "42046736",
+      "41756301",
+      "41651422",
+      "41481938",
+      "40799364"
+    ],
+    "refs": [],
+    "similar": [
+      "40164264",
+      "32123106",
+      "30335946",
+      "28930682",
+      "33208943",
+      "34774129",
+      "28738086",
+      "10051561",
+      "18280243",
+      "29293322",
+      "15531890",
+      "28754949",
+      "23139781",
+      "16118211",
+      "29095607",
+      "29875773",
+      "9822671",
+      "7780738",
+      "9545252",
+      "30301766",
+      "38864622",
+      "22113614",
+      "26657288",
+      "27141962",
+      "7673244",
+      "27856253",
+      "36400001",
+      "31091078",
+      "27764808",
+      "30409904",
+      "17545502",
+      "24962565",
+      "31042473",
+      "18346918",
+      "33844535",
+      "25762514",
+      "28875978",
+      "8521831",
+      "17088997",
+      "39208743",
+      "24728180",
+      "25957170",
+      "28485934",
+      "22500840",
+      "10577396",
+      "27268204",
+      "27482887",
+      "34625792",
+      "23169640",
+      "9451444",
+      "28471657",
+      "25972089",
+      "32276417",
+      "31247123",
+      "11284708",
+      "9734782",
+      "33893235",
+      "18524763",
+      "12811744",
+      "39456751",
+      "11854457",
+      "34596400",
+      "26699741",
+      "22692198",
+      "8999859",
+      "22493480",
+      "28929458",
+      "31981667",
+      "11094057",
+      "8663159",
+      "23747975",
+      "29969259",
+      "8861969",
+      "38646975",
+      "34287839",
+      "15577913",
+      "22522186",
+      "36377663",
+      "16815642",
+      "12402037",
+      "18452090",
+      "10828065",
+      "25484186",
+      "9838028",
+      "8647134",
+      "25036435",
+      "29917264",
+      "39074669",
+      "9154912",
+      "29262721",
+      "18498247",
+      "29374062",
+      "37556508",
+      "19405121",
+      "36166198",
+      "11929873",
+      "19549844",
+      "12296822",
+      "12881702",
+      "19701248"
+    ],
+    "review": [
+      "40164264",
+      "22500840",
+      "10577396",
+      "23169640",
+      "32276417",
+      "31247123",
+      "39456751",
+      "26699741",
+      "16815642",
+      "18452090",
+      "9838028",
+      "29262721",
+      "29374062"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)03219-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

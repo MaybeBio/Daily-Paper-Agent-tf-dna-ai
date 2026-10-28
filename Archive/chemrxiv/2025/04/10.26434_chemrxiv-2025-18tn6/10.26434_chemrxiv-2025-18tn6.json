@@ -1,0 +1,368 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-18tn6",
+  "title": "Identifying 14-3-3 interactome binding sites with deep learning",
+  "doi": "10.26434/chemrxiv-2025-18tn6",
+  "abstract": "Protein-protein interactions are at the heart of biological processes. Understanding how proteins interact is key for deciphering their roles in health and disease, and for therapeutic interventions. However, identifying protein interaction sites, especially for intrinsically disordered proteins, is challenging. Here, we developed a deep learning framework to predict protein binding sites to 14-3-3 – a ‘central hub’ protein holding a key role in cellular signaling networks. After systematically testing multiple deep learning approaches to predict sequence binding to 14-3-3, we developed an ensemble model achieving a 75% balanced accuracy on external sequences. Our approach was applied prospectively to identify putative binding sites across medically relevant proteins (ranging from highly structured to intrinsically disordered) for a total of approximately 300 sequences. The top eight predictions were experimentally validated in the wet-lab, and binding to 14-3-3 was confirmed for five out of eight sequences (Kd ranging from 1.6 ± 0.1 µM to 70 ± 5 µM). The biological relevance of our results was further confirmed by X-ray crystallography and molecular dynamics simulations. These sequences represent potential new binding sites within the 14-3-3 interactome (e.g., Tau, relating to Alzheimer’s disease), and provide opportunities to investigate their functional relevance. Our results highlight the ability of deep learning to capture intricate patterns underlying protein- protein interactions, even for challenging cases like intrinsically disordered proteins. To further the understanding and targeting of 14-3-3/protein interactions, our model was provided as a freely accessible web resource at the following URL: https://14-3-3-bindsite.streamlit.app/.",
+  "authors": [
+    "Laura van Weesep",
+    "Rıza Özçelik",
+    "Marloes Pennings",
+    "Emanuele Criscuolo",
+    "Christian Ottmann",
+    "Luc Brunsveld",
+    "Francesca Grisoni"
+  ],
+  "published_date": "2025-04-02",
+  "updated_date": "2025-04-03T01:02:12Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-18tn6",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-18tn6",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:45:10Z",
+        "timestamp": 1785415510723,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            2
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                2
+              ]
+            ],
+            "date-time": "2025-04-02T00:00:00Z",
+            "timestamp": 1743552000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000781",
+          "name": "European Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "101077879"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "101077879"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000781",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Protein-protein interactions are at the heart of biological processes. Understanding how proteins interact is key for deciphering their roles in health and disease, and for therapeutic interventions. However, identifying protein interaction sites, especially for intrinsically disordered proteins, is challenging. Here, we developed a deep learning framework to predict protein binding sites to 14-3-3 – a ‘central hub’ protein holding a key role in cellular signaling networks. After systematically testing multiple deep learning approaches to predict sequence binding to 14-3-3, we developed an ensemble model achieving a 75% balanced accuracy on external sequences. Our approach was applied prospectively to identify putative binding sites across medically relevant proteins (ranging from highly structured to intrinsically disordered) for a total of approximately 300 sequences. The top eight predictions were experimentally validated in the wet-lab, and binding to 14-3-3 was confirmed for five out of eight sequences (Kd ranging from 1.6 ± 0.1 µM to 70 ± 5 µM). The biological relevance of our results was further confirmed by X-ray crystallography and molecular dynamics simulations. These sequences represent potential new binding sites within the 14-3-3 interactome (e.g., Tau, relating to Alzheimer’s disease), and provide opportunities to investigate their functional relevance. Our results highlight the ability of deep learning to capture intricate patterns underlying protein- protein interactions, even for challenging cases like intrinsically disordered proteins. To further the understanding and targeting of 14-3-3/protein interactions, our model was provided as a freely accessible web resource at the following URL: https://14-3-3-bindsite.streamlit.app/.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-18tn6",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            3
+          ]
+        ],
+        "date-time": "2025-04-03T01:02:12Z",
+        "timestamp": 1743642132000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Identifying 14-3-3 interactome binding sites with deep learning"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0009-5524-7960",
+          "authenticated-orcid": false,
+          "given": "Laura",
+          "family": "van Weesep",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02c2kyt77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Eindhoven University of Technology",
+              "place": [
+                "The Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4052-9721",
+          "authenticated-orcid": false,
+          "given": "Rıza",
+          "family": "Özçelik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02c2kyt77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Eindhoven University of Technology",
+              "place": [
+                "The Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marloes",
+          "family": "Pennings",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02c2kyt77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Eindhoven University of Technology",
+              "place": [
+                "The Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emanuele",
+          "family": "Criscuolo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02c2kyt77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Eindhoven University of Technology",
+              "place": [
+                "The Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Ottmann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02c2kyt77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Eindhoven University of Technology",
+              "place": [
+                "The Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luc",
+          "family": "Brunsveld",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02c2kyt77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Eindhoven University of Technology",
+              "place": [
+                "The Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Francesca",
+          "family": "Grisoni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02c2kyt77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Eindhoven University of Technology",
+              "place": [
+                "The Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-18tn6",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T08:56:28Z",
+        "timestamp": 1778748988000
+      },
+      "score": 86.87601,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-18tn6"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            2
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-18tn6",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1039/D5DD00132C",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

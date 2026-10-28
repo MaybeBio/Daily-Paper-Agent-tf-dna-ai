@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose GMFGRN, a method combining matrix factorization and graph neural networks for gene regulatory network inference from scRNA-seq data. They claim mean AUROC and AUPRC improvements of 1.9% and 2.5% over the runner-up across eight static datasets, maximum improvements of 2.4% and 1.3% across four time-series datasets, and training time and memory consumption below 10% of the second-best method.
+- **Visible evidence base** Abstract text only; benchmarking results are summarized numerically without statistical detail or dataset-specific breakdowns
+- **Missing materials affecting confidence** Full methods, dataset descriptions, baseline configurations, hyperparameter settings, statistical significance tests, runtime measurement protocols, and code verification are not available
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach with modest but consistent performance gains and substantial efficiency improvements. However, the evidence provided is insufficient to evaluate methodological novelty, robustness of the benchmarking, or the validity of the efficiency claims. The reported improvements are small in absolute terms, and without statistical testing or variance information, their significance cannot be assessed.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics focused on gene regulatory network inference from single-cell data, particularly those interested in scalable deep learning approaches. The efficiency gains could appeal to practitioners working with large-scale datasets where computational cost is a bottleneck.
+- **Major strengths** The proposed method addresses a practical limitation, namely computational cost, which is a recognized barrier in GRN inference. The benchmarking across multiple static and time-series datasets provides some breadth. The reported efficiency improvement, if reproducible, would be a meaningful contribution.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The claim of mean improvements of 1.9% and 2.5% in AUROC and AUPRC over the runner-up across eight static datasets
+  - **Evidence pointer** Abstract, benchmarking results section (location not provided)
+  - **Concern** The abstract reports only mean improvements without any measure of variance, confidence intervals, or statistical significance tests. It is unclear whether these differences are consistent across datasets or driven by a few outliers.
+  - **Why it matters** Without statistical validation, the reported performance gains could be within noise, especially given the small absolute margins. This undermines the core claim of improved accuracy.
+  - **Resolution test** Provide per-dataset results, standard deviations, and significance tests (e.g., Wilcoxon signed-rank test) comparing GMFGRN to each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological novelty
+  - **Claim pointer** The claim that GMFGRN is a "novel method" combining matrix factorization and GNN for GRN inference
+  - **Evidence pointer** Abstract, methods description (location not provided)
+  - **Concern** The abstract does not explain how the matrix factorization and GNN components are integrated, nor what distinguishes this approach from existing GNN-based GRN inference methods. Without this detail, the novelty claim cannot be evaluated.
+  - **Why it matters** If the combination is trivial or similar to existing work, the contribution may be incremental. The scientific value depends on a clear articulation of the methodological innovation.
+  - **Resolution test** Provide a detailed methods section that specifies the model architecture, the role of matrix factorization, and a comparison to prior GNN-based GRN methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Efficiency claim validity
+  - **Claim pointer** The claim that training time and memory consumption are less than 10% of the second-best method
+  - **Evidence pointer** Abstract, efficiency benchmarking (location not provided)
+  - **Concern** The abstract does not specify which method is the "second-best," the hardware used, the dataset sizes, or the measurement protocol. Efficiency comparisons are highly sensitive to implementation and environment.
+  - **Why it matters** Without these details, the efficiency claim cannot be reproduced or verified, and it may not generalize to other settings.
+  - **Resolution test** Report hardware specifications, dataset dimensions, and a clear definition of the comparison baseline. Provide runtime and memory measurements for all methods under identical conditions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability statement
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The GitHub link is provided, but there is no mention of a version, license, or documentation for reproducing the reported results.
+  - **Required correction** Specify the software version, dependencies, and provide a reproducible pipeline or container.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Benchmarking description
+  - **Evidence pointer** Abstract, benchmarking results
+  - **Issue** The abstract does not state which baseline methods were compared or how they were configured, making it difficult to judge the fairness of the comparison.
+  - **Required correction** List all baseline methods and their parameter settings in the main text or supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Time-series results
+  - **Evidence pointer** Abstract, time-series benchmarking
+  - **Issue** The maximum improvements of 2.4% and 1.3% are reported without context on whether these are consistent across the four datasets or represent a single best case.
+  - **Required correction** Report per-dataset results for time-series experiments to clarify the distribution of performance gains.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validity), R1-M2 (methodological novelty), R1-M3 (efficiency claim validity)
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract alone. The combination of matrix factorization and GNN is not inherently novel, but the specific implementation could be. This requires the full methods.
+  - Scientific importance: Moderate. GRN inference is an active field, and efficiency improvements are valuable, but the accuracy gains are small and may not represent a significant advance.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and machine learning researchers working on genomics. It is unlikely to attract a broad interdisciplinary audience.
+  - Technical soundness: Not assessable. The abstract lacks the detail needed to evaluate the correctness of the approach or the benchmarking methodology.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., AUROC, AUPRC) without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful method, but the lack of statistical validation, methodological detail, and efficiency measurement context prevents a supportive recommendation. The authors should be encouraged to resubmit with full methods and rigorous benchmarking.
+
+## Risk / unsupported claims
+- The claim of "novel method" is unsupported without a detailed methods description.
+- The reported accuracy improvements are unsupported without statistical significance testing.
+- The efficiency claim (time and memory <10%) is unsupported without hardware, baseline, and measurement details.
+- The generalizability of the method across diverse datasets is not assessable from the abstract alone.

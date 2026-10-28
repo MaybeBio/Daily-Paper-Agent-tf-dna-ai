@@ -1,0 +1,5 @@
+# SARS-CoV-2 exploits cellular RAD51 to promote viral propagation: implication of RAD51 inhibitor as a potential drug candidate against COVID-19
+
+
+## IMPORTANCE
+  Viruses are constantly evolving to promote propagation in the host. Here, we show that severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) utilizes host RAD51 for replication. Silencing of RAD51 impaired SARS-CoV-2 propagation. Viral RNA colocalized with RAD51 in the cytoplasm of SARS-CoV-2-infected cells, suggesting that both viral RNA and RAD51 may form a replication complex. We, therefore, evaluated RAD51 inhibitors as possible therapeutic agents against SARS-CoV-2. Indeed, RAD51 inhibitors exerted antiviral activities against not only Wuhan but also variants of SARS-CoV-2. Molecular docking model shows that RAD51 inhibitors impede SARS-CoV-2 propagation by interfering with dimerization of RAD51. These data suggest that RAD51 may represent a novel host-based drug target for coronavirus disease 2019 treatment.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37873116",
+  "title": "Transcription factor stoichiometry, motif affinity and syntax regulate single-cell chromatin dynamics during fibroblast reprogramming to pluripotency.",
+  "authors": "Nair, Surag; Ameen, Mohamed; Sundaram, Laksshman; Pampari, Anusri; Schreiber, Jacob; Balsubramani, Akshay; Wang, Yu Xin; Burns, David; Blau, Helen M; Karakikes, Ioannis; Wang, Kevin C; Kundaje, Anshul",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-10-24",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用神经网络从单细胞ATAC-seq数据预测TF结合位点并解析OSKM重编程中TF浓度与基序亲和力对染色质动态的调控，虽聚焦重编程而非直接建模TF-DNA三维互作，但方法可迁移至TF-DNA结合预测研究。",
+  "abstract": "Ectopic expression of OCT4, SOX2, KLF4 and MYC (OSKM) transforms differentiated cells into induced pluripotent stem cells. To refine our mechanistic understanding of reprogramming, especially during the early stages, we profiled chromatin accessibility and gene expression at single-cell resolution across a densely sampled time course of human fibroblast reprogramming. Using neural networks that map DNA sequence to ATAC-seq profiles at base-resolution, we annotated cell-state-specific predictive transcription factor (TF) motif syntax in regulatory elements, inferred affinity- and concentration-dependent dynamics of Tn5-bias corrected TF footprints, linked peaks to putative target genes, and elucidated rewiring of TF-to-gene cis-regulatory networks. Our models reveal that early in reprogramming, OSK, at supraphysiological concentrations, rapidly open transient regulatory elements by occupying non-canonical low-affinity binding sites. As OSK concentration falls, the accessibility of these transient elements decays as a function of motif affinity. We find that these OSK-dependent transient elements sequester the somatic TF AP-1. This redistribution is strongly associated with the silencing of fibroblast-specific genes within individual nuclei. Together, our integrated single-cell resource and models reveal insights into the cis-regulatory code of reprogramming at unprecedented resolution, connect TF stoichiometry and motif syntax to diversification of cell fate trajectories, and provide new perspectives on the dynamics and role of transient regulatory elements in somatic silencing.",
+  "abstract_zh": "OCT4、SOX2、KLF4和MYC（OSKM）的异位表达将分化细胞转化为诱导多能干细胞。为了深化我们对重编程机制的理解，尤其是在早期阶段，我们在人类成纤维细胞重编程的密集采样时间过程中，以单细胞分辨率分析了染色质可及性和基因表达。利用将DNA序列映射至碱基分辨率ATAC-seq谱的神经网络，我们注释了调控元件中细胞状态特异性的预测转录因子（TF）基序语法，推断出Tn5偏差校正的TF足迹的亲和力和浓度依赖性动态，将峰连接至推定靶基因，并阐明了TF到基因顺式调控网络的重连。我们的模型揭示，在重编程早期，OSK以超生理浓度通过占据非经典低亲和力结合位点迅速打开瞬时调控元件。随着OSK浓度下降，这些瞬时元件的可及性随基序亲和力函数而衰减。我们发现这些OSK依赖性瞬时元件隔离了体细胞TF AP-1。这种重新分布与单个细胞核内成纤维细胞特异性基因的沉默密切相关。综合来看，我们的整合单细胞资源和模型以前所未有的分辨率揭示了重编程的顺式调控代码，将TF化学计量和基序语法与细胞命运轨迹的多样化联系起来，并为瞬时调控元件在体细胞沉默中的动态和作用提供了新视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37873116/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37873116/",
+  "paper_page_path": "papers/pubmed/37873116/index.html"
+}

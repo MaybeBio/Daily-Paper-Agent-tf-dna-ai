@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "39829783",
+    "doi": "10.1101/2024.12.25.630221",
+    "title": "ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility reveal cis-regulatory sequence syntax, transcription factor footprints and regulatory variants."
+  },
+  "content": {
+    "abstract": "Despite extensive mapping of cis-regulatory elements (cREs) across cellular contexts with chromatin accessibility assays, the sequence syntax and genetic variants that regulate transcription factor (TF) binding and chromatin accessibility at context-specific cREs remain elusive. We introduce ChromBPNet, a deep learning DNA sequence model of base-resolution accessibility profiles that detects, learns and deconvolves assay-specific enzyme biases from regulatory sequence determinants of accessibility, enabling robust discovery of compact TF motif lexicons, cooperative motif syntax and precision footprints across assays and sequencing depths. Extensive benchmarks show that ChromBPNet, despite its lightweight design, is competitive with much larger contemporary models at predicting variant effects on chromatin accessibility, pioneer TF binding and reporter activity across assays, cell contexts and ancestry, while providing interpretation of disrupted regulatory syntax. ChromBPNet also helps prioritize and interpret regulatory variants that influence complex traits and rare diseases, thereby providing a powerful lens to decode regulatory DNA and genetic variation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pampari, Anusri",
+        "Shcherbina, Anna",
+        "Kvon, Evgeny Z",
+        "Kosicki, Michael",
+        "Nair, Surag",
+        "Kundu, Soumya",
+        "Kathiria, Arwa S",
+        "Risca, Viviana I",
+        "Kuningas, Kristiina",
+        "Alasoo, Kaur",
+        "Greenleaf, William James",
+        "Pennacchio, Len A",
+        "Kundaje, Anshul"
+      ],
+      "short_names": [
+        "Pampari A",
+        "Shcherbina A",
+        "Kvon EZ",
+        "Kosicki M",
+        "Nair S",
+        "Kundu S",
+        "Kathiria AS",
+        "Risca VI",
+        "Kuningas K",
+        "Alasoo K",
+        "Greenleaf WJ",
+        "Pennacchio LA",
+        "Kundaje A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6579-4070",
+        "ORCID: 0000-0002-1562-0945",
+        "ORCID: 0000-0001-7173-8852",
+        "ORCID: 0000-0002-6216-2457",
+        "ORCID: 0000-0002-1761-8881",
+        "ORCID: 0000-0003-3084-2287"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Stanford University, Stanford CA, 94305.",
+        "Department of Biomedical Data Sciences, Stanford University, Stanford CA, 94305.",
+        "Department of Developmental and Cell Biology, University of California, Irvine, CA 92697, USA.",
+        "Environmental Genomics & System Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "Department of Computer Science, Stanford University, Stanford CA, 94305.",
+        "Department of Computer Science, Stanford University, Stanford CA, 94305.",
+        "Department of Genetics, Stanford University, Stanford CA, 94305.",
+        "Department of Genetics, Stanford University, Stanford CA, 94305.",
+        "Institute of Computer Science, University of Tartu, Tartu, Estonia.",
+        "Institute of Computer Science, University of Tartu, Tartu, Estonia.",
+        "Department of Genetics, Stanford University, Stanford CA, 94305.",
+        "Department of Applied Physics, Stanford University, Stanford, California 94305, USA.",
+        "Environmental Genomics & System Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "Department of Computer Science, Stanford University, Stanford CA, 94305.",
+        "Department of Genetics, Stanford University, Stanford CA, 94305."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pampari, Anusri",
+        "short_name": "Pampari A",
+        "identifiers": [
+          "0000-0002-6579-4070"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford CA, 94305."
+        ]
+      },
+      {
+        "full_name": "Shcherbina, Anna",
+        "short_name": "Shcherbina A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Data Sciences, Stanford University, Stanford CA, 94305."
+        ]
+      },
+      {
+        "full_name": "Kvon, Evgeny Z",
+        "short_name": "Kvon EZ",
+        "identifiers": [
+          "0000-0002-1562-0945"
+        ],
+        "affiliations": [
+          "Department of Developmental and Cell Biology, University of California, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Kosicki, Michael",
+        "short_name": "Kosicki M",
+        "identifiers": [
+          "0000-0001-7173-8852"
+        ],
+        "affiliations": [
+          "Environmental Genomics & System Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Nair, Surag",
+        "short_name": "Nair S",
+        "identifiers": [
+          "0000-0002-6216-2457"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford CA, 94305."
+        ]
+      },
+      {
+        "full_name": "Kundu, Soumya",
+        "short_name": "Kundu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford CA, 94305."
+        ]
+      },
+      {
+        "full_name": "Kathiria, Arwa S",
+        "short_name": "Kathiria AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford CA, 94305."
+        ]
+      },
+      {
+        "full_name": "Risca, Viviana I",
+        "short_name": "Risca VI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford CA, 94305."
+        ]
+      },
+      {
+        "full_name": "Kuningas, Kristiina",
+        "short_name": "Kuningas K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computer Science, University of Tartu, Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Alasoo, Kaur",
+        "short_name": "Alasoo K",
+        "identifiers": [
+          "0000-0002-1761-8881"
+        ],
+        "affiliations": [
+          "Institute of Computer Science, University of Tartu, Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William James",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford CA, 94305.",
+          "Department of Applied Physics, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Pennacchio, Len A",
+        "short_name": "Pennacchio LA",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental Genomics & System Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford CA, 94305.",
+          "Department of Genetics, Stanford University, Stanford CA, 94305."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jan 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/20 22:53",
+    "fetched_at": "2026-10-05 02:29:20"
+  },
+  "links": {
+    "cites": [
+      "42430021",
+      "42051590"
+    ],
+    "refs": [
+      "39779956",
+      "39394483",
+      "39284975",
+      "39163202",
+      "38781344",
+      "38749504",
+      "38086419",
+      "38036790",
+      "38036778",
+      "37971305",
+      "37824643",
+      "37733848",
+      "37721944",
+      "37557175",
+      "37274120",
+      "37173523",
+      "36973806",
+      "36563664",
+      "36350656",
+      "35931864",
+      "35831531",
+      "35817977",
+      "35590109",
+      "35551305",
+      "34975398",
+      "34913122",
+      "34774128",
+      "34699533",
+      "34650237",
+      "34608324",
+      "34390642",
+      "34099641",
+      "33983921",
+      "33705711",
+      "33637709",
+      "33603233",
+      "33184180",
+      "33134611",
+      "33106633",
+      "32978299",
+      "32886547",
+      "32848148",
+      "32732264",
+      "32728250",
+      "32728249",
+      "32728217",
+      "32660981",
+      "32320667",
+      "32043966",
+      "31784727",
+      "31510655",
+      "31395865",
+      "31375813",
+      "31235917",
+      "31106481",
+      "30808370",
+      "30478436",
+      "30423062",
+      "30361341",
+      "30177862",
+      "29786094",
+      "29588361",
+      "29434377",
+      "29276005",
+      "29217575",
+      "29126307",
+      "28968519",
+      "28904015",
+      "28764645",
+      "28537572",
+      "28349863",
+      "28135719",
+      "27993786",
+      "27471964",
+      "27197224",
+      "27197208",
+      "27153639",
+      "27152947",
+      "27087447",
+      "26914206",
+      "26914205",
+      "26901649",
+      "26901046",
+      "26642241",
+      "26472909",
+      "26314830",
+      "26301843",
+      "26295846",
+      "26083756",
+      "26075791",
+      "25957350",
+      "25953818",
+      "25751057",
+      "25693563",
+      "25559105",
+      "25533962",
+      "25409824",
+      "25363760",
+      "25294828",
+      "25242143",
+      "24441470",
+      "24391522",
+      "24317252",
+      "24097267",
+      "24071585",
+      "23922824",
+      "22983707",
+      "22955990",
+      "22955986",
+      "22955828",
+      "22955619",
+      "22955618",
+      "22955617",
+      "22955616",
+      "22889292",
+      "22792075",
+      "22307276",
+      "22304916",
+      "22153082",
+      "22090374",
+      "22056668",
+      "22025700",
+      "21526222",
+      "21143862",
+      "21106904",
+      "21106903",
+      "20230745",
+      "20107516",
+      "20064376",
+      "19773334",
+      "19305407",
+      "19135437",
+      "18243105",
+      "18206362",
+      "17603471",
+      "17558387",
+      "17540862",
+      "17512414",
+      "17324271",
+      "16750631",
+      "16344561",
+      "15782197",
+      "15247917",
+      "15131651",
+      "15070753",
+      "14660545",
+      "11701330",
+      "9516433",
+      "6774262",
+      "6276024",
+      "6264428",
+      "6030331",
+      "3052270",
+      "2660824"
+    ],
+    "similar": [
+      "39829783",
+      "37214836",
+      "38853896",
+      "42475469",
+      "37873116",
+      "39975126",
+      "41951735",
+      "28193859",
+      "33603233",
+      "40791531",
+      "40672290",
+      "34650237",
+      "36902216",
+      "42542664",
+      "38853998",
+      "40655014",
+      "31510655",
+      "31206543",
+      "32728250",
+      "39843737",
+      "40780181",
+      "39090688",
+      "31114856",
+      "37557175",
+      "42641603",
+      "28334916",
+      "40827700",
+      "34488759",
+      "35435921",
+      "42395544",
+      "33832990",
+      "40020686",
+      "30423062",
+      "42739369",
+      "34462306",
+      "30567711",
+      "33134611",
+      "39026761",
+      "41924246",
+      "42216449",
+      "38358392",
+      "42401553",
+      "41724964",
+      "42234579",
+      "31053165",
+      "22534400",
+      "22955984",
+      "42236716",
+      "39814021",
+      "37034577",
+      "38092918",
+      "29074739",
+      "32973041",
+      "42298188",
+      "28576882",
+      "36807077",
+      "31136738",
+      "41332771",
+      "41676719",
+      "29472540",
+      "39326643",
+      "40127931",
+      "34486522",
+      "38012720",
+      "36742369",
+      "31639474",
+      "28750606",
+      "37292820",
+      "40667078",
+      "38124496",
+      "40764843",
+      "34898596",
+      "25944915",
+      "40245149",
+      "33990600",
+      "37569400",
+      "35293310",
+      "35863348",
+      "38940155",
+      "37090616",
+      "40421528",
+      "36927507",
+      "41646693",
+      "42056104",
+      "36130957",
+      "23935523",
+      "40931195",
+      "26083756",
+      "40777328",
+      "36723807",
+      "39107801",
+      "37525156",
+      "37066152",
+      "35045977",
+      "41959049",
+      "42586070",
+      "25294828",
+      "30016497",
+      "42481940",
+      "36563664"
+    ],
+    "review": [
+      "39829783",
+      "42739369"
+    ],
+    "pmc": [
+      "11741299"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39829783/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39829783",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.25.630221",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

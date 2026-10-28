@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "40076546",
+    "doi": "10.3390/ijms26051916",
+    "title": "Unveiling Novel miRNA-mRNA Interactions and Their Prognostic Roles in Triple-Negative Breast Cancer: Insights into miR-210, miR-183, miR-21, and miR-181b."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer (TNBC) poses a major clinical challenge due to its aggressive progression and limited treatment options, making early diagnosis and prognosis critical. MicroRNAs (miRNAs) are crucial post-transcriptional regulators that influence gene expression. In this study, we unveil novel miRNA-mRNA interactions and introduce a prognostic model based on miRNA-target interaction (MTI), integrating miRNA-mRNA regulatory correlation inference and the machine learning method to effectively predict the survival outcomes in TNBC cohorts. Using this method, we identified four key miRNAs (miR-181b-5p, miR-21-5p, miR-210-3p, miR-183-5p) targeting eight downstream target genes, forming a novel regulatory network of 19 validated miRNA-mRNA pairs. A prognostic model constructed based on the top 10 significant MTI pairs using random forest combination effectively classified patient survival outcomes in both TCGA and independent dataset GSE19783 cohorts, demonstrating good predictive accuracy and valuable prognostic insights for TNBC patients. Further analysis uncovered a complex network of 71 coherent feed-forward loops involving transcription factors, miRNAs, and target genes, shedding light on the mechanisms driving TNBC progression. This study underscores the importance of considering regulatory networks in cancer prognosis and provides a foundation for new therapeutic strategies aimed at improving TNBC treatment outcomes.",
+    "keywords": [
+      "machine learning",
+      "miRNA-target interaction",
+      "prognosis",
+      "regulatory network",
+      "triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*MicroRNAs/genetics/metabolism",
+      "*Triple Negative Breast Neoplasms/genetics/mortality/pathology",
+      "Female",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "*RNA, Messenger/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Jiatong",
+        "Cai, Xiaoxuan",
+        "Huang, Junyang",
+        "Huang, Hsi-Yuan",
+        "Wang, Yong-Fei",
+        "Ji, Xiang",
+        "Huang, Yuxin",
+        "Ni, Jie",
+        "Zuo, Huali",
+        "Li, Shangfu",
+        "Lin, Yang-Chi-Dung",
+        "Huang, Hsien-Da"
+      ],
+      "short_names": [
+        "Xu J",
+        "Cai X",
+        "Huang J",
+        "Huang HY",
+        "Wang YF",
+        "Ji X",
+        "Huang Y",
+        "Ni J",
+        "Zuo H",
+        "Li S",
+        "Lin YC",
+        "Huang HD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8453-4939",
+        "ORCID: 0000-0002-1260-6291",
+        "ORCID: 0000-0002-0359-2481"
+      ],
+      "affiliations": [
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Jiatong",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Xiaoxuan",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Junyang",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsi-Yuan",
+        "short_name": "Huang HY",
+        "identifiers": [
+          "0000-0001-8453-4939"
+        ],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong-Fei",
+        "short_name": "Wang YF",
+        "identifiers": [
+          "0000-0002-1260-6291"
+        ],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Xiang",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuxin",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Jie",
+        "short_name": "Ni J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Huali",
+        "short_name": "Zuo H",
+        "identifiers": [
+          "0000-0002-0359-2481"
+        ],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shangfu",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yang-Chi-Dung",
+        "short_name": "Lin YC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsien-Da",
+        "short_name": "Huang HD",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Feb 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/13 06:27",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "40498676"
+    ],
+    "refs": [
+      "39580931",
+      "39049985",
+      "38468326",
+      "38132457",
+      "38062163",
+      "37686305",
+      "36829472",
+      "36611419",
+      "36371182",
+      "36077333",
+      "35987766",
+      "35338412",
+      "35328035",
+      "35031634",
+      "34944876",
+      "34850920",
+      "34771690",
+      "34561554",
+      "34557778",
+      "32696617",
+      "32517735",
+      "32444850",
+      "32085745",
+      "31590453",
+      "31319941",
+      "30333855",
+      "29425488",
+      "28386324",
+      "27941681",
+      "27317695",
+      "25809609",
+      "25791601",
+      "25516281",
+      "23524334",
+      "23012297",
+      "21037871",
+      "20799968",
+      "19478799",
+      "19088304",
+      "16845047",
+      "16455747",
+      "16381825",
+      "14597658",
+      "12842083",
+      "10592173"
+    ],
+    "similar": [
+      "40076546",
+      "37871689",
+      "40034665",
+      "34315420",
+      "32754277",
+      "33918859",
+      "28038450",
+      "38914980",
+      "39769441",
+      "40287845",
+      "31649243",
+      "39594666",
+      "28629464",
+      "37081516",
+      "30308479",
+      "32605588",
+      "31647320",
+      "33126129",
+      "24788655",
+      "29192413",
+      "33428596",
+      "38601669",
+      "29126392",
+      "25547678",
+      "26062749",
+      "30704524",
+      "28498428",
+      "29725243",
+      "25888956",
+      "29258605",
+      "35313857",
+      "39936877",
+      "37378935",
+      "30488443",
+      "30621700",
+      "27404381",
+      "28069384",
+      "33390802",
+      "31929841",
+      "31004703",
+      "34326372",
+      "33744419",
+      "30859354",
+      "28571042",
+      "25319390",
+      "30744636",
+      "26629823",
+      "39516222",
+      "36681070",
+      "24945253",
+      "33251982",
+      "29864933",
+      "34840985",
+      "31926937",
+      "34053447",
+      "38547309",
+      "34797837",
+      "37344703",
+      "27842518",
+      "32593278",
+      "32085745",
+      "37421840",
+      "33678324",
+      "24632568",
+      "36502883",
+      "36645554",
+      "33664322",
+      "38944356",
+      "31841197",
+      "30228364",
+      "35008626",
+      "29310680",
+      "30342533",
+      "26062653",
+      "33368266",
+      "31190375",
+      "38424172",
+      "37351977",
+      "35715772",
+      "31883894",
+      "31017699",
+      "28739740",
+      "30913346",
+      "34863149",
+      "28054302",
+      "31694904",
+      "38473871",
+      "34978519",
+      "32961635",
+      "32938310",
+      "30709367",
+      "36902482",
+      "28627677",
+      "29380534",
+      "40203985",
+      "39689602",
+      "31513434",
+      "32058222",
+      "35241117",
+      "31766744"
+    ],
+    "review": [
+      "40076546",
+      "30488443",
+      "32593278",
+      "37421840",
+      "38473871"
+    ],
+    "pmc": [
+      "11899986"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26051916",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40076546/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

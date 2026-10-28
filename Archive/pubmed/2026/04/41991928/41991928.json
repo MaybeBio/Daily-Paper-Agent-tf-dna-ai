@@ -1,0 +1,479 @@
+{
+  "identity": {
+    "pmid": "41991928",
+    "doi": "10.1038/s41467-026-72034-2",
+    "title": "Discovery of an Endonuclease G-inhibitory Ku80-peptide protecting against leukemogenic rearrangements at the MLL breakpoint cluster."
+  },
+  "content": {
+    "abstract": "Endonuclease G (EndoG) is an evolutionarily conserved enzyme that cleaves the Mixed Lineage Leukemia breakpoint cluster region (MLLbcr) under sublethal chemotherapeutic treatment conditions, causing leukemogenic chromosomal rearrangements. While endogenous inhibitors (EndoGI) control EndoG in lower organisms, no such EndoGI has been identified in mammalian cells. Due to the structural similarity of EndoGI from Drosophila melanogaster to the C-terminus (Ct) of human Ku80, we perform immunoprecipitation, surface plasmon resonance analysis and 3D molecular modeling, revealing binding of human EndoG to Ku80-Ct putatively between amino acid 110-184. Docking modeling predicts EndoGI-like peptides clustering around residues 686-707 of Ku80. Our experimental studies provide evidence that Ku80-Ct and 28-mer peptide Ku3 reduce MLLbcr breakage after doxorubicin treatment independently of DNA-PK activity. Proximity ligation and single molecule tracking studies show that Ku3 antagonizes Ku80-EndoG association and modulates chromatin-binding of EndoG. Such MLLbcr protection blocks EndoG s pro-tumorigenic functions without limiting cytotoxicity, pursued for co-treatments that reduce secondary leukemia, a severe side effect of chemotherapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Ku Autoantigen/metabolism/chemistry/genetics",
+      "*Myeloid-Lymphoid Leukemia Protein/genetics/metabolism",
+      "Animals",
+      "*Endodeoxyribonucleases/metabolism/antagonists & inhibitors/chemistry/genetics",
+      "*Leukemia/genetics",
+      "*Histone-Lysine N-Methyltransferase/genetics",
+      "*Peptides/metabolism/chemistry/pharmacology",
+      "Doxorubicin/pharmacology",
+      "Drosophila melanogaster",
+      "Chromatin/metabolism",
+      "Protein Binding",
+      "Cell Line, Tumor",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Eberle, Julia",
+        "Salem, Ahmed",
+        "Hofmann, Mara",
+        "Reisser, Anja",
+        "Ruiz-Blanco, Yasser B",
+        "Almeida-Hernandez, Yasser",
+        "Gole, Boris",
+        "Rall-Scharpf, Melanie",
+        "Angulo-Capel, Jessica",
+        "Monecke, Thomas",
+        "Sanchez-Garcia, Elsa",
+        "Gebhardt, J Christof M",
+        "Wiesmuller, Lisa"
+      ],
+      "short_names": [
+        "Eberle J",
+        "Salem A",
+        "Hofmann M",
+        "Reisser A",
+        "Ruiz-Blanco YB",
+        "Almeida-Hernandez Y",
+        "Gole B",
+        "Rall-Scharpf M",
+        "Angulo-Capel J",
+        "Monecke T",
+        "Sanchez-Garcia E",
+        "Gebhardt JCM",
+        "Wiesmuller L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5115-1779",
+        "ORCID: 0000-0001-9832-3534",
+        "ORCID: 0000-0003-2991-5223",
+        "ORCID: 0000-0001-9661-2148",
+        "ORCID: 0000-0003-3748-710X",
+        "ORCID: 0000-0002-9211-5803",
+        "ORCID: 0000-0003-1900-600X",
+        "ORCID: 0000-0002-2397-5041"
+      ],
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany.",
+        "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany.",
+        "Department of Physics, Institute of Biophysics, Ulm University, Ulm, Germany.",
+        "Department of Physics, Institute of Experimental Physics, Ulm University, Ulm, Germany.",
+        "Department of Physics, Institute of Biophysics, Ulm University, Ulm, Germany.",
+        "Department of Biology, Computational Biochemistry, University of Duisburg-Essen, Essen, Germany.",
+        "Department of Biochemical and Chemical Engineering, Chair of Computational Bioengineering, Technical University Dortmund, Dortmund, Germany.",
+        "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany.",
+        "Centre for human molecular genetics and pharmacogenomics, Faculty of Medicine, University of Maribor, SI, Maribor, Slovenia.",
+        "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany.",
+        "Department of Physics, Institute of Biophysics, Ulm University, Ulm, Germany.",
+        "Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), 149-153, Barcelona, Spain.",
+        "Institute of Pharmaceutical Biotechnology, Ulm University, James-Franck-Ring N27, Ulm, Germany.",
+        "Department of Biology, Computational Biochemistry, University of Duisburg-Essen, Essen, Germany. elsa.sanchez@tu-dortmund.de.",
+        "Department of Biochemical and Chemical Engineering, Chair of Computational Bioengineering, Technical University Dortmund, Dortmund, Germany. elsa.sanchez@tu-dortmund.de.",
+        "Department of Physics, Institute of Biophysics, Ulm University, Ulm, Germany. christof.gebhardt@uni-ulm.de.",
+        "Department of Physics, Institute of Experimental Physics, Ulm University, Ulm, Germany. christof.gebhardt@uni-ulm.de.",
+        "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany. lisa.wiesmueller@uni-ulm.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Eberle, Julia",
+        "short_name": "Eberle J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Salem, Ahmed",
+        "short_name": "Salem A",
+        "identifiers": [
+          "0000-0002-5115-1779"
+        ],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Hofmann, Mara",
+        "short_name": "Hofmann M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Institute of Biophysics, Ulm University, Ulm, Germany.",
+          "Department of Physics, Institute of Experimental Physics, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Reisser, Anja",
+        "short_name": "Reisser A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Institute of Biophysics, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Ruiz-Blanco, Yasser B",
+        "short_name": "Ruiz-Blanco YB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Computational Biochemistry, University of Duisburg-Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Almeida-Hernandez, Yasser",
+        "short_name": "Almeida-Hernandez Y",
+        "identifiers": [
+          "0000-0001-9832-3534"
+        ],
+        "affiliations": [
+          "Department of Biochemical and Chemical Engineering, Chair of Computational Bioengineering, Technical University Dortmund, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Gole, Boris",
+        "short_name": "Gole B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany.",
+          "Centre for human molecular genetics and pharmacogenomics, Faculty of Medicine, University of Maribor, SI, Maribor, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Rall-Scharpf, Melanie",
+        "short_name": "Rall-Scharpf M",
+        "identifiers": [
+          "0000-0003-2991-5223"
+        ],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Angulo-Capel, Jessica",
+        "short_name": "Angulo-Capel J",
+        "identifiers": [
+          "0000-0001-9661-2148"
+        ],
+        "affiliations": [
+          "Department of Physics, Institute of Biophysics, Ulm University, Ulm, Germany.",
+          "Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), 149-153, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Monecke, Thomas",
+        "short_name": "Monecke T",
+        "identifiers": [
+          "0000-0003-3748-710X"
+        ],
+        "affiliations": [
+          "Institute of Pharmaceutical Biotechnology, Ulm University, James-Franck-Ring N27, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Sanchez-Garcia, Elsa",
+        "short_name": "Sanchez-Garcia E",
+        "identifiers": [
+          "0000-0002-9211-5803"
+        ],
+        "affiliations": [
+          "Department of Biology, Computational Biochemistry, University of Duisburg-Essen, Essen, Germany. elsa.sanchez@tu-dortmund.de.",
+          "Department of Biochemical and Chemical Engineering, Chair of Computational Bioengineering, Technical University Dortmund, Dortmund, Germany. elsa.sanchez@tu-dortmund.de."
+        ]
+      },
+      {
+        "full_name": "Gebhardt, J Christof M",
+        "short_name": "Gebhardt JCM",
+        "identifiers": [
+          "0000-0003-1900-600X"
+        ],
+        "affiliations": [
+          "Department of Physics, Institute of Biophysics, Ulm University, Ulm, Germany. christof.gebhardt@uni-ulm.de.",
+          "Department of Physics, Institute of Experimental Physics, Ulm University, Ulm, Germany. christof.gebhardt@uni-ulm.de."
+        ]
+      },
+      {
+        "full_name": "Wiesmüller, Lisa",
+        "short_name": "Wiesmüller L",
+        "identifiers": [
+          "0000-0002-2397-5041"
+        ],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Ulm University, Ulm, Germany. lisa.wiesmueller@uni-ulm.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Apr 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/17 00:34",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39893191",
+      "39058590",
+      "37629112",
+      "37019990",
+      "36997393",
+      "36394256",
+      "36130596",
+      "35627264",
+      "35482866",
+      "34626548",
+      "34222016",
+      "34200309",
+      "33947895",
+      "32103174",
+      "32095813",
+      "32019978",
+      "30865258",
+      "30768790",
+      "30585729",
+      "29719607",
+      "29590584",
+      "29215009",
+      "29181122",
+      "28735753",
+      "28641126",
+      "28626219",
+      "27819658",
+      "27738134",
+      "27314073",
+      "27303920",
+      "27084947",
+      "26922833",
+      "26161385",
+      "25795113",
+      "25702873",
+      "25401220",
+      "25132265",
+      "24680220",
+      "24671466",
+      "24613763",
+      "24453986",
+      "24361676",
+      "23433795",
+      "23329690",
+      "23012366",
+      "22899247",
+      "22536855",
+      "21806995",
+      "21640108",
+      "21134891",
+      "21111482",
+      "20023628",
+      "19783821",
+      "19129189",
+      "19103741",
+      "18584027",
+      "18351591",
+      "18309324",
+      "17725821",
+      "17138564",
+      "16518468",
+      "16133872",
+      "15758953",
+      "15229473",
+      "15173120",
+      "15016365",
+      "14672664",
+      "12824332",
+      "12444964",
+      "12167722",
+      "11493912",
+      "11000272",
+      "10827456",
+      "10446239",
+      "10441505",
+      "9341172",
+      "8744570",
+      "8621488",
+      "8463290",
+      "2172928"
+    ],
+    "similar": [
+      "41991928",
+      "25132265",
+      "28626219",
+      "19129189",
+      "34222016",
+      "19783821",
+      "41837724",
+      "25822366",
+      "26163765",
+      "27813122",
+      "27154821",
+      "23990460",
+      "8634439",
+      "31590682",
+      "28603984",
+      "19956800",
+      "20961854",
+      "32549410",
+      "25305204",
+      "31253180",
+      "26970896",
+      "25082813",
+      "20818375",
+      "32552847",
+      "32192768",
+      "28242784",
+      "23291497",
+      "9808573",
+      "31923859",
+      "19272175",
+      "25264566",
+      "23318960",
+      "23996074",
+      "12461747",
+      "9199342",
+      "27840424",
+      "33599085",
+      "25817203",
+      "40921261",
+      "21111482",
+      "22936661",
+      "7643617",
+      "26167872",
+      "12619163",
+      "19535349",
+      "9461456",
+      "18840606",
+      "8639880",
+      "15199122",
+      "20010842",
+      "34105966",
+      "29777171",
+      "30899083",
+      "19277575",
+      "20855524",
+      "34971957",
+      "42001795",
+      "9592986",
+      "33477970",
+      "21896721",
+      "23054645",
+      "36264143",
+      "31325323",
+      "38901287",
+      "42543643",
+      "34405474",
+      "15910003",
+      "11000272",
+      "10861294",
+      "37788669",
+      "10446239",
+      "20452361",
+      "34663924",
+      "39472576",
+      "18598942",
+      "39002676",
+      "20395419",
+      "26329759",
+      "26923329",
+      "25401220",
+      "34251718",
+      "33465003",
+      "16572268",
+      "30315824",
+      "27738134",
+      "35172132",
+      "15087374",
+      "26311362",
+      "18598937",
+      "22012064",
+      "24235145",
+      "19763085",
+      "10207052",
+      "12124344",
+      "9326653",
+      "17698583",
+      "28068328",
+      "19074864",
+      "32437911",
+      "22286128"
+    ],
+    "review": [
+      "41991928",
+      "28242784",
+      "25264566",
+      "40921261",
+      "19535349",
+      "9592986",
+      "23054645",
+      "42543643",
+      "26923329",
+      "34251718"
+    ],
+    "pmc": [
+      "13086865"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/leukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Leukemia"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-026-72034-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41991928/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-XRCC5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

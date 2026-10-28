@@ -1,0 +1,90 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report structure-based in silico screening using static and dynamic metrics from all-atom molecular dynamics simulations to identify 5-amino-2,4-dimethylpyridine (5A-DMP) as a novel inhibitor of the UHRF1 tandem Tudor domain (TTD) binding to DNA ligase 1 (LIG1). They claim that 5A-DMP binds the Arg-binding cavity of the TTD, as shown by a crystal structure, and inhibits full-length UHRF1:LIG1 interaction in Xenopus egg extracts. The authors propose this compound as a basis for future cancer therapy experiments.
+- **Visible evidence base** Abstract text only; no experimental details, structural statistics, simulation parameters, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, crystallographic data and refinement statistics, molecular dynamics simulation protocols and convergence criteria, biochemical assay details and replicates, compound specificity and selectivity data, dose-response data, and any negative controls
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a potentially interesting approach to targeting the UHRF1-LIG1 interaction, which is a relevant axis in epigenetic cancer research. The combination of molecular dynamics-based screening with structural and biochemical validation is conceptually sound. However, the abstract provides insufficient quantitative evidence to assess the robustness of the screening method, the affinity and specificity of the identified compound, or the functional significance of the observed inhibition. The claim that 5A-DMP can serve as a basis for cancer therapy is premature given the limited evidence presented.
+- **Who would be interested in the results, and why** Researchers in epigenetic drug discovery, particularly those focused on DNA methylation maintenance pathways and UHRF1 biology. The work may also interest computational chemists developing dynamic metrics for virtual screening, and structural biologists studying protein-protein interaction inhibitors targeting Tudor domains.
+- **Major strengths** The study addresses a clinically relevant target with a clear biological rationale. The use of dynamic metrics from molecular dynamics simulations in addition to static screening is a methodological improvement over conventional approaches. The inclusion of a crystal structure of the TTD-compound complex provides direct binding evidence. The use of Xenopus egg extracts for functional validation is a physiologically relevant system for replication-coupled DNA methylation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that in silico screening using static and dynamic metrics resulted in "efficient identification" of 5A-DMP as a novel TTD-binding compound.
+  - **Evidence pointer** Abstract, screening description; location not provided
+  - **Concern** The abstract does not provide any quantitative information about the screening performance, such as hit rates, enrichment factors, or comparison with static-only screening. The term "efficient" is not supported by any metrics. Without these data, the claimed advantage of incorporating dynamic metrics cannot be evaluated.
+  - **Why it matters** The methodological novelty of this work rests on the claim that dynamic metrics improve screening efficiency. If this is not demonstrated with comparative data, the contribution reduces to a routine docking study with a single identified hit.
+  - **Resolution test** Provide enrichment curves or hit rate comparisons between static-only and dynamic-inclusive screening, and report the number of compounds screened, selected, and experimentally validated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that 5A-DMP "inhibits the full-length UHRF1:LIG1 interaction in Xenopus egg extracts."
+  - **Evidence pointer** Abstract, functional assay description; location not provided
+  - **Concern** No quantitative inhibition data are provided. The abstract does not report the concentration of 5A-DMP used, the extent of inhibition, dose-response behavior, or the number of independent replicates. Without these data, the functional claim is not assessable.
+  - **Why it matters** The functional validation is the key translational step in this study. If the inhibition is weak, non-dose-dependent, or irreproducible, the utility of the compound is questionable.
+  - **Resolution test** Provide dose-response curves with IC50 values, replicate numbers, and appropriate statistical analysis. Include a negative control compound with similar physicochemical properties.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity
+  - **Claim pointer** The authors imply that 5A-DMP is a specific inhibitor of the UHRF1 TTD Arg-binding cavity, which could "potentially repress UHRF1 function in cancer cells."
+  - **Evidence pointer** Abstract, structural and functional descriptions; location not provided
+  - **Concern** The abstract provides no evidence that 5A-DMP is selective for UHRF1 over other Tudor domain-containing proteins or other methyl-lysine readers. The compound is a small pyridine derivative, and its specificity for the Arg-binding cavity over other basic pockets is not established. No cellular data are presented to support the claim that UHRF1 function is repressed in cancer cells.
+  - **Why it matters** Off-target effects are a major concern for small-molecule inhibitors, particularly for shallow protein-protein interaction interfaces. The therapeutic relevance of this compound depends on its selectivity profile, which is not addressed.
+  - **Resolution test** Include binding or functional assays against related Tudor domains and unrelated methyl-lysine readers. Provide cellular assays showing UHRF1-dependent phenotypes are affected by 5A-DMP treatment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural evidence quality
+  - **Claim pointer** The authors state that the "crystal structure of the TTD in complex with 5A-DMP revealed that the compound stably bound to the Arg-binding cavity of the TTD."
+  - **Evidence pointer** Abstract, crystallographic description; location not provided
+  - **Concern** No crystallographic statistics are provided, including resolution, R-factors, or B-factors. The term "stably bound" is not supported by any quantitative measure such as occupancy or thermal displacement. The abstract does not indicate whether the structure was determined at a resolution sufficient to unambiguously place the small molecule.
+  - **Why it matters** The structural claim is central to the mechanism of action. Poorly resolved ligand density or ambiguous placement would undermine the binding mode interpretation.
+  - **Resolution test** Provide crystallographic table with resolution, R-work/R-free, and ligand occupancy. Show electron density maps for the ligand in the Arg-binding cavity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Screening methodology description
+  - **Evidence pointer** Abstract, screening description; location not provided
+  - **Issue** The abstract does not specify the chemical library size, the source of the library, or the criteria used to select 5A-DMP from the screening hits.
+  - **Required correction** Specify the library composition and size, and describe the selection cascade from computational hits to experimental validation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Compound characterization
+  - **Affected element** Binding affinity
+  - **Evidence pointer** Abstract, structural description; location not provided
+  - **Issue** No binding affinity measurement (for example, ITC, SPR, or NMR) is reported for the 5A-DMP-TTD interaction. The crystal structure alone does not provide affinity information.
+  - **Required correction** Report a quantitative binding affinity measurement and, if available, thermodynamic parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison with existing UHRF1 inhibitors
+  - **Evidence pointer** Abstract, introduction context; location not provided
+  - **Issue** The abstract does not compare 5A-DMP with previously reported UHRF1 inhibitors or other compounds targeting Tudor domains, so the relative novelty and potential advantage are unclear.
+  - **Required correction** Add a brief comparison with known UHRF1 inhibitors, including potency and selectivity where available.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "stable" binding
+  - **Evidence pointer** Abstract, structural description; location not provided
+  - **Issue** The term "stably bound" is ambiguous in the absence of dynamic or thermodynamic data. A crystal structure captures a static state and does not by itself demonstrate stability.
+  - **Required correction** Replace "stably bound" with a more neutral description such as "bound in the Arg-binding cavity" and support stability claims with molecular dynamics or biophysical data if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The screening efficiency claim, the functional inhibition claim, the selectivity claim, and the structural evidence quality all require additional quantitative data before the central conclusions can be accepted.
+- **Assessment against Nature-style criteria** Originality: moderate. The use of dynamic metrics in screening is a useful incremental advance, but the concept of targeting UHRF1 Tudor domains is not new. Scientific importance: moderate. UHRF1 is a relevant cancer target, but the abstract does not demonstrate that 5A-DMP has sufficient potency or selectivity to be therapeutically relevant. Interdisciplinary readership: limited. The work will primarily interest specialists in epigenetic drug discovery and computational chemistry. Technical soundness: not assessable from the abstract. The absence of quantitative data for screening, binding, and functional assays prevents evaluation of technical rigor. Readability for nonspecialists: acceptable. The abstract is clearly written and the logic is easy to follow, though some terms such as "Arg-binding cavity" and "tandem Tudor domain" may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow and a preliminary hit, but the key claims regarding screening efficiency, functional inhibition, and selectivity are not quantitatively supported. The manuscript may become publishable if the full text provides the missing data and addresses the concerns above.
+
+## Risk / unsupported claims
+
+- The claim that screening was "efficient" is unsupported without comparative metrics.
+- The claim that 5A-DMP "inhibits" the UHRF1:LIG1 interaction is unsupported without dose-response or quantitative inhibition data.
+- The claim that the compound "can be the basis of future experiments for cancer therapy" is speculative and not supported by any cellular or in vivo data.
+- The implied specificity of 5A-DMP for the UHRF1 TTD Arg-binding cavity is not established without selectivity assays against related domains.
+- The structural claim of "stable" binding is not supported by quantitative crystallographic or biophysical data.

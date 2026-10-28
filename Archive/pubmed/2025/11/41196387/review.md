@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text including introduction, materials and methods, results, discussion, and conclusion. Figure legends are included within the results section. Supplementary figure legends are partially described in the text.
+- **Assessment boundary** The assessment is limited to the provided manuscript text. No figures, tables, or supplementary material files were available for direct inspection. Statistical details, raw data, and experimental replicates could not be verified.
+- **Shared manuscript claim summary** The authors claim that human umbilical cord mesenchymal stem cell-derived small extracellular vesicles (hucMSC-sEVs) attenuate UV-induced skin photoaging by delivering the transcription factor GATA2, which upregulates PZP expression, which in turn suppresses GRP75-mediated mitochondrial calcium overload and dysfunction. The proposed axis is GATA2/PZP/GRP75.
+- **Visible evidence base** The evidence base consists of the manuscript text, including descriptions of in vivo mouse experiments (ICR mice, n=30, five groups), in vitro experiments on dermal fibroblasts, western blotting, immunofluorescence, immunohistochemistry, ChIP, dual-luciferase reporter assays, Co-IP with LC-MS/MS, and bioinformatic analyses (JASPAR, PROMO, TFDB, STRING, DAVID, GEPIA). Figure legends are present but the actual figures are not available for review.
+- **Missing materials affecting confidence** The actual figures and supplementary material are not available. This includes all western blot images, microscopy images, flow cytometry data, NTA data, TEM images, and the supplementary DOCX file. The absence of these materials prevents verification of data quality, quantification, and statistical analysis. The manuscript also lacks detailed information on antibody validation, sample sizes for in vitro experiments, and statistical methods for some comparisons.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic in skin photoaging and regenerative medicine. The proposed GATA2/PZP/GRP75 axis is novel and potentially interesting. However, the current evidence base, as described in the text, has several gaps that prevent full confidence in the conclusions. The in vivo model is described in reasonable detail, but the in vitro experiments lack critical information on replicates and statistical rigor. The mechanistic link between GATA2 delivery via sEVs and PZP upregulation is supported by ChIP and luciferase assays, but the functional significance of the GATA2/PZP/GRP75 axis in the context of photoaging requires stronger validation. The manuscript would benefit from clearer presentation of data and more robust experimental design details.
+- **Who would be interested in the results, and why** Researchers in the fields of skin biology, dermatology, aging research, and extracellular vesicle biology would be interested. The study provides a potential new mechanism for MSC-sEV-mediated anti-aging effects and identifies PZP and GRP75 as potential therapeutic targets. Clinicians interested in cosmetic dermatology and anti-aging interventions may also find the results relevant.
+- **Major strengths** The study addresses a clinically relevant problem with a potentially translatable intervention (hucMSC-sEVs). The identification of a novel regulatory axis (GATA2/PZP/GRP75) is a strength. The use of a combined UVA/UVB mouse model with intact immune function is a methodological improvement over nude mouse models. The study combines multiple experimental approaches, including bioinformatics, molecular biology, and in vivo models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor and reproducibility
+  - **Claim pointer** The authors claim that hucMSC-sEVs attenuate photoaging by modulating the GATA2/PZP/GRP75 axis, with GATA2 delivered by sEVs acting as a transcription factor for PZP.
+  - **Evidence pointer** Results sections "HucMSC-sEVs modulate PZP to defend against UV-Induced Photoaging in ICR mice", "The transcription factor GATA2 carried by hucMSC-sEVs positively regulates PZP expression", "Effects of GATA2 overexpression or knockdown on hucMSC-sEVs-Mediated PZP regulation and cellular senescence", and "HucMSC-sEVs upregulates PZP expression and targets GRP75". Figure legends 1-5.
+  - **Concern** The manuscript does not provide sufficient detail on the number of independent biological replicates for the in vitro experiments. The text states "n=3" for some experiments, but it is unclear if this refers to technical or biological replicates. For the in vivo experiments, only 5 mice per group are mentioned, which is a small sample size. The statistical methods are not fully described, and it is unclear which specific comparisons were made and whether corrections for multiple testing were applied. The western blot data are described but not shown, making it impossible to assess the quality of the data or the specificity of the antibodies. The claim that GATA2 is "delivered" by sEVs into recipient cells is not directly demonstrated; the authors show GATA2 is present in sEVs and that sEVs treatment increases GATA2 expression in DFs, but this could be due to indirect effects. The functional significance of the GATA2/PZP/GRP75 axis is not fully established; for example, rescue experiments where PZP or GRP75 are manipulated in the context of sEVs treatment are not described.
+  - **Why it matters** Without clear information on replicates and statistical methods, the reliability of the reported effects cannot be assessed. The lack of direct evidence for GATA2 delivery and the absence of rescue experiments weaken the causal claims. The small sample size in the in vivo study limits the generalizability of the findings.
+  - **Resolution test** The authors should provide a detailed description of the number of biological and technical replicates for all experiments, the statistical tests used, and the exact p-values. They should show representative western blot images and provide quantification with error bars. They should include experiments demonstrating that GATA2 from sEVs is taken up by DFs and directly binds to the PZP promoter in a functional manner, such as using labeled sEVs or GATA2 knockout sEVs. Rescue experiments, such as PZP knockdown or GRP75 overexpression in the presence of sEVs, should be performed to confirm the axis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The authors claim that PZP interacts with GRP75 and that this interaction is functionally relevant for the anti-photoaging effects.
+  - **Evidence pointer** Results section "HucMSC-sEVs upregulates PZP expression and targets GRP75". Figure 4.
+  - **Concern** The Co-IP experiment is described as confirming the interaction between PZP and GRP75, but the text does not provide details on the experimental conditions, such as the cell line used, the lysis buffer, or the antibodies used for immunoprecipitation and western blotting. The LC-MS/MS data are mentioned but not shown, and the criteria for selecting GRP75 as a candidate are not fully described. The functional relevance of the PZP-GRP75 interaction is not directly tested. The authors show that PZP overexpression or knockdown affects GRP75 expression, but this could be an indirect effect. The claim that PZP "targets" GRP75 implies a direct interaction, but the evidence is correlative.
+  - **Why it matters** The proposed axis relies on a direct interaction between PZP and GRP75. Without robust evidence for this interaction and its functional consequences, the mechanistic model is not fully supported.
+  - **Resolution test** The authors should provide detailed Co-IP protocols and show the full western blot images. They should include a negative control for the Co-IP, such as an IgG control, and show the LC-MS/MS data with a table of identified peptides. To test the functional relevance, they could perform experiments where the PZP-GRP75 interaction is disrupted, such as using a peptide or mutation that blocks the interaction, and assess the effects on mitochondrial function and cellular senescence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data presentation and completeness
+  - **Claim pointer** The authors claim that sEVs treatment improves photoaging parameters, including skin morphology, collagen content, and expression of aging markers.
+  - **Evidence pointer** Results section "HucMSC-sEVs modulate PZP to defend against UV-Induced Photoaging in ICR mice". Figure 1.
+  - **Concern** The text describes the results of H&E staining, Masson's trichrome staining, and IHC, but the actual images are not available for review. The quantification of these results is described in the text but the data are not shown. The authors state that "sEVs-treated group displayed a marked reduction in wrinkle formation" but do not provide a quantitative measure of wrinkle severity. The in vivo imaging data for sEVs retention are mentioned but not shown.
+  - **Why it matters** The primary in vivo efficacy data are not verifiable without the figures. The lack of quantitative data makes it difficult to assess the magnitude of the effect.
+  - **Resolution test** The authors should provide the actual figures with clear scale bars and quantification of the histological and immunohistochemical data. They should include a quantitative scoring system for wrinkle formation or skin roughness.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Materials and methods, "Isolation and characterization of MSCs and MSC-sEVs"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the sEVs isolation method is brief. The text states "sequentially centrifuged at 300 g, 2,000 g, and 10,000 g" but does not specify the duration of each centrifugation step. The ultracentrifugation step is described as "two rounds of ultracentrifugation at 100,000 g" but the duration is not given.
+  - **Required correction** Provide the duration for each centrifugation step and the rotor type used. This is important for reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Materials and methods, "Statistical analysis"
+  - **Evidence pointer** Location not provided
+  - **Issue** The statistical analysis section states that "one-way ANOVA was applied for multiple groups" but does not specify which post-hoc test was used. It also does not state whether the data were tested for normality.
+  - **Required correction** Specify the post-hoc test used (e.g., Tukey's, Bonferroni's) and state whether normality was tested. This will improve the transparency of the statistical analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of figure legends
+  - **Affected element** Figure legends 1-5
+  - **Evidence pointer** Location not provided
+  - **Issue** The figure legends are descriptive but do not include information on the number of replicates or the statistical tests used for each panel. For example, Figure 1J states "Data are presented as mean ± SD. n=3" but does not specify which statistical test was used for the comparison.
+  - **Required correction** Add statistical details to each figure legend, including the test used and the p-values for significant comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion mentions a study by "Cui, et al. (2025)" but does not provide a full citation. This makes it difficult for the reader to locate the reference.
+  - **Required correction** Provide the full citation for this reference in the reference list.
+- **Technical failings that need to be addressed before the case is established** The lack of direct evidence for GATA2 delivery into target cells and the absence of rescue experiments are the most significant technical failings. The small sample size in the in vivo study and the lack of detail on replicates and statistical methods also need to be addressed. The Co-IP data need to be shown with appropriate controls.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The proposed GATA2/PZP/GRP75 axis is novel and not previously described in the context of photoaging. The finding that a transcription factor is delivered via sEVs is interesting. However, the concept of MSC-sEVs having anti-aging effects is not new.
+  - **Scientific importance** The study has potential importance for understanding the mechanisms of photoaging and for developing new therapeutic strategies. The identification of PZP and GRP75 as potential targets is valuable. However, the clinical relevance is not fully established.
+  - **Interdisciplinary readership** The topic is of interest to dermatologists, cell biologists, and researchers in aging and extracellular vesicle biology. The findings may also be relevant to clinicians in aesthetic medicine.
+  - **Technical soundness** The technical soundness is currently limited by the lack of detailed experimental information and the absence of key data (figures, replicates, statistical details). The mechanistic claims are not fully supported by the evidence presented.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections, such as the bioinformatics analysis, may be difficult for nonspecialists to follow. The abstract and introduction are accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the evidence base is incomplete. The authors need to provide the actual figures, detailed experimental methods, and additional experiments to support the mechanistic claims. If these concerns are addressed, the manuscript could be considered for publication.
+
+## Risk / unsupported claims
+- The claim that GATA2 is "delivered" by sEVs into target cells is not directly supported by the evidence described. The authors show GATA2 is present in sEVs and that sEVs treatment increases GATA2 expression in DFs, but this could be due to indirect effects.
+- The claim that PZP directly interacts with GRP75 is based on Co-IP and colocalization data, but the Co-IP data are not shown and the interaction is not functionally validated.
+- The claim that the GATA2/PZP/GRP75 axis is the primary mechanism by which sEVs attenuate photoaging is not fully supported, as no experiments are described that manipulate all three components of the axis in a single system.
+- The in vivo efficacy data are described but not shown, making it impossible to assess the magnitude of the effect.
+- The biosafety assessment is described as showing no significant changes, but the data are not shown.

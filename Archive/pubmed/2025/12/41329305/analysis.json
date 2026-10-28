@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41329305",
+  "title": "Deep-learning prediction of breast cancer hormone receptor status from CEM: a preliminary study.",
+  "authors": "Carriero, Alessandro; Albera, Marco; Meloni, Tomasina; Rampi, Anna; Boldorini, Renzo Luciano; Colarieti, Anna",
+  "journal": "European radiology experimental",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用深度学习从乳腺X线造影图像预测激素受体状态，属于临床影像诊断，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Hormone receptor (HR) status guides breast cancer therapy. Deep learning (DL) applied to contrast-enhanced mammography (CEM) might offer a noninvasive means for HR status prediction, but class imbalance challenges model development and assessment. This preliminary study investigates CEM-based DL for HR status prediction, focusing on class imbalance handling. MATERIALS AND METHODS: In this retrospective study, CEM tumor crops from 105 patients with invasive breast cancer were used. Patients were randomized into training (n = 68), validation (n = 16), and independent test (n = 21) sets. A \"Residual Network 18\" (ResNet-18), pretrained on ImageNet, was fine-tuned using weighted cross-entropy loss and an Adam optimizer. Model selection used validation area under the precision-recall curve (AUPRC); output probabilities were calibrated via temperature scaling. Performance was reported with accuracy, area under the receiver operating characteristic curve (AUROC), and imbalance-aware metrics (balanced accuracy, Matthews correlation coefficient (MCC)) with 95% confidence intervals (1,000-iteration bootstrap). Results are presented for standard (0.5) and optimized (validation F1-score for HR-negative class) thresholds. RESULTS: Validation AUPRC (model selection metric) was 0.640 (0.304-0.906). On the independent test set (optimized threshold 0.755), the model achieved 91.9% accuracy (86.5-97.3%), AUROC 0.808 (0.648-0.935), balanced accuracy 0.700 (0.550-0.853), and MCC 0.605 (0.296-0.818). CONCLUSION: A ResNet-18, utilizing patient-level data splitting and imbalance-aware fine-tuning, can capture CEM features for HR status, performing well despite significant class imbalance. Generalizability is limited by dataset characteristics and acquisition specifics, warranting further validation in larger, diverse cohorts to establish clinical applicability. RELEVANCE STATEMENT: This work explores whether routinely acquired CEM images contain enough information for DL prediction of HR status. A ResNet-18 was trained with weighted loss and patient-level data splits; performance was quantified with imbalance-aware metrics to provide a realistic assessment in a highly skewed dataset, highlighting both the promise and current constraints of CEM-based molecular imaging. KEY POINTS: A ResNet-18, optimized for class imbalance through weighted training and with calibrated probabilities, predicted HR positivity on CEM with 91.9% accuracy and AUROC 0.81 in an independent test cohort using an F1-tuned threshold. Balanced accuracy (0.70) and MCC (0.60) demonstrate maintained discrimination despite an approximate 85% class imbalance (HR-positive cases). Patient-level splitting was employed to ensure robust evaluation. Limitations related to the dataset's scope and specific imaging protocols may influence broader generalizability.",
+  "abstract_zh": "背景：激素受体（HR）状态指导乳腺癌治疗。将深度学习（DL）应用于对比增强乳腺X线摄影（CEM）可能为HR状态预测提供一种非侵入性手段，但类别不平衡对模型开发和评估构成挑战。本初步研究探讨基于CEM的DL用于HR状态预测，重点关注类别不平衡处理。材料与方法：在本回顾性研究中，使用了来自105例浸润性乳腺癌患者的CEM肿瘤裁剪图像。患者被随机分为训练集（n = 68）、验证集（n = 16）和独立测试集（n = 21）。一个在ImageNet上预训练的“残差网络18”（ResNet-18）使用加权交叉熵损失和Adam优化器进行微调。模型选择使用验证集精确率-召回率曲线下面积（AUPRC）；输出概率通过温度缩放进行校准。性能以准确率、受试者工作特征曲线下面积（AUROC）和不平衡感知指标（平衡准确率、马修斯相关系数（MCC））报告，并附95%置信区间（1,000次迭代自助法）。结果分别以标准阈值（0.5）和优化阈值（验证集HR阴性类别的F1分数）呈现。结果：验证集AUPRC（模型选择指标）为0.640（0.304-0.906）。在独立测试集上（优化阈值0.755），模型实现了91.9%的准确率（86.5-97.3%）、AUROC 0.808（0.648-0.935）、平衡准确率0.700（0.550-0.853）和MCC 0.605（0.296-0.818）。结论：一个ResNet-18，利用患者级数据分割和不平衡感知微调，能够捕获CEM特征用于HR状态预测，尽管存在显著的类别不平衡，仍表现良好。泛化性受数据集特征和采集细节限制，需要在更大、更多样化的队列中进行进一步验证以确立临床适用性。相关性声明：本研究探讨常规采集的CEM图像是否包含足够信息用于DL预测HR状态。一个ResNet-18使用加权损失和患者级数据分割进行训练；性能通过不平衡感知指标量化，以在高度偏斜的数据集中提供现实评估，突出基于CEM的分子影像的前景和当前限制。关键点：一个ResNet-18，通过加权训练针对类别不平衡进行优化并具有校准概率，在独立测试队列中使用F1调优阈值，以91.9%的准确率和AUROC 0.81预测CEM上的HR阳性状态。平衡准确率（0.70）和MCC（0.60）表明，尽管存在约85%的类别不平衡（HR阳性病例），判别能力仍得以保持。采用患者级分割以确保稳健评估。与数据集范围和特定成像协议相关的限制可能影响更广泛的泛化性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41329305/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41329305/",
+  "paper_page_path": "papers/pubmed/41329305/index.html"
+}

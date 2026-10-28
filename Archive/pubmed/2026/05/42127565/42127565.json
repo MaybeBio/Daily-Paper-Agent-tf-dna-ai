@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "42127565",
+    "doi": "10.1016/j.clinimag.2026.110817",
+    "title": "Radiomics and deep learning models for predicting glioma p53 status: A diagnostic accuracy systematic review and meta-analysis of magnetic resonance imaging studies."
+  },
+  "content": {
+    "abstract": "PURPOSE: To systematically investigate the diagnostic performance of magnetic resonance imaging (MRI)-based radiomics and deep learning (DL) models for predicting p53 status in glioma and to generate pooled estimates for radiomics-based models. METHODS: A systematic search was conducted in PubMed, Scopus, Embase, and Web of Science. Methodological quality was appraised using the QUADAS-2 and METRICS checklists. Pooled sensitivity, specificity, positive and negative likelihood ratios, diagnostic odds ratio, and area under the receiver operating characteristic curve (AUROC) were calculated using a bivariate random-effects model. Subgroup and sensitivity analyses were undertaken to explore heterogeneity and robustness. Publication bias was assessed with Deeks' funnel plot asymmetry test. RESULTS: Seventeen studies were included in the systematic review. Of these, six studies were incorporated into the meta-analysis of exclusive radiomics models and five in the meta-analysis of combined radiomics approaches. Exclusive radiomics models yielded a pooled AUROC of 0.72, whereas combined models achieved a pooled AUROC of 0.89. Studies employing manual segmentation reported a significantly greater pooled specificity compared with those applying semi-automated segmentation methods. CONCLUSION: Radiomics features showed modest performance in predicting glioma p53 status when used alone. Incorporating complementary non-radiomic features could enhance model performance. Such approaches may support non-invasive patient stratification, aid clinical decision-making and prognostic assessment, and potentially decrease reliance on high-risk biopsy procedures.",
+    "keywords": [
+      "Brain tumor",
+      "Glioblastoma",
+      "Machine learning",
+      "TP53",
+      "Texture analysis",
+      "Tumor protein 53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Brain Neoplasms/diagnostic imaging/genetics",
+      "Deep Learning",
+      "*Glioma/diagnostic imaging/genetics",
+      "Magnetic Resonance Imaging/methods",
+      "Predictive Learning Models",
+      "Radiomics",
+      "Sensitivity and Specificity",
+      "*Tumor Suppressor Protein p53/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Systematic Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ahmadzadeh, Amir Mahmoud",
+        "Ashoobi, Mohammad Amin",
+        "Broomand Lomer, Nima",
+        "Vatanparast, Mahsa",
+        "Gheiji, Benyamin",
+        "Elyassirad, Danial",
+        "Faghani, Shahriar"
+      ],
+      "short_names": [
+        "Ahmadzadeh AM",
+        "Ashoobi MA",
+        "Broomand Lomer N",
+        "Vatanparast M",
+        "Gheiji B",
+        "Elyassirad D",
+        "Faghani S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, School of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Guilan University of Medical Sciences, Rasht, Iran.",
+        "Department of Radiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19103, USA.",
+        "Student Research Committee, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Student Research Committee, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Student Research Committee, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Radiology Informatics Lab, Department of Radiology, Mayo Clinic, 200 First St. SW, Rochester, 55905, USA; Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA. Electronic address: shahriar.faghani@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ahmadzadeh, Amir Mahmoud",
+        "short_name": "Ahmadzadeh AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, School of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Ashoobi, Mohammad Amin",
+        "short_name": "Ashoobi MA",
+        "identifiers": [],
+        "affiliations": [
+          "Guilan University of Medical Sciences, Rasht, Iran."
+        ]
+      },
+      {
+        "full_name": "Broomand Lomer, Nima",
+        "short_name": "Broomand Lomer N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19103, USA."
+        ]
+      },
+      {
+        "full_name": "Vatanparast, Mahsa",
+        "short_name": "Vatanparast M",
+        "identifiers": [],
+        "affiliations": [
+          "Student Research Committee, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Gheiji, Benyamin",
+        "short_name": "Gheiji B",
+        "identifiers": [],
+        "affiliations": [
+          "Student Research Committee, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Elyassirad, Danial",
+        "short_name": "Elyassirad D",
+        "identifiers": [],
+        "affiliations": [
+          "Student Research Committee, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Faghani, Shahriar",
+        "short_name": "Faghani S",
+        "identifiers": [],
+        "affiliations": [
+          "Radiology Informatics Lab, Department of Radiology, Mayo Clinic, 200 First St. SW, Rochester, 55905, USA; Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA. Electronic address: shahriar.faghani@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical imaging"
+    ],
+    "journal_abbrev": [
+      "Clin Imaging"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Systematic Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/14 00:31",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42127565",
+      "39742798",
+      "40369298",
+      "40974758",
+      "40817944",
+      "40194850",
+      "37925343",
+      "42265510",
+      "40744488",
+      "40651923",
+      "40914722",
+      "39743477",
+      "41491127",
+      "41570300",
+      "40129922",
+      "40829998",
+      "41107124",
+      "40722478",
+      "38308012",
+      "40133723",
+      "41745702",
+      "40382483",
+      "37995996",
+      "41768254",
+      "37955670",
+      "40505605",
+      "40527677",
+      "41309108",
+      "38937115",
+      "40859334",
+      "36321557",
+      "40146313",
+      "36313696",
+      "39139289",
+      "40088548",
+      "41730655",
+      "40747552",
+      "35290910",
+      "35587827",
+      "35280776",
+      "32193643",
+      "34565338",
+      "40195139",
+      "38614826",
+      "39986203",
+      "40163098",
+      "39937273",
+      "39838503",
+      "41588994",
+      "38867143",
+      "40411548",
+      "40932678",
+      "40165301",
+      "38601765",
+      "29357120",
+      "39834943",
+      "40397102",
+      "41953399",
+      "39501204",
+      "41937989",
+      "38664142",
+      "40347255",
+      "40987214",
+      "41580316",
+      "33826716",
+      "39841228",
+      "41441995",
+      "38802557",
+      "39930347",
+      "36119492",
+      "41328447",
+      "41089636",
+      "41092750",
+      "40722008",
+      "40707262",
+      "41620614",
+      "41992690",
+      "38697000",
+      "38730550",
+      "37644397",
+      "41522000",
+      "41843889",
+      "31828414",
+      "34099417",
+      "39625963",
+      "40619885",
+      "41740271",
+      "41584578",
+      "33666859",
+      "32417712",
+      "41522080",
+      "41027762",
+      "41721867",
+      "40299088",
+      "41681963",
+      "39914655",
+      "40737956",
+      "39322536",
+      "40155892",
+      "39183137"
+    ],
+    "review": [
+      "42127565",
+      "39742798",
+      "40369298",
+      "40974758",
+      "40817944",
+      "40194850",
+      "37925343",
+      "42265510",
+      "40744488",
+      "40651923",
+      "40914722",
+      "39743477",
+      "41491127",
+      "41570300",
+      "40129922",
+      "40829998",
+      "41107124",
+      "40722478",
+      "38308012",
+      "40133723",
+      "40382483",
+      "37995996",
+      "41768254",
+      "37955670",
+      "40505605",
+      "40527677",
+      "41309108",
+      "38937115",
+      "40859334",
+      "36321557",
+      "40146313",
+      "36313696",
+      "39139289",
+      "40088548",
+      "41730655",
+      "35290910",
+      "35587827",
+      "35280776",
+      "32193643",
+      "34565338",
+      "40195139",
+      "38614826",
+      "39986203",
+      "40163098",
+      "39937273",
+      "41588994",
+      "38867143",
+      "40411548",
+      "40932678",
+      "38601765",
+      "29357120",
+      "39834943",
+      "40397102",
+      "39501204",
+      "38664142",
+      "40347255",
+      "40987214",
+      "41580316",
+      "33826716",
+      "39841228",
+      "41441995",
+      "38802557",
+      "39930347",
+      "36119492",
+      "41328447",
+      "41089636",
+      "40707262",
+      "41992690",
+      "38697000",
+      "38730550",
+      "37644397",
+      "34099417",
+      "39625963",
+      "40619885",
+      "41584578",
+      "33666859",
+      "41027762",
+      "41721867",
+      "41681963",
+      "39914655",
+      "40737956"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0899-7071(26)00109-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0899-7071(26)00109-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

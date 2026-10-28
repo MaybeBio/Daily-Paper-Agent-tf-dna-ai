@@ -1,0 +1,308 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2026-h0kn1",
+  "title": "AIQM-PBSA: Integrating Machine Learning InteratomicPotentials with MMPBSA for Accurate Protein–Ligand Binding Free Energy Calculations",
+  "doi": "10.26434/chemrxiv-2026-h0kn1",
+  "abstract": "End-point binding free energy (BFE) methods, such as molecular mechanics Poisson–Boltzmann surface area (MMPBSA), are widely used to estimate protein–ligand binding affinity due to their favorable balance between accuracy and computational efficiency. Their reliability, however, is often limited by approximations in intramolecular interactions and solvation effects. Given the critical role of force field quality in determining accuracy, we developed a hybrid framework named AIQM-PBSA, which integrates the ONIOM scheme with the PBSA model. Within this framework, the AIQM3 machine learning interatomic potential (MLIP) —an advanced Δ-learning quantum mechanical (QM) model—is employed to refine the molecular mechanics (MM) energy term, while polar and non polar solvation contributions are evaluated under the PBSA formalism. Extensive validation across diverse protein–ligand systems demonstrates that AIQM-PBSA significantly improves the correlation with experimental binding affinities compared to MMPBSA based on classical force fields and other MLIPs, with a representative benchmark showing up to 31% higher Pearson correlation relative to the MMPBSA baseline and 16% higher than ANI-2x. Furthermore, incorporating entropic contributions can further provide modest, target-dependent improvements. In summary, AIQM-PBSA offers a robust and transferable framework that combines QM level accuracy with MM level efficiency, substantially enhancing the reliability of endpoint free energy calculations for biomolecular recognition.",
+  "authors": [
+    "Xue-Xin Wei",
+    "Yuxinxin Chen",
+    "Yuedong Yang",
+    "Mingyuan Xu",
+    "Pavlo O. Dral",
+    "Hongming Chen"
+  ],
+  "published_date": "2026-01-12",
+  "updated_date": "2026-01-13T07:40:45Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2026-h0kn1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2026-h0kn1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:17:39Z",
+        "timestamp": 1785417459645,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            12
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                12
+              ]
+            ],
+            "date-time": "2026-01-12T00:00:00Z",
+            "timestamp": 1768176000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>End-point binding free energy (BFE) methods, such as molecular mechanics Poisson–Boltzmann surface area (MMPBSA), are widely used to estimate protein–ligand binding affinity due to their favorable balance between accuracy and computational efficiency. Their reliability, however, is often limited by approximations in intramolecular interactions and solvation effects. Given the critical role of force field quality in determining accuracy, we developed a hybrid framework named AIQM-PBSA, which integrates the ONIOM scheme with the PBSA model. Within this framework, the AIQM3 machine learning interatomic potential (MLIP) —an advanced Δ-learning quantum mechanical (QM) model—is employed to refine the molecular mechanics (MM) energy term, while polar and non polar solvation contributions are evaluated under the PBSA formalism. Extensive validation across diverse protein–ligand systems demonstrates that AIQM-PBSA significantly improves the correlation with experimental binding affinities compared to MMPBSA based on classical force fields and other MLIPs, with a representative benchmark showing up to 31% higher Pearson correlation relative to the MMPBSA baseline and 16% higher than ANI-2x. Furthermore, incorporating entropic contributions can further provide modest, target-dependent improvements. In summary, AIQM-PBSA offers a robust and transferable framework that combines QM level accuracy with MM level efficiency, substantially enhancing the reliability of endpoint free energy calculations for biomolecular recognition.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2026-h0kn1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ],
+        "date-time": "2026-01-13T07:40:45Z",
+        "timestamp": 1768290045000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "AIQM-PBSA: Integrating Machine Learning InteratomicPotentials with MMPBSA for Accurate Protein–Ligand Binding Free Energy Calculations"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-6253-3402",
+          "authenticated-orcid": false,
+          "given": "Xue-Xin",
+          "family": "Wei",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0064kty71",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Sun Yat-sen University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuxinxin",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00mcjh785",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Xiamen University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuedong",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0064kty71",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Sun Yat-sen University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0463-4249",
+          "authenticated-orcid": false,
+          "given": "Mingyuan",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03ybmxt82",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Guangzhou Laboratory",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pavlo O.",
+          "family": "Dral",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00mcjh785",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Xiamen University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hongming",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03ybmxt82",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Guangzhou Laboratory",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2026-h0kn1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:58:56Z",
+        "timestamp": 1778752736000
+      },
+      "score": 100.65925,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2026-h0kn1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            12
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2026-h0kn1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

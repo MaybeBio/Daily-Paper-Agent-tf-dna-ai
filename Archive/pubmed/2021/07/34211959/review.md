@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report the synthesis and characterization of five new divalent transition metal complexes of sulfaclozine (SCZ) with Cu(II), Co(II), Ni(II), Zn(II), and Fe(II). They propose coordination geometries based on spectroscopic and computational methods, evaluate DNA binding affinity, perform molecular docking against cancer-related proteins, and report in vitro cytotoxicity against MCF-7 and CaCo-2 cell lines.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusion, Data Availability Statement, Author Contributions, Conflict of Interest, Supplementary Material description, Acknowledgements
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S6) referenced in the text are not provided. Raw data for elemental analysis, TGA curves, EPR spectra, UV-Vis spectra, and cytotoxicity dose-response curves are not available. Computational coordinates and full DFT output are not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward synthesis and characterization study of sulfaclozine metal complexes, with a stated aim of developing anticancer agents. The synthetic work and basic characterization are plausible, but the study suffers from several significant weaknesses. The structural assignments are based on limited and sometimes contradictory evidence. The biological evaluation is preliminary, with only two cell lines tested and no mechanistic depth. The computational work is superficial and does not adequately support the structural claims. The manuscript would require major revisions to establish the core claims convincingly.
+- **Who would be interested in the results, and why** Researchers in the field of metal-based drug design, particularly those working on sulfonamide coordination chemistry and anticancer metal complexes, may find the synthesis and preliminary biological screening of these new complexes of interest. The work may also be of interest to computational chemists studying structure-activity relationships of metal complexes, though the level of computational analysis presented here is limited.
+- **Major strengths** The synthesis of five new metal complexes of sulfaclozine is a novel contribution, as the authors correctly note that no prior reports exist on this specific ligand-metal combination. The multi-technique characterization approach (elemental analysis, IR, UV-Vis, TGA, EPR) is comprehensive in scope. The inclusion of both experimental and computational methods to address structure is commendable in principle. The DNA binding and docking studies provide a preliminary biological context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The authors claim specific coordination geometries for each complex: trigonal bipyramidal for Cu(II), octahedral for Fe(II), Co(II), and Ni(II), and tetrahedral for Zn(II).
+  - **Evidence pointer** Section "Electronic Paramagnetic Resonance Analysis for the Cu(II) Complex", Section "Electronic Spectroscopic and Magnetic Susceptibility", Section "Structural Interpretation", Figure 4, Table 1
+  - **Concern** The structural assignments are not adequately supported by the presented evidence. For the Cu(II) complex, the EPR data are interpreted as indicating a pentacoordinate geometry, but the g-values (g⊥ = 2.189 > g‖ = 2.044) are unusual and the assignment of the ground state as 2A1g is not clearly justified. The UV-Vis data for the other complexes are limited to a few band assignments without full spectral analysis. The magnetic moment for Ni(II) (2.63 BM) is cited as evidence for octahedral geometry, but this value is also consistent with other geometries. The Zn(II) complex is assigned tetrahedral geometry based on conductance data alone, which is insufficient. The DFT calculations are described as "validating" the proposed structures, but no quantitative comparison between calculated and experimental parameters is provided.
+  - **Why it matters** The proposed structures are the central claim of the paper. If the geometries are not correctly assigned, the subsequent computational and biological interpretations are compromised. The manuscript does not provide sufficient evidence to distinguish between alternative coordination modes or geometries.
+  - **Resolution test** Provide detailed comparison of calculated and experimental bond lengths, angles, and spectroscopic parameters. Include full EPR spectral simulation and analysis. Present UV-Vis spectra with complete band assignments and ligand field parameters for all complexes. Provide crystallographic data if possible, or at minimum, more rigorous spectroscopic evidence for each proposed geometry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological claims
+  - **Claim pointer** The authors claim that Cu(II) and Ni(II) complexes display "promising antitumor activity" against colon and breast cancer cell lines.
+  - **Evidence pointer** Section "Cytotoxicity Results", Table 6
+  - **Concern** The cytotoxicity data are presented only as IC50 values in Table 6, which is not visible in the provided text. The reported IC50 for Cu-SCZ against CaCo-2 is 23.84 µg/ml, which is a relatively weak activity compared to established anticancer agents. No positive controls, such as cisplatin or doxorubicin, are mentioned. The selectivity of the compounds for cancer cells over normal cells is not assessed. The statement that values between 51 and 100 µg/ml are "weakly cytotoxic" and above 100 µg/ml are "non-cytotoxic" appears to be an arbitrary classification without literature support.
+  - **Why it matters** The claim of "promising antitumor activity" is a key selling point of the paper. Without appropriate controls, comparison to known drugs, and assessment of selectivity, this claim is not substantiated. The biological relevance of the observed IC50 values is unclear.
+  - **Resolution test** Provide full dose-response curves, include a positive control (e.g., cisplatin), test against a non-cancerous cell line to assess selectivity, and compare IC50 values to established anticancer agents. Justify the classification of cytotoxicity levels with literature references.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology
+  - **Claim pointer** The authors state that DFT calculations were performed using B3LYP with 6-31G(d,p) for the ligand and "LAND" for the metal complexes, and that the optimized geometries match the experimental structures.
+  - **Evidence pointer** Section "Computational Details", Section "Molecular Orbital Calculations", Figure 5, Figure 6, Supplementary Tables S4 and S5
+  - **Concern** The basis set is referred to as "LAND," which is not a standard basis set designation. This is likely a typographical error for LANL2DZ, but the manuscript does not clarify. The level of theory is relatively low for transition metal complexes, and no dispersion corrections or relativistic effective core potentials are mentioned. The claim that optimized geometries match experimental structures is not supported by any quantitative comparison. The HOMO-LUMO gap calculations are presented as predictive of biological activity, but this correlation is not established.
+  - **Why it matters** The computational results are used to support the structural assignments and to predict biological reactivity. If the computational methodology is flawed or inadequately described, these conclusions are weakened. The manuscript does not provide enough detail for the calculations to be reproduced.
+  - **Resolution test** Correct the basis set designation, provide full computational details including software version, convergence criteria, and any corrections applied. Present quantitative comparison of calculated and experimental structural parameters. Discuss the limitations of the chosen level of theory for transition metal complexes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** DNA binding interpretation
+  - **Claim pointer** The authors claim that the DNA binding constants indicate an intercalation interaction mode, with the Cu(II) complex showing the highest binding affinity.
+  - **Evidence pointer** Section "DNA Binding Study and Cleavage Experiments", Supplementary Table S6
+  - **Concern** The binding constants are reported in Supplementary Table S6, which is not provided. The text states that the Kb values are between those of "DNA minor groove binding Ru(II) complexes and classical intercalator (104–107 M−1)", which is a very broad range and does not definitively establish the binding mode. The claim of intercalation is based solely on the magnitude of Kb and the observation of hypochromism, which are necessary but not sufficient criteria. No viscosity measurements, melting temperature studies, or competitive binding assays with known intercalators (e.g., ethidium bromide) are presented. The statement that the Cu(II) complex has a Kb of 9 × 105 M-1 in the abstract is not clearly reconciled with the value of 6.67 × 105 M-1 for the free ligand mentioned in the conclusion.
+  - **Why it matters** The DNA binding mode is a critical aspect of the proposed mechanism of anticancer activity. Without more definitive evidence, the intercalation claim is speculative. The discrepancy in reported Kb values for the free ligand is confusing.
+  - **Resolution test** Provide the actual Kb values from Supplementary Table S6 in the main text. Perform additional experiments to establish the binding mode, such as viscosity measurements, DNA melting studies, or competitive displacement assays. Clarify the discrepancy in the reported Kb values for the free ligand.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the Cu(II) complex has a binding constant of 9 × 105 M-1, but the conclusion states the free ligand has a binding constant of 6.67 × 105 M-1. The relationship between these values and the values for the other complexes is not clearly presented.
+  - **Required correction** Clarify the binding constant values in the abstract and ensure consistency with the main text and supplementary material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Synthesis section
+  - **Evidence pointer** Section "Synthesis of Metal Complexes"
+  - **Issue** The synthesis section does not report yields, purity assessment, or attempts at recrystallization. The statement that "the resulting solution was allowed to evaporate at room temperature" suggests a lack of controlled crystallization.
+  - **Required correction** Report yields and purity data. Describe any purification steps. Consider recrystallization to improve product purity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The molar conductance values are reported but not interpreted in the context of electrolyte type for each complex. The text mentions 1:1 electrolyte behavior for Cu(II) and Co(II) and non-electrolyte behavior for Ni(II) and Fe(II), but the Zn(II) value is not discussed in this context.
+  - **Required correction** Provide a clear interpretation of the conductance data for all complexes, including Zn(II), and relate to the proposed formulas.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Computational reporting
+  - **Affected element** Section "Computational Details"
+  - **Evidence pointer** Section "Computational Details"
+  - **Issue** The manuscript states that "LAND" was used as the basis set for metal complexes. This is not a standard basis set name and is likely a typo for LANL2DZ.
+  - **Required correction** Correct the basis set name and provide full computational details.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Biological interpretation
+  - **Affected element** Section "Cytotoxicity Results"
+  - **Evidence pointer** Section "Cytotoxicity Results"
+  - **Issue** The text states that Cu-SCZ is more effective than Ru(III) complexes of sulfadimidine against colon cell lines, but no direct comparison under identical experimental conditions is provided.
+  - **Required correction** Either remove the comparison or provide a direct experimental comparison under the same conditions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript contains several grammatical errors and awkward phrasings, such as "Bivalence Metal Complexes" in the title and "practical and computational studies" which is vague.
+  - **Required correction** Thorough language editing is needed. Consider revising the title for clarity and precision.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** References
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites several older references for sulfonamide metal complexes but does not cite recent reviews or key papers on metal-based anticancer agents from the last 5 years.
+  - **Required correction** Update the introduction with recent relevant literature to place the work in the current context.
+
+## Risk / unsupported claims
+- The claim that DFT-optimized geometries "match" the experimental structures is unsupported, as no quantitative comparison is provided.
+- The claim of "promising antitumor activity" is not substantiated without appropriate controls and comparison to established drugs.
+- The assignment of specific coordination geometries for each complex is not rigorously established by the presented evidence.
+- The claim of an intercalative DNA binding mode is speculative without more definitive biophysical evidence.
+- The statement that the energy gap calculations can predict biological properties is an overinterpretation of the computational data.
+- The reported Kb value for the free ligand is inconsistent between the abstract and the conclusion.
+- The biological relevance of the docking scores is not established, as no correlation with experimental activity is demonstrated.

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplemental information descriptions.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and alignment with stated conclusions. Editorial and stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors present a thermodynamic model framework that predicts gene expression levels from DNA sequences of a synthetic CRE enhancer and its variants, and use it to infer molecular mechanisms, particularly competitive binding among ATF/CREB family transcription factors, that explain differential mutational effects.
+- **Visible evidence base** Main text figures (Figures 1–5), supplemental figure descriptions (Figures S1–S8), supplemental tables (Tables S1–S3), and methodological descriptions in the STAR Methods section.
+- **Missing materials affecting confidence** Actual figure images and data values are not provided; only figure captions and textual descriptions are available. Supplemental tables (S1–S3) are referenced but their contents are not included. Code is not reported in the paper, though a link to an external repository is provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a mechanistically interpretable thermodynamic model for predicting enhancer activity from sequence, applied to a well-characterized synthetic CRE enhancer dataset. The central claim that competitive binding among ATF/CREB family TFs improves predictive accuracy and explains differential mutational robustness is plausible and of interest. However, the evidence as presented is incomplete. Key quantitative results are described only in text, with no access to the actual data or figures, making it impossible to independently assess the strength of the reported correlations or the validity of the mechanistic interpretations. The comparison with the QSAM model is conceptually useful but appears limited to a hypothetical scenario rather than a direct benchmark on the same data. The manuscript would benefit from clearer presentation of model selection procedures, uncertainty quantification, and a more direct demonstration that the proposed mechanism, rather than model flexibility, drives the improved performance.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational biology, and synthetic biology would find this work relevant. Those studying cis-regulatory logic, transcription factor binding dynamics, and mutational effects on enhancer function would be the primary audience. The proposed mechanism of mutational robustness via competitive binding among family TFs could inform efforts in gene therapy vector design and synthetic promoter engineering.
+- **Major strengths** The use of a thermodynamically grounded model with interpretable parameters is a strength, contrasting with purely black-box deep learning approaches. The systematic exploration of TF additions and the focus on mechanistic explanation rather than only prediction accuracy is commendable. The validation strategy, including cross-validation and testing on rearranged sequences, is thoughtful. The identification of a specific, testable mechanism (competitive binding among family TFs) to explain differential mutational robustness is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims high predictive accuracy for the 4 TF model (rmax = 0.886 in cross-validation, rmax = 0.795 for multi-hit prediction) and that this model "successfully recapitulated many of the Δactivities in all four CREs."
+  - **Evidence pointer** Figures 2C, 4J, 4L, 4M; location not provided for specific data points.
+  - **Concern** The actual data supporting these claims are not visible. Figure images are not provided, and the numerical values are only stated in the text. Without access to the scatter plots, correlation values, or the underlying data, it is impossible to verify the quality of the fit, check for outliers, or assess whether the model performance is driven by a few influential points or is uniformly good across the sequence space.
+  - **Why it matters** The central quantitative claims of the paper rest on these correlation values. If the fit is poor in certain regions or driven by outliers, the mechanistic conclusions drawn from the model would be weakened. The reader cannot currently assess this.
+  - **Resolution test** Provide the actual figure images and, ideally, the underlying data or a public repository link. Show the scatter plots with the fit line and confidence intervals. Report the distribution of residuals, not just the correlation coefficient.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model comparison validity
+  - **Claim pointer** The manuscript states that the QSAM model "could not predict gene expression properly when the relative position of TFBS in the pre-learned enhancer was altered" and shows "almost 0% correlation" for the rearranged sequences.
+  - **Evidence pointer** Figures 4G–4I; location not provided.
+  - **Concern** The comparison between the thermodynamic model and QSAM is performed on a hypothetical scenario (reversed/rearranged sequences) that was not part of the training data for either model. While this is a reasonable test of extrapolation, it is not a fair comparison of the models' general predictive utility on the types of mutations they were designed to handle. QSAM is a position-dependent model by construction, so its failure on rearranged sequences is expected and not a novel finding. The comparison would be more informative if both models were benchmarked on the same held-out single and multi-mutant datasets.
+  - **Why it matters** The claim that the thermodynamic model is superior to QSAM for predicting effects of large-scale mutations is based on a test that is inherently biased against QSAM. This weakens the conclusion that the thermodynamic model is a more general or robust approach.
+  - **Resolution test** Benchmark both models on the same held-out test sets of single and multi-mutants. Report performance metrics for both. If the goal is to show extrapolation capability, acknowledge the inherent limitation of QSAM in this regard and frame the comparison accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation robustness
+  - **Claim pointer** The manuscript proposes that "competitive binding between family TFs" is the key mechanism explaining differential mutational robustness, specifically that loss of a weak activator (ATF7) can be compensated by increased binding of a strong activator (CREB1).
+  - **Evidence pointer** Figures 5A–5K, S5, S6; location not provided.
+  - **Concern** The mechanistic interpretation is derived from the fitted model parameters and the computed fractional occupancies. However, the manuscript does not report any uncertainty analysis on these derived quantities. It is unclear whether the proposed mechanism is robust to parameter uncertainty or whether it is an artifact of a particular local optimum found during training. The claim that ATF7 acts as a "capacitor" is an interesting hypothesis, but it is presented as a firm conclusion rather than a testable prediction.
+  - **Why it matters** The paper's main conceptual contribution is the mechanistic explanation. If this explanation is not robust to model uncertainty, the value of the work is significantly diminished.
+  - **Resolution test** Perform a sensitivity analysis or bootstrap resampling to estimate the uncertainty in the derived fractional occupancies and activation coefficients. Show that the proposed mechanism (e.g., ATF7 loss leading to CREB1 gain) is consistently observed across a range of plausible parameter sets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of claims
+  - **Claim pointer** The abstract and introduction imply a general framework for "transcriptional control" and "various cis-regulatory modules," and the discussion suggests applicability to "the entire gene, including a promoter and several enhancers."
+  - **Evidence pointer** Abstract, Introduction, Discussion; location not provided.
+  - **Concern** The model is tested on a single, short (87 bp) synthetic enhancer in a single cell line (HEK293). The claims of generalizability to other enhancers, promoters, and whole genes are not supported by the evidence presented. The model's performance on this one system, while promising, does not establish its utility as a general framework.
+  - **Why it matters** Overstating the scope of the findings could mislead readers about the maturity and applicability of the method.
+  - **Resolution test** Temper the language in the abstract and discussion to clearly state that the framework is demonstrated on a single synthetic enhancer and that further validation on diverse regulatory elements is needed. Alternatively, provide preliminary results on additional enhancers or promoters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** STAR Methods, "Parameter estimation" section
+  - **Evidence pointer** STAR Methods, "Parameter estimation"
+  - **Issue** The description of the parameter estimation procedure is brief. It mentions "Lam-Delosme Simulated Annealing in serial" but does not specify the number of iterations, convergence criteria, or how the "best" model was selected from the multiple trained models.
+  - **Required correction** Provide more detail on the optimization procedure, including the number of restarts, the cooling schedule, and the model selection criterion (e.g., best on training, best on validation).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Data and code availability section
+  - **Issue** The paper states that the code is available at an external repository (github.com/kennethabarr), but it is not clear if this is the exact code used for this study or a more general tool. The specific version or commit is not identified.
+  - **Required correction** Provide a link to the specific repository and, if possible, a version tag or commit hash. Consider depositing the code in a permanent archive (e.g., Zenodo) to ensure long-term accessibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Validation of CREB family-included thermodynamic models" section
+  - **Evidence pointer** Figures 4L, 4M
+  - **Issue** The manuscript reports correlation coefficients (r) and RMSE values but does not report confidence intervals or p-values for the cross-validation performance. The p-value for the overall correlation is reported (p < 2.2e-16), but this is not informative for model comparison.
+  - **Required correction** Report confidence intervals for the correlation coefficients, or at least the standard error across the cross-validation folds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Results
+  - **Issue** The term "deep molecular learning" in the title is not standard and may be misleading. The model is a thermodynamic model with parameter fitting, not a deep learning approach. The title could be misinterpreted.
+  - **Required correction** Consider revising the title to more accurately reflect the methodology, e.g., "A thermodynamic model of transcriptional control of a synthetic CRE enhancer and its variants."
+
+## Risk / unsupported claims
+- The claim that the model can be extended to "the entire gene, including a promoter and several enhancers" is unsupported by the data presented.
+- The claim that the thermodynamic model is superior to QSAM for predicting effects of large-scale mutations is based on a biased comparison and is not fully supported.
+- The mechanistic interpretation of ATF7 as a "capacitor" is presented as a conclusion but is not validated by independent experiments or uncertainty analysis.
+- The generalizability of the findings to other cell types and regulatory contexts is not established.
+- The performance of the model on the training data is reported, but the possibility of overfitting is not thoroughly addressed beyond cross-validation.

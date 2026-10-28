@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and supporting information descriptions. No figures, tables, or supplementary files were provided.
+- **Assessment boundary** The review is limited to the claims, methods, and results as described in the provided text. Statistical analyses, figure contents, and supplementary data could not be independently verified.
+- **Shared manuscript claim summary** The authors present ProtAff, a sequence-only protein binding affinity prediction model based on LoRA-finetuned ESM-2 with cross-attention and margin ranking loss. They claim it outperforms structural confidence metrics from AF3 and Boltz-2, as well as ML-based predictors MINT and CrossAffinity, on a within-target EGFR benchmark. They also report a prospective design pipeline yielding a sub-nanomolar Nipah virus binder, and characterize limitations including poor cross-target discrimination and reliance on binder-compositional features.
+- **Visible evidence base** Text descriptions of results, including Spearman correlation coefficients, NDCG values, binding measurements, and ablation outcomes. No raw data, figures, or tables were available for inspection.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and the associated code repository. Statistical significance values, confidence intervals, and detailed experimental protocols are not fully described in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational protein design, namely the gap between structural confidence scores and binding affinity prediction. The proposed architecture is reasonable and the training data curation shows awareness of common pitfalls such as train-test leakage. However, the central claims are weakened by the small evaluation set (N=55, single target), the demonstrated target-independence of the model, and the lack of detailed statistical reporting. The prospective Nipah result is encouraging but based on a single design campaign with limited validation. The manuscript is technically sound in its execution but the conclusions are broader than the evidence supports.
+- **Who would be interested in the results, and why** Computational protein engineers and researchers developing machine learning models for protein-protein interactions would be the primary audience. The work is also relevant to practitioners using AF3 or Boltz-2 confidence scores in design pipelines, as it provides a cautionary benchmark showing these scores do not rank affinity. The analysis of target-independence and compositional confounding is of general interest to the protein language model community.
+- **Major strengths** The problem is well-motivated and the evaluation against structural metrics is a useful contribution. The use of a ranking loss to handle heterogeneous assay data is a sensible design choice. The prospective Nipah design campaign provides a real-world test. The ablation studies and target-substitution analyses are thoughtful and reveal important limitations of the model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "ProtAff achieves a Spearman correlation coefficient ρ = 0.413, outperforming the best AF3 metric (ρ = 0.054), the best Boltz-2 metric (ρ = −0.046), and ML-based predictors MINT (ρ = 0.242) and CrossAffinity (ρ = 0.216)."
+  - **Evidence pointer** Section 4.1, Table 1, Figure 4
+  - **Concern** The primary performance claim rests on a single benchmark with only 55 binders against one target. No confidence intervals, p-values, or significance tests are reported for the Spearman correlations. With N=55, the difference between ρ = 0.413 and ρ = 0.242 may not be statistically significant. The manuscript does not provide the variance or distribution of these estimates, making it impossible to assess whether the reported improvements are robust.
+  - **Why it matters** The central conclusion that ProtAff outperforms existing methods depends entirely on this comparison. Without measures of uncertainty, the reader cannot determine whether the observed differences are meaningful or within the range of sampling noise. This is particularly critical given the small sample size and the known variability of correlation estimates in such settings.
+  - **Resolution test** Provide bootstrap confidence intervals or permutation-based p-values for the Spearman correlations of all methods on the EGFR benchmark. Report the distribution of ρ across resampled subsets of the 55 binders. If the difference between ProtAff and MINT is not significant at a reasonable threshold, the claim of superiority should be tempered.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal validity
+  - **Claim pointer** "Four of the five substitutions yielded Spearman correlations indistinguishable from or higher than the true EGFR target (True EGFR ρ = 0.413; Scrambled EGFR ρ = 0.432; Different family ρ = 0.448; Most represented ρ = 0.460; Similar length ρ = 0.510)."
+  - **Evidence pointer** Section 4.4, Figure 9
+  - **Concern** The target-substitution analysis demonstrates that the model's ranking of binders is essentially independent of the target sequence. Replacing the true target with a scrambled version preserves or improves performance. This directly contradicts the stated purpose of the model, which is to predict binding affinity between a specific binder-target pair. The authors acknowledge this in the discussion, but the severity of the issue is understated. If the model does not use target information, it is not performing binding affinity prediction in any meaningful sense; it is ranking binders by intrinsic properties.
+  - **Why it matters** This finding undermines the fundamental claim of the paper. A model that ignores the target cannot generalize to new targets in a reliable way, and its apparent success on the EGFR benchmark may be an artifact of the specific binder set. The manuscript should either reframe the contribution as a binder-quality predictor or demonstrate conditions under which target information is actually used.
+  - **Resolution test** Perform a more stringent test where the model is trained on one set of targets and evaluated on a completely unrelated target family with binders of similar composition. If performance degrades significantly, this would indicate some target sensitivity. Alternatively, the authors could show that the model fails when the target is replaced with a random protein of similar length, which would suggest it is not entirely target-independent. The current scrambled-target control is insufficient because it preserves length and composition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validity
+  - **Claim pointer** "A pipeline incorporating ProtAff for affinity ranking produced a design with K D = 0.132 nM (2 of 5 designs confirmed binding), a 2.8-fold improvement over the competition winner."
+  - **Evidence pointer** Section 4.2, Figure 6
+  - **Concern** The prospective Nipah result is based on a single design campaign with only five designs tested experimentally. The comparison to the competition winner is anecdotal, and the manuscript does not report how many designs from other participants were tested or the distribution of outcomes. The 2.8-fold improvement is presented as a validation of the pipeline, but with such a small sample, this could be due to chance. Additionally, the manuscript does not clarify whether the competition winner was selected using the same experimental assay and conditions.
+  - **Why it matters** Prospective validation is a strong selling point, but a single success with a small number of tested designs does not establish reliability. The reader needs to know the baseline success rate of the design pipeline without ProtAF, and whether the improvement is consistent across multiple campaigns. Without this context, the Nipah result is suggestive but not conclusive.
+  - **Resolution test** Report the outcomes of all designs tested in the campaign, not just the top-ranked one. Provide the success rate of the pipeline with and without ProtAF scoring, if such a comparison is possible. If additional design campaigns have been conducted, include those results. At minimum, acknowledge the limited statistical power of a single campaign.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, Training Objective
+  - **Evidence pointer** Location not provided
+  - **Issue** The margin ranking loss is described in text but the exact formulation is not given. The equation is referenced but not displayed in the provided text.
+  - **Required correction** Include the explicit mathematical formulation of the loss function, including the definition of the margin and how pairs are weighted.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.5, Hyperparameters
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that full hyperparameters are listed in Supplementary Table S2, but this table was not provided. Key hyperparameters such as learning rate, batch size, number of training steps, and LoRA rank are not mentioned in the main text.
+  - **Required correction** Summarize the most critical hyperparameters in the main text or ensure the supplementary table is accessible to reviewers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 4.1, Table 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript reports Spearman and Pearson correlations but does not provide confidence intervals or p-values for any of the reported metrics. This makes it difficult to compare methods or assess the reliability of the results.
+  - **Required correction** Add confidence intervals or p-values for the primary correlation coefficients, at least for the main comparison between ProtAF and the best baseline.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 5.5, Target Dependence and Biophysical Confounds
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of biophysical confounds is insightful but the causal interpretation is not fully developed. The authors state that the model relies on binder-compositional features but do not discuss whether this is a fundamental limitation of sequence-only models or a correctable training data bias.
+  - **Required correction** Elaborate on whether the compositional bias is inherent to the training data distribution or could be mitigated with more diverse training data. Discuss potential architectural changes that might encourage target-dependent scoring.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical significance testing for the primary benchmark comparison (R1-M1) and the demonstrated target-independence of the model (R1-M2) are the two most critical issues. The former is required to support the claim of superiority over baselines, and the latter challenges the fundamental premise of the model as an affinity predictor. The prospective Nipah result (R1-M3) is supportive but not sufficient on its own.
+- **Assessment against Nature-style criteria** Originality: The combination of LoRA-finetuned ESM-2 with cross-attention and ranking loss is a reasonable engineering contribution, but the individual components are established. The critical analysis of target-independence is a valuable and somewhat novel contribution. Scientific importance: The problem is important, and the negative result regarding structural confidence scores is useful. However, the demonstrated limitations of the proposed model reduce its immediate impact. Interdisciplinary readership: The work is primarily of interest to computational biologists and machine learning researchers. The writing is accessible but the lack of biological validation limits broader appeal. Technical soundness: The methods are generally sound, but the evaluation is too limited to support the strong claims. The ablation studies are well-designed. Readability for nonspecialists: The abstract and introduction are clear, but the results section assumes familiarity with protein language models and structural prediction metrics.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has merit and addresses an important problem, but the central claims require additional statistical support and a more thorough evaluation of the model's target-dependence. The authors should be encouraged to revise and resubmit with the identified concerns addressed.

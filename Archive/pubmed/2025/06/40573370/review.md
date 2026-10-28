@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusions) for a single-author research article submitted to *Viruses*.
+- **Assessment boundary** Evaluation is limited to the scientific content, methodology, and claims as presented in the provided text. No supplementary files, figures, or data beyond what is described in the text were available for direct inspection.
+- **Shared manuscript claim summary** The author claims that AlphaFold 3 can predict high-confidence structures of the six-protein late transcription factor (LTF) complex from six beta- and gamma-herpesviruses bound to late promoter DNA, that these structures are consistent with prior experimental data, and that the predictions provide new insights into LTF function, including roles for zinc binding, a conserved phosphothreonine, and potential substitution for host general transcription factors TFIIA and TFIIB.
+- **Visible evidence base** The manuscript text describes the use of NCBI Identical Protein Groups for sequence selection, COBALT for multiple sequence alignment, AlphaFold 3 for structure prediction, PyMOL for analysis, and DFF-ChIP data from prior work for comparison. Figures and supplementary files are referenced but not directly available for review.
+- **Missing materials affecting confidence** The actual AlphaFold 3 output structures (.cif files), confidence metrics (ipTM values per prediction), sequence alignments, supplementary figures, and the DFF-ChIP data used for comparison were not provided. This limits independent verification of the structural claims and the quantitative comparisons.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study applying AlphaFold 3 to predict the structure of a biologically important but structurally uncharacterized complex: the six-protein LTF complex from herpesviruses. The work is timely and addresses a genuine gap in the field. The author demonstrates familiarity with the relevant literature and prior experimental constraints. However, the manuscript has several significant weaknesses. The validation of the predicted structures against experimental data is largely qualitative and relies on a single prior DFF-ChIP study. The claims regarding zinc binding sites and the functional implications for TFIIA/TFIIB substitution are speculative and not sufficiently supported by the evidence presented. The lack of detailed methodological transparency (e.g., specific AlphaFold 3 settings, confidence score distributions, and how the "correct" orientation was determined) limits reproducibility. The manuscript would benefit from a more rigorous and cautious interpretation of the predictions, particularly given the known limitations of AlphaFold 3 for multi-protein complexes and nucleic acid interactions.
+- **Who would be interested in the results, and why** Researchers studying herpesvirus gene expression, particularly the regulation of late genes, would be the primary audience. The work may also be of interest to structural biologists using AlphaFold for complex prediction and to those studying the evolution of viral transcription mechanisms. The potential to guide future cryo-EM experiments is a key point of interest.
+- **Major strengths** The study addresses a relevant and unsolved problem. The use of AlphaFold 3 to model a multi-subunit complex with DNA is a current and appropriate approach. The author has incorporated known experimental constraints (e.g., the essential phosphothreonine, zinc-binding motifs) into the prediction workflow. The comparison across six different viruses provides a useful evolutionary perspective and strengthens the claim of a conserved structural architecture.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and validation
+  - **Claim pointer** The manuscript claims that the predicted structures are "remarkably similar" and "consistent with most of the previously determined information" regarding LTF interactions and DNA positioning.
+  - **Evidence pointer** Results and Discussion, Figures 2 and 5, comparison to DFF-ChIP data from reference [10].
+  - **Concern** The validation of the predicted structures against experimental data is insufficient. The primary comparison is to a single DFF-ChIP study, which provides information on DNA footprint size and positioning but not on the detailed protein-protein or protein-DNA contacts. The claim of consistency is qualitative. The author does not provide a quantitative comparison (e.g., cross-linking mass spectrometry data, mutagenesis data mapped onto the structure, or a detailed analysis of how the predicted contacts match known functional residues). The statement that the DNA bend is "likely" derived from TBP homology is an assumption, not a validation. The manuscript does not address the known limitations of AlphaFold 3 in predicting the effects of post-translational modifications and the precise conformation of protein-DNA complexes, which can be influenced by the input DNA sequence and length.
+  - **Why it matters** The central claim of the paper is that AlphaFold 3 can produce a "reasonable" and useful structure. Without a more rigorous, quantitative validation against independent experimental data, the reliability of the predicted structures for guiding further experiments is not established. The conclusions drawn about the function of individual subunits and the potential substitution for TFIIA/TFIIB are built on this unvalidated structural model.
+  - **Resolution test** The author should provide a more detailed and quantitative comparison of the predicted structures with all available experimental data. This could include mapping known loss-of-function mutations onto the predicted interfaces, comparing predicted contacts with any available cross-linking data, or performing a systematic analysis of the confidence scores (pLDDT, PAE) for the key interfaces. The author should also explicitly discuss the limitations of AlphaFold 3 for this type of complex and how the predictions might be biased by the input parameters (e.g., DNA sequence, presence of zinc ions).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claims
+  - **Claim pointer** The manuscript claims that the predicted zinc binding sites and the position of the phosphothreonine at the junction of five subunits provide insights into the function of the LTF complex, and that LTFa and LTFe may substitute for TFIIA and TFIIB.
+  - **Evidence pointer** Results and Discussion, Figures 3 and 7, Supplementary Figures S1-S4.
+  - **Concern** The functional conclusions are highly speculative and not directly supported by the data presented. The identification of zinc binding sites is based solely on the presence of conserved cysteine/histidine residues and the ability of AlphaFold 3 to place a zinc ion. The author notes that one site in KSHV LTFe has only two cysteines and is uncertain, which highlights the speculative nature of these predictions. The claim that the phosphothreonine is "at the junction of five subunits" is an observation from the model, but its functional significance is not tested or discussed in the context of the known requirement for phosphorylation. The alignment of LTFa with TFIIA and LTFe with TFIIB is based on their position in the complex relative to the TBP-like domain of LTFc. This is an interesting hypothesis, but it is not supported by any sequence or structural homology analysis. The author even states that AlphaFold 3 failed to predict a specific interaction with Pol II CTD, which is a key part of the proposed model.
+  - **Why it matters** The manuscript's stated goal is to "help elucidate how the LTFs might function during initiation." The functional hypotheses presented are the main intellectual contribution. If these are not rigorously supported, the paper's value is significantly diminished. Presenting speculative hypotheses as if they are supported by the structural predictions is misleading.
+  - **Resolution test** The author should clearly separate observations from the model (e.g., "the model predicts a zinc binding site at...") from functional hypotheses (e.g., "this suggests that..."). The functional hypotheses should be framed as testable predictions. The author should provide a more detailed analysis of the structural similarity between LTFa/LTFe and TFIIA/TFIIB, or explicitly state that the similarity is only positional. The failure of AlphaFold 3 to predict a Pol II CTD interaction should be discussed as a limitation of the model, not as evidence against a direct interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The methods section describes the general workflow for AlphaFold 3 predictions but lacks specific details.
+  - **Evidence pointer** Materials and Methods, Section 2.3.
+  - **Concern** The description of the AlphaFold 3 methodology is insufficient for reproducibility. The author states that "hundreds of predictions were performed with a large variety of parameters" but does not specify which parameters were varied, how the final parameters were chosen, or how the "best" structures were selected. The criteria for determining that a structure was "high-confidence" are not defined beyond a general reference to ipTM values. The process for adding zinc ions and the phosphothreonine is not described in detail (e.g., how the zinc ion placement was determined, which residue was phosphorylated). The method for assessing the "correct" orientation of LTFc on the DNA is not described.
+  - **Why it matters** A key aspect of a computational study is that it can be reproduced and the results independently verified. The lack of methodological detail makes this impossible. The reader cannot assess the robustness of the predictions or the potential for bias in the selection of parameters and structures.
+  - **Resolution test** The author should provide a detailed, step-by-step description of the AlphaFold 3 protocol, including all input parameters, the criteria for selecting the final models, and the methods used for adding post-translational modifications and ligands. The author should also provide the full set of output metrics (e.g., ipTM, pLDDT, PAE) for all predicted complexes, perhaps as a supplementary table.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results and Discussion, Figure 1
+  - **Issue** The text states that "HCMV and MCMV had the most total amino acids (2651 and 2501, respectively) and had the largest LTFc's." It is unclear if the total amino acid count is for the sum of all six LTF proteins or for the individual proteins. The figure is not available for inspection.
+  - **Required correction** Clarify in the text what the total amino acid count refers to. Ensure the figure legend clearly defines all axes and data points.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Figure 6B
+  - **Evidence pointer** Results and Discussion, Figure 6B
+  - **Issue** The text states that for KSHV LTFc alone, "of the five structures generated, only two were bound in the correct orientation." The definition of "correct orientation" is not provided.
+  - **Required correction** Define what constitutes the "correct orientation" in the text or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Results and Discussion
+  - **Issue** The manuscript does not discuss other computational or experimental efforts to model or characterize the LTF complex, if any exist. The discussion of the limitations of AlphaFold 3 is brief.
+  - **Required correction** Add a brief discussion of the known limitations of AlphaFold 3 for multi-protein complexes and protein-DNA interactions, and place the findings in the context of any other structural models or predictions for these proteins.
+
+## Risk / unsupported claims
+- The claim that the predicted structures are "remarkably similar" across six viruses is based on visual inspection of the models and is not supported by quantitative structural comparison (e.g., RMSD calculations).
+- The claim that the phosphothreonine is "at the junction of five subunits" is an observation from the model, but its functional significance is not established.
+- The claim that LTFa and LTFe may substitute for TFIIA and TFIIB is a speculative hypothesis based on positional analogy, not on sequence or structural homology.
+- The claim that zinc binding "plays a major role in the structure and function of the LTF complex" is inferred from the presence of conserved residues and the AlphaFold 3 predictions, but no direct experimental evidence is provided in this manuscript.
+- The statement that the predicted DNA bend is "likely" derived from TFB homology is an assumption about the basis of the prediction, not a validated finding.
+- The overall utility of the predicted structures for guiding cryo-EM experiments is a stated hope, but no specific testable predictions are offered to facilitate such experiments.

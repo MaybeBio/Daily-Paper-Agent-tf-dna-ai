@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors describe an extension of their previously developed method, TRACE, to incorporate variant data from 57 Yoruban individuals, generating individual-specific transcription factor binding footprints genome-wide. They report association mapping between these footprints and nearby regulatory variants, identifying footprint-QTLs (fpQTLs) that show distance-dependent effects on TF binding and significant overlap with known dsQTLs and eQTLs, and claim improved functional interpretation of noncoding variation.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical details, or methodological specifics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, methodological details of TRACE extension, statistical models, quality control procedures, and validation analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable extension of an existing computational method to identify regulatory variants affecting transcription factor binding at individual level. The concept of footprint-QTLs is interesting and could be useful for the functional interpretation of noncoding variation. However, the abstract provides insufficient quantitative detail to evaluate the robustness, statistical rigor, or biological significance of the findings. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in statistical genetics, regulatory genomics, and functional annotation of noncoding variants would be interested. Those working on QTL mapping, transcription factor biology, and interpretation of genome-wide association study variants could benefit from a new resource for prioritizing regulatory variants.
+- **Major strengths** The method addresses an important gap by attempting to link noncoding variants to transcription factor binding at individual level. The integration of chromatin accessibility, motif information, and variant data is conceptually sound. The reported overlap with dsQTLs and eQTLs suggests biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim "numerous footprint-variant pairs with significant evidence for correlation" and call these fpQTLs.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No statistical thresholds, multiple testing correction methods, or effect size measures are reported. The term "significant evidence" is undefined. Without knowing the false discovery rate control, the number of tests performed, or the reproducibility of the associations, the validity of the fpQTL calls cannot be assessed.
+  - **Why it matters** QTL mapping is highly susceptible to false positives, especially when testing millions of variant-footprint pairs. The credibility of the entire resource depends on rigorous statistical control.
+  - **Resolution test** Provide the significance threshold, multiple testing correction approach, number of tests performed, and independent replication or validation of a subset of fpQTLs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state they "extended" TRACE to incorporate variant data, implying the method is valid for individual-specific footprint prediction.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No validation of the extended method is described. It is unclear whether the individual-specific footprint predictions were benchmarked against experimental data, compared to the original TRACE performance, or tested for accuracy in variant effect prediction.
+  - **Why it matters** If the underlying footprint predictions are inaccurate, the subsequent QTL mapping would be meaningless. The method must be shown to produce reliable individual-level predictions before association testing.
+  - **Resolution test** Describe validation experiments, such as comparison to ChIP-seq data in the same individuals, cross-validation, or benchmarking against known variant effects on TF binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors claim fpQTLs "share significant overlap with known dsQTLs and eQTLs" and "provide a rich resource for the study of regulatory variants."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The degree of overlap and its significance are not quantified. It is unclear whether the overlap is greater than expected by chance, and whether fpQTLs provide unique information beyond existing dsQTL and eQTL resources.
+  - **Why it matters** The claimed added value of fpQTLs depends on demonstrating that they capture regulatory variants not already identified by other QTL approaches.
+  - **Resolution test** Report overlap statistics with appropriate background models, and show examples of fpQTLs that are not captured by dsQTLs or eQTLs with functional validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of fpQTL
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "footprint-QTL" is introduced but the precise definition of the molecular trait being mapped is not fully clear. It is implied to be the TRACE score, but this should be stated explicitly.
+  - **Required correction** Define the molecular trait as the predicted TF binding affinity score from TRACE for each individual.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Population scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The study uses only 57 Yoruban individuals. The generalizability of fpQTLs to other populations is not addressed.
+  - **Required correction** Acknowledge the population-specific nature of the resource and discuss potential limitations for cross-population application.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Resource availability
+  - **Affected element** Data accessibility
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of how the fpQTL resource will be made available to the community.
+  - **Required correction** State plans for data deposition and access, such as a public database or browser.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The statistical framework and method validation must be fully described and demonstrated before the existence of fpQTLs can be considered established.
+- **Assessment against Nature-style criteria** Originality is moderate, as the work extends an existing method rather than introducing a fundamentally new concept. Scientific importance is potentially high if the resource proves reliable and useful for interpreting noncoding variants. Interdisciplinary readership is plausible, spanning genetics, genomics, and computational biology. Technical soundness cannot be evaluated from the abstract alone and requires full methodological detail. Readability for nonspecialists is adequate, though the abstract assumes familiarity with QTL mapping and TF binding concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising approach, but the absence of statistical and validation details prevents assessment of the core claims. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The existence of "numerous" fpQTLs with "significant evidence" is unsupported without statistical thresholds or effect sizes.
+- The claim that fpQTLs "share significant overlap" with dsQTLs and eQTLs is unsupported without quantitative overlap statistics.
+- The claim that fpQTLs "provide a rich resource" leading to "improved functional interpretation" is not evaluable without demonstration of unique contributions or validation.
+- The accuracy of individual-specific footprint predictions from the extended TRACE method is unverified.

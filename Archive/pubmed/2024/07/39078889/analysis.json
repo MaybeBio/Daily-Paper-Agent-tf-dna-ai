@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39078889",
+  "title": "Utilising deep learning networks to classify ZEB2 expression images in cervical cancer.",
+  "authors": "Zheng, Chenyang; Shen, Qinqin; Zhao, Lingjun; Wang, Yijun",
+  "journal": "British journal of hospital medicine (London, England : 2005)",
+  "published_date": "2024-07-30",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 2,
+  "one_liner_zh": "用深度学习集成模型对宫颈癌组织ZEB2表达图像分类，仅涉及转录因子表达水平的图像识别，无蛋白质-DNA互作、结合位点或互作机制建模，与本课题关联微弱。",
+  "abstract": "Aims/Background Cervical cancer continues to be a significant cause of cancer-related deaths among women, especially in low-resource settings where screening and follow-up care are lacking. The transcription factor zinc finger E-box-binding homeobox 2 (ZEB2) has been identified as a potential marker for tumour aggressiveness and cancer progression in cervical cancer tissues. Methods This study presents a hybrid deep learning system developed to classify cervical cancer images based on ZEB2 expression. The system integrates multiple convolutional neural network models-EfficientNet, DenseNet, and InceptionNet-using ensemble voting. We utilised the gradient-weighted class activation mapping (Grad-CAM) visualisation technique to improve the interpretability of the decisions made by the convolutional neural networks. The dataset consisted of 649 annotated images, which were divided into training, validation, and testing sets. Results The hybrid model exhibited a high classification accuracy of 94.4% on the test set. The Grad-CAM visualisations offered insights into the model's decision-making process, emphasising the image regions crucial for classifying ZEB2 expression levels. Conclusion The proposed hybrid deep learning model presents an effective and interpretable method for the classification of cervical cancer based on ZEB2 expression. This approach holds the potential to substantially aid in early diagnosis, thereby potentially enhancing patient outcomes and mitigating healthcare costs. Future endeavours will concentrate on enhancing the model's accuracy and investigating its applicability to other cancer types.",
+  "abstract_zh": "目的/背景 宫颈癌仍然是导致女性癌症相关死亡的重要原因，尤其是在缺乏筛查和随访护理的低资源环境中。转录因子锌指E-box结合同源盒2（ZEB2）已被确定为宫颈癌组织中肿瘤侵袭性和癌症进展的潜在标志物。方法 本研究提出了一种混合深度学习系统，用于基于ZEB2表达对宫颈癌图像进行分类。该系统整合了多种卷积神经网络模型——EfficientNet、DenseNet和InceptionNet——采用集成投票方法。我们利用梯度加权类激活映射（Grad-CAM）可视化技术来提高卷积神经网络决策的可解释性。数据集包含649张标注图像，分为训练集、验证集和测试集。结果 混合模型在测试集上表现出94.4%的高分类准确率。Grad-CAM可视化提供了对模型决策过程的洞察，强调了对于分类ZEB2表达水平至关重要的图像区域。结论 所提出的混合深度学习模型为基于ZEB2表达的宫颈癌分类提供了一种有效且可解释的方法。该方法具有显著辅助早期诊断的潜力，从而可能改善患者预后并降低医疗成本。未来的工作将集中于提高模型准确性并探索其在其他癌症类型中的适用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39078889/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39078889/",
+  "paper_page_path": "papers/pubmed/39078889/index.html"
+}

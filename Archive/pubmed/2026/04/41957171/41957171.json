@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "41957171",
+    "doi": "10.1038/s41598-026-48051-y",
+    "title": "Predicting mild familial exudative vitreoretinopathy with autosomal dominant inheritance using deep learning."
+  },
+  "content": {
+    "abstract": "Familial exudative vitreoretinopathy (FEVR) is a genetically and phenotypically heterogeneous disorder in which identifying autosomal dominant Norrin/beta-catenin (AD-N/BC)-associated disease is often challenging, particularly in mild cases. We investigated whether deep learning could identify color fundus images corresponding to AD-N/BC gene mutation carriers as defined by peripheral FA and individuals with similar fundus features despite lacking confirmed genetic variants. A total of 305 images from 305 eyes of 101 FEVR families were used for training, validation, and testing. Images were labeled as affected or unaffected based on fluorescein angiography findings indicative of AD-N/BC-associated FEVR. A deep learning model was trained using images from eyes with pathogenic AD-N/BC gene variants and evaluated on a test dataset consisting of images without such variants. The main outcome is performance for identifying color fundus features corresponding to AD-N/BC gene mutation carriers. In the test dataset, 12 of 38 affected images and 107 of 111 unaffected images were correctly classified, yielding a sensitivity of 31.6% (95% CI: 0.1818-0.4792), a specificity of 96.4% (95% CI: 0.9273-0.9914), and an area under the receiver operating characteristic curve of 0.786 (95% CI: 0.703-0.864). These findings indicate that deep learning applied to ultra-widefield color fundus images may facilitate the identification of AD-N/BC mutation carriers and individuals with similar fundus features despite lacking genetic variants, thereby enabling more precise phenotypic characterization and potentially improving the accuracy of genetic counseling.",
+    "keywords": [
+      "Autosomal dominant",
+      "Deep learning",
+      "FEVR",
+      "Familial exudative vitreoretinopathy",
+      "Norrin/beta-catenin pathway"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Familial Exudative Vitreoretinopathies/genetics/diagnosis/diagnostic imaging",
+      "Genes, Dominant",
+      "Female",
+      "beta Catenin/genetics",
+      "Mutation",
+      "Eye Proteins/genetics",
+      "Male",
+      "Nerve Tissue Proteins/genetics",
+      "Fluorescein Angiography",
+      "Fundus Oculi"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Watanabe, Waka",
+        "Mizoue, Hideaki",
+        "Matsushita, Itsuka",
+        "Yasukochi, Yoshiki",
+        "Higasa, Koichiro",
+        "Kondo, Hiroyuki"
+      ],
+      "short_names": [
+        "Watanabe W",
+        "Mizoue H",
+        "Matsushita I",
+        "Yasukochi Y",
+        "Higasa K",
+        "Kondo H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "University of Occupational and Environmental Health, 1-1, Iseigaoka, Yahatanishiku, Kitakyushu, 807-8555, Japan.",
+        "Department of Genome Analysis, Institute of Biomedical Science, Kansai Medical University, Hirakata, Japan.",
+        "University of Occupational and Environmental Health, 1-1, Iseigaoka, Yahatanishiku, Kitakyushu, 807-8555, Japan.",
+        "Department of Genome Analysis, Institute of Biomedical Science, Kansai Medical University, Hirakata, Japan.",
+        "Department of Genome Analysis, Institute of Biomedical Science, Kansai Medical University, Hirakata, Japan.",
+        "University of Occupational and Environmental Health, 1-1, Iseigaoka, Yahatanishiku, Kitakyushu, 807-8555, Japan. kondohi@med.uoeh-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Watanabe, Waka",
+        "short_name": "Watanabe W",
+        "identifiers": [],
+        "affiliations": [
+          "University of Occupational and Environmental Health, 1-1, Iseigaoka, Yahatanishiku, Kitakyushu, 807-8555, Japan."
+        ]
+      },
+      {
+        "full_name": "Mizoue, Hideaki",
+        "short_name": "Mizoue H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Analysis, Institute of Biomedical Science, Kansai Medical University, Hirakata, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsushita, Itsuka",
+        "short_name": "Matsushita I",
+        "identifiers": [],
+        "affiliations": [
+          "University of Occupational and Environmental Health, 1-1, Iseigaoka, Yahatanishiku, Kitakyushu, 807-8555, Japan."
+        ]
+      },
+      {
+        "full_name": "Yasukochi, Yoshiki",
+        "short_name": "Yasukochi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Analysis, Institute of Biomedical Science, Kansai Medical University, Hirakata, Japan."
+        ]
+      },
+      {
+        "full_name": "Higasa, Koichiro",
+        "short_name": "Higasa K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Analysis, Institute of Biomedical Science, Kansai Medical University, Hirakata, Japan."
+        ]
+      },
+      {
+        "full_name": "Kondo, Hiroyuki",
+        "short_name": "Kondo H",
+        "identifiers": [],
+        "affiliations": [
+          "University of Occupational and Environmental Health, 1-1, Iseigaoka, Yahatanishiku, Kitakyushu, 807-8555, Japan. kondohi@med.uoeh-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Apr 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/10 00:33",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41412793",
+      "40973198",
+      "40359454",
+      "39197492",
+      "38881609",
+      "34128965",
+      "29135315",
+      "25515576",
+      "25323851",
+      "25124931",
+      "17325173",
+      "9627651",
+      "6084219",
+      "5394449"
+    ],
+    "similar": [
+      "41957171",
+      "39197492",
+      "41477247",
+      "33497368",
+      "36453149",
+      "39903177",
+      "31987760",
+      "42073993",
+      "32238352",
+      "41526591",
+      "31452356",
+      "41412793",
+      "25352738",
+      "40624769",
+      "35037517",
+      "32420371",
+      "31513438",
+      "26299697",
+      "35277167",
+      "30820142",
+      "34077673",
+      "35244470",
+      "38472449",
+      "39638917",
+      "40015679",
+      "41024485",
+      "35133048",
+      "34102952",
+      "41204464",
+      "31999491",
+      "21177847",
+      "37451565",
+      "35361685",
+      "31765079",
+      "30452590",
+      "27416933",
+      "35361573",
+      "31077665",
+      "32730767",
+      "25323851",
+      "39749995",
+      "39918476",
+      "35417085",
+      "38881609",
+      "31277801",
+      "26244290",
+      "38706142",
+      "40623591",
+      "32447042",
+      "36444989",
+      "28211206",
+      "20301326",
+      "38363575",
+      "31273345",
+      "32530348",
+      "38361102",
+      "31100165",
+      "37252707",
+      "31821093",
+      "37089697",
+      "27720678",
+      "31989285",
+      "36821134",
+      "39647854",
+      "36411543",
+      "17325173",
+      "34860240",
+      "41068583",
+      "24715757",
+      "27217716",
+      "28420620",
+      "39145965",
+      "33104391",
+      "24084499",
+      "41174744",
+      "25711638",
+      "27486893",
+      "36809312",
+      "40011896",
+      "35876299",
+      "31755339",
+      "38280677",
+      "32672542",
+      "39418057",
+      "30865063",
+      "37053012",
+      "38752919",
+      "33377944",
+      "38836470",
+      "28575650",
+      "25250762",
+      "30768221",
+      "30537745",
+      "38720524",
+      "32039639",
+      "10729291",
+      "14560311",
+      "41080640",
+      "33104226",
+      "34393211"
+    ],
+    "review": [
+      "41957171",
+      "40624769",
+      "41204464",
+      "25323851",
+      "40623591",
+      "20301326",
+      "27486893"
+    ],
+    "pmc": [
+      "13219455"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-48051-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41957171/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1745",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

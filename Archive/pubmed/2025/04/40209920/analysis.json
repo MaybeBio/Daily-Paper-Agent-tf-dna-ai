@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40209920",
+  "title": "A comprehensive review of computational methods for Protein-DNA binding site prediction.",
+  "authors": "Liu, Zi; Qiu, Wang-Ren; Liu, Yan; Yan, He; Pei, Wenyi; Zhu, Yi-Heng; Qiu, Jing",
+  "journal": "Analytical biochemistry",
+  "published_date": "2025-04-11",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述系统梳理了蛋白质-DNA结合位点预测的计算方法（模板、统计机器学习与深度学习），并基准测试了14种模型，虽非聚焦TF-DNA体系，但方法可迁移至转录因子结合位点预测，与本课题高度相关。",
+  "abstract": "Accurately identifying protein-DNA binding sites is essential for understanding the molecular mechanisms underlying biological processes, which in turn facilitates advancements in drug discovery and design. While biochemical experiments provide the most accurate way to locate DNA-binding sites, they are generally time-consuming, resource-intensive, and expensive. There is a pressing need to develop computational methods that are both efficient and accurate for DNA-binding site prediction. This study thoroughly reviews and categorizes major computational approaches for predicting DNA-binding sites, including template detection, statistical machine learning, and deep learning-based methods. The 14 state-of-the-art DNA-binding site prediction models have been benchmarked on 136 non-redundant proteins, where the deep learning-based, especially pre-trained large language model-based, methods achieve superior performance over the other two categories. Applications of these DNA-binding site prediction methods are also involved.",
+  "abstract_zh": "准确识别蛋白质-DNA结合位点对于理解生物过程的分子机制至关重要，进而促进药物发现与设计的进展。尽管生化实验提供了定位DNA结合位点的最准确方式，但它们通常耗时、耗资源且成本高昂。因此，迫切需要开发既高效又准确的计算方法来预测DNA结合位点。本研究全面回顾并分类了预测DNA结合位点的主要计算方法，包括模板检测、统计机器学习和基于深度学习的方法。14种最先进的DNA结合位点预测模型已在136个非冗余蛋白质上进行了基准测试，其中基于深度学习的方法，尤其是基于预训练大语言模型的方法，在性能上优于其他两类方法。此外，还涉及了这些DNA结合位点预测方法的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40209920/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40209920/",
+  "paper_page_path": "papers/pubmed/40209920/index.html"
+}

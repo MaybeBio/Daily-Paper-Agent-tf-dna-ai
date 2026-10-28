@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "41810197",
+    "doi": "10.21037/tp-2025-aw-800",
+    "title": "Comprehensive machine learning for identifying platelet-associated diagnostic biomarkers and immune landscape in Kawasaki disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Kawasaki disease (KD) is an acute, self-limited febrile illness primarily affecting children under 5 years of age. Platelets play a crucial dual role in both hemostasis and inflammatory/immune responses, contributing to vascular damage in diseases such as KD, making their study essential for the diagnosis and treatment of KD. Therefore, this study aimed to identify platelet-related diagnostic biomarkers, construct a machine learning-based diagnostic model, and computationally characterize their associated immune features, pathway activities, and regulatory networks in KD. METHODS: This study integrated transcriptomic datasets from 4 KD cohorts in the Gene Expression Omnibus database (training set: GSE68004/GSE73461; validation set: GSE100154/GSE63881). Platelet-associated differentially expressed genes were screened through differential analysis and Weighted Gene Co-expression Network Analysis. Four diagnostic biomarkers were identified via cross-validation using least absolute shrinkage and selection operator, random forest, and eXtreme Gradient Boosting algorithms, with model efficacy assessed through Receiver operating characteristic curve analysis. Immune infiltration characteristics were analyzed using single sample Gene Set Enrichment Analysis (GSEA) and CIBERSORT, pathway enrichment was performed via GSEA, molecular subtypes were classified using the non-negative Matrix Factorization algorithm, and miRNA and transcription factor (TF) regulatory networks were predicted through miRNet/NetworkAnalyst. RESULTS: We identified 4 platelet-associated biomarkers (CD63, F5, STXBP2, and SERPINA1) with exceptional diagnostic power. These genes orchestrate KD pathogenesis through dysregulated coagulation (F5), immune hyperactivation (CD63/STXBP2), and vascular injury (SERPINA1), further validated by their strong correlations with neutrophil infiltration and ribosome pathway suppression. Molecular subtyping revealed distinct immune-endotypes (e.g., neutrophil-dominant vs. natural killer-cell-enriched clusters), while regulatory network analysis uncovered has-miR-155-5p and TF hubs (SMAD5/SAP30/PHF8) as potential master regulators. CONCLUSIONS: This study utilized platelet-associated biomarkers to establish a machine learning-based diagnostic model for KD and elucidated their pathogenic roles in immune dysregulation and vascular injury, thereby laying the foundation for improved diagnosis and targeted therapy in KD.",
+    "keywords": [
+      "Kawasaki disease (KD)",
+      "immune response",
+      "platelet-associated diagnostic biomarkers",
+      "subtypes"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruan, Feifei",
+        "Gu, Jinai"
+      ],
+      "short_names": [
+        "Ruan F",
+        "Gu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatrics, Shangyu People's Hospital of Shaoxing, Shaoxing University, Shaoxing, China.",
+        "Department of Pediatrics, Shangyu People's Hospital of Shaoxing, Shaoxing University, Shaoxing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ruan, Feifei",
+        "short_name": "Ruan F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Shangyu People's Hospital of Shaoxing, Shaoxing University, Shaoxing, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Jinai",
+        "short_name": "Gu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Shangyu People's Hospital of Shaoxing, Shaoxing University, Shaoxing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational pediatrics"
+    ],
+    "journal_abbrev": [
+      "Transl Pediatr"
+    ],
+    "pub_date": "2026 Feb 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/11 06:55",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42311907"
+    ],
+    "refs": [
+      "41394864",
+      "41182547",
+      "41160750",
+      "40383803",
+      "40338663",
+      "40150630",
+      "40141310",
+      "39534969",
+      "39507540",
+      "39263286",
+      "39117827",
+      "39040113",
+      "38760815",
+      "38674367",
+      "38653463",
+      "38268925",
+      "38164136",
+      "37949070",
+      "37905415",
+      "37762250",
+      "37703575",
+      "37598693",
+      "37144446",
+      "37108623",
+      "36505637",
+      "36503158",
+      "36361701",
+      "36361561",
+      "35711626",
+      "35409226",
+      "35129016",
+      "35050690",
+      "34826880",
+      "34673951",
+      "34249810",
+      "34217531",
+      "33862181",
+      "33285257",
+      "32924089",
+      "32903519",
+      "32768500",
+      "32309269",
+      "29851809",
+      "28925469",
+      "28450575",
+      "28213379",
+      "26808079",
+      "23831031",
+      "3747753"
+    ],
+    "similar": [
+      "41810197",
+      "42292614",
+      "39263286",
+      "41432483",
+      "41388523",
+      "37837870",
+      "42056344",
+      "40276515",
+      "42292668",
+      "36829193",
+      "42123445",
+      "39142001",
+      "42340574",
+      "40383755",
+      "41044520",
+      "42326009",
+      "41743406",
+      "40406620",
+      "42431430",
+      "41013556",
+      "42158676",
+      "39509434",
+      "40374866",
+      "41146237",
+      "36532015",
+      "35755167",
+      "39139563",
+      "38867322",
+      "39552895",
+      "41052072",
+      "40500570",
+      "41310117",
+      "42123756",
+      "41988156",
+      "41575683",
+      "41265166",
+      "42327749",
+      "39670237",
+      "42107160",
+      "41291841",
+      "39975557",
+      "40457357",
+      "42015036",
+      "41305746",
+      "39624783",
+      "40997906",
+      "42154423",
+      "40901831",
+      "40948644",
+      "41324863",
+      "41563994",
+      "40110435",
+      "40360670",
+      "42404897",
+      "40704466",
+      "41255601",
+      "37891634",
+      "39622968",
+      "41630199",
+      "38951833",
+      "41548166",
+      "42061206",
+      "39375405",
+      "40312440",
+      "39295860",
+      "42175497",
+      "42302029",
+      "38629070",
+      "37325483",
+      "40078458",
+      "37115484",
+      "41006883",
+      "40421012",
+      "42164373",
+      "42338983",
+      "40532306",
+      "42582767",
+      "41316541",
+      "42109201",
+      "40097519",
+      "41393259",
+      "42430094",
+      "39855613",
+      "41479901",
+      "41583468",
+      "42558367",
+      "40453984",
+      "40963602",
+      "37259023",
+      "40552285",
+      "41342434",
+      "41895505",
+      "40313558",
+      "42064079",
+      "41200172",
+      "36148059",
+      "41703488",
+      "38328342",
+      "37520121",
+      "39507054"
+    ],
+    "review": [
+      "41810197"
+    ],
+    "pmc": [
+      "12969193"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41810197/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/tp-2025-aw-800",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

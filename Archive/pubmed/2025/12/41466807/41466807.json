@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "41466807",
+    "doi": "10.12688/f1000research.162353.3",
+    "title": "Optimizing Cardiovascular Treatment in Non-Small Cell Lung Cancer: A Comprehensive Computational Approach for Assessment of Drug-Drug Interactions Between Tyrosine Kinase Inhibitors and Cardiovascular Drugs."
+  },
+  "content": {
+    "abstract": "BACKGROUND: As lung cancer treatment has progressed, there has been an increase in awareness of the short- and long-term adverse effects of targeted cancer therapies of tyrosine kinase inhibitors, particularly cardiovascular toxicities. METHODS: The current study assessed the potential drug-drug interactions using interaction checkers (IBM Micromedex and Drugs.com). Molecular docking was employed to further investigate the involvement of human ether-a-go-go-related gene (hERG) and pregnane X receptor (PXR) proteins to elucidate their potential interactions and their underlying mechanisms. RESULTS: A total of 74 pharmacokinetic and 105 pharmacodynamic interactions were detected between tyrosine kinase inhibitors and cardiovascular drugs, along with a report on the severity and level of documentation. A considerable fraction of molecular modelling outcomes concurred with information from drug-drug interaction checkers. The binding energies of tyrosine kinase inhibitors with hERG and PXR were high, indicating significant interactions. The cardiovascular drug class encompasses calcium channel blockers, antiarrhythmic medicines, and statins, which were observed to exhibit synergistic interactions. The identification of these potential drug-drug interactions involving CYP3A4, P-gp, and hERG proteins can be utilized in therapy optimization in clinical settings. CONCLUSION: This study will aid clinicians in designing safe dosage regimens for patients with lung cancer. In cases where patients have multiple comorbidities, it is essential to study the clinical aspects to design efficient chemotherapy and manage adverse effects and toxicities.",
+    "keywords": [
+      "Cardiovascular drugs",
+      "Drug-drug interactions",
+      "Drugs.com",
+      "IBM Micromedex",
+      "Molecular docking",
+      "NSCLC",
+      "TKI"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Drug Interactions",
+      "*Protein Kinase Inhibitors/therapeutic use/pharmacology/pharmacokinetics",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy",
+      "*Lung Neoplasms/drug therapy",
+      "Molecular Docking Simulation",
+      "*Cardiovascular Agents/therapeutic use/pharmacology",
+      "Pregnane X Receptor",
+      "*Antineoplastic Agents/therapeutic use",
+      "ERG1 Potassium Channel/metabolism/chemistry",
+      "Tyrosine Kinase Inhibitors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patil, Prajakta",
+        "Desai, Mrunal",
+        "Baburaj, Gayathri",
+        "Thomas, Levin",
+        "Subeesh, Viswam",
+        "Birangal, Sumit",
+        "Rao, Mahadev",
+        "Shenoy, Gurupur Gautham",
+        "P C, Jagadish"
+      ],
+      "short_names": [
+        "Patil P",
+        "Desai M",
+        "Baburaj G",
+        "Thomas L",
+        "Subeesh V",
+        "Birangal S",
+        "Rao M",
+        "Shenoy GG",
+        "P C J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7129-5748",
+        "ORCID: 0000-0001-5956-7499"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Department of Pharmacy Practice, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Department of Pharmacy Practice, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Department of Pharmacy Practice, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Department of Pharmacy Practice, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India.",
+        "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patil, Prajakta",
+        "short_name": "Patil P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "Desai, Mrunal",
+        "short_name": "Desai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "Baburaj, Gayathri",
+        "short_name": "Baburaj G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "Thomas, Levin",
+        "short_name": "Thomas L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "Subeesh, Viswam",
+        "short_name": "Subeesh V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "Birangal, Sumit",
+        "short_name": "Birangal S",
+        "identifiers": [
+          "0000-0001-7129-5748"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "Rao, Mahadev",
+        "short_name": "Rao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "Shenoy, Gurupur Gautham",
+        "short_name": "Shenoy GG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      },
+      {
+        "full_name": "P C, Jagadish",
+        "short_name": "P C J",
+        "identifiers": [
+          "0000-0001-5956-7499"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Manipal College of Pharmaceutical Sciences, Manipal Academy of Higher Education, Manipal, Karnataka, 576104, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "F1000Research"
+    ],
+    "journal_abbrev": [
+      "F1000Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/30 07:41",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [
+      "41939827"
+    ],
+    "refs": [
+      "35249373",
+      "35245632",
+      "35184709",
+      "34904661",
+      "34471515",
+      "34417059",
+      "34069851",
+      "33771190",
+      "33538338",
+      "33417195",
+      "33147278",
+      "32893704",
+      "32877583",
+      "32502714",
+      "31912794",
+      "31911396",
+      "31295848",
+      "30285222",
+      "29230123",
+      "29217664",
+      "29150236",
+      "27925256",
+      "27536435",
+      "27413711",
+      "27256139",
+      "26537995",
+      "26095142",
+      "25742483",
+      "25443889",
+      "25308414",
+      "24988935",
+      "24852520",
+      "24379677",
+      "23784266",
+      "23748750",
+      "23620167",
+      "23330542",
+      "22997448",
+      "22988594",
+      "20810928",
+      "20555097",
+      "20210721",
+      "19734999",
+      "18591451",
+      "17457301",
+      "16413785",
+      "14732961",
+      "2568899"
+    ],
+    "similar": [
+      "41466807",
+      "34471515",
+      "40421698",
+      "35105467",
+      "40494260",
+      "40897431",
+      "39137926",
+      "22457323",
+      "41430586",
+      "39117263",
+      "32723164",
+      "39389004",
+      "23386065",
+      "28230005",
+      "31142691",
+      "26870817",
+      "22162641",
+      "40076686",
+      "27941080",
+      "26898616",
+      "40499802",
+      "32135169",
+      "24715074",
+      "40966776",
+      "27146751",
+      "21142806",
+      "15182824",
+      "30413378",
+      "30790152",
+      "30864018",
+      "28465216",
+      "27926500",
+      "39192813",
+      "37254309",
+      "39353410",
+      "32363843",
+      "25855240",
+      "40119140",
+      "40251527",
+      "39174397",
+      "32653291",
+      "24355409",
+      "29455675",
+      "39029228",
+      "30791979",
+      "38416709",
+      "36698189",
+      "29187012",
+      "19244476",
+      "41154639",
+      "23683257",
+      "40685478",
+      "28743421",
+      "33734432",
+      "34333246",
+      "33435596",
+      "25027951",
+      "26820570",
+      "23931927",
+      "26829230",
+      "39128488",
+      "21435938",
+      "25675121",
+      "39168027",
+      "28676222",
+      "31874554",
+      "21775534",
+      "29737372",
+      "28635227",
+      "26496741",
+      "40738921",
+      "39681043",
+      "38921583",
+      "38764025",
+      "19499189",
+      "19519298",
+      "39078025",
+      "23345546",
+      "28219202",
+      "38801833",
+      "41268624",
+      "38266613",
+      "39160062",
+      "40412130",
+      "40658102",
+      "29998228",
+      "34661758",
+      "41570298",
+      "30213498",
+      "26848869",
+      "26294238",
+      "29650684",
+      "29545312",
+      "28258422",
+      "28463570",
+      "32431491",
+      "27821111",
+      "28838397",
+      "38275043",
+      "38584202"
+    ],
+    "review": [
+      "41466807",
+      "40421698",
+      "35105467",
+      "40494260",
+      "40897431",
+      "39117263",
+      "32723164",
+      "39389004",
+      "23386065",
+      "28230005",
+      "22162641",
+      "40076686",
+      "26898616",
+      "32135169",
+      "24715074",
+      "27146751",
+      "21142806",
+      "15182824",
+      "30864018",
+      "28465216",
+      "39353410",
+      "25855240",
+      "40251527",
+      "39174397",
+      "24355409",
+      "29455675",
+      "29187012",
+      "23683257",
+      "28743421",
+      "33734432",
+      "34333246",
+      "33435596",
+      "23931927",
+      "26829230",
+      "21435938",
+      "25675121",
+      "39168027",
+      "28676222",
+      "31874554",
+      "21775534",
+      "28635227",
+      "39681043",
+      "23345546",
+      "38801833",
+      "29998228",
+      "34661758",
+      "26294238",
+      "29650684",
+      "28463570",
+      "32431491",
+      "28838397"
+    ],
+    "pmc": [
+      "12744204"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41466807/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3609",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://f1000research.com/articles/10.12688/f1000research.162353.3/doi",
+        "provider": "F1000 Research Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

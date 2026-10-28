@@ -1,0 +1,502 @@
+{
+  "identity": {
+    "pmid": "36078093",
+    "doi": "10.3390/cells11172687",
+    "title": "Update on the Molecular Aspects and Methods Underlying the Complex Architecture of FSHD."
+  },
+  "content": {
+    "abstract": "Despite the knowledge of the main mechanisms involved in facioscapulohumeral muscular dystrophy (FSHD), the high heterogeneity and variable penetrance of the disease complicate the diagnosis, characterization and genotype-phenotype correlation of patients and families, raising the need for further research and data. Thus, the present review provides an update of the main molecular aspects underlying the complex architecture of FSHD, including the genetic factors (related to D4Z4 repeated units and FSHD-associated genes), epigenetic elements (D4Z4 methylation status, non-coding RNAs and high-order chromatin interactions) and gene expression profiles (FSHD transcriptome signatures both at bulk tissue and single-cell level). In addition, the review will also describe the methods currently available for investigating the above-mentioned features and how the resulting data may be combined with artificial-intelligence-based pipelines, with the purpose of developing a multifunctional tool tailored to enhancing the knowledge of disease pathophysiology and progression and fostering the research for novel treatment strategies, as well as clinically useful biomarkers. In conclusion, the present review highlights how FSHD should be regarded as a disease characterized by a molecular spectrum of genetic and epigenetic factors, whose alteration plays a differential role in DUX4 repression and, subsequently, contributes to determining the FSHD phenotype.",
+    "keywords": [
+      "(epi)genetics",
+      "DUX4",
+      "FSHD",
+      "NGS",
+      "artificial intelligence",
+      "genomics",
+      "machine learning",
+      "muscular distrophy",
+      "nc-RNA",
+      "single-cell RNA-seq",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Chromatin",
+      "Homeodomain Proteins/metabolism",
+      "Humans",
+      "*Muscular Dystrophy, Facioscapulohumeral/genetics/metabolism",
+      "Protein Processing, Post-Translational"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Caputo, Valerio",
+        "Megalizzi, Domenica",
+        "Fabrizio, Carlo",
+        "Termine, Andrea",
+        "Colantoni, Luca",
+        "Caltagirone, Carlo",
+        "Giardina, Emiliano",
+        "Cascella, Raffaella",
+        "Strafella, Claudia"
+      ],
+      "short_names": [
+        "Caputo V",
+        "Megalizzi D",
+        "Fabrizio C",
+        "Termine A",
+        "Colantoni L",
+        "Caltagirone C",
+        "Giardina E",
+        "Cascella R",
+        "Strafella C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3503-3318",
+        "ORCID: 0000-0002-7824-8423",
+        "ORCID: 0000-0003-4374-7430",
+        "ORCID: 0000-0003-1334-0920"
+      ],
+      "affiliations": [
+        "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy.",
+        "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy.",
+        "Data Science Unit, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Data Science Unit, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Department of Clinical and Behavorial Neurology, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy.",
+        "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy.",
+        "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+        "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Caputo, Valerio",
+        "short_name": "Caputo V",
+        "identifiers": [
+          "0000-0002-3503-3318"
+        ],
+        "affiliations": [
+          "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+          "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Megalizzi, Domenica",
+        "short_name": "Megalizzi D",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+          "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Fabrizio, Carlo",
+        "short_name": "Fabrizio C",
+        "identifiers": [
+          "0000-0002-7824-8423"
+        ],
+        "affiliations": [
+          "Data Science Unit, Santa Lucia Foundation IRCCS, 00179 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Termine, Andrea",
+        "short_name": "Termine A",
+        "identifiers": [
+          "0000-0003-4374-7430"
+        ],
+        "affiliations": [
+          "Data Science Unit, Santa Lucia Foundation IRCCS, 00179 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Colantoni, Luca",
+        "short_name": "Colantoni L",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Caltagirone, Carlo",
+        "short_name": "Caltagirone C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Behavorial Neurology, Santa Lucia Foundation IRCCS, 00179 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Giardina, Emiliano",
+        "short_name": "Giardina E",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+          "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Cascella, Raffaella",
+        "short_name": "Cascella R",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+          "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Strafella, Claudia",
+        "short_name": "Strafella C",
+        "identifiers": [
+          "0000-0003-1334-0920"
+        ],
+        "affiliations": [
+          "Genomic Medicine Laboratory-UILDM, Santa Lucia Foundation IRCCS, 00179 Rome, Italy.",
+          "Department of Biomedicine and Prevention, Tor Vergata University, 00133 Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2022 Aug 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/10 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "41871882",
+      "40959201",
+      "40898356",
+      "40679980",
+      "40506648",
+      "39766917",
+      "39456731",
+      "39438900",
+      "38136988",
+      "37892218",
+      "37674478",
+      "37338810",
+      "37298453",
+      "37114363",
+      "36856584",
+      "36552879"
+    ],
+    "refs": [
+      "35888037",
+      "35646075",
+      "35236385",
+      "35169688",
+      "35076017",
+      "34880314",
+      "34880230",
+      "34736505",
+      "34542603",
+      "34486074",
+      "34441407",
+      "34441403",
+      "34338285",
+      "34151531",
+      "33917161",
+      "33835452",
+      "33712050",
+      "33296803",
+      "33137719",
+      "33092966",
+      "33067535",
+      "32822040",
+      "32697863",
+      "32631111",
+      "32517778",
+      "32467133",
+      "32365093",
+      "32347924",
+      "32296326",
+      "32290091",
+      "32243801",
+      "32242220",
+      "32121044",
+      "32118012",
+      "32086799",
+      "32083293",
+      "31932775",
+      "31872053",
+      "31660856",
+      "31510706",
+      "31506324",
+      "31097473",
+      "31067297",
+      "31018108",
+      "31015651",
+      "31010831",
+      "30979860",
+      "30936559",
+      "30911870",
+      "30546343",
+      "30445587",
+      "30312408",
+      "30281091",
+      "30142958",
+      "30122154",
+      "30089861",
+      "29925314",
+      "29718206",
+      "29536451",
+      "29533181",
+      "29255294",
+      "28916757",
+      "28915324",
+      "28870238",
+      "28754837",
+      "28754496",
+      "28744936",
+      "28652331",
+      "28482897",
+      "28459454",
+      "28273136",
+      "27922500",
+      "27822859",
+      "27153492",
+      "27153398",
+      "26960968",
+      "26951377",
+      "26831754",
+      "26806412",
+      "26420234",
+      "26246499",
+      "26000845",
+      "25904990",
+      "25564732",
+      "25545674",
+      "25370034",
+      "25285664",
+      "25256356",
+      "25031281",
+      "24861551",
+      "24838473",
+      "24658644",
+      "24524134",
+      "24524133",
+      "24524132",
+      "24349187",
+      "24311695",
+      "24278031",
+      "24145033",
+      "24128691",
+      "24075187",
+      "23561550",
+      "23284062",
+      "23143600",
+      "22988124",
+      "22892954",
+      "22797562",
+      "22710800",
+      "22541069",
+      "22522912",
+      "22482803",
+      "22209328",
+      "21446026",
+      "21060811",
+      "19728363",
+      "19629566",
+      "19593370",
+      "19349980",
+      "19247430",
+      "17984056",
+      "17924332",
+      "17785671",
+      "16938455",
+      "15467981",
+      "15239885",
+      "14634647",
+      "11242054",
+      "11242053",
+      "8094896"
+    ],
+    "similar": [
+      "36078093",
+      "30122154",
+      "27816329",
+      "23593020",
+      "40855454",
+      "21734574",
+      "24838473",
+      "31067297",
+      "29899111",
+      "37298453",
+      "37703328",
+      "19607661",
+      "35082321",
+      "29478599",
+      "39627769",
+      "34151531",
+      "23969240",
+      "38777608",
+      "35158020",
+      "32290091",
+      "25326393",
+      "30361930",
+      "33004076",
+      "33436523",
+      "28040729",
+      "28915324",
+      "32467133",
+      "25551153",
+      "33712050",
+      "19593370",
+      "23777630",
+      "22798623",
+      "29759937",
+      "28161093",
+      "30445587",
+      "32278354",
+      "21288772",
+      "31018108",
+      "24861551",
+      "32576599",
+      "25904990",
+      "26041815",
+      "21984394",
+      "30911870",
+      "39201751",
+      "26113644",
+      "25564732",
+      "23206257",
+      "24278031",
+      "30644821",
+      "37934801",
+      "22053214",
+      "33863674",
+      "29402602",
+      "37021550",
+      "29162933",
+      "39438900",
+      "27389814",
+      "36100962",
+      "28637492",
+      "33303865",
+      "29563141",
+      "32086799",
+      "32347924",
+      "19359275",
+      "22892954",
+      "25545674",
+      "34711481",
+      "27922500",
+      "29329560",
+      "21060811",
+      "25782668",
+      "28171552",
+      "26356006",
+      "30281091",
+      "22871573",
+      "26860865",
+      "23108159",
+      "36348371",
+      "24636994",
+      "29255294",
+      "37703175",
+      "36872787",
+      "21951698",
+      "27378237",
+      "22718021",
+      "22536400",
+      "37184373",
+      "26527377",
+      "27153398",
+      "22522912",
+      "29718206",
+      "33174531",
+      "40507980",
+      "38955828",
+      "36552879",
+      "15004695",
+      "26575099",
+      "35248827",
+      "20490329"
+    ],
+    "review": [
+      "36078093",
+      "27816329",
+      "40855454",
+      "21734574",
+      "37298453",
+      "29478599",
+      "34151531",
+      "35158020",
+      "30361930",
+      "28915324",
+      "25551153",
+      "33712050",
+      "21288772",
+      "31018108",
+      "21984394",
+      "30911870",
+      "39201751",
+      "26113644",
+      "33863674",
+      "27389814",
+      "32086799",
+      "22892954",
+      "34711481",
+      "27922500",
+      "26356006",
+      "22718021",
+      "29718206",
+      "33174531",
+      "38955828",
+      "15004695"
+    ],
+    "pmc": [
+      "9454908"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells11172687",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36078093/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36078093",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

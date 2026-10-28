@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.08.570608",
+  "title": "pyRBDome: A comprehensive computational platform for enhancing and interpreting RNA-binding proteome data",
+  "authors": "Chu L; Christopoulou N; McCaughan H; Winterbourne S; Cazzola D; Wang S; Litvin U; Brunon S; Harker PJ; McNae I; Granneman S",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-08",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发pyRBDome平台，整合机器学习预测与结构数据增强RNA结合蛋白组数据，虽涉及蛋白-RNA互作和AI方法，但对象为RNA而非DNA，且未聚焦TF-DNA结合机制，仅部分方法可迁移。",
+  "abstract": "High-throughput proteomics approaches have revolutionised the identification of RNA-binding proteins (RBPome) and RNA-binding sequences (RBDome) across organisms. Yet the extent of noise, including false-positives, associated with these methodologies, is difficult to quantify as experimental approaches for validating the results are generally low throughput. To address this, we introduce pyRBDome, a pipeline for enhancing RNA-binding proteome data in silico . It aligns the experimental results with RNA-binding site (RBS) predictions from distinct machine learning tools and integrates high-resolution structural data when available. Its statistical evaluation of RBDome data enables quick identification of likely genuine RNA-binders in experimental datasets. Furthermore, by leveraging the pyRBDome results, we have enhanced the sensitivity and specificity of RBS detection through training new ensemble machine learning models. pyRBDome analysis of a human RBDome dataset, compared with known structural data, revealed that while UV cross-linked amino acids were more likely to contain predicted RBSs, they infrequently bind RNA in high-resolution structures. This discrepancy underscores the limitations of structural data as benchmarks, positioning pyRBDome as a valuable alternative for increasing confidence in RBDome datasets.",
+  "abstract_zh": "高通量蛋白质组学方法已经彻底改变了跨生物体RNA结合蛋白（RBPome）和RNA结合序列（RBDome）的鉴定。然而，与这些方法相关的噪声程度，包括假阳性，难以量化，因为用于验证结果的实验方法通常为低通量。为解决这一问题，我们引入了pyRBDome，一个用于在计算机上增强RNA结合蛋白质组数据的流程。它将实验结果与来自不同机器学习工具的RNA结合位点（RBS）预测对齐，并在可用时整合高分辨率结构数据。其对RBDome数据的统计评估能够快速识别实验数据集中可能的真正RNA结合物。此外，通过利用pyRBDome结果，我们通过训练新的集成机器学习模型，提高了RBS检测的敏感性和特异性。对人类RBDome数据集的pyRBDome分析，与已知结构数据相比，揭示出虽然UV交联氨基酸更可能包含预测的RBS，但它们在高分辨率结构中很少结合RNA。这一差异强调了结构数据作为基准的局限性，将pyRBDome定位为增加RBDome数据集置信度的有价值替代方案。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.08.570608",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.08.570608",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.08.570608/index.html"
+}

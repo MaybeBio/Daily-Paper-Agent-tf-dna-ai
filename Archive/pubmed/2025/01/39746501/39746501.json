@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "39746501",
+    "doi": "10.1016/j.cbi.2024.111368",
+    "title": "Integrated network pharmacology, bioinformatics, and experiment analysis to decipher the molecular mechanism of Salidroside on Gastric cancer via targeting NCOA4-mediated ferritinophagy."
+  },
+  "content": {
+    "abstract": "Gastric cancer (GC) is a highly aggressive and heterogeneous malignancy. The process of ferroptosis regulates tumor growth and represents a promising therapeutic target for GCs. Despite Salidroside (Sal) being able to regulate ferroptosis in a variety of diseases, there are still limited reports on its therapeutic effects and potential targets in treating GC. This study aimed to investigate the potential mechanism of Sal-induced ferroptosis in GC. Our analysis, integrating databases like PharmMapper, Swiss Target Prediction, TargetNet, GeneCards, TTD, OMIM, STRING, and DAVID. Human gastric cancer MGC803 cells and tumor-bearing mice were used to evaluate the anti-tumor effect of Sal on GC in vitro and in vivo. CCK-8, LDH, and Calcein-AM/PI were used to assess cell viability and damage. FerroOrange, Lillie's Ferrous Iron Stain, MDA, ROS, BODIPY 581/591C11, GSH, and GPxs were used to detect intracellular Fe(2+) concentration, lipid peroxidation level, and antioxidant defense system. qRT-PCR and Western blot were performed to explore relevant mechanism studies. Network pharmacology results showed that Sal shares 322 targets with GC, which have biological functions related to lipid metabolism, cell death, and lipid peroxidation. Experiments further confirmed that Sal inhibits MGC803 cells by inducing ferroptosis, as evidenced by the induction of elevated Fe(2+) and increased lipid peroxidation. Fer-1, an inhibitor of ferroptosis, reversed the anti-GC effect of Sal in MGC803 cells and GC tumor-bearing mice. Further confirmation of the association between Sal and ferroptosis in GC. Subsequently, bioinformatics and machine learning algorithms identified nuclear receptor coactivator 4 (NCOA4) as a candidate signature gene associated with ferroptosis in GC, and molecular docking shows that NCOA4 binds Sal. We then performed in vivo and in vitro experiments to elucidate that Sal targeting NCOA4, a cargo receptor mediating ferritinophagy, mediates autophagic degradation of ferritin heavy chain 1 (FTH1, Fe(2+) storage protein), which further increases Fe(2+) and lipid peroxidation. In addition, Sal induces mitochondrial dysfunction and increases mitochondrial ROS levels, which activates autophagy and triggers autophagic degradation of FTH1. Taken together, we revealed that NCOA4 is a new target for Sal-anchored GC and that Sal may be a potential therapeutic drug for the treatment of GC.",
+    "keywords": [
+      "Ferritinophagy",
+      "Ferroptosis",
+      "Gastric cancer",
+      "Mitochondrial dysfunction",
+      "NCOA4",
+      "Salidroside"
+    ],
+    "mesh_terms": [
+      "*Stomach Neoplasms/drug therapy/pathology/metabolism",
+      "Humans",
+      "*Glucosides/pharmacology/therapeutic use/metabolism/chemistry",
+      "Animals",
+      "*Phenols/pharmacology/therapeutic use/chemistry/metabolism",
+      "Mice",
+      "Cell Line, Tumor",
+      "Ferroptosis/drug effects",
+      "*Network Pharmacology",
+      "*Nuclear Receptor Coactivators/metabolism/antagonists & inhibitors/genetics",
+      "*Ferritins/metabolism",
+      "*Computational Biology",
+      "*Autophagy/drug effects",
+      "Mice, Nude",
+      "Molecular Docking Simulation",
+      "Cell Survival/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Yu",
+        "Huang, Guiqin",
+        "Cai, Yawen",
+        "Ren, Menghui",
+        "Cheng, Run",
+        "Chai, Yuhui",
+        "Wang, Yingdi",
+        "An, Yunqi",
+        "Yan, Tianhua",
+        "Zhu, Lingpeng",
+        "Liu, Xinxin"
+      ],
+      "short_names": [
+        "Fu Y",
+        "Huang G",
+        "Cai Y",
+        "Ren M",
+        "Cheng R",
+        "Chai Y",
+        "Wang Y",
+        "An Y",
+        "Yan T",
+        "Zhu L",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China.",
+        "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China.",
+        "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China.",
+        "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China.",
+        "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China.",
+        "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China.",
+        "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China.",
+        "Department of Pharmacology and Toxicology, Rutgers University Ernest Mario School of Pharmacy, Piscataway, NJ, 08854, United States.",
+        "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China. Electronic address: 1020050806@cpu.edu.cn.",
+        "The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi People's Hospital, Wuxi Medical Center, Nanjing Medical University, Wuxi, Jiangsu, China. Electronic address: zhulingpeng@njmu.edu.cn.",
+        "The Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, General Surgery Department, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China. Electronic address: gorilla1999@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Yu",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guiqin",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yawen",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Menghui",
+        "short_name": "Ren M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Run",
+        "short_name": "Cheng R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Yuhui",
+        "short_name": "Chai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingdi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "An, Yunqi",
+        "short_name": "An Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, Rutgers University Ernest Mario School of Pharmacy, Piscataway, NJ, 08854, United States."
+        ]
+      },
+      {
+        "full_name": "Yan, Tianhua",
+        "short_name": "Yan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, China Pharmaceutic University, Nanjing, Jiangsu, China. Electronic address: 1020050806@cpu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lingpeng",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi People's Hospital, Wuxi Medical Center, Nanjing Medical University, Wuxi, Jiangsu, China. Electronic address: zhulingpeng@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinxin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, General Surgery Department, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China. Electronic address: gorilla1999@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemico-biological interactions"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Interact"
+    ],
+    "pub_date": "2025 Feb 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/03 00:20",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42194035",
+      "42018247",
+      "41745810",
+      "41201667",
+      "41113433",
+      "40978035"
+    ],
+    "refs": [],
+    "similar": [
+      "39746501",
+      "39353532",
+      "39306799",
+      "38704789",
+      "39181476",
+      "39946767",
+      "38768701",
+      "40168090",
+      "33245979",
+      "36940731",
+      "38663454",
+      "38763373",
+      "34370287",
+      "38688134",
+      "38218311",
+      "38189810",
+      "39887555",
+      "39987411",
+      "39681205",
+      "39366066",
+      "39954839",
+      "38621452",
+      "39115666",
+      "38389491",
+      "33843441",
+      "34634471",
+      "38647678",
+      "39928088",
+      "38588875",
+      "40326888",
+      "39643129",
+      "39180800",
+      "39089637",
+      "27245739",
+      "36552889",
+      "39047113",
+      "39206719",
+      "39168950",
+      "39331352",
+      "27514700",
+      "40335979",
+      "38156933",
+      "38744953",
+      "36907253",
+      "39700692",
+      "34394837",
+      "39929095",
+      "38175425",
+      "32810738",
+      "39719634",
+      "40174644",
+      "39486596",
+      "39515100",
+      "36773432",
+      "38150751",
+      "39827924",
+      "38631121",
+      "39732341",
+      "40339610",
+      "39586514",
+      "38388414",
+      "32846217",
+      "39642461",
+      "39613734",
+      "32767706",
+      "37260353",
+      "38963979",
+      "33784507",
+      "37979398",
+      "36067704",
+      "30360520",
+      "36843388",
+      "35771492",
+      "38834843",
+      "39586368",
+      "31687807",
+      "38968273",
+      "39150386",
+      "38504540",
+      "36752571",
+      "33402128",
+      "39503755",
+      "31146723",
+      "36613888",
+      "36908089",
+      "40049103",
+      "24695223",
+      "39988734",
+      "30081711",
+      "38842666",
+      "37906374",
+      "39684310",
+      "35932693",
+      "39809268",
+      "38886572",
+      "37858718",
+      "26436293",
+      "38159858",
+      "38713437",
+      "38714719"
+    ],
+    "review": [
+      "39746501",
+      "34370287",
+      "38389491",
+      "39928088",
+      "39180800",
+      "30360520",
+      "38834843",
+      "39586368"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-2797(24)00514-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3809",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

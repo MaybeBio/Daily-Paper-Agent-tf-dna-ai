@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41493424",
+  "title": "Intercellular Communication Guides the Prediction of Intracellular Gene Regulatory Relationships.",
+  "authors": "Zhou, Zhecheng; Li, Zhen; Xie, Yunfei; Zhuo, Linlin; Wang, Rui; Yao, Xiaojun; Hu, Haiyang; Fu, Xiangzheng",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-01-06",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出深度学习框架，通过配体-受体信号整合转录因子调控网络预测基因调控关系，虽涉及TF-DNA调控但核心是细胞通讯驱动的基因表达预测，非直接TF-DNA结合建模，方法可迁移但深度不足。",
+  "abstract": "Cellular communication via ligand-receptor signaling regulates downstream gene expression networks, playing a vital role in maintaining cellular functions and driving disease progression. However, the current methods do not account for the synergistic interactions between cellular communication and downstream gene regulatory networks. Moreover, existing approaches cannot construct complete cellular communication networks, thereby limiting biological significance and interpretability. To address these gaps, we propose a computational framework that predicts intracellular gene regulatory relationships by constructing comprehensive cellular communication networks. The framework introduces two key innovations: (1) end-to-end modeling from extracellular signals to gene expression by integrating ligand-receptor interactions, signaling pathway activation, and transcription factor regulatory networks and (2) accurate modeling of receptor-mediated regulatory relationships using deep learning to reveal intracellular mechanisms driven by cellular communication. Experimental results and case studies show that the framework efficiently predicts receptor-mediated target gene regulatory relationships across diverse spatial transcriptomic data sets and provides a valuable tool for uncovering biological processes.",
+  "abstract_zh": "通过配体-受体信号传导进行的细胞通讯调控下游基因表达网络，在维持细胞功能和驱动疾病进展中发挥着至关重要的作用。然而，当前方法未考虑细胞通讯与下游基因调控网络之间的协同交互作用。此外，现有方法无法构建完整的细胞通讯网络，从而限制了其生物学意义和可解释性。为解决这些不足，我们提出了一种计算框架，通过构建全面的细胞通讯网络来预测细胞内基因调控关系。该框架引入了两项关键创新：（1）通过整合配体-受体相互作用、信号通路激活和转录因子调控网络，实现从细胞外信号到基因表达的端到端建模；（2）利用深度学习精确建模受体介导的调控关系，以揭示由细胞通讯驱动的细胞内机制。实验结果和案例研究表明，该框架能高效预测多种空间转录组数据集中受体介导的靶基因调控关系，并为揭示生物学过程提供了有价值的工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41493424/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41493424/",
+  "paper_page_path": "papers/pubmed/41493424/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.11.710985",
+  "title": "An essential dynamics-based elastic network model to unravel the conformational dynamics of DNA, RNA, and protein-nucleic acid complexes",
+  "authors": "Marco Cannariato; Domenico Scaramozzino; Byung Ho Lee; Marco A. Deriu; Laura Orellana",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-13",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了基于弹性网络模型和分子动力学模拟的edENM方法，用于研究DNA、RNA及蛋白-核酸复合物的构象动态，虽非聚焦TF-DNA特异性结合，但方法可迁移至TF-DNA互作机制研究。",
+  "abstract": "The flexibility of DNA and RNA is known to play a central role in numerous biological processes, including chromatin organization and gene regulation. While a wide range of computational approaches have been developed to investigate the conformational dynamics and flexibility of proteins, analogous methods for nucleic acids remain comparatively underexplored. Elastic Network Models (ENMs) – coarse-grained mechanical representations in which macromolecules are modeled as networks of nodes connected by elastic springs – have been successfully applied to proteins, often allowing to capture experimentally observed conformational changes through a small number of harmonic normal modes. Building on a previously validated three-bead ENM for RNA, here we introduce edENM, an essential dynamics-refined ENM for DNA, RNA, and protein-nucleic acid complexes, parametrized using a diverse set of Molecular Dynamics simulations. The vibrational modes of the new edENM show good agreement with NMR data and experimental ensembles, while avoiding the unrealistic and localized deformability of previous ENM parametrizations. Additionally, we integrated this new edENM into eBDIMS, a Brownian Dynamics-based framework that enables the simulation of large-scale and anharmonic conformational transitions in protein assemblies. In this way, we are now able to explore functional motions in large protein-nucleic acid complexes such as chromatin subunits and ribosomes.",
+  "abstract_zh": "已知DNA和RNA的灵活性在众多生物过程中发挥核心作用，包括染色质组织和基因调控。尽管已开发出多种计算方法来研究蛋白质的构象动态和灵活性，但针对核酸的类似方法相对尚未充分探索。弹性网络模型（ENMs）——一种粗粒化机械表示，其中大分子被建模为由弹性弹簧连接的节点网络——已成功应用于蛋白质，通常能通过少量简谐正则模式捕捉实验观察到的构象变化。基于先前验证的RNA三珠ENM，我们在此引入edENM，一种针对DNA、RNA和蛋白质-核酸复合物的本质动力学精化ENM，使用多样化的分子动力学（Molecular Dynamics）模拟进行参数化。新edENM的振动模式与NMR数据和实验系综表现出良好一致性，同时避免了先前ENM参数化中不切实际且局部化的可变形性。此外，我们将这一新edENM集成到eBDIMS中，这是一个基于布朗动力学（Brownian Dynamics）的框架，能够模拟蛋白质组装体中的大规模和非谐构象转变。通过这种方式，我们现在能够探索大型蛋白质-核酸复合物（如染色质亚基和核糖体）中的功能运动。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.710985",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.11.710985",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.11.710985/index.html"
+}

@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "34761675",
+    "doi": "10.1021/acs.est.1c05951",
+    "title": "Using In Vitro and Machine Learning Approaches to Determine Species-Specific Dioxin-like Potency and Congener-Specific Relative Sensitivity among Birds for Brominated Dioxin Analogues."
+  },
+  "content": {
+    "abstract": "There is a paucity of experimental data regarding dioxin-like toxicity of polybrominated dibenzo-p-dioxins/dibenzofurans (PBDD/Fs) and non-ortho polybrominated biphenyls (PBBs). In this study, avian aryl hydrocarbon receptor 1 (AHR1)-luciferase reporter gene assays were used to determine their species-specific dioxin-like potencies (DLPs) and congener-specific interspecies relative sensitivities in birds. The results suggested that DLPs of the brominated congeners for chicken-like (Ile324_Ser380) species did not always follow World Health Organization toxicity equivalency factors of their chlorinated analogues. For ring-necked pheasant-like (Ile324_Ala380) and Japanese quail-like (Val324_Ala380) species, the difference in DLP for several congeners was 1 or even 2 orders of magnitude. Moreover, molecular docking and molecular dynamics simulation were performed to explore the interactions between the brominated congeners and AHR1-ligand-binding domain (LBD). The molecular mechanics energy (E(MM)) between each congener and each individual amino acid (AA) residue in AHR1-LBD was calculated. These E(MM) values could finely characterize the final conformation of species-specific AHR1-LBD for each brominated congener. Based on this, mechanism-driven generalized linear models were successfully built using machine learning algorithms and the spline approximation method, and these models could qualitatively predict the complex relationships between AHR1 conformations and DLPs or avian interspecies relative sensitivity to brominated dioxin-like compounds (DLCs). In addition, several AAs conserved among birds were found to potentially interact with species-specific AAs, thereby inducing species-specific interactions between AHR1 and brominated DLCs. The present study provides a novel strategy to facilitate the development of mechanism-driven computational prediction models for supporting safety assessment of DLCs, as well as a basis for the ecotoxicological risk assessment of brominated congeners in birds.",
+    "keywords": [
+      "dioxin-like compounds",
+      "ecotoxicological risk assessment",
+      "mechanism-driven prediction model",
+      "non-ortho polybrominated biphenyls",
+      "polybrominated dibenzo-p-dioxins",
+      "polybrominated dibenzofurans",
+      "random forest"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Coturnix",
+      "*Dioxins/toxicity",
+      "Machine Learning",
+      "Molecular Docking Simulation",
+      "*Polychlorinated Dibenzodioxins",
+      "Receptors, Aryl Hydrocarbon"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Rui",
+        "Wu, Qiuxuan",
+        "Qi, Xiaoyi",
+        "Wang, Xiaoxiang",
+        "Zhang, Xuesheng",
+        "Song, Chao",
+        "Peng, Ying",
+        "Crump, Doug",
+        "Zhang, Xiaowei"
+      ],
+      "short_names": [
+        "Zhang R",
+        "Wu Q",
+        "Qi X",
+        "Wang X",
+        "Zhang X",
+        "Song C",
+        "Peng Y",
+        "Crump D",
+        "Zhang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4853-6579",
+        "ORCID: 0000-0002-7958-8067"
+      ],
+      "affiliations": [
+        "School of Water Conservancy and Environment, University of Jinan, Jinan 250022, China.",
+        "School of Water Conservancy and Environment, University of Jinan, Jinan 250022, China.",
+        "Department of Gynecology, Shandong Provincial Hospital, Cheeloo College of Medicine, Shandong University, Jinan 250021, China.",
+        "Department of Gynecology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan 250021, China.",
+        "State Environmental Protection Key Laboratory of Integrated Surface Water-Groundwater Pollution Control, Guangdong Provincial Key Laboratory of Soil and Groundwater Pollution Control, School of Environmental Science and Engineering, Southern University of Science and Technology, Shenzhen 518055, China.",
+        "Yuanshang Technology Co., Ltd., Shenzhen 518126, China.",
+        "School of Resources and Environmental Engineering, Anhui University, Hefei 230601, China.",
+        "Freshwater Fisheries Research Center, Chinese Academy of Fishery Sciences, Wuxi 214081, China.",
+        "Laboratory of Quality & Safety Risk Assessment for Aquatic Products on Environmental Factors (Wuxi), Ministry of Agriculture, Wuxi 214081, China.",
+        "Research and Development Center for Watershed Environmental Eco-Engineering, Beijing Normal University, Zhuhai 519087, China.",
+        "Ecotoxicology and Wildlife Health Division, Environment and Climate Change Canada, National Wildlife Research Centre, Carleton University, Ottawa K1A 0H3, Canada.",
+        "State Key Laboratory of Pollution Control and Resources Reuse, School of the Environment, Nanjing University, Nanjing 210023, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Rui",
+        "short_name": "Zhang R",
+        "identifiers": [
+          "0000-0003-4853-6579"
+        ],
+        "affiliations": [
+          "School of Water Conservancy and Environment, University of Jinan, Jinan 250022, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qiuxuan",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Water Conservancy and Environment, University of Jinan, Jinan 250022, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Xiaoyi",
+        "short_name": "Qi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Shandong Provincial Hospital, Cheeloo College of Medicine, Shandong University, Jinan 250021, China.",
+          "Department of Gynecology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan 250021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoxiang",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Environmental Protection Key Laboratory of Integrated Surface Water-Groundwater Pollution Control, Guangdong Provincial Key Laboratory of Soil and Groundwater Pollution Control, School of Environmental Science and Engineering, Southern University of Science and Technology, Shenzhen 518055, China.",
+          "Yuanshang Technology Co., Ltd., Shenzhen 518126, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuesheng",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Resources and Environmental Engineering, Anhui University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Song, Chao",
+        "short_name": "Song C",
+        "identifiers": [],
+        "affiliations": [
+          "Freshwater Fisheries Research Center, Chinese Academy of Fishery Sciences, Wuxi 214081, China.",
+          "Laboratory of Quality & Safety Risk Assessment for Aquatic Products on Environmental Factors (Wuxi), Ministry of Agriculture, Wuxi 214081, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Ying",
+        "short_name": "Peng Y",
+        "identifiers": [
+          "0000-0002-7958-8067"
+        ],
+        "affiliations": [
+          "Research and Development Center for Watershed Environmental Eco-Engineering, Beijing Normal University, Zhuhai 519087, China."
+        ]
+      },
+      {
+        "full_name": "Crump, Doug",
+        "short_name": "Crump D",
+        "identifiers": [],
+        "affiliations": [
+          "Ecotoxicology and Wildlife Health Division, Environment and Climate Change Canada, National Wildlife Research Centre, Carleton University, Ottawa K1A 0H3, Canada."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaowei",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Pollution Control and Resources Reuse, School of the Environment, Nanjing University, Nanjing 210023, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental science & technology"
+    ],
+    "journal_abbrev": [
+      "Environ Sci Technol"
+    ],
+    "pub_date": "2021 Dec 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/12 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "34761675",
+      "22296185",
+      "26442838",
+      "22923492",
+      "25692546",
+      "33297084",
+      "23142756",
+      "25093689",
+      "17941736",
+      "23492812",
+      "24434118",
+      "24619315",
+      "22841771",
+      "18939598",
+      "25253643",
+      "28669845",
+      "26771532",
+      "24632312",
+      "24950391",
+      "25157505",
+      "12850102",
+      "8887438",
+      "25226220",
+      "22074031",
+      "32678147",
+      "20821598",
+      "36306615",
+      "32443226",
+      "24713691",
+      "34626655",
+      "20860407",
+      "30999104",
+      "19884122",
+      "33684732",
+      "8887451",
+      "32585481",
+      "25761200",
+      "28922086",
+      "24472611",
+      "33348102",
+      "16758706",
+      "25654323",
+      "23815337",
+      "19110356",
+      "25141271",
+      "33139099",
+      "18246587",
+      "37127157",
+      "26202062",
+      "28552310",
+      "11815817",
+      "33297135",
+      "23690076",
+      "32563159",
+      "25209921",
+      "16829543",
+      "27588699",
+      "23402477",
+      "23054770",
+      "1987653",
+      "16835633",
+      "29738842",
+      "24901989",
+      "23973911",
+      "19897226",
+      "17917761",
+      "15077014",
+      "22954249",
+      "20110126",
+      "20842421",
+      "27067547",
+      "19848145",
+      "18474391",
+      "23395527",
+      "15884801",
+      "17556759",
+      "31505407",
+      "15331261",
+      "33160676",
+      "18186102",
+      "20417310",
+      "18948129",
+      "28379684",
+      "22227438",
+      "16835634",
+      "15952365",
+      "17009211",
+      "24680980",
+      "25540854",
+      "8658519",
+      "32648946",
+      "27283192",
+      "19850319",
+      "16628245",
+      "18065775",
+      "18936997",
+      "25108070",
+      "8187718",
+      "17993226",
+      "23997109",
+      "10448124",
+      "9055873",
+      "23676118",
+      "37866700",
+      "38548044",
+      "34411962",
+      "37516304",
+      "38078857",
+      "39330584",
+      "28487818",
+      "35398469",
+      "38244664",
+      "37232404",
+      "38490576"
+    ],
+    "review": [
+      "34761675",
+      "25226220",
+      "33684732",
+      "16829543",
+      "23054770",
+      "33160676",
+      "17009211",
+      "32648946",
+      "8187718",
+      "9055873",
+      "38548044"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/esthag/article-lookup/doi/10.1021/acs.est.1c05951",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

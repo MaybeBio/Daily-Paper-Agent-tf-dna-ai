@@ -1,0 +1,617 @@
+{
+  "identity": {
+    "pmid": "39515327",
+    "doi": "10.1016/j.ccell.2024.10.010",
+    "title": "Itaconate transporter SLC13A3 impairs tumor immunity via endowing ferroptosis resistance."
+  },
+  "content": {
+    "abstract": "Immune checkpoint blockade (ICB) triggers tumor ferroptosis. However, most patients are unresponsive to ICB. Tumors might evade ferroptosis in the tumor microenvironment (TME). Here, we discover SLC13A3 is an itaconate transporter in tumor cells and endows tumor ferroptosis resistance, diminishing tumor immunity and ICB efficacy. Mechanistically, tumor cells uptake itaconate via SLC13A3 from tumor-associated macrophages (TAMs), thereby activating the NRF2-SLC7A11 pathway and escaping from immune-mediated ferroptosis. Structural modeling and molecular docking analysis identify a functional inhibitor for SLC13A3 (SLC13A3i). Deletion of ACOD1 (an essential enzyme for itaconate synthesis) in macrophages, genetic ablation of SLC13A3 in tumors, or treatment with SLC13A3i sensitize tumors to ferroptosis, curb tumor progression, and bolster ICB effectiveness. Thus, we identify the interplay between tumors and TAMs via the SLC13A3-itaconate-NRF2-SLC7A11 axis as a previously unknown immune ferroptosis resistant mechanism in the TME and SLC13A3 as a promising immunometabolic target for treating SLC13A3(+) cancer.",
+    "keywords": [
+      "NRF2",
+      "SLC13A3",
+      "SLC13A3 inhibitor",
+      "SLC7A11",
+      "T cell immunity",
+      "ferroptosis",
+      "immune checkpoint blockade",
+      "itaconate",
+      "macrophages",
+      "tumor"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics/immunology",
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Tumor Microenvironment/immunology",
+      "*NF-E2-Related Factor 2/metabolism/genetics",
+      "*Succinates/pharmacology/metabolism",
+      "Cell Line, Tumor",
+      "Tumor-Associated Macrophages/immunology/metabolism",
+      "Amino Acid Transport System y+/genetics/metabolism",
+      "Mice, Inbred C57BL",
+      "Neoplasms/immunology/genetics/drug therapy/pathology/metabolism",
+      "Female",
+      "Carboxy-Lyases",
+      "Hydro-Lyases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Heng",
+        "Tison, Kole",
+        "Du, Yuheng",
+        "Kirchhoff, Paul",
+        "Kim, Chan",
+        "Wang, Weichao",
+        "Yang, Hannah",
+        "Pitter, Michael",
+        "Yu, Jiali",
+        "Liao, Peng",
+        "Zhou, Jiajia",
+        "Vatan, Linda",
+        "Grove, Sara",
+        "Wei, Shuang",
+        "Vigil, Thomas",
+        "Shah, Yatrik M",
+        "Mortensen, Richard",
+        "Kryczek, Ilona",
+        "Garmire, Lana",
+        "Sivaccumar, Jwala P",
+        "Ramesh, Ashwin Kumar",
+        "Zhang, Ningyan",
+        "An, Zhiqiang",
+        "Wang, Shaomeng",
+        "Zou, Weiping"
+      ],
+      "short_names": [
+        "Lin H",
+        "Tison K",
+        "Du Y",
+        "Kirchhoff P",
+        "Kim C",
+        "Wang W",
+        "Yang H",
+        "Pitter M",
+        "Yu J",
+        "Liao P",
+        "Zhou J",
+        "Vatan L",
+        "Grove S",
+        "Wei S",
+        "Vigil T",
+        "Shah YM",
+        "Mortensen R",
+        "Kryczek I",
+        "Garmire L",
+        "Sivaccumar JP",
+        "Ramesh AK",
+        "Zhang N",
+        "An Z",
+        "Wang S",
+        "Zou W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA; Graduate Program in Immunology, University of Michigan, Ann Arbor, MI, USA.",
+        "Department of Computational Medicine & Bioinformatics, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Internal Medicine, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA; Department of Internal Medicine, CHA Bundang Medical Center, CHA University, Seongnam, South Korea.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA; Department of Internal Medicine, CHA Bundang Medical Center, CHA University, Seongnam, South Korea.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Molecular and Integrative Physiology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Molecular and Integrative Physiology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Internal Medicine, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Molecular and Integrative Physiology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pharmacology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA.",
+        "Department of Computational Medicine & Bioinformatics, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Texas Therapeutics Institute, Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+        "Texas Therapeutics Institute, Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+        "Texas Therapeutics Institute, Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+        "Texas Therapeutics Institute, Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+        "Department of Internal Medicine, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pharmacology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Medicinal Chemistry, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Graduate Program in Cancer Biology, University of Michigan, Ann Arbor, MI, USA. Electronic address: wzou@umich.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Heng",
+        "short_name": "Lin H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Tison, Kole",
+        "short_name": "Tison K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA; Graduate Program in Immunology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Du, Yuheng",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Medicine & Bioinformatics, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Kirchhoff, Paul",
+        "short_name": "Kirchhoff P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Chan",
+        "short_name": "Kim C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA; Department of Internal Medicine, CHA Bundang Medical Center, CHA University, Seongnam, South Korea."
+        ]
+      },
+      {
+        "full_name": "Wang, Weichao",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Hannah",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA; Department of Internal Medicine, CHA Bundang Medical Center, CHA University, Seongnam, South Korea."
+        ]
+      },
+      {
+        "full_name": "Pitter, Michael",
+        "short_name": "Pitter M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Jiali",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Liao, Peng",
+        "short_name": "Liao P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiajia",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Vatan, Linda",
+        "short_name": "Vatan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Grove, Sara",
+        "short_name": "Grove S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Wei, Shuang",
+        "short_name": "Wei S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Vigil, Thomas",
+        "short_name": "Vigil T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Integrative Physiology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Shah, Yatrik M",
+        "short_name": "Shah YM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Integrative Physiology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Mortensen, Richard",
+        "short_name": "Mortensen R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Molecular and Integrative Physiology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pharmacology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Kryczek, Ilona",
+        "short_name": "Kryczek I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Garmire, Lana",
+        "short_name": "Garmire L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Medicine & Bioinformatics, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Sivaccumar, Jwala P",
+        "short_name": "Sivaccumar JP",
+        "identifiers": [],
+        "affiliations": [
+          "Texas Therapeutics Institute, Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Ramesh, Ashwin Kumar",
+        "short_name": "Ramesh AK",
+        "identifiers": [],
+        "affiliations": [
+          "Texas Therapeutics Institute, Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ningyan",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Texas Therapeutics Institute, Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "An, Zhiqiang",
+        "short_name": "An Z",
+        "identifiers": [],
+        "affiliations": [
+          "Texas Therapeutics Institute, Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Shaomeng",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pharmacology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Medicinal Chemistry, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Zou, Weiping",
+        "short_name": "Zou W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA; Center of Excellence for Cancer Immunology and Immunotherapy, University of Michigan Rogel Cancer Center, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Graduate Program in Cancer Biology, University of Michigan, Ann Arbor, MI, USA. Electronic address: wzou@umich.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer cell"
+    ],
+    "journal_abbrev": [
+      "Cancer Cell"
+    ],
+    "pub_date": "2024 Dec 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:50",
+    "fetched_at": "2026-09-30 05:56:55"
+  },
+  "links": {
+    "cites": [
+      "42693110",
+      "42662573",
+      "42597462",
+      "42572499",
+      "42455134",
+      "42448793",
+      "42363241",
+      "42237887",
+      "42225830",
+      "42213242",
+      "42180102",
+      "42177838",
+      "42164615",
+      "42151501",
+      "42029800",
+      "41998116",
+      "41963164",
+      "41935249",
+      "41930142",
+      "41926670",
+      "41836396",
+      "41833002",
+      "41832910",
+      "41832499",
+      "41780193",
+      "41759521",
+      "41743716",
+      "41735603",
+      "41582215",
+      "41542512",
+      "41526478",
+      "41501880",
+      "41488637",
+      "41444224",
+      "41425581",
+      "41281760",
+      "41279612",
+      "41271615",
+      "41226585",
+      "41106368",
+      "41063213",
+      "40950899",
+      "40931345",
+      "40931213",
+      "40887473",
+      "40826242",
+      "40825268",
+      "40734168",
+      "40693608",
+      "40658684",
+      "40607253",
+      "40548056",
+      "40521193",
+      "40482348",
+      "40405713",
+      "40322530",
+      "40301229",
+      "39917300",
+      "39877254"
+    ],
+    "refs": [
+      "38382538",
+      "38071226",
+      "37793345",
+      "37728660",
+      "37390822",
+      "37178684",
+      "37115931",
+      "36866388",
+      "36801000",
+      "36446152",
+      "36433984",
+      "36376563",
+      "36229606",
+      "36173860",
+      "35216678",
+      "35021054",
+      "34716298",
+      "34042258",
+      "33828302",
+      "33597751",
+      "33188036",
+      "32997964",
+      "32879489",
+      "32302573",
+      "31792460",
+      "31570880",
+      "31554642",
+      "31178405",
+      "31043744",
+      "30820043",
+      "30705422",
+      "30388455",
+      "30096309",
+      "29920191",
+      "29731393",
+      "29590092",
+      "29511063",
+      "29203879",
+      "28783718",
+      "28012440",
+      "27124452",
+      "27069014",
+      "26936508",
+      "26403645",
+      "25974697",
+      "25557080",
+      "25516281",
+      "24930970",
+      "24012420",
+      "23610393",
+      "23506872",
+      "22632970",
+      "22123924",
+      "19097774",
+      "19075767",
+      "16199517",
+      "14517290"
+    ],
+    "similar": [
+      "39515327",
+      "39116875",
+      "39809284",
+      "40036156",
+      "32255424",
+      "38730297",
+      "39547232",
+      "39349845",
+      "40482348",
+      "41135477",
+      "38644791",
+      "41743716",
+      "41431173",
+      "29590092",
+      "38520689",
+      "40882016",
+      "38949522",
+      "39245684",
+      "34425095",
+      "31997373",
+      "39760183",
+      "40825957",
+      "40412057",
+      "41166022",
+      "39156902",
+      "39910615",
+      "38788445",
+      "39147278",
+      "37793345",
+      "40359940",
+      "36084707",
+      "38663476",
+      "39215042",
+      "39631720",
+      "39511054",
+      "32574955",
+      "38085578",
+      "40119983",
+      "38719928",
+      "30907299",
+      "38780199",
+      "34716298",
+      "41782241",
+      "39521147",
+      "40020881",
+      "41700135",
+      "41412526",
+      "41135950",
+      "40956430",
+      "39947493",
+      "41101229",
+      "39805792",
+      "39581576",
+      "41613121",
+      "39706052",
+      "39090392",
+      "41478538",
+      "39012393",
+      "40274347",
+      "41235254",
+      "38506087",
+      "41771771",
+      "41692038",
+      "41449244",
+      "40296302",
+      "34446045",
+      "39702678",
+      "41294929",
+      "38324982",
+      "39934342",
+      "40930912",
+      "39527862",
+      "40913317",
+      "41299157",
+      "39851538",
+      "40923943",
+      "39984770",
+      "38964754",
+      "38745069",
+      "40552282",
+      "40230319",
+      "40539046",
+      "33014271",
+      "40753759",
+      "38884890",
+      "32601262",
+      "41265216",
+      "40066086",
+      "40860143",
+      "40198901",
+      "40855408",
+      "40542598",
+      "40402956",
+      "40346757",
+      "40917063",
+      "40223081",
+      "41391256",
+      "39060560",
+      "39054639",
+      "38554442"
+    ],
+    "review": [
+      "39515327",
+      "41743716",
+      "36084707",
+      "40956430",
+      "41613121",
+      "41692038",
+      "41299157",
+      "41265216",
+      "39060560"
+    ],
+    "pmc": [
+      "11631639"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1535-6108(24)00398-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/39515327",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39515327/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse268205",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

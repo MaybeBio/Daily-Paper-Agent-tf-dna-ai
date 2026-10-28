@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "42332560",
+    "doi": "10.1186/s12870-026-09237-8",
+    "title": "Network analysis reveals that bHLH transcription factors positively regulate rice resistance to Magnaporthe oryzae."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) and nucleotide-binding leucine-rich repeat (NLR) genes are core components of the immune response in rice against Magnaporthe oryzae. Although the construction of the rice pan-genome has provided new opportunities for dissecting the regulatory relationship between them, researchers still have limited systematic understanding of their interaction network during pathogen infection. In this study, we explored the interaction network between TFs and NLR genes by integrating the rice pan-genome with time-series transcriptomic data obtained at multiple time points during the rice-M. oryzae interaction. By combining weighted gene co-expression network analysis and the machine learning-based GENIE3 algorithm to construct TF-NLR interaction networks, we found that the bHLH TF family actively responds to M. oryzae infection and is widely involved in diverse biotic stress responses as well as the regulation of rice growth and development. To validate their biological functions, mutant rice lines were generated. Functional assays demonstrated that knockout of Os08g0490000, Os02g0726700, and Os01g0218100 significantly reduces rice resistance to M. oryzae infection (enhances susceptibility). Overall, this study highlights the importance of the bHLH TF family in rice immune responses through network-based analyses and identifies Os08g0490000 and Os01g0218100 as novel candidate genes associated with rice blast resistance. This study presents the first construction of a TF-NLR interaction network associated with rice blast resistance based on the rice pan-genome, providing new insights into the molecular mechanisms underlying rice-pathogen interactions. Furthermore, two novel bHLH-type resistance genes were identified, offering valuable genetic resources for rice improvement.",
+    "keywords": [
+      "M. oryzae",
+      "NLR genes",
+      "Rice blast disease",
+      "Rice immunity",
+      "WGCNA",
+      "bHLH TFs"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Linna",
+        "Liu, Yemei",
+        "Li, Feixue",
+        "Bai, Yusha",
+        "Li, Yingguang",
+        "Chen, Xiaoqi",
+        "Huang, Huichuan",
+        "Li, Xiang"
+      ],
+      "short_names": [
+        "Ma L",
+        "Liu Y",
+        "Li F",
+        "Bai Y",
+        "Li Y",
+        "Chen X",
+        "Huang H",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+        "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China.",
+        "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+        "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China.",
+        "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+        "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China.",
+        "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+        "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+        "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+        "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China. absklhhc@gmail.com.",
+        "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China. absklhhc@gmail.com.",
+        "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China. lixiang117423@gmail.com.",
+        "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China. lixiang117423@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Linna",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+          "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yemei",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+          "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Li, Feixue",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China.",
+          "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Yusha",
+        "short_name": "Bai Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yingguang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaoqi",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Huichuan",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China. absklhhc@gmail.com.",
+          "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China. absklhhc@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China. lixiang117423@gmail.com.",
+          "Key Laboratory for Agro-Biodiversity and Pest Control of Ministry of Education, Yunnan Agricultural University, Kunming, China. lixiang117423@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC plant biology"
+    ],
+    "journal_abbrev": [
+      "BMC Plant Biol"
+    ],
+    "pub_date": "2026 Jun 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/23 11:34",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42332560",
+      "40604494",
+      "33306159",
+      "40916382",
+      "31742855",
+      "25299517",
+      "40091040",
+      "36233270",
+      "36308720",
+      "42002136",
+      "40332586",
+      "26095454",
+      "35521542",
+      "28008334",
+      "28905253",
+      "31296569",
+      "38863209",
+      "24335508",
+      "40682744",
+      "19153255",
+      "28280498",
+      "37520805",
+      "33993496",
+      "39683201",
+      "27576685",
+      "36566483",
+      "31729398",
+      "39316277",
+      "36325552",
+      "40065792",
+      "38611457",
+      "23762023",
+      "40508004",
+      "25624395",
+      "30967012",
+      "40650151",
+      "31451649",
+      "38687884",
+      "25540933",
+      "36982696",
+      "39861570",
+      "39007057",
+      "20707904",
+      "30578469",
+      "29487238",
+      "30984250",
+      "35736067",
+      "33672641",
+      "34868245",
+      "41064763",
+      "39476286",
+      "28979285",
+      "29291150",
+      "33186754",
+      "40429762",
+      "31852430",
+      "42078143",
+      "41665283",
+      "41555928",
+      "31986202",
+      "23340743",
+      "40981432",
+      "37521912",
+      "26574735",
+      "23544090",
+      "27041000",
+      "31628150",
+      "24145399",
+      "41511654",
+      "35449886",
+      "25111047",
+      "37888263",
+      "33563831",
+      "39945477",
+      "30975460",
+      "37177781",
+      "29679239",
+      "38298608",
+      "38351214",
+      "31906847",
+      "28106722",
+      "30468014",
+      "19810803",
+      "33356807",
+      "31076886",
+      "41253743",
+      "27551285",
+      "34367213",
+      "34608507",
+      "41134505",
+      "32630695",
+      "31236008",
+      "38192056",
+      "16245793",
+      "20146797",
+      "30857220",
+      "38396893",
+      "35129212",
+      "35217224",
+      "38003241"
+    ],
+    "review": [
+      "42332560",
+      "35736067",
+      "41064763",
+      "23340743",
+      "30857220"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-026-09237-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

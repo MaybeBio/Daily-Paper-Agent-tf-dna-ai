@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "41872281",
+    "doi": "10.1038/s41598-026-44326-6",
+    "title": "Identification and bioinformatic functional analysis of novel and known polymorphisms in the myostatin gene of Ukrainian Carpathian Mountain sheep."
+  },
+  "content": {
+    "abstract": "Myostatin (MSTN) is a well-established negative regulator of muscle growth and development in mammals. Genetic variations within MSTN are linked to differences in sheep musculature, particularly the double-muscle phenotype. This study represents the first comprehensive polymorphism analysis within intron 1 of the MSTN in the Ukrainian Carpathian Mountain (UCM) sheep breed combining molecular and bioinformatic approaches. Sequencing data of samples from UCM sheep revealed eight previously reported single-nucleotide polymorphisms (c.373+241T>C, c.373+243G>A, c.373+246T>C, c.373+249T>C, c.373+259G>T, c.373+323C>T, c.373+563G>A, c.373+607G>A) and one novel polymorphism (c.373+283T>C). Bioinformatic analysis evaluated potential functional effects of these intronic polymorphisms, including changes in pre-mRNA stability, proximity to transcription factor binding sites, and possible pre-miRNA formation, using in silico approaches, including molecular dynamics simulations of predicted pre-miRNA structures. Predictions identified c.373+607G>A and the novel c.373+283T>C polymorphisms as potential candidates for further functional investigation and association studies. This study demonstrates the value of combining molecular genetic and bioinformatic approaches for characterizing intronic polymorphisms and supporting a deeper understanding of functional genetic variation in livestock.",
+    "keywords": [
+      "Bioinformatic prediction",
+      "Causality",
+      "In silico analysis",
+      "Molecular dynamics",
+      "Mutation",
+      "Myostatin",
+      "Rational selective breeding design",
+      "Sequencing",
+      "Single-nucleotide polymorphism",
+      "Ukrainian Carpathian Mountain sheep"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Myostatin/genetics",
+      "*Polymorphism, Single Nucleotide",
+      "*Computational Biology/methods",
+      "Sheep/genetics",
+      "Introns",
+      "MicroRNAs/genetics",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Buslyk, Tetyana",
+        "Peka, Mykyta",
+        "Saienko, Artem",
+        "Kozak, Mariia",
+        "Yuzviak, Marian",
+        "Salyha, Yuriy",
+        "Stapay, Petro",
+        "Trapina, Ilva",
+        "Paramonova, Natalia"
+      ],
+      "short_names": [
+        "Buslyk T",
+        "Peka M",
+        "Saienko A",
+        "Kozak M",
+        "Yuzviak M",
+        "Salyha Y",
+        "Stapay P",
+        "Trapina I",
+        "Paramonova N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine. tvbuslyk@gmail.com.",
+        "Institute of Pig Breeding and Agroindustrial Production, National Academy of Agrarian Sciences of Ukraine, 1 Shvedska Mohyla St, Poltava, 36009, Ukraine.",
+        "Department of Molecular Biology and Biotechnology, School of Biology, V. N. Karazin Kharkiv National University, 4 Svobody Sq, Kharkiv, 61022, Ukraine.",
+        "Institute of Pig Breeding and Agroindustrial Production, National Academy of Agrarian Sciences of Ukraine, 1 Shvedska Mohyla St, Poltava, 36009, Ukraine.",
+        "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine.",
+        "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine.",
+        "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine.",
+        "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine.",
+        "Laboratory of Genomics and Bioinformatics, Department of Pharmaceutical Sciences, Faculty of Medicine and Life Sciences, University of Latvia, 1 Jelgavas St, Riga, LV-1004, Latvia.",
+        "Laboratory of Genomics and Bioinformatics, Department of Pharmaceutical Sciences, Faculty of Medicine and Life Sciences, University of Latvia, 1 Jelgavas St, Riga, LV-1004, Latvia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Buslyk, Tetyana",
+        "short_name": "Buslyk T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine. tvbuslyk@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Peka, Mykyta",
+        "short_name": "Peka M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pig Breeding and Agroindustrial Production, National Academy of Agrarian Sciences of Ukraine, 1 Shvedska Mohyla St, Poltava, 36009, Ukraine.",
+          "Department of Molecular Biology and Biotechnology, School of Biology, V. N. Karazin Kharkiv National University, 4 Svobody Sq, Kharkiv, 61022, Ukraine."
+        ]
+      },
+      {
+        "full_name": "Saienko, Artem",
+        "short_name": "Saienko A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pig Breeding and Agroindustrial Production, National Academy of Agrarian Sciences of Ukraine, 1 Shvedska Mohyla St, Poltava, 36009, Ukraine."
+        ]
+      },
+      {
+        "full_name": "Kozak, Mariia",
+        "short_name": "Kozak M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine."
+        ]
+      },
+      {
+        "full_name": "Yuzviak, Marian",
+        "short_name": "Yuzviak M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine."
+        ]
+      },
+      {
+        "full_name": "Salyha, Yuriy",
+        "short_name": "Salyha Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine."
+        ]
+      },
+      {
+        "full_name": "Stapay, Petro",
+        "short_name": "Stapay P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Biology, National Academy of Agrarian Sciences of Ukraine, 38 Vasyl Stus St, Lviv, 79034, Ukraine."
+        ]
+      },
+      {
+        "full_name": "Trapina, Ilva",
+        "short_name": "Trapina I",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Genomics and Bioinformatics, Department of Pharmaceutical Sciences, Faculty of Medicine and Life Sciences, University of Latvia, 1 Jelgavas St, Riga, LV-1004, Latvia."
+        ]
+      },
+      {
+        "full_name": "Paramonova, Natalia",
+        "short_name": "Paramonova N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Genomics and Bioinformatics, Department of Pharmaceutical Sciences, Faculty of Medicine and Life Sciences, University of Latvia, 1 Jelgavas St, Riga, LV-1004, Latvia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Mar 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/24 07:41",
+    "fetched_at": "2026-10-01 17:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40933525",
+      "40804431",
+      "40727588",
+      "40631782",
+      "40559797",
+      "40504789",
+      "40104884",
+      "39927343",
+      "39701989",
+      "39656687",
+      "39565577",
+      "39518866",
+      "39413204",
+      "39261976",
+      "38889010",
+      "38797546",
+      "37962376",
+      "37831473",
+      "37615316",
+      "36733427",
+      "36368924",
+      "36292721",
+      "36285677",
+      "35580044",
+      "35247591",
+      "35245313",
+      "34768999",
+      "34718739",
+      "34461824",
+      "34248671",
+      "34067816",
+      "33938454",
+      "33776314",
+      "32824948",
+      "32660541",
+      "32633187",
+      "32392303",
+      "31987910",
+      "31861472",
+      "31202783",
+      "31044074",
+      "30658164",
+      "30645618",
+      "30423142",
+      "30125951",
+      "29788132",
+      "29307280",
+      "29127045",
+      "29087512",
+      "29029172",
+      "28301154",
+      "27819658",
+      "27242364",
+      "26424082",
+      "25953851",
+      "25827895",
+      "25795417",
+      "24170397",
+      "24081623",
+      "23680643",
+      "23630321",
+      "23315997",
+      "23125360",
+      "23048142",
+      "22820204",
+      "22539264",
+      "22440772",
+      "22362754",
+      "22340904",
+      "21966641",
+      "21490365",
+      "21330290",
+      "21323579",
+      "21214644",
+      "21168976",
+      "20884321",
+      "20190380",
+      "20173658",
+      "19908002",
+      "19799595",
+      "19392824",
+      "19251921",
+      "18852073",
+      "18556230",
+      "18462481",
+      "18456862",
+      "18369186",
+      "17996073",
+      "16885393",
+      "16381832",
+      "15574589",
+      "14574645",
+      "12242286",
+      "11254454",
+      "9356471",
+      "9288100"
+    ],
+    "similar": [
+      "41872281",
+      "21323579",
+      "31861472",
+      "26081604",
+      "24081623",
+      "30941707",
+      "34775903",
+      "33776314",
+      "36009658",
+      "39596059",
+      "30125951",
+      "24796976",
+      "23670598",
+      "39062700",
+      "20932346",
+      "19731204",
+      "26100061",
+      "21284852",
+      "20706663",
+      "23096682",
+      "17890020",
+      "24721142",
+      "24334117",
+      "22714921",
+      "23203105",
+      "31987910",
+      "19799595",
+      "37902079",
+      "23613242",
+      "30658164",
+      "19073574",
+      "39927343",
+      "24864113",
+      "30379863",
+      "23479163",
+      "24368331",
+      "16624893",
+      "22227370",
+      "23510267",
+      "25023801",
+      "24782047",
+      "37372396",
+      "32633187",
+      "39701989",
+      "19443859",
+      "24283985",
+      "30316920",
+      "28947707",
+      "23178682",
+      "25273961",
+      "37162623",
+      "20198976",
+      "16751773",
+      "22497311",
+      "23865691",
+      "26800695",
+      "34827731",
+      "35696040",
+      "31861528",
+      "27208149",
+      "33766709",
+      "33186699",
+      "18822098",
+      "18282302",
+      "21041979",
+      "34067816",
+      "19586878",
+      "25699993",
+      "19845957",
+      "40864257",
+      "20679369",
+      "24401538",
+      "25078581",
+      "25695797",
+      "40542502",
+      "41423675",
+      "26125759",
+      "18670060",
+      "27706626",
+      "18462481",
+      "25160752",
+      "28723591",
+      "24299184",
+      "36402741",
+      "24065681",
+      "25447910",
+      "29037276",
+      "36360291",
+      "12212941",
+      "31231423",
+      "40004497",
+      "15869801",
+      "30913397",
+      "22483947",
+      "27354315",
+      "41898830",
+      "39684630",
+      "20026418",
+      "24628723",
+      "42475469"
+    ],
+    "review": [
+      "41872281",
+      "30125951",
+      "39927343",
+      "24864113"
+    ],
+    "pmc": [
+      "13153238"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-44326-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41872281/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3298",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

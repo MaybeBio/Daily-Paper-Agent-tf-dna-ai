@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37552115",
+  "title": "A data-driven machine learning approach for discovering potent LasR inhibitors.",
+  "authors": "Koh, Christabel Ming Ming; Ping, Lilian Siaw Yung; Xuan, Christopher Ha Heng; Theng, Lau Bee; San, Hwang Siaw; Palombo, Enzo A; Wezen, Xavier Chee",
+  "journal": "Bioengineered",
+  "published_date": "2023-08-08",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习预测LasR小分子抑制剂，对象为蛋白-配体而非蛋白-DNA互作，且无TF-DNA结合建模，仅方法可部分借鉴，与课题关联微弱。",
+  "abstract": "The rampant spread of multidrug-resistant Pseudomonas aeruginosa strains severely threatens global health. This severity is compounded against the backdrop of a stagnating antibiotics development pipeline. Moreover, with many promising therapeutics falling short of expectations in clinical trials, targeting the las quorum sensing (QS) system remains an attractive therapeutic strategy to combat P. aeruginosa infection. Thus, our primary goal was to develop a drug prediction algorithm using machine learning to identify potent LasR inhibitors. In this work, we demonstrated using a Multilayer Perceptron (MLP) algorithm boosted with AdaBoostM1 to discriminate between active and inactive LasR inhibitors. The optimal model performance was evaluated using 5-fold cross-validation and test sets. Our best model achieved a 90.7% accuracy in distinguishing active from inactive LasR inhibitors, an area under the Receiver Operating Characteristic Curve value of 0.95, and a Matthews correlation coefficient value of 0.81 when evaluated using test sets. Subsequently, we deployed the model against the Enamine database. The top-ranked compounds were further evaluated for their target engagement activity using molecular docking studies, Molecular Dynamics simulations, MM-GBSA analysis, and Free Energy Landscape analysis. Our data indicate that several of our chosen top hits showed better ligand-binding affinities than naringenin, a competitive LasR inhibitor. Among the six top hits, five of these compounds were predicted to be LasR inhibitors that could be used to treat P. aeruginosa-associated infections. To our knowledge, this study provides the first assessment of using an MLP-based QSAR model for discovering potent LasR inhibitors to attenuate P. aeruginosa infections.",
+  "abstract_zh": "多重耐药铜绿假单胞菌菌株的猖獗传播严重威胁全球健康。在抗生素开发管线停滞不前的背景下，这一严重性进一步加剧。此外，由于许多有前景的疗法在临床试验中未达预期，靶向las群体感应（quorum sensing, QS）系统仍是抗击铜绿假单胞菌感染的一种有吸引力的治疗策略。因此，我们的主要目标是开发一种使用机器学习的药物预测算法，以识别强效LasR抑制剂。在本研究中，我们展示了使用经AdaBoostM1增强的多层感知器（Multilayer Perceptron, MLP）算法来区分活性和非活性LasR抑制剂。最优模型性能通过5折交叉验证和测试集进行评估。我们的最佳模型在区分活性与非活性LasR抑制剂方面达到了90.7%的准确率，受试者工作特征曲线下面积值为0.95，马修斯相关系数值为0.81（基于测试集评估）。随后，我们将该模型应用于Enamine数据库。排名靠前的化合物进一步通过分子对接研究、分子动力学（molecular dynamics）模拟、MM-GBSA分析和自由能景观分析评估其靶标结合活性。我们的数据表明，若干选定的顶级命中化合物显示出比竞争性LasR抑制剂柚皮素（naringenin）更好的配体结合亲和力。在六个顶级命中化合物中，有五个被预测为可用于治疗铜绿假单胞菌相关感染的LasR抑制剂。据我们所知，本研究首次评估了基于MLP的QSAR模型在发现强效LasR抑制剂以减弱铜绿假单胞菌感染方面的应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37552115/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37552115/",
+  "paper_page_path": "papers/pubmed/37552115/index.html"
+}

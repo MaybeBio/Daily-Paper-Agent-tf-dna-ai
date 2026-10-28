@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "42103618",
+    "doi": "10.3760/cma.j.cn112151-20251111-00742",
+    "title": "[Driver gene mutations predicted by pathology-foundation-model and their clinical associations in clear cell renal cell carcinoma]."
+  },
+  "content": {
+    "abstract": "Objective: To evaluate the performance of a deep learning framework based on the PathOrchestra pathology foundation model for predicting key driver gene mutations (VHL, PBRM1, BAP1, and SETD2) in clear cell renal cell carcinoma (ccRCC), and to analyze the associations of these mutations with clinicopathological characteristics and prognosis using whole-exome sequencing data. Methods: Whole-slide images and matched whole-exome sequencing data were collected from 319 patients with pathologically confirmed ccRCC at the First Affiliated Hospital of Air Force Medical University between March 2018 and July 2023. Image features of the whole slide imaging were extracted using the PathOrchestra foundation model. An attention-based multiple-instance learning model was developed to predict gene mutations. Model performance was evaluated on an independent test set, with the UNI model serving as a baseline control. The associations of the mutation status with clinicopathological parameters and patient prognosis were also analyzed. Results: On the independent test set, the PathOrchestra model achieved area under the receiver operating characteristic curve values of 0.87 for VHL, 0.84 for PBRM1, 0.95 for BAP1, and 0.88 for SETD2, showing higher predictive performances than the UNI baseline for BAP1 and SETD2. Clinicopathological correlation analysis based on whole-exome sequencing data revealed that BAP1 mutation was associated with higher WHO/ISUP grade (chi(2)=17.694,P=0.001), tumor relapse/metastasis (chi(2)=4.257,P=0.039), and shorter progression-free survival (P=0.045). Conclusions: The PathOrchestra-based deep learning approach can effectively identify key driver gene mutations in ccRCC using whole slide images of HE-stained slides, providing a feasible method for inferring genetic alterations from pathological images. The association of BAP1 mutation in ccRCC with poor prognosis further supports its value in prognostications. Moreover, the model visualization reveals morphological signatures associated with gene mutations, offering preliminary insights into genotype-morphology relationships.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Renal Cell/genetics/pathology",
+      "*Kidney Neoplasms/genetics/pathology",
+      "*Mutation",
+      "Tumor Suppressor Proteins/genetics",
+      "Histone-Lysine N-Methyltransferase/genetics",
+      "Ubiquitin Thiolesterase/genetics",
+      "Female",
+      "DNA-Binding Proteins/genetics",
+      "Transcription Factors/genetics",
+      "Male",
+      "Von Hippel-Lindau Tumor Suppressor Protein/genetics",
+      "Middle Aged",
+      "Prognosis",
+      "Multiple-Instance Learning Algorithms",
+      "Exome Sequencing",
+      "Nuclear Proteins/genetics",
+      "Aged",
+      "Adult"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, S Y",
+        "Zhang, Y Y",
+        "Chen, W",
+        "Li, J N",
+        "Wei, Y R",
+        "Wang, M",
+        "Fan, L N",
+        "Wang, Z"
+      ],
+      "short_names": [
+        "Tan SY",
+        "Zhang YY",
+        "Chen W",
+        "Li JN",
+        "Wei YR",
+        "Wang M",
+        "Fan LN",
+        "Wang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China.",
+        "Shanghai SenseTime Intelligent Medical Technology Company Limited, Shanghai 200030, China.",
+        "Shanghai SenseTime Intelligent Medical Technology Company Limited, Shanghai 200030, China.",
+        "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China.",
+        "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China.",
+        "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China.",
+        "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China.",
+        "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, S Y",
+        "short_name": "Tan SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Y Y",
+        "short_name": "Zhang YY",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai SenseTime Intelligent Medical Technology Company Limited, Shanghai 200030, China."
+        ]
+      },
+      {
+        "full_name": "Chen, W",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai SenseTime Intelligent Medical Technology Company Limited, Shanghai 200030, China."
+        ]
+      },
+      {
+        "full_name": "Li, J N",
+        "short_name": "Li JN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Y R",
+        "short_name": "Wei YR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, M",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China."
+        ]
+      },
+      {
+        "full_name": "Fan, L N",
+        "short_name": "Fan LN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Z",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Basic Medicine and the First Affiliated Hospital, Air Force Medical University, Xi'an 710032, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Zhonghua bing li xue za zhi = Chinese journal of pathology"
+    ],
+    "journal_abbrev": [
+      "Zhonghua Bing Li Xue Za Zhi"
+    ],
+    "pub_date": "2026 May 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/09 00:34",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42103618",
+      "38933491",
+      "27751729",
+      "33795526",
+      "24029645",
+      "39250899",
+      "23867514",
+      "24166983",
+      "30660076",
+      "39103260",
+      "23620406",
+      "30416077",
+      "26452128",
+      "26166446",
+      "39263870",
+      "24821879",
+      "40233528",
+      "25873528",
+      "23644518",
+      "28753773",
+      "40306016",
+      "36911986",
+      "23333114",
+      "25465300",
+      "42238050",
+      "28408295",
+      "25087671",
+      "32472114",
+      "39166457",
+      "22461374",
+      "40699095",
+      "37976977",
+      "29169846",
+      "28212566",
+      "22683710",
+      "26864202",
+      "23036577",
+      "30814637",
+      "28327121",
+      "15854350",
+      "33210135",
+      "28473526",
+      "22949125",
+      "35287088",
+      "41413084",
+      "30099580",
+      "26300218",
+      "24076305",
+      "25359211",
+      "27664394",
+      "24487277",
+      "31635476",
+      "28260718",
+      "23709298",
+      "26484545",
+      "35932824",
+      "26891804",
+      "27556922",
+      "32561872",
+      "33994165",
+      "40065697",
+      "35654752",
+      "29066084",
+      "28618948",
+      "30446457",
+      "36253570",
+      "22385958",
+      "39123175",
+      "28765116",
+      "36562826",
+      "30523454",
+      "39193825",
+      "39703069",
+      "30886153",
+      "40246078",
+      "24382589",
+      "32513235",
+      "30522901",
+      "41785935",
+      "25365943",
+      "24992170",
+      "42287060",
+      "24158655",
+      "30277889",
+      "28731045",
+      "30601030",
+      "25853938",
+      "28284891",
+      "18464292",
+      "40146270",
+      "29426696",
+      "29118224",
+      "39142537",
+      "26228213",
+      "29853346",
+      "40425983",
+      "26707870",
+      "33121461",
+      "38281281",
+      "37515929"
+    ],
+    "review": [
+      "42103618",
+      "39250899",
+      "26166446",
+      "25873528",
+      "40699095",
+      "30099580",
+      "27664394",
+      "35932824",
+      "32561872",
+      "36253570"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.yiigle.com/LinkIn.do?linkin_type=pubmed&DOI=10.3760/cma.j.cn112151-20251111-00742",
+        "provider": "Chinese Medical Association Publishing House Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1362",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

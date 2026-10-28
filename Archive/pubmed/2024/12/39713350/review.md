@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, DOI 10.1101/2024.12.06.627191)
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, results, and conclusions as presented in the provided text. No external validation or replication performed.
+- **Shared manuscript claim summary** The authors present JAX-EPBD, a GPU-accelerated Langevin molecular dynamics framework for simulating DNA breathing dynamics. They claim up to 30x speedup over a C-based EPBD implementation, scalability across sequence lengths and batch sizes, and demonstrate biological utility by showing improved transcription factor binding affinity predictions when incorporating breathing features, and by reproducing known differences in bubble dynamics between wild-type and mutant AAV P5 promoter sequences.
+- **Visible evidence base** Abstract, Introduction, Methods (Langevin-EPBD model, Langevin dynamics, High-Throughput Langevin EPBD), Results (datasets, simulation details, average coordinate profile, base flipping probability, bubble probability/lifetime, benchmark results, binding prediction), Conclusion, Acknowledgements. Figures and tables referenced but not provided in the text.
+- **Missing materials affecting confidence** Figures 2-8 and Table 1 are referenced but not included in the supplied text. Algorithm 1 is referenced but not provided. Specific parameter values for the EPBD model (e.g., Dn, an, K, rho, beta) are not given. Details of the SELEX dataset preprocessing and the exact feature construction for the binding prediction are incomplete. The mutation position in the AAV P5 promoter is mentioned but not specified in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially useful computational tool for studying DNA breathing dynamics at scale. The core idea of leveraging JAX for GPU-accelerated Langevin simulations of the EPBD model is sound and addresses a real computational bottleneck. However, the manuscript in its current form has several significant weaknesses. The most critical issue is the inconsistency between the abstract and conclusion, which claim up to 30x speedup, and the results section, which reports a 9.4x speedup for a single sequence and does not clearly demonstrate the 30x figure. The biological validation is promising but incomplete, with key details about the SELEX feature construction and the statistical significance of the R2 improvements missing. The manuscript would benefit from a clearer presentation of the model parameters, a more rigorous benchmarking methodology, and a more detailed description of the biological analyses. The writing is generally clear but some sections, particularly the model description, could be more accessible to a broader readership.
+- **Who would be interested in the results, and why** Computational biologists and biophysicists studying DNA dynamics, gene regulation, and transcription factor binding. Researchers developing GPU-accelerated simulation tools for biological systems. Experimentalists studying promoter dynamics and transcription initiation who could benefit from a fast predictive tool. The potential for genome-scale analysis makes it relevant to researchers in genomics and bioinformatics.
+- **Major strengths** The problem addressed is important and the proposed solution is technically relevant. The use of JAX for GPU acceleration is a modern and appropriate choice. The validation on the AAV P5 promoter is a good use of a well-characterized biological system. The application to TF binding prediction is a valuable demonstration of the utility of the features. The benchmarking, while incomplete, shows a clear performance advantage over the C-based implementation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim consistency and evidence
+  - **Claim pointer** The abstract and conclusion claim "up to 30x speedup" for JAX-EPBD compared to the original C-based EPBD implementation.
+  - **Evidence pointer** Abstract; Conclusion; Results section "Benchmark Results"; Table 1; Figures 6 and 7 (not provided)
+  - **Concern** The results section reports a 9.4x speedup for a single sequence of length 100 (7.21s vs 67.80s). The 30x figure is not explicitly derived or shown in the provided text. The speedup is described as "growing" with sequence length and batch size, but the specific conditions under which 30x is achieved are not stated. This is a significant discrepancy between the headline claim and the presented evidence.
+  - **Why it matters** The primary selling point of the tool is its speed. An unsubstantiated or inconsistently reported speedup undermines the credibility of the central claim and makes it difficult for a reader to assess the tool's true performance.
+  - **Resolution test** The authors must provide a clear and consistent reporting of the speedup. They should specify the exact conditions (sequence length, batch size, hardware) under which the 30x speedup is achieved, and present the corresponding data in a figure or table. The abstract and conclusion should be revised to match the results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical completeness and reproducibility
+  - **Claim pointer** The manuscript describes the EPBD model and the Langevin dynamics simulation framework, implying that the implementation is complete and reproducible.
+  - **Evidence pointer** Methods section "The Langevin-EPBD Model"; Methods section "Langevin dynamics"; Algorithm 1 (not provided)
+  - **Concern** The manuscript does not provide the specific parameter values used in the simulations. The EPBD model parameters (Dn, an, K, rho, beta) are defined symbolically but their numerical values are not given. The integration time step is stated (0.00002) but the units are not specified. The total simulation time and the number of steps are not stated. Algorithm 1, which is referenced as summarizing the simulation procedure, is not provided.
+  - **Why it matters** Without these parameters, the simulations cannot be reproduced by other researchers. This is a fundamental requirement for a methods paper. The lack of units for the time step is a particular concern for a dynamics simulation.
+  - **Resolution test** The authors must provide a complete table of all model parameters and their values, specify the units for all quantities, and include the full Algorithm 1 in the main text or supplementary materials.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validation and statistical rigor
+  - **Claim pointer** The manuscript claims that incorporating breathing features with sequence data leads to "consistent improvements in R2 values" for TF binding affinity prediction, and that the AAV P5 promoter analysis "revealed sequence-specific differences in bubble dynamics correlating with transcriptional activity."
+  - **Evidence pointer** Results section "Binding prediction"; Figure 8 (not provided); Results section "Breathing dynamics: Average coordinate distance profile"; Figure 5f (not provided)
+  - **Concern** The binding prediction results are presented as "consistent improvements" but no statistical analysis is shown. It is unclear if the improvements are significant. The description of the feature set is vague ("coordinate features derived from structural dynamics"), and the exact methodology for combining these with sequence data is not detailed. For the AAV P5 promoter, the claim of correlation with transcriptional activity is based on visual inspection of a figure, with no quantitative measure of the difference or its significance.
+  - **Why it matters** The biological applications are intended to demonstrate the utility of the tool. Without statistical rigor, the claims of improved prediction and biologically relevant differences are not convincing. The lack of detail on the feature construction prevents others from replicating the analysis.
+  - **Resolution test** The authors should provide a detailed description of the feature engineering, report the R2 values with appropriate error bars and statistical tests (e.g., paired t-test across folds), and provide a quantitative analysis of the AAV P5 promoter differences (e.g., confidence intervals for the mean displacement or bubble probability at the mutation site).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmarking methodology
+  - **Claim pointer** The benchmarking claims to evaluate "runtime efficiency and scalability" of JAX-EPBD against C-EPBD.
+  - **Evidence pointer** Results section "Benchmark Results"; Table 1; Figures 6 and 7 (not provided)
+  - **Concern** The benchmarking methodology is not fully described. It is unclear if the C-EPBD implementation was optimized and compiled with the same level of effort as the JAX version. The hardware is specified (128 processors, A100 GPU), but it is not clear if the C-EPBD was run on the CPU only, and if so, whether it was using all 128 processors. The comparison of a GPU implementation to a CPU implementation, while practically relevant, should be clearly framed as such. The "infeasibility" of C-EPBD for batch sizes beyond 40 is mentioned but not quantified (e.g., memory usage, time).
+  - **Why it matters** A fair benchmark is essential to support the performance claims. An unfair comparison (e.g., unoptimized C code vs. highly optimized JAX) would inflate the apparent speedup.
+  - **Resolution test** The authors should describe the compilation flags and optimization level for the C code, clarify the CPU/GPU usage for each implementation, and provide more detail on the resource limitations that make C-EPBD infeasible at larger batch sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The citation for the pyDNA-EPBD framework is missing, shown as "(?)".
+  - **Required correction** Provide the correct citation for the pyDNA-EPBD framework.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods, "The Langevin-EPBD Model"
+  - **Evidence pointer** Equations (1), (2), (3), (4)
+  - **Issue** The variables in the equations are not fully defined. For example, the meaning of y_n in equation (2) and the parameters in equation (3) are not explicitly described in the text.
+  - **Required correction** Define all variables and parameters in the text or in a table immediately following the equations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Results, "Langevin-EPBD Simulation"
+  - **Evidence pointer** Results section "Langevin-EPBD Simulation"
+  - **Issue** The text states "Each simulation consists of:" but the list is empty.
+  - **Required correction** Complete the list describing the components of each simulation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Results, "Breathing dynamics: Bubbles"
+  - **Evidence pointer** Equation (8) and (9)
+  - **Issue** The units for the displacement threshold (tr) are missing in the text, shown as "in ".
+  - **Required correction** Specify the units for the displacement threshold.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Results, "Breathing dynamics: Bubbles"
+  - **Evidence pointer** Results section "Breathing dynamics: Bubbles"
+  - **Issue** The text states "In the presence of the thermal bath, modeled by random forces, the creation of a bubble is a stochastic process (?)." The citation is missing.
+  - **Required correction** Provide the correct citation or remove the placeholder.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and could be more accessible to a broader readership. The term "Langevin molecular dynamics" is used without a brief explanation of its relevance.
+  - **Required correction** Consider adding a brief explanatory phrase, such as "a simulation method that accounts for thermal fluctuations and friction."
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Breathing dynamics: Average coordinate distance profile"
+  - **Evidence pointer** Results section "Breathing dynamics: Average coordinate distance profile"
+  - **Issue** The text refers to "Figure 5f (right panel)" and "see figure 4" but the relationship between these figures is not clear.
+  - **Required correction** Clarify the relationship between the figures and ensure the text description matches the figure content.
+
+## Risk / unsupported claims
+- The claim of "up to 30x speedup" is not supported by the data presented in the results section, which shows a 9.4x speedup for a single sequence. The conditions for the 30x figure are not specified.
+- The claim of "consistent improvements in R2 values" for TF binding prediction is not supported by statistical analysis, and the feature construction is not described in sufficient detail to be evaluated.
+- The claim that the AAV P5 promoter analysis "revealed sequence-specific differences in bubble dynamics correlating with transcriptional activity" is based on visual inspection of a figure without quantitative analysis.
+- The statement that JAX-EPBD "enables genome-scale analyses" is a forward-looking claim that is not demonstrated in the current manuscript, as the largest sequence analyzed is 77 bp and the SELEX sequences are 9-15 bp.
+- The claim that JAX-EPBD "captures rare breathing events with high temporal resolution" is not supported by any specific analysis of rare events in the provided text.

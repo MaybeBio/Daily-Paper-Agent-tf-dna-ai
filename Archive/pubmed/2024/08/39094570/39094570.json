@@ -1,0 +1,528 @@
+{
+  "identity": {
+    "pmid": "39094570",
+    "doi": "10.1016/j.cell.2024.07.006",
+    "title": "A replisome-associated histone H3-H4 chaperone required for epigenetic inheritance."
+  },
+  "content": {
+    "abstract": "Faithful transfer of parental histones to newly replicated daughter DNA strands is critical for inheritance of epigenetic states. Although replication proteins that facilitate parental histone transfer have been identified, how intact histone H3-H4 tetramers travel from the front to the back of the replication fork remains unknown. Here, we use AlphaFold-Multimer structural predictions combined with biochemical and genetic approaches to identify the Mrc1/CLASPIN subunit of the replisome as a histone chaperone. Mrc1 contains a conserved histone-binding domain that forms a brace around the H3-H4 tetramer mimicking nucleosomal DNA and H2A-H2B histones, is required for heterochromatin inheritance, and promotes parental histone recycling during replication. We further identify binding sites for the FACT histone chaperone in Swi1/TIMELESS and DNA polymerase alpha that are required for heterochromatin inheritance. We propose that Mrc1, in concert with FACT acting as a mobile co-chaperone, coordinates the distribution of parental histones to newly replicated DNA.",
+    "keywords": [
+      "CLASPIN",
+      "FACT",
+      "chromatin replication",
+      "epigenetics",
+      "fork protection complex",
+      "heterochromatin",
+      "histone inheritance",
+      "parental histone transfer",
+      "replisome, Mrc1"
+    ],
+    "mesh_terms": [
+      "*Histones/metabolism",
+      "*DNA Replication",
+      "*Epigenesis, Genetic",
+      "*Heterochromatin/metabolism",
+      "*Saccharomyces cerevisiae Proteins/metabolism/genetics",
+      "*Saccharomyces cerevisiae/metabolism/genetics",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "Cell Cycle Proteins/metabolism/genetics",
+      "High Mobility Group Proteins/metabolism/genetics",
+      "Transcriptional Elongation Factors/metabolism/genetics",
+      "Histone Chaperones/metabolism",
+      "Molecular Chaperones/metabolism",
+      "DNA Polymerase I/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Juntao",
+        "Zhang, Yujie",
+        "Fang, Yimeng",
+        "Paulo, Joao A",
+        "Yaghoubi, Dadmehr",
+        "Hua, Xu",
+        "Shipkovenska, Gergana",
+        "Toda, Takenori",
+        "Zhang, Zhiguo",
+        "Gygi, Steven P",
+        "Jia, Songtao",
+        "Li, Qing",
+        "Moazed, Danesh"
+      ],
+      "short_names": [
+        "Yu J",
+        "Zhang Y",
+        "Fang Y",
+        "Paulo JA",
+        "Yaghoubi D",
+        "Hua X",
+        "Shipkovenska G",
+        "Toda T",
+        "Zhang Z",
+        "Gygi SP",
+        "Jia S",
+        "Li Q",
+        "Moazed D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Howard Hughes Medical Institute, Department of Cell Biology, Harvard Medical School, Boston, MA, USA.",
+        "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences and Peking-Tsinghua Center for Life Sciences, Peking University, Beijing, China.",
+        "Department of Biological Sciences, Columbia University, New York, NY 10027, USA.",
+        "Department of Cell Biology, Harvard Medical School, Boston, MA, USA.",
+        "Howard Hughes Medical Institute, Department of Cell Biology, Harvard Medical School, Boston, MA, USA.",
+        "Institute for Cancer Genetics, Department of Pediatrics, and Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY 10032, USA.",
+        "Howard Hughes Medical Institute, Department of Cell Biology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY 10027, USA.",
+        "Institute for Cancer Genetics, Department of Pediatrics, and Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY 10032, USA.",
+        "Department of Cell Biology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY 10027, USA.",
+        "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences and Peking-Tsinghua Center for Life Sciences, Peking University, Beijing, China. Electronic address: li.qing@pku.edu.cn.",
+        "Howard Hughes Medical Institute, Department of Cell Biology, Harvard Medical School, Boston, MA, USA. Electronic address: danesh@hms.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Juntao",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Howard Hughes Medical Institute, Department of Cell Biology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yujie",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences and Peking-Tsinghua Center for Life Sciences, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Yimeng",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Paulo, Joao A",
+        "short_name": "Paulo JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Yaghoubi, Dadmehr",
+        "short_name": "Yaghoubi D",
+        "identifiers": [],
+        "affiliations": [
+          "Howard Hughes Medical Institute, Department of Cell Biology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hua, Xu",
+        "short_name": "Hua X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cancer Genetics, Department of Pediatrics, and Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Shipkovenska, Gergana",
+        "short_name": "Shipkovenska G",
+        "identifiers": [],
+        "affiliations": [
+          "Howard Hughes Medical Institute, Department of Cell Biology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Toda, Takenori",
+        "short_name": "Toda T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhiguo",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cancer Genetics, Department of Pediatrics, and Department of Genetics and Development, Columbia University Irving Medical Center, New York, NY 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Gygi, Steven P",
+        "short_name": "Gygi SP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Jia, Songtao",
+        "short_name": "Jia S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Qing",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences and Peking-Tsinghua Center for Life Sciences, Peking University, Beijing, China. Electronic address: li.qing@pku.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Moazed, Danesh",
+        "short_name": "Moazed D",
+        "identifiers": [],
+        "affiliations": [
+          "Howard Hughes Medical Institute, Department of Cell Biology, Harvard Medical School, Boston, MA, USA. Electronic address: danesh@hms.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2024 Sep 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/03 10:41",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42711322",
+      "42581759",
+      "42555704",
+      "42497990",
+      "42146539",
+      "42052492",
+      "41786738",
+      "41649037",
+      "41594555",
+      "41518600",
+      "41040388",
+      "40996104",
+      "40972525",
+      "40961938",
+      "40961936",
+      "40923761",
+      "40861011",
+      "40820259",
+      "40809411",
+      "40595518",
+      "40502139",
+      "40468067",
+      "40380884",
+      "40312022",
+      "40244093",
+      "40195117",
+      "40156046",
+      "40020063",
+      "39970210",
+      "39947281",
+      "39824166",
+      "39565189",
+      "39552290",
+      "39549698",
+      "39422321"
+    ],
+    "refs": [
+      "38718120",
+      "38479839",
+      "37938774",
+      "37850662",
+      "37506699",
+      "37207657",
+      "36942484",
+      "36750094",
+      "36541721",
+      "35981082",
+      "35705812",
+      "35637307",
+      "35412617",
+      "35061899",
+      "34694004",
+      "34652950",
+      "34375584",
+      "34265844",
+      "33846633",
+      "33313420",
+      "33125078",
+      "32923642",
+      "32881101",
+      "32491985",
+      "32369734",
+      "32231312",
+      "31883795",
+      "31784357",
+      "31775157",
+      "31696235",
+      "31675501",
+      "31613222",
+      "31511420",
+      "30615063",
+      "30456370",
+      "30244834",
+      "30217558",
+      "30146316",
+      "30115746",
+      "30115745",
+      "30104407",
+      "29292063",
+      "29235574",
+      "29187422",
+      "28682306",
+      "28610839",
+      "28318821",
+      "28302794",
+      "28126821",
+      "27989438",
+      "27899574",
+      "26966247",
+      "26804921",
+      "26455391",
+      "26167883",
+      "25838386",
+      "25831549",
+      "25618846",
+      "25449133",
+      "24905786",
+      "24805245",
+      "24695404",
+      "23499444",
+      "23417676",
+      "23193179",
+      "23118191",
+      "22388286",
+      "21969370",
+      "21854979",
+      "21666805",
+      "21549307",
+      "21183079",
+      "20360108",
+      "20300089",
+      "20141833",
+      "20013364",
+      "19956593",
+      "19819872",
+      "19422421",
+      "19363495",
+      "19151095",
+      "18851837",
+      "18798982",
+      "18794362",
+      "18579787",
+      "18345014",
+      "18096807",
+      "17618841",
+      "17614284",
+      "17327847",
+      "17081973",
+      "16902406",
+      "16678108",
+      "16618806",
+      "16531994",
+      "15367656",
+      "14704433",
+      "12944972",
+      "12934006",
+      "12865299",
+      "12620222",
+      "12193640",
+      "11715017",
+      "11715016",
+      "11568184",
+      "11432837",
+      "11090622",
+      "11089978",
+      "10847685",
+      "10591219",
+      "9717240",
+      "9525946",
+      "9305837",
+      "9199353",
+      "8798650",
+      "8647429",
+      "3935168",
+      "3023620",
+      "2225075",
+      "347451",
+      "332067"
+    ],
+    "similar": [
+      "39094570",
+      "39094566",
+      "39241742",
+      "30104407",
+      "39094569",
+      "38479839",
+      "21625001",
+      "38448592",
+      "41594555",
+      "38713623",
+      "23499444",
+      "37850662",
+      "39103894",
+      "26416482",
+      "39488545",
+      "26990181",
+      "26804921",
+      "31365865",
+      "30217558",
+      "21757688",
+      "28334823",
+      "35595162",
+      "19481517",
+      "30244834",
+      "36914923",
+      "38925115",
+      "30679261",
+      "24248595",
+      "31837996",
+      "24573675",
+      "29514976",
+      "26109053",
+      "26455391",
+      "40972526",
+      "27036862",
+      "31613222",
+      "17081973",
+      "27989438",
+      "21969370",
+      "30029006",
+      "29695490",
+      "34380014",
+      "41303375",
+      "18708354",
+      "29109278",
+      "42581759",
+      "38554108",
+      "27618665",
+      "23417676",
+      "41271725",
+      "31775157",
+      "28126821",
+      "26966247",
+      "25416387",
+      "17107956",
+      "22337870",
+      "29661843",
+      "20718939",
+      "21232560",
+      "19403047",
+      "28315525",
+      "40405832",
+      "29292063",
+      "30115745",
+      "38285941",
+      "24824343",
+      "19481521",
+      "16582440",
+      "21895891",
+      "35061899",
+      "33888559",
+      "28520954",
+      "32917507",
+      "19683500",
+      "16568950",
+      "29139028",
+      "23698368",
+      "37481442",
+      "28315523",
+      "37166686",
+      "25618846",
+      "17166288",
+      "36830746",
+      "17081967",
+      "24459726",
+      "27284163",
+      "35320725",
+      "36924499",
+      "21220302",
+      "28468903",
+      "30344095",
+      "18096807",
+      "26945061",
+      "20007951",
+      "22216151",
+      "21454601",
+      "36868228",
+      "32923642",
+      "8754835",
+      "39473172"
+    ],
+    "review": [
+      "39094570",
+      "41594555",
+      "29292063",
+      "32917507",
+      "16568950",
+      "37481442",
+      "36830746",
+      "24459726"
+    ],
+    "pmc": [
+      "11380579"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(24)00766-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39094570/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3930",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse269383",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://www.pombase.org/reference/PMID:39094570",
+        "provider": "PomBase, University of Cambridge",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

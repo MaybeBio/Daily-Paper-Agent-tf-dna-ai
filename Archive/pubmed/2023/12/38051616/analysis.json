@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38051616",
+  "title": "promSEMBLE: Hard Pattern Mining and Ensemble Learning for Detecting DNA Promoter Sequences.",
+  "authors": "Nagda, Bindi M; Nguyen, Van Minh; White, Ryan T",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2023-12-06",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度循环网络与集成学习预测DNA启动子序列，虽涉及TF结合启动子区域，但主要聚焦序列分类而非TF-DNA三维互作建模，方法可迁移但深度有限。",
+  "abstract": "Accurate identification of DNA promoter sequences is of crucial importance in unraveling the underlying mechanisms that regulate gene transcription. Initiation of transcription is controlled through regulatory transcription factors binding to promoter core regions in the DNA sequence. Detection of promoter regions is necessary if we are to build genetic regulatory networks for biomedical and clinical applications, and for identification of rarely expressed genes. We propose a novel ensemble learning technique using deep recurrent neural networks with convolutional feature extraction and hard negative pattern mining to detect several types of promoter sequences, including promoter sequences with the TATA-box and without the TATA-box, within DNA sequences of four different species. Using extensive independent tests and previously published results, we demonstrate that our method sets a new state-of-the-art of over 98% Matthews correlation coefficient in all eight organism categories for recognizing the stretch of base pairs that code for the promoter region within DNA sequences.",
+  "abstract_zh": "DNA启动子序列的准确识别对于揭示调控基因转录的潜在机制至关重要。转录的起始通过调控转录因子与DNA序列中启动子核心区域的结合来控制。为了构建用于生物医学和临床应用的基因调控网络，以及识别稀有表达基因，检测启动子区域是必要的。我们提出了一种新颖的集成学习技术，利用深度循环神经网络结合卷积特征提取和硬负样本挖掘，来检测多种类型的启动子序列，包括含有TATA盒和不含TATA盒的启动子序列，涉及四个不同物种的DNA序列。通过广泛的独立测试和先前发表的结果，我们证明我们的方法在所有八个生物类别中识别DNA序列中编码启动子区域的碱基对片段时，达到了超过98%的马修斯相关系数，树立了新的最先进水平。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38051616/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38051616/",
+  "paper_page_path": "papers/pubmed/38051616/index.html"
+}

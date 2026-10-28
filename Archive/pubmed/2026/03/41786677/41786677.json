@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "41786677",
+    "doi": "10.1111/cge.70159",
+    "title": "Functional Data Strengthen Clinical Validation of PhenoScore Phenotype-Guided AI for ANKRD11 Missense Variants."
+  },
+  "content": {
+    "abstract": "KBG syndrome (KBGS, OMIM #148050) is a rare genetic disorder caused by heterozygous truncating or missense variants in the ANKRD11 gene or a deletion of 16q24.3 involving ANKRD11. While truncating variants clearly disrupt protein function, the interpretation of missense variants is more challenging, as many remain variants of uncertain significance (VUS). To address this, we evaluated PhenoScore, an open-source AI-based phenomics framework integrating facial recognition and medical data analysis, for predicting the pathogenicity of ANKRD11 missense variants and providing supporting evidence for variant interpretation within the ACMG framework, specifically the PP4 criterion. PhenoScore was trained on 79 individuals with truncating variants in ANKRD11 and age-, sex-, and ethnicity-matched controls with other neurodevelopmental disorders, and its performance was compared to AlphaMissense, REVEL, and the evaluation of a clinical geneticist. Six individuals with functionally confirmed pathogenic missense variants were used for testing. PhenoScore achieved high predictive accuracy with an area under the curve (AUC) of 0.95 and a Brier score of 0.089, and pathogenic missense variants in the test set received a mean prediction score of 0.94. PhenoScore significantly outperformed REVEL (p < 0.01), especially in cases supported by functional and clinical evidence, while no significant difference was observed compared to AlphaMissense (p = 0.63); importantly, the two tools showed complementary strengths. These findings suggest that PhenoScore represents a promising tool for clinical variant interpretation, as it quantifies phenotypic concordance with KBGS and provides objective evidence that can strengthen the PP4 criterion within the ACMG framework. Combined with molecular prediction tools like AlphaMissense, PhenoScore may help reduce uncertainty surrounding VUS in ANKRD11 by complementing these scores.",
+    "keywords": [
+      "KBG syndrome",
+      "PhenoScore",
+      "artificial intelligence",
+      "next-generation phenotyping"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation, Missense/genetics",
+      "Phenotype",
+      "*Repressor Proteins/genetics",
+      "Female",
+      "Male",
+      "*Intellectual Disability/genetics/diagnosis/pathology",
+      "*Abnormalities, Multiple/genetics/diagnosis/pathology",
+      "Facies",
+      "*Artificial Intelligence",
+      "*Craniofacial Abnormalities/genetics/diagnosis",
+      "Child",
+      "Genetic Association Studies",
+      "Adolescent",
+      "Bone Diseases, Developmental",
+      "Tooth Abnormalities"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Andriessen, Evi",
+        "de Boer, Elke",
+        "Lyon, Gholson J",
+        "de Vries, Bert B A",
+        "Ockeloen, Charlotte W",
+        "Dingemans, Alexander J M"
+      ],
+      "short_names": [
+        "Andriessen E",
+        "de Boer E",
+        "Lyon GJ",
+        "de Vries BBA",
+        "Ockeloen CW",
+        "Dingemans AJM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5869-0716",
+        "ORCID: 0000-0003-0329-1520",
+        "ORCID: 0000-0002-5648-2155"
+      ],
+      "affiliations": [
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "New York State Institute for Basic Research in Developmental Disabilities, Staten Island, New York, USA.",
+        "The Graduate Center, The City University of New York, New York, New York, USA.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Andriessen, Evi",
+        "short_name": "Andriessen E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Boer, Elke",
+        "short_name": "de Boer E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lyon, Gholson J",
+        "short_name": "Lyon GJ",
+        "identifiers": [
+          "0000-0002-5869-0716"
+        ],
+        "affiliations": [
+          "New York State Institute for Basic Research in Developmental Disabilities, Staten Island, New York, USA.",
+          "The Graduate Center, The City University of New York, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "de Vries, Bert B A",
+        "short_name": "de Vries BBA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ockeloen, Charlotte W",
+        "short_name": "Ockeloen CW",
+        "identifiers": [
+          "0000-0003-0329-1520"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dingemans, Alexander J M",
+        "short_name": "Dingemans AJM",
+        "identifiers": [
+          "0000-0002-5648-2155"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical genetics"
+    ],
+    "journal_abbrev": [
+      "Clin Genet"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/06 09:01",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [
+      "42684307"
+    ],
+    "refs": [
+      "38183205",
+      "37933859",
+      "37733863",
+      "37550531",
+      "36440975",
+      "35833929",
+      "33893808",
+      "33439542",
+      "29868193",
+      "27667800",
+      "27666373",
+      "27605097",
+      "25741868",
+      "25424714",
+      "23335808",
+      "21782149",
+      "17230487",
+      "15523620",
+      "12824425"
+    ],
+    "similar": [
+      "41786677",
+      "35833929",
+      "36440975",
+      "33354850",
+      "39985057",
+      "30642272",
+      "25424714",
+      "40459271",
+      "39404460",
+      "27605097",
+      "28422132",
+      "23494856",
+      "34440431",
+      "36564961",
+      "25464108",
+      "40004465",
+      "33955014",
+      "36628575",
+      "39135054",
+      "27667800",
+      "33653342",
+      "35682590",
+      "28250421",
+      "30088855",
+      "35970914",
+      "25187894",
+      "23369839",
+      "32124548",
+      "29224748",
+      "23184435",
+      "29696793",
+      "22307766",
+      "36584991",
+      "24838796",
+      "30568311",
+      "40760574",
+      "41809613",
+      "23463723",
+      "41809564",
+      "21782149",
+      "40011197",
+      "41680088",
+      "35598261",
+      "28815928",
+      "39847329",
+      "36446582",
+      "32222090",
+      "39631901",
+      "39346806",
+      "30786142",
+      "33476899",
+      "32820523",
+      "27900361",
+      "38593730",
+      "35174959",
+      "28566769",
+      "37550531",
+      "35861666",
+      "37501353",
+      "24916641",
+      "40673726",
+      "32476269",
+      "32546215",
+      "36217662",
+      "29258554",
+      "35394473",
+      "25413698",
+      "39013459",
+      "41288544",
+      "30055086",
+      "34547584",
+      "34012832",
+      "34247373",
+      "25543316",
+      "40518161",
+      "37586838",
+      "36196002",
+      "28645799",
+      "29565525",
+      "36722669",
+      "37336020",
+      "39440667",
+      "41749372",
+      "40397311",
+      "29530238",
+      "38334877",
+      "41320952",
+      "38157719",
+      "39162370",
+      "42199731",
+      "30877071",
+      "37226940",
+      "40233742",
+      "34971082",
+      "34357716",
+      "42345200",
+      "42510805",
+      "26647308",
+      "40742416",
+      "39202393"
+    ],
+    "review": [
+      "41786677",
+      "36564961",
+      "36628575",
+      "39135054",
+      "29224748",
+      "33476899",
+      "40673726",
+      "36217662",
+      "29258554",
+      "37586838",
+      "29565525"
+    ],
+    "pmc": [
+      "13167626"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/craniofacialabnormalities.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Craniofacial Abnormalities"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41786677/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/cge.70159",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

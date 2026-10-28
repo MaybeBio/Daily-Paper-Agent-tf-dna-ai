@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "41057751",
+    "doi": "10.1186/s12864-025-12083-x",
+    "title": "Cell-free DNA-based inference of the activities of 370 + transcription factors mirrors their activities in tumors."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cell-free DNA (cfDNA) coverage patterns are emerging as potential low-invasive approaches to determine transcription factor (TF) activation status in tumors; however, the accuracy of this approach has been confirmed for only a few TFs. Here, using paired tumor/blood samples collected from two xenograft tumor models of human liver cancer (HepG2, gain-of-function mutation in CTNNB1; HuH7, wild type), we compared the accuracy of inferences of TF activity made using tumor-derived ATAC-seq data and plasma-derived cfDNA whole-genome sequencing (WGS) data. RESULTS: ATAC-seq and cfDNA-WGS data from the HepG2 model both showed higher activation of two downstream target TFs of CTNNB1 in the Wnt signaling pathway compared with the HuH7 model. Expanding the study to 377 TFs, each with 10,000 TF-binding sites, revealed significant concordance between the data sets for both models (Spearman's rho: HepG2, - 0.90; HuH7, - 0.85). To elucidate potential factors that may influence the accuracy of cfDNA-based inferences of TF activity in the clinic, we prepared simulation samples by mixing tumor-derived cfDNA with healthy-donor cfDNA; we found that a minimum of 5 x sequencing coverage and a tumor fraction of at least 3% were required to obtain accurate inferences of tumor type-specific TF activity. CONCLUSIONS: cfDNA-based TF activity inference is applicable to more than 370 TFs and can be used to accurately estimate tumor-specific TF activities. We believe that this study supports a fundamental principle that will be useful for future investigations of the potential of cfDNA analysis.",
+    "keywords": [
+      "TFBS",
+      "Transcription factor",
+      "Whole genome sequencing",
+      "cfDNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/metabolism/genetics",
+      "*Cell-Free Nucleic Acids/genetics",
+      "Animals",
+      "*Liver Neoplasms/genetics/metabolism/pathology",
+      "Hep G2 Cells",
+      "Whole Genome Sequencing",
+      "Mice",
+      "Binding Sites",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tamaki, Ryuji",
+        "Sagane, Koji",
+        "Li, Shuyu Dan",
+        "Hoshi, Taisuke"
+      ],
+      "short_names": [
+        "Tamaki R",
+        "Sagane K",
+        "Li SD",
+        "Hoshi T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tsukuba Research Laboratories, Eisai Co., Ltd., 5-1-3 Tokodai, Tsukuba, Ibaraki, 300-2635, Japan. r-tamaki@hhc.eisai.co.jp.",
+        "Tsukuba Research Laboratories, Eisai Co., Ltd., 5-1-3 Tokodai, Tsukuba, Ibaraki, 300-2635, Japan.",
+        "Eisai Inc., New Jersey, USA.",
+        "Tsukuba Research Laboratories, Eisai Co., Ltd., 5-1-3 Tokodai, Tsukuba, Ibaraki, 300-2635, Japan. t-hoshi@hhc.eisai.co.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tamaki, Ryuji",
+        "short_name": "Tamaki R",
+        "identifiers": [],
+        "affiliations": [
+          "Tsukuba Research Laboratories, Eisai Co., Ltd., 5-1-3 Tokodai, Tsukuba, Ibaraki, 300-2635, Japan. r-tamaki@hhc.eisai.co.jp."
+        ]
+      },
+      {
+        "full_name": "Sagane, Koji",
+        "short_name": "Sagane K",
+        "identifiers": [],
+        "affiliations": [
+          "Tsukuba Research Laboratories, Eisai Co., Ltd., 5-1-3 Tokodai, Tsukuba, Ibaraki, 300-2635, Japan."
+        ]
+      },
+      {
+        "full_name": "Li, Shuyu Dan",
+        "short_name": "Li SD",
+        "identifiers": [],
+        "affiliations": [
+          "Eisai Inc., New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Hoshi, Taisuke",
+        "short_name": "Hoshi T",
+        "identifiers": [],
+        "affiliations": [
+          "Tsukuba Research Laboratories, Eisai Co., Ltd., 5-1-3 Tokodai, Tsukuba, Ibaraki, 300-2635, Japan. t-hoshi@hhc.eisai.co.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2025 Oct 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/08 00:29",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39236169",
+      "38798191",
+      "38684876",
+      "37789101",
+      "36463275",
+      "36400749",
+      "36399356",
+      "36265119",
+      "36264554",
+      "36001652",
+      "35915225",
+      "35859180",
+      "35729208",
+      "35643791",
+      "35361996",
+      "35197279",
+      "34965943",
+      "34884942",
+      "34850907",
+      "34417454",
+      "33858480",
+      "33810805",
+      "33590861",
+      "33193621",
+      "32824207",
+      "32437734",
+      "32238450",
+      "31604930",
+      "31296838",
+      "31249361",
+      "31142840",
+      "30546827",
+      "30423086",
+      "30404863",
+      "30385733",
+      "30361341",
+      "29921764",
+      "29435196",
+      "29036507",
+      "28846090",
+      "28825706",
+      "28622513",
+      "28442604",
+      "27571261",
+      "27545881",
+      "27490693",
+      "27079975",
+      "26794315",
+      "26771485",
+      "25994056",
+      "25559105",
+      "25431634",
+      "24238150",
+      "24097267",
+      "23950696",
+      "22914218",
+      "22772404",
+      "22388286",
+      "21478889",
+      "20644199",
+      "20513432",
+      "19849855",
+      "19451168",
+      "18798982",
+      "11861434"
+    ],
+    "similar": [
+      "41057751",
+      "38905450",
+      "39528065",
+      "40001151",
+      "41881575",
+      "38798191",
+      "20158869",
+      "31234922",
+      "34710202",
+      "34464388",
+      "38927119",
+      "25957350",
+      "41826520",
+      "28284560",
+      "37805453",
+      "26099525",
+      "28234893",
+      "32741373",
+      "34670587",
+      "39407254",
+      "34059130",
+      "28750606",
+      "41815178",
+      "37936230",
+      "31604930",
+      "35057759",
+      "37682473",
+      "37769223",
+      "34490703",
+      "28245430",
+      "26703974",
+      "41165721",
+      "22811581",
+      "41664150",
+      "32774784",
+      "30617129",
+      "38212123",
+      "39433569",
+      "21172055",
+      "22863112",
+      "41544207",
+      "32859160",
+      "27614046",
+      "38912901",
+      "38961476",
+      "38755519",
+      "29109393",
+      "40663513",
+      "37898819",
+      "38598634",
+      "34544361",
+      "26619963",
+      "38414068",
+      "24564277",
+      "30239551",
+      "41288963",
+      "41488623",
+      "34688997",
+      "34133846",
+      "42099803",
+      "26065367",
+      "19956545",
+      "24927817",
+      "34071577",
+      "38895436",
+      "36096847",
+      "31784426",
+      "41406506",
+      "36001652",
+      "41962406",
+      "27174533",
+      "29191970",
+      "32858223",
+      "34320984",
+      "34403504",
+      "34426111",
+      "37330052",
+      "29178133",
+      "27899623",
+      "27567672",
+      "38754575",
+      "31364001",
+      "32602248",
+      "38092180",
+      "39588827",
+      "31340985",
+      "40472984",
+      "26034368",
+      "37942753",
+      "35263170",
+      "31053165",
+      "28734833",
+      "39589853",
+      "41518500",
+      "35941262",
+      "29566670",
+      "30709337",
+      "34488759",
+      "40250421",
+      "33947693"
+    ],
+    "review": [
+      "41057751",
+      "36096847"
+    ],
+    "pmc": [
+      "12506351"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12083-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41057751/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

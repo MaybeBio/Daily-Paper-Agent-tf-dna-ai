@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "42216358",
+    "doi": "10.1097/MD.0000000000049016",
+    "title": "Bioinformatics analysis identifies biomarkers associated with T-cell depletion in systemic lupus erythematosus."
+  },
+  "content": {
+    "abstract": "Systemic lupus erythematosus (SLE) is a chronic autoimmune disease that affects multiple organ systems. In SLE, T-cell subsets are closely associated with autoimmunity and organ inflammation. Detecting T-cell exhaustion (TEX)-related biomarkers is crucial for early SLE diagnosis and offers new insights into disease mechanisms. Transcriptomic data for SLE were collected from public databases, and TEX-related genes were obtained from the literature. Biomarkers were identified using analyses such as differential expression analysis and machine learning algorithms. The potential mechanisms of action of these biomarkers were further investigated, including nomogram construction, gene set enrichment analysis, immune microenvironment analysis, molecular regulatory network analysis, molecular docking, and reverse transcription-quantitative polymerase chain reaction validation. IFIT3, IFIH1, CXCL10, and STAT2 were identified as biomarkers. The nomogram demonstrated good predictive performance. These biomarkers were mainly involved in biological processes such as ribosome biogenesis and negative regulation of viral genome replication. Four significantly different immune cell types were identified, including monocytes and resting memory CD4 T cells. The biomarkers were found to be regulated by several transcription factors and microRNAs. Furthermore, the 4 biomarkers exhibited high binding affinity for several drugs; in particular, the binding energy of STAT2 with bisphenol A was -7.0 kcal/mol. Finally, reverse transcription-quantitative polymerase chain reaction results showed that all 4 biomarkers were significantly upregulated in SLE patients. In summary, this study identified TEX-related biomarkers in SLE, which may have important clinical implications for the diagnosis and treatment of SLE.",
+    "keywords": [
+      "bioinformatics",
+      "enrichment analysis",
+      "immune microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lupus Erythematosus, Systemic/immunology/genetics",
+      "Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "STAT2 Transcription Factor/genetics/metabolism",
+      "Chemokine CXCL10/genetics/metabolism",
+      "T-Cell Exhaustion",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics/metabolism",
+      "*T-Lymphocytes",
+      "Transcriptome",
+      "Intracellular Signaling Peptides and Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Lanqing",
+        "Gao, Wei",
+        "Yang, Lulu",
+        "Liu, Xingyu"
+      ],
+      "short_names": [
+        "Yang L",
+        "Gao W",
+        "Yang L",
+        "Liu X"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0217-3084"
+      ],
+      "affiliations": [
+        "Department of Rheumatology and Immunology, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, Liaoning Province, China.",
+        "Department of Rheumatology and Immunology, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, Liaoning Province, China.",
+        "Department of Pediatrics, Shiqian County Maternal and Child Health Hospital, Tongren, Guizhou Province, China.",
+        "Department of Pediatric Orthopedics, Shanghai Children's Medical Center Guizhou Hospital, Shanghai Jiao Tong University School of Medicine, Guiyang, Guizhou Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Lanqing",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0009-0004-0217-3084"
+        ],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Wei",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lulu",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Shiqian County Maternal and Child Health Hospital, Tongren, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xingyu",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Orthopedics, Shanghai Children's Medical Center Guizhou Hospital, Shanghai Jiao Tong University School of Medicine, Guiyang, Guizhou Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 May 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/30 06:36",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39362013",
+      "39360156",
+      "39172029",
+      "39095152",
+      "39073297",
+      "39055429",
+      "38658806",
+      "38642569",
+      "38625809",
+      "38587826",
+      "38543756",
+      "38532933",
+      "38272542",
+      "38255248",
+      "38166256",
+      "38145013",
+      "38088186",
+      "38021395",
+      "37988195",
+      "37956198",
+      "37769649",
+      "37433793",
+      "37392050",
+      "37007947",
+      "36915111",
+      "36869711",
+      "36788230",
+      "36618352",
+      "36591294",
+      "36439636",
+      "36327541",
+      "35845045",
+      "35804480",
+      "35769467",
+      "35483150",
+      "35313504",
+      "35286211",
+      "35280878",
+      "35280134",
+      "34991247",
+      "34745118",
+      "34724821",
+      "34564598",
+      "34553293",
+      "34526992",
+      "34521416",
+      "34290519",
+      "34278794",
+      "34276676",
+      "34252872",
+      "33629951",
+      "33042838",
+      "32767490",
+      "31880585",
+      "31178867",
+      "30572141",
+      "30092845",
+      "30021804",
+      "29930297",
+      "29806091",
+      "29203926",
+      "29051427",
+      "28832497",
+      "28805681",
+      "28234905",
+      "28069291",
+      "27356900",
+      "27207943",
+      "26382853",
+      "25964631",
+      "25822800",
+      "25801432",
+      "25605792",
+      "25521941",
+      "24719229",
+      "24705033",
+      "24189283",
+      "23734776",
+      "23441136",
+      "23108955",
+      "22455463",
+      "21994625",
+      "21705624",
+      "21414208",
+      "20808728",
+      "20805419",
+      "20401516",
+      "19116922",
+      "14597658"
+    ],
+    "similar": [
+      "42216358",
+      "40207215",
+      "41432807",
+      "41316541",
+      "40808946",
+      "35558576",
+      "42154423",
+      "42504115",
+      "38774864",
+      "34335565",
+      "39290707",
+      "40949741",
+      "36059547",
+      "31673979",
+      "41635152",
+      "41261757",
+      "41257878",
+      "40131879",
+      "41196273",
+      "40625749",
+      "40766309",
+      "41246299",
+      "39845969",
+      "40314733",
+      "42177068",
+      "40999523",
+      "34553293",
+      "42108498",
+      "41436831",
+      "41052072",
+      "35817571",
+      "41676113",
+      "36470144",
+      "40281593",
+      "42631563",
+      "40613570",
+      "41340627",
+      "41577004",
+      "40323689",
+      "40739239",
+      "41816342",
+      "42257395",
+      "38783198",
+      "34160465",
+      "33468161",
+      "30836987",
+      "40475761",
+      "33982889",
+      "30871426",
+      "39066603",
+      "41350988",
+      "30237316",
+      "29257335",
+      "23199328",
+      "35757721",
+      "41098736",
+      "40297850",
+      "21602271",
+      "42295138",
+      "42348043",
+      "39081100",
+      "42001335",
+      "31790472",
+      "40704436",
+      "35964416",
+      "22014533",
+      "39596553",
+      "39743791",
+      "41703488",
+      "24391825",
+      "29806703",
+      "36341378",
+      "40328806",
+      "42059276",
+      "41836397",
+      "26612340",
+      "39346628",
+      "36595110",
+      "26225955",
+      "41706425",
+      "37741131",
+      "40406126",
+      "37072752",
+      "33883687",
+      "42500685",
+      "34220794",
+      "26544975",
+      "40442227",
+      "31616519",
+      "38253780",
+      "37465678",
+      "41766874",
+      "34913398",
+      "31432107",
+      "37852297",
+      "40836320",
+      "38018597",
+      "41479901",
+      "37408607",
+      "41627545"
+    ],
+    "review": [
+      "42216358",
+      "42500685"
+    ],
+    "pmc": [
+      "13225601"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lupus.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lupus"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42216358/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1273",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000049016",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

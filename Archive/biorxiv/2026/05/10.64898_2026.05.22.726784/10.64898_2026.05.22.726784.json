@@ -1,0 +1,467 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.22.726784",
+  "title": "Evolutionary constraints improve protein large language model predictions for protein stability, binding regions and epistasis",
+  "doi": "10.64898/2026.05.22.726784",
+  "abstract": "Our understanding of protein function and evolution is largely based on the relationship between amino acid sequence and overall fold, now effectively captured by computational models. Yet predicting how mutations—shaped by epistasis—alter protein behavior, especially in dynamic or structurally ambiguous regions, remains difficult. Here we present D2D, which combines a self-supervised protein language model with protein-specific evolutionary information to predict mutational effects using little to no task-specific labeled data. D2D captures long-range epistatic interactions, accurately predicts single and higher-order mutation effects on protein thermostability and binding, without being trained on the task. When fine-tuned, D2D outperforms state-of-the-art methods on latent driver cancer mutations and co-occurring proliferation-enhancing mutations across independent experimental studies. Unlike most existing approaches, D2D avoids biases linked to solvent accessibility or to multiple sequence alignment depth and quality, making it particularly effective for disordered or surface binding regions where structure-based predictors typically falter. Overall, D2D provides a general framework for modeling mutational effects in proteins with limited experimental or structural information.",
+  "authors": [
+    "Konstantina Tzavella",
+    "Catharina Olsen",
+    "Wim Vranken"
+  ],
+  "published_date": "2026-05-26",
+  "updated_date": "2026-05-26T23:55:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.22.726784",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.22.726784.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T13:04:30Z",
+        "timestamp": 1780578270140,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                26
+              ]
+            ],
+            "date-time": "2026-05-26T00:00:00Z",
+            "timestamp": 1779753600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Our understanding of protein function and evolution is largely based on the relationship between amino acid sequence and overall fold, now effectively captured by computational models. Yet predicting how mutations—shaped by epistasis—alter protein behavior, especially in dynamic or structurally ambiguous regions, remains difficult. Here we present D2D, which combines a self-supervised protein language model with protein-specific evolutionary information to predict mutational effects using little to no task-specific labeled data. D2D captures long-range epistatic interactions, accurately predicts single and higher-order mutation effects on protein thermostability and binding, without being trained on the task. When fine-tuned, D2D outperforms state-of-the-art methods on latent driver cancer mutations and co-occurring proliferation-enhancing mutations across independent experimental studies. Unlike most existing approaches, D2D avoids biases linked to solvent accessibility or to multiple sequence alignment depth and quality, making it particularly effective for disordered or surface binding regions where structure-based predictors typically falter. Overall, D2D provides a general framework for modeling mutational effects in proteins with limited experimental or structural information.</jats:p>",
+      "DOI": "10.64898/2026.05.22.726784",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ],
+        "date-time": "2026-05-26T23:55:14Z",
+        "timestamp": 1779839714000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Evolutionary constraints improve protein large language model predictions for protein stability, binding regions and epistasis"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6628-7567",
+          "authenticated-orcid": false,
+          "given": "Konstantina",
+          "family": "Tzavella",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Medical Physics, Institut Jules Bordet, Hôpital Universitaire de Bruxelles (H.U.B), Université Libre de Bruxelles (ULB), Meylemeersch 90, Brussels, 1070, Belgium"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6193-2296",
+          "authenticated-orcid": false,
+          "given": "Catharina",
+          "family": "Olsen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Interuniversity Institute of Bioinformatics (IB2), ULB-VUB, Brussels, Belgium"
+            },
+            {
+              "name": "Brussels Interuniversity Genomics High Throughput Core (BRIGHTcore), Vrije Universiteit Brussel (VUB), Université Libre de Bruxelles (ULB), Brussels, Belgium"
+            },
+            {
+              "name": "Clinical Sciences, Research Group Reproduction and Genetics, Centre for Medical Genetics, Vrije Universiteit Brussel (VUB), Universitair Ziekenhuis Brussel (UZ Brussel), Laarbeeklaan 101, Brussels, 1090, Belgium"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7470-4324",
+          "authenticated-orcid": false,
+          "given": "Wim",
+          "family": "Vranken",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Interuniversity Institute of Bioinformatics (IB2), ULB-VUB, Brussels, Belgium"
+            },
+            {
+              "name": "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium"
+            },
+            {
+              "name": "Chemistry Department, Vrije Universiteit Brussel, Brussels, Belgium"
+            },
+            {
+              "name": "AI Lab, Vrije Universtiteit Brussel, Pleinlaan 2, Brussels 1050, Belgium"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.1",
+          "unstructured": "Peccati F , Segovia CM , Núñez-Franco R , Jiménez-Osés G. Computation of protein thermostability and epistasis."
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.2",
+          "unstructured": "National Library of Medicine (US), National Institutes of Health. Protein folding and the thermodynamic hypothesis, 1950–1962. Christian B. Anfinsen—Profiles in Science. 2019 Mar 12."
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms21082713"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2022.102380"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.5",
+          "unstructured": "Domingo J , Diss G , Lehner B . Pairwise and higher order genetic interactions during the evolution of a tRNA. Nature."
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.03.020"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.7",
+          "unstructured": "Lipsh-Sokolik R , Fleishman SJ . Addressing epistasis in the design of protein function. Proc Natl Acad Sci U S A."
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11510"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.9",
+          "unstructured": "Miton CM , Tokuriki N . How mutational epistasis impairs predictability in protein evolution and design. Protein Sci."
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.10",
+          "unstructured": "Poon A , Otto SP . Compensating for our load of mutations: freezing the meltdown of small populations. Evolution."
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1985"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06633"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg509"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/0471142905.hg0720s76"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx390"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.07.09.450648"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.17",
+          "first-page": "64331",
+          "article-title": "ProteinGym: large-scale benchmarks for protein fitness prediction and design",
+          "volume": "36",
+          "year": "2023",
+          "journal-title": "Adv Neural Inf Process Syst"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2022.05.001"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1019597",
+          "DOI": "10.3389/fbinf.2022.1019597",
+          "article-title": "SETH predicts nuances of residue disorder from protein embeddings",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Front Bioinform"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.20",
+          "unstructured": "Cui H , Wang C , Maan H , Pang K , Luo F , Duan N , Wang B. scGPT: toward building a foundation model for single-cell multi-omics using generative AI."
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2405840121"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rosen Y , et al. Universal cell embeddings: a foundation model for cell biology. 2023.",
+          "DOI": "10.1101/2023.11.28.568918"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.23",
+          "unstructured": "Zhang Z , Wayment-Steele HK , Brixi G , Wang H , Kern D , Ovchinnikov S . Protein language models learn evolutionary statistics of interacting sequence motifs. Proc Natl Acad Sci U S A."
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tzavella K , Diaz A , Olsen C , Vranken W . Combining evolution and protein language models for an interpretable cancer driver mutation prediction with D2Deep. Brief Bioinform. 2025;26(1).",
+          "DOI": "10.1093/bib/bbae664"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06328-6"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msz179"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw458"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao RM , et al. MSA Transformer. In: Proc 38th Int Conf Mach Learn. 2021:8844–8856.",
+          "DOI": "10.1101/2021.02.12.430858"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.07.09.450648"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01490-7"
+        },
+        {
+          "issue": "1",
+          "key": "2026060405051857000_2026.05.22.726784v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "12",
+          "DOI": "10.1186/s13321-015-0059-5",
+          "article-title": "Improving protein-ligand binding site prediction accuracy by classification of inner pocket points using local features",
+          "volume": "7",
+          "year": "2015",
+          "journal-title": "J Cheminform"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "1204157",
+          "DOI": "10.3389/fmolb.2023.1204157",
+          "article-title": "Understanding structure-guided variant effect predictions using 3D convolutional neural networks",
+          "volume": "10",
+          "year": "2023",
+          "journal-title": "Front Mol Biosci"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac025"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c00591"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1200/JCO.2017.72.7107"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13948"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaw9032"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "202",
+          "DOI": "10.1038/s42003-023-04519-5",
+          "article-title": "Pan-cancer clinical impact of latent drivers from double mutations",
+          "volume": "6",
+          "year": "2023",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07050-7"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.03.020"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06633"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0134638"
+        },
+        {
+          "key": "2026060405051857000_2026.05.22.726784v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3769"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.22.726784",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T12:05:30Z",
+        "timestamp": 1780574730000
+      },
+      "score": 123.254166,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.22.726784"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.64898/2026.05.22.726784",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "36816095",
+    "doi": "10.1109/JTEHM.2023.3241613",
+    "title": "Automated Molecular Subtyping of Breast Carcinoma Using Deep Learning Techniques."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Molecular subtyping is an important procedure for prognosis and targeted therapy of breast carcinoma, the most common type of malignancy affecting women. Immunohistochemistry (IHC) analysis is the widely accepted method for molecular subtyping. It involves the assessment of the four molecular biomarkers namely estrogen receptor (ER), progesterone receptor (PR), human epidermal growth factor receptor 2 (HER2), and antigen Ki67 using appropriate antibody reagents. Conventionally, these biomarkers are assessed manually by a pathologist, who finally combines individual results to identify the molecular subtype. Molecular subtyping necessitates the status of all the four biomarkers together, and to the best of our knowledge, no such automated method exists. This paper proposes a novel deep learning framework for automatic molecular subtyping of breast cancer from IHC images. METHODS AND PROCEDURES: A modified LadderNet architecture is proposed to segment the immunopositive elements from ER, PR, HER2, and Ki67 biomarker slides. This architecture uses long skip connections to pass encoder feature space from different semantic levels to the decoder layers, allowing concurrent learning with multi-scale features. The entire architecture is an ensemble of multiple fully convolutional neural networks, and learning pathways are chosen adaptively based on input data. The segmentation stage is followed by a post-processing stage to quantify the extent of immunopositive elements to predict the final status for each biomarker. RESULTS: The performance of segmentation models for each IHC biomarker is evaluated qualitatively and quantitatively. Furthermore, the biomarker prediction results are also evaluated. The results obtained by our method are highly in concordance with manual assessment by pathologists. CLINICAL IMPACT: Accurate automated molecular subtyping can speed up this pathology procedure, reduce pathologists' workload and associated costs, and facilitate targeted treatment to obtain better outcomes.",
+    "keywords": [
+      "Molecular subtyping",
+      "breast cancer",
+      "deep learning",
+      "image segmentation"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "*Deep Learning",
+      "*Breast Neoplasms/metabolism",
+      "Ki-67 Antigen",
+      "Receptors, Estrogen/metabolism",
+      "Immunohistochemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Niyas, S",
+        "Bygari, Ramya",
+        "Naik, Rachita",
+        "Viswanath, Bhavishya",
+        "Ugwekar, Dhananjay",
+        "Mathew, Tojo",
+        "Kavya, J",
+        "Kini, Jyoti R",
+        "Rajan, Jeny"
+      ],
+      "short_names": [
+        "Niyas S",
+        "Bygari R",
+        "Naik R",
+        "Viswanath B",
+        "Ugwekar D",
+        "Mathew T",
+        "Kavya J",
+        "Kini JR",
+        "Rajan J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7319-7156",
+        "ORCID: 0000-0002-2403-9095",
+        "ORCID: 0000-0002-7687-9184",
+        "ORCID: 0000-0002-3351-9517"
+      ],
+      "affiliations": [
+        "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India.",
+        "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India.",
+        "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India.",
+        "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India.",
+        "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India.",
+        "Department of Computer Science and EngineeringThe National Institute of Engineering Mysuru 570008 India.",
+        "Department of Pathology, Kasturba Medical College, MangaloreManipal Academy of Higher Education Manipal 576104 India.",
+        "Department of Pathology, Kasturba Medical College, MangaloreManipal Academy of Higher Education Manipal 576104 India.",
+        "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Niyas, S",
+        "short_name": "Niyas S",
+        "identifiers": [
+          "0000-0001-7319-7156"
+        ],
+        "affiliations": [
+          "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India."
+        ]
+      },
+      {
+        "full_name": "Bygari, Ramya",
+        "short_name": "Bygari R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India."
+        ]
+      },
+      {
+        "full_name": "Naik, Rachita",
+        "short_name": "Naik R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India."
+        ]
+      },
+      {
+        "full_name": "Viswanath, Bhavishya",
+        "short_name": "Viswanath B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India."
+        ]
+      },
+      {
+        "full_name": "Ugwekar, Dhananjay",
+        "short_name": "Ugwekar D",
+        "identifiers": [
+          "0000-0002-2403-9095"
+        ],
+        "affiliations": [
+          "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India."
+        ]
+      },
+      {
+        "full_name": "Mathew, Tojo",
+        "short_name": "Mathew T",
+        "identifiers": [
+          "0000-0002-7687-9184"
+        ],
+        "affiliations": [
+          "Department of Computer Science and EngineeringThe National Institute of Engineering Mysuru 570008 India."
+        ]
+      },
+      {
+        "full_name": "Kavya, J",
+        "short_name": "Kavya J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Kasturba Medical College, MangaloreManipal Academy of Higher Education Manipal 576104 India."
+        ]
+      },
+      {
+        "full_name": "Kini, Jyoti R",
+        "short_name": "Kini JR",
+        "identifiers": [
+          "0000-0002-3351-9517"
+        ],
+        "affiliations": [
+          "Department of Pathology, Kasturba Medical College, MangaloreManipal Academy of Higher Education Manipal 576104 India."
+        ]
+      },
+      {
+        "full_name": "Rajan, Jeny",
+        "short_name": "Rajan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and EngineeringNational Institute of Technology Karnataka Surathkal 575025 India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of translational engineering in health and medicine"
+    ],
+    "journal_abbrev": [
+      "IEEE J Transl Eng Health Med"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/24 06:00",
+    "fetched_at": "2026-09-28 20:46:54"
+  },
+  "links": {
+    "cites": [
+      "42113320",
+      "40696940",
+      "40133523",
+      "40084355",
+      "39845722",
+      "39237596",
+      "37389595"
+    ],
+    "refs": [
+      "34460463",
+      "33538338",
+      "31994192",
+      "31144302",
+      "31045583",
+      "30158977",
+      "29846104",
+      "29432100",
+      "28778026",
+      "28692962",
+      "28607456",
+      "28331693",
+      "28319275",
+      "28268808",
+      "26875758",
+      "23917950",
+      "23901018",
+      "22296215",
+      "21960707",
+      "21057215",
+      "11823860",
+      "10334533",
+      "9504686"
+    ],
+    "similar": [
+      "36816095",
+      "38412576",
+      "31163391",
+      "35789315",
+      "31348505",
+      "32803890",
+      "22965266",
+      "28193205",
+      "31398111",
+      "20529811",
+      "37746948",
+      "27349894",
+      "30337080",
+      "32445323",
+      "37669090",
+      "33585986",
+      "27220750",
+      "31640622",
+      "25600243",
+      "23035882",
+      "31267199",
+      "35006257",
+      "30120700",
+      "30659433",
+      "24591826",
+      "28187885",
+      "33879115",
+      "29409530",
+      "31628534",
+      "18947395",
+      "21865043",
+      "29444670",
+      "32471471",
+      "30230095",
+      "28825136",
+      "32350370",
+      "30694768",
+      "26711328",
+      "32758491",
+      "31883437",
+      "23240985",
+      "27619909",
+      "28404972",
+      "29304138",
+      "23756626",
+      "34371382",
+      "29981025",
+      "22056953",
+      "22949935",
+      "19669409",
+      "26768030",
+      "21244664",
+      "27315045",
+      "32334465",
+      "20837693",
+      "29164972",
+      "32682413",
+      "23701403",
+      "27743431",
+      "27666130",
+      "25556461",
+      "25234844",
+      "24558165",
+      "35733293",
+      "36772592",
+      "28319275",
+      "24290943",
+      "30778520",
+      "17259294",
+      "33667252",
+      "27472239",
+      "31846096",
+      "35728576",
+      "32046756",
+      "33485058",
+      "28805805",
+      "31307414",
+      "28607456",
+      "30302589",
+      "26823864",
+      "36224558",
+      "31983107",
+      "26829108",
+      "32592349",
+      "23645542",
+      "25674240",
+      "25678586",
+      "26413911",
+      "27889196",
+      "24261318",
+      "23957561",
+      "23205744",
+      "27377889",
+      "22290394",
+      "25174527",
+      "24794952",
+      "38201594",
+      "39320560",
+      "37926662",
+      "38337757",
+      "37730567",
+      "37434799",
+      "36673073",
+      "37835848",
+      "37190690",
+      "39045139",
+      "38083181",
+      "34845230",
+      "38241120",
+      "36593782",
+      "38082577",
+      "23766935",
+      "39095659",
+      "36118303",
+      "34359723",
+      "34460739",
+      "37063308",
+      "34441338",
+      "38911837"
+    ],
+    "review": [
+      "36816095",
+      "23756626",
+      "26768030",
+      "35728576",
+      "27889196"
+    ],
+    "pmc": [
+      "9924555"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36816095/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36816095",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/JTEHM.2023.3241613",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

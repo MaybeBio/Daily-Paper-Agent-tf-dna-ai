@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40019680",
+  "title": "IL-1beta and associated molecules as prognostic biomarkers linked with immune cell infiltration in colorectal cancer: an integrated statistical and machine learning approach.",
+  "authors": "Sahoo, Karishma; Sundararajan, Vino",
+  "journal": "Discover oncology",
+  "published_date": "2025-02-28",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用统计和机器学习方法筛选结直肠癌甲基化差异表达基因及预后标志物，虽涉及转录因子调控网络，但核心是肿瘤生物标志物与免疫浸润，非蛋白质-DNA互作建模，方法为常规ML分类，与本课题关联弱。",
+  "abstract": "PURPOSE: Colorectal cancer (CRC) is the third most common cancer globally, necessitating novel biomarkers for early diagnosis and treatment. This study proposes an efficient pipeline leveraging an integrated bioinformatics and machine learning framework to enhance the identification of diagnostic and prognostic biomarkers for CRC. METHODS: A selection of methylated differentially expressed genes (MeDEGs) and features (genes) was made using both statistical and Machine learning (ML) approaches from publically available datasets. These genes were subjected to STRING network construction and hub genes estimation, separately. Also, essential miRNAs (micro-RNAs) and TFs (Transcription factors) as regulatory elements were revealed and findings were validated through scRNA-seq analysis, promoter methylation, gene expression levels correlated with pathological stage, and interaction with tumor-infiltrating immune cells. RESULTS: Through an integrated analysis pipeline, we identified 27 hub genes, among which CTNNB1, GSK3B, IL-1beta, MYC, PXDN, TP53, EGFR, SRC, COL1A1, and TGBF1 showed better diagnostic behaviour. Machine learning approach includes the development of K-Nearest Neighbors (KNN), Artificial Neural Networks (ANN), and Random Forest (RF) models using TCGA datasets, achieving an accuracy range between 99 and 100%. The Area Under the Curve (AUC) value for each model is 1.00, signifying good classification performance. The high expression of some diagnostic genes was associated with poor prognosis, concluding IL-1beta as both a prognostic and diagnostic biomarker. Additionally, the NF-kappaB and microRNAs (miR-548d-3p, miR-548-ac) and TFs (NFkappaB and STAT5A) play a major role in the comprehensive regulatory network for CRC. Furthermore, hub genes such as IL-1beta, TGFB1, and COL1A1 were significantly correlated with immune infiltrates, suggesting their potential role in CRC progression. CONCLUSION: Overall, the elevated expression of IL-1beta coupled with abnormal DNA methylation, and its consequent effect on the PI3K/Akt signaling pathway are relevant prognostic and therapeutic marker in CRC. Additional molecular candidates reveal insights into the epigenetic regulatory targets of CRC and their association with immune cell infiltration.",
+  "abstract_zh": "目的：结直肠癌（CRC）是全球第三大常见癌症，亟需新的生物标志物用于早期诊断和治疗。本研究提出了一种高效流程，利用整合的生物信息学和机器学习框架，以增强CRC诊断和预后生物标志物的识别。方法：从公开数据集中，采用统计学和机器学习（ML）方法筛选甲基化差异表达基因（MeDEGs）及特征（基因）。这些基因分别用于STRING网络构建和枢纽基因评估。同时，揭示了作为调控元件的重要miRNA（微小RNA）和TF（转录因子），并通过scRNA-seq分析、启动子甲基化、与病理分期相关的基因表达水平以及与肿瘤浸润免疫细胞的相互作用验证了发现。结果：通过整合分析流程，我们识别出27个枢纽基因，其中CTNNB1、GSK3B、IL-1beta、MYC、PXDN、TP53、EGFR、SRC、COL1A1和TGBF1表现出更好的诊断性能。机器学习方法包括使用TCGA数据集开发K近邻（KNN）、人工神经网络（ANN）和随机森林（RF）模型，准确率范围在99%至100%之间。每个模型的曲线下面积（AUC）值为1.00，表明分类性能良好。某些诊断基因的高表达与不良预后相关，结论认为IL-1beta既是预后也是诊断生物标志物。此外，NF-kappaB、microRNAs（miR-548d-3p、miR-548-ac）和TFs（NFkappaB和STAT5A）在CRC的综合调控网络中发挥重要作用。进一步，枢纽基因如IL-1beta、TGFB1和COL1A1与免疫浸润显著相关，提示其在CRC进展中的潜在作用。结论：总体而言，IL-1beta的高表达结合异常DNA甲基化及其对PI3K/Akt信号通路的后续影响，是CRC中相关的预后和治疗标志物。其他分子候选物揭示了CRC的表观遗传调控靶点及其与免疫细胞浸润的关联。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40019680/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40019680/",
+  "paper_page_path": "papers/pubmed/40019680/index.html"
+}

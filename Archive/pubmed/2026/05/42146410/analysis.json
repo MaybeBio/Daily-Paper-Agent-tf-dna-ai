@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42146410",
+  "title": "PEPR-GNN: Perturbation-Enhancer-Promoter-RNA Graph Neural Networks for Multiome Perturb-Seq modeling of regulomes.",
+  "authors": "Markham, Zachary; Li, Boxun; Nguyen, Landon; Wang, Lei; Munshi, Nikhil V; Hon, Gary C",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-18",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图神经网络建模扰动-增强子-启动子-基因调控关系，虽涉及染色质与基因表达，但非直接聚焦TF-DNA结合位点或互作机制，方法可迁移至TF-DNA研究。",
+  "abstract": "Cellular reprogramming is a complex interplay between perturbations and regulatory elements, culminating in gene expression changes. Current computational approaches do not explicitly model these regulatory interactions. Here, we performed combinatorial reprogramming with cardiac transcription factors, followed by Multiome Perturb-Seq to measure perturbations, open chromatin, and gene expression in individual cells. We then developed PEPR-GNN (Perturbation-Enhancer-Promoter-RNA Graph Neural Network), a theoretical and computational framework to model regulome responses during complex genetic perturbations. By statistically associating gene regulatory relationships, PEPR-GNN organizes genes into regulomes with shared gene regulatory responses to reprogramming, including easy-to-reprogram cardiac genes, difficult-to-reprogram fibroblast genes, and context-specific genes where the impact of a reprogramming factor depends on the presence of others. Finally, we use PEPR-GNN for in silico modeling of how genetic modifications of enhancers can be used to tune gene responses to reprogramming. Overall, through the use of causal perturbation information and an enhancer-aware regulome model of gene regulation, PEPR-GNN can effectively model complex cellular responses to perturbation. HIGHLIGHTS: Multiome Perturb-Seq of GHMT reprogramming in MEFs with RNA/ATAC-Seq readout.PEPR-GNN: a computational framework to model perturbation-induced regulomes.PEPR-GNN aids the interpretation of regulomes by diverse reprogramming responses.PEPR-GNN enables in silico perturbation to tune gene responses to reprogramming.",
+  "abstract_zh": "细胞重编程是扰动与调控元件之间复杂的相互作用，最终导致基因表达变化。当前的计算方法并未明确建模这些调控相互作用。在此，我们使用心脏转录因子进行组合重编程，随后通过Multiome Perturb-Seq测量单个细胞中的扰动、开放染色质和基因表达。然后，我们开发了PEPR-GNN（扰动-增强子-启动子-RNA图神经网络），这是一个理论和计算框架，用于建模复杂遗传扰动期间的调控组响应。通过统计关联基因调控关系，PEPR-GNN将基因组织成具有对重编程共享基因调控响应的调控组，包括易重编程的心脏基因、难重编程的成纤维细胞基因，以及上下文特异性基因，其中重编程因子的影响取决于其他因子的存在。最后，我们使用PEPR-GNN进行计算机模拟，建模增强子的遗传修饰如何用于调节基因对重编程的响应。总体而言，通过利用因果扰动信息和增强子感知的基因调控调控组模型，PEPR-GNN能有效建模细胞对扰动的复杂响应。亮点：MEFs中GHMT重编程的Multiome Perturb-Seq，具有RNA/ATAC-Seq读数。PEPR-GNN：一个计算框架，用于建模扰动诱导的调控组。PEPR-GNN通过多样化的重编程响应辅助调控组的解释。PEPR-GNN支持计算机模拟扰动，以调节基因对重编程的响应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42146410/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42146410/",
+  "paper_page_path": "papers/pubmed/42146410/index.html"
+}

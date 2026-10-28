@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "36084151",
+    "doi": "10.1371/journal.pcbi.1010441",
+    "title": "Utility of constraints reflecting system stability on analyses for biological models."
+  },
+  "content": {
+    "abstract": "Simulating complex biological models consisting of multiple ordinary differential equations can aid in the prediction of the pharmacological/biological responses; however, they are often hampered by the availability of reliable kinetic parameters. In the present study, we aimed to discover the properties of behaviors without determining an optimal combination of kinetic parameter values (parameter set). The key idea was to collect as many parameter sets as possible. Given that many systems are biologically stable and resilient (BSR), we focused on the dynamics around the steady state and formulated objective functions for BSR by partial linear approximation of the focused region. Using the objective functions and modified global cluster Newton method, we developed an algorithm for a thorough exploration of the allowable parameter space for biological systems (TEAPS). We first applied TEAPS to the NF-kappaB signaling model. This system shows a damped oscillation after stimulation and seems to fit the BSR constraint. By applying TEAPS, we found several directions in parameter space which stringently determines the BSR property. In such directions, the experimentally fitted parameter values were included in the range of the obtained parameter sets. The arachidonic acid metabolic pathway model was used as a model related to pharmacological responses. The pharmacological effects of nonsteroidal anti-inflammatory drugs were simulated using the parameter sets obtained by TEAPS. The structural properties of the system were partly extracted by analyzing the distribution of the obtained parameter sets. In addition, the simulations showed inter-drug differences in prostacyclin to thromboxane A2 ratio such that aspirin treatment tends to increase the ratio, while rofecoxib treatment tends to decrease it. These trends are comparable to the clinical observations. These results on real biological models suggest that the parameter sets satisfying the BSR condition can help in finding biologically plausible parameter sets and understanding the properties of biological systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Anti-Inflammatory Agents",
+      "Arachidonic Acid",
+      "Aspirin/pharmacology",
+      "Models, Biological",
+      "*NF-kappa B",
+      "Prostaglandins I",
+      "*Thromboxane A2"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kariya, Yoshiaki",
+        "Honma, Masashi",
+        "Tokuda, Keita",
+        "Konagaya, Akihiko",
+        "Suzuki, Hiroshi"
+      ],
+      "short_names": [
+        "Kariya Y",
+        "Honma M",
+        "Tokuda K",
+        "Konagaya A",
+        "Suzuki H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8227-2605",
+        "ORCID: 0000-0001-8481-763X",
+        "ORCID: 0000-0002-0275-5541",
+        "ORCID: 0000-0001-6846-7449",
+        "ORCID: 0000-0002-9730-3133"
+      ],
+      "affiliations": [
+        "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Bunkyo-ku, Tokyo, Japan.",
+        "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Bunkyo-ku, Tokyo, Japan.",
+        "Department of Computer Science, University of Tsukuba, Tsukuba, Ibaraki, Japan.",
+        "Molecular Robotics Research Institute, Limited, Kyowa Create Dai-ichi, Minato-ku, Tokyo, Japan.",
+        "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Bunkyo-ku, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kariya, Yoshiaki",
+        "short_name": "Kariya Y",
+        "identifiers": [
+          "0000-0001-8227-2605"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Bunkyo-ku, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Honma, Masashi",
+        "short_name": "Honma M",
+        "identifiers": [
+          "0000-0001-8481-763X"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Bunkyo-ku, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Tokuda, Keita",
+        "short_name": "Tokuda K",
+        "identifiers": [
+          "0000-0002-0275-5541"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Tsukuba, Tsukuba, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Konagaya, Akihiko",
+        "short_name": "Konagaya A",
+        "identifiers": [
+          "0000-0001-6846-7449"
+        ],
+        "affiliations": [
+          "Molecular Robotics Research Institute, Limited, Kyowa Create Dai-ichi, Minato-ku, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Hiroshi",
+        "short_name": "Suzuki H",
+        "identifiers": [
+          "0000-0002-9730-3133"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Bunkyo-ku, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/10 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32795746",
+      "31291087",
+      "31137887",
+      "30753191",
+      "30715618",
+      "30386832",
+      "28951204",
+      "28376924",
+      "28284990",
+      "28166222",
+      "27317864",
+      "27136057",
+      "26367460",
+      "25518937",
+      "24958104",
+      "24555857",
+      "24338442",
+      "24160467",
+      "21464505",
+      "21075211",
+      "20664065",
+      "19884095",
+      "19883397",
+      "18985027",
+      "18601945",
+      "18478531",
+      "18463616",
+      "17480229",
+      "17381237",
+      "16007170",
+      "15951464",
+      "15897462",
+      "15582059",
+      "15520792",
+      "15094015",
+      "12415116",
+      "12388327",
+      "11752357",
+      "11706989",
+      "10578123",
+      "10514507",
+      "6995544",
+      "6852020"
+    ],
+    "similar": [
+      "36084151",
+      "20840736",
+      "23434837",
+      "1874525",
+      "18276980",
+      "7015418",
+      "3093845",
+      "22609467",
+      "23809412",
+      "3093846",
+      "15992411",
+      "389758",
+      "6258879",
+      "32697608",
+      "1891022",
+      "28951204",
+      "3934501",
+      "6771102",
+      "6820165",
+      "30053887",
+      "17666754",
+      "25199662",
+      "30793200",
+      "28045483",
+      "27243005",
+      "20377448",
+      "369028",
+      "17612044",
+      "10593167",
+      "7002350",
+      "29322928",
+      "33484117",
+      "6432000",
+      "19432964",
+      "3322532",
+      "6384329",
+      "30496749",
+      "26269925",
+      "19154083",
+      "8504628",
+      "3110025",
+      "30365946",
+      "11054082",
+      "17224043",
+      "29197394",
+      "2409392",
+      "23047554",
+      "20632775",
+      "17971866",
+      "24714701",
+      "3595474",
+      "37074573",
+      "7038777",
+      "29914475",
+      "17706176",
+      "2871754",
+      "22574924",
+      "17216045",
+      "24877847",
+      "30076370",
+      "6370554",
+      "6409486",
+      "6804992",
+      "6408056",
+      "1415390",
+      "18366722",
+      "23912807",
+      "21038890",
+      "29291750",
+      "6114012",
+      "3322248",
+      "12044803",
+      "16483359",
+      "21801369",
+      "7034481",
+      "6112387",
+      "30377765",
+      "24658784",
+      "20232992",
+      "26357044",
+      "24555857",
+      "3118663",
+      "3332095",
+      "22784628",
+      "19426527",
+      "20969803",
+      "20049545",
+      "23360254",
+      "31940344",
+      "32750883",
+      "2244178",
+      "19416537",
+      "6760444",
+      "18854041"
+    ],
+    "review": [
+      "36084151",
+      "18276980",
+      "3934501",
+      "6771102",
+      "17612044",
+      "7002350",
+      "33484117",
+      "2409392",
+      "3332095"
+    ],
+    "pmc": [
+      "9491612"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010441",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36084151/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36084151",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "42140663",
+    "doi": "10.1101/gr.281425.125",
+    "title": "Deep learning the TF regulatory code for gene expression."
+  },
+  "content": {
+    "abstract": "Gene transcription is activated through the interaction between cis-regulatory elements (CREs) and transcription factors (TFs). CREs serve as templates to provide binding sites, whereas TFs provide functions to directly initiate transcription. Current research mainly focuses on deciphering cis-regulatory code, while neglecting TF regulatory code. However, CREs alone are not sufficient to determine the binding of TFs, which makes the interpretation of cis-regulatory code ambiguous. In this study, we systematically analyze 13 TF binding profiles associated with transcription initiation and encode them as TF sequence to explore the TF regulatory code. Furthermore, we propose a deep learning model named DeepTF to predict gene expression from TF sequence. Results show that TF binding exhibits conserved positional preferences and combinatorial patterns in promoters and DeepTF is able to predict gene expression with high accuracy (AUROC = 0.97). Meanwhile, cross-cell-line validation (AUROC > 0.90) further confirms the model's transferability. Model interpretation reveals DeepTF successfully captures the TF regulatory grammar associated with gene expression. Compared with the cis-regulatory code, our proposed TF regulatory code is better suited for investigating the relationship between TF binding positions or combinatorial patterns and gene expression. Collectively, DeepTF simplifies gene expression prediction and provides clear biological insights of transcriptional regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "*Deep Learning",
+      "Binding Sites",
+      "*Gene Expression Regulation",
+      "Promoter Regions, Genetic",
+      "Humans",
+      "*Regulatory Elements, Transcriptional"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yuanyuan",
+        "Huang, Xiaohui",
+        "Qi, Yixuan",
+        "Zhang, Zheng",
+        "Ding, Hui",
+        "Zou, Quan",
+        "Liu, Li"
+      ],
+      "short_names": [
+        "Li Y",
+        "Huang X",
+        "Qi Y",
+        "Zhang Z",
+        "Ding H",
+        "Zou Q",
+        "Liu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6406-1142",
+        "ORCID: 0000-0003-0535-4361"
+      ],
+      "affiliations": [
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China.",
+        "College of Computer Science and Technology, Xinjiang University, Urumqi 830017, China.",
+        "College of Computer Science and Technology, Xinjiang University, Urumqi 830017, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China.",
+        "School of Life Science and Technology and Center for Informational Biology, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+        "Computer Science and Information Systems, Murray State University, Murray, Kentucky 42071, USA.",
+        "School of Life Science and Technology and Center for Informational Biology, University of Electronic Science and Technology of China, Chengdu 610054, China; hding@uestc.edu.cn zouquan@nclab.net liliu2010imu@163.com.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China; hding@uestc.edu.cn zouquan@nclab.net liliu2010imu@163.com.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China; hding@uestc.edu.cn zouquan@nclab.net liliu2010imu@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yuanyuan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China.",
+          "College of Computer Science and Technology, Xinjiang University, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaohui",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Technology, Xinjiang University, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yixuan",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China.",
+          "School of Life Science and Technology and Center for Informational Biology, University of Electronic Science and Technology of China, Chengdu 610054, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zheng",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Information Systems, Murray State University, Murray, Kentucky 42071, USA."
+        ]
+      },
+      {
+        "full_name": "Ding, Hui",
+        "short_name": "Ding H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology and Center for Informational Biology, University of Electronic Science and Technology of China, Chengdu 610054, China; hding@uestc.edu.cn zouquan@nclab.net liliu2010imu@163.com."
+        ]
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [
+          "0000-0001-6406-1142"
+        ],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China; hding@uestc.edu.cn zouquan@nclab.net liliu2010imu@163.com.",
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu 610054, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0003-0535-4361"
+        ],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China; hding@uestc.edu.cn zouquan@nclab.net liliu2010imu@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2026 Jun 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/16 00:37",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42140663",
+      "30709337",
+      "34864886",
+      "32043966",
+      "42099803",
+      "27871221",
+      "22369687",
+      "25442502",
+      "37852782",
+      "38940155",
+      "22084256",
+      "39481376",
+      "40205063",
+      "41861881",
+      "29363433",
+      "16232312",
+      "32770026",
+      "34292930",
+      "41429964",
+      "37950299",
+      "18586698",
+      "24603674",
+      "39020164",
+      "28041762",
+      "24477691",
+      "41801512",
+      "42475469",
+      "36749045",
+      "29105538",
+      "20363979",
+      "33137083",
+      "41278993",
+      "19772633",
+      "23272209",
+      "16817975",
+      "37214836",
+      "41639451",
+      "41733210",
+      "40808255",
+      "22456606",
+      "31855461",
+      "27965290",
+      "23209563",
+      "37805453",
+      "15287978",
+      "26476450",
+      "33104784",
+      "39462454",
+      "41545085",
+      "24366875",
+      "34650237",
+      "36057196",
+      "31372637",
+      "12054769",
+      "23184988",
+      "28373393",
+      "29378780",
+      "27058369",
+      "19956545",
+      "30578913",
+      "22849367",
+      "30142147",
+      "28576882",
+      "41237776",
+      "33964211",
+      "31053165",
+      "17910772",
+      "33124660",
+      "26327607",
+      "27866169",
+      "22300769",
+      "28204599",
+      "22534400",
+      "29987030",
+      "22189060",
+      "10082539",
+      "32054475",
+      "16873495",
+      "40020686",
+      "31340985",
+      "31181110",
+      "41782896",
+      "18426580",
+      "27576892",
+      "32858223",
+      "35293310",
+      "31792407",
+      "36566628",
+      "28750606",
+      "38715516",
+      "22106333",
+      "41920894",
+      "39127768",
+      "19910494",
+      "23822978",
+      "39588827",
+      "33372147",
+      "22955983",
+      "22781127",
+      "39227799"
+    ],
+    "review": [
+      "42140663",
+      "41429964",
+      "29105538",
+      "41733210",
+      "36057196",
+      "29378780"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "42250649",
+    "doi": "10.1016/j.jbc.2026.113224",
+    "title": "Ginkgolide A enhances cardiomyocyte differentiation from pluripotent stem cells by targeting cytochrome c to attenuate intrinsic apoptosis."
+  },
+  "content": {
+    "abstract": "Efficient differentiation of pluripotent stem cells (PSCs) into functional cells is critical for regenerative medicine and biomanufacturing, yet is often hampered by apoptosis. Ginkgolide A (GA) is a diterpene lactone derived from Ginkgo biloba leaves and a member of the ginkgolide family, compounds known for diverse biological activities including neuroprotection and cardiovascular regulation. However, the mechanism by which ginkgolides influence the directed differentiation of stem cells remains unclear. Here, using a CRISPR-Cas9-engineered TNNT2-mCherry reporter PSC line and a defined cardiac differentiation protocol, we screened ginkgolides for their effects on cardiomyocyte (CM) production. Results demonstrated that GA significantly enhanced CM induction efficiency and accelerated the onset of spontaneous beating. Concurrently, GA effectively inhibited apoptosis during differentiation and RNA-Seq results also revealed that GA orchestrates stage-specific upregulation of antiapoptotic genes (e.g., MCL1 and XIAP) and core cardiogenic transcription factors (NKX2-5 and GATA4). Molecular docking predictions suggested a high binding potential between GA and cytochrome c, suggesting GA might inhibit the intrinsic mitochondrial apoptosis cascade by interfering with cytochrome c's binding to apoptotic peptidase activating factor-1 (APAF-1). These data demonstrate that GA enhances the differentiation of PSCs into CMs, potentially through its antiapoptotic effect. This mechanism highlights its potential as a safe culture additive to boost cell survival and yield for large-scale biomanufacturing and tissue engineering applications.",
+    "keywords": [
+      "apoptosis",
+      "cardiomyocytes",
+      "cell manufacturing",
+      "ginkgolide A",
+      "natural product",
+      "pluripotent stem cells"
+    ],
+    "mesh_terms": [
+      "*Ginkgolides/pharmacology/chemistry",
+      "*Apoptosis/drug effects",
+      "*Myocytes, Cardiac/drug effects/cytology/metabolism",
+      "*Cell Differentiation/drug effects",
+      "*Lactones/pharmacology/chemistry",
+      "*Pluripotent Stem Cells/drug effects/cytology/metabolism",
+      "Animals",
+      "*Cytochromes c/metabolism/antagonists & inhibitors",
+      "Humans",
+      "Mice",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Wenjie",
+        "Wu, Xiaolong",
+        "Lei, Zuo",
+        "Dang, Xiaoyu",
+        "Shi, Hongzhao",
+        "Li, Jiannan",
+        "Yuan, Liming",
+        "Zhao, Yaya",
+        "Li, Wenhao",
+        "Chen, Jing",
+        "Li, Na",
+        "Hua, Jinlian"
+      ],
+      "short_names": [
+        "Xu W",
+        "Wu X",
+        "Lei Z",
+        "Dang X",
+        "Shi H",
+        "Li J",
+        "Yuan L",
+        "Zhao Y",
+        "Li W",
+        "Chen J",
+        "Li N",
+        "Hua J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "Shaanxi Stem Cell Application Engineering Research Center, Shaanxi Jiuzhou Biomedical Science and Technology Group, Xi'an, Shaanxi, China.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China. Electronic address: lina2017@nwafu.edu.cn.",
+        "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China. Electronic address: jinlianhua@nwsuaf.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Wenjie",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaolong",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Zuo",
+        "short_name": "Lei Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Dang, Xiaoyu",
+        "short_name": "Dang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Hongzhao",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiannan",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Liming",
+        "short_name": "Yuan L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yaya",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenhao",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Shaanxi Stem Cell Application Engineering Research Center, Shaanxi Jiuzhou Biomedical Science and Technology Group, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Na",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China. Electronic address: lina2017@nwafu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hua, Jinlian",
+        "short_name": "Hua J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Shaanxi Centre of Stem Cells Engineering and Technology, Northwest A&F University, Yangling, Shaanxi, China. Electronic address: jinlianhua@nwsuaf.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/07 00:34",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41505557",
+      "40829311",
+      "40369078",
+      "40349775",
+      "39933190",
+      "39894554",
+      "39438476",
+      "39077021",
+      "38718835",
+      "38686803",
+      "38521844",
+      "38453465",
+      "38334430",
+      "38304806",
+      "38097188",
+      "37967007",
+      "37939655",
+      "37285197",
+      "37159667",
+      "36857094",
+      "36411664",
+      "36393852",
+      "36208846",
+      "35488063",
+      "35395186",
+      "35320695",
+      "35182864",
+      "34764248",
+      "34755840",
+      "34278794",
+      "34175393",
+      "34108448",
+      "34086934",
+      "33838291",
+      "33785842",
+      "33757124",
+      "33455530",
+      "33340010",
+      "33254431",
+      "33143256",
+      "32709690",
+      "31564645",
+      "30541279",
+      "30451828",
+      "30071391",
+      "29787772",
+      "29441927",
+      "29404207",
+      "29099482",
+      "29054095",
+      "28817124",
+      "28777944",
+      "28757572",
+      "28472422",
+      "28007475",
+      "27187084",
+      "27186946",
+      "27182682",
+      "26439715",
+      "26125590",
+      "24930130",
+      "24327346",
+      "23521171",
+      "22711842",
+      "22700047",
+      "22120026",
+      "21919503",
+      "21494607",
+      "20430828",
+      "17273173",
+      "17012008",
+      "16723650",
+      "12076171",
+      "11035811",
+      "8182748"
+    ],
+    "similar": [
+      "42250649",
+      "28971953",
+      "18625890",
+      "32377729",
+      "28089668",
+      "25355733",
+      "24778452",
+      "29019149",
+      "32295500",
+      "22143566",
+      "29066419",
+      "26511653",
+      "27790820",
+      "26021268",
+      "24141057",
+      "24627421",
+      "24200714",
+      "31087611",
+      "26439715",
+      "26682938",
+      "29335067",
+      "29173897",
+      "29175323",
+      "16877372",
+      "28591721",
+      "22912385",
+      "23157212",
+      "30744497",
+      "15304656",
+      "27265266",
+      "37762684",
+      "33599158",
+      "24610529",
+      "28671202",
+      "25626427",
+      "25836579",
+      "22843416",
+      "30798515",
+      "31518384",
+      "28063225",
+      "25887229",
+      "42121887",
+      "39932462",
+      "23884641",
+      "42045130",
+      "14871063",
+      "33452355",
+      "30927511",
+      "24225258",
+      "34488017",
+      "23995537",
+      "34120677",
+      "33450290",
+      "24647085",
+      "18625891",
+      "32863954",
+      "30071126",
+      "19590195",
+      "31739841",
+      "40045408",
+      "22083019",
+      "27465073",
+      "29579079",
+      "23056209",
+      "42345093",
+      "30215789",
+      "27562518",
+      "16626507",
+      "33504837",
+      "23022397",
+      "28224719",
+      "32693734",
+      "38781077",
+      "36932920",
+      "41106300",
+      "32127042",
+      "39380045",
+      "24036272",
+      "39195229",
+      "33736688",
+      "25528965",
+      "25523811",
+      "28962583",
+      "25736507",
+      "24755221",
+      "25223792",
+      "34449318",
+      "21494607",
+      "25900017",
+      "27025693",
+      "29513687",
+      "25654620",
+      "33677255",
+      "12934072",
+      "26683871",
+      "21906802",
+      "26148474",
+      "27182682",
+      "31749426",
+      "23119085"
+    ],
+    "review": [
+      "42250649",
+      "26682938",
+      "27265266"
+    ],
+    "pmc": [
+      "13330671"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(26)02096-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42250649/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNNT2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3675",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

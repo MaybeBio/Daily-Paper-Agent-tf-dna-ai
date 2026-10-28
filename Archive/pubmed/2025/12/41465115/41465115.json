@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "41465115",
+    "doi": "10.3390/genes16121439",
+    "title": "What Do Single-Cell Models Already Know About Perturbations?"
+  },
+  "content": {
+    "abstract": "Background: Virtual cells are embedded in widely used single-cell generative models. Nonetheless, the models' implicit knowledge of perturbations remains unclear. Methods: We train variational autoencoders on three gene expression datasets spanning genetic, chemical, and temporal perturbations, and infer perturbations by differentiating decoder outputs with respect to latent variables. This yields vector fields of infinitesimal change in gene expression. Furthermore, we probe a publicly released scVI decoder trained on the CELLxGENE Discover Census ( approximately 5.7 M mouse cells) and score genes by the alignment between local gradients and an empirical healthy-to-disease axis, followed by a novel large language model-based evaluation of pathways. Results: Gradient flows recover known transitions in Irf8 knockout microglia, cardiotoxin-treated muscle, and worm embryogenesis. In the pretrained Census model, gradients help identify pathways with stronger statistical support and higher type 2 diabetes relevance than an average expression baseline. Conclusions: Trained single-cell decoders already contain rich perturbation-relevant information that can be accessed by automatic differentiation, enabling in-silico perturbation simulations and principled ranking of genes along observed disease or treatment axes without bespoke architectures or perturbation labels.",
+    "keywords": [
+      "agentic AI",
+      "explainable AI",
+      "gene expression",
+      "generative models",
+      "in silico perturbations",
+      "machine learning",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Single-Cell Analysis/methods",
+      "Mice",
+      "Diabetes Mellitus, Type 2/genetics",
+      "Humans",
+      "Interferon Regulatory Factors/genetics",
+      "Gene Expression Profiling",
+      "Interferon Regulatory Factor-8"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bjerregaard, Andreas",
+        "Prada-Luengo, Inigo",
+        "Das, Vivek",
+        "Krogh, Anders"
+      ],
+      "short_names": [
+        "Bjerregaard A",
+        "Prada-Luengo I",
+        "Das V",
+        "Krogh A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2742-6178",
+        "ORCID: 0000-0002-4392-0726",
+        "ORCID: 0000-0003-0614-0373",
+        "ORCID: 0000-0002-5147-6282"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Center for Health Data Science, Department of Public Health, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Center for Health Data Science, Department of Public Health, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital, 2100 Copenhagen, Denmark.",
+        "Integrated Omics, AI and Analytics, Development, Novo Nordisk A/S, 2860 Soborg, Denmark.",
+        "Department of Computer Science, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Center for Health Data Science, Department of Public Health, University of Copenhagen, 2100 Copenhagen, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bjerregaard, Andreas",
+        "short_name": "Bjerregaard A",
+        "identifiers": [
+          "0000-0003-2742-6178"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Copenhagen, 2100 Copenhagen, Denmark.",
+          "Center for Health Data Science, Department of Public Health, University of Copenhagen, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Prada-Luengo, Iñigo",
+        "short_name": "Prada-Luengo I",
+        "identifiers": [
+          "0000-0002-4392-0726"
+        ],
+        "affiliations": [
+          "Center for Health Data Science, Department of Public Health, University of Copenhagen, 2100 Copenhagen, Denmark.",
+          "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Das, Vivek",
+        "short_name": "Das V",
+        "identifiers": [
+          "0000-0003-0614-0373"
+        ],
+        "affiliations": [
+          "Integrated Omics, AI and Analytics, Development, Novo Nordisk A/S, 2860 Søborg, Denmark."
+        ]
+      },
+      {
+        "full_name": "Krogh, Anders",
+        "short_name": "Krogh A",
+        "identifiers": [
+          "0000-0002-5147-6282"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Copenhagen, 2100 Copenhagen, Denmark.",
+          "Center for Health Data Science, Department of Public Health, University of Copenhagen, 2100 Copenhagen, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2025 Dec 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/30 07:41",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40921843",
+      "39843746",
+      "39607691",
+      "38808672",
+      "38625746",
+      "37941138",
+      "37770709",
+      "37572301",
+      "36755098",
+      "35029658",
+      "33381839",
+      "32975352",
+      "32415966",
+      "31488706",
+      "31363220",
+      "31061494",
+      "30504886",
+      "22424227",
+      "22214853",
+      "21176179",
+      "17881408"
+    ],
+    "similar": [
+      "41465115",
+      "41452988",
+      "39303095",
+      "31363220",
+      "40662824",
+      "34584103",
+      "40187352",
+      "37602218",
+      "40921843",
+      "33491336",
+      "41052214",
+      "38625746",
+      "39230694",
+      "40178283",
+      "41000745",
+      "40650899",
+      "27580035",
+      "37246643",
+      "37572301",
+      "24586125",
+      "39896674",
+      "41256563",
+      "34379515",
+      "41257571",
+      "39677694",
+      "39486785",
+      "38409223",
+      "39313544",
+      "30598071",
+      "39454576",
+      "40119479",
+      "39570626",
+      "40577680",
+      "40456297",
+      "40997798",
+      "34991467",
+      "40494892",
+      "40251476",
+      "39607691",
+      "39075536",
+      "30963076",
+      "40887856",
+      "41465404",
+      "37154091",
+      "38721585",
+      "40106407",
+      "37192164",
+      "41152557",
+      "41197632",
+      "38940153",
+      "38716195",
+      "39226366",
+      "37326971",
+      "38011649",
+      "27667665",
+      "35203433",
+      "36232566",
+      "23020843",
+      "41288963",
+      "16380510",
+      "38388681",
+      "40918148",
+      "20573402",
+      "41046682",
+      "39926598",
+      "39877357",
+      "41033661",
+      "33931726",
+      "31985403",
+      "30504886",
+      "40164735",
+      "39823522",
+      "41394575",
+      "30962623",
+      "32176273",
+      "30963075",
+      "29363560",
+      "40662800",
+      "40501829",
+      "34988661",
+      "38600621",
+      "41129969",
+      "39054391",
+      "32431014",
+      "40011559",
+      "37474509",
+      "36714206",
+      "34489404",
+      "38778003",
+      "36733262",
+      "41258076",
+      "39543284",
+      "37770709",
+      "36593394",
+      "21731497",
+      "40264958",
+      "41300707",
+      "38763341",
+      "39584702",
+      "32855387"
+    ],
+    "review": [
+      "41465115",
+      "38721585",
+      "40164735",
+      "34988661"
+    ],
+    "pmc": [
+      "12732504"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes16121439",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41465115/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

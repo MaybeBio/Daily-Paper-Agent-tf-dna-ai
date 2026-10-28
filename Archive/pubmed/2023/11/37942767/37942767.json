@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "37942767",
+    "doi": "10.1021/acschemneuro.3c00594",
+    "title": "Molecular Dynamics Activation of gamma-Secretase for Cleavage of the Notch1 Substrate."
+  },
+  "content": {
+    "abstract": "gamma-Secretase is an intramembrane aspartyl protease complex that cleaves the transmembrane domain of over 150 peptide substrates, including amyloid precursor protein (APP) and the Notch family of receptors, via two conserved aspartates D257 and D385 in the presenilin-1 (PS1) catalytic subunit. However, while the activation of gamma-secretase for cleavage of APP has been widely studied, the cleavage of Notch by gamma-secretase remains poorly explored. Here, we combined Gaussian accelerated molecular dynamics (GaMD) simulations and mass spectrometry (MS) analysis of proteolytic products to present the first dynamic models for cleavage of Notch by gamma-secretase. MS showed that gamma-secretase cleaved the WT Notch at Notch residue G34, while cleavage of the L36F mutant Notch occurred at Notch residue C33. Initially, we prepared our simulation systems starting from the cryoEM structure of Notch-bound gamma-secretase (PDB: 6IDF) and failed to capture the proper cleavages of WT and L36F Notch by gamma-secretase. We then discovered an incorrect registry of the Notch substrate in the PS1 active site through alignment of the experimental structure of Notch-bound (PDB: 6IDF) and APP-bound gamma-secretase (PDB: 6IYC). Every residue of the APP substrate was systematically mutated to the corresponding Notch residue to prepare a resolved model of Notch-bound gamma-secretase complexes. GaMD simulations of the resolved model successfully captured gamma-secretase activation for proper cleavages of both WT and L36F mutant Notch. Our findings presented here provided mechanistic insights into the structural dynamics and enzyme-substrate interactions required for gamma-secretase activation for cleavage of Notch and other substrates.",
+    "keywords": [
+      "Gaussian accelerated molecular dynamics",
+      "free energy profiles",
+      "intramembrane proteolysis",
+      "mass spectrometry"
+    ],
+    "mesh_terms": [
+      "*Amyloid Precursor Protein Secretases/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Amyloid beta-Protein Precursor/genetics/metabolism",
+      "Receptors, Notch",
+      "Cell Membrane/metabolism",
+      "Presenilin-1/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Do, Hung N",
+        "Malvankar, Shweta R",
+        "Wolfe, Michael S",
+        "Miao, Yinglong"
+      ],
+      "short_names": [
+        "Do HN",
+        "Malvankar SR",
+        "Wolfe MS",
+        "Miao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6497-4096",
+        "ORCID: 0000-0002-5721-9092",
+        "ORCID: 0000-0003-3714-1395"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Do, Hung N",
+        "short_name": "Do HN",
+        "identifiers": [
+          "0000-0002-6497-4096"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Malvankar, Shweta R",
+        "short_name": "Malvankar SR",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wolfe, Michael S",
+        "short_name": "Wolfe MS",
+        "identifiers": [
+          "0000-0002-5721-9092"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Miao, Yinglong",
+        "short_name": "Miao Y",
+        "identifiers": [
+          "0000-0003-3714-1395"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2023 Dec 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/09 12:42",
+    "fetched_at": "2026-09-29 09:58:21"
+  },
+  "links": {
+    "cites": [
+      "42338509",
+      "42160739",
+      "39950614",
+      "39506927",
+      "38767485"
+    ],
+    "refs": [
+      "37219922",
+      "36788318",
+      "36706316",
+      "36562727",
+      "35598043",
+      "35461161",
+      "35377629",
+      "35200019",
+      "35099970",
+      "34899998",
+      "33571524",
+      "33099014",
+      "33092378",
+      "32716185",
+      "32692556",
+      "32616437",
+      "32607444",
+      "31198028",
+      "30630874",
+      "30598546",
+      "30525595",
+      "28970936",
+      "27819658",
+      "27580372",
+      "26631602",
+      "26583988",
+      "26300708",
+      "26280335",
+      "25130509",
+      "25061441",
+      "25043039",
+      "19828817",
+      "19444816",
+      "18351591",
+      "17849009",
+      "15173829",
+      "12198485",
+      "10206644",
+      "9620803"
+    ],
+    "similar": [
+      "37942767",
+      "36788318",
+      "33099014",
+      "20921220",
+      "12119298",
+      "23237322",
+      "20534834",
+      "22950863",
+      "39950614",
+      "35377629",
+      "15056474",
+      "12960155",
+      "19276086",
+      "12515548",
+      "35461161",
+      "20130175",
+      "35579427",
+      "23658629",
+      "18538664",
+      "15569674",
+      "17588625",
+      "34948396",
+      "28165225",
+      "21868378",
+      "27608597",
+      "36944398",
+      "29118109",
+      "18983676",
+      "24099003",
+      "10593990",
+      "32830360",
+      "10959033",
+      "18393799",
+      "24099007",
+      "20460383",
+      "20021564",
+      "32607444",
+      "20299451",
+      "18266961",
+      "28994238",
+      "12388777",
+      "38525994",
+      "21146496",
+      "23570890",
+      "18220928",
+      "33571524",
+      "31295475",
+      "30638370",
+      "32430033",
+      "15917251",
+      "30630874",
+      "11493036",
+      "39932776",
+      "21516353",
+      "15220354",
+      "25458374",
+      "26142917",
+      "20106965",
+      "21115843",
+      "11816793",
+      "16405513",
+      "22461631",
+      "26559975",
+      "38767485",
+      "12025815",
+      "12809514",
+      "26581893",
+      "35982231",
+      "32423851",
+      "10206645",
+      "28234257",
+      "29097209",
+      "21868380",
+      "10864326",
+      "12223485",
+      "21528914",
+      "36903320",
+      "16597736",
+      "19254953",
+      "32331992",
+      "37816062",
+      "11408475",
+      "25614624",
+      "10899933",
+      "12048239",
+      "31130234",
+      "12297508",
+      "38000778",
+      "15958385",
+      "16524370",
+      "10922078",
+      "35247387",
+      "21919498",
+      "37355752",
+      "12147673",
+      "29262358",
+      "30598546",
+      "18996842",
+      "21054783",
+      "26678856"
+    ],
+    "review": [
+      "37942767",
+      "35461161",
+      "17588625",
+      "24099003",
+      "10959033",
+      "18393799",
+      "24099007",
+      "18266961",
+      "38525994",
+      "18220928",
+      "31295475",
+      "21516353",
+      "11816793",
+      "32423851"
+    ],
+    "pmc": [
+      "10900880"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37942767/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.3c00594",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

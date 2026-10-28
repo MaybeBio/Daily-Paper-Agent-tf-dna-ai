@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "38281216",
+    "doi": "10.1093/nar/gkae041",
+    "title": "Flexible structural arrangement and DNA-binding properties of protein p6 from Bacillus subtillis phage phi29."
+  },
+  "content": {
+    "abstract": "The genome-organizing protein p6 of Bacillus subtilis bacteriophage phi29 plays an essential role in viral development by activating the initiation of DNA replication and participating in the early-to-late transcriptional switch. These activities require the formation of a nucleoprotein complex in which the DNA adopts a right-handed superhelix wrapping around a multimeric p6 scaffold, restraining positive supercoiling and compacting the viral genome. Due to the absence of homologous structures, prior attempts to unveil p6's structural architecture failed. Here, we employed AlphaFold2 to engineer rational p6 constructs yielding crystals for three-dimensional structure determination. Our findings reveal a novel fold adopted by p6 that sheds light on its self-association mechanism and its interaction with DNA. By means of protein-DNA docking and molecular dynamic simulations, we have generated a comprehensive structural model for the nucleoprotein complex that consistently aligns with its established biochemical and thermodynamic parameters. Besides, through analytical ultracentrifugation, we have confirmed the hydrodynamic properties of the nucleocomplex, further validating in solution our proposed model. Importantly, the disclosed structure not only provides a highly accurate explanation for previously experimental data accumulated over decades, but also enhances our holistic understanding of the structural and functional attributes of protein p6 during phi29 infection.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Bacillus Phages/genetics/chemistry",
+      "*Bacillus subtilis/virology",
+      "DNA Replication",
+      "DNA, Viral/genetics",
+      "Nucleoproteins/metabolism",
+      "Viral Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alcorlo, Martin",
+        "Luque-Ortega, Juan Roman",
+        "Gago, Federico",
+        "Ortega, Alvaro",
+        "Castellanos, Milagros",
+        "Chacon, Pablo",
+        "de Vega, Miguel",
+        "Blanco, Luis",
+        "Hermoso, Jose M",
+        "Serrano, Manuel",
+        "Rivas, German",
+        "Hermoso, Juan A"
+      ],
+      "short_names": [
+        "Alcorlo M",
+        "Luque-Ortega JR",
+        "Gago F",
+        "Ortega A",
+        "Castellanos M",
+        "Chacon P",
+        "de Vega M",
+        "Blanco L",
+        "Hermoso JM",
+        "Serrano M",
+        "Rivas G",
+        "Hermoso JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8337-6203",
+        "ORCID: 0000-0002-3071-4878",
+        "ORCID: 0000-0001-8202-293X",
+        "ORCID: 0000-0003-1285-7549",
+        "ORCID: 0000-0001-5558-4435"
+      ],
+      "affiliations": [
+        "Department of Crystallography and Structural Biology, Institute of Physical-Chemistry \"Blas Cabrera\", CSIC, 28006 Madrid, Spain.",
+        "Molecular Interactions Facility, Centro de Investigaciones Biologicas \"Margarita Salas\", CSIC, 28040Madrid, Spain.",
+        "Departamento de Farmacologia and CSIC-IQM Associate Unit, Universidad de Alcala, Alcala de Henares, 28871Madrid, Spain.",
+        "Department of Biochemistry and Molecular Biology 'B' and Immunology, Faculty of Chemistry, University of Murcia, Regional Campus of International Excellence 'Campus Mare Nostrum, Murcia, Spain.",
+        "Instituto Madrileno de Estudios Avanzados en Nanociencia (IMDEA Nanociencia), Nanotechnology for Health-Care, 28049 Madrid, Spain.",
+        "Department of Biological Physical-Chemistry, Institute of Physical-Chemistry \"Blas Cabrera\", CSIC, 28006Madrid, Spain.",
+        "Genome maintenance and instability, Centro de Biologia Molecular Severo Ochoa, CSIC-UAM, 28049Cantoblanco, Madrid, Spain.",
+        "Genome maintenance and instability, Centro de Biologia Molecular Severo Ochoa, CSIC-UAM, 28049Cantoblanco, Madrid, Spain.",
+        "Genome maintenance and instability, Centro de Biologia Molecular Severo Ochoa, CSIC-UAM, 28049Cantoblanco, Madrid, Spain.",
+        "Institute for Research in Biomedicine (IRB), Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Cambridge Institute of Science, Altos Labs, Cambridge, UK.",
+        "Department of Structural and Chemical Biology, Centro de Investigaciones Biologicas \"Margarita Salas\", CSIC, 28040Madrid, Spain.",
+        "Department of Crystallography and Structural Biology, Institute of Physical-Chemistry \"Blas Cabrera\", CSIC, 28006 Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alcorlo, Martín",
+        "short_name": "Alcorlo M",
+        "identifiers": [
+          "0000-0001-8337-6203"
+        ],
+        "affiliations": [
+          "Department of Crystallography and Structural Biology, Institute of Physical-Chemistry \"Blas Cabrera\", CSIC, 28006 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Luque-Ortega, Juan Román",
+        "short_name": "Luque-Ortega JR",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Interactions Facility, Centro de Investigaciones Biológicas \"Margarita Salas\", CSIC, 28040Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Gago, Federico",
+        "short_name": "Gago F",
+        "identifiers": [
+          "0000-0002-3071-4878"
+        ],
+        "affiliations": [
+          "Departamento de Farmacología and CSIC-IQM Associate Unit, Universidad de Alcalá, Alcalá de Henares, 28871Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Ortega, Alvaro",
+        "short_name": "Ortega A",
+        "identifiers": [
+          "0000-0001-8202-293X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology 'B' and Immunology, Faculty of Chemistry, University of Murcia, Regional Campus of International Excellence 'Campus Mare Nostrum, Murcia, Spain."
+        ]
+      },
+      {
+        "full_name": "Castellanos, Milagros",
+        "short_name": "Castellanos M",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto Madrileño de Estudios Avanzados en Nanociencia (IMDEA Nanociencia), Nanotechnology for Health-Care, 28049 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Chacón, Pablo",
+        "short_name": "Chacón P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical-Chemistry, Institute of Physical-Chemistry \"Blas Cabrera\", CSIC, 28006Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "de Vega, Miguel",
+        "short_name": "de Vega M",
+        "identifiers": [
+          "0000-0003-1285-7549"
+        ],
+        "affiliations": [
+          "Genome maintenance and instability, Centro de Biología Molecular Severo Ochoa, CSIC-UAM, 28049Cantoblanco, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Blanco, Luis",
+        "short_name": "Blanco L",
+        "identifiers": [
+          "0000-0001-5558-4435"
+        ],
+        "affiliations": [
+          "Genome maintenance and instability, Centro de Biología Molecular Severo Ochoa, CSIC-UAM, 28049Cantoblanco, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Hermoso, José M",
+        "short_name": "Hermoso JM",
+        "identifiers": [],
+        "affiliations": [
+          "Genome maintenance and instability, Centro de Biología Molecular Severo Ochoa, CSIC-UAM, 28049Cantoblanco, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Serrano, Manuel",
+        "short_name": "Serrano M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB), Barcelona Institute of Science and Technology, Barcelona, Spain.",
+          "Cambridge Institute of Science, Altos Labs, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Rivas, Germán",
+        "short_name": "Rivas G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural and Chemical Biology, Centro de Investigaciones Biológicas \"Margarita Salas\", CSIC, 28040Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Hermoso, Juan A",
+        "short_name": "Hermoso JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Crystallography and Structural Biology, Institute of Physical-Chemistry \"Blas Cabrera\", CSIC, 28006 Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Feb 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/28 18:42",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "40080182",
+      "39039769"
+    ],
+    "refs": [
+      "36275623",
+      "34452423",
+      "34265844",
+      "33237325",
+      "33125078",
+      "33104802",
+      "32881101",
+      "31950463",
+      "30428528",
+      "29893907",
+      "28472402",
+      "27166375",
+      "26605745",
+      "26583988",
+      "26569599",
+      "26038575",
+      "25280881",
+      "24771341",
+      "23793146",
+      "23685436",
+      "23215638",
+      "21843480",
+      "21558323",
+      "20798056",
+      "20457744",
+      "20383002",
+      "20124702",
+      "20124692",
+      "20100603",
+      "19461840",
+      "19084023",
+      "18625462",
+      "17873040",
+      "17847101",
+      "17681537",
+      "17051420",
+      "16488431",
+      "15980588",
+      "15572779",
+      "15362097",
+      "15264254",
+      "15247336",
+      "15118076",
+      "15081689",
+      "15044227",
+      "12895474",
+      "12705861",
+      "12426390",
+      "11689446",
+      "11092852",
+      "10829023",
+      "10822496",
+      "10692345",
+      "9929388",
+      "9891587",
+      "9305983",
+      "9193003",
+      "8940089",
+      "8450539",
+      "8346553",
+      "8306969",
+      "7925279",
+      "7808404",
+      "7748942",
+      "7395108",
+      "6768899",
+      "6433348",
+      "5700707",
+      "4705380",
+      "3934646",
+      "3932129",
+      "3172342",
+      "3158884",
+      "3124105",
+      "3088545",
+      "2767056",
+      "2501757",
+      "2498321",
+      "2493706",
+      "2111580",
+      "1979302",
+      "1899235",
+      "1883199",
+      "1748997",
+      "1518054",
+      "820555"
+    ],
+    "similar": [
+      "38281216",
+      "15118076",
+      "15362097",
+      "10497023",
+      "17873040",
+      "8940089",
+      "12426390",
+      "12383516",
+      "15247336",
+      "15576790",
+      "7748942",
+      "19084023",
+      "9305983",
+      "11092852",
+      "8450539",
+      "7808404",
+      "22451942",
+      "10521395",
+      "2111580",
+      "23221709",
+      "16888621",
+      "2767056",
+      "10773070",
+      "8306969",
+      "11032825",
+      "11384991",
+      "8011933",
+      "10829023",
+      "11381102",
+      "20412311",
+      "23558641",
+      "18845683",
+      "9193003",
+      "9231900",
+      "12480935",
+      "11689446",
+      "9774353",
+      "11169113",
+      "9858710",
+      "16517096",
+      "9929388",
+      "21542855",
+      "30544981",
+      "17526715",
+      "11741949",
+      "27547754",
+      "22420858",
+      "22065756",
+      "24205926",
+      "20823229",
+      "17426023",
+      "17913744",
+      "7925279",
+      "24403593",
+      "26400085",
+      "19528067",
+      "8969297",
+      "9723918",
+      "7669351",
+      "8995262",
+      "11698389",
+      "8995261",
+      "3088545",
+      "10921898",
+      "31362989",
+      "33847970",
+      "16159774",
+      "16275651",
+      "19011105",
+      "9358052",
+      "19207565",
+      "19654094",
+      "9814712",
+      "17698500",
+      "16600871",
+      "3158884",
+      "27241929",
+      "15371435",
+      "10438592",
+      "3124105",
+      "7926823",
+      "23119018",
+      "8126723",
+      "1291240",
+      "9171364",
+      "16193065",
+      "9705251",
+      "1289813",
+      "25722367",
+      "31107918",
+      "11691914",
+      "2501757",
+      "19560540",
+      "28196958",
+      "15642698",
+      "12458086",
+      "23836667",
+      "27489274",
+      "19285085",
+      "24912187"
+    ],
+    "review": [
+      "38281216",
+      "15362097",
+      "8011933",
+      "20412311",
+      "27547754",
+      "22420858",
+      "7669351",
+      "27241929"
+    ],
+    "pmc": [
+      "10899789"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38281216/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38281216",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae041",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

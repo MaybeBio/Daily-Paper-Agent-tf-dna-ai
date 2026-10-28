@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "40796919",
+    "doi": "10.1038/s41540-025-00567-1",
+    "title": "Causality-aware graph neural networks for functional stratification and phenotype prediction at scale."
+  },
+  "content": {
+    "abstract": "We employ a computational framework that integrates mathematical programming and Graph Neural Networks (GNNs) to elucidate functional phenotypic heterogeneity in disease by classifying entire pathways under various conditions of interest. Our approach combines two distinct, yet seamlessly integrated, modeling schemes. First, we leverage Prior Knowledge Networks (PKNs) to reconstruct gene networks from genomic and transcriptomic data. We demonstrate how this can be achieved through mathematical programming optimization and provide examples using comprehensive, established databases. We then tailor GNNs to classify each network as a single data point at graph-level, using various node embeddings and edge attributes. These networks may vary in their biological or molecular annotations, which serve as a labeling scheme for their supervised classification. We apply the framework to the human DNA damage and repair pathway using the TP53 regulon in a pancancer study across cell lines and tumor samples to classify Gene Regulatory Networks (GRNs) across different TP53 mutation types. This approach allows us to identify mutations with distinguishable functional profiles that can be related to specific phenotypes, thus providing a data-driven pipeline for genotype-to-phenotype translation. This scalable approach enables the classification of diverse conditions within the multi-factorial nature of diseases and disentangles their polygenic complexity by revealing new functional patterns through a causal representation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neural Networks, Computer",
+      "Phenotype",
+      "Gene Regulatory Networks/genetics",
+      "*Computational Biology/methods",
+      "Tumor Suppressor Protein p53/genetics",
+      "Mutation",
+      "Genomics/methods",
+      "Algorithms",
+      "Causality",
+      "DNA Damage",
+      "Graph Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Triantafyllidis, Charalampos P",
+        "Aguas, Ricardo"
+      ],
+      "short_names": [
+        "Triantafyllidis CP",
+        "Aguas R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8890-6936",
+        "ORCID: 0000-0002-6507-6597"
+      ],
+      "affiliations": [
+        "Nuffield Department of Medicine, University of Oxford, Oxford, UK. harry.triantafyllidis@ndm.ox.ac.uk.",
+        "Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Triantafyllidis, Charalampos P",
+        "short_name": "Triantafyllidis CP",
+        "identifiers": [
+          "0000-0002-8890-6936"
+        ],
+        "affiliations": [
+          "Nuffield Department of Medicine, University of Oxford, Oxford, UK. harry.triantafyllidis@ndm.ox.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Aguas, Ricardo",
+        "short_name": "Aguas R",
+        "identifiers": [
+          "0000-0002-6507-6597"
+        ],
+        "affiliations": [
+          "Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2025 Aug 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/13 00:27",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42629596"
+    ],
+    "refs": [
+      "40091193",
+      "39774325",
+      "39700860",
+      "39455647",
+      "39443700",
+      "39321259",
+      "39175133",
+      "39013885",
+      "39009816",
+      "38935070",
+      "38670157",
+      "38047081",
+      "38034356",
+      "38018912",
+      "37985457",
+      "37862225",
+      "37817080",
+      "37643501",
+      "36400749",
+      "36167504",
+      "35157021",
+      "35104644",
+      "35043155",
+      "35022204",
+      "34755879",
+      "34699368",
+      "34394185",
+      "33816916",
+      "33767197",
+      "33303016",
+      "32782264",
+      "32217482",
+      "31728204",
+      "31365877",
+      "31340985",
+      "30981720",
+      "29425488",
+      "28753430",
+      "28336671",
+      "27986087",
+      "27898060",
+      "26813759",
+      "26024390",
+      "25645874",
+      "24012741",
+      "23287722",
+      "22458515",
+      "22337054",
+      "21606941",
+      "21376230",
+      "20182602",
+      "19450511",
+      "19139764",
+      "18936750",
+      "18797474",
+      "18216267",
+      "17401424",
+      "15170446",
+      "14995526",
+      "12413821",
+      "10896154",
+      "10647931",
+      "10618702",
+      "10378696",
+      "7990864",
+      "1905840",
+      "1614522",
+      "1492339"
+    ],
+    "similar": [
+      "40796919",
+      "38896510",
+      "41465557",
+      "40341543",
+      "38950180",
+      "40155814",
+      "40039031",
+      "41240439",
+      "40802546",
+      "41139924",
+      "40670912",
+      "37985457",
+      "41441912",
+      "39776277",
+      "40728607",
+      "37939200",
+      "39401117",
+      "38670157",
+      "39644579",
+      "40317893",
+      "41134033",
+      "40907459",
+      "39923340",
+      "40091193",
+      "40553344",
+      "39470307",
+      "41075317",
+      "39173205",
+      "39217862",
+      "40578218",
+      "40582680",
+      "39704704",
+      "38630566",
+      "40784939",
+      "41067887",
+      "34706640",
+      "40116659",
+      "35750007",
+      "40194555",
+      "37852165",
+      "32606380",
+      "40601253",
+      "39082155",
+      "40604054",
+      "38718126",
+      "38879931",
+      "40895757",
+      "38917286",
+      "39848362",
+      "41217910",
+      "40468240",
+      "40421418",
+      "39832275",
+      "40299745",
+      "40073281",
+      "39642539",
+      "39446541",
+      "38767994",
+      "40553343",
+      "30547796",
+      "39266676",
+      "33169146",
+      "38936076",
+      "40205338",
+      "40067713",
+      "40147161",
+      "41375203",
+      "41136863",
+      "41284725",
+      "39321259",
+      "39256197",
+      "41276805",
+      "39751645",
+      "40998830",
+      "39426693",
+      "31632690",
+      "39793218",
+      "38687815",
+      "41267133",
+      "39800872",
+      "31255713",
+      "40446589",
+      "41206950",
+      "41490270",
+      "31757205",
+      "39968416",
+      "33850173",
+      "35313247",
+      "40524427",
+      "40705403",
+      "41249334",
+      "27880943",
+      "39373802",
+      "39082651",
+      "39395234",
+      "40251476",
+      "33450251",
+      "39733700",
+      "40251830",
+      "32970681"
+    ],
+    "review": [
+      "40796919",
+      "41240439",
+      "40728607",
+      "40317893",
+      "40091193",
+      "33169146"
+    ],
+    "pmc": [
+      "12343938"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41540-025-00567-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40796919/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "40604091",
+    "doi": "10.1038/s41598-025-95439-3",
+    "title": "Exploring possible hub genes of metabolic syndrome and type 2 diabetes mellitus: a systematic network biology study."
+  },
+  "content": {
+    "abstract": "Metabolic syndrome (MetS) and Type-2 diabetes mellitus (T2DM), often termed \"glucolipotoxicity\" or insulin resistance syndrome, are complex metabolic disorders typically managed by lifestyle interventions and oral hypoglycemic agents. While conventional drugs, including metformin, sulfonylureas, and sodium-glucose cotransporter-2 (SGLT2) inhibitors, show efficacy, they also present risks such as hypoglycemia and weight gain. Among these, metformin remains the preferred first-line treatment due to its safety, low cost, and minimal side effects. However, the multifactorial nature of MetS/T2DM, coupled with increased cardiovascular risk, demands novel therapeutic strategies targeting broader disease-specific mediators. This study employs network pharmacology to identify potential gene targets linked to MetS/T2DM. We constructed a protein-protein interaction (PPI) network of 97 genes involved in the pathophysiology of these disorders, identifying 89 interlinked genes. The top 10 crucial genes including insulin receptor substrate 1 (IRS1), and interleukin-6 (IL6) are highlighted as key contributors to disease progression. Gene Ontology (GO) analysis revealed their involvement in essential biological processes like peptide synthesis, lipid regulation, and glucose homeostasis. Interestingly, nine of these genes are influenced by metformin, suggesting its broader mechanism in modulating metabolic pathways. Additionally, scrutiny of transcription factors for the considered dataset shows that forkhead box protein O1 (FOXO1), sirtuin 1 (SIRT1), and peroxisome proliferator-activated receptor gamma coactivator 1-alpha (PGC1alpha) play crucial roles in insulin signalling, mitochondrial function, and glucose metabolism, further elucidating the molecular complexity of T2DM. Through a network biology framework, this study attempts to highlight the potential for prospective multi-targeting therapeutic strategies that may exhibit improved efficacy and safety, for the management of MetS/T2DM.",
+    "keywords": [
+      "Gene ontology",
+      "Metabolic syndrome",
+      "Multi-Targeting",
+      "Network Pharmacology",
+      "Type 2 diabetes mellitus"
+    ],
+    "mesh_terms": [
+      "*Diabetes Mellitus, Type 2/genetics/metabolism",
+      "Humans",
+      "*Metabolic Syndrome/genetics/metabolism",
+      "Protein Interaction Maps/genetics",
+      "*Gene Regulatory Networks",
+      "Insulin Receptor Substrate Proteins/genetics/metabolism",
+      "Interleukin-6/genetics/metabolism",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Runthala, Ashish",
+        "Vulichi, Srinivasa R",
+        "Kosanam, Sreya",
+        "Pasupula, Rajeshwari",
+        "Ramakrishna, Kakarla",
+        "Sutradhar, Monoj",
+        "Narayan, Kumar Pranav"
+      ],
+      "short_names": [
+        "Runthala A",
+        "Vulichi SR",
+        "Kosanam S",
+        "Pasupula R",
+        "Ramakrishna K",
+        "Sutradhar M",
+        "Narayan KP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Basic Sciences, School of Sciences and Humanities, SR University, Warangal, 506371, India. ashish.runthala@gmail.com.",
+        "Department of Biotechnology, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, 522302, India. ashish.runthala@gmail.com.",
+        "Department of Integrated Research and Discovery, Koneru Lakshmaiah Education Foundation, Vijayawada, India. ashish.runthala@gmail.com.",
+        "S V University College of Pharmaceutical Sciences, S V University, Tirupati, 517502, Andhra Pradesh, India. nivschem@gmail.com.",
+        "Department of Biological Sciences, BITS Pilani- Hyderabad Campus, Jawahar Nagar, Hyderabad, 500078, Telangana, India. nivschem@gmail.com.",
+        "Department of Pharmacy Practice, Faculty of Pharmacy, Dr. M.G.R. Educational and Research Institute, Velappanchavadi, Chennai, 600077, India.",
+        "KL College of Pharmacy, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, 522302, India.",
+        "KL College of Pharmacy, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, 522302, India.",
+        "KL College of Agriculture, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, 522302, India.",
+        "Department of Biological Sciences, BITS Pilani- Hyderabad Campus, Jawahar Nagar, Hyderabad, 500078, Telangana, India. pranav@hyderabad.bits-pilani.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Runthala, Ashish",
+        "short_name": "Runthala A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Sciences, School of Sciences and Humanities, SR University, Warangal, 506371, India. ashish.runthala@gmail.com.",
+          "Department of Biotechnology, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, 522302, India. ashish.runthala@gmail.com.",
+          "Department of Integrated Research and Discovery, Koneru Lakshmaiah Education Foundation, Vijayawada, India. ashish.runthala@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Vulichi, Srinivasa R",
+        "short_name": "Vulichi SR",
+        "identifiers": [],
+        "affiliations": [
+          "S V University College of Pharmaceutical Sciences, S V University, Tirupati, 517502, Andhra Pradesh, India. nivschem@gmail.com.",
+          "Department of Biological Sciences, BITS Pilani- Hyderabad Campus, Jawahar Nagar, Hyderabad, 500078, Telangana, India. nivschem@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Kosanam, Sreya",
+        "short_name": "Kosanam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, Faculty of Pharmacy, Dr. M.G.R. Educational and Research Institute, Velappanchavadi, Chennai, 600077, India."
+        ]
+      },
+      {
+        "full_name": "Pasupula, Rajeshwari",
+        "short_name": "Pasupula R",
+        "identifiers": [],
+        "affiliations": [
+          "KL College of Pharmacy, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, 522302, India."
+        ]
+      },
+      {
+        "full_name": "Ramakrishna, Kakarla",
+        "short_name": "Ramakrishna K",
+        "identifiers": [],
+        "affiliations": [
+          "KL College of Pharmacy, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, 522302, India."
+        ]
+      },
+      {
+        "full_name": "Sutradhar, Monoj",
+        "short_name": "Sutradhar M",
+        "identifiers": [],
+        "affiliations": [
+          "KL College of Agriculture, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Guntur, 522302, India."
+        ]
+      },
+      {
+        "full_name": "Narayan, Kumar Pranav",
+        "short_name": "Narayan KP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, BITS Pilani- Hyderabad Campus, Jawahar Nagar, Hyderabad, 500078, Telangana, India. pranav@hyderabad.bits-pilani.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 06:27",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42063773",
+      "41971085"
+    ],
+    "refs": [
+      "39417505",
+      "39189367",
+      "39120275",
+      "39065698",
+      "38424050",
+      "37941124",
+      "37893429",
+      "37445852",
+      "37392655",
+      "37237941",
+      "37208984",
+      "37130947",
+      "37056675",
+      "37014444",
+      "36984562",
+      "36717300",
+      "36230963",
+      "36066804",
+      "35890109",
+      "35794109",
+      "35584716",
+      "35062059",
+      "35056647",
+      "35054972",
+      "35052782",
+      "35021057",
+      "34984701",
+      "34445679",
+      "34299261",
+      "34205362",
+      "33807522",
+      "33776749",
+      "33562458",
+      "33489086",
+      "33237311",
+      "32437299",
+      "32425881",
+      "30574122",
+      "30386301",
+      "29800326",
+      "29794097",
+      "29657085",
+      "29480368",
+      "28974774",
+      "28283069",
+      "28045402",
+      "27760374",
+      "27476975",
+      "27114714",
+      "26607826",
+      "25987957",
+      "25355515",
+      "24906151",
+      "24798950",
+      "23652116",
+      "23303904",
+      "21219177",
+      "21063955",
+      "20182551",
+      "20148674",
+      "19805654",
+      "19546236",
+      "19029988",
+      "18936753",
+      "18853439",
+      "18728222",
+      "17681144",
+      "17498510",
+      "17489673",
+      "17478515",
+      "17200717",
+      "17108241",
+      "16612386",
+      "16582875",
+      "16182882",
+      "15781756",
+      "15469638",
+      "14744958",
+      "12834541",
+      "12754525",
+      "10592173",
+      "3056758"
+    ],
+    "similar": [
+      "40604091",
+      "33576435",
+      "33771638",
+      "39541897",
+      "39949090",
+      "40194640",
+      "25879401",
+      "40449695",
+      "39936105",
+      "39957161",
+      "39273245",
+      "36535333",
+      "39374878",
+      "41155161",
+      "33792237",
+      "23018631",
+      "41424060",
+      "32714075",
+      "40540112",
+      "36049411",
+      "39945086",
+      "33902539",
+      "41162503",
+      "32705173",
+      "40869253",
+      "33915220",
+      "40671477",
+      "36698459",
+      "39287256",
+      "40403856",
+      "37556419",
+      "40804795",
+      "35718494",
+      "28630133",
+      "32781959",
+      "40494169",
+      "40918148",
+      "41081092",
+      "33957209",
+      "37606429",
+      "28123936",
+      "39798693",
+      "38704482",
+      "31524257",
+      "28934129",
+      "41079183",
+      "33636476",
+      "41120603",
+      "22908267",
+      "30770439",
+      "30453687",
+      "39534794",
+      "29400991",
+      "32796716",
+      "41050568",
+      "32851081",
+      "39927874",
+      "38007164",
+      "36284987",
+      "36545745",
+      "36162547",
+      "41031259",
+      "34581092",
+      "41251871",
+      "40872492",
+      "39723533",
+      "38382280",
+      "38366952",
+      "35728632",
+      "39032280",
+      "39661495",
+      "28332871",
+      "41326554",
+      "28049237",
+      "40696679",
+      "36828194",
+      "26474470",
+      "31221946",
+      "39139563",
+      "38886539",
+      "35764198",
+      "41125012",
+      "34215202",
+      "40895573",
+      "35016690",
+      "39096856",
+      "27496100",
+      "33083497",
+      "39596482",
+      "39796441",
+      "30662576",
+      "39307759",
+      "29387206",
+      "26868433",
+      "39375405",
+      "25123125",
+      "40085053",
+      "26642102",
+      "24447396",
+      "22967499"
+    ],
+    "review": [
+      "40604091",
+      "23018631",
+      "39287256",
+      "40403856",
+      "37606429",
+      "29400991",
+      "32796716",
+      "40872492",
+      "28332871",
+      "31221946",
+      "25123125"
+    ],
+    "pmc": [
+      "12223026"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/metabolicsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Metabolic Syndrome"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-95439-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40604091/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1323",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

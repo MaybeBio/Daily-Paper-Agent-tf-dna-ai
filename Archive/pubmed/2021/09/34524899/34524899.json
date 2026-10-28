@@ -1,0 +1,570 @@
+{
+  "identity": {
+    "pmid": "34524899",
+    "doi": "10.1128/AEM.01706-21",
+    "title": "Genomes of Novel Myxococcota Reveal Severely Curtailed Machineries for Predation and Cellular Differentiation."
+  },
+  "content": {
+    "abstract": "Cultured Myxococcota are predominantly aerobic soil inhabitants, characterized by their highly coordinated predation and cellular differentiation capacities. Little is currently known regarding yet-uncultured Myxococcota from anaerobic, nonsoil habitats. We analyzed genomes representing one novel order (o__JAFGXQ01) and one novel family (f__JAFGIB01) in the Myxococcota from an anoxic freshwater spring (Zodletone Spring) in Oklahoma, USA. Compared to their soil counterparts, anaerobic Myxococcota possess smaller genomes and a smaller number of genes encoding biosynthetic gene clusters (BGCs), peptidases, one- and two-component signal transduction systems, and transcriptional regulators. Detailed analysis of 13 distinct pathways/processes crucial to predation and cellular differentiation revealed severely curtailed machineries, with the notable absence of homologs for key transcription factors (e.g., FruA and MrpC), outer membrane exchange receptor (TraA), and the majority of sporulation-specific and A-motility-specific genes. Further, machine learning approaches based on a set of 634 genes informative of social lifestyle predicted a nonsocial behavior for Zodletone Myxococcota. Metabolically, Zodletone Myxococcota genomes lacked aerobic respiratory capacities but carried genes suggestive of fermentation, dissimilatory nitrite reduction, and dissimilatory sulfate-reduction (in f_JAFGIB01) for energy acquisition. We propose that predation and cellular differentiation represent a niche adaptation strategy that evolved circa 500 million years ago (Mya) in response to the rise of soil as a distinct habitat on Earth. IMPORTANCE The phylum Myxococcota is a phylogenetically coherent bacterial lineage that exhibits unique social traits. Cultured Myxococcota are predominantly aerobic soil-dwelling microorganisms that are capable of predation and fruiting body formation. However, multiple yet-uncultured lineages within the Myxococcota have been encountered in a wide range of nonsoil, predominantly anaerobic habitats, and the metabolic capabilities, physiological preferences, and capacity of social behavior of such lineages remain unclear. Here, we analyzed genomes recovered from a metagenomic analysis of an anoxic freshwater spring in Oklahoma, USA, that represent novel, yet-uncultured, orders and families in the Myxococcota. The genomes appear to lack the characteristic hallmarks for social behavior encountered in Myxococcota genomes and displayed a significantly smaller genome size and a smaller number of genes encoding biosynthetic gene clusters, peptidases, signal transduction systems, and transcriptional regulators. Such perceived lack of social capacity was confirmed through detailed comparative genomic analysis of 13 pathways associated with Myxococcota social behavior, as well as the implementation of machine learning approaches to predict social behavior based on genome composition. Metabolically, these novel Myxococcota are predicted to be strict anaerobes, utilizing fermentation, nitrate reduction, and dissimilarity sulfate reduction for energy acquisition. Our results highlight the broad patterns of metabolic diversity within the yet-uncultured Myxococcota and suggest that the evolution of predation and fruiting body formation in the Myxococcota has occurred in response to soil formation as a distinct habitat on Earth.",
+    "keywords": [
+      "Myxobacteria",
+      "fruiting body formation",
+      "genome resolved metagenomics",
+      "predation"
+    ],
+    "mesh_terms": [
+      "Bacteria/*cytology/genetics",
+      "*Genome, Bacterial",
+      "Natural Springs/*microbiology",
+      "Nitrites",
+      "Oklahoma",
+      "Peptide Hydrolases",
+      "Signal Transduction",
+      "Soil",
+      "Sulfates",
+      "Water Microbiology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Murphy, Chelsea L",
+        "Yang, R",
+        "Decker, T",
+        "Cavalliere, C",
+        "Andreev, V",
+        "Bircher, N",
+        "Cornell, J",
+        "Dohmen, R",
+        "Pratt, C J",
+        "Grinnell, A",
+        "Higgs, J",
+        "Jett, C",
+        "Gillett, E",
+        "Khadka, R",
+        "Mares, S",
+        "Meili, C",
+        "Liu, J",
+        "Mukhtar, H",
+        "Elshahed, Mostafa S",
+        "Youssef, Noha H"
+      ],
+      "short_names": [
+        "Murphy CL",
+        "Yang R",
+        "Decker T",
+        "Cavalliere C",
+        "Andreev V",
+        "Bircher N",
+        "Cornell J",
+        "Dohmen R",
+        "Pratt CJ",
+        "Grinnell A",
+        "Higgs J",
+        "Jett C",
+        "Gillett E",
+        "Khadka R",
+        "Mares S",
+        "Meili C",
+        "Liu J",
+        "Mukhtar H",
+        "Elshahed MS",
+        "Youssef NH"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0379-3440",
+        "ORCID: 0000-0001-9159-3785"
+      ],
+      "affiliations": [
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Plant Biology, Ecology, and Evolution, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Entomology and Plant Pathology, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Animal Sciences, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA.",
+        "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Murphy, Chelsea L",
+        "short_name": "Murphy CL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, R",
+        "short_name": "Yang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Decker, T",
+        "short_name": "Decker T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Cavalliere, C",
+        "short_name": "Cavalliere C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Andreev, V",
+        "short_name": "Andreev V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biology, Ecology, and Evolution, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Bircher, N",
+        "short_name": "Bircher N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Cornell, J",
+        "short_name": "Cornell J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Dohmen, R",
+        "short_name": "Dohmen R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Pratt, C J",
+        "short_name": "Pratt CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Entomology and Plant Pathology, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Grinnell, A",
+        "short_name": "Grinnell A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Higgs, J",
+        "short_name": "Higgs J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Jett, C",
+        "short_name": "Jett C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Gillett, E",
+        "short_name": "Gillett E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Khadka, R",
+        "short_name": "Khadka R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Mares, S",
+        "short_name": "Mares S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Meili, C",
+        "short_name": "Meili C",
+        "identifiers": [
+          "0000-0003-0379-3440"
+        ],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, J",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Sciences, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Mukhtar, H",
+        "short_name": "Mukhtar H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Elshahed, Mostafa S",
+        "short_name": "Elshahed MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      },
+      {
+        "full_name": "Youssef, Noha H",
+        "short_name": "Youssef NH",
+        "identifiers": [
+          "0000-0001-9159-3785"
+        ],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Oklahoma State Universitygrid.65519.3e, Stillwater, Oklahoma, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Applied and environmental microbiology"
+    ],
+    "journal_abbrev": [
+      "Appl Environ Microbiol"
+    ],
+    "pub_date": "2021 Nov 10",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/16 06:00",
+    "fetched_at": "2026-09-27 23:40:32"
+  },
+  "links": {
+    "cites": [
+      "42654967",
+      "42559960",
+      "42362810",
+      "42231497",
+      "41701003",
+      "41606496",
+      "41258718",
+      "40883484",
+      "40531656",
+      "40525847",
+      "40177674",
+      "39945839",
+      "39756957",
+      "39629111",
+      "39421601",
+      "39365456",
+      "39003484",
+      "37869653",
+      "37833297",
+      "37623326",
+      "37404529",
+      "37275172",
+      "37234521",
+      "37055869",
+      "36774445",
+      "36746960",
+      "36445112",
+      "36434737",
+      "36142684",
+      "35812417"
+    ],
+    "refs": [
+      "34160232",
+      "34056821",
+      "34038432",
+      "33859876",
+      "33469166",
+      "33171896",
+      "33151140",
+      "33051370",
+      "32828979",
+      "32709258",
+      "32690973",
+      "32341564",
+      "32046778",
+      "32010119",
+      "31898477",
+      "31730192",
+      "31609203",
+      "31423653",
+      "31388474",
+      "31070718",
+      "31020551",
+      "30919490",
+      "30888727",
+      "30103481",
+      "30053267",
+      "29807988",
+      "29790974",
+      "29722887",
+      "29633935",
+      "29506019",
+      "29327410",
+      "29145643",
+      "28894102",
+      "28787424",
+      "28731467",
+      "27916428",
+      "27670643",
+      "27507000",
+      "27303375",
+      "27047727",
+      "26585406",
+      "26515820",
+      "26439115",
+      "26417542",
+      "26254571",
+      "26053634",
+      "25977477",
+      "25659072",
+      "25609793",
+      "25515642",
+      "25048208",
+      "24749684",
+      "24695404",
+      "24596262",
+      "23760929",
+      "23598997",
+      "21672958",
+      "21244620",
+      "21172057",
+      "20838593",
+      "20420673",
+      "20224823",
+      "20211023",
+      "20132312",
+      "20120823",
+      "19519767",
+      "19201804",
+      "18461135",
+      "18397532",
+      "17943120",
+      "17922045",
+      "16815305",
+      "16176988",
+      "13888810",
+      "12187379",
+      "11872704",
+      "11823233",
+      "11207714",
+      "10963606",
+      "10425789",
+      "8951822",
+      "1384053",
+      "415048"
+    ],
+    "similar": [
+      "34524899",
+      "34160232",
+      "30902854",
+      "30477901",
+      "28314726",
+      "35258328",
+      "34006650",
+      "29247059",
+      "21908640",
+      "16204536",
+      "33785617",
+      "32978130",
+      "37789850",
+      "34197190",
+      "39287428",
+      "37263432",
+      "30101334",
+      "30858573",
+      "39003484",
+      "37833297",
+      "22194580",
+      "30228235",
+      "29899444",
+      "31852806",
+      "39059819",
+      "29946051",
+      "31126947",
+      "26305944",
+      "36774445",
+      "28679747",
+      "34511070",
+      "39005473",
+      "29263101",
+      "34524897",
+      "20865128",
+      "16269812",
+      "30888727",
+      "28646115",
+      "22307312",
+      "26615204",
+      "35060074",
+      "34908429",
+      "16199583",
+      "18461135",
+      "19395567",
+      "29483165",
+      "33151140",
+      "28567447",
+      "17532650",
+      "31126943",
+      "34586901",
+      "29970182",
+      "26657763",
+      "38717941",
+      "34427515",
+      "34331018",
+      "23673639",
+      "32252814",
+      "27317862",
+      "34253854",
+      "15560824",
+      "30658977",
+      "31987701",
+      "34704787",
+      "30231921",
+      "34188189",
+      "33234687",
+      "32847785",
+      "29606595",
+      "29515524",
+      "28959738",
+      "20624973",
+      "11732608",
+      "30610231",
+      "30674352",
+      "31608575",
+      "32156798",
+      "33109761",
+      "32631862",
+      "21169452",
+      "22115438",
+      "34402646",
+      "30670614",
+      "29774049",
+      "21244620",
+      "19201974",
+      "28765215",
+      "34468166",
+      "19811538",
+      "22983963",
+      "30397342",
+      "32170201",
+      "27572167",
+      "37662426",
+      "37213496",
+      "37938723",
+      "35992725",
+      "37052391",
+      "32681159",
+      "38497626",
+      "37512846",
+      "37378286",
+      "39361898",
+      "38009928",
+      "33611323",
+      "38004767",
+      "34189441",
+      "38189216",
+      "37649705",
+      "35909618",
+      "27340451",
+      "39283138",
+      "36928026",
+      "39035443",
+      "38352480",
+      "35798836"
+    ],
+    "review": [
+      "34524899",
+      "39059819",
+      "11732608",
+      "37512846",
+      "39361898",
+      "35909618"
+    ],
+    "pmc": [
+      "8580003"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/AEM.01706-21?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34524899/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34524899",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/3272",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Cystobacter fuscus BD-ID 3272"
+      }
+    ],
+    "text_mined": []
+  }
+}

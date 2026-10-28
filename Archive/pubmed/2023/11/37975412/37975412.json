@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "37975412",
+    "doi": "10.1002/1878-0261.13553",
+    "title": "Ceftriaxone exerts antitumor effects in MYCN-driven retinoblastoma and neuroblastoma by targeting DDX3X for translation repression."
+  },
+  "content": {
+    "abstract": "MYCN proto-oncogene, bHLH transcription factor (MYCN) amplification is associated with aggressive retinoblastoma (RB) and neuroblastoma (NB) cancer recurrence that is resistant to chemotherapies. Therefore, there is an urgent need to identify new therapeutic tools. This study aimed to evaluate the potential repurposing of ceftriaxone for the treatment of MYCN-amplified RB and NB, based on the clinical observations that the drug was serendipitously found to decrease the volume of the MYCN-driven RB subtype. Using patient-derived tumor organoids and tumor cell lines, we demonstrated that ceftriaxone is a potent and selective growth inhibitor targeting MYCN-driven RB and NB cells. Profiling of drug-induced transcriptomic changes, cell-cycle progression, and apoptotic death indicated cell-cycle arrest and death of drug-treated MYCN-amplified tumor cells. Drug target identification, using an affinity-based proteomic and molecular docking approach, and functional studies of the target proteins revealed that ceftriaxone targeted DEAD-box helicase 3 X-linked (DDX3X), thereby inhibiting translation in MYCN-amplified tumors but not in MYCN-nonamplified cells. The data suggest the feasibility of repurposing ceftriaxone as an anticancer drug and provide insights into the mechanism of drug action, highlighting DDX3X as a potential target for treating MYCN-driven tumors.",
+    "keywords": [
+      "DDX3X",
+      "MYCN amplification",
+      "ceftriaxone",
+      "neuroblastoma",
+      "retinoblastoma",
+      "translation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "N-Myc Proto-Oncogene Protein/genetics/metabolism",
+      "Ceftriaxone",
+      "*Retinoblastoma/drug therapy/genetics",
+      "Molecular Docking Simulation",
+      "Proteomics",
+      "*Neuroblastoma/drug therapy/genetics/metabolism",
+      "Cell Line, Tumor",
+      "DEAD-box RNA Helicases/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "*Retinal Neoplasms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chittavanich, Pamorn",
+        "Saengwimol, Duangporn",
+        "Roytrakul, Sittiruk",
+        "Rojanaporn, Duangnate",
+        "Chaitankar, Vijender",
+        "Srimongkol, Atthapol",
+        "Anurathapan, Usanarat",
+        "Hongeng, Suradej",
+        "Kaewkhaw, Rossukon"
+      ],
+      "short_names": [
+        "Chittavanich P",
+        "Saengwimol D",
+        "Roytrakul S",
+        "Rojanaporn D",
+        "Chaitankar V",
+        "Srimongkol A",
+        "Anurathapan U",
+        "Hongeng S",
+        "Kaewkhaw R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9619-7797"
+      ],
+      "affiliations": [
+        "Program in Translational Medicine, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand.",
+        "Research Center, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand.",
+        "Functional Proteomics Technology Laboratory, National Center for Genetic Engineering and Biotechnology, National Science and Technology Development Agency, Pathum Thani, Thailand.",
+        "Department of Ophthalmology, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand.",
+        "Biodata Mining and Discovery Section, National Institute of Arthritis and Musculoskeletal and Skin Diseases, National Institutes of Health, Bethesda, MD, USA.",
+        "Research Center, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand.",
+        "Department of Pediatrics, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand.",
+        "Department of Pediatrics, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand.",
+        "Program in Translational Medicine, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand.",
+        "Chakri Naruebodindra Medical Institute, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Samut Prakan, Thailand."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chittavanich, Pamorn",
+        "short_name": "Chittavanich P",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Translational Medicine, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Saengwimol, Duangporn",
+        "short_name": "Saengwimol D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Roytrakul, Sittiruk",
+        "short_name": "Roytrakul S",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Proteomics Technology Laboratory, National Center for Genetic Engineering and Biotechnology, National Science and Technology Development Agency, Pathum Thani, Thailand."
+        ]
+      },
+      {
+        "full_name": "Rojanaporn, Duangnate",
+        "short_name": "Rojanaporn D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Chaitankar, Vijender",
+        "short_name": "Chaitankar V",
+        "identifiers": [],
+        "affiliations": [
+          "Biodata Mining and Discovery Section, National Institute of Arthritis and Musculoskeletal and Skin Diseases, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Srimongkol, Atthapol",
+        "short_name": "Srimongkol A",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Anurathapan, Usanarat",
+        "short_name": "Anurathapan U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Hongeng, Suradej",
+        "short_name": "Hongeng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Kaewkhaw, Rossukon",
+        "short_name": "Kaewkhaw R",
+        "identifiers": [
+          "0000-0002-9619-7797"
+        ],
+        "affiliations": [
+          "Program in Translational Medicine, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand.",
+          "Chakri Naruebodindra Medical Institute, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Samut Prakan, Thailand."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular oncology"
+    ],
+    "journal_abbrev": [
+      "Mol Oncol"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/17 15:31",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "41244073",
+      "41154337",
+      "40537811",
+      "39707322",
+      "39396233",
+      "39000021"
+    ],
+    "refs": [
+      "36726110",
+      "36264168",
+      "36245757",
+      "36177382",
+      "35762573",
+      "34339868",
+      "33905506",
+      "33870828",
+      "33627125",
+      "33563480",
+      "33270844",
+      "32971811",
+      "32824373",
+      "32816735",
+      "32575790",
+      "31223445",
+      "30879743",
+      "30542116",
+      "30353124",
+      "30292066",
+      "29797634",
+      "29684792",
+      "29374092",
+      "29314142",
+      "28869602",
+      "27999982",
+      "27634756",
+      "27280975",
+      "26424192",
+      "26035700",
+      "25864587",
+      "25820276",
+      "24086065",
+      "23498719",
+      "22962305",
+      "22872150",
+      "22323517",
+      "21504985",
+      "20837705",
+      "19934336",
+      "19766596",
+      "19124605",
+      "17409441",
+      "16555252",
+      "11250904",
+      "8481906",
+      "6719137",
+      "4047115",
+      "3034933"
+    ],
+    "similar": [
+      "37975412",
+      "41642108",
+      "34565342",
+      "41652432",
+      "40943594",
+      "42143291",
+      "16007177",
+      "40353332",
+      "41958314",
+      "30483774",
+      "34016720",
+      "8589036",
+      "39079981",
+      "28574509",
+      "31637848",
+      "36982482",
+      "31560547",
+      "37094904",
+      "34655293",
+      "31615807",
+      "29328367",
+      "40087586",
+      "37175848",
+      "27599694",
+      "9694872",
+      "39918479",
+      "32086952",
+      "24009722",
+      "42444025",
+      "32651259",
+      "40210723",
+      "25477524",
+      "41225513",
+      "37246217",
+      "42052829",
+      "41949670",
+      "27876123",
+      "29466962",
+      "26202950",
+      "32240058",
+      "37536559",
+      "38745192",
+      "34107377",
+      "40594589",
+      "35764645",
+      "32483461",
+      "29374092",
+      "38662542",
+      "12670915",
+      "37958555",
+      "34508175",
+      "33497018",
+      "40600620",
+      "26549029",
+      "41135749",
+      "38336749",
+      "33270844",
+      "35299072",
+      "32075946",
+      "20080637",
+      "25323222",
+      "17938259",
+      "39003564",
+      "27448979",
+      "38879085",
+      "26657295",
+      "23462184",
+      "30584073",
+      "32512012",
+      "37741985",
+      "33838899",
+      "33016930",
+      "32415892",
+      "33284994",
+      "40455982",
+      "20180881",
+      "17420990",
+      "28187790",
+      "36438198",
+      "34937609",
+      "20811720",
+      "39828101",
+      "41644599",
+      "35942521",
+      "25843293",
+      "20145147",
+      "42050733",
+      "33602789",
+      "22164278",
+      "40349458",
+      "21498633",
+      "26683771",
+      "42209732",
+      "31444411",
+      "32087738",
+      "41673639",
+      "36675163",
+      "26844271",
+      "27517149",
+      "37230388"
+    ],
+    "review": [
+      "37975412"
+    ],
+    "pmc": [
+      "10994227"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37975412/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37975412",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/1878-0261.13553",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38848239",
+  "title": "Transcription Factor Binding Site Prediction Using CnNet Approach.",
+  "authors": "Masood, M Mohamed Divan; Manjula, D; Sugumaran, Vijayan",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2024-06-07",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用MEME基序发现结合CNN深度学习方法预测转录因子结合位点，核心聚焦TF-DNA序列特异性识别，方法为AI，高度匹配本课题。",
+  "abstract": "Controlling the gene expression is the most important development in a living organism, which makes it easier to find different kinds of diseases and their causes. It's very difficult to know what factors control the gene expression. Transcription Factor (TF) is a protein that plays an important role in gene expression. Discovering the transcription factor has immense biological significance, however, it is challenging to develop novel techniques and evaluation for regulatory developments in biological structures. In this research, we mainly focus on 'sequence specificities' that can be ascertained from experimental data with 'deep learning' techniques, which offer a scalable, flexible and unified computational approach for predicting transcription factor binding. Specifically, Multiple Expression motifs for Motif Elicitation (MEME) technique with Convolution Neural Network (CNN) named as CnNet, has been used for discovering the 'sequence specificities' of DNA gene sequences dataset. This process involves two steps: a) discovering the motifs that are capable of identifying useful TF binding site by using MEME technique, and b) computing a score indicating the likelihood of a given sequence being a useful binding site by using CNN technique. The proposed CnNet approach predicts the TF binding score with much better accuracy compared to existing approaches.",
+  "abstract_zh": "控制基因表达是生物体中最重要的发展过程，这使得更容易发现不同类型的疾病及其成因。然而，确定哪些因素控制基因表达非常困难。转录因子（Transcription Factor, TF）是一种在基因表达中起重要作用的蛋白质。发现转录因子具有巨大的生物学意义，但开发新颖技术和评估生物结构中的调控发展仍具挑战性。在本研究中，我们主要关注可通过“深度学习”技术从实验数据中确定的“序列特异性”，这些技术提供了一种可扩展、灵活且统一的计算方法来预测转录因子结合。具体而言，我们采用了结合卷积神经网络（Convolution Neural Network, CNN）的基序发现技术——多重表达基序启发（MEME），命名为CnNet，用于发现DNA基因序列数据集的“序列特异性”。该过程包括两个步骤：a) 使用MEME技术发现能够识别有用TF结合位点的基序，以及b) 使用CNN技术计算给定序列成为有用结合位点的可能性评分。与现有方法相比，所提出的CnNet方法在预测TF结合评分方面具有更高的准确性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38848239/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38848239/",
+  "paper_page_path": "papers/pubmed/38848239/index.html"
+}

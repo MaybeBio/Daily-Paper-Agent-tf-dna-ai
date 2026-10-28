@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Technical soundness, methodological novelty, experimental validation, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors propose DeepNup, a deep learning method combining one-hot and trinucleotide composition encoding with multi-scale convolutional neural networks and gated recurrent units, to predict nucleosome positioning from DNA sequences. They report improved performance over two baseline methods on benchmark datasets.
+- **Visible evidence base** Full text including methods, results, tables referenced (Tables 1-7), figures referenced (Figures 1-2), and equations
+- **Missing materials affecting confidence** Actual tables and figures are not provided; only references to them exist in the text. Supplementary materials, hyperparameter details, and code verification are not accessible.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a reasonable engineering contribution applying established deep learning components to nucleosome positioning prediction. The architecture combines known techniques without clear methodological innovation. The experimental validation is limited to two baseline comparisons, and several claims about performance improvement are not fully supported by the evidence presented. The writing is generally clear but contains inconsistencies and technical inaccuracies that need correction.
+- **Who would be interested in the results, and why** Researchers in computational genomics and epigenetics who use sequence-based prediction tools. The work may be of interest to those seeking practical tools for nucleosome annotation, though the incremental improvement over existing methods appears modest.
+- **Major strengths** The manuscript addresses a relevant biological problem with practical implications. The hybrid encoding scheme is a sensible approach to capture both positional and compositional information. The use of multi-scale convolutions and GRUs is appropriate for capturing local and long-range sequence features. The authors provide source code, supporting reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DeepNup achieves "better performance" than state-of-the-art methods across benchmark datasets
+  - **Evidence pointer** Tables 4-7, Section 3.3
+  - **Concern** The comparison with baseline methods is incomplete. Only two baselines are used, and the statistical significance of performance differences is not assessed. No confidence intervals or variance measures are reported. The claim of superiority cannot be evaluated without knowing whether differences are meaningful.
+  - **Why it matters** Without statistical validation, the central claim of improved performance is not established. Readers cannot determine whether observed differences are due to method superiority or random variation.
+  - **Resolution test** Provide statistical significance testing (e.g., paired tests across cross-validation folds), report variance across folds, and include additional state-of-the-art baselines for comprehensive comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The description of the MCNN module and its output dimensions
+  - **Evidence pointer** Section 2.2.1, Figure 1
+  - **Concern** The text states that for a 147x4 input, each channel produces a 36x50 matrix, and concatenation yields a 72x50 matrix. However, the GRU layer expects sequential input, and the transition from a 72x50 matrix to GRU input is not clearly explained. The dimensional flow through the network is ambiguous.
+  - **Why it matters** Reproducibility requires a clear understanding of tensor shapes and how data flows between components. The current description is insufficient for independent implementation.
+  - **Resolution test** Provide a clear layer-by-layer specification with input and output dimensions for each operation, or include a detailed architecture table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The evaluation on DatasetNup_3 is described as verifying robustness
+  - **Evidence pointer** Section 3.3.3, Table 7
+  - **Concern** The construction of DatasetNup_3 is described briefly. Negative samples were "randomly selected from the same chromosome," but the criteria for ensuring they are true linker sequences are not specified. This could introduce label noise that biases results.
+  - **Why it matters** If negative samples are not validated as genuine linker regions, the dataset may not accurately represent the classification problem, undermining the validity of the robustness claim.
+  - **Resolution test** Describe the negative sample selection criteria in detail, including any filtering steps to exclude ambiguous regions, and justify that selected negatives are reliable.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The claim that DeepNup is a "novel" method
+  - **Evidence pointer** Section 1, Section 2
+  - **Concern** The architecture combines existing components: one-hot encoding, trinucleotide composition, CNN, and GRU. Each component is well-established. The novelty appears to be in the specific combination and parameter choices rather than in any fundamentally new approach.
+  - **Why it matters** For a Nature-style venue, the incremental nature of the contribution may limit its significance. The authors should more clearly articulate what is genuinely new about their approach.
+  - **Resolution test** Clearly state the specific novel contributions beyond combining existing methods, and discuss why this combination is non-obvious.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1.1
+  - **Evidence pointer** Text
+  - **Issue** The one-hot encoding description contains an error: "′T’ are encoded by (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), and (0, 0, 0, 0, 1)" lists four vectors but the last has five elements.
+  - **Required correction** Correct the vector for T to (0, 0, 0, 1).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Text
+  - **Issue** The text states "five evaluation metrics" but then lists six: Sn, Sp, ACC, MCC, F1_Score, and AUROC.
+  - **Required correction** Correct the count to six or remove one metric.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Text
+  - **Issue** The learning rate is stated as 3e-3, which is unusually high for Adam. No learning rate schedule or warmup is described.
+  - **Required correction** Clarify whether this is the initial learning rate and describe any scheduling. If this value is correct, provide justification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3.1
+  - **Evidence pointer** Text
+  - **Issue** The text mentions comparing k=3 and k=5 for trinucleotide composition, but the results for k=5 are not shown in the text.
+  - **Required correction** Either include the k=5 results or state that they are omitted for brevity and available in supplementary materials.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4
+  - **Evidence pointer** Text
+  - **Issue** The conclusion mentions "two benchmark datasets" but the paper also introduces DatasetNup_3, making it three datasets total.
+  - **Required correction** Clarify whether DatasetNup_3 is considered a benchmark dataset or an additional validation set.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure is referenced but not provided in the manuscript text. The architecture description relies heavily on this figure.
+  - **Required correction** Ensure the figure is included and clearly labeled, or provide a textual description of the full architecture.
+
+## Risk / unsupported claims
+- The claim of "better performance" over state-of-the-art methods is not statistically validated and is based on comparison with only two baselines.
+- The claim of "strong robustness" based on DatasetNup_3 is weakened by unclear negative sample construction.
+- The claim of novelty is not clearly articulated beyond combining existing components.
+- The performance on DatasetNup_2 is acknowledged as "relatively worse," which is inconsistent with the overall claim of superiority.
+- The statement that "approximately 75% of nucleosomes are characterized by DNA sequences" is cited but not critically discussed in the context of the method's assumptions.
+- The potential for cross-species generalization is mentioned as a limitation but not experimentally addressed, despite being a known issue for such methods.
+
+## Assessment against Nature-style criteria
+- **Originality** Limited. The method combines existing deep learning components without introducing a fundamentally new approach. The specific combination may be useful but does not represent a conceptual advance.
+- **Scientific importance** Moderate. Nucleosome positioning prediction is a relevant problem, but the incremental improvement over existing tools is unlikely to change the field significantly.
+- **Interdisciplinary readership** Narrow. The work is primarily of interest to computational biologists working on nucleosome prediction. The methods are not broadly applicable beyond this specific task.
+- **Technical soundness** Questionable. Several technical details are unclear or inconsistent, including tensor dimensions, metric counts, and dataset construction. Statistical validation is absent.
+- **Readability for nonspecialists** Acceptable. The writing is generally clear, though some sections assume familiarity with deep learning terminology. The biological context is adequately introduced.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript describes a plausible engineering effort, but the central claims of improved performance and robustness are not adequately supported. Technical inconsistencies and lack of statistical validation prevent a positive recommendation. The authors should address the major concerns, particularly around experimental rigor and clarity of the architecture description, before the case for the method's utility can be made.

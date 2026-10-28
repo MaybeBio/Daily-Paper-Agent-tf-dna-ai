@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "39490391",
+    "doi": "10.1016/j.scitotenv.2024.177145",
+    "title": "Prediction of cytotoxicity of polycyclic aromatic hydrocarbons from first principles."
+  },
+  "content": {
+    "abstract": "Ligand-specific binding interactions of xenobiotics with receptor proteins form the basis of cytotoxicity-based hazard assessment. Computational approaches enable predictive hazard assessment for a large number of chemicals in a high-throughput manner, minimizing the use of animal testing. However, in silico models for predicting mechanisms of toxic actions and potencies are difficult to develop because toxicity datasets or comprehensive understanding of the complicated kinetic process of ligand-receptor interactions are needed for model development. In this study, a directional reactive binding factor (DRBF) model based on first principles was used to predict cytotoxicity potencies of agonists of the aryl hydrocarbon receptor (AhR) for 16 different polycyclic aromatic hydrocarbons (PAHs). Molecular dynamics were simulated by accounting for the directional configuration factor toward receptor protein and the factor of binding to the Per-Arnt-Sim (PAS) domain. When comparing the experimental results of toxic potencies from in vitro bioassays with the predictions among two different in silico models, including quantitative structure-activity relationship (QSAR) and molecular docking models, the DRBF model exhibited the highest model performance (R(2) = 0.90 and p < 0.01). Our results showed that the DRBF model based on first principles and molecular and computational structural biology could serve as a novel framework to advance next generation hazard assessment for high-throughput screening of chemical substances.",
+    "keywords": [
+      "Aryl hydrocarbon receptor-mediated activity",
+      "Density functional theory",
+      "First principle",
+      "H4IIE-luc transactivation bioassay",
+      "Polycyclic aromatic hydrocarbons"
+    ],
+    "mesh_terms": [
+      "*Polycyclic Aromatic Hydrocarbons/toxicity",
+      "*Quantitative Structure-Activity Relationship",
+      "*Receptors, Aryl Hydrocarbon/metabolism",
+      "*Molecular Docking Simulation",
+      "Environmental Pollutants/toxicity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Taewoo",
+        "Zhen, Juyuan",
+        "Lee, Junghyun",
+        "Park, Shin Yeong",
+        "Lee, Changkeun",
+        "Kwon, Bong-Oh",
+        "Hong, Seongjin",
+        "Shin, Hyeong-Moo",
+        "Giesy, John P",
+        "Chang, Gap Soo",
+        "Khim, Jong Seong"
+      ],
+      "short_names": [
+        "Kim T",
+        "Zhen J",
+        "Lee J",
+        "Park SY",
+        "Lee C",
+        "Kwon BO",
+        "Hong S",
+        "Shin HM",
+        "Giesy JP",
+        "Chang GS",
+        "Khim JS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Earth and Environmental Sciences & Research Institute of Oceanography, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Department of Physics and Engineering Physics, University of Saskatchewan, Saskatoon, SK, S7N5E2, Canada.",
+        "Department of Environmental Education, Kongju National University, Gongju 32588, Republic of Korea.",
+        "School of Earth and Environmental Sciences & Research Institute of Oceanography, Seoul National University, Seoul 08826, Republic of Korea.",
+        "School of Earth and Environmental Sciences & Research Institute of Oceanography, Seoul National University, Seoul 08826, Republic of Korea.",
+        "Department of Marine Biotechnology, Kunsan National University, Kunsan 54150, Republic of Korea.",
+        "Department of Marine Environmental Sciences, Chungnam National University, Daejeon 34134, Republic of Korea.",
+        "Department of Environmental Science, Baylor University, Waco, TX 76798, United States.",
+        "Department of Environmental Science, Baylor University, Waco, TX 76798, United States; Department of Veterinary Biomedical Sciences & Toxicology Centre, University of Saskatchewan, Saskatoon, Saskatchewan S7N5B3, Canada; Department of Integrative Biology and Center for Integrative Toxicology, Michigan State University, East Lansing, MI 48824, United States.",
+        "Department of Physics and Engineering Physics, University of Saskatchewan, Saskatoon, SK, S7N5E2, Canada. Electronic address: gapsoo.chang@usask.ca.",
+        "School of Earth and Environmental Sciences & Research Institute of Oceanography, Seoul National University, Seoul 08826, Republic of Korea. Electronic address: jskocean@snu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Taewoo",
+        "short_name": "Kim T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Earth and Environmental Sciences & Research Institute of Oceanography, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Zhen, Juyuan",
+        "short_name": "Zhen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Engineering Physics, University of Saskatchewan, Saskatoon, SK, S7N5E2, Canada."
+        ]
+      },
+      {
+        "full_name": "Lee, Junghyun",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Education, Kongju National University, Gongju 32588, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Shin Yeong",
+        "short_name": "Park SY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Earth and Environmental Sciences & Research Institute of Oceanography, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Changkeun",
+        "short_name": "Lee C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Earth and Environmental Sciences & Research Institute of Oceanography, Seoul National University, Seoul 08826, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Bong-Oh",
+        "short_name": "Kwon BO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Marine Biotechnology, Kunsan National University, Kunsan 54150, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hong, Seongjin",
+        "short_name": "Hong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Marine Environmental Sciences, Chungnam National University, Daejeon 34134, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Shin, Hyeong-Moo",
+        "short_name": "Shin HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Science, Baylor University, Waco, TX 76798, United States."
+        ]
+      },
+      {
+        "full_name": "Giesy, John P",
+        "short_name": "Giesy JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Science, Baylor University, Waco, TX 76798, United States; Department of Veterinary Biomedical Sciences & Toxicology Centre, University of Saskatchewan, Saskatoon, Saskatchewan S7N5B3, Canada; Department of Integrative Biology and Center for Integrative Toxicology, Michigan State University, East Lansing, MI 48824, United States."
+        ]
+      },
+      {
+        "full_name": "Chang, Gap Soo",
+        "short_name": "Chang GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Engineering Physics, University of Saskatchewan, Saskatoon, SK, S7N5E2, Canada. Electronic address: gapsoo.chang@usask.ca."
+        ]
+      },
+      {
+        "full_name": "Khim, Jong Seong",
+        "short_name": "Khim JS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Earth and Environmental Sciences & Research Institute of Oceanography, Seoul National University, Seoul 08826, Republic of Korea. Electronic address: jskocean@snu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Science of the total environment"
+    ],
+    "journal_abbrev": [
+      "Sci Total Environ"
+    ],
+    "pub_date": "2024 Dec 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 00:31",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39490391",
+      "26037956",
+      "16704060",
+      "33359989",
+      "24408822",
+      "29334126",
+      "25108069",
+      "27692884",
+      "27537986",
+      "31195230",
+      "11525907",
+      "39407548",
+      "19368229",
+      "21590714",
+      "35739584",
+      "35738365",
+      "31419470",
+      "29606035",
+      "15504500",
+      "19365803",
+      "24522011",
+      "31051210",
+      "32796895",
+      "22328298",
+      "39092785",
+      "15579409",
+      "21489634",
+      "34481160",
+      "23987121",
+      "30098559",
+      "31830554",
+      "34502366",
+      "21762708",
+      "16687390",
+      "34030261",
+      "30715715",
+      "31675573",
+      "27810545",
+      "32354640",
+      "20935161",
+      "34843781",
+      "23512538",
+      "22503158",
+      "33396476",
+      "17454365",
+      "34739213",
+      "23542445",
+      "28710019",
+      "35077967",
+      "38458465",
+      "29630969",
+      "36585251",
+      "22761424",
+      "27295348",
+      "30611761",
+      "32409577",
+      "12223212",
+      "30248604",
+      "27919191",
+      "32032812",
+      "32093017",
+      "20728228",
+      "23666634",
+      "35500338",
+      "35501431",
+      "12673023",
+      "10771140",
+      "15581594",
+      "34991250",
+      "29501585",
+      "25645060",
+      "27043777",
+      "26141390",
+      "31408817",
+      "17365967",
+      "33182092",
+      "37316629",
+      "33408298",
+      "30576387",
+      "12117779",
+      "11812924",
+      "35714684",
+      "29308921",
+      "23925657",
+      "26706770",
+      "32252465",
+      "30790110",
+      "38569320",
+      "30648756",
+      "28834568",
+      "19428948",
+      "25111307",
+      "16650473",
+      "27038213",
+      "18569619",
+      "20605646",
+      "17431010",
+      "16225999",
+      "26408977",
+      "24449130"
+    ],
+    "review": [
+      "39490391",
+      "34502366",
+      "32354640",
+      "38458465",
+      "27919191",
+      "15581594",
+      "35714684",
+      "27038213"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0048-9697(24)07302-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-395",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "34035047",
+    "doi": "10.1101/gr.271874.120",
+    "title": "A joint deep learning model enables simultaneous batch effect correction, denoising, and clustering in single-cell transcriptomics."
+  },
+  "content": {
+    "abstract": "Recent developments of single-cell RNA-seq (scRNA-seq) technologies have led to enormous biological discoveries. As the scale of scRNA-seq studies increases, a major challenge in analysis is batch effects, which are inevitable in studies involving human tissues. Most existing methods remove batch effects in a low-dimensional embedding space. Although useful for clustering, batch effects are still present in the gene expression space, leaving downstream gene-level analysis susceptible to batch effects. Recent studies have shown that batch effect correction in the gene expression space is much harder than in the embedding space. Methods such as Seurat 3.0 rely on the mutual nearest neighbor (MNN) approach to remove batch effects in gene expression, but MNN can only analyze two batches at a time, and it becomes computationally infeasible when the number of batches is large. Here, we present CarDEC, a joint deep learning model that simultaneously clusters and denoises scRNA-seq data while correcting batch effects both in the embedding and the gene expression space. Comprehensive evaluations spanning different species and tissues showed that CarDEC outperforms Scanorama, DCA + Combat, scVI, and MNN. With CarDEC denoising, non-highly variable genes offer as much signal for clustering as the highly variable genes (HVGs), suggesting that CarDEC substantially boosted information content in scRNA-seq. We also showed that trajectory analysis using CarDEC's denoised and batch-corrected expression as input revealed marker genes and transcription factors that are otherwise obscured in the presence of batch effects. CarDEC is computationally fast, making it a desirable tool for large-scale scRNA-seq studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Cluster Analysis",
+      "*Deep Learning",
+      "Gene Expression Profiling/methods",
+      "Sequence Analysis, RNA/methods",
+      "Single-Cell Analysis/methods",
+      "*Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lakkis, Justin",
+        "Wang, David",
+        "Zhang, Yuanchao",
+        "Hu, Gang",
+        "Wang, Kui",
+        "Pan, Huize",
+        "Ungar, Lyle",
+        "Reilly, Muredach P",
+        "Li, Xiangjie",
+        "Li, Mingyao"
+      ],
+      "short_names": [
+        "Lakkis J",
+        "Wang D",
+        "Zhang Y",
+        "Hu G",
+        "Wang K",
+        "Pan H",
+        "Ungar L",
+        "Reilly MP",
+        "Li X",
+        "Li M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9600-8984"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA.",
+        "Graduate Group in Genomics and Computational Biology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA.",
+        "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA.",
+        "School of Statistics and Data Science, Key Laboratory for Medical Data Analysis and Statistical Research of Tianjin, Nankai University, Tianjin 300071, China.",
+        "Department of Information Theory and Data Science, School of Mathematical Sciences and LPMC, Nankai University, Tianjin 300071, China.",
+        "Division of Cardiology, Department of Medicine, Columbia University Irving Medical Center, New York, New York 10032, USA.",
+        "Department of Computer and Information Science, School of Engineering and Applied Sciences, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA.",
+        "Division of Cardiology, Department of Medicine, Columbia University Irving Medical Center, New York, New York 10032, USA.",
+        "School of Statistics and Data Science, Key Laboratory for Medical Data Analysis and Statistical Research of Tianjin, Nankai University, Tianjin 300071, China.",
+        "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lakkis, Justin",
+        "short_name": "Lakkis J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, David",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Group in Genomics and Computational Biology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuanchao",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Gang",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Statistics and Data Science, Key Laboratory for Medical Data Analysis and Statistical Research of Tianjin, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kui",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Theory and Data Science, School of Mathematical Sciences and LPMC, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Huize",
+        "short_name": "Pan H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Department of Medicine, Columbia University Irving Medical Center, New York, New York 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Ungar, Lyle",
+        "short_name": "Ungar L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer and Information Science, School of Engineering and Applied Sciences, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Reilly, Muredach P",
+        "short_name": "Reilly MP",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Department of Medicine, Columbia University Irving Medical Center, New York, New York 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangjie",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0002-9600-8984"
+        ],
+        "affiliations": [
+          "School of Statistics and Data Science, Key Laboratory for Medical Data Analysis and Statistical Research of Tianjin, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mingyao",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2021 Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/27 06:00",
+    "fetched_at": "2026-09-27 18:07:38"
+  },
+  "links": {
+    "cites": [
+      "42059480",
+      "41756915",
+      "41387122",
+      "41340965",
+      "41219276",
+      "40991329",
+      "40954300",
+      "40903792",
+      "40811359",
+      "40718702",
+      "40715263",
+      "40379648",
+      "40060412",
+      "39961022",
+      "39523623",
+      "39494609",
+      "39169166",
+      "39105287",
+      "39060167",
+      "39015742",
+      "38725155",
+      "38686559",
+      "38552307",
+      "38483255",
+      "38385291",
+      "38187768",
+      "37730638",
+      "37533101",
+      "37502836",
+      "37117305",
+      "36825815",
+      "36810607",
+      "36747625",
+      "36553532",
+      "36528240",
+      "36463283",
+      "36426870",
+      "36414658",
+      "35561178",
+      "34599006",
+      "34285782"
+    ],
+    "refs": [
+      "34949812",
+      "32393754",
+      "32341560",
+      "32033589",
+      "31937974",
+      "31740819",
+      "31597962",
+      "31400197",
+      "31308548",
+      "31178122",
+      "31178118",
+      "31061482",
+      "30787437",
+      "30712875",
+      "30674886",
+      "30504886",
+      "29946020",
+      "29855333",
+      "29608177",
+      "29409532",
+      "29121214",
+      "27864352",
+      "27693023",
+      "27667667",
+      "27345837",
+      "21653326",
+      "16632515"
+    ],
+    "similar": [
+      "34035047",
+      "36810607",
+      "35821114",
+      "37991248",
+      "39036845",
+      "36627114",
+      "29608177",
+      "36734596",
+      "34447413",
+      "33839756",
+      "38778573",
+      "31405383",
+      "39373051",
+      "39461162",
+      "37313714",
+      "32591778",
+      "40426257",
+      "40671174",
+      "36715275",
+      "40057293",
+      "32532794",
+      "35771600",
+      "36631401",
+      "32393754",
+      "34472585",
+      "36534702",
+      "35302164",
+      "29036318",
+      "38386700",
+      "40728858",
+      "33535230",
+      "36592058",
+      "37751336",
+      "38439545",
+      "34929734",
+      "34752401",
+      "31243426",
+      "39226348",
+      "37948464",
+      "37080771",
+      "38168839",
+      "37486829",
+      "33822877",
+      "34864918",
+      "35443717",
+      "38834657",
+      "39504481",
+      "37769630",
+      "31061482",
+      "39487083",
+      "40468846",
+      "40623818",
+      "36869836",
+      "36284276",
+      "37946133",
+      "36528240",
+      "40977264",
+      "35216199",
+      "37898127",
+      "36047285",
+      "38892162",
+      "41257571",
+      "38632952",
+      "39060167",
+      "33098418",
+      "32235704",
+      "38104057",
+      "35419595",
+      "36198490",
+      "40152244",
+      "40499345",
+      "36982574",
+      "38128706",
+      "40838782",
+      "35524494",
+      "34044773",
+      "31068142",
+      "38668977",
+      "41462067",
+      "36774895",
+      "39327063",
+      "33835452",
+      "38111007",
+      "35901457",
+      "37015582",
+      "36377123",
+      "37127578",
+      "39561511",
+      "32674393",
+      "35537690",
+      "39466833",
+      "37030268",
+      "35777719",
+      "33767149",
+      "39402696",
+      "34999761",
+      "37856458",
+      "38684178",
+      "40713495",
+      "37656653"
+    ],
+    "review": [
+      "34035047",
+      "31243426"
+    ],
+    "pmc": [
+      "8494213"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=34035047",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34035047/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34035047",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_cardec",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/34035047",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

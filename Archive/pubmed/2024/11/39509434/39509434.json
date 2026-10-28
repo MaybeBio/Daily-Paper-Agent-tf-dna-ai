@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "39509434",
+    "doi": "10.1371/journal.pone.0313344",
+    "title": "The shared biomarkers and immune landscape in psoriatic arthritis and rheumatoid arthritis: Findings based on bioinformatics, machine learning and single-cell analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Psoriatic arthritis (PsA) and rheumatoid arthritis (RA) are the most common types of inflammatory musculoskeletal disorders that share overlapping clinical features and complications. The aim of this study was to identify shared marker genes and mechanistic similarities between PsA and RA. METHODS: We utilized datasets from the Gene Expression Omnibus (GEO) database to identify differentially expressed genes (DEGs) and perform functional enrichment analyses. To identify the marker genes, we applied two machine learning algorithms: the least absolute shrinkage and selection operator (LASSO) and the support vector machine recursive feature elimination (SVM-RFE). Subsequently, we assessed the diagnostic capacity of the identified marker genes using the receiver operating characteristic (ROC) curve and decision curve analysis (DCA). A transcription factor (TF) network was constructed using data from JASPAR, HumanTFDB, and GTRD. We then employed CIBERSORT to analyze the abundance of immune infiltrates in PsA and RA, assessing the relationship between marker genes and immune cells. Additionally, cellular subpopulations were identified by analyzing single-cell sequencing data from RA, with T cells examined for trajectory and cellular communication using Monocle and CellChat, thereby exploring their linkage to marker genes. RESULTS: A total of seven overlapping DEGs were identified between PsA and RA. Gene enrichment analysis revealed that these genes were associated with mitochondrial respiratory chain complex IV, Toll-like receptors, and NF-kappaB signaling pathways. Both machine learning algorithms identified Ribosomal Protein L22-like 1 (RPL22L1) and Lymphocyte Antigen 96 (LY96) as potential diagnostic markers for PsA and RA. These markers were validated using test sets and experimental approaches. Furthermore, GSEA analysis indicated that gap junctions may play a crucial role in the pathogenesis of both conditions. The TF network suggested a potential association between marker genes and core enrichment genes related to gap junctions. The application of CIBERSORT and single-cell RNA sequencing provided a comprehensive understanding of the role of marker genes in immune cell function. Our results indicated that RPL22L1 and LY96 are involved in T cell development and are associated with T cell communication with NK cells and monocytes. Notably, high expression of both RPL22L1 and LY96 was linked to enhanced VEGF signaling in T cells. CONCLUSION: Our study identified RPL22L1 and LY96 as key biomarkers for PsA and RA. Further investigations demonstrated that these two marker genes are closely associated with gap junction function, T cell infiltration, differentiation, and VEGF signaling. Collectively, these findings provide new insights into the diagnosis and treatment of PsA and RA.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Arthritis, Psoriatic/genetics/immunology/diagnosis",
+      "Humans",
+      "*Arthritis, Rheumatoid/genetics/immunology/diagnosis",
+      "*Single-Cell Analysis/methods",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "*Biomarkers",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Kaiyi",
+        "Luo, Siyu",
+        "Wang, Qinxiao",
+        "Fang, Sheng"
+      ],
+      "short_names": [
+        "Zhou K",
+        "Luo S",
+        "Wang Q",
+        "Fang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1098-7542"
+      ],
+      "affiliations": [
+        "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Kaiyi",
+        "short_name": "Zhou K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Siyu",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qinxiao",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Sheng",
+        "short_name": "Fang S",
+        "identifiers": [
+          "0000-0003-1098-7542"
+        ],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:58",
+    "fetched_at": "2026-09-30 05:56:55"
+  },
+  "links": {
+    "cites": [
+      "42359679",
+      "42064079",
+      "41816337"
+    ],
+    "refs": [
+      "39145452",
+      "35973992",
+      "35720370",
+      "35371093",
+      "35296075",
+      "35046107",
+      "35015026",
+      "34631754",
+      "34583778",
+      "34428762",
+      "34220809",
+      "34114357",
+      "33868244",
+      "33609792",
+      "33597522",
+      "33257900",
+      "32305454",
+      "32229290",
+      "32079570",
+      "30935055",
+      "30709614",
+      "29893226",
+      "29255213",
+      "28878685",
+      "28733473",
+      "28642278",
+      "28273019",
+      "27225300",
+      "26830904",
+      "26771021",
+      "26016412",
+      "25934385",
+      "25822800",
+      "25451770",
+      "25178435",
+      "24907368",
+      "23449473",
+      "23183378",
+      "23165424",
+      "22133017",
+      "21513712",
+      "21298446",
+      "20808728",
+      "20443998",
+      "20198289",
+      "20093834",
+      "19942450",
+      "19686039",
+      "18484659",
+      "17692539",
+      "17467043",
+      "16861707",
+      "16021111",
+      "15708927",
+      "15025424",
+      "15010525",
+      "14597658",
+      "12832707",
+      "12639988",
+      "12110146",
+      "11696430",
+      "11247858",
+      "10648018"
+    ],
+    "similar": [
+      "39509434",
+      "38711508",
+      "40500570",
+      "39139563",
+      "42243611",
+      "42483176",
+      "41816328",
+      "41388523",
+      "39170142",
+      "42642681",
+      "39507054",
+      "38656728",
+      "42251905",
+      "39375405",
+      "41066424",
+      "41200172",
+      "39466354",
+      "39142001",
+      "41913032",
+      "42340574",
+      "40997906",
+      "41637423",
+      "40312440",
+      "41146237",
+      "40849565",
+      "42450069",
+      "42706545",
+      "39845946",
+      "38867322",
+      "40596265",
+      "41988156",
+      "40360670",
+      "39396400",
+      "34767108",
+      "42327749",
+      "41291841",
+      "34691030",
+      "41479901",
+      "40238799",
+      "42528732",
+      "40313958",
+      "41021591",
+      "38962008",
+      "35713363",
+      "41116042",
+      "39953769",
+      "41563994",
+      "38371524",
+      "35434133",
+      "42292668",
+      "39351221",
+      "41957428",
+      "40830558",
+      "42059276",
+      "40475761",
+      "38941374",
+      "40406620",
+      "40768057",
+      "40681713",
+      "39086489",
+      "40129981",
+      "41826854",
+      "41013556",
+      "42708302",
+      "33407587",
+      "41665627",
+      "36045515",
+      "35844557",
+      "41378005",
+      "38767974",
+      "41703488",
+      "41299753",
+      "41068798",
+      "38863714",
+      "34484236",
+      "42302029",
+      "34107850",
+      "36532018",
+      "40097519",
+      "42583273",
+      "42216376",
+      "39586719",
+      "40860289",
+      "38283345",
+      "40644421",
+      "37779906",
+      "42236612",
+      "36238290",
+      "38273392",
+      "40362543",
+      "40592131",
+      "41667698",
+      "42367122",
+      "36532015",
+      "42003657",
+      "41212891",
+      "41120378",
+      "40263537",
+      "36224010",
+      "39923303"
+    ],
+    "review": [
+      "39509434",
+      "41665627"
+    ],
+    "pmc": [
+      "11542839"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0313344",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39509434/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PSAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

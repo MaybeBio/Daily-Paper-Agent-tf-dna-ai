@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39684741",
+  "title": "Metabolomics-Based Machine Learning Models Accurately Predict Breast Cancer Estrogen Receptor Status.",
+  "authors": "Arumalla, Kamala K; Haince, Jean-Francois; Bux, Rashid A; Huang, Guoyu; Tappia, Paramjit S; Ramjiawan, Bram; Ford, W Randolph; Vaida, Maria",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2024-12-17",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用代谢组学数据与机器学习预测乳腺癌ER状态，不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "Breast cancer is a global concern as a leading cause of death for women. Early and precise diagnosis can be vital in handling the disease efficiently. Breast cancer subtyping based on estrogen receptor (ER) status is crucial for determining prognosis and treatment. This study uses metabolomics data from plasma samples to detect metabolite biomarkers that could distinguish ER-positive from ER-negative breast cancers in a non-invasive manner. The dataset includes demographic information, ER status, and metabolite levels from 188 breast cancer patients and 73 healthy controls. Recursive Feature Elimination (RFE) with a Random Forest (RF) classifier identified an optimal subset of 30 features-29 biomarkers and age-that achieved the highest area under the curve (AUC). To address the class imbalance, Gaussian noise-based augmentation and Adaptive Synthetic Oversampling (ADASYN) were applied, ensuring balanced representation during training. Four machine learning (ML) algorithms-Random Forest, Support Vector Classifier (SVC), XGBoost, and Logistic Regression (LR)-were evaluated using grid search. The Random Forest classifier emerged as the top performer, achieving an AUC of 0.95 and an accuracy of 93%. These results suggest that ML has great promise for identifying specific metabolites linked to ER expression, paving the development of a novel analytical tool that can minimize current challenges in identifying ER status, and improve the precision of breast cancer subtyping.",
+  "abstract_zh": "乳腺癌作为女性死亡的主要原因，是全球关注的焦点。早期且精确的诊断对于有效处理该疾病至关重要。基于雌激素受体（estrogen receptor, ER）状态的乳腺癌亚型分型对于确定预后和治疗方案至关重要。本研究利用血浆样本的代谢组学数据，以非侵入性方式检测能够区分ER阳性和ER阴性乳腺癌的代谢物生物标志物。数据集包括188名乳腺癌患者和73名健康对照者的人口统计学信息、ER状态和代谢物水平。采用随机森林（Random Forest, RF）分类器的递归特征消除（Recursive Feature Elimination, RFE）方法，识别出30个特征（29个生物标志物和年龄）的最优子集，该子集达到了最高的曲线下面积（area under the curve, AUC）。为解决类别不平衡问题，应用了基于高斯噪声的增强和自适应合成过采样（Adaptive Synthetic Oversampling, ADASYN），确保训练期间的代表性平衡。使用网格搜索评估了四种机器学习（machine learning, ML）算法——随机森林、支持向量分类器（Support Vector Classifier, SVC）、XGBoost和逻辑回归（Logistic Regression, LR）。随机森林分类器表现最佳，AUC达到0.95，准确率为93%。这些结果表明，机器学习在识别与ER表达相关的特定代谢物方面具有巨大潜力，为开发一种新型分析工具铺平了道路，该工具可减少当前识别ER状态面临的挑战，并提高乳腺癌亚型分型的精确性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39684741/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39684741/",
+  "paper_page_path": "papers/pubmed/39684741/index.html"
+}

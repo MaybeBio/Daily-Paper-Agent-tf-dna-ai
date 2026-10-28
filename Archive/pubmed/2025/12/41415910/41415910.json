@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "41415910",
+    "doi": "10.1039/d5sc08567e",
+    "title": "Structural dynamics of DNA mimic foldamers."
+  },
+  "content": {
+    "abstract": "DNA mimic foldamers are helically folded aromatic oligoamides bearing negatively charged side chains that mimic the shape and charge distribution of double-stranded B-DNA. They have been shown to bind to some DNA-binding proteins better than DNA itself and thus have potential to interfere with DNA-protein interactions. Their structure has been previously characterized in detail by X-ray crystallography. We have now investigated their structural dynamics both computationally and experimentally. The force field parameters of the building blocks required for DNA mimicry were optimized and implemented in AMBER to perform molecular dynamics simulations of the foldamer helices. The position of the negatively charged side chains on the helix, the charge state of the side chains, and the presence of salt were systematically varied. The simulations revealed that the global flexibility parameters for twisting and bending of the foldamer helices are of similar magnitude to those of B-DNA, though distinct kinking events and motions are involved. A range of sequences were then prepared for experimental investigations using (1)H NMR, UV-vis absorption and circular dichroism spectroscopies. Measurements revealed that the foldamer helices are stable over a broad range of temperature, pH and salt conditions in aqueous solutions, but that they nevertheless undergo structural changes when conditions are modified. An assay was developed to quantitatively assess foldamer helix stability through the measurement of the rate of interconversion between right-handed and left-handed diastereomeric conformers. Unexpectedly, suppressing some negatively charged side chains had a destabilizing effect on the helix, suggesting a more complex role of the side chains than electrostatic repulsions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Loos, Manuel",
+        "Thurecht, Lion",
+        "Wu, Jiaojiao",
+        "Corvaglia, Valentina",
+        "Liu, Zhiwei",
+        "Pophristic, Vojislava",
+        "Zacharias, Martin",
+        "Huc, Ivan"
+      ],
+      "short_names": [
+        "Loos M",
+        "Thurecht L",
+        "Wu J",
+        "Corvaglia V",
+        "Liu Z",
+        "Pophristic V",
+        "Zacharias M",
+        "Huc I"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6180-5975",
+        "ORCID: 0000-0001-7036-9696"
+      ],
+      "affiliations": [
+        "Department Pharmazie, Ludwig-Maximilians-Universitat Munchen Butenandtstr. 5-13 81377 Munchen Germany ivan.huc@cup.lmu.de.",
+        "Physik-Department and Center of Protein Assemblies, Technische Universitat Munchen James Franck Str. 1 85748 Garching Germany martin.zacharias@mytum.de.",
+        "Department Pharmazie, Ludwig-Maximilians-Universitat Munchen Butenandtstr. 5-13 81377 Munchen Germany ivan.huc@cup.lmu.de.",
+        "Department Pharmazie, Ludwig-Maximilians-Universitat Munchen Butenandtstr. 5-13 81377 Munchen Germany ivan.huc@cup.lmu.de.",
+        "Department of Chemistry & Biochemistry, Rowan University 201 Mullica Hill Road Glassboro New Jersey 08028 USA.",
+        "Department of Chemistry & Biochemistry, Rowan University 201 Mullica Hill Road Glassboro New Jersey 08028 USA.",
+        "Physik-Department and Center of Protein Assemblies, Technische Universitat Munchen James Franck Str. 1 85748 Garching Germany martin.zacharias@mytum.de.",
+        "Department Pharmazie, Ludwig-Maximilians-Universitat Munchen Butenandtstr. 5-13 81377 Munchen Germany ivan.huc@cup.lmu.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Loos, Manuel",
+        "short_name": "Loos M",
+        "identifiers": [],
+        "affiliations": [
+          "Department Pharmazie, Ludwig-Maximilians-Universität München Butenandtstr. 5-13 81377 München Germany ivan.huc@cup.lmu.de."
+        ]
+      },
+      {
+        "full_name": "Thurecht, Lion",
+        "short_name": "Thurecht L",
+        "identifiers": [],
+        "affiliations": [
+          "Physik-Department and Center of Protein Assemblies, Technische Universität München James Franck Str. 1 85748 Garching Germany martin.zacharias@mytum.de."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiaojiao",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department Pharmazie, Ludwig-Maximilians-Universität München Butenandtstr. 5-13 81377 München Germany ivan.huc@cup.lmu.de."
+        ]
+      },
+      {
+        "full_name": "Corvaglia, Valentina",
+        "short_name": "Corvaglia V",
+        "identifiers": [
+          "0000-0002-6180-5975"
+        ],
+        "affiliations": [
+          "Department Pharmazie, Ludwig-Maximilians-Universität München Butenandtstr. 5-13 81377 München Germany ivan.huc@cup.lmu.de."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiwei",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, Rowan University 201 Mullica Hill Road Glassboro New Jersey 08028 USA."
+        ]
+      },
+      {
+        "full_name": "Pophristic, Vojislava",
+        "short_name": "Pophristic V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, Rowan University 201 Mullica Hill Road Glassboro New Jersey 08028 USA."
+        ]
+      },
+      {
+        "full_name": "Zacharias, Martin",
+        "short_name": "Zacharias M",
+        "identifiers": [],
+        "affiliations": [
+          "Physik-Department and Center of Protein Assemblies, Technische Universität München James Franck Str. 1 85748 Garching Germany martin.zacharias@mytum.de."
+        ]
+      },
+      {
+        "full_name": "Huc, Ivan",
+        "short_name": "Huc I",
+        "identifiers": [
+          "0000-0001-7036-9696"
+        ],
+        "affiliations": [
+          "Department Pharmazie, Ludwig-Maximilians-Universität München Butenandtstr. 5-13 81377 München Germany ivan.huc@cup.lmu.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/19 06:30",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "42388815"
+    ],
+    "refs": [
+      "40346004",
+      "39901657",
+      "39714421",
+      "39143054",
+      "38193643",
+      "37650653",
+      "37035688",
+      "37024428",
+      "36521777",
+      "35847174",
+      "35733000",
+      "34203395",
+      "33972976",
+      "32910480",
+      "31073604",
+      "30578665",
+      "30094590",
+      "29610464",
+      "26574392",
+      "26568416",
+      "26507120",
+      "25313077",
+      "24766129",
+      "22531290",
+      "21462227",
+      "21142109",
+      "20574571",
+      "19530733",
+      "18726966",
+      "17718571",
+      "16815576",
+      "16159288",
+      "16075439",
+      "15116359",
+      "12643704",
+      "11021540",
+      "8689239"
+    ],
+    "similar": [
+      "41415910",
+      "38193643",
+      "39714421",
+      "24288253",
+      "32910480",
+      "37860656",
+      "39964779",
+      "31257622",
+      "40510324",
+      "28191927",
+      "30395443",
+      "40346004",
+      "29610464",
+      "30938392",
+      "30957386",
+      "15342239",
+      "29693388",
+      "28211205",
+      "28965410",
+      "38324342",
+      "27434817",
+      "24664416",
+      "36697518",
+      "7696459",
+      "18590282",
+      "29019673",
+      "7515684",
+      "31464009",
+      "27472456",
+      "24032461",
+      "17506537",
+      "16247825",
+      "26807531",
+      "31073604",
+      "18690750",
+      "9230486",
+      "30864801",
+      "12842476",
+      "23912807",
+      "28288277",
+      "20017540",
+      "37650653",
+      "28170240",
+      "14627831",
+      "26954326",
+      "22531290",
+      "31603686",
+      "28509549",
+      "18459803",
+      "17411061",
+      "11041845",
+      "37069245",
+      "37024428",
+      "19323529",
+      "11391564",
+      "18361513",
+      "21861531",
+      "26875119",
+      "29889349",
+      "26703882",
+      "14583049",
+      "28480699",
+      "15713093",
+      "24382641",
+      "35965255",
+      "27935190",
+      "37707879",
+      "39501876",
+      "10052609",
+      "35332956",
+      "25504756",
+      "10529232",
+      "18267131",
+      "18726966",
+      "40694481",
+      "7757012",
+      "30134071",
+      "39382569",
+      "6243083",
+      "30346756",
+      "28234005",
+      "31216034",
+      "30638532",
+      "28962533",
+      "15449933",
+      "15281129",
+      "19891487",
+      "39359059",
+      "21142109",
+      "36000151",
+      "27547649",
+      "23484047",
+      "38757406",
+      "32881144",
+      "21542644",
+      "37622187",
+      "17165764",
+      "24522514",
+      "38943628",
+      "27374725"
+    ],
+    "review": [
+      "41415910",
+      "28191927",
+      "18459803",
+      "10052609",
+      "6243083"
+    ],
+    "pmc": [
+      "12709542"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41415910/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d5sc08567e",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

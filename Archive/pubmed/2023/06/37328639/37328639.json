@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "37328639",
+    "doi": "10.1093/bib/bbad231",
+    "title": "DeepSTF: predicting transcription factor binding sites by interpretable deep neural networks combining sequence and shape."
+  },
+  "content": {
+    "abstract": "Precise targeting of transcription factor binding sites (TFBSs) is essential to comprehending transcriptional regulatory processes and investigating cellular function. Although several deep learning algorithms have been created to predict TFBSs, the models' intrinsic mechanisms and prediction results are difficult to explain. There is still room for improvement in prediction performance. We present DeepSTF, a unique deep-learning architecture for predicting TFBSs by integrating DNA sequence and shape profiles. We use the improved transformer encoder structure for the first time in the TFBSs prediction approach. DeepSTF extracts DNA higher-order sequence features using stacked convolutional neural networks (CNNs), whereas rich DNA shape profiles are extracted by combining improved transformer encoder structure and bidirectional long short-term memory (Bi-LSTM), and, finally, the derived higher-order sequence features and representative shape profiles are integrated into the channel dimension to achieve accurate TFBSs prediction. Experiments on 165 ENCODE chromatin immunoprecipitation sequencing (ChIP-seq) datasets show that DeepSTF considerably outperforms several state-of-the-art algorithms in predicting TFBSs, and we explain the usefulness of the transformer encoder structure and the combined strategy using sequence features and shape profiles in capturing multiple dependencies and learning essential features. In addition, this paper examines the significance of DNA shape features predicting TFBSs. The source code of DeepSTF is available at https://github.com/YuBinLab-QUST/DeepSTF/.",
+    "keywords": [
+      "bidirectional long short-term memory",
+      "improved transformer encoder structure",
+      "sequence and shape",
+      "stacked convolutional neural networks",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "*DNA/genetics/chemistry",
+      "Transcription Factors/genetics/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Pengju",
+        "Wang, Yifei",
+        "Zhang, Xinyu",
+        "Gao, Xin",
+        "Liu, Guozhu",
+        "Yu, Bin"
+      ],
+      "short_names": [
+        "Ding P",
+        "Wang Y",
+        "Zhang X",
+        "Gao X",
+        "Liu G",
+        "Yu B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2453-7852"
+      ],
+      "affiliations": [
+        "Qingdao University of Science and Technology, China.",
+        "Qingdao University of Science and Technology, China.",
+        "Qingdao University of Science and Technology, China.",
+        "King Abdullah University of Science and Technology (KAUST), Saudi Arabia.",
+        "Qingdao University of Science and Technology, China.",
+        "Qingdao University of Science and Technology, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Pengju",
+        "short_name": "Ding P",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yifei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinyu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xin",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "King Abdullah University of Science and Technology (KAUST), Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Liu, Guozhu",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Bin",
+        "short_name": "Yu B",
+        "identifiers": [
+          "0000-0002-2453-7852"
+        ],
+        "affiliations": [
+          "Qingdao University of Science and Technology, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Jul 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/17 05:11",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "42489335",
+      "42007520",
+      "41799016",
+      "41634097",
+      "41627694",
+      "40731031",
+      "40495055",
+      "40213269",
+      "39640721",
+      "39623329",
+      "39402535",
+      "39350338",
+      "38715516",
+      "38701417",
+      "38336958"
+    ],
+    "refs": [],
+    "similar": [
+      "37328639",
+      "34929739",
+      "39350338",
+      "38701417",
+      "36748992",
+      "31634140",
+      "38236675",
+      "29970003",
+      "30835229",
+      "34073774",
+      "34752400",
+      "29993783",
+      "38643080",
+      "33767912",
+      "38733561",
+      "34272562",
+      "38643066",
+      "36155619",
+      "37004267",
+      "33498086",
+      "34613923",
+      "35780100",
+      "35457080",
+      "18627598",
+      "38732207",
+      "36094959",
+      "30808287",
+      "33334313",
+      "38049725",
+      "38798191",
+      "34664074",
+      "31323206",
+      "39107889",
+      "34882561",
+      "35471886",
+      "27567672",
+      "31372637",
+      "36403092",
+      "29722865",
+      "36049552",
+      "35462009",
+      "31665425",
+      "35997564",
+      "38599417",
+      "31208331",
+      "36982795",
+      "29757349",
+      "23427986",
+      "30419785",
+      "23282203",
+      "32960766",
+      "34038367",
+      "30106688",
+      "28245811",
+      "37387183",
+      "30918943",
+      "36057196",
+      "20158869",
+      "23771139",
+      "36789431",
+      "37140548",
+      "33581335",
+      "27546793",
+      "28881969",
+      "31598637",
+      "33740884",
+      "36719781",
+      "33381816",
+      "34320631",
+      "33522898",
+      "30447332",
+      "16817975",
+      "35652477",
+      "30423062",
+      "38357904",
+      "38303418",
+      "33372147",
+      "34534646",
+      "35171981",
+      "36935548",
+      "33837387",
+      "31856220",
+      "24008418",
+      "25775564",
+      "22348285",
+      "38347788",
+      "27845669",
+      "37598467",
+      "36094335",
+      "38698017",
+      "21059262",
+      "22334039",
+      "37919990",
+      "37780374",
+      "28011771",
+      "36398911",
+      "31754708",
+      "30323198",
+      "33662629",
+      "26818008",
+      "35263332",
+      "36653898",
+      "33539511",
+      "34669947",
+      "35189635",
+      "37387140",
+      "35248805",
+      "36788560",
+      "36902216",
+      "32501689",
+      "32462178",
+      "37607147",
+      "39407104",
+      "30922998",
+      "29081688",
+      "38281252",
+      "39214282",
+      "37028092",
+      "38343972",
+      "37845681",
+      "36360189",
+      "36564866",
+      "37130249",
+      "37723425",
+      "38886381",
+      "36374878",
+      "37708177",
+      "27084946",
+      "36747873",
+      "36960450",
+      "35771780",
+      "38349057",
+      "38513769",
+      "37895128",
+      "38015872",
+      "37669132",
+      "35666184",
+      "38362268",
+      "38288671",
+      "29740518",
+      "37294804",
+      "37874958",
+      "38183701",
+      "37598423",
+      "38244570",
+      "17504544",
+      "39174927",
+      "38972994",
+      "37437362",
+      "34370721",
+      "38549527",
+      "38552762",
+      "39341115",
+      "36993648",
+      "38336958",
+      "35834447",
+      "32905524",
+      "37961633",
+      "34179082",
+      "28927002",
+      "34179848"
+    ],
+    "review": [
+      "37328639",
+      "36057196",
+      "30447332",
+      "35652477",
+      "29081688"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37328639.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad231",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

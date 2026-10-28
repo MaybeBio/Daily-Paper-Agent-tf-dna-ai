@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39657630",
+  "title": "Benchmarking recent computational tools for DNA-binding protein identification.",
+  "authors": "Luo, Xizi; Chi, Amadeus Song Yi; Lin, Andre Huikai; Ong, Tze Jet; Wong, Limsoon; Rahman, Chowdhury Rafeed",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-12-11",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文基准测试了多种计算工具用于DNA结合蛋白识别，虽涉及蛋白-DNA互作但聚焦于分类预测而非TF-DNA结合机制建模，方法上以工具评估和集成策略为主，对课题有方法参考价值。",
+  "abstract": "Identification of DNA-binding proteins (DBPs) is a crucial task in genome annotation, as it aids in understanding gene regulation, DNA replication, transcriptional control, and various cellular processes. In this paper, we conduct an unbiased benchmarking of 11 state-of-the-art computational tools as well as traditional tools such as ScanProsite, BLAST, and HMMER for identifying DBPs. We highlight the data leakage issue in conventional datasets leading to inflated performance. We introduce new evaluation datasets to support further development. Through a comprehensive evaluation pipeline, we identify potential limitations in models, feature extraction techniques, and training methods, and recommend solutions regarding these issues. We show that combining the predictions of the two best computational tools with BLAST-based prediction significantly enhances DBP identification capability. We provide this consensus method as user-friendly software. The datasets and software are available at https://github.com/Rafeed-bot/DNA_BP_Benchmarking.",
+  "abstract_zh": "DNA结合蛋白（DBPs）的识别是基因组注释中的关键任务，因为它有助于理解基因调控、DNA复制、转录控制及多种细胞过程。在本文中，我们对11种最先进的计算工具以及传统工具如ScanProsite、BLAST和HMMER进行了无偏基准测试，以识别DBPs。我们强调了传统数据集中导致性能虚高的数据泄漏问题，并引入了新的评估数据集以支持进一步开发。通过全面的评估流程，我们识别了模型、特征提取技术和训练方法中的潜在局限性，并针对这些问题推荐了解决方案。我们表明，将两种最佳计算工具的预测与基于BLAST的预测相结合，能显著增强DBP识别能力。我们将此共识方法作为用户友好软件提供。数据集和软件可在https://github.com/Rafeed-bot/DNA_BP_Benchmarking获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39657630/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39657630/",
+  "paper_page_path": "papers/pubmed/39657630/index.html"
+}

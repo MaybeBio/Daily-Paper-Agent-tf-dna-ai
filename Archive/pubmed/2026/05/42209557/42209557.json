@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "42209557",
+    "doi": "10.1038/s41598-026-50475-5",
+    "title": "Segmentation and classification of hippocampal subregions using multi-task generative adversarial networks."
+  },
+  "content": {
+    "abstract": "Accurate segmentation and identification of hippocampal subregions are essential for understanding spatial memory, neuronal plasticity, and disease-related alterations in brain architecture. While fluorescent immunohistochemistry (IHC) enables detailed visualization of subregion-specific molecular markers, automated segmentation and classification remain challenging due to staining variability, morphological complexity, and low signal-to-noise ratios. Moreover, the absence of benchmark datasets has hindered the development of computational approaches for the automatic segmentation and identification of hippocampal regions in histological images, which are crucial for streamlining downstream analyses. To address these limitations, we introduce a novel multiplexed murine hippocampal dataset containing images stained with cFos, NeuN, and either DeltaFosB or GAD67, capturing neuronal activity, structural features, and plasticity-associated signals. In parallel, we propose a multitask UNet-based generative adversarial network (MT-UGAN) that simultaneously performs segmentation and classification of hippocampal subregions from murine IHC images. The model leverages a UNet-based GAN architecture with a shared encoder, allowing for feature reuse across both segmentation and classification tasks. Together, the dataset and MT-UGAN establish the first integrated system for automated hippocampal subregion analysis. Experimental results demonstrate that the proposed MT-UGAN significantly outperforms conventional single-task models in both region-wise segmentation and classification performance, achieving a Dice score of 0.82 and classification accuracy of 91.0%. By unifying subregion segmentation and identification, this framework provides a scalable and interpretable solution for automated hippocampal analysis, thereby facilitating downstream analyses in neuroimaging research. To democratize our funding and support further research, we made the curated hippocampal subregion datasets and the proposed MT-UGAN model as a standalone tool publicly available at: https://github.com/MLBC-lab/MT-UGAN .",
+    "keywords": [
+      "Generative adversarial networks",
+      "Hippocampal region segmentation",
+      "Multi-task learning",
+      "Subregion classification"
+    ],
+    "mesh_terms": [
+      "*Hippocampus/diagnostic imaging/anatomy & histology/metabolism",
+      "Generative Adversarial Networks",
+      "Animals",
+      "Mice",
+      "*Image Processing, Computer-Assisted/methods",
+      "Generative Artificial Intelligence",
+      "Proto-Oncogene Proteins c-fos/metabolism",
+      "Glutamate Decarboxylase/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Azim, Sayed Mehedi",
+        "Kumar, Renuka",
+        "Corbett, Brian",
+        "Dehzangi, Iman"
+      ],
+      "short_names": [
+        "Azim SM",
+        "Kumar R",
+        "Corbett B",
+        "Dehzangi I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ, 08103, USA. sayedmehedi.azim@rutgers.edu.",
+        "Department of Biology, Rutgers University, Camden, NJ, 08103, USA.",
+        "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ, 08103, USA.",
+        "Department of Biology, Rutgers University, Camden, NJ, 08103, USA.",
+        "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ, 08103, USA. i.dehzangi@rutgers.edu.",
+        "Department of Computer Science, Rutgers University, Camden, NJ, 08103, USA. i.dehzangi@rutgers.edu.",
+        "Rutgers Cancer Institute, Rutgers University, New Brunswick, NJ, 08901, USA. i.dehzangi@rutgers.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Azim, Sayed Mehedi",
+        "short_name": "Azim SM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ, 08103, USA. sayedmehedi.azim@rutgers.edu."
+        ]
+      },
+      {
+        "full_name": "Kumar, Renuka",
+        "short_name": "Kumar R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Rutgers University, Camden, NJ, 08103, USA."
+        ]
+      },
+      {
+        "full_name": "Corbett, Brian",
+        "short_name": "Corbett B",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ, 08103, USA.",
+          "Department of Biology, Rutgers University, Camden, NJ, 08103, USA."
+        ]
+      },
+      {
+        "full_name": "Dehzangi, Iman",
+        "short_name": "Dehzangi I",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ, 08103, USA. i.dehzangi@rutgers.edu.",
+          "Department of Computer Science, Rutgers University, Camden, NJ, 08103, USA. i.dehzangi@rutgers.edu.",
+          "Rutgers Cancer Institute, Rutgers University, New Brunswick, NJ, 08901, USA. i.dehzangi@rutgers.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 May 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:43",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39808869",
+      "39778265",
+      "39638159",
+      "39186436",
+      "38504018",
+      "38347141",
+      "38177882",
+      "37890670",
+      "37521697",
+      "35821891",
+      "35020590",
+      "34965435",
+      "33979291",
+      "33734106",
+      "33288961",
+      "31841402",
+      "30040631",
+      "26017442",
+      "19756243",
+      "18298245",
+      "18270514",
+      "17957222"
+    ],
+    "similar": [
+      "42209557",
+      "30665408",
+      "41421266",
+      "31978805",
+      "39078069",
+      "36580822",
+      "41475079",
+      "39773093",
+      "39167059",
+      "41507235",
+      "41588160",
+      "41372955",
+      "41771536",
+      "38340437",
+      "41576693",
+      "39625955",
+      "42090871",
+      "41780210",
+      "31837471",
+      "40576831",
+      "38513394",
+      "39535436",
+      "41957391",
+      "41540709",
+      "31793071",
+      "31002188",
+      "41518764",
+      "42475469",
+      "38373278",
+      "33646948",
+      "39755177",
+      "37011426",
+      "38656835",
+      "41691015",
+      "40965060",
+      "40090960",
+      "38645864",
+      "40016308",
+      "39099678",
+      "40183298",
+      "33130416",
+      "39337926",
+      "32828445",
+      "36948058",
+      "41707467",
+      "41796707",
+      "41023673",
+      "40288291",
+      "38961218",
+      "36856903",
+      "41042297",
+      "42069816",
+      "37896706",
+      "32406848",
+      "40404794",
+      "42447150",
+      "39653875",
+      "35981348",
+      "40926430",
+      "42475388",
+      "35932723",
+      "37881080",
+      "40483601",
+      "41198712",
+      "40325399",
+      "32897490",
+      "41812362",
+      "38461438",
+      "32474081",
+      "40266997",
+      "41871485",
+      "34494276",
+      "40306203",
+      "41024255",
+      "42209541",
+      "42009157",
+      "38304344",
+      "42345655",
+      "34371318",
+      "39103064",
+      "35020590",
+      "37401205",
+      "39481818",
+      "42173940",
+      "35567847",
+      "39008794",
+      "36252363",
+      "37606374",
+      "39137295",
+      "30291477",
+      "42078445",
+      "38846298",
+      "41471551",
+      "24784800",
+      "41336755",
+      "29341323",
+      "36463792",
+      "38503085",
+      "41827725",
+      "41398110"
+    ],
+    "review": [
+      "42209557",
+      "37881080"
+    ],
+    "pmc": [
+      "13448715"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-50475-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42209557/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

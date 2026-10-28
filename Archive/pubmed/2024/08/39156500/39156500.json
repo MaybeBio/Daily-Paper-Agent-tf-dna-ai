@@ -1,0 +1,489 @@
+{
+  "identity": {
+    "pmid": "39156500",
+    "doi": "10.3748/wjg.v30.i29.3511",
+    "title": "Calculus bovis inhibits M2 tumor-associated macrophage polarization via Wnt/beta-catenin pathway modulation to suppress liver cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Calculus bovis (CB), used in traditional Chinese medicine, exhibits anti-tumor effects in various cancer models. It also constitutes an integral component of a compound formulation known as Pien Tze Huang, which is indicated for the treatment of liver cancer. However, its impact on the liver cancer tumor microenvironment, particularly on tumor-associated macrophages (TAMs), is not well understood. AIM: To elucidate the anti-liver cancer effect of CB by inhibiting M2-TAM polarization via Wnt/beta-catenin pathway modulation. METHODS: This study identified the active components of CB using UPLC-Q-TOF-MS, evaluated its anti-neoplastic effects in a nude mouse model, and elucidated the underlying mechanisms via network pharmacology, transcriptomics, and molecular docking. In vitro assays were used to investigate the effects of CB-containing serum on HepG2 cells and M2-TAMs, and Wnt pathway modulation was validated by real-time reverse transcriptase-polymerase chain reaction and Western blot analysis. RESULTS: This study identified 22 active components in CB, 11 of which were detected in the bloodstream. Preclinical investigations have demonstrated the ability of CB to effectively inhibit liver tumor growth. An integrated approach employing network pharmacology, transcriptomics, and molecular docking implicated the Wnt signaling pathway as a target of the antineoplastic activity of CB by suppressing M2-TAM polarization. In vitro and in vivo experiments further confirmed that CB significantly hinders M2-TAM polarization and suppresses Wnt/beta-catenin pathway activation. The inhibitory effect of CB on M2-TAMs was reversed when treated with the Wnt agonist SKL2001, confirming its pathway specificity. CONCLUSION: This study demonstrated that CB mediates inhibition of M2-TAM polarization through the Wnt/beta-catenin pathway, contributing to the suppression of liver cancer growth.",
+    "keywords": [
+      "Calculus bovis",
+      "Liver cancer",
+      "M2 tumor-associated macrophage polarization",
+      "Tumor microenvironment",
+      "Wnt/beta-catenin pathway"
+    ],
+    "mesh_terms": [
+      "*Wnt Signaling Pathway/drug effects",
+      "Animals",
+      "*Liver Neoplasms/pathology/drug therapy/metabolism",
+      "Humans",
+      "Mice",
+      "Hep G2 Cells",
+      "*Tumor-Associated Macrophages/metabolism/drug effects/immunology",
+      "*Mice, Nude",
+      "*Molecular Docking Simulation",
+      "*Tumor Microenvironment/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "Carcinoma, Hepatocellular/pathology/drug therapy/metabolism",
+      "Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Cell Proliferation/drug effects",
+      "Mice, Inbred BALB C",
+      "Male",
+      "Network Pharmacology",
+      "beta Catenin/metabolism",
+      "Medicine, Chinese Traditional/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Zhen",
+        "Meng, Fan-Ying",
+        "Lu, Lin-Zhu",
+        "Guo, Qian-Qian",
+        "Lv, Chang-Jun",
+        "Tan, Nian-Hua",
+        "Deng, Zhe",
+        "Chen, Jun-Yi",
+        "Zhang, Zi-Shu",
+        "Zou, Bo",
+        "Long, Hong-Ping",
+        "Zhou, Qing",
+        "Tian, Sha",
+        "Mei, Si",
+        "Tian, Xue-Fei"
+      ],
+      "short_names": [
+        "Huang Z",
+        "Meng FY",
+        "Lu LZ",
+        "Guo QQ",
+        "Lv CJ",
+        "Tan NH",
+        "Deng Z",
+        "Chen JY",
+        "Zhang ZS",
+        "Zou B",
+        "Long HP",
+        "Zhou Q",
+        "Tian S",
+        "Mei S",
+        "Tian XF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "The First Clinical College of Traditional Chinese Medicine, Hunan University of Traditional Chinese Medicine, Changsha 410007, Hunan Province, China.",
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Department of Hepatology, Hunan University of Chinese Medicine, Changsha 410007, Hunan Province, China.",
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "The First Clinical College of Traditional Chinese Medicine, Hunan University of Traditional Chinese Medicine, Changsha 410007, Hunan Province, China.",
+        "The First Clinical College of Traditional Chinese Medicine, Hunan University of Traditional Chinese Medicine, Changsha 410007, Hunan Province, China.",
+        "The First Hospital of Hunan University of Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410007, Hunan Province, China.",
+        "The First Hospital of Hunan University of Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410007, Hunan Province, China.",
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Faculty of Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+        "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China. 003640@hnucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Zhen",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Fan-Ying",
+        "short_name": "Meng FY",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College of Traditional Chinese Medicine, Hunan University of Traditional Chinese Medicine, Changsha 410007, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Lin-Zhu",
+        "short_name": "Lu LZ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Qian-Qian",
+        "short_name": "Guo QQ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Chang-Jun",
+        "short_name": "Lv CJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Nian-Hua",
+        "short_name": "Tan NH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Department of Hepatology, Hunan University of Chinese Medicine, Changsha 410007, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Zhe",
+        "short_name": "Deng Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jun-Yi",
+        "short_name": "Chen JY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zi-Shu",
+        "short_name": "Zhang ZS",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College of Traditional Chinese Medicine, Hunan University of Traditional Chinese Medicine, Changsha 410007, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Bo",
+        "short_name": "Zou B",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College of Traditional Chinese Medicine, Hunan University of Traditional Chinese Medicine, Changsha 410007, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Long, Hong-Ping",
+        "short_name": "Long HP",
+        "identifiers": [],
+        "affiliations": [
+          "The First Hospital of Hunan University of Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410007, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Qing",
+        "short_name": "Zhou Q",
+        "identifiers": [],
+        "affiliations": [
+          "The First Hospital of Hunan University of Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410007, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Sha",
+        "short_name": "Tian S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Si",
+        "short_name": "Mei S",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Faculty of Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Xue-Fei",
+        "short_name": "Tian XF",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Hunan Key Laboratory of Translational Research in Formulas and Zheng of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China.",
+          "Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha 410208, Hunan Province, China. 003640@hnucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "World journal of gastroenterology"
+    ],
+    "journal_abbrev": [
+      "World J Gastroenterol"
+    ],
+    "pub_date": "2024 Aug 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/19 06:42",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "42040231",
+      "41908946",
+      "41181146",
+      "40926993",
+      "40718077",
+      "40330466",
+      "40061585",
+      "39958539",
+      "39958448",
+      "39877712",
+      "39839904",
+      "39839896",
+      "39735274",
+      "39720650",
+      "39678798",
+      "39627883",
+      "39534422",
+      "39534418",
+      "39534416",
+      "39494099",
+      "39494098",
+      "39493325",
+      "39351056",
+      "39351054",
+      "39193575"
+    ],
+    "refs": [
+      "38704807",
+      "38142759",
+      "38092274",
+      "38063438",
+      "37832408",
+      "37704113",
+      "37691932",
+      "37329188",
+      "37257709",
+      "36841544",
+      "36695827",
+      "36579504",
+      "36533070",
+      "36299184",
+      "36273746",
+      "36046450",
+      "36011021",
+      "35732434",
+      "35726030",
+      "35663975",
+      "34937475",
+      "34538644",
+      "34418875",
+      "33902313",
+      "33619259",
+      "33508960",
+      "33378952",
+      "33225800",
+      "33013400",
+      "32976798",
+      "32772910",
+      "32772560",
+      "32234529",
+      "32068140",
+      "31269694",
+      "30022048",
+      "29849718",
+      "28476164",
+      "27760340",
+      "27197202",
+      "26269699",
+      "26210152",
+      "23364389",
+      "22696271",
+      "3052591"
+    ],
+    "similar": [
+      "39156500",
+      "39193575",
+      "27349166",
+      "39351054",
+      "34332067",
+      "30022048",
+      "39351056",
+      "38520835",
+      "30844387",
+      "37453868",
+      "35200654",
+      "38041778",
+      "26246473",
+      "24355586",
+      "39202998",
+      "32522570",
+      "33407720",
+      "27431312",
+      "26922018",
+      "38921589",
+      "37147492",
+      "31207322",
+      "31785055",
+      "28241806",
+      "38340578",
+      "25292076",
+      "34370992",
+      "38584523",
+      "31218741",
+      "29953980",
+      "33345859",
+      "38467318",
+      "30539797",
+      "27783993",
+      "30794613",
+      "27143851",
+      "25698245",
+      "34775955",
+      "33716082",
+      "26975630",
+      "26474915",
+      "28645563",
+      "22811581",
+      "32179631",
+      "33031908",
+      "34930906",
+      "30529770",
+      "30610799",
+      "38493722",
+      "25333742",
+      "29552782",
+      "35066343",
+      "29701777",
+      "33283877",
+      "32914361",
+      "29080197",
+      "27449032",
+      "33038910",
+      "38882048",
+      "29735783",
+      "38759312",
+      "31746531",
+      "38924929",
+      "25797263",
+      "37032730",
+      "31727171",
+      "30075764",
+      "24431896",
+      "34158395",
+      "38538070",
+      "38936055",
+      "25345941",
+      "32228612",
+      "26781124",
+      "38733492",
+      "29792038",
+      "30058686",
+      "38901205",
+      "38218012",
+      "29483216",
+      "33075668",
+      "26499380",
+      "36807724",
+      "32246992",
+      "33649843",
+      "23353151",
+      "38906598",
+      "34219513",
+      "38992397",
+      "34726570",
+      "26735577",
+      "39256694",
+      "29978739",
+      "32387457",
+      "33753566",
+      "38878636",
+      "30001951",
+      "30547803",
+      "36317061",
+      "25684142",
+      "30820716",
+      "31991293",
+      "28427938",
+      "35609318",
+      "38850316",
+      "38759889",
+      "39301639",
+      "38969224",
+      "39102549",
+      "38997808",
+      "39308806",
+      "39256453",
+      "38421409",
+      "39085912",
+      "39198883",
+      "39428821",
+      "38969038",
+      "39349719",
+      "39181017",
+      "39147709",
+      "37313143",
+      "37229748",
+      "35105806",
+      "37881428",
+      "39352454",
+      "35403834",
+      "37317949",
+      "39199411",
+      "38393643",
+      "39279723",
+      "39342941"
+    ],
+    "review": [
+      "39156500",
+      "39147709"
+    ],
+    "pmc": [
+      "11326087"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

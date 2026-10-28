@@ -1,0 +1,109 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.17.643816",
+  "title": "Contextualizing gene expression with feature rich graph neural networks",
+  "doi": "10.1101/2025.03.17.643816",
+  "abstract": "Variation in gene expression arises from the interplay between chromatin architecture, epigenetic marks, transcription factor binding, and regulatory elements - none alone capture the full complexity of the regulatory landscape. We introduce Omics Graph Learning (OGL), a deep learning paradigm that integrates multi-omics data into a network of biological entities. Leveraging over 950 curated datasets, OGL achieves highly accurate gene expression prediction across 20 cell lines and tissues. Through > 81 million in-silico perturbations, we uncover tissue-specific patterns of feature utilization, reveal non-additive interactions among epigenetic marks, and identify regulatory elements with disproportionate influence on gene expression. Our findings highlight complex synergistic and antagonistic relationships among molecular features that vary by cellular context. By bridging predictive accuracy with biological interpretation, OGL provides a framework for deciphering multifaceted mechanisms that shape the transcriptome.",
+  "authors": [
+    "Ho SS",
+    "Mills R"
+  ],
+  "published_date": "2025-03-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643816",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643816.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR990860",
+    "raw_record": {
+      "id": "PPR990860",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.17.643816",
+      "title": "Contextualizing gene expression with feature rich graph neural networks",
+      "authorString": "Ho SS, Mills R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ho SS",
+            "lastName": "Ho",
+            "firstName": "Steve",
+            "initials": "SS"
+          },
+          {
+            "fullName": "Mills R",
+            "lastName": "Mills",
+            "firstName": "Ryan",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3425-6998"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3425-6998"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Variation in gene expression arises from the interplay between chromatin architecture, epigenetic marks, transcription factor binding, and regulatory elements - none alone capture the full complexity of the regulatory landscape. We introduce Omics Graph Learning (OGL), a deep learning paradigm that integrates multi-omics data into a network of biological entities. Leveraging over 950 curated datasets, OGL achieves highly accurate gene expression prediction across 20 cell lines and tissues. Through > 81 million in-silico perturbations, we uncover tissue-specific patterns of feature utilization, reveal non-additive interactions among epigenetic marks, and identify regulatory elements with disproportionate influence on gene expression. Our findings highlight complex synergistic and antagonistic relationships among molecular features that vary by cellular context. By bridging predictive accuracy with biological interpretation, OGL provides a framework for deciphering multifaceted mechanisms that shape the transcriptome.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.17.643816"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-20",
+      "firstPublicationDate": "2025-03-18",
+      "firstIndexDate": "2025-03-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "42559237",
+    "doi": "10.1155/humu/9214621",
+    "title": "Structural Genomics Defines PBRM1 Bromodomain Variant Function in ccRCC."
+  },
+  "content": {
+    "abstract": "Polybromo-1 (PBRM1) modulates chromatin accessibility and transcription via six bromodomains that bind acetyl-lysine residues on nuclear proteins. PBRM1 variants exist in ~40% of clear cell renal cell carcinoma (ccRCC) cases. PBRM1 loss correlates with improved responses to antiangiogenics and immune checkpoint blockade, which are the standard of care for ccRCC therapy. Missense variants cluster within PBRM1 bromodomains and are present in 16% of ccRCC cases, with unknown impacts on therapeutic response. Since in-depth biophysical and cellular testing of the hundreds of PBRM1 missense variants reported in ccRCC and other cancer types is intractable, computational approaches can provide actionable variant impact assessments. We employed an integrated structural genomics analysis at the levels of protein sequence (2D), structure (3D), and molecular dynamics (4D) to evaluate the effects of all reported ccRCC-associated missense variants in the second and fourth bromodomains of PBRM1 (33 total) on molecular fitness (i.e., stability, structural integrity, and ligand binding). We also evaluated the concordance between molecular fitness and biophysical parameters of variant structural integrity (differential scanning fluorimetry, circular dichroism, and (1)H-NMR spectroscopy) and ligand binding (AlphaScreen and electrophoretic mobility shift assays). Integrated molecular fitness scores correlated with measures of acetylated histone binding, while 3D and integrated molecular fitness scores correlated with measures of thermal stability. This integrated structural genomics analysis accelerates mechanistic understanding of how ccRCC missense variants impact PBRM1 bromodomain structure and function. This knowledge supports future studies correlating specific missense variants with PBRM1 tumor-suppressive functions and patient responses to antiangiogenics and immune checkpoint blockade to inform ccRCC personalized medicine approaches.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/genetics/chemistry/metabolism",
+      "DNA-Binding Proteins",
+      "*Nuclear Proteins/genetics/chemistry/metabolism",
+      "*Genomics/methods",
+      "*Carcinoma, Renal Cell/genetics/metabolism",
+      "Protein Domains",
+      "Mutation, Missense",
+      "Molecular Dynamics Simulation",
+      "*Kidney Neoplasms/genetics/metabolism",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bursch, Karina L",
+        "Jorge, Salomao D",
+        "Catlin, Audrey E",
+        "Nunez, Raymundo",
+        "LeClaire, Michael D",
+        "Licklider, Jacob",
+        "Urrutia, Raul A",
+        "Smith, Brian C"
+      ],
+      "short_names": [
+        "Bursch KL",
+        "Jorge SD",
+        "Catlin AE",
+        "Nunez R",
+        "LeClaire MD",
+        "Licklider J",
+        "Urrutia RA",
+        "Smith BC"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6270-1716",
+        "ORCID: 0000-0002-0716-2403",
+        "ORCID: 0000-0003-2595-6714",
+        "ORCID: 0009-0009-6568-8938",
+        "ORCID: 0000-0002-1640-6780",
+        "ORCID: 0000-0001-6330-2768"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Department of Surgery, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+        "Program in Chemical Biology, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bursch, Karina L",
+        "short_name": "Bursch KL",
+        "identifiers": [
+          "0000-0001-6270-1716"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+          "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+        ]
+      },
+      {
+        "full_name": "Jorge, Salomão D",
+        "short_name": "Jorge SD",
+        "identifiers": [
+          "0000-0002-0716-2403"
+        ],
+        "affiliations": [
+          "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+        ]
+      },
+      {
+        "full_name": "Catlin, Audrey E",
+        "short_name": "Catlin AE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+        ]
+      },
+      {
+        "full_name": "Nuñez, Raymundo",
+        "short_name": "Nuñez R",
+        "identifiers": [
+          "0000-0003-2595-6714"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+          "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+        ]
+      },
+      {
+        "full_name": "LeClaire, Michael D",
+        "short_name": "LeClaire MD",
+        "identifiers": [
+          "0009-0009-6568-8938"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+          "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+        ]
+      },
+      {
+        "full_name": "Licklider, Jacob",
+        "short_name": "Licklider J",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+        ]
+      },
+      {
+        "full_name": "Urrutia, Raul A",
+        "short_name": "Urrutia RA",
+        "identifiers": [
+          "0000-0002-1640-6780"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+          "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+          "Department of Surgery, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+        ]
+      },
+      {
+        "full_name": "Smith, Brian C",
+        "short_name": "Smith BC",
+        "identifiers": [
+          "0000-0001-6330-2768"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+          "Structural Genomics Unit, Linda T. and John A. Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu.",
+          "Program in Chemical Biology, Medical College of Wisconsin, Milwaukee, Wisconsin, USA, mcw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human mutation"
+    ],
+    "journal_abbrev": [
+      "Hum Mutat"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/06 12:37",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41008525",
+      "40928734",
+      "39676521",
+      "39556662",
+      "39334871",
+      "38788900",
+      "38460939",
+      "38319148",
+      "38090150",
+      "37954151",
+      "37733863",
+      "37563329",
+      "36808431",
+      "36350672",
+      "36227159",
+      "36209109",
+      "35834424",
+      "35748495",
+      "35615018",
+      "35488922",
+      "35116228",
+      "35103971",
+      "35101336",
+      "34859531",
+      "34414607",
+      "34139165",
+      "34063805",
+      "33876751",
+      "33869982",
+      "33546721",
+      "33490109",
+      "33261662",
+      "32494314",
+      "32461654",
+      "32149490",
+      "31863007",
+      "31777943",
+      "31486842",
+      "30712981",
+      "30585695",
+      "30371878",
+      "30334004",
+      "30220433",
+      "30173085",
+      "30030490",
+      "29986887",
+      "29867230",
+      "29617669",
+      "29301960",
+      "28804138",
+      "28706277",
+      "28329682",
+      "28082722",
+      "28053089",
+      "27993330",
+      "27991587",
+      "27666373",
+      "27513288",
+      "27476956",
+      "26912663",
+      "25918038",
+      "25835573",
+      "25741868",
+      "25552646",
+      "25533489",
+      "25308773",
+      "25066234",
+      "24487276",
+      "23843808",
+      "23056405",
+      "23036577",
+      "23033316",
+      "22588877",
+      "22464331",
+      "22112490",
+      "21727090",
+      "21248752",
+      "21215670",
+      "20354512",
+      "19444816",
+      "19084573",
+      "18856071",
+      "18339845",
+      "17624866",
+      "17406547",
+      "17320048",
+      "17242380",
+      "17004703",
+      "11780067",
+      "11487477",
+      "11080160",
+      "11078522",
+      "10801493",
+      "10592235",
+      "10500090",
+      "10365964",
+      "9514715",
+      "8895581",
+      "8047169",
+      "7776971"
+    ],
+    "similar": [
+      "42559237",
+      "38460939",
+      "29986887",
+      "28053089",
+      "30585695",
+      "25465300",
+      "40699095",
+      "22949125",
+      "26166446",
+      "27100670",
+      "39341712",
+      "39250899",
+      "27556922",
+      "28329682",
+      "38048211",
+      "28327121",
+      "30660076",
+      "29169846",
+      "33177244",
+      "36808431",
+      "37079762",
+      "23644518",
+      "38607586",
+      "23867514",
+      "24053427",
+      "26003625",
+      "34535962",
+      "25873528",
+      "41514194",
+      "27764136",
+      "21248752",
+      "23620406",
+      "26452128",
+      "39656940",
+      "27751729",
+      "29301960",
+      "38933491",
+      "34627641",
+      "29426696",
+      "36227159",
+      "24821879",
+      "35412614",
+      "24063284",
+      "24166983",
+      "28082722",
+      "32358509",
+      "39938804",
+      "40234555",
+      "23333114",
+      "28212566",
+      "33888468",
+      "26178300",
+      "17582821",
+      "35013001",
+      "27530247",
+      "30601030",
+      "37702400",
+      "41089488",
+      "39375538",
+      "37762376",
+      "32472114",
+      "25911086",
+      "30009957",
+      "39693721",
+      "17320048",
+      "22461374",
+      "20368734",
+      "37095322",
+      "28052007",
+      "31863007",
+      "28945351",
+      "35368029",
+      "22683710",
+      "30416077",
+      "25087671",
+      "40306016",
+      "28812986",
+      "39103260",
+      "42205867",
+      "42657169",
+      "42702836",
+      "23036577",
+      "42492627",
+      "23797736",
+      "28445125",
+      "36253570",
+      "40265430",
+      "29229903",
+      "33994165",
+      "24186201",
+      "35930799",
+      "24158655",
+      "33795526",
+      "24497639",
+      "23416164",
+      "41357761",
+      "34795663",
+      "27494802",
+      "35625960",
+      "34439859"
+    ],
+    "review": [
+      "42559237",
+      "40699095",
+      "26166446",
+      "39250899",
+      "25873528",
+      "28812986",
+      "42492627"
+    ],
+    "pmc": [
+      "13439403"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42559237/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1155/humu/9214621",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1362",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

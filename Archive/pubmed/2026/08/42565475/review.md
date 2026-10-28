@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, results, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a hybrid deep learning framework combining CNN, 2-layer bidirectional LSTM with attention mechanisms, and ESM-2-based embeddings to classify p53 peptide sequences as wild-type or mutant. They report accuracy of 0.98, AUROC of 0.98, and precision-recall AUC of 0.99 using stratified 5-fold cross-validation, and use SHAP for model interpretation.
+- **Visible evidence base** Abstract text only; no quantitative details on dataset size, sequence preprocessing, model training procedures, or validation beyond the reported metrics
+- **Missing materials affecting confidence** Full methods, dataset description, model architecture details, hyperparameters, cross-validation splits, SHAP analysis results, and any comparison with existing methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of deep learning to p53 variant classification, with strong reported performance metrics. However, the abstract alone does not provide sufficient detail to evaluate the methodological rigor, the novelty relative to existing computational predictors, or the generalizability of the findings. The claim of an "interpretable, robust framework" is not substantiated by the evidence presented in the abstract.
+- **Who would be interested in the results, and why** Researchers in cancer genomics, computational biology, and clinical genetics may be interested in tools for prioritizing p53 variants of unknown significance. The combination of sequence embeddings and interpretability analysis could appeal to those developing variant effect predictors for clinical decision support.
+- **Major strengths** The use of ESM-2 embeddings represents a modern approach to sequence representation. The inclusion of SHAP-based interpretation is a positive step toward model transparency. The reported performance metrics are high, though their reliability cannot be assessed from the abstract alone.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves accuracy of 0.98, AUROC of 0.98, and precision-recall AUC of 0.99 using stratified 5-fold cross-validation.
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The reported performance metrics are presented without any indication of dataset size, class balance, or the number of unique p53 variants included. Without this information, it is impossible to assess whether the metrics reflect genuine predictive ability or are inflated by data leakage, class imbalance, or sequence redundancy between training and test folds.
+  - **Why it matters** High accuracy on a small or imbalanced dataset can be misleading. If the dataset contains many near-identical sequences from the same variant, cross-validation may overestimate performance. The abstract does not describe any measures taken to address sequence homology or ensure independent test sets.
+  - **Resolution test** Provide dataset size, number of unique variants, class distribution, and a description of how sequence redundancy was handled. Report performance on an independent held-out test set or external validation cohort.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The proposed approach provides "an interpretable, robust framework for evaluating the functional consequences of p53 hotspot and other variants."
+  - **Evidence pointer** Abstract, conclusion (location not provided)
+  - **Concern** The abstract does not compare the proposed method with existing p53 variant effect predictors or general deep learning-based variant classifiers. Without such comparisons, the novelty and added value of this framework relative to established tools cannot be established.
+  - **Why it matters** Many computational predictors for variant effect already exist, including those specifically for p53. The claim of a novel framework requires demonstration that it outperforms or provides unique insights beyond current state-of-the-art methods.
+  - **Resolution test** Include a comparison with at least one or two established predictors on the same dataset, and discuss the relative performance and interpretability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** SHAP-based interpretation identified key amino acid residues and biochemical factors that contribute to the model's predictive performance.
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The abstract states that SHAP was used for interpretation but provides no details on which residues or biochemical factors were identified, how stable these findings were across cross-validation folds, or whether the interpretation aligns with known p53 biology.
+  - **Why it matters** Interpretability claims are only meaningful if the identified features are biologically plausible and reproducible. Without specific results, the interpretability component cannot be evaluated.
+  - **Resolution test** Report the top contributing residues and biochemical features, their consistency across folds, and a discussion of their biological relevance in the context of p53 function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The sentence "To identify deleterious SAVs for understanding disease mechanisms and key cellular processes, including apoptosis, DNA repair, and cell cycle regulation" is a fragment and does not clearly connect to the study objective.
+  - **Required correction** Revise to a complete sentence that states the study aim, for example, "The aim of this study was to identify deleterious SAVs to better understand disease mechanisms and key cellular processes such as apoptosis, DNA repair, and cell cycle regulation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract mentions "quantitative biochemical and microbial descriptors" but does not specify what these descriptors are or how they were derived.
+  - **Required correction** Briefly define the descriptor types or refer to a methods section where they are described in detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Performance reporting
+  - **Evidence pointer** Abstract, results
+  - **Issue** Only accuracy, AUROC, and precision-recall AUC are reported. Sensitivity, specificity, and F1 score are not mentioned, which would provide a more complete picture of classification performance.
+  - **Required correction** Include additional metrics such as sensitivity, specificity, and F1 score, or justify why they were omitted.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of dataset details and potential data leakage), R1-M2 (no comparison with existing methods), R1-M3 (unsubstantiated interpretability claims)
+- **Assessment against Nature-style criteria** Originality: The combination of ESM-2 embeddings with CNN and Bi-LSTM for p53 variant classification may be novel, but this cannot be confirmed without comparison to existing work. Scientific importance: p53 variant classification is clinically relevant, but the abstract does not demonstrate that the method advances current practice. Interdisciplinary readership: The work bridges machine learning and cancer biology, which could appeal to a broad audience, but the abstract is too brief to engage nonspecialists. Technical soundness: The reported metrics are promising but not verifiable from the abstract alone. Readability for nonspecialists: The abstract is generally clear but contains grammatical issues and undefined terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract reports high performance but lacks critical methodological details, comparisons, and interpretability results. A full manuscript review would be required to assess whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of an "interpretable, robust framework" is unsupported because no SHAP results or robustness analyses are presented.
+- The claim of "computationally efficient" is unsupported as no runtime or resource usage data are provided.
+- The reported performance metrics (accuracy 0.98, AUROC 0.98, precision-recall AUC 0.99) are unverifiable without dataset details and validation methodology.
+- The statement that the model provides "insights into the structural, sequential, and biochemical effects of variants" is not supported by any specific findings in the abstract.

@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "41630199",
+    "doi": "10.1097/MD.0000000000047356",
+    "title": "Multi-omics integration and machine learning unveil FOXO3/SIRT1 axis as oxidative stress biomarkers and therapeutic targets in osteoporosis."
+  },
+  "content": {
+    "abstract": "Osteoporosis (OP) is a degenerative skeletal disorder marked by a decrease in bone mineral density, which significantly raises the risk of fractures. The development of OP is closely associated with oxidative stress (OS), yet the specific molecular targets of OS in the context of OP, as well as the corresponding therapeutic strategies, are not well understood. This study aimed to systematically identify OS-related biomarkers for OP and explore potential therapeutic agents, providing new insights into the pathological mechanisms and precision therapy of OP. OP-related datasets (GSE56815 as the training set and GSE35958 as the validation set) were obtained from the gene expression omnibus database. Integrated with OS-related genes from GeneCards, 72 co-expressed differentially expressed genes associated with both OP and OS were identified. A protein-protein interaction network was constructed using search tool for the retrieval of interacting genes/proteins, and 9 hub genes were identified via Maximal Clique Centrality and MCODDE algorithms. Three core genes (SIRT2, neutrophil elastase [ELANE], and forkhead box O3 [FOXO3]) were further selected using random forest and support vector machine models. Diagnostic accuracy of key genes was evaluated by receiver operating characteristic curves. Immune infiltration analysis was performed with ImmuCellAI, while transcription factors were predicted through NetworkAnalyst to establish a miRNA-seed-transcription factor (TF) regulatory network. Potential drugs were screened from DGIdb, and molecular docking was conducted with CB-DOCK2 using ligand-protein structures from PubChem and UniProt. A FOXO3/sirtuin 1 (SIRT1) functional axis was subsequently constructed. The 72 differentially expressed genes showed enrichment in cell division, chromosome segregation, and cell cycle pathways. SIRT2, ELANE, and FOXO3 exhibited high diagnostic accuracy for OP (area under the curve > 0.7). Immune infiltration analysis revealed significant differences in key immune cells and subtypes between OP and controls. The miRNA-seed-TF network implicated miR-34a and miR-132. Molecular docking confirmed stable binding of 5 compounds to targets. Critically, the FOXO3-SIRT1 axis was identified as mediating oxidative stress in OP pathogenesis. FOXO3 and SIRT2 were upregulated; ELANE downregulated. This study identified SIRT2, ELANE, and FOXO3 as key OS-related biomarkers for OP and screened 5 potential therapeutic compounds. Integrating miRNA-TF network and drug sensitivity analysis, we propose the FOXO3/SIRT1 axis as central to OP oxidative stress, providing a foundation for mechanistic studies and targeted drug development.",
+    "keywords": [
+      "SIRT1/FOXO3 axis",
+      "osteoporosis",
+      "oxidative stress"
+    ],
+    "mesh_terms": [
+      "*Forkhead Box Protein O3/genetics/metabolism",
+      "*Oxidative Stress/genetics",
+      "Humans",
+      "*Osteoporosis/genetics/metabolism",
+      "*Sirtuin 1/metabolism/genetics",
+      "Biomarkers/metabolism",
+      "*Machine Learning",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Shang",
+        "Luo, Xingye",
+        "Chen, Guomin",
+        "Wang, Pingxi"
+      ],
+      "short_names": [
+        "Zheng S",
+        "Luo X",
+        "Chen G",
+        "Wang P"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-5848-353"
+      ],
+      "affiliations": [
+        "North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "Department of Orthopedics, Dazhou Central Hospital, Dazhou, Sichuan, China.",
+        "North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "Department of Orthopedics, Dazhou Central Hospital, Dazhou, Sichuan, China.",
+        "Department of Orthopedics, Dazhou Central Hospital, Dazhou, Sichuan, China.",
+        "Department of Orthopedics, Dazhou Central Hospital, Dazhou, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Shang",
+        "short_name": "Zheng S",
+        "identifiers": [
+          "0009-0005-5848-353"
+        ],
+        "affiliations": [
+          "North Sichuan Medical College, Nanchong, Sichuan, China.",
+          "Department of Orthopedics, Dazhou Central Hospital, Dazhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Xingye",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "North Sichuan Medical College, Nanchong, Sichuan, China.",
+          "Department of Orthopedics, Dazhou Central Hospital, Dazhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guomin",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Dazhou Central Hospital, Dazhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pingxi",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Dazhou Central Hospital, Dazhou, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Jan 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/03 07:41",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [
+      "42260517",
+      "42219493"
+    ],
+    "refs": [
+      "41445585",
+      "38956429",
+      "37941124",
+      "37098414",
+      "36858962",
+      "36408920",
+      "36370105",
+      "36305812",
+      "36300620",
+      "35609983",
+      "35474001",
+      "34850907",
+      "33452680",
+      "33211851",
+      "33168885",
+      "32761142",
+      "32274301",
+      "30931480",
+      "30696576",
+      "29263736",
+      "28975701",
+      "27322403",
+      "26862888",
+      "26267216",
+      "25706687",
+      "25646037",
+      "25605792",
+      "25521941",
+      "25182228",
+      "25002589",
+      "23389618",
+      "23323831",
+      "23217256",
+      "21652783",
+      "21461721",
+      "21414208",
+      "20231569",
+      "19906785",
+      "19190316",
+      "18083938",
+      "18050211",
+      "17634462",
+      "16632515",
+      "15817678",
+      "15731115",
+      "14597658",
+      "12525261",
+      "12050121",
+      "11752295",
+      "10995047",
+      "3203132"
+    ],
+    "similar": [
+      "41630199",
+      "37605572",
+      "40241169",
+      "41905994",
+      "41703488",
+      "36311708",
+      "40918403",
+      "40642528",
+      "40313558",
+      "38650009",
+      "41044520",
+      "38260098",
+      "41261566",
+      "40901474",
+      "39953608",
+      "40238799",
+      "36513616",
+      "39791175",
+      "41357842",
+      "41444522",
+      "39556279",
+      "39968099",
+      "41402885",
+      "41673191",
+      "41342434",
+      "42292668",
+      "41591671",
+      "42015036",
+      "40927289",
+      "42081554",
+      "40374866",
+      "37033969",
+      "42377012",
+      "41195206",
+      "41388523",
+      "38863714",
+      "40406126",
+      "42138757",
+      "38528539",
+      "41276899",
+      "41052072",
+      "40574839",
+      "41710265",
+      "41787525",
+      "42265416",
+      "41204360",
+      "41432483",
+      "39636560",
+      "40967560",
+      "40603950",
+      "39512836",
+      "39139563",
+      "41909133",
+      "41588028",
+      "40855175",
+      "42327749",
+      "36034449",
+      "39351238",
+      "40161396",
+      "38637425",
+      "42175405",
+      "36532015",
+      "41743406",
+      "42164373",
+      "39953122",
+      "41316541",
+      "40916281",
+      "38701300",
+      "41136974",
+      "40860289",
+      "38867322",
+      "35620387",
+      "42265520",
+      "41665627",
+      "41442003",
+      "42056344",
+      "42024670",
+      "39391879",
+      "40374840",
+      "37251077",
+      "41611834",
+      "40594252",
+      "41080564",
+      "38637124",
+      "39582915",
+      "39375405",
+      "42363518",
+      "38645862",
+      "41006883",
+      "39383820",
+      "39855613",
+      "41947915",
+      "39697326",
+      "40196107",
+      "41508240",
+      "41533020",
+      "41450821",
+      "42083957",
+      "41288681",
+      "41814823"
+    ],
+    "review": [
+      "41630199",
+      "41665627"
+    ],
+    "pmc": [
+      "12863795"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=105&issue=5&spage=e47356&aulast=Zheng",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://www.ovid.com/41630199.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41630199/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000047356",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

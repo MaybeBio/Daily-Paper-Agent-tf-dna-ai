@@ -1,0 +1,512 @@
+{
+  "identity": {
+    "pmid": "35906002",
+    "doi": "10.1136/annrheumdis-2021-222069",
+    "title": "Cross-species transcriptome analysis for early detection and specific therapeutic targeting of human lupus nephritis."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Patients with lupus nephritis (LN) are in urgent need for early diagnosis and therapeutic interventions targeting aberrant molecular pathways enriched in affected kidneys. METHODS: We used mRNA-sequencing in effector (spleen) and target (kidneys, brain) tissues from lupus and control mice at sequential time points, and in the blood from 367 individuals (261 systemic lupus erythematosus (SLE) patients and 106 healthy individuals). Comparative cross-tissue and cross-species analyses were performed. The human dataset was split into training and validation sets and machine learning was applied to build LN predictive models. RESULTS: In murine SLE, we defined a kidney-specific molecular signature, as well as a molecular signature that underlies transition from preclinical to overt disease and encompasses pathways linked to metabolism, innate immune system and neutrophil degranulation. The murine kidney transcriptome partially mirrors the blood transcriptome of patients with LN with 11 key transcription factors regulating the cross-species active LN molecular signature. Integrated protein-to-protein interaction and drug prediction analyses identified the kinases TRRAP, AKT2, CDK16 and SCYL1 as putative targets of these factors and capable of reversing the LN signature. Using murine kidney-specific genes as disease predictors and machine-learning training of the human RNA-sequencing dataset, we developed and validated a peripheral blood-based algorithm that discriminates LN patients from normal individuals (based on 18 genes) and non-LN SLE patients (based on 20 genes) with excellent sensitivity and specificity (area under the curve range from 0.80 to 0.99). CONCLUSIONS: Machine-learning analysis of a large whole blood RNA-sequencing dataset of SLE patients using human orthologs of mouse kidney-specific genes can be used for early, non-invasive diagnosis and therapeutic targeting of LN. The kidney-specific gene predictors may facilitate prevention and early intervention trials.",
+    "keywords": [
+      "Autoimmune Diseases",
+      "Autoimmunity",
+      "Lupus Nephritis",
+      "Systemic Lupus Erythematosus",
+      "Therapeutics"
+    ],
+    "mesh_terms": [
+      "Adaptor Proteins, Vesicular Transport/genetics",
+      "Animals",
+      "DNA-Binding Proteins/genetics",
+      "Early Diagnosis",
+      "Gene Expression Profiling",
+      "Humans",
+      "*Lupus Erythematosus, Systemic/diagnosis/genetics",
+      "*Lupus Nephritis/diagnosis/drug therapy/genetics",
+      "Mice",
+      "RNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Frangou, Eleni",
+        "Garantziotis, Panagiotis",
+        "Grigoriou, Maria",
+        "Banos, Aggelos",
+        "Nikolopoulos, Dionysis",
+        "Pieta, Antigone",
+        "Doumas, Stavros A",
+        "Fanouriakis, Antonis",
+        "Hatzioannou, Aikaterini",
+        "Manolakou, Theodora",
+        "Alissafi, Themis",
+        "Verginis, Panayotis",
+        "Athanasiadis, Emmanouil",
+        "Dermitzakis, Emmanouil",
+        "Bertsias, George",
+        "Filia, Anastasia",
+        "Boumpas, Dimitrios T"
+      ],
+      "short_names": [
+        "Frangou E",
+        "Garantziotis P",
+        "Grigoriou M",
+        "Banos A",
+        "Nikolopoulos D",
+        "Pieta A",
+        "Doumas SA",
+        "Fanouriakis A",
+        "Hatzioannou A",
+        "Manolakou T",
+        "Alissafi T",
+        "Verginis P",
+        "Athanasiadis E",
+        "Dermitzakis E",
+        "Bertsias G",
+        "Filia A",
+        "Boumpas DT"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2516-002X",
+        "ORCID: 0000-0002-9894-6966",
+        "ORCID: 0000-0003-2696-031X",
+        "ORCID: 0000-0002-9812-4671"
+      ],
+      "affiliations": [
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Department of Nephrology, Limassol General Hospital, Limassol, Cyprus.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Department of Clinical Immunology and Rheumatology, Medical University Hannover, Hannover, Germany.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Department of Genetic Medicine and Development and Institute of Genetics and Genomics of Geneva (iG3), University of Geneva Medical School, Geneve, Switzerland.",
+        "Laboratory of Rheumatology, Autoimmunity and Inflammation, University of Crete Medical School, Heraklion, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece boumpasd@uoc.gr.",
+        "4th Department of Medicine, National and Kapodistrian University of Athens Medical School, Athens, Greece.",
+        "Medical School, University of Cyprus, Nicosia, Cyprus."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Frangou, Eleni",
+        "short_name": "Frangou E",
+        "identifiers": [
+          "0000-0003-2516-002X"
+        ],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+          "Department of Nephrology, Limassol General Hospital, Limassol, Cyprus."
+        ]
+      },
+      {
+        "full_name": "Garantziotis, Panagiotis",
+        "short_name": "Garantziotis P",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+          "Department of Clinical Immunology and Rheumatology, Medical University Hannover, Hannover, Germany."
+        ]
+      },
+      {
+        "full_name": "Grigoriou, Maria",
+        "short_name": "Grigoriou M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Banos, Aggelos",
+        "short_name": "Banos A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Nikolopoulos, Dionysis",
+        "short_name": "Nikolopoulos D",
+        "identifiers": [
+          "0000-0002-9894-6966"
+        ],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Pieta, Antigone",
+        "short_name": "Pieta A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Doumas, Stavros A",
+        "short_name": "Doumas SA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Fanouriakis, Antonis",
+        "short_name": "Fanouriakis A",
+        "identifiers": [
+          "0000-0003-2696-031X"
+        ],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Hatzioannou, Aikaterini",
+        "short_name": "Hatzioannou A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Manolakou, Theodora",
+        "short_name": "Manolakou T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Alissafi, Themis",
+        "short_name": "Alissafi T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Verginis, Panayotis",
+        "short_name": "Verginis P",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Athanasiadis, Emmanouil",
+        "short_name": "Athanasiadis E",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Dermitzakis, Emmanouil",
+        "short_name": "Dermitzakis E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Medicine and Development and Institute of Genetics and Genomics of Geneva (iG3), University of Geneva Medical School, Geneve, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Bertsias, George",
+        "short_name": "Bertsias G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Rheumatology, Autoimmunity and Inflammation, University of Crete Medical School, Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Filia, Anastasia",
+        "short_name": "Filia A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Boumpas, Dimitrios T",
+        "short_name": "Boumpas DT",
+        "identifiers": [
+          "0000-0002-9812-4671"
+        ],
+        "affiliations": [
+          "Laboratory of Autoimmunity and Inflammation, Biomedical Research Foundation of the Academy of Athens, Athens, Greece boumpasd@uoc.gr.",
+          "4th Department of Medicine, National and Kapodistrian University of Athens Medical School, Athens, Greece.",
+          "Medical School, University of Cyprus, Nicosia, Cyprus."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of the rheumatic diseases"
+    ],
+    "journal_abbrev": [
+      "Ann Rheum Dis"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/30 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "42493613",
+      "42183196",
+      "42152612",
+      "42093034",
+      "41641677",
+      "41598633",
+      "41563339",
+      "41331235",
+      "41256865",
+      "41033712",
+      "40466435",
+      "39457877",
+      "38899167",
+      "38609158",
+      "38260685",
+      "37475860",
+      "37072752"
+    ],
+    "refs": [
+      "34888694",
+      "33971155",
+      "33536424",
+      "33397815",
+      "33272962",
+      "32937045",
+      "32220834",
+      "32203285",
+      "31851795",
+      "31575058",
+      "31209404",
+      "31167757",
+      "31110316",
+      "30563869",
+      "30065042",
+      "29730634",
+      "29459092",
+      "29142970",
+      "28479595",
+      "28469080",
+      "28413689",
+      "28062664",
+      "27900491",
+      "27040498",
+      "26815601",
+      "26631632",
+      "26581344",
+      "26250434",
+      "25516281",
+      "25260700",
+      "25183834",
+      "23104886",
+      "22723521",
+      "22231479",
+      "22080467",
+      "21296403",
+      "20576703",
+      "20039413",
+      "19910308",
+      "17478515",
+      "17211989",
+      "16485042",
+      "12695156",
+      "12571860",
+      "11823542",
+      "11135084"
+    ],
+    "similar": [
+      "35906002",
+      "36845141",
+      "36532018",
+      "39869603",
+      "41488623",
+      "38223506",
+      "32265898",
+      "39690146",
+      "36595110",
+      "38970507",
+      "38440734",
+      "40011954",
+      "28031441",
+      "37439924",
+      "37506491",
+      "38637124",
+      "39430760",
+      "32552896",
+      "37398664",
+      "40199549",
+      "39919899",
+      "38855105",
+      "36223498",
+      "25496163",
+      "39205658",
+      "37026377",
+      "39464895",
+      "35019799",
+      "30791224",
+      "31046570",
+      "41233846",
+      "40976321",
+      "40019633",
+      "27412348",
+      "33617143",
+      "36396012",
+      "36508734",
+      "40153332",
+      "39292313",
+      "37061279",
+      "34732529",
+      "41316541",
+      "41005317",
+      "26932688",
+      "36059469",
+      "41280900",
+      "39958362",
+      "40629817",
+      "34867955",
+      "35932197",
+      "36211360",
+      "38194790",
+      "39126180",
+      "31597273",
+      "31167757",
+      "28423570",
+      "32189478",
+      "40613967",
+      "35967373",
+      "38224469",
+      "28373995",
+      "30941928",
+      "38546745",
+      "40973872",
+      "40368437",
+      "38409788",
+      "39705444",
+      "32942031",
+      "35102908",
+      "26045217",
+      "37393341",
+      "40323689",
+      "29720035",
+      "36076550",
+      "31507612",
+      "36418233",
+      "26200015",
+      "39306750",
+      "30172209",
+      "38256074",
+      "31978801",
+      "36840837",
+      "40138152",
+      "24673810",
+      "41199598",
+      "27075413",
+      "36621176",
+      "38664528",
+      "29854836",
+      "39224582",
+      "29045037",
+      "35568436",
+      "41164191",
+      "39689598",
+      "31835612",
+      "32849548",
+      "37809087",
+      "25471633",
+      "22723521",
+      "27835701"
+    ],
+    "review": [
+      "35906002",
+      "35932197",
+      "36211360",
+      "31597273",
+      "32189478",
+      "32942031",
+      "29720035",
+      "36840837",
+      "24673810",
+      "29854836",
+      "31835612"
+    ],
+    "pmc": [
+      "9484391"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0003-4967(24)18441-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://ard.bmj.com/lookup/pmidlookup?view=long&pmid=35906002",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lupus.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lupus"
+      },
+      {
+        "url": "https://www.ovid.com/35906002.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35906002/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35906002",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-788",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

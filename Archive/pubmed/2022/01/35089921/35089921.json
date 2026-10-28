@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "35089921",
+    "doi": "10.1371/journal.pcbi.1009847",
+    "title": "Modeling the temporal dynamics of master regulators and CtrA proteolysis in Caulobacter crescentus cell cycle."
+  },
+  "content": {
+    "abstract": "The cell cycle of Caulobacter crescentus involves the polar morphogenesis and an asymmetric cell division driven by precise interactions and regulations of proteins, which makes Caulobacter an ideal model organism for investigating bacterial cell development and differentiation. The abundance of molecular data accumulated on Caulobacter motivates system biologists to analyze the complex regulatory network of cell cycle via quantitative modeling. In this paper, We propose a comprehensive model to accurately characterize the underlying mechanisms of cell cycle regulation based on the study of: a) chromosome replication and methylation; b) interactive pathways of five master regulatory proteins including DnaA, GcrA, CcrM, CtrA, and SciP, as well as novel consideration of their corresponding mRNAs; c) cell cycle-dependent proteolysis of CtrA through hierarchical protease complexes. The temporal dynamics of our simulation results are able to closely replicate an extensive set of experimental observations and capture the main phenotype of seven mutant strains of Caulobacter crescentus. Collectively, the proposed model can be used to predict phenotypes of other mutant cases, especially for nonviable strains which are hard to cultivate and observe. Moreover, the module of cyclic proteolysis is an efficient tool to study the metabolism of proteins with similar mechanisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "Bacterial Proteins/genetics/metabolism",
+      "*Caulobacter crescentus/genetics/metabolism",
+      "Cell Cycle/physiology",
+      "DNA-Binding Proteins/metabolism",
+      "Gene Expression Regulation, Bacterial",
+      "Proteolysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Chunrui",
+        "Hollis, Henry",
+        "Dai, Michelle",
+        "Yao, Xiangyu",
+        "Watson, Layne T",
+        "Cao, Yang",
+        "Chen, Minghan"
+      ],
+      "short_names": [
+        "Xu C",
+        "Hollis H",
+        "Dai M",
+        "Yao X",
+        "Watson LT",
+        "Cao Y",
+        "Chen M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4755-1593",
+        "ORCID: 0000-0002-6088-2792",
+        "ORCID: 0000-0003-0804-1061",
+        "ORCID: 0000-0001-9336-3748",
+        "ORCID: 0000-0002-7321-8962"
+      ],
+      "affiliations": [
+        "Genetics, Bioinformatics, and Computational Biology, Virginia Tech, Blacksburg, Virginia, United States of America.",
+        "Department of Computer Science, Wake Forest University, Winston-Salem, North Carolina, United States of America.",
+        "Department of Computer Science, Wake Forest University, Winston-Salem, North Carolina, United States of America.",
+        "Genetics, Bioinformatics, and Computational Biology, Virginia Tech, Blacksburg, Virginia, United States of America.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, Virginia, United States of America.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, Virginia, United States of America.",
+        "Department of Computer Science, Wake Forest University, Winston-Salem, North Carolina, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Chunrui",
+        "short_name": "Xu C",
+        "identifiers": [
+          "0000-0002-4755-1593"
+        ],
+        "affiliations": [
+          "Genetics, Bioinformatics, and Computational Biology, Virginia Tech, Blacksburg, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Hollis, Henry",
+        "short_name": "Hollis H",
+        "identifiers": [
+          "0000-0002-6088-2792"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Wake Forest University, Winston-Salem, North Carolina, United States of America."
+        ]
+      },
+      {
+        "full_name": "Dai, Michelle",
+        "short_name": "Dai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Wake Forest University, Winston-Salem, North Carolina, United States of America."
+        ]
+      },
+      {
+        "full_name": "Yao, Xiangyu",
+        "short_name": "Yao X",
+        "identifiers": [
+          "0000-0003-0804-1061"
+        ],
+        "affiliations": [
+          "Genetics, Bioinformatics, and Computational Biology, Virginia Tech, Blacksburg, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Watson, Layne T",
+        "short_name": "Watson LT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Cao, Yang",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0000-0001-9336-3748"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Chen, Minghan",
+        "short_name": "Chen M",
+        "identifiers": [
+          "0000-0002-7321-8962"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Wake Forest University, Winston-Salem, North Carolina, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/29 06:00",
+    "fetched_at": "2026-09-28 04:33:33"
+  },
+  "links": {
+    "cites": [
+      "39856180",
+      "38961813",
+      "36624343"
+    ],
+    "refs": [
+      "32998723",
+      "32571969",
+      "32041947",
+      "31315982",
+      "31138672",
+      "29990127",
+      "28507098",
+      "27893963",
+      "27791168",
+      "27517351",
+      "27345750",
+      "26545812",
+      "26451486",
+      "26134530",
+      "25945741",
+      "25569173",
+      "25197043",
+      "24415923",
+      "24398711",
+      "24039597",
+      "22790399",
+      "21855795",
+      "20956288",
+      "19781638",
+      "19680425",
+      "19136627",
+      "18946044",
+      "18685108",
+      "18225942",
+      "17942674",
+      "17697997",
+      "16895465",
+      "16829582",
+      "16469700",
+      "16395331",
+      "15087506",
+      "15075296",
+      "12824468",
+      "12511504",
+      "12234936",
+      "12198144",
+      "10970844",
+      "10619016",
+      "10198005",
+      "9267022",
+      "8666236",
+      "2911562"
+    ],
+    "similar": [
+      "35089921",
+      "22790399",
+      "16395331",
+      "22227374",
+      "16313620",
+      "15686567",
+      "20426835",
+      "30082457",
+      "23368090",
+      "15087506",
+      "16547950",
+      "35192605",
+      "19897656",
+      "12445780",
+      "26324449",
+      "14527278",
+      "21843309",
+      "10744989",
+      "15467452",
+      "22022497",
+      "25197043",
+      "23865946",
+      "20598601",
+      "12270838",
+      "17827294",
+      "29382570",
+      "9512521",
+      "19633089",
+      "11309130",
+      "27647925",
+      "19781638",
+      "19747489",
+      "11929544",
+      "19220749",
+      "17942674",
+      "18225942",
+      "21683595",
+      "12603734",
+      "10198005",
+      "10066543",
+      "24794566",
+      "30496040",
+      "32187735",
+      "17136100",
+      "29899753",
+      "31495806",
+      "10359766",
+      "26489861",
+      "19332823",
+      "25369202",
+      "11325950",
+      "15276611",
+      "38722176",
+      "30502952",
+      "20956288",
+      "11462209",
+      "30626709",
+      "23437210",
+      "12949109",
+      "23647068",
+      "24398711",
+      "8666236",
+      "17928306",
+      "16547034",
+      "12142494",
+      "19680425",
+      "32571969",
+      "25978424",
+      "16829582",
+      "39030481",
+      "19783630",
+      "19136627",
+      "12234936",
+      "10993722",
+      "25573769",
+      "1518064",
+      "18955157",
+      "18929067",
+      "23737758",
+      "10717313",
+      "23146566",
+      "8288535",
+      "18723629",
+      "29367337",
+      "31937638",
+      "34242584",
+      "9465034",
+      "27791133",
+      "10698954",
+      "26134530",
+      "37979947",
+      "27667502",
+      "16469700",
+      "12237413",
+      "33500340",
+      "24415923",
+      "11930012",
+      "10383964",
+      "28011580",
+      "12730166",
+      "28008851",
+      "36715542",
+      "24894626",
+      "39361646",
+      "37128549",
+      "21685367",
+      "19542275",
+      "9419339",
+      "36971555",
+      "36692299",
+      "25938623",
+      "12626719",
+      "23209388",
+      "17420450",
+      "38940598",
+      "38011258",
+      "35741828",
+      "39145657",
+      "36715319",
+      "38806218",
+      "37930077",
+      "20472802",
+      "25569173",
+      "37730540",
+      "24914187",
+      "26063575",
+      "38834569",
+      "39093898",
+      "11287652",
+      "33563962",
+      "32090198",
+      "36516849",
+      "34971672",
+      "35691139",
+      "21371478",
+      "37433794",
+      "38464217",
+      "36700303",
+      "36814380",
+      "38598301",
+      "37693447",
+      "37645878",
+      "36993274"
+    ],
+    "review": [
+      "35089921",
+      "22227374",
+      "16547950",
+      "14527278",
+      "10744989",
+      "15467452",
+      "29382570",
+      "19781638",
+      "10066543",
+      "31495806",
+      "11462209",
+      "30626709",
+      "17928306",
+      "12142494",
+      "18955157",
+      "18929067",
+      "10717313",
+      "23146566",
+      "36715542",
+      "24894626"
+    ],
+    "pmc": [
+      "8865702"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009847",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35089921/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35089921",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

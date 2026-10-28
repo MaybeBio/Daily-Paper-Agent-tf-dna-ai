@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "36736488",
+    "doi": "10.1016/j.cbi.2023.110372",
+    "title": "The prognostic gene CRABP2 affects drug sensitivity by regulating docetaxel-induced apoptosis in breast invasive carcinoma: A pan-cancer analysis."
+  },
+  "content": {
+    "abstract": "Cellular retinoic acid-binding protein 2 (CRABP2), a specific transporter of retinoic acid, has been shown to have an important biological role in human cancers. However, due to the substantial variability among different tumors, the role of CRABP2 remains uncertain and has not yet been subjected to systematic analysis. Utilizing The Cancer Genome Atlas (TCGA), Genotype-Tissue Expression (GTEx), Clinical Proteomic Tumor Analysis Consortium (CPTAC), Human Protein Atlas (HPA), Gene Expression Profiling Interactive Analysis 2 (GEPIA2), Kaplan-Meier Plotter, Biomarker Exploration of Solid Tumors (BEST), Cancer Cell Line Encyclopedia (CCLE), Receiver Operating Characteristic plotter (ROC plotter), and other online public tools, expression levels of CRABP2 in breast invasive carcinoma (BRCA), lung adenocarcinoma (LUAD), and ovarian serous cystadenocarcinoma (OV) were found to be significantly greater than those in adjacent normal tissues, suggesting a correlation to poor prognosis. Among the three, CRABP2 expression in BRCA was most closely associated with clinical prognosis. In a study of docetaxel-treated BRCA patients, CRABP2 expression was significantly higher in the drug-resistant group. Colony formation and flow cytometry analysis were used to further investigate the relationship between CRABP2 and docetaxel sensitivity in BRCA cells MDA-MB-231and BT549. The knockdown of CRABP2 expression significantly reduced cell growth and increased sensitivity to the chemotherapeutic agent docetaxel in BRCA cells. Furthermore, CRABP2 knockdown augmented docetaxel-induced apoptosis. Molecular docking using SwissDock tool revealed that CRABP2 had a greater binding affinity to docetaxel than docetaxel-targeted proteins. This research provides an insight into the expression and prognostic potential of CRABP2 in cancers and suggests that CRABP2 may control docetaxel sensitivity in BRCA cells through apoptosis, warranting further investigation.",
+    "keywords": [
+      "Apoptosis",
+      "BRCA",
+      "CRABP2",
+      "Docetaxel sensitivity",
+      "Pan-cancer"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Apoptosis",
+      "*Breast Neoplasms/pathology",
+      "*Carcinoma",
+      "Cell Proliferation",
+      "Docetaxel",
+      "Molecular Docking Simulation",
+      "Prognosis",
+      "Proteomics",
+      "Receptors, Retinoic Acid/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Shuangshuang",
+        "Xu, Zhijie",
+        "Liang, Qiuju",
+        "Thakur, Abhimanyu",
+        "Liu, Yuanhong",
+        "Zhou, Shangjun",
+        "Yan, Yuanliang"
+      ],
+      "short_names": [
+        "Zeng S",
+        "Xu Z",
+        "Liang Q",
+        "Thakur A",
+        "Liu Y",
+        "Zhou S",
+        "Yan Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China.",
+        "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China; Department of Pathology, Xiangya Changde Hospital, Changde, 415000, Hunan, China.",
+        "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China.",
+        "Ben May Department for Cancer Research, Pritzker School of Molecular Engineering, University of Chicago, Illinois, USA.",
+        "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China.",
+        "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China.",
+        "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China. Electronic address: yanyuanliang@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Shuangshuang",
+        "short_name": "Zeng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhijie",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China; Department of Pathology, Xiangya Changde Hospital, Changde, 415000, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Qiuju",
+        "short_name": "Liang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Thakur, Abhimanyu",
+        "short_name": "Thakur A",
+        "identifiers": [],
+        "affiliations": [
+          "Ben May Department for Cancer Research, Pritzker School of Molecular Engineering, University of Chicago, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuanhong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shangjun",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Yuanliang",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, Hunan, China. Electronic address: yanyuanliang@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemico-biological interactions"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Interact"
+    ],
+    "pub_date": "2023 Mar 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/04 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "42653100",
+      "41234830",
+      "40797255",
+      "40371351",
+      "39914387",
+      "39768218",
+      "39165934",
+      "38948758",
+      "38633624",
+      "38195606",
+      "38186580",
+      "37461253"
+    ],
+    "refs": [],
+    "similar": [
+      "36736488",
+      "38493911",
+      "35782736",
+      "36949759",
+      "31419991",
+      "36163055",
+      "29731607",
+      "22010213",
+      "26142905",
+      "33832420",
+      "32013828",
+      "32685464",
+      "34369716",
+      "28502478",
+      "36255654",
+      "35396749",
+      "37715025",
+      "35442568",
+      "38462454",
+      "34120621",
+      "32184655",
+      "26893190",
+      "37988189",
+      "38195606",
+      "35671035",
+      "36195596",
+      "33879199",
+      "38915108",
+      "30696915",
+      "36749087",
+      "25320093",
+      "38186580",
+      "33125124",
+      "20019841",
+      "34531868",
+      "36077008",
+      "35965804",
+      "36240291",
+      "29378601",
+      "33786631",
+      "35042454",
+      "35065633",
+      "35558557",
+      "35093072",
+      "34876062",
+      "32593808",
+      "26839961",
+      "39263087",
+      "36148220",
+      "36237259",
+      "34530087",
+      "35578123",
+      "34745988",
+      "36323715",
+      "39395024",
+      "36046686",
+      "29930489",
+      "35241179",
+      "36618780",
+      "33564687",
+      "32283571",
+      "34932899",
+      "39397181",
+      "23337719",
+      "35658829",
+      "31134149",
+      "24337851",
+      "35791393",
+      "28578456",
+      "33090728",
+      "35910232",
+      "30605979",
+      "23479679",
+      "25034531",
+      "22321069",
+      "33569346",
+      "30031031",
+      "34774014",
+      "33301643",
+      "36497462",
+      "34646087",
+      "35785154",
+      "36035176",
+      "35787690",
+      "35783266",
+      "36357897",
+      "32648580",
+      "33602168",
+      "33350431",
+      "38081884",
+      "36207751",
+      "36618420",
+      "28440463",
+      "21356353",
+      "23383201",
+      "36159971",
+      "33390818",
+      "35155565",
+      "38995439",
+      "38235352",
+      "37544634",
+      "37083815",
+      "39191147",
+      "38160786",
+      "37540443",
+      "37016102",
+      "37139258",
+      "37833332",
+      "39200195",
+      "39165977",
+      "38649557",
+      "39419021",
+      "37389738",
+      "37007153",
+      "38607221",
+      "37517589",
+      "34492340"
+    ],
+    "review": [
+      "36736488",
+      "32013828",
+      "38915108"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-2797(23)00039-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CRABP2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-51",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

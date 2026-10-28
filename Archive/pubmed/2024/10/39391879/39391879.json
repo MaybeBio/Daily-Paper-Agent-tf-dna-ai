@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "39391879",
+    "doi": "10.3389/fendo.2024.1356959",
+    "title": "Identification and validation of SHC1 and FGFR1 as novel immune-related oxidative stress biomarkers of non-obstructive azoospermia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Non-obstructive azoospermia (NOA) is a major contributor of male infertility. Herein, we used existing datasets to identify novel biomarkers for the diagnosis and prognosis of NOA, which could have great significance in the field of male infertility. METHODS: NOA datasets were obtained from the Gene Expression Omnibus (GEO) database. CIBERSORT was utilized to analyze the distributions of 22 immune cell populations. Hub genes were identified by applying weighted gene co-expression network analysis (WGCNA), machine learning methods, and protein-protein interaction (PPI) network analysis. The expression of hub genes was verified in external datasets and was assessed by receiver operating characteristic (ROC) curve analysis. Gene set enrichment analysis (GSEA) was applied to explore the important functions and pathways of hub genes. The mRNA-microRNA (miRNA)-transcription factors (TFs) regulatory network and potential drugs were predicted based on hub genes. Single-cell RNA sequencing data from the testes of patients with NOA were applied for analyzing the distribution of hub genes in single-cell clusters. Furthermore, testis tissue samples were obtained from patients with NOA and obstructive azoospermia (OA) who underwent testicular biopsy. RT-PCR and Western blot were used to validate hub gene expression. RESULTS: Two immune-related oxidative stress hub genes (SHC1 and FGFR1) were identified. Both hub genes were highly expressed in NOA samples compared to control samples. ROC curve analysis showed a remarkable prediction ability (AUCs > 0.8). GSEA revealed that hub genes were predominantly enriched in toll-like receptor and Wnt signaling pathways. A total of 24 TFs, 82 miRNAs, and 111 potential drugs were predicted based on two hub genes. Single-cell RNA sequencing data in NOA patients indicated that SHC1 and FGFR1 were highly expressed in endothelial cells and Leydig cells, respectively. RT-PCR and Western blot results showed that mRNA and protein levels of both hub genes were significantly upregulated in NOA testis tissue samples, which agree with the findings from analysis of the microarray data. CONCLUSION: It appears that SHC1 and FGFR1 could be significant immune-related oxidative stress biomarkers for detecting and managing patients with NOA. Our findings provide a novel viewpoint for illustrating potential pathogenesis in men suffering from infertility.",
+    "keywords": [
+      "WGCNA",
+      "immune cell",
+      "machine learning",
+      "non-obstructive azoospermia",
+      "oxidative stress",
+      "single-cell RNA-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Oxidative Stress/genetics",
+      "*Azoospermia/genetics/metabolism/pathology",
+      "*Src Homology 2 Domain-Containing, Transforming Protein 1/genetics/metabolism",
+      "*Receptor, Fibroblast Growth Factor, Type 1/genetics/metabolism",
+      "*Biomarkers/metabolism/analysis",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps",
+      "Testis/metabolism/pathology",
+      "Gene Expression Profiling",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Yang",
+        "Chen, Xiangyu",
+        "Zhou, Hang",
+        "Xu, Mingming",
+        "Li, Yuezheng",
+        "Wang, Qihua",
+        "Xu, Zhunan",
+        "Ren, Congzhe",
+        "Liu, Li",
+        "Liu, Xiaoqiang"
+      ],
+      "short_names": [
+        "Pan Y",
+        "Chen X",
+        "Zhou H",
+        "Xu M",
+        "Li Y",
+        "Wang Q",
+        "Xu Z",
+        "Ren C",
+        "Liu L",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Yang",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiangyu",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hang",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Mingming",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuezheng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qihua",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhunan",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Congzhe",
+        "short_name": "Ren C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoqiang",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/11 10:51",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "42065147",
+      "39836313"
+    ],
+    "refs": [
+      "36911691",
+      "36695554",
+      "35733256",
+      "35624341",
+      "35309296",
+      "35172124",
+      "34715904",
+      "34557778",
+      "34511305",
+      "34347949",
+      "34228062",
+      "34192390",
+      "34129502",
+      "34062486",
+      "34011560",
+      "33806855",
+      "33802813",
+      "33619116",
+      "33101214",
+      "32920894",
+      "31665451",
+      "31202267",
+      "29858603",
+      "29624862",
+      "29622783",
+      "29278382",
+      "29259433",
+      "28985527",
+      "27395771",
+      "26775730",
+      "25822800",
+      "25605792",
+      "24823637",
+      "24589855",
+      "24305876",
+      "23817572",
+      "23503953",
+      "23284045",
+      "22761943",
+      "22622521",
+      "22455463",
+      "20959350",
+      "20094046",
+      "19114008",
+      "18622394",
+      "16331688",
+      "16199517",
+      "11607835",
+      "11030354",
+      "10741744",
+      "9813192",
+      "1623525"
+    ],
+    "similar": [
+      "39391879",
+      "37549510",
+      "36506310",
+      "39506588",
+      "36945018",
+      "40460050",
+      "39556279",
+      "35219767",
+      "33621950",
+      "37854191",
+      "38902567",
+      "34192390",
+      "37033969",
+      "37334314",
+      "39713769",
+      "38858625",
+      "40215689",
+      "41388523",
+      "41639206",
+      "41846291",
+      "40694561",
+      "31125047",
+      "39086489",
+      "36819497",
+      "40376522",
+      "40821971",
+      "31775841",
+      "38863714",
+      "38476236",
+      "34221106",
+      "40587077",
+      "33532314",
+      "41583468",
+      "39069636",
+      "38873611",
+      "39139563",
+      "40151199",
+      "38899746",
+      "39026663",
+      "40574839",
+      "37100862",
+      "39093776",
+      "40628511",
+      "40783914",
+      "41432483",
+      "39662639",
+      "40216809",
+      "41044520",
+      "39284931",
+      "35713363",
+      "39893187",
+      "42123445",
+      "41738361",
+      "37359526",
+      "39923303",
+      "38690269",
+      "40442788",
+      "39292413",
+      "35558576",
+      "37116198",
+      "39991151",
+      "36635346",
+      "42138757",
+      "39876591",
+      "34536521",
+      "30269365",
+      "41316378",
+      "40804350",
+      "36699262",
+      "33602558",
+      "41706232",
+      "40406620",
+      "41146237",
+      "41756296",
+      "39375405",
+      "42267557",
+      "40196107",
+      "40280502",
+      "40093012",
+      "40782934",
+      "40659785",
+      "38734758",
+      "37283758",
+      "40594252",
+      "34738918",
+      "42109727",
+      "39176085",
+      "40956397",
+      "40787865",
+      "35715550",
+      "39472682",
+      "37837870",
+      "40742465",
+      "40263537",
+      "41162503",
+      "40997906",
+      "40918148",
+      "40739239",
+      "42083957",
+      "30602391"
+    ],
+    "review": [
+      "39391879"
+    ],
+    "pmc": [
+      "11466301"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39391879/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1773",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2024.1356959",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

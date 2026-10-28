@@ -1,0 +1,375 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.22.581527",
+  "title": "An efficient in vivo -inducible CRISPR interference system for group A Streptococcus genetic analysis and pathogenesis studies",
+  "doi": "10.1101/2024.02.22.581527",
+  "abstract": "While genome-wide transposon mutagenesis screens have identified numerous essential genes in the significant human pathogen Streptococcus pyogenes (group A Streptococcus or GAS), many of their functions remain elusive. This knowledge gap is attributed in part to the limited molecular toolbox for controlling GAS gene expression and the bacterium’s poor genetic transformability. CRISPR interference (CRISPRi), using catalytically inactive GAS Cas9 (dCas9), is a powerful approach to specifically repress gene expression in both bacteria and eukaryotes, but ironically has never been harnessed for controlled gene expression in GAS. In this study, we present a highly transformable and fully virulent serotype M1T1 GAS strain and introduce a doxycycline-inducible CRISPRi system for efficient repression of bacterial gene expression. We demonstrate highly efficient, oligo-based sgRNA cloning directly to GAS, enabling the construction of a gene knockdown strain in just two days, in contrast to the several weeks typically required. The system is shown to be titratable and functional both in vitro and in vivo using a murine model of GAS infection. Furthermore, we provide direct in vivo evidence that the expression of the conserved cell division gene ftsZ is essential for GAS virulence, highlighting its promise as a target for emerging FtsZ-inhibitors. Finally, we introduce SpyBrowse ( https://veeninglab.com/SpyBrowse ), a comprehensive and user-friendly online resource for visually inspecting and exploring GAS genetic features. The tools and methodologies described in this work are poised to facilitate fundamental research in GAS, contribute to vaccine development, and aid in the discovery of antibiotic targets. <h4>Significance statement</h4> While GAS remains a predominant cause of bacterial infections worldwide, there are limited genetic tools available to study its basic cell biology. Here, we bridge this gap by creating a highly transformable, fully virulent M1T1 GAS strain. In addition, we established a tight and titratable doxycycline-inducible system and developed CRISPR interference for controlled gene expression in GAS. We show that CRISPRi is functional in vivo in a mouse infection model. Additionally, we present SpyBrowse, an intuitive and accessible genome browser ( https://veeninglab.com/SpyBrowse ). Overall, this work overcomes significant technical challenges of working with GAS, and together with SpyBrowse, represents a valuable resource for researchers in the GAS field.",
+  "authors": [
+    "Bjånes E",
+    "Stream A",
+    "Janssen AB",
+    "Gibson PS",
+    "Bravo AM",
+    "Dahesh S",
+    "Baker JL",
+    "Varble A",
+    "Varble A",
+    "Nizet V",
+    "Veening J"
+  ],
+  "published_date": "2024-02-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.22.581527",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.22.581527.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR811124",
+    "raw_record": {
+      "id": "PPR811124",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR811124"
+        ]
+      },
+      "doi": "10.1101/2024.02.22.581527",
+      "title": "An efficient  <i>in vivo</i>  -inducible CRISPR interference system for group A  <i>Streptococcus</i>  genetic analysis and pathogenesis studies",
+      "authorString": "Bjånes E, Stream A, Janssen AB, Gibson PS, Bravo AM, Dahesh S, Baker JL, Varble A, Varble A, Nizet V, Veening J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bjånes E",
+            "lastName": "Bjånes",
+            "firstName": "Elisabet",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, University of California San Diego, La Jolla, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stream A",
+            "lastName": "Stream",
+            "firstName": "Alexandra",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0089-0552"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, University of California San Diego, La Jolla, CA, USA"
+                },
+                {
+                  "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Janssen AB",
+            "lastName": "Janssen",
+            "firstName": "Axel",
+            "initials": "AB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7563-9824"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gibson PS",
+            "lastName": "Gibson",
+            "firstName": "Paddy",
+            "initials": "PS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bravo AM",
+            "lastName": "Bravo",
+            "firstName": "Afonso",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-4451-2034"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dahesh S",
+            "lastName": "Dahesh",
+            "firstName": "Samira",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5378-322X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, University of California San Diego, La Jolla, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baker JL",
+            "lastName": "Baker",
+            "firstName": "Jonathon",
+            "initials": "JL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Oral Rehabilitation & Biosciences, School of Dentistry, Oregon Health & Science University, Portland, OR, USA"
+                },
+                {
+                  "affiliation": "Genomic Medicine Group, J. Craig Venter Institute, La Jolla, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Varble A",
+            "lastName": "Varble",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3847-0422"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Rochester Medical Center, School of Medicine and Dentistry, Rochester, New York, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Varble A",
+            "lastName": "Varble",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4534-630X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Rochester Medical Center, School of Medicine and Dentistry, Rochester, New York, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nizet V",
+            "lastName": "Nizet",
+            "firstName": "Victor",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, University of California San Diego, La Jolla, CA, USA"
+                },
+                {
+                  "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Veening J",
+            "lastName": "Veening",
+            "firstName": "Jan-Willem",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, University of California San Diego, La Jolla, CA, USA"
+                },
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5378-322X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2747-7699"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4534-630X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7563-9824"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0089-0552"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3847-0422"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-4451-2034"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "While genome-wide transposon mutagenesis screens have identified numerous essential genes in the significant human pathogen  Streptococcus pyogenes (group A  Streptococcus or GAS), many of their functions remain elusive. This knowledge gap is attributed in part to the limited molecular toolbox for controlling GAS gene expression and the bacterium’s poor genetic transformability. CRISPR interference (CRISPRi), using catalytically inactive GAS Cas9 (dCas9), is a powerful approach to specifically repress gene expression in both bacteria and eukaryotes, but ironically has never been harnessed for controlled gene expression in GAS. In this study, we present a highly transformable and fully virulent serotype M1T1 GAS strain and introduce a doxycycline-inducible CRISPRi system for efficient repression of bacterial gene expression. We demonstrate highly efficient, oligo-based sgRNA cloning directly to GAS, enabling the construction of a gene knockdown strain in just two days, in contrast to the several weeks typically required. The system is shown to be titratable and functional both  in vitro and  in vivo using a murine model of GAS infection. Furthermore, we provide direct  in vivo evidence that the expression of the conserved cell division gene  ftsZ is essential for GAS virulence, highlighting its promise as a target for emerging FtsZ-inhibitors. Finally, we introduce SpyBrowse (  https://veeninglab.com/SpyBrowse ), a comprehensive and user-friendly online resource for visually inspecting and exploring GAS genetic features. The tools and methodologies described in this work are poised to facilitate fundamental research in GAS, contribute to vaccine development, and aid in the discovery of antibiotic targets.  <h4>Significance statement</h4>  While GAS remains a predominant cause of bacterial infections worldwide, there are limited genetic tools available to study its basic cell biology. Here, we bridge this gap by creating a highly transformable, fully virulent M1T1 GAS strain. In addition, we established a tight and titratable doxycycline-inducible system and developed CRISPR interference for controlled gene expression in GAS. We show that CRISPRi is functional  in vivo in a mouse infection model. Additionally, we present SpyBrowse, an intuitive and accessible genome browser (  https://veeninglab.com/SpyBrowse ). Overall, this work overcomes significant technical challenges of working with GAS, and together with SpyBrowse, represents a valuable resource for researchers in the GAS field.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "192517",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "200792",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "213879",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.02.22.581527"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.22.581527"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR811124"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR811124&type=FILE&fileName=EMS194430-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38953375",
+            "reference": "mBio. \n    2024 Jul;:e0084024",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194430",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-02-28",
+      "firstPublicationDate": "2024-02-22",
+      "firstIndexDate": "2024-02-28",
+      "fullTextReceivedDate": "2024-06-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.09.536141",
+  "title": "Predicting splicing patterns from the transcription factor binding sites in the promoter with deep learning",
+  "doi": "10.1101/2023.04.09.536141",
+  "abstract": "Background Alternative splicing is a crucial mechanism of post-transcriptional modification responsible for the transcriptome plasticity and proteome diversity of a metazoan cell. Although many splicing regulations around the exon/intron regions have been discovered, the relationship between promoter-bound transcription factors and the downstream alternative splicing remains largely unexplored. Results In this study, we present computational approaches to decipher the regulation relationship connecting the promoter-bound transcription factor binding sites (TFBSs) and the splicing patterns. We curated a fine data set, including DNase I hypersensitive sites sequencing and transcriptome in fifteen human tissues from ENCODE. Specifically, we proposed different representations of TF binding context and splicing patterns to tackle the associations between the promoter and downstream splicing events. Our results demonstrated that the convolutional neural network (CNN) models learned from the TF binding changes in the promoter to predict the splicing pattern changes. Furthermore, through an in silico perturbation-based analysis of the CNN models, we identified several TFs that considerably reduced the model performance of splicing prediction. Conclusion In conclusion, our finding highlights the potential role of promoter-bound TFBSs in influencing the regulation of downstream splicing patterns and provides insights for discovering alternative splicing regulations.",
+  "authors": [
+    "Tzu-Chieh Lin",
+    "Cheng-Hung Tsai",
+    "Cheng-Kai Shiau",
+    "Jia-Hsin Huang",
+    "Huai-Kuang Tsai"
+  ],
+  "published_date": "2023-04-09",
+  "updated_date": "2023-04-09T23:50:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.09.536141",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.09.536141.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:39:38Z",
+        "timestamp": 1768505978431,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            9
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 54,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            9
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Alternative splicing is a crucial mechanism of post-transcriptional modification responsible for the transcriptome plasticity and proteome diversity of a metazoan cell. Although many splicing regulations around the exon/intron regions have been discovered, the relationship between promoter-bound transcription factors and the downstream alternative splicing remains largely unexplored.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    In this study, we present computational approaches to decipher the regulation relationship connecting the promoter-bound transcription factor binding sites (TFBSs) and the splicing patterns. We curated a fine data set, including DNase I hypersensitive sites sequencing and transcriptome in fifteen human tissues from ENCODE. Specifically, we proposed different representations of TF binding context and splicing patterns to tackle the associations between the promoter and downstream splicing events. Our results demonstrated that the convolutional neural network (CNN) models learned from the TF binding changes in the promoter to predict the splicing pattern changes. Furthermore, through an\n                    <jats:italic>in silico</jats:italic>\n                    perturbation-based analysis of the CNN models, we identified several TFs that considerably reduced the model performance of splicing prediction.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>In conclusion, our finding highlights the potential role of promoter-bound TFBSs in influencing the regulation of downstream splicing patterns and provides insights for discovering alternative splicing regulations.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.04.09.536141",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2023-04-09T23:50:12Z",
+        "timestamp": 1681084212000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Predicting splicing patterns from the transcription factor binding sites in the promoter with deep learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Tzu-Chieh",
+          "family": "Lin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Cheng-Hung",
+          "family": "Tsai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Cheng-Kai",
+          "family": "Shiau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5910-5419",
+          "authenticated-orcid": false,
+          "given": "Jia-Hsin",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Huai-Kuang",
+          "family": "Tsai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0168-9525(01)02626-9"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.09.017"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kelemen O , Convertini P , Zhang Z , Wen Y , Shen M , Falaleeva M , et al. Function of alternative splicing. 2013.",
+          "DOI": "10.1016/j.gene.2012.07.083"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.259"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbadis.2008.09.017"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embr.201541116"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Havens MA , Duelli DM , Hastings ML. Targeting RNA splicing for disease therapy. 2013.",
+          "DOI": "10.1002/wrna.1158"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09000"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bretschneider H , Gandhi S , Deshwar AG , Zuberi K , Frey BJ. COSSMO: Predicting competitive alternative splice site selection using deep learning. In: Bioinformatics. Oxford University Press; 2018. p. i429–37.",
+          "DOI": "10.1093/bioinformatics/bty244"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.01.013"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "587",
+          "DOI": "10.3390/genes10080587",
+          "article-title": "Deep Splicing Code: Classifying Alternative Splicing Events Using Deep Learning",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Genes"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.12.010"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Carrocci TJ , Neugebauer KM . Pre-mRNA Splicing in the Nuclear Landscape. Cold Spring Harbor Symposia on Quantitative Biology. 2020;:040402.",
+          "DOI": "10.1101/sqb.2019.84.040402"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3525"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Muñoz MJ , la Mata M , Kornblihtt AR. The carboxy terminal domain of RNA polymerase II and alternative splicing. 2010.",
+          "DOI": "10.1016/j.tibs.2010.03.010"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.12.022"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.7b00470"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "145523",
+          "DOI": "10.1016/j.gene.2021.145523",
+          "article-title": "Role of promoters in regulating alternative splicing",
+          "volume": "782",
+          "year": "2021",
+          "journal-title": "Gene"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Komili S , Silver PA. Coupling and coordination in gene expression processes: A systems biology view. 2008.",
+          "DOI": "10.1038/nrg2223"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(00)00031-9"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1073734"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2005.04.014"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/416499a"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2677"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1062"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.135350.111"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1126"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1414",
+          "DOI": "10.1093/bioinformatics/bty795",
+          "article-title": "CATANA: a tool for generating comprehensive annotations of alternative transcript events",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1528"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbw008"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti042"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.215566.116"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1524/auto.2011.0951"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.35",
+          "unstructured": "Paszke A , Gross S , Massa F , Lerer A , Bradbury J , Chanan G , et al. PyTorch: An Imperative Style, High-Performance Deep Learning Library. 2019."
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2004-5-10-r74"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.94.21.11456"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng858"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen T , Guestrin C . XGBoost: A Scalable Tree Boosting System. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. New York, NY, USA: Association for Computing Machinery; 2016. p. 785–94.",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schafer S , Miao K , Benson CC , Heinig M , Cook SA , Hubner N . Alternative Splicing Signatures in RNA-seq Data: Percent Spliced in (PSI). Current Protocols in Human Genetics. 2015;87:11.16.1-11.16.14.",
+          "DOI": "10.1002/0471142905.hg1116s87"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1077",
+          "DOI": "10.1016/j.celrep.2017.10.001",
+          "article-title": "Understanding Tissue-Specific Gene Regulation",
+          "volume": "21",
+          "year": "2017",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2538"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1261/rna.069856.118"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "865",
+          "DOI": "10.4161/rna.29441",
+          "article-title": "CRE promoter sites modulate alternative splicing via p300-mediated histone acetylation",
+          "volume": "11",
+          "year": "2014",
+          "journal-title": "RNA Biology"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1074"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M113.544346"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "73448",
+          "DOI": "10.18632/oncotarget.20627",
+          "article-title": "The downregulation of putative anticancer target BORIS/CTCFL in an addicted myeloid cancer cell line modulates the expression of multiple protein coding and ncRNA genes",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "Oncotarget"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13072-016-0084-2"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1708447114"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CELL.2018.12.015"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006625",
+          "DOI": "10.1371/journal.pcbi.1006625",
+          "article-title": "Local epigenomic state cannot discriminate interacting and non-interacting enhancer–promoter pairs with high accuracy",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1437-x"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2023041202450532000_2023.04.09.536141v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-018-0295-5"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.04.09.536141",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:31:48Z",
+        "timestamp": 1768451508000
+      },
+      "score": 111.27416,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.04.09.536141"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            9
+          ]
+        ]
+      },
+      "references-count": 54,
+      "URL": "https://doi.org/10.1101/2023.04.09.536141",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s12864-024-10667-7",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

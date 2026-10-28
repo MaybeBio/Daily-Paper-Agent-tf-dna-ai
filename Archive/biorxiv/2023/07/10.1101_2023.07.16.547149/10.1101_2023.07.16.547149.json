@@ -1,0 +1,678 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.16.547149",
+  "title": "A binding site for phosphoinositides described by multiscale simulations explains their modulation of voltage gated sodium channels",
+  "doi": "10.1101/2023.07.16.547149",
+  "abstract": "Voltage gated sodium channels (Na v ) are membrane proteins which open to facilitate the inward flux of sodium ions into excitable cells. In response to stimuli, Na v channels transition from the resting, closed state to an open, conductive state, before rapidly inactivating. Dysregulation of this functional cycle due to mutations causes diseases including epilepsy, pain conditions and cardiac disorders, making Na v channels a significant pharmacological target. Phosphoinositides are important lipid cofactors for ion channel function. The phosphoinositide PI(4,5)P 2 decreases Na v 1.4 activity by increasing the difficulty of channel opening, accelerating fast inactivation and slowing recovery from fast inactivation. Using multiscale molecular dynamics simulations, we show that PI(4,5)P 2 binds stably to inactivated Na v at a conserved site within the DIV S4-S5 linker, which couples the voltage sensing domain (VSD) to the pore. As the Nav C-terminal domain is proposed to also bind here during recovery from inactivation, we hypothesise that PI(4,5)P 2 prolongs inactivation by competitively binding to this site. In atomistic simulations, PI(4,5)P 2 reduces the mobility of both the DIV S4-S5 linker and the DIII-IV linker, responsible for fast inactivation, slowing the conformational changes required for the channel to recover to the resting state. We further show that in a resting state Na v model, phosphoinositides bind to VSD gating charges, which may anchor them and impede VSD activation. Our results provide a mechanism by which phosphoinositides alter the voltage dependence of activation and the rate of recovery from inactivation, an important step for the development of novel therapies to treat Na v -related diseases. Significance Voltage-gated sodium channels form pores in the membrane to mediate electrical activity in nerve and muscle cells. They play critical roles throughout the human body and their dysfunction leads to diseases including epilepsy, cardiac arrhythmias and pain disorders. Membrane lipids called phosphoinositides have recently been shown to reduce the activity of a voltage-gated sodium channel, but the molecular basis of this mechanism is not known. Here we use simulations to reveal where these lipids bind to the channels and how they reduce channel activity by making it harder for the pores to open and slower to subsequently recover to the closed resting state.",
+  "authors": [
+    "Yiechang Lin",
+    "Elaine Tao",
+    "James P Champion",
+    "Ben Corry"
+  ],
+  "published_date": "2023-07-17",
+  "updated_date": "2023-07-17T22:25:14Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.16.547149",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.16.547149.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T01:39:18Z",
+        "timestamp": 1772156358079,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            17
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 66,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Voltage gated sodium channels (Na\n                  <jats:sub>v</jats:sub>\n                  ) are membrane proteins which open to facilitate the inward flux of sodium ions into excitable cells. In response to stimuli, Na\n                  <jats:sub>v</jats:sub>\n                  channels transition from the resting, closed state to an open, conductive state, before rapidly inactivating. Dysregulation of this functional cycle due to mutations causes diseases including epilepsy, pain conditions and cardiac disorders, making Na\n                  <jats:sub>v</jats:sub>\n                  channels a significant pharmacological target. Phosphoinositides are important lipid cofactors for ion channel function. The phosphoinositide PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  decreases Na\n                  <jats:sub>v</jats:sub>\n                  1.4 activity by increasing the difficulty of channel opening, accelerating fast inactivation and slowing recovery from fast inactivation. Using multiscale molecular dynamics simulations, we show that PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  binds stably to inactivated Na\n                  <jats:sub>v</jats:sub>\n                  at a conserved site within the DIV S4-S5 linker, which couples the voltage sensing domain (VSD) to the pore. As the Nav C-terminal domain is proposed to also bind here during recovery from inactivation, we hypothesise that PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  prolongs inactivation by competitively binding to this site. In atomistic simulations, PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  reduces the mobility of both the DIV S4-S5 linker and the DIII-IV linker, responsible for fast inactivation, slowing the conformational changes required for the channel to recover to the resting state. We further show that in a resting state Na\n                  <jats:sub>v</jats:sub>\n                  model, phosphoinositides bind to VSD gating charges, which may anchor them and impede VSD activation. Our results provide a mechanism by which phosphoinositides alter the voltage dependence of activation and the rate of recovery from inactivation, an important step for the development of novel therapies to treat Na\n                  <jats:sub>v</jats:sub>\n                  -related diseases.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Significance</jats:title>\n                  <jats:p>Voltage-gated sodium channels form pores in the membrane to mediate electrical activity in nerve and muscle cells. They play critical roles throughout the human body and their dysfunction leads to diseases including epilepsy, cardiac arrhythmias and pain disorders. Membrane lipids called phosphoinositides have recently been shown to reduce the activity of a voltage-gated sodium channel, but the molecular basis of this mechanism is not known. Here we use simulations to reveal where these lipids bind to the channels and how they reduce channel activity by making it harder for the pores to open and slower to subsequently recover to the closed resting state.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.07.16.547149",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2023-07-17T22:25:14Z",
+        "timestamp": 1689632714000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A binding site for phosphoinositides described by multiscale simulations explains their modulation of voltage gated sodium channels"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9836-132X",
+          "authenticated-orcid": false,
+          "given": "Yiechang",
+          "family": "Lin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0332-1646",
+          "authenticated-orcid": false,
+          "given": "Elaine",
+          "family": "Tao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "James P",
+          "family": "Champion",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6324-442X",
+          "authenticated-orcid": false,
+          "given": "Ben",
+          "family": "Corry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2003-4-2-p1"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/physrev.00025.2020"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/brain/awh639"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.97.17.9549"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc3640"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202012701",
+          "DOI": "10.1085/jgp.202012701",
+          "article-title": "Cannabidiol inhibits the skeletal muscle Nav1. 4 by blocking its pore and by altering membrane elasticity",
+          "volume": "153",
+          "year": "2021",
+          "journal-title": "Journal of General Physiology"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "7093",
+          "DOI": "10.1021/jm501981g",
+          "article-title": "Voltage-Gated Sodium Channels: Structure, Function, Pharmacology, and Clinical Indications",
+          "volume": "58",
+          "year": "2015",
+          "journal-title": "Journal of Medicinal Chemistry"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aau2486"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1814928115"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003090",
+          "DOI": "10.1371/journal.pcbi.1003090",
+          "article-title": "Exploring volatile general anesthetic binding to a closed membrane-bound bacterial voltage-gated sodium channel via computation",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1320907111"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003688",
+          "DOI": "10.1371/journal.pcbi.1003688",
+          "article-title": "Locating the route of entry and binding sites of benzocaine and phenytoin in a bacterial voltage gated sodium channel",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "193",
+          "DOI": "10.1016/j.bpj.2021.12.025",
+          "article-title": "Characterizing fenestration size in sodium channel subtypes and their accessibility to inhibitors",
+          "volume": "121",
+          "year": "2022",
+          "journal-title": "Biophysical Journal"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aav8573"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0896-6273(00)80680-7"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1085/jgp.201310998"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1350",
+          "DOI": "10.1038/ncomms2356",
+          "article-title": "Multiple pore conformations driven by asynchronous movements of voltage sensors in a eukaryotic sodium channel",
+          "volume": "4",
+          "year": "2013",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.06.039"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.19",
+          "first-page": "844",
+          "article-title": "Phosphoinositides regulate ion channels",
+          "volume": "1851",
+          "year": "2015",
+          "journal-title": "Biochimica Et Biophysica Acta (BBA)-Molecular and Cell Biology of Lipids"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.12.003"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03699-6"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature05416"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.23",
+          "first-page": "1",
+          "article-title": "PIP2-dependent coupling is prominent in Kv7. 1 due to weakened interactions between S4-S5 and S6",
+          "volume": "5",
+          "year": "2015",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2207067119",
+          "DOI": "10.1073/pnas.2207067119",
+          "article-title": "Structural mechanisms for the activation of human cardiac KCNQ1 channel by electro-mechanical coupling enhancers",
+          "volume": "119",
+          "year": "2022",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202213255",
+          "DOI": "10.1085/jgp.202213255",
+          "article-title": "PI (4, 5) P2 regulates the gating of NaV1. 4 channels",
+          "volume": "155",
+          "year": "2023",
+          "journal-title": "Journal of General Physiology"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "5072",
+          "DOI": "10.1038/s41467-023-40514-4",
+          "article-title": "A mechanistic reinterpretation of fast inactivation in voltage-gated Na+ channels",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.273.2.1121"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.22.10910"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.211563298"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1085/jgp.70.5.549"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "703",
+          "DOI": "10.1002/ana.25188",
+          "article-title": "Mutations in SCN3A cause early infantile epileptic encephalopathy",
+          "volume": "83",
+          "year": "2018",
+          "journal-title": "Annals of neurology"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1161/CIRCULATIONAHA.105.520999"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "385",
+          "DOI": "10.1038/s42003-020-1104-0",
+          "article-title": "A PIP2 substitute mediates voltage sensor-pore coupling in KCNQ activation",
+          "volume": "3",
+          "year": "2020",
+          "journal-title": "Communications biology"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2301985120"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "709",
+          "DOI": "10.1021/acscentsci.8b00143",
+          "article-title": "Lipid–protein interactions are unique fingerprints for membrane proteins",
+          "volume": "4",
+          "year": "2018",
+          "journal-title": "ACS central science"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi9013193"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "382",
+          "DOI": "10.1038/s41592-021-01098-3",
+          "article-title": "Martini 3: a general purpose force field for coarse-grained molecular dynamics",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.201797349"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20945"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "4486",
+          "DOI": "10.1021/acs.jctc.5b00513",
+          "article-title": "CHARMM-GUI martini maker for coarse-grained simulations with the martini force field",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "2144",
+          "DOI": "10.1021/acs.jctc.5b00209",
+          "article-title": "Computational lipidomics with insane: a versatile tool for generating custom membranes for molecular simulations",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja507832e"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaw2493"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1993.1626"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2209164119",
+          "DOI": "10.1073/pnas.2209164119",
+          "article-title": "Unwinding and spiral sliding of S4 and domain rotation of VSD during the electromechanical coupling in Nav1. 7",
+          "volume": "119",
+          "year": "2022",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "38",
+          "DOI": "10.1016/j.molcel.2020.10.039",
+          "article-title": "Structural basis for high-affinity trapping of the NaV1. 7 channel in its resting state by tarantula toxin",
+          "volume": "81",
+          "year": "2021",
+          "journal-title": "Molecular cell"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.47",
+          "unstructured": "P. Bauer , B. Hess , E. Lindahl (2023) GROMACS 2022.5 Manual (2022.5)."
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "687",
+          "DOI": "10.1021/ct300646g",
+          "article-title": "Improved parameters for the martini coarse-grained protein force field",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1694",
+          "DOI": "10.1021/ct3009655",
+          "article-title": "Martini force field parameters for glycolipids",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.449071"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.328693"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.52",
+          "unstructured": "E. L. Wu et al. (2014) CHARMM-GUI membrane builder toward realistic biological membrane simulations. (Wiley Online Library)."
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1021/acs.jctc.5b00935",
+          "article-title": "CHARMM-GUI input generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM simulations using the CHARMM36 additive force field",
+          "volume": "12",
+          "year": "2016",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.54",
+          "unstructured": "D. A. Case et al. (2020) AMBER 2020. (University of California, San Francisco)."
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1038/nmeth.4067",
+          "article-title": "CHARMM36m: an improved force field for folded and intrinsically disordered proteins",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "523",
+          "DOI": "10.1002/bip.360320508",
+          "article-title": "Langevin dynamics of peptides: The frictional dependence of isomerization rates of N-acetylalanyl-N′-methylamide",
+          "volume": "32",
+          "year": "1992",
+          "journal-title": "Biopolymers: Original Research on Biomolecules"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cplett.2003.12.039"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "1864",
+          "DOI": "10.1021/ct5010406",
+          "article-title": "Long-time-step molecular dynamics through hydrogen mass repartitioning",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21787"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "369a",
+          "DOI": "10.1016/j.bpj.2021.11.892",
+          "article-title": "Characterizing the lipid fingerprint of the mechanosensitive channel Piezo2",
+          "volume": "121",
+          "year": "2022",
+          "journal-title": "Biophysical Journal"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.62",
+          "first-page": "1",
+          "article-title": "ProLIF: a library to encode molecular interactions as fingerprints",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq313"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2011.75"
+        },
+        {
+          "key": "2024020903151088000_2023.07.16.547149v3.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp033"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.16.547149",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:18:46Z",
+        "timestamp": 1768454326000
+      },
+      "score": 96.09367,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.16.547149"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            17
+          ]
+        ]
+      },
+      "references-count": 66,
+      "URL": "https://doi.org/10.1101/2023.07.16.547149",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.91218.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.91218.2",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.91218.1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

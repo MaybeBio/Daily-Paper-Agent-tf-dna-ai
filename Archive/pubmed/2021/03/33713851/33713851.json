@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "33713851",
+    "doi": "10.1016/j.gpb.2019.09.008",
+    "title": "RePhine: An Integrative Method for Identification of Drug Response-related Transcriptional Regulators."
+  },
+  "content": {
+    "abstract": "Transcriptional regulators (TRs) participate in essential processes in cancer pathogenesis and are critical therapeutic targets. Identification of drug response-related TRs from cell line-based compound screening data is often challenging due to low mRNA abundance of TRs, protein modifications, and other confounders (CFs). In this study, we developed a regression-based pharmacogenomic and ChIP-seq data integration method (RePhine) to infer the impact of TRs on drug response through integrative analyses of pharmacogenomic and ChIP-seq data. RePhine was evaluated in simulation and pharmacogenomic data and was applied to pan-cancer datasets with the goal of biological discovery. In simulation data with added noises or CFs and in pharmacogenomic data, RePhine demonstrated an improved performance in comparison with three commonly used methods (including Pearson correlation analysis, logistic regression model, and gene set enrichment analysis). Utilizing RePhine and Cancer Cell Line Encyclopedia data, we observed that RePhine-derived TR signatures could effectively cluster drugs with different mechanisms of action. RePhine predicted that loss-of-function of EZH2/PRC2 reduces cancer cell sensitivity toward the BRAF inhibitor PLX4720. Experimental validation confirmed that pharmacological EZH2 inhibition increases the resistance of cancer cells to PLX4720 treatment. Our results support that RePhine is a useful tool for inferring drug response-related TRs and for potential therapeutic applications. The source code for RePhine is freely available at https://github.com/coexps/RePhine.",
+    "keywords": [
+      "BRAF inhibitor resistance",
+      "ChIP-seq",
+      "Drug resistance",
+      "Pharmacogenomics",
+      "Transcriptional regulator"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplasms/drug therapy/genetics",
+      "Pharmacogenetics",
+      "Protein Processing, Post-Translational",
+      "Software",
+      "*Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xujun",
+        "Zhang, Zhengtao",
+        "Qin, Wenyi",
+        "Liu, Shiyi",
+        "Liu, Cong",
+        "Genchev, Georgi Z",
+        "Hui, Lijian",
+        "Zhao, Hongyu",
+        "Lu, Hui"
+      ],
+      "short_names": [
+        "Wang X",
+        "Zhang Z",
+        "Qin W",
+        "Liu S",
+        "Liu C",
+        "Genchev GZ",
+        "Hui L",
+        "Zhao H",
+        "Lu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Cell Biology, CAS Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Shanghai 200031, China.",
+        "Department of Bioengineering, University of Illinois at Chicago, Chicago, IL 60607, USA; Department of Genetics, School of Medicine, Yale University, New Haven, CT 06511, USA.",
+        "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Department of Bioengineering, University of Illinois at Chicago, Chicago, IL 60607, USA; Department of Medical Informatics, Columbia University, New York, NY 10032, USA.",
+        "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Bulgarian Institute for Genomics and Precision Medicine, Sofia 1000, Bulgaria.",
+        "State Key Laboratory of Cell Biology, CAS Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Shanghai 200031, China.",
+        "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Department of Biostatistics, Yale School of Public Health, New Haven, CT 06511, USA. Electronic address: hongyu.zhao@yale.edu.",
+        "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Department of Bioengineering, University of Illinois at Chicago, Chicago, IL 60607, USA; Department of Biostatistics, Yale School of Public Health, New Haven, CT 06511, USA; Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China; Center for Biomedical Informatics, Shanghai Children's Hospital, Shanghai 200040, China. Electronic address: huilu@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xujun",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhengtao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cell Biology, CAS Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Shanghai 200031, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Wenyi",
+        "short_name": "Qin W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Illinois at Chicago, Chicago, IL 60607, USA; Department of Genetics, School of Medicine, Yale University, New Haven, CT 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Shiyi",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Cong",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Illinois at Chicago, Chicago, IL 60607, USA; Department of Medical Informatics, Columbia University, New York, NY 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Genchev, Georgi Z",
+        "short_name": "Genchev GZ",
+        "identifiers": [],
+        "affiliations": [
+          "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Bulgarian Institute for Genomics and Precision Medicine, Sofia 1000, Bulgaria."
+        ]
+      },
+      {
+        "full_name": "Hui, Lijian",
+        "short_name": "Hui L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cell Biology, CAS Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Shanghai 200031, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongyu",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Department of Biostatistics, Yale School of Public Health, New Haven, CT 06511, USA. Electronic address: hongyu.zhao@yale.edu."
+        ]
+      },
+      {
+        "full_name": "Lu, Hui",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "SJTU-Yale Joint Center for Biostatistics and Data Science, Department of Bioinformatics and Biostatistics, School of Life Science and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Department of Bioengineering, University of Illinois at Chicago, Chicago, IL 60607, USA; Department of Biostatistics, Yale School of Public Health, New Haven, CT 06511, USA; Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China; Center for Biomedical Informatics, Shanghai Children's Hospital, Shanghai 200040, China. Electronic address: huilu@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics, proteomics & bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Genomics Proteomics Bioinformatics"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/14 06:00",
+    "fetched_at": "2026-09-27 14:27:16"
+  },
+  "links": {
+    "cites": [
+      "36745048",
+      "36618022",
+      "34615656"
+    ],
+    "refs": [
+      "31378681",
+      "30060537",
+      "30039492",
+      "29456739",
+      "29313949",
+      "29309815",
+      "29229604",
+      "29202777",
+      "29114545",
+      "28723893",
+      "28627406",
+      "28429721",
+      "28129544",
+      "28127048",
+      "27941792",
+      "27843613",
+      "27444372",
+      "27397505",
+      "27135738",
+      "27125524",
+      "26676756",
+      "26608120",
+      "26570998",
+      "26431164",
+      "26325669",
+      "26175417",
+      "26171228",
+      "26056275",
+      "26050198",
+      "25693565",
+      "25476604",
+      "25065853",
+      "25038756",
+      "24710376",
+      "24336571",
+      "24284626",
+      "24078774",
+      "23925045",
+      "22460905",
+      "22187039",
+      "21940749",
+      "19242095",
+      "18060032",
+      "17538163",
+      "16489045",
+      "16199517",
+      "9769331"
+    ],
+    "similar": [
+      "33713851",
+      "34434663",
+      "33860225",
+      "31347689",
+      "36155797",
+      "26656004",
+      "36130060",
+      "33822890",
+      "34751401",
+      "24297534",
+      "29229604",
+      "31665499",
+      "29868820",
+      "38895220",
+      "24875471",
+      "23355484",
+      "30399165",
+      "26043758",
+      "26570998",
+      "26864072",
+      "23531767",
+      "30897079",
+      "29742281",
+      "31668570",
+      "28314784",
+      "29428415",
+      "33320934",
+      "28768489",
+      "33196823",
+      "31410199",
+      "30864327",
+      "23975789",
+      "29218868",
+      "12856151",
+      "27845669",
+      "26853626",
+      "21859476",
+      "18021416",
+      "33852600",
+      "31857203",
+      "24564277",
+      "22228832",
+      "31937189",
+      "25682068",
+      "20158869",
+      "27978982",
+      "25128017",
+      "26513174",
+      "31846027",
+      "28082455",
+      "33371891",
+      "33879052",
+      "20946642",
+      "34059012",
+      "25751395",
+      "29186349",
+      "21619430",
+      "26868127",
+      "27875550",
+      "34292930",
+      "38562775",
+      "30957858",
+      "18976224",
+      "12369894",
+      "31142512",
+      "28169395",
+      "31899481",
+      "29907088",
+      "25890285",
+      "31820069",
+      "10840530",
+      "25369470",
+      "25957351",
+      "24021381",
+      "25442502",
+      "21154161",
+      "28270809",
+      "25338550",
+      "12871087",
+      "32790840"
+    ],
+    "review": [
+      "33713851",
+      "27978982",
+      "31846027",
+      "25751395",
+      "21619430",
+      "12369894",
+      "21154161",
+      "25338550"
+    ],
+    "pmc": [
+      "9040019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1672-0229(21)00056-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33713851/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33713851",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BRAF-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33713851",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/gpb/article-lookup/doi/10.1016/j.gpb.2019.09.008",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

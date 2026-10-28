@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38856168",
+  "title": "Improved prediction of DNA and RNA binding proteins with deep learning models.",
+  "authors": "Wu, Siwen; Guo, Jun-Tao",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-06-10",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习模型预测DNA/RNA结合蛋白类型，属于广义蛋白-核酸互作预测，但未聚焦TF-DNA特异性结合或三维互作机制，方法可迁移但深度有限。",
+  "abstract": "Nucleic acid-binding proteins (NABPs), including DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs), play important roles in essential biological processes. To facilitate functional annotation and accurate prediction of different types of NABPs, many machine learning-based computational approaches have been developed. However, the datasets used for training and testing as well as the prediction scopes in these studies have limited their applications. In this paper, we developed new strategies to overcome these limitations by generating more accurate and robust datasets and developing deep learning-based methods including both hierarchical and multi-class approaches to predict the types of NABPs for any given protein. The deep learning models employ two layers of convolutional neural network and one layer of long short-term memory. Our approaches outperform existing DBP and RBP predictors with a balanced prediction between DBPs and RBPs, and are more practically useful in identifying novel NABPs. The multi-class approach greatly improves the prediction accuracy of DBPs and RBPs, especially for the DBPs with ~12% improvement. Moreover, we explored the prediction accuracy of single-stranded DNA binding proteins and their effect on the overall prediction accuracy of NABP predictions.",
+  "abstract_zh": "核酸结合蛋白（NABPs），包括DNA结合蛋白（DBPs）和RNA结合蛋白（RBPs），在关键生物过程中发挥重要作用。为促进不同类型NABPs的功能注释和准确预测，已开发了许多基于机器学习的计算方法。然而，这些研究中用于训练和测试的数据集以及预测范围限制了其应用。本文中，我们开发了新策略以克服这些限制，通过生成更准确和稳健的数据集，并开发基于深度学习的方法，包括层次化和多类方法，以预测任何给定蛋白质的NABPs类型。深度学习模型采用两层卷积神经网络和一层长短期记忆网络。我们的方法在DBPs和RBPs之间实现了平衡预测，优于现有的DBP和RBP预测器，并且在识别新型NABPs方面更具实际应用价值。多类方法显著提高了DBPs和RBPs的预测准确性，尤其是对DBPs的改进约达12%。此外，我们探讨了单链DNA结合蛋白的预测准确性及其对NABP预测整体准确性的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38856168/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38856168/",
+  "paper_page_path": "papers/pubmed/38856168/index.html"
+}

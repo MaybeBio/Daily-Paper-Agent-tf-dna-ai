@@ -1,0 +1,432 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.17.623984",
+  "title": "Targeted DNA ADP-ribosylation triggers templated repair in bacteria and base mutagenesis in eukaryotes",
+  "doi": "10.1101/2024.11.17.623984",
+  "abstract": "<h4>ABSTRACT</h4> Base editors create precise genomic edits by directing nucleobase deamination or removal without inducing double-stranded DNA breaks. However, a vast chemical space of other DNA modifications remains to be explored for genome editing. Here, we harness the bacterial anti-phage toxin DarT2 to append ADP-ribosyl moieties to DNA, unlocking distinct editing outcomes in bacteria versus eukaryotes. Fusing an attenuated DarT2 to a Cas9 nickase, we program site-specific ADP-ribosylation of thymines within a target DNA sequence. In tested bacteria, targeting drives efficient homologous recombination in tested bacteria, offering flexible and scar-free genome editing without base replacement nor counterselection. In tested eukaryotes including yeast, plants and human cells, targeting drives substitution of the modified thymine to adenine or a mixture of adenine and cytosine with limited insertions or deletions, offering edits inaccessible to current base editors. Altogether, our approach, called append editing, leverages the addition of a chemical moiety to DNA to expand current modalities for precision gene editing.",
+  "authors": [
+    "Patinios C",
+    "Gupta D",
+    "Bassett HV",
+    "Collins SP",
+    "Kamm C",
+    "Kibe A",
+    "Wang Y",
+    "Zhao C",
+    "Vollen K",
+    "Toussaint C",
+    "Polkoff KM",
+    "Nguyen T",
+    "Calvin I",
+    "Migur A",
+    "Al’Abri IS",
+    "Achmedov T",
+    "Del Re A",
+    "Saliba A",
+    "Crook N",
+    "Stepanova AN",
+    "Alonso JM",
+    "Beisel CL"
+  ],
+  "published_date": "2024-11-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.17.623984",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.17.623984.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR940961",
+    "raw_record": {
+      "id": "PPR940961",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR940961"
+        ]
+      },
+      "doi": "10.1101/2024.11.17.623984",
+      "title": "Targeted DNA ADP-ribosylation triggers templated repair in bacteria and base mutagenesis in eukaryotes",
+      "authorString": "Patinios C, Gupta D, Bassett HV, Collins SP, Kamm C, Kibe A, Wang Y, Zhao C, Vollen K, Toussaint C, Polkoff KM, Nguyen T, Calvin I, Migur A, Al’Abri IS, Achmedov T, Del Re A, Saliba A, Crook N, Stepanova AN, Alonso JM, Beisel CL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Patinios C",
+            "lastName": "Patinios",
+            "firstName": "Constantinos",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gupta D",
+            "lastName": "Gupta",
+            "firstName": "Darshana",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bassett HV",
+            "lastName": "Bassett",
+            "firstName": "Harris",
+            "initials": "HV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Collins SP",
+            "lastName": "Collins",
+            "firstName": "Scott",
+            "initials": "SP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biomolecular Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kamm C",
+            "lastName": "Kamm",
+            "firstName": "Charlotte",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kibe A",
+            "lastName": "Kibe",
+            "firstName": "Anuja",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yanyan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao C",
+            "lastName": "Zhao",
+            "firstName": "Chengsong",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vollen K",
+            "lastName": "Vollen",
+            "firstName": "Katie",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Toussaint C",
+            "lastName": "Toussaint",
+            "firstName": "Christophe",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polkoff KM",
+            "lastName": "Polkoff",
+            "firstName": "Kathryn",
+            "initials": "KM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biomolecular Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nguyen T",
+            "lastName": "Nguyen",
+            "firstName": "Thuan",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biomolecular Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calvin I",
+            "lastName": "Calvin",
+            "firstName": "Irene",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Migur A",
+            "lastName": "Migur",
+            "firstName": "Angela",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Al’Abri IS",
+            "lastName": "Al’Abri",
+            "firstName": "Ibrahim",
+            "initials": "IS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biomolecular Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Achmedov T",
+            "lastName": "Achmedov",
+            "firstName": "Tatjana",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Del Re A",
+            "lastName": "Del Re",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saliba A",
+            "lastName": "Saliba",
+            "firstName": "Antoine-Emmanuel",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Institute of Molecular Infection Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crook N",
+            "lastName": "Crook",
+            "firstName": "Nathan",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biomolecular Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stepanova AN",
+            "lastName": "Stepanova",
+            "firstName": "Anna",
+            "initials": "AN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alonso JM",
+            "lastName": "Alonso",
+            "firstName": "Jose",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beisel CL",
+            "lastName": "Beisel",
+            "firstName": "Chase",
+            "initials": "CL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Medical Faculty, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Base editors create precise genomic edits by directing nucleobase deamination or removal without inducing double-stranded DNA breaks. However, a vast chemical space of other DNA modifications remains to be explored for genome editing. Here, we harness the bacterial anti-phage toxin DarT2 to append ADP-ribosyl moieties to DNA, unlocking distinct editing outcomes in bacteria versus eukaryotes. Fusing an attenuated DarT2 to a Cas9 nickase, we program site-specific ADP-ribosylation of thymines within a target DNA sequence. In tested bacteria, targeting drives efficient homologous recombination in tested bacteria, offering flexible and scar-free genome editing without base replacement nor counterselection. In tested eukaryotes including yeast, plants and human cells, targeting drives substitution of the modified thymine to adenine or a mixture of adenine and cytosine with limited insertions or deletions, offering edits inaccessible to current base editors. Altogether, our approach, called append editing, leverages the addition of a chemical moiety to DNA to expand current modalities for precision gene editing.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "865973",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.17.623984"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR940961"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR940961&type=FILE&fileName=EMS200178-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS200178",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCreation": "2024-11-19",
+      "firstPublicationDate": "2024-11-17",
+      "firstIndexDate": "2024-11-19",
+      "fullTextReceivedDate": "2024-11-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

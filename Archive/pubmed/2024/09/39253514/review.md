@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2024.08.27.609971)
+- **Assessment boundary** Scientific content, methodological rigor, and claims as presented in the provided text; no external data or supplementary files were assessed
+- **Shared manuscript claim summary** The authors present a single-cell multi-omics atlas of RNA expression and chromatin accessibility across nine stages of zebrafish embryogenesis, develop a deep learning model (DeepDanio) to predict chromatin accessibility from DNA sequence, identify a small set of transcription factors that shape cell-type-specific chromatin landscapes, describe a new role for Nanog in priming mesendodermal enhancers, and propose a "shallow network" model for "instant differentiation" of the enveloping layer and yolk syncytial layer. They support this with in silico motif analyses and misexpression experiments.
+- **Visible evidence base** Main text figures (Figures 1–6), supplementary figures and tables referenced (Figures S1–S11, Tables S1–S8), methods section, and data availability statement
+- **Missing materials affecting confidence** Supplementary figures and tables were not provided; processed data link was not accessed; SCENIC+ and DeepDanio code availability not stated; detailed hyperparameters for DeepDanio training not fully specified; statistical details for some comparisons (e.g., Figure 2E, 2F) are incomplete
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially valuable resource: a paired single-cell RNA/ATAC atlas spanning early zebrafish development, combined with a deep learning framework for sequence-to-accessibility prediction. The biological findings, particularly the Nanog-mediated priming of mesendodermal enhancers and the proposal of a shallow regulatory network for instant differentiation, are interesting and likely to attract broad attention. However, the strength of the conclusions depends heavily on computational predictions and correlative analyses, and several key validations are either missing or only partially described. The misexpression experiments are a step in the right direction but do not fully establish the causal logic claimed. The manuscript would benefit from clearer presentation of statistical rigor, additional orthogonal validation of the deep learning predictions, and a more careful treatment of the distinction between correlation and causation in the proposed network model.
+- **Who would be interested in the results, and why** Developmental biologists studying vertebrate embryogenesis, gene regulatory networks, and cell fate specification; computational biologists working on single-cell multi-omics integration, deep learning for regulatory genomics, and enhancer prediction; zebrafish researchers; and those interested in the mechanisms of transcription factor pioneer activity and chromatin priming.
+- **Major strengths** 1) A comprehensive, high-quality single-cell multi-omics dataset spanning a critical developmental window, with matched RNA and ATAC from the same nuclei. 2) The DeepDanio model appears well-designed, with chromosome-level splits, ensemble architecture, and a loss function that captures both magnitude and rank information. 3) The discovery of Nanog's role in priming mesendodermal enhancers is a clear, testable finding with potential general significance. 4) The concept of "instant differentiation" driven by a shallow network is conceptually interesting and may challenge existing models of stepwise differentiation. 5) The combination of computational prediction, in silico ablation, and experimental misexpression provides a multi-pronged approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "Mis-expression of differentiation transcription factors inactivates hundreds of target genes" and the claim that these TFs are sufficient to drive ectopic differentiation.
+  - **Evidence pointer** Figure 6, Table S8, Methods "Mis-expression"
+  - **Concern** The misexpression experiments are described as showing that TF misexpression leads to ectopic activation of target genes. However, the text states "inactivates" in the section title, which appears to be a typo for "activates." More importantly, the experiments are performed at 50% epiboly, and the analysis is based on scRNA-seq. It is unclear whether the observed "EVL-like" and "YSL-like" clusters represent true differentiation or simply partial activation of a subset of target genes. The authors do not report whether the ectopic cells express the full repertoire of differentiation markers, whether they downregulate pluripotency markers, or whether they exhibit morphological or functional characteristics of EVL/YSL cells. The claim of "sufficiency" requires a more stringent test, such as examining whether the ectopic cells can execute the full differentiation program over time.
+  - **Why it matters** The central conclusion of the paper, that a shallow network drives instant differentiation, rests on the sufficiency of these TFs. If the misexpression only leads to partial or abortive activation, the model is not supported. The current evidence is suggestive but not conclusive.
+  - **Resolution test** Provide a more detailed characterization of the ectopic cells, including: (1) expression of a broader panel of EVL/YSL markers, (2) downregulation of pluripotency markers, (3) time-course analysis to show progression toward differentiated states, and (4) ideally, functional assays (e.g., transplantation or live imaging) to demonstrate that ectopic cells acquire EVL/YSL identity. Alternatively, the authors should temper the claim of sufficiency and describe the result as "partial activation."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and confounding
+  - **Claim pointer** "We found that 13% of dCREs associated with mesendodermal genes active between dome and 50% epiboly are already accessible at the high stage... This percentage is significantly higher than that of non-associated dCREs (6%)."
+  - **Evidence pointer** Figure 2A–2D, Methods "Enhancer priming analysis"
+  - **Concern** The comparison between associated and non-associated dCREs may be confounded by genomic features such as GC content, CpG density, sequence composition, or proximity to promoters, which are known to influence baseline chromatin accessibility. The authors do not state whether the non-associated dCREs were matched for these features. Without such matching, the observed difference in priming frequency could reflect these confounding variables rather than a specific regulatory property of mesendodermal genes.
+  - **Why it matters** The conclusion that mesendodermal dCREs are specifically primed depends on this comparison. If the effect is driven by confounders, the biological interpretation is weakened.
+  - **Resolution test** Repeat the analysis with a matched control set of non-associated dCREs (e.g., matched for GC content, distance to TSS, and sequence length). Alternatively, use a regression framework that includes these covariates. Report the effect size and confidence intervals, not just p-values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model interpretability and validation
+  - **Claim pointer** "DeepDanio showed good performance in predicting accessibility... 92.4% of test CREs were predicted with a statistically significant correlation coefficient."
+  - **Evidence pointer** Figure 3B, 3C, Figure S4A, Methods "Deep learning analysis"
+  - **Concern** The performance metric (fraction of test CREs with significant correlation) is unusual and potentially misleading. A correlation can be statistically significant but practically weak. The authors do not report the distribution of correlation coefficients or the median/mean correlation. Moreover, the model is trained and evaluated on the same set of cell states, and it is unclear whether the model generalizes to unseen cell states or developmental stages. The claim that "a small number of transcription factors underlie cell-type-specific chromatin landscapes" is based on motif contribution analysis, but the authors do not provide a quantitative measure of how much of the variance in accessibility is explained by these motifs.
+  - **Why it matters** The deep learning model is a key tool in the paper, and its reliability underpins several downstream conclusions. The current performance reporting is insufficient to judge its utility.
+  - **Resolution test** Report the full distribution of Pearson correlations between predicted and observed accessibility across test CREs, including the median and interquartile range. Provide a baseline comparison (e.g., a simple sequence composition model) to demonstrate that DeepDanio adds predictive value. For the motif analysis, report the fraction of variance explained by the top motifs, or use an ablation approach that quantifies the drop in model performance when specific motifs are removed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal inference
+  - **Claim pointer** "Reconstruction of gene regulatory interactions reveals that this process is driven by a shallow network in which maternally deposited regulators activate a small set of transcription factors that co-regulate hundreds of differentiation genes."
+  - **Evidence pointer** Figure 5, Methods "GRN analysis"
+  - **Concern** The GRN is inferred using SCENIC+, which is a correlation-based method. The resulting network is described as "driving" instant differentiation, implying causality. However, the network reconstruction is purely computational and does not include perturbation data (other than the misexpression experiments, which are limited to a few TFs). The claim of a "shallow network" is based on the number of TFs in the inferred network, but this could be an artifact of the inference method or the limited set of cell states analyzed. The authors do not test whether the network is robust to parameter choices in SCENIC+ or whether alternative network inference methods yield similar results.
+  - **Why it matters** The "shallow network" model is a central conceptual contribution. If the network structure is not robust or the causal direction is not established, the model may be premature.
+  - **Resolution test** Perform a sensitivity analysis of the GRN inference (e.g., varying SCENIC+ parameters, using alternative methods such as GRNBoost2 or PIDC). Validate a subset of predicted regulatory interactions using orthogonal approaches (e.g., ATAC-seq after TF knockdown, or reporter assays). Clearly distinguish between "inferred" and "validated" interactions in the text.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section title "Mis-expression of differentiation transcription factors inactivates hundreds of target genes"
+  - **Evidence pointer** Figure 6
+  - **Issue** The title says "inactivates" but the text describes activation of target genes. This is likely a typo but is confusing.
+  - **Required correction** Change "inactivates" to "activates."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** "Data access" section
+  - **Issue** The processed data are shared via a Google Drive link, which is not a permanent or citable repository. This is not ideal for a resource paper.
+  - **Required correction** Deposit processed data in a permanent repository (e.g., GEO, ArrayExpress, Zenodo) and provide accession numbers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2E, 2F
+  - **Evidence pointer** Figure 2
+  - **Issue** The text states that differences are "significant" but does not report the statistical test used, the effect size, or the confidence intervals.
+  - **Required correction** Add statistical details to the figure legends or methods, including the test used, sample sizes, and p-values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** DeepDanio training
+  - **Evidence pointer** Methods "Deep learning analysis"
+  - **Issue** The description of the DeepDanio architecture is incomplete. The number of layers, filter sizes, pooling strategies, and the total number of parameters are not stated. The loss function is described but the relative weighting of the MSE and Pearson components is not given.
+  - **Required correction** Provide a complete description of the architecture and training details, or cite a prior publication with the full details.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of "instant differentiation"
+  - **Evidence pointer** Figure 5, Discussion
+  - **Issue** The term "instant differentiation" is used to describe the process, but the time scale is not defined. The authors should clarify whether this means differentiation occurs within a few hours, or whether it refers to the absence of intermediate states.
+  - **Required correction** Define the term explicitly and discuss the temporal resolution of the data in relation to this definition.
+
+## Risk / unsupported claims
+- The claim that misexpression of differentiation TFs is "sufficient" to drive ectopic differentiation is not fully supported by the presented data, as the analysis appears to be limited to a single time point and does not demonstrate full differentiation program execution.
+- The claim that "a small number of transcription factors underlie cell-type-specific chromatin landscapes" is based on motif contribution analysis from DeepDanio, but the quantitative contribution of these motifs to the overall variance in accessibility is not reported.
+- The claim that the GRN is "shallow" is based on a single inference method (SCENIC+) and may not be robust to alternative methods or parameter choices.
+- The comparison of priming frequency between associated and non-associated dREs may be confounded by genomic features that are not accounted for.
+- The statement that "promoters are generally primed for future gene expression" is based on a comparison of promoter accessibility at the high stage, but the analysis does not account for the possibility that some promoters are constitutively accessible in all cell types.
+- The claim that the atlas is a "rich resource" is reasonable, but the utility of the resource for the broader community is not demonstrated with specific examples of how others might use the data.

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion) without supplementary figures, tables, or methods section
+- **Assessment boundary** Scientific claims, experimental and computational evidence as presented in the main text; supplementary materials referenced but not independently verified
+- **Shared manuscript claim summary** The authors investigate interactions between DNA duplexes bearing different hydrophobic modifications (cholesterol anchor or alkyl-phosphorothioate belts) and synthetic lipid vesicles, simulated bilayers, and live cell membranes, combining experimental assays with atomistic MD simulations to derive design principles for membrane-targeting DNA nanostructures
+- **Visible evidence base** Main text descriptions of fluorescence microscopy experiments on GUVs and live cells, gel electrophoresis and UPLC-MS characterization, MD simulation results including CoM analysis, membrane thickness calculations, and SMD pulling experiments
+- **Missing materials affecting confidence** Supplementary figures (S1–S16), tables (S1–S3), movies, full methods section, simulation parameters, DNA sequences, and detailed experimental protocols
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic comparative study of hydrophobic DNA-membrane interactions using complementary experimental and computational approaches. The combination of cholesterol-anchored and alkyl-PPT-modified DNA duplexes across synthetic vesicles, MD simulations, and live cells is commendable and addresses a relevant gap in the field. However, the evidence as presented in the main text is insufficient to fully support several key claims, particularly regarding membrane-spanning orientation of alkyl-PPT DNA, the quantitative ranking of binding affinities, and the biological significance of the observed differences. The MD simulation results are described qualitatively without sufficient quantitative detail to assess their robustness. The manuscript would benefit from clearer presentation of quantitative data and more rigorous statistical treatment.
+- **Who would be interested in the results, and why** Researchers in DNA nanotechnology, membrane biophysics, and synthetic biology would find this work relevant. The design principles for hydrophobic DNA anchors could inform the development of membrane-targeting nanostructures for drug delivery, biosensing, and cellular engineering. The comparative analysis of different anchor chemistries and the demonstration of differences between synthetic and biological membranes are of practical importance for those designing DNA-based membrane tools.
+- **Major strengths** The study addresses a fundamental question in DNA nanotechnology with a well-designed reductionist approach, keeping duplex size and geometry constant while varying anchor type and position. The combination of experimental and computational methods provides complementary perspectives. The inclusion of live cell experiments alongside synthetic vesicles is a notable strength, as it highlights important differences between model and biological systems. The MD simulations offer molecular-level insight that experiments alone cannot provide.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that alkyl-PPT DNA duplexes span both leaflets of the plasma membrane based on nuclease and sphingomyelinase digestion assays
+  - **Evidence pointer** Results and Discussion, "Differential Interaction of DNA Duplexes with Biological Membranes of Live Cells" section, Figures 8, S14–S16
+  - **Concern** The digestion assays are described only qualitatively in the main text. The authors state that DNase I treatment led to loss of fluorescence for TChol and Nat but not for alkyl-PPT DNA, and similar results were obtained with SMase. However, no quantitative data, statistical analysis, or representative images are shown in the main text. The interpretation that resistance to digestion indicates membrane-spanning orientation is plausible but not the only possible explanation. Alternative explanations such as differential internalization, aggregation states, or protection by membrane microdomains are not discussed. The claim of membrane-spanning orientation is central to the mechanistic model and requires stronger evidence.
+  - **Why it matters** The distinction between tethering and spanning is a key mechanistic claim that differentiates the behavior of cholesterol-anchored versus alkyl-PPT DNA. If this claim is not robustly supported, the proposed design principles for membrane insertion are weakened.
+  - **Resolution test** Provide quantitative fluorescence measurements with appropriate controls, statistical analysis across multiple cells and experiments, and ideally orthogonal evidence such as fluorescence recovery after photobleaching (FRAP) or single-molecule tracking to confirm the membrane-spanning orientation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The authors claim that TChol binds most strongly to GUVs, followed by THex and CHex, based on quantitative analysis of fluorescence signals
+  - **Evidence pointer** Results and Discussion, "DNA–Membrane Binding to Synthetic Membranes Is Influenced by the Hydrophobic Anchor" section, Figure 3B
+  - **Concern** The quantitative analysis is mentioned but the actual data, including fluorescence intensity measurements, normalization procedures, number of vesicles analyzed, and statistical tests, are not presented in the main text. The reader cannot assess the magnitude of differences between constructs or the variability across experiments. The claim that TEt and CEt did not bind is stated without showing the data or the detection limits of the assay.
+  - **Why it matters** The relative binding affinities of different anchor types are a central result of the study. Without quantitative evidence, the ranking of constructs and the conclusions drawn about anchor design cannot be properly evaluated.
+  - **Resolution test** Present the quantitative fluorescence data with error bars, statistical comparisons, and details on the number of independent experiments and vesicles analyzed. Include negative controls and detection limit assessments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational validation
+  - **Claim pointer** The MD simulations reveal that longer alkyl-PPT chains provide the most stable membrane anchoring but may disrupt DNA base pairing in solution
+  - **Evidence pointer** Results and Discussion, "MD Simulations Reveal the Structure and Energetics of Membrane-Embedded Alkyl-PPT Modifications" section, Figures 4–6
+  - **Concern** The simulation results are described qualitatively. Key quantitative metrics such as free energy differences, force profiles from SMD, and structural parameters (RMSD, base-pairing fractions) are not reported in the main text. The claim that simulations "directly reveal" the structure and energetics is not supported by the presented evidence. The comparison between ethyl, butyl, and hexyl modifications is described in terms of trends but without numerical values. The SMD work values are mentioned as showing "substantial differences" but the actual values are not given. The statement that simulations "likely, did not reach equilibrium configurations" for terminally modified systems raises questions about the reliability of those results.
+  - **Why it matters** The computational results are a major component of the study and are used to explain experimental observations. Without quantitative data, the conclusions about the molecular mechanisms of anchoring and the trade-off between membrane stability and DNA structural integrity cannot be properly assessed.
+  - **Resolution test** Provide quantitative simulation data including free energy estimates, SMD work values with error bars, structural metrics, and convergence analysis. Clearly state the limitations of the simulations and the level of confidence in the results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that the design principles from this study can be applied to achieve selective interaction with lipid bilayers in synthetic and biological systems
+  - **Evidence pointer** Conclusion section
+  - **Concern** The study uses a single DNA duplex length (30 bp) and a limited set of anchor configurations. The authors do not discuss how the findings might scale to larger DNA nanostructures, different duplex lengths, or other lipid compositions. The differences observed between GUVs and live cells suggest that biological membranes introduce additional complexity that is not fully characterized. The claim of generalizable design principles is therefore premature without additional validation across a broader parameter space.
+  - **Why it matters** The stated goal of the work is to provide rational design principles for membrane-targeting DNA nanostructures. If the findings are specific to the tested conditions, the practical utility of the study is limited.
+  - **Resolution test** Discuss the limitations of the current system and propose specific testable predictions for how the findings might extend to other DNA nanostructures and membrane systems. Alternatively, temper the claims of generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results and Discussion, "Design and Formation of Hydrophobic DNA" section
+  - **Issue** The description of the DNA constructs in Figure 1 is brief. The positions of the PPT belts (terminal vs central) and the cholesterol anchor are described in text but the figure itself is not shown in the provided material. The relationship between the construct names (TEt, THex, CEt, CHex) and their structural features should be clarified.
+  - **Required correction** Ensure the figure clearly labels the anchor positions and chemical modifications. Consider adding a schematic table summarizing the constructs and their key features.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Results and Discussion, "DNA–Membrane Binding to Synthetic Membranes Is Influenced by the Hydrophobic Anchor" section
+  - **Issue** The buffer conditions for GUV experiments are mentioned (PBS, Opti-MEM) but the specific salt concentrations, pH, and temperature are not stated in the main text. The concentration of DNA used in binding experiments is also not specified.
+  - **Required correction** Provide the full buffer compositions and experimental conditions in the methods section or main text to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** MD simulation of cholesterol-anchored DNA
+  - **Evidence pointer** Results and Discussion, "MD Simulations Reveal the Structure and Energetics of Membrane-Embedded Alkyl-PPT Modifications" section
+  - **Issue** The MD simulations focus on alkyl-PPT modified DNA, but the cholesterol-anchored construct (TChol) is not simulated. Given that TChol shows the strongest binding in experiments, the lack of computational analysis for this construct limits the comparative insight.
+  - **Required correction** Acknowledge this limitation explicitly and discuss whether existing simulation studies of cholesterol-DNA interactions can inform the interpretation of the experimental results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Live cell experiments
+  - **Evidence pointer** Results and Discussion, "Differential Interaction of DNA Duplexes with Biological Membranes of Live Cells" section
+  - **Issue** The live cell experiments are described for HeLa and U2OS cells, but the number of independent experiments, cells analyzed per condition, and statistical methods are not reported.
+  - **Required correction** Include details on experimental replicates and statistical analysis in the methods or figure legends.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Internalization kinetics
+  - **Evidence pointer** Results and Discussion, "Differential Interaction of DNA Duplexes with Biological Membranes of Live Cells" section
+  - **Issue** The statement that TChol entered cells immediately after incubation while alkyl-PPT DNA minimized internalization to after 60 min is interesting but lacks supporting data in the main text. The time course and imaging data are not shown.
+  - **Required correction** Provide representative time-lapse images or quantitative internalization data to support this claim.
+
+## Risk / unsupported claims
+- The claim that alkyl-PPT DNA spans both leaflets of the plasma membrane is not fully supported by the digestion assay data as presented; alternative interpretations are not excluded
+- The relative binding affinities of different anchor constructs are stated without quantitative data in the main text
+- The MD simulation results are described qualitatively without sufficient quantitative metrics to assess the robustness of the conclusions
+- The claim that the findings provide generalizable design principles for membrane-targeting nanostructures is not supported by the limited parameter space tested
+- The statement that alkyl-PPT DNA forms higher-order structures on cell membranes due to micelle-like interactions is speculative without direct evidence
+- The comparison between GUV and live cell results is presented descriptively without a systematic analysis of the factors contributing to the observed differences

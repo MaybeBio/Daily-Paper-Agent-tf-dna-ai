@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "42561667",
+    "doi": "10.1016/j.intimp.2026.117248",
+    "title": "C1R suppresses hepatocellular carcinoma cell aggressiveness through promoting HIF-1alpha degradation and modulating cuproptosis-related protein expression."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) frequently develops in the setting of chronic hepatitis B virus (HBV) infection, yet the molecular events shared by HBV-related liver injury and malignant transformation remain incompletely characterized. Recent studies of cuproptosis indicate that copper overload can disturb mitochondrial metabolic programs in tumor cells. This rationale prompted us to examine copper-responsive alterations across chronic HBV-related liver injury and HCC. METHODS: TCGA-LIHC and GSE230397 datasets were analyzed to identify shared differentially expressed genes between HCC and chronic HBV infection. Functional enrichment, ssGSEA, WGCNA, and five machine-learning algorithms were used to screen cuproptosis-associated candidate genes. C1R expression, prognosis, immune infiltration, and immune checkpoint correlations were assessed. Experimental validation was then performed in HCC cell lines by manipulating C1R expression and assessing copper modulation, HIF-1alpha rescue, intracellular localization, protein expression, oxidative stress, cell motility, HIF-1alpha stability, proteasome inhibition, and ubiquitination. RESULTS: The integrated analysis identified 423 genes with concordant dysregulation in the HBV and HCC datasets. These genes were linked to metal ion response, oxidative stress, and copper-associated biological processes. Cuproptosis-related scores were lower in both HCC tissues and HBV-infected liver samples. Integrative WGCNA and machine-learning analyses identified C1R as the only shared cuproptosis associated candidate gene. C1R was downregulated in HCC and associated with survival, immune infiltration, and immune checkpoint molecules. Functionally, C1R overexpression increased FDX1, DLAT, and DLST expression, elevated ROS accumulation, and suppressed HCC cell migration and invasion, whereas C1R knockdown produced opposite effects. Copper chelation with TTM weakened the effects of C1R overexpression, whereas combined elesclomol and CuCl(2) treatment intensified the C1R-associated changes. C1R also lowered HIF-1alpha levels by the proteasome-sensitive process accompanied by increased HIF-1alpha ubiquitination. Restoring HIF-1alpha expression counteracted the effects of C1R on FDX1, DLAT, DLST, invasion, and migration. CONCLUSIONS: C1R is a shared cuproptosis-associated regulator in HBV infection and HCC. The data support a model in which C1R reduces aggressive phenotypes of HCC cells partly through destabilizing HIF-1alpha and reshaping copper-responsive processes.",
+    "keywords": [
+      "C1R",
+      "Cuproptosis",
+      "HBV",
+      "HCC",
+      "HIF-1alpha"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/pathology/metabolism",
+      "*Liver Neoplasms/genetics/pathology/metabolism",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Cuproptosis",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "*Copper/metabolism",
+      "Cell Movement",
+      "*Hepatitis B, Chronic/complications/metabolism",
+      "Hepatitis B virus"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Yexiang",
+        "Li, Junhua",
+        "Jiang, Jin",
+        "He, Guiqiong",
+        "Yu, Wei",
+        "Du, Yehong"
+      ],
+      "short_names": [
+        "Du Y",
+        "Li J",
+        "Jiang J",
+        "He G",
+        "Yu W",
+        "Du Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Pediatric Research Institute, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Children and Adolescents' Health and Diseases, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Department of Anesthesiology, Children's Hospital of Chongqing Medical University, Chongqing 400014, China; Center for Neuroscience Research, School of Basic Medical Sciences, Institute for Brain Science and Disease, Department of Anatomy, School of Basic Medical Sciences, Chongqing Medical University, Chongqing 400016, China.",
+        "Pediatric Research Institute, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Children and Adolescents' Health and Diseases, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Department of Anesthesiology, Children's Hospital of Chongqing Medical University, Chongqing 400014, China.",
+        "Department of Rehabilitation Medicine, Key Laboratory of Physical Medicine and Precision Rehabilitation of Chongqing Municipal Health Commission, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400010, China.",
+        "Center for Neuroscience Research, School of Basic Medical Sciences, Institute for Brain Science and Disease, Department of Anatomy, School of Basic Medical Sciences, Chongqing Medical University, Chongqing 400016, China. Electronic address: guiqionghe@hotmail.com.",
+        "Pediatric Research Institute, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Children and Adolescents' Health and Diseases, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Department of Anesthesiology, Children's Hospital of Chongqing Medical University, Chongqing 400014, China. Electronic address: yuwei3272@163.com.",
+        "Pediatric Research Institute, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Children and Adolescents' Health and Diseases, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Department of Anesthesiology, Children's Hospital of Chongqing Medical University, Chongqing 400014, China. Electronic address: yehongdu@foxmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Yexiang",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Research Institute, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Children and Adolescents' Health and Diseases, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Department of Anesthesiology, Children's Hospital of Chongqing Medical University, Chongqing 400014, China; Center for Neuroscience Research, School of Basic Medical Sciences, Institute for Brain Science and Disease, Department of Anatomy, School of Basic Medical Sciences, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junhua",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Research Institute, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Children and Adolescents' Health and Diseases, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Department of Anesthesiology, Children's Hospital of Chongqing Medical University, Chongqing 400014, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jin",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, Key Laboratory of Physical Medicine and Precision Rehabilitation of Chongqing Municipal Health Commission, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400010, China."
+        ]
+      },
+      {
+        "full_name": "He, Guiqiong",
+        "short_name": "He G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuroscience Research, School of Basic Medical Sciences, Institute for Brain Science and Disease, Department of Anatomy, School of Basic Medical Sciences, Chongqing Medical University, Chongqing 400016, China. Electronic address: guiqionghe@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Wei",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Research Institute, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Children and Adolescents' Health and Diseases, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Department of Anesthesiology, Children's Hospital of Chongqing Medical University, Chongqing 400014, China. Electronic address: yuwei3272@163.com."
+        ]
+      },
+      {
+        "full_name": "Du, Yehong",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Research Institute, Ministry of Education Key Laboratory of Child Development and Disorders, National Clinical Research Center for Children and Adolescents' Health and Diseases, Chongqing Key Laboratory of Child Neurodevelopment and Cognitive Disorders, Department of Anesthesiology, Children's Hospital of Chongqing Medical University, Chongqing 400014, China. Electronic address: yehongdu@foxmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2026 Oct 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/07 00:35",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42561667",
+      "42486346",
+      "42229379",
+      "40901739",
+      "39150096",
+      "42455226",
+      "23966163",
+      "28449718",
+      "37787154",
+      "34339013",
+      "33305825",
+      "25745995",
+      "42217552",
+      "42260670",
+      "42506898",
+      "42400810",
+      "27999186",
+      "34118595",
+      "37003132",
+      "30180863",
+      "26984380",
+      "30274686",
+      "40227531",
+      "32772041",
+      "24346287",
+      "23496980",
+      "39319846",
+      "32034309",
+      "29237157",
+      "25323032",
+      "30258464",
+      "33596983",
+      "27840976",
+      "41241842",
+      "33685467",
+      "42375344",
+      "38677534",
+      "29748591",
+      "41792898",
+      "36438201",
+      "42289540",
+      "37762710",
+      "40956482",
+      "36319626",
+      "26621849",
+      "22613004",
+      "41902335",
+      "42035173",
+      "36750831",
+      "37898914",
+      "34910612",
+      "38850791",
+      "34029939",
+      "39661026",
+      "29702115",
+      "40934694",
+      "40665352",
+      "40451468",
+      "35868447",
+      "19666411",
+      "33714261",
+      "34414947",
+      "38868777",
+      "41293954",
+      "35110549",
+      "41774333",
+      "41305476",
+      "40054467",
+      "11494152",
+      "42031700",
+      "42080810",
+      "25388848",
+      "21712445",
+      "42062626",
+      "38799437",
+      "29881400",
+      "32115773",
+      "33376723",
+      "37153542",
+      "41484748",
+      "36248822",
+      "40074769",
+      "41138703",
+      "40274982",
+      "27959451",
+      "36157928",
+      "33500715",
+      "36597032",
+      "26065367",
+      "41781001",
+      "37286711",
+      "42133686",
+      "26078356",
+      "41866505",
+      "42729649",
+      "26647960",
+      "37124062",
+      "17088993",
+      "38915206",
+      "39217342"
+    ],
+    "review": [
+      "42561667",
+      "37787154"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(26)01094-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3451",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

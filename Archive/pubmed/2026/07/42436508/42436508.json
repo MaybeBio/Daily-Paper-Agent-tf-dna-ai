@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "42436508",
+    "doi": "10.1186/s12967-026-08555-7",
+    "title": "Integrative single-cell and spatial transcriptomic analysis reveals a lactate-driven crosstalk between NFATc4(+) tumor cells and SPP1(+) macrophages in glioblastoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioblastoma (GBM) remains a lethal brain tumor with limited therapeutic options. Metabolic reprogramming, particularly lactate metabolism, plays a critical role in tumor progression and immune evasion. METHODS: Here, we integrated single-cell RNA sequencing (scRNA-seq), spatial transcriptomics, and machine learning to investigate the heterogeneity of lactate metabolism in GBM. RESULTS: Using scRNA-seq data (GSE138794), we classified neoplastic cells into high- and low-lactate subgroups and identified nuclear factor of activated T-cells cytoplasmic 4 (NFATc4) as a key transcription factor associated with elevated lactate metabolism. Pseudotime trajectory analysis revealed dynamic upregulation of NFATc4 during neoplastic cell differentiation, correlating with invasive phenotypes. Spatial transcriptomics (GSE194329) demonstrated colocalization of NFATc4(+) tumor cells with SPP1(+) macrophages, suggesting their microenvironmental crosstalk. A prognostic model constructed via 101 machine-learning algorithms (StepCox[forward] + RSF) achieved favorable performance across independent cohorts (TCGA, CGGA, GSE108474, GSE4412, and meta-cohort). Patients with different risk levels showed distinct immune infiltration, copy number alterations, and drug-sensitivity profiles. In vitro functional assays confirmed that NFATc4 knockdown in GBM cells suppressed tumor cell proliferation, migration, and cell cycle while promoting apoptosis. Besides, NFATc4 knockdown in GBM cells reduced SPP1 expression, migration, and M2-like polarization of co-cultured macrophages. Moreover, silencing SPP1 in macrophages attenuated the pro-tumorigenic effects on co-cultured GBM cells, validating the functional relevance of the NFATc4-SPP1 axis. CONCLUSION: Our study reveals lactate metabolism-related NFATc4 as a promising therapeutic target in GBM, with implications for prognosis stratification and combination therapy.",
+    "keywords": [
+      "Glioblastoma",
+      "Lactate metabolism",
+      "NFATc4",
+      "Single-cell sequencing",
+      "Spatial transcriptomic"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ruoli",
+        "Wu, Wantao",
+        "Wu, Xuan",
+        "Yuan, Ye",
+        "Zhang, Zhongyi",
+        "Chen, Junyi",
+        "Xie, Yuxin",
+        "Zhang, Linhui",
+        "Yu, Xinrui",
+        "Zhang, Hao",
+        "Xie, Zongyi"
+      ],
+      "short_names": [
+        "Wang R",
+        "Wu W",
+        "Wu X",
+        "Yuan Y",
+        "Zhang Z",
+        "Chen J",
+        "Xie Y",
+        "Zhang L",
+        "Yu X",
+        "Zhang H",
+        "Xie Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4582-2556"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Thyroid and Breast Surgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Ultrasound & Chongqing Key Laboratory of Ultrasound Molecular Imaging, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China. zhsw@hospital.cqmu.edu.cn.",
+        "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China. zyxie2008@cqmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ruoli",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wantao",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xuan",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Ye",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhongyi",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junyi",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yuxin",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Linhui",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xinrui",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound & Chongqing Key Laboratory of Ultrasound Molecular Imaging, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hao",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0002-4582-2556"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China. zhsw@hospital.cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xie, Zongyi",
+        "short_name": "Xie Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China. zyxie2008@cqmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Jul 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/12 04:10",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42436508",
+      "41208987",
+      "42192326",
+      "42361107",
+      "41716413",
+      "40616092",
+      "37397378",
+      "41694346",
+      "41832427",
+      "41006685",
+      "41275140",
+      "37727789",
+      "41836446",
+      "42331202",
+      "41612311",
+      "42105040",
+      "41345972",
+      "41038302",
+      "39143438",
+      "41436831",
+      "41601657",
+      "42040898",
+      "41341805",
+      "39332093",
+      "41628726",
+      "37650991",
+      "40764361",
+      "40787449",
+      "41201629",
+      "41034991",
+      "40642093",
+      "41761123",
+      "41917876",
+      "42035563",
+      "41694488",
+      "42382747",
+      "41656832",
+      "41929516",
+      "40064955",
+      "41267067",
+      "40496864",
+      "41736104",
+      "40799444",
+      "42211491",
+      "42392347",
+      "41139200",
+      "42120472",
+      "41845425",
+      "42079653",
+      "41088217",
+      "42106773",
+      "39938577",
+      "41756290",
+      "41944114",
+      "42111497",
+      "42131349",
+      "41049291",
+      "41511527",
+      "42292364",
+      "42279338",
+      "41766855",
+      "40382612",
+      "40084746",
+      "41982811",
+      "40842996",
+      "41504052",
+      "39798003",
+      "40534868",
+      "41413822",
+      "41693709",
+      "42289736",
+      "41963569",
+      "41892299",
+      "39691723",
+      "40672941",
+      "42227003",
+      "41705236",
+      "38595234",
+      "41164195",
+      "42112375",
+      "41230160",
+      "41246334",
+      "41085666",
+      "41807965",
+      "42023218",
+      "36057370",
+      "42116089",
+      "41132964",
+      "42183963",
+      "41861940",
+      "41023045",
+      "40127797",
+      "41318472",
+      "42260484",
+      "40688093",
+      "39712016",
+      "42073621",
+      "42035196",
+      "40113719",
+      "40629035"
+    ],
+    "review": [
+      "42436508"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-08555-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "34962963",
+    "doi": "10.1371/journal.pone.0261926",
+    "title": "Developmental gene regulatory network connections predicted by machine learning from gene expression data alone."
+  },
+  "content": {
+    "abstract": "Gene regulatory network (GRN) inference can now take advantage of powerful machine learning algorithms to complement traditional experimental methods in building gene networks. However, the dynamical nature of embryonic development-representing the time-dependent interactions between thousands of transcription factors, signaling molecules, and effector genes-is one of the most challenging arenas for GRN prediction. In this work, we show that successful GRN predictions for a developmental network from gene expression data alone can be obtained with the Priors Enriched Absent Knowledge (PEAK) network inference algorithm. PEAK is a noise-robust method that models gene expression dynamics via ordinary differential equations and selects the best network based on information-theoretic criteria coupled with the machine learning algorithm Elastic Net. We test our GRN prediction methodology using two gene expression datasets for the purple sea urchin, Stronglyocentrotus purpuratus, and cross-check our results against existing GRN models that have been constructed and validated by over 30 years of experimental results. Our results find a remarkably high degree of sensitivity in identifying known gene interactions in the network (maximum 81.58%). We also generate novel predictions for interactions that have not yet been described, which provide a resource for researchers to use to further complete the sea urchin GRN. Published ChIPseq data and spatial co-expression analysis further support a subset of the top novel predictions. We conclude that GRN predictions that match known gene interactions can be produced using gene expression data alone from developmental time series experiments.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Animals",
+      "Biochemical Phenomena",
+      "Chromatin Immunoprecipitation",
+      "Computational Biology/*methods",
+      "Female",
+      "*Gene Expression Profiling",
+      "*Gene Expression Regulation, Developmental",
+      "*Gene Regulatory Networks",
+      "Machine Learning",
+      "Male",
+      "Sensitivity and Specificity",
+      "Strongylocentrotus purpuratus/*embryology/*genetics",
+      "Systems Biology",
+      "Transcription Factors/genetics",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jingyi",
+        "Ibrahim, Farhan",
+        "Najmulski, Emily",
+        "Katholos, George",
+        "Altarawy, Doaa",
+        "Heath, Lenwood S",
+        "Tulin, Sarah L"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Ibrahim F",
+        "Najmulski E",
+        "Katholos G",
+        "Altarawy D",
+        "Heath LS",
+        "Tulin SL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1608-431X",
+        "ORCID: 0000-0001-8365-0559"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA, United States of America.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA, United States of America.",
+        "Department of Biology, Canisius College, Buffalo, NY, United States of America.",
+        "Department of Biology, Canisius College, Buffalo, NY, United States of America.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA, United States of America.",
+        "Computer and Systems Engineering Department, Alexandria University, Alexandria, Egypt.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA, United States of America.",
+        "Department of Biology, Canisius College, Buffalo, NY, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jingyi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ibrahim, Farhan",
+        "short_name": "Ibrahim F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA, United States of America."
+        ]
+      },
+      {
+        "full_name": "Najmulski, Emily",
+        "short_name": "Najmulski E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Canisius College, Buffalo, NY, United States of America."
+        ]
+      },
+      {
+        "full_name": "Katholos, George",
+        "short_name": "Katholos G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Canisius College, Buffalo, NY, United States of America."
+        ]
+      },
+      {
+        "full_name": "Altarawy, Doaa",
+        "short_name": "Altarawy D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA, United States of America.",
+          "Computer and Systems Engineering Department, Alexandria University, Alexandria, Egypt."
+        ]
+      },
+      {
+        "full_name": "Heath, Lenwood S",
+        "short_name": "Heath LS",
+        "identifiers": [
+          "0000-0003-1608-431X"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA, United States of America."
+        ]
+      },
+      {
+        "full_name": "Tulin, Sarah L",
+        "short_name": "Tulin SL",
+        "identifiers": [
+          "0000-0001-8365-0559"
+        ],
+        "affiliations": [
+          "Department of Biology, Canisius College, Buffalo, NY, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/29 06:00",
+    "fetched_at": "2026-09-28 03:32:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32598360",
+      "32547596",
+      "31488508",
+      "31331943",
+      "30420244",
+      "29917089",
+      "29761464",
+      "29558892",
+      "29139534",
+      "28294630",
+      "27085752",
+      "26577401",
+      "24945320",
+      "24823299",
+      "24291147",
+      "23933172",
+      "23731568",
+      "23601508",
+      "22923299",
+      "22796662",
+      "22709795",
+      "22517427",
+      "22456606",
+      "22428017",
+      "21558235",
+      "21221095",
+      "20398801",
+      "19910308",
+      "19268450",
+      "18413610",
+      "18278033",
+      "17095691",
+      "16198288",
+      "16081474",
+      "15907831",
+      "15795378",
+      "15788537",
+      "13718526",
+      "12756175",
+      "12027441",
+      "11872831",
+      "9169833"
+    ],
+    "similar": [
+      "34962963",
+      "29558892",
+      "21181943",
+      "24090975",
+      "39058236",
+      "35212624",
+      "18413610",
+      "22709795",
+      "22155525",
+      "30547796",
+      "22723484",
+      "21723273",
+      "24291147",
+      "36070863",
+      "17095691",
+      "32606380",
+      "32019417",
+      "22456606",
+      "26230518",
+      "17095694",
+      "26170318",
+      "27479082",
+      "33539514",
+      "29219084",
+      "31816285",
+      "20122918",
+      "24989895",
+      "39030497",
+      "37085776",
+      "20479235",
+      "24204211",
+      "23192540",
+      "25573916",
+      "27153589",
+      "33482173",
+      "25433465",
+      "36182867",
+      "30051742",
+      "38879931",
+      "35061589",
+      "31527870",
+      "22937832",
+      "33834216",
+      "25521243",
+      "24850857",
+      "34822147",
+      "22856327",
+      "37525047",
+      "27896813",
+      "25460514",
+      "19706742",
+      "28623592",
+      "30207963",
+      "23525069",
+      "28294630",
+      "30470703",
+      "26608050",
+      "37607190",
+      "19594874",
+      "31608946",
+      "16581059",
+      "32054475",
+      "31369175",
+      "22771578",
+      "24204206",
+      "26943850",
+      "25386650",
+      "31553718",
+      "32930132",
+      "23261933",
+      "37078865",
+      "18404688",
+      "24397936",
+      "22927416",
+      "18413604",
+      "15183312",
+      "33657986",
+      "28623595",
+      "37267145",
+      "17670786",
+      "22901088",
+      "38913855",
+      "34014778",
+      "28254369",
+      "26393364",
+      "17710433",
+      "38581416",
+      "25369032",
+      "23844010",
+      "38744843",
+      "28780048",
+      "33989333",
+      "23365519",
+      "26862054",
+      "35062026",
+      "21623371",
+      "30953534",
+      "20338053",
+      "28748400",
+      "18769717",
+      "30961611",
+      "18574103",
+      "33114263",
+      "35045805",
+      "30326663",
+      "24278007",
+      "20927193",
+      "32321967",
+      "36192495",
+      "37879938",
+      "36768917",
+      "38032470",
+      "39095705",
+      "38630807",
+      "37561790",
+      "38769159",
+      "38848994",
+      "35139376",
+      "30577761",
+      "37537351",
+      "35016036",
+      "38652107",
+      "37556452",
+      "39231608",
+      "33513136",
+      "38940127",
+      "36494035",
+      "22799258",
+      "35510185",
+      "39168402",
+      "39005295",
+      "39290835",
+      "36340329",
+      "34890147",
+      "36993392",
+      "37649578"
+    ],
+    "review": [
+      "34962963",
+      "18404688",
+      "23365519",
+      "38032470",
+      "37561790"
+    ],
+    "pmc": [
+      "8714117"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0261926",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34962963/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34962963",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.xenbase.org/literature/article.do?method=display&articleId=50607",
+        "provider": "Xenbase",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

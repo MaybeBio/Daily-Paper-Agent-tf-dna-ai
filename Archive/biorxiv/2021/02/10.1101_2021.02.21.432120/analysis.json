@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.21.432120",
+  "title": "Finding Druggable Sites in Proteins using TACTICS",
+  "authors": "Evans DJ; Yovanno RA; Rahman S; Cao DW; Beckett MQ; Patel MH; Bandak AF; Lau AY",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-21",
+  "window": {
+    "start": "2021-02-15",
+    "end": "2021-02-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习结合MD轨迹预测蛋白质可成药位点，虽涉及蛋白构象与结合位点，但对象为小分子结合而非蛋白质-DNA互作，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Structure-based drug discovery efforts require knowledge of where drug-binding sites are located on target proteins. To address the challenge of finding druggable sites, we developed a machine-learning algorithm called TACTICS (Trajectory-based Analysis of Conformations To Identify Cryptic Sites), which uses an ensemble of molecular structures (such as molecular dynamics simulation data) as input. First, TACTICS uses k-means clustering to select a small number of conformations that represent the overall conformational heterogeneity of the data. Then, TACTICS uses a random forest model to identify potentially bindable residues in each selected conformation, based on protein motion and geometry. Lastly, residues in possible binding pockets are scored using fragment docking. As proof-of-principle, TACTICS was applied to the analysis of simulations of the SARS-CoV-2 main protease and methyltransferase and the Yersinia pestis aryl carrier protein. Our approach recapitulates known small-molecule binding sites and predicts the locations of sites not previously observed in experimentally determined structures. The TACTICS code is available at https://github.com/Albert-Lau-Lab/tactics_protein_analysis .",
+  "abstract_zh": "基于结构的药物发现工作需要了解药物结合位点在靶蛋白上的位置。为应对寻找可成药位点的挑战，我们开发了一种名为TACTICS（基于轨迹的构象分析以识别隐蔽位点，Trajectory-based Analysis of Conformations To Identify Cryptic Sites）的机器学习算法，该算法使用分子结构集合（如分子动力学模拟数据）作为输入。首先，TACTICS采用k-means聚类选择少量代表数据整体构象异质性的构象。然后，TACTICS使用随机森林模型，基于蛋白质运动和几何特征，识别每个选定构象中潜在的可结合残基。最后，使用片段对接对可能结合口袋中的残基进行评分。作为原理验证，TACTICS被应用于分析SARS-CoV-2主蛋白酶和甲基转移酶以及鼠疫耶尔森菌芳基载体蛋白的模拟。我们的方法重现了已知的小分子结合位点，并预测了在实验确定结构中未曾观察到的位点位置。TACTICS代码可在https://github.com/Albert-Lau-Lab/tactics_protein_analysis获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.21.432120",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.21.432120",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.21.432120/index.html"
+}

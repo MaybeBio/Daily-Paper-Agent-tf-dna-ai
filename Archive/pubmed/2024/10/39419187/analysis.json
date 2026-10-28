@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39419187",
+  "title": "Association of aging related genes and immune microenvironment with major depressive disorder.",
+  "authors": "Yan, Bo; Liao, Pan; Han, Zhaoli; Zhao, Jing; Gao, Han; Liu, Yuan; Chen, Fanglian; Lei, Ping",
+  "journal": "Journal of affective disorders",
+  "published_date": "2024-10-18",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于GEO数据挖掘与机器学习筛选抑郁相关衰老基因并构建诊断模型，虽预测了miRNA-TF-mRNA网络，但核心是表达与免疫浸润分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: To study the relationship between aging related genes (ARGs) and Major Depressive Disorder (MDD). METHODS: The datasets GSE98793, GSE52790 and GSE39653 for MDD were obtained from the GEO database, and ARGs were obtained from the Human Aging Genome Resources database. Differential expression genes (DEGs) screening and GO, KEGG enrichment analysis were performed to uncover the underlying mechanisms. To identify key ARGs associated with MDD (key ARG-DEGs), we employed machine learning methods such as LASSO, SVM, and Random Forest, as well as the plug-ins CytoHubba-MCC and MCODE methods. SsGSEA was used to analyze the immune infiltration of MDD and healthy controls. Furthermore, we created risk prediction nomograms model and ROC curves to assess not only the ability of key ARG-DEGs to diagnose MDD, but also predicted miRNAs and transcription factors (TFs) that might interact. Finally, a two-sample Mendelian randomization (MR) study was performed to confirm the association of identified key ARG-DEGs with depression. RESULTS: DEGs of ARGs between MDD and healthy controls led to the identification of eight ARG-DEGs. GO and KEGG analysis revealed that the pathways associated with these eight ARG-DEGs were primarily concentrated in Foxo pathway, JAK-STAT pathway, Pl3K-AKT pathway, and metabolic diseases. A comprehensive analysis further narrowed down the 8 ARG-DEGs to 4 key ARG-DEGs: MMP9, IL7R, S100B, and EGF. Immune infiltration analysis indicated significant differences in CD8(+) T cells, macrophages, neutrophils, Th2 cells, and TIL cells between MDD and control groups, correlating with these four key ARG-DEGs. Based on these four key ARG-DEGs, a risk prediction model for MDD was developed. The miRNA-TF-mRNA interaction network of the key ARG-DEGs highlights the complexity of the regulatory process, providing valuable insights for future related research. The MR study suggested a potential causal relationship between MMP9 and the risk of depression. CONCLUSION: The process of aging, immune dysregulation, and MDD are closely interconnected. MMP9, IL7R, S100B, and EGF may be used as novel diagnostic biomarkers and potential therapeutic targets for MDD, especially MMP9.",
+  "abstract_zh": "目的：研究衰老相关基因（ARGs）与重度抑郁症（MDD）之间的关系。方法：从GEO数据库获取MDD的数据集GSE98793、GSE52790和GSE39653，并从人类衰老基因组资源数据库获取ARGs。进行差异表达基因（DEGs）筛选及GO、KEGG富集分析以揭示潜在机制。为识别与MDD相关的关键ARGs（关键ARG-DEGs），我们采用了机器学习方法如LASSO、SVM和随机森林，以及插件CytoHubba-MCC和MCODE方法。使用ssGSEA分析MDD与健康对照的免疫浸润情况。此外，我们构建了风险预测列线图模型和ROC曲线，不仅评估关键ARG-DEGs诊断MDD的能力，还预测可能相互作用的miRNAs和转录因子（TFs）。最后，进行双样本孟德尔随机化（MR）研究以确认所识别的关键ARG-DEGs与抑郁症的关联。结果：MDD与健康对照之间ARGs的DEGs鉴定出八个ARG-DEGs。GO和KEGG分析显示，这八个ARG-DEGs相关的通路主要集中在Foxo通路、JAK-STAT通路、Pl3K-AKT通路和代谢疾病。综合分析进一步将8个ARG-DEGs缩小至4个关键ARG-DEGs：MMP9、IL7R、S100B和EGF。免疫浸润分析显示，MDD组与对照组在CD8(+) T细胞、巨噬细胞、中性粒细胞、Th2细胞和TIL细胞方面存在显著差异，并与这四个关键ARG-DEGs相关。基于这四个关键ARG-DEGs，开发了MDD风险预测模型。关键ARG-DEGs的miRNA-TF-mRNA相互作用网络突出了调控过程的复杂性，为未来相关研究提供了宝贵见解。MR研究提示MMP9与抑郁症风险之间存在潜在因果关系。结论：衰老过程、免疫失调与MDD密切相关。MMP9、IL7R、S100B和EGF可能作为MDD的新型诊断生物标志物和潜在治疗靶点，尤其是MMP9。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39419187/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39419187/",
+  "paper_page_path": "papers/pubmed/39419187/index.html"
+}

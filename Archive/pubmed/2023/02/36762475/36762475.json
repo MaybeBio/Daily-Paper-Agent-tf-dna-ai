@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "36762475",
+    "doi": "10.1093/nar/gkad053",
+    "title": "Using single cell atlas data to reconstruct regulatory networks."
+  },
+  "content": {
+    "abstract": "Inference of global gene regulatory networks from omics data is a long-term goal of systems biology. Most methods developed for inferring transcription factor (TF)-gene interactions either relied on a small dataset or used snapshot data which is not suitable for inferring a process that is inherently temporal. Here, we developed a new computational method that combines neural networks and multi-task learning to predict RNA velocity rather than gene expression values. This allows our method to overcome many of the problems faced by prior methods leading to more accurate and more comprehensive set of identified regulatory interactions. Application of our method to atlas scale single cell data from 6 HuBMAP tissues led to several validated and novel predictions and greatly improved on prior methods proposed for this task.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "*Computational Biology",
+      "Gene Regulatory Networks",
+      "Systems Biology",
+      "Single-Cell Analysis",
+      "Atlases as Topic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Qi",
+        "Ruffalo, Matthew",
+        "Bar-Joseph, Ziv"
+      ],
+      "short_names": [
+        "Song Q",
+        "Ruffalo M",
+        "Bar-Joseph Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5420-4031",
+        "ORCID: 0000-0003-2222-6169",
+        "ORCID: 0000-0003-3430-6051"
+      ],
+      "affiliations": [
+        "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Machine Learning Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Qi",
+        "short_name": "Song Q",
+        "identifiers": [
+          "0000-0001-5420-4031"
+        ],
+        "affiliations": [
+          "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Ruffalo, Matthew",
+        "short_name": "Ruffalo M",
+        "identifiers": [
+          "0000-0003-2222-6169"
+        ],
+        "affiliations": [
+          "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Bar-Joseph, Ziv",
+        "short_name": "Bar-Joseph Z",
+        "identifiers": [
+          "0000-0003-3430-6051"
+        ],
+        "affiliations": [
+          "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Machine Learning Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Apr 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/11 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [
+      "42632029",
+      "42614561",
+      "41751447",
+      "41716221",
+      "41488127",
+      "41488124",
+      "40699807",
+      "39207727",
+      "38903438",
+      "38360714",
+      "38260532",
+      "37857632"
+    ],
+    "refs": [
+      "36755098",
+      "35084980",
+      "34986829",
+      "34986601",
+      "34811556",
+      "34732839",
+      "34523354",
+      "34060631",
+      "33637727",
+      "32747759",
+      "32329779",
+      "32127540",
+      "31822622",
+      "31802004",
+      "31611697",
+      "31597973",
+      "31340499",
+      "31024627",
+      "30594121",
+      "30573626",
+      "30462533",
+      "30462313",
+      "30462289",
+      "30445495",
+      "30290144",
+      "29854821",
+      "29620484",
+      "29550824",
+      "29280996",
+      "29233161",
+      "28991892",
+      "28584094",
+      "28474258",
+      "28396521",
+      "28379368",
+      "28263959",
+      "28163821",
+      "28145456",
+      "27842765",
+      "27588145",
+      "27374120",
+      "26864687",
+      "26212861",
+      "25765347",
+      "25664528",
+      "25613900",
+      "25519244",
+      "25350697",
+      "24816681",
+      "24680683",
+      "24650566",
+      "23762562",
+      "23741402",
+      "23467454",
+      "23352221",
+      "23173819",
+      "21948981",
+      "21943338",
+      "21816876",
+      "21697125",
+      "21628412",
+      "21372320",
+      "21167036",
+      "20927193",
+      "20570387",
+      "20190956",
+      "19566814",
+      "19451168",
+      "19247306",
+      "18463790",
+      "17761000",
+      "17708140",
+      "17496161",
+      "17463021",
+      "17202424",
+      "17067939",
+      "16912279",
+      "16723010",
+      "15755471",
+      "14585541",
+      "14534183",
+      "12054769",
+      "11402335",
+      "10902190",
+      "9847135",
+      "8356077"
+    ],
+    "similar": [
+      "36762475",
+      "29914350",
+      "30547796",
+      "31499298",
+      "35489382",
+      "32019417",
+      "24564496",
+      "34673384",
+      "34044202",
+      "24669835",
+      "22161333",
+      "36833196",
+      "30547403",
+      "29219084",
+      "34168133",
+      "32054475",
+      "17981545",
+      "38155269",
+      "20920161",
+      "25807392",
+      "25887857",
+      "32174324",
+      "21548810",
+      "27876826",
+      "32697830",
+      "34495484",
+      "20030818",
+      "36575445",
+      "31042646",
+      "19594885",
+      "26862054",
+      "33563211",
+      "23924435",
+      "32958603",
+      "22577292",
+      "30758825",
+      "23698722",
+      "20025723",
+      "20522257",
+      "26072513",
+      "34688607",
+      "23698724",
+      "35524190",
+      "35996085",
+      "20485743",
+      "35062026",
+      "37085776",
+      "32716923",
+      "27045829",
+      "20718955",
+      "19594874",
+      "29246163",
+      "20876091",
+      "28178334",
+      "21431544",
+      "21827425",
+      "27104615",
+      "34251627",
+      "30547406",
+      "24278007",
+      "36182867",
+      "24565025",
+      "28602483",
+      "17299415",
+      "32207875",
+      "35050715",
+      "29717206",
+      "19422680",
+      "22689778",
+      "29560827",
+      "22456606",
+      "27896738",
+      "34383650",
+      "32606380",
+      "25314274",
+      "26731284",
+      "30236951",
+      "25350697",
+      "20827605",
+      "27775378",
+      "30547400",
+      "34545085",
+      "37790516",
+      "29206104",
+      "39152459",
+      "38145338",
+      "37468756"
+    ],
+    "review": [
+      "36762475",
+      "31499298",
+      "17981545",
+      "23698724",
+      "30547406",
+      "20827605",
+      "38145338"
+    ],
+    "pmc": [
+      "10123116"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36762475/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36762475",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad053",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

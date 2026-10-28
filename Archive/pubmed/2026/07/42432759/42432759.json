@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "42432759",
+    "doi": "10.1186/s41065-026-00710-w",
+    "title": "Identification of FOXK1 and SEMA7A as key genes associated with m(6)A-related programmed cell death in diabetic retinopathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic retinopathy (DR), a serious microvascular complication of diabetes, has a complex pathogenic mechanism that is intricately linked to programmed cell death (PCD) and also to N6-methyladenosine (m(6)A) modification. The objective of this research was to pinpoint crucial genes related to m(6)A-related PCD in DR using transcriptomic data, offering novel targets and a theoretical basis for the pathogenesis of DR. METHODS: In this study, transcriptomic data of DR samples and control samples were obtained from a public database. Meanwhile, m(6)A-and PCD-related genes were retrieved from the literature. Candidate genes were identified via differential expression and correlation analyses. Using constructed protein-protein interaction (PPI) networks, a machine learning algorithms screened for feature genes, which underwent expression validation to determine key genes. A predictive nomogram was subsequently developed and its performance evaluated. Enrichment analysis, along with immune infiltration analysis were carried out. Finally, molecular regulatory networks and molecular docking was performed. RESULTS: Initially, 3,716 differentially expressed genes between DR and control samples (DRDEGs) were identified. By intersecting DRDEGs with PCD-related genes and m(6)A-related differentially expressed genes, followed by Spearman correlation analysis, 58 candidate genes were identified. Subsequently, Forkhead box K1 (FOXK1) and Semaphorin 7 A (SEMA7A) were identified as key genes through PPI, machine learning, and expression analyses. Furthermore, the two key genes constructed a well accurate nomogram for DR diagnosis. GSEA revealed their critical roles in DR pathogenesis. Moreover, immune infiltration analysis highlighted the involvement of immune dysregulation in DR. The constructed TF-mRNA-miRNA regulatory network contained 2 key genes, 14 transcription factors, and 12 miRNAs (e.g. BRCA1-FOXK1-mmu-miR-7234-3p). Molecular docking showed that decitabine and other drugs bound well to FOXK1,warranting further experimental investigation into their therapeutic efficacy. CONCLUSION: This study identified FOXK1 and SEMA7A as key genes in DR related to m(6)A-associated programmed cell death, which may provide a new direction for subsequent research on diagnosis and treatment.",
+    "keywords": [
+      "Diabetic retinopathy",
+      "Immune infiltration",
+      "Key genes",
+      "Programmed cell death",
+      "m6A modification"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Jie",
+        "Wu, Zhenyu",
+        "Dong, Ningning"
+      ],
+      "short_names": [
+        "Yang J",
+        "Wu Z",
+        "Dong N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zhejiang Hospital, Hangzhou, Zhejiang, 310000, China.",
+        "Zhejiang Hospital, Hangzhou, Zhejiang, 310000, China. wuzhenyut@126.com.",
+        "Eye Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Jie",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Hospital, Hangzhou, Zhejiang, 310000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhenyu",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Hospital, Hangzhou, Zhejiang, 310000, China. wuzhenyut@126.com."
+        ]
+      },
+      {
+        "full_name": "Dong, Ningning",
+        "short_name": "Dong N",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2026 Jul 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/11 05:37",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42432759",
+      "39634176",
+      "41716682",
+      "39968099",
+      "42228736",
+      "41384025",
+      "38443950",
+      "41583295",
+      "39697326",
+      "40790234",
+      "38851464",
+      "35957838",
+      "42292668",
+      "38310446",
+      "42265151",
+      "37773794",
+      "41049291",
+      "41255601",
+      "41651978",
+      "39483475",
+      "36689408",
+      "39085562",
+      "42129911",
+      "40635214",
+      "41357233",
+      "42059276",
+      "42131108",
+      "39744064",
+      "39375405",
+      "42183173",
+      "40370590",
+      "41909133",
+      "40885831",
+      "37522124",
+      "41858783",
+      "40297850",
+      "41291841",
+      "41158409",
+      "41743406",
+      "41340073",
+      "36506045",
+      "39725717",
+      "41847384",
+      "39427825",
+      "39839184",
+      "41141349",
+      "40369608",
+      "41601931",
+      "40043935",
+      "39512836",
+      "35574010",
+      "37867507",
+      "40374840",
+      "39586719",
+      "41479901",
+      "38587531",
+      "40374866",
+      "42338983",
+      "39762849",
+      "40024299",
+      "41044520",
+      "37264340",
+      "39022342",
+      "40860289",
+      "38245687",
+      "41959722",
+      "39281570",
+      "41785251",
+      "40406126",
+      "42106542",
+      "40775242",
+      "36531699",
+      "41709877",
+      "37205113",
+      "41143005",
+      "41833346",
+      "41006883",
+      "32508878",
+      "41878449",
+      "42221844",
+      "42023244",
+      "40151199",
+      "37378675",
+      "42295138",
+      "38800594",
+      "41905994",
+      "41354822",
+      "42107160",
+      "42256410",
+      "41299729",
+      "42348043",
+      "41102315",
+      "41210882",
+      "41591671",
+      "39574022",
+      "39268370",
+      "41656832",
+      "42006143",
+      "41120603",
+      "40929847"
+    ],
+    "review": [
+      "42432759"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-026-00710-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

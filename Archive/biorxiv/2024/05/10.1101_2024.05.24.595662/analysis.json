@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.24.595662",
+  "title": "Deciphering cis-regulatory elements using REgulamentary",
+  "authors": "Riva SG; Georgiades E; Herrmann JC; Gür ER; Sanders E; Sergeant M; Baxter M; Hughes JR",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-28",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用HMM方法注释顺式调控元件并优先化GWAS变异，虽涉及调控元件但未聚焦蛋白质-DNA互作建模，且方法为传统HMM而非AI或物理模拟，与课题关联较弱。",
+  "abstract": "With the boom in Genome-Wide Association Studies (GWAS), it has become apparent that many disease-associated genetic variants lie in the non-coding regions of the genome. In order to prioritise these variants and disentangle their functional significance, it is important to be able to accurately classify cis-regulatory elements within these non-coding regions of the genome. Historically, the classification of cis-regulatory elements relied purely on the presence of characteristic histone marks, with recent advancements in their classification using more sophisticated Hidden Markov Model (HMM)-based approaches. The limitation of the HMM-based approaches is that the output of these models is an arbitrary chromatin state, which then requires the user to manually assign these states to a particular class of cis-regulatory elements. Here we present a new tool, REgulamentary, which enables de novo genome-wide annotation of cis-regulatory elements in a cell-type specific manner. We benchmarked REgulamentary against GenoSTAN, the most popular existing published chromatin annotation and regulatory element identification tool, to demonstrate the advancements REgulamentary can provide in assigning chromatin states. Finally, as an example of REgulamentary’s utility in solving complex disease trait loci , we applied REgulamentary to published GWAS data to demonstrate how this tool can be used to prioritise likely causal variants.",
+  "abstract_zh": "随着全基因组关联研究（GWAS）的蓬勃发展，人们日益认识到许多与疾病相关的遗传变异位于基因组的非编码区域。为了对这些变异进行优先级排序并阐明其功能意义，准确分类这些非编码区域内的顺式调控元件至关重要。历史上，顺式调控元件的分类完全依赖于特征性组蛋白标记的存在，而近期则通过更复杂的基于隐马尔可夫模型（HMM）的方法实现了分类上的进展。基于HMM的方法的局限性在于，这些模型的输出是一个任意的染色质状态，这要求用户手动将这些状态分配给特定的顺式调控元件类别。在此，我们介绍一种新工具REgulamentary，它能够以细胞类型特异性的方式实现全基因组范围内顺式调控元件的从头注释。我们将REgulamentary与现有最流行的已发表染色质注释和调控元件识别工具GenoSTAN进行了基准比较，以展示REgulamentary在分配染色质状态方面所能带来的进步。最后，作为REgulamentary在解决复杂疾病性状位点中应用价值的示例，我们将其应用于已发表的GWAS数据，以展示该工具如何用于优先筛选可能的因果变异。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.24.595662",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.24.595662",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.24.595662/index.html"
+}

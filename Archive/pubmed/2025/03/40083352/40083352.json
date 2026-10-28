@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "40083352",
+    "doi": "10.62347/BDIP4409",
+    "title": "Validation of machine learning application for the identification of lipid metabolism-associated diagnostic model in ischemic stroke."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Ischemic Stroke (IS) is characterized by complex molecular alterations involving disruptions in lipid metabolism and immune interactions. However, the roles of lipid metabolism-associated genes in the pathogenesis of IS through immune regulation interaction are rarely explored. In this study, we aimed to explore the intricate correlation between lipid metabolism-associated immune changes and IS through a machine-learning algorithm. MATERIALS AND METHODS: We downloaded the GSE16561, GSE22255, and GSE37587 datasets from NCBI. Using the GSE16561 dataset, we analyzed differential gene expression profiles related to lipid metabolism with the \"Limma\" R package. We constructed a diagnostic model employing techniques such as Least Absolute Shrinkage and Selection Operator (LASSO) Cox regression and Random Forest (RF), which was further validated using the independent GSE22255 and GSE37587 datasets. Correlations between model genes and immune cell percentages were examined by Spearman analysis. We further validated the diagnostic value of these model genes in 28 clinical samples using RT-qPCR. RESULTS: We identified 26 lipid metabolism genes with significant expression disparities between normal and diseased groups, closely linked to immune cell populations. Seven signature genes (ACSS1, ADSL, CYP27A1, MTF1, SOAT1, STAT3, and SUMF2) were identified using LASSO and RF algorithms for a potential diagnostic model, effectively distinguishing healthy and IS samples in both training and validation (AUC = 0.725) datasets. The mRNA expression levels of these model genes were further validated as a blood biomarker for IS patients in our clinical samples. Single-cell analysis further revealed high expression of Cyp27a1 in dendritic cells and macrophages, and decreasing expression of Soat in progenitor cells as the disease progressed. The expression of Stat3 in most immune cells was upregulated in progenitor cells as the disease progressed. Additionally, a regulatory network identified transcription factors regulating genes such as STAT3. CONCLUSION: This study identified novel lipid metabolism biomarkers for IS, enhancing our understanding of IS by shedding light on lipid metabolism and immune interactions. This may facilitate innovative diagnostic approaches to IS.",
+    "keywords": [
+      "Ischemic stroke",
+      "gene signature",
+      "immune cells",
+      "lipid metabolism",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Xiangtian",
+        "Xu, Runping",
+        "Wang, Haoheng",
+        "Zhu, Junle",
+        "Ye, Jingliang",
+        "Luo, Chun"
+      ],
+      "short_names": [
+        "Meng X",
+        "Xu R",
+        "Wang H",
+        "Zhu J",
+        "Ye J",
+        "Luo C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China.",
+        "Department of Obstetrics and Gynecology, Shanghai Tenth People's Hospital, Tongji University Shanghai, China.",
+        "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China.",
+        "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China.",
+        "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China.",
+        "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Xiangtian",
+        "short_name": "Meng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Runping",
+        "short_name": "Xu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shanghai Tenth People's Hospital, Tongji University Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haoheng",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Junle",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Jingliang",
+        "short_name": "Ye J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Chun",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Tongji Hospital, School of Medicine, Tongji University Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of clinical and experimental pathology"
+    ],
+    "journal_abbrev": [
+      "Int J Clin Exp Pathol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/14 11:20",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "41373604",
+      "40837765"
+    ],
+    "refs": [
+      "38660376",
+      "38493133",
+      "38383790",
+      "37662030",
+      "37490917",
+      "37350780",
+      "37342100",
+      "36385095",
+      "36376022",
+      "36293020",
+      "36170234",
+      "36142720",
+      "35795678",
+      "35190684",
+      "35173738",
+      "35104745",
+      "35027733",
+      "34282331",
+      "33961969",
+      "33724691",
+      "33583386",
+      "33435349",
+      "33036870",
+      "33028824",
+      "32915138",
+      "32746852",
+      "32660292",
+      "32401820",
+      "32309372",
+      "31865538",
+      "30860258",
+      "30602355",
+      "29163816",
+      "28808194",
+      "28069373",
+      "28018988",
+      "27456333",
+      "25691825",
+      "21738161",
+      "17697869"
+    ],
+    "similar": [
+      "40083352",
+      "36545400",
+      "39507054",
+      "39299659",
+      "37032832",
+      "37632832",
+      "39071704",
+      "38649912",
+      "37891634",
+      "39855613",
+      "38650649",
+      "38371524",
+      "39586719",
+      "34456585",
+      "36968495",
+      "39170142",
+      "38951833",
+      "38384585",
+      "40312440",
+      "40070840",
+      "38144565",
+      "38660376",
+      "37266443",
+      "38328342",
+      "39862324",
+      "38215553",
+      "39588536",
+      "38863714",
+      "37166429",
+      "38148887",
+      "38291374",
+      "36222281",
+      "38897129",
+      "37783761",
+      "37251077",
+      "40123611",
+      "39139563",
+      "36532018",
+      "36605987",
+      "38051734",
+      "39923303",
+      "38476236",
+      "36725810",
+      "40207230",
+      "38441793",
+      "39475897",
+      "39351221",
+      "40034693",
+      "38758850",
+      "36915125",
+      "39553728",
+      "39697326",
+      "36211422",
+      "37386280",
+      "39636891",
+      "36792688",
+      "38499050",
+      "36250071",
+      "39616855",
+      "39875572",
+      "39388708",
+      "40276515",
+      "39743646",
+      "38951638",
+      "40115777",
+      "37545529",
+      "39188714",
+      "39375405",
+      "40119397",
+      "38728482",
+      "39394418",
+      "37782162",
+      "37415143",
+      "38348042",
+      "39263286",
+      "39061076",
+      "40329959",
+      "35713363",
+      "38098472",
+      "37454542",
+      "39925925",
+      "34706720",
+      "37304552",
+      "37854191",
+      "37779906",
+      "38518057",
+      "40330470",
+      "36589450",
+      "37346073",
+      "38711508",
+      "39142001",
+      "35709926",
+      "39396400",
+      "40129981",
+      "38029552",
+      "39346078",
+      "38283345",
+      "38323276",
+      "36253715",
+      "38767974"
+    ],
+    "review": [
+      "40083352"
+    ],
+    "pmc": [
+      "11897713"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40083352/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

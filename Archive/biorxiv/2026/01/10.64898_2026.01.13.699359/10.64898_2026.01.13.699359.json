@@ -1,0 +1,115 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.13.699359",
+  "title": "LoopBin – a VaDE-based neural network for chromatin loop classification",
+  "doi": "10.64898/2026.01.13.699359",
+  "abstract": "<h4>ABSTRACT</h4> Classifying chromatin loops from 3D genomics data according to their epigenetic and structural attributes is important for inferring their functional roles. Currently, such classification typically relies on the manual intersection of epigenomic signal peaks and loop anchor locations. To automate this, remove peak-calling biases and include information inherent to 3D genomics signal structure, we developed LoopBin, a framework based on a variational deep embedding (VaDE) neural network. We applied LoopBin to kilobase-resolution Micro-C data and segmented tens of thousands of loops into clusters with distinct features using minimal histone modification and transcription factor-binding data. These features were indicative of apparently distinct biological function by each subgroup of loops. Therefore, LoopBin can provide insights into the dynamic shifts in loop classification that can occur upon perturbation of cell homeostasis or signaling.",
+  "authors": [
+    "Zhu Y",
+    "Papantonis A",
+    "Barbieri M"
+  ],
+  "published_date": "2026-01-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699359",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699359.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1226324",
+    "raw_record": {
+      "id": "PPR1226324",
+      "source": "PPR",
+      "doi": "10.64898/2026.01.13.699359",
+      "title": "LoopBin – a VaDE-based neural network for chromatin loop classification",
+      "authorString": "Zhu Y, Papantonis A, Barbieri M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhu Y",
+            "lastName": "Zhu",
+            "firstName": "Yajie",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Papantonis A",
+            "lastName": "Papantonis",
+            "firstName": "Argyris",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7551-1073"
+            }
+          },
+          {
+            "fullName": "Barbieri M",
+            "lastName": "Barbieri",
+            "firstName": "Mariano",
+            "initials": "M"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7551-1073"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>ABSTRACT</h4>  Classifying chromatin loops from 3D genomics data according to their epigenetic and structural attributes is important for inferring their functional roles. Currently, such classification typically relies on the manual intersection of epigenomic signal peaks and loop anchor locations. To automate this, remove peak-calling biases and include information inherent to 3D genomics signal structure, we developed LoopBin, a framework based on a variational deep embedding (VaDE) neural network. We applied LoopBin to kilobase-resolution Micro-C data and segmented tens of thousands of loops into clusters with distinct features using minimal histone modification and transcription factor-binding data. These features were indicative of apparently distinct biological function by each subgroup of loops. Therefore, LoopBin can provide insights into the dynamic shifts in loop classification that can occur upon perturbation of cell homeostasis or signaling.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.13.699359"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-14",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

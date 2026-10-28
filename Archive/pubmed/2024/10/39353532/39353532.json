@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "39353532",
+    "doi": "10.1016/j.jare.2024.09.027",
+    "title": "Salidroside sensitizes Triple-negative breast cancer to ferroptosis by SCD1-mediated lipogenesis and NCOA4-mediated ferritinophagy."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Triple-negative breast cancer (TNBC) is the primary cause of breast cancer-induced death in women. Literature has confirmed the benefits of Salidroside (Sal) in treating TNBC. However, the study about potential therapeutic targets and mechanisms of Sal-anchored TNBC remains limited. OBJECTIVE: This study was designed to explore the main targets and potential mechanisms of Sal against TNBC. METHODS: Network pharmacology, bioinformatics, and machine learning algorithm strategies were integrated to examine the role, potential targets, and mechanisms of the Sal act in TNBC. MDA-MB-231 cells and tumor-bearing nude mice were chosen for in vitro and in vivo experimentation. Cell viability and cytotoxicity were determined using CCK-8, LDH test, and Calcein-AM/PI staining. Antioxidant defense, lipid peroxidation, and iron metabolism were explored using glutathione, glutathione peroxidase, malondialdehyde (MDA), C11-BODIPY 581/591 probe, and FerroOrange dye. Glutathione peroxidase 4 (GPX4) or stearoyl-CoA desaturase 1 (SCD1) overexpression or nuclear receptor co-activator 4 (NCOA4) deficiency was performed to demonstrate the mechanism of Sal on TNBC. RESULTS: The prediction results confirmed that 22 ferroptosis-related genes were identified in Sal and TNBC, revealing that the potential mechanism of the Sal act on TNBC was linked with ferroptosis. Besides, these genes were mainly involved in the mTOR, PI3K/AKT, and autophagy signaling pathway by functional enrichment analysis. The in vitro validation results confirmed that Sal inhibited TNBC cell proliferation by modulating ferroptosis via elevation of intracellular Fe(2+) and lipid peroxidation. Mechanistically, Sal sensitized TNBC cells to ferroptosis by inhibiting the PI3K/AKT/mTOR axis, thereby suppressing SCD1-mediated lipogenesis of monounsaturated fatty acids to induce lipid peroxidation, additionally facilitating NCOA4-mediated ferritinophagy to increase intracellular Fe(2+) content. The GPX4 or SCD1 overexpression or NCOA4 deficiency results further supported our mechanistic studies. In vivo experimentation confirmed that Sal is vital for slowing down tumor growth by inducing ferroptosis. CONCLUSIONS: Overall, this study elucidates TNBC pathogenesis closely linked to ferroptosis and identifies potential biomarkers in TNBC. Meanwhile, the study elucidates that Sal sensitizes TNBC to ferroptosis by SCD1-mediated lipogenesis and NCOA4-mediated ferritinophagy, regulated by PI3K/AKT/mTOR signaling pathways. Our findings provide a theoretical basis for applying Sal to treat TNBC.",
+    "keywords": [
+      "Ferroptosis",
+      "NCOA4-mediated ferritinophagy",
+      "SCD1-mediated lipogenesis",
+      "Salidroside",
+      "Triple-negative breast cancer",
+      "mTOR"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "*Triple Negative Breast Neoplasms/drug therapy/metabolism/pathology",
+      "Humans",
+      "Animals",
+      "Female",
+      "Mice",
+      "*Glucosides/pharmacology",
+      "*Phenols/pharmacology",
+      "Cell Line, Tumor",
+      "*Nuclear Receptor Coactivators/metabolism/genetics",
+      "*Stearoyl-CoA Desaturase/metabolism/genetics",
+      "*Lipogenesis/drug effects",
+      "Mice, Nude",
+      "Autophagy/drug effects",
+      "*Ferritins/metabolism",
+      "Xenograft Model Antitumor Assays",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Guiqin",
+        "Cai, Yawen",
+        "Ren, Menghui",
+        "Zhang, Xiaoyu",
+        "Fu, Yu",
+        "Cheng, Run",
+        "Wang, Yingdi",
+        "Miao, Mingxing",
+        "Zhu, Lingpeng",
+        "Yan, Tianhua"
+      ],
+      "short_names": [
+        "Huang G",
+        "Cai Y",
+        "Ren M",
+        "Zhang X",
+        "Fu Y",
+        "Cheng R",
+        "Wang Y",
+        "Miao M",
+        "Zhu L",
+        "Yan T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China.",
+        "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China.",
+        "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China.",
+        "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China.",
+        "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China.",
+        "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China.",
+        "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China.",
+        "National Experimental Teaching Demonstration Center of Pharmacy, China Pharmaceutical University, Nanjing, Jiangsu 211198, China. Electronic address: mmx0224@cpu.edu.cn.",
+        "The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi People's Hospital, Wuxi Medical Center, Nanjing Medical University, Wuxi, Jiangsu 214023, China. Electronic address: zhulingpeng@njmu.edu.cn.",
+        "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China. Electronic address: 1020050806@cpu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Guiqin",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yawen",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Menghui",
+        "short_name": "Ren M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoyu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yu",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Run",
+        "short_name": "Cheng R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingdi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Mingxing",
+        "short_name": "Miao M",
+        "identifiers": [],
+        "affiliations": [
+          "National Experimental Teaching Demonstration Center of Pharmacy, China Pharmaceutical University, Nanjing, Jiangsu 211198, China. Electronic address: mmx0224@cpu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lingpeng",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi People's Hospital, Wuxi Medical Center, Nanjing Medical University, Wuxi, Jiangsu 214023, China. Electronic address: zhulingpeng@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yan, Tianhua",
+        "short_name": "Yan T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science and Clinical Pharmacy, China Pharmaceutic University, Nanjing, Jiangsu 210009, China. Electronic address: 1020050806@cpu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of advanced research"
+    ],
+    "journal_abbrev": [
+      "J Adv Res"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/03 03:38",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42630682",
+      "42596850",
+      "42576488",
+      "42552467",
+      "42552375",
+      "42407120",
+      "42390583",
+      "42375548",
+      "42367305",
+      "42330601",
+      "42318797",
+      "42315525",
+      "42305484",
+      "42293762",
+      "42293377",
+      "42291452",
+      "42234404",
+      "42226605",
+      "42169065",
+      "42154151",
+      "42106856",
+      "42088773",
+      "42086528",
+      "42079500",
+      "42053892",
+      "42052841",
+      "42026022",
+      "42010894",
+      "42003902",
+      "41925800",
+      "41840422",
+      "41806079",
+      "41741409",
+      "41736076",
+      "41722510",
+      "41634719",
+      "41620780",
+      "41607787",
+      "41567851",
+      "41518529",
+      "41513623",
+      "41461917",
+      "41444950",
+      "41438466",
+      "41398524",
+      "41181365",
+      "41136411",
+      "41026281",
+      "41008615",
+      "40955307",
+      "40932861",
+      "40846688",
+      "40672075",
+      "40657248",
+      "40646575",
+      "40539051",
+      "40226472",
+      "39967676",
+      "39560863"
+    ],
+    "refs": [
+      "38588875",
+      "38436092",
+      "37951026",
+      "37839277",
+      "37556956",
+      "37215985",
+      "37076617",
+      "37046656",
+      "37035552",
+      "36966152",
+      "36779633",
+      "36776870",
+      "36712982",
+      "36617558",
+      "36608132",
+      "36257316",
+      "36241072",
+      "35963119",
+      "35787281",
+      "35502211",
+      "35477542",
+      "35408299",
+      "35328634",
+      "35292335",
+      "35204181",
+      "35180677",
+      "35100965",
+      "35053375",
+      "34900536",
+      "34837956",
+      "34742683",
+      "34294687",
+      "34271106",
+      "34031411",
+      "34030117",
+      "33707434",
+      "33617801",
+      "33538338",
+      "33495651",
+      "33472669",
+      "33229547",
+      "33069769",
+      "32976774",
+      "32937365",
+      "32685015",
+      "32603893",
+      "32520682",
+      "32457486",
+      "32427579",
+      "32219413",
+      "31350177",
+      "30705774",
+      "30686757",
+      "29923998",
+      "29901185",
+      "29556343",
+      "28912176",
+      "28849786",
+      "28216025",
+      "27514700",
+      "27245739",
+      "25327288",
+      "25295306",
+      "24695223",
+      "24439385",
+      "22770377",
+      "22632970",
+      "22500797",
+      "19203585",
+      "18762024",
+      "18762023",
+      "18593884",
+      "15624019",
+      "9600904",
+      "1185803"
+    ],
+    "similar": [
+      "39353532",
+      "39746501",
+      "41925800",
+      "41707813",
+      "41653617",
+      "38704789",
+      "42119357",
+      "41101075",
+      "42219071",
+      "40153970",
+      "40846041",
+      "39155877",
+      "36130940",
+      "42425906",
+      "33229547",
+      "40887997",
+      "41494353",
+      "40652583",
+      "42424934",
+      "40076939",
+      "40412057",
+      "41721997",
+      "40168090",
+      "40976126",
+      "42242436",
+      "42305484",
+      "41182521",
+      "40833485",
+      "40819642",
+      "42177862",
+      "42048687",
+      "41528411",
+      "41161393",
+      "41690330",
+      "40316059",
+      "40749519",
+      "40532859",
+      "39306799",
+      "41968638",
+      "42203136",
+      "40320050",
+      "38218311",
+      "33245979",
+      "40907917",
+      "38383297",
+      "39405915",
+      "42092407",
+      "40239722",
+      "42091499",
+      "39729481",
+      "42151086",
+      "33827043",
+      "40210941",
+      "40613296",
+      "31993937",
+      "39809268",
+      "42371677",
+      "41187650",
+      "38900236",
+      "40999956",
+      "41831498",
+      "41317784",
+      "41148492",
+      "42032729",
+      "41520847",
+      "39181476",
+      "39366066",
+      "41477979",
+      "41527177",
+      "40022222",
+      "38961034",
+      "41873334",
+      "34535390",
+      "40339610",
+      "40592077",
+      "38768701",
+      "42102950",
+      "41967461",
+      "42008854",
+      "38526702",
+      "37393829",
+      "41050072",
+      "38763373",
+      "40316156",
+      "39615216",
+      "36940731",
+      "39284544",
+      "31199678",
+      "38189810",
+      "29050003",
+      "41374003",
+      "41351983",
+      "41444950",
+      "40563476",
+      "40076586",
+      "38823344",
+      "42235648",
+      "41722510",
+      "40000487",
+      "40937759"
+    ],
+    "review": [
+      "39353532"
+    ],
+    "pmc": [
+      "12302663"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2090-1232(24)00429-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39353532/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

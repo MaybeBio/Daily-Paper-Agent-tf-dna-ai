@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "42081471",
+    "doi": "10.1371/journal.pcbi.1014225",
+    "title": "Co-morbid biomarkers for sarcopenic obesity associated with gut microbiota metabolites: From burden to treatment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The detrimental cycle of sarcopenic obesity (SO) significantly reduces quality of life in older adults, while the mechanisms are still unclear. MATERIALS AND METHODS: We first analyzed the incidence of SO using the CHARLS database. We identified key genes by integrating differentially expressed genes, weighted gene co-expression network analysis, and targets of gut microbiota metabolites, refining the selection through machine learning methods (LASSO, XGBoost, SVM-REF, Random Forest). These genes were validated through single-cell sequencing, receiver operating characteristic analysis, and Muscle immunohistochemistry in a high-fat-diet (HFD) induced mouse model. Further analyses comprised immune infiltration profiling, pathway enrichment, and transcriptional regulation analysis. Additionally, we explored the relationships between key genes and autophagy, ferroptosis, and immunity responses. Finally, we predicted and evaluated potential therapeutic compounds via the CMap database and molecular docking. RESULTS: SO incidence in China increased significantly from 16.1% (2011) to 20.4% (2018). Machine learning identified ALDH1A3, CSF1R, and PHGDH as key genes. These genes were validated in external muscle single-cell datasets, demonstrating robust diagnostic performance with AUC values exceeding 0.72 across four independent GEO cohorts. Following an HFD intervention in mice, ALDH1A3 and CSF1R expression in muscle tissue was significantly upregulated, while PHGDH showed a consistent upward trend that did not reach statistical significance. Immune infiltration analysis revealed a significant increase in resting NK cells in both obesity and sarcopenia states. Functional enrichment analyses using Gene Ontology and Kyoto Encyclopedia of Genes and Genomes linked the genes to transcriptional regulation pathways. The Cisbp_M4923 motif was identified as the most relevant transcription factor binding site. Finally, molecular docking simulations indicated stable binding of the top candidate compound, Birinapant, to the key gene targets. CONCLUSION: ALDH1A3, CSF1R, and PHGDH serve as potential co-morbid biomarkers for SO.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Obesity/metabolism/genetics/microbiology/epidemiology",
+      "Animals",
+      "Mice",
+      "Biomarkers/metabolism/analysis",
+      "*Gastrointestinal Microbiome/physiology/genetics",
+      "*Sarcopenia/metabolism/genetics/microbiology/epidemiology",
+      "Humans",
+      "Machine Learning",
+      "Computational Biology",
+      "Molecular Docking Simulation",
+      "Diet, High-Fat"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Juehan",
+        "Li, Haijun",
+        "Shi, Weiyi",
+        "Ren, Xiaoxu",
+        "Liu, Yingying",
+        "Mao, Lin",
+        "Wang, Daming",
+        "Zhang, Tianfang",
+        "Zhang, Ziwei",
+        "Zheng, Huiqin",
+        "Yang, Xiaofeng",
+        "Yao, Mingfei",
+        "Chen, Zuobing"
+      ],
+      "short_names": [
+        "Wang J",
+        "Li H",
+        "Shi W",
+        "Ren X",
+        "Liu Y",
+        "Mao L",
+        "Wang D",
+        "Zhang T",
+        "Zhang Z",
+        "Zheng H",
+        "Yang X",
+        "Yao M",
+        "Chen Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-2596-4918"
+      ],
+      "affiliations": [
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Department of Critical Care Medicine, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Emergency and trauma center, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Jinan Microecological Biomedicine Shandong Laboratory, Jinan, China.",
+        "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Intelligent Rehabilitation and Translational Neuroelectronics, Hangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Juehan",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haijun",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Weiyi",
+        "short_name": "Shi W",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Xiaoxu",
+        "short_name": "Ren X",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yingying",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Lin",
+        "short_name": "Mao L",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Daming",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tianfang",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziwei",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Huiqin",
+        "short_name": "Zheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaofeng",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency and trauma center, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Mingfei",
+        "short_name": "Yao M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+          "Jinan Microecological Biomedicine Shandong Laboratory, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zuobing",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0009-0009-2596-4918"
+        ],
+        "affiliations": [
+          "Departments of Physical Medicine and Rehabilitation, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, China.",
+          "Zhejiang Key Laboratory of Intelligent Rehabilitation and Translational Neuroelectronics, Hangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 18:33",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41125618",
+      "40768999",
+      "40598535",
+      "40035867",
+      "39814231",
+      "39475181",
+      "39128607",
+      "39001459",
+      "38969880",
+      "38758794",
+      "38321142",
+      "38306027",
+      "38292911",
+      "38168770",
+      "38057297",
+      "37991454",
+      "37904003",
+      "37380015",
+      "36947988",
+      "36907247",
+      "36871273",
+      "36479119",
+      "36406272",
+      "35894174",
+      "35733917",
+      "35325185",
+      "35106971",
+      "35011721",
+      "34712382",
+      "34077737",
+      "33356944",
+      "32924316",
+      "32698053",
+      "32007953",
+      "31178118",
+      "31122802",
+      "30312372",
+      "30180949",
+      "29912392",
+      "29195078",
+      "29189738",
+      "28991892",
+      "28716061",
+      "28683285",
+      "28045398",
+      "25605792",
+      "24961545",
+      "24594504",
+      "23193258",
+      "22935594",
+      "22718787",
+      "21933373",
+      "19114008",
+      "17287757",
+      "15264254",
+      "12355189",
+      "8703075",
+      "7615453"
+    ],
+    "similar": [
+      "42081471",
+      "42509823",
+      "40374840",
+      "42015036",
+      "41703488",
+      "41508240",
+      "41052072",
+      "40500570",
+      "42520089",
+      "41320776",
+      "38544384",
+      "39586719",
+      "39375405",
+      "42248268",
+      "41316541",
+      "42107160",
+      "38650009",
+      "39139563",
+      "40406126",
+      "40207230",
+      "39142001",
+      "41479901",
+      "41200172",
+      "40628511",
+      "41560007",
+      "40967560",
+      "41044520",
+      "36532015",
+      "41146237",
+      "41716396",
+      "42292668",
+      "40374866",
+      "40313958",
+      "40670650",
+      "40360670",
+      "40916281",
+      "42147797",
+      "42267557",
+      "41191606",
+      "40836320",
+      "42568355",
+      "42397093",
+      "41291841",
+      "41107929",
+      "42292468",
+      "40406620",
+      "41872824",
+      "42011624",
+      "42164373",
+      "40890834",
+      "41432483",
+      "41190071",
+      "41388523",
+      "41816328",
+      "42254657",
+      "39993869",
+      "40192032",
+      "40453984",
+      "41611834",
+      "40024421",
+      "41673191",
+      "41257259",
+      "40785039",
+      "41619156",
+      "41104127",
+      "42363518",
+      "41305746",
+      "41760060",
+      "41214111",
+      "42236612",
+      "40362669",
+      "38310567",
+      "42530267",
+      "40355485",
+      "41536554",
+      "42051519",
+      "42435052",
+      "42123756",
+      "42558367",
+      "41265166",
+      "40165133",
+      "42327749",
+      "40830558",
+      "42051521",
+      "41665627",
+      "38897129",
+      "40766309",
+      "35709926",
+      "40539070",
+      "41591671",
+      "41009970",
+      "41070114",
+      "38755717",
+      "40289127",
+      "40598145",
+      "42024670",
+      "41436831",
+      "42377012",
+      "41731716",
+      "39270557"
+    ],
+    "review": [
+      "42081471",
+      "41665627"
+    ],
+    "pmc": [
+      "13138625"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/obesity.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Obesity"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1014225",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42081471/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3547",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

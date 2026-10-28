@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38752891",
+  "title": "A Bayesian Change Point Model for Dynamic Alternative Transcription Start Site Usage During Cellular Differentiation.",
+  "authors": "Xia, Juan; Li, Yuxia; Zhu, Haotian; Xue, Feiyang; Shi, Feng; Li, Nana",
+  "journal": "Journal of computational biology : a journal of computational molecular cell biology",
+  "published_date": "2024-05-16",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用贝叶斯变点检测模型分析细胞分化中替代转录起始位点使用的动态变化，虽涉及转录调控但未聚焦蛋白质-DNA互作建模，且方法为统计推断而非AI或物理模拟。",
+  "abstract": "ABSTRACT An alternative transcription start site (ATSS) is a major driving force for increasing the complexity of transcripts in human tissues. As a transcriptional regulatory mechanism, ATSS has biological significance. Many studies have confirmed that ATSS plays an important role in diseases and cell development and differentiation. However, exploration of its dynamic mechanisms remains insufficient. Identifying ATSS change points during cell differentiation is critical for elucidating potential dynamic mechanisms. For relative ATSS usage as percentage data, the existing methods lack sensitivity to detect the change point for ATSS longitudinal data. In addition, some methods have strict requirements for data distribution and cannot be applied to deal with this problem. In this study, the Bayesian change point detection model was first constructed using reparameterization techniques for two parameters of a beta distribution for the percentage data type, and the posterior distributions of parameters and change points were obtained using Markov Chain Monte Carlo (MCMC) sampling. With comprehensive simulation studies, the performance of the Bayesian change point detection model is found to be consistently powerful and robust across most scenarios with different sample sizes and beta distributions. Second, differential ATSS events in the real data, whose change points were identified using our method, were clustered according to their change points. Last, for each change point, pathway and transcription factor motif analyses were performed on its differential ATSS events. The results of our analyses demonstrated the effectiveness of the Bayesian change point detection model and provided biological insights into cell differentiation.",
+  "abstract_zh": "摘要 替代性转录起始位点（alternative transcription start site, ATSS）是增加人类组织中转录本复杂性的主要驱动力。作为一种转录调控机制，ATSS具有生物学意义。许多研究已证实ATSS在疾病及细胞发育和分化中发挥重要作用。然而，对其动态机制的探索仍不充分。识别细胞分化过程中的ATSS变化点对于阐明潜在的动态机制至关重要。对于作为百分比数据的相对ATSS使用情况，现有方法在检测ATSS纵向数据变化点方面缺乏敏感性。此外，一些方法对数据分布有严格要求，无法应用于处理此问题。在本研究中，首先利用重参数化技术针对百分比数据类型构建了基于贝塔分布两个参数的贝叶斯变化点检测模型，并通过马尔可夫链蒙特卡洛（Markov Chain Monte Carlo, MCMC）采样获得参数和变化点的后验分布。通过全面的模拟研究，发现贝叶斯变化点检测模型在不同样本量和贝塔分布的大多数场景下表现出一致且稳健的功效。其次，对真实数据中通过我们的方法识别出变化点的差异ATSS事件，根据其变化点进行聚类。最后，针对每个变化点，对其差异ATSS事件进行通路和转录因子基序分析。我们的分析结果证明了贝叶斯变化点检测模型的有效性，并为细胞分化提供了生物学见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38752891/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38752891/",
+  "paper_page_path": "papers/pubmed/38752891/index.html"
+}

@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41402709",
+    "doi": "10.1186/s12864-025-12383-2",
+    "title": "ProMoHGT: a heterogeneous graph transformer with graph contrastive learning for robust microbial protein function prediction."
+  },
+  "content": {
+    "abstract": "Proteins serve as the central executors of life activities, performing diverse functions such as metabolic catalysis, genetic regulation, signal transduction, and cytoskeletal maintenance. However, microbial proteins face unique challenges: their rapid evolution leads to low sequence conservation, and structural diversity complicates functional inference. Experimental annotation lags far behind due to scalability limits-over 70% of microbial proteins in UniProt remain uncharacterized, compared to roughly 50% for model eukaryotes. Traditional homology-based tools (e.g., FASTA/BLAST) often fail on highly divergent microbial families, and existing machine-learning methods rarely account for microbial-specific signals such as horizontal gene transfer. To address this gap, this study presents the first publicly available dataset for microbial protein function annotation and introduces ProMoHGT, a novel model that extracts evolutionary and contextual sequence features using ESM-2, constructs three-dimensional spatial proximity graphs from AlphaFold2 predictions, and encodes residue-specific physicochemical properties. Its core heterogeneous Transformer architecture incorporates super-nodes and multi-head self-attention to integrate global topology with long-range dependencies, while graph contrastive learning adds regularization to enhance robustness and prevent overfitting. ProMoHGT outperforms state-of-the-art methods across all three Gene Ontology categories (MF, BP, CC) and in Enzyme Commission number prediction, with the smallest performance decay observed across varying homology scenarios, thereby validating its superior generalization capability. A case study on three representative microbial proteins (ArcA, CodY, and SPT16) further confirmed these advantages, where ProMoHGT most accurately recovered key experimentally validated functions such as DNA binding, transcription activation, chromatin remodeling, and metabolic regulation, achieving the highest F1 scores among all methods.",
+    "keywords": [
+      "Graph contrastive learning",
+      "Heterogeneous graph transformer",
+      "Microbial protein annotation",
+      "Multi-source feature integration"
+    ],
+    "mesh_terms": [
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "Molecular Sequence Annotation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sui, Jianan",
+        "Wang, Xiaomiao",
+        "Su, Yufeng",
+        "Gao, Menglong",
+        "Huang, Huanjie",
+        "Liu, Hao",
+        "Zhang, Jianfeng",
+        "Tang, Yaohan"
+      ],
+      "short_names": [
+        "Sui J",
+        "Wang X",
+        "Su Y",
+        "Gao M",
+        "Huang H",
+        "Liu H",
+        "Zhang J",
+        "Tang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China.",
+        "Centre in Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China. liuhao0650@163.com.",
+        "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China. zhangjianfeng@gxmu.edu.cn.",
+        "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China. efy12312@sr.gxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sui, Jianan",
+        "short_name": "Sui J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaomiao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yufeng",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Menglong",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre in Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Huanjie",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hao",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China. liuhao0650@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianfeng",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China. zhangjianfeng@gxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tang, Yaohan",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China. efy12312@sr.gxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2025 Dec 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/17 00:25",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "42655191",
+      "40722197"
+    ],
+    "refs": [
+      "40399308",
+      "40127793",
+      "40121399",
+      "40053671",
+      "39478465",
+      "39197652",
+      "39106566",
+      "38991035",
+      "38842509",
+      "38820799",
+      "38753765",
+      "38739853",
+      "38630855",
+      "38535831",
+      "38442651",
+      "38413369",
+      "38309079",
+      "37604011",
+      "37401369",
+      "36964722",
+      "36883697",
+      "36653447",
+      "35868409",
+      "35514183",
+      "35060074",
+      "34039967",
+      "33237286",
+      "31350877",
+      "30445541",
+      "29028931",
+      "27899662",
+      "27010337",
+      "26357091",
+      "23060610",
+      "21097882",
+      "18226233",
+      "16234318",
+      "14681372",
+      "12824396",
+      "10866208",
+      "10802651",
+      "10592255",
+      "10592235",
+      "10592173",
+      "9254694"
+    ],
+    "similar": [
+      "41402709",
+      "42475469",
+      "41329596",
+      "41540516",
+      "41922959",
+      "40466979",
+      "42119874",
+      "37369035",
+      "41662346",
+      "41013188",
+      "39487084",
+      "41421972",
+      "42184116",
+      "39657158",
+      "32598314",
+      "41257600",
+      "41881288",
+      "40267287",
+      "39256197",
+      "39489606",
+      "42560939",
+      "41615927",
+      "39292557",
+      "40995863",
+      "40833413",
+      "40748326",
+      "40545645",
+      "40171777",
+      "39112431",
+      "41805524",
+      "41977286",
+      "39776277",
+      "39848362",
+      "37764319",
+      "41841204",
+      "40824055",
+      "39401117",
+      "39441244",
+      "42155200",
+      "41691979",
+      "41534143",
+      "39708840",
+      "38269610",
+      "42691002",
+      "41016015",
+      "41716617",
+      "38319781",
+      "42334640",
+      "42084688",
+      "42336024",
+      "40144888",
+      "42129621",
+      "40971691",
+      "41945943",
+      "40127181",
+      "41855415",
+      "40646507",
+      "37529914",
+      "42453691",
+      "42074175",
+      "41292907",
+      "42455078",
+      "42371969",
+      "42377576",
+      "39395234",
+      "38294927",
+      "41520229",
+      "37904198",
+      "41168713",
+      "42154341",
+      "39396972",
+      "40279215",
+      "37861172",
+      "42488347",
+      "40143108",
+      "40569190",
+      "42055306",
+      "42153320",
+      "33001599",
+      "39738309",
+      "42123473",
+      "41276805",
+      "41603649",
+      "39847542",
+      "41883139",
+      "40377926",
+      "39487083",
+      "39579417",
+      "40846817",
+      "36996195",
+      "41629789",
+      "42133173",
+      "40920524",
+      "40462515",
+      "40672304",
+      "36421723",
+      "36088549",
+      "38365583",
+      "41348601",
+      "42447340"
+    ],
+    "review": [
+      "41402709",
+      "40824055",
+      "33001599"
+    ],
+    "pmc": [
+      "12821270"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12383-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41402709/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

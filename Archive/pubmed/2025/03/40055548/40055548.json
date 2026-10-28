@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "40055548",
+    "doi": "10.1038/s42003-025-07612-z",
+    "title": "Crystal structures of monomeric BsmI restriction endonuclease reveal coordinated sequential cleavage of two DNA strands."
+  },
+  "content": {
+    "abstract": "BsmI, a thermophilic Type IIS restriction endonuclease from Bacillus stearothermophilus, presents a unique structural composition, housing two distinct active sites within a single monomer. Recognition of the non-symmetrical 5'-GAATGC-3' sequence enables precise cleavage of the top and bottom DNA strands. Synthetic biology interventions have led to the transformation of BsmI into Nb.BsmI, a nicking endonuclease. Here we introduce Nt*.BsmI, tailored for top-strand cleavage, which is inactive on standard double-stranded DNA, but active on bottom-strand nicked DNA, suggesting a sequential cleavage mechanism. Crystallographic structures of pre- and post-reactive complexes with cognate DNA show one major conformational change, a retractable loop possibly governing sequential active site accessibility. The x-ray structures reveal the position of the divalent metal ions in the active sites and the DNA:protein interactions, while the models predicted by Alphafold3 are incorrect. This comprehensive structural and functional study lays a foundation for rational enzyme redesign and potential applications in biotechnology.",
+    "keywords": [],
+    "mesh_terms": [
+      "Crystallography, X-Ray",
+      "*Deoxyribonucleases, Type II Site-Specific/chemistry/metabolism/genetics",
+      "*DNA/metabolism/chemistry",
+      "*Geobacillus stearothermophilus/enzymology/genetics",
+      "Models, Molecular",
+      "Protein Conformation",
+      "*DNA Cleavage",
+      "*Bacterial Proteins/chemistry/metabolism/genetics",
+      "Catalytic Domain"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sieskind, Remi",
+        "Missoury, Sophia",
+        "Madru, Clement",
+        "Commenge, Isciane",
+        "Niogret, Germain",
+        "Hollenstein, Marcel",
+        "Rondelez, Yannick",
+        "Sauguet, Ludovic",
+        "Haouz, Ahmed",
+        "Legrand, Pierre",
+        "Delarue, Marc"
+      ],
+      "short_names": [
+        "Sieskind R",
+        "Missoury S",
+        "Madru C",
+        "Commenge I",
+        "Niogret G",
+        "Hollenstein M",
+        "Rondelez Y",
+        "Sauguet L",
+        "Haouz A",
+        "Legrand P",
+        "Delarue M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6511-6069",
+        "ORCID: 0000-0003-0263-9206",
+        "ORCID: 0000-0002-2565-476X",
+        "ORCID: 0000-0003-1196-1635",
+        "ORCID: 0000-0003-2431-2255",
+        "ORCID: 0000-0003-0723-8102"
+      ],
+      "affiliations": [
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3523, Unit of Bioorganic Chemistry of Nucleic Acids, 75724, Paris, France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3523, Unit of Bioorganic Chemistry of Nucleic Acids, 75724, Paris, France.",
+        "Laboratoire Gulliver, UMR7083 CNRS/ESPCI Paris-PSL Research University, 10 rue Vauquelin, 75005, Paris, France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Plateforme de cristallographie-C2RT, 75724, Paris, France.",
+        "Synchrotron SOLEIL, 91192, Gif-sur-Yvette, France.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France. delarue@pasteur.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sieskind, Rémi",
+        "short_name": "Sieskind R",
+        "identifiers": [
+          "0000-0002-6511-6069"
+        ],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Missoury, Sophia",
+        "short_name": "Missoury S",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Madru, Clément",
+        "short_name": "Madru C",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Commenge, Isciane",
+        "short_name": "Commenge I",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Niogret, Germain",
+        "short_name": "Niogret G",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3523, Unit of Bioorganic Chemistry of Nucleic Acids, 75724, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Hollenstein, Marcel",
+        "short_name": "Hollenstein M",
+        "identifiers": [
+          "0000-0003-0263-9206"
+        ],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3523, Unit of Bioorganic Chemistry of Nucleic Acids, 75724, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Rondelez, Yannick",
+        "short_name": "Rondelez Y",
+        "identifiers": [
+          "0000-0002-2565-476X"
+        ],
+        "affiliations": [
+          "Laboratoire Gulliver, UMR7083 CNRS/ESPCI Paris-PSL Research University, 10 rue Vauquelin, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sauguet, Ludovic",
+        "short_name": "Sauguet L",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Haouz, Ahmed",
+        "short_name": "Haouz A",
+        "identifiers": [
+          "0000-0003-1196-1635"
+        ],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Plateforme de cristallographie-C2RT, 75724, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Legrand, Pierre",
+        "short_name": "Legrand P",
+        "identifiers": [
+          "0000-0003-2431-2255"
+        ],
+        "affiliations": [
+          "Synchrotron SOLEIL, 91192, Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Delarue, Marc",
+        "short_name": "Delarue M",
+        "identifiers": [
+          "0000-0003-0723-8102"
+        ],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Unit of Architecture and Dynamics of Biological Macromolecules, 75724, Paris, France. delarue@pasteur.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2025 Mar 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/09 15:10",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "42592681",
+      "40799364"
+    ],
+    "refs": [
+      "38718835",
+      "35610055",
+      "34268578",
+      "33990604",
+      "33950005",
+      "31879785",
+      "31817305",
+      "28710774",
+      "28379696",
+      "28039325",
+      "27169778",
+      "27166375",
+      "25378308",
+      "24878924",
+      "23856622",
+      "21923197",
+      "21460447",
+      "20946775",
+      "20805246",
+      "20383002",
+      "20383001",
+      "20383000",
+      "20124692",
+      "19955230",
+      "19461840",
+      "17445830",
+      "16223716",
+      "16195548",
+      "15980475",
+      "15770420",
+      "15572774",
+      "14529527",
+      "12654995",
+      "11729187",
+      "11557805",
+      "10692345",
+      "9783752",
+      "8621526",
+      "8081758",
+      "4897066",
+      "786985"
+    ],
+    "similar": [
+      "40055548",
+      "11410656",
+      "18424798",
+      "16223716",
+      "17586812",
+      "26240380",
+      "18835275",
+      "19955230",
+      "28934493",
+      "21227928",
+      "11154070",
+      "16236314",
+      "20047964",
+      "11842098",
+      "18644379",
+      "22141927",
+      "15170321",
+      "20734974",
+      "24733184",
+      "28039325",
+      "30445642",
+      "17344322",
+      "9878366",
+      "21724614",
+      "20587501",
+      "19223323",
+      "18762194",
+      "15590682",
+      "16195548",
+      "26261897",
+      "10655616",
+      "22610857",
+      "18433771",
+      "11250198",
+      "12054862",
+      "11243793",
+      "32858776",
+      "15826660",
+      "31879785",
+      "24452415",
+      "11687651",
+      "28453854",
+      "17445830",
+      "22495930",
+      "15247348",
+      "10074946",
+      "9367757",
+      "19304757",
+      "30146945",
+      "28180307",
+      "20805246",
+      "14659759",
+      "14741205",
+      "21771860",
+      "7819264",
+      "15019778",
+      "36987874",
+      "8424953",
+      "16024301",
+      "18642930",
+      "17524420",
+      "15099740",
+      "9200709",
+      "33965438",
+      "15805123",
+      "10385008",
+      "9214510",
+      "16529772",
+      "37652002",
+      "17855396",
+      "7664066",
+      "16675462",
+      "17437717",
+      "11742344",
+      "17897964",
+      "9171079",
+      "39009341",
+      "15491133",
+      "21993298",
+      "12750473",
+      "26627651",
+      "40239994",
+      "9642051",
+      "9099856",
+      "12888347",
+      "21653548",
+      "12798682",
+      "10871355",
+      "27216152",
+      "8076590",
+      "18931376",
+      "17626614",
+      "17055493",
+      "15770420",
+      "9736624",
+      "7959064",
+      "12589753",
+      "2308865",
+      "9042953",
+      "32880391"
+    ],
+    "review": [
+      "40055548",
+      "20805246"
+    ],
+    "pmc": [
+      "11889245"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-025-07612-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40055548/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "41022589",
+    "doi": "10.1093/genetics/iyaf209",
+    "title": "Inferring fungal cis-regulatory networks from genome sequences via unsupervised and interpretable representation learning."
+  },
+  "content": {
+    "abstract": "Gene expression patterns are determined to a large extent by transcription factor (TF) binding to noncoding regulatory regions in the genome. However, gene expression cannot yet be systematically predicted from genome sequences, in part because nonfunctional matches to the sequence patterns (motifs) recognized by TFs occur frequently throughout the genome. Large-scale functional genomics data for many TFs has enabled characterization of regulatory networks in experimentally accessible cells such as budding yeast. Beyond yeast, fungi are important industrial organisms and pathogens, but large-scale functional data is only sporadically available. Uncharacterized regulatory networks control key pathways and gene expression programs associated with fungal phenotypes. Here, we explore a sequence-only approach to inferring regulatory networks by leveraging the 100s of genomes now available for many clades of fungi. We use gene orthology as the learning signal to infer interpretable, TF motif-based representations of noncoding regulatory regions. Using these representations to identify conserved signals for motifs, comparative genomics can be scaled to evolutionary comparisons where sequence similarity cannot be detected. We show that similarity of these conserved motif signals predicts gene expression and regulation better than using experimental data, and that we can infer known and novel regulatory connections in diverse fungi. Our new predictions include a pathway for recombination in Candida albicans and pathways for mating and an RNAi immune response in Neurospora. Taken together, our results indicate that specific hypotheses about transcriptional regulation in fungi can be obtained for many genes from genome sequence analysis alone.",
+    "keywords": [
+      "PWM",
+      "contrastive learning",
+      "machine learning",
+      "orthologs",
+      "transcription factor motif",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Genome, Fungal",
+      "*Gene Regulatory Networks",
+      "Transcription Factors/metabolism/genetics",
+      "Gene Expression Regulation, Fungal",
+      "*Regulatory Sequences, Nucleic Acid",
+      "*Unsupervised Machine Learning",
+      "Genomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moses, Alan M",
+        "Stajich, Jason E",
+        "Gasch, Audrey P",
+        "Knowles, David A"
+      ],
+      "short_names": [
+        "Moses AM",
+        "Stajich JE",
+        "Gasch AP",
+        "Knowles DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3118-3121",
+        "ORCID: 0000-0002-7591-0020",
+        "ORCID: 0000-0002-8182-257X"
+      ],
+      "affiliations": [
+        "Cell & Systems Biology and Computer Science, University of Toronto, Toronto, ON M5S 3G5, Canada.",
+        "Microbiology & Plant Pathology and Institute for Integrative Genome Biology, University of California Riverside, Riverside, CA 92521, United States.",
+        "Medical Genetics and Center for Genomic Science Innovation, University of Wisconsin-Madison, Madison, WI 53704, United States.",
+        "New York Genome Center, New York, NY 10013, United States.",
+        "Systems Biology and Computer Science, Columbia University, New York, NY 10027, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moses, Alan M",
+        "short_name": "Moses AM",
+        "identifiers": [
+          "0000-0003-3118-3121"
+        ],
+        "affiliations": [
+          "Cell & Systems Biology and Computer Science, University of Toronto, Toronto, ON M5S 3G5, Canada."
+        ]
+      },
+      {
+        "full_name": "Stajich, Jason E",
+        "short_name": "Stajich JE",
+        "identifiers": [
+          "0000-0002-7591-0020"
+        ],
+        "affiliations": [
+          "Microbiology & Plant Pathology and Institute for Integrative Genome Biology, University of California Riverside, Riverside, CA 92521, United States."
+        ]
+      },
+      {
+        "full_name": "Gasch, Audrey P",
+        "short_name": "Gasch AP",
+        "identifiers": [
+          "0000-0002-8182-257X"
+        ],
+        "affiliations": [
+          "Medical Genetics and Center for Genomic Science Innovation, University of Wisconsin-Madison, Madison, WI 53704, United States."
+        ]
+      },
+      {
+        "full_name": "Knowles, David A",
+        "short_name": "Knowles DA",
+        "identifiers": [],
+        "affiliations": [
+          "New York Genome Center, New York, NY 10013, United States.",
+          "Systems Biology and Computer Science, Columbia University, New York, NY 10027, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetics"
+    ],
+    "journal_abbrev": [
+      "Genetics"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/30 05:16",
+    "fetched_at": "2026-10-01 03:11:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40240607",
+      "39588765",
+      "39530598",
+      "39452618",
+      "39243017",
+      "39109951",
+      "38662846",
+      "38566111",
+      "38093018",
+      "37490857",
+      "37387140",
+      "37370113",
+      "37244909",
+      "37144459",
+      "37104599",
+      "36973806",
+      "36723430",
+      "36693380",
+      "36692138",
+      "36350610",
+      "36179219",
+      "35767567",
+      "35638725",
+      "35524131",
+      "35188184",
+      "35109787",
+      "34850907",
+      "34279216",
+      "34240738",
+      "34200775",
+      "33692541",
+      "33425784",
+      "33159072",
+      "33134611",
+      "33013818",
+      "32181581",
+      "32111691",
+      "32016368",
+      "31856220",
+      "31792407",
+      "31727128",
+      "31133749",
+      "29403467",
+      "29240790",
+      "28249986",
+      "27738138",
+      "26210747",
+      "25762222",
+      "24832137",
+      "24766815",
+      "24558259",
+      "23895232",
+      "23832786",
+      "23817568",
+      "23329690",
+      "22738169",
+      "22696679",
+      "22384314",
+      "22334039",
+      "22305161",
+      "22240319",
+      "22102575",
+      "22084422",
+      "21572103",
+      "21264254",
+      "20668662",
+      "20231876",
+      "20083321",
+      "20047961",
+      "19816560",
+      "19458158",
+      "19293946",
+      "19151095",
+      "18584029",
+      "18535663",
+      "18342603",
+      "18073381",
+      "17989251",
+      "17540568",
+      "17530920",
+      "17347150",
+      "16912276",
+      "16682457",
+      "16461906",
+      "15789351",
+      "15735639",
+      "15660152",
+      "15575972",
+      "15534694",
+      "15180930",
+      "15131651",
+      "15024427",
+      "12807800",
+      "12748633",
+      "12464632",
+      "12455968",
+      "11909958",
+      "11779466",
+      "11238402",
+      "10812473",
+      "10676967",
+      "9843981",
+      "9843569",
+      "9271382",
+      "8372350",
+      "8088517"
+    ],
+    "similar": [
+      "41022589",
+      "22456606",
+      "21572103",
+      "23699226",
+      "19158363",
+      "25442502",
+      "31477007",
+      "32054475",
+      "29879919",
+      "15534694",
+      "42026468",
+      "27625390",
+      "15285895",
+      "24175918",
+      "34608238",
+      "19961622",
+      "41314178",
+      "21690103",
+      "12748633",
+      "18950538",
+      "28485712",
+      "19450688",
+      "12844359",
+      "32043966",
+      "19426448",
+      "18769540",
+      "22084256",
+      "19956545",
+      "27507169",
+      "31985403",
+      "33001599",
+      "20231876",
+      "25788622",
+      "18426580",
+      "16362910",
+      "19657679",
+      "22540038",
+      "40607808",
+      "23398941",
+      "23555806",
+      "20079828",
+      "22534400",
+      "19943917",
+      "31053165",
+      "25361952",
+      "24564939",
+      "28923004",
+      "21068212",
+      "24603674",
+      "41920894",
+      "15684410",
+      "34486522",
+      "15113405",
+      "19879128",
+      "41801512",
+      "22113266",
+      "38940155",
+      "14627835",
+      "40369872",
+      "22849367",
+      "17449655",
+      "39589130",
+      "23184988",
+      "21994249",
+      "41288963",
+      "24989046",
+      "19543377",
+      "28196534",
+      "39705007",
+      "35524130",
+      "27503086",
+      "16817975",
+      "22189060",
+      "24774859",
+      "26772747",
+      "23282148",
+      "27586594",
+      "29855387",
+      "20102611",
+      "12775844",
+      "15262804",
+      "20946653",
+      "38354497",
+      "23504016",
+      "20942926",
+      "23089682",
+      "35396274",
+      "27261064",
+      "39979816",
+      "37788349",
+      "41420926",
+      "16077013",
+      "34523946",
+      "22313678",
+      "23272209",
+      "23368633",
+      "25765714",
+      "26291518",
+      "33104784",
+      "32207875"
+    ],
+    "review": [
+      "41022589",
+      "33001599",
+      "19879128",
+      "24774859"
+    ],
+    "pmc": [
+      "12774827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41022589.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41022589/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/71p7w8n8",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://academic.oup.com/genetics/article-lookup/doi/10.1093/genetics/iyaf209",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

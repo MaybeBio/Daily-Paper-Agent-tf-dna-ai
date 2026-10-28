@@ -1,0 +1,480 @@
+{
+  "identity": {
+    "pmid": "40717330",
+    "doi": "10.1080/19491034.2025.2536902",
+    "title": "TET dioxygenases localize at splicing speckles and promote RNA splicing."
+  },
+  "content": {
+    "abstract": "The dynamic regulation of RNA metabolism plays a crucial part in cellular function, with emerging evidence suggesting an important role for RNA modifications in this process. This study explores the relationship between RNA splicing and the TET dioxygenase activity, shedding light on the role of hm5C (RNA 5-hydroxymethylcytosine), and TET proteins in RNA metabolism. Integrating data from mass spectrometry, AlphaFold structural modeling, microscopic analysis, and different functional assays, including in vitro splicing, TET proteins were found to regulate splicing. We show that TET1, TET2, and TET3 interact with the splicing factors U2AF1 and U2AF2. Interestingly, TET dioxygenases localize in splicing speckles in mammalian and Drosophila cells. TET speckles association was found to be RNA-dependent, but also rely on its interaction with splicing factors. Furthermore, cellular splicing assays revealed that all three TET proteins promote splicing efficiency independent of their catalytic activity. Interestingly, though, the oxidation of m5C to hm5C restores splicing efficiency in vitro. The latter highlights the regulatory role of cytosine modifications in RNA metabolism. These findings provide insights into the complex interplay between RNA modifications and splicing, suggesting a multifaceted role for TET proteins in RNA metabolism beyond their canonical function in the oxidation of 5mC in DNA.",
+    "keywords": [
+      "5-hydroxymethylcytosine",
+      "RNA modifications",
+      "TET dioxygenases",
+      "U2AF",
+      "epitranscriptomics",
+      "splicing",
+      "splicing speckles"
+    ],
+    "mesh_terms": [
+      "*RNA Splicing",
+      "Animals",
+      "Humans",
+      "*Dioxygenases/metabolism/genetics",
+      "*DNA-Binding Proteins/metabolism",
+      "*Proto-Oncogene Proteins/metabolism/genetics",
+      "Splicing Factor U2AF/metabolism",
+      "HeLa Cells",
+      "Mixed Function Oxygenases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hastert, Florian D",
+        "Weber, Jasmin",
+        "Bauer, Christina",
+        "Zhadan, Andreas",
+        "Singh, Deepanshu N D",
+        "Dix, Thomas C",
+        "Arnold, Roland",
+        "Bessonov, Sergey",
+        "Soller, Matthias",
+        "Leonhardt, Heinrich",
+        "Cardoso, M Cristina",
+        "Arroyo, Maria"
+      ],
+      "short_names": [
+        "Hastert FD",
+        "Weber J",
+        "Bauer C",
+        "Zhadan A",
+        "Singh DND",
+        "Dix TC",
+        "Arnold R",
+        "Bessonov S",
+        "Soller M",
+        "Leonhardt H",
+        "Cardoso MC",
+        "Arroyo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9961-5766",
+        "ORCID: 0000-0002-5837-8060"
+      ],
+      "affiliations": [
+        "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany.",
+        "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany.",
+        "Faculty of Biology and Center for Molecular Biosystems (BioSysM), Human Biology and BioImaging, LMU Munich, Munich, Germany.",
+        "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany.",
+        "School of Biosciences, College of Life and Environmental Sciences, University of Birmingham, Edgbaston, Birmingham, UK.",
+        "School of Biosciences, College of Life and Environmental Sciences, University of Birmingham, Edgbaston, Birmingham, UK.",
+        "School of Biosciences, College of Life and Environmental Sciences, University of Birmingham, Edgbaston, Birmingham, UK.",
+        "Department of Cancer and Genomics Sciences, School of Medical Sciences, College of Medicine and Health, University of Birmingham, Edgbaston, Birmingham, UK.",
+        "Department of Cellular Biochemistry, Max Planck Institute for Multidisciplinary Sciences, Gottingen, Germany.",
+        "School of Biosciences, College of Life and Environmental Sciences, University of Birmingham, Edgbaston, Birmingham, UK.",
+        "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK.",
+        "Faculty of Biology and Center for Molecular Biosystems (BioSysM), Human Biology and BioImaging, LMU Munich, Munich, Germany.",
+        "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany.",
+        "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hastert, Florian D",
+        "short_name": "Hastert FD",
+        "identifiers": [
+          "0000-0001-9961-5766"
+        ],
+        "affiliations": [
+          "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Weber, Jasmin",
+        "short_name": "Weber J",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Bauer, Christina",
+        "short_name": "Bauer C",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biology and Center for Molecular Biosystems (BioSysM), Human Biology and BioImaging, LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhadan, Andreas",
+        "short_name": "Zhadan A",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Singh, Deepanshu N D",
+        "short_name": "Singh DND",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences, College of Life and Environmental Sciences, University of Birmingham, Edgbaston, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Dix, Thomas C",
+        "short_name": "Dix TC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences, College of Life and Environmental Sciences, University of Birmingham, Edgbaston, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Arnold, Roland",
+        "short_name": "Arnold R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences, College of Life and Environmental Sciences, University of Birmingham, Edgbaston, Birmingham, UK.",
+          "Department of Cancer and Genomics Sciences, School of Medical Sciences, College of Medicine and Health, University of Birmingham, Edgbaston, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Bessonov, Sergey",
+        "short_name": "Bessonov S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular Biochemistry, Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Soller, Matthias",
+        "short_name": "Soller M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences, College of Life and Environmental Sciences, University of Birmingham, Edgbaston, Birmingham, UK.",
+          "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK."
+        ]
+      },
+      {
+        "full_name": "Leonhardt, Heinrich",
+        "short_name": "Leonhardt H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biology and Center for Molecular Biosystems (BioSysM), Human Biology and BioImaging, LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Cardoso, M Cristina",
+        "short_name": "Cardoso MC",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Arroyo, Maria",
+        "short_name": "Arroyo M",
+        "identifiers": [
+          "0000-0002-5837-8060"
+        ],
+        "affiliations": [
+          "Cell Biology and Epigenetics, Department of Biology, Technical University of Darmstadt, Darmstadt, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleus (Austin, Tex.)"
+    ],
+    "journal_abbrev": [
+      "Nucleus"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 18:51",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [
+      "42182029",
+      "41803895",
+      "41416523",
+      "41360929"
+    ],
+    "refs": [
+      "38782147",
+      "38718835",
+      "38580843",
+      "38225382",
+      "38126351",
+      "38065062",
+      "38015436",
+      "37962958",
+      "37933859",
+      "37497462",
+      "37236814",
+      "36627445",
+      "36430347",
+      "36408920",
+      "36056023",
+      "35972700",
+      "35904814",
+      "35388651",
+      "35260552",
+      "35191837",
+      "35150568",
+      "34631286",
+      "34313753",
+      "34133727",
+      "33930289",
+      "32881101",
+      "32434734",
+      "32161792",
+      "31213988",
+      "30541104",
+      "29875359",
+      "29420816",
+      "29374200",
+      "29324752",
+      "28977640",
+      "28531272",
+      "28247949",
+      "28118223",
+      "28077169",
+      "27923996",
+      "27129196",
+      "27079978",
+      "27069802",
+      "26816380",
+      "26772194",
+      "26578598",
+      "26562407",
+      "26152727",
+      "25854878",
+      "25676849",
+      "25568311",
+      "25431937",
+      "25200796",
+      "25073028",
+      "24948610",
+      "24735881",
+      "24640988",
+      "24408187",
+      "24315485",
+      "23653210",
+      "23641003",
+      "23301670",
+      "22913769",
+      "22817738",
+      "22196727",
+      "22002720",
+      "21831886",
+      "21778364",
+      "21507351",
+      "21441581",
+      "20164152",
+      "20007150",
+      "19239891",
+      "19029910",
+      "18797453",
+      "18435923",
+      "18419806",
+      "17951627",
+      "17936700",
+      "17531985",
+      "16855289",
+      "16824199",
+      "16809785",
+      "16424344",
+      "16179257",
+      "15476259",
+      "15229293",
+      "11932736",
+      "11782440",
+      "11701123",
+      "11158320",
+      "11146650",
+      "11005794",
+      "10984439",
+      "10555141",
+      "10454610",
+      "9348276",
+      "8320255",
+      "8261509",
+      "7585252",
+      "6230127",
+      "4692863",
+      "2832738",
+      "1833187",
+      "1538748",
+      "1532583",
+      "268622",
+      "118702"
+    ],
+    "similar": [
+      "40717330",
+      "35705880",
+      "27141042",
+      "25568311",
+      "24390346",
+      "26671928",
+      "41287077",
+      "37349892",
+      "25510268",
+      "24958354",
+      "29108636",
+      "26186463",
+      "27548812",
+      "25073028",
+      "33388378",
+      "32024762",
+      "28449087",
+      "36942631",
+      "31055566",
+      "36593050",
+      "30836118",
+      "35709470",
+      "33468438",
+      "35075236",
+      "31033072",
+      "38360546",
+      "23548903",
+      "34203454",
+      "39261005",
+      "27733058",
+      "26711177",
+      "30574144",
+      "23690950",
+      "36522157",
+      "39317913",
+      "26917261",
+      "31028100",
+      "23353889",
+      "28167661",
+      "23719188",
+      "28218476",
+      "39377353",
+      "27760115",
+      "23820384",
+      "35798741",
+      "20639862",
+      "24615693",
+      "28647531",
+      "24394411",
+      "21817016",
+      "27852070",
+      "28349832",
+      "30074219",
+      "32193150",
+      "29186571",
+      "33523915",
+      "24412366",
+      "27113584",
+      "39315710",
+      "25132561",
+      "40140485",
+      "24395347",
+      "25608811",
+      "31266538",
+      "24315853",
+      "30606231",
+      "38294854",
+      "25098926",
+      "26524525",
+      "27980696",
+      "35955629",
+      "32209730",
+      "30567727",
+      "26552488",
+      "21778364",
+      "25557551",
+      "27036965",
+      "29875879",
+      "23563267",
+      "34009619",
+      "26207381",
+      "35953487",
+      "25557833",
+      "40014756",
+      "23028748",
+      "21892189",
+      "28043375",
+      "26703470",
+      "25089631",
+      "26199412",
+      "40909275",
+      "31286885",
+      "22391558",
+      "24619230",
+      "38179947",
+      "23732523",
+      "26302812",
+      "35990681",
+      "36052661",
+      "33509440"
+    ],
+    "review": [
+      "40717330",
+      "35705880",
+      "26671928",
+      "25510268",
+      "31055566",
+      "33468438",
+      "31033072",
+      "38360546",
+      "23719188",
+      "39377353",
+      "25132561",
+      "24395347",
+      "25608811",
+      "26552488",
+      "27036965",
+      "40014756",
+      "26302812"
+    ],
+    "pmc": [
+      "12309557"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/19491034.2025.2536902?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40717330",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40717330/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/19491034.2025.2536902",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

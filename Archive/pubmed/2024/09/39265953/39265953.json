@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "39265953",
+    "doi": "10.1016/j.modpat.2024.100610",
+    "title": "MYC Rearrangement Prediction From LYSA Whole Slide Images in Large B-Cell Lymphoma: A Multicentric Validation of Self-supervised Deep Learning Models."
+  },
+  "content": {
+    "abstract": "Large B-cell lymphoma (LBCL) is a heterogeneous lymphoid malignancy in which MYC gene rearrangement (MYC-R) is associated with a poor prognosis, prompting the recommendation for more intensive treatment. MYC-R detection relies on fluorescence in situ hybridization method which is time consuming, expensive, and not available in all laboratories. Automating MYC-R detection on hematoxylin-and-eosin-stained whole slide images of LBCL would decrease the need for costly molecular testing and improve pathologists' productivity. We developed an interpretable deep learning algorithm to detect MYC-R considering recent advances in self-supervised learning and providing an extensive comparison of 7 feature extractors and 6 multiple instance learning models, themselves. Four different multicentric cohorts, including 1247 patients with LBCL, were used for training and validation. The best deep learning model reached an average area under the receiver operating characteristic curve score of 81.9% during crossvalidation on the largest LBCL cohort, and area under the receiver operating characteristic curve scores ranging from 62.2% to 74.5% when evaluated on other unseen cohorts. In addition, we demonstrated that using this model as a prescreening tool (with a false-negative rate of 0%), fluorescence in situ hybridization testing would be avoided in 35% of cases. This work demonstrates the feasibility of developing a medical device to efficiently detect MYC gene rearrangement on hematoxylin-and-eosin-stained whole slide images in daily practice.",
+    "keywords": [
+      "MYC rearrangement",
+      "artificial intelligence",
+      "deep learning",
+      "lymphoma diagnosis",
+      "whole slide images"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Gene Rearrangement",
+      "*Proto-Oncogene Proteins c-myc/genetics",
+      "*Lymphoma, Large B-Cell, Diffuse/genetics/pathology",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Aged",
+      "In Situ Hybridization, Fluorescence/methods",
+      "Image Interpretation, Computer-Assisted/methods",
+      "Reproducibility of Results"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Syrykh, Charlotte",
+        "Di Proietto, Valentina",
+        "Brion, Eliott",
+        "Copie-Bergman, Christiane",
+        "Jardin, Fabrice",
+        "Dartigues, Peggy",
+        "Gaulard, Philippe",
+        "Molina, Thierry Jo",
+        "Briere, Josette",
+        "Oberic, Lucie",
+        "Haioun, Corine",
+        "Tilly, Herve",
+        "Maussion, Charles",
+        "Morel, Mehdi",
+        "Schiratti, Jean-Baptiste",
+        "Laurent, Camille"
+      ],
+      "short_names": [
+        "Syrykh C",
+        "Di Proietto V",
+        "Brion E",
+        "Copie-Bergman C",
+        "Jardin F",
+        "Dartigues P",
+        "Gaulard P",
+        "Molina TJ",
+        "Briere J",
+        "Oberic L",
+        "Haioun C",
+        "Tilly H",
+        "Maussion C",
+        "Morel M",
+        "Schiratti JB",
+        "Laurent C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, IUCT Oncopole, Toulouse, France. Electronic address: syrykh.charlotte@iuct-oncopole.fr.",
+        "Owkin, New York, New York.",
+        "Owkin, New York, New York.",
+        "the Lymphoma Study Association (LYSA) and the Lymphoma Academic Research Organisation (LYSARC), Pierre-Benite, France.",
+        "Department of Hematology and U1245, Henri Becquerel Center, IRIB, Normandy University, Rouen, France.",
+        "Department of Pathology, Gustave Roussy, Universite Paris-Saclay, Villejuif, France.",
+        "Department of Pathology, University Hospital Henri Mondor, Assistance Publique-Hopitaux de Paris (AP-HP), Creteil, France; Mondor Institute for Biomedical Research, INSERM U955, Faculty of Medicine, University of Paris-Est Creteil, Creteil, France.",
+        "Department of Pathology, Necker Enfants Malades Hospital, Universite Paris Descartes, Assistance Publique-Hopitaux de Paris (AP-HP), Paris, France; Institut Imagine, Unite INSERM 1163, Paris, France.",
+        "Department of Hematology, Hopital Saint-Louis, Assistance Publique-Hopitaux de Paris (AP-HP), Universite Paris Diderot, Paris, France.",
+        "Department of Hematology, IUCT Oncopole, Toulouse, France.",
+        "Department of Hematology, University Hospital Henri Mondor, Assistance Publique-Hopitaux de Paris (AP-HP), Creteil, France.",
+        "Department of Hematology and U1245, Henri Becquerel Center, IRIB, Normandy University, Rouen, France.",
+        "Owkin, New York, New York.",
+        "Owkin, New York, New York.",
+        "Owkin, New York, New York.",
+        "Department of Pathology, IUCT Oncopole, Toulouse, France; INSERM, U1037, Research Center In Cancer of Toulouse, laboratoire d'excellence TOUCAN, Toulouse, France. Electronic address: laurent.camille@iuct-oncopole.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Syrykh, Charlotte",
+        "short_name": "Syrykh C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, IUCT Oncopole, Toulouse, France. Electronic address: syrykh.charlotte@iuct-oncopole.fr."
+        ]
+      },
+      {
+        "full_name": "Di Proietto, Valentina",
+        "short_name": "Di Proietto V",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Brion, Eliott",
+        "short_name": "Brion E",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Copie-Bergman, Christiane",
+        "short_name": "Copie-Bergman C",
+        "identifiers": [],
+        "affiliations": [
+          "the Lymphoma Study Association (LYSA) and the Lymphoma Academic Research Organisation (LYSARC), Pierre-Bénite, France."
+        ]
+      },
+      {
+        "full_name": "Jardin, Fabrice",
+        "short_name": "Jardin F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and U1245, Henri Becquerel Center, IRIB, Normandy University, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Dartigues, Peggy",
+        "short_name": "Dartigues P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Gustave Roussy, Université Paris-Saclay, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Gaulard, Philippe",
+        "short_name": "Gaulard P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University Hospital Henri Mondor, Assistance Publique-Hôpitaux de Paris (AP-HP), Créteil, France; Mondor Institute for Biomedical Research, INSERM U955, Faculty of Medicine, University of Paris-Est Créteil, Créteil, France."
+        ]
+      },
+      {
+        "full_name": "Molina, Thierry Jo",
+        "short_name": "Molina TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Necker Enfants Malades Hospital, Université Paris Descartes, Assistance Publique-Hôpitaux de Paris (AP-HP), Paris, France; Institut Imagine, Unité INSERM 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Briere, Josette",
+        "short_name": "Briere J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Hôpital Saint-Louis, Assistance Publique-Hôpitaux de Paris (AP-HP), Université Paris Diderot, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Oberic, Lucie",
+        "short_name": "Oberic L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, IUCT Oncopole, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Haioun, Corine",
+        "short_name": "Haioun C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, University Hospital Henri Mondor, Assistance Publique-Hôpitaux de Paris (AP-HP), Créteil, France."
+        ]
+      },
+      {
+        "full_name": "Tilly, Hervé",
+        "short_name": "Tilly H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and U1245, Henri Becquerel Center, IRIB, Normandy University, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Maussion, Charles",
+        "short_name": "Maussion C",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Morel, Mehdi",
+        "short_name": "Morel M",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Schiratti, Jean-Baptiste",
+        "short_name": "Schiratti JB",
+        "identifiers": [],
+        "affiliations": [
+          "Owkin, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Laurent, Camille",
+        "short_name": "Laurent C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, IUCT Oncopole, Toulouse, France; INSERM, U1037, Research Center In Cancer of Toulouse, laboratoire d'excellence TOUCAN, Toulouse, France. Electronic address: laurent.camille@iuct-oncopole.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc"
+    ],
+    "journal_abbrev": [
+      "Mod Pathol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/13 00:46",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "42676952"
+    ],
+    "refs": [],
+    "similar": [
+      "39265953",
+      "36849712",
+      "32979109",
+      "38243330",
+      "41814400",
+      "31171907",
+      "29325248",
+      "30522172",
+      "27125356",
+      "31498031",
+      "22314191",
+      "31872861",
+      "33771538",
+      "25828389",
+      "26541272",
+      "36881639",
+      "19144384",
+      "31315646",
+      "31028058",
+      "39436442",
+      "34392269",
+      "26988827",
+      "33811533",
+      "26820684",
+      "36496303",
+      "36057739",
+      "33768318",
+      "30113335",
+      "37368083",
+      "41841638",
+      "37348414",
+      "27391453",
+      "28614202",
+      "26448193",
+      "19704118",
+      "25090026",
+      "35152630",
+      "26307073",
+      "42093218",
+      "30501868",
+      "42286527",
+      "35511691",
+      "39912808",
+      "24887414",
+      "23922484",
+      "38871058",
+      "27469075",
+      "27739436",
+      "24614699",
+      "30306208",
+      "31615842",
+      "32472096",
+      "40824716",
+      "33858042",
+      "36997031",
+      "27687005",
+      "20348878",
+      "29903764",
+      "34171161",
+      "38648564",
+      "23714666",
+      "41923035",
+      "20118770",
+      "34456240",
+      "38207206",
+      "28398499",
+      "38409878",
+      "39805522",
+      "37897298",
+      "31734190",
+      "40471393",
+      "26426741",
+      "32889391",
+      "22002575",
+      "38825901",
+      "34727403",
+      "38588884",
+      "28776574",
+      "25297597",
+      "23517924",
+      "31585205",
+      "23042398",
+      "39034991",
+      "41883013",
+      "40183298",
+      "24336156",
+      "26960633",
+      "30448222",
+      "28209136",
+      "26373676",
+      "40222649",
+      "31109360",
+      "36779226",
+      "34380369",
+      "24314242",
+      "39724105",
+      "29666157",
+      "32273477",
+      "16258503",
+      "16955462"
+    ],
+    "review": [
+      "39265953",
+      "34392269",
+      "26820684"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0893-3952(24)00190-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

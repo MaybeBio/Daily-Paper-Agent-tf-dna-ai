@@ -1,0 +1,124 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusions, and supplementary materials list
+- **Assessment boundary** Scientific claims, methodological soundness, data interpretation, and alignment with stated conclusions based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors report that 20 purportedly "pure" strains of Ophiocordyceps sinensis simultaneously produce paired MAT1-1-1 and MAT1-2-1 protein variants with heteromorphic tertiary structures, as predicted by AlphaFold, and interpret this as evidence for diverse fungal origins within these strains, supporting a self-sterility hypothesis for O. sinensis reproduction.
+- **Visible evidence base** Abstract, full methods section, results narrative, discussion, conclusions, supplementary figure/table legends, author contributions, funding statements
+- **Missing materials affecting confidence** All figures and tables referenced in the text (Figures 1–17, Tables 1–2, Supplementary Figures S1–S3, Supplementary Tables S1–S7) were not provided; no sequence alignments, AlphaFold confidence metrics, or structural coordinates were available for independent verification; no statistical analyses or quantitative comparisons were presented
+
+## Reviewer
+- **Overall assessment** This manuscript presents an in silico reanalysis of publicly available sequence data and AlphaFold-predicted structures to argue that heteromorphic tertiary structures of mating-type proteins in Ophiocordyceps sinensis strains indicate diverse fungal origins and support a self-sterility hypothesis. The central claim rests entirely on AlphaFold predictions and qualitative comparisons of ProtScale plots, yet the manuscript lacks any quantitative validation, experimental corroboration, or rigorous phylogenetic framework. The interpretive leap from predicted structural variation to conclusions about fungal species composition and reproductive strategy is not supported by the evidence presented. The manuscript is largely descriptive and speculative, with the discussion extending far beyond what the data can bear. Major revisions or a fundamental reframing toward a more limited, hypothesis-generating scope would be required before this could be considered for publication in a high-impact venue.
+- **Who would be interested in the results, and why** Researchers studying mating-type systems in fungi, particularly those working on Ophiocordyceps sinensis and its complex life cycle, may find the structural predictions of interest as a starting point for further investigation. The broader community studying fungal reproductive biology and the application of AlphaFold to protein variant analysis might also take note. However, the lack of experimental validation and the speculative nature of the conclusions will limit the impact to a relatively narrow specialist audience.
+- **Major strengths**
+  - The manuscript addresses a genuinely important and unresolved question regarding the reproductive biology of Ophiocordyceps sinensis, a species of significant economic and medicinal value.
+  - The authors have compiled and organized a substantial body of sequence data from multiple strains, which could serve as a useful resource for the community.
+  - The application of AlphaFold to examine structural consequences of natural sequence variation in mating-type proteins is a contemporary and potentially interesting approach.
+  - The authors are transparent about the limitations of AlphaFold predictions and acknowledge the need for experimental validation in the discussion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that heteromorphic tertiary structures of the DNA-binding domains of MAT1-1-1 and MAT1-2-1 proteins, predicted by AlphaFold, indicate diverse fungal origins of the mating proteins within purportedly "pure" O. sinensis strains.
+  - **Evidence pointer** Sections 3.1–3.5, Figures 1–17, Tables 1–2
+  - **Concern** The central conclusion of the manuscript is that structural variation in AlphaFold-predicted protein models provides evidence for the presence of multiple fungal species or genotypes within individual O. sinensis strains. This is an extraordinary claim that requires extraordinary evidence. AlphaFold predictions are computational models, not experimentally determined structures. The manuscript provides no experimental validation of any predicted structure, no assessment of prediction confidence for the specific variants studied beyond a general description of pLDDT scoring, and no quantitative metric to distinguish meaningful structural differences from modeling noise. The claim that structural variation implies different fungal origins is a logical leap that ignores alternative explanations, such as allelic variation within a single species, post-translational modifications, or artifacts of the prediction pipeline. The manuscript does not provide any phylogenetic analysis linking the protein variants to specific fungal taxa, nor does it demonstrate that the observed structural differences are greater than those expected among alleles of a single species.
+  - **Why it matters** The entire thesis of the manuscript rests on this claim. If the structural variation can be explained by intraspecific polymorphism or by limitations of the prediction method, the conclusion of diverse fungal origins collapses. Without experimental validation or at minimum a rigorous statistical framework for comparing predicted structures, the claim is not established.
+  - **Resolution test** The authors must provide either (a) experimental validation of at least a subset of the predicted structures (e.g., circular dichroism, X-ray crystallography, or NMR), (b) a quantitative comparison of predicted structures with appropriate controls, including predictions from known alleles of the same species, or (c) direct molecular evidence linking specific protein variants to specific fungal taxa, such as single-cell sequencing or strain isolation followed by genomic analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript claims that truncations and amino acid substitutions in the DNA-binding domains "significantly alter" hydrophobicity, secondary structure, and tertiary structure, and that these changes "impair the homologous interaction required for homothallic or pseudohomothallic self-fertilization."
+  - **Evidence pointer** Sections 3.3–3.4, Figures 5–16
+  - **Concern** The methods described rely on visual inspection of ProtScale plots and qualitative comparison of AlphaFold models. No quantitative analysis is presented. The manuscript does not report any statistical tests, any measures of structural similarity or difference (e.g., RMSD, TM-score), any assessment of the significance of ProtScale plot differences, or any functional assays demonstrating impaired protein-protein or protein-DNA interactions. The claim that structural changes "impair" function is purely speculative. Furthermore, the manuscript does not address whether the truncated proteins are actually expressed, properly folded, or functional in vivo. The correlation between primary sequence changes and predicted structural changes is described narratively but not demonstrated quantitatively.
+  - **Why it matters** The scientific method requires that claims be supported by appropriate evidence. Qualitative visual inspection of computational predictions is not sufficient to support claims of functional impairment. The manuscript's conclusions about the biochemical infeasibility of self-fertilization are not supported by any direct experimental evidence.
+  - **Resolution test** The authors must provide quantitative structural comparisons (e.g., RMSD calculations between predicted structures), statistical analysis of ProtScale plot differences, and ideally functional assays (e.g., electrophoretic mobility shift assays, yeast two-hybrid assays) to demonstrate that the observed sequence variations actually affect DNA binding or protein-protein interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** The manuscript claims that 20 O. sinensis strains produce specific protein variants with particular truncations and substitutions, and that these variants can be grouped into distinct structural classes.
+  - **Evidence pointer** Sections 3.1–3.5, Tables 1–2, Figures 1–17
+  - **Concern** The manuscript references 17 figures, 2 tables, and 7 supplementary items, none of which were provided for review. The accession numbers for the protein sequences are mentioned but not listed in the text. The AlphaFold codes are referenced but the actual structural models are not described in sufficient detail. The methods for sequence alignment, ProtScale analysis, and structural comparison are described only in general terms. A reader cannot reproduce any of the analyses or verify any of the claims without access to the underlying data and detailed methods. The manuscript also does not provide the specific sequences of the truncated proteins, the exact positions of the truncations, or the complete list of amino acid substitutions for each variant.
+  - **Why it matters** Reproducibility is a fundamental requirement of scientific publication. Without access to the data and detailed methods, the claims cannot be verified or built upon by other researchers. The manuscript as presented is not reproducible.
+  - **Resolution test** The authors must provide all sequence data, structural models, alignment files, and analysis scripts as supplementary materials or in a public repository. All figures and tables must be included in the manuscript. Detailed methods must be provided, including specific parameters for all analyses.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical coherence and interpretation
+  - **Claim pointer** The manuscript claims that the inconsistency between the absence of MAT1-1-1 or MAT1-2-1 genes in some genome assemblies and the simultaneous production of both proteins by all 20 strains indicates "divergent fungal origins" of the mating proteins.
+  - **Evidence pointer** Section 3.5, Section 4.2, Table 2
+  - **Concern** The manuscript presents a complex and somewhat contradictory argument. On one hand, it criticizes the methodology of Li et al. [36] for potentially missing co-occurring fungal taxa. On the other hand, it uses the data from that same study to draw conclusions about the genetic composition of the strains. The logic is circular: the authors argue that the strains are impure because the proteins are structurally diverse, and then argue that the structural diversity is explained by the strains being impure. The manuscript also does not adequately address alternative explanations for the observed patterns, such as the possibility that the MAT genes are present but not assembled in the genome assemblies, or that the protein sequences were derived from different strains than those analyzed genomically.
+  - **Why it matters** The manuscript's conclusions about the fungal origins of the mating proteins and the self-sterility hypothesis depend on the validity of this interpretive framework. If the logic is circular or the alternative explanations are not addressed, the conclusions are not reliable.
+  - **Resolution test** The authors must clearly separate observations from interpretations, address alternative explanations explicitly, and provide a coherent logical framework that does not rely on circular reasoning. Direct evidence linking specific protein variants to specific fungal taxa would be necessary to resolve this concern.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Literature context and novelty
+  - **Claim pointer** The manuscript claims to "further demonstrate" heteromorphic tertiary structures of mating proteins and to provide "protein-level validation" of the self-sterility hypothesis.
+  - **Evidence pointer** Introduction, Discussion, Conclusions
+  - **Concern** The manuscript does not clearly articulate what is genuinely novel about this work relative to the authors' previous publications, particularly Li et al. [65, 67–69]. The introduction and discussion reference prior work extensively but do not clearly delineate what new information this study adds. The claim of "protein-level validation" is overstated given that the study is entirely computational and provides no experimental validation. The manuscript also does not engage with the broader literature on mating-type systems in fungi in a way that would establish the significance of the findings for a general audience.
+  - **Why it matters** For a high-impact journal, the novelty and significance of the findings must be clearly established. If this work is largely a reanalysis of previously published data with computational predictions, its novelty may be limited.
+  - **Resolution test** The authors must clearly state what is new about this study, how it advances beyond their previous work, and why the findings are significant for a broad audience. The claims should be tempered to match the level of evidence provided.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract states that the study "further demonstrated" heteromorphic tertiary structures, but the term "demonstrated" is misleading for a purely computational study. The introduction contains several lengthy sentences that are difficult to follow, and the distinction between the authors' previous findings and the current contribution is not always clear.
+  - **Required correction** Use more precise language such as "predicted" or "inferred" instead of "demonstrated." Revise the introduction to clearly separate prior findings from the current study's contributions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Sections 3.1–3.5, Tables 1–2
+  - **Concern** The terms "homogenous" and "heterogeneous" are used inconsistently. Sometimes they refer to the genetic composition of the strains (presence of one vs. multiple fungal genotypes), and sometimes they appear to refer to the structural diversity of the proteins. This creates confusion about what exactly is being claimed.
+  - **Required correction** Define these terms clearly at first use and use them consistently throughout the manuscript. Consider using more specific terminology such as "genotypically homogeneous" vs. "genotypically heterogeneous" and "structurally homogeneous" vs. "structurally heterogeneous."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure and table accessibility
+  - **Affected element** Figures 1–17, Tables 1–2
+  - **Evidence pointer** Sections 3.1–3.5
+  - **Issue** The manuscript text describes figures and tables in detail, but the figures and tables themselves were not provided. The descriptions in the text are not sufficient to evaluate the claims. Additionally, the text frequently refers to specific panels (e.g., "Panel (A) of Figure 5") without providing the actual figure.
+  - **Required correction** All figures and tables must be included in the manuscript submission. Consider whether the number of figures (17) is appropriate or whether some could be consolidated or moved to supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections
+  - **Issue** The manuscript contains numerous grammatical errors, awkward phrasings, and typographical issues. Examples include "fall under Panels (A) and (B)" in Section 3.5, "the MATα_HMGbox domain of the protein AGM27543" in Section 3.4 (likely should be AGW27543), and inconsistent use of hyphens in "insect-fungal" vs. "insect‒fungal." The English language polishing mentioned in the footnotes appears to be incomplete.
+  - **Required correction** The manuscript requires thorough language editing by a native English speaker or professional editing service.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reference formatting
+  - **Affected element** Reference list
+  - **Evidence pointer** Throughout
+  - **Issue** References are cited in the text with numbers in brackets, but the reference list is not provided in the manuscript. The authors should ensure that all references are properly formatted and that the reference list is complete.
+  - **Required correction** Provide the complete reference list with all citations properly formatted.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Section 3.5, Table 2
+  - **Evidence pointer** Section 3.5
+  - **Issue** The manuscript states that "10 of the 20 strains are 'homogenous' strains shown in brown, 5 are heterogeneous strains shown in red, and the remaining 5 strains have unknown homo/heterogeneous characteristics and are indicated in black." However, the text also states that "15 of the 20 Ophiocordyceps sinensis strains" have ITS sequences deposited, which is inconsistent with the earlier statement that 11 strains were from caterpillar bodies and 9 from ascospore cultures. The relationship between the strain sources, ITS data availability, and the grouping in Table 2 is not clearly explained.
+  - **Required correction** Clarify the relationship between strain source, ITS data availability, and the classification of strains as homogeneous, heterogeneous, or unknown. Ensure that all numbers are consistent throughout the text.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: No experimental validation of any predicted structure; the central claim of diverse fungal origins is not supported by the evidence
+  - R1-M2: No quantitative analysis of structural differences; claims of functional impairment are speculative
+  - R1-M3: Figures, tables, and supplementary materials not provided; methods not described in sufficient detail for reproducibility
+  - R1-M4: Circular reasoning in the interpretation of strain impurity and protein diversity
+- **Assessment against Nature-style criteria**
+  - **Originality** Limited. The manuscript largely extends the authors' previous work on mating-type genes in Ophiocordyceps sinensis. The application of AlphaFold to predict structures of variant proteins is not novel in itself, and the conceptual framework of strain impurity has been previously proposed by the authors.
+  - **Scientific importance** Moderate. The question of O. sinensis reproductive biology is of interest to a specialized community, and the self-sterility hypothesis has practical implications for cultivation efforts. However, the importance is diminished by the lack of experimental validation and the speculative nature of the conclusions.
+  - **Interdisciplinary readership** Limited. The manuscript is written for a specialist audience familiar with fungal mating-type systems and Ophiocordyceps sinensis. The broader significance for structural biology, evolutionary biology, or medicinal chemistry is not clearly articulated.
+  - **Technical soundness** Inadequate. The methods are described at a level of generality that prevents assessment. The reliance on AlphaFold predictions without experimental validation, the absence of quantitative structural comparisons, and the lack of statistical analysis are significant technical shortcomings.
+  - **Readability for nonspecialists** Poor. The manuscript is dense and assumes substantial background knowledge. The logical flow is often difficult to follow, and the distinction between observations, interpretations, and speculations is not always clear.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis but does not provide sufficient evidence to support its central claims. The lack of experimental validation, the absence of quantitative analysis, and the unavailability of figures and data are critical issues. The manuscript would need to be substantially revised to include experimental validation or at minimum a rigorous quantitative framework for comparing predicted structures, and the claims would need to be tempered to match the level of evidence. Even with these revisions, the novelty and significance for a broad audience would need to be more clearly established.
+
+## Risk / unsupported claims
+- The claim that heteromorphic tertiary structures of mating proteins indicate diverse fungal origins within purportedly "pure" O. sinensis strains is unsupported without experimental validation or direct evidence linking specific protein variants to specific fungal taxa.
+- The claim that structural changes in the DNA-binding domains "impair the homologous interaction required for homothallic or pseudohomothallic self-fertilization" is speculative and not supported by any functional assays.
+- The claim that the findings provide "protein-level validation" of the self-sterility hypothesis is overstated, as the study is entirely computational.
+- The assertion that the inconsistency between genomic absence and protein presence of MAT genes indicates divergent fungal origins is not adequately supported and alternative explanations are not addressed.
+- The claim that the 20 strains "simultaneously produced" the paired proteins is based on the presence of sequences in databases and does not demonstrate actual co-expression in the same cells or tissues.
+- The manuscript's critique of Li et al. [36] methodology is used to support the authors' interpretation, but the same data are also used as evidence for the authors' claims, creating a potential conflict in the logical framework.

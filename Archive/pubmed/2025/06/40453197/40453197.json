@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "40453197",
+    "doi": "10.2147/IJGM.S515717",
+    "title": "Comprehensive Analysis of the Role of Metabolic Features in Osteoporosis: A Multi-Omics Analysis."
+  },
+  "content": {
+    "abstract": "PURPOSE: This study aims to comprehensively explore the metabolic features related to the pathogenesis of osteoporosis (OP) through multi-omics analysis strategy. PATIENTS AND METHODS: Gene expression profiles of OP patients (GSE56815) were downloaded from GEO, and metabolism-related genes (MRGs) were extracted. Plasma samples from 45 OP patients and 18 healthy controls (CON) were collected for metabolomics. We predicted miRNA and transcription factors (TFs) regulating the expression of MRGs on public databases ENCORI and JASPAR, and analyzed the expression levels of target miRNAs using miRNA sequencing of femoral tissues from 7 samples (OP:CON=4:3). Three machine learning algorithms were used to evaluate the diagnostic potential of metabolic signatures for OP. RESULTS: A total of 402 significantly differentially expressed MRGs (DEMRGs) were identified in the transcriptome, and these DEMRGs were enriched in 11 metabolic pathways (P<0.05). Metabolomics identified 119 differential plasma metabolites, enriched in 5 metabolic pathways (P<0.05). Purine metabolism, Tryptophan metabolism, and Tyrosine metabolism were identified as key metabolic pathways and were significantly enriched in DEMRGs. Femoral miRNA sequencing found 124 differentially expressed miRNAs, with 23 regulating key metabolic pathway gene expression (P<0.05). Additionally, 13 differentially expressed TFs were predicted to regulate the expression levels of these 23 miRNAs. Finally, three MRGs and one plasma metabolite were selected based on the machine learning algorithm, with AUC of 0.782, 0.714, 0.772 and 0.836, respectively. The diagnostic performance of these metabolic features was better than that of traditional bone metabolism biochemical markers. CONCLUSION: This multi-omics study comprehensively explores the metabolic landscape in OP progression, highlighting the central role of metabolic features in the disease. The constructed multi-omics regulatory network aids in understanding the molecular mechanisms of metabolic features in OP progression.",
+    "keywords": [
+      "biomarkers",
+      "machine learning",
+      "metabolic features",
+      "multi-omics analysis",
+      "osteoporosis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chang, Shengjia",
+        "Tao, Weiwei",
+        "Shi, Pengwen",
+        "Wu, Huashan",
+        "Liu, Hongjun",
+        "Xu, Junjie",
+        "Chen, Jianghua",
+        "Zhu, Jianfei"
+      ],
+      "short_names": [
+        "Chang S",
+        "Tao W",
+        "Shi P",
+        "Wu H",
+        "Liu H",
+        "Xu J",
+        "Chen J",
+        "Zhu J"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-1295-7167"
+      ],
+      "affiliations": [
+        "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China.",
+        "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China.",
+        "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China.",
+        "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China.",
+        "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China.",
+        "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China.",
+        "Dazhou Vocational College of Chinese Medicine, Dazhou, Sichuan, 635001, People's Republic of China.",
+        "Dazhou Central Hospital, Dazhou, Sichuan, 635001, People's Republic of China.",
+        "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chang, Shengjia",
+        "short_name": "Chang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tao, Weiwei",
+        "short_name": "Tao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shi, Pengwen",
+        "short_name": "Shi P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Huashan",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongjun",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Junjie",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianghua",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0009-0007-1295-7167"
+        ],
+        "affiliations": [
+          "Dazhou Vocational College of Chinese Medicine, Dazhou, Sichuan, 635001, People's Republic of China.",
+          "Dazhou Central Hospital, Dazhou, Sichuan, 635001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jianfei",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, Huai'an 82 hospital, Huai'an, Jiangsu, 223001, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of general medicine"
+    ],
+    "journal_abbrev": [
+      "Int J Gen Med"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/02 06:28",
+    "fetched_at": "2026-09-30 19:19:27"
+  },
+  "links": {
+    "cites": [
+      "42635907",
+      "41827905",
+      "41246341"
+    ],
+    "refs": [
+      "39852358",
+      "39448132",
+      "39364870",
+      "39362330",
+      "39140032",
+      "39041942",
+      "38883597",
+      "38882049",
+      "38754154",
+      "38727863",
+      "38523674",
+      "38335956",
+      "38311613",
+      "38260098",
+      "38117357",
+      "38003376",
+      "37482549",
+      "37140363",
+      "37138305",
+      "37060383",
+      "36452325",
+      "36112264",
+      "36058940",
+      "35992137",
+      "35876780",
+      "35372129",
+      "34963648",
+      "34876249",
+      "34563872",
+      "33805567",
+      "33434288",
+      "33256181",
+      "33099626",
+      "32612123",
+      "32058959",
+      "31934493",
+      "31561483",
+      "31491937",
+      "30778642",
+      "30108335",
+      "29975282",
+      "29955945",
+      "29871977",
+      "29330445",
+      "29302038",
+      "29099853",
+      "27966104",
+      "26769827",
+      "26346636",
+      "25186311",
+      "25182228",
+      "24519885",
+      "23605904",
+      "23335512",
+      "21760589",
+      "20661255",
+      "20339444",
+      "20075035",
+      "11095169"
+    ],
+    "similar": [
+      "40453197",
+      "36034449",
+      "38260098",
+      "36923791",
+      "35620387",
+      "40241169",
+      "37605572",
+      "36523490",
+      "38565407",
+      "36513616",
+      "39238187",
+      "38867322",
+      "35757392",
+      "38650009",
+      "39351238",
+      "39512836",
+      "39130750",
+      "38960439",
+      "39762477",
+      "36482994",
+      "38637425",
+      "40313558",
+      "36311708",
+      "40131629",
+      "37285682",
+      "37710308",
+      "39263286",
+      "38028548",
+      "40211257",
+      "33722258",
+      "39951448",
+      "39791175",
+      "38715824",
+      "29887963",
+      "38044432",
+      "31007729",
+      "40216809",
+      "36188607",
+      "37821907",
+      "36685841",
+      "37800807",
+      "38759323",
+      "38863714",
+      "37251077",
+      "40159482",
+      "32508878",
+      "39118036",
+      "38284894",
+      "40189548",
+      "39609876",
+      "38783263",
+      "37915330",
+      "37528851",
+      "40360670",
+      "35110962",
+      "35943680",
+      "35783271",
+      "36213260",
+      "34815677",
+      "34580818",
+      "39953608",
+      "39026663",
+      "37335694",
+      "33569435",
+      "35877019",
+      "39604866",
+      "37984232",
+      "33363571",
+      "38564421",
+      "32803317",
+      "38778304",
+      "36937804",
+      "39606015",
+      "39763543",
+      "39107525",
+      "37471661",
+      "39507054",
+      "30602391",
+      "39455660",
+      "39132138",
+      "30503955",
+      "29750314",
+      "37361541",
+      "35757478",
+      "38966541",
+      "38658320",
+      "39482717",
+      "37969207",
+      "39229112",
+      "38481273",
+      "37697333",
+      "37081490",
+      "30258285",
+      "38443923",
+      "40200221",
+      "29255496",
+      "38742851",
+      "39328516",
+      "38656879",
+      "35528068"
+    ],
+    "review": [
+      "40453197"
+    ],
+    "pmc": [
+      "12124299"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40453197/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/IJGM.S515717",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

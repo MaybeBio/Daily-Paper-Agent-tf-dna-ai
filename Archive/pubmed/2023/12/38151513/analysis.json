@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38151513",
+  "title": "StackER: a novel SMILES-based stacked approach for the accelerated and efficient discovery of ERalpha and ERbeta antagonists.",
+  "authors": "Schaduangrat, Nalini; Homdee, Nutta; Shoombuatong, Watshara",
+  "journal": "Scientific reports",
+  "published_date": "2023-12-28",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用SMILES特征和堆叠机器学习预测雌激素受体小分子拮抗剂，属于药物筛选，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "The role of estrogen receptors (ERs) in breast cancer is of great importance in both clinical practice and scientific exploration. However, around 15-30% of those affected do not see benefits from the usual treatments owing to the innate resistance mechanisms, while 30-40% will gain resistance through treatments. In order to address this problem and facilitate community-wide efforts, machine learning (ML)-based approaches are considered one of the most cost-effective and large-scale identification methods. Herein, we propose a new SMILES-based stacked approach, termed StackER, for the accelerated and efficient identification of ERalpha and ERbeta inhibitors. In StackER, we first established an up-to-date dataset consisting of 1,996 and 1,207 compounds for ERalpha and ERbeta, respectively. Using the up-to-date dataset, StackER explored a wide range of different SMILES-based feature descriptors and ML algorithms in order to generate probabilistic features (PFs). Finally, the selected PFs derived from the two-step feature selection strategy were used for the development of an efficient stacked model. Both cross-validation and independent tests showed that StackER surpassed several conventional ML classifiers and the existing method in precisely predicting ERalpha and ERbeta inhibitors. Remarkably, StackER achieved MCC values of 0.829-0.847 and 0.712-0.786 in terms of the cross-validation and independent tests, respectively, which were 5.92-8.29 and 1.59-3.45% higher than the existing method. In addition, StackER was applied to determine useful features for being ERalpha and ERbeta inhibitors and identify FDA-approved drugs as potential ERalpha inhibitors in efforts to facilitate drug repurposing. This innovative stacked method is anticipated to facilitate community-wide efforts in efficiently narrowing down ER inhibitor screening.",
+  "abstract_zh": "雌激素受体（estrogen receptors, ERs）在乳腺癌中的作用在临床实践和科学探索中均具有重要意义。然而，约15-30%的患者因固有耐药机制而无法从常规治疗中获益，另有30-40%的患者在治疗过程中获得耐药性。为解决这一问题并促进社区范围内的努力，基于机器学习（machine learning, ML）的方法被认为是最具成本效益和大规模识别的手段之一。在此，我们提出一种新的基于SMILES的堆叠方法，称为StackER，用于加速并高效识别ERalpha和ERbeta抑制剂。在StackER中，我们首先建立了一个最新的数据集，分别包含1,996种ERalpha化合物和1,207种ERbeta化合物。利用该最新数据集，StackER探索了多种不同的基于SMILES的特征描述符和ML算法，以生成概率特征（probabilistic features, PFs）。最后，通过两步特征选择策略选出的PFs被用于开发高效的堆叠模型。交叉验证和独立测试均表明，StackER在精确预测ERalpha和ERbeta抑制剂方面超越了多种传统ML分类器及现有方法。值得注意的是，StackER在交叉验证和独立测试中分别达到了0.829-0.847和0.712-0.786的MCC值，比现有方法高出5.92-8.29%和1.59-3.45%。此外，StackER被用于确定作为ERalpha和ERbeta抑制剂的有用特征，并识别FDA批准的药物作为潜在的ERalpha抑制剂，以促进药物再利用。这种创新的堆叠方法预计将促进社区范围内高效缩小ER抑制剂筛选范围的努力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38151513/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38151513/",
+  "paper_page_path": "papers/pubmed/38151513/index.html"
+}

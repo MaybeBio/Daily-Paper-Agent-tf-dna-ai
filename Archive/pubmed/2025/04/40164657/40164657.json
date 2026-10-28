@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "40164657",
+    "doi": "10.1038/s41598-025-95810-4",
+    "title": "Integrated network pharmacology, molecular docking, and animal experiments to reveal the potential mechanism of hesperetin on COPD."
+  },
+  "content": {
+    "abstract": "Hesperetin (HE), a natural flavonoid exhibiting anti-inflammatory and antioxidant properties, holds significant potential in treating chronic obstructive pulmonary disease (COPD). Nonetheless, the precise mechanisms underlying its effects are yet to be fully elucidated. In this study, we aim to explore the role and potential mechanism of HE in treating COPD using network pharmacology, molecular docking and experimental validation. We screened for HE and COPD-related targets from public databases, and then imported potential targets into a STRING database to establish a protein-protein interaction network. Gene ontology (GO) and Kyoto encyclopedia of genes and genomes enrichment analysis were performed to obtain key signaling pathways. We then predicted the binding interactions between HE and core targets using molecular docking. The animal model of COPD was established through lipopolysaccharide and cigarette smoke induction in mice to observe lung function, inflammatory factors, pathology, and the expression of related proteins. Network pharmacology findings unveiled that HE and COPD shared 105 common targets. MAPKs and NF-kappaB signaling pathways were selected for further validation. In animal experiment, HE enhanced lung function and histopathological morphology, while reducing inflammation levels. The results of Western blot tests indicated that HE treatment considerably inhibited the expression of MAPKs and NF-kappaB. HE effectively reduced lung inflammation and improved lung function in mice. This mechanism may be achieved by inhibition of MAPKs and NF-kappaB signaling pathways.",
+    "keywords": [
+      "Chronic obstructive pulmonary disease",
+      "Hesperetin",
+      "MAPKs/NF-kappaB signaling pathway",
+      "Molecular docking",
+      "Network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Hesperidin/pharmacology/chemistry/therapeutic use",
+      "*Pulmonary Disease, Chronic Obstructive/drug therapy/metabolism/pathology",
+      "Animals",
+      "*Molecular Docking Simulation",
+      "*Network Pharmacology",
+      "Mice",
+      "Disease Models, Animal",
+      "NF-kappa B/metabolism",
+      "Signal Transduction/drug effects",
+      "Protein Interaction Maps/drug effects",
+      "Male",
+      "Anti-Inflammatory Agents/pharmacology",
+      "Lung/drug effects/pathology/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jingxi",
+        "Wang, Hongyang",
+        "Kang, Xin",
+        "Wang, Xiaotian",
+        "Li, Xi",
+        "Guo, Jie",
+        "Jing, Xuan",
+        "Chu, Xi",
+        "Han, Xue"
+      ],
+      "short_names": [
+        "Wang J",
+        "Wang H",
+        "Kang X",
+        "Wang X",
+        "Li X",
+        "Guo J",
+        "Jing X",
+        "Chu X",
+        "Han X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China.",
+        "Hebei Industrial Technology Institute for Traditional Chinese Medicine Preparation, Shijiazhuang, China.",
+        "Hebei University of Chinese Medicine, Shijiazhuang, China.",
+        "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China.",
+        "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China.",
+        "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China.",
+        "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China.",
+        "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China. 956266185@qq.com.",
+        "Hebei Industrial Technology Institute for Traditional Chinese Medicine Preparation, Shijiazhuang, China. 956266185@qq.com.",
+        "The Fourth Hospital of Hebei Medical University, Shijiazhuang, China. chux2014@126.com.",
+        "School of Pharmacy, Hebei University of Chinese Medicine, Shijiazhuang, China. hanxuecc@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jingxi",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China.",
+          "Hebei Industrial Technology Institute for Traditional Chinese Medicine Preparation, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongyang",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei University of Chinese Medicine, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Xin",
+        "short_name": "Kang X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaotian",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xi",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jie",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Xuan",
+        "short_name": "Jing X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Hebei University of Chinese Medicine, Shijiazhuang, China. 956266185@qq.com.",
+          "Hebei Industrial Technology Institute for Traditional Chinese Medicine Preparation, Shijiazhuang, China. 956266185@qq.com."
+        ]
+      },
+      {
+        "full_name": "Chu, Xi",
+        "short_name": "Chu X",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Hospital of Hebei Medical University, Shijiazhuang, China. chux2014@126.com."
+        ]
+      },
+      {
+        "full_name": "Han, Xue",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hebei University of Chinese Medicine, Shijiazhuang, China. hanxuecc@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/01 00:27",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42627479",
+      "42075901",
+      "41793558",
+      "41001804"
+    ],
+    "refs": [
+      "39512624",
+      "39423200",
+      "39222688",
+      "39128416",
+      "39049038",
+      "38650680",
+      "37922653",
+      "37864932",
+      "37399718",
+      "37102667",
+      "36685035",
+      "36615475",
+      "36500336",
+      "36113528",
+      "35923358",
+      "35914087",
+      "35838630",
+      "35819638",
+      "35775581",
+      "35728306",
+      "35676404",
+      "35533707",
+      "35170866",
+      "35092853",
+      "34984064",
+      "34739306",
+      "34403023",
+      "34262419",
+      "34053448",
+      "33950382",
+      "33766947",
+      "33687943",
+      "33545548",
+      "33332995",
+      "33255186",
+      "33151290",
+      "32762101",
+      "32388241",
+      "32159537",
+      "32077346",
+      "32058928",
+      "31931630",
+      "31863495",
+      "31710740",
+      "31356965",
+      "31106366",
+      "30944313",
+      "30919925",
+      "30733313",
+      "30551456",
+      "29785100",
+      "29321495",
+      "29126136",
+      "28922692",
+      "28855674",
+      "28654725",
+      "28472422",
+      "27899662",
+      "27322403",
+      "26755942",
+      "26610718",
+      "25533503",
+      "25517107",
+      "25176396",
+      "24265219",
+      "18346784",
+      "17132052",
+      "12519996"
+    ],
+    "similar": [
+      "40164657",
+      "40350871",
+      "39066538",
+      "38615654",
+      "39279134",
+      "39140079",
+      "39369919",
+      "39085510",
+      "39278295",
+      "32164488",
+      "38216101",
+      "38342020",
+      "39075002",
+      "39701786",
+      "40191262",
+      "38432578",
+      "39074420",
+      "39577218",
+      "39929664",
+      "34218218",
+      "39041167",
+      "40013962",
+      "38914662",
+      "40133026",
+      "40128040",
+      "38588987",
+      "39922147",
+      "39374881",
+      "37795773",
+      "33444723",
+      "38696100",
+      "39617073",
+      "37906275",
+      "39490433",
+      "39219424",
+      "39192652",
+      "37382018",
+      "39701711",
+      "40259252",
+      "38697555",
+      "40255473",
+      "39694936",
+      "37827295",
+      "40133025",
+      "38670393",
+      "39004032",
+      "39708983",
+      "39095732",
+      "39151493",
+      "38941043",
+      "36872242",
+      "37807411",
+      "33441867",
+      "38707614",
+      "39259410",
+      "37454750",
+      "37802827",
+      "38243958",
+      "39991083",
+      "39488873",
+      "39810933",
+      "31270147",
+      "40330488",
+      "39273257",
+      "40057142",
+      "38115276",
+      "40151124",
+      "39041101",
+      "40350824",
+      "39089660",
+      "39180676",
+      "40023967",
+      "39701729",
+      "38765004",
+      "37356743",
+      "38321908",
+      "38812235",
+      "39059100",
+      "38640713",
+      "36604925",
+      "38449348",
+      "39343107",
+      "35074456",
+      "37878048",
+      "38169205",
+      "32505843",
+      "38916485",
+      "39222242",
+      "38446216",
+      "40033067",
+      "39307799",
+      "39044211",
+      "38951468",
+      "34808299",
+      "39738585",
+      "39093467",
+      "38114126",
+      "38910274",
+      "33313323",
+      "40350822"
+    ],
+    "review": [
+      "40164657"
+    ],
+    "pmc": [
+      "11958725"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/copd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COPD"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-95810-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40164657/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

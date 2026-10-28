@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "35447463",
+    "doi": "10.1016/j.compbiomed.2022.105533",
+    "title": "Target-DBPPred: An intelligent model for prediction of DNA-binding proteins using discrete wavelet transform based compression and light eXtreme gradient boosting."
+  },
+  "content": {
+    "abstract": "DNA-protein interaction is a critical biological process that performs influential activities, including DNA transcription and recombination. DBPs (DNA-binding proteins) are closely associated with different kinds of human diseases (asthma, cancer, and AIDS), while some of the DBPs are used in the production of antibiotics, steroids, and anti-inflammatories. Several methods have been reported for the prediction of DBPs. However, a more intelligent method is still highly desirable for the accurate prediction of DBPs. This study presents an intelligent computational method, Target-DBPPred, to improve DBPs prediction. Important features from primary protein sequences are investigated via a novel feature descriptor, called EDF-PSSM-DWT (Evolutionary difference formula position-specific scoring matrix-discrete wavelet transform) and several other multi-evolutionary methods, including F-PSSM (Filtered position-specific scoring matrix), EDF-PSSM (Evolutionary difference formula position-specific scoring matrix), PSSM-DPC (Position-specific scoring matrix-dipeptide composition), and Lead-BiPSSM (Lead-bigram-position specific scoring matrix) to encapsulate diverse multivariate features. The best feature set from the features of each descriptor is selected using sequential forward selection (SFS). Further, four models are trained using Adaboost, XGB (eXtreme gradient boosting), ERT (extremely randomized trees), and LiXGB (Light eXtreme gradient boosting) classifiers. LiXGB, with the best feature set of EDF-PSSM-DWT, has attained 6.69% and 15.07% higher performance in terms of accuracies using training and testing datasets, respectively. The obtained results verify the improved performance of our proposed predictor over the existing predictors.",
+    "keywords": [
+      "DNA-Binding proteins",
+      "Discrete wavelet transform",
+      "Position-specific scoring matrix",
+      "eXtreme gradient boosting"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Computational Biology/methods",
+      "DNA/chemistry",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Databases, Protein",
+      "Humans",
+      "Position-Specific Scoring Matrices",
+      "Support Vector Machine",
+      "*Wavelet Analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ali, Farman",
+        "Kumar, Harish",
+        "Patil, Shruti",
+        "Kotecha, Ketan",
+        "Banjar, Ameen",
+        "Daud, Ali"
+      ],
+      "short_names": [
+        "Ali F",
+        "Kumar H",
+        "Patil S",
+        "Kotecha K",
+        "Banjar A",
+        "Daud A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Elementary and Secondary Education, Peshawar, Khyber Pakhtunkhwa, Pakistan; School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. Electronic address: farman335@yahoo.com.",
+        "Department of Computer Science, College of Computer Science, King Khalid University, Abha, Saudi Arabia.",
+        "Symbiosis Institute of Technology, Symbiosis Centre for Applied Artificial Intelligence, Symbiosis International University, Pune, India.",
+        "Symbiosis Institute of Technology, Symbiosis Centre for Applied Artificial Intelligence, Symbiosis International University, Pune, India. Electronic address: headscaai@sitpune.edu.in.",
+        "Department of Information Systems, College of Computer Science and Engineering, University of Jeddah, Jeddah, Saudi Arabia.",
+        "Key Laboratory of Oceanographic Big Data Mining & Application of Zhejiang Province, School of Information Engineering, Zhejiang Ocean University, Zhoushan, 316022, China; Department of Computer Science and Artificial Intelligence, University of Jeddah, Jeddah, Saudi Arabia. Electronic address: alimsdb@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ali, Farman",
+        "short_name": "Ali F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Elementary and Secondary Education, Peshawar, Khyber Pakhtunkhwa, Pakistan; School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. Electronic address: farman335@yahoo.com."
+        ]
+      },
+      {
+        "full_name": "Kumar, Harish",
+        "short_name": "Kumar H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, College of Computer Science, King Khalid University, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Patil, Shruti",
+        "short_name": "Patil S",
+        "identifiers": [],
+        "affiliations": [
+          "Symbiosis Institute of Technology, Symbiosis Centre for Applied Artificial Intelligence, Symbiosis International University, Pune, India."
+        ]
+      },
+      {
+        "full_name": "Kotecha, Ketan",
+        "short_name": "Kotecha K",
+        "identifiers": [],
+        "affiliations": [
+          "Symbiosis Institute of Technology, Symbiosis Centre for Applied Artificial Intelligence, Symbiosis International University, Pune, India. Electronic address: headscaai@sitpune.edu.in."
+        ]
+      },
+      {
+        "full_name": "Banjar, Ameen",
+        "short_name": "Banjar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Systems, College of Computer Science and Engineering, University of Jeddah, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Daud, Ali",
+        "short_name": "Daud A",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Oceanographic Big Data Mining & Application of Zhejiang Province, School of Information Engineering, Zhejiang Ocean University, Zhoushan, 316022, China; Department of Computer Science and Artificial Intelligence, University of Jeddah, Jeddah, Saudi Arabia. Electronic address: alimsdb@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/22 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "41184947",
+      "40356852",
+      "40083337",
+      "39514139",
+      "39346113",
+      "38747369",
+      "36450775",
+      "36211019"
+    ],
+    "refs": [],
+    "similar": [
+      "35447463",
+      "36211019",
+      "34291709",
+      "31123959",
+      "39098908",
+      "28961273",
+      "31771119",
+      "38498362",
+      "24475169",
+      "31027046",
+      "35378437",
+      "33780341",
+      "33476047",
+      "30668479",
+      "36450775",
+      "31693872",
+      "38986796",
+      "36649569",
+      "31621050",
+      "32300371",
+      "28423569",
+      "22574904",
+      "34500792",
+      "39215231",
+      "28483566",
+      "35799660",
+      "33410688",
+      "30598073",
+      "33505516",
+      "29532347",
+      "28851273",
+      "37016308",
+      "34749096",
+      "23747746",
+      "37301349",
+      "35365726",
+      "24607742",
+      "26788119",
+      "38237792",
+      "27732957",
+      "31472418",
+      "22408447",
+      "32908888",
+      "34320027",
+      "37307968",
+      "33442949",
+      "26592807",
+      "25445293",
+      "19091029",
+      "35943134",
+      "28492483",
+      "34340269",
+      "23116714",
+      "28927812",
+      "33987446",
+      "17275170",
+      "28813000",
+      "19091011",
+      "22591472",
+      "38812315",
+      "29100918",
+      "32313024",
+      "31603468",
+      "32448129",
+      "38295475",
+      "28802824",
+      "29989064",
+      "29219069",
+      "31319578",
+      "24093637",
+      "31430892",
+      "28764874",
+      "35242211",
+      "31617464",
+      "33259717",
+      "20677174",
+      "31856704",
+      "39060345",
+      "33537726",
+      "30100904",
+      "23282098",
+      "28841194",
+      "31380766",
+      "32144887",
+      "22316312",
+      "33617347",
+      "24064423",
+      "15720719",
+      "30395157",
+      "38674091",
+      "31310738",
+      "28606086",
+      "35625503",
+      "30032213",
+      "38124569",
+      "29678694",
+      "24184705",
+      "33238837",
+      "31393672",
+      "28820478",
+      "37850427",
+      "27452983",
+      "21342579",
+      "37459792",
+      "23484214",
+      "20658312",
+      "24334394",
+      "30179589",
+      "31888057",
+      "38747369",
+      "32352006",
+      "37029385",
+      "27740495",
+      "24067326",
+      "27383535",
+      "28764871",
+      "16568445",
+      "28088356",
+      "26819243",
+      "28678206",
+      "35388370",
+      "30881376",
+      "22316310",
+      "39164870",
+      "18847492",
+      "38320470",
+      "37651627",
+      "39423981",
+      "38552379",
+      "35609687",
+      "37327559",
+      "38927611",
+      "39029431",
+      "30813451",
+      "35748253",
+      "35439138",
+      "31881828",
+      "35981062",
+      "16796745",
+      "39173785",
+      "39043738",
+      "37060772",
+      "34616437",
+      "38454333",
+      "34727037",
+      "35597551",
+      "34932484",
+      "36427763",
+      "21749732",
+      "18317576",
+      "38949938",
+      "35731758",
+      "35811788",
+      "36457083",
+      "37403155",
+      "38580921",
+      "34051755",
+      "38892144",
+      "38903752",
+      "39240325",
+      "34671178",
+      "29086182",
+      "25028675",
+      "39334921",
+      "35684856",
+      "35502337",
+      "37609923",
+      "37437362",
+      "32689927",
+      "38202602",
+      "38660008",
+      "37501482",
+      "39244557",
+      "38575818",
+      "37705620",
+      "36146187",
+      "36370585",
+      "35389869",
+      "35519609",
+      "37359746",
+      "37790440",
+      "36267316",
+      "35730305",
+      "35626570"
+    ],
+    "review": [
+      "35447463",
+      "37359746"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(22)00325-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(22)00325-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

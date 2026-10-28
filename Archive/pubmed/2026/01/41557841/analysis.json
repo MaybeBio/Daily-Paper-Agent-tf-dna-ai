@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41557841",
+  "title": "inMOTIFin: a lightweight end-to-end simulation software for regulatory sequences.",
+  "authors": "Ferenc, Katalin; Martini, Lorenzo; Rauluseviciute, Ieva; Sandve, Geir Kjetil Ferkingstad; Mathelier, Anthony",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-01-20",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍了一个用于模拟和修改DNA调控序列的轻量级Python软件，支持motif生成与插入，用于评估motif发现和深度学习可解释性，虽非直接建模TF-DNA互作，但为相关方法评估提供了可借鉴的模拟工具。",
+  "abstract": "SUMMARY: The accurate development, assessment, interpretation, and benchmarking of bioinformatics frameworks for analyzing transcriptional regulatory grammars rely on controlled simulations to validate the underlying methods. However, existing simulators often lack end-to-end flexibility or ease of integration, which limits their practical use. We present inMOTIFin, a lightweight, modular, and user-friendly Python-based software that addresses these gaps by providing versatile and efficient simulation and modification of DNA regulatory sequences. inMOTIFin enables users to simulate or modify regulatory sequences efficiently for the customizable generation of motifs and insertion of motif instances with precise control over their positions, co-occurrences, and spacing, as well as direct modification of real sequences, facilitating a comprehensive evaluation of motif-based methods and interpretation tools. We demonstrate inMOTIFin applications for the assessment of de novo motif discovery, the analysis of transcription factor cooperativity, and the support of explainability analyses for deep learning models. inMOTIFin ensures robust and reproducible analyses for studying transcriptional regulatory grammars. AVAILABILITY AND IMPLEMENTATION: inMOTIFin is available at PyPI https://pypi.org/project/inMOTIFin/ and Docker Hub https://hub.docker.com/r/cbgr/inmotifin. Detailed documentation is available at https://inmotifin.readthedocs.io/en/latest/. The code for use case analyses is available at https://bitbucket.org/CBGR/inmotifin_evaluation/src/main/. The version of the code used for this article has been uploaded to Zenodo with DOI: 10.5281/zenodo.17638579.",
+  "abstract_zh": "摘要：用于分析转录调控语法的生物信息学框架的准确开发、评估、解释和基准测试依赖于受控模拟来验证底层方法。然而，现有模拟器往往缺乏端到端的灵活性或易于集成的特性，这限制了其实际应用。我们提出了inMOTIFin，一个轻量级、模块化且用户友好的基于Python的软件，通过提供多功能且高效的DNA调控序列模拟和修改来解决这些不足。inMIFIN使用户能够高效地模拟或修改调控序列，以可定制地生成基序并插入基序实例，精确控制其位置、共现和间距，以及直接修改真实序列，从而促进基于基序的方法和解释工具的全面评估。我们展示了inMOTIFin在评估从头基序发现、分析转录因子协同性以及支持深度学习模型可解释性分析中的应用。inMOTIFin确保了对转录调控语法研究的稳健且可重复的分析。可用性和实现：inMOTIFin可在PyPI https://pypi.org/project/inMOTIFin/ 和Docker Hub https://hub.docker.com/r/cbgr/inmotifin 获取。详细文档可在 https://inmotifin.readthedocs.io/en/latest/ 获取。用例分析代码可在 https://bitbucket.org/CBGR/inmotifin_evaluation/src/main/ 获取。本文使用的代码版本已上传至Zenodo，DOI：10.5281/zenodo.17638579。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41557841/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41557841/",
+  "paper_page_path": "papers/pubmed/41557841/index.html"
+}

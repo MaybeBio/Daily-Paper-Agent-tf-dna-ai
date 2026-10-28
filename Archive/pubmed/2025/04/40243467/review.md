@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results and Discussion, Materials and Methods, Conclusions) as provided. Supplementary materials referenced but not supplied.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to evidence presented, and alignment with Nature-style criteria. Assessment is limited to the supplied text; supplementary tables, figures, and code files were not available for inspection.
+- **Shared manuscript claim summary** The authors report a computational and experimental profiling of persistent endocrine-disrupting chemicals (EDCs), including PFAS, plastic additives, bisphenols, polybrominated diphenyl ethers, and phthalates, against seven human nuclear receptors (PXR, CAR, PPARα, PPARγ, PPARδ, AR, RORγt). They claim strong binding of several EDC classes to these receptors via molecular docking, identify hydrophobic interactions with specific amino acids as drivers of binding, and report in vitro assays showing agonistic and antagonistic effects of dicyclohexyl phthalate (DCHP) and di-2-ethylhexyl phthalate (DEHP) on nuclear receptor and transcription factor activity in HepG2 cells.
+- **Visible evidence base** Main text figures (Figures 1–8) and tables (Tables 1–4, 6–10) are referenced. Supplementary Tables S1–S9, Supplementary Figures S1–S23, and Supplementary Code S1–S11 are cited but not provided.
+- **Missing materials affecting confidence** Supplementary data (all tables, figures, code), full docking score distributions, raw experimental assay data, statistical analysis details, and methodological parameters for the FACTORIAL assays. Without these, quantitative claims and statistical robustness cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely topic: the interaction of persistent EDCs with nuclear receptors, combining large-scale in silico docking with targeted in vitro validation. The scope of the computational screen (16,829 EDCs across seven NRs) is ambitious and potentially valuable. However, several major concerns undermine the current strength of the conclusions. The docking validation is presented with RMSD values that are acceptable but not uniformly strong, and the classification of binding strength relies on a threshold-based approach that requires clearer justification. The experimental section is limited to two phthalates and lacks dose-response data, statistical replication details, and positive/negative controls. The link between docking scores and functional outcomes is asserted rather than rigorously demonstrated. The manuscript would benefit from a more critical interpretation of the limitations of docking-based affinity predictions and a clearer articulation of what the in vitro data add beyond the computational screen. The writing is generally clear but the Results and Discussion section is overly long and would benefit from tighter organization.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, endocrine disruption, computational toxicology, and nuclear receptor biology would find this work relevant. The large-scale docking dataset could serve as a resource for prioritizing EDCs for further testing. The identification of DCHP as a broad-spectrum NR binder with agonistic and antagonistic effects may interest those studying phthalate toxicity. The methodological approach, combining in silico screening with in vitro pathway assays, may appeal to groups developing high-throughput hazard identification strategies.
+- **Major strengths** 1) The breadth of the computational screen across multiple EDC classes and seven NRs is a notable effort. 2) The inclusion of experimental validation for two phthalates, using both NR activation and transcription factor pathway assays, strengthens the translational relevance. 3) The analysis of structural features (e.g., carbon chain length, functional groups) and their correlation with binding affinity provides mechanistic insight. 4) The development of automated Python tools for residue interaction analysis is a useful contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "RMSD values below 2.5 Å confirm the accuracy of this study in predicting the binding poses of ligands to the studied NRs."
+  - **Evidence pointer** Section 2.1, Figure 1
+  - **Concern** The RMSD threshold of 2.5 Å is presented as a blanket validation criterion, but the values reported range from 0.353 Å to 2.416 Å. The 2.416 Å value for PPARδ is close to the threshold and may indicate a less reliable pose prediction for that receptor. More critically, validation against a single reference ligand per receptor does not establish that the docking protocol performs well across chemically diverse EDCs. The authors do not report how many reference ligands were used per receptor, whether multiple conformations were tested, or whether the docking grid and search space were optimized for each receptor independently. The claim of "accuracy" is therefore overstated relative to the evidence provided.
+  - **Why it matters** Docking accuracy is foundational to all subsequent binding affinity claims. If the protocol is not robustly validated, the classification of EDCs as strong, moderate, or weak binders is unreliable, which propagates through the entire analysis and the conclusions drawn from it.
+  - **Resolution test** Provide a more comprehensive validation: multiple known ligands per receptor, comparison of docking poses against multiple crystal structures, and reporting of enrichment factors or ROC curves if a decoy set is used. Alternatively, temper the claim to reflect that the protocol was validated for the specific reference ligands tested, not for all EDC classes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors classify EDCs as strong, moderate, or weak binders based on docking scores compared to reference ligands, but the classification scheme is not fully described.
+  - **Evidence pointer** Section 2.2, Tables 1–2, Supplementary Tables S3–S8
+  - **Concern** The text states that chemicals with scores "exceeding the mean docking score of the reference ligands" were categorized as strong binders, with moderate binders within 10% below the mean and weak binders beyond that. This is a relative threshold that depends entirely on the choice of reference ligands. The authors do not specify which reference ligands were used for each receptor, how many were included, or whether the mean was computed across all references or per receptor. Moreover, docking scores are not directly comparable across different receptors because the grid sizes, search spaces, and receptor-specific properties differ. The classification is therefore potentially arbitrary and not reproducible without the full details.
+  - **Why it matters** The central conclusion that certain EDCs "strongly bind" to NRs rests on this classification. If the threshold is not robust or is not consistently applied, the ranking of EDCs and the subsequent structural analyses are compromised.
+  - **Resolution test** Clearly define the reference ligand set for each receptor, report the mean and standard deviation of reference docking scores, and justify the 10% margin. Consider using absolute binding affinity thresholds or experimental IC50/EC50 values to calibrate the classification. Provide the full distribution of docking scores for all EDCs and receptors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the hNR transcription factor pathway assay in HepG2 cells demonstrated increased gene expression of VDRE and PXR, suggesting potential chronic effects on xenobiotic metabolism and calcium homeostasis."
+  - **Evidence pointer** Section 2.8.2, Figure 8B
+  - **Concern** The experimental section is severely under-reported. No details are provided on the number of biological replicates, the concentration of DCHP and DEHP used, the exposure duration, the vehicle control conditions, or the statistical tests applied. The fold induction values are mentioned qualitatively but not presented with error bars or significance thresholds. Without these details, the claim that VDRE and PXR expression is "increased" cannot be evaluated. Additionally, the link between VDRE/PXR activation and "calcium homeostasis" is not explained or referenced.
+  - **Why it matters** The in vitro data are presented as a key validation of the computational findings. If the experimental methodology is not transparent and the results are not statistically supported, the validation claim is weakened, and the translational relevance of the study is diminished.
+  - **Resolution test** Provide full experimental details: cell culture conditions, compound concentrations (with justification), exposure time, number of replicates, positive and negative controls, and statistical analysis (e.g., ANOVA with post-hoc tests). Present fold induction data with error bars and significance markers. Clarify the mechanistic link between VDRE activation and calcium homeostasis with appropriate references.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim to have developed "automated, user-friendly Python 3.12.4 programs to assess amino acid residue interactions and the influence of functional groups on binding strength."
+  - **Evidence pointer** Section 1 (Introduction), Section 3 (Materials and Methods), Supplementary Code S1–S11
+  - **Concern** The Python programs are mentioned but not described in the main text. No information is provided on how they were validated, whether they are publicly available, or how they handle edge cases (e.g., multiple binding poses, flexible residues). The supplementary code files are not provided for review, so the reproducibility of the analysis cannot be assessed.
+  - **Why it matters** The claim of developing novel tools is a stated contribution of the study. Without access to the code or a description of its functionality and validation, this contribution cannot be evaluated or used by others.
+  - **Resolution test** Provide the code as supplementary material or a link to a public repository. Include a brief description of the code's workflow, dependencies, and validation in the main text or supplementary methods.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "this study represents the first comprehensive analysis of interactions across six EDC chemical classes with the hNRs."
+  - **Evidence pointer** Section 1 (Introduction), Section 4 (Conclusions)
+  - **Concern** The claim of being "first" is difficult to verify without a more thorough literature review. Several studies have examined EDC interactions with nuclear receptors, including PFAS and phthalates, using docking and experimental approaches. The authors cite some of this work but do not systematically differentiate their study from prior comprehensive analyses. The novelty claim is therefore not well supported.
+  - **Why it matters** The scientific importance of the study depends in part on its novelty. If similar comprehensive analyses exist, the contribution of this work is incremental rather than groundbreaking.
+  - **Resolution test** Provide a more detailed comparison with prior studies, highlighting what is genuinely new (e.g., the specific combination of EDC classes, the number of receptors, the integration of in silico and in vitro data). Temper the novelty claim if it cannot be fully substantiated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2.2, paragraph on nanoplastic binding
+  - **Evidence pointer** Section 2.2.2, Table 2
+  - **Issue** The term "nanoplastics" is used to describe the plastic chemicals tested, but the size range of these compounds is not defined. Nanoplastics are typically defined as particles below 1 µm, whereas the compounds in the Plastic Chemicals Database are likely small molecules. This terminology is misleading.
+  - **Required correction** Use a more accurate term such as "plastic-derived chemicals" or "plastic additives" unless the compounds are explicitly characterized as nanoplastics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, Structural Analysis of PFAS
+  - **Evidence pointer** Section 2.4, Figure 7
+  - **Issue** The correlation between carbon chain length and binding affinity is presented with R² values, but the number of data points and the statistical significance of these correlations are not reported. A high R² with few data points can be misleading.
+  - **Required correction** Report the number of compounds analyzed, the p-value for each correlation, and consider using a more robust statistical approach (e.g., Spearman rank correlation) if the data are not normally distributed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1, Receptor Preparation
+  - **Evidence pointer** Section 3.1, Supplementary Table S1
+  - **Issue** The grid box dimensions and center coordinates are listed in Supplementary Table S1, but the rationale for choosing these specific coordinates is not provided. It is unclear whether the grid boxes were centered on the orthosteric sites or whether multiple binding sites were considered.
+  - **Required correction** Briefly describe how the grid box coordinates were determined (e.g., based on co-crystallized ligands, literature, or blind docking) and whether alternative binding sites were explored.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.8.1, Experimental Analysis
+  - **Evidence pointer** Section 2.8.1, Figure 8
+  - **Issue** The text states that "the assay yielded PXR having the strongest activation when exposed to DCHP and DEHP," but the figure is not described in sufficient detail. It is unclear which receptors were tested, how many, and what the baseline activity was.
+  - **Required correction** Provide a clear description of the figure, including the full list of receptors tested, the assay format, and the criteria for defining "activation."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 2.7, Prevalence Analysis
+  - **Evidence pointer** Section 2.7, Tables 4–9
+  - **Issue** The text mentions "heat maps" for the top 25 and top 50 binders, but the criteria for selecting these cutoffs are not explained. Additionally, the tables referenced are not provided in the main text, making it difficult to follow the analysis.
+  - **Required correction** Explain the rationale for the top 25 and top 50 cutoffs and consider including representative heat maps in the main text or providing a more detailed description of the tables.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (docking validation), R1-M2 (binding classification), R1-M3 (experimental reporting). These are blocking because they affect the core claims of the manuscript.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The combination of a large EDC library with multiple NRs is somewhat novel, but the individual components (docking of EDCs to NRs, in vitro NR assays) are well established. The claim of being "first" is not fully substantiated.
+  - **Scientific importance** Moderate to high. The topic is of significant public health relevance, and a reliable method for prioritizing EDCs for testing would be valuable. However, the current evidence does not fully establish the reliability of the approach.
+  - **Interdisciplinary readership** Potentially broad, spanning environmental health, toxicology, computational biology, and endocrinology. The manuscript is written in a way that is accessible to these fields, though some sections are dense.
+  - **Technical soundness** Currently insufficient. The docking validation is limited, the classification scheme is not fully described, and the experimental data are under-reported. These issues must be resolved before the conclusions can be considered robust.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the Results and Discussion section is lengthy and would benefit from clearer subheadings and a more focused narrative. Some terms (e.g., "orthosteric sites") are used without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the blocking concerns regarding docking validation, binding classification, and experimental reporting must be addressed. A revised version with full methodological transparency, additional validation, and more rigorous experimental data could be reconsidered.
+
+## Risk / unsupported claims
+- The claim that "RMSD values below 2.5 Å confirm the accuracy" of the docking protocol is unsupported without a more comprehensive validation across multiple ligands per receptor.
+- The classification of EDCs into strong, moderate, and weak binders is not reproducible without a full description of the reference ligand set and the threshold criteria.
+- The claim of increased VDRE and PXR gene expression is unsupported without statistical details and raw data.
+- The claim of being the "first comprehensive analysis" is not verifiable from the provided text.
+- The functional group analysis (Table 3) and carbon chain length correlations (Figure 7) are presented without sufficient statistical context.
+- The relevance of the in vitro findings to "calcium homeostasis" is asserted without mechanistic evidence or references.

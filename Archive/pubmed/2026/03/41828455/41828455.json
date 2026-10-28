@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "41828455",
+    "doi": "10.3390/ijms27052231",
+    "title": "Unraveling the Molecular Mechanisms of Benzo(a)pyrene (BaP)-Induced Ovarian-Related Disorders: Integrating Computational Predictions and Experimental Validation."
+  },
+  "content": {
+    "abstract": "The ovaries are crucial reproductive organs that regulate the menstrual cycle and support pregnancy through the production of steroid hormones. They are highly susceptible to various environmental pollutants, which can lead to ovarian disorders. Luteal phase defect (LPD) and premature ovarian failure (POF) are common ovarian disorders in women. In this study, we integrate network toxicology with molecular docking and molecular dynamics simulations to elucidate the toxicological mechanisms of Benzo(a)pyrene (BaP), a widespread endocrine disruptor, in LPD and POF. Through systematic data mining of the GeneCards and OMIM databases, we identified 1336 targets associated with LPD and 2066 targets related to POF, as well as 220 BaP targets. Venn diagram analysis revealed 36 potential targets for BaP-induced LPD and 43 for BaP-induced POF. GO and KEGG enrichment analyses suggest that BaP-induced LPD and POF may share toxicological mechanisms. PPI network visualization indicated that EGFR, ESR1, and STAT3 are critical common targets for BaP-induced LPD and POF. Molecular docking and molecular dynamics simulations revealed that BaP exhibits strong binding affinity with all three core genes. In KGN cells modeling LPD and POF phenotypes, cellular experiments confirmed that BaP downregulated EGFR and ESR1 expression while upregulating STAT3 expression, thereby supporting the reliability of these targets in BaP-induced ovarian dysfunction. These findings provide insights into BaP-induced reproductive toxicity and offer a foundation for targeted clinical interventions to mitigate the effects of environmental pollutants on women's reproductive health.",
+    "keywords": [
+      "LPD",
+      "POF",
+      "endocrine disruptor",
+      "molecular docking",
+      "molecular dynamics simulations",
+      "network toxicology"
+    ],
+    "mesh_terms": [
+      "*Benzo(a)pyrene/toxicity",
+      "Female",
+      "Molecular Docking Simulation",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Endocrine Disruptors/toxicity",
+      "*Primary Ovarian Insufficiency/chemically induced/metabolism/genetics",
+      "Ovary/drug effects/metabolism",
+      "Estrogen Receptor alpha/metabolism/genetics",
+      "Protein Interaction Maps/drug effects",
+      "ErbB Receptors/metabolism/genetics",
+      "STAT3 Transcription Factor/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Mengwei",
+        "Qi, Tao",
+        "Lin, Yuqiang",
+        "He, Haiyan",
+        "Lei, Haotian",
+        "Gao, Rufei",
+        "Han, Fei",
+        "Liu, Taihang",
+        "Xu, Hanting",
+        "Chen, Xuemei"
+      ],
+      "short_names": [
+        "Ma M",
+        "Qi T",
+        "Lin Y",
+        "He H",
+        "Lei H",
+        "Gao R",
+        "Han F",
+        "Liu T",
+        "Xu H",
+        "Chen X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1168-5781"
+      ],
+      "affiliations": [
+        "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "School of Basic Medicine, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "School of Basic Medicine, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+        "School of Basic Medicine, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+        "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Mengwei",
+        "short_name": "Ma M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Tao",
+        "short_name": "Qi T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+          "School of Basic Medicine, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yuqiang",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "He, Haiyan",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Haotian",
+        "short_name": "Lei H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Rufei",
+        "short_name": "Gao R",
+        "identifiers": [
+          "0000-0003-1168-5781"
+        ],
+        "affiliations": [
+          "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Han, Fei",
+        "short_name": "Han F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Taihang",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+          "School of Basic Medicine, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hanting",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China.",
+          "School of Basic Medicine, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xuemei",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Toxicology, School of Public Health, Chongqing Medical University, Chongqing 400016, China.",
+          "Joint International Research Laboratory of Reproduction & Development, Ministry of Education, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Feb 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/14 06:32",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41079780",
+      "40947072",
+      "39657341",
+      "39480468",
+      "39170162",
+      "39111529",
+      "38964723",
+      "38942605",
+      "38464972",
+      "38253087",
+      "37858827",
+      "37839474",
+      "37355151",
+      "37340727",
+      "36749397",
+      "36570672",
+      "35598351",
+      "34986425",
+      "34935692",
+      "34824210",
+      "34814928",
+      "34426710",
+      "34052757",
+      "33827766",
+      "33503556",
+      "33254415",
+      "32172957",
+      "32023792",
+      "31949487",
+      "30443902",
+      "29969652",
+      "28527569",
+      "28267328",
+      "26996617",
+      "26776034",
+      "25928246",
+      "24769007",
+      "24440964",
+      "24327538",
+      "24013021",
+      "23776852",
+      "21192840",
+      "20219237",
+      "20088605",
+      "18257141",
+      "17970776",
+      "16882543",
+      "10342864",
+      "8248223"
+    ],
+    "similar": [
+      "41828455",
+      "40696610",
+      "41331168",
+      "41506139",
+      "40705082",
+      "42034589",
+      "41670688",
+      "41973182",
+      "41492010",
+      "41574914",
+      "41151691",
+      "41303381",
+      "41970950",
+      "42328663",
+      "39962573",
+      "41316712",
+      "41555405",
+      "41096726",
+      "41692077",
+      "41044206",
+      "42349175",
+      "42528957",
+      "40602159",
+      "41817952",
+      "41780474",
+      "40174762",
+      "42153145",
+      "41193654",
+      "42296203",
+      "40543694",
+      "41898778",
+      "40681587",
+      "41780179",
+      "40615101",
+      "39352532",
+      "38822913",
+      "41388333",
+      "41547189",
+      "40816715",
+      "41666766",
+      "40655169",
+      "40840088",
+      "42404344",
+      "41226680",
+      "39705422",
+      "41995483",
+      "42109914",
+      "41254771",
+      "42558309",
+      "41656572",
+      "41790626",
+      "40939458",
+      "40838208",
+      "39992538",
+      "41344141",
+      "42103034",
+      "40293202",
+      "42163678",
+      "36289509",
+      "41747816",
+      "42494595",
+      "39073414",
+      "40676786",
+      "42002995",
+      "42421348",
+      "42511782",
+      "39192219",
+      "42499056",
+      "41601038",
+      "41038024",
+      "34753385",
+      "40586299",
+      "40192506",
+      "37660319",
+      "40797463",
+      "41330962",
+      "39874714",
+      "42520089",
+      "41083578",
+      "42020620",
+      "41742320",
+      "40359556",
+      "37799727",
+      "39251712",
+      "42325627",
+      "41927749",
+      "42595923",
+      "41310176",
+      "42364542",
+      "39147995",
+      "40421218",
+      "40783635",
+      "39325153",
+      "42269982",
+      "41275765",
+      "32023792",
+      "40705527",
+      "41444316",
+      "40452077",
+      "33145355"
+    ],
+    "review": [
+      "41828455"
+    ],
+    "pmc": [
+      "12985188"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27052231",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/primaryovarianinsufficiency.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Primary Ovarian Insufficiency"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41828455/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

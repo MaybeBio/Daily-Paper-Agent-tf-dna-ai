@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "36582986",
+    "doi": "10.1016/j.dib.2022.108827",
+    "title": "Comprehensive 100-bp resolution genome-wide epigenomic profiling data for the hg38 human reference genome."
+  },
+  "content": {
+    "abstract": "This manuscript presents a comprehensive collection of diverse epigenomic profiling data for the human genome in 100-bp resolution with full genome-wide coverage. The datasets are processed from raw read count data collected from five types of sequencing-based assays collected by the Encyclopedia of DNA Elements consortium (ENCODE, http://www.encodeproject.org). Data from high-throughput sequencing assays were processed and crystallized into a total of 6,305 genome-wide profiles. To ensure the quality of the features, we filtered out assays with low read depth, inconsistent read counts, and poor data quality. The types of sequencing-based experiment assays include DNase-seq, histone and TF ChIP-seq, ATAC-seq, and Poly(A) RNA-seq. Merging of processed data was done by averaging read counts across technical replicates to obtain signals in about 30 million predefined 100-bp bins that tile the entire genome. We provide an example of fetching read counts using disease-related risk variants from the GWAS Catalog. Additionally, we have created a tabix index enabling fast user retrieval of read counts given coordinates in the human genome. The data processing pipeline is replicable for users' own purposes and for other experimental assays. The processed data can be found on Zenodo at https://zenodo.org/record/7015783. These data can be used as features for statistical and machine learning models to predict or infer a wide range of variables of biological interest. They can also be applied to generate novel insights into gene expression, chromatin accessibility, and epigenetic modifications across the human genome. Finally, the processing pipeline can be easily applied to data from any other genome-wide profiling assays, expanding the amount of available data.",
+    "keywords": [
+      "ATAC-seq, assay for transposase-accessible chromatin with sequencing",
+      "Bioinformatics",
+      "ChIP-seq, chromatin immunoprecipitation followed by sequencing",
+      "DNase-seq, DNase I hypersensitive site assay with sequencing",
+      "ENCODE",
+      "ENCODE, Encyclopedia of DNA Elements",
+      "EWAS, epigenome-wide association study",
+      "Epigenomics",
+      "GWAS, genome-wide association study",
+      "Genomics",
+      "High-throughput sequencing",
+      "TF, transcription factor",
+      "gnomAD, Genome Aggregation Database"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Ronnie Y",
+        "Huang, Yanting",
+        "Zhao, Zhiyue",
+        "Qin, Zhaohui S"
+      ],
+      "short_names": [
+        "Li RY",
+        "Huang Y",
+        "Zhao Z",
+        "Qin ZS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Graduate program in Neuroscience, Emory University, United States.",
+        "Department of Computer Science, Emory University, United States.",
+        "Department of Computer Science, Emory University, United States.",
+        "Department of Biostatistics and Bioinformatics, Emory University, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Ronnie Y",
+        "short_name": "Li RY",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate program in Neuroscience, Emory University, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanting",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Emory University, United States."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhiyue",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Emory University, United States."
+        ]
+      },
+      {
+        "full_name": "Qin, Zhaohui S",
+        "short_name": "Qin ZS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Bioinformatics, Emory University, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Data in brief"
+    ],
+    "journal_abbrev": [
+      "Data Brief"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/31 06:00",
+    "fetched_at": "2026-09-28 18:30:38"
+  },
+  "links": {
+    "cites": [
+      "40873684"
+    ],
+    "refs": [
+      "34643213",
+      "34294691",
+      "30445434",
+      "30371827",
+      "29996888",
+      "27923386",
+      "26727659",
+      "26015273",
+      "24487584",
+      "23950696",
+      "22955616",
+      "21208982"
+    ],
+    "similar": [
+      "36582986",
+      "33191916",
+      "27789702",
+      "30416387",
+      "36719906",
+      "33584814",
+      "37249868",
+      "32312702",
+      "35858748",
+      "37249867",
+      "27716038",
+      "36807076",
+      "38102723",
+      "27556805",
+      "28789639",
+      "35103973",
+      "34765994",
+      "30064353",
+      "35325188",
+      "29490630",
+      "31164146",
+      "35195064",
+      "37989133",
+      "27895806",
+      "36881298",
+      "31110271",
+      "29907088",
+      "36698077",
+      "27008018",
+      "37811941",
+      "24478015",
+      "29982337",
+      "25957350",
+      "35695574",
+      "37100469",
+      "32321568",
+      "25486472",
+      "23762209",
+      "38749504",
+      "31664892",
+      "30611200",
+      "32117461",
+      "29683440",
+      "25559105",
+      "32251359",
+      "34284136",
+      "29181276",
+      "36313930",
+      "27798116",
+      "38338756",
+      "24894502",
+      "34273560",
+      "30462313",
+      "33693880",
+      "37600946",
+      "31160376",
+      "25128017",
+      "26206277",
+      "29155775",
+      "35046932",
+      "34552866",
+      "34488759",
+      "37244568",
+      "23203885",
+      "33788674",
+      "27993786",
+      "31672284",
+      "30598689",
+      "39041910",
+      "21913086",
+      "28075484",
+      "28881977",
+      "32014062",
+      "35867231",
+      "32637041",
+      "21037257",
+      "27708717",
+      "33707229",
+      "37990143",
+      "24990294",
+      "34383745",
+      "21779159",
+      "32663104",
+      "37751945",
+      "29579165",
+      "32235270",
+      "22955991",
+      "37217250",
+      "36173566",
+      "30567711",
+      "24339764",
+      "30413482",
+      "29605855",
+      "32529949",
+      "30598100",
+      "36371985",
+      "30284014",
+      "32550544",
+      "35584008",
+      "39386531",
+      "36672856",
+      "37817248",
+      "38870532",
+      "37228750",
+      "36508674",
+      "39314461",
+      "37066421",
+      "37503119",
+      "39341494",
+      "37883436",
+      "39256582",
+      "39323486",
+      "39380764",
+      "39314325",
+      "39351872",
+      "38579259",
+      "38116122",
+      "38895220"
+    ],
+    "review": [
+      "36582986",
+      "32312702",
+      "34765994",
+      "27895806",
+      "25486472",
+      "36313930",
+      "38338756",
+      "32637041",
+      "29579165"
+    ],
+    "pmc": [
+      "9792340"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352-3409(22)01030-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36582986/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36582986",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

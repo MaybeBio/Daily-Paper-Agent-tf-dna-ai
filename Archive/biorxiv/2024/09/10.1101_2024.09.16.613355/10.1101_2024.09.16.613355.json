@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.16.613355",
+  "title": "Prediction and functional interpretation of inter-chromosomal genome architecture from DNA sequence with TwinC",
+  "doi": "10.1101/2024.09.16.613355",
+  "abstract": "Three-dimensional nuclear DNA architecture comprises well-studied intra-chromosomal ( cis ) folding and less characterized inter-chromosomal ( trans ) interfaces. Current predictive models of 3D genome folding can effectively infer pairwise cis -chromatin interactions from the primary DNA sequence but generally ignore trans contacts. There is an unmet need for robust models of trans -genome organization that provide insights into their underlying principles and functional relevance. We present TwinC, an interpretable convolutional neural network model that reliably predicts trans contacts measurable through proximity ligation-dependent ( in situ and intact Hi-C) and independent (DNA SPRITE) genome-wide chromatin conformation assays.. TwinC uses a paired sequence design from replicate Hi-C experiments to learn single base pair relevance in trans interactions across two stretches of DNA. The method achieves high predictive accuracy (AUROC=0.80) on a cross-chromosomal test set from in situ and intact Hi-C experiments in heart tissue. Furthermore, we train TwinC using in situ Hi-C data from the widely used GM12878 cell line and validate its performance with orthogonal DNA SPRITE assay in the same cell type. Mechanistically, the neural network learns the importance of compartments, chromatin accessibility, clustered transcription factor binding and G-quadruplexes in forming trans contacts. In summary, TwinC models and interprets trans genome architecture, shedding light on this poorly understood aspect of gene regulation.",
+  "authors": [
+    "Jha A",
+    "Hristov B",
+    "Wang X",
+    "Wang S",
+    "Greenleaf WJ",
+    "Kundaje A",
+    "Aiden EL",
+    "Bertero A",
+    "Noble WS"
+  ],
+  "published_date": "2024-09-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.16.613355",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.16.613355.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR913536",
+    "raw_record": {
+      "id": "PPR913536",
+      "source": "PPR",
+      "doi": "10.1101/2024.09.16.613355",
+      "title": "Prediction and functional interpretation of inter-chromosomal genome architecture from DNA sequence with TwinC",
+      "authorString": "Jha A, Hristov B, Wang X, Wang S, Greenleaf WJ, Kundaje A, Aiden EL, Bertero A, Noble WS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jha A",
+            "lastName": "Jha",
+            "firstName": "Anupama",
+            "initials": "A"
+          },
+          {
+            "fullName": "Hristov B",
+            "lastName": "Hristov",
+            "firstName": "Borislav",
+            "initials": "B"
+          },
+          {
+            "fullName": "Wang X",
+            "lastName": "Wang",
+            "firstName": "Xiao",
+            "initials": "X"
+          },
+          {
+            "fullName": "Wang S",
+            "lastName": "Wang",
+            "firstName": "Sheng",
+            "initials": "S"
+          },
+          {
+            "fullName": "Greenleaf WJ",
+            "lastName": "Greenleaf",
+            "firstName": "William",
+            "initials": "WJ"
+          },
+          {
+            "fullName": "Kundaje A",
+            "lastName": "Kundaje",
+            "firstName": "Anshul",
+            "initials": "A"
+          },
+          {
+            "fullName": "Aiden EL",
+            "lastName": "Aiden",
+            "firstName": "Erez Lieberman",
+            "initials": "EL"
+          },
+          {
+            "fullName": "Bertero A",
+            "lastName": "Bertero",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4919-9087"
+            }
+          },
+          {
+            "fullName": "Noble WS",
+            "lastName": "Noble",
+            "firstName": "William Stafford",
+            "initials": "WS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7283-4715"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7283-4715"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4919-9087"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Three-dimensional nuclear DNA architecture comprises well-studied intra-chromosomal (  cis ) folding and less characterized inter-chromosomal (  trans ) interfaces. Current predictive models of 3D genome folding can effectively infer pairwise  cis -chromatin interactions from the primary DNA sequence but generally ignore  trans contacts. There is an unmet need for robust models of  trans -genome organization that provide insights into their underlying principles and functional relevance. We present TwinC, an interpretable convolutional neural network model that reliably predicts  trans contacts measurable through proximity ligation-dependent (  in situ and intact Hi-C) and independent (DNA SPRITE) genome-wide chromatin conformation assays.. TwinC uses a paired sequence design from replicate Hi-C experiments to learn single base pair relevance in  trans interactions across two stretches of DNA. The method achieves high predictive accuracy (AUROC=0.80) on a cross-chromosomal test set from  in situ and intact Hi-C experiments in heart tissue. Furthermore, we train TwinC using  in situ Hi-C data from the widely used GM12878 cell line and validate its performance with orthogonal DNA SPRITE assay in the same cell type. Mechanistically, the neural network learns the importance of compartments, chromatin accessibility, clustered transcription factor binding and G-quadruplexes in forming  trans contacts. In summary, TwinC models and interprets  trans genome architecture, shedding light on this poorly understood aspect of gene regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "R01 HG011466",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "UM1 HG011531",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "K99HG013663",
+            "orderIn": 0
+          },
+          {
+            "agency": "ERC Horizon Europe",
+            "grantId": "101076026.",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.16.613355"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42009674",
+            "reference": "Nature communications. 2026 Apr;17(1):5427",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-09-23",
+      "firstPublicationDate": "2024-09-21",
+      "firstIndexDate": "2024-09-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

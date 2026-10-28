@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38512513",
+  "title": "Integrative analysis with machine learning identifies diagnostic and prognostic signatures in neuroblastoma based on differentially DNA methylated enhancers between INSS stage 4 and 4S neuroblastoma.",
+  "authors": "Li, Shan; Mi, Tao; Jin, Liming; Liu, Yimeng; Zhang, Zhaoxia; Wang, Jinkui; Wu, Xin; Ren, Chunnian; Wang, Zhaoying; Kong, Xiangpan; Liu, Jiayan; Luo, Junyi; He, Dawei",
+  "journal": "Journal of cancer research and clinical oncology",
+  "published_date": "2024-03-21",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究利用机器学习整合甲基化增强子与转录组数据构建神经母细胞瘤诊断和预后签名，虽涉及DNA甲基化增强子但非蛋白质-DNA互作或TF-DNA结合建模，方法为纯机器学习特征选择，无三维互作机制研究。",
+  "abstract": "INTRODUCTION: Accumulating evidence demonstrates that aberrant methylation of enhancers is crucial in gene expression profiles across several cancers. However, the latent effect of differently expressed enhancers between INSS stage 4S and 4 neuroblastoma (NB) remains elusive. METHODS: We utilized the transcriptome and methylation data of stage 4S and 4 NB patients to perform Enhancer Linking by Methylation/Expression Relationships (ELMER) analysis, discovering a differently expressed motif within 67 enhancers between stage 4S and 4 NB. Harnessing the 67 motif genes, we established the INSS stage related signature (ISRS) by amalgamating 12 and 10 distinct machine learning (ML) algorithms across 113 and 101 ML combinations to precisely diagnose stage 4 NB among all NB patients and to predict the prognosis of NB patients. Based on risk scores calculated by prognostic ISRS, patients were categorized into high and low-risk groups according to median risk score. We conducted comprehensive comparisons between two risk groups, in terms of clinical applications, immune microenvironment, somatic mutations, immunotherapy, chemotherapy and single-cell analysis. Ultimately, we empirically validated the differential expressions of two ISRS model genes, CAMTA2 and FOXD1, through immunochemistry staining. RESULTS: Through leave-one-out cross-validation, in both feature selection and model construction, we selected the random forest algorithm to diagnose stage 4 NB, and Enet algorithm to develop prognostic ISRS, due to their highest average C-index across five NB cohorts. After validations, the ISRS demonstrated a stable predictive capability, outperforming the previously published NB signatures and several clinic variables. We stratified NB patients into high and low-risk group based on median risk score, which showed the low-risk group with a superior survival outcome, an abundant immune infiltration, a decreased mutation landscape, and an enhanced sensitivity to immunotherapy. Single-cell analysis between two risk groups reveals biologically cellular variations underlying ISRS. Finally, we verified the significantly higher protein levels of CAMTA2 and FOXD1 in stage 4S NB, as well as their protective prognosis value in NB. CONCLUSION: Based on multi-omics data and ML algorithms, we successfully developed the ISRS to enable accurate diagnosis and prognostic stratification in NB, which shed light on molecular mechanisms of spontaneous regression and clinical utilization of ISRS.",
+  "abstract_zh": "引言：越来越多的证据表明，增强子的异常甲基化在多种癌症的基因表达谱中至关重要。然而，INSS 4S期与4期神经母细胞瘤（neuroblastoma, NB）之间差异表达增强子的潜在影响仍不明确。方法：我们利用4S期和4期NB患者的转录组和甲基化数据，进行增强子-甲基化/表达关系连接（Enhancer Linking by Methylation/Expression Relationships, ELMER）分析，在4S期和4期NB之间发现了67个增强子内的差异表达基序。利用这67个基序基因，我们通过整合12种和10种不同的机器学习（machine learning, ML）算法，在113种和101种ML组合中，建立了INSS分期相关特征（INSS stage related signature, ISRS），以精确诊断所有NB患者中的4期NB，并预测NB患者的预后。根据预后ISRS计算的风险评分，患者按中位风险评分被分为高风险组和低风险组。我们在两个风险组之间进行了全面比较，涉及临床应用、免疫微环境、体细胞突变、免疫治疗、化疗和单细胞分析。最终，我们通过免疫组织化学染色，实证验证了两个ISRS模型基因CAMTA2和FOXD1的差异表达。结果：通过留一法交叉验证，在特征选择和模型构建中，我们分别选择了随机森林算法来诊断4期NB，以及Enet算法来开发预后ISRS，因为它们在五个NB队列中具有最高的平均C指数。经过验证，ISRS显示出稳定的预测能力，优于先前发表的NB特征和几个临床变量。我们根据中位风险评分将NB患者分为高风险组和低风险组，结果显示低风险组具有更优的生存结局、丰富的免疫浸润、降低的突变景观以及对免疫治疗增强的敏感性。两个风险组之间的单细胞分析揭示了ISRS背后的生物学细胞变异。最后，我们验证了CAMTA2和FOXD1在4S期NB中的蛋白水平显著升高，以及它们在NB中的保护性预后价值。结论：基于多组学数据和ML算法，我们成功开发了ISRS，以实现NB的准确诊断和预后分层，这为自发消退的分子机制和ISRS的临床应用提供了启示。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38512513/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38512513/",
+  "paper_page_path": "papers/pubmed/38512513/index.html"
+}

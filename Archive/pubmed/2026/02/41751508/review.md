@@ -1,0 +1,139 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the user. No figures, tables, or supplementary materials were included in the submission.
+- **Assessment boundary** This review evaluates the scientific content, methodological rigor, and interpretive validity of the reported genome-wide identification and analysis of MADS-box genes in *Tectona grandis*. The assessment is limited to the text provided; all references to figures, tables, and supplementary files are treated as claims without direct visual verification.
+- **Shared manuscript claim summary** The authors report the identification of 87 MADS-box genes in the teak genome, their classification into Type I (Mα, Mγ) and Type II (MIKC*, MIKCC) clades, the absence of the Mβ clade, conserved motif and exon-intron structure analyses, tissue-specific expression profiling, and structural predictions of floral quartet proteins with molecular dynamics simulations suggesting stable tetramer formation despite an atypical interaction pattern for the Tg-AP3 ortholog.
+- **Visible evidence base** The manuscript text includes descriptions of methods (HMMER searches, CDD/SMART/PROSITE validation, FGENESH reannotation, MEME motif analysis, phylogenetic reconstruction, RNA-seq expression analysis, AlphaFold3 structure prediction, GROMACS molecular dynamics simulations) and results (gene counts, chromosomal distribution, duplication events, exon counts, pI values, expression patterns, structural predictions). No actual data files, figures, tables, or supplementary materials were provided for verification.
+- **Missing materials affecting confidence** All figures (Figures 1-9), all tables (Table 1), and all supplementary tables (Tables S1-S3) are referenced but not provided. The RNA-seq dataset details (accession numbers, sample descriptions, processing pipeline) are not fully described. The AlphaFold3 prediction parameters and GROMACS simulation setup (force field, equilibration protocol, analysis methods) are not described in sufficient detail. The phylogenetic tree construction parameters (model selection method, rate heterogeneity treatment, tree search strategy) are not fully specified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a standard genome-wide identification and characterization of the MADS-box gene family in a woody Lamiaceae species. The work follows established bioinformatics workflows for gene family analysis and adds structural predictions with molecular dynamics simulations as a novel component. The identification of 87 MADS-box genes, the absence of Mβ-type genes, and the expression patterns are potentially useful contributions to the comparative genomics of MADS-box genes in Lamiaceae. However, the manuscript has several significant weaknesses. The phylogenetic analysis relies on a limited set of reference species and does not include a comprehensive sampling of Lamiaceae representatives. The expression analysis is based on publicly available data without clear description of the experimental conditions or biological replicates. The structural predictions and molecular dynamics simulations, while interesting, are presented with insufficient methodological detail to assess their validity. The claim of an "odd mode of protein-protein interaction" for Tg-AP3 is based on a single simulation and requires experimental validation. The discussion overinterprets evolutionary scenarios without robust statistical support. The manuscript would benefit from a more rigorous comparative framework, clearer presentation of the evidence for key claims, and tempering of speculative interpretations.
+- **Who would be interested in the results, and why** Researchers working on MADS-box gene family evolution in angiosperms, particularly those interested in Lamiaceae or woody species, would find the gene inventory and classification useful as a reference. The expression data may be of interest to those studying floral development in teak or related species. The structural predictions of floral quartet proteins could interest researchers studying the molecular basis of the ABCDE model in non-model species. The absence of Mβ-type genes in Lamiaceae adds to the growing body of data on lineage-specific gene family contractions.
+- **Major strengths** The manuscript provides a complete inventory of MADS-box genes in teak using a chromosome-level genome assembly, which is a valuable resource. The combination of phylogenetic classification, motif analysis, and expression profiling follows a comprehensive approach. The inclusion of structural predictions and molecular dynamics simulations represents an attempt to go beyond descriptive analysis toward functional inference. The identification of a potential duplication hotspot on chromosome 12 is an interesting observation. The discussion of Mβ loss in Lamiaceae is thoughtful and connects to broader evolutionary patterns.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to have identified 87 MADS-box genes in the teak genome using HMMER searches with PF00319 and PF09047 profiles, followed by confirmation with CDD, ScanProsite, and SMART.
+  - **Evidence pointer** Section 2.1, Section 3.1, Table 1 (not provided)
+  - **Concern** The identification pipeline is described only briefly. The HMMER search threshold is stated as e-value < 10^-3, which is permissive and may include false positives. The authors state that "a number of TgMADS genes" were reannotated using FGENESH, but the criteria for selecting genes for reannotation are not specified. The confirmation process using CDD, ScanProsite, and SMART is described without details on how discrepancies between tools were resolved. The final count of 87 genes is presented without a clear accounting of how many were identified by each method and how many required manual curation.
+  - **Why it matters** The accuracy of the gene inventory is foundational to all subsequent analyses. If the identification pipeline is not rigorously described and validated, the entire dataset may contain errors that propagate through the phylogenetic, structural, and expression analyses. The permissive e-value threshold and the lack of clarity on reannotation criteria raise concerns about the reliability of the gene set.
+  - **Resolution test** The authors should provide a detailed flowchart of the identification pipeline, including the number of hits at each step, the criteria for reannotation, and the results of the confirmation analyses. They should also provide the complete list of 87 genes with their accession numbers, genomic coordinates, and the evidence supporting their classification as MADS-box genes. A comparison of the HMMER results with those obtained using alternative methods (e.g., BLAST against known MADS-box genes) would strengthen confidence in the gene set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that phylogenetic analysis classified the genes into Type I and Type II MADS-box members, forming four major clades (MIKCC, MIKC*, Mα, and Mγ), with the Mβ-type clade absent.
+  - **Evidence pointer** Section 2.3, Section 3.2, Figures 2-4 (not provided)
+  - **Concern** The phylogenetic analysis is described with minimal methodological detail. The authors state that sequences were aligned using UGENE MUSCLE and MEGA 12, and trees were constructed in MEGA X with 1000 bootstraps using the Jones-Taylor-Thornton model. However, the selection of reference sequences from A. thaliana, S. indicum, and A. trichopoda is not justified. The number of reference sequences per species, the criteria for choosing them, and whether all known MADS-box subfamilies are represented are not stated. The model selection procedure is not described (the JTT model is stated as chosen, but no model testing is mentioned). The handling of alignment gaps and the tree search strategy are not specified. The bootstrap support values for the major clades are not reported in the text.
+  - **Why it matters** The phylogenetic classification is the basis for assigning TgMADS genes to functional groups and for inferring evolutionary relationships. Without a robust phylogenetic analysis with appropriate taxon sampling and model selection, the classification may be unreliable. The absence of Mβ-type genes is a key claim that depends on the phylogenetic analysis being able to detect such genes if they were present.
+  - **Resolution test** The authors should provide the full details of the phylogenetic analysis, including the list of reference sequences used, the alignment length and quality, the model selection procedure, and the bootstrap support values for all major clades. They should also provide the phylogenetic trees as supplementary files with clear labels. A sensitivity analysis using different alignment methods or tree-building algorithms would help confirm the robustness of the classification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that expression profiling across tissues showed that MIKC-type genes were particularly active during flower development, with TgMADS13 showing the highest expression in flower tissues.
+  - **Evidence pointer** Section 2.4, Section 3.4, Figure 6 (not provided)
+  - **Concern** The expression analysis is described very briefly. The authors state that publicly available RNA-seq datasets were downloaded from the GIGA database, but the specific samples, biological replicates, developmental stages, and experimental conditions are not described. The conversion from FPKM to TPM is described, but the original data processing pipeline (alignment, quantification, normalization) is not mentioned. The criteria for defining "active" expression or "high" expression are not stated. The heatmap is described but not shown, and no statistical analysis of differential expression is reported.
+  - **Why it matters** The expression patterns are used to infer functional roles and to support the claim that MADS-box genes are involved in floral development in teak. Without a clear description of the data and analysis, these claims cannot be evaluated. The lack of statistical analysis means that the observed patterns may not be robust.
+  - **Resolution test** The authors should provide detailed information about the RNA-seq datasets, including accession numbers, sample descriptions, biological replicates, and the processing pipeline. They should also provide the full heatmap with gene labels and sample labels, and perform statistical analysis (e.g., differential expression testing) to support their claims about tissue-specific expression.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AlphaFold3 predictions and molecular dynamics simulations showed that T. grandis floral quartet proteins can form stable tetramers that bind to DNA, with Tg-AP3 exhibiting an "odd mode of protein-protein interaction."
+  - **Evidence pointer** Section 2.5, Section 3.5, Figures 7-9 (not provided)
+  - **Concern** The structural prediction and molecular dynamics simulation methods are described with insufficient detail. The AlphaFold3 submission is mentioned, but the confidence metrics (pLDDT, PAE) are not reported. The GROMACS simulation parameters are only partially described (TIP3P water, 0.15 M NaCl, 300 K, 1 bar), but the force field, equilibration protocol, simulation length, and analysis methods are not specified. The claim of an "odd mode of protein-protein interaction" is based on visual inspection of the simulation trajectory, but no quantitative analysis (e.g., contact maps, interaction energies, hydrogen bond analysis) is presented. The functional significance of the perpendicular interaction between Tg-AP3 and Tg-PI is speculative.
+  - **Why it matters** The structural predictions and simulations are presented as a novel contribution of this work. If the methods are not rigorously described and the results not quantitatively analyzed, the claims about tetramer stability and interaction modes are not supported. The interpretation of the "odd" interaction pattern as a potential adaptation requires experimental validation, which the authors acknowledge but do not provide.
+  - **Resolution test** The authors should provide detailed methods for the AlphaFold3 predictions, including confidence metrics and a discussion of regions with low confidence. The GROMACS simulation setup should be fully described, including force field, equilibration protocol, simulation length, and convergence criteria. The analysis of the simulations should include quantitative measures of complex stability (e.g., RMSD, RMSF, contact maps, interaction energies). The claim of an "odd" interaction mode should be supported by comparison with known structures of MADS-box protein complexes.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the absence of Mβ-type genes in T. grandis, S. indicum, and C. americana points to a targeted contraction of this clade in Lamiaceae, potentially linked to specialized seed development strategies.
+  - **Evidence pointer** Section 3.2, Section 4
+  - **Concern** The claim about Mβ loss is based on the absence of such genes in three Lamiaceae species. However, the authors do not provide a comprehensive analysis of Mβ gene presence/absence across a broader sampling of Lamiaceae or Lamiales. The evolutionary scenario proposed (targeted contraction, functional shift, lineage-specific extinction) is speculative and not supported by formal evolutionary analysis (e.g., ancestral state reconstruction, selection analysis). The connection to seed development strategies is not directly tested.
+  - **Why it matters** The Mβ loss is presented as a significant evolutionary finding. Without a broader comparative analysis and formal evolutionary tests, this claim remains speculative. The interpretation may be an artifact of incomplete genome assemblies or annotation errors in the species examined.
+  - **Resolution test** The authors should expand their comparative analysis to include a broader sampling of Lamiaceae and Lamiales species, ideally with chromosome-level genome assemblies. They should perform formal ancestral state reconstruction to test whether Mβ loss is a shared derived character of Lamiaceae. They should also examine whether Mβ genes are present in other species but were missed due to assembly or annotation issues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and includes technical terms (e.g., "MIKCC," "MIKC*," "Mα," "Mγ") without explanation. The significance of the findings for a general biological audience is not clearly stated.
+  - **Required correction** The abstract should briefly explain what MADS-box genes are and why their analysis in teak is important. The clade names should be defined or replaced with more accessible descriptions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The formula for TPM conversion is written as "TPM = FPKM/[sum of all FPKM of a sample] × 10^6." This is not the standard formula for TPM conversion, which typically involves dividing by the sum of transcript lengths. The formula as written may be incorrect.
+  - **Required correction** The authors should verify the formula and provide the correct conversion method. If the standard formula was used, it should be stated correctly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The phylogenetic analysis uses the Jones-Taylor-Thornton (JTT) model, which is a substitution model for amino acid sequences. However, the authors do not describe how the model was selected. The JTT model is a reasonable default, but model selection should be justified.
+  - **Required correction** The authors should describe the model selection procedure or state that the JTT model was used as a default.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Section 3.5
+  - **Issue** The description of the "odd mode of protein-protein interaction" is vague. The authors state that Tg-AP3 interacted with Tg-PI at a perpendicular angle, but do not explain why this is significant or how it was determined.
+  - **Required correction** The authors should provide a clearer description of the interaction, including quantitative measures and a comparison with known MADS-box protein interactions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of the evolutionary significance of Mβ loss is speculative and not well supported by the data presented. The authors should either provide additional analysis or temper their claims.
+  - **Required correction** The authors should either perform additional analyses (e.g., ancestral state reconstruction, selection analysis) or present the Mβ loss as a preliminary observation requiring further investigation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The authors state that "Full consensus sequences comprised HMMR3 score" but this phrase is unclear. It is not clear what "HMMR3 score" refers to.
+  - **Required correction** The authors should clarify this statement or remove it if it is not essential.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 1
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction provides a general overview of MADS-box genes but does not clearly state the specific gap in knowledge that this study addresses. The rationale for studying MADS-box genes in teak specifically is not well articulated.
+  - **Required correction** The authors should more clearly state the specific questions or hypotheses that motivate this study and why teak is an appropriate species for addressing them.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The molecular dynamics simulation is described as being performed for 100 ns, but the convergence of the simulation is not discussed. It is not clear whether 100 ns is sufficient for the system to reach equilibrium.
+  - **Required correction** The authors should provide evidence of convergence (e.g., RMSD plots, energy convergence) or discuss why 100 ns is sufficient.
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1
+  - **Issue** The authors state that 13 TgMADS genes were located on unanchored scaffolds but do not discuss the potential impact of this on the analysis. Unanchored genes may be incomplete or incorrectly assembled.
+  - **Required correction** The authors should discuss the potential limitations of including unanchored genes in the analysis and whether this could affect the conclusions.
+  - **Concern ID** R1-m10
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of the potential role of TgMADS67 in regulating miR172 is based on studies in other species. The authors do not provide any direct evidence for this interaction in teak.
+  - **Required correction** The authors should clearly distinguish between hypotheses based on orthology and direct evidence from teak.
+
+## Risk / unsupported claims
+- The claim of 87 MADS-box genes in teak cannot be fully verified without access to Table 1 and the supplementary data. The identification pipeline is described with insufficient detail to assess its accuracy.
+- The phylogenetic classification into four clades (MIKCC, MIKC*, Mα, Mγ) and the absence of Mβ cannot be verified without the phylogenetic trees (Figures 2-4) and the list of reference sequences.
+- The expression patterns described in Section 3.4 cannot be verified without the heatmap (Figure 6) and the RNA-seq dataset details.
+- The structural predictions and molecular dynamics simulations (Figures 7-9) are described without sufficient methodological detail to assess their validity. The claim of an "odd mode of protein-protein interaction" for Tg-AP3 is based on a single simulation and requires experimental validation.
+- The claim that Mβ loss in Lamiaceae is a "targeted contraction" is speculative and not supported by formal evolutionary analysis.
+- The claim that the ABCDE model is conserved in T. grandis is based on sequence similarity and in silico predictions, not on functional experiments.
+- The statement that "the T. grandis AP3 ortholog had shorter I and K domains and had an odd mode of protein-protein interaction" is presented as a finding but is based on a single computational prediction without experimental confirmation.
+- The discussion of the potential role of TgMADS67 in regulating miR172 is speculative and not supported by direct evidence in teak.
+- The claim that "at least one TgMADS gene was actively expressed in every tissue examined" is presented without statistical support or clear criteria for "active" expression.

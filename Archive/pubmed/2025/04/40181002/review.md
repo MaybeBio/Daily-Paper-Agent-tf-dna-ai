@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, materials and methods, figure legends, and supplementary figure/table references.
+- **Assessment boundary** Scientific content, technical soundness, structural biology claims, biochemical data interpretation, and consistency with the stated conclusions. Editorial or stylistic issues are noted only where they affect clarity or reproducibility.
+- **Shared manuscript claim summary** The authors report the crystal structure of BBH37, a member of the PFam12 protein family from Borrelia burgdorferi, and show that it dimerizes via a disulfide bond involving Cys165, in contrast to BBK01 which dimerizes through its C-terminal region. Despite these different dimerization mechanisms, both proteins retain non-specific DNA-binding activity. The authors use molecular dynamics simulations and site-directed mutagenesis to support their conclusions.
+- **Visible evidence base** Crystal structures of BBH37119-312 (2.20 Å, P21) and BBH37131-312 (2.70 Å, P212121), AlphaFold predictions, gel-filtration chromatography, SDS-PAGE under reducing/non-reducing conditions, ITC binding data, CD spectroscopy, EMSA with 16 mutants, and MD simulations.
+- **Missing materials affecting confidence** Electron density maps (other than the disulfide bond region), refinement statistics table (Table S2), ITC thermograms and fitting details (Table S1, Fig. S3), EMSA raw gel images with all mutant concentrations, MD simulation parameters and convergence criteria, PISA assembly details, and the supplementary videos. The manuscript states that the structures are deposited but does not provide PDB accession codes in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a solid structural study of a second member of the PFam12 family, BBH37, and provides evidence for a distinct dimerization mechanism compared to the previously characterized BBK01. The crystallographic work appears technically sound, and the finding that DNA-binding function is retained despite different dimerization modes is of interest. However, several concerns reduce confidence in the strength of the conclusions. The claim that the disulfide bond is "unique" and the interpretation of the mutagenesis data require more careful quantitative support. The MD simulation analysis is presented in a way that makes the reported RMSD values difficult to interpret, and the functional significance of the observed flexibility is not clearly established. The manuscript would be strengthened by a more rigorous quantitative comparison of the DNA-binding affinities of the different PFam12 members and by a clearer demonstration that the observed structural differences are biologically relevant rather than crystallization artifacts.
+- **Who would be interested in the results, and why** Researchers studying Borrelia burgdorferi biology, particularly those interested in the surface proteome and host-pathogen interactions. The structural biology community, especially those working on small helical DNA-binding proteins and the evolution of protein-protein interaction interfaces. Investigators studying paralogous gene families and functional diversification in bacterial pathogens.
+- **Major strengths** The crystallographic analysis is competently executed, with two crystal forms of BBH37 providing complementary views of the dimer. The comparison between BBK01 and BBH37 is a logical extension of the authors' prior work. The combination of structural, biophysical, and mutational approaches is appropriate for the questions asked. The observation that DNA-binding residues are conserved despite different dimerization modes is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the DNA-binding claim
+  - **Claim pointer** The authors state that "BBH37 is still able to interact with DNA with micromolar affinity" and that mutations in Arg200, Arg204, Arg254, and Arg261 "negatively impacted DNA binding."
+  - **Evidence pointer** Results and discussion, "DNA binding by BBH37" section; Fig. 7; Table S1; Fig. S3
+  - **Concern** The ITC data are only presented as a single Kd value (5.6 μM) for one DNA fragment. No error estimates, replicate numbers, or fitting details are provided. The EMSA results are shown as a single gel image with a wide range of protein:DNA ratios, but no quantification or dose-response analysis is presented. The statement that mutations "negatively impacted DNA binding" is qualitative. For a claim that DNA-binding function is "conserved" despite structural differences, quantitative binding data with appropriate statistics are essential. Without these, the reader cannot assess whether the difference between BBK01 (Kd 0.10-1.42 μM) and BBH37 (Kd 5.6 μM) is functionally meaningful or within experimental variation.
+  - **Why it matters** The central conclusion of the manuscript is that DNA-binding function is retained despite different dimerization mechanisms. This conclusion rests on the quality of the binding data. If the binding affinity of BBH37 is substantially weaker than that of BBK01, the interpretation would shift from "conserved function" to "reduced or altered function." The current presentation does not allow this distinction to be made.
+  - **Resolution test** Provide ITC data with at least three independent titrations, including error estimates and a representative thermogram with fitted curve. For EMSA, provide quantification of band shifts with a binding curve and EC50 values for wild-type and mutant proteins. If ITC is not feasible for all mutants, provide an alternative quantitative binding assay (e.g., fluorescence anisotropy or surface plasmon resonance) for at least the key mutants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of MD simulation results
+  - **Claim pointer** The authors state that "MD simulations revealed significant structural variations, with RMSD values... ranging from 20 to 70 Å" for BBH37119-312, and that this indicates "greater flexibility" compared to BBH37131-312.
+  - **Evidence pointer** Results and discussion, "Molecular dynamics simulations of BBH37 homodimers" section; Fig. 5; Fig. S2
+  - **Concern** RMSD values of 20-70 Å for a protein of approximately 200 residues are extraordinarily large and suggest either a major conformational change, partial unfolding, or dissociation of the dimer during the simulation. The authors do not discuss what structural event corresponds to these large RMSD values. The RMSF values of 7-18 Å are also unusually high for a folded protein. The statement that "backbone measurements for individual chains confirm the robustness of the BBH37131-312 dimer" is not supported by the data shown. The supplementary videos are referenced but not available for review. The interpretation that the observed flexibility is biologically relevant, rather than an artifact of the simulation setup or force field, is not justified.
+  - **Why it matters** The MD simulations are used to support the claim that the dimerization modes differ in their dynamic properties. If the simulations are not stable or if the large RMSD values reflect technical issues, this part of the analysis does not support the conclusions. The authors need to demonstrate that the simulations are converged and that the observed motions are not artifacts.
+  - **Resolution test** Provide RMSD plots for individual chains and for the dimer interface separately. Show representative snapshots from the simulations illustrating the structural changes corresponding to the large RMSD values. Report the simulation time at which the RMSD plateaus and whether the simulations were extended beyond 100 ns to check convergence. Discuss whether the CHARMM36 force field and the simulation conditions are appropriate for this system. If the large RMSD values reflect dimer dissociation, this should be stated explicitly and its relevance to the biological function discussed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation of the disulfide bond
+  - **Claim pointer** The authors state that BBH37 forms a dimer through "a unique disulfide bond" and that this is "an alternative mechanism" to BBK01's C-terminal-mediated dimerization.
+  - **Evidence pointer** Results and discussion, "Dimerization of BBH37 and its comparison with the BBK01 dimer" section; Fig. 3
+  - **Concern** The claim that the disulfide bond is "unique" is not supported by a comprehensive search or discussion of other disulfide-mediated dimerization in bacterial lipoproteins. More importantly, the authors show that mutation of Cys165 to Ala or Ser does not disrupt the dimer (as judged by gel filtration), which indicates that the disulfide bond is not required for dimer formation. The authors state that "Cys165 is not playing a major role for dimer formation or stability," which contradicts the emphasis on the disulfide bond as the "mechanism" of dimerization. The relationship between the disulfide bond and the non-covalent dimer interface is not clearly explained. Is the disulfide bond formed only under oxidizing conditions? Is it present in the periplasm where the protein is localized?
+  - **Why it matters** The title and abstract emphasize the "divergent dimerization mechanisms," with the disulfide bond presented as a key feature of BBH37. If the disulfide bond is dispensable for dimerization, the mechanistic difference between BBK01 and BBH37 is less clear. The authors need to clarify whether the disulfide bond is a structural feature that stabilizes a pre-formed dimer or whether it is the primary driving force for dimerization.
+  - **Resolution test** Provide a clear model for the role of the disulfide bond in BBH37 dimerization. Discuss the redox conditions in the periplasm and whether the disulfide bond is likely to form in vivo. Compare the dimer interfaces of BBK01 and BBH37 in more detail, including a quantitative analysis of the buried surface area and the specific contacts. If the disulfide bond is not required for dimerization, revise the language in the title and abstract to reflect the actual mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Fig. 5
+  - **Evidence pointer** Results and discussion, "Molecular dynamics simulations of BBH37 homodimers" section
+  - **Issue** The RMSD and RMSF values are reported in Ångströms, but the text states "RMSD values... ranging from 20 to 70 Å" without specifying whether these are Cα RMSD or all-atom RMSD. The figure legend should specify the atom selection and the reference structure used for alignment.
+  - **Required correction** Specify in the figure legend and text whether the RMSD and RMSF are calculated for Cα atoms or all atoms, and state the reference structure used for alignment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, "MD simulations" section
+  - **Evidence pointer** Materials and methods, "MD simulations" section
+  - **Issue** The description of the MD simulations lacks key parameters, including the number of water molecules, the box size, the salt concentration details, the equilibration protocol, and the analysis tools used for RMSD and RMSF calculations. The force field version is given as "CHARMM36 (July 2022 version)" which is not a standard designation.
+  - **Required correction** Provide a complete description of the simulation setup, including box dimensions, number of atoms, ion concentration, temperature and pressure coupling details, and the specific tools and commands used for analysis. Use standard force field nomenclature.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Structure deposition
+  - **Evidence pointer** Materials and methods, "Crystallization, data collection, and structure determination" section
+  - **Issue** The PDB accession codes for the two crystal structures are not provided in the manuscript text. The authors state that structures were determined but do not indicate where they have been deposited.
+  - **Required correction** Provide PDB accession codes for both structures in the text and in the abstract if space permits.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of sequence conservation
+  - **Affected element** Fig. 2D
+  - **Evidence pointer** Results and discussion, "Crystal structures of BBH37 and BBK01 as PFam12 members" section
+  - **Issue** The sequence alignment in Fig. 2D is described as showing conserved residues, but the figure is not available for review. The text states that the region determining the C-terminal helix conformation is "conserved, except in BBH37 and BB0844," which is confusing. If the region is conserved in most members but different in BBH37 and BB0844, this should be clarified.
+  - **Required correction** Clarify the sequence conservation statement. If the alignment shows that the key residues are conserved in BBK01, BBG01, and BBJ08 but not in BBH37 and BB0844, state this explicitly.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** ITC data
+  - **Evidence pointer** Results and discussion, "DNA binding by BBH37" section; Table S1
+  - **Issue** The ITC data are presented as a single Kd value without error estimates or the number of replicates. The stoichiometry of binding is not reported for BBH37.
+  - **Required correction** Report the mean and standard deviation from at least three independent ITC experiments, and state the binding stoichiometry (n value) for each experiment.
+- **Technical failings that need to be addressed before the case is established** The quantitative DNA-binding data are insufficient to support the claim of conserved function. The MD simulation analysis needs to be more rigorous, with clear evidence that the simulations are converged and that the observed flexibility is not an artifact. The role of the disulfide bond in dimerization needs to be clarified, as the mutagenesis data suggest it is dispensable.
+- **Assessment against Nature-style criteria** Originality: Moderate. The study provides a second structure from a poorly characterized protein family, but the conceptual advance over the authors' previous work on BBK01 is incremental. Scientific importance: Moderate. The findings contribute to understanding a protein family in a clinically relevant pathogen, but the biological significance of the DNA-binding activity remains unclear. Interdisciplinary readership: Limited. The work will primarily interest structural biologists and Borrelia researchers. Technical soundness: The crystallography appears sound, but the biophysical and computational analyses are not presented with sufficient rigor. Readability for nonspecialists: The manuscript is generally readable, but the significance of the structural differences could be explained more clearly for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural work is valuable, and the comparison between BBK01 and BBH37 is a useful contribution. However, the quantitative binding data and the MD simulation analysis need to be strengthened before the central claims can be fully evaluated.
+
+## Risk / unsupported claims
+- The claim that BBH37 binds DNA with "micromolar affinity" is supported by only a single ITC measurement without error estimates or replicates.
+- The claim that the disulfide bond is "unique" to BBH37 is not supported by a comprehensive comparison with other PFam12 members or other proteins.
+- The statement that the DNA-binding site in BBH37 is located at the "distal ends of the homodimer" is inferred from electrostatic surface potential and mutagenesis but is not directly demonstrated by a co-crystal structure or a definitive binding assay.
+- The biological relevance of the observed dimer flexibility from MD simulations is not established.
+- The claim that BBK01, BBG01, and BBJ08 likely adopt an extended C-terminal helix is based on AlphaFold predictions and sequence alignment, not experimental structures, and should be presented as a prediction rather than a conclusion.

@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "39253493",
+    "doi": "10.1101/2024.08.27.609808",
+    "title": "Machine Learning Uncovers Vascular Endothelial Cell Identity Genes by Expression Regulation Features in Single Cells."
+  },
+  "content": {
+    "abstract": "Deciphering cell identity genes is pivotal to understanding cell differentiation, development, and many diseases involving cell identity dysregulation. Here, we introduce SCIG, a machine-learning method to uncover cell identity genes in single cells. In alignment with recent reports that cell identity genes are regulated with unique epigenetic signatures, we found cell identity genes exhibit distinctive genetic sequence signatures, e.g., unique enrichment patterns of cis-regulatory elements. Using these genetic sequence signatures, along with gene expression information from single-cell RNA-seq data, enables SCIG to uncover the identity genes of a cell without a need for comparison to other cells. Cell identity gene score defined by SCIG surpassed expression value in network analysis to uncover master transcription factors regulating cell identity. Applying SCIG to the human endothelial cell atlas revealed that the tissue microenvironment is a critical supplement to master transcription factors for cell identity refinement. SCIG is publicly available at https://github.com/kaifuchenlab/SCIG , offering a valuable tool for advancing cell differentiation, development, and regenerative medicine research.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arulsamy, Kulandaisamy",
+        "Xia, Bo",
+        "Chen, Hong",
+        "Zhang, Lili",
+        "Chen, Kaifu"
+      ],
+      "short_names": [
+        "Arulsamy K",
+        "Xia B",
+        "Chen H",
+        "Zhang L",
+        "Chen K"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Arulsamy, Kulandaisamy",
+        "short_name": "Arulsamy K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xia, Bo",
+        "short_name": "Xia B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Hong",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Lili",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Kaifu",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Aug 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/10 06:43",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39253493",
+      "40433981",
+      "32483223",
+      "29879919",
+      "37185814",
+      "40761790",
+      "40577680",
+      "24711389",
+      "39633487",
+      "36321557",
+      "38763341",
+      "41572692",
+      "41033661",
+      "41735542",
+      "34991467",
+      "39026663",
+      "21750106",
+      "38950719",
+      "34396096",
+      "39992219",
+      "29986945",
+      "41065575",
+      "40893796",
+      "40397381",
+      "40328901",
+      "41009952",
+      "39507054",
+      "25609699",
+      "40967560",
+      "40296690",
+      "31857203",
+      "41719583",
+      "39697754",
+      "39014455",
+      "35976093",
+      "38664790",
+      "39958919",
+      "40581357",
+      "41542523",
+      "29360936",
+      "34051872",
+      "41139200",
+      "37502967",
+      "34998929",
+      "39748378",
+      "40374866",
+      "41601657",
+      "40330458",
+      "39762897",
+      "38773546",
+      "41208987",
+      "39485283",
+      "40247403",
+      "34244796",
+      "40832611",
+      "41511815",
+      "36083008",
+      "38023329",
+      "41601671",
+      "40895573",
+      "40611978",
+      "41498033",
+      "41733593",
+      "39799269",
+      "29030344",
+      "38712147",
+      "39840076",
+      "24496624",
+      "41230160",
+      "36549922",
+      "40810103",
+      "34048541",
+      "40382513",
+      "37684281",
+      "39697326",
+      "34337051",
+      "41508240",
+      "31627739",
+      "39134412",
+      "38180241",
+      "41006377",
+      "38715516",
+      "41569346",
+      "23482648",
+      "40444783",
+      "30029596",
+      "41006883",
+      "41325188",
+      "31438843",
+      "39991096",
+      "37314324",
+      "31510685",
+      "38979407",
+      "41656832",
+      "40894480",
+      "33761933",
+      "31508207",
+      "40312440",
+      "38791423",
+      "38866896"
+    ],
+    "review": [
+      "39253493",
+      "36321557",
+      "36549922"
+    ],
+    "pmc": [
+      "11383289"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39253493/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.08.27.609808",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

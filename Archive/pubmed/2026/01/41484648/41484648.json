@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "41484648",
+    "doi": "10.1186/s13059-025-03917-8",
+    "title": "Unravelling the progression of the zebrafish primary body axis with reconstructed spatiotemporal transcriptomics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Elucidating the spatiotemporal dynamics of gene expression is essential for understanding complex physiological and pathological processes. Current spatial transcriptomics techniques are hindered by low read depths and limited gene detection. RESULTS: Here, we introduce Palette, a pipeline that infers detailed spatial gene expression patterns from bulk RNA-seq data, utilizing existing spatial transcriptomics data as the sole reference. This method identifies more precise expression patterns by smoothing, imputing and adjusting gene expressions. We apply Palette to reconstruct the zebrafish SpatioTemporal Expression Profiles (zSTEP) by integrating 53-slice serial bulk RNA-seq data from three developmental stages with existing spatial transcriptomics and image references. zSTEP provides a comprehensive cartographic resource for examining gene expression and investigating developmental events within zebrafish embryos. Utilizing machine learning-based screening, we identify key morphogens and transcription factors essential for anteroposterior axis development and characterized their dynamic distribution throughout embryogenesis. In addition, among these transcription factors, Hox family genes are found to be pivotal in anteroposterior axis refinement. Their expression is closely correlated with cellular anteroposterior identities, and hoxb genes may act as central regulators in this process. CONCLUSIONS: This study presents Palette, a pipeline for integrating bulk RNA-seq data and spatial transcriptomics data, and zSTEP, a comprehensive cartographic resource for investigating zebrafish early embryonic development. In addition, key morphogens and transcriptional factors essential for anteroposterior axis establishment and refinement are identified.",
+    "keywords": [
+      "Primary body axis",
+      "Spatial deconvolution",
+      "Spatial transcriptomics",
+      "Spatiotemporal gene expression",
+      "Zebrafish"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Zebrafish/genetics/embryology",
+      "*Transcriptome",
+      "Gene Expression Regulation, Developmental",
+      "*Body Patterning/genetics",
+      "*Gene Expression Profiling/methods",
+      "Embryo, Nonmammalian/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Embryonic Development/genetics",
+      "Spatio-Temporal Analysis",
+      "Zebrafish Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Yang",
+        "Cheng, Tao",
+        "Liu, Xiang",
+        "Fu, Xin-Xin",
+        "Hu, Yang",
+        "Yang, Xian-Fa",
+        "Yang, Ling-En",
+        "Li, Hao-Ran",
+        "Bian, Zhi-Wen",
+        "Jing, Naihe",
+        "Liao, Jie",
+        "Fan, Xiaohui",
+        "Xu, Peng-Fei"
+      ],
+      "short_names": [
+        "Dong Y",
+        "Cheng T",
+        "Liu X",
+        "Fu XX",
+        "Hu Y",
+        "Yang XF",
+        "Yang LE",
+        "Li HR",
+        "Bian ZW",
+        "Jing N",
+        "Liao J",
+        "Fan X",
+        "Xu PF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4810-2730",
+        "ORCID: 0000-0002-7318-8548"
+      ],
+      "affiliations": [
+        "Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Yong Loo Lin School of Medicine, National University of Singapore, Queenstown, Singapore.",
+        "Guangzhou National Laboratory, Guangzhou, China.",
+        "National Key Laboratory of Agricultural Microbiology, Huazhong Agricultural University, Wuhan, China.",
+        "State Key Laboratory of Chinese Medicine Modernization, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, China.",
+        "State Key Laboratory of Chinese Medicine Modernization, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, China.",
+        "Guangzhou National Laboratory, Guangzhou, China.",
+        "State Key Laboratory of Chinese Medicine Modernization, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, China. liaojie@zju.edu.cn.",
+        "Zhejiang Key Laboratory of Chinese Medicine Modernization, Innovation Centre of Yangtze River Delta, Zhejiang University, Jiaxing, China. liaojie@zju.edu.cn.",
+        "Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China. fanxh@zju.edu.cn.",
+        "State Key Laboratory of Chinese Medicine Modernization, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, China. fanxh@zju.edu.cn.",
+        "Zhejiang Key Laboratory of Chinese Medicine Modernization, Innovation Centre of Yangtze River Delta, Zhejiang University, Jiaxing, China. fanxh@zju.edu.cn.",
+        "Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China. pengfei_xu@zju.edu.cn.",
+        "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China. pengfei_xu@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Yang",
+        "short_name": "Dong Y",
+        "identifiers": [
+          "0000-0002-4810-2730"
+        ],
+        "affiliations": [
+          "Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Tao",
+        "short_name": "Cheng T",
+        "identifiers": [],
+        "affiliations": [
+          "Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiang",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xin-Xin",
+        "short_name": "Fu XX",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yang",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yong Loo Lin School of Medicine, National University of Singapore, Queenstown, Singapore."
+        ]
+      },
+      {
+        "full_name": "Yang, Xian-Fa",
+        "short_name": "Yang XF",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou National Laboratory, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ling-En",
+        "short_name": "Yang LE",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Agricultural Microbiology, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hao-Ran",
+        "short_name": "Li HR",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chinese Medicine Modernization, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Zhi-Wen",
+        "short_name": "Bian ZW",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chinese Medicine Modernization, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Naihe",
+        "short_name": "Jing N",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou National Laboratory, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Jie",
+        "short_name": "Liao J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chinese Medicine Modernization, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, China. liaojie@zju.edu.cn.",
+          "Zhejiang Key Laboratory of Chinese Medicine Modernization, Innovation Centre of Yangtze River Delta, Zhejiang University, Jiaxing, China. liaojie@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fan, Xiaohui",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China. fanxh@zju.edu.cn.",
+          "State Key Laboratory of Chinese Medicine Modernization, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, China. fanxh@zju.edu.cn.",
+          "Zhejiang Key Laboratory of Chinese Medicine Modernization, Innovation Centre of Yangtze River Delta, Zhejiang University, Jiaxing, China. fanxh@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Peng-Fei",
+        "short_name": "Xu PF",
+        "identifiers": [
+          "0000-0002-7318-8548"
+        ],
+        "affiliations": [
+          "Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China. pengfei_xu@zju.edu.cn.",
+          "Institute of Genetics and Department of Human Genetics, Zhejiang University School of Medicine, Hangzhou, China. pengfei_xu@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2026 Jan 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/04 06:36",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40258830",
+      "38960406",
+      "37990022",
+      "37967942",
+      "37758947",
+      "37729057",
+      "37544594",
+      "37433294",
+      "37018074",
+      "36657443",
+      "36566249",
+      "36526371",
+      "36310179",
+      "35901961",
+      "35577957",
+      "35512705",
+      "35512701",
+      "35512700",
+      "35132142",
+      "34893632",
+      "34789165",
+      "34493872",
+      "34083791",
+      "34062119",
+      "33603203",
+      "33597522",
+      "33406409",
+      "33139718",
+      "32907848",
+      "32829679",
+      "32243887",
+      "32213808",
+      "31932730",
+      "31848345",
+      "31501331",
+      "31412208",
+      "31278265",
+      "30923225",
+      "30712443",
+      "30670690",
+      "30554902",
+      "30385464",
+      "30154148",
+      "29972792",
+      "29665781",
+      "29130192",
+      "28705896",
+      "28663499",
+      "28626748",
+      "28207000",
+      "27549193",
+      "27508061",
+      "26662366",
+      "26628090",
+      "25867923",
+      "25417113",
+      "25218376",
+      "24681720",
+      "24227677",
+      "24086076",
+      "23801439",
+      "23104886",
+      "22287627",
+      "21669823",
+      "21610036",
+      "20929839",
+      "19910308",
+      "19651306",
+      "16120642",
+      "15829520",
+      "15196956",
+      "14527434",
+      "12925590",
+      "11784012",
+      "11677596",
+      "11124801",
+      "9609821"
+    ],
+    "similar": [
+      "41484648",
+      "23700457",
+      "35512701",
+      "31188878",
+      "28399811",
+      "23499657",
+      "30737690",
+      "37500539",
+      "29700225",
+      "31488564",
+      "26335559",
+      "40468300",
+      "33600438",
+      "24002785",
+      "23922899",
+      "29454044",
+      "16958103",
+      "19615462",
+      "19830785",
+      "41898791",
+      "42475469",
+      "29952749",
+      "41818362",
+      "20212526",
+      "29985950",
+      "23499658",
+      "19876844",
+      "32591080",
+      "30472261",
+      "9551182",
+      "41242647",
+      "39302832",
+      "33197427",
+      "22921661",
+      "16950663",
+      "21858045",
+      "30317609",
+      "22286130",
+      "39995299",
+      "38977847",
+      "32094115",
+      "10725246",
+      "34099733",
+      "41457100",
+      "24335756",
+      "41787119",
+      "40429979",
+      "39427068",
+      "22522081",
+      "21226904",
+      "22087291",
+      "33361814",
+      "28628668",
+      "41353326",
+      "23671670",
+      "15342476",
+      "16457800",
+      "33396047",
+      "41268905",
+      "25151165",
+      "29287281",
+      "24516585",
+      "30125742",
+      "41370630",
+      "29653508",
+      "19035355",
+      "16997637",
+      "34234366",
+      "24751692",
+      "29366809",
+      "24152666",
+      "28327131",
+      "24643012",
+      "27443932",
+      "18442396",
+      "40118721",
+      "38960406",
+      "25266257",
+      "24474627",
+      "15188434",
+      "41546624",
+      "13679919",
+      "22723933",
+      "16510506",
+      "9799433",
+      "22821512",
+      "29945667",
+      "9784608",
+      "24700857",
+      "32969791",
+      "25417113",
+      "21731768",
+      "10556055",
+      "32243887",
+      "40576478",
+      "31747871",
+      "34061173",
+      "23567754",
+      "19284996",
+      "17937393"
+    ],
+    "review": [
+      "41484648",
+      "32591080",
+      "24335756",
+      "41353326"
+    ],
+    "pmc": [
+      "12857030"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03917-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41484648/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

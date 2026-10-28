@@ -1,0 +1,357 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.11.627935",
+  "title": "RegVelo: gene-regulatory-informed dynamics of single cells",
+  "doi": "10.1101/2024.12.11.627935",
+  "abstract": "RNA velocity has emerged as a popular approach for modeling cellular change along the phenotypic landscape but routinely omits regulatory interactions between genes. Conversely, methods that infer gene regulatory networks (GRNs) do not consider the dynamically changing nature of biological systems. To integrate these two currently disconnected fields, we present RegVelo, an end-to-end dynamic, interpretable, and actionable deep learning model that learns a joint model of splicing kinetics and gene regulatory relationships and allows us to perform in silico perturbation predictions. When applied to datasets of the cell cycle, human hematopoiesis, and murine pancreatic endocrinogenesis, RegVelo demonstrates superior predictive power for interactions and perturbation simulations, for example, compared to methods that focus solely on dynamics or GRN inference. To leverage RegVelo’s full potential, we studied the dynamics of zebrafish neural crest development and underlying regulatory mechanisms using our Smart-seq3 dataset and shared gene expression and chromatin accessibility measurements. Using RegVelo’s in silico perturbation predictions, validated by CRISPR/Cas9-mediated knockout and single-cell Perturb-seq, we establish transcription factor tfec as an early driver and elf1 as a novel regulator of pigment cell fate and propose a gene-regulatory circuit involving tfec and elf1 interactions via the toggle-switch model.",
+  "authors": [
+    "Wang W",
+    "Hu Z",
+    "Weiler P",
+    "Mayes S",
+    "Lange M",
+    "Wang J",
+    "Xue Z",
+    "Sauka-Spengler T",
+    "Theis FJ"
+  ],
+  "published_date": "2024-12-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.11.627935",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.11.627935.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR953244",
+    "raw_record": {
+      "id": "PPR953244",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR953244"
+        ]
+      },
+      "doi": "10.1101/2024.12.11.627935",
+      "title": "RegVelo: gene-regulatory-informed dynamics of single cells",
+      "authorString": "Wang W, Hu Z, Weiler P, Mayes S, Lange M, Wang J, Xue Z, Sauka-Spengler T, Theis FJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang W",
+            "lastName": "Wang",
+            "firstName": "Weixu",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany"
+                },
+                {
+                  "affiliation": "TUM School of Life Sciences Weihenstephan, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hu Z",
+            "lastName": "Hu",
+            "firstName": "Zhiyuan",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1688-6032"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Radcliffe Department of Medicine, ; ,"
+                },
+                {
+                  "affiliation": "Medical Research Institute, Frontier Science Center for Immunology and Metabolism, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weiler P",
+            "lastName": "Weiler",
+            "firstName": "Philipp",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0992-7043"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany"
+                },
+                {
+                  "affiliation": "TUM School of Life Sciences Weihenstephan, ,"
+                },
+                {
+                  "affiliation": "School of Computation, Information and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mayes S",
+            "lastName": "Mayes",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7630-9272"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Radcliffe Department of Medicine, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lange M",
+            "lastName": "Lange",
+            "firstName": "Marius",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4846-1266"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany"
+                },
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang J",
+            "lastName": "Wang",
+            "firstName": "Jingye",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xue Z",
+            "lastName": "Xue",
+            "firstName": "Zhengyuan",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-4738-4395"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computation, Information and Technology, , ,"
+                },
+                {
+                  "affiliation": "Institute of Translational Genomics, Helmholtz Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sauka-Spengler T",
+            "lastName": "Sauka-Spengler",
+            "firstName": "Tatjana",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9289-0263"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Radcliffe Department of Medicine, ; ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Theis FJ",
+            "lastName": "Theis",
+            "firstName": "Fabian",
+            "initials": "FJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2419-1943"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Munich, Germany"
+                },
+                {
+                  "affiliation": "TUM School of Life Sciences Weihenstephan, ,"
+                },
+                {
+                  "affiliation": "School of Computation, Information and Technology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7630-9272"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9289-0263"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0992-7043"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1688-6032"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2419-1943"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4846-1266"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-4738-4395"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "RNA velocity has emerged as a popular approach for modeling cellular change along the phenotypic landscape but routinely omits regulatory interactions between genes. Conversely, methods that infer gene regulatory networks (GRNs) do not consider the dynamically changing nature of biological systems. To integrate these two currently disconnected fields, we present RegVelo, an end-to-end dynamic, interpretable, and actionable deep learning model that learns a joint model of splicing kinetics and gene regulatory relationships and allows us to perform in silico perturbation predictions. When applied to datasets of the cell cycle, human hematopoiesis, and murine pancreatic endocrinogenesis, RegVelo demonstrates superior predictive power for interactions and perturbation simulations, for example, compared to methods that focus solely on dynamics or GRN inference. To leverage RegVelo’s full potential, we studied the dynamics of zebrafish neural crest development and underlying regulatory mechanisms using our Smart-seq3 dataset and shared gene expression and chromatin accessibility measurements. Using RegVelo’s in silico perturbation predictions, validated by CRISPR/Cas9-mediated knockout and single-cell Perturb-seq, we establish transcription factor  tfec as an early driver and  elf1 as a novel regulator of pigment cell fate and propose a gene-regulatory circuit involving  tfec and  elf1 interactions via the toggle-switch model.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "215615/Z/19/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.11.627935"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.11.627935"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR953244"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR953244&type=FILE&fileName=EMS201949-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42119563",
+            "reference": "Cell. 2026 Jun;189(12):3773-3800.e44",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS201949",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-12-14",
+      "firstPublicationDate": "2024-12-11",
+      "firstIndexDate": "2024-12-14",
+      "fullTextReceivedDate": "2024-12-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

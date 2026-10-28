@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "42243611",
+    "doi": "10.1007/s10067-026-08190-z",
+    "title": "Identification of potential key efferocytosis-related genes in rheumatoid arthritis using machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is a chronic autoimmune disease characterized by synovial inflammation and joint destruction. Efferocytosis is a critical immune process through which the body clears apoptotic cells. Its dysfunction is closely associated with the development of various autoimmune diseases, but its mechanism in RA remains unclear. This study aims to systematically screen candidate biomarkers based on efferocytosis-related genes (ERGs) in RA by integrating bioinformatics and machine learning approaches, and to conduct preliminary validation at both cellular and clinical levels. METHODS: The GSE55235 and GSE77298 data sets were retrieved from the GEO Database, which were regarded as the training set after merging and batch effect correction. The GSE55457 and GSE12021 data sets were used as the independent validation sets. By intersecting ERGs with differentially expressed genes (DEGs) in RA and control groups, differentially expressed ERGs (DE-ERGs) were identified for further study. Three machine learning algorithms, LASSO, Random Forest, and SVM-RFE, were employed to determine hub genes and evaluate their ability to distinguish RA. The ssGSEA algorithm was utilized to study immune cell infiltration in RA. Additionally, transcription factors (TFs) and miRNAs of hub genes were predicted. qRT-PCR and ELISA were used to validate the expression of key genes in clinical blood samples, and functional experiments were conducted in synovial fibroblasts to explore their biological roles. RESULTS: Three hub genes (PTPN6, CASP1, and CD47) were identified through LASSO, RF, and SVM-RFE algorithms. Hub genes exhibited good distinguishing capability in both the training and validation sets. In addition, immune infiltration analysis demonstrated greatly higher infiltration of immune cells such as B cells, CD8 + T cells, macrophages, DCs, NK cells, and Tregs in the RA group than in the control group. Furthermore, based on 3 hub genes, 13 miRNAs, including hsa-let-7a-5p, hsa-miR-449a, and hsa-miR-424-5p, and 23 TFs, including TFAP2A, YY1, and E2F1, were predicted. In clinical samples, both qRT-PCR and ELISA results showed that PTPN6, CASP1, and CD47 were significantly upregulated in RA patients. Functional experiments further demonstrated that knockdown of PTPN6 significantly enhanced the efferocytosis capacity of synovial fibroblasts, and regulated related signaling pathways and the secretion of inflammatory factors. CONCLUSION: This study identified PTPN6, CASP1, and CD47 as potential efferocytosis-related biomarkers in RA using multiple machine learning methods, and verified their biological functions through clinical samples and in vitro experiments. These findings provide new clues for an in-depth understanding of the mechanism of efferocytosis in RA, and their clinical application value needs to be further verified in larger-scale prospective cohort studies. Key Points * PTPN6, CASP1, and CD47 may be potential efferocytosis-related biomarkers for rheumatoid arthritis. * The infiltration levels of immune cells such as B cells, CD8 + T cells, macrophages, DCs, NK cells, and Tregs were higher in the rheumatoid arthritis group. * Based on 3 hub genes, this study predicted 13 miRNAs and 23 transcription factors.",
+    "keywords": [
+      "Efferocytosis",
+      "Immune infiltration",
+      "Machine learning",
+      "Potential biomarkers",
+      "Rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/genetics/immunology",
+      "Humans",
+      "*Efferocytosis/genetics",
+      "*Machine Learning",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Biomarkers",
+      "Computational Biology",
+      "Synovial Membrane"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zhenlu"
+      ],
+      "short_names": [
+        "Liu Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-7430-4565"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, Taicang Loujiang New City Hospital (Ruijin Hospital, Taicang), 666 East Shanghai Road, Taicang City, 215400, Jiangsu Province, China. zhenluliuzl@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zhenlu",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0009-0004-7430-4565"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Taicang Loujiang New City Hospital (Ruijin Hospital, Taicang), 666 East Shanghai Road, Taicang City, 215400, Jiangsu Province, China. zhenluliuzl@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical rheumatology"
+    ],
+    "journal_abbrev": [
+      "Clin Rheumatol"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/05 00:36",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39793906",
+      "39616227",
+      "39388897",
+      "39242085",
+      "39167629",
+      "39004157",
+      "38313644",
+      "37368493",
+      "36658110",
+      "36440046",
+      "36238290",
+      "35867674",
+      "35400377",
+      "35071503",
+      "34935644",
+      "34767108",
+      "34650569",
+      "33999861",
+      "33868244",
+      "33346115",
+      "32333475",
+      "32251387",
+      "31845355",
+      "31822793",
+      "31722535",
+      "31556339",
+      "31404701",
+      "30846875",
+      "30596879",
+      "30589082",
+      "30458798",
+      "30385537",
+      "30285183",
+      "29946009",
+      "29777212",
+      "29706963",
+      "28612747",
+      "28526580",
+      "28522599",
+      "27900357",
+      "27383913",
+      "27156434",
+      "25605792",
+      "24015866",
+      "23840476",
+      "23619691",
+      "23323831",
+      "22257669",
+      "21414208",
+      "12902472"
+    ],
+    "similar": [
+      "42243611",
+      "36699262",
+      "39170142",
+      "40500570",
+      "39509434",
+      "41116042",
+      "38711508",
+      "36317112",
+      "40238799",
+      "39139563",
+      "40083558",
+      "38573982",
+      "34113405",
+      "39953769",
+      "41887709",
+      "34767108",
+      "39845946",
+      "41816328",
+      "33407587",
+      "38484666",
+      "33604823",
+      "38771826",
+      "39466354",
+      "41913032",
+      "40596265",
+      "34484236",
+      "40665394",
+      "41102315",
+      "40644421",
+      "42393882",
+      "36238290",
+      "40636121",
+      "34477936",
+      "36189314",
+      "41459480",
+      "40475761",
+      "41021591",
+      "34691030",
+      "40849565",
+      "37779906",
+      "41145553",
+      "36045515",
+      "41621689",
+      "41737229",
+      "34583778",
+      "35844557",
+      "36224010",
+      "36717858",
+      "41846910",
+      "36532040",
+      "41680947",
+      "39263286",
+      "38285375",
+      "41146237",
+      "41068798",
+      "39512836",
+      "41479901",
+      "40374866",
+      "40592131",
+      "42003657",
+      "41481752",
+      "41209768",
+      "41052072",
+      "41607310",
+      "41066424",
+      "41963573",
+      "39697326",
+      "38231477",
+      "41392162",
+      "34224029",
+      "37492576",
+      "37732314",
+      "41929818",
+      "39142001",
+      "41957428",
+      "40830558",
+      "38863714",
+      "42015036",
+      "39754246",
+      "33430905",
+      "36110846",
+      "41436831",
+      "33397492",
+      "41291841",
+      "41637423",
+      "41088461",
+      "42302029",
+      "41044520",
+      "41324863",
+      "39375405",
+      "41988156",
+      "42123445",
+      "34536521",
+      "36247278",
+      "39507054",
+      "42274933",
+      "38291374",
+      "41013727",
+      "41760060",
+      "41826854"
+    ],
+    "review": [
+      "42243611"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10067-026-08190-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

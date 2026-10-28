@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "40476676",
+    "doi": "10.1080/21691401.2025.2513893",
+    "title": "Identification of macrophage-associated diagnostic biomarkers and molecular subtypes in gestational diabetes mellitus based on machine learning."
+  },
+  "content": {
+    "abstract": "Gestational diabetes mellitus (GDM) is a common metabolic disorder during pregnancy, involving multiple immune and inflammatory factors. Macrophages play a crucial role in its development. This study integrated scRNA-seq and RNA-seq data to explore macrophage-related diagnostic genes and GDM subtypes. For scRNA-seq data, cell clusters were annotated using the SingleR package and validated with marker gene expression profiles, while hdWGCNA analysis identified three gene modules related to macrophages. A diagnostic model for GDM derived from endothelial cell transcriptomes was constructed by employing a variety of machine learning ensemble algorithms, achieving an AUC of 0.887. The model identified five differentially expressed genes (ZEB2, MALAT1, HEBP1, AHSA1, and TTC3) as potential diagnostic biomarkers. The CB-DSNMF algorithm was proposed to identify two distinct GDM subtypes from RNA-seq data, revealing significant differences in biological behaviours. This algorithm outperformed other baselines in multiple clustering metrics. Mendelian randomisation analysis identified ZEB2 as a gene causally related to GDM risk. A transcription factor (TF)-gene regulatory network was constructed for these genes using the ENCODE database. The study highlights the importance of macrophages in GDM, provides a high-precision diagnostic model, and offers new insights into personalised treatment strategies, contributing to a better understanding of GDM pathophysiology.",
+    "keywords": [
+      "Gestational diabetes mellitus",
+      "immune microenvironment",
+      "machine learning",
+      "macrophages",
+      "non-negative matrix factorisation"
+    ],
+    "mesh_terms": [
+      "*Diabetes, Gestational/genetics/diagnosis",
+      "*Machine Learning",
+      "Humans",
+      "Female",
+      "Pregnancy",
+      "*Macrophages/metabolism",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Kai",
+        "Yuan, Liyun",
+        "Ge, Yongsheng",
+        "Yu, Han",
+        "Zhao, Guoping",
+        "Zhang, Guoqing",
+        "Liu, Guohua"
+      ],
+      "short_names": [
+        "Wei K",
+        "Yuan L",
+        "Ge Y",
+        "Yu H",
+        "Zhao G",
+        "Zhang G",
+        "Liu G"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-4197-5592",
+        "ORCID: 0000-0001-8827-7546",
+        "ORCID: 0009-0007-1810-099X"
+      ],
+      "affiliations": [
+        "Children's Hospital Affiliated to Shandong University, Jinan, China.",
+        "Jinan Children's Hospital, Jinan, China.",
+        "Bio-Med Big Data Center, Shanghai Institute of Nutrition and Health, Chinese Academy of Science, Shanghai, China.",
+        "Medical AI Lab, The First Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Bio-Med Big Data Center, Shanghai Institute of Nutrition and Health, Chinese Academy of Science, Shanghai, China.",
+        "Children's Hospital Affiliated to Shandong University, Jinan, China.",
+        "Jinan Children's Hospital, Jinan, China.",
+        "Children's Hospital Affiliated to Shandong University, Jinan, China.",
+        "Jinan Children's Hospital, Jinan, China.",
+        "Bio-Med Big Data Center, Shanghai Institute of Nutrition and Health, Chinese Academy of Science, Shanghai, China.",
+        "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China.",
+        "Bio-Med Big Data Center, Shanghai Institute of Nutrition and Health, Chinese Academy of Science, Shanghai, China.",
+        "Children's Hospital Affiliated to Shandong University, Jinan, China.",
+        "Jinan Children's Hospital, Jinan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Kai",
+        "short_name": "Wei K",
+        "identifiers": [
+          "0009-0003-4197-5592"
+        ],
+        "affiliations": [
+          "Children's Hospital Affiliated to Shandong University, Jinan, China.",
+          "Jinan Children's Hospital, Jinan, China.",
+          "Bio-Med Big Data Center, Shanghai Institute of Nutrition and Health, Chinese Academy of Science, Shanghai, China.",
+          "Medical AI Lab, The First Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Liyun",
+        "short_name": "Yuan L",
+        "identifiers": [],
+        "affiliations": [
+          "Bio-Med Big Data Center, Shanghai Institute of Nutrition and Health, Chinese Academy of Science, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Yongsheng",
+        "short_name": "Ge Y",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Hospital Affiliated to Shandong University, Jinan, China.",
+          "Jinan Children's Hospital, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Han",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Hospital Affiliated to Shandong University, Jinan, China.",
+          "Jinan Children's Hospital, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Guoping",
+        "short_name": "Zhao G",
+        "identifiers": [],
+        "affiliations": [
+          "Bio-Med Big Data Center, Shanghai Institute of Nutrition and Health, Chinese Academy of Science, Shanghai, China.",
+          "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guoqing",
+        "short_name": "Zhang G",
+        "identifiers": [
+          "0000-0001-8827-7546"
+        ],
+        "affiliations": [
+          "Bio-Med Big Data Center, Shanghai Institute of Nutrition and Health, Chinese Academy of Science, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guohua",
+        "short_name": "Liu G",
+        "identifiers": [
+          "0009-0007-1810-099X"
+        ],
+        "affiliations": [
+          "Children's Hospital Affiliated to Shandong University, Jinan, China.",
+          "Jinan Children's Hospital, Jinan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Artificial cells, nanomedicine, and biotechnology"
+    ],
+    "journal_abbrev": [
+      "Artif Cells Nanomed Biotechnol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 12:33",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "41321403"
+    ],
+    "refs": [],
+    "similar": [
+      "40476676",
+      "31881887",
+      "34104645",
+      "40362233",
+      "38763341",
+      "40374866",
+      "39923303",
+      "33890634",
+      "38347799",
+      "40244418",
+      "40247403",
+      "34254540",
+      "36929799",
+      "40086342",
+      "34190178",
+      "38449866",
+      "39876591",
+      "34025588",
+      "38872139",
+      "39075441",
+      "39113025",
+      "39384856",
+      "37806596",
+      "32626780",
+      "30474315",
+      "40055514",
+      "31886571",
+      "38168840",
+      "38716195",
+      "40131629",
+      "40221404",
+      "38702954",
+      "39221762",
+      "36499008",
+      "39216101",
+      "35505296",
+      "38805609",
+      "37477677",
+      "39978792",
+      "38808722",
+      "39059385",
+      "39014455",
+      "32210913",
+      "40114104",
+      "30645667",
+      "39754258",
+      "34879850",
+      "38147020",
+      "34980149",
+      "40404675",
+      "38962008",
+      "35788016",
+      "31539877",
+      "40122115",
+      "36142536",
+      "40296690",
+      "40328901",
+      "39285345",
+      "39697326",
+      "40082942",
+      "39986418",
+      "30548982",
+      "33351102",
+      "30736847",
+      "29596946",
+      "37965330",
+      "39364414",
+      "30168213",
+      "32174045",
+      "35682375",
+      "40276515",
+      "39926598",
+      "35370940",
+      "40273822",
+      "38460091",
+      "38979407",
+      "38923718",
+      "35124096",
+      "39707003",
+      "38801521",
+      "37515398",
+      "40374840",
+      "24885568",
+      "38372780",
+      "31653266",
+      "35875747",
+      "40421012",
+      "35457094",
+      "33228420",
+      "39408856",
+      "30463081",
+      "39622968",
+      "37070250",
+      "34649307",
+      "39810724",
+      "26110385",
+      "38776154",
+      "39011974",
+      "39375405",
+      "37774429"
+    ],
+    "review": [
+      "40476676",
+      "26110385"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/21691401.2025.2513893?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ZEB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3818",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/21691401.2025.2513893",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

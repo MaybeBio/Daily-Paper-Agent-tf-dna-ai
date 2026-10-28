@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, experimental section)
+- **Assessment boundary** Scientific soundness, technical validity of the computational and experimental methods, support of claims by presented evidence, and suitability for the stated journal context
+- **Shared manuscript claim summary** The authors report molecular dynamics (MD) simulations of a synthetic miniprotein (gaga-Hk-gaga) composed of two zinc finger (ZF) modules and an AT-hook peptide, bound to a composite DNA sequence. They claim the simulations provide a structural view of the complex, identify key interactions (including water-mediated contacts), and that mutational analyses (both in silico and experimental) validate the relevance of specific major-groove contacts. They further claim this demonstrates the utility of MD for studying and designing non-natural DNA-binding miniproteins.
+- **Visible evidence base** Main text, Figures 2–7 (referenced), Tables S1–S6 (referenced), Figure S3–S6 (referenced), experimental methods for peptide synthesis, EMSA, and MD simulations
+- **Missing materials affecting confidence** Supplementary Information (ESI) files, including Figures S3–S6 and Tables S1–S6, are referenced but not provided. Convergence data (Fig. S5) and hydrogen bond occupancy tables are not directly assessable. Raw MD trajectories, force field parameter validation details, and EMSA raw gel images are not available.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of MD simulations to a synthetic DNA-binding miniprotein system, an area where structural data are scarce. The computational approach is reasonable in principle, and the combination of in silico mutation studies with experimental EMSA validation is a strength. However, the central claims regarding the structural model and the interpretation of mutational effects rest heavily on the referenced ESI, which was not provided for assessment. Several technical aspects of the MD protocol and the analysis require clarification or additional validation. The experimental validation is limited to qualitative EMSA band-shift data, and the link between simulated interaction losses and observed binding loss is not quantitatively established. The claim of "first" structural view and the broader utility statement are somewhat overstated given the scope of the evidence. The manuscript is of interest to a specialized audience in computational biophysics and DNA-binding peptide design, but the case is not fully established from the provided materials.
+- **Who would be interested in the results, and why** Researchers in computational chemistry and biophysics studying protein–DNA interactions, particularly those using MD to model non-natural or engineered DNA-binding domains. Also of interest to chemical biologists designing synthetic DNA-binding peptides or miniproteins, as the study demonstrates a workflow for predicting and testing interaction determinants. The findings may inform future rational design of sequence-specific DNA-binding agents.
+- **Major strengths** 1) Addresses a relevant gap: lack of structural information for synthetic ZF-AT-hook miniprotein–DNA complexes. 2) Combines long (500 ns) atomistic MD simulations with explicit solvent and validated force fields (parmbsc1, Amber99SBildn, ZAFF). 3) Integrates computational predictions with experimental EMSA validation for several mutations. 4) Provides a detailed interaction analysis including water-mediated contacts, which is often overlooked. 5) The study is clearly written and the logic from simulation to experiment is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the structural model
+  - **Claim pointer** The authors claim the MD simulation provides "a detailed and realistic structural model" of the gaga-Hk-gaga–DNA complex, with the ZF modules binding the major groove and the AT-hook inserted in the minor groove.
+  - **Evidence pointer** Results and discussion, "Structural model" section; Figures 2 and 3; Figure S5 (convergence); location not provided for specific trajectory frames
+  - **Concern** The structural model is built from a hypothetical assembly using PDB structures (1YUI, 2EZF) and PyMOL, but the manuscript does not describe how the initial complex was constructed in detail, including how the linkers were modeled, how the ZF modules were positioned relative to the DNA, or whether any docking or equilibration was performed to remove steric clashes before production MD. The convergence assessment is only referenced (Fig. S5) and not shown. Without this information, the reliability of the final model as a representative structure is not established.
+  - **Why it matters** The central claim of the paper is that the MD model provides a valid structural view of the complex. If the initial model is biased or the simulation has not converged, all subsequent interaction analyses and mutational interpretations could be artifacts of the starting configuration.
+  - **Resolution test** Provide a detailed description of the model building protocol, including any energy minimization or equilibration steps. Show the RMSD and other convergence metrics (e.g., radius of gyration, per-residue fluctuations) in the main text or ESI. Ideally, run replicate simulations from different initial configurations to demonstrate reproducibility of the key interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mutational conclusions
+  - **Claim pointer** The authors claim that MD simulations of DNA mutations (G13→C, A14→C, A14→G, G15→A) predict loss of specific hydrogen bonds and, in some cases, displacement of the ZF helix, and that these predictions are confirmed by EMSA showing loss of binding.
+  - **Evidence pointer** Results and discussion, "Mutational studies" section; Figures 4–6; Tables S2–S5; location not provided for EMSA gel images
+  - **Concern** The EMSA data are only described qualitatively ("no retarded bands observed"). No quantification (e.g., binding constants, percent bound) is provided, and the raw gel images are not shown. The claim that mutations "result in a drastic effect on DNA binding" is based on absence of visible bands, which could be due to other factors (e.g., protein degradation, aggregation, or non-specific binding). Additionally, the MD simulations for the mutants are not described in detail (e.g., simulation length, number of replicates, whether the same protocol was used). The hydrogen bond occupancy tables (Tables S2–S5) are not provided, so the quantitative support for "loss of interaction" is not assessable.
+  - **Why it matters** The experimental validation is a key part of the paper's claim that the simulations are predictive. Without quantitative binding data and raw gel images, the strength of the validation is unclear. If the EMSA results are not robust, the conclusion that the simulations can predict mutational effects is weakened.
+  - **Resolution test** Provide representative EMSA gels for all mutants and the wild-type, with at least triplicate experiments. Quantify binding (e.g., fraction of bound DNA) and report standard deviations. For the MD mutants, specify simulation lengths, number of replicates, and show hydrogen bond occupancy data in the main text or ESI. Consider performing additional biophysical assays (e.g., fluorescence anisotropy or ITC) to confirm binding affinities.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the computational approach
+  - **Claim pointer** The authors state that "MD simulations have proven very useful to dissect the relevance of single base-amino acid interactions in this type of protein–DNA complexes" and suggest the approach "could be very useful for the rational design of non-natural, DNA binding miniproteins."
+  - **Evidence pointer** Conclusions; Abstract
+  - **Concern** The study is limited to a single miniprotein–DNA complex and a small set of mutations. The claim that the approach is broadly useful for rational design is not supported by the data presented. No prospective design or test of a new miniprotein is shown. The statement is speculative and goes beyond the evidence.
+  - **Why it matters** Overstating the implications of a single case study can mislead readers about the maturity of the computational approach. The paper would be stronger if the claims were more modest and clearly framed as a proof-of-concept.
+  - **Resolution test** Soften the language in the abstract and conclusions to reflect that this is a single case study. Alternatively, add a prospective validation, such as designing a mutant miniprotein predicted to bind a different DNA sequence and testing it experimentally.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** MD simulation protocol
+  - **Evidence pointer** Experimental section, "Molecular dynamics simulations"; location not provided
+  - **Issue** The manuscript does not specify the number of replicate simulations, the random seed used, or whether the 500 ns trajectory was a single run. It also does not state how the "representative snapshot" was chosen beyond RMSD convergence.
+  - **Required correction** Specify the number of replicates, the seed, and the criteria for choosing the representative frame. If only one run was performed, state this explicitly and discuss the limitation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Hydrogen bond analysis
+  - **Evidence pointer** Tables S1–S6; location not provided
+  - **Issue** The hydrogen bond occupancy thresholds (e.g., ">38% of the simulation time") are mentioned, but the criteria for defining a hydrogen bond (distance and angle cutoffs) are only given in the methods. It would be helpful to state the cutoffs in the main text or figure legends for clarity.
+  - **Required correction** Add the hydrogen bond criteria (distance and angle cutoffs) to the main text or the relevant figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental details
+  - **Affected element** EMSA conditions
+  - **Evidence pointer** Experimental section, "EMSA experiments"; location not provided
+  - **Issue** The EMSA methods do not specify the DNA concentration used in the binding reactions (only 75 nM is mentioned), the protein concentration range, or the incubation temperature. This makes it difficult to assess the sensitivity of the assay.
+  - **Required correction** Provide the protein concentration range tested, the incubation temperature, and any other relevant conditions (e.g., binding buffer composition).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of figures
+  - **Affected element** Figures 4–6
+  - **Evidence pointer** Figures 4–6; location not provided
+  - **Issue** The figures are referenced but not shown in the provided text. It is unclear whether the EMSA gels are presented with appropriate controls (e.g., free DNA, positive control with wild-type protein).
+  - **Required correction** Ensure that all EMSA figures include a free-DNA control, a positive control (wild-type protein with consensus DNA), and molecular weight markers if applicable.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of detailed model building and equilibration protocol for the initial complex (R1-M1). 2) No convergence data shown in the main text (only referenced as Fig. S5) (R1-M1). 3) No quantitative EMSA data or raw gel images (R1-M2). 4) No details on MD simulation replicates or seeds (R1-m1). 5) Hydrogen bond occupancy tables not provided (R1-M2, R1-m2). 6) Overstated generalizability claims (R1-M3).
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of MD to a synthetic ZF-AT-hook miniprotein is novel, but the methods are standard and the system is a specific case. Scientific importance: Moderate. The findings are relevant to the design of DNA-binding peptides, but the impact is limited by the single-system focus and lack of quantitative validation. Interdisciplinary readership: Limited. The work will primarily appeal to computational biophysicists and chemical biologists; the broader biological community may find the scope too narrow. Technical soundness: Not fully established from the provided materials. The MD protocol is plausible, but key details and validation data are missing. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the results section assumes familiarity with MD and DNA-binding concepts. Overall, the work is a solid case study but does not yet meet the bar for a high-impact general-interest journal.
+
+## Risk / unsupported claims
+- The claim that the MD simulation provides "a detailed and realistic structural model" is not fully supported without convergence data and model building details (R1-M1).
+- The claim that mutations "result in a drastic effect on DNA binding" is not quantitatively supported by the EMSA data as described (R1-M2).
+- The claim that the approach "could be very useful for the rational design of non-natural, DNA binding miniproteins" is speculative and not demonstrated by prospective design (R1-M3).
+- The statement that "MD simulations on DNA complexes involving non-natural protein binders have not been described" is a strong claim that would require a thorough literature search to verify; the authors do not provide evidence for this assertion.
+- The presence of 35 water molecules at the interface and their "important role" in stabilization is stated without a quantitative analysis (e.g., water residence times, free energy contribution), making this claim weak.

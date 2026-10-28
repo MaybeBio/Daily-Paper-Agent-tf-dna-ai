@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "42280181",
+    "doi": "10.3390/molecules31111877",
+    "title": "Molecular Insights into the Interaction Between Metformin and Caffeine: The Time-Dependent Antagonism and Modulation of p53 Signaling in Cancer Cells."
+  },
+  "content": {
+    "abstract": "Background: Cancer remains a major global health challenge, with treatment efficacy often limited by drug resistance and adverse effects. Drug repurposing offers promising opportunities for developing novel anticancer strategies. This study evaluated the cytotoxic, antiproliferative, and pro-apoptotic effects of metformin and caffeine, administered individually and in combination, in human cancer cell lines, as well as their potential interaction mechanisms. Methods: Human cervical carcinoma (HeLa), lung adenocarcinoma (A549), and colorectal carcinoma (HT29) cell lines were treated with metformin (0.05-50 mM) and caffeine (0.5-5 mM), either alone or in combination, for 24 and 48 h. Cell viability and proliferation were assessed using Trypan Blue and sulforhodamine B (SRB) assays. Apoptosis was analyzed by Annexin V/propidium iodide flow cytometry, and p53 expression in HeLa cells was determined by ELISA. Statistical analysis was performed using a one-way ANOVA followed by Tukey's post hoc test. Results: Metformin induced dose- and time-dependent cytotoxicity in all tested cell lines, with the lowest IC(50) values observed in HeLa and A549 cells after 48 h (2.28 and 3.30 mM, respectively; p < 0.05). Caffeine showed moderate antiproliferative activity, with the strongest effects observed at 2.03 mM in HeLa cells and 2.01 mM in HT29 cells (p < 0.05). The combined treatment produced effects that varied depending on both the cell line and exposure time. At earlier time points, transient synergistic effects were observed in certain cell lines, particularly HeLa cells; however, these effects were not sustained over time. With prolonged exposure, the interaction shifted predominantly toward antagonistic effects, indicating the reduced overall efficacy of the combination compared with the expected additive outcomes. Increased apoptosis and elevated p53 expression further supported the activation of tumor-suppressive pathways. Conclusions: Metformin exhibited significant anticancer activity in vitro, supporting its potential repurposing in oncology. However, the addition of caffeine did not uniformly enhance its efficacy and appeared to exert context-dependent effects. Further in vivo studies are required to confirm the clinical relevance of these findings.",
+    "keywords": [
+      "AMPK",
+      "Chou-Talalay method",
+      "antitumor activity",
+      "apoptosis",
+      "caffeine",
+      "cancer cell lines",
+      "docking",
+      "drug repurposing",
+      "metformin",
+      "molecular docking",
+      "p53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Caffeine/pharmacology/chemistry",
+      "*Metformin/pharmacology/chemistry",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "*Signal Transduction/drug effects",
+      "Apoptosis/drug effects",
+      "Cell Proliferation/drug effects",
+      "Cell Survival/drug effects",
+      "Cell Line, Tumor",
+      "HeLa Cells",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "A549 Cells",
+      "HT29 Cells",
+      "*Neoplasms/drug therapy/metabolism/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeljkovic, Vesna",
+        "Bogavac, Mirjana",
+        "Dekic, Milan",
+        "Minic, Slavisa",
+        "Mahmutovic, Elvis",
+        "Kunkin, Vanja",
+        "Markovic, Zoran",
+        "Karaman, Maja"
+      ],
+      "short_names": [
+        "Zeljkovic V",
+        "Bogavac M",
+        "Dekic M",
+        "Minic S",
+        "Mahmutovic E",
+        "Kunkin V",
+        "Markovic Z",
+        "Karaman M"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-5410-1405",
+        "ORCID: 0000-0002-6801-392X",
+        "ORCID: 0000-0001-5964-049X",
+        "ORCID: 0000-0002-8788-9206"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, State University of Novi Pazar, Vuka Karadzica 9, 36300 Novi Pazar, Serbia.",
+        "Department of Obstetrics and Gynecology, Faculty of Medicine, University of Novi Sad, Hajduk Veljkova 3, 21000 Novi Sad, Serbia.",
+        "Department of Sciences and Mathematics, State University of Novi Pazar, Vuka Karadzica 9, 36300 Novi Pazar, Serbia.",
+        "Department of Biomedical Sciences, State University of Novi Pazar, Vuka Karadzica 9, 36300 Novi Pazar, Serbia.",
+        "Department of Biomedical Sciences, State University of Novi Pazar, Vuka Karadzica 9, 36300 Novi Pazar, Serbia.",
+        "Dorde Joanovic Zrenjanin General Hospital, Dr Vase Savica 5, 23000 Zrenjanin, Serbia.",
+        "Department of Sciences and Mathematics, State University of Novi Pazar, Vuka Karadzica 9, 36300 Novi Pazar, Serbia.",
+        "Department of Biology and Ecology, Faculty of Sciences, University of Novi Sad, Trg Dositeja Obradovica 2, 21000 Novi Sad, Serbia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeljković, Vesna",
+        "short_name": "Zeljković V",
+        "identifiers": [
+          "0009-0003-5410-1405"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, State University of Novi Pazar, Vuka Karadžića 9, 36300 Novi Pazar, Serbia."
+        ]
+      },
+      {
+        "full_name": "Bogavac, Mirjana",
+        "short_name": "Bogavac M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Faculty of Medicine, University of Novi Sad, Hajduk Veljkova 3, 21000 Novi Sad, Serbia."
+        ]
+      },
+      {
+        "full_name": "Dekić, Milan",
+        "short_name": "Dekić M",
+        "identifiers": [
+          "0000-0002-6801-392X"
+        ],
+        "affiliations": [
+          "Department of Sciences and Mathematics, State University of Novi Pazar, Vuka Karadžića 9, 36300 Novi Pazar, Serbia."
+        ]
+      },
+      {
+        "full_name": "Minić, Slaviša",
+        "short_name": "Minić S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, State University of Novi Pazar, Vuka Karadžića 9, 36300 Novi Pazar, Serbia."
+        ]
+      },
+      {
+        "full_name": "Mahmutović, Elvis",
+        "short_name": "Mahmutović E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, State University of Novi Pazar, Vuka Karadžića 9, 36300 Novi Pazar, Serbia."
+        ]
+      },
+      {
+        "full_name": "Kunkin, Vanja",
+        "short_name": "Kunkin V",
+        "identifiers": [],
+        "affiliations": [
+          "Đorđe Joanović Zrenjanin General Hospital, Dr Vase Savića 5, 23000 Zrenjanin, Serbia."
+        ]
+      },
+      {
+        "full_name": "Marković, Zoran",
+        "short_name": "Marković Z",
+        "identifiers": [
+          "0000-0001-5964-049X"
+        ],
+        "affiliations": [
+          "Department of Sciences and Mathematics, State University of Novi Pazar, Vuka Karadžića 9, 36300 Novi Pazar, Serbia."
+        ]
+      },
+      {
+        "full_name": "Karaman, Maja",
+        "short_name": "Karaman M",
+        "identifiers": [
+          "0000-0002-8788-9206"
+        ],
+        "affiliations": [
+          "Department of Biology and Ecology, Faculty of Sciences, University of Novi Sad, Trg Dositeja Obradovića 2, 21000 Novi Sad, Serbia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2026 May 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 06:38",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [
+      "42649852"
+    ],
+    "refs": [
+      "41899438",
+      "40445120",
+      "39817679",
+      "38572751",
+      "34979447",
+      "34862374",
+      "34279386",
+      "33403848",
+      "31664534",
+      "31114366",
+      "31009043",
+      "29554968",
+      "28776086",
+      "28776080",
+      "28602819",
+      "26475449",
+      "26225749",
+      "25774832",
+      "25512053",
+      "25386929",
+      "25347702",
+      "25333032",
+      "24843020",
+      "24393785",
+      "23773243",
+      "22781697",
+      "22436748",
+      "21982300",
+      "21422199",
+      "20444419",
+      "20068163",
+      "19499576",
+      "19399780",
+      "18432654",
+      "18006825",
+      "17638885",
+      "17380161",
+      "17327663",
+      "17062558",
+      "16709440",
+      "15849206",
+      "10773407",
+      "6382953",
+      "2359136"
+    ],
+    "similar": [
+      "42280181",
+      "42280248",
+      "31244286",
+      "41882204",
+      "29078261",
+      "31128995",
+      "28945763",
+      "23376854",
+      "30442142",
+      "33573578",
+      "40440957",
+      "27863471",
+      "41596373",
+      "26494582",
+      "29636600",
+      "28618116",
+      "41895749",
+      "41599145",
+      "40105884",
+      "32990544",
+      "39917927",
+      "40571228",
+      "40780124",
+      "41070604",
+      "40464944",
+      "30221528",
+      "38204258",
+      "42075801",
+      "41800992",
+      "39229997",
+      "25523932",
+      "38415491",
+      "30660711",
+      "38762212",
+      "26847819",
+      "40505838",
+      "31012156",
+      "10534572",
+      "33236135",
+      "15657900",
+      "41749873",
+      "30361551",
+      "21424116",
+      "39561737",
+      "41496260",
+      "29030986",
+      "40615101",
+      "40264514",
+      "41695286",
+      "36999411",
+      "38373066",
+      "41752487",
+      "42353208",
+      "29641445",
+      "23151022",
+      "30556847",
+      "42587827",
+      "28756530",
+      "21776823",
+      "25220870",
+      "41047434",
+      "29073599",
+      "33931028",
+      "40432491",
+      "21510869",
+      "25289772",
+      "41290956",
+      "42429843",
+      "38667315",
+      "34181325",
+      "32546966",
+      "29290491",
+      "41034297",
+      "41896880",
+      "21609436",
+      "29458146",
+      "39931858",
+      "26200271",
+      "41627596",
+      "41806574",
+      "41606268",
+      "41928324",
+      "41408806",
+      "41915377",
+      "41995262",
+      "32356241",
+      "23695170",
+      "40651528",
+      "15601469",
+      "24521149",
+      "22080879",
+      "30387147",
+      "42522833",
+      "41549146",
+      "29275301",
+      "16075278",
+      "39799420",
+      "41832669",
+      "19084933",
+      "27177208"
+    ],
+    "review": [
+      "42280181"
+    ],
+    "pmc": [
+      "13258596"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules31111877",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/caffeine.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Caffeine"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42280181/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

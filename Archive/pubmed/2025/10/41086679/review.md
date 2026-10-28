@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a FOSL2-COL8A1-EMT regulatory axis in colorectal cancer, wherein FOSL2 directly activates COL8A1 transcription, COL8A1 drives EMT and oncogenic phenotypes, and this axis is clinically relevant based on cross-cohort transcriptomic and protein-level correlations.
+- **Visible evidence base** Abstract text only; no datasets, statistical outputs, experimental details, or figure legends provided
+- **Missing materials affecting confidence** Full text, all figures and tables, supplementary data, methods section, statistical analysis details, and raw data availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and clinically relevant regulatory axis in colorectal cancer. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the multi-omics approach, the validity of the mechanistic claims, or the strength of the functional and clinical correlations. Several claims are stated without quantitative support, and the abstract does not provide enough detail to assess technical soundness or reproducibility. The work may be of interest to the CRC and EMT research communities, but the current evidence as presented does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying colorectal cancer biology, EMT regulation, transcriptional control by AP-1 family factors, and extracellular matrix remodeling in tumor progression. Clinicians and translational scientists interested in prognostic biomarkers or therapeutic targets for advanced CRC may also find the work relevant.
+- **Major strengths** The study integrates multiple analytical approaches, which is commendable. The identification of a specific transcription factor (FOSL2) directly regulating a collagen gene (COL8A1) with downstream EMT effects provides a coherent and mechanistically plausible narrative. The combination of in vitro and in vivo functional validation, if properly executed, would strengthen the translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "COL8A1 was consistently overexpressed across independent CRC datasets and correlated with advanced tumor stage, poor patient survival, and strong enrichment of EMT-related transcriptional programs."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states consistent overexpression and correlations across datasets, but provides no effect sizes, statistical significance values, cohort sizes, or details on how "consistently" was defined across datasets. No information is given on whether these correlations were adjusted for confounders such as stage or molecular subtype.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the robustness or clinical relevance of the claimed associations. Overexpression and survival correlations are central to the prognostic biomarker claim, and unsupported statements undermine the translational significance.
+  - **Resolution test** Provide specific statistics (e.g., hazard ratios, p-values, fold changes) for each dataset, describe cohort characteristics, and state whether multivariate analyses were performed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "FOSL2, an AP-1 family transcription factor, directly binds to a conserved high-affinity motif within the COL8A1 promoter and transcriptionally activates its expression."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of direct binding and transcriptional activation is mechanistic and requires experimental support such as ChIP-seq or ChIP-qPCR, reporter assays, and mutagenesis of the putative binding motif. The abstract does not describe any of these experiments or their results.
+  - **Why it matters** Direct transcriptional regulation is a core mechanistic claim. Without evidence of physical binding and functional promoter activation, the proposed FOSL2-COL8A1 regulatory relationship remains correlative.
+  - **Resolution test** Provide ChIP data showing FOSL2 occupancy at the COL8A1 promoter, luciferase reporter assays demonstrating transcriptional activation, and loss-of-function of the binding motif abrogating activation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** "COL8A1 promotes mesenchymal phenotypes, enhances CRC cell migration and invasion in vitro, and promotes tumor growth in vivo."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports functional outcomes but provides no quantitative data, experimental models, or statistical comparisons. It is unclear which cell lines were used, whether knockdown or overexpression approaches were applied, and what in vivo model was employed.
+  - **Why it matters** Functional validation is essential to support the oncogenic role of COL8A1. Without details on experimental design and results, the claims cannot be evaluated for rigor or reproducibility.
+  - **Resolution test** Describe cell lines, perturbation methods, assay types, quantitative results with statistics, and in vivo model details including tumor growth measurements and group sizes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clinical relevance
+  - **Claim pointer** "FOSL2 and COL8A1 exhibit strong co-expression at both mRNA and protein levels in CRC specimens, and FOSL2 silencing suppresses COL8A1 expression."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims co-expression at mRNA and protein levels in patient specimens, but no details are given on sample numbers, tissue types, quantification methods, or statistical significance. The statement that FOSL2 silencing suppresses COL8A1 expression is presented without experimental context.
+  - **Why it matters** Clinical specimen data are critical for translational relevance. Without quantitative and statistical support, the co-expression claim is anecdotal, and the silencing result cannot be separated from potential off-target effects or model-specific artifacts.
+  - **Resolution test** Provide cohort size, IHC or Western blot quantification, correlation statistics, and details of the silencing experiments including knockdown efficiency and specificity controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title uses "novel" and "driving" which are strong claims that may overstate the findings given the evidence presented in the abstract.
+  - **Required correction** Consider tempering the title to reflect the evidence level, such as "identifies a FOSL2-COL8A1-EMT axis associated with colorectal cancer progression."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract mentions "machine learning-based feature prioritization" but does not specify which algorithms were used, how features were selected, or how overfitting was controlled.
+  - **Required correction** Provide algorithm names, validation strategies, and performance metrics in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "high-affinity motif"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The term "high-affinity" implies quantitative binding measurements that are not described in the abstract.
+  - **Required correction** Either provide binding affinity data or rephrase to "predicted conserved motif."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Therapeutic claim
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract nominates COL8A1 as a "therapeutic target" but provides no evidence of druggability or functional rescue by targeting COL8A1.
+  - **Required correction** Soften the therapeutic claim or add preliminary data on target inhibition.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative evidence, experimental details, and statistical support for the central claims of overexpression, direct transcriptional regulation, functional oncogenic effects, and clinical co-expression.
+- **Assessment against Nature-style criteria** Originality: The proposed FOSL2-COL8A1-EMT axis may be novel, but novelty alone is insufficient without robust evidence. Scientific importance: The topic is relevant to CRC progression and EMT, but the importance is not yet established from the abstract. Interdisciplinary readership: The work may appeal to cancer biologists, transcriptional regulators, and ECM researchers, but the abstract does not frame the findings broadly enough for a wide audience. Technical soundness: Cannot be assessed from the abstract; no methods or statistical details are provided. Readability for nonspecialists: The abstract is generally readable, but technical terms such as "nonfibrillar type VIII collagen" and "AP-1 family transcription factor" are used without brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and a coherent narrative, but the absence of quantitative data, experimental details, and statistical support means the claims cannot be evaluated. The authors should provide the full manuscript with complete methods, results, and statistics for a proper assessment.
+
+## Risk / unsupported claims
+- "COL8A1 was consistently overexpressed across independent CRC datasets" is unsupported without dataset details and statistics.
+- "correlated with advanced tumor stage, poor patient survival" is unsupported without effect sizes and p-values.
+- "FOSL2 directly binds to a conserved high-affinity motif" is unsupported without ChIP or binding data.
+- "FOSL2 silencing suppresses COL8A1 expression" is unsupported without experimental details.
+- "COL8A1 promotes mesenchymal phenotypes, enhances CRC cell migration and invasion in vitro, and promotes tumor growth in vivo" is unsupported without quantitative functional data.
+- "FOSL2 and COL8A1 exhibit strong co-expression at both mRNA and protein levels in CRC specimens" is unsupported without sample numbers and statistics.
+- "nominating COL8A1 as a promising prognostic biomarker and therapeutic target" is unsupported without clinical validation or functional inhibition data.

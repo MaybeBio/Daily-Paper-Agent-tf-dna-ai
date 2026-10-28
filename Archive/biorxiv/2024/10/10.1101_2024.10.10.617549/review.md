@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) as provided on bioRxiv
+- **Assessment boundary** Structural and biochemical claims presented in the abstract, results, and discussion sections; methods are described but not independently verified
+- **Shared manuscript claim summary** The authors report cryo-EM structures of SIRT7 bound to nucleosomes with mechanism-based inhibitors at H3K36 and H3K18, revealing an extended N-terminal nucleosome-binding domain and DNA-gyre interactions that confer substrate specificity. They propose that SIRT7 selectivity for H3K36ac over H3K18ac arises from a "closed" nucleosome-bound conformation, and they support this with mutagenesis and activity assays.
+- **Visible evidence base** Abstract, results narrative, discussion, methods summary, figure callouts (Figs. 1–5, Supplementary Figs. 1–21, Supplementary Tables 1), but no actual figures, tables, or supplementary data are included in the provided material
+- **Missing materials affecting confidence** All figures, supplementary figures, tables, and raw data are absent; detailed methods for chemical synthesis, histone purification, and mass spectrometry are referenced but not provided; no coordinates or EM maps are deposited or referenced
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how SIRT7 achieves site-specific deacylation on nucleosomes. The use of mechanism-based crosslinking to trap SIRT7 on nucleosomes is a powerful and appropriate strategy, and the reported structures, if accurate, would represent a significant advance. The proposed model, in which an extended N-terminal domain and DNA-gyre contacts confer specificity, is plausible and mechanistically interesting. However, the provided text alone does not allow verification of the structural interpretations, the quantitative basis for the specificity claims, or the robustness of the mutagenesis data. The manuscript is likely to be of high interest to the chromatin and sirtuin communities, but the evidence as presented is incomplete for a definitive assessment.
+- **Who would be interested in the results, and why** Chromatin biologists studying histone modification and nucleosome recognition; sirtuin researchers investigating deacylase mechanisms and substrate specificity; structural biologists interested in enzyme–nucleosome complexes; cancer biologists exploring SIRT7 as a therapeutic target. The work provides a structural framework for understanding how a chromatin-modifying enzyme achieves site selectivity, which is broadly relevant to gene regulation and drug development.
+- **Major strengths** The study addresses a long-standing question in the sirtuin field with a technically demanding approach. The combination of chemical biology (mechanism-based inhibitors), cryo-EM, and biochemistry is well suited to the problem. The identification of a unique N-terminal nucleosome-binding domain and the proposal of a conformational selection mechanism for substrate specificity are conceptually novel and likely to stimulate further work. The comparative analysis of SIRT6 and SIRT7 binding modes adds evolutionary and mechanistic context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim to have solved cryo-EM structures of SIRT7 bound to nucleosomes at 2.8 Å and 3.5 Å resolution, with detailed models of the N-terminal domain, catalytic domain, and DNA interactions.
+  - **Evidence pointer** Results sections "SIRT7 binds the nucleosome acidic patch and both DNA gyres to target H3K36" and "Targeting H3K18 involves structural changes in both SIRT7 and the nucleosome"; Supplementary Figs. 2–10; Supplementary Table 1
+  - **Concern** The structural claims are central to the manuscript, but no figures, maps, or model statistics are provided in the submitted material. The resolution values are stated, but there is no information on map quality, local resolution, model validation (e.g., MolProbity scores, Ramachandran statistics), or how the mechanism-based crosslink was modeled. Without these data, the structural interpretations cannot be evaluated.
+  - **Why it matters** The entire mechanistic model, including the "closed" versus "open" conformations and the role of specific residues in DNA contacts, rests on the accuracy of the structural models. If the maps are of insufficient quality or the models are overinterpreted, the conclusions would be unsupported.
+  - **Resolution test** Provide the cryo-EM maps, model coordinates, and validation statistics. Show representative density for key interfaces, including the N-terminal domain–acidic patch interaction, the DNA-gyre contacts, and the active site with the crosslink. Demonstrate that the resolution claims are supported by Fourier shell correlation curves and local resolution estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that SIRT7 shows >4-fold higher activity on H3K36ac compared to H3K18ac at 50 nM SIRT7, and that mutations in DNA-binding loops alter substrate selectivity, including an inversion of preference toward H3K18.
+  - **Evidence pointer** Results section "SIRT7 site selectivity relies on specific contacts with DNA"; Fig. 5B–D; Supplementary Fig. 11C
+  - **Concern** The quantitative activity data are described in the text but not shown. The claim of >4-fold selectivity is presented without error bars, replicates, or statistical analysis. The mutagenesis results are described qualitatively, and it is unclear whether the observed changes in selectivity are statistically significant or within experimental noise. The assay conditions (e.g., SIRT7 concentration, time points, substrate concentrations) are not fully described in the provided methods.
+  - **Why it matters** The specificity model depends on the enzymatic data. Without robust quantitative evidence, the conclusion that DNA contacts drive H3K36 selectivity is not established.
+  - **Resolution test** Provide the full activity data with replicates, error bars, and statistical tests. Show dose-response curves or time courses for wild-type and mutant SIRT7 on H3K18ac and H3K36ac nucleosomes. Include details on substrate concentrations, enzyme concentrations, and reaction times. Demonstrate that the selectivity changes are reproducible and significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors propose that SIRT7 adopts distinct conformations when targeting H3K36 versus H3K18, with a 6° DNA bend and a 30° change in helix α2 angle, and that these differences explain substrate specificity.
+  - **Evidence pointer** Results sections "Targeting H3K18 involves structural changes in both SIRT7 and the nucleosome" and "SIRT7 site selectivity relies on specific contacts with DNA"; Fig. 3C; Supplementary Fig. 10B
+  - **Concern** The conformational differences between the two structures are described as functionally significant, but the text does not indicate whether these differences are within the expected coordinate error at the reported resolutions. A 6° DNA bend and a 30° helix angle change may or may not be significant at 3.5 Å resolution, depending on the local map quality and model precision. The authors do not discuss the uncertainty in these measurements.
+  - **Why it matters** If the conformational differences are not robust, the proposed mechanism of specificity through conformational selection would be weakened.
+  - **Resolution test** Provide an analysis of coordinate error (e.g., cross-validated refinement, local RMSD estimates) and demonstrate that the observed conformational differences exceed the uncertainty. Discuss whether the 6° and 30° changes are significant at the reported resolutions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that the mechanism-based crosslinking strategy will be "widely applicable" to other enzyme–substrate complexes.
+  - **Evidence pointer** Discussion section
+  - **Concern** This is a forward-looking statement, but the manuscript does not provide evidence for the generalizability of the approach beyond SIRT7. The success of the strategy may depend on the availability of suitable inhibitor warheads and the ability to incorporate them into full-length proteins, which is not trivial.
+  - **Why it matters** Overstating the applicability of the method could mislead readers. The claim is not central to the main findings but should be tempered.
+  - **Resolution test** Either provide an example of the strategy applied to another enzyme or revise the statement to acknowledge the current limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that the structures "provide a basis for small molecule modulator development," but no docking, virtual screening, or inhibitor studies are presented. This is an overreach.
+  - **Required correction** Rephrase to indicate that the structures may inform future drug design efforts, rather than implying direct evidence for modulator development.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Deacylation assays with Western blot readout" and "Deacylation assays with mass spectrometry readout"
+  - **Issue** The methods sections list antibodies and ion chromatograms but do not specify which ones were used for which experiments. The text ends with "The following antibodies were used:" and "The following ion chromatograms were extracted:" without listing them.
+  - **Required correction** Complete the methods sections with the full lists of antibodies and ion chromatograms, and indicate which experiments used which reagents.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Expression and purification of SIRT7 constructs"
+  - **Issue** The methods state that SIRT7 concentration was determined by SDS-PAGE with BSA standards, but the text does not specify the number of replicates or the precision of this method. Given that activity assays depend on accurate enzyme concentration, this is important.
+  - **Required correction** Provide details on the number of independent determinations and the variability of the concentration measurements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results
+  - **Evidence pointer** Results section "SIRT7 site selectivity relies on specific contacts with DNA"; Fig. 5B–D
+  - **Issue** The text describes differences in activity between mutants but does not report statistical significance or effect sizes.
+  - **Required correction** Add statistical analysis (e.g., t-tests with multiple comparison correction) and report effect sizes or confidence intervals.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Cryo-EM image processing, model building, and refinement"
+  - **Issue** No accession codes for deposited maps or models are provided. This is standard practice for structural biology manuscripts.
+  - **Required correction** Provide deposition numbers for the EM maps and atomic coordinates in the Electron Microscopy Data Bank and Protein Data Bank, or state that they will be made available upon publication.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures, tables, and supplementary data prevents verification of the central structural and biochemical claims. The manuscript cannot be fully assessed without these materials. Specific technical issues include: (1) no model validation statistics or map quality metrics; (2) no quantitative activity data with error analysis; (3) incomplete methods for the activity assays; (4) no discussion of coordinate error in the conformational comparisons; (5) missing lists of antibodies and ion chromatograms in the methods.
+- **Assessment against Nature-style criteria**  
+  *Originality*: The work is original in its use of mechanism-based crosslinking to capture SIRT7 on nucleosomes and in its identification of a unique N-terminal nucleosome-binding domain. This is a novel contribution to the sirtuin and chromatin fields.  
+  *Scientific importance*: The findings have the potential to explain how SIRT7 achieves site-specific deacylation, which is relevant to gene regulation and cancer biology. The proposed mechanism of specificity through DNA-gyre interactions is conceptually new and could influence future studies.  
+  *Interdisciplinary readership*: The topic bridges structural biology, chromatin biology, and enzymology, and would appeal to a broad audience. The use of chemical biology adds an additional dimension.  
+  *Technical soundness*: The approach is technically sound in principle, but the provided text does not allow verification of the structural models or the quantitative claims. The lack of figures and data is a major limitation.  
+  *Readability for nonspecialists*: The text is generally clear, but the results section assumes familiarity with cryo-EM and sirtuin biochemistry. The abstract is accessible, but the discussion could be more explicit about the broader implications for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a sophisticated approach, and the proposed model is plausible. However, the current submission does not provide sufficient evidence to evaluate the structural and biochemical claims. The authors must supply the figures, data, and validation metrics to support their conclusions. If the data are as described, this could be a strong contribution.

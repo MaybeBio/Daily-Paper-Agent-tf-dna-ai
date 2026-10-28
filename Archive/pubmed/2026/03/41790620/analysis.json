@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41790620",
+  "title": "PAH-former: Transfer learning for efficient discovery of pulmonary arterial hypertension-associated genes.",
+  "authors": "Kawakami, Toshinaru; Hosokawa, Sosuke; Ito, Masamichi; Kurozumi, Atsumasa; Tanaka, Ryohei; Minatsuki, Shun; Ishida, Junichi; Isagawa, Takayuki; Kodera, Satoshi; Takeda, Norihiko",
+  "journal": "PloS one",
+  "published_date": "2026-03-06",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用Geneformer微调做肺动脉高压相关基因发现与扰动预测，虽涉及转录因子SOX18但无蛋白质-DNA互作建模，方法为纯转录组深度学习，与本课题TF-DNA互作机制研究无关。",
+  "abstract": "BACKGROUND AND AIMS: Pulmonary arterial hypertension (PAH) is a severe disease with limited effective therapies, making the discovery of new therapeutic targets crucial. While single-cell RNA sequencing (sc-RNA seq) offers a powerful tool for this purpose, its application is hampered by the scarcity of patient samples. This study addresses the problem of how to efficiently identify novel, functionally relevant disease-associated genes from limited publicly available data. METHODS: We employed transfer learning by fine-tuning Geneformer, a deep learning model, with public sc-RNA seq data from patients with PAH to create a specialized model called PAH-former. This model was used to perform in silico perturbation analysis to identify and rank candidate genes predicted to influence the disease state. For validation, we performed RNA interference-mediated knockdown of top novel candidate genes in human pulmonary artery endothelial cells and measured the expression of SRY-Box Transcription Factor 18 (SOX18), a signature gene of pulmonary arterial hypertension. RESULTS: In silico perturbation analysis identified 134 candidate genes whose deletion was predicted to shift cells towards a disease phenotype. These included known disease-related genes as well as many novel ones. Subsequent in vitro validation demonstrated that knockdown of the candidate genes resulted in a significant increase in the expression of SOX18. CONCLUSIONS: Our novel platform, PAH-former, provides a powerful and broadly applicable strategy for disease-related gene discovery. This approach enables the identification and validation of new candidate genes from limited data, promising to advance cell-specific mechanistic insights and accelerate therapeutic development for rare diseases like PAH. (248/300 words).",
+  "abstract_zh": "背景与目的：肺动脉高压（pulmonary arterial hypertension, PAH）是一种严重疾病，有效治疗手段有限，因此发现新的治疗靶点至关重要。尽管单细胞RNA测序（single-cell RNA sequencing, sc-RNA seq）为此提供了强大工具，但其应用受限于患者样本的稀缺性。本研究旨在解决如何从有限的公开数据中高效识别新的、功能相关的疾病相关基因这一问题。方法：我们采用迁移学习，通过微调深度学习模型Geneformer，利用PAH患者的公共sc-RNA seq数据，构建了一个专用模型，称为PAH-former。该模型用于进行计算机模拟扰动分析，以识别并排序预测能影响疾病状态的候选基因。为验证结果，我们在人肺动脉内皮细胞中对排名靠前的新候选基因进行RNA干扰介导的敲低，并测量肺动脉高压特征基因SRY-Box转录因子18（SRY-Box Transcription Factor 18, SOX18）的表达。结果：计算机模拟扰动分析识别出134个候选基因，其缺失被预测会使细胞向疾病表型转变。这些基因包括已知的疾病相关基因以及许多新基因。随后的体外验证表明，敲低候选基因导致SOX18表达显著增加。结论：我们的新平台PAH-former为疾病相关基因发现提供了一种强大且广泛适用的策略。该方法能够从有限数据中识别并验证新候选基因，有望推进细胞特异性机制见解，并加速如PAH等罕见疾病的治疗开发。（248/300字）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41790620/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41790620/",
+  "paper_page_path": "papers/pubmed/41790620/index.html"
+}

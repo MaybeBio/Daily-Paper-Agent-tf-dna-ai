@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "40184012",
+    "doi": "10.1007/s11011-025-01585-y",
+    "title": "Exploring bioactive natural products for treating neurodegenerative diseases: a computational network medicine approach targeting the estrogen signaling pathway in amyotrophic lateral sclerosis and Parkinson's disease."
+  },
+  "content": {
+    "abstract": "Amyotrophic lateral sclerosis (ALS) and Parkinson's disease (PD) share overlapping molecular mechanisms, including estrogen signaling dysregulation, oxidative stress, and neuroinflammation. Standard treatments often lead to adverse effects due to unintended cross-talk with the estrogen signaling pathway. Identifying key regulatory genes and bioactive plant-derived compounds that modulate estrogen signaling without interfering with standard therapies offers a promising neuroprotective strategy. A network medicine and systems biology approach was used, beginning with the screening of 29 medicinal plants for ALS and 49 for PD, identifying 12 shared plants with neuroprotective potential. Bioactive compounds were screened for gene, protein, and pathway interactions, leading to target prediction (846 ALS-related and 690 PD-related targets) and disease association mining, which identified 93 overlapping genes (OGs). Protein-protein interaction (PPI) network analysis and MCODE clustering revealed ESR1, EGFR, and SRC as key hub-bottleneck (HB) genes, further validated via differential gene expression analysis. Gene ontology (GO) and pathway enrichment analyses revealed significant enrichment in estrogen signaling confirming the involvement of HB genes in neurodegenerative disease progression. Differential expression analysis confirmed ESR1 upregulation in ALS but downregulation in PD, suggesting a converse disease-specific regulatory pattern. Gene regulatory network (GRN) analysis identified hsa-miR-145-5p (ALS) and hsa-miR-181a-5p (PD) as key regulators, while FOXC1, GATA2, and TP53 emerged as crucial transcription factors (TFs) influencing disease progression. Molecular docking and MD simulations validated strong and stable interactions of Eupalitin (CYP19A1, -9.0 kcal/mol), Hesperetin (ESR1, -8.1 kcal/mol), and Sumatrol (PIK3CA, -8.9 kcal/mol). These phytochemicals, derived from Rosmarinus officinalis, Artemisia scoparia, Ocimum tenuiflorum, and Indigofera tinctoria, maintained stable hydrogen bonding and hydrophobic interactions for over 30% of a 25 ns simulation, supporting their therapeutic potential. The identification of ESR1, EGFR, and SRC as key targets, alongside estrogen signaling involvement, highlights the need for targeted nutraceutical interventions. These findings pave the way for safer, plant-based therapies that mitigate neurodegeneration while preserving estrogen signaling integrity, offering a promising adjuvant strategy alongside existing treatments.",
+    "keywords": [
+      "Differential gene expression",
+      "Gene ontology (GO)",
+      "Gene regulatory networks",
+      "Molecular Docking",
+      "Molecular simulations.",
+      "Natural products",
+      "Pathway enrichment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Amyotrophic Lateral Sclerosis/drug therapy/metabolism/genetics",
+      "*Parkinson Disease/drug therapy/metabolism/genetics",
+      "*Signal Transduction/drug effects/physiology",
+      "Computational Biology/methods",
+      "*Estrogens/metabolism",
+      "*Biological Products/therapeutic use/pharmacology",
+      "Protein Interaction Maps/drug effects",
+      "Neuroprotective Agents/pharmacology/therapeutic use",
+      "Gene Regulatory Networks/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chowdhury, Mayank Roy",
+        "Reddy, Ramireddy Venkata Sai",
+        "Nampoothiri, Navaneeth K",
+        "Erva, Rajeswara Reddy",
+        "Vijaykumar, Sudarshana Deepa"
+      ],
+      "short_names": [
+        "Chowdhury MR",
+        "Reddy RVS",
+        "Nampoothiri NK",
+        "Erva RR",
+        "Vijaykumar SD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India.",
+        "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India.",
+        "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India.",
+        "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India.",
+        "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India. sudarshanadeepa@nitandhra.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chowdhury, Mayank Roy",
+        "short_name": "Chowdhury MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India."
+        ]
+      },
+      {
+        "full_name": "Reddy, Ramireddy Venkata Sai",
+        "short_name": "Reddy RVS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India."
+        ]
+      },
+      {
+        "full_name": "Nampoothiri, Navaneeth K",
+        "short_name": "Nampoothiri NK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India."
+        ]
+      },
+      {
+        "full_name": "Erva, Rajeswara Reddy",
+        "short_name": "Erva RR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India."
+        ]
+      },
+      {
+        "full_name": "Vijaykumar, Sudarshana Deepa",
+        "short_name": "Vijaykumar SD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology, Tadepalligudem, Andhra Pradesh, 534101, India. sudarshanadeepa@nitandhra.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Metabolic brain disease"
+    ],
+    "journal_abbrev": [
+      "Metab Brain Dis"
+    ],
+    "pub_date": "2025 Apr 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/04 12:30",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42652110",
+      "42515735",
+      "42390689",
+      "41701265",
+      "41330996"
+    ],
+    "refs": [],
+    "similar": [
+      "40184012",
+      "40759849",
+      "40465192",
+      "42295684",
+      "41465132",
+      "41483318",
+      "42421348",
+      "27814735",
+      "40859027",
+      "42515735",
+      "41300749",
+      "41082993",
+      "39792201",
+      "39556279",
+      "41193453",
+      "40676786",
+      "37008787",
+      "41303381",
+      "39556154",
+      "41489701",
+      "38013317",
+      "34746302",
+      "40551052",
+      "40179089",
+      "40779572",
+      "41291978",
+      "41403435",
+      "38919088",
+      "30776463",
+      "41385176",
+      "37345246",
+      "41397323",
+      "38950810",
+      "41533020",
+      "38822913",
+      "37838312",
+      "39392030",
+      "42341349",
+      "42365694",
+      "39222242",
+      "41492010",
+      "38561605",
+      "40924735",
+      "42511539",
+      "39434198",
+      "40783635",
+      "41511918",
+      "41009706",
+      "32435051",
+      "42119334",
+      "41644963",
+      "41326554",
+      "39992538",
+      "34536521",
+      "42075882",
+      "39821175",
+      "38460310",
+      "41288681",
+      "42065764",
+      "38931288",
+      "36104591",
+      "29297292",
+      "41790626",
+      "40543694",
+      "40826767",
+      "41005317",
+      "39539006",
+      "40055645",
+      "38453824",
+      "41591671",
+      "39125368",
+      "41629408",
+      "38310567",
+      "41442003",
+      "41703488",
+      "38761877",
+      "40406126",
+      "41273593",
+      "41930954",
+      "34218797",
+      "41496113",
+      "41052072",
+      "40125411",
+      "40926543",
+      "34284443",
+      "41155161",
+      "37249795",
+      "40186271",
+      "38759074",
+      "40068024",
+      "35278479",
+      "41009659",
+      "38755717",
+      "41150817",
+      "41064833",
+      "40331978",
+      "37287284",
+      "41879392",
+      "40332792",
+      "40508014"
+    ],
+    "review": [
+      "40184012",
+      "39792201"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11011-025-01585-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.13.705743",
+  "title": "DNA binding contributes to dominant-negative effects of a catalytically inactive RecQ4-family helicase",
+  "doi": "10.64898/2026.02.13.705743",
+  "abstract": "DNA inter-strand crosslinks (ICLs) are highly cytotoxic lesions that require coordinated processing for repair. The RecQ4-family helicase Hrq1 promotes ICL repair in Saccharomyces cerevisiae , yet the mechanistic basis of its function remains unclear. Notably, the catalytically inactive hrq1-K318A allele confers greater sensitivity to ICL-inducing agents than deletion of HRQ1 , suggesting a dominant-negative effect. To define the basis of this phenotype, we performed a genetic suppressor screen combined with biochemical and structural analyses. Spontaneous suppressors of hrq1-K318A sensitivity were overwhelmingly intragenic second-site mutations, many of which are predicted to destabilize the protein or impair its ability to bind DNA. In all cases, these mutations alleviated the dominant-negative repair defect. Biochemical characterization of representative mutants, including a rationally designed DNA-binding mutant, demonstrated that disruption of DNA binding suppresses hrq1-K318A toxicity even when protein stability is retained. These findings support a model in which DNA engagement by a catalytically inactive RecQ4-family helicase contributes to dominant-negative interference with DNA repair. More broadly, this work provides insight into how incomplete loss-of-function alleles of human RECQL4 may disrupt genome maintenance pathways. GRAPHICAL ABSTRACT",
+  "authors": [
+    "Robert H. Simmons",
+    "Faith E. McDevitt",
+    "Alexandra Hurlock",
+    "Michael E. Kumcu",
+    "Matthew L. Bochman"
+  ],
+  "published_date": "2026-02-15",
+  "updated_date": "2026-02-15T09:35:10Z",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705743",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705743.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:26:50Z",
+        "timestamp": 1785421610273,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            15
+          ]
+        ]
+      },
+      "reference-count": 90,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                15
+              ]
+            ],
+            "date-time": "2026-02-15T00:00:00Z",
+            "timestamp": 1771113600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R35GM133437"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM133437"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  DNA inter-strand crosslinks (ICLs) are highly cytotoxic lesions that require coordinated processing for repair. The RecQ4-family helicase Hrq1 promotes ICL repair in\n                  <jats:italic>Saccharomyces cerevisiae</jats:italic>\n                  , yet the mechanistic basis of its function remains unclear. Notably, the catalytically inactive\n                  <jats:italic>hrq1-K318A</jats:italic>\n                  allele confers greater sensitivity to ICL-inducing agents than deletion of\n                  <jats:italic>HRQ1</jats:italic>\n                  , suggesting a dominant-negative effect. To define the basis of this phenotype, we performed a genetic suppressor screen combined with biochemical and structural analyses. Spontaneous suppressors of\n                  <jats:italic>hrq1-K318A</jats:italic>\n                  sensitivity were overwhelmingly intragenic second-site mutations, many of which are predicted to destabilize the protein or impair its ability to bind DNA. In all cases, these mutations alleviated the dominant-negative repair defect. Biochemical characterization of representative mutants, including a rationally designed DNA-binding mutant, demonstrated that disruption of DNA binding suppresses\n                  <jats:italic>hrq1-K318A</jats:italic>\n                  toxicity even when protein stability is retained. These findings support a model in which DNA engagement by a catalytically inactive RecQ4-family helicase contributes to dominant-negative interference with DNA repair. More broadly, this work provides insight into how incomplete loss-of-function alleles of human\n                  <jats:italic>RECQL4</jats:italic>\n                  may disrupt genome maintenance pathways.\n                </jats:p>\n                <jats:sec id=\"s1\">\n                  <jats:title>GRAPHICAL ABSTRACT</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" orientation=\"portrait\" fig-type=\"figure\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"705743v2_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.64898/2026.02.13.705743",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            15
+          ]
+        ],
+        "date-time": "2026-02-15T09:35:10Z",
+        "timestamp": 1771148110000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DNA binding contributes to dominant-negative effects of a catalytically inactive RecQ4-family helicase"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "suffix": "III",
+          "given": "Robert H.",
+          "family": "Simmons",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Molecular & Cellular Biochemistry Department, Indiana University, Bloomington, IN 47405, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Faith E.",
+          "family": "McDevitt",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular & Cellular Biochemistry Department, Indiana University, Bloomington, IN 47405, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandra",
+          "family": "Hurlock",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular & Cellular Biochemistry Department, Indiana University, Bloomington, IN 47405, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael E.",
+          "family": "Kumcu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular & Cellular Biochemistry Department, Indiana University, Bloomington, IN 47405, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew L.",
+          "family": "Bochman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular & Cellular Biochemistry Department, Indiana University, Bloomington, IN 47405, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060713-035428"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Abu-Libdeh, B. , Jhujh, S.S. , Dhar, S. , Sommers, J.A. , Datta, A. , Longo, G.M. , Grange, L.J. , Reynolds, J.J. , Cooke, S.L. , McNee, G.S. et al. (2022) RECON syndrome is a genome instability disorder caused by mutations in the DNA helicase RECQL1. J Clin Invest, 132.",
+          "DOI": "10.1172/JCI147301"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1750-1172-5-2"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mad.2004.09.011"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.5",
+          "unstructured": "Langer, K. , Cunniff, C.M. and Kucine, N. (1993) In Adam, M. P. , Bick, S. , Mirzaa, G. M. , Pagon, R. A. , Wallace, S. E. and Amemiya, A. (eds.), GeneReviews((R)), Seattle (WA)."
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "106433",
+          "DOI": "10.1016/j.bpc.2020.106433",
+          "article-title": "Mutations in conserved functional domains of human RecQ helicases are associated with diseases and cancer: A review",
+          "volume": "265",
+          "year": "2020",
+          "journal-title": "Biophys Chem"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "147",
+          "DOI": "10.20517/jtgg.2021.60",
+          "article-title": "Enigmatic role of WRN-RECQL helicase in DNA repair and its implications in cancer",
+          "volume": "6",
+          "year": "2022",
+          "journal-title": "J Transl Genet Genom"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07318-y"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07350-y"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2769-8"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1103-9"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1102-x"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, J. , Situ, Y. , Cai, J. , Liao, W.Y. , Jiang, D.B. , Huang, C.S. , Zheng, J.C. , Peng, L.J. and Lin, H . (2026) Upregulated BLM and RECQL4 in Osteosarcoma: Association with Poor Prognosis, Immune Cell Infiltration, and Inhibitory Effects of Sphingosine Kinase 1 Inhibitor II/Pilaralisib. Immunotargets Ther, 15.",
+          "DOI": "10.2147/ITT.S569823"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "24962",
+          "DOI": "10.1038/s41598-024-75938-5",
+          "article-title": "Synergistic effects of bloom helicase (BLM) inhibitor AO/854 with cisplatin in prostate cancer",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2022.983181"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ma, X.Y. , Xu, H.Q. , Zhao, J.F. , Ruan, Y. and Chen, B . (2022) Discovery of a Novel Bloom’s Syndrome Protein (BLM) Inhibitor Suppressing Growth and Metastasis of Prostate Cancer. Int J Mol Sci, 23.",
+          "DOI": "10.3390/ijms232314798"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "560",
+          "DOI": "10.1038/s41420-025-02834-w",
+          "article-title": "Novel mutations in the RECQL4 gene affect its helicase functions, interactions with the BLM helicase and chemotherapeutics-induced cell death",
+          "volume": "11",
+          "year": "2025",
+          "journal-title": "Cell Death Discov"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "305",
+          "DOI": "10.1159/000516568",
+          "article-title": "Human RecQL4 as a Novel Molecular Target for Cancer Therapy",
+          "volume": "161",
+          "year": "2021",
+          "journal-title": "Cytogenet Genome Res"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yokoyama, H. , Moreno-Andres, D. , Astrinidis, S.A. , Hao, Y. , Weberruss, M. , Schellhaus, A.K. , Lue, H. , Haramoto, Y. , Gruss, O.J. and Antonin, W . (2019) Chromosome alignment maintenance requires the MAP RECQL4, mutated in the Rothmund-Thomson syndrome. Life Sci Alliance, 2.",
+          "DOI": "10.26508/lsa.201800120"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks349"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-10-1743"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.18.10.6102"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "791194",
+          "DOI": "10.3389/fmolb.2021.791194",
+          "article-title": "Molecular Mechanisms of the RECQ4 Pathogenic Mutations",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Front Mol Biosci"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbamcr.2011.01.001"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2013.12.037"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2005.09.005"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiolchem.2008.07.005"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2017.04.003"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA120.013626"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx151"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "234",
+          "DOI": "10.1016/j.ymeth.2022.04.014",
+          "article-title": "Genetic and biochemical interactions of yeast DNA helicases",
+          "volume": "204",
+          "year": "2022",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA118.004092"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nickens, D.G. , Sausen, C.W. and Bochman, M.L . (2019) The Biochemical Activities of the Saccharomyces cerevisiae Pif1 Helicase Are Regulated by Its N-Terminal Domain. Genes (Basel), 10.",
+          "DOI": "10.1101/596098"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.120.401864"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.120.401709"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shumaker, K.A. , Kumcu, M.E. , McDevitt, F.E. , Rogers, C.M. and Bochman, M.L . (2025) A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1DeltaN allele. G3 (Bethesda).",
+          "DOI": "10.1101/2025.07.03.663020"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1010122"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00439-008-0518-4"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-15-2361"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rogers, C.M. , Simmons III, R.H. , Fluhler Thornburg, G.E. , Buehler, N.J. and Bochman, M.L . (2020) Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes. Prog Biophys Mol Biol.",
+          "DOI": "10.1016/j.pbiomolbio.2020.08.005"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/329219a0"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.107.055053"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(86)90483-6"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.44",
+          "first-page": "75",
+          "article-title": "Use of dominant negative constructs to modulate gene expression",
+          "volume": "36",
+          "year": "1998",
+          "journal-title": "Curr Top Dev Biol"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M112132200"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature01230"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.07.009"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac073"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1994.1003"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M208067200"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/cc.9.20.13667"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00362178385380431"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1097-0061(199807)14:10<953::AID-YEA293>3.0.CO;2-U"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm404"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0001078"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meier, J. , Rao, R. , Verkuil, R. , Liu, J. , Sercu, T. and Rives, A . (2021) Language models enable zero-shot prediction of the effects of mutations on protein function. Adv Neur In, 34.",
+          "DOI": "10.1101/2021.07.09.450648"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2025.168967"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0548-6"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2011.75"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0168-9525(00)02024-2"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "504",
+          "DOI": "10.1093/nar/gkaa1174",
+          "article-title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/elps.1150090603"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "1511",
+          "DOI": "10.5012/bkcs.2002.23.11.1511",
+          "article-title": "Highly sensitive and fast protein detection with coomassie brilliant blue in sodium dodecyl sulfate-polyacrylamide gel electrophoresis",
+          "volume": "23",
+          "year": "2002",
+          "journal-title": "B Korean Chem Soc"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae265"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "110496",
+          "DOI": "10.1016/j.jbc.2025.110496",
+          "article-title": "Dimerization of Cdc13 is essential for dynamic DNA exchange on telomeric DNA",
+          "volume": "301",
+          "year": "2025",
+          "journal-title": "J Biol Chem"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "761",
+          "DOI": "10.1007/s00294-021-01190-3",
+          "article-title": "A deep dive into the RecQ interactome: something old and something new",
+          "volume": "67",
+          "year": "2021",
+          "journal-title": "Curr Genet"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms12760"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.120.401396"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "e963429",
+          "DOI": "10.4161/23723548.2014.963429",
+          "article-title": "Roles of DNA helicases in the maintenance of genome integrity",
+          "volume": "1",
+          "year": "2014",
+          "journal-title": "Mol Cell Oncol"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.14158"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1015"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.73",
+          "unstructured": "Van Maldergem, L. , Piard, J. , Larizza, L. and Wang, L.L. (1993) In Adam, M. P. , Feldman, J. , Mirzaa, G. M. , Pagon, R. A. , Wallace, S. E. and Amemiya, A. (eds.), GeneReviews((R)), Seattle (WA)."
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ajmg.1320440604"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks417"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0900604106"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M909511199"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1300390110"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.12.024"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.03.030"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0912986107"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M112.424416"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2016.04.021"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2010.01.006"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2009.13"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0069600"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.87",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ho, S.K.L. , Tong, G.P.Y. , Leung, L.T. , Cheng, S.S.W. , Fu, E.C.H. , Lo, I.F.M. , Liu, A.P.Y. and Luk, H.M . (2025) RECQL4-related Rothmund-Thomson syndrome: A case series and literature review. Cancer Genet, 292-293, 131–136.",
+          "DOI": "10.1016/j.cancergen.2025.02.013"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3892/ol.2018.7860"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.canlet.2017.10.021"
+        },
+        {
+          "key": "2026061601401319000_2026.02.13.705743v2.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ejhg.2008.154"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.13.705743",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            16
+          ]
+        ],
+        "date-time": "2026-06-16T08:40:35Z",
+        "timestamp": 1781599235000
+      },
+      "score": 121.94618,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.02.13.705743"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            15
+          ]
+        ]
+      },
+      "references-count": 90,
+      "URL": "https://doi.org/10.64898/2026.02.13.705743",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

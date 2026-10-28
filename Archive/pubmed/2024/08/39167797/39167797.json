@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "39167797",
+    "doi": "10.1093/bib/bbae410",
+    "title": "TME-NET: an interpretable deep neural network for predicting pan-cancer immune checkpoint inhibitor responses."
+  },
+  "content": {
+    "abstract": "Immunotherapy with immune checkpoint inhibitors (ICIs) is increasingly used to treat various tumor types. Determining patient responses to ICIs presents a significant clinical challenge. Although components of the tumor microenvironment (TME) are used to predict patient outcomes, comprehensive assessments of the TME are frequently overlooked. Using a top-down approach, the TME was divided into five layers-outcome, immune role, cell, cellular component, and gene. Using this structure, a neural network called TME-NET was developed to predict responses to ICIs. Model parameter weights and cell ablation studies were used to investigate the influence of TME components. The model was developed and evaluated using a pan-cancer cohort of 948 patients across four cancer types, with Area Under the Curve (AUC) and accuracy as performance metrics. Results show that TME-NET surpasses established models such as support vector machine and k-nearest neighbors in AUC and accuracy. Visualization of model parameter weights showed that at the cellular layer, Th1 cells enhance immune responses, whereas myeloid-derived suppressor cells and M2 macrophages show strong immunosuppressive effects. Cell ablation studies further confirmed the impact of these cells. At the gene layer, the transcription factors STAT4 in Th1 cells and IRF4 in M2 macrophages significantly affect TME dynamics. Additionally, the cytokine-encoding genes IFNG from Th1 cells and ARG1 from M2 macrophages are crucial for modulating immune responses within the TME. Survival data from immunotherapy cohorts confirmed the prognostic ability of these markers, with p-values <0.01. In summary, TME-NET performs well in predicting immunotherapy responses and offers interpretable insights into the immunotherapy process. It can be customized at https://immbal.shinyapps.io/TME-NET.",
+    "keywords": [
+      "deep learning",
+      "immune checkpoint inhibitor",
+      "immunotherapy",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Immune Checkpoint Inhibitors/therapeutic use/pharmacology",
+      "*Tumor Microenvironment/immunology",
+      "*Neoplasms/immunology",
+      "Neural Networks, Computer",
+      "Immunotherapy"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Xiaobao",
+        "Zhang, Lin",
+        "Fan, Ming",
+        "Li, Lihua"
+      ],
+      "short_names": [
+        "Ding X",
+        "Zhang L",
+        "Fan M",
+        "Li L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5626-7076",
+        "ORCID: 0000-0003-0435-6453"
+      ],
+      "affiliations": [
+        "Institute of Biomedical Engineering and Instrumentation, Hangzhou Dianzi University, Hangzhou 310018, Zhejiang, China.",
+        "Institute of Big Data and Artificial Intelligence in Medicine, School of Electronics and Information Engineering, Taizhou University, Taizhou 318000, Zhejiang, China.",
+        "School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou, 310018, China.",
+        "Institute of Biomedical Engineering and Instrumentation, Hangzhou Dianzi University, Hangzhou 310018, Zhejiang, China.",
+        "Institute of Biomedical Engineering and Instrumentation, Hangzhou Dianzi University, Hangzhou 310018, Zhejiang, China.",
+        "Institute of Biomedical Engineering and Instrumentation, Hangzhou Dianzi University, Hangzhou 310018, Zhejiang, China.",
+        "School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou, 310018, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Xiaobao",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Engineering and Instrumentation, Hangzhou Dianzi University, Hangzhou 310018, Zhejiang, China.",
+          "Institute of Big Data and Artificial Intelligence in Medicine, School of Electronics and Information Engineering, Taizhou University, Taizhou 318000, Zhejiang, China.",
+          "School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou, 310018, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Engineering and Instrumentation, Hangzhou Dianzi University, Hangzhou 310018, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Ming",
+        "short_name": "Fan M",
+        "identifiers": [
+          "0000-0002-5626-7076"
+        ],
+        "affiliations": [
+          "Institute of Biomedical Engineering and Instrumentation, Hangzhou Dianzi University, Hangzhou 310018, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lihua",
+        "short_name": "Li L",
+        "identifiers": [
+          "0000-0003-0435-6453"
+        ],
+        "affiliations": [
+          "Institute of Biomedical Engineering and Instrumentation, Hangzhou Dianzi University, Hangzhou 310018, Zhejiang, China.",
+          "School of Computer Science and Technology, Hangzhou Dianzi University, Hangzhou, 310018, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Jul 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/21 18:41",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "42582347",
+      "42380285",
+      "42034709",
+      "41772662",
+      "41131865",
+      "40563359",
+      "39788975",
+      "39749734"
+    ],
+    "refs": [
+      "38549061",
+      "38019649",
+      "37332039",
+      "36866529",
+      "36724681",
+      "36564797",
+      "36408920",
+      "36321662",
+      "36300619",
+      "35764641",
+      "35753695",
+      "35494249",
+      "35228677",
+      "35121621",
+      "35013211",
+      "34850121",
+      "34685513",
+      "34552244",
+      "34535759",
+      "34221857",
+      "34012451",
+      "33979585",
+      "33782609",
+      "33608497",
+      "33526920",
+      "33199494",
+      "33179754",
+      "33170123",
+      "33125859",
+      "33096023",
+      "33005420",
+      "32873468",
+      "32864131",
+      "32756436",
+      "32036608",
+      "31907445",
+      "31792460",
+      "31525460",
+      "31488176",
+      "31265893",
+      "31126321",
+      "31102428",
+      "30895946",
+      "30755690",
+      "30753825",
+      "30742122",
+      "30643254",
+      "30613266",
+      "30558539",
+      "30013197",
+      "29744030",
+      "29505029",
+      "29485622",
+      "29344893",
+      "29301960",
+      "29295995",
+      "29127120",
+      "29033130",
+      "27939400",
+      "27169994",
+      "26997480",
+      "26430160",
+      "26359337",
+      "26198319",
+      "25444276",
+      "22437870",
+      "20729857",
+      "12370372"
+    ],
+    "similar": [
+      "39167797",
+      "40777041",
+      "41798945",
+      "39726597",
+      "41022600",
+      "40483667",
+      "39511540",
+      "41444960",
+      "39800381",
+      "40874420",
+      "33453147",
+      "39389312",
+      "41436831",
+      "35069581",
+      "42292456",
+      "40187753",
+      "39097091",
+      "34489938",
+      "38343549",
+      "41930781",
+      "40376861",
+      "40883359",
+      "38749538",
+      "40971094",
+      "38822443",
+      "40574864",
+      "36311733",
+      "40345706",
+      "40303328",
+      "36591255",
+      "32457745",
+      "41488652",
+      "40200221",
+      "38226313",
+      "41284319",
+      "41601635",
+      "42475469",
+      "40436260",
+      "38261139",
+      "34601286",
+      "41083896",
+      "33755828",
+      "39751898",
+      "33250900",
+      "41932811",
+      "40918452",
+      "39672019",
+      "33927719",
+      "40714464",
+      "33936117",
+      "28807001",
+      "38903506",
+      "37716991",
+      "38287356",
+      "33953710",
+      "40771813",
+      "39509319",
+      "39455880",
+      "40165405",
+      "40936719",
+      "42305453",
+      "36347190",
+      "42411491",
+      "37031510",
+      "38524135",
+      "41656832",
+      "40429821",
+      "33686787",
+      "39988347",
+      "40312419",
+      "40530896",
+      "40936894",
+      "42244292",
+      "39826024",
+      "32264809",
+      "34230108",
+      "41041061",
+      "41560416",
+      "37531900",
+      "38979627",
+      "36142591",
+      "40423850",
+      "34019806",
+      "38896289",
+      "32902917",
+      "36032075",
+      "34353349",
+      "34305884",
+      "38602256",
+      "41089676",
+      "41687545",
+      "41327461",
+      "39326553",
+      "40380202",
+      "35271882",
+      "36813307",
+      "42112394",
+      "40514448",
+      "40774370",
+      "33514004"
+    ],
+    "review": [
+      "39167797",
+      "40483667",
+      "40874420",
+      "35069581",
+      "42292456",
+      "41930781",
+      "40376861",
+      "32457745",
+      "41284319",
+      "38261139",
+      "41083896",
+      "33755828",
+      "39751898",
+      "33250900",
+      "40918452",
+      "38903506",
+      "33953710",
+      "39509319",
+      "38524135",
+      "33686787",
+      "40530896",
+      "40936894",
+      "41560416",
+      "41089676",
+      "41687545",
+      "39326553",
+      "35271882",
+      "42112394",
+      "40514448"
+    ],
+    "pmc": [
+      "11337220"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

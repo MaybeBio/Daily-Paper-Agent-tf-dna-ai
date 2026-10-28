@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "42510787",
+    "doi": "10.3390/genes17070747",
+    "title": "Identification and Preliminary Clinical Assessment of Key Genes Related to Endoplasmic Reticulum Stress and Autophagy in Minimal Change Disease."
+  },
+  "content": {
+    "abstract": "Background: Minimal change disease (MCD) is a leading cause of childhood nephrotic syndrome. Endoplasmic reticulum stress (ERS) and autophagy are implicated in its pathogenesis, but the precise mechanisms remain unclear. This study aimed to identify ERS and autophagy-related key genes (ERS-RGs and ARGs) in MCD using bioinformatic and experimental approaches. Methods: Transcriptomic data from GSE216841 and GSE246206 were analyzed. ERS-RGs and ARGs were obtained from prior literature. Candidate genes were selected by integrating weighted gene coexpression network analysis and differential expression analysis. Feature genes were identified via protein-protein interaction network analysis and machine learning (Least Absolute Shrinkage and Selection Operator and Boruta). Key genes were validated by expression analysis and receiver operating characteristic evaluation. A multilayer perceptron (MLP) model was constructed, and regulatory networks, immune infiltration, and chemical compound prediction were analyzed. The expression levels of the identified key genes were preliminarily assessed in peripheral blood samples using reverse transcription-quantitative polymerase chain reaction (RT-qPCR). Results:LIG4 and ZRANB3 were identified as key genes, both significantly downregulated in the MCD group, and the gene-based MLP model effectively predicted MCD probability. Overall, 13 significantly different immune cell types (e.g., CD56(+) natural killer and activated dendritic cells) were detected. Regulatory networks (transcription factor-messenger RNA (mRNA) and long non-coding RNA-microRNA-mRNA) and 8 common chemical compounds (e.g., bisphenol A, acetaminophen) targeting these genes were predicted. Notably, peripheral blood RT-qPCR analysis revealed significant LIG4 and ZRANB3 downregulation, suggesting a systemic expression signature. Conclusions:LIG4 and ZRANB3 are key genes associated with ERS and autophagy in MCD, providing insights for diagnosis and targeted therapy.",
+    "keywords": [
+      "LIG4",
+      "ZRANB3",
+      "autophagy",
+      "bioinformatics",
+      "endoplasmic reticulum stress"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Autophagy/genetics",
+      "*Endoplasmic Reticulum Stress/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Transcriptome/genetics",
+      "Protein Interaction Maps/genetics",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Ning",
+        "Chen, Guoqiang",
+        "Xie, Yun",
+        "Zhang, Xiaofei"
+      ],
+      "short_names": [
+        "Jiang N",
+        "Chen G",
+        "Xie Y",
+        "Zhang X"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-3011-6007"
+      ],
+      "affiliations": [
+        "Department of Pediatrics, The Affiliated Northwest Women's and Children's Hospital of Xi'an Jiaotong University Health Science Center, No. 1616, Yanxiang Road, Xi'an 710061, China.",
+        "Department of Pediatrics, The Affiliated Northwest Women's and Children's Hospital of Xi'an Jiaotong University Health Science Center, No. 1616, Yanxiang Road, Xi'an 710061, China.",
+        "Department of Medical Laboratory, The Affiliated Northwest Women's and Children's Hospital of Xi'an Jiaotong University Health Science Center, No. 1616, Yanxiang Road, Xi'an 710061, China.",
+        "Department of Medical Laboratory, The Affiliated Northwest Women's and Children's Hospital of Xi'an Jiaotong University Health Science Center, No. 1616, Yanxiang Road, Xi'an 710061, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Ning",
+        "short_name": "Jiang N",
+        "identifiers": [
+          "0009-0002-3011-6007"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Northwest Women's and Children's Hospital of Xi'an Jiaotong University Health Science Center, No. 1616, Yanxiang Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guoqiang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Affiliated Northwest Women's and Children's Hospital of Xi'an Jiaotong University Health Science Center, No. 1616, Yanxiang Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yun",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, The Affiliated Northwest Women's and Children's Hospital of Xi'an Jiaotong University Health Science Center, No. 1616, Yanxiang Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaofei",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, The Affiliated Northwest Women's and Children's Hospital of Xi'an Jiaotong University Health Science Center, No. 1616, Yanxiang Road, Xi'an 710061, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Jun 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:36",
+    "fetched_at": "2026-10-02 02:42:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42230924",
+      "40913103",
+      "39379539",
+      "39265577",
+      "39226359",
+      "38891801",
+      "37894339",
+      "37795536",
+      "37709773",
+      "37678257",
+      "37285056",
+      "37004747",
+      "36793719",
+      "36708169",
+      "36608921",
+      "36581628",
+      "35408886",
+      "35235339",
+      "34557778",
+      "34520822",
+      "34377049",
+      "34307339",
+      "32942039",
+      "32792490",
+      "32534991",
+      "32065482",
+      "31776985",
+      "30617623",
+      "30610086",
+      "30221706",
+      "30150681",
+      "28894608",
+      "28621305",
+      "27940460",
+      "27407148",
+      "27279884",
+      "26147676",
+      "25605792",
+      "25516281",
+      "25387057",
+      "25281304",
+      "22759634",
+      "20808728",
+      "19114008"
+    ],
+    "similar": [
+      "42510787",
+      "40918403",
+      "41162503",
+      "41731716",
+      "40849369",
+      "42565562",
+      "41188339",
+      "38734758",
+      "40775242",
+      "39671358",
+      "39869603",
+      "40371728",
+      "41833346",
+      "39284931",
+      "42327749",
+      "41905994",
+      "41316541",
+      "38329682",
+      "40619516",
+      "42434863",
+      "40779572",
+      "41185499",
+      "42389985",
+      "41110296",
+      "39586719",
+      "42292425",
+      "42232759",
+      "37525915",
+      "42024670",
+      "40196107",
+      "42254657",
+      "40597456",
+      "41013556",
+      "42009747",
+      "42233387",
+      "42218835",
+      "41044520",
+      "42299589",
+      "40821971",
+      "42295138",
+      "40319218",
+      "41826854",
+      "41866576",
+      "36203606",
+      "42216341",
+      "39150631",
+      "39146558",
+      "41583468",
+      "38162988",
+      "41013856",
+      "41563994",
+      "39139563",
+      "39670237",
+      "41575683",
+      "41052072",
+      "38521147",
+      "40596380",
+      "40469970",
+      "40263537",
+      "39618249",
+      "42265520",
+      "42123445",
+      "40685483",
+      "39953608",
+      "40997906",
+      "41094572",
+      "41246299",
+      "40628511",
+      "35558576",
+      "38789967",
+      "42305270",
+      "41081092",
+      "40973872",
+      "39182484",
+      "39893187",
+      "41088574",
+      "39923360",
+      "40838409",
+      "42059276",
+      "41200172",
+      "41221285",
+      "40171194",
+      "40613560",
+      "39695788",
+      "40207215",
+      "41902830",
+      "40379713",
+      "41286296",
+      "35709926",
+      "40313958",
+      "41277057",
+      "40374866",
+      "41388523",
+      "39142001",
+      "41350988",
+      "42568110",
+      "40425742",
+      "38867322",
+      "42074012",
+      "39609718"
+    ],
+    "review": [
+      "42510787"
+    ],
+    "pmc": [
+      "13409386"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17070747",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42510787/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LIG4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

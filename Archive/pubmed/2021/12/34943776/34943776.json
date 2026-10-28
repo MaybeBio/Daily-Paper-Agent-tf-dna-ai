@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "34943776",
+    "doi": "10.3390/cells10123268",
+    "title": "Deep Learning Analyses to Delineate the Molecular Remodeling Process after Myocardial Infarction."
+  },
+  "content": {
+    "abstract": "Specific proteins and processes have been identified in post-myocardial infarction (MI) pathological remodeling, but a comprehensive understanding of the complete molecular evolution is lacking. We generated microarray data from swine heart biopsies at baseline and 6, 30, and 45 days after infarction to feed machine-learning algorithms. We cross-validated the results using available clinical and experimental information. MI progression was accompanied by the regulation of adipogenesis, fatty acid metabolism, and epithelial-mesenchymal transition. The infarct core region was enriched in processes related to muscle contraction and membrane depolarization. Angiogenesis was among the first morphogenic responses detected as being sustained over time, but other processes suggesting post-ischemic recapitulation of embryogenic processes were also observed. Finally, protein-triggering analysis established the key genes mediating each process at each time point, as well as the complete adverse remodeling response. We modeled the behaviors of these genes, generating a description of the integrative mechanism of action for MI progression. This mechanistic analysis overlapped at different time points; the common pathways between the source proteins and cardiac remodeling involved IGF1R, RAF1, KPCA, JUN, and PTN11 as modulators. Thus, our data delineate a structured and comprehensive picture of the molecular remodeling process, identify new potential biomarkers or therapeutic targets, and establish therapeutic windows during disease progression.",
+    "keywords": [
+      "deep learning",
+      "gene regulation",
+      "myocardial infarction",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Adipogenesis/*genetics",
+      "Algorithms",
+      "Animals",
+      "Biopsy",
+      "Deep Learning",
+      "Disease Models, Animal",
+      "Epithelial-Mesenchymal Transition/*genetics",
+      "Fatty Acids/genetics/metabolism",
+      "Humans",
+      "Microarray Analysis",
+      "Models, Molecular",
+      "Muscle Contraction/genetics",
+      "Myocardial Infarction/*genetics/pathology",
+      "Myocardium/*metabolism/pathology",
+      "Proto-Oncogene Proteins c-jun/genetics",
+      "Proto-Oncogene Proteins c-raf/genetics",
+      "Receptor, IGF Type 1/genetics",
+      "Swine/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Iborra-Egea, Oriol",
+        "Galvez-Monton, Carolina",
+        "Prat-Vidal, Cristina",
+        "Roura, Santiago",
+        "Soler-Botija, Carolina",
+        "Revuelta-Lopez, Elena",
+        "Ferrer-Curriu, Gemma",
+        "Segu-Verges, Cristina",
+        "Mellado-Bergillos, Araceli",
+        "Gomez-Puchades, Pol",
+        "Gastelurrutia, Paloma",
+        "Bayes-Genis, Antoni"
+      ],
+      "short_names": [
+        "Iborra-Egea O",
+        "Galvez-Monton C",
+        "Prat-Vidal C",
+        "Roura S",
+        "Soler-Botija C",
+        "Revuelta-Lopez E",
+        "Ferrer-Curriu G",
+        "Segu-Verges C",
+        "Mellado-Bergillos A",
+        "Gomez-Puchades P",
+        "Gastelurrutia P",
+        "Bayes-Genis A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2254-9371",
+        "ORCID: 0000-0002-5621-1101",
+        "ORCID: 0000-0002-8215-872X"
+      ],
+      "affiliations": [
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+        "Faculty of Medicine, University of Vic-Central University of Catalonia, 08500 Vic, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "Anaxomics Biotech S.L., Diputacio 237 1r 1a, 08007 Barcelona, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+        "Institut d'Investigacio Biomedica de Bellvitge-IDIBELL, 08007 Barcelona, Spain.",
+        "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autonoma de Barcelona, 08916 Barcelona, Spain.",
+        "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+        "Cardiology Service, Germans Trias i Pujol University Hospital, 08916 Badalona, Spain.",
+        "Department of Medicine, Autonomous University of Barcelona, 08916 Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Iborra-Egea, Oriol",
+        "short_name": "Iborra-Egea O",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Gálvez-Montón, Carolina",
+        "short_name": "Gálvez-Montón C",
+        "identifiers": [
+          "0000-0003-2254-9371"
+        ],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain.",
+          "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Prat-Vidal, Cristina",
+        "short_name": "Prat-Vidal C",
+        "identifiers": [
+          "0000-0002-5621-1101"
+        ],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain.",
+          "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Roura, Santiago",
+        "short_name": "Roura S",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain.",
+          "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+          "Faculty of Medicine, University of Vic-Central University of Catalonia, 08500 Vic, Spain."
+        ]
+      },
+      {
+        "full_name": "Soler-Botija, Carolina",
+        "short_name": "Soler-Botija C",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain.",
+          "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Revuelta-López, Elena",
+        "short_name": "Revuelta-López E",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain.",
+          "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Ferrer-Curriu, Gemma",
+        "short_name": "Ferrer-Curriu G",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Segú-Vergés, Cristina",
+        "short_name": "Segú-Vergés C",
+        "identifiers": [
+          "0000-0002-8215-872X"
+        ],
+        "affiliations": [
+          "Anaxomics Biotech S.L., Diputació 237 1r 1a, 08007 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Mellado-Bergillos, Araceli",
+        "short_name": "Mellado-Bergillos A",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Gomez-Puchades, Pol",
+        "short_name": "Gomez-Puchades P",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain.",
+          "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Gastelurrutia, Paloma",
+        "short_name": "Gastelurrutia P",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain.",
+          "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+          "Institut d'Investigació Biomèdica de Bellvitge-IDIBELL, 08007 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Bayes-Genis, Antoni",
+        "short_name": "Bayes-Genis A",
+        "identifiers": [],
+        "affiliations": [
+          "ICREC Research Program, Health Sciences Research Institute Germans Trias i Pujol, Universitat Autònoma de Barcelona, 08916 Barcelona, Spain.",
+          "CIBERCV, Instituto de Salud Carlos III, 28029 Madrid, Spain.",
+          "Cardiology Service, Germans Trias i Pujol University Hospital, 08916 Badalona, Spain.",
+          "Department of Medicine, Autonomous University of Barcelona, 08916 Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2021 Nov 23",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/25 06:00",
+    "fetched_at": "2026-09-28 03:12:40"
+  },
+  "links": {
+    "cites": [
+      "42043943",
+      "41547986",
+      "40176068",
+      "39872885",
+      "39408658",
+      "35563690"
+    ],
+    "refs": [
+      "33319509",
+      "32972203",
+      "32626540",
+      "32059084",
+      "31380393",
+      "31170039",
+      "31155234",
+      "30975302",
+      "30830156",
+      "30809069",
+      "30476243",
+      "27951527",
+      "27348712",
+      "26651948",
+      "25429972",
+      "24663091",
+      "24133454",
+      "23844733",
+      "23372767",
+      "21576133",
+      "20570387",
+      "18690295",
+      "18665344",
+      "18288181",
+      "16845475",
+      "16199517",
+      "12925520",
+      "12808457",
+      "10869273",
+      "10807865",
+      "2138525",
+      "657859"
+    ],
+    "similar": [
+      "34943776",
+      "27894966",
+      "32600176",
+      "28550172",
+      "23372767",
+      "23284892",
+      "22753411",
+      "30586715",
+      "28931551",
+      "24801707",
+      "27542406",
+      "22882904",
+      "27796891",
+      "26136458",
+      "29868933",
+      "19859778",
+      "31668928",
+      "26319660",
+      "16258720",
+      "31694459",
+      "19060126",
+      "33450865",
+      "27079882",
+      "30118791",
+      "22057716",
+      "28245984",
+      "20056917",
+      "23566587",
+      "33164579",
+      "12754294",
+      "31322426",
+      "32315737",
+      "31858519",
+      "25936512",
+      "20643648",
+      "32781064",
+      "30735072",
+      "26686988",
+      "28774379",
+      "23197875",
+      "21546274",
+      "32972203",
+      "20819633",
+      "29101167",
+      "25520329",
+      "23295943",
+      "22752632",
+      "23536266",
+      "20360245",
+      "28912121",
+      "12411458",
+      "28542617",
+      "33383053",
+      "18048585",
+      "31612566",
+      "27903536",
+      "30095974",
+      "33275602",
+      "31513837",
+      "18024547",
+      "27353089",
+      "25134935",
+      "8974079",
+      "31978804",
+      "30852297",
+      "17208206",
+      "31152247",
+      "27251706",
+      "25240056",
+      "28724653",
+      "20613497",
+      "28164391",
+      "32542822",
+      "30004234",
+      "23394076",
+      "21767547",
+      "14581414",
+      "24358288"
+    ],
+    "review": [
+      "34943776",
+      "26686988"
+    ],
+    "pmc": [
+      "8699769"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells10123268",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34943776/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34943776",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAF1-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2445/182319",
+        "provider": "Diposit Digital de la Universitat de Barcelona - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

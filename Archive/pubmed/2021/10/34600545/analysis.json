@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34600545",
+  "title": "Integrated bioinformatics analysis of core regulatory elements involved in keloid formation.",
+  "authors": "Li, Chuying; Jin, Meitong; Luo, Yinli; Jin, Zhehu; Pi, Longquan",
+  "journal": "BMC medical genomics",
+  "published_date": "2021-10-04",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过GEO数据差异表达与PPI网络分析鉴定瘢痕疙瘩核心基因及TF/miRNA调控关系，属纯转录组统计与湿实验验证，无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联弱。",
+  "abstract": "BACKGROUND: Keloid is a benign fibro-proliferative dermal tumor formed by an abnormal scarring response to injury and characterized by excessive collagen accumulation and invasive growth. The mechanism of keloid formation has not been fully elucidated, especially during abnormal scarring. Here, we investigated the regulatory genes, micro-RNAs (miRNAs) and transcription factors (TFs) that influence keloid development by comparing keloid and normal scar as well as keloid and normal skin. METHODS: Gene expression profiles (GSE7890, GSE92566, GSE44270 and GSE3189) of 5 normal scar samples, 10 normal skin samples and 18 keloid samples from the Gene Expression Omnibus (GEO) database were interrogated. Differentially expressed genes (DEGs) were identified between keloid and normal skin samples as well as keloid and normal scar samples with R Project for Statistical Computing. Gene Ontology (GO) functional enrichment analysis was also performed with R software. DEG-associated protein-protein interaction (PPI) network was constructed by STRING, followed by module selection from the PPI network based on the MCODE analysis. Regulatory relationships between TF/miRNA and target genes were predicted with miRnet and cytoscape. Core regulatory genes were verified by RT-qPCR. RESULTS: We identified 628 DEGs, of which 626 were up-regulated and 2 were down-regulated. Seven core genes [neuropeptide Y(NPY), 5-hydroxytryptamine receptor 1A(HTR1A), somatostatin (SST), adenylate cyclase 8 (ADCY8), neuromedin U receptor 1 (NMUR1), G protein subunit gamma 3 (GNG3), and G protein subunit gamma 13 (GNG13)] all belong to MCODE1 and were enriched in the \"G protein coupled receptor signaling pathway\" of the GO biological process category. Furthermore, nine core miRNAs (hsa-mir-124, hsa-let-7, hsa-mir-155, hsa-mir-26a, hsa-mir-941, hsa-mir-10b, hsa-mir-20, hsa-mir-31 and hsa-mir-372), and two core TFs (SP1 and TERT) were identified to play important roles in keloid formation. In the TF/miRNA-target gene network, both hsa-mir-372 and hsa-mir-20 had a regulatory effect on GNG13, ADCY8 was predicted to be target by hsa-mir-10b, and HTR1A and NPY were potentially by SP1. Furthermore, the expression of core regulatory genes (GNG13, ADCY8, HTR1A and NPY) was validated in clinical samples. CONCLUSIONS: GNG13, ADCY8, NPY and HTR1A may act as core genes in keloid formation and these core genes establish relationship with SP1 and miRNA (hsa-mir-372, hsa-mir-20, hsa-mir-10b), which may influence multiple signaling pathways in the pathogenesis of keloid.",
+  "abstract_zh": "背景：瘢痕疙瘩是一种良性纤维增生性皮肤肿瘤，由损伤后的异常瘢痕反应形成，其特征是胶原蛋白过度积累和侵袭性生长。瘢痕疙瘩形成的机制尚未完全阐明，尤其是在异常瘢痕过程中。本研究通过比较瘢痕疙瘩与正常瘢痕以及瘢痕疙瘩与正常皮肤，探讨了影响瘢痕疙瘩发育的调控基因、微小RNA（miRNAs）和转录因子（TFs）。方法：从基因表达综合数据库（GEO）中获取了5个正常瘢痕样本、10个正常皮肤样本和18个瘢痕疙瘩样本的基因表达谱（GSE7890、GSE92566、GSE44270和GSE3189）。使用R统计计算项目识别了瘢痕疙瘩与正常皮肤样本以及瘢痕疙瘩与正常瘢痕样本之间的差异表达基因（DEGs）。还使用R软件进行了基因本体论（GO）功能富集分析。通过STRING构建了DEG相关的蛋白质-蛋白质相互作用（PPI）网络，并基于MCODE分析从PPI网络中选择了模块。使用miRnet和cytoscape预测了TF/miRNA与靶基因之间的调控关系。核心调控基因通过RT-qPCR进行了验证。结果：我们识别了628个DEGs，其中626个上调，2个下调。七个核心基因[神经肽Y（NPY）、5-羟色胺受体1A（HTR1A）、生长抑素（SST）、腺苷酸环化酶8（ADCY8）、神经调节素U受体1（NMUR1）、G蛋白亚基γ3（GNG3）和G蛋白亚基γ13（GNG13）]均属于MCODE1，并在GO生物学过程类别中富集于“G蛋白偶联受体信号通路”。此外，识别出九个核心miRNAs（hsa-mir-124、hsa-let-7、hsa-mir-155、hsa-mir-26a、hsa-mir-941、hsa-mir-10b、hsa-mir-20、hsa-mir-31和hsa-mir-372）和两个核心TFs（SP1和TERT）在瘢痕疙瘩形成中发挥重要作用。在TF/miRNA-靶基因网络中，hsa-mir-372和hsa-mir-20均对GNG13具有调控作用，ADCY8被预测为hsa-mir-10b的靶标，而HTR1A和NPY可能受SP1调控。此外，核心调控基因（GNG13、ADCY8、HTR1A和NPY）的表达在临床样本中得到了验证。结论：GNG13、ADCY8、NPY和HTR1A可能作为瘢痕疙瘩形成的核心基因，这些核心基因与SP1和miRNAs（hsa-mir-372、hsa-mir-20、hsa-mir-10b）建立关系，可能影响瘢痕疙瘩发病机制中的多个信号通路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34600545/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34600545/",
+  "paper_page_path": "papers/pubmed/34600545/index.html"
+}

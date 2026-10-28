@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "38884271",
+    "doi": "10.1093/nar/gkae517",
+    "title": "ASH1L guards cis-regulatory elements against cyclobutane pyrimidine dimer induction."
+  },
+  "content": {
+    "abstract": "The histone methyltransferase ASH1L, first discovered for its role in transcription, has been shown to accelerate the removal of ultraviolet (UV) light-induced cyclobutane pyrimidine dimers (CPDs) by nucleotide excision repair. Previous reports demonstrated that CPD excision is most efficient at transcriptional regulatory elements, including enhancers, relative to other genomic sites. Therefore, we analyzed DNA damage maps in ASH1L-proficient and ASH1L-deficient cells to understand how ASH1L controls enhancer stability. This comparison showed that ASH1L protects enhancer sequences against the induction of CPDs besides stimulating repair activity. ASH1L reduces CPD formation at C-containing but not at TT dinucleotides, and no protection occurs against pyrimidine-(6,4)-pyrimidone photoproducts or cisplatin crosslinks. The diminished CPD induction extends to gene promoters but excludes retrotransposons. This guardian role against CPDs in regulatory elements is associated with the presence of H3K4me3 and H3K27ac histone marks, which are known to interact with the PHD and BRD motifs of ASH1L, respectively. Molecular dynamics simulations identified a DNA-binding AT hook of ASH1L that alters the distance and dihedral angle between neighboring C nucleotides to disfavor dimerization. The loss of this protection results in a higher frequency of C->T transitions at enhancers of skin cancers carrying ASH1L mutations compared to ASH1L-intact counterparts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "DNA/metabolism/chemistry/genetics",
+      "DNA Damage",
+      "*DNA Repair",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "*Enhancer Elements, Genetic",
+      "*Histone-Lysine N-Methyltransferase/metabolism/genetics",
+      "Histones/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "Promoter Regions, Genetic",
+      "*Pyrimidine Dimers/metabolism/genetics/chemistry",
+      "Transcription Factors/metabolism/genetics",
+      "Ultraviolet Rays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yancoskie, Michelle N",
+        "Khaleghi, Reihaneh",
+        "Gururajan, Anirvinya",
+        "Raghunathan, Aadarsh",
+        "Gupta, Aryan",
+        "Diethelm, Sarah",
+        "Maritz, Corina",
+        "Sturla, Shana J",
+        "Krishnan, Marimuthu",
+        "Naegeli, Hanspeter"
+      ],
+      "short_names": [
+        "Yancoskie MN",
+        "Khaleghi R",
+        "Gururajan A",
+        "Raghunathan A",
+        "Gupta A",
+        "Diethelm S",
+        "Maritz C",
+        "Sturla SJ",
+        "Krishnan M",
+        "Naegeli H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9895-5301",
+        "ORCID: 0000-0001-6808-5950",
+        "ORCID: 0000-0002-2549-919X"
+      ],
+      "affiliations": [
+        "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland.",
+        "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland.",
+        "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad 500032, India.",
+        "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad 500032, India.",
+        "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad 500032, India.",
+        "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland.",
+        "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland.",
+        "Department of Health Sciences and Technology, ETH Zurich, Zurich 8092, Switzerland.",
+        "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad 500032, India.",
+        "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yancoskie, Michelle N",
+        "short_name": "Yancoskie MN",
+        "identifiers": [
+          "0000-0002-9895-5301"
+        ],
+        "affiliations": [
+          "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Khaleghi, Reihaneh",
+        "short_name": "Khaleghi R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Gururajan, Anirvinya",
+        "short_name": "Gururajan A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad 500032, India."
+        ]
+      },
+      {
+        "full_name": "Raghunathan, Aadarsh",
+        "short_name": "Raghunathan A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad 500032, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Aryan",
+        "short_name": "Gupta A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad 500032, India."
+        ]
+      },
+      {
+        "full_name": "Diethelm, Sarah",
+        "short_name": "Diethelm S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Maritz, Corina",
+        "short_name": "Maritz C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sturla, Shana J",
+        "short_name": "Sturla SJ",
+        "identifiers": [
+          "0000-0001-6808-5950"
+        ],
+        "affiliations": [
+          "Department of Health Sciences and Technology, ETH Zurich, Zurich 8092, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Krishnan, Marimuthu",
+        "short_name": "Krishnan M",
+        "identifiers": [
+          "0000-0002-2549-919X"
+        ],
+        "affiliations": [
+          "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad 500032, India."
+        ]
+      },
+      {
+        "full_name": "Naegeli, Hanspeter",
+        "short_name": "Naegeli H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacology and Toxicology, University of Zurich-Vetsuisse, Zurich 8057, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Aug 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/17 12:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "41338928",
+      "39933696"
+    ],
+    "refs": [
+      "37996753",
+      "37904237",
+      "37668528",
+      "37393406",
+      "37169761",
+      "37028766",
+      "36704334",
+      "36350672",
+      "36033518",
+      "35339490",
+      "34731255",
+      "34589668",
+      "34487363",
+      "33999203",
+      "33817640",
+      "33771559",
+      "33347579",
+      "33291532",
+      "33104802",
+      "32499403",
+      "31930303",
+      "31740966",
+      "31106376",
+      "30485262",
+      "30270478",
+      "30123079",
+      "29980679",
+      "29753921",
+      "29228002",
+      "29109511",
+      "29077884",
+      "29040681",
+      "28607063",
+      "28467829",
+      "28374742",
+      "27861959",
+      "27688757",
+      "27457959",
+      "27229316",
+      "27154821",
+      "27036006",
+      "26592383",
+      "26574453",
+      "26569599",
+      "26333994",
+      "25934506",
+      "25723102",
+      "25682789",
+      "25398609",
+      "24954209",
+      "24799431",
+      "24244179",
+      "24137003",
+      "24086042",
+      "24012418",
+      "24004944",
+      "23727985",
+      "23550210",
+      "23318258",
+      "22588877",
+      "22464331",
+      "22334663",
+      "22266761",
+      "22217736",
+      "21239497",
+      "21106759",
+      "20307059",
+      "19941824",
+      "19910308",
+      "19631218",
+      "19261174",
+      "19167517",
+      "19109893",
+      "18787082",
+      "18435612",
+      "18192364",
+      "18052367",
+      "17923682",
+      "17277777",
+      "16678110",
+      "16381938",
+      "16033759",
+      "15882621",
+      "15031712",
+      "14681465",
+      "12944386",
+      "11752295",
+      "11564863",
+      "11511374",
+      "11425514",
+      "11406595",
+      "11327871",
+      "10673506",
+      "8599951",
+      "7602584",
+      "3477794",
+      "1515543",
+      "1311069",
+      "1150080"
+    ],
+    "similar": [
+      "38884271",
+      "29109511",
+      "25934506",
+      "19150617",
+      "26354431",
+      "8961932",
+      "11139593",
+      "10749146",
+      "18950648",
+      "34333390",
+      "26263704",
+      "27611318",
+      "27021252",
+      "28735741",
+      "10838132",
+      "9858617",
+      "9889199",
+      "30586386",
+      "16033759",
+      "37554110",
+      "9642186",
+      "40044670",
+      "11024179",
+      "9813119",
+      "16252008",
+      "21239497",
+      "38431690",
+      "10352180",
+      "10064604",
+      "12198174",
+      "7989359",
+      "18313369",
+      "15668165",
+      "9426065",
+      "23331252",
+      "27457959",
+      "15811629",
+      "37459251",
+      "15121904",
+      "18096446",
+      "19450588",
+      "7835346",
+      "37028766",
+      "27154821",
+      "40530698",
+      "9806502",
+      "19740755",
+      "39034728",
+      "12713809",
+      "33158066",
+      "41219227",
+      "26429065",
+      "28719581",
+      "21388382",
+      "38523200",
+      "15913668",
+      "11278801",
+      "35944237",
+      "21160086",
+      "8631712",
+      "26837048",
+      "17923682",
+      "30062422",
+      "28237621",
+      "16392251",
+      "23793457",
+      "12646562",
+      "38241433",
+      "12509284",
+      "31106376",
+      "41365654",
+      "17163503",
+      "9354642",
+      "38332020",
+      "15135732",
+      "15342631",
+      "8867736",
+      "17127714",
+      "35691362",
+      "40887738",
+      "16357511",
+      "1719400",
+      "31087298",
+      "31723047",
+      "21606324",
+      "17130154",
+      "38641197",
+      "8596534",
+      "17233481",
+      "11020243",
+      "11937634",
+      "22743272",
+      "14592755",
+      "40418475",
+      "35486666",
+      "25382106",
+      "8506394",
+      "17509950",
+      "7940023",
+      "39441633"
+    ],
+    "review": [
+      "38884271",
+      "33158066",
+      "26429065",
+      "12509284"
+    ],
+    "pmc": [
+      "11317172"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38884271/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38884271/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse260917",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae517",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

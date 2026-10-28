@@ -1,0 +1,669 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.01.501973",
+  "title": "3D-Beacons: Decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
+  "doi": "10.1101/2022.08.01.501973",
+  "abstract": "While scientists can often infer the biological function of proteins from their 3-dimensional quaternary structures, the gap between the number of known protein sequences and their experimentally determined structures keeps increasing. A potential solution to this problem is presented by ever more sophisticated computational protein modelling approaches. While often powerful on their own, most methods have strengths and weaknesses. Therefore, it benefits researchers to examine models from various model providers and perform comparative analysis to identify what models can best address their specific use cases. To make data from a large array of model providers more easily accessible to the broader scientific community, we established 3D-Beacons, a collaborative initiative to create a federated network with unified data access mechanisms. The 3D-Beacons Network allows researchers to collate coordinate files and metadata for experimentally determined and theoretical protein models from state-of-the-art and specialist model providers and also from the Protein Data Bank.",
+  "authors": [
+    "Varadi M",
+    "Nair S",
+    "Sillitoe I",
+    "Tauriello G",
+    "Anyango S",
+    "Bienert S",
+    "Borges C",
+    "Deshpande M",
+    "Green T",
+    "Hassabis D",
+    "Hatos A",
+    "Hegedus T",
+    "Hekkelman ML",
+    "Joosten R",
+    "Jumper J",
+    "Laydon A",
+    "Molodenskiy D",
+    "Piovesan D",
+    "Salladini E",
+    "Salzberg SL",
+    "Sommer MJ",
+    "Steinegger M",
+    "Suhajda E",
+    "Svergun D",
+    "Tenorio-Ku L",
+    "Tosatto S",
+    "Tunyasuvunakool K",
+    "Waterhouse AM",
+    "Žídek A",
+    "Schwede T",
+    "Orengo C",
+    "Velankar S"
+  ],
+  "published_date": "2022-08-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.01.501973",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.01.501973.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR526911",
+    "raw_record": {
+      "id": "PPR526911",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR526911"
+        ]
+      },
+      "doi": "10.1101/2022.08.01.501973",
+      "title": "3D-Beacons: Decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
+      "authorString": "Varadi M, Nair S, Sillitoe I, Tauriello G, Anyango S, Bienert S, Borges C, Deshpande M, Green T, Hassabis D, Hatos A, Hegedus T, Hekkelman ML, Joosten R, Jumper J, Laydon A, Molodenskiy D, Piovesan D, Salladini E, Salzberg SL, Sommer MJ, Steinegger M, Suhajda E, Svergun D, Tenorio-Ku L, Tosatto S, Tunyasuvunakool K, Waterhouse AM, Žídek A, Schwede T, Orengo C, Velankar S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Varadi M",
+            "lastName": "Varadi",
+            "firstName": "Mihaly",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3687-0839"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nair S",
+            "lastName": "Nair",
+            "firstName": "Sreenath",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6861-7627"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sillitoe I",
+            "lastName": "Sillitoe",
+            "firstName": "Ian",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL, Department of Structural and Molecular Biology, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tauriello G",
+            "lastName": "Tauriello",
+            "firstName": "Gerardo",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5921-7007"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Basel, Biozentrum, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Anyango S",
+            "lastName": "Anyango",
+            "firstName": "Stephen",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bienert S",
+            "lastName": "Bienert",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Basel, Biozentrum, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borges C",
+            "lastName": "Borges",
+            "firstName": "Clemente",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL Hamburg, Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deshpande M",
+            "lastName": "Deshpande",
+            "firstName": "Mandar",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9043-7665"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Green T",
+            "lastName": "Green",
+            "firstName": "Tim",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "DeepMind, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hassabis D",
+            "lastName": "Hassabis",
+            "firstName": "Demis",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "DeepMind, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hatos A",
+            "lastName": "Hatos",
+            "firstName": "Andras",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Padova, Department of Biomedical Sciences, Padova, Italy"
+                },
+                {
+                  "affiliation": "University of Lausanne, SIB, Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hegedus T",
+            "lastName": "Hegedus",
+            "firstName": "Tamas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Semmelweis University, Department of Biophysics and Radiation Biology, Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hekkelman ML",
+            "lastName": "Hekkelman",
+            "firstName": "Maarten",
+            "initials": "ML",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Netherlands Cancer Institute, Amsterdam, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Joosten R",
+            "lastName": "Joosten",
+            "firstName": "Robbie",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Netherlands Cancer Institute, Amsterdam, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jumper J",
+            "lastName": "Jumper",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "DeepMind, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laydon A",
+            "lastName": "Laydon",
+            "firstName": "Agata",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "DeepMind, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Molodenskiy D",
+            "lastName": "Molodenskiy",
+            "firstName": "Dmitry",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5954-4294"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL Hamburg, Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Piovesan D",
+            "lastName": "Piovesan",
+            "firstName": "Damiano",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Padova, Department of Biomedical Sciences, Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salladini E",
+            "lastName": "Salladini",
+            "firstName": "Edoardo",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5152-5953"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Padova, Department of Biomedical Sciences, Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salzberg SL",
+            "lastName": "Salzberg",
+            "firstName": "Steven",
+            "initials": "SL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Johns Hopkins University, Biomedical Engineering, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sommer MJ",
+            "lastName": "Sommer",
+            "firstName": "Markus",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Johns Hopkins University, Biomedical Engineering, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steinegger M",
+            "lastName": "Steinegger",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8781-9753"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Seoul National University, School of Biology, Seoul, South Korea"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suhajda E",
+            "lastName": "Suhajda",
+            "firstName": "Erzsebet",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Semmelweis University, Department of Biophysics and Radiation Biology, Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Svergun D",
+            "lastName": "Svergun",
+            "firstName": "Dmitri",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL Hamburg, Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tenorio-Ku L",
+            "lastName": "Tenorio-Ku",
+            "firstName": "Luiggi",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Padova, Department of Biomedical Sciences, Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tosatto S",
+            "lastName": "Tosatto",
+            "firstName": "Silvio",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Padova, Department of Biomedical Sciences, Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tunyasuvunakool K",
+            "lastName": "Tunyasuvunakool",
+            "firstName": "Kathryn",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "DeepMind, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waterhouse AM",
+            "lastName": "Waterhouse",
+            "firstName": "Andrew Mark",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-5717-6063"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Basel, Biozentrum, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Žídek A",
+            "lastName": "Žídek",
+            "firstName": "Augustin",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "DeepMind, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schwede T",
+            "lastName": "Schwede",
+            "firstName": "Torsten",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Basel, Biozentrum, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Orengo C",
+            "lastName": "Orengo",
+            "firstName": "Christine",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL, Department of Structural and Molecular Biology, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Velankar S",
+            "lastName": "Velankar",
+            "firstName": "Sameer",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8439-5964"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8781-9753"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3687-0839"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5152-5953"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5921-7007"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5954-4294"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6861-7627"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8439-5964"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9043-7665"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9634-4208"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-5717-6063"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "While scientists can often infer the biological function of proteins from their 3-dimensional quaternary structures, the gap between the number of known protein sequences and their experimentally determined structures keeps increasing. A potential solution to this problem is presented by ever more sophisticated computational protein modelling approaches. While often powerful on their own, most methods have strengths and weaknesses. Therefore, it benefits researchers to examine models from various model providers and perform comparative analysis to identify what models can best address their specific use cases. To make data from a large array of model providers more easily accessible to the broader scientific community, we established 3D-Beacons, a collaborative initiative to create a federated network with unified data access mechanisms. The 3D-Beacons Network allows researchers to collate coordinate files and metadata for experimentally determined and theoretical protein models from state-of-the-art and specialist model providers and also from the Protein Data Bank.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/S020071/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/03/2022.08.01.501973.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.01.501973"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR526911"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR526911&type=FILE&fileName=EMS152221-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36448847",
+            "reference": "GigaScience. 2022 Nov;11:giac118",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS152221",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2022-08-04",
+      "firstPublicationDate": "2022-08-03",
+      "firstIndexDate": "2022-08-04",
+      "fullTextReceivedDate": "2022-10-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

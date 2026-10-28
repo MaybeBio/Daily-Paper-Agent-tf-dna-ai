@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36628273",
+  "title": "DeepCIA: a novel deep-learning model for cancer type identification using class activation map via transcription factor expression.",
+  "authors": "Jeong, Seongdo; Lee, Dongjun; Park, Hae Ryoun; Kang, Junho; Yu, Yeuni; Hwang, Jae Joon; Kim, Yun Hak",
+  "journal": "American journal of cancer research",
+  "published_date": "2023-01-12",
+  "window": {
+    "start": "2023-01-09",
+    "end": "2023-01-15"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用1D-CNN基于转录因子表达谱做癌症类型分类，仅用表达量而非TF-DNA结合互作，无三维结构或结合机制建模，与本课题关联弱。",
+  "abstract": "Deep learning methods are powerful analytical tools for large-scale data analysis. Here, we introduce DeepCIA as a novel diagnostic deep-learning model for cancer type identification using a class activation map via transcription factor expression. Although many deep learning researches attempts have recently been made in relation to cancer diagnosis, there are difficulties in using cancer data due to a large-scale problem. Therefore, From The Cancer Genome Atlas (TCGA) and International Cancer Genome Consortium (ICGC) public databases, we selected transcription factor expression profiles of eight cancer types. TCGA included 3496 samples and divided the train and validation sets in an 8:2 ratio. ICGC included 552 samples and was used as a test set for external validation. To compare the performance of 1D-CNN models, we also used SVM and KNN from machine learning. In external validation, 1D-CNN showed a high average accuracy of 98% and was superior to support vector machine (SVM) and k-nearest neighbor (KNN) with a difference in the accuracy of 10-12%. Also, 1D-CNN performed very well in several performance metrics (98.2% Recall, 98.1% Precision, 98.2% F score, 99.8% Specificity, 99.8% AUC, and 99.0% Balanced Accuracy). In each data set evaluation, 1-network, 5-network, and 2-network with high accuracy were selected and visualized through the Class Activation Map. We identified the Cys2Hys2 zinc finger group with the highest distribution across all cancer types. Collectively, DeepCIA can be used as a decision support system for cancer and a classifier for diagnosing unknown primary cancer, while emphasizing its usefulness in cancer diagnosis.",
+  "abstract_zh": "深度学习方法是大规模数据分析的强大分析工具。在此，我们介绍DeepCIA作为一种新型诊断性深度学习模型，通过转录因子表达利用类激活图进行癌症类型识别。尽管近期已有许多关于癌症诊断的深度学习研究尝试，但由于大规模问题，使用癌症数据存在困难。因此，从癌症基因组图谱（TCGA）和国际癌症基因组联盟（ICGC）公共数据库中，我们选取了八种癌症类型的转录因子表达谱。TCGA包含3496个样本，并按8:2比例划分训练集和验证集。ICGC包含552个样本，用作外部验证的测试集。为比较1D-CNN模型的性能，我们还使用了机器学习中的SVM和KNN。在外部验证中，1D-CNN显示出98%的高平均准确率，并优于支持向量机（SVM）和k近邻（KNN），准确率差异为10-12%。此外，1D-CNN在多项性能指标上表现优异（召回率98.2%，精确率98.1%，F分数98.2%，特异性99.8%，AUC 99.8%，平衡准确率99.0%）。在每项数据集评估中，选取了准确率高的1网络、5网络和2网络，并通过类激活图进行可视化。我们识别出在所有癌症类型中分布最高的Cys2His2锌指组。总体而言，DeepCIA可作为癌症决策支持系统和诊断未知原发癌的分类器，同时强调其在癌症诊断中的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36628273/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36628273/",
+  "paper_page_path": "papers/pubmed/36628273/index.html"
+}

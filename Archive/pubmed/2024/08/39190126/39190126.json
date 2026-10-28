@@ -1,0 +1,479 @@
+{
+  "identity": {
+    "pmid": "39190126",
+    "doi": "10.1007/s11427-024-2703-6",
+    "title": "Targeting STING oligomerization with licochalcone D ameliorates STING-driven inflammatory diseases."
+  },
+  "content": {
+    "abstract": "The development of STING inhibitors for the treatment of STING-related inflammatory diseases continues to encounter significant challenges. The activation of STING is a multi-step process that includes binding with cGAMP, self-oligomerization, and translocation from the endoplasmic reticulum to the Golgi apparatus, ultimately inducing the expression of IRF3 and NF-kappaB-mediated interferons and inflammatory cytokines. It has been demonstrated that disruption of any of these steps can effectively inhibit STING activation. Traditional structure-based drug screening methodologies generally focus on specific binding sites. In this study, a TransformerCPI model based on protein primary sequences and independent of binding sites is employed to identify compounds capable of binding to the STING protein. The natural product Licochalcone D (LicoD) is identified as a potent and selective STING inhibitor. LicoD does not bind to the classical ligand-binding pocket; instead, it covalently modifies the Cys148 residue of STING. This modification inhibits STING oligomerization, consequently suppressing the recruitment of TBK1 and the nuclear translocation of IRF3 and NF-kappaB. LicoD treatment ameliorates the inflammatory phenotype in Trex1(-1-) mice and inhibits the progression of DSS-induced colitis and AOM/DSS-induced colitis-associated colon cancer (CAC). In summary, this study reveals the potential of LicoD in treating STING-driven inflammatory diseases. It also demonstrates the utility of the TransformerCPI model in discovering allosteric compounds beyond the conventional binding pockets.",
+    "keywords": [
+      "Licochalcone D",
+      "STING inhibitor",
+      "TransformerCPI model",
+      "cGAS-STING signaling",
+      "inflammatory diseases"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Chalcones/chemistry/pharmacology",
+      "*Membrane Proteins/metabolism/antagonists & inhibitors",
+      "Mice",
+      "*Interferon Regulatory Factor-3/metabolism",
+      "Humans",
+      "*NF-kappa B/metabolism",
+      "Inflammation/drug therapy/metabolism",
+      "Colitis/drug therapy/metabolism",
+      "Mice, Inbred C57BL",
+      "Protein Serine-Threonine Kinases/metabolism/antagonists & inhibitors",
+      "Signal Transduction/drug effects",
+      "Binding Sites",
+      "STING Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yinghui",
+        "Liu, Yadan",
+        "Jiang, Bing",
+        "Chen, Lifan",
+        "Hu, Jie",
+        "Niu, Buying",
+        "Chang, Jie",
+        "Fan, Zisheng",
+        "Zhou, Jingyi",
+        "Wang, Yajie",
+        "Teng, Dan",
+        "Ma, Ning",
+        "Wang, Xiaofeng",
+        "Yang, Ruirui",
+        "Zheng, Mingyue",
+        "Zhang, Sulin"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Liu Y",
+        "Jiang B",
+        "Chen L",
+        "Hu J",
+        "Niu B",
+        "Chang J",
+        "Fan Z",
+        "Zhou J",
+        "Wang Y",
+        "Teng D",
+        "Ma N",
+        "Wang X",
+        "Yang R",
+        "Zheng M",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, Shanghai Tech University, Shanghai, 200031, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "School of Physical Science and Technology, ShanghaiTech University, Shanghai, 200031, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China. yangruirui@simm.ac.cn.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China. yangruirui@simm.ac.cn.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. myzheng@simm.ac.cn.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China. myzheng@simm.ac.cn.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China. myzheng@simm.ac.cn.",
+        "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China. myzheng@simm.ac.cn.",
+        "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, Shanghai Tech University, Shanghai, 200031, China. myzheng@simm.ac.cn.",
+        "School of Physical Science and Technology, ShanghaiTech University, Shanghai, 200031, China. myzheng@simm.ac.cn.",
+        "State Key Laboratory of Pharmaceutical Biotechnology, Nanjing University, Nanjing, 210023, China. myzheng@simm.ac.cn.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. slzhang@simm.ac.cn.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China. slzhang@simm.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yinghui",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+          "University of Chinese Academy of Sciences, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yadan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Bing",
+        "short_name": "Jiang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lifan",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+          "University of Chinese Academy of Sciences, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jie",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Buying",
+        "short_name": "Niu B",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+          "University of Chinese Academy of Sciences, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Jie",
+        "short_name": "Chang J",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Zisheng",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+          "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, Shanghai Tech University, Shanghai, 200031, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingyi",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+          "School of Physical Science and Technology, ShanghaiTech University, Shanghai, 200031, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yajie",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Dan",
+        "short_name": "Teng D",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+          "University of Chinese Academy of Sciences, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Ning",
+        "short_name": "Ma N",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaofeng",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ruirui",
+        "short_name": "Yang R",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, 100049, China. yangruirui@simm.ac.cn.",
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China. yangruirui@simm.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Zheng, Mingyue",
+        "short_name": "Zheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. myzheng@simm.ac.cn.",
+          "University of Chinese Academy of Sciences, Beijing, 100049, China. myzheng@simm.ac.cn.",
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China. myzheng@simm.ac.cn.",
+          "School of Pharmaceutical Science and Technology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China. myzheng@simm.ac.cn.",
+          "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, Shanghai Tech University, Shanghai, 200031, China. myzheng@simm.ac.cn.",
+          "School of Physical Science and Technology, ShanghaiTech University, Shanghai, 200031, China. myzheng@simm.ac.cn.",
+          "State Key Laboratory of Pharmaceutical Biotechnology, Nanjing University, Nanjing, 210023, China. myzheng@simm.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sulin",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. slzhang@simm.ac.cn.",
+          "University of Chinese Academy of Sciences, Beijing, 100049, China. slzhang@simm.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science China. Life sciences"
+    ],
+    "journal_abbrev": [
+      "Sci China Life Sci"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/27 12:46",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "42645680",
+      "42635940",
+      "42608142",
+      "42511852",
+      "42360583",
+      "42230579",
+      "42045359",
+      "41874479",
+      "40722101",
+      "40697659",
+      "40621423",
+      "39965124",
+      "39737190"
+    ],
+    "refs": [
+      "37549268",
+      "37532932",
+      "36808996",
+      "36229599",
+      "34453041",
+      "34158863",
+      "34099558",
+      "34074794",
+      "34051146",
+      "33833439",
+      "33785602",
+      "33577080",
+      "32428219",
+      "32424334",
+      "31923489",
+      "31406511",
+      "31358977",
+      "31230712",
+      "31118511",
+      "30842659",
+      "30842653",
+      "30566866",
+      "29973723",
+      "29322240",
+      "29281834",
+      "29259162",
+      "28759028",
+      "28569761",
+      "28533362",
+      "27650551",
+      "26603901",
+      "26371324",
+      "26223655",
+      "26052098",
+      "25636800",
+      "25261479",
+      "25029335",
+      "24600004",
+      "23722158",
+      "23706668",
+      "23258412",
+      "22394562",
+      "22284419",
+      "19776740",
+      "18724932",
+      "11318879"
+    ],
+    "similar": [
+      "39190126",
+      "38507852",
+      "32268090",
+      "33785602",
+      "33115500",
+      "41478535",
+      "40604353",
+      "40609382",
+      "38453210",
+      "41187884",
+      "24600004",
+      "41017179",
+      "33423764",
+      "41110750",
+      "34901991",
+      "41196385",
+      "40022901",
+      "37049889",
+      "31400857",
+      "39148120",
+      "32284536",
+      "38421179",
+      "40377214",
+      "39478149",
+      "40973797",
+      "37549268",
+      "38725846",
+      "38038390",
+      "41508213",
+      "32470762",
+      "30918080",
+      "22394562",
+      "40570564",
+      "25790474",
+      "38796214",
+      "40562120",
+      "32933581",
+      "30842662",
+      "41459946",
+      "30842653",
+      "24622840",
+      "34290407",
+      "35127372",
+      "37099944",
+      "40319960",
+      "39772902",
+      "40254147",
+      "27076640",
+      "36889538",
+      "19291859",
+      "39701683",
+      "39965124",
+      "29963044",
+      "40288675",
+      "36099692",
+      "40915187",
+      "39113810",
+      "31068249",
+      "41265623",
+      "38866436",
+      "35108342",
+      "28302626",
+      "29710547",
+      "28484079",
+      "39366076",
+      "41494659",
+      "38969190",
+      "29421524",
+      "39248363",
+      "41075748",
+      "38668837",
+      "28069950",
+      "39520553",
+      "31346090",
+      "31719637",
+      "39836751",
+      "41218352",
+      "38917796",
+      "29547894",
+      "35470042",
+      "33168409",
+      "39181282",
+      "40310867",
+      "38285288",
+      "34099558",
+      "40386971",
+      "32471881",
+      "27742471",
+      "36741390",
+      "35853521",
+      "26251468",
+      "31018131",
+      "29870684",
+      "38850630",
+      "33916318",
+      "40174660",
+      "37796389",
+      "40812556",
+      "39664570",
+      "38368770"
+    ],
+    "review": [
+      "39190126",
+      "37049889",
+      "40377214",
+      "35127372",
+      "38866436",
+      "36741390"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s11427-024-2703-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STING1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-910",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

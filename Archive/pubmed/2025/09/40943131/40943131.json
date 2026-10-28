@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "40943131",
+    "doi": "10.3390/ijms26178204",
+    "title": "Genomic Features and Predicted 3D Structures of the CcWOX Transcription Factors in Cinnamomum camphora."
+  },
+  "content": {
+    "abstract": "The WUSCHEL-related homeobox (WOX) gene family is integral to plant growth and development. Here, we identified 14 CcWOX genes from the Cinnamomum camphora genome and analyzed their phylogeny, conserved features, and expression patterns. Phylogenetic inference grouped CcWOX into the Ancient, Intermediate, and WUS clades, consistent with other plant lineages. Expression profiling across seven tissues/organs, together with qRT-PCR validation, revealed tissue-biased expression for several members (e.g., floral or root enrichment), suggesting gene-specific roles during development. Using AlphaFold3, we predicted monomeric structures for CcWOX proteins and an interface model compatible with an interaction between CcWOX3 and CcLBD33. Consistently, bimolecular fluorescence complementation (BiFC) in Nicotiana benthamiana detected nuclear YFP signals for cEYFP-CcWOX3 + nEYFP-CcLBD33 relative to appropriate negative controls, confirming a physical interaction in plant cells. While these findings support a putative WOX-LBD interaction module in C. camphora, the regulatory functions remain to be established. Overall, this work provides a framework for dissecting the CcWOX family in C. camphora and illustrates how AI-assisted structure prediction can be integrated with cell-based assays to accelerate hypothesis generation in plant developmental biology.",
+    "keywords": [
+      "AlphaFold3",
+      "Cinnamomum camphora",
+      "WUSCHEL-related homeobox",
+      "three-dimensional structures"
+    ],
+    "mesh_terms": [
+      "Phylogeny",
+      "*Plant Proteins/genetics/chemistry/metabolism",
+      "*Cinnamomum camphora/genetics/metabolism",
+      "Gene Expression Regulation, Plant",
+      "*Transcription Factors/genetics/chemistry/metabolism",
+      "Genomics/methods",
+      "Genome, Plant",
+      "*Homeodomain Proteins/genetics/chemistry/metabolism",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Fengshuo",
+        "Wang, Kang",
+        "Qi, Haoran",
+        "Shen, Tengfei",
+        "Chen, Caihui",
+        "Zhong, Yongda",
+        "Xu, Meng"
+      ],
+      "short_names": [
+        "Cui F",
+        "Wang K",
+        "Qi H",
+        "Shen T",
+        "Chen C",
+        "Zhong Y",
+        "Xu M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2022-1663",
+        "ORCID: 0000-0002-6573-9098"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "Jiangsu Key Laboratory for Conservation and Utilization of Plant Resources, Institute of Botany, Jiangsu Province and Chinese Academy of Sciences (Nanjing Botanical Garden Mem. Sun Yat-Sen), Nanjing 210014, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "Jiangxi Provincial Key Laboratory of Improved Variety Breeding and Efficient Utilization of Native Tree Species (2024SSY04092), Institute of Biological Resources, Jiangxi Academy of Sciences, Nanchang 330096, China.",
+        "Jiangxi Provincial Key Laboratory of Improved Variety Breeding and Efficient Utilization of Native Tree Species (2024SSY04092), Institute of Biological Resources, Jiangxi Academy of Sciences, Nanchang 330096, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Fengshuo",
+        "short_name": "Cui F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kang",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Haoran",
+        "short_name": "Qi H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+          "Jiangsu Key Laboratory for Conservation and Utilization of Plant Resources, Institute of Botany, Jiangsu Province and Chinese Academy of Sciences (Nanjing Botanical Garden Mem. Sun Yat-Sen), Nanjing 210014, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Tengfei",
+        "short_name": "Shen T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Caihui",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Provincial Key Laboratory of Improved Variety Breeding and Efficient Utilization of Native Tree Species (2024SSY04092), Institute of Biological Resources, Jiangxi Academy of Sciences, Nanchang 330096, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Yongda",
+        "short_name": "Zhong Y",
+        "identifiers": [
+          "0000-0003-2022-1663"
+        ],
+        "affiliations": [
+          "Jiangxi Provincial Key Laboratory of Improved Variety Breeding and Efficient Utilization of Native Tree Species (2024SSY04092), Institute of Biological Resources, Jiangxi Academy of Sciences, Nanchang 330096, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Meng",
+        "short_name": "Xu M",
+        "identifiers": [
+          "0000-0002-6573-9098"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Aug 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/13 06:34",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42511600",
+      "42154313"
+    ],
+    "refs": [
+      "38190205",
+      "37556327",
+      "37016323",
+      "36816477",
+      "36430314",
+      "36407616",
+      "36208055",
+      "35514032",
+      "34834651",
+      "34783151",
+      "34395534",
+      "34097673",
+      "34066586",
+      "34066408",
+      "33808690",
+      "33125078",
+      "32794554",
+      "32585190",
+      "31984435",
+      "31603924",
+      "30159890",
+      "29995575",
+      "29943076",
+      "29722887",
+      "29680635",
+      "29517958",
+      "29361035",
+      "29036435",
+      "28743799",
+      "28406455",
+      "28218997",
+      "27109605",
+      "27064322",
+      "26819087",
+      "26786587",
+      "26621542",
+      "26464018",
+      "26410586",
+      "26307379",
+      "25998748",
+      "25953851",
+      "24973416",
+      "24750781",
+      "24720629",
+      "24642937",
+      "24555710",
+      "23578929",
+      "20977659",
+      "20067590",
+      "19897670",
+      "19734295",
+      "18776063",
+      "17429400",
+      "15659481",
+      "15171794",
+      "14711878",
+      "12904206",
+      "11152757",
+      "10027275",
+      "8565856"
+    ],
+    "similar": [
+      "40943131",
+      "38892149",
+      "37120099",
+      "39337570",
+      "40076657",
+      "36834907",
+      "38693497",
+      "38791390",
+      "39901066",
+      "40806399",
+      "34502234",
+      "40332111",
+      "35738446",
+      "38674410",
+      "39062910",
+      "32111029",
+      "23248305",
+      "41023632",
+      "38338907",
+      "39062907",
+      "24750781",
+      "38922445",
+      "30400610",
+      "40025410",
+      "40413410",
+      "30041601",
+      "27232493",
+      "39732975",
+      "39941137",
+      "36430756",
+      "37697363",
+      "34097673",
+      "37569702",
+      "31603924",
+      "31307379",
+      "29924561",
+      "24511289",
+      "38030990",
+      "39810081",
+      "24846919",
+      "38560957",
+      "41247557",
+      "33493082",
+      "39074235",
+      "40842080",
+      "41318406",
+      "31366162",
+      "34066408",
+      "41219833",
+      "25301174",
+      "20067590",
+      "32237414",
+      "31023229",
+      "36847088",
+      "36834765",
+      "28891602",
+      "36011392",
+      "29278847",
+      "18950478",
+      "24973416",
+      "32277156",
+      "40186911",
+      "40253917",
+      "40419952",
+      "36549571",
+      "33243711",
+      "28683794",
+      "26727885",
+      "20977659",
+      "23758772",
+      "36141889",
+      "22232385",
+      "21171999",
+      "28813005",
+      "31984435",
+      "38668759",
+      "27109605",
+      "26088319",
+      "37446257",
+      "24368329",
+      "34299014",
+      "30626928",
+      "35563091",
+      "26377219",
+      "22160465",
+      "40375071",
+      "32397500",
+      "31619177",
+      "26115849",
+      "35462532",
+      "11891062",
+      "16461579",
+      "41261436",
+      "33121934",
+      "40332175",
+      "23721178",
+      "38101618",
+      "28948105",
+      "25363783",
+      "36555594"
+    ],
+    "review": [
+      "40943131",
+      "34097673",
+      "20067590",
+      "24973416",
+      "40253917",
+      "31984435"
+    ],
+    "pmc": [
+      "12428019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26178204",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40943131/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

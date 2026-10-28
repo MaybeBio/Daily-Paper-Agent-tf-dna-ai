@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the described method, its validation, and reported performance; no assessment of code functionality or web server performance beyond what is described
+- **Shared manuscript claim summary** The authors present SAMPDI-3Dv2, an updated machine learning method for predicting binding free energy changes (ΔΔG) caused by single-point mutations in either protein or DNA within protein–DNA complexes. The method is trained on expanded datasets (S596 for protein mutations, D502 for DNA mutations) and incorporates new features including mutant protein 3D structure and position-specific scoring matrices. Reported cross-validated Pearson correlation coefficients are 0.68 (protein) and 0.80 (DNA).
+- **Visible evidence base** Full text including methods, results, tables referenced (Tables 1–7), figures referenced (Figures 1–4), and supplementary materials mentioned (Tables S1, S2)
+- **Missing materials affecting confidence** Actual data tables and figures are not provided; supplementary tables S1 and S2 are referenced but not included; no external validation dataset results are shown; no comparison with other methods on the new datasets is presented numerically in the text
+
+## Reviewer
+- **Overall assessment** The manuscript describes an incremental update to an existing method, SAMPDI-3D, with expanded training data and additional features. The work addresses a relevant problem in computational mutagenesis analysis. However, the manuscript as presented has substantial gaps in validation methodology, missing critical performance comparisons, and lacks evidence that the reported improvements are statistically robust or generalizable. The core claims of improved performance are not fully supported by the evidence provided.
+- **Who would be interested in the results, and why** Researchers in computational biology, structural bioinformatics, and genomics who study protein–DNA interactions and need tools for interpreting the functional impact of genetic variants. Clinically oriented researchers interested in variant pathogenicity prediction may also find the tool relevant. The method's reported speed could appeal to those needing genome-scale predictions.
+- **Major strengths** The problem addressed is practically important. The authors acknowledge the issue of noisy databases and perform manual curation, which is commendable. The inclusion of both protein and DNA mutation prediction in a single framework is useful. The use of AutoML for model selection is a reasonable approach. The method is made available as a web server and standalone code, which supports usability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation methodology
+  - **Claim pointer** The manuscript claims improved predictive performance of SAMPDI-3Dv2 over existing tools, with PCCs of 0.68 and 0.80 for protein and DNA mutations respectively.
+  - **Evidence pointer** Section 3.3, Table 7, Figure 4
+  - **Concern** The reported performance metrics are based solely on 5-fold cross-validation on the training datasets. No independent test set, external benchmark, or comparison with existing methods on held-out data is presented. The authors state in Section 3.2 that existing methods perform poorly on new ProNAB data, but no quantitative comparison of SAMPDI-3Dv2 against these methods on the same new datasets is shown. Cross-validation on the training set is insufficient to establish generalizable performance, especially given the small dataset sizes.
+  - **Why it matters** Without external validation or direct comparison on common benchmarks, the claimed improvements cannot be assessed. The risk of overfitting to the training distribution remains unaddressed. The manuscript's central claim of enhanced performance is therefore not established.
+  - **Resolution test** Provide results on an independent test set not used in training, and include a direct comparison with SAMPDI-3D, mCSM-NA, PremPDI, and PNBACE on the same new datasets (S177 and D42) with appropriate statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset size and representativeness
+  - **Claim pointer** The authors state that the expanded dataset addresses limitations of small training sets and improves generalizability.
+  - **Evidence pointer** Section 2.1, Section 2.2, Section 2.3
+  - **Concern** The final protein mutation dataset (S596) contains only 596 data points, and the DNA mutation dataset (D502) contains 502 data points. The new additions are 177 and 42 data points respectively. These are very small datasets for training a machine learning model with 49 and 35 features. The feature-to-sample ratio is concerning, particularly for the DNA model. The authors do not discuss potential overfitting given this ratio, nor do they report feature importance or ablation studies to justify the inclusion of all features.
+  - **Why it matters** With limited data and many features, models risk memorizing training patterns rather than learning generalizable relationships. The reported cross-validated performance may be optimistic. The manuscript does not address this fundamental limitation.
+  - **Resolution test** Report feature importance analysis, perform feature selection, and evaluate model performance with reduced feature sets. Consider nested cross-validation or bootstrap resampling to estimate performance variability. Discuss the limitations imposed by dataset size.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The methods section describes feature calculation and model training procedures.
+  - **Evidence pointer** Section 2.4, Section 2.5, Section 2.6, Section 2.7
+  - **Concern** Critical methodological details are missing. The exact hyperparameter search space for each of the seven models is not described. The criteria for selecting the "best-performing iteration" among 50 iterations is not clearly defined. The ensemble approach (averaging across folds) is described but its theoretical justification is not provided. The handling of the 52 data points with multiple ΔΔG values (averaging after SD filtering) may introduce bias, and the impact of this averaging is not discussed. The PSSM generation parameters and the specific version of UniRef50 are not specified.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete methodological detail, other researchers cannot replicate the work or assess its validity. The averaging of multiple measurements and the selection of the best iteration could introduce selection bias.
+  - **Resolution test** Provide complete hyperparameter search spaces, define the selection criteria for the best iteration, justify the ensemble approach, and describe all data preprocessing steps in sufficient detail for replication.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with existing methods
+  - **Claim pointer** The introduction and discussion imply that SAMPDI-3Dv2 outperforms existing tools.
+  - **Evidence pointer** Section 3.2, Table 6
+  - **Concern** The only quantitative comparison with existing methods is in Section 3.2, where SAMPDI-3D, mCSM-NA, and PremPDI are tested on S177. However, the results are only described qualitatively in the text ("none of them performed well") without presenting the actual PCC and RMSE values in the text. The comparison is incomplete because SAMPDI-3Dv2 is not included in this comparison. No comparison is made for DNA mutations because PNBACE was too slow.
+  - **Why it matters** The claim of superiority over existing methods is a key motivation for the work. Without a direct, quantitative, and fair comparison on the same datasets, this claim is unsupported.
+  - **Resolution test** Present the actual performance values for all methods on S177 and D42 in a comparative table, including SAMPDI-3Dv2. If PNBACE is too slow, state this limitation explicitly and provide performance on a smaller subset if possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, data cleaning description
+  - **Evidence pointer** Figure 1
+  - **Issue** The data cleaning process is described in text and summarized in Figure 1, but the figure is not provided. The step-by-step reduction in data points is described, but the criteria for "insufficient information or typos" are not defined.
+  - **Required correction** Define the specific criteria for data exclusion and provide the figure or a table showing the data point counts at each cleaning stage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.3, Table 7
+  - **Evidence pointer** Table 7
+  - **Issue** The manuscript reports PCC and RMSE but does not report confidence intervals, standard deviations across the 50 iterations (beyond what is in Table 7), or any statistical significance testing for the difference between SAMPDI-3Dv2 and SAMPDI-3D.
+  - **Required correction** Report confidence intervals for PCC and RMSE, and perform statistical testing (e.g., paired comparison) to demonstrate that improvements are significant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.4.1, feature description
+  - **Evidence pointer** Section 2.4.1
+  - **Issue** The text states "This resulted in 49 features" but the enumeration of features in the text is not clearly itemized. The reader cannot easily verify the feature count.
+  - **Required correction** Provide a clear, numbered list of all 49 features for protein mutations and 35 features for DNA mutations, or refer explicitly to the supplementary tables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Web server description
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The web server description is brief and does not specify input format requirements, output interpretation, or any usage examples.
+  - **Required correction** Provide a brief usage example and describe the expected input/output formats.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of external validation and direct comparison), R1-M2 (feature-to-sample ratio and overfitting risk), R1-M3 (incomplete methodological detail affecting reproducibility)
+- **Assessment against Nature-style criteria** Originality: The work is an incremental update to an existing method. The novelty is limited to expanded training data and additional features, which is modest. Scientific importance: The problem of predicting mutation effects on protein–DNA binding is relevant, but the incremental nature of the contribution limits its importance. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians; the clinical relevance is mentioned but not developed. Technical soundness: The methodology has significant gaps in validation and reproducibility as detailed above. Readability for nonspecialists: The manuscript is generally readable, but the methods section assumes familiarity with machine learning and structural biology terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions including external validation, direct comparison with existing methods, complete methodological detail, and discussion of overfitting risks before the claims of improved performance can be accepted.
+
+## Risk / unsupported claims
+- The claim that SAMPDI-3Dv2 shows "enhanced predictive performance" is unsupported without external validation or direct comparison with existing methods on held-out data.
+- The claim that existing methods "did not perform well" on new ProNAB data is not quantitatively supported in the text.
+- The statement that the expanded dataset improves generalizability is not demonstrated.
+- The reported PCC values (0.68 and 0.80) are based on cross-validation only and may not reflect real-world performance.
+- The claim that the method can be applied to genome-scale investigations is plausible given the reported speed but is not demonstrated with any large-scale application example.

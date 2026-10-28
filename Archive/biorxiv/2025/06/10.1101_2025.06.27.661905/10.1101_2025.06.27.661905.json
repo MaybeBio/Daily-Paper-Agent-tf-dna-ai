@@ -1,0 +1,508 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.27.661905",
+  "title": "Quantum analysis of protein–ligand binding by integrating structural resolution, sequence homology, and ligand properties",
+  "doi": "10.1101/2025.06.27.661905",
+  "abstract": "Predicting protein–ligand binding affinity is a fundamental challenge in computational biology and drug discovery, complicated by diverse factors including protein sequence variability, ligand chemical diversity, and structural resolution. Here, we present an integrative study that combines classical machine learning and quantum-enhanced modeling to investigate how crystal structure resolution, sequence similarity, and ligand properties jointly influence binding affinity. Using a curated “refined” dataset from PDBbind and an expanded general dataset, we first conduct correlation and regression analyses to quantify the relationships among binding affinity, ligand descriptors (e.g., molecular weight, logP), and protein structural metrics (resolution, R-factor). We observe moderate positive correlations between ligand size/hydrophobicity and affinity, and a slight negative correlation between resolution and affinity in the refined dataset that largely disappears in the general set. We then train multiple predictive models, including random forests, deep neural networks, and quantum-enhanced approaches—quantum kernel methods, variational quantum circuits, and a hybrid classical–quantum neural network. Experimental results show that quantum-enhanced models perform on par with classical methods in predicting binding affinities and, in some cases, offer modest improvements. Notably, a hybrid quantum–classical model achieves the highest accuracy (Pearson correlation R≈0.80R) on the refined dataset. These findings highlight the potential of quantum computing for capturing complex patterns in biomolecular data, laying groundwork for improved structure-based drug design. Our study underscores that while data quality and curation greatly influence observed trends, quantum machine learning despite current hardware limitations can already serve as a competitive and promising tool in computational structural biology. AUTHOR SUMMARY In our study, we confront a major bottleneck in the creation of new medicines: accurately predicting how strongly a potential drug will attach to its target protein in the body. Getting this right early in the process could save billions of dollars and years of research by preventing dead-ends. We investigated if quantum computing, a new technology that processes information in a fundamentally different way, could provide a better solution. We trained several computer models to predict these binding strengths, comparing standard artificial intelligence (AI) with new models enhanced by quantum machine learning. Our results showed that a hybrid model, which strategically combines classical AI with a quantum-powered component, delivered the most accurate predictions on high-quality, curated data. This work demonstrates that quantum computing is already a competitive tool for real-world biological problems, not just a future possibility. We believe that by further developing these quantum-enhanced approaches, we can create more reliable predictive tools to make the long and difficult search for new drugs faster and more successful.",
+  "authors": [
+    "Don Roosan",
+    "Samira Samrose",
+    "Rubayat Khan",
+    "Saif Nirzhor",
+    "Brian Provencher"
+  ],
+  "published_date": "2025-06-30",
+  "updated_date": "2025-06-30T11:05:14Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661905",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661905.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:10:46Z",
+        "timestamp": 1768525846571,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 57,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                30
+              ]
+            ],
+            "date-time": "2025-06-30T00:00:00Z",
+            "timestamp": 1751241600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Predicting protein–ligand binding affinity is a fundamental challenge in computational biology and drug discovery, complicated by diverse factors including protein sequence variability, ligand chemical diversity, and structural resolution. Here, we present an integrative study that combines classical machine learning and quantum-enhanced modeling to investigate how crystal structure resolution, sequence similarity, and ligand properties jointly influence binding affinity. Using a curated “refined” dataset from PDBbind and an expanded general dataset, we first conduct correlation and regression analyses to quantify the relationships among binding affinity, ligand descriptors (e.g., molecular weight, logP), and protein structural metrics (resolution, R-factor). We observe moderate positive correlations between ligand size/hydrophobicity and affinity, and a slight negative correlation between resolution and affinity in the refined dataset that largely disappears in the general set. We then train multiple predictive models, including random forests, deep neural networks, and quantum-enhanced approaches—quantum kernel methods, variational quantum circuits, and a hybrid classical–quantum neural network. Experimental results show that quantum-enhanced models perform on par with classical methods in predicting binding affinities and, in some cases, offer modest improvements. Notably, a hybrid quantum–classical model achieves the highest accuracy (Pearson correlation R≈0.80R) on the refined dataset. These findings highlight the potential of quantum computing for capturing complex patterns in biomolecular data, laying groundwork for improved structure-based drug design. Our study underscores that while data quality and curation greatly influence observed trends, quantum machine learning despite current hardware limitations can already serve as a competitive and promising tool in computational structural biology.</jats:p>\n                <jats:sec>\n                  <jats:title>AUTHOR SUMMARY</jats:title>\n                  <jats:p>In our study, we confront a major bottleneck in the creation of new medicines: accurately predicting how strongly a potential drug will attach to its target protein in the body. Getting this right early in the process could save billions of dollars and years of research by preventing dead-ends. We investigated if quantum computing, a new technology that processes information in a fundamentally different way, could provide a better solution. We trained several computer models to predict these binding strengths, comparing standard artificial intelligence (AI) with new models enhanced by quantum machine learning. Our results showed that a hybrid model, which strategically combines classical AI with a quantum-powered component, delivered the most accurate predictions on high-quality, curated data. This work demonstrates that quantum computing is already a competitive tool for real-world biological problems, not just a future possibility. We believe that by further developing these quantum-enhanced approaches, we can create more reliable predictive tools to make the long and difficult search for new drugs faster and more successful.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.06.27.661905",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ],
+        "date-time": "2025-06-30T11:05:14Z",
+        "timestamp": 1751281514000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Quantum analysis of protein–ligand binding by integrating structural resolution, sequence homology, and ligand properties"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2482-6053",
+          "authenticated-orcid": false,
+          "given": "Don",
+          "family": "Roosan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Samira",
+          "family": "Samrose",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rubayat",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Saif",
+          "family": "Nirzhor",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Provencher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.1",
+          "unstructured": "D. Roosan et al., “Quantum AI based blockchain Security for Drug Discovery,” presented at the Innovation in Artificial Intelligence (ICIAI), Mar. 2025."
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apsb.2022.02.002"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-45431-8"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-45269-y"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.4c01684"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11095-024-03742-x"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1200/CCI.19.00023"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0889-8588(03)00138-2"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2023.11.009"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.11",
+          "unstructured": "D. Roosan , R. Khan , T. Khou , S. Nirzhor , F. Hai , and B. Provencher , “Bridging Classical Molecular Dynamics and Quantum Foundations for Comprehensive Protein Structural Analysis,” presented at the International Conference on Emerging AI (IEAI), Apr. 2025."
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D2CS00203E"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/11779322211030364"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules23081899"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12551-016-0247-1"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1113/jphysiol.1962.sp006837"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0240894"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Roosan et al., “Variational Quantum Circuits for Molecular Classification Using Graph Neural Network,” presented at the Quantum Computing and Neural Circuits (QCNC), Mar. 2025.",
+          "DOI": "10.1109/QCNC64685.2025.00074"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-39856-w"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c02192"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-023-00786-w"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btad340"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.22331/q-2023-04-17-981"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.25",
+          "unstructured": "D. Roosan , R. Khan , M. R. Ashakin , T. Khou , S. Nirzhor , and M. R. Haider , “Quantum Variational Transformer Model for Enhanced Cancer Classification,” presented at the International Conference on Emerging AI (IEAI), Apr. 2025."
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-024-02526-3"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-16338-5"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-024-00581-1"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/math12152372"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/widm.1553"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.22331/q-2023-04-27-988"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41746-025-01536-y"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.1c00178"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-32703-4"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-80070-1"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-45269-y"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNNLS.2023.3312170"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c00166"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi901353v"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-1787-8_14"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2023.103675"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2014/428570"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-pharmtox-010919-023324"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.apcsb.2021.03.006"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1183/13993003.00844-2019"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.arcc.2024.10.007"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.47",
+          "unstructured": "D. Roosan et al., “Harnessing Quantum and Liquid Neural Networks for Drug Repurposing in Neurology,” presented at the International Conference on Emerging AI (IEAI), Apr. 2025."
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.48",
+          "unstructured": "D. Roosan , S. Nirzhor , R. Khan , and F. Hai , “Quantum Gradient Optimized Drug Repurposing Prototype for Omics Data,” presented at the International Conference on Data Science (DATA), Jun. 2025."
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.pmch.2017.12.003"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-020-01004-3"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2024.102919"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11030-021-10256-w"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1752-0509-7-S2-S1"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-7717-8_7"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.55",
+          "unstructured": "D. Roosan , R. Khan , M. R. Ashakin , and T. Khou , “Adaptive Multimodal Artificial Intelligence with Liquid Neural Network for Edge Computing-Based Augmented Reality,” presented at the International Conference on Emerging AI (IEAI), Apr. 2025."
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-67897-8"
+        },
+        {
+          "key": "2025070219500716000_2025.06.27.661905v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.2c00574"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.27.661905",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:02:09Z",
+        "timestamp": 1768467729000
+      },
+      "score": 94.966644,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.27.661905"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ]
+      },
+      "references-count": 57,
+      "URL": "https://doi.org/10.1101/2025.06.27.661905",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

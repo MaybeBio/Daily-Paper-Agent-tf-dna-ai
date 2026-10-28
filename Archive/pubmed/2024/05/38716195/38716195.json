@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "38716195",
+    "doi": "10.3389/fcimb.2024.1395716",
+    "title": "Integrating machine learning algorithms and single-cell analysis to identify gut microbiota-related macrophage biomarkers in atherosclerotic plaques."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The relationship between macrophages and the gut microbiota in patients with atherosclerosis remains poorly defined, and effective biological markers are lacking. This study aims to elucidate the interplay between gut microbial communities and macrophages, and to identify biomarkers associated with the destabilization of atherosclerotic plaques. The goal is to enhance our understanding of the underlying molecular pathways and to pave new avenues for diagnostic approaches and therapeutic strategies in the disease. METHODS: This study employed Weighted Gene Co-expression Network Analysis (WGCNA) and differential expression analysis on atherosclerosis datasets to identify macrophage-associated genes and quantify the correlation between these genes and gut microbiota gene sets. The Random Forest algorithm was utilized to pinpoint PLEK, IRF8, BTK, CCR1, and CD68 as gut microbiota-related macrophage genes, and a nomogram was constructed. Based on the top five genes, a Non-negative Matrix Factorization (NMF) algorithm was applied to construct gut microbiota-related macrophage clusters and analyze their potential biological alterations. Subsequent single-cell analyses were conducted to observe the expression patterns of the top five genes and the interactions between immune cells. Finally, the expression profiles of key molecules were validated using clinical samples from atherosclerosis patients. RESULTS: Utilizing the Random Forest algorithm, we ultimately identified PLEK, IRF8, CD68, CCR1, and BTK as gut microbiota-associated macrophage genes that are upregulated in atherosclerotic plaques. A nomogram based on the expression of these five genes was constructed for use as an auxiliary tool in clinical diagnosis. Single-cell analysis confirmed the specific expression of gut microbiota-associated macrophage genes in macrophages. Clinical samples substantiated the high expression of PLEK in unstable atherosclerotic plaques. CONCLUSION: Gut microbiota-associated macrophage genes (PLEK, IRF8, CD68, CCR1, and BTK) may be implicated in the pathogenesis of atherosclerotic plaques and could serve as diagnostic markers to aid patients with atherosclerosis.",
+    "keywords": [
+      "atherosclerotic plaques",
+      "bioinformatics",
+      "gut microbiota",
+      "machine learning",
+      "macrophage"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Macrophages/metabolism/microbiology",
+      "*Plaque, Atherosclerotic/microbiology",
+      "*Gastrointestinal Microbiome",
+      "*Biomarkers/metabolism",
+      "*Single-Cell Analysis/methods",
+      "*Algorithms",
+      "*Machine Learning",
+      "*Receptors, CCR1/metabolism/genetics",
+      "*Atherosclerosis/microbiology/genetics",
+      "Antigens, Differentiation, Myelomonocytic/metabolism",
+      "Agammaglobulinaemia Tyrosine Kinase/genetics/metabolism",
+      "Antigens, CD/metabolism/genetics",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "CD68 Molecule",
+      "Interferon Regulatory Factors",
+      "Interferon Regulatory Factor-8"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ke, Yin",
+        "Yue, Jian",
+        "He, Jiaming",
+        "Liu, Guojing"
+      ],
+      "short_names": [
+        "Ke Y",
+        "Yue J",
+        "He J",
+        "Liu G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The University-Town Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Nursing, The Maternal and Child Health Hospital of Yong Chuan, Chongqing, China.",
+        "Department of Breast Surgery, Gaozhou People's Hospital, Gaozhou, China.",
+        "Institute of Life Sciences, Chongqing Medical University, Chongqing, China.",
+        "Department of Neurosurgery, The University-Town Hospital of Chongqing Medical University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ke, Yin",
+        "short_name": "Ke Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The University-Town Hospital of Chongqing Medical University, Chongqing, China.",
+          "Department of Nursing, The Maternal and Child Health Hospital of Yong Chuan, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Jian",
+        "short_name": "Yue J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Gaozhou People's Hospital, Gaozhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Jiaming",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Life Sciences, Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guojing",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The University-Town Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cellular and infection microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Infect Microbiol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/08 06:44",
+    "fetched_at": "2026-09-29 19:53:25"
+  },
+  "links": {
+    "cites": [
+      "41851623",
+      "41361311",
+      "40483484",
+      "40476584"
+    ],
+    "refs": [
+      "37539055",
+      "36869647",
+      "36807553",
+      "36700224",
+      "35988549",
+      "35794102",
+      "34550337",
+      "34299259",
+      "34261330",
+      "33883728",
+      "33262784",
+      "33025148",
+      "32846063",
+      "32324504",
+      "32267921",
+      "32232558",
+      "31493667",
+      "31450823",
+      "30653442",
+      "30599936",
+      "29895319",
+      "29777212",
+      "28782718",
+      "28212521",
+      "27905479",
+      "27339750",
+      "27273168",
+      "23363777"
+    ],
+    "similar": [
+      "38716195",
+      "40612944",
+      "39026250",
+      "39364414",
+      "36211422",
+      "41262249",
+      "39896809",
+      "41465914",
+      "39923303",
+      "40070840",
+      "41299485",
+      "40881888",
+      "41198554",
+      "42123445",
+      "41895505",
+      "42143937",
+      "41231296",
+      "38062164",
+      "41432483",
+      "42007508",
+      "39396400",
+      "41291841",
+      "41107929",
+      "36823662",
+      "40967560",
+      "38760675",
+      "41733593",
+      "41583468",
+      "39507054",
+      "41239638",
+      "41052072",
+      "41188989",
+      "39805933",
+      "39351239",
+      "39707003",
+      "41392162",
+      "39188323",
+      "39509434",
+      "39139563",
+      "36304068",
+      "40244418",
+      "40727388",
+      "40404675",
+      "40027512",
+      "40022006",
+      "40328901",
+      "40362275",
+      "38867262",
+      "40097519",
+      "41566509",
+      "40406126",
+      "38382092",
+      "39697792",
+      "39965013",
+      "39340293",
+      "41424060",
+      "42024670",
+      "40374840",
+      "42040898",
+      "41265166",
+      "39616855",
+      "40630963",
+      "38639096",
+      "42233387",
+      "39660117",
+      "38711508",
+      "38987624",
+      "37974098",
+      "41242266",
+      "41479901",
+      "40618698",
+      "41388523",
+      "42112330",
+      "41393259",
+      "40421012",
+      "40532306",
+      "40441253",
+      "41409278",
+      "40489880",
+      "41013556",
+      "40540223",
+      "41789070",
+      "38863714",
+      "41013727",
+      "37891634",
+      "40503237",
+      "40082895",
+      "41516018",
+      "39142001",
+      "40742465",
+      "36061826",
+      "41132669",
+      "39072329",
+      "42092981",
+      "41137290",
+      "41758834",
+      "41200172",
+      "41716396",
+      "41073551",
+      "41172679"
+    ],
+    "review": [
+      "38716195"
+    ],
+    "pmc": [
+      "11074432"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38716195/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38716195",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcimb.2024.1395716",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

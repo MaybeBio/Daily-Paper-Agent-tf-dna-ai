@@ -1,0 +1,546 @@
+{
+  "identity": {
+    "pmid": "34588591",
+    "doi": "10.1038/s41598-021-98955-0",
+    "title": "Molecular principles of recruitment and dynamics of guest proteins in liquid droplets."
+  },
+  "content": {
+    "abstract": "Despite the continuous discovery of host and guest proteins in membraneless organelles, complex host-guest interactions hinder the understanding of the molecular grammar governing liquid-liquid phase separation. In this study, we characterized the localization and dynamic properties of guest proteins in liquid droplets using single-molecule fluorescence microscopy. Eighteen guest proteins of different sizes, structures, and oligomeric states were examined in host p53 liquid droplets. Recruitment did not significantly depend on the structural properties of the guest proteins, but was moderately correlated with their length, total charge, and number of R and Y residues. In contrast, the diffusion of disordered guest proteins was comparable to that of host p53, whereas that of folded proteins varied widely. Molecular dynamics simulations suggest that folded proteins diffuse within the voids of the liquid droplet while interacting weakly with neighboring host proteins, whereas disordered proteins adapt their structures to form tight interactions with the host proteins. Our study provides insights into the key molecular principles of the localization and dynamics of guest proteins in liquid droplets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biomolecular Condensates/*chemistry/metabolism/ultrastructure",
+      "Intrinsically Disordered Proteins/*chemistry",
+      "Microscopy, Fluorescence",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "Organelles/*chemistry/ultrastructure",
+      "Phase Transition",
+      "Protein Folding",
+      "Protein Multimerization/genetics",
+      "Single Molecule Imaging",
+      "Tumor Suppressor Protein p53/genetics/metabolism/ultrastructure"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamagata, Kiyoto",
+        "Iwaki, Nanako",
+        "Hazra, Milan Kumar",
+        "Kanbayashi, Saori",
+        "Banerjee, Trishit",
+        "Chiba, Rika",
+        "Sakomoto, Seiji",
+        "Gaudon, Virginie",
+        "Castaing, Bertrand",
+        "Takahashi, Hiroto",
+        "Kimura, Michiko",
+        "Oikawa, Hiroyuki",
+        "Takahashi, Satoshi",
+        "Levy, Yaakov"
+      ],
+      "short_names": [
+        "Kamagata K",
+        "Iwaki N",
+        "Hazra MK",
+        "Kanbayashi S",
+        "Banerjee T",
+        "Chiba R",
+        "Sakomoto S",
+        "Gaudon V",
+        "Castaing B",
+        "Takahashi H",
+        "Kimura M",
+        "Oikawa H",
+        "Takahashi S",
+        "Levy Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+        "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan.",
+        "Department of Structural Biology, Weizmann Institute of Science, 76100, Rehovot, Israel.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Department of Synthetic Chemistry and Biological Chemistry, Graduate School of Engineering, Kyoto University, Katsura, Nishikyo-ku, Kyoto, 615-8510, Japan.",
+        "Centre de Biophysique Moleculaire, CNRS, UPR4301, rue Charles Sadron, 45072, Orleans, France.",
+        "Centre de Biophysique Moleculaire, CNRS, UPR4301, rue Charles Sadron, 45072, Orleans, France.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Department of Structural Biology, Weizmann Institute of Science, 76100, Rehovot, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamagata, Kiyoto",
+        "short_name": "Kamagata K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+          "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+          "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan. kiyoto.kamagata.e8@tohoku.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Iwaki, Nanako",
+        "short_name": "Iwaki N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+          "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan."
+        ]
+      },
+      {
+        "full_name": "Hazra, Milan Kumar",
+        "short_name": "Hazra MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Weizmann Institute of Science, 76100, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Kanbayashi, Saori",
+        "short_name": "Kanbayashi S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Trishit",
+        "short_name": "Banerjee T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+          "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan."
+        ]
+      },
+      {
+        "full_name": "Chiba, Rika",
+        "short_name": "Chiba R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+          "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakomoto, Seiji",
+        "short_name": "Sakomoto S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Synthetic Chemistry and Biological Chemistry, Graduate School of Engineering, Kyoto University, Katsura, Nishikyo-ku, Kyoto, 615-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Gaudon, Virginie",
+        "short_name": "Gaudon V",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Biophysique Moléculaire, CNRS, UPR4301, rue Charles Sadron, 45072, Orléans, France."
+        ]
+      },
+      {
+        "full_name": "Castaing, Bertrand",
+        "short_name": "Castaing B",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Biophysique Moléculaire, CNRS, UPR4301, rue Charles Sadron, 45072, Orléans, France."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Hiroto",
+        "short_name": "Takahashi H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Kimura, Michiko",
+        "short_name": "Kimura M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+          "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Oikawa, Hiroyuki",
+        "short_name": "Oikawa H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+          "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan.",
+          "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Satoshi",
+        "short_name": "Takahashi S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+          "Department of Chemistry, Graduate School of Science, Tohoku University, Sendai, 980-8578, Japan.",
+          "Graduate School of Life Sciences, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Levy, Yaakov",
+        "short_name": "Levy Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Weizmann Institute of Science, 76100, Rehovot, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Sep 29",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/01 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [
+      "42473993",
+      "41991555",
+      "41293562",
+      "41275060",
+      "41238911",
+      "40864652",
+      "40321778",
+      "40291709",
+      "39854227",
+      "39095354",
+      "38178578",
+      "37721444",
+      "37283050",
+      "37024567",
+      "36164646",
+      "35962177",
+      "35501371",
+      "34869607"
+    ],
+    "refs": [
+      "34239016",
+      "33758287",
+      "33629837",
+      "33597515",
+      "33318217",
+      "33310183",
+      "32997109",
+      "32934220",
+      "32822449",
+      "32482873",
+      "31953488",
+      "31653829",
+      "31444270",
+      "31270472",
+      "31237369",
+      "31017394",
+      "30471691",
+      "30061688",
+      "29961577",
+      "29716768",
+      "29650702",
+      "29644850",
+      "29463567",
+      "29424691",
+      "29307468",
+      "29068531",
+      "29064502",
+      "28935776",
+      "28894006",
+      "28591603",
+      "28414097",
+      "28225081",
+      "27754743",
+      "27374333",
+      "27291286",
+      "27219701",
+      "26455390",
+      "26392572",
+      "26317470",
+      "26224838",
+      "26143716",
+      "26015579",
+      "22398450",
+      "21178072",
+      "21097469",
+      "18582054",
+      "16007150",
+      "15342238",
+      "15321712",
+      "8278402",
+      "7885831",
+      "7704272"
+    ],
+    "similar": [
+      "34588591",
+      "35501371",
+      "34716273",
+      "32312191",
+      "29064502",
+      "34090478",
+      "34916288",
+      "37468629",
+      "29509422",
+      "39042834",
+      "27291647",
+      "30926670",
+      "38383656",
+      "35179885",
+      "31023505",
+      "31941785",
+      "32936641",
+      "38979955",
+      "35902591",
+      "35802394",
+      "30061688",
+      "29424691",
+      "23912807",
+      "24150971",
+      "33684117",
+      "34571015",
+      "32207864",
+      "32087632",
+      "36350032",
+      "37020020",
+      "35575335",
+      "26742101",
+      "35053240",
+      "27392146",
+      "30471691",
+      "26412307",
+      "29511089",
+      "37735186",
+      "38824391",
+      "38832749",
+      "34772786",
+      "34598583",
+      "34903621",
+      "34509724",
+      "34664748",
+      "32696385",
+      "34346674",
+      "33914074",
+      "35773489",
+      "34624295",
+      "33307683",
+      "34869607",
+      "34606793",
+      "31444270",
+      "31054969",
+      "36227468",
+      "34334791",
+      "25747659",
+      "24589355",
+      "32824618",
+      "32225071",
+      "31237369",
+      "31500307",
+      "33453922",
+      "29735687",
+      "33503380",
+      "37047451",
+      "32571937",
+      "31694155",
+      "32184088",
+      "28554553",
+      "25244701",
+      "29981536",
+      "29068531",
+      "32096047",
+      "33355572",
+      "37283050",
+      "25387963",
+      "37146977",
+      "34504002",
+      "28157327",
+      "35596607",
+      "34706530",
+      "34552246",
+      "27819658",
+      "31552948",
+      "34123251",
+      "32937111",
+      "33765580",
+      "27886109",
+      "32800925",
+      "27838525",
+      "31953488",
+      "33248138",
+      "33403854",
+      "29683665",
+      "28223518",
+      "28924037",
+      "35962177",
+      "29961577",
+      "33876938",
+      "33812316",
+      "33049214",
+      "33056997",
+      "34291921",
+      "38416758",
+      "32020911",
+      "34102212",
+      "33377110",
+      "29986056",
+      "25207671",
+      "31881311",
+      "36979462",
+      "31260322",
+      "32584357",
+      "32405004",
+      "36071192",
+      "38751116",
+      "37710047",
+      "35501484",
+      "34706977",
+      "38569418",
+      "37024567",
+      "34772790",
+      "37408305",
+      "36350030",
+      "34544610",
+      "39424799",
+      "32934220",
+      "35597639",
+      "36987392",
+      "34164013",
+      "35687670",
+      "36087810",
+      "36124686",
+      "29859829",
+      "36795466",
+      "34670847",
+      "36138108",
+      "33242727",
+      "35651258",
+      "33532844",
+      "35245612",
+      "34516805",
+      "36912625",
+      "38459271"
+    ],
+    "review": [
+      "34588591",
+      "32312191",
+      "29509422",
+      "27291647",
+      "35179885",
+      "31023505",
+      "38979955",
+      "35802394",
+      "36350032",
+      "34772786",
+      "33914074",
+      "34869607",
+      "31444270",
+      "31054969",
+      "34334791",
+      "32824618",
+      "31237369",
+      "33503380",
+      "31694155",
+      "28554553",
+      "29068531",
+      "32096047",
+      "33355572",
+      "33765580",
+      "32800925",
+      "27838525",
+      "33248138",
+      "33812316",
+      "33049214",
+      "34291921",
+      "32020911",
+      "36071192",
+      "34706977",
+      "38569418",
+      "34772790",
+      "36087810",
+      "34670847",
+      "33242727"
+    ],
+    "pmc": [
+      "8481498"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-021-98955-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34588591/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34588591",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34588591",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

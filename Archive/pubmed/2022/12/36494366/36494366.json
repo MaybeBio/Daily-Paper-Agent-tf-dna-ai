@@ -1,0 +1,455 @@
+{
+  "identity": {
+    "pmid": "36494366",
+    "doi": "10.1038/s41467-022-35438-4",
+    "title": "Limited conservation in cross-species comparison of GLK transcription factor binding suggested wide-spread cistrome divergence."
+  },
+  "content": {
+    "abstract": "Non-coding cis-regulatory variants in animal genomes are an important driving force in the evolution of transcription regulation and phenotype diversity. However, cistrome dynamics in plants remain largely underexplored. Here, we compare the binding of GOLDEN2-LIKE (GLK) transcription factors in tomato, tobacco, Arabidopsis, maize and rice. Although the function of GLKs is conserved, most of their binding sites are species-specific. Conserved binding sites are often found near photosynthetic genes dependent on GLK for expression, but sites near non-differentially expressed genes in the glk mutant are nevertheless under purifying selection. The binding sites' regulatory potential can be predicted by machine learning model using quantitative genome features and TF co-binding information. Our study show that genome cis-variation caused wide-spread TF binding divergence, and most of the TF binding sites are genetically redundant. This poses a major challenge for interpreting the effect of individual sites and highlights the importance of quantitatively measuring TF occupancy.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Gene Expression Regulation, Plant",
+      "*Arabidopsis/genetics/metabolism",
+      "*Arabidopsis Proteins/metabolism",
+      "Transcription Factors/metabolism",
+      "Photosynthesis/physiology",
+      "Binding Sites/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tu, Xiaoyu",
+        "Ren, Sibo",
+        "Shen, Wei",
+        "Li, Jianjian",
+        "Li, Yuxiang",
+        "Li, Chuanshun",
+        "Li, Yangmeihui",
+        "Zong, Zhanxiang",
+        "Xie, Weibo",
+        "Grierson, Donald",
+        "Fei, Zhangjun",
+        "Giovannoni, Jim",
+        "Li, Pinghua",
+        "Zhong, Silin"
+      ],
+      "short_names": [
+        "Tu X",
+        "Ren S",
+        "Shen W",
+        "Li J",
+        "Li Y",
+        "Li C",
+        "Li Y",
+        "Zong Z",
+        "Xie W",
+        "Grierson D",
+        "Fei Z",
+        "Giovannoni J",
+        "Li P",
+        "Zhong S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0082-8989",
+        "ORCID: 0000-0002-9324-6477",
+        "ORCID: 0000-0002-2768-3572",
+        "ORCID: 0000-0002-2238-8072",
+        "ORCID: 0000-0001-9684-1450",
+        "ORCID: 0000-0002-0972-2515",
+        "ORCID: 0000-0003-4314-7400",
+        "ORCID: 0000-0002-0198-7383"
+      ],
+      "affiliations": [
+        "The South China Botanical Garden, Chinese Academy of Sciences, Guangzhou, China.",
+        "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "School of Agriculture and Biology, Joint Center for Single cell Biology/Shanghai Collaborative Innovation Center of Agri-Seeds, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "School of Agriculture and Biology, Joint Center for Single cell Biology/Shanghai Collaborative Innovation Center of Agri-Seeds, Shanghai Jiao Tong University, Shanghai, China.",
+        "School of Agriculture and Biology, Joint Center for Single cell Biology/Shanghai Collaborative Innovation Center of Agri-Seeds, Shanghai Jiao Tong University, Shanghai, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, China.",
+        "Zhejiang Provincial Key Laboratory of Horticultural Plant Integrative Biology, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Boyce Thompson Institute, Cornell University, Ithaca, NY, USA.",
+        "Boyce Thompson Institute, Cornell University, Ithaca, NY, USA.",
+        "State Key Laboratory of Crop Biology, College of Agronomy, Shandong Agricultural University, Tai'an, Shandong, China. pinghuali@sdau.edu.cn.",
+        "The South China Botanical Garden, Chinese Academy of Sciences, Guangzhou, China. silin.zhong@cuhk.edu.hk.",
+        "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China. silin.zhong@cuhk.edu.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tu, Xiaoyu",
+        "short_name": "Tu X",
+        "identifiers": [
+          "0000-0002-0082-8989"
+        ],
+        "affiliations": [
+          "The South China Botanical Garden, Chinese Academy of Sciences, Guangzhou, China.",
+          "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+          "School of Agriculture and Biology, Joint Center for Single cell Biology/Shanghai Collaborative Innovation Center of Agri-Seeds, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Sibo",
+        "short_name": "Ren S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Wei",
+        "short_name": "Shen W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianjian",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0002-9324-6477"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuxiang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chuanshun",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture and Biology, Joint Center for Single cell Biology/Shanghai Collaborative Innovation Center of Agri-Seeds, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yangmeihui",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture and Biology, Joint Center for Single cell Biology/Shanghai Collaborative Innovation Center of Agri-Seeds, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zong, Zhanxiang",
+        "short_name": "Zong Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Weibo",
+        "short_name": "Xie W",
+        "identifiers": [
+          "0000-0002-2768-3572"
+        ],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Grierson, Donald",
+        "short_name": "Grierson D",
+        "identifiers": [
+          "0000-0002-2238-8072"
+        ],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Horticultural Plant Integrative Biology, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Fei, Zhangjun",
+        "short_name": "Fei Z",
+        "identifiers": [
+          "0000-0001-9684-1450"
+        ],
+        "affiliations": [
+          "Boyce Thompson Institute, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Giovannoni, Jim",
+        "short_name": "Giovannoni J",
+        "identifiers": [
+          "0000-0002-0972-2515"
+        ],
+        "affiliations": [
+          "Boyce Thompson Institute, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Pinghua",
+        "short_name": "Li P",
+        "identifiers": [
+          "0000-0003-4314-7400"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Biology, College of Agronomy, Shandong Agricultural University, Tai'an, Shandong, China. pinghuali@sdau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhong, Silin",
+        "short_name": "Zhong S",
+        "identifiers": [
+          "0000-0002-0198-7383"
+        ],
+        "affiliations": [
+          "The South China Botanical Garden, Chinese Academy of Sciences, Guangzhou, China. silin.zhong@cuhk.edu.hk.",
+          "State Key Laboratory of Agrobiotechnology, School of Life Sciences, The Chinese University of Hong Kong, Hong Kong, China. silin.zhong@cuhk.edu.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Dec 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/10 06:00",
+    "fetched_at": "2026-09-28 17:16:10"
+  },
+  "links": {
+    "cites": [
+      "42341120",
+      "42290551",
+      "42203863",
+      "42159719",
+      "41967643",
+      "41857784",
+      "41854240",
+      "41668066",
+      "41474929",
+      "41413174",
+      "41365331",
+      "41351600",
+      "41073757",
+      "41002242",
+      "40908642",
+      "40664702",
+      "40444461",
+      "40371945",
+      "40333587",
+      "40217549",
+      "40141031",
+      "40034158",
+      "39312655",
+      "39288070",
+      "39224848",
+      "39213181",
+      "39075207",
+      "39000074",
+      "38743349",
+      "38405933",
+      "38311744",
+      "37882077"
+    ],
+    "refs": [
+      "35866989",
+      "33603233",
+      "33037196",
+      "31507622",
+      "31283382",
+      "30876396",
+      "30250279",
+      "30002259",
+      "27811239",
+      "27203113",
+      "27155066",
+      "26969995",
+      "26429922",
+      "25557079",
+      "25409825",
+      "25394363",
+      "24888900",
+      "24766815",
+      "24603674",
+      "24582145",
+      "24510723",
+      "24471833",
+      "23354102",
+      "23332764",
+      "22968911",
+      "22955991",
+      "22955616",
+      "22895178",
+      "22745430",
+      "22705667",
+      "22660326",
+      "21368132",
+      "20864205",
+      "20519030",
+      "20378774",
+      "20299548",
+      "19376934",
+      "17690298",
+      "17417638",
+      "17304246",
+      "16601727",
+      "16237444",
+      "15343339",
+      "12853946",
+      "12220263",
+      "11340194",
+      "7697715",
+      "1090005"
+    ],
+    "similar": [
+      "36494366",
+      "23749810",
+      "19376934",
+      "18643989",
+      "36702576",
+      "19383092",
+      "14630974",
+      "25361952",
+      "22968911",
+      "33104784",
+      "34951648",
+      "25918418",
+      "28373393",
+      "26103993",
+      "27821720",
+      "30866803",
+      "24914054",
+      "25220462",
+      "34608238",
+      "27503086",
+      "15923345",
+      "36438095",
+      "22415275",
+      "32126279",
+      "36002404",
+      "29203652",
+      "12220263",
+      "26045464",
+      "27346129",
+      "27964999",
+      "22773751",
+      "20838596",
+      "19054363",
+      "24228871",
+      "29908279",
+      "21515819",
+      "34383745",
+      "26876646",
+      "22852874",
+      "31038680",
+      "31937681",
+      "12060226",
+      "35132717",
+      "16126853",
+      "24393452",
+      "16649111",
+      "25853185",
+      "16223790",
+      "31062267",
+      "32929017",
+      "31623554",
+      "22242012",
+      "21908441",
+      "24510723",
+      "21284757",
+      "34135936",
+      "27128442",
+      "30314465",
+      "17722694",
+      "30723180",
+      "21377757",
+      "15598802",
+      "29272447",
+      "29525963",
+      "31745747",
+      "16922688",
+      "23832569",
+      "32576674",
+      "16877030",
+      "39224848",
+      "12609051",
+      "33689093",
+      "33656670",
+      "19385720",
+      "25527103",
+      "21347314",
+      "22992304",
+      "23340744",
+      "27356975",
+      "21571672",
+      "18363631",
+      "22228409",
+      "33098715",
+      "16098105",
+      "19789276",
+      "28716409",
+      "23828545",
+      "35799371",
+      "28835225"
+    ],
+    "review": [
+      "36494366",
+      "36002404",
+      "39224848"
+    ],
+    "pmc": [
+      "9734178"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-35438-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36494366/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36494366",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

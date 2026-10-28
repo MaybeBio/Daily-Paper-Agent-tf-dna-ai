@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "42196261",
+    "doi": "10.3390/ijms27104278",
+    "title": "Computational Analysis of SPI1 Missense Mutations and ADMET-Guided Molecular Docking of Cinnamic Acid Targeting the PU.1 ETS Domain: Implications for Hematopoietic Dysregulation and Leukemogenesis."
+  },
+  "content": {
+    "abstract": "Spi-1 Proto-Oncogene (SPI1) encodes Purine-rich box 1 Transcription Factor (PU.1), a transcription factor of the ETS family that regulates hematopoietic lineage commitment and immune cell differentiation. Alteration of PU.1 dose or ETS domain integrity may interfere with transcriptional programs, which adds to hematopoietic dysregulation and leukemogenesis. Even though changes in SPI1 expression have been associated with acute myeloid leukemia (AML), the structural and regulatory effects of missense mutations at the PU.1 ETS domain have not been entirely studied, and targeting the PU.1 ETS domain by ligands is an area of computational analysis that should be further pursued. To computationally describe deleterious missense variants of SPI1 in terms of structural stability, evolutionary conservation, post-translational modification (PTM) context and interaction networks, and to measure ADMET-mediated molecular docking of cinnamic acid with the PU.1 ETS domain (8EQG) as a potential modulator. Missense nsSNPs were obtained through Ensembl and narrowed down by consensus prediction of pathogenicity (PredictSNP, combining SIFT, PolyPhen, SNAP and PhD-SNP and other tools). InterPro/UniProt was used for domain mapping. SWISS-MODEL was used to produce wild-type and mutant PU.1 versions, which were analyzed on the structural alignment and Calpha-Calpha displacement parameters in UCSF Chimera (v1.19). The estimation of stability change was carried out with I-Mutant and MUpro. Prediction of PTM sites was done using MusiteDeep and exploration of functional partners was done using STRING. Human, mouse and zebrafish orthologue conservation was measured by means of MAFFT alignment. GEPIA2 was used to compare the expression of SPI1 in AML (TCGA-LAML) and normal tissues (GTEx). AutoDock Vina (grid center 6, -2, -9 A; 20 x 20 x 20 A; 16 exhaustiveness) was used to prepare cinnamic acid and dock it into the PU.1 ETS domain (8EQG), with SwissDock being used for consistency checks. SwissADME and ADMETlab 2.0 were used to predict drug-likeness, pharmacokinetics, and toxicity. Nine missense mutations were routinely considered as deleterious with the majority of them being located in or near the ETS DNA-binding domain. Structural comparisons showed local perturbations of the structure and I189F and H211P yielded the greatest conformational changes between prioritized variants whereas other forms had minimal movements. A predominantly destabilizing trend was supported by stability prediction whereby V241G had the strongest destabilization signal with further destabilizations being predicted in I189F and R259C. PTM mapping revealed several potential regulatory residues (phosphorylation, acetylation, ubiquitination, and methylation), which indicated that there could be crosstalk between the sequence variation and the transcriptional regulation. The SPI1 was placed in a central hematopoietic transcriptional module (containing RUNX1, CEBP members, GATA1 and IRF factors) by the STRING network. The cross-species alignment showed that there was high conservation of a number of the mutation sites, which would support functional constraint at the ETS region. The expression analysis revealed that the level of SPI1 mRNA in AML was significantly elevated compared to normal tissues. Docking also indicated a slight and reproducible interaction of cinnamic acid with the ETS domain (top affinity -4.27 kcal/mol), with a solitary leading polar anchor and supportive hydrophobic interactions, which is akin to interaction between fragments. The ADMET profiling revealed the likelihood of success in the oral drug-likeness and low CYP inhibition liability, as well as signifying the presence of a possible hepatotoxicity signal that needs further confirmation through experiments. Comprehensive computational studies suggest that certain pathogenic variants of SPI1 missense defects, especially in the ETS domain, can result in loss of PU.1 structural stability and regulatory environment, which are in line with the disturbed hematopoietic regulation and AML-related dysregulation. Cinnamic acid demonstrates moderate yet reproducible binding to the PU.1 ETS domain and has an overall favorable developability profile, which indicates that it is better considered as a starting scaffold, as opposed to an active inhibitor. The results give a logical basis of focused biochemical validation and structure-directed optimization of ETS domain modulators in hematologic disease settings.",
+    "keywords": [
+      "AML",
+      "Cinnamic acid",
+      "ETS domain",
+      "SPI1",
+      "TCGA",
+      "hematopoiesis",
+      "in silico bioinformatics",
+      "missense nsSNPs",
+      "protein structure",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Proto-Oncogene Protein Spi-1",
+      "*Proto-Oncogene Proteins/genetics/chemistry/metabolism",
+      "Proto-Oncogene Mas",
+      "Humans",
+      "*Mutation, Missense",
+      "*Trans-Activators/genetics/chemistry/metabolism",
+      "*Molecular Docking Simulation",
+      "Animals",
+      "*Hematopoiesis/genetics/drug effects",
+      "*Leukemia, Myeloid, Acute/genetics/metabolism",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jaddah, Mariam M",
+        "Khalaf, Samer N",
+        "Ahmed, Mohammed Mukhles",
+        "Alshanqiti, Aisha Abdullah"
+      ],
+      "short_names": [
+        "Jaddah MM",
+        "Khalaf SN",
+        "Ahmed MM",
+        "Alshanqiti AA"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-6120-2748",
+        "ORCID: 0000-0001-7459-6474",
+        "ORCID: 0000-0002-2831-9246",
+        "ORCID: 0009-0000-9704-6723"
+      ],
+      "affiliations": [
+        "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Taibah University, Al Madinah Al Munawarah 42353, Saudi Arabia.",
+        "Department of Biotechnology, College of Science, University of Anbar, Ramadi 31001, Iraq.",
+        "Department of Biotechnology, College of Science, University of Anbar, Ramadi 31001, Iraq.",
+        "Department of Physiology, College of Medicine, Umm Al-Qura University, P.O. Box 715, Makkah 24382, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jaddah, Mariam M",
+        "short_name": "Jaddah MM",
+        "identifiers": [
+          "0009-0007-6120-2748"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Taibah University, Al Madinah Al Munawarah 42353, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Khalaf, Samer N",
+        "short_name": "Khalaf SN",
+        "identifiers": [
+          "0000-0001-7459-6474"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, College of Science, University of Anbar, Ramadi 31001, Iraq."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Mohammed Mukhles",
+        "short_name": "Ahmed MM",
+        "identifiers": [
+          "0000-0002-2831-9246"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, College of Science, University of Anbar, Ramadi 31001, Iraq."
+        ]
+      },
+      {
+        "full_name": "Alshanqiti, Aisha Abdullah",
+        "short_name": "Alshanqiti AA",
+        "identifiers": [
+          "0009-0000-9704-6723"
+        ],
+        "affiliations": [
+          "Department of Physiology, College of Medicine, Umm Al-Qura University, P.O. Box 715, Makkah 24382, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 May 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 06:34",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [
+      "42589455"
+    ],
+    "refs": [
+      "38157851",
+      "32324217",
+      "31669559",
+      "31241430",
+      "30576484",
+      "27438764",
+      "25750172",
+      "25749719",
+      "25429559",
+      "24453961",
+      "23868921",
+      "22859501",
+      "22512578",
+      "21768304",
+      "21059217",
+      "20969585",
+      "20711990",
+      "20520638",
+      "20035037",
+      "19765975",
+      "19150423",
+      "18579409",
+      "17259967",
+      "16792504",
+      "16735999",
+      "16372356",
+      "15980478",
+      "15914556",
+      "15728463",
+      "15186842",
+      "11125043",
+      "11023493",
+      "10203717",
+      "9226149",
+      "8602247",
+      "2269352",
+      "2180582"
+    ],
+    "similar": [
+      "42196261",
+      "31018969",
+      "26851695",
+      "42475469",
+      "25938608",
+      "28790174",
+      "18497996",
+      "30355733",
+      "15750630",
+      "12749910",
+      "14592421",
+      "21664289",
+      "12393465",
+      "17340619",
+      "16098914",
+      "23246696",
+      "17374502",
+      "10077581",
+      "12676954",
+      "11175360",
+      "40892789",
+      "11149949",
+      "24952944",
+      "16861236",
+      "10411939",
+      "10196196",
+      "25765478",
+      "38939973",
+      "34180951",
+      "33786950",
+      "22533913",
+      "8824592",
+      "11278640",
+      "9010223",
+      "38542393",
+      "10548056",
+      "21518930",
+      "19382896",
+      "15688197",
+      "35743167",
+      "15016863",
+      "11124259",
+      "11864910",
+      "27617961",
+      "15936902",
+      "16298389",
+      "11481336",
+      "24037986",
+      "35685361",
+      "38656135",
+      "38132435",
+      "12453417",
+      "25750172",
+      "36321557",
+      "28410371",
+      "40169783",
+      "40493574",
+      "41136556",
+      "17629523",
+      "26343801",
+      "28338898",
+      "10022840",
+      "35820129",
+      "10375504",
+      "11841229",
+      "41756011",
+      "31187595",
+      "24695740",
+      "9334192",
+      "7588608",
+      "12464608",
+      "12055236",
+      "24498324",
+      "12972030",
+      "22474303",
+      "39954676",
+      "30842770",
+      "23912807",
+      "8691135",
+      "22012064",
+      "9368014",
+      "41539145",
+      "23118933",
+      "42322085",
+      "11313289",
+      "24445282",
+      "11997509",
+      "10364157",
+      "1409581",
+      "23547873",
+      "10453070",
+      "42008967",
+      "25185713",
+      "30355579",
+      "14659744",
+      "17694175",
+      "28912174",
+      "40981192",
+      "19966852",
+      "17994017"
+    ],
+    "review": [
+      "42196261",
+      "21664289",
+      "23246696",
+      "17374502",
+      "11175360",
+      "38939973",
+      "19382896",
+      "25750172",
+      "36321557",
+      "17629523",
+      "12972030",
+      "30842770"
+    ],
+    "pmc": [
+      "13206789"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27104278",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42196261/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

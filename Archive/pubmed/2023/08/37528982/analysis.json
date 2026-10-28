@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37528982",
+  "title": "Predicting transcriptional responses to heat and drought stress from genomic features using a machine learning approach in rice.",
+  "authors": "Smet, Dajo; Opdebeeck, Helder; Vandepoele, Klaas",
+  "journal": "Frontiers in plant science",
+  "published_date": "2023-08-02",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用随机森林机器学习基于基因组序列特征预测水稻热/干旱胁迫的转录响应，并解析启动子寡聚体等DNA基序对调控的贡献，虽涉及TF结合位点但未聚焦TF-DNA三维互作建模，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Plants have evolved various mechanisms to adapt to adverse environmental stresses, such as the modulation of gene expression. Expression of stress-responsive genes is controlled by specific regulators, including transcription factors (TFs), that bind to sequence-specific binding sites, representing key components of cis-regulatory elements and regulatory networks. Our understanding of the underlying regulatory code remains, however, incomplete. Recent studies have shown that, by training machine learning (ML) algorithms on genomic sequence features, it is possible to predict which genes will transcriptionally respond to a specific stress. By identifying the most important features for gene expression prediction, these trained ML models allow, in theory, to further elucidate the regulatory code underlying the transcriptional response to abiotic stress. Here, we trained random forest ML models to predict gene expression in rice (Oryza sativa) in response to heat or drought stress. Apart from thoroughly assessing model performance and robustness across various input training data, the importance of promoter and gene body sequence features to train ML models was evaluated. The use of enriched promoter oligomers, complementing known TF binding sites, allowed us to gain novel insights in DNA motifs contributing to the stress regulatory code. By comparing genomic feature importance scores for drought and heat stress over time, general and stress-specific genomic features contributing to the performance of the learned models and their temporal variation were identified. This study provides a solid foundation to build and interpret ML models accurately predicting transcriptional responses and enables novel insights in biological sequence features that are important for abiotic stress responses.",
+  "abstract_zh": "植物已进化出多种机制以适应不利的环境胁迫，例如基因表达的调控。胁迫响应基因的表达由特定调控因子控制，包括转录因子（transcription factors, TFs），这些因子结合到序列特异性结合位点，构成顺式调控元件和调控网络的关键组成部分。然而，我们对潜在调控代码的理解仍不完整。近期研究表明，通过在基因组序列特征上训练机器学习（machine learning, ML）算法，可以预测哪些基因会对特定胁迫产生转录响应。通过识别对基因表达预测最重要的特征，这些训练好的ML模型在理论上能够进一步阐明非生物胁迫转录响应背后的调控代码。在本研究中，我们训练了随机森林ML模型，以预测水稻（*Oryza sativa*）在热胁迫或干旱胁迫下的基因表达。除了全面评估模型在不同输入训练数据下的性能和稳健性外，还评估了启动子和基因体序列特征在训练ML模型中的重要性。利用富集的启动子寡聚体，补充已知的TF结合位点，使我们获得了对贡献于胁迫调控代码的DNA基序的新见解。通过比较干旱和热胁迫下基因组特征重要性得分随时间的变化，识别了有助于学习模型性能的通用和胁迫特异性基因组特征及其时间变异。本研究为构建和解释准确预测转录响应的ML模型提供了坚实基础，并促进了对非生物胁迫响应中重要生物序列特征的新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37528982/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37528982/",
+  "paper_page_path": "papers/pubmed/37528982/index.html"
+}

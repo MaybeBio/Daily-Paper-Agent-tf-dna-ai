@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "39127720",
+    "doi": "10.1038/s41467-024-50412-y",
+    "title": "Signaling by a bacterial phytochrome histidine kinase involves a conformational cascade reorganizing the dimeric photoreceptor."
+  },
+  "content": {
+    "abstract": "Phytochromes (Phys) are a divergent cohort of bili-proteins that detect light through reversible interconversion between dark-adapted Pr and photoactivated Pfr states. While our understandings of downstream events are emerging, it remains unclear how Phys translate light into an interpretable conformational signal. Here, we present models of both states for a dimeric Phy with histidine kinase (HK) activity from the proteobacterium Pseudomonas syringae, which were built from high-resolution cryo-EM maps (2.8-3.4-A) of the photosensory module (PSM) and its following signaling (S) helix together with lower resolution maps for the downstream output region augmented by RoseTTAFold and AlphaFold structural predictions. The head-to-head models reveal the PSM and its photointerconversion mechanism with strong clarity, while the HK region is interpretable but relatively mobile. Pr/Pfr comparisons show that bilin phototransformation alters PSM architecture culminating in a scissoring motion of the paired S-helices linking the PSMs to the HK bidomains that ends in reorientation of the paired catalytic ATPase modules relative to the phosphoacceptor histidines. This action apparently primes autophosphorylation enroute to phosphotransfer to the cognate DNA-binding response regulator AlgB which drives quorum-sensing behavior through transient association with the photoreceptor. Collectively, these models illustrate how light absorption conformationally translates into accelerated signaling by Phy-type kinases.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histidine Kinase/metabolism/chemistry/genetics",
+      "*Bacterial Proteins/metabolism/chemistry/genetics",
+      "*Phytochrome/metabolism/chemistry",
+      "*Signal Transduction",
+      "*Pseudomonas syringae/metabolism",
+      "Models, Molecular",
+      "Cryoelectron Microscopy",
+      "Protein Conformation",
+      "Protein Multimerization",
+      "Photoreceptors, Microbial/metabolism/chemistry/genetics",
+      "Light"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Burgie, E Sethe",
+        "Basore, Katherine",
+        "Rau, Michael J",
+        "Summers, Brock",
+        "Mickles, Alayna J",
+        "Grigura, Vadim",
+        "Fitzpatrick, James A J",
+        "Vierstra, Richard D"
+      ],
+      "short_names": [
+        "Burgie ES",
+        "Basore K",
+        "Rau MJ",
+        "Summers B",
+        "Mickles AJ",
+        "Grigura V",
+        "Fitzpatrick JAJ",
+        "Vierstra RD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5974-0968",
+        "ORCID: 0000-0002-0566-2076",
+        "ORCID: 0009-0009-7704-5788"
+      ],
+      "affiliations": [
+        "Department of Biology, Washington University in St. Louis, St. Louis, MO, 63130, USA.",
+        "Bayer Crop Sciences, Chesterfield, MO, USA.",
+        "Washington University in St. Louis Center for Cellular Imaging, St. Louis, MO, 63130, USA.",
+        "Washington University in St. Louis Center for Cellular Imaging, St. Louis, MO, 63130, USA.",
+        "Bayer Crop Sciences, Chesterfield, MO, USA.",
+        "Washington University in St. Louis Center for Cellular Imaging, St. Louis, MO, 63130, USA.",
+        "Department of Biology, Washington University in St. Louis, St. Louis, MO, 63130, USA.",
+        "Department of Biology, Washington University in St. Louis, St. Louis, MO, 63130, USA.",
+        "Washington University in St. Louis Center for Cellular Imaging, St. Louis, MO, 63130, USA.",
+        "Roche Pharma Research and Early Development, F. Hoffmann-La Roche Ltd, Basel, Grenzacherstrasse, 124, 4070, Switzerland.",
+        "Department of Biology, Washington University in St. Louis, St. Louis, MO, 63130, USA. rdvierstra@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Burgie, E Sethe",
+        "short_name": "Burgie ES",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Washington University in St. Louis, St. Louis, MO, 63130, USA.",
+          "Bayer Crop Sciences, Chesterfield, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Basore, Katherine",
+        "short_name": "Basore K",
+        "identifiers": [
+          "0000-0001-5974-0968"
+        ],
+        "affiliations": [
+          "Washington University in St. Louis Center for Cellular Imaging, St. Louis, MO, 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Rau, Michael J",
+        "short_name": "Rau MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University in St. Louis Center for Cellular Imaging, St. Louis, MO, 63130, USA.",
+          "Bayer Crop Sciences, Chesterfield, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Summers, Brock",
+        "short_name": "Summers B",
+        "identifiers": [
+          "0000-0002-0566-2076"
+        ],
+        "affiliations": [
+          "Washington University in St. Louis Center for Cellular Imaging, St. Louis, MO, 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Mickles, Alayna J",
+        "short_name": "Mickles AJ",
+        "identifiers": [
+          "0009-0009-7704-5788"
+        ],
+        "affiliations": [
+          "Department of Biology, Washington University in St. Louis, St. Louis, MO, 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Grigura, Vadim",
+        "short_name": "Grigura V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Washington University in St. Louis, St. Louis, MO, 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Fitzpatrick, James A J",
+        "short_name": "Fitzpatrick JAJ",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University in St. Louis Center for Cellular Imaging, St. Louis, MO, 63130, USA.",
+          "Roche Pharma Research and Early Development, F. Hoffmann-La Roche Ltd, Basel, Grenzacherstrasse, 124, 4070, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Vierstra, Richard D",
+        "short_name": "Vierstra RD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Washington University in St. Louis, St. Louis, MO, 63130, USA. rdvierstra@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Aug 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/11 04:43",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "42560012",
+      "42260277",
+      "41353338",
+      "41183149",
+      "41028345",
+      "40769055",
+      "40681765",
+      "40544164",
+      "40506475",
+      "40322674",
+      "39865424"
+    ],
+    "refs": [
+      "37392739",
+      "37291396",
+      "36509762",
+      "36419248",
+      "35412617",
+      "35355010",
+      "34818032",
+      "34285211",
+      "34282049",
+      "34267316",
+      "33756101",
+      "33582281",
+      "33107538",
+      "32916102",
+      "31852825",
+      "31830037",
+      "31745087",
+      "31588918",
+      "31226026",
+      "30878713",
+      "29869984",
+      "28710774",
+      "28445833",
+      "28401765",
+      "28275738",
+      "27789798",
+      "27789797",
+      "27466363",
+      "26853942",
+      "26278980",
+      "26095026",
+      "25480369",
+      "25006244",
+      "24982198",
+      "24776794",
+      "24174528",
+      "23954504",
+      "21664820",
+      "20534495",
+      "20383002",
+      "19363495",
+      "18988020",
+      "18799746",
+      "18799745",
+      "18192276",
+      "16859925",
+      "16669784",
+      "16292304",
+      "15264254",
+      "11742406"
+    ],
+    "similar": [
+      "39127720",
+      "39216473",
+      "39121216",
+      "38750792",
+      "20534495",
+      "23300666",
+      "32069394",
+      "25012656",
+      "25006244",
+      "40617349",
+      "36509762",
+      "27107635",
+      "26853942",
+      "38462162",
+      "27466363",
+      "41028347",
+      "18799746",
+      "27536728",
+      "31527275",
+      "33879593",
+      "25971964",
+      "15641769",
+      "20075921",
+      "37675785",
+      "25480369",
+      "37986774",
+      "19720999",
+      "17027028",
+      "23760465",
+      "29066541",
+      "33756101",
+      "25337904",
+      "36757561",
+      "10617469",
+      "41028350",
+      "31707656",
+      "28289094",
+      "41317121",
+      "24982198",
+      "31120245",
+      "38848579",
+      "31397927",
+      "29622676",
+      "41247015",
+      "30808807",
+      "30244967",
+      "31801828",
+      "31707657",
+      "21719341",
+      "17335289",
+      "32184354",
+      "40015976",
+      "40273983",
+      "21634374",
+      "34639031",
+      "32228856",
+      "17609133",
+      "40645610",
+      "12563032",
+      "28552574",
+      "16669784",
+      "33107538",
+      "11145881",
+      "34285211",
+      "30740537",
+      "34116122",
+      "31914416",
+      "31772055",
+      "24776794",
+      "37291396",
+      "9230690",
+      "40322674",
+      "32812681",
+      "16004604",
+      "21888915",
+      "32420731",
+      "16292304",
+      "26833410",
+      "18799745",
+      "28819239",
+      "32458860",
+      "40681765",
+      "32916102",
+      "16339731",
+      "32591422",
+      "24174528",
+      "39317197",
+      "28475313",
+      "21250783",
+      "18832155",
+      "24742290",
+      "33972439",
+      "15486100",
+      "40926645",
+      "27282102",
+      "29229875",
+      "12604773",
+      "16377207",
+      "32149285",
+      "29327408"
+    ],
+    "review": [
+      "39127720",
+      "25480369",
+      "38848579",
+      "31397927",
+      "21719341",
+      "16669784",
+      "33107538",
+      "11145881",
+      "9230690",
+      "28475313"
+    ],
+    "pmc": [
+      "11316798"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-50412-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39127720/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1491",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

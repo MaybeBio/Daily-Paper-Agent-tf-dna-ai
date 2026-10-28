@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42395432",
+  "title": "A Chromatin Biology Assessment of AlphaFold3.",
+  "authors": "Bhargava, Yash; Wolberger, Cynthia; Rahman, Sanim",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-07-03",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文系统评估AlphaFold3在染色质复合物结构预测中的能力，重点揭示其对转录因子与核小体DNA互作建模的局限性，为TF-DNA结合建模方法改进提供直接基准与启示。",
+  "abstract": "Biomolecular structure prediction tools such as AlphaFold have achieved remarkable success in predicting structures of single proteins and multiprotein complexes. AlphaFold3 now incorporates the capability to model complexes containing nucleic acids and chemically modified side chains. Investigators can now predict structures of proteins bound to chromatin, where interactions with nucleosomal DNA and histone post-translational modifications converge to control genome function. To evaluate its robustness in modeling chromatin complexes, we benchmarked AlphaFold3 on 115 structures containing nucleosomes whose coordinates were released by the Protein Data Bank after the training set cutoff date. We find that AlphaFold3 excels at predicting histone-driven interactions and accurately models complexes that deposit and recognize post-translational modifications. By contrast, AlphaFold3 struggles to predict structures of chromatin factors that primarily engage nucleosomal DNA, notably transcription factors and chromatin remodelers. Finally, we show that AlphaFold3 can faithfully recapitulate known post-translational modification recognition patterns, matching experimentally determined specificity profiles. This assessment of the capabilities and limitations of AF3 in chromatin structural biology provides a roadmap for its effective application to studies of chromatin regulation and PTM readout, while identifying key areas for future algorithmic refinement.",
+  "abstract_zh": "生物分子结构预测工具如AlphaFold在预测单蛋白和多蛋白复合物结构方面取得了显著成功。AlphaFold3现已具备模拟含有核酸和化学修饰侧链的复合物的能力。研究者现在可以预测蛋白质与染色质结合的结构，其中与核小体DNA和组蛋白翻译后修饰的相互作用汇聚在一起，控制基因组功能。为评估其在染色质复合物建模中的稳健性，我们在训练集截止日期后由蛋白质数据银行发布的115个含核小体的结构上对AlphaFold3进行了基准测试。我们发现，AlphaFold3在预测组蛋白驱动的相互作用方面表现出色，并能准确建模沉积和识别翻译后修饰的复合物。相比之下，AlphaFold3在预测主要与核小体DNA结合的染色质因子结构方面存在困难，特别是转录因子和染色质重塑因子。最后，我们证明AlphaFold3能忠实重现已知的翻译后修饰识别模式，与实验确定的特异性谱相匹配。这项对AF3在染色质结构生物学中能力与局限性的评估，为其在染色质调控和PTM读取研究中的有效应用提供了路线图，同时指出了未来算法改进的关键领域。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42395432/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42395432/",
+  "paper_page_path": "papers/pubmed/42395432/index.html"
+}

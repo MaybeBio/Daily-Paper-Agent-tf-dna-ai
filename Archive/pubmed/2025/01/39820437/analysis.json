@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39820437",
+  "title": "scGO: interpretable deep neural network for cell status annotation and disease diagnosis.",
+  "authors": "Wu, You; Xu, Pengfei; Wang, Liyuan; Liu, Shuai; Hou, Yingnan; Lu, Hui; Hu, Peng; Li, Xiaofei; Yu, Xiang",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-01-17",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于基因本体和稀疏神经网络的单细胞注释模型scGO，虽涉及转录因子关系但核心是细胞状态注释与疾病诊断，缺乏蛋白质-DNA互作建模或结合机制研究，仅方法上可部分借鉴。",
+  "abstract": "Machine learning has emerged as a transformative tool for elucidating cellular heterogeneity in single-cell RNA sequencing. However, a significant challenge lies in the \"black box\" nature of deep learning models, which obscures the decision-making process and limits interpretability in cell status annotation. In this study, we introduced scGO, a Gene Ontology (GO)-inspired deep learning framework designed to provide interpretable cell status annotation for scRNA-seq data. scGO employs sparse neural networks to leverage the intrinsic biological relationships among genes, transcription factors, and GO terms, significantly augmenting interpretability and reducing computational cost. scGO outperforms state-of-the-art methods in the precise characterization of cell subtypes across diverse datasets. Our extensive experimentation across a spectrum of scRNA-seq datasets underscored the remarkable efficacy of scGO in disease diagnosis, prediction of developmental stages, and evaluation of disease severity and cellular senescence status. Furthermore, we incorporated in silico individual gene manipulations into the scGO model, introducing an additional layer for discovering therapeutic targets. Our results provide an interpretable model for accurately annotating cell status, capturing latent biological knowledge, and informing clinical practice.",
+  "abstract_zh": "机器学习已成为阐明单细胞RNA测序中细胞异质性的变革性工具。然而，一个重大挑战在于深度学习模型的“黑箱”特性，这掩盖了决策过程并限制了细胞状态注释的可解释性。在本研究中，我们引入了scGO，一种受基因本体论 (Gene Ontology, GO) 启发的深度学习框架，旨在为scRNA-seq数据提供可解释的细胞状态注释。scGO采用稀疏神经网络来利用基因、转录因子和GO术语之间的内在生物学关系，显著增强可解释性并降低计算成本。scGO在跨多样数据集的细胞亚型精确表征方面优于最先进的方法。我们在多种scRNA-seq数据集上的广泛实验强调了scGO在疾病诊断、发育阶段预测以及疾病严重程度和细胞衰老状态评估中的显著效能。此外，我们将计算机模拟的单基因操作整合到scGO模型中，为发现治疗靶点引入了额外层次。我们的结果提供了一个可解释的模型，用于准确注释细胞状态、捕获潜在生物学知识，并为临床实践提供信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39820437/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39820437/",
+  "paper_page_path": "papers/pubmed/39820437/index.html"
+}

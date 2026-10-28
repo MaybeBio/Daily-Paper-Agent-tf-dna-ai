@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "36352404",
+    "doi": "10.1186/s12915-022-01450-9",
+    "title": "Temporal change in chromatin accessibility predicts regulators of nodulation in Medicago truncatula."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Symbiotic associations between bacteria and leguminous plants lead to the formation of root nodules that fix nitrogen needed for sustainable agricultural systems. Symbiosis triggers extensive genome and transcriptome remodeling in the plant, yet an integrated understanding of the extent of chromatin changes and transcriptional networks that functionally regulate gene expression associated with symbiosis remains poorly understood. In particular, analyses of early temporal events driving this symbiosis have only captured correlative relationships between regulators and targets at mRNA level. Here, we characterize changes in transcriptome and chromatin accessibility in the model legume Medicago truncatula, in response to rhizobial signals that trigger the formation of root nodules. RESULTS: We profiled the temporal chromatin accessibility (ATAC-seq) and transcriptome (RNA-seq) dynamics of M. truncatula roots treated with bacterial small molecules called lipo-chitooligosaccharides that trigger host symbiotic pathways of nodule development. Using a novel approach, dynamic regulatory module networks, we integrated ATAC-seq and RNA-seq time courses to predict cis-regulatory elements and transcription factors that most significantly contribute to transcriptomic changes associated with symbiosis. Regulators involved in auxin (IAA4-5, SHY2), ethylene (EIN3, ERF1), and abscisic acid (ABI5) hormone response, as well as histone and DNA methylation (IBM1), emerged among those most predictive of transcriptome dynamics. RNAi-based knockdown of EIN3 and ERF1 reduced nodule number in M. truncatula validating the role of these predicted regulators in symbiosis between legumes and rhizobia. CONCLUSIONS: Our transcriptomic and chromatin accessibility datasets provide a valuable resource to understand the gene regulatory programs controlling the early stages of the dynamic process of symbiosis. The regulators identified provide potential targets for future experimental validation, and the engineering of nodulation in species is unable to establish that symbiosis naturally.",
+    "keywords": [
+      "Chromatin accessibility",
+      "Cis-regulatory elements",
+      "Gene regulatory network",
+      "Machine learning",
+      "Medicago",
+      "Nitrogen fixation",
+      "Nodulation",
+      "Symbiosis",
+      "Transcriptome and chromatin dynamics"
+    ],
+    "mesh_terms": [
+      "*Medicago truncatula/genetics/metabolism/microbiology",
+      "Chromatin/genetics/metabolism",
+      "Gene Expression Regulation, Plant",
+      "Plant Proteins/genetics/metabolism",
+      "Symbiosis/physiology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Knaack, Sara A",
+        "Conde, Daniel",
+        "Chakraborty, Sanhita",
+        "Balmant, Kelly M",
+        "Irving, Thomas B",
+        "Maia, Lucas Gontijo Silva",
+        "Triozzi, Paolo M",
+        "Dervinis, Christopher",
+        "Pereira, Wendell J",
+        "Maeda, Junko",
+        "Schmidt, Henry W",
+        "Ane, Jean-Michel",
+        "Kirst, Matias",
+        "Roy, Sushmita"
+      ],
+      "short_names": [
+        "Knaack SA",
+        "Conde D",
+        "Chakraborty S",
+        "Balmant KM",
+        "Irving TB",
+        "Maia LGS",
+        "Triozzi PM",
+        "Dervinis C",
+        "Pereira WJ",
+        "Maeda J",
+        "Schmidt HW",
+        "Ane JM",
+        "Kirst M",
+        "Roy S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3694-1705"
+      ],
+      "affiliations": [
+        "Wisconsin Institute for Discovery, University of Wisconsin, Madison, WI, 53715, USA.",
+        "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA.",
+        "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA.",
+        "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA.",
+        "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA.",
+        "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA.",
+        "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA.",
+        "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA.",
+        "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA.",
+        "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA.",
+        "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA.",
+        "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA.",
+        "Department of Agronomy, University of Wisconsin, Madison, WI, 53706, USA.",
+        "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA. mkirst@ufl.edu.",
+        "Genetics Institute, University of Florida, Gainesville, FL, 32611, USA. mkirst@ufl.edu.",
+        "Wisconsin Institute for Discovery, University of Wisconsin, Madison, WI, 53715, USA. sroy@biostat.wisc.edu.",
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin, Madison, WI, 53792, USA. sroy@biostat.wisc.edu.",
+        "Department of Computer Sciences, University of Wisconsin, Madison, WI, 53792, USA. sroy@biostat.wisc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Knaack, Sara A",
+        "short_name": "Knaack SA",
+        "identifiers": [],
+        "affiliations": [
+          "Wisconsin Institute for Discovery, University of Wisconsin, Madison, WI, 53715, USA."
+        ]
+      },
+      {
+        "full_name": "Conde, Daniel",
+        "short_name": "Conde D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Sanhita",
+        "short_name": "Chakraborty S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA."
+        ]
+      },
+      {
+        "full_name": "Balmant, Kelly M",
+        "short_name": "Balmant KM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA."
+        ]
+      },
+      {
+        "full_name": "Irving, Thomas B",
+        "short_name": "Irving TB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA."
+        ]
+      },
+      {
+        "full_name": "Maia, Lucas Gontijo Silva",
+        "short_name": "Maia LGS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA."
+        ]
+      },
+      {
+        "full_name": "Triozzi, Paolo M",
+        "short_name": "Triozzi PM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA."
+        ]
+      },
+      {
+        "full_name": "Dervinis, Christopher",
+        "short_name": "Dervinis C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA."
+        ]
+      },
+      {
+        "full_name": "Pereira, Wendell J",
+        "short_name": "Pereira WJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA."
+        ]
+      },
+      {
+        "full_name": "Maeda, Junko",
+        "short_name": "Maeda J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Henry W",
+        "short_name": "Schmidt HW",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA."
+        ]
+      },
+      {
+        "full_name": "Ané, Jean-Michel",
+        "short_name": "Ané JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bacteriology, University of Wisconsin, Madison, WI, 53706, USA.",
+          "Department of Agronomy, University of Wisconsin, Madison, WI, 53706, USA."
+        ]
+      },
+      {
+        "full_name": "Kirst, Matias",
+        "short_name": "Kirst M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forest Resources and Conservation, University of Florida, Gainesville, FL, 32611, USA. mkirst@ufl.edu.",
+          "Genetics Institute, University of Florida, Gainesville, FL, 32611, USA. mkirst@ufl.edu."
+        ]
+      },
+      {
+        "full_name": "Roy, Sushmita",
+        "short_name": "Roy S",
+        "identifiers": [
+          "0000-0002-3694-1705"
+        ],
+        "affiliations": [
+          "Wisconsin Institute for Discovery, University of Wisconsin, Madison, WI, 53715, USA. sroy@biostat.wisc.edu.",
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin, Madison, WI, 53792, USA. sroy@biostat.wisc.edu.",
+          "Department of Computer Sciences, University of Wisconsin, Madison, WI, 53792, USA. sroy@biostat.wisc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC biology"
+    ],
+    "journal_abbrev": [
+      "BMC Biol"
+    ],
+    "pub_date": "2022 Nov 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/11 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "42064303",
+      "41375325",
+      "40613418",
+      "39814887",
+      "35092309"
+    ],
+    "refs": [
+      "35705328",
+      "33819071",
+      "33590861",
+      "31754003",
+      "31649123",
+      "31420535",
+      "31302154",
+      "30610167",
+      "30476329",
+      "30397259",
+      "29490630",
+      "29229750",
+      "29187569",
+      "29052193",
+      "28581496",
+      "28550207",
+      "28404731",
+      "27903897",
+      "27797357",
+      "27623438",
+      "27043002",
+      "26909085",
+      "26616195",
+      "26253408",
+      "26175514",
+      "25309808",
+      "25215497",
+      "24722550",
+      "24483147",
+      "24482483",
+      "24474807",
+      "24441470",
+      "24146602",
+      "24097267",
+      "23558912",
+      "23493145",
+      "23246268",
+      "23023168",
+      "22730432",
+      "22683509",
+      "22652128",
+      "22517427",
+      "22388286",
+      "22323601",
+      "21838550",
+      "21825141",
+      "20979621",
+      "20834229",
+      "20513432",
+      "20459804",
+      "20110278",
+      "20018678",
+      "18931020",
+      "18798982",
+      "18567832",
+      "18485363",
+      "17028204",
+      "16844829",
+      "14963335",
+      "12947035",
+      "11487696",
+      "11386364",
+      "11006338",
+      "2994020"
+    ],
+    "similar": [
+      "36352404",
+      "31493718",
+      "24119289",
+      "26884486",
+      "30649463",
+      "27245091",
+      "23535942",
+      "23217154",
+      "34599592",
+      "38666352",
+      "31712407",
+      "22098255",
+      "24934080",
+      "26175514",
+      "38859588",
+      "21244535",
+      "31543454",
+      "36633436",
+      "30953787",
+      "38329875",
+      "23573247",
+      "25919491",
+      "23023168",
+      "32086696",
+      "23634841",
+      "25252248",
+      "26432878",
+      "37073786",
+      "17369436",
+      "27208242",
+      "35171648",
+      "23050939",
+      "22414438",
+      "27748755",
+      "37416943",
+      "20713618",
+      "30416059",
+      "30476329",
+      "36321199",
+      "17132148",
+      "25805123",
+      "28607056",
+      "30120864",
+      "22874912",
+      "24930743",
+      "34850882",
+      "21304580",
+      "32887805",
+      "33067828",
+      "24259455",
+      "29046420",
+      "23136381",
+      "24325235",
+      "27341695",
+      "28607058",
+      "18931020",
+      "27582377",
+      "35781677",
+      "31738415",
+      "31831172",
+      "33384333",
+      "24916161",
+      "30976084",
+      "37717250",
+      "36054464",
+      "21809981",
+      "35092309",
+      "23551619",
+      "19140888",
+      "19923235",
+      "35137020",
+      "31088345",
+      "30043308",
+      "16543412",
+      "33819071",
+      "21770944",
+      "15466239",
+      "28073951",
+      "24483147",
+      "31782853",
+      "16134899",
+      "26672071",
+      "20042020",
+      "19587096",
+      "20621211",
+      "22039214",
+      "25928247",
+      "32218172",
+      "32003030",
+      "26228273",
+      "23425859",
+      "29578639",
+      "25844838",
+      "22683509",
+      "30857310",
+      "33753904",
+      "32521047",
+      "28152300",
+      "37432453",
+      "29030416",
+      "37749242",
+      "37098213",
+      "36252014",
+      "36358009",
+      "36479691",
+      "36722159",
+      "37019339",
+      "38571285",
+      "37381673",
+      "36316454",
+      "30364174",
+      "27135340",
+      "35793264",
+      "36657449",
+      "38703001",
+      "34966395",
+      "38043253",
+      "36573619",
+      "19444321",
+      "29229750",
+      "36430715",
+      "29257077",
+      "28267253",
+      "32079733",
+      "38053772",
+      "37367042",
+      "34961125",
+      "28018393",
+      "37880959",
+      "30467509",
+      "35089065",
+      "35563875",
+      "36507374",
+      "39420598",
+      "36852968",
+      "32082345",
+      "18287487",
+      "32586912",
+      "35976552",
+      "24311578",
+      "30830458",
+      "31604238",
+      "27891144",
+      "31749816",
+      "28642272",
+      "35705328",
+      "26834752",
+      "37828417",
+      "38954532",
+      "29201032",
+      "37823438",
+      "33934724",
+      "36851850",
+      "38436409",
+      "34387350",
+      "32426691",
+      "37389046",
+      "37426991",
+      "36386876",
+      "36482454",
+      "38868212",
+      "37425760",
+      "17778743",
+      "36681082",
+      "31549018",
+      "36318921",
+      "36711588",
+      "39005400",
+      "36312917"
+    ],
+    "review": [
+      "36352404",
+      "31712407",
+      "25805123",
+      "30043308",
+      "20621211",
+      "32218172",
+      "29578639",
+      "27135340",
+      "34961125",
+      "39420598",
+      "26834752"
+    ],
+    "pmc": [
+      "9647978"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-022-01450-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36352404/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36352404",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

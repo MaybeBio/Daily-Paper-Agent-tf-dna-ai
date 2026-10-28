@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (methods chapter)
+- **Assessment boundary** Scientific and technical soundness of the described methodology, clarity and completeness of the protocol, and validity of claims relative to the provided evidence
+- **Shared manuscript claim summary** The chapter reviews recent protein–nucleic acid binding site prediction methods, with emphasis on protein language model (pLM) approaches, and provides a detailed protocol for EquiPNAS, a method integrating ESM-2 pLM embeddings with E(3) equivariant graph neural networks for predicting protein–DNA and protein–RNA binding sites. The authors claim EquiPNAS consistently surpasses state-of-the-art methods on benchmark datasets and reduces dependence on evolutionary information.
+- **Visible evidence base** Abstract, Introduction, Method sections (including subsections on existing methods, pLM significance, EquiPNAS framework, feature generation, architecture), Materials section, Acknowledgments. No figures, tables, or performance data are included in the provided text.
+- **Missing materials affecting confidence** Figures (including Fig. 1 referenced in the text), Table 1 (comparison of existing methods), quantitative performance results, benchmark evaluation details, hyperparameter settings, data preprocessing specifics, and Notes 1–5 referenced throughout the text.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a useful overview of the emerging application of protein language models to nucleic acid binding site prediction and offers a structured description of the EquiPNAS methodology. The conceptual framing is sound and the topic is timely. However, the chapter is written as a methods protocol, and the provided text lacks the quantitative evidence needed to substantiate the central claim that EquiPNAS consistently outperforms existing methods. The description of the method is incomplete in several technical aspects, and the absence of figures, tables, and performance data limits the ability to assess reproducibility and validity. The manuscript would benefit from clearer specification of the protocol steps and inclusion of the referenced supporting materials.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, specifically those interested in protein–nucleic acid interactions. Researchers developing deep learning methods for binding site prediction would find the EquiPNAS architecture description relevant. Practitioners seeking practical guidance on using pLM embeddings for structure-based prediction tasks would also benefit from the protocol-oriented content.
+- **Major strengths** The manuscript addresses a timely and important problem, namely the integration of protein language models into structure-based binding site prediction. The conceptual motivation for using pLMs to reduce dependence on evolutionary information is well articulated. The chapter provides a structured walkthrough of the EquiPNAS pipeline, from graph construction to feature generation and model architecture, which is useful for readers seeking an entry point into this methodology. The inclusion of both DNA and RNA binding prediction within a single framework is a notable scope.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that EquiPNAS "consistently surpasses state-of-the-art techniques across an array of widely utilized benchmarking datasets for protein–DNA and protein–RNA binding site prediction tasks."
+  - **Evidence pointer** Introduction section, location not provided
+  - **Concern** The central performance claim is stated in the Introduction but no quantitative results, benchmark tables, or statistical comparisons are provided anywhere in the supplied text. The Materials section lists datasets and evaluation metrics but does not report any outcomes.
+  - **Why it matters** For a methods chapter, the validity of the described approach rests on demonstrated performance. Without any reported results, the reader cannot assess whether EquiPNAS indeed outperforms existing methods, which is the primary justification for the protocol.
+  - **Resolution test** Include a results section or table reporting ROC-AUC and PR-AUC values for EquiPNAS and all compared methods on the listed benchmark datasets, with appropriate statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The chapter is presented as a methods protocol with "necessary materials and procedures" for computational prediction, implying that a reader could implement the method from the description.
+  - **Evidence pointer** Method sections, location not provided
+  - **Concern** Several critical implementation details are missing. The feature generation section mentions PSSM, MSA, and ESM-2 embeddings but does not specify how these are combined or normalized. The architecture section states 12 layers and 768 hidden dimensions but does not specify activation functions, attention mechanisms, or how equivariant updates are implemented. Training details mention ADAM and cosine annealing but not learning rates, batch sizes, or early stopping criteria.
+  - **Why it matters** A methods protocol must be sufficiently detailed to be reproducible. The current description is at a conceptual level and would not allow an independent researcher to implement EquiPNAS without referring to the original publication.
+  - **Resolution test** Provide a step-by-step protocol with specific parameter values, data preprocessing steps, and implementation details, or clearly reference the original EquiPNAS publication for these specifics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the EGNN architecture "maintains robustness and accuracy, even when utilizing protein structures predicted by AlphaFold2 as opposed to those resolved through experimental methods."
+  - **Evidence pointer** Introduction section, location not provided
+  - **Concern** This claim about robustness to predicted structures is not supported by any data in the provided text. No comparison between experimental and AlphaFold2-predicted structures is presented.
+  - **Why it matters** The practical utility of the method depends on its performance with predicted structures, as experimental structures are not available for most proteins. Without evidence, this claim remains speculative.
+  - **Resolution test** Include results comparing model performance on experimental versus AlphaFold2-predicted structures, or temper the claim to reflect what is actually demonstrated.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states EquiPNAS "reduces the dependency on evolutionary information" but does not clarify whether this means eliminating PSSM/MSA features or simply supplementing them with pLM embeddings.
+  - **Required correction** Clarify the role of evolutionary features in the final model, specifically whether PSSM and MSA are used as inputs alongside pLM embeddings or replaced by them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Existing methods overview
+  - **Evidence pointer** Method section, Table 1, location not provided
+  - **Issue** The text references Table 1 for a list of existing methods but the table is not included in the provided material. The narrative mentions only a few methods by name.
+  - **Required correction** Ensure Table 1 is included in the final version and that the text discusses the key distinctions among the listed methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Feature generation section
+  - **Evidence pointer** Method section, location not provided
+  - **Issue** The term "geometric relationships" is vague. The text mentions bond angles and residue positioning but does not specify which geometric features are computed or how they are encoded.
+  - **Required correction** Provide a concrete list of geometric features used, such as dihedral angles, distances to the protein center, or solvent-accessible surface area.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Notes 1–5
+  - **Evidence pointer** Multiple sections, location not provided
+  - **Issue** The text references Notes 1 through 5 but these notes are not included in the provided material.
+  - **Required correction** Ensure all referenced notes are included in the final published version and that they contain the substantive content implied by the text.
+
+## Risk / unsupported claims
+- The claim that EquiPNAS "consistently surpasses state-of-the-art techniques" is unsupported by any reported data in the provided text.
+- The claim regarding robustness to AlphaFold2-predicted structures is not substantiated with comparative results.
+- The assertion that pLM-based methods "have surpassed those without them in terms of prediction accuracy" is stated as a general trend but no specific comparative data are provided.
+- The statement that EquiPNAS is "one of the first methods" to leverage pLM embeddings for both DNA and RNA binding prediction is difficult to evaluate without a systematic literature comparison.
+- The overall effectiveness of the described protocol cannot be assessed due to the absence of figures, tables, and performance metrics.

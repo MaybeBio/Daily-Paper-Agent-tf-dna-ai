@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "36079740",
+    "doi": "10.3390/nu14173483",
+    "title": "The Discovery of Data-Driven Temporal Dietary Patterns and a Validation of Their Description Using Energy and Time Cut-Offs."
+  },
+  "content": {
+    "abstract": "Data-driven temporal dietary patterning (TDP) methods were previously developed. The objectives were to create data-driven temporal dietary patterns and assess concurrent validity of energy and time cut-offs describing the data-driven TDPs by determining their relationships to BMI and waist circumference (WC). The first day 24-h dietary recall timing and amounts of energy for 17,915 U.S. adults of the National Health and Nutrition Examination Survey 2007-2016 were used to create clusters representing four TDPs using dynamic time warping and the kernel k-means clustering algorithm. Energy and time cut-offs were extracted from visualization of the data-derived TDPs and then applied to the data to find cut-off-derived TDPs. The strength of TDP relationships with BMI and WC were assessed using adjusted multivariate regression and compared. Both methods showed a cluster, representing a TDP with proportionally equivalent average energy consumed during three eating events/day, associated with significantly lower BMI and WC compared to the other three clusters that had one energy intake peak/day at 13:00, 18:00, and 19:00 (all p < 0.0001). Participant clusters of the methods were highly overlapped (>83%) and showed similar relationships with obesity. Data-driven TDP was validated using descriptive cut-offs and hold promise for obesity interventions and translation to dietary guidance.",
+    "keywords": [
+      "dietary pattern",
+      "energy intake",
+      "machine learning",
+      "obesity",
+      "temporal pattern"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "Body Mass Index",
+      "*DNA-Binding Proteins",
+      "Humans",
+      "Nutrition Surveys",
+      "*Obesity",
+      "Waist Circumference"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Luotao",
+        "Guo, Jiaqi",
+        "Li, Yitao",
+        "Gelfand, Saul B",
+        "Delp, Edward J",
+        "Bhadra, Anindya",
+        "Richards, Elizabeth A",
+        "Hennessy, Erin",
+        "Eicher-Miller, Heather A"
+      ],
+      "short_names": [
+        "Lin L",
+        "Guo J",
+        "Li Y",
+        "Gelfand SB",
+        "Delp EJ",
+        "Bhadra A",
+        "Richards EA",
+        "Hennessy E",
+        "Eicher-Miller HA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2909-7323",
+        "ORCID: 0000-0002-6574-2393",
+        "ORCID: 0000-0002-1261-4291"
+      ],
+      "affiliations": [
+        "Department of Nutrition Science, Purdue University, West Lafayette, IN 47906, USA.",
+        "School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN 47906, USA.",
+        "Department of Statistics, Purdue University, West Lafayette, IN 47906, USA.",
+        "School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN 47906, USA.",
+        "School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN 47906, USA.",
+        "Department of Statistics, Purdue University, West Lafayette, IN 47906, USA.",
+        "School of Nursing, Purdue University, West Lafayette, IN 47906, USA.",
+        "Friedman School of Nutrition Science and Policy, Tufts University, Boston, MA 02111, USA.",
+        "Department of Nutrition Science, Purdue University, West Lafayette, IN 47906, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Luotao",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition Science, Purdue University, West Lafayette, IN 47906, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Jiaqi",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN 47906, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yitao",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Purdue University, West Lafayette, IN 47906, USA."
+        ]
+      },
+      {
+        "full_name": "Gelfand, Saul B",
+        "short_name": "Gelfand SB",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN 47906, USA."
+        ]
+      },
+      {
+        "full_name": "Delp, Edward J",
+        "short_name": "Delp EJ",
+        "identifiers": [
+          "0000-0002-2909-7323"
+        ],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN 47906, USA."
+        ]
+      },
+      {
+        "full_name": "Bhadra, Anindya",
+        "short_name": "Bhadra A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Purdue University, West Lafayette, IN 47906, USA."
+        ]
+      },
+      {
+        "full_name": "Richards, Elizabeth A",
+        "short_name": "Richards EA",
+        "identifiers": [
+          "0000-0002-6574-2393"
+        ],
+        "affiliations": [
+          "School of Nursing, Purdue University, West Lafayette, IN 47906, USA."
+        ]
+      },
+      {
+        "full_name": "Hennessy, Erin",
+        "short_name": "Hennessy E",
+        "identifiers": [],
+        "affiliations": [
+          "Friedman School of Nutrition Science and Policy, Tufts University, Boston, MA 02111, USA."
+        ]
+      },
+      {
+        "full_name": "Eicher-Miller, Heather A",
+        "short_name": "Eicher-Miller HA",
+        "identifiers": [
+          "0000-0002-1261-4291"
+        ],
+        "affiliations": [
+          "Department of Nutrition Science, Purdue University, West Lafayette, IN 47906, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nutrients"
+    ],
+    "journal_abbrev": [
+      "Nutrients"
+    ],
+    "pub_date": "2022 Aug 24",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/10 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "41997454",
+      "39472867",
+      "38160806"
+    ],
+    "refs": [
+      "34997205",
+      "34960035",
+      "34836375",
+      "34617560",
+      "33096568",
+      "31684003",
+      "31660867",
+      "31521771",
+      "30705391",
+      "30537972",
+      "28561038",
+      "28253403",
+      "28061795",
+      "27001436",
+      "26773020",
+      "26226640",
+      "26138502",
+      "25258745",
+      "24982814",
+      "24747715",
+      "24193227",
+      "23871502",
+      "23808897",
+      "23446659",
+      "23357955",
+      "18694791",
+      "16131578",
+      "14994360",
+      "12449285",
+      "9155489"
+    ],
+    "similar": [
+      "36079740",
+      "38160806",
+      "37437807",
+      "33096568",
+      "34617560",
+      "31521771",
+      "33798532",
+      "29276140",
+      "37752794",
+      "26138502",
+      "31144413",
+      "21163090",
+      "36093117",
+      "28814392",
+      "27738811",
+      "17015497",
+      "39538359",
+      "34135867",
+      "26759221",
+      "40022155",
+      "35129906",
+      "40371215",
+      "29729673",
+      "29071103",
+      "27502827",
+      "32062911",
+      "36490274",
+      "28112076",
+      "29738479",
+      "31847322",
+      "35956353",
+      "27751190",
+      "27698347",
+      "32581564",
+      "40676536",
+      "40930462",
+      "21615883",
+      "27001436",
+      "25484303",
+      "29644954",
+      "28561038",
+      "36321557",
+      "24406480",
+      "26425848",
+      "27314368",
+      "33658089",
+      "23496777",
+      "22390102",
+      "26801989",
+      "20305993",
+      "29380220",
+      "25300318",
+      "32423458",
+      "28931442",
+      "29337863",
+      "40074239",
+      "17883880",
+      "22672914",
+      "30466421",
+      "27701484",
+      "17904933",
+      "36011884",
+      "30518394",
+      "33649525",
+      "38873315",
+      "27109636",
+      "28927404",
+      "16733288",
+      "26934390",
+      "40143704",
+      "26745148",
+      "21147364",
+      "33610420",
+      "15292473",
+      "17710589",
+      "21557871",
+      "32316673",
+      "27938404",
+      "11093289",
+      "25690865",
+      "39599624",
+      "19638708",
+      "39345243",
+      "24813367",
+      "33127327",
+      "24886192",
+      "40366297",
+      "21745628",
+      "35073720",
+      "32159675",
+      "24664188",
+      "22085415",
+      "12015102",
+      "27720693",
+      "38956083",
+      "34400464",
+      "30212231",
+      "17924868",
+      "23169471",
+      "21467729"
+    ],
+    "review": [
+      "36079740",
+      "36321557",
+      "16733288"
+    ],
+    "pmc": [
+      "9460307"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=nu14173483",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/obesity.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Obesity"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36079740/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36079740",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

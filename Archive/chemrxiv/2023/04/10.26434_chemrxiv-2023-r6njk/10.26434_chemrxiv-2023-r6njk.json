@@ -1,0 +1,207 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-r6njk",
+  "title": "A Markov State Model of Solvent Features Reveals Water Dynamics in Protein-Peptide Binding",
+  "doi": "10.26434/chemrxiv-2023-r6njk",
+  "abstract": "In this work, we investigate the role of solvent in the binding reaction of p53 transactivation domain (TAD) peptide to its receptor MDM2. Previously, our group generated 831 μs of explicit-solvent aggregate molecular simulation trajectory data for the MDM2-p53 peptide binding reaction using large-scale distributed computing, and subsequently built a Markov State Model (MSM) of the binding reaction (Zhou et al. 2017). Here, we perform tICA anlaysis and construct an MSM using only solvent-based structural features, and find a remarkably similar landscape and implied timescales for the slowest motions. The solvent shells contributing most to the first tICA eigenvector are those centered on Lys24 and Thr18 of p53 TAD peptide in the range of 3–6 Å. Important solvent shells were visualized to reveal wetting and dewetting transitions along peptide-protein binding trajectories. Our results provide a solvent-centric view of the hydrophobic effect in action for a realistic peptide-protein binding scenario.",
+  "authors": [
+    "Robert Raddi",
+    "Vincent Voelz"
+  ],
+  "published_date": "2023-04-04",
+  "updated_date": "2023-04-04T09:16:50Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-r6njk",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-r6njk",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T17:07:53Z",
+        "timestamp": 1785431273023,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            4
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                4
+              ]
+            ],
+            "date-time": "2023-04-04T00:00:00Z",
+            "timestamp": 1680566400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>In this work, we investigate the role of solvent in the binding reaction of p53 transactivation domain (TAD) peptide to its receptor MDM2. Previously, our group generated 831 μs of explicit-solvent aggregate molecular simulation trajectory data for the MDM2-p53 peptide binding reaction using large-scale distributed computing, and subsequently built a Markov State Model (MSM) of the binding reaction (Zhou et al. 2017). Here, we perform tICA anlaysis and construct an MSM using only solvent-based structural features, and find a remarkably similar landscape and implied timescales for the slowest motions. The solvent shells contributing most to the first tICA eigenvector are those centered on Lys24 and Thr18 of p53 TAD peptide in the range of 3–6 Å. Important solvent shells were visualized to reveal wetting and dewetting transitions along peptide-protein binding trajectories. Our results provide a solvent-centric view of the hydrophobic effect in action for a realistic peptide-protein binding scenario.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-r6njk",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            4
+          ]
+        ],
+        "date-time": "2023-04-04T09:16:50Z",
+        "timestamp": 1680599810000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "A Markov State Model of Solvent Features Reveals Water Dynamics in Protein-Peptide Binding"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7139-5028",
+          "authenticated-orcid": false,
+          "given": "Robert",
+          "family": "Raddi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00kx1jb78",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Temple University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vincent",
+          "family": "Voelz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00kx1jb78",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Temple University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-r6njk",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:50:34Z",
+        "timestamp": 1778752234000
+      },
+      "score": 122.9426,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-r6njk"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            4
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-r6njk",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jpcb.3c04775",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

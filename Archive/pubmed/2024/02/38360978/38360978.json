@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "38360978",
+    "doi": "10.1038/s41467-024-45683-4",
+    "title": "The Eyes Absent family members EYA4 and EYA1 promote PLK1 activation and successful mitosis through tyrosine dephosphorylation."
+  },
+  "content": {
+    "abstract": "The Eyes Absent proteins (EYA1-4) are a biochemically unique group of tyrosine phosphatases known to be tumour-promoting across a range of cancer types. To date, the targets of EYA phosphatase activity remain largely uncharacterised. Here, we identify Polo-like kinase 1 (PLK1) as an interactor and phosphatase substrate of EYA4 and EYA1, with pY445 on PLK1 being the primary target site. Dephosphorylation of pY445 in the G2 phase of the cell cycle is required for centrosome maturation, PLK1 localization to centrosomes, and polo-box domain (PBD) dependent interactions between PLK1 and PLK1-activation complexes. Molecular dynamics simulations support the rationale that pY445 confers a structural impairment to PBD-substrate interactions that is relieved by EYA-mediated dephosphorylation. Depletion of EYA4 or EYA1, or chemical inhibition of EYA phosphatase activity, dramatically reduces PLK1 activation, causing mitotic defects and cell death. Overall, we have characterized a phosphotyrosine signalling network governing PLK1 and mitosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Protein Serine-Threonine Kinases/metabolism",
+      "*Cell Cycle Proteins/metabolism",
+      "Tyrosine/metabolism",
+      "Mitosis",
+      "Centrosome/metabolism",
+      "Phosphoric Monoester Hydrolases/metabolism",
+      "HeLa Cells",
+      "Nuclear Proteins/metabolism",
+      "Protein Tyrosine Phosphatases/metabolism",
+      "Intracellular Signaling Peptides and Proteins/genetics/metabolism",
+      "Trans-Activators/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nelson, Christopher B",
+        "Rogers, Samuel",
+        "Roychoudhury, Kaushik",
+        "Tan, Yaw Sing",
+        "Atkinson, Caroline J",
+        "Sobinoff, Alexander P",
+        "Tomlinson, Christopher G",
+        "Hsu, Anton",
+        "Lu, Robert",
+        "Dray, Eloise",
+        "Haber, Michelle",
+        "Fletcher, Jamie I",
+        "Cesare, Anthony J",
+        "Hegde, Rashmi S",
+        "Pickett, Hilda A"
+      ],
+      "short_names": [
+        "Nelson CB",
+        "Rogers S",
+        "Roychoudhury K",
+        "Tan YS",
+        "Atkinson CJ",
+        "Sobinoff AP",
+        "Tomlinson CG",
+        "Hsu A",
+        "Lu R",
+        "Dray E",
+        "Haber M",
+        "Fletcher JI",
+        "Cesare AJ",
+        "Hegde RS",
+        "Pickett HA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6679-5211",
+        "ORCID: 0000-0001-6793-9838",
+        "ORCID: 0000-0003-2036-8817",
+        "ORCID: 0000-0003-2949-9469",
+        "ORCID: 0000-0003-2524-7280",
+        "ORCID: 0000-0002-9840-4841"
+      ],
+      "affiliations": [
+        "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia.",
+        "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia.",
+        "Division of Developmental Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA.",
+        "Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Children's Cancer Institute, Lowy Cancer Research Centre, School of Clinical Medicine, UNSW Medicine & Health, UNSW Sydney, Kensington, NSW, Australia.",
+        "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia.",
+        "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia.",
+        "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia.",
+        "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia.",
+        "University of Texas Health Science Center at San Antonio, San Antonio, TX, USA.",
+        "Children's Cancer Institute, Lowy Cancer Research Centre, School of Clinical Medicine, UNSW Medicine & Health, UNSW Sydney, Kensington, NSW, Australia.",
+        "Children's Cancer Institute, Lowy Cancer Research Centre, School of Clinical Medicine, UNSW Medicine & Health, UNSW Sydney, Kensington, NSW, Australia.",
+        "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia.",
+        "Division of Developmental Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA.",
+        "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia. hpickett@cmri.org.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nelson, Christopher B",
+        "short_name": "Nelson CB",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Rogers, Samuel",
+        "short_name": "Rogers S",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Roychoudhury, Kaushik",
+        "short_name": "Roychoudhury K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Developmental Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Yaw Sing",
+        "short_name": "Tan YS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Atkinson, Caroline J",
+        "short_name": "Atkinson CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Cancer Institute, Lowy Cancer Research Centre, School of Clinical Medicine, UNSW Medicine & Health, UNSW Sydney, Kensington, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Sobinoff, Alexander P",
+        "short_name": "Sobinoff AP",
+        "identifiers": [
+          "0000-0001-6679-5211"
+        ],
+        "affiliations": [
+          "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Tomlinson, Christopher G",
+        "short_name": "Tomlinson CG",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Hsu, Anton",
+        "short_name": "Hsu A",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Lu, Robert",
+        "short_name": "Lu R",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Dray, Eloise",
+        "short_name": "Dray E",
+        "identifiers": [
+          "0000-0001-6793-9838"
+        ],
+        "affiliations": [
+          "University of Texas Health Science Center at San Antonio, San Antonio, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Haber, Michelle",
+        "short_name": "Haber M",
+        "identifiers": [
+          "0000-0003-2036-8817"
+        ],
+        "affiliations": [
+          "Children's Cancer Institute, Lowy Cancer Research Centre, School of Clinical Medicine, UNSW Medicine & Health, UNSW Sydney, Kensington, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Fletcher, Jamie I",
+        "short_name": "Fletcher JI",
+        "identifiers": [
+          "0000-0003-2949-9469"
+        ],
+        "affiliations": [
+          "Children's Cancer Institute, Lowy Cancer Research Centre, School of Clinical Medicine, UNSW Medicine & Health, UNSW Sydney, Kensington, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Cesare, Anthony J",
+        "short_name": "Cesare AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Hegde, Rashmi S",
+        "short_name": "Hegde RS",
+        "identifiers": [
+          "0000-0003-2524-7280"
+        ],
+        "affiliations": [
+          "Division of Developmental Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Pickett, Hilda A",
+        "short_name": "Pickett HA",
+        "identifiers": [
+          "0000-0002-9840-4841"
+        ],
+        "affiliations": [
+          "Children's Medical Research Institute, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia. hpickett@cmri.org.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Feb 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/16 00:43",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42137503",
+      "41991886",
+      "41266088",
+      "41126315",
+      "40564258",
+      "40414499",
+      "39897043",
+      "38555001"
+    ],
+    "refs": [
+      "34773364",
+      "34617969",
+      "34395419",
+      "33649104",
+      "33631386",
+      "33594762",
+      "33248027",
+      "32286328",
+      "31921695",
+      "31285279",
+      "31253795",
+      "31105839",
+      "30761270",
+      "30231237",
+      "30008317",
+      "29802120",
+      "29340020",
+      "28591578",
+      "28412041",
+      "27899378",
+      "27308323",
+      "26912792",
+      "26574453",
+      "26114094",
+      "25816987",
+      "25220640",
+      "24960160",
+      "24755226",
+      "24367676",
+      "24338364",
+      "23830351",
+      "23636126",
+      "23176256",
+      "22820394",
+      "22545090",
+      "22412018",
+      "22184200",
+      "21576470",
+      "20418914",
+      "19901965",
+      "19597481",
+      "19351884",
+      "18615013",
+      "18482698",
+      "17488841",
+      "17307877",
+      "17291761",
+      "17076895",
+      "16760428",
+      "14592974",
+      "14532005",
+      "12595692",
+      "12210150",
+      "12167714",
+      "11897663",
+      "11242082",
+      "8991084"
+    ],
+    "similar": [
+      "38360978",
+      "41266088",
+      "33920226",
+      "23455478",
+      "19543530",
+      "21576470",
+      "16267267",
+      "17129406",
+      "26513691",
+      "26192437",
+      "23967120",
+      "21474997",
+      "17121863",
+      "18477460",
+      "23345402",
+      "27965426",
+      "17446864",
+      "16478733",
+      "8991084",
+      "22753416",
+      "19390576",
+      "18695677",
+      "28591578",
+      "31685831",
+      "23263983",
+      "33321102",
+      "19307309",
+      "21041660",
+      "29927572",
+      "15522227",
+      "27795300",
+      "18359294",
+      "17307877",
+      "24018379",
+      "40379873",
+      "25975351",
+      "32295844",
+      "18482698",
+      "20581453",
+      "19289504",
+      "24413556",
+      "28213359",
+      "26919439",
+      "16157594",
+      "19284988",
+      "30414309",
+      "20633640",
+      "29764989",
+      "16966375",
+      "30021153",
+      "39089192",
+      "22479190",
+      "37777742",
+      "26124292",
+      "24152729",
+      "22848093",
+      "25196850",
+      "21839059",
+      "32232973",
+      "24032677",
+      "24623308",
+      "18298087",
+      "16760428",
+      "32878946",
+      "24722282",
+      "27882722",
+      "18427546",
+      "17623655",
+      "34210138",
+      "36930246",
+      "25533473",
+      "26662918",
+      "20615875",
+      "41862458",
+      "37603740",
+      "15611664",
+      "17351640",
+      "19185590",
+      "15280449",
+      "31416392",
+      "27425654",
+      "25504441",
+      "19509060",
+      "12815053",
+      "40117175",
+      "11807090",
+      "29138491",
+      "24844881",
+      "16980960",
+      "12595692",
+      "21723128",
+      "23051732",
+      "19901965",
+      "29170437",
+      "25211362",
+      "29282278",
+      "15199097",
+      "23348582",
+      "26291670",
+      "19160488"
+    ],
+    "review": [
+      "38360978",
+      "33920226",
+      "40379873",
+      "30414309",
+      "20633640",
+      "39089192",
+      "26662918"
+    ],
+    "pmc": [
+      "10869800"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-45683-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38360978/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38360978",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1264",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd036430",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://www.phosphosite.org/referenceSearchSubmitAction.action?from=0&queryId=-1&pubMedIds=38360978",
+        "provider": "PhosphoSitePlus",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "PhosphoSitePlus® - comprehensive post-translational modification resource"
+      }
+    ],
+    "text_mined": []
+  }
+}

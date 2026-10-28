@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "34770874",
+    "doi": "10.3390/molecules26216465",
+    "title": "Molecular Mechanisms Associated with Clustered Lesion-Induced Impairment of 8-oxoG Recognition by the Human Glycosylase OGG1."
+  },
+  "content": {
+    "abstract": "The 8-oxo-7,8-dihydroguanine, referred to as 8-oxoG, is a highly mutagenic DNA lesion that can provoke the appearance of mismatches if it escapes the DNA Damage Response. The specific recognition of its structural signature by the hOGG1 glycosylase is the first step along the Base Excision Repair pathway, which ensures the integrity of the genome by preventing the emergence of mutations. 8-oxoG formation, structural features, and repair have been matters of extensive research; more recently, this active field of research expended to the more complicated case of 8-oxoG within clustered lesions. Indeed, the presence of a second lesion within 1 or 2 helix turns can dramatically impact the repair yields of 8-oxoG by glycosylases. In this work, we use mus-range molecular dynamics simulations and machine-learning-based postanalysis to explore the molecular mechanisms associated with the recognition of 8-oxoG by hOGG1 when embedded in a multiple-lesion site with a mismatch in 5' or 3'. We delineate the stiffening of the DNA-protein interactions upon the presence of the mismatches, and rationalize the much lower repair yields reported with a 5' mismatch by describing the perturbation of 8-oxoG structural features upon addition of an adjacent lesion.",
+    "keywords": [
+      "DNA glycosylases",
+      "DNA repair",
+      "clustered DNA lesions",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "DNA/chemistry/metabolism",
+      "DNA Damage",
+      "DNA Glycosylases/chemistry/*metabolism",
+      "Guanine/*analogs & derivatives/chemistry/metabolism",
+      "Humans",
+      "*Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Tao",
+        "Monari, Antonio",
+        "Dumont, Elise",
+        "Bignon, Emmanuelle"
+      ],
+      "short_names": [
+        "Jiang T",
+        "Monari A",
+        "Dumont E",
+        "Bignon E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9464-1463",
+        "ORCID: 0000-0002-2359-111X",
+        "ORCID: 0000-0001-9475-5049"
+      ],
+      "affiliations": [
+        "Laboratoire de Chimie-UMR CNRS 5182, ENS de Lyon, Universite de Lyon, 46 Allee d'Italie, F-69000 Lyon, France.",
+        "Laboratoire de Physique et Chimie Theoriques-UMR CNRS 7019, Faculte des Sciences et Technologies, Universite de Lorraine, Boulevard des Aiguillettes, F-54506 Vandoeuvre-les-Nancy, France.",
+        "Universite de Paris and CNRS, ITODYS, F-75006 Paris, France.",
+        "Laboratoire de Chimie-UMR CNRS 5182, ENS de Lyon, Universite de Lyon, 46 Allee d'Italie, F-69000 Lyon, France.",
+        "Institut Universitaire de France, 5 rue Descartes, F-75005 Paris, France.",
+        "Laboratoire de Physique et Chimie Theoriques-UMR CNRS 7019, Faculte des Sciences et Technologies, Universite de Lorraine, Boulevard des Aiguillettes, F-54506 Vandoeuvre-les-Nancy, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Tao",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie-UMR CNRS 5182, ENS de Lyon, Université de Lyon, 46 Allée d'Italie, F-69000 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Monari, Antonio",
+        "short_name": "Monari A",
+        "identifiers": [
+          "0000-0001-9464-1463"
+        ],
+        "affiliations": [
+          "Laboratoire de Physique et Chimie Théoriques-UMR CNRS 7019, Faculté des Sciences et Technologies, Université de Lorraine, Boulevard des Aiguillettes, F-54506 Vandoeuvre-les-Nancy, France.",
+          "Université de Paris and CNRS, ITODYS, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Dumont, Elise",
+        "short_name": "Dumont E",
+        "identifiers": [
+          "0000-0002-2359-111X"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie-UMR CNRS 5182, ENS de Lyon, Université de Lyon, 46 Allée d'Italie, F-69000 Lyon, France.",
+          "Institut Universitaire de France, 5 rue Descartes, F-75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bignon, Emmanuelle",
+        "short_name": "Bignon E",
+        "identifiers": [
+          "0000-0001-9475-5049"
+        ],
+        "affiliations": [
+          "Laboratoire de Physique et Chimie Théoriques-UMR CNRS 7019, Faculté des Sciences et Technologies, Université de Lorraine, Boulevard des Aiguillettes, F-54506 Vandoeuvre-les-Nancy, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2021 Oct 26",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/14 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [
+      "41993504",
+      "41164780",
+      "41040429",
+      "39099841",
+      "38836311",
+      "36768842",
+      "36406269",
+      "35746753"
+    ],
+    "refs": [
+      "34093997",
+      "32895378",
+      "32752662",
+      "32710616",
+      "31952811",
+      "29788355",
+      "29625048",
+      "28770925",
+      "27939934",
+      "27642654",
+      "27440482",
+      "26656495",
+      "26574453",
+      "26569599",
+      "25712093",
+      "23954288",
+      "23863843",
+      "23621762",
+      "22989888",
+      "22837659",
+      "22542631",
+      "22511791",
+      "20399712",
+      "20010681",
+      "19625494",
+      "17507928",
+      "16574501",
+      "16497933",
+      "15509868",
+      "14715924",
+      "14637244",
+      "12767348",
+      "12655006",
+      "12507938",
+      "12222683",
+      "11570881",
+      "11139613",
+      "10706276",
+      "9223305",
+      "8744570"
+    ],
+    "similar": [
+      "34770874",
+      "28098999",
+      "27903453",
+      "15494448",
+      "33087272",
+      "19747886",
+      "29341606",
+      "22175854",
+      "28130451",
+      "22511791",
+      "15661661",
+      "28892740",
+      "15554188",
+      "36268656",
+      "11554297",
+      "24934622",
+      "19615952",
+      "14752045",
+      "25995449",
+      "17015827",
+      "32895378",
+      "15800616",
+      "33171795",
+      "24096108",
+      "28770925",
+      "23890570",
+      "28087410",
+      "15102448",
+      "12767349",
+      "37542751",
+      "16690592",
+      "23404556",
+      "11238994",
+      "24911585",
+      "28334993",
+      "12692799",
+      "16893955",
+      "16024742",
+      "15856018",
+      "14761847",
+      "16174844",
+      "24028561",
+      "39341999",
+      "11570881",
+      "19446526",
+      "21930508",
+      "23863843",
+      "22837659",
+      "21727036",
+      "31784740",
+      "32093595",
+      "34192601",
+      "14961129",
+      "24695738",
+      "17090545",
+      "21568844",
+      "28482831",
+      "31069685",
+      "18507380",
+      "27456281",
+      "22876325",
+      "35729095",
+      "29175754",
+      "15533836",
+      "31117610",
+      "22568941",
+      "16022506",
+      "28345889",
+      "11222760",
+      "19361427",
+      "31408726",
+      "27871818",
+      "21848286",
+      "26337123",
+      "28843610",
+      "19264809",
+      "32378256",
+      "33925271",
+      "9801308",
+      "29320630",
+      "11095667",
+      "10954587",
+      "16549874",
+      "23684897",
+      "31069684",
+      "19503746",
+      "15388802",
+      "34232996",
+      "32710616",
+      "22989888",
+      "17432829",
+      "15190073",
+      "27756845",
+      "20483371",
+      "21343179",
+      "16936028",
+      "10706276",
+      "15979229",
+      "17114185",
+      "23955443",
+      "33758207",
+      "24597750",
+      "16923968",
+      "14599742",
+      "32424276",
+      "36867834",
+      "36128847",
+      "38088097",
+      "19961158",
+      "34093997",
+      "34479993",
+      "37021552",
+      "39235072",
+      "36156093",
+      "35101777",
+      "36827746",
+      "23958410",
+      "33405911",
+      "17988127",
+      "38501982",
+      "28150947",
+      "25016526",
+      "38451471",
+      "22261346",
+      "32968112",
+      "34562718",
+      "36175389",
+      "36406269",
+      "31314523",
+      "30459925",
+      "38641240",
+      "33024153",
+      "39206509",
+      "36313183"
+    ],
+    "review": [
+      "34770874",
+      "27903453",
+      "33087272",
+      "11554297",
+      "33171795",
+      "28087410",
+      "15102448",
+      "22837659",
+      "21568844",
+      "35729095",
+      "29175754",
+      "27871818"
+    ],
+    "pmc": [
+      "8587150"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules26216465",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34770874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34770874",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OGG1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "42536548",
+    "doi": "10.1097/MD.0000000000050020",
+    "title": "The role of cellular senescence in sepsis and its mechanism in copper death: An analysis based on machine learning."
+  },
+  "content": {
+    "abstract": "Sepsis is characterized by potentially fatal organ failure resulting from the host's abnormal response to infection. Due to the complex and rapid progression of sepsis, timely diagnosis and intervention are required to improve patient prognosis. Copper-dependent cell death, known as \"cuproptosis,\" is a newly discovered mode of cell death that relies on copper. Senescence refers to a state of irreversible cessation of cell division. Both processes play significant roles in various diseases. However, the roles of genes related to cuproptosis and senescence in the pathogenesis of sepsis remain insufficiently understood. In this study, we utilized bioinformatics techniques to explore the involvement of copper-dependent cell death and its connections to sepsis and cellular senescence. We obtained 3 sepsis datasets (GSE28750, GSE54514, and GSE131761) from the Gene Expression Omnibus database and classified the raw data using R packages (R Foundation for Statistical Computing). Copper death- and aging-related genes were manually screened, and differentially expressed cuproptosis and cellular senescence-related differentially expressed genes associated with sepsis were identified. Subsequently, enrichment analysis was applied, and key genes were screened using machine learning techniques for the construction and validation of a sepsis diagnostic model. We then constructed mRNA-miRNA and mRNA-transcription factors interaction networks for the key genes, followed by differential gene analysis, immune infiltration, and enrichment analysis. We identified 17 cuproptosis and cellular senescence-related differentially expressed genes and performed gene enrichment analysis. Subsequently, using least absolute shrinkage and selection operator regression analysis and random forest algorithm, we identified sepsis-related cuproptosis and senescence-associated differentially expressed genes. After taking the intersection, we obtained 11 key genes. Next, through immune infiltration analysis, we found a positive correlation between pyruvate dehydrogenase E1 subunit beta (PDHB) and central memory cluster of differentiation 4 (CD4) T cells, glutaminase and activated CD8 T cells, as well as prion protein, PDHB, and monocytic lineage. There was a negative correlation between PDHB and type 17 T helper cells, amyloid beta precursor protein and activated CD8 T cells, PDHB and neutrophils, and CD274 and B lineage cells. These results suggest that cuproptosis may promote the development of sepsis by affecting the immune system and metabolic functions, providing new insights into the potential pathogenic mechanisms and therapeutic targets of sepsis.",
+    "keywords": [
+      "bioinformatics",
+      "cellular senescence",
+      "copper death",
+      "diagnostic-models",
+      "sepsis"
+    ],
+    "mesh_terms": [
+      "*Sepsis/genetics/metabolism",
+      "Humans",
+      "*Cellular Senescence/genetics",
+      "*Machine Learning",
+      "Cuproptosis",
+      "*Copper/metabolism",
+      "Computational Biology",
+      "Cell Death",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics/metabolism",
+      "RNA, Messenger/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Qi",
+        "Yang, Hai-Rong",
+        "Wang, Jian-Zhong",
+        "Zhang, Yao-Lin",
+        "Zhang, Xiao-Ya",
+        "Zhou, Wen-Jie"
+      ],
+      "short_names": [
+        "Ma Q",
+        "Yang HR",
+        "Wang JZ",
+        "Zhang YL",
+        "Zhang XY",
+        "Zhou WJ"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-7004-8092"
+      ],
+      "affiliations": [
+        "General Hospital of Ningxia Medical University, Yinchuan, China.",
+        "Department of Critical Care Medicine, Ningxia Hospital of Integrated Traditional Chinese and Western Medicine, Yinchuan, China.",
+        "Department of Critical Care Medicine, People's Hospital of Ningxia Hui Autonomous Region, Yinchuan, China.",
+        "School of Clinical Medicine, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Key Laboratory of Stem Cell and Regenerative Medicine, Institute of Medical Sciences, General Hospital of Ningxia Medical University, Yinchuan, China.",
+        "General Hospital of Ningxia Medical University, Yinchuan, China.",
+        "General Hospital of Ningxia Medical University, Yinchuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Qi",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "General Hospital of Ningxia Medical University, Yinchuan, China.",
+          "Department of Critical Care Medicine, Ningxia Hospital of Integrated Traditional Chinese and Western Medicine, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hai-Rong",
+        "short_name": "Yang HR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, People's Hospital of Ningxia Hui Autonomous Region, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jian-Zhong",
+        "short_name": "Wang JZ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yao-Lin",
+        "short_name": "Zhang YL",
+        "identifiers": [],
+        "affiliations": [
+          "Ningxia Key Laboratory of Stem Cell and Regenerative Medicine, Institute of Medical Sciences, General Hospital of Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiao-Ya",
+        "short_name": "Zhang XY",
+        "identifiers": [],
+        "affiliations": [
+          "General Hospital of Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wen-Jie",
+        "short_name": "Zhou WJ",
+        "identifiers": [
+          "0009-0007-7004-8092"
+        ],
+        "affiliations": [
+          "General Hospital of Ningxia Medical University, Yinchuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Jul 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/31 18:35",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41071266",
+      "39710108",
+      "39449054",
+      "39227925",
+      "39161900",
+      "38947313",
+      "38762484",
+      "38599171",
+      "38513649",
+      "38114466",
+      "37898400",
+      "37816755",
+      "37113759",
+      "36969168",
+      "36640341",
+      "36341413",
+      "36113507",
+      "35727469",
+      "35721114",
+      "35298263",
+      "35244921",
+      "34670584",
+      "33637691",
+      "33384961",
+      "33160790",
+      "33148300",
+      "33052499",
+      "32442275",
+      "32036543",
+      "31954465",
+      "31443682",
+      "30781721",
+      "30407594",
+      "29742588",
+      "28605766",
+      "27924033",
+      "26903338",
+      "26646499",
+      "26612352",
+      "25605792",
+      "24297251",
+      "23323831",
+      "23193258",
+      "23061726",
+      "22455463",
+      "22257669",
+      "20736804",
+      "19353763",
+      "17496320",
+      "17414725",
+      "17192907",
+      "16199517",
+      "10592173"
+    ],
+    "similar": [
+      "42536548",
+      "39586719",
+      "40830558",
+      "38495196",
+      "40165133",
+      "38681070",
+      "39583859",
+      "37275904",
+      "37762710",
+      "38690269",
+      "40129981",
+      "36466876",
+      "40055592",
+      "42164373",
+      "42216376",
+      "39388708",
+      "37822923",
+      "42109201",
+      "38291374",
+      "38804624",
+      "41405396",
+      "38994365",
+      "39991151",
+      "39853851",
+      "41544137",
+      "39497055",
+      "40861493",
+      "42292468",
+      "38755717",
+      "41840566",
+      "40350654",
+      "37143115",
+      "42157910",
+      "36479114",
+      "39830966",
+      "41006883",
+      "39738612",
+      "40034693",
+      "37115484",
+      "42520338",
+      "42430416",
+      "41013727",
+      "37773841",
+      "38163157",
+      "39375405",
+      "41988156",
+      "40561071",
+      "40510349",
+      "36131919",
+      "40108736",
+      "41136974",
+      "39929099",
+      "41460373",
+      "41833346",
+      "40374866",
+      "40597679",
+      "39671358",
+      "42327749",
+      "42247642",
+      "42475469",
+      "42107160",
+      "39430765",
+      "38468184",
+      "38867322",
+      "37620966",
+      "39328407",
+      "40238799",
+      "42292668",
+      "41436831",
+      "37090740",
+      "41794917",
+      "38835051",
+      "36532015",
+      "38863714",
+      "39509434",
+      "39695788",
+      "42236612",
+      "40808944",
+      "36203606",
+      "41570698",
+      "38842240",
+      "39507864",
+      "41200172",
+      "40613560",
+      "39540991",
+      "41044520",
+      "40362669",
+      "39507054",
+      "42219284",
+      "42250009",
+      "40253457",
+      "40685483",
+      "41511918",
+      "38728482",
+      "40258895",
+      "41703488",
+      "38912048",
+      "39735547",
+      "38371524",
+      "37497230"
+    ],
+    "review": [
+      "42536548"
+    ],
+    "pmc": [
+      "13433109"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42536548/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000050020",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

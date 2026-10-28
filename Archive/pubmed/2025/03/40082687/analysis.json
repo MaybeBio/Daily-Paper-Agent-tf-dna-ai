@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40082687",
+  "title": "Artificial intelligence-powered prediction of AIM-2 inflammasome sequences using transformers and graph attention networks in periodontal inflammation.",
+  "authors": "Yadalam, Pradeep Kumar; Arumuganainar, Deepavalli; Natarajan, Prabhu Manickam; Ardila, Carlos M",
+  "journal": "Scientific reports",
+  "published_date": "2025-03-14",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用Transformer和GAT预测AIM-2炎症小体肽序列，对象为蛋白质序列而非蛋白质-DNA互作，无结合建模或TF-DNA体系，仅序列预测，与本课题关联微弱。",
+  "abstract": "Periodontal inflammation is a chronic condition affecting the tissues surrounding teeth. Initiated by dental plaque, it triggers an immune response leading to tissue destruction. The AIM-2 inflammasome regulates this response, and understanding its peptide sequences could aid in developing targeted therapeutics. This study explores using transformers and graph attention networks (GAT) to treat periodontal inflammation. UniProt was used to download AIM-2 inflammasome proteins and FASTA sequences with 100%, 90%, and 50% similarity. DeepBio, a web service for developing deep-learning architectures, analyzed these sequences. Peptide sequence prediction methods were evaluated using a transformer, RNN-CNN, and GAT models. The transformer model achieved 84% accuracy, the GAT model 86%, and the RNN-CNN 64%. Both transformer and GAT models predicted peptide sequences more effectively than the RNN-CNN model, with the Transformer showing the highest class accuracy at 85%, followed by the GAT model at 80%. Models exhibited varying sensitivity and specificity, with the Transformer demonstrating superior performance in overall and class-specific peptide sequence prediction. AI-based peptide sequence prediction using transformers, GAT, and RNN-CNN shows promise for accurately predicting AIM-2 peptide sequences, with transformers and GAT outperforming RNN-CNN in accuracy and class accuracy.",
+  "abstract_zh": "牙周炎症是一种影响牙齿周围组织的慢性疾病。由牙菌斑引发，它触发免疫反应导致组织破坏。AIM-2炎症小体调节这一反应，理解其肽序列可能有助于开发靶向治疗。本研究探讨使用变换器（transformers）和图注意力网络（GAT）来治疗牙周炎症。使用UniProt下载AIM-2炎症小体蛋白及相似度为100%、90%和50%的FASTA序列。DeepBio，一个用于开发深度学习架构的网络服务，分析了这些序列。使用变换器、RNN-CNN和GAT模型评估了肽序列预测方法。变换器模型达到84%的准确率，GAT模型为86%，RNN-CNN为64%。变换器和GAT模型在预测肽序列方面均比RNN-CNN模型更有效，其中变换器在类别准确率上表现最高，达到85%，其次是GAT模型，为80%。模型表现出不同的敏感性和特异性，变换器在整体和类别特异性肽序列预测中表现出优越性能。基于AI的肽序列预测，使用变换器、GAT和RNN-CNN，在准确预测AIM-2肽序列方面显示出潜力，其中变换器和GAT在准确率和类别准确率上优于RNN-CNN。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40082687/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40082687/",
+  "paper_page_path": "papers/pubmed/40082687/index.html"
+}

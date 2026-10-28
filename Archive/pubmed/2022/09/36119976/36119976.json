@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "36119976",
+    "doi": "10.1021/acsomega.2c03696",
+    "title": "Identifying Transcription Factors That Prefer Binding to Methylated DNA Using Reduced G-Gap Dipeptide Composition."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) play an important role in gene expression and regulation of 3D genome conformation. TFs have ability to bind to specific DNA fragments called enhancers and promoters. Some TFs bind to promoter DNA fragments which are near the transcription initiation site and form complexes that allow polymerase enzymes to bind to initiate transcription. Previous studies showed that methylated DNAs had ability to inhibit and prevent TFs from binding to DNA fragments. However, recent studies have found that there were TFs that could bind to methylated DNA fragments. The identification of these TFs is an important steppingstone to a better understanding of cellular gene expression mechanisms. However, as experimental methods are often time-consuming and labor-intensive, developing computational methods is essential. In this study, we propose two machine learning methods for two problems: (1) identifying TFs and (2) identifying TFs that prefer binding to methylated DNA targets (TFPMs). For the TF identification problem, the proposed method uses the position-specific scoring matrix for data representation and a deep convolutional neural network for modeling. This method achieved 90.56% sensitivity, 83.96% specificity, and an area under the receiver operating characteristic curve (AUC) of 0.9596 on an independent test set. For the TFPM identification problem, we propose to use the reduced g-gap dipeptide composition for data representation and the support vector machine algorithm for modeling. This method achieved 82.61% sensitivity, 64.86% specificity, and an AUC of 0.8486 on another independent test set. These results are higher than those of other studies on the same problems.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nguyen, Quang H",
+        "Tran, Hoang V",
+        "Nguyen, Binh P",
+        "Do, Trang T T"
+      ],
+      "short_names": [
+        "Nguyen QH",
+        "Tran HV",
+        "Nguyen BP",
+        "Do TTT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7493-3693",
+        "ORCID: 0000-0001-6203-6664",
+        "ORCID: 0000-0002-1614-4661"
+      ],
+      "affiliations": [
+        "School of Information and Communication Technology, Hanoi University of Science and Technology, 1 Dai Co Viet, Hanoi 100000, Vietnam.",
+        "School of Information and Communication Technology, Hanoi University of Science and Technology, 1 Dai Co Viet, Hanoi 100000, Vietnam.",
+        "School of Mathematics and Statistics, Victoria University of Wellington, Kelburn Parade, Wellington 6140, New Zealand.",
+        "School of Innovation, Design and Technology, Wellington Institute of Technology, 21 Kensington Avenue, Lower Hutt 5012, New Zealand."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nguyen, Quang H",
+        "short_name": "Nguyen QH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Communication Technology, Hanoi University of Science and Technology, 1 Dai Co Viet, Hanoi 100000, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Tran, Hoang V",
+        "short_name": "Tran HV",
+        "identifiers": [
+          "0000-0002-7493-3693"
+        ],
+        "affiliations": [
+          "School of Information and Communication Technology, Hanoi University of Science and Technology, 1 Dai Co Viet, Hanoi 100000, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Binh P",
+        "short_name": "Nguyen BP",
+        "identifiers": [
+          "0000-0001-6203-6664"
+        ],
+        "affiliations": [
+          "School of Mathematics and Statistics, Victoria University of Wellington, Kelburn Parade, Wellington 6140, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Do, Trang T T",
+        "short_name": "Do TTT",
+        "identifiers": [
+          "0000-0002-1614-4661"
+        ],
+        "affiliations": [
+          "School of Innovation, Design and Technology, Wellington Institute of Technology, 21 Kensington Avenue, Lower Hutt 5012, New Zealand."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2022 Sep 13",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/20 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "42254644",
+      "40362469",
+      "40359430",
+      "38261991",
+      "36659924"
+    ],
+    "refs": [
+      "34962264",
+      "34938415",
+      "34671178",
+      "34573438",
+      "34413898",
+      "34320027",
+      "33959153",
+      "33780341",
+      "33505515",
+      "33486591",
+      "33476047",
+      "33294291",
+      "33212104",
+      "32793581",
+      "31881828",
+      "31874633",
+      "31802128",
+      "31755929",
+      "31689433",
+      "31521504",
+      "31380767",
+      "29616000",
+      "29145608",
+      "27565583",
+      "26425553",
+      "24151070",
+      "20855926",
+      "17565494",
+      "16506243",
+      "10656262",
+      "10542095",
+      "9254694"
+    ],
+    "similar": [
+      "36119976",
+      "34962264",
+      "33708244",
+      "33294291",
+      "18426580",
+      "34864886",
+      "33372147",
+      "35659235",
+      "19158363",
+      "36560938",
+      "28750606",
+      "28439033",
+      "32770026",
+      "29145608",
+      "31336830",
+      "24025606",
+      "30909785",
+      "20704747",
+      "35142952",
+      "25775564",
+      "19956545",
+      "22189060",
+      "31093693",
+      "29221486",
+      "16267080",
+      "32399547",
+      "23874789",
+      "33425492",
+      "27871221",
+      "32054475",
+      "36082286",
+      "26679776",
+      "21172055",
+      "21690103",
+      "14627835",
+      "24564277",
+      "29605182",
+      "31283382",
+      "31341088",
+      "20942926",
+      "32039697",
+      "22369666",
+      "24918633",
+      "21284757",
+      "22218861",
+      "34534646",
+      "24349230",
+      "12054769",
+      "28240320",
+      "33621520",
+      "28764727",
+      "23812975",
+      "34272562",
+      "25037164",
+      "31855461",
+      "22165960",
+      "19061501",
+      "18371204",
+      "22187154",
+      "25129887",
+      "30225374",
+      "34220787",
+      "22824421",
+      "33475863",
+      "32554189",
+      "22369687",
+      "2648001",
+      "28363453",
+      "22412381",
+      "21750739",
+      "18221524",
+      "21557082",
+      "21785139",
+      "23553833",
+      "35719916",
+      "21245946",
+      "31874637",
+      "34544361",
+      "24291025",
+      "31723409",
+      "34465294",
+      "31742324",
+      "30598100",
+      "25559499"
+    ],
+    "review": [
+      "36119976",
+      "31093693",
+      "31283382",
+      "33621520",
+      "25129887",
+      "21557082",
+      "31742324"
+    ],
+    "pmc": [
+      "9475634"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acsomega.2c03696",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36119976/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36119976",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.2c03696",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

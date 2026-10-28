@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and acknowledgments. No supplementary material was provided.
+- **Assessment boundary** The scientific claims, methodological soundness, and internal consistency of the presented computational and experimental work, as described in the manuscript.
+- **Shared manuscript claim summary** The authors constructed a multi-domain homology model of the human AhR (bHLH, PAS A, PAS B) and used blind and focused molecular docking to identify non-canonical binding pockets. They propose that binding of certain natural compounds, particularly β-carotene and ellagic acid, to these pockets can inhibit AhR:ARNT heterodimerization, and they provide in vitro data in HepG2 cells showing that β-carotene and ellagic acid reduce BaP-induced CYP1A1 mRNA expression.
+- **Visible evidence base** The manuscript text, including two main figures (Figure 1, 2, 3, 4, 5) referenced but not shown, and two tables (Table 1, 2) referenced but not shown. Supplementary tables S1–S14 and Figure S1 are mentioned but not provided.
+- **Missing materials affecting confidence** The actual figures and tables are not included in the supplied text, so the docking scores, pocket definitions, model validation metrics, and experimental data (e.g., bar graphs with error bars, statistical tests) cannot be independently assessed. Supplementary material is not available. The exact docking parameters, scoring function details, and model construction validation are only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question, namely the identification of natural compounds that may inhibit AhR signaling through a non-canonical mechanism. The computational approach is reasonable in principle, and the inclusion of in vitro validation strengthens the study. However, several technical and interpretive issues limit the current strength of the claims. The docking methodology is not described in sufficient detail to assess reproducibility, the model validation is only superficially reported, and the link between the proposed binding pockets and the observed functional inhibition is largely speculative. The experimental data, as described, are minimal and lack key controls and statistical detail. The manuscript would benefit from a more rigorous and transparent presentation of both the computational and experimental results.
+- **Who would be interested in the results, and why** Researchers in the fields of environmental toxicology, food science, and natural product pharmacology would be interested. The potential of dietary compounds to modulate AhR activity is of broad relevance to chemoprevention and food safety. The proposed mechanism of inhibiting heterodimerization, rather than ligand binding in the canonical pocket, could be of interest to those studying AhR biology and drug development.
+- **Major strengths** The study combines computational docking with in vitro validation, which is a valuable approach. The focus on non-canonical binding sites, particularly the AhR:ARNT interface, is a novel angle. The use of a multi-domain model, rather than a single domain, is a step forward. The selection of compounds is based on literature evidence, and the inclusion of β-carotene and ellagic acid with positive in vitro results provides some support for the computational predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational methods
+  - **Claim pointer** The authors claim that the constructed models are accurate and suitable for docking, and that the docking results are reliable.
+  - **Evidence pointer** Section 2.2, Section 3.1, Supplementary Figure S1
+  - **Concern** The description of the model construction and validation is insufficient. The authors state that models were validated using Z-score, Q-mean, and Ramachandran plot, but the actual values are not reported in the main text. The comparison with the AlphaFold model is qualitative and subjective. The choice to use a manually built model over the AlphaFold model is not fully justified with quantitative metrics. Furthermore, the docking protocol is not described in enough detail: the grid box dimensions, exhaustiveness, number of runs, and the specific scoring function used in AutoDock are not stated. Without this information, the docking results cannot be reproduced or critically evaluated.
+  - **Why it matters** The entire computational premise rests on the quality of the model and the docking protocol. If the model is not adequately validated or the docking parameters are not standard, the identified pockets and binding energies may be artifacts. This undermines the core claim of identifying novel inhibitory binding sites.
+  - **Resolution test** Provide the validation metrics (Z-score, Q-mean, Ramachandran statistics) for the final models. Provide a detailed docking protocol, including grid box coordinates and sizes, number of genetic algorithm runs, and the AutoDock scoring function. Justify the choice of the manual model over AlphaFold with a quantitative comparison of relevant metrics (e.g., per-residue confidence, RMSD of key regions).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for biological claims
+  - **Claim pointer** The authors claim that β-carotene and ellagic acid inhibit AhR activation by preventing AhR:ARNT heterodimerization, based on docking and in vitro CYP1A1 mRNA data.
+  - **Evidence pointer** Section 3.2, Section 3.3, Figure 5
+  - **Concern** The in vitro data are presented only as a description in the text; the actual figure is not available. The authors report that β-carotene and ellagic acid significantly reduce CYP1A1 expression, but no quantitative data (e.g., fold-change values, error bars, p-values) are given. The claim that the mechanism is via inhibition of heterodimerization is not directly tested. No experiments are shown that measure AhR:ARNT interaction, nuclear translocation, or DNA binding. The observed reduction in CYP1A1 mRNA could be due to other mechanisms, such as direct antagonism at the canonical pocket, off-target effects, or cytotoxicity. The authors acknowledge this partially in the discussion but do not provide experimental evidence to support their proposed mechanism.
+  - **Why it matters** The central hypothesis of the paper is that the compounds act by blocking heterodimerization. Without direct evidence for this mechanism, the docking predictions remain speculative. The functional data, as described, only show an effect on a downstream gene, which is insufficient to establish the proposed mode of action.
+  - **Resolution test** Provide the actual experimental data with statistical analysis. Include a direct assay for AhR:ARNT interaction (e.g., co-immunoprecipitation, mammalian two-hybrid, or a reporter assay with a heterodimerization-deficient mutant). Alternatively, demonstrate that the compounds do not bind to the canonical pocket (e.g., competitive binding assay with TCDD or BaP) to strengthen the claim of a non-canonical mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of results
+  - **Claim pointer** The authors rank 14 compounds based on docking results and identify β-carotene as the best candidate.
+  - **Evidence pointer** Section 3.2, Table 2, Supplementary Tables S1–S14
+  - **Concern** The ranking of compounds is based on binding energy and cluster analysis, but the full results for all 14 compounds are not presented in the main text. Only a summary is given. The criteria for ranking are not fully defined. For example, how were the "best pose" and "mean binding energy" weighted? How was the "selectivity" for a pocket determined? The reader cannot assess whether the ranking is robust or whether other compounds might be equally or more promising. The supplementary tables are not provided, so the raw data cannot be checked.
+  - **Why it matters** The identification of β-carotene as the most promising compound is a key result. If the ranking criteria are not transparent or the data are not fully available, the conclusion is not verifiable. This weakens the practical utility of the study for guiding future research.
+  - **Resolution test** Present the full docking results for all compounds in a main table, including binding energies, cluster sizes, and pocket locations. Clearly define the ranking criteria. Make the supplementary tables available for review.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The description of the β-carotene nanoemulsion preparation is overly detailed and somewhat tangential to the main focus. The relevance of the nanoemulsion stability data to the study's conclusions is not clear.
+  - **Required correction** Consider condensing this section and focusing on the key details relevant to the cell treatment, such as the final concentration of β-carotene and the vehicle control.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Section 3.3, Figure 5
+  - **Evidence pointer** Section 3.3
+  - **Issue** The authors state that curcumin did not exert any inhibitory effect, but the docking results for curcumin were described as "borderline." This discrepancy is not discussed in detail. It would be helpful to comment on why the docking predictions for curcumin did not translate into functional activity.
+  - **Required correction** Add a brief discussion of the curcumin results, acknowledging the limitations of docking in predicting functional outcomes and the potential role of cellular context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The authors mention that the AlphaFold model was not used due to "unsatisfactory quality," but the specific criteria for this judgment are not fully explained. The reference to the AlphaFold model is made without a citation to the AlphaFold database or the associated publication.
+  - **Required correction** Provide a citation for the AlphaFold model and specify the quality metrics used to deem it unsatisfactory (e.g., pLDDT scores, per-residue confidence).
+- **Technical failings that need to be addressed before the case is established** The lack of detailed model validation metrics and docking parameters (R1-M1) is a fundamental issue that must be resolved. The absence of direct experimental evidence for the proposed mechanism of action (R1-M2) is also critical. The incomplete presentation of the docking results for all compounds (R1-M3) further limits the ability to assess the claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The idea of targeting the AhR:ARNT interface with natural compounds is not entirely novel, but the specific focus on non-canonical pockets in a multi-domain model is a somewhat original angle. However, the study does not present a fundamentally new concept or methodology.
+  - **Scientific importance** The potential health implications of dietary AhR modulators are significant, and the study addresses a relevant question. However, the current evidence is not strong enough to establish a new mechanism or to have a major impact on the field.
+  - **Interdisciplinary readership** The topic bridges computational chemistry, food science, and toxicology, which could attract a broad readership. However, the technical depth of the docking analysis and the limited experimental validation may limit its appeal to a wider audience.
+  - **Technical soundness** The technical soundness is currently questionable due to the lack of methodological detail and the absence of direct mechanistic validation. The computational approach is standard, but its application here is not fully rigorous.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the methods section is dense and assumes familiarity with docking terminology. The discussion is somewhat speculative and could be more focused.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the technical and experimental gaps are too significant to support the main claims. The authors should be encouraged to revise the manuscript to address the major concerns, particularly the methodological transparency and the direct testing of the proposed mechanism.
+
+## Risk / unsupported claims
+- The claim that the identified pockets (A, B, D) are functionally relevant for inhibiting heterodimerization is unsupported by direct experimental evidence.
+- The claim that β-carotene and ellagic acid act via a non-canonical mechanism is not proven; alternative mechanisms are not excluded.
+- The ranking of β-carotene as the "best" inhibitor is based on docking data that are not fully presented or validated.
+- The statement that the manual model is more appropriate than the AlphaFold model is not quantitatively justified.
+- The in vitro results, as described, are insufficient to confirm the inhibitory effects, as no quantitative data or statistical analysis are provided.

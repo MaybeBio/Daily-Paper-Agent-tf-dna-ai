@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims based solely on the supplied text. No external data, supplementary files, or unpublished materials were consulted.
+- **Shared manuscript claim summary** The manuscript reports in-vitro cytotoxicity (IC50/GI50) of two sulfonamide compounds (8a and 8b) against HeLa, MDA-MB231, and MCF-7 cell lines, UV-visible spectroscopy-based DNA binding studies, DFT calculations, molecular docking against p53, caspase-3, NF-κB, and DNA, and MD simulations. The authors claim compound 8b is the most promising anticancer candidate, with comparable or superior activity to doxorubicin and cisplatin, and that computational results support experimental findings.
+- **Visible evidence base** Tables 1, 2, 3, 4, 5; Figures 1–22; Methods section (cell viability assay, DNA binding, DFT, docking, MD protocols). All referenced within the text.
+- **Missing materials affecting confidence** No raw data, statistical analysis details, docking validation metrics (e.g., RMSD of co-crystal redocking), MD convergence criteria, force field parameters beyond naming, or explicit software versions for all steps. No information on compound purity, solubility, or replication of experiments. No negative controls or dose-response curves shown.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in anticancer drug discovery, combining experimental and computational approaches. However, the work is largely descriptive and preliminary. Several claims are overstated relative to the evidence provided, particularly regarding "strong cytotoxicity" and "comparable inhibitory potential" to standard drugs. The computational methods lack validation details, and the experimental section is underpowered and lacks essential controls. The manuscript would benefit from substantial revision, additional experiments, and more cautious interpretation before it can be considered for publication in a high-impact venue.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry, computational drug design, and cancer biology may find the comparative evaluation of sulfonamide derivatives of interest. The study provides a template for combining in-vitro and in-silico methods, which is a common approach in early-stage drug discovery. However, the novelty is limited, as sulfonamides are well-studied, and the specific claims require stronger validation.
+- **Major strengths** 1. Integration of multiple experimental and computational techniques. 2. Clear focus on a clinically relevant problem (anticancer drug development). 3. The comparative analysis with standard drugs (doxorubicin, cisplatin) provides a useful benchmark. 4. The study identifies a lead compound (8b) with promising in-vitro activity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor and reproducibility
+  - **Claim pointer** The manuscript claims "significant cytotoxic activity" and "promising anticancer activity" for compounds 8a and 8b based on IC50 values.
+  - **Evidence pointer** Section 2.1.1, Table 1, Methods 3.1
+  - **Concern** The cell viability assay description is incomplete. The text states "10 × 10^4 cells were added to each well" but does not specify the well format (e.g., 96-well), the number of replicates, the concentration range of compounds tested, or the duration of exposure. The IC50 values are presented without error bars or statistical analysis. The use of GI50 in the abstract versus IC50 in the results is inconsistent and confusing. No positive or negative controls are described beyond the reference drugs, and the criteria for "comparable" activity to doxorubicin/cisplatin are not defined.
+  - **Why it matters** Without detailed experimental protocols and statistical validation, the reported IC50 values cannot be independently verified or compared across studies. This undermines the central claim of anticancer potential.
+  - **Resolution test** Provide a complete experimental protocol including cell seeding density, plate format, compound concentrations (with serial dilutions), incubation times, number of independent experiments, and statistical methods. Report IC50 values with standard deviations and perform appropriate statistical comparisons (e.g., ANOVA) against controls and reference drugs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation and interpretation
+  - **Claim pointer** The manuscript claims that molecular docking and MD simulations "demonstrate the strong cytotoxicity" and "comparable inhibitory potential" of 8b to doxorubicin and cisplatin.
+  - **Evidence pointer** Sections 2.1.4, 2.1.5, Tables 4 and 5, Methods 3.3.2 and 3.3.3
+  - **Concern** The docking protocol lacks validation. The authors state that "the co-crystal ligand was docked to verify the docking procedure" but do not report the RMSD value between the docked and crystallographic pose. The docking scores are presented without context (e.g., no comparison to known inhibitors or baseline). The MD simulations are described as 50 ns in the methods but 100 ns in the results, an inconsistency. No convergence analysis (e.g., RMSD plateau) is shown, and the MMGBSA results are not compared to experimental binding data. The claim that computational results "support" experimental findings is not quantitatively substantiated.
+  - **Why it matters** Computational predictions are only meaningful if the methods are validated and the results are interpreted with appropriate caveats. Overstating the predictive power of docking and MD without validation can mislead readers and undermine the credibility of the conclusions.
+  - **Resolution test** Report the redocking RMSD for the co-crystal ligand. Provide docking scores for known inhibitors or decoys as a baseline. Clarify the MD simulation length and show RMSD/RMSF plots with clear convergence criteria. Compare MMGBSA energies to experimental binding affinities if available, or explicitly state the limitations of the computational predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency and data interpretation
+  - **Claim pointer** The abstract states "GI50 of 7.2 ± 1.12 µM, 4.62 ± 0.13 µM and 7.13 ± 0.13 µM against HeLa, MDA-MB231 and MCF-7 cells, respectively" for 8b, while the results section reports IC50 values ranging from 4.62 to 7.21 µM. The text also states that 8b showed "maximum DNA interactions" and "strongest affinity for binding Caspase-3," but the docking scores for 8b with Caspase-3 are not clearly compared to those of 8a or the reference drugs.
+  - **Evidence pointer** Abstract, Sections 2.1.1, 2.1.2, 2.1.4, Tables 1 and 4
+  - **Concern** The use of GI50 in the abstract and IC50 in the results is inconsistent and may confuse readers. The claim that 8b has "maximum DNA interactions" is based on UV-visible spectroscopy, but the binding constants are not reported, and the comparison to 8a is qualitative. The docking scores for 8b with Caspase-3 are not presented in a comparative table with 8a and reference drugs, making it difficult to assess the claim of "strongest affinity."
+  - **Why it matters** Inconsistent terminology and incomplete data presentation weaken the scientific argument and make it difficult for readers to evaluate the validity of the conclusions.
+  - **Resolution test** Use consistent terminology (IC50 or GI50) throughout. Report DNA binding constants with errors and statistical comparisons. Present docking scores for all compounds and targets in a single comparative table with appropriate statistical or threshold-based interpretation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and scientific significance
+  - **Claim pointer** The manuscript claims that the study "has the potential to lead to the discovery of new bioactive compounds" and "lays the groundwork for future research."
+  - **Evidence pointer** Abstract, Conclusions
+  - **Concern** The novelty of the work is not clearly articulated. Sulfonamide derivatives are extensively studied as anticancer agents, and the specific compounds 8a and 8b are not placed in the context of existing literature. The study does not provide a clear mechanistic hypothesis beyond general DNA binding and protein inhibition. The claim of "future drug development" is speculative without evidence of selectivity, in-vivo efficacy, or pharmacokinetic properties.
+  - **Why it matters** For a high-impact journal, the study must demonstrate a clear advance over existing knowledge. The current manuscript does not establish why these specific compounds are novel or why the findings are significant beyond a routine screening study.
+  - **Resolution test** Provide a more detailed comparison with known sulfonamide anticancer agents, highlight any unique structural features or mechanistic insights, and discuss the limitations of the current study in the context of drug development.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and terminology
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Section 2.1.1
+  - **Issue** The terms "GI50" and "IC50" are used interchangeably, which is confusing. The abstract reports GI50 values, while the results section uses IC50.
+  - **Required correction** Standardize the terminology throughout the manuscript and define the metric used in the methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.1.4, Table 4
+  - **Evidence pointer** Section 2.1.4, Table 4
+  - **Issue** The docking scores for 8a and 8b with different targets are described in the text but not systematically presented in a comparative table. The text mentions "best docking score" for 8b with Caspase-3 but does not provide the scores for all complexes in a clear format.
+  - **Required correction** Include a comprehensive table listing docking scores for all compounds (8a, 8b, doxorubicin, cisplatin) against all targets (p53, NF-κB, Caspase-3, DNA) with standard deviations if available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 3.3.3
+  - **Evidence pointer** Section 3.3.3
+  - **Issue** The MD simulation length is stated as 50 ns in the methods but 100 ns in the results. This inconsistency needs to be resolved.
+  - **Required correction** Correct the simulation length in the methods or results to be consistent.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality and referencing
+  - **Affected element** Figures 17–22
+  - **Evidence pointer** Section 2.1.5
+  - **Issue** The figures are referenced but not described in sufficient detail in the text. For example, the RMSD and RMSF plots are mentioned but the key features (e.g., convergence, fluctuations) are not discussed.
+  - **Required correction** Provide a more detailed description of the figures in the text, highlighting the key observations and their implications.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout
+  - **Evidence pointer** Various sections
+  - **Issue** The manuscript contains several grammatical errors and awkward phrasings (e.g., "the hearing sperm DNA" in the abstract, "Doxirubicin" misspelling in Figure 12).
+  - **Required correction** Thorough proofreading and language editing are needed to improve clarity and professionalism.
+
+## Risk / unsupported claims
+- The claim that compound 8b has "strong cytotoxicity" comparable to doxorubicin and cisplatin is not supported by statistical analysis or direct comparison of IC50 values with reference drugs under identical conditions.
+- The claim that computational results "demonstrate" or "support" the experimental findings is overstated, as the docking and MD simulations are not validated and the correlation with experimental data is not quantified.
+- The statement that 8b has "maximum DNA interactions" is not supported by quantitative binding constants or comparative analysis with 8a.
+- The claim that the study "lays the groundwork for future research" is speculative and not substantiated by mechanistic insights or in-vivo data.
+- The DFT results are presented descriptively without clear connection to the biological activity or experimental observations.

@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "36628273",
+    "doi": "",
+    "title": "DeepCIA: a novel deep-learning model for cancer type identification using class activation map via transcription factor expression."
+  },
+  "content": {
+    "abstract": "Deep learning methods are powerful analytical tools for large-scale data analysis. Here, we introduce DeepCIA as a novel diagnostic deep-learning model for cancer type identification using a class activation map via transcription factor expression. Although many deep learning researches attempts have recently been made in relation to cancer diagnosis, there are difficulties in using cancer data due to a large-scale problem. Therefore, From The Cancer Genome Atlas (TCGA) and International Cancer Genome Consortium (ICGC) public databases, we selected transcription factor expression profiles of eight cancer types. TCGA included 3496 samples and divided the train and validation sets in an 8:2 ratio. ICGC included 552 samples and was used as a test set for external validation. To compare the performance of 1D-CNN models, we also used SVM and KNN from machine learning. In external validation, 1D-CNN showed a high average accuracy of 98% and was superior to support vector machine (SVM) and k-nearest neighbor (KNN) with a difference in the accuracy of 10-12%. Also, 1D-CNN performed very well in several performance metrics (98.2% Recall, 98.1% Precision, 98.2% F score, 99.8% Specificity, 99.8% AUC, and 99.0% Balanced Accuracy). In each data set evaluation, 1-network, 5-network, and 2-network with high accuracy were selected and visualized through the Class Activation Map. We identified the Cys2Hys2 zinc finger group with the highest distribution across all cancer types. Collectively, DeepCIA can be used as a decision support system for cancer and a classifier for diagnosing unknown primary cancer, while emphasizing its usefulness in cancer diagnosis.",
+    "keywords": [
+      "Deep learning",
+      "cancer classification",
+      "class activation map",
+      "gene expression",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jeong, Seongdo",
+        "Lee, Dongjun",
+        "Park, Hae Ryoun",
+        "Kang, Junho",
+        "Yu, Yeuni",
+        "Hwang, Jae Joon",
+        "Kim, Yun Hak"
+      ],
+      "short_names": [
+        "Jeong S",
+        "Lee D",
+        "Park HR",
+        "Kang J",
+        "Yu Y",
+        "Hwang JJ",
+        "Kim YH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Research Institute for Convergence of Biomedical Science and Technology, Yangsan Hospital, Pusan National University Yangsan 50612, Republic of Korea.",
+        "Department of Convergence Medicine, School of Medicine, Pusan National University Yangsan 50612, Republic of Korea.",
+        "Department of Oral Pathology, School of Dentistry, Pusan National University 49 Busandaehak-ro, Yangsan 50612, Republic of Korea.",
+        "Periodontal Disease Signaling Network Research Center, School of Dentistry, Pusan National University Yangsan 50612, Republic of Korea.",
+        "Medical Research Institute, Pusan National University Pusan, Republic of Korea.",
+        "Medical Research Institute, Pusan National University Pusan, Republic of Korea.",
+        "Department of Oral and Maxillofacial Radiology, School of Dentistry, Pusan National University, Dental Research Institute Yangsan 50610, Republic of Korea.",
+        "Research Institute for Convergence of Biomedical Science and Technology, Yangsan Hospital, Pusan National University Yangsan 50612, Republic of Korea.",
+        "Department of Anatomy, School of Medicine, Pusan National University 49 Busandaehak-ro, Yangsan 50612, Republic of Korea.",
+        "Department of Biomedical Informatics, School of Medicine, Pusan National University 49 Busandaehak-ro, Yangsan 50612, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jeong, Seongdo",
+        "short_name": "Jeong S",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute for Convergence of Biomedical Science and Technology, Yangsan Hospital, Pusan National University Yangsan 50612, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Dongjun",
+        "short_name": "Lee D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Convergence Medicine, School of Medicine, Pusan National University Yangsan 50612, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Hae Ryoun",
+        "short_name": "Park HR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Pathology, School of Dentistry, Pusan National University 49 Busandaehak-ro, Yangsan 50612, Republic of Korea.",
+          "Periodontal Disease Signaling Network Research Center, School of Dentistry, Pusan National University Yangsan 50612, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Junho",
+        "short_name": "Kang J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Institute, Pusan National University Pusan, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yu, Yeuni",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Institute, Pusan National University Pusan, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hwang, Jae Joon",
+        "short_name": "Hwang JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Radiology, School of Dentistry, Pusan National University, Dental Research Institute Yangsan 50610, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Yun Hak",
+        "short_name": "Kim YH",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute for Convergence of Biomedical Science and Technology, Yangsan Hospital, Pusan National University Yangsan 50612, Republic of Korea.",
+          "Department of Anatomy, School of Medicine, Pusan National University 49 Busandaehak-ro, Yangsan 50612, Republic of Korea.",
+          "Department of Biomedical Informatics, School of Medicine, Pusan National University 49 Busandaehak-ro, Yangsan 50612, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of cancer research"
+    ],
+    "journal_abbrev": [
+      "Am J Cancer Res"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/12 06:00",
+    "fetched_at": "2026-10-04 21:32:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "33246486",
+      "32943730",
+      "32824207",
+      "32651256",
+      "32503808",
+      "32412440",
+      "32241303",
+      "32174937",
+      "31638490",
+      "31511663",
+      "31420533",
+      "31110349",
+      "30011333",
+      "29425488",
+      "29275361",
+      "29152378",
+      "28673244",
+      "27547678",
+      "27411336",
+      "26704973",
+      "26017442",
+      "24918456",
+      "24071849",
+      "24060862",
+      "23211040",
+      "22830413",
+      "22803940",
+      "22408190",
+      "22251901",
+      "21337521",
+      "20393554",
+      "18097586",
+      "16234353",
+      "15289353",
+      "15186484",
+      "15172991",
+      "15130820",
+      "12360277",
+      "11443140",
+      "11402340",
+      "11148575",
+      "10940247",
+      "10521349",
+      "9570129",
+      "2568852"
+    ],
+    "similar": [
+      "36628273",
+      "29492098",
+      "32896633",
+      "36284327",
+      "35812327",
+      "35716434",
+      "32407355",
+      "30364555",
+      "36292161",
+      "35998989",
+      "32449176",
+      "33041635",
+      "31521253",
+      "35684788",
+      "32498641",
+      "33885371",
+      "34118592",
+      "34079578",
+      "22898352",
+      "30875732",
+      "31710668",
+      "36401182",
+      "35581608",
+      "33954233",
+      "35305027",
+      "35402975",
+      "36233640",
+      "31786452",
+      "36485032",
+      "30441551",
+      "34930937",
+      "36029873",
+      "30292260",
+      "32309318",
+      "35860402",
+      "31279167",
+      "29650319",
+      "27036584",
+      "34033015",
+      "30611843",
+      "28187418",
+      "32222795",
+      "30598114",
+      "30455569",
+      "36263380",
+      "33382467",
+      "31514321",
+      "31450720",
+      "31199302",
+      "35944848",
+      "29060597",
+      "36212455",
+      "30403527",
+      "33302430",
+      "34898796",
+      "31128062",
+      "35280947",
+      "34007305",
+      "30603188",
+      "34739967",
+      "33604286",
+      "35847603",
+      "28836045",
+      "28110724",
+      "34029831",
+      "29109070",
+      "34770274",
+      "36237508",
+      "35081273",
+      "29258510",
+      "30387753"
+    ],
+    "review": [
+      "36628273",
+      "35860402"
+    ],
+    "pmc": [
+      "9827098"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36628273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36628273",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

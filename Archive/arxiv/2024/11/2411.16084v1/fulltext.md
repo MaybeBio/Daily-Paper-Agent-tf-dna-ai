@@ -1,0 +1,236 @@
+## Deciphering genomic codes using advanced NLP techniques: a scoping review
+
+Objectives : The vast and complex nature of human genomic sequencing data presents challenges for effective analysis. This review aims to investigate the application of Natural Language Processing (NLP) techniques, particularly Large Language Models (LLMs) and transformer architectures, in deciphering genomic codes, focusing on tokenization, transformer models, and regulatory annotation prediction. This review aims to assess data and model accessibility in the most recent literature, gaining a better understanding of the existing capabilities and constraints of these tools in processing genomic sequencing data.
+
+Methods : Following Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, our scoping review was conducted across PubMed, Medline, Scopus, Web of Science, Embase, and ACM Digital Library. Studies were included if they focused on NLP methodologies applied to genomic sequencing data analysis, without restrictions on publication date or article type.
+
+Results : A total of 26 studies published between 2021 and April 2024 were selected for review. The review highlights that tokenization and transformer models enhance the processing and understanding of genomic data, with applications in predicting regulatory annotations like transcription-factor binding sites and chromatin accessibility.
+
+Discussion : The application of NLP and LLMs to genomic sequencing data interpretation is a promising field that can help streamline the processing of large-scale genomic data while providing a better understanding of its complex structures. It can potentially drive advancements in personalized medicine by offering more efficient and scalable solutions for genomic analysis. Further research is needed to discuss and overcome limitations, enhancing model transparency and applicability.
+
+
+## 1 Introduction
+
+The vast and complex nature of human genomic sequencing data necessitates advanced computational methods for effective analysis and interpretation. In recent years, the intersection of Natural Language Processing (NLP) and data interpretation has garnered significant interest. Large Language Models (LLMs) and transformer architectures, initially designed for natural language understanding, have shown promise in deciphering the genomic code [ 1 ] . By converting genetic sequences into computationally interpretable formats and leveraging the sophisticated attention mechanisms of transformers, researchers aim to enhance the accuracy and depth of genomic sequencing analysis [ 2 ] .
+
+The human genome, composed of over 3 billion base pairs, contains information critical for understanding biological processes and disease mechanisms [ 3 ] . Traditional methods like Sanger sequencing, next-generation sequencing (NGS), and alignment-based approaches focus on generating and aligning sequence data but often fall short in interpreting large, complex genomic datasets, particularly for identifying regulatory regions and intricate patterns [ 4 ] . NLP and LLMs provide a scalable approach beyond raw sequencing, enabling efficient analysis, the discovery of regulatory regions, and deeper insights into genetic variation [ 5 ] .
+
+This literature review explores the application of NLP and LLMs in genomic data processing, focusing on three key areas: tokenization of genomic sequences, utilization of transformer models, and prediction of regulatory annotations. Tokenization involves converting raw genomic sequences into a format suitable for analysis, making the data more accessible for computational models [ 5 ] . With their advanced attention mechanisms, transformer architectures capture complex contextual relationships within the data, providing deeper insights into genomic structures [ 6 ] . Finally, predictive modeling uses the preprocessed data to identify critical regulatory elements such as transcription-factor binding sites, enhancer-promoter interactions, chromatin accessibility, and gene expression patterns [ 7 , 8 ] .
+
+By examining these areas, this review aims to highlight the transformative potential of integrating NLP into genomic sequencing research. This integration not only enables scientists to leverage the power of LLM to gain a more convenient and deeper understanding of genomic data but also paves the way for advancements in personalized medicine, where treatments can be tailored based on an individual’s genetic makeup. Despite the challenges, including data complexity, model interpretability, and validation, the progress in this field holds significant promise for future breakthroughs in genomics and beyond.
+
+
+## 2 Methods
+
+
+## 2.1 Eligibility criteria
+
+Our review follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines ( https://www.prisma-statement.org/ ). The eligibility criteria for the included studies focused on two main areas: NLP and genetic association studies. Studies were included if they specifically addressed applications or methodologies related to NLP in the context of genomic data analysis. No restrictions were placed on publication date or article type, and the primary focus was on studies published in English. A summary of the PRISMA checklist is provided in the Supplementary Materials A .
+
+
+## 2.2 Information sources
+
+A comprehensive search was conducted across multiple databases to identify relevant studies. The systematic searches were conducted on Ovid MEDLINE (In‐Process and Other Non‐Indexed Citations and Ovid MEDLINE 1946 to Present), Ovid EMBASE (1974 to present), Scopus, Web of Science, and the ACM Digital Library. The databases searched included PubMed ( https://pubmed.ncbi.nlm.nih.gov ), the Institute of Electrical and Electronics Engineers (IEEE) Xplore Digital Library ( https://ieeexplore.ieee.org ), Google Scholar ( https://scholar.google.com ), and Semantic Scholar ( https://www.semanticscholar.org ). The searches were executed in April 2024, with the most recent search conducted in June 2024 to ensure the inclusion of the latest available studies. Important references identified during the searches were also tracked for further examination.
+
+
+## 2.3 Search strategy
+
+Our search strategy was designed to maximize coverage using broad combinations of keywords and related terms, ensuring a comprehensive capture of relevant literature. It included both controlled vocabulary and free-text terms related to “natural language processing” and “genetic association studies.” The strategy incorporated keywords and phrases such as “natural language processing,” “large language model,” “NLP,” “LLM,” “data mining,” “genomic association studies,” “polymorphism,” “SNP,” “token,” “transformer,” “BERT,” and “regulatory annotations.” Full details of the search strategies for each database are provided in the Supplementary Materials B .
+
+
+## 2.4 Study selection
+
+The study selection process involved two stages of screening. Initially, two independent researchers screened the abstracts of all identified articles for relevance to the topics of natural language processing and genetic association studies. Abstracts deemed appropriate were then subjected to a full-text review by the same two researchers to confirm their eligibility for inclusion. The screening was facilitated using Covidence, a web-based tool designed to streamline systematic reviews [ 9 ] .
+
+The initial phase led to the exclusion of 702 studies based on the following key exclusion criteria: 1) 73 studies were excluded for not using human omics data 2) 39 studies were excluded because they did not employ natural language processing methods 3) 526 studies were excluded for their irrelevance, particularly those not involving specific NLP downstream tasks or human-omics data 4) 60 studies were excluded for providing insufficient content such as conference proceedings or any submissions that did not provide full-text articles 5) 4 studies consisted of secondary literature, such as survey and review papers. In the full-text screening phase, 59 additional studies were excluded due to misaligned objectives or incomplete texts, where an abstract suggested relevance. Still, the full text lacked sufficient content for relevant analysis.
+
+
+## 3 Results
+
+A total of 26 studies published between 2021 and April 2024 met the inclusion criteria and were selected for final discussion. Table 1 summarizes the main findings.
+
+61,051 sequences containing 142,325 CpG islands
+
+3,382 promoters (1,591 strong and 1791 weak promoter samples) and 3,382 non-promoters
+
+4,153,122 training samples, 461,458 validation samples, 800,000 testing samples
+
+NR: Not Reported
+
+BERT: 110M; DistilBERT: 40% of BERT; ALBERT: reduced size with cross-layer sharing
+
+A custom tokenizer that can capture any sample represented by 6-mer DNA words and a textual description of taxonomic lineage
+
+SNPs encoded as 0,1,2; selected with Fisher’s test, concatenated with APOE
+
+
+## 3.1 Preprocessing and Modeling
+
+Preprocessing genomic sequencing data is crucial before predictive modeling can be applied. This involves converting the raw genomic sequences into a format that computational models can understand, making the complex genetic data more accessible. The preprocessing steps include tokenization, which breaks text into manageable sub-word units. Subsequently, advanced architectures like transformers are utilized during the modeling phase to capture intricate dependencies and patterns in the data.
+
+Tokenization is the first step in preprocessing genomic sequencing data for LLMs, which can capture biologically significant patterns such as promoter elements like TATA or CAAT boxes. It involves breaking down the sequences into smaller, manageable, and interpretable units that can be fed into computational models. K-mers is the most widely used tokenization method among the studies reviewed, and it is consistent with common practice in genomic research. Biological functions are often determined by short patterns in DNA sequences, such as motifs and binding sites, making k-mers suited to capture these. Furthermore, many studies are built on top of existing pre-trained models and follow the tokenizer used in the original model. For example, several studies build on DNABERT [ 34 , 15 ] and employ k-mers accordingly. Beyond k-mers, other tokenization methods are also applied. For instance, Hossain et al. approach the problem of CpG island detection as named entity recognition (NER) and use a BPE tokenizer [ 11 , 23 ] .
+
+K-merization is a method in bioinformatics that breaks down DNA sequences into smaller, overlapping segments of fixed length, known as k-mers, where ‘k’ represents the number of nucleotides in each segment [ 36 ] . For instance, in DNABERT, applying k-mers with a value of 3 on a sequence like ”ACTGACTGAC” results in tokens such as [”ACT”, ”CTG”, ”TGA”, ”GAC”]. Several studies have effectively utilized k-mer tokenization for sequencing data processing. Wang et al. applied k = 1 , 3 , 5 k=1,3,5 to split DNA sequences into k-mers, treating them as words in a natural language [ 18 ] . Additionally, Ji et al. employed various k-mer lengths (3, 4, 5, 6) in training and fine-tuning DNABERT models to understand the DNA sequences and predict regulatory elements [ 12 ] . DNABERT was trained using the Bidirectional Encoder Representations from Transformers (BERT) model [ 37 ] , which is developed to create deep bidirectional representations by preprocessing text without labels, considering the context from both the left and the right at every layer. Similarly, Zeng et al. introduced a custom corpus and tokenizer using 6-mers with taxonomic lineage descriptions and aimed to predict the DNA methylation sites ( F ​ 1 = 0.95 F1=0.95 ) [ 25 ] . Moreover, An et al. used 6-mers to pre-train human genome data and fine-tune downstream data, getting the moDNA model, which is designed for promoter prediction and transcription start site (TSS) detection ( F ​ 1 = 0.862 F1=0.862 ) [ 22 ] .
+
+BPE is a tokenization method that iteratively merges the most frequent pairs of characters in a text to create subword tokens, allowing for efficient handling of rare and unseen words [ 38 ] . When BPE is applied to the sequence “ACTGACTGAC,” it may yield tokens like ["ACTG", "ACTG", "AC"] . Hossain et al. utilized BPE [ 38 ] to tokenize the DNA sequences [ 11 ] . The tokenized data were then applied to three models, each having a parameter size of 66 million. DistilBERT was set as the benchmark, and Conditional Random Fields (CRF) [ 39 ] , and Attention Mask was added to each layer to detect CpG islands in DNA sequences. This methodology aims to predict the promoter regions and identify epigenetic causes of diseases. The F1 scores for these three models are 0.718, 0.726, and 0.735, respectively.
+
+In 2023, Hossain et al. refined this approach by pre-training the BERT model and CRF layer (parameter size = 110M) on a large sequencing dataset with 142,325 CpG islands and fine-tuning on a smaller dataset [ 23 ] . Eventually, they achieved an F-1 score of 0.834.
+
+Fixed Nucleotide Tokenization is a method that segments DNA sequences into fixed-length nucleotide fragments. This technique differs from K-merization, primarily because it does not allow overlapping segments between the fragments, often treating these fragments as distinct “tokens” or “words” in the context of deep learning and NLP models. Using FNT with 3-nucleotide groupings on “ACTGACTGAC,” for example, produces tokens like ["ACT", "GAC", "TGA", "C"] . For example, Le et al. divided each DNA sequence into 81-base pair fragments and treated each fragment as a token, ensuring each fragment was treated as an independent token without any overlap [ 14 ] . This fragment-based tokenization helps maintain sequence context over a fixed window size. They aimed to identify both promoters and non-promoters and their activities. In this study, researchers proposed the latest pre-trained BERT model, which eventually got promoter identification and strength identification, achieving an accuracy of over 0.8. Another study presented a novel method that combines BERT and 2D convolutional neural networks (CNNs) to predict DNA enhancers [ 13 ] . During the training process, each nucleotide was transformed into a contextualized word embedding vector of size 768. These vectors, which represent fixed-length sequences, were then passed to a CNN for further analysis. The model demonstrated superior performance by training on the iEnhancer-2L dataset, achieving an accuracy of 0.756 and a sensitivity of 0.8. In addition, Rajkumar et al. presented a transformer-based model named DeepViFi that tokenized each nucleotide base (A, C, G, T, N) individually, rather than using k-mers or sub-sequences [ 16 ] . This approach leveraged a random forest classifier to identify viral reads in cancer genomes, particularly focusing on the Human Papillomavirus (HPV), and a LightGBM model to classify these viral reads into specific subfamilies. The results showed that DeepViFi achieved a high precision-recall AUC of 0.94 in detecting and classifying HPV reads, demonstrating its effectiveness in this domain.
+
+Once the data is tokenized, the next step involves using transformer architectures to capture the complex, contextual relationships within them. Transformers are highly effective due to their attention mechanisms, which allow models to focus on different parts of the sequence simultaneously.
+
+Since most studies are phrased as prediction or classification problems, BERT and its variants are often used as feature extractors, with an additional classifier added on top of that. In this section, we will mostly focus on the BERT and transformer components. For sequencing labeling tasks, the transformer is directly used [ 10 , 40 ] . Additionally, some models incorporate CNNs within transformer-based architectures to enhance local feature extraction. CNNs are particularly effective for capturing motifs and short sequence patterns, which are essential for refining sequence-level predictions within broader transformer architectures.
+
+After tokenizing the DNA sequences, Wang et al. pre-trained and fine-tuned a BERT model to predict 5-methylcytosine (5mC) sites and identify DNA enhancers [ 18 ] . The BERT-5mc model derived an accuracy of 0.933. The DNABERT models by Ji et al. on different k-mers have 110M parameters and indicate the F1 values over 0.9 for all ‘k’ [ 12 ] . Luo et al. introduced TFBert, a model based on the BERT architecture specifically designed to predict DNA-protein binding sites [ 15 ] . The model was derived by initializing with the DNABERT pretraining model and then performing task-specific pretraining on a large dataset of 690 ChIP-seq datasets consisting of various DNA-protein binding data. The model tokenized DNA sequences into k-mers, treating them as words in the context of a language model, allowing it to capture the context of DNA sequences effectively. The primary goal of TFBert is to improve the accuracy and robustness of DNA-protein binding predictions, especially in cases where the datasets are small or medium-sized. The results demonstrated that TFBert [ 15 ] achieved state-of-the-art performance, outperforming other existing models, with an average AUC of 0.947, making it a valuable tool for various biological sequence prediction tasks.
+
+Besides BERT, several studies only utilized vanilla transformer encoder blocks or modified versions, which refer to the original transformer architecture with basic attention and feed-forward layers, without additional layers or task-specific pretraining. Unlike models like BERT, which are optimized with masked language modeling and specialized layers for specific downstream tasks, vanilla transformers typically lack these enhancements and may require additional tuning to process complex genomic data effectively. Pipoli et al. proposed a transformer-based model called Transformer DeepLncLoc to process the DNA sequences into a more compact and informative representation using a k-mer approach combined with word2vec embedding [ 24 ] . It was specifically designed to process gene promoter sequences and predict the abundance of mRNA, managing the task as a regression problem. The transformer model was then used to analyze these embedded sequences, and its performance was compared against other models like LSTM DeepLncLoc and a convolutional model called DivideEtImpera, which utilized CNN layers to capture local sequence features. Including CNNs in this context helped capture motifs and short patterns within the sequence, providing an advantage in prediction accuracy. Roy et al. introduced a novel approach for masked language modeling (MLM) in gene sequences, specifically focusing on improving the efficiency and performance of transformer-based models like DNABERT and LOGO [ 17 ] . The paper presented the GENEMASK model (parameter size = 110M), derived by applying a Pointwise Mutual Information (PMI)-based masking strategy to gene sequences. This strategy identifies and masks the most correlated spans of nucleotides, as opposed to the random masking strategy used in traditional models. The GENEMASK model aims to enhance the learning process by making it more challenging and reducing the pretraining time while improving accuracy, particularly in few-shot settings where training data is limited. The results demonstrated that GENEMASK significantly outperforms the baseline models in several gene sequence classification tasks, showing better accuracy ( 0.898 ± 0.005 0.898\pm 0.005 ) and ROCAUC ( 0.962 ± 0.002 0.962\pm 0.002 ), especially in low-resource scenarios.
+
+Advanced attention mechanisms are specialized features within transformer architectures that enhance the model’s capacity to identify and capture complex relationships within genomic data. Wang et al. presented a novel deep learning model called MTTLm(6)A, designed to predict N6-methyladenosine (m6A) sites on mRNA at base resolution [ 27 ] . The model employed a multi-task transfer learning approach, leveraging information from related tasks to improve m6A site prediction. The primary model is an improved transformer architecture, fine-tuned using datasets from various species to enhance its generalization capabilities. The results demonstrated that MTTLm(6)A outperformed other state-of-the-art models in terms of prediction accuracy and efficiency. In another study, Wang et al. proposed MSCAN, a deep learning framework designed for RNA methylation site prediction, mainly focused on identifying various types of RNA modifications [ 26 ] . The model incorporated multi-scale self- and cross-attention mechanisms to capture both local and long-range dependencies in RNA sequences. Using different input sequence scales, the model effectively captured the complex contextual relationships crucial for accurate methylation site prediction. MSCAN outperformed existing models in predicting 12 different RNA modifications.
+
+
+## 3.2 Predicting Regulatory Annotations
+
+After preprocessing and deriving embeddings through the transformer, the tokenized and transformed genomic data can predict various regulatory annotations. These predictions include identifying transcription-factor binding sites, enhancer-promoter interactions, chromatin accessibility, and gene expression patterns. Many studies have demonstrated significant success in these predictive tasks, and the performance of selected models is summarized in Table 2 . Our selection is based on studies that employed predictive models and reported at least one performance metric, ensuring high standards of empirical validation.
+
+Recent studies in NLP applied to genomic data have focused on predicting various DNA methylation sites, such as 5-methylcytosine [ 18 ] , N6-adenine, N4-cytosine, and 5-hydroxymethylcytosine [ 25 ] , which are crucial for understanding epigenetic modifications and their roles in gene regulation. These efforts are integral to advancing our understanding of gene expression regulation, epigenetic modifications, and their broader implications in health and disease. Future research may further explore other underrepresented epigenetic modifications to expand the applications of NLP in this critical area.
+
+Other research efforts are dedicated to genome embedding, promoter prediction, and transcription factor binding site prediction. These goals are essential for mapping the regulatory landscapes of genomes, which is a critical step in understanding how genes are controlled and expressed in different conditions. In parallel, detecting CpG islands in DNA sequences has been a focal point [ 11 , 23 ] , with models designed to predict promoter regions and identify epigenetic causes of diseases. This line of research aims to unravel the genetic factors that contribute to various diseases, providing insights that could lead to new therapeutic strategies.
+
+Another important application of NLP in genomic research is predicting interactions between various non-coding RNAs and their targets, which play crucial roles in post-transcriptional regulation. Specifically, studies have focused on predicting circRNA-miRNA interactions [ 29 , 28 ] , and miRNA-mRNA interactions [ 30 ] . These interactions are critical for understanding the complex regulatory networks that control gene expression after transcription and influence processes such as mRNA stability, translation, and degradation. By accurately predicting these interactions, NLP models can provide valuable insights into the mechanisms of gene regulation at the post-transcriptional level, which has significant implications for understanding diseases, developing biomarkers, and designing targeted therapies. This section also includes identifying RNA methylation sites, such as m6A [ 27 ] and m7G [ 31 ] , which are vital for understanding RNA biology and its impact on gene expression.
+
+In the context of cancer research, NLP models have been applied to several specialized tasks aimed at improving cancer diagnosis and treatment. These tasks include predicting optimized potential anti-breast cancer therapeutic target genes [ 33 ] , enhancing tumor type classification [ 34 ] , and providing machine learning models capable of handling omics data. Moreover, models have been developed to investigate the reusability and generalizability of cell-type annotation in single-cell RNA sequencing data, which is crucial for understanding tumor heterogeneity, as well as the regulatory mechanisms that control gene activity within cancerous tissues. Additionally, models have been developed to investigate the reusability and generalizability of cell-type annotation in single-cell RNA sequencing data, which is crucial for deepening our knowledge of cellular functions and the complex interactions that drive cancer progression. Another significant goal is the detection of oncoviral infections in cancer genomes using transformers [ 16 ] , a critical step in understanding the role of viral integration in cancer development and progression. Collectively, these applications of NLP in oncology highlight its potential to revolutionize cancer research by providing more precise diagnostic tools, therapeutic strategies, and insights into the multi-layered biological data that underpin cancer biology.
+
+Some goals have been explored less frequently in the literature but hold significant potential for future research. For instance, using NLP models to analyze gene-disease associations across vast biomedical literature can help uncover novel genetic risk factors and pathways associated with complex diseases. Similarly, chromatin accessibility prediction, which involves identifying regions of the genome that are open and accessible to transcription factors, is crucial for understanding gene regulation [ 21 ] . These emerging research directions could guide future studies, encouraging researchers to explore these underrepresented yet critical areas, ultimately expanding the applications of NLP in genomics and enhancing our understanding of complex biological processes.
+
+
+## 3.3 Data Diversity and Accessibility
+
+Upon reviewing recent research on the application of NLP in genomic sequencing data interpretation, a distinct trend in the types of data used becomes evident. DNA sequences dominate the landscape, highlighting their frequent use in NLP-driven genomic analyses. There is also a growing incorporation of RNA sequences and multi-omic data, reflecting a shift toward more diverse and comprehensive datasets.
+
+Additionally, specialized data types, such as structural data from 3D Magnetic Resonance Imaging (MRI) and genomic variations like Single Nucleotide Polymorphisms (SNPs) and Copy Number Variations (CNVs), along with advanced sequencing technologies like Nanopore sequencing, are also being integrated. This broadens the scope of analysis within NLP applications, as these data types provide complementary information beyond traditional sequence analysis. This trend indicates an ongoing expansion in the variety of genomic and multimodal data utilized in NLP for genomics.
+
+Among the studies, most datasets are publicly accessible, with a few studies having limited or request-based access for specific subsets. It fosters inclusivity and sustainable development in integrating genomic data with NLP, enhancing collaboration and progress in this rapidly evolving field.
+
+Advanced NLP techniques are notoriously known for high hardware requirements. However, the actual computational demands for application vary significantly depending on the extent of model training involved. Pretraining models like BERT or large language models (LLMs) from scratch requires significant computational resources. For example, Ji et al. trained DNABERT for 25 days using 8 GPUs [ 12 ] , while Zhang et al. trained on 6,000 GPUs [ 30 ] . In contrast, using existing pretrained models as feature extractors and building a classifier such as XGBoost [ 14 , 28 ] or small neural networks [ 34 , 29 ] on top have minimal requirements. Fine-tuning or continuously pretraining from a publicly available model lies between these extremes [ 25 , 15 ] . In addition, some studies intentionally consider resource constraints in model design and training processes. For example, Roy et al. stopped training at 10,000 steps due to resource limitations and diminishing marginal returns to training [ 17 ] . Furthermore, Wang et al. designed a small architecture (a two-layer transformer) to fit into low-resource environments [ 35 ] .
+
+a The results represent the best model performance under the tested configurations.
+
+
+## 4 Discussion
+
+Applying LLMs within NLP for genomic data interpretation significantly advances the processing and analysis of complex biological data. This review highlights key areas where these technologies have been effectively utilized, including tokenization techniques, transformer architectures, and the prediction of regulatory annotations. While the progress in these areas is promising, several challenges and opportunities for future research remain.
+
+One of the major challenges in applying NLP and LLMs to genomic data is the inherent complexity of the data itself [ 41 ] . Genomic sequences contain vast information, making it difficult to capture the full context within a model. This complexity also impacts model interpretability, as the black-box nature of LLMs makes it challenging for researchers to understand how the model arrives at its predictions. A ‘black-box’ model refers to a system where the internal workings are not transparent or easily understood, and training data is obscured or undocumented, making it difficult to trace how specific inputs are transformed into outputs [ 42 ] . For instance, while models like DNABERT [ 12 ] have successfully predicted regulatory elements and annotated single-cell RNA data, the pathways and features leading to these predictions are often vague, limiting their utility in clinical settings.
+
+To address this issue, future research should focus on developing methods that enhance model interpretability. Techniques such as attention visualization, feature attribution, and post-hoc analysis can provide insights into which parts of the genomic sequence most influence the model’s predictions. By making these models more transparent, researchers and clinicians can gain greater confidence in their use for decision-making in personalized medicine.
+
+Another significant challenge genomic researchers face is the absence of well-established pipelines or guidelines for integrating LLMs into genomic data analysis, such as determining which models best suit different data types, such as DNA/RNA sequences, proteomics, or epigenomics data. In addition, k-mers is still the most popular tokenizer, which might be sub-optimal [ 43 ] . Selecting the best tokenizer for relevant tasks needs further investigation. Although LLMs have shown great promise in various applications, their use in genomics is still in its early stages, often requiring ad hoc and highly specialized approaches. Developing systematic pipelines that outline best practices for tokenization, model selection, training, and validation in the context of genomic data is crucial. Such guidelines would standardize the use of LLMs across research groups, ensuring reproducibility and reliability of results. Moreover, these frameworks could make LLMs more accessible to researchers with limited computational backgrounds, helping streamline their adoption in genomics.
+
+One limitation of this study is the constrained scope of the literature review sources, which primarily includes human genome data and only limited exploration of bacterial, viral, and other non-human DNA. Moreover, the study predominantly focuses on cancer when it comes to disease analysis, giving relatively less attention to other disease domains that involve complex DNA interactions, such as neurodegenerative diseases, autoimmune diseases, and genetic disorders. These areas also offer rich opportunities for genomic research and could benefit from applying NLP techniques.
+
+Future models should also consider integrating multimodal data more, such as combining genomic sequences with transcriptomic and proteomic data, and clinical data, such as lab values and diagnoses. Integrating multiple types of genomic data can better reveal complex biological interactions, providing insights into how different layers of biological information interact to drive cellular functions [ 44 ] . Including clinical data can enhance model predictions by grounding them in real-world patient information, thereby improving clinical relevance and enabling personalized insights. This comprehensive approach can provide a more comprehensive understanding of the regulatory mechanisms governing gene expression and the interplay between different molecular layers. It can also enable models to generate and validate more accurate and biologically meaningful predictions, thereby increasing physicians’ confidence in NLP-generated results and promoting the widespread application of NLP-based models.
+
+Ultimately, integrating NLP and LLMs into genomics aims to translate these advancements into practical applications. This includes developing models that can predict individual responses to treatments based on genomic data, identify potential therapeutic targets, as well as provide clinicians with actionable and interpretable insights. As the field progresses, collaboration between computational scientists, geneticists, and clinicians will be essential to ensure that these models are both scientifically valid and clinically useful.
+
+
+## Funding Statement
+
+This work was supported by the National Library of Medicine under Award No. R01LM014306.
+
+
+## Competing Interests Statement
+
+There are no competing interests to declare.
+
+
+## Contributorship Statement
+
+Study concepts/study design: Shuyan Cheng, Jinze Liu, Yifan Peng; manuscript drafting or manuscript revision for important intellectual content: all authors; approval of the final version of the submitted manuscript: all authors; agrees to ensure any questions related to the work are appropriately resolved: all authors; literature research: Shuyan Cheng, Drew N Wright; data interpretation: Shuyan Cheng, Yishu Wei, Yiliang Zhou, Zihan Xu; and manuscript editing: all authors.
+
+
+## Data Availability
+
+The data underlying this article are available in the article and in its online supplementary material.
+
+
+## Abbreviation
+
+
+## References
+
+
+## Appendix A PRISMA checklist
+
+This review adheres to PRISMA guidelines to ensure methodological rigor and transparency. Key aspects of the PRISMA checklist addressed in this review include defining clear objectives and eligibility criteria, describing information sources and search strategies, and outlining the study selection and data collection processes. Additionally, we summarize study characteristics, assess the risk of bias, and present the synthesis results and findings. Limitations are discussed, along with an assessment of evidence certainty to contextualize the main findings. Funding sources and conflicts of interest are also disclosed to maintain transparency.
+
+For further details on the PRISMA checklist and specific reporting requirements, please refer to the full PRISMA 2020 checklist available at http://www.prisma-statement.org/PRISMAStatement/Checklist .
+
+
+## Appendix B Search Strategies
+
+
+## Medline (04/12/24)
+
+exp Natural Language Processing/
+
+exp Data Mining/
+
+((natural adj2 language adj2 process*) OR (large adj2 language adj2 model*) OR ”NLP” OR ”LLM” OR ((data OR text) adj2 (mine* OR ”mining”)) OR ”named entity” OR semantic).ti,ab.
+
+1 OR 2 OR 3
+
+exp Genetic Association Studies/
+
+exp Polymorphism, Genetic/
+
+(genet* OR genom* OR genot* OR sequenc* OR ((single adj2 nucleotide adj2 polymorph*) OR ”SNP*”)).ti,ab.
+
+5 OR 6 OR 7
+
+(token* OR ”transformer” OR ”bert” OR (regulat* adj2 annotat*)).ti,ab.
+
+4 AND 8 AND 9
+
+
+## Embase (04/12/24)
+
+exp natural language processing/
+
+exp data mining/
+
+((natural adj2 language adj2 process*) OR (large adj2 language adj2 model*) OR ”NLP” OR ”LLM” OR ((data OR text) adj2 (mine* OR ”mining”)) OR ”named entity” OR semantic).ti,ab.
+
+1 OR 2 OR 3
+
+exp genetic association study/
+
+exp genetic polymorphism/
+
+(genet* OR genom* OR genot* OR sequenc* OR ((single adj2 nucleotide adj2 polymorph*) OR ”SNP*”)).ti,ab.
+
+5 OR 6 OR 7
+
+(token* OR ”transformer” OR ”bert” OR (regulat* adj2 annotat*)).ti,ab.
+
+4 AND 8 AND 9
+
+
+## PubMed (04/12/24)
+
+(”Natural Language Processing”[Mesh] OR ”Data Mining”[Mesh] OR NLP OR LLM OR ”Natural Language Processing” OR ”data mining”) AND (”Genetic Association Studies”[Mesh] OR ”Polymorphism, Genetic”[Mesh] OR genet* OR genom* OR genot* OR sequenc* OR ”SNP” OR ”SNPs”) AND (token* OR ”transformer” OR ”bert” OR ”regulatory annotations”)
+
+
+## Scopus (04/15/24)
+
+( TITLE-ABS-KEY ( ( genet* OR genom* OR genot* OR sequenc* OR ( ( single W/2 nucleotide W/2 polymorph* ) OR ”SNP*” ) ) ) ) AND ( TITLE-ABS-KEY ( ( ( natural W/2 language W/2 process* ) OR ( large W/2 language W/2 model* ) OR ”NLP” OR ”LLM” OR ( ( data OR text ) W/2 ( mine* OR ”mining” ) ) OR ”named entity” OR semantic ) ) ) AND ( TITLE-ABS-KEY ( ( token* OR ”transformer” OR ”bert” OR ( regulat* W/2 annotat* ) ) ) )
+
+
+## Web of Science (04/15/24)
+
+((natural NEAR/2 language NEAR/2 process*) OR (large NEAR/2 language NEAR/2 model*) OR ”NLP” OR ”LLM” OR ((data OR text) NEAR/2 (mine* OR ”mining”)) OR ”named entity” OR semantic) (Abstract) AND (genet* OR genom* OR genot* OR ”sequencing” OR ((single NEAR/2 nucleotide NEAR/2 polymorph*) OR ”SNP*”)) (Abstract) AND (token* OR ”transformer” OR ”bert” OR (regulat* NEAR/2 annotat*)) (Abstract)
+
+
+## ACM (04/15/24)
+
+[[Abstract: ”natural language processing”] OR [Abstract: or] OR [Abstract: ”large language model”] OR [Abstract: or ”nlp” or ”llm” or] OR [Abstract: ”data mining”] OR [Abstract: ”text mining”] OR [Abstract: ”named entity”] OR [Abstract: or semantic]] AND [[Abstract: genet* OR genom* OR genot* OR] OR [Abstract: ”single nucleotide polymorph”] OR [Abstract: or ”snp” or ”snps”]] AND [Abstract: token* OR ”transformer” OR ”bert”]

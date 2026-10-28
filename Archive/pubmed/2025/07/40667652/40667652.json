@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "40667652",
+    "doi": "10.1002/advs.202417278",
+    "title": "Discovery of Natural Compound alpha-Hederin via Large-Scale Screening as a Targeted JAK/STAT3 Inhibitor for Ovarian Cancer Therapy."
+  },
+  "content": {
+    "abstract": "Chemoresistance and metastasis are key obstacles to successful ovarian cancer (OC) treatment. Here, alpha-Hederin, a pentacyclic triterpenoid saponin, is identified as a potent and selective dual inhibitor of JAK1/JAK2 with promising therapeutic potential in OC. Integrating transcriptomic analysis, virtual screening, molecular docking, and biochemical validation, it is shown that alpha-Hederin directly binds the JH1 kinase domains of JAK1 and JAK2, suppressing their activity and downstream STAT3 phosphorylation. alpha-Hederin inhibits OC cell proliferation, epithelial-mesenchymal transition (EMT), and metastasis in vitro, and suppresses tumor growth and dissemination in multiple mouse models, with minimal systemic toxicity. Mechanistically, alpha-Hederin blocks STAT3 nuclear translocation and downregulates oncogenic STAT3 targets including MYC, CCND1, and TWIST1. Rescue experiments using the STAT3 agonist Colivelin partially reversed these effects, confirming the JAK/STAT3 axis as a key target. Moreover, alpha-Hederin synergizes with cisplatin to enhance antitumor efficacy and overcomes platinum resistance in OC cells. Collectively, our findings highlight alpha-Hederin as a safe and effective natural JAK1/2 inhibitor that suppresses OC progression by targeting the JAK/STAT3 pathway, offering a compelling candidate for future clinical translation.",
+    "keywords": [
+      "JAK",
+      "metastasis",
+      "ovarian cancer",
+      "proliferation",
+      "alpha-Hederin"
+    ],
+    "mesh_terms": [
+      "Female",
+      "*STAT3 Transcription Factor/antagonists & inhibitors/metabolism",
+      "*Ovarian Neoplasms/drug therapy/metabolism",
+      "Humans",
+      "Animals",
+      "Mice",
+      "Cell Line, Tumor",
+      "*Oleanolic Acid/analogs & derivatives/pharmacology",
+      "Cell Proliferation/drug effects",
+      "*Janus Kinase 2/antagonists & inhibitors/metabolism",
+      "*Saponins/pharmacology",
+      "Janus Kinase 1/antagonists & inhibitors/metabolism",
+      "Epithelial-Mesenchymal Transition/drug effects",
+      "Antineoplastic Agents/pharmacology",
+      "Signal Transduction/drug effects",
+      "Drug Discovery"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiayu",
+        "He, Pengzhan",
+        "Liu, Cheng",
+        "Chen, Xin",
+        "Tan, Yilin",
+        "Qu, Rui",
+        "Zhang, Yan",
+        "Li, Zhou",
+        "Yin, Tailang",
+        "Yin, Zhinang"
+      ],
+      "short_names": [
+        "Wang J",
+        "He P",
+        "Liu C",
+        "Chen X",
+        "Tan Y",
+        "Qu R",
+        "Zhang Y",
+        "Li Z",
+        "Yin T",
+        "Yin Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1275-3929"
+      ],
+      "affiliations": [
+        "Department of Clinical Laboratory, Institute of Translational Medicine, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China.",
+        "Department of Geriatrics, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China.",
+        "Department of Obstetrics and Gynecology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China.",
+        "Department of Obstetrics and Gynecology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China.",
+        "Reproductive Medical Center, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China.",
+        "Reproductive Medical Center, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China.",
+        "Department of Clinical Laboratory, Institute of Translational Medicine, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China.",
+        "School of Nanoscience and Engineering, University of Chinese Academy of Sciences, Beijing, 101400, China.",
+        "Reproductive Medical Center, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China.",
+        "Department of Clinical Laboratory, Institute of Translational Medicine, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiayu",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Institute of Translational Medicine, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      },
+      {
+        "full_name": "He, Pengzhan",
+        "short_name": "He P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Cheng",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yilin",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Rui",
+        "short_name": "Qu R",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Institute of Translational Medicine, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhou",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Nanoscience and Engineering, University of Chinese Academy of Sciences, Beijing, 101400, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Tailang",
+        "short_name": "Yin T",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Zhinang",
+        "short_name": "Yin Z",
+        "identifiers": [
+          "0000-0002-1275-3929"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory, Institute of Translational Medicine, Renmin Hospital of Wuhan University, Wuhan, Hubei, 430060, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/16 12:30",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "42091883",
+      "41828851",
+      "41601649",
+      "41276938"
+    ],
+    "refs": [
+      "40166646",
+      "39913127",
+      "39265613",
+      "38971151",
+      "38572751",
+      "37660590",
+      "37653142",
+      "37499451",
+      "36732502",
+      "36297309",
+      "35979140",
+      "35753652",
+      "35545786",
+      "35513871",
+      "35196078",
+      "34715071",
+      "34330232",
+      "33574092",
+      "33545690",
+      "32572264",
+      "32543312",
+      "32444850",
+      "32300252",
+      "32112300",
+      "31791688",
+      "31711994",
+      "31419989",
+      "31186039",
+      "30896843",
+      "30367042",
+      "30363706",
+      "30035749",
+      "29740205",
+      "29477470",
+      "29405201",
+      "28399898",
+      "27698887",
+      "25646015",
+      "23416191",
+      "20694927"
+    ],
+    "similar": [
+      "40667652",
+      "29477470",
+      "40199813",
+      "25319391",
+      "31612426",
+      "35288308",
+      "40153970",
+      "38518635",
+      "39588922",
+      "41177013",
+      "39969605",
+      "17675586",
+      "41005192",
+      "25320076",
+      "31562979",
+      "38305842",
+      "17121906",
+      "18587580",
+      "28879797",
+      "26843613",
+      "24886434",
+      "32818015",
+      "25810010",
+      "30206929",
+      "27259268",
+      "25646015",
+      "21909139",
+      "28337870",
+      "24100507",
+      "32516133",
+      "30363706",
+      "28356514",
+      "33887260",
+      "24842044",
+      "20072651",
+      "24398427",
+      "34614446",
+      "39181414",
+      "39848416",
+      "22622019",
+      "18413761",
+      "28770966",
+      "34453950",
+      "41172918",
+      "40334628",
+      "40874680",
+      "38838918",
+      "21608020",
+      "41288840",
+      "40378534",
+      "32106377",
+      "31285768",
+      "25405520",
+      "31175180",
+      "34571866",
+      "39129292",
+      "31777126",
+      "32767949",
+      "30429882",
+      "26682870",
+      "37713785",
+      "32901049",
+      "31273592",
+      "29856615",
+      "40592362",
+      "19706767",
+      "33416163",
+      "18930836",
+      "29740205",
+      "23531921",
+      "40617363",
+      "26515594",
+      "21420464",
+      "28677802",
+      "27825119",
+      "33689932",
+      "39129332",
+      "40009869",
+      "27555284",
+      "32641093",
+      "38160624",
+      "35216314",
+      "37876143",
+      "31201357",
+      "22717603",
+      "39847514",
+      "24508063",
+      "35216134",
+      "25213670",
+      "25928246",
+      "30305729",
+      "31059018",
+      "28634059",
+      "34558146",
+      "21875334",
+      "33802884",
+      "30247637",
+      "29565447",
+      "41419660",
+      "34954267"
+    ],
+    "review": [
+      "40667652",
+      "38160624"
+    ],
+    "pmc": [
+      "12520566"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40667652/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

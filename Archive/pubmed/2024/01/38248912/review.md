@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose nine BERT-based models, constructed by combining three protein segmentation methods and three encoder numbers, with multi-scale convolutional networks fused for local feature extraction, to predict DNA-binding proteins. They report 81.88% sensitivity and 0.39 MCC on a test set, and 62.41% accuracy on the independent test set PDB2272, concluding the method can assist in identifying DNA-binding proteins.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline comparisons, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, model architecture details, hyperparameters, training and validation protocols, dataset composition and splits, baseline results, error analysis, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible application of BERT-based models to a well-studied bioinformatics problem, but the evidence provided is insufficient to evaluate the technical soundness, novelty, or generalizability of the proposed approach. Key methodological details and comparative benchmarks are absent, and the reported performance metrics are modest and lack context. The claim that the method can serve as a practical tool is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-binding protein identification, and applications of pre-trained language models to biological sequences. The work may also interest machine learning practitioners exploring transfer learning for sequence classification tasks.
+- **Major strengths** The use of BERT, a state-of-the-art language model, for protein sequence analysis is timely and relevant. The systematic exploration of model sizes via different encoder numbers and segmentation methods is a reasonable design choice. The fusion of multi-scale convolutional networks to capture local motifs is a sensible adaptation to the protein domain.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the larger the number of encoders, the better the model predictions" and report specific performance metrics (81.88% sensitivity, 0.39 MCC, 62.41% accuracy on PDB2272).
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on how the nine models were trained, validated, or compared. There is no information on dataset sizes, class balance, train-test splits, hyperparameter tuning, or whether the reported metrics are from a single run or averaged over multiple runs. The claim about encoder number scaling is presented without statistical significance testing or error bars.
+  - **Why it matters** Without these details, the reported performance cannot be assessed for reliability or reproducibility. The observed trend may be due to chance, overfitting, or dataset-specific artifacts rather than a genuine property of model size.
+  - **Resolution test** Provide full experimental setup, including dataset statistics, cross-validation or holdout procedures, hyperparameter ranges, and statistical comparisons across the nine models. Report confidence intervals or significance tests for the performance differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "our proposed method can be a tool to assist in the identification of DNA-binding proteins."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not compare the proposed method against existing state-of-the-art predictors for DNA-binding proteins. Without baseline comparisons, it is unclear whether the reported accuracy and MCC represent an improvement over established methods. The independent test set accuracy of 62.41% appears modest, but its significance cannot be judged without context.
+  - **Why it matters** The claim of practical utility requires demonstrating competitive or superior performance relative to existing tools. If the method underperforms known baselines, its contribution is unclear.
+  - **Resolution test** Include comparisons with at least two or three published DNA-binding protein predictors on the same datasets, with matched evaluation protocols. Discuss whether differences are statistically significant and practically meaningful.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors describe fusing "multi-scale convolutional networks" to extract local features of DNA-binding proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how the convolutional networks are integrated with BERT, what scales are used, or how the fusion affects model complexity and training. There is no ablation study showing the contribution of the convolutional component versus BERT alone.
+  - **Why it matters** The proposed architectural contribution is central to the method, but its necessity and effectiveness are not demonstrated. Without ablation, the reader cannot determine whether the convolutional fusion adds value or merely increases complexity.
+  - **Resolution test** Provide a detailed architecture description and an ablation study comparing BERT-only, CNN-only, and fused models on the same datasets. Report metrics for each configuration.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "using three protein segmentation methods and three encoder numbers" is vague. It is unclear what "segmentation methods" refer to in the context of protein sequences.
+  - **Required correction** Clarify the segmentation methods (e.g., k-mer, sliding window, or residue-level tokenization) and define encoder numbers explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The independent test set PDB2272 is mentioned, but its composition, source, and relationship to the training data are not described.
+  - **Required correction** Provide a brief description of PDB2272, including how it was constructed and whether it shares sequence similarity with the training set.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Metric selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports sensitivity and MCC but does not mention specificity, precision, or F1-score, which are commonly used for imbalanced protein classification tasks.
+  - **Required correction** Report a fuller set of metrics, including specificity and F1-score, to allow a balanced assessment of model performance.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of experimental detail, baseline comparisons, and ablation studies prevents evaluation of the core claims.
+- **Assessment against Nature-style criteria** Originality: The application of BERT to DNA-binding protein prediction is not novel in itself, as similar approaches have been explored for other protein function tasks; the specific combination with multi-scale CNNs may offer incremental novelty, but this is not demonstrated. Scientific importance: DNA-binding protein identification is a relevant problem, but the modest reported metrics and lack of comparison to state-of-the-art limit the perceived impact. Interdisciplinary readership: The work may appeal to computational biologists and machine learning researchers, but the abstract is too sparse to engage a broader audience. Technical soundness: Not assessable from the abstract; critical details are missing. Readability for nonspecialists: The abstract is understandable at a high level but lacks sufficient context and definitions for clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support the claims of predictive utility or architectural benefit. A full manuscript with detailed methods, baselines, and ablations would be required to assess the work fairly.
+
+## Risk / unsupported claims
+- The claim that "the larger the number of encoders, the better the model predictions" is unsupported without statistical analysis or error reporting.
+- The claim that the method "can be a tool to assist in the identification of DNA-binding proteins" is unsupported without baseline comparisons and external validation.
+- The reported performance metrics (81.88% sensitivity, 0.39 MCC, 62.41% accuracy) are unverifiable without dataset and protocol details.
+- The contribution of the multi-scale convolutional fusion is unsubstantiated without an ablation study.

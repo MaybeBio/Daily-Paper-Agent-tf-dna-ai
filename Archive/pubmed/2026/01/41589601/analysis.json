@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41589601",
+  "title": "DualPG-DTA: A Large Language Model-Powered Graph Neural Network Framework for Enhanced Drug-Target Affinity Prediction and Discovery of Novel CDK9 Inhibitors Exhibiting In Vivo Anti-Leukemia Activity.",
+  "authors": "Chen, Yihao; Huang, Jindi; Liu, Cong; Zhang, Shipeng; Li, Xinze; Zhang, Zhang; Chen, Tie-Gen; Wang, Ling",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-01-27",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用大语言模型和图神经网络预测药物-靶点结合亲和力并发现CDK9抑制剂，虽涉及蛋白-配体互作建模，但对象为药物-激酶而非蛋白质-DNA互作，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Accurate prediction of drug-target interactions constitutes a crucial foundation for drug discovery. DualPG-DTA is presented, a general framework for binding affinity prediction that integrates two pre-trained language models to generate atomic-level molecular representations and residue-level protein embeddings. The architecture constructs dual molecular-protein graphs processed through dedicated graph neural networks equipped with dynamic attention mechanisms to extract context-aware sequence-level features, which are fused via a multimodal module for affinity predictions. Benchmark results show that DualPG-DTA consistently outperforms existing models across all metrics. Applied to CDK9 inhibitor discovery, the framework is used to develop robust regression/classification models and identified compound C1 as a novel CDK9 inhibitor with an IC(50) of 1.2 nM. C1 demonstrates exceptional CDK family selectivity alongside optimal pharmacokinetic properties, including prolonged half-life, adequate clearance, robust plasma exposure, and oral bioavailability. Notably, oral C1 demonstrated potent antitumor efficacy in a Venetoclax-resistant MV4-11 acute myeloid leukemia (AML) xenograft model, with concurrent demonstration of favorable tolerability and safety profiles. Collectively, the study not only establishes a unified framework for precise binding affinity prediction but also identifies C1 as a highly promising therapeutic lead targeting CDK9 to conquer Venetoclax resistance in AML.",
+  "abstract_zh": "药物-靶点相互作用的准确预测是药物发现的关键基础。本文提出了DualPG-DTA，一个用于结合亲和力预测的通用框架，该框架整合了两个预训练语言模型，以生成原子级分子表示和残基级蛋白质嵌入。该架构构建了双分子-蛋白质图，通过配备动态注意力机制的专用图神经网络进行处理，以提取上下文感知的序列级特征，并通过多模态模块融合以进行亲和力预测。基准测试结果表明，DualPG-DTA在所有指标上均持续优于现有模型。应用于CDK9抑制剂发现时，该框架被用于开发稳健的回归/分类模型，并鉴定出化合物C1作为一种新型CDK9抑制剂，其IC(50)为1.2 nM。C1表现出卓越的CDK家族选择性以及最佳的药代动力学特性，包括长半衰期、适当的清除率、稳健的血浆暴露和口服生物利用度。值得注意的是，在Venetoclax耐药的MV4-11急性髓系白血病（AML）异种移植模型中，口服C1显示出强效的抗肿瘤疗效，同时表现出良好的耐受性和安全性。总体而言，该研究不仅为精确结合亲和力预测建立了统一框架，还鉴定出C1作为靶向CDK9以克服AML中Venetoclax耐药性的极具前景的治疗先导化合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41589601/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41589601/",
+  "paper_page_path": "papers/pubmed/41589601/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38652750",
+  "title": "Organ-delimited gene regulatory networks provide high accuracy in candidate transcription factor selection across diverse processes.",
+  "authors": "Ranjan, Rajeev; Srijan, Sonali; Balekuttira, Somaiah; Agarwal, Tina; Ramey, Melissa; Dobbins, Madison; Kuhn, Rachel; Wang, Xiaojin; Hudson, Karen; Li, Ying; Varala, Kranthi",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-04-23",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过监督分类构建器官限定基因调控网络预测转录因子，但仅基于表达数据推断调控关系，缺乏蛋白-DNA互作建模或AI/物理模拟方法，与TF-DNA结合机制研究关联较弱。",
+  "abstract": "Organ-specific gene expression datasets that include hundreds to thousands of experiments allow the reconstruction of organ-level gene regulatory networks (GRNs). However, creating such datasets is greatly hampered by the requirements of extensive and tedious manual curation. Here, we trained a supervised classification model that can accurately classify the organ-of-origin for a plant transcriptome. This K-Nearest Neighbor-based multiclass classifier was used to create organ-specific gene expression datasets for the leaf, root, shoot, flower, and seed in Arabidopsis thaliana. A GRN inference approach was used to determine the: i. influential transcription factors (TFs) in each organ and, ii. most influential TFs for specific biological processes in that organ. These genome-wide, organ-delimited GRNs (OD-GRNs), recalled many known regulators of organ development and processes operating in those organs. Importantly, many previously unknown TF regulators were uncovered as potential regulators of these processes. As a proof-of-concept, we focused on experimentally validating the predicted TF regulators of lipid biosynthesis in seeds, an important food and biofuel trait. Of the top 20 predicted TFs, eight are known regulators of seed oil content, e.g., WRI1, LEC1, FUS3. Importantly, we validated our prediction of MybS2, TGA4, SPL12, AGL18, and DiV2 as regulators of seed lipid biosynthesis. We elucidated the molecular mechanism of MybS2 and show that it induces purple acid phosphatase family genes and lipid synthesis genes to enhance seed lipid content. This general approach has the potential to be extended to any species with sufficiently large gene expression datasets to find unique regulators of any trait-of-interest.",
+  "abstract_zh": "包含数百至数千个实验的器官特异性基因表达数据集，使得重建器官级基因调控网络（GRNs）成为可能。然而，创建此类数据集受到大量繁琐人工注释需求的严重阻碍。在此，我们训练了一个监督分类模型，能够准确分类植物转录组的器官来源。该基于K近邻的多类分类器被用于创建拟南芥（Arabidopsis thaliana）叶片、根、茎、花和种子中的器官特异性基因表达数据集。采用一种GRN推断方法来确定：i. 每个器官中有影响力的转录因子（TFs），以及ii. 该器官中特定生物过程中最具影响力的转录因子。这些全基因组、器官限定性GRNs（OD-GRNs）回顾了许多已知的器官发育及在这些器官中运作过程的调控因子。重要的是，许多先前未知的转录因子调控因子被揭示为这些过程的潜在调控因子。作为概念验证，我们专注于实验验证预测的种子脂质生物合成（一个重要的食品和生物燃料性状）转录因子调控因子。在预测的前20个转录因子中，有8个是已知的种子油含量调控因子，例如WRI1、LEC1、FUS3。重要的是，我们验证了MybS2、TGA4、SPL12、AGL18和DiV2作为种子脂质生物合成调控因子的预测。我们阐明了MybS2的分子机制，并显示其诱导紫色酸性磷酸酶家族基因和脂质合成基因以增强种子脂质含量。这种通用方法有潜力扩展到任何具有足够大基因表达数据集的物种，以发现任何感兴趣性状的独特调控因子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38652750/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38652750/",
+  "paper_page_path": "papers/pubmed/38652750/index.html"
+}

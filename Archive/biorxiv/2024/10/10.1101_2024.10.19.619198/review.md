@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no figures, tables, or methods sections were provided
+- **Shared manuscript claim summary** The authors report that the intrinsically disordered transactivation domain of N-MYC binds directly to the DNA-binding domain of TFIIIC5, a subunit of the TFIIIC complex. Two N-MYC motifs mediate this interaction, one of which is predicted by AlphaFold to overlap with an intramolecular acidic plug in TFIIIC5. Removal of this plug enhances N-MYC binding. The same N-MYC motifs also bind Aurora-A kinase, which competes with N-MYC for TFIIIC binding during S-phase. The authors propose a model whereby this interaction underpins the mutual censoring function of N-MYC and TFIIIC.
+- **Visible evidence base** Abstract text only; methods referenced include NMR, HDX mass spectrometry, pull-downs, and biophysical assays, but no data are shown
+- **Missing materials affecting confidence** Full manuscript, all figures, experimental protocols, statistical analyses, AlphaFold modelling details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic finding that could clarify how N-MYC and TFIIIC mutually regulate chromatin association. The identification of two N-MYC motifs binding to the DNA-binding surface of TFIIIC5, with a plausible competitive relationship involving Aurora-A kinase, is conceptually appealing. However, the abstract alone provides insufficient detail to evaluate the robustness of the structural, biophysical, and functional evidence. Several claims, particularly those involving AlphaFold predictions and the functional consequences of the interaction, cannot be assessed without the underlying data.
+- **Who would be interested in the results, and why** Researchers studying MYC family oncoproteins, transcription factor regulation, RNA Polymerase III biology, and intrinsically disordered protein interactions. The potential link to Aurora-A kinase and cell-cycle-dependent regulation may also interest cancer biologists focused on therapeutic targeting of MYC-driven tumours.
+- **Major strengths** The study addresses a specific and under-explored interaction between an oncogenic transcription factor and a core Pol III assembly factor. The use of multiple orthogonal biophysical methods is appropriate for characterising a disordered protein interaction. The proposed competition model between N-MYC, TFIIIC5, and Aurora-A provides a testable framework for understanding cell-cycle-dependent regulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that two sequences in the N-MYC transactivation domain bind to the DNA-binding interface of TFIIIC5.
+  - **Evidence pointer** Abstract; methods referenced as NMR, HDX mass spectrometry, pull-downs, and biophysical assays; location not provided
+  - **Concern** The abstract states that two N-MYC motifs bind to the DNA-binding domain of TFIIIC5, but no quantitative binding data, residue-level mapping, or affinity measurements are presented. It is unclear whether both motifs bind simultaneously or independently, and whether the binding is cooperative.
+  - **Why it matters** The central mechanistic claim of the paper rests on the identification and characterisation of these two binding motifs. Without quantitative or structural evidence, the reader cannot judge whether the interaction is specific, physiologically relevant, or sufficiently strong to compete with other binding partners.
+  - **Resolution test** Provide binding affinities for each motif individually and in combination, residue-level chemical shift perturbations or HDX protection data, and a clear demonstration that the binding interface overlaps with the DNA-binding surface of TFIIIC5.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** AlphaFold modelling predicts a high-confidence binding mode for the higher affinity N-MYC motif that overlaps with the predicted intramolecular binding site of the C-terminal acidic plug of TFIIIC5, and removal of this plug enhances N-MYC binding.
+  - **Evidence pointer** Abstract; AlphaFold modelling referenced; location not provided
+  - **Concern** The abstract relies on AlphaFold predictions to propose a binding mode and a regulatory mechanism involving an acidic plug. While the enhancement of binding upon plug removal is mentioned, no experimental validation of the predicted binding mode is described. AlphaFold predictions of protein-protein interfaces involving disordered regions are often unreliable and require experimental confirmation.
+  - **Why it matters** The proposed model depends on the accuracy of the AlphaFold prediction. If the predicted interface is incorrect, the mechanistic interpretation of the acidic plug and its regulatory role would be unsupported.
+  - **Resolution test** Provide experimental validation of the predicted interface, such as mutagenesis of predicted contact residues, crosslinking mass spectrometry, or NMR-based structural restraints. Show that the acidic plug removal phenotype is consistent with the predicted competition model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The same two motifs in N-MYC also interact with Aurora-A kinase, which competes with N-MYC for TFIIIC binding during S-phase.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of competition between Aurora-A and TFIIIC5 for N-MYC binding is stated without supporting data. No evidence is presented for the timing of this competition during S-phase, the relative affinities of the two interactions, or the functional consequences of this competition in cells.
+  - **Why it matters** The proposed cell-cycle-dependent regulation is a key aspect of the model. Without experimental evidence, this claim remains speculative and cannot be distinguished from a simple in vitro observation.
+  - **Resolution test** Provide competition assays with purified proteins, cellular experiments showing cell-cycle-dependent changes in complex formation, and functional readouts of the mutual censoring mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "mutual censoring function" is used without definition or prior context. It is unclear whether this refers to transcriptional quality control, chromatin occupancy restriction, or another mechanism.
+  - **Required correction** Define the term explicitly when first used, or replace it with a more standard description of the proposed regulatory mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Graphical abstract
+  - **Evidence pointer** Abstract; graphical abstract referenced
+  - **Issue** The graphical abstract is mentioned but not described. It is unclear what information it conveys and whether it accurately represents the proposed model.
+  - **Required correction** Provide a brief description of the graphical abstract in the text, or ensure it is self-explanatory when the full manuscript is reviewed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "structural studies by others show that DNA binding of τA is largely mediated by TFIIIC3," but does not cite the specific studies or explain how this relates to the current finding that TFIIIC5 also binds DNA.
+  - **Required correction** Add appropriate citations and clarify whether the current finding revises or complements the prior structural model.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative, structural, or functional evidence to establish the central claims. The AlphaFold-based model requires experimental validation, and the proposed competition with Aurora-A needs direct evidence.
+- **Assessment against Nature-style criteria** Originality: The study addresses a novel interaction between N-MYC and TFIIIC5, which is not widely explored. Scientific importance: The potential link between MYC oncoproteins and Pol III transcription is of interest, but the broader significance depends on the functional validation. Interdisciplinary readership: The topic may appeal to structural biologists, cancer researchers, and transcription specialists, but the abstract is too specialised for a broad audience. Technical soundness: The methods listed are appropriate, but the abstract does not demonstrate that they were applied rigorously. Readability for nonspecialists: The abstract assumes familiarity with MYC biology, TFIIIC, and structural methods, and is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible model, but the absence of quantitative data, experimental validation of the predicted interface, and functional evidence for competition prevents a supportive recommendation. The authors should provide the full manuscript and address the major concerns before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim that two N-MYC motifs bind to the DNA-binding interface of TFIIIC5 is unsupported without quantitative or residue-level data.
+- The AlphaFold-predicted binding mode and its overlap with the acidic plug is unvalidated and should be treated as speculative.
+- The claim that Aurora-A competes with N-MYC for TFIIIC binding during S-phase is unsupported by any experimental evidence in the abstract.
+- The functional significance of the interaction for "mutual censoring" is asserted but not demonstrated.

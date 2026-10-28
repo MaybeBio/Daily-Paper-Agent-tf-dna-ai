@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "37821494",
+    "doi": "10.1038/s41598-023-44005-w",
+    "title": "Large-scale genomic analyses with machine learning uncover predictive patterns associated with fungal phytopathogenic lifestyles and traits."
+  },
+  "content": {
+    "abstract": "Invasive plant pathogenic fungi have a global impact, with devastating economic and environmental effects on crops and forests. Biosurveillance, a critical component of threat mitigation, requires risk prediction based on fungal lifestyles and traits. Recent studies have revealed distinct genomic patterns associated with specific groups of plant pathogenic fungi. We sought to establish whether these phytopathogenic genomic patterns hold across diverse taxonomic and ecological groups from the Ascomycota and Basidiomycota, and furthermore, if those patterns can be used in a predictive capacity for biosurveillance. Using a supervised machine learning approach that integrates phylogenetic and genomic data, we analyzed 387 fungal genomes to test a proof-of-concept for the use of genomic signatures in predicting fungal phytopathogenic lifestyles and traits during biosurveillance activities. Our machine learning feature sets were derived from genome annotation data of carbohydrate-active enzymes (CAZymes), peptidases, secondary metabolite clusters (SMCs), transporters, and transcription factors. We found that machine learning could successfully predict fungal lifestyles and traits across taxonomic groups, with the best predictive performance coming from feature sets comprising CAZyme, peptidase, and SMC data. While phylogeny was an important component in most predictions, the inclusion of genomic data improved prediction performance for every lifestyle and trait tested. Plant pathogenicity was one of the best-predicted traits, showing the promise of predictive genomics for biosurveillance applications. Furthermore, our machine learning approach revealed expansions in the number of genes from specific CAZyme and peptidase families in the genomes of plant pathogens compared to non-phytopathogenic genomes (saprotrophs, endo- and ectomycorrhizal fungi). Such genomic feature profiles give insight into the evolution of fungal phytopathogenicity and could be useful to predict the risks of unknown fungi in future biosurveillance activities.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Phylogeny",
+      "*Genome, Fungal/genetics",
+      "*Ascomycota/genetics",
+      "Genomics",
+      "Peptide Hydrolases/genetics",
+      "Life Style",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dort, E N",
+        "Layne, E",
+        "Feau, N",
+        "Butyaev, A",
+        "Henrissat, B",
+        "Martin, F M",
+        "Haridas, S",
+        "Salamov, A",
+        "Grigoriev, I V",
+        "Blanchette, M",
+        "Hamelin, R C"
+      ],
+      "short_names": [
+        "Dort EN",
+        "Layne E",
+        "Feau N",
+        "Butyaev A",
+        "Henrissat B",
+        "Martin FM",
+        "Haridas S",
+        "Salamov A",
+        "Grigoriev IV",
+        "Blanchette M",
+        "Hamelin RC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Forest and Conservation Sciences, Faculty of Forestry, University of British Columbia, Vancouver, BC, Canada.",
+        "School of Computer Science, McGill University, Montreal, QC, Canada.",
+        "Pacific Forestry Centre, Canadian Forest Service, Natural Resources Canada, Victoria, BC, Canada.",
+        "School of Computer Science, McGill University, Montreal, QC, Canada.",
+        "Department of Biotechnology and Biomedicine (DTU Bioengineering), Technical University of Denmark, 2800, Kgs. Lyngby, Denmark.",
+        "Department of Biological Sciences, King Abdulaziz University, Jeddah, Saudi Arabia.",
+        "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement, Unite Mixte de Recherche Interactions Arbres/Microorganismes, Centre INRAE, Grand Est-Nancy, Universite de Lorraine, Champenoux, France.",
+        "Lawrence Berkeley National Laboratory, U.S. Department of Energy Joint Genome Institute, Berkeley, CA, USA.",
+        "Lawrence Berkeley National Laboratory, U.S. Department of Energy Joint Genome Institute, Berkeley, CA, USA.",
+        "Lawrence Berkeley National Laboratory, U.S. Department of Energy Joint Genome Institute, Berkeley, CA, USA.",
+        "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA, USA.",
+        "School of Computer Science, McGill University, Montreal, QC, Canada.",
+        "Department of Forest and Conservation Sciences, Faculty of Forestry, University of British Columbia, Vancouver, BC, Canada. richard.hamelin@ubc.ca.",
+        "Institut de Biologie Integrative et des Systemes (IBIS), Universite Laval, Quebec, QC, Canada. richard.hamelin@ubc.ca.",
+        "Departement des Sciences du bois et de la Foret, Faculte de Foresterie et Geographie, Universite Laval, Quebec, QC, Canada. richard.hamelin@ubc.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dort, E N",
+        "short_name": "Dort EN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forest and Conservation Sciences, Faculty of Forestry, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Layne, E",
+        "short_name": "Layne E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Feau, N",
+        "short_name": "Feau N",
+        "identifiers": [],
+        "affiliations": [
+          "Pacific Forestry Centre, Canadian Forest Service, Natural Resources Canada, Victoria, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Butyaev, A",
+        "short_name": "Butyaev A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Henrissat, B",
+        "short_name": "Henrissat B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine (DTU Bioengineering), Technical University of Denmark, 2800, Kgs. Lyngby, Denmark.",
+          "Department of Biological Sciences, King Abdulaziz University, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Martin, F M",
+        "short_name": "Martin FM",
+        "identifiers": [],
+        "affiliations": [
+          "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement, Unité Mixte de Recherche Interactions Arbres/Microorganismes, Centre INRAE, Grand Est-Nancy, Université de Lorraine, Champenoux, France."
+        ]
+      },
+      {
+        "full_name": "Haridas, S",
+        "short_name": "Haridas S",
+        "identifiers": [],
+        "affiliations": [
+          "Lawrence Berkeley National Laboratory, U.S. Department of Energy Joint Genome Institute, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Salamov, A",
+        "short_name": "Salamov A",
+        "identifiers": [],
+        "affiliations": [
+          "Lawrence Berkeley National Laboratory, U.S. Department of Energy Joint Genome Institute, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Grigoriev, I V",
+        "short_name": "Grigoriev IV",
+        "identifiers": [],
+        "affiliations": [
+          "Lawrence Berkeley National Laboratory, U.S. Department of Energy Joint Genome Institute, Berkeley, CA, USA.",
+          "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Blanchette, M",
+        "short_name": "Blanchette M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Hamelin, R C",
+        "short_name": "Hamelin RC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forest and Conservation Sciences, Faculty of Forestry, University of British Columbia, Vancouver, BC, Canada. richard.hamelin@ubc.ca.",
+          "Institut de Biologie Intégrative et des Systèmes (IBIS), Université Laval, Québec, QC, Canada. richard.hamelin@ubc.ca.",
+          "Département des Sciences du bois et de la Forêt, Faculté de Foresterie et Géographie, Université Laval, Québec, QC, Canada. richard.hamelin@ubc.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Oct 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/12 00:43",
+    "fetched_at": "2026-09-29 08:36:35"
+  },
+  "links": {
+    "cites": [
+      "42656278",
+      "42554767",
+      "42508025",
+      "42487709",
+      "41401080",
+      "40831189",
+      "40643763",
+      "40592811",
+      "40588585",
+      "40510372",
+      "40211926",
+      "39236046"
+    ],
+    "refs": [
+      "34850161",
+      "34718728",
+      "34627148",
+      "33538395",
+      "33381838",
+      "33046698",
+      "32593207",
+      "32206138",
+      "32128282",
+      "32038539",
+      "31892946",
+      "31878885",
+      "31598706",
+      "31257601",
+      "29679020",
+      "29368587",
+      "29123226",
+      "29035372",
+      "29020037",
+      "28831173",
+      "28744865",
+      "27482626",
+      "27274525",
+      "27189990",
+      "27149511",
+      "26962006",
+      "26643441",
+      "26553804",
+      "26293956",
+      "26293952",
+      "26057089",
+      "25923844",
+      "25725000",
+      "25711813",
+      "25706625",
+      "25001456",
+      "24875794",
+      "24297253",
+      "24124466",
+      "23617724",
+      "23236275",
+      "22498624",
+      "21324176",
+      "20598545",
+      "20585331",
+      "20572997",
+      "20565602",
+      "19853057",
+      "19616468",
+      "19566942",
+      "19377059",
+      "18971341",
+      "18454138",
+      "18400936",
+      "17486961",
+      "17108957",
+      "16776296",
+      "16701319",
+      "16696646",
+      "15654623",
+      "12239359",
+      "12136088",
+      "10875331",
+      "10873849",
+      "10742046",
+      "9721685"
+    ],
+    "similar": [
+      "37821494",
+      "20960971",
+      "33055257",
+      "32198418",
+      "35484861",
+      "31138126",
+      "24422981",
+      "39312572",
+      "32039703",
+      "34996360",
+      "27527502",
+      "26314305",
+      "33941694",
+      "37178007",
+      "26531059",
+      "39113397",
+      "33925458",
+      "21354463",
+      "31209237",
+      "32066798",
+      "20348908",
+      "32687285",
+      "17868481",
+      "34634440",
+      "33148650",
+      "25068644",
+      "26607873",
+      "28860010",
+      "31273397",
+      "29788921",
+      "27875982",
+      "28820125",
+      "29315638",
+      "34348651",
+      "19566942",
+      "35311955",
+      "34908505",
+      "37166358",
+      "26643441",
+      "39330392",
+      "25159997",
+      "28215351",
+      "24594576",
+      "37843883",
+      "24587291",
+      "35240994",
+      "35750715",
+      "31277573",
+      "30582650",
+      "39266695",
+      "19914250",
+      "30445903",
+      "29368587",
+      "32720872",
+      "26137988",
+      "31712259",
+      "32843552",
+      "18614392",
+      "36675823",
+      "31289177",
+      "34372938",
+      "21247460",
+      "31878885",
+      "27071652",
+      "17121679",
+      "18593478",
+      "24564786",
+      "29343217",
+      "16704358",
+      "39127740",
+      "26693682",
+      "26581579",
+      "32765832",
+      "22885923",
+      "33799907",
+      "23166747",
+      "21964414",
+      "23252678",
+      "37820761",
+      "32326892",
+      "30449358",
+      "33046698",
+      "31898475",
+      "32206138",
+      "34022339",
+      "36610744",
+      "29463214",
+      "35164570",
+      "23035824",
+      "29771380",
+      "37745407",
+      "28074220",
+      "18954438",
+      "36747072",
+      "32849784",
+      "35050007",
+      "36423639",
+      "28824836",
+      "39231989",
+      "37746130",
+      "39295298",
+      "35508719",
+      "31998249",
+      "29315395",
+      "37372094",
+      "32765975",
+      "38185709",
+      "29492338",
+      "35996588",
+      "38109236",
+      "38004767",
+      "33209211",
+      "38570504",
+      "39005379"
+    ],
+    "review": [
+      "37821494",
+      "19914250",
+      "18614392",
+      "16704358",
+      "32765832",
+      "28074220",
+      "37746130",
+      "39295298",
+      "35508719",
+      "37372094",
+      "32765975"
+    ],
+    "pmc": [
+      "10567782"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-44005-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37821494/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37821494",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt04g8v45s",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

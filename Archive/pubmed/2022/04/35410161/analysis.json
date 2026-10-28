@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35410161",
+  "title": "Neural network modeling of differential binding between wild-type and mutant CTCF reveals putative binding preferences for zinc fingers 1-2.",
+  "authors": "Kaplow, Irene M; Banerjee, Abhimanyu; Foo, Chuan Sheng",
+  "journal": "BMC genomics",
+  "published_date": "2022-04-13",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用深度卷积神经网络建模野生型与突变型CTCF的ChIP-seq差异，解析CTCF锌指1-2的DNA结合偏好，核心聚焦TF-DNA互作且方法为AI建模，高度匹配本课题。",
+  "abstract": "BACKGROUND: Many transcription factors (TFs), such as multi zinc-finger (ZF) TFs, have multiple DNA binding domains (DBDs), and deciphering the DNA binding motifs of individual DBDs is a major challenge. One example of such a TF is CCCTC-binding factor (CTCF), a TF with eleven ZFs that plays a variety of roles in transcriptional regulation, most notably anchoring DNA loops. Previous studies found that CTCF ZFs 3-7 bind CTCF's core motif and ZFs 9-11 bind a specific upstream motif, but the motifs of ZFs 1-2 have yet to be identified. RESULTS: We developed a new approach to identifying the binding motifs of individual DBDs of a TF through analyzing chromatin immunoprecipitation sequencing (ChIP-seq) experiments in which a single DBD is mutated: we train a deep convolutional neural network to predict whether wild-type TF binding sites are preserved in the mutant TF dataset and interpret the model. We applied this approach to mouse CTCF ChIP-seq data and identified the known binding preferences of CTCF ZFs 3-11 as well as a putative GAG binding motif for ZF 1. We analyzed other CTCF datasets to provide additional evidence that ZF 1 is associated with binding at the motif we identified, and we found that the presence of the motif for ZF 1 is associated with CTCF ChIP-seq peak strength. CONCLUSIONS: Our approach can be applied to any TF for which in vivo binding data from both the wild-type and mutated versions of the TF are available, and our findings provide new potential insights binding preferences of CTCF's DBDs.",
+  "abstract_zh": "背景：许多转录因子（TFs），如多锌指（ZF）转录因子，具有多个DNA结合域（DBDs），而解析单个DBD的DNA结合基序是一项重大挑战。此类TF的一个例子是CCCTC结合因子（CTCF），这是一种具有十一个锌指的TF，在转录调控中发挥多种作用，最显著的是锚定DNA环。先前研究发现，CTCF的锌指3-7结合CTCF的核心基序，锌指9-11结合特定的上游基序，但锌指1-2的基序尚未被鉴定。结果：我们开发了一种新方法，通过分析单个DBD被突变的染色质免疫沉淀测序（ChIP-seq）实验来识别TF单个DBD的结合基序：我们训练一个深度卷积神经网络，以预测野生型TF结合位点是否在突变体TF数据集中保留，并解释该模型。我们将此方法应用于小鼠CTCF ChIP-seq数据，识别了CTCF锌指3-11的已知结合偏好，以及锌指1的一个推定GAG结合基序。我们分析了其他CTCF数据集，以提供额外证据表明锌指1与我们识别的基序结合相关，并发现锌指1基序的存在与CTCF ChIP-seq峰强度相关。结论：我们的方法可应用于任何具有野生型和突变型TF体内结合数据的TF，我们的发现为CTCF的DBD结合偏好提供了新的潜在见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35410161/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35410161/",
+  "paper_page_path": "papers/pubmed/35410161/index.html"
+}

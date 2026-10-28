@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40461634",
+    "doi": "10.1038/s41598-025-04679-w",
+    "title": "Identify the co-expressed genes of hypertensive nephropathy and diabetic nephropathy."
+  },
+  "content": {
+    "abstract": "This study focused on the intricate connections between hypertension nephropathy (HN) and diabetic nephropathy (DN) in terms of molecular and pathological mechanisms. The samples were from the Gene Expression Omnibus (GEO) database. GSE37460 and GSE142153 are training sets, and GSE37455 and GSE30529 are validation sets. We found 42 shared differentially expressed genes (DEGs) by means of the differential analysis. The GO/KEGG and GSEA analysis mainly highlights the signal transduction pathways related to the proteasome and cytokines. The eight hub genes identified through the Protein-Protein Interaction (PPI) network analysis include NR4A1, TNFSF10, CX3CR1, EGF, THBD, CXCR4, CCL5, and ATF3. Single-cell sequencing analysis revealed that TNFSF10 and NR4A1 were the most highly expressed in the cells of both HN and DN. Furthermore, five significant microRNAs identified include hsa-miR-1248, hsa-miR-200b-5p, hsa-miR-23b-5p, hsa-miR-3059-5p, and hsa-miR-3065-3p. Six essential transcription factors (TFs) (NFIL3, STAT3, NFKB1, USF1, USF2, and EGR1), 11 important drug chemicals (Cisplatin, Cyclosporine, perfluorooctanoic acid, Quercetin, Tretinoin, bisphenol A, Curcumin, Valproic Acid, Particulate Matter, Simvastatin, and Cadmium), seven related diseases (Atherosclerosis, Glioblastoma, Pulmonary Fibrosis, Asthma, Hepatitis B, Hepatitis C, and Diabetes Mellitus), and ten important RNA-binding proteins (RBPs) (CHTOP, EIF4E, HNRNPK, IGF2BP3, YTHDF3, HNRNPA2B1, RBM47, YBX1, RBFOX2, and RBM10). Finally, molecular docking simulations suggest that Tretinoin and Curcumin may have potential therapeutic value for both HN and DN. This study provides novel therapeutic targets for the combined diagnosis and treatment of HN and DN.",
+    "keywords": [
+      "Common differentially expressed genes",
+      "Diabetic nephropathy",
+      "Hypertension nephropathy",
+      "Protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetic Nephropathies/genetics/metabolism",
+      "Protein Interaction Maps/genetics",
+      "Gene Regulatory Networks",
+      "*Hypertension, Renal/genetics/metabolism",
+      "MicroRNAs/genetics",
+      "*Nephritis/genetics/metabolism",
+      "*Gene Expression Regulation",
+      "Gene Expression Profiling",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yanmin",
+        "Wang, Yiming",
+        "Jin, Jing",
+        "Ma, Bing"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Wang Y",
+        "Jin J",
+        "Ma B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2802-8000"
+      ],
+      "affiliations": [
+        "Institute of Statistics and Applied Mathematics, Anhui University of Finance and Economics, Bengbu, China.",
+        "Institute of Statistics and Applied Mathematics, Anhui University of Finance and Economics, Bengbu, China. 3202300266@aufe.edu.cn.",
+        "School of Accountancy, Anhui University of Finance and Economics, Bengbu, China.",
+        "Bengbu Third People's Hospital attached to Bengbu Medical University, Bengbu, China. 15980205163@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yanmin",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-2802-8000"
+        ],
+        "affiliations": [
+          "Institute of Statistics and Applied Mathematics, Anhui University of Finance and Economics, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yiming",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Statistics and Applied Mathematics, Anhui University of Finance and Economics, Bengbu, China. 3202300266@aufe.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jin, Jing",
+        "short_name": "Jin J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Accountancy, Anhui University of Finance and Economics, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Bing",
+        "short_name": "Ma B",
+        "identifiers": [],
+        "affiliations": [
+          "Bengbu Third People's Hospital attached to Bengbu Medical University, Bengbu, China. 15980205163@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jun 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/04 00:29",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42041569",
+      "41961164",
+      "41924281",
+      "41378358"
+    ],
+    "refs": [
+      "39010981",
+      "38856136",
+      "38690919",
+      "38465879",
+      "37007029",
+      "35742943",
+      "35442545",
+      "34899954",
+      "34831368",
+      "34601960",
+      "34584221",
+      "34356656",
+      "34299173",
+      "33597522",
+      "33524787",
+      "32365893",
+      "32104033",
+      "31942046",
+      "30549040",
+      "30476243",
+      "30081966",
+      "30077998",
+      "30061162",
+      "29914215",
+      "29867533",
+      "29704920",
+      "29459239",
+      "29446734",
+      "28396119",
+      "27899891",
+      "27558173",
+      "27296998",
+      "26973290",
+      "26894033",
+      "26839366",
+      "26453295",
+      "26222851",
+      "25867923",
+      "25521941",
+      "25428369",
+      "24722447",
+      "24608443",
+      "21543418",
+      "21466619",
+      "21228783",
+      "21224028",
+      "21149340",
+      "19505885",
+      "19470881",
+      "18622245",
+      "17475822",
+      "16952978",
+      "12525261",
+      "10616852",
+      "10592173",
+      "8151262",
+      "4522177",
+      "2426343",
+      "1621807"
+    ],
+    "similar": [
+      "40461634",
+      "27756246",
+      "36154667",
+      "31356112",
+      "40032896",
+      "35909518",
+      "39444490",
+      "38764052",
+      "29532746",
+      "38374020",
+      "34215202",
+      "30865617",
+      "35119030",
+      "36755923",
+      "32778679",
+      "38601162",
+      "34190177",
+      "38774257",
+      "37250717",
+      "38925954",
+      "40374840",
+      "34735495",
+      "33407587",
+      "38851464",
+      "33435900",
+      "26986014",
+      "32299382",
+      "36681521",
+      "34041839",
+      "40312440",
+      "36896170",
+      "33634308",
+      "39080630",
+      "36329882",
+      "33237828",
+      "36104591",
+      "40068024",
+      "38206700",
+      "39526504",
+      "39953123",
+      "38053423",
+      "39080525",
+      "31989994",
+      "34867824",
+      "29128636",
+      "32714975",
+      "34124269",
+      "33176720",
+      "40467639",
+      "30078220",
+      "39116715",
+      "35313857",
+      "38839916",
+      "38891851",
+      "34235224",
+      "27613243",
+      "37113991",
+      "27279428",
+      "36627452",
+      "29032608",
+      "34087084",
+      "39028999",
+      "30019103",
+      "40046619",
+      "28952134",
+      "36483920",
+      "34525985",
+      "31277135",
+      "35285770",
+      "32714978",
+      "37986381",
+      "34861820",
+      "36647068",
+      "34790229",
+      "31914881",
+      "36319098",
+      "39268370",
+      "39456069",
+      "29361146",
+      "33444721",
+      "40195568",
+      "30988245",
+      "35702773",
+      "40374744",
+      "39786889",
+      "32685522",
+      "33457239",
+      "32888289",
+      "39265357",
+      "38379386",
+      "32435051",
+      "39955676",
+      "37916327",
+      "34530741",
+      "34313877",
+      "28077323",
+      "39378654",
+      "39820173",
+      "36187128",
+      "25918880"
+    ],
+    "review": [
+      "40461634",
+      "35119030",
+      "36681521",
+      "30019103",
+      "38379386"
+    ],
+    "pmc": [
+      "12134351"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-04679-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40461634/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3743",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "42402174",
+    "doi": "10.1096/fj.202601080RR",
+    "title": "Shared Genetic Risk Between Acute Pancreatitis and Metabolic Syndrome Converges on a BCAT1-Positive Fibroblast Subpopulation and MAPK14-Driven Inflammation."
+  },
+  "content": {
+    "abstract": "Metabolic syndrome (MetS) has been associated with increased acute pancreatitis (AP) severity. This study aimed to identify shared differentially expressed genes (CDEGs) between MetS and AP and to prioritize mechanistically relevant targets. The shared genetic basis and causal effect of MetS on AP were first assessed using linkage disequilibrium score regression (LDSC) and two-sample Mendelian randomization (MR). Public Gene Expression Omnibus (GEO) datasets were analyzed to define shared CDEGs. A multi-step pipeline incorporating functional enrichment, protein-protein interaction (PPI) analysis, and transcription factor mapping was used to identify AP hub genes (AP-HGs). Functional relatedness and putative causal relationships were evaluated using GeneMANIA, MR, and single-cell RNA sequencing (scRNA-seq). Finally, computational drug prediction and molecular docking were performed to identify potential therapeutic agents. Key findings were further validated in a hyperlipidemia AP (HAP) model. A positive genetic correlation between MetS and AP was identified by LDSC, and MR supported a causal effect of MetS on increased AP risk. BCAT1, GPAT3, ANP32C, and ZNF683 were identified as CDEGs between MetS and AP. MAPK14 was identified as a central AP-HG. MAPK14, BCAT1, and GPAT3 were effective predictors for severe AP (SAP), with AUCs of 0.738, 0.722, and 0.744, respectively. GeneMANIA predicted a high degree of physical interaction (77.6%) among these genes. MR analysis provided supportive genetic evidence linking MAPK14 expression to inflammatory mediators including IL-1ra and TNFR-1. scRNA-seq analysis in an experimental AP model localized Mapk14 expression predominantly to macrophages, while Bcat1 marked a unique, proliferative fibroblast subpopulation that emerged transiently during inflammation and exhibited an anabolic metabolic signature. Ozagrel was prioritized as an exploratory candidate with favorable predicted binding affinities and requires further validation. In a HAP model, aggravated pancreatic injury and upregulation of BCAT1 and MAPK14 were confirmed under the high-fat background. A genetic and transcriptomic link between MetS and AP was identified. MAPK14-associated inflammation and Bcat1-positive fibroblast remodeling may contribute to AP aggravation under metabolic disturbance. These findings provide candidate biomarkers for SAP prediction and support BCAT1 and MAPK14 as potential mechanistic targets.",
+    "keywords": [
+      "acute pancreatitis",
+      "bioinformatic analysis",
+      "differentially expressed genes",
+      "mendelian randomization analysis",
+      "metabolic syndrome",
+      "single-cell RNA analysis"
+    ],
+    "mesh_terms": [
+      "*Pancreatitis/genetics/metabolism/pathology",
+      "*Metabolic Syndrome/genetics/metabolism/pathology",
+      "Humans",
+      "*Inflammation/genetics/metabolism/pathology",
+      "*Transaminases/metabolism/genetics",
+      "*Fibroblasts/metabolism/pathology",
+      "Genetic Predisposition to Disease",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Xiaoying",
+        "Yang, Chen",
+        "Zou, Tongxin",
+        "Basharat, Zarrin",
+        "Zippi, Maddalena",
+        "Fiorino, Sirio",
+        "Hong, Wandong"
+      ],
+      "short_names": [
+        "Zhou X",
+        "Yang C",
+        "Zou T",
+        "Basharat Z",
+        "Zippi M",
+        "Fiorino S",
+        "Hong W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6857-4252"
+      ],
+      "affiliations": [
+        "Department of Gastroenterology, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Department of Gastroenterology and Hepatology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Gastroenterology and Hepatology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Alpha Genomics (Private) Limited, Islamabad, Pakistan.",
+        "Unit of Gastroenterology and Digestive Endoscopy, Sandro Pertini Hospital, Rome, Italy.",
+        "Unit of Internal Medicine, Budrio Hospital, Local Health Unit of Bologna, Bologna, Italy.",
+        "Department of Gastroenterology and Hepatology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Xiaoying",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chen",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Tongxin",
+        "short_name": "Zou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Basharat, Zarrin",
+        "short_name": "Basharat Z",
+        "identifiers": [],
+        "affiliations": [
+          "Alpha Genomics (Private) Limited, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Zippi, Maddalena",
+        "short_name": "Zippi M",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Gastroenterology and Digestive Endoscopy, Sandro Pertini Hospital, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Fiorino, Sirio",
+        "short_name": "Fiorino S",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Internal Medicine, Budrio Hospital, Local Health Unit of Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Hong, Wandong",
+        "short_name": "Hong W",
+        "identifiers": [
+          "0000-0001-6857-4252"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
+    ],
+    "journal_abbrev": [
+      "FASEB J"
+    ],
+    "pub_date": "2026 Jul 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/05 18:31",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42402174",
+      "40503237",
+      "41194111",
+      "41789074",
+      "37922090",
+      "38884700",
+      "39541897",
+      "41251871",
+      "41830484",
+      "41815139",
+      "41191606",
+      "42172251",
+      "38649912",
+      "42063773",
+      "36341378",
+      "41475625",
+      "41415264",
+      "38681131",
+      "40081545",
+      "41054129",
+      "39505288",
+      "41601670",
+      "41832938",
+      "42049254",
+      "41857594",
+      "39139563",
+      "38179058",
+      "40148470",
+      "39586719",
+      "39634181",
+      "38873611",
+      "40928556",
+      "41200201",
+      "41153716",
+      "40877393",
+      "41388545",
+      "42292364",
+      "41497980",
+      "38433131",
+      "42248268",
+      "41461235",
+      "42249421",
+      "42305536",
+      "39372399",
+      "40335899",
+      "40916281",
+      "42265520",
+      "38188879",
+      "39999939",
+      "42236612",
+      "39774240",
+      "39789419",
+      "33512718",
+      "42292469",
+      "42164085",
+      "42063729",
+      "42067139",
+      "28849189",
+      "40785039",
+      "41630303",
+      "42258325",
+      "41444617",
+      "41089320",
+      "41978582",
+      "42291321",
+      "42032825",
+      "40969769",
+      "42391245",
+      "41243389",
+      "41824853",
+      "40311696",
+      "38835753",
+      "23628382",
+      "42152401",
+      "40484863",
+      "42304163",
+      "40304766",
+      "42404879",
+      "41422660",
+      "41890708",
+      "42109727",
+      "41183465",
+      "38765004",
+      "41963573",
+      "41723546",
+      "39799299",
+      "41083787",
+      "41466027",
+      "40536508",
+      "41986517",
+      "34801968",
+      "38698841",
+      "41755728",
+      "41605333",
+      "40073855",
+      "39620226",
+      "37878760",
+      "40544733",
+      "40711603",
+      "40892111"
+    ],
+    "review": [
+      "42402174",
+      "39799299"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/metabolicsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Metabolic Syndrome"
+      },
+      {
+        "url": "https://doi.org/10.1096/fj.202601080RR",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-878",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

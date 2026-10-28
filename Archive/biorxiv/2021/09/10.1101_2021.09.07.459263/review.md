@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data/code availability, funding, acknowledgements) as provided. Figures and supplementary materials referenced but not included.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretability of claims, and alignment with Nature-style criteria based solely on the supplied text. No assessment of figures, tables, or supplementary data beyond what is described.
+- **Shared manuscript claim summary** The authors present CITRUS, a partially interpretable neural network with a self-attention mechanism, to model how somatic alterations (mutations and copy number variations) affect transcription factor (TF) activities and downstream gene expression across 17 cancer types from TCGA. The model integrates TF-target gene priors derived from ATAC-seq chromatin accessibility data. Claims include: (1) CITRUS outperforms a regularized bilinear regression (affinity regression, AR) in predicting gene expression; (2) attention weights identify known cancer drivers and distinguish passenger alterations; (3) inferred TF activities cluster tumors by cancer type and reveal subtypes associated with specific somatic alterations; (4) in silico knockout analysis identifies TFs whose activity is dysregulated by specific mutations, with some findings consistent with literature.
+- **Visible evidence base** Text descriptions of methods, results, and statistical analyses. Specific quantitative results (e.g., correlation values, p-values) are mentioned but not fully reported in the provided text. Figure and supplementary references are cited but not viewable.
+- **Missing materials affecting confidence** All figures (Figs. 1–5, Supplementary Figs. 1–5), supplementary data files (Supplementary Data 1), and detailed model architecture specifications (e.g., layer sizes, attention mechanism equations) are not provided. Exact performance metrics (e.g., mean Spearman correlations for CITRUS vs. AR) are not stated numerically. Hyperparameter tuning details are described but not fully quantified. No code or reproducibility checks possible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant problem in cancer genomics: linking somatic alterations to transcriptional programs in a context-specific manner. The proposed architecture, combining a self-attention encoder with a biologically constrained decoder, is conceptually novel and potentially impactful. However, the provided text lacks critical quantitative evidence to substantiate key claims, particularly regarding model performance, statistical significance of subtype findings, and robustness of in silico knockout results. The methodological description is incomplete in places, and the absence of figures and supplementary data prevents full evaluation. The work is promising but currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and cancer genomics researchers interested in interpretable deep learning for precision oncology. Clinicians and translational scientists seeking to identify TF drivers and potential therapeutic targets from genomic data would also find relevance. The approach could appeal to method developers in machine learning applied to multi-omics integration.
+- **Major strengths** (1) The problem is well-motivated and clinically relevant. (2) The model design is innovative, combining a self-attention mechanism for context-aware encoding of somatic alterations with a biologically informed decoder that explicitly models TF activity. (3) The use of ATAC-seq-derived TF-target priors is a thoughtful integration of epigenomic data. (4) The in silico knockout approach for causal inference is a useful analytical contribution. (5) The authors acknowledge limitations (e.g., TF motif ambiguity, lack of directionality) and propose future extensions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CITRUS achieved significantly better performance than a regularized bilinear regression algorithm called affinity regression (AR)... and explain gene expression across tumors in terms of somatic alteration status and presence of TF binding sites based on a pan-cancer ATAC-seq atlas (Fig. 2A)."
+  - **Evidence pointer** Results section, Fig. 2A (not provided)
+  - **Concern** The claim of superior performance over AR is stated without any numerical results. No mean Spearman correlations, confidence intervals, or statistical tests (e.g., paired tests across cancer types) are reported in the text. The figure is referenced but not available for review.
+  - **Why it matters** The central premise of the paper is that CITRUS provides a better or at least comparable predictive model while offering interpretability. Without quantitative evidence, the reader cannot assess whether the model is actually effective or whether the interpretability comes at a cost of performance.
+  - **Resolution test** Provide exact performance metrics (e.g., mean and standard deviation of Spearman correlations across cancer types for CITRUS and AR), along with statistical significance tests (e.g., Wilcoxon signed-rank test) and, ideally, a scatter plot or bar chart in the figure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Using a systematic in silico knock out approach, we identified key TFs associated with major somatic alterations." and "CITRUS identified mutations in PIK3CA, PTEN, KRAS, TP53, and CTNNB1 that were significantly associated with various TF activities across UCSC tumors."
+  - **Evidence pointer** Results section, Fig. 5A–C, Supplementary Figs. 3–5 (not provided)
+  - **Concern** The in silico knockout analysis is described, but the statistical framework is not fully specified. The text mentions t-tests and multiple hypothesis correction, but it is unclear how the "wild type" corpus is generated (e.g., whether the model is retrained or only the input is modified), how the t-test is applied (e.g., per TF per cancer type), and what the threshold for significance is. The results are only described qualitatively (e.g., "TFs associated with PTEN mutations were involved in cell cycle and differentiation"), with no effect sizes, p-values, or lists of significant TFs in the main text.
+  - **Why it matters** The biological insights claimed depend entirely on the validity and rigor of the knockout analysis. Without clear methodology and quantitative results, the findings cannot be reproduced or evaluated for false positives.
+  - **Resolution test** Detail the knockout procedure (e.g., whether the model is retrained, how the counterfactual is constructed), specify the statistical test and correction method, and report the number of significant TFs per cancer type, with effect sizes and adjusted p-values. Provide the full list of significant TFs in a supplementary table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "CITRUS includes more than 10 hyperparameters that are described in the following paragraphs." and "We implemented CITRUS through the PyTorch package... and training was performed using the Adam optimizer with default parameters except for the learning rate 15 and weight decay."
+  - **Evidence pointer** Methods section, "Training and evaluation"
+  - **Concern** The hyperparameter description is incomplete and contains an apparent typo ("learning rate 15" likely should be "1 × 10⁻³"). The text describes a tuning strategy but does not specify the final values for all hyperparameters (e.g., number of layers, hidden dimensions, attention heads, dropout rates, batch size, learning rate schedule). The model architecture is not fully defined; for example, the encoder and decoder layer sizes are not given, and the self-attention mechanism equations are not provided.
+  - **Why it matters** Reproducibility is a cornerstone of computational research. Without complete model specifications and hyperparameters, other researchers cannot implement or validate CITRUS.
+  - **Resolution test** Provide a complete table of all hyperparameters and their final values, a detailed architecture description (including layer dimensions and activation functions), and the exact self-attention formulation. Correct the typo in the learning rate.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "CITRUS predicts patient-specific TF activities and reveals transcriptional program variations between and within tumor types."
+  - **Evidence pointer** Results section, Figs. 2C, 4 (not provided)
+  - **Concern** The claim of patient-specific TF activity prediction is not validated against any external or independent dataset. The clustering results (Fig. 2C, Fig. 4) are described qualitatively, but no quantitative assessment of cluster stability, separation, or biological relevance is provided. The authors do not compare their inferred TF activities to known TF activity measurements (e.g., from protein assays or ChIP-seq) or to other computational methods.
+  - **Why it matters** For the method to be useful in precision oncology, the predicted TF activities must be biologically meaningful and accurate. Without validation, the clinical relevance remains speculative.
+  - **Resolution test** Validate predicted TF activities against independent data (e.g., protein-level measurements, known TF-target gene expression signatures) or compare with existing TF activity inference methods (e.g., VIPER, MARA). Provide quantitative metrics for cluster quality and stability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses jargon (e.g., "partially interpretable neural network model") without sufficient context for a general reader. The acronym CITRUS is defined, but the key innovation (self-attention for somatic alterations) is not clearly explained.
+  - **Required correction** Simplify the abstract to state the problem, the approach, and the main finding in accessible language. For example, explain that the model uses attention to weigh the importance of different mutations in predicting TF activity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Data pre-processing"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of data pre-processing is incomplete. The text states that the 2,500 most variable genes were identified within each cancer type and then the union was taken, resulting in 5,541 genes. It is unclear how the union was computed and whether the final gene set is consistent across cancer types. Additionally, the threshold for removing genes based on mutation frequency (4% of samples) is not justified.
+  - **Required correction** Clarify the gene selection procedure and provide a rationale for the 4% threshold. State whether the same gene set is used for all cancer types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Pan-cancer modeling of transcriptional programs"
+  - **Evidence pointer** Results section
+  - **Issue** The sentence "CITRUS achieved significantly better performance than a regularized bilinear regression algorithm called affinity regression (AR) (20–22) that was trained independently for each cancer type. and explain gene expression across tumors in terms of somatic alteration status and presence of TF binding sites based on a pan-cancer ATAC-seq atlas (Fig. 2A)." contains a grammatical error (a period in the middle of the sentence) and is confusing.
+  - **Required correction** Rewrite the sentence for clarity, e.g., "CITRUS achieved significantly better performance than affinity regression (AR), a regularized bilinear regression algorithm trained independently for each cancer type, in explaining gene expression across tumors based on somatic alteration status and TF binding sites (Fig. 2A)."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "CITRUS model"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the loss function is incomplete. The text states "We use mean square loss function as:" but the equation is not provided in the text. Similarly, the self-attention mechanism is described only in words, with no mathematical formulation.
+  - **Required correction** Include the full loss function equation and the self-attention equations in the methods section.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions potential clinical applications (e.g., identifying combination therapies) but does not provide concrete examples or a roadmap for how CITRUS could be used in practice. The claims are speculative.
+  - **Required correction** Add a paragraph discussing specific, testable hypotheses or potential clinical scenarios where CITRUS could be applied, and acknowledge the need for prospective validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative performance comparison), R1-M2 (incomplete statistical methodology for knockout analysis), R1-M3 (incomplete model specification and reproducibility issues).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of self-attention with a biologically constrained decoder for linking somatic alterations to TF activity is novel. The use of ATAC-seq-derived priors is a creative integration of epigenomic data. However, the originality is somewhat tempered by the existence of prior work on attention-based models in genomics (e.g., GIT) and TF activity inference methods.
+  - **Scientific importance** The problem is of high importance in cancer biology and precision oncology. If validated, the method could provide a framework for identifying driver TFs and therapeutic targets. However, the current evidence does not fully establish the biological or clinical significance of the findings.
+  - **Interdisciplinary readership** The work bridges machine learning, cancer genomics, and epigenomics, and would appeal to a broad audience. However, the technical depth may limit accessibility for non-specialists, and the abstract and introduction could be more accessible.
+  - **Technical soundness** The conceptual framework is sound, but the incomplete methodological details and lack of quantitative results undermine confidence. The model architecture and training procedures need to be fully specified, and the performance claims need to be substantiated with data.
+  - **Readability for nonspecialists** The manuscript is generally well-written but uses technical jargon without sufficient explanation. The abstract and introduction could be improved for a broader audience. The methods section is dense and assumes familiarity with deep learning and genomics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and relevant, but the manuscript in its current form does not provide sufficient evidence to establish the validity and utility of CITRUS. The authors must provide quantitative performance metrics, complete methodological details, and validation of biological findings.
+
+## Risk / unsupported claims
+- The claim that CITRUS "achieved significantly better performance" than AR is unsupported without numerical results.
+- The claim that in silico knockout analysis identifies "key TFs associated with major somatic alterations" is not substantiated with specific statistical results or lists of significant TFs.
+- The claim that clustering by inferred TF activities "largely recovered the distinction between major tumor types" is qualitative and not quantified.
+- The claim that CITRUS "predicts patient-specific TF activities" is not validated against independent measurements or other methods.
+- The statement that "the attention mechanism enables GIT to select driver mutations" is a claim about a prior model and is not directly relevant to the current work, but it is presented without citation or context.
+- The claim that "hard constraints" on the weight matrix W generate "less stable TF layers" compared to soft constraints is not empirically demonstrated in the text.

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a hybrid strategy combining machine learning-based pose prediction (Uni-Mol Docking), position-restricted molecular docking (PR Docking with Uni-Dock), and machine learning scoring functions to improve protein-ligand binding pose prediction accuracy and success rate relative to either method used alone
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset specifications, evaluation metrics, baseline definitions, statistical analyses, and code documentation
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually reasonable hybrid approach that aims to combine the strengths of machine learning and physics-based docking. However, the current submission provides insufficient evidence to evaluate the validity, novelty, or generalizability of the proposed strategy. Key methodological details and quantitative results are absent, making it impossible to assess whether the claimed improvements are statistically robust or practically meaningful. The work may be of interest to the computational drug design community, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Computational chemists, structural biologists, and researchers in structure-based drug design would be interested in a method that potentially improves binding pose prediction accuracy. The combination of machine learning and physics-based constraints addresses a recognized limitation in both approaches, and a validated hybrid strategy could have practical utility in virtual screening and lead optimization pipelines.
+- **Major strengths** The conceptual integration of machine learning pose prediction with physics-based docking constraints is a sensible direction that could mitigate the weaknesses of each individual approach. The availability of the strategy via a public repository (GitHub) is commendable for reproducibility and community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the proposed strategy "can significantly improve the success rate and accuracy of protein-ligand complex structure predictions" compared to using molecular docking or machine learning alone
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided
+  - **Concern** The central claim of improved performance is presented without any numerical data, statistical significance testing, or comparison details. No success rates, accuracy metrics, or error bars are reported. The abstract does not specify which datasets were used, how many targets were evaluated, or what constitutes a "successful" prediction.
+  - **Why it matters** Without quantitative evidence, the claimed improvement cannot be verified or reproduced. The absence of statistical context prevents assessment of whether the observed differences are meaningful or within expected variance. This is the core contribution of the work, and its support is entirely missing.
+  - **Resolution test** Provide quantitative results from evaluation experiments, including success rates and accuracy metrics for the proposed strategy versus each baseline method, with appropriate statistical tests (e.g., paired comparisons, confidence intervals) and clear definitions of evaluation criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract describes a three-step strategy involving Uni-Mol Docking, position-restricted docking (PR Docking), and machine learning scoring functions
+  - **Evidence pointer** Abstract only; no methodological details provided
+  - **Concern** The abstract does not explain how the position-restricted docking is implemented, what constraints are applied, how the machine learning scoring functions are trained or selected, or how the three components are integrated into a single pipeline. The term "position-restricted docking" is not defined, and the relationship between the predicted poses from Uni-Mol Docking and the subsequent docking step is unclear.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific claims. Without a clear description of the method, other researchers cannot implement or test the strategy. The novelty of the approach cannot be assessed if the specific technical contributions are not articulated.
+  - **Resolution test** Provide a detailed description of the pipeline, including algorithmic steps, parameter settings, training data for scoring functions, and the nature of the positional restrictions applied during docking.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and context
+  - **Claim pointer** The abstract implies the proposed strategy is novel ("we propose a novel strategy") without situating it within existing literature
+  - **Evidence pointer** Abstract only; no related work or comparison to prior hybrid approaches
+  - **Concern** The abstract does not reference any prior work on combining machine learning and docking, nor does it explain how this approach differs from existing hybrid methods. Without this context, the novelty claim cannot be evaluated.
+  - **Why it matters** The scientific contribution of the work depends on its novelty relative to the state of the art. If similar strategies have been reported, the incremental value of this specific combination must be clarified. The absence of literature context undermines the ability to judge the significance of the contribution.
+  - **Resolution test** Include a brief review of prior hybrid approaches and explicitly state the novel aspects of the proposed strategy, with citations to relevant literature.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "position-restricted docking(PR Docking)"
+  - **Issue** The term "position-restricted docking" is introduced without definition or explanation of how it differs from standard docking protocols.
+  - **Required correction** Define the term and describe the specific restrictions applied during the docking process.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Language and presentation
+  - **Affected element** Typographical error
+  - **Evidence pointer** Abstract, "avaliable"
+  - **Issue** The word "avaliable" is misspelled; it should be "available."
+  - **Required correction** Correct the spelling error.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract, GitHub link
+  - **Issue** The abstract states the strategy is available at a GitHub repository, but no version, license, or usage instructions are mentioned.
+  - **Required correction** Provide a version identifier, license information, and a brief usage description in the manuscript or repository documentation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (insufficient methodological detail), R1-M3 (lack of novelty context)
+- **Assessment against Nature-style criteria** Originality: The conceptual combination is plausible but cannot be assessed for novelty without literature context. Scientific importance: Potentially relevant to drug design, but significance is unsubstantiated without quantitative results. Interdisciplinary readership: The topic bridges machine learning and structural biology, which could appeal to a broad audience, but the abstract lacks sufficient detail for nonspecialists to grasp the technical contribution. Technical soundness: Cannot be evaluated due to missing methodological and statistical details. Readability for nonspecialists: The abstract is generally clear in its high-level description, but technical terms such as "position-restricted docking" and "machine learning scoring functions" are not explained sufficiently for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual direction is promising, but the abstract alone does not provide the quantitative results, methodological clarity, or novelty context required to support the claims. The authors should be encouraged to submit a full manuscript with detailed methods, results, and comparisons.
+
+## Risk / unsupported claims
+- The claim of "significantly improve the success rate and accuracy" is unsupported due to the absence of any quantitative data or statistical analysis.
+- The claim of novelty ("novel strategy") is unverifiable without a review of prior art.
+- The effectiveness of the hybrid approach relative to each individual method is asserted but not demonstrated.
+- The generalizability of the strategy across "multiple datasets" is stated but no dataset details or performance breakdowns are provided.
+- The practical utility of the method for structure-based drug design is implied but not supported by case studies or application examples.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36424784",
+  "title": "Relevance of Machine Learning to Predict the Inhibitory Activity of Small Thiazole Chemicals on Estrogen Receptor.",
+  "authors": "Jayaprakash, Venkatesan; Saravanan, Thangavelu; Ravindran, Karuppaiyan; Prabha, Thangavelu; Selvaraj, Jubie; Jayapalan, Sudeepan; Chaitanya, M V N L; Sivakumar, Thangavel",
+  "journal": "Current computer-aided drug design",
+  "published_date": "2022-11-26",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用机器学习QSAR预测噻唑类小分子对雌激素受体的抑制活性，属于小分子-蛋白药物活性预测，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Drug discovery requires the use of hybrid technologies for the discovery of new chemical substances. One of those interesting strategies is QSAR via applying an artificial intelligence system that effectively predicts how chemical alterations can impact biological activity via in-silico. AIM: Our present study aimed to work on a trending machine learning approach with a new opensource data analysis python script for the discovery of anticancer lead via building the QSAR model by using 53 compounds of thiazole derivatives. METHODS: A python script has been executed with 53 small thiazole chemicals using Google collaboratory interface. A total of 82 CDK molecular descriptors were downloaded from \"chemdes\" web server and used for our study. After training the model, we checked the model performance via cross-validation of the external test set. RESULTS: The generated QSAR model afforded the ordinary least squares (OLS) regression as R(2) = 0.542, F=8.773, and adjusted R(2) (Q2) =0.481, std. error = 0.061, reg.coef_ developed were of, - 0.00064 (PC1), -0.07753 (PC2), -0.09078 (PC3), -0.08986 (PC4), 0.05044 (PC5), and reg.intercept_ of 4.79279 developed through stats models, formula module. The performance of test set prediction was done by multiple linear regression, support vector machine, and partial least square regression classifiers of sklearn module, which generated the model score of 0.5424, 0.6422 and 0.6422 respectively. CONCLUSION: Hence, we conclude that the R2values (i.e. the model score) obtained using this script via three diverse algorithms were correlated well and there is not much difference between them and may be useful in the design of a similar group of thiazole derivatives as anticancer agents.",
+  "abstract_zh": "背景：药物发现需要使用混合技术来发现新的化学物质。其中一种有趣的策略是通过应用人工智能系统进行定量构效关系（QSAR）分析，该系统能通过计算机模拟有效预测化学修饰如何影响生物活性。目的：本研究旨在采用一种流行的机器学习方法，并利用一个新的开源数据分析Python脚本，通过构建基于53种噻唑衍生物化合物的QSAR模型来发现抗癌先导化合物。方法：使用Google Colaboratory界面执行了一个包含53种小分子噻唑化合物的Python脚本。从“chemdes”网络服务器下载了总共82个CDK分子描述符，并用于我们的研究。在训练模型后，我们通过外部测试集的交叉验证检查了模型性能。结果：生成的QSAR模型提供了普通最小二乘（OLS）回归，其R(2) = 0.542，F=8.773，调整后R(2)（Q2）=0.481，标准误差=0.061，回归系数（reg.coef_）分别为-0.00064（PC1）、-0.07753（PC2）、-0.09078（PC3）、-0.08986（PC4）、0.05044（PC5），以及通过stats models的公式模块开发的回归截距（reg.intercept_）为4.79279。测试集预测性能通过sklearn模块的多元线性回归、支持向量机和偏最小二乘回归分类器进行评估，分别生成了0.5424、0.6422和0.6422的模型得分。结论：因此，我们得出结论，使用此脚本通过三种不同算法获得的R2值（即模型得分）相关性良好，它们之间差异不大，可能有助于设计类似组的噻唑衍生物作为抗癌剂。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36424784/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36424784/",
+  "paper_page_path": "papers/pubmed/36424784/index.html"
+}

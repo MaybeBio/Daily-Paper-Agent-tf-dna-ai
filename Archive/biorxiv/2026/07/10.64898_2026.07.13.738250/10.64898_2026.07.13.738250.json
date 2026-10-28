@@ -1,0 +1,248 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.13.738250",
+  "title": "Frozen Protein Foundation-Model Embeddings Improve Antibody–Antigen Binding Affinity Prediction",
+  "doi": "10.64898/2026.07.13.738250",
+  "abstract": "We investigate whether representations from AINN-P1—a protein foundation model trained autoregressively on tens of millions of natural protein sequences—transfer to the task of ranking antibody–antigen pairs by binding affinity. Casting affinity maturation as a learning-to-rank problem over the change in binding free energy (ΔΔG), we compare a task-specific sequence model trained end-to-end from scratch against lightweight downstream heads built on top of frozen AINN-P1 embeddings, all evaluated under an identical five-fold cross-validation protocol. A regularized linear probe on the frozen embeddings already surpasses the from-scratch baseline, and an optimized lightweight head raises the mean Spearman rank correlation from 0.42 to 0.53—a relative improvement of approximately 28%— while training in seconds and without any fine-tuning of the foundation model. Because a linear probe alone exceeds the fully trained end-to-end baseline, the gain is attributable to representation quality rather than to added downstream-model capacity. These results position frozen foundation-model embeddings as a strong, data-efficient default for affinity ranking in antibody engineering and establish a conservative lower bound that task-adaptive fine-tuning is expected to exceed.",
+  "authors": [
+    "Roger Wang",
+    "Kevin Jin",
+    "Lurong Pan"
+  ],
+  "published_date": "2026-07-14",
+  "updated_date": "2026-07-15T04:30:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738250",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738250.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2026-07-17T03:04:34Z",
+        "timestamp": 1784257474858,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            14
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 5,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                14
+              ]
+            ],
+            "date-time": "2026-07-14T00:00:00Z",
+            "timestamp": 1783987200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Ainnocence, Inc."
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We investigate whether representations from AINN-P1—a protein foundation model trained autoregressively on tens of millions of natural protein sequences—transfer to the task of ranking antibody–antigen pairs by binding affinity. Casting affinity maturation as a learning-to-rank problem over the change in binding free energy (ΔΔG), we compare a task-specific sequence model trained end-to-end from scratch against lightweight downstream heads built on top of frozen AINN-P1 embeddings, all evaluated under an identical five-fold cross-validation protocol. A regularized linear probe on the frozen embeddings already surpasses the from-scratch baseline, and an optimized lightweight head raises the mean Spearman rank correlation from 0.42 to 0.53—a relative improvement of approximately 28%— while training in seconds and without any fine-tuning of the foundation model. Because a linear probe alone exceeds the fully trained end-to-end baseline, the gain is attributable to representation quality rather than to added downstream-model capacity. These results position frozen foundation-model embeddings as a strong, data-efficient default for affinity ranking in antibody engineering and establish a conservative lower bound that task-adaptive fine-tuning is expected to exceed.</jats:p>",
+      "DOI": "10.64898/2026.07.13.738250",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            15
+          ]
+        ],
+        "date-time": "2026-07-15T04:30:18Z",
+        "timestamp": 1784089818000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Frozen Protein Foundation-Model Embeddings Improve Antibody–Antigen Binding Affinity Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Roger",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Ainnocence, Inc., Mountain View, California 94041, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kevin",
+          "family": "Jin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ainnocence, Inc., Mountain View, California 94041, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lurong",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ainnocence, Inc., Mountain View, California 94041, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026071619050998000_2026.07.13.738250v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1315",
+          "DOI": "10.1038/s41592-019-0598-1",
+          "article-title": "Unified rational protein engineering with sequence-based deep representation learning",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026071619050998000_2026.07.13.738250v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026071619050998000_2026.07.13.738250v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Notin, P. , Kollasch, A. W. , Ritter, D. , et al. (2023). ProteinGym: Large-scale benchmarks for protein fitness prediction and design. Advances in Neural Information Processing Systems (Datasets and Benchmarks Track).",
+          "DOI": "10.1101/2023.12.07.570727"
+        },
+        {
+          "key": "2026071619050998000_2026.07.13.738250v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2026071619050998000_2026.07.13.738250v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.13.738250",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2026-07-17T02:05:18Z",
+        "timestamp": 1784253918000
+      },
+      "score": 125.74568,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.13.738250"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            14
+          ]
+        ]
+      },
+      "references-count": 5,
+      "URL": "https://doi.org/10.64898/2026.07.13.738250",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors present scPlantReg, an integrated framework and database for plant single-cell ATAC-seq data, featuring a supervised machine-learning tool (scATACtor) for cell-type annotation. They apply this framework to pearl millet, identify validated activating and repressing accessible chromatin regions, and implicate WRKY transcription factors in xylem development. They also reanalyse scATAC-seq data from 8 plant species across 11 tissues and multiple developmental stages, uncovering conserved regulatory programmes including AP2/EREBP-associated ACRs linked to cell wall development and cell-type-conserved transcription factors across grasses.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, validation details, and code availability information
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable resource for the plant single-cell genomics community. The combination of an end-to-end analysis framework, a supervised cell-type annotation tool, and a cross-species database addresses a genuine gap. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the machine-learning approach, the robustness of the biological claims, or the quality of the cross-species comparisons. Several claims are stated without supporting evidence, and the abstract does not clarify the scope of validation or the statistical framework used. The work is likely of interest to plant molecular biologists and computational biologists, but the case for broad significance and technical reliability is not established from the supplied material.
+- **Who would be interested in the results, and why** Plant molecular biologists studying gene regulation and cell-type specificity, computational biologists developing single-cell genomics tools, researchers working on cereal crops and grass genomes, and investigators interested in cis-regulatory element evolution across species. The database and framework would be of practical use to groups generating or analysing plant scATAC-seq data.
+- **Major strengths** The abstract addresses a clear and important gap in plant single-cell genomics, namely the lack of plant-specific scATAC-seq analysis frameworks and cross-species databases. The inclusion of a supervised machine-learning tool for cell-type annotation is timely. The application to pearl millet and the reanalysis of data from 8 species across 11 tissues suggests a substantial resource. The identification of conserved regulatory programmes across grasses has potential translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** scATACtor, a supervised machine-learning approach, outperforms existing tools for cell-type annotation
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that scATACtor outperforms existing tools but provides no information on the benchmarking strategy, the comparator tools used, the datasets on which performance was evaluated, or the metrics employed. Without this information, the claim of superior performance cannot be assessed.
+  - **Why it matters** The central value proposition of the framework depends on the reliability and superiority of the annotation tool. If the benchmarking is limited or biased, the utility of the entire platform is called into question.
+  - **Resolution test** Provide details of benchmarking datasets, comparator methods, evaluation metrics, and statistical significance testing in the full manuscript. Ideally include independent validation on multiple species and tissue types.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** Identification of validated activating and repressing accessible chromatin regions (ACRs) in pearl millet
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that ACRs were "validated" but does not describe the validation approach. It is unclear whether validation was experimental (for example, CRISPR perturbation or reporter assays) or computational (for example, correlation with expression). The distinction is critical for interpreting the strength of the claim.
+  - **Why it matters** The term "validated" carries strong connotations of functional confirmation. If the validation is purely correlative, the claim is overstated. If experimental, the scale and nature of the validation need to be described.
+  - **Resolution test** Specify the validation strategy in the full manuscript, including the number of ACRs tested, the experimental or computational methods used, and the criteria for calling an ACR "validated."
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and resource quality
+  - **Claim pointer** scPlantReg is an integrated framework and database supporting end-to-end analyses from raw data processing to biological interpretation
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the architecture of the database, the data standards used, the query interface, or the scalability of the framework. For a resource paper, these details are essential. It is also unclear whether the database is publicly accessible, whether it will be maintained, and what data types and metadata standards are supported.
+  - **Why it matters** A database and framework are only useful if they are accessible, well-documented, and sustainable. The abstract does not provide sufficient information to judge whether this resource will be usable by the community.
+  - **Resolution test** Provide details on database architecture, access mechanisms, data standards, documentation, and long-term maintenance plans in the full manuscript.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and analytical rigour
+  - **Claim pointer** Reanalysis of scATAC-seq datasets from 8 plant species, spanning 11 tissues and multiple developmental stages, enabled cross-species comparisons that uncovered conserved regulatory programmes
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how cross-species comparability was ensured. Differences in data generation, sequencing depth, genome assembly quality, and annotation completeness across species can confound comparative analyses. The statistical framework for identifying conserved programmes is not described.
+  - **Why it matters** Cross-species comparisons are prone to technical artefacts. Without a clear description of normalisation, batch correction, and orthology assignment, the conserved regulatory programmes reported may reflect technical rather than biological signals.
+  - **Resolution test** Describe the normalisation and batch-correction strategies, the orthology mapping approach, and the statistical tests used to define conservation in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "validated activating and repressing accessible chromatin regions" is ambiguous. It is not clear whether "activating" and "repressing" refer to experimentally determined regulatory effects or to inferred functions based on chromatin state.
+  - **Required correction** Clarify the basis for classifying ACRs as activating or repressing in the abstract or full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "cell-type-conserved TFs across grasses" but does not specify which transcription factors or how many were identified. This level of detail would help readers gauge the biological significance.
+  - **Required correction** Provide specific examples or counts of conserved transcription factors in the abstract or full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Resource availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether scPlantReg is freely available, whether the code is open source, or whether the database can be accessed without registration.
+  - **Required correction** Include a data and code availability statement in the full manuscript and consider mentioning accessibility in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking of scATACtor), R1-M2 (validation of ACRs), R1-M3 (database architecture and accessibility), R1-M4 (cross-species comparability and statistical rigour)
+- **Assessment against Nature-style criteria** Originality: The combination of a plant-specific scATAC-seq analysis framework, a supervised annotation tool, and a cross-species database appears novel, though the abstract does not fully distinguish it from existing tools. Scientific importance: The potential to enable plant single-cell regulatory analysis and cross-species comparison is significant, but the importance is not fully demonstrated from the abstract alone. Interdisciplinary readership: The work bridges plant biology, genomics, and computational biology, and would likely appeal to a broad readership if the resource is robust. Technical soundness: Not assessable from the abstract; the machine-learning approach, validation strategy, and comparative framework require detailed methods. Readability for nonspecialists: The abstract is generally clear, though some terms such as "AP2/EREBP-associated ACRs" may be opaque to non-specialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable resource, but the technical claims require detailed evaluation of the full manuscript. I would be supportive if the technical concerns regarding benchmarking, validation, database architecture, and cross-species comparability are resolved in the full text.
+
+## Risk / unsupported claims
+- The claim that scATACtor "outperforms existing tools" is unsupported without benchmarking details.
+- The claim that ACRs were "validated" is unsupported without a description of the validation method.
+- The claim of "conserved regulatory programmes" across species is unsupported without details on the comparative methodology.
+- The claim that scPlantReg provides "end-to-end analyses" is not assessable without information on the pipeline architecture and usability.
+- The identification of "WRKY transcription factors as potential regulators of xylem development" is stated without supporting evidence in the abstract.

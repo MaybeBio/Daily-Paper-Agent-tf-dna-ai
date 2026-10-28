@@ -1,0 +1,507 @@
+{
+  "identity": {
+    "pmid": "38703769",
+    "doi": "10.1016/j.molcel.2024.04.008",
+    "title": "The full spectrum of SLC22 OCT1 mutations illuminates the bridge between drug transporter biophysics and pharmacogenomics."
+  },
+  "content": {
+    "abstract": "Mutations in transporters can impact an individual's response to drugs and cause many diseases. Few variants in transporters have been evaluated for their functional impact. Here, we combine saturation mutagenesis and multi-phenotypic screening to dissect the impact of 11,213 missense single-amino-acid deletions, and synonymous variants across the 554 residues of OCT1, a key liver xenobiotic transporter. By quantifying in parallel expression and substrate uptake, we find that most variants exert their primary effect on protein abundance, a phenotype not commonly measured alongside function. Using our mutagenesis results combined with structure prediction and molecular dynamic simulations, we develop accurate structure-function models of the entire transport cycle, providing biophysical characterization of all known and possible human OCT1 polymorphisms. This work provides a complete functional map of OCT1 variants along with a framework for integrating functional genomics, biophysical modeling, and human genetics to predict variant effects on disease and drug efficacy.",
+    "keywords": [
+      "OCT1",
+      "SLC22",
+      "deep mutational scanning",
+      "drug transporter",
+      "membrane protein folding",
+      "pharmacogenomics",
+      "precision medicine",
+      "structure prediction",
+      "structure-function"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Biological Transport",
+      "HEK293 Cells",
+      "*Molecular Dynamics Simulation",
+      "Mutation",
+      "Mutation, Missense",
+      "Octamer Transcription Factor-1",
+      "*Organic Cation Transporter 1/genetics/metabolism",
+      "Pharmacogenetics",
+      "Phenotype",
+      "*Protein Conformation",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yee, Sook Wah",
+        "Macdonald, Christian B",
+        "Mitrovic, Darko",
+        "Zhou, Xujia",
+        "Koleske, Megan L",
+        "Yang, Jia",
+        "Buitrago Silva, Dina",
+        "Rockefeller Grimes, Patrick",
+        "Trinidad, Donovan D",
+        "More, Swati S",
+        "Kachuri, Linda",
+        "Witte, John S",
+        "Delemotte, Lucie",
+        "Giacomini, Kathleen M",
+        "Coyote-Maestas, Willow"
+      ],
+      "short_names": [
+        "Yee SW",
+        "Macdonald CB",
+        "Mitrovic D",
+        "Zhou X",
+        "Koleske ML",
+        "Yang J",
+        "Buitrago Silva D",
+        "Rockefeller Grimes P",
+        "Trinidad DD",
+        "More SS",
+        "Kachuri L",
+        "Witte JS",
+        "Delemotte L",
+        "Giacomini KM",
+        "Coyote-Maestas W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Science for Life Laboratory, Department of Applied Physics, KTH Royal Institute of Technology, 12121 Solna, Stockholm, Stockholm County 114 28, Sweden.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Medicine, Division of Infectious Disease, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Epidemiology and Population Health, Stanford University, Stanford, CA 94305, USA; Stanford Cancer Institute, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Epidemiology and Population Health, Stanford University, Stanford, CA 94305, USA; Stanford Cancer Institute, Stanford University, Stanford, CA 94305, USA.",
+        "Science for Life Laboratory, Department of Applied Physics, KTH Royal Institute of Technology, 12121 Solna, Stockholm, Stockholm County 114 28, Sweden. Electronic address: lucie.delemotte@scilifelab.se.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA. Electronic address: kathy.giacomini@ucsf.edu.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA; Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA 94143, USA; Chan Zuckerberg Biohub, San Francisco, CA 94148, USA. Electronic address: willow.coyote-maestas@ucsf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yee, Sook Wah",
+        "short_name": "Yee SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Macdonald, Christian B",
+        "short_name": "Macdonald CB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Mitrovic, Darko",
+        "short_name": "Mitrovic D",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Applied Physics, KTH Royal Institute of Technology, 12121 Solna, Stockholm, Stockholm County 114 28, Sweden."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xujia",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Koleske, Megan L",
+        "short_name": "Koleske ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Jia",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Buitrago Silva, Dina",
+        "short_name": "Buitrago Silva D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Rockefeller Grimes, Patrick",
+        "short_name": "Rockefeller Grimes P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Trinidad, Donovan D",
+        "short_name": "Trinidad DD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Infectious Disease, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "More, Swati S",
+        "short_name": "More SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Kachuri, Linda",
+        "short_name": "Kachuri L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Population Health, Stanford University, Stanford, CA 94305, USA; Stanford Cancer Institute, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Witte, John S",
+        "short_name": "Witte JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Population Health, Stanford University, Stanford, CA 94305, USA; Stanford Cancer Institute, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Delemotte, Lucie",
+        "short_name": "Delemotte L",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Applied Physics, KTH Royal Institute of Technology, 12121 Solna, Stockholm, Stockholm County 114 28, Sweden. Electronic address: lucie.delemotte@scilifelab.se."
+        ]
+      },
+      {
+        "full_name": "Giacomini, Kathleen M",
+        "short_name": "Giacomini KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA. Electronic address: kathy.giacomini@ucsf.edu."
+        ]
+      },
+      {
+        "full_name": "Coyote-Maestas, Willow",
+        "short_name": "Coyote-Maestas W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA 94143, USA; Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA 94143, USA; Chan Zuckerberg Biohub, San Francisco, CA 94148, USA. Electronic address: willow.coyote-maestas@ucsf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2024 May 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/05 07:47",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42403708",
+      "42331831",
+      "42292907",
+      "42104208",
+      "41996304",
+      "41806469",
+      "41593735",
+      "41550255",
+      "41433063",
+      "41391767",
+      "41036573",
+      "40983772",
+      "40799562",
+      "40781375",
+      "40737325",
+      "40691352",
+      "40667088",
+      "40502045",
+      "40501788",
+      "40291682",
+      "40168989",
+      "40097423",
+      "40047317",
+      "39779847",
+      "39770445",
+      "39753132",
+      "39416097",
+      "39245778",
+      "39234898"
+    ],
+    "refs": [
+      "38816749",
+      "37821493",
+      "37733863",
+      "37563329",
+      "37405846",
+      "37405832",
+      "37291422",
+      "37253358",
+      "36829241",
+      "36718848",
+      "36700672",
+      "36408920",
+      "36350672",
+      "36344565",
+      "36343260",
+      "36164651",
+      "35794153",
+      "35639599",
+      "35561119",
+      "35469921",
+      "35388192",
+      "35238773",
+      "34995514",
+      "34921098",
+      "34707284",
+      "34577099",
+      "34437092",
+      "34314704",
+      "34265844",
+      "34183854",
+      "33967805",
+      "33891902",
+      "33759449",
+      "33658230",
+      "33620761",
+      "33506760",
+      "32734663",
+      "32461654",
+      "32181350",
+      "31999436",
+      "31996846",
+      "31780561",
+      "31612958",
+      "31597043",
+      "30608666",
+      "30305743",
+      "30219656",
+      "29785012",
+      "29659562",
+      "29507422",
+      "29362361",
+      "28851864",
+      "28791698",
+      "28784151",
+      "28263315",
+      "27541716",
+      "26659468",
+      "26157489",
+      "26111766",
+      "25130509",
+      "25075907",
+      "24961373",
+      "24410852",
+      "23835420",
+      "23329690",
+      "22910976",
+      "22821581",
+      "22743772",
+      "22077970",
+      "22039361",
+      "21737059",
+      "21624498",
+      "21562485",
+      "20190787",
+      "20000850",
+      "19399780",
+      "19151095",
+      "19141633",
+      "19103310",
+      "18309312",
+      "17476361",
+      "16965318",
+      "16951202",
+      "15286655",
+      "12719534",
+      "12629596",
+      "10836973",
+      "9260930",
+      "9187257",
+      "5968307"
+    ],
+    "similar": [
+      "38703769",
+      "37333090",
+      "42104208",
+      "41391767",
+      "39956342",
+      "32482756",
+      "36359014",
+      "23835420",
+      "26657401",
+      "39068198",
+      "23532667",
+      "12719534",
+      "31771949",
+      "33037045",
+      "29236753",
+      "27046168",
+      "35469921",
+      "39342994",
+      "28363126",
+      "39245401",
+      "31564168",
+      "27488918",
+      "23984399",
+      "33903987",
+      "25883089",
+      "37340665",
+      "34902340",
+      "39209551",
+      "41203133",
+      "33658230",
+      "18157518",
+      "19591196",
+      "29061087",
+      "40300306",
+      "26405039",
+      "40319555",
+      "22415520",
+      "22342776",
+      "30656943",
+      "28362799",
+      "30361780",
+      "37821493",
+      "31593619",
+      "38052451",
+      "30583242",
+      "17072090",
+      "38580166",
+      "14576340",
+      "26702643",
+      "26861753",
+      "41349357",
+      "24352644",
+      "28699756",
+      "35563491",
+      "28364304",
+      "31783011",
+      "20639304",
+      "16272756",
+      "28223391",
+      "17266766",
+      "41529637",
+      "30734690",
+      "26920453",
+      "26206523",
+      "25155823",
+      "37291422",
+      "36871537",
+      "35955590",
+      "16722235",
+      "18788725",
+      "31597043",
+      "27903597",
+      "29061131",
+      "32843330",
+      "16087669",
+      "26122430",
+      "25753371",
+      "40098288",
+      "36611832",
+      "26536134",
+      "24399729",
+      "24947867",
+      "21562485",
+      "17111267",
+      "34884800",
+      "20567254",
+      "28230985",
+      "27278216",
+      "31514980",
+      "20883471",
+      "23663222",
+      "14697261",
+      "32094176",
+      "21896487",
+      "22394605",
+      "35216120",
+      "26157489",
+      "20921968",
+      "23680637",
+      "28099443"
+    ],
+    "review": [
+      "38703769",
+      "31564168",
+      "23984399",
+      "29061087",
+      "14576340",
+      "26206523",
+      "16722235",
+      "26122430"
+    ],
+    "pmc": [
+      "11382353"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(24)00323-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38703769/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38703769/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38703769",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

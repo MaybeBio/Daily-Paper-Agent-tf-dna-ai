@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "41361470",
+    "doi": "10.1186/s12964-025-02578-1",
+    "title": "PD-L1 mediates M1 polarization of macrophages via the AIM2/IL-18/STAT1 signaling axis during sepsis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis, a life-threatening organ dysfunction caused by dysregulated host responses to infection, has emerged as a leading cause of mortality in ICU patients. Macrophages, crucial effector cells in innate immunity, play pivotal regulatory roles in sepsis pathogenesis. While Programmed death-ligand 1 (PD-L1), a key immune checkpoint molecule, is traditionally believed to exert immunosuppressive effects through membrane anchoring, its involvement in macrophage polarization during sepsis remains unclear. This study investigated the spatial distribution of PD-L1 in macrophages and its regulatory effects on inflammatory responses during sepsis. METHODS: This study investigated PD-L1's regulatory role in macrophage polarization through RNA sequencing, Immunoprecipitation-mass spectrometry, molecular docking, and site-directed mutagenesis, with preliminary validation in C57BL/6 mice. RESULTS: Using GEO database analysis combined with qRT-PCR and Western blotting, we confirmed elevated PD-L1 expression in sepsis and M1-polarized macrophages. Laser scanning confocal microscopy demonstrated dual localization of PD-L1, appearing both on the plasma membrane and intracellularly within M1 macrophages. RNA sequencing revealed PD-L1's promotion of M1 polarization through enhanced AIM2 expression in the NOD-like receptor pathway. Integrated analyses employing mass spectrometry, molecular docking, site-directed mutagenesis, and Western blotting demonstrated PD-L1 binding to AIM2, which augmented expression of downstream effector molecules (IL-18 and IFN-gamma) and potentiated STAT1 activation. Silencing AIM2 by siRNA or IL-18 antagonism reversed PD-L1-induced M1 markers (IL-27, IL-6, iNOS/NO). PD-L1 was further shown to exacerbate pathological progression in septic mouse models. CONCLUSIONS: Our study demonstrated that sepsis-induced PD-L1 overexpression in macrophages exacerbates pathological progression by upregulating AIM2 expression, binding to AIM2 to enhance IL-18 production, which activates STAT1 to drive M1 polarization.",
+    "keywords": [
+      "Macrophages",
+      "PD-L1",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Sepsis/metabolism/pathology/immunology",
+      "*STAT1 Transcription Factor/metabolism",
+      "*B7-H1 Antigen/metabolism",
+      "*Macrophages/metabolism/pathology",
+      "*Signal Transduction",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "*Interleukin-18/metabolism",
+      "*DNA-Binding Proteins/metabolism",
+      "*Cell Polarity",
+      "Male",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Guomei",
+        "Ao, Luoquan",
+        "Zhao, Qing",
+        "Hu, Chengyi",
+        "Wu, Xiaofeng",
+        "Yao, Mengwei",
+        "Yuan, Mu",
+        "Jin, Tong",
+        "Wan, Weijun",
+        "Chen, Quan",
+        "Yuan, Yuchuan",
+        "Xu, Xiang",
+        "Tian, Lixing"
+      ],
+      "short_names": [
+        "Yang G",
+        "Ao L",
+        "Zhao Q",
+        "Hu C",
+        "Wu X",
+        "Yao M",
+        "Yuan M",
+        "Jin T",
+        "Wan W",
+        "Chen Q",
+        "Yuan Y",
+        "Xu X",
+        "Tian L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China. xiangxu@tmmu.edu.cn.",
+        "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China. tianlixing@tmmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Guomei",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Ao, Luoquan",
+        "short_name": "Ao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qing",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Chengyi",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaofeng",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Mengwei",
+        "short_name": "Yao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Mu",
+        "short_name": "Yuan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Tong",
+        "short_name": "Jin T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Weijun",
+        "short_name": "Wan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Quan",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yuchuan",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiang",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China. xiangxu@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tian, Lixing",
+        "short_name": "Tian L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell & Regenerative Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Daping Hospital, Army Medical University, Yuzhong District, Chongqing, 400042, China. tianlixing@tmmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2025 Dec 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/09 00:31",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42427499"
+    ],
+    "refs": [
+      "39872049",
+      "39600708",
+      "38992114",
+      "38869352",
+      "38774746",
+      "38660308",
+      "38440722",
+      "38135128",
+      "37949473",
+      "37247257",
+      "37168515",
+      "34764790",
+      "34731634",
+      "34641966",
+      "34162154",
+      "34147573",
+      "34014492",
+      "33771483",
+      "33423684",
+      "32839551",
+      "32792542",
+      "31954465",
+      "31178859",
+      "30619369",
+      "30431333",
+      "29668526",
+      "29661791",
+      "29661350",
+      "29455468",
+      "29319160",
+      "29305065",
+      "28850247",
+      "28349179",
+      "28323260",
+      "27806234",
+      "26936508",
+      "24778419",
+      "24387680",
+      "24335434",
+      "22378047",
+      "21349174",
+      "21118528",
+      "18227389",
+      "17183610",
+      "11438544"
+    ],
+    "similar": [
+      "41361470",
+      "41518433",
+      "41859384",
+      "41176072",
+      "41075009",
+      "38440722",
+      "30500923",
+      "33537094",
+      "40508140",
+      "42208328",
+      "37877820",
+      "38938563",
+      "34290705",
+      "38166970",
+      "41588435",
+      "31379842",
+      "39542656",
+      "32248017",
+      "39794821",
+      "24853068",
+      "39660129",
+      "30563569",
+      "38678669",
+      "32345320",
+      "39999939",
+      "41693021",
+      "29540832",
+      "28633555",
+      "28556912",
+      "24387680",
+      "41692111",
+      "41038145",
+      "42155789",
+      "41423154",
+      "39471785",
+      "36462334",
+      "28748356",
+      "38729294",
+      "31541762",
+      "41462367",
+      "36054963",
+      "40482761",
+      "41065943",
+      "40122504",
+      "28830685",
+      "40050048",
+      "38715061",
+      "39736644",
+      "40482976",
+      "29996098",
+      "40617363",
+      "33716082",
+      "41480318",
+      "39800253",
+      "41574627",
+      "42223114",
+      "38810587",
+      "38655660",
+      "32709878",
+      "33414262",
+      "39633456",
+      "36583372",
+      "41953007",
+      "41564474",
+      "39919348",
+      "41053808",
+      "41444511",
+      "40317043",
+      "39436561",
+      "41291761",
+      "40706204",
+      "40185466",
+      "37620622",
+      "37720226",
+      "42102747",
+      "40825908",
+      "42052827",
+      "39481645",
+      "39737788",
+      "41052556",
+      "39084503",
+      "34363898",
+      "41526166",
+      "38172698",
+      "39754316",
+      "34667077",
+      "40287812",
+      "42202917",
+      "32520957",
+      "27564404",
+      "34426111",
+      "29793310",
+      "33771483",
+      "39353381",
+      "32044366",
+      "32893965",
+      "41406067",
+      "38185347",
+      "36159784",
+      "37031362"
+    ],
+    "review": [
+      "41361470"
+    ],
+    "pmc": [
+      "12817491"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-025-02578-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41361470/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

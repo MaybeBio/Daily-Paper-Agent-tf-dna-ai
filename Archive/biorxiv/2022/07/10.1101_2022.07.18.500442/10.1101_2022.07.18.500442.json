@@ -1,0 +1,151 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.18.500442",
+  "title": "Epstein-Barr virus nuclear antigen proteins deploy diverse mechanisms to bind the human genome",
+  "doi": "10.1101/2022.07.18.500442",
+  "abstract": "Viral transcription factors (vTFs) are known to bind the human genome and impact critical biological processes. However, a vTF can infect multiple cell-types, and the extent to which they deploy the same mechanisms for DNA binding across different cell-types is poorly understood. We used the Epstein-Barr virus Nuclear Antigen Proteins 2 and 3 (EBNA2 and EBNA3) to address this gap, the two widely studied vTFs associated with cancers, as case studies. We analyze multiple ChIP-seq datasets of these vTFs from different human cell-lines using a state-of-the-art convolutional neural network model. We show that each vTF uses both cell-type specific and cell-type independent cofactors to bind the human genome. Interestingly, each vTF requires ∼10 cofactors consistently across all binding peaks. Such dependency on a large number of cofactors is in contrast to human TFs since human TFs typically co-bind with 2-3 cofactors. Our de novo motif finding approach also reveals novel sequence motifs at the ChIP peaks of these vTFs. These critical signals were missed by previous studies doing enrichment analysis using known human TFs. Finally, we find that although a vTF impacts similar biological processes across cell-types, it also impacts distinct biological processes in a cell-type specific manner. Our study provides a roadmap for integrative analysis of vTF binding and pinpointing their diverse mechanisms of targeting the human genome across different human cell-types.",
+  "authors": [
+    "Haque MR",
+    "Tushar AR",
+    "Park M",
+    "Moon CI",
+    "Rahman MS",
+    "Samee MAH"
+  ],
+  "published_date": "2022-07-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.18.500442",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.18.500442.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR520188",
+    "raw_record": {
+      "id": "PPR520188",
+      "source": "PPR",
+      "doi": "10.1101/2022.07.18.500442",
+      "title": "Epstein-Barr virus nuclear antigen proteins deploy diverse mechanisms to bind the human genome",
+      "authorString": "Haque MR, Tushar AR, Park M, Moon CI, Rahman MS, Samee MAH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Haque MR",
+            "lastName": "Haque",
+            "firstName": "Md. Redwanul",
+            "initials": "MR"
+          },
+          {
+            "fullName": "Tushar AR",
+            "lastName": "Tushar",
+            "firstName": "Abdur Rashid",
+            "initials": "AR"
+          },
+          {
+            "fullName": "Park M",
+            "lastName": "Park",
+            "firstName": "Minjun",
+            "initials": "M"
+          },
+          {
+            "fullName": "Moon CI",
+            "lastName": "Moon",
+            "firstName": "Chang In",
+            "initials": "CI"
+          },
+          {
+            "fullName": "Rahman MS",
+            "lastName": "Rahman",
+            "firstName": "Sohel",
+            "initials": "MS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9419-6478"
+            }
+          },
+          {
+            "fullName": "Samee MAH",
+            "lastName": "Samee",
+            "firstName": "Md. Abul Hassan",
+            "initials": "MAH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7472-1156"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9419-6478"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7472-1156"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Viral transcription factors (vTFs) are known to bind the human genome and impact critical biological processes. However, a vTF can infect multiple cell-types, and the extent to which they deploy the same mechanisms for DNA binding across different cell-types is poorly understood. We used the Epstein-Barr virus Nuclear Antigen Proteins 2 and 3 (EBNA2 and EBNA3) to address this gap, the two widely studied vTFs associated with cancers, as case studies. We analyze multiple ChIP-seq datasets of these vTFs from different human cell-lines using a state-of-the-art convolutional neural network model. We show that each vTF uses both cell-type specific and cell-type independent cofactors to bind the human genome. Interestingly, each vTF requires ∼10 cofactors consistently across all binding peaks. Such dependency on a large number of cofactors is in contrast to human TFs since human TFs typically co-bind with 2-3 cofactors. Our  de novo motif finding approach also reveals novel sequence motifs at the ChIP peaks of these vTFs. These critical signals were missed by previous studies doing enrichment analysis using known human TFs. Finally, we find that although a vTF impacts similar biological processes across cell-types, it also impacts distinct biological processes in a cell-type specific manner. Our study provides a roadmap for integrative analysis of vTF binding and pinpointing their diverse mechanisms of targeting the human genome across different human cell-types.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/19/2022.07.18.500442.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.18.500442"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-07-20",
+      "firstPublicationDate": "2022-07-19",
+      "firstIndexDate": "2022-07-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

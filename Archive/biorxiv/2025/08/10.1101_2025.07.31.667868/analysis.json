@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.31.667868",
+  "title": "Why variant effect predictors and multiplexed assays agree and disagree",
+  "authors": "Livesey BJ; Marsh JA",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-01",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文比较变异效应预测器与多重检测在错义变异功能影响上的异同，虽涉及蛋白结构特征但非蛋白质-DNA互作体系，且无AI/物理模拟建模方法，与本课题关联较弱。",
+  "abstract": "Computational variant effect predictors (VEPs) and multiplexed assays of variant effect (MAVEs) are two key tools for assessing the functional consequences of genetic variants. While their outputs are often concordant, there are also many differences. Here, we analyse missense MAVE data from 37 different human proteins, comparing them to five state-of-the-art VEPs in order to quantify and explain their points of agreement and disagreement. We find that discordance is not random but reflects fundamental differences in how each method infers functional impact. VEPs, which rely heavily on sequence conservation and basic structural features, tend to overcall pathogenicity at buried and hydrophobic residues, while underestimating impact in disordered regions and on charged surface residues. MAVEs, by contrast, capture context-specific mechanisms more accurately, but can miss pathogenic variants when the assay fails to reflect disease biology, or be subject to high levels of experimental noise. By comparing both global patterns and specific clinically relevant variants, we show how protein features, assay design, and variant type shape predictive discordance. Our findings provide a framework for interpreting when and why VEPs and MAVEs diverge and point toward strategies for improving variant interpretation through integrated, mechanism-aware approaches.",
+  "abstract_zh": "计算变异效应预测器（VEPs）和变异效应多重测定（MAVEs）是评估遗传变异功能后果的两个关键工具。尽管它们的输出通常一致，但也存在许多差异。在此，我们分析了来自37种不同人类蛋白质的错义MAVE数据，并将其与五种最先进的VEPs进行比较，以量化和解释它们的一致与分歧点。我们发现，不一致并非随机，而是反映了每种方法推断功能影响方式上的根本差异。VEPs主要依赖序列保守性和基本结构特征，倾向于在埋藏和疏水性残基处过度判定致病性，同时低估无序区域和带电表面残基的影响。相比之下，MAVEs能更准确地捕捉上下文特异性机制，但当测定未能反映疾病生物学时，可能遗漏致病性变异，或受到高水平实验噪声的影响。通过比较全局模式和特定临床相关变异，我们展示了蛋白质特征、测定设计和变异类型如何塑造预测性分歧。我们的发现为解读VEPs和MAVEs何时及为何出现分歧提供了框架，并指出了通过整合、机制感知方法改进变异解读的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667868",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667868",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.31.667868/index.html"
+}

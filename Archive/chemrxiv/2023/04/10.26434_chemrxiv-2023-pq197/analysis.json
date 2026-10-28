@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-pq197",
+  "title": "Building Block-Based Binding Predictions for DNA-Encoded Libraries",
+  "authors": "Chris Zhang; Mary Pitman; Anjali Dixit; Sumudu Leelananda; Henri Palacci; Meghan Lawler; Svetlana Belyanskaya; LaShadric Grady; Joe Franklin; Nicolas Tilmans; David Mobley",
+  "journal": "ChemRxiv",
+  "published_date": "2023-04-17",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究DNA编码文库中化合物构建块的结合预测，虽涉及DNA但非蛋白质-DNA互作体系，且无TF-DNA结合建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "DNA-encoded libraries (DELs) provide the means to make and screen millions of diverse compounds against a target of interest in a single experiment. However, despite producing large volumes of binding data at a relatively low cost, the DEL selection process is susceptible to noise, necessitating computational follow-up to increase signal-to-noise ratios. In this work, we present a set of informatics tools to analyze DEL selection data so that subsequent DEL screens probe productive regions of chemical space. Our approach segments DEL data at the individual building block level to identify productive building blocks in a library. We show how similar building blocks have a similar probability of binding, which we then employ to predict the behavior of untested building blocks. Lastly, we build a model from the inference that the combined behavior of individual building blocks is predictive of the activity of an overall compound. We report a performance of more than an order of magnitude greater than random guessing on a holdout set, demonstrating that our model can serve as a baseline for comparison against other machine learning models on DEL data.",
+  "abstract_zh": "DNA编码文库（DELs）提供了一种在单次实验中针对目标靶点制备并筛选数百万种多样化化合物的手段。然而，尽管以相对较低的成本产生了大量结合数据，DEL筛选过程仍易受噪声影响，因此需要计算后续处理以提高信噪比。在本工作中，我们提出了一套信息学工具来分析DEL筛选数据，以便后续的DEL筛选能够探测化学空间中的生产性区域。我们的方法在单个构建模块层面细分DEL数据，以识别文库中的生产性构建模块。我们展示了相似构建模块具有相似结合概率，并利用这一点来预测未测试构建模块的行为。最后，我们基于单个构建模块的联合行为可预测整体化合物活性的推断构建了一个模型。我们报告在保留集上的性能比随机猜测高出超过一个数量级，表明我们的模型可作为DEL数据上其他机器学习模型比较的基线。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-pq197",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-pq197",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-pq197/index.html"
+}

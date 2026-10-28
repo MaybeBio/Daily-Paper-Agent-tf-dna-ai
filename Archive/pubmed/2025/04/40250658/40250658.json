@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "40250658",
+    "doi": "10.1016/j.ijbiomac.2025.143234",
+    "title": "Exploration of the influence of environmental changes on the conformational and amyloidogenic landscapes of the zinc finger protein DPF3a by combining biophysical and molecular dynamics approaches."
+  },
+  "content": {
+    "abstract": "In the past few years, the double PHD fingers 3 (DPF3) protein isoforms (DPF3b and DPF3a) have been identified as new amyloidogenic intrinsically disordered proteins (IDPs). Although such discovery is coherent and promising in light of their involvement in proteinopathies, their amyloidogenic pathway remains largely unexplored. As environmental variations in pH and ionic strength are relevant to DPF3 pathophysiological landscape, we therefore enquired the effect of these physicochemical parameters on the protein structural and prone-to-aggregation properties, by focusing on the more disordered DPF3a isoform. In the present study, we exploited in vitro and in silico strategies by combining spectroscopy, microscopy, and all-atom molecular dynamics methods. Very good consistency and complementary information were found between the experiments and the simulations. Acidification unequivocally abrogated DPF3a fibrillation upon maintaining the protein in highly hydrated and expanded conformers due to extensive repulsion between positively charged regions. In contrast, alkaline pH delayed the aggregation process due to loss in intramolecular contacts and chain decompaction, the extent of which was partly reduced thanks to the compensation of negative charge by arginine side chains. Through screening attractive electrostatic interactions, high ionic strength conditions (300 and 500 mM NaCl) shifted the conformational ensemble towards more swollen, heterogeneous, and less H-bonded structures, which were responsible for slowing down the conversion into beta-sheeted species and restricting the fibril elongation. For defining the self-assembly pathway of DPF3a, we unveiled that the protein amyloidogenicity intimately communicates with its conformational landscape, which is particularly sensitive to modification of its physicochemical environment. As such, understanding how to modulate DPF3a conformational ensemble will help designing novel protein-specific strategies for targeting neurodegeneration.",
+    "keywords": [
+      "Amyloid",
+      "Autofluorescence",
+      "Double PHD fingers 3 (DPF3)",
+      "Intrinsically disordered protein",
+      "Molecular dynamics",
+      "Physicochemical parameter",
+      "Polyampholyte"
+    ],
+    "mesh_terms": [
+      "Hydrogen-Ion Concentration",
+      "Humans",
+      "Osmolar Concentration",
+      "*DNA-Binding Proteins/chemistry/genetics/metabolism",
+      "*Transcription Factors/chemistry/genetics/metabolism",
+      "*Amyloidosis",
+      "Molecular Dynamics Simulation",
+      "Protein Structure, Tertiary",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mignon, Julien",
+        "Leyder, Tanguy",
+        "Monari, Antonio",
+        "Mottet, Denis",
+        "Michaux, Catherine"
+      ],
+      "short_names": [
+        "Mignon J",
+        "Leyder T",
+        "Monari A",
+        "Mottet D",
+        "Michaux C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium. Electronic address: julien.mignon@unamur.be.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium. Electronic address: tanguy.leyder@unamur.be.",
+        "Universite Paris Cite and CNRS, ITODYS, 75006 Paris, France. Electronic address: antonio.monari@u-paris.fr.",
+        "Molecular Analysis of Gene Expression (MAGE) Laboratory, GIGA Institute, University of Liege, B34, 1 Avenue de l'Hopital, 4000 Liege, Belgium. Electronic address: dmottet@uliege.be.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium. Electronic address: catherine.michaux@unamur.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mignon, Julien",
+        "short_name": "Mignon J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium. Electronic address: julien.mignon@unamur.be."
+        ]
+      },
+      {
+        "full_name": "Leyder, Tanguy",
+        "short_name": "Leyder T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium. Electronic address: tanguy.leyder@unamur.be."
+        ]
+      },
+      {
+        "full_name": "Monari, Antonio",
+        "short_name": "Monari A",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité and CNRS, ITODYS, 75006 Paris, France. Electronic address: antonio.monari@u-paris.fr."
+        ]
+      },
+      {
+        "full_name": "Mottet, Denis",
+        "short_name": "Mottet D",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Analysis of Gene Expression (MAGE) Laboratory, GIGA Institute, University of Liège, B34, 1 Avenue de l'Hôpital, 4000 Liège, Belgium. Electronic address: dmottet@uliege.be."
+        ]
+      },
+      {
+        "full_name": "Michaux, Catherine",
+        "short_name": "Michaux C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium. Electronic address: catherine.michaux@unamur.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/19 00:56",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "41551795"
+    ],
+    "refs": [],
+    "similar": [
+      "40250658",
+      "35863661",
+      "41330221",
+      "36499617",
+      "34337219",
+      "38508075",
+      "22334708",
+      "23912807",
+      "26582913",
+      "8639594",
+      "15351653",
+      "23821606",
+      "30315849",
+      "23607785",
+      "32459350",
+      "35945219",
+      "33030907",
+      "40034034",
+      "33581430",
+      "28970487",
+      "23811057",
+      "35167081",
+      "29362761",
+      "19937650",
+      "22885776",
+      "36310204",
+      "10820004",
+      "30840442",
+      "20613843",
+      "24566672",
+      "19576220",
+      "30081240",
+      "37246507",
+      "21761818",
+      "25240418",
+      "9367756",
+      "21329333",
+      "24127726",
+      "11800559",
+      "34986640",
+      "26735936",
+      "32070740",
+      "30520297",
+      "11514668",
+      "39089542",
+      "33068637",
+      "15342239",
+      "36542916",
+      "10913285",
+      "31557007",
+      "21483680",
+      "29364151",
+      "33108190",
+      "32403216",
+      "29669263",
+      "41053219",
+      "24098542",
+      "7577941",
+      "31998071",
+      "34845619",
+      "11327784",
+      "23891935",
+      "34273400",
+      "27203736",
+      "29734798",
+      "39248414",
+      "38928405",
+      "39769157",
+      "36098068",
+      "38615537",
+      "40167418",
+      "34152264",
+      "40889878",
+      "36131545",
+      "39579816",
+      "35167084",
+      "26721385",
+      "10656784",
+      "31711963",
+      "22506277",
+      "20441311",
+      "27759128",
+      "25131953",
+      "29630971",
+      "23220279",
+      "40198698",
+      "26953503",
+      "40853068",
+      "33337879",
+      "19602727",
+      "36206480",
+      "22466073",
+      "18662699",
+      "21640469",
+      "32371882",
+      "40207671",
+      "27825804",
+      "20469897",
+      "29548979",
+      "27854243"
+    ],
+    "review": [
+      "40250658",
+      "30840442",
+      "24566672",
+      "29364151",
+      "32403216"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)03786-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyloidosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyloidosis"
+      },
+      {
+        "url": "https://hdl.handle.net/2268/339476",
+        "provider": "ORBi (University of Liege)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full Text at ORBi"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

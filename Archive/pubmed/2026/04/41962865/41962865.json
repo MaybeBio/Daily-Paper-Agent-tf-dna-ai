@@ -1,0 +1,524 @@
+{
+  "identity": {
+    "pmid": "41962865",
+    "doi": "10.1016/j.jbc.2026.111435",
+    "title": "An artificial intelligence optimized hepatic differentiation unveils NR5A2 and AP-1 transcriptional regulation in hepatic maturation."
+  },
+  "content": {
+    "abstract": "The generation of hepatocyte-like cells (HLCs) from human pluripotent stem cells (hPSCs) holds great promise for drug discovery and cell-based therapy for liver disease. However, current differentiation protocols are complicated and unstable, and the underlying gene regulatory mechanisms of hepatic differentiation remain incompletely defined. Here, we developed a machine learning-based artificial intelligence (AI) tool using phase-contrast images of hepatic progenitor cells (HPCs), which are essential for generating HLCs. The AI tool significantly improves the success rate of hepatic differentiation without the need for immunostaining or lineage tracing. By optimizing the methodology, we achieved an impressive purity of 90 to 95% for HLCs derived from hPSCs, aided by the AI algorithm. Through further investigating transcriptomes and epigenomic changes, we discovered the pivotal roles of nuclear receptor subfamily 5 group A member 2 and activator protein-1 transcription factors in regulating the maturation of hepatocytes. Single-cell RNA sequencing demonstrated the upregulation of nuclear receptor subfamily 5 group A member 2 and activator protein-1 during hepatic differentiation. Importantly, mutation analysis and tumorigenesis assays confirmed the safety of this modified hepatic differentiation protocol. This work highlights the potential of combining AI algorithm and computational genomics to facilitate development of lineage differentiation and molecular mechanism study.",
+    "keywords": [
+      "AP-1",
+      "NR5A2",
+      "artificial intelligence",
+      "hepatic differentiation",
+      "multi-omics study"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cell Differentiation",
+      "*Hepatocytes/metabolism/cytology",
+      "*Receptors, Cytoplasmic and Nuclear/genetics/metabolism",
+      "*Transcription Factor AP-1/genetics/metabolism",
+      "*Artificial Intelligence",
+      "Pluripotent Stem Cells/cytology/metabolism",
+      "*Liver/cytology/metabolism",
+      "Transcription, Genetic",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huo, Zijun",
+        "Tu, Jian",
+        "Yang, Wei-Lei",
+        "Huang, Mo-Fan",
+        "Wang, Ruoyu",
+        "Chu, Chih-Wei",
+        "Xu, An",
+        "Yu, Yao",
+        "Tavakol, Tara N",
+        "Kizilbash, Mikal",
+        "Fisher, Megan E",
+        "Huang, Yu-Wen",
+        "Zhu, Dandan",
+        "Phan, Trinh T T",
+        "Shoemaker, Rachel",
+        "Chen, Ya-Wen",
+        "Zhang, Yang",
+        "Huff, Chad D",
+        "Chen, Shih-Yu",
+        "Liu, Tien-Jen",
+        "Xiao, Haipeng",
+        "Lee, Dung-Fang",
+        "Zhao, Ruiying"
+      ],
+      "short_names": [
+        "Huo Z",
+        "Tu J",
+        "Yang WL",
+        "Huang MF",
+        "Wang R",
+        "Chu CW",
+        "Xu A",
+        "Yu Y",
+        "Tavakol TN",
+        "Kizilbash M",
+        "Fisher ME",
+        "Huang YW",
+        "Zhu D",
+        "Phan TTT",
+        "Shoemaker R",
+        "Chen YW",
+        "Zhang Y",
+        "Huff CD",
+        "Chen SY",
+        "Liu TJ",
+        "Xiao H",
+        "Lee DF",
+        "Zhao R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endocrinology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, P. R. China; Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; Department of Musculoskeletal Oncology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, P. R. China; Guangdong Provincial Key Laboratory of Orthopedics and Traumatology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, P. R. China.",
+        "AIxMed Inc. Santa Clara, California, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA.",
+        "The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA; Department of Biochemistry and Molecular Biology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA.",
+        "Department of Epidemiology, The University of Texas MD Anderson Cancer Center, Houston, Texas, USA.",
+        "Department of Otolaryngology, Icahn School of Medicine at Mount Sinai, New York, New York, USA.",
+        "Department of Otolaryngology, Icahn School of Medicine at Mount Sinai, New York, New York, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA.",
+        "Department of Otolaryngology, Icahn School of Medicine at Mount Sinai, New York, New York, USA; Department of Cell, Developmental and Regenerative Biology, Icahn School of Medicine at Mount Sinai, New York, New York, USA; Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, New York, USA; Institute for Airway Sciences, Icahn School of Medicine at Mount Sinai, New York, New York, USA; Center for Epithelial and Airway Biology and Regeneration, Icahn School of Medicine at Mount Sinai, New York, New York, USA.",
+        "College of Science, Harbin Institute of Technology (Shenzhen), Shenzhen, Guangdong, China.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; Department of Epidemiology, The University of Texas MD Anderson Cancer Center, Houston, Texas, USA.",
+        "AIxMed Inc. Santa Clara, California, USA.",
+        "AIxMed Inc. Santa Clara, California, USA.",
+        "Department of Endocrinology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, P. R. China.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA; Center for Precision Health, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, Texas, USA. Electronic address: dung-fang.lee@uth.tmc.edu.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA. Electronic address: ruiying.zhao@uth.tmc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huo, Zijun",
+        "short_name": "Huo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, P. R. China; Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Tu, Jian",
+        "short_name": "Tu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; Department of Musculoskeletal Oncology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, P. R. China; Guangdong Provincial Key Laboratory of Orthopedics and Traumatology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wei-Lei",
+        "short_name": "Yang WL",
+        "identifiers": [],
+        "affiliations": [
+          "AIxMed Inc. Santa Clara, California, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Mo-Fan",
+        "short_name": "Huang MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruoyu",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA; Department of Biochemistry and Molecular Biology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Chu, Chih-Wei",
+        "short_name": "Chu CW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, An",
+        "short_name": "Xu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Yao",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, The University of Texas MD Anderson Cancer Center, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Tavakol, Tara N",
+        "short_name": "Tavakol TN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Icahn School of Medicine at Mount Sinai, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Kizilbash, Mikal",
+        "short_name": "Kizilbash M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Icahn School of Medicine at Mount Sinai, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Fisher, Megan E",
+        "short_name": "Fisher ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Yu-Wen",
+        "short_name": "Huang YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Dandan",
+        "short_name": "Zhu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Phan, Trinh T T",
+        "short_name": "Phan TTT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Shoemaker, Rachel",
+        "short_name": "Shoemaker R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Ya-Wen",
+        "short_name": "Chen YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Icahn School of Medicine at Mount Sinai, New York, New York, USA; Department of Cell, Developmental and Regenerative Biology, Icahn School of Medicine at Mount Sinai, New York, New York, USA; Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, New York, USA; Institute for Airway Sciences, Icahn School of Medicine at Mount Sinai, New York, New York, USA; Center for Epithelial and Airway Biology and Regeneration, Icahn School of Medicine at Mount Sinai, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science, Harbin Institute of Technology (Shenzhen), Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huff, Chad D",
+        "short_name": "Huff CD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; Department of Epidemiology, The University of Texas MD Anderson Cancer Center, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Shih-Yu",
+        "short_name": "Chen SY",
+        "identifiers": [],
+        "affiliations": [
+          "AIxMed Inc. Santa Clara, California, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Tien-Jen",
+        "short_name": "Liu TJ",
+        "identifiers": [],
+        "affiliations": [
+          "AIxMed Inc. Santa Clara, California, USA."
+        ]
+      },
+      {
+        "full_name": "Xiao, Haipeng",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lee, Dung-Fang",
+        "short_name": "Lee DF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA; The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, Texas, USA; Center for Precision Health, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, Texas, USA. Electronic address: dung-fang.lee@uth.tmc.edu."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ruiying",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, Texas, USA. Electronic address: ruiying.zhao@uth.tmc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/11 00:32",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40337141",
+      "37935903",
+      "37557073",
+      "37357747",
+      "36973285",
+      "36115636",
+      "35953586",
+      "35863491",
+      "35412907",
+      "35395867",
+      "34965247",
+      "34663941",
+      "34440795",
+      "34343743",
+      "33891867",
+      "33862147",
+      "32764740",
+      "31788897",
+      "31714897",
+      "31419525",
+      "31145821",
+      "31113731",
+      "30880077",
+      "29777175",
+      "29754958",
+      "29294048",
+      "28614297",
+      "28445466",
+      "28388431",
+      "27874032",
+      "27143754",
+      "27141961",
+      "27062358",
+      "25860607",
+      "25409831",
+      "24510789",
+      "24440487",
+      "24076218",
+      "23424751",
+      "22893457",
+      "22862944",
+      "22822070",
+      "22689647",
+      "22441292",
+      "21852532",
+      "19998274",
+      "19056973",
+      "18940732",
+      "18719101",
+      "18508634",
+      "17204604",
+      "15130581",
+      "14668816",
+      "12824425",
+      "12297826",
+      "11988758",
+      "11402336",
+      "11030331",
+      "10559496",
+      "10352021",
+      "10205167",
+      "8668203",
+      "8371760",
+      "7854452",
+      "6912278",
+      "2113615"
+    ],
+    "similar": [
+      "41962865",
+      "42525161",
+      "28215634",
+      "25457200",
+      "27062358",
+      "29861165",
+      "35007406",
+      "26899675",
+      "31465481",
+      "29523187",
+      "21852396",
+      "32917265",
+      "28698227",
+      "35863491",
+      "27474396",
+      "27733097",
+      "26854693",
+      "31304567",
+      "31122128",
+      "34772451",
+      "26089346",
+      "29883712",
+      "35338220",
+      "21162674",
+      "30776728",
+      "23731381",
+      "30883676",
+      "35410439",
+      "26486521",
+      "39878507",
+      "37907977",
+      "20301097",
+      "29851366",
+      "26308339",
+      "40467003",
+      "28456008",
+      "21210253",
+      "21210720",
+      "37616601",
+      "35959725",
+      "27909741",
+      "29298619",
+      "21241686",
+      "21669044",
+      "22970843",
+      "27569862",
+      "27874032",
+      "26313525",
+      "26679606",
+      "30962288",
+      "27532814",
+      "40320524",
+      "41057965",
+      "37814474",
+      "31299272",
+      "33997805",
+      "30357683",
+      "22076752",
+      "28287600",
+      "20331356",
+      "26494966",
+      "30102283",
+      "29443959",
+      "32563741",
+      "33371861",
+      "24715669",
+      "25135862",
+      "39904185",
+      "30240598",
+      "30878880",
+      "22659344",
+      "22976305",
+      "40782899",
+      "39259445",
+      "37413859",
+      "30463600",
+      "27874233",
+      "20106584",
+      "24477550",
+      "39910642",
+      "25073010",
+      "22384928",
+      "30456803",
+      "23861064",
+      "23681950",
+      "33997813",
+      "19757991",
+      "40188417",
+      "20720011",
+      "35371477",
+      "28328977",
+      "24510789",
+      "18571787",
+      "32059501",
+      "31601782",
+      "17386014",
+      "28412976",
+      "30646961",
+      "30765795",
+      "19642877"
+    ],
+    "review": [
+      "41962865",
+      "30357683",
+      "33371861",
+      "30878880",
+      "40782899",
+      "39910642"
+    ],
+    "pmc": [
+      "13185932"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(26)00305-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41962865/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

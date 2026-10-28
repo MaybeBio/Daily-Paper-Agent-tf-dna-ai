@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2606.07607v1",
+  "title": "Position: Genomic Model Research Must Move Beyond Anecdotal Evaluation of Interpretability Methods",
+  "doi": "",
+  "abstract": "Advances in machine learning and computational power have unlocked the predictive potential of the human genome, yet biologists now demand that these models also elucidate the underlying biological mechanisms. While interpretable machine learning (IML) techniques have been increasingly applied to bridge this gap, there has been a pervasive reliance on anecdotal validation: the vast majority of research relies on a single IML method and reports only isolated successful instances. Through a benchmarking study on transcription factor binding, we demonstrate the risks of current practices. We show that different IML methods can often (1) yield contradictory explanations for the same predictions, (2) fail to localize known regulatory motifs, and (3) fail to faithfully reflect the model's internal decision process. In light of this, we argue for a validation framework analogous to clinical trials: just as trials require rigorous design and adverse-event reporting, genomic interpretability must move beyond cherry-picked plausibility toward systematic assessment of consistency, faithfulness, and biological validity. To facilitate this, we propose a tiered framework to guide rigorous evaluation and reporting of genomic IML methods.",
+  "authors": [
+    "Shasha Zhou",
+    "Mingyu Huang",
+    "Ke Li"
+  ],
+  "published_date": "2026-05-29T12:20:12Z",
+  "updated_date": "2026-05-29T12:20:12Z",
+  "journal": "",
+  "category": "cs.LG, q-bio.GN",
+  "landing_url": "https://arxiv.org/abs/2606.07607v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.07607v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG",
+    "q-bio.GN"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2606.07607v1",
+    "raw_categories": [
+      "cs.LG",
+      "q-bio.GN"
+    ],
+    "journal_ref": ""
+  }
+}

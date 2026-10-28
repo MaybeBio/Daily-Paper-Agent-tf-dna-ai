@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "42260834",
+    "doi": "10.1097/MD.0000000000049113",
+    "title": "Integrated bioinformatics and machine learning for constructing a diagnostic model of major depressive disorder leveraging shared signatures from hemodialysis: A cross-sectional study."
+  },
+  "content": {
+    "abstract": "Major depressive disorder (MDD) is a highly prevalent and debilitating condition in patients undergoing long-term hemodialysis (HD), severely impairing quality of life and imposing a substantial economic burden. Despite the clinical significance of this frequent co-occurrence, the shared molecular mechanisms linking HD and MDD remain poorly understood. Multiple gene expression omnibus transcriptomic datasets were integrated and preprocessed through standardized workflows to ensure comparability. Differentially expressed genes (DEGs) were identified separately for HD and MDD cohorts. Shared DEGs were subjected to functional enrichment analysis. A diagnostic model for MDD was constructed using machine learning algorithms based on the identified core genes. The model's performance was evaluated across the training cohort, external validation cohort, and subgroups. Additionally, immune cell infiltration patterns were analyzed, and associations between core genes and immune cells were assessed. Micro ribonucleic acid analysis identified potential upstream regulators of the core genes. A total of 34 DEGs were identified, which were significantly enriched in immune and inflammatory pathways. Using Lasso regression and gradient boosting algorithms, we identified 6 core genes (microsomal glutathione S-transferase 1 [MGST1], BAF chromatin remodeling complex subunit BCL7A [BCL7A], carnitine O-acetyltransferase [CRAT], fucosyltransferase 8 [FUT8], MAF BZIP transcription factor G [MAFG] and SDAD1 ribosome assembly factor [SDAD1]). In this exploratory analysis, the diagnostic model based on these genes exhibited consistent discriminative performance across different validation cohorts (area under the curve: 0.858-0.891). Immune infiltration analysis revealed significant alterations in immune phenotypes, particularly in monocytes and gammadelta T cells. Correlation analysis identified specific gene-immune associations. Furthermore, hsa-let-7b-5p was identified as a key upstream micro ribonucleic acid, which was upregulated in patients with MDD and exhibited predictive regulatory relationships with the core genes. This study established a molecular framework for MDD by integrating bioinformatics and machine learning, centered on the shared immune dysregulation and key genes between HD and MDD.",
+    "keywords": [
+      "Biomarker",
+      "Diagnostic model",
+      "Hemodialysis",
+      "Immune cells infiltration",
+      "Machine learning",
+      "Major depressive disorder"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Renal Dialysis/adverse effects",
+      "*Major Depressive Disorder/diagnosis/genetics/immunology",
+      "*Computational Biology/methods",
+      "Cross-Sectional Studies",
+      "Gene Expression Profiling",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Meng",
+        "Huang, Pingli",
+        "Wu, Rongrong",
+        "Wang, Huihui",
+        "Xu, Ping",
+        "Zheng, Xuejing"
+      ],
+      "short_names": [
+        "Zheng M",
+        "Huang P",
+        "Wu R",
+        "Wang H",
+        "Xu P",
+        "Zheng X"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-5234-1632",
+        "ORCID: 0009-0002-0217-6408"
+      ],
+      "affiliations": [
+        "Hemodialysis Center, The Third Affiliated People's Hospital, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Meng",
+        "short_name": "Zheng M",
+        "identifiers": [
+          "0009-0003-5234-1632"
+        ],
+        "affiliations": [
+          "Hemodialysis Center, The Third Affiliated People's Hospital, Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Pingli",
+        "short_name": "Huang P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wu, Rongrong",
+        "short_name": "Wu R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Huihui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xu, Ping",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zheng, Xuejing",
+        "short_name": "Zheng X",
+        "identifiers": [
+          "0009-0002-0217-6408"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Jun 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/09 06:36",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41584678",
+      "41475687",
+      "41066853",
+      "40610703",
+      "40557057",
+      "40375064",
+      "39961689",
+      "39867577",
+      "39809148",
+      "39763672",
+      "39681901",
+      "39421743",
+      "39295096",
+      "39098853",
+      "39003990",
+      "38727891",
+      "38664360",
+      "38243887",
+      "38050767",
+      "37713848",
+      "37692732",
+      "37620370",
+      "37611836",
+      "37521991",
+      "37491604",
+      "35408133",
+      "35367202",
+      "35184642",
+      "35152883",
+      "34886843",
+      "33961966",
+      "33906683",
+      "33653419",
+      "33421113",
+      "32170136",
+      "32141499",
+      "31889537",
+      "31124254",
+      "30224877",
+      "29689692",
+      "29286344",
+      "29178897",
+      "28688579",
+      "27629598",
+      "27006086",
+      "26775294",
+      "24395925",
+      "23085503",
+      "17322178",
+      "15897551",
+      "15265886",
+      "12526798",
+      "11016895"
+    ],
+    "similar": [
+      "42260834",
+      "41665627",
+      "38754597",
+      "42298439",
+      "42477639",
+      "40253457",
+      "42737434",
+      "40374866",
+      "42352882",
+      "42061206",
+      "41703488",
+      "41200172",
+      "42418414",
+      "39062507",
+      "41964403",
+      "42273676",
+      "39976098",
+      "39048886",
+      "42225708",
+      "40286923",
+      "42123445",
+      "40689242",
+      "41601671",
+      "42510870",
+      "40830558",
+      "41274041",
+      "41611834",
+      "41291978",
+      "41424060",
+      "38608447",
+      "42247642",
+      "40541827",
+      "41826854",
+      "41052072",
+      "39142001",
+      "40500570",
+      "41479901",
+      "42302029",
+      "41436831",
+      "39375405",
+      "40997906",
+      "39512836",
+      "41146237",
+      "41013556",
+      "38867322",
+      "42569390",
+      "40935254",
+      "41219826",
+      "42429909",
+      "41188996",
+      "41112415",
+      "39713769",
+      "41816342",
+      "41044520",
+      "41816328",
+      "41988156",
+      "41884211",
+      "41265166",
+      "39284527",
+      "41120378",
+      "39586719",
+      "38199392",
+      "42730994",
+      "42327749",
+      "42475469",
+      "40406126",
+      "42706545",
+      "42491356",
+      "37098514",
+      "42643640",
+      "42631563",
+      "42363518",
+      "42313235",
+      "39507054",
+      "42148317",
+      "41405396",
+      "39509434",
+      "41300841",
+      "42642681",
+      "42015036",
+      "42623125",
+      "41756296",
+      "41474729",
+      "41656832",
+      "41388523",
+      "39953304",
+      "42175405",
+      "40374840",
+      "41442003",
+      "42552532",
+      "42306043",
+      "41305834",
+      "41578471",
+      "40046872",
+      "38993198",
+      "41716396",
+      "40129981",
+      "42292668",
+      "39419187",
+      "41795073"
+    ],
+    "review": [
+      "42260834",
+      "41665627"
+    ],
+    "pmc": [
+      "13246050"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/dialysis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Dialysis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42260834/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-341",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000049113",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

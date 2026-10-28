@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "35764630",
+    "doi": "10.1038/s41467-022-31337-w",
+    "title": "Learning representations of chromatin contacts using a recurrent neural network identifies genomic drivers of conformation."
+  },
+  "content": {
+    "abstract": "Despite the availability of chromatin conformation capture experiments, discerning the relationship between the 1D genome and 3D conformation remains a challenge, which limits our understanding of their affect on gene expression and disease. We propose Hi-C-LSTM, a method that produces low-dimensional latent representations that summarize intra-chromosomal Hi-C contacts via a recurrent long short-term memory neural network model. We find that these representations contain all the information needed to recreate the observed Hi-C matrix with high accuracy, outperforming existing methods. These representations enable the identification of a variety of conformation-defining genomic elements, including nuclear compartments and conformation-related transcription factors. They furthermore enable in-silico perturbation experiments that measure the influence of cis-regulatory elements on conformation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/genetics",
+      "*Genomics",
+      "Learning",
+      "Molecular Conformation",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dsouza, Kevin B",
+        "Maslova, Alexandra",
+        "Al-Jibury, Ediem",
+        "Merkenschlager, Matthias",
+        "Bhargava, Vijay K",
+        "Libbrecht, Maxwell W"
+      ],
+      "short_names": [
+        "Dsouza KB",
+        "Maslova A",
+        "Al-Jibury E",
+        "Merkenschlager M",
+        "Bhargava VK",
+        "Libbrecht MW"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2466-0989",
+        "ORCID: 0000-0003-2502-0262"
+      ],
+      "affiliations": [
+        "Department of Electrical and Computer Engineering, University of British Columbia, Vancouver, Canada. kevin@ece.ubc.ca.",
+        "School of Computing Science, Simon Fraser University, Burnaby, Canada.",
+        "MRC, London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "Department of Computing, Imperial College London, London, UK.",
+        "MRC, London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "Department of Electrical and Computer Engineering, University of British Columbia, Vancouver, Canada.",
+        "School of Computing Science, Simon Fraser University, Burnaby, Canada. maxwl@sfu.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dsouza, Kevin B",
+        "short_name": "Dsouza KB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of British Columbia, Vancouver, Canada. kevin@ece.ubc.ca."
+        ]
+      },
+      {
+        "full_name": "Maslova, Alexandra",
+        "short_name": "Maslova A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing Science, Simon Fraser University, Burnaby, Canada."
+        ]
+      },
+      {
+        "full_name": "Al-Jibury, Ediem",
+        "short_name": "Al-Jibury E",
+        "identifiers": [
+          "0000-0003-2466-0989"
+        ],
+        "affiliations": [
+          "MRC, London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "Department of Computing, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Merkenschlager, Matthias",
+        "short_name": "Merkenschlager M",
+        "identifiers": [],
+        "affiliations": [
+          "MRC, London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Bhargava, Vijay K",
+        "short_name": "Bhargava VK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of British Columbia, Vancouver, Canada."
+        ]
+      },
+      {
+        "full_name": "Libbrecht, Maxwell W",
+        "short_name": "Libbrecht MW",
+        "identifiers": [
+          "0000-0003-2502-0262"
+        ],
+        "affiliations": [
+          "School of Computing Science, Simon Fraser University, Burnaby, Canada. maxwl@sfu.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jun 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/29 06:00",
+    "fetched_at": "2026-09-28 10:17:34"
+  },
+  "links": {
+    "cites": [
+      "42525745",
+      "41684299",
+      "40180945",
+      "37478379",
+      "36534827",
+      "36460680"
+    ],
+    "refs": [
+      "34635838",
+      "34551426",
+      "33398174",
+      "33113374",
+      "33046897",
+      "32933554",
+      "32550271",
+      "32470376",
+      "32369553",
+      "32318100",
+      "32228704",
+      "32127534",
+      "32084131",
+      "31954918",
+      "31937660",
+      "31925403",
+      "31911579",
+      "31856220",
+      "31811132",
+      "31699985",
+      "31235599",
+      "31197269",
+      "30871473",
+      "30869141",
+      "30867673",
+      "30849367",
+      "30679435",
+      "30526631",
+      "30361340",
+      "30355343",
+      "30314429",
+      "30286773",
+      "30102342",
+      "29599440",
+      "29581440",
+      "29467363",
+      "29425488",
+      "29401453",
+      "29251915",
+      "29087948",
+      "28985562",
+      "28938092",
+      "28912419",
+      "28525758",
+      "28467304",
+      "28135255",
+      "27906974",
+      "27852650",
+      "27851967",
+      "27203237",
+      "27064255",
+      "26960733",
+      "26940867",
+      "26586731",
+      "26499245",
+      "26276636",
+      "26272203",
+      "25995270",
+      "25725496",
+      "25677182",
+      "25497547",
+      "23838440",
+      "23787338",
+      "23041285",
+      "22941365",
+      "22739344",
+      "22495300",
+      "22426492",
+      "22265598",
+      "22207374",
+      "22169023",
+      "21330290",
+      "21156067",
+      "20461051",
+      "20430782",
+      "19563753",
+      "19074263",
+      "19056695",
+      "17612490",
+      "17442748",
+      "16951251",
+      "11473012",
+      "11108481",
+      "9377276"
+    ],
+    "similar": [
+      "35764630",
+      "36352464",
+      "32093610",
+      "37591842",
+      "34043510",
+      "37084258",
+      "35396274",
+      "37515382",
+      "35929807",
+      "31510693",
+      "37077163",
+      "37133976",
+      "36879202",
+      "32127534",
+      "36829114",
+      "29408992",
+      "26001583",
+      "27008015",
+      "34850813",
+      "34575948",
+      "36624151",
+      "39345598",
+      "34957106",
+      "37287135",
+      "34415530",
+      "32353112",
+      "35366792",
+      "33545029",
+      "32034421",
+      "29137603",
+      "29048467",
+      "35933090",
+      "27391817",
+      "30872258",
+      "35749574",
+      "33398973",
+      "34013331",
+      "28623585",
+      "33685371",
+      "37335495",
+      "32611376",
+      "26553003",
+      "36534827",
+      "31146487",
+      "25677182",
+      "35274679",
+      "31530818",
+      "27233632",
+      "31960372",
+      "36173570",
+      "33724986",
+      "36458445",
+      "34729306",
+      "29848293",
+      "35680466",
+      "32822575",
+      "37280678",
+      "36272084",
+      "32847102",
+      "27130552",
+      "25886366",
+      "36206320",
+      "38586584",
+      "36314814",
+      "29106613",
+      "36018818",
+      "28582503",
+      "34252966",
+      "30610495",
+      "29053968",
+      "37127596",
+      "29244056",
+      "23536826",
+      "28881969",
+      "28333638",
+      "35867246",
+      "29113562",
+      "31357933",
+      "33381846",
+      "36066718",
+      "31856220",
+      "33221831",
+      "29149895",
+      "31442560",
+      "39363891",
+      "37091873"
+    ],
+    "review": [
+      "35764630",
+      "37077163",
+      "34957106",
+      "30872258",
+      "33398973",
+      "31146487",
+      "35680466",
+      "27130552",
+      "38586584",
+      "36018818",
+      "30610495",
+      "29149895"
+    ],
+    "pmc": [
+      "9240038"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-31337-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35764630/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35764630",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "40045550",
+    "doi": "10.1002/ame2.70000",
+    "title": "Astaxanthin ameliorates benzalkonium chloride-induced dry eye disease through suppressing inflammation and oxidative stress via Keap1-Nrf2/HO-1 signaling pathways."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Dry eye disease (DED) predominantly results from elevated tear film osmolarity, which can not only cause ocular inconvenience but may lead to visual impairments, severely compromising patient well-being and exerting substantial economic burdens as well. Astaxanthin (AST), a member of the xanthophylls and recognized for its robust abilities to combat inflammation and oxidation, is a common dietary supplement. Nonetheless, the precise molecular pathways through which AST influences DED are still poorly understood. METHODS: Therapeutic targets for AST were identified using data from the GeneCards, PharmMapper, and Swiss Target Prediction databases, and STITCH datasets. Similarly, targets for dry eye disease (DED) were delineated leveraging resources such as the Therapeutic Target Database (TTD), DisGeNET, GeneCards, and OMIM databases, and DrugBank datasets. Interactions among shared targets were charted and displayed using CytoScape 3.9.0. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway analyses were conducted to elucidate the functions of pivotal targets within the protein-protein interaction network. Molecular interactions between AST and key targets were confirmed through molecular docking using AutoDock and PyMOL. Molecular dynamics simulations were performed using GROMACS 2022.3. Viability of human corneal epithelial cells (hCEC) was assessed across varying concentrations of AST. A mouse model of experimental DED was developed using 0.1% benzalkonium chloride (BAC), and the animals were administered 100 mg/kg/day of AST orally for 7 days. The efficacy of the treatments was assessed through a series of diagnostic tests to evaluate the condition of the ocular surface after the interventions. The levels of inflammation and oxidative stress were quantitatively assessed using methods such as reverse transcription-polymerase chain reaction (RT-PCR), Western blot, and immunofluorescence staining. RESULTS: Network pharmacology suggests that AST may alleviate DED by influencing oxidation-reduction signaling pathways and reducing oxidative stress provoked by BAC. In vivo experiments demonstrated an improved overall condition in AST-administered mice in contrast to the control group. Immunofluorescence staining analyses indicated a decrease in Keap1 protein in the corneal tissues of AST-treated mice and a significant increase in Nrf2 and HO-1 protein. In vitro studies demonstrated that AST significantly enhanced cell viability and suppressed reactive oxygen species expression under hyperosmotic (HS) conditions, thereby protecting the human corneal epithelium. CONCLUSION: AST is capable of shielding mice from BAC-induced DED, decelerating the progression of DED, and mitigating oxidative stress damage under HS conditions in hCEC cells. The protective impact of AST on DED may operate through stimulating the Keap1-Nrf2/HO-1 signaling pathway. Our research findings indicate that AST may be a promising treatment for DED, offering new insights into DED treatment.",
+    "keywords": [
+      "Keap1-Nrf2/HO-1 pathway",
+      "astaxanthin",
+      "dry eye disease",
+      "human corneal epithelial cell",
+      "network pharmacology",
+      "oxidative stress"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "NF-E2-Related Factor 2/metabolism",
+      "*Dry Eye Syndromes/drug therapy/chemically induced",
+      "*Oxidative Stress/drug effects",
+      "*Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Signal Transduction/drug effects",
+      "Xanthophylls/pharmacology",
+      "Benzalkonium Compounds",
+      "Mice",
+      "*Inflammation/drug therapy",
+      "Heme Oxygenase-1/metabolism",
+      "Mice, Inbred C57BL",
+      "Humans",
+      "Disease Models, Animal",
+      "Male",
+      "Membrane Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Ziyu",
+        "Li, Yaqiong",
+        "Bao, Jiayu",
+        "Li, Siyuan",
+        "Wen, Ya",
+        "Zhang, Peng",
+        "Feng, Jun",
+        "Wang, Yinghui",
+        "Tian, Lei",
+        "Jie, Ying"
+      ],
+      "short_names": [
+        "Liu Z",
+        "Li Y",
+        "Bao J",
+        "Li S",
+        "Wen Y",
+        "Zhang P",
+        "Feng J",
+        "Wang Y",
+        "Tian L",
+        "Jie Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3890-5430"
+      ],
+      "affiliations": [
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+        "Beijing Advanced Innovation Center for Big Data-Based Precision Medicine, Bei-Hang University and Capital Medical University, Beijing, China.",
+        "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Ziyu",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0000-0003-3890-5430"
+        ],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaqiong",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Jiayu",
+        "short_name": "Bao J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Siyuan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Ya",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Jun",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yinghui",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Lei",
+        "short_name": "Tian L",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China.",
+          "Beijing Advanced Innovation Center for Big Data-Based Precision Medicine, Bei-Hang University and Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jie, Ying",
+        "short_name": "Jie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Ophthalmology & Visual Sciences key Laboratory, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Animal models and experimental medicine"
+    ],
+    "journal_abbrev": [
+      "Animal Model Exp Med"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/06 06:21",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "42516918",
+      "42504723",
+      "41988530",
+      "41931033",
+      "41800312",
+      "41226736",
+      "40585493"
+    ],
+    "refs": [
+      "39224780",
+      "38093659",
+      "36301551",
+      "36235656",
+      "36094079",
+      "36014933",
+      "35708049",
+      "35435328",
+      "35353124",
+      "35096941",
+      "34870888",
+      "34830266",
+      "34820557",
+      "34736321",
+      "34736076",
+      "34673033",
+      "34589602",
+      "34578794",
+      "34560276",
+      "34186009",
+      "33990053",
+      "33938134",
+      "33530505",
+      "33143013",
+      "33113418",
+      "32871194",
+      "32806456",
+      "32595756",
+      "32531188",
+      "32445015",
+      "32318667",
+      "32235501",
+      "32003547",
+      "31669212",
+      "31429458",
+      "31299520",
+      "31040640",
+      "30778297",
+      "30611121",
+      "30481822",
+      "30356768",
+      "29894321",
+      "29874529",
+      "29717933",
+      "29603665",
+      "29492183",
+      "29055361",
+      "29055357",
+      "28834388",
+      "28797892",
+      "28736340",
+      "28736337",
+      "28736335",
+      "28295445",
+      "28245300",
+      "28128352",
+      "27833152",
+      "27200009",
+      "26903189",
+      "25877858",
+      "25686388",
+      "25296162",
+      "25215580",
+      "24900456",
+      "24580770",
+      "24521161",
+      "24391846",
+      "24184225",
+      "23947579",
+      "23669408",
+      "23587556",
+      "23294312",
+      "22626465",
+      "22152125",
+      "21045640",
+      "20874497",
+      "20813960",
+      "18486137",
+      "16211538",
+      "15708862",
+      "12446368"
+    ],
+    "similar": [
+      "40045550",
+      "41455169",
+      "42123730",
+      "37392674",
+      "41363052",
+      "38458086",
+      "41859392",
+      "41907553",
+      "33587908",
+      "41887383",
+      "40768237",
+      "39233848",
+      "38104880",
+      "41005053",
+      "39805761",
+      "38679123",
+      "41102912",
+      "41347876",
+      "41151658",
+      "31885778",
+      "32531188",
+      "39128305",
+      "39417305",
+      "41047055",
+      "37192892",
+      "41916685",
+      "39832672",
+      "39864603",
+      "40037266",
+      "34648903",
+      "41196440",
+      "39706064",
+      "38991959",
+      "41809881",
+      "40350822",
+      "35892258",
+      "40414576",
+      "41014668",
+      "41683227",
+      "40633646",
+      "39961757",
+      "37748390",
+      "41803446",
+      "41176909",
+      "42019124",
+      "39308109",
+      "40543693",
+      "41740690",
+      "39757650",
+      "36066316",
+      "30506291",
+      "35257348",
+      "32197464",
+      "41263610",
+      "33406386",
+      "42035997",
+      "40368273",
+      "39974399",
+      "38664646",
+      "40035314",
+      "33974900",
+      "41247453",
+      "31214283",
+      "40021790",
+      "39699913",
+      "39589348",
+      "40505349",
+      "40980968",
+      "41045622",
+      "41914291",
+      "41825712",
+      "31223046",
+      "39697025",
+      "35681232",
+      "37187359",
+      "39689597",
+      "38945466",
+      "34278476",
+      "42138516",
+      "39192656",
+      "31810119",
+      "40473146",
+      "39908585",
+      "32070920",
+      "42188310",
+      "41412351",
+      "38450655",
+      "41101077",
+      "41151450",
+      "31828396",
+      "40269617",
+      "39862944",
+      "33129943",
+      "41043498",
+      "41936920",
+      "41604898",
+      "40163430",
+      "23901249",
+      "32298752",
+      "41316923"
+    ],
+    "review": [
+      "40045550",
+      "41176909"
+    ],
+    "pmc": [
+      "12205003"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40045550.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40045550/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/ame2.70000",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

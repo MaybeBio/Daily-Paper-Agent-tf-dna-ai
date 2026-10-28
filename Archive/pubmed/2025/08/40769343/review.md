@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report synthesis and characterization of a new platinum complex [Pt(DACH)(tert-pentylgly)]NO₃, and its interaction with CT-DNA studied by UV-Vis, fluorescence, circular dichroism, cytotoxicity assays, molecular docking, and molecular dynamics. They claim groove binding, DNA structural alteration, stronger binding than oxaliplatin, and DNA destabilization based on MD parameters.
+- **Visible evidence base** Abstract text only; no numerical data, spectra, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, experimental procedures, characterization data (LC mass, HPLC, elemental analysis), spectra, cytotoxicity dose-response curves, docking scores, MD simulation parameters and trajectories, statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting study on a new oxaliplatin analog, but the claims are largely qualitative and cannot be evaluated without the underlying data. The binding mode assignment, comparative strength claim, and MD-based structural conclusions require quantitative evidence and appropriate controls. The abstract lacks key methodological details and numerical results, limiting the ability to assess technical soundness and scientific significance.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, anticancer drug development, and DNA-targeting therapeutics would be interested in a new platinum complex with potential improved DNA binding properties. The combination of experimental and computational approaches may appeal to those studying drug-DNA interactions.
+- **Major strengths** The study integrates multiple complementary techniques (spectroscopic, biological, and computational) to characterize a new platinum complex. The use of both experimental and in silico methods to cross-validate binding mode is a reasonable approach. The choice of relevant cancer cell lines (MCF7, HCT116) adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "UV-Vis absorption studies revealed a hyperchromic effect in the spectra of DNA, indicating interaction"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** A hyperchromic effect alone is insufficient to establish specific DNA interaction. Hyperchromicity can arise from DNA denaturation, aggregation, or buffer artifacts. The abstract does not report the magnitude of the effect, concentration dependence, or whether controls (e.g., free ligand, platinum salt) were performed.
+  - **Why it matters** The foundational claim of DNA binding rests on this observation. Without quantitative data and appropriate controls, the interaction cannot be distinguished from nonspecific effects.
+  - **Resolution test** Provide titration spectra with DNA concentration fixed and complex concentration varied, report changes in absorbance at specific wavelengths, include binding constants (e.g., Kb) with errors, and show control experiments with components lacking the full complex.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "competitive fluorescence spectroscopy using ethidium bromide showed that the complex binds to DNA via a groove binding mode"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The assignment of groove binding from an ethidium bromide displacement assay is not definitive. Ethidium bromide displacement indicates intercalative competition, and reduced fluorescence can also result from quenching or DNA conformational changes. Groove binding is typically inferred from additional evidence such as minor groove probes (e.g., Hoechst 33258), viscosity measurements, or salt-dependent studies.
+  - **Why it matters** The binding mode is a central conclusion of the study and is used to align with docking results. An incorrect assignment would undermine the mechanistic interpretation.
+  - **Resolution test** Include additional assays (e.g., competitive binding with a known groove binder, viscosity measurements, or DNA melting studies) and report Stern-Volmer quenching constants or apparent binding constants with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular docking suggested that the Pt complex binds to DNA more strongly than oxaliplatin, predominantly through groove binding"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The comparative claim of stronger binding than oxaliplatin is presented without docking scores, binding free energies, or statistical measures. Docking results are highly dependent on scoring functions, protonation states, and conformational sampling. No details on the docking protocol, DNA structure used, or validation are provided.
+  - **Why it matters** This is a key comparative claim that positions the new complex as potentially superior to an established drug. Without quantitative docking data and error estimates, the claim is unsupported.
+  - **Resolution test** Report docking scores (e.g., binding energies in kcal/mol) for both the new complex and oxaliplatin under identical conditions, include multiple runs with standard deviations, and describe the docking software, scoring function, and DNA model used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In the molecular dynamics analysis, the fluctuations in RMSD for the DNA-complex and the RMSF assessment of DNA residues suggest that the DNA structure is unstable. The interaction of DNA with Pt compound leads to an increase in the radius of gyration and helical bending, which correlates with heightened flexibility and residual deviations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The MD conclusions are qualitative and lack context. RMSD fluctuations alone do not indicate instability without comparison to a control simulation of free DNA under identical conditions. The claim of increased radius of gyration and helical bending requires quantitative values, simulation timescales, force field parameters, and convergence assessments.
+  - **Why it matters** The structural destabilization claim is a significant biological implication. If the MD protocol is not validated or the control is absent, the conclusions may be artifacts of simulation setup.
+  - **Resolution test** Provide RMSD and RMSF plots for both the DNA-complex and free DNA controls, report average radius of gyration values with standard deviations, describe the force field, water model, simulation length, and equilibration protocol, and show that the system reached equilibrium.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Characterization claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the complex was "characterized using conductivity measurements, elemental analysis, LC mass, HPLC, and various spectroscopic methods" but does not specify which spectroscopic methods or provide any characterization data.
+  - **Required correction** List the specific spectroscopic methods used and include key characterization results (e.g., mass-to-charge ratio, elemental analysis percentages) in the abstract or indicate where they are presented in the full text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Cytotoxicity claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions cytotoxicity studies on MCF7 and HCT116 cell lines but provides no results, such as IC50 values or comparison to oxaliplatin.
+  - **Required correction** Report IC50 values with standard deviations for both cell lines and, if available, comparative data for oxaliplatin under the same conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify buffer conditions, pH, temperature, or ionic strength for the spectroscopic experiments, which are critical for DNA binding studies.
+  - **Required correction** Include experimental conditions in the abstract or refer to a methods section where these are fully described.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** CD spectroscopy claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that CD spectroscopy "demonstrated that the platinum complex can alter the secondary structure of DNA" is vague. It does not specify which CD features changed (e.g., molar ellipticity at specific wavelengths) or the nature of the structural change.
+  - **Required correction** Describe the specific CD spectral changes observed and interpret them in terms of DNA conformational transitions (e.g., B to A or B to C forms).
+
+## Risk / unsupported claims
+- The claim of groove binding mode is not established from the described ethidium bromide displacement assay alone.
+- The comparative claim that the complex binds DNA more strongly than oxaliplatin is unsupported without quantitative docking scores or experimental binding constants.
+- The MD-based conclusion of DNA destabilization is unsupported without control simulations and quantitative parameters.
+- The hyperchromic effect as evidence of interaction is weak without quantitative data and controls.
+- Cytotoxicity results are mentioned but not reported, making any implied activity claim unevaluable.
+- The characterization of the complex is asserted but not substantiated with data in the abstract.

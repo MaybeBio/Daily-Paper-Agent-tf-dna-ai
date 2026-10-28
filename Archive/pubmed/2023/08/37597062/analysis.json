@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37597062",
+  "title": "Computational workflow for discovering small molecular binders for shallow binding sites by integrating molecular dynamics simulation, pharmacophore modeling, and machine learning: STAT3 as case study.",
+  "authors": "Jaradat, Nour Jamal; Hatmal, Mamon; Alqudah, Dana; Taha, Mutasem Omar",
+  "journal": "Journal of computer-aided molecular design",
+  "published_date": "2023-08-19",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过MD模拟、药效团建模和机器学习发现STAT3转录因子SH2结构域的小分子抑制剂，虽聚焦蛋白-配体而非TF-DNA互作，但MD+ML方法可迁移至TF-DNA结合位点预测与界面建模。",
+  "abstract": "STAT3 belongs to a family of seven transcription factors. It plays an important role in activating the transcription of various genes involved in a variety of cellular processes. High levels of STAT3 are detected in several types of cancer. Hence, STAT3 inhibition is considered a promising therapeutic anti-cancer strategy. However, since STAT3 inhibitors bind to the shallow SH2 domain of the protein, it is expected that hydration water molecules play significant role in ligand-binding complicating the discovery of potent binders. To remedy this issue, we herein propose to extract pharmacophores from molecular dynamics (MD) frames of a potent co-crystallized ligand complexed within STAT3 SH2 domain. Subsequently, we employ genetic function algorithm coupled with machine learning (GFA-ML) to explore the optimal combination of MD-derived pharmacophores that can account for the variations in bioactivity among a list of inhibitors. To enhance the dataset, the training and testing lists were augmented nearly a 100-fold by considering multiple conformers of the ligands. A single significant pharmacophore emerged after 188 ns of MD simulation to represent STAT3-ligand binding. Screening the National Cancer Institute (NCI) database with this model identified one low micromolar inhibitor most likely binds to the SH2 domain of STAT3 and inhibits this pathway.",
+  "abstract_zh": "STAT3属于一个由七种转录因子组成的家族。它在激活多种参与各种细胞过程的基因转录中发挥重要作用。在多种类型的癌症中检测到高水平的STAT3。因此，STAT3抑制被认为是一种有前景的抗癌治疗策略。然而，由于STAT3抑制剂与该蛋白的浅SH2结构域结合，预计水合水分子在配体结合中发挥重要作用，这使强效结合剂的发现复杂化。为解决此问题，我们在此提出从STAT3 SH2结构域内复合的强效共结晶配体的分子动力学 (molecular dynamics) 帧中提取药效团。随后，我们采用遗传函数算法结合机器学习 (GFA-ML) 来探索MD衍生药效团的最优组合，这些药效团能够解释抑制剂列表中生物活性的变异。为增强数据集，通过考虑配体的多种构象，训练和测试列表被扩充了近100倍。在188 ns的MD模拟后，出现了一个单一显著的药效团，代表STAT3-配体结合。使用此模型筛选国家癌症研究所 (National Cancer Institute) 数据库，识别出一个低微摩尔抑制剂，最可能结合STAT3的SH2结构域并抑制此通路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37597062/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37597062/",
+  "paper_page_path": "papers/pubmed/37597062/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41188199",
+  "title": "Contrastive virtual staining enhances deep learning-based PDAC subtyping from H&E-stained tissue cores.",
+  "authors": "Fischer, Maximilian; Muckenhuber, Alexander; Peretzke, Robin; Farah, Luay; Ulrich, Constantin; Ziegler, Sebastian; Schader, Philipp; Feineis, Lorenz; Gao, Hanno; Xiao, Shuhan; Gotz, Michael; Nolden, Marco; Steiger, Katja; Sieveke, Jens T; Endros, Lukas; Braren, Rickmer; Kleesiek, Jens; Schuffler, Peter; Neher, Peter; Maier-Hein, Klaus",
+  "journal": "The Journal of pathology",
+  "published_date": "2025-11-05",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用对比虚拟染色增强深度学习对胰腺癌H&E切片的亚型分类，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Pancreatic ductal adenocarcinoma (PDAC) subtyping typically relies on immunohistochemistry (IHC) staining for critical markers like HNF1A and KRT81, a labor-intensive manual staining process that introduces variability. Virtual staining methods offer promising alternatives by generating synthetic IHC images from routine hematoxylin and eosin (H&E) slides. However, most current approaches evaluate success by image quality measures rather than assessing diagnostically relevant features. Here, we introduce a novel cycleGAN framework utilizing a contrastive-inspired approach trained on semipaired datasets derived from consecutive tissue sections. Our method significantly enhances PDAC subtyping accuracy based on synthetic IHC images generated from standard H&E inputs, improving the classification F1-score from 0.66 to 0.77 for KRT81 and from 0.61 to 0.73 for HNF1A, compared with classification directly on H&E images. This approach also substantially outperforms baseline CycleGAN models. These results underscore the clinical potential of contrastive virtual staining to streamline PDAC diagnostics and improve their robustness. (c) 2025 The Author(s). The Journal of Pathology published by John Wiley & Sons Ltd on behalf of The Pathological Society of Great Britain and Ireland.",
+  "abstract_zh": "胰腺导管腺癌（PDAC）亚型分型通常依赖于对关键标志物如HNF1A和KRT81进行免疫组织化学（IHC）染色，这是一种劳动密集型的手动染色过程，会引入变异性。虚拟染色方法通过从常规苏木精-伊红（H&E）切片生成合成IHC图像，提供了有前景的替代方案。然而，目前大多数方法通过图像质量指标来评估成功与否，而非评估诊断相关特征。在此，我们引入了一种新颖的cycleGAN框架，利用基于对比学习的启发式方法，在来自连续组织切片的半配对数据集上进行训练。我们的方法显著提高了基于标准H&E输入生成的合成IHC图像的PDAC亚型分型准确性，与直接在H&E图像上分类相比，KRT81的分类F1分数从0.66提升至0.77，HNF1A从0.61提升至0.73。该方法也大幅优于基线CycleGAN模型。这些结果强调了对比虚拟染色在简化PDAC诊断并提高其稳健性方面的临床潜力。(c) 2025作者。由John Wiley & Sons Ltd代表大不列颠及爱尔兰病理学会出版的《病理学杂志》。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41188199/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41188199/",
+  "paper_page_path": "papers/pubmed/41188199/index.html"
+}

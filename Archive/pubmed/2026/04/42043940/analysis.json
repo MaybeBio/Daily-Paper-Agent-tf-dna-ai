@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42043940",
+  "title": "BayesPI-FLY: a Bayesian neural network approach for inferring feature weighted TF-DNA interaction.",
+  "authors": "Liu, Gege; Bai, Baoyan; Wang, Junbai",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-04-27",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出贝叶斯神经网络BayesPI-FLY，整合序列与甲基化数据推断TF-DNA互作，聚焦转录因子结合位点建模，方法为AI且对象精准，高度匹配课题。",
+  "abstract": "Understanding how transcription factors (TFs) recognize DNA motifs is central to deciphering gene regulation. However, integrating multi-omics data, particularly DNA methylation, which can variably influence TF binding, remains a significant challenge. To address this, we developed BayesPI-Feature Learning Yard (BayesPI-FLY), a Bayesian neural network for de novo motif discovery that integrates DNA sequence information with DNA methylation status data. Building upon the classical biophysical model of TF-DNA interactions, BayesPI-FLY employs a two-layer inference architecture to jointly estimate model parameters and hyperparameters within a Bayesian framework. The core algorithms are implemented in C and parallelized through Python, ensuring computational efficiency. BayesPI-FLY quantitatively characterizes methylation effects at both single-nucleotide and motif levels, and generates position weight matrices and sequence logos to facilitate motif interpretation. Validation using synthetic and high-throughput sequencing datasets, including whole-genome bisulfite sequencing data, demonstrates that the framework can recapitulate known methylation-associated TF-binding patterns and infer strand-specific associations within the modeling framework. Collectively, BayesPI-FLY offers a versatile and extensible computational platform for characterizing methylation-related TF-DNA binding patterns across complex epigenetic contexts.",
+  "abstract_zh": "理解转录因子（TFs）如何识别DNA基序是解析基因调控的核心。然而，整合多组学数据，特别是可变异影响TF结合的DNA甲基化，仍是一项重大挑战。为此，我们开发了BayesPI-Feature Learning Yard（BayesPI-FLY），一种贝叶斯神经网络，用于从头基序发现，该网络将DNA序列信息与DNA甲基化状态数据相结合。基于TF-DNA相互作用的经典生物物理模型，BayesPI-FLY采用两层推理架构，在贝叶斯框架内联合估计模型参数和超参数。核心算法以C语言实现，并通过Python并行化，确保计算效率。BayesPI-FLY在单核苷酸和基序水平上定量表征甲基化效应，并生成位置权重矩阵和序列标识以促进基序解释。使用合成和高通量测序数据集（包括全基因组亚硫酸盐测序数据）进行验证，结果表明该框架能够重现已知的甲基化相关TF结合模式，并在建模框架内推断链特异性关联。总体而言，BayesPI-FLY提供了一个多功能且可扩展的计算平台，用于在复杂表观遗传背景下表征甲基化相关的TF-DNA结合模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42043940/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42043940/",
+  "paper_page_path": "papers/pubmed/42043940/index.html"
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors used residue-resolution molecular dynamics simulations to study heterogeneous condensates formed by four master transcription factors (Oct4, Sox2, Klf4, Nanog) in embryonic stem cells. They report that condensates are enriched in Sox2, Klf4, and Nanog, with Klf4 acting as a scaffold, Sox2 and Nanog stabilizing the condensate, and Oct4 serving as a client recruited via interaction with Sox2.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, or validation metrics provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology details, force field parameters, system size and timescales, quantitative composition data, interaction energy analyses, experimental validation, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on heterogeneous transcription factor condensates, a topic of growing relevance in cell biology and biophysics. However, the current abstract provides insufficient methodological detail and quantitative evidence to evaluate the robustness of the claims. The central conclusions regarding Klf4 as a scaffold and Oct4 as a client rest on interaction analyses that are not described. The study's significance would be substantially strengthened by experimental validation or at least by clear statements about the limitations of simulation-only inference.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and liquid-liquid phase separation, particularly those focused on transcriptional regulation in stem cells. Computational biophysicists interested in multi-component phase separation simulations would also find the approach relevant. The potential role of Klf4 as a scaffold and Oct4 as a client could inform experimental designs in stem cell biology.
+- **Major strengths** The topic addresses a genuine gap in the field, namely heterogeneous multi-component condensates, which are more biologically realistic than the one- or two-component systems typically studied. The choice of four master transcription factors in embryonic stem cells is biologically motivated and clinically relevant. The use of residue-resolution simulations represents a reasonable computational approach for this system size.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "protein condensates mainly contain Sox2, Klf4, and Nanog, while most Oct4 are dissolved into the dilute phase" and that "Klf4 is the most abundant, suggesting that Klf4 serves as a scaffold."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract provides no quantitative data on condensate composition, such as partition coefficients, enrichment ratios, or concentration profiles. The claim that Klf4 is "the most abundant" and that Oct4 is "mostly dissolved" requires numerical support. Furthermore, the term "scaffold" implies a specific functional role that cannot be established from abundance alone.  
+  - **Why it matters** Without quantitative composition data, the reader cannot assess the magnitude of the reported effects. The scaffold-client distinction is a central conceptual framework in the condensate field, and assigning this role to Klf4 based on abundance without interaction network analysis or perturbation studies is premature.  
+  - **Resolution test** Provide quantitative enrichment values for each protein in the condensate versus dilute phase, and demonstrate that Klf4 depletion (in silico) disrupts condensate integrity or recruitment of other factors.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that "Oct4 is moderately recruited to the condensate, serving as a client mainly via its interaction with Sox2."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The claim that Oct4 recruitment is mediated specifically by Sox2 interaction requires evidence from interaction energy calculations, contact frequency analyses, or mutation studies. The abstract does not describe how this interaction was identified or quantified.  
+  - **Why it matters** The proposed mechanism of Oct4 recruitment via Sox2 is a specific molecular hypothesis. Without supporting interaction data, this claim is speculative and could misdirect experimental follow-up.  
+  - **Resolution test** Show pairwise interaction energies or contact maps between Oct4 and each of the other three factors, and demonstrate that removing Sox2 (in silico) reduces Oct4 recruitment.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "the condensate forms loosely interacting clusters" and that the system shows "highly heterogeneous and dynamic behaviors."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No simulation timescales, system sizes, or convergence criteria are reported. The terms "loosely interacting" and "dynamic" require quantitative definitions, such as residence times, diffusion coefficients, or cluster size distributions. Without these, the reader cannot judge whether the observed behavior is an equilibrium property or a simulation artifact.  
+  - **Why it matters** Molecular dynamics simulations of phase separation are notoriously sensitive to system size, simulation time, and force field parameters. The absence of these details prevents assessment of whether the reported condensate is a stable equilibrium state or a transient metastable configuration.  
+  - **Resolution test** Report simulation box size, total particle number, simulation length, and demonstrate convergence of cluster properties over time. Provide quantitative measures of cluster stability and protein mobility.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract concludes that "this study highlights the importance of intermolecular interaction between different transcription factors on the condensate formations with heterogeneous biomolecular components."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not state whether any experimental validation was performed. Simulation-only findings on phase separation, particularly with complex multi-component systems, are prone to force field artifacts and may not reflect in vivo behavior.  
+  - **Why it matters** The biological relevance of the findings depends on whether the predicted condensate composition and interactions are observed in cells. Without experimental corroboration, the significance of the study for the stem cell biology community remains uncertain.  
+  - **Resolution test** Add experimental validation using live-cell imaging, in vitro reconstitution, or published experimental data that support the predicted condensate composition and interaction network. Alternatively, clearly state the absence of experimental validation as a limitation.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract uses the term "residue-resolution molecular dynamics simulations" without explaining what this means in practical terms for the reader.  
+  - **Required correction** Briefly clarify the level of resolution, for example by stating that each amino acid is represented by one or a few interaction sites, and mention the approximate system size.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not specify the force field or the model used for the simulations.  
+  - **Required correction** State the force field and any coarse-graining approach used, as this is essential for reproducibility.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not mention whether the simulations were performed at physiologically relevant protein concentrations or salt conditions.  
+  - **Required correction** Report the concentration range and ionic conditions used, and state whether these match physiological conditions in embryonic stem cell nuclei.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "client" is used without definition, which may be unfamiliar to readers outside the condensate field.  
+  - **Required correction** Briefly define "client" in the context of condensates, for example as a component that is recruited to the condensate but does not drive its formation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative composition data, interaction evidence, and simulation convergence details means the central claims are not currently verifiable from the provided material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The focus on heterogeneous multi-component condensates with four transcription factors is a step beyond typical one- or two-component studies, which is commendable. However, the conceptual framework of scaffold and client is well established, and the novelty lies primarily in the specific system studied.  
+  - Scientific importance: The biological relevance of transcription factor condensates in stem cells is high, but the current abstract does not establish whether the simulation findings reflect in vivo behavior. The importance would be elevated with experimental validation.  
+  - Interdisciplinary readership: The topic bridges computational biophysics and stem cell biology, which could attract readers from both communities. However, the abstract currently lacks sufficient detail for either audience to fully evaluate the work.  
+  - Technical soundness: Not assessable from the abstract alone. The absence of simulation parameters, convergence criteria, and quantitative analyses prevents evaluation of technical rigor.  
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific terms without definition. The logical flow from methods to findings to conclusions is coherent.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis-generating computational study, but the central claims regarding condensate composition, Klf4 scaffold function, and Oct4 recruitment mechanism cannot be evaluated without quantitative data and methodological details. The authors should provide the missing information and ideally include experimental validation or clearly acknowledge the simulation-only nature of the findings as a limitation.
+
+## Risk / unsupported claims
+- The claim that Klf4 serves as a scaffold is unsupported by the provided evidence, as abundance alone does not establish functional role.
+- The claim that Oct4 is recruited via interaction with Sox2 is unsupported without interaction energy or contact data.
+- The characterization of condensates as "loosely interacting" and "dynamic" is not quantifiable from the abstract.
+- The general conclusion about the importance of intermolecular interactions between different transcription factors is plausible but not specifically evidenced in the abstract.
+- The biological relevance of the findings to embryonic stem cell function is not established without experimental context.

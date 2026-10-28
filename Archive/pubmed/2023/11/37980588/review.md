@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that PIK3CA hotspot mutations p110alphaH1047R/L alter the transcriptional regulatory function of the DeltaNp63alpha isoform within a p110alpha/DeltaNp63alpha complex, thereby promoting oncogenic phenotypes in triple-negative breast cancer (TNBC). They further suggest that restoring the disrupted interaction between DeltaNp63alpha and the p110alpha kinase domain could serve as a basis for transcriptional-based therapies.
+- **Visible evidence base** Abstract text only; methods and results summarized without numerical data, statistical details, or experimental replicates
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, cell line identifiers and validation, molecular dynamics simulation parameters, docking scores, and any clinical or in vivo validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic hypothesis linking PIK3CA hotspot mutations to DeltaNp63alpha function in TNBC. However, the evidence as summarized is insufficient to establish the central claims. Key mechanistic steps are asserted without quantitative support, and the therapeutic implication is speculative given the absence of functional rescue or in vivo data. The work may be of interest to researchers in TNBC biology and PI3K pathway signaling, but the current abstract does not provide enough detail to assess technical rigor or reproducibility.
+- **Who would be interested in the results, and why** Researchers studying PI3K pathway oncogenic signaling in breast cancer, particularly those focused on TNBC subtypes; investigators interested in p53 family isoforms and their non-canonical transcriptional roles; and groups developing targeted therapies against PIK3CA mutations or downstream transcriptional programs.
+- **Major strengths** The hypothesis is mechanistically focused and addresses a less-studied interaction between p110alpha and DeltaNp63alpha. The combination of in vitro mutagenesis with computational approaches (molecular dynamics and docking) is a reasonable strategy to explore structural consequences. The potential therapeutic angle, restoring protein-protein interaction rather than inhibiting kinase activity alone, is conceptually novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that p110alphaH1047R/L mutations "activated the PI3K-Akt-mTOR and tyrosine kinase receptor pathways, resulting in increased cell proliferation, invasion, and apoptosis in TNBC cells."
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The claim conflates increased proliferation and invasion with increased apoptosis, which are typically opposing phenotypes. No quantitative data are provided to show how these outcomes were measured or reconciled. The abstract does not specify which assays were used, the magnitude of effects, or statistical significance.
+  - **Why it matters** If apoptosis is increased alongside proliferation and invasion, the net oncogenic effect is unclear. This ambiguity undermines the interpretation of the mutations' functional impact and the proposed mechanism.
+  - **Resolution test** Provide quantitative results from proliferation, invasion, migration, and apoptosis assays, including effect sizes, error bars, and statistical tests. Clarify whether apoptosis was measured under baseline conditions or after a specific stimulus, and explain how increased apoptosis is consistent with an oncogenic phenotype.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract states that "these mutations decreased the repressing effect of DeltaNp63alpha on the p110alpha kinase domain, leading to the enhancement of downstream signaling pathways."
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The claim that DeltaNp63alpha represses the p110alpha kinase domain is central to the proposed mechanism, but no direct evidence is presented. It is unclear whether this repression was demonstrated previously or in this study. The abstract does not describe how the interaction was measured, whether the mutations were shown to disrupt binding, or how the "repressing effect" was functionally quantified.
+  - **Why it matters** Without direct evidence of the physical or functional interaction between DeltaNp63alpha and p110alpha, and how mutations alter it, the entire mechanistic model is unsupported. The computational predictions are mentioned but not detailed, and in silico results alone cannot establish a biological mechanism.
+  - **Resolution test** Show experimental data on the p110alpha/DeltaNp63alpha interaction, such as co-immunoprecipitation, proximity ligation, or functional assays with mutant versus wild-type constructs. Provide quantitative measures of downstream pathway activation (e.g., phospho-Akt, phospho-mTOR) with appropriate controls. If computational predictions are used, validate them with mutagenesis of the predicted interface.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Therapeutic claim
+  - **Claim pointer** The conclusion states that "targeting the p110alphaH1047R/L mutations in TNBC could be a promising strategy for developing transcriptional-based therapies" and that "restoring the interaction between DeltaNp63alpha and the p110alpha kinase domain... may provide a new approach to treating TNBC."
+  - **Evidence pointer** Conclusion section, abstract; location not provided
+  - **Concern** The therapeutic claim is speculative and not supported by any functional rescue experiments, in vivo models, or patient-derived data. The abstract does not show that restoring the interaction reverses oncogenic phenotypes or that transcriptional-based targeting is feasible or effective.
+  - **Why it matters** A therapeutic implication requires evidence that intervention at the proposed target alters disease-relevant outcomes. Without rescue experiments or in vivo validation, the conclusion overreaches beyond the presented data.
+  - **Resolution test** Include experiments where the p110alpha/DeltaNp63alpha interaction is restored (e.g., via expression of a binding-competent DeltaNp63alpha mutant or a small molecule) and show that oncogenic phenotypes are reduced. Alternatively, provide patient data correlating mutation status with DeltaNp63alpha expression or clinical outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** The abstract states that "three different TNBC cell lines" were used but does not name them. Cell line identity is critical for reproducibility and for assessing whether results are cell-line-specific.
+  - **Required correction** List the specific TNBC cell lines used and their key genetic backgrounds (e.g., PIK3CA status, p53 status).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Computational methods
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** Molecular dynamics simulations and protein-protein docking are mentioned but no parameters, software, or validation are described. The abstract does not indicate how long simulations were run or whether the predicted structural changes were experimentally corroborated.
+  - **Required correction** Provide key computational parameters, software versions, and any validation of the predicted interaction interface.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and conclusion
+  - **Evidence pointer** Title and Conclusion section, abstract; location not provided
+  - **Issue** The term "transcriptional-based therapies" is used but not defined. It is unclear whether this refers to drugs targeting transcription factors, epigenetic modifiers, or gene expression modulation. The abstract does not explain how the proposed approach would be transcriptional in nature.
+  - **Required correction** Define what is meant by "transcriptional-based therapies" and clarify how the proposed strategy fits this category.
+
+## Risk / unsupported claims
+- The claim that p110alphaH1047R/L mutations increase both proliferation/invasion and apoptosis is internally inconsistent without additional context.
+- The assertion that DeltaNp63alpha represses the p110alpha kinase domain is not supported by any direct experimental evidence in the abstract.
+- The conclusion that restoring the p110alpha/DeltaNp63alpha interaction could be a therapeutic strategy is speculative and not backed by rescue or in vivo data.
+- The statement that the physical interaction between DeltaNp63alpha and p110alpha "may be partially impaired" is presented as a finding but is only a suggestion based on computational predictions, not a demonstrated result.
+- The abstract does not provide any statistical measures, effect sizes, or confidence intervals, making the strength of the reported effects unassessable.

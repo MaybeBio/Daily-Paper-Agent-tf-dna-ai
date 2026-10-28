@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39376034",
+  "title": "MultiSC: a deep learning pipeline for analyzing multiomics single-cell data.",
+  "authors": "Lin, Xiang; Jiang, Siqi; Gao, Le; Wei, Zhi; Wang, Junwen",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-10-08",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出MultiSC深度学习流程整合多组学单细胞数据（含TF蛋白表达）并预测TF调控靶基因与基因调控网络，虽涉及TF-DNA调控关系但未聚焦三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Single-cell technologies enable researchers to investigate cell functions at an individual cell level and study cellular processes with higher resolution. Several multi-omics single-cell sequencing techniques have been developed to explore various aspects of cellular behavior. Using NEAT-seq as an example, this method simultaneously obtains three kinds of omics data for each cell: gene expression, chromatin accessibility, and protein expression of transcription factors (TFs). Consequently, NEAT-seq offers a more comprehensive understanding of cellular activities in multiple modalities. However, there is a lack of tools available for effectively integrating the three types of omics data. To address this gap, we propose a novel pipeline called MultiSC for the analysis of MULTIomic Single-Cell data. Our pipeline leverages a multimodal constraint autoencoder (single-cell hierarchical constraint autoencoder) to integrate the multi-omics data during the clustering process and a matrix factorization-based model (scMF) to predict target genes regulated by a TF. Moreover, we utilize multivariate linear regression models to predict gene regulatory networks from the multi-omics data. Additional functionalities, including differential expression, mediation analysis, and causal inference, are also incorporated into the MultiSC pipeline. Extensive experiments were conducted to evaluate the performance of MultiSC. The results demonstrate that our pipeline enables researchers to gain a comprehensive view of cell activities and gene regulatory networks by fully leveraging the potential of multiomics single-cell data. By employing MultiSC, researchers can effectively integrate and analyze diverse omics data types, enhancing their understanding of cellular processes.",
+  "abstract_zh": "单细胞技术使研究人员能够在单个细胞水平上探究细胞功能，并以更高分辨率研究细胞过程。目前已开发出多种多组学单细胞测序技术，以探索细胞行为的不同方面。以NEAT-seq为例，该方法可同时获取每个细胞的三种组学数据：基因表达、染色质可及性以及转录因子（TFs）的蛋白表达。因此，NEAT-seq在多模态层面提供了对细胞活动更全面的理解。然而，目前缺乏有效整合这三种组学数据的工具。为填补这一空白，我们提出了一种名为MultiSC的新型流程，用于分析多组学单细胞数据。该流程利用多模态约束自编码器（单细胞层次约束自编码器）在聚类过程中整合多组学数据，并采用基于矩阵分解的模型（scMF）预测由转录因子调控的靶基因。此外，我们利用多元线性回归模型从多组学数据中预测基因调控网络。MultiSC流程还整合了其他功能，包括差异表达、中介分析和因果推断。我们进行了大量实验以评估MultiSC的性能。结果表明，通过充分利用多组学单细胞数据的潜力，我们的流程使研究人员能够全面了解细胞活动和基因调控网络。通过使用MultiSC，研究人员可以有效整合和分析多样化的组学数据类型，从而增强对细胞过程的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39376034/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39376034/",
+  "paper_page_path": "papers/pubmed/39376034/index.html"
+}

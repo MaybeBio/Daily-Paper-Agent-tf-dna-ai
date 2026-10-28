@@ -1,0 +1,573 @@
+{
+  "identity": {
+    "pmid": "38582945",
+    "doi": "10.1038/s42003-024-06046-3",
+    "title": "A multi-ancestry GWAS of Fuchs corneal dystrophy highlights the contributions of laminins, collagen, and endothelial cell regulation."
+  },
+  "content": {
+    "abstract": "Fuchs endothelial corneal dystrophy (FECD) is a leading indication for corneal transplantation, but its molecular etiology remains poorly understood. We performed genome-wide association studies (GWAS) of FECD in the Million Veteran Program followed by multi-ancestry meta-analysis with the previous largest FECD GWAS, for a total of 3970 cases and 333,794 controls. We confirm the previous four loci, and identify eight novel loci: SSBP3, THSD7A, LAMB1, PIDD1, RORA, HS3ST3B1, LAMA5, and COL18A1. We further confirm the TCF4 locus in GWAS for admixed African and Hispanic/Latino ancestries and show an enrichment of European-ancestry haplotypes at TCF4 in FECD cases. Among the novel associations are low frequency missense variants in laminin genes LAMA5 and LAMB1 which, together with previously reported LAMC1, form laminin-511 (LM511). AlphaFold 2 protein modeling, validated through homology, suggests that mutations at LAMA5 and LAMB1 may destabilize LM511 by altering inter-domain interactions or extracellular matrix binding. Finally, phenome-wide association scans and colocalization analyses suggest that the TCF4 CTG18.1 trinucleotide repeat expansion leads to dysregulation of ion transport in the corneal endothelium and has pleiotropic effects on renal function.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Fuchs' Endothelial Dystrophy/genetics/metabolism",
+      "Genome-Wide Association Study",
+      "Transcription Factor 4/genetics",
+      "Collagen",
+      "Laminin/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gorman, Bryan R",
+        "Francis, Michael",
+        "Nealon, Cari L",
+        "Halladay, Christopher W",
+        "Duro, Nalvi",
+        "Markianos, Kyriacos",
+        "Genovese, Giulio",
+        "Hysi, Pirro G",
+        "Choquet, Helene",
+        "Afshari, Natalie A",
+        "Li, Yi-Ju",
+        "Gaziano, J Michael",
+        "Hung, Adriana M",
+        "Wu, Wen-Chih",
+        "Greenberg, Paul B",
+        "Pyarajan, Saiju",
+        "Lass, Jonathan H",
+        "Peachey, Neal S",
+        "Iyengar, Sudha K"
+      ],
+      "short_names": [
+        "Gorman BR",
+        "Francis M",
+        "Nealon CL",
+        "Halladay CW",
+        "Duro N",
+        "Markianos K",
+        "Genovese G",
+        "Hysi PG",
+        "Choquet H",
+        "Afshari NA",
+        "Li YJ",
+        "Gaziano JM",
+        "Hung AM",
+        "Wu WC",
+        "Greenberg PB",
+        "Pyarajan S",
+        "Lass JH",
+        "Peachey NS",
+        "Iyengar SK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4239-4672",
+        "ORCID: 0000-0002-1320-7161",
+        "ORCID: 0000-0003-0214-6014",
+        "ORCID: 0000-0003-3066-5575",
+        "ORCID: 0000-0001-5752-2510",
+        "ORCID: 0000-0001-9839-8667",
+        "ORCID: 0000-0001-6996-4834",
+        "ORCID: 0000-0002-2834-2024",
+        "ORCID: 0000-0002-9047-3762",
+        "ORCID: 0000-0002-4419-7226",
+        "ORCID: 0000-0001-7488-250X"
+      ],
+      "affiliations": [
+        "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA.",
+        "Booz Allen Hamilton, McLean, VA, USA.",
+        "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA.",
+        "Booz Allen Hamilton, McLean, VA, USA.",
+        "Eye Clinic, VA Northeast Ohio Healthcare System, Cleveland, OH, USA.",
+        "Center of Innovation in Long Term Services and Supports, Providence VA Medical Center, Providence, RI, USA.",
+        "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA.",
+        "Booz Allen Hamilton, McLean, VA, USA.",
+        "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA.",
+        "Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Stanley Center, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Genetics, Harvard Medical School, Boston, MA, USA.",
+        "Department of Ophthalmology, King's College London, London, UK.",
+        "Department of Twins Research and Genetic Epidemiology, King's College London, London, UK.",
+        "UCL Great Ormond Street Hospital Institute of Child Health, King's College London, London, UK.",
+        "Division of Research, Kaiser Permanente Northern California (KPNC), Oakland, CA, USA.",
+        "Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Biostatistics and Bioinformatics, Duke University School of Medicine, Durham, NC, USA.",
+        "Massachusetts Veterans Epidemiology Research and Information Center (MAVERIC), VA Boston Healthcare System, Boston, MA, USA.",
+        "Division of Aging, Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Division of Nephrology and Hypertension, Department of Medicine, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Vanderbilt Center for Kidney Disease, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "VA Tennessee Valley Healthcare System, Nashville, TN, USA.",
+        "Cardiology Section, Medical Service, Providence VA Medical Center, Providence, RI, USA.",
+        "Ophthalmology Section, Providence VA Medical Center, Providence, RI, USA.",
+        "Division of Ophthalmology, Alpert Medical School, Brown University, Providence, RI, USA.",
+        "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA.",
+        "Department of Ophthalmology and Visual Sciences, Case Western Reserve University, Cleveland, OH, USA.",
+        "Research Service, VA Northeast Ohio Healthcare System, Cleveland, OH, USA. neal.peachey@va.gov.",
+        "Cole Eye Institute, Cleveland Clinic Foundation, Cleveland, OH, USA. neal.peachey@va.gov.",
+        "Department of Ophthalmology, Cleveland Clinic Lerner College of Medicine of Case Western Reserve University, Cleveland, OH, USA. neal.peachey@va.gov.",
+        "Research Service, VA Northeast Ohio Healthcare System, Cleveland, OH, USA. ski@case.edu.",
+        "Cleveland Institute for Computational Biology, Case Western Reserve University, Cleveland, OH, USA. ski@case.edu.",
+        "Department of Population and Quantitative Health Sciences, Case Western Reserve University School of Medicine, Cleveland, OH, USA. ski@case.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gorman, Bryan R",
+        "short_name": "Gorman BR",
+        "identifiers": [
+          "0000-0002-4239-4672"
+        ],
+        "affiliations": [
+          "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA.",
+          "Booz Allen Hamilton, McLean, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Francis, Michael",
+        "short_name": "Francis M",
+        "identifiers": [
+          "0000-0002-1320-7161"
+        ],
+        "affiliations": [
+          "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA.",
+          "Booz Allen Hamilton, McLean, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Nealon, Cari L",
+        "short_name": "Nealon CL",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Clinic, VA Northeast Ohio Healthcare System, Cleveland, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Halladay, Christopher W",
+        "short_name": "Halladay CW",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Innovation in Long Term Services and Supports, Providence VA Medical Center, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Duro, Nalvi",
+        "short_name": "Duro N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA.",
+          "Booz Allen Hamilton, McLean, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Markianos, Kyriacos",
+        "short_name": "Markianos K",
+        "identifiers": [
+          "0000-0003-0214-6014"
+        ],
+        "affiliations": [
+          "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Genovese, Giulio",
+        "short_name": "Genovese G",
+        "identifiers": [
+          "0000-0003-3066-5575"
+        ],
+        "affiliations": [
+          "Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Stanley Center, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Genetics, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hysi, Pirro G",
+        "short_name": "Hysi PG",
+        "identifiers": [
+          "0000-0001-5752-2510"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, King's College London, London, UK.",
+          "Department of Twins Research and Genetic Epidemiology, King's College London, London, UK.",
+          "UCL Great Ormond Street Hospital Institute of Child Health, King's College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Choquet, Hélène",
+        "short_name": "Choquet H",
+        "identifiers": [
+          "0000-0001-9839-8667"
+        ],
+        "affiliations": [
+          "Division of Research, Kaiser Permanente Northern California (KPNC), Oakland, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Afshari, Natalie A",
+        "short_name": "Afshari NA",
+        "identifiers": [],
+        "affiliations": [
+          "Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yi-Ju",
+        "short_name": "Li YJ",
+        "identifiers": [
+          "0000-0001-6996-4834"
+        ],
+        "affiliations": [
+          "Department of Biostatistics and Bioinformatics, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gaziano, J Michael",
+        "short_name": "Gaziano JM",
+        "identifiers": [],
+        "affiliations": [
+          "Massachusetts Veterans Epidemiology Research and Information Center (MAVERIC), VA Boston Healthcare System, Boston, MA, USA.",
+          "Division of Aging, Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hung, Adriana M",
+        "short_name": "Hung AM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology and Hypertension, Department of Medicine, Vanderbilt University Medical Center, Nashville, TN, USA.",
+          "Vanderbilt Center for Kidney Disease, Vanderbilt University Medical Center, Nashville, TN, USA.",
+          "VA Tennessee Valley Healthcare System, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Wen-Chih",
+        "short_name": "Wu WC",
+        "identifiers": [
+          "0000-0002-2834-2024"
+        ],
+        "affiliations": [
+          "Cardiology Section, Medical Service, Providence VA Medical Center, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Greenberg, Paul B",
+        "short_name": "Greenberg PB",
+        "identifiers": [],
+        "affiliations": [
+          "Ophthalmology Section, Providence VA Medical Center, Providence, RI, USA.",
+          "Division of Ophthalmology, Alpert Medical School, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Pyarajan, Saiju",
+        "short_name": "Pyarajan S",
+        "identifiers": [
+          "0000-0002-9047-3762"
+        ],
+        "affiliations": [
+          "Center for Data and Computational Sciences (C-DACS), VA Boston Healthcare System, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Lass, Jonathan H",
+        "short_name": "Lass JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology and Visual Sciences, Case Western Reserve University, Cleveland, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Peachey, Neal S",
+        "short_name": "Peachey NS",
+        "identifiers": [
+          "0000-0002-4419-7226"
+        ],
+        "affiliations": [
+          "Research Service, VA Northeast Ohio Healthcare System, Cleveland, OH, USA. neal.peachey@va.gov.",
+          "Cole Eye Institute, Cleveland Clinic Foundation, Cleveland, OH, USA. neal.peachey@va.gov.",
+          "Department of Ophthalmology, Cleveland Clinic Lerner College of Medicine of Case Western Reserve University, Cleveland, OH, USA. neal.peachey@va.gov."
+        ]
+      },
+      {
+        "full_name": "Iyengar, Sudha K",
+        "short_name": "Iyengar SK",
+        "identifiers": [
+          "0000-0001-7488-250X"
+        ],
+        "affiliations": [
+          "Research Service, VA Northeast Ohio Healthcare System, Cleveland, OH, USA. ski@case.edu.",
+          "Cleveland Institute for Computational Biology, Case Western Reserve University, Cleveland, OH, USA. ski@case.edu.",
+          "Department of Population and Quantitative Health Sciences, Case Western Reserve University School of Medicine, Cleveland, OH, USA. ski@case.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2024 Apr 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/07 03:43",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [
+      "42606190",
+      "42593179",
+      "42195359",
+      "42180433",
+      "42101419",
+      "41728327",
+      "41501457",
+      "41458318",
+      "40961119",
+      "40789880",
+      "40626804",
+      "40353861",
+      "40136389",
+      "40079965",
+      "40079222",
+      "39967558",
+      "39669694"
+    ],
+    "refs": [
+      "39024449",
+      "38749656",
+      "38261650",
+      "37220626",
+      "37170406",
+      "36161831",
+      "35853082",
+      "35588167",
+      "35579906",
+      "35046575",
+      "34869460",
+      "34601555",
+      "34265844",
+      "33717118",
+      "33692568",
+      "33662620",
+      "33649486",
+      "33618777",
+      "33590861",
+      "33311554",
+      "32913098",
+      "32735996",
+      "32716492",
+      "32606005",
+      "32528159",
+      "32495687",
+      "32438095",
+      "32243820",
+      "31798171",
+      "31780650",
+      "31685256",
+      "31564439",
+      "31511532",
+      "31469403",
+      "30894546",
+      "30607871",
+      "30104761",
+      "29788355",
+      "29760442",
+      "29379222",
+      "29321650",
+      "29196769",
+      "29184056",
+      "28923499",
+      "28358029",
+      "27746220",
+      "27268795",
+      "26633035",
+      "26441289",
+      "26218914",
+      "26024086",
+      "26024079",
+      "25722852",
+      "25642630",
+      "25446318",
+      "24830394",
+      "24829462",
+      "24508788",
+      "23263632",
+      "23185296",
+      "23076212",
+      "22981535",
+      "22426310",
+      "22194972",
+      "21832275",
+      "20825314",
+      "20354512",
+      "20335276",
+      "20020485",
+      "19561590",
+      "19255149",
+      "17893666",
+      "17603008",
+      "17492460",
+      "12597924",
+      "11815623",
+      "11709009",
+      "9683953",
+      "9531483"
+    ],
+    "similar": [
+      "38582945",
+      "37205546",
+      "28608272",
+      "42180433",
+      "25298419",
+      "25722209",
+      "34946954",
+      "28358029",
+      "24255041",
+      "40268158",
+      "30811544",
+      "28118661",
+      "31469403",
+      "33782268",
+      "32735996",
+      "40048186",
+      "40353861",
+      "38884552",
+      "41298634",
+      "29966009",
+      "41562921",
+      "36773096",
+      "41728327",
+      "39332053",
+      "39231626",
+      "38713708",
+      "41736702",
+      "39998965",
+      "30267097",
+      "40465262",
+      "23185296",
+      "41865104",
+      "28726551",
+      "25168903",
+      "30025114",
+      "34644448",
+      "31560764",
+      "29677349",
+      "40720054",
+      "29325021",
+      "41285302",
+      "38206443",
+      "26401622",
+      "30973406",
+      "24917144",
+      "40961119",
+      "25342617",
+      "35031421",
+      "38704483",
+      "25593321",
+      "40197778",
+      "24334445",
+      "28886202",
+      "41344296",
+      "30098193",
+      "23110055",
+      "28832669",
+      "41944537",
+      "40081749",
+      "36883248",
+      "41084978",
+      "26218914",
+      "33444430",
+      "30733599",
+      "26999947",
+      "40186897",
+      "29799290",
+      "37204786",
+      "25548511",
+      "29196769",
+      "41373515",
+      "31554942",
+      "11689488",
+      "37169279",
+      "40767442",
+      "34228965",
+      "33116252",
+      "27755191",
+      "29526280",
+      "34855896",
+      "35676652",
+      "26622166",
+      "31705138",
+      "21533127",
+      "29044056",
+      "40287469",
+      "39278108",
+      "31028223",
+      "38096202",
+      "22234156",
+      "25190660",
+      "31276570",
+      "27490049",
+      "23449721",
+      "38656280",
+      "33617849",
+      "26280645",
+      "41153439",
+      "40079965",
+      "32934897"
+    ],
+    "review": [
+      "38582945",
+      "32735996",
+      "41285302",
+      "26999947",
+      "40186897",
+      "38096202"
+    ],
+    "pmc": [
+      "10998918"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-024-06046-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38582945/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38582945",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,670 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.03.10.483780",
+  "title": "Identifying transcription factor-DNA interactions using machine learning",
+  "doi": "10.1101/2022.03.10.483780",
+  "abstract": "Machine learning approaches have been applied to identify transcription factor (TF)-DNA interaction important for gene regulation and expression. However, due to the enormous search space of the genome, it is challenging to build models capable of surveying entire reference genomes, especially in species where models were not trained. In this study, we surveyed a variety of methods for classification of epigenomics data in an attempt to improve the detection for 12 members of the Auxin Response Factor (ARF) binding DNAs from maize and soybean as assessed by DNA Affinity Purification and sequencing (DAP-seq). We used the classification for prediction by minimizing the genome search space by only surveying unmethylated regions (UMRs). For identification of DAP-seq binding events within the UMRs, we achieved 93.54% accuracy, 6.2% false positive, and a 43.29% false negative rate across 12 members of ARFs of maize on average by encoding DNA with count vectorization for k-mer with a logistic regression classifier with up-sampling and feature selection. Importantly, feature selection helps to uncover known and potentially novel ARF binding motifs. This demonstrates an independent method for identification of transcription factor binding sites. Finally, we tested the model built with maize DAP-seq data and applied it directly to the soybean genome and found unacceptably high false positive rates, which accounted for more than 40% across the ARF TFs tested. The findings in this study suggest the potential use of various methods to predict TF-DNA interactions within and between species with varying degrees of success.",
+  "authors": [
+    "Sohyun Bang",
+    "Mary Galli",
+    "Peter A. Crisp",
+    "Andrea Gallavotti",
+    "Robert J. Schmitz"
+  ],
+  "published_date": "2022-03-12",
+  "updated_date": "2022-03-12T23:20:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.03.10.483780",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.03.10.483780.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:43:39Z",
+        "timestamp": 1768499019587,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            12
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 63,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Machine learning approaches have been applied to identify transcription factor (TF)-DNA interaction important for gene regulation and expression. However, due to the enormous search space of the genome, it is challenging to build models capable of surveying entire reference genomes, especially in species where models were not trained. In this study, we surveyed a variety of methods for classification of epigenomics data in an attempt to improve the detection for 12 members of the Auxin Response Factor (ARF) binding DNAs from maize and soybean as assessed by DNA Affinity Purification and sequencing (DAP-seq). We used the classification for prediction by minimizing the genome search space by only surveying unmethylated regions (UMRs). For identification of DAP-seq binding events within the UMRs, we achieved 93.54% accuracy, 6.2% false positive, and a 43.29% false negative rate across 12 members of ARFs of maize on average by encoding DNA with count vectorization for k-mer with a logistic regression classifier with up-sampling and feature selection. Importantly, feature selection helps to uncover known and potentially novel ARF binding motifs. This demonstrates an independent method for identification of transcription factor binding sites. Finally, we tested the model built with maize DAP-seq data and applied it directly to the soybean genome and found unacceptably high false positive rates, which accounted for more than 40% across the ARF TFs tested. The findings in this study suggest the potential use of various methods to predict TF-DNA interactions within and between species with varying degrees of success.</jats:p>",
+      "DOI": "10.1101/2022.03.10.483780",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            12
+          ]
+        ],
+        "date-time": "2022-03-12T23:20:18Z",
+        "timestamp": 1647127218000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Identifying transcription factor-DNA interactions using machine learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2058-1079",
+          "authenticated-orcid": false,
+          "given": "Sohyun",
+          "family": "Bang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mary",
+          "family": "Galli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Peter A.",
+          "family": "Crisp",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1901-2971",
+          "authenticated-orcid": false,
+          "given": "Andrea",
+          "family": "Gallavotti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Robert J.",
+          "family": "Schmitz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.2",
+          "unstructured": "Arjovsky, M. : New York University; 2020. Out of distribution generalization in machine learning."
+        },
+        {
+          "issue": "8",
+          "key": "2022031422301510000_2022.03.10.483780v1.3",
+          "first-page": "1659",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "Mapping genome-wide transcription-factor binding sites using DAP-seq"
+        },
+        {
+          "issue": "3",
+          "key": "2022031422301510000_2022.03.10.483780v1.4",
+          "first-page": "577",
+          "volume": "156",
+          "year": "2014",
+          "journal-title": "Structural basis for DNA binding specificity by the auxin-dependent ARF transcription factors"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu170"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.01.024"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.7",
+          "first-page": "75",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Impact of artifact removal on ChIP quality metrics in ChIP-seq and ChIP-exo data"
+        },
+        {
+          "issue": "5",
+          "key": "2022031422301510000_2022.03.10.483780v1.8",
+          "first-page": "1014",
+          "article-title": "cell environment",
+          "volume": "39",
+          "year": "2016",
+          "journal-title": "Auxin response factors"
+        },
+        {
+          "issue": "4",
+          "key": "2022031422301510000_2022.03.10.483780v1.9",
+          "first-page": "424",
+          "volume": "58",
+          "year": "2004",
+          "journal-title": "Dating the monocot–dicot divergence and the origin of core eudicots using whole chloroplast genomes"
+        },
+        {
+          "issue": "9",
+          "key": "2022031422301510000_2022.03.10.483780v1.10",
+          "first-page": "1658",
+          "volume": "22",
+          "year": "2012",
+          "journal-title": "Understanding transcriptional regulation by integrative analysis of transcription factor binding data"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cochran, K. , et al. Domain adaptive neural networks improve cross-species prediction of transcription factor binding. bioRxiv 2021.",
+          "DOI": "10.1101/2021.02.13.431115"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2010250117"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3863"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bfgp/elp021"
+        },
+        {
+          "issue": "1",
+          "key": "2022031422301510000_2022.03.10.483780v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1111/j.0824-7935.2004.t01-1-00228.x",
+          "article-title": "A multiple resampling method for learning from imbalanced data sets",
+          "volume": "20",
+          "year": "2004",
+          "journal-title": "Computational intelligence"
+        },
+        {
+          "issue": "39",
+          "key": "2022031422301510000_2022.03.10.483780v1.16",
+          "first-page": "24557",
+          "volume": "117",
+          "year": "2020",
+          "journal-title": "Architecture of DNA elements mediating ARF transcription factor binding and auxin-responsive gene expression in Arabidopsis"
+        },
+        {
+          "issue": "1",
+          "key": "2022031422301510000_2022.03.10.483780v1.17",
+          "first-page": "1",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "The DNA binding landscape of the maize AUXIN RESPONSE FACTOR family"
+        },
+        {
+          "issue": "2",
+          "key": "2022031422301510000_2022.03.10.483780v1.18",
+          "first-page": "341",
+          "volume": "118",
+          "year": "1998",
+          "journal-title": "How does auxin turn on genes?"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guo, Y. , Mahony, S. and Gifford, D.K. High resolution genome wide binding event finding and motif discovery reveals transcription factor spatial binding constraints. 2012.",
+          "DOI": "10.1371/journal.pcbi.1002638"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-018-0028-8"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.247007.118"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "110",
+          "DOI": "10.1016/j.gde.2017.02.007",
+          "article-title": "Transcription factor–DNA binding: beyond binding site motifs",
+          "volume": "43",
+          "year": "2017",
+          "journal-title": "Current opinion in genetics & development"
+        },
+        {
+          "issue": "5",
+          "key": "2022031422301510000_2022.03.10.483780v1.23",
+          "first-page": "e1005084",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Auxin-mediated transcriptional system with a minimal set of components is critical for morphogenesis through the life cycle in Marchantia polymorpha"
+        },
+        {
+          "issue": "5",
+          "key": "2022031422301510000_2022.03.10.483780v1.24",
+          "first-page": "473",
+          "volume": "6",
+          "year": "2020",
+          "journal-title": "Design principles of a minimal auxin response system"
+        },
+        {
+          "issue": "7",
+          "key": "2022031422301510000_2022.03.10.483780v1.25",
+          "first-page": "990",
+          "volume": "26",
+          "year": "2016",
+          "journal-title": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+        },
+        {
+          "issue": "4",
+          "key": "2022031422301510000_2022.03.10.483780v1.26",
+          "first-page": "357",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Fast gapped-read alignment with Bowtie 2"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1357-2725(97)00085-X"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.29",
+          "first-page": "47",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "A review of auxin response factors (ARFs) in plants"
+        },
+        {
+          "issue": "1",
+          "key": "2022031422301510000_2022.03.10.483780v1.30",
+          "first-page": "1",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "Genome-wide prediction of cis-regulatory regions using supervised deep learning methods"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Y. , Sun, G. and Zhu, Y. Data imbalance problem in text classification. In, 2010 Third International Symposium on Information Processing. IEEE; 2010. p. 301–305.",
+          "DOI": "10.1109/ISIP.2010.47"
+        },
+        {
+          "issue": "12",
+          "key": "2022031422301510000_2022.03.10.483780v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "1250",
+          "DOI": "10.1038/s41477-019-0548-z",
+          "article-title": "The prevalence, evolution and chromatin signatures of plant regulatory elements",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Nature Plants"
+        },
+        {
+          "issue": "1",
+          "key": "2022031422301510000_2022.03.10.483780v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "10",
+          "DOI": "10.14806/ej.17.1.200",
+          "article-title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+          "volume": "17",
+          "year": "2011",
+          "journal-title": "EMBnet. journal"
+        },
+        {
+          "issue": "1",
+          "key": "2022031422301510000_2022.03.10.483780v1.34",
+          "first-page": "1",
+          "volume": "19",
+          "year": "2019",
+          "journal-title": "A k-mer grammar analysis to uncover maize regulatory architecture"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbp032"
+        },
+        {
+          "issue": "30",
+          "key": "2022031422301510000_2022.03.10.483780v1.36",
+          "first-page": "12349",
+          "volume": "110",
+          "year": "2013",
+          "journal-title": "DNA-binding specificity changes in the evolution of forkhead transcription factors"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.038"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.03031"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-016-1145-3"
+        },
+        {
+          "issue": "1",
+          "key": "2022031422301510000_2022.03.10.483780v1.40",
+          "first-page": "8",
+          "volume": "15",
+          "year": "2018",
+          "journal-title": "motifStack for the analysis of transcription factor binding site evolution"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2641"
+        },
+        {
+          "issue": "10",
+          "key": "2022031422301510000_2022.03.10.483780v1.42",
+          "first-page": "669",
+          "volume": "10",
+          "year": "2009",
+          "journal-title": "ChIP–seq: advantages and challenges of a maturing technology"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3458"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "issue": "W1",
+          "key": "2022031422301510000_2022.03.10.483780v1.45",
+          "first-page": "W187",
+          "volume": "42",
+          "year": "2014",
+          "journal-title": "deepTools: a flexible platform for exploring deep-sequencing data"
+        },
+        {
+          "issue": "12",
+          "key": "2022031422301510000_2022.03.10.483780v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "1237",
+          "DOI": "10.1038/s41477-019-0547-0",
+          "article-title": "Widespread long-range cis-regulatory elements in the maize genome",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Nature plants"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm344"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schmitz, R.J. , et al. Quality control and evaluation of plant epigenomics data. The Plant Cell 2021.",
+          "DOI": "10.1093/plcell/koab255"
+        },
+        {
+          "issue": "1",
+          "key": "2022031422301510000_2022.03.10.483780v1.49",
+          "first-page": "1",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Local DNA shape is a general principle of transcription factor binding specificity in Arabidopsis thaliana"
+        },
+        {
+          "issue": "4",
+          "key": "2022031422301510000_2022.03.10.483780v1.50",
+          "first-page": "2099",
+          "volume": "42",
+          "year": "2014",
+          "journal-title": "Protein–DNA binding: complexities and multi-protein codes"
+        },
+        {
+          "issue": "9",
+          "key": "2022031422301510000_2022.03.10.483780v1.51",
+          "first-page": "2997",
+          "volume": "10",
+          "year": "1982",
+          "journal-title": "Use of the ‘Perceptron’algorithm to distinguish translational initiation sites in E. coli"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.942"
+        },
+        {
+          "issue": "04",
+          "key": "2022031422301510000_2022.03.10.483780v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "687",
+          "DOI": "10.1142/S0218001409007326",
+          "article-title": "Classification of imbalanced data: A review",
+          "volume": "23",
+          "year": "2009",
+          "journal-title": "International journal of pattern recognition and artificial intelligence"
+        },
+        {
+          "issue": "2",
+          "key": "2022031422301510000_2022.03.10.483780v1.54",
+          "first-page": "533",
+          "volume": "15",
+          "year": "2003",
+          "journal-title": "The roles of auxin response factor domains in auxin-responsive transcription"
+        },
+        {
+          "issue": "10",
+          "key": "2022031422301510000_2022.03.10.483780v1.55",
+          "first-page": "5844",
+          "volume": "96",
+          "year": "1999",
+          "journal-title": "Activation and repression of transcription by auxin-response factors"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, L. , et al. Altered chromatin architecture and gene expression during polyploidization and domestication of soybean. The Plant Cell 2021.",
+          "DOI": "10.1093/plcell/koab081"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tplants.2016.07.013"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wei, H. , et al. Genome-Wide Identification of the ARF Gene Family and ARF3 Target Genes Regulating Ovary Initiation in Hazel via ChIP Sequencing. Frontiers in plant science 2021:1647.",
+          "DOI": "10.3389/fpls.2021.715820"
+        },
+        {
+          "issue": "6",
+          "key": "2022031422301510000_2022.03.10.483780v1.59",
+          "first-page": "1431",
+          "volume": "158",
+          "year": "2014",
+          "journal-title": "Determination and inference of eukaryotic transcription factor sequence specificity"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-1"
+        },
+        {
+          "key": "2022031422301510000_2022.03.10.483780v1.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "1032",
+          "DOI": "10.3389/fbioe.2020.01032",
+          "article-title": "Review on the Application of Machine Learning Algorithms in the Sequence Data Mining of DNA",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "Frontiers in Bioengineering and Biotechnology"
+        },
+        {
+          "issue": "10",
+          "key": "2022031422301510000_2022.03.10.483780v1.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "5666",
+          "DOI": "10.1093/nar/gkx358",
+          "article-title": "Predicting transcription factor binding motifs from DNA-binding domains, chromatin accessibility and gene expression data",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "issue": "1-4",
+          "key": "2022031422301510000_2022.03.10.483780v1.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1007/s13042-010-0001-0",
+          "article-title": "Understanding bag-of-words model: a statistical framework",
+          "volume": "1",
+          "year": "2010",
+          "journal-title": "International Journal of Machine Learning and Cybernetics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.10.483780",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:47:34Z",
+        "timestamp": 1768445254000
+      },
+      "score": 108.9288,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.03.10.483780"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            12
+          ]
+        ]
+      },
+      "references-count": 63,
+      "URL": "https://doi.org/10.1101/2022.03.10.483780",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/insilicoplants/diac014",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

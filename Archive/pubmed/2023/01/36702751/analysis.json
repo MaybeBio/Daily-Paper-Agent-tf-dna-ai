@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36702751",
+  "title": "Deep-learning optimized DEOCSU suite provides an iterable pipeline for accurate ChIP-exo peak calling.",
+  "authors": "Bang, Ina; Lee, Sang-Mok; Park, Seojoung; Park, Joon Young; Nong, Linh Khanh; Gao, Ye; Palsson, Bernhard O; Kim, Donghyuk",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-01-27",
+  "window": {
+    "start": "2023-01-23",
+    "end": "2023-01-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了基于深度卷积神经网络的ChIP-exo峰调用工具DEOCSU，用于识别DNA结合蛋白结合位点，虽涉及蛋白-DNA互作和AI方法，但聚焦于测序数据处理而非TF-DNA结合机制建模，方法可迁移但深度有限。",
+  "abstract": "Recognizing binding sites of DNA-binding proteins is a key factor for elucidating transcriptional regulation in organisms. ChIP-exo enables researchers to delineate genome-wide binding landscapes of DNA-binding proteins with near single base-pair resolution. However, the peak calling step hinders ChIP-exo application since the published algorithms tend to generate false-positive and false-negative predictions. Here, we report the development of DEOCSU (DEep-learning Optimized ChIP-exo peak calling SUite), a novel machine learning-based ChIP-exo peak calling suite. DEOCSU entails the deep convolutional neural network model which was trained with curated ChIP-exo peak data to distinguish the visualized data of bona fide peaks from false ones. Performance validation of the trained deep-learning model indicated its high accuracy, high precision and high recall of over 95%. Applying the new suite to both in-house and publicly available ChIP-exo datasets obtained from bacteria, eukaryotes and archaea revealed an accurate prediction of peaks containing canonical motifs, highlighting the versatility and efficiency of DEOCSU. Furthermore, DEOCSU can be executed on a cloud computing platform or the local environment. With visualization software included in the suite, adjustable options such as the threshold of peak probability, and iterable updating of the pre-trained model, DEOCSU can be optimized for users' specific needs.",
+  "abstract_zh": "识别DNA结合蛋白的结合位点是阐明生物体内转录调控的关键因素。ChIP-exo技术使研究人员能够以接近单碱基对的分辨率描绘DNA结合蛋白的全基因组结合图谱。然而，峰值调用步骤阻碍了ChIP-exo的应用，因为已发表的算法倾向于产生假阳性和假阴性预测。在此，我们报告了DEOCSU（DEep-learning Optimized ChIP-exo peak calling SUite）的开发，这是一种基于机器学习的新型ChIP-exo峰值调用套件。DEOCSU包含深度卷积神经网络模型，该模型使用精选的ChIP-exo峰值数据进行训练，以区分真实峰值的可视化数据与虚假峰值。对训练好的深度学习模型的性能验证表明，其具有高准确性、高精确度和高召回率，均超过95%。将该新套件应用于从细菌、真核生物和古菌获得的内部及公开可用的ChIP-exo数据集，揭示了对含有典型基序的峰值的准确预测，突显了DEOCSU的多功能性和高效性。此外，DEOCSU可在云计算平台或本地环境中执行。该套件包含可视化软件，可调节选项如峰值概率阈值，并可迭代更新预训练模型，因此DEOCSU可根据用户特定需求进行优化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36702751/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36702751/",
+  "paper_page_path": "papers/pubmed/36702751/index.html"
+}

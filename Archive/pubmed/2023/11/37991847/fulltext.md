@@ -1,0 +1,13 @@
+# Examining DNA breathing with pyDNA-EPBD
+
+
+## Motivation
+  The two strands of the DNA double helix locally and spontaneously separate and recombine in living cells due to the inherent thermal DNA motion. This dynamics results in transient openings in the double helix and is referred to as “DNA breathing” or “DNA bubbles.” The propensity to form local transient openings is important in a wide range of biological processes, such as transcription, replication, and transcription factors binding. However, the modeling and computer simulation of these phenomena, have remained a challenge due to the complex interplay of numerous factors, such as, temperature, salt content, DNA sequence, hydrogen bonding, base stacking, and others.
+
+
+## Results
+  We present pyDNA-EPBD, a parallel software implementation of the Extended Peyrard-Bishop-Dauxois (EPBD) nonlinear DNA model that allows us to describe some features of DNA dynamics in detail. The pyDNA-EPBD generates genomic scale profiles of average base-pair openings, base flipping probability, DNA bubble probability, and calculations of the characteristically dynamic length indicating the number of base pairs statistically significantly affected by a single point mutation using the Markov Chain Monte Carlo algorithm.
+
+
+## Availability and implementation
+  pyDNA-EPBD is supported across most operating systems and is freely available at https://github.com/lanl/pyDNA_EPBD. Extensive documentation can be found at https://lanl.github.io/pyDNA_EPBD/.

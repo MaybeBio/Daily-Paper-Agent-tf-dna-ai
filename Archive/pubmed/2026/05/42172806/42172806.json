@@ -1,0 +1,223 @@
+{
+  "identity": {
+    "pmid": "42172806",
+    "doi": "10.1016/j.compbiolchem.2026.109125",
+    "title": "Opt-DMA-trans: Explainable optimized residual dense-assisted multi-scale attention transformer assisted multi-class nucleic acid-binding proteins (NABP) classification system."
+  },
+  "content": {
+    "abstract": "Nucleic acid binding proteins (NABP) include DNA binding proteins (DBP) and RNA binding proteins (RBP), which play an essential role in gene regulation, transcriptional control, RNA processing and different disease pathways. In order to figure out NABP, experiments take more time and money, and it just cannot keep up with a huge amount of protein sequences. Many existing models face issues in understanding complex relationships among protein sequences. They often depend on high-dimensional and redundant features and lack interpretability. To solve these problems, this study introduces Explainable AI to classify multi-class NABP. Initially, data are collected from the UniProtKB dataset. Then, in the pre-processing step, the duplicate and undesirable information is removed from the protein sequence. Next, in the feature extraction stage, the Python ProtLearn library is used to collect features from protein sequences. Moreover, the feature selection stage is utilized to remove redundant and unnecessary characteristics from the protein prediction method. Feature selection is performed by two methods, namely the Improved Orangutan optimization algorithm (IOOA) and Autoencoder (AE), in order to select the best features. Finally, the protein prediction process is carried out with the aid of the proposed optimized Residual Dense assisted Multi-Scale Attention Transformer (Opt-DMA-Trans). In order to enhance the interpretability of models, the Shapley Additive explanations (SHAP) technique is employed for the decision-making process. The investigational results attain an accuracy of 98.95%, precision 98.95%, and F1-score 98.75%, which shows that the proposed model is effective in predicting multiclass NABP.",
+    "keywords": [
+      "Local Interpretable agnostic Explanations",
+      "Multi-scale attention transformer",
+      "Orangutan optimization algorithm",
+      "Residual network",
+      "Shapely Additive explanations"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/classification/chemistry",
+      "Algorithms",
+      "*RNA-Binding Proteins/classification/chemistry",
+      "Autoencoder",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Paritosh",
+        "Deepak, Akshay",
+        "Kumar, Prabhat",
+        "Ranjan, Ashish"
+      ],
+      "short_names": [
+        "Kumar P",
+        "Deepak A",
+        "Kumar P",
+        "Ranjan A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science & Engineering, National Institute of Technology, Patna, Bihar 800005, India. Electronic address: Paritosh1590@gmail.com.",
+        "Department of Computer Science & Engineering, National Institute of Technology, Patna, Bihar 800005, India.",
+        "Department of Computer Science & Engineering, National Institute of Technology, Patna, Bihar 800005, India.",
+        "Department of Computer Science & Engineering, C.V. Raman Global University, Bhubaneswar, Odisha 752054, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Paritosh",
+        "short_name": "Kumar P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science & Engineering, National Institute of Technology, Patna, Bihar 800005, India. Electronic address: Paritosh1590@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Deepak, Akshay",
+        "short_name": "Deepak A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science & Engineering, National Institute of Technology, Patna, Bihar 800005, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Prabhat",
+        "short_name": "Kumar P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science & Engineering, National Institute of Technology, Patna, Bihar 800005, India."
+        ]
+      },
+      {
+        "full_name": "Ranjan, Ashish",
+        "short_name": "Ranjan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science & Engineering, C.V. Raman Global University, Bhubaneswar, Odisha 752054, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/23 05:38",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42172806",
+      "41134602",
+      "39153682",
+      "41289812",
+      "41286231",
+      "41500778",
+      "41558385",
+      "36179516",
+      "40736610",
+      "41575322",
+      "40121399",
+      "37003039",
+      "34571539",
+      "24475169",
+      "40914406",
+      "27565741",
+      "40646507",
+      "41861429",
+      "40035798",
+      "32920048",
+      "41998703",
+      "40391089",
+      "38966533",
+      "39205010",
+      "22373313",
+      "38856168",
+      "39620437",
+      "42176445",
+      "37562328",
+      "40485846",
+      "32808039",
+      "41216267",
+      "37761236",
+      "38237792",
+      "22884576",
+      "35671654",
+      "34904892",
+      "35432476",
+      "41873493",
+      "39542109",
+      "41839688",
+      "35378437",
+      "39701016",
+      "39357703",
+      "38184865",
+      "41980315",
+      "28292249",
+      "36935548",
+      "39375427",
+      "40818386",
+      "40469097",
+      "41901583",
+      "39930351",
+      "40612261",
+      "33762911",
+      "38803883",
+      "40703220",
+      "42192034",
+      "40811188",
+      "41468612",
+      "40383811",
+      "33078303",
+      "39900977",
+      "33238837",
+      "42240297",
+      "40597254",
+      "41253874",
+      "40606112",
+      "26350693",
+      "32938388",
+      "40887506",
+      "39731012",
+      "40754881",
+      "39871101",
+      "41352488",
+      "39342877",
+      "40714931",
+      "41419964",
+      "41087543",
+      "41154264",
+      "37950041",
+      "41354216",
+      "42266687",
+      "26042329",
+      "39087585",
+      "41882033",
+      "39161471",
+      "37674125",
+      "39456153",
+      "40379182",
+      "14970381",
+      "41962361",
+      "41312172",
+      "37921010",
+      "41803281",
+      "38369844",
+      "39420069",
+      "40414904",
+      "41211134",
+      "40594004"
+    ],
+    "review": [
+      "42172806",
+      "41873493"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(26)00251-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

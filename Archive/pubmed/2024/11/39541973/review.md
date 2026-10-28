@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors investigate co-condensates formed by DNA and the human transcription factor p53, a system in which neither component alone undergoes phase separation. They report a phase diagram at a fixed observation time, identifying a transition between viscoelastic fluid and viscoelastic solid states, and a morphology transition from droplet-like to "pearl chain"-like co-condensates. They further report that both morphologies share a common initial critical microscopic cluster size at the nanometer scale during early-stage phase separation.
+- **Visible evidence base** Abstract text only; no experimental or theoretical details, no quantitative data, no figure or table references
+- **Missing materials affecting confidence** Full manuscript, experimental methods, theoretical model details, phase diagram data, microscopy and rheology measurements, cluster size determinations, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical problem and reports findings that could be of value to the phase separation community. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental and theoretical approaches, the robustness of the phase and morphology assignments, or the quantitative support for the claimed critical cluster size. The central claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, particularly those interested in multicomponent condensates, DNA-protein interactions, and the biophysical mechanisms governing condensate morphology and material properties. The work may also appeal to investigators studying p53 function and its noncanonical roles in nuclear organization.
+- **Major strengths** The system is well chosen, as it addresses a scenario where neither component phase separates individually, which is a relevant and underexplored condition. The combination of experimental and theoretical approaches is appropriate for the questions posed. The identification of a shared nanometer-scale critical cluster size across two morphologies is a potentially notable finding.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim identification of a phase transition between viscoelastic fluid and viscoelastic solid states, and a morphology transition from droplet-like to "pearl chain"-like co-condensates.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that a phase diagram was determined at a certain observation time, but no details are given on how phase boundaries were assigned, what experimental techniques were used to classify viscoelastic states, or how the morphology transition was distinguished from the phase transition. Without these details, the reader cannot assess whether the transitions are rigorously defined or whether they are robust to variations in time, concentration, or salt conditions.  
+  - **Why it matters** The central claim of the paper rests on the correct identification of distinct material states and morphologies. If the assignments are ambiguous or confounded, the phase diagram and the morphology transition would not be established.  
+  - **Resolution test** Provide the full phase diagram with axes, the criteria for fluid versus solid classification, and representative microscopy and rheology data. Show that the transitions are reproducible and that the morphology assignment is based on objective quantitative measures rather than qualitative inspection.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that droplet-like and "pearl chain"-like co-condensates share a common initial critical microscopic cluster size at the nanometer scale during the early stage of phase separation.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no information on how the critical cluster size was measured or calculated, what technique was used to access nanometer-scale clusters, how the two morphologies were compared at equivalent time points, or what statistical power supports the claim of a shared size. The term "critical" is not defined in the abstract, and it is unclear whether it refers to a nucleation barrier, a stable cluster size, or an operational threshold.  
+  - **Why it matters** This is the most specific quantitative claim in the abstract. If the measurement or the definition of critical cluster size is not rigorous, the claim is not supported and the mechanistic insight is lost.  
+  - **Resolution test** Provide the experimental or theoretical method used to determine cluster size, the distribution of cluster sizes for both morphologies, and a statistical comparison demonstrating that the initial critical sizes are indistinguishable. Define "critical" operationally and show that the result is robust to analysis choices.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Conceptual clarity  
+  - **Claim pointer** The authors state that neither dsDNA nor p53 demonstrates phase-separation behavior individually, yet they form co-condensates together.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the concentration ranges, buffer conditions, or salt conditions under which the individual components were tested for phase separation. It is therefore unclear whether the absence of individual phase separation is a robust property of the system or a condition-dependent observation.  
+  - **Why it matters** The claim that the system is a pure co-phase-separation scenario is foundational to the study. If the individual components can phase separate under other conditions, the interpretation of the results as specific to cooperative assembly would be weakened.  
+  - **Resolution test** Provide the full range of conditions tested for individual components and show that no phase separation occurs across a broad parameter space, or clearly state the conditions under which the claim holds.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** "pearl chain"-like morphology  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The term "pearl chain" is descriptive but not defined. It is unclear whether this refers to a linear arrangement of connected droplets, a beaded filament, or a periodic structure.  
+  - **Required correction** Provide a brief operational definition or a reference to a prior description of this morphology.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Temporal specificity  
+  - **Affected element** Phase diagram at a certain observation time  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract notes that the phase diagram was determined at a certain observation time, but the time point is not specified. This limits the reader's ability to interpret the diagram in the context of ongoing dynamics.  
+  - **Required correction** State the observation time in the abstract or indicate whether the diagram is representative of steady state.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Quantitative support  
+  - **Affected element** Growth dynamics of co-condensates  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract mentions growth dynamics but provides no quantitative descriptors, such as growth rates, scaling exponents, or time-dependent size distributions.  
+  - **Required correction** Include at least one quantitative growth parameter in the abstract, or clarify that growth dynamics are described only qualitatively.
+
+## Risk / unsupported claims
+- The existence of a phase transition between viscoelastic fluid and viscoelastic solid states is not supported by the abstract alone, as no rheological or microstructural evidence is presented.
+- The morphology transition from droplet-like to "pearl chain"-like co-condensates is not supported by the abstract alone, as no imaging or quantitative morphology data are presented.
+- The claim of a shared initial critical microscopic cluster size at the nanometer scale is not supported by the abstract alone, as no measurement method, data, or statistical comparison is provided.
+- The claim that neither dsDNA nor p53 phase separates individually is not supported by the abstract alone, as no conditions or data are provided.
+- The phase diagram itself is not assessable from the abstract, as no axes, boundaries, or data points are described.

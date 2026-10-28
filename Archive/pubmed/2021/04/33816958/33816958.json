@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "33816958",
+    "doi": "10.7717/peerj-cs.307",
+    "title": "A machine learning framework for the prediction of chromatin folding in Drosophila using epigenetic features."
+  },
+  "content": {
+    "abstract": "Technological advances have lead to the creation of large epigenetic datasets, including information about DNA binding proteins and DNA spatial structure. Hi-C experiments have revealed that chromosomes are subdivided into sets of self-interacting domains called Topologically Associating Domains (TADs). TADs are involved in the regulation of gene expression activity, but the mechanisms of their formation are not yet fully understood. Here, we focus on machine learning methods to characterize DNA folding patterns in Drosophila based on chromatin marks across three cell lines. We present linear regression models with four types of regularization, gradient boosting, and recurrent neural networks (RNN) as tools to study chromatin folding characteristics associated with TADs given epigenetic chromatin immunoprecipitation data. The bidirectional long short-term memory RNN architecture produced the best prediction scores and identified biologically relevant features. Distribution of protein Chriz (Chromator) and histone modification H3K4me3 were selected as the most informative features for the prediction of TADs characteristics. This approach may be adapted to any similar biological dataset of chromatin features across various cell lines and species. The code for the implemented pipeline, Hi-ChiP-ML, is publicly available: https://github.com/MichalRozenwald/Hi-ChIP-ML.",
+    "keywords": [
+      "Chromatin",
+      "DNA folding patterns",
+      "Gradient Boosting",
+      "Hi-C experiments",
+      "Linear Regression",
+      "Machine Learning",
+      "Recurrent Neural Networks (RNN)",
+      "Topologically Associating Domains (TADs)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rozenwald, Michal B",
+        "Galitsyna, Aleksandra A",
+        "Sapunov, Grigory V",
+        "Khrameeva, Ekaterina E",
+        "Gelfand, Mikhail S"
+      ],
+      "short_names": [
+        "Rozenwald MB",
+        "Galitsyna AA",
+        "Sapunov GV",
+        "Khrameeva EE",
+        "Gelfand MS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia.",
+        "Skolkovo Institute of Science and Technology, Moscow, Russia.",
+        "Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia.",
+        "Intento, Inc., Berkeley, CA, USA.",
+        "Skolkovo Institute of Science and Technology, Moscow, Russia.",
+        "Skolkovo Institute of Science and Technology, Moscow, Russia.",
+        "A.A. Kharkevich Institute for Information Transmission Problems, RAS, Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rozenwald, Michal B",
+        "short_name": "Rozenwald MB",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Galitsyna, Aleksandra A",
+        "short_name": "Galitsyna AA",
+        "identifiers": [],
+        "affiliations": [
+          "Skolkovo Institute of Science and Technology, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Sapunov, Grigory V",
+        "short_name": "Sapunov GV",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia.",
+          "Intento, Inc., Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Khrameeva, Ekaterina E",
+        "short_name": "Khrameeva EE",
+        "identifiers": [],
+        "affiliations": [
+          "Skolkovo Institute of Science and Technology, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Gelfand, Mikhail S",
+        "short_name": "Gelfand MS",
+        "identifiers": [],
+        "affiliations": [
+          "Skolkovo Institute of Science and Technology, Moscow, Russia.",
+          "A.A. Kharkevich Institute for Information Transmission Problems, RAS, Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ. Computer science"
+    ],
+    "journal_abbrev": [
+      "PeerJ Comput Sci"
+    ],
+    "pub_date": "2020",
+    "pub_year": "2020",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/06 06:00",
+    "fetched_at": "2026-09-27 15:42:39"
+  },
+  "links": {
+    "cites": [
+      "42602395",
+      "39402695",
+      "38435607",
+      "35684223",
+      "34406348",
+      "33816053"
+    ],
+    "refs": [
+      "34113473",
+      "33046897",
+      "32322265",
+      "32216817",
+      "31881832",
+      "31804952",
+      "31653198",
+      "31565573",
+      "31510693",
+      "31318408",
+      "30971806",
+      "30869141",
+      "30865881",
+      "30835229",
+      "30709849",
+      "30367576",
+      "30314429",
+      "29764360",
+      "29581440",
+      "29416042",
+      "29335546",
+      "29335486",
+      "29335463",
+      "28826674",
+      "28388407",
+      "27826147",
+      "27064255",
+      "26862051",
+      "26518482",
+      "26030525",
+      "25497547",
+      "25072930",
+      "24868242",
+      "24530516",
+      "23041285",
+      "22495300",
+      "22270183",
+      "22265598",
+      "21179089",
+      "21160473",
+      "21106759",
+      "20888037",
+      "19815776",
+      "19536255",
+      "17540862",
+      "17512414",
+      "15292401",
+      "11125145",
+      "9377276"
+    ],
+    "similar": [
+      "33816958",
+      "35181793",
+      "29137603",
+      "26518482",
+      "31787081",
+      "35413815",
+      "38502563",
+      "34415530",
+      "28742097",
+      "30526631",
+      "28057745",
+      "34093998",
+      "28863138",
+      "29503869",
+      "31881832",
+      "30260021",
+      "30867673",
+      "35725901",
+      "29335463",
+      "35397520",
+      "33397980",
+      "35104223",
+      "26315910",
+      "32968472",
+      "26150425",
+      "25274727",
+      "27249516",
+      "31266973",
+      "28420341",
+      "33077913",
+      "26700097",
+      "32689928",
+      "31847870",
+      "38213897",
+      "36609218",
+      "37279476",
+      "38655013",
+      "35639502",
+      "38254945",
+      "29087948",
+      "32896099",
+      "31887284",
+      "33866359",
+      "27669308",
+      "25409831",
+      "31049567",
+      "32986691",
+      "34252966",
+      "30044963",
+      "33838653",
+      "30989119",
+      "31084607",
+      "30086749",
+      "26271925",
+      "29581440",
+      "28861108",
+      "29335803",
+      "36759336",
+      "31201308",
+      "28108933",
+      "30871473",
+      "37822562",
+      "35274679",
+      "30905748",
+      "33494803",
+      "36201625",
+      "32820401",
+      "32895530",
+      "37139561",
+      "23832846",
+      "32847102",
+      "30591009",
+      "35090532",
+      "32211023",
+      "31510693",
+      "37133976",
+      "30865261",
+      "31805995",
+      "35664233",
+      "37387127",
+      "27312344",
+      "30853548",
+      "31698957",
+      "33545030",
+      "31654669",
+      "24434548",
+      "29660196",
+      "34049493",
+      "31701567",
+      "28060840",
+      "36894325",
+      "25280896",
+      "38646172",
+      "39183696",
+      "39322282",
+      "39099845"
+    ],
+    "review": [
+      "33816958",
+      "31887284",
+      "27669308",
+      "30044963",
+      "30989119",
+      "28861108",
+      "35664233",
+      "27312344",
+      "31698957",
+      "31654669",
+      "24434548",
+      "25280896"
+    ],
+    "pmc": [
+      "7924456"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=33816958",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33816958/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33816958",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_hi-chip-ml",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

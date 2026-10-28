@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results and discussion, materials and methods, and supplementary figure/table legends.
+- **Assessment boundary** Scientific soundness, technical validity of the deep learning approach, experimental validation logic, and alignment with claims made in the abstract and discussion. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors claim that a two-step explainable deep learning framework, using Arabidopsis cistrome data to predict cis-regulatory elements in tomato promoters and then using those predicted CRE arrays to classify gene expression patterns during fruit ripening initiation, can identify nucleotide residues critical for expression behavior. They further claim that these predictions were experimentally validated and that the framework is broadly applicable for allele design.
+- **Visible evidence base** Main text figures (Figures 1-5), methods section, supplementary figure legends, and data availability statements. No raw data files, no code execution, no supplementary data sets were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary Data Sets 1-11, Supplementary Figures S1-S11, and the GitHub repository contents were not provided. These are essential for evaluating model training details, performance metrics, cluster assignments, and the full scope of experimental validation.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting integration of cistrome data, convolutional neural networks, and explainable AI to link cis-regulatory sequence features to gene expression behavior in tomato fruit ripening. The two-step design, separating CRE prediction from expression classification, is logical and the use of single cell-type transcriptome data to reduce trans-factor confounding is thoughtful. However, the evidence provided is insufficient to fully establish the central claims. Key technical details of model training, hyperparameter selection, and cross-validation are only partially described. The experimental validation is limited to a small number of genes and the statistical robustness of the validation is not fully reported. The comparison with alternative methods is presented but the interpretation of relative performance is not fully quantified. The claim of general applicability for allele design is speculative given the current evidence base.
+- **Who would be interested in the results, and why** Plant molecular biologists studying transcriptional regulation, particularly those working on fruit ripening and cis-regulatory element function. Researchers applying deep learning to genomics problems, especially in non-model or crop species, would also be interested in the methodological framework. The work may also appeal to breeders interested in cis-engineering approaches for trait optimization.
+- **Major strengths** The conceptual framing of fixing trans-factor effects using cell-type-specific transcriptome data is a strong design choice. The two-step architecture, separating CRE prediction from expression classification, is transparent and interpretable. The use of explainable AI methods to localize relevant nucleotide residues is a valuable contribution. The experimental validation, while limited, does provide direct evidence that the predicted residues matter for expression behavior.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the two-step DL framework achieves ROC-AUC values of 0.702 and 0.636 for BRup and BRdown classification, respectively, and that these are superior to a position weight matrix-based method and comparable to a k-mer-based random forest method.
+  - **Evidence pointer** Figure 3B, Supplemental Figure S6, Materials and Methods section "DL models for predicting expression patterns from CRE arrays"
+  - **Concern** The description of the model training and evaluation is incomplete. The hyperparameter search space, the criteria for selecting the final architecture, and the variance across cross-validation folds are not reported. The comparison with the k-mer-based random forest method is described only qualitatively in the text; the actual performance values for the comparator methods are not shown in the main text or described in sufficient detail. The claim of "comparable performance" cannot be assessed without these numbers.
+  - **Why it matters** The central claim of the manuscript is that the proposed framework provides a useful and valid approach for linking CREs to expression. Without a rigorous and transparent comparison to existing methods, and without reporting the variability of the model performance, the reader cannot judge whether the approach is genuinely competitive or whether the reported AUC values are within the noise of the experimental setup.
+  - **Resolution test** Provide the full performance comparison table including mean and standard deviation of AUC, precision, recall, and F1 for all methods across all folds. Report the hyperparameter search details and the final architecture selection criteria. Show the distribution of AUC values across folds, not just the average.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "all wet experimental results were consistent with the predictions from the DL models" and that mutations to predicted relevant residues reduced expression upregulation in a ripening-specific manner.
+  - **Evidence pointer** Figure 4, Supplemental Figures S9 and S11, Materials and Methods section "Transient reporter assay"
+  - **Concern** The experimental validation is presented for ACS2, PG, PL, and NOR. For ACS2, the effect of mutation is shown to be significant at the BR stage. However, for PG, PL, and NOR, the results are only presented in supplementary figures and the statistical analysis is not described in the main text. The number of biological replicates for the tomato fruit assays is stated for ACS2 (6, 12, and 5 for MG, BR, and LR) but not for the other genes. The effect sizes and confidence intervals are not reported. The claim that the results are "consistent" is too broad given the limited statistical detail.
+  - **Why it matters** The experimental validation is the key evidence that the in silico predictions have biological relevance. If the validation is not statistically robust or is only partially reported, the claim that the framework can identify functionally important residues is not fully supported.
+  - **Resolution test** Report the number of biological replicates for all genes tested. Provide effect sizes, confidence intervals, and p-values for all comparisons. Show the full data for the PG, PL, and NOR experiments in the main text or clearly reference the supplementary material with a full statistical description.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that all analytical codes and scripts are publicly available on GitHub and that the DAP-seq data are deposited on DDBJ-DRA.
+  - **Evidence pointer** Data availability section, GitHub repository link
+  - **Concern** The GitHub repository is referenced but its contents were not provided for review. The description of the code in the methods section is minimal. The exact versions of software packages, the random seeds used, and the computational environment are not specified. The DAP-seq data are deposited but the processing pipeline from raw reads to peak calls is not fully described.
+  - **Why it matters** For a computational manuscript, reproducibility is essential. Without a complete description of the computational environment and the code, other researchers cannot replicate the results or apply the method to their own data.
+  - **Resolution test** Provide a detailed description of the computational environment, software versions, and random seeds. Ensure the GitHub repository contains all code, a README with usage instructions, and example data. Describe the DAP-seq processing pipeline in full.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability of feature attribution
+  - **Claim pointer** The authors claim that feature visualization identified nucleotide residues critical for expression and that these were consistent with known TF binding motifs, specifically for NAC in the ACS2 promoter.
+  - **Evidence pointer** Figure 3G-I, Figure 4A-C, Materials and Methods section "Feature visualization in DL predictions"
+  - **Concern** The feature attribution method is described as a combination of guided backpropagation and layer-wise relevance propagation, but the specific implementation details are not fully described. The threshold for what constitutes a "high relevance" residue is not defined. The claim that the identified residues are consistent with NAC binding motifs is based on visual inspection of the motif logo, but a quantitative comparison with known motif models is not provided.
+  - **Why it matters** The interpretability of the model is a key selling point of the manuscript. If the feature attribution is not rigorously defined and validated, the biological conclusions drawn from it are weakened.
+  - **Resolution test** Provide a quantitative comparison of the identified high-relevance residues with known TF motif models, such as position weight matrices from a database. Define the threshold for high relevance explicitly. Describe the feature attribution implementation in sufficient detail to be reproduced.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 3E-F
+  - **Evidence pointer** Figure 3E-F, text in "Results and discussion" section
+  - **Issue** The cumulative relevance levels for TF channels are presented as a bar plot, but the y-axis label and units are not clearly defined. It is unclear whether the values are raw sums, standardized values, or something else.
+  - **Required correction** Clarify the y-axis label and describe the normalization procedure in the figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with alternative methods
+  - **Evidence pointer** Supplemental Figure S6, text in "Results and discussion" section
+  - **Issue** The comparison with the k-mer-based random forest method is mentioned but the details of how this method was applied, what k-mer sizes were used, and how the training data were formatted for this method are not described.
+  - **Required correction** Provide a brief description of how the comparator method was implemented and applied to the same data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** GO enrichment analysis
+  - **Evidence pointer** Figure 3D, text in "Results and discussion" section
+  - **Issue** The GO enrichment analysis is described as significant, but the p-value threshold, the multiple testing correction method, and the background gene set are not specified.
+  - **Required correction** Report the statistical details of the GO enrichment analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 4E
+  - **Evidence pointer** Figure 4E, text in "Results and discussion" section
+  - **Issue** The p-value for the ACS2 mutant at the BR stage is reported as 1.1e-5, but the test used (Student's t-test) assumes normality and equal variance. It is unclear if these assumptions were checked.
+  - **Required correction** State whether the assumptions of the t-test were verified or use a non-parametric alternative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of full performance comparison data and the incomplete statistical reporting of the experimental validation prevent the central claims from being fully assessed. R1-M3 and R1-M4 are significant but not blocking; they affect reproducibility and interpretability.
+- **Assessment against Nature-style criteria** Originality: The two-step approach combining cistrome data with explainable DL for expression prediction in a crop species is a novel integration of existing techniques. The specific application to tomato fruit ripening is timely. Scientific importance: The work addresses a fundamental question in plant biology, namely how CREs encode expression behavior. The potential for allele design is of broad interest. However, the importance is somewhat tempered by the limited scope of the experimental validation. Interdisciplinary readership: The work bridges plant biology, computational biology, and deep learning. The writing is generally accessible but some sections assume familiarity with DL terminology. Technical soundness: The core idea is sound but the technical details are incompletely reported, particularly regarding model training, hyperparameter selection, and comparison with baselines. Readability for nonspecialists: The abstract and introduction are clear, but the results section becomes dense and would benefit from more explicit explanations of the DL concepts for a biology audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the experimental validation, while limited, is encouraging. However, the manuscript in its current form does not fully establish the central claims due to incomplete reporting of model performance and experimental statistics. The authors should be given the opportunity to provide the missing details and strengthen the evidence base.
+
+## Risk / unsupported claims
+- The claim that the framework is "not species-specific" is not directly tested and is an extrapolation from the use of Arabidopsis cistrome data for tomato.
+- The claim that the framework "provides a flexible means of designing alleles for optimized expression" is speculative and not demonstrated beyond the specific mutations tested.
+- The claim that the model performance is "comparable" to a k-mer-based random forest method is not supported by quantitative data in the provided text.
+- The claim that the identified CREs for PG, PL, and NOR suggest "novel regulatory interactions" is not fully substantiated without additional experimental evidence for those specific interactions.
+- The statement that the failed repression in pPLdel was "potentially due to insufficient reduction in confidence" is presented as a post-hoc explanation without direct evidence.

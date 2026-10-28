@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.18.670971",
+  "title": "Interpretable Machine Learning Uncovers Structural Determinants of Wnt-Wls Binding Specificity from Extended Atomistic Simulations",
+  "authors": "Tiffany J. Callahan; Jie Shi; Kevin J. Cheng; Michael A. Sauer; Taras V. Pogorelov; Sara Capponi",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-22",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合原子模拟与可解释机器学习解析Wnt-Wls蛋白结合特异性，虽为蛋白-蛋白互作而非TF-DNA体系，但其局部结构比对、特征选择与随机森林方法可迁移至TF-DNA结合位点与界面机制研究。",
+  "abstract": "The Wnt protein family plays a critical role in cell development, with each Wnt protein interacting differently with the Wls membrane protein through distinct binding residues. A direct comparison and elucidation of the molecular mechanisms underlying Wnt–Wls binding across the diverse Wnt family remain challenging, owing to variations in sequence length and amino acid composition among Wnt proteins, which can affect their binding affinity and trafficking efficiency via Wls. Here we combine extended atomistic molecular dynamics simulations with supervised machine learning to elucidate binding specificity among four Wnt proteins, selected based on experimental structure availability and scientific relevance. We implement a local structure alignment algorithm to enable cross-system matching and comparison of residue interactions, and we apply a two-stage clustering strategy to reduce feature redundancy and facilitate robust feature selection. After training a Random Forest classifier that achieved high predicting accuracy, our feature importance analysis reveals both previously known and novel key residue pairs responsible for distinguishing among the Wnt systems. Our findings highlight that the binding specificity across different systems arises from the distributed nature of interactions across the protein binding surface and demonstrate how interpretable machine learning can effectively uncover crucial biophysical interactions. Importantly, our integrated strategy is generalizable to other systems and provides a data-driven approach for analyzing protein– protein interactions and guiding experimental validation or therapeutic targeting.",
+  "abstract_zh": "Wnt蛋白家族在细胞发育中发挥关键作用，每种Wnt蛋白通过不同的结合残基与Wls膜蛋白相互作用。由于Wnt蛋白在序列长度和氨基酸组成上的差异，这些差异可能影响其与Wls的结合亲和力及运输效率，因此直接比较并阐明不同Wnt家族成员中Wnt–Wls结合的分子机制仍具挑战性。在此，我们结合扩展原子分子动力学 (molecular dynamics) 模拟与监督机器学习，以阐明四种Wnt蛋白之间的结合特异性，这些蛋白基于实验结构可用性和科学相关性进行选择。我们实施了一种局部结构比对算法，以实现跨系统的残基相互作用匹配和比较，并采用两阶段聚类策略来减少特征冗余并促进稳健的特征选择。在训练了一个达到高预测准确率的随机森林分类器后，我们的特征重要性分析揭示了已知和新颖的关键残基对，这些残基对负责区分不同Wnt系统。我们的发现强调，不同系统间的结合特异性源于蛋白质结合表面上相互作用的分布特性，并展示了可解释机器学习如何有效揭示关键的生物物理相互作用。重要的是，我们的整合策略可推广至其他系统，并提供了一种数据驱动的方法，用于分析蛋白质-蛋白质相互作用及指导实验验证或治疗靶向。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.18.670971",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.18.670971",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.18.670971/index.html"
+}

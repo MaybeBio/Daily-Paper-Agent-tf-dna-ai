@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41255101",
+    "doi": "10.3724/abbs.2025210",
+    "title": "Andrographolide suppresses triple-negative breast cancer proliferation through the p53/CDK1 axis: a multiscale analysis combining network pharmacology and machine learning."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer (TNBC), a highly aggressive molecular subtype characterized by a lack of estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (HER2) expression, remains a major clinical challenge, with a median overall survival of approximately 12-15 months in advanced-stage patients. Andrographolide (AG), a diterpenoid phytochemical derived from Andrographis paniculata, has demonstrated promising anti-inflammatory, antioxidant, and antitumor activities. However, its precise molecular and therapeutic mechanisms in TNBC remain poorly understood. AG inhibits the proliferation and metastasis of TNBC. Through an integrative approach combining network pharmacology and machine learning algorithms, including least absolute shrinkage and selection operator (LASSO) and random forest, cyclin-dependent kinase 1 (CDK1) has been identified as a critical molecular gene of AG. Experimental validation via western blot and immunofluorescence analyses reveal that AG treatment significantly downregulates CDK1 expression while concurrently upregulating the expression of the tumor suppressor p53, suggesting a functional interplay between these pathways. These mechanistic insights indicate that AG potentially exerts antiproliferative effects on TNBC cells through modulation of the p53/CDK1 signaling axis, thereby establishing a robust preclinical basis for its potential clinical translation in this challenging malignancy.",
+    "keywords": [
+      "andrographolide",
+      "dynamic molecular simulation",
+      "machine learning",
+      "network pharmacology",
+      "triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diterpenes/pharmacology",
+      "*Triple Negative Breast Neoplasms/metabolism/drug therapy/pathology/genetics",
+      "*Machine Learning",
+      "*Cell Proliferation/drug effects",
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "Female",
+      "Network Pharmacology",
+      "*CDC2 Protein Kinase/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Signal Transduction/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Xiaoyong",
+        "Peng, Zhensheng",
+        "Luo, Heng",
+        "Li, Xinping",
+        "Wu, Jinyi",
+        "Peng, Junjie",
+        "Xiao, Xinhai",
+        "Zheng, Xuan",
+        "Xiao, Hao",
+        "Zhong, Haijian",
+        "Zhang, Liang",
+        "Wang, Hua"
+      ],
+      "short_names": [
+        "Sun X",
+        "Peng Z",
+        "Luo H",
+        "Li X",
+        "Wu J",
+        "Peng J",
+        "Xiao X",
+        "Zheng X",
+        "Xiao H",
+        "Zhong H",
+        "Zhang L",
+        "Wang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Traditional Chinese Medicine, First Affiliated Hospital of Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "Jiangxi Provincal Key Laboratory of Tissue Engineering, 2024SSY06291, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "Center for Advanced Interdisciplinary Science and Biomedicine of IHM; Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics; Hefei National Research Center for Cross-disciplinary Science; Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230027, China.",
+        "Jiangxi Provincal Key Laboratory of Tissue Engineering, 2024SSY06291, Gannan Medical University, Ganzhou 341000, China.",
+        "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+        "Key Laboratory of Prevention and Treatment of Cardiovascular and Cerebrovascular Diseases, Ministry of Education, Gannan Medical University, Ganzhou 341000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Xiaoyong",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, First Affiliated Hospital of Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhensheng",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Heng",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Provincal Key Laboratory of Tissue Engineering, 2024SSY06291, Gannan Medical University, Ganzhou 341000, China.",
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinping",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jinyi",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Junjie",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xinhai",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xuan",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Hao",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Haijian",
+        "short_name": "Zhong H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liang",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Advanced Interdisciplinary Science and Biomedicine of IHM; Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics; Hefei National Research Center for Cross-disciplinary Science; Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230027, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hua",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Provincal Key Laboratory of Tissue Engineering, 2024SSY06291, Gannan Medical University, Ganzhou 341000, China.",
+          "School of Medical Information Engineering, Gannan Medical University, Ganzhou 341000, China.",
+          "Key Laboratory of Prevention and Treatment of Cardiovascular and Cerebrovascular Diseases, Ministry of Education, Gannan Medical University, Ganzhou 341000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta biochimica et biophysica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Biochim Biophys Sin (Shanghai)"
+    ],
+    "pub_date": "2026 Sep 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 06:32",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41255101",
+      "40849803",
+      "35056723",
+      "37393829",
+      "29069577",
+      "39843552",
+      "37187035",
+      "40615101",
+      "42505347",
+      "42032729",
+      "33352494",
+      "42220063",
+      "40469627",
+      "39186665",
+      "39342122",
+      "42530251",
+      "25501339",
+      "40398092",
+      "29971628",
+      "24786829",
+      "39864604",
+      "39736453",
+      "42470494",
+      "40782436",
+      "40846041",
+      "41866545",
+      "24188694",
+      "39327614",
+      "39702881",
+      "41566505",
+      "40532859",
+      "41015102",
+      "40135676",
+      "33727089",
+      "42580240",
+      "28036267",
+      "35730485",
+      "27615392",
+      "24642040",
+      "29281678",
+      "38991252",
+      "41451212",
+      "23755891",
+      "41703443",
+      "41016300",
+      "30957305",
+      "22812567",
+      "30852762",
+      "37667382",
+      "26009308",
+      "36006564",
+      "30350349",
+      "40217291",
+      "41482074",
+      "41029481",
+      "38329441",
+      "28529129",
+      "40097917",
+      "38763012",
+      "40604083",
+      "38926346",
+      "39741917",
+      "30875375",
+      "26818199",
+      "39284403",
+      "39108110",
+      "39216450",
+      "42435251",
+      "42190415",
+      "25837326",
+      "38467318",
+      "41482351",
+      "41736431",
+      "41633673",
+      "36998242",
+      "42623138",
+      "27130446",
+      "38516703",
+      "32027103",
+      "42591662",
+      "39615216",
+      "38890750",
+      "32619350",
+      "41005607",
+      "27007464",
+      "29288363",
+      "42170979",
+      "41791603",
+      "25304315",
+      "40887997",
+      "40188812",
+      "32338339",
+      "40976126",
+      "41495194",
+      "42524297",
+      "33271252",
+      "36188649",
+      "38965558",
+      "32467227",
+      "41639332"
+    ],
+    "review": [
+      "41255101",
+      "23755891"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.3724/abbs.2025210",
+        "provider": "China Science Publishing and Media Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

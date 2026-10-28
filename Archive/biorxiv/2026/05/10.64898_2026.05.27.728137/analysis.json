@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.27.728137",
+  "title": "ModCRE-NN: Interpretable Deep Learning Harnesses Structural and Evolutionary Synergy to Predict Transcription Factor Binding Specificity",
+  "authors": "Victor Méndez-Riosalido; Patrick Gohl; Patricia M. Bota; Eric Kramer; Alberto Meseguer; Oriol Gallego; Narcis Fernandez-Fuentes; Baldo Oliva",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出ModCRE-NN深度学习框架，整合结构PWM与进化同源信息预测TF-DNA结合基序，核心聚焦TF结合特异性建模，方法为AI且含可解释性分析，高度匹配本课题。",
+  "abstract": "We present ModCRE-NN, a machine-learning framework and server for predicting transcription-factor (TF) DNA-binding motifs through the integration of structural and evolutionary information. The method combines structure-derived Position Weight Matrices (PWMs) together with PWMs of homologous spanning multiple evolutionary sequence-identity intervals, which are integrated into a unified 20-channel tensor representation. Benchmark datasets were constructed on experimental databases of TF motifs, showing DNA binding specificity, while redundancy reduction and strict train/test partitioning minimized homology leakage. Prediction quality was evaluated on an independent separated set of TFs using the similarity analysis of profiles. Three complementary architectures were implemented and evaluated: an interpretable regression-based model, a convolutional neural network (CNN), and a Transformer-based architecture using self-attention mechanisms. The regression model achieved strong performance in high-homology regimes dominated by closely related PWMs, whereas CNN and Transformer architectures showed superior robustness under low evolutionary similarity and increased structural uncertainty. Importantly, AI-generated motifs consistently improved the similarity-scores while reducing prediction variance relative to the original structural and evolutionary input motifs, indicating that the models effectively denoise heterogeneous motif assemblies and reconstruct stable consensus DNA-binding representations rather than simply transferring PWMs from the nearest homolog. The CNN model exhibited the most balanced attribution profile, suggesting enhanced ability to combine weak structural and evolutionary signals into coherent motif representations. Additionally, we implemented a prediction-reliability framework combining Random Forest regression, exponential interpolation, and hybrid residual-corrected modeling to estimate the quality and uncertainty of the PWMs as functions of evolutionary similarity, motif-cluster consistency, and TF-family context. Overall, our results demonstrate that integrating structural information with deep learning provides a robust framework for large-scale TF-binding specificity prediction under conditions of substantial evolutionary divergence and motif uncertainty.",
+  "abstract_zh": "我们提出了ModCRE-NN，一个通过整合结构和进化信息来预测转录因子（TF）DNA结合基序的机器学习框架和服务器。该方法将结构衍生的位置权重矩阵（PWMs）与跨越多个进化序列同一性区间的同源PWMs相结合，并整合为统一的20通道张量表示。基准数据集基于TF基序的实验数据库构建，展示了DNA结合特异性，同时通过冗余减少和严格的训练/测试划分最小化了同源性泄漏。预测质量在独立分离的TF集上通过谱图相似性分析进行评估。我们实现并评估了三种互补架构：可解释的回归模型、卷积神经网络（CNN）以及基于自注意力机制的Transformer架构。回归模型在高同源性区域（由紧密相关的PWMs主导）表现出强劲性能，而CNN和Transformer架构在低进化相似性和增加的结构不确定性下显示出更优的鲁棒性。重要的是，AI生成的基序持续提高了相似性分数，同时相对于原始结构和进化输入基序降低了预测方差，表明模型有效去除了异质基序组装的噪声，并重建了稳定的共识DNA结合表示，而非简单地从最近同源物转移PWMs。CNN模型展现出最均衡的属性分布，表明其增强了对弱结构和进化信号进行整合以形成连贯基序表示的能力。此外，我们实现了一个预测可靠性框架，结合随机森林回归、指数插值和混合残差校正建模，以估计PWMs的质量和不确定性，作为进化相似性、基序簇一致性和TF家族背景的函数。总体而言，我们的结果表明，将结构信息与深度学习相结合，为在显著进化分歧和基序不确定性条件下进行大规模TF结合特异性预测提供了稳健框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728137",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728137",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.27.728137/index.html"
+}

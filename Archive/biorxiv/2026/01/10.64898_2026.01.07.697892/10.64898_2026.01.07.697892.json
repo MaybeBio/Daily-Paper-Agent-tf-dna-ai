@@ -1,0 +1,238 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.07.697892",
+  "title": "TEDLH: Domain HMMs for sensitive detection of remote homologues",
+  "doi": "10.64898/2026.01.07.697892",
+  "abstract": "<h4>Motivation</h4> The Encyclopedia of Domains (TED) provides domain annotations for proteins in the AlphaFold Protein Structure Database (AFDB) using a consensus of three state-of-the-art structure-based methods. We used these TED domain annotations to construct profile Hidden Markov models (HMMs), collectively forming the TED Library of HMMs (TEDLH). TEDLH enables sensitive sequence and profile searches, supporting systematic exploration of protein domain families and their evolutionary relationships. <h4>Results</h4> TEDLH links domain HMMs to experimentally determined CATH-PDB structures through direct (primary) and transitive (secondary and tertiary) relationships. Fewer than half of TEDLH HMMs are directly linked to a CATH-PDB domain; the remaining models are connected through transitive relationships. These transitive links extend coverage into more divergent regions of sequence space and better represent CATH superfamily diversity. HMM–HMM comparisons within CATH superfamily 3.30.70.100 illustrate how transitive relationships expand sequence coverage in TEDLH. In this superfamily, 4,813 TEDLH HMMs are connected to 212 CATH-PDB representatives. Primary, secondary, and tertiary relationships progressively capture more divergent sequences (pairwise sequence identity <20%) that retain structural similarity (TM-score >0.6) and a conserved two-layer α/β sandwich core fold. All-against-all HMM–HMM comparisons across TEDLH also reveal sequence similarities across the CATH hierarchy (cross-hits). At low query coverage (<50%), cross-hits are more frequent between CATH classes, whereas at higher coverage thresholds (>70%) they predominantly occur between superfamilies. These cross-hits are not driven by superfamily size or sequence diversity and can provide guidance for CATH curation. As an example, analysis of cross-hits between superfamilies 2.170.130.30 and 3.10.20.30 reveals evolutionary relationships between these groups. <h4>Availability and Implementation</h4> TEDLH is compatible with HH-suite3 and is available from FigShare https://doi.org/10.6084/m9.figshare.28531754 for local use. <h4>Contact</h4> c.carreno@ucl.ac.uk",
+  "authors": [
+    "Carreño CA",
+    "Petrov AS",
+    "Waman VP",
+    "Sillitoe I",
+    "Orengo C"
+  ],
+  "published_date": "2026-01-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.07.697892",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.07.697892.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1228774",
+    "raw_record": {
+      "id": "PPR1228774",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1228774"
+        ]
+      },
+      "doi": "10.64898/2026.01.07.697892",
+      "title": "TEDLH: Domain HMMs for sensitive detection of remote homologues",
+      "authorString": "Carreño CA, Petrov AS, Waman VP, Sillitoe I, Orengo C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Carreño CA",
+            "lastName": "Carreño",
+            "firstName": "Claudia Alvarez",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Petrov AS",
+            "lastName": "Petrov",
+            "firstName": "Anton",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3359-7299"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "NASA Center for the Origin of Life, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waman VP",
+            "lastName": "Waman",
+            "firstName": "Vaishali",
+            "initials": "VP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sillitoe I",
+            "lastName": "Sillitoe",
+            "firstName": "Ian",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1091-9144"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Orengo C",
+            "lastName": "Orengo",
+            "firstName": "Christine",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7141-8936"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1827-8946"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7141-8936"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1091-9144"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3359-7299"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>Motivation</h4>  The Encyclopedia of Domains (TED) provides domain annotations for proteins in the AlphaFold Protein Structure Database (AFDB) using a consensus of three state-of-the-art structure-based methods. We used these TED domain annotations to construct profile Hidden Markov models (HMMs), collectively forming the TED Library of HMMs (TEDLH). TEDLH enables sensitive sequence and profile searches, supporting systematic exploration of protein domain families and their evolutionary relationships. <h4>Results</h4>  TEDLH links domain HMMs to experimentally determined CATH-PDB structures through direct (primary) and transitive (secondary and tertiary) relationships. Fewer than half of TEDLH HMMs are directly linked to a CATH-PDB domain; the remaining models are connected through transitive relationships. These transitive links extend coverage into more divergent regions of sequence space and better represent CATH superfamily diversity. HMM–HMM comparisons within CATH superfamily 3.30.70.100 illustrate how transitive relationships expand sequence coverage in TEDLH. In this superfamily, 4,813 TEDLH HMMs are connected to 212 CATH-PDB representatives. Primary, secondary, and tertiary relationships progressively capture more divergent sequences (pairwise sequence identity <20%) that retain structural similarity (TM-score >0.6) and a conserved two-layer α/β sandwich core fold. All-against-all HMM–HMM comparisons across TEDLH also reveal sequence similarities across the CATH hierarchy (cross-hits). At low query coverage (<50%), cross-hits are more frequent between CATH classes, whereas at higher coverage thresholds (>70%) they predominantly occur between superfamilies. These cross-hits are not driven by superfamily size or sequence diversity and can provide guidance for CATH curation. As an example, analysis of cross-hits between superfamilies 2.170.130.30 and 3.10.20.30 reveals evolutionary relationships between these groups. <h4>Availability and Implementation</h4>  TEDLH is compatible with HH-suite3 and is available from FigShare  https://doi.org/10.6084/m9.figshare.28531754 for local use.  <h4>Contact</h4>  c.carreno@ucl.ac.uk",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221327/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W018802/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.07.697892"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1228774"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1228774&type=FILE&fileName=EMS214567-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42398027",
+            "reference": "Bioinformatics (Oxford, England). \n    2026 Jul;:btag470",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214567",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-08",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

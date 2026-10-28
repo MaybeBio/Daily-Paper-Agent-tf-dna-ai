@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, and supplementary figure legends as provided)
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided text. No assessment of data files, code, or supplementary tables that were not included in the supplied material.
+- **Shared manuscript claim summary** The authors present TF-MAPS, a bacterial two-step massively parallel assay combining a modified Bacterial One-Hybrid (B1H) DNA-binding selection with a Spectinomycin Tripartite Sandwich (STS) abundance assay, to generate complete functional and allosteric maps of DNA-binding domains. Applied to three human disease-associated transcription factors (HNF1A, FOXG1, FOXP1), the maps reveal distance-dependent, anisotropic allosteric communication, identify allosteric hotspots and potentially druggable pockets, and provide mechanistic classification of pathogenic variants.
+- **Visible evidence base** Results sections for HNF1A, FOXG1, and FOXP1 including functional maps, allosteric decay analyses, hotspot identification, pocket prediction, and clinical variant classification. Methods sections describing library design, selections, sequencing, structural modelling, and statistical tests. Figure legends for Figures 1-9 and Extended Data Figures 1-8 as referenced in text.
+- **Missing materials affecting confidence** Supplementary Tables 1-4 (variant lists, pocket details, motif sequences), raw sequencing data, quality control metrics for the libraries (e.g., coverage, mutation distribution), detailed B1H and STS assay validation data, and the actual figures themselves. The absence of these materials limits independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and potentially valuable platform for mapping functional and allosteric communication in DNA-binding proteins. The core concept, combining two orthogonal bacterial selections to separate binding effects from abundance effects, is sound and builds logically on prior work in the field. The application to three disease-relevant TFs demonstrates generalisability across structural families. However, the manuscript as provided has several significant gaps that prevent full assessment of the central claims. The most critical issues are the lack of direct experimental validation of predicted allosteric hotspots and pockets, the absence of key quality control metrics for the variant libraries, and the reliance on AlphaFold3 models without adequate experimental structural validation. The claim of "fast" mapping is not quantitatively supported. The evolutionary divergence analysis between FOXG1 and FOXP1 allosteric surfaces is intriguing but underdeveloped. The clinical variant classification, while potentially useful, requires clearer demonstration of its added value over existing prediction tools.
+- **Who would be interested in the results, and why** Researchers in transcription factor biology, protein allostery, and functional genomics would find this platform of interest. The approach offers a scalable method to generate comprehensive mutational datasets for DNA-binding domains, which could be valuable for understanding DNA recognition principles, interpreting clinical variants, and identifying potential therapeutic targets. The comparative analysis between homologous domains addresses fundamental questions about the conservation and divergence of allosteric networks. The potential application to drug discovery for TFs, a challenging target class, would interest pharmaceutical researchers focused on undruggable proteins.
+- **Major strengths** 1) The conceptual advance of combining two orthogonal selections to deconvolve binding from abundance effects is elegant and addresses a known limitation in deep mutational scanning of TFs. 2) The application to three structurally distinct TF families demonstrates platform generalisability. 3) The identification of a potentially druggable allosteric pocket in HNF1A distal to the DNA interface, supported by mutational data, is a notable finding with therapeutic implications. 4) The mechanistic classification of pathogenic variants, distinguishing destabilising from binding-interface from allosteric effects, provides a framework with direct clinical relevance. 5) The comparison of allosteric surfaces between two homologous domains addresses an important question about the evolution of allosteric regulation.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** The manuscript claims that TF-MAPS provides "complete functional maps" and that allostery in all three TFs shows "distance-dependent decay" and "anisotropy" with identified "allosteric hotspots."
+- **Evidence pointer** Results sections "Functional map of HNF1A", "Allosteric anisotropy and hotspots", "Conserved distance-dependent allosteric decay and anisotropy"; Methods "Binding selections", "Abundance selections", "Binding-residuals"
+- **Concern** The manuscript lacks critical quality control data for the variant libraries and selections. No information is provided on library completeness (what fraction of the 19 possible substitutions at each position were successfully constructed and sequenced), mutation distribution, sequencing depth per variant, or the dynamic range and reproducibility of the B1H and STS assays beyond correlation coefficients. The claim of "complete" maps requires demonstration that the libraries are saturating. Additionally, the threshold for defining "allosteric hotspots" (FDR < 0.05) is stated, but the effect size threshold and the power to detect hotspots at different positions given variable sequencing depth are not discussed. Without these metrics, the completeness and reliability of the maps cannot be assessed.
+- **Why it matters** The central claims of the paper rest on the quality and completeness of the mutational datasets. If libraries are incomplete or assays have limited dynamic range, the maps will be biased and the conclusions about allosteric hotspots, distance-dependent decay, and pocket prioritisation could be artefacts of missing data or measurement noise.
+- **Resolution test** Provide comprehensive library QC metrics including: number of variants observed per position, distribution of mutation types, sequencing depth statistics, and comparison of synonymous variant distributions. Demonstrate that the B1H and STS assays have sufficient dynamic range to detect both loss- and gain-of-function effects across the full range of variant effects. Show that the identification of allosteric hotspots is robust to different statistical thresholds and effect size cutoffs.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** The manuscript states that "Allostery in all three proteins is distance-dependent, anisotropic, and couples the DNA-binding interface to the protein surface" and identifies specific allosteric hotspots and pockets.
+- **Evidence pointer** Results sections "Allosteric anisotropy and hotspots", "HNF1A surface pockets", "FOXG1 and FOXP1 have diverged allosteric surfaces"; Methods "Structural analysis", "Pocket prediction"
+- **Concern** The structural basis for the analysis relies entirely on AlphaFold3 predictions, with no experimental structural validation. For HNF1A, the authors note that experimental structures exist but use the predicted model for consistency. For FOXP1, no DNA-bound structure exists and a FOXP2 structure is used as a proxy. The distance calculations, pocket identification, and allosteric hotspot mapping are all dependent on the accuracy of these models. The manuscript does not discuss the potential impact of model uncertainty on the conclusions. For example, if the AlphaFold3 model has errors in loop regions or domain orientation, the calculated distances to DNA and the identification of surface pockets could be significantly affected. The claim of a "potentially druggable pocket" in HNF1A is based on this predicted structure and requires experimental validation.
+- **Why it matters** The structural interpretation is central to the biological conclusions about allosteric communication and the therapeutic implications. If the structural models are inaccurate, the distance-dependent decay analysis, the identification of allosteric hotspots, and the prioritisation of druggable pockets could be misleading.
+- **Resolution test** Provide a discussion of AlphaFold3 model confidence (e.g., pLDDT scores) for the regions critical to the analysis. Where experimental structures exist, show a comparison of key distance calculations and pocket predictions between the predicted and experimental structures. For FOXP1, discuss the limitations of using a FOXP2 structure as a proxy and how this might affect the conclusions. Ideally, validate at least one predicted allosteric hotspot or pocket experimentally (e.g., by targeted mutagenesis and binding assays).
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Scientific importance
+- **Claim pointer** The manuscript claims that "TF-MAPS it should be possible to chart functional and allosteric maps for hundreds of human TFs" and that the approach is "fast" and "scalable."
+- **Evidence pointer** Abstract; Discussion section
+- **Concern** The claim of scalability to "hundreds" of TFs is not supported by quantitative data on the throughput, cost, and time required for the platform. The manuscript does not provide details on the number of variants screened per experiment, the time required for library construction and selections, or the cost per TF. The "fast" claim is relative and not benchmarked against existing methods. While the bacterial system is likely faster than mammalian systems, the manuscript does not provide the data to support this claim. Furthermore, the generalisability to TFs with larger domains, obligate heterodimers, or requiring post-translational modifications for DNA binding is not discussed.
+- **Why it matters** The scalability and speed of the platform are key selling points that differentiate it from existing approaches. Without quantitative support, these claims remain speculative and the practical impact of the method is unclear.
+- **Resolution test** Provide quantitative data on the throughput of the platform, including the number of variants screened, the time from library design to final data, and the cost per TF domain. Discuss the limitations and potential solutions for applying the method to TFs with different domain architectures, binding requirements, or expression challenges.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Technical soundness
+- **Claim pointer** The manuscript states that "the allosteric surfaces of FOXG1 and FOXP1 are quite diverged, revealing a potential for protein-specific regulation in protein families."
+- **Evidence pointer** Results section "FOXG1 and FOXP1 have diverged allosteric surfaces"; Figure 8
+- **Concern** The comparison of allosteric surfaces between FOXG1 and FOXP1 is based on a structural alignment and visual inspection of mutational effects. The statistical analysis supporting the claim of divergence is not clearly described. The manuscript reports a correlation of allosteric effects at aligned identical residues (Spearman's rho = 0.34) but does not provide a formal statistical test for whether this correlation is significantly different from what would be expected given the overall conservation of structure and function. The claim of "divergence" requires a more rigorous quantitative comparison, such as a permutation test or a comparison to the correlation observed for conserved core residues.
+- **Why it matters** The claim of diverged allosteric surfaces has implications for understanding the evolution of allosteric regulation and for the potential to develop protein-specific therapeutics. If the divergence is not statistically robust, the conclusion is weakened.
+- **Resolution test** Provide a formal statistical test for the difference in allosteric effects between the two proteins, controlling for structural conservation and distance to DNA. For example, compare the observed correlation to a null distribution generated by permuting residue identities or by comparing to a set of structurally equivalent but functionally unrelated proteins.
+- **Concern ID** R1-M5
+- **Severity** Major
+- **Blocking** No
+- **Axis** Technical soundness
+- **Claim pointer** The manuscript claims that "the functional maps identify a potentially druggable pocket in the DNA binding interface" for FOXG1 and FOXP1, and a "distal allosteric pocket" for HNF1A.
+- **Evidence pointer** Results sections "HNF1A surface pockets", "FOXG1 and FOXP1 pockets"; Methods "Pocket prediction"
+- **Concern** The pocket analysis relies on FPocket druggability scores, which are computational predictions. The manuscript does not provide experimental validation that these pockets can actually bind small molecules or that mutations in these pockets have the predicted effects in a therapeutic context. The claim that these are "potentially druggable" is speculative. Furthermore, the manuscript does not discuss whether the identified pockets are conserved across the protein family or whether they are unique to the specific TF, which is relevant for the development of specific therapeutics.
+- **Why it matters** The therapeutic implications are a major motivation for the work. Without experimental validation of druggability, the claims remain computational predictions that may not translate to actual drug development.
+- **Resolution test** Provide experimental evidence that at least one identified pocket can bind a small molecule or peptide, or that mutations in the pocket residues alter binding in a way that is consistent with a druggable site. Discuss the selectivity of the identified pockets across the TF family.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity and presentation
+- **Affected element** Figure 1
+- **Evidence pointer** Results section "TF-MAPS: rapid functional and allosteric mapping for DNA-binding proteins"
+- **Issue** The description of the TF-MAPS workflow in Figure 1 is brief and does not clearly explain the key differences from previous B1H-based approaches. The schematic should more explicitly highlight the novel aspects of the method, such as the use of liquid culture selection and the integration of the STS assay.
+- **Required correction** Expand the figure legend and main text to clearly describe the workflow, emphasising the specific innovations over prior methods. Consider adding a step-by-step schematic that highlights the two orthogonal selections and the data integration step.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Statistical rigour
+- **Affected element** Allosteric hotspot identification
+- **Evidence pointer** Methods "Statistical tests"
+- **Issue** The statistical test for identifying allosteric hotspots uses a one-sample Wilcoxon signed-rank test on the median absolute residuals per position. The choice of this test and the handling of multiple testing across positions is not fully justified. The manuscript should clarify whether the test is applied to the median of absolute residuals or to the residuals themselves, and how the FDR correction accounts for the spatial correlation of nearby residues.
+- **Required correction** Provide a more detailed description of the statistical methodology, including the exact test statistic, the null hypothesis, and the rationale for the chosen approach. Discuss the potential for spatial autocorrelation and how it is addressed.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Data presentation
+- **Affected element** Clinical variant classification
+- **Evidence pointer** Results section "Mechanistic classification of pathogenic variants"; Figure 6
+- **Issue** The classification of pathogenic variants into destabilising, binding-interface, and allosteric categories is presented as a key outcome, but the criteria for classification are not fully described in the main text. The thresholds for "destabilising" (abundance < -0.8) and "binding-interface" (residue location) are mentioned, but the integration of these criteria into a final classification is unclear.
+- **Required correction** Provide a clear decision tree or table describing the classification criteria. Show the distribution of variants across categories and discuss the confidence in each classification.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Completeness
+- **Affected element** Discussion
+- **Evidence pointer** Discussion section
+- **Issue** The discussion of limitations is brief and does not address several important caveats. These include the use of a bacterial system that lacks eukaryotic chromatin and post-translational modifications, the focus on isolated DNA-binding domains rather than full-length proteins, and the use of a single consensus DNA binding site rather than exploring sequence-dependent effects.
+- **Required correction** Expand the limitations section to discuss these caveats and their potential impact on the generalisability of the findings to human biology.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Reproducibility
+- **Affected element** Methods
+- **Evidence pointer** Methods "Variant Library Design and Preparation"
+- **Issue** The description of the library design mentions the use of NNK, NNS, or NNH codons but does not specify which codon type was used for each gene or position. This information is important for understanding the potential amino acid bias in the libraries.
+- **Required correction** Specify the codon type used for each library and discuss the potential impact on the representation of different amino acid substitutions.
+- **Concern ID** R1-m6
+- **Severity** Minor
+- **Axis** Data interpretation
+- **Affected element** Figure 7
+- **Evidence pointer** Results section "Functional map of HNF1A"
+- **Issue** The validation of the B1H assay against independently measured Kd values for FOXG1 is based on only five data points (n=5). While the correlation is perfect (Spearman's rho = -1), the small sample size limits the strength of this validation.
+- **Required correction** Acknowledge the limited sample size in the text and discuss the need for additional validation with a larger set of variants with known binding affinities.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of library quality control metrics (R1-M1). 2) Over-reliance on AlphaFold3 models without experimental validation or discussion of model uncertainty (R1-M2). 3) Unsupported claims of scalability and speed (R1-M3). 4) Inadequate statistical framework for comparing allosteric surfaces between proteins (R1-M4). 5) Lack of experimental validation of predicted druggable pockets (R1-M5).
+- **Assessment against Nature-style criteria** **Originality:** The combination of B1H and STS assays for deconvolving binding from abundance effects in a single platform is a novel methodological contribution. The application to allosteric mapping of TFs extends prior work on protein-protein interaction domains and kinases. **Scientific importance:** The potential to generate comprehensive functional maps for hundreds of TFs would be a significant resource for the field. The identification of potentially druggable allosteric sites on TFs addresses a major challenge in drug discovery. However, the importance is currently tempered by the lack of experimental validation of key predictions. **Interdisciplinary readership:** The work bridges molecular biology, genomics, structural biology, and drug discovery. The findings would be of interest to a broad readership, but the technical nature of the methods may limit accessibility. **Technical soundness:** The core experimental design is sound, but the lack of QC data and validation experiments prevents full assessment. The statistical methods are appropriate but could be more rigorously described. **Readability for nonspecialists:** The manuscript is generally well-written and the concepts are explained clearly. However, the results section is dense and would benefit from more explicit summaries of key findings. The abstract effectively communicates the main message.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a promising platform with potentially significant implications for TF biology and drug discovery. However, the current version lacks essential quality control data and experimental validation to fully support the central claims. The authors should address the major concerns regarding library completeness, structural model validation, and experimental validation of predicted hotspots and pockets before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that TF-MAPS can be applied to "hundreds of human TFs" is unsupported by quantitative throughput data.
+- The claim that the identified pockets are "potentially druggable" is based solely on computational predictions and lacks experimental validation.
+- The claim that allostery in all three TFs shows "distance-dependent decay" is supported by the data presented, but the universality of this principle across all TFs is speculative.
+- The claim of "complete functional maps" is not supported without library saturation data.
+- The mechanistic classification of the two ClinVar variants with no detectable effect (R263H and V246L) as having a "different mechanism-of-action" is speculative, as the assay may not capture all relevant aspects of TF function.
+- The statement that the allosteric surfaces of FOXG1 and FOXP1 are "quite diverged" requires a more rigorous statistical comparison to be fully supported.

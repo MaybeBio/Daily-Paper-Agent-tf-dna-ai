@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41566703",
+  "title": "DeepDBPI: DNA-Binding Protein Identifier Using a Deep Learning Model with Transformed Denoised Features.",
+  "authors": "Arshad, Kamran; Arif, Muhammad; Yu, Dong-Jun",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-01-22",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习模型（BiGRU等）结合去噪特征预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅做序列级二分类预测，未涉及TF-DNA特异性结合位点或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Motivation: DNA-binding proteins (DBPs) play a significant role in the entire biological system. Many DNA-related studies actively investigate to understand whether a protein binds to DNA. Conventionally, wet-lab experiments are conducted to characterize DBP functions. However, these methods are often expensive and time-intensive. With the rapid advancement of bioinformatics, there is a growing demand for efficient computational protocols to predict DBPs. Several sequence-based computational tools have been designed to predict DBPs; however, research gaps persist for further improvement. Method: We developed a novel deep learning (DL)-based predictor, called DeepDBPI, for enhancing DBP prediction. The proposed DeepDBPI model leverages the evolutionary and graphical-based properties of protein sequences using novel descriptors, namely covariance correlation-based position-specific scoring matrix (CC-PSSM), binary-profile-based (BP-PSSM), Trigram (TRG-PSSM), and feature encoding based on graphical and statistical (FEGS) methods. Then, we applied the wavelet denoising (WD) algorithm to remove the noise from sequence-derived features. We fed the filtered features to ResNet, LSTM, BiLSTM, RNN, BiRNN, and BiGRU. Results: The DeepDBPI model achieved the best prediction performance with Bi-GRU using the denoised-based FEGS encoding method under 5-fold cross-validation, evaluated by ACC, SN, SP, and MCC. Our proposed model achieved 92.13% ACC, 93.07% SN, 91.19% SP, and 0.8427 MCC on the independent test. We believe the effectiveness of the developed bioinformatics protocol provides insights for drug discovery and other proteomic problems. All data, including the dataset, feature extraction techniques, and models, are available at: https://doi.org/10.5281/zenodo.17496063.",
+  "abstract_zh": "动机：DNA结合蛋白（DBPs）在整个生物系统中扮演着重要角色。许多与DNA相关的研究积极探究蛋白质是否与DNA结合。传统上，通过湿实验来表征DBP功能，但这些方法往往成本高昂且耗时。随着生物信息学的快速发展，对高效计算协议来预测DBPs的需求日益增长。已有多种基于序列的计算工具被设计用于预测DBPs；然而，仍存在研究空白以待进一步改进。方法：我们开发了一种新型基于深度学习（DL）的预测器，称为DeepDBPI，以增强DBP预测。所提出的DeepDBPI模型利用蛋白质序列的进化特性和基于图形的特性，采用新型描述符，即基于协方差相关的位点特异性评分矩阵（CC-PSSM）、基于二元轮廓的（BP-PSSM）、三元组（TRG-PSSM）以及基于图形和统计的特征编码（FEGS）方法。随后，我们应用小波去噪（WD）算法去除序列衍生特征中的噪声。我们将过滤后的特征输入到ResNet、LSTM、BiLSTM、RNN、BiRNN和BiGRU中。结果：DeepDBPI模型在使用基于去噪的FEGS编码方法及Bi-GRU时，在5折交叉验证下取得了最佳预测性能，并通过ACC、SN、SP和MCC进行评估。我们的模型在独立测试中达到了92.13%的ACC、93.07%的SN、91.19%的SP和0.8427的MCC。我们相信，所开发的生物信息学协议的有效性为药物发现及其他蛋白质组学问题提供了见解。所有数据，包括数据集、特征提取技术和模型，均可在以下网址获取：https://doi.org/10.5281/zenodo.17496063。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41566703/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41566703/",
+  "paper_page_path": "papers/pubmed/41566703/index.html"
+}

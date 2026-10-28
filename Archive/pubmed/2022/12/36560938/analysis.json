@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36560938",
+  "title": "A capsule network-based method for identifying transcription factors.",
+  "authors": "Zheng, Peijie; Qi, Yue; Li, Xueyong; Liu, Yuewu; Yao, Yuhua; Huang, Guohua",
+  "journal": "Frontiers in microbiology",
+  "published_date": "2022-12-24",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用胶囊网络识别转录因子蛋白，属于蛋白功能分类而非TF-DNA互作建模，方法可借鉴但对象与互作轴均偏离课题核心。",
+  "abstract": "Transcription factors (TFs) are typical regulators for gene expression and play versatile roles in cellular processes. Since it is time-consuming, costly, and labor-intensive to detect it by using physical methods, it is desired to develop a computational method to detect TFs. Here, we presented a capsule network-based method for identifying TFs. This method is an end-to-end deep learning method, consisting mainly of an embedding layer, bidirectional long short-term memory (LSTM) layer, capsule network layer, and three fully connected layers. The presented method obtained an accuracy of 0.8820, being superior to the state-of-the-art methods. These empirical experiments showed that the inclusion of the capsule network promoted great performances and that the capsule network-based representation was superior to the property-based representation for distinguishing between TFs and non-TFs. We also implemented the presented method into a user-friendly web server, which is freely available at http://www.biolscience.cn/Capsule_TF/ for all scientific researchers.",
+  "abstract_zh": "转录因子（TFs）是基因表达的典型调控因子，在细胞过程中扮演多种角色。由于通过物理方法检测转录因子耗时、昂贵且劳动密集，因此开发一种计算方法来检测转录因子显得尤为必要。在此，我们提出了一种基于胶囊网络的方法来识别转录因子。该方法是一种端到端的深度学习方法，主要由嵌入层、双向长短期记忆（LSTM）层、胶囊网络层和三个全连接层组成。所提出的方法达到了0.8820的准确率，优于现有最先进的方法。这些实证实验表明，包含胶囊网络显著提升了性能，并且基于胶囊网络的表示在区分转录因子与非转录因子方面优于基于属性的表示。我们还将所提出的方法实现为一个用户友好的网络服务器，所有科研人员均可免费访问，网址为 http://www.biolscience.cn/Capsule_TF/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36560938/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36560938/",
+  "paper_page_path": "papers/pubmed/36560938/index.html"
+}

@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "39951433",
+    "doi": "10.1371/journal.pone.0316531",
+    "title": "Semi-rational evolution of a recombinant DNA polymerase for modified nucleotide incorporation efficiency."
+  },
+  "content": {
+    "abstract": "Engineering improved B-family DNA polymerases to catalyze 3'-O-modified nucleotide reversible terminators is limited by an insufficient understanding of the structural determinants that define polymerization efficiency. To explore the key mechanism for unnatural nucleotide incorporation, we engineered a B-family DNA polymerase from Thermococcus Kodakaraenis (KOD pol) by using semi-rational design strategies. We first scanned the active pocket of KOD pol through site-directed saturation mutagenesis and combinatorial mutations and identified a variant Mut_C2 containing five mutation sites (D141A, E143A, L408I, Y409A, A485E) using a high-throughput microwell-based screening method. Mut_C2 demonstrated high catalytic efficiency in incorporating 3'-O-azidomethyl-dATP labeled with a Cy3 dye, whereas the wild-type KOD pol failed to catalyze it. Computational simulations were then conducted of the DNA binding region of KOD pol to predict additional mutations with enhanced catalytic activity, which were subsequently experimentally verified. By a stepwise combinatorial mutagenesis approach, we obtained an eleven-mutation variant, named Mut_E10 by introducing additional mutations to the Mut_C2 variant. Mut_E10, which carried six specific mutations (S383T, Y384F, V389I, V589H, T676K, and V680M) within the DNA-binding region, demonstrated over 20-fold improvement in enzymatic activity as compared to Mut_C2. In addition, Mut_E10 demonstrated satisfactory performance in two different sequencing platforms (BGISEQ-500 and MGISEQ-2000), indicating its potential for commercialization. Our study demonstrates that a significant enhancement in its catalytic efficiency towards modified nucleotides can be achieved efficiently through combinatorial mutagenesis of residues in the active site and DNA binding region of DNA polymerases. These findings contribute to a comprehensive understanding of the mechanisms that underlie the incorporation of modified nucleotides by DNA polymerase. The sites of beneficial mutations, as well as the nucleotide incorporation mechanism identified in this study, can provide valuable guidance for the engineering of other B-family DNA polymerases.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Directed DNA Polymerase/genetics/metabolism/chemistry",
+      "*Thermococcus/enzymology/genetics",
+      "Recombinant Proteins/genetics/metabolism/chemistry",
+      "*Nucleotides/metabolism",
+      "Mutagenesis, Site-Directed",
+      "Mutation",
+      "Catalytic Domain",
+      "Protein Engineering"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhai, Lili",
+        "Wang, Zi",
+        "Liu, Fen",
+        "Xu, Chongjun",
+        "Wang, Jingjing",
+        "Han, Hongyan",
+        "Xie, Qingqing",
+        "Zhang, Wenwei",
+        "Zheng, Yue",
+        "Buell, Alexander K",
+        "Dong, Yuliang"
+      ],
+      "short_names": [
+        "Zhai L",
+        "Wang Z",
+        "Liu F",
+        "Xu C",
+        "Wang J",
+        "Han H",
+        "Xie Q",
+        "Zhang W",
+        "Zheng Y",
+        "Buell AK",
+        "Dong Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1161-3622"
+      ],
+      "affiliations": [
+        "BGI Research, Shenzhen, China.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark.",
+        "BGI Research, Shenzhen, China.",
+        "MGI Tech, Shenzhen, China.",
+        "MGI Tech, Shenzhen, China.",
+        "MGI Tech, Shenzhen, China.",
+        "BGI Research, Shenzhen, China.",
+        "BGI Research, Shenzhen, China.",
+        "BGI Research, Shenzhen, China.",
+        "BGI Research, Shenzhen, China.",
+        "BGI Research, Hangzhou, China.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark.",
+        "BGI Research, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhai, Lili",
+        "short_name": "Zhai L",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Shenzhen, China.",
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Wang, Zi",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fen",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "MGI Tech, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Chongjun",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "MGI Tech, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingjing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "MGI Tech, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Han, Hongyan",
+        "short_name": "Han H",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Qingqing",
+        "short_name": "Xie Q",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenwei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yue",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Shenzhen, China.",
+          "BGI Research, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Buell, Alexander K",
+        "short_name": "Buell AK",
+        "identifiers": [
+          "0000-0003-1161-3622"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Dong, Yuliang",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "BGI Research, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/14 18:21",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42653192"
+    ],
+    "refs": [
+      "37179777",
+      "37166959",
+      "36362137",
+      "35666775",
+      "35089032",
+      "34777467",
+      "33791156",
+      "32952115",
+      "32705130",
+      "32340232",
+      "32238597",
+      "32176719",
+      "32005372",
+      "31286382",
+      "31081325",
+      "31069234",
+      "30761722",
+      "30502514",
+      "29863852",
+      "28618333",
+      "28379488",
+      "27651460",
+      "26947566",
+      "26627581",
+      "26150245",
+      "25835573",
+      "25501593",
+      "25009536",
+      "24177730",
+      "23940661",
+      "23733496",
+      "23558037",
+      "22001375",
+      "21226515",
+      "21076389",
+      "20647463",
+      "20629059",
+      "20513707",
+      "19817489",
+      "18591653",
+      "17385812",
+      "17195156",
+      "15898792",
+      "15810436",
+      "11500853",
+      "11283594",
+      "11178906",
+      "10981629",
+      "10352184",
+      "9890143",
+      "8053542",
+      "7852344",
+      "7049062",
+      "2657738"
+    ],
+    "similar": [
+      "39951433",
+      "33137176",
+      "21076389",
+      "28832623",
+      "10860752",
+      "22570423",
+      "23395617",
+      "27651460",
+      "26160179",
+      "26860781",
+      "26947566",
+      "18051318",
+      "12665597",
+      "12217692",
+      "12742017",
+      "28684739",
+      "30761722",
+      "25162224",
+      "32531152",
+      "24375236",
+      "25039058",
+      "10352184",
+      "24532793",
+      "28710267",
+      "28423907",
+      "23717197",
+      "19420083",
+      "22540128",
+      "11090274",
+      "11058140",
+      "19883660",
+      "12270709",
+      "21696159",
+      "21078407",
+      "21295588",
+      "12781461",
+      "20978284",
+      "20513707",
+      "12654264",
+      "16019029",
+      "23733496",
+      "14672657",
+      "20152943",
+      "26707394",
+      "28911097",
+      "23504010",
+      "21117129",
+      "18583360",
+      "25108837",
+      "33306372",
+      "17088268",
+      "25036012",
+      "21723333",
+      "12054770",
+      "11917008",
+      "9174365",
+      "11788725",
+      "16097800",
+      "39147125",
+      "25063297",
+      "9361436",
+      "30716079",
+      "33600564",
+      "19228036",
+      "35666775",
+      "15196018",
+      "26203649",
+      "24819597",
+      "18847263",
+      "24487959",
+      "22422840",
+      "12644469",
+      "33302546",
+      "18670731",
+      "18503083",
+      "26992800",
+      "10644683",
+      "24725253",
+      "23050956",
+      "10387012",
+      "23040388",
+      "8344956",
+      "26627581",
+      "30040233",
+      "29180809",
+      "21784925",
+      "22566643",
+      "26138395",
+      "9783162",
+      "26150245",
+      "26134129",
+      "24324256",
+      "11403848",
+      "18058909",
+      "20851705",
+      "29211756",
+      "31003719",
+      "20952260",
+      "18756097",
+      "18788757"
+    ],
+    "review": [
+      "39951433",
+      "9783162",
+      "26150245"
+    ],
+    "pmc": [
+      "11828419"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0316531",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39951433/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1104",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39951433",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

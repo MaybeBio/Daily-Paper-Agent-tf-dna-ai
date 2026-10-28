@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36593954",
+  "title": "Artificial intelligence-based recognition for variant pathogenicity of BRCA1 using AlphaFold2-predicted structures.",
+  "authors": "Li, Chang; Zhang, Lili; Zhuo, Zhongling; Su, Fei; Li, Hexin; Xu, Siyuan; Liu, Ye; Zhang, Zaifeng; Xie, Yibo; Yu, Xue; Bian, Liheng; Xiao, Fei",
+  "journal": "Theranostics",
+  "published_date": "2023-01-04",
+  "window": {
+    "start": "2023-01-02",
+    "end": "2023-01-08"
+  },
+  "score": 4,
+  "one_liner_zh": "用AlphaFold2预测结构训练CNN识别BRCA1错义变异的致病性，虽涉及蛋白结构建模但非蛋白质-DNA互作体系，与TF-DNA课题关联较弱。",
+  "abstract": "With the surge of the high-throughput sequencing technologies, many genetic variants have been identified in the past decade. The vast majority of these variants are defined as variants of uncertain significance (VUS), as their significance to the function or health of an organism is not known. It is urgently needed to develop intelligent models for the clinical interpretation of VUS. State-of-the-art artificial intelligence (AI)-based variant effect predictors only learn features from primary amino acid sequences, leaving out information about the most important three-dimensional structure that is more related to its function. Methods: We proposed a deep convolutional neural network model named variant effect recognition network for BRCA1 (vERnet-B) to recognize the clinical pathogenicity of missense single-nucleotide variants in the BRCT domain of BRCA1. vERnet-B learned features associated with the pathogenicity from the tertiary protein structures of variants predicted by AlphaFold2. Results: After performing a series of validation and analyses on vERnet-B, we discovered that it exhibited significant advances over previous works. Recognizing the phenotypic consequences of VUS is one of the most daunting challenges in genetic informatics; however, we achieved 85% accuracy in recognizing disease BRCA1 variants with an ideal balance of false-positive and true-positive detection rates. vERnet-B correctly recognized the pathogenicity of variant A1708E, which was poorly predicted by AlphaFold2 as previously described. The vERnet-B web server is freely available from URL: http://ai-lab.bjrz.org.cn/vERnet. Conclusions: We applied protein tertiary structures to successfully recognize the pathogenic missense SNVs, which were difficult to be addressed by classical approaches based on sequences. Our work demonstrated that AlphaFold2-predicted structures were expected to be used for rich feature learning and revealed unique insights into the clinical interpretation of VUS in disease-related genes, using vERnet-B as a discovery tool.",
+  "abstract_zh": "随着高通量测序技术的迅猛发展，过去十年间已识别出大量遗传变异。这些变异绝大多数被定义为意义不确定的变异（VUS），因为其对生物体功能或健康的意义尚不明确。迫切需要开发智能模型用于VUS的临床解读。最先进的人工智能（AI）变异效应预测器仅从初级氨基酸序列中学习特征，忽略了与其功能更相关的最重要的三维结构信息。方法：我们提出了一种名为BRCA1变异效应识别网络（vERnet-B）的深度卷积神经网络模型，用于识别BRCA1 BRCT结构域中错义单核苷酸变异的临床致病性。vERnet-B从AlphaFold2预测的变异三级蛋白质结构中学习与致病性相关的特征。结果：通过对vERnet-B进行一系列验证和分析，我们发现其相较于先前工作表现出显著进步。识别VUS的表型后果是遗传信息学中最艰巨的挑战之一；然而，我们在识别疾病相关BRCA1变异方面达到了85%的准确率，并实现了假阳性和真阳性检测率的理想平衡。vERnet-B正确识别了变异A1708E的致病性，而此前描述中AlphaFold2对此预测不佳。vERnet-B网络服务器可免费访问，网址为：http://ai-lab.bjrz.org.cn/vERnet。结论：我们利用蛋白质三级结构成功识别了致病性错义SNV，这些变异难以通过基于序列的经典方法解决。我们的工作表明，AlphaFold2预测的结构有望用于丰富的特征学习，并利用vERnet-B作为发现工具，为疾病相关基因中VUS的临床解读提供了独特见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36593954/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36593954/",
+  "paper_page_path": "papers/pubmed/36593954/index.html"
+}

@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "38955977",
+    "doi": "10.1007/s11030-024-10915-8",
+    "title": "Targeting AFP-RARbeta complex formation: a potential strategy for treating AFP-positive hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "Alpha-fetoprotein (AFP) is a glycoprotein primarily expressed during embryogenesis, with declining levels postnatally. Elevated AFP levels correlate with pathological conditions such as liver fibrosis, cirrhosis, and hepatocellular carcinoma (HCC). Recent investigations underscore AFP's intracellular role in HCC progression, wherein it forms complexes with proteins like Phosphatase and tensin homolog (PTEN), Caspase 3 (CASP3), and Retinoic acid receptors and Retinoid X receptors (RAR/RXR). RAR and RXR regulate gene expression linked to cell death and tumorigenesis in normal physiology. AFP impedes RAR/RXR dimerization, nuclear translocation, and function, promoting gene expression favoring cancer progression in HCC that provoked us to target AFP as a drug candidate. Despite extensive studies, inhibitors targeting AFP to disrupt complex formation and activities remain scarce. In this study, employing protein-protein docking, amino acid residues involved in AFP-RARbeta interaction were identified, guiding the definition of AFP's active site for potential inhibitor screening. Currently, kinase inhibitors play a significant role in cancer treatment and, the present study explores the potential of repurposing FDA-approved protein kinase inhibitors to target AFP. Molecular docking with kinase inhibitors revealed Lapatinib as a candidate drug of the AFP-RARbeta complex. Molecular dynamics simulations and binding energy calculations, employing Mechanic/Poisson-Boltzmann Surface Area (MM-PBSA), confirmed Lapatinib's stability with AFP. The study suggests Lapatinib's potential in disrupting the AFP-RARbeta complex, providing a promising avenue for treating molecularly stratified AFP-positive HCC or its early stages.",
+    "keywords": [
+      "AFP",
+      "HCC",
+      "Lapatinib",
+      "Molecular docking",
+      "Molecular dynamic simulations",
+      "RAR/RXR"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/drug therapy/metabolism",
+      "Humans",
+      "*Liver Neoplasms/drug therapy/metabolism",
+      "Molecular Docking Simulation",
+      "*alpha-Fetoproteins/metabolism/chemistry",
+      "Protein Binding/drug effects",
+      "*Receptors, Retinoic Acid/metabolism/chemistry",
+      "Protein Kinase Inhibitors/pharmacology/chemistry",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Banjan, Bhavya",
+        "Vishwakarma, Riya",
+        "Ramakrishnan, Krishnapriya",
+        "Dev, Radul R",
+        "Kalath, Haritha",
+        "Kumar, Pankaj",
+        "Soman, Sowmya",
+        "Raju, Rajesh",
+        "Revikumar, Amjesh",
+        "Rehman, Niyas",
+        "Abhinand, Chandran S"
+      ],
+      "short_names": [
+        "Banjan B",
+        "Vishwakarma R",
+        "Ramakrishnan K",
+        "Dev RR",
+        "Kalath H",
+        "Kumar P",
+        "Soman S",
+        "Raju R",
+        "Revikumar A",
+        "Rehman N",
+        "Abhinand CS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+        "Nitte (Deemed to Be University), Department of Pharmaceutical Chemistry, NGSMPS, NGSM Institute of Pharmaceutical Sciences, Mangalore, 575018, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+        "Centre for Systems Biology and Molecular Medicine (CSBMM), Yenepoya Research Centre, Yenepoya (Deemed to Be University), Deralakatte, Mangalore, 575018, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+        "Kerala Genome Data Centre, Kerala Development and Innovation Strategic Council, Vazhuthacaud, Thiruvananthapuram, Kerala, 695014, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India. niyas.rehman@yenepoya.edu.in.",
+        "Centre for Systems Biology and Molecular Medicine (CSBMM), Yenepoya Research Centre, Yenepoya (Deemed to Be University), Deralakatte, Mangalore, 575018, Karnataka, India. abhinand.rohini@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Banjan, Bhavya",
+        "short_name": "Banjan B",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India."
+        ]
+      },
+      {
+        "full_name": "Vishwakarma, Riya",
+        "short_name": "Vishwakarma R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India."
+        ]
+      },
+      {
+        "full_name": "Ramakrishnan, Krishnapriya",
+        "short_name": "Ramakrishnan K",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India."
+        ]
+      },
+      {
+        "full_name": "Dev, Radul R",
+        "short_name": "Dev RR",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India."
+        ]
+      },
+      {
+        "full_name": "Kalath, Haritha",
+        "short_name": "Kalath H",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Pankaj",
+        "short_name": "Kumar P",
+        "identifiers": [],
+        "affiliations": [
+          "Nitte (Deemed to Be University), Department of Pharmaceutical Chemistry, NGSMPS, NGSM Institute of Pharmaceutical Sciences, Mangalore, 575018, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Soman, Sowmya",
+        "short_name": "Soman S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India."
+        ]
+      },
+      {
+        "full_name": "Raju, Rajesh",
+        "short_name": "Raju R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+          "Centre for Systems Biology and Molecular Medicine (CSBMM), Yenepoya Research Centre, Yenepoya (Deemed to Be University), Deralakatte, Mangalore, 575018, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Revikumar, Amjesh",
+        "short_name": "Revikumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India.",
+          "Kerala Genome Data Centre, Kerala Development and Innovation Strategic Council, Vazhuthacaud, Thiruvananthapuram, Kerala, 695014, India."
+        ]
+      },
+      {
+        "full_name": "Rehman, Niyas",
+        "short_name": "Rehman N",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to Be University), Mangalore, 575018, India. niyas.rehman@yenepoya.edu.in."
+        ]
+      },
+      {
+        "full_name": "Abhinand, Chandran S",
+        "short_name": "Abhinand CS",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Systems Biology and Molecular Medicine (CSBMM), Yenepoya Research Centre, Yenepoya (Deemed to Be University), Deralakatte, Mangalore, 575018, Karnataka, India. abhinand.rohini@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/03 00:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "39569037"
+    ],
+    "refs": [
+      "38167952",
+      "37572440",
+      "36768863",
+      "36522503",
+      "36403719",
+      "36157492",
+      "36069789",
+      "35571648",
+      "34725936",
+      "34680245",
+      "34586825",
+      "34299349",
+      "34104211",
+      "33898423",
+      "33579421",
+      "33495541",
+      "33090723",
+      "32190291",
+      "31939671",
+      "31811908",
+      "31694317",
+      "31439937",
+      "31436873",
+      "31273085",
+      "31024205",
+      "30183291",
+      "29021580",
+      "28653316",
+      "28079879",
+      "27819658",
+      "27476956",
+      "27051863",
+      "26970124",
+      "26918045",
+      "26457017",
+      "26400175",
+      "26162540",
+      "26078940",
+      "25815363",
+      "25560970",
+      "25128299",
+      "25058218",
+      "24947784",
+      "23765762",
+      "23579094",
+      "23041732",
+      "22521346",
+      "22515981",
+      "22439772",
+      "21365646",
+      "20808434",
+      "20473866",
+      "19737952",
+      "19690639",
+      "19672141",
+      "19575467",
+      "19529774",
+      "19501957",
+      "19267404",
+      "19169683",
+      "18458039",
+      "18197728",
+      "17985863",
+      "17373710",
+      "17288606",
+      "17100584",
+      "16894399",
+      "15103326",
+      "14560013",
+      "12787562",
+      "12696051",
+      "12323110",
+      "12214266",
+      "11585755",
+      "11254382",
+      "10698945",
+      "10592235",
+      "9990505",
+      "9692959",
+      "9457077",
+      "8945636"
+    ],
+    "similar": [
+      "38955977",
+      "33090723",
+      "33495541",
+      "26078940",
+      "28653316",
+      "9343423",
+      "9457077",
+      "25846475",
+      "22521346",
+      "31811908",
+      "39668590",
+      "19501957",
+      "8945636",
+      "21365646",
+      "31938062",
+      "35955438",
+      "26546044",
+      "25943101",
+      "27924522",
+      "32725355",
+      "37782430",
+      "33765973",
+      "19267404",
+      "17846232",
+      "31680299",
+      "11254382",
+      "25869392",
+      "11522637",
+      "25209179",
+      "9462663",
+      "37204028",
+      "28596685",
+      "39428846",
+      "33009373",
+      "38981944",
+      "18166136",
+      "27835879",
+      "17626741",
+      "17085339",
+      "19038010",
+      "16222756",
+      "22681639",
+      "28920172",
+      "20473866",
+      "38197431",
+      "9001218",
+      "20572033",
+      "15888795",
+      "37040183",
+      "31517445",
+      "20532728",
+      "26820129",
+      "34280005",
+      "22294840",
+      "32852885",
+      "18658001",
+      "27716619",
+      "16152611",
+      "15528208",
+      "17250819",
+      "25822740",
+      "37060820",
+      "33310290",
+      "12966430",
+      "25724413",
+      "28554567",
+      "7525384",
+      "7823919",
+      "32482029",
+      "10355508",
+      "31986961",
+      "24839937",
+      "9013706",
+      "31400295",
+      "19008009",
+      "31242488",
+      "32438969",
+      "7506988",
+      "38471352",
+      "27732875",
+      "22414760",
+      "11471892",
+      "21059290",
+      "39644617",
+      "35458505",
+      "14714299",
+      "22147961",
+      "19003875",
+      "23169148",
+      "22761128",
+      "25129443",
+      "17317821",
+      "31973032",
+      "23173703",
+      "31593481",
+      "14506158",
+      "32845425",
+      "26882566",
+      "38395204",
+      "8264664"
+    ],
+    "review": [
+      "38955977",
+      "39668590",
+      "32725355",
+      "37782430",
+      "27732875",
+      "35458505",
+      "32845425"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11030-024-10915-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

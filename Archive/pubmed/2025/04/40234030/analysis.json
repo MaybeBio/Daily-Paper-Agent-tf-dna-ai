@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40234030",
+  "title": "Integrating genetic variation with deep learning provides context for variants impacting transcription factor binding during embryogenesis.",
+  "authors": "Sigalova, Olga M; Forneris, Mattia; Stojanovska, Frosina; Zhao, Bingqing; Viales, Rebecca R; Rabinowitz, Adam; Hammal, Fayrouz; Ballester, Benoit; Zaugg, Judith B; Furlong, Eileen E M",
+  "journal": "Genome research",
+  "published_date": "2025-04-16",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合遗传变异与深度学习预测果蝇胚胎发生中TF结合，虽聚焦等位基因特异性结合而非三维互作建模，但CNN预测TF-DNA结合的方法对TF结合位点预测有直接借鉴价值。",
+  "abstract": "Understanding how genetic variation impacts transcription factor (TF) binding remains a major challenge, limiting our ability to model disease-associated variants. Here, we used a highly controlled system of F(1) crosses with extensive genetic diversity to profile allele-specific binding of four TFs at several time points during Drosophila embryogenesis. Using a combined haplotype test, we identified 9%-18% of TF-bound regions impacted by genetic variation even for essential regulators. By expanding WASP (a tool for allele-specific read mapping) to examine indels, we increased detection of allelically imbalanced peaks by 30%-50%. This fine-grained \"mutagenesis\" can reconstruct functionalized binding motifs for all factors. To prioritize causal variants, we trained a convolutional neural network (Basenji) to accurately predict binding from DNA sequence. The model can also predict measured allelic imbalance for strong effect variants, providing a mechanistic interpretation for how the variant impacts binding. This reveals unexpected relationships between TFs, including potential cooperative pairs, and mechanisms of tissue-specific recruitment of the ubiquitous factor CTCF.",
+  "abstract_zh": "理解遗传变异如何影响转录因子（TF）结合仍是一项重大挑战，限制了我们对疾病相关变异进行建模的能力。在此，我们利用一个高度受控的F(1)杂交系统，该系统具有广泛的遗传多样性，在果蝇胚胎发生的多个时间点剖析了四种TF的等位基因特异性结合。通过联合单倍型检验，我们识别出9%-18%的TF结合区域受遗传变异影响，即使对于必需调控因子也是如此。通过扩展WASP（一种用于等位基因特异性读段比对的工具）以检查插入缺失，我们将等位基因不平衡峰值的检测率提高了30%-50%。这种精细的“诱变”能够为所有因子重建功能化的结合基序。为了优先考虑因果变异，我们训练了一个卷积神经网络（Basenji），以从DNA序列准确预测结合。该模型还能预测强效应变异的实测等位基因不平衡，为变异如何影响结合提供机制性解释。这揭示了TF之间意想不到的关系，包括潜在的合作对，以及普遍因子CTCF组织特异性招募的机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40234030/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40234030/",
+  "paper_page_path": "papers/pubmed/40234030/index.html"
+}

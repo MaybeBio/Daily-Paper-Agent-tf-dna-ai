@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42259201",
+  "title": "Identification of zinc finger protein-related feature genes in ischemic stroke via explainable machine learning: A comprehensive analysis.",
+  "authors": "Wang, Yongyi; Yu, Zhehao; Huang, Ziteng; Xu, Chenting; Cao, Yingying; Sun, Zijia",
+  "journal": "Biochemical and biophysical research communications",
+  "published_date": "2026-06-09",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用机器学习识别缺血性卒中相关锌指蛋白特征基因，但核心是疾病生物标志物与诊断模型，未涉及蛋白质-DNA互作机制或TF-DNA结合建模，仅分子对接用于药物筛选，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Zinc finger proteins (ZFPs) play important roles following ischemic stroke (IS), but systematic investigations into their potential as biomarkers are still lacking. METHODS: Multi-omics data were integrated with machine learning approaches. Transcriptomic data for IS were obtained from the GEO database. IS-related ZFP genes were identified through differential expression analysis, weighted gene co-expression network analysis (WGCNA), and ZFP gene set screening. Feature genes were selected using LASSO, SVM-RFE, and random forest algorithms. Causal relationships were validated using Mendelian randomization (MR), summary-data-based MR (SMR) and Bayesian colocalization analyses. The diagnostic model was validated in an external dataset. Functional mechanisms were explored via immune infiltration analysis, gene set enrichment analysis (GSEA), and single-cell sequencing (scRNA-seq). Drug screening and safety assessment were performed using deep learning, molecular docking, and phenome-wide association study (PheWAS). RESULTS: A total of 46 IS-related ZFP genes were identified. Six feature genes were selected through machine learning. SMR, TSMR, and colocalization analyses identified ZNF438 and ZNF608 as risk genes and ZNF566 as a protective gene, with colocalization further confirming shared causal variants. A diagnostic model based on these three genes performed well in both the training cohort (AUC = 0.955) and the validation cohort (AUC = 0.897). Immune infiltration analysis revealed that ZNF438 and ZNF608 were positively correlated with neutrophils, while ZNF566 showed a negative correlation. ScRNA-seq revealed their specific expression patterns in cell types. Drug screening identified 2-phenylethynesulfonamide as a compound with stable binding to the three targets, and PheWAS suggested favorable safety profiles for these targets. CONCLUSION: ZNF438, ZNF566, and ZNF608 were identified as IS-related ZFP biomarkers. The constructed model demonstrated good diagnostic performance, providing new candidate targets for molecular diagnosis and targeted therapy of IS.",
+  "abstract_zh": "背景：锌指蛋白（ZFPs）在缺血性卒中（IS）后发挥重要作用，但对其作为生物标志物的系统性研究仍缺乏。方法：将多组学数据与机器学习方法整合。IS的转录组数据来自GEO数据库。通过差异表达分析、加权基因共表达网络分析（WGCNA）和ZFP基因集筛选，鉴定IS相关ZFP基因。使用LASSO、SVM-RFE和随机森林算法选择特征基因。因果关系通过孟德尔随机化（MR）、基于汇总数据的MR（SMR）和贝叶斯共定位分析验证。诊断模型在外部数据集中验证。功能机制通过免疫浸润分析、基因集富集分析（GSEA）和单细胞测序（scRNA-seq）探索。药物筛选和安全性评估使用深度学习、分子对接和全表型关联研究（PheWAS）进行。结果：共鉴定出46个IS相关ZFP基因。通过机器学习选择出6个特征基因。SMR、TSMR和共定位分析确定ZNF438和ZNF608为风险基因，ZNF566为保护基因，共定位进一步确认了共享因果变异。基于这三个基因的诊断模型在训练队列（AUC = 0.955）和验证队列（AUC = 0.897）中均表现良好。免疫浸润分析显示，ZNF438和ZNF608与中性粒细胞呈正相关，而ZNF566呈负相关。ScRNA-seq揭示了它们在细胞类型中的特异性表达模式。药物筛选确定2-苯基乙炔磺酰胺为与三个靶点稳定结合的化合物，PheWAS提示这些靶点具有良好的安全性特征。结论：ZNF438、ZNF566和ZNF608被鉴定为IS相关ZFP生物标志物。构建的模型表现出良好的诊断性能，为IS的分子诊断和靶向治疗提供了新的候选靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42259201/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42259201/",
+  "paper_page_path": "papers/pubmed/42259201/index.html"
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, methods, footnotes)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and computational methodology as presented in the supplied text
+- **Shared manuscript claim summary** The authors report that a single thymine-to-adenine mutation at position five of the Sp1III motif (Sp1IIIT5A) in the HIV-1 subtype C LTR significantly enhances both basal and Tat-mediated transcription activity in SVG and Jurkat cell lines, and that this mutation increases Sp1 binding affinity as assessed by molecular docking and dynamics simulations
+- **Visible evidence base** Results text describing reporter assays (Figure 2), Western blot (Figure 3), docking scores (Table 1), MD simulation RMSD values (Figure 4), and structural interaction analysis (Table 2, Figure 5); methods text for cloning, transfection, Western blot, modelling, docking, and MD simulation
+- **Missing materials affecting confidence** Figures 1-5 and Tables 1-2 are referenced but not provided; supplementary figures S1-S3 are referenced but not provided; no statistical analysis details; no raw data or replicate-level results; no cell viability or transfection efficiency controls described
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question regarding the functional impact of a naturally occurring SNP in the HIV-1C LTR Sp1III motif. The experimental approach combining reporter assays with computational modelling is reasonable in principle. However, the evidence as presented is insufficient to support the central claims. Key quantitative data (figures, tables) are not available for assessment, statistical treatment is absent, and the computational results are reported without error estimates or validation against experimental binding data. The claim that enhanced transcription is mechanistically linked to increased Sp1 binding affinity is not directly tested. The manuscript requires substantial revision and additional experiments before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers studying HIV-1 transcriptional regulation, LTR genetic variation and its impact on viral pathogenesis, and those interested in host-viral interactions at the level of transcription factor binding. The work may also be of interest to computational biologists working on protein-DNA docking and MD simulation of transcription factor complexes, though the computational approach would need to be substantially strengthened to be of broad utility.
+- **Major strengths** The study addresses a clinically relevant question given the predominance of HIV-1C in southern Africa. The focus on a single SNP within a defined regulatory element is a clean experimental design. The use of two cell lines of different lineages (astrocyte and T-lymphocyte) is appropriate for assessing cell-type dependence. The combination of experimental reporter assays with computational structural analysis is a potentially informative approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that Sp1IIIT5A significantly increases basal and Tat-mediated transcription activity in both SVG and Jurkat cells.
+  - **Evidence pointer** Figure 2 (not provided); Results section "Introduction of Sp1III5A mutation into the HIV-1C subtype C LTR"
+  - **Concern** The central experimental claim relies entirely on Figure 2, which is not available for review. No numerical values, fold-changes, error bars, or statistical test results are reported in the text. The p-values cited (p<0.0001, p=0.0052) are presented without indication of the statistical test used, the number of independent experiments, or the dispersion of the data. Without access to the actual data, the magnitude of the reported effects and the robustness of the significance claims cannot be evaluated.
+  - **Why it matters** The primary conclusion of the manuscript rests on this result. If the effect sizes are small or the variability is high, the biological significance may be limited. The absence of transparent quantitative reporting prevents assessment of whether the claim is justified.
+  - **Resolution test** Provide the actual data from Figure 2 in a format that allows assessment of effect sizes, variability, and statistical methodology. Report the specific statistical test used, the number of biological and technical replicates, and the exact p-values. Ideally, include raw luminescence values or normalized fold-changes with confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link
+  - **Claim pointer** The authors conclude that enhanced transcription activity is due to increased Sp1 binding affinity.
+  - **Evidence pointer** Results sections "Molecular Docking and Dynamics Simulation" and "Discussion"
+  - **Concern** The manuscript presents transcription activity data and computational binding predictions as separate lines of evidence, but no experiment directly links the two. The claim that increased transcription is caused by enhanced Sp1 binding is an inference, not a demonstrated mechanism. No electrophoretic mobility shift assay, chromatin immunoprecipitation, or other direct binding measurement is reported. The computational docking scores and MD simulations, while suggestive, are not validated against experimental binding data.
+  - **Why it matters** The mechanistic conclusion is a key part of the manuscript's significance. Without direct evidence that the T5A mutation alters Sp1 occupancy at the LTR in cells, alternative explanations (e.g., effects on chromatin structure, other transcription factors, or RNA polymerase recruitment) cannot be excluded.
+  - **Resolution test** Perform an experimental binding assay (e.g., EMSA or surface plasmon resonance) comparing Sp1 binding to the wild-type and mutant Sp1III oligonucleotides. Alternatively, perform chromatin immunoprecipitation to assess Sp1 occupancy at the LTR in cells transfected with the two reporter constructs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational methodology
+  - **Claim pointer** The authors report that Sp1IIIT5A exhibits higher binding affinity than the canonical sequence, with docking scores of -332.7, -174.6, and -279.2 kcal/mol versus -311.4, -157.0, and -247.3 kcal/mol.
+  - **Evidence pointer** Table 1 (not provided); Results section "Molecular Docking and Dynamics Simulation"
+  - **Concern** The docking scores are presented as single values with no indication of the scoring function units, the variance across docking runs, or the statistical significance of the differences. The three docking tools (HDOCK, HADDOCK, pyDockDNA) use different scoring functions, and comparing raw scores across tools is not meaningful. The MD simulation RMSD values (17.96 Å vs 13.03 Å) are reported without error estimates or trajectory analysis. The claim of "stronger stability" based on lower RMSD is an oversimplification, as RMSD alone does not capture binding free energy or interaction specificity.
+  - **Why it matters** The computational results are used to support the mechanistic interpretation. If the docking and MD analyses are not rigorously performed and reported, the conclusions drawn from them are not reliable. The lack of error estimates and statistical treatment undermines confidence in the reported differences.
+  - **Resolution test** Provide the full docking results including standard deviations across multiple runs, the specific scoring functions used, and a statistical comparison of the wild-type versus mutant scores. For MD simulations, report RMSD trajectories over time, root mean square fluctuation values, binding free energy calculations (e.g., MM-PBSA), and replicate simulations to assess convergence and variability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental controls
+  - **Claim pointer** The authors report that Sp1 expression levels were similar between SVG and Jurkat cells (p=0.0814) and conclude that differential transcription activity is not due to Sp1 levels.
+  - **Evidence pointer** Figure 3 (not provided); Results section "Specificity protein 1 (Sp1) transcription factor expression levels of in SVG and Jurkat cell lines"
+  - **Concern** The Western blot analysis is described only briefly. No loading control quantification is shown, the number of replicates is not stated, and the statistical test used to obtain p=0.0814 is not identified. Additionally, the manuscript does not report transfection efficiency normalization for the reporter assays. Differences in transfection efficiency between cell lines or between constructs could confound the transcription activity results.
+  - **Why it matters** Without proper normalization and controls, the reported differences in transcription activity between the wild-type and mutant LTRs, and between cell lines, may be artifacts of experimental variability rather than genuine biological effects.
+  - **Resolution test** Report the Western blot quantification methodology, including the loading control used and the number of replicates. Describe the transfection efficiency normalization strategy (e.g., co-transfection with a Renilla luciferase control) and provide the normalized data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The abstract states "indicating its potential tole in modulating HIV-1C transcription" which appears to be a typographical error for "role". Additionally, the Discussion contains the phrase "Sp1IIIA5T" which is inconsistent with the nomenclature used elsewhere in the manuscript ("Sp1IIIT5A").
+  - **Required correction** Correct the typographical error in the abstract and ensure consistent nomenclature for the mutation throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section
+  - **Evidence pointer** Results section "Introduction of Sp1III5A mutation into the HIV-1C subtype C LTR"
+  - **Issue** The p-values are reported without specifying the statistical test used or the number of independent experiments. The statement "experiments were conducted in triplicate wells, and each experiment was repeated at least twice" in the Methods is insufficient to determine the statistical power.
+  - **Required correction** Specify the statistical test used for each comparison, report the number of independent biological replicates, and describe how multiple comparisons were handled if applicable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methods clarity
+  - **Affected element** Methods section "Molecular Docking Calculation"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the docking procedure lacks critical parameters, including the specific version of each docking tool, the input preparation steps, the definition of the binding site, and the criteria for selecting the best docking pose. The statement that "the results were visualized using Chimera and Discovery studio" does not describe how the docking poses were validated or compared.
+  - **Required correction** Provide a detailed description of the docking protocol, including all relevant parameters, input files, and validation steps, to allow reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion accuracy
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The Discussion states "this suggests that a different mechanism may be involved in reduced transcription activity by LTR Sp1III5A" but the manuscript reports that Sp1IIIT5A increases transcription activity. This appears to be a contradiction or a typographical error.
+  - **Required correction** Clarify the intended meaning and correct the statement to be consistent with the reported results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The Introduction cites previous work on Sp1 mutations in HIV-1 subtype B but does not discuss the structural basis for how a T-to-A change at position 5 of the Sp1III motif might alter Sp1 binding. A brief discussion of the known DNA-binding specificity of Sp1 and how this mutation might affect recognition would strengthen the rationale.
+  - **Required correction** Add a brief discussion of the expected structural or biochemical consequences of the T5A mutation on Sp1-DNA recognition, citing relevant literature.
+
+## Risk / unsupported claims
+- The claim that Sp1IIIT5A "significantly enhances" transcription activity is unsupported without access to the underlying data and statistical analysis.
+- The claim that increased transcription activity is mechanistically due to enhanced Sp1 binding affinity is unsupported, as no direct binding experiment is reported.
+- The computational docking scores and MD simulation results are reported without error estimates, statistical comparison, or validation, making the claimed differences between wild-type and mutant unsupported.
+- The conclusion that Sp1IIIT5A "indicates its potential role in modulating HIV-1C transcription and pathogenesis" extends beyond the data presented, as no experiments address pathogenesis or clinical outcomes.
+- The statement in the Discussion regarding "reduced transcription activity by LTR Sp1III5A" contradicts the reported results and is unsupported.
+- The claim that the homology model of Sp1 is "highly reliable" based on the reported quality metrics is weakened by the QMEAN Z-score of -9.28, which is substantially below the acceptable range, and the statement that "a few regions of low confidence" exist.

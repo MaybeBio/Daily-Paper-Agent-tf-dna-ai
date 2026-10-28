@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "39303290",
+    "doi": "10.1021/acssynbio.4c00270",
+    "title": "Engineering Sequestration-Based Biomolecular Classifiers with Shared Resources."
+  },
+  "content": {
+    "abstract": "Constructing molecular classifiers that enable cells to recognize linear and nonlinear input patterns would expand the biocomputational capabilities of engineered cells, thereby unlocking their potential in diagnostics and therapeutic applications. While several biomolecular classifier schemes have been designed, the effects of biological constraints such as resource limitation and competitive binding on the function of those classifiers have been left unexplored. Here, we first demonstrate the design of a sigma factor-based perceptron as a molecular classifier working based on the principles of molecular sequestration between the sigma factor and its antisigma molecule. We then investigate how the output of the biomolecular perceptron, i.e., its response pattern or decision boundary, is affected by the competitive binding of sigma factors to a pool of shared and limited resources of core RNA polymerase. Finally, we reveal the influence of sharing limited resources on multilayer perceptron neural networks and outline design principles that enable the construction of nonlinear classifiers using sigma-based biomolecular neural networks in the presence of competitive resource-sharing effects.",
+    "keywords": [
+      "biomolecular neural networks",
+      "competitive binding",
+      "molecular resource sharing",
+      "molecular sequestration",
+      "synthetic biology"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "Sigma Factor/genetics/metabolism",
+      "DNA-Directed RNA Polymerases/genetics/metabolism",
+      "Synthetic Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moghimianavval, Hossein",
+        "Gispert, Ignacio",
+        "Castillo, Santiago R",
+        "Corning, Olaf B W H",
+        "Liu, Allen P",
+        "Cuba Samaniego, Christian"
+      ],
+      "short_names": [
+        "Moghimianavval H",
+        "Gispert I",
+        "Castillo SR",
+        "Corning OBWH",
+        "Liu AP",
+        "Cuba Samaniego C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3358-0630",
+        "ORCID: 0000-0002-4100-5225",
+        "ORCID: 0000-0002-0309-7018",
+        "ORCID: 0000-0003-1858-2259"
+      ],
+      "affiliations": [
+        "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+        "Department of Mechanical Engineering, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+        "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+        "Chemical Engineering Department, Imperial College London, London SW7 2AZ, U.K.",
+        "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+        "Department of Biochemistry and Molecular Biology, Mayo Clinic, Rochester, Minnesota 55905, United States.",
+        "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+        "Department of Bioengineering, University of Washington, Seattle, Washington 98125, United States.",
+        "Department of Mechanical Engineering, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+        "Department of Biomedical Engineering, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+        "Department of Biophysics, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+        "Cellular and Molecular Biology Program, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+        "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, Pennsylvania 15213, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moghimianavval, Hossein",
+        "short_name": "Moghimianavval H",
+        "identifiers": [
+          "0000-0003-3358-0630"
+        ],
+        "affiliations": [
+          "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+          "Department of Mechanical Engineering, University of Michigan, Ann Arbor, Michigan 48109, United States."
+        ]
+      },
+      {
+        "full_name": "Gispert, Ignacio",
+        "short_name": "Gispert I",
+        "identifiers": [
+          "0000-0002-4100-5225"
+        ],
+        "affiliations": [
+          "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+          "Chemical Engineering Department, Imperial College London, London SW7 2AZ, U.K."
+        ]
+      },
+      {
+        "full_name": "Castillo, Santiago R",
+        "short_name": "Castillo SR",
+        "identifiers": [],
+        "affiliations": [
+          "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+          "Department of Biochemistry and Molecular Biology, Mayo Clinic, Rochester, Minnesota 55905, United States."
+        ]
+      },
+      {
+        "full_name": "Corning, Olaf B W H",
+        "short_name": "Corning OBWH",
+        "identifiers": [],
+        "affiliations": [
+          "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+          "Department of Bioengineering, University of Washington, Seattle, Washington 98125, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Allen P",
+        "short_name": "Liu AP",
+        "identifiers": [
+          "0000-0002-0309-7018"
+        ],
+        "affiliations": [
+          "Department of Mechanical Engineering, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+          "Department of Biomedical Engineering, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+          "Department of Biophysics, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+          "Cellular and Molecular Biology Program, University of Michigan, Ann Arbor, Michigan 48109, United States."
+        ]
+      },
+      {
+        "full_name": "Cuba Samaniego, Christian",
+        "short_name": "Cuba Samaniego C",
+        "identifiers": [
+          "0000-0003-1858-2259"
+        ],
+        "affiliations": [
+          "CSHL Course in Synthetic Biology 2022, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, United States.",
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, Pennsylvania 15213, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2024 Oct 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/20 19:08",
+    "fetched_at": "2026-09-30 02:58:16"
+  },
+  "links": {
+    "cites": [
+      "40664239",
+      "40357556",
+      "39666795"
+    ],
+    "refs": [
+      "38123686",
+      "37762444",
+      "37513436",
+      "37190396",
+      "36709492",
+      "36669976",
+      "36261553",
+      "36192604",
+      "36153343",
+      "35989723",
+      "35421362",
+      "35381174",
+      "34035266",
+      "33848464",
+      "32934213",
+      "32916097",
+      "32324989",
+      "32241946",
+      "31848346",
+      "31748511",
+      "31462649",
+      "31308553",
+      "31217585",
+      "31011195",
+      "30915329",
+      "30575748",
+      "29973727",
+      "29713032",
+      "29454936",
+      "29436515",
+      "28350160",
+      "28346402",
+      "27690390",
+      "27074335",
+      "27042892",
+      "26596932",
+      "26463592",
+      "26244745",
+      "25849635",
+      "25299042",
+      "24846821",
+      "24781324",
+      "23704788",
+      "23651008",
+      "22304295",
+      "19455136",
+      "18250321",
+      "14672653",
+      "13602029",
+      "11742991",
+      "11018136",
+      "10500101",
+      "9767572"
+    ],
+    "similar": [
+      "39303290",
+      "29454936",
+      "10982868",
+      "21639785",
+      "11282466",
+      "30408412",
+      "2692703",
+      "11511357",
+      "10589715",
+      "16484205",
+      "11101659",
+      "10672039",
+      "35381174",
+      "11243776",
+      "19538446",
+      "3313282",
+      "8971724",
+      "36980170",
+      "7592329",
+      "22550171",
+      "25080493",
+      "9521651",
+      "9544701",
+      "8475100",
+      "10580008",
+      "12540296",
+      "12097157",
+      "16285916",
+      "42475469",
+      "25946237",
+      "25299042",
+      "20356457",
+      "30457214",
+      "15276828",
+      "28539362",
+      "27452766",
+      "21451247",
+      "9119031",
+      "10078205",
+      "11918668",
+      "10764785",
+      "15882415",
+      "11292818",
+      "11439189",
+      "31293000",
+      "21573101",
+      "15761057",
+      "16545925",
+      "11525731",
+      "9013595",
+      "1856861",
+      "27521262",
+      "23202891",
+      "17089148",
+      "8858579",
+      "12424241",
+      "1643661",
+      "12023304",
+      "19538447",
+      "10524235",
+      "12527294",
+      "7752240",
+      "26365052",
+      "9048558",
+      "16798040",
+      "9275158",
+      "12750380",
+      "18359804",
+      "10411885",
+      "10873447",
+      "28816625",
+      "7665506",
+      "17055433",
+      "12408828",
+      "15465042",
+      "10856247",
+      "26457424",
+      "40842238",
+      "18296515",
+      "21911499",
+      "19762273",
+      "28507241",
+      "8658165",
+      "10658646",
+      "12236604",
+      "35727448",
+      "18312277",
+      "6281274",
+      "28286216",
+      "1391041",
+      "31082441",
+      "10692367",
+      "8316081",
+      "9512707",
+      "10860740",
+      "17905996",
+      "9786190",
+      "11703665",
+      "14687566",
+      "10871407"
+    ],
+    "review": [
+      "39303290",
+      "21639785",
+      "11282466",
+      "12540296",
+      "16285916",
+      "28816625",
+      "19762273"
+    ],
+    "pmc": [
+      "11494701"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39303290/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/asbcd6/article-lookup/doi/10.1021/acssynbio.4c00270",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.05.13.22275035",
+  "title": "Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits",
+  "doi": "10.1101/2022.05.13.22275035",
+  "abstract": "Genetic association studies have identified hundreds of independent signals associated with type 2 diabetes (T2D) and related traits. Despite these successes, the identification of specific causal variants underlying a genetic association signal remains challenging. In this study, we describe a deep learning method to analyze the impact of sequence variants on enhancers. Focusing on pancreatic islets, a T2D relevant tissue, we show that our model learns islet-specific transcription factor (TF) regulatory patterns and can be used to prioritize candidate causal variants. At 101 genetic signals associated with T2D and related glycemic traits where multiple variants occur in linkage disequilibrium, our method nominates a single causal variant for each association signal, including three variants previously shown to alter reporter activity in islet-relevant cell types. For another signal associated with blood glucose levels, we biochemically test all candidate causal variants from statistical fine-mapping using a pancreatic islet beta cell line and show biochemical evidence of allelic effects on TF binding for the model-prioritized variant. To aid in future research, we publicly distribute our model and islet enhancer perturbation scores across ∼67 million genetic variants. We anticipate that deep learning methods like the one presented in this study will enhance the prioritization of candidate causal variants for functional studies.",
+  "authors": [
+    "Hudaiberdiev S",
+    "Taylor DL",
+    "Song W",
+    "Narisu N",
+    "Bhuiyan RM",
+    "Taylor HJ",
+    "Yan T",
+    "Swift AJ",
+    "Bonnycastle LL",
+    "Stitzel ML",
+    "Erdos MR",
+    "Ovcharenko I",
+    "Collins FS"
+  ],
+  "published_date": "2022-05-16",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.05.13.22275035",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.05.13.22275035.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR496225",
+    "raw_record": {
+      "id": "PPR496225",
+      "source": "PPR",
+      "doi": "10.1101/2022.05.13.22275035",
+      "title": "Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits",
+      "authorString": "Hudaiberdiev S, Taylor DL, Song W, Narisu N, Bhuiyan RM, Taylor HJ, Yan T, Swift AJ, Bonnycastle LL, DIAMANTE Consortium, Stitzel ML, Erdos MR, Ovcharenko I, Collins FS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hudaiberdiev S",
+            "lastName": "Hudaiberdiev",
+            "firstName": "Sanjarbek",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0860-5250"
+            }
+          },
+          {
+            "fullName": "Taylor DL",
+            "lastName": "Taylor",
+            "firstName": "Leland",
+            "initials": "DL"
+          },
+          {
+            "fullName": "Song W",
+            "lastName": "Song",
+            "firstName": "Wei",
+            "initials": "W"
+          },
+          {
+            "fullName": "Narisu N",
+            "lastName": "Narisu",
+            "firstName": "Narisu",
+            "initials": "N"
+          },
+          {
+            "fullName": "Bhuiyan RM",
+            "lastName": "Bhuiyan",
+            "firstName": "Redwan",
+            "initials": "RM"
+          },
+          {
+            "fullName": "Taylor HJ",
+            "lastName": "Taylor",
+            "firstName": "Henry",
+            "initials": "HJ"
+          },
+          {
+            "fullName": "Yan T",
+            "lastName": "Yan",
+            "firstName": "Tingfen",
+            "initials": "T"
+          },
+          {
+            "fullName": "Swift AJ",
+            "lastName": "Swift",
+            "firstName": "Amy",
+            "initials": "AJ"
+          },
+          {
+            "fullName": "Bonnycastle LL",
+            "lastName": "Bonnycastle",
+            "firstName": "Lori",
+            "initials": "LL"
+          },
+          {
+            "collectiveName": "DIAMANTE Consortium"
+          },
+          {
+            "fullName": "Stitzel ML",
+            "lastName": "Stitzel",
+            "firstName": "Michael",
+            "initials": "ML"
+          },
+          {
+            "fullName": "Erdos MR",
+            "lastName": "Erdos",
+            "firstName": "Michael",
+            "initials": "MR"
+          },
+          {
+            "fullName": "Ovcharenko I",
+            "lastName": "Ovcharenko",
+            "firstName": "Ivan",
+            "initials": "I"
+          },
+          {
+            "fullName": "Collins FS",
+            "lastName": "Collins",
+            "firstName": "Francis",
+            "initials": "FS"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0860-5250"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Genetic association studies have identified hundreds of independent signals associated with type 2 diabetes (T2D) and related traits. Despite these successes, the identification of specific causal variants underlying a genetic association signal remains challenging. In this study, we describe a deep learning method to analyze the impact of sequence variants on enhancers. Focusing on pancreatic islets, a T2D relevant tissue, we show that our model learns islet-specific transcription factor (TF) regulatory patterns and can be used to prioritize candidate causal variants. At 101 genetic signals associated with T2D and related glycemic traits where multiple variants occur in linkage disequilibrium, our method nominates a single causal variant for each association signal, including three variants previously shown to alter reporter activity in islet-relevant cell types. For another signal associated with blood glucose levels, we biochemically test all candidate causal variants from statistical fine-mapping using a pancreatic islet beta cell line and show biochemical evidence of allelic effects on TF binding for the model-prioritized variant. To aid in future research, we publicly distribute our model and islet enhancer perturbation scores across ∼67 million genetic variants. We anticipate that deep learning methods like the one presented in this study will enhance the prioritization of candidate causal variants for functional studies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2022/05/16/2022.05.13.22275035.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.13.22275035"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37603758",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. 2023 Aug;120(35):e2206612120",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-24",
+      "firstPublicationDate": "2022-05-16",
+      "firstIndexDate": "2022-05-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

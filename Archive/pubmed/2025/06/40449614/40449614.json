@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "40449614",
+    "doi": "10.1016/j.jmb.2025.169240",
+    "title": "BindUP-Alpha: A Webserver for Predicting DNA-and RNA-binding Proteins based on Experimental and Computational Structural Models☆."
+  },
+  "content": {
+    "abstract": "Structural data provides important information on the proteins' function. Recent development of advanced machine learning and artificial intelligence tools, such as AlphaFold, have led to an explosion of predicted protein structures. However, many of the computed protein models contain unstructured and disordered regions, posing challenges in protein function characterization. Here we present BindUP-Alpha, an upgraded webserver for predicting nucleic acid binding proteins. Our structure-based algorithm utilizes the electrostatic features of the protein surface and other physiochemical and structural properties extracted from the protein sequence. Using a Support Vector Machine (SVM) learning approach, BindUP-Alpha successfully predicts DNA- and RNA-binding proteins from both experimentally solved structures and predicted models. In addition, BindUP-Alpha identifies electrostatic patches on the protein's surface that represent potential nucleic-acid binding interfaces. BindUP-Alpha is freely accessible at https://bindup.technion.ac.il, providing interactive three-dimensional visualizations and downloadable text-based results.",
+    "keywords": [
+      "DNA-binding proteins",
+      "RNA-binding proteins",
+      "function prediction",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*Software",
+      "Models, Molecular",
+      "Internet",
+      "*Computational Biology/methods",
+      "Protein Conformation",
+      "Protein Binding",
+      "Algorithms",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alexandrovich, Dina",
+        "Kagan, Shani",
+        "Mandel-Gutfreund, Yael"
+      ],
+      "short_names": [
+        "Alexandrovich D",
+        "Kagan S",
+        "Mandel-Gutfreund Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Technion-Israel Institute of Technology, Faculty of Biology, Emerson Building, Haifa, Israel.",
+        "Technion- Israel Institute of Technology, Faculty of Computer Science, Taub Building, Haifa, Israel.",
+        "Technion-Israel Institute of Technology, Faculty of Biology, Emerson Building, Haifa, Israel; Technion- Israel Institute of Technology, Faculty of Computer Science, Taub Building, Haifa, Israel. Electronic address: yaelmg@technion.ac.il."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alexandrovich, Dina",
+        "short_name": "Alexandrovich D",
+        "identifiers": [],
+        "affiliations": [
+          "Technion-Israel Institute of Technology, Faculty of Biology, Emerson Building, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Kagan, Shani",
+        "short_name": "Kagan S",
+        "identifiers": [],
+        "affiliations": [
+          "Technion- Israel Institute of Technology, Faculty of Computer Science, Taub Building, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Mandel-Gutfreund, Yael",
+        "short_name": "Mandel-Gutfreund Y",
+        "identifiers": [],
+        "affiliations": [
+          "Technion-Israel Institute of Technology, Faculty of Biology, Emerson Building, Haifa, Israel; Technion- Israel Institute of Technology, Faculty of Computer Science, Taub Building, Haifa, Israel. Electronic address: yaelmg@technion.ac.il."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Sep 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/01 00:45",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "41155705"
+    ],
+    "refs": [],
+    "similar": [
+      "40449614",
+      "27198220",
+      "22086767",
+      "18716674",
+      "24854765",
+      "28383703",
+      "25708928",
+      "19357098",
+      "25940624",
+      "39576589",
+      "20300450",
+      "22574904",
+      "25845030",
+      "16845003",
+      "12758155",
+      "26254826",
+      "34905768",
+      "38491248",
+      "12589754",
+      "24343026",
+      "29753757",
+      "24448651",
+      "28349426",
+      "28132027",
+      "30943723",
+      "29608705",
+      "30933978",
+      "19835626",
+      "29219069",
+      "26109352",
+      "32920048",
+      "27787829",
+      "30957840",
+      "34932484",
+      "30598073",
+      "25977296",
+      "36044786",
+      "31483777",
+      "25846271",
+      "38295475",
+      "39833102",
+      "27740495",
+      "33872313",
+      "27259543",
+      "26776208",
+      "39985437",
+      "22661576",
+      "20677174",
+      "21609948",
+      "24407309",
+      "17570145",
+      "15725347",
+      "21612668",
+      "40544633",
+      "40337922",
+      "40957717",
+      "34415020",
+      "34929730",
+      "25935161",
+      "29097781",
+      "21143803",
+      "28841194",
+      "19925685",
+      "31046040",
+      "17537808",
+      "27787828",
+      "16274699",
+      "20507911",
+      "22808107",
+      "29253082",
+      "24209914",
+      "29800452",
+      "27993780",
+      "22868682",
+      "30668479",
+      "17237068",
+      "21693557",
+      "22373313",
+      "26176857",
+      "41478913",
+      "29186336",
+      "18005254",
+      "28315749",
+      "32142788",
+      "35054954",
+      "15459285",
+      "40601256",
+      "24829458",
+      "39936575",
+      "18537735",
+      "19594868",
+      "33780341",
+      "26540053",
+      "16284202",
+      "39804669",
+      "16790052",
+      "20478832",
+      "29536446",
+      "40320311",
+      "39625988"
+    ],
+    "review": [
+      "40449614",
+      "39833102",
+      "40544633",
+      "25935161",
+      "29253082",
+      "28315749",
+      "39936575",
+      "26540053"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00306-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "42617932",
+    "doi": "10.1016/j.yexcr.2026.115156",
+    "title": "PRDM5 regulates ASK1 transcription to affect macrophage inflammation, lipid accumulation and apoptosis progression."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Atherosclerotic cardiovascular disease (ASCVD) has shared genetic susceptibility across various vascular lesions. Identification of common pathogenic factors for multi-territorial atherosclerosis is urgently required. We hypothesize that PR domain zinc finger protein 5 (PRDM5) acts as a shared pathogenic regulator to facilitate systemic atherosclerotic lesions by modulating monocyte-macrophage function. METHODS: Multi-trait genome-wide association studies (GWAS) datasets were analyzed via genomic structural equation modeling (Genomic SEM) to uncover shared risk loci underlying ASCVD. Transcriptome-wide association study (TWAS) was performed in CD14(+) monocytes to prioritize candidate genes. PRDM5 expression was validated in clinical peripheral blood monocytes and atherosclerotic plaques. Cellular functional assays, chromatin Immunoprecipitation quantitative real-time PCR (ChIP-qPCR), dual-luciferase reporter assay and molecular docking were combined to decipher downstream signaling and ezetimibe-mediated therapeutic effects. RESULTS: PRDM5 was identified as a pivotal ASCVD risk gene, with significantly upregulated expression in monocytes and plaque tissues from patients. Mechanistically, PRDM5 directly binds the ASK1 promoter to trigger ASK1/JNK/NF-kappaB signaling, aggravating macrophage lipid overloading, inflammatory activation and apoptosis, and further inducing endothelial dysfunction through paracrine mediators. Ezetimibe suppresses the transcriptional activity of PRDM5. CONCLUSION: PRDM5 serves as a common susceptibility gene for ASCVD and facilitates macrophage pathogenic phenotypes via the ASK1/JNK/NF-kappaB cascade.",
+    "keywords": [
+      "ASK1",
+      "Atherosclerosis",
+      "Ezetimibe",
+      "Macrophage",
+      "PRDM5"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Macrophages/metabolism/pathology",
+      "*Apoptosis/genetics",
+      "*MAP Kinase Kinase Kinase 5/genetics/metabolism",
+      "*Atherosclerosis/genetics/pathology/metabolism",
+      "*Inflammation/genetics/pathology/metabolism",
+      "*Lipid Metabolism/genetics",
+      "*Transcription Factors/genetics/metabolism",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Animals",
+      "Monocytes/metabolism",
+      "Transcription, Genetic",
+      "Genome-Wide Association Study",
+      "Plaque, Atherosclerotic/genetics/pathology/metabolism",
+      "Mice",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Mengchen",
+        "Sun, Han",
+        "Wang, Hanzheng",
+        "Dong, Haibin",
+        "Lu, Xingyu",
+        "Gong, Lei",
+        "Zhong, Lin"
+      ],
+      "short_names": [
+        "Sun M",
+        "Sun H",
+        "Wang H",
+        "Dong H",
+        "Lu X",
+        "Gong L",
+        "Zhong L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Qingdao Medical College, Qingdao University, Qingdao, 266071, China; Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China.",
+        "Qingdao Medical College, Qingdao University, Qingdao, 266071, China; Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China.",
+        "Qingdao Medical College, Qingdao University, Qingdao, 266071, China.",
+        "Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China.",
+        "Qingdao Medical College, Qingdao University, Qingdao, 266071, China; Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China.",
+        "Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China. Electronic address: gongleiyhd@qdu.edu.cn.",
+        "Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China. Electronic address: zhonglinyhd@qdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Mengchen",
+        "short_name": "Sun M",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Medical College, Qingdao University, Qingdao, 266071, China; Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Han",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Medical College, Qingdao University, Qingdao, 266071, China; Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hanzheng",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Medical College, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Haibin",
+        "short_name": "Dong H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xingyu",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Medical College, Qingdao University, Qingdao, 266071, China; Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Lei",
+        "short_name": "Gong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China. Electronic address: gongleiyhd@qdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhong, Lin",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Yantai Yuhuangding Hospital, Qingdao University, Yantai, Shandong, 264000, China. Electronic address: zhonglinyhd@qdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Experimental cell research"
+    ],
+    "journal_abbrev": [
+      "Exp Cell Res"
+    ],
+    "pub_date": "2026 Oct 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/19 23:42",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42617932",
+      "42778691",
+      "41360283",
+      "40607379",
+      "42488944",
+      "42191086",
+      "38896288",
+      "33222501",
+      "29449334",
+      "28209562",
+      "35387478",
+      "39546119",
+      "21527753",
+      "28360100",
+      "24526691",
+      "42143937",
+      "42248330",
+      "25614279",
+      "41183695",
+      "34913723",
+      "38062164",
+      "32335370",
+      "32857129",
+      "42361942",
+      "23041630",
+      "41684124",
+      "25261478",
+      "39864045",
+      "37454749",
+      "42645604",
+      "36416142",
+      "38795767",
+      "40268512",
+      "34646375",
+      "27821816",
+      "38740260",
+      "24349299",
+      "41444983",
+      "40160097",
+      "35181718",
+      "27826954",
+      "24833794",
+      "29378206",
+      "40244103",
+      "42525141",
+      "42048040",
+      "20200402",
+      "42270952",
+      "40047069",
+      "40931823",
+      "26411684",
+      "28702328",
+      "25904598",
+      "35196865",
+      "29700120",
+      "27485778",
+      "28535426",
+      "26899994",
+      "40956333",
+      "38375634",
+      "42392781",
+      "41895505",
+      "41748756",
+      "40772840",
+      "34003795",
+      "19222481",
+      "39687989",
+      "26916730",
+      "24297735",
+      "41736028",
+      "31578081",
+      "42401351",
+      "33538785",
+      "32717023",
+      "41747816",
+      "27831589",
+      "30354237",
+      "41299485",
+      "41532295",
+      "29126450",
+      "41147413",
+      "39747459",
+      "23873026",
+      "41485574",
+      "42558048",
+      "38657333",
+      "27835742",
+      "40834970",
+      "32007256",
+      "16339277",
+      "40962169",
+      "31153975",
+      "31704554",
+      "40303308",
+      "41463394",
+      "41289597",
+      "36951060",
+      "23372645",
+      "32546048",
+      "34782454"
+    ],
+    "review": [
+      "42617932",
+      "27826954",
+      "40244103"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-4827(26)00273-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-849",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

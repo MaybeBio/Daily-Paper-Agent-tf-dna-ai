@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, and evidence as presented in the provided text; no external data or code inspection
+- **Shared manuscript claim summary** The authors propose MORALE, a moment-alignment-based domain adaptation method for cross-species transcription factor binding prediction. They claim it outperforms adversarial (GRL) approaches in a two-species setting, improves multi-species transfer to human, preserves interpretability, and is architecture-agnostic.
+- **Visible evidence base** Results sections, figures (2–6), tables (1–2), supplementary tables referenced (STabs. 7–8), methods descriptions
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided in the submitted text; code repository not inspected; no hyperparameter sensitivity analysis; no statistical significance testing reported; no comparison to other domain adaptation baselines beyond GRL
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in regulatory genomics: improving cross-species generalization of TF binding prediction models. The proposed method, MORALE, is simple, computationally efficient, and conceptually appealing. The results suggest it can match or exceed adversarial domain adaptation in several settings, and the multi-species experiment is a valuable contribution. However, the evidence as presented is incomplete: key figures and tables are not available for inspection, statistical significance is not assessed, and several claims (e.g., interpretability, motif recovery) are supported only qualitatively. The core claim of superiority over GRL is plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and machine learning for genomics. The method's simplicity and architecture-agnostic nature may appeal to those seeking practical domain adaptation tools for sequence-to-function models. The multi-species transfer results are relevant to efforts in comparative genomics and model organism research.
+- **Major strengths** 1) The problem is well-motivated and timely. 2) MORALE is conceptually simple, with a clear mathematical formulation and no additional parameters, contrasting favorably with adversarial approaches. 3) The two-species and five-species experimental designs are appropriate and cover both pairwise and multi-domain transfer. 4) The analysis of differentially predicted sites and motif recovery attempts to go beyond aggregate performance metrics. 5) The manuscript is generally well-written and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** "MORALE achieves state-of-the-art performance—outperforming both baseline and adversarial approaches across all TFs" (Results, Abstract)
+  - **Evidence pointer** Figures 2–5, Tables 1–2 (location not provided)
+  - **Concern** The central performance claims are made with reference to figures and tables that are not included in the submitted text. Without the actual numerical results, effect sizes, and variability estimates, the claims cannot be independently evaluated.
+  - **Why it matters** The primary contribution of the manuscript is empirical: demonstrating that MORALE outperforms existing methods. If the data are not visible, the core case is not established.
+  - **Resolution test** Provide the figures and tables with full numerical values, including error bars or confidence intervals, and specify the number of replicates or seeds used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "MORALE improves over GRL for cross-species TF binding prediction" (Results, Section 3.2.1)
+  - **Evidence pointer** Figures 2–3, Tables 1–2 (location not provided)
+  - **Concern** No statistical significance testing is reported. Differences in auPRC or other metrics between MORALE and GRL are described qualitatively (e.g., "outperforms," "more correlated"), but it is unclear whether these differences are meaningful given model training stochasticity and dataset variability.
+  - **Why it matters** Without significance testing or confidence intervals, observed improvements could be due to chance, particularly given the small number of TFs and species studied.
+  - **Resolution test** Report significance tests (e.g., paired tests across TFs or bootstrapped confidence intervals) for all key comparisons, or justify why such tests are not applicable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological comparison
+  - **Claim pointer** "MORALE... generally outperforms GRL" (Results, Section 3.1)
+  - **Evidence pointer** Section 3.2.1, Figure 2 (location not provided)
+  - **Concern** The only domain adaptation baseline considered is GRL. Other established methods (e.g., CORAL without deep embeddings, MMD-based approaches, or simple fine-tuning) are not compared. The claim of "state-of-the-art" is therefore not contextualized.
+  - **Why it matters** The relative advantage of MORALE over a broader set of baselines is unknown. A single comparison to GRL is insufficient to support a "state-of-the-art" claim.
+  - **Resolution test** Add comparisons to at least one or two additional domain adaptation baselines, or temper the claim to "outperforms the adversarial GRL approach."
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability claim
+  - **Claim pointer** "preserving model interpretability and recovering canonical motifs with greater precision" (Abstract, Results)
+  - **Evidence pointer** Figure 4 (location not provided)
+  - **Concern** The interpretability and motif recovery analysis is described only briefly. It is unclear how "precision" is defined, whether motif recovery is quantified against known motifs, and whether the comparison to GRL is systematic or anecdotal.
+  - **Why it matters** Interpretability is a stated advantage of MORALE. If not rigorously demonstrated, this claim is weakened.
+  - **Resolution test** Provide quantitative motif recovery metrics (e.g., fraction of known motifs recovered, enrichment scores) with comparisons to GRL and source-only models, and define the evaluation criteria.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Hyperparameter sensitivity
+  - **Claim pointer** "MORALE... can be seamlessly integrated into any embedding-based sequence model" (Abstract, Discussion)
+  - **Evidence pointer** Section 2.4 (location not provided)
+  - **Concern** The hyperparameter λ for MORALE is tuned per TF and per direction in the two-species case, and a range is used in the multi-species case. No sensitivity analysis is shown, and it is unclear how robust performance is to λ choice.
+  - **Why it matters** If performance is highly sensitive to λ, the "frustratingly easy" claim is undermined, and practical adoption may require extensive tuning.
+  - **Resolution test** Show performance as a function of λ for at least one TF and direction, and discuss the range of λ values that yield competitive performance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Section 2.1.2
+  - **Evidence pointer** Section 2.1.2 (location not provided)
+  - **Issue** The optimization problem for selecting validation/test chromosomes is described with a formula that is not fully explained. The notation is unclear (e.g., what is \(x_i\)? What is \(c_i\)?).
+  - **Required correction** Clarify the notation and the objective. Define all variables and explain how the solution is used to select chromosomes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 2.3
+  - **Evidence pointer** Section 2.3 (location not provided)
+  - **Issue** The training procedure is described at a high level, but details such as learning rate schedules, early stopping criteria, and the number of training runs (seeds) are not specified.
+  - **Required correction** Provide full training details, including the number of random seeds and how results are aggregated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data description
+  - **Affected element** Methods, Section 2.1.1
+  - **Evidence pointer** Section 2.1.1 (location not provided)
+  - **Issue** The source of ChIP-seq data for the two-species case is described with accession numbers, but the number of peaks, the quality filtering steps, and the final dataset sizes are not reported.
+  - **Required correction** Add a summary table or text describing the number of bound/unbound windows per TF and species, and any quality control steps.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, Results
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The term "frustratingly easy" is used in the title and abstract, but the manuscript does not discuss the computational cost or ease of implementation relative to GRL in a quantitative way.
+  - **Required correction** Add a brief discussion of computational overhead (e.g., training time, memory) to substantiate the "easy" claim.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 2–6
+  - **Evidence pointer** Figures 2–6 (location not provided)
+  - **Issue** The figures are not provided in the text, so it is impossible to assess their quality, clarity, or whether they support the claims.
+  - **Required correction** Ensure figures are included in any resubmission and that they are legible, with clear labels and legends.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing data), R1-M2 (no statistical rigor), R1-M3 (insufficient baselines), R1-M4 (interpretability not quantified), R1-M5 (hyperparameter sensitivity not shown)
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of moment alignment (CORAL) to cross-species TF binding prediction is novel, though the underlying technique is not new. The multi-species extension is a useful contribution.
+  - **Scientific importance** Cross-species generalization is a key challenge in regulatory genomics. If the claims hold, the method could be widely adopted. However, the importance is somewhat limited by the narrow comparison to GRL only.
+  - **Interdisciplinary readership** The work bridges machine learning and genomics, and the writing is accessible to both communities. The "frustratingly easy" framing may attract broad interest.
+  - **Technical soundness** The method is well-defined, but the empirical validation is incomplete as presented. Statistical rigor and baseline breadth are insufficient for a strong claim.
+  - **Readability for nonspecialists** The manuscript is generally clear, but the methods section includes some notation that could be better explained. The abstract and introduction are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the multi-species experiment is valuable, but the current evidence base is insufficient to fully establish the claims. The authors should provide the missing data, add statistical testing, broaden baselines, and quantify interpretability claims.
+
+## Risk / unsupported claims
+- "State-of-the-art performance" is unsupported without comparison to a broader set of baselines and without visible numerical results.
+- "Recovering canonical motifs with greater precision" is not quantified and cannot be evaluated from the text.
+- "MORALE... can be seamlessly integrated into any embedding-based sequence model" is plausible but not demonstrated beyond the two architectures used.
+- The claim that MORALE "reveals regulatory features conserved across mammals" is not supported by specific evidence in the text.
+- The hyperparameter λ values and their selection are reported, but the sensitivity of results to λ is not shown, making the robustness claim unverifiable.

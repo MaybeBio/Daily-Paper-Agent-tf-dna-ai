@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental logic, data interpretation, and claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors identify a novel FVI motif in Epe1 that mediates its interaction with the Swi6 chromoshadow domain in fission yeast, show that this motif is necessary and sufficient for heterochromatic localization, and demonstrate that a chimeric Mit1 bearing the Epe1 FVI motif can functionally substitute for Chp2-dependent recruitment, thereby explaining functional divergence among HP1 family proteins.
+- **Visible evidence base** Y2H assays, fluorescence microscopy (NLS-EGFP tethering), co-immunoprecipitation, silencing assays, RT-qPCR, ChIP, ITC, and AlphaFold3 structural predictions. Figures referenced include Figures 1–5 and Supplementary Figures S1–S8.
+- **Missing materials affecting confidence** Full figures and their raw data are not available; only figure legends and text descriptions are provided. Statistical details (replicates, error bars, significance tests) are not fully described. The AlphaFold3 prediction is presented without confidence metrics or comparison to experimental structures. ITC data are mentioned but only one representative KD value is given.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant question in heterochromatin biology: how distinct HP1 family proteins achieve functional specificity in recruiting different downstream effectors. The identification of a non-canonical FVI motif in Epe1 that binds the Swi6 CSD is a valuable contribution, and the domain-swap experiment with Mit1 provides a compelling proof-of-principle that HP1 isoform specificity is determined by partner-encoded binding motifs. The work is generally well executed, but several technical concerns and interpretive gaps need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers studying heterochromatin, HP1 family proteins, chromatin readers, and epigenetic regulation in fission yeast and beyond. The finding that HP1 partner proteins encode distinct binding motifs that dictate isoform-specific recruitment has broad implications for understanding how multi-HP1 systems achieve functional diversification in other organisms, including mammals.
+- **Major strengths** The study combines genetic, cell biological, biochemical, and computational approaches to dissect a protein-protein interaction with in vivo functional validation. The identification of a new HP1-binding motif expands the known repertoire of CSD-interacting sequences. The domain-swap experiment is elegant and directly tests the functional significance of motif specificity. The evolutionary analysis of motif conservation adds a useful dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the FVI motif is "sufficient to recruit ectopically expressed EGFP to heterochromatic regions" based on the NLS-EGFP tethering assay.
+  - **Evidence pointer** Figure 2C and Supplementary Figures S3A, S4A
+  - **Concern** The NLS-EGFP tethering assay relies on overexpression from a plasmid (pREP4K), and the authors do not report expression levels of the various fusion proteins. Differences in expression could confound the interpretation of localization patterns. Additionally, the assay shows localization to "nuclear foci" but does not formally demonstrate that these foci are heterochromatic (e.g., by co-staining with a known heterochromatin marker or by ChIP). The claim of sufficiency for heterochromatic recruitment is therefore not fully supported.
+  - **Why it matters** The sufficiency claim is central to the paper's conclusion that the FVI motif is a bona fide targeting signal. Without controlling for expression levels and formally identifying the foci as heterochromatin, the interpretation is weakened.
+  - **Resolution test** Provide immunoblot data showing comparable expression of all fusion proteins. Perform co-localization with a heterochromatin marker (e.g., Swi6-mCherry or H3K9me2 staining) or ChIP to confirm that the foci correspond to heterochromatic loci.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors conclude that "the C-terminal predicted α-helix region plays a cooperative role in stabilizing the interaction between the FVI motif and Swi6" based on the differential effects of mutations in FVI-S versus FVI-HL and the ITC result that FVI-S does not bind while FVI-L does.
+  - **Evidence pointer** Figures 2D–F, S4B, S4C, S5
+  - **Concern** The ITC experiment is described only briefly. The authors report a KD of 55.9 ± 42.2 nM for FVI-L but do not provide the raw thermograms, stoichiometry, or the number of replicates. The large standard deviation relative to the mean suggests high variability. Moreover, the lack of binding for FVI-S is stated without showing the data. The conclusion that the α-helix stabilizes the interaction is inferred from the difference between FVI-S and FVI-L, but the authors did not test FVI-HL in ITC, which would be a more direct comparison given the mutagenesis data.
+  - **Why it matters** The ITC data are the only direct biophysical evidence for the binding interaction and the role of the α-helix. Incomplete reporting undermines confidence in this key conclusion.
+  - **Resolution test** Provide full ITC data including thermograms, fitted curves, stoichiometry (N), and at least three independent replicates for FVI-S, FVI-HL, and FVI-L. If FVI-S shows no binding, show the raw data to demonstrate this clearly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive depth
+  - **Claim pointer** The authors propose that the FVI motif represents a "common motif present in Swi6 interactors" based on sequence similarity with a region in Swi2.
+  - **Evidence pointer** Figure S8 and Discussion
+  - **Concern** The comparison with Swi2 is based solely on AlphaFold3 structural prediction and sequence similarity. No experimental validation is provided for the Swi2-Swi6 interaction via the proposed motif. The authors do not test whether mutation of the Swi2 motif disrupts Swi6 binding.
+  - **Why it matters** The claim of a common motif extends the significance of the work beyond Epe1. Without experimental support, this remains speculative.
+  - **Resolution test** Perform Y2H or co-IP experiments with Swi2 mutants in the proposed motif to demonstrate functional relevance. Alternatively, temper the claim to reflect that this is a prediction requiring further validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "cells expressing mutant Mit1 maintained heterochromatic silencing even in chp2∆ cells, suggesting that Chp2 is not required for heterochromatin formation when Mit1 is recruited by Swi6."
+  - **Evidence pointer** Figures 4C–E
+  - **Concern** The silencing assay is performed with a ura4+ reporter at the mating-type locus. The authors do not report whether the expression level of Mit1Epe1-FVI is comparable to wild-type Mit1 in the chp2∆ background. If Mit1Epe1-FVI is overexpressed, the rescue of silencing could be a dosage effect rather than a reflection of proper recruitment. Additionally, the ChIP experiment (Figure 4F) shows reduced enrichment of Mit1Epe1-FVI compared to wild-type Mit1, yet silencing is maintained. This discrepancy is not fully discussed.
+  - **Why it matters** The conclusion that the FVI motif can functionally replace the Chp2-Mit1 interaction depends on the silencing phenotype being due to specific recruitment rather than non-specific effects.
+  - **Resolution test** Provide quantitative immunoblot data for Mit1 and Mit1Epe1-FVI levels. Discuss the ChIP enrichment difference and consider whether a threshold level of recruitment is sufficient for silencing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that the findings "highlight distinct HP1-binding motifs in interactors, contributing to functional divergence among HP1 family proteins." This is somewhat vague and could be more specific about the mechanistic insight (i.e., that motif specificity dictates isoform-specific recruitment).
+  - **Required correction** Rephrase to explicitly state that the FVI motif confers Swi6 specificity, whereas the CkIvV motif confers Chp2 specificity, and that this differential recognition underlies functional divergence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, ITC
+  - **Evidence pointer** Methods, ITC section
+  - **Issue** The ITC methods do not specify the peptide concentrations, cell volume, or the model used for fitting. The stoichiometry is not reported.
+  - **Required correction** Add these details to the Methods section to allow replication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3 legend
+  - **Issue** The AlphaFold3 prediction is presented without any confidence metrics (e.g., pLDDT or PAE scores). This makes it difficult to assess the reliability of the predicted structure.
+  - **Required correction** Include confidence metrics in the figure or legend, or state that these are not available.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The speculation about the evolutionary benefits of multiple HP1 isoforms is interesting but not directly supported by data presented in this study.
+  - **Required correction** Clearly label this as speculation and avoid overstating the implications.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (expression controls and heterochromatin identity of foci), R1-M2 (incomplete ITC reporting), R1-M3 (unvalidated Swi2 motif claim).
+- **Assessment against Nature-style criteria** Originality: The identification of a non-canonical FVI motif is novel and adds to the known diversity of HP1-binding sequences. Scientific importance: The work addresses a fundamental question about how HP1 family members achieve functional specificity, which is relevant to many organisms. Interdisciplinary readership: The topic is of interest to chromatin biologists, epigeneticists, and structural biologists, but the narrow focus on fission yeast may limit broader appeal. Technical soundness: The experimental design is generally sound, but the concerns above regarding expression controls, ITC reporting, and the Swi2 claim need to be addressed. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, though some sections (e.g., the structural predictions) may be dense for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is interesting and potentially significant, but the current evidence does not fully support all claims, particularly regarding sufficiency of the FVI motif and the biophysical characterization.
+
+## Risk / unsupported claims
+- The claim that the FVI motif is sufficient for heterochromatic recruitment is not fully supported without expression-level controls and formal identification of the nuclear foci as heterochromatin.
+- The claim that the C-terminal α-helix stabilizes the interaction is inferred from indirect evidence and incomplete ITC data.
+- The proposal that FxxVVI is a common motif in Swi6 interactors is based on prediction only and lacks experimental validation.
+- The statement that "the function of Chp2 can be compensated by artificially introducing the Mit1-Swi6 interacting module" is supported by the silencing data, but the mechanistic explanation (recruitment vs. dosage) is not fully resolved.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41105015",
+  "title": "Cross-modal contrastive learning decodes developmental regulatory features through chromatin potential analysis.",
+  "authors": "Yang, Yueyuxiao; Xie, Chenxi; He, Qiushun; Yang, Meng",
+  "journal": "GigaScience",
+  "published_date": "2025-10-17",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出跨模态对比学习框架Attune，整合单细胞基因表达与染色质可及性数据，推断调控互作并揭示转录因子Gli3的染色质潜力，虽涉及TF-DNA调控推断，但核心是组学数据整合而非直接建模TF-DNA结合机制。",
+  "abstract": "BACKGROUND: Emerging large-scale multimodal single-cell data jointly measure chromatin accessibility and transcription in the same cell, thus reconciling matched data paves an integrated route for comprehensive regulatory analysis. FINDINGS: Here, we introduce Attune, a cross-modal contrastive learning framework to align paired gene expression and accessibility information. Systematic benchmarking shows Attune's superior performance for omics integration and gene expression prediction. We further introduce transformer-based cross-modal attention over fine-tuned gene and peak embeddings to infer regulatory interaction and discover significant differential signals of cell subtypes. Applied to a hair follicle maturation dataset, Attune reveals chromatin potential for the bifunctional transcription factor Gli3 at the gene level. In addition, the paired representations determine transmitted states across neonatal and mature cell types of cortical neuron differentiation at the cell level. Taken together, Attune offers an approach for regulatory inference across omics layers and enables more advanced omics analyses. CONCLUSIONS: Attune offers a versatile framework for integrating gene expression and chromatin accessibility, enabling the inference of regulatory mechanisms and the prediction of gene expression from cross-modal data.",
+  "abstract_zh": "背景：新兴的大规模多模态单细胞数据在同一细胞中联合测量染色质可及性和转录，因此匹配数据的调和为全面的调控分析铺平了整合路径。发现：在此，我们引入Attune，一种跨模态对比学习框架，用于对齐配对的基因表达和可及性信息。系统性基准测试显示Attune在组学整合和基因表达预测方面具有卓越性能。我们进一步引入基于Transformer的跨模态注意力机制，应用于微调后的基因和峰嵌入，以推断调控相互作用并发现细胞亚型的显著差异信号。应用于毛囊成熟数据集时，Attune在基因水平揭示了双功能转录因子Gli3的染色质潜力。此外，配对表示在细胞水平确定了皮层神经元分化中新生和成熟细胞类型间的传递状态。综合来看，Attune提供了一种跨组学层进行调控推断的方法，并支持更高级的组学分析。结论：Attune提供了一个多功能框架，用于整合基因表达和染色质可及性，能够从跨模态数据推断调控机制并预测基因表达。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41105015/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41105015/",
+  "paper_page_path": "papers/pubmed/41105015/index.html"
+}

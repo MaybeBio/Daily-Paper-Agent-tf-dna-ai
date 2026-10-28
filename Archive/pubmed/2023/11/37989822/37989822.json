@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "37989822",
+    "doi": "10.1007/s12094-023-03336-w",
+    "title": "Anoikis patterns via machine learning strategy and experimental verification exhibit distinct prognostic and immune landscapes in melanoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Anoikis is a cell death programmed to eliminate dysfunctional or damaged cells induced by detachment from the extracellular matrix. Utilizing an anoikis-based risk stratification is anticipated to understand melanoma's prognostic and immune landscapes comprehensively. METHODS: Differential expression genes (DEGs) were analyzed between melanoma and normal skin tissues in The Cancer Genome Atlas (TCGA) and Genotype-Tissue Expression data sets. Next, least absolute shrinkage and selection operator, support vector machine-recursive feature elimination algorithm, and univariate and multivariate Cox analyses on the 308 DEGs were performed to build the prognostic signature in the TCGA-melanoma data set. Finally, the signature was validated in GSE65904 and GSE22155 data sets. NOTCH3, PIK3R2, and SOD2 were validated in our clinical samples by immunohistochemistry. RESULTS: The prognostic model for melanoma patients was developed utilizing ten hub anoikis-related genes. The overall survival (OS) of patients in the high-risk subgroup, which was classified by the optimal cutoff value, was remarkably shorter in the TCGA-melanoma, GSE65904, and GSE22155 data sets. Low-risk patients exhibited low immune cell infiltration and high expression of immunophenoscores and immune checkpoints. They also demonstrated increased sensitivity to various drugs, including dasatinib and dabrafenib. NOTCH3, PIK3R2, and SOD2 were notably associated with OS by univariate Cox analysis in the GSE65904 data set. The clinical melanoma samples showed remarkably higher protein expressions of NOTCH3 (P = 0.003) and PIK3R2 (P = 0.009) than the para-melanoma samples, while the SOD2 protein expression remained unchanged. CONCLUSIONS: In this study, we successfully established a prognostic anoikis-connected signature using machine learning. This model may aid in evaluating patient prognosis, clinical characteristics, and immune treatment modalities for melanoma.",
+    "keywords": [
+      "Anoikis",
+      "Immunotherapy",
+      "Malignant melanoma",
+      "Prognostic signature",
+      "SVM-RFE"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Melanoma/genetics",
+      "Anoikis/genetics",
+      "Prognosis",
+      "Transcription Factors",
+      "*Skin Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jinfang",
+        "Ma, Rong",
+        "Chen, Siyuan",
+        "Lai, Yongxian",
+        "Liu, Guangpeng"
+      ],
+      "short_names": [
+        "Liu J",
+        "Ma R",
+        "Chen S",
+        "Lai Y",
+        "Liu G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4782-1677"
+      ],
+      "affiliations": [
+        "Department of Plastic and Reconstructive Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, No. 301 Middle Yanchang Road, Shanghai, China.",
+        "School of Life Sciences, Northwest University, Xi'an, 710069, China.",
+        "Department of Plastic and Reconstructive Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, No. 301 Middle Yanchang Road, Shanghai, China.",
+        "Department of Dermatologic Surgery, Shanghai Skin Disease Hospital, School of Medicine, Tongji University, No. 1278 Baode Road, Shanghai, China. laiyx@shskin.com.",
+        "Department of Plastic and Reconstructive Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, No. 301 Middle Yanchang Road, Shanghai, China. guangpengliu@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jinfang",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, No. 301 Middle Yanchang Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Rong",
+        "short_name": "Ma R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Northwest University, Xi'an, 710069, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Siyuan",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, No. 301 Middle Yanchang Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Yongxian",
+        "short_name": "Lai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatologic Surgery, Shanghai Skin Disease Hospital, School of Medicine, Tongji University, No. 1278 Baode Road, Shanghai, China. laiyx@shskin.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Guangpeng",
+        "short_name": "Liu G",
+        "identifiers": [
+          "0000-0003-4782-1677"
+        ],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, No. 301 Middle Yanchang Road, Shanghai, China. guangpengliu@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico"
+    ],
+    "journal_abbrev": [
+      "Clin Transl Oncol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/22 00:42",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "39835132"
+    ],
+    "refs": [
+      "37059066",
+      "36793444",
+      "36726781",
+      "36686684",
+      "36528701",
+      "35985661",
+      "35958480",
+      "35395865",
+      "35154473",
+      "34635121",
+      "34608584",
+      "34341514",
+      "33854965",
+      "33771684",
+      "32632141",
+      "32124950",
+      "31909204",
+      "31638204",
+      "30945396",
+      "30237423",
+      "29456682",
+      "29362479",
+      "29191943",
+      "28836703",
+      "28685773",
+      "28165469",
+      "28132803",
+      "28102259",
+      "28052254",
+      "26553038",
+      "26193342",
+      "26137411",
+      "25880877",
+      "25853550",
+      "25763821",
+      "25745358",
+      "25741596",
+      "25709607",
+      "25605792",
+      "25295306",
+      "24912939",
+      "24589925",
+      "24499631",
+      "24121031",
+      "24113773",
+      "23724867",
+      "23429735",
+      "23420605",
+      "23200915",
+      "22627943",
+      "20930522",
+      "20808728",
+      "20647317",
+      "20153362",
+      "19131956",
+      "18579285",
+      "17593331",
+      "16418324",
+      "12694753",
+      "11559532",
+      "9748120",
+      "8106557",
+      "2307529"
+    ],
+    "similar": [
+      "37989822",
+      "37401304",
+      "37930439",
+      "38787413",
+      "39253230",
+      "37402968",
+      "38279987",
+      "37807308",
+      "37985130",
+      "33031392",
+      "37575253",
+      "37032832",
+      "37215879",
+      "38669429",
+      "37770477",
+      "36401385",
+      "38049825",
+      "37539569",
+      "37421452",
+      "37114037",
+      "37213475",
+      "37035149",
+      "36630752",
+      "36996495",
+      "36925640",
+      "37543428",
+      "37182175",
+      "32731180",
+      "37229449",
+      "38062824",
+      "37259225",
+      "37383389",
+      "37986299",
+      "36438905",
+      "37385008",
+      "37065587",
+      "35116193",
+      "37736789",
+      "37919386",
+      "34903008",
+      "39029056",
+      "37541541",
+      "37682196",
+      "34291650",
+      "35354376",
+      "36964478",
+      "37719710",
+      "35611195",
+      "36091049",
+      "32902917",
+      "37502362",
+      "38238592",
+      "35957812",
+      "37056778",
+      "37904416",
+      "36338978",
+      "38305400",
+      "35402579",
+      "37626132",
+      "37450027",
+      "38217031",
+      "36033441",
+      "37950289",
+      "35872794",
+      "38087999",
+      "37031510",
+      "34604952",
+      "36479114",
+      "37323657",
+      "37118620",
+      "38460046",
+      "34814288",
+      "38373667",
+      "36507553",
+      "33748290",
+      "34630418",
+      "37787988",
+      "38835052",
+      "35927923",
+      "38310291",
+      "36405735",
+      "36837559",
+      "36686684",
+      "36769187",
+      "37378675",
+      "34809598",
+      "36818162",
+      "37180666",
+      "37921852",
+      "38404059",
+      "36253777",
+      "37842046",
+      "38947446",
+      "37275895",
+      "31476315",
+      "36090054",
+      "36967081",
+      "34660598",
+      "36555319",
+      "33682883",
+      "37417684",
+      "37081871",
+      "38189818",
+      "37950731",
+      "38770150",
+      "39071712",
+      "37181747",
+      "39335149"
+    ],
+    "review": [
+      "37989822",
+      "36405735"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/skincancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Skin Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12094-023-03336-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1538",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.15.694070",
+  "title": "Regulatory network hubs guide dynamic human lineage specification",
+  "authors": "Takeuchi C; Sivakumar S; Sundarrajan A; Wang Y; Goetsch SC; Zhao H; Wang L; Nzima M; Deng M; Kulkarni KN; Xu L; Wu J; Posner BA; Chahrour MH; Kraus WL; Munshi NV; Hon GC",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-17",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用Perturb-Seq和深度学习transformer模型研究人类心肌分化中转录因子调控网络动态，虽涉及TF-DNA调控但核心是转录组扰动预测，缺乏三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Transcription factors (TFs), including DNA binding proteins and epigenetic co-regulators, control the timing of gene programs during lineage commitment 1 . However, systematically defining the dynamic activities of the human genome’s nearly 2000 TFs during development remains challenging 2,3 . Here, we use Perturb-Seq to map the transcriptional impact of nearly all human TFs and a subset of enhancers during cardiomyocyte differentiation. Our results suggest that developmental regulatory networks are distributed across highly connected hub TFs 4–6 that are dynamic across lineage and time, rather than organizing into top-down hierarchies directed by “master regulators”. We also identify distinct TF ensembles that regulate sequential decision points during cardiac cell-fate specification by coordinating lineage-specific activation with alternate lineage repression. Separately, analysis of TF-TF cooperativity uncovers a dynamic interaction between MEF2 family TFs 7 and members of the Polycomb Repressive complex 1 8–10 to execute alternative fate repression. Building on these regulatory interactions, we construct a deep learning transformer model to accurately predict perturbed TFs driving altered regulatory networks in patient-derived transcriptomes. Together, our results define the regulatory network architecture of human lineage specification and provide a platform for predicting TF function and interpreting disease mechanisms.",
+  "abstract_zh": "转录因子（TFs），包括DNA结合蛋白和表观遗传共调节因子，控制着谱系定型过程中基因程序的时间安排1。然而，系统性地定义人类基因组近2000个转录因子在发育过程中的动态活性仍然具有挑战性2,3。在此，我们使用Perturb-Seq技术，在心肌细胞分化过程中绘制了几乎所有人类转录因子及一部分增强子的转录影响图谱。我们的结果表明，发育调控网络分布在高度连接的枢纽转录因子4–6上，这些因子在谱系和时间上动态变化，而非组织成由“主调控因子”主导的层级结构。我们还识别出不同的转录因子组合，通过协调谱系特异性激活与替代谱系抑制，调控心脏细胞命运决定过程中的连续决策点。此外，对转录因子-转录因子协同性的分析揭示了MEF2家族转录因子7与多梳抑制复合体1 8–10成员之间的动态相互作用，以执行替代命运抑制。基于这些调控相互作用，我们构建了一个深度学习变换器模型，以准确预测患者来源转录组中驱动改变调控网络的扰动转录因子。综合来看，我们的结果定义了人类谱系特化的调控网络架构，并为预测转录因子功能和解读疾病机制提供了一个平台。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694070",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694070",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.15.694070/index.html"
+}

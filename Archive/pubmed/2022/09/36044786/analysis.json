@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36044786",
+  "title": "iDRBP-ECHF: Identifying DNA- and RNA-binding proteins based on extensible cubic hybrid framework.",
+  "authors": "Feng, Jiawei; Wang, Ning; Zhang, Jun; Liu, Bin",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2022-09-01",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习框架预测DNA/RNA结合蛋白，属广义蛋白-核酸互作识别，但仅基于序列分类，无三维互作建模或TF-DNA特异性机制研究，方法可迁移但深度有限。",
+  "abstract": "Proteins interact with nucleic acids to regulate the life activities of organisms. Therefore, how to accurately and efficiently identify nucleic acid-binding proteins (NABPs) is particularly significant. Some sequence-based computational methods have been proposed to identify DNA- and RNA-binding proteins in previous studies. However, the benchmark datasets used by these methods ignore the proportion of NABPs in the real world, and some integration methods only integrate traditional machine learning algorithms, resulting in limited prediction performance. In this study, we proposed a sequence-based method called iDRBP-ECHF to predict the DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs). We constructed a benchmark dataset by considering the proportion of positive and negative samples in the real world, and used down-sampling to generate three relatively balanced datasets to train the iDRBP-ECHF. In addition, we incorporated the deep learning algorithms into the framework to obtain a more compact high-level feature representation of the input data. The results on two independent datasets show that it achieves the most advanced performance and is superior to the other existing sequence-based DBP and RBP prediction methods. In addition, we set up a webserver iDRBP-ECHF, which can be accessed at http://bliulab.net/iDRBP-ECHF.",
+  "abstract_zh": "蛋白质与核酸相互作用以调控生物体的生命活动。因此，如何准确高效地识别核酸结合蛋白（NABPs）显得尤为重要。以往研究中，已提出一些基于序列的计算方法来识别DNA和RNA结合蛋白。然而，这些方法使用的基准数据集忽略了NABPs在现实世界中的比例，且一些集成方法仅整合了传统机器学习算法，导致预测性能有限。在本研究中，我们提出了一种基于序列的方法，名为iDRBP-ECHF，用于预测DNA结合蛋白（DBPs）和RNA结合蛋白（RBPs）。我们通过考虑现实世界中正负样本的比例构建了基准数据集，并采用下采样生成三个相对平衡的数据集来训练iDRBP-ECHF。此外，我们将深度学习算法纳入框架中，以获得输入数据更紧凑的高层特征表示。在两个独立数据集上的结果表明，该方法达到了最先进的性能，并优于其他现有的基于序列的DBP和RBP预测方法。此外，我们建立了一个网络服务器iDRBP-ECHF，可通过http://bliulab.net/iDRBP-ECHF访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36044786/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36044786/",
+  "paper_page_path": "papers/pubmed/36044786/index.html"
+}

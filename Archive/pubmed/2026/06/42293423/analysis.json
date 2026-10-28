@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42293423",
+  "title": "Standardized contrast-enhanced CT-based radiomics for non-invasive prediction of TTF-1 status in lung adenocarcinoma: A cross-validated single-center study.",
+  "authors": "Nussel, Martin; Trinks, Jan-Niklas; Forster, Stefan; Krugmann, Jens; Klink, Thorsten",
+  "journal": "European journal of radiology open",
+  "published_date": "2026-06-15",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用CT影像组学预测肺腺癌中TTF-1表达状态，属于临床影像生物标志物预测，不涉及蛋白质-DNA互作、转录因子结合机制或AI/物理模拟建模，与本课题无关。",
+  "abstract": "OBJECTIVE: Thyroid transcription factor-1 (TTF-1) is a clinically relevant immunohistochemical marker in lung adenocarcinoma with diagnostic, prognostic, and therapeutic implications. As tissue sampling is invasive and often limited by small biopsy specimens, non-invasive imaging biomarkers are of increasing interest. This study aimed to develop and internally validate a standardized contrast-enhanced CT-based radiomics workflow for prediction of TTF-1 expression, with emphasis on reproducibility and methodological robustness. METHODS: This retrospective single-center study included 164 treatment-naive patients with histologically confirmed lung adenocarcinoma and available TTF-1 immunohistochemistry. TTF-1 expression was assessed using routine immunohistochemical staining on biopsy or resection specimens, with binary classification based on nuclear staining. Primary tumors were semi-automatically segmented on contrast-enhanced CT using IBSI-compliant preprocessing. A total of 107 radiomic features were extracted. Interobserver reproducibility was evaluated in a subset of 55 tumors using intraclass correlation coefficients. Logistic regression, random forest, and XGBoost models were trained using five-fold stratified cross-validation. Performance was evaluated using AUC. RESULTS: Among 164 patients, 115 tumors (70.1%) were TTF-1 positive. XGBoost achieved the highest performance (mean AUC = 0.83 +/- 0.04), significantly outperforming other models (p < 0.01). Radiomic features showed good interobserver reproducibility, particularly for shape and first-order features. SHAP analysis identified sphericity, entropy, and mean CT attenuation as key predictors. CONCLUSION: A standardized CT-based radiomics approach shows promising performance for non-invasive prediction of TTF-1 status in lung adenocarcinoma. Given the retrospective single-center design and lack of external validation, further multicenter studies are required.",
+  "abstract_zh": "目的：甲状腺转录因子-1（TTF-1）是肺腺癌中具有临床相关性的免疫组织化学标志物，在诊断、预后和治疗方面具有重要意义。由于组织取样具有侵入性，且常受限于小活检标本，非侵入性影像生物标志物日益受到关注。本研究旨在开发并内部验证一种基于标准化增强CT的影像组学工作流程，用于预测TTF-1表达，重点强调可重复性和方法学稳健性。方法：这项回顾性单中心研究纳入了164例未经治疗、经组织学确诊为肺腺癌且具有可用TTF-1免疫组织化学结果的患者。TTF-1表达通过常规免疫组织化学染色在活检或切除标本上评估，基于核染色进行二分类。原发肿瘤在增强CT上使用符合IBSI标准的预处理进行半自动分割。共提取了107个影像组学特征。在55个肿瘤的子集中，使用组内相关系数评估观察者间可重复性。使用五折分层交叉验证训练逻辑回归、随机森林和XGBoost模型。性能通过AUC评估。结果：在164例患者中，115个肿瘤（70.1%）为TTF-1阳性。XGBoost达到最高性能（平均AUC = 0.83 +/- 0.04），显著优于其他模型（p < 0.01）。影像组学特征显示出良好的观察者间可重复性，尤其是形状和一阶特征。SHAP分析确定球形度、熵和平均CT衰减值为关键预测因子。结论：基于标准化CT的影像组学方法在肺腺癌中非侵入性预测TTF-1状态方面显示出有前景的性能。鉴于回顾性单中心设计及缺乏外部验证，需进一步开展多中心研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42293423/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42293423/",
+  "paper_page_path": "papers/pubmed/42293423/index.html"
+}

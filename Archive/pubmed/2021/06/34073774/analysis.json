@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34073774",
+  "title": "DeepD2V: A Novel Deep Learning-Based Framework for Predicting Transcription Factor Binding Sites from Combined DNA Sequence.",
+  "authors": "Deng, Lei; Wu, Hui; Liu, Xuejun; Liu, Hui",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-06-03",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 8,
+  "one_liner_zh": "提出基于深度学习的DeepD2V框架，结合k-mer词向量与CNN/bi-LSTM预测转录因子结合位点，核心聚焦TF-DNA互作且方法为AI建模，高度匹配课题。",
+  "abstract": "Predicting in vivo protein-DNA binding sites is a challenging but pressing task in a variety of fields like drug design and development. Most promoters contain a number of transcription factor (TF) binding sites, but only a small minority has been identified by biochemical experiments that are time-consuming and laborious. To tackle this challenge, many computational methods have been proposed to predict TF binding sites from DNA sequence. Although previous methods have achieved remarkable performance in the prediction of protein-DNA interactions, there is still considerable room for improvement. In this paper, we present a hybrid deep learning framework, termed DeepD2V, for transcription factor binding sites prediction. First, we construct the input matrix with an original DNA sequence and its three kinds of variant sequences, including its inverse, complementary, and complementary inverse sequence. A sliding window of size k with a specific stride is used to obtain its k-mer representation of input sequences. Next, we use word2vec to obtain a pre-trained k-mer word distributed representation model. Finally, the probability of protein-DNA binding is predicted by using the recurrent and convolutional neural network. The experiment results on 50 public ChIP-seq benchmark datasets demonstrate the superior performance and robustness of DeepD2V. Moreover, we verify that the performance of DeepD2V using word2vec-based k-mer distributed representation is better than one-hot encoding, and the integrated framework of both convolutional neural network (CNN) and bidirectional LSTM (bi-LSTM) outperforms CNN or the bi-LSTM model when used alone. The source code of DeepD2V is available at the github repository.",
+  "abstract_zh": "预测体内蛋白质-DNA结合位点是一项具有挑战性但紧迫的任务，在药物设计与开发等多个领域中尤为重要。大多数启动子包含多个转录因子（TF）结合位点，但仅有少数通过耗时费力的生化实验被鉴定出来。为应对这一挑战，许多计算方法已被提出，用于从DNA序列预测TF结合位点。尽管以往方法在蛋白质-DNA相互作用预测中取得了显著性能，但仍存在相当大的改进空间。本文中，我们提出了一种混合深度学习框架，称为DeepD2V，用于转录因子结合位点预测。首先，我们使用原始DNA序列及其三种变体序列（包括其反向、互补和互补反向序列）构建输入矩阵。采用大小为k且具有特定步长的滑动窗口来获取输入序列的k-mer表示。接下来，我们使用word2vec获得预训练的k-mer词分布式表示模型。最后，通过循环和卷积神经网络预测蛋白质-DNA结合的概率。在50个公共ChIP-seq基准数据集上的实验结果表明，DeepD2V具有优越的性能和鲁棒性。此外，我们验证了使用基于word2vec的k-mer分布式表示的DeepD2V性能优于独热编码，并且卷积神经网络（CNN）和双向LSTM（bi-LSTM）的集成框架优于单独使用CNN或bi-LSTM模型。DeepD2V的源代码可在github仓库中获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34073774/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34073774/",
+  "paper_page_path": "papers/pubmed/34073774/index.html"
+}

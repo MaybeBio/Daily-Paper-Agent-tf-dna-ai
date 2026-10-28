@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "38918875",
+    "doi": "10.1186/s12985-024-02419-6",
+    "title": "Impact of subtype C-specific amino acid variants on HIV-1 Tat-TAR interaction: insights from molecular modelling and dynamics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: HIV-1 produces Tat, a crucial protein for transcription, viral replication, and CNS neurotoxicity. Tat interacts with TAR, enhancing HIV reverse transcription. Subtype C Tat variants (C31S, R57S, Q63E) are associated with reduced transactivation and neurovirulence compared to subtype B. However, their precise impact on Tat-TAR binding is unclear. This study investigates how these substitutions affect Tat-TAR interaction. METHODS: We utilized molecular modelling techniques, including MODELLER, to produce precise three-dimensional structures of HIV-1 Tat protein variants. We utilized Tat subtype B as the reference or wild type, and generated Tat variants to mirror those amino acid variants found in Tat subtype C. Subtype C-specific amino acid substitutions were selected based on their role in the neuropathogenesis of HIV-1. Subsequently, we conducted molecular docking of each Tat protein variant to TAR using HDOCK, followed by molecular dynamic simulations. RESULTS: Molecular docking results indicated that Tat subtype B (TatWt) showed the highest affinity for the TAR element (-262.07), followed by TatC31S (-261.61), TatQ63E (-256.43), TatC31S/R57S/Q63E (-238.92), and TatR57S (-222.24). However, binding free energy analysis showed higher affinities for single variants TatQ63E (-349.2 +/- 10.4 kcal/mol) and TatR57S (-290.0 +/- 9.6 kcal/mol) compared to TatWt (-247.9 +/- 27.7 kcal/mol), while TatC31S and TatC31S/R57SQ/63E showed lower values. Interactions over the protein trajectory were also higher for TatQ63E and TatR57S compared to TatWt, TatC31S, and TatC31S/R57SQ/63E, suggesting that modifying amino acids within the Arginine/Glutamine-rich region notably affects TAR interaction. Single amino acid mutations TatR57S and TatQ63E had a significant impact, while TatC31S had minimal effect. Introducing single amino acid variants from TatWt to a more representative Tat subtype C (TatC31S/R57SQ/63E) resulted in lower predicted binding affinity, consistent with previous findings. CONCLUSIONS: These identified amino acid positions likely contribute significantly to Tat-TAR interaction and the differential pathogenesis and neuropathogenesis observed between subtype B and subtype C. Additional experimental investigations should prioritize exploring the influence of these amino acid signatures on TAR binding to gain a comprehensive understanding of their impact on viral transactivation, potentially identifying them as therapeutic targets.",
+    "keywords": [
+      "HIV-associated neurocognitive disorders",
+      "Molecular docking",
+      "Molecular dynamic simulation",
+      "Molecular modelling",
+      "Subtype B",
+      "Subtype C",
+      "Tat polymorphisms"
+    ],
+    "mesh_terms": [
+      "*tat Gene Products, Human Immunodeficiency Virus/genetics/metabolism/chemistry",
+      "*HIV-1/genetics/classification/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Protein Binding",
+      "Humans",
+      "*Amino Acid Substitution",
+      "Molecular Docking Simulation",
+      "HIV Long Terminal Repeat/genetics",
+      "Amino Acids/genetics/metabolism",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gotora, Piwai T",
+        "Brown, Keaghan",
+        "Martin, Darius R",
+        "van der Sluis, Rencia",
+        "Cloete, Ruben",
+        "Williams, Monray E"
+      ],
+      "short_names": [
+        "Gotora PT",
+        "Brown K",
+        "Martin DR",
+        "van der Sluis R",
+        "Cloete R",
+        "Williams ME"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Human Metabolomics, North-West University, Potchefstroom, South Africa.",
+        "South African Medical Research Council Bioinformatics Unit, South African National Bioinformatics Institute, University of the Western Cape, Bellville, South Africa.",
+        "South African Medical Research Council Bioinformatics Unit, South African National Bioinformatics Institute, University of the Western Cape, Bellville, South Africa.",
+        "Department of Science and Innovation/Mintek Nanotechnology Innovation Centre, Biolabels Node, University of the Western Cape, Bellville, South Africa.",
+        "Human Metabolomics, North-West University, Potchefstroom, South Africa.",
+        "South African Medical Research Council Bioinformatics Unit, South African National Bioinformatics Institute, University of the Western Cape, Bellville, South Africa.",
+        "Human Metabolomics, North-West University, Potchefstroom, South Africa. Monray.Williams@nwu.ac.za."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gotora, Piwai T",
+        "short_name": "Gotora PT",
+        "identifiers": [],
+        "affiliations": [
+          "Human Metabolomics, North-West University, Potchefstroom, South Africa."
+        ]
+      },
+      {
+        "full_name": "Brown, Keaghan",
+        "short_name": "Brown K",
+        "identifiers": [],
+        "affiliations": [
+          "South African Medical Research Council Bioinformatics Unit, South African National Bioinformatics Institute, University of the Western Cape, Bellville, South Africa."
+        ]
+      },
+      {
+        "full_name": "Martin, Darius R",
+        "short_name": "Martin DR",
+        "identifiers": [],
+        "affiliations": [
+          "South African Medical Research Council Bioinformatics Unit, South African National Bioinformatics Institute, University of the Western Cape, Bellville, South Africa.",
+          "Department of Science and Innovation/Mintek Nanotechnology Innovation Centre, Biolabels Node, University of the Western Cape, Bellville, South Africa."
+        ]
+      },
+      {
+        "full_name": "van der Sluis, Rencia",
+        "short_name": "van der Sluis R",
+        "identifiers": [],
+        "affiliations": [
+          "Human Metabolomics, North-West University, Potchefstroom, South Africa."
+        ]
+      },
+      {
+        "full_name": "Cloete, Ruben",
+        "short_name": "Cloete R",
+        "identifiers": [],
+        "affiliations": [
+          "South African Medical Research Council Bioinformatics Unit, South African National Bioinformatics Institute, University of the Western Cape, Bellville, South Africa."
+        ]
+      },
+      {
+        "full_name": "Williams, Monray E",
+        "short_name": "Williams ME",
+        "identifiers": [],
+        "affiliations": [
+          "Human Metabolomics, North-West University, Potchefstroom, South Africa. Monray.Williams@nwu.ac.za."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Virology journal"
+    ],
+    "journal_abbrev": [
+      "Virol J"
+    ],
+    "pub_date": "2024 Jun 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/26 00:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42213325",
+      "42008597",
+      "41772634",
+      "40943090",
+      "39251983"
+    ],
+    "refs": [
+      "38627350",
+      "37821634",
+      "37311873",
+      "36932337",
+      "36677513",
+      "36363664",
+      "35464972",
+      "35446428",
+      "34586825",
+      "34270183",
+      "33950214",
+      "33462791",
+      "32845610",
+      "32269383",
+      "32265877",
+      "32114391",
+      "31837421",
+      "31332398",
+      "30882484",
+      "30834965",
+      "30824746",
+      "30683882",
+      "30670037",
+      "30509777",
+      "29953864",
+      "29367919",
+      "28848502",
+      "28628859",
+      "27862047",
+      "27819658",
+      "27658967",
+      "27347270",
+      "27286828",
+      "27080521",
+      "27051863",
+      "26631602",
+      "26500468",
+      "26375597",
+      "26087118",
+      "25879536",
+      "25873628",
+      "25278604",
+      "24061923",
+      "23006584",
+      "22899925",
+      "22240486",
+      "22229120",
+      "21998285",
+      "20733932",
+      "20656696",
+      "19621989",
+      "19526283",
+      "19462412",
+      "18971501",
+      "18446297",
+      "18351591",
+      "18074388",
+      "17634235",
+      "17517781",
+      "17376903",
+      "17201676",
+      "17075131",
+      "16916472",
+      "16535863",
+      "16449204",
+      "15723170",
+      "14963162",
+      "13990617",
+      "12853614",
+      "12580598",
+      "12516777",
+      "12349391",
+      "11913381",
+      "11714622",
+      "9989410",
+      "9405229",
+      "8805518",
+      "8434019",
+      "7612630",
+      "2476805",
+      "2247474",
+      "1988672",
+      "1709522"
+    ],
+    "similar": [
+      "38918875",
+      "35464972",
+      "36932337",
+      "22943434",
+      "34696435",
+      "23392246",
+      "28081678",
+      "23274668",
+      "30241541",
+      "10958691",
+      "31080171",
+      "9300036",
+      "28418268",
+      "21625572",
+      "8450553",
+      "33051202",
+      "12525632",
+      "31837421",
+      "16535863",
+      "26832332",
+      "9376365",
+      "39841417",
+      "30481318",
+      "19584251",
+      "34762866",
+      "12009901",
+      "2247474",
+      "27143130",
+      "30834965",
+      "7612630",
+      "27500460",
+      "27007880",
+      "7490754",
+      "15737233",
+      "9654745",
+      "10995220",
+      "21574948",
+      "8189531",
+      "7609059",
+      "29314706",
+      "8906885",
+      "25879536",
+      "21763500",
+      "1899841",
+      "12036319",
+      "33462791",
+      "8497060",
+      "14722301",
+      "30514815",
+      "7892280",
+      "9414617",
+      "27731797",
+      "10944537",
+      "16536465",
+      "8230418",
+      "21752913",
+      "40050622",
+      "7563092",
+      "27611591",
+      "7745706",
+      "26016940",
+      "10913173",
+      "1936997",
+      "10775603",
+      "8709193",
+      "25564443",
+      "7874398",
+      "21763494",
+      "8350414",
+      "11880033",
+      "23487450",
+      "28484443",
+      "29037489",
+      "19896991",
+      "28848502",
+      "8626612",
+      "10573156",
+      "8794337",
+      "15207707",
+      "9832504",
+      "29654800",
+      "23007159",
+      "14970387",
+      "8337844",
+      "1505523",
+      "10428376",
+      "15994812",
+      "20385237",
+      "12604811",
+      "1565648",
+      "8419640",
+      "10684286",
+      "19223581",
+      "12516777",
+      "34576162",
+      "15797217",
+      "8450529",
+      "7638159",
+      "24147034",
+      "21165788"
+    ],
+    "review": [
+      "38918875",
+      "36932337",
+      "31080171",
+      "31837421",
+      "16535863",
+      "30834965"
+    ],
+    "pmc": [
+      "11202254"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://virologyj.biomedcentral.com/articles/10.1186/s12985-024-02419-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38918875/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38918875",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

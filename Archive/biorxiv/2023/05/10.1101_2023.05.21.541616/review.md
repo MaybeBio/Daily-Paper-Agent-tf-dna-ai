@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, and supplementary figure references)
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and alignment with stated conclusions. No assessment of grammar, formatting, or editorial style beyond readability for nonspecialists.
+- **Shared manuscript claim summary** The authors use molecular docking and molecular dynamics simulations to characterize the atomic-level interactions between unphosphorylated Banf1 and DNA, and to explain how mono- and di-phosphorylation at the N-terminus (Ser4 and Thr3) reduce DNA binding. They report that phosphorylation induces local conformational changes and alters the DNA binding surface, leading to steric clashes and unfavorable interactions that eliminate DNA binding.
+- **Visible evidence base** Full text including methods, results, tables (Tables 1–6), figures (Figures 1–11), and supplementary figure references (Figures S1–S8). No raw simulation data, trajectory files, or input parameter files were provided.
+- **Missing materials affecting confidence** Raw simulation trajectories, force field parameter files, docking output files, convergence metrics, and error estimates for MM/GBSA calculations. Experimental validation data (e.g., mutagenesis, binding assays) are not included.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study aimed at explaining the long-observed phenomenon that mono-phosphorylation of Banf1 at Ser4 abolishes DNA binding. The authors employ a combination of docking and extensive molecular dynamics simulations to characterize the binding interface and the effects of phosphorylation. The work is technically sound in its execution of standard MD protocols, and the identification of new transient hydrogen bonds and water bridges is a useful contribution. However, the central claim that mono-phosphorylation eliminates DNA binding via specific conformational changes and surface alterations is supported primarily by qualitative observations and indirect metrics. The lack of quantitative free energy calculations with error estimates, the absence of experimental validation, and the limited discussion of force field limitations weaken the strength of the conclusions. The manuscript would benefit from a more rigorous statistical treatment of the simulation data and a clearer demonstration that the observed effects are robust across different starting conditions and force fields.
+- **Who would be interested in the results, and why** Researchers studying Banf1 function, nuclear envelope assembly, DNA repair, and cell cycle regulation would find this work relevant. Additionally, computational biologists interested in phosphorylation-induced conformational changes and protein-DNA interactions would be interested in the methodological approach. The potential implications for cancer therapeutics targeting cell proliferation could attract a broader biomedical audience, though this is speculative.
+- **Major strengths** The study addresses a biologically important question with clear clinical relevance. The computational approach is systematic, with multiple replicas and long simulation times. The validation of the docking protocol against known crystal structures adds credibility. The identification of specific atomic interactions, including new hydrogen bonds and water bridges, provides a detailed molecular picture that complements existing experimental data. The comparison between Met1-containing and Thr2-starting forms of Banf1 is a thoughtful consideration of biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that mono-phosphorylation of Banf1 at Ser4 "significantly reduces its DNA binding capability" and that this is due to "critical changes in its local conformation and DNA binding surface."
+  - **Evidence pointer** Results section "Mechanisms of N-terminal phosphorylation in Banf1 reducing its DNA binding capability"; Figures 7, 9, 10; Tables 4, 5
+  - **Concern** The central conclusion is based on qualitative observations of conformational changes and surface alterations, but the manuscript lacks quantitative free energy calculations (e.g., MM/GBSA or MM/PBSA) for the phosphorylated variants. The authors report docking scores (Table 6) but do not provide binding free energies from MD simulations for the phosphorylated complexes. Without such quantitative metrics, it is difficult to assess whether the observed conformational changes indeed translate to a significant reduction in binding affinity, as claimed.
+  - **Why it matters** The title and abstract make a strong quantitative claim ("significantly reduces its DNA binding capability"). The evidence presented is largely qualitative and does not include error estimates or statistical significance testing. This weakens the scientific case and makes the conclusion difficult to evaluate or reproduce.
+  - **Resolution test** Provide MM/GBSA or MM/PBSA binding free energies for unphosphorylated, mono-phosphorylated, and di-phosphorylated Banf1-DNA complexes, with standard errors across replicas. Alternatively, perform alchemical free energy perturbation calculations. If such calculations are not feasible, temper the language of the claims to reflect qualitative observations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "our modelling showed that phosphorylated Banf1 with their dominant N-terminal secondary structures bind to DNA with a significantly lower affinity and the docked binding pose are not stable in MD simulations."
+  - **Evidence pointer** Results section "Binding of phosphorylated Banf1 with DNA"; Table 6; Figure 11
+  - **Concern** The stability of the docked complexes was assessed by visual inspection of trajectories, but no quantitative metrics (e.g., RMSD over time, contact maps, or dissociation events) are provided. The statement that the "docked binding pose are not stable" is vague and not supported by quantitative data. Additionally, the simulation time for the phosphorylated complexes (50 ns) is significantly shorter than for the unphosphorylated complexes (500 ns), which may bias the stability assessment.
+  - **Why it matters** The claim of instability is central to the proposed mechanism. Without quantitative evidence, the reader cannot distinguish between a genuine dissociation event and a transient fluctuation. The asymmetric simulation times between phosphorylated and unphosphorylated complexes introduce a potential confound.
+  - **Resolution test** Provide RMSD and contact analysis over time for all complexes, with consistent simulation lengths. Report the time to dissociation (if observed) and the fraction of trajectories showing stable binding. Consider extending simulations of phosphorylated complexes to match the 500 ns used for unphosphorylated complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "these findings help future studies in predicting effect of mutations in Banf1 on its DNA-binding capability and open a novel avenue for the development of therapeutics such as cancer drugs, targeting cell proliferation by inducing conformational changes in Banf1's N-terminal domain."
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The translational implications are overstated. The study is purely computational and does not demonstrate that the proposed mechanism can be exploited therapeutically. The link to cancer drug development is speculative and not supported by any experimental evidence or even a concrete proposal for how the conformational changes could be targeted.
+  - **Why it matters** Overstated implications can mislead readers and dilute the scientific impact of the work. The manuscript would be stronger if the authors clearly delineated what their computational findings can and cannot support.
+  - **Resolution test** Revise the abstract and discussion to temper the translational claims. Focus on the mechanistic insights and their relevance for understanding Banf1 biology, rather than therapeutic applications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Methods section
+  - **Evidence pointer** "Computational models and methodology"
+  - **Issue** The methods section is dense and assumes familiarity with MD simulation terminology. Terms such as "ff99SB force field," "TIP3P water," and "PME summation" are used without explanation.
+  - **Required correction** Add a brief introductory paragraph explaining the basics of MD simulations and the significance of force field choice for readers who may not be computational specialists.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The binding free energies are reported without standard deviations or standard errors. It is unclear whether the 3% difference between Banf1 Thr2 and Banf1 Met1 is statistically significant.
+  - **Required correction** Report standard errors or confidence intervals for all binding free energy values, and perform a statistical test (e.g., t-test) to assess significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** "Computational models and methodology"
+  - **Issue** The clustering analysis uses the "hieragglo" algorithm with a 3 Å RMSD cutoff, but no justification is provided for this choice. Different clustering parameters could yield different representative structures.
+  - **Required correction** Justify the choice of clustering algorithm and cutoff, or show that the results are robust to reasonable variations in these parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion section
+  - **Evidence pointer** "Limitations and future work"
+  - **Issue** The limitations section acknowledges the lack of enhanced sampling but does not discuss the potential impact of force field inaccuracies on the conclusions. The choice of ff99SB is justified only by consistency with previous studies.
+  - **Required correction** Add a discussion of force field limitations and how they might affect the specific conclusions. Consider citing benchmark studies that evaluate the accuracy of ff99SB for protein-DNA interactions and phosphorylated residues.
+
+## Risk / unsupported claims
+- The claim that mono-phosphorylation "significantly reduces" DNA binding is not quantitatively supported by free energy calculations.
+- The claim that docked phosphorylated complexes are "not stable" is not supported by quantitative trajectory analysis.
+- The translational implications for cancer drug development are speculative and not supported by the data.
+- The statement that "the exact percentage of the representative conformations of Banf1 are not the focus of this manuscript" (Limitations section) is inconsistent with the use of occupancy percentages in Figures 7 and S3 to support conclusions.
+- The claim that the MD force fields are "capable of capturing the secondary structure changes" is not validated against experimental data for the phosphorylated states, only for the unphosphorylated state.
+
+## Risk / unsupported claims
+- The claim that mono-phosphorylation "significantly reduces" DNA binding is not quantitatively supported by free energy calculations.
+- The claim that docked phosphorylated complexes are "not stable" is not supported by quantitative trajectory analysis.
+- The translational implications for cancer drug development are speculative and not supported by the data.
+- The statement that "the exact percentage of the representative conformations of Banf1 are not the focus of this manuscript" (Limitations section) is inconsistent with the use of occupancy percentages in Figures 7 and S3 to support conclusions.
+- The claim that the MD force fields are "capable of capturing the secondary structure changes" is not validated against experimental data for the phosphorylated states, only for the unphosphorylated state.

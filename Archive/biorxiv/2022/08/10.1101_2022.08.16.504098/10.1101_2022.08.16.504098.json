@@ -1,0 +1,616 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.16.504098",
+  "title": "Systematic analysis of the genomic features involved in the binding preferences of transcription factors",
+  "doi": "10.1101/2022.08.16.504098",
+  "abstract": "Transcription factors (TFs) orchestrate gene expression and are at the core of cell-specific phenotypes and functions. One given TF can therefore have different binding sites depending on cell type and conditions. However, the TF core motif, as represented by Position Weight Matrix for instance, are often, if not invariably, cell agnostic. Likewise, paralogous TFs recognize very similar motifs while binding different genomic regions. We propose a machine learning approach called TFscope aimed at identifying the DNA features explaining the binding differences observed between two ChIP-seq experiments targeting either the same TF in two cell types or treatments or two paralogous TFs. TFscope systematically investigates differences in i) core motif, ii) nucleotide environment around the binding site and iii) presence and location of co-factor motifs. It provides the main DNA features that have been detected, and the contribution of each of these features to explain the binding differences. TFscope has been applied to more than 350 pairs of ChIP-seq. Our experiments showed that the approach is accurate and that the genomic features distinguishing TF binding in two different settings vary according to the TFs considered and/or the conditions. Several samples are presented and discussed to illustrate these findings. For TFs in different cell types or with different treatments, co-factors and nucleotide environment often explain most of the binding-site differences, while for paralogous TFs, subtle differences in the core motif seem to be the main reason for the observed differences in our experiments. The source code (python), data and results of the experiments described in this article are available at https://gite.lirmm.fr/rromero/tfscope .",
+  "authors": [
+    "Raphaël Romero",
+    "Christophe Menichelli",
+    "Jean-Michel Marin",
+    "Sophie Lèbre",
+    "Charles-Henri Lecellier",
+    "Laurent Bréhélin"
+  ],
+  "published_date": "2022-08-16",
+  "updated_date": "2022-08-16T13:10:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.16.504098",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.16.504098.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            27
+          ]
+        ],
+        "date-time": "2026-09-27T10:19:40Z",
+        "timestamp": 1790504380478,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 54,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Transcription factors (TFs) orchestrate gene expression and are at the core of cell-specific phenotypes and functions. One given TF can therefore have different binding sites depending on cell type and conditions. However, the TF core motif, as represented by Position Weight Matrix for instance, are often, if not invariably, cell agnostic. Likewise, paralogous TFs recognize very similar motifs while binding different genomic regions. We propose a machine learning approach called TFscope aimed at identifying the DNA features explaining the binding differences observed between two ChIP-seq experiments targeting either the same TF in two cell types or treatments or two paralogous TFs. TFscope systematically investigates differences in i) core motif, ii) nucleotide environment around the binding site and iii) presence and location of co-factor motifs. It provides the main DNA features that have been detected, and the contribution of each of these features to explain the binding differences. TFscope has been applied to more than 350 pairs of ChIP-seq. Our experiments showed that the approach is accurate and that the genomic features distinguishing TF binding in two different settings vary according to the TFs considered and/or the conditions. Several samples are presented and discussed to illustrate these findings. For TFs in different cell types or with different treatments, co-factors and nucleotide environment often explain most of the binding-site differences, while for paralogous TFs, subtle differences in the core motif seem to be the main reason for the observed differences in our experiments.</jats:p>\n                <jats:p>\n                  The source code (python), data and results of the experiments described in this article are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://gite.lirmm.fr/rromero/tfscope\">https://gite.lirmm.fr/rromero/tfscope</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2022.08.16.504098",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            16
+          ]
+        ],
+        "date-time": "2022-08-16T13:10:14Z",
+        "timestamp": 1660655414000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Systematic analysis of the genomic features involved in the binding preferences of transcription factors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Raphaël",
+          "family": "Romero",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christophe",
+          "family": "Menichelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jean-Michel",
+          "family": "Marin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sophie",
+          "family": "Lèbre",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Charles-Henri",
+          "family": "Lecellier",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Laurent",
+          "family": "Bréhélin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "8",
+          "key": "2022082413000461000_2022.08.16.504098v3.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1004429",
+          "DOI": "10.1371/journal.pcbi.1004429",
+          "article-title": "Non-consensus Protein Binding to Repetitive DNA Sequence Elements Significantly Affects Eukaryotic Genomes",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "issue": "7",
+          "key": "2022082413000461000_2022.08.16.504098v3.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "107663",
+          "DOI": "10.1016/j.celrep.2020.107663",
+          "article-title": "Predicting mRNA Abundance Directly from Genomic Sequence Using Deep Convolutional Neural Networks",
+          "volume": "31",
+          "year": "2020",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcb.20352"
+        },
+        {
+          "issue": "3",
+          "key": "2022082413000461000_2022.08.16.504098v3.4",
+          "first-page": "354",
+          "article-title": "Base-resolution models of transcription-factor binding reveal soft motif syntax",
+          "volume": "53",
+          "author": "Subject term",
+          "year": "2021",
+          "journal-title": "Chromatin immunoprecipitation;Computational biology and bioinformatics;Genomics Subject term id: chromatin-immunoprecipitation;computational-biology-and-bioinformatics;genomics"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Timothy L Bailey . STREME: accurate and versatile sequence motif discovery. Bioinformatics, (btab203), March 2021.",
+          "DOI": "10.1101/2020.11.23.394619"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks433"
+        },
+        {
+          "issue": "1",
+          "key": "2022082413000461000_2022.08.16.504098v3.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1016/j.bbcan.2019.04.003",
+          "article-title": "The AP-1 transcriptional complex: Local switch or remote command?",
+          "volume": "1872",
+          "year": "2019. :",
+          "journal-title": "Biochimica et Biophysica Acta (BBA)-Reviews on Cancer"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab053"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Milagros Castellanos , Nivin Mothi , and Victor Muñoz . Eukaryotic transcription factors can track and control their target genes using DNA antennas. Nature Communications, 11, January 2020.",
+          "DOI": "10.1038/s41467-019-14217-8"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx314"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.226530.117"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.184671.114"
+        },
+        {
+          "issue": "5696",
+          "key": "2022082413000461000_2022.08.16.504098v3.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "636",
+          "DOI": "10.1126/science.1105136",
+          "article-title": "The ENCODE (ENCyclopedia Of DNA Elements) Project",
+          "volume": "306",
+          "author": "ENCODE Project Consortium",
+          "year": "2004",
+          "journal-title": "Science (New York, N.Y.)"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.144840.112"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa516"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1210"
+        },
+        {
+          "issue": "01",
+          "key": "2022082413000461000_2022.08.16.504098v3.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "3681",
+          "DOI": "10.1609/aaai.v33i01.33013681",
+          "article-title": "Interpretation of Neural Networks Is Fragile",
+          "volume": "33",
+          "year": "2019. : 01",
+          "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lukasz Huminiecki and Jaroslaw Horbanćzuk. Can We Predict Gene Expression by Understanding Proximal Promoter Architecture? Trends in Biotechnology, 0(0), April 2017.",
+          "DOI": "10.1016/j.tibtech.2017.03.007"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15518"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M116.721217"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.227819.117"
+        },
+        {
+          "issue": "D1",
+          "key": "2022082413000461000_2022.08.16.504098v3.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "D104",
+          "DOI": "10.1093/nar/gkaa1057",
+          "article-title": "GTRD: an integrated view of transcription regulation",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "issue": "12",
+          "key": "2022082413000461000_2022.08.16.504098v3.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1007560",
+          "DOI": "10.1371/journal.pcbi.1007560",
+          "article-title": "Representation learning of genomic sequence motifs with convolutional neural networks",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100617-062719"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ivan V. Kulakovskiy , Ilya E. Vorontsov , Ivan S. Yevshin , Ruslan N. Sharipov , Alla D. Fedorova , Eugene I. Rumynskiy , Yulia A. Medvedeva , Arturo Magana-Mora , Vladimir B. Bajic , Dmitry A. Papatsenko , Fedor A. Kolpakov , and Vsevolod J. Makeev . HOCOMOCO: towards a complete collection of transcription factor binding models for human and mouse via large-scale ChIP-Seq analysis. Nucleic Acids Research, 2017.",
+          "DOI": "10.1093/nar/gkx1106"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab185"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.185033.114"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ming Li , Bin Ma , and Lusheng Wang . Finding similar regions in many strings. In Proceedings of the thirty-first annual ACM symposium on Theory of Computing, STOC ‘99, pages 473–482, New York, NY, USA, May 1999. Association for Computing Machinery.",
+          "DOI": "10.1145/301250.301376"
+        },
+        {
+          "issue": "4",
+          "key": "2022082413000461000_2022.08.16.504098v3.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1008909",
+          "DOI": "10.1371/journal.pcbi.1008909",
+          "article-title": "Identification of long regulatory elements in the genome of Plasmodium falciparum and other eukaryotes",
+          "volume": "17",
+          "year": "2021. :",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0913805107"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.03.006"
+        },
+        {
+          "issue": "1",
+          "key": "2022082413000461000_2022.08.16.504098v3.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "280",
+          "DOI": "10.1186/s13059-021-02499-5",
+          "article-title": "Biologically relevant transfer learning improves transcription factor binding prediction",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Genome Biology"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "73",
+          "DOI": "10.1016/j.gde.2016.12.007",
+          "article-title": "Combinatorial function of transcription factors and cofactors",
+          "volume": "43",
+          "year": "2017",
+          "journal-title": "Current Opinion in Genetics & Development"
+        },
+        {
+          "issue": "7",
+          "key": "2022082413000461000_2022.08.16.504098v3.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005638",
+          "DOI": "10.1371/journal.pcbi.1005638",
+          "article-title": "Inherent limitations of probabilistic models for protein-DNA binding specificity",
+          "volume": "13",
+          "year": "2017. :",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-018-2104-7"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "issue": "1",
+          "key": "2022082413000461000_2022.08.16.504098v3.41",
+          "first-page": "1",
+          "article-title": "Characterizing steroid hormone receptor chromatin binding landscapes in male and female breast cancer",
+          "volume": "9",
+          "year": "2018. :",
+          "journal-title": "Nature communications"
+        },
+        {
+          "issue": "4",
+          "key": "2022082413000461000_2022.08.16.504098v3.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "470",
+          "DOI": "10.1016/j.cels.2018.02.009",
+          "article-title": "Divergence in DNA Specificity among Paralogous Transcription Factors Contributes to Their Differential In Vivo Binding",
+          "volume": "6",
+          "year": "2018",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2798"
+        },
+        {
+          "issue": "6",
+          "key": "2022082413000461000_2022.08.16.504098v3.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "194443",
+          "DOI": "10.1016/j.bbagrm.2019.194443",
+          "article-title": "Sequence and chromatin determinants of transcription factor binding and the establishment of cell type-specific binding patterns",
+          "volume": "1863",
+          "year": "2020",
+          "journal-title": "Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11232"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.46",
+          "first-page": "267",
+          "article-title": "Regression Shrinkage and Selection Via the Lasso",
+          "volume": "58",
+          "year": "1994",
+          "journal-title": "Journal of the Royal Statistical Society, Series B"
+        },
+        {
+          "issue": "1",
+          "key": "2022082413000461000_2022.08.16.504098v3.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.1186/s12864-018-5408-0",
+          "article-title": "Probing transcription factor combinatorics in different promoter classes and in enhancers",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.139105.112"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1315"
+        },
+        {
+          "issue": "3",
+          "key": "2022082413000461000_2022.08.16.504098v3.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "265",
+          "DOI": "10.1038/nmeth.3065",
+          "article-title": "Predicting the Human Epigenome from DNA Motifs",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2022082413000461000_2022.08.16.504098v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-15-472"
+        },
+        {
+          "issue": "10",
+          "key": "2022082413000461000_2022.08.16.504098v3.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "434",
+          "DOI": "10.1016/j.tig.2009.08.003",
+          "article-title": "Different gene regulation strategies revealed by analysis of binding motifs",
+          "volume": "25",
+          "year": "2009",
+          "journal-title": "Trends in genetics: TIG"
+        },
+        {
+          "issue": "2",
+          "key": "2022082413000461000_2022.08.16.504098v3.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1038/s42256-020-00282-y",
+          "article-title": "Deep neural networks identify sequence context features predictive of transcription factor binding",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Nature machine intelligence"
+        },
+        {
+          "issue": "10",
+          "key": "2022082413000461000_2022.08.16.504098v3.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/nmeth.3547",
+          "article-title": "Predicting effects of noncoding variants with deep learning-based sequence model",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature Methods"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.08.16.504098",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:29:42Z",
+        "timestamp": 1768447782000
+      },
+      "score": 82.91153,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.16.504098"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            16
+          ]
+        ]
+      },
+      "references-count": 54,
+      "URL": "https://doi.org/10.1101/2022.08.16.504098",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

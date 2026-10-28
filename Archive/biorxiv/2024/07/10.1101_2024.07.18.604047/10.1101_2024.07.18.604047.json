@@ -1,0 +1,473 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.18.604047",
+  "title": "A Hierarchical Method to Analyze Protein-DNA Interfaces",
+  "doi": "10.1101/2024.07.18.604047",
+  "abstract": "The accessibility of genetic information and packaging of long chromosomal DNA into micron-sized nuclei is a great example of protein-DNA interaction. A large number of protein-DNA structures are available in the database and is continuously increasing. The analysis of such huge data to extract meaningful insights, several computational tools such as hydrogen bonding, SASA, all intermolecular heavy atom-to-atom contacts, as well as web-server and databases such as DNAproDB, PDIdb, PDB2PQR, Bio-python are available. Generally, the interaction between the protein and DNA is analyzed based on all heavy atom-to-atom contact matrices which are computationally expensive. Herein, a new and robust hierarchical approach is developed to analyze the protein-DNA interface. The present hierarchical method comprises two steps; the first step is to recognize the protein residue-nucleotide pairs at the interface by employing pairwise distance cut-off between the Cα of the protein residues and 05′ of the nucleotide and the second step is to calculate heavy atom-to-atom contact matrix using the first step as a qualifier. This method reduces the computational cost by three orders of magnitude making it tractable even on personal computers. On the whole, the protein-DNA interface is dominated by the arginine residues with a notable presence of lysine, serine, and tyrosine, highlighting the pivotal role of electrostatic interactions and hydrogen bonding in aggregation. Abstract Figure",
+  "authors": [
+    "Amol Tagad",
+    "G. Naresh Patwari"
+  ],
+  "published_date": "2024-07-19",
+  "updated_date": "2024-07-22T04:34:24Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.18.604047",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.18.604047.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:14:40Z",
+        "timestamp": 1768511680524,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>The accessibility of genetic information and packaging of long chromosomal DNA into micron-sized nuclei is a great example of protein-DNA interaction. A large number of protein-DNA structures are available in the database and is continuously increasing. The analysis of such huge data to extract meaningful insights, several computational tools such as hydrogen bonding, SASA, all intermolecular heavy atom-to-atom contacts, as well as web-server and databases such as DNAproDB, PDIdb, PDB2PQR, Bio-python are available. Generally, the interaction between the protein and DNA is analyzed based on all heavy atom-to-atom contact matrices which are computationally expensive. Herein, a new and robust hierarchical approach is developed to analyze the protein-DNA interface. The present hierarchical method comprises two steps; the first step is to recognize the protein residue-nucleotide pairs at the interface by employing pairwise distance cut-off between the Cα of the protein residues and 05′ of the nucleotide and the second step is to calculate heavy atom-to-atom contact matrix using the first step as a qualifier. This method reduces the computational cost by three orders of magnitude making it tractable even on personal computers. On the whole, the protein-DNA interface is dominated by the arginine residues with a notable presence of lysine, serine, and tyrosine, highlighting the pivotal role of electrostatic interactions and hydrogen bonding in aggregation.</jats:p>\n                <jats:sec>\n                  <jats:title>Abstract Figure</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"604047v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.1101/2024.07.18.604047",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2024-07-22T04:34:24Z",
+        "timestamp": 1721622864000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Hierarchical Method to Analyze Protein-DNA Interfaces"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4004-1638",
+          "authenticated-orcid": false,
+          "given": "Amol",
+          "family": "Tagad",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0811-7249",
+          "authenticated-orcid": false,
+          "given": "G. Naresh",
+          "family": "Patwari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbm031"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3005"
+        },
+        {
+          "issue": "el",
+          "key": "2024072300350640000_2024.07.18.604047v1.3",
+          "first-page": "718",
+          "article-title": "The Central Dogma Revisited: Insights from Protein Synthesis, CRISPR, and Beyond",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Wiley Interdiscip. Rev. RNA"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08449"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "100",
+          "DOI": "10.1021/acssensors.8b00976",
+          "article-title": "Estimating RNA Polymerase Protein Binding Sites on Î» DNA Using Solid-State Nanopores",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "ACS Sensors"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.53"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.09.045"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.02.014"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M802917200"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "9555",
+          "DOI": "10.1021/jacs.8b12444",
+          "article-title": "Sequence-Selective Minor Groove Recognition of a DNA Duplex Containing Synthetic Genetic Components",
+          "volume": "141",
+          "year": "2019",
+          "journal-title": "J. Am. Chem. Soc"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(90)90214-Y"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "6791",
+          "DOI": "10.1021/acs.jpcb.1c00771",
+          "article-title": "The N-Terminal Helix-Turn-Helix Motif of Transcription Factors MarA and Rob Drives DNA Recognition",
+          "volume": "125",
+          "year": "2021",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi990053x"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M112.441451"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(92)90690-L"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0968-0004(89)90145-X"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.17",
+          "first-page": "5484",
+          "volume": "17",
+          "year": "1998",
+          "journal-title": "A Novel Mode of DNA Recognition by a β-Sheet Revealed by the Solution Structure of the GCC-Box Binding Domain in Complex with DNA"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.bi.59.070190.004441"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi7006417"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2028256"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.92.2.344"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1657",
+          "DOI": "10.1021/pr050135+",
+          "article-title": "Insights from Modeling the 3D Structure of DNA - CBF3b Complex",
+          "volume": "4",
+          "year": "2005",
+          "journal-title": "J. Proteome Res"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1995.0559"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2005.01.015"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08473"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1273",
+          "DOI": "10.1021/acssensors.0c00497",
+          "article-title": "Sequence-Specific Recognition ofHIV-1 DNA with Solid-State CRISPR-Cas12a-Assisted Nanopores (SCAN)",
+          "volume": "5",
+          "year": "2020",
+          "journal-title": "ACS Sensors"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(01)00392-6"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/29.13.2860"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.8b00299"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1303",
+          "DOI": "10.1002/prot.26313",
+          "article-title": "Insights into Protein-DNA Interactions from Hydrogen Bond Energy-Based Comparative Protein-Ligand Analyses",
+          "volume": "90",
+          "year": "2022",
+          "journal-title": "Proteins Struct. Funct. Bioinforma"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci500760m"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "5151",
+          "DOI": "10.1021/acs.jpcb.6b12450",
+          "article-title": "Deficiencies in Molecular Dynamics Simulation-Based Prediction of Protein-DNA Binding Free Energy Landscapes",
+          "volume": "121",
+          "year": "2017",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-262"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx272"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.35",
+          "first-page": "665",
+          "volume": "32",
+          "year": "2004",
+          "journal-title": "PDB2PQR: An Automated Pipeline for the Setup of Poisson - Boltzmann Electrostatics Calculations"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.36",
+          "first-page": "522",
+          "volume": "35",
+          "year": "2007",
+          "journal-title": "PDB2PQR: Expanding and Upgrading Automated Preparation ofBiomolecular Structures for Molecular Simulations"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "S13",
+          "DOI": "10.1186/1471-2164-10-S1-S13",
+          "article-title": "PDA: An Automatic and Comprehensive Analysis Program for Protein-DNA Complex Structures",
+          "volume": "10",
+          "year": "2009",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1165"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btg432"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn573"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.3918"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz399"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1585",
+          "DOI": "10.1021/acs.jcim.2c00069",
+          "article-title": "Binary Matrix Method to Enumerate, Hierarchically Order, and Structurally Classify Peptide Aggregation",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "J. Chem. Inf Model"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20291"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1994.1334"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2024072300350640000_2024.07.18.604047v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn573"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.18.604047",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:44:19Z",
+        "timestamp": 1768459459000
+      },
+      "score": 89.199326,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.18.604047"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2024.07.18.604047",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

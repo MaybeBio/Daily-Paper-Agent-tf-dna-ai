@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.21.568098",
+  "title": "AlphaFold-SFA: accelerated sampling of <i>cryptic pocket</i> opening, <i>protein-ligand</i> binding and <i>allostery</i> by AlphaFold, slow feature analysis and metadynamics",
+  "authors": "Shray Vats; Raitis Bobrovs; Pär Söderhjelm; Soumendranath Bhakat",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-21",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AlphaFold构象系综结合慢特征分析与元动力学加速采样蛋白隐性口袋开放和配体结合，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作动态建模。",
+  "abstract": "Sampling rare events in proteins is crucial for comprehending complex phenomena like cryptic pocket opening, where transient structural changes expose new binding sites. Understanding these rare events also sheds light on protein-ligand binding and allosteric communications, where distant site interactions influence protein function. Traditional unbiased molecular dynamics simulations often fail to sample such rare events, as the free energy barrier between metastable states is large relative to the thermal energy. This renders these events inaccessible on the timescales typically simulated by standard molecular dynamics, limiting our understanding of these critical processes. In this paper, we proposed a novel unsupervised learning approach termed as slow feature analysis (SFA) which aims to extract slowly varying features from high-dimensional temporal data. SFA trained on small unbiased molecular dynamics simulations launched from AlphaFold generated conformational ensembles manages to capture rare events governing cryptic pocket opening, protein-ligand binding, and allosteric communications in a kinase. Metadynamics simulations using SFA as collective variables manage to sample ‘deep’ cryptic pocket opening within a few hundreds of nanoseconds which was beyond the reach of microsecond long unbiased molecular dynamics simulations. SFA augmented metadynamics also managed to capture accelerated ligand binding/unbinding and provided novel insights into allosteric communication in receptor-interacting protein kinase 2 (RIPK2) which dictates protein-protein interaction. Taken together, our results show how SFA acts as a dimensionality reduction tool which bridges the gap between AlphaFold, molecular dynamics simulation and metadynamics in context of capturing rare events in biomolecules, extending the scope of structure-based drug discovery in the era of AlphaFold.",
+  "abstract_zh": "在蛋白质中采样稀有事件对于理解复杂现象至关重要，如隐秘口袋开放，其中瞬态结构变化暴露新的结合位点。理解这些稀有事件也有助于阐明蛋白质-配体结合和变构通讯，其中远距离位点相互作用影响蛋白质功能。传统的无偏分子动力学模拟往往无法采样此类稀有事件，因为亚稳态之间的自由能垒相对于热能较大。这使得这些事件在标准分子动力学通常模拟的时间尺度上不可及，限制了我们对这些关键过程的理解。在本文中，我们提出了一种新颖的无监督学习方法，称为慢特征分析 (slow feature analysis, SFA)，旨在从高维时间数据中提取缓慢变化的特征。SFA在由AlphaFold生成的构象系综启动的小型无偏分子动力学模拟上训练，成功捕捉了控制隐秘口袋开放、蛋白质-配体结合以及激酶中变构通讯的稀有事件。使用SFA作为集合变量的元动力学模拟能够在几百纳秒内采样“深层”隐秘口袋开放，这超出了微秒级无偏分子动力学模拟的覆盖范围。SFA增强的元动力学还成功捕捉了加速的配体结合/解离，并为受体相互作用蛋白激酶2 (receptor-interacting protein kinase 2, RIPK2) 中的变构通讯提供了新见解，该通讯调控蛋白质-蛋白质相互作用。综合来看，我们的结果表明SFA作为一种降维工具，在捕捉生物分子稀有事件方面弥合了AlphaFold、分子动力学模拟和元动力学之间的差距，扩展了AlphaFold时代基于结构的药物发现的范畴。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.21.568098",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.21.568098",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.21.568098/index.html"
+}

@@ -1,0 +1,490 @@
+{
+  "identity": {
+    "pmid": "39148095",
+    "doi": "10.1186/s12964-024-01765-w",
+    "title": "Identify truly high-risk TP53-mutated diffuse large B cell lymphoma patients and explore the underlying biological mechanisms."
+  },
+  "content": {
+    "abstract": "TP53 mutation (TP53-mut) correlates with inferior survival in many cancers, whereas its prognostic role in diffuse large B-cell lymphoma (DLBCL) is still in controversy. Therefore, more precise risk stratification needs to be further explored for TP53-mut DLBCL patients. A set of 2637 DLBCL cases from multiple cohorts, was enrolled in our analysis. Among the 2637 DLBCL patients, 14.0% patients (370/2637) had TP53-mut. Since missense mutations account for the vast majority of TP53-mut DLBCL patients, and most non-missense mutations affect the function of the P53 protein, leading to worse survival rates, we distinguished patients with missense mutations. A TP53 missense mutation risk model was constructed based on a 150-combination machine learning computational framework, demonstrating excellent performance in predicting prognosis. Further analysis revealed that patients with high-risk missense mutations are significantly associated with early progression and exhibit dysregulation of multiple immune and metabolic pathways at the transcriptional level. Additionally, the high-risk group showed an absolutely suppressed immune microenvironment. To stratify the entire cohort of TP53-mut DLBCL, we combined clinical characteristics and ultimately constructed the TP53 Prognostic Index (TP53PI) model. In summary, we identified the truly high-risk TP53-mut DLBCL patients and explained this difference at the mutation and transcriptional levels.",
+    "keywords": [
+      "TP53",
+      "Biological mechanism",
+      "Diffuse large B cell lymphoma",
+      "Missense mutation",
+      "Prognostic index"
+    ],
+    "mesh_terms": [
+      "*Lymphoma, Large B-Cell, Diffuse/genetics/pathology",
+      "Humans",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Prognosis",
+      "Mutation, Missense/genetics",
+      "Mutation/genetics",
+      "Tumor Microenvironment/genetics",
+      "Male",
+      "Female",
+      "Risk Factors",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Kai-Xin",
+        "Wu, Yi-Fan",
+        "Hua, Wei",
+        "Duan, Zi-Wen",
+        "Gao, Rui",
+        "Liang, Jun-Heng",
+        "Li, Yue",
+        "Yin, Hua",
+        "Wu, Jia-Zhu",
+        "Shen, Hao-Rui",
+        "Wang, Li",
+        "Shao, Yang",
+        "Li, Jian-Yong",
+        "Liang, Jin-Hua",
+        "Xu, Wei"
+      ],
+      "short_names": [
+        "Du KX",
+        "Wu YF",
+        "Hua W",
+        "Duan ZW",
+        "Gao R",
+        "Liang JH",
+        "Li Y",
+        "Yin H",
+        "Wu JZ",
+        "Shen HR",
+        "Wang L",
+        "Shao Y",
+        "Li JY",
+        "Liang JH",
+        "Xu W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4208-7477"
+      ],
+      "affiliations": [
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Oxford Centre for Diabetes, Endocrinology and Metabolism, University of Oxford, Churchill Hospital, Oxford, OX3 7LE, UK.",
+        "Nanjing Geneseeq Technology Inc, Nanjing, Jiangsu, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Nanjing Geneseeq Technology Inc, Nanjing, Jiangsu, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China. liangjinhua1990@126.com.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China. liangjinhua1990@126.com.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China. liangjinhua1990@126.com.",
+        "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China. xuwei10000@hotmail.com.",
+        "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China. xuwei10000@hotmail.com.",
+        "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China. xuwei10000@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Kai-Xin",
+        "short_name": "Du KX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yi-Fan",
+        "short_name": "Wu YF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Wei",
+        "short_name": "Hua W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Zi-Wen",
+        "short_name": "Duan ZW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Rui",
+        "short_name": "Gao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Oxford Centre for Diabetes, Endocrinology and Metabolism, University of Oxford, Churchill Hospital, Oxford, OX3 7LE, UK."
+        ]
+      },
+      {
+        "full_name": "Liang, Jun-Heng",
+        "short_name": "Liang JH",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Geneseeq Technology Inc, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yue",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Hua",
+        "short_name": "Yin H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jia-Zhu",
+        "short_name": "Wu JZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Hao-Rui",
+        "short_name": "Shen HR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Yang",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Geneseeq Technology Inc, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian-Yong",
+        "short_name": "Li JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Jin-Hua",
+        "short_name": "Liang JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China. liangjinhua1990@126.com.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China. liangjinhua1990@126.com.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China. liangjinhua1990@126.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Wei",
+        "short_name": "Xu W",
+        "identifiers": [
+          "0000-0003-4208-7477"
+        ],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, 210029, China. xuwei10000@hotmail.com.",
+          "Key Laboratory of Hematology, Nanjing Medical University, Nanjing, 210029, China. xuwei10000@hotmail.com.",
+          "Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing, 210029, China. xuwei10000@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2024 Aug 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/16 01:43",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "42602990",
+      "42589948",
+      "42352409",
+      "42126463",
+      "41858121",
+      "41857699",
+      "41783646",
+      "41776568",
+      "41680140",
+      "41665720",
+      "41609884",
+      "41608436",
+      "41584571",
+      "41440512",
+      "41254710",
+      "41222725",
+      "41002558"
+    ],
+    "refs": [
+      "38866760",
+      "38768424",
+      "36841672",
+      "35835991",
+      "35267450",
+      "34260682",
+      "33603488",
+      "33479306",
+      "32355760",
+      "32289277",
+      "32187361",
+      "31991614",
+      "31393560",
+      "30910787",
+      "30523719",
+      "30341162",
+      "29853601",
+      "29713087",
+      "29641966",
+      "29247016",
+      "28985567",
+      "28886379",
+      "27923841",
+      "26589495",
+      "25605792",
+      "25516281",
+      "25385729",
+      "24695404",
+      "24138885",
+      "22955915",
+      "22455463",
+      "22137796",
+      "21947824",
+      "21441466",
+      "20861914",
+      "20736456",
+      "18559976",
+      "18455128",
+      "16199517",
+      "16091454",
+      "12619113",
+      "10676951"
+    ],
+    "similar": [
+      "39148095",
+      "37798292",
+      "36709106",
+      "42054619",
+      "39743256",
+      "42544660",
+      "22955915",
+      "41609884",
+      "41665720",
+      "41002558",
+      "30871527",
+      "34806851",
+      "28791403",
+      "37658234",
+      "34350060",
+      "42317374",
+      "42126463",
+      "40744814",
+      "18559976",
+      "39690539",
+      "34951009",
+      "25704881",
+      "33107145",
+      "27760757",
+      "27825110",
+      "15370252",
+      "32399964",
+      "29734016",
+      "28614910",
+      "35835991",
+      "27101868",
+      "36971051",
+      "28302137",
+      "24722400",
+      "26878872",
+      "40247210",
+      "37366281",
+      "39743255",
+      "34745101",
+      "17050200",
+      "28319526",
+      "37790933",
+      "33414134",
+      "17881637",
+      "42544655",
+      "41310925",
+      "30416077",
+      "42176052",
+      "40216643",
+      "39187692",
+      "40539047",
+      "29126407",
+      "40029433",
+      "41037498",
+      "38643457",
+      "21874232",
+      "34664256",
+      "40633211",
+      "40824493",
+      "40461894",
+      "40744809",
+      "35106936",
+      "35468826",
+      "40866824",
+      "28281555",
+      "28484276",
+      "26717387",
+      "37096512",
+      "28153771",
+      "40847967",
+      "33154093",
+      "12176791",
+      "18706692",
+      "40675955",
+      "23296022",
+      "42141155",
+      "28251968",
+      "38462571",
+      "41498261",
+      "39282821",
+      "12149228",
+      "39612356",
+      "36072582",
+      "39811936",
+      "42071165",
+      "25229255",
+      "30287880",
+      "39538125",
+      "32748433",
+      "31359442",
+      "40198448",
+      "33314730",
+      "36300887",
+      "38457222",
+      "26324762",
+      "41208958",
+      "34482808",
+      "34374220",
+      "37851898",
+      "37032379"
+    ],
+    "review": [
+      "39148095",
+      "42054619"
+    ],
+    "pmc": [
+      "11325619"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-024-01765-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39148095/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

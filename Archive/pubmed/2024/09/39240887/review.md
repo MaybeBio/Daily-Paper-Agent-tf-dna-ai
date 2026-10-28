@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, conclusion, supporting information list)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to provided evidence, and suitability for a general biomedical journal
+- **Shared manuscript claim summary** The authors report an in silico pipeline to identify pathogenic coding and non-coding SNPs in the RTEL1 gene, filtering 1,392 missense SNPs to 11 deleterious variants via 19 bioinformatics tools, and characterize their structural, evolutionary, and functional consequences, including altered DNA binding in molecular docking.
+- **Visible evidence base** Full text of methods and results, tables referenced (Tables 1–7), figures referenced (Figs 1–8), supporting information referenced (S1 Table, S1 Fig)
+- **Missing materials affecting confidence** Tables 1–7, Figures 1–8, S1 Table, and S1 Fig are referenced but not provided; raw SNP lists, tool output scores, and docking result files are not available for independent verification
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic in silico workflow for prioritizing deleterious SNPs in RTEL1, a gene of clinical relevance to telomere biology disorders. The methodological pipeline is extensive and the authors demonstrate familiarity with a broad range of prediction tools. However, the study is entirely computational and descriptive, with no experimental validation. The core claims regarding pathogenicity and functional impact rest on consensus predictions from tools whose limitations are acknowledged but not critically addressed. The absence of all tables and figures in the provided material prevents verification of the quantitative results. The manuscript would benefit from clearer justification of tool selection, a more critical interpretation of consensus filtering, and explicit acknowledgment of the speculative nature of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying telomere biology, dyskeratosis congenita, Hoyeraal-Hreidarsson syndrome, and cancer genetics may find the prioritized SNP list useful as a starting point for experimental studies. Computational biologists developing or benchmarking variant effect prediction pipelines may also be interested in the comparative application of multiple tools. Clinicians involved in genetic diagnosis of telomere disorders could use the findings to inform variant interpretation, though with caution given the lack of experimental validation.
+- **Major strengths** The study applies a large panel of established in silico tools, which reduces reliance on any single predictor. The workflow is clearly structured, progressing from functional prediction to structural modeling, conservation analysis, and docking. The inclusion of non-coding SNPs in the 5' and 3' UTR regions adds a dimension often omitted in similar studies. The authors acknowledge the limitations of computational predictions and appropriately frame the work as hypothesis-generating.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that 11 nsSNPs are "deleterious" and "may significantly impact the RTEL1 protein" based on consensus across multiple in silico tools.
+  - **Evidence pointer** Results sections "Determination of functional consequences" and "Determination of structural impact"; Tables 1 and 2 (not provided)
+  - **Concern** The central claim of pathogenicity rests entirely on computational predictions. The authors do not provide any experimental validation, functional assays, or patient cohort data to support the biological relevance of the identified variants. The consensus approach, while reducing false positives, does not establish true pathogenicity. The manuscript does not discuss the known limitations of these tools in detail, such as their tendency to overpredict deleteriousness for conserved residues or their dependence on training data that may not be representative of RTEL1-specific biology.
+  - **Why it matters** Without experimental evidence, the claim that these SNPs are "pathogenic" or "deleterious" is not established. The manuscript's stated goal of laying groundwork for precision medicine requires a higher standard of evidence than computational consensus alone.
+  - **Resolution test** The authors should either (a) reframe all claims as "predicted deleterious" rather than "deleterious," (b) provide experimental validation such as cell-based assays, telomere length measurements, or DNA repair assays for at least a subset of variants, or (c) clearly state that the findings are hypothesis-generating and require validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and transparency
+  - **Claim pointer** The authors report specific numbers of SNPs identified by each tool and a final set of 43 and then 11 variants, with associated scores and structural predictions.
+  - **Evidence pointer** Results sections throughout; Tables 1–7; S1 Table; S1 Fig (none provided)
+  - **Concern** All quantitative results, including the lists of 43 and 11 SNPs, tool-specific scores, RMSD values, docking scores, and structural validation metrics, are contained in tables and figures that were not provided in the submitted material. This makes it impossible to verify the accuracy of the reported numbers, assess the significance of the structural deviations, or evaluate the quality of the docking results. The manuscript text alone does not contain sufficient quantitative detail to support the claims.
+  - **Why it matters** Reproducibility is a core requirement for scientific publication. Without access to the underlying data, reviewers and readers cannot assess whether the filtering criteria were applied correctly, whether the structural models are reliable, or whether the docking results are meaningful.
+  - **Resolution test** Provide all tables and figures in full, including complete SNP lists with genomic coordinates, tool scores for each variant, RMSD values with statistical significance, and docking scores with confidence intervals. Alternatively, deposit the full dataset in a public repository.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that "43 nsSNPs were filtered out through ten web-based bioinformatics tools" and that these were further reduced to 11 using nine additional tools.
+  - **Evidence pointer** Materials and methods, "Functional impact prediction" and "Structural impact prediction" sections
+  - **Concern** The manuscript does not explain the rationale for the specific combination of tools or the criteria for consensus. It is unclear whether all ten tools had to agree for a variant to be included, or whether a majority vote was used. The selection of 43 from 1,392 and then 11 from 43 appears to be based on an implicit threshold that is not explicitly defined. Additionally, the authors do not discuss the potential for bias introduced by tools that share underlying algorithms or training data.
+  - **Why it matters** The filtering strategy directly determines the final list of variants. Without a clear, pre-specified consensus criterion, the selection process is not reproducible and may introduce arbitrary results.
+  - **Resolution test** Clearly state the consensus rule (e.g., "all ten tools must predict deleterious") and justify the choice of tools, including a discussion of tool independence and complementary strengths. Provide a supplementary table showing the full scoring matrix for all 1,392 variants across all tools.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of docking results
+  - **Claim pointer** The authors claim that F15L, M25V, and G706R show "a striking change in the interaction pattern" with DNA, suggesting "more severe consequences" for protein function.
+  - **Evidence pointer** Results, "Molecular docking" section; Table 7; Fig 8 (not provided)
+  - **Concern** The docking analysis uses a single DNA structure (PDB ID 1W0U) and a single docking algorithm (HDOCK). The authors do not report the docking scores for all mutants in the text, nor do they provide statistical measures of significance. The claim of "striking change" is qualitative and not supported by quantitative comparisons. Furthermore, the biological relevance of the docking results is unclear, as the HHD2 domain is only one of several functional domains in RTEL1, and the authors do not discuss whether the identified binding interface is physiologically relevant.
+  - **Why it matters** The docking results are used to differentiate between variants with "more severe" consequences. Without quantitative rigor and biological context, this differentiation is not supported.
+  - **Resolution test** Provide docking scores for all 12 complexes (wild type and 11 mutants) with measures of variance, and discuss the biological relevance of the HHD2-DNA interface in the context of RTEL1 function. Consider using multiple docking algorithms or molecular dynamics simulations to validate the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "no comprehensive investigation has yet been conducted on missense mutations" in RTEL1, which is a strong claim that is not supported by the literature review presented in the introduction.
+  - **Required correction** Soften the claim to "no comprehensive in silico investigation has been reported" or provide a more thorough literature search to support the statement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Results, "Assessment of RTEL1 protein structure" section
+  - **Evidence pointer** Results, first paragraph
+  - **Issue** The Ramachandran plot statistics are reported as percentages that sum to more than 100% (93.7% favored, 10.9% additional allowed, 2.0% generously allowed, 3.4% disallowed). This is likely because the categories overlap or the values are from different validation runs, but the presentation is confusing.
+  - **Required correction** Clarify whether these are overlapping categories or provide the correct non-overlapping percentages.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Data retrieval" section
+  - **Evidence pointer** Materials and methods, first paragraph
+  - **Issue** The authors state that SNP data were retrieved from NCBI dbSNP, ClinVar, and DisGeNET, but they do not specify the genome build (GRCh37 vs. GRCh38) for the ClinVar and DisGeNET data, nor do they describe how duplicates and conflicting annotations were resolved.
+  - **Required correction** Specify the genome build for all data sources and describe the data harmonization process.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 4
+  - **Evidence pointer** Discussion, "Additionally, mutations in cancer tissues tend to form clusters in specific positions of protein"
+  - **Issue** The authors cite this statement without a reference, and the relevance to the current study is not clearly articulated. The cluster identified by Mutation3D contains four variants, but the authors do not discuss whether this cluster corresponds to a known functional domain or hotspot.
+  - **Required correction** Add a reference for the clustering claim and discuss the functional significance of the identified cluster in the context of RTEL1 structure and function.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections
+  - **Issue** The manuscript contains several instances of awkward phrasing and grammatical errors (e.g., "the other nSNPs" in Table 2 description, "the advancement of precision medicine and other treatment modalities" in the abstract).
+  - **Required correction** Thorough language editing is recommended to improve readability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation for pathogenicity claims), R1-M2 (missing data tables and figures), R1-M3 (unclear consensus criteria), R1-M4 (insufficient quantitative rigor in docking analysis)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of a multi-tool in silico pipeline to RTEL1 is novel in its specific focus, but the approach is well-established in the literature. Scientific importance: Limited. The findings are hypothesis-generating but do not provide new biological insights into RTEL1 function or disease mechanisms. Interdisciplinary readership: Narrow. The study is primarily of interest to computational biologists and researchers in telomere biology. Technical soundness: The methodology is generally sound but lacks transparency in the filtering criteria and quantitative reporting. Readability for nonspecialists: The manuscript is accessible but would benefit from clearer explanations of the significance of the findings for clinical applications.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable computational workflow, but the central claims of pathogenicity are not supported by experimental data, and the absence of all quantitative results prevents verification. Major revisions are required, including reframing of claims, provision of all data, and clarification of methods.
+
+## Risk / unsupported claims
+- The claim that 11 nsSNPs are "deleterious" and "may significantly impact the RTEL1 protein" is unsupported without experimental validation.
+- The claim that F15L, M25V, and G706R have "more severe consequences" based on docking analysis is unsupported due to lack of quantitative rigor.
+- The claim that the study "lays the groundwork for extensive analysis of RTEL1 gene variants in the future, along with the advancement of precision medicine" is overstated given the purely computational nature of the work.
+- The statement that "no comprehensive in silico investigation has yet been conducted on missense mutations" in RTEL1 is not verifiable from the provided literature review.
+- The clinical relevance of the identified non-coding SNPs, particularly rs2297441 and its interaction with hsa-miR-615-3p, is speculative and not supported by functional data.

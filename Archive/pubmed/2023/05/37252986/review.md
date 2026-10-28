@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including Significance, Results, Discussion, and Materials and Methods sections, as provided.
+- **Assessment boundary** Assessment is limited to the content of the provided manuscript text. Supplementary figures, tables, and appendices are referenced but not directly evaluated.
+- **Shared manuscript claim summary** The manuscript reports that PRC2, a histone methyltransferase, can undergo direct transfer between G-quadruplex (G4) RNA and double-stranded DNA (dsDNA) without a free-enzyme intermediate. The authors propose that this mechanism reconciles conflicting prior observations regarding RNA's role in PRC2 regulation, and they extend this model to suggest that direct transfer may be a general requirement for RNA-mediated recruitment of chromatin-associated proteins to chromatin.
+- **Visible evidence base** The evidence base includes fluorescence polarization (FP)-based binding and competitive dissociation experiments, ionic strength dependence measurements, and computational simulations of reaction schemes and single-molecule dynamics. Specific data are presented in Figures 1–3, Table 1, and referenced Supplementary Figures S1–S11.
+- **Missing materials affecting confidence** The following materials are referenced but not provided for evaluation: Supplementary Figures S1–S11, Supplementary Tables S1–S2, Supplementary Equations S2–S7, and the full Supplementary Materials and Methods. Additionally, the manuscript text does not include full experimental details for the single-molecule dynamics simulations, and the raw data underlying the figures are not available in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a biophysical investigation into the mechanism of PRC2 transfer between RNA and DNA, with implications for understanding RNA-mediated regulation of chromatin modifiers. The experimental design is thoughtful, and the observation of competitor-concentration-dependent dissociation kinetics is a compelling indicator of direct transfer. The computational modeling provides a useful framework for reconciling contradictory literature findings. However, the manuscript's central claims extend beyond the direct experimental evidence, and several aspects of the modeling and interpretation require further scrutiny. The significance of the work is potentially high, but the strength of the conclusions is limited by the indirect nature of some evidence and the lack of in vivo validation.
+- **Who would be interested in the results, and why** Researchers studying PRC2 biology, chromatin regulation, RNA-protein interactions, and the role of non-coding RNA in gene expression would find this work of interest. The proposed direct transfer mechanism has broad implications for understanding how RNA-binding chromatin modifiers are recruited to and regulated at chromatin, which is a topic of active investigation in epigenetics and gene regulation. The findings may also be relevant to those studying the biophysics of protein-nucleic acid interactions.
+- **Major strengths**
+  1. The identification of competitor-concentration-dependent dissociation kinetics is a rigorous and convincing experimental approach to demonstrate direct transfer, and the authors carefully rule out alternative explanations through control experiments.
+  2. The reconciliation of contradictory prior findings regarding RNA's role in PRC2 regulation is a valuable conceptual contribution, and the computational model provides a testable framework.
+  3. The extension of the direct transfer concept to other chromatin-associated proteins, including the distinction between competitive and independent binding modes, is a thought-provoking and potentially impactful generalization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for in vivo relevance
+  - **Claim pointer** The manuscript claims that the direct transfer mechanism "reconciles" prior in vitro and in vivo findings and proposes that RNA can facilitate PRC2 HMTase activity under physiological conditions.
+  - **Evidence pointer** Results section "Modeling Suggests the PRC2 Direct Transfer Mechanism Allows RNA-Mediated Recruitment to Nucleosomes"; Discussion section "Implications for PRC2 Biology"
+  - **Concern** The computational model relies on a tuning parameter (α) for effective molarity, which the authors acknowledge is not experimentally constrained. The claim that RNA can be synergistic under high α values is entirely dependent on this unconstrained parameter. While the model is useful for generating hypotheses, it does not provide direct evidence that such conditions exist in vivo. The manuscript would be strengthened by a more explicit acknowledgment of the speculative nature of this extrapolation and by a discussion of what experimental evidence would be needed to validate the model's predictions.
+  - **Why it matters** The central claim of reconciling contradictory literature hinges on the model's predictions. Without experimental validation of the α parameter or direct evidence of RNA-mediated recruitment via direct transfer in cells, the reconciliation remains hypothetical. This limits the strength of the manuscript's main conclusion.
+  - **Resolution test** The authors should either provide experimental evidence supporting the model's predictions (e.g., using a separation-of-function mutant or manipulating RNA-nucleosome proximity in a controlled system) or substantially temper the claims regarding in vivo relevance, clearly distinguishing between demonstrated biochemistry and speculative modeling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the direct transfer mechanism
+  - **Claim pointer** The manuscript claims that "direct transfer may be generally required for RNA recruitment of proteins to chromatin" and extends this to both competitive (PRC2-like) and independent (YY1-like) binding systems.
+  - **Evidence pointer** Results section "Direct Transfer May Be Generally Required for RNA Recruitment of Chromatin-Associated Proteins"; Discussion section "Implications for Other Chromatin Modifiers"
+  - **Concern** The generalization to other chromatin-associated proteins is based on simulations using parameters that are not experimentally derived for those systems. The YY1 example is used as a case study, but the simulations rely on assumed rate constants and binding affinities. The claim of generality is therefore not strongly supported by the data presented. The authors should clarify that this is a hypothesis-generating framework rather than a demonstrated general principle.
+  - **Why it matters** The title and significance statement imply a broad applicability of the findings. If the generality claim is overstated, it could mislead readers into assuming the mechanism applies to systems where it has not been tested. A more cautious framing would be more scientifically accurate.
+  - **Resolution test** The authors should either provide experimental evidence for direct transfer in at least one additional chromatin-associated protein system or revise the claims to clearly state that the generality is a hypothesis based on modeling, not an experimentally established fact.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of experimental validation
+  - **Claim pointer** The manuscript claims that direct transfer occurs between G4 RNA and dsDNA, and that this is biologically relevant.
+  - **Evidence pointer** Results section "PRC2 Exhibits Direct Transfer Between G4 RNA and dsDNA"; Table 1
+  - **Concern** The experiments are performed with purified components in vitro. While this is appropriate for establishing the biochemical mechanism, the manuscript does not include any experiments with nucleosomes, despite the claim that dsDNA is representative of nucleosome binding. The authors argue that prior studies show PRC2's nucleosome affinity is mediated by exposed linker DNA, but this is an indirect justification. Direct demonstration of transfer between G4 RNA and nucleosomes would substantially strengthen the biological relevance of the findings.
+  - **Why it matters** The manuscript's significance statement emphasizes implications for chromatin regulation. Without direct evidence that the transfer mechanism operates with nucleosomes, the leap from dsDNA to chromatin is not fully supported.
+  - **Resolution test** The authors should either perform experiments with nucleosome substrates or clearly state that the relevance to nucleosomes is inferred, not directly demonstrated, and discuss the potential limitations of this inference.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model parameterization
+  - **Affected element** Computational simulations
+  - **Evidence pointer** Materials and Methods section "PRC2 Reaction Scheme Simulations"
+  - **Issue** The description of the model parameterization is brief, and the rationale for choosing specific parameter values (beyond those taken from Table 1) is not fully explained. The sensitivity of the results to parameter choices is not discussed.
+  - **Required correction** Provide a more detailed description of the model, including a sensitivity analysis or a discussion of how the results depend on the chosen parameters. This would increase confidence in the robustness of the model's conclusions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Ionic strength dependence data
+  - **Evidence pointer** Results section "PRC2 May Have Additional Electrostatic Contacts with dsDNA Not Utilized for G4 RNA"; Figure 3
+  - **Issue** The manuscript reports slopes and intercepts with standard errors but does not provide confidence intervals or p-values for the comparisons between G4 RNA and dsDNA. The conclusion that the slopes are significantly different is not statistically substantiated.
+  - **Required correction** Provide statistical tests (e.g., a test for equality of slopes) to support the claim that the ionic strength dependence differs between G4 RNA and dsDNA.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Biophysical mechanism section
+  - **Evidence pointer** Discussion section "Biophysical Mechanism for Direct Transfer"
+  - **Issue** The discussion of the mechanism focuses on a shared-contacts model but does not thoroughly consider alternative explanations, such as conformational changes induced by RNA binding that allosterically affect DNA binding, or the possibility of a "hopping" mechanism where the protein remains partially bound to one ligand while engaging the other.
+  - **Required correction** Expand the discussion to consider and evaluate alternative mechanistic models, even if only to argue why the shared-contacts model is preferred.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Significance
+  - **Evidence pointer** Significance section
+  - **Issue** The significance statement assumes familiarity with the PRC2 field and the specific controversy being addressed. A reader outside the field may struggle to understand why the reconciliation of in vitro and in vivo findings is important.
+  - **Required correction** Briefly explain the nature of the controversy and why resolving it is important for understanding chromatin regulation in a way that is accessible to a broader scientific audience.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The in vivo relevance of the direct transfer mechanism is not experimentally supported; the model's predictions depend on an unconstrained parameter.
+  - R1-M2: The claim of generalizability to other chromatin-associated proteins is not supported by direct experimental evidence.
+  - R1-M3: The relevance to nucleosomes is inferred from dsDNA experiments, not directly demonstrated.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of direct transfer between RNA and DNA on a chromatin modifier is novel and not previously described for PRC2. The idea that this mechanism could reconcile contradictory findings is creative and potentially impactful.
+  - **Scientific importance** The question of how RNA regulates chromatin modifiers is of significant importance in epigenetics and gene regulation. If the direct transfer mechanism is validated in vivo, it could change the understanding of RNA-mediated chromatin regulation. However, the current evidence is primarily in vitro and computational, limiting the immediate impact.
+  - **Interdisciplinary readership** The work bridges biochemistry, biophysics, and chromatin biology. The findings would be of interest to researchers in these fields, but the specialized nature of the topic may limit broader interdisciplinary appeal.
+  - **Technical soundness** The experimental design is generally sound, and the use of FP-based assays is appropriate. The computational modeling is a useful addition, but the lack of experimental constraints on key parameters is a weakness. The statistical reporting could be improved.
+  - **Readability for nonspecialists** The manuscript is clearly written for a specialist audience. The significance statement and introduction assume familiarity with PRC2 biology and the specific controversies in the field. The writing is technically precise but may be challenging for nonspecialists to follow.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core biochemical observation of direct transfer is interesting and well-supported. However, the manuscript's broader claims regarding in vivo relevance and generalizability are not currently established from the provided evidence. The authors should either provide additional experimental support or substantially temper these claims. The manuscript would be suitable for publication in a specialized journal, but the strength of the conclusions needs to be aligned with the evidence presented.

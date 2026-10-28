@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.28.454268",
+  "title": "Construction of transcript regulation mechanism prediction models based on binding motif environment of transcription factor AoXlnR in <i>Aspergillus oryzae</i>",
+  "authors": "Hiroya Oka; Takaaki Kojima; Ryuji Kato; Kunio Ihara; Hideo Nakano",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-29",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用AoXlnR结合基序周围的DNA三维形状信息，通过支持向量机构建模型预测TF结合位点是否调控下游基因表达，属于TF-DNA互作的功能性预测，但未涉及三维复合物建模或动态机制，方法为传统机器学习。",
+  "abstract": "Recent study revealed that there are thousands of genes that remain unaffected by increased AoXlnR expression, despite the presence of one or more AoXlnR-binding motifs in their promoter region. Given this knowledge, we designed this study to construct several predictive models for determining whether a gene can exhibit a differential response to changes in AoXlnR expression. These models were constructed using 3D DNA shape information determined using the sequence around the AoXlnR binding motifs with classification as functional or nonfunctional. These models were created using a support vector machine followed by the evaluations designed to determine whether these DNA shape-based models can correctly classify functional motifs in terms of area under the receiver operating characteristic curve. The results showed that the differential expression levels of genes located downstream of the AoXlnR motif are closely related to specific DNA shape information around the binding motifs. Furthermore, we found that the parameters contributing to differential expressions differed depending on the number of motifs in the promoter region by comparing the prediction models using regions with only one binding DNA motif and those with multiple binding DNA motifs. Author Summary DNA-binding transcription factors (TFs) play a central role in transcriptional regulation mechanisms, mainly through their specific binding to target sites on the genome and regulation of the expression of downstream genes. Therefore, a comprehensive analysis of the function of these TFs will lead to the understanding of various biological mechanisms. However, the functions of TFs in vivo are diverse and complicated, and the identified binding sites on the genome are not necessarily involved in the regulation of downstream gene expression. In this study, we investigated whether DNA structural information around the binding site of transcription factors can be used to predict the involvement of the binding site in the regulation of the expression of genes located downstream of the binding site. Specifically, we calculated the structural parameters based on the DNA shape around the DNA binding motif located upstream of the gene whose expression is directly regulated by the transcription factor AoXlnR from Aspergillus oryzae , and showed that the presence or absence of expression regulation can be predicted from the sequence information with high accuracy by machine learning incorporating these parameters.",
+  "abstract_zh": "近期研究揭示，尽管存在一个或多个AoXlnR结合基序于启动子区域，仍有数千个基因不受AoXlnR表达增加的影响。基于此认识，我们设计本研究以构建若干预测模型，用于判断基因是否会对AoXlnR表达变化表现出差异响应。这些模型利用AoXlnR结合基序周围序列确定的3D DNA形状信息构建，并将基序分类为功能性或非功能性。模型采用支持向量机创建，随后通过设计评估以确定这些基于DNA形状的模型能否在受试者工作特征曲线下面积方面正确分类功能性基序。结果表明，位于AoXlnR基序下游的基因差异表达水平与结合基序周围的特定DNA形状信息密切相关。此外，通过比较仅含一个结合DNA基序区域与含多个结合DNA基序区域的预测模型，我们发现促成差异表达的参数因启动子区域基序数量不同而异。作者摘要 DNA结合转录因子（TFs）在转录调控机制中发挥核心作用，主要通过其与基因组上靶位点的特异性结合及对下游基因表达的调控。因此，对这些转录因子功能的全面分析将有助于理解各种生物机制。然而，转录因子在体内的功能多样且复杂，已识别的基因组结合位点不一定参与下游基因表达的调控。在本研究中，我们探讨了转录因子结合位点周围的DNA结构信息是否可用于预测该结合位点参与调控其下游基因表达的情况。具体而言，我们基于曲霉（Aspergillus oryzae）中受转录因子AoXlnR直接调控的基因上游DNA结合基序周围的DNA形状计算结构参数，并表明通过结合这些参数的机器学习，可从序列信息高精度预测表达调控的存在与否。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.28.454268",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.28.454268",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.28.454268/index.html"
+}

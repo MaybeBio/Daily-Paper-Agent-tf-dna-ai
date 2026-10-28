@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and methods, Results and discussion, Conclusions) with supplementary information referenced but not provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to the evidence presented, and clarity of reporting. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors apply an ECOD-guided pipeline combining AlphaFold3 modeling and molecular dynamics simulation to predict off-target interactions for two approved drugs, Seladelpar and Zanamivir. For Seladelpar, the three top-ranked off-target candidates (FXR, RARγ, ERRγ) were experimentally tested and showed no functional activity, despite stable simulations and trajectory metrics comparable to the on-target control. The authors conclude that global trajectory descriptors capture complex stability but not functional engagement, and that distinguishing off-targets from false positives may require residue-level structural comparison with experimental agonist-bound structures.
+- **Visible evidence base** Main text figures (Figs. 1-8), Tables 1-3, and descriptions of experimental assays. Supplementary figures and tables are referenced but not available for review.
+- **Missing materials affecting confidence** All supplementary information (Supplementary Figs. 1-13, Supplementary Tables 1-5), raw trajectory data, AlphaFold3 model confidence scores, full standardized feature matrix, and experimental assay raw data. These are essential for verifying several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in computational drug off-target prediction: whether stable molecular dynamics simulations of predicted drug-protein complexes imply functional engagement. The study design is logical, combining structure-based candidate selection, state-of-the-art modeling, and experimental validation. The negative result for the three top-ranked Seladelpar candidates is clearly reported and the authors appropriately acknowledge limitations. However, several methodological concerns and missing details prevent full confidence in the conclusions as stated. The claim that "stable simulations do not guarantee functional engagement" is supported by the data, but the broader implications for the pipeline's utility are less clear given the small number of experimentally tested candidates and the absence of positive controls in the same framework.
+- **Who would be interested in the results, and why** Computational chemists, structural biologists, and drug discovery researchers using AlphaFold3 or MD-based approaches for off-target prediction or target identification. The cautionary message about interpreting trajectory stability as functional relevance is relevant to anyone applying similar pipelines. The structural comparison between predicted and experimental binding modes (Figs. 7-8) will interest researchers working on nuclear receptor ligand design.
+- **Major strengths** 1) The study addresses a real and underappreciated problem: stable MD simulations of predicted complexes may not indicate biological relevance. 2) The use of ECOD for systematic candidate selection is well justified and reproducible. 3) The inclusion of weak-positive controls (PPARα, PPARγ) is a thoughtful design element. 4) The structural analysis of predicted versus experimental binding modes provides a plausible mechanistic explanation for the negative results. 5) The authors are appropriately cautious in their conclusions and acknowledge limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation scope
+  - **Claim pointer** The authors state that "None of the three top-ranked nuclear receptor candidates (FXR, RARγ, and ERRγ) showed measurable functional activity" and use this to conclude that the trajectory-based ranking failed to identify functional off-targets.
+  - **Evidence pointer** Section "Experimental validation of predicted Seladelpar off targets", Figs. 4-5, Table 3
+  - **Concern** Only three candidates were experimentally tested, all from a single drug system (Seladelpar). No positive control was tested within the same pipeline to demonstrate that the method can successfully identify a known off-target. The weak-positive comparators (PPARα, PPARγ) were not tested in the same reporter assays, so their "weak positive" status is based on literature values rather than the same experimental framework. This limits the strength of the conclusion that the pipeline fails to distinguish off-targets from false positives.
+  - **Why it matters** Without a demonstrated positive control in the same experimental system, the negative results could reflect assay insensitivity or the specific candidates chosen rather than a fundamental limitation of the trajectory-based approach. The conclusion that the descriptors "did not separate binding modes that support receptor activation from those that do not" is stronger than the evidence supports.
+  - **Resolution test** The authors should either (a) test a known positive off-target (e.g., PPARα or PPARγ) in the same reporter assays to demonstrate the assay can detect weak activation, or (b) temper the conclusion to state that the approach did not identify functional off-targets among the three tested candidates, without generalizing to the method's overall utility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of ranking
+  - **Claim pointer** The authors rank candidates by Euclidean distance to the control in a 50-dimensional standardized feature space and state that "the members placed nearest the control are also those least reproducible between replicates."
+  - **Evidence pointer** Section "Clustering of complexes by trajectory-derived features", Table 3, Supplementary Table 1
+  - **Concern** The manuscript reports that the two control replicates are separated by 4.58 units, which exceeds the distance from the control to the closest-ranked candidate (3.80). This means the ranking cannot resolve differences smaller than the replicate variability, yet the authors still selected the three closest candidates for experimental testing. The statistical significance of the ranking is not assessed. No confidence intervals, permutation tests, or other uncertainty quantification are provided for the distances. The claim that replicate variability undermines the ranking is acknowledged but not quantitatively addressed.
+  - **Why it matters** If the ranking is not statistically robust, the selection of candidates for experimental testing may be arbitrary, and the negative results may not reflect a failure of the trajectory-based approach but rather the selection of candidates that were not meaningfully distinguishable from the control in the first place.
+  - **Resolution test** Provide a statistical framework for the ranking, such as bootstrap confidence intervals on the distances, a permutation test for whether the closest candidates are significantly closer than random, or a formal assessment of whether the ranking is informative given the observed replicate variability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation length and sampling
+  - **Claim pointer** The authors state that "a stable trajectory, a low RMSD and a reasonable hydrogen-bond count tell us that the predicted complex holds together, not that it is functionally engaged."
+  - **Evidence pointer** Section "AlphaFold3 modelling and molecular dynamics simulation protocol", Section "Clustering of complexes by trajectory-derived features"
+  - **Concern** Each complex was simulated for 30 ns from two independent AlphaFold3 models. This is a short simulation time for assessing binding stability, particularly for nuclear receptor ligand-binding domains where conformational changes associated with activation can occur on longer timescales. The authors justify this by comparing 30 ns and 100 ns trajectories for PPARα and PPARγ, but this comparison is limited to two complexes and does not establish that 30 ns is sufficient for the off-target candidates.
+  - **Why it matters** The central conclusion is that stable simulations do not imply functional engagement. However, if the simulations are too short to capture relevant conformational dynamics, the conclusion may be an artifact of insufficient sampling rather than a fundamental limitation of trajectory-based descriptors.
+  - **Resolution test** Either extend simulations for the tested candidates to longer timescales (e.g., 100-200 ns) to confirm stability, or provide additional evidence that 30 ns is sufficient to capture the relevant dynamics for these systems (e.g., convergence analysis of the descriptors used).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors state that "the specific interaction that defines FXR agonism is replaced by a different set of contacts that the receptor does not use in its binding with the known agonist GW4064" and similar for RARγ and ERRγ.
+  - **Evidence pointer** Section "AlphaFold3-predicted binding modes diverge from canonical agonist binding", Fig. 7
+  - **Concern** The structural comparison relies on visual inspection of hydrogen bonds and residue contacts. No quantitative metrics (e.g., interaction energy calculations, contact occupancy over the trajectory, or shape complementarity scores) are provided to support the claim that the predicted binding modes are incompatible with activation. The statement that the AF3 model "reproduced only part of the canonical activating contacts" is qualitative.
+  - **Why it matters** The structural explanation is the most compelling part of the manuscript, but without quantitative support, it remains suggestive rather than demonstrative. The claim that "distinguishing off-targets from false positives may require residue-level structural comparison" would be strengthened by a more rigorous structural analysis.
+  - **Resolution test** Provide quantitative measures of interaction similarity between predicted and experimental binding modes, such as per-residue contact maps, interaction energy decomposition, or hydrogen bond occupancy over the simulation trajectories.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Methods section, AlphaFold3 modeling
+  - **Evidence pointer** Section "AlphaFold3 modelling and molecular dynamics simulation protocol"
+  - **Issue** The manuscript states that AlphaFold3 was run with "the default parameter set" and "a single random seed," but does not specify which AlphaFold3 version's defaults were used or how the five predicted samples were ranked. The ranking score is mentioned for PPARγ but not defined.
+  - **Required correction** Provide the AlphaFold3 version, the specific ranking metric used, and clarify whether the two highest-ranked models were selected based on the AlphaFold3 ranking score or another criterion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, reporter assays
+  - **Evidence pointer** Section "Experimental validation of predicted Seladelpar off targets", Figs. 4-5
+  - **Issue** The reporter assay results are described qualitatively ("did not rise above the negative control"). No numerical data, error bars, or statistical tests are reported in the main text.
+  - **Required correction** Report the actual RLU values, fold changes relative to control, and any statistical comparisons (e.g., ANOVA or t-tests) for the reporter assay data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section, thermal shift assays
+  - **Evidence pointer** Section "Experimental validation of predicted Seladelpar off targets", Fig. 6
+  - **Issue** The thermal shift assay is described for FXR, but no details are given for the RARγ failure to produce a melting transition. The conditions tested are not specified.
+  - **Required correction** Describe the range of conditions attempted for RARγ and the criteria used to determine that no usable melting transition was obtained.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of hydrogen bond counts
+  - **Affected element** Results section, clustering analysis
+  - **Evidence pointer** Section "Clustering of complexes by trajectory-derived features", Supplementary Fig. 6
+  - **Issue** The authors note that hydrogen bond counts fluctuated by up to ~35% between 30 ns and 100 ns windows but state this "showed no systematic drift." This is a large fluctuation for a key descriptor and deserves more discussion.
+  - **Required correction** Provide a more detailed analysis of the hydrogen bond fluctuations, including whether they affect the ranking of candidates, and discuss the implications for the reliability of this descriptor.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Conclusions
+  - **Evidence pointer** Section "Conclusions"
+  - **Issue** The title and conclusions make a general claim ("Stable simulations do not guarantee functional engagement") based on a single drug system with three tested candidates.
+  - **Required correction** Qualify the title or conclusions to reflect the scope of the evidence, e.g., "in this case study" or "for the systems examined here."
+
+## Risk / unsupported claims
+- The claim that the trajectory-based ranking "failed" to identify functional off-targets is not fully supported because no positive control was tested in the same experimental framework.
+- The claim that "distinguishing off-targets from false positives may require residue-level structural comparison" is plausible but not demonstrated as necessary, since only three candidates were tested and the structural analysis was qualitative.
+- The statement that "the difficulty is a property of the target rather than of a single prediction method" (regarding PPARγ pose prediction) is based on only two methods (AlphaFold3 and Boltz-2) and one target; this is too broad a generalization.
+- The assertion that 30 ns simulations are sufficient to characterize the complexes is supported only by comparison with 100 ns for two complexes (PPARα, PPARγ) and specific descriptors; this may not generalize to the off-target candidates.
+- The claim that "no individual descriptor separated the control cleanly" is based on visual inspection of ranges and is not supported by statistical testing.
+- The thermal shift data for FXR (ΔTm of 0.3 °C) is presented as evidence of no binding, but the significance threshold for a positive result is not defined.
+- The manuscript states that "the two independent models of the control differed from each other more than the control differed from its closest-ranked candidate," which undermines the ranking, but the authors still selected candidates based on this ranking without addressing this issue in the selection criteria.

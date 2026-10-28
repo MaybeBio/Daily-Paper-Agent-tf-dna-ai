@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "37370113",
+    "doi": "10.1186/s13059-023-02985-y",
+    "title": "ExplaiNN: interpretable and transparent neural networks for genomics."
+  },
+  "content": {
+    "abstract": "Deep learning models such as convolutional neural networks (CNNs) excel in genomic tasks but lack interpretability. We introduce ExplaiNN, which combines the expressiveness of CNNs with the interpretability of linear models. ExplaiNN can predict TF binding, chromatin accessibility, and de novo motifs, achieving performance comparable to state-of-the-art methods. Its predictions are transparent, providing global (cell state level) as well as local (individual sequence level) biological insights into the data. ExplaiNN can serve as a plug-and-play platform for pretrained models and annotated position weight matrices. ExplaiNN aims to accelerate the adoption of deep learning in genomic sequence analysis by domain experts.",
+    "keywords": [
+      "Deep learning",
+      "Explainable artificial intelligence",
+      "Gene regulation",
+      "Genomics",
+      "Model interpretation",
+      "Transcription factors"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "*Genomics/methods",
+      "Chromatin/genetics",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Novakovsky, Gherman",
+        "Fornes, Oriol",
+        "Saraswat, Manu",
+        "Mostafavi, Sara",
+        "Wasserman, Wyeth W"
+      ],
+      "short_names": [
+        "Novakovsky G",
+        "Fornes O",
+        "Saraswat M",
+        "Mostafavi S",
+        "Wasserman WW"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7089-5941",
+        "ORCID: 0000-0002-5969-3054",
+        "ORCID: 0000-0002-1472-8049",
+        "ORCID: 0000-0003-4698-1177",
+        "ORCID: 0000-0001-6098-6412"
+      ],
+      "affiliations": [
+        "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada.",
+        "Division of Computational Genomics and Systems Genetics, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington (UW), Seattle, USA.",
+        "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada. wyeth@cmmt.ubc.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Novakovsky, Gherman",
+        "short_name": "Novakovsky G",
+        "identifiers": [
+          "0000-0002-7089-5941"
+        ],
+        "affiliations": [
+          "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Fornes, Oriol",
+        "short_name": "Fornes O",
+        "identifiers": [
+          "0000-0002-5969-3054"
+        ],
+        "affiliations": [
+          "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Saraswat, Manu",
+        "short_name": "Saraswat M",
+        "identifiers": [
+          "0000-0002-1472-8049"
+        ],
+        "affiliations": [
+          "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada.",
+          "Division of Computational Genomics and Systems Genetics, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Mostafavi, Sara",
+        "short_name": "Mostafavi S",
+        "identifiers": [
+          "0000-0003-4698-1177"
+        ],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington (UW), Seattle, USA."
+        ]
+      },
+      {
+        "full_name": "Wasserman, Wyeth W",
+        "short_name": "Wasserman WW",
+        "identifiers": [
+          "0000-0001-6098-6412"
+        ],
+        "affiliations": [
+          "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada. wyeth@cmmt.ubc.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2023 Jun 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/28 01:06",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "42629596",
+      "42599963",
+      "42509822",
+      "42509369",
+      "42490893",
+      "42371957",
+      "42148149",
+      "42135287",
+      "41964737",
+      "41325984",
+      "41203846",
+      "41094274",
+      "41022589",
+      "41009770",
+      "40784938",
+      "40709306",
+      "40698144",
+      "40360798",
+      "39994035",
+      "39862604",
+      "39747934",
+      "39605729",
+      "39605530",
+      "38889275",
+      "38588559",
+      "38175786",
+      "37971293",
+      "37962376",
+      "37935654",
+      "37809068",
+      "37387140",
+      "37173718",
+      "36747873",
+      "36662884"
+    ],
+    "refs": [
+      "36662884",
+      "36192604",
+      "35603010",
+      "35551305",
+      "35544234",
+      "35475224",
+      "35238376",
+      "35132262",
+      "34673265",
+      "34620190",
+      "34615872",
+      "34608324",
+      "34579793",
+      "34322657",
+      "33795864",
+      "33760053",
+      "33381817",
+      "33135764",
+      "33046897",
+      "32978299",
+      "32946061",
+      "32939066",
+      "32905524",
+      "32433972",
+      "32393327",
+      "31856220",
+      "31701148",
+      "30971806",
+      "30696980",
+      "30109749",
+      "30013180",
+      "29790915",
+      "29786094",
+      "29588361",
+      "29126285",
+      "28825706",
+      "28473536",
+      "28092692",
+      "27197224",
+      "27084946",
+      "26424495",
+      "26301843",
+      "26213851",
+      "25948244",
+      "25779349",
+      "25378322",
+      "24097267",
+      "24057214",
+      "23812095",
+      "23354101",
+      "23243601",
+      "20736340",
+      "20110278",
+      "19304878",
+      "18806934",
+      "17540862",
+      "17440452",
+      "17324271",
+      "16998473",
+      "12717433",
+      "11242107",
+      "10812473",
+      "9571041"
+    ],
+    "similar": [
+      "37370113",
+      "33983921",
+      "34020542",
+      "33706810",
+      "39293804",
+      "37796983",
+      "35396274",
+      "31856220",
+      "35191481",
+      "35361122",
+      "35839250",
+      "30423062",
+      "36041281",
+      "37598467",
+      "38177723",
+      "37821530",
+      "33894501",
+      "29931149",
+      "36140783",
+      "32746932",
+      "32804365",
+      "29069282",
+      "35941239",
+      "37161475",
+      "33259518",
+      "37127596",
+      "37387140",
+      "33765601",
+      "36863192",
+      "36705906",
+      "34891095",
+      "29722865",
+      "34303169",
+      "37143118",
+      "32938377",
+      "35325548",
+      "30918943",
+      "35715734",
+      "39090688",
+      "38039896",
+      "35924336",
+      "35362172",
+      "34219140",
+      "32127534",
+      "29860027",
+      "27490187",
+      "33832990",
+      "33290209",
+      "32770026",
+      "30971806",
+      "34978201",
+      "34848042",
+      "34252964",
+      "35293310",
+      "28245811",
+      "35945568",
+      "35460019",
+      "31093705",
+      "25439765",
+      "35780100",
+      "33125335",
+      "31284419",
+      "34520937",
+      "29993783",
+      "30768156",
+      "31810005",
+      "33347301",
+      "35704992",
+      "38553160",
+      "38013993",
+      "33836375",
+      "38176132",
+      "37177616",
+      "33581335",
+      "32696716",
+      "34741890",
+      "35421857",
+      "31416547",
+      "35676395",
+      "32789670",
+      "33046896",
+      "27197224",
+      "36192604",
+      "33606264",
+      "30040625",
+      "37808087",
+      "37876904",
+      "32905524",
+      "37205975",
+      "36803416",
+      "37916871",
+      "36747873",
+      "34370721",
+      "37224527",
+      "37266485",
+      "37402191",
+      "38036778",
+      "37398136",
+      "37817875",
+      "38177600"
+    ],
+    "review": [
+      "37370113",
+      "34020542",
+      "39293804",
+      "32804365",
+      "33765601",
+      "36863192",
+      "34891095",
+      "29860027",
+      "30971806",
+      "32789670"
+    ],
+    "pmc": [
+      "10303849"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02985-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37370113/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37370113",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

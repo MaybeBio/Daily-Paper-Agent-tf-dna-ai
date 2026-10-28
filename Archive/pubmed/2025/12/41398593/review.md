@@ -1,0 +1,95 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including Background, Methods, Results, Discussion, and Supplementary Information descriptions. No figures or supplementary files were provided for direct inspection.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented in the text. Statistical analyses and raw data were not independently verifiable from the provided material.
+- **Shared manuscript claim summary** The authors report that platelet-activating factor (PAF) suppresses endometrial carcinoma (EC) progression by inducing ferroptosis. They identify ATF3 as a direct binding target of PAF, show that PAF stabilizes ATF3 via reduced ubiquitination, and demonstrate that ATF3 represses SLC7A11 and GPX4 transcription. Clinical data suggest elevated PAF-AH2 expression in EC tissues correlates with poor survival.
+- **Visible evidence base** Methods descriptions, Results narrative, figure legends (Figs. 1-7), and supplementary figure/figure legends as described in the text. No raw data, uncropped blots, or complete figure panels were available for review.
+- **Missing materials affecting confidence** All primary figures and supplementary figures; raw RNA-seq data; proteomics data; full Western blot images; statistical source data; clinical cohort details (e.g., number of patients, staging distribution, follow-up duration); organoid patient characteristics; and details of the tissue microarray cohort.
+
+## Reviewer
+
+- **Overall assessment** This manuscript addresses a clinically relevant question in endometrial carcinoma and proposes a novel mechanism linking PAF metabolism to ferroptosis via ATF3. The combination of in vitro, in vivo, and patient-derived organoid models is commendable. However, several critical issues undermine the strength of the conclusions as currently presented. The binding affinity reported (Kd of 3.24 µM) is modest and the physiological relevance of this interaction is not adequately contextualized. The mechanistic link between PAF binding, ATF3 deubiquitination, and transcriptional repression of SLC7A11/GPX4 requires stronger experimental support, particularly regarding the specificity of the proposed pathway. The clinical correlation data, while suggestive, are presented without sufficient cohort detail to assess robustness. The manuscript would benefit from additional experiments to establish causality and from more rigorous quantitative analyses.
+- **Who would be interested in the results, and why** Researchers in the fields of gynecologic oncology, lipid signaling, ferroptosis biology, and cancer metabolism would find these results of interest. The potential connection between a bioactive phospholipid mediator and ferroptosis regulation opens new avenues for therapeutic exploration in EC. Clinicians managing EC patients may also be interested in the prognostic implications of PAF-AH2 expression.
+- **Major strengths** The study addresses an important clinical problem with a clear hypothesis. The use of multiple orthogonal approaches to identify and validate the PAF-ATF3 interaction (CETSA, DARTS, molecular docking, SPR) is rigorous. The inclusion of patient-derived organoids and in vivo xenograft models strengthens the translational relevance. The clinical correlation with PAF-AH2 expression and patient survival provides a potentially actionable biomarker.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Binding affinity interpretation
+  - **Claim pointer** The authors claim that PAF directly binds to ATF3 with a Kd of 3.24 µM and that this interaction is functionally significant.
+  - **Evidence pointer** Results section "PAF binds to ATF3 and decreases its ubiquitination"; Fig. 4C, D
+  - **Concern** The reported Kd of 3.24 µM for the PAF-ATF3 interaction is relatively weak. The authors do not provide a comparison with a negative control lipid or a structurally similar molecule to demonstrate binding specificity. Furthermore, the physiological concentration of PAF in the tumor microenvironment is not discussed. Without these controls and contextual information, it is difficult to assess whether the observed binding is specific and whether it would occur at physiologically relevant concentrations.
+  - **Why it matters** The entire mechanistic model rests on the premise that PAF directly binds ATF3. If the binding is non-specific or occurs only at supraphysiological concentrations, the proposed mechanism would be invalidated.
+  - **Resolution test** Provide SPR data with a negative control lipid (e.g., lyso-PAF or a non-bioactive phospholipid) to demonstrate binding specificity. Measure or estimate the local PAF concentration in EC tissue or ascites and compare it to the Kd. Alternatively, perform a cellular thermal shift assay with a mutant ATF3 lacking the predicted binding pocket to confirm the interaction is specific.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Mechanistic causality
+  - **Claim pointer** The authors claim that PAF enhances ATF3 stability through deubiquitination, and that ATF3 subsequently inhibits SLC7A11 and GPX4 transcription.
+  - **Evidence pointer** Results section "PAF binds to ATF3 and decreases its ubiquitination"; Fig. 4G-I; Fig. 3K, L
+  - **Concern** The manuscript does not identify the specific deubiquitinase (DUB) responsible for ATF3 deubiquitination. The authors show that PAF reduces ATF3 ubiquitination, but the mechanism by which PAF binding leads to deubiquitination is not explored. Additionally, the claim that ATF3 directly represses SLC7A11 and GPX4 transcription is supported only by luciferase reporter assays and knockdown experiments. The authors do not perform chromatin immunoprecipitation (ChIP) to demonstrate direct ATF3 binding to the SLC7A11 and GPX4 promoters in EC cells. The rescue experiments with ATF3 knockdown only partially reverse the effects, suggesting that other factors may be involved.
+  - **Why it matters** The proposed linear pathway (PAF → ATF3 stabilization → SLC7A11/GPX4 repression → ferroptosis) requires direct evidence for each step. The lack of a defined DUB and the absence of ChIP data leave significant gaps in the mechanistic chain.
+  - **Resolution test** Identify the DUB using a candidate approach or proteomic screening, and validate its role using knockdown or overexpression experiments. Perform ChIP-qPCR in EC cells to demonstrate ATF3 occupancy at the SLC7A11 and GPX4 promoters. Provide a more complete rescue experiment where ATF3 overexpression in the context of PAF treatment is shown to be necessary and sufficient for the observed effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Clinical relevance
+  - **Claim pointer** The authors claim that high PAF-AH2 expression is associated with poor survival in EC patients and that this has clinical implications.
+  - **Evidence pointer** Results section "EC is accompanied by abnormal PAF metabolism"; Fig. 6E-I
+  - **Concern** The clinical correlation is based on a tissue microarray, but the number of patients, the histological subtypes included, the treatment regimens, and the follow-up duration are not specified in the text. The survival analysis is presented as a single Kaplan-Meier curve without multivariable analysis to control for known prognostic factors such as stage, grade, and age. The correlation between PAF-AH2 expression and tumor size or stage is reported, but the strength of these associations is not quantified.
+  - **Why it matters** The clinical relevance of the findings is a key selling point of the manuscript. Without adequate cohort details and appropriate statistical analysis, the prognostic value of PAF-AH2 cannot be properly evaluated.
+  - **Resolution test** Provide a detailed description of the patient cohort, including sample size, histological subtypes, treatment, and follow-up. Perform multivariable Cox regression analysis to assess the independent prognostic value of PAF-AH2. Report hazard ratios with confidence intervals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Ferroptosis specificity
+  - **Claim pointer** The authors claim that PAF induces ferroptosis as the primary mechanism of cell death, based on the reversal of cell death by ferrostatin-1 and the lack of effect of apoptosis and necroptosis inhibitors.
+  - **Evidence pointer** Results section "PAF induces ferroptosis in EC cells"; Fig. 2L, M; Supplementary Fig. 1C-F
+  - **Concern** The authors only tested one ferroptosis inhibitor (ferrostatin-1) and one concentration. They did not use liproxstatin-1 as an additional ferroptosis inhibitor, nor did they measure key ferroptosis markers such as malondialdehyde (MDA) or 4-HNE levels in vitro. The electron microscopy images (Fig. 1I) show mitochondrial changes, but these are not quantified. The authors also did not assess whether iron chelation (e.g., with deferoxamine) or GPX4 overexpression could rescue the phenotype.
+  - **Why it matters** Ferroptosis is a specific form of cell death with defined criteria. The current evidence is suggestive but not conclusive. Demonstrating that multiple ferroptosis inhibitors and iron chelators block PAF-induced cell death would strengthen the claim.
+  - **Resolution test** Include liproxstatin-1 and deferoxamine treatments. Measure MDA or 4-HNE levels in PAF-treated cells. Quantify mitochondrial morphology changes from TEM images. Perform a GPX4 overexpression rescue experiment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Background section
+  - **Issue** The abstract states that PAF "effectively suppress tumor growth" but does not provide quantitative data or effect sizes. The Background section introduces lyso-PAF and PAF-AH2 but the connection to the study hypothesis could be clearer.
+  - **Required correction** Include key quantitative results (e.g., percent inhibition, IC50 values) in the abstract. Clarify the rationale for studying PAF in EC by explicitly stating the hypothesis linking PAF metabolism to ferroptosis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Cell culture
+  - **Evidence pointer** Methods section "Cell culture and transfection"
+  - **Issue** The text states that cells were "recently authenticated by Short Tandem Repeat profiling" but does not provide the date of authentication or the passage number at which authentication was performed. The cells were used "within 20 passages" but it is unclear if this is from the point of authentication or from receipt.
+  - **Required correction** Specify the date of authentication and the passage number at which experiments were performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Xenograft model
+  - **Evidence pointer** Methods section "Xenograft mouse models"
+  - **Issue** The tumor volume calculation is given as "tumor volume = 0.5 × length × width2" but the units are not specified. The dosing schedule for PAF is described as "every 3 days" but the total duration of treatment and the number of doses are not stated.
+  - **Required correction** Specify the units for tumor volume (e.g., mm3). State the total treatment duration and the number of PAF injections.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 2
+  - **Evidence pointer** Results section "PAF induces ferroptosis in EC cells"; Fig. 2E, F
+  - **Concern** The ROS assay is described as using DCFH-DA, but the text does not specify whether the increase in ROS is blocked by ferrostatin-1 or an antioxidant such as N-acetylcysteine. This would help confirm that ROS accumulation is a cause, not a consequence, of cell death.
+  - **Required correction** Add a control experiment showing that ferrostatin-1 or NAC reduces ROS levels in PAF-treated cells.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of PAF's dual role in cancer (tumor-promoting vs. tumor-suppressing) is brief and could be expanded to help readers understand the context-dependency of PAF signaling.
+  - **Required correction** Add a brief paragraph discussing the context-dependent roles of PAF in different cancer types and how the present findings fit into this broader picture.
+
+## Risk / unsupported claims
+
+- The claim that PAF directly binds ATF3 with functional significance is supported by SPR, CETSA, and DARTS data, but the specificity of the interaction is not demonstrated with negative controls. The Kd of 3.24 µM is weak and its physiological relevance is not established.
+- The claim that PAF stabilizes ATF3 via deubiquitination is supported by ubiquitination assays, but the specific DUB is not identified, leaving the mechanism incomplete.
+- The claim that ATF3 directly represses SLC7A11 and GPX4 transcription is supported by luciferase assays and knockdown experiments, but direct binding of ATF3 to these promoters in EC cells is not demonstrated by ChIP.
+- The claim that PAF induces ferroptosis as the primary cell death mechanism is supported by ferrostatin-1 rescue and lipid peroxidation data, but additional ferroptosis inhibitors, iron chelators, and biochemical markers are not tested.
+- The clinical correlation between PAF-AH2 expression and poor survival is presented without sufficient cohort details or multivariable analysis, making the prognostic claim not fully assessable.
+- The statement that "PAF metabolism may be a promising direction for EC diagnostics and therapeutics" is speculative and not directly supported by the data presented, as no diagnostic or therapeutic intervention was tested.

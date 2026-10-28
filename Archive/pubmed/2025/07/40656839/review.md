@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a combined computational and experimental study of the allosteric mechanism of the Escherichia coli transcription factor UxuR, a repressor of hexuronate metabolism. Using enhanced molecular dynamics simulations, graph theory, and biosensor-based in vitro assays, they identify residues critical for protein stability and for allosteric communication between the effector domain and the DNA-binding domain. They further report a UxuR variant with altered ligand specificity, which they suggest has implications for antimicrobial development.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, or experimental validation data are provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, graph theory analysis details, biosensor assay protocols, residue-level mutation data, ligand specificity measurements, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially valuable contribution to understanding allosteric regulation in bacterial transcription factors, with a clear translational angle toward antimicrobial development. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the computational methods, the robustness of the in vitro validation, or the strength of the central claims. The claim of a variant with altered ligand specificity is intriguing but lacks quantitative support in the provided material. The work is likely to interest researchers in bacterial gene regulation, allostery, and synthetic biology, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying bacterial transcription factors and allosteric regulation, particularly those focused on sugar metabolism pathways in Escherichia coli. The work also has potential appeal for synthetic biologists developing biosensors and for investigators interested in antimicrobial strategies targeting metabolic pathways. The methodological combination of MD simulations, graph theory, and biosensors may interest computational biologists seeking experimental validation of in silico predictions.
+- **Major strengths** The study addresses a mechanistically complex and undercharacterized system, namely allosteric communication in a hexuronate metabolism repressor. The integration of enhanced MD simulations with in vitro biosensor validation represents a pragmatic and potentially powerful approach. The identification of a variant with altered ligand specificity is a notable finding that could have practical applications in biosensor design and antimicrobial development.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that enhanced MD simulations and graph theory revealed residues critical for protein stability and for allosteric communication from the effector domain to the DNA-binding site.  
+  - **Evidence pointer** Abstract, Methods section not provided  
+  - **Concern** The abstract provides no details on the simulation methodology, including force field, simulation length, enhanced sampling technique, or convergence criteria. The graph theory approach is mentioned but not described, and no metrics are given for how allosteric communication was quantified. Without these details, the computational basis for residue selection cannot be assessed.  
+  - **Why it matters** The central premise of the study is that in silico predictions guided experimental validation. If the computational methodology is not robust or the graph theory analysis is not appropriately applied, the residue selections may be arbitrary or biased, undermining the entire experimental follow-up.  
+  - **Resolution test** Provide full methodological details in the manuscript, including simulation parameters, convergence assessment, and a clear description of the graph theory metrics used to identify allosteric pathways. Show that the identified residues are statistically significant relative to appropriate null models.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength  
+  - **Claim pointer** The abstract claims that in vitro testing of the identified residues allowed division into those critical for protein stability and those essential for allosteric communication.  
+  - **Evidence pointer** Abstract, Results section not provided  
+  - **Concern** No experimental data are presented in the abstract. There is no indication of how many residues were tested, what mutations were made, how stability was measured, or how allosteric communication was functionally assessed. The distinction between stability-critical and communication-critical residues is asserted without any supporting quantitative data.  
+  - **Why it matters** The classification of residues into functional categories is a key outcome of the study. Without experimental evidence, this classification is unsupported and cannot be evaluated for reliability or biological significance.  
+  - **Resolution test** Present the full experimental dataset, including mutation lists, assay types, quantitative readouts, and statistical comparisons. Show that the stability-critical and communication-critical classifications are based on distinct and reproducible experimental outcomes.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The abstract claims identification of a UxuR variant that could respond to different sugars, enriching understanding of hexuronate metabolism flexibility.  
+  - **Evidence pointer** Abstract, Results section not provided  
+  - **Concern** The claim of altered ligand specificity is presented as a particularly intriguing discovery, but no details are given about which sugars were tested, what the response magnitude was, or how specificity was quantified. The term "respond" is ambiguous and could refer to binding, conformational change, or transcriptional output.  
+  - **Why it matters** This is the most novel and potentially impactful claim in the abstract. If the variant shows only marginal or non-specific responses, the claim of altered specificity would be overstated. The ambiguity in the term "respond" further complicates interpretation.  
+  - **Resolution test** Provide quantitative specificity data, including dose-response curves for multiple sugars, comparison to wild-type UxuR, and statistical analysis. Clearly define what "response" means in the experimental context.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Translational relevance  
+  - **Claim pointer** The abstract claims that the findings open new avenues for developing antimicrobial strategies targeting hexuronate pathways.  
+  - **Evidence pointer** Abstract, Discussion section not provided  
+  - **Concern** The link between altered ligand specificity in UxuR and antimicrobial development is asserted without any mechanistic or conceptual justification. No explanation is given for how this finding could be translated into an antimicrobial strategy.  
+  - **Why it matters** This claim extends the significance of the work beyond basic science. If not properly contextualized, it may overstate the practical implications and mislead readers about the readiness of the findings for application.  
+  - **Resolution test** Provide a reasoned discussion in the manuscript that connects the mechanistic findings to plausible antimicrobial strategies, with reference to existing literature on hexuronate pathway inhibition or related approaches.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "triggered by external environmental changes through the rearrangement of bacterial metabolic processes" is vague and could be more precise about the nature of the environmental changes and the metabolic rearrangements.  
+  - **Required correction** Rephrase to specify the environmental signals and the metabolic pathways involved, for example by referencing the specific sugars and the catabolic pathway.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, "enhanced MD simulations"  
+  - **Evidence pointer** Abstract, Methods description  
+  - **Issue** The term "enhanced MD simulations" is not defined. It is unclear which enhanced sampling technique was used, such as metadynamics, replica exchange, or accelerated MD.  
+  - **Required correction** Specify the exact enhanced sampling method in the abstract or ensure it is clearly stated in the main text.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract, biosensor description  
+  - **Evidence pointer** Abstract, Methods description  
+  - **Issue** The abstract mentions biosensors but does not describe what type of biosensor was used or what it measures.  
+  - **Required correction** Add a brief description of the biosensor system, including the output signal and how it relates to UxuR function.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Abstract, "first steps of allosterism"  
+  - **Evidence pointer** Abstract, introductory sentence  
+  - **Issue** The phrase "first steps of allosterism" is imprecise and could be interpreted in multiple ways. It is unclear whether this refers to the initial events in the allosteric pathway or to the preliminary nature of the study.  
+  - **Required correction** Clarify the intended meaning, for example by specifying the temporal or mechanistic scope of the allosteric process being studied.
+
+## Risk / unsupported claims
+- The claim that specific residues are critical for protein stability is unsupported without experimental stability data.
+- The claim that specific residues are essential for allosteric communication is unsupported without functional assays demonstrating altered allosteric response.
+- The claim of a UxuR variant with altered ligand specificity is unsupported without quantitative specificity data.
+- The claim that the findings open avenues for antimicrobial development is unsupported and not contextualized.
+- The overall conclusion that the study reveals the allosteric mechanism of UxuR is not assessable from the abstract alone.

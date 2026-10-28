@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that 20(S)-ginsenoside Rg3 suppresses gastric cancer cell proliferation by directly binding to E2F proteins, disrupting E2F-DP heterodimer formation, inhibiting E2F-DP target gene transcription, and activating the p53-p21 pathway while suppressing cyclin/CDK-RB signaling. Evidence cited includes RNA-Seq, CETSA, pull-down assays, mass spectrometry, molecular docking, qRT-PCR, immunoprecipitation, Western blotting, flow cytometry, apoptosis staining, luciferase reporter assays, colony formation, and in vivo xenograft studies.
+- **Visible evidence base** Abstract text only; no figures, tables, numerical data, statistical details, or methodological specifics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, statistical analyses, experimental replicates, compound purity and source details, cell line identities and authentication, animal ethics and sample sizes, docking parameters and validation, and any negative or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism for Rg3 action in gastric cancer, with a plausible direct target identified. However, the evidence as summarized is insufficient to establish the central claim of direct E2F binding and functional disruption of E2F-DP dimerization. Several key controls and quantitative details are absent from the abstract, and the mechanistic model appears to conflate direct and indirect effects without clear discrimination. The work may be of interest to the natural product and cancer biology communities, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying ginsenoside pharmacology, natural product anticancer mechanisms, E2F transcription factor biology, and cell cycle regulation in gastric cancer. The proposed direct small molecule-E2F interaction could also interest medicinal chemists seeking scaffolds for E2F-targeted therapies.
+- **Major strengths** The study combines transcriptomic, biochemical, biophysical, and in vivo approaches to address mechanism. The use of multiple orthogonal methods for target engagement (CETSA, pull-down, mass spectrometry, docking) is commendable. The proposed dual pathway model (E2F-DP disruption plus p53-p21 activation) provides a coherent framework for the observed antiproliferative effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for direct binding claim
+  - **Claim pointer** "CETSA and Rg3 pull-down assays confirmed an interaction between Rg3 and E2F" and "3D molecular docking analysis demonstrated that Rg3 binds with high affinity to E2F at the heterodimeric domain via hydrogen bonding, potentially disrupting E2F-DP heterodimer formation"
+  - **Evidence pointer** Methods section as summarized in abstract; specific figures not provided
+  - **Concern** The abstract states that CETSA and pull-down assays confirmed an interaction, but no quantitative data, controls, or specificity assessments are described. CETSA can show thermal stabilization but does not prove direct binding without competition controls or mutant comparisons. Pull-down assays require demonstration that the interaction is specific and not due to non-specific protein precipitation. Docking alone is predictive and requires experimental validation of the proposed binding pose and affinity.
+  - **Why it matters** The central novelty of the paper rests on direct Rg3-E2F binding. If this interaction is not rigorously established, the proposed mechanism collapses to a more generic effect on E2F expression or downstream signaling, which would substantially reduce the paper's significance.
+  - **Resolution test** Provide quantitative CETSA melting curves with appropriate controls (e.g., unrelated compound, E2F mutant), pull-down with a negative control protein and competitive displacement, and mutagenesis of the proposed docking interface to show loss of binding and function.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between E2F-DP disruption and observed phenotypes
+  - **Claim pointer** "Rg3 suppressed E2F expression and impeded GC cell proliferation by inducing G1/S cell cycle arrest... and inhibiting CDC6 transactivation" and "disrupting E2F-DP heterodimer formation and subsequently inhibiting cell cycle gene expression"
+  - **Evidence pointer** Results section as summarized; specific figures not provided
+  - **Concern** The abstract reports that Rg3 suppresses E2F expression, yet also claims that Rg3 disrupts E2F-DP dimerization. These are distinct mechanisms. If E2F levels are reduced, the observed effects on cell cycle genes could be due to reduced E2F abundance rather than dimerization disruption. The abstract does not clarify whether the dimerization disruption is independent of the expression change, nor does it provide rescue experiments (e.g., overexpression of E2F-DP) to establish causality.
+  - **Why it matters** Without distinguishing between reduced E2F protein levels and disrupted dimerization, the proposed mechanism is ambiguous. The field requires evidence that the dimerization defect is the primary driver of the transcriptional and phenotypic changes.
+  - **Resolution test** Show that E2F-DP dimerization is disrupted at concentrations where E2F protein levels are unchanged, and demonstrate that overexpression of a dimerization-competent E2F-DP pair rescues the cell cycle and proliferation phenotypes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance and dosing
+  - **Claim pointer** "tumor xenograft experiments in C57BL/6 mice in vivo" showed reduced tumor growth
+  - **Evidence pointer** Methods section as summarized; no data provided
+  - **Concern** The abstract mentions in vivo xenograft experiments but provides no tumor growth curves, final tumor weights, survival data, or statistical comparisons. The route of administration, dose, schedule, and tolerability of Rg3 are not described. Without these details, the translational relevance of the findings cannot be assessed.
+  - **Why it matters** In vivo efficacy is a key claim for a potential therapeutic strategy. The absence of quantitative in vivo data prevents evaluation of effect size and clinical potential.
+  - **Resolution test** Provide tumor growth curves with statistical analysis, final tumor weights, body weight changes, and a clear description of dosing regimen and animal numbers.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of Rg3 for E2F over other transcription factors
+  - **Claim pointer** "Rg3-mediated gene expression profiling in GC cells revealed several transcription factors, including E2F" and "Rg3 binds with high affinity to E2F"
+  - **Evidence pointer** Results section as summarized; no data provided
+  - **Concern** The abstract acknowledges that RNA-Seq revealed several transcription factors potentially influenced by Rg3, yet the study focuses exclusively on E2F. It is unclear whether Rg3 also binds other transcription factors or whether the observed effects are E2F-specific. No selectivity data are presented.
+  - **Why it matters** If Rg3 is a promiscuous binder, the proposed mechanism may be incomplete, and off-target effects could confound the interpretation of the phenotypic outcomes.
+  - **Resolution test** Perform a broader pull-down or thermal shift screen against a panel of transcription factors, or show that E2F knockdown or mutation abolishes the observed effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Cell lines and models
+  - **Evidence pointer** Methods section as summarized
+  - **Issue** The abstract does not specify which gastric cancer cell lines were used, their origin, or whether they were authenticated and tested for mycoplasma.
+  - **Required correction** List the cell lines used, their source, and authentication status in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Compound characterization
+  - **Affected element** Rg3 source and purity
+  - **Evidence pointer** Methods section as summarized
+  - **Issue** The abstract does not state the source, purity, or stereochemical confirmation of the 20(S)-Rg3 used.
+  - **Required correction** Provide compound source, purity (e.g., HPLC), and confirmation of stereochemistry in the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Quantitative results
+  - **Evidence pointer** Results section as summarized
+  - **Issue** No statistical details, effect sizes, or measures of variability are reported in the abstract.
+  - **Required correction** Include statistical tests, sample sizes, and error bars for all quantitative claims in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Docking validation
+  - **Affected element** Molecular docking
+  - **Evidence pointer** Methods section as summarized
+  - **Issue** The abstract reports docking without describing the software, scoring function, or validation of the docking protocol.
+  - **Required correction** Describe the docking methodology, including software version, scoring function, and any validation against known binders or crystal structures.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Pathway integration
+  - **Affected element** p53-p21 and cyclin/CDK-RB model
+  - **Evidence pointer** Results section as summarized
+  - **Issue** The abstract states that Rg3 activates p53 and p21 and suppresses cyclin/CDK activity, but does not explain how these effects relate to the proposed E2F-DP disruption. Are these independent or downstream consequences?
+  - **Required correction** Clarify the temporal and causal relationships between E2F-DP disruption, p53-p21 activation, and cyclin/CDK suppression in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct binding evidence), R1-M2 (causal link between dimerization disruption and phenotype), R1-M3 (in vivo data completeness), R1-M4 (selectivity of Rg3 for E2F)
+- **Assessment against Nature-style criteria** Originality: The proposed direct small molecule-E2F interaction is potentially novel, but the abstract does not provide sufficient evidence to distinguish it from previously described effects of ginsenosides on cell cycle regulators. Scientific importance: If fully validated, the work could inform new therapeutic strategies for E2F-driven tumors, but the current evidence is preliminary. Interdisciplinary readership: The topic bridges natural product chemistry, cancer biology, and transcription factor biology, which could attract a broad audience. Technical soundness: The multi-method approach is appropriate, but the lack of quantitative data and controls in the abstract undermines confidence. Readability for nonspecialists: The abstract is generally clear, though the mechanistic model could be simplified for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims require substantial additional experimental support, particularly regarding direct binding specificity, causal linkage, and in vivo efficacy. A revised manuscript with full data and appropriate controls could change this assessment.
+
+## Risk / unsupported claims
+- Direct binding of Rg3 to E2F at the heterodimeric domain is asserted but not supported by quantitative or controlled data in the abstract.
+- The claim that Rg3 disrupts E2F-DP heterodimer formation is not directly demonstrated; it is inferred from docking and downstream gene expression changes.
+- The causal relationship between E2F-DP disruption and the observed cell cycle arrest, apoptosis, and in vivo tumor growth inhibition is not established.
+- The activation of p53-p21 and suppression of cyclin/CDK-RB are reported without mechanistic linkage to the proposed E2F-DP mechanism.
+- The in vivo efficacy claim is unquantified and cannot be evaluated from the abstract.
+- The selectivity of Rg3 for E2F over other transcription factors is not addressed.

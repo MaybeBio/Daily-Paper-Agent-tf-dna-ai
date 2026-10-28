@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and reporting quality based solely on the provided text
+- **Shared manuscript claim summary** The authors present a computational framework for predicting in vivo transcription factor binding across unseen TFs and cell types, using handcrafted features, DNA language model embeddings, and a two-stage transfer learning scheme with gradient-boosted decision trees. They report performance on ENCODE-DREAM challenge data and a novel held-out TF dataset, and identify data quality as a key determinant of predictive performance.
+- **Visible evidence base** Results sections 2.1–2.7, Methods section 4, in-text references to Figures 1–6 and Supplementary Figures S1–S9
+- **Missing materials affecting confidence** All figures, tables, and supplementary material; exact numerical results for most comparisons; details of the held-out TF dataset curation; hyperparameter tuning procedures; statistical test details for Figure S9
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in regulatory genomics: building TF-agnostic models for in vivo binding prediction. The two-stage transfer learning scheme and the systematic feature ablation analysis are valuable contributions. However, the evidence presented in the text is insufficient to fully evaluate several central claims, particularly regarding the held-out TF predictions and the comparison to external tools. The manuscript would benefit from clearer reporting of numerical results, error bars, and statistical significance.
+- **Who would be interested in the results, and why** Computational biologists developing predictive models for gene regulation; researchers studying transcription factor binding mechanisms; bioinformaticians working with ENCODE or ChIP-seq data; method developers interested in transfer learning and foundation model embeddings for genomics.
+- **Major strengths** The study tackles a genuinely difficult generalization problem (unseen TFs) that is often avoided in the literature. The systematic comparison of modeling strategies (general vs. TF-tuned vs. TF-only vs. transformer-enhanced) is well designed. The analysis of data quality as a performance determinant is a useful practical insight. The authors are transparent about the interpretability-performance trade-off in their model design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We show that our general model outperforms the mean TF-specific model ensemble in cross-TF predictions" (Section 2.6)
+  - **Evidence pointer** Section 2.6, Figure 6a
+  - **Concern** The text states that the general model outperforms the mean TF-specific model ensemble, but no numerical values, error bars, or statistical tests are provided for this comparison. The claim is central to the paper's message about TF-agnostic generalization, yet the reader cannot assess the magnitude or significance of the difference.
+  - **Why it matters** Without quantitative support, the reader cannot determine whether the general model's advantage is meaningful or within noise. This is the key result supporting the paper's main contribution.
+  - **Resolution test** Provide mean AUPR values with standard deviations or confidence intervals for both approaches across the 10 held-out TFs, and a paired statistical test (e.g., Wilcoxon signed-rank) comparing the two.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** External validation
+  - **Claim pointer** "Our TF+transformer model's mean AUPR of 0.505 was the highest, followed by J-Team (0.48), FactorNet (0.46) and autosome.ru (0.46)" (Section 2.2)
+  - **Evidence pointer** Section 2.2, Figure S5
+  - **Concern** The comparison to external tools is presented as a single mean AUPR per method with no indication of variance, number of test cases, or whether the differences are statistically significant. The authors also note that the comparison is not fully fair due to different input data (ATAC-seq vs DNase-seq) and context windows, but this caveat is only mentioned in the Supplementary Information.
+  - **Why it matters** Claims of superiority over established methods require rigorous statistical support and transparent acknowledgment of confounds. As presented, the reader cannot determine whether the reported differences are robust.
+  - **Resolution test** Report per-TF AUPR distributions for each method, include statistical comparisons, and provide a detailed discussion of the confounds in the main text rather than relegating them to supplementary material.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "We present and test a cross-TF transfer learning scheme that allows learning from the entire training set" (Abstract)
+  - **Evidence pointer** Section 2.1, Section 4 (Model training)
+  - **Concern** The description of the two-stage transfer learning scheme is incomplete. The text states that the general model's predictions are used as an additional feature in TF-tuned models, but does not specify how the general model is trained (e.g., loss function, class weighting, early stopping), how the TF-tuned models are initialized or regularized, or how overfitting is controlled given the small per-TF sample sizes.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without full methodological details, other groups cannot implement or build upon the approach.
+  - **Resolution test** Provide a complete algorithmic description, including pseudocode or a detailed step-by-step protocol, in the Methods or Supplementary Information.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data curation
+  - **Claim pointer** "To systematically evaluate the performance of our models on previously-unseen TFs, we curated a new ChIP-seq dataset containing NR2F2, ZBTB33, RXRA, RAD21, and HNF4G in liver tissue and ISL1, TFAP2B, FOSL2, NFIC, and PBX3 in the SK-N-SH neuroblastoma cell line" (Section 2.6)
+  - **Evidence pointer** Section 2.6, Methods Section 4
+  - **Concern** The curation of the held-out TF dataset is described in a single sentence. No details are provided on data sources, peak calling, quality control, or how the ground truth labels were generated. This dataset is central to the paper's most important claim (generalization to unseen TFs), yet its quality cannot be assessed.
+  - **Why it matters** If the held-out dataset has systematic biases or low quality, the reported generalization results could be misleading.
+  - **Resolution test** Provide a detailed description of the dataset curation process, including accession numbers, processing pipelines, and quality metrics, in the Methods or Supplementary Information.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** Section 2.2, external comparison
+  - **Evidence pointer** Section 2.2
+  - **Issue** The text states that the DREAM challenge models had a larger context window and that this is advantageous, but does not quantify the difference or discuss its potential impact on the comparison.
+  - **Required correction** Provide the context window sizes for each method and a brief discussion of how this might affect performance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.5, Figure S9
+  - **Evidence pointer** Section 2.5
+  - **Issue** The correlation between expression entropy and model performance is reported with Pearson's R and P value, but no scatter plot or effect size is described in the text.
+  - **Required correction** Include the correlation coefficient and a brief description of the relationship's strength and direction in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Feature engineering
+  - **Affected element** Section 2.3, feature importance
+  - **Evidence pointer** Section 2.3
+  - **Issue** The text mentions that the "frequency" metric from XGBoost is misleading, but does not specify which alternative metric was used for the reported feature importance values.
+  - **Required correction** State explicitly which feature importance metric (e.g., gain, cover) was used for the reported results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4, hyperparameters
+  - **Evidence pointer** Section 4 (Model training)
+  - **Issue** The text states that training parameters were "set close to default values" but does not list the exact values used.
+  - **Required correction** Provide the full list of hyperparameters in the Methods or Supplementary Information.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for the main generalization claim), R1-M2 (rigorous external comparison), R1-M3 (complete methodological description), R1-M4 (held-out dataset curation details)
+- **Assessment against Nature-style criteria**
+  - **Originality** The two-stage transfer learning approach and the systematic evaluation of modeling strategies for cross-TF generalization are novel contributions. The use of DNA language model embeddings as features in a gradient-boosted framework is a reasonable and timely integration.
+  - **Scientific importance** The problem of predicting binding for TFs without ChIP-seq data is of high practical importance. The finding that data quality is a key determinant of performance is a useful practical insight.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The biological insights (e.g., tissue-specific TFs being more predictable) may attract a broader readership, but the presentation is method-centric.
+  - **Technical soundness** The overall approach is sound, but the lack of quantitative detail and statistical rigor in key comparisons weakens the technical case. The methodological description is incomplete for full reproducibility.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction and discussion frame the problem clearly. However, some sections (e.g., feature engineering details) assume familiarity with the field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the study addresses an important problem, but the current evidence base is insufficient to fully establish the main claims. The authors must provide quantitative results with statistical support, complete methodological details, and transparent reporting of the held-out dataset curation.
+
+## Risk / unsupported claims
+- The claim that the general model outperforms the mean TF-specific model ensemble in cross-TF predictions is unsupported by quantitative data in the text.
+- The claim that the TF+transformer model achieves the highest mean AUPR compared to external tools is unsupported by variance estimates or statistical tests.
+- The claim that "ground truth ChIP-seq data quality is an important determinant of model performance" is supported only by correlational evidence without controlling for other factors.
+- The claim that the model "maintains a strong predictive power" in the held-out TF setting is subjective without a defined threshold for "strong."
+- The claim that DNA language model embeddings "increase model performance" is not quantified in the abstract or results summary.
+- The claim that tissue-specific TFs are more predictable than constitutively expressed TFs is based on a correlation that is acknowledged to be driven by a few outliers.
