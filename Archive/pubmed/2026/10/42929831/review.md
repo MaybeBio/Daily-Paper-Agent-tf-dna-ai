@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented in the provided text
+- **Shared manuscript claim summary** The authors propose a two-CpG-island model for transcriptional regulation of the meiotic cohesin gene Rad21l, where DNA methylation represses promoter activity and tissue-specific hypomethylation enables expression. They further claim that the RAD21L protein interacts with histones in a modification-state-specific manner and propose a coordinated dual epigenetic regulatory mechanism involving DNA methylation and histone modifications, with KLF4 as a key transcription factor.
+- **Visible evidence base** RT-qPCR expression data (Figure 1A), dual-luciferase reporter assays (Figure 1B,C), bisulfite sequencing methylation maps (Figure 2C, Table 3), molecular docking simulations (Figures 3, 5E,F), RNA-seq data (Figure 4), co-immunoprecipitation (Figure 5A-D)
+- **Missing materials affecting confidence** Figures and tables referenced but not provided in the submitted text; no raw data or statistical outputs; no information on antibody validation for co-IP; no details on RNA-seq quality metrics or sample sizes beyond "three biological replicates"; no ChIP-seq or other direct binding evidence; no in vivo functional validation
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in reproductive biology, namely the epigenetic regulation of a meiosis-specific cohesin gene and the chromatin-targeting mechanisms of its protein product. The authors present a substantial body of work combining expression analysis, promoter reporter assays, methylation profiling, transcriptomics, co-immunoprecipitation, and molecular docking. However, the central claims are supported by correlative and in silico evidence rather than direct functional validation. The two-CpG-island model is plausible but not definitively established, and the histone interaction data are limited by the inherent constraints of co-immunoprecipitation, which cannot distinguish direct from indirect interactions. The molecular docking results are speculative and require experimental confirmation. The manuscript would benefit from a more cautious interpretation of the data and a clearer separation of established findings from hypotheses.
+- **Who would be interested in the results, and why** Researchers studying meiosis, cohesin biology, epigenetic regulation of germ cell development, and male infertility would find this work relevant. The proposed model of CpG methylation-mediated tissue-specific expression of a cohesin gene and the potential role of histone modifications in RAD21L chromatin targeting could inform future studies on meiotic chromosome dynamics and reproductive disorders.
+- **Major strengths** The study addresses a genuine gap in understanding the upstream regulation of Rad21l and the chromatin-targeting mechanisms of RAD21L. The combination of multiple experimental approaches, including reporter assays, methylation profiling, transcriptomics, and protein interaction studies, provides a broad foundation. The authors are appropriately cautious in several places, acknowledging the limitations of in vitro reporter assays and the speculative nature of the docking predictions. The proposed model is clearly articulated and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for causal claim
+  - **Claim pointer** "in vitro methylation experiments directly confirmed that DNA methylation represses promoter activity, thereby elucidating how reproductive-tissue-specific hypomethylation regulates gene expression"
+  - **Evidence pointer** Section 3.1, Figure 1C
+  - **Concern** The in vitro methylation experiments used M.SssI, which methylates all CpG sites on the plasmid. As the authors themselves acknowledge in Section 3.2, this approach cannot attribute the repressive effect specifically to CpG island 1 or CpG island 2. The claim that this "directly confirmed" the role of the two CpG islands in tissue-specific regulation is therefore overstated. The experiment demonstrates a general repressive effect of CpG methylation on promoter activity, but it does not establish that methylation of these specific islands is the mechanism underlying the observed tissue-specific expression pattern.
+  - **Why it matters** The central thesis of the manuscript is the two-CpG-island model of transcriptional regulation. Without site-specific methylation experiments, the causal link between methylation at these particular islands and Rad21l expression remains correlative. The distinction between "methylation can repress this promoter" and "methylation of these islands regulates tissue-specific expression" is critical for the validity of the proposed model.
+  - **Resolution test** Site-directed mutagenesis of individual CpG islands, or targeted methylation of specific CpG sites (e.g., using CRISPR-dCas9-based methylation tools), followed by reporter assays, would directly test whether methylation of CpG island 1 and/or CpG island 2 is necessary and sufficient for transcriptional repression. Alternatively, comparing promoter activity of unmethylated versus methylated constructs in a cell type that endogenously expresses Rad21l would strengthen the physiological relevance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Direct versus indirect interaction
+  - **Claim pointer** "the encoded RAD21L protein interacts with histones in a modification-state-specific manner: interactions were detected with monomethylated, phosphorylated, and acetylated histones, but not with trimethylated histones"
+  - **Evidence pointer** Section 3.5, Figure 5A-D
+  - **Concern** The co-immunoprecipitation experiments demonstrate co-enrichment of RAD21L with histones and HP1β from testicular extracts, but co-IP cannot distinguish direct physical binding from indirect association within a larger complex. The authors acknowledge this limitation in Section 3.5, yet the abstract and highlights present the finding as evidence of "interactions" without this caveat. The modification-state-specific pattern is based on a limited set of antibodies, and no reciprocal co-IP or competition experiments are described. The claim of specificity is therefore not fully supported.
+  - **Why it matters** The proposed model of RAD21L chromatin targeting depends on specific interactions with histones and their modifications. If the co-enrichment reflects indirect associations, the mechanistic model would need substantial revision. The distinction between direct and indirect interactions is fundamental to the interpretation of the data.
+  - **Resolution test** In vitro pull-down assays using purified recombinant RAD21L and recombinant or synthetic histones with defined modifications would establish direct binding. Surface plasmon resonance or isothermal titration calorimetry could provide quantitative binding affinities. Mutagenesis of the predicted interaction interfaces would further validate specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Speculative structural interpretation
+  - **Claim pointer** "Molecular docking simulations suggested that KLF4 could bind a promoter sequence containing CpG5 and that methylation would not disrupt this interaction. Methylation was hypothesized to induce conformational remodeling of KLF4, shift its ability to recruit cofactors, and thereby enable bidirectional transcriptional regulation."
+  - **Evidence pointer** Section 3.3, Figure 3
+  - **Concern** The molecular docking results are presented as supporting a mechanistic model, but docking scores alone are weak evidence for functional relevance. The claim that methylation induces "conformational remodeling" of KLF4 is not directly demonstrated by the data presented. The docking simulations are computational predictions that require experimental validation. The authors acknowledge this in Section 3.3, but the abstract and highlights present the model with more confidence than the evidence warrants.
+  - **Why it matters** The proposed dual epigenetic regulatory mechanism rests on the assumption that KLF4 binding and its functional consequences are modulated by CpG methylation. Without experimental evidence for KLF4 binding to the Rad21l promoter, for the effect of methylation on that binding, or for the proposed conformational changes, the model remains speculative.
+  - **Resolution test** Electrophoretic mobility shift assays or chromatin immunoprecipitation using anti-KLF4 antibodies in cells with differentially methylated Rad21l promoters would test binding. Reporter assays with KLF4 overexpression or knockdown, in the presence or absence of promoter methylation, would test functional relevance. Structural studies, such as NMR or crystallography, would be needed to confirm conformational changes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of cell line data
+  - **Claim pointer** "the core promoter of the Rad21l gene may reside within the proximal AT-rich region from −228 to −3 bp"
+  - **Evidence pointer** Section 3.1, Figure 1B
+  - **Concern** The promoter activity assays were performed in 293T cells, a transformed human embryonic kidney cell line that does not represent the meiotic germ cell environment. The authors acknowledge this limitation in Section 3.1, but the identification of the core promoter and the regulatory model are based entirely on this heterologous system. The relevance of these findings to the endogenous Rad21l promoter in spermatocytes remains to be established.
+  - **Why it matters** Promoter activity can be highly cell-type-specific, and the regulatory mechanisms identified in 293T cells may not reflect those operating in meiotic cells. The tissue-specific expression pattern of Rad21l is a central observation, and the promoter elements responsible for this pattern should ideally be validated in a relevant cellular context.
+  - **Resolution test** Reporter assays in a germ cell line, such as GC-1 or GC-2 cells, or in primary spermatocytes, would provide more physiologically relevant data. Alternatively, transgenic mouse models with reporter constructs driven by the Rad21l promoter could validate the regulatory regions in vivo.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** RT-qPCR and reporter assay data
+  - **Evidence pointer** Section 3.1, Figure 1A,B
+  - **Issue** The manuscript does not describe the statistical tests used for the RT-qPCR and luciferase reporter assay comparisons, nor are error bars or significance indicators described in the text.
+  - **Required correction** Provide details of the statistical methods, including the specific tests used, the number of independent experiments, and how significance was determined. Add significance indicators to the figures.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** RNA-seq dataset
+  - **Evidence pointer** Section 2.7
+  - **Issue** The RNA-seq data are described but no accession number or repository information is provided.
+  - **Required correction** Provide a data availability statement with the accession number for the RNA-seq dataset in a public repository such as GEO or SRA.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Antibody validation
+  - **Affected element** Co-immunoprecipitation experiments
+  - **Evidence pointer** Section 2.8
+  - **Issue** The manuscript does not describe validation of the antibodies used for co-IP, including whether they were tested for specificity in knockout or knockdown systems.
+  - **Required correction** Include information on antibody validation, such as species reactivity, lot numbers, and any validation data from the manufacturers or previous publications.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "interaction" versus "co-occurrence"
+  - **Evidence pointer** Section 3.5
+  - **Issue** The manuscript uses "interaction" and "co-occurrence" somewhat interchangeably. Given the limitations of co-IP, the more cautious term "co-occurrence" is more appropriate for the experimental data.
+  - **Required correction** Use "co-occurrence" or "co-enrichment" when describing co-IP results and reserve "interaction" for cases where direct binding is established or clearly implied by the experimental design.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Not applicable
+  - **Issue** The figures are not provided in the submitted text, making it impossible to assess the quality of the data presentation, the appropriateness of the controls, or the clarity of the results.
+  - **Required correction** Ensure that all figures are included in the submission and that they are of sufficient resolution to evaluate the data. Provide detailed figure legends that describe the experimental conditions and the number of replicates.
+
+## Risk / unsupported claims
+- The claim that "in vitro methylation experiments directly confirmed that DNA methylation represses promoter activity" is overstated, as the experiments cannot distinguish between the effects of methylation at the two CpG islands versus other CpG sites on the plasmid.
+- The claim of "modification-state-specific" interactions between RADL21 and histones is not fully supported, as co-IP cannot distinguish direct from indirect interactions and the panel of modifications tested is limited.
+- The proposed "conformational remodeling" of KLF4 upon CpG methylation is a hypothesis based on docking simulations and is not experimentally validated.
+- The claim that "KLF4 as a key transcription factor" for Rad21l is based on bioinformatic prediction and docking, without direct experimental evidence of KLF4 binding to the Rad21l promoter in vivo.
+- The proposed "coordinated dual epigenetic regulatory mechanism" is a working model that integrates correlative and in silico data; it is not established by the experimental evidence presented.
+- The identification of the core promoter region (−228 to −3 bp) is based on reporter assays in 293T cells and may not reflect the regulatory mechanisms operating in meiotic germ cells.
+- The statement that "methylation was hypothesized to induce conformational remodeling of KLF4" is presented in the abstract as a finding rather than a hypothesis, which could mislead readers about the strength of the evidence.

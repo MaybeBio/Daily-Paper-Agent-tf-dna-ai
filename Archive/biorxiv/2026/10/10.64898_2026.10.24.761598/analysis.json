@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.10.24.761598",
+  "title": "DAPE-PD: Diffusion adaptation of genomic foundation model enables tailored-generation of <i>cis</i> -regulatory DNA",
+  "authors": "Martin Echavarria Galindo; Shansan Gong; Yuewei Zhan; Shuchen Wang; Lingpeng Kong; Yong Lai",
+  "journal": "bioRxiv",
+  "published_date": "2026-10-27",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用扩散模型适配基因组基础模型生成顺式调控DNA（启动子），虽涉及DNA序列生成与调控功能，但未聚焦TF-DNA结合位点预测或互作机制建模，方法可迁移至TF-DNA研究，故评6分。",
+  "abstract": "Genomic foundation models (GFMs) have transformed our ability to learn the evolutionary language encoded in genomes, yet their potential for programmable regulatory DNA engineering remains underexplored. Regulatory function depends on combinatorial interactions among distributed sequence elements, motivating generation with bidirectional context. Here, we introduce DAPE-PD ( D iffusion A daptation of P retrained E vo for P romoter D esign), which adapts the autoregressive Evo model into a bidirectional masked diffusion model without foundation-scale retraining. DAPE-PD combines pretrained genomic representations with iterative unmasking to generate regulatory DNA sequences. Following genus-specific fine-tuning on genome-derived intergenic sequences, DAPE-PD generated sequences that retained genus-associated compositional features despite low similarity to the fine-tuning datasets. Experimental validation identified functional de novo promoters, while in silico prioritization recovered active designs from small experimental candidate sets across three non-model gut commensals. This framework connects genomic pretraining with diffusion-based generation, extending GFMs from sequence understanding toward functional cis -regulatory DNA engineering in living cells.",
+  "abstract_zh": "基因组基础模型 (genomic foundation models, GFMs) 已经改变了我们学习基因组中所编码的进化语言的能力，但其在可编程调控 DNA 工程方面的潜力仍未得到充分探索。调控功能依赖于分布式序列元件之间的组合相互作用，这促使人们采用双向上下文进行生成。在此，我们提出 DAPE-PD（D iffusion A daptation of P retrained E vo for P romoter D esign），它将自回归 Evo 模型适配为双向掩码扩散模型，而无需进行基础规模的重训练。DAPE-PD 将预训练基因组表示与迭代去掩码相结合，以生成调控 DNA 序列。在对基因组来源的基因间序列进行属特异性微调后，DAPE-PD 生成的序列尽管与微调数据集的相似性较低，但仍保留了与属相关的组成特征。实验验证鉴定出了功能性 de novo 启动子，而计算机模拟优先级排序则从三种非模式肠道共生菌的小型实验候选集中回收了活性设计。该框架将基因组预训练与基于扩散的生成相连接，将 GFMs 从序列理解扩展到活细胞中的功能性顺式调控 DNA 工程。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761598",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761598",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.10.24.761598/index.html"
+}

@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Abstract only, as provided in the submission record.
+- **Assessment boundary** Evaluation is restricted to the abstract text and the associated metadata. No full text, figures, tables, supplementary materials, code, or data resources were supplied, so methodological detail, statistical support, and reproducibility cannot be verified.
+- **Shared manuscript claim summary** The authors introduce scGRAIL, a supervised deep learning framework for gene regulatory network (GRN) inference from single-cell RNA-sequencing data. The framework combines inductive local-aware graph aggregation (LGA) over a transcription factor (TF)-target graph, a node reconstruction autoencoder (NAE) for expression reconstruction constraints, and an asymmetric relation decoder that computes an ordered difference vector between TF and target embeddings to model regulatory directionality. The authors claim state-of-the-art performance on 86.4% of benchmark datasets (38/44), a 4.25% average AUROC increase over GCLink across four real-world networks, and a 17.64% AUROC improvement for the TF500+ Non-Specific network in the mHSC-L dataset.
+- **Visible evidence base** Abstract-level descriptions of the framework components and three quantitative performance claims. No figures, tables, dataset listings, baseline specifications, ablation results, statistical tests, or implementation details are visible.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, supplementary methods, dataset and preprocessing descriptions, baseline implementation details, evaluation protocols, ablation studies, statistical significance testing, code and data availability statements, and any independent validation are absent. Confidence in the reported claims is therefore low.
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent conceptual contribution, namely the combination of multi-hop graph aggregation, expression reconstruction, and an asymmetric directional decoder for GRN inference. The framing of directionality as an ordered embedding difference is a reasonable and interpretable design choice. However, the submission as provided is an abstract only, and every quantitative claim is unverifiable from the visible material. The claims of superiority and of being a transformative tool are not supported by evidence that a reviewer can inspect. The work is potentially interesting but currently not established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on single-cell regulatory network inference, graph representation learning researchers interested in directed link prediction, and systems biologists studying hematopoietic or lineage-specific regulatory programs would plausibly be interested, because a method that improves directional TF-target discrimination and cross-dataset generalization would be directly useful for downstream regulatory analysis.
+- **Major strengths** The problem framing identifies concrete and recognized limitations of existing GRN inference methods, specifically long-range interaction modeling, explicit directionality, and generalizability. The proposed combination of LGA, NAE, and an asymmetric decoder is conceptually motivated and internally consistent at the abstract level. The reported evaluation spans 44 benchmark datasets and four real-world networks, which, if accurately described in the full text, would represent a broad empirical assessment. The explicit focus on directionality addresses a genuine gap, since many link-prediction formulations treat regulatory edges as undirected.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness and evidential support
+    - **Claim pointer** scGRAIL achieves optimal performance on 86.4% of benchmark datasets (38/44), surpassing state-of-the-art methods.
+    - **Evidence pointer** Abstract only; no tables, figures, or dataset listings provided. location not provided.
+    - **Concern** The headline performance claim is stated without any visible supporting evidence. The identity of the 44 datasets, the baselines compared, the metric used to define optimal performance, and the criteria for counting a dataset as won are all unspecified. It is not possible to determine whether the comparison is fair, whether the same evaluation protocol was applied to all methods, or whether the 38/44 figure reflects a meaningful margin over baselines.
+    - **Why it matters** The central contribution of the paper rests on this comparative claim. Without dataset identity, baseline specification, and per-dataset results, the claim cannot be assessed and the reported superiority may reflect evaluation choices rather than methodological advantage.
+    - **Resolution test** Provide a complete table of all 44 datasets with per-dataset performance for scGRAIL and every baseline, the metric definition, the protocol used to select optimal performance, and a clear statement of how ties and near-ties are handled. Report the distribution of margins, not only the win count.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness and statistical support
+    - **Claim pointer** scGRAIL achieves a 4.25% increase in average AUROC across four real-world networks compared to GCLink, yielding a 17.64% AUROC improvement for the TF500+ Non-Specific network in the mHSC-L dataset.
+    - **Evidence pointer** Abstract only; no figures or tables provided. location not provided.
+    - **Concern** The reported improvements are given as point estimates with no measure of variance, no confidence intervals, no significance testing, and no indication of how many runs or random seeds were used. The 4.25% average is computed over only four networks, and the 17.64% figure is drawn from a single network, so both are highly sensitive to the specific datasets and splits chosen. The abstract also does not state whether the comparison to GCLink used the authors' own reimplementation or the original implementation, which is a known source of performance discrepancy in link prediction benchmarks.
+    - **Why it matters** Without variance and significance information, the reported gains cannot be distinguished from run-to-run noise or from implementation and tuning differences. The selective emphasis on the largest single-network gain may overstate typical performance.
+    - **Resolution test** Report mean and standard deviation or confidence intervals across multiple independent runs and data splits for all four networks, provide paired significance tests against each baseline, state whether baselines were reimplemented or taken from original code, and report the full per-network results rather than only the average and the best case.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness and construct validity
+    - **Claim pointer** The asymmetric difference mechanism explicitly captures the directionality and target specificity of TF-target regulatory interactions, facilitating more accurate identification of potential causal regulatory relationships.
+    - **Evidence pointer** Abstract only; no methods section, no ablation results, no directional evaluation metrics provided. location not provided.
+    - **Concern** The claim of explicit directionality modeling and of identifying causal regulatory relationships is not supported by any visible evidence. It is unclear how directionality is evaluated, since standard AUROC over undirected edges does not measure directional accuracy. No directed metric such as area under the precision-recall curve for directed edges, orientation accuracy, or comparison against known directed ground truth is reported. The leap from an ordered embedding difference to causal regulatory relationships is not justified at the abstract level.
+    - **Why it matters** Directionality is presented as a primary novelty. If the evaluation does not isolate directional performance, the central methodological claim is untested, and the causal language overstates what the model can establish from correlational single-cell data.
+    - **Resolution test** Provide an ablation that removes the asymmetric decoder and reports performance under a directed evaluation metric, specify the directed ground truth used, and demonstrate that directional accuracy improves specifically. Temper causal language unless interventional or perturbation data are used for validation.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Generalizability and robustness
+    - **Claim pointer** The NAE imposes gene expression reconstruction constraints, thereby enhancing robustness to noise and data heterogeneity and improving generalization.
+    - **Evidence pointer** Abstract only; no ablation or cross-dataset transfer results provided. location not provided.
+    - **Concern** The robustness and generalization benefits attributed to the NAE are asserted rather than demonstrated. No noise-injection experiments, no cross-species or cross-tissue transfer results, and no ablation isolating the NAE contribution are visible. It is also unclear whether the reported 44-dataset evaluation constitutes genuine held-out generalization or within-dataset cross-validation.
+    - **Why it matters** Generalization is a core claimed advantage. Without controlled noise and transfer experiments, the contribution of the NAE cannot be separated from the rest of the architecture or from dataset-specific tuning.
+    - **Resolution test** Report ablation results with and without the NAE under matched conditions, include explicit noise-perturbation experiments at defined dropout and noise levels, and describe a held-out or cross-dataset transfer protocol with results.
+  - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Reproducibility and reporting completeness
+    - **Claim pointer** Comprehensive evaluations demonstrate the model's superiority and establish scGRAIL as a transformative tool.
+    - **Evidence pointer** Abstract only; no code, data, hyperparameter, or implementation details provided. location not provided.
+    - **Concern** No information is provided on data availability, code availability, hyperparameter selection, computational cost, or scalability claims. The abstract asserts scalability for large-scale GRNs but provides no runtime, memory, or graph-size analysis. The word transformative is a strong evaluative claim that is not substantiated by the visible material.
+    - **Why it matters** Reproducibility and scalability are essential for a methods paper, and the absence of these details prevents independent verification and practical adoption.
+    - **Resolution test** Provide code and data availability statements, full hyperparameter settings, hardware and runtime measurements as a function of network size, and replace evaluative language such as transformative with a concrete, evidence-based statement of demonstrated capability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity of terminology
+    - **Affected element** Use of the term inductive in inductive local-aware graph aggregation.
+    - **Evidence pointer** Abstract. location not provided.
+    - **Issue** The term inductive is used without definition, and it is unclear whether it refers to inductive learning on unseen nodes, inductive graph construction, or something else.
+    - **Required correction** Define inductive explicitly in the methods and state what is held out during inductive evaluation.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Metric reporting
+    - **Affected element** Reliance on AUROC as the primary reported metric.
+    - **Evidence pointer** Abstract. location not provided.
+    - **Issue** AUROC is known to be optimistic for highly imbalanced link prediction tasks such as GRN inference, where positive edges are sparse. Reporting only AUROC may overstate practical performance.
+    - **Required correction** Report AUPRC alongside AUROC for all benchmarks and clarify class balance per dataset.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Baseline specification
+    - **Affected element** Characterization of GCLink and other methods as state-of-the-art.
+    - **Evidence pointer** Abstract. location not provided.
+    - **Issue** The abstract names only GCLink and refers generically to state-of-the-art methods without listing the full baseline set or justifying their selection.
+    - **Required correction** Enumerate all baselines, state the rationale for their inclusion, and specify versions and parameter settings.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Dataset description
+    - **Affected element** The 44 benchmark datasets and four real-world networks.
+    - **Evidence pointer** Abstract. location not provided.
+    - **Issue** The datasets are not described in terms of species, tissue, cell number, ground truth source, or network size, so the scope of the evaluation cannot be judged.
+    - **Required correction** Provide a dataset summary table with species, tissue, cell count, number of TFs and targets, and ground truth provenance.
+  - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Claim calibration
+    - **Affected element** Statements that scGRAIL is transformative and establishes gene regulatory logic.
+    - **Evidence pointer** Abstract. location not provided.
+    - **Issue** These are strong evaluative claims not supported by the abstract-level evidence and not typical of measured scientific reporting.
+    - **Required correction** Replace with specific, bounded statements describing demonstrated performance and remaining limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These are blocking because the comparative superiority claim, the statistical reliability of the reported gains, and the directionality claim cannot be evaluated from the supplied material. R1-M4 and R1-M5 are non-blocking but must be resolved for the contribution to be fully established.
+- **Assessment against Nature-style criteria** Originality is moderate. The individual components, namely graph aggregation, autoencoder reconstruction, and asymmetric decoding, are established ideas, and the novelty lies in their combination and in the directional decoding formulation, which is plausible but not yet shown to be distinctive. Scientific importance cannot be judged without the full evidence, since the significance depends entirely on whether the reported gains are robust and reproducible. Interdisciplinary readership is plausible, spanning computational biology, machine learning, and systems biology, but the abstract is written for a specialist audience and does not make the broader implications concrete. Technical soundness is currently unverifiable because no methods, statistics, ablations, or reproducibility information are visible. Readability for nonspecialists is limited, as terms such as inductive local-aware graph aggregation and asymmetric relation decoder are used without accessible explanation, and the abstract is dense with acronyms.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual direction is reasonable, but the abstract alone does not support the performance, directionality, or generalization claims. A full assessment requires the complete manuscript with per-dataset results, statistical testing, ablations, directed evaluation metrics, and reproducibility materials.
+
+## Risk / unsupported claims
+- The claim that scGRAIL surpasses state-of-the-art methods on 86.4% of benchmark datasets is unsupported at the abstract level, since no dataset list, baseline set, metric definition, or per-dataset results are provided.
+- The claim of a 4.25% average AUROC increase over GCLink across four real-world networks is unsupported, as no variance, significance testing, run count, or baseline implementation details are given.
+- The claim of a 17.64% AUROC improvement for the TF500+ Non-Specific network in mHSC-L is a single-network result presented without uncertainty and may not represent typical performance.
+- The claim that the asymmetric difference mechanism explicitly captures directionality and target specificity is unsupported, because no directed evaluation metric or directional ablation is reported.
+- The claim that the NAE enhances robustness to noise and data heterogeneity and improves generalization is unsupported, as no noise-perturbation or cross-dataset transfer experiments are visible.
+- The claim that scGRAIL is scalable for large-scale GRNs is unsupported, since no runtime, memory, or graph-size analysis is provided.
+- The claim that scGRAIL is a transformative tool and that it establishes gene regulatory logic is an evaluative overstatement not supported by the visible evidence.
+- The characterization of the method as identifying causal regulatory relationships is unsupported, because single-cell transcriptomic data are observational and no interventional validation is described.

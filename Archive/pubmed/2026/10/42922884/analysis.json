@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42922884",
+  "title": "DeepCNet: A multimodal deep learning model for predicting cell type-specific gene expression and promoter-enhancer interactions from single-cell multiome data.",
+  "authors": "Jin, Weijia; Zhao, Fengdi; Ma, Xin; Lu, Qing; Esser, Karyn A; Sun, Ramon C; Chen, Li",
+  "journal": "Research square",
+  "published_date": "2026-10-25",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多模态深度学习从单细胞多组学数据预测基因表达并推断启动子-增强子互作，构建TF-GRN，虽涉及TF调控网络但非直接TF-DNA结合建模，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Understanding promoter-enhancer (PE) interactions is essential for elucidating gene regulation mechanisms. Although existing computational methods leverage DNA sequence to predict gene expression, many were developed primarily for bulk-level genomic data and emphasize predictive accuracy rather than regulatory inference. Here, we propose DeepCNet, a multimodal deep learning framework that predicts cell type-specific gene expression and infers cell type-specific PE interactions, enabling the construction of transcription factor gene regulatory networks (TF-GRNs) from single-cell multiome data. Evaluated on two single-cell multiome datasets from blood and brain tissues, DeepCNet consistently outperforms state-of-the-art methods in predicting cell type-specific gene expression. Importantly, PE interactions inferred by DeepCNet showed greater concordance with orthogonal chromatin interaction and CRISPR perturbation data than competing approaches. Analysis of cell type-specific GRNs identified TF hubs and highlighted both cell type-specific and shared regulatory programs. DeepCNet further extends to two-condition single-cell multiome studies, enabling the identification of differential PE interactions and characterization of TF-GRN alterations across conditions. As an illustrative application, we applied DeepCNet to single-cell multiome data from one Alzheimer's disease (AD) and one healthy control sample, identifying candidate differential PE interactions at AD risk loci and candidate TF hubs associated with AD-related pathways. Together, these results demonstrate the potential of DeepCNet to characterize transcriptional regulatory programs and cooperative TF interactions underlying cell type- and condition-specific gene expression.",
+  "abstract_zh": "理解启动子-增强子（PE）相互作用对于阐明基因调控机制至关重要。尽管现有的计算方法利用DNA序列预测基因表达，但许多方法主要针对批量基因组数据开发，并强调预测准确性而非调控推断。在此，我们提出DeepCNet，一种多模态深度学习框架，可预测细胞类型特异性基因表达并推断细胞类型特异性PE相互作用，从而能够从单细胞多组学数据中构建转录因子基因调控网络（TF-GRNs）。在来自血液和脑组织的两个单细胞多组学数据集上评估时，DeepCNet在预测细胞类型特异性基因表达方面始终优于最先进的方法。重要的是，与竞争方法相比，DeepCNet推断的PE相互作用与正交染色质相互作用和CRISPR扰动数据表现出更高的一致性。对细胞类型特异性GRNs的分析识别出TF枢纽，并突出了细胞类型特异性和共享的调控程序。DeepCNet进一步扩展到双条件单细胞多组学研究，能够识别差异PE相互作用并表征跨条件的TF-GRN变化。作为示例应用，我们将DeepCNet应用于来自一个阿尔茨海默病（AD）和一个健康对照样本的单细胞多组学数据，识别出AD风险位点的候选差异PE相互作用以及与AD相关通路相关的候选TF枢纽。综合来看，这些结果展示了DeepCNet在表征转录调控程序和协同TF相互作用方面的潜力，这些相互作用支撑了细胞类型和条件特异性基因表达。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42922884/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42922884/",
+  "paper_page_path": "papers/pubmed/42922884/index.html"
+}

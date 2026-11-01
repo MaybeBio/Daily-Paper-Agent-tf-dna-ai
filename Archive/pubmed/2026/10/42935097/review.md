@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Abstract only, as provided in the submission record; no full text, figures, tables, or supplementary materials were supplied.
+- **Assessment boundary** Evaluation is restricted to the claims and evidence descriptions contained in the abstract. No assessment of data quality, statistical treatment, figure integrity, or methods is possible beyond what the abstract states.
+- **Shared manuscript claim summary** The authors report an integrated single-nucleus RNA-seq, sci-ATAC-seq, bulk histone profiling, and transcription factor binding dataset from maize, comparing C(4) shuttle and Calvin-Benson-Bassham cycle regulation with NDH-mediated cyclic electron flow in bundle sheath cells. They claim distinct regulatory architectures, including H3K27me3-associated control of selected carbon assimilation loci and DOF-linked regulation of the NDH branch, a 49 bp DOF-responsive cis element in the ZmNdhU promoter, bundle sheath-enriched ZmDOF30 function that increases NDH-associated expression, cyclic electron flow, leaf ATP, and photosynthetic performance, and field-trial growth and biomass gains in transgenic lines.
+- **Visible evidence base** Abstract-level descriptions of single-nucleus RNA-seq, sci-ATAC-seq, bulk histone profiles from mesophyll- and bundle sheath-enriched fractions, protoplast-derived transcription factor binding profiles, promoter dissection of ZmNdhU, transgenic bundle sheath-enriched ZmDOF30 expression, physiological measurements, a field trial, and comparative promoter analyses.
+- **Missing materials affecting confidence** Full text, methods, figure legends, figures, tables, supplementary data, statistical reporting, replication details, field-trial design, and independent validation are all absent. Confidence in any claim is therefore limited to the abstract's own assertions.
+
+## Reviewer
+- **Overall assessment** The abstract describes an ambitious and potentially valuable integration of single-cell multi-omics with functional validation in a major C(4) crop. The conceptual framing, distinguishing regulatory configurations among photosynthetic modules and proposing a DOF-NDH route, is attractive. However, the supplied material is an abstract only, and several central claims, particularly the causal link from ZmDOF30 to cyclic electron flow, ATP, photosynthetic performance, and field biomass, are stated without visible quantitative, statistical, or design detail. The work cannot be judged technically sound from the current evidence base, and the field-trial claim in particular is not evaluable.
+- **Who would be interested in the results, and why** Plant biologists working on C(4) photosynthesis, maize genetics, and bundle sheath cell biology; single-cell and multi-omics methodologists interested in regulatory architecture; physiologists studying cyclic electron flow and ATP balance; and applied researchers in crop improvement and bioenergy who follow NADP-ME grass traits. The proposed DOF-NDH regulatory route, if substantiated, would be of direct interest to those engineering photosynthetic performance.
+- **Major strengths** The study combines cell-type-resolved transcriptomic and chromatin accessibility data with histone profiling and transcription factor binding information, which is an appropriate multi-layered design for a regulatory question. The focus on bundle sheath cells and NDH-mediated cyclic electron flow addresses a genuinely under-resolved aspect of C(4) coordination. The inclusion of promoter dissection, transgenic perturbation, physiological measurements, and a field trial indicates an intent to move from correlation to function, which is the correct direction for this type of claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Causal inference
+    - **Claim pointer** Bundle sheath-enriched expression of ZmDOF30 increases NDH-associated expression, cyclic electron flow, leaf ATP content, and photosynthetic performance.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The abstract asserts a multi-level causal chain from a single transcription factor to molecular, biophysical, metabolic, and whole-plant phenotypes, but no effect sizes, statistical support, or experimental controls are visible. It is not possible to determine whether the observed changes are attributable to ZmDOF30 specifically rather than to transformation-associated or developmental effects.
+    - **Why it matters** This is the central functional claim on which the proposed improvement route rests. Without visible quantitative and control evidence, the causal interpretation is not established.
+    - **Resolution test** Provide quantitative fold changes with statistics for NDH-associated transcripts, measured cyclic electron flow, leaf ATP, and photosynthetic parameters in independent transgenic lines and appropriate null or empty-vector controls, with replication and growth conditions stated.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency for applied claim
+    - **Claim pointer** In a field trial, the transgenic lines showed increased growth and biomass.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** A field-trial claim of increased growth and biomass is presented without any indication of site, season, design, replication, plot size, trait measurement, or statistical model. Field trials are highly environment-dependent, and a single unreplicated or unspecified trial cannot support a general biomass claim.
+    - **Why it matters** The applied significance of the paper depends on this claim, and it is currently unverifiable from the supplied material.
+    - **Resolution test** Report the field-trial design, number of environments and replicates, biomass and growth measurements with units, statistical analysis, and whether effects were consistent across environments.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Specificity of regulatory mechanism
+    - **Claim pointer** The NDH-associated branch showed regulatory inputs linked to DOF transcription factors, and a 49 bp DOF-responsive cis element in the ZmNdhU promoter supports vascular bundle-associated reporter expression.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The abstract reports DOF-linked inputs and a DOF-responsive element but does not establish direct binding by ZmDOF30 or any specific DOF at this element, nor does it distinguish direct regulation from indirect effects. The statement that activity is sensitive to local sequence context and insertion position further suggests context dependence that is not resolved.
+    - **Why it matters** The mechanistic model requires direct, element-specific regulation. Without binding evidence and context controls, the regulatory link remains correlative.
+    - **Resolution test** Provide direct binding evidence such as ChIP or EMSA for the relevant DOF factor at the 49 bp element, with mutated-element controls, and show that context and position effects do not undermine the proposed regulatory logic.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Data integration and inference
+    - **Claim pointer** Selected carbon assimilation loci were associated with differential H3K27me3, whereas the NDH-associated branch showed DOF-linked regulatory inputs, distinguishing regulatory configurations among maize photosynthetic modules.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The multi-omics layers are described as integrated, but the abstract does not indicate how cell-type purity, cross-modality correspondence, or false-discovery control were handled. The claim of distinct regulatory architectures depends on the reliability of the cell-type-resolved assignments.
+    - **Why it matters** If cell-type enrichment or integration is imprecise, the central architectural distinction may not hold.
+    - **Resolution test** Report cell-type purity and marker-based validation, cross-modality concordance metrics, and multiple-testing correction for the differential histone and accessibility analyses.
+  - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Generalizability
+    - **Claim pointer** Comparative analyses revealed lineage-associated variation in predicted promoter-proximal DOF-binding potential within a broader H3K27me3-associated transcription factor background, with broader relevance to NADP-ME grasses.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The broader relevance claim rests on predicted binding potential rather than measured binding or function, and the comparative basis is not described. Prediction-based comparative inference is weak support for a generalizable regulatory model.
+    - **Why it matters** The stated broader relevance to NADP-ME grasses extends the claim beyond the directly tested system.
+    - **Resolution test** Clarify the species and datasets compared, distinguish prediction from experimental evidence, and temper or substantiate the generalizability statement accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Terminology and precision
+    - **Affected element** Use of "regulatory architectures" and "regulatory configurations"
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Issue** The terms are used interchangeably without operational definition, making it unclear what constitutes a distinct architecture.
+    - **Required correction** Define the criteria by which regulatory configurations are distinguished and apply them consistently.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Reporting completeness
+    - **Affected element** Photosynthetic performance
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Issue** "Photosynthetic performance" is not specified, so the measured parameter is unknown.
+    - **Required correction** State the specific measured parameters, for example assimilation rate, quantum yield, or electron transport rate, with units and conditions.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Naming and identity
+    - **Affected element** ZmDOF30 and ZmNdhU
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Issue** Gene identifiers and the basis for naming are not given, which limits traceability.
+    - **Required correction** Provide gene model identifiers and clarify the relationship between ZmDOF30 and the DOF inputs described at the NDH branch.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Scope of evidence
+    - **Affected element** Heterologous promoter context reporter expression
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Issue** The heterologous context is not identified, and its relevance to endogenous maize regulation is unclear.
+    - **Required correction** Specify the heterologous system and discuss the limits of extrapolation to endogenous regulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The most critical are R1-M1 and R1-M2, because the functional and applied conclusions cannot be evaluated from the supplied material.
+- **Assessment against Nature-style criteria** Originality is plausible, since single-cell multi-omics applied to C(4) bundle sheath regulation and NDH control is a relatively underexplored combination, but originality cannot be confirmed without the full text and comparison to prior work. Scientific importance is potentially high if the DOF-NDH route is causally established, but it is currently asserted rather than demonstrated. Interdisciplinary readership is likely, spanning plant physiology, genomics, and crop improvement. Technical soundness is not assessable from an abstract, and the causal and field-trial claims are the weakest points. Readability for nonspecialists is moderate, since the abstract is dense with specialized terms and would benefit from clearer operational definitions.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual direction is promising, but the central functional and applied claims require quantitative, controlled, and design-transparent support before the case can be considered made.
+
+## Risk / unsupported claims
+- The claim that bundle sheath-enriched ZmDOF30 increases cyclic electron flow, leaf ATP content, and photosynthetic performance is unsupported at the level of visible evidence, since no quantitative or statistical detail is provided.
+- The claim of increased growth and biomass in a field trial is not evaluable, as no trial design, replication, environment, or statistical analysis is described.
+- The claim that the 49 bp element is DOF-responsive and supports vascular bundle-associated expression lacks visible direct binding evidence and context controls.
+- The claim of distinct regulatory architectures coordinating carbon assimilation and cyclic electron flow depends on cell-type-resolved integration whose validation is not described.
+- The claim of broader relevance to NADP-ME grasses rests on predicted promoter-proximal DOF-binding potential rather than measured function, and is therefore weak.
+- The comparative lineage-associated variation claim is not evaluable without the species, datasets, and analytical framework.

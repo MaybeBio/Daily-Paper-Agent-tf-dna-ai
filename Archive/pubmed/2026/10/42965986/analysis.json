@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42965986",
+  "title": "Exploring the role and mechanism of methionine metabolism in chronic rhinosinusitis with nasal polyps based on bioinformatics analysis.",
+  "authors": "Lin, Dan",
+  "journal": "Brazilian journal of otorhinolaryngology",
+  "published_date": "2026-10-31",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 0,
+  "one_liner_zh": "基于生物信息学与机器学习分析甲硫氨酸代谢在慢性鼻窦炎伴鼻息肉中的作用，无蛋白质-DNA互作体系或结合建模，与本课题无关。",
+  "abstract": "OBJECTIVE: Chronic Rhinosinusitis with Nasal Polyps (CRSwNP) affects 1%-4% of the global population with high recurrence rates. While methionine metabolism abnormalities contribute to various inflammatory diseases, their role in CRSwNP pathogenesis remains unclear. This study aimed to systematically investigate the role of methionine metabolism in CRSwNP and identify potential biomarkers and therapeutic targets through integrating multi-omics data and interpretable machine learning approaches. METHODS: CRSwNP transcriptomic datasets (GSE136825, GSE179265) and single-cell data (GSE276503) were obtained from GEO database. Single-cell RNA sequencing analysis, differential expression analysis using limma, and Weighted Gene co-expression Network Analysis (WGCNA) were performed to identify methionine metabolism-related candidate genes. Three machine learning algorithms (LASSO, SVM-RFE, XGBoost) with SHAP interpretation screened core genes. Functions and mechanisms were explored through single-gene GSEA, ceRNA network construction, transcription factor prediction, immune infiltration analysis, and pseudotime trajectory analysis. Potential therapeutic drugs were identified via molecular docking. RESULTS: Among 14 candidate genes, CSTB, IGFBP3, and TCN1 were identified as core genes with excellent diagnostic performance (AUC > 0.85). SHAP analysis revealed CSTB and IGFBP3 as disease risk-promoting factors, while TCN1 showed protective effects. Single-cell analysis demonstrated all three genes were predominantly expressed in epithelial cells with significant differential expression patterns. They were enriched in primary immunodeficiency pathways and significantly correlated with immune cell infiltration, particularly M2 macrophages and activated dendritic cells. Molecular docking identified five potential therapeutic drugs including ambroxol, carbamazepine, and curcumin with favorable binding energies. CONCLUSION: Methionine metabolism participates in CRSwNP pathogenesis by regulating CSTB, IGFBP3, and TCN1, affecting epithelial cell function and immune microenvironment. These genes represent promising biomarkers for diagnosis and potential therapeutic targets, providing theoretical basis for developing metabolic-immune intervention strategies in CRSwNP management.",
+  "abstract_zh": "目的：慢性鼻窦炎伴鼻息肉（Chronic Rhinosinusitis with Nasal Polyps, CRSwNP）影响全球1%-4%的人口，且复发率高。尽管甲硫氨酸代谢异常参与多种炎症性疾病，但其在CRSwNP发病机制中的作用仍不明确。本研究旨在通过整合多组学数据和可解释机器学习方法，系统探究甲硫氨酸代谢在CRSwNP中的作用，并识别潜在的生物标志物和治疗靶点。方法：从GEO数据库获取CRSwNP转录组数据集（GSE136825、GSE179265）和单细胞数据（GSE276503）。通过单细胞RNA测序分析、使用limma的差异表达分析以及加权基因共表达网络分析（Weighted Gene co-expression Network Analysis, WGCNA）识别甲硫氨酸代谢相关候选基因。采用三种机器学习算法（LASSO、SVM-RFE、XGBoost）结合SHAP解释筛选核心基因。通过单基因GSEA、ceRNA网络构建、转录因子预测、免疫浸润分析和拟时序轨迹分析探究功能与机制。通过分子对接识别潜在治疗药物。结果：在14个候选基因中，CSTB、IGFBP3和TCN1被鉴定为核心基因，具有优异的诊断性能（AUC > 0.85）。SHAP分析揭示CSTB和IGFBP3为疾病风险促进因子，而TCN1表现出保护作用。单细胞分析表明这三个基因主要在上皮细胞中表达，具有显著的差异表达模式。它们富集于原发性免疫缺陷通路，并与免疫细胞浸润显著相关，尤其是M2巨噬细胞和活化树突状细胞。分子对接识别出五种潜在治疗药物，包括氨溴索、卡马西平和姜黄素，具有有利的结合能。结论：甲硫氨酸代谢通过调控CSTB、IGFBP3和TCN1参与CRSwNP发病机制，影响上皮细胞功能和免疫微环境。这些基因是有前景的诊断生物标志物和潜在治疗靶点，为开发CRSwNP管理中的代谢-免疫干预策略提供了理论依据。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42965986/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42965986/",
+  "paper_page_path": "papers/pubmed/42965986/index.html"
+}

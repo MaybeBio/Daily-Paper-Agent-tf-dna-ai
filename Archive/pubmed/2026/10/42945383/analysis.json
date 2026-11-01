@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42945383",
+  "title": "An extensible deep learning framework for multi-type chromatin interaction prediction through hierarchical adaptation strategies.",
+  "authors": "Wang, Shuaibin; Chen, Tong; Liu, Weixu; Zheng, Xuejie; Yang, Zhongxin; Liang, Zhen; Shen, Yin",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-10-27",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出多任务深度学习框架UniLoopNet，从DNA序列预测多种染色质互作（含增强子-启动子、CTCF介导环等），虽非直接TF-DNA结合建模，但涉及蛋白-DNA互作相关调控元件且方法可迁移至TF-DNA位点预测。",
+  "abstract": "Three-dimensional chromatin interactions play essential roles in gene regulation, yet computational prediction of diverse interaction types remains largely dependent on specialized, single-task models. Here, we present UniLoopNet, a multi-task deep learning framework that predicts multiple types of chromatin interactions including enhancer-promoter interactions, enhancer-enhancer interactions, CTCF-mediated loops, and stripe-associated interactions from DNA sequences. UniLoopNet employs a shared encoder-decoder architecture with hierarchical adaptation strategies, integrating multi-task, transfer, and continual learning based on task semantic similarity. Comprehensive benchmarking across multiple cell lines demonstrates that UniLoopNet outperforms existing specialized and multi-task approaches, with AUROCs exceeding 0.90 in most tasks. Under stringent evaluation settings, including chromosome-matched, distance-matched, realistic imbalanced, and locus-disjoint tests, AUROCs range from 0.8934 to 0.9366. In the realistic 1:5 class-imbalance setting, the AUPRCs for enhancer-promoter and enhancer-enhancer interaction prediction are 0.7956 and 0.6935, respectively. Cross-cell-line transfer experiments further show that applying UniLoopNet to another cell line requires adaptation by supervised fine-tuning on target-cell-line data, after which performance is comparable to that of within-cell-line training. Notably, the framework exhibits data efficiency in experiments with substantially reduced training data. Interpretability analyses reveal that the learned sequence features are associated with known transcription factor binding sites and uncover differential regulatory effects of disease-associated variants. UniLoopNet provides a versatile and data-efficient framework for sequence-based prediction and interpretation of diverse 3D genome interactions, complementing existing sequence-to-map approaches while improving the understanding of sequence-encoded regulatory potential.",
+  "abstract_zh": "三维染色质相互作用在基因调控中发挥重要作用，然而对不同类型相互作用的计算预测仍主要依赖于专门的单任务模型。在此，我们提出UniLoopNet，一个多任务深度学习框架，能够从DNA序列预测多种类型的染色质相互作用，包括增强子-启动子相互作用、增强子-增强子相互作用、CTCF介导的环以及条纹相关相互作用。UniLoopNet采用共享的编码器-解码器架构，并配备层次化适应策略，基于任务语义相似性整合多任务学习、迁移学习和持续学习。跨多个细胞系的综合基准测试表明，UniLoopNet优于现有的专门方法和多任务方法，在大多数任务中AUROC超过0.90。在严格评估设置下，包括染色体匹配、距离匹配、现实不平衡和位点不相交测试，AUROC范围从0.8934到0.9366。在现实的1:5类别不平衡设置中，增强子-启动子和增强子-增强子相互作用预测的AUPRC分别为0.7956和0.6935。跨细胞系迁移实验进一步表明，将UniLoopNet应用于另一个细胞系需要通过目标细胞系数据的监督微调进行适应，之后性能与细胞系内训练相当。值得注意的是，该框架在训练数据大幅减少的实验中表现出数据效率。可解释性分析揭示，学习到的序列特征与已知转录因子结合位点相关，并发现疾病相关变异的差异调控效应。UniLoopNet为基于序列的多样化3D基因组相互作用预测和解释提供了一个多功能且数据高效的框架，补充了现有的序列到图谱方法，同时增进了对序列编码调控潜力的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42945383/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42945383/",
+  "paper_page_path": "papers/pubmed/42945383/index.html"
+}

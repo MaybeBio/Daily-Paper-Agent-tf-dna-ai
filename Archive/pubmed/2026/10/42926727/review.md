@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, ArXiv, 2026-10-25)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors present ARGUS, an agentic framework that separates deterministic biological computation from LLM-mediated reasoning to interpret noncoding single nucleotide variants. They claim that this architecture prevents LLM hallucination of biological findings, produces observation-dependent investigation trajectories, and reaches verdicts comparable to fixed-priority planning with fewer tool calls, as demonstrated on variant rs6983267.
+- **Visible evidence base** Abstract, Introduction, Architecture, Results (including four trajectory descriptions and a planning comparison), Discussion, Conclusion, Code Availability, Funding. No figures, tables, or supplementary materials were provided.
+- **Missing materials affecting confidence** Figures and tables (referenced but not shown), code repository contents, full tool outputs (ADASTRA, JASPAR, ENCODE cCRE), the complete set of five hypotheses (only four trajectories are described in detail), and any quantitative evaluation metrics. The absence of these materials limits verification of the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually important design principle: separating deterministic biological classification from LLM-mediated reasoning to prevent hallucination in genomic variant interpretation. The architecture is clearly described and the case study at rs6983267 illustrates the intended behavior. However, the evidence base is thin. The evaluation comprises a single variant and five hypotheses, with no quantitative benchmarks, no comparison against existing interpretation tools, and no systematic assessment of the LLM planner's reliability. The claims about hallucination reduction and planning efficiency are supported only by anecdotal observations. The manuscript is a promising proof-of-concept but does not yet establish the general validity of the approach.
+- **Who would be interested in the results, and why** Researchers in genomic medicine, regulatory genomics, and AI for science would be interested. The work addresses a well-recognized bottleneck in interpreting noncoding GWAS variants and proposes a concrete architectural solution to a known failure mode of LLMs in biological reasoning. The design pattern of evidence-constrained agentic systems could generalize beyond genomics.
+- **Major strengths** 1) The core design principle, deterministic science, agentic reasoning, is clearly articulated and addresses a real problem. 2) The architecture is modular and auditable, with explicit separation of responsibilities. 3) The case study demonstrates the intended behavior: divergent trajectories based on real evidence, including a rescue of a saturated model prediction. 4) The authors are transparent about limitations and do not overclaim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that ARGUS demonstrates that the hallucination problem in agentic genomics is not inevitable and that the system produces conclusions that are actively tested.
+  - **Evidence pointer** Results section, Discussion section
+  - **Concern** The evaluation is limited to a single variant (rs6983267) and five TF hypotheses. No quantitative metrics are provided for accuracy, hallucination rate, or comparison against baseline methods. The claim that ARGUS solves the hallucination problem is not supported by this evidence base.
+  - **Why it matters** A single case study, however illustrative, cannot establish that the architecture generalizes across variants, TFs, or genomic contexts. The central claim of the manuscript requires broader evaluation.
+  - **Resolution test** Provide a systematic evaluation across a diverse set of variants and TFs, with quantitative comparison against (a) LLM-only interpretation, (b) fixed-pipeline approaches, and (c) existing variant effect predictors. Report metrics such as precision, recall, and rate of unsupported claims.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that all observations are from real local database queries and that the code is available at a GitHub repository.
+  - **Evidence pointer** Results section, Code Availability section
+  - **Concern** The code repository is referenced but not described in detail. No version, dependencies, or usage instructions are provided. The specific versions of ADASTRA, JASPAR, and ENCODE data are not specified. The AlphaGenome Atlas query uses SDK version 0.9.0, but the data release version is only given as a date.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without precise versioning and documentation, other researchers cannot verify or build upon the results.
+  - **Resolution test** Provide a detailed description of the code repository, including dependencies, data versions, and a reproducible workflow. Consider archiving the code and data in a permanent repository.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of LLM planner comparison
+  - **Claim pointer** The manuscript claims that the LLM planner reaches identical verdicts with fewer tool calls by declining evidence that cannot resolve the claim under test.
+  - **Evidence pointer** Results section, Fixed vs. LLM-Mediated Planning subsection
+  - **Concern** The comparison between fixed and LLM-mediated planning is based on five hypotheses and three replicates. The claim of efficiency is based on tool call counts, but no statistical analysis is provided. The potential for the LLM planner to make suboptimal or unsafe decisions is not assessed.
+  - **Why it matters** The claim that LLM-mediated planning is more efficient is interesting but not established. If the LLM planner occasionally skips evidence that would change a verdict, the efficiency gain could come at the cost of accuracy.
+  - **Resolution test** Expand the comparison to a larger set of hypotheses, report variability across replicates, and analyze cases where the LLM planner's decisions differ from the fixed planner. Assess whether any skipped evidence would have changed the verdict.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence describing the prototype failure with Qwen 2.5 7B is illustrative but the log-odds ratio calculation is not shown. The numbers (0.007 and 0.0009) are given, but the ratio is stated as 3.02, which does not match log(0.007/0.0009) ≈ 2.05.
+  - **Required correction** Verify the calculation or rephrase to avoid a specific numerical claim that may be incorrect.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results, Observation-Dependent Branching subsection
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "The planner's decision at each step depends on the verdict of the previous step, not on a predetermined sequence" is repeated verbatim in consecutive paragraphs.
+  - **Required correction** Remove the duplicate sentence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that five hypotheses were evaluated but only four trajectories are described (FOXA1, KLF6, RAD21, SP1). The fifth hypothesis is not mentioned.
+  - **Required correction** Describe the fifth hypothesis or clarify why it is omitted.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion, Limitations subsection
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement about the SCREEN API being unreachable is relevant but the potential impact on results is not discussed. The locally indexed BED files may lack biospecific annotations, which could affect the interpretation of ENCODE cCRE evidence.
+  - **Required correction** Briefly discuss how this limitation might affect the conclusions drawn from cCRE evidence.
+- **Technical failings that need to be addressed before the case is established** 1) The evaluation is too limited to support the central claims (R1-M1). 2) Reproducibility details are insufficient (R1-M2). 3) The LLM planner comparison lacks statistical rigor (R1-M3). These are not technical errors in the code but rather gaps in evidence and reporting that prevent the case from being fully established.
+- **Assessment against Nature-style criteria** Originality: The design principle of separating deterministic computation from LLM reasoning is not entirely new but its application to genomic variant interpretation with a focus on hallucination prevention is a fresh contribution. Scientific importance: The problem addressed is significant, but the current evidence does not demonstrate broad impact. Interdisciplinary readership: The work bridges AI and genomics and would appeal to both communities, though the technical detail may be dense for nonspecialists. Technical soundness: The architecture is sound in principle, but the evaluation is insufficient to confirm its reliability. Readability for nonspecialists: The manuscript is generally clear but assumes familiarity with genomic terminology and LLM agent architectures.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the architecture is well-conceived, but the evidence base must be substantially expanded before the claims can be accepted.
+
+## Risk / unsupported claims
+- The claim that ARGUS eliminates the category of hallucinations where the model misinterprets numerical outputs is not supported by systematic evaluation.
+- The claim that the LLM planner reaches identical verdicts with fewer tool calls is based on a small, non-statistical comparison.
+- The claim that the system produces conclusions that are actively tested is only demonstrated for a single variant.
+- The statement that the same planner produces divergent trajectories is supported by the case study but not generalized.
+- The claim that the architecture is model-agnostic is plausible but not demonstrated beyond the specific DNABERT models used.

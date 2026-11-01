@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only, plus metadata and a competing interest statement. No full text, figures, tables, methods, or supplementary material were supplied.
+- **Assessment boundary** Evaluation is restricted to the claims stated in the abstract and the evidence types named there. No assessment of data quality, statistics, model convergence, or figure-level support is possible.
+- **Shared manuscript claim summary** The authors report that RelA/p50 (NFκB) binds partial consensus (half-site) DNA with high affinity. Using HDX-MS and MD simulations, they claim that rearranging nucleotides at the RelA-interacting end of a consensus sequence to create a half-site induces dynamic structural changes in both subunits, and that MD reveals a shift in DNA position within the binding pocket that optimizes interaction with the half-site, allowing fine-tuning for high-affinity binding to multiple target sequences.
+- **Visible evidence base** Abstract-level description of HDX-MS experiments and MD simulations. No quantitative binding data, no statistics, no structural metrics, no replicate information, and no accession or code availability are visible.
+- **Missing materials affecting confidence** Full text, figures, tables, methods, HDX-MS data processing and coverage maps, MD system setup and convergence analysis, binding affinity measurements (for example ITC, SPR, or EMSA), replicate counts, error estimates, and any independent validation. These omissions prevent verification of the central affinity and mechanism claims.
+
+## Reviewer
+- **Overall assessment** The question is well motivated and the combination of HDX-MS with MD is appropriate for examining conformational and dynamic adaptation in a heterodimeric transcription factor bound to suboptimal DNA. However, the supplied material is an abstract only. The central claims, namely high-affinity binding of half-sites and an ensemble-optimization mechanism involving a DNA positional shift, are asserted rather than demonstrated in the visible evidence. As presented, the work is a promising but unverified report. The claims cannot be judged as established from the material provided.
+- **Who would be interested in the results, and why** Researchers in transcription factor biology, gene regulation, and NFκB signaling would be interested because the fraction of RelA bound to nonconsensus sites in ChIP-Seq data is a recognized puzzle. Structural biologists and computational biophysicists working on protein-DNA recognition and ensemble dynamics would also be interested, since the proposed mechanism invokes coupled subunit dynamics and DNA repositioning rather than a static lock-and-key model. The work would also be relevant to those developing models of enhancer grammar and to groups interpreting ChIP-Seq peaks that lack canonical motifs.
+- **Major strengths** The problem is clearly framed and biologically relevant, since the abstract states that nearly half of DNA-bound RelA occupies nonconsensus sequences. The use of two orthogonal approaches, solution-phase HDX-MS and MD simulation, is a reasonable strategy for linking conformational dynamics to binding behavior. The conceptual model, in which a half-site at one 4-nucleotide contact region propagates dynamic changes through both subunits and repositions DNA in the pocket, is specific and testable. The abstract is concise and states a clear mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Claim support and quantitative evidence
+    - **Claim pointer** RelA/p50 achieves high-affinity binding with partial consensus (half-site) sequences.
+    - **Evidence pointer** Abstract, location not provided
+    - **Concern** The abstract asserts high-affinity binding but no binding affinities, dissociation constants, or comparative measurements between consensus and half-site sequences are visible. HDX-MS and MD report on dynamics and structure, not directly on affinity.
+    - **Why it matters** The central conclusion of the paper is an affinity claim. Without direct equilibrium or kinetic binding measurements, the mechanism proposed by MD and HDX-MS cannot be tied to the stated functional outcome.
+    - **Resolution test** Provide direct binding measurements for consensus and half-site sequences under matched conditions, with replicates and error estimates, and show that half-site affinities are comparable to or within a defined range of consensus.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Mechanistic inference from simulation
+    - **Claim pointer** MD simulations reveal a shift in the position of DNA within the RelA/p50 binding pocket that allows optimal interaction with the half-site sequence.
+    - **Evidence pointer** Abstract, location not provided
+    - **Concern** The claim of a DNA positional shift is stated without any visible simulation details, convergence assessment, replicate trajectories, or quantitative measure of the shift. It is not possible to determine whether the observed shift is reproducible or an artifact of force field, starting structure, or sampling.
+    - **Why it matters** A conformational rearrangement inferred from a single or unconverged trajectory would not support a general mechanism. The claim is mechanistic and requires demonstrated reproducibility and statistical characterization.
+    - **Resolution test** Report the number of independent trajectories, simulation lengths, convergence metrics, and a quantitative distribution of DNA position or base-pair register across replicates, with comparison to a consensus-bound control.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Experimental design and interpretation
+    - **Claim pointer** Rearranging nucleotides at the RelA-interacting end of a consensus sequence to form a half-site induces dynamic structural changes through both subunits of RelA/p50.
+    - **Evidence pointer** Abstract, location not provided
+    - **Concern** The abstract does not specify the sequences compared, the number of half-site variants, or whether the observed HDX-MS changes are localized or global. It also does not state whether changes in deuterium uptake are statistically significant or within experimental error.
+    - **Why it matters** HDX-MS differences can arise from altered binding kinetics, oligomeric state, or solvent accessibility rather than a specific allosteric pathway. Without sequence definitions and significance testing, the claim of coupled dynamic changes through both subunits is not evaluable.
+    - **Resolution test** Define all DNA sequences used, report peptide-level deuterium uptake with replicates and confidence intervals, and show that changes in both RelA and p50 exceed a pre-specified significance threshold relative to controls.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Generalization of the claim
+    - **Claim pointer** RelA/p50 fine-tunes its interactions to achieve high-affinity binding with multiple different target DNA sequences.
+    - **Evidence pointer** Abstract, location not provided
+    - **Concern** The abstract does not indicate how many distinct nonconsensus or half-site sequences were tested, nor whether the proposed mechanism generalizes beyond a single half-site construct. The phrase multiple different target DNA sequences is not supported by any visible count or diversity of sequences.
+    - **Why it matters** A generalizable mechanism requires sampling across sequence space. If only one or two half-sites were examined, the conclusion should be limited accordingly.
+    - **Resolution test** State the number and identity of all sequences tested, and show that the proposed dynamic and positional mechanism holds across them, or restrict the conclusion to the specific sequences examined.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Terminology and precision
+    - **Affected element** Use of the term half-site
+    - **Evidence pointer** Abstract, location not provided
+    - **Issue** The abstract defines half-sites as matching the consensus at only one of two 4-nucleotide interaction sites, but does not specify which site, nor whether the RelA-interacting or p50-interacting site is varied in each experiment.
+    - **Required correction** Define each construct explicitly, including which 4-nucleotide element matches consensus and which is altered.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Quantitative reporting
+    - **Affected element** Absence of numerical values in the abstract
+    - **Evidence pointer** Abstract, location not provided
+    - **Issue** No numerical values are given for affinity, deuterium uptake changes, or simulation observables, which limits the reader's ability to gauge effect size.
+    - **Required correction** Include at least one quantitative anchor, such as a fold change in affinity or a range of deuterium uptake differences, in the abstract or in the visible summary.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Reproducibility and data availability
+    - **Affected element** Data and code availability
+    - **Evidence pointer** Abstract and metadata, location not provided
+    - **Issue** No accession numbers, code repositories, or supplementary data locations are visible in the supplied material.
+    - **Required correction** Provide HDX-MS data deposition, MD trajectory or parameter availability, and analysis code, or state where these are located in the full manuscript.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Relationship to prior literature
+    - **Affected element** Context for the nonconsensus binding puzzle
+    - **Evidence pointer** Abstract, location not provided
+    - **Issue** The abstract cites ChIP-Seq evidence that nearly half of DNA-bound RelA occupies nonconsensus sequences but does not indicate how the present mechanism relates to or departs from prior structural or thermodynamic explanations.
+    - **Required correction** Briefly state the prior explanations and how the proposed ensemble-optimization mechanism differs or extends them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The affinity claim lacks direct binding data, and the mechanistic claim lacks demonstrated simulation convergence and reproducibility. R1-M3 and R1-M4 further limit interpretation but are not by themselves blocking if M1 and M2 are resolved.
+- **Assessment against Nature-style criteria** Originality is moderate to high, since the combination of HDX-MS and MD to explain nonconsensus binding by a heterodimeric transcription factor addresses a recognized gap. Scientific importance is potentially significant for gene regulation and NFκB biology, but it is currently asserted rather than demonstrated. Interdisciplinary readership is plausible, spanning structural biology, computational biophysics, and genomics, though the abstract does not yet make the work accessible to nonspecialists beyond a general statement. Technical soundness cannot be evaluated from the supplied material, and the two central claims rest on evidence types that are not visible. Readability for nonspecialists is adequate at the abstract level, but the mechanistic language around ensemble optimization and DNA positional shifts would need clearer definition for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if technical concerns are resolved, in particular if direct binding measurements and converged, replicated simulations substantiate the affinity and positional-shift claims.
+
+## Risk / unsupported claims
+- The claim of high-affinity binding of partial consensus sites is unsupported in the visible material because no binding affinities or comparative measurements are provided.
+- The claim that MD reveals a DNA positional shift optimizing half-site interaction is unsupported because no simulation setup, convergence, or replicate information is visible.
+- The claim that dynamic structural changes propagate through both subunits is weak as presented, since no peptide-level HDX-MS data, sequence definitions, or significance testing are visible.
+- The claim of fine-tuning for multiple different target DNA sequences is unsupported because the number and identity of sequences tested are not stated.
+- The general mechanistic model of ensemble optimization is not evaluable from the abstract alone and should be treated as a hypothesis pending full data.

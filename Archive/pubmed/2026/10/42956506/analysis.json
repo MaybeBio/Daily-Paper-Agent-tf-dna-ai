@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42956506",
+  "title": "Computational prioritization and molecular dynamics analysis of FOXA2 missense variants with potential relevance to colorectal cancer.",
+  "authors": "Mia, Md Sohel; Talukder, Md Enamul Kabir; Tanmoy, Md Shahed Imam; Raisa, Israt Jahan; Datta, Bimal Kumar; Shadhin, Md Saklain Tanver; Tahsin, Nowmee; Imon, Raihan Rahman; Aktaruzzaman, Md; Zargar, Seema; Wani, Tanveer A",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2026-10-29",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过多算法预测与分子动力学模拟，系统评估FOXA2转录因子错义突变对DNA结合域结构及动态互作的影响，核心聚焦TF-DNA结合机制，方法上结合AI预测与MD模拟，高度匹配本课题。",
+  "abstract": "The pioneer transcription factor FOXA2 controls developmental gene programmes, metabolic homeostasis and epithelial-mesenchymal plasticity, and its expression dysregulation is a recognized feature of colorectal cancer. The structural and thermodynamic consequences of FOXA2 missense variants remain poorly defined. We interrogated 659 missense SNPs across the human FOXA2 locus within an integrated multi-algorithm framework. Sequential filtering with SIFT, PolyPhen-2, PhD-SNP and SNPs&GO converged on three high-confidence deleterious variants (M190I, R197Q and L402P), which were profiled further with ConSurf, I-Mutant 2.0, MUpro, MutPred2 and DynaMut2. Conservation and structural mapping placed M190I (ConSurf-8) and R197Q (ConSurf-9) in the winged-helix DNA-binding domain (PF00250) and L402P (ConSurf-5) in the HNF_C domain (PF09354). R197Q is solvent-exposed and predicted to perturb promoter DNA contacts, whereas the buried M190I and L402P substitutions are predicted to act through local destabilization at the substitution site. In three independent 50-ns molecular dynamics replicates per system, all variants deviated from wild-type backbone behavior. M190I converged prematurely into a displaced conformational state, whereas R197Q and L402P continued to drift late in the trajectories. Backbone fluctuations increased non-locally, clustering in flexible regulatory segments (~290-316) and the C-terminal transactivation domain 2 (452-456). Principal component analysis indicated a more concentrated collective-mode structure in the mutants, and dynamic cross-correlation analysis weakened residue coupling, consistent with disrupted long-range communication. Of twelve trajectory-level comparisons, only the R197Q hydrogen-bond reduction reached nominal significance (p = 0.025, Hedges' g = -2.28), indicating a large reduction in average hydrogen-bond count relative to wild-type; the remaining eleven comparisons showed non-significant moderate-to-large effects. Expression enrichment was highest in colorectal cancer cell lines, providing expression-level context for FOXA2 in CRC biology. These findings computationally prioritize M190I, R197Q and L402P as candidates for experimental validation.",
+  "abstract_zh": "先锋转录因子FOXA2控制发育基因程序、代谢稳态和上皮-间质可塑性，其表达失调是结直肠癌的一个公认特征。FOXA2错义变异的结构和热力学后果仍缺乏明确界定。我们在一个整合的多算法框架内，对人类FOXA2基因座上的659个错义SNP进行了探究。通过SIFT、PolyPhen-2、PhD-SNP和SNPs&GO的序贯筛选，收敛出三个高置信度有害变异（M190I、R197Q和L402P），并进一步使用ConSurf、I-Mutant 2.0、MUpro、MutPred2和DynaMut2对其进行了分析。保守性和结构映射将M190I（ConSurf-8）和R197Q（ConSurf-9）定位在翼状螺旋DNA结合域（PF00250）中，将L402P（ConSurf-5）定位在HNF_C域（PF09354）中。R197Q暴露于溶剂中，预计会扰动启动子DNA接触，而埋藏的M190I和L402P替换则预计通过替换位点的局部去稳定化发挥作用。在每个系统的三个独立50纳秒分子动力学重复中，所有变异均偏离了野生型主链行为。M190I过早收敛到位移构象状态，而R197Q和L402P在轨迹后期继续漂移。主链波动非局部增加，聚集在柔性调控区段（~290-316）和C端反式激活域2（452-456）中。主成分分析表明突变体中集体模式结构更集中，动态交叉相关分析显示残基耦合减弱，与长程通讯中断一致。在十二个轨迹级比较中，仅R197Q的氢键减少达到名义显著性（p = 0.025，Hedges' g = -2.28），表明相对于野生型，平均氢键数量大幅减少；其余十一个比较显示非显著的中等到大效应。表达富集在结直肠癌细胞系中最高，为CRC生物学中的FOXA2提供了表达水平背景。这些发现通过计算优先将M190I、R197Q和L402P列为实验验证的候选对象。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42956506/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42956506/",
+  "paper_page_path": "papers/pubmed/42956506/index.html"
+}

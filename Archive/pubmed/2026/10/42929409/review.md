@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only, as supplied
+- **Assessment boundary** Evaluation is restricted to the claims and evidence visible in the abstract. No full text, figures, tables, methods, statistics, or supplementary material were provided.
+- **Shared manuscript claim summary** The authors propose that H(2)S-driven persulfidation of Keap1 at Cys151 weakens productive Cul3 engagement, reduces Nrf2 ubiquitination, and thereby supports an Akt/Nrf2/HMOX1-GPX4 anti-ferroptotic program. The claim is supported by network pharmacology, Keap1-Cul3 structural modeling with MD and MMGBSA, biochemical assays on wild-type and C151S Keap1, and cell-based expression analysis.
+- **Visible evidence base** Abstract-level description of network pharmacology prioritization, three 100-ns MD replicates per state, MMGBSA estimates, RMSD/Rg/RMSF analyses, interface contact counts, a reported Glu192-Lys68 salt-bridge loss, purified-protein persulfide detection, secondary-structure and thermal-stability measurements, BTB dimerization, Cul3 affinity measurements, reconstituted Nrf2 ubiquitination, and HepG2 western blot and qPCR results.
+- **Missing materials affecting confidence** Full text, figures, tables, detailed methods, replicate statistics, uncertainty estimates for most reported quantities, simulation convergence data, model validation metrics, and independent replication are not available. Confidence in the mechanistic chain is therefore limited.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a plausible and potentially useful mechanism linking H(2)S-responsive Keap1 chemistry to Nrf2 stabilization and ferroptosis resistance. The combination of structural modeling, purified-protein biochemistry, and cell-based readouts is appropriate in principle. However, from the supplied abstract alone, the central mechanistic claim is not fully established. Key quantitative and statistical details are absent, the causal chain from Cys151 persulfidation to reduced Cul3 engagement to Nrf2 stabilization to ferroptosis resistance is only partially demonstrated, and the modeling evidence is correlative rather than definitive. The work is promising but currently incomplete as a mechanistic case.
+- **Who would be interested in the results, and why** Researchers in redox biology, gasotransmitter signaling, Keap1-Nrf2 pharmacology, ferroptosis, and medicinal chemistry would be interested. The proposed H(2)S-Keap1-Cul3 axis could inform development of ferroptosis-modulating agents and provide a structural rationale for targeting Cys151-dependent Keap1 regulation.
+- **Major strengths** The study integrates multiple complementary approaches, including network pharmacology, structural modeling, MD simulation, MMGBSA, purified-protein biochemistry, and cell-based assays. The use of wild-type versus C151S Keap1 provides a direct test of cysteine dependence. The reported loss of the Glu192-Lys68 salt bridge and expansion of interface contacts offer a concrete structural hypothesis. The biochemical measurement of Cul3 affinity and reconstituted Nrf2 ubiquitination provides a direct in vitro link between persulfidation and Nrf2 stabilization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Mechanistic causality
+    - **Claim pointer** Persulfidation of Keap1 Cys151 weakens productive Cul3 engagement and reduces Nrf2 ubiquitination in vitro, supporting H(2)S-responsive Keap1 modification as a contributor to Nrf2 stabilization.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** The abstract reports reduced Cul3 affinity and lowered reconstituted Nrf2 ubiquitination, but does not establish that these effects are directly caused by Cys151 persulfidation rather than by secondary conformational or aggregation effects. The C151S control is necessary but not sufficient to prove that the persulfide itself, rather than NaHS-induced oxidative changes, drives the effect.
+    - **Why it matters** The central mechanistic claim depends on a causal link between Cys151 persulfidation and weakened Cul3 engagement. Without direct evidence that the persulfide adduct is the causal species, the mechanism remains correlative.
+    - **Resolution test** Provide direct quantification of persulfide occupancy at Cys151, demonstrate that persulfide stabilization or removal tracks with Cul3 affinity and ubiquitination, and exclude alternative oxidative modifications at other cysteines by mass spectrometry or equivalent.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Structural modeling validity
+    - **Claim pointer** Simulations indicate associated remodeling of the BTB-Cul3 interface, with interface contacts expanding from 20 to 45 residues and loss of the Glu192-Lys68 salt bridge.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** The abstract reports RMSD, Rg, and RMSF results and interface contact changes, but provides no convergence assessment, no replicate agreement metrics, no statistical comparison across replicates, and no validation of the modeled persulfidated state against experimental structural data. The claim that BTB self-RMSD was lower than wild type while Cys151 and Cul3 RMSD were higher is difficult to interpret without distributions and significance testing.
+    - **Why it matters** MD-derived interface remodeling is only meaningful if the simulations are converged and the persulfidated state is modeled accurately. Without these controls, the structural conclusions are not established.
+    - **Resolution test** Report per-replicate convergence metrics, block averaging or equivalent, statistical comparisons across replicates, and validation of the persulfidated Keap1 model against available structural or biochemical constraints.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Functional relevance to ferroptosis
+    - **Claim pointer** In HepG2 cells, NaHS increased Nrf2, HMOX1, and phospho-Akt/Akt and restored GPX4 under erastin-induced stress, supporting an Akt/Nrf2/HMOX1-GPX4 anti-ferroptotic defense.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** The abstract reports expression changes but does not report direct ferroptosis measurements such as lipid peroxidation, cell viability, or iron-dependent death. The claim of ferroptosis resistance is therefore not directly demonstrated. In addition, the link between the in vitro Cul3 affinity change and the cellular Nrf2 increase is not established.
+    - **Why it matters** The title and abstract frame the work as a ferroptosis resistance mechanism. Without direct ferroptosis readouts and without connecting the biochemical mechanism to the cellular phenotype, the central claim is unsupported.
+    - **Resolution test** Include direct ferroptosis assays, test whether C151S or Cul3-binding mutants abolish the NaHS effect on ferroptosis, and show that Nrf2 stabilization is required for the protective effect.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Quantitative reporting and statistics
+    - **Claim pointer** Cul3 affinity changed from 0.9 +/- 0.2 to 2.4 +/- 0.5 muM, and Nrf2 ubiquitination was lowered to 40% of control.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** The abstract reports selected means and standard deviations but does not state replicate numbers, statistical tests, or significance for most comparisons. The MD and MMGBSA results are described qualitatively without numerical values or uncertainty.
+    - **Why it matters** Without statistical detail, the strength and reproducibility of the reported effects cannot be judged.
+    - **Resolution test** Provide n values, statistical tests, exact p values or confidence intervals, and numerical summaries for all MD and MMGBSA comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Network pharmacology
+    - **Affected element** Prioritization of NFE2L2, HMOX1, AKT1, and SIRT1
+    - **Evidence pointer** Abstract only; location not provided
+    - **Issue** The abstract states that network analysis prioritized these targets but does not describe the network construction, data sources, or enrichment criteria.
+    - **Required correction** Provide the network pharmacology workflow, input datasets, and statistical criteria for target prioritization.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Biochemical characterization
+    - **Affected element** Persulfide detection and structural stability
+    - **Evidence pointer** Abstract only; location not provided
+    - **Issue** The abstract reports that NaHS generated a Cys151-dependent persulfide without altering secondary structure, thermal stability, or BTB dimerization, but does not specify the detection method or the limits of detection.
+    - **Required correction** State the persulfide detection method, quantification, and detection limits, and provide the raw data for secondary structure, thermal stability, and dimerization.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Cell-based assays
+    - **Affected element** HepG2 western blotting and qPCR
+    - **Evidence pointer** Abstract only; location not provided
+    - **Issue** The abstract does not report whether the cellular effects were Cys151-dependent, nor whether NaHS concentrations were within physiologically relevant ranges.
+    - **Required correction** Include C151S or Keap1-deficient cell controls, report NaHS concentration-response, and confirm that the effects are Nrf2-dependent.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Abstract terminology
+    - **Evidence pointer** Abstract only; location not provided
+    - **Issue** The abstract uses dense abbreviations and assumes familiarity with Keap1-Cul3 biology, which may limit accessibility.
+    - **Required correction** Define key terms at first use and provide a brief plain-language statement of the mechanism and its significance.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The causal role of Cys151 persulfidation, the validity of the MD-derived interface remodeling, and the direct demonstration of ferroptosis resistance are the critical gaps.
+- **Assessment against Nature-style criteria** Originality is moderate, as H(2)S and Keap1-Nrf2 signaling have been studied, but the specific structural route linking Cys151 persulfidation to Cul3 engagement is a potentially novel contribution. Scientific importance is potentially high if the mechanism is validated, given the need for ferroptosis suppression strategies. Interdisciplinary readership is plausible, spanning redox biology, structural biology, and pharmacology. Technical soundness is currently limited by missing statistical and convergence details and by the absence of direct ferroptosis assays. Readability for nonspecialists is moderate to low because of dense terminology and abbreviated reporting.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if technical concerns are resolved, particularly the causal role of Cys151 persulfidation, the rigor of the structural modeling, and direct demonstration of ferroptosis resistance.
+
+## Risk / unsupported claims
+- The claim that H(2)S-responsive Keap1 modification contributes to Nrf2 stabilization and anti-ferroptotic defense is not fully supported by direct ferroptosis measurements in the supplied material.
+- The claim that persulfidation of Cys151 directly weakens Cul3 engagement is supported by affinity and ubiquitination data but not by direct evidence that the persulfide adduct is the causal species.
+- The claim that simulations indicate remodeling of the BTB-Cul3 interface is weak without convergence metrics, replicate statistics, and model validation.
+- The claim that network analysis prioritized NFE2L2, HMOX1, AKT1, and SIRT1 is not evaluable without the network construction and statistical criteria.
+- The claim that NaHS restored GPX4 under erastin-induced stress is not accompanied by direct measures of lipid peroxidation or cell death, so the functional significance for ferroptosis resistance is not established.

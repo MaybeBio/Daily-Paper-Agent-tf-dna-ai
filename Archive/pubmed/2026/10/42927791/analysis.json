@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42927791",
+  "title": "Direction-aware graph attention modeling and co-expression integration reveal novel core regulators of shared drought and salinity stress responses in rice leaves.",
+  "authors": "Safarzadeh, Mahdieh; Tohidfar, Masoud",
+  "journal": "Plant science : an international journal of experimental plant biology",
+  "published_date": "2026-10-25",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用方向感知图注意力网络从水稻叶片转录组推断TF为中心的基因调控网络，虽涉及TF调控关系推断，但基于共表达而非三维蛋白-DNA互作建模，方法可迁移但非直接匹配。",
+  "abstract": "Although differential expression analysis has identified numerous drought- and salinity-responsive genes in rice, it cannot resolve the directional, transcription factor (TF)-driven regulatory architecture underlying responses across independent drought and salinity datasets. To address this, we applied TF-Anchored Directed SiGaResNet, a signed, direction-aware graph attention residual network with a TF-anchored edge-retention rule and permutation-based validation, to RNA-seq profiles from 92 rice leaf samples (51 stress, 41 control) derived from independent drought and salinity studies. Unlike conventional correlation- or co-expression-based approaches, the framework constrains regulatory inference around TF nodes while learning directed, signed relationships through supervised graph representation learning. Differential expression analysis identified 719 genes (405 upregulated, 314 downregulated), with induced transcripts enriched in stress-response and hormone-signaling processes and repressed transcripts dominated by photosynthesis- and secondary-metabolism-related processes. The framework showed strong cross-validated classification performance (MCC = 0.78 +/- 0.17; AUC = 0.95 +/- 0.05). The resulting directed gene regulatory network comprised 137 nodes and 163 edges and exhibited a sparse, modular architecture (modularity = 0.77; 15 communities), with TFs significantly enriched among regulatory source nodes (P < 0.001). Hub regulators were distributed across multiple TF families, predominantly bZIP, MYB-related, and NAC. Eighteen of thirty-two prioritized TF-encoding genes were independently corroborated within stress-associated WGCNA modules, and four comparatively uncharacterized candidates (Os07g0176200, Os05g0569300, Os03g0231000, and Os02g0187700) received convergent computational support from promoter cis-element enrichment, protein functional-association topology, and leave-one-out cross-validation classification. Quantitative real-time PCR further confirmed stress-responsive expression of all four candidates under separate drought and salinity treatments, supporting their prioritization as putative candidate regulators. These findings indicate that direction- and sign-aware graph attention modeling can integrate transcriptomic information from independent drought and salinity studies to identify biologically coherent, TF-centered regulatory patterns and prioritize candidate regulators for further functional investigation, without establishing causal regulatory mechanisms.",
+  "abstract_zh": "尽管差异表达分析已在水稻中鉴定出大量干旱和盐胁迫响应基因，但它无法解析独立干旱和盐胁迫数据集中由转录因子（TF）驱动的有向调控架构。为解决这一问题，我们将TF锚定有向SiGaResNet——一种带有TF锚定边保留规则和基于置换验证的有符号、方向感知图注意力残差网络——应用于来自92个水稻叶片样本（51个胁迫，41个对照）的RNA-seq谱，这些样本源自独立的干旱和盐胁迫研究。与传统的基于相关性或共表达的方法不同，该框架将调控推断约束在TF节点周围，并通过监督图表示学习学习有向、有符号的关系。差异表达分析鉴定出719个基因（405个上调，314个下调），其中诱导转录本富集于胁迫响应和激素信号传导过程，而抑制转录本主要涉及光合作用和次生代谢相关过程。该框架表现出较强的交叉验证分类性能（MCC = 0.78 ± 0.17；AUC = 0.95 ± 0.05）。生成的有向基因调控网络包含137个节点和163条边，并展现出稀疏、模块化的架构（模块度 = 0.77；15个群落），其中TF在调控源节点中显著富集（P < 0.001）。枢纽调控因子分布于多个TF家族，主要为bZIP、MYB相关和NAC。32个优先化的TF编码基因中有18个在胁迫相关的WGCNA模块中得到独立验证，四个相对未表征的候选基因（Os07g0176200、Os05g0569300、Os03g0231000和Os02g0187700）获得了来自启动子顺式元件富集、蛋白质功能关联拓扑和留一交叉验证分类的收敛计算支持。定量实时PCR进一步证实了这四个候选基因在独立干旱和盐胁迫处理下的胁迫响应表达，支持其作为推定候选调控因子的优先化。这些发现表明，方向和符号感知的图注意力建模可以整合来自独立干旱和盐胁迫研究的转录组信息，以识别生物学上连贯的、以TF为中心的调控模式，并优先化候选调控因子以供进一步功能研究，而无需建立因果调控机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927791/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42927791/",
+  "paper_page_path": "papers/pubmed/42927791/index.html"
+}

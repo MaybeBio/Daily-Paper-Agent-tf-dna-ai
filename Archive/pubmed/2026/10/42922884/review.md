@@ -1,0 +1,122 @@
+## Review setup
+- **Input scope** Full manuscript text provided (Abstract, Introduction, Results, Discussion, Methods, Data availability, Acknowledgement). Supplementary figures and tables referenced but not supplied as content.
+- **Assessment boundary** Evaluation is restricted to the supplied manuscript text. All quantitative claims are assessed as reported; no reanalysis of data or code was performed. Supplementary items (Figures S1–S11, Tables S1–S4) are treated as cited but unverifiable.
+- **Shared manuscript claim summary** The authors present DeepCNet, a multimodal deep learning framework with two variants (DeepCNet-S for single-condition and DeepCNet-D for two-condition single-cell multiome data). The claimed contributions are (i) improved cell type-specific gene expression prediction over state-of-the-art methods on PBMC and MFC scMultiome datasets, (ii) improved inference of cell type-specific promoter-enhancer (PE) interactions concordant with ChIA-PET, sn-m3C-seq, and CRISPR perturbation references, (iii) construction of cell type-specific TF-GRNs recovering known immune regulators, and (iv) identification of candidate differential PE interactions and TF-GRN rewiring in a one-AD versus one-control comparison.
+- **Visible evidence base** Main-text Figures 1–6 and their legends as described in the text; Methods describing data processing, model architecture, training, benchmarking, ablation, and GRN construction; Data availability statements. No supplementary figure or table content, no code, no trained model weights, and no per-gene or per-cell-type numeric tables are visible.
+- **Missing materials affecting confidence** Supplementary Figures S1–S11 and Tables S1–S4 (content not provided); exact statistical test outputs beyond summary p-value statements; the identity and preprocessing details of the AD and control donors used for the two-condition analysis; the mapping between ChIA-PET cell types and PBMC clusters; the CRISPR-K562 and CRISPR-Ast label construction details beyond summary counts; code and model availability.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a coherent multimodal architecture that combines pretrained sequence embeddings, ATAC-derived features, an attention-based chromatin interaction module, and a cross-cell-type autoencoder, and it reports consistent improvements over several baselines on two single-cell multiome datasets. The framing around regulatory inference rather than expression prediction alone is reasonable, and the two-condition extension is a sensible methodological direction. However, the evidence as supplied is largely summary-level. Several central claims rest on comparisons whose fairness, statistical support, and orthogonal-reference construction are not fully verifiable from the provided text, and the two-condition disease analysis is based on a single AD and a single control donor. The work is potentially interesting to computational genomics and gene-regulation audiences, but the current manuscript does not yet establish the regulatory-inference claims to the standard implied by the abstract and discussion.
+- **Who would be interested in the results, and why** Computational biologists and statistical geneticists working on gene regulation, single-cell multiome analysis, and enhancer-gene linking would find the architecture and benchmarking relevant. Researchers in neurogenetics and immunology may be interested in the TF-GRN and differential PE analyses as hypothesis-generating outputs. Method developers comparing sequence-to-function and attention-based approaches would also be a natural audience.
+- **Major strengths** The problem framing is clear and the gap identified (regulatory inference rather than expression prediction alone) is legitimate. The architecture integrates several reasonable design choices, including restricting inputs to candidate CREs, using a pretrained sequence-to-function model to reduce training cost, and sharing parameters across conditions in DeepCNet-D. The benchmarking spans multiple orthogonal references (ChIA-PET, sn-m3C-seq, CRISPR perturbation, two-condition Hi-C), which is a stronger evaluation design than a single reference. The inclusion of distance-matched evaluation and ablation analyses indicates awareness of confounders. The Discussion is candid about several limitations, including cell-type-level aggregation and the illustrative nature of the two-donor analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Benchmark fairness and comparability
+    - **Claim pointer** DeepCNet consistently outperforms state-of-the-art methods in predicting cell type-specific gene expression and in inferring PE interactions.
+    - **Evidence pointer** Results sections "DeepCNet improves cell type-specific gene expression prediction" and "DeepCNet improves the prediction of cell type-specific promoter-enhancer interactions"; Methods "Benchmarking methods and performance evaluation"; Figure 2, Figure 3.
+    - **Concern** The baselines are adapted in ways that may not be equivalent in tuning effort or input information. Enformer and Borzoi are retrained or fine-tuned with reduced configurations (single-track head, Mini Borzoi, batch size 2), while DeepCNet uses pretrained ExPecto embeddings plus ATAC accessibility and peak-to-TSS distance. EPInformer is adapted to use ATAC peaks as enhancers. It is not stated whether baselines received comparable hyperparameter search, and the single-fold comparison for Enformer and Borzoi is not directly comparable to the 12-fold protocol used for DeepCNet. The reported margins (for example median R 0.745 versus lower values for competitors) could partly reflect unequal tuning or unequal input modality access.
+    - **Why it matters** The headline claim of consistent superiority depends on baselines being given a fair opportunity to perform. If baselines are under-tuned or denied modalities that DeepCNet receives, the comparison does not support the claim as stated.
+    - **Resolution test** Report per-method hyperparameter search procedures and search spaces, confirm identical train/validation/test splits and identical input modalities where the baseline architecture permits, and report the single-fold Enformer and Borzoi comparisons alongside a matched-fold DeepCNet result with variance across folds.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Statistical support for comparative claims
+    - **Claim pointer** DeepCNet significantly outperforms EPInformer in PE interaction inference, and DeepCNet-D shows a statistically significant increasing enrichment trend in three cell types.
+    - **Evidence pointer** Results "DeepCNet improves the prediction of cell type-specific promoter-enhancer interactions"; Results "DeepCNet-D enables the identification of differential promoter-enhancer interactions"; Figure 3, Figure 5D–F.
+    - **Concern** The only inferential statistic reported for the PE comparison is an unpaired Wilcoxon rank-sum test on per-gene AUROC values, which treats genes as independent units despite shared model training, shared chromosomes, and shared reference labels. For the differential analysis, the Cochran-Armitage trend test is applied to TDR across percentile thresholds, but the number of cell types, the number of PE pairs per threshold, and the handling of dependence across thresholds are not described. No multiple-testing correction is mentioned for either analysis.
+    - **Why it matters** Claims of statistical significance underpin the comparative conclusions. If the testing unit and dependence structure are inappropriate, the reported p-values do not support the significance claims.
+    - **Resolution test** Provide the exact test specification, the unit of observation, the number of observations per test, and multiple-testing correction. Where possible, use paired or blocked designs that account for shared genes, chromosomes, and reference labels, and report effect sizes with confidence intervals.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Validity of orthogonal reference labels
+    - **Claim pointer** Inferred PE interactions show greater concordance with orthogonal chromatin interaction and CRISPR perturbation data than competing approaches.
+    - **Evidence pointer** Methods "Chromatin interaction data" and "CRISPR perturbation data"; Results "DeepCNet improves the prediction of cell type-specific promoter-enhancer interactions"; Figure 3, Supplementary Figures S3–S5.
+    - **Concern** The positive and negative labels are constructed by overlap rules that may introduce label noise and bias. For ChIA-PET and sn-m3C-seq, a PE pair is labeled positive if the promoter overlaps one anchor and the candidate enhancer overlaps the other, and negative otherwise. This treats all non-overlapping pairs as negatives, including pairs that may be interacting below detection threshold, and it does not account for the different genomic distances, mappability, or peak widths across methods. For CRISPR, the K562 dataset is used to evaluate CD14 and CD16 monocyte predictions, and the astrocyte CRISPRi dataset is used for astrocyte predictions, but the cell type mismatch for K562 is not discussed as a limitation of the reference. The number of positives is small (213 of 1067 for PBMC, 94 of 1379 for MFC), which limits the precision of AUPRC estimates.
+    - **Why it matters** If the reference labels are noisy or systematically biased toward the features DeepCNet uses, the concordance advantage may reflect label construction rather than genuine regulatory accuracy.
+    - **Resolution test** Report label construction sensitivity analyses, including alternative negative sampling, distance-stratified label sets, and exclusion of ambiguous regions. Report confidence intervals for AUROC and AUPRC given the small positive counts, and explicitly discuss the K562-to-monocyte cell type mismatch.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Generalizability of the two-condition disease analysis
+    - **Claim pointer** DeepCNet-D identifies candidate differential PE interactions at AD risk loci and candidate TF hubs associated with AD-related pathways.
+    - **Evidence pointer** Results "DeepCNet-D enables the identification of differential promoter-enhancer interactions" and "DeepCNet reveals condition-specific change of TF-gene regulatory network"; Methods "Single cell multiome data"; Figure 5, Figure 6.
+    - **Concern** The two-condition analysis uses one AD donor and one healthy control donor. The differential Hi-C reference uses four AD and four control individuals, so the reference and the scMultiome input are not matched in sample composition. Any observed differential signal could reflect donor-specific rather than condition-specific effects, and the reported p-value for AIF1 expression (p = 1.83 × 10−5) is computed within a single donor pair without a donor-level variance component. The manuscript acknowledges this in the Discussion but the Results and Abstract present the findings with stronger language than the design supports.
+    - **Why it matters** The translational framing around AD risk loci and TF hubs is a central selling point of the two-condition extension. With n = 1 per condition, the analysis cannot distinguish condition effects from individual variation.
+    - **Resolution test** Either add more donors per condition, or reframe all two-condition results explicitly as single-donor illustrative observations throughout the Abstract, Results, and Discussion, and remove or qualify any language implying population-level or condition-level inference.
+  - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretability of attention as regulatory strength
+    - **Claim pointer** PE attention scores quantify inferred interaction strength and differential attention scores characterize condition-associated regulatory changes.
+    - **Evidence pointer** Methods "MHA Encoder" and "DeepCNet-D"; Results "DeepCNet-D enables the identification of differential promoter-enhancer interactions"; Figure 5G–H, Figure 6C.
+    - **Concern** Attention weights are used throughout as a proxy for PE interaction strength and for differential regulatory change, but no analysis is provided to show that attention weights are calibrated, stable, or causally related to regulation. The mask restricts attention to promoter-enhancer entries, which helps, but attention weights in transformer models are known to be sensitive to initialization and to correlate imperfectly with feature importance. The reported stability analysis for one peak (mean 0.020, SD 0.013 across 50 runs) shows substantial relative variability, and no comparable stability analysis is reported for the genome-wide attention scores used in benchmarking.
+    - **Why it matters** The regulatory inference claims depend on attention being a meaningful score. If attention is unstable or uncalibrated, the downstream GRN and differential analyses inherit that weakness.
+    - **Resolution test** Report run-to-run stability of attention scores across the full set of evaluated genes and peaks, report calibration against the orthogonal references, and provide an ablation or perturbation analysis showing that attention scores change in the expected direction when inputs are perturbed.
+  - **Concern ID** R1-M6
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Reproducibility and reporting completeness
+    - **Claim pointer** The model and its benchmarking are described in sufficient detail to be reproduced.
+    - **Evidence pointer** Methods "Model training and testing", "Benchmarking methods and performance evaluation", "Ablation analyses"; Data availability.
+    - **Concern** Code and trained model weights are not stated as available. Several key details are missing or ambiguous, including the exact ExPecto checkpoint and preprocessing, the handling of genes with zero retained peaks, the number of training epochs actually used per dataset, the random seeds, and the exact construction of the cell type relationship weights for the MFC dataset. The Supplementary Tables that would document cell type matching and sample sizes are not provided in the submission.
+    - **Why it matters** Without code, weights, and complete parameter reporting, independent reproduction and verification of the reported numbers is not possible.
+    - **Resolution test** Provide a code repository, model weights, environment specification, random seeds, and a complete parameter table. Include the supplementary tables as part of the submission.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Terminology consistency
+    - **Affected element** Use of "promoter-enhancer" versus "peak-gene" versus "PE interaction" across sections.
+    - **Evidence pointer** Throughout Results and Methods.
+    - **Issue** The manuscript uses PE interaction, peak-gene association, and TF-peak-gene triplet somewhat interchangeably, which can obscure whether the same quantity is being referenced.
+    - **Required correction** Define each term once and use consistently, or add a short glossary in Methods.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Numerical reporting
+    - **Affected element** Reported medians and ranges without dispersion or sample sizes.
+    - **Evidence pointer** Results "DeepCNet improves cell type-specific gene expression prediction" and "DeepCNet improves the prediction of cell type-specific promoter-enhancer interactions"; Figure 2, Figure 3.
+    - **Issue** Median R, median RMSE, and mAUROC ranges are reported without interquartile ranges, number of genes per cell type, or number of cell types contributing to each median.
+    - **Required correction** Add dispersion measures and per-cell-type sample sizes to the main figures or a summary table.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Figure legend completeness
+    - **Affected element** Figure 2, Figure 3, Figure 5, Figure 6 legends.
+    - **Evidence pointer** Figure legends as described in the text.
+    - **Issue** The legends do not state the number of genes, the number of PE pairs, the statistical tests used, or the definition of error bars.
+    - **Required correction** Expand legends to include n, test, and error bar definition.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Language and typographical errors
+    - **Affected element** Several sentences contain grammatical errors and typos.
+    - **Evidence pointer** For example "an multi-head attention", "negativity infinity", "a patten was observed", "It is also functions at multiple stages", "due to because its attention-based architecture".
+    - **Issue** These reduce readability and suggest the manuscript has not been carefully proofread.
+    - **Required correction** Professional language editing.
+  - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Ablation interpretation
+    - **Affected element** Ablation results are described qualitatively without effect sizes.
+    - **Evidence pointer** Results "DeepCNet improves cell type-specific gene expression prediction" and "DeepCNet improves the prediction of cell type-specific promoter-enhancer interactions"; Supplementary Figures S2 and S6.
+    - **Issue** Statements such as "had the largest impact" and "comparatively modest reductions" are not quantified in the main text.
+    - **Required correction** Report the numeric change in R, RMSE, AUROC, and AUPRC for each ablated variant in the main text or a main table.
+  - **Concern ID** R1-m6
+    - **Severity** Minor
+    - **Axis** Cell type relationship construction
+    - **Affected element** Choice of anchor cell type and similarity weights.
+    - **Evidence pointer** Methods "Cell-type relationship characterization".
+    - **Issue** The anchor selection criterion (abundance and topological centrality) is described but not operationalized, and the sensitivity of results to anchor choice is not reported.
+    - **Required correction** Specify the anchor selection rule precisely and report sensitivity of expression prediction and PE inference to the choice of anchor.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmark fairness), R1-M2 (statistical support), R1-M3 (reference label validity), R1-M4 (two-condition generalizability). R1-M5 and R1-M6 are important but not strictly blocking for the expression prediction claim; they are blocking for the regulatory inference claim as currently framed.
+- **Assessment against Nature-style criteria** Originality is moderate. The individual components (pretrained sequence embeddings, attention-based PE modeling, cross-cell-type autoencoder, two-condition shared attention) are each established ideas, and the novelty lies mainly in their combination and in the two-condition extension. Scientific importance is potentially meaningful for the gene regulation and single-cell multiome communities, but the current evidence does not establish a clear advance over existing methods because the comparative advantages are not yet shown to be robust to benchmark design and statistical treatment. Interdisciplinary readership is plausible, spanning computational biology, statistical genetics, and neurogenetics, but the manuscript is written primarily for a methods audience and would need substantial restructuring to be accessible to a broader readership. Technical soundness is partial. The architecture is described in reasonable detail, but the evaluation design, statistical testing, and reference label construction have unresolved issues, and reproducibility is not demonstrated. Readability for nonspecialists is limited. The manuscript assumes familiarity with scMultiome processing, attention mechanisms, and chromatin interaction assays, and the Abstract and Introduction do not provide sufficient orientation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence for the regulatory inference and two-condition claims. Supportive if technical concerns are resolved for the expression prediction claim, conditional on R1-M1, R1-M2, and R1-M3 being addressed with additional analyses and complete reporting.
+
+## Risk / unsupported claims
+- The claim that DeepCNet "consistently outperforms state-of-the-art methods" in gene expression prediction is supported only by summary medians without dispersion, without per-method tuning parity, and with a single-fold protocol for two baselines. Status: weak.
+- The claim that inferred PE interactions "showed greater concordance with orthogonal chromatin interaction and CRISPR perturbation data" is supported by AUROC and AUPRC summaries, but the reference label construction, the K562-to-monocyte mismatch, and the small positive counts limit interpretability. Status: weak.
+- The claim that DeepCNet-D "enables the identification of differential PE interactions" and "characterization of TF-GRN alterations across conditions" is based on one AD and one control donor. Status: not evaluable as a condition-level claim; supported only as a single-donor illustration.
+- The claim that SPI1-centered differential regulatory changes are "consistent with prior studies" is supported by literature citation but not by independent validation in the analyzed data. Status: weak.
+- The claim that attention scores "quantify the inferred interaction strength" is not supported by calibration or stability analyses beyond one peak. Status: weak.
+- The claim that the model "recovers both shared and cell type-specific regulators consistent with established immune biology" is supported by literature concordance but not by an objective recovery metric against a held-out reference set of known regulators. Status: weak.
+- The claim that DeepCNet-D "reduces variation arising from independently estimated model parameters" is asserted from the observed distribution of ΔAPE values but not demonstrated by a direct variance decomposition. Status: not evaluable from the supplied material.
+- Reproducibility of all reported numbers cannot be assessed because code, weights, and supplementary tables are not provided. Status: not evaluable.

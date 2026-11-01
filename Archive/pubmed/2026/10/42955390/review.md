@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Abstract only, as supplied for manuscript titled "Evolutionary origin of the WHIRLY gene families across 330 plant species: from algae to land plants" (Planta, DOI 10.1007/s00425-026-05187-5).
+- **Assessment boundary** Evaluation is restricted to the claims and evidence visible in the supplied abstract. No full text, figures, tables, supplementary data, methods, or statistics were available. Conclusions about internal validity, reproducibility, and quantitative support cannot be fully verified.
+- **Shared manuscript claim summary** The authors report identification of 921 WHIRLY (WHY) genes across 330 plant species spanning algae to land plants; classification into three subfamilies (WHY I, WHY II, WHY III); stepwise subfamily origins; structural divergence in exon number and protein motifs; collinearity mainly within subfamilies; network clustering into three clusters; long-term purifying selection with mean Ka/Ks well below 1; and a previously unreported stable hetero-oligomeric AtWHY1/AtWHY2/AtWHY3 complex assembled via hydrogen bonds and salt bridges at conserved interface residues that acts as a combinatorial regulatory switch coordinating subcellular stress responses.
+- **Visible evidence base** Abstract-level statements only. Named approaches include phylogenomics, collinearity analysis, network clustering, Ka/Ks estimation, yeast two-hybrid assays, protein molecular docking, and site-specific interaction validation. No section, figure, or table pointers were provided in the supplied material.
+- **Missing materials affecting confidence** Full text; methods; sampling and species list; alignment and tree files; model selection and support values; Ka/Ks computation details and per-branch results; collinearity and clustering parameters; Y2H constructs, controls, and replicates; docking parameters, scoring, and validation; site-directed mutagenesis data; subcellular localization and stress-response experiments; statistics; data and code availability.
+
+## Reviewer
+- **Overall assessment** The abstract addresses a legitimate and potentially useful question, namely the deep evolutionary history of the plant-specific WHIRLY family across the green lineage, and it couples this with a mechanistic claim about a hetero-oligomeric AtWHY1/2/3 complex. The evolutionary scope is attractive and the combination of phylogenomics with interaction validation is a reasonable design. However, from the supplied material the work is presented almost entirely as assertions. The central evolutionary claims (stepwise origins, subfamily delimitation, selection regime) and the central mechanistic claim (a stable hetero-oligomeric stress complex acting as a combinatorial switch) are not accompanied by any visible quantitative or experimental detail. As it stands, the case is not established from the provided evidence, and the mechanistic claim in particular is substantially stronger than what the described assays can support.
+- **Who would be interested in the results, and why** Plant evolutionary biologists and phylogenomicists interested in gene family expansion across the algae-to-land-plant transition; researchers working on organellar genome maintenance, retrograde signaling, and plant abiotic stress; and structural or systems biologists interested in transcription factor oligomerization. If substantiated, a unified WHY family framework and a defined hetero-oligomeric complex would be of cross-subfield interest.
+- **Major strengths** The taxonomic breadth implied by 330 species from algae to land plants is a genuine strength for a gene family study and is well suited to testing stepwise origin hypotheses. Combining phylogenomic reconstruction with protein interaction assays is an appropriate multi-level strategy. The explicit focus on the conserved single-stranded DNA binding domain as the target of purifying selection is a coherent evolutionary framing. The proposed AtWHY1/2/3 hetero-oligomer, if rigorously demonstrated, would be a concrete mechanistic contribution rather than a purely descriptive survey.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency for the central evolutionary claim
+    - **Claim pointer** 921 WHY genes were identified across 330 species and classified into three subfamilies (WHY I, WHY II, WHY III), with stepwise subfamily origins across the green lineage.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** No criteria are given for gene identification, subfamily delimitation, or the inference of stepwise origin. The abstract does not report tree topology, node support, rooting strategy, or the order of subfamily emergence, yet "stepwise subfamily origins" is presented as a result.
+    - **Why it matters** Subfamily classification and origin order are the backbone of the paper's evolutionary framework. Without explicit delimitation criteria and supported topology, the framework is not testable or reproducible, and downstream claims about functional differentiation inherit the same weakness.
+    - **Resolution test** Provide the identification pipeline and thresholds, the alignment and phylogenetic methods, the rooting and model selection, node support values for the branches defining subfamily splits, and an explicit statement of the inferred order of origin with the supporting nodes.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Interpretation of selection analysis
+    - **Claim pointer** All three subfamilies are under intense long-term purifying selection, with average Ka/Ks ratios far below 1, indicating stringent evolutionary constraints on the core conserved single-stranded DNA binding domain.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** A mean Ka/Ks below 1 is a weak and potentially misleading summary. Averaging across sites and branches can mask relaxed selection, episodic positive selection, or saturation effects, and Ka/Ks near zero can also reflect strong purifying selection, recent divergence, or methodological artifacts. No per-site, per-branch, or branch-model analysis is reported, and no values are given.
+    - **Why it matters** The claim of "intense long-term purifying selection" is a central evolutionary conclusion. If it rests only on a global mean ratio, it does not distinguish among competing evolutionary scenarios and cannot support the strong wording used.
+    - **Resolution test** Report per-subfamily and per-branch Ka/Ks with confidence intervals, apply site and branch-site models to test for heterogeneity and episodic selection, state how saturation and synonymous site exhaustion were handled, and confirm that the signal specifically maps to the single-stranded DNA binding domain.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Support for the mechanistic interaction claim
+    - **Claim pointer** A previously unreported stable hetero-oligomeric complex formed by AtWHY1, AtWHY2, and AtWHY3, assembled via defined hydrogen bond networks and salt bridges at conserved interface residues, acts as a combinatorial regulatory switch coordinating distinct subcellular stress responses.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** Yeast two-hybrid, molecular docking, and site-specific interaction validation can support pairwise or higher-order physical interaction and can identify candidate interface residues, but they do not by themselves establish complex stoichiometry, stability in planta, or a regulatory switch function. The abstract does not report whether all three proteins co-occur in one complex, whether interactions are direct, or whether the switch behavior was measured.
+    - **Why it matters** This is the paper's principal mechanistic novelty. The gap between the assays named and the functional claim is large, and the claim as written would require in planta validation of complex composition and of stress-response consequences.
+    - **Resolution test** Provide Y2H constructs, baits and preys, controls, and replicates; demonstrate ternary or higher-order assembly rather than only pairwise interaction; report docking scores, interface residue identities, and conservation of those residues; show in planta co-immunoprecipitation or co-fractionation; and provide stress-response phenotypes for interface mutants that distinguish a switch from a static complex.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Consistency between structural and functional inference
+    - **Claim pointer** Structural differences in exon number and protein motifs among subfamilies may have arisen due to functional differentiation.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** The link between exon and motif divergence and functional differentiation is stated as a possibility but is not tested. No functional data are reported for WHY I and WHY II, and the mechanistic work is confined to Arabidopsis AtWHY1/2/3.
+    - **Why it matters** The abstract implies a general structure-function relationship across the family, but the evidence base appears to cover only a small part of the sampled diversity. This risks overgeneralization from a single model species.
+    - **Resolution test** Either restrict the functional interpretation to the clades where data exist, or provide comparative functional or expression evidence across subfamilies that supports the proposed differentiation.
+  - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Reproducibility and data availability
+    - **Claim pointer** Collinearity was primarily observed among members of the same subfamily, and network clustering analysis divided all WHY genes into three clusters with significant collinearity within clusters.
+    - **Evidence pointer** Abstract only; location not provided
+    - **Concern** No parameters, thresholds, or significance criteria are reported for collinearity detection or network clustering, and no data or code availability statement is visible. The relationship between the three network clusters and the three subfamilies is also unclear, raising the possibility that the clustering is circular with respect to the classification.
+    - **Why it matters** If clustering and subfamily assignment are not independent, the concordance between them is not independent evidence. Without parameters and deposited data, the analyses cannot be reproduced or audited.
+    - **Resolution test** State all collinearity and clustering parameters and thresholds, clarify whether clustering used information independent of subfamily assignment, report cluster stability, and provide accession numbers and code repositories.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Terminology and classification consistency
+    - **Affected element** Subfamily nomenclature
+    - **Evidence pointer** Abstract only; location not provided
+    - **Issue** The abstract states the genes "were classified into three subfamilies (WHY I, WHY II, and WHY III) in this study," which suggests the nomenclature may be newly introduced rather than aligned with existing WHIRLY literature.
+    - **Required correction** Clarify the relationship between the proposed WHY I/II/III nomenclature and previously used WHIRLY groupings, and justify any renaming.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Quantitative reporting
+    - **Affected element** Gene counts and selection statistics
+    - **Evidence pointer** Abstract only; location not provided
+    - **Issue** The abstract reports 921 genes across 330 species and states Ka/Ks is "far below 1" but gives no distributional values, ranges, or per-subfamily figures.
+    - **Required correction** Report the distribution of gene counts per species and per subfamily, and provide actual Ka/Ks values with ranges rather than qualitative descriptors.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Scope of experimental validation
+    - **Affected element** Species coverage of the interaction work
+    - **Evidence pointer** Abstract only; location not provided
+    - **Issue** The evolutionary analysis spans 330 species, but the interaction and docking work appears limited to Arabidopsis thaliana proteins, with no indication of whether interface residues are conserved across the sampled lineage.
+    - **Required correction** State the species used for each experiment and report conservation of the identified interface residues across the broader WHY family.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Claim wording
+    - **Affected element** Abstract framing
+    - **Evidence pointer** Abstract only; location not provided
+    - **Issue** Phrases such as "combinatorial regulatory switch" and "drives specialized stress adaptation during plant territorialization" assert causal and adaptive roles that are not visibly supported by the named assays.
+    - **Required correction** Temper the abstract wording to match the evidence, or supply the functional data that justify the causal and adaptive language.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concern, respectively, the absence of a verifiable phylogenetic basis for subfamily origin order, the reliance on a global mean Ka/Ks to support a strong selection claim, and the gap between the named interaction assays and the asserted regulatory switch function. R1-M4 and R1-M5 further limit confidence but are not individually blocking.
+- **Assessment against Nature-style criteria** Originality is moderate to good in scope, since a 330-species survey of WHIRLY genes is broad, but the abstract does not establish that the evolutionary conclusions are novel relative to prior family surveys, and the hetero-oligomer claim is the main novel element and is currently unsupported. Scientific importance is potentially meaningful for plant evolutionary and stress biology, but the abstract does not demonstrate a conceptual advance beyond cataloguing and a candidate interaction. Interdisciplinary readership is plausible given the links to organellar signaling and stress adaptation, though the abstract is written for a specialist audience and does not make the broader implications concrete. Technical soundness cannot be assessed from the abstract and, on the visible evidence, the mechanistic claim is not adequately supported by the assays named. Readability for nonspecialists is limited by unexplained jargon such as retrograde signaling, Ka/Ks, collinearity, and hetero-oligomeric, and by the absence of any stated significance threshold or effect size.
+- **Recommendation posture** Currently not established from the provided evidence. The evolutionary framework and the hetero-oligomeric complex claim both require the missing methodological, quantitative, and experimental detail before the case can be evaluated, and the mechanistic claim in particular would need in planta validation to support the wording used.
+
+## Risk / unsupported claims
+- Stepwise subfamily origins across the green lineage are asserted without any visible topology, node support, or rooting information. Unsupported at abstract level.
+- Classification into WHY I, WHY II, and WHY III is asserted without stated delimitation criteria. Not evaluable.
+- "Intense long-term purifying selection" based on average Ka/Ks far below 1 is weak as presented, since no per-site or per-branch analysis is reported. Weakly supported at best.
+- Structural differences in exon number and motifs being due to functional differentiation is speculative and untested in the visible material. Unsupported.
+- The AtWHY1/2/3 hetero-oligomeric complex being "stable" and assembled via defined hydrogen bond networks and salt bridges is not verifiable from the named assays alone. Not evaluable.
+- The complex acting as a "combinatorial regulatory switch" coordinating distinct subcellular stress responses is a functional and causal claim not supported by yeast two-hybrid, docking, or site-specific interaction validation. Unsupported.
+- The claim that hetero-oligomerization "drives specialized stress adaptation during plant territorialization" is an adaptive and macroevolutionary inference with no visible supporting experiment. Unsupported.
+- Collinearity and network clustering results are reported without parameters, thresholds, or independence from subfamily assignment. Not evaluable.

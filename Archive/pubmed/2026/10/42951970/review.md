@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a large-scale single-cell ATAC-seq dataset from 3.5 million peripheral blood mononuclear cells across 1,042 donors, identify hundreds of thousands of chromatin accessibility QTLs (caQTLs) across 28 immune cell types, integrate with single-cell eQTL data, demonstrate improved colocalization with GWAS signals for immune diseases and blood traits, show cell-state-dependent genetic effects, and apply a graph neural network to infer peak-gene links with improved accuracy.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical models, quality control details, replication analyses, and any sensitivity or validation analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a substantial and potentially impactful resource for understanding genetic regulation of chromatin accessibility at single-cell resolution. The scale of the dataset and the breadth of analyses are impressive. However, the abstract alone does not provide sufficient methodological detail or quantitative evidence to fully evaluate the robustness of the claims. Several key assertions, particularly regarding the performance of the graph neural network and the magnitude of improvement in GWAS-eQTL concordance, require careful scrutiny of the underlying analyses. The work is likely of high interest to the immunogenomics and statistical genetics communities, but the current evidence base is insufficient to fully establish all conclusions.
+- **Who would be interested in the results, and why** Researchers in functional genomics, statistical genetics, immunology, and complex disease genetics would be interested. The dataset and caQTL maps would serve as a resource for studying regulatory variation in immune cells. The integration with eQTLs and GWAS would appeal to those seeking to prioritize causal variants and genes. The cell-state-dependent effects and the deep learning approach would interest computational biologists developing methods for single-cell multi-omics integration.
+- **Major strengths** The scale of the dataset (3.5 million cells, 1,042 donors) is a major advance. The identification of cell-type-specific caQTLs and the integration with single-cell eQTLs and GWAS provide a comprehensive view of regulatory variation. The demonstration that cell-state modulates genetic effects adds a novel dimension. The application of a graph neural network to infer peak-gene links is methodologically innovative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that a graph neural network trained on both eQTL and caQTL layers inferred peak-gene links with up to 17.2% higher accuracy than QTL-agnostic data, uncovering 128 additional transcription factor-target pairs (22% increase).
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the evaluation metric, the baseline model, the training and test data splits, or whether the performance gain was statistically significant. The "up to 17.2%" phrasing suggests variability across settings, but no confidence intervals or error bars are reported. The biological validation of the 128 additional transcription factor-target pairs is not described.
+  - **Why it matters** Without clear evaluation criteria and statistical rigor, the claimed improvement could be an artifact of overfitting or of an unfair baseline comparison. The biological relevance of the newly inferred links is central to the claim that the model adds value beyond existing approaches.
+  - **Resolution test** Provide the evaluation metric (e.g., AUROC, precision-recall), the exact baseline model, cross-validation scheme, and statistical significance tests. Include validation of the 128 new pairs via independent experimental or orthogonal computational evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that cell-type-specific and tissue-specific context, distal effects and multi-causal-variant models raised GWAS-eQTL concordance from approximately 16% to approximately 65%.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not define how "concordance" was measured, which GWAS loci were included, how cell-type-specific and tissue-specific context were operationalized, or how the multi-causal-variant model was constructed. The jump from 16% to 65% is large and could depend heavily on the choice of loci, the definition of concordance, and the model specifications.
+  - **Why it matters** This is a central quantitative claim about the value of the caQTL data. If the concordance metric is not clearly defined or is overly permissive, the improvement may be misleading. The claim also implies that the model captures a large fraction of true regulatory signals, which has implications for interpreting GWAS results.
+  - **Resolution test** Define the concordance metric precisely, describe the GWAS loci and the models used, and provide sensitivity analyses showing that the improvement is robust to alternative definitions and model choices.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The claim of identifying 243,225 caQTLs at 100,483 peaks, with 60% cell-type specific, and 38,161 rare variant-associated peaks.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the statistical thresholds, multiple testing corrections, or the methods used for rare variant analysis. The number of caQTLs and the proportion of cell-type-specific effects could be sensitive to the choice of false discovery rate and to the definition of cell-type specificity. The rare variant analysis is particularly opaque, as no method is described.
+  - **Why it matters** These numbers are the foundation of the paper's resource value. If the thresholds are too lenient or the methods are not standard, the reported counts may not be reproducible or comparable to other studies.
+  - **Resolution test** Provide the exact statistical thresholds, multiple testing correction methods, and a detailed description of the rare variant analysis pipeline. Include a comparison of the number of caQTLs per peak and per cell type with existing studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "colocalized 4.5-22.6% more signals than eQTLs alone" but does not specify the denominator or the method of colocalization.
+  - **Required correction** Specify the colocalization method (e.g., coloc, fastENLOC) and the exact definition of the percentage increase.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "27% of over 200,000 caQTL-cell-state interactions lacking a main effect" is ambiguous. It is unclear whether these interactions are statistically significant without a main effect or whether they represent a subset of all tested interactions.
+  - **Required correction** Clarify the statistical model used to define interactions and the threshold for significance, and specify the total number of interactions tested.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "matched whole-genome sequencing" but does not state the sequencing depth or variant calling pipeline.
+  - **Required correction** Provide sequencing depth and variant calling details in the methods, and mention them briefly in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail for the deep learning model, the concordance analysis, and the QTL calling pipelines prevents full evaluation of the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The work is original in its scale and integration of single-cell ATAC-seq with eQTLs and GWAS, and the application of a graph neural network to this problem is novel.  
+  - Scientific importance: The dataset and caQTL maps would be a valuable community resource, and the findings on cell-state-dependent effects are conceptually important.  
+  - Interdisciplinary readership: The work bridges genomics, immunology, and computational biology, and would appeal to a broad readership.  
+  - Technical soundness: Not fully assessable from the abstract; the lack of methodological detail and statistical rigor in key claims is a concern.  
+  - Readability for nonspecialists: The abstract is dense but generally accessible, though some terms (e.g., caQTL, colocalization) may require prior knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The resource and conceptual findings are potentially significant, but the current evidence base is insufficient to fully establish the quantitative claims. A revised version with detailed methods, statistical validation, and sensitivity analyses would be needed to assess the case fully.
+
+## Risk / unsupported claims
+- The claim of 17.2% higher accuracy for the graph neural network is unsupported without evaluation details.
+- The claim of raising GWAS-eQTL concordance from 16% to 65% is unsupported without a clear definition of concordance and model specifications.
+- The numbers of caQTLs and rare variant-associated peaks are not verifiable without statistical thresholds and methods.
+- The biological interpretation at ADCY7 is not assessable from the abstract alone.
+- The claim that 27% of caQTL-cell-state interactions lack a main effect is ambiguous and not verifiable.

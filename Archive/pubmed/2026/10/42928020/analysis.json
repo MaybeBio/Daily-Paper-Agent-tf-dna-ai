@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42928020",
+  "title": "Integrative graph deep learning with directional decoding for robust gene regulatory network inference from single-cell transcriptomics.",
+  "authors": "Tang, Binhua; Feng, Yingying; Gao, Xinyu; Mao, Mengyao; Zhang, Yujia",
+  "journal": "Journal of Zhejiang University. Science. B",
+  "published_date": "2026-10-25",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "提出图深度学习框架scGRAIL从单细胞转录组推断基因调控网络，通过TF-靶图多跳聚合与非对称解码器建模TF-靶调控方向性，属TF-DNA调控互作的AI建模但基于表达数据而非三维结构。",
+  "abstract": "While gene regulatory networks (GRNs) are fundamental to understanding complex cellular mechanisms, the accurate inference from single-cell RNA-sequencing (scRNA-seq) data is hindered by the inherent noise, transcriptional dropout events, and dynamic nature of gene regulation. Current computational approaches often overlook long-range regulatory interactions, lack explicit modeling of regulatory directionality, and suffer from limited generalizability. To address these limitations, we introduce scGRAIL, a supervised deep learning framework that combines inductive local-aware graph aggregation (LGA) with an asymmetric relation decoder to enable robust GRN inference. Within this framework, LGA performs multi-hop neighborhood aggregation on a transcription factor (TF)-target graph, jointly leveraging topological structure and gene expression to capture long-range regulatory dependencies. A node reconstruction autoencoder (NAE) imposes gene expression reconstruction constraints on the latent embeddings, thereby enhancing robustness to noise and data heterogeneity and improving generalization. An asymmetric difference mechanism is introduced during decoding for distinct modeling of TFs and target genes; by computing an ordered difference vector between their embeddings, the model explicitly captures the directionality and target specificity of TF-target regulatory interactions, facilitating more accurate identification of potential causal regulatory relationships. Comprehensive evaluations demonstrate the model's superiority: it achieves optimal performance on 86.4% of benchmark datasets (38/44), surpassing state-of-the-art methods. Notably, scGRAIL achieves a 4.25% increase in average area under the receiver operating characteristic curve (AUROC) across four real-world networks compared to the graph contrastive link prediction (GCLink) model, yielding a 17.64% AUROC improvement for the TF500+ Non-Specific network in the mouse hematopoietic stem cells with lymphoid-lineage (mHSC-L) dataset, demonstrating its resilience to noise and scalability for large-scale GRNs. These results establish scGRAIL as a transformative tool for uncovering gene regulatory logic in single-cell transcriptomics. Overall, scGRAIL enhances structural modeling and directional discrimination in single-cell GRN inference by using multi-hop graph aggregation to capture long-range regulatory dependencies, expression reconstruction constraints to improve cross-dataset robustness, and an asymmetric decoding mechanism to explicitly model the regulatory directionality between TFs and target genes.",
+  "abstract_zh": "尽管基因调控网络（GRNs）对于理解复杂的细胞机制至关重要，但从单细胞RNA测序（scRNA-seq）数据中准确推断其结构却受到固有噪声、转录丢失事件以及基因调控动态特性的阻碍。当前的计算方法往往忽视长程调控相互作用，缺乏对调控方向性的显式建模，并且泛化能力有限。为解决这些局限性，我们引入了scGRAIL，一种监督式深度学习框架，结合了归纳式局部感知图聚合（LGA）与非对称关系解码器，以实现稳健的GRN推断。在该框架内，LGA在转录因子（TF）-靶基因图上执行多跳邻域聚合，联合利用拓扑结构和基因表达来捕捉长程调控依赖关系。节点重建自编码器（NAE）对潜在嵌入施加基因表达重建约束，从而增强对噪声和数据异质性的鲁棒性，并提高泛化能力。在解码过程中引入非对称差异机制，以分别建模TF和靶基因；通过计算它们嵌入之间的有序差异向量，模型显式捕捉TF-靶基因调控相互作用的方向性和靶标特异性，有助于更准确地识别潜在的因果调控关系。综合评估证明了该模型的优越性：它在86.4%的基准数据集（38/44）上达到最优性能，超越了现有最先进方法。值得注意的是，与图对比链接预测（GCLink）模型相比，scGRAIL在四个真实网络上的平均接收者操作特征曲线下面积（AUROC）提高了4.25%，在mHSC-L数据集的TF500+非特异性网络上实现了17.64%的AUROC提升，展示了其对噪声的鲁棒性和对大规模GRN的可扩展性。这些结果确立了scGRAIL作为揭示单细胞转录组中基因调控逻辑的变革性工具。总体而言，scGRAIL通过使用多跳图聚合捕捉长程调控依赖关系、表达重建约束提高跨数据集鲁棒性，以及非对称解码机制显式建模TF与靶基因之间的调控方向性，增强了单细胞GRN推断中的结构建模和方向判别能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928020/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42928020/",
+  "paper_page_path": "papers/pubmed/42928020/index.html"
+}

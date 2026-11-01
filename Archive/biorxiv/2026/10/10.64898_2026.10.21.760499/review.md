@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, methods, figure legends (not provided), and supplementary table titles. Figure panels and supplementary figures are referenced but not directly viewable.
+- **Assessment boundary** Scientific claims, structural determination quality, biochemical and cellular validation, and consistency between the presented data and conclusions. The review is based solely on the provided text and does not assume access to unpublished data or figures.
+- **Shared manuscript claim summary** The authors report cryo-EM structures of wild-type MyD88 TIR and the oncogenic L252P mutant, revealing double-filament ring and spiral assemblies, respectively, that bind dsDNA. They propose that MyD88 directly senses cytosolic dsDNA, promoting inflammatory cytokine expression independently of TLR signaling, and that this activity is relevant to innate immune responses and oncogenic MyD88 activation.
+- **Visible evidence base** Abstract, full main text, methods section, data availability statement, author contributions, competing interests, and titles of supplementary tables and videos. Figure content is described in text but not directly assessable.
+- **Missing materials affecting confidence** Figure panels and supplementary figures (S1-S10), supplementary tables (S1-S3) with numerical data, and videos. Without these, the resolution of structural features, the quality of the EM density, the gating strategies for flow cytometry, and the full RNA-seq analysis cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant advance in understanding MyD88 function, with structural data suggesting a novel dsDNA-binding activity. The cryo-EM structures of the WT ring and L252P spiral are intriguing, and the functional experiments linking dsDNA binding to inflammatory gene expression are compelling. However, several technical and conceptual concerns need to be addressed to fully support the claims, particularly regarding the physiological relevance of the observed DNA binding, the specificity of the interaction, and the mechanistic link between the L252P mutation, DNA binding, and oncogenic activation.
+- **Who would be interested in the results, and why** Immunologists studying innate immune signaling, particularly TLR and cytosolic DNA sensing pathways; structural biologists interested in TIR domain assemblies and protein-nucleic acid interactions; cancer biologists investigating oncogenic mutations in signaling adaptors, especially in lymphomas; and researchers studying the crosstalk between inflammatory and interferon pathways.
+- **Major strengths** The study addresses a significant gap in understanding MyD88's function beyond its canonical TLR/IL-1R role. The structural determination of both WT and oncogenic mutant forms at high resolution is a major technical achievement. The identification of a dsDNA-binding surface and the functional validation through mutagenesis and cellular assays provide a strong foundation for the proposed model. The RNA-seq data, while not fully shown, suggest a broad and important role for MyD88 in the cytosolic DNA response.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Physiological relevance
+    - **Claim pointer** "MyD88 directly binds dsDNA and promotes inflammatory cytokine expression, particularly pro-IL-1β, following dsDNA transfection or viral infection."
+    - **Evidence pointer** Figures 2, 3, and 4; Methods sections on EMSA, cell culture, and intracellular nucleic acid delivery.
+    - **Concern** The physiological relevance of the MyD88-dsDNA interaction is not fully established. The in vitro EMSA experiments use recombinant MyD88 TIR domain and short dsDNA fragments (30-75 bp) at high concentrations. The cellular experiments rely on transfection of dsDNA, which is a non-physiological method of delivery that can trigger multiple sensing pathways. The claim that MyD88 directly senses cytosolic dsDNA in a physiological context (e.g., during viral infection) requires more direct evidence, such as demonstrating a physical interaction between endogenous MyD88 and dsDNA in infected cells, or showing that the K2E mutant fails to rescue phenotypes in a more physiologically relevant infection model.
+    - **Why it matters** The central claim of the paper is that MyD88 is a direct cytosolic DNA sensor. Without robust evidence for a physiological interaction, the relevance of the structural findings to real-world immune responses remains speculative. The field has been cautious about assigning direct DNA-sensing roles to proteins based on in vitro binding and overexpression/transfection experiments, given the prevalence of non-specific nucleic acid binding and the existence of multiple redundant sensing pathways.
+    - **Resolution test** Provide evidence for a direct interaction between endogenous MyD88 and dsDNA in cells, e.g., via proximity ligation assay, ChIP, or crosslinking followed by immunoprecipitation, specifically during viral infection or after delivery of dsDNA by physiological means (e.g., viral particles, exosomes). Alternatively, show that the K2E mutant fails to complement the phenotype in a knock-in mouse model or in primary cells from MyD88 KO mice infected with a DNA virus.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Specificity of DNA binding
+    - **Claim pointer** "MyD88 exhibits a uniquely positive surface charge, unlike other mammalian TIR domains... The concave surface of the antiparallel MyD88 TIR ring features positively charged patches primarily contributed by two lysine residues from each subunit, K261 and K262."
+    - **Evidence pointer** Figure 1G-I; Figure 2F; Methods section on EMSA.
+    - **Concern** The specificity of the MyD88-dsDNA interaction is not sufficiently demonstrated. The authors show that K2E mutations abolish binding, but they do not test whether this interaction is sequence-specific or structure-specific (e.g., does MyD88 bind to dsRNA, ssDNA, or RNA-DNA hybrids?). The claim that this is a "unique" property of MyD88 among TIR domains is based on a comparison that is not fully shown. Furthermore, the functional experiments only test the K2E mutant, which may have pleiotropic effects on protein folding or stability beyond just eliminating DNA binding.
+    - **Why it matters** To establish MyD88 as a bona fide DNA sensor, it is critical to demonstrate that the interaction is specific for dsDNA and not a general nucleic acid-binding property. The lack of specificity data weakens the claim that this is a dedicated DNA-sensing function. Additionally, the K2E mutant could disrupt other functions of MyD88, confounding the interpretation of the cellular experiments.
+    - **Resolution test** Perform EMSA or surface plasmon resonance (SPR) with a panel of nucleic acids, including dsDNA of different sequences, ssDNA, dsRNA, and RNA-DNA hybrids. Test additional point mutations in the DNA-binding surface to confirm that the loss of function is specifically due to loss of DNA binding. Provide a structural comparison of surface charge distribution across multiple TIR domains to support the "unique" claim.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Mechanistic link to oncogenic activation
+    - **Claim pointer** "The L252P mutation... leads to spontaneous punctum formation, recruitment and activation of IRAK4, IRAK1 and IRAK2, and downstream pathway activation."
+    - **Evidence pointer** Figure 6; Figure 4A; Methods section on cell culture and imaging.
+    - **Concern** The mechanistic link between the L252P mutation, the spiral structure, and oncogenic activation is not clearly established. The authors show that L252P forms spirals instead of rings and that it binds DNA, but they do not directly demonstrate how this structural change leads to constitutive activation. The spontaneous puncta formation in L252P-expressing cells is shown, but the role of DNA binding in this process is not directly tested. Is the spiral structure more efficient at nucleating Myddosome formation? Does DNA binding stabilize the spiral and promote activation?
+    - **Why it matters** Understanding the mechanism of oncogenic activation is crucial for therapeutic development. If the spiral structure is the key oncogenic driver, then targeting the spiral interface or its DNA-binding activity could be a therapeutic strategy. Without a clear mechanistic link, the relevance of the structural findings to cancer biology remains correlative.
+    - **Resolution test** Test whether the K2E mutation in the L252P background abolishes spontaneous puncta formation and downstream signaling. Compare the ability of WT rings and L252P spirals to nucleate Myddosome formation in vitro or in cells. Use FRAP or other biophysical methods to assess the dynamics of the L252P spiral versus WT ring.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Data availability and quality
+    - **Claim pointer** "We determined the cryo-EM structures of the wild-type (WT) and cancer-specific L252P mutant MyD88 TIR domains at resolutions of 3.6 Å and 3.4 Å, respectively."
+    - **Evidence pointer** Figure 1, Figure 6, Table S1, Methods section on cryo-EM data processing.
+    - **Concern** The manuscript does not provide sufficient details on the quality of the cryo-EM maps and models. While the resolution is stated, there is no mention of map-model FSC, local resolution variation, or the quality of the DNA density. The DNA density is described as "thin" and required 3D classification to improve, suggesting it may be poorly resolved. The authors should provide more rigorous validation of the DNA model, including whether the DNA sequence can be assigned or if it is a generic B-form helix.
+    - **Why it matters** The structural interpretation, particularly the DNA-binding mode, is a central claim. If the DNA density is not well-resolved, the specific contacts between MyD88 and DNA cannot be reliably assigned, weakening the structural basis for the proposed mechanism. The field requires high-quality structural data to support such claims.
+    - **Resolution test** Provide map-model FSC curves, local resolution maps, and representative density for the DNA and the protein-DNA interface. State clearly whether the DNA sequence can be assigned from the density or if it is modeled as a generic B-form DNA. Deposit the maps and models and provide validation statistics as per wwPDB guidelines.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract, last sentence.
+    - **Issue** The sentence "Together, our structural, biochemical and genetic data support the findings that MyD88 directly engages with cytosolic dsDNA and cooperates with cGAS to promote the full innate immune transcriptional response" is vague. The term "cooperates" is not well-defined. Does it mean parallel pathways, physical interaction, or synergistic transcriptional effects?
+    - **Required correction** Clarify the nature of the cooperation between MyD88 and cGAS. For example, "MyD88 and cGAS act in parallel pathways to induce complementary sets of genes" or "MyD88 and cGAS synergistically activate shared transcription factors."
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Figure 3
+    - **Evidence pointer** Figure 3A-E; Methods section on gene expression analysis.
+    - **Issue** The authors state that "MyD88 is required to increase Tnf mRNA level and TNFα protein secretion" but do not show the data for the K2E mutant in this figure. The K2E data is only mentioned in the text for Figures 4B,C. It would be clearer to show the K2E mutant phenotype alongside the KO and WT controls in the same figure for direct comparison.
+    - **Required correction** Include the K2E mutant data in Figure 3 or clearly cross-reference Figure 4 in the text when discussing the requirement for DNA binding.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Methodology
+    - **Affected element** EMSA
+    - **Evidence pointer** Methods section on EMSA.
+    - **Issue** The EMSA experiments use MBP-MyD88 TIR, which is a fusion protein. The MBP tag could potentially influence DNA binding or oligomerization. The authors do not address this potential artifact.
+    - **Required correction** Discuss the potential influence of the MBP tag and, if possible, perform a control experiment with the tag cleaved off to confirm that the DNA-binding activity is intrinsic to MyD88 TIR.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion, paragraph 3.
+    - **Issue** The speculation that "multiple MyD88 rings could assemble along a single dsDNA molecule, potentially modulating the immune response in a length-dependent manner" is interesting but not supported by any experimental evidence. It is presented as a hypothesis, but the wording could be more cautious.
+    - **Required correction** Frame this as a speculative model and suggest future experiments to test it, such as visualizing longer DNA molecules with multiple bound rings by EM.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (physiological relevance), R1-M2 (specificity of DNA binding), R1-M4 (cryo-EM data quality and validation).
+- **Assessment against Nature-style criteria**
+    - **Originality** High. The finding that MyD88, a canonical TLR adaptor, can directly bind dsDNA and mediate cytosolic DNA sensing is novel and unexpected. This challenges the current paradigm of cytosolic DNA sensing, which is largely focused on cGAS and AIM2.
+    - **Scientific importance** Potentially high. If the claims are substantiated, this work would establish a new branch of the innate immune DNA-sensing pathway and provide a mechanistic basis for the oncogenic activity of the L252P mutation. It could have implications for understanding autoimmune diseases and cancer immunotherapy.
+    - **Interdisciplinary readership** Broad. The work spans structural biology, immunology, and cancer biology, and would be of interest to researchers in all three fields. The clear writing and logical flow make it accessible to a general scientific audience.
+    - **Technical soundness** The cryo-EM structures appear to be of good quality based on the reported resolutions, but the validation is incomplete. The biochemical and cellular experiments are well-designed but lack critical controls for specificity and physiological relevance. The RNA-seq data is presented as supporting evidence but is not fully described.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. The abstract is concise and accessible. However, some parts of the results, particularly the structural analysis, may be challenging for non-structural biologists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially significant, but the current evidence does not fully establish the physiological relevance of the MyD88-dsDNA interaction. The authors must address the concerns regarding specificity, in vivo relevance, and structural validation before the case is fully made.
+
+## Risk / unsupported claims
+- The claim that MyD88 is a direct physiological sensor of cytosolic dsDNA is not fully supported by the presented evidence, which relies on in vitro binding and transfection-based assays.
+- The claim that the L252P mutation's oncogenic activity is linked to its DNA-binding ability is correlative and lacks direct mechanistic evidence.
+- The claim that the MyD88 TIR ring/spiral structures are the signaling-competent forms is not directly tested.
+- The statement that "about half of cGAS-dependent genes are also MyD88-dependent" is based on RNA-seq data that is not fully presented or analyzed in the text.
+- The functional significance of the spiral structure versus the ring structure is not experimentally addressed.

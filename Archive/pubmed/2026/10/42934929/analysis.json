@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42934929",
+  "title": "Radiogenomic Analysis of Contrast-Enhanced MRI for Predicting Pathogenic BRCA Variants in Ovarian Cancer.",
+  "authors": "Saito, Hayato; Fukui, Ryohei; Sugihara, Hanako; Tada, Akihiro; Nagao, Shoji; Iguchi, Toshihiro",
+  "journal": "Acta medica Okayama",
+  "published_date": "2026-10-27",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用MRI影像组学预测卵巢癌BRCA突变，不涉及蛋白质-DNA互作或TF-DNA结合，与课题无关。",
+  "abstract": "This study evaluated the feasibility of predicting pathogenic BRCA1/2 variants in ovarian cancer using radiogenomic analysis of contrast-enhanced MRI. Twenty six patients were analyzed, including 14 with pathogenic BRCA1/2 variants and 12 without. Contrast enhanced MRI was used to generate two dimensional (2D) and three dimensional (3D) tumor segmentations. Radiomic features extracted with PyRadiomics were reduced using least absolute shrinkage and selection operator (LASSO) regression, yielding two selected features. Linear discriminant analysis (LDA) models were trained on 18 patients and tested on 8, with performance assessed using sensitivity, specificity, accuracy, and the area under the receiver operating characteristic (ROC) curve. The DeLong test compared AUCs between segmentation methods. Automated machine learning (AutoML) was performed with a training set of 20 patients and a test set of 6, with multiple performance metrics calculated. LDA achieved approximately 60% accuracy in both 2D and 3D test datasets. AUCs were 0.80 (3D) and 0.77 (2D), with no significant difference (p=0.85). AutoML identified CatBoost_BAG_L2_FULL as the optimal model, achieving accuracy above 80%. MRI-based radiogenomic analysis demonstrated moderate classification performance for identifying pathogenic BRCA1/2 variants in ovarian cancer. These preliminary findings suggest a potential role for noninvasive prediction, warranting further validation in larger cohorts.",
+  "abstract_zh": "本研究评估了利用增强MRI的放射基因组学分析预测卵巢癌中致病性BRCA1/2变异的可行性。共分析了26名患者，其中14名携带致病性BRCA1/2变异，12名无此变异。使用增强MRI生成二维（2D）和三维（3D）肿瘤分割。利用PyRadiomics提取的放射组学特征通过最小绝对收缩和选择算子（LASSO）回归进行降维，最终选出两个特征。基于线性判别分析（LDA）模型在18名患者上训练，并在8名患者上测试，性能通过敏感性、特异性、准确性和受试者工作特征（ROC）曲线下面积进行评估。DeLong检验比较了不同分割方法间的AUC。自动化机器学习（AutoML）使用20名患者的训练集和6名患者的测试集进行，并计算了多项性能指标。LDA在2D和3D测试数据集中均达到约60%的准确率。AUC分别为0.80（3D）和0.77（2D），差异无统计学意义（p=0.85）。AutoML识别出CatBoost_BAG_L2_FULL为最优模型，准确率超过80%。基于MRI的放射基因组学分析在识别卵巢癌致病性BRCA1/2变异方面表现出中等分类性能。这些初步发现提示其在非侵入性预测中的潜在作用，需在更大规模队列中进一步验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42934929/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42934929/",
+  "paper_page_path": "papers/pubmed/42934929/index.html"
+}

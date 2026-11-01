@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Abstract only, as supplied in the submission record. No full text, figures, tables, or supplementary information were provided.
+- **Assessment boundary** Evaluation is restricted to the claims and evidence visible in the abstract. Mechanistic, statistical, and technical judgments are limited to what the abstract reports; no assessment of methods detail, convergence, or model validation is possible.
+- **Shared manuscript claim summary** All-atom MD of NSD2 bound to the nucleosome for WT, E1099K, T1150A, and E1099K/T1150A shows unchanged global enzyme dynamics but mutation-dependent differences in free-energy landscapes from tICA and Markov state modeling; mutants show reduced SAM-H3K36 distances and altered macrostate transitions or occupancy; mutations reorganize intramolecular contact networks around the catalytic site, SAM-binding pocket, and histone-binding interface; these changes are proposed to explain hyperactivity via reorganization of conformational dynamics rather than destabilization.
+- **Visible evidence base** Abstract-level description of MD simulations, tICA, and Markov state modeling across four NSD2 variants. No numerical values, state definitions, timescales, error estimates, or experimental validation are visible.
+- **Missing materials affecting confidence** Full text, methods, force-field and system setup, sampling lengths and replica counts, tICA/Markov model construction and validation, state definitions, free-energy and kinetic estimates with uncertainties, distance distributions, contact-network analysis, and any experimental corroboration. These omissions prevent verification of essentially all quantitative and mechanistic claims.
+
+## Reviewer
+- **Overall assessment** The study addresses a relevant and timely question, namely how oncogenic NSD2 mutations produce gain of methylation activity at the level of conformational dynamics. The combination of all-atom MD with tICA and Markov state modeling is appropriate for this question, and the comparison across WT, two single mutants, and a double mutant is a sensible design. However, the supplied material is an abstract only, and it reports conclusions without the quantitative and methodological detail needed to judge whether those conclusions are supported. As presented, the central mechanistic claim is plausible but not established from the visible evidence.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on enhanced sampling, Markov state models, and free-energy landscape analysis; chromatin and epigenetics researchers studying NSD2 and H3K36 methylation; cancer biologists interested in gain-of-function mechanisms in histone methyltransferases; and structure-based and dynamics-based drug discovery groups targeting methyltransferase conformational landscapes.
+- **Major strengths** The question is well motivated and connects a clinically relevant gain-of-function phenotype to a concrete physical mechanism. The use of four variants including a double mutant allows assessment of additivity or epistasis. Applying tICA and Markov state modeling to compare kinetic and thermodynamic landscapes across variants is a reasonable strategy for distinguishing changes in stability from changes in transition behavior. The framing that hyperactivity may arise from reorganization of dynamics rather than global destabilization is a testable and potentially informative hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness and statistical support
+    - **Claim pointer** tICA and Markov state modeling uncovered fundamental differences in free-energy landscapes among the variants, including unfavorable WT transitions and modified mutant landscapes.
+    - **Evidence pointer** Abstract only; no methods, figures, or tables provided. Location not provided.
+    - **Concern** No information is given on trajectory lengths, number of independent replicas, aggregate sampling per variant, tICA lag time selection, dimensionality, Markov state discretization, implied timescale convergence, or Chapman-Kolmogorov validation. Without these, the reported landscape differences cannot be distinguished from sampling noise or model hyperparameter choices.
+    - **Why it matters** Free-energy and kinetic differences between variants are the core of the mechanistic argument. If the Markov models are not converged or validated, the central claim of mutation-dependent landscape reorganization is unsupported.
+    - **Resolution test** Report per-variant aggregate sampling, number of independent trajectories, lag time and dimensionality selection with implied timescale plots, state count and discretization scheme, Chapman-Kolmogorov tests, and uncertainties on free energies, transition rates, and mean first passage times. Show that landscape differences exceed estimated error.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Mechanistic inference and causal attribution
+    - **Claim pointer** Mutants demonstrate reduced SAM-H3K36 distances and mutations optimize substrate engagement geometry, which is proposed to explain hyperactivity.
+    - **Evidence pointer** Abstract only; no distance distributions, contact maps, or catalytic geometry analysis provided. Location not provided.
+    - **Concern** The abstract asserts reduced SAM-H3K36 distances and optimized engagement geometry without reporting distributions, effect sizes, or whether the sampled geometries are catalytically competent. A reduced average distance does not by itself establish a more reactive configuration, and no direct link is made between the observed geometries and a methylation-competent transition state or near-attack conformation.
+    - **Why it matters** The mechanistic conclusion depends on showing that the mutant ensembles populate catalytically productive arrangements more often, not merely that a distance is smaller. Without this, the causal chain from mutation to hyperactivity remains inferential.
+    - **Resolution test** Provide per-variant distributions of SAM methyl group to H3K36 lysine nitrogen distance and relevant attack angles, quantify occupancy of near-attack conformations with defined geometric criteria, and report statistical significance and effect sizes. Ideally relate these to available kinetic or activity data.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Internal consistency of claims
+    - **Claim pointer** The global dynamics of the enzymes remain unaltered upon mutations, while the mutations reorganize contact networks and alter free-energy landscapes.
+    - **Evidence pointer** Abstract only. Location not provided.
+    - **Concern** The abstract simultaneously claims unchanged global dynamics and substantial reorganization of local landscapes and contact networks. The boundary between global and local is not defined, and no metric is given for either. This creates ambiguity about what was actually observed and how the two statements are reconciled.
+    - **Why it matters** The interpretive framing, that hyperactivity arises from strategic reorganization rather than destabilization, depends on a clear and defensible separation between unchanged global behavior and changed local behavior.
+    - **Resolution test** Define the metrics used for global dynamics, for example RMSF, principal component overlap, or global correlation measures, and for local reorganization, and show quantitatively that the former are invariant while the latter differ across variants.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Model system validity
+    - **Claim pointer** All-atom MD simulations of NSD2 bound to the nucleosome reproduce behavior consistent with experimental observations of enhanced catalytic activity.
+    - **Evidence pointer** Abstract only. Location not provided.
+    - **Concern** The abstract does not specify the nucleosome construct, histone tail modification state, bound cofactor and substrate analogs, protonation states, or how the catalytic configuration was modeled. These choices strongly influence whether the simulated system can represent the methylation reaction context.
+    - **Why it matters** If the simulated system does not capture the relevant substrate and cofactor geometry, the computed landscapes may not report on the catalytic process being invoked to explain hyperactivity.
+    - **Resolution test** Describe the full system composition, including nucleosome sequence and any modifications, SAM or analog, metal ions, water model, force field and its parameterization for SAM and the modified histone, and justify each choice relative to the biological reaction.
+  - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Experimental grounding
+    - **Claim pointer** Findings are consistent with experimental observations of enhanced catalytic activity.
+    - **Evidence pointer** Abstract only; no experimental data or citations visible. Location not provided.
+    - **Concern** The consistency with experiment is asserted but not demonstrated within the visible material. No specific experimental dataset, activity assay, or kinetic parameter is cited or compared quantitatively.
+    - **Why it matters** The claim of biological relevance rests on this comparison. Without a concrete link, the computational results remain a hypothesis rather than an explanation of observed hyperactivity.
+    - **Resolution test** State the specific experimental observations being referenced, and compare computed quantities such as state populations or transition propensities with measured activity or kinetic differences among the same variants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Terminology precision
+    - **Affected element** Use of the term substance engagement geometry.
+    - **Evidence pointer** Abstract. Location not provided.
+    - **Issue** The phrase substance engagement geometry is nonstandard and ambiguous in this context, where substrate is the expected term.
+    - **Required correction** Replace with substrate or substrate-binding geometry and define the geometric criteria used.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Quantitative reporting
+    - **Affected element** All comparative statements among variants.
+    - **Evidence pointer** Abstract. Location not provided.
+    - **Issue** No numerical values, uncertainties, or effect sizes accompany any comparative claim.
+    - **Required correction** Add representative quantitative summaries with uncertainties for the key comparisons in the abstract or in the main text.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Scope of the double mutant
+    - **Affected element** E1099K/T1150A double mutant.
+    - **Evidence pointer** Abstract. Location not provided.
+    - **Issue** The double mutant is included but its behavior relative to the single mutants is not described, so additivity or epistasis cannot be assessed.
+    - **Required correction** Report whether the double mutant resembles one single mutant, is intermediate, or is non-additive, with supporting quantities.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Therapeutic framing
+    - **Affected element** Statement that results establish a framework to develop novel therapeutics.
+    - **Evidence pointer** Abstract. Location not provided.
+    - **Issue** The therapeutic implication is asserted without any druggability analysis, pocket identification, or ligand-facing result.
+    - **Required correction** Either temper the statement to a future prospect or provide concrete structural or dynamic features that could be targeted.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5.
+- **Assessment against Nature-style criteria** Originality is moderate to good, since the variant-resolved dynamic comparison of NSD2 on the nucleosome with tICA and Markov state modeling is a reasonable extension of existing computational work on methyltransferases. Scientific importance is potentially high if the mechanistic link to hyperactivity is substantiated, but it is currently asserted rather than demonstrated. Interdisciplinary readership is plausible, spanning computational chemistry, epigenetics, and cancer biology, though the abstract is written for a specialized audience. Technical soundness cannot be evaluated from the supplied material, and the absence of convergence, validation, and uncertainty information is a serious limitation. Readability for nonspecialists is limited by unexplained jargon and by the absence of any quantitative anchor for the main claims.
+- **Recommendation posture** Currently not established from the provided evidence. The work is potentially supportive if the technical concerns, particularly Markov model validation, catalytic geometry quantification, and experimental grounding, are resolved with full methodological and quantitative detail.
+
+## Risk / unsupported claims
+- That tICA and Markov state modeling uncovered fundamental differences in free-energy landscapes among variants, since no convergence, validation, or uncertainty information is visible.
+- That WT NSD2 exhibits energetically and kinetically unfavorable transitions between macrostates, since no rate, barrier, or timescale values are provided.
+- That mutants show reduced SAM-H3K36 distances, since no distributions, effect sizes, or statistical tests are visible.
+- That mutations favor prolonged occupancy of catalytically competent states, since catalytic competence is not defined or quantified in the visible material.
+- That mutations reorganize the network of intramolecular contacts around the catalytic site, SAM-binding pocket, and histone-binding interface, since no contact analysis is shown.
+- That findings are consistent with experimental observations of enhanced catalytic activity, since no specific experimental data are cited or compared.
+- That the results establish a framework to develop novel therapeutics, since no druggability or ligand-facing analysis is presented.
+- That global dynamics remain unaltered while local landscapes change, since neither global nor local metrics are defined or reported.

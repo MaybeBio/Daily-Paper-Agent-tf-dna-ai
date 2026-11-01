@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a TF-anchored, direction-aware graph attention residual network (TF-Anchored Directed SiGaResNet) applied to 92 rice leaf RNA-seq samples from independent drought and salinity studies. They report differential expression results, cross-validated classification performance, a sparse modular directed gene regulatory network with TF enrichment among source nodes, prioritization of candidate regulators with convergent computational support, and qRT-PCR validation of four candidates under separate stress treatments. The authors explicitly disclaim causal regulatory mechanism establishment.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, network construction details, hyperparameter choices, data preprocessing and batch handling, WGCNA module definitions, cis-element analysis parameters, protein association topology methods, qRT-PCR experimental design and statistics, and all numerical results beyond those cited in the abstract
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically ambitious integration of graph attention modeling with transcriptomic data to infer directed regulatory relationships in rice under drought and salinity stress. The core idea is timely and potentially useful for hypothesis generation. However, the abstract alone provides insufficient detail to evaluate the validity of the network inference approach, the robustness of the validation strategy, or the biological significance of the prioritized candidates. Several claims are presented with strong quantitative language but without the methodological context needed to assess their reliability. The work is likely of interest to plant stress biology and computational biology communities, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Plant stress biologists studying drought and salinity responses in rice or other crops would be interested in the prioritized candidate regulators and the TF-centered network architecture. Computational biologists working on graph neural networks for gene regulatory network inference would be interested in the methodological framework and its application to multi-study transcriptomic integration. Researchers focused on regulatory genomics and TF function in abiotic stress would find the convergent evidence approach relevant.
+- **Major strengths** The explicit focus on directionality and sign in regulatory inference addresses a recognized limitation of correlation-based methods. The TF-anchored edge-retention rule is a sensible design choice to constrain inference around regulatory nodes. The use of independent drought and salinity datasets for integration is appropriate for identifying shared responses. The multi-level validation strategy, combining network properties, WGCNA corroboration, cis-element enrichment, protein association topology, and qRT-PCR, is commendable. The authors appropriately acknowledge that causal mechanisms are not established.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The framework showed strong cross-validated classification performance (MCC = 0.78 +/- 0.17; AUC = 0.95 +/- 0.05).  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** The classification performance metrics are presented without any description of the classification task, the train-test split strategy, the baseline models compared, or the potential for data leakage across the 92 samples derived from independent studies. The high AUC and MCC values could reflect trivial separation driven by batch effects or study-of-origin rather than biological signal.  
+  - **Why it matters** Without clarity on what is being classified and how generalization is ensured, the reported performance cannot be interpreted as evidence that the learned representations capture stress-responsive regulatory biology. Batch effects are a well-known confound in multi-study transcriptomic integration.  
+  - **Resolution test** Provide a clear description of the classification task, the cross-validation scheme, the handling of study-of-origin and batch effects, and a comparison against appropriate baselines such as correlation-based networks or unconstrained graph attention models. Show that performance is not driven by study identity.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The resulting directed gene regulatory network comprised 137 nodes and 163 edges and exhibited a sparse, modular architecture (modularity = 0.77; 15 communities), with TFs significantly enriched among regulatory source nodes (P < 0.001).  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** The network size of 137 nodes and 163 edges is extremely small relative to the 719 differentially expressed genes identified. The criteria for node inclusion, edge thresholding, and the TF-anchored edge-retention rule are not described. The modularity value and community count are presented without null model comparisons or stability assessments. The enrichment test for TFs among source nodes lacks description of the background set and statistical test used.  
+  - **Why it matters** The biological interpretability of the network depends entirely on how it was constructed and thresholded. A network this sparse may be an artifact of aggressive filtering or may omit biologically relevant connections. Without methodological transparency, the network properties cannot be evaluated.  
+  - **Resolution test** Describe the node selection criteria, edge scoring and thresholding procedures, the null model for modularity assessment, and the statistical test for TF enrichment with appropriate background. Provide stability analyses such as bootstrap or subsampling.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength  
+  - **Claim pointer** Quantitative real-time PCR further confirmed stress-responsive expression of all four candidates under separate drought and salinity treatments, supporting their prioritization as putative candidate regulators.  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** The qRT-PCR validation is described in a single sentence with no information on experimental design, number of biological replicates, statistical analysis, effect sizes, or the magnitude and direction of expression changes. The term "confirmed" is strong given the absence of any quantitative results.  
+  - **Why it matters** qRT-PCR is presented as a key validation pillar. Without reporting the actual expression changes and their statistical significance, the claim of confirmation is unsupported. The biological relevance of the candidates cannot be assessed.  
+  - **Resolution test** Provide the qRT-PCR data with replicate numbers, statistical tests, and effect sizes for all four candidates under both stress conditions. Clarify whether the expression changes are consistent with the direction predicted by the network model.
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** We applied TF-Anchored Directed SiGaResNet, a signed, direction-aware graph attention residual network with a TF-anchored edge-retention rule and permutation-based validation, to RNA-seq profiles from 92 rice leaf samples.  
+  - **Evidence pointer** Abstract, methods summary; location not provided  
+  - **Concern** The abstract provides no information on data preprocessing, normalization, batch correction, or how the 92 samples were selected from the independent studies. The architecture details of the graph attention network, the training procedure, and the permutation-based validation scheme are not described.  
+  - **Why it matters** Reproducibility is a core requirement for computational biology. The method is presented as novel, but without implementation details, other researchers cannot apply or evaluate it. The selection and preprocessing of the input data directly affect all downstream results.  
+  - **Resolution test** Provide full methods including data accession numbers, preprocessing steps, architecture specifications, hyperparameters, and code availability. Describe the permutation scheme used for validation.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Differential expression results  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Issue** The abstract reports 719 differentially expressed genes with enrichment categories but does not state the differential expression threshold, the statistical test used, or how multiple testing was controlled.  
+  - **Required correction** Specify the fold-change cutoff, adjusted p-value threshold, and the software or method used for differential expression analysis.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Interpretability  
+  - **Affected element** Hub regulator description  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Issue** The statement that hub regulators are distributed across bZIP, MYB-related, and NAC families is presented without defining what constitutes a hub in this network context.  
+  - **Required correction** Define the hub criterion, such as degree or centrality threshold, and report the number of hubs per family.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Candidate prioritization  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Issue** The abstract states that eighteen of thirty-two prioritized TF-encoding genes were corroborated in WGCNA modules but does not describe the prioritization criteria for the thirty-two genes.  
+  - **Required correction** Describe the prioritization scoring scheme and the criteria for selecting the thirty-two genes for WGCNA corroboration.
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Convergent support claim  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Issue** The phrase "convergent computational support" from promoter cis-element enrichment, protein functional-association topology, and leave-one-out cross-validation is vague regarding what constitutes support in each analysis.  
+  - **Required correction** Specify the criteria for support in each of the three analyses and how they were integrated to reach the conclusion of convergence.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+
+## Risk / unsupported claims
+- The claim of strong classification performance (MCC = 0.78, AUC = 0.95) is unsupported without details on the classification task, cross-validation scheme, and batch effect handling.
+- The network properties (137 nodes, 163 edges, modularity = 0.77, 15 communities, TF enrichment) are uninterpretable without node selection criteria, edge thresholding, and statistical null models.
+- The qRT-PCR confirmation of four candidates is unsupported without experimental design, replicate numbers, and statistical results.
+- The claim of "convergent computational support" for the four candidates is not evaluable without criteria for each analysis.
+- The overall claim that the framework can "identify biologically coherent, TF-centered regulatory patterns" is not established from the abstract alone, as the biological coherence is asserted rather than demonstrated with specific evidence.
+- The generalizability of the approach to other species or stress conditions is not addressed and cannot be assessed.
