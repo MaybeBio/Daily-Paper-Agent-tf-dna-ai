@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report an integrated machine learning and structure-based virtual screening workflow to prioritize putative EBNA1-binding compounds. They describe dataset curation from PubChem, model training and selection (XGBoost selected), application to a DrugBank library, docking against the KVD-associated pocket of EBNA1 (PDB 6NPM), and sequential filtering to yield 10 prioritized candidates. They explicitly state these candidates are computationally prioritized and not experimentally validated.
+- **Visible evidence base** Abstract text only; includes performance metrics (ROC-AUC 0.835, PR-AUC 0.408, Brier score 0.067), counts at each filtering stage, and docking score threshold
+- **Missing materials affecting confidence** Full methods, dataset composition and curation details, model hyperparameters, scaffold split description, docking protocol and validation results, chemical structures of candidates, ADMET results, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract describes a reasonable and increasingly common computational workflow for ligand prioritization. The authors are appropriately cautious in framing outputs as predictions requiring experimental validation. However, the abstract alone provides insufficient detail to assess the technical rigor of the machine learning pipeline, the validity of the docking setup, or the robustness of the final candidate list. Several claims, particularly regarding model performance and docking reliability, cannot be evaluated without supporting data. The work may be of interest to computational drug discovery researchers, but the case for its scientific contribution is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on EBV or viral protein targets may find the workflow relevant. Researchers developing machine learning-based virtual screening methods could also be interested in the model comparison and filtering strategy. However, the lack of experimental validation limits appeal to a broader biological or clinical audience.
+- **Major strengths** The authors explicitly acknowledge the computational nature of the findings and avoid overclaiming therapeutic relevance. The use of scaffold-based independent testing is a positive methodological choice for assessing generalization. The multi-stage filtering approach, including docking and multiple liability assessments, reflects a systematic prioritization strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The XGBoost model was selected based on superior test-set ROC-AUC (0.835), PR-AUC (0.408), and Brier score (0.067), and was applied to virtual screening.
+  - **Evidence pointer** Abstract, model performance metrics; location not provided
+  - **Concern** The abstract reports only three performance metrics for the selected model. No comparison of these metrics across the four evaluated models is provided, so the basis for selecting XGBoost over Random Forest, SVM-RBF, or Logistic Regression is unclear. Additionally, the PR-AUC of 0.408 is low, which may indicate poor precision in the positive class, yet the abstract does not discuss this limitation or report precision, recall, or F1 scores.
+  - **Why it matters** Model selection is a central claim of the study. Without comparative performance data and a discussion of the low PR-AUC, the reader cannot judge whether the chosen model is genuinely suitable for the screening task or whether the reported probability threshold of 0.5 is justified.
+  - **Resolution test** Provide a table or figure comparing all evaluated models on the same test set, including precision, recall, F1, and calibration metrics. Discuss the implications of the PR-AUC value and justify the probability threshold with reference to the precision-recall trade-off.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Docking validation was performed by independent KVD redocking at exhaustiveness values of 8, 16, and 32, and 32 compounds achieved docking scores of -7.0 kcal/mol or better.
+  - **Evidence pointer** Abstract, docking validation and scoring; location not provided
+  - **Concern** The abstract states that KVD redocking was performed at three exhaustiveness values but does not report the outcomes of this validation. No root-mean-square deviation values, pose quality assessments, or comparison of docking scores across exhaustiveness settings are given. Without these data, the docking protocol cannot be considered validated, and the significance of the -7.0 kcal/mol threshold is unclear.
+  - **Why it matters** Docking scores are used as a key filter in the prioritization pipeline. If the docking protocol is not validated against a known binder, the reliability of the docking-based selection is unsubstantiated. The choice of the score threshold also requires justification relative to the validation results.
+  - **Resolution test** Report the KVD redocking results, including RMSD values and pose quality at each exhaustiveness level. Justify the -7.0 kcal/mol cutoff based on the distribution of docking scores for known binders versus decoys or on the validation outcomes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** A PubChem EBNA1 bioactivity dataset comprising 304,124 records was curated to obtain 4,584 unique compounds, and molecular representation combined 1,024-bit Morgan fingerprints with 11 RDKit molecular descriptors.
+  - **Evidence pointer** Abstract, dataset and representation; location not provided
+  - **Concern** The abstract provides no details on the curation criteria used to reduce 304,124 records to 4,584 unique compounds. It is unclear how activity labels were defined, whether inactive compounds were included, how duplicates and conflicting records were resolved, and what the class balance is. The choice of 11 RDKit descriptors is also not specified.
+  - **Why it matters** Dataset curation and label definition directly affect model training and evaluation. Without this information, the reported performance metrics cannot be interpreted, and the reproducibility of the study is compromised.
+  - **Resolution test** Describe the curation steps in detail, including activity label definitions, inclusion and exclusion criteria, handling of conflicting records, and the final class distribution. List the 11 RDKit descriptors used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Probability threshold statement
+  - **Evidence pointer** Abstract, screening step; location not provided
+  - **Issue** The phrase "predicted activity probabilities >/=0.5" is ambiguous regarding whether the threshold was inclusive or exclusive.
+  - **Required correction** Specify whether the threshold was greater than or equal to 0.5 or strictly greater than 0.5.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Candidate count discrepancy
+  - **Evidence pointer** Abstract, screening and docking results; location not provided
+  - **Issue** The abstract reports 116 compounds above the threshold, 40 passing Lipinski filters, and 32 achieving docking scores of -7.0 kcal/mol or better, but the number of compounds after each subsequent liability assessment is not reported. The final step from 32 to 10 candidates is not traceable.
+  - **Required correction** Provide the number of compounds remaining after each filtering stage, including PAINS, aggregation, frequent-hitter, assay-interference, redox-alert, and ADMET assessments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Graphical abstract description
+  - **Evidence pointer** Abstract, graphical abstract; location not provided
+  - **Issue** The graphical abstract description is minimal and does not convey the workflow's key stages or outcomes.
+  - **Required correction** Expand the graphical abstract description to include the main filtering steps and the number of compounds at each stage, or refer to a figure in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model selection justification), R1-M2 (docking validation reporting), R1-M3 (dataset curation transparency)
+- **Assessment against Nature-style criteria** Originality: The combination of machine learning, docking, and multiple liability filters for EBNA1 is not clearly novel, as similar integrated workflows are common in computational drug discovery. Scientific importance: EBNA1 is a relevant viral target, but the abstract does not demonstrate that the identified candidates have any advantage over existing compounds or that the workflow offers new biological insight. Interdisciplinary readership: The work may appeal to computational and virology researchers, but the abstract is too technical and lacks context for a broader audience. Technical soundness: Cannot be fully assessed from the abstract; key details on model evaluation, docking validation, and dataset curation are missing. Readability for nonspecialists: The abstract is dense with technical terms and metrics, and the significance of the findings is not clearly articulated for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible workflow, but the absence of comparative model data, docking validation results, and curation details prevents assessment of the technical claims. The authors should provide the full methods and results before the case for the study's contribution can be evaluated.
+
+## Risk / unsupported claims
+- The claim that XGBoost was the best-performing model is unsupported because no comparative metrics for other models are provided.
+- The claim that docking validation was performed is unverifiable because no validation outcomes are reported.
+- The claim that 10 candidates have "favorable combined machine-learning, docking, and structural-filter profiles" is not supported by data on the individual filtering stages.
+- The statement that the workflow enabled "systematic prioritization" is a reasonable description of the process but cannot be evaluated for effectiveness without experimental or benchmark-based evidence.
+- The abstract's final disclaimer that candidates are not experimentally validated is appropriate and consistent with the evidence presented.

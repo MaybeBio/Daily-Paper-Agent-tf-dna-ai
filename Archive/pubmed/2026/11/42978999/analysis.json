@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42978999",
+  "title": "Computational identification of EBNA1-binding candidates using machine learning-based virtual screening and molecular docking.",
+  "authors": "Pauskar, Akshata P; Natarajan, Elamathi",
+  "journal": "In silico pharmacology",
+  "published_date": "2026-11-04",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习虚拟筛选和分子对接预测EBNA1蛋白的小分子结合候选物，虽涉及蛋白-DNA结合域但聚焦配体筛选而非TF-DNA互作机制，方法可迁移但对象和互作轴匹配度有限。",
+  "abstract": "Epstein-Barr virus (EBV) is associated with several malignancies and multiple sclerosis, and Epstein-Barr nuclear antigen 1 (EBNA1) plays an essential role in viral genome replication and episome maintenance. The experimentally characterized KVD-associated pocket within the EBNA1 DNA-binding domain provides a structurally defined site for computational ligand prioritization. This study aimed to identify and prioritize predicted EBNA1-binding candidates using an integrated machine-learning and structure-based virtual screening framework. A PubChem EBNA1 bioactivity dataset comprising 304,124 records was curated to obtain 4,584 unique compounds. Molecular representation combined 1,024-bit Morgan fingerprints with 11 RDKit molecular descriptors. Random Forest, SVM-RBF, Logistic Regression, and XGBoost models were evaluated using scaffold-based independent testing. The optimized XGBoost model was applied to a non-overlapping DrugBank library of 12,287 compounds. Compounds with predicted activity probabilities >/=0.5 were subjected to Lipinski-based filtering, followed by molecular docking against the KVD-associated binding pocket of EBNA1 (PDB ID: 6NPM). Docking validation was performed by independent KVD redocking at exhaustiveness values of 8, 16, and 32. Post-docking candidates were further evaluated using PAINS, aggregation, frequent-hitter/promiscuity, assay-interference, redox-associated structural-alert, and ADMET assessments. XGBoost demonstrated the highest test-set ROC-AUC (0.835), PR-AUC (0.408), and best Brier score (0.067), and was selected for virtual screening. Screening identified 116 compounds above the probability threshold, of which 40 satisfied Lipinski criteria and were docked. Thirty-two compounds achieved docking scores </= -7.0 kcal/mol. Sequential liability assessment and integrated prioritization identified 10 computationally prioritized EBNA1-binding candidates with favorable combined machine-learning, docking, and structural-filter profiles. The integrated computational framework enabled systematic prioritization of structurally diverse predicted EBNA1-binding candidates for further experimental investigation. The identified candidates represent computationally prioritized molecules for subsequent biochemical and functional evaluation of EBNA1 binding and activity and should not be interpreted as experimentally validated antiviral or disease-modifying agents. GRAPHICAL ABSTRACT: Virtual screening for drug discovery using trained ML model for EBNA1 protein, Molecular Docking, and ADMET analysis.",
+  "abstract_zh": "EB病毒（Epstein-Barr virus, EBV）与多种恶性肿瘤及多发性硬化症相关，其中EB病毒核抗原1（Epstein-Barr nuclear antigen 1, EBNA1）在病毒基因组复制和附加体维持中发挥关键作用。实验表征的EBNA1 DNA结合域内KVD相关口袋为计算配体优先级排序提供了结构明确的位点。本研究旨在利用集成机器学习和基于结构的虚拟筛选框架，识别并对预测的EBNA1结合候选物进行优先级排序。从PubChem EBNA1生物活性数据集中筛选出304,124条记录，经整理获得4,584种独特化合物。分子表示结合了1,024位Morgan指纹和11个RDKit分子描述符。使用基于骨架的独立测试评估了随机森林、SVM-RBF、逻辑回归和XGBoost模型。优化后的XGBoost模型应用于非重叠的DrugBank库，包含12,287种化合物。预测活性概率≥0.5的化合物经Lipinski规则过滤，随后针对EBNA1的KVD相关结合口袋（PDB ID: 6NPM）进行分子对接。对接验证通过独立KVD重对接在 exhaustiveness 值8、16和32下进行。对接后候选物进一步通过PAINS、聚集性、频繁命中/混杂性、测定干扰、氧化还原相关结构警报和ADMET评估。XGBoost在测试集上表现出最高的ROC-AUC（0.835）、PR-AUC（0.408）和最佳Brier分数（0.067），因此被选用于虚拟筛选。筛选识别出116种高于概率阈值的化合物，其中40种满足Lipinski标准并进行对接。三十二种化合物达到对接分数≤-7.0 kcal/mol。顺序责任评估和集成优先级排序确定了10种计算优先的EBNA1结合候选物，这些候选物具有有利的集成机器学习、对接和结构过滤特征。集成计算框架实现了对结构多样的预测EBNA1结合候选物的系统优先级排序，以供进一步实验研究。所识别的候选物代表计算优先的分子，用于后续EBNA1结合和活性的生化及功能评估，不应被解释为实验验证的抗病毒或疾病修饰剂。图形摘要：使用训练好的EBNA1蛋白ML模型、分子对接和ADMET分析进行药物发现的虚拟筛选。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42978999/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42978999/",
+  "paper_page_path": "papers/pubmed/42978999/index.html"
+}

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a Kabuki syndrome (KS) patient with a heterozygous KMT2D p.R5282* nonsense mutation in the FYR domain, exhibiting a mild phenotype. ATAC-seq on patient-derived PBMCs identified 451 differentially accessible regions, with reduced accessibility at neurogenesis-related promoters and loss of CTCF and WRAD complex motifs. Ectopic expression of p.R5282* in HEK293T cells recapitulated patient-like chromatin changes, whereas p.R5179C showed distinct patterns. AlphaFold3 modeling suggests p.R5282* disrupts the WIN motif and WDR5 binding. Reduced accessibility at the CHD7 locus links KMT2D dysfunction to CHARGE syndrome pathways.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, ATAC-seq methodology details, statistical analysis details, patient clinical data, cell line validation data, AlphaFold3 modeling parameters, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting genotype-phenotype correlation and a mechanistic hypothesis linking FYR domain truncation to chromatin accessibility changes via WRAD complex destabilization. However, the evidence as presented in the abstract is insufficient to fully establish the causal chain from mutation to chromatin phenotype to clinical presentation. Several claims require additional experimental validation and statistical rigor that cannot be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in neurodevelopmental disorders, chromatin biology, and epigenetics would find these results relevant. The work connects a clinical phenotype to a specific molecular mechanism involving the MLL3/4 COMPASS-like complex, which is of interest to those studying KMT2D function, Kabuki syndrome pathogenesis, and chromatin remodeling in neurodevelopment. The proposed link to CHARGE syndrome pathways via CHD7 may also attract investigators studying overlapping developmental syndromes.
+- **Major strengths** The study addresses a poorly characterized domain of KMT2D, the FYR domain, which is a gap in current knowledge. The combination of patient-derived data with cell-based functional assays and structural modeling provides a multi-pronged approach. The use of ATAC-seq to assess chromatin accessibility in patient PBMCs is a reasonable strategy for a rare disease with limited sample availability. The identification of a specific locus, CHD7, linking two related developmental syndromes is a potentially valuable observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The abstract claims that p.R5282*-specific chromatin changes in HEK293T cells "mirrored those in the patient" and were enriched for promoter regions and WRAD binding sites.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of mirroring between cell line and patient data is presented without quantitative comparison. It is unclear what statistical threshold was used to define "mirroring," whether overlap was assessed by permutation testing, and whether the effect sizes were comparable. The abstract does not state how many of the 451 patient DARs were recapitulated in the cell model.
+  - **Why it matters** The validity of the cell model as a faithful representation of patient biology is central to the mechanistic conclusion. Without a rigorous overlap analysis, the claim of recapitulation is anecdotal and could reflect shared technical artifacts rather than biological convergence.
+  - **Resolution test** Provide a quantitative overlap analysis between patient and p.R5282* DARs, including statistical significance of overlap, effect size correlation, and a comparison against a negative control such as p.R5179C or a scrambled mutation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The abstract states that AlphaFold3 modeling indicated that p.R5282* truncation disrupts the WIN motif required for WDR5 binding, compromising MLL3/4 complex stability.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim is based solely on computational modeling. No biochemical or biophysical validation is presented, such as co-immunoprecipitation of KMT2D with WDR5, RBBP5, or ASH2L in the presence or absence of the truncation. The abstract does not report whether the p.R5282* protein is stably expressed, whether it retains any residual interaction with complex members, or whether the missense p.R5179C affects WIN motif integrity differently.
+  - **Why it matters** The proposed mechanism hinges on loss of WDR5 binding leading to complex destabilization. Computational predictions alone are insufficient to establish this, especially given that the FYR domain is poorly characterized and AlphaFold3 predictions for disease-associated variants require experimental corroboration.
+  - **Resolution test** Include co-immunoprecipitation or proximity ligation assays showing reduced WDR5 interaction for p.R5282* compared to wild-type and p.R5179C, and assess protein stability by western blot.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The abstract reports 451 differentially accessible regions in patient PBMCs compared to controls, with reduced accessibility mainly at promoter regions of genes involved in neurogenesis.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify the number of patient and control samples, the sequencing depth, the peak calling strategy, or the multiple testing correction method. For a rare disease, the sample size is likely small, and the statistical power to detect DARs may be limited. The claim of enrichment for neurogenesis genes requires a background-matched enrichment analysis that is not described.
+  - **Why it matters** Differential accessibility calls from ATAC-seq are highly sensitive to sample size and data processing choices. Without these details, the robustness of the 451 DARs and the biological interpretation cannot be evaluated.
+  - **Resolution test** Provide sample numbers, sequencing metrics, peak calling parameters, FDR thresholds, and enrichment analysis methodology. If sample size is small, include a power analysis or validation in an independent cohort or orthogonal assay.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical correlation
+  - **Claim pointer** The abstract states that the patient exhibited a relatively mild phenotype, consistent with previously reported p.R5282* mutation carriers.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The clinical assessment is described in a single sentence. No details are provided on the specific clinical features evaluated, the age at assessment, the standardized scoring system used, or how "mild" was defined relative to other KS patients. The comparison to previously reported carriers is not quantified.
+  - **Why it matters** The genotype-phenotype correlation is a key aspect of the study's novelty. Without a structured clinical evaluation, the claim of mildness is subjective and limits the generalizability of the finding.
+  - **Resolution test** Provide a detailed clinical phenotype table with standardized KS severity scores, developmental assessments, and a systematic comparison to published p.R5282* cases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "loss of CTCF and WRAD complex components" in the motif enrichment analysis is ambiguous. It is unclear whether this refers to loss of binding motifs for these factors, loss of accessibility at their binding sites, or reduced expression of the factors themselves.
+  - **Required correction** Clarify whether the analysis identified motif depletion, footprint changes, or expression changes, and specify the direction of effect for each factor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** CHD7 link
+  - **Evidence pointer** Abstract text
+  - **Issue** The claim that reduced accessibility at the CHD7 locus "links KMT2D dysfunction to CHARGE syndrome pathways" is presented as a conclusion, but the abstract does not state whether CHD7 expression was altered or whether this is a direct or indirect effect.
+  - **Required correction** Specify whether CHD7 mRNA or protein levels were measured, and temper the language to indicate a potential connection rather than an established pathway link.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** p.R5179C comparison
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that p.R5179C showed "distinct patterns" but does not describe what those patterns were or how they differed mechanistically. This leaves the reader without a basis to interpret the specificity of the p.R5282* effect.
+  - **Required correction** Briefly describe the p.R5179C chromatin phenotype and its relationship to the patient data, even if only to state that it did not recapitulate patient DARs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative overlap between patient and cell model), R1-M2 (absence of biochemical validation of WIN motif disruption), R1-M3 (insufficient statistical detail for ATAC-seq analysis)
+- **Assessment against Nature-style criteria** Originality: The focus on the FYR domain is a relatively unexplored area, and the connection to WRAD complex integrity is a plausible and testable hypothesis. However, the conceptual advance over existing KMT2D literature is incremental rather than transformative. Scientific importance: The findings are relevant to KS research and chromatin biology, but the clinical significance is limited by the single-patient design and the lack of functional validation in neuronal models. Interdisciplinary readership: The work bridges clinical genetics, epigenomics, and structural biology, which could attract a broad audience, but the abstract does not provide enough mechanistic depth to engage specialists in each field. Technical soundness: The ATAC-seq approach is appropriate, but the lack of statistical detail and the reliance on computational modeling for the central mechanistic claim undermine confidence. Readability for nonspecialists: The abstract is generally clear, but the motif enrichment and structural modeling sections assume familiarity with chromatin biology terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis with preliminary supporting data, but the central claims of recapitulation, WIN motif disruption, and clinical correlation require additional experimental and statistical validation. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that p.R5282* chromatin changes in HEK293T cells "mirrored" patient data is unsupported without quantitative overlap analysis.
+- The claim that AlphaFold3 modeling demonstrates disruption of the WIN motif and compromised complex stability is unsupported without biochemical validation.
+- The claim of a "relatively mild phenotype" is unverifiable without detailed clinical data and standardized assessment.
+- The link to CHARGE syndrome pathways via CHD7 is speculative without evidence of functional consequences at the CHD7 locus.
+- The general conclusion that the FYR domain maintains WRAD complex integrity and chromatin accessibility is a reasonable hypothesis but is not fully established from the abstract-level evidence.

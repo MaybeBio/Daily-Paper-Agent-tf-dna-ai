@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors report that the C-terminal intrinsically disordered region (IDR) of the transcription factor RUNX2 is required for chromatin binding and gene regulation during osteogenesis. They claim that linear IDR motifs are dispensable for function, and that conformational dynamics of the IDR predict function. They further report development of an algorithm for rational IDR design based on biophysical principles, and use of this algorithm to generate functional IDRs de novo. The authors position this work as extending generative protein design beyond the folded proteome.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods descriptions, statistical analyses, sequence data, algorithm details, experimental validation protocols, and any supplementary information. The absence of these materials severely limits the ability to assess the validity, rigor, and generalizability of the claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and ambitious claim regarding the design of functional intrinsically disordered regions, a topic of growing importance in protein science. However, the abstract alone provides insufficient evidence to evaluate the central claims. The assertion that linear motifs are dispensable while conformational dynamics predict function is counterintuitive and requires substantial experimental and computational support. The algorithm description is vague, and the criteria for "functional" IDRs are not defined. The work could be of interest to the protein design and gene regulation communities, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers in protein biophysics, intrinsically disordered protein biology, transcription factor regulation, and generative protein design would be interested. The work addresses a recognized gap in protein design, namely the extension of design principles to disordered regions, and could inform both fundamental understanding of IDR function and practical design strategies.
+- **Major strengths** The topic is timely and addresses a clear gap in the field. The use of a developmental transcription factor and stem cell differentiation as a model system provides biological relevance. The claim of moving beyond folded protein design is conceptually significant if substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that linear IDR motifs are dispensable for function and that conformational dynamics of the IDR predict function.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract states that linear motifs are dispensable, but no experimental evidence is presented to support this negative claim. Similarly, the claim that conformational dynamics predict function is stated without any description of how dynamics were measured, what metrics were used, or how predictive power was assessed.
+  - **Why it matters** These are the central mechanistic claims of the work. If linear motifs are truly dispensable, this challenges a dominant paradigm in IDR biology. The claim that dynamics predict function requires a clear operational definition and statistical validation. Without supporting evidence, these claims cannot be evaluated.
+  - **Resolution test** Provide experimental data showing that mutation or deletion of predicted linear motifs does not affect function, and provide quantitative measurements of conformational dynamics (e.g., single-molecule FRET, NMR, or simulations) with a demonstrated statistical relationship to functional outcomes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Algorithm description and validation
+  - **Claim pointer** The authors state they developed an algorithm for rational IDR design based on biophysical principles and used it to generate functional IDRs de novo.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The algorithm is described only in general terms. No details are given regarding the biophysical principles used, the input features, the optimization strategy, or the criteria for design success. The term "functional" is not defined in the abstract.
+  - **Why it matters** A generative design algorithm must be described with sufficient detail to be understood and reproduced. The claim of de novo generation of functional IDRs requires a clear definition of what constitutes function and evidence that the designed sequences achieve this in a rigorous assay.
+  - **Resolution test** Provide a full description of the algorithm, including its inputs, parameters, and outputs. Define functional criteria explicitly and show that designed IDRs meet these criteria in appropriate assays, with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of claims
+  - **Claim pointer** The authors claim that their findings extend generative protein design beyond the folded proteome.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract describes work on a single IDR from a single transcription factor. The claim of extending generative design beyond the folded proteome implies a general principle, but no evidence is presented that the approach works for other IDRs or other biological contexts.
+  - **Why it matters** The significance of the work depends on its generalizability. If the approach only works for this specific IDR, the claim is overstated. The abstract does not provide any indication of the scope of validation performed.
+  - **Resolution test** Show that the algorithm can design functional IDRs for at least one additional, unrelated IDR or biological function, or clearly state the limitations of the approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of the term "conformational dynamics"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "conformational dynamics" is used without specification of the timescales, length scales, or measurement methods. This term can encompass a wide range of phenomena.
+  - **Required correction** Define what is meant by conformational dynamics in this context, and specify the methods used to measure them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental model description
+  - **Affected element** Stem cell differentiation model
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that stem cell differentiation is used as a model, but does not specify the cell type, differentiation protocol, or the functional readout for osteogenesis.
+  - **Required correction** Provide details of the experimental system and the assays used to assess osteogenic function.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Predictive relationship between dynamics and function
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim that conformational dynamics predict function implies a statistical relationship, but no information is given about sample sizes, replicates, or statistical tests.
+  - **Required correction** Describe the statistical analysis used to establish the predictive relationship, including sample sizes and significance thresholds.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claims, the algorithm description, and the generalizability claim are all unsupported by the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The concept of designing functional IDRs is original and addresses a recognized gap. Scientific importance: If substantiated, the work would be important for both IDR biology and protein design. Interdisciplinary readership: The topic bridges biophysics, computational biology, and developmental biology, which could attract a broad readership. Technical soundness: Cannot be assessed from the abstract. The methods and data are not presented. Readability for nonspecialists: The abstract is concise and generally accessible, but the lack of definitions for key terms (e.g., conformational dynamics, functional) reduces clarity for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a potentially significant claim, but the evidence base is insufficient to support the conclusions. A full manuscript with detailed methods, data, and statistical analyses would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim that linear IDR motifs are dispensable for function is unsupported by the abstract.
+- The claim that conformational dynamics predict function is unsupported without defined metrics and statistical evidence.
+- The claim of developing a rational design algorithm is unsupported without algorithm details.
+- The claim of generating functional IDRs de novo is unsupported without a definition of functional criteria and validation data.
+- The claim that the findings extend generative protein design beyond the folded proteome is unsupported without evidence of generalizability.

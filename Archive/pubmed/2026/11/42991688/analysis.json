@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42991688",
+  "title": "Tumor-area mitosis proportion as an image-derived mitotic phenotype in lung squamous cell carcinoma: Patient-level prognostic and multi-omics evaluation.",
+  "authors": "Gunes, Gulcin Yilmaz; Cifci, Mehmet Akif",
+  "journal": "Journal of pathology informatics",
+  "published_date": "2026-11-06",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用深度学习从肺癌全切片图像中量化有丝分裂比例并关联生存与多组学特征，但核心对象为组织病理图像而非蛋白质-DNA互作，且无结合建模或物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Mitotic activity is a recognized marker of tumor proliferation, yet its reproducible assessment across whole-slide images (WSIs) remains difficult. We developed a transfer-learning framework for lung squamous cell carcinoma (LUSC) and evaluated whether a patch-derived tumor-area mitosis proportion (TAMP) was associated with survival and molecular tumor characteristics. METHODS: The analysis combined MIDOG 2022 with TCGA-LUSC, including 478 patients and 512 diagnostic WSIs after quality control. Tumor regions and mitotic figures were reviewed by two pathologists with interobserver agreement of Cohen's kappa >/= 0.85. A ResNet-50 model was trained on MIDOG and subsequently adapted to TCGA-LUSC using Focal Loss and stain-aware augmentation. Target-domain performance was evaluated using patient-level stratified 5-fold cross-validation and an additional WSI-level holdout analysis to address potential leakage from the initial patch-level partitioning. TAMP was calculated from patient-level out-of-fold predictions as the proportion of evaluable tumor patches classified as mitosis-positive. Associations with overall survival, immune and genomic features, transcriptomic programs, predicted drug response, and transcription-factor activity were subsequently examined. Multivariable Cox regression adjusted for age, sex, smoking status, tumor stage, and Eastern Cooperative Oncology Group performance status. RESULTS: The model achieved an area under the receiver operating characteristic curve (AUC) of 0.975 (95% confidence interval (CI): 0.965-0.980) on the held-out MIDOG test set. In TCGA-LUSC, fine-tuning increased the initial patch-level AUC from 0.82 to 0.92. Patient-level cross-validation yielded a mean AUC of 0.89 (95% CI: 0.86-0.90), and WSI-level holdout validation yielded an AUC of 0.90 (95% CI: 0.84-0.90). High TAMP was associated with poorer overall survival (log-rank p = 0.008; HR = 1.82, 95% CI: 1.18-2.81) and remained associated with mortality after multivariable adjustment (adjusted HR = 1.68, 95% CI: 1.08-2.62; p = 0.022). Higher TAMP was also associated with lower stromal fraction, selected immune-cell differences, greater indel-derived neoantigen load and indel burden, and enrichment of stem-cell proliferation, growth-factor-response, E2F-target, G2M-checkpoint, and MYC-target programs. Additional associations were observed with predicted sensitivity to selected cell-cycle-targeting compounds and with proliferation-related transcription-factor activity. CONCLUSIONS: TAMP provides a patient-level, image-derived representation of mitosis-positive tumor regions that was associated with survival and several molecular features in TCGA-LUSC. Its association with overall survival persisted after adjustment for major clinical covariates. External multicenter validation, prespecified threshold evaluation, and prospective assessment are required before clinical use.",
+  "abstract_zh": "背景：有丝分裂活性是公认的肿瘤增殖标志物，但在全切片图像（whole-slide images, WSIs）中对其进行可重复评估仍具挑战性。我们开发了一种用于肺鳞状细胞癌（lung squamous cell carcinoma, LUSC）的迁移学习框架，并评估了补丁来源的肿瘤区域有丝分裂比例（tumor-area mitosis proportion, TAMP）是否与生存率和分子肿瘤特征相关。方法：分析结合了MIDOG 2022与TCGA-LUSC，质量控制后包括478例患者和512张诊断性WSIs。肿瘤区域和有丝分裂图像由两位病理学家审查，观察者间一致性为Cohen's kappa ≥ 0.85。在MIDOG上训练了ResNet-50模型，随后使用Focal Loss和染色感知增强技术将其适配到TCGA-LUSC。目标域性能通过患者层面分层5折交叉验证和额外的WSI层面留出分析进行评估，以解决初始补丁层面划分可能带来的数据泄漏。TAMP从患者层面折外预测中计算，为被分类为有丝分裂阳性的可评估肿瘤补丁比例。随后检查了其与总生存期、免疫和基因组特征、转录组程序、预测药物反应及转录因子活性的关联。多变量Cox回归调整了年龄、性别、吸烟状态、肿瘤分期和东部肿瘤协作组体能状态。结果：模型在留出的MIDOG测试集上实现了接收者操作特征曲线下面积（AUC）为0.975（95%置信区间（CI）：0.965-0.980）。在TCGA-LUSC中，微调将初始补丁层面AUC从0.82提高到0.92。患者层面交叉验证产生平均AUC为0.89（95% CI：0.86-0.90），WSI层面留出验证产生AUC为0.90（95% CI：0.84-0.90）。高TAMP与较差的总生存期相关（log-rank p = 0.008；HR = 1.82，95% CI：1.18-2.81），并在多变量调整后仍与死亡率相关（调整后HR = 1.68，95% CI：1.08-2.62；p = 0.022）。较高的TAMP还与较低的基质分数、选定的免疫细胞差异、更高的插入缺失衍生新抗原负荷和插入缺失负担，以及干细胞增殖、生长因子反应、E2F靶点、G2M检查点和MYC靶点程序的富集相关。还观察到与选定的细胞周期靶向化合物预测敏感性和增殖相关转录因子活性的额外关联。结论：TAMP提供了患者层面、图像来源的有丝分裂阳性肿瘤区域表示，在TCGA-LUSC中与生存率和多种分子特征相关。其与总生存期的关联在调整主要临床协变量后仍持续存在。在临床使用前，需要外部多中心验证、预设阈值评估和前瞻性评估。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42991688/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42991688/",
+  "paper_page_path": "papers/pubmed/42991688/index.html"
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, limitations, data availability, and supplementary declarations)
+- **Assessment boundary** Scientific and technical evaluation of the presented method, its validation, and the claims made; no assessment of editorial fit or publication policy
+- **Shared manuscript claim summary** The authors present eQIF, an unsupervised isolation forest model that integrates 20 principal components from Enformer variant effect predictions into a single gene-regulatory prioritization score for common European variants. They claim superior performance over existing tools (CADD, LINSIGHT, DVAR, AVI, Sei) in classifying fine-mapped eQTLs and gene-regulatory GWAS variants, demonstrate prioritization of experimentally validated causal variants at two loci, and provide biological characterization showing enrichment in conserved TFBS footprints and correlation with motif information content.
+- **Visible evidence base** Methods sections for model training, evaluation cohorts, evolutionary and gene-regulatory analyses; results sections with performance metrics (AU-ROC, AU-PRC), locus-specific prioritization, and TFBS enrichment analyses; supplementary figure and table references
+- **Missing materials affecting confidence** Supplementary figures and tables (Suppl. Fig 1-6, Suppl. Table 1-5) are referenced but not provided; no detailed description of the CAUSALdb2 filtering procedure; no explicit description of the MPRA cohort construction beyond referencing Siraj et al.; no code or model weights directly inspectable in the manuscript
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually simple and computationally efficient approach to integrate the high-dimensional output of a state-of-the-art deep learning model into a single prioritization score. The unsupervised design avoids training bias and the genome-wide precomputation is a practical strength. However, the evaluation is heavily dependent on supplementary materials that were not available for review, and several methodological details regarding cohort construction and statistical testing are insufficiently described. The biological characterization is interesting but the causal interpretation of the TFBS enrichment results requires more careful consideration of confounding factors.
+- **Who would be interested in the results, and why** Researchers in statistical genetics and functional genomics working on variant prioritization, fine-mapping follow-up, and interpretation of non-coding GWAS signals. The precomputed genome-wide scores will be of practical value to the broad community studying regulatory variation. The comparison with existing tools and the analysis of coding-region eQTLs will also interest those developing or applying variant effect predictors.
+- **Major strengths** 1) The unsupervised approach is conceptually clean and avoids the tissue- and disease-specific biases of supervised training. 2) The integration of Enformer PCs into a single interpretable score addresses a real usability bottleneck. 3) The genome-wide precomputation for 9.4 million variants is a valuable community resource. 4) The evaluation across multiple independent cohorts (eQTL, GWAS-eQTL, MPRA) is comprehensive in scope. 5) The biological characterization, particularly the TFBS motif information content correlation, provides mechanistic insight beyond simple performance metrics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "eQIF demonstrates strong performance in predicting eQTLs and gene-regulatory GWAS variants" and "eQIF showed the strongest eQTL classification performance (AU-ROC = 0.77, AU-PRC = 0.13)"
+  - **Evidence pointer** Figure 1, Suppl. Table 1, Suppl. Table 2
+  - **Concern** The performance comparison relies entirely on supplementary tables and figures that were not provided. The AU-ROC and AU-PRC values are stated in the text, but without the actual ROC/PR curves, confidence intervals, or the full comparison table, the statistical significance and practical magnitude of the improvements cannot be independently assessed. The DeLong test results are mentioned but the corrected p-values are not reported in the main text.
+  - **Why it matters** The central claim of the paper is that eQIF outperforms existing tools. Without access to the detailed results, this claim cannot be verified. The difference between AU-ROC values (e.g., 0.77 vs. the next best) may be small in absolute terms, and the practical significance depends on the precision-recall trade-off, which requires the PR curves.
+  - **Resolution test** Provide the supplementary tables and figures, including full ROC and PR curves with confidence intervals, and report the BH-corrected p-values for all pairwise comparisons in the main text or a clearly accessible supplement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "eQIF showed the strongest performance (AU-ROC = 0.68, AU-PRC = 0.2) of all tools on separating eQTL from control variants within coding regions"
+  - **Evidence pointer** Figure 1C & D, Suppl. Table 1
+  - **Concern** The coding-region eQTL analysis is presented as a key novel finding, but the construction of this cohort is not described in sufficient detail. The methods state that the cohort was formed by "keeping only variants remaining within GENCODE coding sequence regions," but the number of variants, the distribution across genes, and the potential confounding effects of linkage disequilibrium or gene density are not discussed. The near-random performance of LINSIGHT is attributed to "data sparsity," but this explanation is not quantified.
+  - **Why it matters** The coding-region analysis is used to argue for the unique value of eQIF in an understudied category. If the cohort is small or imbalanced, the reported AU-ROC could be unstable. The comparison with LINSIGHT, which is not designed for coding regions, may be unfair and could inflate the apparent advantage of eQIF.
+  - **Resolution test** Report the number of variants in the coding eQTL cohort, the distribution across genes, and the confidence intervals for the AU-ROC values. Provide a more detailed explanation of the LINSIGHT limitation, ideally with a quantitative assessment of the sparsity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "the frequency of top eQIF variants within overrepresented TFBS motifs recapitulates the motif information content"
+  - **Evidence pointer** Figure 4C-F, Methods "TFBS analysis of top scoring eQIF variants"
+  - **Concern** The correlation between eQIF variant frequency and motif information content is presented as evidence that eQIF captures biologically meaningful regulatory signals. However, this analysis is based on the top 5,000 variants, which are a highly selected subset. The correlation could be driven by the extreme selection rather than a general property of the score. The choice of CTCF and ETS1 as representative factors is not justified, and the analysis does not account for potential confounders such as local GC content, recombination rate, or mutation rate, which are known to correlate with both variant frequency and TFBS properties.
+  - **Why it matters** The biological interpretation of eQIF scores is a key part of the paper's contribution. If the correlation is an artifact of the selection procedure or confounding, the claim that eQIF captures regulatory information content would be weakened.
+  - **Resolution test** Perform the correlation analysis on a less extreme selection of variants (e.g., top 1% or 5%) and include a sensitivity analysis. Control for known confounders such as GC content and local mutation rate. Justify the choice of CTCF and ETS1 or expand the analysis to a broader set of factors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "eQIF is based on the precomputed Enformer principal components (PCs) as an input, which is only available for common SNPs from the 1000G cohort"
+  - **Evidence pointer** Methods "Training an Enformer-PC-based isolation forest", Limitations
+  - **Concern** The model is trained and evaluated only on common European variants (AF ≥ 0.5%). The authors acknowledge this limitation but do not discuss the potential impact on the generalizability of the score. The performance on rare variants, non-European populations, or indels is not addressed. The choice of the 1000G cohort for Enformer annotations, rather than a more diverse reference panel, may introduce population-specific biases.
+  - **Why it matters** The utility of eQIF for clinical or population-scale applications depends on its performance across diverse genetic backgrounds and allele frequency spectra. The current evaluation is restricted to a narrow subset of human variation.
+  - **Resolution test** Discuss the potential biases and limitations more explicitly. If possible, provide a preliminary evaluation on a small set of rare variants or non-European populations to assess the generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, hyperparameter optimization
+  - **Evidence pointer** Methods "Training an Enformer-PC-based isolation forest"
+  - **Issue** The hyperparameter optimization is described as evaluating 8 candidate models, but the specific ranges tested for sample_size, ndim, and column_weights are only partially given. The final selected parameters are not explicitly stated in the main text.
+  - **Required correction** Report the full grid of hyperparameters tested and the final selected values in the main text or a clearly labeled table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, performance comparison
+  - **Evidence pointer** Figure 1, Suppl. Table 2
+  - **Issue** The DeLong test is mentioned for pairwise ROC comparisons, but the text does not specify whether the comparisons are paired or unpaired, or how the multiple testing correction was applied across the many pairwise comparisons.
+  - **Required correction** Clarify the statistical testing procedure, including whether tests are paired, how many comparisons were made, and the exact BH correction procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, prioritization of functional variants
+  - **Evidence pointer** Results "Prioritizing functionally validated risk variants"
+  - **Issue** The description of the ranking analysis at the SORT1 and MX2 loci is brief. It is unclear how ties are handled and whether the ranking is based on the raw score or a normalized score across the variants.
+  - **Required correction** Provide a brief description of the ranking procedure, including how ties are resolved and whether scores are normalized.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section
+  - **Issue** The Zenodo DOI is provided for the precomputed scores, but the exact file format and schema are not described. The GitHub repository is mentioned but no version or commit identifier is given.
+  - **Required correction** Provide a brief description of the file format and schema for the precomputed scores, and include a version or commit identifier for the GitHub repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing supplementary data for performance claims), R1-M2 (insufficient detail on coding-region cohort construction)
+- **Assessment against Nature-style criteria** Originality: The use of isolation forests to compress Enformer's high-dimensional output into a single score is a novel and elegant idea, though the underlying components are established. Scientific importance: The genome-wide precomputed resource and the demonstrated utility for fine-mapping follow-up are potentially valuable to the field. Interdisciplinary readership: The work bridges machine learning, functional genomics, and statistical genetics, and the writing is generally accessible, though some methods sections assume specialist knowledge. Technical soundness: The core methodology is sound in principle, but the evaluation is incomplete without the supplementary materials, and the biological characterization has potential confounders that need addressing. Readability for nonspecialists: The abstract and introduction are clear, but the methods and results sections are dense and would benefit from more explicit explanations of the evaluation metrics and their interpretation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the resource is potentially valuable, but the current manuscript does not provide sufficient evidence to fully establish the performance claims without the supplementary materials. The biological interpretation also requires additional analysis to rule out confounding.
+
+## Risk / unsupported claims
+- The claim of "strong performance" in eQTL and GWAS variant classification is not fully supported without the supplementary tables and figures.
+- The claim that eQIF "recapitulates the motif information content" is based on a highly selected subset of variants and may be confounded by local sequence features.
+- The generalizability of eQIF to rare variants, non-European populations, or other variant types is not assessed and should not be inferred.
+- The statement that eQIF "runs computationally fast" is not quantified with any runtime or resource benchmarks.

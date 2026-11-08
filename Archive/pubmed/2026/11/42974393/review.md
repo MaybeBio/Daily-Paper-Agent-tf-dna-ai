@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (review article, narrative mini-review)
+- **Assessment boundary** Scientific content, methodological framing, evidence quality, internal consistency, and alignment with stated scope; not editorial or stylistic quality
+- **Shared manuscript claim summary** The manuscript argues that AI and computational methods for reconstructing cell-state-specific gene regulatory networks from paired single-cell RNA-seq and scATAC-seq data in cancer are advancing rapidly, that a clear taxonomy of methods and evidence levels is needed, and that such methods can move from descriptive to testable models if benchmarking, causal validation, and interpretability are improved
+- **Visible evidence base** Full text including abstract, introduction, methods overview, applications, validation discussion, and conclusion; no figures or tables were provided
+- **Missing materials affecting confidence** Figures 1 and 2, Table 1, and all references were not provided; these are essential for evaluating the claimed comparisons, method taxonomy, and evidence hierarchy
+
+## Reviewer
+- **Overall assessment** This is a well-structured narrative mini-review that addresses a timely and important topic. The authors propose a useful taxonomy of input data designs and an explicit evidence hierarchy, which are valuable contributions to a literature that often conflates correlation with causation. The writing is clear and the scope is appropriately focused. However, the manuscript's scientific value cannot be fully assessed without the figures, table, and reference list. Several claims about method performance and benchmarking are made without sufficient detail, and the evidence hierarchy, while sensible, is not operationalized into concrete evaluation criteria. The applications section is largely descriptive and would benefit from a more critical comparative analysis. Overall, the manuscript is promising but requires substantial revision and the provision of missing materials before its claims can be properly evaluated.
+- **Who would be interested in the results, and why** Computational biologists developing or applying single-cell multi-omics integration methods; cancer researchers studying tumor heterogeneity, resistance, and plasticity; and methodologists interested in benchmarking and causal inference in regulatory genomics. The taxonomy and evidence hierarchy could serve as a practical guide for method selection and study design.
+- **Major strengths** The proposed input-data taxonomy (same-cell paired, matched-unpaired, imputed, single-modality) is clear and practically useful. The explicit four-level evidence hierarchy (statistical association, directional prediction, in silico perturbation, experimental support) is a valuable framework for interpreting claims in this field. The manuscript is well-organized and readable, with a logical flow from data foundations to methods to applications to validation. The authors are appropriately cautious about overinterpreting computational predictions and emphasize the need for experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims to provide a comparative overview of methods and a decision guide for method selection, referencing Figures 1 and 2 and Table 1
+  - **Evidence pointer** Figures 1 and 2, Table 1; location not provided
+  - **Concern** The figures and table are central to the manuscript's claims of providing a structured taxonomy and decision guide, but they were not provided for review. Without them, it is impossible to assess whether the comparisons are accurate, whether the taxonomy is complete, or whether the decision logic is sound.
+  - **Why it matters** The manuscript's unique contribution is its organizational framework. If the figures and table are inaccurate, misleading, or incomplete, the manuscript's core value is undermined. The reader cannot verify the claims made in the text.
+  - **Resolution test** Provide Figures 1 and 2 and Table 1 for review. Ensure that all methods mentioned in the text are represented, that the comparisons are accurate and up-to-date, and that the decision logic is clear and actionable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reference verification
+  - **Claim pointer** The manuscript makes numerous specific claims about method performance, benchmarking results, and biological findings, citing specific studies
+  - **Evidence pointer** Reference list; location not provided
+  - **Concern** The reference list was not provided. Many claims, such as "LINGER achieved higher accuracy than existing methods in the reported benchmarks" and "a TCF4-dependent GRN confers resistance to immunotherapy," are presented as established facts. Without the references, these claims cannot be verified, and the reader cannot assess the quality or relevance of the cited evidence.
+  - **Why it matters** A review article's credibility depends on the accuracy and appropriateness of its citations. Unverifiable claims undermine the manuscript's scientific value and the reader's trust.
+  - **Resolution test** Provide the complete reference list. Ensure that each cited study is appropriately described and that claims about performance or biological findings are accurately attributed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological depth
+  - **Claim pointer** The manuscript states that "AI methods are well suited to the high dimensionality, sparsity, and nonlinearity of single-cell multi-omics data" and describes various method families, but provides limited technical detail
+  - **Evidence pointer** Section "AI frameworks for GRN inference"; location not provided
+  - **Concern** The descriptions of method families are largely high-level and do not provide sufficient technical detail for a reader to understand the key differences, assumptions, or limitations of the methods. For example, the distinction between "deep integration and graph learning" and "dynamic and cell-state-specific modeling" is not crisply defined. The manuscript would benefit from a more explicit comparison of method architectures, inputs, and outputs.
+  - **Why it matters** The manuscript aims to provide a practical guide for method selection. Without sufficient technical detail, a reader cannot make an informed choice. The taxonomy risks being superficial if the underlying methods are not adequately distinguished.
+  - **Resolution test** Expand the method descriptions to include key architectural choices, input requirements, output formats, and known limitations. Consider adding a table that systematically compares methods across these dimensions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence hierarchy operationalization
+  - **Claim pointer** The manuscript proposes a four-level evidence hierarchy but does not specify how to apply it in practice
+  - **Evidence pointer** Section "From prediction to validation: interpretation and causal verification"; location not provided
+  - **Concern** The evidence hierarchy is a useful conceptual framework, but the manuscript does not provide concrete criteria for assigning a given finding to a level, nor does it discuss how to handle mixed or ambiguous evidence. For example, what constitutes "directional prediction" as opposed to "statistical association"? How should a method that combines both be classified?
+  - **Why it matters** Without operational criteria, the hierarchy is of limited practical use. Readers may apply it inconsistently, and the manuscript's goal of clarifying claims may not be achieved.
+  - **Resolution test** Provide explicit definitions and examples for each level of the evidence hierarchy. Discuss edge cases and how to classify findings that do not fit neatly into a single level.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Critical comparison
+  - **Claim pointer** The applications section describes multiple studies but does not critically compare their strengths, weaknesses, or relative contributions
+  - **Evidence pointer** Section "Applications of cell-state-specific GRNs in cancer"; location not provided
+  - **Concern** The applications section reads largely as a catalog of studies, with limited critical analysis. For example, the manuscript states that "in mouse skin squamous cell carcinoma, paired scRNA-seq and scATAC-seq identified EMT-state regulators, and CRISPR/Cas9 experiments supported roles for Klf5, Pitx1, Nfatc1, and Creb3l1" but does not discuss whether these findings are likely to generalize, what the limitations of the study were, or how they compare to other EMT studies. A more critical and comparative approach would strengthen the manuscript.
+  - **Why it matters** A review should not merely summarize but should synthesize and evaluate. Without critical comparison, the reader cannot assess the relative importance or reliability of different findings.
+  - **Resolution test** Revise the applications section to include explicit comparisons between studies, discussion of limitations and potential biases, and an assessment of the strength of evidence for each major claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Use of "cell-state-specific" vs. "cell-type-specific"
+  - **Evidence pointer** Throughout; location not provided
+  - **Issue** The manuscript uses both "cell-state-specific" and "cell-type-specific" without clearly defining the distinction. This could confuse readers, especially given the manuscript's focus on cell states.
+  - **Required correction** Define both terms early in the manuscript and use them consistently throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Inclusion criteria for methods
+  - **Evidence pointer** Introduction; location not provided
+  - **Issue** The manuscript states inclusion criteria but does not specify the search strategy or the time window for included studies. This makes it difficult to assess whether the coverage is comprehensive.
+  - **Required correction** Briefly describe the search strategy, databases used, and inclusion/exclusion criteria in the Methods or Introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Future directions specificity
+  - **Affected element** Section "Controversies, challenges, limitations, and future directions"
+  - **Evidence pointer** Location not provided
+  - **Issue** The future directions are stated at a high level (e.g., "multimodal expansion," "causal AI," "unified benchmarks") without specific, actionable recommendations.
+  - **Required correction** Provide more concrete suggestions, such as specific benchmark datasets to develop, specific evaluation metrics to standardize, or specific types of validation studies needed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1 and 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The figures are referenced but not described in the text. Readers cannot understand what the figures show without seeing them.
+  - **Required correction** Add brief descriptions of each figure in the text, summarizing the key information they convey.
+- **Technical failings that need to be addressed before the case is established** The absence of Figures 1 and 2, Table 1, and the reference list is a critical technical failing. These materials are essential for evaluating the manuscript's claims. Without them, the case for the manuscript's scientific value is not established.
+- **Assessment against Nature-style criteria** Originality: The proposed taxonomy and evidence hierarchy are somewhat original, but similar frameworks have been proposed in related reviews. The cancer-specific focus adds some novelty. Scientific importance: The topic is important and timely, and the manuscript addresses a real need for clearer frameworks. However, the importance is not fully realized without critical comparison and operational criteria. Interdisciplinary readership: The manuscript is likely to appeal to computational biologists and cancer researchers, but may be less accessible to experimental biologists due to limited explanation of computational concepts. Technical soundness: The technical descriptions are generally accurate but lack depth. The absence of figures, table, and references prevents a full assessment. Readability for nonspecialists: The manuscript is well-written and generally clear, but some sections assume familiarity with computational methods. The evidence hierarchy is a useful conceptual contribution, but it needs operationalization.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a timely and important topic, and the proposed frameworks are potentially useful. However, the missing figures, table, and references must be provided, and the methodological depth and critical comparison must be improved before the manuscript's claims can be fully evaluated.
+
+## Risk / unsupported claims
+- Claims about specific method performance (e.g., "LINGER achieved higher accuracy than existing methods") are unverifiable without the reference list.
+- Claims about biological findings (e.g., "a TCF4-dependent GRN confers resistance to immunotherapy") are unverifiable without the reference list.
+- The claim that the manuscript provides a "practical input-design taxonomy" and "guidance for benchmarking and method selection" cannot be fully assessed without Figures 1 and 2 and Table 1.
+- The claim that "none centers on cell-state-specific GRN reconstruction from paired scRNA-seq and scATAC-seq data" is a strong negative claim that requires a comprehensive literature search to support; the search strategy is not described.
+- The statement that "attention-derived edge scores from scGPT and Geneformer add little beyond gene-level statistics" is presented as a finding but the underlying study is not described in sufficient detail to assess its validity.

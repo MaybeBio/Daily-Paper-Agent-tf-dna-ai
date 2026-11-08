@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.11.04.763508",
+  "title": "Contrastive Learning Improves Generalization on M2OR Olfactory Binding Dataset",
+  "authors": "Logan Snider; Oliver Nakano-Baker; J. Devin Mackenzie",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-06",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究挥发性有机化合物与嗅觉受体的结合预测，采用对比学习提升泛化，虽涉及蛋白-配体互作建模，但对象非蛋白质-DNA体系，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Olfaction-based biosensors stand to have profound impacts in fields such as medical diagnostics, national security, and drug discovery. A promising mode of vapor phase biodetection mimics volatile organic compound-olfactory receptor (VOC-OR) interactions with target-specific protein or peptide probes; however, lack of experimental coverage remains a core bottleneck. Current computational approaches aim to improve prediction of VOC-OR binding to reduce experimental burden, and current machine learning approaches fail to demonstrate a level of generalization that addresses current engineering challenges. Here, using the Molecular to Olfactory Dataset (M2OR) and Insect Olfactory Binding Protein Database (iOBPdb) datasets, data partitioning methods and their performance are evaluated on a neural network and contrastive learning framework on such VOC-OR binding datasets, varying: model training, architecture, and structure of the input data distribution. It was found that holding out certain chemical or proteomic motifs from the training data diminished model performance with a two layer neural network model. The model was able to generalize to state of the art performance (0.88 AUCROC) on every data split by applying a contrastive learning objective defined by shared molecular constituents and a stochastic sampler. This suggests the contrastive objective provides a strong inductive bias for neural networks to predict novel VOC-OR pairs. These findings highlight that model performance on pairwise biological interaction datasets can be inflated through identity leakage from constituent overlap, and emphasize the need for more robust evaluation protocols. Furthermore, we show contrastive regularization mitigates dataset degeneracy through enforcement of compatibility in the models latent geometry that may extend to other binder target-datasets where identity leakage confounds evaluation.",
+  "abstract_zh": "基于嗅觉的生物传感器在医学诊断、国家安全和药物发现等领域具有深远影响。一种有前景的气相生物检测模式模拟挥发性有机化合物与嗅觉受体（VOC-OR）之间的相互作用，使用靶标特异性蛋白或肽探针；然而，实验覆盖的缺乏仍是核心瓶颈。当前计算方法旨在改进VOC-OR结合的预测以减少实验负担，而现有机器学习方法未能展示出足以应对当前工程挑战的泛化水平。在此，利用分子至嗅觉数据集（M2OR）和昆虫嗅觉结合蛋白数据库（iOBPdb）数据集，在神经网络和对比学习框架上评估了数据划分方法及其性能，针对此类VOC-OR结合数据集，变化因素包括：模型训练、架构以及输入数据分布的结构。研究发现，从训练数据中排除某些化学或蛋白质组学基序会降低两层神经网络模型的性能。通过应用由共享分子组成和随机采样器定义的对比学习目标，该模型能够在每个数据划分上泛化至最先进性能（0.88 AUCROC）。这表明对比目标为神经网络预测新型VOC-OR配对提供了强归纳偏置。这些发现强调，成对生物相互作用数据集上的模型性能可能因组成重叠导致的身份泄漏而被夸大，并凸显了对更稳健评估协议的需求。此外，我们展示对比正则化通过强制模型潜在几何中的兼容性来缓解数据集退化，这可能扩展到其他结合靶标数据集，其中身份泄漏混淆了评估。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763508",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763508",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.11.04.763508/index.html"
+}

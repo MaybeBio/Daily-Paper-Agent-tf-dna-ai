@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.11.05.763984",
+  "title": "Joint protein-DNA language modeling enables prediction and engineering of DNA recognition specificity",
+  "authors": "Yangfang Xiong; Jiwu Ren; Xiaoxu Wei; Xiaoyu Li; Jiayi Li; Wensheng Wei",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-06",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出联合蛋白-DNA语言模型PDLM，通过交互感知预训练实现TF-DNA结合特异性预测与工程改造，高度契合本课题的TF-DNA互作建模与AI方法核心。",
+  "abstract": "Protein-DNA recognition specificity underlies transcriptional regulation, DNA replication, chromatin remodeling and genome editing. Protein-DNA recognition depends on both interacting sequences, yet language models that learn this cross-molecular dependence explicitly during pretraining remain limited. Here, we developed the Protein-DNA Language Models (PDLMs), interaction-aware language models that jointly represent protein and DNA sequences. PDLMs were built by continued pretraining from ESM2 with masked language modeling on paired protein-DNA sequences. A shared encoder places amino acids and nucleotides in the same molecular context, enabling conditional sequence scoring and transferable pair representations. We further introduced a domain-aware masking strategy that increased masking probability within DNA-binding domains to strengthen learning of interaction-relevant regions. Across downstream tasks, PDLMs improved protein-DNA pair classification relative to independent-encoder baselines and supported prediction of mutation-associated binding changes. Zero-shot scoring recovered known changes in DNA-recognition specificity and prioritized variants with higher editing activity. Learned representations also supported cross-study prediction of base editor activity. After fine-tuning on transcription factor binding data, PDLMs predicted DNA motifs directly from protein sequences. Together, PDLMs provide a framework for interaction-aware biomolecular language modeling, with potential applications in protein engineering and genome editing.",
+  "abstract_zh": "蛋白质-DNA识别特异性是转录调控、DNA复制、染色质重塑和基因组编辑的基础。蛋白质-DNA识别依赖于相互作用的序列，然而在预训练期间显式学习这种跨分子依赖性的语言模型仍然有限。在此，我们开发了蛋白质-DNA语言模型（PDLMs），这是一种交互感知的语言模型，能够联合表示蛋白质和DNA序列。PDLMs通过从ESM2继续预训练，并在配对的蛋白质-DNA序列上进行掩码语言建模而构建。共享编码器将氨基酸和核苷酸置于相同的分子上下文中，从而实现条件序列评分和可转移的配对表示。我们进一步引入了一种域感知掩码策略，增加了DNA结合域内的掩码概率，以加强对相互作用相关区域的学习。在下游任务中，PDLMs相对于独立编码器基线提高了蛋白质-DNA配对分类性能，并支持预测突变相关的结合变化。零样本评分恢复了DNA识别特异性的已知变化，并优先选择了具有更高编辑活性的变体。学习到的表示还支持跨研究预测碱基编辑器活性。在转录因子结合数据微调后，PDLMs直接从蛋白质序列预测DNA基序。总之，PDLMs为交互感知的生物分子语言建模提供了一个框架，在蛋白质工程和基因组编辑中具有潜在应用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.763984",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.763984",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.11.05.763984/index.html"
+}

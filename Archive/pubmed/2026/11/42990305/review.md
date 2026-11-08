@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that NFκB (RelA/p50) binds with high affinity to partial consensus DNA sequences ("half-sites") despite lacking one of the two 4-nucleotide sequence-specific interaction sites. Using HDX-MS and MD simulations, they observe that rearranging nucleotides at the RelA-interacting end of a consensus sequence to form a half-site induces dynamic structural changes through both subunits, and MD simulations reveal a shift in DNA position within the binding pocket that enables optimal interaction with the half-site.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, simulation parameters, validation data, and any quantitative binding measurements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical study addressing how a transcription factor achieves high-affinity binding to non-consensus DNA sequences, a topic relevant to gene regulation and transcription factor specificity. However, the evidence base is limited to the abstract alone, and several key claims cannot be evaluated without access to the underlying data. The central mechanistic conclusion, that a shift in DNA position within the binding pocket enables optimal half-site interaction, is plausible but currently unsupported by any visible quantitative evidence. The work may be of interest to structural biologists and researchers studying transcription factor DNA-binding specificity, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying protein-DNA interactions, computational biochemists using MD simulations to understand binding mechanisms, and researchers in gene regulation interested in how transcription factors achieve specificity despite degenerate binding sites. The findings could also inform studies of NFκB signaling and its role in inflammatory gene expression.
+- **Major strengths** The question addressed is biologically meaningful, as the prevalence of non-consensus NFκB binding sites in ChIP-Seq data is well documented. The combination of experimental HDX-MS with computational MD simulations is a reasonable approach to probe dynamic structural changes. The abstract clearly states the biological context and the specific gap being addressed.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "MD simulations reveal a shift in the position of DNA within the RelA/p50 binding pocket that allows optimal interaction with the half-site sequence."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central mechanistic claim of a DNA positional shift enabling optimal half-site interaction is presented without any quantitative details. No simulation parameters, convergence criteria, free energy calculations, or comparison to experimental structures are provided. The abstract does not indicate how the "shift" was measured, its magnitude, or how "optimal interaction" was defined.
+  - **Why it matters** This claim is the core mechanistic insight of the study. Without evidence that the shift is statistically significant, reproducible across simulation replicates, and consistent with the HDX-MS data, the conclusion cannot be assessed. A qualitative observation of a positional shift in MD could arise from sampling artifacts or force field limitations.
+  - **Resolution test** Provide quantitative measures of DNA position within the binding pocket across simulation replicates, compare to the consensus-bound state, and demonstrate that the shift correlates with improved interaction energies or contacts. Show that the HDX-MS data independently support the same conformational change.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "rearranging nucleotides at the RelA-interacting end of a consensus DNA sequence to form a half-site induces dynamic structural changes through both subunits of RelA/p50."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that HDX-MS and MD simulations were used to observe dynamic structural changes, but no data are shown. It is unclear which residues or regions of RelA and p50 exhibit changed dynamics, the magnitude of the changes, or whether the changes are localized or global. The claim that changes propagate "through both subunits" implies allosteric communication, which requires specific evidence.
+  - **Why it matters** The propagation of structural changes through both subunits is a strong claim that distinguishes this work from a simple local binding effect. Without residue-level HDX-MS data or per-residue simulation analyses, the claim is unsupported. If the changes are only local to the RelA-interacting region, the conclusion would need to be revised.
+  - **Resolution test** Provide differential HDX-MS maps or per-residue protection factors comparing consensus and half-site bound states, and show that changes occur in both subunits with statistical significance. In simulations, show per-residue root mean square fluctuations or dynamic network analyses supporting propagation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-data alignment
+  - **Claim pointer** The abstract title and text claim "high affinity binding" of partial consensus sites, and the final sentence states that RelA/p50 "achieves high-affinity binding with multiple different target DNA sequences."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No binding affinity measurements are mentioned in the abstract. The term "high affinity" is used without any quantitative binding constants, comparison to consensus site affinity, or indication of how affinity was measured. The abstract does not state whether binding affinities were experimentally determined or inferred from simulations.
+  - **Why it matters** The title and conclusions rest on the concept of high-affinity binding. If affinities were not directly measured, the claim is an inference that may not be justified. Even if measured, the abstract should indicate the range of affinities and how they compare to consensus binding to support the "high affinity" designation.
+  - **Resolution test** Provide binding affinity measurements (e.g., Kd values) for the half-site sequences studied, with appropriate replicates and error estimates, and compare to the consensus sequence affinity. If affinities were not measured, revise the claim to reflect what the structural data actually support.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract background statement
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract states that "nearly half of the DNA-bound RelA occupies sequences that don't match the consensus" but does not specify the source or criteria for this statistic beyond citing ChIP-Seq data generally.
+  - **Required correction** Provide a specific citation or clarify the reference for this statistic, and specify how "don't match the consensus" was defined (e.g., number of mismatches, position weight matrix threshold).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Definition of "half-sites"
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract defines half-sites as matching the consensus at only one of the two 4-nucleotide interaction sites, but it is unclear whether the two-nucleotide spacer is also conserved and whether partial matches within the 4-nucleotide site are considered.
+  - **Required correction** Clarify the definition of a half-site, including whether the spacer sequence is fixed and how many mismatches within the retained 4-nucleotide site are tolerated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sequence variants studied
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not indicate how many half-site sequences were studied, what specific sequence variants were used, or whether the results generalize beyond the particular sequences tested.
+  - **Required correction** State the number and nature of the half-site sequences examined, and discuss whether the observed behavior is expected to generalize to other half-site variants.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative evidence to support the central mechanistic claims or the "high affinity" designation. Without access to the underlying data, the case is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of how NFκB achieves high-affinity binding to non-consensus sites is not entirely new, but the specific combination of HDX-MS and MD simulations to address the mechanism may offer a fresh perspective. The originality cannot be fully assessed from the abstract alone.
+  - Scientific importance: Understanding transcription factor binding to degenerate sites is important for gene regulation and for interpreting ChIP-Seq data. The topic has broad relevance, but the significance of the specific mechanistic finding depends on the strength of the evidence.
+  - Interdisciplinary readership: The work bridges structural biology, biophysics, and computational chemistry, and could appeal to readers across these fields. The abstract is written in a way that is accessible to a broad scientific audience.
+  - Technical soundness: Cannot be assessed from the abstract. The methods are named but no details, controls, or validation are provided. The absence of any quantitative results prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is clearly written and explains the biological context well. Technical terms such as HDX-MS and MD are used without explanation, which is acceptable for a specialist journal but may limit accessibility for a general readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the central claims regarding DNA positional shifts, allosteric propagation through both subunits, and high-affinity binding are unsupported by any visible data. A full manuscript with quantitative results would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that MD simulations reveal a shift in DNA position within the binding pocket is unsupported; no simulation data or analysis are provided.
+- The claim that structural changes propagate through both subunits of RelA/p50 is unsupported; no residue-level data are shown.
+- The claim of "high affinity binding" to half-sites is unsupported; no binding affinity measurements are reported in the abstract.
+- The statistic that "nearly half of the DNA-bound RelA occupies sequences that don't match the consensus" is presented without a specific citation or methodological detail.
+- The generalizability of the findings to other half-site sequences beyond those studied is not assessable from the abstract.

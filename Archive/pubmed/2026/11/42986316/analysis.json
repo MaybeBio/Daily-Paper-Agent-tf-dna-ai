@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42986316",
+  "title": "Explainable hybrid vision transformer-convolutional neural network with cross-attention fusion for multi-institutional breast cancer receptor status prediction from H&E histopathology images.",
+  "authors": "Albalawi, Elham Saleh; Qayyum, Jibran; Qayyum, Junaid",
+  "journal": "Science progress",
+  "published_date": "2026-11-05",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用混合ViT-CNN从H&E病理图像预测乳腺癌受体状态，属纯图像分类，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "The integration of artificial intelligence (AI) into digital pathology has revolutionised breast cancer diagnostics, offering transformative opportunities to automate and refine molecular profiling, which is essential to precision oncology. Accurate determination of receptor status-estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (HER2)-remains pivotal in guiding personalised treatment planning and prognostic assessment. However, traditional immunohistochemistry (IHC) and molecular assays are limited by resource intensity, lengthy turnaround times, and inter-observer variability, underscoring the need for scalable computational alternatives. This study proposes a novel integrative AI-driven framework for predicting breast cancer receptor profiles directly from hematoxylin and eosin (H&E)-stained histopathology images. The framework employs a hybrid vision transformer-convolutional neural network (ViT-CNN) architecture with a cross-attention fusion mechanism to capture both global contextual information and fine-grained local features. Experiments show AUCs of 0.967, 0.952, and 0.941 for ER, PR, and HER2 prediction, respectively, representing relative improvements of 12.4%, 9.8%, and 10.8% over the best-performing prior method (DCS-ST), re-evaluated under our identical protocol (absolute AUC differences of 0.107, 0.085 and 0.092). Furthermore, the framework enables automated molecular subtyping into luminal A, luminal B, HER2-enriched, and triple-negative categories with a macro-averaged F1-score of 95.7%. A comprehensive multi-institutional validation was performed on 2,847 external whole-slide images from three partner institutions (not including the primary BINO Hospital test set), showing consistent performance (a mean AUC reduction of 0.83 percentage points relative to the internal test set) across the staining protocols and scanners represented. Integrated explainability modules, including attention visualisations and Grad-CAM, enhance interpretability, supporting pathologist review. In a single-institution retrospective workflow audit, AI assistance was associated with an estimated 72.7% reduction in diagnostic turnaround time (from a conventional mean of 72.4 hours to 19.8 hours; Section 6.10, where approximately 65% of the AI-assisted time is un-itemised queueing and logistics) and, in a 120-WSI reader study, with higher inter-observer agreement (kappa 0.847 to 0.967). These clinical-impact estimates are hypothesis-generating and require prospective validation. The findings position the framework as a promising, explainable approach to AI-assisted digital pathology that warrants prospective, multi-centre clinical evaluation.",
+  "abstract_zh": "将人工智能（AI）整合到数字病理学中，已彻底改变了乳腺癌诊断，为自动化和精细化分子分型提供了变革性机遇，这对精准肿瘤学至关重要。受体状态——雌激素受体（ER）、孕激素受体（PR）和人表皮生长因子受体2（HER2）——的准确测定，在指导个性化治疗计划和预后评估中仍具有关键作用。然而，传统免疫组织化学（IHC）和分子检测受限于资源密集、周转时间长以及观察者间差异，凸显了对可扩展计算替代方案的需求。本研究提出了一种新颖的整合性AI驱动框架，用于直接从苏木精-伊红（H&E）染色的组织病理学图像预测乳腺癌受体谱。该框架采用混合视觉Transformer-卷积神经网络（ViT-CNN）架构，并配备交叉注意力融合机制，以同时捕捉全局上下文信息和细粒度局部特征。实验结果显示，ER、PR和HER2预测的AUC分别为0.967、0.952和0.941，相较于先前最优方法（DCS-ST）在相同协议下重新评估的结果，相对改进分别为12.4%、9.8%和10.8%（绝对AUC差异为0.107、0.085和0.092）。此外，该框架能够实现自动分子亚型分类，分为腔面A型、腔面B型、HER2富集型和三阴性类别，宏平均F1分数为95.7%。一项全面的多机构验证在来自三个合作机构（不包括主要BINO医院测试集）的2,847张外部全切片图像上进行，显示在不同染色协议和扫描仪中表现一致（相对于内部测试集，平均AUC降低0.83个百分点）。整合的可解释性模块，包括注意力可视化和Grad-CAM，增强了可解释性，支持病理学家审查。在单机构回顾性工作流程审计中，AI辅助与诊断周转时间估计减少72.7%相关（从传统平均72.4小时降至19.8小时；第6.10节，其中约65%的AI辅助时间属于未细分的排队和物流），并且在120张WSI的读者研究中，与更高的观察者间一致性相关（kappa值从0.847到0.967）。这些临床影响估计为假设生成性质，需前瞻性验证。研究结果将该框架定位为一种有前景的、可解释的AI辅助数字病理学方法，值得进行前瞻性多中心临床评估。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42986316/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42986316/",
+  "paper_page_path": "papers/pubmed/42986316/index.html"
+}

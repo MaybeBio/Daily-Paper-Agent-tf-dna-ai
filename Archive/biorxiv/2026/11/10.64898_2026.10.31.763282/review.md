@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness based solely on the provided text. Figures and supplementary materials are referenced but not directly examined.
+- **Shared manuscript claim summary** The authors propose that PCBP1 directly interacts with the 5'UTR of utrophin-A mRNA via its KH1 domain, and that this interaction represses utrophin-A expression by promoting nuclear retention of the transcript, thereby reducing cytoplasmic availability and protein output in mouse myoblasts.
+- **Visible evidence base** In silico modeling (AlphaFold2), molecular docking (HDOCK), MD simulations (GROMACS), ITC binding assays, RNA-immunoprecipitation, overexpression and shRNA knockdown experiments in C2C2 cells, qPCR, western blot, immunofluorescence, luciferase reporter assays, subcellular fractionation
+- **Missing materials affecting confidence** Actual figures and supplementary figures (Figure 1-5, S1-S8) are referenced but not provided. Raw data, statistical outputs, and detailed experimental replicates are not shown. The 5'UTR sequence of utrophin-A is not provided. No information on the delPCBP1 deletion boundaries beyond the amino acid sequence is given.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the context of DMD therapeutics, namely whether PCBP1, a paralog of the previously studied PCBP2, regulates utrophin-A expression through direct mRNA binding. The combination of computational prediction, biophysical validation, and cellular assays is appropriate in principle. However, the evidence as presented has several gaps that prevent full confidence in the central claims. The computational modeling is used to guide experimental design, which is reasonable, but the docking and MD results are not quantitatively benchmarked against known RNA-protein interaction data. The ITC data show a clear difference between wild-type and deletion mutant, which is encouraging, but the thermodynamic parameters for the mutant are reported with extremely large errors, making interpretation difficult. The cellular data are consistent with a repressive role for PCBP1, but the mechanistic link between KH1 binding and nuclear retention is inferred rather than directly demonstrated. The claim that both PCBP1 and PCBP2 recognize the same 5'UTR element is not experimentally tested here and relies on prior work. Overall, the study is potentially interesting but requires additional experimental support and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers working on RNA-binding proteins in muscle biology, particularly those interested in post-transcriptional regulation of dystrophin-associated genes. The work may also be of interest to investigators studying DMD therapeutic strategies aimed at utrophin upregulation, as it identifies a potential new target for intervention. The computational approach combining AlphaFold2 with docking and MD may appeal to structural biologists studying RNA-protein complexes, though the lack of experimental structural validation limits this audience.
+- **Major strengths** The study addresses a clinically relevant question with potential therapeutic implications. The combination of computational prediction and experimental validation is a logical approach. The use of a deletion mutant to test the predicted binding interface is a good experimental design. The inclusion of both overexpression and knockdown experiments provides complementary evidence for the regulatory role of PCBP1. The subcellular fractionation experiments attempt to provide a mechanistic explanation for the observed expression changes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational predictions
+  - **Claim pointer** The authors claim that AlphaFold2 predicted a stable and reliable model of the KH1-KH2 domain, and that docking and MD simulations identified specific residues critical for RNA binding.
+  - **Evidence pointer** Results section "Modelling of Full-length PCBP1 and Its KH1 Domain", Figure 1, Figure 2
+  - **Concern** The manuscript does not provide any experimental validation of the predicted protein structure or the docked complex. The AlphaFold2 model is used as a basis for downstream predictions, but no comparison to known structures of PCBP1 or related KH-domain proteins is shown. The docking score of -357.26 is presented as evidence of strong binding, but docking scores are not directly comparable to binding free energies and can be misleading without proper benchmarking. The MD simulation is only 50 ns, which may be insufficient to sample conformational changes relevant to RNA binding. The identification of specific hydrogen-bonding residues is based on simulation trajectories, but no mutagenesis beyond the large deletion is performed to validate the contribution of individual residues.
+  - **Why it matters** The computational predictions are the foundation for the entire study. If the predicted binding interface is incorrect, the interpretation of the deletion mutant experiments and the subsequent cellular assays would be compromised. Without experimental validation of the structure or at least site-directed mutagenesis of individual predicted contact residues, the claim that KH1 is the critical domain for RNA binding is not fully established.
+  - **Resolution test** Provide experimental validation of the predicted structure, such as circular dichroism or NMR of the KH1-KH2 domain. Perform site-directed mutagenesis of individual predicted contact residues (K23, S27, S35, K37, I39, R40, E41) and test their effect on RNA binding by ITC or electrophoretic mobility shift assay. Alternatively, compare the AlphaFold2 model to a known experimental structure of a homologous KH domain to demonstrate model accuracy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data quality and statistical rigor
+  - **Claim pointer** The authors claim that ITC shows a thermodynamically favorable spontaneous interaction between PCBP1 and the 5'UTR, with a K D of approximately 2.49 μM, and that the deletion mutant fails to exhibit any interaction.
+  - **Evidence pointer** Results section "Biophysical Characterization of PCBP1–Utrophin-A mRNA Interaction", Figure 3A, 3C
+  - **Concern** The ITC data for the wild-type interaction are presented with a single K D value, but no error range or number of independent replicates is reported. For the deletion mutant, the reported parameters have extraordinarily large errors (N = 10 ± 1900, K D = 74.7 μM ± 13.2 mM, ΔH = -3.48 kcal/mol ± 304), which makes the claim of "no interaction" difficult to assess. The large errors suggest either a very weak or non-specific interaction, or technical issues with the ITC experiment. The manuscript does not report the concentration of RNA and protein used, the buffer conditions, or whether the RNA was properly folded prior to the experiment. The stoichiometry of approximately 0.573 for the wild-type interaction is unusual and not adequately explained.
+  - **Why it matters** The ITC data are the primary direct evidence for a physical interaction between PCBP1 and the utrophin-A 5'UTR. If the quality of these data is insufficient, the central claim of direct binding is weakened. The lack of error reporting and replicate information prevents the reader from assessing the reliability of the measured affinity.
+  - **Resolution test** Provide ITC data from at least three independent experiments with mean ± SEM for all thermodynamic parameters. Show representative raw titration curves and integrated heat plots. Report the exact concentrations of protein and RNA, buffer composition, and temperature. For the mutant, demonstrate that the lack of binding is not due to protein misfolding or aggregation, for example by circular dichroism or size-exclusion chromatography. Consider performing a control ITC experiment with a non-specific RNA to demonstrate binding specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link between binding and functional outcome
+  - **Claim pointer** The authors claim that PCBP1 promotes nuclear retention of utrophin-A mRNA and thereby reduces cytoplasmic availability and protein output.
+  - **Evidence pointer** Results section "PCBP1 Regulates Nuclear-Cytoplasmic Distribution of Utrophin-A", Figure 5
+  - **Concern** The subcellular fractionation experiments show changes in nuclear-to-cytoplasmic ratios upon PCBP1 overexpression and knockdown, but the mechanism by which PCBP1 promotes nuclear retention is not addressed. The manuscript does not test whether PCBP1 directly inhibits nuclear export, whether it affects splicing or polyadenylation, or whether the observed nuclear retention is a consequence of reduced cytoplasmic stability rather than a direct effect on export. The luciferase reporter assay demonstrates that the 5'UTR confers PCBP1 responsiveness, but this does not distinguish between effects on nuclear export, cytoplasmic stability, or translation. The claim that nuclear retention is the mechanism is therefore not directly supported.
+  - **Why it matters** The proposed mechanism is central to the therapeutic relevance of the study. If the mechanism is not nuclear retention but rather cytoplasmic mRNA destabilization or translational inhibition, the implications for DMD therapy would be different. Understanding the precise mechanism is important for designing interventions.
+  - **Resolution test** Perform nuclear export assays using transcription inhibition (e.g., actinomycin D) followed by time-course analysis of cytoplasmic mRNA levels. Use RNA-FISH to directly visualize the subcellular localization of utrophin-A mRNA in control and PCBP1-manipulated cells. Test whether the 5'UTR element affects mRNA stability by performing decay assays after transcriptional arrest. Consider testing whether PCBP1 affects translation directly by polysome profiling.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and physiological relevance
+  - **Claim pointer** The authors claim that the PCBP1-5'UTR interaction is a potent target for utrophin de-repression in DMD, and that both PCBP1 and PCBP2 recognize the same 5'UTR element.
+  - **Evidence pointer** Discussion section, Figure S8
+  - **Concern** The study is performed exclusively in mouse C2C12 myoblasts. While the authors note that human and mouse PCBP1 share complete amino acid identity, the 5'UTR of human utrophin-A is not tested. The claim that both paralogs recognize the same element is based on prior work on PCBP2 and the current work on PCBP1, but no direct comparison is made in this study. The physiological relevance of the micromolar binding affinity is not discussed in the context of cellular PCBP1 concentrations. The study does not address whether the observed effects are specific to myoblasts or would also occur in differentiated myotubes or in vivo.
+  - **Why it matters** The therapeutic relevance of the findings depends on whether the mechanism operates in human muscle cells and in the context of DMD pathology. If the 5'UTR elements differ between mouse and human, or if the regulatory mechanism is different in differentiated muscle, the translational potential would be limited.
+  - **Resolution test** Test the interaction between human PCBP1 and the human utrophin-A 5'UTR by ITC. Perform luciferase reporter assays with the human 5'UTR in human muscle cell lines (e.g., immortalized myoblasts or myotubes). Compare the effects of PCBP1 and PCBP2 knockdown or overexpression side by side in the same cell system. Discuss the cellular concentration of PCBP1 relative to the measured K D to assess whether the interaction is likely to occur under physiological conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Results section
+  - **Evidence pointer** Figure 1, Figure 2, Figure 3, Figure 4, Figure 5, Figure S1-S8
+  - **Issue** The manuscript references figures extensively but the actual figures are not provided in the text. It is difficult to assess the quality of the data without seeing the actual plots, gels, and microscopy images.
+  - **Required correction** Ensure that all figures are included in the final submission and that they are of sufficient resolution to evaluate the data. Consider adding representative raw data images in supplementary materials.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, Figure 4, Figure 5
+  - **Evidence pointer** Figure 4B, 4C, 4E, 4F, 4G, 5E, 5F
+  - **Issue** The manuscript states that significance is indicated by asterisks but does not consistently report exact p-values or the number of biological replicates for each experiment. The significance threshold scheme is described in the methods but not consistently applied in the results.
+  - **Required correction** Report exact p-values for all significant comparisons. State the number of biological replicates for each experiment in the figure legends. Ensure that the significance scheme described in the methods is consistently used throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, "Molecular docking" section
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the docking procedure is brief. It is not clear how the RNA structure was generated, whether the full 5'UTR was used or a truncated version, and how the top-ranked pose was selected. The criteria for selecting the "top-ranked" model are not specified.
+  - **Required correction** Provide more detail on the RNA structure prediction and the docking protocol. Specify the length of the 5'UTR used, the number of docking poses generated, and the scoring criteria used to select the top-ranked pose.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The data availability statement is vague and does not specify what data will be shared or how to access it.
+  - **Required correction** Provide a more detailed data availability statement, including whether raw data, analysis scripts, and model coordinates will be deposited in a public repository.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The introduction cites prior work on PCBP2 and utrophin regulation, but the discussion does not adequately compare the current findings with those on PCBP2. The authors state that both paralogs recognize the same element but do not discuss potential differences in binding affinity, specificity, or functional outcomes.
+  - **Required correction** Expand the discussion to compare and contrast the current findings with the prior PCBP2 work. Discuss any differences in binding affinity, RNA recognition, or functional consequences between the two paralogs.
+- **Technical failings that need to be addressed before the case is established** The ITC data for the mutant are not interpretable due to extremely large errors. The computational predictions are not experimentally validated. The mechanistic link between nuclear retention and reduced protein output is not directly demonstrated. The physiological relevance of the micromolar binding affinity is not discussed. The study lacks experiments in human cells or differentiated muscle.
+- **Assessment against Nature-style criteria** Originality: The study addresses a novel question regarding PCBP1-mediated regulation of utrophin-A, which has not been previously reported. The use of AlphaFold2 to guide experimental design is a modern approach. However, the conceptual framework is largely derived from prior work on PCBP2, and the novelty is incremental rather than transformative. Scientific importance: The findings could have implications for DMD therapy, which is a clinically important condition. However, the study is descriptive and does not provide a new therapeutic strategy or a mechanistic insight that would fundamentally change the field. Interdisciplinary readership: The work bridges structural biology, RNA biology, and muscle physiology, which could appeal to a broad audience. However, the lack of experimental structural validation and the limited mechanistic depth may reduce its appeal to structural biologists. Technical soundness: The computational methods are standard, but the lack of validation of the predicted structure and the poor quality of the mutant ITC data are concerning. The cellular experiments are straightforward but do not provide a detailed mechanism. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the results section is dense and would benefit from clearer explanations of the computational methods and their limitations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental approach is logical, but the current evidence does not fully establish the claims. The ITC data for the mutant need to be repeated and reported properly. The computational predictions should be validated experimentally. The mechanistic link between nuclear retention and protein output needs to be strengthened. If these issues are addressed, the study could make a meaningful contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the KH1 domain is essential for RNA binding is based on a single deletion mutant and is not supported by site-directed mutagenesis of individual residues.
+- The claim that PCBP1 promotes nuclear retention of utrophin-A mRNA is inferred from steady-state fractionation data and is not directly demonstrated.
+- The claim that both PCBP1 and PCBP2 recognize the same 5'UTR element is not experimentally tested in this study.
+- The physiological relevance of the measured K D of 2.49 μM is not discussed in the context of cellular PCBP1 concentrations.
+- The claim that the PCBP1-5'UTR interaction is a potent target for utrophin de-repression in DMD is speculative and not supported by experiments in DMD models or human cells.

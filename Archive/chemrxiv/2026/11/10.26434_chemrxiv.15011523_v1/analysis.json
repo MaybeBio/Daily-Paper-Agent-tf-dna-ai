@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15011523/v1",
+  "title": "From a Tight-Binding Hessian to an AMBER Iron-Sulfur Site: A Rubredoxin Stress Test",
+  "authors": "Devashish Das; Anurag Kumar",
+  "journal": "ChemRxiv",
+  "published_date": "2026-11-02",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用xTB Hessian生成AMBER铁硫簇参数并做MD模拟，虽涉及金属蛋白活性位点建模，但对象为铁硫簇而非蛋白质-DNA互作，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Parameterized bonded metal sites represent the lowest cost option for molecular dynamics (MD) studies of metalloproteins. However, their quality depends entirely upon the underlying quantum computation and validation. Here, we have asked whether it is possible to generate reliable AMBER force field parameters for a rubredoxin Fe-S4 active site from an extended tight-binding (xTB-family) Hessian. The Hessian derived from a 49-atom cluster was projected using the Seminario method to give parameters for Fe-S and S-Fe-S interactions. The active site was then solvated explicitly, and three 100 ns trajectories were generated. The entire process was performed end-to-end. The trajectories all maintained the protein secondary structure (RMSD Cα mean 1.2-1.6 Å). Two of the trajectories maintained a tetrahedral iron site, while one did not. At around 31.4 ns, the mean Fe-S bond length increased from 2.41 to 2.63 Å, and the deviation from tetrahedral geometry increased from 8.8 to 43.5°. Two cysteine sulfur atoms also approached each other to a bond length of 2.04 Å. None of these issues were identified using global measures. The parameters are reported along with the cause of failure, likely reasons, and missing provenance, meaning this is merely a proof of concept, not a validated force field.",
+  "abstract_zh": "参数化键合金属位点代表了金属蛋白分子动力学（molecular dynamics, MD）研究中成本最低的选择。然而，其质量完全依赖于底层的量子计算和验证。在此，我们探讨了是否可能从扩展紧束缚（xTB族）Hessian矩阵生成可靠的rubredoxin Fe-S4活性位点的AMBER力场参数。从49原子簇导出的Hessian矩阵采用Seminario方法投影，以生成Fe-S和S-Fe-S相互作用的参数。随后，活性位点被显式溶剂化，并生成了三条100 ns的轨迹。整个过程端到端完成。所有轨迹均保持了蛋白质二级结构（Cα RMSD平均值1.2-1.6 Å）。其中两条轨迹维持了四面体铁位点，而一条未维持。在大约31.4 ns时，平均Fe-S键长从2.41 Å增加到2.63 Å，与四面体几何的偏差从8.8°增加到43.5°。两个半胱氨酸硫原子也相互接近至键长2.04 Å。这些问题均未通过全局度量指标识别。参数及其失败原因、可能因素和缺失的来源信息一并报告，这意味着这仅是概念验证，而非经过验证的力场。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.15011523/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15011523/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15011523_v1/index.html"
+}

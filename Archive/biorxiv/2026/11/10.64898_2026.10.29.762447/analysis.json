@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.10.29.762447",
+  "title": "Unsupervised prioritization of gene-regulatory variants with isolation forests",
+  "authors": "Schmidt AW; Rosendahl J; Laumen H; Ossowski S",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-03",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用隔离森林整合Enformer深度学习预测，对基因调控变异进行无监督优先级排序，虽聚焦eQTL变异而非直接TF-DNA结合建模，但涉及转录因子结合位点注释，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Most common variants occur in non-coding genomic regions. Numerous expression quantitative trait loci (eQTLs) can influence nearby gene expression. Across diverse traits and diseases, many genome-wide association study (GWAS) loci have been shown to colocalize with eQTLs, supporting gene-regulatory causal mechanisms. However, linkage disequilibrium (LD) obscures the identification of the causal variant(s), necessitating prioritization by functional annotations. Previously published variant prioritization tools relied on the machine-learning-based combination of diverse feature types like evolutionary conservation and chromatin information, whereas more recent deep learning tools learn and describe gene-regulatory DNA sequence grammar. However, the latter approaches often generate a large number of scores per variant. We designed a novel unsupervised machine-learning approach based on isolation forests to integrate the predictions from the broadly used Enformer deep learning model into a single gene-regulatory predictive score for each common variant. Our novel approach eQTL prediction with isolation forests (eQIF) demonstrates strong performance in predicting eQTLs and gene-regulatory GWAS variants. We show that top eQIF variants are located in evolutionarily conserved transcription factor binding site (TFBS) footprints, and that the frequency of top eQIF variants within overrepresented TFBS motifs recapitulates the motif information content. eQIF predictions are precomputed for 9,421,183 common variants and publicly available. <h4>Abstract Figure</h4> Graphical Abstract. eQIF is a novel score for predicting the gene-regulatory impact of variants. eQIF is based on the top 20 principal components (PCs) from the publicly available precomputed Enformer deep-learning chromatin predictions overlapping common gnomAD variants. The PCs were provided to an isolation forest to learn global density within the multi-dimensional feature space. After training the model, it was applied to predict a global anomaly score (eQIF) for all gnomAD variants. eQIF was finally used for fine-mapped variant classification, functional variant discovery and precise prioritization of highly informative TFBS positions. Created in BioRender. Schmidt, A. W. (2026) https://BioRender.com/6dgiji3",
+  "abstract_zh": "大多数常见变异发生在非编码基因组区域。众多表达数量性状位点（eQTLs）可影响邻近基因的表达。在多种性状和疾病中，许多全基因组关联研究（GWAS）位点已被证明与eQTLs共定位，支持基因调控因果机制。然而，连锁不平衡（LD）掩盖了因果变异体的识别，需要通过功能注释进行优先级排序。先前发表的变异优先级排序工具依赖于基于机器学习的多种特征类型组合，如进化保守性和染色质信息，而更近期的深度学习工具则学习并描述基因调控DNA序列语法。然而，后者方法通常为每个变异生成大量评分。我们设计了一种基于隔离森林的新型无监督机器学习方法，将广泛使用的Enformer深度学习模型的预测整合为每个常见变异的单一基因调控预测评分。我们的新方法eQTL预测与隔离森林（eQIF）在预测eQTLs和基因调控GWAS变异方面表现出强大性能。我们表明，顶级eQIF变异位于进化保守的转录因子结合位点（TFBS）足迹中，且过度代表的TFBS基序中顶级eQIF变异的频率重现了基序信息含量。eQIF预测已为9,421,183个常见变异预计算并公开可用。<h4>摘要图</h4>图形摘要。eQIF是一种预测变异基因调控影响的新评分。eQIF基于公开可用的预计算Enformer深度学习染色质预测中与常见gnomAD变异重叠的前20个主成分（PCs）。这些PCs被提供给隔离森林，以学习多维特征空间内的全局密度。模型训练后，应用于预测所有gnomAD变异的全局异常评分（eQIF）。eQIF最终用于精细映射变异分类、功能变异发现和高信息量TFBS位置的精确优先级排序。在BioRender中创建。Schmidt, A. W. (2026) https://BioRender.com/6dgiji3",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762447",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762447",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.10.29.762447/index.html"
+}
