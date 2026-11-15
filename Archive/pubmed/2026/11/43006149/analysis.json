@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43006149",
+  "title": "PlantPAN 5.0: updated database for integrating multiomics evidence and exploring multilayered transcriptional regulatory networks in plants.",
+  "authors": "Yang, Chien-Wen; Wang, Wen-Lin; Chow, Chi-Nga; Tseng, Kuan-Chieh; Shen, Yen-Lin; Tsao, Ting-Wei; Chien, Yu-Han; Lee, Tzong-Yi; Chang, Wen-Chi",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-11-10",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍植物转录调控数据库PlantPAN 5.0，整合多组学数据与TF结合位点预测，虽非直接建模TF-DNA互作机制，但提供TFBS与染色质互作资源，对TF-DNA结合位点预测研究有数据支撑与启发价值。",
+  "abstract": "Plant Promoter Analysis Navigator (PlantPAN) 5.0 (https://plantpan.itps.ncku.edu.tw/) is an integrated multiomics resource for investigating plant cis-regulatory elements and transcriptional regulatory networks. This release expands genome annotations and promoter sequences to 240 species and provides 71 040 transcription factor (TF) annotations and 7762 nonredundant binding matrices. Its companion database, PCBase 3.0, substantially expands ChIP-seq data and newly incorporates ATAC-seq, bisulfite-sequencing, and four Hi-C-based chromatin interaction datasets for Arabidopsis thaliana. The new Differential Analysis function enables comparison of TF binding, chromatin accessibility, and DNA methylation across conditions. The redesigned Promoter Analysis interface provides TF family-level statistics, with a Pattern Overview panel integrating TF-binding site (TFBS) densities, plant DNA large language model-predicted open-chromatin regions, CpG-rich regions, and tandem repeats. Two new modules are introduced: (i) Transcriptome Regulatory Analysis and Coexpression, where candidate regulatory TFs and shared cis-elements in gene sets are prioritized through differential expression and coexpression analysis, and (ii) Interaction Topology Analysis for Chromatin and TFs, where chromatin interaction regions are integrated to reveal potentially coregulated genes and their shared TFs and predicted TFBSs. A Dockerized package enables large-scale local promoter analyses, with data privacy. Therefore, PlantPAN 5.0 is a comprehensive framework for discovering plant transcriptional regulatory mechanisms.",
+  "abstract_zh": "植物启动子分析导航器（PlantPAN）5.0（https://plantpan.itps.ncku.edu.tw/）是一个综合性的多组学资源，用于研究植物顺式调控元件和转录调控网络。本版本将基因组注释和启动子序列扩展至240个物种，并提供71,040个转录因子（TF）注释和7,762个非冗余结合矩阵。其配套数据库PCBase 3.0大幅扩展了ChIP-seq数据，并新纳入了ATAC-seq、亚硫酸盐测序以及四个基于Hi-C的染色质相互作用数据集，针对拟南芥（Arabidopsis thaliana）。新增的差异分析功能支持跨条件比较TF结合、染色质可及性和DNA甲基化。重新设计的启动子分析界面提供TF家族水平统计，并设有模式概览面板，整合了TF结合位点（TFBS）密度、植物DNA大语言模型预测的开放染色质区域、CpG富集区域和串联重复序列。引入两个新模块：（i）转录组调控分析与共表达，通过差异表达和共表达分析，优先识别基因集中的候选调控TF和共享顺式元件；（ii）染色质与TF的相互作用拓扑分析，整合染色质相互作用区域，以揭示潜在共调控基因及其共享TF和预测的TFBS。一个Docker化包支持大规模本地启动子分析，并保障数据隐私。因此，PlantPAN 5.0是发现植物转录调控机制的全面框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43006149/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43006149/",
+  "paper_page_path": "papers/pubmed/43006149/index.html"
+}

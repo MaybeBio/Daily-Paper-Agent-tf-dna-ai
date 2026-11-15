@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.11.10.765632",
+  "title": "RNA Small-Molecule Binding-Site Prediction by Integrating RNA Language Models and Structural Geometry",
+  "authors": "Nandita Sharma; Pralay Mitra",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-11",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图注意力网络整合RNA语言模型与几何特征预测RNA-小分子结合位点，并辅以MD模拟，虽涉及核酸-配体互作建模，但对象为RNA而非蛋白质-DNA，且非TF-DNA体系，方法可部分借鉴但匹配度有限。",
+  "abstract": "RNAs are emerging as promising therapeutic targets, and small-molecule binding can modulate their structure and function, creating opportunities for therapeutic development. Accurate identification of RNA–small-molecule binding sites is therefore important for understanding RNA–ligand interactions and facilitating RNA-targeted drug discovery. However, the structural complexity of RNA and the limited availability of experimentally characterized RNA–ligand complexes pose challenges for computational binding-site prediction. In this study, we propose RSMBind, a graph attention-based deep learning framework for nucleotide-level prediction of RNA–small-molecule binding sites. The model integrates geometric descriptors of the local three-dimensional environment with pretrained RNA language model embeddings to capture complementary structural and sequence information. We investigate three pretrained RNA language models—RNA-BERT, ERNIE-RNA and RNA-FM—and assess the contributions of sequence representations and geometric features through feature-level ablation experiments. The model is developed using the TR60 and HARIBOSS datasets and evaluated on four independent benchmark datasets: RB9, TE18, TL12 and JL10. RSMBind achieves the highest MCC among the compared methods on three of the four benchmarks, with relative improvements of 17.1% on RB9, 7.2% on TL12 and 16.0% on JL10 over the best previously reported results, while achieving competitive performance on TE18. Furthermore, RSMBind retains predictive capability when using only pretrained RNA language model embeddings, highlighting their potential utility when explicit tertiary structural features are unavailable. Structural analysis indicates differences in prediction performance across RNA structural regions, with loop-associated binding sites generally being captured more effectively than those embedded within stem regions. Additionally, 100 ns molecular dynamics simulations of selected RNA–ligand complexes provide insights into the relationship between predicted binding probabilities and dynamic ligand proximity, further highlighting the role of conformational dynamics in evaluating structure-based predictions. The source code is available at [ https://github.com/sharma-nandita/RSMBind ].",
+  "abstract_zh": "RNA正逐渐成为有前景的治疗靶点，小分子结合能够调节其结构和功能，为治疗开发创造机会。因此，准确识别RNA-小分子结合位点对于理解RNA-配体相互作用和促进以RNA为靶点的药物发现至关重要。然而，RNA的结构复杂性以及实验表征的RNA-配体复合物有限的可获得性，给计算结合位点预测带来了挑战。在本研究中，我们提出了RSMBind，一种基于图注意力的深度学习框架，用于RNA-小分子结合位点的核苷酸水平预测。该模型将局部三维环境的几何描述符与预训练的RNA语言模型嵌入相结合，以捕获互补的结构和序列信息。我们研究了三种预训练的RNA语言模型——RNA-BERT、ERNIE-RNA和RNA-FM，并通过特征级消融实验评估了序列表示和几何特征的贡献。该模型使用TR60和HARIBOSS数据集开发，并在四个独立基准数据集上评估：RB9、TE18、TL12和JL10。RSMBind在四个基准中的三个上取得了最高的MCC，相对于先前报道的最佳结果，在RB9上相对提高了17.1%，在TL12上提高了7.2%，在JL10上提高了16.0%，同时在TE18上取得了具有竞争力的性能。此外，RSMBind在仅使用预训练RNA语言模型嵌入时仍保持预测能力，这突显了在缺乏明确三级结构特征时其潜在实用性。结构分析表明，不同RNA结构区域的预测性能存在差异，与环相关的结合位点通常比嵌入茎区域的位点更有效地被捕获。此外，对选定的RNA-配体复合物进行的100 ns分子动力学模拟，提供了预测结合概率与动态配体接近度之间关系的见解，进一步强调了构象动力学在评估基于结构的预测中的作用。源代码可在 [ https://github.com/sharma-nandita/RSMBind ] 获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765632",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765632",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.11.10.765632/index.html"
+}

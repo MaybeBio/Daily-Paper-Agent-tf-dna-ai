@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43018766",
+  "title": "A noninvasive risk stratification prediction model for neuroblastoma through integration of multidimensional clinical indicators.",
+  "authors": "Zhang, Mengxin; Zhang, Yingyu; Zhang, Xianwei; Zhao, Liang; Wu, Yuxuan; Zhang, Man; Ren, Jianying; Wu, Yongjun; Zhang, Jie; Zhang, Wancun",
+  "journal": "European journal of pediatrics",
+  "published_date": "2026-11-12",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用机器学习整合临床指标和循环MYCN状态进行神经母细胞瘤风险分层，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "Current neuroblastoma (NB) risk classification relies partly on tumor tissue-derived information, which may be unavailable in patients who cannot undergo biopsy or surgical resection. Therefore, this study aimed to develop a non-invasive prediction model for NB risk classification by integrating a liquid biopsy biomarker with routinely available clinical indicators. A total of 141 treatment-naive patients with NB were included and divided into a training cohort (n = 100) and a held-out testing cohort (n = 41). Six pretreatment predictors, including age, sex, lactate dehydrogenase (LDH), neuron-specific enolase (NSE), image-defined risk factors (IDRFs), and circulating plasma MYCN amplification status, were incorporated into 11 machine-learning algorithms. Model development and selection were performed exclusively in the training cohort using repeated nested cross-validation with patient-level out-of-fold predictions. Random forest (RF) achieved the best overall performance, with an area under the receiver operating characteristic curve (AUC) of 0.952 (95% CI, 0.906-0.998), an accuracy of 91%, and a Brier score of 0.079. Decision curve analysis showed positive net benefit across the prespecified threshold range of 15%-50%, while SHapley Additive Explanations (SHAP) analysis identified IDRFs, NSE, and LDH as the leading contributors to model predictions. After model locking, the RF model retained good discrimination in the held-out testing cohort, with an AUC of 0.890 (95% CI, 0.791-0.989), a sensitivity of 84.2%, and a Brier score of 0.140. CONCLUSION: These findings support the feasibility of combining circulating MYCN status with routine clinical variables to provide a non-tissue-based approach for assisting NB risk classification. WHAT IS KNOWN: * Current NB risk classification incorporates clinical, imaging, histopathological, and molecular information, some of which requires tumor tissue and may be unavailable before biopsy or surgery. WHAT IS NEW: * This study developed and independently tested a non-invasive machine-learning model integrating circulating plasma MYCN amplification status with five routinely available clinical indicators, achieving an AUC of 0.952 during nested cross-validation in the training cohort and an AUC of 0.890 in the held-out testing cohort.",
+  "abstract_zh": "当前神经母细胞瘤（NB）风险分层部分依赖于肿瘤组织来源的信息，但对于无法进行活检或手术切除的患者，这些信息可能无法获得。因此，本研究旨在通过整合液体活检生物标志物与常规可用的临床指标，开发一种非侵入性的NB风险分层预测模型。共纳入141例未经治疗的NB患者，并将其分为训练队列（n = 100）和独立测试队列（n = 41）。六个治疗前预测因子，包括年龄、性别、乳酸脱氢酶（LDH）、神经元特异性烯醇化酶（NSE）、影像学定义的风险因素（IDRFs）以及循环血浆MYCN扩增状态，被纳入11种机器学习算法中。模型开发和选择仅在训练队列中进行，采用重复嵌套交叉验证及患者级别的折外预测。随机森林（RF）实现了最佳整体性能，受试者工作特征曲线下面积（AUC）为0.952（95% CI，0.906-0.998），准确率为91%，Brier评分为0.079。决策曲线分析显示在预设阈值范围15%-50%内具有正向净收益，而SHapley加性解释（SHAP）分析确定IDRFs、NSE和LDH为模型预测的主要贡献因素。模型锁定后，RF模型在独立测试队列中保持了良好的区分能力，AUC为0.890（95% CI，0.791-0.989），敏感性为84.2%，Brier评分为0.140。结论：这些发现支持将循环MYCN状态与常规临床变量相结合，为辅助NB风险分层提供一种非组织学方法的可行性。已知信息：* 当前NB风险分层整合了临床、影像、组织病理学和分子信息，其中部分信息需要肿瘤组织，可能在活检或手术前无法获得。新增信息：* 本研究开发并独立测试了一种非侵入性机器学习模型，整合了循环血浆MYCN扩增状态与五个常规可用的临床指标，在训练队列的嵌套交叉验证中实现了AUC为0.952，在独立测试队列中AUC为0.890。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43018766/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43018766/",
+  "paper_page_path": "papers/pubmed/43018766/index.html"
+}

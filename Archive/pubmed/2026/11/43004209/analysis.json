@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43004209",
+  "title": "Helixpr: a helix-aware periodic representation of DNA sequence for enhancer identification.",
+  "authors": "Shi, Xiang; Kang, Jiayi; Sun, Nan; Yau, S S-T",
+  "journal": "BMC bioinformatics",
+  "published_date": "2026-11-10",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出一种基于DNA双螺旋周期性的序列表示HelixPR用于增强子识别，虽涉及TF结合基序富集分析，但核心是增强子分类而非TF-DNA互作建模，方法为CNN序列编码，与课题关联中等。",
+  "abstract": "BACKGROUND: Enhancers are distal cis-regulatory elements that play essential roles in gene regulation, development, and disease. Although numerous computational methods have been developed for enhancer identification, commonly used DNA encoding strategies, such as one-hot and k-mer representations, typically treat DNA as a linear symbolic sequence. This simplification ignores the intrinsic geometry of the DNA double helix, where nucleotides are organized along a periodic three-dimensional structure with a helical repeat of approximately 10-11 base pairs. To address this limitation, we propose HelixPR (Helix-aware Periodic Representation), a biologically motivated DNA sequence representation for enhancer identification. RESULTS: HelixPR augments per-nucleotide one-hot encoding with a sinusoidal periodic encoding using a period of [Formula: see text] base pairs. It further incorporates a global nucleotide-composition token to capture sequence-level compositional information complementary to local nucleotide patterns. Together, these components form a compact, interpretable, and information-preserving representation of DNA sequences. Combined with a lightweight one-dimensional convolutional neural network, HelixPR achieved competitive performance across benchmark datasets. On Liu's benchmark, HelixPR achieved an accuracy of 0.8434 and a Matthews correlation coefficient of 0.6874 for enhancer identification. For enhancer strength classification, HelixPR achieved an accuracy of 0.8400 and an AUC of 0.9346, outperforming baseline methods. On Basith's benchmark, HelixPR obtained a mean balanced accuracy of 0.9778, substantially outperforming existing methods. Further analysis showed that HelixPR supports closed-form decoding and that HelixPR-highlighted regions are enriched for known transcription-factor binding motifs, supporting both the interpretability and biological relevance of the proposed representation. CONCLUSIONS: These results suggest that incorporating the periodic structure of the DNA double helix can improve enhancer modeling. By combining nucleotide identity, helical periodicity, and global compositional information, HelixPR offers a biologically grounded framework for enhancer identification and related regulatory sequence prediction tasks.",
+  "abstract_zh": "背景：增强子（enhancers）是远端顺式调控元件，在基因调控、发育和疾病中发挥重要作用。尽管已有大量计算方法被开发用于增强子识别，但常用的DNA编码策略，如one-hot和k-mer表示，通常将DNA视为线性符号序列。这种简化忽略了DNA双螺旋的内在几何结构，其中核苷酸沿周期性三维结构排列，螺旋重复约为10-11个碱基对。为解决这一局限性，我们提出HelixPR（螺旋感知周期表示，Helix-aware Periodic Representation），一种基于生物学启发的DNA序列表示方法，用于增强子识别。结果：HelixPR通过使用周期为[公式：见原文]碱基对的正弦周期编码，增强逐核苷酸one-hot编码。它进一步整合了一个全局核苷酸组成标记，以捕获与局部核苷酸模式互补的序列级组成信息。这些组件共同形成一种紧凑、可解释且信息保持的DNA序列表示。结合轻量级一维卷积神经网络，HelixPR在基准数据集上取得了竞争性性能。在Liu基准上，HelixPR在增强子识别中实现了0.8434的准确率和0.6874的马修斯相关系数。对于增强子强度分类，HelixPR实现了0.8400的准确率和0.9346的AUC，优于基线方法。在Basith基准上，HelixPR获得了0.9778的平均平衡准确率，显著优于现有方法。进一步分析表明，HelixPR支持闭式解码，且HelixPR高亮区域富集已知转录因子结合基序，支持了所提出表示的可解释性和生物学相关性。结论：这些结果表明，整合DNA双螺旋的周期结构可以改善增强子建模。通过结合核苷酸身份、螺旋周期性和全局组成信息，HelixPR为增强子识别及相关调控序列预测任务提供了生物学基础框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43004209/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43004209/",
+  "paper_page_path": "papers/pubmed/43004209/index.html"
+}

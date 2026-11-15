@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42996448",
+  "title": "Carbonic anhydrase 4 restrains dual TLR4-NF-kappaB/IRF3 innate immune signaling and epithelial-mesenchymal transition in methotrexate-induced pulmonary fibrosis.",
+  "authors": "Liu, Ying; Fan, Rui",
+  "journal": "Frontiers in immunology",
+  "published_date": "2026-11-08",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究甲氨蝶呤诱导肺纤维化中CA4与TLR4信号通路，虽含分子对接和MD模拟，但核心是药物-蛋白结合与纤维化机制，非蛋白质-DNA互作或TF-DNA体系，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Methotrexate (MTX)-induced pulmonary fibrosis (MTX-PF) is the most severe and frequently irreversible manifestation of MTX pulmonary toxicity, yet the molecular target and signaling circuitry linking drug exposure to fibrosis remain undefined, hampering diagnosis and targeted intervention. METHODS: We integrated network toxicology, an ensemble of 112 machine-learning classifiers and SHapley Additive exPlanations (SHAP) with six GEO cohorts to nominate fibrotic-lung genes, which were intersected with predicted MTX targets to prioritize candidates relevant to MTX-PF. Lead candidates were validated by molecular docking, 100-ns molecular dynamics simulation, MM-PBSA binding free energy calculation and surface plasmon resonance (SPR). In vivo MTX-induced mouse models and in vitro BEAS-2B assays, including the Transwell migration/invasion, EdU proliferation, immunofluorescence, RT-qPCR, Western blotting, CA4 and TLR4 overexpression, and a CA4/TLR4 co-overexpression rescue experiment, were performed to assess the regulatory role of the top-ranked gene. RESULTS: Carbonic anhydrase 4 (CA4) ranked first by SHAP importance (0.120) and diagnostic performance (AUC = 0.879); the Ridge model discriminated training and validation cohorts (AUC = 0.930, 0.897 and 0.864). MTX bound stably to CA4 in silico (Vina -7.078 kcal/mol; MM-PBSA DeltaG(bind) -76.5 kJ/mol), and SPR detected concentration-dependent binding to recombinant CA4 (K(D) = 6.25 muM), identifying CA4 as a candidate direct binding partner. In MTX-treated mice, CA4 was downregulated while TLR4, collagen deposition and serum TNF-alpha, IL-6, IL-1beta, IFN-alpha and IFN-beta were elevated. In BEAS-2B cells, CA4 overexpression suppressed migration, invasion and proliferation, reversed MTX-induced upregulation of TLR4, NF-kappaB, IRF3, VIM, FN1 and COL1A1, and restored E-cadherin. Forced TLR4 overexpression reversed the protective effect of CA4 and re-established the inflammatory and mesenchymal phenotype. CONCLUSION: In MTX-PF, MTX directly binds CA4 in vitro. CA4 loss accompanies coordinate upregulation of the TLR4-NF-kappaB/IRF3 axis and an EMT program coupling epithelial injury to fibrogenesis, and CA4 restoration reverses this program in epithelial cells. Although TLR4 gain-of-function abrogated CA4-mediated suppression, its causal necessity remains untested. Given that TLR4 signaling is context-dependent and can facilitate inflammation resolution in some fibrosis models, therapeutic blockade requires careful attention to cell type and timing. CA4 thus represents a candidate molecular correlate and experimental target, pending clinical and in vivo validation.",
+  "abstract_zh": "背景：甲氨蝶呤（MTX）诱导的肺纤维化（MTX-PF）是MTX肺毒性中最严重且常不可逆的表现，但将药物暴露与纤维化联系起来的分子靶点和信号通路仍未明确，阻碍了诊断和靶向干预。方法：我们整合了网络毒理学、112个机器学习分类器集成和SHapley Additive exPlanations（SHAP）与六个GEO队列，以提名纤维化肺基因，并将其与预测的MTX靶点相交，以优先筛选与MTX-PF相关的候选基因。主要候选基因通过分子对接、100纳秒分子动力学模拟、MM-PBSA结合自由能计算和表面等离子体共振（SPR）进行验证。体内MTX诱导小鼠模型和体外BEAS-2B实验，包括Transwell迁移/侵袭、EdU增殖、免疫荧光、RT-qPCR、Western blotting、CA4和TLR4过表达，以及CA4/TLR4共过表达救援实验，用于评估排名最高基因的调控作用。结果：碳酸酐酶4（CA4）在SHAP重要性（0.120）和诊断性能（AUC = 0.879）中排名第一；Ridge模型区分了训练和验证队列（AUC = 0.930、0.897和0.864）。MTX在计算机模拟中与CA4稳定结合（Vina -7.078 kcal/mol；MM-PBSA DeltaG(bind) -76.5 kJ/mol），SPR检测到与重组CA4的浓度依赖性结合（K(D) = 6.25 μM），将CA4确定为候选直接结合伙伴。在MTX处理的小鼠中，CA4下调，而TLR4、胶原沉积和血清TNF-α、IL-6、IL-1β、IFN-α和IFN-β升高。在BEAS-2B细胞中，CA4过表达抑制迁移、侵袭和增殖，逆转MTX诱导的TLR4、NF-κB、IRF3、VIM、FN1和COL1A1上调，并恢复E-钙黏蛋白。强制TLR4过表达逆转了CA4的保护作用，并重新建立了炎症和间充质表型。结论：在MTX-PF中，MTX在体外直接结合CA4。CA4缺失伴随TLR4-NF-κB/IRF3轴的协调上调和将上皮损伤与纤维生成耦合的EMT程序，而CA4恢复在上皮细胞中逆转了这一程序。尽管TLR4功能获得性突变消除了CA4介导的抑制，但其因果必要性尚未测试。鉴于TLR4信号传导具有上下文依赖性，并且在某些纤维化模型中可促进炎症消退，治疗性阻断需谨慎考虑细胞类型和时机。因此，CA4代表了一个候选分子相关物和实验靶点，有待临床和体内验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42996448/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996448/",
+  "paper_page_path": "papers/pubmed/42996448/index.html"
+}

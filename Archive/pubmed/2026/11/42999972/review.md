@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors present EvoMOBO, an evolution-inspired multi-objective Bayesian optimization framework, and claim that it outperforms state-of-the-art methods on two complete protein fitness landscapes (steroid receptor DBD and ParD3 antitoxin), and that it successfully guides two enzyme engineering tasks (old yellow enzyme and formate oxidase) to experimentally improved functions using mechanism-derived descriptors.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or experimental protocols are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, experimental validation protocols, baseline comparisons, statistical analyses, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable framework for multi-objective protein engineering, with an interesting emphasis on mechanism-derived descriptors. However, the current evidence base is insufficient to evaluate the technical soundness of the method, the validity of the comparisons, or the robustness of the experimental claims. The reported improvements are striking, but without access to methodological detail and quantitative results, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in protein engineering, directed evolution, and computational enzyme design would be interested in a framework that combines multi-objective optimization with mechanistic descriptors. The potential to reduce experimental burden while improving multiple properties simultaneously is broadly relevant to synthetic biology and biocatalysis communities. The use of simulation-derived descriptors without experimental labels may also appeal to computational biologists seeking label-efficient approaches.
+- **Major strengths** The conceptual integration of evolution-inspired path-dependent generation with explicit multi-objective optimization is a sensible design choice. The emphasis on mechanism-derived descriptors, rather than purely sequence-based features, is a potentially important contribution. The demonstration across two distinct enzyme systems with different target properties (activity and stability) suggests generalizability. The claim of label-free optimization in the DBD landscape is notable if substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Compared with state-of-the-art methods on complete steroid receptor DNA-binding domain (DBD) and ParD3 antitoxin landscapes, EvoMOBO achieved greater target-region enrichment while maintaining sequence diversity across two- and three-objective tasks."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims superiority over state-of-the-art methods but provides no quantitative metrics, no specification of which methods were compared, no statistical significance testing, and no details on how "target-region enrichment" and "sequence diversity" were defined or measured.
+  - **Why it matters** Without defined metrics and appropriate statistical comparisons, the claimed advantage cannot be assessed. The choice of baselines and evaluation criteria strongly influences any comparative claim in optimization benchmarks.
+  - **Resolution test** Provide a benchmark table with defined metrics, error bars or confidence intervals, and a clear description of baseline methods and hyperparameters. Statistical tests should be reported where applicable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** "We developed evolution-inspired multi-objective Bayesian optimization (EvoMOBO), an active-learning framework that integrates path-dependent sequence generation, global candidate competition, and explicit multi-objective optimization."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract names three components of the framework but provides no algorithmic description, no pseudocode, no details on acquisition functions, surrogate models, or how "path-dependent" and "global competition" are implemented. Reproducibility is impossible from the supplied material.
+  - **Why it matters** A methodological contribution must be described with sufficient precision for others to implement and test it. The novelty claim rests on the specific algorithmic design, which is not visible.
+  - **Resolution test** Provide a full methods section with algorithmic pseudocode, hyperparameter choices, and a statement on code availability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "For an old yellow enzyme from Geobacillus kaustophilus, probabilities of substrate binding and reaction preorganization guided optimization of a non-native oxidative dehydrogenation, yielding a variant that increased substrate conversion from 17.5% to 95%. For a formate oxidase from Aspergillus oryzae, stability-related descriptors identified aggregation-resistant variants that nearly doubled diethyl phthalate degradation in a photoenzymatic cascade."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports large experimental improvements but provides no information on the number of variants tested, the number of optimization rounds, the reproducibility of the measurements, the error bars, or the controls used. The claim that descriptors "guided" the optimization is not supported by any causal evidence.
+  - **Why it matters** Large effect sizes without experimental detail can be misleading. The absence of replication data and controls prevents assessment of whether the reported improvements are robust or artefactual.
+  - **Resolution test** Provide experimental methods with replicate numbers, error bars, statistical tests, and a clear description of how the final variants were selected and validated.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Together, these results demonstrate robust multi-objective optimization by EvoMOBO and show that mechanism-derived descriptors can effectively guide protein engineering toward experimentally improved functions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of "robust" optimization is based on two enzyme systems and two benchmark landscapes. The abstract does not discuss limitations, failure modes, or conditions under which the method might underperform.
+  - **Why it matters** Generalizability claims require evidence across diverse systems and an honest discussion of limitations. Without this, the scope of the contribution is unclear.
+  - **Resolution test** Add a limitations section and, if possible, additional case studies or a negative control demonstrating where the method fails or underperforms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "evolution-inspired" is used but not defined. It is unclear whether this refers to evolutionary algorithms, natural evolution principles, or a specific algorithmic mechanism.
+  - **Required correction** Define the term explicitly in the introduction or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Descriptor details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "simulation-derived geometric descriptors" and "mechanistic descriptors" but does not specify what these are or how they were computed.
+  - **Required correction** Provide a brief description of the descriptor types and their computation in the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not situate EvoMOBO relative to existing multi-objective Bayesian optimization methods for protein engineering.
+  - **Required correction** Add a sentence in the introduction or discussion that explicitly differentiates EvoMOBO from prior work.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The comparative claim, the algorithmic description, and the experimental validation are all insufficiently supported by the supplied material.
+- **Assessment against Nature-style criteria** Originality: The combination of evolution-inspired path-dependent generation with mechanism-derived descriptors appears conceptually novel, but the abstract does not provide enough detail to assess the degree of novelty relative to existing methods. Scientific importance: The potential to reduce experimental burden in multi-objective protein engineering is significant, but the importance is not yet demonstrated with robust evidence. Interdisciplinary readership: The work bridges machine learning, protein engineering, and enzymology, which could appeal to a broad audience, but the abstract is too technical in places without sufficient context for nonspecialists. Technical soundness: Not assessable from the abstract alone; the lack of algorithmic and experimental detail is a major barrier. Readability for nonspecialists: The abstract is reasonably clear in its high-level claims but uses terms such as "path-dependent sequence generation" and "global candidate competition" without explanation, which may hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual direction is promising, and the reported results are potentially impactful, but the abstract alone does not provide sufficient methodological or experimental detail to support the claims. A full manuscript with complete methods, benchmark results, and experimental validation would be required to assess the contribution properly.

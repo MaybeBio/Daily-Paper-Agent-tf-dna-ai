@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43012827",
+  "title": "Comprehensive identification of lactate metabolism-related genes in recurrent spontaneous abortion: An observational study integrating bioinformatics and experimental validation.",
+  "authors": "Tang, Daili; Chen, Lin; Zheng, Huiling; Huang, Zhi; Lai, Ting",
+  "journal": "Medicine",
+  "published_date": "2026-11-11",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过生物信息学与实验验证识别复发性流产中乳酸代谢相关基因，虽构建了转录因子调控网络，但核心是疾病基因筛选而非蛋白质-DNA互作建模，且无AI/物理模拟方法。",
+  "abstract": "Recurrent spontaneous abortion (RSA) is a complex multifactorial disease. Lactate metabolism (LM) has been implicated in RSA pathogenesis, but the underlying molecular mechanisms remain unclear. This observational study aimed to identify key LM-related genes (LM-RGs) in RSA and explore their potential regulatory mechanisms and therapeutic targets. The study combined bioinformatics analysis with experimental validation. The training dataset GSE26787 and validation dataset GSE165004 were obtained from the Gene Expression Omnibus database. Differentially expressed genes were identified using the limma package. Candidate LM-RGs were obtained by intersecting differentially expressed genes with 262 LM-RGs from the Gene Set Enrichment Analysis database. Hub genes were identified through protein-protein interaction network analysis using the CytoHubba plugin (National Cheng Kung University). Key genes were further screened using Boruta and random forest machine learning algorithms, followed by expression validation in both Gene Expression Omnibus datasets. Reverse transcription-quantitative polymerase chain reaction was performed on 10 RSA and 10 control endometrial samples to validate key gene expression. Gene set enrichment analysis and gene set variation analysis were conducted to explore functional pathways. Regulatory networks involving microRNAs, long noncoding RNAs, and transcription factors were constructed, and potential therapeutic drugs were predicted using the Drug Signatures Database. CALR (upregulated) and PIEZO1 (downregulated) were identified as key genes in RSA and were functionally linked to pathways such as cytokine signaling. Furthermore, we delineated a regulatory network governing these genes, implicating the long noncoding RNA X-inactive specific transcript and shared transcription factors, including MYC proto-oncogene, bHLH transcription factor and vitamin D receptor. We propose several candidate drugs, including estradiol, predicted to target both CALR and PIEZO1. This study identifies CALR and PIEZO1 as key LM-RGs in RSA, with significant dysregulation confirmed in clinical samples. These genes are involved in cytokine signaling pathways and are regulated by complex molecular networks. The identification of common targeting drugs provides a foundation for developing novel therapeutic strategies for RSA. Further studies are warranted to validate these findings and explore their clinical applications.",
+  "abstract_zh": "复发性自然流产（RSA）是一种复杂的多因素疾病。乳酸代谢（LM）已被认为与RSA的发病机制相关，但其潜在的分子机制仍不清楚。本观察性研究旨在识别RSA中的关键乳酸代谢相关基因（LM-RGs），并探讨其潜在的调控机制和治疗靶点。该研究结合了生物信息学分析与实验验证。训练数据集GSE26787和验证数据集GSE165004来自基因表达综合数据库。使用limma包识别差异表达基因。通过将差异表达基因与基因集富集分析数据库中的262个LM-RGs取交集，获得候选LM-RGs。使用CytoHubba插件（国立成功大学）通过蛋白质-蛋白质相互作用网络分析识别核心基因。进一步使用Boruta和随机森林机器学习算法筛选关键基因，并在两个基因表达综合数据集中进行表达验证。对10个RSA和10个对照子宫内膜样本进行逆转录定量聚合酶链反应，以验证关键基因的表达。进行基因集富集分析和基因集变异分析以探索功能通路。构建了涉及微小RNA、长链非编码RNA和转录因子的调控网络，并使用药物签名数据库预测潜在治疗药物。CALR（上调）和PIEZO1（下调）被确定为RSA中的关键基因，并在功能上与细胞因子信号传导等通路相关。此外，我们描绘了调控这些基因的调控网络，涉及长链非编码RNA X失活特异性转录本及共享转录因子，包括MYC原癌基因、bHLH转录因子和维生素D受体。我们提出了几种候选药物，包括雌二醇，预测可同时靶向CALR和PIEZO1。本研究将CALR和PIEZO1确定为RSA中的关键LM-RGs，并在临床样本中确认了其显著失调。这些基因参与细胞因子信号传导通路，并受复杂分子网络调控。共同靶向药物的识别为开发RSA的新型治疗策略奠定了基础。需要进一步研究以验证这些发现并探索其临床应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43012827/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43012827/",
+  "paper_page_path": "papers/pubmed/43012827/index.html"
+}

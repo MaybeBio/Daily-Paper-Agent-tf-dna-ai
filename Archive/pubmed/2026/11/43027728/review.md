@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report identification of eight CAMTA family genes in *Paulownia fortunei*, characterization of their structural and evolutionary features, tissue-specific expression under salt stress, identification of PfCAMTA5 as a salt-responsive candidate, evidence for a potential PfCAMTA5-PfCML28 interaction, and functional data from transient overexpression in tobacco suggesting improved salt tolerance.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or primary data are available for verification
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, sequence accession numbers, expression data, interaction assay controls, and overexpression experimental protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a systematic genome-wide identification of the CAMTA gene family in *P. fortunei* and provides preliminary functional evidence for PfCAMTA5 in salt-stress responses. The work is potentially of interest to researchers studying plant stress signaling and transcription factor families in woody species. However, the abstract alone does not provide sufficient detail to evaluate the robustness of the experimental approaches, the quality of the data, or the strength of the conclusions. Several claims, particularly regarding the PfCAMTA5-PfCML28 interaction and the salt-tolerance phenotype, require careful scrutiny of the underlying evidence.
+- **Who would be interested in the results, and why** Plant molecular biologists studying calcium signaling and transcription factor networks in stress responses; researchers working on woody plant stress physiology; those interested in comparative genomics of transcription factor families across plant species. The identification of a candidate gene for salt tolerance in a tree species may also be relevant to applied forestry research.
+- **Major strengths** The study addresses a gap in knowledge regarding CAMTA family members in *P. fortunei*, a species of economic and ecological importance. The combination of genome-wide identification, phylogenetic analysis, expression profiling, and functional assays represents a comprehensive approach. The use of multiple complementary methods, including molecular docking and Y2H assays for interaction testing and transient overexpression for functional validation, strengthens the overall design.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Transient overexpression of PfCAMTA5 in tobacco improved salt tolerance, as reflected by enhanced photosynthesis, higher antioxidant enzyme activities, and reduced membrane damage, and up-regulation of stress-responsive genes."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract reports a salt-tolerance phenotype from transient overexpression in tobacco but provides no information on the experimental design, including the number of biological replicates, the statistical methods used, the specific salt concentrations and exposure durations, or the choice of tobacco as a heterologous system. Transient expression systems can produce variable results, and the physiological relevance of such assays for predicting function in the native species is limited.
+  - **Why it matters** The central functional claim of the paper rests on this overexpression experiment. Without details on experimental rigor and statistical support, the conclusion that PfCAMTA5 confers salt tolerance cannot be adequately assessed.
+  - **Resolution test** Provide full experimental details including construct design, transformation method, number of replicates, statistical analyses, and dose-response data. Show representative images and quantitative data for all physiological parameters measured.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular docking and Y2H assays suggested a potential interaction between PfCAMTA5 and the salt-responsive calcium sensor PfCML28."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract states that molecular docking and Y2H assays "suggested" an interaction, but no details are given regarding the Y2H constructs, the controls used, the docking methodology, or the scoring criteria. Y2H assays are prone to false positives, and molecular docking predictions require experimental validation. The tentative language used in the abstract is appropriate, but the evidence base cannot be evaluated.
+  - **Why it matters** The proposed PfCAMTA5-PfCML28 interaction is a mechanistic link in the proposed salt-stress regulatory network. If this interaction is not robustly demonstrated, the proposed model is weakened.
+  - **Resolution test** Provide full Y2H data including positive and negative controls, quantitative interaction measurements, and details of the docking protocol and scoring. Ideally, include an independent validation method such as co-immunoprecipitation or BiFC.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "PfCAMTA5 emerging as the most prominent salt-responsive candidate, showing broad induction across tissues and the highest transcript abundance."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract identifies PfCAMTA5 as the most prominent salt-responsive candidate based on expression data, but no information is provided on the magnitude of induction, the statistical significance of the differences between genes, or the biological relevance of the expression levels. The criteria for "most prominent" are not defined.
+  - **Why it matters** The prioritization of PfCAMTA5 for downstream functional analysis is a key decision point in the study. If the expression data do not robustly support this choice, the rationale for the functional experiments is weakened.
+  - **Resolution test** Provide quantitative expression data with statistical comparisons across all eight genes and tissues, including effect sizes and significance thresholds.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract opens with a general statement about CAMTA transcription factors without providing context for readers unfamiliar with this family. A brief explanation of what CAMTA proteins do and why they matter in stress responses would improve accessibility.
+  - **Required correction** Add one sentence providing context on the biological role of CAMTA transcription factors in plants.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Gene identification claim
+  - **Evidence pointer** Abstract, "we identified eight CAMTA family genes"
+  - **Issue** The abstract does not specify the criteria used for gene identification, such as the presence of conserved domains, sequence similarity thresholds, or the genome assembly version used.
+  - **Required correction** Briefly state the identification criteria in the abstract or refer to the methods section with specific parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion framing
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The final sentence states that PfCAMTA5 "may play a potential role" in salt tolerance, which is appropriately cautious, but the phrase "provide a foundation for further investigation" is generic and does not specify what specific questions remain.
+  - **Required correction** Specify the key unresolved questions, such as the mechanism of PfCAMTA5 action or its relevance in stable transgenic lines.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The functional claim for salt tolerance and the proposed protein interaction are central to the paper's contribution and cannot be evaluated from the abstract alone. The expression-based prioritization of PfCAMTA5 (R1-M3) is also important but less critical.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study appears to be the first genome-wide characterization of the CAMTA family in *P. fortunei*, which is a novel contribution for this species. However, CAMTA family analyses have been reported in other plant species, so the conceptual novelty is incremental.
+  - **Scientific importance** The work addresses a relevant question in plant stress biology, but the significance is limited by the preliminary nature of the functional data and the use of a heterologous overexpression system. The potential relevance to forestry applications adds some importance.
+  - **Interdisciplinary readership** The topic is primarily of interest to plant molecular biologists and stress physiologists. The broader interdisciplinary appeal is limited.
+  - **Technical soundness** Cannot be adequately assessed from the abstract. The blocking concerns regarding the functional assays and interaction data must be resolved.
+  - **Readability for nonspecialists** The abstract is generally clear but could benefit from additional context for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable study design and potentially interesting findings, but the lack of experimental detail prevents verification of the central claims. The authors should be encouraged to provide the full manuscript for review, with particular attention to the functional overexpression data and the interaction evidence.
+
+## Risk / unsupported claims
+- The claim that PfCAMTA5 overexpression improves salt tolerance is unsupported without experimental details and statistical analysis.
+- The proposed PfCAMTA5-PfCML28 interaction is not verifiable from the abstract alone.
+- The designation of PfCAMTA5 as the "most prominent" salt-responsive candidate is not supported by quantitative data.
+- The statement that all PfCAMTA proteins contain conserved CG-1, ANK, and IQ domains is plausible but not verifiable without sequence alignments.
+- The evolutionary relationships described cannot be evaluated without phylogenetic trees and synteny data.

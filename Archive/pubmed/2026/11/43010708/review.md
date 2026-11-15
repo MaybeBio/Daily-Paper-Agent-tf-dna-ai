@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors state that static X-ray structures cannot explain allosteric effects of P-site inhibitors on TEAD; molecular dynamics simulations suggest that inhibitors populate a closed conformation between Y361 and S328 at the YAP-TEAD interface 2, consistently across inhibitors and TEAD subtypes; simulations further suggest that YAP binding is associated with opening of this region, consistent with palmitic acid effects; the authors conclude that P-site binders may inhibit YAP binding by allosterically modulating interface 2.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup, convergence criteria, statistical analyses, structural validation, and any comparison with experimental binding data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis regarding an allosteric mechanism for P-site inhibitors of TEAD. However, the evidence base available for review is limited to the abstract, which precludes any rigorous assessment of the technical soundness of the simulations, the statistical robustness of the conclusions, or the validity of the comparisons made with experimental structures. The central claim that inhibitors populate a closed conformation at interface 2 is stated as consistent across inhibitors and subtypes, but no quantitative data are provided to support this assertion. The connection to palmitic acid effects and the proposed mechanistic link to YAP binding inhibition are intriguing but remain insufficiently substantiated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in cancer biology and drug discovery, particularly those focused on the Hippo signaling pathway, TEAD transcription factors, and allosteric modulation of protein-protein interactions. The work may also interest computational chemists studying the mechanisms of action of small-molecule inhibitors through molecular dynamics simulations.
+- **Major strengths** The hypothesis is mechanistically interesting and addresses a gap in understanding of how P-site binders exert their effects. The use of multiple inhibitors and TEAD subtypes, if properly validated, would strengthen the generality of the findings. The connection to palmitic acid provides a comparative anchor that could contextualize the observed conformational changes.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that molecular dynamics simulations are consistent with inhibitors populating a closed conformation between Y361 and S328 at the YAP-TEAD interface 2.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no information on simulation length, number of replicates, force field parameters, system size, or convergence criteria. Without these details, it is impossible to assess whether the observed conformational states are statistically meaningful or artifacts of insufficient sampling.  
+  - **Why it matters** Molecular dynamics simulations are only as reliable as their setup and sampling. If the simulations are too short or under-sampled, the claimed population of a closed conformation could be a transient or biased observation rather than a robust finding.  
+  - **Resolution test** Provide simulation details including total simulation time per system, number of independent replicates, force field and water model, temperature and pressure coupling schemes, and convergence metrics such as RMSD stability and free energy profiles. Show that the closed conformation is reproducibly populated across replicates and that the population is statistically distinguishable from the open state.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength  
+  - **Claim pointer** The authors state that allosteric effects of cocrystalized inhibitors in TEAD cannot be explained by static X-ray structures.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract asserts a limitation of static structures without presenting any comparative analysis. It is unclear what specific features of the X-ray structures were examined, how the allosteric effects were defined, or what criteria were used to conclude that static information is insufficient.  
+  - **Why it matters** This claim forms the rationale for the entire simulation study. If the analysis of X-ray structures is incomplete or the criteria for insufficiency are not clearly defined, the motivation for the simulations is weakened.  
+  - **Resolution test** Present a systematic comparison of relevant X-ray structures, including metrics such as interface distances, conformational states, and inhibitor binding modes. Define the specific allosteric effects that are not captured by static structures and show how the simulations address these gaps.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The authors claim that YAP binding appears to be associated with the opening of the region between Y361 and S328, consistent with the effect of palmitic acid.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify how YAP binding was simulated or how palmitic acid effects were modeled. It is unclear whether YAP was included in the simulations, whether palmitic acid was simulated in the same systems, or whether this consistency is based on qualitative comparison with prior experimental data.  
+  - **Why it matters** This claim is central to the proposed mechanism that inhibitors and YAP binding have opposing effects on interface 2. Without clear evidence of how these conditions were simulated and compared, the mechanistic conclusion is not established.  
+  - **Resolution test** Describe the simulation systems for YAP-bound TEAD and palmitic acid-treated TEAD, including how YAP and palmitic acid were modeled. Provide quantitative measures of interface opening, such as distance distributions between Y361 and S328, and show statistical comparisons between inhibitor-bound, YAP-bound, and palmitic acid-treated conditions.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors claim that the effect is consistent among different inhibitors and different TEAD subtypes.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify how many inhibitors or TEAD subtypes were tested, nor does it provide any quantitative comparison of the observed effects across these conditions.  
+  - **Why it matters** The generality of the finding is a key strength if properly demonstrated. Without data on the number of systems and the variability of the observed effects, the claim of consistency cannot be evaluated.  
+  - **Resolution test** List the inhibitors and TEAD subtypes studied, and provide a table or figure showing the population of the closed conformation for each system, including error bars or confidence intervals. Show that the effect is statistically significant across all tested conditions.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "closed conformation in between Y361 and S328" is ambiguous. It is unclear whether this refers to a distance reduction between these two residues, a change in the local secondary structure, or a global conformational change.  
+  - **Required correction** Define the structural metric used to characterize the closed conformation, such as the C-alpha distance between Y361 and S328, and specify the threshold used to classify a state as closed.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Mechanistic interpretation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that inhibitors "may inhibit YAP binding by allosterically modulating" interface 2, but does not discuss whether the proposed mechanism is supported by any experimental validation or whether it remains purely speculative.  
+  - **Required correction** Clarify whether any experimental data, such as mutagenesis or binding assays, support the proposed mechanism, or explicitly state that the conclusion is based solely on simulation evidence.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract moves from a general statement about cancer to a specific mechanistic claim without providing context on the biological relevance of interface 2 or the functional consequences of its closure.  
+  - **Required correction** Add one or two sentences explaining why the closure of interface 2 is biologically significant and how it relates to TEAD-YAP function in cancer.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient methodological detail or quantitative evidence to establish the central claims. Without access to the full manuscript, the technical soundness of the simulations and the statistical validity of the conclusions cannot be assessed.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The hypothesis that P-site inhibitors act by allosterically modulating interface 2 is a novel angle that could differentiate this work from prior studies focused on direct competition or rigidification. However, the abstract does not clearly position this against existing literature on TEAD allosteric regulation.  
+  - **Scientific importance** The TEAD-YAP interaction is a validated cancer target, and understanding the mechanism of action of P-site inhibitors could inform drug development. The potential to explain how inhibitors that do not directly bind the interface still affect YAP binding is scientifically valuable.  
+  - **Interdisciplinary readership** The work bridges structural biology, computational chemistry, and cancer biology. If the findings are robust, they could appeal to a broad audience interested in allosteric mechanisms and protein-protein interaction inhibition.  
+  - **Technical soundness** Not assessable from the abstract alone. The lack of methodological detail is a significant limitation for evaluating this criterion.  
+  - **Readability for nonspecialists** The abstract is concise and generally accessible, but the mechanistic claims would benefit from clearer definitions of the structural states and their biological relevance.  
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the direction of the work is promising, but the abstract alone does not provide sufficient methodological detail or quantitative support to validate the central claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that static X-ray structures cannot explain allosteric effects is unsupported without a detailed comparative analysis.
+- The claim that inhibitors populate a closed conformation at interface 2 is unsupported without simulation details and quantitative population data.
+- The claim that YAP binding is associated with opening of the region is unsupported without description of the YAP-bound simulation system.
+- The claim of consistency across inhibitors and TEAD subtypes is unsupported without a list of tested systems and statistical comparisons.
+- The proposed mechanism that P-site binders inhibit YAP binding by allosteric modulation is speculative and not validated by experimental data.

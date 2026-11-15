@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present ModBERT, a DNA language model that uses a five-letter probabilistic genome representation (A, C, G, T, M for 5mC) to jointly encode genetic variants and CpG methylation. Pretraining uses population allele frequencies and methylation levels from 242 individuals in the 1000 Genomes Long-Read Sequencing Consortium, with a soft-target masked language modeling objective. A proposed probabilistic fine-tuning framework encodes an individual's genotype and methylation, enabling person-specific predictions. The model is reported to outperform baselines in classifying histone mark and transcription factor binding ChIP-seq peaks, to predict chromatin accessibility at held-out loci in held-out individuals (AUROC 0.88), and to produce variant effect predictions correlating with causal caQTLs (Spearman correlation = 0.52) but not with linkage-associated variants.
+- **Visible evidence base** Abstract text only; no quantitative results beyond the two reported metrics (AUROC 0.88, Spearman 0.52), no baseline descriptions, no dataset splits, no statistical significance measures, no methodological details
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, pretraining and fine-tuning hyperparameters, baseline model specifications, evaluation protocols, data preprocessing details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract describes a conceptually interesting and timely contribution that addresses a genuine gap in DNA language modeling, namely the joint representation of genetic variation and methylation. The proposed probabilistic representation and fine-tuning framework are novel in principle. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the approach or the robustness of the reported results. Several claims are made without supporting quantitative detail, and the evaluation design, while described, cannot be verified from the supplied material. The work has potential, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational genomics, particularly those working on DNA language models, epigenomics, and personal-genome interpretation. The work is also relevant to groups developing long-read sequencing analysis tools and to those interested in variant effect prediction and regulatory genomics. The proposed framework could appeal to a broad readership in genomics and machine learning, given the growing interest in foundation models for biological sequences.
+- **Major strengths** The problem addressed is well motivated and timely, as existing DNA language models largely ignore genetic variation and methylation. The five-letter probabilistic representation is a conceptually clean extension of standard DNA tokenization. The proposed probabilistic fine-tuning framework is a novel contribution that could enable person-specific predictions. The evaluation design that separates generalization to new loci from generalization to new individuals is a thoughtful approach. The reported correlation with causal caQTLs but not linkage-associated variants suggests a meaningful biological signal.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ModBERT outperforms ab initio trained models and ModBERT pretrained on sequences without methylation in classifying histone mark and TF binding ChIP-seq peaks.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that ModBERT outperforms baselines but provides no quantitative comparison, no baseline specifications, no number of test loci or individuals, and no statistical significance measures. Without these details, the claim cannot be evaluated.
+  - **Why it matters** The central value proposition of the model depends on demonstrating a clear advantage over existing approaches. An unsupported performance claim undermines the credibility of the entire contribution.
+  - **Resolution test** Provide a table or figure with performance metrics (e.g., AUROC, AUPRC) for ModBERT and each baseline across all 11 histone marks and 69 TFs, with confidence intervals and significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ModBERT predicts chromatin accessibility at held-out loci in held-out individuals with AUROC 0.88.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** A single AUROC value is reported without context. It is unclear what the baseline AUROC is, how many loci and individuals were held out, whether the result is consistent across individuals, and what the variance is. The AUROC alone does not establish that the model generalizes meaningfully.
+  - **Why it matters** Generalization to new individuals is a key claimed advantage of the probabilistic fine-tuning framework. Without a baseline comparison and variance estimates, the reported AUROC could reflect trivial signal or dataset-specific artifacts.
+  - **Resolution test** Report AUROC with confidence intervals, compare against appropriate baselines (e.g., a model trained without methylation, a model fine-tuned on reference genomes), and show performance stratified by individual and locus.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that predicted variant effects agree with likely causal caQTLs (Spearman correlation = 0.52) but not with variants associated only through linkage.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The Spearman correlation is reported without the number of variants tested, the definition of "likely causal" caQTLs, the method for assigning causal status, or a comparison against other variant effect prediction methods. The negative result for linkage-associated variants is interesting but cannot be assessed without details on how linkage was defined.
+  - **Why it matters** Variant effect prediction is a major potential application of the model. The reported correlation needs context to determine whether it is competitive with existing methods and whether the distinction between causal and linkage-associated variants is robust.
+  - **Resolution test** Provide a detailed description of the caQTL dataset, the causal variant assignment procedure, the number of variants tested, and a comparison with existing variant effect predictors (e.g., Enformer, Basenji, or other DNA language models).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall claim that ModBERT establishes a framework for personal-genome language modeling.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no details on the model architecture, tokenization scheme, pretraining data processing, or fine-tuning procedure. The five-letter probabilistic representation is described conceptually, but the implementation is not specified. This makes the work irreproducible from the supplied material.
+  - **Why it matters** Reproducibility is a core requirement for computational biology contributions. Without methodological detail, other groups cannot build on or validate the approach.
+  - **Resolution test** Provide a complete methods section describing the model architecture, training objectives, data processing, hyperparameters, and code availability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "five-letter probabilistic genome representation" is used without explaining how the probabilities are derived from the 242-individual cohort. It is unclear whether the probabilities are averaged across individuals or computed per position in a reference frame.
+  - **Required correction** Clarify how the probabilistic representation is constructed from the cohort data, including whether it is a population-level average or an individual-specific encoding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "ab initio trained models" and "ModBERT pretrained on sequences without methylation" as baselines, but does not specify what the ab initio models are or how they were trained.
+  - **Required correction** Specify the ab initio baseline architectures and training procedures, or refer to a methods section where these are described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Evaluation design
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The evaluation design that separates generalization to new loci from generalization to new individuals is described in one sentence. It is unclear whether the model is trained on some individuals and tested on others, or whether loci are split within individuals.
+  - **Required correction** Provide a clear description of the train-validation-test split in terms of both loci and individuals.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** In silico perturbation description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The in silico methylation perturbation experiment is mentioned but not described. It is unclear how perturbations were applied and how TF sensitivities were computed.
+  - **Required correction** Describe the perturbation procedure and the correlation analysis with methylation-aware motif models in the methods or results.
+
+## Risk / unsupported claims
+- The claim that ModBERT outperforms ab initio trained models and methylation-free pretrained models is unsupported without quantitative comparisons.
+- The reported AUROC of 0.88 for held-out loci and individuals is unverifiable without baseline comparisons, confidence intervals, and dataset details.
+- The Spearman correlation of 0.52 with causal caQTLs is unverifiable without the number of variants, the causal assignment method, and comparisons to existing methods.
+- The claim that predicted variant effects do not agree with linkage-associated variants is unverifiable without details on linkage definition and the variant set.
+- The overall framework claim of personal-genome language modeling is not assessable from the abstract alone, as the methodological details are absent.
+- The in silico methylation perturbation results and their correlation with methylation-aware motif models are not assessable without experimental details.

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that formononetin, a compound from *Glycyrrhiza glabra* L., inhibits MRSA biofilm formation, disrupts established biofilm, reduces hemolytic activity, improves survival of infected *G. mellonella* larvae, and acts synergistically with certain antibiotics. They propose a mechanism involving binding to the global regulator SarA at residue D20, supported by molecular docking, microscale thermophoresis, and electrophoretic mobility shift assays, and by proteomic evidence of modulation of SarA-related pathways.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or figure/table references provided
+- **Missing materials affecting confidence** Full methods, all quantitative results, statistical parameters, strain information, concentrations and dose ranges, control conditions, raw proteomic data, docking validation details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting natural product with anti-biofilm activity against MRSA and proposes a specific molecular target. However, the evidence as presented is insufficient to establish the mechanistic claim regarding SarA, and several key experimental details are absent. The work may be of interest to researchers in antimicrobial drug discovery and biofilm biology, but the current abstract does not provide enough information to assess technical rigor or reproducibility.
+- **Who would be interested in the results, and why** Researchers working on antimicrobial resistance, particularly those focused on MRSA biofilm eradication, natural product screening, and virulence factor regulation. The proposed SarA-mediated mechanism may also interest investigators studying staphylococcal global regulators and their potential as drug targets.
+- **Major strengths** The study addresses a clinically relevant problem, MRSA biofilm formation, and identifies a natural compound with multiple reported anti-virulence effects. The combination of phenotypic assays, in vivo infection modeling, and molecular interaction studies suggests a broad experimental approach. The inclusion of a mutant SarA variant to test binding specificity is a commendable design element.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract claims that formononetin acts via SarA-associated regulatory modulation, specifically through binding at residue D20.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The mechanistic claim rests on docking, microscale thermophoresis, and electrophoretic mobility shift assay results, but no quantitative data are provided. The binding score of -6.176 kcal/mol is presented without context, and no affinity constants, error estimates, or statistical comparisons are given. The statement that the SarAD20A mutant shows reduced affinity without affecting DNA-binding activity is not supported by any numerical values.
+  - **Why it matters** Without quantitative binding data and appropriate controls, the claim that formononetin specifically targets SarA at D20 cannot be evaluated. The functional relevance of this interaction to the observed phenotypic effects is also not established.
+  - **Resolution test** Provide binding affinity values (e.g., Kd) for wild-type and mutant SarA with formononetin, including replicates and statistical analysis. Demonstrate that the D20A mutation does not globally disrupt SarA structure or function, and show that the observed phenotypic effects are dependent on SarA, for example through complementation or sarA mutant strains.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dose-response and efficacy
+  - **Claim pointer** The abstract states that formononetin significantly inhibited biofilm formation, disrupted sessile biofilm, and reduced hemolytic activity in a dose-dependent manner.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No concentrations, effective doses, or quantitative measures of inhibition are reported. The term "significant" is used without statistical parameters. The in vivo survival data in *G. mellonella* are described only qualitatively.
+  - **Why it matters** Dose-response relationships and statistical significance are essential for evaluating the practical utility of formononetin. Without these data, the magnitude of the effect and its potential clinical relevance cannot be assessed.
+  - **Resolution test** Report the concentration range tested, the minimum inhibitory or anti-biofilm concentration, percent inhibition values with error bars, and statistical tests used. For the in vivo model, provide survival curves, bacterial load counts, and melanization scores with appropriate statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Synergy interpretation
+  - **Claim pointer** The abstract claims synergistic effects with oxacillin, ampicillin, and streptomycin based on FICI values of 0.5 or less.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The FICI threshold for synergy is stated, but no details on the checkerboard methodology, the strains used, or the reproducibility of the results are provided. The clinical relevance of the synergy is not discussed.
+  - **Why it matters** Synergy claims require careful methodological validation, and the abstract does not allow the reader to determine whether the observed FICI values are robust or whether they translate to meaningful therapeutic benefits.
+  - **Resolution test** Provide the checkerboard assay details, including strain information, concentration ranges, and replicate numbers. Discuss whether the synergistic concentrations are achievable in vivo and whether the combination reduces toxicity or improves efficacy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Proteomic profiling statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The statement that proteomic profiling showed modulation of SarA and SarA-related pathways such as scdA and agrC is vague. It is unclear whether these are up- or down-regulated, and the magnitude of changes is not given.
+  - **Required correction** Specify the direction and magnitude of changes for SarA, ScdA, and AgrC, and indicate how these changes relate to the proposed mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound source and purity
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that formononetin was identified from *Glycyrrhiza glabra* L., but does not specify whether it was isolated or purchased, nor its purity.
+  - **Required correction** State the source of formononetin, its purity, and how it was verified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model relevance
+  - **Affected element** In vivo model
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The use of *G. mellonella* larvae is mentioned, but the relevance of this model to human MRSA infection is not discussed.
+  - **Required correction** Add a brief statement on the limitations and translational relevance of the *G. mellonella* model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The mechanistic claim regarding SarA binding and the phenotypic efficacy claims both lack the quantitative data necessary for evaluation. The synergy claim (R1-M3) is also insufficiently supported but is not blocking if the primary claims are addressed.
+- **Assessment against Nature-style criteria**  
+  - Originality: The use of formononetin against MRSA biofilm is not entirely novel, as isoflavonoids have been studied for antimicrobial properties, but the specific focus on SarA as a target may offer some originality.  
+  - Scientific importance: The problem of MRSA biofilm is important, and identifying new anti-biofilm agents is of value. However, the abstract does not demonstrate that formononetin offers advantages over existing approaches.  
+  - Interdisciplinary readership: The work spans microbiology, natural product chemistry, and molecular biology, which could attract a broad audience, but the abstract is too brief to engage specialists in any of these fields.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The absence of quantitative data and methodological details prevents evaluation.  
+  - Readability for nonspecialists: The abstract is generally readable, but terms such as FICI, SarA, and electrophoretic mobility shift assay may be unfamiliar to some readers without context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising directions, but the lack of quantitative data and methodological detail means the claims cannot be verified. If the full manuscript provides the missing information and addresses the blocking concerns, the work could be considered supportive.
+
+## Risk / unsupported claims
+- The claim that formononetin binds SarA at residue D20 is unsupported without quantitative binding data and structural validation.
+- The claim that formononetin modulates SarA-related pathways is unsupported without specific proteomic results.
+- The claim of synergy with antibiotics is unsupported without methodological details and replicate data.
+- The in vivo efficacy claim in *G. mellonella* is unsupported without survival curves, bacterial load data, and statistical analysis.
+- The overall conclusion that formononetin holds promise as a natural agent against MRSA biofilm is a reasonable inference but is not substantiated by the evidence presented in the abstract.

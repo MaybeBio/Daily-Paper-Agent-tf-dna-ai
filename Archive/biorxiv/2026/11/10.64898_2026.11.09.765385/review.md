@@ -1,0 +1,91 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no evaluation of methods, data, or figures beyond what is summarized
+- **Shared manuscript claim summary** The abstract claims that the SOX9 C-terminus contains an intrinsically disordered module that recruits SMARCB1-containing canonical BAF (cBAF) to stem-like enhancers during APC-mutant adenoma formation; acute SOX9 degradation displaces cBAF from co-bound enhancers and collapses accessibility and stem-like identity; C-terminal truncation preserves DNA binding but disrupts cBAF engagement; enforced SMARCB1 docking partially rescues these phenotypes; and the isolated C-terminus can be fused to dCas9 (COMET) to redirect endogenous cBAF and open chromatin at targeted loci.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, statistical details, and supplementary data
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically coherent model in which a disordered transcription factor region functions as a transferable recruitment module for a specific chromatin remodeling complex. The central claims are ambitious and would be of broad interest if fully supported. However, based on the abstract alone, the evidence base cannot be evaluated. Several claims are stated with quantitative precision that cannot be verified from the provided material, and the relationship between the proposed mechanism and the physiological context of APC-mutant adenoma formation is asserted rather than demonstrated. The work appears to have potential, but the case is not established from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, chromatin remodeling, enhancer biology, and intestinal stem cell biology would be interested. The work also has potential relevance for those investigating the mechanisms by which transcription factors with intrinsically disordered regions exert context-specific functions, and for those developing programmable chromatin-targeting tools such as dCas9-based fusion proteins.
+- **Major strengths** The abstract identifies a specific, testable mechanism linking a disordered transcription factor region to a defined chromatin remodeling complex. The proposed transferability of the module, demonstrated through the COMET fusion, is conceptually novel and could have broad applications. The use of acute, reversible degradation is a strong experimental design choice for establishing causality. The connection to a disease-relevant context (APC-mutant adenoma formation) adds translational significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that acute SOX9 degradation displaces cBAF from approximately 80% of co-bound enhancers, exceeding effects on pBAF and ncBAF, and collapses accessibility and stem-like identity.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The quantitative claim of approximately 80% displacement is presented without any supporting data, statistical context, or experimental detail. The comparison between cBAF, pBAF, and ncBAF effects is stated as a result but no metrics, replicates, or significance values are provided.
+  - **Why it matters** This is a central quantitative claim that underpins the specificity of the proposed mechanism. Without access to the underlying data, the magnitude and reliability of the effect cannot be assessed, and the claim of cBAF specificity over other BAF complexes is critical to the model.
+  - **Resolution test** Provide the relevant figures and statistical analyses showing the extent of cBAF displacement, the comparison to pBAF and ncBAF, and the accessibility and cell-identity changes. Include replicate numbers and effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that C-terminal truncation preserves DNA binding but disrupts cBAF engagement and chromatin opening, and that enforced SMARCB1 docking to truncated SOX9 partially restores cBAF recruitment, accessibility, stem-like transcription, and organoid self-renewal.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The rescue experiment is described as partial, but the extent and specificity of the rescue are not quantified. It is unclear which aspects are rescued, to what degree, and whether the rescue is specific to cBAF recruitment or reflects broader effects of SMARCB1 tethering.
+  - **Why it matters** The claim that remodeler recruitment is a limiting effector function depends on the quality and completeness of the rescue. A partial rescue could indicate that additional functions of the SOX9 C-terminus are important, which would weaken the central conclusion that cBAF recruitment is the primary limiting step.
+  - **Resolution test** Provide quantitative comparisons of cBAF recruitment, accessibility, transcription, and organoid self-renewal between full-length SOX9, truncated SOX9, and truncated SOX9 with enforced SMARCB1 docking. Include statistical tests and effect sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the isolated C-terminus supports higher-order cBAF assembly and, when fused to dCas9 as COMET, redirects endogenous cBAF to targeted loci to open chromatin.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim that the C-terminus supports higher-order cBAF assembly is stated without any biochemical or structural evidence. The COMET experiments are described only in terms of successful chromatin opening, with no details on the number of loci tested, the efficiency of opening, or the specificity of cBAF recruitment.
+  - **Why it matters** The transferability of the module is a key conceptual advance. If the COMET system works only at a subset of loci or with limited efficiency, the generality of the claim would be reduced. The higher-order assembly claim requires direct biochemical evidence.
+  - **Resolution test** Provide biochemical data on C-terminus-mediated cBAF assembly, and genome-wide or targeted data on COMET-mediated cBAF recruitment and chromatin opening, including controls for specificity and efficiency.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Contextual support
+  - **Claim pointer** The abstract frames the findings in the context of stem-like enhancers that open during APC-mutant adenoma formation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The connection to APC-mutant adenoma formation is mentioned only in the opening sentence and is not developed further. It is unclear whether the experiments were performed in APC-mutant models, patient-derived samples, or organoid systems, and whether the identified enhancers are directly relevant to adenoma formation or merely correlated with a stem-like state.
+  - **Why it matters** The disease relevance is a stated motivation for the work. If the connection to APC-mutant adenomas is not experimentally established, the physiological significance of the mechanism remains speculative.
+  - **Resolution test** Clarify the experimental systems used and provide data linking the identified enhancers and the SOX9-cBAF mechanism to APC-mutant adenoma formation or progression.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "stem-like enhancers" is used without definition. It is unclear whether this refers to enhancers active in stem cells, enhancers that confer stem-like properties, or a specific chromatin state.
+  - **Required correction** Define the term explicitly or use more standard terminology such as "enhancers active in intestinal stem cells" or "enhancers associated with stem cell identity."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental systems
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not state which cell or organoid systems were used for the degradation, truncation, and rescue experiments.
+  - **Required correction** Specify the experimental systems in the abstract or ensure they are clearly described in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Causal framing
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that SOX9 degradation "collapses accessibility and stem-like identity" and that re-expression "restores these features." The causal ordering between accessibility loss and identity loss is not addressed.
+  - **Required correction** Clarify whether accessibility changes precede or follow identity changes, or state that the temporal relationship was not resolved.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract concludes that "disordered TF regions can therefore encode transferable instructions" based on a single transcription factor and a single remodeler complex.
+  - **Required correction** Soften the generalization or provide evidence that the module is transferable to other transcription factors or contexts beyond the dCas9 fusion.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient evidence to evaluate the quantitative claims, the rescue experiments, the biochemical basis of higher-order assembly, or the disease relevance. All of these are central to the stated conclusions.
+- **Assessment against Nature-style criteria** Originality: The concept of a transferable disordered region that recruits a specific remodeler complex is potentially original and conceptually interesting. Scientific importance: The work addresses a fundamental question in gene regulation and could have implications for understanding cell-state control and for tool development. Interdisciplinary readership: The topic would appeal to molecular biologists, chromatin biologists, and cancer biologists, and the COMET tool could attract interest from genome engineering researchers. Technical soundness: Cannot be assessed from the abstract alone. The experimental designs described are reasonable, but the data quality, controls, and statistical rigor are not visible. Readability for nonspecialists: The abstract is concise and largely accessible, though terms such as "cBAF," "pBAF," and "ncBAF" are used without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the experimental approach appears well designed, but the abstract alone does not provide sufficient data to evaluate the central claims. A full assessment requires the complete manuscript, figures, and methods.
+
+## Risk / unsupported claims
+
+- The quantitative claim of approximately 80% cBAF displacement from co-bound enhancers is unsupported in the abstract.
+- The claim that cBAF effects exceed those on pBAF and ncBAF is unsupported without comparative data.
+- The claim that the isolated C-terminus supports higher-order cBAF assembly is unsupported without biochemical evidence.
+- The claim that COMET redirects endogenous cBAF to targeted loci to open chromatin is unsupported without data on locus number, efficiency, and specificity.
+- The connection to APC-mutant adenoma formation is asserted but not developed or supported in the abstract.
+- The generalization that "disordered TF regions can encode transferable instructions" is broader than what the evidence described in the abstract can support.

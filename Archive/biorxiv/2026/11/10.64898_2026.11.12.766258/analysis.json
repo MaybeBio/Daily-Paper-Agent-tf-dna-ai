@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.11.12.766258",
+  "title": "ModBERT: a DNA modification and genetic variant-aware DNA large language model",
+  "authors": "Dante Bolzan; Ramana V Davuluri; Shaun Mahony; FERHAT AY",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-13",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出DNA语言模型ModBERT，利用五字母概率基因组表示整合遗传变异与甲基化信息，并用于预测转录因子结合等功能基因组峰，虽非直接建模TF-DNA三维互作，但其变异与甲基化感知的预测框架对TF结合位点预测具有方法学借鉴价值。",
+  "abstract": "The development of foundation models that learn a general grammar of DNA (DNA language models) has accelerated in recent years. The vast majority of DNA large language models (LLMs), such as DNABERT-2 and Nucleotide Transformer, are pretrained almost exclusively on reference genomes. They therefore cannot represent the two sources of variation most directly tied to regulatory differences between people: genetic variants and DNA methylation. Long-read sequencing (Nanopore and PacBio) now measures both from the same native DNA molecules, but no model is designed to use this joint readout. With this in mind, we developed ModBERT, a DNA language model built on a five-letter probabilistic genome representation in which each position is a distribution over A, C, G, T, 5mC (represented with M). In pretraining, these distributions encode population allele frequencies and CpG methylation levels from 242 individuals in the 1000 Genomes Long-Read Sequencing Consortium, learned with a soft-target masked language modeling objective. We further propose probabilistic fine-tuning, in which the same representation encodes one individual's genotype and methylation. A fine-tuned model can then make person-specific predictions from a single assay. Under this novel fine-tuning framework, we show that ModBERT effectively utilizes methylation information to classify peaks from functional genomic assays, including histone mark (n=11 different marks) and transcription factor binding (n=69 TFs) ChIP-seq data, outperforming ab initio trained models and ModBERT pretrained on sequences without methylation. In silico methylation perturbations yield TF sensitivities that correlate with independent methylation-aware motif models. Using an evaluation design that separates generalization to new loci from generalization to new individuals, ModBERT predicts chromatin accessibility at held-out loci in held-out individuals (AUROC 0.88). Its predicted variant effects agree with likely causal caQTLs (Spearman correlation = 0.52) but not with variants associated only through linkage, a traditionally challenging task. Overall, ModBERT establishes a framework for personal-genome language modeling, in which a model reads each individual's genetic and epigenetic sequence rather than a shared reference. This enables in silico dissection of variant and methylation effects on gene regulation and principled prioritization of candidates for experimental validation as population-scale long-read cohorts (e.g., 1KGP and Human Pangenome Reference Consortium) grow.",
+  "abstract_zh": "近年来，学习DNA通用语法的基础模型（DNA语言模型）的发展加速。绝大多数DNA大语言模型（LLMs），如DNABERT-2和Nucleotide Transformer，几乎完全在参考基因组上进行预训练。因此，它们无法代表与人群间调控差异最直接相关的两种变异来源：遗传变异和DNA甲基化。长读长测序（Nanopore和PacBio）现在能从相同的天然DNA分子中同时测量这两者，但尚无模型被设计用于利用这种联合读数。鉴于此，我们开发了ModBERT，一种基于五字母概率基因组表示的DNA语言模型，其中每个位置是对A、C、G、T、5mC（以M表示）的分布。在预训练中，这些分布编码了来自1000 Genomes长读长测序联盟中242个个体的群体等位基因频率和CpG甲基化水平，并通过软目标掩码语言建模目标进行学习。我们进一步提出了概率微调，其中相同的表示编码单个个体的基因型和甲基化。然后，微调后的模型可以从单一检测中做出个体特异的预测。在此新颖的微调框架下，我们展示了ModBERT有效利用甲基化信息来分类功能基因组学检测中的峰，包括组蛋白标记（n=11种不同标记）和转录因子结合（n=69个TFs）的ChIP-seq数据，其性能优于从头训练的模型和未含甲基化序列预训练的ModBERT。计算机模拟甲基化扰动产生的TF敏感性，与独立的甲基化感知基序模型相关。通过一种将泛化到新位点与泛化到新个体分开的评估设计，ModBERT在保留个体中的保留位点上预测染色质可及性（AUROC 0.88）。其预测的变异效应与可能的因果caQTL一致（Spearman相关系数=0.52），但与仅通过连锁关联的变异不一致，这是一项传统上具有挑战性的任务。总体而言，ModBERT建立了一个个人基因组语言建模框架，其中模型读取每个个体的遗传和表观遗传序列，而非共享参考序列。这使得能够在计算机上剖析变异和甲基化对基因调控的影响，并在群体规模的长读长队列（如1KGP和人类泛基因组参考联盟）增长时，对实验验证候选者进行原则性优先级排序。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766258",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766258",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.11.12.766258/index.html"
+}

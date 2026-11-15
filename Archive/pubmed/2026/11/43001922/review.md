@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, concluding remarks) as provided by the user. No supplementary material, figures, or tables were available for inspection.
+- **Assessment boundary** The review is limited to the scientific content, methodological soundness, and claims as presented in the supplied text. No external validation of data, code, or reproducibility was performed.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics (MD) and well-tempered metadynamics (WTM) simulations to map the conformational landscape of a c-MYC motif in aqueous NaCl solution. They identify stable conformations with druggable pockets, dock the inhibitor 10074-G5 to selected states, and report stable binding over 1 μs simulations. They propose these pockets as novel targets for therapeutic intervention.
+- **Visible evidence base** Text descriptions of methods (system preparation, WTM, collective variables, PCA, metadynminer analysis), results (MD clustering, 2D free energy surface, transition paths, electrostatic potential maps, docking), and concluding remarks. References to figures (Figure 1–6), tables (Table 1), and supplementary items (Figures S1–S6, Table S1) are mentioned but not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary information are absent. Numerical data (free energy values, RMSD values, docking scores, simulation convergence metrics) are only described qualitatively. The GitHub repository is referenced but not reviewed. This significantly limits the ability to verify the central claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant problem: the identification of druggable pockets on the intrinsically disordered c-MYC oncoprotein. The combination of long MD simulations and WTM is appropriate and potentially powerful. However, the current text does not provide sufficient quantitative evidence to support the key claims. The absence of figures and numerical data makes it impossible to assess the quality of the free energy surface, the validity of the collective variables, the convergence of the simulations, or the significance of the docking results. The manuscript reads more like a research proposal or a summary of work in progress than a complete, self-contained study. The scientific premise is interesting, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Computational biophysicists and medicinal chemists working on intrinsically disordered proteins (IDPs) as drug targets, particularly those focused on transcription factors like MYC. The methodological approach (WTM for pocket identification in IDPs) and the specific findings (new potential binding sites for 10074-G5) would be of interest to these communities. The work also has potential relevance for researchers studying protein-protein interaction inhibition.
+- **Major strengths**
+  - The scientific question is important and timely: targeting c-MYC directly is a major challenge in oncology.
+  - The methodological approach is appropriate and state-of-the-art, combining unbiased MD with enhanced sampling (WTM) to explore the conformational landscape of an IDP.
+  - The authors address a critical technical issue in WTM simulations: the correct treatment of periodic boundary conditions for distance-based collective variables.
+  - The discussion of the results in the context of the "fuzzy" ensemble model of IDPs and the distinction between different binding sites (10074-G5 vs. 10058-F4) shows good scientific insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that the WTM simulations reveal stable conformations with druggable pockets, and that the free energy surface is well-converged and accurately mapped.
+  - **Evidence pointer** Section "Two-Dimensional Free Energy Landscapes of MYC", Figure 2, Table 1, Figures S1–S3
+  - **Concern** The central results are presented without any quantitative data. The free energy differences between basins are only given as a range (0–5 kJ/mol) for the selected states, and the claim of convergence is only supported by a reference to supplementary figures that are not provided. The reader cannot assess the statistical uncertainty of the free energy surface, the error in the free energy estimates, or whether the simulation time was sufficient to achieve convergence. The claim that the crystal structure is ~75 kJ/mol higher in free energy is a major statement that requires robust evidence, including error bars and a clear definition of how this value was calculated.
+  - **Why it matters** The entire premise of the paper rests on the accuracy and convergence of the WTM free energy surface. Without quantitative evidence, the identified "druggable pockets" could be artifacts of insufficient sampling or poor collective variable choice. The claim of a 75 kJ/mol difference is particularly concerning, as it is a very large energy difference that would imply the crystal structure is essentially unpopulated, which is a strong and non-trivial statement.
+  - **Resolution test** The authors must provide the actual free energy surface plots with contour lines and error estimates. They must show convergence tests (e.g., free energy difference as a function of simulation time) for the key basins. The 75 kJ/mol value must be presented with a clear calculation method and an estimate of its uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The manuscript claims that the two selected collective variables (CVs) are suitable to describe the conformational landscape of the c-MYC motif and that the choice is well-justified.
+  - **Evidence pointer** Section "Collective Variables", Figure 1
+  - **Concern** The choice of CVs is described as being based on "a detailed study of several distances and angular coordinates," but no data from this study is shown. The CVs are defined as distances between specific residues, but the rationale for why these particular distances capture the relevant conformational changes is not explained. The authors do not discuss whether these CVs adequately describe the potential conformational heterogeneity of the IDP, or whether other important degrees of freedom (e.g., dihedral angles, radius of gyration) are being neglected. The risk of hidden slow variables is not addressed.
+  - **Why it matters** In WTM, the choice of CVs is the single most important factor determining the quality of the result. If the CVs do not capture the slow degrees of freedom of the system, the simulation will not converge to the correct free energy surface, and the identified basins will be meaningless. The authors need to demonstrate that their CVs are sufficient.
+  - **Resolution test** The authors should provide a comparison of the free energy surface obtained with different CV sets, or at least show that the chosen CVs capture the major conformational changes observed in the unbiased MD simulations. A discussion of the potential for hidden slow variables and how they were addressed is required.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The manuscript claims that the docking results show an "excellent fit" between the identified pockets and the inhibitor 10074-G5, and that the subsequent 1 μs MD simulations demonstrate "stable binding."
+  - **Evidence pointer** Section "Location of Potential Drugging Pockets at the Surface of MYC", Section "Conformational Ensembles and the Mechanisms of Inhibition of Intrinsically Disordered Proteins", Figure 5, Figure 6, Table S1, Figure S6
+  - **Concern** The docking results are only mentioned as being in the supplementary material. No docking scores, binding poses, or comparison to experimental data are provided in the main text. The claim of "stable binding" is based on a distance measurement between centers of mass, which is a very crude metric. It does not demonstrate that the specific interactions predicted by docking are maintained, nor does it rule out non-specific binding. The authors acknowledge the "dynamic shuttling" concept but do not provide any analysis to distinguish their observed binding from this phenomenon.
+  - **Why it matters** The paper's title and main conclusion are about "drugging pockets." The evidence for these pockets being druggable rests entirely on the docking and MD validation. Without quantitative docking results and a more rigorous analysis of the binding stability (e.g., contact maps, interaction energies, residence times), the claim is not supported.
+  - **Resolution test** The authors must provide docking scores (e.g., binding affinities) for all states tested. For the MD validation, they should show the time evolution of specific protein-ligand contacts, the root-mean-square deviation of the ligand binding pose, and a comparison to a control simulation with a non-binder or a scrambled ligand.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The manuscript claims to have performed "extensive" WTM simulations and to have validated the physical equivalence of the three starting structures.
+  - **Evidence pointer** Section "Well-Tempered Metadynamics", Section "System Preparation and Setups"
+  - **Concern** The manuscript does not provide key simulation parameters. The WTM parameters (Gaussian width, height, deposition stride) are said to be in Table 1, but the table is not provided. The total simulation time for the WTM runs is only given as a range (7.8–10 μs) without specifying the time for each system. The statement that the three structures are "physically equivalent" is not supported by any data (e.g., RMSD between structures after equilibration, comparison of structural properties).
+  - **Why it matters** Reproducibility is a cornerstone of computational research. Without the exact parameters, other researchers cannot replicate the simulations. The claim of physical equivalence is important because it justifies averaging results from different starting structures, but it is not substantiated.
+  - **Resolution test** The authors must provide a complete table of simulation parameters. They should show a comparison of key structural properties (e.g., RMSD, radius of gyration, secondary structure content) for the three systems after equilibration to support the claim of equivalence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states that the study provides a "structural foundation for targetting c-MYC" (note the typo "targetting"). The introduction would benefit from a clearer statement of the novelty of this work compared to previous computational studies on c-MYC, beyond the specific inhibitor binding site.
+  - **Required correction** Correct the typo. In the introduction, explicitly state what new information this study provides over previous work (e.g., the first WTM-based landscape of the full monomeric bHLHLZ domain, as opposed to short peptides).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, "System Preparation and Setups"
+  - **Evidence pointer** Section "System Preparation and Setups"
+  - **Issue** The text mentions that the terminal residues 353, 433, and 434 were manually added, but it is unclear why these specific residues were added and whether this was done to complete a specific structural motif. The force field is stated as CHARMM36m, but the water model is only mentioned as TIP3P. The ion concentration is given as 0.15 M NaCl, but the specific number of ions added is not stated.
+  - **Required correction** Clarify the rationale for adding the terminal residues. State the number of Na+ and Cl- ions added to achieve the desired concentration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Section "Conformational Ensembles and the Mechanisms of Inhibition of Intrinsically Disordered Proteins"
+  - **Evidence pointer** Section "Conformational Ensembles and the Mechanisms of Inhibition of Intrinsically Disordered Proteins"
+  - **Issue** The discussion of the "fuzzy" ensemble and the comparison with the Robustelli and Michel/Cuchillo work is interesting but is presented as a narrative without quantitative comparison. The authors state that their pocket is "entirely distinct" from the 10058-F4 site, but they do not provide a structural comparison (e.g., a figure showing the two sites).
+  - **Required correction** Add a figure or a more detailed textual comparison showing the location of the 10074-G5 pocket relative to the known 10058-F4 binding site. This would strengthen the claim of novelty.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Concluding Remarks
+  - **Evidence pointer** Concluding Remarks
+  - **Issue** The concluding remarks state that the work provides "a detailed study of the free energy surface of c-MYC in solution to locate previously uncharacterized druggable pockets." This is a strong claim that is not fully supported by the text, as the "detailed study" is not presented in detail.
+  - **Required correction** Soften the language to match the evidence presented, e.g., "a preliminary study of the free energy surface... that suggests the presence of potentially druggable pockets."
+
+## Risk / unsupported claims
+- The claim that the WTM simulations are converged and the free energy surface is accurate is unsupported without the supplementary figures and quantitative error analysis.
+- The claim that the crystal structure is ~75 kJ/mol higher in free energy than the most stable basin is a major quantitative statement that is not substantiated with data or error bars.
+- The claim of an "excellent fit" for docking is unsupported as no docking scores or poses are provided in the main text.
+- The claim of "stable binding" over 1 μs is weakly supported by the single distance metric described; a more rigorous analysis is required.
+- The claim that the identified pockets are "previously uncharacterized" and "entirely distinct" from other known sites is not verifiable without a structural comparison.
+- The statement that the three starting structures are "physically equivalent" is not supported by any data.
+- The overall conclusion that these pockets represent "promising candidates for effective inhibitor targeting" is an extrapolation that goes beyond the evidence presented.

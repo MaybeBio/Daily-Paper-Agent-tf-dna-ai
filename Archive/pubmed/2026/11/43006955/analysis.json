@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43006955",
+  "title": "Predicting Ternary Complex Stability through Binding Free-Energy Calculations in the Geometric Route.",
+  "authors": "Tan, Benedict; Ciulli, Alessio; Michel, Julien",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2026-11-10",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用MD伞形采样计算分子胶诱导的三元复合物结合自由能，虽涉及蛋白-蛋白互作与结合自由能方法，但对象非蛋白质-DNA体系，且无TF-DNA结合建模，仅方法部分可迁移，故评分较低。",
+  "abstract": "Molecular glue-induced targeted protein degradation is a powerful emerging therapeutic modality that exploits the ubiquitin-proteasome degradation pathway to break down proteins associated with disease proliferation. At the structural level, degradation proceeds through the formation of a ternary complex induced by small molecules between the target protein and an E3 ligase. Unlike PROTACs, molecular glues do not require a chemical linker and tend to stabilize preexisting native protein-protein interactions. Computational screening of novel glues is challenging, in large part due to the complexity and high degree of cooperativity involved in the formation of the ternary complex interface. Here, we present a rigorous Molecular Dynamics-based simulation protocol that uses Umbrella Sampling to calculate the ternary complex binding free energy. The protocol follows a geometric thermodynamic cycle with conformational and Boresch-style orientational restraints to drive the system from bound to unbound. Our framework successfully predicts the effect of single-point interface mutations on the relative stability of the CK1alpha-lenalidomide-CRBN ternary complex (R2 = 0.95 compared to experimental binding affinities). We also study a series of systems related to the BRD4 degraders IBG1 and IBG3, which recruit the DCAF16 E3 ligase. We rank various complexes engaging DCAF16 by their binding free energies and achieve an ordering that is consistent with the trends observed in biophysical assays. Of particular note is our ability to assert the reliance of BRD4 selectivity on a single interfacial glycine residue, which alternative, reduced-sampling MM/GBSA or HADDOCK scoring methodologies fail to achieve. Overall, our protocol shows promise as a generalizable approach to ranking ternary complexes by thermodynamic stability, potentially aiding in the identification of potent new degraders.",
+  "abstract_zh": "分子胶诱导的靶向蛋白降解是一种新兴的强大治疗模式，利用泛素-蛋白酶体降解途径来分解与疾病增殖相关的蛋白质。在结构层面，降解通过小分子在靶蛋白与E3连接酶之间诱导形成的三元复合物（ternary complex）进行。与PROTACs不同，分子胶不需要化学连接子，且倾向于稳定预先存在的天然蛋白-蛋白相互作用。新型分子胶的计算筛选具有挑战性，主要由于三元复合物界面形成所涉及的复杂性和高度协同性。在此，我们提出了一种基于分子动力学 (molecular dynamics) 的严格模拟协议，使用伞形采样 (Umbrella Sampling) 计算三元复合物结合自由能。该协议遵循几何热力学循环，并采用构象约束和Boresch式取向约束，将系统从结合态驱动至未结合态。我们的框架成功预测了单点界面突变对CK1alpha-来那度胺-CRBN三元复合物相对稳定性的影响（与实验结合亲和力相比，R2 = 0.95）。我们还研究了与BRD4降解剂IBG1和IBG3相关的一系列系统，这些降解剂招募DCAF16 E3连接酶。我们通过结合自由能对涉及DCAF16的各种复合物进行排序，并获得了与生物物理测定中观察到的趋势一致的排序结果。特别值得注意的是，我们能够断言BRD4选择性依赖于单一界面甘氨酸残基，而替代的减少采样MM/GBSA或HADDOCK评分方法无法实现这一点。总体而言，我们的协议显示出作为一种通用方法按热力学稳定性对三元复合物进行排序的潜力，可能有助于识别有效的新型降解剂。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43006955/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43006955/",
+  "paper_page_path": "papers/pubmed/43006955/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43011234",
+  "title": "scMINA: an interpretable workflow for paired scRNA-scATAC multiome integration and regulatory prioritization.",
+  "authors": "Zhang, Shuwen; Hu, Hongru; Wang, Xue; Xiong, Chengjie; Kanekiyo, Takahisa; Asmann, Yan W; Ren, Yingxue",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2026-11-11",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出scMINA工作流，整合配对scRNA-scATAC多组学数据并利用可解释AI优先排序候选基因和转录因子，虽涉及TF-DNA调控推断但缺乏三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Single-cell multiomic technologies that jointly profile transcriptomic and epigenomic states provide unprecedented opportunities to investigate cellular heterogeneity and gene regulatory mechanisms in complex diseases. However, analysis of paired single-cell RNA-seq (scRNA-seq) and chromatin accessibility (scATAC-seq) data remains computationally challenging due to modality-specific technical variation, integration complexity, and limited interpretability of downstream regulatory inference. Here, we present scMINA (single-cell Multimodal Integration and Network Attribution), a modular and interpretable analytical workflow for the analysis of paired single-cell multiome datasets. scMINA comprises coordinated modules for multimodal integration, technical covariate correction, and regulatory feature prioritization, enabling systematic characterization of cellular states across transcriptomic and epigenomic modalities. In addition, scMINA incorporates explainable artificial intelligence-based attribution strategies to prioritize candidate genes and transcription factors associated with cell-state heterogeneity and disease-related regulatory alterations. We applied scMINA to the single-cell multiome data from the Seattle Alzheimer's Disease Brain Cell Atlas, where the workflow robustly resolved major glial cell populations and identified regulatory features associated with Alzheimer's disease pathology. By coupling multimodal integration with interpretable regulatory prioritization, scMINA provides a practical workflow for systematic analysis and biological interpretation of paired scRNA-seq and scATAC-seq datasets.",
+  "abstract_zh": "联合分析转录组和表观基因组状态的单细胞多组学技术为探究复杂疾病中的细胞异质性和基因调控机制提供了前所未有的机会。然而，由于模态特异性技术变异、整合复杂性以及下游调控推断的可解释性有限，配对单细胞RNA测序（scRNA-seq）和染色质可及性（scATAC-seq）数据的分析在计算上仍具挑战性。在此，我们提出scMINA（单细胞多模态整合与网络归因），一种模块化且可解释的分析工作流程，用于配对单细胞多组学数据集的分析。scMINA包含协调的模块，用于多模态整合、技术协变量校正和调控特征优先级排序，从而能够系统地表征跨转录组和表观基因组模态的细胞状态。此外，scMINA整合了基于可解释人工智能的归因策略，以优先排序与细胞状态异质性和疾病相关调控改变相关的候选基因和转录因子。我们将scMINA应用于西雅图阿尔茨海默病脑细胞图谱的单细胞多组学数据，该工作流程稳健地解析了主要胶质细胞群体，并识别了与阿尔茨海默病病理相关的调控特征。通过将多模态整合与可解释的调控优先级排序相结合，scMINA为配对scRNA-seq和scATAC-seq数据集的系统分析和生物学解释提供了一种实用工作流程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43011234/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43011234/",
+  "paper_page_path": "papers/pubmed/43011234/index.html"
+}

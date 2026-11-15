@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (Background, Results, Conclusions, Introduction, Materials and Methods, Results and Discussion, Additional file statement)
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and interpretation of the reported results; no assessment of editorial fit or publication policy
+- **Shared manuscript claim summary** The authors propose HelixPR, a DNA sequence representation that augments one-hot encoding with a sinusoidal periodic positional encoding (period T=10) and a global nucleotide-composition token, and show that a lightweight CNN using this representation outperforms baseline encodings and previously reported methods on two enhancer benchmark datasets, while also claiming interpretability via motif enrichment and theoretical invertibility.
+- **Visible evidence base** Tables 1–7, Figures 1–4, theoretical proof (Proposition 1), and textual descriptions of experimental procedures
+- **Missing materials affecting confidence** Supplementary Material (referenced but not provided), code availability statement, hyperparameter search details, dataset preprocessing scripts, and full statistical test outputs
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually simple but potentially useful idea: incorporating a biologically motivated periodic prior into DNA sequence encoding for enhancer prediction. The writing is clear and the experimental design is generally sound, with appropriate controls. However, several technical and interpretive issues need to be addressed before the claims are fully established. The most significant concerns relate to the lack of detail on the periodic encoding's interaction with sequence length, the absence of a rigorous comparison with state-of-the-art methods under identical conditions, and the limited evidence supporting the biological relevance of the helix-aware component beyond what a generic positional encoding could provide.
+- **Who would be interested in the results, and why** Researchers in computational genomics, particularly those working on regulatory element prediction and DNA sequence representation learning. The work may also interest method developers in the broader machine learning for genomics community who are exploring ways to incorporate structural priors into sequence models. The claim of improved performance with a lightweight architecture could be attractive to practitioners seeking efficient alternatives to large pre-trained models.
+- **Major strengths**
+  1. The biological motivation is clear and well-articulated, connecting the proposed representation to the known helical structure of DNA.
+  2. The experimental design includes appropriate baseline comparisons (one-hot, k-mer, EIIP) under a controlled architecture, which strengthens the attribution of performance differences to the representation.
+  3. The theoretical invertibility result is a nice addition that distinguishes HelixPR from frequency-based methods.
+  4. The transfer learning experiment to enhancer strength classification adds practical value.
+  5. The parameter sensitivity analysis and control experiments help isolate the contribution of the periodic component.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "HelixPR achieved competitive performance across benchmark datasets" and the reported performance in Tables 1–4
+  - **Evidence pointer** Tables 1–4, "Performance on standard benchmark dataset (Liu)" and "Performance on cell type-specific dataset (Basith)" sections
+  - **Concern** The comparison with previously reported methods (Tables 2 and 4) is not conducted under identical conditions. The authors state that "some compared methods could not be directly reproduced, their performance values were taken from the corresponding publications." This introduces potential confounds: different train/test splits, preprocessing pipelines, and evaluation protocols across studies. The reported improvements over iEnhancer-ELM and Enhancer-IF, particularly the very large margins on Basith's dataset (e.g., MCC 0.9509 vs 0.5504), may be partly attributable to these differences rather than the proposed representation. The authors should either reproduce the baseline methods under the same protocol or clearly discuss the limitations of cross-study comparisons.
+  - **Why it matters** The central claim of the paper is that HelixPR outperforms existing methods. If the comparison is not fair, the claim is not established. The magnitude of the reported improvements is unusually large, which raises concerns about protocol differences.
+  - **Resolution test** The authors should provide a detailed comparison table where all methods are evaluated on the same train/test splits with the same preprocessing and evaluation code. If reproduction is not feasible, they should provide a thorough analysis of potential confounds and temper their claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "HelixPR supports closed-form decoding" and the invertibility property described in Proposition 1
+  - **Evidence pointer** "Theoretical analysis: invertibility" section, Proposition 1
+  - **Concern** The invertibility proof assumes the decoder knows the period T and the scaling factor α. However, the proof does not address how the global composition token (CLS) is handled in the decoding process. The CLS token is a 4-dimensional vector of nucleotide frequencies, which is not invertible to a unique sequence (many sequences share the same composition). While the proof correctly shows that the per-position encoding is invertible, the full representation including the CLS token is not invertible. The claim of "closed-form decoding" and "exact recovery of the original DNA sequence" is therefore overstated for the complete HelixPR representation.
+  - **Why it matters** The invertibility claim is presented as a key theoretical advantage over k-mer methods. If the full representation is not invertible, the claim needs to be qualified. This does not necessarily undermine the practical utility, but the theoretical framing should be accurate.
+  - **Resolution test** The authors should clarify whether the invertibility claim applies to the per-position encoding only or to the full representation. If the latter, they should provide a decoding algorithm that accounts for the CLS token or revise the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "HelixPR achieved an accuracy of 0.8434 and a Matthews correlation coefficient of 0.6874" and all other reported metrics
+  - **Evidence pointer** Tables 1, 3, 5; "Training strategy and optimization" section
+  - **Concern** The manuscript does not provide sufficient detail on the CNN architecture hyperparameters (e.g., number of filters per layer, kernel sizes are given but not the number of layers' channels, dropout, weight decay, batch size, learning rate schedule). The description "four convolutional feature extraction blocks" with channel dimensions d→h, h→2h, 2h→h, h→h/2 is given, but the exact number of filters, padding, stride, and pooling operations are not fully specified. Additionally, the training/validation split for Liu's dataset is not described (the manuscript mentions an independent test set but not how the training set was split for model selection). Without these details, the experiments cannot be reproduced.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. The lack of architectural and training details prevents independent verification of the reported results.
+  - **Resolution test** The authors should provide a complete specification of the model architecture, training hyperparameters, and data splitting procedure, either in the main text or in the Supplementary Material.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "HelixPR-highlighted regions are enriched for known transcription-factor binding motifs, supporting both the interpretability and biological relevance of the proposed representation"
+  - **Evidence pointer** "Motif enrichment in HelixPR-highlighted regions" section, Table 6
+  - **Concern** The motif enrichment analysis is performed on only one cell line (HEK293) and uses integrated gradients to identify important regions. The authors do not compare the enriched motifs from HelixPR-highlighted regions with those from regions highlighted by models trained on other encodings (e.g., one-hot). Without such a comparison, it is unclear whether the enriched motifs are specific to the helix-aware component or simply reflect general enhancer-associated motifs that any well-performing model would identify. The claim of "biological relevance of the proposed representation" is therefore not strongly supported.
+  - **Why it matters** The interpretability analysis is presented as supporting evidence for the value of the helix-aware representation. If the same motifs would be found with a one-hot encoding, the added value of the periodic component for biological discovery is not demonstrated.
+  - **Resolution test** The authors should perform the same motif enrichment analysis on models trained with one-hot encoding (and possibly other baselines) and compare the results. If the enriched motifs are similar, the claim should be revised to focus on the overall model's interpretability rather than the specific contribution of HelixPR.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 4 and Remark 1
+  - **Evidence pointer** "Fourier positional encoding" subsection
+  - **Issue** The four-dimensional Fourier positional vector is defined as [sin(θk), cos(θk), cos(θk), sin(θk)], which contains redundant components. The authors note this is for dimensional alignment with one-hot encoding, but the redundancy is not discussed in terms of potential information loss or redundancy in the learned features.
+  - **Required correction** Briefly explain whether the redundancy is intentional and whether alternative non-redundant constructions were considered.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Tables 1 and 3
+  - **Evidence pointer** "Performance on standard benchmark dataset (Liu)" and "Performance on cell type-specific dataset (Basith)" sections
+  - **Issue** The manuscript reports mean ± standard deviation across five random seeds but does not report confidence intervals or effect sizes. For the comparison between HelixPR and one-hot encoding, the differences are small on Liu's dataset (e.g., ACC 0.8434 vs 0.8149), and it is unclear whether these differences are practically significant beyond statistical significance.
+  - **Required correction** Report confidence intervals or provide a discussion of the practical significance of the observed differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** "Data source" section
+  - **Evidence pointer** "Liu's dataset" and "Basith's dataset" subsections
+  - **Issue** The manuscript does not describe how the negative (non-enhancer) sequences were generated or selected for either dataset. This is critical for understanding the classification task difficulty and potential biases.
+  - **Required correction** Add a description of negative set construction, or refer to the original papers if this is standard.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Table 4
+  - **Evidence pointer** "Performance on cell type-specific dataset (Basith)" section
+  - **Issue** In Table 4, the AUC value for HUVEC is missing for HelixPR+CNN, and the table formatting is inconsistent (some cells have values, others do not).
+  - **Required correction** Complete the table with all values or add a note explaining missing entries.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** "Motif enrichment in HelixPR-highlighted regions" section
+  - **Evidence pointer** Section text
+  - **Issue** The description of the integrated gradients procedure is brief. The number of important regions per sequence, the window size, and the threshold for "high-importance positions" are not specified.
+  - **Required correction** Provide these details in the main text or Supplementary Material.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (unfair comparison with prior methods)
+  - R1-M2 (overstated invertibility claim)
+  - R1-M3 (insufficient reproducibility details)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The idea of incorporating a periodic positional encoding based on DNA helical structure is novel in the context of enhancer prediction, though it draws on well-established concepts from positional encoding in transformers and known DNA biophysics. The specific combination of one-hot, periodic encoding, and a composition token is new.
+  - **Scientific importance** Moderate. Enhancer identification is an important problem, and the paper demonstrates that a simple, biologically motivated representation can achieve competitive results. However, the practical impact is limited by the lack of a fair comparison with state-of-the-art methods and the modest improvements over one-hot encoding on the primary benchmark.
+  - **Interdisciplinary readership** Limited. The paper is primarily of interest to computational biologists and machine learning researchers working on genomics. The biological motivation is accessible, but the technical details may not attract a broader readership.
+  - **Technical soundness** The core methodology is sound, but the comparison with prior methods is not rigorous, and the invertibility claim is overstated. The experimental design for the main comparisons is appropriate, but the lack of reproducibility details is a concern.
+  - **Readability for nonspecialists** The paper is generally well-written and the concepts are explained clearly. The theoretical proof is concise and accessible. However, the results section is dense with tables and may be challenging for readers unfamiliar with the benchmarks.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the experiments are mostly well-designed, but the manuscript needs to address the unfair comparison with prior methods, clarify the invertibility claim, and provide sufficient reproducibility details before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that HelixPR "outperforming existing enhancer identification methods, including methods based on large pre-trained language models" is not fully supported due to the lack of a controlled comparison.
+- The claim of "exact recovery of the original DNA sequence" from the full HelixPR representation is not supported, as the CLS token is not invertible.
+- The claim that "HelixPR-highlighted regions are enriched for known transcription-factor binding motifs, supporting the biological relevance of the proposed representation" is not fully supported without a comparison with other encodings.
+- The statement that "the results did not reveal direct train–test leakage" in the Supplementary Material analysis is not verifiable from the provided text, as the analysis is not described in detail.

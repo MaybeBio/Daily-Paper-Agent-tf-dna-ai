@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.11.07.765118",
+  "title": "CPDD: Adapting an autoregressive DNA language model for bidirectional phage genome modeling",
+  "authors": "Hao Ding; Nannan Wu; Tianyi Qiu",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-10",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该文开发噬菌体DNA语言模型及扩散扩展用于基因组序列建模与修复，虽涉及DNA序列生成但无蛋白质-DNA互作体系、结合位点预测或互作机制建模，与本课题TF-DNA互作研究无关。",
+  "abstract": "Autoregressive DNA language models generate sequences efficiently from left to right, but many genome-analysis and sequence-editing problems are naturally conditioned on both flanks. We introduce CreatiPhage , a 144.5M-parameter autoregressive DNA language model for bacteriophages, and its diffusion extension, CreatiPhage Diffusion DNA-LM (CPDD) . CPDD is a 147.5M-parameter bidirectional discrete diffusion model initialized from the six-epoch CreatiPhage checkpoint. CPDD retains the pretrained Transformer, block attention residuals, and Engram conditional memory, while introducing non-causal attention, a MASK-aware base-5 Engram, centered depthwise convolution, and position-aligned nucleotide readout. Training combines masked and GIDD-style uniformly substituted bases with nucleotide- and amino-acid-level losses over a 10 kb, 32 kb, and whole-source context curriculum. On a screened panel of 522 phage CDSs, CPDD achieves higher random-mask restoration accuracy than a comparable diffusion model and performs well above codon-level references. In a mixed-corruption test, it restores 42.4% of visible incorrect bases. Frozen CPDD representations also support infA fitness prediction and seven-class phage virion protein subtype classification. Controlled evaluations further characterize how restoration depends on visible context and identify opportunities to improve longer-range sequence recovery. Together, these results support scaffold-conditioned sequence modeling as a step towards modular design of phage genomes.",
+  "abstract_zh": "自回归DNA语言模型从左到右高效生成序列，但许多基因组分析和序列编辑问题天然依赖于两侧侧翼条件。我们引入了CreatiPhage，一个144.5M参数的噬菌体自回归DNA语言模型，及其扩散扩展版本CreatiPhage Diffusion DNA-LM (CPDD)。CPDD是一个147.5M参数的双向离散扩散模型，从六轮训练的CreatiPhage检查点初始化。CPDD保留了预训练的Transformer、块注意力残差和Engram条件记忆，同时引入了非因果注意力、基于MASK的base-5 Engram、中心深度卷积和位置对齐的核苷酸读出。训练结合了掩码和GIDD风格的均匀替换碱基，并在10 kb、32 kb和全源上下文课程上使用核苷酸和氨基酸水平损失。在522个噬菌体CDS的筛选面板上，CPDD在随机掩码恢复准确性上优于可比扩散模型，并显著高于密码子水平参考。在混合损坏测试中，它恢复了42.4%的可见错误碱基。冻结的CPDD表示还支持infA适应性预测和七类噬菌体病毒粒子蛋白亚型分类。受控评估进一步表征了恢复如何依赖于可见上下文，并识别了改进更长范围序列恢复的机会。综合这些结果，支持支架条件序列建模作为迈向噬菌体基因组模块化设计的一步。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765118",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765118",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.11.07.765118/index.html"
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report generation of a single-cell multi-omic atlas of histone modifications and transcriptomes across eight human basal ganglia regions from neurotypical donors. They claim resolution of cell-type- and region-specific candidate cis-regulatory elements, delineation of gene regulatory networks, identification of homeobox transcription factor combinatorial expression as molecular descriptors of neuronal identity, integration with MERFISH spatial transcriptomics revealing regional heterogeneity, and use of the atlas to interpret noncoding risk variants and to construct a deep-learning model for predicting gene regulatory activities and variant effects.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, validation metrics, or data availability statements are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary information, data availability details, and any statistical or computational validation results
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable resource for the neuroscience and genomics communities. The scope is ambitious and the integration of chromatin state, transcriptome, and spatial data is timely. However, the abstract provides no quantitative evidence, no validation metrics, and no methodological specifics. The core claims, while plausible, cannot be assessed for technical soundness or robustness from the supplied material. The claim regarding homeobox transcription factor combinatorial expression as "distinctive molecular descriptors" is presented without supporting data. The deep-learning model claim lacks any performance metrics or benchmarking information. The interpretation of noncoding risk variants is stated without specificity regarding which disorders, which variants, or what analytical approach was used.
+- **Who would be interested in the results, and why** Neuroscientists studying basal ganglia function and dysfunction, particularly those interested in cell-type-specific gene regulation; computational biologists developing single-cell multi-omic and deep-learning approaches; geneticists studying neuropsychiatric disorders and noncoding variant interpretation; and researchers in spatial transcriptomics who may benefit from the integration strategy described.
+- **Major strengths** The study addresses a significant gap by providing a multi-omic single-cell atlas of a brain region central to many disorders. The integration of histone modification data with transcriptomes and spatial transcriptomics is a forward-looking design. The application of the atlas to variant interpretation and deep-learning prediction has clear translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The atlas "resolved cell-type- and region-specific landscapes of active and repressive candidate cis-regulatory elements and delineated gene regulatory networks underlying cell identity."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on the number of cells, number of donors, quality control metrics, or validation of the chromatin state calls. The term "candidate cis-regulatory elements" implies computational prediction, but no confirmation of these elements through orthogonal assays or functional validation is described.
+  - **Why it matters** Without evidence of data quality, cell-type resolution, and element validation, the foundational resource claim cannot be evaluated. The utility of the atlas for downstream applications depends entirely on the reliability of these annotations.
+  - **Resolution test** Provide cell counts, donor demographics, quality metrics (e.g., fraction of reads in peaks, number of peaks per cell type), and orthogonal validation of at least a subset of candidate elements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Integration with matched MERFISH spatial transcriptomics further uncovered regional heterogeneity in epigenomic and transcriptional programs."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how the integration was performed, what "regional heterogeneity" means quantitatively, or whether the spatial data were used to validate or extend the single-cell findings. The term "matched" is ambiguous with respect to whether the same donors or same regions were used.
+  - **Why it matters** Spatial integration is a key novelty of the study. Without methodological detail and quantitative outcomes, the claim of "uncovered regional heterogeneity" is unverifiable and may overstate the analytical power of the integration.
+  - **Resolution test** Describe the integration method, report the number of genes or elements showing regional heterogeneity, and show concordance between single-cell and spatial data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We used this atlas to interpret noncoding risk variants associated with neuropsychiatric disorders and to construct a deep-learning model that predicts gene regulatory activities and variant effects."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on which disorders, which variant sets, what statistical framework was used for variant interpretation, or how the deep-learning model was trained, validated, and benchmarked. The claim of predicting "variant effects" requires a clear definition of the prediction target and performance metrics.
+  - **Why it matters** These applications are the translational payoff of the atlas. Without performance metrics and comparison to existing methods, the added value of this model over published tools cannot be assessed.
+  - **Resolution test** Report the disorders and variant sets analyzed, provide model architecture and training details, and include benchmarking against existing predictors with quantitative metrics.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "combinatorial expression of homeobox transcription factors provides distinctive molecular descriptors" is jargon-heavy and may obscure the finding for readers outside developmental neurobiology.
+  - **Required correction** Clarify in plain terms what the combinatorial expression means functionally and why it matters for cell identity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how this atlas differs from or advances beyond existing single-cell atlases of the basal ganglia or brain regions.
+  - **Required correction** Add a sentence explicitly contrasting this resource with prior atlases, highlighting the unique multi-omic and spatial dimensions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of data availability, code availability, or accession numbers.
+  - **Required correction** Include a data availability statement in the abstract or indicate where this information can be found.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the technical validity of the atlas, the spatial integration, or the predictive model.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of single-cell histone modification profiling with transcriptomes and spatial transcriptomics in the basal ganglia appears novel, but the abstract does not allow verification of whether the analytical approaches are new or adapted from existing tools.
+  - Scientific importance: The basal ganglia are clinically significant, and a multi-omic resource could be highly valuable. However, the abstract does not demonstrate how the resource changes current understanding or enables new discoveries beyond what existing atlases provide.
+  - Interdisciplinary readership: The topic bridges neuroscience, genomics, and computational biology, and the abstract is likely to attract interest across these fields. The variant interpretation and deep-learning components broaden appeal to genetics and machine learning audiences.
+  - Technical soundness: Not assessable from the abstract. No metrics, validations, or methodological details are provided.
+  - Readability for nonspecialists: The abstract is generally clear but contains some specialized terminology that may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising resource, but the absence of quantitative results, validation, and methodological detail prevents assessment of whether the claims are supported. A full manuscript review would be required to determine if the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that the atlas "resolved" cell-type- and region-specific landscapes is unsupported without quality metrics and validation.
+- The claim that homeobox transcription factor combinatorial expression "provides distinctive molecular descriptors" is unsupported without specific data.
+- The claim that spatial integration "uncovered regional heterogeneity" is unsupported without quantitative outcomes.
+- The claim that the deep-learning model "predicts gene regulatory activities and variant effects" is unsupported without performance metrics or benchmarking.
+- The claim that the atlas was used to "interpret noncoding risk variants" is unsupported without specification of disorders, variants, or analytical framework.

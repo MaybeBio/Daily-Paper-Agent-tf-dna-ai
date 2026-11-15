@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43021963",
+  "title": "Integrative machine learning analysis of bulk and single-nucleus RNA sequencing reveals key cell types and biomarkers driving MASH-associated fibrosis.",
+  "authors": "Zhang, Junjie; Wang, Junjie; Shen, Yan; Zhang, Yirong; Luo, Zimeng; Kong, Xinyao; Li, Wang; Luo, Juan; Xu, Fei; Wan, Shaogui",
+  "journal": "Frontiers in cell and developmental biology",
+  "published_date": "2026-11-13",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究整合bulk和单核RNA测序数据，用机器学习识别MASH纤维化核心基因和细胞类型，虽涉及转录因子分析，但核心是转录组生物标志物发现，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Metabolic dysfunction-associated steatohepatitis (MASH) increases the risk of cirrhosis and liver cancer, with liver fibrosis being the primary determinant of adverse outcomes. However, the molecular mechanisms driving fibrosis progression in MASH remains incompletely understood. METHODS: We integrated four bulk RNA-seq datasets into a merged cohort (MergeCohort) and analyzed one single-nucleus RNA-seq (snRNA-seq) dataset. Robust Rank Aggregation (RRA), WGCNA and machine learning were combined to identify core genes associated with MASH fibrosis. Additionally, we established MASH mice model induced by methionine-choline-deficient (MCD) diet, and further check the expression of hub genes through quantitative real-time PCR (qRT-PCR). Single-nucleus transcriptomic profiling of liver tissues from MASH patients across distinct fibrosis stages was investigated to delineate cellular heterogeneity, reconstruct intercellular communication networks, and characterize key transcription factors (TFs) as well as receptor-ligand interactions involved in MASH-associated fibrosis. RESULTS: Based on the MergeCohort, we detected two key gene network modules associated with fibrosis progression in MASH through WGCNA. By integrating machine learning algorithms, we discovered seven core genes (CAPN6, FAP, KRT23, SOX4, STMN2, TAGLN and VWF) showing favorable discriminatory capability for fibrosis stage, achieving an area under the curve (AUC) of 0.81 (95% CI 0.69-0.93) in a distinct external cohort. Moreover, CAPN6, FAP and KRT23 showed directionally consistent upregulation in the liver tissues of MASH mouse model induced by MCD diet. Subsequently, applying cell-type deconvolution analysis, we assigned the predominant cell types (hepatic stellate cells (HSCs), cholangiocytes, hepatocytes and macrophages) to the key WGCNA modules. At the single-nucleus level, we identified FGF13(+) cholangiocytes and SAAs(+) hepatocytes subpopulations. Transcription factor regulon analysis identified key TFs (CREB5 and STAT3), which may play potential regulatory roles in FGF13(+) cholangiocytes and SAAs(+) hepatocytes. Cell-cell communication analysis further revealed crucial ligand-receptor pairs between HSCs and FGF13(+) cholangiocytes (VEGFA_NRP1 and APP_CD74 axes), SAAs(+) hepatocytes and HSCs (RSPO3_LGR4 and IGF1_IGF1R axes), SAAs(+) hepatocytes and macrophages (TNFSF14_TNFRSF14 and SELE_CD44 axes) associated with the progression of liver fibrosis in MASH. CONCLUSION: This combined approach defines molecular signatures related to MASH fibrosis that may inform the development of novel therapeutic strategies and serve as a tissue signature associated with advanced fibrosis in MASH.",
+  "abstract_zh": "背景：代谢功能障碍相关脂肪性肝炎（MASH）增加肝硬化和肝癌风险，其中肝纤维化是不良结局的主要决定因素。然而，驱动MASH纤维化进展的分子机制仍不完全清楚。方法：我们将四个批量RNA-seq数据集整合为一个合并队列（MergeCohort），并分析了一个单核RNA-seq（snRNA-seq）数据集。结合稳健秩聚合（RRA）、WGCNA和机器学习，以识别与MASH纤维化相关的核心基因。此外，我们建立了由甲硫氨酸-胆碱缺乏（MCD）饮食诱导的MASH小鼠模型，并通过定量实时PCR（qRT-PCR）进一步检查枢纽基因的表达。对来自不同纤维化阶段的MASH患者肝组织进行单核转录组分析，以描绘细胞异质性、重建细胞间通讯网络，并表征参与MASH相关纤维化的关键转录因子（TFs）及受体-配体相互作用。结果：基于MergeCohort，我们通过WGCNA检测到与MASH纤维化进展相关的两个关键基因网络模块。通过整合机器学习算法，我们发现了七个核心基因（CAPN6、FAP、KRT23、SOX4、STMN2、TAGLN和VWF），它们对纤维化阶段具有良好的区分能力，在独立外部队列中实现了0.81的曲线下面积（AUC）（95% CI 0.69-0.93）。此外，CAPN6、FAP和KRT23在MCD饮食诱导的MASH小鼠模型肝组织中表现出方向一致的表达上调。随后，应用细胞类型去卷积分析，我们将主要细胞类型（肝星状细胞（HSCs）、胆管细胞、肝细胞和巨噬细胞）分配到关键WGCNA模块。在单核水平上，我们识别出FGF13(+)胆管细胞和SAAs(+)肝细胞亚群。转录因子调节子分析识别出关键TFs（CREB5和STAT3），它们可能在FGF13(+)胆管细胞和SAAs(+)肝细胞中发挥潜在调控作用。细胞间通讯分析进一步揭示了与MASH肝纤维化进展相关的HSCs与FGF13(+)胆管细胞（VEGFA_NRP1和APP_CD74轴）、SAAs(+)肝细胞与HSCs（RSPO3_LGR4和IGF1_IGF1R轴）、SAAs(+)肝细胞与巨噬细胞（TNFSF14_TNFRSF14和SELE_CD44轴）之间的关键配体-受体对。结论：这种综合方法定义了与MASH纤维化相关的分子特征，可能为开发新型治疗策略提供信息，并作为MASH晚期纤维化的组织特征标志。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43021963/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43021963/",
+  "paper_page_path": "papers/pubmed/43021963/index.html"
+}
