@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors report a machine learning guided design pipeline for transcriptional activation domains (ADs), a class of intrinsically disordered proteins. They generated 500,000 candidate sequences, selected 18,750 for experimental testing in yeast, and found that over 90% of 16,770 well-measured sequences functioned as ADs. They further report that consensus predictions across multiple models identified stronger ADs, leading to the development of a predictor named MADRIGAL. They also claim that designed ADs retain functionality across fungi, plants, and human cells, and propose this as a generalizable paradigm for designing functional intrinsically disordered sequences.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, experimental protocols, statistical analyses, or cross-species validation data are visible
+- **Missing materials affecting confidence** Full text, all figures and tables, supplementary methods, model architecture details, training and validation datasets, experimental strain information, assay conditions, statistical tests, and cross-species experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially impactful approach to the design of functional intrinsically disordered proteins, a challenging problem in protein engineering. The reported success rate of over 90% for designed ADs in yeast is striking and, if robustly supported, would represent a significant advance. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the computational pipeline, the rigor of the experimental validation, or the strength of the cross-species claims. The central claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, transcriptional regulation, protein design, and intrinsically disordered protein biology would find these results relevant. The potential for designed ADs to function across diverse eukaryotic systems could interest plant biologists and those working on gene expression tools for biotechnology and agricultural applications. The general paradigm of using sequence-to-function models in a design loop may also appeal to the broader machine learning for biology community.
+- **Major strengths** The problem addressed is well motivated and of broad interest. The scale of the computational screen and experimental validation is substantial. The observation that consensus across multiple models predicts stronger activity is a useful and non-obvious finding. The demonstration of cross-species functionality, if well supported, would substantially increase the impact of the work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** ">90% of the 16,770 well-measured sequences function as ADs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports an exceptionally high functional hit rate but provides no information on the assay used to define AD function, the threshold for calling a sequence functional, the dynamic range of the assay, or the controls used. Without these details, it is impossible to assess whether the 90% figure reflects genuine biological activity or a permissive assay threshold.
+  - **Why it matters** The central claim of the paper rests on this success rate. If the assay is not sufficiently stringent or lacks appropriate negative controls, the headline result could be misleading. The definition of "function" is critical for interpreting all downstream claims.
+  - **Resolution test** Provide the assay details, including the reporter system, the threshold for activity relative to known positive and negative controls, and the distribution of activity scores across designed and control sequences. Show that the 90% figure is robust to reasonable variations in the activity threshold.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Sequences predicted to be active by multiple models were stronger, motivating development of a fast and accurate consensus AD predictor, MADRIGAL"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that consensus predictions identified stronger ADs and that MADRIGAL is "fast and accurate," but no performance metrics are provided. There is no information on how MADRIGAL was trained, validated, or benchmarked against existing predictors. The claim of accuracy cannot be evaluated without quantitative comparisons.
+  - **Why it matters** The development of a new predictor is a key deliverable of the work. If MADRIGAL is not rigorously benchmarked, its utility to the community is unclear, and the claim of improved performance over existing models is unsupported.
+  - **Resolution test** Provide MADRIGAL's architecture, training data, validation strategy, and quantitative comparisons against the three neural networks and other extant models on held-out test sets. Report standard metrics such as area under the receiver operating characteristic curve, precision-recall, and correlation with experimental activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** "A number of our designed ADs retain functionality across fungi, plants, and human cells"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The cross-species claim is broad and potentially impactful, but the abstract provides no experimental details. It is unclear how many sequences were tested in each system, what assays were used, what the magnitude of activity was relative to native ADs, and whether the same sequences were tested across all species.
+  - **Why it matters** Cross-species functionality is a strong claim that, if true, would distinguish this work from prior AD design efforts. However, the abstract does not allow assessment of whether the observed activity is biologically meaningful or merely detectable. The number of tested sequences and the consistency of results across species are critical.
+  - **Resolution test** Provide the number of sequences tested per species, the assay systems, the activity levels relative to appropriate positive and negative controls, and statistical comparisons. Clarify whether the same sequences were tested in all species and whether any species-specific patterns were observed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Summary text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "resembled known ADs" is vague. It is unclear what sequence features were used to define resemblance and how the 500,000 candidate sequences were generated.
+  - **Required correction** Specify the generative approach and the criteria used to define resemblance to known ADs, such as sequence composition, length, or specific physicochemical properties.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Summary text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the computational pipeline, the MADRIGAL model, or the experimental data will be made publicly available.
+  - **Required correction** State data and code availability, including model weights, training data, and experimental datasets, to enable reproducibility and community use.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Summary text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "extant machine learning models, including three neural networks" but does not name them or describe their provenance.
+  - **Required correction** Name the models used and provide citations or brief descriptions so readers can understand the baseline against which MADRIGAL is compared.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking. The abstract does not provide sufficient evidence to establish the central claims of high functional hit rate, predictor accuracy, or cross-species functionality. Without the full text and supporting data, the case is not established.
+- **Assessment against Nature-style criteria** Originality: The approach of using machine learning to design intrinsically disordered transcriptional activation domains is conceptually novel and extends beyond structured protein design. Scientific importance: If the claims are robust, the work could have broad implications for synthetic biology and gene regulation. Interdisciplinary readership: The topic bridges computational biology, protein engineering, and eukaryotic gene regulation, which could attract a wide audience. Technical soundness: Not assessable from the abstract alone; the lack of methodological detail and performance metrics is a major limitation. Readability for nonspecialists: The abstract is generally clear and accessible, though some terms such as "activation domains" and "intrinsically disordered" may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising results, but the absence of methodological detail, quantitative metrics, and experimental validation information prevents a supportive recommendation. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that over 90% of designed sequences function as ADs is unsupported without assay details and controls.
+- The claim that MADRIGAL is "fast and accurate" is unsupported without benchmarking data.
+- The claim that designed ADs retain functionality across fungi, plants, and human cells is unsupported without experimental details and quantitative results.
+- The generalizability of the paradigm to other intrinsically disordered proteins is asserted but not demonstrated.

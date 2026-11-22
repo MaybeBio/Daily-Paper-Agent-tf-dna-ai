@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43061981",
+  "title": "CKAN-SDBPI: Single-Stranded and Double-Stranded DNA-Binding Protein Identifier Using Convolutional Kolmogorov-Arnold Network with Local and Global-Features Fusion.",
+  "authors": "Arshad, Kamran; Arif, Muhammad; Yu, Dong-Jun",
+  "journal": "ACS synthetic biology",
+  "published_date": "2026-11-20",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用Ankh蛋白语言模型与卷积KAN融合局部-全局特征，预测单/双链DNA结合蛋白，属广义蛋白-DNA互作识别，方法可迁移至TF-DNA位点预测，但非聚焦TF-DNA结合机制。",
+  "abstract": "Single-stranded and double-stranded DNA-binding proteins play essential roles in DNA metabolism, regulation, and genome maintenance; however, accurate computational identification of these proteins remains challenging due to limited feature representation, complex sequence function relationships, and imbalanced classification distributions. Here, we propose CKAN-SDBPI, a multimodal deep learning framework that integrates global contextual protein representations with local structural-frequency descriptors for SSB/DSB protein identification. The proposed CKAN-SDBPI employs Ankh protein language model embeddings to capture global sequence information and RECM-DWT descriptors to characterize local structural-frequency patterns. These complementary representations are fused through a Convolutional Kolmogorov-Arnold Network (CKAN) to learn nonlinear interactions between heterogeneous feature spaces, while the SMOTETomek strategy is incorporated to improve balanced learning under class imbalance. CKAN-SDBPI was comprehensively evaluated using 5-fold cross-validation, an independent PDB401 test dataset, comparison with existing state-of-the-art predictors, and extensive ablation analyses. CKAN-SDBPI achieved robust predictive performance across validation experiments and demonstrated improved generalization capability on the independent test dataset. The independent evaluation showed that the proposed framework achieved an accuracy of 86.06%, MCC of 0.6238, AUC of 0.8911, and AUPRC of 0.9623. Moreover, ablation studies confirmed the contributions of SMOTETomek-based imbalance handling and CKAN-driven nonlinear feature fusion to the overall performance. Overall, these findings support CKAN-SDBPI as a promising computational method for sequence-based discrimination between SSBs and DSBs.",
+  "abstract_zh": "单链和双链DNA结合蛋白在DNA代谢、调控和基因组维持中发挥重要作用；然而，由于特征表示有限、序列功能关系复杂以及分类分布不平衡，这些蛋白的准确计算识别仍具挑战性。在此，我们提出CKAN-SDBPI，一种多模态深度学习框架，将全局上下文蛋白表示与局部结构频率描述符集成，用于SSB/DSB蛋白识别。所提出的CKAN-SDBPI采用Ankh蛋白语言模型嵌入以捕获全局序列信息，并使用RECM-DWT描述符表征局部结构频率模式。这些互补表示通过卷积Kolmogorov-Arnold网络（CKAN）融合，以学习异质特征空间之间的非线性交互，同时引入SMOTETomek策略以改善类别不平衡下的平衡学习。CKAN-SDBPI通过5折交叉验证、独立PDB401测试数据集、与现有最先进预测器的比较以及广泛消融分析进行了全面评估。CKAN-SDBPI在验证实验中实现了稳健的预测性能，并在独立测试数据集上展示了改进的泛化能力。独立评估显示，所提出的框架达到了86.06%的准确率、0.6238的MCC、0.8911的AUC和0.9623的AUPRC。此外，消融研究确认了基于SMOTETomek的不平衡处理和CKAN驱动的非线性特征融合对整体性能的贡献。总体而言，这些发现支持CKAN-SDBPI作为基于序列区分SSB和DSB的一种有前景的计算方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43061981/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43061981/",
+  "paper_page_path": "papers/pubmed/43061981/index.html"
+}

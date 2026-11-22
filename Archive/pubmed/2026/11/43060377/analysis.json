@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43060377",
+  "title": "Predicting single-molecule chromatin distribution from DNA sequence.",
+  "authors": "Wang, Ruoyu; Jin, Junru; Pott, Sebastian; Zhou, Jian",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-11-20",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出序列到分布(S2d)框架，用深度学习从DNA序列预测单分子染色质状态分布，并揭示转录因子与核小体互作模式，虽非直接TF-DNA结合建模，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "Genome regulation unfolds through dynamic and stochastic single-molecule events. Deep learning models that read gene regulatory activities from DNA sequences have markedly advanced our ability to predict cell-population-level averages. However, they cannot capture the full spectrum of heterogeneity and dynamics at the single-molecule level, which directly reflect the underlying mechanisms of genome regulation. Here, we introduce a sequence-to-distribution (S2d) framework that directly models the entire probabilistic distribution of single-molecule chromatin states from DNA sequence alone. We used this framework to train Mola, a model of single-molecule chromatin accessibility. We harness Mola to investigate sequence-based regulatory code and mechanisms for multiple aspects of chromatin regulation at the single-molecule level. By quantifying sequence-driven nucleosome regulation, we reveal distinct modes of transcription factor engagement with nucleosomes, including a novel nucleosome-trapping factor, ZNF146. We characterized the sequence determinants governing the +1 nucleosome after transcription start sites and identified YY1 as the strongest +1 nucleosome-positioning factor. Leveraging long-context single-molecule modeling, we further discovered a shared sequence basis for the co-accessibility of regulatory elements and the co-footprinting of transcription factors. Joint prediction of DNA methylation and accessibility reveals a sequence-driven bimodal state mediated by methylation-sensitive transcription factors. Beyond static single-molecule snapshots, the S2d framework can generate pseudo-dynamic trajectories of chromatin states and propose a roadmap toward genome-wide chromatin dynamics. Moreover, we showed that Mola can predict and interpret the effects of genetic variants at the single-molecule level, revealing how sequence changes reshape distal regulatory coordination. Together, this sequence-to-distribution framework lays the foundation for understanding how genomic sequence encodes stochastic and dynamic genome regulation, and how genetic variation changes it, one molecule at a time.",
+  "abstract_zh": "基因组调控通过动态且随机的单分子事件展开。从DNA序列读取基因调控活性的深度学习模型显著提升了我们预测细胞群体水平平均值的能力。然而，这些模型无法捕捉单分子水平上的全部异质性和动态性，而这些特性直接反映了基因组调控的潜在机制。在此，我们引入了一种序列到分布（sequence-to-distribution, S2d）框架，该框架仅从DNA序列直接建模单分子染色质状态的完整概率分布。我们利用此框架训练了Mola，一个单分子染色质可及性模型。我们借助Mola探究了单分子水平上染色质调控多个方面的基于序列的调控密码和机制。通过量化序列驱动的核小体调控，我们揭示了转录因子与核小体结合的不同模式，包括一种新型核小体捕获因子ZNF146。我们刻画了决定转录起始位点后+1核小体的序列决定因素，并鉴定出YY1是最强的+1核小体定位因子。利用长上下文单分子建模，我们进一步发现了调控元件共可及性和转录因子共足迹的共享序列基础。DNA甲基化和可及性的联合预测揭示了一种由甲基化敏感转录因子介导的序列驱动双峰状态。超越静态单分子快照，S2d框架能够生成染色质状态的伪动态轨迹，并提出了一条通往全基因组染色质动力学的路线图。此外，我们展示了Mola能够在单分子水平上预测和解释遗传变异的影响，揭示序列变化如何重塑远端调控协调。总之，这一序列到分布框架为理解基因组序列如何编码随机和动态的基因组调控，以及遗传变异如何逐分子改变它奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43060377/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43060377/",
+  "paper_page_path": "papers/pubmed/43060377/index.html"
+}

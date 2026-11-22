@@ -1,0 +1,9 @@
+# Machine learning guided design of strong transcriptional activation domains
+
+
+## Summary
+  Artificial intelligence has accelerated the design of structured proteins, but it remains difficult to design functional intrinsically disordered proteins because of weak structural constraints and poorly defined sequence-to-function relationships 1 . Activation domains (ADs), transcription factor regions that recruit coactivators, are an excellent test case for the de novo design of intrinsically disordered sequences. ADs are one of the oldest groups of functional intrinsically disordered sequences 2 and designed ADs have applications in synthetic biology, biotechnology, and agriculture. We computationally generated 500,000 candidate sequences that resembled known ADs and predicted AD function with extant machine learning models, including three neural networks. From high-scoring sequences, we selected 18,750 for experimental validation in yeast. Surprisingly, >90% of the 16,770 well-measured sequences function as ADs. Sequences predicted to be active by multiple models were stronger, motivating development of a fast and accurate consensus AD predictor, MADRIGAL. A number of our designed ADs retain functionality across fungi, plants, and human cells. This work illustrates a generalizable paradigm for incorporating sequence-to-function models into the design loop to efficiently generate functional intrinsically disordered sequences.
+
+
+## Full Text Availability
+  The license terms selected by the author(s) for this preprint version do not permit archiving in PMC. The full text is available from the preprint server.

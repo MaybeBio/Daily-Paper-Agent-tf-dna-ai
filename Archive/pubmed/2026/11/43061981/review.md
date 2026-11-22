@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose CKAN-SDBPI, a multimodal deep learning framework combining Ankh protein language model embeddings and RECM-DWT descriptors, fused via a Convolutional Kolmogorov-Arnold Network (CKAN), with SMOTETomek for class imbalance handling, for the identification of single-stranded and double-stranded DNA-binding proteins. Performance is reported on 5-fold cross-validation, an independent PDB401 test set, comparisons with state-of-the-art predictors, and ablation studies, with independent test accuracy of 86.06%, MCC of 0.6238, AUC of 0.8911, and AUPRC of 0.9623.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline specifications, or numerical results beyond those stated in the abstract
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, dataset construction details, hyperparameter settings, baseline predictor descriptions, statistical significance tests, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational approach for a relevant biological classification problem. The combination of protein language model embeddings with handcrafted descriptors and a novel fusion architecture is conceptually reasonable. However, the abstract alone provides insufficient detail to assess methodological rigor, reproducibility, or the validity of the performance claims. Several critical elements, including dataset composition, baseline fairness, and statistical robustness, cannot be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-binding protein identification, and deep learning applications in genomics. The work may also interest developers of protein language model-based tools and those addressing class imbalance in biological sequence classification.
+- **Major strengths** The proposed framework integrates complementary feature types, which is a sound strategy for capturing both global and local sequence properties. The use of an independent test set and ablation studies indicates an awareness of evaluation best practices. The reported AUPRC of 0.9623 suggests strong performance on the positive class, which is relevant for imbalanced classification tasks.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CKAN-SDBPI achieved robust predictive performance across validation experiments and demonstrated improved generalization capability on the independent test dataset."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports performance metrics on the independent test set but provides no comparison of these metrics against those obtained on the training or validation sets. Without this comparison, the claim of "improved generalization capability" cannot be substantiated. Furthermore, no confidence intervals, standard deviations, or statistical significance tests are reported for any of the stated metrics.
+  - **Why it matters** Generalization claims are central to the paper's contribution. If the independent test performance is substantially lower than cross-validation performance, the model may be overfitting. Conversely, if it is higher, this may indicate data leakage or test set contamination. Neither scenario can be ruled out from the abstract alone.
+  - **Resolution test** Provide a table comparing cross-validation and independent test metrics with confidence intervals and statistical tests (e.g., DeLong test for AUC differences). Clarify the relationship between the training and test datasets to rule out sequence similarity or redundancy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "comparison with existing state-of-the-art predictors"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that comparisons were made with existing predictors but provides no information on which predictors were used, how they were configured, whether they were retrained on the same data, or whether the same evaluation protocol was applied. Without this information, the comparative claims are unverifiable.
+  - **Why it matters** Fair benchmarking is essential for establishing the superiority of a new method. If baselines were not optimized or were evaluated under different conditions, the reported improvements may be artifactual.
+  - **Resolution test** List all baseline predictors with their versions, hyperparameters, and training procedures. Confirm that identical train/test splits and evaluation metrics were used for all methods. Provide per-baseline performance tables.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "CKAN-SDBPI employs Ankh protein language model embeddings to capture global sequence information and RECM-DWT descriptors to characterize local structural-frequency patterns."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the dimensionality of the Ankh embeddings, the parameters of the RECM-DWT descriptor extraction, the architecture of the CKAN (number of layers, kernel sizes, spline orders, etc.), or the training procedure (optimizer, learning rate, batch size, epochs, early stopping criteria). None of these details are recoverable from the abstract.
+  - **Why it matters** Reproducibility is a core requirement for computational biology tools. Without architectural and training details, other researchers cannot reimplement or independently validate the method.
+  - **Resolution test** Provide a complete methods section with all hyperparameters, architecture diagrams, and training configurations. Consider releasing code and trained models.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data integrity
+  - **Claim pointer** "an independent PDB401 test dataset"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the PDB401 test set was constructed, whether it shares sequence similarity with the training data, or how redundancy was controlled. The name suggests 401 proteins, but the class distribution, sequence length distribution, and homology filtering criteria are not stated.
+  - **Why it matters** If the test set contains sequences highly similar to training examples, the reported performance will be inflated. Conversely, if the test set is too dissimilar, performance may be underestimated. Both scenarios affect the validity of the generalization claim.
+  - **Resolution Test** Describe the construction of PDB401, including sequence identity thresholds, class balance, and any clustering or filtering steps. Report the maximum sequence identity between training and test sets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "local structural-frequency descriptors" is vague. It is unclear what "structural-frequency" refers to in the context of RECM-DWT.
+  - **Required correction** Clarify the biological or biophysical interpretation of the RECM-DWT features, or rephrase to describe the feature type more precisely.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports accuracy, MCC, AUC, and AUPRC for the independent test set but does not report sensitivity, specificity, or F1-score. For an imbalanced classification problem, these additional metrics are informative.
+  - **Required correction** Include sensitivity, specificity, and F1-score in the results, or justify their omission.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Ablation claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that ablation studies "confirmed the contributions" of SMOTETomek and CKAN fusion, but no effect sizes or statistical comparisons are provided.
+  - **Required correction** Report the magnitude of performance changes in ablations and indicate whether differences are statistically significant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Resource availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of code or data availability. For a computational tool, this is an important consideration for community adoption.
+  - **Required correction** State whether code, trained models, and datasets will be made publicly available, and under what license.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (generalization claim unsupported without train/test comparison and statistical tests), R1-M2 (baseline comparisons unverifiable), R1-M3 (method not reproducible from abstract), R1-M4 (test set construction and homology control not described)
+- **Assessment against Nature-style criteria** Originality: The combination of Ankh embeddings with RECM-DWT and a CKAN fusion layer appears novel, though the abstract does not allow assessment of whether this is a marginal increment over existing fusion approaches. Scientific importance: DNA-binding protein identification is a relevant problem, but the abstract does not articulate a clear biological or practical advance beyond existing tools. Interdisciplinary readership: The work is primarily of interest to computational biologists; the abstract does not frame the findings for a broader biological audience. Technical soundness: Cannot be assessed from the abstract alone; critical details on data, baselines, and statistics are missing. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible approach, but the core claims of improved generalization and superiority over existing methods cannot be verified without access to the full manuscript, detailed methods, and complete results. A supportive recommendation would require the authors to address the technical and statistical concerns identified above.
+
+## Risk / unsupported claims
+- The claim of "improved generalization capability" is unsupported without a direct comparison of cross-validation and independent test metrics.
+- The claim of superiority over "existing state-of-the-art predictors" is unverifiable without baseline specifications and fair comparison protocols.
+- The claim that ablation studies "confirmed the contributions" of SMOTETomek and CKAN is unsupported without effect sizes or statistical tests.
+- The overall performance metrics (accuracy 86.06%, MCC 0.6238, AUC 0.8911, AUPRC 0.9623) are reported without confidence intervals or measures of variability, making their reliability unassessable.
+- The suitability of the PDB401 test set as a truly independent evaluation is unassessable without details on sequence redundancy control.

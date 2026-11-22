@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43040031",
+  "title": "Predictive modeling of single-cell transcriptomic dynamics with Dynamo.",
+  "authors": "Zeng, Zehua; Yu, Sichao; Ni, Ke; Zhang, Yan; Shin, Ukyeon; Huang, Cinlong; Cao, Natalie; Weissman, Jonathan; Ellison, David; Xing, Jianhua; Qiu, Xiaojie",
+  "journal": "Nature protocols",
+  "published_date": "2026-11-17",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍单细胞转录组动力学预测工具Dynamo，虽涉及转录因子识别，但核心是细胞状态轨迹建模，非蛋白质-DNA互作或TF-DNA结合机制研究，方法为机器学习但无三维互作建模，与本课题关联较弱。",
+  "abstract": "Single-cell RNA sequencing (scRNA-seq) provides a powerful means to investigate cell fate dynamics during development and disease. However, existing computational approaches-such as RNA velocity-are often limited to qualitative and descriptive insights. We previously presented Dynamo, a machine learning framework that leverages noisy RNA velocity estimates to learn analytical and predictive vector fields of gene expression dynamics. These learned vector fields enable a suite of novel, quantitative analyses, including mapping the geometry of cell state transitions, identifying dynamic features of differentiation trajectories, inferring gene regulatory networks, predicting optimal paths and transcription factor cocktails for cellular reprogramming, and simulating in silico genetic perturbations. Here we provide a comprehensive protocol for applying Dynamo across four distinct data types and five downstream analyses, demonstrating its versatility in handling conventional and metabolic-labeling-enabled scRNA-seq, multiomic datasets and even datasets without velocity information. We also show that Dynamo can predict cell fate diversions following genetic perturbations and accurately identify key transcription factors that enable lineage transitions in the hematopoietic system. By enabling predictive modeling from single-cell data, our protocol aims to empower the development of generative and predictive models of single-cell genomics. While typical RNA velocity vector field analyses can be completed in less than an hour, the nine case studies in the Protocol can be completed in ~7 h and 35 min. The Protocol is designed for researchers with basic familiarity in scRNA-seq analysis and Python programming, although no advanced coding expertise is required.",
+  "abstract_zh": "单细胞RNA测序（scRNA-seq）为研究发育和疾病过程中的细胞命运动态提供了有力手段。然而，现有的计算方法——如RNA速率（RNA velocity）——通常局限于定性和描述性见解。我们此前提出了Dynamo，一个机器学习框架，利用噪声RNA速率估计来学习基因表达动力学的解析性和预测性向量场。这些学习到的向量场支持一系列新颖的定量分析，包括映射细胞状态转变的几何结构、识别分化轨迹的动态特征、推断基因调控网络、预测细胞重编程的最优路径和转录因子组合，以及模拟计算机内的遗传扰动。在此，我们提供了一个全面的协议，用于在四种不同数据类型和五种下游分析中应用Dynamo，展示其在处理常规和代谢标记启用的scRNA-seq、多组学数据集甚至无速率信息数据集方面的多功能性。我们还表明，Dynamo能够预测遗传扰动后的细胞命运转向，并准确识别造血系统中实现谱系转变的关键转录因子。通过从单细胞数据实现预测建模，我们的协议旨在赋能单细胞基因组学生成性和预测性模型的发展。虽然典型的RNA速率向量场分析可在不到一小时内完成，但协议中的九个案例研究约需7小时35分钟完成。该协议面向对scRNA-seq分析和Python编程有基本熟悉度的研究人员，尽管无需高级编码专业知识。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43040031/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43040031/",
+  "paper_page_path": "papers/pubmed/43040031/index.html"
+}

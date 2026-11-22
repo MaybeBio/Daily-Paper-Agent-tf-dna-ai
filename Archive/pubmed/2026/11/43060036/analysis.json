@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43060036",
+  "title": "Machine learning guided design of strong transcriptional activation domains.",
+  "authors": "Zintel, Marissa A; LeBlanc, Claire J; Kotha, Sanjana R; Soriano, Melvin; Bansal, Rishaan J; Aguilera, Daniel; Majidi, Touss; Ornelas, Izaiah; Kirkpatrick, Liam D; Udupa, Aditya; Hu, Gean; Agarwal, Pooja; Lam, Angelica W Y; Nunez, James K; Shih, Patrick M; Sozzani, Rosangela; Strader, Lucia C; Staller, Max V",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-11-20",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习设计转录激活域（AD）序列并实验验证功能，虽涉及转录因子功能域，但聚焦无序序列设计而非TF-DNA结合互作建模，方法可迁移但对象偏离核心。",
+  "abstract": "Artificial intelligence has accelerated the design of structured proteins, but it remains difficult to design functional intrinsically disordered proteins because of weak structural constraints and poorly defined sequence-to-function relationships (1) . Activation domains (ADs), transcription factor regions that recruit coactivators, are an excellent test case for the de novo design of intrinsically disordered sequences. ADs are one of the oldest groups of functional intrinsically disordered sequences (2) and designed ADs have applications in synthetic biology, biotechnology, and agriculture. We computationally generated 500,000 candidate sequences that resembled known ADs and predicted AD function with extant machine learning models, including three neural networks. From high-scoring sequences, we selected 18,750 for experimental validation in yeast. Surprisingly, >90% of the 16,770 well-measured sequences function as ADs. Sequences predicted to be active by multiple models were stronger, motivating development of a fast and accurate consensus AD predictor, MADRIGAL. A number of our designed ADs retain functionality across fungi, plants, and human cells. This work illustrates a generalizable paradigm for incorporating sequence-to-function models into the design loop to efficiently generate functional intrinsically disordered sequences.",
+  "abstract_zh": "人工智能加速了结构化蛋白质的设计，但对于功能性的固有无序蛋白质，由于结构约束较弱且序列-功能关系定义不清（1），设计仍然困难。激活域（ADs），即招募共激活因子的转录因子区域，是全新设计固有无序序列的绝佳测试案例。ADs是最早的功能性固有无序序列组之一（2），且设计的ADs在合成生物学、生物技术和农业中具有应用前景。我们通过计算生成了500,000个类似已知ADs的候选序列，并利用现有机器学习模型（包括三个神经网络）预测AD功能。从高评分序列中，我们选择了18,750个在酵母中进行实验验证。令人惊讶的是，在16,770个测量良好的序列中，超过90%的功能表现为ADs。多个模型预测为活跃的序列更强，这促使我们开发了一个快速且准确的共识AD预测器MADRIGAL。我们设计的许多ADs在真菌、植物和人类细胞中保持功能。这项工作展示了一种通用范式，将序列-功能模型纳入设计循环，以高效生成功能性固有无序序列。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43060036/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43060036/",
+  "paper_page_path": "papers/pubmed/43060036/index.html"
+}

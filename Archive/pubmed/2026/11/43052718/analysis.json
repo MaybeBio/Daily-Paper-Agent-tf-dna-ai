@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43052718",
+  "title": "MAMTF: a method for predicting transcription factor binding sites combining state-space modeling and adaptive feature fusion.",
+  "authors": "Zhang, Han; Luo, Junwei; Shen, Xiaohe; Luo, Fen",
+  "journal": "BMC bioinformatics",
+  "published_date": "2026-11-19",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出MAMTF深度学习方法，结合多尺度CNN、双向Mamba和跨门控融合模块预测转录因子结合位点，核心聚焦TF-DNA互作识别，方法为AI建模，高度匹配本课题。",
+  "abstract": "BACKGROUND: Transcription factor binding sites (TFBSs) are short sequences on DNA that can be recognized and bound by specific transcription factors (TFs). Accurate identification of TFBSs is crucial for decoding gene regulatory mechanisms and understanding cellular functions. Traditional machine learning-based methods rely on manually designed features, making it difficult to fully uncover the complex patterns within DNA sequences. In recent years, deep learning methods have demonstrated significant advantages in TFBSs prediction. However, existing methods still have shortcomings in terms of local and global feature extraction as well as feature fusion. RESULTS: To address these issues, we propose a deep learning method, MAMTF, designed to integrate local and global DNA features to improve the performance of TFBSs prediction. This method uses a multiscale convolutional neural network to extract local sequence features, employs a bidirectional Mamba architecture to capture long-range dependencies, and designs a cross-gated fusion module to achieve deep interaction between different features. On 165 ChIP-seq datasets encompassing 29 transcription factor (TF) categories, MAMTF achieves a macro-averaged ACC (0.819), ROC-AUC (0.895) and PR-AUC (0.900) over the 29 TF categories, showing promising prediction ability. CONCLUSIONS: Experimental results show that MAMTF outperforms other six methods in predicting TFBSs, exhibiting optimal and stable performance on 29 TF categories, providing a new tool for accurate TFBSs prediction.",
+  "abstract_zh": "背景：转录因子结合位点（TFBSs）是DNA上能够被特定转录因子（TFs）识别并结合的短序列。准确识别TFBSs对于解码基因调控机制和理解细胞功能至关重要。传统的基于机器学习的方法依赖于人工设计的特征，难以充分揭示DNA序列中的复杂模式。近年来，深度学习方法在TFBSs预测中展现出显著优势。然而，现有方法在局部和全局特征提取以及特征融合方面仍存在不足。结果：为解决这些问题，我们提出了一种深度学习方法MAMTF，旨在整合局部和全局DNA特征以提高TFBSs预测性能。该方法使用多尺度卷积神经网络提取局部序列特征，采用双向Mamba架构捕获长距离依赖关系，并设计了一个交叉门控融合模块以实现不同特征之间的深度交互。在涵盖29种转录因子（TF）类别的165个ChIP-seq数据集上，MAMTF在29个TF类别上实现了宏平均ACC（0.819）、ROC-AUC（0.895）和PR-AUC（0.900），显示出良好的预测能力。结论：实验结果表明，MAMTF在预测TFBSs方面优于其他六种方法，在29个TF类别上表现出最优且稳定的性能，为准确预测TFBSs提供了新工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43052718/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43052718/",
+  "paper_page_path": "papers/pubmed/43052718/index.html"
+}

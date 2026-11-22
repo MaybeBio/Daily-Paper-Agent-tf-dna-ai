@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.11.18.767614",
+  "title": "Proteome-scale inference of transcription factor binding motifs from predicted protein-DNA structures",
+  "authors": "Benjamin Iovino; Nash Bulaong; Louis Boahene; William Law; Nathan Hammond; Mark Potts; Rosio Alvarez; Joseph L DeRisi; John Pak; Yang Joon Kim; Loic Alain Royer",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-19",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文利用AlphaFold3预测蛋白-DNA结构并结合NA-MPNN推断转录因子结合基序，实现蛋白质组规模的TF-DNA互作建模，高度契合本课题的TF-DNA结合预测与AI方法核心。",
+  "abstract": "Transcription factors (TFs) control development and cell identity by binding sequence-specific DNA motifs, yet the binding specificities of most TFs remain unknown because experimental binding assays do not scale. In zebrafish, only one-third of TFs have assigned motifs, nearly all inferred by homology from human or mouse experimental data. Here we present a proteome-scale computational screen that infers DNA-binding specificity from predicted protein-DNA structures. We use AlphaFold3 to model zebrafish TFs with candidate motif sequences derived from accessible chromatin, then use NA-MPNN to infer the DNA motifs from the most confident predictions. Across 210 TFs with experimentally characterized orthologs, predicted motifs match the known motif for 44%. Propagated through sequence clusters, these predictions form ZebraMotif, a motif database for all 2,543 zebrafish TFs. ZebraMotif covers 2.8 times as many TFs as CisBP's zebrafish collection and links accessible regulatory elements to candidate upstream regulators genome-wide. Because the approach requires only a proteome and a set of candidate motifs, it is applicable to any species lacking experimental binding data.",
+  "abstract_zh": "转录因子（TFs）通过结合序列特异性的DNA基序来控制发育和细胞身份，然而由于实验性结合测定无法规模化，大多数TFs的结合特异性仍属未知。在斑马鱼中，仅有三分之一的TFs具有已分配的基序，且几乎全部是通过与人类或小鼠实验数据的同源性推断而来。在此，我们提出了一种蛋白质组规模的计算机筛选方法，该方法从预测的蛋白质-DNA结构中推断DNA结合特异性。我们使用AlphaFold3对斑马鱼TFs进行建模，并结合来自可及染色质的候选基序序列，随后利用NA-MPNN从最可信的预测中推断DNA基序。在210个具有实验表征直系同源物的TFs中，预测基序与已知基序的匹配率为44%。通过序列聚类传播，这些预测形成了ZebraMotif，一个涵盖所有2,543个斑马鱼TFs的基序数据库。ZebraMotif覆盖的TFs数量是CisBP斑马鱼集合的2.8倍，并在全基因组范围内将可及的调控元件与候选上游调控因子联系起来。由于该方法仅需蛋白质组和一组候选基序，因此适用于任何缺乏实验结合数据的物种。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767614",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767614",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.11.18.767614/index.html"
+}

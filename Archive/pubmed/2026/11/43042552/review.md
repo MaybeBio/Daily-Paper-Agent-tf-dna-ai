@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and limitations
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided manuscript text. Figures, supplementary materials, and raw data were not available for direct inspection.
+- **Shared manuscript claim summary** The authors combine PP7 stem-loop tagging of TERRA, CRISPR/Cas9 genome editing, live-cell imaging, deep-learning-based spot detection, and single-particle tracking to demonstrate that TERRA associates with telomeres through two distinct modes: transient interactions mediated by TRF2, and long-lasting interactions representing R-loops that preferentially occur at short telomeres and depend on HDR factors.
+- **Visible evidence base** Methods descriptions for cell culture, genome editing, live-cell imaging, image processing, and tracking; results narrative with references to figures and supplementary materials; discussion and limitations sections
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, supplementary movies, and raw quantitative data. Statistical details are referenced but not shown. The deep-learning model training details and validation metrics are not described in the visible text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question regarding the dynamics of TERRA association with telomeres in living cells. The authors present a technically ambitious approach combining genome editing, RNA tagging, and advanced microscopy. The central claim of two distinct modes of TERRA-telomere interaction is plausible and potentially significant. However, the evidence as presented in the text alone is insufficient to fully evaluate the robustness of the conclusions. Key quantitative data, control experiments, and validation metrics are referenced but not visible. The distinction between the two proposed interaction modes, the assignment of long-lasting interactions to R-loops, and the specificity of the TRF2-mediated transient interactions require closer scrutiny. The manuscript would benefit from clearer presentation of the statistical framework and from explicit discussion of potential artifacts in the tracking and colocalization analyses.
+- **Who would be interested in the results, and why** Researchers studying telomere biology, particularly those interested in TERRA function, telomere maintenance mechanisms, and ALT cancers. The work will also be of interest to scientists developing and applying single-molecule imaging approaches in living cells, and to those studying R-loop biology and its role in genome stability.
+- **Major strengths** The combination of PP7 tagging with CRISPR/Cas9 genome editing for live-cell imaging is a sophisticated and appropriate approach. The use of deep-learning-based spot detection represents a methodological advance. The inclusion of both short and long telomere cell lines allows for comparative analysis. The use of RNaseH1 overexpression and RAD51AP1 depletion as orthogonal perturbations to test the R-loop hypothesis is well conceived. The authors acknowledge limitations of their system, including the potential effects of PP7/PCP-GFP on TERRA diffusion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the two-mode classification
+  - **Claim pointer** The authors claim that TERRA associates with telomeres through two distinct modes: transient interactions and long-lasting interactions, distinguished by their dynamics.
+  - **Evidence pointer** Results section "TERRA associates with telomeres via two modes"; Figure 3
+  - **Concern** The classification of TERRA-telomere interactions into two discrete modes relies on the distribution of colocalization durations and on the application of filtering criteria (minimum 3.5 s tracking, 33% colocalization threshold). The text does not provide the underlying distributions, the criteria used to define the boundary between transient and long-lasting interactions, or the statistical basis for claiming bimodality. Without these data, it is difficult to assess whether the two modes represent genuinely distinct biological populations or are an artifact of the chosen thresholds.
+  - **Why it matters** The central claim of the manuscript rests on the existence of two distinct interaction modes. If the classification is threshold-dependent or does not reflect a true bimodal distribution, the conclusions would be substantially weakened.
+  - **Resolution test** Provide the full distribution of colocalization durations for both cell lines, with the fitted mixture model or alternative statistical test demonstrating bimodality. Show that the classification into two modes is robust across a range of reasonable thresholds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality for R-loop assignment
+  - **Claim pointer** The authors claim that long-lasting TERRA-telomere interactions represent R-loops, based on sensitivity to RNaseH1 overexpression and RAD51AP1 depletion.
+  - **Evidence pointer** Results section "Longer-lasting TERRA-telomere associations represent R-loops"; Figure 4
+  - **Concern** The text states that RNaseH1 overexpression had "no marked effects" on TERRA-telomere association duration in HeLa-10kb cells but reduced the longest interactions in HeLa-3kb cells to 8 s. The quantitative comparison, effect sizes, and statistical significance are not presented. Similarly, RAD51AP1 depletion is stated to decrease association duration, but the extent of depletion, the magnitude of the effect, and the statistical analysis are not shown. The conclusion that long-lasting interactions are R-loops depends critically on these perturbation experiments.
+  - **Why it matters** The assignment of long-lasting interactions to R-loops is a key conclusion with implications for understanding TERRA function at short telomeres. If the perturbation effects are partial or variable, the interpretation may be over-stated.
+  - **Resolution test** Present quantitative data with effect sizes and statistical tests for the RNaseH1 and RAD51AP1 experiments. Show that the reduction in long-lasting interactions is specific and reproducible. Consider complementary approaches such as S9.6 staining or DRIP-seq to corroborate R-loop assignment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of TRF2-mediated interactions
+  - **Claim pointer** The authors claim that TRF2 mediates transient interactions of TERRA with telomeres, based on TRF2 depletion experiments.
+  - **Evidence pointer** Results section "TRF2 mediates transient associations of TERRA with telomeres"; Figure 5
+  - **Concern** The text reports that TRF2 depletion reduced transient interaction times below 8 s in HeLa-3kb cells while long-lasting interactions remained unaffected. The specificity of this effect is not fully established. TRF2 depletion may have indirect effects on telomere structure or chromatin state that could alter TERRA dynamics. The text does not describe controls for off-target effects or for the specificity of the TRF2 phenotype versus other shelterin components.
+  - **Why it matters** The claim of a specific TRF2-mediated interaction mode has implications for the molecular model proposed. If the effect is indirect or non-specific, the model would need revision.
+  - **Resolution test** Include controls such as depletion of other shelterin components (e.g., TRF1, TIN2) to show specificity. Consider rescue experiments with RNAi-resistant TRF2 constructs. Show that telomere integrity is not grossly affected by TRF2 depletion in the imaging timeframe.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the system
+  - **Claim pointer** The authors use transgenic TERRA expressed from chromosome-internal sites as a proxy for endogenous TERRA and generalize their findings to endogenous TERRA behavior.
+  - **Evidence pointer** Results section "A system for TERRA and telomere live cell imaging"; Discussion; Limitations
+  - **Concern** The authors acknowledge that their system cannot detect co-transcriptional association of endogenous TERRA with telomeres and that PP7/PCP-GFP may alter TERRA diffusion. However, the extent to which transgenic TERRA recapitulates endogenous TERRA behavior is not directly validated. The manuscript does not describe experiments comparing transgenic and endogenous TERRA localization or dynamics.
+  - **Why it matters** The conclusions are framed as general principles of TERRA biology. If the transgenic system introduces biases, the generalizability of the findings would be limited.
+  - **Resolution test** Provide evidence that transgenic TERRA behaves similarly to endogenous TERRA, for example by comparing subnuclear localization patterns, or by validating key findings with an orthogonal approach for endogenous TERRA.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Deep-learning spot detection
+  - **Evidence pointer** Materials and methods, "Image processing and single particle tracking"
+  - **Issue** The description of the deep-learning-based spot detection is brief. Details on the training data, model architecture, validation on ground truth, and performance metrics are not provided in the visible text.
+  - **Required correction** Provide a more detailed description of the deep-learning approach, including training set composition, validation strategy, and detection accuracy, or cite the original method paper with specifics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative comparisons
+  - **Evidence pointer** Results sections; figure legends referenced but not visible
+  - **Issue** The text frequently states differences or lack of effects without reporting sample sizes, number of cells analyzed, number of independent experiments, or statistical test results.
+  - **Required correction** Ensure that all quantitative claims are accompanied by appropriate statistical details, either in the text or in figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of colocalization
+  - **Affected element** Colocalization analysis
+  - **Evidence pointer** Materials and methods, "Tracks processing and analysis"
+  - **Issue** The colocalization threshold of 0.33 µm and the requirement of 5 colocalizing spot pairs are described, but the rationale for these specific values and the sensitivity of the results to these parameters are not discussed.
+  - **Required correction** Briefly justify the chosen thresholds and discuss the robustness of the findings to reasonable variations in these parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of model
+  - **Affected element** Proposed model in Discussion
+  - **Evidence pointer** Discussion; Figure 6
+  - **Issue** The proposed model describes two parallel pathways but does not fully address how they might be coordinated or whether they are mutually exclusive at the level of individual TERRA molecules.
+  - **Required correction** Clarify whether individual TERRA molecules can switch between the two modes, and discuss the potential relationship between the two pathways.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Two modes" terminology
+  - **Evidence pointer** Throughout
+  - **Issue** The term "modes" is used to describe both transient and long-lasting interactions, but the distinction between these modes is based on duration, which is a continuous variable. The use of discrete categories may oversimplify the underlying biology.
+  - **Required correction** Consider discussing whether the two modes represent truly distinct molecular mechanisms or whether they represent extremes of a continuum of interaction durations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claims of two distinct interaction modes and the assignment of long-lasting interactions to R-loops cannot be fully evaluated from the text alone. The quantitative data underlying these claims must be presented and statistically robust.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of live-cell single-molecule imaging to TERRA-telomere interactions is novel and addresses a gap in the field. The two-mode model is a new conceptual framework.
+  - Scientific importance: Understanding TERRA dynamics at telomeres has implications for telomere maintenance, aging, and cancer biology. The findings could influence models of ALT and senescence.
+  - Interdisciplinary readership: The topic is of interest to molecular biologists, cell biologists, and cancer researchers. The methodological aspects may appeal to biophysicists and imaging specialists.
+  - Technical soundness: The approach is sophisticated, but the evidence as presented is incomplete. Key validations and quantitative analyses are not visible in the text.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methodological details assume familiarity with advanced imaging and tracking techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is interesting and the approach is appropriate, but the evidence as presented in the text is insufficient to fully establish the two-mode model and the R-loop assignment. The authors should provide the missing quantitative data and validations.
+
+## Risk / unsupported claims
+- The claim that TERRA associates with telomeres through two distinct modes is not fully supported by the visible evidence; the distribution of interaction durations and the statistical basis for bimodality are not presented.
+- The assignment of long-lasting interactions to R-loops is based on perturbation experiments whose quantitative results are not shown.
+- The claim that TRF2 mediates transient interactions is not fully supported without specificity controls.
+- The generalizability of findings from transgenic TERRA to endogenous TERRA is asserted but not directly validated.
+- The statement that "20% of the interactions in HeLa-3kb persisted even throughout the 5 min duration of the movies" is presented without confidence intervals or sample sizes.
+- The claim that RNaseH1 overexpression had "no marked effects" in HeLa-10kb cells is vague and requires quantitative support.

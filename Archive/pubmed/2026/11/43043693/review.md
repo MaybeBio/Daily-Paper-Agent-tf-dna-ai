@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to show that client intrinsically disordered regions partition selectively into condensates formed by MED1 and FUS scaffolds, that RNA modulates this partitioning, that residue-resolved interaction energies localize to specific sequence features (charged blocks for MED1, dispersed aromatics for FUS), and that sequence-based predictors built from these energies can forecast client partitioning.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures, simulation parameters, force field details, predictor architecture and performance statistics, experimental validation data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable computational framework for predicting client partitioning into biomolecular condensates, with a plausible mechanistic narrative linking residue-resolved interaction energies to sequence features. However, the abstract alone provides insufficient quantitative detail to assess the robustness of the simulations, the predictive accuracy of the proposed models, or the generalizability of the approach. The central claims are reasonable but currently rest on evidence that cannot be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, particularly those focused on phase separation mechanisms, intrinsically disordered protein function, and sequence determinants of condensate composition. Computational biophysicists developing coarse-grained models for condensate systems would also find the approach relevant. The potential to predict client partitioning from sequence could interest experimentalists seeking design rules for synthetic condensates or for interpreting disease-associated mutations in disordered regions.
+- **Major strengths** The study addresses a significant open question in the condensate field, namely the molecular determinants of selective client recruitment. The use of two distinct scaffold types (charge-rich MED1 and aromatic-rich FUS) provides a comparative framework. The claim that residue-resolved interaction energies can be translated into sequence-based predictors is conceptually appealing and, if validated, would offer practical utility. The inclusion of RNA as a modulating factor adds biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that coarse-grained molecular dynamics simulations reveal distinct partitioning of six client IDRs into MED1 and FUS condensates, and that client-scaffold interaction energies are associated with partitioning.
+  - **Evidence pointer** Abstract only; no simulation details, force field parameters, or quantitative partitioning data are provided
+  - **Concern** The abstract provides no information about the coarse-grained model used, including the resolution of the representation, the interaction potentials, or the parameterization strategy. Without this information, it is impossible to assess whether the simulations are physically reliable or whether the observed partitioning behavior is an artifact of the model rather than a property of the real systems.
+  - **Why it matters** Coarse-grained simulations of condensates are highly sensitive to model parameters, particularly the balance between scaffold-scaffold, scaffold-client, and client-client interactions. If the model is not adequately validated against experimental data or atomistic simulations, the reported partitioning trends and interaction energies may not be transferable to real biological systems.
+  - **Resolution test** Provide full simulation methods, including model resolution, force field parameters, equilibration protocols, and system sizes. Include validation of the model against experimental condensate properties (e.g., density, surface tension, or known partitioning behavior) and demonstrate that the results are robust to reasonable parameter variations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that sequence-based predictors of client partitioning into MED1 and FUS condensates were developed using residue-resolved interaction energies from the simulations.
+  - **Evidence pointer** Abstract only; no predictor architecture, training procedure, feature set, or performance metrics are provided
+  - **Concern** The abstract states that predictors were developed but gives no indication of their accuracy, generalizability, or validation. It is unclear whether the predictors were tested on held-out sequences, whether they outperform simpler sequence-based features (e.g., charge patterning or aromatic content), or whether they can predict partitioning for clients beyond the six used in the study.
+  - **Why it matters** A predictive model is only useful if its accuracy is quantified and if it generalizes beyond the training set. Without performance metrics and external validation, the claim that the approach "can be extended to other biomolecules" is unsupported.
+  - **Resolution test** Provide predictor performance metrics (e.g., correlation coefficients, classification accuracy) on training and held-out test sets. Compare against baseline predictors using simple sequence features. Demonstrate generalization to at least one client not included in the original six.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that RNA modulates client partitioning in both dilute and dense phases.
+  - **Evidence pointer** Abstract only; no data on RNA concentration, sequence, or binding mode are provided
+  - **Concern** The abstract mentions that RNA modulates partitioning but does not specify the direction or magnitude of the effect, nor whether the modulation is sequence-specific or generic. It is also unclear whether RNA acts by competing with client-scaffold interactions, by altering scaffold network stability, or by other mechanisms.
+  - **Why it matters** RNA is a major component of many condensates, and understanding its role in client partitioning is biologically important. However, the current claim is too vague to evaluate its significance or to guide follow-up experiments.
+  - **Resolution test** Provide quantitative data on how RNA concentration and sequence affect client partitioning in both phases. Clarify the mechanistic basis for the modulation, for example by showing changes in interaction energies or scaffold network properties in the presence of RNA.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses terms such as "charge-rich disordered region" and "aromatic-rich disordered region" without defining the sequence features that distinguish them. Nonspecialist readers may not immediately grasp the significance of these distinctions.
+  - **Required correction** Briefly define the key sequence features (e.g., net charge, fraction of charged residues, aromatic residue content) in the abstract or provide a one-sentence context for why these features are expected to drive different interaction modes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The final sentence claims the prediction approach "can be extended to other biomolecules," but the abstract only demonstrates application to six client IDRs with two scaffolds. The scope of the claim exceeds the visible evidence.
+  - **Required correction** Soften the claim to indicate that the framework is expected to be extendable, pending validation on additional systems, or provide preliminary evidence for extension to at least one non-IDR client or a different scaffold.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Interaction energy analysis
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that interactions were "localized to specific sequence regions" but does not specify how this localization was determined or whether it was statistically robust across simulation replicates.
+  - **Required correction** Briefly describe the method for identifying localized interaction regions (e.g., per-residue energy decomposition with error bars) and state whether the localization was consistent across independent simulations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of mechanistic insight and predictive utility cannot be evaluated without simulation details and predictor validation. R1-M3 is non-blocking but requires clarification to assess its significance.
+- **Assessment against Nature-style criteria** Originality: The approach of using residue-resolved interaction energies to build sequence-based predictors for condensate partitioning appears novel, though the abstract does not fully distinguish it from prior computational studies of condensate selectivity. Scientific importance: The question of what determines client partitioning is central to condensate biology, and a predictive framework would be valuable. Interdisciplinary readership: The work bridges computational biophysics, protein chemistry, and cell biology, and should appeal to a broad audience if the methods are made accessible. Technical soundness: Currently not assessable from the abstract alone; the lack of simulation and validation details prevents evaluation of the reliability of the results. Readability for nonspecialists: The abstract is generally clear but uses field-specific terminology without sufficient context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the question is important, but the abstract does not provide enough evidence to establish the validity of the simulations or the predictive power of the models. Full manuscript review is necessary to assess these aspects.
+
+## Risk / unsupported claims
+- The claim that client-scaffold interaction energies are "associated with" client partitioning is unsupported without quantitative correlation data.
+- The claim that interactions are localized to "charged blocks" and "dispersed aromatic residues" is unsupported without per-residue energy profiles or statistical analysis.
+- The claim that the prediction approach "can be extended to other biomolecules" is unsupported without evidence of generalization beyond the six clients studied.
+- The claim that RNA modulates partitioning is unsupported without data on the direction, magnitude, or mechanism of the effect.
+- The overall claim of a "molecular and predictive understanding" is not established from the abstract alone, as no predictive accuracy metrics are provided.

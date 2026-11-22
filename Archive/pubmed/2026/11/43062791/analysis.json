@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43062791",
+  "title": "A Hierarchical KAN-Augmented Graph Convolutional Model for Inferring Cell-Type-Specific Gene Regulations in Single-Cell Omics.",
+  "authors": "Tang, Binhua; Mao, Mengyao; Wang, Jingyu; Zhou, Fengfeng",
+  "journal": "Interdisciplinary sciences, computational life sciences",
+  "published_date": "2026-11-20",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图卷积与KAN网络从单细胞数据推断基因调控网络，虽聚焦TF-靶基因关系但缺乏三维结构互作建模，方法可迁移至TF-DNA结合预测，属广义蛋白-DNA互作相关。",
+  "abstract": "Accurate inference of gene regulatory networks (GRNs) from single-cell RNA-seq data remains challenging due to the complexity of transcription factor (TF)-target interactions and the difficulty in capturing both local and global regulatory dependencies. Here, we present GeneKAN, a novel deep learning framework that integrates multiscale graph convolution with Kolmogorov-Arnold Networks (KANs) for robust GRN inference. GeneKAN employs a kernel-based graph convolution module to hierarchically encode gene representations, while KANs model high-order, interpretable TF-target relationships through learnable spline activations. Benchmarking against eleven existing models, and seven scRNA-seq datasets from BEELINE, including diverse cell types, species, and ground-truth networks (ChIP-seq, STRING, LOF/GOF), demonstrates that our proposed GeneKAN achieves state-of-the-art performance in both AUROC and AUPRC. Ablation studies of the proposed model confirm the necessity of each component. Biological validation on human hepatocyte and lung cancer datasets reveals that GeneKAN not only recovers known regulatory interactions with high precision but also identifies functionally relevant hub genes and oncogenic pathways. GeneKAN thus offers a powerful, interpretable, and scalable solution for GRN reconstruction under real-world conditions of data sparsity and noise, with significant potential for advancing systems biology and precision medicine.",
+  "abstract_zh": "从单细胞RNA-seq数据中准确推断基因调控网络（GRNs）仍具挑战性，原因在于转录因子（TF）-靶标相互作用的复杂性，以及难以同时捕捉局部和全局调控依赖性。在此，我们提出GeneKAN，一种新颖的深度学习框架，将多尺度图卷积与Kolmogorov-Arnold网络（KANs）相结合，用于稳健的GRN推断。GeneKAN采用基于核的图卷积模块分层编码基因表示，而KANs通过可学习的样条激活函数建模高阶、可解释的TF-靶标关系。与十一个现有模型及来自BEELINE的七个scRNA-seq数据集（涵盖多种细胞类型、物种和真实网络（ChIP-seq、STRING、LOF/GOF））的基准测试表明，我们提出的GeneKAN在AUROC和AUPRC方面均达到最先进性能。对所提模型的消融研究确认了每个组件的必要性。在人类肝细胞和肺癌数据集上的生物学验证揭示，GeneKAN不仅以高精度恢复已知调控相互作用，还识别出功能相关的枢纽基因和致癌通路。因此，GeneKAN为在数据稀疏和噪声的真实条件下重建GRN提供了一种强大、可解释且可扩展的解决方案，在推进系统生物学和精准医学方面具有显著潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43062791/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43062791/",
+  "paper_page_path": "papers/pubmed/43062791/index.html"
+}

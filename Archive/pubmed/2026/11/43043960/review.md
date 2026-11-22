@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supporting information list)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to provided evidence, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose that oxfendazole (OFN), identified via single-cell RNA sequencing and the Beyondcell drug-screening platform, inhibits osteosarcoma-induced osteolysis by suppressing osteoclast formation through downregulation of ANXA2, potentially via interaction with the transcription factor ZNF530. This claim is supported by in vitro osteoclastogenesis assays, an in vivo tibial orthotopic model, and molecular dynamics simulations.
+- **Visible evidence base** ScRNA-seq analysis of GSE162454 (6 osteosarcoma samples, 29,278 cells), Beyondcell drug sensitivity predictions, in vitro RAW264.7 osteoclast differentiation assays with ANXA2 and ZNF530 modulation, in vivo mouse xenograft model with micro-CT and histopathology, molecular docking and MD simulations, Western blot and qRT-PCR data.
+- **Missing materials affecting confidence** Figures and supplementary figures/tables referenced (Fig 1–8, S1–S5, S1–S4 Tables, S1 Raw Gel) are not provided. No raw data, statistical details (e.g., exact p-values, effect sizes, replicates) for most experiments, no cell viability data beyond IC50, no details on antibody validation, no sample size justification for in vivo study, no code or analysis scripts.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant problem, osteosarcoma-induced osteolysis, and proposes a novel therapeutic candidate with a plausible mechanistic hypothesis. The integration of scRNA-seq with a drug-screening platform is innovative, and the combination of computational and experimental approaches is commendable. However, the evidence as presented is insufficient to fully establish the mechanistic claims. Key weaknesses include: (1) the link between OFN, ZNF530, and ANXA2 is supported only by correlative and in silico data, with no direct binding or transcriptional assays; (2) the in vivo study has a very small sample size (n=3 per group) and lacks functional readouts beyond histology; (3) the specificity of OFN for the proposed pathway is not demonstrated; (4) several methodological details are missing, limiting reproducibility. The manuscript has potential but requires substantial revision and additional experiments to substantiate the central claims.
+- **Who would be interested in the results, and why** Researchers in bone oncology, osteoclast biology, drug repurposing, and computational pharmacology would find this work relevant. The use of scRNA-seq and Beyondcell to identify drugs targeting non-malignant cells in the tumor microenvironment is of broad interest to the single-cell and drug-discovery communities. Clinicians managing osteosarcoma and its skeletal complications may also be interested in the potential therapeutic implications.
+- **Major strengths** 1. Clinically relevant and under-addressed problem: osteosarcoma-induced osteolysis. 2. Innovative use of scRNA-seq and Beyondcell to screen drugs against non-malignant osteoclast precursors. 3. Multi-level validation approach (in silico, in vitro, in vivo, computational chemistry). 4. Identification of ANXA2 as a potential key regulator of osteoclast maturation in osteosarcoma. 5. Clear writing and logical structure.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "OFN may interact with the transcription factor ZNF530, leading to reduced ANXA2 transcription" and "OFN downregulates ANXA2 expression via binding to transcription factor ZNF530."
+  - **Evidence pointer** Section 3.7, Fig 7, Fig 8
+  - **Concern** The claim that OFN regulates ANXA2 through ZNF530 is not directly supported. Molecular docking and MD simulations suggest a potential interaction, but no experimental evidence demonstrates direct binding between OFN and ZNF530 (e.g., surface plasmon resonance, isothermal titration calorimetry, cellular thermal shift assay). Furthermore, the functional data show that ZNF530 knockdown decreases ANXA2 and overexpression partially rescues OFN-mediated suppression, but this does not establish that OFN acts through ZNF530. OFN could affect ANXA2 through other mechanisms, and ZNF530 overexpression may simply counteract OFN effects independently. No chromatin immunoprecipitation or reporter assays confirm ZNF530 as a direct transcriptional regulator of ANXA2.
+  - **Why it matters** The proposed mechanism is central to the manuscript's conclusion. Without direct evidence of OFN-ZNF530 binding and ZNF530-mediated transcriptional control of ANXA2, the mechanistic model remains speculative.
+  - **Resolution test** Provide direct binding assays (e.g., MST, ITC, CETSA) for OFN-ZNF530 interaction. Demonstrate ZNF530 binding to the ANXA2 promoter (ChIP-qPCR) and show that ZNF530 knockdown/overexpression alters ANXA2 promoter activity (luciferase reporter). Show that OFN's effect on ANXA2 is abolished in ZNF530-knockout cells.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo evidence
+  - **Claim pointer** "oral administration of OFN via gavage effectively suppressed osteoclast formation and osteolytic activity, as confirmed by micro-CT and histopathological analyses."
+  - **Evidence pointer** Section 3.5, Fig 5
+  - **Concern** The in vivo study uses only 3 mice per group, which is a very small sample size for drawing robust conclusions. No power analysis is provided. The micro-CT and histopathology data are described qualitatively; no quantitative data (e.g., bone volume fraction, osteoclast number per bone surface) are presented in the text. The manuscript does not report whether the animals were randomized, blinded for analysis, or whether any animals were excluded. The OFN dose and regimen are not justified.
+  - **Why it matters** The in vivo efficacy is a key translational claim. Inadequate sample size and lack of quantitative, blinded analysis undermine the reliability of the conclusion that OFN protects bone in osteosarcoma.
+  - **Resolution test** Increase sample size (with power calculation), provide quantitative micro-CT parameters (BV/TV, trabecular number/thickness) and histomorphometric data (osteoclast surface/bone surface), and describe randomization and blinding procedures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity and off-target effects
+  - **Claim pointer** "OFN attenuates osteoclastogenesis and bone resorption by suppressing ANXA2 expression."
+  - **Evidence pointer** Section 3.4, Fig 4
+  - **Concern** The manuscript does not address whether OFN's effects are specific to ANXA2 or whether OFN affects other pathways relevant to osteoclastogenesis. OFN is known to bind tubulin, and its effects on cell viability (IC50 25.42 μM) may confound the osteoclast differentiation results. The rescue experiment with ANXA2 overexpression only partially restores osteoclast formation, suggesting additional mechanisms may be involved. No data are shown for potential effects of OFN on osteoclast precursor proliferation, apoptosis, or other signaling pathways (e.g., NFATc1, c-Fos).
+  - **Why it matters** For a drug repurposing claim, understanding specificity and potential off-target effects is essential for assessing therapeutic viability and safety.
+  - **Resolution test** Assess OFN's effect on osteoclast precursor proliferation and apoptosis. Examine expression of key osteoclastogenic transcription factors (NFATc1, c-Fos) and signaling pathways. Test whether ANXA2 overexpression fully rescues OFN effects, and explore other potential targets via transcriptomic or proteomic profiling.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** Multiple claims of significant differences (e.g., "significantly reduced", "significantly increased") throughout results.
+  - **Evidence pointer** Sections 3.3–3.6, Figs 3–6, 8
+  - **Concern** Statistical details are largely absent. The manuscript does not report the number of independent replicates for in vitro experiments, the statistical tests used, or the exact p-values for most comparisons. Figure legends are not provided, so it is unclear what error bars represent (SD vs. SEM) and what statistical comparisons were performed. The Western blot quantification appears to lack statistical analysis.
+  - **Why it matters** Transparent and rigorous statistical reporting is essential for evaluating the reliability of the findings and for reproducibility.
+  - **Resolution test** Provide complete statistical details for all experiments: number of replicates, statistical tests, exact p-values, and effect sizes. Ensure figure legends describe error bars and significance levels.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The title contains a typographical error: "seqsuencing" should be "sequencing." The abstract states "But OFN alone did not significantly inhibit osteosarcoma growth," which is an important negative finding but is presented in a somewhat informal manner.
+  - **Required correction** Correct the typo in the title. Rephrase the sentence in the abstract for clarity and formality, e.g., "OFN alone did not significantly inhibit osteosarcoma growth."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 2.9
+  - **Evidence pointer** Section 2.9
+  - **Issue** The molecular dynamics simulation section lacks critical parameters: force field version, water model, temperature/pressure coupling, simulation time per replicate, and convergence criteria. The statement "Each MD simulation was independently repeated three times" is vague.
+  - **Required correction** Provide full simulation parameters and describe how convergence was assessed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The manuscript does not state the accession number for the scRNA-seq dataset GSE162454 or provide details on how the data were accessed and preprocessed beyond brief descriptions.
+  - **Required correction** Provide the GEO accession and describe preprocessing steps in sufficient detail for reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion completeness
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion does not address the discrepancy between the in vitro and in vivo findings regarding OFN's effect on tumor growth. The authors note OFN did not inhibit tumor growth in vivo, but the discussion focuses primarily on bone protection without exploring potential implications for clinical use.
+  - **Required correction** Add a paragraph discussing the implications of OFN's lack of anti-tumor effect and how it might be combined with cytotoxic therapies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct binding and transcriptional regulation evidence), R1-M2 (in vivo sample size and quantitative analysis), R1-M3 (specificity of OFN effects), R1-M4 (statistical reporting).
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of Beyondcell to non-malignant osteoclast precursors is a novel angle, and OFN is not previously reported for osteosarcoma-induced osteolysis. However, the concept of targeting osteoclasts in osteosarcoma is established, and the proposed mechanism (ANXA2, ZNF530) requires stronger validation to be considered a significant advance.  
+  - **Scientific importance** Potentially high if the mechanism is confirmed, as osteosarcoma-induced osteolysis is an unmet clinical need. However, the current evidence is preliminary and does not yet establish clinical relevance.  
+  - **Interdisciplinary readership** The work bridges single-cell genomics, pharmacology, and bone biology, which could appeal to a broad audience. However, the depth of each component is limited, and the lack of mechanistic detail may reduce impact.  
+  - **Technical soundness** The computational analyses are generally sound, but the experimental validation is incomplete. The in vivo study is underpowered, and the mechanistic link between OFN, ZNF530, and ANXA2 is not rigorously established.  
+  - **Readability for nonspecialists** The manuscript is clearly written and logically structured, but some sections (e.g., MD simulation) may be challenging for non-experts. The abstract is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and preliminary data, but the central mechanistic claims are not sufficiently supported. Major revisions, including additional experiments to directly test the OFN-ZNF530-ANXA2 axis and a more robust in vivo study, are required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that OFN "interacts with" ZNF530 is unsupported; only in silico docking and MD simulations are provided, which are predictive, not confirmatory.
+- The claim that ZNF530 is a direct transcriptional regulator of ANXA2 is unsupported; no ChIP, reporter, or electrophoretic mobility shift assay data are shown.
+- The in vivo claim of "effectively suppressed osteoclast formation and osteolytic activity" is weakly supported due to the small sample size (n=3) and lack of quantitative data.
+- The statement that OFN "downregulates ANXA2 expression" in vivo is based on IHC, but the quantification method and statistical significance are not described.
+- The claim that OFN's effects are mediated specifically through ANXA2 is not fully established, as the rescue experiment only partially restores osteoclast formation.
+- The applicability of Beyondcell to non-malignant cells is asserted but not rigorously justified; the manuscript acknowledges this but does not provide validation of the platform's predictions in this context.

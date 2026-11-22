@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.11.15.766769",
+  "title": "Savant: A Fast, Structure-Free Binding Affinity Predictor For Protein-Ligand Drug Screening",
+  "authors": "Sayal Guirales-Medrano; Colby T. Ford; Daniel Janies",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-17",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于序列和SMILES的蛋白-配体结合亲和力预测模型Savant，虽用AI方法但对象为蛋白-小分子配体而非蛋白-DNA互作，与TF-DNA课题关联较弱。",
+  "abstract": "Protein –ligand binding affinity determines which of many candidate molecules is worth synthesizing and assaying, making it the central measurement in early drug discovery. Binding affinity is commonly expressed as the dissociation constant, an equilibrium measure that indicates how easily a complex separates into its components. AI-based generative chemistry and make-on-demand chemical catalogs now produce molecules faster than rigorous method can evaluate them. Leading computational methods co-fold the complex before scoring the binding affinity between the protein and the ligand, which provides high accuracy but requires a graphics processing unit (GPU) and substantial time for every pair evaluated. Here we present Savant, a machine learning model that estimates the dissociation constant using only the protein’s amino acid sequence and the ligand’s structure written as a line of text (SMILES). Savant needs no 3-dimensional folded structure, no docking, and no GPU. To test Savant fairly, we built a bench-mark designed to prevent any training data to leak into the testing set, drawing only on measurements published after the training data was assembled and on molecules chemically unlike anything the model had seen. On an independent benchmark, Savant ranks ahead of every other 3-dimensional structure-free method. Savant is designed to rank compounds against a single protein, and performs as well as other methods that require a GPU, while running only on a central processing unit (CPU). Thus, Savant can screen libraries of 100,000 compounds in minutes with commodity hardware.",
+  "abstract_zh": "蛋白质-配体结合亲和力决定了众多候选分子中哪些值得合成和测定，使其成为早期药物发现中的核心测量指标。结合亲和力通常以解离常数表示，这是一种平衡度量，指示复合物分离为其组分的难易程度。基于AI的生成化学和按需化学目录现在生成分子的速度超过了严格方法评估它们的能力。领先的计算方法在评分蛋白质与配体之间的结合亲和力之前先共折叠复合物，这提供了高精度，但每个评估对都需要图形处理单元（GPU）和大量时间。这里我们介绍Savant，一种机器学习模型，仅使用蛋白质的氨基酸序列和配体的结构（以一行文本SMILES表示）来估计解离常数。Savant不需要三维折叠结构、不需要对接、也不需要GPU。为了公平测试Savant，我们构建了一个基准测试，旨在防止任何训练数据泄漏到测试集中，仅使用训练数据组装后发表的测量结果以及模型从未见过的化学上不相似的分子。在独立基准测试中，Savant排名领先于所有其他无三维结构的方法。Savant设计用于针对单一蛋白质对化合物进行排序，其性能与需要GPU的其他方法相当，而仅在中央处理单元（CPU）上运行。因此，Savant可以在商品硬件上几分钟内筛选出10万种化合物的库。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766769",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766769",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.11.15.766769/index.html"
+}

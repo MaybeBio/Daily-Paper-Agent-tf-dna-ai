@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce a sequence-to-distribution (S2d) framework that predicts the full probabilistic distribution of single-molecule chromatin states from DNA sequence alone. They present Mola, a model trained with this framework, and report findings on nucleosome regulation, transcription factor engagement, +1 nucleosome positioning, co-accessibility and co-footprinting, methylation-sensitive bimodal states, pseudo-dynamic trajectories, and variant effect prediction at single-molecule resolution.
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, training data descriptions, validation metrics, or comparison benchmarks are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, model code, training and validation datasets, benchmark comparisons, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful framework for predicting single-molecule chromatin distributions from DNA sequence. The conceptual advance from population-level averages to full probabilistic distributions is timely and aligns with current directions in regulatory genomics. However, the abstract makes numerous strong mechanistic claims without presenting any quantitative evidence, validation metrics, or methodological details. The breadth of reported findings, from nucleosome trapping to pseudo-dynamic trajectories, raises concerns about whether each claim is equally well supported. The current evidence base is insufficient to evaluate technical soundness or to verify that the core claims are established.
+- **Who would be interested in the results, and why** Researchers in computational genomics, chromatin biology, gene regulation, and single-molecule biology would find this work relevant. The framework addresses a recognized limitation of current sequence-to-expression models, namely their inability to capture stochastic and heterogeneous regulatory behavior. The reported findings on transcription factor engagement with nucleosomes and variant effect prediction at single-molecule resolution could interest both method developers and experimental biologists studying regulatory mechanisms. The potential to generate pseudo-dynamic trajectories from static sequence data may attract researchers working on chromatin dynamics.
+- **Major strengths** The conceptual framing is clear and addresses a genuine gap in the field. The sequence-to-distribution approach is a logical and potentially powerful extension of existing deep learning models. The abstract demonstrates broad applicability across multiple chromatin features, including accessibility, methylation, and nucleosome positioning. The emphasis on interpretability and mechanistic insight, rather than prediction alone, is commendable. The proposed extension to pseudo-dynamics and variant effect prediction suggests forward-looking utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The S2d framework directly models the entire probabilistic distribution of single-molecule chromatin states from DNA sequence alone, and Mola was trained using this framework.
+  - **Evidence pointer** Abstract, no methods or figures provided
+  - **Concern** The abstract provides no information on the model architecture, training data, loss function, or how the probabilistic distribution is parameterized and evaluated. Without these details, it is impossible to assess whether the framework genuinely captures full distributions or merely approximates them in a limited fashion.
+  - **Why it matters** The central claim of the paper rests on the validity of the distribution modeling approach. If the probabilistic formulation is flawed or the evaluation metrics are inadequate, all downstream findings are compromised.
+  - **Resolution test** Provide a detailed methods section describing the model architecture, training procedure, and distribution evaluation metrics. Include calibration plots or similar diagnostics demonstrating that predicted distributions match observed single-molecule data across diverse genomic contexts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors report multiple specific biological findings, including a novel nucleosome-trapping factor ZNF146, YY1 as the strongest +1 nucleosome-positioning factor, a shared sequence basis for co-accessibility and co-footprinting, and a methylation-sensitive bimodal state.
+  - **Evidence pointer** Abstract, no figures or tables provided
+  - **Concern** Each of these findings is stated as a definitive result, yet no quantitative support is presented. There are no effect sizes, confidence intervals, statistical tests, or comparisons to existing knowledge. The claim of novelty for ZNF146 requires demonstration that this factor has not been previously associated with nucleosome trapping.
+  - **Why it matters** These mechanistic claims are likely to attract significant attention. If any are overstated or not robustly supported, the paper's credibility suffers substantially. The field has seen numerous examples of deep learning predictions that do not hold up to experimental validation.
+  - **Resolution test** Provide figures with quantitative results for each finding, including statistical significance, effect sizes, and appropriate controls. For ZNF146, include experimental or orthogonal validation. For YY1, include comparison to known nucleosome positioning factors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The S2d framework can generate pseudo-dynamic trajectories of chromatin states and propose a roadmap toward genome-wide chromatin dynamics.
+  - **Evidence pointer** Abstract, no methods or validation provided
+  - **Concern** The concept of pseudo-dynamic trajectories is introduced without any explanation of how these are generated, what assumptions underlie them, or how they are validated against real dynamic data. The claim of a roadmap toward genome-wide dynamics is speculative without evidence that the pseudo-trajectories have physical meaning.
+  - **Why it matters** If the pseudo-dynamics are not grounded in actual temporal data or physical principles, they may mislead researchers who attempt to use them. The claim extends beyond the static modeling framework and requires separate justification.
+  - **Resolution test** Describe the method for generating pseudo-trajectories, including any temporal modeling assumptions. Validate against experimental time-course data where available, or clearly state the limitations of the pseudo-dynamic approach.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** Mola can predict and interpret the effects of genetic variants at the single-molecule level, revealing how sequence changes reshape distal regulatory coordination.
+  - **Evidence pointer** Abstract, no validation data provided
+  - **Concern** Variant effect prediction is a high-stakes application that requires rigorous benchmarking. The abstract does not describe how variants were selected, whether the model was tested on held-out variant data, or how predictions compare to experimental measurements of variant effects.
+  - **Why it matters** If the variant effect predictions are not properly validated, they could be misinterpreted as reliable by users who apply the model to clinical or functional genomics questions. The claim of interpreting distal regulatory coordination changes is particularly strong and requires demonstration.
+  - **Resolution test** Provide benchmark results on known variant effect datasets, including comparison to experimental measurements and existing prediction tools. Show specific examples of predicted distal regulatory changes with supporting evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "sequence-to-distribution" is used without defining what type of distribution is meant, such as a probability mass function over discrete chromatin states or a continuous density over accessibility values.
+  - **Required correction** Define the distribution type explicitly in the abstract or introduction, with a brief mathematical formulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model naming
+  - **Evidence pointer** Abstract
+  - **Issue** The name "Mola" is introduced without explanation of its origin or significance, which may confuse readers.
+  - **Required correction** Provide a brief explanation of the name or remove it if it is not essential to the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not mention any prior work on single-molecule chromatin modeling or distribution prediction, making it difficult to assess the novelty claim.
+  - **Required correction** Add one or two sentences in the introduction or abstract context that reference the most relevant prior models and state explicitly what is new.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim wording
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "strongest +1 nucleosome-positioning factor" implies a quantitative ranking that is not supported by any presented data.
+  - **Required correction** Soften the claim to indicate that YY1 was identified as a major or prominent factor, or provide the quantitative basis for the ranking.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Data description
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not specify what types of chromatin data were used for training, such as ATAC-seq, MNase-seq, or single-molecule imaging data.
+  - **Required correction** State the data types used for training and evaluation in the abstract or methods summary.
+
+## Risk / unsupported claims
+- The claim that Mola directly models the entire probabilistic distribution of single-molecule chromatin states is unsupported without model details and validation metrics.
+- The identification of ZNF146 as a novel nucleosome-trapping factor is unsupported without evidence of novelty and functional validation.
+- The claim that YY1 is the strongest +1 nucleosome-positioning factor is unsupported without quantitative comparisons.
+- The existence of a shared sequence basis for co-accessibility and co-footprinting is unsupported without specific results.
+- The methylation-sensitive bimodal state claim is unsupported without data showing the bimodal distribution and its sequence dependence.
+- The generation of pseudo-dynamic trajectories and the roadmap toward genome-wide dynamics are unsupported and speculative from the abstract alone.
+- The variant effect prediction claims, including distal regulatory coordination changes, are unsupported without benchmark results.
+- All quantitative aspects of the work, including model performance, accuracy, and comparison to existing methods, are unevaluable from the provided material.

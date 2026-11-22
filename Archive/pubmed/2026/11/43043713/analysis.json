@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43043713",
+  "title": "Evolution, information content, and optimality of gene regulatory architectures.",
+  "authors": "Barton, Nicholas H; Tkacik, Gasper",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-11-17",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用群体遗传学与信息论推导基因调控架构的进化最大化原理，以TF-CRE结合为简化模型，但缺乏AI或物理模拟方法，且不聚焦三维互作建模，仅间接相关。",
+  "abstract": "Evolution of genetic regulatory sequences is shaped by their genotype-phenotype map, but this map itself can evolve via changes in the molecular machinery that reads out the regulatory sequences. Using population genetics theory, we derive a maximization principle, which implies that genotype-phenotype maps will evolve to associate fit phenotypes with larger numbers of possible genotypes. Mathematically, this builds on analogies between population genetics and statistical physics, as well as optimal coding in information theory. The results are particularly interesting in the context of transcriptional regulation, where optimal values of certain parameters that determine the gene regulatory architecture can be derived even without a complete knowledge of the molecular mechanisms involved. We illustrate the theory using a simplified model of transcription factor (TF) binding to cis-regulatory elements (CREs): the fraction of possible CREs across the entire genotype space that bind a given TF evolves to match the fraction of CREs under selection to bind that TF. Similar \"frequency matching\" results are expected to emerge generically, because selection implicitly moves the entire regulatory architecture toward a fitness maximum, determining the \"replicated genotype-phenotype map\" for all CREs, while it simultaneously adapts toward individually fit CREs on that map. We discuss the subtleties and limitations of the theory related to biophysical constraints and the need for mutational robustness. Last, our theory suggests a possible mathematical definition for evolvability with predictive power that can be tested in evolutionary simulations and, ultimately, in comparative genetics studies.",
+  "abstract_zh": "遗传调控序列的进化受其基因型-表型图谱的影响，但这一图谱本身可通过读取调控序列的分子机制的变化而进化。利用群体遗传学理论，我们推导出一个最大化原理，该原理表明基因型-表型图谱将进化，使适应度高的表型与更多可能的基因型相关联。在数学上，这建立在群体遗传学与统计物理学之间的类比，以及信息论中的最优编码之上。这些结果在转录调控背景下尤为有趣，因为即使不完全了解涉及的分子机制，也能推导出决定基因调控架构的某些参数的最优值。我们通过一个简化的转录因子（TF）与顺式调控元件（CREs）结合的模型来说明该理论：在整个基因型空间中，结合给定TF的CREs比例进化至与选择下结合该TF的CREs比例相匹配。类似的“频率匹配”结果预计会普遍出现，因为选择隐性地将整个调控架构推向适应度最大值，决定了所有CREs的“复制基因型-表型图谱”，同时在该图谱上适应性地趋向于个体适应的CREs。我们讨论了与生物物理约束及突变稳健性需求相关的理论的微妙之处和局限性。最后，我们的理论提出了一个可能的可预测性的可进化性数学定义，该定义可在进化模拟中测试，并最终在比较遗传学研究中验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43043713/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43043713/",
+  "paper_page_path": "papers/pubmed/43043713/index.html"
+}

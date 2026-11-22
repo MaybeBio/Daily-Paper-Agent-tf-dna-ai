@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.11.12.766050",
+  "title": "An apicomplexan-specific foundation model improves prediction of regulatory genomic signals in Plasmodium falciparum",
+  "authors": "Brown AS; Yang J; Llinás M; Mahony S",
+  "journal": "bioRxiv",
+  "published_date": "2026-11-16",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用疟原虫基因组预训练基础模型预测转录因子结合位点等调控信号，虽非TF-DNA三维互作建模，但AI方法可迁移至TF-DNA结合位点预测，属广义蛋白-DNA互作相关。",
+  "abstract": "Genomic foundation models learn transferable sequence representations through self-supervision, yet their practical value is contested. In data-rich mammalian genomes, task-specific models trained from scratch can match or exceed pretrained models on many regulatory prediction tasks. Whether self-supervised pretraining provides an advantage in small, data-sparse genomes has not been directly tested. We address this in the compact, 23Mbp, A/T-rich genome of the malaria parasite, Plasmodium falciparum . We trained a Genomic Pretrained Network (GPN) via masked-nucleotide reconstruction on 455 genome assemblies spanning 76 apicomplexan species. We then fine-tuned the model to predict a variety of epigenomic features in a held-out chromosome, including transcription factor binding sites, chromatin-accessibility, histone modifications, and 10 chromatin states. Pretraining followed by fine tuning improved prediction of most features, with most of the benefit concentrated on datasets with relatively little labeled data (fewer than 3,000 training examples). In contrast, a human-pretrained model transferred poorly, indicating that phylogenetically relevant pretraining, not foundation-model status alone, drives beneficial performance. Self-supervised pretraining on clade-specific assemblies is thus a practical route to data-efficient regulatory modeling in small genomes where training data is scarce.",
+  "abstract_zh": "基因组基础模型通过自监督学习可迁移的序列表征，但其实际价值存在争议。在数据丰富的哺乳动物基因组中，从头训练的任务特定模型在多种调控预测任务上可达到或超越预训练模型。自监督预训练是否在小型、数据稀疏的基因组中提供优势尚未被直接测试。我们在此针对疟疾寄生虫恶性疟原虫（*Plasmodium falciparum*）的紧凑型23Mbp、富含A/T的基因组进行研究。我们通过掩蔽核苷酸重建，在涵盖76个顶复门物种的455个基因组组装上训练了一个基因组预训练网络（Genomic Pretrained Network, GPN）。随后，我们微调该模型以预测一个留出染色体上的多种表观基因组特征，包括转录因子结合位点、染色质可及性、组蛋白修饰及10种染色质状态。预训练后微调改善了对大多数特征的预测，且大部分益处集中在标记数据相对较少（少于3,000个训练样本）的数据集上。相比之下，人类预训练模型的迁移效果较差，表明系统发育相关的预训练，而非仅凭基础模型身份，驱动了有益性能。因此，对进化枝特异性组装进行自监督预训练，是在训练数据稀缺的小型基因组中实现数据高效调控建模的实用途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766050",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766050",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.11.12.766050/index.html"
+}

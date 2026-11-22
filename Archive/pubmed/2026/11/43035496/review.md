@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the scMagnify framework, its benchmarking, and its biological applications, based solely on the provided manuscript text.
+- **Shared manuscript claim summary** The authors present scMagnify, a deep-learning framework that integrates single-cell chromatin accessibility and gene expression with pseudotime information via Granger causality to infer multi-scale gene regulatory networks. The framework is claimed to outperform or match existing methods in benchmark tests, recover known lineage-driving transcription factors, identify combinatorial regulatory modules via tensor decomposition, and map intercellular signaling to intracellular transcription in developmental and disease contexts.
+- **Visible evidence base** Main text figures (Fig. 1, 2, 3, 4, 5, 6) and methods sections as described in the manuscript text. Supplementary figures and notes are referenced but not fully visible in the provided material.
+- **Missing materials affecting confidence** Supplementary figures, supplementary notes, source data files, and code repository contents are referenced but not provided. Detailed benchmark results for all methods, statistical test outputs, and parameter sensitivity analyses are not fully visible.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially useful computational framework for dynamic gene regulatory network inference from single-cell multiomic data. The integration of multi-scale time-lagged modeling with chromatin accessibility priors is conceptually appealing, and the application to three distinct biological systems demonstrates versatility. However, the current evidence base is insufficient to fully evaluate the method's novelty, robustness, and biological claims. Key technical details, benchmark comparisons, and statistical validations are either missing or only partially described. The biological findings, while plausible, are largely confirmatory of known biology and would benefit from deeper validation or novel insights.
+- **Who would be interested in the results, and why** Computational biologists developing or applying gene regulatory network inference methods, single-cell multiomics researchers, and investigators studying transcriptional regulation in development and disease. The framework's ability to decompose combinatorial regulatory modules and link them to intercellular signaling could be of broad interest to the single-cell genomics community.
+- **Major strengths**
+  - The conceptual integration of Granger causality with multi-scale time-lagged modeling and chromatin accessibility priors is a reasonable and potentially powerful approach.
+  - The framework addresses a real gap: most existing GRN methods do not simultaneously leverage multiomic data and pseudotemporal dynamics.
+  - The application to three diverse biological systems (hematopoiesis, pancreas development, kidney injury) demonstrates the framework's versatility.
+  - The inclusion of tensor decomposition for identifying combinatorial regulatory modules is a valuable analytical contribution.
+  - The authors are transparent about the interpretational limits of the inferred regulatory lag and the unsigned nature of final edges.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that scMagnify achieves "competitive or superior performance" in benchmarks, but the evidence provided is insufficient to substantiate this.
+  - **Evidence pointer** Figure 2 and associated text; Supplementary Figures 3-5
+  - **Concern** The benchmark section is under-described. Only a subset of methods is compared, and the choice of comparators is not fully justified. For the synthetic benchmark, only CellOracle is compared, and the rationale for excluding other methods is given only in a brief sentence. For real-data benchmarks, the statistical significance of performance differences is not reported for all comparisons. The manuscript states "scMagnify generally achieved among the highest AUPR values" but does not provide a systematic statistical analysis across all methods and datasets. The F1 score differences are described as "not significant" but no effect sizes or confidence intervals are given.
+  - **Why it matters** A central claim of the manuscript is that scMagnify is an accurate and reliable GRN inference method. Without a rigorous, statistically grounded benchmark comparison against a comprehensive set of state-of-the-art methods, this claim is not established. The reader cannot assess whether observed differences are meaningful or within the range of method variability.
+  - **Resolution test** Provide a complete benchmark table with AUPR, F1, and other relevant metrics for all methods across all datasets, with confidence intervals and adjusted p-values for pairwise comparisons. Justify the selection of comparator methods. Include a power analysis or demonstrate that the number of benchmark tasks is sufficient to detect meaningful differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the multi-scale architecture with attention mechanism effectively captures time-lagged regulatory dynamics, but the validation of this specific design choice is incomplete.
+  - **Evidence pointer** Figure 2, Supplementary Figures 6-8
+  - **Concern** The ablation studies are described only in the text and supplementary figures, which are not fully visible. The forward K-scan and reverse ablation results are mentioned but the actual data, statistical significance, and effect sizes are not presented in the main text. The sensitivity analyses for trajectory inputs and transition-matrix perturbations are referenced but not shown. It is unclear whether the attention mechanism and multi-branch architecture provide a statistically significant improvement over simpler alternatives.
+  - **Why it matters** The novelty of scMagnify lies in its specific architectural choices. If simpler models (e.g., single-branch, fixed-lag) perform equally well, the contribution is incremental. The reader needs to see the ablation data to judge whether the complexity is justified.
+  - **Resolution test** Present the full ablation results in the main text or a clearly visible supplementary figure, including performance metrics with confidence intervals and statistical tests comparing the full model against each ablated variant. Show the sensitivity analysis results for trajectory perturbations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that scMagnify provides "further insights into the combinatorial logic underlying cell fate decisions" and "maps key signaling-to-transcription cascades," but the biological novelty of these findings is not clearly established.
+  - **Evidence pointer** Figures 3-6
+  - **Concern** The biological applications largely recover known regulators (e.g., EBF1, PAX5 for B cells; GATA2, KLF1 for erythroid; ARX for alpha cells; MAFA for beta cells). While this is a useful validation, the manuscript does not clearly articulate what new biological insights are gained beyond confirming known biology. The kidney injury analysis identifies a candidate SPP1-CD44/ITGA V axis, but this is presented as a "candidate" without experimental validation or comparison to existing literature on kidney injury signaling. The combinatorial regulatory modules (RegFactors) are described, but their novelty relative to existing knowledge of B cell or pancreatic development is not discussed in depth.
+  - **Why it matters** For a methods paper, the biological applications serve to demonstrate utility. If the applications only recapitulate known biology, the case for the method's added value is weakened. The authors should either demonstrate that scMagnify uncovers previously unknown regulatory relationships or provide a more nuanced discussion of how its predictions extend or refine current models.
+  - **Resolution test** Clearly articulate at least one novel, testable biological hypothesis generated by scMagnify that is not already established in the literature. Alternatively, provide a systematic comparison showing that scMagnify identifies regulatory relationships that are missed by existing methods and that these are validated by orthogonal data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the intercellular communication module "maps key signaling-to-transcription cascades," but the statistical framework and validation of this module are not fully described.
+  - **Evidence pointer** Figure 6, Methods section "Intercellular communication"
+  - **Concern** The intercellular communication module relies on a prior knowledge base (scMLnetDB) and a permutation test based on covariance between receptor and TF expression across metacells. The manuscript does not describe how the prior knowledge base is curated, how many ligand-receptor-TF links it contains, or how the permutation test accounts for multiple testing across the large number of candidate links. The choice of covariance as a measure of association is not justified, and no comparison to alternative methods (e.g., CellChat, NicheNet) is provided. The validation of the identified signaling axes is limited to a single external dataset, and the analysis is described as "non-TAL-specific," which weakens the claim.
+  - **Why it matters** The intercellular communication module is presented as a key contribution of scMagnify. Without a clear statistical framework and validation, the reliability of the identified signaling axes is uncertain. The reader cannot assess whether the findings are robust or artifacts of the method.
+  - **Resolution test** Provide a detailed description of the scMLnetDB curation, the multiple testing correction procedure, and the rationale for using covariance. Benchmark the communication module against established methods (e.g., CellChat, NicheNet) on a common dataset. Validate the identified signaling axes with additional orthogonal datasets or experimental evidence.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that scMagnify is a "robust" framework, but the evaluation of robustness to key parameters and data quality is incomplete.
+  - **Evidence pointer** Supplementary Figures 7-9
+  - **Concern** The sensitivity analyses are referenced but not visible. The manuscript mentions "broadly stable GRM performance" under trajectory perturbations, but the actual data, the range of perturbations tested, and the criteria for "stability" are not described. The scalability analysis is mentioned but the actual runtime and memory measurements are not presented. The choice of hyperparameters (e.g., number of lags K, sparsity threshold, regularization coefficients) is not systematically explored.
+  - **Why it matters** A computational method's utility depends on its robustness to user choices and data variability. Without a clear demonstration of robustness, the reader cannot be confident that the results are not artifacts of specific parameter settings.
+  - **Resolution test** Present the sensitivity analysis results in a visible figure, showing performance metrics across a range of parameter values and perturbation levels. Provide a clear description of the perturbation protocol and the criteria for stability. Report runtime and memory usage for representative dataset sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction use technical jargon (e.g., "Granger causality," "tensor decomposition," "multi-scale") without sufficient context for a general reader. The biological motivation could be stated more clearly.
+  - **Required correction** Briefly explain the core concepts in plain language and state the biological question more explicitly in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Code availability
+  - **Evidence pointer** Methods, Code availability section (not visible in provided text)
+  - **Issue** The manuscript states that code is available on GitHub, but the specific version, dependencies, and usage instructions are not described in the provided text.
+  - **Required correction** Provide a detailed Code Availability statement with version information, dependency list, and a link to a stable release or archived version.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 2c, 2d, 2e
+  - **Evidence pointer** Figure 2
+  - **Issue** The number of replicates (n) for benchmark tasks is stated, but the statistical test used for pairwise comparisons is not always specified. The manuscript mentions "pre-specified one-sided paired Wilcoxon signed-rank tests" but does not state whether these were the only tests used or whether multiple testing correction was applied across all comparisons.
+  - **Required correction** Clearly state the statistical test used for each comparison, the multiple testing correction method, and the exact p-values in the figure legends or main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods, "RegFactor decomposition"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the tensor decomposition and rank selection is brief. The "data-driven rank-sweep and elbow-detection procedure" is not described in detail.
+  - **Required correction** Provide a more detailed description of the rank selection procedure, including the range of ranks tested and the criteria for choosing the elbow.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Biological validation
+  - **Affected element** Figure 4f, 5h
+  - **Evidence pointer** Figure 4f, 5h
+  - **Issue** The genomic locus analyses (PAX5 and Gcg) are descriptive and show correlation between accessibility and expression. The manuscript does not discuss whether these loci are known to be regulated by the identified TFs in the relevant cell types.
+  - **Required correction** Add a brief discussion of whether the identified TF binding motifs at these loci are supported by existing ChIP-seq or functional studies.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Incomplete benchmark validation with insufficient statistical rigor.
+  - R1-M2: Incomplete ablation and sensitivity analyses.
+  - R1-M4: Under-specified intercellular communication module with limited validation.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of Granger causality with multi-scale time-lagged modeling and chromatin priors is a reasonable integration of existing ideas, but the individual components are not new. The tensor decomposition approach for regulatory modules is a useful addition but is not conceptually groundbreaking.
+  - **Scientific importance** Potentially high, if the method is shown to be robust and to provide novel biological insights. The current applications are largely confirmatory, which limits the demonstrated importance.
+  - **Interdisciplinary readership** The method is relevant to computational biologists, single-cell genomics researchers, and developmental/disease biologists. The writing is generally accessible but could be improved for a broader audience.
+  - **Technical soundness** The core idea is sound, but the current evidence base is insufficient to fully evaluate the method's performance and robustness. The benchmark and ablation studies need to be more comprehensive and statistically rigorous.
+  - **Readability for nonspecialists** The abstract and introduction could be more accessible. The methods section is dense but appropriate for a specialist audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The framework is potentially valuable, but the current manuscript does not provide sufficient evidence to establish its performance, robustness, and biological utility. The authors should address the major concerns regarding benchmark rigor, ablation studies, and validation of the communication module before the case is established.

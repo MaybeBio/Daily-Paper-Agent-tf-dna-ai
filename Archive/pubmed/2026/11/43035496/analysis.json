@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43035496",
+  "title": "Decomposing multi-scale dynamic regulation from single-cell multiomics with scMagnify.",
+  "authors": "Chen, Xufeng; Yan, Xi; Shen, Bihan; Wang, Heqi; Tang, Zhixuan; Zang, Yan; Lin, Ping; Zhang, Haibing; Li, Yu; Li, Hong",
+  "journal": "Nature communications",
+  "published_date": "2026-11-16",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习框架scMagnify基于单细胞多组学重建基因调控网络，涉及TF模块识别，但核心是GRN推断而非TF-DNA三维互作建模，方法可迁移但对象和互作深度有限。",
+  "abstract": "Deciphering the highly coupled regulatory circuits that drive cellular dynamics remains a fundamental goal in biology. However, capturing the multi-scale time-lagged dynamics and combinatorial regulatory logic of gene regulation remains challenging. Here we present scMagnify, a deep-learning-based framework that leverages chromatin accessibility and gene expression via Granger causality to reconstruct and decompose multi-scale gene regulatory networks (GRNs). Diverse benchmarks demonstrate scMagnify's favorable performance. scMagnify employs tensor decomposition to identify combinatorial TF modules and their activation profiles across multiple time-lags. We applied scMagnify to human hematopoiesis and mouse pancreas development, where it recovered known lineage-driving regulators and provided further insights into the combinatorial logic underlying cell fate decisions. Furthermore, in the context of kidney injury, scMagnify's intercellular communication module mapped key signaling-to-transcription cascades linking microenvironment cues to pathological epithelial cell changes. In summary, scMagnify provides a robust computational framework for dissecting the multi-scale regulatory logic that governs complex biological processes in development and disease.",
+  "abstract_zh": "解析驱动细胞动态的高度耦合调控回路仍是生物学的一个基本目标。然而，捕捉基因调控的多尺度时滞动态和组合调控逻辑仍具挑战性。在此，我们提出scMagnify，一种基于深度学习的框架，利用染色质可及性和基因表达，通过格兰杰因果关系（Granger causality）重建并分解多尺度基因调控网络（GRNs）。多样基准测试展示了scMagnify的优越性能。scMagnify采用张量分解来识别组合转录因子模块及其在多时间滞后下的激活谱。我们将scMagnify应用于人类造血和小鼠胰腺发育，它恢复了已知的谱系驱动调控因子，并进一步揭示了细胞命运决定背后的组合逻辑。此外，在肾损伤背景下，scMagnify的细胞间通讯模块绘制了关键信号到转录的级联反应，将微环境线索与病理性上皮细胞变化联系起来。总之，scMagnify为剖析控制发育和疾病中复杂生物过程的多尺度调控逻辑提供了一个稳健的计算框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43035496/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43035496/",
+  "paper_page_path": "papers/pubmed/43035496/index.html"
+}

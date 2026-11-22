@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, methods, results, discussion, conclusion) as provided. Figures and tables referenced but not fully available. Supplementary files referenced but not provided.
+- **Assessment boundary** Technical soundness, methodological novelty, experimental validation, and clarity of the reported claims. No assessment of code availability, reproducibility scripts, or external data access beyond what is described.
+- **Shared manuscript claim summary** The authors propose MAMTF, a deep learning architecture combining multiscale convolutions, spatial-channel attention, bidirectional Mamba state-space modeling, and a cross-gated fusion module for transcription factor binding site (TFBS) prediction. They report superior performance over six existing methods across 165 ChIP-seq datasets covering 29 transcription factors, with macro-averaged ACC 0.819, ROC-AUC 0.895, and PR-AUC 0.900. They also report ablation studies, hyperparameter tuning, statistical significance testing, and computational efficiency comparisons.
+- **Visible evidence base** Methods section with architectural details and equations; Results section with performance tables (Tables 1 and 2), hyperparameter experiments (Figure 4), ablation experiments (Tables 3-5, Figures 5-6), interpretability analysis (Figures 7-9), and statistical analysis (Table 6). Supplementary tables referenced but not provided.
+- **Missing materials affecting confidence** Supplementary files (Tables S1, S3-S7) not provided; full figures not available; no details on baseline method implementations or hyperparameters for comparison methods; no information on dataset preprocessing pipelines beyond brief description; no code or reproducibility materials.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically plausible architecture for TFBS prediction, combining established components (multiscale CNN, attention, Mamba) in a novel configuration. The reported performance improvements are modest but consistent across metrics. However, several methodological details are insufficiently described, the statistical analysis appears to contain inconsistencies, and the claimed superiority over baselines is not fully supported by the evidence presented. The work is of interest to the computational biology community but requires substantial revision to establish its claims rigorously.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics and computational biology, particularly those developing deep learning methods for sequence-based functional prediction. The combination of state-space models with convolutional feature extraction is timely given the growing interest in Mamba architectures for genomic sequences. The cross-gated fusion mechanism may also interest researchers working on multi-branch neural network designs.
+- **Major strengths** 1) The architectural design is well-motivated, with clear biological rationale for each component. 2) The evaluation across 165 datasets spanning 29 TFs is comprehensive in scale. 3) The inclusion of ablation studies, hyperparameter analysis, and statistical testing demonstrates methodological awareness. 4) The computational efficiency comparison addresses practical deployment concerns.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The manuscript claims statistically significant improvements over baseline methods based on Wilcoxon signed-rank tests and paired t-tests, with Cohen's d values all exceeding 1.0.
+  - **Evidence pointer** Table 6, Statistical significance and stability analysis section
+  - **Concern** The reported mean values in Table 6 (ACC 0.83778, ROC-AUC 0.9094, PR-AUC 0.9137) do not match the macro-averaged values reported in the abstract and Table 1 (ACC 0.819, ROC-AUC 0.895, PR-AUC 0.900). This discrepancy is not explained. Furthermore, the statistical tests are described as comparing MAMTF against "other methods" but the table only shows MAMTF's values without any comparison group statistics. The p-values reported (on the order of 1e-27 to 1e-30) seem implausibly small for comparisons across 29 TF categories, and the degrees of freedom or sample sizes for these tests are not stated.
+  - **Why it matters** The central claim of the paper is that MAMTF outperforms existing methods. If the statistical evidence for this claim is inconsistent or improperly reported, the primary conclusion is undermined.
+  - **Resolution test** Clarify the discrepancy between Table 1 and Table 6 values. Provide full details of the statistical comparison procedure, including what exactly is being compared (per-dataset paired values across all 165 datasets, or per-TF averaged values across 29 categories), the sample size for each test, and the comparison method's corresponding values. Re-run the analyses and report corrected statistics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor
+  - **Claim pointer** The manuscript claims MAMTF "outperforms other six methods in predicting TFBSs" and achieves "optimal and stable performance on 29 TF categories."
+  - **Evidence pointer** Table 1, Performance comparison analysis section
+  - **Concern** The comparison with baseline methods lacks critical details. No information is provided on how the six baseline methods were implemented or configured, whether their hyperparameters were tuned, whether the same train/validation/test splits were used, or whether the reported baseline numbers are taken from original publications or reproduced by the authors. The manuscript states "All experiments used the same datasets and evaluation methods to ensure a fair comparison" but does not describe the evaluation protocol in sufficient detail. Additionally, no confidence intervals or variance measures are reported for any of the methods in Table 1.
+  - **Why it matters** Without a clearly described and controlled comparison protocol, the claimed superiority over baselines cannot be independently verified. The absence of variance information makes it impossible to assess whether differences are meaningful.
+  - **Resolution test** Provide a detailed description of baseline implementations, including architecture specifications, hyperparameter settings, and training procedures. State whether baselines were re-implemented or numbers were taken from literature. Report standard deviations or confidence intervals for all methods across the 29 TF categories. Consider reporting per-TF performance distributions (e.g., box plots) rather than only macro-averages.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript describes a "cross-gated fusion module" that "achieves deep interaction between local and global information" and claims this is a key contribution.
+  - **Evidence pointer** Fusion and classification section, Figure 3, Ablation experiments (cross-gated fusion module)
+  - **Concern** The cross-gated fusion mechanism is described at a high level with equations, but several implementation details are missing. The dimensions of the gating vectors are not specified. The interaction between the gating mechanism and the subsequent 1x1 convolution is unclear. The ablation shows that removing this module reduces performance, but the comparison is only against simple concatenation. No comparison is made against other fusion strategies such as additive fusion, multiplicative gating, or attention-based fusion. The claim that this mechanism achieves "deep interaction" is not substantiated by analysis of what the gates learn or how they vary across samples.
+  - **Why it matters** The fusion module is presented as a novel contribution. Without a thorough analysis of its behavior and comparison against alternative fusion approaches, its specific contribution to performance gains is not established.
+  - **Resolution test** Provide detailed specifications of the fusion module including tensor dimensions and the exact computation graph. Add ablation comparisons against alternative fusion strategies (e.g., additive, multiplicative, self-attention-based fusion). Consider analyzing the learned gate values across different TFs or sequence contexts to demonstrate the claimed per-sample adaptivity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** The manuscript claims that "MAMTF convolutional filters are not only effective for feature extraction but also capture biologically interpretable sequence patterns related to transcription factor binding preferences."
+  - **Evidence pointer** Interpretability analysis section, Figure 7
+  - **Concern** The motif discovery analysis is described for only two filters (Filter 115 and Filter 110), both matching CTCF-related motifs. This is a very limited analysis. No information is provided on how many filters were analyzed in total, what proportion produced significant motif matches, or how the two shown examples were selected. The claim of biological interpretability requires a systematic analysis across filters and TFs. Additionally, the comparison with JASPAR motifs is described but the statistical significance threshold for motif matching is not stated.
+  - **Why it matters** The interpretability analysis is presented as evidence that the model learns biologically meaningful features. Anecdotal evidence from two filters is insufficient to support this claim.
+  - **Resolution test** Conduct a systematic motif analysis across all convolutional filters, reporting the proportion of filters with significant motif matches, the distribution of matched motifs, and the statistical thresholds used. If possible, compare motif matches across different TF categories to demonstrate TF-specific learning.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evaluation methodology
+  - **Claim pointer** The manuscript states that "the dataset was split into a training set and an independent test set in an 8:2 ratio" and that results are reported on the held-out test set.
+  - **Evidence pointer** Data availability and model implementation section
+  - **Concern** The evaluation protocol is described too briefly. It is unclear whether the 8:2 split was performed per TF category or globally across all 165 datasets. If performed globally, there could be data leakage between training and test sets for the same TF across different cell lines. The manuscript does not specify whether the test set was used only once or repeatedly during development. The hyperparameter experiments were conducted on the validation set, and the optimal configuration was then applied to retrain on combined training and validation data, but it is unclear whether the test set was touched during this process.
+  - **Why it matters** Data leakage or improper test set usage would invalidate the reported performance numbers. The evaluation protocol must be described with sufficient clarity to ensure the reported results are trustworthy.
+  - **Resolution test** Clearly describe the data splitting procedure, including whether splits were stratified by TF or cell line. State explicitly that the test set was held out and only used for final evaluation. If the same test set was used for model selection or early stopping, this must be disclosed and the implications discussed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Results section
+  - **Evidence pointer** Abstract, Performance comparison analysis section
+  - **Issue** The abstract reports macro-averaged ACC (0.819), ROC-AUC (0.895), and PR-AUC (0.900), but Table 6 reports different values (0.83778, 0.9094, 0.9137) for what appears to be the same metric. This inconsistency is confusing.
+  - **Required correction** Reconcile the numbers reported in the abstract, Table 1, and Table 6. If Table 6 reports different statistics (e.g., mean of per-dataset values vs. macro-average of per-TF values), clarify this explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Data availability and model implementation section
+  - **Concern** The manuscript states that negative samples were created using the uShuffle algorithm but does not provide parameters or a citation for the specific implementation used. The description of "double-preservation shuffling" is vague.
+  - **Required correction** Provide the specific uShuffle parameters (e.g., k-mer order) and a citation. Clarify what "double-preservation" means in this context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, Fusion and classification
+  - **Evidence pointer** Equations 17-21
+  - **Concern** The equations for the cross-gated fusion module are presented without clear definitions of all tensor dimensions. The notation for the gating vectors and their relationship to the input feature dimensions is ambiguous.
+  - **Required correction** Define all tensor shapes explicitly and ensure the notation is consistent throughout the equations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, Computational efficiency analysis
+  - **Evidence pointer** Table 2
+  - **Concern** The computational efficiency comparison is only against DSAC and BCDB. It would be informative to also report the efficiency of the other baseline methods (DanQ, DeepBind, CRPTS, DLBSS) for a complete picture.
+  - **Required correction** Either add efficiency measurements for all baselines or justify why only two were selected for comparison.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, Hyperparameter experiments
+  - **Evidence pointer** Figure 4
+  - **Concern** The hyperparameter experiments are described as testing "the auxiliary loss weight, the number of training epochs, and the initial learning rate," but the figure only shows three curves without clear labeling of which hyperparameter is being varied. The text does not specify the range of values tested for each hyperparameter.
+  - **Required correction** Clearly label the figure axes and describe the range of values tested for each hyperparameter. State whether hyperparameters were optimized jointly or independently.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, Interpretability analysis
+  - **Evidence pointer** Figure 8
+  - **Concern** The spatial attention analysis is described qualitatively ("several regions exhibited relatively higher attention scores"), but no quantitative analysis is provided to support the claim that these regions correspond to functional binding sites.
+  - **Required correction** Provide quantitative evidence, such as enrichment of high-attention positions within known binding sites, or comparison against random expectation.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Concern** The discussion mentions "more stringent benchmark strategies, such as genomic background negative sampling and chromosome-level partitioning" as future work, but does not acknowledge that these are standard practices in the field and their absence in the current study is a limitation.
+  - **Required correction** Acknowledge the absence of these validation strategies as a limitation of the current study and discuss potential implications for the reported results.
+- **Technical failings that need to be addressed before the case is established** 1) Statistical analysis inconsistencies (R1-M1). 2) Insufficient baseline comparison details (R1-M2). 3) Incomplete description of data splitting and test set usage (R1-M5). 4) Limited interpretability validation (R1-M4).
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of Mamba with multiscale CNN and cross-gated fusion is novel, but each component is established. The novelty lies primarily in the specific architectural configuration rather than a fundamentally new approach. Scientific importance: Moderate. TFBS prediction is an active area, and incremental improvements in accuracy are of interest, but the reported gains are modest and the biological insights are limited. Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and machine learning researchers working on genomics. Technical soundness: Currently not fully established. The statistical analysis contains inconsistencies, baseline comparisons lack critical details, and the evaluation protocol is incompletely described. Readability for nonspecialists: Acceptable. The manuscript is generally well-written, but the methods section assumes familiarity with deep learning terminology and the biological rationale could be more clearly articulated for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The architectural ideas are interesting and the work has potential, but the statistical inconsistencies, incomplete baseline descriptions, and insufficient evaluation details prevent the claims from being verified. Major revisions addressing the concerns above are required before the case for superiority over existing methods can be accepted.

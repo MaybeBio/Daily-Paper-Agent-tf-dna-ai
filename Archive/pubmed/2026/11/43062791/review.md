@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose GeneKAN, a deep learning framework combining multiscale graph convolution with Kolmogorov-Arnold Networks, and claim state-of-the-art performance in gene regulatory network inference from single-cell RNA-seq data across eleven benchmark models and seven BEELINE datasets, with additional biological validation on human hepatocyte and lung cancer datasets.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark details, dataset descriptions, ablation study results, and biological validation outcomes
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integration of established deep learning components for a well-recognized problem in computational biology. However, the claims of state-of-the-art performance and biological utility cannot be evaluated from the abstract alone. The methodological novelty relative to existing graph convolutional and KAN-based approaches is unclear, and the absence of any quantitative results or comparative details limits the ability to assess technical soundness. The work may be of interest to the single-cell genomics and network inference communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell transcriptomics, and deep learning applications in genomics would be the primary audience. Researchers developing interpretable models for biological network reconstruction may also find the KAN-based interpretability aspect appealing. The claimed scalability and robustness to noise could attract those applying GRN inference to large-scale or clinically oriented datasets.
+- **Major strengths** The problem addressed is of clear importance in single-cell biology. The proposed architecture combines two relevant techniques, graph convolution and KANs, in a way that could offer interpretability advantages over purely black-box models. The benchmarking plan against eleven existing models across multiple datasets suggests a thorough evaluation strategy, and the inclusion of biological validation on disease-relevant datasets is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that GeneKAN achieves state-of-the-art performance in both AUROC and AUPRC across eleven models and seven datasets
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** No quantitative results are presented. The abstract states that GeneKAN outperforms eleven existing models on seven datasets, but provides no AUROC or AUPRC values, no statistical significance measures, and no comparison of effect sizes. Without these data, the state-of-the-art claim is unverifiable.
+  - **Why it matters** The central contribution of the work rests on this performance claim. If the improvements are marginal or not statistically robust, the practical value of the method is substantially diminished. The absence of any numbers prevents even a preliminary assessment of whether the claimed advantage is meaningful.
+  - **Resolution test** Provide AUROC and AUPRC values for all methods and datasets, with confidence intervals or significance tests, in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The implicit claim that GeneKAN represents a novel framework through the integration of multiscale graph convolution and KANs
+  - **Evidence pointer** Abstract only; no related work or methodological comparison provided
+  - **Concern** The abstract does not articulate what is specifically novel about the proposed integration. Graph convolutional networks have been widely applied to GRN inference, and KANs have been proposed as general-purpose function approximators. The abstract does not explain how the hierarchical multiscale encoding differs from prior graph-based GRN methods, nor what specific advantage the KAN component provides over standard multilayer perceptrons in this context.
+  - **Why it matters** Without a clear statement of novelty relative to existing methods, the contribution may be incremental. The field already has numerous deep learning approaches for GRN inference, and the abstract does not position GeneKAN against the most relevant recent work.
+  - **Resolution test** In the full manuscript, clearly delineate the architectural innovations and provide a comparison with the closest existing methods, including any KAN-based or hierarchical graph-based GRN inference approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that GeneKAN is a scalable and robust solution for GRN reconstruction under conditions of data sparsity and noise
+  - **Evidence pointer** Abstract only; no implementation details provided
+  - **Concern** The abstract provides no information about model architecture specifics, hyperparameters, training procedures, computational requirements, or code availability. The claim of scalability and robustness to noise cannot be assessed without these details.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. If the implementation is not described in sufficient detail or made available, the method cannot be adopted or validated by the community, limiting its impact.
+  - **Resolution test** Provide full architectural details, training configurations, and a statement on code and data availability in the manuscript.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that biological validation on human hepatocyte and lung cancer datasets reveals recovery of known regulatory interactions, identification of functionally relevant hub genes, and oncogenic pathways
+  - **Evidence pointer** Abstract only; no validation results provided
+  - **Concern** The biological validation is described only in qualitative terms. No precision or recall values for known interaction recovery are given, no specific hub genes or pathways are named, and no comparison with alternative methods on these biological datasets is presented.
+  - **Why it matters** Biological validation is often the most persuasive evidence for the utility of a GRN inference method. Without quantitative metrics or specific biological findings, the claim of biological relevance remains anecdotal.
+  - **Resolution test** Provide quantitative validation metrics, specific gene and pathway names, and comparisons with other methods on the same biological datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "the complexity of transcription factor (TF)-target interactions and the difficulty in capturing both local and global regulatory dependencies" is generic and does not specify what specific limitations of existing methods are being addressed.
+  - **Required correction** Briefly state which existing methods fail and in what specific way, to better frame the contribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, benchmarking sentence
+  - **Issue** The abstract lists eleven models and seven datasets but does not name any of them. This makes it impossible to assess the breadth or relevance of the benchmark.
+  - **Required correction** Name the most relevant comparison methods and datasets in the abstract, or at least specify the range of cell types and species covered.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability claim
+  - **Affected element** KAN interpretability claim
+  - **Evidence pointer** Abstract, KAN description
+  - **Issue** The claim that KANs model "interpretable" TF-target relationships is not substantiated. Learnable spline activations may offer some interpretability advantages, but the abstract does not explain how interpretability is achieved or evaluated.
+  - **Required correction** Briefly describe how the KAN component yields interpretable relationships, or temper the claim if interpretability is not directly assessed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative results, clear novelty positioning, implementation details, and biological validation metrics collectively prevent the case from being established from the provided material.
+- **Assessment against Nature-style criteria** Originality: Not assessable from the abstract alone; the integration of graph convolution and KANs may be novel, but this is not demonstrated relative to the closest existing work. Scientific importance: The problem is important, and the potential for interpretable GRN inference is valuable, but the significance of the specific contribution is unclear without performance data. Interdisciplinary readership: The work could appeal to both machine learning and biology audiences, but the abstract is written primarily for a computational audience and does not sufficiently convey biological insights. Technical soundness: Not assessable; no methodological details or results are provided. Readability for nonspecialists: The abstract is reasonably clear for a computational biology audience, but the biological implications are stated only in general terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially useful method, but the absence of quantitative results, methodological detail, and clear novelty positioning means that the claims cannot be evaluated. A supportive stance would require the full manuscript to substantiate the performance claims and demonstrate meaningful advantages over existing approaches.
+
+## Risk / unsupported claims
+- State-of-the-art performance in AUROC and AUPRC across eleven models and seven datasets is unsupported, as no quantitative results are provided.
+- The claim that GeneKAN is "interpretable" is unsupported, as no interpretability analysis or evaluation is described.
+- The claim that GeneKAN identifies "functionally relevant hub genes and oncogenic pathways" is unsupported, as no specific findings are reported.
+- The claim of robustness to "data sparsity and noise" is unsupported, as no experiments under such conditions are described.
+- The claim of scalability is unsupported, as no computational performance data are provided.
+- The novelty of the framework relative to existing graph convolutional and KAN-based methods is not assessable from the abstract.

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report atomistic molecular dynamics simulations of wild-type p53 DNA-binding domain and four contact mutants (R248Q, R248W, R273C, R273H) in complex with DNA. They claim that these mutations perturb hydrogen-bonding and electrostatic networks, alter interfacial solvation, reduce binding free energies (quantified by alchemical calculations), and change water dynamics including water-bridge occupancy, mobility, rotational dynamics, and H-bond relaxation lifetimes.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation protocols, convergence metrics, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, system setup, equilibration and production lengths, convergence assessments, free energy calculation protocols, error estimates, structural analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis linking contact mutations in p53 to altered solvation dynamics and reduced DNA-binding affinity. However, the current evidence base is insufficient to evaluate the technical rigor of the simulations, the statistical significance of the reported differences, or the robustness of the free energy calculations. The claims are qualitatively coherent but quantitatively unverifiable from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists studying protein-DNA recognition, solvation effects in biomolecular interactions, and mutation-induced changes in binding thermodynamics. Researchers in cancer biology with an interest in mechanistic interpretations of p53 mutations may also find the results relevant, though the biophysical focus will likely limit the direct audience.
+- **Major strengths** The study addresses a clinically important protein system with a mechanistically focused question. The choice of four frequent contact mutations is well motivated. The integration of alchemical free energy calculations with water dynamics analyses represents a potentially comprehensive approach to dissecting solvation-mediated effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that alchemical free energy calculations quantify less favorable binding free energies for the mutant complexes.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No numerical values, error estimates, or convergence criteria are reported for the free energy calculations. Without these, the claim of reduced binding affinity cannot be assessed for statistical or practical significance.
+  - **Why it matters** Alchemical free energy calculations are highly sensitive to simulation length, force field parameters, and sampling convergence. A qualitative statement of "less favorable" binding free energies is insufficient to establish the central energetic claim of the study.
+  - **Resolution test** Provide computed free energy differences with standard errors, convergence plots, and comparison to experimental binding affinities if available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that water molecules in the WT complex are more ordered and long-lived, forming stable water bridges that reinforce protein-DNA contacts, and that mutations alter water-bridge occupancy, water mobility, rotational dynamics, and H-bond relaxation lifetimes.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative metrics, statistical comparisons, or error analyses are provided for any of the water dynamics properties. The terms "more ordered," "long-lived," and "mutation-dependent variations" are qualitative and cannot be evaluated without numerical support.
+  - **Why it matters** Water dynamics analyses are prone to system-specific artifacts and require careful validation of correlation functions and residence time calculations. Without quantitative reporting, the central mechanistic claims are unverifiable.
+  - **Resolution test** Report numerical values for water residence times, H-bond relaxation lifetimes, and water-bridge occupancies with standard deviations across replicate simulations, and include statistical tests comparing WT and mutant systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The study is based on atomistic MD simulations of p53-DNA complexes.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation details are provided, including force field, water model, ionic conditions, simulation length, number of replicates, temperature and pressure coupling schemes, or system size.
+  - **Why it matters** Reproducibility is a foundational requirement for computational studies. The absence of any methodological detail prevents assessment of whether the simulations were adequately converged and whether the results are robust to parameter choices.
+  - **Resolution test** Provide complete simulation protocols in the methods section, including all parameters, simulation lengths, replicate numbers, and convergence assessments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "solvation-mediated effects" in the title is not explicitly defined or operationalized in the abstract.
+  - **Required correction** Clarify what specific solvation properties are being referred to and how they are quantified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the simulations were validated against experimental data, such as known binding affinities or structural data for the mutant complexes.
+  - **Required correction** Add a statement on validation or explicitly note the absence of experimental comparison as a limitation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Causal language
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that mutations "lead to" less favorable binding free energies, implying causality, but the simulations only demonstrate correlation within the modeled systems.
+  - **Required correction** Soften causal language to "are associated with" or "result in" within the simulation context.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative free energy data, water dynamics metrics, and simulation protocols means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: The mechanistic focus on solvation dynamics in p53 contact mutants is a reasonable extension of existing work, but the abstract does not demonstrate conceptual novelty beyond prior p53 simulation studies. Scientific importance: The p53 system is clinically significant, and improved understanding of mutation effects on binding is valuable, but the incremental advance is not clearly articulated. Interdisciplinary readership: The work is likely to appeal primarily to computational biophysicists; the abstract does not frame the findings for a broader biological or clinical audience. Technical soundness: Not assessable from the abstract due to missing methodological and quantitative detail. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the absence of quantitative results and methodological detail prevents any assessment of whether the claims are supported. A full manuscript with complete methods, numerical data, and statistical analyses would be required to evaluate the case.
+
+## Risk / unsupported claims
+- The claim of less favorable binding free energies in mutants is unsupported without numerical values and error estimates.
+- The claim of altered water dynamics (occupancy, mobility, rotational dynamics, H-bond relaxation lifetimes) is unsupported without quantitative metrics and statistical comparisons.
+- The claim that water molecules in WT are "more ordered and long-lived" is unsupported without quantitative residence time or order parameter data.
+- The causal link between solvation changes and reduced binding affinity is asserted but not demonstrated with correlational or mechanistic evidence.
+- All simulation-related claims are unverifiable due to the absence of methodological details.

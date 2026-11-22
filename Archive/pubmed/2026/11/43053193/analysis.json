@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43053193",
+  "title": "Pathomics-based prediction of natural regulatory T cell infiltration in breast cancer.",
+  "authors": "Xu, Yuanbing; Pan, Yanming; Cui, Manlu; Li, Jingtao; Yang, Qinlian; Huang, Linfei; Pan, Dai; Li, Qiuyun",
+  "journal": "Breast cancer research : BCR",
+  "published_date": "2026-11-19",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习病理组学预测乳腺癌中调节性T细胞浸润，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Natural regulatory T cells (nTregs) are a key immunosuppressive component of the tumor microenvironment (TME), but their assessment typically requires specialized molecular assays. This study aimed to develop and validate a deep learning-based pathomics model to predict nTregs infiltration directly from routine hematoxylin and eosin (H&E)-stained whole slide images (WSI) of breast cancer and evaluate its prognostic significance. METHODS: Data from 1097 breast cancer patients in The Cancer Genome Atlas (TCGA) were analyzed. A cohort of 928 patients with complete RNA-seq data was used to establish the prognostic value of nTregs (estimated by ImmuneCellAI). A subset of 791 patients with matched high-quality H&E-stained WSI was randomly split into training (n = 633) and validation (n = 158) cohorts. A total of 1488 quantitative pathomic features were extracted. After feature selection via minimum Redundancy Maximum Relevance (mRMR) and Recursive Feature Elimination (RFE), a Gradient Boosting Machine (GBM) classifier was trained to predict high versus low nTregs status, generating a continuous Pathomics Score (PS). The PS was validated against FOXP3 immunohistochemistry (IHC) and evaluated for its association with overall survival (OS). Multi-omics analyses explored the underlying biology of PS-defined groups. RESULTS: High nTregs infiltration was an independent predictor of poor OS (HR = 1.58, 95% CI 1.10-2.28, p = 0.013). The GBM model achieved an area under the receiver operating characteristic curve (AUC-ROC) of 0.81 (95% CI 0.78-0.85) in the training cohort and 0.72 (95% CI 0.63-0.80) in the validation cohort. The PS showed a strong correlation with FOXP3(+) cell density (p < 0.001) and was independently associated with worse OS (HR = 1.68, 95% CI 1.15-2.46, p = 0.008). Patients with high PS exhibited a distinct transcriptomic signature enriched for immune activation pathways (e.g., estrogen responses) and upregulated immune checkpoint genes (e.g., CD276, TNFSF4, TNFSF9), alongside an immunosuppressive microenvironment characterized by increased nTregs and M2-like macrophage estimates. CONCLUSION: We developed and validated a pathomics model that non-invasively predicts nTregs infiltration and patient prognosis from standard H&E images. The PS serves as a novel, accessible digital biomarker that captures the complexity of an inflamed yet immunosuppressive TME and has the potential to augment clinical decision-making, particularly in resource-limited settings.",
+  "abstract_zh": "背景：天然调节性T细胞（nTregs）是肿瘤微环境（TME）中的关键免疫抑制成分，但其评估通常需要专门的分子检测。本研究旨在开发并验证一种基于深度学习的病理组学模型，以直接从乳腺癌常规苏木精-伊红（H&E）染色全切片图像（WSI）预测nTregs浸润，并评估其预后意义。方法：分析了癌症基因组图谱（TCGA）中1097例乳腺癌患者的数据。使用具有完整RNA-seq数据的928例患者队列，确立nTregs（通过ImmuneCellAI估计）的预后价值。将具有匹配高质量H&E染色WSI的791例患者子集随机分为训练队列（n = 633）和验证队列（n = 158）。共提取了1488个定量病理组学特征。通过最小冗余最大相关性（mRMR）和递归特征消除（RFE）进行特征选择后，训练了一个梯度提升机（GBM）分类器以预测高或低nTregs状态，生成连续病理组学评分（PS）。PS针对FOXP3免疫组织化学（IHC）进行验证，并评估其与总生存期（OS）的关联。多组学分析探索了PS定义组别的潜在生物学机制。结果：高nTregs浸润是OS较差的独立预测因子（HR = 1.58，95% CI 1.10-2.28，p = 0.013）。GBM模型在训练队列中实现了受试者工作特征曲线下面积（AUC-ROC）为0.81（95% CI 0.78-0.85），在验证队列中为0.72（95% CI 0.63-0.80）。PS与FOXP3(+)细胞密度强相关（p < 0.001），并与较差的OS独立相关（HR = 1.68，95% CI 1.15-2.46，p = 0.008）。高PS患者表现出独特的转录组特征，富集于免疫激活通路（如雌激素反应）并上调免疫检查点基因（如CD276、TNFSF4、TNFSF9），同时伴随以nTregs和M2样巨噬细胞估计值增加为特征的免疫抑制微环境。结论：我们开发并验证了一种病理组学模型，可从标准H&E图像中非侵入性预测nTregs浸润和患者预后。PS作为一种新颖、可获取的数字生物标志物，捕捉了炎症性但免疫抑制性TME的复杂性，并具有增强临床决策的潜力，尤其是在资源有限的环境中。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43053193/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43053193/",
+  "paper_page_path": "papers/pubmed/43053193/index.html"
+}

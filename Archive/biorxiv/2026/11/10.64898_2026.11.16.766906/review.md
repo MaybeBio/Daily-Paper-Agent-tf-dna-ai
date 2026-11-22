@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, experiments, discussion, conclusion)
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, reproducibility, and suitability for the stated purpose as a benchmarking and data generation tool
+- **Shared manuscript claim summary** The authors present VReceptor, a virtual receptor simulation framework that generates synthetic, sequence-dependent peptide binding affinity data using pharmacophore-inspired position weighting combined with amino acid similarity metrics. They claim the framework is transparent, biologically motivated, and useful for benchmarking machine learning models and peptide design strategies. Validation against a Prolactin-Releasing Peptide (PrRP) experimental dataset is presented as evidence of realism.
+- **Visible evidence base** Abstract, Introduction, Section 2 (model description), Section 2.1 (distance measures), Section 3 (experiments), Section 3.1 (realism validation), Section 4 (discussion), Section 5 (conclusion), Figures 1-5 referenced, Table 1 referenced, equations 1-12 referenced
+- **Missing materials affecting confidence** Actual equation contents (equations 1-12 are referenced but not shown in the provided text), figure contents (Figures 1-5 referenced but not visible), table contents (Table 1 referenced but not visible), the GitHub repository contents, the PrRP dataset itself, and the notebook mentioned in Section 3
+
+## Reviewer
+- **Overall assessment** The manuscript describes a conceptually interesting and potentially useful tool for generating synthetic peptide binding data. The motivation is clear and the design choices are reasonable for a lightweight, interpretable simulator. However, the provided text lacks the actual mathematical formulations, figures, and quantitative results needed to evaluate the technical soundness of the model and the validity of the validation claims. The comparison with Ridge regression is mentioned but not substantiated with visible numbers. The manuscript would benefit from more rigorous statistical evaluation and a clearer articulation of what "realistic" means in this context.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on peptide design, active learning, and benchmarking of predictive models for peptide-receptor interactions. The tool could be useful for those who need a controlled, interpretable data generator to test optimization algorithms before committing to expensive experimental screens. Researchers in the pharmaceutical industry developing peptide therapeutics may also find the framework relevant.
+- **Major strengths** The concept of a transparent, pharmacophore-inspired simulator is a useful complement to black-box oracles. The model is parameter-efficient (6 parameters vs 155 for Ridge regression), which is a genuine advantage in low-data regimes. The inclusion of multiple distance measures (cosine, Chebyshev, L2) provides flexibility. The authors are honest about the model's limitations, including the lack of higher-order interactions and structural considerations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims VReceptor "generates realistic, sequence-dependent binding data" and that validation on the PrRP dataset "confirms VReceptor's ability to approximate binding behaviours."
+  - **Evidence pointer** Section 3.1, Figure 5, Table 1, location not provided
+  - **Concern** The actual equations defining the model (equations 1-12) are referenced but not shown in the provided text. Without the mathematical formulation, the model cannot be evaluated for correctness, reproducibility, or biological plausibility. Similarly, the quantitative results in Figure 5 and Table 1 are not visible, so the claimed validation cannot be assessed.
+  - **Why it matters** The core contribution of this work is a computational model. If the model equations are not presented, the work is not reproducible and the technical soundness cannot be established. The validation claims rest entirely on unseen quantitative results.
+  - **Resolution test** Provide the full equations, figures, and tables in the manuscript. Show the actual MSE, Pearson, and Spearman values for both VReceptor and Ridge regression on train and test sets, with confidence intervals or error bars.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The manuscript claims VReceptor "performs similar good" to Ridge regression and has "enhanced generalization compared to simple ridge regression when facing limited experimental data."
+  - **Evidence pointer** Section 3.1, Section 5, Figure 5, Table 1, location not provided
+  - **Concern** The comparison with Ridge regression is mentioned qualitatively but no quantitative evidence is visible. The claim of "enhanced generalization" in the conclusion is stronger than what is stated in Section 3.1, where the authors say VReceptor "performs similar good." These two statements are not equivalent, and the stronger claim in the conclusion is not supported by the visible text.
+  - **Why it matters** The conclusion makes a specific comparative claim that is not backed by the evidence presented in the results section. This inconsistency undermines the credibility of the validation.
+  - **Resolution test** Present the actual performance metrics for both models on train and test sets. Clarify whether VReceptor outperforms Ridge regression on held-out data and by what margin. If the claim of "enhanced generalization" is retained, provide statistical evidence (e.g., cross-validation results, confidence intervals).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** The manuscript states that fitting VReceptor to NPFFR1 and NPFFR2 data resulted in "higher mean-squared error values and lower Spearman and Pearson correlations," attributed to insufficient data diversity or unmodeled effects such as peptide helicity.
+  - **Evidence pointer** Section 4, location not provided
+  - **Concern** The authors acknowledge that the model performs worse on two of the three receptors but do not provide quantitative results or a systematic analysis of why. The explanation offered (data diversity or helicity effects) is speculative and not tested.
+  - **Why it matters** The validation is based on a single receptor (GPR10) with a filtered subset of data. The model's generalizability to other receptors is questionable, and the manuscript does not provide enough information to assess whether the failure is due to model limitations or data quality.
+  - **Resolution test** Provide the quantitative results for all three receptors. If possible, test the helicity hypothesis by including a helicity-related feature or by analyzing the relationship between predicted and measured values for peptides with known structural differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model specification
+  - **Evidence pointer** Section 2, location not provided
+  - **Issue** The number of Gaussian functions is described as a user-specified parameter, but the default or recommended value is not stated. The initialization procedure for the Gaussian parameters is also not described in the text.
+  - **Required correction** Specify the default number of Gaussian functions and describe the initialization strategy, or refer to the GitHub repository for these details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Experimental setup
+  - **Evidence pointer** Section 3, location not provided
+  - **Issue** The description of the random design comparison is incomplete. It is unclear how the random triple-mutant library was generated (e.g., uniform random sampling, constraints on mutation positions) and whether the test set of 200 peptides was disjoint from the training set in both designs.
+  - **Required correction** Clarify the random sampling procedure and confirm that the test set was not used for training in either design.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Validation metrics
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The manuscript reports MSE, Pearson, and Spearman correlations but does not mention confidence intervals, standard errors, or significance testing. Given the small dataset (250 training samples), this is a concern.
+  - **Required correction** Report confidence intervals or perform bootstrap resampling to assess the stability of the performance metrics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Related work
+  - **Evidence pointer** Section 1.1, location not provided
+  - **Issue** The discussion of related work mentions the Poli library and PeptideRanker but does not compare VReceptor to other synthetic data generators or simulation frameworks for peptide binding.
+  - **Required correction** Add a brief comparison to existing synthetic data generation approaches for peptides, if any exist, to position VReceptor in the broader landscape.
+- **Technical failings that need to be addressed before the case is established** The absence of the actual model equations, figures, and quantitative results in the provided text is a critical failing. The validation claims cannot be assessed without these. The inconsistency between the "similar good" statement in Section 3.1 and the "enhanced generalization" claim in Section 5 also needs resolution.
+- **Assessment against Nature-style criteria** Originality: The concept of a pharmacophore-inspired virtual receptor for generating synthetic peptide binding data is moderately original, though it builds on existing ideas in computational drug discovery. Scientific importance: The tool could be useful for benchmarking, but its impact depends on demonstrating that the generated data are sufficiently realistic for downstream tasks, which is not established here. Interdisciplinary readership: The work sits at the intersection of computational biology, machine learning, and pharmaceutical research, and could appeal to a broad audience if properly validated. Technical soundness: Cannot be fully assessed due to missing equations and results. Readability for nonspecialists: The text is generally clear, but the lack of equations and figures makes it difficult for a nonspecialist to understand the model mechanics.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful tool, but the missing technical details and quantitative results prevent a proper evaluation. The authors should provide the full model specification, figures, and tables, and clarify the comparative claims against Ridge regression.
+
+## Risk / unsupported claims
+- The claim that VReceptor generates "realistic" binding data is not supported by the visible evidence. The validation on the PrLP dataset is described qualitatively, and the actual performance metrics are not shown.
+- The claim of "enhanced generalization compared to simple ridge regression" in the conclusion is not supported by the text in Section 3.1, which only states that VReceptor "performs similar good."
+- The statement that the model "empowers researchers in computational peptide design and active learning workflows" is a general assertion without specific demonstrations or use cases.
+- The explanation for poor performance on NPFFR1 and NPFFR2 data (data diversity or helicity effects) is speculative and not tested.
